@@ -1,0 +1,9 @@
+{
+    "redirections":  [
+        {
+            "source_path":  "devices/surface-hub/i-am-done-finishing-your-surface-hub-meeting.md",
+            "redirect_url":  "https://docs.microsoft.com/surface-hub/finishing-your-surface-hub-meeting",
+            "redirect_document_id":  true
+        }
+]
+}
