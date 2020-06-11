@@ -1,12 +1,12 @@
 {
     "redirections":  [
         {
-            "source_path":  "devices/surface-hub/i-am-done-finishing-your-surface-hub-meeting.md",
+            "source_path":  "surface-hub/i-am-done-finishing-your-surface-hub-meeting.md",
             "redirect_url":  "https://docs.microsoft.com/surface-hub/finishing-your-surface-hub-meeting",
             "redirect_document_id":  true
         },
         {
-            "source_path":  "devices/surface-hub/surface-hub-administrators-guide.md",
+            "source_path":  "surface-hub/surface-hub-administrators-guide.md",
             "redirect_url":  "/surface-hub/index",
             "redirect_document_id":  true
         }
