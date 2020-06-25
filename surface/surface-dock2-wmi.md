@@ -46,7 +46,7 @@ To enable WMI support, go to [Surface Dock 2 Drivers and Firmware](https://www.m
      Get-CimClass -Namespace "root/Surface" -Class "SurfaceDockComponent").CimClassProperties["<Property>"]
     ```
 
-3. For example, to access the description for the **Version** CIM property, enter the following:
+- **Example:** to access the description for the **Version** CIM property, enter the following:
     ```
     (Get-CimClass -Namespace "root/Surface" -Class "SurfaceDockComponent").CimClassProperties["Version"].Qualifiers["Description"].Value
     ```
