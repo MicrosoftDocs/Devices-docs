@@ -20,16 +20,14 @@ Windows Management Instrumentation (WMI) support provides a rich set of diagnost
 
 To enable WMI support, go to [Surface Dock 2 Drivers and Firmware](https://www.microsoft.com/download/details.aspx?id=101317) and download the appropriate package:
 
-**SurfaceDock2_WmiInstanceProvider_Win10_17763_20.062.26674.0_x64.msi:**<br>
+**SurfaceDock2_WmiInstanceProvider_Win10_17763_*Version*_x64.msi:**<br>
 
 - Surface Pro (5th Gen and later)
-- Surface Go 
-- Surface Go 2
+- Surface Book (2nd Gen and later)
+- Surface Go (all generations)
 - Surface Laptop (all generations)
-- Surface Book 2
-- Surface Book 3
 
-**SurfaceDock2_WmiInstanceProvider_Win10_17763_20.062.26674.0_arm64.msi:** <br>
+ **SurfaceDock2_WmiInstanceProvider_Win10_17763_*Version*_arm64.msi:** <br>
 
 - Surface Pro X
 
@@ -40,18 +38,18 @@ To enable WMI support, go to [Surface Dock 2 Drivers and Firmware](https://www.m
     ```WMI
     Get-CimInstance -Namespace "root/Surface" -Class "SurfaceDockComponent" 
     ```
-2. To access WMI Class Property descriptions, open a command prompt and enter WMI commands where **Property** is one of the properties listed below in the “Surface Dock 2 WMI reference table”.
+2. To access WMI Class Property descriptions, open a command prompt and enter WMI commands where **Property** is one of the properties listed in Table 1.
 
     ```WMI
      Get-CimClass -Namespace "root/Surface" -Class "SurfaceDockComponent").CimClassProperties["<Property>"]
     ```
 
-- **Example:** to access the description for the **Version** CIM property, enter the following:
+- **Example:** to access the description for the **Version** Common Information Model (CIM) property, enter the following:
     ```WMI
     (Get-CimClass -Namespace "root/Surface" -Class "SurfaceDockComponent").CimClassProperties["Version"].Qualifiers["Description"].Value
     ```
  
- ## Surface Dock 2 WMI reference
+ ### Table 1. Surface Dock 2 WMI reference
 
 | Property         | Type   | Expected Value(s)                                                                                                                                                                                                            | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | ---------------- | ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
