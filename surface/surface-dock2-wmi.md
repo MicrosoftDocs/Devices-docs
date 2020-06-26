@@ -20,14 +20,14 @@ Windows Management Instrumentation (WMI) support provides a rich set of diagnost
 
 To enable WMI support, go to [Surface Dock 2 Drivers and Firmware](https://www.microsoft.com/download/details.aspx?id=101317) and download the appropriate package:
 
-**SurfaceDock2_WmiInstanceProvider_Win10_17763_*Version*_x64.msi:**<br>
+**SurfaceDock2_WmiInstanceProvider_Win10_17763_&#60;Version&#62;_x64.msi:**<br>
 
 - Surface Pro (5th Gen and later)
 - Surface Book (2nd Gen and later)
 - Surface Go (all generations)
 - Surface Laptop (all generations)
 
- **SurfaceDock2_WmiInstanceProvider_Win10_17763_*Version*_arm64.msi:** <br>
+ **SurfaceDock2_WmiInstanceProvider_Win10_17763_&#60;Version&#62;_arm64.msi:** <br>
 
 - Surface Pro X
 
@@ -35,16 +35,16 @@ To enable WMI support, go to [Surface Dock 2 Drivers and Firmware](https://www.m
 
 1. To enumerate all dock component instances:
 
-    ```WMI
+    ```PowerShell
     Get-CimInstance -Namespace "root/Surface" -Class "SurfaceDockComponent" 
     ```
 2. To access WMI Class Property descriptions, open a command prompt and enter WMI commands where **Property** is one of the properties listed in Table 1.
 
-    ```WMI
+    ```PowerShell
      Get-CimClass -Namespace "root/Surface" -Class "SurfaceDockComponent").CimClassProperties["<Property>"]
     ```
 
-- **Example:** to access the description for the **Version** Common Information Model (CIM) property, enter the following:
+- **Example:** To access the description for the **Version** Common Information Model (CIM) property, enter the following:
     ```WMI
     (Get-CimClass -Namespace "root/Surface" -Class "SurfaceDockComponent").CimClassProperties["Version"].Qualifiers["Description"].Value
     ```
