@@ -48,6 +48,7 @@
 ### [Optimize Wi-Fi connectivity for Surface devices](surface-wireless-connect.md)
 ### [Best practice power settings for Surface devices](maintain-optimal-power-settings-on-Surface-devices.md)
 ### [Surface Dock Firmware Update](surface-dock-firmware-update.md)
+### [Manage Surface Dock 2 with WMI](surface-dock2-wmi.md)
 ### [Battery Limit setting](battery-limit.md)
 ### [Surface Brightness Control](microsoft-surface-brightness-control.md)
 ### [Surface Asset Tag](assettag.md)
