@@ -1,6 +1,6 @@
 ---
-title: Surface Book 3 GPU technical overview
-description: This article describes the advanced capabilities enabled by Nvidia Quadro RTX 3000 in select Surface Book 3 for Business 15-inch models.
+title: Surface Book 3 Quadro RTX 3000 technical overview
+description: This article describes the advanced capabilities enabled by Nvidia Quadro RTX 3000 in select Surface Book 3 for Business 15-inch models and includes information about ISV-tested applications.
 ms.prod: w10
 ms.mktglfcycl: manage
 ms.localizationpriority: medium
@@ -88,7 +88,7 @@ The Surface Book 3 with Quadro RTX 3000 delivers the best graphics performance o
 
 As shown in Table 3, Surface Book 3 with Quadro RTX 3000 is tested and approved by leading ISVs including Adobe, Autodesk, McNeel & Associates, and others. Quadro RTX 3000 provides significantly faster acceleration across leading professional applications. SPECview perf 13 benchmark test results compare Surface Book 3 15-inch with NVIDIA Quadro RTX 3000 versus the Surface Book 2 15-inch with NVIDIA GeForce GTX 1060 devices. 
 
-**Table 3. App acceleration on Surface Book 3 with Quadro RTX 3000**
+**Table 3. ISV testing & app acceleration on Surface Book 3 with Quadro RTX 3000**
 
 
 | App                                                 | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
