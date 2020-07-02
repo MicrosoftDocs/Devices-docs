@@ -86,7 +86,7 @@ The Surface Book 3 with Quadro RTX 3000 delivers the best graphics performance o
  
 ## ISV testing & app acceleration
 
-As shown in Table 3, Surface Book 3 with Quadro RTX 3000 is tested and approved by leading ISVs including Adobe, Autodesk, McNeel & Associates, and others. Quadro RTX 3000 provides significantly faster acceleration across leading professional applications. SPECview perf 13 benchmark test results compare Surface Book 3 15-inch with NVIDIA Quadro RTX 3000 versus the Surface Book 2 15-inch with NVIDIA GeForce GTX 1060 devices. 
+As shown in Table 3, Surface Book 3 with Quadro RTX 3000 is tested and approved by leading ISVs and provides significantly faster acceleration across professional applications. SPECview perf 13 benchmark test results compare Surface Book 3 15-inch with NVIDIA Quadro RTX 3000 versus the Surface Book 2 15-inch with NVIDIA GeForce GTX 1060 devices. 
 
 **Table 3. ISV testing & app acceleration on Surface Book 3 with Quadro RTX 3000**
 
