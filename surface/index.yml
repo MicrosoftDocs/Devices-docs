@@ -67,11 +67,11 @@ additionalContent:
         - title: Surface Hub overview
           links: 
             - text: What's new in Surface Hub 2S?
-              url: ../surface-hub/surface-hub-2s-whats-new.md
+              url: surface-hub/surface-hub-2s-whats-new.md
             - text: Surface Hub 2S tech specs
-              url: ../surface-hub/surface-hub-2s-techspecs.md
+              url: surface-hub/surface-hub-2s-techspecs.md
             - text: Operating system essentials
-              url: ../surface-hub/differences-between-surface-hub-and-windows-10-enterprise.md
+              url: surface-hub/differences-between-surface-hub-and-windows-10-enterprise.md
         # Card 2
         - title: Surface Hub community 
           links:
