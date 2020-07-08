@@ -1,6 +1,6 @@
 ### YamlMime:Hub
 
-title: Microsoft Surface # < 60 chars
+title: Microsoft Surface for IT professionals # < 60 chars
 summary: Learn how to plan, deploy, and manage Microsoft Surface and Surface Hub devices. # < 160 chars
 # brand: aspnet | azure | dotnet | dynamics | m365 | ms-graph | office | power-platform | project | sharepoint | sql | sql-server | teams | vs | visual-studio | windows | xamarin
 brand: windows
@@ -16,47 +16,69 @@ metadata:
   ms.date: 07/03/2019 #Required; mm/dd/yyyy format.
   localization_priority: Priority
 
+# highlightedContent section (optional)
+# Maximum of 8 items
+highlightedContent:
+# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+  items:
+    # Card
+    - title: Surface devices documentation
+      itemType: learn
+      url: https://docs.microsoft.com/surface/get-started
+    # Card
+    - title: Surface Hub documentation
+      itemType: learn
+      url: https://docs.microsoft.com/surface-hub/index   
+      
 # additionalContent section (optional)
-# Card with summary style
+# Card with links style
 additionalContent:
   # Supports up to 3 sections
   sections:
-    - title: For IT Professionals # < 60 chars (optional)
+    - title: Surface resources # < 60 chars (optional)
+      summary: Find resources for your Microsoft Surface devices. # < 160 chars (optional)
       items:
-        # Card
-        - title: Surface devices documentation
-          summary: Harness the power of Surface, Windows, and Office connected together through the cloud. Find tools, step-by-step guides, and other resources to help you plan, deploy, and manage Surface devices in your organization.
-          url: https://docs.microsoft.com/en-us/surface/get-started
-        # Card
-        - title: Surface Hub documentation
-          summary: Learn how to deploy and manage Surface Hub 2S, the all-in-one digital interactive whiteboard, meetings platform, and collaborative computing device. 
-          url: https://docs.microsoft.com/surface-hub/index     
-    - title: Other resources # < 60 chars (optional)
-      items:
-        # Card
-        - title: Communities
+        # Card 3
+        - title: Surface overview
+          links: 
+            - text: Surface Go 2 for Business
+              url: https://www.microsoft.com/surface/business/surface-go-2
+            - text: Surface Book 3 for Business
+              url: https://www.microsoft.com/surface/business/surface-book-3
+            - text: Explore all Surface family products
+              url: https://www.microsoft.com/surface/business
+        # Card 1
+        - title: Surface community
           links:
             - text: Surface IT Pro blog
               url: https://techcommunity.microsoft.com/t5/Surface-IT-Pro-Blog/bg-p/SurfaceITPro
             - text: Surface Devices Tech Community
               url: https://techcommunity.microsoft.com/t5/Surface-Devices/ct-p/SurfaceDevices
-        # Card
-        - title: Learn
+        # Card 5
+        - title: Surface help
+          links: 
+            - text: Contact Surface Support
+              url: contact-surface-support.md
+
+    - title: Surface Hub resources # < 60 chars (optional)
+      summary: Find resources for your Microsoft Surface Hub. # < 160 chars (optional)
+      items:
+        # Card 4
+        - title: Surface Hub overview
+          links: 
+            - text: What's new in Surface Hub 2S?
+              url: ../surface-hub/surface-hub-2s-whats-new
+            - text: Surface Hub 2S tech specs
+              url: ../surface-hub/surface-hub-2s-techspecs
+            - text: Operating system essentials
+              url: ../surface-hub/differences-between-surface-hub-and-windows-10-enterprise
+        # Card 2
+        - title: Surface Hub community 
           links:
-            - text: Surface training on Microsoft Learn
-              url: https://docs.microsoft.com/learn/browse/?term=Surface
-            - text: Surface Hub 2S adoption guidance
-              url: https://docs.microsoft.com/surface-hub/surface-hub-2s-adoption-kit
-            - text: Microsoft Mechanics Surface videos
-              url: https://www.youtube.com/watch?v=Uk2kJ5FUZxY&list=PLXtHYVsvn_b__1Baibdu4elN4SoF3JTBZ
-            
-        # Card
-        - title: Need help?
-          links:
-            - text: Surface devices
-              url: https://support.microsoft.com/products/surface-devices
-            - text: Surface Hub
-              url: https://support.microsoft.com/hub/4343507/surface-hub-help
+            - text: Surface Hub Tech Community
+              url: https://techcommunity.microsoft.com/t5/surface-hub/bd-p/SurfaceHub
+        # Card 6
+        - title: Surface Hub help
+          links: 
             - text: Contact Surface Hub Support
               url: https://support.microsoft.com/supportforbusiness/productselection?sapId=bb7066fb-e329-c1c0-9c13-8e9949c6a64e
-
