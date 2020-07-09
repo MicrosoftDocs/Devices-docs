@@ -25,7 +25,11 @@
         "files": [
           "**/*.png",
           "**/*.jpg",
-          "**/images/**"
+          "**/images/**",
+          "**/*.gif",
+          "**/*.svg",
+          "**/*.pdf",
+          "**/*.xlsx"
         ],
         "exclude": [
           "**/obj/**",
