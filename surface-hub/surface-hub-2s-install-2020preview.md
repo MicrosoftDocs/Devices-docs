@@ -33,7 +33,7 @@ Before you begin, check that your Surface Hub has the latest updates from Window
 1. On Surface Hub, open **Settings** and enter your admin credentials when prompted.
 2. Navigate to **Update & Security** > **Windows Update** and then select **Check for updates**.
 
-For more information, see [Manage Windows updates on Surface Hub](https://docs.microsoft.com/en-us/surface-hub/manage-windows-updates-for-surface-hub).
+For more information, see [Manage Windows updates on Surface Hub](https://docs.microsoft.com/surface-hub/manage-windows-updates-for-surface-hub).
 
 **To manually save your BitLocker key:**
 
@@ -42,7 +42,7 @@ For more information, see [Manage Windows updates on Surface Hub](https://docs.m
 3. Navigate to **Update & Security** > **Recovery**.
 4. Under **BitLocker**, select **Save**. The BitLocker key is saved to a text file on the USB drive.
 
-For more information, see [Save your BitLocker key](https://docs.microsoft.com/en-us/surface-hub/save-bitlocker-key-surface-hub).
+For more information, see [Save your BitLocker key](https://docs.microsoft.com/surface-hub/save-bitlocker-key-surface-hub).
  
 ## Install the Windows 10 Team 2020 Update Preview Build
 
