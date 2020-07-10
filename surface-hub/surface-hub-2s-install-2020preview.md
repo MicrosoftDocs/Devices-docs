@@ -1,5 +1,5 @@
 ---
-title: "Install Windows 10 Team 2020 Update Preview Build for Surface Hub 2S"
+title: "Install Windows 10 Team 2020 Update Preview Build"
 description: "The latest update of the Surface Hub operating system, Windows 10 Team 2020 Update, is now available."
 keywords: separate values with commas
 ms.prod: surface-hub
@@ -12,7 +12,7 @@ ms.topic: article
 ms.date: 07/15/2020
 ms.localizationpriority: Medium
 ---
-# Install Windows 10 Team 2020 Update Preview Build for Surface Hub 2S 
+# Install Windows 10 Team 2020 Update Preview Build 
 
 The latest update of the Surface Hub operating system, Windows 10 Team 2020 Update, is now available at no additional cost for all first-generation Surface Hub and Surface Hub 2S devices from the [Windows Insider Program](https://insider.windows.com/).
 
