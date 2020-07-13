@@ -20,7 +20,7 @@ ms.audience: itpro
 # Top support solutions for Surface devices
 
 > [!Note]
-> **Home users**: This article is only intended for use by IT professionals and technical support agents, and applies only to Surface devices. If you're looking for help with a problem with your home device, please see  [Surface Devices Help](https://support.microsoft.com/products/surface-devices).
+> **Home users**: This article is only intended for use by IT professionals and technical support agents, and applies only to Surface devices. If you're looking for help with a problem with your home device, please see [Surface Support](contact-surface-support?tabs=online).
 
 These are the Microsoft Support solutions for common issues you may experience using Surface devices in an enterprise. If your issue is not listed here, [contact Microsoft Support](https://support.microsoft.com/supportforbusiness/productselection).
 
