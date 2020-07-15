@@ -15,15 +15,15 @@ ms.localizationpriority: Medium
 
 # Install and configure the new Microsoft Edge on Surface Hub
 
-Windows 10 Team 2020 Update supports the new Microsoft Edge based on Chromium (version 85 and above) as the recommended browser for Surface Hub. You can install Microsoft Edge Chromium manually using a provisioning package, remotely using Microsoft Intune or your preferred Mobile Device Management (MDM) provider. By default, Surface Hub devices are preinstalled with Microsoft Edge Legacy (version 44).
+Windows 10 Team 2020 Update supports the new Microsoft Edge based on Chromium (version 85 and above) as the recommended browser for Surface Hub. You can install the new Microsoft Edge manually using a provisioning package, remotely using Microsoft Intune or your preferred Mobile Device Management (MDM) provider. By default, Surface Hub devices are preinstalled with Microsoft Edge Legacy (version 44).
 
 > [!NOTE]
-> Surface Hub requires version 85 or later of Microsoft Edge Chromium, with availability limited to the “[Dev channel](https://docs.microsoft.com/deployedge/microsoft-edge-channels),” designed to give IT admins an early look at upcoming Edge functionality and prepare for the next Beta release.  Support for the Dev channel is temporarily enabled for Windows Insiders to preview Microsoft Edge Chromium. (Normally, Surface Hub supports only versions released to the “Stable channel.”) For more information, see [Microsoft Edge channel overview.](https://docs.microsoft.com/deployedge/microsoft-edge-channels)
+> Surface Hub requires version 85 or later of the new Microsoft Edge, with availability limited to the “[Dev channel](https://docs.microsoft.com/deployedge/microsoft-edge-channels),” designed to give IT admins an early look at upcoming Edge functionality and prepare for the next Beta release.  Support for the Dev channel is temporarily enabled for Windows Insiders to preview the new Microsoft Edge. (Normally, Surface Hub supports only versions released to the “Stable channel.”) For more information, see [Microsoft Edge channel overview.](https://docs.microsoft.com/deployedge/microsoft-edge-channels)
  
-Note the following configuration details if you choose to install Microsoft Edge Chromium:
+Note the following configuration details if you choose to install the new Microsoft Edge:
  
 - By design, Microsoft Edge Dev channel installs side-by-side with Microsoft Edge Legacy, so users will see both “Microsoft Edge Dev” (version 85) and “Microsoft Edge” (version 44) in the Surface Hub Start menu. In contrast, Microsoft Edge Stable channel will replace Microsoft Edge Legacy as the default browser.
-- Once installed, Microsoft Edge Dev channel will not automatically appear as a pinned app in the Surface Hub Start menu. Instead, users will find it under **Start** > **All Apps**. In contrast, Microsoft Edge Stable channel automatically replaces Microsoft Edge Legacy as a pinned app in the Start menu.
+- Once installed, Microsoft Edge Dev channel will not automatically appear as a pinned app. To open, select  **Start** > **All Apps**. In contrast, Microsoft Edge Stable channel automatically replaces Microsoft Edge Legacy as a pinned app in the All Apps list.
 - Once version 85 is promoted to Stable channel, Microsoft Edge Dev channel will automatically disappear from the Start menu, and you will be required to install Microsoft Edge Stable channel on your Surface Hub.
 
 > [!NOTE]
@@ -114,7 +114,22 @@ Microsoft Edge Stable channel is automatically pinned to the Surface Hub Start m
 
 **Important:** The new Microsoft Edge doesn’t support pinned websites and links using SecondaryTiles.
  
+    <start:DesktopApplicationTile
+    DesktopApplicationLinkPath="C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
+    Size="2x2"
+    Row="0"
+    Column="0"/>
+    
+
  
+For more information, see [Configure Surface Hub Start menu](https://docs.microsoft.com/en-us/surface-hub/surface-hub-start-menu).
+ 
+
+## Related links
+
+More information on Microsoft Edge documentation is available [here](https://docs.microsoft.com/en-us/microsoft-edge/).
+
+
  
  
 
