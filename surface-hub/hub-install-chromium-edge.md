@@ -9,7 +9,7 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 07/20/2020
+ms.date: 07/19/2020
 ms.localizationpriority: Medium
 ---
 
