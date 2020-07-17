@@ -114,20 +114,20 @@ Microsoft Edge Stable channel is automatically pinned to the Surface Hub Start m
 
 **Important:** The new Microsoft Edge doesn’t support pinned websites and links using SecondaryTiles.
  
+    ```html
     <start:DesktopApplicationTile
     DesktopApplicationLinkPath="C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
     Size="2x2"
     Row="0"
     Column="0"/>
-    
+    ```
 
- 
-For more information, see [Configure Surface Hub Start menu](https://docs.microsoft.com/en-us/surface-hub/surface-hub-start-menu).
+For more information, see [Configure Surface Hub Start menu](https://docs.microsoft.com/surface-hub/surface-hub-start-menu).
  
 
 ## Related links
 
-More information on Microsoft Edge documentation is available [here](https://docs.microsoft.com/en-us/microsoft-edge/).
+More information on Microsoft Edge documentation is available [here](https://docs.microsoft.com/microsoft-edge/).
 
 
  
