@@ -48,6 +48,6 @@ After you've installed the Windows 10 Team 2020 Update, your Surface Hub will au
 
 ## Get the latest firmware for Surface Hub 2 Pen
 
-Dual-pen support requires the latest firmware version for the Surface Hub 2 Pen (version <version number>). For more information, see [Update pen firmware on Surface Hub 2S](https://docs.microsoft.com/en-us/surface-hub/surface-hub-2s-pen-firmware).
+Dual-pen support requires the latest firmware version for the Surface Hub 2 Pen (version <version number>). For more information, see [Update pen firmware on Surface Hub 2S](https://docs.microsoft.com/surface-hub/surface-hub-2s-pen-firmware).
  
 
