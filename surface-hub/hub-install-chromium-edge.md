@@ -1,6 +1,6 @@
 ---
 title: "Install and configure the new Microsoft Edge on Surface Hub"
-description: "TInstall and configure the new Microsoft Edge on Surface Hub."
+description: "Install and configure the new Microsoft Edge on Surface Hub."
 keywords: separate values with commas
 ms.prod: surface-hub
 ms.sitesec: library
@@ -9,7 +9,7 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 07/15/2020
+ms.date: 07/20/2020
 ms.localizationpriority: Medium
 ---
 
