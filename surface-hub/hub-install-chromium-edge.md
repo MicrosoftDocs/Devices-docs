@@ -113,14 +113,21 @@ Note that Surface Hub does not support the following Microsoft Edge update polic
 Microsoft Edge Stable channel is automatically pinned to the Surface Hub Start menu once it’s installed. If you want to apply a customized Start menu layout, use the following XML to add a pinned tile for Microsoft Edge.
 
 **Important:** The new Microsoft Edge doesn’t support pinned websites and links using SecondaryTiles.
- 
-    ```html
-    <start:DesktopApplicationTile
-    DesktopApplicationLinkPath="C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
-    Size="2x2"
-    Row="0"
-    Column="0"/>
-    ```
+
+```xml
+
+<start:DesktopApplicationTile
+
+DesktopApplicationLinkPath="C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
+
+Size="2x2"
+
+Row="0"
+
+Column="0"/>
+```
+
+
 
 For more information, see [Configure Surface Hub Start menu](https://docs.microsoft.com/surface-hub/surface-hub-start-menu).
  
