@@ -20,10 +20,9 @@ Passwordless sign-in simplifies access to your apps, meetings, and files. Surfac
 
 **Important:** This content is intended for users. To use passwordless sign-in, your IT admin must enable passwordless authentication for your organization. For more information, see:
 
-- [Enable passwordless phone sign-in](https://docs.microsoft.com/en-us/azure/active-directory/authentication/howto-authentication-passwordless-phone)
-- [Enable passwordless security key sign-in](https://docs.microsoft.com/en-us/azure/active-directory/authentication/howto-authentication-passwordless-security-key)
+- [Enable passwordless phone sign-in](https://docs.microsoft.com/azure/active-directory/authentication/howto-authentication-passwordless-phone)
+- [Enable passwordless security key sign-in](https://docs.microsoft.com/azure/active-directory/authentication/howto-authentication-passwordless-security-key)
 
- 
 
 ## Configure sign-in using Microsoft Authenticator app
 
@@ -39,7 +38,6 @@ The Microsoft Authenticator app helps you sign-in to Surface Hub using your mobi
 3. From the Microsoft Authenticator app on your mobile device, [turn on and use phone sign-in](https://docs.microsoft.com/azure/active-directory/user-help/user-help-auth-app-sign-in#turn-on-and-use-phone-sign-in-for-your-work-or-school-account) for your work or school account.
 
  
-
 ## Configure sign-in using FIDO2 security keys
 
 **Note:** Passwordless sign-in on Surface Hub using FIDO2 security keys requires the Windows 10 Team 2020 Update.

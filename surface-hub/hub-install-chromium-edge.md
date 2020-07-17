@@ -127,8 +127,6 @@ Row="0"
 Column="0"/>
 ```
 
-
-
 For more information, see [Configure Surface Hub Start menu](https://docs.microsoft.com/surface-hub/surface-hub-start-menu).
  
 
