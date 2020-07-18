@@ -54,7 +54,7 @@ For more information, see [Save your BitLocker key](https://docs.microsoft.com/s
 6. When your Surface Hub installs the update, select **Restart now** to complete the update. Otherwise, the device will automatically restart during its regular [maintenance window](https://docs.microsoft.com/surface-hub/manage-windows-updates-for-surface-hub#maintenance-window).
 
 > [!NOTE]
-> If you choose to leave the Windows Insider Program and revert your Surface Hub to an older version of the operating system, you must first [reset your device](https://docs.microsoft.com/surface-hub/device-reset-surface-hub). Afterwards, you will need to go through the [first run program](https://docs.microsoft.com/en-us/surface-hub/first-run-program-surface-hub) to re-configure your device.
+> If you choose to leave the Windows Insider Program and revert your Surface Hub to an older version of the operating system, you must first [reset your device](https://docs.microsoft.com/surface-hub/device-reset-surface-hub). Afterwards, you will need to go through the [first run program](https://docs.microsoft.com/surface-hub/first-run-program-surface-hub) to re-configure your device.
  
 ## Known issues: Windows 10 Team 2020 Update Preview Build
 
