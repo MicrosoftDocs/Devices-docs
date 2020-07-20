@@ -9,14 +9,14 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 07/20/2020
+ms.date: 07/21/2020
 ms.localizationpriority: Medium
 ---
 
-# Configure password-less sign-in on Surface Hub
+# Configure passwordless sign-in on Surface Hub
 
  
-Passwordless sign-in simplifies access to your apps, meetings, and files. Surface Hub supports signing in using the Microsoft Authenticator app, and FIDO2 security keys provided by your organization.
+Passwordless sign-in simplifies access to your apps, meetings, and files. Surface Hub supports signing in using the Microsoft Authenticator app and FIDO2 security keys provided by your organization.
 
 **Important:** This content is intended for users. To use passwordless sign-in, your IT admin must enable passwordless authentication for your organization. For more information, see:
 
@@ -40,11 +40,15 @@ The Microsoft Authenticator app helps you sign-in to Surface Hub using your mobi
  
 ## Configure sign-in using FIDO2 security keys
 
-**Note:** Passwordless sign-in on Surface Hub using FIDO2 security keys requires the Windows 10 Team 2020 Update.
+> [!NOTE]
+>  Passwordless sign-in on Surface Hub using FIDO2 security keys requires the Windows 10 Team 2020 Update.
+
+> [!IMPORTANT]
+> Surface Hub only supports USB security keys.
  
-**Important:** Surface Hub only supports USB security keys.
- 
-You can also sign into Surface Hub using a FIDO2 security key provided by your organization. To configure sign-in using a security key:
+You can also sign into Surface Hub using a FIDO2 security key provided by your organization. 
+
+### To configure sign-in using a security key:
 
 
 1. On your PC, go to your [https://myprofile.microsoft.com/](https://myprofile.microsoft.com/) page and sign in to your work or school account.
@@ -62,8 +66,8 @@ Once you've configured passwordless sign-in, you can use it to make it easier to
 
 - Quickly join your meetings and open recent Microsoft 365 files. For more information, see [**Sign in to see your meetings and files**](https://support.microsoft.com/help/4506480/sign-in-to-see-your-meetings-and-files-on-surface-hub).
 - Quickly sign in to Microsoft apps like Whiteboard, PowerPoint, Word, Excel, OneDrive, and Power BI.
-- Quickly sign in to the new Microsoft Edge to access your favorites and browsing preferences. For more information, see Install and [configure the new Microsoft Edge](http://surface-hub-install-chromium-edge.md).
-- Once you've signed into Surface Hub, you can use other apps without having to sign in again until you select **End session**. Selecting **End session** deletes your credentials, files, and personal data from the device. For more information, see [End session](https://docs.microsoft.com/surface-hub/finishing-your-surface-hub-meeting).
+- Quickly sign in to the new Microsoft Edge to access your favorites and browsing preferences. For more information, see [Install and configure the new Microsoft Edge](surface-hub-install-chromium-edge.md).
+- Once you've signed into Surface Hub, you can use other apps without having to sign in again until you select **End session**. Selecting **End session** deletes your credentials, files, and personal data from the device. For more information, see [End session](finishing-your-surface-hub-meeting.md).
 
 
 ## Learn more
