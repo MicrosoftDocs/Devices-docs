@@ -99,4 +99,4 @@ We invite you to share your insights and suggestions with Microsoft Support.
 ## Learn more
 
 - [New Surface Hub OS update released for public preview.](https://techcommunity.microsoft.com/t5/Surface-IT-Pro-Blog/bg-p/SurfaceITPro)
-- [Getting started with the Windows Insider Program for Business] (https://docs.microsoft.com/windows-insider/at-work-pro/wip-4-biz-manage)
+- [Getting started with the Windows Insider Program for Business](https://docs.microsoft.com/windows-insider/at-work-pro/wip-4-biz-manage)
