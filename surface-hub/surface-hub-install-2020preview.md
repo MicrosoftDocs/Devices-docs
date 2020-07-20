@@ -69,7 +69,7 @@ Microsoft plans to fix these issues in the release build of Windows 10 Team 2020
 
 Provisioning packages that use policies from the Surface Hub Configuration Service Provider (CSP) fail to install. For now, use Microsoft Intune or another mobile device management (MDM) provider to apply Surface Hub policies. Microsoft plans to fix this issue in the release build of Windows 10 Team 2020 Update.
  
-### Can’t setup proxy settings during first run
+### Unable to set up proxy settings during first run
 
 If you use a proxy to connect to the Internet, you may have limited Internet connectivity during the first run program. Microsoft plans to fix this issue in the release build of Windows 10 Team 2020 Update.
  
