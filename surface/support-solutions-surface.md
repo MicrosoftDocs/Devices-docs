@@ -20,11 +20,11 @@ ms.audience: itpro
 # Top support solutions for Surface devices
 
 > [!Note]
-> **Home users**: This article is only intended for use by IT professionals and technical support agents, and applies only to Surface devices. If you're looking for help with a problem with your home device, please see [Surface Support](contact-surface-support.md?tabs=online).
+> **Home users**: This article is only intended for use by IT professionals and technical support agents, and applies only to Surface devices. If you're looking for help with a problem with your home device, please see [Surface Devices Help](https://support.microsoft.com/products/surface-devices).
 
 These are the Microsoft Support solutions for common issues you may experience using Surface devices in an enterprise. If your issue is not listed here, [contact Surface Support](contact-surface-support.md?tabs=online).
 
-## Surface Drivers and Firmware
+## Surface drivers and firmware
 
 Microsoft regularly releases both updates and solutions for Surface devices. To ensure your devices can receive future updates, including security updates, it's important to keep your Surface devices updated.
 
@@ -38,10 +38,8 @@ Microsoft regularly releases both updates and solutions for Surface devices. To 
 ## Surface Dock Issues
 
 - [Troubleshoot Surface Dock and docking stations](https://support.microsoft.com/help/4023468/surface-troubleshoot-surface-dock-and-docking-stations)
-
 - [Troubleshoot connecting Surface to a second screen](https://support.microsoft.com/help/4023496)
-
-- [Microsoft Surface Dock Firmware Update](https://docs.microsoft.com/surface/surface-dock-updater)
+- [Microsoft Surface Dock firmware update](https://docs.microsoft.com/surface/surface-dock-updater)
 
 ## Device cover or keyboard issues
 
@@ -53,26 +51,20 @@ Microsoft regularly releases both updates and solutions for Surface devices. To 
 
 ## Surface Power or battery Issues
 
-- [How to Charge Surface(Surface PSU information)](https://support.microsoft.com/help/4023496)
-
+- [How to charge Surface (Surface PSU information)](https://support.microsoft.com/help/4023496)
 - [Surface battery won’t charge or Surface won’t run on battery](https://support.microsoft.com/help/4023536)
-
 - [Surface won’t turn on or wake from sleep](https://support.microsoft.com/help/4023537)
-
 - [Maximize your Surface battery life](https://support.microsoft.com/help/4483194)
 
 ## Reset device
 
 - [Creating and using a USB recovery drive for Surface](https://support.microsoft.com/help/4023512)
-
-- [FAQ: Protecting your data if you send your Surface in for Service](https://support.microsoft.com/help/4023508)
-
+- [FAQ: Protecting your data if you send your Surface in for service](https://support.microsoft.com/help/4023508)
 - [Microsoft Surface Data Eraser](https://docs.microsoft.com/surface/microsoft-surface-data-eraser)
 
-## Deployment Issues
+## Deployment issues
 
 - [DISK0 not found when you deploy Windows on Surface Pro Model 1796 or Surface Laptop](https://support.microsoft.com/help/4046108)
-
 - [Surface Pro Model 1796 and Surface Laptop 1TB display two drives](https://support.microsoft.com/help/4046105)
-
 - [System SKU reference](https://docs.microsoft.com/surface/surface-system-sku-reference)
+
