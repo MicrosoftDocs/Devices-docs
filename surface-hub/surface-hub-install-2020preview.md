@@ -58,42 +58,41 @@ For more information, see [Save your BitLocker key](https://docs.microsoft.com/s
  
 ## Known issues: Windows 10 Team 2020 Update Preview Build
 
-- **Sign in is impacted when Conditional Access policies are applied**
+### Sign in is impacted when Conditional Access policies are applied
 
 - Sign in is limited to accessing your [meetings and recent files](https://support.microsoft.com/help/4506480/sign-in-to-see-your-meetings-and-files-on-surface-hub) from the Start menu but fails when attempting to sign into apps such as Microsoft Whiteboard.
 - Sign in fails if your user account is registered to a different Azure AD tenant than the one used by Surface Hub to Azure AD join.
 
 Microsoft plans to fix these issues in the release build of Windows 10 Team 2020 Update.
 
-- **Can't install Surface Hub policies using provisioning packages**
+### Unable to install Surface Hub policies using provisioning packages
+
 Provisioning packages that use policies from the Surface Hub Configuration Service Provider (CSP) fail to install. For now, use Microsoft Intune or another mobile device management (MDM) provider to apply Surface Hub policies. Microsoft plans to fix this issue in the release build of Windows 10 Team 2020 Update.
  
-- **Can’t setup proxy settings during first run**
+### Can’t setup proxy settings during first run
+
 If you use a proxy to connect to the Internet, you may have limited Internet connectivity during the first run program. Microsoft plans to fix this issue in the release build of Windows 10 Team 2020 Update.
  
-- **An error appears when you download apps from Microsoft Store**
-To download an app from the Microsoft Store, you will see a prompt to sign in. A known issue causes an error to appear during sign-in, but this doesn't affect your ability to download apps. Microsoft plans to fix this issue in the release build of Windows 10 Team 2020 Update.
+### An error appears when you download apps from Microsoft Store
 
-- **Surface Hub 2S intermittently fails to resume from hibernate**
+To download an app from the Microsoft Store, you will see a prompt to sign in. A known issue causes an error to appear during sign-in, but this doesn't affect your ability to download apps. Microsoft is actively investigating this issue.
+
+### Surface Hub 2S intermittently fails to resume from hibernate
+
 Surface Hub 2S may intermittently fail to fully resume from hibernate and appear to stop responding on a screen showing the Microsoft logo. Try unplugging your device and plugging it back in. 
 
 To prevent this issue:
 
 1. On Surface Hub, open **Settings** and enter your admin credentials when prompted.
-2. Navigate to **Surface Hub** > **Session & power**. Under **When the device goes to sleep, use this power setting**, select **Connected Standby (wakes up faster)**.
+2. Navigate to **Surface Hub** > **Session & power**. 
+3. Under **When no one is present, put the device to sleep after**, select **Never**. 
 
 Microsoft plans to fix this issue in a firmware update prior to the final release of Windows 10 Team 2020 Update.
 
-- **Skype for Business isn't using proxy for media traffic**
-For some devices that use a proxy, Skype for Business can sign in, but won't use the proxy server for media traffic. Microsoft is actively investigating this issue.
+### Skype for Business isn't using proxy for media traffic
 
-- **Device doesn't apply settings to disable wireless projection**
-The following projection settings (located in **Settings** > **Surface** **Hub** > **Projection**) don’t work:
+For some devices that use a proxy, Skype for Business can sign in, but will not use the proxy server for media traffic. Microsoft is actively investigating this issue.
 
-- Open Connect automatically when someone projects
-- Presenters can use Miracast to project wirelessly to this device
-
-Microsoft plans to fix this issue in the final build of Windows 10 Team 2020 Update.
  
 We invite you to share your insights and suggestions with Microsoft Support.
 
