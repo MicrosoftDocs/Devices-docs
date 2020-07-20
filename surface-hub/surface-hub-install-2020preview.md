@@ -77,9 +77,9 @@ If you use a proxy to connect to the Internet, you may have limited Internet con
 
 To download an app from the Microsoft Store, you will see a prompt to sign in. A known issue causes an error to appear during sign-in, but this doesn't affect your ability to download apps. Microsoft is actively investigating this issue.
 
-### Surface Hub 2S intermittently fails to resume from hibernate
+### Surface Hub 2S intermittently fails to resume from sleep
 
-Surface Hub 2S may intermittently fail to fully resume from hibernate and appear to stop responding on a screen showing the Microsoft logo. Try unplugging your device and plugging it back in. 
+Surface Hub 2S may intermittently fail to fully resume from sleep and appear to stop responding on a screen showing the Microsoft logo. Try unplugging your device and plugging it back in. 
 
 To prevent this issue:
 
