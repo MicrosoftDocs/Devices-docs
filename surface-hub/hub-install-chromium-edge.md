@@ -52,23 +52,23 @@ Note the following configuration details if you choose to install the new Micros
 ### Install Microsoft Edge using Intune
  
 > [!NOTE]
-> The Surface Hub device must be enrolled into and managed using Intune. For more information, see [Manage Surface Hub 2S with Microsoft Intune](https://docs.microsoft.com/en-us/surface-hub/surface-hub-2s-manage-intune).
+> The Surface Hub device must be enrolled into and managed using Intune. For more information, see [Manage Surface Hub 2S with Microsoft Intune](https://docs.microsoft.com/surface-hub/surface-hub-2s-manage-intune).
  
 
-1. [Download the Microsoft Edge installer from Microsoft](https://www.microsoft.com/en-us/edge/business/download).
-    - Use the current version from [Dev channel](https://docs.microsoft.com/en-us/deployedge/microsoft-edge-channels) **(version 85)**
+1. [Download the Microsoft Edge installer from Microsoft](https://www.microsoft.com/edge/business/download).
+    - Use the current version from [Dev channel](https://docs.microsoft.com/deployedge/microsoft-edge-channels) **(version 85)**
     - Choose **Windows 64-bit**
-2. [Add the Microsoft Edge installer as a line-of-business app to Microsoft Intune](https://docs.microsoft.com/en-us/mem/intune/apps/lob-apps-windows).
+2. [Add the Microsoft Edge installer as a line-of-business app to Microsoft Intune](https://docs.microsoft.com/mem/intune/apps/lob-apps-windows).
     - If you choose to use Microsoft Edge Update to handle automatic updates to Microsoft Edge, be sure to configure the **Ignore app version** setting the **App information** pane. When you switch this setting to **Yes**, Microsoft Intune will not enforce the app version that's installed on the Surface Hub device.
 
  
 ### Install Microsoft Edge using Mobile Device Management
 
-1. [Download the Microsoft Edge installer from Microsoft](https://www.microsoft.com/en-us/edge/business/download).
-    - Use the current version from [Dev channel](https://docs.microsoft.com/en-us/deployedge/microsoft-edge-channels) **(version 85)**
+1. [Download the Microsoft Edge installer from Microsoft](https://www.microsoft.com/edge/business/download).
+    - Use the current version from [Dev channel](https://docs.microsoft.com/deployedge/microsoft-edge-channels) **(version 85)**
     - Choose **Windows 64-bit**
 2. Stage the Microsoft Edge installer on a hosted location, such as a local file share (\\server\share\MicrosoftEdgeEnterpriseX64.msi). The Surface Hub device must have permission to access the hosted location.
-3. Use [EnterpriseDesktopAppManagement Configuration Service Provider (CSP)](https://docs.microsoft.com/en-us/windows/client-management/mdm/enterprisedesktopappmanagement-csp) through your MDM provider to install Microsoft Edge.
+3. Use [EnterpriseDesktopAppManagement Configuration Service Provider (CSP)](https://docs.microsoft.com/windows/client-management/mdm/enterprisedesktopappmanagement-csp) through your MDM provider to install Microsoft Edge.
 
  
 
@@ -83,40 +83,40 @@ Microsoft Edge is preconfigured with the following policies to provide an optimi
 
 | Microsoft Edge policy                                                                                                    | Recommended experience                                                                                                                                                                                                                                               | Default value |
 | ---------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------- |
-| [AutoImportAtFirstRun](https://docs.microsoft.com/en-us/deployedge/microsoft-edge-policies#autoimportatfirstrun)             | Do not automatically import datatypes and settings from Microsoft Edge Legacy. This avoids changing signed-in users' profiles with shared settings from the Surface Hub.                                                                                                 | 4                 |
-| [BackgroundModeEnabled](https://docs.microsoft.com/en-us/deployedge/microsoft-edge-policies#backgroundmodeenabled)           | Allow Microsoft Edge processes to keep running in the background even after the last browser window is closed, enabling faster access to web apps during a session.                                                                                                      | 1                 |
-| [BrowserAddProfileEnabled](https://docs.microsoft.com/en-us/deployedge/microsoft-edge-policies#browseraddprofileenabled)     | Do not allow users to create new profiles in Microsoft Edge. This simplifies the browsing and signed-in experience.                                                                                                                                                      | 0                 |
-| [BrowserGuestModeEnabled](https://docs.microsoft.com/en-us/deployedge/microsoft-edge-policies#browserguestmodeenabled)       | Enables only one user to sign-in to Microsoft Edge. This simplifies the browsing and signed-in experience                                                                                                                                                                | 0                 |
-| [BrowserSignin](https://docs.microsoft.com/en-us/deployedge/microsoft-edge-policies#browsersignin)                           | Enables users to enjoy Single Sign-On (SSO) in Microsoft Edge. When a user is signed into Surface Hub, their credentials can flow to supported websites without requiring them to re-authenticate. Ensure that Enterprise State Roaming is also enabled in your tenant.  | 1                 |
-| [ExtensionInstallBlockList](https://docs.microsoft.com/en-us/deployedge/microsoft-edge-policies#extensioninstallblocklist)   | Prevents non-admin users from installing new extensions in Microsoft Edge. To configure a list of extensions to be installed by default, use [ExtensionInstallForcelist](https://docs.microsoft.com/en-us/deployedge/microsoft-edge-policies#extensioninstallforcelist). | *                 |
-| [HideFirstRunExperience](https://docs.microsoft.com/en-us/deployedge/microsoft-edge-policies#hidefirstrunexperience)         | Hides the first run experience and splash screen that's normally shown when users run Microsoft Edge for the first time. Since Surface Hub is a shared device, this simplifies the user experience.                                                                      | 1                 |
-| [InPrivateModeAvailability](https://docs.microsoft.com/en-us/deployedge/microsoft-edge-policies#inprivatemodeavailability)   | Disables InPrivate mode. Since End Session already clears browsing data, this simplifies the browsing and signed-in experience.                                                                                                                                          | 1                 |
-| [NewTabPageSetFeedType](https://docs.microsoft.com/en-us/deployedge/microsoft-edge-policies#newtabpagesetfeedtype)           | Shows the Office 365 feed experience on new tab pages. When a user is signed into Surface Hub, this enables fast access to their files and content on Office 365.                                                                                                        | 1                 |
-| [NonRemovableProfileEnabled](https://docs.microsoft.com/en-us/deployedge/microsoft-edge-policies#nonremovableprofileenabled) | When a user is signed into Surface Hub, a non-removable profile will be created using their organizational account. This simplifies the Single Sign-On (SSO) experience.                                                                                                 | 1                 |
-| [PrintingEnabled](https://docs.microsoft.com/en-us/deployedge/microsoft-edge-policies#printingenabled)                       | Disables printing in Microsoft Edge. Surface Hub does not support printing.                                                                                                                                                                                              | 0                 |
-| [ProActiveAuthEnabled](https://docs.microsoft.com/en-us/deployedge/microsoft-edge-policies#proactiveauthenabled)             | Enables Microsoft Edge to proactively authenticate signed-in users with Microsoft services. This simplifies the Single Sign-On (SSO) experience.                                                                                                                         | 1                 |
-| [PromptForDownloadLocation](https://docs.microsoft.com/en-us/deployedge/microsoft-edge-policies#promptfordownloadlocation)   | Automatically saves files to the Downloads folder, rather than asking users where to save the file. This simplifies the browsing experience.                                                                                                                             | 0                 |
+| [AutoImportAtFirstRun](https://docs.microsoft.com/deployedge/microsoft-edge-policies#autoimportatfirstrun)             | Do not automatically import datatypes and settings from Microsoft Edge Legacy. This avoids changing signed-in users' profiles with shared settings from the Surface Hub.                                                                                                 | 4                 |
+| [BackgroundModeEnabled](https://docs.microsoft.com/deployedge/microsoft-edge-policies#backgroundmodeenabled)           | Allow Microsoft Edge processes to keep running in the background even after the last browser window is closed, enabling faster access to web apps during a session.                                                                                                      | 1                 |
+| [BrowserAddProfileEnabled](https://docs.microsoft.com/deployedge/microsoft-edge-policies#browseraddprofileenabled)     | Do not allow users to create new profiles in Microsoft Edge. This simplifies the browsing and signed-in experience.                                                                                                                                                      | 0                 |
+| [BrowserGuestModeEnabled](https://docs.microsoft.com/deployedge/microsoft-edge-policies#browserguestmodeenabled)       | Enables only one user to sign-in to Microsoft Edge. This simplifies the browsing and signed-in experience                                                                                                                                                                | 0                 |
+| [BrowserSignin](https://docs.microsoft.com/deployedge/microsoft-edge-policies#browsersignin)                           | Enables users to enjoy Single Sign-On (SSO) in Microsoft Edge. When a user is signed into Surface Hub, their credentials can flow to supported websites without requiring them to re-authenticate. Ensure that Enterprise State Roaming is also enabled in your tenant.  | 1                 |
+| [ExtensionInstallBlockList](https://docs.microsoft.com/deployedge/microsoft-edge-policies#extensioninstallblocklist)   | Prevents non-admin users from installing new extensions in Microsoft Edge. To configure a list of extensions to be installed by default, use [ExtensionInstallForcelist](https://docs.microsoft.com/deployedge/microsoft-edge-policies#extensioninstallforcelist). | *                 |
+| [HideFirstRunExperience](https://docs.microsoft.com/deployedge/microsoft-edge-policies#hidefirstrunexperience)         | Hides the first run experience and splash screen that's normally shown when users run Microsoft Edge for the first time. Since Surface Hub is a shared device, this simplifies the user experience.                                                                      | 1                 |
+| [InPrivateModeAvailability](https://docs.microsoft.com/deployedge/microsoft-edge-policies#inprivatemodeavailability)   | Disables InPrivate mode. Since End Session already clears browsing data, this simplifies the browsing and signed-in experience.                                                                                                                                          | 1                 |
+| [NewTabPageSetFeedType](https://docs.microsoft.com/deployedge/microsoft-edge-policies#newtabpagesetfeedtype)           | Shows the Office 365 feed experience on new tab pages. When a user is signed into Surface Hub, this enables fast access to their files and content on Office 365.                                                                                                        | 1                 |
+| [NonRemovableProfileEnabled](https://docs.microsoft.com/deployedge/microsoft-edge-policies#nonremovableprofileenabled) | When a user is signed into Surface Hub, a non-removable profile will be created using their organizational account. This simplifies the Single Sign-On (SSO) experience.                                                                                                 | 1                 |
+| [PrintingEnabled](https://docs.microsoft.com/deployedge/microsoft-edge-policies#printingenabled)                       | Disables printing in Microsoft Edge. Surface Hub does not support printing.                                                                                                                                                                                              | 0                 |
+| [ProActiveAuthEnabled](https://docs.microsoft.com/deployedge/microsoft-edge-policies#proactiveauthenabled)             | Enables Microsoft Edge to proactively authenticate signed-in users with Microsoft services. This simplifies the Single Sign-On (SSO) experience.                                                                                                                         | 1                 |
+| [PromptForDownloadLocation](https://docs.microsoft.com/deployedge/microsoft-edge-policies#promptfordownloadlocation)   | Automatically saves files to the Downloads folder, rather than asking users where to save the file. This simplifies the browsing experience.                                                                                                                             | 0                 |
 
  
 ### Configure Microsoft Edge policies
 
-Use [Microsoft Edge browser policies](https://docs.microsoft.com/en-us/deployedge/microsoft-edge-policies) to configure browser settings in Microsoft Edge. These policies can be applied using:
+Use [Microsoft Edge browser policies](https://docs.microsoft.com/deployedge/microsoft-edge-policies) to configure browser settings in Microsoft Edge. These policies can be applied using:
 
-- [Microsoft Intune](https://docs.microsoft.com/en-us/deployedge/configure-edge-with-intune),
-- [Your preferred Mobile Device Management (MDM) provider that supports ADMX Ingestion](https://docs.microsoft.com/en-us/deployedge/configure-edge-with-mdm), or
-- [Provisioning packages using ADMX Ingestion in Windows Configuration Designer](https://docs.microsoft.com/en-us/windows/configuration/wcd/wcd-admxingestion).
+- [Microsoft Intune](https://docs.microsoft.com/deployedge/configure-edge-with-intune),
+- [Your preferred Mobile Device Management (MDM) provider that supports ADMX Ingestion](https://docs.microsoft.com/deployedge/configure-edge-with-mdm), or
+- [Provisioning packages using ADMX Ingestion in Windows Configuration Designer](https://docs.microsoft.com/windows/configuration/wcd/wcd-admxingestion).
 
  
 ### Configure Microsoft Edge updates
 
-By default, Microsoft Edge is updated automatically. Use [Microsoft Edge update policies](https://docs.microsoft.com/en-us/deployedge/microsoft-edge-update-policies) to configure settings for Microsoft Edge Update.
+By default, Microsoft Edge is updated automatically. Use [Microsoft Edge update policies](https://docs.microsoft.com/deployedge/microsoft-edge-update-policies) to configure settings for Microsoft Edge Update.
 Note that Surface Hub does not support the following Microsoft Edge update policies:
 
 - **Allowsxs** – On Surface Hub, Microsoft Edge Stable channel always replaces Microsoft Edge Legacy.
 - **CreateDesktopShortcut** – Surface Hub does not use desktop shortcuts.
 
 > [!NOTE]
->  Microsoft Edge requires connectivity to the Internet to support its features. Ensure that the [necessary domain URLs](https://docs.microsoft.com/en-us/deployedge/microsoft-edge-security-endpoints) are added to the Allow list to ensure communications through firewalls and other security mechanisms.
+>  Microsoft Edge requires connectivity to the Internet to support its features. Ensure that the [necessary domain URLs](https://docs.microsoft.com/deployedge/microsoft-edge-security-endpoints) are added to the Allow list to ensure communications through firewalls and other security mechanisms.
  
 ### <a name="display-start"></a> Display Microsoft Edge in the Surface Hub Start menu
 
