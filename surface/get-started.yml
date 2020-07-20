@@ -92,7 +92,7 @@ landingContent:
             url: battery-limit.md         
 
  # Card
-  - title: Browse support solutions
+  - title: Troubleshoot
     linkLists:
       - linkListType: learn
         links:
@@ -114,3 +114,11 @@ landingContent:
             url: https://techcommunity.microsoft.com/t5/Surface-Devices/ct-p/SurfaceDevices
           - text: Microsoft Mechanics Surface videos
             url: https://www.youtube.com/watch?v=Uk2kJ5FUZxY&list=PLXtHYVsvn_b__1Baibdu4elN4SoF3JTBZ
+
+# Card
+  - title: Need help?
+    linkLists:
+      - linkListType: learn
+        links:
+          - text: Contact Surface Support
+            url: contact-surface-support.md 
