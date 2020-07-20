@@ -15,21 +15,25 @@ ms.localizationpriority: Medium
 
 # Install and configure the new Microsoft Edge on Surface Hub
 
-Windows 10 Team 2020 Update supports the new Microsoft Edge based on Chromium (version 85 and above) as the recommended browser for Surface Hub. You can install the new Microsoft Edge manually using a provisioning package, remotely using Microsoft Intune or your preferred Mobile Device Management (MDM) provider. By default, Surface Hub devices are preinstalled with Microsoft Edge Legacy (version 44).
+Windows 10 Team 2020 Update supports the new Microsoft Edge based on Chromium (version 85 and above) as the recommended browser for Surface Hub. You can install Microsoft Edge manually using a provisioning package, remotely using Microsoft Intune or your preferred Mobile Device Management (MDM) provider.
+
+ By default, Surface Hub devices are preinstalled with Microsoft Edge Legacy (version 44).
 
 > [!NOTE]
-> Surface Hub requires version 85 or later of the new Microsoft Edge, with availability limited to the “[Dev channel](https://docs.microsoft.com/deployedge/microsoft-edge-channels),” designed to give IT admins an early look at upcoming Edge functionality and prepare for the next Beta release.  Support for the Dev channel is temporarily enabled for Windows Insiders to preview the new Microsoft Edge. (Normally, Surface Hub supports only versions released to the “Stable channel.”) For more information, see [Microsoft Edge channel overview.](https://docs.microsoft.com/deployedge/microsoft-edge-channels)
+> Surface Hub requires version 85 or later of the new Microsoft Edge, with availability limited to the “[Dev channel](https://docs.microsoft.com/deployedge/microsoft-edge-channels),” designed to give IT admins an early look at upcoming Edge functionality and prepare for the next Beta release.  Support for the Dev channel is temporarily enabled for Windows Insiders to preview Microsoft Edge. (Normally, Surface Hub supports only versions released to the “Stable channel.”) For more information, see [Microsoft Edge channel overview.](https://docs.microsoft.com/deployedge/microsoft-edge-channels)
  
 Note the following configuration details if you choose to install the new Microsoft Edge:
  
-- By design, Microsoft Edge Dev channel installs side-by-side with Microsoft Edge Legacy, so users will see both “Microsoft Edge Dev” (version 85) and “Microsoft Edge” (version 44) in the Surface Hub Start menu. In contrast, Microsoft Edge Stable channel will replace Microsoft Edge Legacy as the default browser.
+- By design, Microsoft Edge Dev channel installs side-by-side with Microsoft Edge Legacy, and users will see both “Microsoft Edge Dev” (version 85) and “Microsoft Edge” (version 44) in the Surface Hub Start menu. In contrast, Microsoft Edge Stable channel will replace Microsoft Edge Legacy as the default browser.
 - Once installed, Microsoft Edge Dev channel will not automatically appear as a pinned app. To open, select  **Start** > **All Apps**. In contrast, Microsoft Edge Stable channel automatically replaces Microsoft Edge Legacy as a pinned app in the All Apps list.
 - Once version 85 is promoted to Stable channel, Microsoft Edge Dev channel will automatically disappear from the Start menu, and you will be required to install Microsoft Edge Stable channel on your Surface Hub.
 
 > [!NOTE]
 >  A device reset is required to remove the new Microsoft Edge. See [Reset or recover a Surface Hub](https://docs.microsoft.com/surface-hub/device-reset-surface-hub) for more information.
  
-## Install Microsoft Edge using a provisioning package
+## Install Microsoft Edge
+
+### Install Microsoft Edge using a provisioning package
 
 1. From a PC, download the Microsoft Edge provisioning package <add link to provisioning package> to the root folder of a USB drive.
 2. Insert the USB drive into the Surface Hub.
@@ -44,7 +48,7 @@ Note the following configuration details if you choose to install the new Micros
 > [!NOTE]
 > If there’s a newer version of Microsoft Edge available, it will be automatically updated.
  
-## Install Microsoft Edge using Intune
+### Install Microsoft Edge using Intune
 
 The Surface Hub device must be enrolled into and managed using Intune. For more information, see [Manage Surface Hub 2S with Microsoft Intune](https://docs.microsoft.com/surface-hub/surface-hub-2s-manage-intune).
  
