@@ -63,7 +63,7 @@ Starting in Endpoint Configuration Manager, you can synchronize and deploy Micro
 
 ## Supported devices
 
-Downloadable .msi files are available for Surface devices from Surface Pro 2 and later. Information about .msi files for the newest Surface devices such as Surface Pro 7, Surface Pro X, and Surface Laptop 3 will be available from this page upon release.
+Downloadable .msi files are available for Surface devices from Surface Pro 2 and later. Information about .msi files for the newest Surface devices such as Surface Pro 7 and Surface Laptop 3 will be available from this page upon release.
 
 ## Managing firmware with DFCI
 
