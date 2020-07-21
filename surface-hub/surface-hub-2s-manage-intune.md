@@ -9,7 +9,7 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 02/28/2020
+ms.date: 07/22/2020
 ms.localizationpriority: Medium
 ---
 
@@ -41,6 +41,8 @@ These settings include user experience and app behavior, Azure Log Analytics reg
 ## Additional supported configuration service providers (CSPs)
 
 For additional supported CSPs, see [Surface Hub CSPs in Windows 10](https://docs.microsoft.com/windows/client-management/mdm/configuration-service-provider-reference#surfacehubcspsupport).
+
+For additional supported Policies in the Policy CSP, see [Policy CSPs supported by Microsoft Surface Hub](https://docs.microsoft.com/windows/client-management/mdm/policy-csps-supported-by-surface-hub)
 
 ## Quality of Service (QoS) settings
 
