@@ -19,10 +19,11 @@ Windows 10 Team 2020 Update supports the new Microsoft Edge based on Chromium (v
 
  By default, Surface Hub devices are preinstalled with Microsoft Edge Legacy (version 44).
 
-> [!NOTE]
+> [!IMPORTANT]
 > Surface Hub requires version 85 or later of the new Microsoft Edge, with availability limited to the “[Dev channel](https://docs.microsoft.com/deployedge/microsoft-edge-channels),” designed to give IT admins an early look at upcoming Edge functionality and prepare for the next Beta release.  Support for the Dev channel is temporarily enabled for Windows Insiders to preview Microsoft Edge. (Normally, Surface Hub supports only versions released to the “Stable channel.”) For more information, see [Microsoft Edge channel overview.](https://docs.microsoft.com/deployedge/microsoft-edge-channels)
  
-Note the following configuration details if you choose to install the new Microsoft Edge:
+> [!NOTE]
+>Note the following configuration details if you choose to install the new Microsoft Edge:
  
 - By design, Microsoft Edge Dev channel installs side-by-side with Microsoft Edge Legacy, and users will see both “Microsoft Edge Dev” (version 85) and “Microsoft Edge” (version 44) in the Surface Hub Start menu. In contrast, Microsoft Edge Stable channel will replace Microsoft Edge Legacy as the default browser.
 - Once installed, Microsoft Edge Dev channel will not automatically appear as a pinned app. To open, select  **Start** > **All Apps**. In contrast, Microsoft Edge Stable channel automatically replaces Microsoft Edge Legacy as a pinned app in the All Apps list.
