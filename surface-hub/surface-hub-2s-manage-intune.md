@@ -40,7 +40,7 @@ During the initial setup process, when affiliating a Surface Hub with an Azure A
 
 These settings include Apps and experience, Azure operational insights, Maintenance (including Maintenance window for updates), Session, and Wireless projection.  
 
- For a complete list of available Windows 10 Team settings, see [SurfaceHub CSP](https://docs.microsoft.com/windows/client-management/mdm/surfacehub-csp).
+ For a complete list of available Windows 10 Team settings, see .
 
 ### Supported Configuration service providers (CSPs)
 
@@ -48,13 +48,10 @@ In addition to the policies that you can select directly from the Intune console
 
 Microsoft typically provides new CSPs with each new versions of the operating system. The Windows 10 Team 2020 Update, available in preview via the Windows Insider Program, includes more than 20 new and updated device management policies. These MDM policies give IT admins improved control over app updates from the Microsoft Store, wireless projection settings such as Miracast over infrastructure, network settings such as Quality-Of-Service and 802.1x wired authentication, and new privacy/GDPR related settings.
 
-
 For more information, see the following resources: 
 
-- [Configuration service provider reference](https://docs.microsoft.com/windows/client-management/mdm/configuration-service-provider-reference)
-
-- [Surface Hub CSPs in Windows 10](https://docs.microsoft.com/windows/client-management/mdm/configuration-service-provider-reference#surfacehubcspsupport).
-
+- [Configuration service provider reference](https://docs.microsoft.com/windows/client-management/mdm/configuration-service-provider-reference) 
+- [SurfaceHub CSP](https://docs.microsoft.com/windows/client-management/mdm/surfacehub-csp)
 - [Policy CSPs supported by Microsoft Surface Hub](https://docs.microsoft.com/windows/client-management/mdm/policy-csps-supported-by-surface-hub).
 
 ## Quality of Service (QoS) settings
