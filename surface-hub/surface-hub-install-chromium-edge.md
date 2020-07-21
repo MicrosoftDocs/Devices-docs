@@ -9,7 +9,7 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 07/21/2020
+ms.date: 07/22/2020
 ms.localizationpriority: Medium
 ---
 
@@ -88,7 +88,7 @@ Microsoft Edge is preconfigured with the following policies to provide an optimi
 | [BackgroundModeEnabled](https://docs.microsoft.com/deployedge/microsoft-edge-policies#backgroundmodeenabled)           | Allow Microsoft Edge processes to keep running in the background even after the last browser window is closed, enabling faster access to web apps during a session.                                                                                                      | 1                 |
 | [BrowserAddProfileEnabled](https://docs.microsoft.com/deployedge/microsoft-edge-policies#browseraddprofileenabled)     | Do not allow users to create new profiles in Microsoft Edge. This simplifies the browsing and signed-in experience.                                                                                                                                                      | 0                 |
 | [BrowserGuestModeEnabled](https://docs.microsoft.com/deployedge/microsoft-edge-policies#browserguestmodeenabled)       | Enables only one user to sign-in to Microsoft Edge. This simplifies the browsing and signed-in experience                                                                                                                                                                | 0                 |
-| [BrowserSignin](https://docs.microsoft.com/deployedge/microsoft-edge-policies#browsersignin)                           | Enables users to enjoy Single Sign-On (SSO) in Microsoft Edge. When a user is signed into Surface Hub, their credentials can flow to supported websites without requiring them to re-authenticate. Ensure that Enterprise State Roaming is also enabled in your tenant.  | 1                 |
+| [BrowserSignin](https://docs.microsoft.com/deployedge/microsoft-edge-policies#browsersignin)                           | Enables users to enjoy Single Sign-On (SSO) in Microsoft Edge. When a user is signed into Surface Hub, their credentials can flow to supported websites without requiring them to re-authenticate.  | 1                 |
 | [ExtensionInstallBlockList](https://docs.microsoft.com/deployedge/microsoft-edge-policies#extensioninstallblocklist)   | Prevents non-admin users from installing new extensions in Microsoft Edge. To configure a list of extensions to be installed by default, use [ExtensionInstallForcelist](https://docs.microsoft.com/deployedge/microsoft-edge-policies#extensioninstallforcelist). | *                 |
 | [HideFirstRunExperience](https://docs.microsoft.com/deployedge/microsoft-edge-policies#hidefirstrunexperience)         | Hides the first run experience and splash screen that's normally shown when users run Microsoft Edge for the first time. Since Surface Hub is a shared device, this simplifies the user experience.                                                                      | 1                 |
 | [InPrivateModeAvailability](https://docs.microsoft.com/deployedge/microsoft-edge-policies#inprivatemodeavailability)   | Disables InPrivate mode. Since End Session already clears browsing data, this simplifies the browsing and signed-in experience.                                                                                                                                          | 1                 |
