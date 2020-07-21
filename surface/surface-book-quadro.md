@@ -8,7 +8,7 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 7/07/2020
+ms.date: 7/20/2020
 ms.reviewer: brrecord
 manager: laurawi
 audience: itpro
@@ -111,7 +111,8 @@ As shown in Table 3, Surface Book 3 with Quadro RTX 3000 is tested and approved 
 | **Esri ArcGIS**                                     | - Real-time results from what took days and weeks, due to DL inferencing leveraging tensor cores.                                                                                                                                                                                                                                                                                                                                                                                        |
 | **Luxion KeyShot**                                  | - 3rd party Interactive Ray Tracer used by Solidworks, Creo, and Rhino. Accelerated by RT Cores, OptiX™ AI-accelerated denoising.                                                                                                                                                                                                                                                                                                                                                        |
 | **McNeel & Associates**<br>**Rhino 3D**             | **Rhino-tested and approved for Surface Book 3 with Quadro RTX 3000**<br><br>- GPU-accelerated viewport for a smooth and interactive modelling and design experience.<br><br>- Supports Cycles for GPU-accelerated 3D rendering.                                                                                                                                                                                                                                                         |
-| **PTC Creo**                                        | - Creo's real-time engineering simulation tool (Creo Simulation Live) built on CUDA.<br><br>- Runs more than 15% faster compared with Surface Book 2 15”.                                                                                                                                                                                                                                                                                                                                |
+| **PTC Creo**                                        | - Creo's real-time engineering simulation tool (Creo Simulation Live) built on CUDA.<br><br>- Runs more than 15% faster compared with Surface Book 2 15”.                                                                                                                                                                                        |
+| **Siemens SolidEdge 2020**                                        |  **Siemens-tested and approved for Surface Book 3 with Quadro RTX 3000**                                                                                                                                                                                 |
 | **Siemens NX**                                      | - Siemens NX Interactive Ray Tracer (Ray Traced Studio) accelerated by RT Cores.<br><br>- Runs more than 10x faster compared with Surface Book 2 15”.                                                                                                                                                                                                                                                                                                                                    |
 
 
