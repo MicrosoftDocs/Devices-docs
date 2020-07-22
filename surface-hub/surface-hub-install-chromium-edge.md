@@ -36,7 +36,7 @@ Windows 10 Team 2020 Update supports the new Microsoft Edge based on Chromium (v
 
 ### Install Microsoft Edge using a provisioning package
 
-1. From a PC, download the Microsoft Edge provisioning package <add link to provisioning package> to the root folder of a USB drive.
+1. From a PC, download the [Microsoft Edge provisioning package](aka.ms/HubEdge) to the root folder of a USB drive.
 2. Insert the USB drive into Surface Hub.
 3. From Surface Hub, open **Settings** and enter your admin credentials when prompted.
 4. Navigate to **Surface Hub** > **Device management**. Under **Provisioning packages**, select **Add or remove a provisioning package**.
@@ -46,9 +46,10 @@ Windows 10 Team 2020 Update supports the new Microsoft Edge based on Chromium (v
 8. Wait for the Microsoft Edge installation to complete. Once it's installed, navigate to the Surface Hub Start menu to access the new Microsoft Edge.              
 
 > [!NOTE]
->  Once installed, Microsoft Edge Dev channel will not automatically appear as a pinned app in the Surface Hub Start menu. Instead, users will find it under **Start** > **All Apps**. If you are using the default Start menu layout, you can install the **[Start Menu with the Microsoft Edge provisioning package**] (link to ppkg) to add Microsoft Edge as a pinned app. For more information, see [**Display Microsoft Edge in the Microsoft Edge Start menu**](#display-start).
-**Note:** If there’s a newer version of Microsoft Edge available, it will be automatically updated.
- 
+>  Once installed, Microsoft Edge Dev channel will not automatically appear as a pinned app in the Surface Hub Start menu. Instead, users will find it under **Start** > **All Apps**. If you are using the default Start menu layout, you can install the **[Start Menu with the [Microsoft Edge provisioning package**](aka.ms/HubEdge) to add Microsoft Edge as a pinned app. For more information, see [**Display Microsoft Edge in the Microsoft Edge Start menu**](#display-start).
+
+> [!NOTE]
+>  If there’s a newer version of Microsoft Edge available, it will be automatically updated.
  
 ### Install Microsoft Edge using Intune
  
@@ -129,7 +130,7 @@ If you want to apply a customized Start menu layout, use the following XML to ad
 
 <start:DesktopApplicationTile
 
-DesktopApplicationLinkPath="C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
+DesktopApplicationLinkPath="C:\Program Files (x86)\Microsoft\EdgeDev\Application\msedge.exe"
 
 Size="2x2"
 
@@ -145,9 +146,5 @@ For more information, see [Configure Surface Hub Start menu](https://docs.micros
 
 ## Related links
 
-More information on Microsoft Edge documentation is available [here](https://docs.microsoft.com/microsoft-edge/).
-
-
- 
- 
+- [Microsoft Edge documentation](https://docs.microsoft.com/microsoft-edge/).
 

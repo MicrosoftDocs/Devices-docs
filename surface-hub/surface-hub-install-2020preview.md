@@ -86,7 +86,7 @@ Microsoft plans to fix these issues in the release build of Windows 10 Team 2020
 
 ### Windows Update prompts to install new drivers when none are available
 
-When you go to ****Settings** > **Update & Security** > **Windows Update** after you’ve installed Windows 10 Team 2020 Update and the required firmware updates, you may see the following error: 
+When you go to **Settings** > **Update & Security** > **Windows Update** after you’ve installed Windows 10 Team 2020 Update and the required firmware updates, you may see the following error: 
 
 - “A current driver on your PC may be better than the driver we’re trying to install. We’ll keep trying to install.” 
 
