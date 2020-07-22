@@ -35,8 +35,8 @@
 ### [Surface Hub Teams app](hub-teams-app.md)
 
 ## Manage
-### [Install Windows 10 Team 2020 Update Preview Build](http://surface-hub/surface-hub-2s-install-2020preview.md)  
-### [Install and configure the new Microsoft Edge on Surface Hub](http://surface-hub/hub-install-chromium-edge.md)        
+### [Install Windows 10 Team 2020 Update Preview Build](surface-hub-2s-install-2020preview.md)  
+### [Install and configure the new Microsoft Edge on Surface Hub](surface-hub/hub-install-chromium-edge.md)        
 ### [Manage Surface Hub 2S with Microsoft Intune](surface-hub-2s-manage-intune.md)
 ### [Local management for Surface Hub 2S settings](local-management-surface-hub-settings.md)
 ### [Manage device account password rotation](surface-hub-2s-manage-passwords.md)
@@ -46,13 +46,13 @@
 ### [Microsoft Exchange properties](exchange-properties-for-surface-hub-device-accounts.md)
 ### [Applying ActiveSync policies to device accounts](apply-activesync-policies-for-surface-hub-device-accounts.md)
 ### [Update pen firmware on Surface Hub 2S](surface-hub-2s-pen-firmware.md)
-### [Enable dual-pen support for Surface Hub 2S](http://surface-hub/surface-hub-2s-dual-pen-support.md)   
+
 
 ## Secure
 ### [Surface Hub security overview](surface-hub-security.md)
 ### [Secure and manage Surface Hub 2S with SEMM and UEFI](surface-hub-2s-secure-with-uefi-semm.md)
-### [Modern authentication on Surface Hub](http://surface-hub/surface-hub-modern-auth.md) 
-### [Configure password-less sign-in on Surface Hub](http://surface-hub/surface-hub-2s-phone-authenticate.md) 
+### [Modern authentication on Surface Hub](surface-hub/surface-hub-modern-auth.md) 
+### [Configure password-less sign-in on Surface Hub](surface-hub/surface-hub-2s-phone-authenticate.md) 
 ### [How Surface Hub addresses Wi-Fi Direct security issues](surface-hub-wifi-direct.md)
 
 ## Troubleshoot
@@ -93,8 +93,8 @@
 
 ## Manage
 ### [Manage Microsoft Surface Hub](manage-surface-hub.md)
-### [Install Windows 10 Team 2020 Update Preview Build](http://surface-hub/surface-hub-2s-install-2020preview.md)  
-### [Install and configure the new Microsoft Edge on Surface Hub](http://surface-hub/hub-install-chromium-edge.md)    
+### [Install Windows 10 Team 2020 Update Preview Build](surface-hub/surface-hub-2s-install-2020preview.md)  
+### [Install and configure the new Microsoft Edge on Surface Hub](surface-hub/hub-install-chromium-edge.md)    
 ### [PowerShell for Surface Hub](appendix-a-powershell-scripts-for-surface-hub.md)
 ### [Remote Surface Hub management](remote-surface-hub-management.md)
 #### [Manage settings with an MDM provider](manage-settings-with-mdm-for-surface-hub.md)
@@ -120,8 +120,8 @@
 ## Secure
 ### [Sign in to Surface Hub with Microsoft Authenticator](surface-hub-authenticator-app.md)
 ### [Save your BitLocker key](save-bitlocker-key-surface-hub.md)
-### [Modern authentication on Surface Hub](http://surface-hub/surface-hub-modern-auth.md) 
-### [Configure password-less sign-in on Surface Hub](http://surface-hub/surface-hub-2s-phone-authenticate.md) 
+### [Modern authentication on Surface Hub](surface-hub/surface-hub-modern-auth.md) 
+### [Configure password-less sign-in on Surface Hub](surface-hub/surface-hub-2s-phone-authenticate.md) 
 ### [How Surface Hub addresses Wi-Fi Direct security issues](surface-hub-wifi-direct.md)
 
 ## Troubleshoot
