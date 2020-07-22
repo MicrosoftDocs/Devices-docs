@@ -78,7 +78,7 @@ For more information, see [Save your BitLocker key](https://docs.microsoft.com/s
 
 You may experience various graphics and user interface issues if you install the Preview Build, but do not immediately install the required firmware updates afterward. Microsoft plans to fix these issues in the release build of Windows 10 Team 2020 Update.
 
-### Graphics and user interface issues on Surface Hub 84-inch models
+### Surface Hub 84-inch: graphics and user interface issues
 
 You may experience various graphics and user interface issues if you install the Preview Build on a first-generation Surface Hub 84-inch device. The Surface Hub 84-inch will be supported in the final release of Windows 10 Team 2020 Update.
 
