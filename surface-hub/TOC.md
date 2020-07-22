@@ -93,7 +93,7 @@
 
 ## Manage
 ### [Manage Microsoft Surface Hub](manage-surface-hub.md)
-### [Install Windows 10 Team 2020 Update Preview Build](surface-hub/surface-hub-2s-install-2020preview.md)  
+### [Install Windows 10 Team 2020 Update Preview Build](surface-hub-install-2020preview.md)  
 ### [Install and configure the new Microsoft Edge on Surface Hub](surface-hub-install-chromium-edge.md)    
 ### [PowerShell for Surface Hub](appendix-a-powershell-scripts-for-surface-hub.md)
 ### [Remote Surface Hub management](remote-surface-hub-management.md)
