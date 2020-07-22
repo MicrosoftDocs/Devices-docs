@@ -16,7 +16,7 @@ ms.localizationpriority: Medium
 
 The latest update of the Surface Hub operating system, **Windows 10 Team 2020 Update**, is now available at no additional cost for the Surface Hub 50-inch and Surface Hub 2S 55-inch devices from the [Windows Insider Program](https://insider.windows.com). The Surface Hub 84-inch model will be supported in the final release of Windows 10 Team 2020 Update.
 
-Windows 10 Team 2020 Update brings major improvements to device deployment and manageability along with the latest Windows 10 features. To learn more about what's new, see the following blog post: [New Surface Hub OS update released for public preview.](https://techcommunity.microsoft.com/t5/Surface-IT-Pro-Blog/bg-p/SurfaceITPro) For known issues, refer to the "Known issues" section below.
+Windows 10 Team 2020 Update brings major improvements to device deployment and manageability along with the latest Windows 10 features. To learn more about what's new, see the following blog post: [New Surface Hub OS update released for public preview.](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/new-surface-hub-os-update-released-for-public-preview/ba-p/1534823) For known issues, refer to the "Known issues" section below.
  
 ## Prerequisites
 
@@ -37,7 +37,7 @@ For more information, see [Manage Windows updates on Surface Hub](https://docs.m
 
 **To manually save your BitLocker key:**
 
-1. Insert a USB drive into the Surface Hub.
+1. Insert a USB drive into Surface Hub.
 2. On Surface Hub, open **Settings** and enter your admin credentials when prompted.
 3. Navigate to **Update & Security** > **Recovery**.
 4. Under **BitLocker**, select **Save**. The BitLocker key is saved to a text file on the USB drive.
@@ -63,8 +63,8 @@ For more information, see [Save your BitLocker key](https://docs.microsoft.com/s
 
 1. After you've registered with the Windows Insider Program, go to **Settings** > **Update & Security** > **Windows Update** and select **Check for updates** to install the Preview Build.
 2. Once the Preview Build installs (it may take up to 14 hours), select **Restart now** to complete the installation.
-3. After the device restarts, go to **Settings** > **Update & Security** > **Windows Update**, and select **Check for updates to install required firmware updates.**
-4. Once the firmware installs, select **Restart.**
+3. After the device restarts, go to **Settings** > **Update & Security** > **Windows Update**, and select **Check for updates to install required firmware updates**.
+4. Once the firmware installs, select **Restart now**.
 
 > [!WARNING]
 > You may see graphics, audio, and user interface issues if you install the Preview Build without installing the required firmware updates.
@@ -74,19 +74,23 @@ For more information, see [Save your BitLocker key](https://docs.microsoft.com/s
  
 ## Known issues: Windows 10 Team 2020 Update Preview Build
 
-### Graphics, audio, and user interfaces 
+### Graphics, audio, and user interface issues 
 
 You may experience various graphics and user interface issues if you install the Preview Build, but do not immediately install the required firmware updates afterward. Microsoft plans to fix these issues in the release build of Windows 10 Team 2020 Update.
 
 ### Sign in is impacted when Conditional Access policies are applied
 
-- Sign in fails when attempting to sign into apps such as Microsoft Whiteboard. Users must first [sign in from My meetings and files](https://support.microsoft.com/help/4506480/sign-in-to-see-your-meetings-and-files-on-surface-hub) from the Start menu.
+Sign in fails when attempting to sign into apps such as Microsoft Whiteboard. Users must first sign in from [My meetings and files](https://support.microsoft.com/help/4506480/sign-in-to-see-your-meetings-and-files-on-surface-hub) from the Start menu.
 
 Microsoft plans to fix these issues in the release build of Windows 10 Team 2020 Update.
 
 ### Windows Update prompts to install new drivers when none are available
 
-eWhen you go to Settings > Update & Security > Windows Update after you’ve installed Windows 10 Team 2020 Update and the required firmware updates, you may see the following error: “A current driver on your PC may be better than the driver we’re trying to install. We’ll keep trying to install.” This error can be safely ignored. Microsoft is actively investigating this issue.
+When you go to ****Settings** > **Update & Security** > **Windows Update** after you’ve installed Windows 10 Team 2020 Update and the required firmware updates, you may see the following error: 
+
+- “A current driver on your PC may be better than the driver we’re trying to install. We’ll keep trying to install.” 
+
+This error can be safely ignored. Microsoft is actively investigating this issue.
 
 ### Unable to install Surface Hub policies using provisioning packages
 
@@ -136,5 +140,5 @@ We invite you to share your insights and suggestions with Microsoft Support.
 
 ## Learn more
 
-- [New Surface Hub OS update released for public preview.](https://techcommunity.microsoft.com/t5/Surface-IT-Pro-Blog/bg-p/SurfaceITPro)
+- [New Surface Hub OS update released for public preview.](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/new-surface-hub-os-update-released-for-public-preview/ba-p/1534823)
 - [Getting started with the Windows Insider Program for Business](https://docs.microsoft.com/windows-insider/at-work-pro/wip-4-biz-manage)
