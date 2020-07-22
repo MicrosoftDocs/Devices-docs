@@ -78,9 +78,15 @@ For more information, see [Save your BitLocker key](https://docs.microsoft.com/s
 
 You may experience various graphics and user interface issues if you install the Preview Build, but do not immediately install the required firmware updates afterward. Microsoft plans to fix these issues in the release build of Windows 10 Team 2020 Update.
 
+### Graphics and user interface issues on Surface Hub 84-inch models
+
+You may experience various graphics and user interface issues if you install the Preview Build on a first-generation Surface Hub 84-inch device. The Surface Hub 84-inch will be supported in the final release of Windows 10 Team 2020 Update.
+
 ### Sign in is impacted when Conditional Access policies are applied
 
-Sign in fails when attempting to sign into apps such as Microsoft Whiteboard. Users must first sign in from [My meetings and files](https://support.microsoft.com/help/4506480/sign-in-to-see-your-meetings-and-files-on-surface-hub) from the Start menu.
+- Sign in fails when attempting to sign into apps such as Microsoft Whiteboard. Users must first sign in from [My meetings and files](https://support.microsoft.com/help/4506480/sign-in-to-see-your-meetings-and-files-on-surface-hub) from the Start menu.
+
+- Sign in fails if your user account is registered to a different Azure AD tenant than the one used by Surface Hub to Azure AD join.
 
 Microsoft plans to fix these issues in the release build of Windows 10 Team 2020 Update.
 
