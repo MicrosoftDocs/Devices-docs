@@ -23,41 +23,42 @@ landingContent:
 # Cards and links should be based on top customer tasks or top subjects
 # Start card title with a verb
 
-    # Card
+  # Card
   - title: Get ready for Surface Hub 2S
     linkLists:
       - linkListType: whats-new
         links:
-            - text: What's new in Surface Hub 2S?
-              url: surface-hub-2s-whats-new.md
-            - text: Ordering Surface Hub 2S
-              url: https://www.microsoft.com/p/surface-hub-2S/8P62MW6BN9G4?activetab=pivot:overviewtab
-            - text: Prepare your environment for Surface Hub 2S
-              url: surface-hub-2s-prepare-environment.md
-            - text: Surface Hub Update History  
-              url: surface-hub-update-history.md
+          - text: New Surface Hub OS update released for public preview
+            url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/new-surface-hub-os-update-released-for-public-preview/ba-p/1534823
+          - text: Install Windows 10 Team 2020 Update Preview Build
+            url: surface-hub-install-2020preview.md
+          - text: Install and configure the new Microsoft Edge on Surface Hub
+            url: surface-hub-install-chromium-edge.md
+          - text: Surface Hub Update History  
+            url: surface-hub-update-history.md
       - linkListType: video
         links:
-            - text: Adoption and training videos
-              url: surface-hub-2s-adoption-videos.md
-            - text: Surface Hub 2S with Teams
-              url: https://www.youtube.com/watch?v=CH2seLS5Wb0
-            - text: Surface Hub 2S with Microsoft 365
-              url: https://www.youtube.com/watch?v=I4N2lQX4WyI&list=PLXtHYVsvn_b__1Baibdu4elN4SoF3JTBZ&index=7
+          - text: Adoption and training videos
+            url: surface-hub-2s-adoption-videos.md
+          - text: Surface Hub 2S with Teams
+            url: https://www.youtube.com/watch?v=CH2seLS5Wb0
+          - text: Surface Hub 2S with Microsoft 365
+            url: https://www.youtube.com/watch?v=I4N2lQX4WyI&list=PLXtHYVsvn_b__1Baibdu4elN4SoF3JTBZ&index=7
 
-# Card (optional)
+  # Card (optional)
   - title: Get started
     linkLists:
       - linkListType: get-started
         links:
+          - text: Ordering Surface Hub 2S
+            url: https://www.microsoft.com/p/surface-hub-2S/8P62MW6BN9G4?activetab=pivot:overviewtab 
           - text: Operating system essentials
             url: differences-between-surface-hub-and-windows-10-enterprise.md
           - text: Surface Hub 2S Site Readiness Guide
             url: surface-hub-2s-site-readiness-guide.md
-          - text: Customize Surface Hub 2S installation
-            url: surface-hub-2s-custom-install.md
-          - url: https://support.office.com/article/Enable-Microsoft-Whiteboard-on-Surface-Hub-b5df4539-f735-42ff-b22a-0f5e21be7627
-            text: Enable Microsoft Whiteboard on Surface Hub
+          - text: Enable Microsoft Whiteboard on Surface Hub
+            url: https://support.office.com/article/Enable-Microsoft-Whiteboard-on-Surface-Hub-b5df4539-f735-42ff-b22a-0f5e21be7627
+
       - linkListType: deploy
         links:
           - url: surface-hub-2s-adoption-kit.md
@@ -85,35 +86,33 @@ landingContent:
           - url: general-data-privacy-regulation-and-surface-hub.md
             text: General Data Privacy Regulation and Surface Hub
 
-    # Card (optional)
+  # Card (optional)
   - title: Troubleshoot
     linkLists:
       - linkListType: learn
         links:
-        - url: https://support.microsoft.com/help/4493926
-          text: Service and warranty
-        - url: surface-hub-2s-recover-reset.md
-          text: Recover & reset Surface Hub 2S
-        - url: support-solutions-surface-hub.md
-          text: Surface Hub support solutions
-        - url: miracast-troubleshooting.md
-          text: Troubleshoot Miracast on Surface Hub
+          - url: https://support.microsoft.com/help/4493926
+            text: Service and warranty
+          - url: surface-hub-2s-recover-reset.md
+            text: Recover & reset Surface Hub 2S
+          - url: support-solutions-surface-hub.md
+            text: Surface Hub support solutions
+          - url: miracast-troubleshooting.md
+            text: Troubleshoot Miracast on Surface Hub
 
 
-    # Card (optional)
+  # Card (optional)
   - title: Community
     linkLists:
       - linkListType: learn
         links:
-        - url: https://techcommunity.microsoft.com/t5/Surface-Hub/bd-p/SurfaceHub
-          text: Join the Surface Hub Technical Community
+          - url: https://techcommunity.microsoft.com/t5/Surface-Hub/bd-p/SurfaceHub
+            text: Join the Surface Hub Technical Community
 
-    # Card
+  # Card
   - title: Need help?
     linkLists: 
       - linkListType: reference
         links:
-        - url: https://support.microsoft.com/supportforbusiness/productselection?sapId=bb7066fb-e329-c1c0-9c13-8e9949c6a64e
-          text: Get support
-          
-          
+          - url: https://support.microsoft.com/supportforbusiness/productselection?sapId=bb7066fb-e329-c1c0-9c13-8e9949c6a64e
+            text: Get support
