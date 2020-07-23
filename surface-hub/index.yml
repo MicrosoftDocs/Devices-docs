@@ -50,14 +50,15 @@ landingContent:
     linkLists:
       - linkListType: get-started
         links:
-         - text: Ordering Surface Hub 2S
-            url: https://www.microsoft.com/p/surface-hub-2S/8P62MW6BN9G4?activetab=pivot:overviewtab 
-          - text: Operating system essentials
-            url: differences-between-surface-hub-and-windows-10-enterprise.md
-          - text: Surface Hub 2S Site Readiness Guide
-            url: surface-hub-2s-site-readiness-guide.md
-          - url: https://support.office.com/article/Enable-Microsoft-Whiteboard-on-Surface-Hub-b5df4539-f735-42ff-b22a-0f5e21be7627
-            text: Enable Microsoft Whiteboard on Surface Hub
+			- text: Ordering Surface Hub 2S
+			  url: https://www.microsoft.com/p/surface-hub-2S/8P62MW6BN9G4?activetab=pivot:overviewtab 
+			- text: Operating system essentials
+			  url: differences-between-surface-hub-and-windows-10-enterprise.md
+			- text: Surface Hub 2S Site Readiness Guide
+			  url: surface-hub-2s-site-readiness-guide.md
+			- text: Enable Microsoft Whiteboard on Surface Hub
+			  url: https://support.office.com/article/Enable-Microsoft-Whiteboard-on-Surface-Hub-b5df4539-f735-42ff-b22a-0f5e21be7627
+
       - linkListType: deploy
         links:
           - url: surface-hub-2s-adoption-kit.md
