@@ -9,7 +9,7 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 02/28/2020
+ms.date: 07/23/2020
 ms.localizationpriority: Medium
 ---
 
@@ -30,17 +30,27 @@ Surface Hub 2S allows IT administrators to manage settings and policies using a 
 
 During the initial setup process, when affiliating a Surface Hub with an Azure AD tenant that has Intune auto enrollment enabled, the device will automatically enroll with Intune. For more information, refer to [Intune enrollment methods for Windows devices](https://docs.microsoft.com/intune/enrollment/windows-enrollment-methods). Azure AD affiliation and Intune auto enrollment is required for the Surface Hub to be a "compliant device" in Intune. 
 
-## Windows 10 Team Edition settings
+## Managing Windows 10 Team Edition settings with Intune
 
-Select Windows 10 Team for preset device restriction settings for Surface Hub and Surface Hub 2S.
+1. Sign into **Microsoft Endpoint Manager**, select **Devices** > **Configuration profiles** > **Create profile**. 
+2. Under **Platform**, select **Windows 10 and later** > **Device restrictions (Windows 10 Team)** and then select **Create**. 
+3. You can now browse and select preset device restriction settings for Surface Hub and Surface Hub 2S.
 
  ![Set device restrictions for Surface Hub 2S.](images/sh2-set-intune3.png) <br>
 
-These settings include user experience and app behavior, Azure Log Analytics registration, Maintenance windows configuration, Session settings, and Miracast settings. For a complete list of available Windows 10 Team settings, see [SurfaceHub CSP](https://docs.microsoft.com/windows/client-management/mdm/surfacehub-csp).
+These settings span the following categories: Apps and experience, Azure operational insights, Maintenance, Session, and Wireless projection.  
 
-## Additional supported configuration service providers (CSPs)
+## Supported Configuration service providers (CSPs)
 
-For additional supported CSPs, see [Surface Hub CSPs in Windows 10](https://docs.microsoft.com/windows/client-management/mdm/configuration-service-provider-reference#surfacehubcspsupport).
+In addition to the policies available directly via the Intune console, there are numerous Configuration service providers (CSPs) that map to registry keys or files. 
+
+Microsoft typically provides new CSPs with each new versions of the Windows 10 operating system. The [Windows 10 Team 2020 Update](surface-hub-install-2020preview.md), available in preview via the Windows Insider Program, includes more than 20 new and updated device management policies for Surface Hub and Surface Hub 2S. These MDM policies give IT admins improved control over app updates from the Microsoft Store, wireless projection settings such as Miracast over infrastructure, network settings such as Quality-Of-Service and 802.1x wired authentication, and new privacy/GDPR related settings.
+
+For more information, see the following resources: 
+
+- [Configuration service provider reference](https://docs.microsoft.com/windows/client-management/mdm/configuration-service-provider-reference) 
+- [SurfaceHub CSP](https://docs.microsoft.com/windows/client-management/mdm/surfacehub-csp)
+- [Policy CSPs supported by Microsoft Surface Hub](https://docs.microsoft.com/windows/client-management/mdm/policy-csps-supported-by-surface-hub)
 
 ## Quality of Service (QoS) settings
 
