@@ -1,4 +1,4 @@
- ### YamlMime:Landing
+### YamlMime:Landing
 
 title: Surface Hub documentation # < 60 chars
 summary: Surface Hub 2S is an all-in-one digital interactive whiteboard, meetings platform, and collaborative computing device. # < 160 chars
@@ -61,30 +61,30 @@ landingContent:
 
       - linkListType: deploy
         links:
-          - url: surface-hub-2s-adoption-kit.md
-            text: Surface Hub 2S adoption and training
-          - url: surface-hub-2s-deploy-checklist.md
-            text: Surface Hub 2S deployment checklist
-          - url: surface-hub-2s-account.md
-            text: Create device account
+            - url: surface-hub-2s-adoption-kit.md
+              text: Surface Hub 2S adoption and training
+            - url: surface-hub-2s-deploy-checklist.md
+              text: Surface Hub 2S deployment checklist
+            - url: surface-hub-2s-account.md
+              text: Create device account
 
   # Card (optional)
   - title: Secure
     linkLists:
       - linkListType: reference
         links:
-          - url: surface-hub-security.md
-            text: Surface Hub security overview 
-          - url: surface-hub-2s-manage-intune.md
-            text: Manage with Intune
-          - url: local-management-surface-hub-settings.md
-            text: Manage local settings
-          - url: surface-hub-2s-secure-with-uefi-semm.md
-            text: Secure with UEFI and SEMM
-          - url: surface-hub-wifi-direct.md
-            text: Wi-Fi security considerations
-          - url: general-data-privacy-regulation-and-surface-hub.md
-            text: General Data Privacy Regulation and Surface Hub
+            - url: surface-hub-security.md
+              text: Surface Hub security overview 
+            - url: surface-hub-2s-manage-intune.md
+              text: Manage with Intune
+            - url: local-management-surface-hub-settings.md
+              text: Manage local settings
+            - url: surface-hub-2s-secure-with-uefi-semm.md
+              text: Secure with UEFI and SEMM
+            - url: surface-hub-wifi-direct.md
+              text: Wi-Fi security considerations
+            - url: general-data-privacy-regulation-and-surface-hub.md
+              text: General Data Privacy Regulation and Surface Hub
 
   # Card (optional)
   - title: Troubleshoot
@@ -106,8 +106,8 @@ landingContent:
     linkLists:
       - linkListType: learn
         links:
-        - url: https://techcommunity.microsoft.com/t5/Surface-Hub/bd-p/SurfaceHub
-          text: Join the Surface Hub Technical Community
+            - url: https://techcommunity.microsoft.com/t5/Surface-Hub/bd-p/SurfaceHub
+              text: Join the Surface Hub Technical Community
 
   # Card
   - title: Need help?
@@ -116,5 +116,3 @@ landingContent:
         links:
           - url: https://support.microsoft.com/supportforbusiness/productselection?sapId=bb7066fb-e329-c1c0-9c13-8e9949c6a64e
             text: Get support
-          
-          
