@@ -79,7 +79,7 @@
 ### [Surface for Business warranty and extended service plans](https://www.microsoft.com/surface/business/warranty-service-offerings-and-support)
 ### [Terms & Conditions](https://support.microsoft.com/help/4493926/warranties-extended-service-plans-and-terms-conditions-for-your-device)
 ### [Check device warranty status](https://mybusinessservice.surface.com/)
-### [Protecting your data if you send your Surface in for service](https://support.microsoft.com/help/4023508/surface-faq-protecting-your-data-service)
+### [Protecting data when sending Surface in for service](https://support.microsoft.com/help/4023508/surface-faq-protecting-your-data-service)
 ### [Help for end-users](https://support.microsoft.com/products/surface-devices)
 ### Contact Surface for Business Support
 
