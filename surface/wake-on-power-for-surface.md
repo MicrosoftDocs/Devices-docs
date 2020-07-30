@@ -1,30 +1,37 @@
 ---
-title: "Title goes here"
+title: How to enable Wake on Power for Surface
 ms.author: v-todmc
-author: todmccoy
-manager: dcscontentpm
-ms.date: xx/xx/xxxx
-audience: Admin|ITPro|Developer
-ms.topic: article
-ms.service OR ms.prod: see https://docsmetadatatool.azurewebsites.net/allowlists
-localization_priority: Normal
+author: mccoybot
+ms.date: 7/30/2020
+audience: ITPro
 search.appverid:
 - SPO160
 - MET150
 appliesto:
-- ADD PRODUCT
+- Surface Book 3
+- Surface Pro 7
+- Surface Laptop 3
+- Surface Pro X
 ms.custom: 
-- CI ID
-- CSSTroubleshoot 
-ms.reviewer: MS aliases for tech reviewers and CI requestor, without "@microsoft.com".  
-description: "How to resolve the error "Virus Found" in SharePoint Server 2013 when the antivirus scanner is unavailable ."
+- CI 121602
+ms.reviewer: johnk@cadencepreferred.com  
+description: Describes how to enable and disable Wake on Power for Surface devices.
+keywords: update, deploy, driver, wol, wake-on-lan
+ms.prod: w10
+ms.mktglfcycl: manage
+ms.pagetype: surface, devices
+ms.sitesec: library
+ms.localizationpriority: medium
+ms.topic: article
+manager: laurawi
+ms.audience: itpro
 ---
 
 # Wake on Power for Surface devices
 
-Surface devices can be turned off while away from the desk or enter hibernate mode to save battery. To improve the manageability of these devices, Wake on Power enables compatible Surface devices to automatically turn on when reconnected to power. Configuring Wake on Power requires using Surface Enterprise Management Mode (SEMM) either through Surface UEFI Configurator or UEFI Manager.
+Surface devices can be powered off while away from the desk or set to hibernate mode to save battery. To improve the manageability of these devices, Wake on Power enables compatible Surface devices to automatically start when reconnected to power. Configuring Wake on Power requires using Surface Enterprise Management Mode (SEMM) either through Surface UEFI Configurator or the UEFI Manager.
 
-Wake on Power is available on the following devices:
+Wake on Power is a feature available on the following devices:
 
 - Surface Book 3
 - Surface Pro 7
@@ -33,7 +40,10 @@ Wake on Power is available on the following devices:
 
 ## Overview and prerequisites
 
-You use Surface UEFI Configurator to configure individual UEFI settings that are saved in a Windows Installer .MSI package for distribution to target devices. This article assumes you are familiar with using SEMM. For more information, see [Surface Enterprise Management Mode (SEMM)](surface-enterprise-management-mode.md) documentation.
+You can use the Surface UEFI Configurator to configure individual UEFI settings that are saved in a Windows Installer .msi package for distribution to target devices. 
+
+> [!NOTE]
+> This article assumes that you are familiar with using SEMM. For more information, see [Surface Enterprise Management Mode (SEMM)](surface-enterprise-management-mode.md) documentation.
 
 ## To enable Wake on Power
 
@@ -45,18 +55,18 @@ You use Surface UEFI Configurator to configure individual UEFI settings that are
 
     :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-2.png" alt-text="Select Create Configuration Package.":::
 4.	Select **Certificate Protection** and add your certificate .pfx file. After entering your password, select **Next**. Add **Password Protection**, as appropriate, and then select **Next**.
-5.	In the **Choose which Surface type you want to target** page, select your target devices as appropriate; for example, **Surface Pro 7**.
-6.	In the **Advanced Features** page, select **Wake on Power** and set to **On**. Select **Next**.
+5.	On the **Choose which Surface type you want to target** page, select your target devices as appropriate. For example, **Surface Pro 7**.
+6.	On the **Advanced Features** page, select **Wake on Power** and set to **On**. Select **Next**.
 
     :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-3.png" alt-text="Select Wake on Power and set to On."::: 
 7.	On the **Successful** page, select **End**. If this is your first time providing settings to your device, you will be prompted to provide the last two characters of the certificate thumbprint. 
-8.	Save the .MSI package. 
+8.	Save the .msi package. 
 
-## Apply MSI package 
+## Apply the MSI package 
 
 You can apply the MSI package to devices across your network using software distribution tools such as Microsoft Endpoint Configuration Manager. This procedure includes steps for installing the package on your local machine. 
 
-1.	Open an elevated command prompt and enter the full path of the .MSI file to run the .MSI package. 
+1.	Open an elevated command prompt and enter the full path of the .msi file to run the .msi package. 
 
     ```
     C:\SEMM\wake-on-power.msi 
@@ -68,11 +78,13 @@ You can apply the MSI package to devices across your network using software dist
 3.	On the Welcome page, select **Next** to run the package and apply the newly configured UEFI setting.
 
     :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-5.png" alt-text="One the Welcome page, select Next.":::
-4.	Restart your device. Wake on Power is now configured. To test the setting, turn off your device, disconnect the power, and then reconnect power. The device will start automatically. 
+4.	Restart your device. 
+
+Wake on Power is now configured. To test the setting, turn off your device, disconnect the power, and then reconnect the power. The device will start automatically. 
 
 ## More information
 
-For more information about Wake on Power for Surface devices, see the following articles. 
+For more information, see the following articles. 
 
 - [Surface Enterprise Management Mode](surface-enterprise-management-mode.md)
 - [Wake on LAN for Surface devices](wake-on-lan-for-surface-devices.md)
