@@ -8,7 +8,7 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 05/11/2020
+ms.date: 07/31/2020
 ms.reviewer: hachidan
 manager: laurawi
 audience: itpro
@@ -174,6 +174,14 @@ You can select to run a wide range of logs across applications, drivers, hardwar
 - [Use Surface Diagnostic Toolkit for Business using commands](surface-diagnostic-toolkit-command-line.md)
 
 ## Changes and updates
+
+
+### Version 2.121.139
+*Release date: July 31 2020*<br>
+This version of Surface Diagnostic Toolkit for Business adds support for the following:
+
+- Seamless support experience
+- Bug fixes
 
 ### Version 2.94.139.0
 *Release date: May 11, 2020*<br>
