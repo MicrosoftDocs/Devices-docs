@@ -1,6 +1,6 @@
 ---
 title: Use Surface Diagnostic Toolkit for Business in desktop mode
-description: How to use SDT to help users in your organization run the tool to identify and diagnose issues with the Surface device. 
+description: How to use SDT to help users in your organization run the tool to identify and diagnose issues with the Surface device as well as submit Support requests directly from the tool.
 ms.prod: w10
 ms.mktglfcycl: manage
 ms.sitesec: library
@@ -11,11 +11,15 @@ ms.reviewer: hachidan
 manager: laurawi
 ms.localizationpriority: medium
 ms.audience: itpro
+ms.date: 7/31/2020
+
 ---
 
 # Use Surface Diagnostic Toolkit for Business in desktop mode
 
-This topic explains how to use the Surface Diagnostic Toolkit (SDT) to help users in your organization run the tool to identify and diagnose issues with the Surface device. Successfully running SDT can quickly determine if a reported issue is caused by failed hardware or user error. For a list of supported Surface devices in SDT, refer to [Deploy Surface Diagnostic Toolkit for Business](surface-diagnostic-toolkit-business.md).
+This topic explains how to use the Surface Diagnostic Toolkit (SDT) to help users in your organization run the tool to identify and diagnose issues with their Surface device as well as submit Support requests directly from the tool. 
+
+Successfully running SDT can quickly determine if a reported issue is caused by failed hardware or user error. For a list of supported Surface devices in SDT, refer to [Deploy Surface Diagnostic Toolkit for Business](surface-diagnostic-toolkit-business.md).
 
 
 1. Direct the user to install [the SDT package](surface-diagnostic-toolkit-business.md#create-custom-sdt) from a software distribution point or network share. After it is installed, you’re ready to guide the user through a series of tests. 
@@ -27,12 +31,12 @@ This topic explains how to use the Surface Diagnostic Toolkit (SDT) to help user
 
 3. When SDT indicates the device has the latest updates, click **Continue** to advance to the catalog of available tests, as shown in figure 2.
 
-    ![Select from SDT options](images/sdt-desk-2.png)
+    ![Select from SDT options](images/sdt1.png)
 *Figure 2. Select from SDT options*
 
 4. You can choose to run all the diagnostic tests. Or, if you already suspect a particular issue such as a faulty display or a power supply problem, click **Select** to choose from the available tests and click **Run Selected**, as shown in figure 3. See the following table for details of each test. 
 
-    ![Select hardware tests](images/sdt-desk-3.png)
+    ![Select hardware tests](images/sdt2.png)
 *Figure 3. Select hardware tests*
 
     Hardware test | Description
@@ -47,9 +51,15 @@ This topic explains how to use the Surface Diagnostic Toolkit (SDT) to help user
     Sensors	| Checks functioning of different sensors in the device
     Hardware |	Checks issues with different hardware components such as graphics card and camera
 
+5. When all tests have finished, the tool asks you to confirm if your issue is fixed. 
 
+ ![Has your problem been resolved?](images/sdt3.png)
+*Figure 3a. Has your problem been resolved?*
 
-
+6. If the issue isn't resolved or you don't know, you can submit a Support ticket by selecting **Contact us** to **Get help now.**
+ 
+ ![Submit a Support ticket](images/sdt4.png)
+*Figure 3b. Submit a Support ticket*
 
 <span id="multiple" />
 

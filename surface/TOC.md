@@ -52,6 +52,7 @@
 ### [Battery Limit setting](battery-limit.md)
 ### [Surface Brightness Control](microsoft-surface-brightness-control.md)
 ### [Surface Asset Tag](assettag.md)
+### [Wake on Power for Surface devices](wake-on-power-for-surface.md)
 
 ## Secure
 
