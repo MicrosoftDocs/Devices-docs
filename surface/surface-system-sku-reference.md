@@ -9,7 +9,7 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 03/09/2020
+ms.date: 08/03/2020
 ms.reviewer: 
 manager: laurawi
 ms.localizationpriority: medium
@@ -20,7 +20,7 @@ ms.audience: itpro
 
 This document provides a reference of System Model and System SKU names that you can use to quickly determine the machine state of a specific device by using PowerShell or WMI.
 
-System Model and System SKU are variables that are stored in the System Management BIOS (SMBIOS) tables in the UEFI layer of Surface devices. The System SKU name is required to differentiate between devices that have the same System Model name, such as Surface Pro and Surface Pro with LTE Advanced. 
+System Model and System SKU are variables that are stored in the System Management BIOS (SMBIOS) tables in the UEFI layer of Surface devices. Use the System SKU name whenever you need to differentiate between devices with the same System Model name, such as Surface Pro and Surface Pro with LTE Advanced.
 
 | Device   | System Model | System SKU       |
 | ---------- | ----------- | -------------- |
@@ -33,10 +33,13 @@ System Model and System SKU are variables that are stored in the System Manageme
 | Surface Pro with LTE Advanced                                | Surface Pro      | Surface_Pro_1807                 |
 | Surface Book 2 13"                                        | Surface Book 2   | Surface_Book_1832                |
 | Surface Book 2 15"                                        | Surface Book 2   | Surface_Book_1793                |
-| Surface Go LTE Consumer  | Surface Go | Surface_Go_1825_Consumer |
+| Surface Book 3 13"                                        | Surface Book 3   | Surface_Book_3_1900                |
+| Surface Book 3 15"                                        | Surface Book 3   | Surface_Book_3_1899
+
 | Surface Go LTE Commercial | System Go | Surface_Go_1825_Commercial |
 | Surface Go Consumer                                          | Surface Go       | Surface_Go_1824_Consumer         |
 | Surface Go Commercial                                        | Surface Go       | Surface_Go_1824_Commercial       |
+| Surface Go 2                                                 | Surface Go 2     | Surface_Go_2_1927                |
 | Surface Pro 6 Consumer                                       | Surface Pro 6    | Surface_Pro_6_1796_Consumer      |
 | Surface Pro 6 Commercial                                     | Surface Pro 6    | Surface_Pro_6_1796_Commercial    |
 | Surface Laptop                                               | Surface Laptop   | Surface_Laptop                   |
