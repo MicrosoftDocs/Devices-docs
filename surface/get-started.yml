@@ -121,4 +121,6 @@ landingContent:
       - linkListType: learn
         links:
           - text: Contact Surface Support
-            url: contact-surface-support.md 
+            url: contact-surface-support.md
+          - text: Surface for Business warranty and extended service plans
+            url: https://www.microsoft.com/en-us/surface/business/warranty-service-offerings-and-support
