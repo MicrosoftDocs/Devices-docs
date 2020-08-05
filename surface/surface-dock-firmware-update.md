@@ -11,8 +11,9 @@ ms.topic: article
 ms.reviewer: scottmca
 manager: laurawi
 ms.audience: itpro
+ms.date: 8/05/2020
 ---
-# Microsoft Surface Dock Firmware Update: Technical information for IT administrators
+# Microsoft Surface Dock Firmware Update: Technical information for IT admins
 
 > [!IMPORTANT]
 > This article contains technical instructions for IT administrators. If you are a home user, please see [How to update your Surface Dock Firmware](https://support.microsoft.com/help/4023478/surface-update-your-surface-dock) on the Microsoft Support site. The instructions at the support site are the same as the general installation steps below, but this article has additional information for monitoring, verifying, and deploying the update to multiple devices on a network.
@@ -149,6 +150,16 @@ Events are logged in the Application Event Log.  Note:  Earlier versions of this
 
 >[!NOTE]
 >The installation file is released with the following naming format: **Surface_Dock_FwUpdate_X.XX.XXX_Win10_XXXXX_XX.XXX.XXXXX_X.MSI** (ex: Surface_Dock_FwUpdate_1.42.139_Win10_17134_19.084.31680_0.msi) and installs by default to C:\Program Files\SurfaceUpdate.
+
+### Version 1.53.139.0
+*Release Date: August 4, 2020*
+
+This version of Surface Dock Firmware Update includes bug fixes and support for:
+- Updating Surface Dock 1 using Surface Pro X. 
+   > [!NOTE]
+   > If you're running Surface Pro X, download the .ARM64 build. For all other devices, use the AMD64 build. 
+ 
+
 
 ### Version 1.42.139 
 *Release Date: September 18 2019*

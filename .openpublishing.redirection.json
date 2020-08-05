@@ -16,6 +16,11 @@
             "redirect_document_id":  true
         },
         {
+            "source_path":  "surface/documentation/surface-system-sku-reference.md",
+            "redirect_url":  "https://docs.microsoft.com/surface/surface-system-sku-reference",
+            "redirect_document_id":  true
+        },
+        {
             "source_path":  "surface-hub/intro-to-surface-hub.md",
             "redirect_url":  "https://docs.microsoft.com/surface-hub/index",
             "redirect_document_id":  false
