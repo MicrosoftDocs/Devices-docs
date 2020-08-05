@@ -155,7 +155,9 @@ Events are logged in the Application Event Log.  Note:  Earlier versions of this
 *Release Date: August 4, 2020*
 
 This version of Surface Dock Firmware Update includes bug fixes and support for:
-- Updating Surface Dock 1 using Surface Pro X. **Note:** If you're running Surface Pro X, download the .ARM64 build. For all other devices, use the AMD64 build. 
+- Updating Surface Dock 1 using Surface Pro X. 
+   > [!NOTE]
+   > If you're running Surface Pro X, download the .ARM64 build. For all other devices, use the AMD64 build. 
  
 
 
