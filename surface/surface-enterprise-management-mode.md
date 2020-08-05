@@ -13,7 +13,7 @@ ms.reviewer: hachidan
 manager: laurawi
 ms.localizationpriority: medium
 audience: itpro
-ms.date: 05/26/2020
+ms.date: 08/05/2020
 ---
 
 # Microsoft Surface Enterprise Management Mode
@@ -230,6 +230,16 @@ serial-number independent. If the certificate is still valid, you can
 create a reset package using PowerShell to reset SEMM.
 
 ## Version History
+
+
+### Version 2.73.136.0
+
+This version of SEMM includes:
+
+- Audio can now be disabled on Surface Hub2S using SEMM
+- Support to Surface Pro X for Dock 2
+- Support to UEFI Manager for Dock 2 related operations
+- Surface Go reset package bug fix
 
 ### Version 2.71.139.0
 
