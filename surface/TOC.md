@@ -70,6 +70,7 @@
 ## Troubleshoot
 ### [Contact Surface Support](contact-surface-support.md)
 ### [Top support solutions for Surface devices](support-solutions-surface.md)
+### [Surface IT Pro Blog](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/bg-p/SurfaceITPro)
 ### [Fix common Surface problems using the Surface Diagnostic Toolkit for Business](surface-diagnostic-toolkit-for-business-intro.md)
 #### [Deploy Surface Diagnostic Toolkit for Business](surface-diagnostic-toolkit-business.md)
 #### [Use Surface Diagnostic Toolkit for Business in desktop mode](surface-diagnostic-toolkit-desktop-mode.md)

@@ -98,6 +98,8 @@ landingContent:
         links:
           - text: Top support solutions
             url: support-solutions-surface.md
+          - text: Surface IT Pro Blog
+            url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/bg-p/SurfaceITPro
           - text: Protecting your data during Surface repair or service
             url: https://support.microsoft.com/help/4023508/surface-faq-protecting-your-data-service
           - text: Troubleshoot Surface Dock and docking stations
