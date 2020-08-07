@@ -70,6 +70,7 @@
 ## Troubleshoot
 ### [Contact Surface Support](contact-surface-support.md)
 ### [Top support solutions for Surface devices](support-solutions-surface.md)
+### [Best practices for SSD removal in compatible Surface devices](surface-ssd-removal-guide.md)
 ### [Surface IT Pro Blog](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/bg-p/SurfaceITPro)
 ### [Fix common Surface problems using the Surface Diagnostic Toolkit for Business](surface-diagnostic-toolkit-for-business-intro.md)
 #### [Deploy Surface Diagnostic Toolkit for Business](surface-diagnostic-toolkit-business.md)
