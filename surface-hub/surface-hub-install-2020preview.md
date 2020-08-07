@@ -79,7 +79,9 @@ For more information, see [Save your BitLocker key](https://docs.microsoft.com/s
 
 You may experience various graphics and user interface issues if you install the Preview Build, but do not immediately install the required firmware updates afterward. Microsoft plans to fix these issues in the release build of Windows 10 Team 2020 Update.
 
-### Surface Hub 84-inch: graphics and user interface issues
+### Resolved: Surface Hub 84-inch: graphics and user interface issues
+
+This issue is resolved in Public Preview Build 19041.396.20200725-1700 and greater. Please ensure that you have taken all Windows Updates.
 
 You may experience various graphics and user interface issues if you install the Preview Build on a first-generation Surface Hub 84-inch device. The Surface Hub 84-inch will be supported in the final release of Windows 10 Team 2020 Update.
 
@@ -99,7 +101,9 @@ When you go to **Settings** > **Update & Security** > **Windows Update** after y
 
 This error can be safely ignored. Microsoft is actively investigating this issue.
 
-### Unable to install Surface Hub policies using provisioning packages
+### Resolved: Unable to install Surface Hub policies using provisioning packages
+
+This issue is resolved in Public Preview Build 19041.396.20200725-1700 and greater. Please ensure that you have taken all Windows Updates.
 
 Provisioning packages that use policies from the Surface Hub Configuration Service Provider (CSP) fail to install. For now, use Microsoft Intune or another mobile device management (MDM) provider to apply Surface Hub policies. Microsoft plans to fix this issue in the release build of Windows 10 Team 2020 Update.
 
@@ -107,7 +111,9 @@ Provisioning packages that use policies from the Surface Hub Configuration Servi
 
 When using a provisioning package to setup Surface Hub during first run, you’re prompted to remove the USB drive before the device is able to read the Surface Hub configuration file. Ignore the message if you’re using a configure file to setup your device account. Microsoft is actively investigating this issue.
  
-### Unable to set up proxy settings during first run
+### Resolved: Unable to set up proxy settings during first run
+
+This issue is resolved in Public Preview Build 19041.396.20200725-1700 and greater. Please ensure that you have taken all Windows Updates.
 
 If you use a proxy to connect to the Internet, you may have limited Internet connectivity during the first run program. Microsoft plans to fix this issue in the release build of Windows 10 Team 2020 Update.
  
