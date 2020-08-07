@@ -1,6 +1,6 @@
 ---
 title: "Known issues: Windows 10 Team 2020 Update"
-description: "The latest update of the Surface Hub operating system, Windows 10 Team 2020 Update, is now available."
+description: "This page provides a list of known issues for indows 10 Team 2020 Update."
 keywords: separate values with commas
 ms.prod: surface-hub
 ms.sitesec: library
@@ -13,6 +13,10 @@ ms.date: 08/07/2020
 ms.localizationpriority: Medium
 ---
 # Known issues: Windows 10 Team 2020 Update Preview Build 
+
+This page provides a list of known issues for the Windows 10 Team 2020 Update preview build. Issues that have been fixed since the release of the preview build are listed in Table 2. 
+
+#### Table 1. Known issues - Windows 10 Team 2020 Update Preview Build 
 
 | Issue                                                                     | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | ------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -27,11 +31,9 @@ ms.localizationpriority: Medium
  
  
 
-## Resolved issues
+#### Table 2. Resolved issues- Windows 10 Team 2020 Update Preview Build 
 
- 
-
-| Issue                                                                  | Description                                                                                                                                                                                                                                                                                                               | Notes                                                                                                                                      |
+ Issue                                                                  | Description                                                                                                                                                                                                                                                                                                               | Notes                                                                                                                                      |
 | ---------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
 | **Surface Hub 84-inch: graphics and user interface issues**            | You may experience various graphics and user interface issues if you install the Preview Build on a first-generation Surface Hub 84-inch device. The Surface Hub 84-inch will be supported in the final release of Windows 10 Team 2020 Update.                                                                           | This issue is resolved in Public Preview Build 19041.396.20200725-1700 and greater. Please ensure that you have taken all Windows Updates. |
 | **Unable to install Surface Hub policies using provisioning packages** | Provisioning packages that use policies from the Surface Hub Configuration Service Provider (CSP) fail to install. For now, use Microsoft Intune or another mobile device management (MDM) provider to apply Surface Hub policies. Microsoft plans to fix this issue in the release build of Windows 10 Team 2020 Update. | This issue is resolved in Public Preview Build 19041.396.20200725-1700 and greater. Please ensure that you have taken all Windows Updates. |
