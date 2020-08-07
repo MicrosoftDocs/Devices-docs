@@ -9,7 +9,7 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 07/22/2020
+ms.date: 08/07/2020
 ms.localizationpriority: Medium
 ---
 # Install Windows 10 Team 2020 Update Preview Build 
@@ -47,10 +47,11 @@ For more information, see [Save your BitLocker key](https://docs.microsoft.com/s
 ## Install the Windows 10 Team 2020 Update Preview Build
 
 1. On Surface Hub, open **Settings** and enter your admin credentials when prompted.
-2. Navigate to **Update & Security** > **Windows Insider Program** and then select **Get started**.
-3. Follow the prompts to register as a Windows Insider using either your work account (recommended) or your personal Microsoft account. For details on the benefits of registering with your work account, see [Register for the Windows Insider Program for Business](https://docs.microsoft.com/windows-insider/at-work-pro/wip-4-biz-register).
-4. Under **Pick your Insider settings**, select **Fast**.
-5. Allow the Surface Hub to automatically install the Preview Build and the required firmware updates over the next 3 to 4 days. The device will automatically download and install the updates during daily [maintenance windows](https://docs.microsoft.com/surface-hub/manage-windows-updates-for-surface-hub#maintenance-window). For example:
+2. Navigate to **Privacy > Diagnostics & feedback** and **Full** for the Diagnostic data. 
+3. Navigate to **Update & Security** > **Windows Insider Program** and then select **Get started**.
+4. Follow the prompts to register as a Windows Insider using either your work account (recommended) or your personal Microsoft account. For details on the benefits of registering with your work account, see [Register for the Windows Insider Program for Business](https://docs.microsoft.com/windows-insider/at-work-pro/wip-4-biz-register).
+5. Under **Pick your Insider settings**, select **Fast**.
+6. Allow the Surface Hub to automatically install the Preview Build and the required firmware updates over the next 3 to 4 days. The device will automatically download and install the updates during daily [maintenance windows](https://docs.microsoft.com/surface-hub/manage-windows-updates-for-surface-hub#maintenance-window). For example:
 
 - During the first maintenance window, Surface Hub starts downloading the Preview Build from Windows Update.
 - During a second maintenance window, the device restarts to complete the update.
