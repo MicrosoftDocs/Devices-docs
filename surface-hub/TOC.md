@@ -36,6 +36,7 @@
 
 ## Manage
 ### [Install Windows 10 Team 2020 Update Preview Build](surface-hub-install-2020preview.md)  
+### [Known issues - Windows 10 Team 2020 Update](surface-hub-2020-team-update-known-issues.md)
 ### [Install and configure the new Microsoft Edge on Surface Hub](surface-hub-install-chromium-edge.md)        
 ### [Manage Surface Hub 2S with Microsoft Intune](surface-hub-2s-manage-intune.md)
 ### [Local management for Surface Hub 2S settings](local-management-surface-hub-settings.md)
