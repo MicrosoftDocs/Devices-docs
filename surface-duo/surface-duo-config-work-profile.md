@@ -22,7 +22,7 @@ Targeted at  BYOD deployments, work profiles provide a separate space on Duo for
 
 ### Setup Android Enterprise Work Profile
 
-Use work profiles to manage corporate data and apps on user-owned Android devices. By default, enrollment of personally owned work profile devices is enabled and requires no further admin configuration.  d
+Use work profiles to manage corporate data and apps on user-owned Android devices. By default, enrollment of personally owned work profile devices is enabled and requires no further admin configuration.  
 
 **To enable Enterprise Work Profile:**
 
