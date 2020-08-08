@@ -1,6 +1,6 @@
 ---
 title: Surface Duo 
-description: This article explains
+description: This article explains setup of work profile on Surface Duo.
 ms.prod: surface-duo
 ms.mktglfcycl: manage
 ms.sitesec: library
@@ -50,16 +50,17 @@ Use work profiles to manage corporate data and apps on user-owned Android device
 5. Select **Continue**.<br><br>
  ![alt text](images/duo-wp-6.png)
 
-6. When you have activated the work profile, select Continue to update device settings.  If your company app protection policy requires stronger authentication than the default 4-character numerical passcode, review the guidance and select **Continue**.<br><br>
+6. When you have activated the work profile, select **Continue** to update device settings.  
 
-**Note:** In this example, the work profile applies an MDM setting to require a stronger password — 6 characters long continuing both numbers and letters. 
- ![alt text](images/duo-wp-7.png)
- ![alt text](images/duo-wp-8.png)
- ![alt text](images/duo-wp-9.png)
+> [!NOTE]
+>  In this example, the work profile applies an MDM setting to require a stronger 6-digit alphanumeric password. <br><br>
 
-7. Select **Resolve** to enter the required authentication and then select **Continue** to complete Work Profile setup. 
+ ![alt text](images/duo-wp-7.png)<br><br>
+7. Select **Resolve** to enter the required authentication and then select **Continue** to complete Work Profile setup. <br><br>
+ ![alt text](images/duo-wp-8.png)<br><br>
+ ![alt text](images/duo-wp-9.png)<br><br>
 
 ## Learn more
 
-- [Set up enrollment of Android Enterprise work profile devices](https://docs.microsoft.com/mem/intune/enrollment/android-work-profile-enroll).
+- [Set up enrollment of Android Enterprise work profile devices](https://docs.microsoft.com/mem/intune/enrollment/android-work-profile-enroll)
 
