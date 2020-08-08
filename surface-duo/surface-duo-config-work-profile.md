@@ -27,30 +27,30 @@ Use work profiles to manage corporate data and apps on user-owned Android device
 **To enable Enterprise Work Profile:**
 
 - In Endpoint Manager, select **Devices** > **Android** > **Android enrollment** and then select **Personal devices with work profile**.
-
+<br><br>
  ![alt text](images/enroll-start.png)
 
  
 **Sign into Surface Duo with Android Enterprise Work Profile**
 
-1. Install the Company Portal app from Google Play Store and sign in with your Microsoft work or school account.
+1. Install the Company Portal app from Google Play Store and sign in with your Microsoft work or school account.<br><br>
 ![alt text](images/duo-wp-1.png)
  
-2. On the Access Setup page, select **Begin**.
+2. On the Access Setup page, select **Begin**.<br><br>
 ![alt text](images/duo-wp-2.png)
 
-3. Review the information on the privacy page and select **Continue**.
+3. Review the information on the privacy page and select **Continue**.<br><br>
  ![alt text](images/duo-wp-3.png)
 <br><br>
  ![alt text](images/duo-wp-4.png)
  
-4. When the work profile setup completes, select **Continue** to activate and register the device.
+4. When the work profile setup completes, select **Continue** to activate and register the device.<br><br>
  ![alt text](images/duo-wp-5.png)
 
-5. Select **Continue**.
+5. Select **Continue**.<br><br>
  ![alt text](images/duo-wp-6.png)
 
-6. When you have activated the work profile, select Continue to update device settings.  If your company app protection policy requires stronger authentication than the default 4-character numerical passcode, review the guidance and select **Continue**.
+6. When you have activated the work profile, select Continue to update device settings.  If your company app protection policy requires stronger authentication than the default 4-character numerical passcode, review the guidance and select **Continue**.<br><br>
 
 **Note:** In this example, the work profile applies an MDM setting to require a stronger password — 6 characters long continuing both numbers and letters. 
  ![alt text](images/duo-wp-7.png)
