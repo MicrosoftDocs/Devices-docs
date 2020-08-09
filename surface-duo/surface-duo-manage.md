@@ -1,5 +1,5 @@
 ---
-title: Surface Duo 
+title: Surface Duo management overview
 description: This article highlights options for managing Surface Duo in a commercial environment.
 ms.prod: surface-duo
 ms.mktglfcycl: manage
@@ -17,7 +17,6 @@ appliesto:
 ---
 
 # Surface Duo management overview
-
 
 Commercial customers can manage Surface Duo using any of various Enterprise mobility management (EMM) solutions that each provide a consistent set of cloud-based, device management capabilities whether managing employee- or company-owned devices.
 

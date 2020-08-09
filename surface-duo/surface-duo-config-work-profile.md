@@ -1,5 +1,5 @@
 ---
-title: Surface Duo 
+title: Configure Android Enterprise Work Profile for Surface Duo
 description: This article explains setup of work profile on Surface Duo.
 ms.prod: surface-duo
 ms.mktglfcycl: manage

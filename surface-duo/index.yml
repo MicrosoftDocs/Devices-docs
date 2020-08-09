@@ -1,0 +1,32 @@
+### YamlMime:Landing
+
+title: Surface Duo documentation # < 60 chars
+summary: Surface Duo: Two screens, double the fun. # < 160 chars
+
+metadata:
+  title: Surface Duo documentation # Required; page title displayed in search results. Include the brand. < 60 chars.
+  description: Get started with Microsoft Surface Duo # Required; article description that is displayed in search results. < 160 chars.
+  ms.service: product-insights #Required; service per approved list. service slug assigned to your service by ACOM.
+  ms.topic: landing-page # Required
+  manager: laurawi
+  author: greg-lindsay #Required; your GitHub user alias, with correct capitalization.
+  ms.author: greglin #Required; microsoft alias of author; optional team alias.
+  audience: itpro
+
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+
+landingContent:
+# Cards and links should be based on top customer tasks or top subjects
+# Start card title with a verb
+  # Card (optional)
+  - title: Surface Duo
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Surface Duo management overview
+            url: surface-duo-manage.md
+          - text: Surface Duo security overview
+            url: surface-duo-secure.md
+          - text: Explore all Surface family products
+            url: https://www.microsoft.com/surface/business
