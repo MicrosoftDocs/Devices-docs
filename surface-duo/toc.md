@@ -1,5 +1,5 @@
 # [Surface](index.yml)
-## [Surface Duo documentation](get-started.yml)
+## [Surface Duo documentation](index.yml)
 ## Overview
 ### [Surface Duo management overview](surface-duo-manage.md)
 ### [Surface Duo security overview](surface-duo-secure.md)

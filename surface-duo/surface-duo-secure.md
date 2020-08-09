@@ -12,7 +12,8 @@ ms.reviewer: karand
 manager: laurawi
 ms.audience: itpro
 audience: ITPro
-appliesto: - Surface Duo
+appliesto: 
+- Surface Duo
 ---
 
 # Surface Duo security overview
