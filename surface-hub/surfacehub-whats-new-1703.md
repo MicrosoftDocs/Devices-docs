@@ -60,7 +60,7 @@ When you reset a Surface Hub device, you now have the ability to download and in
     
 ## End session
 
-**I'm done** is now **End session**. [Learn how to use End session.](i-am-done-finishing-your-surface-hub-meeting.md) 
+**I'm done** is now **End session**. [Learn how to use End session.](finishing-your-surface-hub-meeting.md) 
 
 ![end session](images/end-session.png)
 
