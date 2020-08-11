@@ -73,12 +73,15 @@ landingContent:
     linkLists:
       - linkListType: how-to-guide
         links:
+          - text: Configure Surface Duo app protection policies
+            url: surface-duo-app-protection.md
           - text: Android Enterprise security configuration framework
             url: https://docs.microsoft.com/mem/intune/enrollment/android-configuration-framework
           - text: Android Enterprise work profile security configurations
             url: https://docs.microsoft.com/mem/intune/enrollment/android-work-profile-security-settings
           - text: Android Enterprise compliance settings 
             url: https://docs.microsoft.com/mem/intune/protect/compliance-policy-create-android-for-work
+
  
  # Card
   - title: Develop apps for Surface Duo
