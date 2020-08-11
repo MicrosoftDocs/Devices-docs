@@ -36,7 +36,6 @@ Microsoft Launcher includes the following settings to customize the end user exp
 - Dock Mode
 - Dock Mode User Change Allowed
 
-For full details of each setting, refer to [Configure Microsoft Launcher for Android Enterprise with Intune](https://docs.microsoft.com/mem/intune/apps/configure-microsoft-launcher)
+For full details of each setting, refer to [Configure Microsoft Launcher for Android Enterprise with Intune](https://docs.microsoft.com/mem/intune/apps/configure-microsoft-launcher).
 
 For step by step deployment instructions, refer to [How to Setup Microsoft Launcher on Android Enterprise Fully Managed Devices with Intune](https://techcommunity.microsoft.com/t5/intune-customer-success/how-to-setup-microsoft-launcher-on-android-enterprise-fully/ba-p/1482134).
-

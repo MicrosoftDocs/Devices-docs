@@ -52,10 +52,10 @@ Use work profiles to manage corporate data and apps on user-owned Android device
 
 6. When you have activated the work profile, select **Continue** to update device settings. In this example, the work profile applies an MDM setting to require a stronger 6-digit alphanumeric password. <br><br>
 
- ![alt text](images/duo-wp-7.png)<br><br>
+     ![alt text](images/duo-wp-7.png)<br><br>
 7. Select **Resolve** to enter the required authentication and then select **Continue** to complete Work Profile setup. <br><br>
- ![alt text](images/duo-wp-8.png)<br><br>
- ![alt text](images/duo-wp-9.png)<br><br>
+     ![alt text](images/duo-wp-8.png)<br><br>
+     ![alt text](images/duo-wp-9.png)<br><br>
 
 ## Learn more
 
