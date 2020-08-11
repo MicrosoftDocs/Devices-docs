@@ -91,7 +91,17 @@ landingContent:
             url: https://docs.microsoft.com/dual-screen/android/bring-to-duo
           - text: Use the Surface Duo emulator
             url: https://docs.microsoft.com/dual-screen/android/use-emulator        
-            
+
+# Card
+  - title: Troubleshoot Surface Duo
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: Troubleshoot Android Enterprise device problems 
+            url: https://docs.microsoft.com/mem/intune/enrollment/troubleshoot-android-enrollment
+          - text: Troubleshoot mobile application management
+            url: https://docs.microsoft.com/mem/intune/apps/troubleshoot-mam  
+
 # Card
   - title: Participate in Surface Community 
     linkLists:
