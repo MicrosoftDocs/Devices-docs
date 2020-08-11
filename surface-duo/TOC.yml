@@ -10,7 +10,7 @@
         - name: Surface Duo tech specs
           href: https://www.microsoft.com/surface/business/surface-duo
 
-     - name: Secure
+    - name: Secure
       items:
         - name: Configure app protection policies for Surface Duo
           href: surface-duo-app-protection.md
