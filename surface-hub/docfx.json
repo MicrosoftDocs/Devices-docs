@@ -25,9 +25,12 @@
         "files": [
           "**/*.png",
           "**/*.jpg",
+          "**/images/**",
+          "**/*.pptx",
+          "**/*.pdf",
           "**/*.gif",
           "**/*.svg",
-          "**/*.pdf"
+          "**/*.xlsx"
         ],
         "exclude": [
           "**/obj/**",
@@ -42,16 +45,38 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-      "breadcrumb_path": "/surface-duo/breadcrumb/toc.json",
-      "extendBreadcrumb": true,
+      "breadcrumb_path": "/surface-hub/breadcrumb/toc.json",
+      "ROBOTS": "INDEX, FOLLOW",
+      "ms.technology": "windows",
+      "audience": "ITPro",
+      "ms.topic": "article",
+      "manager": "laurawi",
+      "ms.mktglfcycl": "manage",
+      "ms.sitesec": "library",
       "feedback_system": "GitHub",
       "feedback_github_repo": "MicrosoftDocs/Devices-docs",
       "feedback_product_url": "https://support.microsoft.com/help/4021566/windows-10-send-feedback-to-microsoft-with-feedback-hub-app",
+      "_op_documentIdPathDepotMapping": {
+        "./": {
+          "depot_name": "Win.surface-hub",
+          "folder_relative_path_in_docset": "./"
+        }
+      },
+      "contributors_to_exclude": [ 
+        "rjagiewich", 
+        "traya1", 
+        "rmca14", 
+        "claydetels19", 
+        "Kellylorenebaker",
+        "jborsecnik",
+        "tiburd",
+        "garycentric"
+      ],
       "titleSuffix": "Surface Hub"
     },
     "fileMetadata": {},
-    "template": [],
-    "dest": "Surface-Duo",
+    "template": "op.html",
+    "dest": "surface-hub-docs",
     "markdownEngineName": "markdig"
   }
 }
