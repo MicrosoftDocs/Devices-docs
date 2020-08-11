@@ -29,15 +29,15 @@ landingContent:
           - text: Surface Duo security overview
             url: surface-duo-secure.md
           - text: Surface Duo tech specs
-            url: surface-duo-tech-specs.md
+            url: https://www.microsoft.com/surface/business/surface-duo
             
 # Card (optional)
   - title: Get started
     linkLists:
       - linkListType: get-started
         links:
-         - text: Add apps to Microsoft Intune
-           url: https://docs.microsoft.com/mem/intune/apps/apps-add
+         - text: Find a commercial reseller for Surface Duo
+           url: https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface
          - text: Add Managed Google Play apps
            url: https://docs.microsoft.com/mem/intune/apps/apps-add-android-for-work   
          - text: Assign apps to groups in Microsoft Intune
