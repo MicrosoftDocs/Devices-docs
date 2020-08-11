@@ -63,18 +63,16 @@ landingContent:
         links:
           - text: Configure Android Enterprise Work Profile for Surface Duo
             url: surface-duo-config-work-profile.md
-          - text: Configure fully managed profile for Surface Duo
-            url: surface-duo-config-fully-managed.md
           - text: Add app configuration policies for managed Android Enterprise devices
             url: https://docs.microsoft.com/mem/intune/apps/app-configuration-policies-use-android
+          - text: Manage devices with Microsoft Intune
+            url: https://docs.microsoft.com/mem/intune/remote-actions/device-management
 
   # Card
   - title: Explore security guidance
     linkLists:
       - linkListType: how-to-guide
         links:
-          - text: Configure Surface Duo app protection policies
-            url: surface-duo-app-protection.md
           - text: Android Enterprise security configuration framework
             url: https://docs.microsoft.com/mem/intune/enrollment/android-configuration-framework
           - text: Android Enterprise work profile security configurations

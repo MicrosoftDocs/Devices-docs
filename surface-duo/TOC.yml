@@ -12,8 +12,6 @@
 
     - name: Secure
       items:
-        - name: Configure app protection policies for Surface Duo
-          href: surface-duo-app-protection.md
         - name: Android Enterprise security configuration framework
           href: https://docs.microsoft.com/mem/intune/enrollment/android-configuration-framework
 
@@ -21,8 +19,6 @@
       items:
         - name: Configure work profile for Surface Duo
           href: surface-duo-config-work-profile.md
-        - name: Configure fully managed profile for Surface Duo
-          href: surface-duo-config-fully-managed.md
         - name: Configure Microsoft Launcher for Surface Duo
           href: surface-duo-launcher-config.md 
           
