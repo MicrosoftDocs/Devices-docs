@@ -21,7 +21,7 @@
       items:
         - name: Configure work profile for Surface Duo
           href: surface-duo-config-work-profile.md
-          name: Configure fully managed profile for Surface Duo
+        - name: Configure fully managed profile for Surface Duo
           href: surface-duo-config-fully-managed.md
         - name: Configure Microsoft Launcher for Surface Duo
           href: surface-duo-launcher-config.md 
