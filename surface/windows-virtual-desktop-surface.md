@@ -18,7 +18,7 @@ audience: itpro
 
 ## Introduction
 
-Windows Virtual Desktop on Surface lets you run Virtual Desktop Infrastructure (VDI) on a Surface device blurring the lines between the local desktop experience and the virtual desktop where touch, pen, ink, and biometric authentication span both physical and virtual environments. Representing another milestone in the evolution of computing, Windows Virtual Desktop on Surface <a href="#1"><sup>1</sup></a> combines Microsoft 365 - virtualized in the Azure cloud - with the advanced security protections, enterprise-level manageability, and enhanced productivity tools of Windows 10 on Surface.  This fusion of premium form factor and Virtual Desktop Infrastructure in Azure provides exceptional customer value across user experiences, portability, security, business continuity, and modern management.
+Windows Virtual Desktop on Surface lets you run Virtual Desktop Infrastructure (VDI) on a Surface device blurring the lines between the local desktop experience and the virtual desktop where touch, pen, ink, and biometric authentication span both physical and virtual environments. Representing another milestone in the evolution of computing, Windows Virtual Desktop on Surface <a href="#1"><sup>1</sup></a> combines Microsoft 365 - virtualized in the Azure cloud - with the advanced security protections, enterprise-level manageability, and enhanced productivity tools of Windows 10 on Surface.  This fusion of premium form factors and Virtual Desktop Infrastructure in Azure provides exceptional customer value across user experiences, portability, security, business continuity, and modern management.
 
 ### Windows Virtual Desktop
 
