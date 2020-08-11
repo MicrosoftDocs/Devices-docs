@@ -54,17 +54,16 @@ The growing number of policy settings available in mobile device management solu
 | Fully managed basic security -Level 1                                                                                | Minimum-security configuration for an enterprise device, applicable to most mobile users accessing work or school data.                                                          | Introduces password requirements, sets the minimum Android version to 8.0, and enacts certain device restrictions.                                                                          | [Fully managed Level 1 settings](https://docs.microsoft.com/mem/intune/enrollment/android-fully-managed-security-settings#fully-managed-basic-security)                                                                                     |
 | Fully managed enhanced security Level 2                                                                              | Devices where users access sensitive or confidential information.                                                                                                                | Enacts stronger password policies and disables user/account capabilities.                                                                                                                   | [Fully managed Level 2 settngs](https://docs.microsoft.com/mem/intune/enrollment/android-fully-managed-security-settings#fully-managed-enhanced-security)                                                                                   |
 | Fully managed high security Level 3                                                                                  | Devices used by users or groups who are uniquely high risk. For example, users who handle highly sensitive data where unauthorized disclosure causes considerable material loss. | Increases the minimum Android version to 10.0, introduces mobile threat defense or Microsoft Defender ATP, and enforces additional device restrictions.                                     | [Fully managed Level 3 settings](https://docs.microsoft.com/mem/intune/enrollment/android-fully-managed-security-settings#fully-managed-high-security)                                                                                      |
-
  
 As with any framework, settings within a corresponding level may need to be adjusted based on the needs of the organization as security must evaluate the threat environment, risk appetite, and impact to usability.
  
  
 **Learn more**
 
+
 - [Android Enterprise security configuration framework](https://docs.microsoft.com/mem/intune/enrollment/android-configuration-framework)
 - [App protection policies overview](https://docs.microsoft.com/mem/intune/apps/app-protection-policy)
 - [Android app protection policy settings in Microsoft Intune](https://docs.microsoft.com/mem/intune/apps/app-protection-policy-settings-android)
 - [Set enrollment restrictions](https://docs.microsoft.com/mem/intune/enrollment/enrollment-restrictions-set)
-
+- [Android Enterprise Security white paper](https://static.googleusercontent.com/media/www.android.com/en//static/2016/pdfs/enterprise/Android_Enterprise_Security_White_Paper_2019.pdf)
  
-

@@ -44,9 +44,6 @@ The primary means of managing devices in Intune, profiles provide default settin
 
  
 ## Learn more
-
+- [Manage devices with Microsoft Intune](https://docs.microsoft.com/mem/intune/remote-actions/device-management)
 - [Intune deployment planning, design, and implementation guide](https://docs.microsoft.com/mem/intune/fundamentals/planning-guide)
 - [Enroll Android devices with Intune](https://docs.microsoft.com/mem/intune/enrollment/android-enroll)
-
-
-
