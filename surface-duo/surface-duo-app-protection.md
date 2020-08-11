@@ -1,6 +1,6 @@
 ---
-title: Surface Duo tech specs
-description: This page lists tech specs for Surface Duo. 
+title: Configure Surface Duo app protection policies
+description: This article shows how to setup app protection polices for Surface Duo.
 ms.prod: surface-duo
 ms.mktglfcycl: manage
 ms.sitesec: library
@@ -16,4 +16,5 @@ appliesto:
 - Surface Duo
 ---
 
-# Surface Duo tech specs
+# Configure Surface Duo app protection policies
+
