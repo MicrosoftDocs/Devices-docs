@@ -8,7 +8,7 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 5/20/2020
+ms.date: 8/12/2020
 ms.reviewer: rohenr
 manager: laurawi
 audience: itpro
@@ -18,7 +18,7 @@ audience: itpro
 
 ## Introduction
 
-Windows Virtual Desktop on Surface lets you run Virtual Desktop Infrastructure (VDI) on a Surface device blurring the lines between the local desktop experience and the virtual desktop where touch, pen, ink, and biometric authentication span both physical and virtual environments. Representing another milestone in the evolution of computing, Windows Virtual Desktop on Surface <a href="#1"><sup>1</sup></a> combines Microsoft 365 - virtualized in the Azure cloud - with the advanced security protections, enterprise-level manageability, and enhanced productivity tools of Windows 10 on Surface.  This fusion of premium form factor and Virtual Desktop Infrastructure in Azure provides exceptional customer value across user experiences, portability, security, business continuity, and modern management.
+Windows Virtual Desktop on Surface lets you run Virtual Desktop Infrastructure (VDI) on a Surface device blurring the lines between the local desktop experience and the virtual desktop where touch, pen, ink, and biometric authentication span both physical and virtual environments. Representing another milestone in the evolution of computing, Windows Virtual Desktop on Surface <a href="#1"><sup>1</sup></a> combines Microsoft 365 - virtualized in the Azure cloud - with the advanced security protections, enterprise-level manageability, and enhanced productivity tools of Windows 10 on Surface.  This fusion of premium form factors and Virtual Desktop Infrastructure in Azure provides exceptional customer value across user experiences, portability, security, business continuity, and modern management.
 
 ### Windows Virtual Desktop
 
@@ -32,7 +32,7 @@ For a list of approved partner providers and independent software vendors for Wi
 
 Surface engineering has long set new standards for innovation by going beyond the keyboard and mouse to imagine more natural ways of interacting with devices, whether by touch, voice, ink, or Surface Dial. And with chip-to-cloud integration of Microsoft 365 and the security and manageability of Windows 10 Pro, Surface delivers connected hardware, software, apps, and services the way they were intended. Although it’s possible to run WVD from Windows devices dating back to Windows 7, Microsoft Surface devices provide unique advantages including support for:
 
-- **Flexible form factors** - like 2-in-1 devices such as Surface Go 2, Surface Pro 7 and Surface Pro X with pen, touch and detachable keyboard.
+- **Flexible form factors** - like 2-in-1 devices such as Surface Go 2, Surface Pro 7 and Surface Pro X with pen, touch and detachable keyboard. You can even use the new Surface Duo to connect to WVD.
 - **Persistent, on-demand and just-in-time work scenarios** - with offline and on-device access for more productive experiences.
 - **Windows 10 modern device security and manageability** - providing the flexibility to be productive anywhere.
 

@@ -29,6 +29,10 @@ highlightedContent:
     - title: Surface Hub documentation
       itemType: learn
       url: https://docs.microsoft.com/surface-hub/index   
+    # Card
+    - title: Surface Duo documentation
+      itemType: learn
+      url: https://docs.microsoft.com/surface-duo/index  
       
 # additionalContent section (optional)
 # Card with links style
