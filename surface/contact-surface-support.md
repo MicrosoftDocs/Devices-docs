@@ -1,7 +1,7 @@
 ---
 title: Contact Surface Support
 ms.author: v-todmc
-author: todmccoy
+author: greg-lindsay
 manager: laurawi
 ms.date: 5/27/2020
 audience: Admin

@@ -5,7 +5,7 @@ ms.assetid: 9576f4e4-d936-4235-8a03-d8a6fe9e8fec
 keywords: surface, hub, connect, input, displayport
 ms.prod: surface-hub
 ms.sitesec: library
-author: todmccoy
+author: greg-lindsay
 ms.author: v-todmc
 ms.topic: article
 ms.localizationpriority: medium
