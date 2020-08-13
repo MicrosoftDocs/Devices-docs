@@ -20,7 +20,7 @@ appliesto:
 
 Commercial customers can manage Surface Duo using any of various Enterprise mobility management (EMM) solutions that each provide a consistent set of cloud-based, device management capabilities whether managing employee- or company-owned devices.
 
-You can manage Duo manage Duo via the [Microsoft EMM](https://androidenterprisepartners.withgoogle.com/provider/#!/75) that uses a unified console -- Microsoft Endpoint Manager – and extensible components like Microsoft Intune. Alternatively, you can use any EMM provider in Google’s Android ecosystem. In some cases, third-party EMM solutions provide additional support to meet specific scenarios that may be useful depending on your environment.
+You can manage Duo via the [Microsoft EMM](https://androidenterprisepartners.withgoogle.com/provider/#!/75) that uses a unified console -- Microsoft Endpoint Manager – and extensible components like Microsoft Intune. Alternatively, you can use any EMM provider in Google’s Android ecosystem. In some cases, third-party EMM solutions provide additional support to meet specific scenarios that may be useful depending on your environment.
 
  To compare EMM solutions, refer to the [Android Enterprise Solutions Directory](https://androidenterprisepartners.withgoogle.com/emm/).
 Endpoint Manager with Intune lets you manage Duo with the latest mobile device management policies as well as earlier technologies such as Exchange ActiveSync. If you already use Exchange ActiveSync settings to manage mobile devices, you can apply those settings to Duo devices with Intune using an Email device-configuration profile.  For more information, see [Add email settings to devices using Intune](https://docs.microsoft.com/mem/intune/configuration/email-settings-configure).
