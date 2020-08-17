@@ -102,7 +102,7 @@ A Surface Hub configuration file contains a list of device accounts that your de
 
 Use Microsoft Excel or other CSV editor to create a CSV file named `SurfaceHubConfiguration.csv`. In the file, enter a list of device accounts and friendly names in this format:
 
-```
+```console
 <DeviceAccountName>,<DeviceAccountPassword>,<FriendlyName>
 ```
 >[!IMPORTANT]
@@ -111,7 +111,7 @@ Use Microsoft Excel or other CSV editor to create a CSV file named `SurfaceHubCo
 
 The following is an example of `SurfaceHubConfiguration.csv`. 
 
-```
+```console
 Rainier@contoso.com,password,Rainier Surface Hub
 Adams@contoso.com,password,Adams Surface Hub
 Baker@contoso.com,password,Baker Surface Hub
