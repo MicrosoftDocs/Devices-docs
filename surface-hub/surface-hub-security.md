@@ -14,7 +14,7 @@ ms.localizationpriority: High
 ---
 # Surface Hub security overview
 
-Surface Hub provides a locked-down computing appliance with custom platform firmware running the Windows 10 Team Edition operating system. The resulting device takes the traditional, "single use" secure kiosk, "only run what you need" philosophy and delivers a modern take on it. Built to support a rich collaborative user experience, Surface Hub is protected against continually evolving security threats.
+Surface Hub provides a locked-down computing appliance with custom platform firmware running the Windows 10 Team operating system. The resulting device takes the traditional, "single use" secure kiosk, "only run what you need" philosophy and delivers a modern take on it. Built to support a rich collaborative user experience, Surface Hub is protected against continually evolving security threats.
 
 Built on Windows 10, Surface Hub delivers enterprise-grade modern security enabling IT admins to enforce data protection with BitLocker, Trusted Platform Module 2.0 (TPM), plus cloud-powered security with Windows Defender (also known as Microsoft Defender).
 
@@ -22,7 +22,7 @@ Built on Windows 10, Surface Hub delivers enterprise-grade modern security enabl
 
 Security protocols begin as soon as Surface Hub is turned on. Starting at the firmware level, Surface Hub will only load the operating system and its components in response to multiple security checks. Surface Hub employs a strategy called Defense in Depth that involves layering independent defensive sub-components to protect the whole of the system in the event of partial failure. This industry practice has proven to be highly effective in mitigating against potential unilateral exploits and weakness in sub-components.
 
-The modern Unified Extensible Firmware Interface (UEFI) is statically and securely configured by Microsoft to only boot an authenticated Windows 10 Team Edition operating system from internal storage.  Every line of code that runs on Surface Hub has its signature verified prior to execution. Only applications signed by Microsoft, either as part of the operating system or installed via the Microsoft Store, can run on the Surface Hub. Code or apps not meeting these requirements are blocked.
+The modern Unified Extensible Firmware Interface (UEFI) is statically and securely configured by Microsoft to only boot an authenticated Windows 10 Team operating system from internal storage.  Every line of code that runs on Surface Hub has its signature verified prior to execution. Only applications signed by Microsoft, either as part of the operating system or installed via the Microsoft Store, can run on the Surface Hub. Code or apps not meeting these requirements are blocked.
 
 Surface Hub security systems include the following:
 
