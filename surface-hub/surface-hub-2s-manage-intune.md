@@ -58,7 +58,7 @@ To ensure optimal video and audio quality on Surface Hub 2S, add the following Q
 
 ### Microsoft Teams QoS settings 
 
-|**Name**|**Description**|**OMA-URI**|**Type**|**Value**|
+| Name | Description | OMA-URI | Type | Value |
 |:------ |:------------- |:--------- |:------ |:------- |
 |**Audio Ports**| Audio Port range | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsAudio/DestinationPortMatchCondition | String  | 3478-3479 |
 |**Audio DSCP**| Audio ports marking | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsAudio/DSCPAction | Integer | 46 |
@@ -96,7 +96,7 @@ You can set the Microsoft Teams app mode using Intune. Surface Hub 2S comes inst
 
 To set modes, add the following settings to a custom Device Configuration Profile.
 
-|**Name**|**Description**|**OMA-URI**|**Type**|**Value**|
+| Name | Description | OMA-URI | Type | Value |
 |:--- |:--- |:--- |:--- |:--- |
 |**Teams App ID**|App name|./Vendor/MSFT/SurfaceHub/Properties/VtcAppPackageId|String| Microsoft.MicrosoftTeamsforSurfaceHub_8wekyb3d8bbwe!Teams|
 |**Teams App Mode**|Teams mode|./Vendor/MSFT/SurfaceHub/Properties/SurfaceHubMeetingMode|Integer| 0 or 1 or 2|
