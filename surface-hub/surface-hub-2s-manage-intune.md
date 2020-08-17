@@ -30,7 +30,7 @@ Surface Hub 2S allows IT administrators to manage settings and policies using a 
 
 During the initial setup process, when affiliating a Surface Hub with an Azure AD tenant that has Intune auto enrollment enabled, the device will automatically enroll with Intune. For more information, refer to [Intune enrollment methods for Windows devices](https://docs.microsoft.com/intune/enrollment/windows-enrollment-methods). Azure AD affiliation and Intune auto enrollment is required for the Surface Hub to be a "compliant device" in Intune. 
 
-## Managing Windows 10 Team Edition settings with Intune
+## Managing Windows 10 Team settings with Intune
 
 1. Sign into **Microsoft Endpoint Manager**, select **Devices** > **Configuration profiles** > **Create profile**. 
 2. Under **Platform**, select **Windows 10 and later** > **Device restrictions (Windows 10 Team)** and then select **Create**. 

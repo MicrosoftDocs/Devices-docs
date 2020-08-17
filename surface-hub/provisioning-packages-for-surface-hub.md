@@ -151,11 +151,11 @@ After you [install Windows Configuration Designer](https://technet.microsoft.com
    
 3. Name your project and click **Next**.
 
-4. Select **Common to Windows 10 Team edition**, click **Next**, and then click **Finish**.
+4. Select **Common to Windows 10 Team**, click **Next**, and then click **Finish**.
 
     ![ICD new project](images/icd-new-project.png)
 
-5. In the project, under **Available customizations**, select **Common Team edition settings**.
+5. In the project, under **Available customizations**, select **Common Team settings**.
 
     ![ICD common settings](images/icd-common-settings.png)
 
