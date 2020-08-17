@@ -26,7 +26,7 @@ Microsoft regularly updates the Office 365 service with new features and functio
 ## Device affiliation
 
 Use Device affiliation to manage user access to the Settings app on Surface Hub 2S.
-With the Windows 10 Team Edition operating system (that runs on Surface Hub 2S),  only authorized users can adjust settings using the Settings app. Since choosing the affiliation can impact feature availability, plan appropriately to ensure that users can access features as intended.
+With the Windows 10 Team operating system (that runs on Surface Hub 2S),  only authorized users can adjust settings using the Settings app. Since choosing the affiliation can impact feature availability, plan appropriately to ensure that users can access features as intended.
 
 > [!NOTE]
 > You can only set Device affiliation during the initial out-of-box experience (OOBE) setup. If you need to reset Device affiliation, you’ll have to repeat OOBE setup.
