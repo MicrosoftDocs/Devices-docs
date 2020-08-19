@@ -2,12 +2,12 @@
 title: Surface Hub desktop post install configuration
 description: Surface Hub desktop post install configuration
 keywords: Surface Hub, Windows 10, desktop, install, configuration
-ms.prod: w10
+ms.prod: surface-hub
 ms.mktglfcycl: deploy
 ms.localizationpriority: low
 ms.sitesec: library
 ms.pagetype: deploy
-audience: itproF
+audience: admin
 manager: laurawi
 ms.audience: itpro
 author: greg-lindsay
@@ -130,41 +130,33 @@ Alternatively, you can install Whiteboard from the Microsoft Store:
 
 ### Surface app
 
-• Go to the Store
-• Search for Surface
-• Change the available on, to all devices
-• Install the Surface app (should be the first one listed). Note: You may need to associate your MSA to the Store in order to install the app
-• Pin Surface App to Taskbar
+1. In the Microsoft Store, search for **Surface**.
+2. Set the **Available on** filter to **All devices**.
+3. Install the **Surface** app. This should be the first app listed. You might need to associate your MSA to the Store in order to install the app.
+4. Pin the **Surface** app to taskbar.
 
 ### Snip & Sketch
 
-• Pin to the Taskbar
-• Turn on “Auto copy to clipboard”, “Save snips” and “Multiple windows” (optional)
+1. Open the **Snip & Sketch** app and pin it to the taskbar.
+2. Click the ellipsis in the upper right corner and then click **Settings**.
+3. In **Settings**, turn on **Auto copy to clipboard**, **Save snips**, and **Multiple windows** (optional).
 
 ### Microsoft Office
 
-https://portal.office.com/account#installs
-• Pin Office applications to the taskbar
-• Windows key
-• Scroll down to Office application (e.g. “Excel”)
-• Right Click
-• Select “More”
-• Select “Pin to taskbar”
-• Set Outlook OST to only save last two weeks cache – vastly reduces disk usage and setup time
-• File / Account Settings / Highlight your @microsoft.com account and then click the Change button
-• Set the slider for Use Cached Exchange Mode to 14 days
+1. Open the [Office Portal](https://portal.office.com/account#installs) and install your desired applications.
+2. Pin desired Office applications to the taskbar.
+3. If Outlook is installed, be sure to set the Outlook OST to only save last two weeks cache. This will vastly reduce disk usage and setup time.
+    1. Click **File** > **Account Settings** and select your account.
+    2. Click **Change** and set the slider for **Use Cached Exchange Mode** to 14 days.
 
 ### Microsoft Teams
 
-• https://teams.microsoft.com/downloads
-• Teams - change to not start on boot (optional – user preference)
-• Windows key, search for "Startup Apps"
-• Turn off Teams
-• Pin Teams to the Taskbar
-• Optional - you may also want to consider reducing Teams Notifications on the device to avoid distractions –
-• To find the Settings, first click on your profile photo, then Settings
+1. Download and install [Microsoft Teams](https://teams.microsoft.com/downloads).
+2. Configure settings to Auto-start application (optional).
+3. Pin Teams to the taskbar.
+4. Consider reducing Teams notifications on the device to avoid distractions (optional).
 
-(screenshots here)
+  ![Teams notifications](images/teams.png)
 
 ### Connect app
 
@@ -297,4 +289,4 @@ Turn on Tablet mode if desired for accessibility needs
 
 ## Related topics
 
-
+[What's new in Surface Hub 2S for IT admins](surface-hub-2s-whats-new.md)
