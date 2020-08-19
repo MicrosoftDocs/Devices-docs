@@ -30,7 +30,7 @@ Perform the following steps to configure your Surface Hub after installing Windo
 
 ## Enable the touch keyboard and touchpad
 
-1. Right-select the taskbar and then select **Show touch keyboard button** and **Show touchpad button**.
+1. Tap and hold or right-click the taskbar and then select **Show touch keyboard button** and **Show touchpad button**.
 
      ![Touch settings](images/touch.png)
 
@@ -162,7 +162,7 @@ Alternatively, you can install Whiteboard from the Microsoft Store:
 
 1. Search for **Connect**.
 2. Open the app and then close it (**Project to this PC** might not work unless the app has been run at least once).
-3. Right-select to pin to taskbar.
+3. Tap and hold or right-click to pin to taskbar.
 
 > [!IMPORTANT]
 > In Windows 10, version 2004 and later, the Connect app for wireless projection using Miracast is not installed by default, but is available as an optional feature. To install the app, select on **Settings** > **Apps** > **Optional features** > **Add a feature** and then install the **Wireless Display** app.
