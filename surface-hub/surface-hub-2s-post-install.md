@@ -17,7 +17,7 @@ ms.topic: article
 
 # Surface Hub desktop post install configuration
 
-**Applies to: Surface Hub** 
+**Applies to: Surface Hub 2S** 
 
 Perform the following steps to configure your Surface Hub after installing Windows 10.
 
@@ -234,27 +234,24 @@ Turn on Tablet mode if desired for accessibility needs.
 2. Click **Options** in the navigation pane.
 3. Expand the **Power management** section and select the checkbox **Do not apply power settings from my IT department to this computer**.
 
-(screenshot)
+  ![Software settings](images/soft-cntr.png)
 
 ### Sound settings
 
-• Go to the Sounds settings page
-• Far right, tap “Sound Control Panel” and go the “Sounds” tab
-• Change the Program Events sounds to “None” for:
-• Device Connect
-• Device Disconnect
+1. Search for **Sounds settings** and open this page.
+2. Click **Sound Control Panel** on the right and click the **Sounds** tab.
+3. Under **Program Events** set **Device Connect** and **Device Disconnect** to **None**.
 
 ### Silence notifications
 
-• Open the Focus Assist settings page
-• Select Alarms Only
-• Avoids constant notification flyouts
+1. Search for **Focus assist** and open this page.
+2. Select **Alarms Only**. This will avoids constant notification flyouts.
 
 ### Disk Cleanup
 
-• Windows Key
-• Search for “Disk Cleanup”
-• Select all files and then tap "Clean up system files"
+1. Search for **Disk Cleanup** and open this app.
+2. Under **Files to delete**, select all files. 
+3. Also click **Clean up system files**.
 
 ## Complete and verify setup
 
@@ -273,8 +270,6 @@ Turn on Tablet mode if desired for accessibility needs.
     • Whiteboard
 5. Verify presence detection.
     - Presence detection will be a green icon in the system tray
-
-    (screenshot)
 6. Verify projecting to this PC.
 7. Verify power and sleep settings.
     • Screen Saver: 15 minutes, set to (none), Mystify or Blank; check box for requiring password is checked
@@ -284,7 +279,6 @@ Turn on Tablet mode if desired for accessibility needs.
 9. Verify power settings.
 10. Verify sync your settings is disabled.
 11. Verify startup apps.
-
 
 ## Related topics
 
