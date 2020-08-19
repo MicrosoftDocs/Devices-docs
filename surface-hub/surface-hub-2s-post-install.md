@@ -245,7 +245,7 @@ Turn on Tablet mode if desired for accessibility needs.
 ### Silence notifications
 
 1. Search for **Focus assist** and open this page.
-2. Select **Alarms Only**. This will avoids constant notification flyouts.
+2. Select **Alarms Only**. This will avoid constant notification flyouts.
 
 ### Disk Cleanup
 
