@@ -49,7 +49,7 @@ Perform the following steps to configure your Surface Hub after installing Windo
 
 Connect a keyboard and mouse if you are using the device as your primary Windows device, or you use it often for typing or precision work.
 
-If your Surface Hub device is near to your laptop, you can use [Mouse without Borders](http://aka.ms/mm) to enable you to move seamlessly between your laptop and the Surface Hub. For more information, see [Microsoft download from The Garage: Mouse without Borders](https://blogs.microsoft.com/ai/microsoft-download-from-the-garage-mouse-without-borders/).
+If your Surface Hub device is near to your laptop, you can use [Mouse without Borders](https://aka.ms/mm) to enable you to move seamlessly between your laptop and the Surface Hub. For more information, see [Microsoft download from The Garage: Mouse without Borders](https://blogs.microsoft.com/ai/microsoft-download-from-the-garage-mouse-without-borders/).
 
 ## OneDrive for Business
 
@@ -194,52 +194,45 @@ For information about setting up the app, see [How to set up Your Phone on Windo
 
 ### Edge Chromium browser
 
-https://www.microsoft.com/en-us/edge?form=MY01BL&OCID=MY01BL
+Download and install the new [Edge Chromium browser](https://www.microsoft.com/en-us/edge?form=MY01BL&OCID=MY01BL).
 
 ## Additional settings
 
 ### Pen tail click to launch Whiteboard
 
-• Windows key, search for "Pen” settings
-• Select “Pen & Windows Ink"
-• Scroll down and Set Pen Shortcuts
-• “Click once = Microsoft Whiteboard” 
+1. Search for **Pen** and click **Pen & Windows Ink settings**.
+2. Near the bottom of the page, under **Pen shortcuts** set **Click once** to **Microsoft Whiteboard**. 
 
 ### Power and sleep settings
 
-• Settings / System / Power & Sleep
-• Set Power mode slider to “Best performance”
-• Set values to your usage scenario, e.g.
-
-(screenshot)
+1. Click **Start** > **Settings** > **System** > **Power & sleep**.
+2. Set the power mode slider to **Best performance**.
+3. Configure screen and sleep values to your preference.
 
 ### Screen saver
 
-• Windows key
-• Search for “Lock Screen
-• Set “Screen saver settings””
-• Set values per your usage scenarios
-
-(screenshot)
+1. Search for **Lock Screen** and open **Lock screen settings**.
+2. Configure **Screen timeout settings** and **Screen saver settings** to your preference.
 
 ### Storage Sense
 
-• Click Windows key and search for Storage
-• Turn on “Storage Sense”
-• Click on “Configure Storage Sense or run it now” and set values (best to be aggressive to keep files online as much as possible due to limited HD space). Recommended:
-• Run Storage Sense=Every Day
-• Delete temporary files = Every 7 days (at least)
-• Delete files in my Downloads folder if they have been there for over 30 d
+1. Search for **Storage** and under **Settings**, click **Turn on Storage Sense**.
+2. Click **Configure Storage Sense or run it now** and configure settings to keep files online as much as possible due to limited drive space). 
+
+Recommended settings:
+- Run Storage Sense = Every Day
+- Delete temporary files = Every 7 days (at least)
+- Delete files in my Downloads folder if they have been there for over = 30 days
 
 ### Tablet mode
 
-Turn on Tablet mode if desired for accessibility needs
+Turn on Tablet mode if desired for accessibility needs.
 
 ### Power settings
 
-• Windows Key
-• Search for “Software Center” and Tap “Options” menu
-• Expand the “Power management” section and select the checkbox “Do not apply power settings from my IT department to this computer”
+1. Search for **Software Center** and open it.
+2. Click **Options** in the navigation pane.
+3. Expand the **Power management** section and select the checkbox **Do not apply power settings from my IT department to this computer**.
 
 (screenshot)
 
