@@ -8,10 +8,15 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 11/13/2019
+ms.date: 08/19/2020
 ms.reviewer: jesko
 manager: laurawi
 ms.audience: itpro
+appliesto:
+- Surface Pro 7
+- Surface Pro X
+- Surface Laptop 3
+- Surface Book 3
 ---
 # Intune management of Surface UEFI settings
 
@@ -37,11 +42,12 @@ Crucially, DFCI enables zero touch management, eliminating the need for manual i
 
 ## Supported devices
 
-At this time, DFCI is supported in the following devices:
+DFCI is supported in the following devices:
 
 - Surface Pro 7
 - Surface Pro X
 - Surface Laptop 3
+- Surface Book 3
 
 > [!NOTE]
 > Surface Pro X does not support DFCI settings management for built-in camera, audio, and Wi-Fi/Bluetooth.
