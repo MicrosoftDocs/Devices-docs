@@ -25,18 +25,18 @@ Perform the following steps to configure your Surface Hub after installing Windo
 
 1. Sign in with an account that has local administrator privileges on the device.  On Azure AD joined devices, the user that performs the Azure AD join is automatically added to the local administrator group. Azure AD global administrators and Azure AD devices administrators are [also local administrators](https://docs.microsoft.com/azure/active-directory/devices/assign-local-admin). You can type **net localgroup administrators** at a command prompt to list the accounts that have local administrator rights.
 2. Rename the device using a friendly name, for example: **username-SHub-Desktop**.
-3. Click **Start** > **Settings** > **Accounts** > **Sync your settings** and turn **Sync settings** off. The configuration settings used here are intended to enable the best large-screen touch experience, and therefore you may not want to sync other devices.
+3. Select **Start** > **Settings** > **Accounts** > **Sync your settings** and turn **Sync settings** off. The configuration settings used here are intended to enable the best large-screen touch experience, and therefore you may not want to sync other devices.
 4. Reboot the device.
 
 ## Enable the touch keyboard and touchpad
 
-1. Right-click the taskbar and then click **Show touch keyboard button** and **Show touchpad button**.
+1. Right-select the taskbar and then select **Show touch keyboard button** and **Show touchpad button**.
 
      ![Touch settings](images/touch.png)
 
 2. Configure the touch keyboard to QWERTY and floating.
-    1. Click the keyboard on the taskbar to show the touch keyboard.
-    2. Click the keyboard icon in the upper left corner of the touch keyboard to open keyboard settings.
+    1. Select the keyboard on the taskbar to show the touch keyboard.
+    2. Select the keyboard icon in the upper left corner of the touch keyboard to open keyboard settings.
     3. Select the next to last keyboard type on the top row to enable QWERTY and the last option on the second row to enable floating.
 
      ![Keyboard settings](images/kbd.png)
@@ -69,24 +69,24 @@ SharePoint and Teams Channel files can also sync locally to your desktop devices
 To sync internal corporate files to your local drive with the OneDrive sync app:
 
 1. Go to a SharePoint site and navigate to the top-level document directory for files that you are interested in viewing or editing from your local device.
-2. Click on the **Sync** button on the top of the SharePoint ribbon.
-3. Click on **Open** on the popup **This site is trying to open Microsoft OneDrive**.
-4. Verify that the SharePoint files are synchronizing to your local drive by clicking on the OneDrive icon at the bottom right of the taskbar.
+2. Select on the **Sync** button on the top of the SharePoint ribbon.
+3. Select on **Open** on the popup **This site is trying to open Microsoft OneDrive**.
+4. Verify that the SharePoint files are synchronizing to your local drive by selecting on the OneDrive icon at the bottom right of the taskbar.
 5. Verify the configuration is set to keep the files online and download the files only as you use them:
     1. Open file explorer.
-    2. Navigate to and right click on the **Microsoft \ <SharePoint Document Folder Name>**.
-    3. Click **Free up space**.
+    2. Navigate to and right select on the **Microsoft \ <SharePoint Document Folder Name>**.
+    3. Select **Free up space**.
     4. The Status column will display the status of files and folders. For more information, see [Sync SharePoint files with the OneDrive sync client](https://support.microsoft.com/office/sync-sharepoint-files-with-the-onedrive-sync-client-groove-exe-59b1de2b-519e-4d3a-8f45-51647cf291cd).
 6. Teams Channel files are stored in SharePoint sites, with all of the same SharePoint document functionality, including version history and synchronizing to your local desktop devices. To sync Teams Channel files:
-    1. Navigate to the Teams Channel of interest and click on the **Files** tab at the top. Then click **Sync**. The files will start synchronizing and will be visible in File Explorer at **Desktop \ Microsoft \ <name of the Teams Channel>**.
-    2. Use the same procedure that you used for synchronizing SharePoint sites to keep the files in the cloud and only download them when you use them, by right-clicking in File Explorer on the Teams Channel name, and then clicking **Free up space**.
+    1. Navigate to the Teams Channel of interest and select on the **Files** tab at the top. Then select **Sync**. The files will start synchronizing and will be visible in File Explorer at **Desktop \ Microsoft \ <name of the Teams Channel>**.
+    2. Use the same procedure that you used for synchronizing SharePoint sites to keep the files in the cloud and only download them when you use them, by tap and hold or right-click in File Explorer on the Teams Channel name, and then selecting **Free up space**.
 
 ## Pair the Surface Hub pen
 
 To pair the pen device:
 
-1. Click **Start** > **Settings** > **Devices**.
-2. Click **Add Bluetooth or other device**.
+1. Select **Start** > **Settings** > **Devices**.
+2. Select **Add Bluetooth or other device**.
 3. Choose **Bluetooth**.
 4. Remove the pen cap and shake to disconnect the battery connection.
 5. Put the cap back on and press and hold the cap until the pairing led flashes.
@@ -103,7 +103,7 @@ For more information on how to side-mount the camera and rotate the camera manua
 
 Surface Hub 2S running Windows 10 Enterprise allows the full suite of Win32 desktop applications as well as biometric Windows Hello options. The Surface fingerprint reader accessory can be plugged into either side, or into the bottom USB-C port. 
 
-After inserting the fingerprint reader, click **Start** > **Settings** > **Accounts** > **Sign-in options** > **Windows Hello Fingerprint** to enroll your fingerprint.
+After inserting the fingerprint reader, select **Start** > **Settings** > **Accounts** > **Sign-in options** > **Windows Hello Fingerprint** to enroll your fingerprint.
 
 ![Windows Hello](images/hello.png)
 
@@ -114,9 +114,9 @@ Face recognition using Windows Hello also works well on capable devices. However
 ### Update installed apps
 
 To update all installed Store apps:
-1. Open Microsoft Store app and click the **See more** ellipsis in the top-right corner.
-2. Click **Downloads and updates**.
-2. Click **Get updates**.
+1. Open Microsoft Store app and select the **See more** ellipsis in the top-right corner.
+2. Select **Downloads and updates**.
+2. Select **Get updates**.
 
 ### Microsoft Whiteboard
 
@@ -138,7 +138,7 @@ Alternatively, you can install Whiteboard from the Microsoft Store:
 ### Snip & Sketch
 
 1. Open the **Snip & Sketch** app and pin it to the taskbar.
-2. Click the ellipsis in the upper right corner and then click **Settings**.
+2. Select the ellipsis in the upper right corner and then select **Settings**.
 3. In **Settings**, turn on **Auto copy to clipboard**, **Save snips**, and **Multiple windows** (optional).
 
 ### Microsoft Office
@@ -146,8 +146,8 @@ Alternatively, you can install Whiteboard from the Microsoft Store:
 1. Open the [Office Portal](https://portal.office.com/account#installs) and install your desired applications.
 2. Pin desired Office applications to the taskbar.
 3. If Outlook is installed, be sure to set the Outlook OST to only save last two weeks cache. This will vastly reduce disk usage and setup time.
-    1. Click **File** > **Account Settings** and select your account.
-    2. Click **Change** and set the slider for **Use Cached Exchange Mode** to 14 days.
+    1. Select **File** > **Account Settings** and select your account.
+    2. Select **Change** and set the slider for **Use Cached Exchange Mode** to 14 days.
 
 ### Microsoft Teams
 
@@ -162,10 +162,10 @@ Alternatively, you can install Whiteboard from the Microsoft Store:
 
 1. Search for **Connect**.
 2. Open the app and then close it (**Project to this PC** might not work unless the app has been run at least once).
-3. Right-click to pin to taskbar.
+3. Right-select to pin to taskbar.
 
 > [!IMPORTANT]
-> In Windows 10, version 2004 and later, the Connect app for wireless projection using Miracast is not installed by default, but is available as an optional feature. To install the app, click on **Settings** > **Apps** > **Optional features** > **Add a feature** and then install the **Wireless Display** app.
+> In Windows 10, version 2004 and later, the Connect app for wireless projection using Miracast is not installed by default, but is available as an optional feature. To install the app, select on **Settings** > **Apps** > **Optional features** > **Add a feature** and then install the **Wireless Display** app.
 
 ### Projecting to this PC
 
@@ -198,14 +198,14 @@ Download and install the new [Edge Chromium browser](https://www.microsoft.com/e
 
 ## Additional settings
 
-### Pen tail click to launch Whiteboard
+### Pen tail select to launch Whiteboard
 
-1. Search for **Pen** and click **Pen & Windows Ink settings**.
-2. Near the bottom of the page, under **Pen shortcuts** set **Click once** to **Microsoft Whiteboard**. 
+1. Search for **Pen** and select **Pen & Windows Ink settings**.
+2. Near the bottom of the page, under **Pen shortcuts** set **Select once** to **Microsoft Whiteboard**. 
 
 ### Power and sleep settings
 
-1. Click **Start** > **Settings** > **System** > **Power & sleep**.
+1. Select **Start** > **Settings** > **System** > **Power & sleep**.
 2. Set the power mode slider to **Best performance**.
 3. Configure screen and sleep values to your preference.
 
@@ -216,8 +216,8 @@ Download and install the new [Edge Chromium browser](https://www.microsoft.com/e
 
 ### Storage Sense
 
-1. Search for **Storage** and under **Settings**, click **Turn on Storage Sense**.
-2. Click **Configure Storage Sense or run it now** and configure settings to keep files online as much as possible due to limited drive space). 
+1. Search for **Storage** and under **Settings**, select **Turn on Storage Sense**.
+2. Select **Configure Storage Sense or run it now** and configure settings to keep files online as much as possible due to limited drive space). 
 
 Recommended settings:
 - Run Storage Sense = Every Day
@@ -231,7 +231,7 @@ Turn on Tablet mode if desired for accessibility needs.
 ### Power settings
 
 1. Search for **Software Center** and open it.
-2. Click **Options** in the navigation pane.
+2. Select **Options** in the navigation pane.
 3. Expand the **Power management** section and select the checkbox **Do not apply power settings from my IT department to this computer**.
 
   ![Software settings](images/soft-cntr.png)
@@ -239,7 +239,7 @@ Turn on Tablet mode if desired for accessibility needs.
 ### Sound settings
 
 1. Search for **Sounds settings** and open this page.
-2. Click **Sound Control Panel** on the right and click the **Sounds** tab.
+2. Select **Sound Control Panel** on the right and select the **Sounds** tab.
 3. Under **Program Events** set **Device Connect** and **Device Disconnect** to **None**.
 
 ### Silence notifications
@@ -251,7 +251,7 @@ Turn on Tablet mode if desired for accessibility needs.
 
 1. Search for **Disk Cleanup** and open this app.
 2. Under **Files to delete**, select all files. 
-3. Also click **Clean up system files**.
+3. Also select **Clean up system files**.
 
 ## Complete and verify setup
 
@@ -260,21 +260,20 @@ Turn on Tablet mode if desired for accessibility needs.
     1. At an elevated command prompt, enter **gpupdate /force**.
 3. Reboot the device.
 4. Verify taskbar apps.
-    • Connect App
-    • could not connect to hub first time w/o launching the connect app). Subsequent times worked most of the time
-    • Lock Icon
-    • Snip & Sketch
-    • Teams
-    • Office Apps
-    • Surface App
-    • Whiteboard
+    - Connect App
+    - Lock Icon
+    - Snip & Sketch
+    - Teams
+    - Office Apps
+    - Surface App
+    - Whiteboard
 5. Verify presence detection.
     - Presence detection will be a green icon in the system tray
 6. Verify projecting to this PC.
 7. Verify power and sleep settings.
-    • Screen Saver: 15 minutes, set to (none), Mystify or Blank; check box for requiring password is checked
-    • Screen: 2 hours
-    • PC: 4 hours
+    - Screen Saver: 15 minutes, set to (none), Mystify or Blank; check box for requiring password is checked
+    - Screen: 2 hours
+    - PC: 4 hours
 8. Verify Windows Hello is working.
 9. Verify power settings.
 10. Verify sync your settings is disabled.
