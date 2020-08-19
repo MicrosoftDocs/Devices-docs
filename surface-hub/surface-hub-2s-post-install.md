@@ -160,31 +160,37 @@ Alternatively, you can install Whiteboard from the Microsoft Store:
 
 ### Connect app
 
-Windows Key
-• Search for “Connect”
-• Open the app and then close it (“Project to this PC” may not work unless the Connect app has been run at least once)
-• Right-click to pin to Taskbar
+1. Search for **Connect**.
+2. Open the app and then close it (**Project to this PC** might not work unless the app has been run at least once).
+3. Right-click to pin to taskbar.
 
-### Projecdting to this PC
+> [!IMPORTANT]
+> In Windows 10, version 2004 and later, the Connect app for wireless projection using Miracast is not installed by default, but is available as an optional feature. To install the app, click on **Settings** > **Apps** > **Optional features** > **Add a feature** and then install the **Wireless Display** app.
 
-• Search for “Projection settings”
-• Set devices can project to this PC
-• If not on Corpnet, select “Available everywhere”, else if on Corpnet select “Available everywhere on secure networks”
-• Ask to project to this PC: "First time only"
-• Require pin = “Never”
-Recommended configuration at home (or not on corporate Wi-Fi)
-Recommended configuration on Corporate Wi-Fi___33:
+### Projecting to this PC
 
-(screenshots here)
+1. Search for **Projection settings**.
+2. Under **Some Windows and Android devices can project to this PC when you say it's OK**, choose **Available everywhere** if the device is not on a corporate network. Otherwise, you can choose **Available everywhere on secure networks**.
+3. Under **Ask to project to this PC**, choose **First time only**.
+4. Under **Require PIN for pairing**, choose **Never**.
+
+Recommended configuration when not on the corporate network:
+
+  ![Settings at home](images/project1.png)
+
+Recommended configuration on the corporate network:
+
+  ![Settings at work](images/project2.png)
 
 ### Your Phone
 
-“Your Phone” is a preinstalled app on Windows 10, however it is not present, install it from the Windows Store
-• If you need assistance setting up the app use the Windows Central guide to walk you through the steps to get started with this experience. Also, if you come across any problems or you have questions about the app, make sure to check out this other guide with troubleshooting steps and information you need to know about Your Phone
+The **Your Phone** app is installed by default on Windows 10. If it is not present, you can also install it from the Windows Store.
+
+For information about setting up the app, see [How to set up Your Phone on Windows 10 and sync data between your PC and phone](https://www.windowscentral.com/how-set-your-phone-windows-10). Also see [How to fix common problems with Your Phone app on Windows 10](https://www.windowscentral.com/how-fix-common-problems-your-phone-app-windows-10).
 
 ## Super Fancy Zones
 
-• Super Fancy Zones helps users arrange windows to maximize screen real estate. It is now included in “PowerToys” on GitHub (https://github.com/microsoft/PowerToys/releases)
+**Super Fancy Zones** helps users arrange windows to maximize screen real estate. It is now included in [PowerToys](https://github.com/microsoft/PowerToys/releases) on GitHub.
 
 ### Edge Chromium browser
 
