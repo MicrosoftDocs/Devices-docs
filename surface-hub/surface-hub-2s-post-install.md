@@ -188,7 +188,7 @@ The **Your Phone** app is installed by default on Windows 10. If it is not prese
 
 For information about setting up the app, see [How to set up Your Phone on Windows 10 and sync data between your PC and phone](https://www.windowscentral.com/how-set-your-phone-windows-10). Also see [How to fix common problems with Your Phone app on Windows 10](https://www.windowscentral.com/how-fix-common-problems-your-phone-app-windows-10).
 
-## Super Fancy Zones
+### Super Fancy Zones
 
 **Super Fancy Zones** helps users arrange windows to maximize screen real estate. It is now included in [PowerToys](https://github.com/microsoft/PowerToys/releases) on GitHub.
 
@@ -253,7 +253,7 @@ Turn on Tablet mode if desired for accessibility needs.
 2. Under **Files to delete**, select all files. 
 3. Also select **Clean up system files**.
 
-## Complete and verify setup
+## Complete and verify
 
 1. Scan for and install all Windows Updates.
 2. Update Group Policy
