@@ -62,7 +62,7 @@ To configure OneDrive to download files only when needed, set the **Files On-Dem
 
 ![OneDrive settings](images/onedrive.png)
 
-## Sharepoint and Teams
+## SharePoint and Teams
 
 SharePoint and Teams Channel files can also sync locally to your desktop devices, such as laptops and Surface Hubs, using the OneDrive sync engine.
 
