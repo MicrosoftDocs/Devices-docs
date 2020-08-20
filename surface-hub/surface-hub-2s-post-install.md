@@ -279,6 +279,9 @@ Turn on Tablet mode if desired for accessibility needs.
 10. Verify sync your settings is disabled.
 11. Verify startup apps.
 
+> [!TIP]
+> After installing and configuring Windows 10, the Surface Hub 2S can be managed just like any other Windows 10 device.
+
 ## Related topics
 
 [What's new in Surface Hub 2S for IT admins](surface-hub-2s-whats-new.md)
