@@ -107,7 +107,7 @@ After inserting the fingerprint reader, select **Start** > **Settings** > **Acco
 
 ![Windows Hello](images/hello.png)
 
-Face recognition using Windows Hello also works well on capable devices. However, the Surface Hub built-in camera does not support Windows Hello face recognition. 
+Face recognition using Windows Hello also works well on Windows Hello certified hardware. However, the Surface Hub built-in camera does not support Windows Hello face recognition. To use face recognition with Windows Hello, you can attach another camera.
 
 ## Applications
 
