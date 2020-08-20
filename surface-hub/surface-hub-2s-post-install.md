@@ -160,19 +160,16 @@ Alternatively, you can install Whiteboard from the Microsoft Store:
 
 ### Connect app
 
-1. Search for **Connect**.
-2. Open the app and then close it (**Project to this PC** might not work unless the app has been run at least once).
-3. Tap and hold or right-click to pin to taskbar.
-
 > [!IMPORTANT]
 > In Windows 10, version 2004 and later, the Connect app for wireless projection using Miracast is not installed by default, but is available as an optional feature. To install the app, select on **Settings** > **Apps** > **Optional features** > **Add a feature** and then install the **Wireless Display** app.
 
-### Projecting to this PC
-
-1. Search for **Projection settings**.
-2. Under **Some Windows and Android devices can project to this PC when you say it's OK**, choose **Available everywhere** if the device is not on a corporate network. Otherwise, you can choose **Available everywhere on secure networks**.
-3. Under **Ask to project to this PC**, choose **First time only**.
-4. Under **Require PIN for pairing**, choose **Never**.
+1. Search for **Connect**.
+2. Open the app and then close it (**Project to this PC** might not work unless the app has been run at least once).
+3. Tap and hold or right-click to pin to taskbar.
+4. Search for **Projection settings**.
+5. Under **Some Windows and Android devices can project to this PC when you say it's OK**, choose **Available everywhere** if the device is not on a corporate network. Otherwise, you can choose **Available everywhere on secure networks**.
+6. Under **Ask to project to this PC**, choose **First time only**.
+7. Under **Require PIN for pairing**, choose **Never**.
 
 Recommended configuration when not on the corporate network:
 
@@ -228,7 +225,10 @@ Recommended settings:
 
 Turn on Tablet mode if desired for accessibility needs.
 
-### Power settings
+### Power management
+
+> [!NOTE]
+> Before performing the following procedure, check with your IT department for approval to exclude a Surface Hub 2S device from global power management policy. Some power management settings can disable the presence detection function.
 
 1. Search for **Software Center** and open it.
 2. Select **Options** in the navigation pane.
@@ -250,7 +250,7 @@ Turn on Tablet mode if desired for accessibility needs.
 ### Disk Cleanup
 
 1. Search for **Disk Cleanup** and open this app.
-2. Under **Files to delete**, select all files. 
+2. Under **Files to delete**, select the files you wish to delete. 
 3. Also select **Clean up system files**.
 
 ## Complete and verify
