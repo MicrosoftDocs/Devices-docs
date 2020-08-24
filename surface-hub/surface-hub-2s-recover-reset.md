@@ -48,9 +48,9 @@ Using Surface Hub 2S, you can reinstall the device by using a recovery image. By
 1. Unzip the downloaded file onto the root of the USB drive.  
 1. Connect the USB drive to any USB-C or USB-A port on Surface Hub 2S.
 1. Turn off the device:
-   1. While holding down the Volume down button, press the Power button.
-   1. Keep holding both buttons until you see the Windows logo.
-   1. Release the Power button but continue to hold the Volume until the Install UI begins.
+   1. While pressing the Volume up button, press the Power button.
+   1. Keep pressing both buttons until you see the Windows logo.
+   1. Release the Power button but continue to hold the Volume up button until the Install UI begins.
 
     ![*Use Volume down and power buttons to initiate recovery*](images/sh2-keypad.png) <br>
    **Figure 2. Volume and Power buttons**
