@@ -15,31 +15,39 @@ ms.collection: M365-modern-desktop
 ms.topic: article
 ---
 
-# Surface Hub desktop post install configuration
+# Surface Hub Desktop post install configuration
 
 **Applies to: Surface Hub 2S** 
 
-Perform the following steps to configure your Surface Hub after installing Windows 10.
+After you have completed the installation process of migrating to Windows 10 Pro or Enterprise, you can perform the following steps to configure apps and settings on your Surface Hub 2. These steps are recommended to ensure the best experience when using this personalized large screen touch and pen computer.
+
+When performing these steps, you might find it useful to use a wired or wireless keyboard and mouse.
 
 ## Configure system settings
 
-1. Sign in with an account that has local administrator privileges on the device.  On Azure AD joined devices, the user that performs the Azure AD join is automatically added to the local administrator group. Azure AD global administrators and Azure AD devices administrators are [also local administrators](https://docs.microsoft.com/azure/active-directory/devices/assign-local-admin). You can type **net localgroup administrators** at a command prompt to list the accounts that have local administrator rights.
+1. Sign in with an account that has local administrator privileges on the device.  
+    - On Azure AD joined devices, the user that performs the Azure AD join is automatically added to the local administrator group. Azure AD global administrators and Azure AD devices administrators are [also local administrators](https://docs.microsoft.com/azure/active-directory/devices/assign-local-admin). You can type **net localgroup administrators** at a command prompt to list the accounts that have local administrator rights.
 2. Rename the device using a friendly name, for example: **username-SHub-Desktop**.
-3. Select **Start** > **Settings** > **Accounts** > **Sync your settings** and turn **Sync settings** off. The configuration settings used here are intended to enable the best large-screen touch experience, and therefore you may not want to sync other devices.
+3. Select **Start** > **Settings** > **Accounts** > **Sync your settings** and turn **Sync settings** off. 
+    - The settings used here are intended to enable the best large-screen touch experience, and therefore you may not want to sync other devices.
 4. Reboot the device.
 
 ## Enable the touch keyboard and touchpad
 
-1. Tap and hold or right-click the taskbar and then select **Show touch keyboard button** and **Show touchpad button**.
+1. Tap and hold or right-click the taskbar and then select **Show touch keyboard button** and **Show touchpad button**. The touch keyboard is helpful for direct user input and the virtual touchpad helps with precise selections, hovering screen tips, or as an alternative to tap and hold for right-click. See the following example.
 
      ![Touch settings](images/touch.png)
 
 2. Configure the touch keyboard to QWERTY and floating.
-    1. Select the keyboard on the taskbar to show the touch keyboard.
-    2. Select the keyboard icon in the upper left corner of the touch keyboard to open keyboard settings.
-    3. Select the next to last keyboard type on the top row to enable QWERTY and the last option on the second row to enable floating.
+    1. Select the keyboard icon on the taskbar to show the touch keyboard.
+    2. On the touch keyboard, select the keyboard icon in the upper left corner to open keyboard settings.
+    3. Select the next to last keyboard type on the top row to enable QWERTY, and the last option on the second row to enable floating, which is very helpful on this large screen. See the following examples.
 
      ![Keyboard settings](images/kbd.png)
+
+     - Use the trackpad to navigate and select options, and use the onscreen keyboard for tasks like searching the Microsoft Store:
+
+     ![Using the trackpad](images/store.png)
 
 3. Configure the soft keyboard settings.
     1. Search for and open **Typing settings** 
