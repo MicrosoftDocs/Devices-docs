@@ -45,7 +45,7 @@ When performing these steps, you might find it useful to use a wired or wireless
 
      ![Keyboard settings](images/kbd.png)
 
-     - Use the trackpad to navigate and select options, and use the onscreen keyboard for tasks like searching the Microsoft Store:
+     The following example shows the trackpad, which is useful to navigate and select options. The onscreen keyboard is being used to search the Microsoft Store:
 
      ![Using the trackpad](images/store.png)
 
@@ -69,6 +69,9 @@ Use [OneDrive for Business](https://docs.microsoft.com/onedrive/onedrive) to eas
 To configure OneDrive to download files only when needed, set the **Files On-Demand** setting to **Save space and download files as you use them**. For more information, see [Query and set Files On-Demand states in Windows](https://docs.microsoft.com/onedrive/files-on-demand-windows).
 
 ![OneDrive settings](images/onedrive.png)
+
+> [!NOTE]
+> You can also repeat these steps to configure a personal OneDrive, but be sure to conserve drive space and only download files as you need them.
 
 ## SharePoint and Teams
 
