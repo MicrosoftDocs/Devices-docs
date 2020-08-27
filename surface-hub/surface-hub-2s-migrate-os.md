@@ -54,9 +54,11 @@ The minimum UEFI version required prior to migrating the Surface Hub from Window
 1. On Surface Hub 2S home screen, select **Start** and open the **Surface** **App** (**All Apps** > **Surface**).
 2. Select **Your Surface** to display information about the Surface Hub, including the current version of the UEFI on the device. If the UEFI version is **694.2938.768.0** or later as shown below, the UEFI is eligible for you to create the SEMM package to enable OS migration.
 3. If the UEFI version is earlier than version 694.2938.768.0, you will need to obtain a current version using Windows Update.
-4. On your Surface Hub 2S, sign in as an **Admin**, go to **All apps** > **Settings**> **Update and Security** > **Windows Update** and install all updates, then restart the device. Verify the UEFI version using the Surface App. Note: If you do not know your username or admin password, you will need to reset the device. To learn more, see [Reset and recovery for Surface Hub 2S](https://docs.microsoft.com/surface-hub/surface-hub-2s-recover-reset).
-5. Repeat these steps until the UEFI version is **694.2938.768.0** or later.
-6. If you still do not see the updated UEFI after multiple attempts, check **Update History** and look for any instances of failed firmware installations. You may need to reset your device (**Settings** > **Update & security** > **Reset device**).
+
+**To update UEFI from Windows Update:**
+1. On your Surface Hub 2S, sign in as an **Admin**, go to **All apps** > **Settings**> **Update and Security** > **Windows Update** and install all updates, then restart the device. Verify the UEFI version using the Surface App. Note: If you do not know your username or admin password, you will need to reset the device. To learn more, see [Reset and recovery for Surface Hub 2S](https://docs.microsoft.com/surface-hub/surface-hub-2s-recover-reset).
+2. Repeat these steps until the UEFI version is **694.2938.768.0** or later.
+3. If you still do not see the updated UEFI after multiple attempts, check **Update History** and look for any instances of failed firmware installations. You may need to reset your device (**Settings** > **Update & security** > **Reset device**).
 
 ## Download Surface UEFI Configurator and Surface Hub software & drivers
 
