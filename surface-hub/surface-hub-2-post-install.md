@@ -119,7 +119,7 @@ For more information on how to side-mount the camera and rotate the camera manua
 
 Surface Hub 2S running Windows 10 Enterprise allows the full suite of Win32 desktop applications as well as biometric Windows Hello options. The Surface Hub 2 Fingerprint Reader accessory can be plugged into any USB-C port on the device. 
 
-> The Surface Hub 2 Fingerprint Reader will be available for purchase soon. Please check back on this page for more information including how to purchase.
+> <i>The Surface Hub 2 Fingerprint Reader will be available for purchase soon. Please check back on this page for more information including how to purchase.</i>
 
 After inserting the fingerprint reader, select **Start** > **Settings** > **Accounts** > **Sign-in options** > **Windows Hello Fingerprint** to enroll your fingerprint.
 
@@ -179,8 +179,8 @@ Alternatively, you can install Whiteboard from the Microsoft Store:
 1. Open the [Office Portal](https://portal.office.com/account#installs) and install your desired applications.
 2. Pin desired Office applications to the taskbar.
 3. If Outlook is installed, be sure to set the Outlook OST to only save last two weeks cache. This will vastly reduce disk usage and setup time.
-    1. Select **File** > **Account Settings** and select your account.
-    2. Select **Change** and set the slider for **Use Cached Exchange Mode** to 14 days.
+    - Select **File** > **Account Settings** and select your account.
+    - Select **Change** and set the slider for **Use Cached Exchange Mode** to 14 days.
 
 ### Microsoft Teams
 
@@ -246,13 +246,18 @@ Download and install the new [Edge Chromium browser](https://www.microsoft.com/e
 
 ### Storage Sense
 
-1. Search for **Storage** and under **Settings**, select **Turn on Storage Sense**.
-2. Select **Configure Storage Sense or run it now** and configure settings to keep files online as much as possible due to limited drive space). 
+The Surface Hub 2 has a 128GB SSD for local storage, so it is necessary to consider the use of storage saving measures during normal usage.  To configure Storage Sense:
+
+1.	Search for **storage settings**, which is found under **System settings**.
+2.	Under **Settings**, select **Turn on storage sense** to open the **Storage** settings page.
+3.	Turn Storage Sense to **On**.
+4.	Select **Configure Storage Sense or run it now** and configure settings to keep files online as much as possible (due to limited drive space).
 
 Recommended settings:
-- Run Storage Sense = Every Day
-- Delete temporary files = Every 7 days (at least)
-- Delete files in my Downloads folder if they have been there for over = 30 days
+- Run Storage Sense = Every Day.
+- Delete temporary files that my apps aren't using = Every 14 days (at least).
+- Delete files in my Downloads folder if they have been there for over = 30 days.
+- OneDrive: Content will become online-only if not opened for more than = 60 days.
 
 ### Tablet mode
 
@@ -290,19 +295,19 @@ Turn on Tablet mode if desired for accessibility needs.
 
 1. Scan for and install all Windows Updates.
 2. Update Group Policy
-    1. At an elevated command prompt, enter **gpupdate /force**.
+    1. At an elevated command prompt, enter **gpupdate /force /boot /wait:0**.
 3. Reboot the device.
 4. Verify taskbar apps.
     - Connect App
     - Lock Icon
     - Snip & Sketch
-    - Teams
-    - Office Apps
+    - Teams (if applicable)
+    - Office Apps (if applicable)
     - Surface App
     - Whiteboard
 5. Verify presence detection.
     - Presence detection will be a green icon in the system tray
-6. Verify projecting to this PC.
+6. Verify projecting to this PC is enabled with the Connect App (the application does not need to be running before connecting).
 7. Verify power and sleep settings.
     - Screen Saver: 15 minutes, set to (none), Mystify or Blank; check box for requiring password is checked
     - Screen: 2 hours
@@ -317,4 +322,4 @@ Turn on Tablet mode if desired for accessibility needs.
 
 ## Related topics
 
-[What's new in Surface Hub 2S for IT admins](surface-hub-2s-whats-new.md)
+[Migrate to Windows 10 Pro or Enterprise on Surface Hub 2](surface-hub-2s-migrate-os.md)
