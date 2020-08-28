@@ -52,8 +52,9 @@ The minimum UEFI version required prior to migrating the Surface Hub from Window
 **To verify the current UEFI version on your system:**
 
 1. On Surface Hub 2S home screen, select **Start** and open the **Surface** **App** (**All Apps** > **Surface**).
-2. Select **Your Surface** to display information about the Surface Hub, including the current version of the UEFI on the device. If the UEFI version is **694.2938.768.0** or later as shown below, the UEFI is eligible for you to create the SEMM package to enable OS migration.
-3. If the UEFI version is earlier than version 694.2938.768.0, you will need to obtain a current version using Windows Update.
+2. Select **Your Surface** to display information about the Surface Hub, including the current version of the UEFI on the device. If the UEFI version is **694.2938.768.0** or later as shown below, the UEFI is eligible for you to create the SEMM package to enable OS migration.<br><br>
+ ![alt text](images/sh2mfig1.png)<br><br>
+1. If the UEFI version is earlier than version 694.2938.768.0, you will need to obtain a current version using Windows Update.
 
 **To update UEFI from Windows Update:**
 1. On your Surface Hub 2S, sign in as an **Admin**, go to **All apps** > **Settings**> **Update and Security** > **Windows Update** and install all updates, then restart the device. Verify the UEFI version using the Surface App. Note: If you do not know your username or admin password, you will need to reset the device. To learn more, see [Reset and recovery for Surface Hub 2S](https://docs.microsoft.com/surface-hub/surface-hub-2s-recover-reset).
@@ -80,13 +81,16 @@ The SEMM package must be secured with a certificate to verify the signature of c
  
 ## Create SEMM package
 
-1. Open **Surface UEFI Configurator**, select **Surface Devices**, and then select **Next**. 
-2. Select **Start** and then select **Create Configuration Package**.
-3. Select **Certificate Protection**. 
-4. You will be prompted to add your certificate .pfx file. 
-5. Enter your certificate password and select **OK**.
-6. Click **Password Protection** to add a password to Surface UEFI. This password will be required whenever you boot to UEFI. It is **strongly recommended** to set a UEFI password you will use on Surface Hub 2S.
-7. Enter your UEFI password.
+1. Open **Surface UEFI Configurator**, select **Surface Devices**, and then select **Next**. <br><br>
+ ![alt text](images/sh2m-fig2.png)<br><br>
+1. Select **Start** and then select **Create Configuration Package**.<br><br>
+  ![alt text](images/shm-fig3.png)<br><br>
+1. Select **Certificate Protection**.<br><br>
+ ![alt text](images/shm-fig4.png)<br><br> 
+1. You will be prompted to add your certificate .pfx file. <br><br> 
+1. Enter your certificate password and select **OK**.<br><br> 
+1. Click **Password Protection** to add a password to Surface UEFI. This password will be required whenever you boot to UEFI. It is **strongly recommended** to set a UEFI password you will use on Surface Hub 2S.<br><br> 
+1. Enter your UEFI password.<br><br> 
 
 > [!NOTE]
 > Mke a note of your password. If you forget or lose your password, there is no recovery process. 
