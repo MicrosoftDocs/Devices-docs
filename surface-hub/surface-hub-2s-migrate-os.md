@@ -81,14 +81,21 @@ The SEMM package must be secured with a certificate to verify the signature of c
  
 ## Create SEMM package
 
-1. Open **Surface UEFI Configurator**, select **Surface Devices**, and then select **Next**. <br><br>
+1. Open **Surface UEFI Configurator** and select **Start**. 
  ![alt text](images/sh2m-fig2.png)<br><br>
-1. Select **Start** and then select **Create Configuration Package**.<br><br>
+1. Select **Surface Devices** and then select **Next**. <br><br>
   ![alt text](images/shm-fig3.png)<br><br>
-1. Select **Certificate Protection**.<br><br>
+  
+1. Select **Configuration Package**<br><br> 
  ![alt text](images/shm-fig4.png)<br><br> 
+  
+1. Select **Certificate Protection**.<br><br>
+  ![alt text](images/sh2-fig5.png)<br><br>
+
 1. You will be prompted to add your certificate .pfx file. <br><br> 
+  ![alt text](images/shm-fig6.png)<br><br>
 1. Enter your certificate password and select **OK**.<br><br> 
+
 1. Click **Password Protection** to add a password to Surface UEFI. This password will be required whenever you boot to UEFI. It is **strongly recommended** to set a UEFI password you will use on Surface Hub 2S.<br><br> 
 1. Enter your UEFI password.<br><br> 
 
