@@ -26,7 +26,8 @@ When performing these steps, you might find it useful to use a wired or wireless
 ## Configure system settings
 
 1. Sign in with an account that has local administrator privileges on the device.  
-    - On Azure AD joined devices, the user that performs the Azure AD join is automatically added to the local administrator group. Azure AD global administrators and Azure AD devices administrators are [also local administrators](https://docs.microsoft.com/azure/active-directory/devices/assign-local-admin). You can type **net localgroup administrators** at a command prompt to list the accounts that have local administrator rights.
+    - On Azure AD joined devices, the user that performs the Azure AD join is automatically added to the local administrator group. Azure AD global administrators and Azure AD devices administrators are [also local administrators](https://docs.microsoft.com/azure/active-directory/devices/assign-local-admin). 
+    - You can type **net localgroup administrators** at a command prompt to list the accounts that have local administrator rights.
 2. Rename the device using a friendly name, for example: **username-SHub-Desktop**.
 3. Select **Start** > **Settings** > **Accounts** > **Sync your settings** and turn **Sync settings** off. 
     - The settings used here are intended to enable the best large-screen touch experience, and therefore you may not want to sync other devices.
@@ -34,7 +35,9 @@ When performing these steps, you might find it useful to use a wired or wireless
 
 ## Enable the touch keyboard and touchpad
 
-1. Tap and hold or right-click the taskbar and then select **Show touch keyboard button** and **Show touchpad button**. The touch keyboard is helpful for direct user input and the virtual touchpad helps with precise selections, hovering screen tips, or as an alternative to tap and hold for right-click. See the following example.
+1. Tap and hold or right-click the taskbar and then select **Show touch keyboard button** and **Show touchpad button**. 
+    - The touch keyboard is helpful for direct user input, and the virtual touchpad helps with precise selections, hovering screen tips, or as an alternative to tap and hold for right-click. 
+    - See the following example.
 
      ![Touch settings](images/touch.png)
 
@@ -45,19 +48,20 @@ When performing these steps, you might find it useful to use a wired or wireless
 
      ![Keyboard settings](images/kbd.png)
 
-     The following example shows the trackpad, which is useful to navigate and select options. The onscreen keyboard is being used to search the Microsoft Store:
-
-     ![Using the trackpad](images/store.png)
-
 3. Configure the soft keyboard settings.
     1. Search for and open **Typing settings** 
     2. Enable all the options under Spelling, Typing, and Touch keyboard.
+
+
+The following example shows the trackpad, which is useful to navigate and select options. The onscreen keyboard is being used to search the Microsoft Store:
+
+![Using the trackpad](images/store.png)
 
 ## Configure bluetooth keyboard and mouse (optional)
 
 Connect a keyboard and mouse if you are using the device as your primary Windows device, or you use it often for typing or precision work.
 
-If your Surface Hub device is near to your laptop, you can use [Mouse without Borders](https://aka.ms/mm) to enable you to move seamlessly between your laptop and the Surface Hub. For more information, see [Microsoft download from The Garage: Mouse without Borders](https://blogs.microsoft.com/ai/microsoft-download-from-the-garage-mouse-without-borders/).
+If your Surface Hub device is near to a PC, you can use [Mouse without Borders](https://aka.ms/mm) to move seamlessly between the Surface Hub and the PC. For more information, see [Microsoft download from The Garage: Mouse without Borders](https://blogs.microsoft.com/ai/microsoft-download-from-the-garage-mouse-without-borders/).
 
 ## OneDrive for Business
 
@@ -71,7 +75,7 @@ To configure OneDrive to download files only when needed, set the **Files On-Dem
 ![OneDrive settings](images/onedrive.png)
 
 > [!NOTE]
-> You can also repeat these steps to configure a personal OneDrive, but be sure to conserve drive space and only download files as you need them.
+> You can also repeat these steps to configure a personal OneDrive but be sure to conserve drive space and only download files as you need them.
 
 ## SharePoint and Teams
 
@@ -85,11 +89,11 @@ To sync internal corporate files to your local drive with the OneDrive sync app:
 4. Verify that the SharePoint files are synchronizing to your local drive by selecting on the OneDrive icon at the bottom right of the taskbar.
 5. Verify the configuration is set to keep the files online and download the files only as you use them:
     1. Open file explorer.
-    2. Navigate to and right select on the **Microsoft \ <SharePoint Document Folder Name>**.
+    2. Navigate to and right select on the **Microsoft \ \<SharePoint Document Folder Name\>**.
     3. Select **Free up space**.
     4. The Status column will display the status of files and folders. For more information, see [Sync SharePoint files with the OneDrive sync client](https://support.microsoft.com/office/sync-sharepoint-files-with-the-onedrive-sync-client-groove-exe-59b1de2b-519e-4d3a-8f45-51647cf291cd).
 6. Teams Channel files are stored in SharePoint sites, with all of the same SharePoint document functionality, including version history and synchronizing to your local desktop devices. To sync Teams Channel files:
-    1. Navigate to the Teams Channel of interest and select on the **Files** tab at the top. Then select **Sync**. The files will start synchronizing and will be visible in File Explorer at **Desktop \ Microsoft \ <name of the Teams Channel>**.
+    1. Navigate to the Teams Channel of interest and select on the **Files** tab at the top. Then select **Sync**. The files will start synchronizing and will be visible in File Explorer at **Desktop \ Microsoft \ \<name of the Teams Channel\>**.
     2. Use the same procedure that you used for synchronizing SharePoint sites to keep the files in the cloud and only download them when you use them, by tap and hold or right-click in File Explorer on the Teams Channel name, and then selecting **Free up space**.
 
 ## Pair the Surface Hub pen
@@ -99,32 +103,48 @@ To pair the pen device:
 1. Select **Start** > **Settings** > **Devices**.
 2. Select **Add Bluetooth or other device**.
 3. Choose **Bluetooth**.
-4. Remove the pen cap and shake to disconnect the battery connection.
-5. Put the cap back on and press and hold the cap until the pairing led flashes.
-6. Choose **Surface Hub 2 Pen**.
-7. Complete the pairing operation. If the pairing is not successful, reboot the device and then try again.
+4. Remove the pen tail button and shake to disconnect the battery connection.
+5. Put the cap back on and press and hold the cap until the pairing LED flashes.
+6. On the Surface Hub Bluetooth settings, choose **Surface Hub 2 Pen**.
+7. Complete the pairing operation. 
+8. If the pairing is not successful, attempt to pair the pen again. If necessary, reboot the device and then try again.
 
 ## Camera configuration
 
-You can mount the camera on the top or on either side of the device. Mount the camera in a position to optimize the camera angle if you are using the Hub with a desktop stand instead of a cart, or are in close proximity to the Hub. The camera does not auto-rotate, so you need to have a 2mm hex key. 
+You can mount the camera on the top or on either side of the device. Mount the camera in a position to optimize the camera angle if you are using the Hub with a desktop stand instead of a cart, or are in close proximity to the Hub. The camera does not auto-rotate, so you need to have a 2mm hex key to manually rotate the camera. 
 
 For more information on how to side-mount the camera and rotate the camera manually, see [Surface Hub 2S camera lens orientation](https://support.microsoft.com/help/4509729/surface-hub-2s-camera-lens-orientation).
 
 ## Windows Hello configuration
 
-Surface Hub 2S running Windows 10 Enterprise allows the full suite of Win32 desktop applications as well as biometric Windows Hello options. The Surface fingerprint reader accessory can be plugged into either side, or into the bottom USB-C port. 
+Surface Hub 2S running Windows 10 Enterprise allows the full suite of Win32 desktop applications as well as biometric Windows Hello options. The Surface Hub 2 Fingerprint Reader accessory can be plugged into any USB-C port on the device. 
+
+> The Surface Hub 2 Fingerprint Reader will be available for purchase soon. Please check back on this page for more information including how to purchase.
 
 After inserting the fingerprint reader, select **Start** > **Settings** > **Accounts** > **Sign-in options** > **Windows Hello Fingerprint** to enroll your fingerprint.
 
-![Windows Hello](images/hello.png)
+Use a Windows Hello certified device for face recognition. The Surface Hub 2S camera does not support Windows Hello face recognition.
 
-Face recognition using Windows Hello also works well on Windows Hello certified hardware. However, the Surface Hub built-in camera does not support Windows Hello face recognition. To use face recognition with Windows Hello, you can attach another camera.
+## Enable a Lock Screen shortcut icon on the taskbar
+
+To add an icon to the taskbar that enables one-touch screen lock similar to the Windows-L keyboard shortcut: 
+
+1.	Tap and hold or right-click on the desktop, select **New** > **Shortcut** > **Browse** > **Desktop** > **OK** > **Next**.
+2.	Provide a name for the shortcut such as **Lock my PC**, and then select **Finish**.
+3.	Right-click or tap and hold the newly created shortcut on the desktop, and select **Properties**. On the **Shortcut** tab, enter the following in the **Target** field: **Rundll32.exe User32.dll,LockWorkStation**
+4.	Select the **Change Icon** button and browse to **C:\Windows\System32\imageres.dll** and select an icon to use. 
+5. See the following example:
+
+    ![Choose an icon](images/lock.png)
+6.	Select **OK** to save the shortcut.
+7.	Right-click or tap and hold the shortcut and select **Pin to taskbar**.
 
 ## Applications
 
 ### Update installed apps
 
 To update all installed Store apps:
+
 1. Open Microsoft Store app and select the **See more** ellipsis in the top-right corner.
 2. Select **Downloads and updates**.
 2. Select **Get updates**.
@@ -132,9 +152,11 @@ To update all installed Store apps:
 ### Microsoft Whiteboard
 
 To install the Microsoft Whiteboard:
-1. Select the **Windows Ink Workspace** icon on the lower right of the taskbar and download **Whiteboard**.
+
+1. Select the **Windows Ink Workspace** icon ![Ink workspace](images/ink.png) on the lower right of the taskbar and download **Whiteboard**.
 
 Alternatively, you can install Whiteboard from the Microsoft Store:
+
 1. Open Microsoft Store app and search for **Whiteboard**.
 2. Choose **No thanks** to sign in and use across devices.
 3. Pin Whiteboard to the taskbar.
