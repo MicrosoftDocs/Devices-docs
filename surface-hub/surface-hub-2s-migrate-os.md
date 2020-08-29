@@ -86,7 +86,7 @@ The SEMM package must be secured with a certificate to verify the signature of c
 1. Select **Surface Devices** and then select **Next**. <br><br>
   ![alt text](images/shm-fig3.png)<br><br>
   
-1. Select **Configuration Package**<br><br> 
+1. Select **Configuration Package**
  ![alt text](images/shm-fig4.png)<br><br> 
   
 1. Select **Certificate Protection**.<br><br>
@@ -95,28 +95,37 @@ The SEMM package must be secured with a certificate to verify the signature of c
 1. You will be prompted to add your certificate .pfx file. <br><br> 
   ![alt text](images/shm-fig6.png)<br><br>
 1. Enter your certificate password and select **OK**.<br><br> 
+  ![alt text](images/shm-fig7.png)<br><br>
 
-1. Click **Password Protection** to add a password to Surface UEFI. This password will be required whenever you boot to UEFI. It is **strongly recommended** to set a UEFI password you will use on Surface Hub 2S.<br><br> 
+1. Click **Password Protection** to add a password to Surface UEFI. This password will be required whenever you boot to UEFI. It is **strongly recommended** to set a UEFI password you will use on Surface Hub 2S.<br><br>   ![alt text](images/shm-fig8.png)<br><br>
 1. Enter your UEFI password.<br><br> 
 
 > [!NOTE]
-> Mke a note of your password. If you forget or lose your password, there is no recovery process. 
+> Make a note of your password. If you forget or lose your password, there is no recovery process. 
 
+ ![alt text](images/shm-fig8.png)<br><br>
 8. Select **Next**.
+ ![alt text](images/shm-fig9.png)<br><br>
 9. Select **Surface Hub 2S** and then select **Next**.
+ ![alt text](images/shm-fig10.png)<br><br>
 10. Select **Next**.
-11. To allow installation of Windows 10 Pro or Enterprise, ****select **EnableOsMigration.**
+11. To allow installation of Windows 10 Pro or Enterprise, **select **EnableOsMigration.**
+ ![alt text](images/shm-fig11.png)<br><br>
 12. Set **EnableOSMigration** to **On** and select **Next**.
+ ![alt text](images/shm-fig12.png)<br><br>
 
 > [!NOTE]
 > After you apply a SEMM package, all UEFI settings will display as grayed out (locked) in the UEFI menu on the device. This includes default values for other settings such as IPv6 for PXE Boot. To modify UEFI settings, you will need to apply another SEMM package or unenroll the device from SEMM.
 
 ### Save SEMM package to USB drive
 
-1. Select the Hub 2S USB option and select Next.
-2. Connect a USB Drive to your PC. Select the USB drive and then select Build.
+1. Select the **Hub 2S USB** option and select **Next.**
+2. Connect a USB Drive to your PC. Select the USB drive and then select **Build.**
+ ![alt text](images/shm-fig13.png)<br><br>
+ ![alt text](images/shm-fig14.png)<br><br>
 3. Capture a screenshot of this page and then select **End**. Your SEMM package is now ready and contains the SEMM package **DfciUpdate.dfi** and a text file with the SEMM thumbprint (the last two characters of the certificate’s thumbprint).
-4. Save the certificate thumbprint’s last 2 characters, which is required to activate SEMM when you [apply the package](#) on Surface Hub 2S, as shown here:
+ ![alt text](images/shm-fig15.png)<br><br>
+ 4. Save the certificate thumbprint’s last 2 characters, which is required to activate SEMM when you [apply the package](#) on Surface Hub 2S, as shown here:
 
 ## Prepare Windows 10 USB flash drive with SEMM package and Surface Hub software & drivers
 
@@ -134,9 +143,13 @@ This procedure describes creating a USB flash drive from installation media and 
 
 1. To create a Windows 10 Pro installation, follow the instructions on the [Download Windows 10](https://www.microsoft.com/software-download/windows10) page for using the **Media Creation** tool. To install Windows 10 Enterprise, go to the [Microsoft Volume Licensing Service Center.](https://www.microsoft.com/licensing/servicecenter/default.aspx)
 2. Insert a new **USB storage** drive. Launch the **Media Creation** tool, select **Create installation media** and then select **Next**.
+ ![alt text](images/shm-fig16.png)<br><br>
 3. Select language, Windows 10, and 64-bit (x64) and then select **Next**.
+ ![alt text](images/shm-fig17.png)<br><br>
 4. Select **USB flash drive** and select **Next**.
+ ![alt text](images/shm-fig18.png)<br><br>
 5. When the download completes, select **Finish**.
+ ![alt text](images/shm-fig19.png)<br><br>
 6. Copy the SEMM package files and Surface Hub software & drivers .MSI to the USB flash drive (**BOOTME**) containing your Windows 10 image:
     - DfciUpdate.dfi
     - Text file with the SEMM thumbprint. (In this example: SurfaceUEFI_2020Aug25_1058.txt)
@@ -152,12 +165,18 @@ Use your **BOOTME** drive to install the SEMM package files and update the UEFI,
     1. First power off (shutdown) your Surface Hub 2S.
     2. Press and hold **Volume +** and then press and release the **Power** button.
     3. Keep holding **Volume +** until the UEFI menu appears.
+	 ![alt text](images/shm-fig20.png)<br><br>
 
 3. In the UEFI menu, select **Management** > **Install from USB**.
+ ![alt text](images/shm-fig21.png)<br><br>
 4. When the device restarts, enter the UEFI password you created earlier, if applicable (strongly recommended).
-5. Enter your two-character **certificate thumbprint** that you generated and select **OK**.  Note you can find the last two digits in the text file containing with the SEMM thumbprint.
+ ![alt text](images/shm-fig22.png)<br><br>
+5. Enter your two-character **certificate thumbprint**, your **UEFI settings password** and then select **OK**.
+ ![alt text](images/shm-fig23.png)<br><br>  
 6. When the UEFI page displays, select **Management** > **Configure**.
+ ![alt text](images/shm-fig24.png)<br><br>
 7. Select **Restart now**, as shown below. The device will shut down.
+ ![alt text](images/shm-fig25.png)<br><br>
 
 ## Install Windows 10 Pro or Enterprise
 
@@ -168,6 +187,7 @@ Use your **BOOTME** drive to install the SEMM package files and update the UEFI,
     3. Release the **Power** button while continuing to press **Volume down** until the installation begins.
 
 3. When the out of box experience (OOBE) setup launches, follow the instructions to install Windows 10 Pro or Enterprise (version 1903 or later).
+ ![alt text](images/shm-fig26.png)<br><br>
 
 ## Install Surface Hub software & drivers
 
