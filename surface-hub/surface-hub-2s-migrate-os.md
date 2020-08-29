@@ -198,3 +198,6 @@ Use your **BOOTME** drive to install the SEMM package files and update the UEFI,
 
 To optimize the use of Surface Hub 2S as a personal productivity device, see [Surface Hub Desktop Post-Install Configuration.](https://docs.microsoft.com/surface-hub/surface-hub-2-post-install)
 
+> [!NOTE]
+>If following the steps outlined in this document is unsuccessful in migrating your device to Windows 10 Pro or Enterprise for Surface Hub 2, please contact [Surface Hub Support](https://support.microsoft.com/help/4037644/surface-contact-surface-warranty-and-software-support).
+
