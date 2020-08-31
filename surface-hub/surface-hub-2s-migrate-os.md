@@ -86,7 +86,7 @@ The SEMM package must be secured with a certificate to verify the signature of c
 2. Select **Surface Devices** and then select **Next**. <br><br>
   ![Select Surface devices](images/shm-fig3.png)<br><br>
   
-3. Select **Configuration Package**<br><br>
+3. Select **Configuration Package**.<br><br>
  ![Select Configuration package](images/shm-fig4.png)<br><br> 
   
 4. Select **Certificate Protection**.<br><br>
@@ -94,23 +94,24 @@ The SEMM package must be secured with a certificate to verify the signature of c
 
 5. You will be prompted to add your certificate .pfx file. <br><br> 
   ![You will be prompted to add your certificate](images/shm-fig6.png)<br><br>
-6. Enter your certificate password and select **OK**.<br><br> 
+6. Enter your **Certificate password** and select **OK**.<br><br> 
   ![Enter your certificate password and select OK](images/shm-fig7.png)<br><br>
 
 7. Select **Password Protection** to add a password to Surface UEFI. This password will be required whenever you boot to UEFI. It is **strongly recommended** to set a UEFI password you will use on Surface Hub 2S.<br><br>   
 ![Click Password Protection](images/shm-fig8.png)<br><br>
 8. Enter your UEFI password and select **OK**.<br><br> 
+ ![Enter your UEFI password](images/shm-fig9.png)<br><br>
 
 > [!NOTE]
 > Make a note of your password. If you forget or lose your password, there is no recovery process. 
 
- ![Enter your UEFI password](images/shm-fig9png)<br><br>
+
 9. Select **Surface Hub 2S** and then select **Next**.<br><br>
  ![Select Surface Hub 2S](images/shm-fig10.png)<br><br>
-10. Select **Next**.
-11. To allow installation of Windows 10 Pro or Enterprise, **select **EnableOsMigration.**
+10. Select **Next**.<br><br>
+11. To allow installation of Windows 10 Pro or Enterprise, select **EnableOsMigration.**<br><br>
  ![Select Enable OS Migration](images/shm-fig11.png)<br><br>
-12. Set **EnableOSMigration** to **On** and select **Next**.
+12. Set **EnableOSMigration** to **On** and select **Next**.<br><br>
  ![Set Enable OS Migration to On](images/shm-fig12.png)<br><br>
 
 > [!NOTE]
@@ -118,13 +119,13 @@ The SEMM package must be secured with a certificate to verify the signature of c
 
 ### Save SEMM package to USB drive
 
-1. Select the **Hub 2S USB** option and select **Next.**
-2. Connect a USB Drive to your PC. Select the USB drive and then select **Build.**
- ![Select USB](images/shm-fig13.png)<br><br>
- ![Select Build](images/shm-fig14.png)<br><br>
-3. Capture a screenshot of this page and then select **End**. Your SEMM package is now ready and contains the SEMM package **DfciUpdate.dfi** and a text file with the SEMM thumbprint (the last two characters of the certificate’s thumbprint).
+1. Connect a USB Drive to your PC. Choose **Hub 2S** and then select **Next**. <br><br>
+![Select USB](images/shm-fig13.png)<br><br>
+Select **Build.**
+![Select Build](images/shm-fig14.png)<br><br>
+3. Capture a screenshot of this page and then select **End**. Your SEMM package is now ready and contains the SEMM package **DfciUpdate.dfi** and a text file with the SEMM thumbprint (the last two characters of the certificate’s thumbprint).<br><br>
  ![Select End](images/shm-fig15.png)<br><br>
- 4. Save the certificate thumbprint’s last 2 characters, which is required to activate SEMM when you [apply the package](#) on Surface Hub 2S, as shown here:
+ 4. Save the certificate thumbprint’s last 2 characters, which is required to activate SEMM when you [apply the package](#) on Surface Hub 2S.
 
 ## Prepare Windows 10 USB flash drive with SEMM package and Surface Hub software & drivers
 
@@ -141,13 +142,13 @@ This procedure describes creating a USB flash drive from installation media and 
 > Once installed, you will need a valid license for Windows 10 Pro or Windows 10 Enterprise.
 
 1. To create a Windows 10 Pro installation, follow the instructions on the [Download Windows 10](https://www.microsoft.com/software-download/windows10) page for using the **Media Creation** tool. To install Windows 10 Enterprise, go to the [Microsoft Volume Licensing Service Center.](https://www.microsoft.com/licensing/servicecenter/default.aspx)
-2. Insert a new **USB storage** drive. Launch the **Media Creation** tool, select **Create installation media** and then select **Next**.
+2. Insert a new **USB storage** drive. Launch the **Media Creation** tool, select **Create installation media** and then select **Next**.<br><br>
  ![Create Installation media](images/shm-fig16.png)<br><br>
-3. Select language, Windows 10, and 64-bit (x64) and then select **Next**.
+3. Select language, Windows 10, and 64-bit (x64) and then select **Next**.<br><br>
  ![Select Language, Windows 10, and 64-bit & select Next](images/shm-fig17.png)<br><br>
-4. Select **USB flash drive** and select **Next**.
+4. Select **USB flash drive** and select **Next**.<br><br>
  ![Select USB flash drive and select Next](images/shm-fig18.png)<br><br>
-5. When the download completes, select **Finish**.
+5. When the download completes, select **Finish**.<br><br>
  ![Select Finish](images/shm-fig19.png)<br><br>
 6. Copy the SEMM package files and Surface Hub software & drivers .MSI to the USB flash drive (**BOOTME**) containing your Windows 10 image:
     - DfciUpdate.dfi
@@ -163,10 +164,10 @@ Use your **BOOTME** drive to install the SEMM package files and update the UEFI,
 2. To boot into UEFI:
     1. First power off (shutdown) your Surface Hub 2S.
     2. Press and hold **Volume +** and then press and release the **Power** button.
-    3. Keep holding **Volume +** until the UEFI menu appears.
+    3. Keep holding **Volume +** until the UEFI menu appears.<br><br>
 	 ![Keep holdling Volume + until the UEFI menu appears](images/shm-fig20.png)<br><br>
 
-3. In the UEFI menu, select **Management** > **Install from USB**.
+3. In the UEFI menu, select **Management** > **Install from USB**.<br><br>
  ![Select Management & Install from USB](images/shm-fig21.png)<br><br>
 4. When the device restarts, enter the UEFI password you created earlier, if applicable (strongly recommended).
  ![When the device restarts, enter your UEFI paassword](images/shm-fig22.png)<br><br>
@@ -174,7 +175,7 @@ Use your **BOOTME** drive to install the SEMM package files and update the UEFI,
  ![Enter your 2 character certificate thumbprint](images/shm-fig23.png)<br><br>  
 6. When the UEFI page displays, select **Management** > **Configure**.
  ![Select Management & Configure](images/shm-fig24.png)<br><br>
-7. Select **Restart now**, as shown below. The device will shut down.
+7. Select **Restart now**, as shown below. The device will shut down.<br><br>
  ![Select Restart Now](images/shm-fig25.png)<br><br>
 
 ## Install Windows 10 Pro or Enterprise
