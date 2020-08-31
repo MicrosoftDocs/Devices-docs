@@ -86,7 +86,7 @@ The SEMM package must be secured with a certificate to verify the signature of c
 1. Select **Surface Devices** and then select **Next**. <br><br>
   ![alt text](images/shm-fig3.png)<br><br>
   
-1. Select **Configuration Package**
+1. Select **Configuration Package**<br><br>
  ![alt text](images/shm-fig4.png)<br><br> 
   
 1. Select **Certificate Protection**.<br><br>
@@ -97,16 +97,17 @@ The SEMM package must be secured with a certificate to verify the signature of c
 1. Enter your certificate password and select **OK**.<br><br> 
   ![alt text](images/shm-fig7.png)<br><br>
 
-1. Click **Password Protection** to add a password to Surface UEFI. This password will be required whenever you boot to UEFI. It is **strongly recommended** to set a UEFI password you will use on Surface Hub 2S.<br><br>   ![alt text](images/shm-fig8.png)<br><br>
+1. Click **Password Protection** to add a password to Surface UEFI. This password will be required whenever you boot to UEFI. It is **strongly recommended** to set a UEFI password you will use on Surface Hub 2S.<br><br>   
+![alt text](images/shm-fig8.png)<br><br>
 1. Enter your UEFI password.<br><br> 
 
 > [!NOTE]
 > Make a note of your password. If you forget or lose your password, there is no recovery process. 
 
  ![alt text](images/shm-fig8.png)<br><br>
-8. Select **Next**.
+8. Select **Next**.<br><br>
  ![alt text](images/shm-fig9.png)<br><br>
-9. Select **Surface Hub 2S** and then select **Next**.
+9. Select **Surface Hub 2S** and then select **Next**.<br><br>
  ![alt text](images/shm-fig10.png)<br><br>
 10. Select **Next**.
 11. To allow installation of Windows 10 Pro or Enterprise, **select **EnableOsMigration.**
