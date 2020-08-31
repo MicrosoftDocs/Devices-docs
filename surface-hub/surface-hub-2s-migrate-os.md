@@ -65,7 +65,7 @@ The minimum UEFI version required prior to migrating the Surface Hub from Window
 
 On a separate PC:
 
-- Download and install Microsoft [Surface UEFI Configurator](https://www.microsoft.com/download/details.aspx?id=46703) from Surface Tools for IT. (Surface UEFI Configurator cannot be run on Surface Hub 2S, while Windows 10 Team is installed).
+- Download and install Microsoft [Surface UEFI Configurator](https://www.microsoft.com/download/details.aspx?id=46703) from Surface Tools for IT. Surface UEFI Configurator cannot be run on Surface Hub 2S, while Windows 10 Team is installed.
 - Download [Surface Hub 2 Drivers and Firmware Windows Installer .MSI package](https://aka.ms/Win10SurfaceHub2) to be applied when installing the new operating system.
 
 ## Prepare SEMM certificate
@@ -186,6 +186,7 @@ Use your **BOOTME** drive to install the SEMM package files and update the UEFI,
     3. Release the **Power** button while continuing to press **Volume down** until the installation begins.
 
 3. When the out of box experience (OOBE) setup launches, follow the instructions to install Windows 10 Pro or Enterprise (version 1903 or later).
+
  ![In OOBE, follow instructions to install Windows 10](images/shm-fig26.png)<br><br>
 
 ## Install Surface Hub 2 Drivers and Firmware
