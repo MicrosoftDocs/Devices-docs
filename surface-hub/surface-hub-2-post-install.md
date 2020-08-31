@@ -257,7 +257,7 @@ Recommended settings:
 - Run Storage Sense = Every Day.
 - Delete temporary files that my apps aren't using = Every 14 days (at least).
 - Delete files in my Downloads folder if they have been there for over = 30 days.
-- OneDrive: Content will become online-only if not opened for more than = 60 days.
+- OneDrive: Content will become online-only if not opened for more than = 30 days.
 
 ### Tablet mode
 
