@@ -81,7 +81,7 @@ The SEMM package must be secured with a certificate to verify the signature of c
  
 ## Create SEMM package
 
-1. Open **Surface UEFI Configurator** and select **Start**. 
+1. Open **Surface UEFI Configurator** and select **Start**.<br><br>
  ![alt text](images/sh2m-fig2.png)<br><br>
 1. Select **Surface Devices** and then select **Next**. <br><br>
   ![alt text](images/shm-fig3.png)<br><br>
