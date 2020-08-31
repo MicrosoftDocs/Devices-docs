@@ -99,7 +99,7 @@ The SEMM package must be secured with a certificate to verify the signature of c
 
 7. Select **Password Protection** to add a password to Surface UEFI. This password will be required whenever you boot to UEFI. It is **strongly recommended** to set a UEFI password you will use on Surface Hub 2S.<br><br>   
 ![Click Password Protection](images/shm-fig8.png)<br><br>
-8. Enter your UEFI password and select **OK**.<br><br> 
+8. Set a **UEFI password** and select **OK**.<br><br> 
  ![Enter your UEFI password](images/shm-fig9.png)<br><br>
 
 > [!NOTE]
@@ -121,22 +121,21 @@ The SEMM package must be secured with a certificate to verify the signature of c
 
 1. Connect a USB Drive to your PC. Choose **Hub 2S** and then select **Next**. <br><br>
 ![Select USB](images/shm-fig13.png)<br><br>
-Select **Build.**
+2. Select **Build.**<br><br>
 ![Select Build](images/shm-fig14.png)<br><br>
 3. Capture a screenshot of this page and then select **End**. Your SEMM package is now ready and contains the SEMM package **DfciUpdate.dfi** and a text file with the SEMM thumbprint (the last two characters of the certificate’s thumbprint).<br><br>
  ![Select End](images/shm-fig15.png)<br><br>
- 4. Save the certificate thumbprint’s last 2 characters, which is required to activate SEMM when you [apply the package](#) on Surface Hub 2S.
+ 4. Save the certificate thumbprint’s last 2 characters, which is required to activate SEMM when you apply the package on Surface Hub 2S.
 
 ## Prepare Windows 10 USB flash drive with SEMM package and Surface Hub software & drivers
 
 You can install a Windows 10 Pro or Enterprise image (version 1903 or later) using one of the following options:
 
-- Your current imaging solution
+- Your current imaging solution.
 - [Surface Deployment Accelerator](https://docs.microsoft.com/surface/microsoft-surface-deployment-accelerator) lets you create a bootable Windows 10 image which can include all of the current Windows 10 updates, Office, other apps of your choice, as well as the Surface Hub Software and Drivers MSI package.
 - USB flash drive with Windows 10 Pro or Enterprise image, followed by installing the Surface Hub software & drivers MSI package.
 
- 
-This procedure describes creating a USB flash drive from installation media and then adding the SEMM package files and Surface Hub software & drivers .MSI file. If you’re using other deployment methods, proceed to the following section: [Update UEFI on Surface Hub 2S to enable OS migration](#).
+This procedure describes creating a USB flash drive from installation media and then adding the SEMM package files and Surface Hub software & drivers .MSI file. If you’re using other deployment methods, proceed to the following section: [Update UEFI on Surface Hub 2S to enable OS migration](#update-uefi-on-surface-hub-2s-to-enable-os-migration).
 
 > [!NOTE]
 > Once installed, you will need a valid license for Windows 10 Pro or Windows 10 Enterprise.
@@ -158,7 +157,6 @@ This procedure describes creating a USB flash drive from installation media and 
 ## Update UEFI on Surface Hub 2S to enable OS migration
 
 Use your **BOOTME** drive to install the SEMM package files and update the UEFI, enabling Surface Hub to run Windows 10 Pro or Enterprise. Then boot from the **BOOTME** drive to install Windows 10.
- 
 
 1. Insert your **BOOTME** drive containing SEMM package files, Surface Hub software & drivers .MSI, and Windows 10 install files into the USB-A port on Surface Hub 2S.  
 2. To boot into UEFI:
