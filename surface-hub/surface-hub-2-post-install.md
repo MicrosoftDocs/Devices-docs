@@ -1,5 +1,5 @@
 ---
-title: Surface Hub desktop post install configuration
+title: Windows 10 for Surface Hub 2 post-install configuration
 description: Surface Hub desktop post install configuration
 keywords: Surface Hub, Windows 10, desktop, install, configuration
 ms.prod: surface-hub
@@ -15,7 +15,7 @@ ms.collection: M365-modern-desktop
 ms.topic: article
 ---
 
-# Surface Hub Desktop post install configuration
+# Windows 10 for Surface Hub 2 post-install configuration
 
 **Applies to: Surface Hub 2S** 
 
