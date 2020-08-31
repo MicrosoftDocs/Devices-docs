@@ -83,30 +83,28 @@ The SEMM package must be secured with a certificate to verify the signature of c
 
 1. Open **Surface UEFI Configurator** and select **Start**.<br><br>
  ![Open Surface UEFI Configurator](images/sh2m-fig2.png)<br><br>
-1. Select **Surface Devices** and then select **Next**. <br><br>
+2. Select **Surface Devices** and then select **Next**. <br><br>
   ![Select Surface devices](images/shm-fig3.png)<br><br>
   
-1. Select **Configuration Package**<br><br>
+3. Select **Configuration Package**<br><br>
  ![Select Configuration package](images/shm-fig4.png)<br><br> 
   
-1. Select **Certificate Protection**.<br><br>
+4. Select **Certificate Protection**.<br><br>
   ![Select certificate protection](images/sh2-fig5.png)<br><br>
 
-1. You will be prompted to add your certificate .pfx file. <br><br> 
+5. You will be prompted to add your certificate .pfx file. <br><br> 
   ![You will be prompted to add your certificate](images/shm-fig6.png)<br><br>
-1. Enter your certificate password and select **OK**.<br><br> 
+6. Enter your certificate password and select **OK**.<br><br> 
   ![Enter your certificate password and select OK](images/shm-fig7.png)<br><br>
 
-1. Click **Password Protection** to add a password to Surface UEFI. This password will be required whenever you boot to UEFI. It is **strongly recommended** to set a UEFI password you will use on Surface Hub 2S.<br><br>   
+7. Select **Password Protection** to add a password to Surface UEFI. This password will be required whenever you boot to UEFI. It is **strongly recommended** to set a UEFI password you will use on Surface Hub 2S.<br><br>   
 ![Click Password Protection](images/shm-fig8.png)<br><br>
-1. Enter your UEFI password.<br><br> 
+8. Enter your UEFI password and select **OK**.<br><br> 
 
 > [!NOTE]
 > Make a note of your password. If you forget or lose your password, there is no recovery process. 
 
- ![Enter your UEFI password](images/shm-fig8.png)<br><br>
-8. Select **Next**.<br><br>
- ![Select Next](images/shm-fig9.png)<br><br>
+ ![Enter your UEFI password](images/shm-fig9png)<br><br>
 9. Select **Surface Hub 2S** and then select **Next**.<br><br>
  ![Select Surface Hub 2S](images/shm-fig10.png)<br><br>
 10. Select **Next**.
