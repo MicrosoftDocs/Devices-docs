@@ -180,7 +180,7 @@ Use your **BOOTME** drive to install the SEMM package files and update the UEFI,
 
 1. If your bootable Windows 10 Pro or Enterprise drive is not already in the Surface Hub 2 USB-A port, insert it now and then press and release the power button.
 2. The device will start, you will see the white 4-square in the middle of the screen, and then you will see a spinning circle below the white four-square logo
-3. If the device does not automatically boot to the USB drive, power off the device (unplug the power cord and plug it back in),  press and release the power button and then press and hold the volume down button until you see the spinning circle below the white four-square logo. 
+3. If the device does not automatically boot to the USB drive, power off the device (unplug the power cord and plug it back in),  press and release the power button and then press and hold the volume down button until you see the spinning circle below the white four-square logo. <br><br>
  ![Boot to Windows 10 from USB](images/shm-fig26.png)<br><br>
 4. When the out of box experience (OOBE) setup launches, follow the instructions to install Windows 10 Pro or Enterprise (version 1903 or later).
 
