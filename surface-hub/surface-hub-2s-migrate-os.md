@@ -190,10 +190,10 @@ Use your **BOOTME** drive to install the SEMM package files and update the UEFI,
 3. When the out of box experience (OOBE) setup launches, follow the instructions to install Windows 10 Pro or Enterprise (version 1903 or later).
  ![In OOBE, follow instructions to install Windows 10](images/shm-fig26.png)<br><br>
 
+## Install Surface Hub 2 drivers and firmware
 
 1.	To ensure your device has all the latest updates and drivers, install [Drivers and Firmware for Windows 10 Pro and Enterprise on Surface Hub 2](https://www.microsoft.com/download/details.aspx?id=101974).
  
-
 ## Next steps
 
 To optimize the use of Surface Hub 2S as a personal productivity device, see [Windows 10 for Surface Hub 2 post install configuration](https://docs.microsoft.com/surface/surface-hub-2-post-install).
