@@ -185,7 +185,7 @@ Use your **BOOTME** drive to install the SEMM package files and update the UEFI,
     2. Press and release the **Power** button. 
     3. Continue to hold the **Volume down** button until you see the spinning circle below the four square logo.
 	
- ![Boot to Windows 10 from USB](images/shm-fig26.png)<br><br>
+ ![Boot to Windows 10 from USB](images/shm-fig26.png)<br>
 	
 3. When the out of box experience (OOBE) setup launches, follow the instructions to install Windows 10 Pro or Enterprise (version 1903 or later).
 
@@ -195,7 +195,7 @@ Use your **BOOTME** drive to install the SEMM package files and update the UEFI,
  
 ### Next steps
 
-To optimize the use of Surface Hub 2S as a personal productivity device, see [Windows 10 for Surface Hub 2 post install configuration](https://docs.microsoft.com/surface/surface-hub-2-post-install).
+To optimize the use of Surface Hub 2S as a personal productivity device, see [Windows 10 for Surface Hub 2 post install configuration](surface-hub-2-post-install.md).
 > [!NOTE]
 >If following the steps outlined in this document is unsuccessful in migrating your device to Windows 10 Pro or Enterprise for Surface Hub 2, please contact [Surface Hub Support](https://support.microsoft.com/help/4037644/surface-contact-surface-warranty-and-software-support).
 
