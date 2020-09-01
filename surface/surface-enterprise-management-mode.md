@@ -225,8 +225,8 @@ that expires in longer than 15 months.
 >When a certificate expires, it does not automatically renew. 
 
 
-**Will an expired certificate affect the functionality of SEMM-enrolled devices?**
-No, a certificate only impacts IT admin management tasks in SEMM and has no effect on device functionality when it expires. If the certificate expires on SEMM-enrolled devices, you will not be able to modify SEMM settings until you renew the certificate or apply a new certificate. 
+**Will an expired certificate affect the functionality of SEMM-enrolled devices?**<br><br>
+No, a certificate only impacts IT admin management tasks in SEMM and has no effect on device functionality when it expires.
 
 
 **Will the SEMM package and certificate need to be updated on all machines that have it?**
@@ -253,6 +253,7 @@ This version of SEMM includes:
 - Support to Surface Pro X for Dock 2
 - Support to UEFI Manager for Dock 2 related operations
 - Surface Go reset package bug fix
+- Support for migrating Surface Hub 2 devices from Windows 10 Team OS to Windows 10 Pro or Enterprise.
 
 ### Version 2.71.139.0
 
