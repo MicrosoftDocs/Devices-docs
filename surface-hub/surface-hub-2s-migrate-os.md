@@ -165,29 +165,24 @@ Use your **BOOTME** drive to install the SEMM package files and update the UEFI,
     2. Press and hold **Volume +** and then press and release the **Power** button.
     3. Keep holding **Volume +** until the UEFI menu appears.<br><br>
 	 ![Keep holdling Volume + until the UEFI menu appears](images/shm-fig20.png)<br><br>
-
-3. In the UEFI menu, select **Management** > **Install from USB**.<br><br>
- ![Select Management & Install from USB](images/shm-fig21.png)<br><br>
-4. When the device restarts, enter the UEFI password you created earlier, if applicable (strongly recommended).<br><br>
+3. When the device restarts, enter the UEFI password you created earlier, if applicable (strongly recommended).<br><br>
  ![When the device restarts, enter your UEFI paassword](images/shm-fig22.png)<br><br>
-5. Enter your two-character **certificate thumbprint**, your **UEFI settings password** and then select **OK**.<br><br>
- ![Enter your 2 character certificate thumbprint](images/shm-fig23.png)<br><br>  
-6. When the UEFI page displays, select **Management** > **Configure**.<br><br>
- ![Select Management & Configure](images/shm-fig24.png)<br><br>
-7. Select **Restart now**, as shown below. The device will shut down.<br><br>
+4. In the UEFI menu, select **Management** > **Install from USB**.<br><br>
+ ![Select Management & Install from USB](images/shm-fig21.png)<br><br>
+5. Select **Restart now**, as shown below. The device will shut down.<br><br>
  ![Select Restart Now](images/shm-fig25.png)<br><br>
+6. Press and release the power button, a red screen will display prompting you to activate Surface Enterprise Management Mode. 
+7. Enter your two-character **certificate thumbprint**, your **UEFI settings password** and then select **OK**.<br><br>
+ ![Enter your 2 character certificate thumbprint](images/shm-fig23.png)<br><br>  
+8. The device will reboot, display the white 4-square in the middle of the screen, and then again turn off.
 
 ### Install Windows 10 Pro or Enterprise
 
-1. Power on the device. Select **Exit** to restart Surface Hub 2S.
-2. To boot directly from the USB drive:
-    1. Press and hold the **Volume down** button. 	
-    2. Press and release the **Power** button. 
-    3. Continue to hold the **Volume down** button until you see the spinning circle below the four square logo.
-	
- ![Boot to Windows 10 from USB](images/shm-fig26.png)<br>
-	
-3. When the out of box experience (OOBE) setup launches, follow the instructions to install Windows 10 Pro or Enterprise (version 1903 or later).
+1. If your bootable Windows 10 Pro or Enterprise drive is not already in the Surface Hub 2 USB-A port, insert it now and then press and release the power button.
+2. The device will start, you will see the white 4-square in the middle of the screen, and then you will see a spinning circle below the white four-square logo
+3. If the device does not automatically boot to the USB drive, power off the device (unplug the power cord and plug it back in),  press and release the power button and then press and hold the volume down button until you see the spinning circle below the white four-square logo. 
+ ![Boot to Windows 10 from USB](images/shm-fig26.png)<br><br>
+4. When the out of box experience (OOBE) setup launches, follow the instructions to install Windows 10 Pro or Enterprise (version 1903 or later).
 
 ### Install Surface Hub 2 drivers and firmware
 
