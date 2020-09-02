@@ -38,4 +38,4 @@ Note that applications run differently on ARM-based Windows 10 PCs such as Surfa
 - **Some third-party antivirus software can’t be installed**. You won't be able to install some third-party antivirus software on a Windows 10 ARM-based PC. However, Windows Security will help keep you safe for the supported lifetime of your Windows 10 device.
 - **Windows Fax and Scan isn’t available**. This feature isn’t available on a Windows 10 ARM-based PC.
 
-For more information about app compatibility, refer to [Windows 10 ARM-based PCs FAQ](https://support.microsoft.com/en-us/help/4521606)
+For more information about app compatibility, refer to [Windows 10 ARM-based PCs FAQ](https://support.microsoft.com/en-us/help/4521606).
