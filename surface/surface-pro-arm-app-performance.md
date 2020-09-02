@@ -15,6 +15,12 @@ ms.audience: itpro
 ---
 # Surface Pro X app compatibility
 
+
+
+ ![Image of PC user](images/4527790_en_4.png)<br><br>
+
+
+
 Windows 10 ARM-based PCs help you keep working wherever you go. Here are some of the primary benefits:
 
 - **Always be connected to the internet.** With a cellular data connection, you can be online wherever you get a cellular signal—just like with your mobile phone. When you’re at work, home, or by another Wi-Fi network you trust, you can connect to Wi-Fi to save cellular data and keep working.
