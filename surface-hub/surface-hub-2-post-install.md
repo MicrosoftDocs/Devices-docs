@@ -1,6 +1,6 @@
 ---
-title: Windows 10 for Surface Hub 2 post-install configuration
-description: Windows 10 for Surface Hub 2 post-install configuration
+title: Configure Windows 10 Pro or Enterprise on Surface Hub 2
+description: This article includes recommendations to ensure the best experience when using a personalized large screen touch and pen computer.
 keywords: Surface Hub, Windows 10, desktop, install, configuration
 ms.prod: surface-hub
 ms.mktglfcycl: deploy
@@ -15,7 +15,7 @@ ms.collection: M365-modern-desktop
 ms.topic: article
 ---
 
-# Windows 10 for Surface Hub 2 post-install configuration
+# Configure Windows 10 Pro or Enterprise on Surface Hub 2
 
 **Applies to: Surface Hub 2S** 
 
@@ -130,14 +130,20 @@ Use a Windows Hello certified device for face recognition. The Surface Hub 2S ca
 To add an icon to the taskbar that enables one-touch screen lock similar to the Windows-L keyboard shortcut: 
 
 1.	Tap and hold or right-click on the desktop, select **New** > **Shortcut** > **Browse** > **Desktop** > **OK** > **Next**.
-2.	Provide a name for the shortcut such as **Lock my PC**, and then select **Finish**.
-3.	Right-click or tap and hold the newly created shortcut on the desktop, and select **Properties**. On the **Shortcut** tab, enter the following in the **Target** field: **Rundll32.exe User32.dll,LockWorkStation**
-4.	Select the **Change Icon** button and browse to **C:\Windows\System32\imageres.dll** and select an icon to use. 
-5. See the following example:
+
+1.	Provide a name for the shortcut such as **Lock my PC**, and then select **Finish**.
+
+1.	Right-click or tap and hold the newly created shortcut on the desktop, and select **Properties**. On the **Shortcut** tab, enter the following in the **Target** field: **Rundll32.exe User32.dll,LockWorkStation**
+
+1.	Select the **Change Icon** button and browse to **C:\Windows\System32\imageres.dll** and select an icon to use. 
+
+    See the following example:
 
     ![Choose an icon](images/lock.png)
-6.	Select **OK** to save the shortcut.
-7.	Right-click or tap and hold the shortcut and select **Pin to taskbar**.
+    
+1.	Select **OK** to save the shortcut.
+
+1.	Right-click or tap and hold the shortcut and select **Pin to taskbar**.
 
 ## Applications
 
@@ -153,7 +159,9 @@ To update all installed Store apps:
 
 To install the Microsoft Whiteboard:
 
-1. Select the **Windows Ink Workspace** icon ![Ink workspace](images/ink.png) on the lower right of the taskbar and download **Whiteboard**.
+ - Select the **Windows Ink Workspace** icon on the lower right of the taskbar and download **Whiteboard**.
+ 
+   ![Ink workspace](images/ink.png) 
 
 Alternatively, you can install Whiteboard from the Microsoft Store:
 
@@ -270,9 +278,9 @@ Turn on Tablet mode if desired for accessibility needs.
 
 1. Search for **Software Center** and open it.
 2. Select **Options** in the navigation pane.
-3. Expand the **Power management** section and select the checkbox **Do not apply power settings from my IT department to this computer**.
+3. Expand the **Power management** section and select **Do not apply power settings from my IT department to this computer**.
 
-  ![Software settings](images/soft-cntr.png)
+   ![Software settings](images/soft-cntr.png)
 
 ### Sound settings
 
