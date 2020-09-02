@@ -1,5 +1,5 @@
 ---
-title: "Migrate to Windows 10 Pro or Enterprise on Surface Hub 2"
+title: "Migrate to Windows 10 Pro and Enterprise on Surface Hub 2"
 description: "Migrate and install Windows 10 Pro or Enterprise on Surface Hub 2."
 keywords: separate values with commas
 ms.prod: surface-hub
@@ -12,7 +12,7 @@ ms.topic: article
 ms.date: 09/01/2020
 ms.localizationpriority: Medium
 ---
-# Migrate to Windows 10 Pro or Enterprise on Surface Hub 2
+# Migrate to Windows 10 Pro and Enterprise on Surface Hub 2
 
 ## Introduction
 
@@ -22,6 +22,7 @@ You start the migration from Windows 10 Team using a separate PC and downloadabl
  
 
 ## Solution Components
+
 - Surface Hub 2S device running Windows 10 Team operating system
 - Separate device running Windows 10
 - Surface UEFI Configurator tool
@@ -44,7 +45,7 @@ You start the migration from Windows 10 Team using a separate PC and downloadabl
 | 6 | [Update UEFI on Surface Hub 2S to enable OS migration](#update-uefi-on-surface-hub-2s-to-enable-os-migration)                                              | Use the **BOOTME** drive to boot Surface Hub 2S to the UEFI menu and install SEMM package.|
 | 7 | [Install Windows 10 Pro or Enterprise version 1903 or later](#install-windows-10-pro-or-enterprise)                                        | Use the **BOOTME** drive to Install **Windows 10 Pro or Enterprise** version 1903 or later.                                                                                                                                                                                                                                                                                 |
 | 8 | [Install Drivers and Firmware for Windows 10 Pro and Enterprise on Surface Hub 2](#install-surface-hub-2-drivers-and-firmware)                                        | To ensure your device has all the latest updates and drivers, install [Drivers and Firmware for Windows 10 Pro and Enterprise on Surface Hub 2 .MSI file ( https://www.microsoft.com/download/details.aspx?id=101974)                                                                                                                                                                                                                                                                                  |[
-## Verify UEFI version on Surface Hub 2S meets minimum requirements
+### Verify UEFI version on Surface Hub 2S meets minimum requirements
 
 The minimum UEFI version required prior to migrating the Surface Hub from Windows 10 Team to Windows 10 Desktop is **694.2938.768.0**.
  

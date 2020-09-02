@@ -28,7 +28,7 @@ landingContent:
     linkLists:
       - linkListType: whats-new
         links:
-          - text: Migrate to Windows 10 Pro or Enterprise on Surface Hub 2
+          - text: Migrate to Windows 10 Pro and Enterprise on Surface Hub 2
             url: surface-hub-2s-migrate-os.md
           - text: Install Windows 10 Team 2020 Update Preview Build
             url: surface-hub-install-2020preview.md
