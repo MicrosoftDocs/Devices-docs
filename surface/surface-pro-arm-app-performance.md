@@ -17,7 +17,7 @@ ms.audience: itpro
 
 Windows 10 ARM-based PCs help you keep working wherever you go. Here are some of the primary benefits:
 
--**Always be connected to the internet.** With a cellular data connection, you can be online wherever you get a cellular signal—just like with your mobile phone. When you’re at work, home, or by another Wi-Fi network you trust, you can connect to Wi-Fi to save cellular data and keep working.
+- **Always be connected to the internet.** With a cellular data connection, you can be online wherever you get a cellular signal—just like with your mobile phone. When you’re at work, home, or by another Wi-Fi network you trust, you can connect to Wi-Fi to save cellular data and keep working.
 
 - **Battery life that goes beyond all-day.**  You'll use less power than you would with other PCs, so you can go through a typical work or school day without running out of battery or worrying about finding an outlet to plug into. If you want to use your PC for something more fun, you can play videos stored on your PC for many hours without charging your battery in between.
 
