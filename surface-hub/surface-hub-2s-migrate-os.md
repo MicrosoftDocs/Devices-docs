@@ -1,5 +1,5 @@
 ---
-title: "Migrate to Windows 10 Pro or Windows 10 Enterprise on Surface Hub 2"
+title: "Migrate to Windows 10 Pro or Enterprise on Surface Hub 2"
 description: "This article describes the process of migrating from Windows 10 Team on Surface Hub 2 to Windows 10 Pro or Windows 10 Enterprise."
 keywords: separate values with commas
 ms.prod: surface-hub
@@ -12,7 +12,7 @@ ms.topic: article
 ms.date: 09/01/2020
 ms.localizationpriority: Medium
 ---
-# Migrate to Windows 10 Pro or Windows 10 Enterprise on Surface Hub 2
+# Migrate to Windows 10 Pro or Enterprise on Surface Hub 2
 
 ## Introduction
 
@@ -178,6 +178,10 @@ Use your **BOOTME** drive to install the SEMM package files and update the UEFI,
 6. Press and release the power button, a red screen will display prompting you to activate Surface Enterprise Management Mode. 
 7. Enter your two-character **certificate thumbprint**, your **UEFI settings password** and then select **OK**.<br><br>
  ![Enter your 2 character certificate thumbprint](images/shm-fig23.png)<br><br>  
+ 
+ > [!NOTE]
+>IOnce you activate SEMM on your device, the new UEFI setting **EnableOSMigration** is applied. You will no longer be able to access Windows 10 Team and must proceed to the next step and install Windows 10 Pro or Windows 10 Enterprise. 
+
 8. The device will reboot, display the white 4-square in the middle of the screen, and then again turn off.
 
 ### Install Windows 10 Pro or Enterprise
