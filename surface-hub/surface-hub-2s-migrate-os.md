@@ -1,6 +1,6 @@
 ---
 title: "Migrate to Windows 10 Pro and Enterprise on Surface Hub 2"
-description: "Migrate and install Windows 10 Pro or Enterprise on Surface Hub 2."
+description: "This article describes the process of migrating from Windows 10 Team on Surface Hub 2 to Windows 10 Pro or Windows 10 Enterprise."
 keywords: separate values with commas
 ms.prod: surface-hub
 ms.sitesec: library

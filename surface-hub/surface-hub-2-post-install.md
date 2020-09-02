@@ -1,6 +1,6 @@
 ---
 title: Configure Windows 10 Pro and Enterprise on Surface Hub 2
-description: Windows 10 for Surface Hub 2 post-install configuration
+description: This article includes recommendations to ensure the best experience when using a personalized large screen touch and pen computer.
 keywords: Surface Hub, Windows 10, desktop, install, configuration
 ms.prod: surface-hub
 ms.mktglfcycl: deploy
