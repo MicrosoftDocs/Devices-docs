@@ -204,10 +204,10 @@ $TestUefiV2 | Export-PfxCertificate -Password $pw -FilePath "Demo Certificate\Te
 1.	Create a folder on your C: drive where you will save the script; for example, C:\SEMM.
 2.	Copy the example script into Notepad or equivalent text editor and save the file as a PowerShell script (.ps1).
 3.	Sign into your PC with administrator credentials and open an elevated PowerShell session.
-4.	Ensure your permissions are set to allow scripts to run. By default, scripts are blocked from running unless you modify the execution policy. To learn more, see About Execution Policies.
+4.	Ensure your permissions are set to allow scripts to run. By default, scripts are blocked from running unless you modify the execution policy. To learn more, see [About Execution Policies](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_execution_policies).
 5.	At the command prompt, enter the full path of the script and then press Enter. The script creates a Demo Certificate named TempOwner.pfx.
 
-Alternatively, you can create your own self-signed certificate using PowerShell. For more information, see the following PowerShell documentation: [New-SelfSignedCertificate] (https://docs.microsoft.com/powershell/module/pkiclient/new-selfsignedcertificate)
+Alternatively, you can create your own self-signed certificate using PowerShell. For more information, see the following PowerShell documentation: [New-SelfSignedCertificate](https://docs.microsoft.com/powershell/module/pkiclient/new-selfsignedcertificate)
 
 
 
