@@ -8,14 +8,22 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 10/03/2019
+ms.date: 09/02/2020
 ms.reviewer: jessko
 manager: laurawi
 ms.audience: itpro
 ---
 # Surface Pro X app compatibility
 
-Applications run differently on ARM-based Windows 10 PCs such as Surface Pro X. Limitations include the following:
+Windows 10 ARM-based PCs help you keep working wherever you go. Here are some of the primary benefits:
+
+-**Always be connected to the internet.** With a cellular data connection, you can be online wherever you get a cellular signal—just like with your mobile phone. When you’re at work, home, or by another Wi-Fi network you trust, you can connect to Wi-Fi to save cellular data and keep working.
+
+- **Battery life that goes beyond all-day.**  You'll use less power than you would with other PCs, so you can go through a typical work or school day without running out of battery or worrying about finding an outlet to plug into. If you want to use your PC for something more fun, you can play videos stored on your PC for many hours without charging your battery in between.
+
+- **Turn on instantly.** When you’re not using your PC, just press the power button like you do on your mobile phone to turn off the screen. When you take out your PC and turn it back on, it turns on instantly. Whenever you have a few minutes in between classes, meetings, or other activities, you can get things done without waiting for your PC to start.
+
+Note that applications run differently on ARM-based Windows 10 PCs such as Surface Pro X. Limitations include the following:
 
 - **Drivers for hardware, games and apps will only work if they're designed for a Windows 10 ARM-based PC**. For more info, check with the hardware manufacturer or the organization that developed the driver. Drivers are software programs that communicate with hardware devices—they're commonly used for antivirus and antimalware software, printing or PDF software, assistive technologies, CD and DVD utilities, and virtualization software. If a driver doesn’t work, the app or hardware that relies on it won’t work either (at least not fully). Peripherals and devices only work if the drivers they depend on are built into Windows 10, or if the hardware developer has released ARM64 drivers for the device.
 - **64-bit (x64) apps won’t work**. You'll need 64-bit (ARM64) apps, 32-bit (ARM32) apps, or 32-bit (x86) apps. You can usually find 32-bit (x86) versions of apps, but some app developers only offer 64-bit (x64) apps.
