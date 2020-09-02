@@ -18,6 +18,9 @@ ms.localizationpriority: Medium
 
 Surface Hub 2S comes pre-installed with Windows 10 Team, a customized edition of Windows 10 designed to facilitate easy collaboration in meeting room environments. Now you have the option of running Windows 10 Pro or Enterprise to use Surface Hub 2S much like any other PC. 
 
+> [!IMPORTANT]
+>Unlike a typical upgrade or migration, this process requires you to follow a prescriptive procedure, as described on this page. Review the [Solution components](#solution-components) and [Migration workflow](#migration-workflow-summary) before proceeding.
+
 You start the migration from Windows 10 Team using a separate PC and downloadable tool -- **Surface UEFI Configurator** --  to create a package containing a new UEFI setting that you apply to Surface Hub 2S.  Surface UEFI Configurator functions as an interface into Surface Enterprise Management Mode (SEMM), designed to facilitate centralized management of firmware settings on Surface devices in a corporate environment. To learn more about SEMM, see [Microsoft Surface Enterprise Management Mode documentation](https://docs.microsoft.com/surface/surface-enterprise-management-mode).
  
 
