@@ -9,7 +9,7 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 09/01/2020
+ms.date: 09/03/2020
 ms.localizationpriority: Medium
 ---
 # Migrate to Windows 10 Pro or Enterprise on Surface Hub 2
@@ -47,7 +47,9 @@ You start the migration from Windows 10 Team using a separate PC and downloadabl
 | 5 | [Prepare USB flash drive containing Windows 10 image, SEMM package, and Drivers and Firmware for Windows 10 Pro and Enterprise on Surface Hub 2](#prepare-usb-flash-drive-containing-windows-10-image-semm-package-and-surface-hub-2-drivers-and-firmware) | Create a single USB drive (named **BOOTME** in this example) containing a Windows 10 image. Add your Drivers and Firmware for Windows 10 Pro and Enterprise on Surface Hub 2 (Step 2) and SEMM package files (Step 4) to the **BOOTME** drive.                                                                                                                                                                                                  |
 | 6 | [Update UEFI on Surface Hub 2S to enable OS migration](#update-uefi-on-surface-hub-2s-to-enable-os-migration)                                              | Use the **BOOTME** drive to boot Surface Hub 2S to the UEFI menu and install SEMM package.|
 | 7 | [Install Windows 10 Pro or Enterprise version 1903 or later](#install-windows-10-pro-or-enterprise)                                        | Use the **BOOTME** drive to Install **Windows 10 Pro or Enterprise** version 1903 or later.                                                                                                                                                                                                                                                                                 |
-| 8 | [Install Drivers and Firmware for Windows 10 Pro and Enterprise on Surface Hub 2](#install-surface-hub-2-drivers-and-firmware)                                        | To ensure your device has all the latest updates and drivers, install [Drivers and Firmware for Windows 10 Pro and Enterprise on Surface Hub 2 .MSI file ( https://www.microsoft.com/download/details.aspx?id=101974)                                                                                                                                                                                                                                                                                  |[
+| 8 | [Install Drivers and Firmware for Windows 10 Pro and Enterprise on Surface Hub 2](#install-surface-hub-2-drivers-and-firmware)                                        | To ensure your device has all the latest updates and drivers, install [Drivers and Firmware for Windows 10 Pro and Enterprise on Surface Hub 2 .MSI file](https://www.microsoft.com/download/details.aspx?id=101974)                                                                                                                                                                                                                                                                                  |
+| 9 | [Fully configure Surface Hub 2S as a personal productivity device](#next-steps)                                        |  Enable the set of recommended settings and applications to optimize use of Surface Hub 2S as a personal productivity device.                                                                                                                                                                                                                                                                    |
+
 ### Verify UEFI version on Surface Hub 2S meets minimum requirements
 
 The minimum UEFI version required prior to migrating the Surface Hub from Windows 10 Team to Windows 10 Desktop is **694.2938.768.0**.
@@ -58,9 +60,9 @@ The minimum UEFI version required prior to migrating the Surface Hub from Window
 
 1. Select **Your Surface** to display information about the Surface Hub, including the current version of the UEFI on the device. If the UEFI version is **694.2938.768.0** or later as shown below, the UEFI is eligible for you to create the SEMM package to enable OS migration.
 
-   ![Open Surface App & select Your Surface](images/shm-fig1.png)
- 
-1. If the UEFI version is earlier than version 694.2938.768.0, you will need to obtain a current version using Windows Update.
+   ![Open Sur
+1. If the UEFI version is earlier than version 6face App & select Your Surface](images/shm-fig1.png)
+ 94.2938.768.0, you will need to obtain a current version using Windows Update.
 
 **To update UEFI from Windows Update:**
 1. On your Surface Hub 2S, sign in as an **Admin**, go to **All apps** > **Settings**> **Update and Security** > **Windows Update** and install all updates, then restart the device. Verify the UEFI version using the Surface App. Note: If you do not know your username or admin password, you will need to reset the device. To learn more, see [Reset and recovery for Surface Hub 2S](https://docs.microsoft.com/surface-hub/surface-hub-2s-recover-reset).
@@ -257,7 +259,7 @@ Use your **BOOTME** drive to install the SEMM package files and update the UEFI,
  
 ### Next steps
 
-To optimize the use of Surface Hub 2S as a personal productivity device, see [Windows 10 for Surface Hub 2 post install configuration](surface-hub-2-post-install.md).
+To fully configure Surface Hub 2S as a personal productivity device, see [Windows 10 for Surface Hub 2 post install configuration](surface-hub-2-post-install.md).
 
 > [!NOTE]
 >If following the steps outlined in this document is unsuccessful in migrating your device to Windows 10 Pro or Enterprise for Surface Hub 2, please contact [Surface Hub Support](https://support.microsoft.com/help/4037644/surface-contact-surface-warranty-and-software-support).
