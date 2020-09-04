@@ -69,7 +69,7 @@ conceptualContent:
           text: Contact Surface Support
 
 # conceptualContent section (optional)
-conceptualContent:
+# conceptualContent:
 # itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
   title: Surface Hub resources # < 60 chars (optional)
   summary: Find resources for your Microsoft Surface Hub. # < 160 chars (optional)
@@ -100,7 +100,7 @@ conceptualContent:
           text: Contact Surface Hub Support
 
 # conceptualContent section (optional)
-conceptualContent:
+# conceptualContent:
 # itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
   title: Surface Duo resources # < 60 chars (optional)
   summary: Find resources for your Microsoft Surface Duo. # < 160 chars (optional)
@@ -114,7 +114,7 @@ conceptualContent:
         - url: ../surface-duo/surface-duo-secure.md
           itemType: concept
           text: Surface Duo security overview
-        - url: https://www.microsoft.com/en-us/surface/business/surface-duo
+        - url: https://www.microsoft.com/surface/business/surface-duo
           itemType: concept
           text: Surface Duo tech specs
 
