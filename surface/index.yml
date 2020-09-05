@@ -40,7 +40,7 @@ conceptualContent:
   title: Surface devices # < 60 chars (optional)
   summary: Find resources for your Microsoft Surface devices. # < 160 chars (optional)
   items:
-    # Card
+    # Card 1
     - title: Surface overview
       links:
         - url: https://www.microsoft.com/surface/business/surface-go-2
@@ -52,24 +52,8 @@ conceptualContent:
         - url: https://www.microsoft.com/surface/business
           itemType: concept
           text: Explore all Surface family products
-    # Card
-    - title: Surface community
-      links:
-        - url: https://techcommunity.microsoft.com/t5/Surface-IT-Pro-Blog/bg-p/SurfaceITPro
-          itemType: reference
-          text: Surface IT Pro blog
-        - url: https://techcommunity.microsoft.com/t5/Surface-Devices/ct-p/SurfaceDevices
-          itemType: reference
-          text: Surface Devices Tech Community
-    # Card
-    - title: Surface help
-      links:
-        - url: contact-surface-support.md
-          itemType: learn
-          text: Contact Surface Support
 
-
-    # Card
+        # Card 2
     - title: Surface Hub overview
       links:
         - url: https://docs.microsoft.com/surface-hub/surface-hub-2s-whats-new
@@ -81,43 +65,61 @@ conceptualContent:
         - url: https://docs.microsoft.com/surface-hub/differences-between-surface-hub-and-windows-10-enterprise
           itemType: concept
           text: Operating system essentials
-    # Card
-    - title: Surface Hub community
-      links:
-        - url: https://techcommunity.microsoft.com/t5/surface-hub/bd-p/SurfaceHub
-          itemType: reference
-          text: Surface Hub Tech Community
-    # Card
-    - title: Surface Hub help
-      links:
-        - url: https://support.microsoft.com/supportforbusiness/productselection?sapId=bb7066fb-e329-c1c0-9c13-8e9949c6a64e
-          itemType: learn
-          text: Contact Surface Hub Support
 
-    # Card
+        # Card 3
     - title: Surface Duo overview
       links:
-        - url: ../surface-duo/surface-duo-manage.md
+        - url: /surface-duo/surface-duo-manage.md
           itemType: concept
           text: Surface Duo management overview
-        - url: ../surface-duo/surface-duo-secure.md
+        - url: /surface-duo/surface-duo-secure.md
           itemType: concept
           text: Surface Duo security overview
         - url: https://www.microsoft.com/surface/business/surface-duo
           itemType: concept
           text: Surface Duo tech specs
+    # Card 4
+    - title: Surface community
+      links:
+        - url: https://techcommunity.microsoft.com/t5/Surface-IT-Pro-Blog/bg-p/SurfaceITPro
+          itemType: reference
+          text: Surface IT Pro blog
+        - url: https://techcommunity.microsoft.com/t5/Surface-Devices/ct-p/SurfaceDevices
+          itemType: reference
+          text: Surface Devices Tech Community
 
-    # Card
+    # Card 5
+    - title: Surface Hub community
+      links:
+        - url: https://techcommunity.microsoft.com/t5/surface-hub/bd-p/SurfaceHub
+          itemType: reference
+          text: Surface Hub Tech Community
+
+    # Card 6
     - title: Surface Duo community
       links:
         - url: https://aka.ms/SurfaceDuoITBlog
           itemType: reference
           text: Surface Duo IT Pro Blog
 
-    # Card
+    # Card 7
+    - title: Surface help
+      links:
+        - url: contact-surface-support.md
+          itemType: learn
+          text: Contact Surface Support
+
+    # Card 8
+    - title: Surface Hub help
+      links:
+        - url: https://support.microsoft.com/supportforbusiness/productselection?sapId=bb7066fb-e329-c1c0-9c13-8e9949c6a64e
+          itemType: learn
+          text: Contact Surface Hub Support
+
+    # Card 9
     - title: Surface Duo help
       links:
-        - url: ../surface-duo/contact-surface-duo-support.md
+        - url: /surface-duo/contact-surface-duo-support.md
           itemType: learn
           text: Contact Surface Hub Support
         - url: https://docs.microsoft.com/en-us/dual-screen/android/get-duo-sdk?tabs=windows
