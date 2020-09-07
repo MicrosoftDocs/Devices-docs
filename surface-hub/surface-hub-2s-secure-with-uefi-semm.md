@@ -66,3 +66,7 @@ Unlike other Surface devices, you cannot use an MSI file or a Win PE image to ap
 ## To boot into UEFI
 
 Turn off Surface Hub 2S. Press and hold the **Volume Up** button and press the **Power** Button. Keep holding the Volume Up button until the UEFI menu appears.
+
+## Enroll and configure Surface devices with SEMM
+
+To enroll and configure Surface devcies with SEMM see [Enroll and configure Surface devices with SEMM](https://docs.microsoft.com/surface/enroll-and-configure-surface-devices-with-semm) for details.
