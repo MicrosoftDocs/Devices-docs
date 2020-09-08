@@ -121,11 +121,12 @@ conceptualContent:
       links:
         - url: /surface-duo/contact-surface-duo-support.md
           itemType: learn
-          text: Contact Surface Hub Support
+          text: Contact Surface Duo Support
         - url: https://docs.microsoft.com/en-us/dual-screen/android/get-duo-sdk?tabs=windows
           itemType: learn
           text: Get the Surface Duo SDK
         - url: https://www.microsoft.com/download/details.aspx?id=100847
           itemType: learn
           text: Download the Surface Duo Emulator
+          
 
