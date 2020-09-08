@@ -69,4 +69,4 @@ Turn off Surface Hub 2S. Press and hold the **Volume Up** button and press the *
 
 ## Enroll and configure Surface devices with SEMM
 
-To enroll and configure Surface devcies with SEMM see [Enroll and configure Surface devices with SEMM](https://docs.microsoft.com/surface/enroll-and-configure-surface-devices-with-semm) for details.
+To enroll and configure Surface devices with SEMM, see the topic [Enroll and configure Surface devices with SEMM](https://docs.microsoft.com/surface/enroll-and-configure-surface-devices-with-semm) for details.
