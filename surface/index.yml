@@ -69,10 +69,10 @@ conceptualContent:
         # Card 3
     - title: Surface Duo overview
       links:
-        - url: /surface-duo/surface-duo-manage.md
+        - url: ../surface-duo/surface-duo-manage
           itemType: concept
           text: Surface Duo management overview
-        - url: /surface-duo/surface-duo-secure.md
+        - url: ../surface-duo/surface-duo-secure
           itemType: concept
           text: Surface Duo security overview
         - url: https://www.microsoft.com/surface/business/surface-duo
