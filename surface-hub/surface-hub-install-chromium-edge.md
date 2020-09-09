@@ -90,9 +90,9 @@ Microsoft Edge is preconfigured with the following policies to provide an optimi
 | [PromptForDownloadLocation](https://docs.microsoft.com/deployedge/microsoft-edge-policies#promptfordownloadlocation)   | Automatically saves files to the Downloads folder, rather than asking users where to save the file. This simplifies the browsing experience.                                                                                                                             | 0                 |
 
 > [!IMPORTANT]
-> Deployable progressive web apps (PWA) are not currently supported on the Windows 10 Team operating system.  Note also that the Microsoft Edge policy setting [WebAppInstallForceList](https://docs.microsoft.com/en-us/deployedge/microsoft-edge-policies#webappinstallforcelist) is not supported on Surface Hub. 
+> Deployable progressive web apps (PWAs) are not currently supported on the Windows 10 Team operating system.  Note also that the Microsoft Edge policy setting [WebAppInstallForceList](https://docs.microsoft.com/deployedge/microsoft-edge-policies#webappinstallforcelist) is not supported on Surface Hub. 
 
-### Configure Microsoft Edge policies
+### Configure Microsoft Edge policy settings
 
 Use [Microsoft Edge browser policies](https://docs.microsoft.com/deployedge/microsoft-edge-policies) to configure browser settings in Microsoft Edge. These policies can be applied using:
 
