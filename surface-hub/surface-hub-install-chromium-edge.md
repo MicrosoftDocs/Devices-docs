@@ -22,15 +22,6 @@ Windows 10 Team 2020 Update supports the new Microsoft Edge based on Chromium (v
 > [!IMPORTANT]
 > Surface Hub requires version 85 or later of the new Microsoft Edge, with availability limited to the “[Dev channel](https://docs.microsoft.com/deployedge/microsoft-edge-channels),” designed to give IT admins an early look at upcoming Edge functionality and prepare for the next Beta release.  Support for the Dev channel is temporarily enabled for Windows Insiders to preview Microsoft Edge. (Normally, Surface Hub supports only versions released to the “Stable channel.”) For more information, see [Microsoft Edge channel overview.](https://docs.microsoft.com/deployedge/microsoft-edge-channels)
  
-### Installing Microsoft Edge Dev Channel Builds 
-
-- By design, Microsoft Edge Dev channel installs side-by-side with Microsoft Edge Legacy, and users will see both “Microsoft Edge Dev” (version 85) and “Microsoft Edge” (version 44) in the Surface Hub Start menu. In contrast, Microsoft Edge Stable channel will replace Microsoft Edge Legacy as the default browser.
-- Once installed, Microsoft Edge Dev channel will not automatically appear as a pinned app. To open, select  **Start** > **All Apps**. In contrast, Microsoft Edge Stable channel automatically replaces Microsoft Edge Legacy as a pinned app in the All Apps list.
-- Once version 85 is promoted to Stable channel, Microsoft Edge Dev channel will automatically disappear from the Start menu, and you will be required to install Microsoft Edge Stable channel on your Surface Hub.
-
-> [!NOTE]
->  A device reset is required to remove the new Microsoft Edge. See [Reset or recover a Surface Hub](https://docs.microsoft.com/surface-hub/device-reset-surface-hub) for more information.
-
 ## Install Microsoft Edge
 
 ### Install Microsoft Edge using a provisioning package
@@ -98,7 +89,9 @@ Microsoft Edge is preconfigured with the following policies to provide an optimi
 | [ProActiveAuthEnabled](https://docs.microsoft.com/deployedge/microsoft-edge-policies#proactiveauthenabled)             | Enables Microsoft Edge to proactively authenticate signed-in users with Microsoft services. This simplifies the Single Sign-On (SSO) experience.                                                                                                                         | 1                 |
 | [PromptForDownloadLocation](https://docs.microsoft.com/deployedge/microsoft-edge-policies#promptfordownloadlocation)   | Automatically saves files to the Downloads folder, rather than asking users where to save the file. This simplifies the browsing experience.                                                                                                                             | 0                 |
 
- 
+> [!IMPORTANT]
+> Deployable progressive web apps (PWA) are not currently supported on the Windows 10 Team operating system.  Note also that the Microsoft Edge policy setting [WebAppInstallForceList](https://docs.microsoft.com/en-us/deployedge/microsoft-edge-policies#webappinstallforcelist) is not supported on Surface Hub. 
+
 ### Configure Microsoft Edge policies
 
 Use [Microsoft Edge browser policies](https://docs.microsoft.com/deployedge/microsoft-edge-policies) to configure browser settings in Microsoft Edge. These policies can be applied using:
