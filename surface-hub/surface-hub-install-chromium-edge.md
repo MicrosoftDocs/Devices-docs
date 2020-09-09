@@ -17,10 +17,19 @@ ms.localizationpriority: Medium
 
 Windows 10 Team 2020 Update supports the new Microsoft Edge based on Chromium (version 85 and above) as the recommended browser for Surface Hub. You can install Microsoft Edge manually using a provisioning package, remotely using Microsoft Intune or your preferred Mobile Device Management (MDM) provider.
 
- By default, Surface Hub devices are preinstalled with Microsoft Edge Legacy (version 44).
+By default, Surface Hub devices are preinstalled with Microsoft Edge Legacy (version 44).
+ 
+If you have already installed Edge Dev, complete the following steps:
 
-> [!IMPORTANT]
-> Surface Hub requires version 85 or later of the new Microsoft Edge, with availability limited to the “[Dev channel](https://docs.microsoft.com/deployedge/microsoft-edge-channels),” designed to give IT admins an early look at upcoming Edge functionality and prepare for the next Beta release.  Support for the Dev channel is temporarily enabled for Windows Insiders to preview Microsoft Edge. (Normally, Surface Hub supports only versions released to the “Stable channel.”) For more information, see [Microsoft Edge channel overview.](https://docs.microsoft.com/deployedge/microsoft-edge-channels)
+1. If you don’t know your version or would like to confirm, open your Edge browser and go to edge://version.
+2. Navigate to **Surface Hub > Device management**. Under **Provisioning packages**, select **Add or remove a provisioning package.**
+3. If you have used the earlier installer to pin Microsoft Edge Dev on the Start Menu, click **Custom Start Menu** from the list and click **Remove.**
+4. If you have used a custom start layout policy, you will need to modify it using the latest Edge path, as described in the section below “Display Microsoft Edge in the Surface Hub Start menu.”
+5. Now you can provision MicrosoftEdgeDevUninstaller.ppkg.
+6. Once Edge Dev is removed from **All Apps**, first remove "MicrosoftEdgeDevInstaller" and then remove "MicrosoftEdgeDevUninstaller."
+7. This successfully uninstalls Microsoft Edge Dev. You can now install the standard version.
+
+ 
  
 ## Install Microsoft Edge
 
@@ -34,9 +43,6 @@ Windows 10 Team 2020 Update supports the new Microsoft Edge based on Chromium (v
 6. Choose the Microsoft Edge provisioning package and select **Add**.
 7. You will see a summary of the changes that the provisioning package applies. Select **Yes, add it**.
 8. Wait for the Microsoft Edge installation to complete. Once it's installed, navigate to the Surface Hub Start menu to access the new Microsoft Edge.              
-ok
-> [!IMPORTANT]
->  Once installed, Microsoft Edge Dev channel will not automatically appear as a pinned app in the Surface Hub Start menu. Instead, users will find it under **Start** > **All Apps**. If you are using the default Start menu layout, you can install the Start Menu with the [Microsoft Edge provisioning package](https://aka.ms/HubEdge) to add Microsoft Edge as a pinned app. For more information, see the section below: [Display Microsoft Edge in the Microsoft Edge Start menu](#display-start).
 
 > [!NOTE]
 > If there’s a newer version of Microsoft Edge available, it will be automatically updated.
@@ -114,7 +120,6 @@ Note that Surface Hub does not support the following Microsoft Edge update polic
  
 ### <a name="display-start"></a> Display Microsoft Edge in the Surface Hub Start menu
 
-Once installed, Microsoft Edge Dev channel will not automatically appear as a pinned app in the Surface Hub Start menu. Instead, users will find it under **Start** > **All Apps**.
 If you are using the default Start menu layout, you can install the Start Menu with Microsoft Edge provisioning package to add Microsoft Edge as a pinned app.
 If you want to apply a customized Start menu layout, use the following XML to add a pinned tile for Microsoft Edge.
 
