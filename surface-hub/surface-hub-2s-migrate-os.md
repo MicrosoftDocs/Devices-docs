@@ -36,7 +36,7 @@ You start the migration from Windows 10 Team using a separate PC and downloadabl
 - Imaging solution (optional)
 
  
-## Migration workflow summary
+## Migration and installation workflow summary
 
 | Step  | Action                                                                                                 | Summary                                                                                                                                                                                                                                                                                                                                                                                                  |
 | - | ------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -263,4 +263,8 @@ To fully configure Surface Hub 2S as a personal productivity device, see [Config
 
 > [!NOTE]
 >If following the steps outlined in this document is unsuccessful in migrating your device to Windows 10 Pro or Enterprise for Surface Hub 2, please contact [Surface Hub Support](https://support.microsoft.com/help/4037644/surface-contact-surface-warranty-and-software-support).
+
+### Rolling back to Windows 10 Team
+
+If you would Like to restore your device to Windows 10 Team, refer to [Reset and recovery for Surface Hub 2S](surface-hub-2s-recover-reset.md)
 
