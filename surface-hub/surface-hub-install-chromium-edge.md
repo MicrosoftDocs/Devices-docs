@@ -127,7 +127,7 @@ If you want to apply a customized Start menu layout, use the following XML to ad
 
 <start:DesktopApplicationTile
 
-DesktopApplicationLinkPath="C:\Program Files (x86)\Microsoft\Edge Dev\Application\msedge.exe"
+DesktopApplicationLinkPath="C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
 
 Size="2x2"
 
