@@ -1,7 +1,7 @@
 ---
 title: Configure Microsoft Launcher for Surface Duo
 description: This article summarizes how to configure Microsoft Launcher for managed devices in commercial environments. 
-ms.prod: surface-duo
+ms.prod: surface
 ms.mktglfcycl: manage
 ms.sitesec: library
 author: coveminer

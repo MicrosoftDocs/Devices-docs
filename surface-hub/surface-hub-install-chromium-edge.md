@@ -9,7 +9,7 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 07/22/2020
+ms.date: 09/10/2020
 ms.localizationpriority: Medium
 ---
 
@@ -17,20 +17,20 @@ ms.localizationpriority: Medium
 
 Windows 10 Team 2020 Update supports the new Microsoft Edge based on Chromium (version 85 and above) as the recommended browser for Surface Hub. You can install Microsoft Edge manually using a provisioning package, remotely using Microsoft Intune or your preferred Mobile Device Management (MDM) provider.
 
- By default, Surface Hub devices are preinstalled with Microsoft Edge Legacy (version 44).
-
-> [!IMPORTANT]
-> Surface Hub requires version 85 or later of the new Microsoft Edge, with availability limited to the “[Dev channel](https://docs.microsoft.com/deployedge/microsoft-edge-channels),” designed to give IT admins an early look at upcoming Edge functionality and prepare for the next Beta release.  Support for the Dev channel is temporarily enabled for Windows Insiders to preview Microsoft Edge. (Normally, Surface Hub supports only versions released to the “Stable channel.”) For more information, see [Microsoft Edge channel overview.](https://docs.microsoft.com/deployedge/microsoft-edge-channels)
+By default, Surface Hub devices are preinstalled with Microsoft Edge Legacy (version 44).
  
-### Installing Microsoft Edge Dev Channel Builds 
+If you have already installed Edge Dev, complete the following steps:
 
-- By design, Microsoft Edge Dev channel installs side-by-side with Microsoft Edge Legacy, and users will see both “Microsoft Edge Dev” (version 85) and “Microsoft Edge” (version 44) in the Surface Hub Start menu. In contrast, Microsoft Edge Stable channel will replace Microsoft Edge Legacy as the default browser.
-- Once installed, Microsoft Edge Dev channel will not automatically appear as a pinned app. To open, select  **Start** > **All Apps**. In contrast, Microsoft Edge Stable channel automatically replaces Microsoft Edge Legacy as a pinned app in the All Apps list.
-- Once version 85 is promoted to Stable channel, Microsoft Edge Dev channel will automatically disappear from the Start menu, and you will be required to install Microsoft Edge Stable channel on your Surface Hub.
+1. If you don’t know your version or would like to confirm, open your Edge browser and go to edge://version.
+2. Navigate to **Surface Hub > Device management**. Under **Provisioning packages**, select **Add or remove a provisioning package.**
+3. If you have used the earlier installer to pin Microsoft Edge Dev on the Start Menu, click **Custom Start Menu** from the list and click **Remove.**
+4. If you have used a custom start layout policy, you will need to modify it using the latest Edge path, as described in the section below [Display Microsoft Edge in the Surface Hub Start menu](#display-microsoft-edge-in-the-surface-hub-start-menu).
+5. Now you can provision MicrosoftEdgeDevUninstaller.ppkg.
+6. Once Edge Dev is removed from **All Apps**, first remove "MicrosoftEdgeDevInstaller" and then remove "MicrosoftEdgeDevUninstaller."
+7. This successfully uninstalls Microsoft Edge Dev. You can now install the standard version.
 
-> [!NOTE]
->  A device reset is required to remove the new Microsoft Edge. See [Reset or recover a Surface Hub](https://docs.microsoft.com/surface-hub/device-reset-surface-hub) for more information.
-
+ 
+ 
 ## Install Microsoft Edge
 
 ### Install Microsoft Edge using a provisioning package
@@ -43,9 +43,6 @@ Windows 10 Team 2020 Update supports the new Microsoft Edge based on Chromium (v
 6. Choose the Microsoft Edge provisioning package and select **Add**.
 7. You will see a summary of the changes that the provisioning package applies. Select **Yes, add it**.
 8. Wait for the Microsoft Edge installation to complete. Once it's installed, navigate to the Surface Hub Start menu to access the new Microsoft Edge.              
-ok
-> [!IMPORTANT]
->  Once installed, Microsoft Edge Dev channel will not automatically appear as a pinned app in the Surface Hub Start menu. Instead, users will find it under **Start** > **All Apps**. If you are using the default Start menu layout, you can install the Start Menu with the [Microsoft Edge provisioning package](https://aka.ms/HubEdge) to add Microsoft Edge as a pinned app. For more information, see the section below: [Display Microsoft Edge in the Microsoft Edge Start menu](#display-start).
 
 > [!NOTE]
 > If there’s a newer version of Microsoft Edge available, it will be automatically updated.
@@ -57,7 +54,7 @@ ok
  
 
 1. [Download the Microsoft Edge installer from Microsoft](https://www.microsoft.com/edge/business/download).
-    - Use the current version from [Dev channel](https://docs.microsoft.com/deployedge/microsoft-edge-channels) **(version 85)**
+    - Use the current version from [Stable channel](https://docs.microsoft.com/deployedge/microsoft-edge-channels) **(version 85)**
     - Choose **Windows 64-bit**
 2. [Add the Microsoft Edge installer as a line-of-business app to Microsoft Intune](https://docs.microsoft.com/mem/intune/apps/lob-apps-windows).
     - If you choose to use Microsoft Edge Update to handle automatic updates to Microsoft Edge, be sure to configure the **Ignore app version** setting the **App information** pane. When you switch this setting to **Yes**, Microsoft Intune will not enforce the app version that's installed on the Surface Hub device.
@@ -66,7 +63,7 @@ ok
 ### Install Microsoft Edge using Mobile Device Management
 
 1. [Download the Microsoft Edge installer from Microsoft](https://www.microsoft.com/edge/business/download).
-    - Use the current version from [Dev channel](https://docs.microsoft.com/deployedge/microsoft-edge-channels) **(version 85)**
+    - Use the current version from [Stable channel](https://docs.microsoft.com/deployedge/microsoft-edge-channels) **(version 85)**
     - Choose **Windows 64-bit**
 2. Stage the Microsoft Edge installer on a hosted location, such as a local file share (\\server\share\MicrosoftEdgeEnterpriseX64.msi). The Surface Hub device must have permission to access the hosted location.
 3. Use [EnterpriseDesktopAppManagement Configuration Service Provider (CSP)](https://docs.microsoft.com/windows/client-management/mdm/enterprisedesktopappmanagement-csp) through your MDM provider to install Microsoft Edge.
@@ -98,8 +95,10 @@ Microsoft Edge is preconfigured with the following policies to provide an optimi
 | [ProActiveAuthEnabled](https://docs.microsoft.com/deployedge/microsoft-edge-policies#proactiveauthenabled)             | Enables Microsoft Edge to proactively authenticate signed-in users with Microsoft services. This simplifies the Single Sign-On (SSO) experience.                                                                                                                         | 1                 |
 | [PromptForDownloadLocation](https://docs.microsoft.com/deployedge/microsoft-edge-policies#promptfordownloadlocation)   | Automatically saves files to the Downloads folder, rather than asking users where to save the file. This simplifies the browsing experience.                                                                                                                             | 0                 |
 
- 
-### Configure Microsoft Edge policies
+> [!IMPORTANT]
+> Deployable progressive web apps (PWAs) are not currently supported on the Windows 10 Team operating system.  Note also that the Microsoft Edge policy setting [WebAppInstallForceList](https://docs.microsoft.com/deployedge/microsoft-edge-policies#webappinstallforcelist) is not supported on Surface Hub. 
+
+### Configure Microsoft Edge policy settings
 
 Use [Microsoft Edge browser policies](https://docs.microsoft.com/deployedge/microsoft-edge-policies) to configure browser settings in Microsoft Edge. These policies can be applied using:
 
@@ -119,9 +118,8 @@ Note that Surface Hub does not support the following Microsoft Edge update polic
 > [!NOTE]
 >  Microsoft Edge requires connectivity to the Internet to support its features. Ensure that the [necessary domain URLs](https://docs.microsoft.com/deployedge/microsoft-edge-security-endpoints) are added to the Allow list to ensure communications through firewalls and other security mechanisms.
  
-### <a name="display-start"></a> Display Microsoft Edge in the Surface Hub Start menu
+### Display Microsoft Edge in the Surface Hub Start menu
 
-Once installed, Microsoft Edge Dev channel will not automatically appear as a pinned app in the Surface Hub Start menu. Instead, users will find it under **Start** > **All Apps**.
 If you are using the default Start menu layout, you can install the Start Menu with Microsoft Edge provisioning package to add Microsoft Edge as a pinned app.
 If you want to apply a customized Start menu layout, use the following XML to add a pinned tile for Microsoft Edge.
 
