@@ -1,7 +1,7 @@
 ---
 title: Surface Duo management overview
 description: This article highlights options for managing Surface Duo in a commercial environment.
-ms.prod: surface-duo
+ms.prod: surface
 ms.mktglfcycl: manage
 ms.sitesec: library
 author: coveminer
