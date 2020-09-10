@@ -1,7 +1,7 @@
 ---
 title: Surface Duo security overview
 description: This article highlights how Surface Duo delivers enterprise-grade security on a mobile device via the Android OS and Microsoft engineered UEFI.
-ms.prod: surface-duo
+ms.prod: surface
 ms.mktglfcycl: manage
 ms.sitesec: library
 author: coveminer

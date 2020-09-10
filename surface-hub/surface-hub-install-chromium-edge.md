@@ -9,7 +9,7 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 07/22/2020
+ms.date: 09/10/2020
 ms.localizationpriority: Medium
 ---
 
@@ -24,7 +24,7 @@ If you have already installed Edge Dev, complete the following steps:
 1. If you don’t know your version or would like to confirm, open your Edge browser and go to edge://version.
 2. Navigate to **Surface Hub > Device management**. Under **Provisioning packages**, select **Add or remove a provisioning package.**
 3. If you have used the earlier installer to pin Microsoft Edge Dev on the Start Menu, click **Custom Start Menu** from the list and click **Remove.**
-4. If you have used a custom start layout policy, you will need to modify it using the latest Edge path, as described in the section below “Display Microsoft Edge in the Surface Hub Start menu.”
+4. If you have used a custom start layout policy, you will need to modify it using the latest Edge path, as described in the section below [Display Microsoft Edge in the Surface Hub Start menu](#display-microsoft-edge-in-the-surface-hub-start-menu).
 5. Now you can provision MicrosoftEdgeDevUninstaller.ppkg.
 6. Once Edge Dev is removed from **All Apps**, first remove "MicrosoftEdgeDevInstaller" and then remove "MicrosoftEdgeDevUninstaller."
 7. This successfully uninstalls Microsoft Edge Dev. You can now install the standard version.
@@ -54,7 +54,7 @@ If you have already installed Edge Dev, complete the following steps:
  
 
 1. [Download the Microsoft Edge installer from Microsoft](https://www.microsoft.com/edge/business/download).
-    - Use the current version from [Dev channel](https://docs.microsoft.com/deployedge/microsoft-edge-channels) **(version 85)**
+    - Use the current version from [Stable channel](https://docs.microsoft.com/deployedge/microsoft-edge-channels) **(version 85)**
     - Choose **Windows 64-bit**
 2. [Add the Microsoft Edge installer as a line-of-business app to Microsoft Intune](https://docs.microsoft.com/mem/intune/apps/lob-apps-windows).
     - If you choose to use Microsoft Edge Update to handle automatic updates to Microsoft Edge, be sure to configure the **Ignore app version** setting the **App information** pane. When you switch this setting to **Yes**, Microsoft Intune will not enforce the app version that's installed on the Surface Hub device.
@@ -63,7 +63,7 @@ If you have already installed Edge Dev, complete the following steps:
 ### Install Microsoft Edge using Mobile Device Management
 
 1. [Download the Microsoft Edge installer from Microsoft](https://www.microsoft.com/edge/business/download).
-    - Use the current version from [Dev channel](https://docs.microsoft.com/deployedge/microsoft-edge-channels) **(version 85)**
+    - Use the current version from [Stable channel](https://docs.microsoft.com/deployedge/microsoft-edge-channels) **(version 85)**
     - Choose **Windows 64-bit**
 2. Stage the Microsoft Edge installer on a hosted location, such as a local file share (\\server\share\MicrosoftEdgeEnterpriseX64.msi). The Surface Hub device must have permission to access the hosted location.
 3. Use [EnterpriseDesktopAppManagement Configuration Service Provider (CSP)](https://docs.microsoft.com/windows/client-management/mdm/enterprisedesktopappmanagement-csp) through your MDM provider to install Microsoft Edge.
@@ -118,7 +118,7 @@ Note that Surface Hub does not support the following Microsoft Edge update polic
 > [!NOTE]
 >  Microsoft Edge requires connectivity to the Internet to support its features. Ensure that the [necessary domain URLs](https://docs.microsoft.com/deployedge/microsoft-edge-security-endpoints) are added to the Allow list to ensure communications through firewalls and other security mechanisms.
  
-### <a name="display-start"></a> Display Microsoft Edge in the Surface Hub Start menu
+### Display Microsoft Edge in the Surface Hub Start menu
 
 If you are using the default Start menu layout, you can install the Start Menu with Microsoft Edge provisioning package to add Microsoft Edge as a pinned app.
 If you want to apply a customized Start menu layout, use the following XML to add a pinned tile for Microsoft Edge.
