@@ -1,7 +1,7 @@
 ---
 title: Contact Surface Support
 description: Support information for Microsoft Surface products.
-ms.prod: surface-duo
+ms.prod: surface
 ms.mktglfcycl: manage
 ms.sitesec: library
 author: coveminer
