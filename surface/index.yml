@@ -69,10 +69,10 @@ conceptualContent:
         # Card 3
     - title: Surface Duo overview
       links:
-        - url: ../surface-duo/surface-duo-manage
+        - url: https://docs.microsoft.com/en-us/surface-duo/surface-duo-manage
           itemType: concept
           text: Surface Duo management overview
-        - url: ../surface-duo/surface-duo-secure
+        - url: https://docs.microsoft.com/en-us/surface-duo/surface-duo-secure
           itemType: concept
           text: Surface Duo security overview
         - url: https://www.microsoft.com/surface/business/surface-duo
@@ -119,7 +119,7 @@ conceptualContent:
     # Card 9
     - title: Surface Duo help
       links:
-        - url: ../surface-duo/contact-surface-duo-support
+        - url: https://docs.microsoft.com/en-us/surface/contact-surface-support
           itemType: learn
           text: Contact Surface Duo Support
         - url: https://docs.microsoft.com/en-us/dual-screen/android/get-duo-sdk?tabs=windows
