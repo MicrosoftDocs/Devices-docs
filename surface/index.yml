@@ -33,56 +33,100 @@ highlightedContent:
     - title: Surface Duo documentation
       itemType: learn
       url: https://docs.microsoft.com/surface-duo/index  
-      
-# additionalContent section (optional)
-# Card with links style
-additionalContent:
-  # Supports up to 3 sections
-  sections:
-    - title: Surface resources # < 60 chars (optional)
-      summary: Find resources for your Microsoft Surface devices. # < 160 chars (optional)
-      items:
-        # Card 3
-        - title: Surface overview
-          links: 
-            - text: Surface Go 2 for Business
-              url: https://www.microsoft.com/surface/business/surface-go-2
-            - text: Surface Book 3 for Business
-              url: https://www.microsoft.com/surface/business/surface-book-3
-            - text: Explore all Surface family products
-              url: https://www.microsoft.com/surface/business
-        # Card 1
-        - title: Surface community
-          links:
-            - text: Surface IT Pro blog
-              url: https://techcommunity.microsoft.com/t5/Surface-IT-Pro-Blog/bg-p/SurfaceITPro
-            - text: Surface Devices Tech Community
-              url: https://techcommunity.microsoft.com/t5/Surface-Devices/ct-p/SurfaceDevices
-        # Card 5
-        - title: Surface help
-          links: 
-            - text: Contact Surface Support
-              url: contact-surface-support.md
 
-    - title: Surface Hub resources # < 60 chars (optional)
-      summary: Find resources for your Microsoft Surface Hub. # < 160 chars (optional)
-      items:
-        # Card 4
-        - title: Surface Hub overview
-          links: 
-            - text: What's new in Surface Hub 2S?
-              url: https://docs.microsoft.com/surface-hub/surface-hub-2s-whats-new
-            - text: Surface Hub 2S tech specs
-              url: https://docs.microsoft.com/surface-hub/surface-hub-2s-techspecs
-            - text: Operating system essentials
-              url: https://docs.microsoft.com/surface-hub/differences-between-surface-hub-and-windows-10-enterprise
+# conceptualContent section (optional)
+conceptualContent:
+# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+  title: Surface devices # < 60 chars (optional)
+  summary: Find resources for your Microsoft Surface devices. # < 160 chars (optional)
+  items:
+    # Card 1
+    - title: Surface overview
+      links:
+        - url: https://www.microsoft.com/surface/business/surface-go-2
+          itemType: concept
+          text: Surface Go 2 for Business
+        - url: https://www.microsoft.com/surface/business/surface-book-3
+          itemType: concept
+          text: Surface Book 3 for Business
+        - url: https://www.microsoft.com/surface/business
+          itemType: concept
+          text: Explore all Surface family products
+
         # Card 2
-        - title: Surface Hub community 
-          links:
-            - text: Surface Hub Tech Community
-              url: https://techcommunity.microsoft.com/t5/surface-hub/bd-p/SurfaceHub
-        # Card 6
-        - title: Surface Hub help
-          links: 
-            - text: Contact Surface Hub Support
-              url: https://support.microsoft.com/supportforbusiness/productselection?sapId=bb7066fb-e329-c1c0-9c13-8e9949c6a64e
+    - title: Surface Hub overview
+      links:
+        - url: https://docs.microsoft.com/surface-hub/surface-hub-2s-whats-new
+          itemType: concept
+          text: What's new in Surface Hub 2S?
+        - url: https://docs.microsoft.com/surface-hub/surface-hub-2s-techspecs
+          itemType: concept
+          text: Surface Hub 2S tech specs
+        - url: https://docs.microsoft.com/surface-hub/differences-between-surface-hub-and-windows-10-enterprise
+          itemType: concept
+          text: Operating system essentials
+
+        # Card 3
+    - title: Surface Duo overview
+      links:
+        - url: https://docs.microsoft.com/en-us/surface-duo/surface-duo-manage
+          itemType: concept
+          text: Surface Duo management overview
+        - url: https://docs.microsoft.com/en-us/surface-duo/surface-duo-secure
+          itemType: concept
+          text: Surface Duo security overview
+        - url: https://www.microsoft.com/surface/business/surface-duo
+          itemType: concept
+          text: Surface Duo tech specs
+    # Card 4
+    - title: Surface community
+      links:
+        - url: https://techcommunity.microsoft.com/t5/Surface-IT-Pro-Blog/bg-p/SurfaceITPro
+          itemType: reference
+          text: Surface IT Pro blog
+        - url: https://techcommunity.microsoft.com/t5/Surface-Devices/ct-p/SurfaceDevices
+          itemType: reference
+          text: Surface Devices Tech Community
+
+    # Card 5
+    - title: Surface Hub community
+      links:
+        - url: https://techcommunity.microsoft.com/t5/surface-hub/bd-p/SurfaceHub
+          itemType: reference
+          text: Surface Hub Tech Community
+
+    # Card 6
+    - title: Surface Duo community
+      links:
+        - url: https://aka.ms/SurfaceDuoITBlog
+          itemType: reference
+          text: Surface Duo IT Pro Blog
+
+    # Card 7
+    - title: Surface help
+      links:
+        - url: contact-surface-support.md
+          itemType: learn
+          text: Contact Surface Support
+
+    # Card 8
+    - title: Surface Hub help
+      links:
+        - url: https://support.microsoft.com/supportforbusiness/productselection?sapId=bb7066fb-e329-c1c0-9c13-8e9949c6a64e
+          itemType: learn
+          text: Contact Surface Hub Support
+
+    # Card 9
+    - title: Surface Duo help
+      links:
+        - url: https://docs.microsoft.com/en-us/surface/contact-surface-support
+          itemType: learn
+          text: Contact Surface Duo Support
+        - url: https://docs.microsoft.com/en-us/dual-screen/android/get-duo-sdk?tabs=windows
+          itemType: learn
+          text: Get the Surface Duo SDK
+        - url: https://www.microsoft.com/download/details.aspx?id=100847
+          itemType: learn
+          text: Download the Surface Duo Emulator
+
+

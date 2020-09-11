@@ -1,7 +1,7 @@
 ---
 title: "Migrate to Windows 10 Pro or Enterprise on Surface Hub 2"
 description: "This article describes the process of migrating from Windows 10 Team on Surface Hub 2 to Windows 10 Pro or Windows 10 Enterprise."
-keywords: separate values with commas
+keywords: Surface Hub Desktop, Surface Hub
 ms.prod: surface-hub
 ms.sitesec: library
 author: greg-lindsay
@@ -9,7 +9,7 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 09/08/2020
+ms.date: 09/09/2020
 ms.localizationpriority: Medium
 ---
 # Migrate to Windows 10 Pro or Enterprise on Surface Hub 2
@@ -226,7 +226,7 @@ Use your **BOOTME** drive to install the SEMM package files and update the UEFI,
 
    ![Select Management & Install from USB](images/shm-fig21.png)
    
-5. Select **Restart now**, as shown below. The device will shut down.
+5. Select **Restart now**, as shown below. The device will reboot and display the white 4-square logo in the middle of screen and then it will shut down.
 
    ![Select Restart Now](images/shm-fig25.png)
    
@@ -239,7 +239,7 @@ Use your **BOOTME** drive to install the SEMM package files and update the UEFI,
    > [!NOTE]
    > Once you activate SEMM on your device, the new UEFI setting **EnableOSMigration** is applied. You will no longer be able to access Windows 10 Team and must proceed to the next step and install Windows 10 Pro or Windows 10 Enterprise. 
 
-8. The device will reboot, display the white 4-square in the middle of the screen, and then again turn off.
+8. The device will reboot, display the white 4-square logo in the middle of the screen, and then again it will shut down
 
 ### Install Windows 10 Pro or Enterprise
 
@@ -247,7 +247,7 @@ Use your **BOOTME** drive to install the SEMM package files and update the UEFI,
 
 2. The device will start, you will see the white 4-square in the middle of the screen, and then you will see a spinning circle below the white four-square logo.
 
-3. If the device does not automatically boot to the USB drive, power off the device (unplug the power cord and plug it back in),  press and release the power button and then press and hold the volume down button until you see the spinning circle below the white four-square logo.
+3. If the device does not automatically boot to the USB drive, power off the device (unplug the power cord and plug it back in). After plugging the power cord back in, the device should boot after a few seconds to the white 4-square logo in the middle of screen, or you can press and release the power button to turn the device back on. Immediately after you see the 4-square logo in the middle of the screen, press and hold the volume down button until you see the spinning circle below the white four-square logo.
  
    ![Boot to Windows 10 from USB](images/shm-fig26.png)
    
