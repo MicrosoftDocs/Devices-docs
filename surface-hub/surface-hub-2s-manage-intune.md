@@ -30,7 +30,7 @@ Surface Hub 2S allows IT administrators to manage settings and policies using a 
 
 During the initial setup process, when affiliating a Surface Hub with an Azure AD tenant that has Intune auto enrollment enabled, the device will automatically enroll with Intune. For more information, refer to [Intune enrollment methods for Windows devices](https://docs.microsoft.com/intune/enrollment/windows-enrollment-methods). Azure AD affiliation and Intune auto enrollment is required for the Surface Hub to be a "compliant device" in Intune. 
 
-## Managing Windows 10 Team Edition settings with Intune
+## Managing Windows 10 Team settings with Intune
 
 1. Sign into **Microsoft Endpoint Manager**, select **Devices** > **Configuration profiles** > **Create profile**. 
 2. Under **Platform**, select **Windows 10 and later** > **Device restrictions (Windows 10 Team)** and then select **Create**. 
@@ -58,7 +58,7 @@ To ensure optimal video and audio quality on Surface Hub 2S, add the following Q
 
 ### Microsoft Teams QoS settings 
 
-|**Name**|**Description**|**OMA-URI**|**Type**|**Value**|
+| Name | Description | OMA-URI | Type | Value |
 |:------ |:------------- |:--------- |:------ |:------- |
 |**Audio Ports**| Audio Port range | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsAudio/DestinationPortMatchCondition | String  | 3478-3479 |
 |**Audio DSCP**| Audio ports marking | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsAudio/DSCPAction | Integer | 46 |
@@ -96,7 +96,7 @@ You can set the Microsoft Teams app mode using Intune. Surface Hub 2S comes inst
 
 To set modes, add the following settings to a custom Device Configuration Profile.
 
-|**Name**|**Description**|**OMA-URI**|**Type**|**Value**|
+| Name | Description | OMA-URI | Type | Value |
 |:--- |:--- |:--- |:--- |:--- |
 |**Teams App ID**|App name|./Vendor/MSFT/SurfaceHub/Properties/VtcAppPackageId|String| Microsoft.MicrosoftTeamsforSurfaceHub_8wekyb3d8bbwe!Teams|
 |**Teams App Mode**|Teams mode|./Vendor/MSFT/SurfaceHub/Properties/SurfaceHubMeetingMode|Integer| 0 or 1 or 2|

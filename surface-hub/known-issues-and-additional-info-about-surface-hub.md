@@ -5,7 +5,7 @@ ms.assetid: aee90a0c-fb05-466e-a2b1-92de89d0f2b7
 keywords: surface, hub, issues
 ms.prod: surface-hub
 ms.sitesec: library
-author: todmccoy
+author: greg-lindsay
 ms.author: v-todmc
 ms.topic: article
 ms.localizationpriority: medium
