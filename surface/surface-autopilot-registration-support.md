@@ -38,16 +38,15 @@ See the following table for details of the information you will need to collect 
 
 ## Submit support requests
 
-  [![Get Autopilot Registration Support for Surface](images/autopilot-reg-support-surface.png)](
-https://support.microsoft.comcomplete setup/supportrequestform/0d8bf192-cab7-6d39-143d-5a17840b9f5f)
+  [![Get Autopilot Registration Support for Surface](images/autopilot-reg-support-surface.png)](https://support.microsoft.com/supportrequestform/0d8bf192-cab7-6d39-143d-5a17840b9f5f)
  
  
  
 ## Learn more
 
-- [Windows Autopilot and Surface devices](https://docs.microsoft.comcomplete setup/surface/windows-autopilot-and-surface-devices)
-- [Enroll Windows devices in Intune by using Windows Autopilot](https://docs.microsoft.comcomplete setup/mem/autopilot/enrollment-autopilot)
-- [Overview of Windows Autopilot](https://docs.microsoft.comcomplete setup/windows/deployment/windows-Autopilot/windows-Autopilot)
+- [Windows Autopilot and Surface devices](windows-autopilot-and-surface-devices.md)
+- [Enroll Windows devices in Intune by using Windows Autopilot](https://docs.microsoft.com/mem/autopilot/enrollment-autopilot)
+- [Overview of Windows Autopilot](https://docs.microsoft.com/mem/autopilot/windows-autopilot)
 
  
  
