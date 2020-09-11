@@ -28,6 +28,8 @@ landingContent:
     linkLists:
       - linkListType: whats-new
         links:
+          - text: Announcing the availability of Windows 10 Pro and Enterprise on Surface Hub 2
+            url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/announcing-the-availability-of-windows-10-pro-and-enterprise-on/ba-p/1624107            
           - text: Migrate to Windows 10 Pro or Enterprise on Surface Hub 2
             url: surface-hub-2s-migrate-os.md
           - text: Install Windows 10 Team 2020 Update Preview Build
