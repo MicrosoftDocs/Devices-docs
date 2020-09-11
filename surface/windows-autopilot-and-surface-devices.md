@@ -24,13 +24,13 @@ Traditionally, IT pros spend a lot of time building and customizing images that 
 
 Windows Autopilot allows you to:
 
--Automatically join devices to Azure Active Directory (Azure AD)
--Auto-enroll devices into MDM services, such as Microsoft Intune (Requires an Azure AD Premium subscription)
--Restrict the Administrator account creation (Autopilot is the only way to have the first person who logs into Windows enter as a standard user.)
--Create and auto-assign devices to configuration groups based on a device's profile
--Customize OOBE (Out of Box Experience) content/branding specific to the organization
--Enable the complete configuration of the device using Microsoft Intune
--Reset or restart devices remotely
+- Automatically join devices to Azure Active Directory (Azure AD)
+- Auto-enroll devices into MDM services, such as Microsoft Intune (Requires an Azure AD Premium subscription)
+- Restrict the Administrator account creation (Autopilot is the only way to have the first person who logs into Windows enter as a standard user.)
+- Create and auto-assign devices to configuration groups based on a device's profile
+- Customize OOBE (Out of Box Experience) content/branding specific to the organization
+- Enable the complete configuration of the device using Microsoft Intune
+- Reset or restart devices remotely
 
 ## How it works
 
