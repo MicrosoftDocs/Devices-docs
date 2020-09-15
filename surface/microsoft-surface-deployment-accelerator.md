@@ -42,15 +42,22 @@ The resulting image closely matches the configuration of Bare Metal Recovery (BM
 4. Right-click the .zip file and then click **Properties**.
 5. On the **General** tab, select the **Unblock** checkbox and then click **OK**.
 6. Extract the .zip file to a location on your hard drive (ex: C:\SDA).
-7. Open an elevated Windows PowerShell prompt and set ExecutionPolicy to 
+7. Open an elevated Windows PowerShell prompt and set ExecutionPolicy for the current session to Unrestricted.
 
+    ```powershell
+    Set-ExecutionPolicy -Scope Process -ExecutionPolicy Unrestricted -Force
+    ```
+8. Run the SDA script specifying parameters for your environment. For example, the following command will create a bootable USB drive that can be used to install Windows 10 on a Surface Hub 2:
 
+    ```powershell
+    .\CreateSurfaceWindowsImage.ps1 -ISO C:\SDA\enterprise_client.iso -OSSKU Enterprise -DestinationFolder C:\Output -Device SurfaceHub2 -CreateUSB $True
+    ```
 
-Set-ExecutionPolicy -Scope Process -ExecutionPolicy Unrestricted -Force
+   ![Running Surface Deployment Accelerator tool](images/sda1.png)
 
-.\CreateSurfaceWindowsImage.ps1 -ISO D:\SDA\19042.508.200907-1718.20h2_release_svc_refresh_CLIENTENTERPRISE_OEM_x64FRE_en-us.iso -OSSKU Enterprise -DestinationFolder C:\Output -Device SurfaceHub2 -CreateUSB $True
+9. The script will require about 45 minutes to run, but could take longer depending on available CPU and disk resources. 
 
-   ![Running Surface Deployment Accelerator tool](images/surface-deployment-accelerator.png)
+After creating a Windows image, the script will ask for you to confirm the drive letter of your USB drive. The Windows image will be copied to this drive enabling you to boot from USB on another device and install the image.
 
 ## Related links
 
