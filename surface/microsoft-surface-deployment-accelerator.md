@@ -28,11 +28,27 @@ The open source, script-driven SDA tool leverages the Windows Assessment and Dep
 
 The resulting image closely matches the configuration of Bare Metal Recovery (BMR) images, without any pre-installed applications such as Microsoft Office or the Surface UWP application.
 
+## Requirements
+
+1. A USB thumb drive at least 16 GB in size. The USB drive will be formatted.
+2. An .iso file with Windows 10 Pro or Windows 10 Enterprise. 
+    - The media creation tool can be used to download and create an .iso file. For more information, see [Download Windows 10](https://www.microsoft.com/software-download/windows10).
+
 **To run SDA:**
 
 1. Go to [SurfaceDeploymentAccelerator](https://github.com/microsoft/SurfaceDeploymentAccelerator) on GitHub. 
-2. Select **Clone or Download** and review the Readme file.
-3. Edit the script with the appropriate variables for your environment, as documented in the Readme, and review before running it in your test environment. 
+2. Review the [README](https://github.com/microsoft/SurfaceDeploymentAccelerator/blob/master/README.md) documentation.
+3. On the [SurfaceDeploymentAccelerator](https://github.com/microsoft/SurfaceDeploymentAccelerator) page, click the **Code** button and then select **Download ZIP** to save the files locally on your computer.
+4. Right-click the .zip file and then click **Properties**.
+5. On the **General** tab, select the **Unblock** checkbox and then click **OK**.
+6. Extract the .zip file to a location on your hard drive (ex: C:\SDA).
+7. Open an elevated Windows PowerShell prompt and set ExecutionPolicy to 
+
+
+
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Unrestricted -Force
+
+.\CreateSurfaceWindowsImage.ps1 -ISO D:\SDA\19042.508.200907-1718.20h2_release_svc_refresh_CLIENTENTERPRISE_OEM_x64FRE_en-us.iso -OSSKU Enterprise -DestinationFolder C:\Output -Device SurfaceHub2 -CreateUSB $True
 
    ![Running Surface Deployment Accelerator tool](images/surface-deployment-accelerator.png)
 
