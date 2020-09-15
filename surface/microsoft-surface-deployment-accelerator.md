@@ -31,8 +31,9 @@ The resulting image closely matches the configuration of Bare Metal Recovery (BM
 ## Requirements
 
 1. A USB thumb drive at least 16 GB in size. The USB drive will be formatted.
-2. An .iso file with Windows 10 Pro or Windows 10 Enterprise. 
-    - The media creation tool can be used to download and create an .iso file. For more information, see [Download Windows 10](https://www.microsoft.com/software-download/windows10).
+2. An .iso file with Windows 10 Pro or Windows 10 Enterprise. The media creation tool can be used to download Windows 10 and create an .iso file. For more information, see [Download Windows 10](https://www.microsoft.com/software-download/windows10).
+
+## How to run SDA
 
 **To run SDA:**
 
