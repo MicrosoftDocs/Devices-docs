@@ -55,9 +55,12 @@ The resulting image closely matches the configuration of Bare Metal Recovery (BM
 
    ![Running Surface Deployment Accelerator tool](images/sda1.png)
 
-9. The script will require about 45 minutes to run, but could take longer depending on available CPU and disk resources. 
+The script will require about 45 minutes to run, but could take longer depending on available CPU and disk resources. 
 
-After creating a Windows image, the script will ask for you to confirm the drive letter of your USB drive. The Windows image will be copied to this drive enabling you to boot from USB on another device and install the image.
+After creating a Windows image, the script will ask you to confirm the drive letter of your USB drive. The USB drive will then be formatted, configured as bootable, and files copied to enable installation of the custom Windows 10 image for Surface devices.
+
+> [!IMPORTANT]
+> Booting from the USB drive will immediately begin installing Windows 10. Ensure that your device is ready before inserting the USB and restarting. 
 
 ## Related links
 
