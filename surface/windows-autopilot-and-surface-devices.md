@@ -13,11 +13,26 @@ ms.author: greglin
 ms.topic: article
 ms.localizationpriority: medium
 ms.audience: itpro
+ms.date: 9/14/2020
 ---
 
 # Windows Autopilot and Surface devices
 
 Windows Autopilot is a cloud-based deployment technology in Windows 10. You can use Windows Autopilot to remotely deploy and configure devices in a zero-touch process right out of the box.
+
+Traditionally, IT pros spend a lot of time building and customizing images that will later be deployed to devices that already come with a perfectly good OS already installed on them. Windows Autopilot introduces a new zero-touch deployment approach using a collection of technologies to set up and configure Windows devices. This enables an IT department to configure/customize images with little to no infrastructure to manage and a process that is easy and simple. From the user’s perspective, it only takes a few simple steps to get Surface to a productive state. In fact, the only interaction required from the end user is to connect to a network and to verify their credentials. Everything after that is fully automated.
+
+Windows Autopilot allows you to:
+
+- Automatically join devices to Azure Active Directory (Azure AD).
+- Auto-enroll devices into MDM services, such as Microsoft Intune (requires an Azure AD Premium subscription).
+- Restrict the Administrator account creation. Autopilot is the only way to have the first person who logs into Windows enter as a standard user.
+- Create and auto-assign devices to configuration groups based on device profiles.
+- Customize OOBE (Out of Box Experience) content and branding to meet organizational requirements.
+- Enable full device configuration with Intune.
+- Reset or restart devices remotely.
+
+## How it works
 
 Windows Autopilot-registered devices are identified over the Internet at first startup through a unique device signature that's called a *hardware hash*. They're automatically enrolled and configured by using modern management solutions such as Azure Active Directory (Azure AD) and mobile device management.
 
@@ -42,6 +57,10 @@ Microsoft automatically checks every Surface for Autopilot enrollment and will d
 > [!NOTE]
 > When customers use a Partner to return devices, the Partner is responsible for managing the exchange process including deregistering and enrolling devices into Windows Autopilot.
 
+## Microsoft Support registration
+
+Customers and Microsoft Cloud Solution Providers (CSPs) have the option of registering Surface devices by submitting requests to Microsoft Support. To learn more, see [Surface Registration Support for Windows Autopilot](surface-autopilot-registration-support.md).
+
 ## Surface partners enabled for Windows Autopilot
 
 Select Surface partners can enroll Surface devices in Windows Autopilot for you at the time of purchase. They can also ship enrolled devices directly to your users. The devices can be configured entirely through a zero-touch process by using Windows Autopilot, Azure AD, and mobile device management.
@@ -63,3 +82,4 @@ Surface partners that are enabled for Windows Autopilot include:
 For more information about Windows Autopilot, see:
 - [Overview of Windows Autopilot](https://docs.microsoft.com/windows/deployment/windows-autopilot/windows-10-autopilot)
 - [Windows Autopilot requirements](https://docs.microsoft.com/windows/deployment/windows-autopilot/windows-autopilot-requirements)
+- [Surface Registration Support for Windows Autopilot](surface-autopilot-registration-support.md)

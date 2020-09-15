@@ -48,10 +48,10 @@ landingContent:
     linkLists:
       - linkListType: deploy
         links:
-          - text: Surface Deployment Accelerator tool
-            url: microsoft-surface-deployment-accelerator.md
           - text: Autopilot and Surface devices
             url: windows-autopilot-and-surface-devices.md
+          - text: Surface Registration Support for Windows Autopilot
+            url: surface-autopilot-registration-support.md
           - text: Windows Virtual Desktop on Surface
             url: windows-virtual-desktop-surface.md
   
@@ -88,8 +88,8 @@ landingContent:
             url: surface-diagnostic-toolkit-for-business-intro.md
           - text: SEMM and UEFI
             url: surface-enterprise-management-mode.md
-          - text: Battery Limit setting
-            url: battery-limit.md         
+          - text: Surface Deployment Accelerator tool
+            url: microsoft-surface-deployment-accelerator.md
 
  # Card
   - title: Troubleshoot
