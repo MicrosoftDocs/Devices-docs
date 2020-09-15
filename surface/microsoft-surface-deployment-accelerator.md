@@ -28,13 +28,42 @@ The open source, script-driven SDA tool leverages the Windows Assessment and Dep
 
 The resulting image closely matches the configuration of Bare Metal Recovery (BMR) images, without any pre-installed applications such as Microsoft Office or the Surface UWP application.
 
+## Requirements
+
+1. A USB thumb drive at least 16 GB in size. The USB drive will be formatted.
+2. An .iso file with Windows 10 Pro or Windows 10 Enterprise. The media creation tool can be used to download Windows 10 and create an .iso file. For more information, see [Download Windows 10](https://www.microsoft.com/software-download/windows10).
+
+## How to run SDA
+
 **To run SDA:**
 
 1. Go to [SurfaceDeploymentAccelerator](https://github.com/microsoft/SurfaceDeploymentAccelerator) on GitHub. 
-2. Select **Clone or Download** and review the Readme file.
-3. Edit the script with the appropriate variables for your environment, as documented in the Readme, and review before running it in your test environment. 
+2. Review the [README](https://github.com/microsoft/SurfaceDeploymentAccelerator/blob/master/README.md) documentation.
+3. On the [SurfaceDeploymentAccelerator](https://github.com/microsoft/SurfaceDeploymentAccelerator) page, click the **Code** button and then select **Download ZIP** to save the files locally on your computer.
+4. Right-click the .zip file and then click **Properties**.
+5. On the **General** tab, select the **Unblock** checkbox and then click **OK**.
+6. Extract the .zip file to a location on your hard drive (ex: C:\SDA).
+7. Open an elevated Windows PowerShell prompt and set ExecutionPolicy for the current session to Unrestricted.
 
-   ![Running Surface Deployment Accelerator tool](images/surface-deployment-accelerator.png)
+    ```powershell
+    Set-ExecutionPolicy -Scope Process -ExecutionPolicy Unrestricted -Force
+    ```
+8. Run the SDA script specifying parameters for your environment. For example, the following command will create a bootable USB drive that can be used to install Windows 10 on a Surface Hub 2:
+
+    ```powershell
+    .\CreateSurfaceWindowsImage.ps1 -ISO C:\SDA\enterprise_client.iso -OSSKU Enterprise -DestinationFolder C:\Output -Device SurfaceHub2 -CreateUSB $True
+    ```
+
+   ![Running Surface Deployment Accelerator tool](images/sda1.png)
+
+    The script will require about 45 minutes to run, but could take longer depending on available CPU and disk resources. 
+
+    After creating a Windows image, the script will ask you to confirm the drive letter of your USB drive. The USB drive will then be formatted, configured as bootable, and files copied to enable installation of the custom Windows 10 image for Surface devices.
+
+9. Insert the USB drive into the device where you want to install Windows 10 and reboot to begin installing Windows 10. USB boot must be enabled in BIOS, which can require that you temporarily disable Secure Boot.
+
+> [!IMPORTANT]
+> Booting from the USB drive will immediately begin installing Windows 10. Ensure that your device is ready before inserting the USB and restarting. 
 
 ## Related links
 
