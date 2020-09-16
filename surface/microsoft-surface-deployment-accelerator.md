@@ -74,5 +74,4 @@ See the [Prerequisites](https://github.com/microsoft/SurfaceDeploymentAccelerato
 ## Related links
 
  - [Open source image deployment tool released on GitHub](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/open-source-image-deployment-tool-released-on-github/ba-p/1314115)
-
  - [Download and install the Windows ADK](https://docs.microsoft.com/windows-hardware/get-started/adk-install)
