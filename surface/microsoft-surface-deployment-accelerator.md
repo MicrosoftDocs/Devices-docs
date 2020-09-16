@@ -58,6 +58,7 @@ See the [Prerequisites](https://github.com/microsoft/SurfaceDeploymentAccelerato
     ```powershell
     .\CreateSurfaceWindowsImage.ps1 -ISO C:\SDA\enterprise_client.iso -OSSKU Enterprise -DestinationFolder C:\Output -Device SurfaceHub2 -CreateUSB $True
     ```
+    Sample script output is below.
 
    ![Running Surface Deployment Accelerator tool](images/sda1.png)
 
