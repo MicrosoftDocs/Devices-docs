@@ -18,13 +18,12 @@ ms.topic: article
 
 # Essential add-ons for Windows 10 Pro and Enterprise on Surface Hub 2
 
-If you have migrated from Windows 10 Team to Windows 10 Pro or Enterprise on Surface Hub 2, you have the option of using Windows Hello biometric authentication to sign into your device. You will need is certified Windows Hello camera to use face recognition. For fingerprint authentication, you will need the Surface Hub 2 Fingerprint Reader, as described below.
-
-With Windows 10 Pro and Enterprise for Surface Hub 2, you can connect a wide variety of accessories.
+If you have migrated from Windows 10 Team to Windows 10 Pro or Enterprise on Surface Hub 2, you can choose from a wide variety of accessories that connect via USB-C, USB-A, HDMI, or Bluetooth. 
 **
 - 1 x USB A port on compute module (behind display)
 - 4 x USB C ports on bezels
 - Bluetooth 4.1 support
+- HDMI 2.0
 
  ![Front facing and underside view of I/O connections and physical buttons](images/hub2s-schematic.png)
 
@@ -70,7 +69,12 @@ Windows 10 Pro and Enterprise on Surface Hub 2 supports Windows Hello for authen
 
 You can extend the audio and video capabilities of Surface Hub 2 with audio and camera peripherals using the USB-C or USB-A ports.
 
-For information about recommended accesories, see:
+For information about recommended accessories, see:
 
 - [USB audio and video devices certified for Microsoft Teams](https://docs.microsoft.com/microsoftteams/devices/usb-devices)
 - [IP Phones certified for Microsoft Teams](https://docs.microsoft.com/microsoftteams/devices/teams-ip-phones)
+
+
+## Learn more
+
+- [Configure Windows 10 Pro or Enterprise on Surface Hub 2](surface-hub-2-post-install.md).
