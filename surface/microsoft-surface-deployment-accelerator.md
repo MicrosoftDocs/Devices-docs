@@ -58,7 +58,7 @@ The resulting image closely matches the configuration of Bare Metal Recovery (BM
 
     The script will require about 45 minutes to run, but could take longer depending on available CPU and disk resources. 
 
-    After creating a Windows image, the script will ask you to confirm the drive letter of your USB drive. The USB drive will then be formatted, configured as bootable, and files copied to enable installation of the custom Windows 10 image for Surface devices.
+    After creating a Windows image, the script will ask you to insert and confirm the drive letter of your USB drive. The USB drive will then be formatted, configured as bootable, and files copied to enable installation of the custom Windows 10 image for Surface devices.
 
 9. Insert the USB drive into the device where you want to install Windows 10 and reboot to begin installing Windows 10. USB boot must be enabled in BIOS, which can require that you temporarily disable Secure Boot.
 
