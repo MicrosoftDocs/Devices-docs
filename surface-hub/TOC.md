@@ -37,6 +37,7 @@
 ## Manage
 ### [Migrate to Windows 10 Pro or Enterprise on Surface Hub 2](surface-hub-2s-migrate-os.md)
 ### [Configure Windows 10 Pro or Enterprise on Surface Hub 2](surface-hub-2-post-install.md)
+### [Essential add-ons for Windows 10 Pro and Enterprise on Surface Hub 2](surface-hub-2-essential-add-ons.md)
 ### [Install Windows 10 Team 2020 Update Preview Build](surface-hub-install-2020preview.md)  
 ### [Known issues - Windows 10 Team 2020 Update](surface-hub-2020-team-update-known-issues.md)
 ### [Install and configure the new Microsoft Edge on Surface Hub](surface-hub-install-chromium-edge.md)        
