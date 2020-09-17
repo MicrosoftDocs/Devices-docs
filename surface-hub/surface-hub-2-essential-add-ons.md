@@ -12,6 +12,7 @@ manager: laurawi
 ms.audience: itpro
 author: greg-lindsay
 ms.author: greglin
+ms.date: 09/16/2020
 ms.collection: M365-modern-desktop
 ms.topic: article
 ---
@@ -23,6 +24,10 @@ If you have migrated from Windows 10 Team to Windows 10 Pro or Enterprise on Sur
 ## Surface Hub 2 Fingerprint Reader
 
 If you’re running Windows 10 Pro or Windows 10 Enterprise on Surface Hub 2, you can sign in using the optional Surface Hub 2 Fingerprint Reader, a biometric authentication option that uses [Windows Hello](https://docs.microsoft.com/windows-hardware/design/device-experiences/windows-hello).
+
+### Ordering
+
+Commercial customers can place orders through their Surface Authorized Device Resellers.
 
 **To use Surface Hub 2 Fingerprint Reader:**
 
