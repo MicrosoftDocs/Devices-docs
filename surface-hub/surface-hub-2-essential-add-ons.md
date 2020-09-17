@@ -45,13 +45,11 @@ For more information about configuring the fingerprint reader to sign in using W
 
 | Component                       | Description                                                                                                                          |
 | ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
-| **USB**                         | USB-C 2.0 full speed                                                                                                                 |
+| **USB**                         | USB-C 2.0                                                                                                                 |
 | **System requirement**          | Windows 10 Pro, Windows 10 Enterprise.                                                                                               |
 | **Windows certification**       | Windows 10                                                                                                                           |
-| **False Rejection Rate (FRR)**  | < 10%. FRR is the proportion of times a biometric system fails to grant access to authorized users.                                  |
 | **False Acceptance Rate (FAR)** | 1/1.5 million. FAR shows the probability of a biometric security system to incorrectly accept access attempts by unauthorized users. |
-| **Maximum fingerprints**        | > 300                                                                                                                                |
-| **Maximum latency**             | <2s (with 300 FPs)                                                                                                                   |
+
 
 > [!NOTE]
 > Windows 10 Team, which runs on Surface Hub 2S does not support the Surface Hub 2 Fingerprint Reader. This is because Windows 10 Team is designed to allow multiple users to interact with the device in a conference room environment. 
