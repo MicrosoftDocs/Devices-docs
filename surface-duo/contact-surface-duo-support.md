@@ -1,7 +1,6 @@
 ---
 title: Contact Surface Business Support
 description: Business support information for Microsoft Surface products.
-ms.prod: surface
 ms.mktglfcycl: manage
 ms.sitesec: library
 author: coveminer
