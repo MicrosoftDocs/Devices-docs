@@ -45,7 +45,7 @@ For more information about configuring the fingerprint reader to sign in using W
 
 | Component                       | Description                                                                                                                          |
 | ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
-| **USB**                         | USB-C 2.0                                                                                                                 |
+| **USB**                         | Customized USB Type-C                                                                                                           |
 | **System requirement**          | Windows 10 Pro, Windows 10 Enterprise.                                                                                               |
 | **Windows certification**       | Windows 10                                                                                                                           |
 | **False Acceptance Rate (FAR)** | 1/1.5 million. FAR shows the probability of a biometric security system to incorrectly accept access attempts by unauthorized users. |
