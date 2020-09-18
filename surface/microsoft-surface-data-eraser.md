@@ -156,12 +156,13 @@ Microsoft Surface Data Eraser is periodically updated by Microsoft. For informat
 
 ### 3.33.139
 *Release Date: 9 September 2020*
-This version of Surface Data Eraser adds support for: 
+
+This version of Surface Data Eraser includes bug fixes and adds support for: 
 
 - Architecture re-design to reduce the need to update with new product releases
 - Notification available for new tool updates
 - Telemetry additions
-- Support to Windows 10 Pro and Enterprise on Surface Hub 2
+- Windows 10 Pro and Enterprise on Surface Hub 2
 
 
 ### 3.30.139
