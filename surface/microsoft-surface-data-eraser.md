@@ -14,7 +14,7 @@ author: coveminer
 ms.author: greglin
 ms.topic: article
 audience: itpro
-ms.date: 05/11/2020
+ms.date: 09/18/2020
 ---
 
 # Microsoft Surface Data Eraser
@@ -29,26 +29,13 @@ Find out how the Microsoft Surface Data Eraser tool can help you securely wipe d
 
 Compatible Surface devices include:
 
-* Surface Book 3
-* Surface Go 2
-* Surface Pro 7
-* Surface Pro X
-* Surface Laptop 3
-* Surface Pro 6
-* Surface Laptop 2
-* Surface Go
-* Surface Book 2
-* Surface Pro with LTE Advanced (Model 1807)
-* Surface Pro (Model 1796)
-* Surface Laptop
-* Surface Studio
-* Surface Studio 2
-* Surface Book
-* Surface Pro 4
-* Surface 3 LTE
-* Surface 3
-* Surface Pro 3
-* Surface Pro 2
+- Surface Book (all editions)
+- Surface Go (all editions)
+- Surface Pro X (all editions)
+- Surface Laptop (all editions)
+- Surface Studio (all editions)
+- Surface Pro 2 and later
+- Windows 10 Pro and Enterprise on Surface Hub 2
 
 Some scenarios where Microsoft Surface Data Eraser can be helpful include:
 
@@ -166,6 +153,16 @@ After you create a Microsoft Surface Data Eraser USB stick, you can boot a suppo
 ## Changes and updates
 
 Microsoft Surface Data Eraser is periodically updated by Microsoft. For information about the changes provided in each new version, see the following:
+
+### 3.33.139
+*Release Date: 9 September 2020*
+This version of Surface Data Eraser adds support for: 
+
+- Architecture re-design to reduce the need to update with new product releases
+- Notification available for new tool updates
+- Telemetry additions
+- Support to Windows 10 Pro and Enterprise on Surface Hub 2
+
 
 ### 3.30.139
 *Release Date: 11 May 2020*
