@@ -1,6 +1,7 @@
 ---
 title: Contact Surface Support
 description: Support information for Microsoft Surface products.
+ms.technology: windows
 ms.prod: surface
 ms.mktglfcycl: manage
 ms.sitesec: library
