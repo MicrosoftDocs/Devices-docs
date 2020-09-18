@@ -12,7 +12,7 @@ manager: laurawi
 ms.audience: itpro
 author: greg-lindsay
 ms.author: greglin
-ms.date: 09/16/2020
+ms.date: 09/18/2020
 ms.collection: M365-modern-desktop
 ms.topic: article
 ---
@@ -49,6 +49,7 @@ For more information about configuring the fingerprint reader to sign in using W
 | **System requirement**          | Windows 10 Pro, Windows 10 Enterprise.                                                                                               |
 | **Windows certification**       | Windows 10                                                                                                                           |
 | **False Acceptance Rate (FAR)** | 1/1.5 million. FAR shows the probability of a biometric security system to incorrectly accept access attempts by unauthorized users. |
+| **False Rejection Rate (FRR)** | 4.9%. FRR shows the probability of a biometric security system to incorrectly reject access attempts by authorized users. |
 
 
 > [!NOTE]
