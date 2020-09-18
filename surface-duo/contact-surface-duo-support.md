@@ -25,7 +25,7 @@ appliesto:
 > [!NOTE]
 > You will be required to log into the online submission portal using your Microsoft Account or Azure Active Directory Account.  
 
-For business customers: [Submit your service request](https://support.microsoft.com/supportforbusiness/productselection?sapid=027a1b03-3e0f-1766-fb9f-ab2d48228af9). 
+For business customers: [Submit your service request](https://support.microsoft.com/supportforbusiness/productselection). 
 
 For Microsoft Premier customers: [Submit your service request on Services Hub](https://serviceshub.microsoft.com/support/contactsupport). 
 
