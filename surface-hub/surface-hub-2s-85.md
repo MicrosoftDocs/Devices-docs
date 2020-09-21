@@ -1,5 +1,5 @@
 ---
-title: "Surface Hub 2S 85-inch"
+title: "Surface Hub 2S 85" "
 description: "This article introduces Surface Hub 2S 85-inch."
 keywords: Surface Hub 2S 85-inch, tech specs
 ms.prod: surface-hub
@@ -13,18 +13,18 @@ ms.date: 09/22/2020
 ms.localizationpriority: Medium
 ---
 
-# Surface Hub 2S 85-inch
+# Surface Hub 2S 85"
 
-The 85-inch version of the Surface Hub family brings the Surface Hub 2S experience to spaces requiring a larger screen such as conference rooms, board rooms, or larger huddle spaces. Available from January 2021, Surface Hub 2S 85” delivers the following experiences:
+The 85" version of the Surface Hub family brings the Surface Hub 2S experience to spaces requiring a larger screen such as conference rooms, board rooms, or larger huddle spaces. Available from January 2021, Surface Hub 2S 85” delivers the following experiences:
 
 - **Designed for group collaboration.** Invites simultaneous inking in Microsoft Whiteboard plus larger-than-life remote attendees in Microsoft Teams.
-- **Consistent Surface Hub 2S experience.** Provides the same premium design, 4K+ display technology, touch, pen/ink, compute cartridge, and camera support as Surface Hub 2S 50”.
+- **Consistent Surface Hub 2S experience.** Provides the same premium design, 4K display technology, touch, pen/ink, compute cartridge, and camera support as Surface Hub 2S 50”.
 - **Integration with existing and new A/V systems.** Combines with Microsoft Teams certified peripherals and integrates with Microsoft Teams Rooms.
 
 > [!NOTE]
 > *Surface Hub 2S coming in 2021; Pre-release products shown; products and features subject to regulatory certification/approval, may change, and may vary by country/region.*
 
-## Surface Hub 2S 85-inch tech specs
+## Surface Hub 2S 85" tech specs
 | Component    | Description                                                                                                                                                                                                                                         |
 | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Dimensions        | 44.5” x 62.8” x 3.4”<br>(1130mm x 1595mm x 85.6mm)                                                                                                                                                                                                        |
