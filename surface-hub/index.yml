@@ -28,7 +28,7 @@ landingContent:
     linkLists:
       - linkListType: whats-new
         links:
-          -text: Surface Hub 2S 85-inch
+          - text: Surface Hub 2S 85-inch
             url: surface-hub-2s-85.md
           - text: Announcing the availability of Windows 10 Pro and Enterprise on Surface Hub 2
             url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/announcing-the-availability-of-windows-10-pro-and-enterprise-on/ba-p/1624107            
