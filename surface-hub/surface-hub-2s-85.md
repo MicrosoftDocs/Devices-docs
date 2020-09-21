@@ -1,7 +1,7 @@
 ---
 title: "Surface Hub 2S 85-inch"
-description: "This article introduces Surface Hub 2S 85-inch and provides technical specs."
-keywords: Surface Hub 2S 85-inch
+description: "This article introduces Surface Hub 2S 85-inch."
+keywords: Surface Hub 2S 85-inch, tech specs
 ms.prod: surface-hub
 ms.sitesec: library
 author: greg-lindsay
@@ -9,7 +9,7 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 09/21/2020
+ms.date: 09/22/2020
 ms.localizationpriority: Medium
 ---
 
@@ -22,7 +22,7 @@ The 85-inch version of the Surface Hub family brings the Surface Hub 2S experien
 - **Integration with existing and new A/V systems.** Combines with Microsoft Teams certified peripherals and integrates with Microsoft Teams Rooms.
 
 > [!NOTE]
-> Surface Hub 2S coming in 2021; Pre-release products shown; products and features subject to regulatory certification/approval, may change, and may vary by country/region.
+> *Surface Hub 2S coming in 2021; Pre-release products shown; products and features subject to regulatory certification/approval, may change, and may vary by country/region.*
 
 ## Surface Hub 2S 85-inch tech specs
 
