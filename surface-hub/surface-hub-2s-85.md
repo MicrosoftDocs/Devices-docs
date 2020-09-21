@@ -15,7 +15,7 @@ ms.localizationpriority: Medium
 
 # Surface Hub 2S 85-inch
 
-The 85-inch version of the Surface Hub family brings the Surface Hub 2S experience to spaces requiring a larger screen such as conference rooms, board rooms, or larger huddle spaces. Available from January 2021, Surface Hub 2S 85” is built to enable the following experiences:
+The 85-inch version of the Surface Hub family brings the Surface Hub 2S experience to spaces requiring a larger screen such as conference rooms, board rooms, or larger huddle spaces. Available from January 2021, Surface Hub 2S 85” delivers the following experiences:
 
 - **Designed for group collaboration.** Invites simultaneous inking in Microsoft Whiteboard plus larger-than-life remote attendees in Microsoft Teams.
 - **Consistent Surface Hub 2S experience.** Provides the same premium design, 4K+ display technology, touch, pen/ink, compute cartridge, and camera support as Surface Hub 2S 50”.
