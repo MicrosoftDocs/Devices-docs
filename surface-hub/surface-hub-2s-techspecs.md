@@ -9,11 +9,11 @@ manager: laurawi
 ms.author: greglin
 audience: Admin
 ms.topic: article
-ms.date: 11/19/2019
+ms.date: 09/22/2020
 ms.localizationpriority: Medium
 ---
 
-# Surface Hub 2S tech specs
+# Surface Hub 2S 50-inch tech specs
 
 |**Item**|**Details**|
 |:------ |:--------- |
