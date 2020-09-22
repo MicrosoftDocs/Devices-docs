@@ -46,7 +46,6 @@ The 85" version of the Surface Hub family brings the Surface Hub 2S experience t
 | Warranty         | 1-year limited hardware warranty<sup>5</sup>                                                                                                                                                                                                                          |
 | What’s in the box | (1) Surface Hub 2S<br>(2) Surface Hub 2 Pen<br>(1) Surface Hub 2 Camera<br>4m AC Power Cable<br>Quick Start Guide                                                                                                                                         |
 
-
 ### References
 
 1. System software and updates use significant storage space. Available storage is subject to change based on system software and updates and apps usage. 1 GB = 1 billion bytes. 1 TB = 1,000 GB. See [Surface Storage](https://www.surface.com/storage) for more details.
@@ -54,3 +53,7 @@ The 85" version of the Surface Hub family brings the Surface Hub 2S experience t
 3. Migrating from Windows 10 Team to Windows 10 Pro or Enterprise is currently only available on Surface Hub 2S 50". Learn more at [Migrate to Windows 10 Pro or Enterprise on Surface Hub 2](https://docs.microsoft.com/surface-hub/surface-hub-2s-migrate-os).
 4. Doppler sensor not available in Hong Kong, India, Kuwait, and Oman.
 5. Microsoft's Limited Warranty is in addition to your consumer law rights. 
+
+## Learn more
+
+- [Surface Hub 2S 85" - Collaboration at a Massive Scale](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/surface-hub-2s-85-quot-collaboration-at-a-massive-scale/ba-p/1669717)
