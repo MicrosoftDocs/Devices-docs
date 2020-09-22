@@ -28,6 +28,8 @@ landingContent:
     linkLists:
       - linkListType: whats-new
         links:
+          - text: Surface Hub 2S 85-inch
+            url: surface-hub-2s-85.md
           - text: Announcing the availability of Windows 10 Pro and Enterprise on Surface Hub 2
             url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/announcing-the-availability-of-windows-10-pro-and-enterprise-on/ba-p/1624107            
           - text: Migrate to Windows 10 Pro or Enterprise on Surface Hub 2
@@ -36,8 +38,6 @@ landingContent:
             url: surface-hub-install-2020preview.md
           - text: Install and configure the new Microsoft Edge on Surface Hub
             url: surface-hub-install-chromium-edge.md
-          - text: Surface Hub Update History  
-            url: surface-hub-update-history.md
           - text: Essential add-ons for Windows 10 Pro and Enterprise on Surface Hub 2
             url: surface-hub-2-essential-add-ons.md
       - linkListType: video
@@ -47,8 +47,8 @@ landingContent:
             url: surface-hub-2s-adoption-videos.md
           - text: Surface Hub 2S with Teams
             url: https://www.youtube.com/watch?v=CH2seLS5Wb0
-          - text: Surface Hub 2S with Microsoft 365
-            url: https://www.youtube.com/watch?v=I4N2lQX4WyI&list=PLXtHYVsvn_b__1Baibdu4elN4SoF3JTBZ&index=7
+          - text: Microsoft Surface Hub 2S IT pro deep dive
+            url: https://youtu.be/fFiL60JztGk
 
   # Card (optional)
   - title: Get started
@@ -104,6 +104,8 @@ landingContent:
             text: Surface Hub support solutions
           - url: miracast-troubleshooting.md
             text: Troubleshoot Miracast on Surface Hub
+          - text: Surface Hub Update History  
+            url: surface-hub-update-history.md
 
 
   # Card (optional)
