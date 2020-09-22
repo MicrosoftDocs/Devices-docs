@@ -14,11 +14,12 @@ author: greg-lindsay
 ms.author: greglin
 ms.collection: M365-modern-desktop
 ms.topic: article
+ms.date: 09/22/2020
+appliesto:
+- Surface Hub 2S
 ---
 
 # Configure Windows 10 Pro or Enterprise on Surface Hub 2
-
-**Applies to: Surface Hub 2S** 
 
 After you have completed the installation process of migrating to Windows 10 Pro or Enterprise, you can perform the following steps to configure apps and settings on your Surface Hub 2. These steps are recommended to ensure the best experience when using this personalized large screen touch and pen computer.
 
