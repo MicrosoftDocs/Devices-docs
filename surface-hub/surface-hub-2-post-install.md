@@ -14,11 +14,12 @@ author: greg-lindsay
 ms.author: greglin
 ms.collection: M365-modern-desktop
 ms.topic: article
+ms.date: 09/22/2020
+appliesto:
+- Surface Hub 2S
 ---
 
 # Configure Windows 10 Pro or Enterprise on Surface Hub 2
-
-**Applies to: Surface Hub 2S** 
 
 After you have completed the installation process of migrating to Windows 10 Pro or Enterprise, you can perform the following steps to configure apps and settings on your Surface Hub 2. These steps are recommended to ensure the best experience when using this personalized large screen touch and pen computer.
 
@@ -246,9 +247,9 @@ Download and install the new [Edge Chromium browser](https://www.microsoft.com/e
 
 1. Select **Start** > **Settings** > **System** > **Power & sleep**.
 2. Set the power mode slider to **Best performance**.
-3. Configure screen and sleep values to your preference.
-
-### Screen saver
+3. Configure screen and sleep values to your preference while also accounting for Doppler presence detection that wakes up the device when movement is detected. Accordingly, as a best practice, 
+it's recommended to set Screen to **Turn off after 2 hours** and the PC to **Turn off after 4 hours.**
+### Screen saver.
 
 1. Search for **Lock Screen** and open **Lock screen settings**.
 2. Configure **Screen timeout settings** and **Screen saver settings** to your preference.
@@ -319,12 +320,11 @@ Turn on Tablet mode if desired for accessibility needs.
 6. Verify projecting to this PC is enabled with the Connect App (the application does not need to be running before connecting).
 7. Verify power and sleep settings.
     - Screen Saver: 15 minutes, set to (none), Mystify or Blank; check box for requiring password is checked
-    - Screen: 2 hours
-    - PC: 4 hours
+    - Screen: **Turn off after 2 hours.**
+    - PC:  **Turn off after 4 hours.**
 8. Verify Windows Hello is working.
-9. Verify power settings.
-10. Verify sync your settings is disabled.
-11. Verify startup apps.
+9. Verify sync your settings is disabled.
+10. Verify startup apps.
 
 > [!TIP]
 > After installing and configuring Windows 10, the Surface Hub 2S can be managed just like any other Windows 10 device.
