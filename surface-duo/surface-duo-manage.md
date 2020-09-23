@@ -8,7 +8,7 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 8/12/2020
+ms.date: 9/23/2020
 ms.reviewer: karand
 manager: laurawi
 ms.audience: itpro
@@ -45,6 +45,7 @@ The primary means of managing devices in Intune, profiles provide default settin
 
  
 ## Learn more
+- [Ignite Session: Deploy, Manage, and Enable Productivity with Surface Duo in the Enterprise](https://youtu.be/DOsBMNFmdfw)
 - [Manage devices with Microsoft Intune](https://docs.microsoft.com/mem/intune/remote-actions/device-management)
 - [Intune deployment planning, design, and implementation guide](https://docs.microsoft.com/mem/intune/fundamentals/planning-guide)
 - [Enroll Android devices with Intune](https://docs.microsoft.com/mem/intune/enrollment/android-enroll)
