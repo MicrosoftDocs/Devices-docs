@@ -43,6 +43,18 @@ landingContent:
          - text: What’s new in Surface Dock 2
            url: surface-dock-whats-new.md    
  
+   # Card (optional)
+  - title: Microsoft Ignite
+    linkLists:
+      - linkListType: video
+        links:
+         - text: Zero Touch Deployment with Surface & AutoPilot
+           url: https://youtu.be/WQ-wg8fRzN0
+         - text: Surface Pro X and Windows on ARM in a remote world
+           url: https://youtu.be/bDw77ZQNPPw
+         - text: Surface Security – Chip to Cloud Modern Endpoint Protection from Microsoft
+           url: https://youtu.be/uadAecDbqf4
+ 
   # Card
   - title: Deploy Surface devices
     linkLists:
