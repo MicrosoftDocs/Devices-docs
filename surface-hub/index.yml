@@ -39,20 +39,6 @@ landingContent:
           - text: Install Windows 10 Team 2020 Update Preview Build
             url: surface-hub-install-2020preview.md
 
-  # Card
-  - title: See Surface Hub in action
-    linkLists:
-      - linkListType: video  
-        links:
-          - text: Surface Hub – The Future of Collaboration from Anywhere
-            url: https://youtu.be/pv6GhJfunaQ
-          - text: Adoption and training videos
-            url: surface-hub-2s-adoption-videos.md
-          - text: Surface Hub 2S with Teams
-            url: https://www.youtube.com/watch?v=CH2seLS5Wb0
-          - text: Microsoft Surface Hub 2S IT pro deep dive
-            url: https://youtu.be/fFiL60JztGk
-
   # Card (optional)
   - title: Get started
     linkLists:
@@ -66,6 +52,20 @@ landingContent:
             url: surface-hub-2s-site-readiness-guide.md
           - text: Enable Microsoft Whiteboard on Surface Hub
             url: https://support.office.com/article/Enable-Microsoft-Whiteboard-on-Surface-Hub-b5df4539-f735-42ff-b22a-0f5e21be7627
+
+      # Card
+  - title: See Surface Hub in action
+    linkLists:
+      - linkListType: video  
+        links:
+          - text: Surface Hub – The Future of Collaboration from Anywhere
+            url: https://youtu.be/pv6GhJfunaQ
+          - text: Adoption and training videos
+            url: surface-hub-2s-adoption-videos.md
+          - text: Surface Hub 2S with Teams
+            url: https://www.youtube.com/watch?v=CH2seLS5Wb0
+          - text: Microsoft Surface Hub 2S IT pro deep dive
+            url: https://youtu.be/fFiL60JztGk        
 
       - linkListType: deploy
         links:
