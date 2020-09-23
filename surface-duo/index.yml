@@ -67,7 +67,11 @@ landingContent:
             url: https://docs.microsoft.com/mem/intune/apps/app-configuration-policies-use-android
           - text: Manage devices with Microsoft Intune
             url: https://docs.microsoft.com/mem/intune/remote-actions/device-management
-
+      - linkListType: video
+             
+        links:
+          - text: Deploy, Manage, and Enable Productivity with Surface Duo in the Enterprise
+            url: https://youtu.be/DOsBMNFmdfw
   # Card
   - title: Explore security guidance
     linkLists:
