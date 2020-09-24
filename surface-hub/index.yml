@@ -116,7 +116,7 @@ landingContent:
     linkLists: 
       - linkListType: reference
         links:
-          - url: https://support.microsoft.com/supportforbusiness/productselection?sapId=bb7066fb-e329-c1c0-9c13-8e9949c6a64e
+          - url: https://support.serviceshub.microsoft.com/supportforbusiness/create?sapId=bb7066fb-e329-c1c0-9c13-8e9949c6a64e
             text: Get support
           - url: https://www.microsoft.com/surface/business/warranty-service-offerings-and-support
             text: Surface Hub warranty and extended service plans
