@@ -9,7 +9,7 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 09/22/2020
+ms.date: 09/25/2020
 ms.localizationpriority: Medium
 ---
 
@@ -30,7 +30,7 @@ The 85" version of the Surface Hub family brings the Surface Hub 2S experience t
 
 | Component    | Description                                                                                                                                                                                                                                         |
 | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Dimensions        | 44.5” x 62.8” x 3.4”<br>(1130mm x 1595mm x 85.6mm)                                                                                                                                                                                                        |
+| Dimensions        | 44.5” x 77.1” x 3.4”<br>(1130mm x 1959mm x 85.6mm)                                                                                                                                                                                                        |
 | Weight            | 185 lb. (84kg)                                                                                                                                                                                                                                            |
 | Resolution        | 3840 x 2160                                                                                                                                                                                                                                               |
 | Display           | PixelSense™ Display, 16:9 aspect ratio, 10-bit color, 30.5mm border width, anti-glare, IPS LCD, in-cell touch with 20 simultaneous touch points                                                                                                           |
