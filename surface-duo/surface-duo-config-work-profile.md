@@ -1,6 +1,6 @@
 ---
 title: Configure Android Enterprise Work Profile for Surface Duo
-description: This article explains setup of work profile on Surface Duo.
+description: This article explains how to set up work profile on Surface Duo.
 ms.technology: windows
 ms.prod: surface
 ms.mktglfcycl: manage
@@ -8,7 +8,7 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 9/10/2020
+ms.date: 9/25/2020
 ms.reviewer: karand
 manager: laurawi
 ms.audience: itpro
@@ -21,7 +21,7 @@ appliesto:
 
 Targeted at  BYOD deployments, work profiles provide a separate space on Duo for work apps and data, giving organizations full control of their data, apps, and security policies without preventing employees from using their device for personal apps and data.
 
-### Setup Android Enterprise Work Profile
+### Set up Android Enterprise Work Profile
 
 Use work profiles to manage corporate data and apps on user-owned Android devices. By default, enrollment of personally owned work profile devices is enabled and requires no further admin configuration.  
 
