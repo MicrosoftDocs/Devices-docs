@@ -21,10 +21,13 @@ Surface Hub 2S allows IT administrators to manage settings and policies using a 
 
 ### Manual registration
 
-1. Sign in as a local administrator on Surface Hub 2S and open the **Settings** app. Select **Surface Hub** > **Device management** and then select **+** to add.
-2. After authenticating, the device will automatically register with Intune.
+1. Open the **Settings** app on the Surface Hub 2S and sign in as a local administrator. Select **Surface Hub** > **Device management** and then select **+** to add.
+2. You will be prompted to login with the account to use for Intune. After authenticating, the device will automatically register with Intune.
 
    ![Register Surface Hub 2S with Intune](images/sh2-set-intune1.png)<br>
+   
+> [!NOTE]
+> The account used for authentication will be the Intune enrollment account, and must be licensed for Intune.
 
 ### Auto registration — Azure Active Directory Affiliated
 
