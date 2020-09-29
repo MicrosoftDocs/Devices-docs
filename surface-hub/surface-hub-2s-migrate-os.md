@@ -9,7 +9,7 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 09/28/2020
+ms.date: 09/29/2020
 ms.localizationpriority: Medium
 ---
 # Migrate to Windows 10 Pro or Enterprise on Surface Hub 2
@@ -70,6 +70,7 @@ The minimum UEFI version required prior to migrating the Surface Hub from Window
 3. If the UEFI version is earlier than version **694.2938.768.0**, you will need to obtain a current version using Windows Update.
 
 **To update UEFI from Windows Update:**
+
 1. On your Surface Hub 2S, sign in as an **Admin**, go to **All apps** > **Settings**> **Update and Security** > **Windows Update** and install all updates, then restart the device. Verify the UEFI version using the Surface App. Note: If you do not know your username or admin password, you will need to reset the device. To learn more, see [Reset and recovery for Surface Hub 2S](https://docs.microsoft.com/surface-hub/surface-hub-2s-recover-reset).
 
 2. Repeat these steps until the UEFI version is **694.2938.768.0** or later.
@@ -180,7 +181,6 @@ You can install a Windows 10 Pro or Enterprise image (version 1903 or later) usi
 
 - USB flash drive with Windows 10 Pro or Enterprise image, followed by installing  [Drivers and Firmware for Windows 10 Pro and Enterprise on Surface Hub 2](https://www.microsoft.com/download/details.aspx?id=101974).
  
-
 This procedure describes creating a USB flash drive from installation media and then adding the SEMM package files and Drivers and Firmware for Windows 10 Pro and Enterprise on Surface Hub 2 .MSI file. If you’re using other deployment methods, proceed to the following section: [Update UEFI on Surface Hub 2S to enable OS migration](#update-uefi-on-surface-hub-2s-to-enable-os-migration).
 
 > [!NOTE]
@@ -278,6 +278,6 @@ If you would Like to restore your device to Windows 10 Team, refer to [Reset and
 
 | Version | Date               | Description                                                                                           |
 | ------- | ------------------ | ----------------------------------------------------------------------------------------------------- |
-| v. 1.2  | September 28, 2020 | Miscellaneous updates per usability feedback.                                                        |
+| v. 1.2  | September 29, 2020 | Miscellaneous updates per usability feedback.                                                        |
 | v. 1.1  | September 15, 2020 | Placed additional note in the Introduction clarifying licensing requirements for installing a new OS. |
 | v. 1.0  | September 1, 2020  | New article.                                                                                           |
