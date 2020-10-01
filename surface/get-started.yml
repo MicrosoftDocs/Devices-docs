@@ -22,12 +22,12 @@ landingContent:
   # Card (optional)
   - title: Surface devices
     linkLists:
-      - linkListType: overview
+      - linkListType: whats-new
         links:
-          - text: Surface Go 2 for Business 
-            url: https://www.microsoft.com/surface/business/surface-go-2
-          - text: Surface Book 3 for Business
-            url: https://www.microsoft.com/surface/business/surface-book-3
+          - text: Surface Laptop Go  for Business 
+            url: https://www.microsoft.com/surface/business/surface-laptop-go
+          - text: Surface Pro X for Business
+            url: https://www.microsoft.com/surface/business/surface-pro-x
           - text: Explore all Surface family products
             url: https://www.microsoft.com/surface/business
   
