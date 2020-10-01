@@ -14,7 +14,7 @@ author: greg-lindsay
 ms.author: greglin
 ms.collection: M365-modern-desktop
 ms.topic: article
-ms.date: 09/22/2020
+ms.date: 10/01/2020
 appliesto:
 - Surface Hub 2S
 ---
@@ -98,9 +98,11 @@ To sync internal corporate files to your local drive with the OneDrive sync app:
     1. Navigate to the Teams Channel of interest and select on the **Files** tab at the top. Then select **Sync**. The files will start synchronizing and will be visible in File Explorer at **Desktop \ Microsoft \ \<name of the Teams Channel\>**.
     2. Use the same procedure that you used for synchronizing SharePoint sites to keep the files in the cloud and only download them when you use them, by tap and hold or right-click in File Explorer on the Teams Channel name, and then selecting **Free up space**.
 
-## Pair the Surface Hub pen
+## Surface Hub pen settings
 
-To pair the pen device:
+**Pair the Bluetooth Surface Hub Pen**
+
+Pair the pen to keep the pen firmware up to date and get battery charge information on the Bluetooth device settings page, or in the Surface app:
 
 1. Select **Start** > **Settings** > **Devices**.
 2. Select **Add Bluetooth or other device**.
@@ -121,7 +123,7 @@ For more information on how to side-mount the camera and rotate the camera manua
 
 Surface Hub 2S running Windows 10 Enterprise allows the full suite of Win32 desktop applications as well as biometric Windows Hello options. The Surface Hub 2 Fingerprint Reader accessory can be plugged into any USB-C port on the device. 
 
-> <i>The Surface Hub 2 Fingerprint Reader will be available for purchase soon. Please check back on this page for more information including how to purchase.</i>
+To order a Surface Hub 2 Fingerprint Reader or view technical specs, see [Essential add-ons for Windows 10 Pro and Enterprise on Surface Hub 2](surface-hub-2-essential-add-ons.md). 
 
 After inserting the fingerprint reader, select **Start** > **Settings** > **Accounts** > **Sign-in options** > **Windows Hello Fingerprint** to enroll your fingerprint.
 
@@ -146,6 +148,8 @@ To add an icon to the taskbar that enables one-touch screen lock similar to the 
 1.	Select **OK** to save the shortcut.
 
 1.	Right-click or tap and hold the shortcut and select **Pin to taskbar**.
+
+1. After you have pinned the lock shortcut to the taskbar, you can delete it from the desktop.
 
 ## Applications
 
@@ -243,13 +247,20 @@ Download and install the new [Edge Chromium browser](https://www.microsoft.com/e
 1. Search for **Pen** and select **Pen & Windows Ink settings**.
 2. Near the bottom of the page, under **Pen shortcuts** set **Select once** to **Microsoft Whiteboard**. 
 
-### Power and sleep settings
+### Power management
+
+There are several power settings available to get the best experience using Windows 10 Pro or Enterprise on Surface Hub 2. This includes screen and pc timeouts and how they interact with the built-in human presence detection (Doppler), the screen saver and password protection, and then if appropriate how to by-pass group policy power settings intended for laptop / desktop users.
+
+Windows 10 Pro or Enterprise on Surface Hub 2 keeps the screen from going to sleep by touch, mouse, and keyboard actions, as well as the built-in human occupancy detection (Doppler). Human occupancy detection is enabled by default, but if desired it can be disabled in UEFI by toggling the device option in the Surface UEFI Configurator tool either as part of the initial migration, or by building and applying a later UEFI configuration package. 
+
+**Power Management: Screen and PC sleep settings**
 
 1. Select **Start** > **Settings** > **System** > **Power & sleep**.
 2. Set the power mode slider to **Best performance**.
 3. Configure screen and sleep values to your preference while also accounting for Doppler presence detection that wakes up the device when movement is detected. Accordingly, as a best practice, 
 it's recommended to set Screen to **Turn off after 2 hours** and the PC to **Turn off after 4 hours.**
-### Screen saver.
+
+**Power Management: Screen saver**
 
 1. Search for **Lock Screen** and open **Lock screen settings**.
 2. Configure **Screen timeout settings** and **Screen saver settings** to your preference.

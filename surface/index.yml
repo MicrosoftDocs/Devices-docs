@@ -43,12 +43,12 @@ conceptualContent:
     # Card 1
     - title: Surface overview
       links:
-        - url: https://www.microsoft.com/surface/business/surface-go-2
+        - url: https://www.microsoft.com/surface/business/surface-laptop-go
           itemType: concept
-          text: Surface Go 2 for Business
-        - url: https://www.microsoft.com/surface/business/surface-book-3
+          text: Surface Laptop Go for Business
+        - url: https://www.microsoft.com/surface/business/surface-pro-x
           itemType: concept
-          text: Surface Book 3 for Business
+          text: Surface Pro X for Business
         - url: https://www.microsoft.com/surface/business
           itemType: concept
           text: Explore all Surface family products
