@@ -8,7 +8,7 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 4/15/2020
+ms.date: 10/01/2020
 ms.reviewer: jessko
 manager: laurawi
 ms.audience: itpro
@@ -86,9 +86,8 @@ Most apps run on ARM-based Windows 10 PCs with limited exclusions.
 - Native ARM64 and Microsoft Store UWP apps provide an excellent user experience utilizing the full native speed of the ARM-based processor while optimizing battery life.
 - Apps that use drivers designed for a Windows 10 PC running on an ARM-based processor.
 
-### Not supported
-
-- x64 apps won't run on a Windows 10 PC on an ARM-based processor.
+> [!NOTE]
+> With 64-bit emulation coming soon in Preview via the Windows Insider program, you'll be able to run 64-bit (x64) apps on Surface Pro X.
 
 For more information about running apps on Surface Pro X, refer to:
 
