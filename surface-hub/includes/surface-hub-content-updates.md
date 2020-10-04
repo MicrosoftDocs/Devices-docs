@@ -65,3 +65,13 @@
 | 9/25/2020 | [Surface Hub 2S 85-inch](/surface-hub/surface-hub-2s-85) | modified |
 | 9/25/2020 | [Manage Surface Hub 2S with Intune](/surface-hub/surface-hub-2s-manage-intune) | modified |
 | 9/25/2020 | [Surface Hub update history](/surface-hub/surface-hub-update-history) | modified |
+
+
+## Week of September 28, 2020
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 9/28/2020 | [Surface Hub documentation # < 60 chars](/surface-hub/index) | modified |
+| 9/29/2020 | [Migrate to Windows 10 Pro or Enterprise on Surface Hub 2](/surface-hub/surface-hub-2s-migrate-os) | modified |
+| 10/1/2020 | [Configure Windows 10 Pro or Enterprise on Surface Hub 2](/surface-hub/surface-hub-2-post-install) | modified |
