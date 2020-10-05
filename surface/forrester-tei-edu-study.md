@@ -13,7 +13,7 @@ ms.reviewer: rarroyo
 manager: laurawi
 audience: itpro
 ---
-# The Total Economic Impact Of Microsoft Surface For Education
+# The Total Economic Impact of Microsoft Surface for Education
 
 Access to individual computing devices is critical for the education of K-12 students. Benefits of this access include better instruction, enhanced creativity and collaboration, fulfillment of accessibility and special learning requirements, and teaching workplace technology skill sets. Microsoft Surface devices create better outcomes for students, while also making it easier for IT organizations to support 1:1 student device models as well as freeing up teachers’ and administrators’ time.
 
