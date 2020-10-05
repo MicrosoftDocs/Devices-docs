@@ -34,7 +34,7 @@ If you are still having a problem after running the toolkit, use the tabs below 
 > [!NOTE]
 > You will be required to log into the online submission portal using your Microsoft Account or Azure Active Directory Account.  
 
-For business customers: [Submit your service request](https://support.microsoft.com/supportforbusiness/productselection). 
+For business customers: [Submit your service request](https://support.serviceshub.microsoft.com/supportforbusiness/create?sapId=d383b26c-f150-6220-8f1b-e8aa325d9727). 
 
 For Microsoft Premier customers: [Submit your service request on Services Hub](https://serviceshub.microsoft.com/support/contactsupport). 
 
