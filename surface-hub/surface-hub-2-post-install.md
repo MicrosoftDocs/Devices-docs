@@ -51,7 +51,7 @@ When performing these steps, you might find it useful to use a wired or wireless
      ![Keyboard settings](images/kbd.png)
 
 3. Configure the soft keyboard settings.
-![soft keyboard settings](images/sh2-softkeyboardsh2-softkeyboard.png)
+![soft keyboard settings](images/sh2-softkeyboard.png)
     1. Select the **Settings** icon on the touch keyboard or search for and open **Typing settings** .
     2. Enable all the options under Spelling, Typing, and Touch keyboard.
 
@@ -118,7 +118,7 @@ Pair the pen to keep the pen firmware up to date and get battery charge informat
 The Surface Hub pen has a shortcut button sometimes referred to as a "tail click". Configuring shortcuts requires you to first pair the pen, as described earlier.
 1. Search for Pen and select **Pen & Windows Ink settings**.
 2. Near the bottom of the page, select Pen shortcuts which opens the dialog box, shown here:
-![Pen shortcuts](images/sh2-pen-shortcuts.png.)
+![Pen shortcuts](images/sh2-pen-shortcuts.png)
 
 ## Camera configuration
 
