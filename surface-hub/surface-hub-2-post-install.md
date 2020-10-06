@@ -14,7 +14,7 @@ author: greg-lindsay
 ms.author: greglin
 ms.collection: M365-modern-desktop
 ms.topic: article
-ms.date: 10/01/2020
+ms.date: 10/06/2020
 appliesto:
 - Surface Hub 2S
 ---
@@ -44,14 +44,15 @@ When performing these steps, you might find it useful to use a wired or wireless
      ![Touch settings](images/touch.png)
 
 2. Configure the touch keyboard to QWERTY and floating.
-    1. Select the keyboard icon on the taskbar to show the touch keyboard.
+    1. Select the **Keyboard** icon on the taskbar to show the touch keyboard.
     2. On the touch keyboard, select the keyboard icon in the upper left corner to open keyboard settings.
     3. Select the next to last keyboard type on the top row to enable QWERTY, and the last option on the second row to enable floating, which is very helpful on this large screen. See the following examples.
 
      ![Keyboard settings](images/kbd.png)
 
 3. Configure the soft keyboard settings.
-    1. Search for and open **Typing settings** 
+![soft keyboard settings](images/sh2-softkeyboardsh2-softkeyboard.png)
+    1. Select the **Settings** icon on the touch keyboard or search for and open **Typing settings** .
     2. Enable all the options under Spelling, Typing, and Touch keyboard.
 
 
@@ -95,7 +96,7 @@ To sync internal corporate files to your local drive with the OneDrive sync app:
     3. Select **Free up space**.
     4. The Status column will display the status of files and folders. For more information, see [Sync SharePoint files with the OneDrive sync client](https://support.microsoft.com/office/sync-sharepoint-files-with-the-onedrive-sync-client-groove-exe-59b1de2b-519e-4d3a-8f45-51647cf291cd).
 6. Teams Channel files are stored in SharePoint sites, with all of the same SharePoint document functionality, including version history and synchronizing to your local desktop devices. To sync Teams Channel files:
-    1. Navigate to the Teams Channel of interest and select on the **Files** tab at the top. Then select **Sync**. The files will start synchronizing and will be visible in File Explorer at **Desktop \ Microsoft \ \<name of the Teams Channel\>**.
+    1. Navigate to the Teams Channel of interest and select the **Files** tab at the top. Then select **Sync**. The files will start synchronizing and will be visible in File Explorer at **Desktop \ Microsoft \ \<name of the Teams Channel\>**.
     2. Use the same procedure that you used for synchronizing SharePoint sites to keep the files in the cloud and only download them when you use them, by tap and hold or right-click in File Explorer on the Teams Channel name, and then selecting **Free up space**.
 
 ## Surface Hub pen settings
@@ -112,6 +113,12 @@ Pair the pen to keep the pen firmware up to date and get battery charge informat
 6. On the Surface Hub Bluetooth settings, choose **Surface Hub 2 Pen**.
 7. Complete the pairing operation. 
 8. If the pairing is not successful, attempt to pair the pen again. If necessary, reboot the device and then try again.
+
+**Set pen shortcuts**
+The Surface Hub pen has a shortcut button sometimes referred to as a "tail click". Configuring shortcuts requires you to first pair the pen, as described earlier.
+1. Search for Pen and select **Pen & Windows Ink settings**.
+2. Near the bottom of the page, select Pen shortcuts which opens the dialog box, shown here:
+![Pen shortcuts](images/sh2-pen-shortcuts.png.)
 
 ## Camera configuration
 
@@ -208,15 +215,20 @@ Alternatively, you can install Whiteboard from the Microsoft Store:
 ### Connect app
 
 > [!IMPORTANT]
-> In Windows 10, version 2004 and later, the Connect app for wireless projection using Miracast is not installed by default, but is available as an optional feature. To install the app, select on **Settings** > **Apps** > **Optional features** > **Add a feature** and then install the **Wireless Display** app.
+> In Windows 10, version 2004 and later, the Connect app for wireless projection using Miracast is not installed by default, but is available as an optional feature. If you have installed (or updated to) Windows version 2004 or later, you may see the following on the Projecting to this PC screen in settings:
 
-1. Search for **Connect**.
-2. Open the app and then close it (**Project to this PC** might not work unless the app has been run at least once).
-3. Tap and hold or right-click to pin to taskbar.
-4. Search for **Projection settings**.
-5. Under **Some Windows and Android devices can project to this PC when you say it's OK**, choose **Available everywhere** if the device is not on a corporate network. Otherwise, you can choose **Available everywhere on secure networks**.
-6. Under **Ask to project to this PC**, choose **First time only**.
-7. Under **Require PIN for pairing**, choose **Never**.
+   ![Project to this PC](images/sh2-project.png) 
+
+
+1. To install the app from the “Projecting to this PC” settings page, select **Optional features** > **Add a feature** and then install the **Wireless Display** app.
+2. Under **Some Windows and Android devices can project to this PC when you say it's OK**, choose
+    - **Available everywhere** if the device is not on a corporate network.
+    - Otherwise, choose **Available everywhere on secure networks**.
+3. Under **Ask to project to this PC**, choose **First time only**.
+4. Under **Require PIN for pairing**, choose **Never**.
+5. To then launch the app and pin it to the taskbar, search for **Connect.**
+6. Open the app. While the app is open, right-click on the Connect app icon on the taskbar, and select **pin to taskbar**.
+7. Then close the Connect app. **Project to this PC** might not work unless the app has been run at least once.
 
 Recommended configuration when not on the corporate network:
 
@@ -263,7 +275,19 @@ it's recommended to set Screen to **Turn off after 2 hours** and the PC to **Tur
 **Power Management: Screen saver**
 
 1. Search for **Lock Screen** and open **Lock screen settings**.
-2. Configure **Screen timeout settings** and **Screen saver settings** to your preference.
+2. Configure **Screen timeout settings** and **Screen saver settings** to your preference. Recommended default values are:
+ - Screen saver to (None) or a screen saver of your choice.
+ - Wait” time to 15 minutes.
+ - On resume, display logon screen.
+
+
+**Power Management: Group Policy**
+
+Before performing the following procedure, check with your IT department for approval to exclude a Surface Hub 2S device from global power management policy. Some power management settings can disable the presence detection function.
+1. Search for **Software Center** and open it.
+2. Select **Options**.
+3. Expand the **Power management**  and select **Do not apply power settings from my IT department to this computer**.
+![Software settings](images/soft-cntr.png)
 
 ### Storage Sense
 
@@ -284,16 +308,6 @@ Recommended settings:
 
 Turn on Tablet mode if desired for accessibility needs.
 
-### Power management
-
-> [!NOTE]
-> Before performing the following procedure, check with your IT department for approval to exclude a Surface Hub 2S device from global power management policy. Some power management settings can disable the presence detection function.
-
-1. Search for **Software Center** and open it.
-2. Select **Options** in the navigation pane.
-3. Expand the **Power management** section and select **Do not apply power settings from my IT department to this computer**.
-
-   ![Software settings](images/soft-cntr.png)
 
 ### Sound settings
 
