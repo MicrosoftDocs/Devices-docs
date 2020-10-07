@@ -109,7 +109,7 @@ Once the Windows 10 Team Anniversary Update is installed, you can remove these a
 
 ## Maintenance window
 
-To ensure the device is always available for use during business hours, Surface Hub performs its administrative functions during a specified maintenance window. During the maintenance window, the Surface Hub automatically installs updates through Windows Update or WSUS, and reboots the device if needed.
+To ensure the device is always available for use during business hours, Surface Hub performs its administrative functions during a specified maintenance window. During the maintenance window, the Surface Hub automatically installs updates through Windows Update or WSUS, and reboots the device 20 minutes before the end of the window.
 
 Surface Hub follows these guidelines to apply updates:
 - Install the update during the next maintenance window. If a meeting is scheduled to start during a maintenance window, or the Surface Hub sensors detect that the device is being used, the pending update will be postponed to the following maintenance window.
@@ -121,8 +121,8 @@ Surface Hub follows these guidelines to apply updates:
 > Allow time for updates when you first setup your Surface Hub. For example, a backlog of virus definitions may be available, which should be immediately installed.
 
 A default maintenance window is set for all new Surface Hubs:
--   **Start time:** 3:00 AM
--   **Duration:** 1 hour
+-   **Start time:** 2:00 AM
+-   **Duration:** 2 hours
 
 **To manually change the maintenance window:**
 1.  Open **Settings** on your Surface Hub.
