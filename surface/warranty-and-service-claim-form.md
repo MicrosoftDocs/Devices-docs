@@ -31,8 +31,8 @@ Use the Warranty and Service Claim form when you have to submit a hardware warra
     - Product
     - Product Version
     - Serial Number 
-    > [!note]
-    > For information about how to locate the serial for your product, see [Find the serial number on Surface devices](https://support.microsoft.com/help/4036293/surface-find-the-serial-number-on-surface).
+        > [!note]
+        > For information about how to locate the serial for your product, see [Find the serial number on Surface devices](https://support.microsoft.com/help/4036293/surface-find-the-serial-number-on-surface).
 
        - **Surface Hub 1**
          - From the Surface Hub Operating System, go to: **Start Icon** > **Settings** > **System** > **About**. 
@@ -40,7 +40,7 @@ Use the Warranty and Service Claim form when you have to submit a hardware warra
 
        - **Surface Hub 2**
          - From the Surface Hub 2 Operating System, go to: **Start Icon** > **Settings** > **System** > **About**. Select the **Surface** app, and then select **Your Surface**.
-         - The serial number label is located on the bracket where the power cord connects to the device. 
+         - The serial number label is located on the bracket where the power cord connects to the device.
        - **HoloLens 2**
          - From the HoloLens 2 Operating System, go to **Start Menu** > **Settings** > **System** > **About**.
          - The serial number is located by flipping up the visor directly under the hinge.
