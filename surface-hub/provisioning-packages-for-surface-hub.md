@@ -215,7 +215,7 @@ Surface Hub supports a subset of the policies in the [Policy configuration servi
 
 You can add settings from the [SurfaceHub configuration service provider](https://msdn.microsoft.com/library/windows/hardware/mt608323.aspx) to your provisioning package. 
 
-1. In the **Available customizations** pane, go to **Runtime settings** > **WindowsTeamSettings**.
+1. In the **Available customizations** pane, go to **Runtime settings** > **SurfaceHub**.
 
 2. Select one of the available setting areas.
 
