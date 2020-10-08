@@ -101,6 +101,7 @@ The SEMM package created by using the Surface UEFI Configurator tool must be sec
 ### Create SEMM package
 
 1. Install the **Surface UEFI Configurator** tool downloaded earlier to a separate PC. 
+
 2. Open **Surface UEFI Configurator** and select **Start**.
 
    ![Open Surface UEFI Configurator](images/shm-fig2.png)
@@ -131,14 +132,14 @@ The SEMM package created by using the Surface UEFI Configurator tool must be sec
    
 9. Set a **UEFI password** and select **OK**.
 
- > [!IMPORTANT]
+   > [!IMPORTANT]
    > Save the password in a secure location accessible to IT admins in your organization responsible for managing Surface Hubs. If the password is lost, there is no recovery process. 
 
    ![Enter your UEFI password](images/shm-fig9.png)
 
-10. Select **Surface Hub 2S** and then select **Next**.
+10. Select **Surface Hub 2S**, and then select **Next**.
 
-   ![Select Surface Hub 2S](images/shm-fig10.png)
+    ![Select Surface Hub 2S](images/shm-fig10.png)
    
 11. Select **Next**.
 
@@ -207,10 +208,12 @@ This procedure describes creating a USB flash drive from installation media and 
 6. Copy the SEMM package files and Drivers and Firmware for Windows 10 Pro and Enterprise on Surface Hub 2 (.MSI file) to the ROOT of the USB flash drive (**BOOTME**) containing your Windows 10 image. BOOTME USB drive contains:
 
     - Your Windows 10 bootable image
+    
     - SEMM package files (copied to the root of the USB drive)
-        - DfciUpdate.dfi
-        - Text file with the SEMM thumbprint. (In this example: SurfaceUEFI_2020Aug25_1058.txt. The auto-generated date timestamp corresponds to the date that you created the file using Surface UEFI Configurator.)
-        - Drivers and Firmware for Windows 10 Pro and Enterprise on Surface Hub 2 (SurfaceHub2S_Win10_18362_20.082.25682.0.msi)
+    
+      - DfciUpdate.dfi
+      - Text file with the SEMM thumbprint. (In this example: SurfaceUEFI_2020Aug25_1058.txt. The auto-generated date timestamp corresponds to the date that you created the file using Surface UEFI Configurator.)
+      - Drivers and Firmware for Windows 10 Pro and Enterprise on Surface Hub 2 (SurfaceHub2S_Win10_18362_20.082.25682.0.msi)
 
 ### Update UEFI on Surface Hub 2S to enable OS migration
 
