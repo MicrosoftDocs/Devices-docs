@@ -122,6 +122,7 @@ Pair the pen to keep the pen firmware up to date and get battery charge informat
 The Surface Hub pen has a shortcut button sometimes referred to as a "tail click". Configuring shortcuts requires you to first pair the pen, as described earlier.
 1. Search for Pen and select **Pen & Windows Ink settings**.
 2. Near the bottom of the page, select Pen shortcuts which opens the dialog box, shown here:
+
 ![Pen shortcuts](images/sh2-pen-shortcuts.png)
 
 ## Camera configuration
