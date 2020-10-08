@@ -159,15 +159,15 @@ The following tables show the availability of selected key features on Surface P
 **Security**
  
 
-| Feature                           | Y/N      | Notes                                                                                                                                                                                                                                                                                                                    |
-| --------------------------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| BitLocker                         | Yes      |                                                                                                                                                                                                                                                                                                                          |
-| Windows Defender                  | Yes      |                                                                                                                                                                                                                                                                                                                          |
-| Support for third-party antivirus | See note | Some third-party antivirus software cannot be installed on a Windows 10 PC running on an ARM-based processor. Collaboration with third-party antivirus software providers is continuing for AV app readiness on ARM-based PCs. Contact your antivirus software provider to understand when their apps will be available. |
-| Conditional Access                | Yes      |                                                                                                                                                                                                                                                                                                                          |
-| Secure Boot                       | Yes      |                                                                                                                                                                                                                                                                                                                          |
-| Windows Information Protection    | Yes      |                                                                                                                                                                                                                                                                                                                          |
-| Surface Data Eraser (SDE)         | Yes      |                                                                                                                                                                                                                                                                                                                          |
+ Feature                                       | Y/N     | Notes                                                                                 |
+| --------------------------------------------- | ------- | ------------------------------------------------------------------------------------- |
+| BitLocker                                     | Yes     |                                                       |
+| Windows Defender                              | Yes     |                                                                                       |
+| Support for third-party antivirus             | See note| Some third-party antivirus software cannot be installed on a Windows 10 PC running on an ARM-based processor. Collaboration with third-party antivirus software providers is continuing for AV app readiness on ARM-based PCs. Contact your antivirus software provider to understand when their apps will be available. |
+| Secure Boot               | Yes     |                                                                                       |
+| Windows Information Protection                      | Yes     |                                                                                       |
+| Surface Data Eraser (SDE)     | Yes     |                                                                                       |
+
 
 
 
