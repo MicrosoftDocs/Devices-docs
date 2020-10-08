@@ -8,7 +8,7 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 10/08/2020
+ms.date: 10/09/2020
 ms.reviewer: jessko
 manager: laurawi
 ms.audience: itpro
@@ -120,43 +120,57 @@ Popular browsers run on Surface Pro X:
 
 To confirm if a specific third-party VPN supports a Windows 10 PC on an ARM-based processor, contact the VPN provider.
 
-## Comparing key features
+## Feature summary
 
-The following tables show the availability of selected key features on Surface Pro X with Windows 10 on ARM compared to Intel-based Surface Pro 7.
-
-| Deployment                              | Surface Pro 7 | Surface Pro X | Notes                                                                                                                           |
-| --------------------------------------- | ------------- | ------------- | ------------------------------------------------------------------------------------------------------------------------------- |
-| Windows Autopilot                       | Yes           | Yes           |                                                                                                                                 |
-| Support for Network Boot (PXE)          | Yes           | No           |                                                                                                                                 |
-| Windows Configuration Designer          | Yes           | No            | Not recommended for Surface Pro X.                                                                                              |
-| WinPE                                   | Yes           | Yes           | Not recommended for Surface Pro X. Microsoft does not provide the necessary .ISO and drivers to support WinPE with Surface Pro X. |
-| Endpoint Configuration Manager: Operating System Deployment (OSD) | Yes           | No            | Not supported on Surface Pro X.                                                                                              |
-| MDT                                     | Yes           | No            | Not supported on Surface Pro X.                                                                                              |
+The following tables show the availability of selected key features on Surface Pro X with Windows 10 on ARM.
 
 
-| Management                                    | Surface Pro 7       | Surface Pro X | Notes                                                                                 |
-| --------------------------------------------- | ------------------- | ------------- | ------------------------------------------------------------------------------------- |
-| Intune                                        | Yes                 | Yes           | Manage LTE with eSIM profiles.                                                        |
-| Windows Autopilot                             | Yes                 | Yes           |                                                                                       |
-| Azure AD (co-management)                      | Yes                 | Yes           | Ability to join Surface Pro X to Azure AD or Active Directory (Hybrid Azure AD Join). |
-| Endpoint Configuration Manager                                          | Yes               | Yes           |                                                                                       |
-| Power on When AC Restore                      | Yes                 | Yes           |                                                                                   |
-| Surface Diagnostic Toolkit (SDT) for Business | Yes                 | Yes           |                                                                                   |
-| Surface Asset Tag tool                          | Yes                 | Yes           |                                                                                   |
-| Surface Enterprise management Mode (SEMM)     | Yes | Partial       | No option to disable hardware on Surface Pro X at the firmware level.                 |
-| Surface UEFI Configurator                     | Yes |   No            | No option to disable hardware. on Surface Pro X at the firmware level.                |
-| Surface UEFI Manager                          | Yes | Partial       | No option to disable hardware on Surface Pro X at the firmware level.                 |
+**Deployment**
+
+| Feature                                                           | Y/N | Notes                                                                                                                             |
+| ----------------------------------------------------------------- | --- | --------------------------------------------------------------------------------------------------------------------------------- |
+| Windows Autopilot                                                 | Yes |                                                                                                                                   |
+| Support for Network Boot (PXE)                                    | No  |                                                                                                                                   |
+| Windows Configuration Designer                                    | No  | Not recommended for Surface Pro X.                                                                                                |
+| WinPE                                                             | Yes | Not recommended for Surface Pro X. Microsoft does not provide the necessary .ISO and drivers to support WinPE with Surface Pro X. |
+| Endpoint Configuration Manager: Operating System Deployment (OSD) | No  | Not supported on Surface Pro X.                                                                                                   |
+| MDT                                                               | No  | Not supported on Surface Pro X.                                                                                                   |
+
+ 
+ 
+ **Management**
+ 
+
+| Feature                                       | Y/N     | Notes                                                                                 |
+| --------------------------------------------- | ------- | ------------------------------------------------------------------------------------- |
+| Intune                                        | Yes     | Manage LTE with eSIM profiles.                                                        |
+| Windows Autopilot                             | Yes     |                                                                                       |
+| Azure AD (co-management)                      | Yes     | Ability to join Surface Pro X to Azure AD or Active Directory (Hybrid Azure AD Join). |
+| Endpoint Configuration Manager                | Yes     |                                                                                       |
+| Power on When AC Restore                      | Yes     |                                                                                       |
+| Surface Diagnostic Toolkit (SDT) for Business | Yes     |                                                                                       |
+| Surface Asset Tag tool                        | Yes     |                                                                                       |
+| Surface Enterprise management Mode (SEMM)     | Partial | No option to disable hardware on Surface Pro X at the firmware level.                 |
+| Surface UEFI Configurator                     | No      | No option to disable hardware. on Surface Pro X at the firmware level.                |
+| Surface UEFI Manager                          | Partial | No option to disable hardware on Surface Pro X at the firmware level.                 |
+
+ 
+
+**Security**
+ 
+
+| Feature                           | Y/N      | Notes                                                                                                                                                                                                                                                                                                                    |
+| --------------------------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| BitLocker                         | Yes      |                                                                                                                                                                                                                                                                                                                          |
+| Windows Defender                  | Yes      |                                                                                                                                                                                                                                                                                                                          |
+| Support for third-party antivirus | See note | Some third-party antivirus software cannot be installed on a Windows 10 PC running on an ARM-based processor. Collaboration with third-party antivirus software providers is continuing for AV app readiness on ARM-based PCs. Contact your antivirus software provider to understand when their apps will be available. |
+| Conditional Access                | Yes      |                                                                                                                                                                                                                                                                                                                          |
+| Secure Boot                       | Yes      |                                                                                                                                                                                                                                                                                                                          |
+| Windows Information Protection    | Yes      |                                                                                                                                                                                                                                                                                                                          |
+| Surface Data Eraser (SDE)         | Yes      |                                                                                                                                                                                                                                                                                                                          |
 
 
-| Security                          | Surface Pro 7 | Surface Pro X | Notes                                                                                                                                                                                                                                                                                                                                                |
-| --------------------------------- | ------------- | ------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| BitLocker                         | Yes           | Yes           |                                                                                                                                                                                                                                                                                                                                                      |
-| Windows Defender                  | Yes           | Yes           |                                                                                                                                                                                                                                                                                                                                                      |
-| Support for third-party antivirus | Yes           | See note      |Some third-party antivirus software cannot be installed on a Windows 10 PC running on an ARM-based processor. Collaboration with third-party antivirus software providers is continuing for AV app readiness on ARM-based PCs. Contact your antivirus software provider to understand when their apps will be available. |
-| Conditional Access                | Yes           | Yes           |                                                                                                                                                                                                                                                                                                                                                      |
-| Secure Boot                       | Yes           | Yes           |                                                                                                                                                                                                                                                                                                                                                      |
-| Windows Information Protection    | Yes           | Yes           |                                                                                                                                                                                                                                                                                                                                                      |
-| Surface Data Eraser (SDE)         | Yes           | Yes           |                                                                                                                                                                                                                                                                                                                                                     
+
 ## FAQ
 
 ### Can I deploy Surface Pro X with MDT or Endpoint Configuration Manager?
