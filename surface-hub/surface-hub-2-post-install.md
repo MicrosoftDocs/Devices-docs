@@ -14,7 +14,7 @@ author: greg-lindsay
 ms.author: greglin
 ms.collection: M365-modern-desktop
 ms.topic: article
-ms.date: 10/06/2020
+ms.date: 10/08/2020
 appliesto:
 - Surface Hub 2S
 ---
@@ -116,7 +116,7 @@ Pair the pen to keep the pen firmware up to date and get battery charge informat
 5. Put the cap back on and press and hold the cap until the pairing LED flashes.
 6. On the Surface Hub Bluetooth settings, choose **Surface Hub 2 Pen**.
 7. Complete the pairing operation. 
-8. If the pairing is not successful, attempt to pair the pen again. If necessary, reboot the device and then try again.
+8. If the pairing is not successful, you can attempt to pair the pen again. If that doesn't work, you can test to see if the battery is charged by verifying the pen works in the Whiteboard application. If not, then replace the battery and then try to pair the pen again. If necessary, reboot the device and then try again.
 
 **Set pen shortcuts**
 The Surface Hub pen has a shortcut button sometimes referred to as a "tail click". Configuring shortcuts requires you to first pair the pen, as described earlier.
