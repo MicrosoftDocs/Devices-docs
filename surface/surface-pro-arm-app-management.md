@@ -8,7 +8,7 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 10/01/2020
+ms.date: 10/08/2020
 ms.reviewer: jessko
 manager: laurawi
 ms.audience: itpro
@@ -17,11 +17,11 @@ ms.audience: itpro
 
 ## Introduction
 
-Built to handle high performance commercial requirements, Surface Pro X breaks new ground by incorporating the most powerful processor ever released on an ARM device, the Microsoft SQ1 ARM chipset.
+Built to handle high performance commercial requirements, Surface Pro X breaks new ground by incorporating the most powerful processors in its class, the Microsoft SQ1 and Microsoft SQ1 ARM chipsets.
 
-Powered by a 3GHz CPU and a 2.1 teraflop GPU, Surface Pro X provides a full Windows experience. Its 13-hour battery life and built-in 4G LTE make it ideally suited for mobile first-line workers and professionals across the financial, legal, and medical fields or any role demanding extended battery life and continuous connectivity capabilities.
+Powered by a 3GHz CPU and a 2.1 teraflop GPU, Surface Pro X provides a full Windows experience. Its 15-hour battery life built-in Gigabit LTE and the versatility of touch, pen, tablet, and laptop make it ideally suited for mobile first-line workers and professionals across the financial, legal, and medical fields or any role demanding extended battery life and continuous connectivity capabilities.
 
-Surface Pro X is designed almost exclusively for a modern, cloud-based environment centered around Microsoft 365, Intune and Windows Autopilot. This article highlights what that looks like and outlines key considerations for deploying, managing, and servicing Surface Pro X.
+Surface Pro X is designed almost exclusively for a modern, cloud-based environment and works best when paired with Microsoft 365, Intune and Windows Autopilot. This article highlights what that looks like and outlines key considerations for deploying, managing, and servicing Surface Pro X.
 
 ## Deploying Surface Pro X
 
@@ -36,7 +36,7 @@ Organizations already using modern management, security, and productivity soluti
 
 ## Image-based deployment considerations
 
-Microsoft Deployment Toolkit (MDT) and Microsoft Endpoint Configuration Manager (formerly System Center Configuration Manager) currently do not support Surface Pro X for operating system deployment. Customers relying on image-based deployment should consider Surface Pro 7 while they continue to evaluate the right time to transition to the cloud.
+Microsoft Deployment Toolkit (MDT) and Microsoft Endpoint Configuration Manager (formerly System Center Configuration Manager) currently do not support Surface Pro X for operating system deployment. Customers relying on image-based deployment should consider Surface Pro 7 while they continue to evaluate the right time to transition to modern deployment solutions. 
 
 ## Managing Surface Pro X devices
 
@@ -62,7 +62,7 @@ Some third-party antivirus software cannot be installed on a Windows 10 PC runni
 
 ## Servicing Surface Pro X
 
-Surface Pro X supports Windows 10, version 1903 and later. As an ARM-based device, it has specific requirements for maintaining the latest drivers and firmware. 
+Surface Pro X ships with Windows 10 version 2004 and supports Windows 10, version 1903 and later. As an ARM-based device, it has specific requirements for maintaining the latest drivers and firmware. 
 
 Surface Pro X was designed to use Windows Update to simplify the process of keeping drivers and firmware up to date for both home users and small business users. Use the default settings to receive Automatic updates.  To verify:
 
@@ -72,7 +72,6 @@ Surface Pro X was designed to use Windows Update to simplify the process of keep
 ### Recommendations for commercial customers
 
 - Use Windows Update or Windows Update for Business for maintaining the latest drivers and firmware. For more information, see [Deploy Updates using Windows Update for Business](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-wufb).
-- If your procedures require using a Windows Installer .msi file, contact [Surface for Business support](https://support.microsoft.com/help/4037645). 
 - For more information about deploying and managing updates on Surface devices, see [Manage and deploy Surface driver and firmware updates](manage-surface-driver-and-firmware-updates.md).
 - Note that Windows Server Update Services (WSUS) does not support the ability to deliver drivers and firmware to Surface Pro X.
 
@@ -89,6 +88,11 @@ Most apps run on ARM-based Windows 10 PCs with limited exclusions.
 > [!NOTE]
 > With 64-bit emulation coming soon in Preview via the Windows Insider program, you'll be able to run 64-bit (x64) apps on Surface Pro X.
 
+### FastTrack App Assure 
+
+The App Assure program is available to commercial customers for their LOB, ISV and Microsoft first-party apps targeting Windows 10 on ARM. If commercial encounter an app compatibility issue using Windows 10 on ARM, Microsoft will provide developer resources to troubleshoot and assist with app remediations, at no additional cost. To learn more,visit aka.ms/AppAssure
+
+
 For more information about running apps on Surface Pro X, refer to:
 
 - [Windows 10 ARM-based PCs Support FAQ](https://support.microsoft.com/help/4521606)
@@ -103,7 +107,7 @@ Windows Virtual Desktop enables access to Windows desktops,applications, and dat
 Popular browsers run on Surface Pro X:
 
 - In-box Edge, Firefox, Chrome, and Internet Explorer all run on Surface Pro X.
-- In-box Edge and Firefox run natively and therefore have enhanced performance on a Windows 10 PC on an ARM-based processor.
+- Firefox and Microsoft Edge based on Chromium run natively and therefore have enhanced performance on a Windows 10 PC on an ARM-based processor.
 
 ## Installing and using Microsoft Office
 
@@ -138,8 +142,7 @@ The following tables show the availability of selected key features on Surface P
 | Endpoint Configuration Manager                                          | Yes               | Yes           |                                                                                       |
 | Power on When AC Restore                      | Yes                 | Yes           |                                                                                   |
 | Surface Diagnostic Toolkit (SDT) for Business | Yes                 | Yes           |                                                                                   |
-| Surface Dock Firmware Update                  | Yes                 | No           |                                                                                   |
-| Asset Tag Utility                             | Yes                 | Yes           |                                                                                   |
+| Surface Asset Tag tool                          | Yes                 | Yes           |                                                                                   |
 | Surface Enterprise management Mode (SEMM)     | Yes | Partial       | No option to disable hardware on Surface Pro X at the firmware level.                 |
 | Surface UEFI Configurator                     | Yes |   No            | No option to disable hardware. on Surface Pro X at the firmware level.                |
 | Surface UEFI Manager                          | Yes | Partial       | No option to disable hardware on Surface Pro X at the firmware level.                 |
@@ -164,9 +167,9 @@ The Microsoft Deployment Toolkit (MDT) and Microsoft Endpoint Configuration Mana
 
 Deploy Surface Pro X using Windows Autopilot.
 
-### Will a BMR be available?
+### Is a BMR available?
 
-Yes.
+Yes, refer to [Download a recovery image for your Surface](https://support.microsoft.com/surfacerecoveryimage).
 
 ### Is Intune required to manage Surface Pro X?
 
