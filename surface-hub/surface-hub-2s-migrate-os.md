@@ -9,7 +9,7 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 09/29/2020
+ms.date: 10/08/2020
 ms.localizationpriority: Medium
 ---
 # Migrate to Windows 10 Pro or Enterprise on Surface Hub 2
@@ -81,7 +81,7 @@ The minimum UEFI version required prior to migrating the Surface Hub from Window
 
 On a separate PC:
 
-- Download Microsoft [Surface UEFI Configurator](https://www.microsoft.com/download/details.aspx?id=46703) from Surface Tools for IT. Surface UEFI Configurator cannot be run on Surface Hub 2S, while Windows 10 Team is installed.
+- Select the Download button on the [Surface Tools for IT page](https://www.microsoft.com/download/details.aspx?id=46703), select and download the Surface UEFI Configurator .MSI file and install it on a separate PC. The Surface UEFI Configurator tool cannot be run on a Surface Hub 2S while Windows 10 Team edition is installed.
 
 - Download [Surface Hub 2 Drivers and Firmware Windows Installer .MSI file](https://www.microsoft.com/download/details.aspx?id=101974) to be applied when installing the new operating system.
 
@@ -153,7 +153,7 @@ The SEMM package created by using the Surface UEFI Configurator tool must be sec
     ![Set Enable OS Migration to On](images/shm-fig12.png)
 
 > [!NOTE]
-> After you apply a SEMM package, all UEFI settings will display as grayed out (locked) in the UEFI menu on the device. This includes default values for other settings such as IPv6 for PXE Boot. To modify UEFI settings, you will need to apply another SEMM package or unenroll the device from SEMM.
+> After you apply a SEMM package, all UEFI settings will display as grayed out (locked) in the UEFI menu on the device. This includes default values for other settings such as IPv6 for PXE Boot. To modify UEFI settings after completing the migration, you will need to apply another SEMM package or unenroll the device from SEMM. If you apply another SEMM package to modify the UEFI settings, you must use the original Certificate when building the new SEMM package using the UEFI Configurator tool. 
 
 #### Save SEMM package to USB drive
 
@@ -210,7 +210,7 @@ This procedure describes creating a USB flash drive from installation media and 
     - SEMM package files (copied to the root of the USB drive)
         - DfciUpdate.dfi
         - Text file with the SEMM thumbprint. (In this example: SurfaceUEFI_2020Aug25_1058.txt. The auto-generated date timestamp corresponds to the date that you created the file using Surface UEFI Configurator.)
-    - Drivers and Firmware for Windows 10 Pro and Enterprise on Surface Hub 2 (SurfaceHub2S_Win10_18362_20.082.25682.0.msi)
+        - Drivers and Firmware for Windows 10 Pro and Enterprise on Surface Hub 2 (SurfaceHub2S_Win10_18362_20.082.25682.0.msi)
 
 ### Update UEFI on Surface Hub 2S to enable OS migration
 
