@@ -51,9 +51,13 @@ When performing these steps, you might find it useful to use a wired or wireless
      ![Keyboard settings](images/kbd.png)
 
 3. Configure the soft keyboard settings.
-![soft keyboard settings](images/sh2-softkeyboard.png)
-    1. Select the **Settings** icon on the touch keyboard or search for and open **Typing settings** .
-    2. Enable all the options under Spelling, Typing, and Touch keyboard.
+
+
+    1. Select the **Settings** icon on the touch keyboard or search for and open **Typing settings**.
+    
+    ![soft keyboard settings](images/sh2-softkeyboard.png)
+
+    1. Enable all the options under Spelling, Typing, and Touch keyboard.
 
 
 The following example shows the trackpad, which is useful to navigate and select options. The onscreen keyboard is being used to search the Microsoft Store:
