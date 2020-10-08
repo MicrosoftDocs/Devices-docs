@@ -31,8 +31,8 @@ Use the Warranty and Service Claim form when you have to submit a hardware warra
     - Product
     - Product Version
     - Serial Number 
-        > [!note]
-        > For information about how to locate the serial for your product, see [Find the serial number on Surface devices](https://support.microsoft.com/help/4036293/surface-find-the-serial-number-on-surface).
+        - **Surface**<br/>
+           To locate the serial for your product, see [Find the serial number on Surface devices](https://support.microsoft.com/help/4036293/surface-find-the-serial-number-on-surface).
 
        - **Surface Hub 1**
          - From the Surface Hub Operating System, go to: **Start Icon** > **Settings** > **System** > **About**. 
@@ -48,12 +48,12 @@ Use the Warranty and Service Claim form when you have to submit a hardware warra
          - In the Azure Kinect Viewer, open **C:\Program Files\Azure Kinect SDK\tools**, type **k4aviewer.exe**, and then select **Enter**. Select the device to see the serial number. 
          - The serial number is located on the lower-rear side of the device under the removable sleeve.
 
-    - Accessories
-    
+    - Accessories<br/>
         For accessory warranty claims:
         - Include the serial number from the device that the accessory is used with.
-        - In-warranty accessory replacements require proof of purchase. To expedite the process, upload a copy of your proof of purchase together with your form when you create the service incident. 
+        - In-warranty accessory replacements require proof of purchase. To expedite the process, upload a copy of your proof of purchase together with your form when you create the service request. 
     - Reason for Replacement
+    
         1. Select the reason for your replacement request. (If you are not requesting a replacement, leave this field blank.)
         1. If the issue for the warranty claim is not listed, leave this field blank. 
         1. Troubleshooting may be requested before a Warranty Claim is processed.

@@ -7,7 +7,7 @@ ms.date: 5/27/2020
 audience: Admin
 ms.topic: article
 ms.prod: surface
-localization_priority: Normal
+localization_priority: medium
 search.appverid:
 - SPO160
 - MET150
