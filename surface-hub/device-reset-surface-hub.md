@@ -68,7 +68,7 @@ You may have to use this type of recovery process under the following circumstan
 - [The Surface Hub is locked](#recover-a-locked-surface-hub)
 
 >[!IMPORTANT]
->The **Recover from the cloud** process requires an open internet connection (no proxy or other authentications). An ethernet connection is recommended.
+>The **Recover from the cloud** process requires a wired connection that provides open internet connectivity (no proxy or other authentication prompts).
 
 ### Recover a Surface Hub in a bad state
 
