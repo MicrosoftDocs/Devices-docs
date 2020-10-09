@@ -87,19 +87,25 @@ To ensure optimal video and audio quality on Surface Hub 2S, add the following Q
 > [!NOTE]
 > Both tables show default port ranges. Administrators may change the port ranges in the Skype for Business and Teams control panel.
 
-## Microsoft Teams Mode settings
+## Microsoft Teams settings
 
-You can set the Microsoft Teams app mode using Intune. Surface Hub 2S comes installed with Microsoft Teams in mode 0, which supports both Microsoft Teams and Skype for Business. You can adjust the modes as shown below.
+You can configure various Microsoft Teams settings using Intune.
 
-### Modes:
+### Modes
+
+Surface Hub 2S comes installed with Microsoft Teams in mode 0, which supports both Microsoft Teams and Skype for Business. The modes function as described below:
 
 - Mode 0 — Skype for Business with Microsoft Teams functionality for scheduled meetings.
 - Mode 1 — Microsoft Teams with Skype for Business functionality for scheduled meetings.
 - Mode 2 — Microsoft Teams only.
 
-To set modes, add the following settings to a custom Device Configuration Profile.
+To adjust the mode, add the following settings to a [custom device configuration profile](https://docs.microsoft.com/en-us/mem/intune/configuration/custom-settings-configure).
 
 | Name | Description | OMA-URI | Type | Value |
 |:--- |:--- |:--- |:--- |:--- |
 |**Teams App ID**|App name|./Vendor/MSFT/SurfaceHub/Properties/VtcAppPackageId|String| Microsoft.MicrosoftTeamsforSurfaceHub_8wekyb3d8bbwe!Teams|
 |**Teams App Mode**|Teams mode|./Vendor/MSFT/SurfaceHub/Properties/SurfaceHubMeetingMode|Integer| 0 or 1 or 2|
+
+### Coordinated Meetings and proximity join
+
+Teams Coordinated Meeting and proximity join features can be [configured through an XML file](https://docs.microsoft.com/en-us/mem/intune/configuration/custom-settings-configure) deployed via an Intune profile.
