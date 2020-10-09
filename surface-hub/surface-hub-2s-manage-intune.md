@@ -99,7 +99,7 @@ Surface Hub 2S comes installed with Microsoft Teams in mode 0, which supports bo
 - Mode 1 — Microsoft Teams with Skype for Business functionality for scheduled meetings.
 - Mode 2 — Microsoft Teams only.
 
-To adjust the mode, add the following settings to a [custom device configuration profile](https://docs.microsoft.com/en-us/mem/intune/configuration/custom-settings-configure).
+To adjust the mode, add the following settings to a [custom device configuration profile](https://docs.microsoft.com/mem/intune/configuration/custom-settings-configure).
 
 | Name | Description | OMA-URI | Type | Value |
 |:--- |:--- |:--- |:--- |:--- |
@@ -108,4 +108,4 @@ To adjust the mode, add the following settings to a [custom device configuration
 
 ### Coordinated Meetings and proximity join
 
-Teams Coordinated Meeting and proximity join features can be [configured through an XML file](https://docs.microsoft.com/en-us/mem/intune/configuration/custom-settings-configure) deployed via an Intune profile.
+Teams Coordinated Meeting and proximity join features can be [configured through an XML file](https://docs.microsoft.com/mem/intune/configuration/custom-settings-configure) deployed via an Intune profile.
