@@ -10,13 +10,24 @@ ms.pagetype: devices, surface
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.reviewer: 
+ms.reviewer: hachidan
 manager: laurawi
+ms.date: 10/12/2020
 ---
 
 # Manage Surface UEFI settings
 
 All current and future generations of Surface devices use a unique Unified Extensible Firmware Interface (UEFI) engineered by Microsoft specifically for these devices. Surface UEFI settings provide the ability to enable or disable built-in devices and components, protect UEFI settings from being changed, and adjust the Surface device boot settings. 
+
+## Supported products
+
+UEFI management is supported on the following: 
+
+- Surface Pro 4, Surface Pro (5th Gen), Surface Pro 6, Surface Pro 7, Surface Pro X
+- Surface Laptop (1st Gen), Surface Laptop 2, Surface Laptop 3, Surface Laptop Go
+- Surface Studio (1st Gen), Surface Studio 2
+- Surface Book, Surface Book 2, Surface Book 3
+- Surface Go, Surface Go 2
 
 ## Support for cloud-based management
 

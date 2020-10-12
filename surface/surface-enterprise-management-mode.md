@@ -13,7 +13,7 @@ ms.reviewer: hachidan
 manager: laurawi
 ms.localizationpriority: medium
 audience: itpro
-ms.date: 09/01/2020
+ms.date: 10/12/2020
 ---
 
 # Microsoft Surface Enterprise Management Mode
@@ -21,7 +21,7 @@ ms.date: 09/01/2020
 Microsoft Surface Enterprise Management Mode (SEMM) is a feature of Surface devices with Surface UEFI that allows you to secure and manage firmware settings within your organization. With SEMM, IT professionals can prepare configurations of UEFI settings and install them on a Surface device. In addition to the ability to configure UEFI settings, SEMM also uses a certificate to protect the configuration from unauthorized tampering or removal. SEMM is a requirement to be able to migrate a Surface Hub 2S to Windows 10 Pro and Enterprise.
 
 >[!NOTE]
->SEMM is only available on devices with Surface UEFI firmware. This comprises most other Surface devices including Surface Pro 7, Surface Pro X, Surface Hub 2S, and Surface Laptop 3 commercial SKUs with an Intel processor. SEMM is not supported on the 15" Surface Laptop 3 SKU with AMD processor (only available as a retail SKU). 
+>SEMM is only available on devices with Surface UEFI firmware. This comprises most other Surface devices including Surface Pro 7, Surface Pro X, Surface Hub 2S, and Surface Laptop 3 commercial SKUs with an Intel processor, and Surface Laptop Go. SEMM is not supported on the 15" Surface Laptop 3 SKU with AMD processor (only available as a retail SKU). 
 
 When Surface devices are configured by SEMM and secured with the SEMM certificate, they are considered *enrolled* in SEMM. When the SEMM certificate is removed and control of UEFI settings is returned to the user of the device, the Surface device is considered *unenrolled* in SEMM.
 
@@ -243,6 +243,18 @@ serial-number independent. If the certificate is still valid, you can
 create a reset package using PowerShell to reset SEMM.
 
 ## Version History
+
+
+### Version 2.78.139.0
+
+This version of SEMM includes:
+
+- Support for Surface Laptop Go and Surface Pro X
+- Notifications for new version release
+- Ability to create custom packages to change ownership
+- Bug fixes
+
+
 
 
 ### Version 2.73.136.0

@@ -12,9 +12,10 @@ appliesto:
 - Surface Pro 7
 - Surface Laptop 3
 - Surface Pro X
+- Surface Laptop Go
 ms.custom: 
 - CI 121602
-ms.reviewer: johnk@cadencepreferred.com  
+ms.reviewer: hachidan  
 description: Describes how to enable and disable Wake on Power for Surface devices.
 keywords: update, deploy, driver, wol, wake-on-lan
 ms.prod: w10
@@ -36,7 +37,9 @@ The Wake on Power feature is available on the following devices:
 - Surface Book 3
 - Surface Pro 7
 - Surface Laptop 3
+- Surface Laptop Go
 - Surface Pro X 
+
 
 ## Overview and prerequisites
 
