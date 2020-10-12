@@ -8,7 +8,7 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 07/31/2020
+ms.date: 10/12/2020
 ms.reviewer: hachidan
 manager: laurawi
 audience: itpro
@@ -41,6 +41,7 @@ Command line |	Directly troubleshoot Surface devices remotely without user inter
 
 SDT for Business is supported on Surface 3 and later devices, including:
 
+- Surface Laptop Go
 - Surface Book 3
 - Surface Go 2
 - Surface Pro X
@@ -175,6 +176,17 @@ You can select to run a wide range of logs across applications, drivers, hardwar
 
 ## Changes and updates
 
+### Version 2.124.139.0
+
+This version of Surface Diagnostic Toolkit for Business adds support for the following:
+
+- Seamless integrated support
+- Save all test results
+- Check if the image is custom created
+- Include warnings from device manager
+- Dock firmware version
+- Flag drives as potential failures in storage test
+- Remove store link 
 
 ### Version 2.121.139
 *Release date: July 31 2020*<br>

@@ -8,7 +8,7 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 10/01/2020
+ms.date: 10/12/2020
 ms.reviewer: brrecord
 manager: laurawi
 audience: itpro
@@ -39,6 +39,7 @@ Surface Dock 2 is designed to simplify IT management, enabling admins to automat
   - Surface Laptop 3
   - Surface Book 3
   - Surface Go 2
+  - Surface Laptop Go
 
 ## Surface Dock 2 Components
 

@@ -14,7 +14,7 @@ author: coveminer
 ms.author: greglin
 ms.topic: article
 audience: itpro
-ms.date: 09/18/2020
+ms.date: 10/12/2020
 ---
 
 # Microsoft Surface Data Eraser
@@ -33,6 +33,7 @@ Compatible Surface devices include:
 - Surface Go (all editions)
 - Surface Pro X (all editions)
 - Surface Laptop (all editions)
+- Surface Laptop Go
 - Surface Studio (all editions)
 - Surface Pro 2 and later
 - Windows 10 Pro and Enterprise on Surface Hub 2
