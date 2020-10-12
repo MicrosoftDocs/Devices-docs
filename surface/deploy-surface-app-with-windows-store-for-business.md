@@ -160,7 +160,7 @@ The following procedure provisions the Surface app onto your computer and makes 
 
     For example, if you downloaded the files to c:\Temp, the command you run is:
     
-    ````powershell
+    ```powershell
     Add-AppxProvisionedPackage –Online –PackagePath c:\Temp\ Microsoft.SurfaceHub_10.0.342.0_neutral_~_8wekyb3d8bbwe.AppxBundle –LicensePath c:\Temp\ Microsoft.SurfaceHub_8wekyb3d8bbwe_a53ef8ab-9dbd-dec1-46c5-7b664d4dd003.xml
     ```
 
