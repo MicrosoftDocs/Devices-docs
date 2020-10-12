@@ -13,30 +13,20 @@ ms.localizationpriority: medium
 ms.audience: itpro
 ms.reviewer: 
 manager: laurawi
-ms.date: 04/24/2020
+ms.date: 10/12/2020
 ---
 
 # Upgrade Surface devices to Windows 10 with Microsoft Deployment Toolkit
 
 #### Applies to
-- Surface Pro 6
-- Surface Laptop 2
-- Surface Go
-- Surface Go with LTE
-- Surface Book 2
-- Surface Pro with LTE Advanced (Model 1807)
-- Surface Pro (Model 1796)
-- Surface Laptop
-- Surface Studio
-- Surface Studio 2
-- Surface Book
-- Surface Pro 4
-- Surface 3 LTE
-- Surface 3
-- Surface Pro 3
-- Surface Pro 2
-- Surface Pro
-- Windows 10
+
+- Surface Book (all editions)
+- Surface Go (all editions)
+- Surface Pro X (all editions)
+- Surface Laptop (all editions)
+- Surface Laptop Go
+- Surface Studio (all editions)
+- Surface Pro 2 and later
 
 In addition to the traditional deployment method of reimaging devices, administrators who want to upgrade Surface devices that are running Windows 8.1 or Windows 10 have the option of deploying upgrades. By performing an upgrade deployment, Windows 10 can be applied to devices without removing users, apps, or configuration. The users of the deployed devices can simply continue using the devices with the same apps and settings that they used prior to the upgrade. 
 

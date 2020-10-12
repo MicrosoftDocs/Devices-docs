@@ -14,6 +14,7 @@ author: coveminer
 ms.author: greglin
 ms.topic: article
 ms.audience: itpro
+ms.date: 10/12/2020
 ---
 
 # Manage and deploy Surface driver and firmware updates
@@ -63,7 +64,7 @@ Starting in Endpoint Configuration Manager, you can synchronize and deploy Micro
 
 ## Supported devices
 
-Downloadable .msi files are available for the Surface Pro 2 and later devices. Information about .msi files for the newest Surface devices, such as Surface Pro 7 and Surface Laptop 3, will be available from this page upon release.
+Downloadable .msi files are available for Surface Pro 2 and later devices (except Surface Pro X which runs Windows 10 on ARM).
 
 ## Managing firmware with DFCI
 

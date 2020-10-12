@@ -13,7 +13,7 @@ ms.localizationpriority: medium
 ms.audience: itpro
 ms.reviewer: 
 manager: laurawi
-ms.date: 04/24/2020
+ms.date: 10/12/2020
 ---
 
 # Deploy Windows 10 to Surface devices with Microsoft Deployment Toolkit
@@ -24,6 +24,7 @@ ms.date: 04/24/2020
 - Surface Pro 4 and later
 - Surface Book and later
 - Surface Laptop and later
+- Surface Laptop Go
 - Surface Go
 - Surface 3
 - Windows 10

@@ -19,6 +19,7 @@ manager: laurawi
 
 **Applies to**
 
+- Surface Laptop Go
 - Surface Pro 7
 - Surface Laptop 3
 - Surface Pro 6

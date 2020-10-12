@@ -45,6 +45,7 @@ The following devices are supported for WOL:
 * Surface Studio 2 (see Surface Studio 2 instructions below)
 * Surface Pro 7
 * Surface Laptop 3
+* Surface Laptop Go
 
 ## WOL driver
 

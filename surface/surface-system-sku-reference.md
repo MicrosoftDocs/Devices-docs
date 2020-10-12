@@ -9,7 +9,7 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 08/04/2020
+ms.date: 10/12/2020
 ms.reviewer: 
 manager: laurawi
 ms.localizationpriority: medium
@@ -46,9 +46,11 @@ System Model and System SKU are variables that are stored in the System Manageme
 | Surface Laptop 2 Commercial                                  | Surface Laptop 2 | Surface_Laptop_2_1769_Commercial |
 | Surface Pro 7                 | Surface Pro 7    | Surface_Pro_7_1866         |
 | Surface Pro X                 | Surface Pro X    | Surface_Pro_X_1876         |
+| Surface Pro X with SQ2 processor                | Surface Pro X    | Surface_Pro_X_H_1876        |
 | Surface Laptop 3 13" Intel | Surface Laptop 3 | Surface_Laptop_3_1867:1868 |
 | Surface Laptop 3 15" Intel | Surface Laptop 3 | Surface_Laptop_3_1872      |
 | Surface Laptop 3 15" AMD   | Surface Laptop 3 | Surface_Laptop_3_1873      | 
+| Surface Laptop Go  | Surface Laptop Go | Surface_Laptop_Go_1943      | 
 
 ## Examples 
 

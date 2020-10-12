@@ -8,7 +8,7 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 8/05/2020
+ms.date: 10/12/2020
 ms.reviewer: hachidan
 manager: laurawi
 audience: itpro
@@ -26,6 +26,7 @@ To enable WMI support, go to [Surface Dock 2 Drivers and Firmware](https://www.m
 - Surface Book (2nd Gen and later)
 - Surface Go (all generations)
 - Surface Laptop (all generations)
+- Surface Laptop Go
 
  **SurfaceDock2_WmiInstanceProvider_Win10_17763_&#60;Version&#62;_arm64.msi:** <br>
 
