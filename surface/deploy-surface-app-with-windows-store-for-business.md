@@ -85,7 +85,7 @@ Before users can install or deploy an app from a company’s Microsoft Store for
     * You are presented with a choice (select **Online** or **Offline**), as shown in Figure 2.
     
       > [!div class="mx-imgBorder"]
-      > ![Select the Offline licensing mode and add the app to your inventory](images/deploysurfapp-fig2-selectingofflinelicense.png "Select the Offline licensing mode and add the app to your inventory")<br/>    
+      > ![Select the Offline licensing mode and add the app to your inventory](images/deploysurfapp-fig2-selectingofflinelicense.png "Select the Offline licensing mode and add the app to your inventory")   
       *Figure 2. Select the Offline licensing mode and add the app to your inventory*
     
     * Click **Offline** to select the Offline licensing mode.
@@ -93,7 +93,7 @@ Before users can install or deploy an app from a company’s Microsoft Store for
     * Click **Get the app** to add the app to your Microsoft Store for Business inventory. As shown in Figure 3, you’ll see a dialog box that prompts you to acknowledge that offline apps can be deployed using a management tool or downloaded from the company’s inventory page in their private store.
     
       > [!div class="mx-imgBorder"]
-      > ![Offline-licensed app acknowledgement window](images/deploysurfapp-fig3-acknowledge.png "Offline-licensed app acknowledgement window")<br/>    
+      > ![Offline-licensed app acknowledgement window](images/deploysurfapp-fig3-acknowledge.png "Offline-licensed app acknowledgement window")
       *Figure 3. Offline-licensed app acknowledgement*
       
     * Click **OK**.
@@ -166,13 +166,16 @@ The following procedure provisions the Surface app onto your computer and makes 
 
 4. The Surface app will now be available on your current Windows computer. 
 
-Before the Surface app is functional on the computer where it has been provisioned, you must also provision the frameworks described earlier in this article. To provision these frameworks, use the following procedure in the elevated PowerShell session you used to provision the Surface app.
+   Before the Surface app is functional on the computer where it has been provisioned, you must also provision the frameworks described earlier in this article. To provision these frameworks, use the following procedure in the elevated PowerShell session you used to provision the Surface app.
 
 5. In the elevated PowerShell session, copy and paste the following command:
+
    ```powershell
    Add-AppxProvisionedPackage –Online –SkipLicense –PackagePath <DownloadPath>\Microsoft.VCLibs.140.00_14.0.23816.0_x64__8wekyb3d8bbwe.Appx
    ```
+   
 6. In the elevated PowerShell session, copy and paste the following command:
+
    ```powershell
    Add-AppxProvisionedPackage –Online –SkipLicense –PackagePath <DownloadPath>\Microsoft.NET.Native.Runtime.1.1_1.1.23406.0_x64__8wekyb3d8bbwe.Appx
    ```
@@ -187,9 +190,11 @@ The following procedure uses MDT to automate installation of the Surface app at 
 3. On the **Command Details** page of the New Application Wizard, specify the default **Working Directory** and for the **Command** specify the file name of the AppxBundle, as follows:
 
    * Command:
+   
      ```console
      Microsoft.SurfaceHub_10.0.342.0_neutral_~_8wekyb3d8bbwe.AppxBundle
      ```
+     
    * Working Directory: %DEPLOYROOT%\Applications\SurfaceApp
 
 For the Surface app to function on the target computer, it will also require the frameworks described earlier in this article. Use the following procedure to import the frameworks required for the Surface app into MDT and to configure them as dependencies.
