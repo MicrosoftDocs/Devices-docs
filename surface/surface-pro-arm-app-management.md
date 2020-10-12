@@ -90,7 +90,7 @@ Most apps run on ARM-based Windows 10 PCs with limited exclusions.
 
 ### FastTrack App Assure 
 
-The App Assure program is available to commercial customers for their LOB, ISV and Microsoft first-party apps targeting Windows 10 on ARM. If commercial customers encounter an app compatibility issue using Windows 10 on ARM, Microsoft will provide developer resources to troubleshoot and assist with app remediations, at no additional cost. To learn more,visit [aka.ms/AppAssure](aka.ms/AppAssure).
+The App Assure program is available to commercial customers for their LOB, ISV and Microsoft first-party apps targeting Windows 10 on ARM. If commercial customers encounter an app compatibility issue using Windows 10 on ARM, Microsoft will provide developer resources to troubleshoot and assist with app remediations, at no additional cost. To learn more,visit [aka.ms/AppAssure](https://docs.microsoft.com/fasttrack/products-and-capabilities#app-assure).
 
 For more information about running apps on Surface Pro X, refer to:
 
