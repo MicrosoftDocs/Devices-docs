@@ -9,10 +9,11 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.reviewer: 
+ms.reviewer: hachidan
 manager: laurawi
 ms.localizationpriority: medium
 ms.audience: itpro
+ms.date: 10/13/2020
 ---
 
 # Use Microsoft Endpoint Configuration Manager to manage devices with SEMM
@@ -386,7 +387,7 @@ The best way to view the most current Setting names and IDs for devices is to us
 
 Setting names and IDs for all devices can be seen in the ConfigureSEMM.ps1 script.
 
-Setting names and IDs for specific devices can be seen in the ConfigureSEMM - <device name>.ps1 scripts. For example, setting names and IDs for Surface Pro X can be found in the ConfigureSEMM – ProX.ps1 script.
+Setting names and IDs for specific devices can be seen in the ConfigureSEMM - <device name>.ps1 scripts. 
 
 ## Deploy SEMM Configuration Manager scripts
 
