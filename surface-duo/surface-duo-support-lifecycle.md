@@ -1,5 +1,5 @@
 ---
-title: Surface Lifecycle for Android based devices
+title: Surface Lifecycle for Android-based devices
 description: This article how Surface Duo  will receive Android version and security updates for at least 3 years from its release date.
 ms.technology: windows
 ms.prod: surface
@@ -9,7 +9,7 @@ author: coveminer
 ms.author: greglin
 ms.topic: article
 ms.date: 10/14/2020
-ms.reviewer: karand
+ms.reviewer: jerbos
 manager: laurawi
 ms.audience: itpro
 audience: ITPro
@@ -21,7 +21,7 @@ appliesto:
 
 The Surface Lifecycle for Android-based devices covers Android version and security updates for Surface Duo. The lifecycle begins when a device is first released and concludes when Surface ceases publication of updates. The following section defines the policy and key end of servicing dates.
  
-## Surface Android Device Support Information
+## Surface Android device support 
 
 Surface Android devices will receive Android version and security updates for at least 3 years from its release date (September 10, 2020).
  
@@ -30,7 +30,7 @@ In cases where the support duration is longer than 3 years, an updated end of se
 The following table outlines support information for Surface Android-based devices:
  
 
-| **Device**  | **Android OS Supported at Device Release** | **Release Date**   | **Last planned Android version update** | **Last planned security update** |
+| Device  | Android OS supported at device release | Release date   | Last planned Android version update | Last planned security update |
 | ----------- | ------------------------------------------ | ------------------ | --------------------------------------- | -------------------------------- |
 | Surface Duo | Android 10                                 | September 10, 2020 | September 10, 2023                      | September 10, 2023               |
 
