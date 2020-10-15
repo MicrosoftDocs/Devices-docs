@@ -28,6 +28,9 @@ PowerShell scripts to help set up and manage your Microsoft Surface Hub.
     -   [Allowing device IDs for ActiveSync](#whitelisting-device-ids-cmdlet)
     -   [Auto-accepting and declining meeting requests](#auto-accept-meetings-cmdlet)
     -   [Accepting external meeting requests](#accept-ext-meetings-cmdlet)
+    
+ > [!NOTE]
+ > See also [Modern Auth and Unattended Scripts in Exchange Online PowerShell V2](https://techcommunity.microsoft.com/t5/exchange-team-blog/modern-auth-and-unattended-scripts-in-exchange-online-powershell/ba-p/1497387)
 
 ## Prerequisites
 
