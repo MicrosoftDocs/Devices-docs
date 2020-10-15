@@ -106,6 +106,8 @@ landingContent:
             url: https://docs.microsoft.com/mem/intune/enrollment/troubleshoot-android-enrollment
           - text: Troubleshoot mobile application management
             url: https://docs.microsoft.com/mem/intune/apps/troubleshoot-mam  
+          - text: Surface Lifecycle for Android-based devices
+            url: surface-lifecycle-android-devices.md         
 
 # Card
   - title: Participate in Surface Community 
