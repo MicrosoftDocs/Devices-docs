@@ -35,3 +35,11 @@
 | 9/23/2020 | [Surface Duo management overview](/surface-duo/surface-duo-manage) | modified |
 | 9/24/2020 | [Contact Surface Business Support](/surface-duo/contact-surface-duo-support) | modified |
 | 9/25/2020 | [Configure Android Enterprise Work Profile for Surface Duo](/surface-duo/surface-duo-config-work-profile) | modified |
+
+
+## Week of October 12, 2020
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 10/15/2020 | [Surface Duo documentation # < 60 chars](/surface-duo/index) | modified |

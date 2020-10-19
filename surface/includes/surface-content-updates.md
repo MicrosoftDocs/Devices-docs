@@ -74,6 +74,30 @@
 | 10/9/2020 | [Deploying, managing, and servicing Surface Pro X](/surface/surface-pro-arm-app-management) | modified |
 
 
+## Week of October 12, 2020
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 10/12/2020 | [Deploy Surface app with Microsoft Store for Business or Microsoft Store for Education (Surface)](/surface/deploy-surface-app-with-windows-store-for-business) | modified |
+| 10/12/2020 | [Deploy Windows 10 to Surface devices with Microsoft Deployment Toolkit (Surface)](/surface/deploy-windows-10-to-surface-devices-with-mdt) | modified |
+| 10/12/2020 | [Manage and deploy Surface driver and firmware updates](/surface/manage-surface-driver-and-firmware-updates) | modified |
+| 10/12/2020 | [Manage Surface UEFI settings](/surface/manage-surface-uefi-settings) | modified |
+| 10/12/2020 | [Microsoft Surface Data Eraser (Surface)](/surface/microsoft-surface-data-eraser) | modified |
+| 10/12/2020 | [Secure Surface Dock 2 ports with Surface Enterprise Management Mode (SEMM)](/surface/secure-surface-dock-ports-semm) | modified |
+| 10/12/2020 | [Deploy Surface Diagnostic Toolkit for Business](/surface/surface-diagnostic-toolkit-business) | modified |
+| 10/12/2020 | [Microsoft Surface Dock Firmware Update - Technical information for IT administrators](/surface/surface-dock-firmware-update) | modified |
+| 10/12/2020 | [What’s new in Surface Dock](/surface/surface-dock-whats-new) | modified |
+| 10/12/2020 | [Manage Surface Dock 2 with WMI](/surface/surface-dock2-wmi) | modified |
+| 10/12/2020 | [Surface Enterprise Management Mode (Surface)](/surface/surface-enterprise-management-mode) | modified |
+| 10/12/2020 | [Deploying, managing, and servicing Surface Pro X](/surface/surface-pro-arm-app-management) | modified |
+| 10/12/2020 | [System SKU reference (Surface)](/surface/surface-system-sku-reference) | modified |
+| 10/12/2020 | [Upgrade Surface devices to Windows 10 with Microsoft Deployment Toolkit (Surface)](/surface/upgrade-surface-devices-to-windows-10-with-mdt) | modified |
+| 10/12/2020 | [Wake On LAN for Surface devices (Surface)](/surface/wake-on-lan-for-surface-devices) | modified |
+| 10/12/2020 | [How to enable Wake on Power for Surface](/surface/wake-on-power-for-surface) | modified |
+| 10/14/2020 | [Use Microsoft Endpoint Configuration Manager to manage devices with SEMM (Surface)](/surface/use-system-center-configuration-manager-to-manage-devices-with-semm) | modified |
+
+
 ## Week of August 10, 2020
 
 
@@ -107,6 +131,14 @@
 | 9/23/2020 | [Surface Duo management overview](/surface-duo/surface-duo-manage) | modified |
 | 9/24/2020 | [Contact Surface Business Support](/surface-duo/contact-surface-duo-support) | modified |
 | 9/25/2020 | [Configure Android Enterprise Work Profile for Surface Duo](/surface-duo/surface-duo-config-work-profile) | modified |
+
+
+## Week of October 12, 2020
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 10/15/2020 | [Surface Duo documentation # < 60 chars](/surface-duo/index) | modified |
 
 
 ## Week of August 10, 2020
