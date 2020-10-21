@@ -28,7 +28,7 @@ ms.custom:
 
 - Surface Laptop 3 
 - Surface Pro X 
-- Surface Laptop 3
+- Surface Laptop Go
 
 > [!WARNING]
 > Opening devices and replacing device components can present electric shock, device damage, fire, and personal injury risks, and other hazards.  Always use caution when you undertake such activities. Follow the safety precautions and procedures that are identified in the [rSSD Removal Guide for Enterprise](https://www.microsoft.com/download/100440). We recommend that you get professional assistance if you cannot follow the safety precautions and procedures that are specified in the "rSSD Removal Guide for Enterprise."
