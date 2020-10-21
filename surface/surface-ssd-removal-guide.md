@@ -1,6 +1,6 @@
 ---
 title: SSD removal in compatible Surface devices
-description: How to transfer an SSD from one Surface device to another.
+description: This article, intended for qualified IT technicians, describes the recommended best practices for the removal and replacement of SSDs in Surface Laptop 3, Surface Pro X, and Surface Laptop Go. 
 ms.prod: w10
 ms.localizationpriority: medium
 ms.mktglfcycl: manage
@@ -8,14 +8,15 @@ ms.sitesec: library
 author: mccoybot
 ms.author: v-todmc
 ms.topic: article
-ms.date: 10/7/2020
-ms.reviewer: johnk
+ms.date: 10/21/2020
+ms.reviewer: 
 manager: laurawi
 ms.audience: itpro
 audience: ITPro
 appliesto:
 - Surface Laptop 3
 - Surface Pro X
+- Surface Laptop Go
 ms.custom: 
 - CI 121887
 - CSSTroubleshoot 
@@ -23,7 +24,11 @@ ms.custom:
 # Best practices for SSD removal from compatible Surface devices
 
 > [!IMPORTANT]
-> This article is intended for use by qualified IT technicians in an enterprise organization only. It describes the recommended best practices for use by qualified IT technicians in the removal and replacement of SSDs in Surface Laptop 3 or Surface Pro X only. 
+> This article is intended for use by qualified IT technicians in an enterprise organization only. It describes the recommended best practices for use by qualified IT technicians in the removal and replacement of SSDs in the following compatible Surface devices: 
+
+- Surface Laptop 3 
+- Surface Pro X 
+- Surface Laptop 3
 
 > [!WARNING]
 > Opening devices and replacing device components can present electric shock, device damage, fire, and personal injury risks, and other hazards.  Always use caution when you undertake such activities. Follow the safety precautions and procedures that are identified in the [rSSD Removal Guide for Enterprise](https://www.microsoft.com/download/100440). We recommend that you get professional assistance if you cannot follow the safety precautions and procedures that are specified in the "rSSD Removal Guide for Enterprise."
