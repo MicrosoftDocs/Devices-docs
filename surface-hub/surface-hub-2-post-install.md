@@ -418,7 +418,7 @@ Turn on Tablet mode if desired for accessibility needs.
 
    - Presence detection will be a green icon in the system tray.
     
-6. Verify projecting to this PC is enabled with the Connect App (the Connect application needs to have run at least once after configuring  **Project to this PC** settings, but otherwise does not need to be running in order to project to Surface Hub.
+6. Verify projecting to this PC is enabled with the Connect App. After configuring  **Project to this PC** settings, run the Connect App at least once. (Subsequently, the Connect App does not need to be running in order to project to Surface Hub.)
 
 7. Verify power and sleep settings.
 
