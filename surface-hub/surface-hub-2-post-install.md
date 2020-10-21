@@ -14,7 +14,7 @@ author: greg-lindsay
 ms.author: greglin
 ms.collection: M365-modern-desktop
 ms.topic: article
-ms.date: 10/08/2020
+ms.date: 10/21/2020
 appliesto:
 - Surface Hub 2S
 ---
@@ -418,11 +418,11 @@ Turn on Tablet mode if desired for accessibility needs.
 
    - Presence detection will be a green icon in the system tray.
     
-6. Verify projecting to this PC is enabled with the Connect App (the application does not need to be running before connecting).
+6. Verify projecting to this PC is enabled with the Connect App. After configuring  **Project to this PC** settings, run the Connect App at least once. (Subsequently, the Connect App does not need to be running in order to project to Surface Hub.)
 
 7. Verify power and sleep settings.
 
-    - Screen Saver: 15 minutes, set to (none), Mystify or Blank; check box for requiring password is checked
+    - Screen Saver: 15 minutes, set to (none), Mystify or Blank; ensure the check box for requiring password is selected.
     - Screen: **Turn off after 2 hours**.
     - PC:  **Turn off after 4 hours**.
     
