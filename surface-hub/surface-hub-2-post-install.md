@@ -422,7 +422,7 @@ Turn on Tablet mode if desired for accessibility needs.
 
 7. Verify power and sleep settings.
 
-    - Screen Saver: 15 minutes, set to (none), Mystify or Blank; check box for requiring password is checked
+    - Screen Saver: 15 minutes, set to (none), Mystify or Blank; ensure the check box for requiring password is selected.
     - Screen: **Turn off after 2 hours**.
     - PC:  **Turn off after 4 hours**.
     
