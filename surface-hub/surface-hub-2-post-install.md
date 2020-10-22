@@ -39,7 +39,7 @@ When performing these steps, you might find it useful to use a wired or wireless
 
     - The settings used here are intended to enable the best large-screen touch experience, and therefore you may not want to sync other devices.
     
-4. Reboot the device.
+4. Restart the device.
 
 ## Enable the touch keyboard and touchpad
 
@@ -111,13 +111,13 @@ To sync internal corporate files to your local drive with the OneDrive sync app:
 5. Verify the configuration is set to keep the files online and download the files only as you use them:
 
     1. Open file explorer.
-    2. Navigate to and right select on the **Microsoft \ \<SharePoint Document Folder Name\>**.
+    2. Navigate to and right click your SharePoint name; for example, **Contoso \ \<SharePoint Document Folder Name\>**.
     3. Select **Free up space**.
     4. The Status column will display the status of files and folders. For more information, see [Sync SharePoint files with the OneDrive sync client](https://support.microsoft.com/office/sync-sharepoint-files-with-the-onedrive-sync-client-groove-exe-59b1de2b-519e-4d3a-8f45-51647cf291cd).
     
 6. Teams Channel files are stored in SharePoint sites, with all of the same SharePoint document functionality, including version history and synchronizing to your local desktop devices. To sync Teams Channel files:
 
-    1. Navigate to the Teams Channel of interest and select the **Files** tab at the top. Then select **Sync**. The files will start synchronizing and will be visible in File Explorer at **Desktop \ Microsoft \ \<name of the Teams Channel\>**.
+    1. Navigate to the Teams Channel of interest and select the **Files** tab at the top. Then select **Sync**. The files will start synchronizing and will be visible in File Explorer at **Desktop \ Contoso \ \<name of the Teams Channel\>**.
     2. Use the same procedure that you used for synchronizing SharePoint sites to keep the files in the cloud and only download them when you use them, by tap and hold or right-click in File Explorer on the Teams Channel name, and then selecting **Free up space**.
 
 ## Surface Hub pen settings
@@ -140,7 +140,7 @@ Pair the pen to keep the pen firmware up to date and get battery charge informat
 
 7. Complete the pairing operation. 
 
-8. If the pairing is not successful, you can attempt to pair the pen again. If that doesn't work, you can test to see if the battery is charged by verifying the pen works in the Whiteboard application. If not, then replace the battery and then try to pair the pen again. If necessary, reboot the device and then try again.
+8. If the pairing is not successful, you can attempt to pair the pen again. If that doesn't work, you can test to see if the battery is charged by verifying the pen works in the Whiteboard application. If not, then replace the battery and then try to pair the pen again. If necessary, restart the device and then try again.
 
 **Set pen shortcuts**
 The Surface Hub pen has a shortcut button sometimes referred to as a "tail click". Configuring shortcuts requires you to first pair the pen, as described earlier.
@@ -407,7 +407,7 @@ Turn on Tablet mode if desired for accessibility needs.
 
    1. At an elevated command prompt, enter **gpupdate /force /boot /wait:0**.
    
-3. Reboot the device.
+3. Restart the device.
 
 4. Verify taskbar apps.
 
