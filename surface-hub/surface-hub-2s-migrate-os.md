@@ -154,7 +154,7 @@ The SEMM package created by using the Surface UEFI Configurator tool must be sec
     ![Set Enable OS Migration to On](images/shm-fig12.png)
 
 > [!NOTE]
-> After you apply a SEMM package, all UEFI settings will display as grayed out (locked) in the UEFI menu on the device. This includes default values for other settings such as IPv6 for PXE Boot. To modify UEFI settings after completing the migration, you will need to apply another SEMM package or unenroll the device from SEMM. If you apply another SEMM package to modify the UEFI settings, you must use the original Certificate when building the new SEMM package using the UEFI Configurator tool. 
+> After you apply a SEMM package, all UEFI settings will display as grayed out (locked) in the UEFI menu on the device. This includes default values for other settings such as IPv6 for PXE Boot. To modify UEFI settings after completing the migration, you will need to apply another SEMM package or unenroll the device from SEMM. If you apply another SEMM package to modify the UEFI settings, you must use the original Certificate when building the new SEMM package using the UEFI Configurator tool and leave the "EnableOSMigration" OFF (and not "on" as shown in the original migration steps).
 
 #### Save SEMM package to USB drive
 
