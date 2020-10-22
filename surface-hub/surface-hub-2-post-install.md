@@ -303,6 +303,11 @@ For information about setting up the app, see [How to set up Your Phone on Windo
 
 Download and install the new [Edge Chromium browser](https://www.microsoft.com/en-us/edge?form=MY01BL&OCID=MY01BL).
 
+
+### Surface Hub Hardware Diagnostic tool
+
+The [Surface Hub Hardware Diagnostic tool](https://www.microsoft.com/p/surface-hub-hardware-diagnostic/9nblggh51f2g) available for free from the Microsoft Store. The tool is designed to help you make sure your Surface Hub is performing at its best. It contains tests to determine if your firmware is up to date and configured correctly. Interactive tests allow you to confirm essential functionality is working as expected. If problems are encountered, results can be saved and shared with the Surface Hub Support Team. Click on the link to install it from the Microsoft Store, and then pin the application to your taskbar.
+
 ## Additional settings
 
 ### Pen tail select to launch Whiteboard
@@ -420,7 +425,7 @@ Turn on Tablet mode if desired for accessibility needs.
     
 6. Verify projecting to this PC is enabled with the Connect App. After configuring  **Project to this PC** settings, run the Connect App at least once. (Subsequently, the Connect App does not need to be running in order to project to Surface Hub.)
 
-7. Verify power and sleep settings.
+7. Verify power and sleep settings
 
     - Screen Saver: 15 minutes, set to (none), Mystify or Blank; ensure the check box for requiring password is selected.
     - Screen: **Turn off after 2 hours**.
