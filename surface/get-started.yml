@@ -39,7 +39,7 @@ landingContent:
          - text: Maximizing ROI with Microsoft Surface
            url: forrester-tei-study.md
          - text: Windows Virtual Desktop on Surface
-            url: windows-virtual-desktop-surface.md
+           url: windows-virtual-desktop-surface.md
          - text: What’s new in Surface Dock 2
            url: surface-dock-whats-new.md    
  
