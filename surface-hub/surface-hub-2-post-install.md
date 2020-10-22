@@ -433,7 +433,7 @@ Turn on Tablet mode if desired for accessibility needs.
     
 6. Verify projecting to this PC is enabled with the Connect App. After configuring  **Project to this PC** settings, run the Connect App at least once. (Subsequently, the Connect App does not need to be running in order to project to Surface Hub.)
 
-7. Verify power and sleep settings
+7. Verify power and sleep settings.
 
     - Screen Saver: 15 minutes, set to (none), Mystify or Blank; ensure the check box for requiring password is selected.
     - Screen: **Turn off after 2 hours**.
