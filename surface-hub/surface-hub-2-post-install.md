@@ -39,13 +39,14 @@ When performing these steps, you might find it useful to use a wired or wireless
 
     - The settings used here are intended to enable the best large-screen touch experience, and therefore you may not want to sync other devices.
     
-4. Reboot the device.
+4. Restart the device.
 
 ## Enable the touch keyboard and touchpad
 
 1. Tap and hold or right-click the taskbar and then select **Show touch keyboard button** and **Show touchpad button**. 
 
     - The touch keyboard is helpful for direct user input, and the virtual touchpad helps with precise selections, hovering screen tips, or as an alternative to tap and hold for right-click. 
+    
     - See the following example.
 
       ![Touch settings](images/touch.png)
@@ -58,10 +59,9 @@ When performing these steps, you might find it useful to use a wired or wireless
     
     3. Select the next to last keyboard type on the top row to enable QWERTY, and the last option on the second row to enable floating, which is very helpful on this large screen. See the following examples.
 
-      ![Keyboard settings](images/kbd.png)
+       ![Keyboard settings](images/kbd.png)
  
 3. Configure the soft keyboard settings.
-
 
     1. Select the **Settings** icon on the touch keyboard or search for and open **Typing settings**.
     
@@ -85,6 +85,7 @@ If your Surface Hub device is near to a PC, you can use [Mouse without Borders](
 Use [OneDrive for Business](https://docs.microsoft.com/onedrive/onedrive) to easily share tools, logs, and other files between all your work devices.
 
 - OneDrive enables you to share your work files between your laptops, Surface Hub Desktop, and your Intune-managed mobile devices. Files can be edited on any device, and all network connected devices will be updated with the changes.
+
 - Considering the size of the Surface Hub SSD (128GB), if you configure OneDrive on your Surface Hub Desktop device, make sure the default configuration is to keep the files online and download files as you use them.
 
 To configure OneDrive to download files only when needed, set the **Files On-Demand** setting to **Save space and download files as you use them**. For more information, see [Query and set Files On-Demand states in Windows](https://docs.microsoft.com/onedrive/files-on-demand-windows).
@@ -111,13 +112,17 @@ To sync internal corporate files to your local drive with the OneDrive sync app:
 5. Verify the configuration is set to keep the files online and download the files only as you use them:
 
     1. Open file explorer.
-    2. Navigate to and right select on the **Microsoft \ \<SharePoint Document Folder Name\>**.
+    
+    2. Navigate to and right click your SharePoint name; for example, **Contoso \ \<SharePoint Document Folder Name\>**.
+    
     3. Select **Free up space**.
+    
     4. The Status column will display the status of files and folders. For more information, see [Sync SharePoint files with the OneDrive sync client](https://support.microsoft.com/office/sync-sharepoint-files-with-the-onedrive-sync-client-groove-exe-59b1de2b-519e-4d3a-8f45-51647cf291cd).
     
 6. Teams Channel files are stored in SharePoint sites, with all of the same SharePoint document functionality, including version history and synchronizing to your local desktop devices. To sync Teams Channel files:
 
-    1. Navigate to the Teams Channel of interest and select the **Files** tab at the top. Then select **Sync**. The files will start synchronizing and will be visible in File Explorer at **Desktop \ Microsoft \ \<name of the Teams Channel\>**.
+    1. Navigate to the Teams Channel of interest and select the **Files** tab at the top. Then select **Sync**. The files will start synchronizing and will be visible in File Explorer at **Desktop \ Contoso \ \<name of the Teams Channel\>**.
+    
     2. Use the same procedure that you used for synchronizing SharePoint sites to keep the files in the cloud and only download them when you use them, by tap and hold or right-click in File Explorer on the Teams Channel name, and then selecting **Free up space**.
 
 ## Surface Hub pen settings
@@ -140,7 +145,7 @@ Pair the pen to keep the pen firmware up to date and get battery charge informat
 
 7. Complete the pairing operation. 
 
-8. If the pairing is not successful, you can attempt to pair the pen again. If that doesn't work, you can test to see if the battery is charged by verifying the pen works in the Whiteboard application. If not, then replace the battery and then try to pair the pen again. If necessary, reboot the device and then try again.
+8. If the pairing is not successful, you can attempt to pair the pen again. If that doesn't work, you can test to see if the battery is charged by verifying the pen works in the Whiteboard application. If not, then replace the battery and then try to pair the pen again. If necessary, restart the device and then try again.
 
 **Set pen shortcuts**
 The Surface Hub pen has a shortcut button sometimes referred to as a "tail click". Configuring shortcuts requires you to first pair the pen, as described earlier.
@@ -149,7 +154,7 @@ The Surface Hub pen has a shortcut button sometimes referred to as a "tail click
 
 2. Near the bottom of the page, select Pen shortcuts which opens the dialog box, shown here:
 
-![Pen shortcuts](images/sh2-pen-shortcuts.png)
+   ![Pen shortcuts](images/sh2-pen-shortcuts.png)
 
 ## Camera configuration
 
@@ -196,7 +201,9 @@ To add an icon to the taskbar that enables one-touch screen lock similar to the 
 To update all installed Store apps:
 
 1. Open Microsoft Store app and select the **See more** ellipsis in the top-right corner.
+
 2. Select **Downloads and updates**.
+
 2. Select **Get updates**.
 
 ### Microsoft Whiteboard
@@ -242,6 +249,7 @@ Alternatively, you can install Whiteboard from the Microsoft Store:
 3. If Outlook is installed, be sure to set the Outlook OST to only save last two weeks cache. This will vastly reduce disk usage and setup time.
 
     - Select **File** > **Account Settings** and select your account.
+    
     - Select **Change** and set the slider for **Use Cached Exchange Mode** to 14 days.
 
 ### Microsoft Teams
@@ -337,7 +345,7 @@ Windows 10 Pro or Enterprise on Surface Hub 2 keeps the screen from going to sle
 2. Configure **Screen timeout settings** and **Screen saver settings** to your preference. Recommended default values are:
 
    - Screen saver to (None) or a screen saver of your choice.
-   - Wait” time to 15 minutes.
+   - Wait time to 15 minutes.
    - On resume, display logon screen.
 
 
@@ -407,7 +415,7 @@ Turn on Tablet mode if desired for accessibility needs.
 
    1. At an elevated command prompt, enter **gpupdate /force /boot /wait:0**.
    
-3. Reboot the device.
+3. Restart the device.
 
 4. Verify taskbar apps.
 
@@ -425,7 +433,7 @@ Turn on Tablet mode if desired for accessibility needs.
     
 6. Verify projecting to this PC is enabled with the Connect App. After configuring  **Project to this PC** settings, run the Connect App at least once. (Subsequently, the Connect App does not need to be running in order to project to Surface Hub.)
 
-7. Verify power and sleep settings
+7. Verify power and sleep settings.
 
     - Screen Saver: 15 minutes, set to (none), Mystify or Blank; ensure the check box for requiring password is selected.
     - Screen: **Turn off after 2 hours**.
