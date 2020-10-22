@@ -36,10 +36,10 @@ landingContent:
     linkLists:
       - linkListType: get-started
         links:
-         - text: Surface Book 3 GPU technical overview
-           url: surface-book-gpu-overview.md
-         - text: Surface Book 3 Quadro RTX 3000 technical overview
-           url: surface-book-quadro.md
+         - text: Maximizing ROI with Microsoft Surface
+           url: forrester-tei-study.md
+         - text: Windows Virtual Desktop on Surface
+           url: windows-virtual-desktop-surface.md
          - text: What’s new in Surface Dock 2
            url: surface-dock-whats-new.md    
  
@@ -64,8 +64,8 @@ landingContent:
             url: windows-autopilot-and-surface-devices.md
           - text: Surface Registration Support for Windows Autopilot
             url: surface-autopilot-registration-support.md
-          - text: Windows Virtual Desktop on Surface
-            url: windows-virtual-desktop-surface.md
+          - text: Surface Deployment Accelerator tool
+            url: microsoft-surface-deployment-accelerator.md
   
     # Card
   - title: Manage Surface devices
@@ -74,51 +74,51 @@ landingContent:
         links:
           - text: Manage and deploy Surface driver and firmware updates
             url: manage-surface-driver-and-firmware-updates.md
-          - text: Best practice power settings for Surface devices
-            url: maintain-optimal-power-settings-on-Surface-devices.md
-          - text: Optimize Wi-Fi connectivity for Surface devices
-            url: surface-wireless-connect.md
-
-  # Card
-  - title: Explore security guidance
-    linkLists:
-      - linkListType: how-to-guide
-        links:
-          - text: Secure Surface Dock 2 ports with Surface Enterprise Management Mode (SEMM)
-            url: secure-surface-dock-ports-semm.md
           - text: Intune management of Surface UEFI settings
             url: surface-manage-dfci-guide.md
-          - text: Surface Data Eraser tool
-            url: microsoft-surface-data-eraser.md
- 
- # Card
-  - title: Discover Surface tools
-    linkLists:
-      - linkListType: how-to-guide
-        links:
-          - text: Surface Diagnostic Toolkit for Business
-            url: surface-diagnostic-toolkit-for-business-intro.md
-          - text: SEMM and UEFI
-            url: surface-enterprise-management-mode.md
-          - text: Surface Deployment Accelerator tool
-            url: microsoft-surface-deployment-accelerator.md
+          - text: Deploying, managing, and servicing Surface Pro X
+            url: surface-pro-arm-app-management.md
 
  # Card
   - title: Troubleshoot
     linkLists:
       - linkListType: learn
         links:
+          - text: Deploy Surface Diagnostic Toolkit for Business
+            url: surface-diagnostic-toolkit-business.md
           - text: Top support solutions
             url: support-solutions-surface.md
           - text: Best practices for SSD removal in compatible Surface devices
             url: surface-ssd-removal-guide.md
-          - text: Surface IT Pro Blog
-            url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/bg-p/SurfaceITPro
           - text: Protecting your data during Surface repair or service
             url: https://support.microsoft.com/help/4023508/surface-faq-protecting-your-data-service
           - text: Troubleshoot Surface Dock and docking stations
             url: https://support.microsoft.com/help/4023468/surface-troubleshoot-surface-dock-and-docking-stations
-            
+
+  # Card
+  - title: Explore security guidance
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+         - text: DMA Protection on Surface devices
+           url: dma-protect.md 
+         - text: Secure Surface Dock 2 ports with Surface Enterprise Management Mode (SEMM)
+           url: secure-surface-dock-ports-semm.md
+         - text: Surface Data Eraser tool
+           url: microsoft-surface-data-eraser.md          
+
+ # Card
+  - title: Discover Surface tools
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: Deploy Surface Diagnostic Toolkit for Business
+            url: surface-diagnostic-toolkit-business.md
+          - text: SEMM and UEFI
+            url: surface-enterprise-management-mode.md
+          - text: Battery Limit setting
+            url: battery-limit.md
+
 # Card
   - title: Participate in Surface Community 
     linkLists:
