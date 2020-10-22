@@ -103,9 +103,9 @@ landingContent:
          - text: DMA Protection on Surface devices
            url: dma-protect.md 
          - text: Secure Surface Dock 2 ports with Surface Enterprise Management Mode (SEMM)
-            url: secure-surface-dock-ports-semm.md
+           url: secure-surface-dock-ports-semm.md
          - text: Surface Data Eraser tool
-            url: microsoft-surface-data-eraser.md          
+           url: microsoft-surface-data-eraser.md          
 
  # Card
   - title: Discover Surface tools
