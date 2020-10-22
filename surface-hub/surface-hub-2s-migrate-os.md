@@ -31,14 +31,14 @@ You start the migration from Windows 10 Team using a separate PC and downloadabl
 
 ## Solution Components
 
-- Surface Hub 2S device running Windows 10 Team operating system
-- Separate device running Windows 10
-- Surface UEFI Configurator tool to create the SEMM package
-- Windows 10 Pro or Enterprise OS image, version 1903 or greater
-- Two USB drives with 16GB of storage, FAT32 format
-- Drivers and Firmware for Windows 10 Pro and Enterprise on Surface Hub 2, Windows Installer .MSI file
-- Internet connection
-- Imaging solution (optional)
+- Surface Hub 2S device running Windows 10 Team operating system.
+- Separate device running Windows 10.
+- Surface UEFI Configurator tool to create the SEMM package.
+- Windows 10 Pro or Enterprise OS image, version 1903 or greater.
+- Two USB drives with 16GB of storage, FAT32 format.
+- Drivers and Firmware for Windows 10 Pro and Enterprise OS on Surface Hub 2, Windows Installer .MSI file.
+- Internet connection.
+- Imaging solution (optional).
 
  
 ## Migration and installation workflow summary
@@ -49,10 +49,10 @@ You start the migration from Windows 10 Team using a separate PC and downloadabl
 | 2 | [Download Surface UEFI Configurator and Surface Hub 2 Drivers and Firmware](#download-surface-uefi-configurator-and-surface-hub-2-drivers-and-firmware)                             | Select the Download button on the [Surface Tools for IT](https://www.microsoft.com/download/details.aspx?id=46703) page, select and download the **Surface UEFI Configurator .MSI file** and install it on a separate PC. Download [Drivers and Firmware for Windows 10 Pro and Enterprise OS on Surface Hub 2 .MSI file](https://www.microsoft.com/download/details.aspx?id=101974) and save it for use in Step 5. |
 | 3 | [Prepare SEMM certificate](#prepare-semm-certificate)                                                                          | Prepare required certificate for running Surface UEFI Configurator or use your current certificate.                                                                                                                                                                                                                                                                                                      |
 | 4 | [Create SEMM package](#create-semm-package)                                                                               | Launch Surface UEFI Configurator to create a SEMM package on a USB drive, which will contain the required configuration files to apply on Surface Hub 2S. Copy these SEMM package  files to a folder on your PC.                                                                                                                                                                                          |
-| 5 | [Prepare USB flash drive containing Windows 10 image, SEMM package, and Drivers and Firmware for Windows 10 Pro and Enterprise on Surface Hub 2](#prepare-usb-flash-drive-containing-windows-10-image-semm-package-and-surface-hub-2-drivers-and-firmware) | Create a single USB drive (named **BOOTME** in this example) containing a Windows 10 image. Add your Drivers and Firmware for Windows 10 Pro and Enterprise on Surface Hub 2 (Step 2) and SEMM package files (Step 4) to the **BOOTME** drive.                                                                                                                                                                                                  |
+| 5 | [Prepare USB flash drive containing Windows 10 image, SEMM package, and Drivers and Firmware for Windows 10 Pro and Enterprise OS on Surface Hub 2](#prepare-usb-flash-drive-containing-windows-10-image-semm-package-and-surface-hub-2-drivers-and-firmware) | Create a single USB drive (named **BOOTME** in this example) containing a Windows 10 image. Add your Drivers and Firmware for Windows 10 Pro and Enterprise OS on Surface Hub 2 (Step 2) and SEMM package files (Step 4) to the **BOOTME** drive.                                                                                                                                                                                                  |
 | 6 | [Update UEFI on Surface Hub 2S to enable OS migration](#update-uefi-on-surface-hub-2s-to-enable-os-migration)                                              | Use the **BOOTME** drive to boot Surface Hub 2S to the UEFI menu and install SEMM package.|
 | 7 | [Install Windows 10 Pro or Enterprise version 1903 or later](#install-windows-10-pro-or-enterprise)                                        | Use the **BOOTME** drive to Install **Windows 10 Pro or Enterprise** version 1903 or later.                                                                                                                                                                                                                                                                                 |
-| 8 | [Install Drivers and Firmware for Windows 10 Pro and Enterprise on Surface Hub 2](#install-surface-hub-2-drivers-and-firmware)                                        | To ensure your device has all the latest updates and drivers, install [Drivers and Firmware for Windows 10 Pro and Enterprise on Surface Hub 2 .MSI file](https://www.microsoft.com/download/details.aspx?id=101974).                                                                                                                                                                                                                                                                                  |
+| 8 | [Install Drivers and Firmware for Windows 10 Pro and Enterprise OS on Surface Hub 2](#install-surface-hub-2-drivers-and-firmware)                                        | To ensure your device has all the latest updates and drivers, install [Drivers and Firmware for Windows 10 Pro and Enterprise OS on Surface Hub 2 .MSI file](https://www.microsoft.com/download/details.aspx?id=101974).                                                                                                                                                                                                                                                                                  |
 | 9 | [Fully configure Surface Hub 2S as a personal productivity device](#next-steps)                                        |  Enable recommended settings and applications to optimize use of Surface Hub 2S as a personal productivity device.                                                                                                                                                                                                                                                                    |
 
 ### Verify UEFI version on Surface Hub 2S meets minimum requirements
@@ -100,7 +100,7 @@ The SEMM package created by using the Surface UEFI Configurator tool must be sec
  
 ### Create SEMM package
 
-1. Install the **Surface UEFI Configurator** tool downloaded earlier to a separate PC. 
+1. Install the **Surface UEFI Configurator** tool, as downloaded earlier, to a separate PC. 
 
 2. Open **Surface UEFI Configurator** and select **Start**.
 
@@ -180,14 +180,14 @@ You can install a Windows 10 Pro or Enterprise image (version 1903 or later) usi
 
 - [Surface Deployment Accelerator](https://docs.microsoft.com/surface/microsoft-surface-deployment-accelerator) lets you create a bootable Windows 10 image which can include all current Windows 10 updates, Office, other apps of your choice, as well as the required drivers and firmware. 
 
-- USB flash drive with Windows 10 Pro or Enterprise image, followed by installing  [Drivers and Firmware for Windows 10 Pro and Enterprise on Surface Hub 2](https://www.microsoft.com/download/details.aspx?id=101974).
+- USB flash drive with Windows 10 Pro or Enterprise image, followed by installing  [Drivers and Firmware for Windows 10 Pro and Enterprise OS on Surface Hub 2](https://www.microsoft.com/download/details.aspx?id=101974).
  
-This procedure describes creating a USB flash drive from installation media and then adding the SEMM package files and Drivers and Firmware for Windows 10 Pro and Enterprise on Surface Hub 2 .MSI file. If you’re using other deployment methods, proceed to the following section: [Update UEFI on Surface Hub 2S to enable OS migration](#update-uefi-on-surface-hub-2s-to-enable-os-migration).
+This procedure describes creating a USB flash drive from installation media and then adding the SEMM package files and Drivers and Firmware for Windows 10 Pro and Enterprise OS on Surface Hub 2 .MSI file. If you’re using other deployment methods, proceed to the section [Update UEFI on Surface Hub 2S to enable OS migration](#update-uefi-on-surface-hub-2s-to-enable-os-migration).
 
 > [!NOTE]
 > Once installed, you will need a valid license for Windows 10 Pro or Windows 10 Enterprise that is separate from your existing Windows 10 Team license.
 
-1. To create a Windows 10 Pro installation, follow the instructions on the [Download Windows 10](https://www.microsoft.com/software-download/windows10) page for using the **Media Creation** tool. To download Windows 10 Enterprise, go to the [Microsoft Volume Licensing Service Center.](https://www.microsoft.com/licensing/servicecenter/default.aspx).
+1. To create a Windows 10 Pro installation, follow the instructions on the [Download Windows 10](https://www.microsoft.com/software-download/windows10) page for using the **Media Creation** tool. To download Windows 10 Enterprise, go to the [Microsoft Volume Licensing Service Center](https://www.microsoft.com/licensing/servicecenter/default.aspx).
 
 2. Insert a new **USB storage** drive. Launch the **Media Creation** tool, select **Create installation media** and then select **Next**.
 
@@ -205,20 +205,20 @@ This procedure describes creating a USB flash drive from installation media and 
 
    ![Select Finish](images/shm-fig19.png)
    
-6. Copy the SEMM package files and Drivers and Firmware for Windows 10 Pro and Enterprise on Surface Hub 2 (.MSI file) to the ROOT of the USB flash drive (**BOOTME**) containing your Windows 10 image. BOOTME USB drive contains:
+6. Copy the SEMM package files and Drivers and Firmware for Windows 10 Pro and Enterprise OS on Surface Hub 2 (.MSI file) to the ROOT of the USB flash drive (**BOOTME**) containing your Windows 10 image. BOOTME USB drive contains:
 
-    - Your Windows 10 bootable image
+    - Your Windows 10 bootable image.
     
     - SEMM package files (copied to the root of the USB drive)
     
-      - DfciUpdate.dfi
-      - Text file with the SEMM thumbprint. (In this example: SurfaceUEFI_2020Aug25_1058.txt. The auto-generated date timestamp corresponds to the date that you created the file using Surface UEFI Configurator.)
+      - DfciUpdate.dfi.
+      - Text file with the SEMM thumbprint. (In this example: SurfaceUEFI_2020Aug25_1058.txt.) The auto-generated date timestamp corresponds to the date that you created the file using Surface UEFI Configurator.
 
    - Drivers and Firmware for Windows 10 Pro and Enterprise OS on Surface Hub 2 (SurfaceHub2S_Win10_18362_20.082.25682.0.msi), also copied to the root of the USB drive.
 
 ### Update UEFI on Surface Hub 2S to enable OS migration
 
-1. Insert your **BOOTME** drive into the USB-A port on Surface Hub 2S.(See the previous section for the list of required files.)
+1. Insert your **BOOTME** drive into the USB-A port on Surface Hub 2S. (See the previous section for the list of required files.)
 
 2. To boot into UEFI:
 
@@ -249,7 +249,7 @@ This procedure describes creating a USB flash drive from installation media and 
    > [!NOTE]
    > Once you activate SEMM on your device, the new UEFI setting **EnableOSMigration** is applied. You will no longer be able to access Windows 10 Team and must proceed to the next step and install Windows 10 Pro or Windows 10 Enterprise. 
 
-8. The device will reboot, display the white 4-square logo in the middle of the screen, and then again it will shut down
+8. The device will reboot, display the white 4-square logo in the middle of the screen, and then it will shut down again.
 
 ### Install Windows 10 Pro or Enterprise
 
@@ -265,7 +265,7 @@ This procedure describes creating a USB flash drive from installation media and 
 
 ### Install Surface Hub 2 drivers and firmware
 
- - To ensure your device has all the latest updates and drivers, install [Drivers and Firmware for Windows 10 Pro and Enterprise on Surface Hub 2](https://www.microsoft.com/download/details.aspx?id=101974).
+ - To ensure your device has all the latest updates and drivers, install [Drivers and Firmware for Windows 10 Pro and Enterprise OS on Surface Hub 2](https://www.microsoft.com/download/details.aspx?id=101974).
  
 ### Next steps
 
@@ -276,7 +276,7 @@ To fully configure Surface Hub 2S as a personal productivity device, see [Config
 
 ### Rolling back to Windows 10 Team
 
-If you would Like to restore your device to Windows 10 Team, refer to [Reset and recovery for Surface Hub 2S](surface-hub-2s-recover-reset.md)
+If you would Like to restore your device to Windows 10 Team, refer to [Reset and recovery for Surface Hub 2S](surface-hub-2s-recover-reset.md).
 
 ## Version history
 
