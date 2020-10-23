@@ -16,9 +16,7 @@ ms.date: 10/23/2020
 # Optimize Wi-Fi connectivity for Surface devices
 
 
-To stay connected with all-day battery life, Surface devices implement wireless connectivity settings that balance performance and power conservation. Outside of the most demanding mobility scenarios, users can maintain sufficient wireless connectivity without modifying default network adapter or related settings. 
-
-In congested network environments, organizations can implement purpose-built wireless protocols across multiple network access points to facilitate roaming. This page highlights key wireless connectivity considerations in mobile scenarios using the latest Surface devices such as Surface Pro 7, Surface Laptop 3, Surface Book 3, and Surface Go 2.  
+To stay connected with all-day battery life, Surface devices implement wireless connectivity settings that balance performance and power conservation. Outside of the most demanding mobility scenarios, users can maintain sufficient wireless connectivity without modifying default network adapter or related settings. This page highlights key wireless connectivity considerations in mobile scenarios using the latest Surface devices such as Surface Pro 7, Surface Laptop 3, Surface Book 3, and Surface Go 2.  
 
 ## Prerequisites
 
@@ -68,11 +66,11 @@ You can also toggle the band setting as needed to suit your environment. For exa
 
 ### Roaming aggressiveness settings Surface devices with Intel adapters 
 
-Users may wish to select a signal strength threshold that prompts the device to search for a new access point when the signal drops (roaming aggressiveness). By default, Surface devices with Intel adapters attempt to roam to a new access point if the signal strength drops below **Medium** (72 percent signal strength). Note that whenever you increase roaming aggressiveness, you accelerate battery power consumption.
+Users may wish to select a signal strength threshold that prompts the device to search for a new access point when the signal drops (roaming aggressiveness). By default, Surface devices with Intel adapters attempt to roam to a new access point if the signal strength drops below **Medium** (72 percent signal strength). Note also that organizations can implement purpose-built wireless protocols across multiple network access points to facilitate roaming congested network environments, as explained earlier on this page. 
 
 While increasing roaming aggressiveness above **Medium** may yield improved connectivity in highly congested office or residential environments, it can result in degraded connectivity when stepping outside of these environments. 
 
-It’s recommended to leave the roaming aggressiveness setting in the default state unless you’re encountering connectivity issues in specific mobile scenarios such as conducting environmental site inspections while also maintaining voice and video connectivity during a conference meeting. If you don’t notice any improvement, revert to the default Medium state.
+It’s recommended to leave the roaming aggressiveness setting in the default state unless you’re encountering connectivity issues in specific mobile scenarios such as conducting environmental site inspections while also maintaining voice and video connectivity during a conference meeting. If you don’t notice any improvement, revert to the default Medium state. Note that if you increase roaming aggressiveness, you also accelerate battery power consumption. 
 
 **To enable roaming aggressiveness on Surface:**
 
