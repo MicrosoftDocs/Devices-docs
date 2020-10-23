@@ -16,7 +16,7 @@ ms.date: 10/23/2020
 # Optimize Wi-Fi connectivity for Surface devices
 
 
-To stay connected with all-day battery life, Surface devices implement wireless connectivity settings that balance performance and power conservation. Outside of the most demanding mobility scenarios, users can maintain sufficient wireless connectivity without modifying default network adapter or related settings. This page highlights key wireless connectivity considerations in mobile scenarios using the latest Surface devices such as Surface Pro 7, Surface Laptop 3, Surface Book 3, and Surface Go 2.  
+To stay connected with all-day battery life, Surface devices implement wireless connectivity settings that balance performance and power conservation. Outside of the most demanding mobility scenarios, users can maintain sufficient wireless connectivity without modifying default network adapter or related settings. This page highlights key wireless connectivity considerations in mobile scenarios using the latest Surface devices including Surface Pro 7, Surface Pro X, Surface Laptop 3, Surface Book 3,  Surface Go 2, and Surface Laptop Go.  
 
 ## Prerequisites
 
