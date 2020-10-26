@@ -30,10 +30,5 @@
             "redirect_url":  "https://docs.microsoft.com/surface-duo/contact-surface-duo-support",
             "redirect_document_id":  false
         }
-        {
-            "source_path":  "surface-hub/surface-hub-install-2020preview.md",
-            "redirect_url":  "https://docs.microsoft.com/surface-hub/surface-hub-2020-update",
-            "redirect_document_id":  false
-        }
 ]
 }
