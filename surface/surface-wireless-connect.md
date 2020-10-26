@@ -27,7 +27,6 @@ This document assumes you have successfully deployed a wireless network that sup
 If you’re managing a wireless network that’s typically accessed by many different types of client devices, it’s recommended to enable specific protocols on access points (APs) in your WLAN, as described in [Fast Roaming with 802.11k, 802.11v, and 802.11r](https://docs.microsoft.com/windows-hardware/drivers/network/fast-roaming-with-802-11k--802-11v--and-802-11r). Surface devices can take advantage of the following wireless protocols:
 
 - **802.11r.** “**Fast BSS Transition”** accelerates connecting to new wireless access points by reducing the number of frames required before your device can access another AP as you move around with your device. In the new generation of Surface devices released since 2019, end users may gain access to roaming aggressiveness settings on their device. Although modifying default settings is not recommended, users should be aware of this capability and understand how specific settings can impact their ability to remain connected.
-- 
 - **802.11k.** **“Neighbor Reports”** provides devices with information on current conditions at neighboring access points. It can help your Surface device choose the best AP using criteria other than signal strength such as AP utilization.
 
 Specific Surface devices can also use 802.11v “BSS Transition Management Frames,” which functions much like 802.11k in providing information on nearby candidate APs. These include Surface Go, Surface Pro 7, Surface Pro X, and Surface Laptop 3. 
