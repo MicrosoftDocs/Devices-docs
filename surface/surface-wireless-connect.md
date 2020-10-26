@@ -11,7 +11,7 @@ ms.author: greglin
 ms.topic: article
 ms.reviewer: tokatz
 manager: laurawi
-ms.date: 10/23/2020
+ms.date: 10/26/2020
 ---
 # Optimize Wi-Fi connectivity for Surface devices
 
@@ -64,7 +64,7 @@ Keep in mind that 2.4 GHz has some advantages over 5 GHz: It extends further and
 
 You can also toggle the band setting as needed to suit your environment. For example, users living in high density apartment buildings with multiple Wi-Fi hotspots  —  amid the presence of consumer devices all broadcasting via 2.4 GHz  —  will likely benefit by setting their Surface device to connect on 5 GHz only and then revert to Auto when needed.
 
-### Roaming aggressiveness settings Surface devices with Intel adapters 
+### Roaming aggressiveness settings on Surface devices with Intel adapters 
 
 Users may wish to select a signal strength threshold that prompts the device to search for a new access point when the signal drops (roaming aggressiveness). By default, Surface devices with Intel adapters attempt to roam to a new access point if the signal strength drops below **Medium** (72 percent signal strength). Note also that organizations can implement purpose-built wireless protocols across multiple network access points to facilitate roaming congested network environments, as explained earlier on this page. 
 
@@ -79,6 +79,8 @@ It’s recommended to leave the roaming aggressiveness setting in the default st
 3. Select the **Advanced** tab.
 4. Select **Roaming Aggressiveness** and choose your preferred value from the drop-down menu.
 
+![* Roaming aggressiveness settings-Intel *](images/wifi-roaming-int.png) <br>
+
 ### Roaming aggressiveness settings on Surface Go and Surface Pro X
 
 Front-line workers using Surface Go may wish to select a signal strength threshold that prompts the device to search for a new access point when signal strength drops (roaming aggressiveness). By default, Surface devices attempt to roam to a new access point if the signal strength drops below **Medium** (50 percent signal strength). Note that whenever you increase roaming aggressiveness, you accelerate battery power consumption.
@@ -92,7 +94,8 @@ Leave the roaming aggressiveness setting in the default state unless you’re en
 3. Select **Client for Microsoft Networks** and then select **Configure**
 4. Select **Advanced** > **Roaming Aggressiveness** and choose your preferred value from the drop-down menu.
 
-![* Roaming aggressiveness settings *](images/wifi-roaming.png) <br>
+![* Roaming aggressiveness settings-QualComm *](images/wifi-roaming.png) <br>
+
 
 ## Conclusion
 
