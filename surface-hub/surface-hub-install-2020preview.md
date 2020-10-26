@@ -9,7 +9,7 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 08/13/2020
+ms.date: 10/27/2020
 ms.localizationpriority: Medium
 ---
 # Install Windows 10 Team 2020 Update Preview Build 
