@@ -30,6 +30,8 @@ landingContent:
         links:
           - text: Install Windows 10 Team 2020 Update
             url: surface-hub-2020-update.md
+          - text: What's new in Windows 10 Team 2020 Update
+            url: surface-hub-2020-update-whats-new.md
           - text: Surface Hub 2S bridges digital and physical divide in today’s hybrid workspaces
             url: https://blogs.windows.com/devices/2020/09/22/surface-hub-2s-bridges-digital-and-physical-divide-in-todays-hybrid-workspaces/
           - text: Surface Hub 2S 85-inch overview & tech specs
