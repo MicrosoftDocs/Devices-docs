@@ -14,9 +14,12 @@ ms.localizationpriority: Medium
 ---
 # Install Windows 10 Team 2020 Update Preview Build 
 
-The preview build of the Surface Hub operating system, **Windows 10 Team 2020 Update Preview**, is available at no additional cost for Surface Hub 2S from the [Windows Insider Program](https://insider.windows.com).the Surface Hub 50" and Surface Hub 84" model will be supported in a subsequent release of Windows 10 Team 2020 Update.
+The preview build of the Surface Hub operating system, **Windows 10 Team 2020 Update Preview**, is available at no additional cost from the [Windows Insider Program](https://insider.windows.com). 
 
-Windows 10 Team 2020 Update brings major improvements to device deployment and manageability along with the latest Windows 10 features. To learn more about what's new, see the following blog post: [New Surface Hub OS update released for public preview.](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/new-surface-hub-os-update-released-for-public-preview/ba-p/1534823) For known issues, refer to the "Known issues" section below.
+> [!NOTE] The final public release of Windows 10 Team 2020 Update is now available. To learn more, see [Windows 10 Team 2020 Update](surface-hub-2020-update.md).
+> 
+
+Windows 10 Team 2020 Update brings major improvements to device deployment and manageability along with the latest Windows 10 features. To learn more about what's new, see the following blog post: [New Surface Hub OS update released for public preview.](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/new-surface-hub-os-update-released-for-public-preview/ba-p/1534823) For known issues, refer to [Known issues: Windows 10 Team 2020 Update](surface-hub-2020-team-update-known-issues.md)
  
 ## Prerequisites
 
