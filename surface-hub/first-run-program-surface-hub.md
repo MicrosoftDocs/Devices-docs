@@ -129,11 +129,11 @@ This page will be shown when the device detects a wired connection with limited 
 
 -   You can select **Enter proxy settings** which will allow you to specify how to use the network proxy. You'll be taken to the next screen.
 
-![Image showing network proxy page.](images/setupnetworksetup-2.png)
+    ![Image showing network proxy page.](images/setupnetworksetup-2.png)
 
-This is the screen you'll see if you clicked **Enter proxy settings** on the previous screen.
+    This is the screen you'll see if you clicked **Enter proxy settings** on the previous screen.
 
-![Image showing proxy server setting details.](images/setupnetworksetup-4.png)
+    ![Image showing proxy server setting details.](images/setupnetworksetup-4.png)
 
 ### Details
 
@@ -366,9 +366,10 @@ If you've decided to join your Surface Hub to Azure Active Directory (Azure AD),
 Joining Azure AD has two primary benefits:
 
 1.  Some employees from your organization will be able to access the device as admins, and will be able to start the Settings app and configure the device. People that have admin permissions will be defined in your Azure AD subscription.
+
 2.  If your Azure AD is connected to a mobile device management (MDM) solution, the device will enroll with that MDM solution so you can apply policies and configuration.
 
-![Image showing message when you join your Surface Hub to Azure Active Directory.](images/setupjoiningazuread-1.png)
+    ![Image showing message when you join your Surface Hub to Azure Active Directory.](images/setupjoiningazuread-1.png)
 
 ### Details
 
