@@ -13,7 +13,7 @@ ms.reviewer: hachidan
 manager: laurawi
 ms.localizationpriority: medium
 ms.audience: itpro
-ms.date: 10/13/2020
+ms.date: 10/28/2020
 ---
 
 # Use Microsoft Endpoint Configuration Manager to manage devices with SEMM
@@ -383,11 +383,6 @@ To configure Surface UEFI settings or permissions for Surface UEFI settings, you
 
 The computer where ShowSettingsOptions.ps1 is run must have Microsoft Surface UEFI Manager installed, but the script does not require a Surface device.
 
-The best way to view the most current Setting names and IDs for devices is to use the ConfigureSEMM.ps1 script or the ConfigureSEMM - <device name>.ps1 from the SEMM_Powershell.zip in [Surface Tools for IT Downloads](https://www.microsoft.com/download/details.aspx?id=46703).
-
-Setting names and IDs for all devices can be seen in the ConfigureSEMM.ps1 script.
-
-Setting names and IDs for specific devices can be seen in the ConfigureSEMM - <device name>.ps1 scripts. 
 
 ## Deploy SEMM Configuration Manager scripts
 
