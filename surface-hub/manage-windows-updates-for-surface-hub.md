@@ -1,32 +1,31 @@
 ---
 title: Manage Windows updates on Surface Hub
-description: You can manage Windows updates on your Microsoft Surface Hub or Surface Hub 2S by setting the maintenance window, deferring updates, or using Windows Server Update Services (WSUS).
+description: Describes best practices for managing updates on Microsoft Surface Hub or Surface Hub 2S.
 ms.assetid: A737BD50-2D36-4DE5-A604-55053D549045
 ms.reviewer: 
 manager: laurawi
-keywords: manage Windows updates, Surface Hub, Windows Server Update Services, WSUS
+keywords: manage Windows updates, Surface Hub, Windows Server Update Services
 ms.prod: surface-hub
 ms.sitesec: library
 author: dansimp
 ms.author: dansimp
 ms.topic: article
+ms.date: 10/27/2020
 ms.localizationpriority: medium
 ---
 
 # Manage Windows updates on Surface Hub
 
-New releases of the Surface Hub operating system are published through Windows Update, just like releases of Windows 10. There are a couple of ways you can manage which updates are installed on your Surface Hubs, and the timing for when updates are applied.
-- **Windows Update for Business** - New in Windows 10, Windows Update for Business is a set of features designed to provide enterprises additional control over how and when Windows Update installs releases, while reducing device management costs. Using this method, Surface Hubs are directly connected to Microsoft’s Windows Update service.
-- **Windows Server Update Services (WSUS)** - Set of services that enable IT administrators to obtain the updates that Windows Update determines are applicable to the devices in their enterprise, perform additional testing and evaluation on the updates, and select the updates they want to install. Using this method, Surface Hubs will receive updates from WSUS rather than Windows Update.
+New releases of the Surface Hub operating system are published through Windows Update, just like releases of Windows 10. This page explains best practices for managing updates for Surface Hub devices. 
 
-You can also configure Surface Hub to receive updates from both Windows Update for Business and WSUS. See [Integrate Windows Update for Business with Windows Server Update Services](https://technet.microsoft.com/itpro/windows/manage/waas-integrate-wufb#integrate-windows-update-for-business-with-windows-server-update-services) for details.
+## Windows Update for Business
 
-| Capabilities | Windows Update for Business | Windows Server Update Services (WSUS) |
-| ------------ | --------------------------- | ------------------------------------- |
-| Receive updates directly from Microsoft's Windows Update service, with no additional infrastructure required.  | Yes  | No  |
-| Defer updates to provide additional time for testing and evaluation. | Yes  | Yes  |
-| Deploy updates to select groups of devices. | Yes | Yes |
-| Define maintenance windows for installing updates. | Yes  | Yes  |
+Windows Update for Business is a set of features designed to provide enterprises additional control over how and when Windows Update installs releases, while reducing device management costs. Using this method, Surface Hubs are directly connected to Microsoft’s Windows Update service.
+
+- Receive updates directly from Microsoft's Windows Update service, with no additional infrastructure required. 
+- Defer updates to provide additional time for testing and evaluation. 
+- Deploy updates to select groups of devices. 
+- Define maintenance windows for installing updates. 
 
 > [!TIP]
 > Use peer-to-peer content sharing to reduce bandwidth issues during updates. See [Optimize update delivery for Windows 10 updates](https://technet.microsoft.com/itpro/windows/manage/waas-optimize-windows-10-updates) for details.
@@ -51,6 +50,7 @@ For more information on Windows as a Service, see [Overview of Windows as a serv
 
 
 ## Use Windows Update for Business
+
 Surface Hubs, like all Windows 10 devices, include **Windows Update for Business (WUfB)** to enable you to control how your devices are being updated. Windows Update for Business helps reduce device management costs, provide controls over update deployment, offer quicker access to security updates, as well as provide access to the latest innovations from Microsoft on an ongoing basis. For more information, see [Manage updates using Windows Update for Business](https://technet.microsoft.com/itpro/windows/manage/waas-manage-updates-wufb).
 
 **To set up Windows Update for Business:**
@@ -62,9 +62,10 @@ Surface Hubs, like all Windows 10 devices, include **Windows Update for Business
 
 
 ### Group Surface Hub into deployment rings
+
 Use deployment rings to control when updates roll out to your Surface Hubs, giving you time to validate them. For example, you can update a small pool of devices first to verify quality before a broader roll-out to your organization. Depending on who manages Surface Hub in your organization, consider incorporating Surface Hub into the deployment rings that you've built for your other Windows 10 devices. For more information about deployment rings, see [Build deployment rings for Windows 10 updates](https://technet.microsoft.com/itpro/windows/manage/waas-deployment-rings-windows-10-updates).
 
-This table gives examples of deployment rings.
+See the following table for examples of deployment rings.
 
 | Deployment ring | Ring size | Servicing branch | Deferral for feature updates | Deferral for quality updates (security fixes, drivers, and other updates) | Validation step |
 | --------- | --------- | --------- | --------- | --------- | --------- |
@@ -74,10 +75,8 @@ This table gives examples of deployment rings.
 | Mission critical (e.g. devices in executive boardrooms) | Small | Semi-annual channel |  180 days after release (maximum deferral for feature updates). | 30 days after release (maximum deferral for quality updates). | Monitor device usage and user feedback. |
 
 
-
-
-
 ### Configure when Surface Hub receives updates
+
 Once you've determined deployment rings for your Surface Hubs, configure update deferral policies for each ring:
 - To defer feature updates, set an appropriate [Update/DeferFeatureUpdatesPeriodInDays](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-deferfeatureupdatesperiodindays) policy for each ring.
 - To defer quality updates, set an appropriate [Update/DeferQualityUpdatesPeriodInDays](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-deferqualityupdatesperiodindays) policy for each ring.
@@ -85,22 +84,9 @@ Once you've determined deployment rings for your Surface Hubs, configure update 
 > [!NOTE]
 > If you encounter issues during the update rollout, you can pause updates using [Update/PauseFeatureUpdates](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-pausefeatureupdates) and [Update/PauseQualityUpdates](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-pausequalityupdates).
 
-
-## Use Windows Server Update Services
-
-You can connect Surface Hub to your Windows Server Update Services (WSUS) server to manage updates. Updates will be controlled through approvals or automatic deployment rules configured in your WSUS server, so new upgrades will not be deployed until you choose to deploy them.
-
-**To manually connect a Surface Hub to a WSUS server:**
-1. Open **Settings** on your Surface Hub.
-2. Enter the device admin credentials when prompted.
-3. Navigate to **Update & security** > **Windows Update** > **Advanced options** > **Configure Windows Server Update Services (WSUS) server**.
-4. Click **Use WSUS Server to download updates** and type the URL of your WSUS server.
-
-To connect Surface Hub to a WSUS server using MDM, set an appropriate [Update/UpdateServiceUrl](https://msdn.microsoft.com/library/windows/hardware/dn904962.aspx#Update_UpdateServiceUrl) policy.
-
 **If you use a proxy server or other method to block URLs**
 
-If you use a method other than WSUS to block specific URLs and prevent updates, you will need to add the following Windows update trusted site URLs to the “allow list”:
+Add the following Windows update trusted site URLs to the “allow list”:
 - `http(s)://*.update.microsoft.com`
 - `http://download.windowsupdate.com` 
 - `http://windowsupdate.microsoft.com`
@@ -109,7 +95,7 @@ Once the Windows 10 Team Anniversary Update is installed, you can remove these a
 
 ## Maintenance window
 
-To ensure the device is always available for use during business hours, Surface Hub performs its administrative functions during a specified maintenance window. During the maintenance window, the Surface Hub automatically installs updates through Windows Update or WSUS, and reboots the device 20 minutes before the end of the window.
+To ensure the device is always available for use during business hours, Surface Hub performs its administrative functions during a specified maintenance window. During the maintenance window, the Surface Hub automatically installs updates through Windows Update and reboots the device 20 minutes before the end of the window.
 
 Surface Hub follows these guidelines to apply updates:
 - Install the update during the next maintenance window. If a meeting is scheduled to start during a maintenance window, or the Surface Hub sensors detect that the device is being used, the pending update will be postponed to the following maintenance window.
