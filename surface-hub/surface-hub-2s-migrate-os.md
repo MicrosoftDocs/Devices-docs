@@ -153,12 +153,10 @@ The SEMM package that Surface UEFI Configurator creates must be secured with a c
 
     ![Select Next.](images/shm-fig10a.png)
 
-12. To allow installation of Windows 10 Pro or Enterprise, select **EnableOsMigration**.
+12. To allow installation of Windows 10 Pro or Enterprise, turn on **EnableOsMigration** and then select **Next**.
 
     ![Select Enable O S Migration.](images/shm-fig11.png)
     
-13. Turn on **EnableOSMigration** and select **Next**.
-
     ![Set Enable OS Migration to On.](images/shm-fig12.png)
 
 > [!NOTE]
@@ -281,7 +279,7 @@ The following procedure describes how to create a USB flash drive from installat
 
 To ensure your device has all the latest updates and drivers, install [drivers and firmware for Windows 10 Pro and Enterprise OS on Surface Hub 2](https://www.microsoft.com/download/details.aspx?id=101974).
  
-## Next steps
+## Configure recommended settings
 
 To fully configure Surface Hub 2S as a personal productivity device, see [Configure Windows 10 Pro or Enterprise on Surface Hub 2](surface-hub-2-post-install.md).
 
@@ -293,6 +291,8 @@ To fully configure Surface Hub 2S as a personal productivity device, see [Config
 If you want to restore your device to Windows 10 Team, see [Reset and recovery for Surface Hub 2S](surface-hub-2s-recover-reset.md).
 
 ## Version history
+
+The following table summarizes changes to this article.
 
 | Version | Date               | Description                                                                                           |
 | ------- | ------------------ | ----------------------------------------------------------------------------------------------------- |
