@@ -22,7 +22,7 @@ This topic explains how to use the Surface Diagnostic Toolkit (SDT) to help user
 Successfully running SDT can quickly determine if a reported issue is caused by failed hardware or user error. For a list of supported Surface devices in SDT, refer to [Deploy Surface Diagnostic Toolkit for Business](surface-diagnostic-toolkit-business.md).
 
 
-1. Direct the user to install [the SDT package](surface-diagnostic-toolkit-business.md#create-custom-sdt) from a software distribution point or network share. After it is installed, you’re ready to guide the user through a series of tests. 
+1. Direct the user to install [the SDT package](surface-diagnostic-toolkit-business.md#preparing-the-sdt-package-for-distribution)) from a software distribution point or network share. After it is installed, you’re ready to guide the user through a series of tests. 
 
 2. Begin at the home page, which allows users to enter a description of the issue, and click **Continue**, as shown in figure 1.
 

@@ -20,7 +20,7 @@ The Microsoft Surface Diagnostic Toolkit for Business (SDT) enables IT administr
 
 Specifically, SDT for Business enables you to:
 
-- [Customize the package.](#preparing-the-SDT-package-for-distribution)
+- [Customize the package.](#preparing-the-sdt-package-for-distribution)
 - [Run the app using commands.](surface-diagnostic-toolkit-command-line.md)
 - [Run multiple hardware tests to troubleshoot issues.](surface-diagnostic-toolkit-desktop-mode.md#multiple)
 - [Generate logs for analyzing issues.](surface-diagnostic-toolkit-desktop-mode.md#logs)
