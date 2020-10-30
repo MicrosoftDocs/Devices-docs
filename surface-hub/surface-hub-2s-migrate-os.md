@@ -161,6 +161,9 @@ The SEMM package created by using the Surface UEFI Configurator tool must be sec
 1. Connect a USB Drive to your PC. Choose **Hub 2S** and then select **Next**.
 
    ![Select USB](images/shm-fig13.png)
+
+> [!WARNING]
+> All existing data on the USB drive is erased when building the SEMM package. Before building the SEMM package, remove any files from the USB drive that you wish to save.
    
 2. Select **Build**.
 

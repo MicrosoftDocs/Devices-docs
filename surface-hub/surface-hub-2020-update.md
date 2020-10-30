@@ -42,7 +42,7 @@ Windows 10 Team 2020 Update brings major improvements to device deployment and m
  
 ## Before you begin
 
-Prior to installing Windows 10 team 2020 update, make sure you save the BitLocker key associated with your device. To learn more, see [What's new iin Windows 10 Team 2020 Update](surface-hub-2020-update-whats-new.md)
+Prior to installing Windows 10 team 2020 update, make sure you save the BitLocker key associated with your device. To learn more, see [What's new in Windows 10 Team 2020 Update](surface-hub-2020-update-whats-new.md).
 
 **To manually save your BitLocker key**
 
