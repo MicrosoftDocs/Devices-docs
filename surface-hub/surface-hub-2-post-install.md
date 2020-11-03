@@ -29,7 +29,7 @@ When performing these steps, you might find it useful to use a wired or wireless
 
 1. Sign in with an account that has local administrator privileges on the device.  
 
-    - On Azure AD joined devices, the user that performs the Azure AD join is automatically added to the local administrator group. Azure AD global administrators and Azure AD devices administrators are [also local administrators](https://docs.microsoft.com/azure/active-directory/devices/assign-local-admin). 
+    - On Azure AD joined devices, the user that performs the Azure AD join is automatically added to the local administrator group. Azure AD global administrators and Azure AD devices administrators are <a href="https://docs.microsoft.com/azure/active-directory/devices/assign-local-admin" target="_blank">also local administrators</a>. 
     
     - You can type **net localgroup administrators** at a command prompt to list the accounts that have local administrator rights.
     
@@ -78,17 +78,17 @@ The following example shows the trackpad, which is useful to navigate and select
 
 Connect a keyboard and mouse if you are using the device as your primary Windows device, or you use it often for typing or precision work.
 
-If your Surface Hub device is near to a PC, you can use [Mouse without Borders](https://aka.ms/mm) to move seamlessly between the Surface Hub and the PC. For more information, see [Microsoft download from The Garage: Mouse without Borders](https://blogs.microsoft.com/ai/microsoft-download-from-the-garage-mouse-without-borders/).
+If your Surface Hub device is near to a PC, you can use <a href="https://aka.ms/mm" target="_blank"> Mouse without Borders</a> to move seamlessly between the Surface Hub and the PC. For more information, see <a href="https://blogs.microsoft.com/ai/microsoft-download-from-the-garage-mouse-without-borders/" target="_blank"> Microsoft download from The Garage: Mouse without Borders. </a>
 
 ## OneDrive for Business
 
-Use [OneDrive for Business](https://docs.microsoft.com/onedrive/onedrive) to easily share tools, logs, and other files between all your work devices.
+Use <a href="https://docs.microsoft.com/onedrive/onedrive" target="_blank"> OneDrive for Business</a> to easily share tools, logs, and other files between all your work devices.
 
 - OneDrive enables you to share your work files between your laptops, Surface Hub Desktop, and your Intune-managed mobile devices. Files can be edited on any device, and all network connected devices will be updated with the changes.
 
 - Considering the size of the Surface Hub SSD (128GB), if you configure OneDrive on your Surface Hub Desktop device, make sure the default configuration is to keep the files online and download files as you use them.
 
-To configure OneDrive to download files only when needed, set the **Files On-Demand** setting to **Save space and download files as you use them**. For more information, see [Query and set Files On-Demand states in Windows](https://docs.microsoft.com/onedrive/files-on-demand-windows).
+To configure OneDrive to download files only when needed, set the **Files On-Demand** setting to **Save space and download files as you use them**. For more information, see <a href="https://docs.microsoft.com/onedrive/files-on-demand-windows" target="_blank"> Query and set Files On-Demand states in Windows</a>.
 
 ![OneDrive settings](images/onedrive.png)
 
@@ -117,7 +117,7 @@ To sync internal corporate files to your local drive with the OneDrive sync app:
     
     3. Select **Free up space**.
     
-    4. The Status column will display the status of files and folders. For more information, see [Sync SharePoint files with the OneDrive sync client](https://support.microsoft.com/office/sync-sharepoint-files-with-the-onedrive-sync-client-groove-exe-59b1de2b-519e-4d3a-8f45-51647cf291cd).
+    4. The Status column will display the status of files and folders. For more information, see <a href="https://support.microsoft.com/office/sync-sharepoint-files-with-the-onedrive-sync-client-groove-exe-59b1de2b-519e-4d3a-8f45-51647cf291cd" target="_blank"> Sync SharePoint files with the OneDrive sync client</a>.
     
 6. Teams Channel files are stored in SharePoint sites, with all of the same SharePoint document functionality, including version history and synchronizing to your local desktop devices. To sync Teams Channel files:
 
@@ -160,13 +160,13 @@ The Surface Hub pen has a shortcut button sometimes referred to as a "tail click
 
 You can mount the camera on the top or on either side of the device. Mount the camera in a position to optimize the camera angle if you are using the Hub with a desktop stand instead of a cart, or are in close proximity to the Hub. The camera does not auto-rotate, so you need to have a 2mm hex key to manually rotate the camera. 
 
-For more information on how to side-mount the camera and rotate the camera manually, see [Surface Hub 2S camera lens orientation](https://support.microsoft.com/help/4509729/surface-hub-2s-camera-lens-orientation).
+For more information on how to side-mount the camera and rotate the camera manually, see <a href="https://support.microsoft.com/help/4509729/surface-hub-2s-camera-lens-orientation" target="_blank"> Surface Hub 2S camera lens orientation</a>.
 
 ## Windows Hello configuration
 
 Surface Hub 2S running Windows 10 Enterprise allows the full suite of Win32 desktop applications as well as biometric Windows Hello options. The Surface Hub 2 Fingerprint Reader accessory can be plugged into any USB-C port on the device. 
 
-To order a Surface Hub 2 Fingerprint Reader or view technical specs, see [Essential add-ons for Windows 10 Pro and Enterprise on Surface Hub 2](surface-hub-2-essential-add-ons.md). 
+To order a Surface Hub 2 Fingerprint Reader or view technical specs, see (surface-hub-2-essential-add-ons.md" target="_blank">Essential add-ons for Windows 10 Pro and Enterprise on Surface Hub 2 </a>. 
 
 After inserting the fingerprint reader, select **Start** > **Settings** > **Accounts** > **Sign-in options** > **Windows Hello Fingerprint** to enroll your fingerprint.
 
@@ -242,7 +242,7 @@ Alternatively, you can install Whiteboard from the Microsoft Store:
 
 ### Microsoft Office
 
-1. Open the [Office Portal](https://portal.office.com/account#installs) and install your desired applications.
+1. Open the <a href="https://portal.office.com/account#installs" target="_blank"> Office Portal</a> and install your desired applications.
 
 2. Pin desired Office applications to the taskbar.
 
@@ -254,7 +254,7 @@ Alternatively, you can install Whiteboard from the Microsoft Store:
 
 ### Microsoft Teams
 
-1. Download and install [Microsoft Teams](https://teams.microsoft.com/downloads).
+1. Download and install <a href="https://teams.microsoft.com/downloads" target="_blank"> Microsoft Teams] </a>.
 
 2. Configure settings to Auto-start application (optional).
 
@@ -301,20 +301,20 @@ Recommended configuration on the corporate network:
 
 The **Your Phone** app is installed by default on Windows 10. If it is not present, you can also install it from the Windows Store.
 
-For information about setting up the app, see [How to set up Your Phone on Windows 10 and sync data between your PC and phone](https://www.windowscentral.com/how-set-your-phone-windows-10). Also see [How to fix common problems with Your Phone app on Windows 10](https://www.windowscentral.com/how-fix-common-problems-your-phone-app-windows-10).
+For information about setting up the app, see <a href="https://www.windowscentral.com/how-set-your-phone-windows-10" target="_blank"> How to set up Your Phone on Windows 10 and sync data between your PC and phone</a>. Also see <a href="https://www.windowscentral.com/how-fix-common-problems-your-phone-app-windows-10" target="_blank"> How to fix common problems with Your Phone app on Windows 10</a>.
 
 ### Super Fancy Zones
 
-**Super Fancy Zones** helps users arrange windows to maximize screen real estate. It is now included in [PowerToys](https://github.com/microsoft/PowerToys/releases) on GitHub.
+**Super Fancy Zones** helps users arrange windows to maximize screen real estate. It is now included in <a href="https://github.com/microsoft/PowerToys/releases" target="_blank"> PowerToys</a> on GitHub.
 
 ### Edge Chromium browser
 
-Download and install the new [Edge Chromium browser](https://www.microsoft.com/en-us/edge?form=MY01BL&OCID=MY01BL).
+Download and install the new<a href="https://www.microsoft.com/en-us/edge?form=MY01BL&OCID=MY01BL" target="_blank"> Edge Chromium browser</a>.
 
 
 ### Surface Hub Hardware Diagnostic tool
 
-The [Surface Hub Hardware Diagnostic tool](https://www.microsoft.com/p/surface-hub-hardware-diagnostic/9nblggh51f2g) available for free from the Microsoft Store. The tool is designed to help you make sure your Surface Hub is performing at its best. It contains tests to determine if your firmware is up to date and configured correctly. Interactive tests allow you to confirm essential functionality is working as expected. If problems are encountered, results can be saved and shared with the Surface Hub Support Team. Click on the link to install it from the Microsoft Store, and then pin the application to your taskbar.
+The <a href="https://www.microsoft.com/p/surface-hub-hardware-diagnostic/9nblggh51f2g" target="_blank"> Surface Hub Hardware Diagnostic tool</a> available for free from the Microsoft Store. The tool is designed to help you make sure your Surface Hub is performing at its best. It contains tests to determine if your firmware is up to date and configured correctly. Interactive tests allow you to confirm essential functionality is working as expected. If problems are encountered, results can be saved and shared with the Surface Hub Support Team. Click on the link to install it from the Microsoft Store, and then pin the application to your taskbar.
 
 ## Additional settings
 
@@ -450,4 +450,4 @@ Turn on Tablet mode if desired for accessibility needs.
 
 ## Related topics
 
-[Migrate to Windows 10 Pro or Enterprise on Surface Hub 2](surface-hub-2s-migrate-os.md)
+<a href="surface-hub-2s-migrate-os.md" target="_blank"> Migrate to Windows 10 Pro or Enterprise on Surface Hub 2</a>
