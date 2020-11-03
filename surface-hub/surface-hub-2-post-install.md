@@ -14,7 +14,7 @@ author: greg-lindsay
 ms.author: greglin
 ms.collection: M365-modern-desktop
 ms.topic: article
-ms.date: 10/21/2020
+ms.date: 11/03/2020
 appliesto:
 - Surface Hub 2S
 ---
@@ -254,7 +254,7 @@ Alternatively, you can install Whiteboard from the Microsoft Store:
 
 ### Microsoft Teams
 
-1. Download and install <a href="https://teams.microsoft.com/downloads" target="_blank"> Microsoft Teams] </a>.
+1. Download and install <a href="https://teams.microsoft.com/downloads" target="_blank"> Microsoft Teams </a>.
 
 2. Configure settings to Auto-start application (optional).
 
@@ -309,7 +309,7 @@ For information about setting up the app, see <a href="https://www.windowscentra
 
 ### Edge Chromium browser
 
-Download and install the new<a href="https://www.microsoft.com/en-us/edge?form=MY01BL&OCID=MY01BL" target="_blank"> Edge Chromium browser</a>.
+Download and install the new <a href="https://www.microsoft.com/en-us/edge?form=MY01BL&OCID=MY01BL" target="_blank">Edge Chromium browser</a>.
 
 
 ### Surface Hub Hardware Diagnostic tool
