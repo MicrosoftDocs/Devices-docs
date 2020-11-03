@@ -26,8 +26,7 @@ Surface Hub 2S comes pre-installed with Windows 10 Team, a customized edition of
 > When you install Windows 10 Pro or Enterprise, you will need a new licence separate from your existing Windows 10 Team license. 
 
 
-You start the migration from Windows 10 Team using a separate PC and downloadable tool -- **Surface UEFI Configurator** --  to create a package containing a new UEFI setting that you apply to Surface Hub 2S.  Surface UEFI Configurator functions as an interface into Surface Enterprise Management Mode (SEMM), designed to facilitate centralized management of firmware settings on Surface devices in a corporate environment. To learn more about SEMM, see [Microsoft Surface Enterprise Management Mode documentation](https://docs.microsoft.com/surface/surface-enterprise-management-mode).
- 
+You start the migration from Windows 10 Team using a separate PC and downloadable tool -- **Surface UEFI Configurator** --  to create a package containing a new UEFI setting that you apply to Surface Hub 2S.  Surface UEFI Configurator functions as an interface into Surface Enterprise Management Mode (SEMM), designed to facilitate centralized management of firmware settings on Surface devices in a corporate environment. To learn more about SEMM, see <a href="https://docs.microsoft.com/surface/surface-enterprise-management-mode" target="_blank">Microsoft Surface Enterprise Management Mode documentation</a>.
 
 ## Solution Components
 
