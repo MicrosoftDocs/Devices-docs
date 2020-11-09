@@ -67,7 +67,7 @@ The following table lists the release date and End of Servicing date for each Su
 | Surface Laptop Go                  | 10/13/2020   | 10/13/2024            |
 
  
-**References:** 1. Indicates devices with a previously declared end of firmware/driver servicing support date.
+ **1.** *Indicates devices with a previously declared end of firmware/driver servicing support date.*
  
 ## Learn more
 
