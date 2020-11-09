@@ -39,10 +39,10 @@ The following table lists the release date and End of Servicing date for each Su
 
 | Device                             | Release Date | End of Servicing Date |
 | ---------------------------------- | ------------ | --------------------- |
-| Surface RT1                        | 10/26/2012   | 4/11/2017             |
-| Surface Pro1                       | 2/9/2013     | 4/11/2017             |
-| Surface 21                         | 10/22/2013   | 4/10/2018             |
-| Surface Pro 21                     | 10/22/2013   | 4/10/2018             |
+| Surface RT<sup>1</sup>             | 10/26/2012   | 4/11/2017             |
+| Surface Pro<sup>1</sup>            | 2/9/2013     | 4/11/2017             |
+| Surface 2<sup>1</sup>              | 10/22/2013   | 4/10/2018             |
+| Surface Pro 2<sup>1</sup>          | 10/22/2013   | 4/10/2018             |
 | Surface Pro 3                      | 6/20/2014    | 11/13/2021            |
 | Surface 3                          | 5/5/2015     | 11/13/2021            |
 | Surface Book                       | 10/26/2015   | 11/13/2021            |
@@ -67,7 +67,7 @@ The following table lists the release date and End of Servicing date for each Su
 | Surface Laptop Go                  | 10/13/2020   | 10/13/2024            |
 
  
-1 Indicates devices with a previously declared end of firmware/driver servicing support date.
+**References:** 1. Indicates devices with a previously declared end of firmware/driver servicing support date.
  
 ## Learn more
 
