@@ -71,7 +71,7 @@ The following table lists the release date and End of Servicing date for each Su
  
 ## Learn more
 
-For additional information on LTSC support see [Surface device compatibility with Windows 10 Long-Term Servicing Channel (LTSC)](https://docs.microsoft.com/en-us/surface/surface-device-compatibility-with-windows-10-ltsc)
+For additional information on LTSC support see [Surface device compatibility with Windows 10 Long-Term Servicing Channel (LTSC)](surface-device-compatibility-with-windows-10-ltsc.md)
  
  
 
