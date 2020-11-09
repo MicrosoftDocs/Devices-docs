@@ -20,6 +20,18 @@ landingContent:
 # Cards and links should be based on top customer tasks or top subjects
 # Start card title with a verb
   # Card (optional)
+  - title: What's new
+    linkLists:
+      - linkListType: whats-new
+        links:
+          - text: Enroll Android Enterprise dedicated devices into Azure AD Shared device mode
+            url: https://techcommunity.microsoft.com/t5/intune-customer-success/intune-public-preview-enroll-android-enterprise-dedicated/ba-p/1820093
+          - text: Behind the scenes on Surface Duo with Microsoft Mechanics
+            url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/behind-the-scenes-on-surface-duo-with-microsoft-mechanics/ba-p/1665998
+          - text: Surface Duo deployment in health care roles
+            url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/how-surface-duo-is-helping-health-care-providers/ba-p/1805359
+
+  # Card (optional)
   - title: Surface Duo
     linkLists:
       - linkListType: overview
