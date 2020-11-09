@@ -47,6 +47,7 @@
 ## Manage
 
 ### [Manage and deploy Surface driver and firmware updates](manage-surface-driver-and-firmware-updates.md)
+### [Surface driver and firmware lifecycle for Windows-based devices](surface-driver-firmware-lifecycle-support.md)
 ### [Manage Surface driver updates in Configuration Manager](manage-surface-driver-updates-configuration-manager.md)
 ### [Optimize Wi-Fi connectivity for Surface devices](surface-wireless-connect.md)
 ### [Best practice power settings for Surface devices](maintain-optimal-power-settings-on-Surface-devices.md)
