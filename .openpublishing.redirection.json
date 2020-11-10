@@ -29,6 +29,11 @@
             "source_path":  "surface-duo/contact-surface-support.md",
             "redirect_url":  "https://docs.microsoft.com/surface-duo/contact-surface-duo-support",
             "redirect_document_id":  false
-        }
+        },
+        {
+            "source_path":  "surface/change-history-for-surface.md",
+            "redirect_url":  "https://docs.microsoft.com/surface/get-started",
+            "redirect_document_id":  true
+        },
 ]
 }
