@@ -80,7 +80,6 @@
 #### [Deploy Surface Diagnostic Toolkit for Business](surface-diagnostic-toolkit-business.md)
 #### [Use Surface Diagnostic Toolkit for Business in desktop mode](surface-diagnostic-toolkit-desktop-mode.md)
 #### [Run Surface Diagnostic Toolkit for Business using commands](surface-diagnostic-toolkit-command-line.md)
-### [Change history for Surface documentation](change-history-for-surface.md)
 ### [Help for end-users](https://support.microsoft.com/products/surface-devices)
 
 ## Warranty and extended service plans

@@ -64,12 +64,13 @@ As an IT professional with administrative privileges, you can automate the confi
 
 **Sample scripts**
 
->**Note**:&nbsp;&nbsp;The UEFI password used in the sample scripts below is presented in clear text. We strongly recommend saving the scripts in a protected location and running them in a controlled environment.
+> [!NOTE]
+> The UEFI password used in the sample scripts below is presented in clear text. We strongly recommend saving the scripts in a protected location and running them in a controlled environment.
 
 
 Show all configurable options:
 
-```
+```powershell
 # Load the extension 
 [System.Reflection.Assembly]::Load("SurfaceUefiManager, Version=1.0.5483.22783, Culture=neutral, PublicKeyToken=20606f4b5276c705")  
  
@@ -94,7 +95,7 @@ foreach ($uefiOption in $uefiOptions)
 
 Set or change UEFI password:
 
-```
+```powershell
 # Load the extension 
 [System.Reflection.Assembly]::Load("SurfaceUefiManager, Version=1.0.5483.22783, Culture=neutral, PublicKeyToken=20606f4b5276c705")  
  
@@ -110,7 +111,7 @@ $Password.ProposedValue = "12345"
 
 Check status of proposed changes:
 
-```
+```powershell
 # Load the extension 
 [System.Reflection.Assembly]::Load("SurfaceUefiManager, Version=1.0.5483.22783, Culture=neutral, PublicKeyToken=20606f4b5276c705")  
  
@@ -136,7 +137,7 @@ if ($details.Count -gt 0)
 
 Revert UEFI to default values:
 
-```
+```powershell
 # Load the extension 
 [System.Reflection.Assembly]::Load("SurfaceUefiManager, Version=1.0.5483.22783, Culture=neutral, PublicKeyToken=20606f4b5276c705")  
  
@@ -162,10 +163,3 @@ Status code interpretation
 -   0F - The unlock password did not match currently set password
 
  
-
- 
-
-
-
-
-
