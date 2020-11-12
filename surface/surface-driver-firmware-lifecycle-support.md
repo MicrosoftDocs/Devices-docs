@@ -26,10 +26,10 @@ The Surface Driver and Firmware Lifecycle is composed of two parts: The driver a
 
 - **Device support period.** The device support period defines the period during which Surface will support driver and firmware updates for a device. The Device Support Period starts when a device is released. Surface devices will receive driver and firmware updates for at least 4 years from when the device was first released. In cases where the support duration is longer than 4 years, an updated end of servicing date will be published in advance of the date of last servicing.
 
-- **OS version support.** OS version support defines the operating system versions supported by Surface during the device support period. Surface devices will receive driver and firmware updates for Windows OS versions released in the prior 30 months. Surface will not support Windows OS versions earlier than the OS versions supported at device release. For the minimum supported OS version of your Surface device, see [Surface supported operating systems support.](https://support.microsoft.com/en-us/help/2858199/surface-supported-operating-systems)  
+- **OS version support.** OS version support defines the operating system versions supported by Surface during the device support period. Surface devices will receive driver and firmware updates for Windows OS versions released in the prior 30 months. Surface will not support Windows OS versions earlier than the OS versions supported at device release. For the minimum supported OS version of your Surface device, see [Surface supported operating systems support.](https://support.microsoft.com/help/2858199/surface-supported-operating-systems)  
 
  
-Once the device support period is concluded at the End of Servicing Date, devices will continue to receive Windows OS feature and security updates in accordance with the Windows Lifecycle Policy as described on the  [Microsoft Lifecycle Policy support page](https://support.microsoft.com/en-us/hub/4095338/microsoft-lifecycle-policy).
+Once the device support period is concluded at the End of Servicing Date, devices will continue to receive Windows OS feature and security updates in accordance with the Windows Lifecycle Policy as described on the  [Microsoft Lifecycle Policy support page](https://support.microsoft.com/hub/4095338/microsoft-lifecycle-policy).
  
 
 ## Surface device support dates
