@@ -47,7 +47,6 @@
 ## Manage
 
 ### [Manage and deploy Surface driver and firmware updates](manage-surface-driver-and-firmware-updates.md)
-### [Surface driver and firmware lifecycle for Windows-based devices](surface-driver-firmware-lifecycle-support.md)
 ### [Manage Surface driver updates in Configuration Manager](manage-surface-driver-updates-configuration-manager.md)
 ### [Optimize Wi-Fi connectivity for Surface devices](surface-wireless-connect.md)
 ### [Best practice power settings for Surface devices](maintain-optimal-power-settings-on-Surface-devices.md)
@@ -81,6 +80,7 @@
 #### [Use Surface Diagnostic Toolkit for Business in desktop mode](surface-diagnostic-toolkit-desktop-mode.md)
 #### [Run Surface Diagnostic Toolkit for Business using commands](surface-diagnostic-toolkit-command-line.md)
 ### [Help for end-users](https://support.microsoft.com/products/surface-devices)
+### [Surface driver and firmware lifecycle for Windows-based devices](surface-driver-firmware-lifecycle-support.md)
 
 ## Warranty and extended service plans
 ### [Surface for Business warranty and extended service plans](https://www.microsoft.com/surface/business/warranty-service-offerings-and-support)
