@@ -57,9 +57,9 @@ The following table lists the release date and End of Servicing date for each Su
 | Surface Studio 2                   | 10/2/2018    | 10/2/2022             |
 | Surface Laptop 2                   | 10/16/2018   | 10/16/2022            |
 | Surface Pro 6                      | 10/16/2018   | 10/16/2022            |
+| Surface Go with LTE Advanced       | 11/20/2018   | 11/20/2022            |
 | Surface Laptop 3                   | 10/22/2019   | 10/22/2023            |
 | Surface Pro 7                      | 10/22/2019   | 10/22/2023            |
-| Surface Go with LTE Advanced       | 11/20/2018   | 11/20/2022            |
 | Surface Pro X                      | 11/5/2019    | 11/5/2023             |
 | Surface Go 2                       | 5/6/2020     | 5/6/2024              |
 | Surface Book 3                     | 5/26/2020    | 5/26/2024             |
