@@ -88,12 +88,8 @@ landingContent:
             url: surface-diagnostic-toolkit-business.md
           - text: Top support solutions
             url: support-solutions-surface.md
-          - text: Best practices for SSD removal in compatible Surface devices
-            url: surface-ssd-removal-guide.md
-          - text: Protecting your data during Surface repair or service
-            url: https://support.microsoft.com/help/4023508/surface-faq-protecting-your-data-service
-          - text: Troubleshoot Surface Dock and docking stations
-            url: https://support.microsoft.com/help/4023468/surface-troubleshoot-surface-dock-and-docking-stations
+          - text: Surface driver and firmware lifecycle for Windows-based devices
+            url: surface-driver-firmware-lifecycle-support.md
 
   # Card
   - title: Explore security guidance
