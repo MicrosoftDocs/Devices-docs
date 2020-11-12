@@ -37,34 +37,34 @@ Once the device support period is concluded at the End of Servicing Date, device
 The following table lists the release date and End of Servicing date for each Surface device with a defined Driver and Firmware Lifecycle policy:
  
 
-| Device                             | Release Date | End of Servicing Date |
+ Device                             | Release Date | End of Servicing Date |
 | ---------------------------------- | ------------ | --------------------- |
-| Surface RT<sup>1</sup>             | 10/26/2012   | 4/11/2017             |
-| Surface Pro<sup>1</sup>            | 2/9/2013     | 4/11/2017             |
-| Surface 2<sup>1</sup>              | 10/22/2013   | 4/10/2018             |
-| Surface Pro 2<sup>1</sup>          | 10/22/2013   | 4/10/2018             |
-| Surface Pro 3                      | 6/20/2014    | 11/13/2021            |
-| Surface 3                          | 5/5/2015     | 11/13/2021            |
-| Surface Book                       | 10/26/2015   | 11/13/2021            |
-| Surface Pro 4                      | 10/26/2015   | 11/13/2021            |
-| Surface Book with Performance Base | 11/10/2016   | 11/13/2021            |
-| Surface Studio (1st gen)           | 12/15/2016   | 11/13/2021            |
-| Surface Laptop (1st gen)           | 6/14/2017    | 11/13/2021            |
-| Surface Pro (5th gen)              | 6/15/2017    | 11/13/2021            |
-| Surface Book 2                     | 11/17/2017   | 11/17/2021            |
-| Surface Pro LTE (Model 1807)       | 12/1/2017    | 12/1/2021             |
-| Surface Go                         | 8/2/2018     | 8/2/2022              |
-| Surface Studio 2                   | 10/2/2018    | 10/2/2022             |
-| Surface Laptop 2                   | 10/16/2018   | 10/16/2022            |
-| Surface Pro 6                      | 10/16/2018   | 10/16/2022            |
-| Surface Go with LTE Advanced       | 11/20/2018   | 11/20/2022            |
-| Surface Laptop 3                   | 10/22/2019   | 10/22/2023            |
-| Surface Pro 7                      | 10/22/2019   | 10/22/2023            |
-| Surface Pro X                      | 11/5/2019    | 11/5/2023             |
-| Surface Go 2                       | 5/6/2020     | 5/6/2024              |
-| Surface Book 3                     | 5/26/2020    | 5/26/2024             |
-| Surface Pro X SQ2                  | 10/13/2020   | 10/13/2024            |
-| Surface Laptop Go                  | 10/13/2020   | 10/13/2024            |
+| Surface RT<sup>1</sup>             | October 26, 2012   | April 11, 2017             |
+| Surface Pro<sup>1</sup>            | February 9, 2013     | April 11, 2017             |
+| Surface 2<sup>1</sup>              | October 22, 2013   | April 10, 2018             |
+| Surface Pro 2<sup>1</sup>          | October 22, 2013   | April 10, 2018             |
+| Surface Pro 3                      | June 20, 2014    | November 13, 2021            |
+| Surface 3                          | May 5, 2015     | November 13, 2021            |
+| Surface Book                       | October 26, 2015   | November 13, 2021            |
+| Surface Pro 4                      | October 26, 2015   | November 13, 2021            |
+| Surface Book with Performance Base | November 10, 2016   | November 13, 2021            |
+| Surface Studio (1st gen)           | December 15, 2016   | November 13, 2021            |
+| Surface Laptop (1st gen)           | June 14, 2017    | November 13, 2021            |
+| Surface Pro (5th gen)              | June 15, 2017    | November 13, 2021            |
+| Surface Book 2                     | November 17, 2017   | November 17, 2021            |
+| Surface Pro LTE (Model 1807)       | December 1, 2017    | December 1, 2021             |
+| Surface Go                         | August 2, 2018     | August 2, 2022              |
+| Surface Studio 2                   | October 2, 2018    | October 2, 2022             |
+| Surface Laptop 2                   | October 16, 2018   | October 16, 2022            |
+| Surface Pro 6                      | October 16, 2018   | October 16, 2022            |
+| Surface Go with LTE Advanced       | November 20, 2018   | November 20, 2022            |
+| Surface Laptop 3                   | October 22, 2019   | October 22, 2023            |
+| Surface Pro 7                      | October 22, 2019   | October 22, 2023            |
+| Surface Pro X                      | November 5, 2019    | November 5, 2023             |
+| Surface Go 2                       | May 6, 2020     | May 6, 2024              |
+| Surface Book 3                     | May 26, 2020    | May 26, 2024             |
+| Surface Pro X SQ2                  | October 13, 2020   | October 13, 2024            |
+| Surface Laptop Go                  | October 13, 2020   | October 13, 2024            |
 
  
  **1.** *Indicates devices with a previously declared end of firmware/driver servicing support date.*
