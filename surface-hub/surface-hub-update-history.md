@@ -27,9 +27,9 @@ Please refer to the “[Surface Hub Important Information](https://support.micro
 <details>
 <summary>Windows 10 Team 2020 Update for Surface Hub — General Release notes (OS Build 19042.572)</summary>
 
-This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/en-us/help/4581839/windows-10-update-history), are noted on the page "[What's new in Windows 10 Team 2020 Update](https://docs.microsoft.com/en-us/surface-hub/surface-hub-2020-update-whats-new)".
+This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4581839/windows-10-update-history), are noted on the page "[What's new in Windows 10 Team 2020 Update](https://docs.microsoft.com/surface-hub/surface-hub-2020-update-whats-new)".
 
-Please refer to the "[Install Windows 10 Team 2020 Update](https://docs.microsoft.com/en-us/surface-hub/surface-hub-2020-update)" page for more information regarding update availability by region, distribution method, and device type.
+Please refer to the "[Install Windows 10 Team 2020 Update](https://docs.microsoft.com/surface-hub/surface-hub-2020-update)" page for more information regarding update availability by region, distribution method, and device type.
 </details>
 
 ## Windows 10 Team Creators Update (1703)
