@@ -115,7 +115,7 @@ A default maintenance window is set for all new Surface Hubs:
 2.  Navigate to **Update & security** > **Windows Update** > **Advanced options**.
 3.  Under **Maintenance hours**, select **Change**.
 
-To change the maintenance window using MDM, set the **MOMAgent** node in the [SurfaceHub configuration service provider](https://msdn.microsoft.com/library/windows/hardware/mt608323.aspx). See [Manage settings with an MDM provider](manage-settings-with-mdm-for-surface-hub.md) for more details.
+To change the maintenance window using MDM, set the **MaintenanceHoursSimple** node in the [SurfaceHub configuration service provider](https://msdn.microsoft.com/library/windows/hardware/mt608323.aspx). See [Manage settings with an MDM provider](manage-settings-with-mdm-for-surface-hub.md) for more details.
 
 
 ## More information
