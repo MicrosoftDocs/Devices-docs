@@ -1,5 +1,59 @@
 <!-- This file is generated automatically each week. Changes made to this file will be overwritten.-->
 
+<!-- This file is generated automatically each week. Changes made to this file will be overwritten.-->
+
+
+
+
+## Week of November 09, 2020
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 11/10/2020 | [Surface Duo documentation # < 60 chars](/surface-duo/index) | modified |
+
+
+## Week of October 12, 2020
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 10/15/2020 | [Surface Duo documentation # < 60 chars](/surface-duo/index) | modified |
+
+
+## Week of November 09, 2020
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 11/13/2020 | [Migrate to Windows 10 Pro or Enterprise on Surface Hub 2](/surface-hub/surface-hub-2s-migrate-os) | modified |
+
+
+## Week of November 09, 2020
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 11/10/2020 | [Advanced UEFI security features for Surface Pro 3 (Surface)](/surface/advanced-uefi-security-features-for-surface-pro-3) | modified |
+| 11/10/2020 | Change history for Surface documentation (Windows 10) | removed |
+| 11/12/2020 | [Surface devices documentation # < 60 chars](/surface/get-started) | modified |
+
+
+## Week of November 09, 2020
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 11/10/2020 | [Surface Duo documentation # < 60 chars](/surface-duo/index) | modified |
+
+
+## Week of November 02, 2020
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 11/3/2020 | [Configure Windows 10 Pro or Enterprise on Surface Hub 2](/surface-hub/surface-hub-2-post-install) | modified |
+| 11/3/2020 | [Migrate to Windows 10 Pro or Enterprise on Surface Hub 2](/surface-hub/surface-hub-2s-migrate-os) | modified |
 
 
 ## Week of October 26, 2020
@@ -77,53 +131,3 @@
 | 10/12/2020 | [Wake On LAN for Surface devices (Surface)](/surface/wake-on-lan-for-surface-devices) | modified |
 | 10/12/2020 | [How to enable Wake on Power for Surface](/surface/wake-on-power-for-surface) | modified |
 | 10/14/2020 | [Use Microsoft Endpoint Configuration Manager to manage devices with SEMM (Surface)](/surface/use-system-center-configuration-manager-to-manage-devices-with-semm) | modified |
-
-
-## Week of October 05, 2020
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 10/7/2020 | [Manage Windows updates on Surface Hub](/surface-hub/manage-windows-updates-for-surface-hub) | modified |
-| 10/7/2020 | [Create provisioning packages (Surface Hub)](/surface-hub/provisioning-packages-for-surface-hub) | modified |
-| 10/7/2020 | [Manage settings with an MDM provider (Surface Hub)](/surface-hub/manage-settings-with-mdm-for-surface-hub) | modified |
-| 10/8/2020 | [Reset or recover a Surface Hub](/surface-hub/device-reset-surface-hub) | modified |
-| 10/8/2020 | [Configure Windows 10 Pro or Enterprise on Surface Hub 2](/surface-hub/surface-hub-2-post-install) | modified |
-| 10/8/2020 | [Migrate to Windows 10 Pro or Enterprise on Surface Hub 2](/surface-hub/surface-hub-2s-migrate-os) | modified |
-| 10/9/2020 | [Manage Surface Hub 2S with Intune](/surface-hub/surface-hub-2s-manage-intune) | modified |
-
-
-## Week of October 05, 2020
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 10/5/2020 | [Contact Surface Support](/surface/contact-surface-support) | modified |
-| 10/5/2020 | [Surface Book 3 Quadro RTX 3000 technical overview](/surface/surface-book-quadro) | modified |
-| 10/5/2020 | [Maximizing your ROI from Microsoft 365 Enterprise with Microsoft Surface](/surface/forrester-tei-study) | modified |
-| 10/8/2020 | [SSD removal in compatible Surface devices](/surface/surface-ssd-removal-guide) | modified |
-| 10/8/2020 | [Contact Surface Support](/surface/contact-surface-support) | modified |
-| 10/9/2020 | [Intune management of Surface UEFI settings](/surface/surface-manage-dfci-guide) | modified |
-| 10/9/2020 | [Deploying, managing, and servicing Surface Pro X](/surface/surface-pro-arm-app-management) | modified |
-
-
-## Week of September 28, 2020
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 10/1/2020 | [Surface devices documentation # < 60 chars](/surface/get-started) | modified |
-| 10/1/2020 | [What’s new in Surface Dock](/surface/surface-dock-whats-new) | modified |
-| 10/1/2020 | [Deploying, managing, and servicing Surface Pro X](/surface/surface-pro-arm-app-management) | modified |
-| 10/1/2020 | [Surface Pro X app compatibility](/surface/surface-pro-arm-app-performance) | modified |
-| 10/1/2020 | [Microsoft Surface for IT professionals # < 60 chars](/surface/index) | modified |
-
-
-## Week of September 28, 2020
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 9/28/2020 | [Surface Hub documentation # < 60 chars](/surface-hub/index) | modified |
-| 9/29/2020 | [Migrate to Windows 10 Pro or Enterprise on Surface Hub 2](/surface-hub/surface-hub-2s-migrate-os) | modified |
-| 10/1/2020 | [Configure Windows 10 Pro or Enterprise on Surface Hub 2](/surface-hub/surface-hub-2-post-install) | modified |
