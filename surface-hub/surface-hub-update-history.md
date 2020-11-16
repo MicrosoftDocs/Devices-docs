@@ -22,7 +22,17 @@ We'll be refreshing this page as new updates are released, so stay tuned for the
 
 Please refer to the “[Surface Hub Important Information](https://support.microsoft.com/products/surface-devices/surface-hub)” page for related topics on current and past releases that may require your attention.
 
-## Windows 10 Team Creators Update 1703
+## Windows 10 Team 2020 Update (20H2)
+
+<details>
+<summary>Windows 10 Team 2020 Update for Surface Hub — General Release notes (OS Build 19042.572)</summary>
+
+This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/en-us/help/4581839/windows-10-update-history), are noted on the page "[What's new in Windows 10 Team 2020 Update](https://docs.microsoft.com/en-us/surface-hub/surface-hub-2020-update-whats-new)".
+
+Please refer to the "[Install Windows 10 Team 2020 Update](https://docs.microsoft.com/en-us/surface-hub/surface-hub-2020-update)" page for more information regarding update availability by region, distribution method, and device type.
+</details>
+
+## Windows 10 Team Creators Update (1703)
 
 <details>
 <summary>Sep 1, 2020 — update for Surface Hub 2S</summary>
@@ -420,7 +430,7 @@ This update to the Surface Hub includes quality improvements and security fixes.
 
 </details>
 
-## Windows 10 Team Anniversary Update 1607
+## Windows 10 Team Anniversary Update (1607)
 
 <details>
 <summary>March 14th, 2017 — update for Team based on KB4013429* (OS Build 14393.953)</summary>
