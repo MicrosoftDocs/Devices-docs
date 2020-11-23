@@ -2,6 +2,15 @@
 
 
 
+## Week of November 16, 2020
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 11/16/2020 | [Manage Windows updates on Surface Hub](/surface-hub/manage-windows-updates-for-surface-hub) | modified |
+| 11/16/2020 | [Surface Hub update history](/surface-hub/surface-hub-update-history) | modified |
+
+
 ## Week of November 09, 2020
 
 
