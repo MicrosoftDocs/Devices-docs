@@ -34,9 +34,7 @@ This update is specific to the Surface Hub 2S and provides the driver and firmwa
 * Surface Touch Firmware update - 3.91.139.0
   * Improve connected standby touch response.
 * Surface USB Audio Firmware update - 3.91.139.0
-  * Improves display brightness scenarios.
 * Surface Pen Firmware update - 3.91.139.0
-  * Improves system stability.
 </details>
 
 <details>
