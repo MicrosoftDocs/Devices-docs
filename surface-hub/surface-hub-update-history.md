@@ -44,8 +44,8 @@ This update is specific to the Surface Hub 2S and provides the driver and firmwa
 
 This update is specific to the Surface Hub 2S and provides the driver and firmware updates outlined below:
 
-* Surface system aggregator - 4.14.139.0
-* Surface UEFI - 694.3386.768.0
+* Surface System Aggregator Firmware update - 4.14.139.0
+* Surface UEFI update - 694.3386.768.0
 </details>
 
 <details>
