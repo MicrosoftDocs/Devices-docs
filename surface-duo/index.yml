@@ -24,12 +24,24 @@ landingContent:
     linkLists:
       - linkListType: whats-new
         links:
+          - text: Fluent UI framework for Surface Duo
+            url: https://devblogs.microsoft.com/surface-duo/fluent-ui-android-dual-screen
           - text: Enroll Android Enterprise dedicated devices into Azure AD Shared device mode
             url: https://techcommunity.microsoft.com/t5/intune-customer-success/intune-public-preview-enroll-android-enterprise-dedicated/ba-p/1820093
           - text: Behind the scenes on Surface Duo with Microsoft Mechanics
             url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/behind-the-scenes-on-surface-duo-with-microsoft-mechanics/ba-p/1665998
-          - text: Surface Duo deployment in health care roles
-            url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/how-surface-duo-is-helping-health-care-providers/ba-p/1805359
+           
+# Card (optional)
+  - title: Get started
+    linkLists:
+      - linkListType: get-started
+        links:
+         - text: Discover new ways of using Surface Duo (YouTube)
+           url: https://www.youtube.com/playlist?list=PLNA-j_cL4mUTCt7P_IZrMZL5Manoz4QrX       
+         - text: Find a commercial reseller for Surface Duo
+           url: https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface
+         - text: Add Managed Google Play apps
+           url: https://docs.microsoft.com/mem/intune/apps/apps-add-android-for-work   
 
   # Card (optional)
   - title: Surface Duo
@@ -42,18 +54,7 @@ landingContent:
             url: surface-duo-secure.md
           - text: Surface Duo tech specs
             url: https://www.microsoft.com/surface/business/surface-duo
-            
-# Card (optional)
-  - title: Get started
-    linkLists:
-      - linkListType: get-started
-        links:
-         - text: Find a commercial reseller for Surface Duo
-           url: https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface
-         - text: Add Managed Google Play apps
-           url: https://docs.microsoft.com/mem/intune/apps/apps-add-android-for-work   
-         - text: Assign apps to groups in Microsoft Intune
-           url: https://docs.microsoft.com/mem/intune/apps/apps-deploy
+ 
  
   # Card
   - title: Enroll Surface Duo in MDM management
