@@ -25,6 +25,30 @@ Please refer to the “[Surface Hub Important Information](https://support.micro
 ## Windows 10 Team 2020 Update (20H2)
 
 <details>
+<summary>November 24, 2020 — update for Surface Hub 2S</summary>
+
+This update is specific to the Surface Hub 2S and provides the driver and firmware updates outlined below:
+
+* Surface SMC Firmware update - 3.91.139.0
+  * Improve connected standby reliability.
+* Surface Touch Firmware update - 3.91.139.0
+  * Improve connected standby touch response.
+* Surface USB Audio Firmware update - 3.91.139.0
+  * Improves display brightness scenarios.
+* Surface Pen Firmware Update - 3.91.139.0
+  * Improves system stability.
+</details>
+
+<details>
+<summary>October 27, 2020 — update for Surface Hub 2S</summary>
+
+This update is specific to the Surface Hub 2S and provides the driver and firmware updates outlined below:
+
+* Surface system aggregator - 4.14.139.0
+* Surface UEFI - 694.3386.768.0
+</details>
+
+<details>
 <summary>Windows 10 Team 2020 Update for Surface Hub — General Release notes (OS Build 19042.572)</summary>
 
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4581839/windows-10-update-history), are noted on the page "[What's new in Windows 10 Team 2020 Update](https://docs.microsoft.com/surface-hub/surface-hub-2020-update-whats-new)".
@@ -39,9 +63,9 @@ Please refer to the "[Install Windows 10 Team 2020 Update](https://docs.microsof
 
 This update is specific to the Surface Hub 2S and provides the driver and firmware updates outlined below:
 
-* Surface SMC Firmware Update - 1.177.139.0
+* Surface SMC Firmware update - 1.177.139.0
   * Improves field repair scenarios.
-* Surface SSD Firmware Update - 5.14.139.0
+* Surface SSD Firmware update - 5.14.139.0
   * Improves system stability.
 * Surface Serial Hub driver - 9.40.139.0
   * Improves system stability.
