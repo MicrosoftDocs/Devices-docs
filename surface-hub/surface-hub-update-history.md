@@ -39,7 +39,7 @@ This update to the Surface Hub includes quality improvements and security fixes.
 * Improves reliability when enrolling into Windows Insider Program.
 * Improves reliability of Windows Team shell.
 
-*[KB4586853](https://support.microsoft.com/help/4586853)
+Please refer to the [Surface Hub Admin guide](https://docs.microsoft.com/surface-hub/) for enabling/disabling device features and services. *[KB4586853](https://support.microsoft.com/help/4586853)
 </details>
 
 <details>
