@@ -27,7 +27,7 @@ Please refer to the “[Surface Hub Important Information](https://support.micro
 <details>
 <summary>November 30, 2020 — update for Team based on KB4586853* (OS Build 19042.662)</summary>
 
-This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/en-us/help/4581839/windows-10-update-history), include:
+This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4581839/windows-10-update-history), include:
 
 * Update to Privacy Settings page to provide additional options.
 * Fix that ensures that End Session cleanup fully removes all data related to Edge Chromium.
