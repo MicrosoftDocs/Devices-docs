@@ -25,6 +25,24 @@ Please refer to the “[Surface Hub Important Information](https://support.micro
 ## Windows 10 Team 2020 Update (20H2)
 
 <details>
+<summary>November 30, 2020 — update for Team based on KB4586853* (OS Build 19042.662)</summary>
+
+This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4581839/windows-10-update-history), include:
+
+* Update to Privacy Settings page to provide additional options.
+* Fix that ensures that End Session cleanup fully removes all data related to Edge Chromium.
+* Resolves an issue where meetings that had already started were not displayed on Welcome/Start screen.
+* Resolves an issue with cloud recovery for non-en-US locales.
+* Skype for Business
+  * Improves directional audio performance.
+  * Reduced “pen tap” sounds when using Pen during Skype for Business calls.
+* Improves reliability when enrolling into Windows Insider Program.
+* Improves reliability of Windows Team shell.
+
+Please refer to the [Surface Hub Admin guide](https://docs.microsoft.com/surface-hub/) for enabling/disabling device features and services. *[KB4586853](https://support.microsoft.com/help/4586853)
+</details>
+
+<details>
 <summary>November 24, 2020 — update for Surface Hub 2S</summary>
 
 This update is specific to the Surface Hub 2S and provides the driver and firmware updates outlined below:
