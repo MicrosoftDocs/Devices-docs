@@ -175,6 +175,10 @@ To change UEFI settings after you finish the migration, apply another SEMM packa
 
 If your company is outsourcing the migration to Windows 10 Pro or Enterprise on Surface Hub 2, you may want to have the partner transfer the SEMM certificate, SEMM package, and UEFI password to you.  Alternatively, after migrating the Hub, you can immediately un-enroll it from SEMM, which will allow local administration of UEFI and transfer of the device to another party. Nevertheless, it's still strongly recommended to use a UEFI password, which can be configured after migration. To learn more, see [Manage Surface UEFI settings](https://docs.microsoft.com/surface/manage-surface-uefi-settings). 
 
+#### Rolling back to Windows 10 Team
+
+If after migrating you choose to restore your device to Windows 10 Team, [as described below](#roll-back-to-windows-10-team), it's recommended to first unenroll Hub from SEMM. To learn more, see [Unenroll Surface devices from SEMM](https://docs.microsoft.com/surface/unenroll-surface-devices-from-semm).
+
 
 #### Save the SEMM package to a USB drive
 
@@ -305,12 +309,16 @@ To fully configure Surface Hub 2S as a personal productivity device, see <a href
 
 If you want to restore your device to Windows 10 Team, see <a href="surface-hub-2s-recover-reset.md" target="_blank"> Reset and recovery for Surface Hub 2S</a>.
 
+> [!NOTE]
+> Before rolling back to Windows 10 Team, it's recommended to first unenroll Hub from SEMM. To learn more, see [Unenroll Surface devices from SEMM](https://docs.microsoft.com/surface/unenroll-surface-devices-from-semm).
+
 ## Version history
 
 The following table summarizes changes to this article.
 
 | Version | Date               | Description                                                                                           |
 | ------- | ------------------ | ----------------------------------------------------------------------------------------------------- |
+| v. 1.3  | December 3, 2020 | Updated with guidance about managing SEMM enrollment                                                        |
 | v. 1.2  | September 29, 2020 | Miscellaneous updates that address usability feedback.                                                        |
 | v. 1.1  | September 15, 2020 | Placed an additional note in the introduction that clarifies licensing requirements for installing a new OS. |
 | v. 1.0  | September 1, 2020  | New article.                                                                                           |
