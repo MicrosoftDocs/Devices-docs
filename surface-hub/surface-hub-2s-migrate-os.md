@@ -59,7 +59,7 @@ Surface UEFI Configurator works as an interface into Surface Enterprise Manageme
 
 Before you migrate Surface Hub from Windows 10 Team to Windows 10 Desktop, you need a UEFI version that's at least *694.2938.768.0*.
  
-To verify the UEFI version on your system:
+#### To verify the UEFI version on your system:
 
 1. On the Surface Hub 2S home page, select **Start**, and then open the Surface app (**All Apps** > **Surface**).
 
@@ -81,7 +81,7 @@ To update the UEFI by using Windows Update:
 1. Verify the UEFI version by using the Surface app. 
 1. At this point, if the UEFI version is not yet version  694.2938.768.0 or later, you can either repeat the above steps, or you can get the latest UEFI by installing the Windows 10 Team 2020 Update Bare Metal Recovery (BMR) image.
 
-### To update the UEFI by using a Bare Metal Recovery (BMR) image
+#### To update the UEFI via Bare Metal Recovery (BMR) image:
 
 1.	Go to the [Surface recovery site](https://support.microsoft.com/surfacerecoveryimage) and select **Surface Hub 2S**
 3.	Enter your Hub Serial Number (located on the rear side of the Hub next to the power connection.)
