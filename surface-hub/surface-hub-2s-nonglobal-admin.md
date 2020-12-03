@@ -43,17 +43,19 @@ The process of creating non Global admin accounts involves the following steps:
 1. Launch PowerShell with elevated account privileges (**Run as Administrator**) and ensure your system is configured to run PowerShell scripts. To learn more, refer to [About Execution Policies](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_execution_policies?). 
 2. [Install Azure PowerShell module](https://docs.microsoft.com/powershell/azure/install-az-ps?view=azps-5.1.0).
 3. Sign into your Azure AD tenant.
- ...
+```powershell
 Connect-AzAccount
-  ...
+```
+
 4. When you're signed into your tenant, run the following commandlet:
-...
-  - function Convert-ObjectIdToSid
+
+```powershell
+function Convert-ObjectIdToSid
 {    param([String] $ObjectId)   
      $d=[UInt32[]]::new(4);[Buffer]::BlockCopy([Guid]::Parse($ObjectId).ToByteArray(),0,$d,0,16);"S-1-12-1-$d".Replace(' ','-')
 	 
 }
-...
+```
 5. The commandlet returns the following instruction:
 - "Please type the Object ID of your Azure AD Group."
 - In Endpoint Manager, select the group you created earlier and copy the Object ID, as shown in the figure below. 
