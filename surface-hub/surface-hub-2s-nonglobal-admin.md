@@ -23,23 +23,26 @@ Before you begin, make sure your Surface Hub is joined to Azure Active Directory
 
 ## Summary 
 
-The process of creating non Global admin accounts involves the following steps: 
+You configureThe process of creating non Global admin accounts involves the following steps: 
 
-1. In Microsoft Endpoint Manager (aka Intune), create a security group containing the desired user accounts as members of the group.
+1. In Microsoft Intune, create a Security group containing the admins designated to manage Surface Hub.
 2. Obtain Azure AD Group SID using PowerShell.
 3. Create XML file containing Azure AD Group SID.
-4. In Endpoint Manager, create a custom configuration profile targeting your security group.
+4. Create a custom Configuration profile targeting your security group.
 
 
 ## Create Azure AD security group 
 
-1. In Endpoint Manager, click Groups > Create Group > enter a name (for example, Surface Hub Local Admins), add the target admin accounts (the user accounts of the persons designated to manage Surface Hub), and then click Create. 
+1. Sign into Intune via the [Microsoft Endpoint Manager admin center](https://go.microsoft.com/fwlink/?linkid=2109431), click **Groups** > **New Group** > and under Group type, select **Security.** 
+2. Enter a Group name (for example, **Surface Hub Local Admins**),  and then click **Create.** 
+3. Open your newly created group, select **Members**, and then choose **Add members**. 
+4. Add  user accounts for admins designated to manage Surface Hub.  To learn more about creating groups in Intune, see  [Add groups to organize users and devices](https://docs.microsoft.com/mem/intune/fundamentals/groups-add).
 
 ## Obtain Azure AD Group SID using PowerShell
 
-1. Launch PowerShell with elevated account privileges (**Run as Administrator**). 
-2. [Install Azure PowerShell](https://docs.microsoft.com/powershell/azure/install-az-ps?view=azps-5.1.0) and install the PowerShell module. 
-3. Sign into your Azure AD tenant
+1. Launch PowerShell with elevated account privileges (**Run as Administrator**) and ensure your system is configured to run PowerShell scripts. To learn more, refer to [About Execution Policies] (https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_execution_policies?). 
+2. [Install Azure PowerShell module](https://docs.microsoft.com/powershell/azure/install-az-ps?view=azps-5.1.0).
+3. Sign into your Azure AD tenant.
  ...
 Connect-AzAccount
   ...
