@@ -9,7 +9,7 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 10/13/2020
+ms.date: 12/03/2020
 ms.localizationpriority: Medium
 ---
 # Migrate to Windows 10 Pro or Enterprise on Surface Hub 2
@@ -68,8 +68,8 @@ To verify the UEFI version on your system:
 
 	   ![Screenshot showing the Your Surface page in the Surface app.](images/shm-fig1.png)
  
-   - If the UEFI version is earlier than *694.2938.768.0*, get a current version by using Windows Update.
-
+   - If the UEFI version is earlier than version 694.2938.768.0, you will need to obtain a current version by either installing the Window 10 Team 2020 Update Bare Metal Recovery (BMR) image, or by using Windows Update.
+   
 To update the UEFI by using Windows Update:
 
 1. On your Surface Hub 2S, sign in as **Admin**. 
@@ -79,8 +79,14 @@ To update the UEFI by using Windows Update:
 1. Go to **All apps** > **Settings** > **Update and Security** > **Windows Update**, and then install all updates. 
 1. Restart the device. 
 1. Verify the UEFI version by using the Surface app. 
-2. Repeat these steps until the UEFI version is *694.2938.768.0* or later.
-3. If you don't see the updated UEFI after multiple attempts, check **Update History** and look for any instances of failed firmware installations. You might need to reset your device (**Settings** > **Update & security** > **Reset device**).
+1. At this point, if the UEFI version is not yet version  694.2938.768.0 or later, you can either repeat the above steps, or you can get the latest UEFI by installing the Windows 10 Team 2020 Update Bare Metal Recovery (BMR) image.
+
+### To update the UEFI by using a Bare Metal Recovery (BMR) image
+
+1.	Go to the [Surface recovery site](https://support.microsoft.com/surfacerecoveryimage) and select **Surface Hub 2S**
+3.	Enter your Hub Serial Number (located on the rear side of the Hub next to the power connection.)
+4.	Follow the directions to download the image onto a formatted USB drive through installing the Windows 10 Team 2020 Update.
+5.	After the update has completed and the device enters the OOBE first time setup, you do not need to complete OOBE, the UEFI version will be updated. Instead power down the device by holding the power button until the screen turns off. 
 
 ### Download Surface UEFI Configurator and Surface Hub 2 drivers and firmware
 
