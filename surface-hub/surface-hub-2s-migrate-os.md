@@ -165,10 +165,16 @@ The SEMM package that Surface UEFI Configurator creates must be secured with a c
     
     ![Set Enable OS Migration to On.](images/shm-fig12.png)
 
-> [!NOTE]
-> After you apply a SEMM package, in the device's UEFI menu, all UEFI settings are unavailable (locked). Default values for other settings such as **IPv6 for PXE Boot** are also unavailable. 
->
->To change UEFI settings after you finish the migration, apply another SEMM package or unenroll the device from SEMM. If you apply another SEMM package to change the UEFI settings, you must use the original certificate when you build the new SEMM package. Use the UEFI Configurator tool and leave **EnableOSMigration** off (not on, as shown in the original migration steps).
+### Managing SEMM enrollment
+
+Enrolling devices into SEMM affects how you can manage the device going forward. For example, after you apply a SEMM package, in the device's UEFI menu, all UEFI settings are unavailable (locked). Default values for other settings such as **IPv6 for PXE Boot** are also unavailable. 
+
+To change UEFI settings after you finish the migration, apply another SEMM package or unenroll the device from SEMM. If you apply another SEMM package to change the UEFI settings, you must use the original certificate when you build the new SEMM package. Use the UEFI Configurator tool and leave **EnableOSMigration** off (not on, as shown in the original migration steps).
+
+#### Working with partners
+
+If your company is outsourcing the migration to Windows 10 Pro or Enterprise on Surface Hub 2, you may want to have the partner transfer the SEMM Certificate, SEMM Package, and UEFI password to you.  Alternatively, after migrating the Hub, the device can immediately be un-enrolled in SEMM, which will allow local administration of UEFI and transfer of the device to another party. We still strongly recommend utilizing a UEFI password, which can be configured after migration. To learn more, see [Manage Surface UEFI settings](surface/manage-surface-uefi-settings.md). 
+
 
 #### Save the SEMM package to a USB drive
 
