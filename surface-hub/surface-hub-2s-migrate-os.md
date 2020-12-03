@@ -173,7 +173,7 @@ To change UEFI settings after you finish the migration, apply another SEMM packa
 
 #### Working with partners
 
-If your company is outsourcing the migration to Windows 10 Pro or Enterprise on Surface Hub 2, you may want to have the partner transfer the SEMM Certificate, SEMM Package, and UEFI password to you.  Alternatively, after migrating the Hub, the device can immediately be un-enrolled in SEMM, which will allow local administration of UEFI and transfer of the device to another party. We still strongly recommend utilizing a UEFI password, which can be configured after migration. To learn more, see [Manage Surface UEFI settings](./surface/manage-surface-uefi-settings.md). 
+If your company is outsourcing the migration to Windows 10 Pro or Enterprise on Surface Hub 2, you may want to have the partner transfer the SEMM Certificate, SEMM Package, and UEFI password to you.  Alternatively, after migrating the Hub, the device can immediately be un-enrolled in SEMM, which will allow local administration of UEFI and transfer of the device to another party. We still strongly recommend utilizing a UEFI password, which can be configured after migration. To learn more, see [Manage Surface UEFI settings](https://docs.microsoft.com/surface/manage-surface-uefi-settings). 
 
 
 #### Save the SEMM package to a USB drive
