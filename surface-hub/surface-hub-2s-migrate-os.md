@@ -9,7 +9,7 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 10/13/2020
+ms.date: 12/03/2020
 ms.localizationpriority: Medium
 ---
 # Migrate to Windows 10 Pro or Enterprise on Surface Hub 2
@@ -59,7 +59,7 @@ Surface UEFI Configurator works as an interface into Surface Enterprise Manageme
 
 Before you migrate Surface Hub from Windows 10 Team to Windows 10 Desktop, you need a UEFI version that's at least *694.2938.768.0*.
  
-To verify the UEFI version on your system:
+**To verify the UEFI version on your system:**
 
 1. On the Surface Hub 2S home page, select **Start**, and then open the Surface app (**All Apps** > **Surface**).
 
@@ -68,9 +68,9 @@ To verify the UEFI version on your system:
 
 	   ![Screenshot showing the Your Surface page in the Surface app.](images/shm-fig1.png)
  
-   - If the UEFI version is earlier than *694.2938.768.0*, get a current version by using Windows Update.
-
-To update the UEFI by using Windows Update:
+   - If the UEFI version is earlier than version 694.2938.768.0, you will need to obtain a current version by either installing the Window 10 Team 2020 Update Bare Metal Recovery (BMR) image, or by using Windows Update.
+   
+**To update UEFI via Windows Update:**
 
 1. On your Surface Hub 2S, sign in as **Admin**. 
     >[!Note]
@@ -79,8 +79,14 @@ To update the UEFI by using Windows Update:
 1. Go to **All apps** > **Settings** > **Update and Security** > **Windows Update**, and then install all updates. 
 1. Restart the device. 
 1. Verify the UEFI version by using the Surface app. 
-2. Repeat these steps until the UEFI version is *694.2938.768.0* or later.
-3. If you don't see the updated UEFI after multiple attempts, check **Update History** and look for any instances of failed firmware installations. You might need to reset your device (**Settings** > **Update & security** > **Reset device**).
+1. At this point, if the UEFI version is not yet version  694.2938.768.0 or later, you can either repeat the above steps, or you can get the latest UEFI by installing the Windows 10 Team 2020 Update Bare Metal Recovery (BMR) image.
+
+**To update UEFI via Bare Metal Recovery (BMR) image:**
+
+1.	Go to the [Surface recovery site](https://support.microsoft.com/surfacerecoveryimage) and select **Surface Hub 2S**
+3.	Enter your Hub Serial Number (located on the rear side of the Hub next to the power connection.)
+4.	Follow the directions to download the image onto a formatted USB drive through installing the Windows 10 Team 2020 Update.
+5.	After the update has completed and the device enters the OOBE first time setup, you do not need to complete OOBE, the UEFI version will be updated. Instead power down the device by holding the power button until the screen turns off. 
 
 ### Download Surface UEFI Configurator and Surface Hub 2 drivers and firmware
 
@@ -159,10 +165,20 @@ The SEMM package that Surface UEFI Configurator creates must be secured with a c
     
     ![Set Enable OS Migration to On.](images/shm-fig12.png)
 
-> [!NOTE]
-> After you apply a SEMM package, in the device's UEFI menu, all UEFI settings are unavailable (locked). Default values for other settings such as **IPv6 for PXE Boot** are also unavailable. 
->
->To change UEFI settings after you finish the migration, apply another SEMM package or unenroll the device from SEMM. If you apply another SEMM package to change the UEFI settings, you must use the original certificate when you build the new SEMM package. Use the UEFI Configurator tool and leave **EnableOSMigration** off (not on, as shown in the original migration steps).
+### Managing SEMM enrollment
+
+Enrolling devices into SEMM affects how you can manage the device going forward. For example, after you apply a SEMM package, in the device's UEFI menu, all UEFI settings are unavailable (locked). Default values for other settings such as **IPv6 for PXE Boot** are also unavailable. 
+
+To change UEFI settings after you finish the migration, apply another SEMM package or unenroll the device from SEMM. If you apply another SEMM package to change the UEFI settings, you must use the original certificate when you build the new SEMM package. Use the UEFI Configurator tool and leave **EnableOSMigration** off (not on, as shown in the original migration steps).
+
+#### Working with partners
+
+If your company is outsourcing the migration to Windows 10 Pro or Enterprise on Surface Hub 2, you may want to have the partner transfer the SEMM certificate, SEMM package, and UEFI password to you.  Alternatively, after migrating the Hub, you can immediately un-enroll it from SEMM, which will allow local administration of UEFI and transfer of the device to another party. Nevertheless, it's still strongly recommended to use a UEFI password, which can be configured after migration. To learn more, see [Manage Surface UEFI settings](https://docs.microsoft.com/surface/manage-surface-uefi-settings). 
+
+#### Rolling back to Windows 10 Team
+
+If after migrating you choose to restore your device to Windows 10 Team, [as described below](#roll-back-to-windows-10-team), it's recommended to first unenroll Hub from SEMM. To learn more, see [Unenroll Surface devices from SEMM](https://docs.microsoft.com/surface/unenroll-surface-devices-from-semm).
+
 
 #### Save the SEMM package to a USB drive
 
@@ -293,12 +309,16 @@ To fully configure Surface Hub 2S as a personal productivity device, see <a href
 
 If you want to restore your device to Windows 10 Team, see <a href="surface-hub-2s-recover-reset.md" target="_blank"> Reset and recovery for Surface Hub 2S</a>.
 
+> [!NOTE]
+> Before rolling back to Windows 10 Team, it's recommended to first unenroll Hub from SEMM. To learn more, see [Unenroll Surface devices from SEMM](https://docs.microsoft.com/surface/unenroll-surface-devices-from-semm).
+
 ## Version history
 
 The following table summarizes changes to this article.
 
 | Version | Date               | Description                                                                                           |
 | ------- | ------------------ | ----------------------------------------------------------------------------------------------------- |
+| v. 1.3  | December 3, 2020 | Updated with guidance about managing SEMM enrollment                                                        |
 | v. 1.2  | September 29, 2020 | Miscellaneous updates that address usability feedback.                                                        |
 | v. 1.1  | September 15, 2020 | Placed an additional note in the introduction that clarifies licensing requirements for installing a new OS. |
 | v. 1.0  | September 1, 2020  | New article.                                                                                           |
