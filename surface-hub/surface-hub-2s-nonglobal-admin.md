@@ -87,7 +87,7 @@ function Convert-ObjectIdToSid
 4. Under **Configuration settings** > **OMA-URI Settings**, click **Add**.
 5. In the Add Row pane, add a name and under     **OMA-URI**, add the following  string: 
 
-```
+```OMA-URI
 ./Device/Vendor/MSFT/Policy/Config/RestrictedGroups/ConfigureGroupMembership
 ```
 6. Under Data type, select **String XML** and browse to open the XML file you created in the previous step. 
@@ -96,7 +96,9 @@ function Convert-ObjectIdToSid
 
 7. Click **Save**.
 8. Click **Select groups to include** and choose the group you created earlier (**Surface Hub Local Admins**). Click **Next.**
-- Under Applicability rules, add a Rule if desired. Otherwise, click **Next** and then click **Create**.
+9. Under Applicability rules, add a Rule if desired. Otherwise, click **Next** and then click **Create**.
+
+To learn more about custom configuration profiles using OMA-URI strings, see [Use custom settings for Windows 10 devices in Intune](https://docs.microsoft.com/mem/intune/configuration/custom-settings-windows-10)
 
 
 ## Non Global admins managing Surface Hub
