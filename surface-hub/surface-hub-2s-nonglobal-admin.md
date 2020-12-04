@@ -47,7 +47,7 @@ The process of creating non Global admin accounts involves the following steps:
 2. [Install Azure PowerShell module](https://docs.microsoft.com/powershell/azure/install-az-ps?view=azps-5.1.0).
 3. Sign into your Azure AD tenant.
 ```powershell
-Connect-AzAccount
+Connect-AzureAD
 ```
 
 4. When you're signed into your tenant, run the following commandlet. It will prompt you to "Please type the Object ID of your Azure AD Group."
@@ -59,11 +59,19 @@ function Convert-ObjectIdToSid
 	 
 }
 ```
+
 5. In Intune, select the group you created earlier and copy the Object id, as shown in the following figure. 
 
  ![Copy Object id of security group](images/sh-objectid.png)
 
-6. Paste the Object id into the PowerShell commandlet, press **Enter**, and then copy the **Azure AD Group SID** into a text editor. 
+6. Run the following commandlet to get the security group's SID:
+```powershell
+$AADGroup = Read-Host "Please type the Object ID of your Azure AD Group"
+$Result = Convert-ObjectIdToSid $AADGroup
+Write-Host "Your Azure Ad Group SID is" -ForegroundColor Yellow $Result
+```
+
+7. Paste the Object id into the PowerShell commandlet, press **Enter**, and then copy the **Azure AD Group SID** into a text editor. 
 
 ## Create XML file containing Azure AD Group SID
 
