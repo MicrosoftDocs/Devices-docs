@@ -19,7 +19,7 @@ When you join Surface Hub 2S to an Azure AD domain, you can configure non Global
 
 By default, the admin account for an AAD-joined Hub is set as Global Admin, which also grants admin rights across an entire corporate tenant. 
 
-Before you begin, make sure your Surface Hub is joined to Azure Active Directory. If not, you will need to run OOBE setup and choose the option to join Azure AD. 
+Before you begin, make sure your Surface Hub is joined to Azure Active Directory. If not, you will need to reset the device and complete OOBE, choosing the option to join Azure AD.
 
 ## Summary 
 
