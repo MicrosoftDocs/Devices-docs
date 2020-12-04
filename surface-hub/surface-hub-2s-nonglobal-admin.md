@@ -47,7 +47,7 @@ The process of creating non Global admin accounts involves the following steps:
 Connect-AzAccount
 ```
 
-4. When you're signed into your tenant, run the following commandlet:
+4. When you're signed into your tenant, run the following commandlet. It will prompt you to "Please type the Object ID of your Azure AD Group."
 
 ```powershell
 function Convert-ObjectIdToSid
@@ -56,27 +56,26 @@ function Convert-ObjectIdToSid
 	 
 }
 ```
-5. The commandlet returns the following instruction:
-- "Please type the Object ID of your Azure AD Group."
-- In Endpoint Manager, select the group you created earlier and copy the Object ID, as shown in the figure below. 
-- Add image
-6. Paste the Object ID into the PowerShell commandlet and press Enter. 
-7. The commandlet returns the Azure AD Group SID. 
+5. In Intune, select the group you created earlier and copy the Object id, as shown in the following figure. 
+
+ ![Copy Object id of security group](images/sh-objectid.png)
+
+6. Paste the Object id into the PowerShell commandlet, press **Enter**, and then copy the **Azure AD Group SID** into a text editor. 
 
 ## Create XML file containing Azure AD Group SID
 
-1. Copy the following into a text editor. Replace the placeholder SID with your Azure AD Group SID obtained in the previous step. 
+1. Copy the following into a text editor. 
 
-...
+```xml
       <groupmembership>   
 	  <accessgroup desc = "Administrators">        
 	  <member name = "Administrator" />        
 	  <member name = "S-1-12-1-XXXXXXXXXX-XXXXXXXXXX-XXXXXXXXXX-XXXXXXXXXX" />  
 	  </accessgroup>
 	  </groupmembership>
-  ...
+  ```
 
-2. Save the file as XML. 
+2. Replace the placeholder SID with your Azure AD Group SID and then save the file as XML. 
 
 ## Create a custom configuration profile
 
