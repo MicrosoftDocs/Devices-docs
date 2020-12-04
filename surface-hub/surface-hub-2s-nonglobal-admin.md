@@ -112,4 +112,4 @@ To learn more about custom configuration profiles using OMA-URI strings, see [Us
 
 ## Non Global admins managing Surface Hub
 
-The user accounts added to **Surface Hub Local Admins** are ready to use. 
+Members of the **Surface Hub Local Admins** Security group can now sign in to the Settings app on Surface Hub and manage settings.
