@@ -9,7 +9,7 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 12/03/2020
+ms.date: 12/04/2020
 ms.localizationpriority: Medium
 ---
 
@@ -34,9 +34,11 @@ The process of creating non Global admin accounts involves the following steps:
 ## Create Azure AD security group 
 
 1. Sign into Intune via the [Microsoft Endpoint Manager admin center](https://go.microsoft.com/fwlink/?linkid=2109431), click **Groups** > **New Group** > and under Group type, select **Security.** 
-2. Enter a Group name (for example, **Surface Hub Local Admins**),  and then click **Create.** 
-3. Open your newly created group, select **Members**, and then choose **Add members**. 
-4. Add  user accounts for admins designated to manage Surface Hub.  To learn more about creating groups in Intune, see  [Add groups to organize users and devices](https://docs.microsoft.com/mem/intune/fundamentals/groups-add).
+2. Enter a Group name -- for example, **Surface Hub Local Admins** -- and then click **Create.** 
+
+ ![Create security group](images/sh-create-sec-group.png)
+
+3. Open the group, select **Members**, and then choose **Add members** to enter the Administrator accounts that you wish to designate as non Global Admins on Surface Hub. To learn more about creating groups in Intune, see  [Add groups to organize users and devices](https://docs.microsoft.com/mem/intune/fundamentals/groups-add).
 
 ## Obtain Azure AD Group SID using PowerShell
 
@@ -64,7 +66,7 @@ function Convert-ObjectIdToSid
 
 ## Create XML file containing Azure AD Group SID
 
-1. Copy the following into a text editor. 
+1. Copy the following into a text editor: 
 
 ```xml
       <groupmembership>   
@@ -75,21 +77,27 @@ function Convert-ObjectIdToSid
 	  </groupmembership>
   ```
 
-2. Replace the placeholder SID with your Azure AD Group SID and then save the file as XML. 
+2. Replace the placeholder SID (beginning with S-1-12-1) with your **Azure AD Group SID** and then save the file as XML; for example, **aad-local-admin.xml**. 
 
-## Create a custom configuration profile
+## Create Custom configuration profile
 
-1. In Endpoint Manager, click **Devices** > **Configuration profiles** > **Create profile** 
-2. Under platform choose  **Windows 10 and later.** Under Profile, choose **Custom**, and then click **Create.**
+1. In Endpoint Manager, click **Devices** > **Configuration profiles** > **Create profile**. 
+2. Under Platform select **Windows 10 and later.** Under Profile, select **Custom**, and then click **Create.**
 3. Add a name and description and then click **Next.**
-4. Under **Configuration settings** > **OMA-URI Settings** click **Add**.
-5. In the Add Row pane, add a name and under OMA-URI, add **./Device/Vendor/MSFT/Policy/Config/RestrictedGroups/ConfigureGroupMembership**.
+4. Under **Configuration settings** > **OMA-URI Settings**, click **Add**.
+5. In the Add Row pane, add a name and under     **OMA-URI**, add the following  string: 
+
+```
+./Device/Vendor/MSFT/Policy/Config/RestrictedGroups/ConfigureGroupMembership
+```
 6. Under Data type, select **String XML** and browse to open the XML file you created in the previous step. 
-- add image
-7. Click Save.
-8. Click **Select groups to include** and choose the group you created earlier. Click **Next.**
+
+ ![upload local admin xml config file](images/sh-local-admin-config.png)
+
+7. Click **Save**.
+8. Click **Select groups to include** and choose the group you created earlier (**Surface Hub Local Admins**). Click **Next.**
 - Under Applicability rules, add a Rule if desired. Otherwise, click **Next** and then click **Create**.
-- 
+
 
 ## Non Global admins managing Surface Hub
 
