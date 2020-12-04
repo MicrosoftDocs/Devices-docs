@@ -28,7 +28,8 @@ The process of creating non Global admin accounts involves the following steps:
 1. In Microsoft Intune, create a Security group containing the admins designated to manage Surface Hub.
 2. Obtain Azure AD Group SID using PowerShell.
 3. Create XML file containing Azure AD Group SID.
-4. Create a custom Configuration profile targeting your security group.
+4. Create a Security Group containing the Surface Hubs that will be managed by the non-Global admins Security group.
+5. Create a custom Configuration profile targeting your Surface Hubs security group.
 
 
 ## Create Azure AD security group 
