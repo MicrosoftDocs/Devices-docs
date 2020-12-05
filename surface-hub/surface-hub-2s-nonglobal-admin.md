@@ -45,7 +45,7 @@ First create a security group containing the admin accounts. Then create another
 
 1. Repeat the previous procedure to create a separate security group for Hub devices; for example, **Surface Hub devices**. 
 
- ![Create security group for Hub devices](images/sh-surface-hub-devices.png) 
+ ![Create security group for Hub devices](images/sh-create-sec-group-devices.png) 
 
 ## Obtain Azure AD Group SID using PowerShell
 
