@@ -113,7 +113,7 @@ Write-Host "Your Azure Ad Group SID is" -ForegroundColor Yellow $Result
 8. Click **Select groups to include** and choose the group you created earlier (**Surface Hub devices**). Click **Next.**
 9. Under Applicability rules, add a Rule if desired. Otherwise, click **Next** and then click **Create**.
 
-To learn more about custom configuration profiles using OMA-URI strings, see [Use custom settings for Windows 10 devices in Intune](https://docs.microsoft.com/mem/intune/configuration/custom-settings-windows-10)
+To learn more about custom configuration profiles using OMA-URI strings, see [Use custom settings for Windows 10 devices in Intune](https://docs.microsoft.com/mem/intune/configuration/custom-settings-windows-10).
 
 
 ## Non Global admins managing Surface Hub
