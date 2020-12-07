@@ -9,8 +9,10 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 12/04/2020
+ms.date: 12/07/2020
 ms.localizationpriority: Medium
+appliesto:
+- Surface Hub 2S 2020 Update
 ---
 
 # Configure non Global admin accounts on Surface Hub 2S
@@ -37,7 +39,7 @@ First create a security group containing the admin accounts. Then create another
 1. Sign into Intune via the [Microsoft Endpoint Manager admin center](https://go.microsoft.com/fwlink/?linkid=2109431), click **Groups** > **New Group** > and under Group type, select **Security.** 
 2. Enter a Group name -- for example, **Surface Hub Local Admins** -- and then click **Create.** 
 
- ![Create security group for Hub admins](images/sh-create-sec-group.png)
+     ![Create security group for Hub admins](images/sh-create-sec-group.png)
 
 3. Open the group, select **Members**, and then choose **Add members** to enter the Administrator accounts that you wish to designate as non Global Admins on Surface Hub. To learn more about creating groups in Intune, see  [Add groups to organize users and devices](https://docs.microsoft.com/mem/intune/fundamentals/groups-add).
 
@@ -45,52 +47,54 @@ First create a security group containing the admin accounts. Then create another
 
 1. Repeat the previous procedure to create a separate security group for Hub devices; for example, **Surface Hub devices**. 
 
- ![Create security group for Hub devices](images/sh-create-sec-group-devices.png) 
+     ![Create security group for Hub devices](images/sh-create-sec-group-devices.png) 
 
 ## Obtain Azure AD Group SID using PowerShell
 
 1. Launch PowerShell with elevated account privileges (**Run as Administrator**) and ensure your system is configured to run PowerShell scripts. To learn more, refer to [About Execution Policies](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_execution_policies?). 
 2. [Install Azure PowerShell module](https://docs.microsoft.com/powershell/azure/install-az-ps).
 3. Sign into your Azure AD tenant.
-```powershell
-Connect-AzureAD
-```
+
+    ```powershell
+    Connect-AzureAD
+    ```
 
 4. When you're signed into your tenant, run the following commandlet. It will prompt you to "Please type the Object ID of your Azure AD Group."
 
-```powershell
-function Convert-ObjectIdToSid
-{    param([String] $ObjectId)   
-     $d=[UInt32[]]::new(4);[Buffer]::BlockCopy([Guid]::Parse($ObjectId).ToByteArray(),0,$d,0,16);"S-1-12-1-$d".Replace(' ','-')
-	 
-}
-```
+    ```powershell
+    function Convert-ObjectIdToSid
+    {    param([String] $ObjectId)   
+         $d=[UInt32[]]::new(4);[Buffer]::BlockCopy([Guid]::Parse($ObjectId).ToByteArray(),0,$d,0,16);"S-1-12-1-$d".Replace(' ','-')
+    	 
+    }
+    ```
 
 5. In Intune, select the group you created earlier and copy the Object id, as shown in the following figure. 
 
- ![Copy Object id of security group](images/sh-objectid.png)
+     ![Copy Object id of security group](images/sh-objectid.png)
 
 6. Run the following commandlet to get the security group's SID:
-```powershell
-$AADGroup = Read-Host "Please type the Object ID of your Azure AD Group"
-$Result = Convert-ObjectIdToSid $AADGroup
-Write-Host "Your Azure Ad Group SID is" -ForegroundColor Yellow $Result
-```
 
+    ```powershell
+    $AADGroup = Read-Host "Please type the Object ID of your Azure AD Group"
+    $Result = Convert-ObjectIdToSid $AADGroup
+    Write-Host "Your Azure Ad Group SID is" -ForegroundColor Yellow $Result
+    ```
+    
 7. Paste the Object id into the PowerShell commandlet, press **Enter**, and then copy the **Azure AD Group SID** into a text editor. 
 
 ## Create XML file containing Azure AD Group SID
 
 1. Copy the following into a text editor: 
 
-```xml
+    ```xml
       <groupmembership>   
 	  <accessgroup desc = "Administrators">        
 	  <member name = "Administrator" />        
 	  <member name = "S-1-12-1-XXXXXXXXXX-XXXXXXXXXX-XXXXXXXXXX-XXXXXXXXXX" />  
 	  </accessgroup>
 	  </groupmembership>
-  ```
+      ```
 
 2. Replace the placeholder SID (beginning with S-1-12-1) with your **Azure AD Group SID** and then save the file as XML; for example, **aad-local-admin.xml**. 
 
@@ -102,15 +106,15 @@ Write-Host "Your Azure Ad Group SID is" -ForegroundColor Yellow $Result
 4. Under **Configuration settings** > **OMA-URI Settings**, click **Add**.
 5. In the Add Row pane, add a name and under     **OMA-URI**, add the following  string: 
 
-```OMA-URI
-./Device/Vendor/MSFT/Policy/Config/RestrictedGroups/ConfigureGroupMembership
-```
+    ```OMA-URI
+    ./Device/Vendor/MSFT/Policy/Config/RestrictedGroups/ConfigureGroupMembership
+    ```
 6. Under Data type, select **String XML** and browse to open the XML file you created in the previous step. 
 
- ![upload local admin xml config file](images/sh-local-admin-config.png)
+     ![upload local admin xml config file](images/sh-local-admin-config.png)
 
 7. Click **Save**.
-8. Click **Select groups to include** and choose the group you created earlier (**Surface Hub devices**). Click **Next.**
+8. Click **Select groups to include** and choose the [security group you created earlier](#create-security-group-for-surface-hub-devices) (**Surface Hub devices**). Click **Next.**
 9. Under Applicability rules, add a Rule if desired. Otherwise, click **Next** and then click **Create**.
 
 To learn more about custom configuration profiles using OMA-URI strings, see [Use custom settings for Windows 10 devices in Intune](https://docs.microsoft.com/mem/intune/configuration/custom-settings-windows-10).
