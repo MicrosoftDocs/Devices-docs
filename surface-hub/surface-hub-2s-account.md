@@ -9,7 +9,7 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 06/20/2019
+ms.date: 12/07/2020
 ms.localizationpriority: Medium
 ---
 
@@ -48,8 +48,6 @@ Create the account by using the Microsoft 365 admin center or by using PowerShel
 
 ### Finalize setup via PowerShell
 
-- **Skype for Business:** For Skype for Business only (on-premises or online), you can enable the Skype for Business object by running **Enable-CsMeetingRoom** to enable features such as Meeting room prompt for audio and Lobby hold.
-
 - **Microsoft Teams and Skype for Business Calendar:** Set [**Calendar Auto processing**](https://docs.microsoft.com/surface-hub/surface-hub-2s-account?source=docs#set-calendar-auto-processing) for this account.
 
 ## Create account using PowerShell
@@ -59,42 +57,54 @@ Instead of using the Microsoft Admin Center portal, you can create the account u
 ### Connect to Exchange Online PowerShell
 
 ```powershell
-$365Session = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://ps.outlook.com/powershell -Credential (Get-Credential) -Authentication Basic –AllowRedirection
-$ImportResults = Import-PSSession $365Session
+Install-Module -Name ExchangeOnlineManagement
+Import-Module ExchangeOnlineManagement
+Connect-ExchangeOnline -UserPrincipalName admin@contoso.com -ShowProgress $true
 ```
 
-### Create a new Room mailbox
+### Create mailbox
 
 ```powershell
-New-Mailbox -MicrosoftOnlineServicesID account@YourDomain.com -Alias SurfaceHub2S -Name SurfaceHub2S -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString  -String "<Enter Strong Password>" -AsPlainText -Force)
+New-Mailbox -MicrosoftOnlineServicesID 'SurfaceHub01@contoso.com' -Alias SurfaceHub01 -Name "Surface Hub 01" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String 'Pass@word1' -AsPlainText -Force)
 ```
 
 ### Set Calendar auto-processing
 
 ```powershell
-Set-CalendarProcessing -Identity "account@YourDomain.com" -AutomateProcessing AutoAccept -AddOrganizerToSubject $false –AllowConflicts   $false –DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true -AdditionalResponse "This room is equipped with a Surface Hub"
+Set-CalendarProcessing -Identity 'SurfaceHub01@contoso.com' -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -AllowConflicts $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false
+Set-CalendarProcessing -Identity 'SurfaceHub01@contoso.com' -AddAdditionalResponse $true -AdditionalResponse "This is a Microsoft Surface Hub. Please make sure this meeting is a Microsoft Teams meeting!"
+```
+
+### Enable ActiveSync if use of email app is required
+
+ The default ActiveSync Policy will work if unchnaged. Otherwise create a new Policy and assign.
+
+```powershell
+New-MobileDeviceMailboxPolicy -Name:"SurfaceHub" -PasswordEnabled:$false
+#Assign Policy to Hub:
+Set-CASMailbox -Identity SurfaceHub01@contoso.com -ActiveSyncMailboxPolicy "SurfaceHub"
+```
+### Connect to Azure AD
+
+```powershell
+Connect-AzureAD
 ```
 
 ### Assign a license
 
 ```powershell
-Connect-MsolService
-Set-Msoluser -UserPrincipalName account@YourDomain.com -UsageLocation IE
-Set-MsolUserLicense -UserPrincipalName "account@YourDomain.com" -AddLicenses "contoso:MEETING_ROOM"
+Set-AzureADUser -ObjectId 'SurfaceHub01@contoso.com' -UsageLocation US
+$License = New-Object -TypeName Microsoft.Open.AzureAD.Model.AssignedLicense 
+$License.SkuId = "c7df2760-2c81-4ef7-b578-5b5392b571df" 
+$Licenses = New-Object -TypeName Microsoft.Open.AzureAD.Model.AssignedLicenses 
+$Licenses.AddLicenses = $License 
+Set-AzureADUserLicense -ObjectId 'SurfaceHub01@contoso.com' -AssignedLicenses $Licenses
 ```
 
-## Connect to Skype for Business Online using PowerShell
-
-### Install pre-requisites
-
-- [Visual C++ 2017 Redistributable](https://aka.ms/vs/15/release/vc_redist.x64.exe)
-- [Skype for Business Online PowerShell Module](https://www.microsoft.com/download/confirmation.aspx?id=39366)
+### Check for available licenses
 
 ```powershell
-Import-Module LyncOnlineConnector
-$SfBSession = New-CsOnlineSession -Credential (Get-Credential)
-Import-PSSession $SfBSession -AllowClobber
-
-# Enable the Skype for Business meeting room
-Enable-CsMeetingRoom -Identity account@YourDomain.com -RegistrarPool(Get-CsTenant).Registrarpool -SipAddressType EmailAddress
+Get-AzureADUser -Filter "userPrincipalName eq 'SurfaceHub01@contoso.com'" |fl *
+#Meeting Room Standard SKU:
+6070a4c8-34c6-4937-8dfb-39bbc6397a60
 ```
