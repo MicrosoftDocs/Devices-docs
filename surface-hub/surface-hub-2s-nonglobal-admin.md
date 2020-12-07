@@ -50,7 +50,7 @@ First create a security group containing the admin accounts. Then create another
 ## Obtain Azure AD Group SID using PowerShell
 
 1. Launch PowerShell with elevated account privileges (**Run as Administrator**) and ensure your system is configured to run PowerShell scripts. To learn more, refer to [About Execution Policies](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_execution_policies?). 
-2. [Install Azure PowerShell module](https://docs.microsoft.com/powershell/azure/install-az-ps?view=azps-5.1.0).
+2. [Install Azure PowerShell module](https://docs.microsoft.com/powershell/azure/install-az-ps).
 3. Sign into your Azure AD tenant.
 ```powershell
 Connect-AzureAD
