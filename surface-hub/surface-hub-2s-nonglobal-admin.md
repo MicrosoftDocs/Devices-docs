@@ -34,7 +34,7 @@ The process of creating non Global admin accounts involves the following steps:
 
 First create a security group containing the admin accounts. Then create another security group for Surface Hub devices.  
 
-**Create security group for Admin accounts**
+### Create security group for Admin accounts
 
 1. Sign into Intune via the [Microsoft Endpoint Manager admin center](https://go.microsoft.com/fwlink/?linkid=2109431), click **Groups** > **New Group** > and under Group type, select **Security.** 
 2. Enter a Group name -- for example, **Surface Hub Local Admins** -- and then click **Create.** 
@@ -43,7 +43,7 @@ First create a security group containing the admin accounts. Then create another
 
 3. Open the group, select **Members**, and then choose **Add members** to enter the Administrator accounts that you wish to designate as non Global Admins on Surface Hub. To learn more about creating groups in Intune, see  [Add groups to organize users and devices](https://docs.microsoft.com/mem/intune/fundamentals/groups-add).
 
-**Create security group for Surface Hub devices**
+### Create security group for Surface Hub devices
 
 1. Repeat the previous procedure to create a separate security group for Hub devices; for example, **Surface Hub devices**. 
 
