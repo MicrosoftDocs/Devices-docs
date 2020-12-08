@@ -86,14 +86,6 @@ After completing the below steps to setup/configure your Surface Hub 2 for Windo
 
        ![Taskbar layout](images/taskblyt.png)
 
-| A | Start Menu      | G | Widows Explorer | M | PowerPoint    | S | Fancy Zones                    | Y | Speakers       |
-| - | --------------- | - | --------------- | - | ------------- | - | ------------------------------ | - | -------------- |
-| B | Search          | H | Store           | N | Whiteboard    | T | Notepad                        | Z | Ink/Pen        |
-| C | Cortana         | I | Mail            | O | Snip & Sketch | U | Surface Hub HW Diagnostic Tool | 1 | Touch keyboard |
-| D | Task View       | J | Outlook         | P | Word          | V | Surface App                    | 2 | Touch keypad   |
-| E | Lock Icon       | K | Teams           | Q | Excel         | W | Running Apps                   | 3 | Clock          |
-| F | Edge (Chromium) | L | OneNote         | R | Your Phone    | X | Show hidden icons              | 4 | Notifications  |
-
 ### Update installed apps
 
 To update all installed Store apps:
