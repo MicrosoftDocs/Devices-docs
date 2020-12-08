@@ -84,8 +84,7 @@ If your Surface Hub device is near to a PC, you can use <a href="https://aka.ms/
 
 After completing the below steps to setup/configure your Surface Hub 2 for Windows 10 Professional or Enterprise, we recommend you utilize pinning your most used applications to the Taskbar for a quick one-touch launch of each application. Below is an example of what your taskbar could look like:
 
-       ![Taskbar layout](images/taskblyt.png)
-
+ ![Taskbar layout](images/taskblyt.png)
 ### Update installed apps
 
 To update all installed Store apps:
