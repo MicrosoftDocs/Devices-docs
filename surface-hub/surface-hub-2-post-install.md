@@ -99,7 +99,8 @@ After migrating to Windows 10 Professional or Windows 10 Enterprise, there may b
 - Go to **Settings** > **Update & Security** > and then select **Check for updates**.
 - If there are any updates, install them, reboot, and then repeat the process until you see the following notification:
 
-![Windows Update 'You're up to date' notification](images/wustatus.png)
+> [!div class="mx-imgBorder"]
+> ![Windows Update 'You're up to date' notification](images/wustatus.png)
 
 
 ## OneDrive for Business
@@ -319,7 +320,7 @@ For information about setting up the app, see <a href="https://www.windowscentra
 ###  Fancy Zones
 
 
-** Fancy Zones** is part of a collection of tools called <a href="https://github.com/microsoft/PowerToys/releases" target="_blank"> PowerToys</a> on GitHub.. It is a great way to utilize the screen real-estate on a Surface Hub 2 by giving you the ability to define fixed layouts on your display (“zones”), and then select which app will then run in each zone. 
+**Fancy Zones** is part of a collection of tools called <a href="https://github.com/microsoft/PowerToys/releases" target="_blank"> PowerToys</a> on GitHub.. It is a great way to utilize the screen real-estate on a Surface Hub 2 by giving you the ability to define fixed layouts on your display (“zones”), and then select which app will then run in each zone. 
 
 
 The [PowerToys wiki](https://github.com/microsoft/PowerToys/wiki) has instructions for how to use and customize each tool, including [FancyZones](https://github.com/microsoft/PowerToys/wiki/FancyZones-Overview). At a high level – after installing PowerToys, you can select or create a custom layout, and then hold the shift key down and drag or use keyboard keys to move a running app into specific zones. Using a Bluetooth or USB keyboard and mouse will help with this, or you can use the on-screen touch keyboard and touchpad.
@@ -436,7 +437,7 @@ Turn on Tablet mode if desired for accessibility needs.
 
 1. Scan for and install all Windows Updates.
 
-2. Update Group Policy
+2. Update Group Policy.
 
    1. At an elevated command prompt, enter **gpupdate /force /boot /wait:0**.
    
