@@ -14,7 +14,7 @@ author: greg-lindsay
 ms.author: greglin
 ms.collection: M365-modern-desktop
 ms.topic: article
-ms.date: 11/03/2020
+ms.date: 12/08/2020
 appliesto:
 - Surface Hub 2S
 ---
@@ -74,11 +74,34 @@ The following example shows the trackpad, which is useful to navigate and select
 
 ![Using the trackpad](images/store.png)
 
-## Configure bluetooth keyboard and mouse (optional)
+## Configure Bluetooth keyboard and mouse (optional)
 
 Connect a keyboard and mouse if you are using the device as your primary Windows device, or you use it often for typing or precision work.
 
 If your Surface Hub device is near to a PC, you can use <a href="https://aka.ms/mm" target="_blank"> Mouse without Borders</a> to move seamlessly between the Surface Hub and the PC. For more information, see <a href="https://blogs.microsoft.com/ai/microsoft-download-from-the-garage-mouse-without-borders/" target="_blank"> Microsoft download from The Garage: Mouse without Borders. </a>
+
+## Example of Taskbar layout
+
+After completing the below steps to setup/configure your Surface Hub 2 for Windows 10 Professional or Enterprise, we recommend you utilize pinning your most used applications to the Taskbar for a quick one-touch launch of each application. Below is an example of what your taskbar could look like:
+
+ ![Taskbar layout](images/taskblyt.png)
+### Update installed apps
+
+To update all installed Store apps:
+
+1. Open Microsoft Store app and select the **See more** ellipsis in the top-right corner.
+2. Select **Downloads and updates.**
+3. Select **Get updates**
+
+### Scan for and install all Windows Updates
+After migrating to Windows 10 Professional or Windows 10 Enterprise, there may be servicing and feature updates available for you to install. 
+
+- Go to **Settings** > **Update & Security** > and then select **Check for updates**.
+- If there are any updates, install them, reboot, and then repeat the process until you see the following notification:
+
+> [!div class="mx-imgBorder"]
+> ![Windows Update 'You're up to date' notification](images/wustatus.png)
+
 
 ## OneDrive for Business
 
@@ -129,7 +152,7 @@ To sync internal corporate files to your local drive with the OneDrive sync app:
 
 **Pair the Bluetooth Surface Hub Pen**
 
-Pair the pen to keep the pen firmware up to date and get battery charge information on the Bluetooth device settings page, or in the Surface app:
+Pair the pen to keep the pen firmware up to date, set the pen shortcuts, and get battery charge information on the Bluetooth device settings page, or in the Surface app:
 
 1. Select **Start** > **Settings** > **Devices**.
 
@@ -196,15 +219,6 @@ To add an icon to the taskbar that enables one-touch screen lock similar to the 
 
 ## Applications
 
-### Update installed apps
-
-To update all installed Store apps:
-
-1. Open Microsoft Store app and select the **See more** ellipsis in the top-right corner.
-
-2. Select **Downloads and updates**.
-
-2. Select **Get updates**.
 
 ### Microsoft Whiteboard
 
@@ -303,9 +317,21 @@ The **Your Phone** app is installed by default on Windows 10. If it is not prese
 
 For information about setting up the app, see <a href="https://www.windowscentral.com/how-set-your-phone-windows-10" target="_blank"> How to set up Your Phone on Windows 10 and sync data between your PC and phone</a>. Also see <a href="https://www.windowscentral.com/how-fix-common-problems-your-phone-app-windows-10" target="_blank"> How to fix common problems with Your Phone app on Windows 10</a>.
 
-### Super Fancy Zones
+###  Fancy Zones
 
-**Super Fancy Zones** helps users arrange windows to maximize screen real estate. It is now included in <a href="https://github.com/microsoft/PowerToys/releases" target="_blank"> PowerToys</a> on GitHub.
+
+**Fancy Zones** is part of a collection of tools called <a href="https://github.com/microsoft/PowerToys/releases" target="_blank"> PowerToys</a> on GitHub.. It is a great way to utilize the screen real-estate on a Surface Hub 2 by giving you the ability to define fixed layouts on your display (“zones”), and then select which app will then run in each zone. 
+
+
+The [PowerToys wiki](https://github.com/microsoft/PowerToys/wiki) has instructions for how to use and customize each tool, including [FancyZones](https://github.com/microsoft/PowerToys/wiki/FancyZones-Overview). At a high level – after installing PowerToys, you can select or create a custom layout, and then hold the shift key down and drag or use keyboard keys to move a running app into specific zones. Using a Bluetooth or USB keyboard and mouse will help with this, or you can use the on-screen touch keyboard and touchpad.
+
+**Power toys tips**
+- To receive email notifications of PowerToys release updates on GitHub, click the “sign-up” button at the top of the [page](https://github.com/microsoft/PowerToys/releases).
+- Once PowerToys is installed, you can receive Windows notifications and/or download and install the latest updates by configuring the PowerToys settings **Download updates automatically** to on.
+- To get to the PowerToys settings, select the up carat **Running apps** on the taskbar, and then right click or press and hold the PowerToys icon until the menu appears. Select “Settings”.
+- At the bottom of the PowerToys settings page, turn **Download updates automatically** to on.
+- When an update has been released, a Windows notification will appear giving you the option of when to install the update.
+
 
 ### Edge Chromium browser
 
@@ -411,7 +437,7 @@ Turn on Tablet mode if desired for accessibility needs.
 
 1. Scan for and install all Windows Updates.
 
-2. Update Group Policy
+2. Update Group Policy.
 
    1. At an elevated command prompt, enter **gpupdate /force /boot /wait:0**.
    
