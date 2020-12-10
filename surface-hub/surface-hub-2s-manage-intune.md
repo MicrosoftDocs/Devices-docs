@@ -47,7 +47,7 @@ These settings span the following categories: Apps and experience, Azure operati
 
 In addition to the policies available directly via the Intune console, there are numerous Configuration service providers (CSPs) that map to registry keys or files. 
 
-Microsoft typically provides new CSPs with each new versions of the Windows 10 operating system. The [Windows 10 Team 2020 Update](surface-hub-2020.md) includes more than 20 new and updated device management policies for Surface Hub and Surface Hub 2S. These MDM policies give IT admins improved control over app updates from the Microsoft Store, wireless projection settings such as Miracast over infrastructure, network settings such as Quality-Of-Service and 802.1x wired authentication, and new privacy/GDPR related settings.
+Microsoft typically provides new CSPs with each new versions of the Windows 10 operating system. The [Windows 10 Team 2020 Update](surface-hub-2020-update.md) includes more than 20 new and updated device management policies for Surface Hub and Surface Hub 2S. These MDM policies give IT admins improved control over app updates from the Microsoft Store, wireless projection settings such as Miracast over infrastructure, network settings such as Quality-Of-Service and 802.1x wired authentication, and new privacy/GDPR related settings.
 
 For more information, see the following resources: 
 
