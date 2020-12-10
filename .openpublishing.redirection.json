@@ -31,6 +31,11 @@
             "redirect_document_id":  false
         },
         {
+            "source_path":  "surface-hub/surface-hub-install-2020preview.md",
+            "redirect_url":  "https://docs.microsoft.com/surface-hub/surface-hub-2020-update",
+            "redirect_document_id":  true
+        },
+        {
             "source_path":  "surface/change-history-for-surface.md",
             "redirect_url":  "https://docs.microsoft.com/surface/get-started",
             "redirect_document_id":  true
