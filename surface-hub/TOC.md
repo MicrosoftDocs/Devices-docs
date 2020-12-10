@@ -26,7 +26,6 @@
 ## Deploy
 ### [Surface Hub 2S adoption and training](surface-hub-2s-adoption-kit.md)
 ### [Surface Hub 2S adoption videos](surface-hub-2s-adoption-videos.md)
-
 ### [First time setup for Surface Hub 2S](surface-hub-2s-setup.md)
 ### [Connect devices to Surface Hub 2S](surface-hub-2s-connect.md)
 ### [Surface Hub 2S deployment checklist](surface-hub-2s-deploy-checklist.md)
@@ -40,7 +39,7 @@
 ### [Migrate to Windows 10 Pro or Enterprise on Surface Hub 2](surface-hub-2s-migrate-os.md)
 ### [Configure Windows 10 Pro or Enterprise on Surface Hub 2](surface-hub-2-post-install.md)
 ### [Essential add-ons for Windows 10 Pro and Enterprise on Surface Hub 2](surface-hub-2-essential-add-ons.md)
-### [Install Windows 10 Team 2020 Update Preview Build](surface-hub-install-2020preview.md)  
+### [Install Windows 10 Team 2020 Update](surface-hub-2020-update.md)  
 ### [Known issues - Windows 10 Team 2020 Update](surface-hub-2020-team-update-known-issues.md)
 ### [Configure non Global admin accounts on Surface Hub 2S](surface-hub-2s-nonglobal-admin.md)
 ### [Install and configure the new Microsoft Edge on Surface Hub](surface-hub-install-chromium-edge.md)        
@@ -99,8 +98,7 @@
 #### [First-run program](first-run-program-surface-hub.md)
 
 ## Manage
-### [Manage Microsoft Surface Hub](manage-surface-hub.md)
-### [Install Windows 10 Team 2020 Update Preview Build](surface-hub-install-2020preview.md)  
+### [Manage Microsoft Surface Hub](manage-surface-hub.md) 
 ### [Install and configure the new Microsoft Edge on Surface Hub](surface-hub-install-chromium-edge.md)    
 ### [PowerShell for Surface Hub](appendix-a-powershell-scripts-for-surface-hub.md)
 ### [Remote Surface Hub management](remote-surface-hub-management.md)
