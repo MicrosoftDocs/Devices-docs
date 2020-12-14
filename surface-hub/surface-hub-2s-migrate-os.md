@@ -14,6 +14,8 @@ ms.localizationpriority: Medium
 ---
 # Migrate to Windows 10 Pro or Enterprise on Surface Hub 2
 
+- [Article version history](#version-history)
+
 Surface Hub 2S comes preinstalled with Windows 10 Team. This customized edition of Windows 10 is designed to facilitate collaboration in meeting room environments. Now you have the option of running Windows 10 Pro or Enterprise to use Surface Hub 2S much like any other PC. 
 
 > [!IMPORTANT]
