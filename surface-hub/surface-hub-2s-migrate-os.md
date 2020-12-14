@@ -9,7 +9,7 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 12/03/2020
+ms.date: 12/14/2020
 ms.localizationpriority: Medium
 ---
 # Migrate to Windows 10 Pro or Enterprise on Surface Hub 2
@@ -296,7 +296,7 @@ The following procedure describes how to create a USB flash drive from installat
 
 ### Install Surface Hub 2 drivers and firmware
 
-To ensure your device has all the latest updates and drivers, install <a href="https://www.microsoft.com/download/details.aspx?id=101974" target="_blank"> drivers and firmware for Windows 10 Pro and Enterprise OS on Surface Hub 2</a>.
+To ensure your device has all the latest updates and drivers, install <a href="https://www.microsoft.com/download/details.aspx?id=101974" target="_blank"> drivers and firmware for Windows 10 Pro and Enterprise OS on Surface Hub 2</a>. After installation of the drivers and firmware MSI, reboot the device. Then, after powering the Hub back on, keep the PC power on for an hour and reboot the device again. You will not be prompted for the second reboot. Depending on the state of your machine prior to migrating to Windows 10 Pro or Enterprise, this second step may be needed to ensure all of the firmware has been updated.
  
 ## Configure recommended settings
 
