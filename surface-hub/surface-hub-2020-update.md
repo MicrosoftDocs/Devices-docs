@@ -14,7 +14,9 @@ ms.localizationpriority: Medium
 ---
 # Install Windows 10 Team 2020 Update 
 
-The new Surface Hub operating system, **Windows 10 Team 2020 Update**, based on Windows 10 version 20H2, is now available for all Surface Hub 2S devices.  See also: [Known issues: Windows 10 Team 2020 Update](surface-hub-2020-update.md)
+The new Surface Hub operating system, **Windows 10 Team 2020 Update**, based on Windows 10 version 20H2, is now available for all Surface Hub 2S devices.  
+
+- See also: [Known issues: Windows 10 Team 2020 Update](surface-hub-2020-update.md)
 
 ## Distribution
 
