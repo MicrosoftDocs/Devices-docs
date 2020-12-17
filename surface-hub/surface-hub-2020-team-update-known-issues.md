@@ -9,7 +9,7 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 12/04/2020
+ms.date: 12/17/2020
 ms.localizationpriority: Medium
 ---
 # Known issues: Windows 10 Team 2020 Update 
@@ -17,6 +17,7 @@ ms.localizationpriority: Medium
 This article lists known issues for Windows 10 Team 2020 Update, the current operating system for Surface Hub.
 
 To ensure Surface Hub receives the latest updates, sign in with an Admin account and select **All apps** > **Settings** > **Update and Security** > **Windows Update**, and then install all updates.
+
 
 
 
