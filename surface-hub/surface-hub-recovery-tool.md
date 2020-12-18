@@ -72,10 +72,10 @@ Install Surface Hub Recovery Tool on the host PC.
 
     ![Do not let your machine go to sleep guidance](images/shrt-guidance.png)
 
-4. In the Select image window, click either **RS2** or its successor **20H2**, select **Continue** and then select **Download image.**
+4. In the Select image window, click either **RS2** or its successor **20H2**, select **Continue,** and then select **Download image.**
 
      ![Recovery Tool Select image](images/shrt-select-image.png)
-    ![Recovery Tool Select image](images/shrt-download-image.png)
+    ![Recovery Tool Download image](images/shrt-download-image.png)
 
 5. Time to download the recovery image is dependent on internet connection speeds. On an average corporate connection, it can take up to an hour to download the 8GB image file.
 
