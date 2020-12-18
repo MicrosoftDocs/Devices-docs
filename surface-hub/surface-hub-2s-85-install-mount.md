@@ -16,7 +16,6 @@ ms.localizationpriority: Medium
 
 This article provides guidance for physically installing Microsoft Surface Hub 2S 85" in commercial environments. 
 
-
 ## Handling and site prep
 
 - Before moving the device to the place where it will be installed, survey the site to determine how to safely move it to the location where it will be unpacked and mounted.
@@ -43,9 +42,8 @@ Use good ergonomic lifting practices, including but not limited to:
 - Keep your torso straight; do not twist while lifting or after the load is lifted
 
  
- 
-
 ## 1. Remove outer packaging materials
+
 - Remove and recycle outer cover.
 - Cut four (4) plastic straps.
 - Open and remove the six (6) clips from the ends.
@@ -146,15 +144,13 @@ Graphic on the ends of the device cover provide general speaker location.
 ## Mounting Surface Hub 2S 85" 
 
 > [!WARNING]
->  The device is heavy and attaches to a cart or wall mount. To reduce the
-risk of injury, death, or damage to the device:
-Follow all instructions provided by the cart or wall mount manufacturer.
-
-- Ensure the proposed mounting system will support the weight of this device.
-- Only use the mounting hardware provided with mounting the system.
-- Ensure all screws are securely tightened according to the manufacturer’s instructions.
-- Do not release the device until you are certain device is fully engaged with mounting system attachment points.
-- Microsoft recommends using carts or wall mounting systems designed for use with your device. Microsoft is not responsible for any damage, injuries, or death caused by the use of other mounting systems.
+>  The device is heavy and attaches to a cart or wall mount. To reduce the risk of injury, death, or damage to the device: 
+>- Follow all instructions provided by the cart or wall mount manufacturer.
+>- Ensure the proposed mounting system will support the weight of this device.
+>- Only use the mounting hardware provided with mounting the system.
+>- Ensure all screws are securely tightened according to the manufacturer’s instructions.
+>- Do not release the device until you are certain device is fully engaged with mounting system attachment points.
+>- Microsoft recommends using carts or wall mounting systems designed for use with your device. Microsoft is not responsible for any damage, injuries, or death caused by the use of other mounting systems.
  
 ### Mounting dimensions
 
@@ -163,12 +159,36 @@ Follow all instructions provided by the cart or wall mount manufacturer.
 ![Surface Hub 85” dimensions for mounting](images/sh2-85-measure1.png) <br>
 
 
-----------
-
-
 ## Supplemental Strapping Kit
 
 An additional set of inner packaging strapping materials can be found in the kit attached at the back, lower right.
+
+## Additional safety information
+
+> [!WARNING]
+>  Unseen hazards in walls or other mounting surfaces
+Walls and other mounting surfaces may contain electrical wires, gas lines, and other unseen hazards or obstacles. Cutting or drilling into an unseen hazard may cause serious personal injury or death.
+It is the installer’s responsibility to locate unseen hazards prior to and to avoid these hazards during installation. Assess the mounting environment and always make sure there are no unseen hazards in the wall or other mounting surface prior to drilling and/or cutting.
+
+> [!WARNING]
+> Tip hazard
+> To avoid risk of personal injury, death, or damage to a cart/stand-mounted device when it is moved:
+> - Only use a cart/stand that is compatible with this device.
+>- Follow all instructions provided by the cart/stand manufacturer for moving or relocating a stand-mounted device.
+>-	Do not hang or place heavy objects from the device or on the cart/stand.
+>-	Disconnect the power cord and other cables as needed prior to moving the cart/stand-mounted device. Use caution and move slowly when moving cart/stand-mounted device. Follow the cart/stand manufacturer’s instructions for moving or relocating the stand.
+>-	Use caution when transporting a cart/stand-mounted device up or down ramps. Never leave a cart/stand-mounted device unattended on or near a ramp.
+>-	Only adults should move the cart/stand-mounted device.
+
+> [!CAUTION]
+> Touch-screen glass
+The touch screen on the device, like most touch screens, is made of glass. The glass can break if the device is dropped or receives a significant impact. To reduce the risk of personal injury, avoid touching the screen if the glass is broken, chipped or cracked and arrange to have the screen replaced.
+A cracked or chipped touch screen caused by misuse or abuse of your device is not covered under the product’s limited warranty.
+
+> [!WARNING]
+>  Proper installation
+To avoid hazards related to improper device installation, installation must be performed by people who have read and understand the installation instruction prior to beginning work. If you do not have the necessary equipment or expertise, or if you are uncertain the mounting surface can properly support consult a professional installer.
+
 
 ## More information
 
