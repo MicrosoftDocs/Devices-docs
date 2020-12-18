@@ -1,5 +1,5 @@
 ---
-title: "Install and mount Surface Hub 2S 85""
+title: "Install and mount Surface Hub 2S 85"
 description: "Learn how to install and mount Surface Hub 2S 85."
 keywords: separate values with commas
 ms.prod: surface-hub
