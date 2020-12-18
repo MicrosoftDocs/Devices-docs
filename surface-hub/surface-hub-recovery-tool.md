@@ -10,7 +10,7 @@ ms.sitesec: library
 author: dansimp
 ms.author: dansimp
 ms.topic: article
-ms.date: 05/22/2018
+ms.date: 12/18/2018
 ms.localizationpriority: medium
 ---
 
@@ -48,9 +48,9 @@ If the tool is unsuccessful in reimaging your drive, please contact [Surface Hub
 
 ## Download Surface Hub Recovery Tool
 
-Surface Hub Recovery Tool is available for download from [Surface Hub Tools for IT](https://www.microsoft.com/download/details.aspx?id=52210)  under the file name **SurfaceHub_Recovery_v1.14.137.0.msi**.
+Surface Hub Recovery Tool is available for download from [Surface Hub Tools for IT](https://www.microsoft.com/download/details.aspx?id=52210)  under the file name **SurfaceHub_Recovery_v2.0.139.0.msi**.
 
-To start the download, click **Download**, choose **SurfaceHub_Recovery_v1.14.137.0.msi** from the list, and click **Next**. From the pop-up, choose one of the following:
+To start the download, click **Download**, choose **SurfaceHub_Recovery_v2.0.139.0.msi** from the list, and click **Next**. From the pop-up, choose one of the following:
 
 - Click **Run** to start the installation immediately.
 - Click **Save** to copy the download to your computer for later installation.
@@ -67,13 +67,21 @@ Install Surface Hub Recovery Tool on the host PC.
 
     ![Recovery Tool Start button](images/shrt-start.png)
 
+
 3. In the **Guidance** window, click **Next**.
 
     ![Do not let your machine go to sleep guidance](images/shrt-guidance.png)
 
-4. click **Yes** to download the image. Time to download the recovery image is dependent on internet connection speeds. On an average corporate connection, it can take up to an hour to download the 8GB image file.
+4. In the Select image window, click either **RS2** or its successor **20H2**, select **Continue,** and then select **Download image.**
 
-    ![Download the image?](images/shrt-download.png)
+     ![Recovery Tool Select image](images/shrt-select-image.png)
+    ![Recovery Tool Download image](images/shrt-download-image.png)
+
+5. Time to download the recovery image is dependent on internet connection speeds. On an average corporate connection, it can take up to an hour to download the 8GB image file.
+
+    ![Downloading image](images/shrt-download.png)
+
+
 
 5. When the download is complete, the tool instructs you to connect an SSD drive. If the tool is unable to locate the attached drive, there is a good chance that the cable being used is not reporting the name of the SSD to Windows.  The imaging tool must find the name of the drive as "LITEON L CH-128V2S USB Device" before it can continue.  For more information on how to remove the existing drive from your Surface Hub, see [Surface Hub SSD replacement](surface-hub-ssd-replacement.md).
 
@@ -81,13 +89,11 @@ Install Surface Hub Recovery Tool on the host PC.
 
 6. When the drive is recognized, click **Start** to begin the re-imaging process. On the warning that all data on the drive will be erased, click **OK**.
 
-    ![Start re-imaging the SSD](images/shrt-drive-start.png)
+
 
     Prior to applying the system image to the drive, the SSD is repartitioned and formatted. Copying the system binaries will take approximately 30 minutes, but can take longer depending on the speed of your USB bus, the cable being used, or antivirus software installed on your system.
 
-    ![Copying done](images/shrt-done.png)
 
-    ![Reimaging complete](images/shrt-complete.png)
 
 ## Troubleshooting and common problems
 
@@ -99,3 +105,15 @@ The drive isn’t recognized by the tool | Verify that the Surface Hub SSD is en
 Error: -2147024809 | Open Disk Manager and remove the partitions on the Surface Hub drive.  Disconnect and reconnect the drive to the host machine. Restart the imaging tool again.
 
 If the tool is unsuccessful in reimaging your drive, please contact [Surface Hub Support](https://support.microsoft.com/help/4037644/surface-contact-surface-warranty-and-software-support).
+
+## Version history
+
+### Version v2.0.139.0
+
+*Release date: December 18, 2020*<br>
+This version of Surface Hub Recovery Tool adds support for the following:
+- Update to support Windows 10 Team 2020 Update (20H2)
+- User experience improvements
+- Architectural changes
+- Telemetry additions
+
