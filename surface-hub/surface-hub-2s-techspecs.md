@@ -9,7 +9,7 @@ manager: laurawi
 ms.author: greglin
 audience: Admin
 ms.topic: article
-ms.date: 09/22/2020
+ms.date: 12/21/2020
 ms.localizationpriority: Medium
 ---
 
@@ -41,5 +41,11 @@ ms.localizationpriority: Medium
 |**Input Power, standby**| 5 W max  |
 
 > [!NOTE]
-> <sup>1</sup> System software uses significant storage space. Available storage is subject to change based on system software updates and apps usage. 1 GB= 1 billion bytes. See Surface.com/Storage for more details. <br> <sup>2</sup> Doppler sensor not available in Hong Kong, India, Kuwait, and Oman  due to government regulations.
+> <sup>1</sup> System software uses significant storage space. Available storage is subject to change based on system software updates and apps usage. 1 GB= 1 billion bytes. See Surface.com/Storage for more details. <br> <sup>2</sup> Doppler sensor not available in Hong Kong, India, Kuwait, and Oman  due to local regulations.
 <br> <sup>3</sup> Software license required for some features. Sold separately.<br> 
+
+> [!NOTE]
+> Surface Hub can be used continuously for a maximum of 18 hours a day. To optimize for efficiency, Surface Hub uses smart sensors to turn off the LED screen when presence is no longer detected, which means there is no need to power it down at the end of the day. If the unit is installed in a 24-hour workplace environment, the sensors can be disabled to comply with the 18 hour per day maximum use recommendation. Note that prolonged display of a video signal may cause burned-in or image retention to occur on the screen. To learn more about managing power settings, see:
+>
+> - [Local management Surface Hub settings](local-management-surface-hub-settings.md)
+> - [SurfaceHub CSP - Windows Client Management](https://docs.microsoft.com/windows/client-management/mdm/surfacehub-csp)

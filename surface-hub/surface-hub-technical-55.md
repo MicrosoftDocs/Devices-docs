@@ -9,11 +9,10 @@ author: dansimp
 ms.author: dansimp
 ms.topic: article
 ms.localizationpriority: medium
+ms.date: 12/21/2020
 ---
 
 # Technical information for 55" Surface Hub
-
-## Measurements 
 
 |
 --- | ---
@@ -49,6 +48,12 @@ Input power, operating |	500W max
 Input power, standby    |  	5W nominal
 
 
+> [!NOTE]
+> Surface Hub can be used continuously for a maximum of 18 hours a day. To optimize for efficiency, Surface Hub uses smart sensors to turn off the LED screen when presence is no longer detected, which means there is no need to power it down at the end of the day. If the unit is installed in a 24-hour workplace environment, the sensors can be disabled to comply with the 18 hour per day maximum use recommendation. Note that prolonged display of a video signal may cause burned-in or image retention to occur on the screen. To learn more about managing power settings, see:
+>
+> - [Local management Surface Hub settings](local-management-surface-hub-settings.md)
+> - [SurfaceHub CSP - Windows Client Management](https://docs.microsoft.com/windows/client-management/mdm/surfacehub-csp)
+
 ## Replacement PC connections 
 
 Connector and location | Label | Description
@@ -82,7 +87,11 @@ RJ45, bottom I/O | ![](images/rj45.png) | Connects to Ethernet.
 RJ11, bottom I/O | ![](images/rj11.png) | Connects to room control systems.
 
 
-
+> [!NOTE]
+> Surface Hub can be used continuously for a maximum of 18 hours a day. To optimize for efficiency, Surface Hub uses smart sensors to turn off the LED screen when presence is no longer detected, which means there is no need to power it down at the end of the day. If the unit is installed in a 24-hour workplace environment, the sensors can be disabled to comply with the 18 hour per day maximum use recommendation. Note that prolonged display of a video signal may cause burned-in or image retention to occur on the screen. To learn more about managing power settings, see:
+>
+> - [Local management Surface Hub settings](local-management-surface-hub-settings.md)
+> - [SurfaceHub CSP - Windows Client Management](https://docs.microsoft.com/windows/client-management/mdm/surfacehub-csp)
 
 
 
