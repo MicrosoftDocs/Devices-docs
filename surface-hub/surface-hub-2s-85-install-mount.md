@@ -18,6 +18,7 @@ This article provides guidance for physically installing Microsoft Surface Hub 2
 
 ## Handling and site prep
 
+- The device is very heavy. To reduce the risk of personal injury, death, or damage to the device due to its size and weight, it is important to keep the device upright.
 - Before moving the device to the place where it will be installed, survey the site to determine how to safely move it to the location where it will be unpacked and mounted.
 - Always use at least two people for unpacking and installation.
 - Once the device is unpacked, it should be mounted
