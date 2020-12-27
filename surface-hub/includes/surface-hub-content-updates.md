@@ -2,6 +2,17 @@
 
 
 
+## Week of December 21, 2020
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 12/21/2020 | [Surface Hub 2S 85-inch](/surface-hub/surface-hub-2s-85) | modified |
+| 12/21/2020 | [Surface Hub 2S tech specs](/surface-hub/surface-hub-2s-techspecs) | modified |
+| 12/21/2020 | [Technical information for 55" Surface Hub](/surface-hub/surface-hub-technical-55) | modified |
+| 12/21/2020 | [Technical information for 84" Surface Hub](/surface-hub/surface-hub-technical-84) | modified |
+
+
 ## Week of December 14, 2020
 
 
@@ -29,12 +40,3 @@
 | Published On |Topic title | Change |
 |------|------------|--------|
 | 11/24/2020 | [Surface Hub update history](/surface-hub/surface-hub-update-history) | modified |
-
-
-## Week of November 16, 2020
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 11/16/2020 | [Manage Windows updates on Surface Hub](/surface-hub/manage-windows-updates-for-surface-hub) | modified |
-| 11/16/2020 | [Surface Hub update history](/surface-hub/surface-hub-update-history) | modified |
