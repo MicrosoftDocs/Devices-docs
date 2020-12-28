@@ -9,7 +9,7 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 11/21/2019
+ms.date: 12/28/2020
 ms.localizationpriority: Medium
 ---
 
@@ -22,6 +22,11 @@ If you use Exchange Online, Skype for Business Online, Microsoft Teams, or Micro
 Office 365 endpoints help optimize your network by sending all trusted Office 365 network requests directly through your firewall, bypassing all additional packet-level inspection or processing. This feature reduces latency and your perimeter capacity requirements.
 
 Microsoft regularly updates the Office 365 service with new features and functionality, which may alter required ports, URLs, and IP addresses. To evaluate, configure, and stay up to date with changes, subscribe to the [Office 365 IP Address and URL Web service](https://docs.microsoft.com/office365/enterprise/office-365-ip-web-service).
+
+> [!NOTE]
+> Surface Hub works with Microsoft Teams, Skype for Business Server 2019, Skype for Business Server 2015, or Skype for Business Online.
+Earlier platforms such as Lync Server 2013 are not supported. Surface Hub is not supported in GCC-High or DoD environments.
+
 
 ## Device affiliation
 
