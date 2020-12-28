@@ -25,7 +25,7 @@ Microsoft regularly updates the Office 365 service with new features and functio
 
 > [!NOTE]
 > Surface Hub works with Microsoft Teams, Skype for Business Server 2019, Skype for Business Server 2015, or Skype for Business Online.
-Earlier platforms such as Lync Server 2013 are not supported. Surface Hub is not supported in GCC-High or DoD environments.
+Earlier platforms, such as Lync Server 2013, are not supported. Surface Hub is not supported in GCC-High or DoD environments.
 
 
 ## Device affiliation
@@ -44,8 +44,10 @@ No affiliation is like having Surface Hub 2S in a workgroup with a different loc
 
 If you affiliate Surface Hub 2S with on-premises Active Directory Domain Services, you need to manage access to the Settings app using a security group on your domain. This helps ensure that all security group members have permissions to change settings on Surface Hub 2S. Also note the following:
 
-- When Surface Hub 2S affiliates with your on-premises Active Directory Domain Services, the BitLocker key can be saved in the Active Directory Schema. For more information, see [Prepare your organization for BitLocker: Planning and policies](https://docs.microsoft.com/windows/security/information-protection/bitlocker/prepare-your-organization-for-bitlocker-planning-and-policies). 
+- When Surface Hub 2S affiliates with your on-premises Active Directory Domain Services, the BitLocker key can be saved in the Active Directory Schema. For more information, see [Prepare your organization for BitLocker: Planning and policies](https://docs.microsoft.com/windows/security/information-protection/bitlocker/prepare-your-organization-for-bitlocker-planning-and-policies).
+
 - Your organization’s Trusted Root CAs are pushed to the same container in Surface Hub 2S, which means you don’t need to import them using a provisioning package.
+
 - You can still enroll the device with Intune to centrally manage settings on your Surface Hub 2S.
 
 ## Azure Active Directory
