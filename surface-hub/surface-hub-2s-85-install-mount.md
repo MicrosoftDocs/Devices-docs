@@ -50,14 +50,14 @@ Use good ergonomic lifting practices, including but not limited to:
 - Open and remove the six (6) clips from the ends.
 - Remove lid and then lift and remove front and back panels.
 
- ![Remove outer packaging](images/hub85mount1.png) <br>
+ ![Remove outer packaging](images/hub85mount1a.png) <br>
 
 ## 2. Remove black outer packaging foam
 
 - Remove black corner foam pieces (4).
 - Remove black center foam support.
 
- ![Remove black outer packaging foam](images/hub85mount2.png) <br>
+ ![Remove black outer packaging foam](images/hub85mount2a.png) <br>
 
 > [!Caution]
 > Do not remove any white foam, strapping or packaging materials until the Hub 2S is adjacent to the cart or wall mount on which it will be placed.
@@ -72,7 +72,7 @@ Additional strapping materials are provided in the small box located under the h
 - Lock wheel brakes (4).
 - Slide inner packaging off pallet.
 
- ![Remove inner packaging frame from pallet](images/hub85mount3.png) <br>
+ ![Remove inner packaging frame from pallet](images/hub85mount3a.png) <br>
 
 ## 4. Rotate packaging frame to fit elevator
 
