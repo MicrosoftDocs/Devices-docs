@@ -9,7 +9,7 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 12/18/2020
+ms.date: 01/07/2020
 ms.localizationpriority: Medium
 ---
 # Install and mount Surface Hub 2S 85”
@@ -45,17 +45,17 @@ Use good ergonomic lifting practices, including but not limited to:
  
 ## 1. Remove outer packaging materials
 
-- Remove and recycle outer cover.
-- Cut four (4) plastic straps.
-- Open and remove the six (6) clips from the ends.
-- Remove lid and then lift and remove front and back panels.
+1. Remove and recycle outer cover.
+2. Cut four (4) plastic straps.
+3. Open and remove the six (6) clips from the ends.
+4. Remove lid and then lift and remove front and back panels.
 
  ![Remove outer packaging](images/hub85mount1a.png) <br>
 
 ## 2. Remove black outer packaging foam
 
-- Remove black corner foam pieces (4).
-- Remove black center foam support.
+1. Remove black corner foam pieces (4).
+2. Remove black center foam support.
 
  ![Remove black outer packaging foam](images/hub85mount2a.png) <br>
 
@@ -66,61 +66,59 @@ Additional strapping materials are provided in the small box located under the h
 
 ## 3. Remove inner packaging frame from pallet
 
+1. Move pallet assembly to elevator location.
+2. Lock wheel brakes (4).
+3. Slide inner packaging off pallet.
 
- 
-- Move pallet assembly to elevator location.
-- Lock wheel brakes (4).
-- Slide inner packaging off pallet.
-
- ![Remove inner packaging frame from pallet](images/hub85mount3a.png) <br>
+ ![Remove inner packaging frame from pallet](images/hub85mount3b.png) <br>
 
 ## 4. Rotate packaging frame to fit elevator
 
-- Rotate frame to fit elevator
-- Rotate on beveled end of inner frame and slide into the elevator.
+1. Rotate frame to fit elevator
+2. Rotate on beveled end of inner frame and slide into the elevator.
 
- ![Rotate packaging frame to fit elevator](images/hub85mount4.png) <br>
+ ![Rotate packaging frame to fit elevator](images/hub85mount4a.png) <br>
 
 > [!NOTE]
 > The wheeled pallet is custom fit to the inner frame packaging footprint and can be used throughout the installation site delivery process. Inner wood frame end piece has nylon skid plates.
  
 ## 5. Remove from elevator
 
-- Slide out of elevator
-- Lock wheel brakes (x4).
+1. Slide out of elevator
+2. Lock wheel brakes (x4).
 
- ![Remove from elevator](images/hub85mount5.png) <br>
+ ![Remove from elevator](images/hub85mount5a.png) <br>
 
 
 ## 6. Place Surface Hub 85” back on pallet
 
-- Using beveled end, rotate back onto pallet.
-- Unlock wheel brakes (x4).
-- Move product to location of wall or cart mount.
+1. Using beveled end, rotate back onto pallet.
+2. Unlock wheel brakes (x4).
+3. Move product to location of wall or cart mount.
 
- ![Place Surface Hub 85” back on pallet](images/hub85mount6.png) <br>
+ ![Place Surface Hub 85” back on pallet](images/hub85mount6a.png) <br>
 
 ## 7. Place Surface Hub 85" on Wall Mount or Cart
 
-- Place Hub 2S in front of wall mount or cart.
-- Lock wheel brakes (x4).
-- Slide inner packaging off pallet.
-- Cut the 3 plastic straps.
-- Remove lid.
-- Remove white foam pieces.
-- Remove Welcome Kit.
-- Remove end piece by lifting vertically.
-- Remove wood end pieces by the four hand knobs screws on the wood base.
+1. Place Hub 2S in front of wall mount or cart.
+2. Lock wheel brakes (x4).
+3.  Slide inner packaging off pallet.
+4. Cut the 3 plastic straps.
+5. Remove lid.
+6. Remove white foam pieces.
+7. Remove Welcome Kit.
+8. Remove end piece by lifting vertically.
+9. Remove wood end pieces by the four hand knobs screws on the wood base.
 
 
- ![Place Surface Hub 85” on Wall Mount or Cart](images/hub85mount7.png) <br>
+ ![Place Surface Hub 85” on Wall Mount or Cart](images/hub85mount7a.png) <br>
 
 > [!CAUTION]
 >  Do not leave Hub 2S 85" unattended. An additional person is needed to hold device upright.
 Once end pieces are removed, a minimum of one person needs to maintain contact with the Hub 2S until placement on wall mount or cart is completed.
-- Lift plywood end piece up and back.
-- Remove bump label from back.
-- Lift the Hub 2S from the lower tray and place on cart or wall mount.
+10. Lift plywood end piece up and back.
+11. Remove bump label from back.
+12. Lift the Hub 2S from the lower tray and place on cart or wall mount.
 
 
 > [!NOTE]
@@ -132,12 +130,12 @@ manufactures instructions, prepare the mounting system prior to removing the Hub
 Graphic on the ends of the device cover provide general speaker location.
  
 
-- Loosen elastic tension clips (x2).
-- Remove cloth cover.
-- Note locations for placement of pens (x2), camera, and power cord.
-- Attach pens (x2), camera, and power cord.
-- Remove cling labels (x4).
-- Press the power button on lower right. Installation is now complete.
+13. Loosen elastic tension clips (x2).
+14. Remove cloth cover.
+15. Note locations for placement of pens (x2), camera, and power cord.
+16. Attach pens (x2), camera, and power cord.
+17. Remove cling labels (x4).
+18. Press the power button on lower right. Installation is now complete.
 
  
 
