@@ -9,7 +9,7 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 09/25/2020
+ms.date: 12/21/2020
 ms.localizationpriority: Medium
 ---
 
@@ -46,6 +46,11 @@ The 85" version of the Surface Hub family brings the Surface Hub 2S experience t
 | Warranty         | 1-year limited hardware warranty<sup>5</sup>                                                                                                                                                                                                                          |
 | What’s in the box | (1) Surface Hub 2S<br>(2) Surface Hub 2 Pen<br>(1) Surface Hub 2 Camera<br>4m AC Power Cable<br>Quick Start Guide                                                                                                                                         |
 
+> [!NOTE]
+> Surface Hub can be used continuously for a maximum of 18 hours a day. To optimize for efficiency, Surface Hub uses smart sensors to turn off the LED screen when presence is no longer detected, which means there is no need to power it down at the end of the day. If the unit is installed in a 24-hour workplace environment, the sensors can be disabled to comply with the 18 hour per day maximum use recommendation. Note that prolonged display of a video signal may cause burned-in or image retention to occur on the screen. To learn more about managing power settings, see:
+>
+> - [Local management Surface Hub settings](local-management-surface-hub-settings.md)
+> - [SurfaceHub CSP - Windows Client Management](https://docs.microsoft.com/windows/client-management/mdm/surfacehub-csp)
 ### References
 
 1. System software and updates use significant storage space. Available storage is subject to change based on system software and updates and apps usage. 1 GB = 1 billion bytes. 1 TB = 1,000 GB. See [Surface Storage](https://www.surface.com/storage) for more details.
