@@ -20,7 +20,7 @@ This article provides supporting guidance for physically installing Microsoft Su
 
 A companion how to video for installing Surface Hub 2S 85" is now available. Before you begin, please review [Unboxing and Installing Surface Hub 2S 85"](https://aka.ms/Hub2S85Unboxing).
 
-## Follow safety warnings 
+## Follow all safety precautions 
 
 > [!WARNING]
 > **Handling and site prep**<br>
@@ -31,7 +31,8 @@ A companion how to video for installing Surface Hub 2S 85" is now available. Bef
 immediately, so the mounting system should be in place before unpacking. If you’re mounting onto a rolling stand, lock or block the wheels of the stand before unpacking.
 >- To avoid tripping hazards, keep the assembly area clear of packing materials.
 
-Before proceeding, review addtional safety information listed in the [Appendix](#appendix) below.
+> [!IMPORTANT]
+>Before proceeding, review the additional safety information listed in the [Appendix](#appendix) below.
 
 ## 1. Remove outer packaging materials
 
