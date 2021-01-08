@@ -154,7 +154,7 @@ An additional set of inner packaging strapping materials can be found in the kit
 ### Additional safety information
 
 > [!WARNING]
-> Heavy object/ergonomic lifting
+> **Heavy object/ergonomic lifting**<br>
 > The device is very heavy. To reduce the risk of lifting-related injuries, death, or damage to the device, we recommend that a minimum of two or more people lift the device. It is important to use proper lifting posture when lifting and/or moving the device.
 > Use good ergonomic lifting practices, including but not limited to:
 > - Plan ahead. Make sure the lifting team agrees on the plan.
@@ -199,10 +199,10 @@ The touch screen on the device, like most touch screens, is made of glass. The g
 A cracked or chipped touch screen caused by misuse or abuse of your device is not covered under the product’s limited warranty.
 
 > [!WARNING]
->  Proper installation
+>  **Proper installation**<br>
 To avoid hazards related to improper device installation, installation must be performed by people who have read and understand the installation instruction prior to beginning work. If you do not have the necessary equipment or expertise, or if you are uncertain the mounting surface can properly support consult a professional installer.
 
 
 ## More information
-
+*
 - [Steelcase Roam Collection](https://www.steelcase.com/products/collaboration/steelcase-roam/)
