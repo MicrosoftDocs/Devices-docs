@@ -157,9 +157,8 @@ An additional set of inner packaging strapping materials can be found in the kit
 > Heavy object/ergonomic lifting
 > The device is very heavy. To reduce the risk of lifting-related injuries, death, or damage to the device, we recommend that a minimum of two or more people lift the device. It is important to use proper lifting posture when lifting and/or moving the device.
 > Use good ergonomic lifting practices, including but not limited to:
-
->-Plan ahead. Make sure the lifting team agrees on the plan.
->-Determine if you can lift the unit. Is it too heavy or too awkward?
+> - Plan ahead. Make sure the lifting team agrees on the plan.
+>- Determine if you can lift the unit. Is it too heavy or too awkward?
 >- Decide if you need lifting aid.
 >- Check your environment for obstructions and slippery surfaces.
 >- Lift with your legs, not your back.
