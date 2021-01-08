@@ -132,7 +132,7 @@ Graphic on the ends of the device cover provide general speaker location.
  
 ## Mounting Surface Hub 2S 85" 
 
-The Surface Hub 2S 85” uses a 600 x 600 VESA mount pattern. As shown in the following image, Microsoft has partnered with Steelcase to create mounting options compatible with the Surface Hub 2S 85” unique design. 
+The Surface Hub 2S 85” uses a 600 x 600 VESA mount pattern. As shown in the following image, Microsoft has partnered with [Steelcase](https://www.steelcase.com/products/collaboration/steelcase-roam/) to create mounting options compatible with the Surface Hub 2S 85” unique design. 
  ![Steelcase Wall Mount](images/sh2-steelcasemount.png) <br>
 
 ### Mounting dimensions
@@ -204,5 +204,6 @@ To avoid hazards related to improper device installation, installation must be p
 
 
 ## More information
-*
+
 - [Steelcase Roam Collection](https://www.steelcase.com/products/collaboration/steelcase-roam/)
+- [Salamander Designs](http://www.salamandercommercial.com/surface-hub-2)
