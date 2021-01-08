@@ -33,14 +33,17 @@ You can obtain Windows 2020 Update using one of the following methods:
 | 3     | US, Germany                            | TBD |
 | 4     | Global                                 | TBD  |
 
-## Servicing Surface Hub 2S with Windows 10 Team Edition v1703 
+## Servicing Surface Hubs with Windows 10 Team Edition version 1703 
 
-Customers in all regions can continue to update their Surface Hub 2S devices using Windows Update for Business or using a bare metal recovery (BMR) image, as explained in [Reset and recovery for Surface Hub 2S](surface-hub-2s-recover-reset.md). Full servicing support for Windows 10 Team Edition version 1703 is scheduled to continue until March 16, 2021.
+Full servicing support for Windows 10 Team Edition version 1703 is scheduled to continue until March 16, 2021.
 
+### 2S devices 
 
-## V1 device support 
+Customers in all regions can continue to update their Surface Hub 2S devices to the 2020 Update using Windows Update for Business or using a bare metal recovery (BMR) image, as explained in [Reset and recovery for Surface Hub 2S](surface-hub-2s-recover-reset.md).
 
-Initially released for Surface Hub 2S devices, Windows Windows 10 Team 2020 Update will soon be available for Surface Hub v1 devices. To learn more, see [Surface IT Pro Blog](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/surface-hub-windows-10-team-2020-update-available-october-27/ba-p/1810739).
+### V1 devices 
+
+Customers in all regions can now update their Surface Hub v1 devices to the 2020 Update by [using the Surface Hub Recovery Tool](surface-hub-recovery-tool.md). Other methods to update these devices to the Windows 10 Team 2020 Update will soon be available. To learn more, see [Surface IT Pro Blog](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/surface-hub-windows-10-team-2020-update/ba-p/2000144).
  
 ## What’s new
 
@@ -48,7 +51,7 @@ Windows 10 Team 2020 Update brings major improvements to device deployment and m
  
 ## Before you begin
 
-Prior to installing Windows 10 team 2020 update, make sure you save the BitLocker key associated with your device. 
+Prior to installing Windows 10 Team 2020 Update, make sure you save the BitLocker key associated with your device. 
 
 **To manually save your BitLocker key**
 
@@ -61,5 +64,5 @@ To learn more, see [Save your BitLocker key](save-bitlocker-key-surface-hub.md).
 
 ## Learn more
 
-- [Known issues: Windows 10 Team 2020 Update](surface-hub-2020-update.md)
+- [Known issues: Windows 10 Team 2020 Update](surface-hub-2020-team-update-known-issues.md)
 - [Important Updates on the Surface Hub Windows 10 Team 2020 Update](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/important-updates-on-the-surface-hub-windows-10-team-2020-update/ba-p/1960897)
