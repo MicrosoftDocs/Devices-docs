@@ -20,33 +20,19 @@ This article provides supporting guidance for physically installing Microsoft Su
 
 A companion how to video for installing Surface Hub 2S 85" is now available. Before you begin, please review [Unboxing and Installing Surface Hub 2S 85"](https://aka.ms/Hub2S85Unboxing).
 
-## Handling and site prep
-
-- The device is very heavy. To reduce the risk of personal injury, death, or damage to the device due to its size and weight, it is important to keep the device upright.
-- Before moving the device to the place where it will be installed, survey the site to determine how to safely move it to the location where it will be unpacked and mounted.
-- Always use at least two people for unpacking and installation.
-- Once the device is unpacked, it should be mounted
-immediately, so the mounting system should be in place before unpacking. If you’re mounting onto a rolling stand, lock or block the wheels of the stand before unpacking.
-- To avoid tripping hazards, keep the assembly area clear of packing materials.
+## Follow safety warnings 
 
 > [!WARNING]
-> Heavy object/ergonomic lifting
-> The device is very heavy. To reduce the risk of lifting-related injuries, death, or damage to the device, we recommend that a minimum of two or more people lift the device. It is important to use proper lifting posture when lifting and/or moving the device.
+> **Handling and site prep**<br>
+>- The device is very heavy. To reduce the risk of personal injury, death, or damage to the device due to its size and weight, it is important to keep the device upright.
+>- Before moving the device to the place where it will be installed, survey the site to determine how to safely move it to the location where it will be unpacked and mounted.
+>- Always use at least two people for unpacking and installation.
+>- Once the device is unpacked, it should be mounted
+immediately, so the mounting system should be in place before unpacking. If you’re mounting onto a rolling stand, lock or block the wheels of the stand before unpacking.
+>- To avoid tripping hazards, keep the assembly area clear of packing materials.
 
-Use good ergonomic lifting practices, including but not limited to:
+Before proceeding, review addtional safety information listed in the [Appendix](#appendix) below.
 
-- Plan ahead. Make sure the lifting team agrees on the plan.
-- Determine if you can lift the unit. Is it too heavy or too awkward?
-- Decide if you need lifting aid.
-- Check your environment for obstructions and slippery surfaces.
-- Lift with your legs, not your back.
-- Bend at your knees, keeping the back straight.
-- Keep the unit close to your body.
-- Center your body over the unit. Keep the feet about shoulder width apart.
-- Lift straight up smoothly.
-- Keep your torso straight; do not twist while lifting or after the load is lifted
-
- 
 ## 1. Remove outer packaging materials
 
 1. Remove and recycle outer cover.
@@ -106,7 +92,7 @@ Additional strapping materials are provided in the small box located under the h
 
 1. Place Hub 2S in front of wall mount or cart.
 2. Lock wheel brakes (x4).
-3.  Slide inner packaging off pallet.
+3. Slide inner packaging off pallet.
 4. Cut the 3 plastic straps.
 5. Remove lid.
 6. Remove white foam pieces.
@@ -159,8 +145,33 @@ If using other (non-Steelcase) mounting options, you will need spacers to accoun
 ![Surface Hub 85” dimensions for mounting](images/sh2-85-measure1.png) <br>
 
 
+## Supplemental Strapping Kit
+
+An additional set of inner packaging strapping materials can be found in the kit attached at the back, lower right.
+
+## Appendix 
+
+### Additional safety information
+
 > [!WARNING]
->  The device is heavy and attaches to a cart or wall mount. To reduce the risk of injury, death, or damage to the device: 
+> Heavy object/ergonomic lifting
+> The device is very heavy. To reduce the risk of lifting-related injuries, death, or damage to the device, we recommend that a minimum of two or more people lift the device. It is important to use proper lifting posture when lifting and/or moving the device.
+> Use good ergonomic lifting practices, including but not limited to:
+
+>-Plan ahead. Make sure the lifting team agrees on the plan.
+>-Determine if you can lift the unit. Is it too heavy or too awkward?
+>- Decide if you need lifting aid.
+>- Check your environment for obstructions and slippery surfaces.
+>- Lift with your legs, not your back.
+>- Bend at your knees, keeping the back straight.
+>- Keep the unit close to your body.
+>- Center your body over the unit. Keep the feet about shoulder width apart.
+>- Lift straight up smoothly.
+>- Keep your torso straight; do not twist while lifting or after the load is lifted
+
+
+> [!WARNING]
+>  **Proper mounting**<br> The device is heavy and attaches to a cart or wall mount. To reduce the risk of injury, death, or damage to the device: 
 >- Follow all instructions provided by the cart or wall mount manufacturer.
 >- Ensure the proposed mounting system will support the weight of this device.
 >- Only use the mounting hardware provided with mounting the system.
@@ -168,19 +179,13 @@ If using other (non-Steelcase) mounting options, you will need spacers to accoun
 >- Do not release the device until you are certain device is fully engaged with mounting system attachment points.
 >- Microsoft recommends using carts or wall mounting systems designed for use with your device. Microsoft is not responsible for any damage, injuries, or death caused by the use of other mounting systems.
 
-## Supplemental Strapping Kit
-
-An additional set of inner packaging strapping materials can be found in the kit attached at the back, lower right.
-
-## Additional safety information
-
 > [!WARNING]
->  Unseen hazards in walls or other mounting surfaces
+>  **Unseen hazards in walls or other mounting surfaces** <br>
 Walls and other mounting surfaces may contain electrical wires, gas lines, and other unseen hazards or obstacles. Cutting or drilling into an unseen hazard may cause serious personal injury or death.
 It is the installer’s responsibility to locate unseen hazards prior to and to avoid these hazards during installation. Assess the mounting environment and always make sure there are no unseen hazards in the wall or other mounting surface prior to drilling and/or cutting.
 
 > [!WARNING]
-> Tip hazard
+> **Tip hazard**<br>
 > To avoid risk of personal injury, death, or damage to a cart/stand-mounted device when it is moved:
 > - Only use a cart/stand that is compatible with this device.
 >- Follow all instructions provided by the cart/stand manufacturer for moving or relocating a stand-mounted device.
@@ -190,7 +195,7 @@ It is the installer’s responsibility to locate unseen hazards prior to and to 
 >-	Only adults should move the cart/stand-mounted device.
 
 > [!CAUTION]
-> Touch-screen glass
+> **Touch-screen glass**<br>
 The touch screen on the device, like most touch screens, is made of glass. The glass can break if the device is dropped or receives a significant impact. To reduce the risk of personal injury, avoid touching the screen if the glass is broken, chipped or cracked and arrange to have the screen replaced.
 A cracked or chipped touch screen caused by misuse or abuse of your device is not covered under the product’s limited warranty.
 
