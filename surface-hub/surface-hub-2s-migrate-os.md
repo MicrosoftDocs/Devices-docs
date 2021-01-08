@@ -28,7 +28,7 @@ Surface Hub 2S comes preinstalled with Windows 10 Team. This customized edition 
 
 Start the migration from Windows 10 Team by using a separate PC and the downloadable tool *Surface UEFI Configurator*. Use the tool  to create a package that contains a new UEFI setting that you apply to Surface Hub 2S.  
 
-Surface UEFI Configurator works as an interface into Surface Enterprise Management Mode (SEMM). It's designed to facilitate centralized management of firmware settings on Surface devices in a corporate environment. For more information, see the <a href="https://docs.microsoft.com/surface/surface-enterprise-management-mode" target="_blank">Microsoft SEMM documentation</a>
+Surface UEFI Configurator works as an interface into Surface Enterprise Management Mode (SEMM). It's designed to facilitate centralized management of firmware settings on Surface devices in a corporate environment. For more information, see the <a href="https://docs.microsoft.com/surface/surface-enterprise-management-mode" target="_blank">Microsoft SEMM documentation</a>.
  
 
 ## Solution components
@@ -75,26 +75,34 @@ Before you migrate Surface Hub from Windows 10 Team to Windows 10 Desktop, you n
 **To update UEFI via Windows Update:**
 
 1. On your Surface Hub 2S, sign in as **Admin**. 
+
     >[!Note]
     > If you don't know your username or admin password, you'll need to reset the device. For more information, see <a href="https://docs.microsoft.com/surface-hub/surface-hub-2s-recover-reset" target="_blank">Reset and recovery for Surface Hub 2S.</a>
 
 1. Go to **All apps** > **Settings** > **Update and Security** > **Windows Update**, and then install all updates. 
+
 1. Restart the device. 
-1. Verify the UEFI version by using the Surface app. 
+
+1. Verify the UEFI version by using the Surface app.
+
 1. At this point, if the UEFI version is not yet version  694.2938.768.0 or later, you can either repeat the above steps, or you can get the latest UEFI by installing the Windows 10 Team 2020 Update Bare Metal Recovery (BMR) image.
 
 **To update UEFI via Bare Metal Recovery (BMR) image:**
 
-1.	Go to the [Surface recovery site](https://support.microsoft.com/surfacerecoveryimage) and select **Surface Hub 2S**
-3.	Enter your Hub Serial Number (located on the rear side of the Hub next to the power connection.)
+1.	Go to the [Surface recovery site](https://support.microsoft.com/surfacerecoveryimage) and select **Surface Hub 2S**.
+
+3.	Enter your Hub Serial Number (located on the rear side of the Hub next to the power connection).
+
 4.	Follow the directions to download the image onto a formatted USB drive through installing the Windows 10 Team 2020 Update.
+
 5.	After the update has completed and the device enters the OOBE first time setup, you do not need to complete OOBE, the UEFI version will be updated. Instead power down the device by holding the power button until the screen turns off. 
 
 ### Download Surface UEFI Configurator and Surface Hub 2 drivers and firmware
 
 On a separate PC:
 
-1. On the <a href="https://www.microsoft.com/download/details.aspx?id=46703" target="_blank"> Surface Tools for IT page</a>, select **Download**.  
+1. On the <a href="https://www.microsoft.com/download/details.aspx?id=46703" target="_blank"> Surface Tools for IT page</a>, select **Download**.
+
 1. Select and download the Surface UEFI Configurator MSI file and install it on a separate PC. The Surface UEFI Configurator tool can't be run on a Surface Hub 2S while the Windows 10 Team edition is installed.
 
 1. Download the <a href="https://www.microsoft.com/download/details.aspx?id=101974" target="_blank">Surface Hub 2 Drivers and Firmware Windows Installer MSI file</a>. You'll use this file when you install the new operating system.
@@ -185,6 +193,7 @@ If after migrating you choose to restore your device to Windows 10 Team, [as des
 #### Save the SEMM package to a USB drive
 
 1. Connect a USB drive to your PC. 
+
 1. Choose **Hub 2S**, and then select **Next**.
 
    ![Select USB](images/shm-fig13.png)
@@ -219,24 +228,25 @@ The following procedure describes how to create a USB flash drive from installat
 
 1. To create a Windows 10 Pro installation, on the<a href="https://www.microsoft.com/software-download/windows10" target="_blank"> Download Windows 10</a> page, follow the instructions to download the media creation tool. To download Windows 10 Enterprise, go to the <a href="https://www.microsoft.com/licensing/servicecenter/default.aspx" target="_blank"> Microsoft Volume Licensing Service Center</a>.
 
-2. Insert a new USB storage drive. 
+1. Insert a new USB storage drive. 
+
 1. Open the media creation tool, select **Create installation media**, and then select **Next**.
 
    ![Create installation media.](images/shm-fig16.png)
    
-3. Select a language, and then choose **Windows 10** and **64-bit (x64)**. Then select **Next**.
+1. Select a language, and then choose **Windows 10** and **64-bit (x64)**. Then select **Next**.
 
    ![Select language, and choose Windows 10 and 64-bit. Then select Next.](images/shm-fig17.png)
    
-4. Select **USB flash drive**, and then select **Next**.
+1. Select **USB flash drive**, and then select **Next**.
 
    ![Select U S B flash drive and select Next.](images/shm-fig18.png)
    
-5. When the download finishes, select **Finish**.
+1. When the download finishes, select **Finish**.
 
    ![Select Finish.](images/shm-fig19.png)
    
-6. Copy the SEMM package files and the drivers and firmware for Windows 10 Pro and Enterprise OS on Surface Hub 2 (the MSI file) to the root of the USB flash drive (*BOOTME*) that contains your Windows 10 image. The BOOTME USB drive contains:
+1. Copy the SEMM package files and the drivers and firmware for Windows 10 Pro and Enterprise OS on Surface Hub 2 (the MSI file) to the root of the USB flash drive (*BOOTME*) that contains your Windows 10 image. The BOOTME USB drive contains:
 
     - Your Windows 10 bootable image.
     
