@@ -49,10 +49,10 @@ Use good ergonomic lifting practices, including but not limited to:
  
 ## 1. Remove outer packaging materials
 
-1.1 Remove and recycle outer cover.
-1.2 Cut four (4) plastic straps.
-1.3 Open and remove the six (6) clips from the ends.
-1.4 Remove lid and then lift and remove front and back panels.
+1. Remove and recycle outer cover.
+2. Cut four (4) plastic straps.
+3. Open and remove the six (6) clips from the ends.
+4. Remove lid and then lift and remove front and back panels.
 
  ![Remove outer packaging](images/hub85mount1a.png) <br>
 
