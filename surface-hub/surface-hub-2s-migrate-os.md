@@ -290,7 +290,7 @@ The following procedure describes how to create a USB flash drive from installat
 
 3. If the device doesn't automatically boot to the USB drive, power off the device (unplug the power cord and then plug it back in). After you plug the power cord in again, the device should boot after a few seconds. Then you'll see the white logo in the middle of screen. 
 
-    If the device doesn't turn on, press and release the power button. Immediately after you see the logo in the middle of the screen, press and hold the volume button until you see the spinning circle below the white logo.
+    If the device doesn't turn on, press and release the power button. Immediately after you see the logo in the middle of the screen, press and hold the **Volume -** button until you see the spinning circle below the white logo.
  
    ![Boot to Windows 10 from the U S B drive.](images/shm-fig26.png)
    
