@@ -9,12 +9,16 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 01/08/2020
+ms.date: 01/11/2020
 ms.localizationpriority: Medium
 ---
 # Install and mount Surface Hub 2S 85”
 
-This article provides guidance for physically installing Microsoft Surface Hub 2S 85" in commercial environments. 
+This article provides supporting guidance for physically installing Microsoft Surface Hub 2S 85" in commercial environments. 
+
+## Unboxing video
+
+A companion how to video for installing Surface Hub 2S 85" is now available. Before you begin, please review [Unboxing and Installing Surface Hub 2S 85"](https://aka.ms/Hub2S85Unboxing).
 
 ## Handling and site prep
 
@@ -45,10 +49,10 @@ Use good ergonomic lifting practices, including but not limited to:
  
 ## 1. Remove outer packaging materials
 
-1. Remove and recycle outer cover.
-2. Cut four (4) plastic straps.
-3. Open and remove the six (6) clips from the ends.
-4. Remove lid and then lift and remove front and back panels.
+1.1 Remove and recycle outer cover.
+1.2 Cut four (4) plastic straps.
+1.3 Open and remove the six (6) clips from the ends.
+1.4 Remove lid and then lift and remove front and back panels.
 
  ![Remove outer packaging](images/hub85mount1a.png) <br>
 
