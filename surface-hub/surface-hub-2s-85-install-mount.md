@@ -9,7 +9,7 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 01/07/2020
+ms.date: 01/08/2020
 ms.localizationpriority: Medium
 ---
 # Install and mount Surface Hub 2S 85”
@@ -142,6 +142,17 @@ Graphic on the ends of the device cover provide general speaker location.
  
 ## Mounting Surface Hub 2S 85" 
 
+The Surface Hub 2S 85” uses a 600 x 600 VESA mount pattern. As shown in the following image, Microsoft has partnered with Steelcase to create mounting options compatible with the Surface Hub 2S 85” unique design. Customers interested in non-Steelcase mounting options will need to source appropriate spacers to account for the compute enclosure on the back of the device. Spacers will be available through [Salamander Designs](http://www.salamandercommercial.com/surface-hub-2).
+
+ ![Steelcase Wall Mount](images/sh2-steelcasemount.png) <br>
+
+### Mounting dimensions
+
+![Surface Hub 85” dimensions detail for mounting](images/sh2-85-measure2.png) <br>
+
+![Surface Hub 85” dimensions for mounting](images/sh2-85-measure1.png) <br>
+
+
 > [!WARNING]
 >  The device is heavy and attaches to a cart or wall mount. To reduce the risk of injury, death, or damage to the device: 
 >- Follow all instructions provided by the cart or wall mount manufacturer.
@@ -150,13 +161,6 @@ Graphic on the ends of the device cover provide general speaker location.
 >- Ensure all screws are securely tightened according to the manufacturer’s instructions.
 >- Do not release the device until you are certain device is fully engaged with mounting system attachment points.
 >- Microsoft recommends using carts or wall mounting systems designed for use with your device. Microsoft is not responsible for any damage, injuries, or death caused by the use of other mounting systems.
- 
-### Mounting dimensions
-
-![Surface Hub 85” dimensions detail for mounting](images/sh2-85-measure2.png) <br>
-
-![Surface Hub 85” dimensions for mounting](images/sh2-85-measure1.png) <br>
-
 
 ## Supplemental Strapping Kit
 
