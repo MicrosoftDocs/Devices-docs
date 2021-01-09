@@ -15,7 +15,7 @@ ms.localizationpriority: Medium
 
 # Surface Hub 2S site readiness guide
 
-|**Topic**|**Description**|
+| Topic | Description |
 |:-------|:-------|
 | [Site planning for Surface Hub 2S](surface-hub-2s-site-planning.md) | Review room considerations and planning for peripherals. |
 | [Surface Hub 2S quick start](surface-hub-2s-quick-start.md) | Get an overview of required steps to unpack and start Surface Hub 2S. |
