@@ -101,25 +101,20 @@ Additional strapping materials are provided in the small box located under the h
 8. Remove end piece by lifting vertically.
 9. Remove wood end pieces by the four hand knobs screws on the wood base.
 
+   ![Place Surface Hub 85” on Wall Mount or Cart](images/hub85mount7a.png) <br>
 
- ![Place Surface Hub 85” on Wall Mount or Cart](images/hub85mount7a.png) <br>
+   > [!CAUTION]
+   >  Do not leave Hub 2S 85" unattended. An additional person is needed to hold device upright. Once end pieces are removed, a minimum of one person needs to maintain contact with the Hub 2S until placement on wall mount or cart is completed.
 
-> [!CAUTION]
->  Do not leave Hub 2S 85" unattended. An additional person is needed to hold device upright.
-Once end pieces are removed, a minimum of one person needs to maintain contact with the Hub 2S until placement on wall mount or cart is completed.
 10. Lift plywood end piece up and back.
 11. Remove bump label from back.
 12. Lift the Hub 2S from the lower tray and place on cart or wall mount.
 
-
-> [!NOTE]
-> Following the cart or wall mount
-manufactures instructions, prepare the mounting system prior to removing the Hub 2S from its inner packaging tray..
+    > [!NOTE]
+    > Following the cart or wall mount manufactures instructions, prepare the mounting system prior to removing the Hub 2S from its inner packaging tray.
  
-> [!NOTE]
-> When grasping the Hub 2S, note the hand hold cut outs in the lower foam. Care must be taken care with the top hand not to grasp the device where the speakers are located.
-Graphic on the ends of the device cover provide general speaker location.
- 
+    > [!NOTE]
+    > When grasping the Hub 2S, note the hand hold cut outs in the lower foam. Care must be taken care with the top hand not to grasp the device where the speakers are located. Graphic on the ends of the device cover provide general speaker location.
 
 13. Loosen elastic tension clips (x2).
 14. Remove cloth cover.
@@ -134,7 +129,8 @@ Graphic on the ends of the device cover provide general speaker location.
 ## Mounting Surface Hub 2S 85" 
 
 The Surface Hub 2S 85” uses a 600 x 600 VESA mount pattern. As shown in the following image, Microsoft has partnered with [Steelcase](https://www.steelcase.com/products/collaboration/steelcase-roam/) to create mounting options compatible with the Surface Hub 2S 85” unique design. 
- ![Steelcase Wall Mount](images/sh2-steelcasemount.png) <br>
+
+![Steelcase Wall Mount](images/sh2-steelcasemount.png) <br>
 
 ### Mounting dimensions
 
