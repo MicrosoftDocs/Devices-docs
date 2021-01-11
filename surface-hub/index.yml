@@ -28,6 +28,8 @@ landingContent:
     linkLists:
       - linkListType: whats-new
         links:
+          - text: Install and mount Surface Hub 2S 85" (readiness guide)
+            url: surface-hub-2s-85-install-mount.md     
           - text: Install Windows 10 Team 2020 Update
             url: surface-hub-2020-update.md
           - text: What's new in Windows 10 Team 2020 Update
