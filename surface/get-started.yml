@@ -24,6 +24,8 @@ landingContent:
     linkLists:
       - linkListType: whats-new
         links:
+          - text: Surface Pro 7+ for Business 
+            url: https://www.microsoft.com/surface/business/surface-pro-7-plus
           - text: Surface Laptop Go  for Business 
             url: https://www.microsoft.com/surface/business/surface-laptop-go
           - text: Surface Pro X for Business

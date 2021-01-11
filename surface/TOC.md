@@ -11,7 +11,7 @@
 ### [Surface Book 3 Quadro RTX 3000 technical overview](surface-book-quadro.md)
 ### [Surface Book 3 for Business](https://www.microsoft.com/surface/business/surface-book-3)
 ### [Surface Go 2 for Business](https://www.microsoft.com/surface/business/surface-go-2)
-### [Surface Pro 7 for Business](https://www.microsoft.com/surface/business/surface-pro-7)
+### [Surface Pro 7+ for Business](https://www.microsoft.com/surface/business/surface-pro-7-plus)
 ### [Surface Pro X for Business](https://www.microsoft.com/surface/business/surface-pro-x)
 ### [Surface Laptop 3 for Business](https://www.microsoft.com/surface/business/surface-laptop-3)
 ### [Surface Studio 2 for Business](https://www.microsoft.com/surface/business/surface-studio-2)
