@@ -24,6 +24,8 @@ landingContent:
     linkLists:
       - linkListType: whats-new
         links:
+          - text: Surface Pro 7+ for Business 
+            url: https://www.microsoft.com/surface/business/surface-pro-7-plus
           - text: Surface Laptop Go  for Business 
             url: https://www.microsoft.com/surface/business/surface-laptop-go
           - text: Surface Pro X for Business
@@ -36,8 +38,8 @@ landingContent:
     linkLists:
       - linkListType: get-started
         links:
-         - text: Maximizing ROI with Microsoft Surface
-           url: forrester-tei-study.md
+         - text: What's new in Surface Pro 7+ for Business 
+           url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/surface-pro-7-brings-next-level-performance-and-versatility-to/ba-p/1928797
          - text: Windows Virtual Desktop on Surface
            url: windows-virtual-desktop-surface.md
          - text: What’s new in Surface Dock 2
