@@ -43,12 +43,12 @@ conceptualContent:
     # Card 1
     - title: Surface overview
       links:
+        - url: https://www.microsoft.com/surface/business/surface-pro-7-plus
+          itemType: concept
+          text: Surface Laptop Pro 7+ for Business
         - url: https://www.microsoft.com/surface/business/surface-laptop-go
           itemType: concept
           text: Surface Laptop Go for Business
-        - url: https://www.microsoft.com/surface/business/surface-pro-x
-          itemType: concept
-          text: Surface Pro X for Business
         - url: https://www.microsoft.com/surface/business
           itemType: concept
           text: Explore all Surface family products
@@ -56,15 +56,15 @@ conceptualContent:
         # Card 2
     - title: Surface Hub overview
       links:
+        - url: https://docs.microsoft.com/surface-hub/surface-hub-2s-85-install-mount  
+          itemType: how-to-guide
+          text: Install and mount Surface Hub 2S 85" (readiness guide)
         - url: https://docs.microsoft.com/surface-hub/surface-hub-2s-whats-new
           itemType: concept
           text: What's new in Surface Hub 2S?
         - url: https://docs.microsoft.com/surface-hub/surface-hub-2s-techspecs
           itemType: concept
           text: Surface Hub 2S tech specs
-        - url: https://docs.microsoft.com/surface-hub/differences-between-surface-hub-and-windows-10-enterprise
-          itemType: concept
-          text: Operating system essentials
 
         # Card 3
     - title: Surface Duo overview
@@ -72,7 +72,7 @@ conceptualContent:
         - url: https://docs.microsoft.com/surface-duo/surface-duo-manage
           itemType: concept
           text: Surface Duo management overview
-        - url: https://docs.microsoft.com/en-us/surface-duo/surface-duo-secure
+        - url:  https://docs.microsoft.com/surface-duo/surface-duo-secure
           itemType: concept
           text: Surface Duo security overview
         - url: https://www.microsoft.com/surface/business/surface-duo
@@ -100,7 +100,7 @@ conceptualContent:
       links:
         - url: https://aka.ms/SurfaceDuoITBlog
           itemType: reference
-          text: Surface Duo IT Pro Blog
+          text: Surface IT Pro Blog
 
     # Card 7
     - title: Surface help
