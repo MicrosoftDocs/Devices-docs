@@ -56,7 +56,7 @@ conceptualContent:
         # Card 2
     - title: Surface Hub overview
       links:
-        - url: surface-hub/surface-hub-2s-85-install-mount.md     
+        - url: /surface-hub/surface-hub-2s-85-install-mount.md     
           itemType: how-to-guide
           text:  Install and mount Surface Hub 2S 85" (readiness guide)
         - url: https://docs.microsoft.com/surface-hub/surface-hub-2s-whats-new
