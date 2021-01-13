@@ -18,21 +18,21 @@ audience: itpro
  
 In response to requests from customers for more detailed lifecycle information to help plan and manage hardware and software deployments, Surface is offering additional guidance on our driver and firmware updates.
  
-This lifecycle policy covers drivers and firmware releases for Windows based Surface devices. The lifecycle begins when a device is first released and concludes when Surface ceases publication of drivers and firmware updates on the End of Servicing date. The following sections define the lifecycle policy and End of Servicing dates.
+This lifecycle policy covers drivers and firmware releases for Windows-based Surface devices. The lifecycle begins when a device is first released and concludes when Surface ceases publication of drivers and firmware updates on the End of Servicing date. The following sections define the lifecycle policy and End of Servicing dates.
 
 ## Surface driver and firmware support lifecycle
  
-The Surface Driver and Firmware Lifecycle is composed of two parts: The driver and firmware support period for a device and the support provided for OS versions during that period.
+The Surface Driver and Firmware Lifecycle is comprised of two parts: The driver and firmware support period for a device, and the support provided for OS versions during that period.
 
 - **Device support period.** The device support period defines the period during which Surface will support driver and firmware updates for a device. The Device Support Period starts when a device is released. Surface devices will receive driver and firmware updates for at least 4 years from when the device was first released. In cases where the support duration is longer than 4 years, an updated end of servicing date will be published in advance of the date of last servicing.
 
-- **OS version support.** OS version support defines the operating system versions supported by Surface during the device support period. Surface devices will receive driver and firmware updates for Windows OS versions released in the prior 30 months. Surface will not support Windows OS versions earlier than the OS versions supported at device release. For the minimum supported OS version of your Surface device, see [Surface supported operating systems support.](https://support.microsoft.com/help/2858199/surface-supported-operating-systems)  
+- **OS version support.** OS version support defines the operating system versions supported by Surface during the device support period. Surface devices will receive driver and firmware updates for Windows OS versions released in the prior 30 months. Surface will not support Windows OS versions earlier than the OS versions supported at device release. For the minimum supported OS version of your Surface device, see [Surface supported operating systems.](https://support.microsoft.com/help/2858199/surface-supported-operating-systems)  
 
  
 Once the device support period is concluded at the End of Servicing Date, devices will continue to receive Windows OS feature and security updates in accordance with the Windows Lifecycle Policy as described on the  [Microsoft Lifecycle Policy support page](https://support.microsoft.com/hub/4095338/microsoft-lifecycle-policy).
  
 
-## Surface device support dates
+## Surface driver and firmware servicing dates
 
 The following table lists the release date and End of Servicing date for each Surface device with a defined Driver and Firmware Lifecycle policy:
  
@@ -52,18 +52,17 @@ The following table lists the release date and End of Servicing date for each Su
 | Surface Laptop (1st gen)           | June 14, 2017    | November 13, 2021            |
 | Surface Pro (5th gen)              | June 15, 2017    | November 13, 2021            |
 | Surface Book 2                     | November 17, 2017   | November 17, 2021            |
-| Surface Pro LTE (Model 1807)       | December 1, 2017    | December 1, 2021             |
+| Surface Pro LTE (Model 1807)       | December 1, 2017    | January 15, 2024             |
 | Surface Go                         | August 2, 2018     | August 2, 2022              |
-| Surface Studio 2                   | October 2, 2018    | October 2, 2022             |
+| Surface Studio 2                   | October 2, 2018    | October 2, 2024             |
 | Surface Laptop 2                   | October 16, 2018   | October 16, 2022            |
 | Surface Pro 6                      | October 16, 2018   | October 16, 2022            |
 | Surface Go with LTE Advanced       | November 20, 2018   | November 20, 2022            |
 | Surface Laptop 3                   | October 22, 2019   | October 22, 2023            |
 | Surface Pro 7                      | October 22, 2019   | October 22, 2023            |
-| Surface Pro X                      | November 5, 2019    | November 5, 2023             |
+| Surface Pro X                      | November 5, 2019    | October 13, 2024             |
 | Surface Go 2                       | May 6, 2020     | May 6, 2024              |
 | Surface Book 3                     | May 26, 2020    | May 26, 2024             |
-| Surface Pro X SQ2                  | October 13, 2020   | October 13, 2024            |
 | Surface Laptop Go                  | October 13, 2020   | October 13, 2024            |
 
  
@@ -72,6 +71,5 @@ The following table lists the release date and End of Servicing date for each Su
 ## Learn more
 
 For additional information on LTSC support see [Surface device compatibility with Windows 10 Long-Term Servicing Channel (LTSC)](surface-device-compatibility-with-windows-10-ltsc.md)
- 
- 
 
+For additional information about Hardware Warranty and Customer support, see [Surface Warranty and Support Plans](https://www.microsoft.com/surface/business/warranty-service-offerings-and-support). 
