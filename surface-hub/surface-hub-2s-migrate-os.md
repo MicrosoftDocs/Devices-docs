@@ -174,7 +174,7 @@ If your company outsources the Surface Hub 2 migration to Windows 10 Pro or Ente
 
 #### To roll back to Windows 10 Team
 
-If you choose to restore your device to Windows 10 Team after the migration [as described later in this article](#roll-back-to-windows-10-team), we recommend that you first unenroll Hub from SEMM. To learn more, see [Unenroll Surface devices from SEMM](https://docs.microsoft.com/surface/unenroll-surface-devices-from-semm).
+If you choose to restore your device to Windows 10 Team after the migration [as described later in this article](#to-roll-back-to-windows-10-team), we recommend that you first unenroll Hub from SEMM. To learn more, see [Unenroll Surface devices from SEMM](https://docs.microsoft.com/surface/unenroll-surface-devices-from-semm).
 
 #### Save the SEMM package to a USB drive
 
