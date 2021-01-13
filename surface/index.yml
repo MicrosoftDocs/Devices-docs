@@ -62,7 +62,7 @@ conceptualContent:
         - url: https://docs.microsoft.com/surface-hub/surface-hub-2s-whats-new
           itemType: concept
           text: What's new in Surface Hub 2S?
-        - url: https://docs.microsoft.com/surface-hub-2s-techspecs
+        - url: https://docs.microsoft.com/surface-hub/surface-hub-2s-techspecs
           itemType: concept
           text: Surface Hub 2S tech specs
 
