@@ -59,20 +59,20 @@ conceptualContent:
         - url: /surface-hub/surface-hub-2s-85-install-mount.md     
           itemType: how-to-guide
           text:  Install and mount Surface Hub 2S 85" (readiness guide)
-        - url: https://docs.microsoft.com/surface-hub/surface-hub-2s-whats-new
+        - url: /surface-hub/surface-hub-2s-whats-new.md
           itemType: concept
           text: What's new in Surface Hub 2S?
-        - url: https://docs.microsoft.com/surface-hub/surface-hub-2s-techspecs
+        - url: /surface-hub-2s-techspecs.md
           itemType: concept
           text: Surface Hub 2S tech specs
 
         # Card 3
     - title: Surface Duo overview
       links:
-        - url: https://docs.microsoft.com/surface-duo/surface-duo-manage
+        - url: /surface-duo/surface-duo-manage.md
           itemType: concept
           text: Surface Duo management overview
-        - url: https://docs.microsoft.com/en-us/surface-duo/surface-duo-secure
+        - url: /surface-duo/surface-duo-secure.md
           itemType: concept
           text: Surface Duo security overview
         - url: https://www.microsoft.com/surface/business/surface-duo
@@ -100,7 +100,7 @@ conceptualContent:
       links:
         - url: https://aka.ms/SurfaceDuoITBlog
           itemType: reference
-          text: Surface Duo IT Pro Blog
+          text: Surface IT Pro Blog
 
     # Card 7
     - title: Surface help
