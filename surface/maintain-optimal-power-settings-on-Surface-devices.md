@@ -51,11 +51,11 @@ module (SAM). The SAM chip functions as the Surface device power-policy
 owner, using algorithms to calculate optimal power requirements. It
 works in conjunction with Windows power manager to allocate or throttle
 only the exact amount of power required for hardware components to
-function. This article applies to all currently supported Surface devices including Surface Pro 7, Surface Pro X, and Surface Laptop 3.
+function. This article applies to all currently supported Surface devices including Surface Pro 7+, Surface Laptop Go, Surface Pro 7, Surface Pro X, and Surface Laptop 3.
 
 ## Utilizing the custom power profile in Surface
 
-If you go into the power options on a  surface device, you'll see that there's a single power plan available. This is the custom power profile. And if you go to the advanced power settings, you’ll see a much smaller subset of power options compared to a generic PC running Windows 10. Unlike generic devices, Surface has firmware and custom components to manage these power options.
+If you go into the power options on a surface device, you'll see that there's a single power plan available. This is the custom power profile. And if you go to the advanced power settings, you’ll see a much smaller subset of power options compared to a generic PC running Windows 10. Unlike generic devices, Surface has firmware and custom components to manage these power options.
 
 
 ## Modern Standby
