@@ -9,6 +9,7 @@ search.appverid:
 - MET150
 appliesto:
 - Surface Book 3
+- Surface Pro 7+
 - Surface Pro 7
 - Surface Laptop 3
 - Surface Pro X
@@ -26,6 +27,8 @@ ms.localizationpriority: medium
 ms.topic: article
 manager: laurawi
 ms.audience: itpro
+ms.date: 01/15/2021
+
 ---
 
 # Wake on Power for Surface devices

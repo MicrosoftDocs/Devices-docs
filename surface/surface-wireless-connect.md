@@ -11,7 +11,7 @@ ms.author: greglin
 ms.topic: article
 ms.reviewer: tokatz
 manager: laurawi
-ms.date: 10/26/2020
+ms.date: 01/15/2021
 ---
 # Optimize Wi-Fi connectivity for Surface devices
 
