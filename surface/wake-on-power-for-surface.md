@@ -2,7 +2,6 @@
 title: How to enable Wake on Power for Surface
 ms.author: v-todmc
 author: mccoybot
-ms.date: 7/30/2020
 audience: ITPro
 search.appverid:
 - SPO160
