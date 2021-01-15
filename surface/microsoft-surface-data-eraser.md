@@ -14,7 +14,7 @@ author: coveminer
 ms.author: greglin
 ms.topic: article
 audience: itpro
-ms.date: 10/12/2020
+ms.date: 01/15/2021
 ---
 
 # Microsoft Surface Data Eraser
@@ -155,6 +155,13 @@ After you create a Microsoft Surface Data Eraser USB stick, you can boot a suppo
 
 Microsoft Surface Data Eraser is periodically updated by Microsoft. For information about the changes provided in each new version, see the following:
 
+### 2.34.139.0
+*Release Date: 15 January 2021*
+
+This version of Surface Data Eraser:
+
+- Includes bug fixes
+
 ### 3.33.139
 *Release Date: 9 September 2020*
 
@@ -176,17 +183,20 @@ This version of Surface Data Eraser adds support for:
 
 ### 3.28.137
 *Release Date: 11 Nov 2019*
+
 This version of Surface Data Eraser:
 
 - Includes bug fixes
 
 ### Version 3.21.137
 *Release Date: 21 Oct 2019*
+
 This version of Surface Data Eraser is compiled for x86 and adds support for the following devices:
 
-- Supports Surface Pro 7, Surface Pro X, and Surface Laptop 3
+- Surface Pro 7, Surface Pro X, and Surface Laptop 3
 
 ### Version 3.2.78.0
+
 *Release Date: 4 Dec 2018*
 
 This version of Surface Data Eraser:
@@ -195,6 +205,7 @@ This version of Surface Data Eraser:
 
 
 ### Version 3.2.75.0
+
 *Release Date: 12 November 2018*
 
 This version of Surface Data Eraser:
@@ -203,6 +214,7 @@ This version of Surface Data Eraser:
 - Fixes issues with SD card
 
 ### Version 3.2.69.0
+
 *Release Date: 12 October 2018*
 
 This version of Surface Data Eraser adds support for the following:
@@ -211,18 +223,21 @@ This version of Surface Data Eraser adds support for the following:
 - Surface Laptop 2
 
 ### Version 3.2.68.0
+
 This version of Microsoft Surface Data Eraser adds support for the following:
 
 - Surface Go
 
 
 ### Version 3.2.58.0
+
 This version of Microsoft Surface Data Eraser adds support for the following:
 
 - Additional storage devices (drives) for Surface Pro and Surface Laptop devices
 
 
 ### Version 3.2.46.0
+
 This version of Microsoft Surface Data Eraser adds support for the following:
 
 - Surface Pro with LTE Advanced

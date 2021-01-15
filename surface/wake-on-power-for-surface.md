@@ -2,13 +2,13 @@
 title: How to enable Wake on Power for Surface
 ms.author: v-todmc
 author: mccoybot
-ms.date: 7/30/2020
 audience: ITPro
 search.appverid:
 - SPO160
 - MET150
 appliesto:
 - Surface Book 3
+- Surface Pro 7+
 - Surface Pro 7
 - Surface Laptop 3
 - Surface Pro X
@@ -26,6 +26,8 @@ ms.localizationpriority: medium
 ms.topic: article
 manager: laurawi
 ms.audience: itpro
+ms.date: 01/15/2021
+
 ---
 
 # Wake on Power for Surface devices
@@ -34,6 +36,7 @@ Surface devices can be powered off while you're away from your desk, or set to h
 
 The Wake on Power feature is available on the following devices:
 
+- Surface Pro 7+
 - Surface Book 3
 - Surface Pro 7
 - Surface Laptop 3
