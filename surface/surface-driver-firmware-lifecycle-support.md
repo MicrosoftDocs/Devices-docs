@@ -64,6 +64,7 @@ The following table lists the release date and End of Servicing date for each Su
 | Surface Go 2                       | May 6, 2020     | May 6, 2024              |
 | Surface Book 3                     | May 26, 2020    | May 26, 2024             |
 | Surface Laptop Go                  | October 13, 2020   | October 13, 2024            |
+| Surface Pro 7+	                 | January 15, 2021	| January 15, 2025 |
 
  
  **1.** *Indicates devices with a previously declared end of firmware/driver servicing support date.*
