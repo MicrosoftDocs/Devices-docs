@@ -13,7 +13,7 @@ ms.reviewer: hachidan
 manager: laurawi
 ms.localizationpriority: medium
 audience: itpro
-ms.date: 10/12/2020
+ms.date: 01/15/2021
 ---
 
 # Microsoft Surface Enterprise Management Mode
@@ -244,6 +244,12 @@ create a reset package using PowerShell to reset SEMM.
 
 ## Version History
 
+### Version 2.79.139.0
+
+This version of SEMM includes:
+- Support for Surface Pro 7+
+- User experience improvements
+
 
 ### Version 2.78.139.0
 
@@ -253,9 +259,6 @@ This version of SEMM includes:
 - Notifications for new version release
 - Ability to create custom packages to change ownership
 - Bug fixes
-
-
-
 
 ### Version 2.73.136.0
 

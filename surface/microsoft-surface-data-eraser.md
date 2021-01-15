@@ -14,7 +14,7 @@ author: coveminer
 ms.author: greglin
 ms.topic: article
 audience: itpro
-ms.date: 10/12/2020
+ms.date: 01/15/2021
 ---
 
 # Microsoft Surface Data Eraser
@@ -154,6 +154,10 @@ After you create a Microsoft Surface Data Eraser USB stick, you can boot a suppo
 ## Changes and updates
 
 Microsoft Surface Data Eraser is periodically updated by Microsoft. For information about the changes provided in each new version, see the following:
+
+### 2.34.139.0
+*Release Date: 15 January 2021*
+This version of Surface Data Eraser includes bug fixes.
 
 ### 3.33.139
 *Release Date: 9 September 2020*

@@ -162,6 +162,15 @@ You can select to run a wide range of logs across applications, drivers, hardwar
 
 ## Changes and updates
 
+### Version 2.131.139.0
+
+This version of Surface Diagnostic Toolkit for Business adds support for the following:
+
+- Support for Surface Pro 7+
+- Seamless support experience on Surface Pro X
+- Security improvements
+- Inclusive user experience improvements
+
 ### Version 2.124.139.0
 
 This version of Surface Diagnostic Toolkit for Business adds support for the following:
