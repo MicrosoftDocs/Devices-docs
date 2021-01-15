@@ -41,27 +41,15 @@ Command line |	Directly troubleshoot Surface devices remotely without user inter
 
 SDT for Business is supported on Surface 3 and later devices, including:
 
-- Surface Laptop Go
-- Surface Book 3
-- Surface Go 2
-- Surface Pro X
-- Surface Pro 7
-- Surface Laptop 3
-- Surface Pro 6
-- Surface Laptop 2
-- Surface Go
-- Surface Go with LTE
-- Surface Book 2
-- Surface Pro with LTE Advanced (Model 1807)
-- Surface Pro (Model 1796)
-- Surface Laptop
-- Surface Studio
-- Surface Studio 2
-- Surface Book
-- Surface Pro 4
+- Surface Book - all generations
+- Surface Go - all generations
+- Surface Laptop - all generations
+- Surface Pro 3 and later
+- Surface Pro X - all generations
+- Surface Studio - all generations
 - Surface 3 LTE
 - Surface 3
-- Surface Pro 3
+
 
 ## Installing Surface Diagnostic Toolkit for Business
 
