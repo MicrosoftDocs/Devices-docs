@@ -40,6 +40,7 @@ Surface Dock 2 is designed to simplify IT management, enabling admins to automat
   - Surface Book 3
   - Surface Go 2
   - Surface Laptop Go
+  - Surface Pro 7+
 
 ## Surface Dock 2 Components
 
@@ -58,6 +59,7 @@ Surface Dock 2 is designed to simplify IT management, enabling admins to automat
   - Surface Book 3
   - Surface Go 2
   - Surface Pro 7
+  - Surface Pro 7+
   - Surface Pro X
   - Surface Laptop 3
 
@@ -110,7 +112,7 @@ Surface Dock 2 is designed to simplify IT management, enabling admins to automat
 
 
 
-1. *Devices must be configured for Wake on LAN via Surface Enterprise Management Mode (SEMM) or Device Firmware Control Interface (DFCI) to wake from Hibernation or Power-Off states. Wake from Hibernation or Power-Off is supported on Surface Pro 7, Surface Laptop 3, Surface Pro X, Surface Book 3, and Surface Go 2.  Software license required for some features. Sold separately.*
+1. *Devices must be configured for Wake on LAN via Surface Enterprise Management Mode (SEMM) or Device Firmware Control Interface (DFCI) to wake from Hibernation or Power-Off states. Wake from Hibernation or Power-Off is supported on Surface Pro 7+, Surface Pro 7, Surface Laptop 3, Surface Pro X, Surface Book 3, and Surface Go 2.  Software license required for some features. Sold separately.*
 
 2. *Software license required for some features. Sold separately.*
 

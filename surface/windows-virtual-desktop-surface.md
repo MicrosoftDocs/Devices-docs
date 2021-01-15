@@ -32,7 +32,7 @@ For a list of approved partner providers and independent software vendors for Wi
 
 Surface engineering has long set new standards for innovation by going beyond the keyboard and mouse to imagine more natural ways of interacting with devices, whether by touch, voice, ink, or Surface Dial. And with chip-to-cloud integration of Microsoft 365 and the security and manageability of Windows 10 Pro, Surface delivers connected hardware, software, apps, and services the way they were intended. Although it’s possible to run WVD from Windows devices dating back to Windows 7, Microsoft Surface devices provide unique advantages including support for:
 
-- **Flexible form factors** - like 2-in-1 devices such as Surface Go 2, Surface Pro 7 and Surface Pro X with pen, touch and detachable keyboard. You can even use the new Surface Duo to connect to WVD.
+- **Flexible form factors** - like 2-in-1 devices such as Surface Pro 7+, Surface Go 2, Surface Pro 7, and Surface Pro X with pen, touch and detachable keyboard. You can even use the new Surface Duo to connect to WVD.
 - **Persistent, on-demand and just-in-time work scenarios** - with offline and on-device access for more productive experiences.
 - **Windows 10 modern device security and manageability** - providing the flexibility to be productive anywhere.
 
