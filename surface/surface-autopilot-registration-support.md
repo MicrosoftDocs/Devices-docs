@@ -38,7 +38,7 @@ See the following table for details of the information you will need to collect 
 
 ## Submit support requests
 
-  [![Get Autopilot Registration Support for Surface](images/autopilot-reg-support-surface.png)](https://support.microsoft.com/supportrequestform/0d8bf192-cab7-6d39-143d-5a17840b9f5f)
+  [![Get Autopilot Registration Support for Surface](images/autopilot-reg-support-surface.png)](https://prod.support.services.microsoft.com/en-us/supportrequestform/0d8bf192-cab7-6d39-143d-5a17840b9f5f)
  
  
  
