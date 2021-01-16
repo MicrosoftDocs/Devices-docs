@@ -13,6 +13,7 @@ ms.reviewer: jesko
 manager: laurawi
 ms.audience: itpro
 appliesto:
+- Surface Pro 7+
 - Surface Pro 7
 - Surface Pro X
 - Surface Laptop 3
@@ -45,6 +46,7 @@ Crucially, DFCI enables zero touch management, eliminating the need for manual i
 
 DFCI is supported in the following devices:
 
+- Surface Pro 7+
 - Surface Pro 7
 - Surface Pro X
 - Surface Laptop 3
@@ -142,7 +144,7 @@ Intune provides Scope tags to delegate administrative rights and Applicability R
 
 ## Register devices in Autopilot
 
-As stated above, DFCI can only be applied on devices registered in Windows Autopilot by your reseller or distributor and is only supported, at this time, on Surface Pro 7, Surface Pro X, and Surface Laptop 3. For security reasons, it’s not possible to “self-provision” your devices into Autopilot.
+As stated above, DFCI can only be applied on devices registered in Windows Autopilot by your reseller or distributor and is only supported on Surface Pro 7+, Surface Laptop Go, Surface Pro 7, Surface Pro X, and Surface Laptop 3. For security reasons, it’s not possible to “self-provision” your devices into Autopilot. To learn more, see Surface [Registration Support for Windows Autopilot](surface-autopilot-registration-support.md). 
 
 ## Manually Sync Autopilot devices
 

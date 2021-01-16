@@ -1,6 +1,6 @@
 ---
 title: Best practice power settings for Surface devices
-description: This topic provides best practice recommendations for maintaining optimal power settings and explains how Surface streamlines the power management experience. This article applies to all currently supported Surface devices including Surface Pro 7, Surface Pro X, and Surface Laptop 3. 
+description: This topic provides best practice recommendations for maintaining optimal power settings and explains how Surface streamlines the power management experience. This article applies to all currently supported Surface devices including Surface Pro 7+, Surface Pro 7, Surface Pro X, and Surface Laptop 3. 
 ms.prod: w10
 ms.mktglfcycl: manage
 ms.sitesec: library
@@ -11,7 +11,7 @@ ms.reviewer:
 manager: laurawi
 ms.localizationpriority: medium
 ms.audience: itpro
-ms.date: 10/28/2019
+ms.date: 1/15/2021
 ---
 
 # Best practice power settings for Surface devices

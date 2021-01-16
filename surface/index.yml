@@ -112,7 +112,7 @@ conceptualContent:
     # Card 8
     - title: Surface Hub help
       links:
-        - url: https://support.serviceshub.microsoft.com/supportforbusiness/create?sapId=bb7066fb-e329-c1c0-9c13-8e9949c6a64e
+        - url: https://support.serviceshub.microsoft.com/supportforbusiness/create?sapId=bb7066fb-e329-c1c0-9c13-8e9949c6a64e&hidden=false
           itemType: learn
           text: Contact Surface Hub Support
 

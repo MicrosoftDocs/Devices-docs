@@ -36,7 +36,7 @@ If you are still having a problem after running the toolkit, use the tabs below 
 
 Expedite your Warranty and Service requests by using the [Warranty and Service claim form](https://download.microsoft.com/download/2/e/0/2e00e1c2-3f49-4b6a-b605-74a0244cb88b/Warranty_and_Service_Claim_Submission_Form.xlsx). For information about how to use the form, see [Warranty and Service claim form instructions](warranty-and-service-claim-form.md) and attaching it to your case submission.
 
-For business customers: [Submit your service request](https://support.serviceshub.microsoft.com/supportforbusiness/create?sapId=d383b26c-f150-6220-8f1b-e8aa325d9727). 
+For business customers: [Submit your service request](https://support.serviceshub.microsoft.com/supportforbusiness/create?sapId=d383b26c-f150-6220-8f1b-e8aa325d9727&hidden=false). 
 
 For Microsoft Premier customers: [Submit your service request on Services Hub](https://serviceshub.microsoft.com/support/contactsupport). 
 
