@@ -2,6 +2,18 @@
 
 
 
+## Week of January 11, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 1/11/2021 | [Surface Hub documentation # < 60 chars](/surface-hub/index) | modified |
+| 1/11/2021 | [Surface Hub 2S site readiness guide](/surface-hub/surface-hub-2s-site-readiness-guide) | modified |
+| 1/15/2021 | [Surface Hub update history](/surface-hub/surface-hub-update-history) | modified |
+| 1/15/2021 | [Surface Hub documentation # < 60 chars](/surface-hub/index) | modified |
+| 1/15/2021 | [Install and mount Surface Hub 2S 85](/surface-hub/surface-hub-2s-85-install-mount) | modified |
+
+
 ## Week of January 04, 2021
 
 
