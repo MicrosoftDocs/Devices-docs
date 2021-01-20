@@ -2,17 +2,9 @@
 
 
 
-## Week of November 23, 2020
+## Week of January 11, 2021
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 11/24/2020 | [Surface Duo documentation # < 60 chars](/surface-duo/index) | modified |
-
-
-## Week of November 09, 2020
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 11/10/2020 | [Surface Duo documentation # < 60 chars](/surface-duo/index) | modified |
+| 1/15/2021 | [Contact Surface Business Support](/surface-duo/contact-surface-duo-support) | modified |

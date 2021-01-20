@@ -11,8 +11,9 @@ ms.author: greglin
 ms.topic: article
 ms.localizationpriority: medium
 ms.audience: itpro
-ms.reviewer: 
+ms.reviewer: hachinda
 manager: laurawi
+ms.date: 1/15/2021
 ---
 
 # Enroll and configure Surface devices with SEMM
@@ -21,12 +22,13 @@ With Microsoft Surface Enterprise Management Mode (SEMM), you can securely confi
 
 For a more high-level overview of SEMM, see [Microsoft Surface Enterprise Management Mode](https://technet.microsoft.com/itpro/surface/surface-enterprise-management-mode).
 
-A streamlined method of managing firmware from the cloud on Surface Pro 7,Surface Pro X and Surface Laptop 3 is now available via public preview. For more information,refer to [Intune management of Surface UEFI settings](surface-manage-dfci-guide.md).
+As an alternative to SEMM, newer Surface devices support remote management of a subset of firmware settings via Microsoft Intune. For more information,refer to [Intune management of Surface UEFI settings](surface-manage-dfci-guide.md).
 
 > [!NOTE]
 > SEMM is supported on Surface Pro X via the UEFI Manager only. For more information, refer to [Deploying, managing, and servicing Surface Pro X](surface-pro-arm-app-management.md).
 
 #### Download and install Microsoft Surface UEFI Configurator
+
 The tool used to create SEMM packages is Microsoft Surface UEFI Configurator. You can download Microsoft Surface UEFI Configurator from the [Surface Tools for IT](https://www.microsoft.com/download/details.aspx?id=46703) page in the Microsoft Download Center.
 Run the Microsoft Surface UEFI Configurator Windows Installer (.msi) file to start the installation of the tool. When the installer completes, find Microsoft Surface UEFI Configurator in the All Apps section of your Start menu.
 

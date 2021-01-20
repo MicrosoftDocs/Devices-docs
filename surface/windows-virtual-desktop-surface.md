@@ -8,7 +8,7 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 8/12/2020
+ms.date: 01/15/2021
 ms.reviewer: rohenr
 manager: laurawi
 audience: itpro
@@ -32,7 +32,7 @@ For a list of approved partner providers and independent software vendors for Wi
 
 Surface engineering has long set new standards for innovation by going beyond the keyboard and mouse to imagine more natural ways of interacting with devices, whether by touch, voice, ink, or Surface Dial. And with chip-to-cloud integration of Microsoft 365 and the security and manageability of Windows 10 Pro, Surface delivers connected hardware, software, apps, and services the way they were intended. Although it’s possible to run WVD from Windows devices dating back to Windows 7, Microsoft Surface devices provide unique advantages including support for:
 
-- **Flexible form factors** - like 2-in-1 devices such as Surface Go 2, Surface Pro 7 and Surface Pro X with pen, touch and detachable keyboard. You can even use the new Surface Duo to connect to WVD.
+- **Flexible form factors** - like 2-in-1 devices such as Surface Pro 7+, Surface Go 2, Surface Pro 7, and Surface Pro X with pen, touch and detachable keyboard. You can even use the new Surface Duo to connect to WVD.
 - **Persistent, on-demand and just-in-time work scenarios** - with offline and on-device access for more productive experiences.
 - **Windows 10 modern device security and manageability** - providing the flexibility to be productive anywhere.
 
@@ -42,7 +42,7 @@ The Microsoft Surface for Business family comprises a diverse portfolio of form 
 
 ### The modern virtual desktop endpoint
 
-Surface 2-in-1 devices, including [Surface Go 2](https://www.microsoft.com/p/surface-go-2) (10.5”), [Surface Pro 7](https://www.microsoft.com/surface/devices/surface-pro-7/) (12”) and [Surface Pro X](https://www.microsoft.com/p/surface-pro-x/) (13”), provide users with the ideal cloud desktop endpoint bringing together the optimal balance of portability, versatility, power, and all-day battery. From site engineers relying on Surface Go 2 in tablet mode to financial advisors attaching Surface Pro 7 to a dock and multiple monitors, 2-in-1 devices deliver the versatility that has come to define the modern workplace.
+Surface 2-in-1 devices, including [Surface Go 2](https://www.microsoft.com/p/surface-go-2) (10.5”), [Surface Pro 7+](https://www.microsoft.com/surface/business/surface-pro-7-plus) (12”) and [Surface Pro X](https://www.microsoft.com/p/surface-pro-x/) (13”), provide users with the ideal cloud desktop endpoint bringing together the optimal balance of portability, versatility, power, and all-day battery. From site engineers relying on Surface Go 2 in tablet mode to financial advisors attaching Surface Pro 7 to a dock and multiple monitors, 2-in-1 devices deliver the versatility that has come to define the modern workplace.
 
  Unlike traditional, fixed VDI “terminals”, Surface devices allow users to work from anywhere and enable companies to remain viable and operational during unforeseen events -- from severe weather to public health emergencies. With support for persistent, on-demand and just-in-time scenarios, Surface devices effectively help companies sustain ongoing operations and mitigate risk from disruptive events. Features designed to enhance productivity on Surface 2-in-1 devices include:
 
@@ -133,7 +133,7 @@ Surface performs life cycle assessments to calculate the environmental impact of
 
 ## Summary
 
-Windows Virtual Desktop on Surface provides organizations with greater flexibility and resilience in meeting the diverse needs of users, stakeholders, and customers. Running Windows Virtual Desktop solutions on Surface devices provides unique advantages over continued reliance on legacy devices.  Flexible form factors like Surface Go 2 and Surface Pro 7 connected to the cloud (or offline), enable users to be productive from anywhere, at any time. Whether employees work in persistent, on-demand, or just-in-time scenarios, Windows Virtual Desktop on Surface affords businesses with the versatility to sustain productivity throughout disruptions from public health emergencies or other unforeseen events. Using the built in, multi-layered security and modern manageability of Windows 10, companies can take advantage of an expanding ecosystem of cloud-based services to rapidly deploy and scale Windows desktops and apps. Simply put, Windows Virtual Desktop on Surface delivers critically needed technology to organizations and businesses of all sizes.
+Windows Virtual Desktop on Surface provides organizations with greater flexibility and resilience in meeting the diverse needs of users, stakeholders, and customers. Running Windows Virtual Desktop solutions on Surface devices provides unique advantages over continued reliance on legacy devices.  Flexible form factors like Surface Go 2 and Surface Pro 7+ connected to the cloud (or offline), enable users to be productive from anywhere, at any time. Whether employees work in persistent, on-demand, or just-in-time scenarios, Windows Virtual Desktop on Surface affords businesses with the versatility to sustain productivity throughout disruptions from public health emergencies or other unforeseen events. Using the built in, multi-layered security and modern manageability of Windows 10, companies can take advantage of an expanding ecosystem of cloud-based services to rapidly deploy and scale Windows desktops and apps. Simply put, Windows Virtual Desktop on Surface delivers critically needed technology to organizations and businesses of all sizes.
 
 ## Learn more
 
@@ -152,7 +152,7 @@ For more information, see the following resources:
 <a id="2">2.</a> Battery life varies significantly with settings, usage and other factors.<br>
 <a id="3">3.</a> Service availability and performance subject to service provider’s network. Contact your service provider for details, compatibility, pricing, SIM card, and activation. See all specs and frequencies at surface.com.<br>
 <a id="4">4.</a> Forrester Consulting, “A Forrester Total Economic Impact™ Study: Maximizing Your ROI from Microsoft 365 Enterprise with Microsoft Surface,” commissioned by Microsoft, 2018.<br>
-<a id="5">5.</a> Surface Go and Surface Go 2 use a third-party UEFI and do not support DFCI. DFCI is currently available for Surface Book 3, Surface Laptop 3, Surface Pro 7, and Surface Pro X. Find out more about managing Surface UEFI settings.<br>
+<a id="5">5.</a> Surface Go and Surface Go 2 use a third-party UEFI and do not support DFCI. DFCI is currently available for Surface Pro 7+, Surface Laptop Go, Surface Book 3, Surface Laptop 3, Surface Pro 7, and Surface Pro X.<br>
 <a id="6">6.</a> Removable SSD is available on Surface Laptop 3 and Surface Pro X. Note that hard drive is not user removable. Hard drive is only removable a by skilled technician following Microsoft instructions.<br>
-<a id="7">7.</a>  DFCI is currently available for Surface Book 3, Surface Laptop 3, Surface Pro 7, and Surface Pro X. [Find out more](https://docs.microsoft.com/surface/manage-surface-uefi-settings) about managing Surface UEFI settings.
+<a id="7">7.</a>  DFCI is currently available for Surface Pro 7+, Surface Laptop Go, Surface Book 3, Surface Laptop 3, Surface Pro 7, and Surface Pro X. [Find out more](surface-manage-dfci-guide.md) about managing Surface UEFI settings.
 
