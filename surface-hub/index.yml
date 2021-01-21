@@ -58,7 +58,7 @@ landingContent:
           - text: Enable Microsoft Whiteboard on Surface Hub
             url: https://support.office.com/article/Enable-Microsoft-Whiteboard-on-Surface-Hub-b5df4539-f735-42ff-b22a-0f5e21be7627
 
-      # Card
+  # Card
   - title: See Surface Hub in action
     linkLists:
       - linkListType: video  
@@ -72,6 +72,9 @@ landingContent:
           - text: Microsoft Surface Hub 2S IT pro deep dive
             url: https://youtu.be/fFiL60JztGk        
 
+  # Card (optional)
+  - title: Deploy
+    linkLists:
       - linkListType: deploy
         links:
           - url: https://docs.microsoft.com/microsoftteams/rooms/coordinated-meetings
