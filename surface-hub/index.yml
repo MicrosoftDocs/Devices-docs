@@ -89,7 +89,7 @@ landingContent:
           - url: https://docs.microsoft.com/microsoftteams/rooms/surface-hub-manage-config
             text: Manage Microsoft Teams settings on Surface Hub
           - url: surface-hub-2s-manage-intune.md
-            text: Manage with Intune
+            text: Manage Surface Hub 2S with Intune
           - url: local-management-surface-hub-settings.md
             text: Manage local settings
 
