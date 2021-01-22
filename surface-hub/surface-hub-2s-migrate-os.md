@@ -16,7 +16,7 @@ ms.localizationpriority: Medium
 
 - [Article version history](#version-history)
 
-Surface Hub 2S comes with Windows 10 Team installed. This customized edition of Windows 10 eases collaboration in meeting-room environments. You can now instead run Windows 10 Pro or Enterprise to use your Surface Hub 2S much like any other PC.
+Surface Hub 2S comes with Windows 10 Team installed. This customized edition of Windows 10 facilitates collaboration in meeting-room environments. You can now instead run Windows 10 Pro or Enterprise to use your Surface Hub 2S much like any other PC.
 
 > [!IMPORTANT]
 > This migration process requires you to follow the specific procedure that's described in this article. Before you continue, read [Solution components](#solution-components) and [Migration and installation workflow](#migration-and-installation-workflow-summary).
@@ -131,7 +131,7 @@ The SEMM package that Surface UEFI Configurator creates must be secured with a c
 
    You'll be prompted to add your certificate .pfx file.
 
-   ![Screen shot shows where to add your certificate file.](images/shm-fig6.png)
+   ![Screenshot shows where to add your certificate file.](images/shm-fig6.png)
    
 1. Enter your certificate password, and then select **OK**.
 
@@ -216,7 +216,7 @@ The following steps show how to create a USB flash drive from installation media
 1. Insert a new USB storage drive.
 1. Open the media creation tool, select **Create installation media**, and then select **Next**.
 
-   ![Screenshot shows the  option to create installation media.](images/shm-fig16.png)
+   ![Screenshot shows the option to create installation media.](images/shm-fig16.png)
    
 3. Select a language, and then select **Windows 10** and **64-bit (x64)**. Then select **Next**.
 
@@ -260,7 +260,7 @@ The following steps show how to create a USB flash drive from installation media
 
    ![Screenshot shows where to select Management and then "Install from U S B".](images/shm-fig21.png)
    
-5. Select **Restart now**, as the following image shows. The device will reboot. It will display a white Microsoft logo in the middle of the window and then shut down.
+5. Select **Restart now**, as the following image shows. The device will restart. It will display a white Microsoft logo in the middle of the window and then shut down.
 
    ![Screenshot shows a message prompting you to restart.](images/shm-fig25.png)
    
