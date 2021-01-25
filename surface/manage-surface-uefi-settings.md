@@ -27,7 +27,7 @@ UEFI management is supported on the following:
 - Surface Laptop (1st Gen), Surface Laptop 2, Surface Laptop 3, Surface Laptop Go
 - Surface Studio (1st Gen), Surface Studio 2
 - Surface Book, Surface Book 2, Surface Book 3
-- Surface Go, Surface Go 2
+- Surface Go, Surface Go 2[<sup>1</sup>](#references)
 
 ## Support for cloud-based management
 
