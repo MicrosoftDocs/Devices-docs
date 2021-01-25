@@ -17,7 +17,7 @@ ms.date: 01/25/2021
 
 # Manage Surface UEFI settings
 
- Surface PC devices are designed to utilize a unique Unified Extensible Firmware Interface (UEFI)[<sup>1</sup>](#references) engineered by Microsoft specifically for these devices.Surface UEFI settings provide the ability to enable or disable built-in devices and components, protect UEFI settings from being changed, and adjust the Surface device boot settings. 
+ Surface PC devices are designed to utilize a unique Unified Extensible Firmware Interface (UEFI)[<sup>1</sup>](#references) engineered by Microsoft specifically for these devices. Surface UEFI settings provide the ability to enable or disable built-in devices and components, protect UEFI settings from being changed, and adjust the Surface device boot settings. 
 
 ## Supported products
 
