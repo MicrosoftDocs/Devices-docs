@@ -28,10 +28,10 @@ landingContent:
     linkLists:
       - linkListType: whats-new
         links:
+          - text: Update to the Windows 10 Team rollout
+            url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/update-to-the-windows-10-team-rollout/ba-p/1669655
           - text: Install and mount Surface Hub 2S 85" (readiness guide)
             url: surface-hub-2s-85-install-mount.md     
-          - text: Install Windows 10 Team 2020 Update
-            url: surface-hub-2020-update.md
           - text: What's new in Windows 10 Team 2020 Update
             url: surface-hub-2020-update-whats-new.md
           - text: Surface Hub 2S bridges digital and physical divide in today’s hybrid workspaces
@@ -58,7 +58,7 @@ landingContent:
           - text: Enable Microsoft Whiteboard on Surface Hub
             url: https://support.office.com/article/Enable-Microsoft-Whiteboard-on-Surface-Hub-b5df4539-f735-42ff-b22a-0f5e21be7627
 
-      # Card
+  # Card
   - title: See Surface Hub in action
     linkLists:
       - linkListType: video  
@@ -72,14 +72,29 @@ landingContent:
           - text: Microsoft Surface Hub 2S IT pro deep dive
             url: https://youtu.be/fFiL60JztGk        
 
+  # Card (optional)
+  - title: Deploy
+    linkLists:
       - linkListType: deploy
         links:
+          - url: https://docs.microsoft.com/microsoftteams/rooms/coordinated-meetings
+            text: Set up Coordinated Meetings with Microsoft Teams Rooms and Surface Hub 
           - url: surface-hub-2s-adoption-kit.md
             text: Surface Hub 2S adoption and training
-          - url: surface-hub-2s-deploy-checklist.md
-            text: Surface Hub 2S deployment checklist
           - url: surface-hub-2s-account.md
             text: Create device account
+
+  # Card (optional)
+  - title: Manage
+    linkLists:
+      - linkListType: learn
+        links:
+          - url: https://docs.microsoft.com/microsoftteams/rooms/surface-hub-manage-config
+            text: Manage Microsoft Teams settings on Surface Hub
+          - url: surface-hub-2s-manage-intune.md
+            text: Manage Surface Hub 2S with Intune
+          - url: local-management-surface-hub-settings.md
+            text: Manage local settings
 
   # Card (optional)
   - title: Secure
@@ -88,10 +103,10 @@ landingContent:
         links:
           - url: surface-hub-security.md
             text: Surface Hub security overview 
-          - url: surface-hub-2s-manage-intune.md
-            text: Manage with Intune
-          - url: local-management-surface-hub-settings.md
-            text: Manage local settings
+          - url: surface-hub-2s-phone-authenticate.md
+            text: Configure passwordless sign-in on Surface Hub
+          - url: surface-hub-2s-secure-with-uefi-semm.md
+            text: Secure and manage Surface Hub 2S with SEMM and UEFI
 
   # Card (optional)
   - title: Troubleshoot
@@ -121,7 +136,7 @@ landingContent:
     linkLists: 
       - linkListType: reference
         links:
-          - url: https://support.serviceshub.microsoft.com/supportforbusiness/create?sapId=bb7066fb-e329-c1c0-9c13-8e9949c6a64e
+          - url: https://support.serviceshub.microsoft.com/supportforbusiness/create?sapId=bb7066fb-e329-c1c0-9c13-8e9949c6a64e&hidden=false
             text: Get support
           - url: https://www.microsoft.com/surface/business/warranty-service-offerings-and-support
             text: Surface Hub warranty and extended service plans

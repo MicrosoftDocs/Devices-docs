@@ -13,6 +13,7 @@ ms.topic: article
 ms.reviewer: scottmca
 manager: laurawi
 ms.audience: itpro
+ms.date: 1/15/2021
 ---
 
 # Wake On LAN for Surface devices
@@ -46,6 +47,7 @@ The following devices are supported for WOL:
 * Surface Pro 7
 * Surface Laptop 3
 * Surface Laptop Go
+* Surface Pro 7+
 
 ## WOL driver
 
