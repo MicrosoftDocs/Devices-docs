@@ -12,12 +12,12 @@ ms.author: greglin
 ms.topic: article
 ms.reviewer: hachidan
 manager: laurawi
-ms.date: 01/15/2021
+ms.date: 01/25/2021
 ---
 
 # Manage Surface UEFI settings
 
-All current and future generations of Surface devices use a unique Unified Extensible Firmware Interface (UEFI) engineered by Microsoft specifically for these devices. Surface UEFI settings provide the ability to enable or disable built-in devices and components, protect UEFI settings from being changed, and adjust the Surface device boot settings. 
+ Surface PC devices are designed to utilize a unique Unified Extensible Firmware Interface (UEFI) engineered by Microsoft specifically for these devices. Surface UEFI settings provide the ability to enable or disable built-in devices and components, protect UEFI settings from being changed, and adjust the Surface device boot settings. 
 
 ## Supported products
 
@@ -27,7 +27,7 @@ UEFI management is supported on the following:
 - Surface Laptop (1st Gen), Surface Laptop 2, Surface Laptop 3, Surface Laptop Go
 - Surface Studio (1st Gen), Surface Studio 2
 - Surface Book, Surface Book 2, Surface Book 3
-- Surface Go, Surface Go 2
+- Surface Go, Surface Go 2[<sup>1</sup>](#references)
 
 ## Support for cloud-based management
 
@@ -222,6 +222,10 @@ When you update Surface device firmware, by using either Windows Update or manua
 ![Surface boot screen that indicates Secure Boot has been disabled](images/manage-surface-uefi-fig18.png "Surface boot screen that indicates Secure Boot has been disabled")
 
 *Figure 20. Surface boot screen that indicates Secure Boot has been disabled in Surface UEFI settings*
+
+## References
+
+1. Surface Go and Surface Go 2 use a third-party UEFI and do not support DFCI. 
 
 ## Related topics
 
