@@ -51,11 +51,10 @@
       "searchScope": ["Surface Duo"],
       "ms.technology": "windows",
       "contributors_to_exclude": [ 
-        "rjagiewich", 
-        "traya1", 
-        "rmca14", 
-        "claydetels19", 
-        "Kellylorenebaker",
+        "rjagiewich",
+        "traya1",
+        "rmca14",
+        "claydetels19",
         "jborsecnik",
         "tiburd",
         "garycentric"
