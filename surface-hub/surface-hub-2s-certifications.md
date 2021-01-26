@@ -20,9 +20,9 @@ Surface Hub 2S 50” and 85” models are [certified for Microsoft Teams](https:
 
 | Model                                | Description                                                                                                                                                                                                                                                                                              |
 | ------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **EPOS EXPAND 80T**<br> **         | For up to seven participants. Microsoft Teams certified.<br><br>- Attach one EXPAND 80 Mic for Microsoft Teams certification in medium-sized meeting rooms for up to 11 participants.<br>- Attach two EXPAND 80 Mics for Microsoft Teams certification in large meeting rooms for up to 18 participants. |
-| **Yamaha YVC-1000MS**<br> **       | For up to six participants.<br><br>- Use one to five expansion mics for Microsoft Teams certification in rooms with up to 40 participants.                                                                                                                                                               |
-| **Sennheiser EXPAND SP 20**<br> ** | For up to six participants. Microsoft Teams certified.                                                                                                                                                                                                                                                   |
+| **EPOS EXPAND 80T**<br>         | For up to seven participants. Microsoft Teams certified.<br><br>- Attach one EXPAND 80 Mic for Microsoft Teams certification in medium-sized meeting rooms for up to 11 participants.<br>- Attach two EXPAND 80 Mics for Microsoft Teams certification in large meeting rooms for up to 18 participants. |
+| **Yamaha YVC-1000MS**<br>        | For up to six participants.<br><br>- Use one to five expansion mics for Microsoft Teams certification in rooms with up to 40 participants.                                                                                                                                                               |
+| **Sennheiser EXPAND SP 20**<br> | For up to six participants. Microsoft Teams certified.                                                                                                                                                                                                                                                   |
 | **Yealink CP900**<br> **           | For up to six participants. Microsoft Teams certified.                                                                                                                                                                                                                                                   |
 
  
@@ -30,9 +30,9 @@ Surface Hub 2S 50” and 85” models are [certified for Microsoft Teams](https:
 
 | Model                                       | Description                                                                    |
 | ------------------------------------------- | ------------------------------------------------------------------------------ |
-| **Jabra PanaCast**<br> **                 | 4K, 180 degrees.<br>Up to 3 meters for video subjects                          |
+| **Jabra PanaCast**<br>                  | 4K, 180 degrees.<br>Up to 3 meters for video subjects                          |
 | **Poly Studio - Huddle Room USB Video Bar** | 4K, 120 degrees<br>Up to 3.7 meters for audio + video subjects                 |
-| **Polycom EagleEye Director II**<br> **   | 1080p, 65 degrees<br>10+ participants medium rooms                             |
+| **Polycom EagleEye Director II**<br>    | 1080p, 65 degrees<br>10+ participants medium rooms                             |
 | **Logitech Rally Bar**                      | 4K, 90 degrees, PTZ, manual/digital control, USB 3.0 Type-C, privacy assurance |
 
 ## Learn more
