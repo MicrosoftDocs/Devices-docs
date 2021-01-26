@@ -9,12 +9,12 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 03/27/2020
+ms.date: 01/26/2021
 ms.localizationpriority: High
 ---
 # Surface Hub security overview
 
-Surface Hub provides a locked-down computing appliance with custom platform firmware running the Windows 10 Team operating system. The resulting device takes the traditional, "single use" secure kiosk, "only run what you need" philosophy and delivers a modern take on it. Built to support a rich collaborative user experience, Surface Hub is protected against continually evolving security threats.
+Surface Hub provides a locked-down appliance-like experience with custom platform firmware running the Windows 10 Team operating system. The resulting device takes the traditional, "single use" secure kiosk, "only run what you need" philosophy and delivers a modern take on it. Built to support a rich collaborative user experience, Surface Hub is protected against continually evolving security threats.
 
 Built on Windows 10, Surface Hub delivers enterprise-grade modern security enabling IT admins to enforce data protection with BitLocker, Trusted Platform Module 2.0 (TPM), plus cloud-powered security with Windows Defender (also known as Microsoft Defender).
 
