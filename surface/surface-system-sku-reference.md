@@ -79,5 +79,5 @@ You can use the System SKU information in the Microsoft Deployment Toolkit (MDT)
 
 ## Learn more
 
-- [WMI reference](../windows/win32/wmisdk/wmi-reference.md)
+- [WMI reference](https://docs.microsoft.com/windows/win32/wmisdk/wmi-reference)
 - [Surface Registration Support for Windows Autopilot](surface-autopilot-registration-support.md)
