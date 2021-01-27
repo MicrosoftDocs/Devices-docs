@@ -1,7 +1,7 @@
 ---
-title: System SKU reference (Surface)
-description: See a reference of System Model and System SKU names.
-keywords: uefi, configure, firmware, secure, semm
+title: Surface System SKU reference
+description: See a reference of System Model and System SKU names for all Surface devices. 
+keywords: uefi, configure, firmware, secure, semm, Autopilot
 ms.prod: w10
 ms.mktglfcycl: manage
 ms.pagetype: surface, devices, security
@@ -9,16 +9,16 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 1/15/2021
+ms.date: 01/27/2021
 ms.reviewer: 
 manager: laurawi
 ms.localizationpriority: medium
 ms.audience: itpro
 ---
 
-# System SKU reference
+# Surface System SKU reference
 
-This document provides a reference of System Model and System SKU names that you can use to quickly determine the machine state of a specific device by using PowerShell or WMI.
+This document provides a reference that can be used for various IT tasks such as registering Surface devices with Windows Autopilot or verifying the machine state of a specific device with PowerShell or WMI.
 
 System Model and System SKU are variables that are stored in the System Management BIOS (SMBIOS) tables in the UEFI layer of Surface devices. Use the System SKU name whenever you need to differentiate between devices with the same System Model name, such as Surface Pro and Surface Pro with LTE Advanced.
 
@@ -76,3 +76,8 @@ You can use the System SKU information in the Microsoft Deployment Toolkit (MDT)
     - WMI Namespace – Root\WMI
     - WQL Query – SELECT * FROM MS_SystemInformation WHERE SystemSKU = "Surface_Pro_1796"
  ``` 
+
+## Learn more
+
+- [WMI reference](https://docs.microsoft.com/windows/win32/wmisdk/wmi-reference)
+- [Surface Registration Support for Windows Autopilot](surface-autopilot-registration-support.md)

@@ -9,22 +9,19 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 12/21/2020
+ms.date: 11/26/2020
 ms.localizationpriority: Medium
 ---
 
 # Surface Hub 2S 85" overview & tech specs
 
-The 85" version of the Surface Hub family brings the Surface Hub 2S experience to spaces requiring a larger screen such as conference rooms, board rooms, or larger huddle spaces. Available from January 2021, Surface Hub 2S 85” delivers the following experiences:
+The 85" version of the Surface Hub family brings the Surface Hub 2S experience to spaces requiring a larger screen such as conference rooms, board rooms, or larger huddle spaces. Surface Hub 2S 85” delivers the following experiences:
 
 - **Designed for group collaboration.** Invites simultaneous inking in Microsoft Whiteboard plus larger-than-life remote attendees in Microsoft Teams.
 - **Consistent Surface Hub 2S experience.** Provides the same premium design, 4K display technology, touch, pen/ink, compute cartridge, and camera support as Surface Hub 2S 50”.
 - **Integration with existing and new A/V systems.** Combines with Microsoft Teams certified peripherals and integrates with Microsoft Teams Rooms.
 
 ![Surface Hub 2S 85"](images/hub-2s-85.png)
-
-> [!NOTE]
-> *Surface Hub 2S coming in 2021; Pre-release products shown; products and features subject to regulatory certification/approval, may change, and may vary by country/region.*
 
 ## Surface Hub 2S 85" tech specs
 
