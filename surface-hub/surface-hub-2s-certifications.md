@@ -9,7 +9,7 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 01/26/2020
+ms.date: 01/27/2020
 ms.localizationpriority: Medium
 ---
 # Microsoft Teams certified audio and video accessories for Surface Hub 2S
