@@ -21,14 +21,14 @@ To begin, sign in to Surface Hub 2S with admin credentials, open the **Settings*
 
 ## Reset the device
 
-   > [!NOTE]
+   > [!IMPORTANT]
    > Ensure that you have your BitLocker key available before resetting the device, as you will be prompted for it later. To learn more, see [Save your BitLocker key](save-bitlocker-key-surface-hub.md).
 
 1. To reset the device, select **Get Started**.
 
 2. When the **Ready to reset this device** window appears, select **Reset**. 
   
-   > [!NOTE]
+   > [!IMPORTANT]
    > When the Hub reboots to the recovery partition, it will prompt you to enter the BitLocker key. Skipping that prompt will cause reset to fail. Once you enter the BitLocker key the Hub reinstalls the operating system from the recovery partition. This may take up to one hour to complete.
   
 3. To reconfigure the device, run the first-time Setup program.
