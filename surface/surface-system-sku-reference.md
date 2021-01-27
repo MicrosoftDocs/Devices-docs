@@ -79,4 +79,4 @@ You can use the System SKU information in the Microsoft Deployment Toolkit (MDT)
 
 ## Learn more
 
-- [Surface Registration Support for Windows Autopilot](surface-autopilot-registration-support)
+- [Surface Registration Support for Windows Autopilot](surface-autopilot-registration-support.md)
