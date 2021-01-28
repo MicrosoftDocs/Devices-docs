@@ -9,7 +9,7 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 01/28/2020
+ms.date: 01/29/2020
 ms.localizationpriority: Medium
 ---
 
@@ -17,7 +17,7 @@ ms.localizationpriority: Medium
 
 Creating a Surface Hub device account (also known as a Room mailbox) allows Surface Hub 2S to receive, approve, or decline meeting requests and join meetings. Configure the device account during Out-of-Box Experience (OOBE) setup. If needed, you can change it later (without going through OOBE setup).
 
-Unlike standard Room mailboxes that remain disabled by default, you need to enable the Surface Hub 2S device account to sign on to Microsoft Teams. Surface Hub 2S relies on Exchange ActiveSync, which requires an ActiveSync mailbox policy on the device account. Apply the default ActiveSync mailbox policy that comes with Exchange Online.
+Unlike standard Room mailboxes that remain disabled by default, you need to enable the Surface Hub 2S device account to sign in to Microsoft Teams or Skype for Business. Surface Hub 2S relies on Exchange ActiveSync, which requires an ActiveSync mailbox policy on the device account. Apply the default ActiveSync mailbox policy that comes with Exchange Online.
 
 Create the account via the graphical user interface (GUI) in the Microsoft 365 admin center or by using PowerShell. You can use Exchange Online PowerShell to configure specific features including:
 
@@ -42,9 +42,13 @@ Create the account via the graphical user interface (GUI) in the Microsoft 365 a
 
    ![Set the password for the device account](images/sh2-account4.png)
 
-4. Assign the room with an Office 365 license. It’s recommended to assign the Office 365 **Meeting Room** license, which automatically enables the account for Microsoft Teams.
+4. Assign the room with an Office 365 license. It’s recommended to assign the Office 365 **Meeting Room** license, which automatically enables the account for Microsoft Teams and Skype for Business.
 
    ![Assign Office 365 license](images/sh2-account5.png)
+
+
+> [!NOTE]  
+> If using Skype for Business, you will need to finalize setup via PowerShell -- Skype for Business Calendar: Set [Calendar Autoprocessing](#set-calendar-auto-processing) for this account. 
 
 
 ## Create account using PowerShell
@@ -55,11 +59,6 @@ Instead of using the Microsoft Admin Center portal, you can create the account u
 
 1. Launch PowerShell with elevated account privileges (**Run as Administrator**) and ensure your system is configured to run PowerShell scripts. To learn more, refer to [About Execution Policies](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_execution_policies?). 
 2. [Install Azure PowerShell module](https://docs.microsoft.com/powershell/azure/install-az-ps).
-3. Sign into your Azure AD tenant.
-
-    ```powershell
-    Connect-AzureAD
-    ```
 
 
 ### Connect to Exchange Online PowerShell
@@ -76,7 +75,7 @@ Connect-ExchangeOnline -UserPrincipalName admin@contoso.com -ShowProgress $true
 New-Mailbox -MicrosoftOnlineServicesID 'SurfaceHub01@contoso.com' -Alias SurfaceHub01 -Name "Surface Hub 01" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String 'Pass@word1' -AsPlainText -Force)
 ```
 
-### Set Calendar auto-processing
+### Set Calendar auto-processing (Skype for Business only)
 
 ```powershell
 Set-CalendarProcessing -Identity 'SurfaceHub01@contoso.com' -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -AllowConflicts $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false
