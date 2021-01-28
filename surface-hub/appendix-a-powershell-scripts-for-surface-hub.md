@@ -16,7 +16,7 @@ ms.localizationpriority: medium
 
 # PowerShell for Surface Hub
 
-PowerShell scripts to help set up and manage your Microsoft Surface Hub.
+This page includes PowerShell scripts intended for the original Surface Hub. For Surface Hub 2S, see 
 
 -   [PowerShell scripts for Surface Hub admins](#scripts-for-admins)
     -   [Create an on-premises account](#create-on-premises-ps-scripts)
