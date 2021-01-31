@@ -2,6 +2,20 @@
 
 
 
+## Week of January 25, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 1/25/2021 | [Surface Hub documentation # < 60 chars](/surface-hub/index) | modified |
+| 1/26/2021 | [Surface Hub 2S 85-inch](/surface-hub/surface-hub-2s-85) | modified |
+| 1/26/2021 | [Surface Hub security overview](/surface-hub/surface-hub-security) | modified |
+| 1/27/2021 | [Microsoft Teams certified accessories for Surface Hub 2S](/surface-hub/surface-hub-2s-certifications) | added |
+| 1/27/2021 | [Reset or recover a Surface Hub](/surface-hub/device-reset-surface-hub) | modified |
+| 1/27/2021 | [Reset and recovery for Surface Hub 2S](/surface-hub/surface-hub-2s-recover-reset) | modified |
+| 1/28/2021 | [Surface Hub documentation # < 60 chars](/surface-hub/index) | modified |
+
+
 ## Week of January 18, 2021
 
 
