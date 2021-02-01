@@ -426,3 +426,7 @@ function Validate()
     }
 }
 ```
+
+## Learn more
+
+- [Create Surface Hub 2S on-premises accounts with PowerShell](surface-hub-2s-onprem-powershell.md)
