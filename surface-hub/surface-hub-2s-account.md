@@ -54,7 +54,7 @@ You can create the account from  Microsoft 365 Admin center in combination with 
 
 ## Create account via PowerShell
 
-Windows PowerShell is widely used by system administrators and power-users  across multiple devices. Using PowerShell to rapidly automate tasks on Surface Hub does not neccessarily require PowerShell expertise. Ensure you have completed the setup prerequisites before using the appropriate scripts on this page.
+ Using PowerShell to rapidly automate tasks on Surface Hub does not necessarily require PowerShell expertise. Ensure you have completed the setup prerequisites before using the appropriate scripts on this page.
 
 ### Prerequisites for using PowerShell to manage Surface Hub 
 
