@@ -26,6 +26,9 @@ You can create the account from  Microsoft 365 Admin center in combination with 
     - Custom auto replies to scheduling requests.
     - If the default ActiveSync mailbox policy has already been modified by someone else or by another process, you will likely have to create and assign a new ActiveSync mailbox policy.
 
+> [!TIP]
+> You can check account setup by running the [Account creation script](#account-verification-script) below.
+
 > [!NOTE]  
 > The Surface Hub device account doesn’t support third-party Federated Identity Providers (FIPs) and must be a standard Active Directory or Azure Active Directory account.
 
