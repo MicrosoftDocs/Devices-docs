@@ -51,6 +51,8 @@ Windows 10 Team 2020 Update brings major improvements to device deployment and m
 - **Improvements to passwordless sign-in using Microsoft Authenticator**.  For organizations that use Azure AD, users can use the Microsoft Authenticator app to sign in without having to type in usernames and passwords. Additionally, users can sign-in using their preferred email aliases in Azure AD in addition to their User Principal Name (UPN). To learn more, see [Sign in to Surface Hub with Microsoft Authenticator](https://docs.microsoft.com/surface-hub/surface-hub-authenticator-app).
 
 
- 
- 
+## Learn more
+
+- [Update to the Windows 10 Team rollout](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/update-to-the-windows-10-team-rollout/ba-p/1669655)
+- [Install Windows 10 Team 2020 Update](surface-hub-2020-update.md)  
  
