@@ -10,7 +10,7 @@ ms.sitesec: library
 author: dansimp
 ms.author: dansimp
 ms.topic: article
-ms.date: 01/10/2018
+ms.date: 02/01/2021
 ms.localizationpriority: medium
 ---
 
@@ -25,7 +25,7 @@ This page includes PowerShell scripts intended for the original Surface Hub. For
     -   [Enable Skype for Business (EnableSfb.ps1)](#enable-sfb-ps-scripts)
 -   [Useful cmdlets](#useful-cmdlets)
     -   [Creating a Surface Hub-compatible Exchange ActiveSync policy](#create-compatible-as-policy)
-    -   [Allowing device IDs for ActiveSync](#whitelisting-device-ids-cmdlet)
+    -   [Allowing device IDs for ActiveSync](#allowing-device-ids-for-activesync)
     -   [Auto-accepting and declining meeting requests](#auto-accept-meetings-cmdlet)
     -   [Accepting external meeting requests](#accept-ext-meetings-cmdlet)
     
@@ -1637,7 +1637,7 @@ Now the device account just needs to be converted back into a room type.
 Set-Mailbox $strRoomUpn -Type Room
 ```
 
-### <a href="" id="whitelisting-device-ids-cmdlet"></a>Allowing device IDs for ActiveSync
+### Allowing device IDs for ActiveSync
 
 To allow an account `$strRoomUpn`, run the following command:
 
