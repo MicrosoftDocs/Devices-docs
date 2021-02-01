@@ -14,9 +14,10 @@ ms.date: 02/01/2021
 ms.localizationpriority: medium
 ---
 
-# PowerShell for Surface Hub
+# PowerShell for Surface Hub (v1)
 
-This page includes PowerShell scripts intended for the original Surface Hub. For Surface Hub 2S, see 
+> [!NOTE]
+ >This page includes PowerShell scripts intended for the original Surface Hub (v1). For the latest account creation scripts for Surface Hub 2S, see [Create Surface Hub 2S device account](surface-hub-2s-account.md).
 
 -   [PowerShell scripts for Surface Hub admins](#scripts-for-admins)
     -   [Create an on-premises account](#create-on-premises-ps-scripts)
