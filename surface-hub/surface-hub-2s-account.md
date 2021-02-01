@@ -48,7 +48,7 @@ Create the account via the graphical user interface (GUI) in the Microsoft 365 a
 
 
 > [!NOTE]  
-> If using Skype for Business, you will need to finalize setup via PowerShell -- Skype for Business Calendar: Set [Calendar Autoprocessing](#set-calendar-auto-processing-(skype-for-business-only)) for this account. 
+> If using Skype for Business, you will need to finalize setup via PowerShell -- Skype for Business Calendar: Set [Calendar Autoprocessing](#set-calendar-auto-processing-skype-for-business-only) for this account. 
 
 ## Create account using PowerShell
 
