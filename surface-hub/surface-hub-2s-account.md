@@ -17,13 +17,11 @@ ms.localizationpriority: Medium
 
 Creating a Surface Hub device account (also known as a Room mailbox) allows Surface Hub 2S to receive, approve, or decline meeting requests and join meetings. Configure the device account during Out-of-Box Experience (OOBE) setup. If needed, you can change it later (without going through OOBE setup).
 
-Unlike standard Room mailboxes that remain disabled by default, you need to enable the Surface Hub 2S device account to sign in to Microsoft Teams or Skype for Business. Surface Hub 2S relies on Exchange ActiveSync, which requires an ActiveSync mailbox policy on the device account. Apply the default ActiveSync mailbox policy that comes with Exchange Online.
+## Create account using Microsoft 365 Admin center
 
-## Create device account using Admin center
+To meet minimum requirements, you can configure everything you need for the account directly from the [Microsoft 365 admin center](https://admin.microsoft.com/AdminPortal). Some features like sharing whiteboards directly from the whiteboard app require using PowerShell to configure ActiveSync; see [Enable ActiveSync if use of email app is required] (enable-activesync-if-use-of-email-app-is-required) on this page.
 
-To meet minimum requirements, you can configure everything you need for the account directly from the [Microsoft 365 admin center](https://admin.microsoft.com/AdminPortal). Some features such as the ability to share whiteboards directly from the whiteboard app require using PowerShell to configure ActiveSync; see [Enable ActiveSync if use of email app is required] (enable-activesync-if-use-of-email-app-is-required) on this page.
-
-## Create device account using PowerShell
+## Create account using PowerShell
 
 You can use PowerShell scripts to facilitate creation of multiple device accounts and quickly configure specific features including:
 
@@ -34,7 +32,7 @@ You can use PowerShell scripts to facilitate creation of multiple device account
 > [!NOTE]  
 > The Surface Hub device account doesn’t support third-party Federated Identity Providers (FIPs) and must be a standard Active Directory or Azure Active Directory account.
 
-## Create account using Microsoft 365 admin center
+## Configure with admin center
 
 1. In the Microsoft 365 admin center, go to **Resources** and choose **Rooms & Equipment** and then select **+ Add resource**.
 
@@ -56,11 +54,11 @@ You can use PowerShell scripts to facilitate creation of multiple device account
 > [!NOTE]  
 > If using Skype for Business, you will need to finalize setup via PowerShell -- Skype for Business Calendar: Set [Calendar Autoprocessing](#set-calendar-auto-processing-skype-for-business-only) for this account. 
 
-## Create account using PowerShell
+## Configure with PowerShell
 
-Instead of using the Microsoft Admin Center portal, you can create the account using PowerShell.
+Windows PowerShell is widely used by system administrators and power-users  across multiple devices. Using PowerShell to rapidly automate tasks on Surface Hub does not neccessarily require PowerShell expertise. Ensure you have completed the setup prerequisites before using the appropriate scripts on this page.
 
-### Prerequisites
+### Prerequisites for using PowerShell to manage Surface Hub 
 
 1. Launch PowerShell with elevated account privileges (**Run as Administrator**) and ensure your system is configured to run PowerShell scripts. To learn more, refer to [About Execution Policies](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_execution_policies?). 
 2. [Install Azure PowerShell module](https://docs.microsoft.com/powershell/azure/install-az-ps).
