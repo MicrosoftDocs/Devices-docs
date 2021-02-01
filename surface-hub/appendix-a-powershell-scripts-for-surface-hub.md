@@ -1,6 +1,6 @@
 ---
-title: PowerShell for Surface Hub (Surface Hub)
-description: PowerShell scripts to help set up and manage your Microsoft Surface Hub.
+title: PowerShell for Surface Hub (v1)
+description: This page includes PowerShell scripts intended for the original Surface Hub (v1)
 ms.assetid: 3EF48F63-8E4C-4D74-ACD5-461F1C653784
 ms.reviewer: 
 manager: laurawi
