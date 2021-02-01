@@ -28,7 +28,7 @@ Windows 10 Team 2020 Update brings major improvements to device deployment and m
 
 - **Single sign-on (SSO) for Azure AD joined devices**. When users sign in with their Microsoft 365 credentials to “My meetings and files”, their user credentials flow seamlessly from app to app – including Microsoft 365 experiences in the browser.
 - **Conditional access (CA) for Azure AD joined devices**.       IT admins can deploy device-level security policies to their Azure AD joined Surface Hub to control access to organizational resources in accordance with corporate security and compliance requirements.
-- **Support for non-Global admins for Azure AD joined devices**.       Customers can choose a more granular set of admins within their admin hierarchy to manage Surface Hub. To learn more, see [Configure non Global admin accounts on Surface Hub 2S](surface-hub-2s-nonglobal-admin.md).
+- **Support for non-Global admins for Azure AD joined devices**. Customers can choose a more granular set of admins within their admin hierarchy to manage Surface Hub. To learn more, see [Configure non Global admin accounts on Surface Hub 2S](surface-hub-2s-nonglobal-admin.md).
 
 
 ## Browser and pen
@@ -40,6 +40,7 @@ Windows 10 Team 2020 Update brings major improvements to device deployment and m
 
 - **Microsoft Teams installed by default**.        Microsoft Teams is included as the default Meetings, calling and collaboration app on new Surface Hub devices which can be changed or configured via MDM or directly on Surface Hub using the Settings app. To learn more, see [Deploy Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/teams-surface-hub).
 - **Support for Proximity Join with Microsoft Teams**.  Proximity Join enables users to take scheduled Microsoft Teams calls on a nearby Surface Hub using their laptop/phone, or seamlessly transition an in-progress meeting to a nearby Surface Hub. Windows 10 Team 2020 Update adds Mobile Device Management (MDM) support to configure Proximity Join. To learn more, see: 
+
   - [Microsoft Teams Blog](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-teams-devices-for-shared-spaces-july-and-august-update/ba-p/1604833). 
   - [Manage Microsoft Teams settings on Surface Hub](https://docs.microsoft.com/microsoftteams/rooms/surface-hub-manage-config)
 
