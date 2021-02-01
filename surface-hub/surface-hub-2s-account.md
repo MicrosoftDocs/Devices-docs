@@ -19,7 +19,13 @@ Creating a Surface Hub device account (also known as a Room mailbox) allows Surf
 
 Unlike standard Room mailboxes that remain disabled by default, you need to enable the Surface Hub 2S device account to sign in to Microsoft Teams or Skype for Business. Surface Hub 2S relies on Exchange ActiveSync, which requires an ActiveSync mailbox policy on the device account. Apply the default ActiveSync mailbox policy that comes with Exchange Online.
 
-Create the account via the graphical user interface (GUI) in the Microsoft 365 admin center or by using PowerShell. You can use Exchange Online PowerShell to configure specific features including:
+## Create device account using Admin center
+
+To meet minimum requirements, you can configure everything you need for the account directly from the [Microsoft 365 admin center](https://admin.microsoft.com/AdminPortal). Some features such as the ability to share whiteboards directly from the whiteboard app require using PowerShell to configure ActiveSync; see [Enable ActiveSync if use of email app is required] (enable-activesync-if-use-of-email-app-is-required) on this page.
+
+## Create device account using PowerShell
+
+You can use PowerShell scripts to facilitate creation of multiple device accounts and quickly configure specific features including:
 
 - Calendar processing for every Surface Hub device account.
 - Custom auto replies to scheduling requests.
@@ -83,13 +89,14 @@ Set-CalendarProcessing -Identity 'SurfaceHub01@contoso.com' -AddAdditionalRespon
 
 ### Enable ActiveSync if use of email app is required
 
- The default ActiveSync Policy will work if unchnaged. Otherwise create a new Policy and assign.
+ The default ActiveSync Policy will work if unchanged. Otherwise create a new Policy and assign.
 
 ```powershell
 New-MobileDeviceMailboxPolicy -Name:"SurfaceHub" -PasswordEnabled:$false
 #Assign Policy to Hub:
 Set-CASMailbox -Identity SurfaceHub01@contoso.com -ActiveSyncMailboxPolicy "SurfaceHub"
 ```
+
 ### Connect to Azure AD
 
 ```powershell
