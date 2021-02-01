@@ -22,10 +22,9 @@ You can create the account from  Microsoft 365 Admin center in combination with 
 - **Create account via Admin center**. To meet minimum requirements, you can configure everything you need for the account directly from the [Microsoft 365 admin center](https://admin.microsoft.com/AdminPortal). Some features like sharing whiteboards directly from the whiteboard app require using PowerShell to configure ActiveSync; see [Enable ActiveSync if use of email app is required] (enable-activesync-if-use-of-email-app-is-required) on this page.
 
 - **Create account via PowerShell**. You can use PowerShell scripts to facilitate creation of multiple device accounts and quickly configure specific features including:
-
-- Calendar processing for every Surface Hub device account.
-- Custom auto replies to scheduling requests.
-- If the default ActiveSync mailbox policy has already been modified by someone else or by another process, you will likely have to create and assign a new ActiveSync mailbox policy.
+    - Calendar processing for every Surface Hub device account.
+    - Custom auto replies to scheduling requests.
+    - If the default ActiveSync mailbox policy has already been modified by someone else or by another process, you will likely have to create and assign a new ActiveSync mailbox policy.
 
 > [!NOTE]  
 > The Surface Hub device account doesn’t support third-party Federated Identity Providers (FIPs) and must be a standard Active Directory or Azure Active Directory account.
