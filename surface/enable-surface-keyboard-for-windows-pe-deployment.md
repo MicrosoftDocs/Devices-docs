@@ -27,7 +27,7 @@ This article addresses a deployment approach that uses Microsoft Deployment Tool
 > [!TIP]	
 > In order to use Surface Laptop 2 and Surface Laptop 3 keyboard drivers in the same Windows PE boot instance, you need to manually reset the firmware after you install it:
 >
-> - Press and hold the power button for 30 seconds. If you are connected to a PSU, it will be press and hold power button until you see the light on the end of the PSU cord blink off and then back on.  
+> - Press and hold the Power button for 30 seconds. If you are connected to a power supply unit (PSU), press and hold the Power button until you see the light at the end of the PSU cord briefly turn off before turning back on.
 
 > [!IMPORTANT]
 > If you are deploying a Windows 10 image to a Surface Laptop that has Windows 10 in S mode preinstalled, see KB [4032347, Problems when deploying Windows to Surface devices with preinstalled Windows 10 in S mode](https://support.microsoft.com/help/4032347/surface-preinstall-windows10-s-mode-issues).
