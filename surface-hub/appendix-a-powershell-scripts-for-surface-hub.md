@@ -1,6 +1,6 @@
 ---
-title: PowerShell for Surface Hub (Surface Hub)
-description: PowerShell scripts to help set up and manage your Microsoft Surface Hub.
+title: PowerShell for Surface Hub (v1)
+description: This page includes PowerShell scripts intended for the original Surface Hub (v1)
 ms.assetid: 3EF48F63-8E4C-4D74-ACD5-461F1C653784
 ms.reviewer: 
 manager: laurawi
@@ -10,13 +10,14 @@ ms.sitesec: library
 author: dansimp
 ms.author: dansimp
 ms.topic: article
-ms.date: 01/10/2018
+ms.date: 02/01/2021
 ms.localizationpriority: medium
 ---
 
-# PowerShell for Surface Hub
+# PowerShell for Surface Hub (v1)
 
-PowerShell scripts to help set up and manage your Microsoft Surface Hub.
+> [!NOTE]
+ >This page includes PowerShell scripts intended for the original Surface Hub (v1). For the latest account creation scripts for Surface Hub 2S, see [Create Surface Hub 2S device account](surface-hub-2s-account.md).
 
 -   [PowerShell scripts for Surface Hub admins](#scripts-for-admins)
     -   [Create an on-premises account](#create-on-premises-ps-scripts)
@@ -25,7 +26,7 @@ PowerShell scripts to help set up and manage your Microsoft Surface Hub.
     -   [Enable Skype for Business (EnableSfb.ps1)](#enable-sfb-ps-scripts)
 -   [Useful cmdlets](#useful-cmdlets)
     -   [Creating a Surface Hub-compatible Exchange ActiveSync policy](#create-compatible-as-policy)
-    -   [Allowing device IDs for ActiveSync](#whitelisting-device-ids-cmdlet)
+    -   [Allowing device IDs for ActiveSync](#allowing-device-ids-for-activesync)
     -   [Auto-accepting and declining meeting requests](#auto-accept-meetings-cmdlet)
     -   [Accepting external meeting requests](#accept-ext-meetings-cmdlet)
     
@@ -988,7 +989,7 @@ else
 
 ## <a href="" id="acct-verification-ps-scripts"></a>Account verification script
 
-This script will validate the previously-created device account on a Surface Hub, no matter which method was used to create it. This script is basically pass/fail. If one of the test errors out, it will show a detailed error message, but if all tests pass, the end result will be a summary report. For example, you might see:
+This script validates the previously-created device account on Surface Hub and Surface Hub 2S, no matter which method was used to create it. This script is basically pass/fail. If one of the test errors out, it will show a detailed error message, but if all tests pass, the end result will be a summary report. For example, you might see:
 
 ``` syntax
 15 tests executed
@@ -1637,7 +1638,7 @@ Now the device account just needs to be converted back into a room type.
 Set-Mailbox $strRoomUpn -Type Room
 ```
 
-### <a href="" id="whitelisting-device-ids-cmdlet"></a>Allowing device IDs for ActiveSync
+### Allowing device IDs for ActiveSync
 
 To allow an account `$strRoomUpn`, run the following command:
 
