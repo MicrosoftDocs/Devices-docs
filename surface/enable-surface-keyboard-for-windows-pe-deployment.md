@@ -13,6 +13,7 @@ ms.reviewer: scottmca
 ms.localizationpriority: medium
 ms.audience: itpro
 manager: jarrettr
+ms.date: 02/02/2021
 appliesto:
 - Surface Laptop (1st Gen)
 - Surface Laptop 2
@@ -23,6 +24,10 @@ appliesto:
 
 This article addresses a deployment approach that uses Microsoft Deployment Toolkit (MDT). You can also apply this information to other deployment methodologies. On most types of Surface devices, the keyboard should work during Lite Touch Installation (LTI). However, Surface Laptop requires some additional drivers to enable the keyboard. For Surface Laptop (1st Gen) and Surface Laptop 2 devices, you must prepare the folder structure and selection profiles that allow you to specify keyboard drivers for use during the Windows Preinstallation Environment (Windows PE) phase of LTI. For more information about this folder structure, see [Deploy a Windows 10 image using MDT: Step 5: Prepare the drivers repository](https://docs.microsoft.com/windows/deployment/deploy-windows-mdt/deploy-a-windows-10-image-using-mdt?redirectedfrom=MSDN#step-5-prepare-the-drivers-repository).
 
+> [!TIP]	
+> When using keyboard drivers for Surface Laptop 2 and Surface Laptop 3 in the same Windows PE boot instance, you may need to manually reset the firmware if the keyboard or touchpad don’t work in Windows PE:
+>
+> - Press and hold the Power button for 30 seconds. If you are connected to a power supply unit (PSU), press and hold the Power button until you see the light at the end of the PSU cord briefly turn off before turning back on.
 
 > [!IMPORTANT]
 > If you are deploying a Windows 10 image to a Surface Laptop that has Windows 10 in S mode preinstalled, see KB [4032347, Problems when deploying Windows to Surface devices with preinstalled Windows 10 in S mode](https://support.microsoft.com/help/4032347/surface-preinstall-windows10-s-mode-issues).
@@ -45,129 +50,129 @@ To add the keyboard drivers to the selection profile, follow these steps:
    ![Image that shows the location of the WindowsPEX64 folder in the Deployment Workbench](./images/surface-laptop-keyboard-1.png)
 
 4. Right-click the **WindowsPEX64** folder and select **Import Drivers**.
+
 5. Follow the instructions in the Import Driver Wizard to import the driver folders into the WindowsPEX64 folder.  
 
-> [!NOTE]
->  Check the downloaded MSI package to determine the format and directory structure.  The directory structure will start with either SurfacePlatformInstaller (older MSI files) or SurfaceUpdate (Newer MSI files) depending on when the MSI was released. 
+	> [!NOTE]
+	>  Check the downloaded MSI package to determine the format and directory structure.  The directory structure will start with either SurfacePlatformInstaller (older MSI files) or SurfaceUpdate (Newer MSI files) depending on when the MSI was released. 
 
-To support Surface Laptop (1st Gen), import the following folders:
+	To support Surface Laptop (1st Gen), import the following folders:
 
- - SurfacePlatformInstaller\Drivers\System\GPIO
- - SurfacePlatformInstaller\Drivers\System\SurfaceHidMiniDriver
- - SurfacePlatformInstaller\Drivers\System\SurfaceSerialHubDriver
- - SurfacePlatformInstaller\Drivers\System\PreciseTouch
+	 - SurfacePlatformInstaller\Drivers\System\GPIO
+	 - SurfacePlatformInstaller\Drivers\System\SurfaceHidMiniDriver
+	 - SurfacePlatformInstaller\Drivers\System\SurfaceSerialHubDriver
+	 - SurfacePlatformInstaller\Drivers\System\PreciseTouch
 
-Or for newer MSI files beginning with "SurfaceUpdate", use:
+	Or for newer MSI files beginning with "SurfaceUpdate", use:
 
-- SurfaceUpdate\SerialIOGPIO
-- SurfaceUpdate\SurfaceHidMiniDriver
-- SurfaceUpdate\SurfaceSerialHubDriver
-- SurfaceUpdate\Itouch
+	- SurfaceUpdate\SerialIOGPIO
+	- SurfaceUpdate\SurfaceHidMiniDriver
+	- SurfaceUpdate\SurfaceSerialHubDriver
+	- SurfaceUpdate\Itouch
 
-To support Surface Laptop 2, import the following folders:
+	To support Surface Laptop 2, import the following folders:
 
- - SurfacePlatformInstaller\Drivers\System\GPIO
- - SurfacePlatformInstaller\Drivers\System\SurfaceHIDMiniDriver
- - SurfacePlatformInstaller\Drivers\System\SurfaceSerialHubDriver
- - SurfacePlatformInstaller\Drivers\System\I2C
- - SurfacePlatformInstaller\Drivers\System\SPI
- - SurfacePlatformInstaller\Drivers\System\UART
- - SurfacePlatformInstaller\Drivers\System\PreciseTouch
+	 - SurfacePlatformInstaller\Drivers\System\GPIO
+	 - SurfacePlatformInstaller\Drivers\System\SurfaceHIDMiniDriver
+	 - SurfacePlatformInstaller\Drivers\System\SurfaceSerialHubDriver
+	 - SurfacePlatformInstaller\Drivers\System\I2C
+	 - SurfacePlatformInstaller\Drivers\System\SPI
+	 - SurfacePlatformInstaller\Drivers\System\UART
+	 - SurfacePlatformInstaller\Drivers\System\PreciseTouch
 
-Or for newer MSI files beginning with "SurfaceUpdate", use:
+	Or for newer MSI files beginning with "SurfaceUpdate", use:
 
-- SurfaceUpdate\SerialIOGPIO
-- SurfaceUpdate\IclSerialIOI2C
-- SurfaceUpdate\IclSerialIOSPI
-- SurfaceUpdate\IclSerialIOUART
-- SurfaceUpdate\SurfaceHidMini
-- SurfaceUpdate\SurfaceSerialHub
-- SurfaceUpdate\Itouch
+	- SurfaceUpdate\SerialIOGPIO
+	- SurfaceUpdate\serialioi2c
+	- SurfaceUpdate\SerialIOSPI
+	- SurfaceUpdate\SerialIOUART
+	- SurfaceUpdate\SurfaceHidMini
+	- SurfaceUpdate\SurfaceSerialHub
+	- SurfaceUpdate\Itouch
 
- 
-To support Surface Laptop 3 with Intel Processor, import the following folders:
+	 
+	To support Surface Laptop 3 with Intel Processor, import the following folders:
 
-- SurfaceUpdate\IclSerialIOGPIO
-- SurfaceUpdate\IclSerialIOI2C
-- SurfaceUpdate\IclSerialIOSPI
-- SurfaceUpdate\IclSerialIOUART
-- SurfaceUpdate\SurfaceHidMini
-- SurfaceUpdate\SurfaceSerialHub
-- SurfaceUpdate\SurfaceHotPlug
-- SurfaceUpdate\Itouch
+	- SurfaceUpdate\SerialIOGPIO
+	- SurfaceUpdate\SerialIOI2C
+	- SurfaceUpdate\SerialIOSPI
+	- SurfaceUpdate\SerialIOUART
+	- SurfaceUpdate\SurfaceHidMini
+	- SurfaceUpdate\SurfaceSerialHub
+	- SurfaceUpdate\SurfaceHotPlug
+	- SurfaceUpdate\Itouch
 
-Importing the following folders will enable full keyboard, trackpad, and touch functionality in PE for Surface Laptop 3.
+	Importing the following folders will enable full keyboard, trackpad, and touch functionality in PE for Surface Laptop 3.
 
-- IclSerialIOGPIO
-- IclSerialIOI2C
-- IclSerialIOSPI
-- IclSerialIOUART
-- itouch
-- IclChipset
-- IclChipsetLPSS
-- IclChipsetNorthpeak
-- ManagementEngine
-- SurfaceAcpiNotify
-- SurfaceBattery
-- SurfaceDockIntegration
-- SurfaceHidMini
-- SurfaceHotPlug
-- SurfaceIntegration
-- SurfaceSerialHub
-- SurfaceService
-- SurfaceStorageFwUpdate
+	- SerialIOGPIO
+	- SerialIOI2C
+	- SerialIOSPI
+	- SerialIOUART
+	- itouch
+	- Chipset
+	- ChipsetLPSS
+	- ChipsetNorthpeak
+	- ManagementEngine
+	- SurfaceAcpiNotify
+	- SurfaceBattery
+	- SurfaceDockIntegration
+	- SurfaceHidMini
+	- SurfaceHotPlug
+	- SurfaceIntegration
+	- SurfaceSerialHub
+	- SurfaceService
+	- SurfaceStorageFwUpdate
 
+	 > [!NOTE]
+	 >  Check the downloaded MSI package to determine the format and directory structure.  The directory structure will start with either SurfacePlatformInstaller (older MSI files) or SurfaceUpdate (Newer MSI files) depending on when the MSI was released. 
 
-    > [!NOTE]
-    >  Check the downloaded MSI package to determine the format and directory structure.  The directory structure will start with either SurfacePlatformInstaller (older MSI files) or SurfaceUpdate (Newer MSI files) depending on when the MSI was released. 
+	 To support Surface Laptop (1st Gen), import the following folders:
 
-    To support Surface Laptop (1st Gen), import the following folders:
+	- SurfacePlatformInstaller\Drivers\System\GPIO
+	- SurfacePlatformInstaller\Drivers\System\SurfaceHidMiniDriver
+	- SurfacePlatformInstaller\Drivers\System\SurfaceSerialHubDriver
+	- SurfacePlatformInstaller\Drivers\System\PreciseTouch
 
-     - SurfacePlatformInstaller\Drivers\System\GPIO
-     - SurfacePlatformInstaller\Drivers\System\SurfaceHidMiniDriver
-     - SurfacePlatformInstaller\Drivers\System\SurfaceSerialHubDriver
-     - SurfacePlatformInstaller\Drivers\System\PreciseTouch
+	Or for newer MSI files beginning with "SurfaceUpdate", use:
 
-    Or for newer MSI files beginning with "SurfaceUpdate", use:
+	- SurfaceUpdate\SerialIOGPIO
+	- SurfaceUpdate\SurfaceHidMiniDriver
+	- SurfaceUpdate\SurfaceSerialHubDriver
+	- SurfaceUpdate\Itouch
 
-    - SurfaceUpdate\SerialIOGPIO
-    - SurfaceUpdate\SurfaceHidMiniDriver
-    - SurfaceUpdate\SurfaceSerialHubDriver
-    - SurfaceUpdate\Itouch
+	To support Surface Laptop 2, import the following folders:
 
-    To support Surface Laptop 2, import the following folders:
+	- SurfacePlatformInstaller\Drivers\System\GPIO
+	- SurfacePlatformInstaller\Drivers\System\SurfaceHIDMiniDriver
+	- SurfacePlatformInstaller\Drivers\System\SurfaceSerialHubDriver
+	- SurfacePlatformInstaller\Drivers\System\I2C
+	- SurfacePlatformInstaller\Drivers\System\SPI
+	- SurfacePlatformInstaller\Drivers\System\UART
+	- SurfacePlatformInstaller\Drivers\System\PreciseTouch
 
-     - SurfacePlatformInstaller\Drivers\System\GPIO
-     - SurfacePlatformInstaller\Drivers\System\SurfaceHIDMiniDriver
-     - SurfacePlatformInstaller\Drivers\System\SurfaceSerialHubDriver
-     - SurfacePlatformInstaller\Drivers\System\I2C
-     - SurfacePlatformInstaller\Drivers\System\SPI
-     - SurfacePlatformInstaller\Drivers\System\UART
-     - SurfacePlatformInstaller\Drivers\System\PreciseTouch
+	Or for newer MSI files beginning with "SurfaceUpdate", use:
 
-    Or for newer MSI files beginning with "SurfaceUpdate", use:
+	- SurfaceUpdate\SerialIOGPIO
+	- SurfaceUpdate\SerialIOI2C
+	- SurfaceUpdate\SerialIOSPI
+	- SurfaceUpdate\SerialIOUART
+	- SurfaceUpdate\SurfaceHidMini
+	- SurfaceUpdate\SurfaceSerialHub
+	- SurfaceUpdate\Itouch
 
-    - SurfaceUpdate\SerialIOGPIO
-    - SurfaceUpdate\IclSerialIOI2C
-    - SurfaceUpdate\IclSerialIOSPI
-    - SurfaceUpdate\IclSerialIOUART
-    - SurfaceUpdate\SurfaceHidMini
-    - SurfaceUpdate\SurfaceSerialHub
-    - SurfaceUpdate\Itouch
+	To support Surface Laptop 3 with Intel Processor, import the following folders:
 
-    To support Surface Laptop 3 with Intel Processor, import the following folders:
+	- SurfaceUpdate\SerialIOGPIO
+	- SurfaceUpdate\SerialIOI2C
+	- SurfaceUpdate\SerialIOSPI
+	- SurfaceUpdate\SerialIOUART
+	- SurfaceUpdate\SurfaceHidMini
+	- SurfaceUpdate\SurfaceSerialHub
+	- SurfaceUpdate\SurfaceHotPlug
+	- SurfaceUpdate\Itouch
 
-    - SurfaceUpdate\IclSerialIOGPIO
-    - SurfaceUpdate\IclSerialIOI2C
-    - SurfaceUpdate\IclSerialIOSPI
-    - SurfaceUpdate\IclSerialIOUART
-    - SurfaceUpdate\SurfaceHidMini
-    - SurfaceUpdate\SurfaceSerialHub
-    - SurfaceUpdate\SurfaceHotPlug
-    - SurfaceUpdate\Itouch
-
-    > [!NOTE]
-    > For Surface Laptop 3 with Intel processor, the model is Surface Laptop 3. The remaining Surface Laptop drivers are located in the \MDT Deployment Share\Out-of-Box Drivers\Windows10\X64\Surface Laptop 3 folder.
+	> [!NOTE]
+	> For Surface Laptop 3 with Intel processor, the model is Surface Laptop 3. The remaining Surface Laptop drivers are located in the \MDT Deployment Share\Out-of-Box Drivers\Windows10\X64\Surface Laptop 3 folder.
 
 6. Verify that the WindowsPEX64 folder now contains the imported drivers. The folder should resemble the following:  
 
