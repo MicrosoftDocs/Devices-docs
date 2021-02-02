@@ -25,6 +25,15 @@ Please refer to the “[Surface Hub Important Information](https://support.micro
 ## Windows 10 Team 2020 Update (20H2)
 
 <details>
+<summary>January 15, 2021 — update for Surface Hub 2S</summary>
+
+This update is specific to the Surface Hub 2S and provides the driver and firmware updates outlined below:
+
+* Surface SMC Firmware update - 3.93.139.0
+* Surface UEFI update - 694.3473.768.0
+</details>
+
+<details>
 <summary>December 11, 2020 — update for Surface Hub 2S</summary>
 
 This update is specific to the Surface Hub 2S and provides the driver and firmware updates outlined below:
