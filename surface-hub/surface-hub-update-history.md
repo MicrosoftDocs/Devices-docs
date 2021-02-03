@@ -25,6 +25,20 @@ Please refer to the “[Surface Hub Important Information](https://support.micro
 ## Windows 10 Team 2020 Update (20H2)
 
 <details>
+<summary>February 2nd, 2021 — update for Team based on KB4598291* (OS Build 19042.789)</summary>
+
+This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4581839/windows-10-update-history), include:
+
+* Fix that allows calendar synchronization with Exchange to work when the Device Account's UPN is not equal its SMTP.
+* Adds ability for Admins to disable the use of Modern Authentication during calendar synchronization with Exchange.
+* Ensures that Surface Hub users aren't prompted to enter proxy credentials after the "Use device account credentials" feature has been enabled.
+* Resolves an issue where Windows Update and Store update checks would never complete if a proxy requiring authentication was in use.
+* Improves the reliability of the Connect App during wired ingest scenarios.
+
+Please refer to the [Surface Hub Admin guide](https://docs.microsoft.com/surface-hub/) for enabling/disabling device features and services. *[KB4598291](https://support.microsoft.com/help/4598291)
+</details>
+
+<details>
 <summary>January 15, 2021 — update for Surface Hub 2S</summary>
 
 This update is specific to the Surface Hub 2S and provides the driver and firmware updates outlined below:
