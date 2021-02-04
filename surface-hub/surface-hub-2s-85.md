@@ -9,7 +9,7 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 11/26/2020
+ms.date: 02/04/2021
 ms.localizationpriority: Medium
 ---
 
@@ -27,8 +27,10 @@ The 85" version of the Surface Hub family brings the Surface Hub 2S experience t
 
 | Component    | Description                                                                                                                                                                                                                                         |
 | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Dimensions        | 44.5” x 77.1” x 3.4”<br>(1130mm x 1959mm x 85.6mm)                                                                                                                                                                                                        |
-| Weight            | 185 lb. (84kg)                                                                                                                                                                                                                                            |
+| Dimensions        | 44.5” x 77.1” x 3.4”<br>(1130mm x 1595mm x 85.6mm)                                                                                                                                                                                                        |
+| Shipping dimensions        | 44.5” x 77.1” x 3.4”<br>(2275mm x 1573mm x 580mm)                                                                                                                                                                                                        |
+| Weight            | 185 lbs (84kg)                                                                                                                                                                                                                                            |
+| Shipping weight            | 399 lbs (181kg)                                                                                                                                                                                                                                            |
 | Resolution        | 3840 x 2160                                                                                                                                                                                                                                               |
 | Display           | PixelSense™ Display, 16:9 aspect ratio, 10-bit color, 30.5mm border width, anti-glare, IPS LCD, in-cell touch with 20 simultaneous touch points                                                                                                           |
 | Compute           | Modular Compute Cartridge<br>Quad-core 8th Generation Intel® Core™ i5 processor, 8GB RAM, 128GB SSD<sup>1</sup>                                                                                                                                                      |
