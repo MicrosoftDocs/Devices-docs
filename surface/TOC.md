@@ -83,7 +83,7 @@
 
 ## Warranty and protection plans
 ### [Surface for Business warranty and protection plans](https://www.microsoft.com/surface/business/warranty-service-offerings-and-support)
-### [Next business day replacement information & coverage areas](surface-next-business-day-replacement.md)
+### [Next Business Day Replacement & coverage areas](surface-next-business-day-replacement.md)
 ### [Terms & Conditions](https://support.microsoft.com/help/4493926/warranties-extended-service-plans-and-terms-conditions-for-your-device)
 ### [Check device warranty status](https://mybusinessservice.surface.com/)
 ### [Protecting data when sending Surface in for service](https://support.microsoft.com/help/4023508/surface-faq-protecting-your-data-service)
