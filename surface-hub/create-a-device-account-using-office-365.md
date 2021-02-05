@@ -354,12 +354,12 @@ Enable the device account with Skype for Business.
 
 In order to enable Skype for Business, your environment will need to meet the following prerequisites:
 
--   You'll need to have Skype for Business Online Standalone Plan 2 or higher in your O365 plan. The plan needs to support conferencing capability.
--   If you need Enterprise Voice (PSTN telephony) using telephony service providers for the Surface Hub, you need Skype for Business Online Standalone Plan 3.
--   Your tenant users must have Exchange mailboxes.
--   Your Surface Hub account does require a Skype for Business Online Standalone Plan 2 or Skype for Business Online Standalone Plan 3 license, but it does not require an Exchange Online license.
+- You'll need to have Skype for Business Online Standalone Plan 2 or higher in your O365 plan. The plan needs to support conferencing capability.
+- If you need Enterprise Voice (PSTN telephony) using telephony service providers for the Surface Hub, you need Skype for Business Online Standalone Plan 3.
+- Your tenant users must have Exchange mailboxes.
+- Your Surface Hub account does require a Skype for Business Online Standalone Plan 2 or Skype for Business Online Standalone Plan 3 license, but it does not require an Exchange Online license.
 
-1.  Start by creating a remote PowerShell session from a PC.
+1. Start by creating a remote PowerShell session from a PC.
 
     ```PowerShell
     Import-Module SkypeOnlineConnector
@@ -371,19 +371,12 @@ In order to enable Skype for Business, your environment will need to meet the fo
 
 If you aren't sure what value to use for the `RegistrarPool` parameter in your environment, you can get the value from an existing Skype for Business user using this cmdlet:
 
-    ```PowerShell
+ ```PowerShell
     Get-CsOnlineUser -Identity ‘alice@contoso.microsoft.com’| fl *registrarpool*
-    ```
-    
+ ```
+
 3. To enable your Surface Hub account for Skype for Business Server, run this cmdlet:
 
    ```PowerShell
    Enable-CsMeetingRoom -Identity $strEmail -RegistrarPool "sippoolbl20a04.infra.lync.com" -SipAddressType EmailAddress
    ```
-
-    
-
-
-
-
-
