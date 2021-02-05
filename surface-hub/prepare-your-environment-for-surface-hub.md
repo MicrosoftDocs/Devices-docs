@@ -12,6 +12,8 @@ ms.author: dansimp
 ms.topic: article
 ms.date: 12/04/2017
 ms.localizationpriority: medium
+appliesto:
+- Surface Hub
 ---
 
 # Prepare your environment for Microsoft Surface Hub (v1)
