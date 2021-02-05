@@ -26,11 +26,11 @@ To guarantee delivery for a replacement device by the next business day, devic
 
 | Country                                                                                                    | Cutoff Time |
 | -------------------------------------------------------------------------------------------------------------- | --------------- |
-| **United States & Canada**                                                                                     | 2pm CT          |
-| **Europe** (limited to United Kingdom, France, Germany, Netherlands, Poland, Czech Republic, Belgium, Austria) | 12pm CET        |
-| **Australia**                                                                                                  | 13:00 AET       |
-| **Singapore**                                                                                                  | 13:00 SGT       |
-| **Japan**                                                                                                      | 13:00 JST       |
+| **United States & Canada**                                                                                     | 14:00 CST    (UTC-6)      |
+| **Europe** (limited to United Kingdom, France, Germany, Netherlands, Poland, Czech Republic, Belgium, Austria) | 12:00 CET   (UTC+1)     |
+| **Australia**                                                                                                  | 13:00 AET   (UTC+11)    |
+| **Singapore**                                                                                                  | 13:00 SGT    (UTC+8)   |
+| **Japan**                                                                                                      | 13:00 JST    (UTC+9)   |
 
 
 
