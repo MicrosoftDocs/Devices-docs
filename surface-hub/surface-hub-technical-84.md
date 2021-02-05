@@ -10,6 +10,8 @@ ms.author: dansimp
 ms.topic: article
 ms.localizationpriority: medium
 ms.date: 12/21/2020
+appliesto:
+- Surface Hub
 ---
 
 # Technical information for 84" Surface Hub (v1)
