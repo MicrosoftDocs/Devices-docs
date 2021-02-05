@@ -36,10 +36,8 @@ To guarantee delivery for a replacement device by the next business day, devic
 ## [Japan](#tab/Japan)
 Add info here
  
-## [Australia](#tab/Australia)
+## [US](#tab/US)
 Add info here
 
-## [United States](#tab/United States)
-Add info here
 
 
