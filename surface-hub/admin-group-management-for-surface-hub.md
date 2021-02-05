@@ -12,6 +12,9 @@ ms.author: dansimp
 ms.topic: article
 ms.date: 02/01/2021
 ms.localizationpriority: medium
+appliesto:
+- Surface Hub
+- Surface Hub 2S
 ---
 
 # Admin group management for Surface Hub
@@ -46,7 +49,7 @@ Surface Hubs use domain join to:
 - Backup the device's BitLocker recovery key by storing it under the computer object in AD. See [Save your BitLocker key](save-bitlocker-key-surface-hub.md) for details.
 - Synchronize the system clock with the domain controller for encrypted communication
 
-Surface Hub does not support applying group policies or certificates from the domain controller.
+Surface Hub does not support applying Group Policy or certificates from the domain controller.
 
 > [!NOTE]
 > If your Surface Hub loses trust with the domain (for example, if you remove the Surface Hub from the domain after it is domain joined), you won't be able to authenticate into the device and open up Settings. If you decide to remove the trust relationship of the Surface Hub with your domain, [reset the device](device-reset-surface-hub.md) first.
