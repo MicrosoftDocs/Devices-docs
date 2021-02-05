@@ -3,7 +3,7 @@ title: Next Business Day Replacement information & coverage areas
 ms.author: v-kaij
 author: greg-lindsay
 manager: laurawi
-ms.date: 02/11/2021
+ms.date: 02/10/2021
 audience: Admin
 ms.topic: article
 ms.prod: surface
