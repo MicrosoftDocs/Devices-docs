@@ -41,13 +41,12 @@ By default, Surface Hub devices are preinstalled with Microsoft Edge Legacy (ver
 > The Surface Hub device must be enrolled into and managed using Intune. For more information, see [Manage Surface Hub 2S with Microsoft Intune](https://docs.microsoft.com/surface-hub/surface-hub-2s-manage-intune).
  
 
-1. [Download the Microsoft Edge installer from Microsoft](https://www.microsoft.com/edge/business/download).
+1. [Download the Microsoft Edge installer](https://www.microsoft.com/edge/business/download).
     - Use the current version from [Stable channel](https://docs.microsoft.com/deployedge/microsoft-edge-channels) **(version 85)**
     - Choose **Windows 64-bit**
 2. [Add the Microsoft Edge installer as a line-of-business app to Microsoft Intune](https://docs.microsoft.com/mem/intune/apps/lob-apps-windows).
     - If you choose to use Microsoft Edge Update to handle automatic updates to Microsoft Edge, be sure to configure the **Ignore app version** setting the **App information** pane. When you switch this setting to **Yes**, Microsoft Intune will not enforce the app version that's installed on the Surface Hub device.
 
- 
 ### Install Microsoft Edge using Mobile Device Management
 
 1. [Download the Microsoft Edge installer from Microsoft](https://www.microsoft.com/edge/business/download).
@@ -56,18 +55,17 @@ By default, Surface Hub devices are preinstalled with Microsoft Edge Legacy (ver
 2. Stage the Microsoft Edge installer on a hosted location, such as a local file share (\\server\share\MicrosoftEdgeEnterpriseX64.msi). The Surface Hub device must have permission to access the hosted location.
 3. Use [EnterpriseDesktopAppManagement Configuration Service Provider (CSP)](https://docs.microsoft.com/windows/client-management/mdm/enterprisedesktopappmanagement-csp) through your MDM provider to install Microsoft Edge.
 
- 
-
 ## Configure Microsoft Edge
 
 ### Default Microsoft Edge policies for Surface Hub
-Microsoft Edge is preconfigured with the following policies to provide an optimized experience for Surface Hub.
+
+Microsoft Edge is preconfigured with the following policy setttings to provide an optimized experience for Surface Hub.
  
-> [!NOTE]
->  We recommend keeping the default value for these policies.
+> [!TIP]
+> It's recommended to retain the default value for these policy settings.
  
 
-| Microsoft Edge policy                                                                                                    | Recommended experience                                                                                                                                                                                                                                               | Default value |
+| Policy setting                                                                                                   | Recommended experience                                                                                                                                                                                                                                               | Default value |
 | ---------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------- |
 | [AutoImportAtFirstRun](https://docs.microsoft.com/deployedge/microsoft-edge-policies#autoimportatfirstrun)             | Do not automatically import datatypes and settings from Microsoft Edge Legacy. This avoids changing signed-in users' profiles with shared settings from the Surface Hub.                                                                                                 | 4                 |
 | [BackgroundModeEnabled](https://docs.microsoft.com/deployedge/microsoft-edge-policies#backgroundmodeenabled)           | Allow Microsoft Edge processes to keep running in the background even after the last browser window is closed, enabling faster access to web apps during a session.                                                                                                      | 1                 |
