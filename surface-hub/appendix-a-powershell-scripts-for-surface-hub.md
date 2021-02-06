@@ -12,6 +12,8 @@ ms.author: dansimp
 ms.topic: article
 ms.date: 02/01/2021
 ms.localizationpriority: medium
+appliesto:
+- Surface Hub
 ---
 
 # PowerShell for Surface Hub (v1)
