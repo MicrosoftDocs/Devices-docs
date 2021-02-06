@@ -544,7 +544,7 @@ else
 
 ### <a href="" id="create-os356-ps-scripts"></a>Create a device account using Office 365
 
-Creates an account as described in [Create a device account using Office 365](create-a-device-account-using-office-365.md)
+Creates an account as described in [Create a device account using Office 365](create-a-device-account-using-office-365.md).
 
 ```PowerShell
 # SHAccountCreateO365.ps1
@@ -991,7 +991,7 @@ else
 
 This script validates the previously-created device account on Surface Hub and Surface Hub 2S, no matter which method was used to create it. This script is basically pass/fail. If one of the test errors out, it will show a detailed error message, but if all tests pass, the end result will be a summary report. For example, you might see:
 
-``` syntax
+```console
 15 tests executed
 0 failures
 2 warnings
