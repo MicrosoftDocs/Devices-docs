@@ -61,11 +61,11 @@ What do you need in order to run the scripts?
 
 The account creation scripts will:
 
--   Ask for administrator credentials
--   Create device accounts in your domain/tenant
--   Create or assign a Surface Hub-compatible ActiveSync policy to the device account(s)
+-   Ask for administrator credentials.
+-   Create device accounts in your domain/tenant.
+-   Create or assign a Surface Hub-compatible ActiveSync policy to the device account(s).
 -   Set various attributes for the created account(s) in Exchange and Skype for Business.
--   Assign licenses and permissions to the created account(s)
+-   Assign licenses and permissions to the created account(s).
 
 These are the attributes that are set by the scripts:
 
