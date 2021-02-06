@@ -19,9 +19,7 @@ Windows 10 Team 2020 Update supports the new Microsoft Edge based on Chromium (v
 
 By default, Surface Hub devices are preinstalled with Microsoft Edge Legacy (version 44).  It's recommended to switch to the new Microsoft Edge browser; official support for Microsoft Edge Legacy is scheduled to end  March 9, 2021. 
 
-## Install Microsoft Edge
-
-### Install Microsoft Edge using a provisioning package
+## Install Microsoft Edge using a provisioning package
 
 1. From a PC, download the [Microsoft Edge provisioning package](https://aka.ms/HubEdge) (MicrosoftEdgeInstaller.ppkg) to the root folder of a USB drive.
 2. Insert the USB drive into Surface Hub.
@@ -35,7 +33,7 @@ By default, Surface Hub devices are preinstalled with Microsoft Edge Legacy (ver
 > [!NOTE]
 > If there’s a newer version of Microsoft Edge available, it will be automatically updated.
  
-### Install Microsoft Edge using Intune
+## Install Microsoft Edge using Intune
  
 > [!NOTE]
 > The Surface Hub device must be enrolled into and managed using Intune. For more information, see [Manage Surface Hub 2S with Microsoft Intune](https://docs.microsoft.com/surface-hub/surface-hub-2s-manage-intune).
@@ -47,13 +45,13 @@ By default, Surface Hub devices are preinstalled with Microsoft Edge Legacy (ver
 2. [Add the Microsoft Edge installer as a line-of-business app to Microsoft Intune](https://docs.microsoft.com/mem/intune/apps/lob-apps-windows).
     - If you choose to use Microsoft Edge Update to handle automatic updates to Microsoft Edge, be sure to configure the **Ignore app version** setting the **App information** pane. When you switch this setting to **Yes**, Microsoft Intune will not enforce the app version that's installed on the Surface Hub device.
 
-### Install Microsoft Edge using Mobile Device Management
+## Install Microsoft Edge using third party MDM provider
 
 1. [Download the Microsoft Edge installer from Microsoft](https://www.microsoft.com/edge/business/download).
     - Use the current version from [Stable channel](https://docs.microsoft.com/deployedge/microsoft-edge-channels) **(version 85)**
     - Choose **Windows 64-bit**
 2. Stage the Microsoft Edge installer on a hosted location, such as a local file share (\\server\share\MicrosoftEdgeEnterpriseX64.msi). The Surface Hub device must have permission to access the hosted location.
-3. Use [EnterpriseDesktopAppManagement Configuration Service Provider (CSP)](https://docs.microsoft.com/windows/client-management/mdm/enterprisedesktopappmanagement-csp) through your MDM provider to install Microsoft Edge.
+3. Use [EnterpriseDesktopAppManagement Configuration Service Provider (CSP)](https://docs.microsoft.com/windows/client-management/mdm/enterprisedesktopappmanagement-csp) through your mobile device management (MDM) provider to install Microsoft Edge.
 
 ## Configure Microsoft Edge
 
