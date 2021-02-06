@@ -9,7 +9,7 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 09/11/2020
+ms.date: 02/05/2021
 ms.localizationpriority: Medium
 ---
 
@@ -17,21 +17,8 @@ ms.localizationpriority: Medium
 
 Windows 10 Team 2020 Update supports the new Microsoft Edge based on Chromium (version 85 and above) as the recommended browser for Surface Hub. You can install Microsoft Edge manually using a provisioning package, remotely using Microsoft Intune or your preferred Mobile Device Management (MDM) provider.
 
-By default, Surface Hub devices are preinstalled with Microsoft Edge Legacy (version 44).
- 
-> [!NOTE]
-> If you have already installed Edge Dev, complete the following steps:
->
->1. If you don’t know your version or would like to confirm, open your Edge browser and go to edge://version.
->2. Navigate to **Surface Hub > Device management**. Under **Provisioning packages**, select **Add or remove a provisioning package.**
->3. If you have used the earlier installer to pin Microsoft Edge Dev on the Start Menu, click **Custom Start Menu** from the list and click **Remove.**
->4. If you have used a custom start layout policy, you will need to modify it using the latest Edge path, as described in the section below [Display Microsoft Edge in the Surface Hub Start menu](#display-microsoft-edge-in-the-surface-hub-start-menu).
->5. Now you can provision MicrosoftEdgeDevUninstaller.ppkg.
->6. Once Edge Dev is removed from **All Apps**, first remove "MicrosoftEdgeDevInstaller" and then remove "MicrosoftEdgeDevUninstaller."
->7. This successfully uninstalls Microsoft Edge Dev. You can now install the standard version.
+By default, Surface Hub devices are preinstalled with Microsoft Edge Legacy (version 44).  It's recommended to switch to the new Microsoft Edge browser; official support for Microsoft Edge Legacy is scheduled to end  March 9, 2021. 
 
- 
- 
 ## Install Microsoft Edge
 
 ### Install Microsoft Edge using a provisioning package
@@ -140,7 +127,7 @@ Column="0"/>
 For more information, see [Configure Surface Hub Start menu](https://docs.microsoft.com/surface-hub/surface-hub-start-menu).
  
 > [!NOTE]
-> The new Microsoft Edge doesn’t support pinned websites and links using SecondaryTiles.
+> The new Microsoft Edge doesn’t support pinned websites.
 
 ## Related links
 
