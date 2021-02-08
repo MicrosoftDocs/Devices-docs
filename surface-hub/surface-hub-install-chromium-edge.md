@@ -20,7 +20,8 @@ appliesto:
 
 Windows 10 Team 2020 Update supports the new Microsoft Edge based on Chromium (version 85 and above) as the recommended browser for Surface Hub 2S and Surface Hub (v1). This article explains how to install the browser using one of three methods: a provisioning package, Microsoft Intune, or third party Mobile Device Management (MDM) provider.
 
-By default, Surface Hub devices are preinstalled with Microsoft Edge Legacy (version 44). After installing the [2020 Update](surface-hub-2020-update.md), it's recommended to switch to the new Microsoft Edge browser; support for [Microsoft Edge Legacy](https://support.microsoft.com/microsoft-edge/what-is-microsoft-edge-legacy-3e779e55-4c55-08e6-ecc8-2333768c0fb0) will end on March 9, 2021.
+> [!IMPORTANT]
+> By default, Surface Hub devices are preinstalled with Microsoft Edge Legacy (version 44). After installing the [2020 Update](surface-hub-2020-update.md), it's recommended to switch to the new Microsoft Edge browser; support for [Microsoft Edge Legacy](https://support.microsoft.com/microsoft-edge/what-is-microsoft-edge-legacy-3e779e55-4c55-08e6-ecc8-2333768c0fb0) will end on March 9, 2021.
 
 ## Install Microsoft Edge using a provisioning package
 
