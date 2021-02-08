@@ -11,6 +11,9 @@ audience: Admin
 ms.topic: article
 ms.date: 12/17/2020
 ms.localizationpriority: Medium
+appliesto:
+- Surface Hub
+- Surface Hub 2S
 ---
 # Install Windows 10 Team 2020 Update 
 
@@ -30,12 +33,12 @@ You can obtain Windows 2020 Update using one of the following methods:
 | ----- | -------------------------------------- | ----------------- |
 | 1     | NZ, Australia, Canada, Belgium, Mexico | October 27, 2020  |
 | 2     | UK, Japan, Switzerland, Italy          | November 10, 2020 |
-| 3     | US, Germany                            | TBD |
-| 4     | Global                                 | TBD  |
+| 3     | US, Germany                            | Late February 2021 |
+| 4     | Global                                 | Late February 2021 |
 
 ## Servicing Surface Hubs with Windows 10 Team Edition version 1703 
 
-Full servicing support for Windows 10 Team Edition version 1703 is scheduled to continue until March 16, 2021.
+Full servicing support for [Windows 10 Team Edition version 1703](https://support.microsoft.com/topic/november-12-2019-kb4525245-os-build-15063-2172-dfc81b85-11a6-54ef-4370-11408193419f) is scheduled to continue until March 16, 2021.
 
 ### 2S devices 
 
