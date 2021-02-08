@@ -19,7 +19,7 @@ appliesto:
 
 The new Surface Hub operating system, **Windows 10 Team 2020 Update**, based on Windows 10 version 20H2, is now available for Surface Hub 2S and the original Surface Hub (v1). 
 
-- See also: [Known issues: Windows 10 Team 2020 Update](surface-hub-2020-update.md)
+- See also: [Known issues: Windows 10 Team 2020 Update](surface-hub-2020-team-update-known-issues.md)
 
 ## Distribution
 
@@ -46,7 +46,7 @@ Customers in all regions can continue to update their Surface Hub 2S devices to 
 
 ### V1 devices 
 
-Customers in all regions can now update their Surface Hub v1 devices to the 2020 Update by [using the Surface Hub Recovery Tool](surface-hub-recovery-tool.md). Other methods to update these devices to the Windows 10 Team 2020 Update will soon be available. To learn more, see [Surface IT Pro Blog](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/surface-hub-windows-10-team-2020-update/ba-p/2000144).
+Customers in all regions can now update their Surface Hub v1 devices to the 2020 Update by [using the Surface Hub Recovery Tool](surface-hub-recovery-tool.md). Other methods to update these devices to the Windows 10 Team 2020 Update will soon be available. To learn more, see [Surface IT Pro Blog](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/update-to-the-windows-10-team-rollout/ba-p/1669655).
  
 ## What’s new
 
@@ -67,5 +67,5 @@ To learn more, see [Save your BitLocker key](save-bitlocker-key-surface-hub.md).
 
 ## Learn more
 
+- [What's new in Windows 10 Team 2020 Update](surface-hub-2020-update-whats-new.md)
 - [Update to the Windows 10 Team rollout](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/update-to-the-windows-10-team-rollout/ba-p/1669655)
-- [Known issues: Windows 10 Team 2020 Update](surface-hub-2020-team-update-known-issues.md)
