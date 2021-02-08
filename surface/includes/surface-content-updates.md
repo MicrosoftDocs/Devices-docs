@@ -5,6 +5,32 @@
 
 
 
+## Week of February 01, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 2/2/2021 | [Admin group management](/surface-hub/admin-group-management-for-surface-hub) | modified |
+| 2/2/2021 | [PowerShell for Surface Hub (v1)](/surface-hub/appendix-a-powershell-scripts-for-surface-hub) | modified |
+| 2/2/2021 | [Applying ActiveSync policies to device accounts (Surface Hub)](/surface-hub/apply-activesync-policies-for-surface-hub-device-accounts) | modified |
+| 2/2/2021 | [What's new in Windows 10 Team 2020 Update](/surface-hub/surface-hub-2020-update-whats-new) | modified |
+| 2/2/2021 | [Create Surface Hub 2S device account](/surface-hub/surface-hub-2s-account) | modified |
+| 2/2/2021 | [Using the Surface Hub Recovery Tool](/surface-hub/surface-hub-recovery-tool) | modified |
+| 2/2/2021 | [Surface Hub update history](/surface-hub/surface-hub-update-history) | modified |
+| 2/2/2021 | [Moving and handling Surface Hub 2S 85](/surface-hub/hub-move) | modified |
+| 2/2/2021 | [Surface Hub 2S site readiness guide](/surface-hub/surface-hub-2s-site-readiness-guide) | modified |
+| 2/3/2021 | [Surface Hub update history](/surface-hub/surface-hub-update-history) | modified |
+| 2/3/2021 | [Known issues: Windows 10 Team 2020 Update](/surface-hub/surface-hub-2020-team-update-known-issues) | modified |
+| 2/5/2021 | [Admin group management](/surface-hub/admin-group-management-for-surface-hub) | modified |
+| 2/5/2021 | [PowerShell for Surface Hub (v1)](/surface-hub/appendix-a-powershell-scripts-for-surface-hub) | modified |
+| 2/5/2021 | [Applying ActiveSync policies to device accounts (Surface Hub)](/surface-hub/apply-activesync-policies-for-surface-hub-device-accounts) | modified |
+| 2/5/2021 | [Create a device account using UI (Surface Hub v1)](/surface-hub/create-a-device-account-using-office-365) | modified |
+| 2/5/2021 | [Prepare your environment for Microsoft Surface Hub (v1)](/surface-hub/prepare-your-environment-for-surface-hub) | modified |
+| 2/5/2021 | [Surface Hub 2S 85-inch](/surface-hub/surface-hub-2s-85) | modified |
+| 2/5/2021 | [Technical information for 55" Surface Hub (v1)](/surface-hub/surface-hub-technical-55) | modified |
+| 2/5/2021 | [Technical information for 84" Surface Hub (v1)](/surface-hub/surface-hub-technical-84) | modified |
+
+
 ## Week of January 25, 2021
 
 
@@ -72,6 +98,40 @@
 | 12/21/2020 | [Surface Hub 2S tech specs](/surface-hub/surface-hub-2s-techspecs) | modified |
 | 12/21/2020 | [Technical information for 55" Surface Hub](/surface-hub/surface-hub-technical-55) | modified |
 | 12/21/2020 | [Technical information for 84" Surface Hub](/surface-hub/surface-hub-technical-84) | modified |
+
+
+## Week of February 01, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 2/2/2021 | [How to enable the Surface Laptop keyboard during MDT deployment](/surface/enable-surface-keyboard-for-windows-pe-deployment) | modified |
+
+
+## Week of February 01, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 2/2/2021 | [Admin group management](/surface-hub/admin-group-management-for-surface-hub) | modified |
+| 2/2/2021 | [PowerShell for Surface Hub (v1)](/surface-hub/appendix-a-powershell-scripts-for-surface-hub) | modified |
+| 2/2/2021 | [Applying ActiveSync policies to device accounts (Surface Hub)](/surface-hub/apply-activesync-policies-for-surface-hub-device-accounts) | modified |
+| 2/2/2021 | [What's new in Windows 10 Team 2020 Update](/surface-hub/surface-hub-2020-update-whats-new) | modified |
+| 2/2/2021 | [Create Surface Hub 2S device account](/surface-hub/surface-hub-2s-account) | modified |
+| 2/2/2021 | [Using the Surface Hub Recovery Tool](/surface-hub/surface-hub-recovery-tool) | modified |
+| 2/2/2021 | [Surface Hub update history](/surface-hub/surface-hub-update-history) | modified |
+| 2/2/2021 | [Moving and handling Surface Hub 2S 85](/surface-hub/hub-move) | modified |
+| 2/2/2021 | [Surface Hub 2S site readiness guide](/surface-hub/surface-hub-2s-site-readiness-guide) | modified |
+| 2/3/2021 | [Surface Hub update history](/surface-hub/surface-hub-update-history) | modified |
+| 2/3/2021 | [Known issues: Windows 10 Team 2020 Update](/surface-hub/surface-hub-2020-team-update-known-issues) | modified |
+| 2/5/2021 | [Admin group management](/surface-hub/admin-group-management-for-surface-hub) | modified |
+| 2/5/2021 | [PowerShell for Surface Hub (v1)](/surface-hub/appendix-a-powershell-scripts-for-surface-hub) | modified |
+| 2/5/2021 | [Applying ActiveSync policies to device accounts (Surface Hub)](/surface-hub/apply-activesync-policies-for-surface-hub-device-accounts) | modified |
+| 2/5/2021 | [Create a device account using UI (Surface Hub v1)](/surface-hub/create-a-device-account-using-office-365) | modified |
+| 2/5/2021 | [Prepare your environment for Microsoft Surface Hub (v1)](/surface-hub/prepare-your-environment-for-surface-hub) | modified |
+| 2/5/2021 | [Surface Hub 2S 85-inch](/surface-hub/surface-hub-2s-85) | modified |
+| 2/5/2021 | [Technical information for 55" Surface Hub (v1)](/surface-hub/surface-hub-technical-55) | modified |
+| 2/5/2021 | [Technical information for 84" Surface Hub (v1)](/surface-hub/surface-hub-technical-84) | modified |
 
 
 ## Week of January 25, 2021
