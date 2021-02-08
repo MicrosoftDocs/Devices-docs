@@ -162,7 +162,8 @@ This version of Surface Dock Firmware Update includes bug fixes and support for:
    > [!NOTE]
    > If you're running Surface Pro X, download the .ARM64 build. For all other devices, use the AMD64 build. 
 
-**Updated registry key values**<br>
+#### Registry key values
+
 The registry values that indicate the status of firmware updates are unchanged from the previous version of this tool: 
 
 - Component10CurrentFwVersion updated to **4ac3970**.
@@ -172,7 +173,8 @@ The registry values that indicate the status of firmware updates are unchanged f
 *Release Date: September 18 2019*
 
 This version, contained in Surface_Dock_FwUpdate_1.42.139_Win10_17134_19.084.31680_0.MSI, updates firmware in the background. 
-**Updated registry key values:**<br>
+
+#### Updated registry key values
 
 - Component10CurrentFwVersion updated to **4ac3970**.
 - Component20CurrentFwVersion updated to **4a1d570**.
