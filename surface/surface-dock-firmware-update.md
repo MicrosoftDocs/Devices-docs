@@ -1,6 +1,6 @@
 ---
-title: Microsoft Surface Dock Firmware Update - Technical information for IT administrators
-description: This article explains how to use Microsoft Surface Dock Firmware Update to update Surface Dock firmware. When installed on your Surface device, it will update any Surface Dock attached to your Surface device.
+title: Microsoft Surface Dock 1 Firmware Update
+description: This article explains how to use Microsoft Surface Dock Firmware Update to install and manage firmware on the original Surface Dock 1. When installed on your Surface device, it will update Surface Dock 1 devices attached to your Surface device.
 ms.localizationpriority: medium
 ms.prod: w10
 ms.mktglfcycl: manage
@@ -11,14 +11,17 @@ ms.topic: article
 ms.reviewer: scottmca
 manager: laurawi
 ms.audience: itpro
-ms.date: 8/07/2020
+ms.date: 2/08/2021
 ---
-# Microsoft Surface Dock Firmware Update: Technical information for IT admins
+# Microsoft Surface Dock Firmware Update
 
 > [!IMPORTANT]
 > This article contains technical instructions for IT administrators. If you are a home user, please see [How to update your Surface Dock Firmware](https://support.microsoft.com/help/4023478/surface-update-your-surface-dock) on the Microsoft Support site. The instructions at the support site are the same as the general installation steps below, but this article has additional information for monitoring, verifying, and deploying the update to multiple devices on a network.
 
-This article explains how to use Microsoft Surface Dock Firmware Update to update firmware on the original Surface Dock 1 and does not apply to Surface Dock 2. When installed on your Surface device, it will update any Surface Dock attached to your Surface device. 
+This article explains how to use Microsoft Surface Dock Firmware Update to install and manage firmware on the original Surface Dock 1. When installed on your Surface device, it will update Surface Dock 1 devices attached to your Surface device.
+
+> [!NOTE]
+> This article does not apply to Surface Dock 2, which receives updates automatically via Windows Update or by using Microsoft Endpoint Configuration Manager or other MSI deployment tools. To learn more, see [What’s new in Surface Dock](surface-dock-whats-new.md).
 
 This tool supersedes the earlier Microsoft Surface Dock Updater tool, previously available for download as part of Surface Tools for IT. The earlier tool was named Surface_Dock_Updater_vx.xx.xxx.x.msi (where x indicates the version number) and is no longer available for download and should not be used.
 
@@ -45,13 +48,17 @@ To monitor the update:
 
 2. Type the following command at an elevated command prompt:
 
-    ```cmd
+    ```console
     Reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\WUDF\Services\SurfaceDockFwUpdate\Parameters"
     ```
 3. Install the update as described in the [next section](#install-the-surface-dock-firmware-update) of this article.
+
 4. Event 2007 with the following text indicates a successful update: **Firmware update finished. hr=0 DriverTelementry EventCode = 2007**. 
-    - If the update is not successful, then event ID 2007 will be displayed as an **Error** event rather than **Information**. Additionally, the version reported in the Windows Registry will not be current.
+
+   If the update is not successful, then event ID 2007 will be displayed as an **Error** event rather than **Information**. Additionally, the version reported in the Windows Registry will not be current.
+   
 5. When the update is complete, updated DWORD values will be displayed in the Windows Registry, corresponding to the current version of the tool. See the [Versions reference](#versions-reference) section in this article for details. For example:
+
     - Component10CurrentFwVersion 0x04ac3970 (78395760)
     - Component20CurrentFwVersion 0x04915a70 (76634736)
 
@@ -70,15 +77,16 @@ You can use Windows Installer commands (Msiexec.exe) to deploy Surface Dock Firm
 
 - **Msiexec.exe /i \<path to msi file\> /quiet /norestart** 
 
-  For example:
-  ```
-  msiexec /i "\\share\folder\Surface_Dock_FwUpdate_1.42.139_Win10_17134_19.084.31680_0.msi" /quiet /norestart
-  ```
+For example:
 
-  > [!NOTE]
-  > A log file is not created by default. In order to create a log file, you will need to append "/l*v [path]". For example: Msiexec.exe /i \<path to msi file\> /l*v %windir%\logs\ SurfaceDockFWI.log"
+```console
+msiexec /i "\\share\folder\Surface_Dock_FwUpdate_1.42.139_Win10_17134_19.084.31680_0.msi" /quiet /norestart
+```
 
-  For more information, refer to [Command line options](https://docs.microsoft.com/windows/win32/msi/command-line-options) documentation.
+> [!NOTE]
+> A log file is not created by default. In order to create a log file, you will need to append "/l*v [path]". For example: Msiexec.exe /i \<path to msi file\> /l*v %windir%\logs\ SurfaceDockFWI.log"
+
+For more information, refer to [Command line options](https://docs.microsoft.com/windows/win32/msi/command-line-options) documentation.
 
 > [!IMPORTANT]
 > If you want to keep your Surface Dock updated using any other method, refer to [Update your Surface Dock](https://support.microsoft.com/help/4023478/surface-update-your-surface-dock) for details.
@@ -158,14 +166,20 @@ This version of Surface Dock Firmware Update includes bug fixes and support for:
 - Updating Surface Dock 1 using Surface Pro X. 
    > [!NOTE]
    > If you're running Surface Pro X, download the .ARM64 build. For all other devices, use the AMD64 build. 
+
+#### Registry key values
+
+The registry values that indicate the status of firmware updates are unchanged from the previous version of this tool: 
+
+- Component10CurrentFwVersion updated to **4ac3970**.
+- Component20CurrentFwVersion updated to **4a1d570**.
  
-
-
 ### Version 1.42.139 
 *Release Date: September 18 2019*
 
 This version, contained in Surface_Dock_FwUpdate_1.42.139_Win10_17134_19.084.31680_0.MSI, updates firmware in the background. 
-**Updated registry key values:**<br>
+
+#### Updated registry key values
 
 - Component10CurrentFwVersion updated to **4ac3970**.
 - Component20CurrentFwVersion updated to **4a1d570**.

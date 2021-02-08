@@ -8,7 +8,7 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 12/2/2020
+ms.date: 02/08/2021
 ms.reviewer: brrecord
 manager: laurawi
 audience: itpro
@@ -100,7 +100,7 @@ Surface Dock 2 is designed to simplify IT management, enabling admins to automat
 | Surflink host power                 | 60W                                                         | 120W                                                                                                | N/A              |
 | USB load power                      | 30W                                                         | 60W                                                                                                 |                  |
 | USB bit rate                        | 5 Gbps                                                      | 10 Gbps                                                                                             | 10 Gbps          |
-| Monitor support                     | 2 x 4k @30fps, or<br>1 x 4k @ 60fps                         | 2 x 4K @ 60fps                                                                                      | 1 x 4K @ 60fps   |
+| Monitor support                     | 2 x 4k @30fps, or<br>1 x 4k @ 60fps                         | 2 x 4K @ 60fps<br> or 1 x 4K @120fps                                                                                     | 1 x 4K @ 60fps   |
 | Wake-on-LAN from Connected Standby<sup>1</sup> | Yes                                                         | Yes                                                                                                 |                  |
 | Wake-on-LAN from S4/S5 sleep modes  | No                                                          | Yes                                                                                                 |          Yes        |
 | Network PXE boot                    | Yes                                                         | Yes                                                                                                 |        Yes          |
