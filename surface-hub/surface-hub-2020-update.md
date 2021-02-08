@@ -11,10 +11,13 @@ audience: Admin
 ms.topic: article
 ms.date: 12/17/2020
 ms.localizationpriority: Medium
+appliesto:
+- Surface Hub
+- Surface Hub 2S
 ---
 # Install Windows 10 Team 2020 Update 
 
-The new Surface Hub operating system, **Windows 10 Team 2020 Update**, based on Windows 10 version 20H2, is now available for all Surface Hub 2S devices.  
+The new Surface Hub operating system, **Windows 10 Team 2020 Update**, based on Windows 10 version 20H2, is now available for Surface Hub 2S and the original Surface Hub (v1). 
 
 - See also: [Known issues: Windows 10 Team 2020 Update](surface-hub-2020-update.md)
 
@@ -28,14 +31,14 @@ You can obtain Windows 2020 Update using one of the following methods:
 
 | Phase | Country/Region                         | Starting          |
 | ----- | -------------------------------------- | ----------------- |
-| 1     | NZ, Australia, Canada, Belgium, Mexico | October 27, 2020  |
-| 2     | UK, Japan, Switzerland, Italy          | November 10, 2020 |
-| 3     | US, Germany                            | TBD |
-| 4     | Global                                 | TBD  |
+| 1     | NZ, Australia, Canada, Belgium, Mexico | October 2020  |
+| 2     | UK, Japan, Switzerland, Italy          | November 2020 |
+| 3     | US, Germany                            | Late February 2021 |
+| 4     | Global                                 | Late February 2021 |
 
 ## Servicing Surface Hubs with Windows 10 Team Edition version 1703 
 
-Full servicing support for Windows 10 Team Edition version 1703 is scheduled to continue until March 16, 2021.
+Full servicing support for [Windows 10 Team Edition version 1703](https://support.microsoft.com/topic/november-12-2019-kb4525245-os-build-15063-2172-dfc81b85-11a6-54ef-4370-11408193419f) is scheduled to continue until March 16, 2021.
 
 ### 2S devices 
 
@@ -64,5 +67,5 @@ To learn more, see [Save your BitLocker key](save-bitlocker-key-surface-hub.md).
 
 ## Learn more
 
+- [Update to the Windows 10 Team rollout](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/update-to-the-windows-10-team-rollout/ba-p/1669655)
 - [Known issues: Windows 10 Team 2020 Update](surface-hub-2020-team-update-known-issues.md)
-- [Important Updates on the Surface Hub Windows 10 Team 2020 Update](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/important-updates-on-the-surface-hub-windows-10-team-2020-update/ba-p/1960897)
