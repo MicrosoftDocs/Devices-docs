@@ -31,8 +31,8 @@ You can obtain Windows 2020 Update using one of the following methods:
 
 | Phase | Country/Region                         | Starting          |
 | ----- | -------------------------------------- | ----------------- |
-| 1     | NZ, Australia, Canada, Belgium, Mexico | October 27, 2020  |
-| 2     | UK, Japan, Switzerland, Italy          | November 10, 2020 |
+| 1     | NZ, Australia, Canada, Belgium, Mexico | October 2020  |
+| 2     | UK, Japan, Switzerland, Italy          | November 2020 |
 | 3     | US, Germany                            | Late February 2021 |
 | 4     | Global                                 | Late February 2021 |
 
