@@ -67,5 +67,5 @@ To learn more, see [Save your BitLocker key](save-bitlocker-key-surface-hub.md).
 
 ## Learn more
 
+- [Update to the Windows 10 Team rollout](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/update-to-the-windows-10-team-rollout/ba-p/1669655)
 - [Known issues: Windows 10 Team 2020 Update](surface-hub-2020-team-update-known-issues.md)
-- [Important Updates on the Surface Hub Windows 10 Team 2020 Update](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/important-updates-on-the-surface-hub-windows-10-team-2020-update/ba-p/1960897)
