@@ -161,9 +161,13 @@ This version of Surface Dock Firmware Update includes bug fixes and support for:
 - Updating Surface Dock 1 using Surface Pro X. 
    > [!NOTE]
    > If you're running Surface Pro X, download the .ARM64 build. For all other devices, use the AMD64 build. 
+
+**Updated registry key values**<br>
+The registry values that indicate the status of firmware updates are unchanged from the previous version of this tool: 
+
+- Component10CurrentFwVersion updated to **4ac3970**.
+- Component20CurrentFwVersion updated to **4a1d570**.
  
-
-
 ### Version 1.42.139 
 *Release Date: September 18 2019*
 
