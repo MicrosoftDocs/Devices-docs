@@ -1,6 +1,6 @@
 ---
-title: Microsoft Surface Dock Firmware Update - Technical information for IT administrators
-description: This article explains how to use Microsoft Surface Dock Firmware Update to update Surface Dock firmware. When installed on your Surface device, it will update any Surface Dock attached to your Surface device.
+title: Microsoft Surface Dock 1 Firmware Update
+description: This article explains how to use Microsoft Surface Dock Firmware Update to install and manage firmware on the original Surface Dock 1. When installed on your Surface device, it will update Surface Dock 1 devices attached to your Surface device.
 ms.localizationpriority: medium
 ms.prod: w10
 ms.mktglfcycl: manage
@@ -11,14 +11,17 @@ ms.topic: article
 ms.reviewer: scottmca
 manager: laurawi
 ms.audience: itpro
-ms.date: 8/07/2020
+ms.date: 2/08/2021
 ---
-# Microsoft Surface Dock Firmware Update: Technical information for IT admins
+# Microsoft Surface Dock Firmware Update
 
 > [!IMPORTANT]
 > This article contains technical instructions for IT administrators. If you are a home user, please see [How to update your Surface Dock Firmware](https://support.microsoft.com/help/4023478/surface-update-your-surface-dock) on the Microsoft Support site. The instructions at the support site are the same as the general installation steps below, but this article has additional information for monitoring, verifying, and deploying the update to multiple devices on a network.
 
-This article explains how to use Microsoft Surface Dock Firmware Update to update firmware on the original Surface Dock 1 and does not apply to Surface Dock 2. When installed on your Surface device, it will update any Surface Dock attached to your Surface device. 
+This article explains how to use Microsoft Surface Dock Firmware Update to install and manage firmware on the original Surface Dock 1. When installed on your Surface device, it will update Surface Dock 1 devices attached to your Surface device.
+
+> [!NOTE]
+> This article does not apply to Surface Dock 2, which receives updates automatically via Windows Update or by using Microsoft Endpoint Configuration Manager or other MSI deployment tools. To learn more, see [What’s new in Surface Dock](surface-dock-whats-new.md)
 
 This tool supersedes the earlier Microsoft Surface Dock Updater tool, previously available for download as part of Surface Tools for IT. The earlier tool was named Surface_Dock_Updater_vx.xx.xxx.x.msi (where x indicates the version number) and is no longer available for download and should not be used.
 
