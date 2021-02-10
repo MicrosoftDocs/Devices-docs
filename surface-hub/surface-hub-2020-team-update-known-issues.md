@@ -9,7 +9,7 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 12/17/2020
+ms.date: 02/09/2021
 ms.localizationpriority: Medium
 ---
 # Known issues: Windows 10 Team 2020 Update 
