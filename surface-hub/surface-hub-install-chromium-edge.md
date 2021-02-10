@@ -108,5 +108,5 @@ Note that Surface Hub does not support the following Microsoft Edge update polic
 
 ## Related links
 
-- [Microsoft Edge documentation](https://docs.microsoft.com/microsoft-edge/).
+- [Microsoft Edge documentation](https://docs.microsoft.com/microsoft-edge/)
 
