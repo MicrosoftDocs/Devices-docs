@@ -9,7 +9,7 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 02/08/2021
+ms.date: 02/10/2021
 ms.localizationpriority: Medium
 appliesto:
 - Surface Hub
@@ -103,28 +103,8 @@ Note that Surface Hub does not support the following Microsoft Edge update polic
 - **Allowsxs** – On Surface Hub, Microsoft Edge Stable channel always replaces Microsoft Edge Legacy.
 - **CreateDesktopShortcut** – Surface Hub does not use desktop shortcuts.
 
-> [!NOTE]
+> [!TIP]
 >  Microsoft Edge requires connectivity to the Internet to support its features. Ensure that the [necessary domain URLs](https://docs.microsoft.com/deployedge/microsoft-edge-security-endpoints) are added to the Allow list to ensure communications through firewalls and other security mechanisms.
- 
-### Display Microsoft Edge in the Surface Hub Start menu
-
-If you are using the default Start menu layout, you can install the Start Menu with Microsoft Edge provisioning package to add Microsoft Edge as a pinned app.
-If you want to apply a customized Start menu layout, use the following XML to add a pinned tile for Microsoft Edge.
-
-```xml
-
-<start:DesktopApplicationTile
-
-DesktopApplicationLinkPath="C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
-
-Size="2x2"
-
-Row="0"
-
-Column="0"/>
-```
-
-For more information, see [Configure Surface Hub Start menu](https://docs.microsoft.com/surface-hub/surface-hub-start-menu).
  
 > [!NOTE]
 > The new Microsoft Edge doesn’t support pinned websites.
