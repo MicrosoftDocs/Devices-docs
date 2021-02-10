@@ -105,9 +105,6 @@ Note that Surface Hub does not support the following Microsoft Edge update polic
 
 > [!TIP]
 >  Microsoft Edge requires connectivity to the Internet to support its features. Ensure that the [necessary domain URLs](https://docs.microsoft.com/deployedge/microsoft-edge-security-endpoints) are added to the Allow list to ensure communications through firewalls and other security mechanisms.
- 
-> [!NOTE]
-> The new Microsoft Edge doesn’t support pinned websites.
 
 ## Related links
 
