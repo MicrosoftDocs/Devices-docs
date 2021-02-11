@@ -10,7 +10,7 @@ ms.sitesec: library
 author: dansimp
 ms.author: dansimp
 ms.topic: article
-ms.date: 12/18/2020
+ms.date: 02/11/2020
 ms.localizationpriority: medium
 ---
 
@@ -48,9 +48,12 @@ If the tool is unsuccessful in reimaging your drive, please contact [Surface Hub
 
 ## Download Surface Hub Recovery Tool
 
-Surface Hub Recovery Tool is available for download from [Surface Hub Tools for IT](https://www.microsoft.com/download/details.aspx?id=52210)  under the file name **SurfaceHub_Recovery_v2.0.139.0.msi**.
+Surface Hub Recovery Tool is available for download from [Surface Hub Tools for IT](https://www.microsoft.com/download/details.aspx?id=52210)  under the file name **SurfaceHub_Recovery_v2.7.139.0.msi**.
 
-To start the download, click **Download**, choose **SurfaceHub_Recovery_v2.0.139.0.msi** from the list, and click **Next**. From the pop-up, choose one of the following:
+> [!IMPORTANT]
+> This version, released Feb 11, 2021, replaces the earlier build, which is no longer functional. If you downloaded this tool previously, please discard and use the current version.
+
+To start the download, click **Download**, choose **SurfaceHub_Recovery_v2.7.139.0.msi**  from the list, and click **Next**. From the pop-up, choose one of the following:
 
 - Click **Run** to start the installation immediately.
 - Click **Save** to copy the download to your computer for later installation.
@@ -108,7 +111,19 @@ If the tool is unsuccessful in reimaging your drive, please contact [Surface Hub
 
 ## Version history
 
+
+### Version v2.7.139.0
+
+*Release date: February 11, 2021*<br>
+This version of Surface Hub Recovery Tool adds support for the following:
+
+- Security update
+
+
 ### Version v2.0.139.0
+
+> [!IMPORTANT]
+> This version is no longer functional. Please download the current version, listed above. 
 
 *Release date: December 18, 2020*<br>
 This version of Surface Hub Recovery Tool adds support for the following:
