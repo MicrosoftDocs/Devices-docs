@@ -34,8 +34,7 @@ Next Business Day Replacement is available with Complete for Business Plus prote
 | Country                                                                                                    | Cutoff Time |
 | -------------------------------------------------------------------------------------------------------------- | --------------- |
 | **United States & Canada**                                                                                     | 14:00 CST    (UTC-6)      |
-| **Europe** (limited to Austria, Belgium, Czech Republic, France, Germany, Netherlands, Poland, and United Kingdom)
-) | 12:00 CET   (UTC+1)     |
+| **Europe** (limited to Austria, Belgium, Czech Republic, France, Germany, Netherlands, Poland, and United Kingdom) | 12:00 CET   (UTC+1)     |
 | **Australia**                                                                                                  | 13:00 AET   (UTC+11)    |
 | **Singapore**                                                                                                  | 13:00 SGT    (UTC+8)   |
 | **Japan**                                                                                                      | 13:00 JST    (UTC+9)   |
