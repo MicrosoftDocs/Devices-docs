@@ -13,6 +13,7 @@ ms.reviewer: jerbos
 manager: laurawi
 ms.audience: itpro
 audience: ITPro
+ms.localizationpriority: medium
 appliesto: 
 - Surface Duo
 ---

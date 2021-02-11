@@ -1,5 +1,5 @@
 ---
-title: Create a device account using UI (Surface Hub)
+title: Create a device account using UI (Surface Hub v1)
 description: If you prefer to use a graphical user interface, you can create a device account for your Microsoft Surface Hub with either the Office 365 UI or the Exchange Admin Center.
 ms.assetid: D11BCDC4-DABA-4B9A-9ECB-58E02CC8218C
 ms.reviewer: 
@@ -14,8 +14,10 @@ ms.date: 05/04/2018
 ms.localizationpriority: medium
 ---
 
-# Create a device account using UI (Surface Hub)
+# Create a device account using UI (Surface Hub v1)
 
+ > [!NOTE]
+ >This page includes information about the original Surface Hub (v1). For Surface Hub 2S, see [Create Surface Hub 2S device account](surface-hub-2s-account.md).
 
 If you prefer to use a graphical user interface, you can create a device account for your Microsoft Surface Hub with either the [Office 365 UI](#create-device-acct-o365) or the [Exchange Admin Center](#create-device-acct-eac).
 
@@ -30,18 +32,22 @@ If you prefer to use a graphical user interface, you can create a device account
 
 ### <a href="" id="create-device-acct-o365-admin-ctr"></a>Create the account in the admin center
 
-1.  Sign in to Office 365 by visiting https://portal.office.com
+1.  Sign in to Office 365 by visiting [https://portal.office.com](https://portal.office.com).
+
 2.  Provide the admin credentials for your Office 365 tenant. This will take you to your Microsoft 365 Admin Center.
 
-    ![Microsoft 365 admin center.](images/setupdeviceaccto365-02.png)
+    > [!div class="mx-imgBorder"]
+	> ![Microsoft 365 admin center.](images/setupdeviceaccto365-02.png)
 
 3. In the admin center, navigate to **Resources** in the left panel, and then click **Rooms & equipment**.
 
-    ![Rooms & equipment option in admin center](images/room-equipment.png)
+    > [!div class="mx-imgBorder"]
+	> ![Rooms & equipment option in admin center](images/room-equipment.png)
 
 4. Click **Add** to create a new Room account. Enter a display name and email address for the account, and then click **Add**.
 
-    ![Create new room account window](images/room-add.png)
+    > [!div class="mx-imgBorder"]
+	> ![Create new room account window](images/room-add.png)
 
 5. Select the Room account you just created in the Active Users list. In the right panel, you can see the account properties and several optional actions. Click **Reset password** to change the password, and unselect **Make this user change their password when they first sign in**, because it is not possible to change the password from the Surface Hub sign-in flow.
 
@@ -51,15 +57,18 @@ If you prefer to use a graphical user interface, you can create a device account
 
 1.  In the admin center’s left panel, click **ADMIN**, and then click **Exchange**.
 
-    ![admin center, showing exchange active users.](images/setupdeviceaccto365-08.png)
+    > [!div class="mx-imgBorder"]
+	> ![admin center, showing exchange active users.](images/setupdeviceaccto365-08.png)
 
 2.  This will open another tab on your browser to take you to the Exchange Admin Center, where you can create and set the Mailbox Setting for Surface Hub.
 
-    ![Exchange admin center.](images/setupdeviceaccto365-09.png)
+    > [!div class="mx-imgBorder"]
+	> ![Exchange admin center.](images/setupdeviceaccto365-09.png)
 
 3.  To create a Mobile Device Mailbox Policy, click **Mobile** from the left panel and then click **Mobile device mailbox policies**. Surface Hubs require an account with a mobile device mailbox policy that does not require a password, so if you already have an existing policy that matches this requirement, you can apply that policy to the account. Otherwise use the following steps to create a new one to be used only for Surface Hub device accounts.
 
-    ![Exchange admin center - creating a mobile device mailbox policy.](images/setupdeviceaccto365-10.png)
+    > [!div class="mx-imgBorder"]
+	> ![Exchange admin center - creating a mobile device mailbox policy.](images/setupdeviceaccto365-10.png)
 
 4.  To create a New Surface Hub mobile device mailbox policy, click the **+** button from the controls above the list of policies to add a new policy. For the name, provide a name that will help you distinguish this policy from other device accounts (for example, *SurfaceHubDeviceMobilePolicy*). Make sure the policy does not require a password for the devices assigned to, so make sure **Require a Password** remains unchecked, then click **Save**.
 
@@ -67,7 +76,8 @@ If you prefer to use a graphical user interface, you can create a device account
 
 5.  After you have created the new mobile device mailbox policy, go back to the **Exchange Admin Center** and you will see the new policy listed.
 
-    ![Image with new mobile device mailbox policy in Exchange admin center.](images/setupdeviceaccto365-12.png)
+    > [!div class="mx-imgBorder"]
+	> ![Image with new mobile device mailbox policy in Exchange admin center.](images/setupdeviceaccto365-12.png)
 
 
 
@@ -81,17 +91,19 @@ In order to run cmdlets used by these PowerShell scripts, the following must be 
 -   [Windows Azure Active Directory Module for Windows PowerShell](https://www.microsoft.com/web/handlers/webpi.ashx/getinstaller/WindowsAzurePowershellGet.3f.3f.3fnew.appids)
 -   [Skype for Business Online, Windows PowerShell Module](https://www.microsoft.com/download/details.aspx?id=39366)
 
-Install the following module in Powershell
-``` syntax
-    install-module AzureAD
-    Install-module MsOnline
+Install the following module in PowerShell.
+
+```powershell
+install-module AzureAD
+Install-module MsOnline
 ```
 
 ### Connecting to online services
 
 1.  Run Windows PowerShell as Administrator.
 
-    ![Image showing how to start Windows PowerShell and run as administrator.](images/setupdeviceaccto365-17.png)
+    > [!div class="mx-imgBorder"]
+	> ![Image showing how to start Windows PowerShell and run as administrator.](images/setupdeviceaccto365-17.png)
 
 2.  Create a Credentials object, then create a new session that connects to Skype for Business Online, and provide the global tenant administrator account, then click **OK**.
 
@@ -99,7 +111,7 @@ Install the following module in Powershell
 
 3.  To connect to Microsoft Online Services, run:
 
-    ``` syntax
+    ```powershell
     Connect-MsolService -Credential $Cred
     ```
 
@@ -107,7 +119,7 @@ Install the following module in Powershell
 
 4.  Now to connect to Skype for Business Online Services, run:
 
-    ``` syntax
+    ```powershell
     $sfbsession = New-CsOnlineSession -Credential $cred
     ```
 
@@ -115,7 +127,7 @@ Install the following module in Powershell
 
 5.  Finally, to connect to Exchange Online Services, run:
 
-    ``` syntax
+    ```powershell
     $exchangeSession = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri "https://outlook.office365.com/powershell-liveid/" -Credential $cred -Authentication "Basic" –AllowRedirection
     ```
 
@@ -123,7 +135,7 @@ Install the following module in Powershell
 
 6.  Now you have to import the Skype for Business Online Session and the Exchange Online session you have just created, which will import the Exchange and Skype Commands so you can use them locally.
 
-    ``` syntax
+    ```powershell
     Import-PSSession $exchangesession -AllowClobber -WarningAction SilentlyContinue
     Import-PSSession $sfbsession -AllowClobber -WarningAction SilentlyContinue
     ```
@@ -173,7 +185,7 @@ Now that you're connected to the online services, you can finish setting up the 
 
 4.  Various Exchange properties can be set on the device account to improve the meeting experience. You can see which properties need to be set in the [Exchange properties](exchange-properties-for-surface-hub-device-accounts.md) section.
 
-    ``` syntax
+    ```powershell
     Set-CalendarProcessing -Identity $strEmail -AutomateProcessing AutoAccept -AddOrganizerToSubject $false –AllowConflicts   $false –DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false
     Set-CalendarProcessing -Identity $strEmail -AddAdditionalResponse $true -AdditionalResponse "This is a Surface Hub room!"
     ```
@@ -182,7 +194,7 @@ Now that you're connected to the online services, you can finish setting up the 
 
 5.  If you decide to have the password not expire, you can set that with PowerShell cmdlets too. See [Password management](password-management-for-surface-hub-device-accounts.md) for more information.
 
-    ``` syntax
+    ```powershell
     Set-MsolUser -UserPrincipalName $strEmail -PasswordNeverExpires $True
     ```
 
@@ -207,13 +219,13 @@ In order to enable Skype for Business, your environment will need to meet the fo
 
 2.  To enable your Surface Hub account for Skype for Business Server, run this cmdlet:
 
-    ```PowerShell
+    ```powershell
     Enable-CsMeetingRoom -Identity $strEmail -RegistrarPool "sippoolbl20a04.infra.lync.com" -SipAddressType EmailAddress
     ```
 
-    If you aren't sure what value to use for the `RegistrarPool` parameter in your environment, you can get the value from an existing Skype for Business user using this cmdlet:
+     If you aren't sure what value to use for the `RegistrarPool` parameter in your environment, you can get the value from an existing Skype for Business user using this cmdlet:
 
-    ```PowerShell
+    ```powershell
     Get-CsOnlineUser -Identity ‘alice@contoso.microsoft.com’| fl *registrarpool*
     ```
 
@@ -291,19 +303,19 @@ Now that you're connected to the online services, you can finish setting up the 
 
 1.  You’ll need to enter the account’s mail address and create a variable with that value:
 
-    ``` syntax
+    ```powershell
     $mailbox = (Get-Mailbox <your device account’s alias>)
     ```
 
     To store the value got it from the mailbox:
 
-    ``` syntax
+    ```powershell
     $strEmail = $mailbox.WindowsEmailAddress
     ```
 
     Print the value by running:
 
-    ``` syntax
+    ```powershell
     $strEmail
     ```
 
@@ -311,38 +323,38 @@ Now that you're connected to the online services, you can finish setting up the 
 
 2.  You need to convert the account into a room mailbox, so run:
 
-    ``` syntax
+    ```powershell
     Set-Mailbox $strEmail -Type Room
     ```
 
 3.  In order for the device account to be authenticated on a Surface Hub, you need to enable the room mailbox account and set a password, so the account can be used by the device to get meeting information using ActiveSync and log in to Skype for Business.
 
-    ``` syntax
+    ```powershell
     Set-Mailbox $strEmail -RoomMailboxPassword (ConvertTo-SecureString  -String "<your password>" -AsPlainText -Force) -EnableRoomMailboxAccount $true
     ```
 
 4.  Various Exchange properties can be set on the device account to improve the meeting experience. You can see which properties need to be set in the [Exchange properties](exchange-properties-for-surface-hub-device-accounts.md) section.
 
-    ``` syntax
+    ```powershell
     Set-CalendarProcessing -Identity $strEmail -AutomateProcessing AutoAccept -AddOrganizerToSubject $false –AllowConflicts   $false –DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false
     Set-CalendarProcessing -Identity $strEmail -AddAdditionalResponse $true -AdditionalResponse "This is a Surface Hub room!"
     ```
 
 5.  Now we have to set some properties in AD. To do that, you need the alias of the account (this is the part of the UPN that becomes before the “@”).
 
-    ``` syntax
+    ```powershell
     $strAlias = “<your device account’s alias>”
     ```
 
 6.  The user needs to be enabled in AD before it can authenticate with a Surface Hub. Run:
 
-    ``` syntax
+    ```powershell
     Set-ADUser $strAlias -Enabled $True
     ```
 
 7.  If you decide to have the password not expire, you can set that with PowerShell cmdlets too. See [Password management](password-management-for-surface-hub-device-accounts.md) for more information.
 
-    ``` syntax
+    ```powershell
     Set-ADUser $strAlias -PasswordNeverExpires $True
     ```
 
@@ -352,12 +364,12 @@ Enable the device account with Skype for Business.
 
 In order to enable Skype for Business, your environment will need to meet the following prerequisites:
 
--   You'll need to have Skype for Business Online Standalone Plan 2 or higher in your O365 plan. The plan needs to support conferencing capability.
--   If you need Enterprise Voice (PSTN telephony) using telephony service providers for the Surface Hub, you need Skype for Business Online Standalone Plan 3.
--   Your tenant users must have Exchange mailboxes.
--   Your Surface Hub account does require a Skype for Business Online Standalone Plan 2 or Skype for Business Online Standalone Plan 3 license, but it does not require an Exchange Online license.
+- You'll need to have Skype for Business Online Standalone Plan 2 or higher in your O365 plan. The plan needs to support conferencing capability.
+- If you need Enterprise Voice (PSTN telephony) using telephony service providers for the Surface Hub, you need Skype for Business Online Standalone Plan 3.
+- Your tenant users must have Exchange mailboxes.
+- Your Surface Hub account does require a Skype for Business Online Standalone Plan 2 or Skype for Business Online Standalone Plan 3 license, but it does not require an Exchange Online license.
 
-1.  Start by creating a remote PowerShell session from a PC.
+1. Start by creating a remote PowerShell session from a PC.
 
     ```PowerShell
     Import-Module SkypeOnlineConnector
@@ -365,23 +377,16 @@ In order to enable Skype for Business, your environment will need to meet the fo
     Import-PSSession $cssess -AllowClobber
     ```
 
-2. Retrieve your Surface Hub account Registrar Pool
+2. Retrieve your Surface Hub account Registrar Pool.
 
-If you aren't sure what value to use for the `RegistrarPool` parameter in your environment, you can get the value from an existing Skype for Business user using this cmdlet:
+   If you aren't sure what value to use for the `RegistrarPool` parameter in your environment, you can get the value from an existing Skype for Business user using this cmdlet:
 
-    ```PowerShell
-    Get-CsOnlineUser -Identity ‘alice@contoso.microsoft.com’| fl *registrarpool*
-    ```
-    
+   ```PowerShell
+   Get-CsOnlineUser -Identity ‘alice@contoso.microsoft.com’| fl *registrarpool*
+   ```
+
 3. To enable your Surface Hub account for Skype for Business Server, run this cmdlet:
 
    ```PowerShell
    Enable-CsMeetingRoom -Identity $strEmail -RegistrarPool "sippoolbl20a04.infra.lync.com" -SipAddressType EmailAddress
    ```
-
-    
-
-
-
-
-

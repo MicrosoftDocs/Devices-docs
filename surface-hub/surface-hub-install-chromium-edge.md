@@ -9,32 +9,21 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 09/11/2020
+ms.date: 02/10/2021
 ms.localizationpriority: Medium
+appliesto:
+- Surface Hub
+- Surface Hub 2S
 ---
 
 # Install and configure the new Microsoft Edge on Surface Hub
 
-Windows 10 Team 2020 Update supports the new Microsoft Edge based on Chromium (version 85 and above) as the recommended browser for Surface Hub. You can install Microsoft Edge manually using a provisioning package, remotely using Microsoft Intune or your preferred Mobile Device Management (MDM) provider.
+Windows 10 Team 2020 Update supports the new Microsoft Edge based on Chromium (version 85 and above) as the recommended browser for Surface Hub 2S and Surface Hub (v1). This article explains how to install the browser using one of three methods: a provisioning package, Microsoft Intune, or third party Mobile Device Management (MDM) provider.
 
-By default, Surface Hub devices are preinstalled with Microsoft Edge Legacy (version 44).
- 
-> [!NOTE]
-> If you have already installed Edge Dev, complete the following steps:
->
->1. If you don’t know your version or would like to confirm, open your Edge browser and go to edge://version.
->2. Navigate to **Surface Hub > Device management**. Under **Provisioning packages**, select **Add or remove a provisioning package.**
->3. If you have used the earlier installer to pin Microsoft Edge Dev on the Start Menu, click **Custom Start Menu** from the list and click **Remove.**
->4. If you have used a custom start layout policy, you will need to modify it using the latest Edge path, as described in the section below [Display Microsoft Edge in the Surface Hub Start menu](#display-microsoft-edge-in-the-surface-hub-start-menu).
->5. Now you can provision MicrosoftEdgeDevUninstaller.ppkg.
->6. Once Edge Dev is removed from **All Apps**, first remove "MicrosoftEdgeDevInstaller" and then remove "MicrosoftEdgeDevUninstaller."
->7. This successfully uninstalls Microsoft Edge Dev. You can now install the standard version.
+> [!IMPORTANT]
+> By default, Surface Hub devices are preinstalled with Microsoft Edge Legacy (version 44). After installing the [2020 Update](surface-hub-2020-update.md), it's recommended to switch to the new Microsoft Edge browser; support for [Microsoft Edge Legacy](https://support.microsoft.com/microsoft-edge/what-is-microsoft-edge-legacy-3e779e55-4c55-08e6-ecc8-2333768c0fb0) will end on March 9, 2021.
 
- 
- 
-## Install Microsoft Edge
-
-### Install Microsoft Edge using a provisioning package
+## Install Microsoft Edge using a provisioning package
 
 1. From a PC, download the [Microsoft Edge provisioning package](https://aka.ms/HubEdge) (MicrosoftEdgeInstaller.ppkg) to the root folder of a USB drive.
 2. Insert the USB drive into Surface Hub.
@@ -48,20 +37,19 @@ By default, Surface Hub devices are preinstalled with Microsoft Edge Legacy (ver
 > [!NOTE]
 > If there’s a newer version of Microsoft Edge available, it will be automatically updated.
  
-### Install Microsoft Edge using Intune
+## Install Microsoft Edge using Intune
  
 > [!NOTE]
 > The Surface Hub device must be enrolled into and managed using Intune. For more information, see [Manage Surface Hub 2S with Microsoft Intune](https://docs.microsoft.com/surface-hub/surface-hub-2s-manage-intune).
  
 
-1. [Download the Microsoft Edge installer from Microsoft](https://www.microsoft.com/edge/business/download).
+1. [Download the Microsoft Edge installer](https://www.microsoft.com/edge/business/download).
     - Use the current version from [Stable channel](https://docs.microsoft.com/deployedge/microsoft-edge-channels) **(version 85)**
     - Choose **Windows 64-bit**
 2. [Add the Microsoft Edge installer as a line-of-business app to Microsoft Intune](https://docs.microsoft.com/mem/intune/apps/lob-apps-windows).
     - If you choose to use Microsoft Edge Update to handle automatic updates to Microsoft Edge, be sure to configure the **Ignore app version** setting the **App information** pane. When you switch this setting to **Yes**, Microsoft Intune will not enforce the app version that's installed on the Surface Hub device.
 
- 
-### Install Microsoft Edge using Mobile Device Management
+## Install Microsoft Edge using third party MDM provider
 
 1. [Download the Microsoft Edge installer from Microsoft](https://www.microsoft.com/edge/business/download).
     - Use the current version from [Stable channel](https://docs.microsoft.com/deployedge/microsoft-edge-channels) **(version 85)**
@@ -69,18 +57,17 @@ By default, Surface Hub devices are preinstalled with Microsoft Edge Legacy (ver
 2. Stage the Microsoft Edge installer on a hosted location, such as a local file share (\\server\share\MicrosoftEdgeEnterpriseX64.msi). The Surface Hub device must have permission to access the hosted location.
 3. Use [EnterpriseDesktopAppManagement Configuration Service Provider (CSP)](https://docs.microsoft.com/windows/client-management/mdm/enterprisedesktopappmanagement-csp) through your MDM provider to install Microsoft Edge.
 
- 
-
 ## Configure Microsoft Edge
 
 ### Default Microsoft Edge policies for Surface Hub
-Microsoft Edge is preconfigured with the following policies to provide an optimized experience for Surface Hub.
+
+Microsoft Edge is preconfigured with the following policy setttings to provide an optimized experience for Surface Hub.
  
-> [!NOTE]
->  We recommend keeping the default value for these policies.
+> [!TIP]
+> It's recommended to retain the default value for these policy settings.
  
 
-| Microsoft Edge policy                                                                                                    | Recommended experience                                                                                                                                                                                                                                               | Default value |
+| Policy setting                                                                                                   | Recommended experience                                                                                                                                                                                                                                               | Default value |
 | ---------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------- |
 | [AutoImportAtFirstRun](https://docs.microsoft.com/deployedge/microsoft-edge-policies#autoimportatfirstrun)             | Do not automatically import datatypes and settings from Microsoft Edge Legacy. This avoids changing signed-in users' profiles with shared settings from the Surface Hub.                                                                                                 | 4                 |
 | [BackgroundModeEnabled](https://docs.microsoft.com/deployedge/microsoft-edge-policies#backgroundmodeenabled)           | Allow Microsoft Edge processes to keep running in the background even after the last browser window is closed, enabling faster access to web apps during a session.                                                                                                      | 1                 |
@@ -116,33 +103,10 @@ Note that Surface Hub does not support the following Microsoft Edge update polic
 - **Allowsxs** – On Surface Hub, Microsoft Edge Stable channel always replaces Microsoft Edge Legacy.
 - **CreateDesktopShortcut** – Surface Hub does not use desktop shortcuts.
 
-> [!NOTE]
+> [!TIP]
 >  Microsoft Edge requires connectivity to the Internet to support its features. Ensure that the [necessary domain URLs](https://docs.microsoft.com/deployedge/microsoft-edge-security-endpoints) are added to the Allow list to ensure communications through firewalls and other security mechanisms.
- 
-### Display Microsoft Edge in the Surface Hub Start menu
-
-If you are using the default Start menu layout, you can install the Start Menu with Microsoft Edge provisioning package to add Microsoft Edge as a pinned app.
-If you want to apply a customized Start menu layout, use the following XML to add a pinned tile for Microsoft Edge.
-
-```xml
-
-<start:DesktopApplicationTile
-
-DesktopApplicationLinkPath="C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
-
-Size="2x2"
-
-Row="0"
-
-Column="0"/>
-```
-
-For more information, see [Configure Surface Hub Start menu](https://docs.microsoft.com/surface-hub/surface-hub-start-menu).
- 
-> [!NOTE]
-> The new Microsoft Edge doesn’t support pinned websites and links using SecondaryTiles.
 
 ## Related links
 
-- [Microsoft Edge documentation](https://docs.microsoft.com/microsoft-edge/).
+- [Microsoft Edge documentation](https://docs.microsoft.com/microsoft-edge/)
 

@@ -1,5 +1,5 @@
 ---
-title: Prepare your environment for Microsoft Surface Hub
+title: Prepare your environment for Microsoft Surface Hub (v1)
 description: This section contains an overview of the steps required to prepare your environment so that you can use all of the features of Microsoft Surface Hub.
 ms.assetid: 336A206C-5893-413E-A270-61BFF3DF7DA9
 ms.reviewer: 
@@ -12,9 +12,11 @@ ms.author: dansimp
 ms.topic: article
 ms.date: 12/04/2017
 ms.localizationpriority: medium
+appliesto:
+- Surface Hub
 ---
 
-# Prepare your environment for Microsoft Surface Hub
+# Prepare your environment for Microsoft Surface Hub (v1)
 
 
 This section contains an overview of setup dependencies and the setup process. Review the info in this section to help you prepare your environment and gather information needed to set up your Surface Hub.

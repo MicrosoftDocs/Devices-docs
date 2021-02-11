@@ -12,6 +12,8 @@ ms.author: dansimp
 ms.topic: article
 ms.date: 02/01/2021
 ms.localizationpriority: medium
+appliesto:
+- Surface Hub
 ---
 
 # PowerShell for Surface Hub (v1)
@@ -61,11 +63,11 @@ What do you need in order to run the scripts?
 
 The account creation scripts will:
 
--   Ask for administrator credentials
--   Create device accounts in your domain/tenant
--   Create or assign a Surface Hub-compatible ActiveSync policy to the device account(s)
+-   Ask for administrator credentials.
+-   Create device accounts in your domain/tenant.
+-   Create or assign a Surface Hub-compatible ActiveSync policy to the device account(s).
 -   Set various attributes for the created account(s) in Exchange and Skype for Business.
--   Assign licenses and permissions to the created account(s)
+-   Assign licenses and permissions to the created account(s).
 
 These are the attributes that are set by the scripts:
 
@@ -544,7 +546,7 @@ else
 
 ### <a href="" id="create-os356-ps-scripts"></a>Create a device account using Office 365
 
-Creates an account as described in [Create a device account using Office 365](create-a-device-account-using-office-365.md)
+Creates an account as described in [Create a device account using Office 365](create-a-device-account-using-office-365.md).
 
 ```PowerShell
 # SHAccountCreateO365.ps1
@@ -991,7 +993,7 @@ else
 
 This script validates the previously-created device account on Surface Hub and Surface Hub 2S, no matter which method was used to create it. This script is basically pass/fail. If one of the test errors out, it will show a detailed error message, but if all tests pass, the end result will be a summary report. For example, you might see:
 
-``` syntax
+```console
 15 tests executed
 0 failures
 2 warnings
