@@ -8,6 +8,7 @@ audience: Admin
 ms.topic: article
 ms.prod: surface
 localization_priority: medium
+ROBOTS: NO INDEX, NO FOLLOW
 ms.custom: references_regions
 appliesto:
 - Surface
