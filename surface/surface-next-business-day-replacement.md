@@ -3,7 +3,7 @@ title: Next Business Day Replacement information & coverage areas
 ms.author: v-kaij
 author: greg-lindsay
 manager: laurawi
-ms.date: 02/10/2021
+ms.date: 02/11/2021
 audience: Admin
 ms.topic: article
 ms.prod: surface
@@ -33,11 +33,35 @@ To guarantee delivery for a replacement device by the next business day, devic
 | **Japan**                                                                                                      | 13:00 JST    (UTC+9)   |
 
 
-## [Japan](#tab/Japan)
-Add info here
- 
-## [US](#tab/US)
-Add info here
+## Japan
 
+Next Business Day Replacement is available in the following locations. Coverage may vary depending on postal code. 
 
+- Aichi
+- Akita
+- Aomori
+- Chiba
+- Fukui
+- Fukuoka
+- Fukushima
+- Gifu
+- Hiroshima
+- Hyogo
+- Ishikawa
+- Iwate
+- Kanagawa
+- Kyoto
+- Mie
+- Miyagi
+- Nagano
+- Nara
+- Nigata
+- Osaka
+- Saitama
+- Shiga
+- Shizuoka
+- Tokyo
+- Toyama
+- Wakayama
+- Yamagata
 
