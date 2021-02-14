@@ -5,6 +5,24 @@
 
 
 
+## Week of February 08, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 2/8/2021 | [PowerShell for Surface Hub (v1)](/surface-hub/appendix-a-powershell-scripts-for-surface-hub) | modified |
+| 2/8/2021 | [Create a device account using UI (Surface Hub v1)](/surface-hub/create-a-device-account-using-office-365) | modified |
+| 2/8/2021 | [Install Windows 10 Team 2020 Update](/surface-hub/surface-hub-2020-update) | modified |
+| 2/8/2021 | [Install and configure the new Microsoft Edge on Surface Hub](/surface-hub/surface-hub-install-chromium-edge) | modified |
+| 2/8/2021 | [Known issues: Windows 10 Team 2020 Update](/surface-hub/surface-hub-2020-team-update-known-issues) | modified |
+| 2/9/2021 | [Known issues: Windows 10 Team 2020 Update](/surface-hub/surface-hub-2020-team-update-known-issues) | modified |
+| 2/10/2021 | [Install and configure the new Microsoft Edge on Surface Hub](/surface-hub/surface-hub-install-chromium-edge) | modified |
+| 2/10/2021 | [Known issues: Windows 10 Team 2020 Update](/surface-hub/surface-hub-2020-team-update-known-issues) | modified |
+| 2/11/2021 | [Using the Surface Hub Recovery Tool](/surface-hub/surface-hub-recovery-tool) | modified |
+| 2/12/2021 | [Manage Surface Hub 2S with Intune](/surface-hub/surface-hub-2s-manage-intune) | modified |
+| 2/12/2021 | [Surface Hub documentation # < 60 chars](/surface-hub/index) | modified |
+
+
 ## Week of February 01, 2021
 
 
@@ -98,6 +116,50 @@
 | 12/21/2020 | [Surface Hub 2S tech specs](/surface-hub/surface-hub-2s-techspecs) | modified |
 | 12/21/2020 | [Technical information for 55" Surface Hub](/surface-hub/surface-hub-technical-55) | modified |
 | 12/21/2020 | [Technical information for 84" Surface Hub](/surface-hub/surface-hub-technical-84) | modified |
+
+
+## Week of February 08, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 2/9/2021 | [Contact Surface Business Support](/surface-duo/contact-surface-duo-support) | modified |
+| 2/9/2021 | [Surface Duo documentation # < 60 chars](/surface-duo/index) | modified |
+| 2/9/2021 | [Configure Android Enterprise Work Profile for Surface Duo](/surface-duo/surface-duo-config-work-profile) | modified |
+| 2/9/2021 | [Configure Microsoft Launcher for Surface Duo](/surface-duo/surface-duo-launcher-config) | modified |
+| 2/9/2021 | [Surface Duo management overview](/surface-duo/surface-duo-manage) | modified |
+| 2/9/2021 | [Surface Duo security overview](/surface-duo/surface-duo-secure) | modified |
+| 2/9/2021 | [Surface Lifecycle for Android-based devices](/surface-duo/surface-lifecycle-android-devices) | modified |
+
+
+## Week of February 08, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 2/8/2021 | [Microsoft Surface Dock 1 Firmware Update](/surface/surface-dock-firmware-update) | modified |
+| 2/8/2021 | [What’s new in Surface Dock](/surface/surface-dock-whats-new) | modified |
+| 2/10/2021 | [Run Surface Diagnostic Toolkit for Business using commands](/surface/surface-diagnostic-toolkit-command-line) | modified |
+| 2/12/2021 | [Next Business Day Replacement information & coverage areas](/surface/surface-next-business-day-replacement) | added |
+| 2/12/2021 | [Surface devices documentation # < 60 chars](/surface/get-started) | modified |
+
+
+## Week of February 08, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 2/8/2021 | [PowerShell for Surface Hub (v1)](/surface-hub/appendix-a-powershell-scripts-for-surface-hub) | modified |
+| 2/8/2021 | [Create a device account using UI (Surface Hub v1)](/surface-hub/create-a-device-account-using-office-365) | modified |
+| 2/8/2021 | [Install Windows 10 Team 2020 Update](/surface-hub/surface-hub-2020-update) | modified |
+| 2/8/2021 | [Install and configure the new Microsoft Edge on Surface Hub](/surface-hub/surface-hub-install-chromium-edge) | modified |
+| 2/8/2021 | [Known issues: Windows 10 Team 2020 Update](/surface-hub/surface-hub-2020-team-update-known-issues) | modified |
+| 2/9/2021 | [Known issues: Windows 10 Team 2020 Update](/surface-hub/surface-hub-2020-team-update-known-issues) | modified |
+| 2/10/2021 | [Install and configure the new Microsoft Edge on Surface Hub](/surface-hub/surface-hub-install-chromium-edge) | modified |
+| 2/10/2021 | [Known issues: Windows 10 Team 2020 Update](/surface-hub/surface-hub-2020-team-update-known-issues) | modified |
+| 2/11/2021 | [Using the Surface Hub Recovery Tool](/surface-hub/surface-hub-recovery-tool) | modified |
+| 2/12/2021 | [Manage Surface Hub 2S with Intune](/surface-hub/surface-hub-2s-manage-intune) | modified |
+| 2/12/2021 | [Surface Hub documentation # < 60 chars](/surface-hub/index) | modified |
 
 
 ## Week of February 01, 2021
