@@ -51,7 +51,7 @@ If the tool is unsuccessful in reimaging your drive, please contact [Surface Hub
 Surface Hub Recovery Tool is available for download from [Surface Hub Tools for IT](https://www.microsoft.com/download/details.aspx?id=52210)  under the file name **SurfaceHub_Recovery_v2.7.139.0.msi**.
 
 > [!IMPORTANT]
-> This version, released Feb 11, 2021, replaces the earlier build, which is no longer functional. If you downloaded this tool previously, please discard and use the current version.
+> This version, released Feb 11, 2021, replaces the earlier build, which is no longer functional. If you downloaded this tool previously, please uninstall it and install the current version.
 
 To start the download, click **Download**, choose **SurfaceHub_Recovery_v2.7.139.0.msi**  from the list, and click **Next**. From the pop-up, choose one of the following:
 
