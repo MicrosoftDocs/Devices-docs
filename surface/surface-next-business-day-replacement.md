@@ -45,31 +45,34 @@ Next Business Day Replacement is available with Complete for Business Plus prote
 
 Next Business Day Replacement is available in the following locations subject to availability of our authorized overnight delivery carriers. 
 
-- Aichi
-- Akita
 - Aomori
-- Chiba
-- Fukui
-- Fukuoka
-- Fukushima
-- Gifu
-- Hiroshima
-- Hyogo
-- Ishikawa
 - Iwate
-- Kanagawa
-- Kyoto
-- Mie
 - Miyagi
-- Nagano
-- Nara
-- Nigata
-- Osaka
-- Saitama
-- Shiga
-- Shizuoka
-- Tokyo
-- Toyama
-- Wakayama
+- Akita
 - Yamagata
+- Fukushima
+- Ibaraki
+- Saitama
+- Chiba
+- Tokyo
+- Kanagawa
+- Niigata
+- Toyama
+- Ishikawa
+- Fukui
+- Yamanashi
+- Nagano
+- Gifu
+- Shizuoka
+- Aichi
+- Mie
+- Shiga
+- Kyoto
+- Osaka
+- Hyogo
+- Nara
+- Wakayama
+- Tottori
+- Hiroshima
+- Yamaguchi
 
