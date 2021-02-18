@@ -3,7 +3,7 @@ title: Next Business Day Replacement information & coverage areas
 ms.author: v-kaij
 author: greg-lindsay
 manager: laurawi
-ms.date: 02/11/2021
+ms.date: 02/18/2021
 audience: Admin
 ms.topic: article
 ms.prod: surface
@@ -21,7 +21,7 @@ description: Next Business Day Replacement Information & Coverage Areas.
 
 Next Business Day Replacement is a paid-for service where a replacement Surface device will be delivered to your premises by the next business day. 
 
-Next Business Day Replacement is available with Complete for Business Plus protection plans in most metropolitan areas in the United States, Canada, Europe (limited to Austria, Belgium, Czech Republic, France, Germany, Netherlands, Poland, United Kingdom), Australia, Singapore, and Japan. These services apply after an agent has determined a replacement device is required, we have available inventory, and order a replacement by a standard cutoff time, predetermined by Microsoft. 
+Next Business Day Replacement is available with Complete for Business Plus protection plans in the United States, Canada, Europe (limited to Austria, Belgium, Czech Republic, France, Germany, Netherlands, Poland, United Kingdom), Australia, Singapore, and Japan. These services apply after an agent has determined a replacement device is required, we have available inventory, and order a replacement by a standard cutoff time, predetermined by Microsoft. 
 
 ## Guidelines
 
