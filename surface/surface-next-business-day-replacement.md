@@ -3,7 +3,7 @@ title: Next Business Day Replacement information & coverage areas
 ms.author: v-kaij
 author: greg-lindsay
 manager: laurawi
-ms.date: 02/18/2021
+ms.date: 02/19/2021
 audience: Admin
 ms.topic: article
 ms.prod: surface
@@ -41,9 +41,9 @@ Next Business Day Replacement is available with Complete for Business Plus prote
 | **Japan**                                                                                                      | 13:00 JST    (UTC+9)   |
 
 
-## Japan availability 
+##  Available areas in Japan 
 
-Next Business Day Replacement is available in the following locations subject to availability of our authorized overnight delivery carriers. 
+It will be available in the following regions in Japan. For more information, see [Surface Complete for Business Plus (Japan)](https://cdn.techcommunity.microsoft.com/assets/Surface/jp-next-day-replace-surface.pdf)
 
 - Aomori
 - Iwate
