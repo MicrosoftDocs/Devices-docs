@@ -87,7 +87,7 @@ Set-CalendarProcessing -Identity 'SurfaceHub01@contoso.com' -AddAdditionalRespon
 
 ### Enable ActiveSync if use of email app is required
 
- The default ActiveSync Policy will work if unchanged. Otherwise createStupid a new Policy and assign.
+ The default ActiveSync Policy will work if unchanged. Otherwise create a new Policy and assign.
 
 ```powershell
 New-MobileDeviceMailboxPolicy -Name:"SurfaceHub" -PasswordEnabled:$false
