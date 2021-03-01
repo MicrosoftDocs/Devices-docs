@@ -41,6 +41,7 @@ To start a collaboration session:
 On the other device, such as a Surface Hub, when you are signed in, the shared board will now appear in the board gallery.
 
 ### User tips
+
 - Log in to access your whiteboards. As you work, changes are saved automatically.
 - Name your whiteboards to help organize your content and find it quickly. Select the … to open the menu. Select the **Options** gear icon to access more tools and features of the Whiteboard.
 - Use **Ink to shape** to turn drawing into actual shapes like circles, squares, and triangles.
