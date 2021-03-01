@@ -9,7 +9,7 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 01/21/2021
+ms.date: 03/01/2021
 ms.localizationpriority: Medium
 ---
 # Moving and handling Surface Hub 2S 85”
