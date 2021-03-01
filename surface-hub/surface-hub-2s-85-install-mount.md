@@ -18,7 +18,7 @@ This article provides supporting guidance for physically installing Microsoft Su
 
 ## Unboxing video
 
-A companion how to video for moving and installing Surface Hub 2S 85" is now available. Before you begin, please review [Microsoft Surface Hub 2S 85" - Unboxing and Set Up](https://aka.ms/Hub2S85Unboxing). 
+A companion how to video for moving and installing Surface Hub 2S 85" is now available. Before you begin, please review [Microsoft Surface Hub 2S 85" - Unboxing and Set Up](https://www.microsoft.com/zh-cn/videoplayer/embed/RE4MRqVg). 
 
 ## Follow all safety precautions 
 
