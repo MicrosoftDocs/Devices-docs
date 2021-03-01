@@ -28,10 +28,10 @@ landingContent:
     linkLists:
       - linkListType: whats-new
         links:
-          - text: Microsoft Teams certified audio and video accessories for Surface Hub 2S
-            url: surface-hub-2s-certifications.md  
-          - text: Update to the Windows 10 Team rollout
-            url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/update-to-the-windows-10-team-rollout/ba-p/1669655
+          - text: Surface Hub Windows 10 Team 2020 Update - February status
+            url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/surface-hub-windows-10-team-2020-update-february-status/ba-p/2118369
+          - text: 2020 Update for Surface Hub v1 available via Windows Update
+            url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/2020-update-for-surface-hub-v1-available-via-windows-update/ba-p/2118370
           - text: Install and mount Surface Hub 2S 85" (readiness guide)
             url: surface-hub-2s-85-install-mount.md     
           - text: What's new in Windows 10 Team 2020 Update
