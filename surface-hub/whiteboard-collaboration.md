@@ -41,6 +41,7 @@ To start a collaboration session:
 On the other device, such as a Surface Hub, when you are signed in, the shared board will now appear in the board gallery.
 
 ### User tips
+
 - Log in to access your whiteboards. As you work, changes are saved automatically.
 - Name your whiteboards to help organize your content and find it quickly. Select the … to open the menu. Select the **Options** gear icon to access more tools and features of the Whiteboard.
 - Use **Ink to shape** to turn drawing into actual shapes like circles, squares, and triangles.
@@ -50,7 +51,7 @@ On the other device, such as a Surface Hub, when you are signed in, the shared b
 
 For more information, see [Use Microsoft Whiteboard on a Surface Hub](https://support.office.com/article/use-microsoft-whiteboard-on-a-surface-hub-5c594985-129d-43f9-ace5-7dee96f7621d).
 
-> [!NOTE]
+> [!TIP]
 >  If you are using Whiteboard and cannot sign in, you can collaborate by joining a Teams or Skype for Business meeting, and then sharing your screen. After you're done, tap **Settings** > **Export to email** or save a copy of the board. If you choose to export to SVG, it exports vector graphics and provides higher resolution than PNG and can be opened in a web browser.
 
 ## New features in Whiteboard
@@ -62,7 +63,7 @@ The Microsoft Whiteboard app, updated for Surface Hub on July 1, 2019 includes a
 - **Richer canvas** - In addition to ink and images, Whiteboard now includes sticky notes, text and GIFs, with more objects coming soon.
 - **Intelligence** – In addition to ink to shape and table, Whiteboard now includes ink beautification to improve handwriting and ink grab to convert images to ink.
 - **More color and background options** - Whiteboard now includes more pen colors and thickness options along with additional background colors and designs.
-- **Teams Integration** – You can automatically launch Whiteboard from a Teams meeting and share with participants (currently in preview).
+- **Teams Integration** – You can automatically launch Whiteboard from a Teams meeting and share with participants.
 
 
 ## Related topics

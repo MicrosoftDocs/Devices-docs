@@ -9,7 +9,7 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 01/11/2020
+ms.date: 03/01/2020
 ms.localizationpriority: Medium
 ---
 # Install and mount Surface Hub 2S 85”
@@ -18,13 +18,13 @@ This article provides supporting guidance for physically installing Microsoft Su
 
 ## Unboxing video
 
-A companion how to video for moving and installing Surface Hub 2S 85" is now available. Before you begin, please review [Microsoft Surface Hub 2S 85" - Unboxing and Set Up](https://aka.ms/Hub2S85Unboxing). 
+A companion how to video for moving and installing Surface Hub 2S 85" is now available. Before you begin, please review [Microsoft Surface Hub 2S 85" Unboxing and Set Up](https://www.microsoft.com/zh-cn/videoplayer/embed/RE4MRqV).  
 
 ## Follow all safety precautions 
 
 > [!WARNING]
 > **Handling and site prep**<br>
->- The device is very heavy. To reduce the risk of personal injury, death, or damage to the device due to its size and weight, it is important to keep the device upright.
+> - The device is very heavy. To reduce the risk of personal injury, death, or damage to the device due to its size and weight, it is important to keep the device upright.
 >- Before moving the device to the place where it will be installed, survey the site to determine how to safely move it to the location where it will be unpacked and mounted.
 >- Always use at least two people for unpacking and installation.
 >- Once the device is unpacked, it should be mounted
@@ -70,7 +70,7 @@ Additional strapping materials are provided in the small box located under the h
 
  ![Rotate packaging frame to fit elevator](images/hub85mount4a.png) <br>
 
-> [!NOTE]
+> [!TIP]
 > The wheeled pallet is custom fit to the inner frame packaging footprint and can be used throughout the installation site delivery process. Inner wood frame end piece has nylon skid plates.
  
 ## 5. Remove from elevator
@@ -113,7 +113,7 @@ Additional strapping materials are provided in the small box located under the h
     > [!NOTE]
     > Following the cart or wall mount manufactures instructions, prepare the mounting system prior to removing the Hub 2S from its inner packaging tray.
  
-    > [!NOTE]
+    > [!TIP]
     > When grasping the Hub 2S, note the hand hold cut outs in the lower foam. Care must be taken care with the top hand not to grasp the device where the speakers are located. Graphic on the ends of the device cover provide general speaker location.
 
 13. Loosen elastic tension clips (x2).

@@ -9,7 +9,7 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 02/05/2021
+ms.date: 02/26/2021
 ms.localizationpriority: Medium
 ---
 
@@ -34,15 +34,15 @@ The 85" version of the Surface Hub family brings the Surface Hub 2S experience t
 | Resolution        | 3840 x 2160                                                                                                                                                                                                                                               |
 | Display           | PixelSense™ Display, 16:9 aspect ratio, 10-bit color, 30.5mm border width, anti-glare, IPS LCD, in-cell touch with 20 simultaneous touch points                                                                                                           |
 | Compute           | Modular Compute Cartridge<br>Quad-core 8th Generation Intel® Core™ i5 processor, 8GB RAM, 128GB SSD<sup>1</sup>                                                                                                                                                      |
-| Software<sup>2</sup>         | Windows 10 Team OS<sup>3</sup><br>Microsoft Teams for Surface Hub<br>Skype for Business<br>Microsoft Whiteboard<br>Microsoft Office (Mobile)<br>Microsoft Power BI                                                                                                   |
+| Software<sup>2</sup>         | Windows 10 Team OS<br>Microsoft Teams for Surface Hub<br>Skype for Business<br>Microsoft Whiteboard<br>Microsoft Office (Mobile)<br>Microsoft Power BI                                                                                                   |
 | Connections       | USB-A<br>Mini-DisplayPort Video Output<br>RJ45 Gigabit Ethernet<br>HDMI Video Input<br>USB-C® with DisplayPort Input<br>(3) USB-C® (on display)                                                                                                           |
 | Graphics          | Intel® UHD Graphics 620                                                                                                                                                                                                                                   |
 | Audio/video       | 100Hz - 12KHz range 3-way stereo speakers, including (2) mid/high-range and (1) mid/low-range in rear bump. <br>Full band 8-element MEMS microphone array<br>Microsoft Surface Hub 2 Camera, 4K, USB-C® connection, 90-degree HFOV |
 | Pen               | Microsoft Surface Hub 2 Pen (active)<br>Surface Slim Pen compatible                                                                                                                                                                                       |
-| Sensors           | Doppler occupancy sensor<sup>4</sup>                                                                                                                                                                                                                                 |
+| Sensors           | Doppler occupancy sensor<sup>3</sup>                                                                                                                                                                                                                                 |
 | Wireless          | Wi-Fi 5: IEEE 802.11 a/b/g/n/ac compatible<br>Bluetooth® Wireless 5.0 technology<br>Miracast Display                                                                                                                                                      |
 | Exterior          | Casing: Precision machined aluminum with mineral-composite resin<br>Color: Platinum<br>Physical Buttons: Power, Volume, Source                                                                                                                            |
-| Warranty         | 1-year limited hardware warranty<sup>5</sup>                                                                                                                                                                                                                          |
+| Warranty         | 1-year limited hardware warranty<sup>4</sup>                                                                                                                                                                                                                          |
 | What’s in the box | (1) Surface Hub 2S<br>(2) Surface Hub 2 Pen<br>(1) Surface Hub 2 Camera<br>4m AC Power Cable<br>Quick Start Guide                                                                                                                                         |
 
 > [!NOTE]
@@ -50,13 +50,13 @@ The 85" version of the Surface Hub family brings the Surface Hub 2S experience t
 >
 > - [Local management Surface Hub settings](local-management-surface-hub-settings.md)
 > - [SurfaceHub CSP - Windows Client Management](https://docs.microsoft.com/windows/client-management/mdm/surfacehub-csp)
+
 ### References
 
 1. System software and updates use significant storage space. Available storage is subject to change based on system software and updates and apps usage. 1 GB = 1 billion bytes. 1 TB = 1,000 GB. See [Surface Storage](https://www.surface.com/storage) for more details.
 2. Software license required for some features. Sold separately.
-3. Migrating from Windows 10 Team to Windows 10 Pro or Enterprise is currently only available on Surface Hub 2S 50". Learn more at [Migrate to Windows 10 Pro or Enterprise on Surface Hub 2](https://docs.microsoft.com/surface-hub/surface-hub-2s-migrate-os).
-4. Doppler sensor not available in Hong Kong, India, Kuwait, and Oman.
-5. Microsoft's Limited Warranty is in addition to your consumer law rights. 
+3. Doppler sensor not available in Hong Kong, India, Kuwait, and Oman.
+4. Microsoft's Limited Warranty is in addition to your consumer law rights. 
 
 ## Learn more
 
