@@ -9,7 +9,7 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 03/01/2020
+ms.date: 03/02/2020
 ms.localizationpriority: Medium
 ---
 # Install and mount Surface Hub 2S 85â€
@@ -18,7 +18,11 @@ This article provides supporting guidance for physically installing Microsoft Su
 
 ## Unboxing video
 
-A companion how to video for moving and installing Surface Hub 2S 85" is now available. Before you begin, please review [Microsoft Surface Hub 2S 85" Unboxing and Set Up](https://www.microsoft.com/zh-cn/videoplayer/embed/RE4MRqV).  
+- Before you begin, please review Microsoft Surface Hub 2S 85" Unboxing and Set Up video:
+
+>[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWwwgL]
+
+- A Chinese version of this video is available in [Appendix B](#appendix-b-unboxing-video) below. 
 
 ## Follow all safety precautions 
 
@@ -32,7 +36,7 @@ immediately, so the mounting system should be in place before unpacking. If youâ
 >- To avoid tripping hazards, keep the assembly area clear of packing materials.
 
 > [!IMPORTANT]
->Before proceeding, review the additional safety information listed in the [Appendix](#appendix) below.
+>Before proceeding, review the additional safety information listed in [Appendix A](#appendix-a-additional-safety-information) below.
 
 ## 1. Remove outer packaging materials
 
@@ -146,9 +150,7 @@ If using other (non-Steelcase) mounting options, you will need spacers to accoun
 
 An additional set of inner packaging strapping materials can be found in the kit attached at the back, lower right.
 
-## Appendix 
-
-### Additional safety information
+## Appendix A: Additional safety information
 
 > [!WARNING]
 > **Heavy object/ergonomic lifting**<br>
@@ -198,6 +200,14 @@ A cracked or chipped touch screen caused by misuse or abuse of your device is no
 > [!WARNING]
 >  **Proper installation**<br>
 To avoid hazards related to improper device installation, installation must be performed by people who have read and understand the installation instruction prior to beginning work. If you do not have the necessary equipment or expertise, or if you are uncertain the mounting surface can properly support consult a professional installer.
+
+
+## Appendix B: Unboxing video
+
+
+### Microsoft Surface Hub 2S 85" Unboxing and Set Up video (Chinese)
+
+> [!VIDEO https://www.microsoft.com/zh-cn/videoplayer/embed/RE4MRqV]
 
 
 ## More information
