@@ -9,15 +9,12 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 03/01/2021
+ms.date: 03/02/2021
 ms.localizationpriority: Medium
 ---
 # Moving and handling Surface Hub 2S 85”
 
-For best practice guidance on moving Surface Hub 2S 85, review the following video: 
-- [Microsoft Surface Hub 2S 85" Unboxing and Set Up](https://www.microsoft.com/zh-cn/videoplayer/embed/RE4MRqV). 
-
-Each step shown in the video is explained in the following article:
+For best practice guidance on moving Surface Hub 2S 85, please refer to: 
 
 - [Install and mount Surface Hub 2S 85”](surface-hub-2s-85-install-mount.md)
 
