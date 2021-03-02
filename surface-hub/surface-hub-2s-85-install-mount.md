@@ -22,7 +22,7 @@ This article provides supporting guidance for physically installing Microsoft Su
 
 >[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWwwgL]
 
-- A Chinese version of this video is available in [Appendix B](#appendix-b) below. 
+- A Chinese version of this video is available in [Appendix B](#appendix-b-unboxing-video) below. 
 
 ## Follow all safety precautions 
 
@@ -202,7 +202,7 @@ A cracked or chipped touch screen caused by misuse or abuse of your device is no
 To avoid hazards related to improper device installation, installation must be performed by people who have read and understand the installation instruction prior to beginning work. If you do not have the necessary equipment or expertise, or if you are uncertain the mounting surface can properly support consult a professional installer.
 
 
-## Appendix B
+## Appendix B: Unboxing video
 
 
 ### Microsoft Surface Hub 2S 85" Unboxing and Set Up video (Chinese)
