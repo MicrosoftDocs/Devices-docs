@@ -22,6 +22,7 @@ This article provides supporting guidance for physically installing Microsoft Su
 
 >[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWwwgL]
 
+- A Chinese version of this video is available in [Appendix B](#appendix-b) below. 
 
 ## Follow all safety precautions 
 
@@ -35,7 +36,7 @@ immediately, so the mounting system should be in place before unpacking. If youâ
 >- To avoid tripping hazards, keep the assembly area clear of packing materials.
 
 > [!IMPORTANT]
->Before proceeding, review the additional safety information listed in the [Appendix](#appendix) below.
+>Before proceeding, review the additional safety information listed in [Appendix A](#appendix-a-additional-safety-information) below.
 
 ## 1. Remove outer packaging materials
 
@@ -149,9 +150,7 @@ If using other (non-Steelcase) mounting options, you will need spacers to accoun
 
 An additional set of inner packaging strapping materials can be found in the kit attached at the back, lower right.
 
-## Appendix 
-
-### Additional safety information
+## Appendix A: Additional safety information
 
 > [!WARNING]
 > **Heavy object/ergonomic lifting**<br>
@@ -203,30 +202,13 @@ A cracked or chipped touch screen caused by misuse or abuse of your device is no
 To avoid hazards related to improper device installation, installation must be performed by people who have read and understand the installation instruction prior to beginning work. If you do not have the necessary equipment or expertise, or if you are uncertain the mounting surface can properly support consult a professional installer.
 
 
-## Appendix
-
-The unboxing video is available in the following languages: 
-
-### China
-
->[!VIDEO https://www.microsoft.com/zh-cn/videoplayer/embed/RE4MRqV]
+## Appendix B
 
 
-### French (CA)
+### Microsoft Surface Hub 2S 85" Unboxing and Set Up video (Chinese)
 
->[!VIDEO https://www.microsoft.com/fr-ca/videoplayer/embed/RWwe2w]
+> [!VIDEO https://www.microsoft.com/zh-cn/videoplayer/embed/RE4MRqV]
 
-### French (FR)
-
->[!VIDEO  https://www.microsoft.com/fr-fr/videoplayer/embed/RWwe33]
-
-### German 
-
-> [!VIDEO https://www.microsoft.com/de-de/videoplayer/embed/RWwweU]
-
-### Japanese
-
-> [!VIDEO  https://www.microsoft.com/ja-jp/videoplayer/embed/RWwwgL]
 
 ## More information
 
