@@ -7,7 +7,7 @@ ms.sitesec: library
 author: dansimp
 ms.author: dansimp
 ms.topic: article
-ms.date: 09/11/2020
+ms.date: 03/03/2021
 ms.reviewer: 
 manager: laurawi
 ms.localizationpriority: medium
@@ -128,8 +128,6 @@ Device settings can be configured through the Settings app. The Settings app is 
 ### Administrative features
 
 The administrative features in Windows 10 Enterprise, such as the Microsoft Management Console, Run, Command Prompt, PowerShell, registry editor, event viewer, and task manager are not supported on Surface Hub. The Settings app contains all of the administrative features locally available on Surface Hub.
-
-*Organization policies that this may affect:* <br> Surface Hubs are not managed like traditional PCs. Use MDM to configure settings and OMS to monitor your Surface Hub.
 
 ### Remote management and monitoring
 
