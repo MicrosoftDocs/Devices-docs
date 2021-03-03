@@ -22,7 +22,7 @@ After initial setup of Microsoft Surface Hub, the device’s settings and config
 - **Remote management** - Surface Hub allow IT admins to manage settings and policies using a mobile device management (MDM) provider, such as Microsoft Intune, Microsoft Endpoint Configuration Manager, and other third-party providers. Additionally, admins can monitor Surface Hubs using Azure Monitor.  For more information, see [Manage settings with an MDM provider](manage-settings-with-mdm-for-surface-hub.md), and [Monitor Surface Hubs with Azure Monitor to track their health](https://docs.microsoft.com/en-us/azure/azure-monitor/insights/surface-hubs). 
 
 > [!NOTE]
-> These management methods are not mutually exclusive. Devices can be both locally and remotely managed if you choose. However, MDM policies and settings will overwrite any local changes when the Surface Hub syncs with the management server. 
+> These management methods are not mutually exclusive. Devices can be both locally and remotely managed if you choose. However, MDM policies and settings will overwrite local changes when the Surface Hub syncs with the management server. 
 
 ## In this section
 
