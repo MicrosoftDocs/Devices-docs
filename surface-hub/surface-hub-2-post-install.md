@@ -43,7 +43,9 @@ When performing these steps, you might find it useful to use a wired or wireless
 
 ## Enable the touch keyboard and touchpad
 
-1. Tap and hold or right-click the taskbar and then select **Show touch keyboard button** and **Show touchpad button**. 
+1. Select **Start** > **Settings** > **Devices** > **Typing** and turn **Show the touch keyboard when not in tablet mode and there's no keyboard attached** on.
+
+2. Tap and hold or right-click the taskbar and then select **Show touch keyboard button** and **Show touchpad button**. 
 
     - The touch keyboard is helpful for direct user input, and the virtual touchpad helps with precise selections, hovering screen tips, or as an alternative to tap and hold for right-click. 
     
@@ -51,17 +53,17 @@ When performing these steps, you might find it useful to use a wired or wireless
 
       ![Touch settings](images/touch.png)
 
-2. Configure the touch keyboard to QWERTY and floating.
+3. Configure the touch keyboard to QWERTY and floating.
 
     1. Select the **Keyboard** icon on the taskbar to show the touch keyboard.
     
-    2. On the touch keyboard, select the keyboard icon in the upper left corner to open keyboard settings.
+    1. On the touch keyboard, select the keyboard icon in the upper left corner to open keyboard settings.
     
-    3. Select the next to last keyboard type on the top row to enable QWERTY, and the last option on the second row to enable floating, which is very helpful on this large screen. See the following examples.
+    1. Select the next to last keyboard type on the top row to enable QWERTY, and the last option on the second row to enable floating, which is very helpful on this large screen. See the following examples.
 
        ![Keyboard settings](images/kbd.png)
  
-3. Configure the soft keyboard settings.
+4. Configure the soft keyboard settings.
 
     1. Select the **Settings** icon on the touch keyboard or search for and open **Typing settings**.
     
