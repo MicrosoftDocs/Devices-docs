@@ -10,7 +10,7 @@ ms.sitesec: library
 author: dansimp
 ms.author: dansimp
 ms.topic: article
-ms.date: 03/07/2018
+ms.date: 03/03/2021
 ms.localizationpriority: medium
 ---
 
@@ -149,7 +149,7 @@ The following tables include info on Windows 10 settings that have been validate
 
 |                       Setting                        |                                                          Details                                                          |                                                             CSP reference                                                             |            Supported with<br>Intune?             |    Supported with<br>Configuration Manager?     | Supported with<br>SyncML\*? |
 |------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|-------------------------------------------------|-----------------------------|
-|            Reboot the device immediately             | Use in conjunction with OMS to minimize support costs – see [Monitor your Microsoft Surface Hub](monitor-surface-hub.md). |        ./Vendor/MSFT/Reboot/RebootNow <br> See [Reboot CSP](https://msdn.microsoft.com/library/windows/hardware/mt720802.aspx)        |                       Yes                        |                       No                        |             Yes             |
+|            Reboot the device immediately             | Use in conjunction with Azure Monitor to minimize support costs – see [Monitor your Microsoft Surface Hub](monitor-surface-hub.md). |        ./Vendor/MSFT/Reboot/RebootNow <br> See [Reboot CSP](https://msdn.microsoft.com/library/windows/hardware/mt720802.aspx)        |                       Yes                        |                       No                        |             Yes             |
 |    Reboot the device at a scheduled date and time    |                                                        See above.                                                         |     ./Vendor/MSFT/Reboot/Schedule/Single <br> See [Reboot CSP](https://msdn.microsoft.com/library/windows/hardware/mt720802.aspx)     | Yes <br> [Use a custom policy.](#example-manage-surface-hub-settings-with-microsoft-intune) | Yes.<br> [Use a custom setting.](#example-manage-surface-hub-settings-with-microsoft-endpoint-configuration-manager) |             Yes             |
 | Reboot the device daily at a scheduled date and time |                                                        See above.                                                         | ./Vendor/MSFT/Reboot/Schedule/DailyRecurrent <br> See [Reboot CSP](https://msdn.microsoft.com/library/windows/hardware/mt720802.aspx) | Yes <br> [Use a custom policy.](#example-manage-surface-hub-settings-with-microsoft-intune) | Yes.<br> [Use a custom setting.](#example-manage-surface-hub-settings-with-microsoft-endpoint-configuration-manager) |             Yes             |
 
