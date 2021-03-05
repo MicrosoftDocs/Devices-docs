@@ -8,7 +8,7 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 02/08/2021
+ms.date: 03/05/2021
 ms.reviewer: brrecord
 manager: laurawi
 audience: itpro
@@ -57,7 +57,6 @@ Surface Dock 2 is designed to simplify IT management, enabling admins to automat
 - Dual 4K@60hz. Supports up to two displays on the following devices:
 
   - Surface Book 3
-  - Surface Go 2
   - Surface Pro 7
   - Surface Pro 7+
   - Surface Pro X
@@ -70,7 +69,8 @@ Surface Dock 2 is designed to simplify IT management, enabling admins to automat
   - Surface Laptop 2
   - Surface Laptop (1st Gen)
   - Surface Go
-  - Surface Book 2.
+  - Surface Go 2
+  - Surface Book 2
 
 ### Ethernet
 
