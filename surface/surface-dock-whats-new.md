@@ -70,7 +70,7 @@ Surface Dock 2 is designed to simplify IT management, enabling admins to automat
   - Surface Laptop (1st Gen)
   - Surface Go
   - Surface Go 2
-  - Surface Book 2.
+  - Surface Book 2
 
 ### Ethernet
 
