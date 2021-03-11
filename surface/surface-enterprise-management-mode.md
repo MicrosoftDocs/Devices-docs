@@ -18,12 +18,12 @@ ms.date: 01/15/2021
 
 # Microsoft Surface Enterprise Management Mode
 
-Microsoft Surface Enterprise Management Mode (SEMM) is a feature of Surface devices with Surface UEFI that allows you to secure and manage firmware settings within your organization. With SEMM, IT professionals can prepare configurations of UEFI settings and install them on a Surface device. In addition to the ability to configure UEFI settings, SEMM also uses a certificate to protect the configuration from unauthorized tampering or removal. SEMM is a requirement to be able to migrate a Surface Hub 2S to Windows 10 Pro and Enterprise.
+Microsoft Surface Enterprise Management Mode (SEMM) is a feature of Surface devices with Surface Unified Extensible Firmware Interface (UEFI). You can use SEMM to secure and manage firmware settings within your organization. IT professionals can use SEMM to prepare UEFI settings configurations and install them on a Surface device. SEMM also uses a certificate to protect the configuration from unauthorized tampering or removal. To migrate a Surface Hub 2S to Windows 10 Pro or Windows Enterprise, SEMM is required.
 
 >[!NOTE]
->SEMM is only available on devices with Surface UEFI firmware. This comprises most other Surface devices including Surface Pro 7+, Surface Pro X, Surface Hub 2S, and Surface Laptop 3 commercial SKUs with an Intel processor, and Surface Laptop Go. SEMM is not supported on the 15" Surface Laptop 3 SKU with AMD processor (only available as a retail SKU). 
+>SEMM is only available on devices with Surface UEFI firmware. This includes most other Surface devices, including Surface Pro 7+, Surface Pro X, Surface Hub 2S, and Surface Laptop 3 commercial SKUs with an Intel processor, and Surface Laptop Go. SEMM isn't supported on the 15" Surface Laptop 3 SKU with AMD processor (only available as a retail SKU). 
 
-When Surface devices are configured by SEMM and secured with the SEMM certificate, they are considered *enrolled* in SEMM. When the SEMM certificate is removed and control of UEFI settings is returned to the user of the device, the Surface device is considered *unenrolled* in SEMM.
+When Surface devices are configured by SEMM and secured with the SEMM certificate, they're considered *enrolled* in SEMM. When the SEMM certificate is removed and control of UEFI settings is returned to the user of the device, the Surface device is considered *unenrolled* in SEMM.
 
 There are two administrative options you can use to manage SEMM and enroll Surface devices – a standalone tool or integration with Microsoft Endpoint Configuration Manager. The SEMM standalone tool, called the Microsoft Surface UEFI Configurator, is described in this article. For more information about how to manage SEMM with Microsoft Endpoint Configuration Manager, see [Use Microsoft Endpoint Configuration Manager to manage devices with SEMM](https://technet.microsoft.com/itpro/surface/use-system-center-configuration-manager-to-manage-devices-with-semm).
 
