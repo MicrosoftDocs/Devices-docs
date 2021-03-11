@@ -50,7 +50,7 @@ The Surface Hub Hardware Diagnostic tool is an easy-to-navigate tool that lets t
 
 1. The next screen provides you the option to test all or some of the Surface Hub components. To begin testing the device account, select the **Test Results** icon.
 
-    ![Screenshot of  Test Results](images/04-test-results-1.png)
+    ![Screenshot of  Test Options](images/04-test-results-1.png)
 
     ![Screenshot of  Test Results](images/05-test-results-2.png)
 
