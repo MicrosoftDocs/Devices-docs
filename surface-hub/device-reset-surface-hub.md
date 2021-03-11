@@ -10,7 +10,7 @@ ms.sitesec: library
 author: dansimp
 ms.author: dansimp
 ms.topic: article
-ms.date: 07/31/2019
+ms.date: 03/10/2021
 ms.localizationpriority: medium
 ---
 
@@ -95,30 +95,25 @@ On rare occasions, a Surface Hub may encounter an error while cleaning up user a
 
 4. Repeat step 3 three times, or until the Surface Hub displays the "Preparing Automatic Repair" message. After it displays this message, the Surface Hub displays the Windows RE screen.
 
-5. Select **Advanced Options**.
+ 
+5. Select **Reset to re-install Windows**. 
+![reset to reinstall](images/recover-from-cloud.png)
 
-6. Select **Recover from the cloud**. (Optionally, you can select **Reset**. However, **Recover from the cloud** is the recommended approach.)
+8. Select **Cloud download.** 
 
-   ![Recover from the cloud](images/recover-from-cloud.png)
-7. If you are prompted to enter the Bitlocker key, do one of the following:
+   ![Cloud download](images/recover-cloud-download.png)
 
-   - To preserve the information that Bitlocker protects on the Surface Hub, enter the Bitlocker key.
-   - To discard the protected information, select **Skip this drive**  
+>[!IMPORTANT]
+>If you get an error message indicating **Unable to Download**, select **Cancel** and try again.
 
-8. When you are prompted, select **Reinstall**.
+9. Select **Fully clean the drive.** 
+![recover and fully clean drive](images/recover-fully-clean-drive.png)
 
-    ![Reinstall](images/reinstall.png)
+10. You will be asked **Are you ready to reset this device?**. Select **Reset**. 
+![recover and confirm reset](images/recover-confirm-reset.png)
 
-9. To repartition the disk, select **Yes**.
-
-   ![Repartition](images/repartition.png)
-
-   First, the recovery process downloads the operating system image from the cloud.  
-
-   ![downloading 97&](images/recover-progress.png)
-
-   When the download finishes, the recovery process restores the Surface Hub according to the options that you selected.
-   
+11. The download begins and the recovery process indicates **Resetting this device**. 
+![recovery shown in progress](images/recover-in-progress.png)
 
 ## Contact Support
 
