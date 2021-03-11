@@ -43,6 +43,9 @@ The Surface Hub Hardware Diagnostic tool is an easy-to-navigate tool that lets t
 
 1. When the application starts, the **Welcome** page provides a text window to document the reason why you are testing the Hub. This note can be saved to USB together with the diagnostic results at the conclusion of testing. After you finish entering a note, select the **Continue** button.
 
+    >[!NOTE]
+    >When saving diagnostic results, do not change the default path or select a subdirectory. The files can be copied later via the File Explorer app.
+
     ![Screenshot of  Welcome](images/03-welcome.png)
 
 1. The next screen provides you the option to test all or some of the Surface Hub components. To begin testing the device account, select the **Test Results** icon.
