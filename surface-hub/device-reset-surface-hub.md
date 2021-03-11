@@ -110,10 +110,10 @@ On rare occasions, a Surface Hub may encounter an error while cleaning up user a
 ![recover and fully clean drive](images/recover-fully-clean-drive.png)
 
 10. You will be asked **Are you ready to reset this device?**. Select **Reset**. 
-![recover-confirm-reset](images/recover-confirm-reset.png)
+![recover and confirm reset](images/recover-confirm-reset.png)
 
 11. The download begins and the recovery process indicates **Resetting this device**. 
-![recover-in-progress](images/recover-in-progress.png)
+![recovery shown in progress](images/recover-in-progress.png)
 
 ## Contact Support
 
