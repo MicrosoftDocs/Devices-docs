@@ -94,26 +94,31 @@ On rare occasions, a Surface Hub may encounter an error while cleaning up user a
 3. Use the power switch to turn the Surface Hub back on. The device starts and displays the Surface Hub Logo screen. When you see spinning dots under the Surface Hub Logo, use the power switch to turn the Surface Hub off again.  
 
 4. Repeat step 3 three times, or until the Surface Hub displays the "Preparing Automatic Repair" message. After it displays this message, the Surface Hub displays the Windows RE screen.
-
  
-5. Select **Reset to re-install Windows**. 
-![reset to reinstall](images/recover-from-cloud.png)
+5. Select **Reset**. 
 
-8. Select **Cloud download.** 
+6. If you are prompted to enter the Bitlocker key, do one of the following:
+- To preserve the information that Bitlocker protects on the Surface Hub, enter the Bitlocker key.
+- To discard the protected information, select Skip this drive
+
+7. Select **Cloud download.** 
 
    ![Cloud download](images/recover-cloud-download.png)
 
->[!IMPORTANT]
->If you get an error message indicating **Unable to Download**, select **Cancel** and try again.
+   >[!IMPORTANT]
+   >If you get an error message indicating **Unable to Download**, select **Cancel** and then **Reset** again.
 
-9. Select **Fully clean the drive.** 
-![recover and fully clean drive](images/recover-fully-clean-drive.png)
+8. Select **Fully clean the drive.**
+ 
+   ![recover and fully clean drive](images/recover-fully-clean-drive.png)
 
-10. You will be asked **Are you ready to reset this device?**. Select **Reset**. 
-![recover and confirm reset](images/recover-confirm-reset.png)
+9. You will be asked **Are you ready to reset this device?**. Select **Reset**. 
+   
+   ![recover and confirm reset](images/recover-confirm-reset.png)
 
-11. The download begins and the recovery process indicates **Resetting this device**. 
-![recovery shown in progress](images/recover-in-progress.png)
+10. The download begins and the recovery process indicates **Resetting this device**. 
+   
+   ![recovery shown in progress](images/recover-in-progress.png)
 
 ## Contact Support
 
