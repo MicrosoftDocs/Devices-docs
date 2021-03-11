@@ -30,8 +30,8 @@ landingContent:
         links:
           - text: Surface Hub Windows 10 Team 2020 Update - February status
             url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/surface-hub-windows-10-team-2020-update-february-status/ba-p/2118369
-          - text: 2020 Update for Surface Hub v1 available via Windows Update
-            url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/2020-update-for-surface-hub-v1-available-via-windows-update/ba-p/2118370
+          - text: Surface Hub Windows 10 Team 2020 Update – Hub v1 status
+            url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/surface-hub-windows-10-team-2020-update-hub-v1-status/ba-p/2118371
           - text: Install and mount Surface Hub 2S 85" (readiness guide)
             url: surface-hub-2s-85-install-mount.md     
           - text: What's new in Windows 10 Team 2020 Update
@@ -119,6 +119,8 @@ landingContent:
             text: Service and warranty
           - url: surface-hub-2s-recover-reset.md
             text: Recover & reset Surface Hub 2S
+          - url:  device-reset-surface-hub.md
+            text: Recover Surface Hub v1 from the cloud
           - url: support-solutions-surface-hub.md
             text: Surface Hub support solutions
           - text: Surface Hub Update History  
