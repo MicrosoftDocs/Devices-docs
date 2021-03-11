@@ -117,7 +117,6 @@ On rare occasions, a Surface Hub may encounter an error while cleaning up user a
    ![recover and confirm reset](images/recover-confirm-reset.png)
 
 10. The download begins and the recovery process indicates **Resetting this device**. 
-   
    ![recovery shown in progress](images/recover-in-progress.png)
 
 ## Contact Support
