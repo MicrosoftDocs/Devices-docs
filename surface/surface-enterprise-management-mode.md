@@ -18,7 +18,7 @@ ms.date: 01/15/2021
 
 # Microsoft Surface Enterprise Management Mode
 
-Microsoft Surface Enterprise Management Mode (SEMM) is a feature of Surface devices with Surface Unified Extensible Firmware Interface (UEFI). You can use SEMM to secure and manage firmware settings within your organization. IT professionals can use SEMM to prepare UEFI settings configurations and install them on a Surface device. SEMM also uses a certificate to protect the configuration from unauthorized tampering or removal. To migrate a Surface Hub 2S to Windows 10 Pro or Windows Enterprise, SEMM is required.
+Microsoft Surface Enterprise Management Mode (SEMM) is a feature of Surface devices with Surface Unified Extensible Firmware Interface (UEFI). You can use SEMM to secure and manage firmware settings in your organization. IT professionals can use SEMM to prepare UEFI settings configurations and install them on a Surface device. SEMM also uses a certificate to protect the configuration from unauthorized tampering or removal. To migrate a Surface Hub 2S to Windows 10 Pro or Windows Enterprise, SEMM is required.
 
 >[!NOTE]
 >SEMM is only available on devices with Surface UEFI firmware. This includes most other Surface devices, including Surface Pro 7+, Surface Pro X, Surface Hub 2S, and Surface Laptop 3 commercial SKUs with an Intel processor, and Surface Laptop Go. SEMM isn't supported on the 15" Surface Laptop 3 SKU with AMD processor (only available as a retail SKU). 
