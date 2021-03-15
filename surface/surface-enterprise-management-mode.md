@@ -64,7 +64,7 @@ See the [Surface Enterprise Management Mode certificate requirements](#surface-e
 >[!NOTE]
 >You can also specify a UEFI password with SEMM that is required to view the **Security**, **Devices**, **Boot Configuration**, or **Enterprise Management** pages of Surface UEFI.
 
-After a device is enrolled in SEMM, the configuration file is read and the settings specified in the file are applied to UEFI. When you run a configuration package on a device that is already enrolled in SEMM, the signature of the configuration file is checked against the certificate that is stored in the device firmware. If the signature does not match, no changes are applied to the device.
+After a device is enrolled in SEMM, the configuration file is read, and the settings specified in the file are applied to UEFI. When you run a configuration package on a device that is already enrolled in SEMM, the signature of the configuration file is checked against the certificate that is stored in the device firmware. If the signature does not match, no changes are applied to the device.
 
 ### Enable or disable devices in Surface UEFI with SEMM
 
@@ -300,8 +300,8 @@ This version of SEMM includes:
 * Bug fixes
 
 ### Version 2.43.136.0
-* Support to enable/disable simulatenous multithreating 
-* Separate options for WiFi and Bluetooth for some devices 
+* Support to enable/disable simulataneous multithreating 
+* Separate options for wireless networking and Bluetooth for some devices 
 * Battery Limit removed for Surface Studio 
 
 ### Version 2.26.136.0
