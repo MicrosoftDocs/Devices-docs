@@ -10,7 +10,7 @@ ms.sitesec: library
 author: dansimp
 ms.author: dansimp
 ms.topic: article
-ms.date: 07/31/2019
+ms.date: 03/10/2021
 ms.localizationpriority: medium
 ---
 
@@ -32,7 +32,7 @@ This article describes how to reset or recover a Microsoft Surface Hub.
 
 You may have to reset your Surface Hub for reasons such as the following:
 
-- You are re-purposing the device for a new meeting space and want to reconfigure it.
+- You are repurposing the device for a new meeting space and want to reconfigure it.
 - You want to change how you locally manage the device.
 - The user name or password for the device account or the Administrator account has been lost.
 - After you install an update, the performance of the device decreases.
@@ -44,18 +44,21 @@ During the reset process, if you see a blank screen for long periods of time, pl
 
 1. On your Surface Hub, open **Settings**.
 
-   ![Image that shows Settings app for Surface Hub.](images/sh-settings.png)
+   > [!div class="mx-imgBorder"]
+   > ![Image that shows Settings app for Surface Hub.](images/sh-settings.png)
 
 2. Select **Update & Security**.
 
-   ![Image that shows Update & Security group in Settings app for Surface Hub.](images/sh-settings-update-security.png)
+   > [!div class="mx-imgBorder"]
+   > ![Image that shows Update & Security group in Settings app for Surface Hub.](images/sh-settings-update-security.png)
 
 3. Select **Recovery**, and then, under **Reset device**, select **Get started**.
 
    > [!IMPORTANT]
    > Ensure that you have your BitLocker key available before resetting the device, as you will be prompted for it later. To learn more, see [Save your BitLocker key](save-bitlocker-key-surface-hub.md). When the Hub reboots to the recovery partition, it will prompt you to enter the BitLocker key. Skipping that prompt will cause reset to fail.
    
-   ![Image that shows the Reset device option in Settings app for Surface Hub.](images/sh-settings-reset-device.png)
+   > [!div class="mx-imgBorder"]
+   > ![Image that shows the Reset device option in Settings app for Surface Hub.](images/sh-settings-reset-device.png)
 
    After the reset process finishes, the Surface Hub starts the [first run program](first-run-program-surface-hub.md) again. If the reset process encounters a problem, it rolls the Surface Hub back to the previously-existing operating system image and then displays the Welcome screen.
 
@@ -81,7 +84,8 @@ If the device account gets into an unstable state or if the administrator accoun
 
 2. Under **Recover from the cloud**, select **Restart now**.
 
-   ![recover from the cloud](images/recover-from-the-cloud.png)
+   > [!div class="mx-imgBorder"]
+   > ![recover from the cloud](images/recover-from-the-cloud.png)
 
 ### Recover a locked Surface Hub
 
@@ -94,31 +98,31 @@ On rare occasions, a Surface Hub may encounter an error while cleaning up user a
 3. Use the power switch to turn the Surface Hub back on. The device starts and displays the Surface Hub Logo screen. When you see spinning dots under the Surface Hub Logo, use the power switch to turn the Surface Hub off again.  
 
 4. Repeat step 3 three times, or until the Surface Hub displays the "Preparing Automatic Repair" message. After it displays this message, the Surface Hub displays the Windows RE screen.
+ 
+5. Select **Reset**. 
 
-5. Select **Advanced Options**.
+6. If you are prompted to enter the BitLocker key, do one of the following:
+   - To preserve the information that BitLocker protects on the Surface Hub, enter the BitLocker key.
+   - To discard the protected information, select Skip this drive
 
-6. Select **Recover from the cloud**. (Optionally, you can select **Reset**. However, **Recover from the cloud** is the recommended approach.)
+7. Select **Cloud download.** 
 
-   ![Recover from the cloud](images/recover-from-cloud.png)
-7. If you are prompted to enter the Bitlocker key, do one of the following:
+   ![Cloud download](images/recover-cloud-download.png)
 
-   - To preserve the information that Bitlocker protects on the Surface Hub, enter the Bitlocker key.
-   - To discard the protected information, select **Skip this drive**  
+   >[!IMPORTANT]
+   >If you get an error message indicating **Unable to Download**, select **Cancel** and then **Reset** again.
 
-8. When you are prompted, select **Reinstall**.
+8. Select **Fully clean the drive.**
+ 
+   ![recover and fully clean drive](images/recover-fully-clean-drive.png)
 
-    ![Reinstall](images/reinstall.png)
-
-9. To repartition the disk, select **Yes**.
-
-   ![Repartition](images/repartition.png)
-
-   First, the recovery process downloads the operating system image from the cloud.  
-
-   ![downloading 97&](images/recover-progress.png)
-
-   When the download finishes, the recovery process restores the Surface Hub according to the options that you selected.
+9. You will be asked **Are you ready to reset this device?**. Select **Reset**. 
    
+   ![recover and confirm reset](images/recover-confirm-reset.png)
+
+10. The download begins and the recovery process indicates **Resetting this device**.
+
+    ![recovery shown in progress](images/recover-in-progress.png)
 
 ## Contact Support
 
