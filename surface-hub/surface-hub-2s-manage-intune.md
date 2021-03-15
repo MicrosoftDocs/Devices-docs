@@ -36,7 +36,7 @@ During the initial setup process, when affiliating a Surface Hub with an Azure A
 ## Managing Windows 10 Team settings with Intune
 
 1. Sign into **Microsoft Endpoint Manager**, select **Devices** > **Configuration profiles** > **Create profile**. 
-2. Under **Platform**, select **Windows 10 and later** > **Device restrictions (Windows 10 Team)** and then select **Create**. 
+2. Under **Platform**, select **Windows 10 and later** > **Templates** > **Device restrictions (Windows 10 Team)** and then select **Create**. 
 3. You can now browse and select preset device restriction settings for Surface Hub and Surface Hub 2S.
 
  ![Set device restrictions for Surface Hub 2S.](images/sh2-set-intune3.png) <br>
