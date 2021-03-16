@@ -81,6 +81,3 @@ A device account is an Exchange resource account that Surface Hub uses to displa
 
 When you go through the first-run program for your Surface Hub, there's some information that you'll need to supply. The setup worksheet summarizes that info, and provides lists of environment-specific info that you'll need when you go through the first-run program. For more information, see [Setup worksheet](setup-worksheet-surface-hub.md).
 
-## Learn more
-
-- [First time setup for Surface Hub 2S](surface-hub-2s-setup.md)
