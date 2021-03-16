@@ -39,7 +39,7 @@ Review these dependencies to make sure Surface Hub features will work in your IT
 
 ## Device affiliation
 
-Use Device affiliation to manage user access to the Settings app on Surface Hub 2S. With the Windows 10 Team operating system (that runs on Surface Hub 2S), only authorized users can adjust settings using the Settings app. Since choosing the affiliation can impact feature availability, plan appropriately to ensure that users can access features as intended.
+Use Device affiliation to manage user access to the Settings app on Surface Hub. With the Windows 10 Team operating system (that runs on Surface Hub), only authorized users can adjust settings using the Settings app. Since choosing the affiliation can impact feature availability, plan appropriately to ensure that users can access features as intended.
  
  
 > [!NOTE]
@@ -48,29 +48,29 @@ Use Device affiliation to manage user access to the Settings app on Surface Hub 
 
 ### No affiliation
 
-No affiliation is like having Surface Hub 2S in a workgroup with a different local Administrator account on each Surface Hub 2S. If you choose No affiliation, you must locally save the [BitLocker Key to a USB thumb drive](https://docs.microsoft.com/windows/security/information-protection/bitlocker/bitlocker-key-management-faq). You can still enroll the device with Intune; however, only the local admin can access the Settings app using the account credentials configured during OOBE. You can change the Administrator account password from the Settings app.
+No affiliation is like having Surface Hub in a workgroup with a different local Administrator account on each Surface Hub. If you choose No affiliation, you must locally save the [BitLocker Key to a USB thumb drive](https://docs.microsoft.com/windows/security/information-protection/bitlocker/bitlocker-key-management-faq). You can still enroll the device with Intune; however, only the local admin can access the Settings app using the account credentials configured during OOBE. You can change the Administrator account password from the Settings app.
  
 
 ### Active Directory Domain Services
 
-If you affiliate Surface Hub 2S with on-premises Active Directory Domain Services, you need to manage access to the Settings app using a security group on your domain. This helps ensure that all security group members have permissions to change settings on Surface Hub 2S. Also note the following:
-When Surface Hub 2S affiliates with your on-premises Active Directory Domain Services, the BitLocker key can be saved in the Active Directory Schema. For more information, see [Prepare your organization for BitLocker: Planning and policies](https://docs.microsoft.com/windows/security/information-protection/bitlocker/prepare-your-organization-for-bitlocker-planning-and-policies).
+If you affiliate Surface Hub with on-premises Active Directory Domain Services, you need to manage access to the Settings app using a security group on your domain. This helps ensure that all security group members have permissions to change settings on Surface Hub. Also note the following:
+When Surface Hub affiliates with your on-premises Active Directory Domain Services, the BitLocker key can be saved in the Active Directory Schema. For more information, see [Prepare your organization for BitLocker: Planning and policies](https://docs.microsoft.com/windows/security/information-protection/bitlocker/prepare-your-organization-for-bitlocker-planning-and-policies).
  
-Your organization’s Trusted Root CAs are pushed to the same container in Surface Hub 2S, which means you don’t need to import them using a provisioning package.
+Your organization’s Trusted Root CAs are pushed to the same container in Surface Hub, which means you don’t need to import them using a provisioning package.
  
-You can still enroll the device with Intune to centrally manage settings on your Surface Hub 2S.
+You can still enroll the device with Intune to centrally manage settings on your Surface Hub.
  
 
 ### Account management
 
-When you choose to affiliate your Surface Hub 2S with Azure Active Directory (Azure AD), any user in the Global Admins Security Group can sign in to the Settings app on Surface Hub 2S. You can also configure non Global admin accounts that limit permissions to management of the Settings app on Surface Hub 2S. This enables you to scope admin permissions for Surface Hub 2S only and prevent potentially unwanted admin access across an entire Azure AD domain.
+When you choose to affiliate your Surface Hub with Azure Active Directory (Azure AD), any user in the Global Admins Security Group can sign in to the Settings app on Surface Hub. You can also configure non Global admin accounts that limit permissions to management of the Settings app on Surface Hub. This enables you to scope admin permissions for Surface Hub only and prevent potentially unwanted admin access across an entire Azure AD domain.
 
-If you enabled Intune Automatic Enrollment for your organization, Surface Hub 2S will automatically enroll itself with Intune. The device’s BitLocker key is automatically saved in Azure AD.
+If you enabled Intune Automatic Enrollment for your organization, Surface Hub will automatically enroll itself with Intune. The device’s BitLocker key is automatically saved in Azure AD.
 
 To learn more about managing Surface Hub with Azure AD, see:
 
 - [Admin group management](admin-group-management-for-surface-hub.md)
-- [Configure non Global admin accounts on Surface Hub 2S](surface-hub-2s-nonglobal-admin.md)
+- [Configure non Global admin accounts on Surface Hub](surface-hub-2s-nonglobal-admin.md)
 
 ### Create and verify device account
 
