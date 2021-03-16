@@ -48,7 +48,7 @@ Use Device affiliation to manage user access to the Settings app on Surface Hub.
 
 ### No affiliation
 
-No affiliation is like having Surface Hub in a workgroup with a different local Administrator account on each Surface Hub. If you choose No affiliation, you must locally save the [BitLocker Key to a USB thumb drive](https://docs.microsoft.com/windows/security/information-protection/bitlocker/bitlocker-key-management-faq). You can still enroll the device with Intune; however, only the local admin can access the Settings app using the account credentials configured during OOBE. You can change the Administrator account password from the Settings app.
+No affiliation is like having Surface Hub in a workgroup with a different local Administrator account on each Surface Hub. If you choose No affiliation, you must locally save the [BitLocker Key to a USB thumb drive](https://docs.microsoft.com/surface-hub/save-bitlocker-key-surface-hub). You can still enroll the device with Intune; however, only the local admin can access the Settings app using the account credentials configured during OOBE. You can change the Administrator account password from the Settings app.
  
 
 ### Active Directory Domain Services
