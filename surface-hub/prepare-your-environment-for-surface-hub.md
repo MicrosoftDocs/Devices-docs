@@ -1,10 +1,10 @@
 ---
-title: Prepare your environment for Microsoft Surface Hub (v1)
-description: This section contains an overview of the steps required to prepare your environment so that you can use all of the features of Microsoft Surface Hub.
+title: Prepare your environment for Microsoft Surface Hub
+description: This page describes dependencies for setting up and managing Surface Hub v1 or Surface Hub 2S.
 ms.assetid: 336A206C-5893-413E-A270-61BFF3DF7DA9
 ms.reviewer: 
 manager: laurawi
-keywords: prepare environment, features of Surface Hub, create and test device account, check network availability
+keywords: prepare environment, Surface Hub, device account, network availability, M365 endpoints, Intune
 ms.prod: surface-hub
 ms.sitesec: library
 author: dansimp
