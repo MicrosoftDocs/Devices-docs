@@ -9,7 +9,7 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 07/03/2019
+ms.date: 03/03/2019
 ms.localizationpriority: Medium
 ---
 
@@ -44,7 +44,7 @@ When you first start Surface Hub 2S, the device automatically enters first time 
  
 ## Configuring device admin accounts
 
-You can only set up device admins during first time Setup. For more information, refer to [Surface Hub 2S device affiliation](https://docs.microsoft.com/surface-hub/surface-hub-2s-prepare-environment#device-affiliation).
+You can only set up device admins during first time Setup. For more information, refer to [Surface Hub 2S device affiliation](https://docs.microsoft.com/surface-hub/prepare-your-environment-for-surface-hub#device-affiliation).
 
  In the **Setup admins for this device** window, select one of the following options: Active Directory Domain Services, Azure Active Directory, or Local admin.
 

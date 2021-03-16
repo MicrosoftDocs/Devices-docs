@@ -13,7 +13,7 @@ ms.topic: article
 ms.date: 03/16/2021
 ms.localizationpriority: medium
 appliesto:
-- Surface Hub v1
+- Surface Hub 
 - Surface Hub 2S
 ---
 
