@@ -22,7 +22,7 @@
 #### [Setup worksheet](setup-worksheet-surface-hub.md)
 #### [Surface Hub 2S ports and keypad overview](surface-hub-2s-port-keypad-overview.md)
 #### [Connect devices to Surface Hub 2S](surface-hub-2s-connect.md)
-### [Prepare your environment for Microsoft Surface Hub 2S](surface-hub-2s-prepare-environment.md)
+### [Prepare your environment for Microsoft Surface Hub](prepare-your-environment-for-surface-hub.md)
 
 
 ## Deploy
