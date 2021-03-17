@@ -39,12 +39,12 @@ Surface devices that use a Surface Ethernet adapter to connect to a wired networ
 
 IT admins can trigger devices using a wake on LAN request (magic packet) that contains the target computer’s MAC address. To send a magic packet and wake up a device by using WOL, you must know the MAC address of the target device and Ethernet adapter. Because the magic packet does not use the IP network protocol, it is not possible to use the IP address or DNS name of the device.
 
-Many management solutions, such as Microsoft Endpoint Configuration Manager and third party Microsoft Store apps provide built-in support for WOL. Note that devices need to be in Connected Standby (Sleep) mode and connected to AC power. To learn more about waking devices with Endpoint Configuration Manager, see [Configure Wake on LAN - Configuration Manager](https://docs.microsoft.com/Surface Hubmem/configmgr/core/clients/deploy/configure-wake-on-lan).
+Many management solutions, such as Microsoft Endpoint Configuration Manager and third party Microsoft Store apps provide built-in support for WOL. Note that devices need to be in Connected Standby (Sleep) mode and connected to AC power. To learn more about waking devices with Endpoint Configuration Manager, see [Configure Wake on LAN - Configuration Manager](https://docs.microsoft.com/mem/configmgr/core/clients/deploy/configure-wake-on-lan).
 
 
 ## To check WOL is enabled on your device
 
-1. On your Ethernet connected device, select your network adapter, and then select Properties.
+1. On your Ethernet connected device, select your network adapter, and then select **Properties**.
 2. Select **Configure** > **Advanced**.
 3. Scroll to **Modern Standby WoL Magic Packet** and ensure **Enabled** is selected.
 
