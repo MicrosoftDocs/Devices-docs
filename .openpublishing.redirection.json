@@ -40,5 +40,10 @@
             "redirect_url":  "https://docs.microsoft.com/surface/get-started",
             "redirect_document_id":  true
         },
+        {
+            "source_path":  "surface-hub/surface-hub-2s-prepare-environment.md",
+            "redirect_url":  "https://docs.microsoft.com/surface-hub/prepare-your-environment-for-surface-hub",
+            "redirect_document_id":  true
+        },
 ]
 }
