@@ -17,7 +17,7 @@ ms.localizationpriority: Medium
 
 Surface Hub 2S is an all-in-one collaboration canvas that’s built for teamwork delivering a digital whiteboard, meetings platform, and a Windows 10 computing experience in one device.
 
-|**Capability**|**Summary**|**Learn more**|
+| Capability | Summary | Learn more |
 |:-------|:------|:----|
 |**Migration to Windows 10 Pro or Enterprise**| Surface Hub 2S comes pre-installed with Windows 10 Team, a customized edition of Windows 10 designed to facilitate easy collaboration in meeting room environments. Now you have the option of running Windows 10 Pro or Enterprise to use Surface Hub 2S much like any other PC.| [Announcing the availability of Windows 10 Pro and Enterprise on Surface Hub 2](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/announcing-the-availability-of-windows-10-pro-and-enterprise-on/ba-p/1624107) <br> <br> [Migrate to Windows 10 Pro or Enterprise on Surface Hub 2](surface-hub-2s-migrate-os.md) |
 |**Mobile Device Management and UEFI manageability**| Manage settings and policies using a mobile device management (MDM) provider. <br> <br> Full integration with Surface Enterprise Management Mode (SEMM) lets you manage hardware components and firmware. | [Managing Surface Hub 2S with Microsoft Intune](surface-hub-2s-manage-intune.md) <br> <br> [Surface Enterprise Management Mode](https://docs.microsoft.com/surface/surface-enterprise-management-mode) |
@@ -40,7 +40,7 @@ For more information about what’s new in Surface Hub 2S, see:
 
 The following table details the differences between Surface Hub and Surface Hub 2S:
 
-|**Component**| **Surface Hub 55”**|**Surface Hub 84”**| **Surface Hub 2S**|
+| Component | Surface Hub 55" | Surface Hub 84" | Surface Hub 2S |
 |:----- |:---- |:---- |:----- |
 |**Form Factor**| 55” | 84” | 50” |
 |**Dimension**| 31.75” x 59.62” x 3.38” <br> (806.4 mm x 1514.3 mm x 85.8 mm) | 46.12” x 86.7” x 4.15” <br> (1171.5 mm x 2202.9 mm x 105.4 mm) | 29.2" x 43.2" x 3.0" <br> (741 mm x 1097 mm x 76 mm) |
