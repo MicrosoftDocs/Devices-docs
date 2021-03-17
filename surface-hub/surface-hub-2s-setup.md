@@ -21,8 +21,7 @@ When you first start Surface Hub 2S, the device automatically enters first time 
 
 1. **Configure your locale.** Enter region, language, keyboard layout and time zone information. Select **Next**.
 
-   > [!div class="mx-imgBorder"]
-   > ![* Configure your locale *](images/sh2-run1.png)
+   ![* Configure your locale *](images/sh2-run1.png)
 
 1. **Connect  to a wireless network.** Choose your preferred wireless network and select **Next.**
 
@@ -32,8 +31,7 @@ When you first start Surface Hub 2S, the device automatically enters first time 
 
 3. **Enter device account info.** Use **domain\user** for on-premises and hybrid environments and **user\@example.com** for online environments. Select **Next.**
 
-   > [!div class="mx-imgBorder"]
-   > ![* Enter device account info *](images/sh2-run2.png)
+   ![* Enter device account info *](images/sh2-run2.png)
 
 1. **Enter additional info.** If requested, provide your Exchange server address and then select **Next.**
 
@@ -64,8 +62,7 @@ In the **Setup admins for this device** window, select one of the following opti
 
 2. Select the Active Directory Security Group containing members allowed to log on to the Settings app on Surface Hub 2S.
 
-   > [!div class="mx-imgBorder"]
-   > ![* Enter a security group *](images/sh2-run7.png)
+   ![* Enter a security group *](images/sh2-run7.png)
 
 1. Select **Finish**. The device will restart.
 
@@ -79,8 +76,7 @@ When choosing to affiliate your device with Azure Active Directory, the device w
 
 1. Enter the email address or UPN of an account **with Intune Plan 1** or greater and then select **Next.**
 
-   > [!div class="mx-imgBorder"]
-   > ![* Enter work or school account*](images/sh2-run9.png)
+   ![* Enter work or school account*](images/sh2-run9.png)
 
 1. If redirected, authenticate using your organization’s sign-in page and provide additional logon information if requested. The device will restart.
 
@@ -96,8 +92,7 @@ If you insert a USB thumb drive with a provisioning package into one of the USB 
 
 1. Enter the requested settings and select **Set up**.
 
-   > [!div class="mx-imgBorder"]
-   > ![* Enter regional settings for provisioning package*](images/sh2-run11.png)
+   ![* Enter regional settings for provisioning package*](images/sh2-run11.png)
 
    ![* Provision this device from removable media*](images/sh2-run12.png)
 
@@ -107,7 +102,6 @@ If you insert a USB thumb drive with a provisioning package into one of the USB 
 
 3. If you created a multiple devices CSV file, you will be able to choose a device configuration. For more information, refer to [Create provisioning packages for Surface Hub 2S](https://docs.microsoft.com/surface-hub/surface-hub-2s-deploy#provisioning-multiple-devices-csv-file).
 
-   > [!div class="mx-imgBorder"]
-   > ![* Select a device account and friendly name from your configuration file*](images/sh2-run14.png)
+   ![* Select a device account and friendly name from your configuration file*](images/sh2-run14.png)
 
 4. Follow the instructions to complete first time Setup.
