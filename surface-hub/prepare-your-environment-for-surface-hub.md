@@ -61,11 +61,11 @@ Your organization’s Trusted Root CAs are pushed to the same container in Surfa
 You can still enroll the device with Intune to centrally manage settings on your Surface Hub.
  
 
-### Account management
+### Azure Active Directory
 
 When you choose to affiliate your Surface Hub with Azure Active Directory (Azure AD), any user in the Global Admins Security Group can sign in to the Settings app on Surface Hub. You can also configure non Global admin accounts that limit permissions to management of the Settings app on Surface Hub. This enables you to scope admin permissions for Surface Hub only and prevent potentially unwanted admin access across an entire Azure AD domain.
 
-If you enabled Intune Automatic Enrollment for your organization, Surface Hub will automatically enroll itself with Intune. The device’s BitLocker key is automatically saved in Azure AD.
+If you enabled [Intune Automatic Enrollment](https://docs.microsoft.com/mem/intune/enrollment/windows-enroll#enable-windows-10-automatic-enrollment) for your organization, Surface Hub will automatically enroll itself with Intune. The device’s BitLocker key is automatically saved in Azure AD.
 
 To learn more about managing Surface Hub with Azure AD, see:
 
