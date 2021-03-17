@@ -73,6 +73,6 @@ To enable WOL on Surface Studio 2, use the following procedure.
 
 ## Learn more
 
-- [Microsoft Surface USB-C to Ethernet and USB Adapter](https://www.microsoft.com/Surface Hubp/surface-usb-c-to-ethernet-and-usb-adapter/8wt81cglrblp?activetab=pivot%3aoverviewtab)
+- [Microsoft Surface USB-C to Ethernet and USB Adapter](https://www.microsoft.com/p/surface-usb-c-to-ethernet-and-usb-adapter/8wt81cglrblp?)
 
-- [Surface USB 3.0 Gigabit Ethernet Adapter](https://www.microsoft.com/Surface Hubp/surface-usb-30-gigabit-ethernet-adapter/8xn9fqvzbvq0?activetab=pivot%3aoverviewtab)
+- [Surface USB 3.0 Gigabit Ethernet Adapter](https://www.microsoft.com/p/surface-usb-30-gigabit-ethernet-adapter/8xn9fqvzbvq0?)
