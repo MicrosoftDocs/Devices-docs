@@ -7,8 +7,7 @@ ms.date: 02/19/2021
 audience: Admin
 ms.topic: article
 ms.prod: surface
-localization_priority: medium
-ROBOTS: NO INDEX, NO FOLLOW
+localization_priority: high
 ms.custom: references_regions
 appliesto:
 - Surface
@@ -32,7 +31,7 @@ Next Business Day Replacement is available with Complete for Business Plus prote
 
 ### Table 1. Replacement request cutoff times by locale
 
-| Country                                                                                                    | Cutoff Time |
+| Locale                                                                                                    | Cutoff Time |
 | -------------------------------------------------------------------------------------------------------------- | --------------- |
 | **United States & Canada**                                                                                     | 14:00 CST    (UTC-6)      |
 | **Europe** (limited to Austria, Belgium, Czech Republic, France, Germany, Netherlands, Poland, and United Kingdom) | 12:00 CET   (UTC+1)     |
