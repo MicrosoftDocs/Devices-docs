@@ -31,7 +31,7 @@ Next Business Day Replacement is available with Complete for Business Plus prote
 
 ### Table 1. Replacement request cutoff times by locale
 
-| Country                                                                                                    | Cutoff Time |
+| Locale                                                                                                    | Cutoff Time |
 | -------------------------------------------------------------------------------------------------------------- | --------------- |
 | **United States & Canada**                                                                                     | 14:00 CST    (UTC-6)      |
 | **Europe** (limited to Austria, Belgium, Czech Republic, France, Germany, Netherlands, Poland, and United Kingdom) | 12:00 CET   (UTC+1)     |
