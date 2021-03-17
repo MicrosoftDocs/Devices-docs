@@ -7,8 +7,7 @@ ms.date: 02/19/2021
 audience: Admin
 ms.topic: article
 ms.prod: surface
-localization_priority: medium
-ROBOTS: NO INDEX, NO FOLLOW
+localization_priority: high
 ms.custom: references_regions
 appliesto:
 - Surface
