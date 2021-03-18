@@ -13,7 +13,7 @@ ms.reviewer: hachidan
 manager: laurawi
 ms.localizationpriority: medium
 audience: itpro
-ms.date: 01/15/2021
+ms.date: 03/18/2021
 ---
 
 # Microsoft Surface Enterprise Management Mode
@@ -21,18 +21,21 @@ ms.date: 01/15/2021
 Microsoft Surface Enterprise Management Mode (SEMM) is a feature of Surface devices with Surface UEFI that allows you to secure and manage firmware settings within your organization. With SEMM, IT professionals can prepare configurations of UEFI settings and install them on a Surface device. In addition to the ability to configure UEFI settings, SEMM also uses a certificate to protect the configuration from unauthorized tampering or removal. SEMM is a requirement to be able to migrate a Surface Hub 2S to Windows 10 Pro and Enterprise.
 
 >[!NOTE]
->SEMM is only available on devices with Surface UEFI firmware. This comprises most other Surface devices including Surface Pro 7+, Surface Pro X, Surface Hub 2S, and Surface Laptop 3 commercial SKUs with an Intel processor, and Surface Laptop Go. SEMM is not supported on the 15" Surface Laptop 3 SKU with AMD processor (only available as a retail SKU). 
+>SEMM is only available on devices with Surface UEFI firmware. This includes most Surface devices including Surface Pro 7+, Surface Pro 7, Surface Pro X, Surface Hub 2S, Surface Laptop 3 commercial SKUs with an Intel processor, and Surface Laptop Go. SEMM is not supported on the 15" Surface Laptop 3 SKU with AMD processor (only available as a retail SKU). 
 
 When Surface devices are configured by SEMM and secured with the SEMM certificate, they are considered *enrolled* in SEMM. When the SEMM certificate is removed and control of UEFI settings is returned to the user of the device, the Surface device is considered *unenrolled* in SEMM.
 
 There are two administrative options you can use to manage SEMM and enroll Surface devices – a standalone tool or integration with Microsoft Endpoint Configuration Manager. The SEMM standalone tool, called the Microsoft Surface UEFI Configurator, is described in this article. For more information about how to manage SEMM with Microsoft Endpoint Configuration Manager, see [Use Microsoft Endpoint Configuration Manager to manage devices with SEMM](https://technet.microsoft.com/itpro/surface/use-system-center-configuration-manager-to-manage-devices-with-semm).
+
+> [!NOTE]
+> SEMM is supported on Surface Pro X via the UEFI Manager only. You can download UEFI Manager from [Surface Tools for IT](https://www.microsoft.com/download/details.aspx?id=46703). For more information, refer to [Deploying, managing, and servicing Surface Pro X](surface-pro-arm-app-management.md).
 
 
 ## Microsoft Surface UEFI Configurator
 
 The primary workspace of SEMM is Microsoft Surface UEFI Configurator, as shown in Figure 1. Microsoft Surface UEFI Configurator is a tool used to create Windows Installer (.msi) packages or WinPE images used to enroll, configure, and unenroll SEMM on a Surface device. These packages contain a configuration file where the settings for UEFI are specified. SEMM packages also contain a certificate, which is installed and stored in firmware and used to verify the signature of configuration files before UEFI settings are applied.
 
->[!NOTE]
+>[!TIP]
 >You can now use Surface UEFI Configurator and SEMM to manage ports on Surface Dock 2. To learn more, see [Secure Surface Dock 2 ports with SEMM](secure-surface-dock-ports-semm.md).
 
 ![Microsoft Surface UEFI Configurator](images/surface-ent-mgmt-fig1-uefi-configurator.png "Microsoft Surface UEFI Configurator")
@@ -61,7 +64,7 @@ Surface UEFI configuration packages are the primary mechanism to implement and m
 
 See the [Surface Enterprise Management Mode certificate requirements](#surface-enterprise-management-mode-certificate-requirements) section of this article for more information about the requirements for the SEMM certificate.
 
->[!NOTE]
+>[!TIP]
 >You can also specify a UEFI password with SEMM that is required to view the **Security**, **Devices**, **Boot Configuration**, or **Enterprise Management** pages of Surface UEFI.
 
 After a device is enrolled in SEMM, the configuration file is read and the settings specified in the file are applied to UEFI. When you run a configuration package on a device that is already enrolled in SEMM, the signature of the configuration file is checked against the certificate that is stored in the device firmware. If the signature does not match, no changes are applied to the device.
@@ -118,7 +121,7 @@ These characters are the last two characters of the certificate thumbprint and s
 *Figure 4. Enrollment confirmation in SEMM with the SEMM certificate thumbprint*
 
 >[!NOTE]
->Administrators with access to the certificate file (.pfx) can read the thumbprint at any time by opening the .pfx file in CertMgr. To view the thumbprint with CertMgr, follow this process:
+>Administrators with access to the certificate file (.pfx) can read the thumbprint at any time by opening the .pfx file in CertMgr. To view the thumbprint with CertMgr: 
 >1. Right-click the .pfx file, and then click **Open**.
 >2. Expand the folder in the navigation pane.
 >3. Click **Certificates**.
@@ -139,7 +142,8 @@ A Surface UEFI reset package is used to perform only one task — to unenroll a 
 
 In some scenarios, it may be impossible to use a Surface UEFI reset package. (For example, if Windows becomes unusable on the Surface device.) In these scenarios you can unenroll the Surface device from SEMM through the **Enterprise Management** page of Surface UEFI (shown in Figure 5) with a Recovery Request operation.
 
-![Initiate a SEMM recovery request](images/surface-ent-mgmt-fig7-semmrecovery.png "Initiate a SEMM recovery request")
+> [!div class="mx-imgBorder"]
+> ![Initiate a SEMM recovery request](images/surface-ent-mgmt-fig7-semmrecovery.png "Initiate a SEMM recovery request")
 
 *Figure 5. Initiate a SEMM recovery request on the Enterprise Management page*
 
@@ -291,7 +295,10 @@ This version of SEMM includes:
 
 ### Version 2.59.139.0
 
-* Support for Surface Pro 7, Surface Pro X,  and Surface Laptop 3 13.5" and 15" models with Intel processor. Note:  Surface Laptop 3 15" AMD processor is not supported.
+* Support for Surface Pro 7, Surface Pro X,  and Surface Laptop 3 13.5" and 15" models with Intel processor.
+
+  > [!NOTE]
+  > Surface Laptop 3 15" AMD processor is not supported.
 
 - Support for Wake on Power feature
 
