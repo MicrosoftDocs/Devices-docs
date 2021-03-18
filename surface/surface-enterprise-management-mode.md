@@ -142,7 +142,8 @@ A Surface UEFI reset package is used to perform only one task — to unenroll a 
 
 In some scenarios, it may be impossible to use a Surface UEFI reset package. (For example, if Windows becomes unusable on the Surface device.) In these scenarios you can unenroll the Surface device from SEMM through the **Enterprise Management** page of Surface UEFI (shown in Figure 5) with a Recovery Request operation.
 
-![Initiate a SEMM recovery request](images/surface-ent-mgmt-fig7-semmrecovery.png "Initiate a SEMM recovery request")
+> [!div class="mx-imgBorder"]
+> ![Initiate a SEMM recovery request](images/surface-ent-mgmt-fig7-semmrecovery.png "Initiate a SEMM recovery request")
 
 *Figure 5. Initiate a SEMM recovery request on the Enterprise Management page*
 
@@ -294,7 +295,10 @@ This version of SEMM includes:
 
 ### Version 2.59.139.0
 
-* Support for Surface Pro 7, Surface Pro X,  and Surface Laptop 3 13.5" and 15" models with Intel processor. Note:  Surface Laptop 3 15" AMD processor is not supported.
+* Support for Surface Pro 7, Surface Pro X,  and Surface Laptop 3 13.5" and 15" models with Intel processor.
+
+  > [!NOTE]
+  > Surface Laptop 3 15" AMD processor is not supported.
 
 - Support for Wake on Power feature
 
