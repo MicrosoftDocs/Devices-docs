@@ -43,7 +43,8 @@ Many management solutions, such as Microsoft Endpoint Configuration Manager and 
 
 1. On your Ethernet connected device, select your network adapter, and then select **Properties**.
 
-     ![Surface Ethernet Adapter](images/surface-ethernet.png)
+   > [!div class="mx-imgBorder"]
+   > ![Surface Ethernet Adapter](images/surface-ethernet.png)
 
 2. Select **Configure** > **Advanced**.
 3. Scroll to **Modern Standby WoL Magic Packet** and ensure **Enabled** is selected.
