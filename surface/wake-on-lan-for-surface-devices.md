@@ -13,7 +13,7 @@ ms.topic: article
 ms.reviewer: jesko
 manager: laurawi
 ms.audience: itpro
-ms.date: 3/17/2021
+ms.date: 3/19/2021
 ---
 
 # Wake On LAN for Surface devices
@@ -24,11 +24,8 @@ Surface devices that use a Surface Ethernet adapter to connect to a wired networ
 
 - Surface Ethernet adapter
 - Surface USB-C to Ethernet and USB Adapter
-- Surface Dock
 - Surface Dock 2
-- Surface Docking Station for Surface Pro 3
-- Surface 3
-- Surface Pro 3 and later
+- Surface Pro 6 and later
 - Surface Book (all generations)
 - Surface Laptop (all generations)
 - Surface Go (all generations)
@@ -45,6 +42,9 @@ Many management solutions, such as Microsoft Endpoint Configuration Manager and 
 ## To check WOL is enabled on your device
 
 1. On your Ethernet connected device, select your network adapter, and then select **Properties**.
+
+ ![Surface Ethernet Adapter](images/surface-ethernet.png)
+
 2. Select **Configure** > **Advanced**.
 3. Scroll to **Modern Standby WoL Magic Packet** and ensure **Enabled** is selected.
 
