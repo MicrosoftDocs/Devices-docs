@@ -43,12 +43,12 @@ Many management solutions, such as Microsoft Endpoint Configuration Manager and 
 
 1. On your Ethernet connected device, select your network adapter, and then select **Properties**.
 
- ![Surface Ethernet Adapter](images/surface-ethernet.png)
+     ![Surface Ethernet Adapter](images/surface-ethernet.png)
 
 2. Select **Configure** > **Advanced**.
 3. Scroll to **Modern Standby WoL Magic Packet** and ensure **Enabled** is selected.
 
- ![Check WOL is enabled on your device](images/ethernet-wol-setting.png)
+     ![Check WOL is enabled on your device](images/ethernet-wol-setting.png)
 
 ## Appendix: Surface Studio 2
 
