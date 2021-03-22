@@ -90,4 +90,4 @@ If your organization is using AD or Azure AD, we recommend you either domain joi
 
 ### Configure non Global admin accounts on Azure AD-joined devices
 
-For Surface Hub 2S devices joined to Azure AD, Windows 10 Team 2020 Update lets you limit admin permissions to management of the Settings app on Surface Hub 2S. This enables you to scope admin permissions for Surface Hub 2S only and prevent potentially unwanted admin access an entire Azure AD domain. To learn more, see [Configure non Global admin accounts on Surface Hub 2S](surface-hub-2s-nonglobal-admin.md).
+For Surface Hub v1 and Surface Hub 2S devices joined to Azure AD, Windows 10 Team 2020 Update lets you limit admin permissions to management of the Settings app on Surface Hub. This enables you to scope admin permissions for Surface Hub  only and prevent potentially unwanted admin access an entire Azure AD domain. To learn more, see [Configure non Global admin accounts on Surface Hub](surface-hub-2s-nonglobal-admin.md).
