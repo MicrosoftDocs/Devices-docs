@@ -115,7 +115,7 @@ First create a security group containing the admin accounts. Then create another
      ![upload local admin xml config file](images/sh-local-admin-config.png)
 
 7. Click **Save**.
-8. Click **Select groups to include** and choose the [security group you created earlier](#create-security-group-for-surface-hub-2s-devices) (**Surface Hub devices**). Click **Next.**
+8. Click **Select groups to include** and choose the [security group you created earlier](#create-security-group-for-surface-hub-devices) (**Surface Hub devices**). Click **Next.**
 9. Under Applicability rules, add a Rule if desired. Otherwise, select **Next** and then select **Create**.
 
 To learn more about custom configuration profiles using OMA-URI strings, see [Use custom settings for Windows 10 devices in Intune](https://docs.microsoft.com/mem/intune/configuration/custom-settings-windows-10).
