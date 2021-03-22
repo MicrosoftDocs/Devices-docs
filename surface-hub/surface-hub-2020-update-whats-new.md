@@ -34,7 +34,7 @@ Windows 10 Team 2020 Update brings major improvements to device deployment and m
 ## Browser and pen
 
 - **Support for the new Microsoft Edge**. Microsoft Edge has been rebuilt for optimal compatibility performance, security and privacy. To learn more, see [Install and configure the new Microsoft Edge on Surface Hub](https://docs.microsoft.com/surface-hub/surface-hub-install-chromium-edge).
-- - **Dual-pen inking on Surface Hub 2S**.   Users can whiteboard and collaborate side-by-side on Surface Hub 2S using two Surface Hub 2 Pens. The firmware updates required to enable dual-pen inking will be released with a subsequent update.
+- **Dual-pen inking on Surface Hub 2S**.   Users can whiteboard and collaborate side-by-side on Surface Hub 2S using two Surface Hub 2 Pens. The firmware updates required to enable dual-pen inking will be released with a subsequent update.
 
 ## Microsoft Teams  
 
