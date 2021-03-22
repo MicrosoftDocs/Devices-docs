@@ -39,7 +39,7 @@ IT admins can trigger devices using a wake on LAN request (magic packet) that co
 Many management solutions, such as Microsoft Endpoint Configuration Manager and third party Microsoft Store apps provide built-in support for WOL. Note that devices need to be in Connected Standby (Sleep) mode and connected to AC power. To learn more about waking devices with Endpoint Configuration Manager, see [Configure Wake on LAN - Configuration Manager](https://docs.microsoft.com/mem/configmgr/core/clients/deploy/configure-wake-on-lan).
 
 
-## To check WOL is enabled on your device
+### To check WOL is enabled on your device
 
 1. On your Ethernet connected device, select your network adapter, and then select **Properties**.
 
