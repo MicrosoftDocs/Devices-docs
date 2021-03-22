@@ -1,7 +1,7 @@
 ---
-title: "Configure non Global admin accounts on Surface Hub 2S"
-description: "This article describes how to configure non Global admin accounts to manage Surface Hub 2S."
-keywords: Surface Hub 2S
+title: "Configure non Global admin accounts on Surface Hub"
+description: "This article describes how to configure non Global admin accounts to manage Surface Hub and Surface Hub 2S."
+keywords: Surface Hub, Surface Hub v1, Surface Hub 2S
 ms.prod: surface-hub
 ms.sitesec: library
 author: greg-lindsay
@@ -9,25 +9,26 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 12/07/2020
+ms.date: 03/22/2021
 ms.localizationpriority: Medium
 appliesto:
-- Surface Hub 2S 2020 Update
+- Surface Hub
+- Surface Hub 2S
 ---
 
-# Configure non Global admin accounts on Surface Hub 2S
+# Configure non Global admin accounts on Surface Hub
 
-When you join Surface Hub 2S to an Azure AD domain, you can configure non Global admin accounts that limit permissions to management of the Settings app on Surface Hub 2S. This enables you to scope admin permissions for Surface Hub 2S only and prevent potentially unwanted admin access across an entire Azure AD domain. Before you begin, make sure your Surface Hub 2S is joined to Azure AD. If not, you will need to reset Surface Hub 2S and complete the first-time, out-of-the-box (OOBE) setup program, choosing the option to join Azure AD.
+When you join Surface Hub v1 or Surface Hub 2S to an Azure AD domain, you can configure non Global admin accounts that limit permissions to management of the Settings app on Surface Hub. This enables you to scope admin permissions for Surface Hub only and prevent potentially unwanted admin access across an entire Azure AD domain. Before you begin, make sure your Surface Hub is joined to Azure AD. If not, you will need to reset Surface Hub and complete the first-time, out-of-the-box (OOBE) setup program, choosing the option to join Azure AD.
 
 ## Summary 
 
 The process of creating non Global admin accounts involves the following steps: 
 
-1. In Microsoft Intune, create a Security group containing the admins designated to manage Surface Hub 2S.
+1. In Microsoft Intune, create a Security group containing the admins designated to manage Surface Hub.
 2. Obtain Azure AD Group SID using PowerShell.
 3. Create XML file containing Azure AD Group SID.
-4. Create a Security Group containing the Surface Hub 2S devices that will be managed by the non-Global admins Security group.
-5. Create a custom Configuration profile targeting the security group that contains your Surface Hub 2S devices. 
+4. Create a Security Group containing the Surface Hub devices that will be managed by the non-Global admins Security group.
+5. Create a custom Configuration profile targeting the security group that contains your Surface Hub devices. 
 
 
 ## Create Azure AD security groups
@@ -41,9 +42,9 @@ First create a security group containing the admin accounts. Then create another
 
      ![Create security group for Hub admins](images/sh-create-sec-group.png)
 
-3. Open the group, select **Members**, and then choose **Add members** to enter the Administrator accounts that you wish to designate as non Global admins on Surface Hub 2S. To learn more about creating groups in Intune, see  [Add groups to organize users and devices](https://docs.microsoft.com/mem/intune/fundamentals/groups-add).
+3. Open the group, select **Members**, and then choose **Add members** to enter the Administrator accounts that you wish to designate as non Global admins on Surface Hub. To learn more about creating groups in Intune, see  [Add groups to organize users and devices](https://docs.microsoft.com/mem/intune/fundamentals/groups-add).
 
-### Create security group for Surface Hub 2S devices
+### Create security group for Surface Hub devices
 
 1. Repeat the previous procedure to create a separate security group for Hub devices; for example, **Surface Hub devices**. 
 
@@ -120,6 +121,6 @@ First create a security group containing the admin accounts. Then create another
 To learn more about custom configuration profiles using OMA-URI strings, see [Use custom settings for Windows 10 devices in Intune](https://docs.microsoft.com/mem/intune/configuration/custom-settings-windows-10).
 
 
-## Non Global admins managing Surface Hub 2S
+## Non Global admins managing Surface Hub
 
-Members of the **Surface Hub Local Admins** Security group can now sign in to the Settings app on Surface Hub 2S and manage settings.
+Members of the **Surface Hub Local Admins** Security group can now sign in to the Settings app on Surface Hub and manage settings.
