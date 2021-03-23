@@ -151,7 +151,7 @@ To ensure optimal video and audio quality on Surface Hub, add the following QoS 
 
 ## Microsoft Teams settings
 
-You can configure various Microsoft Teams settings using Intune.
+You can configure various Microsoft Teams settings using Intune. To learn more, see [Manage Microsoft Teams configuration on Surface Hub](https://docs.microsoft.com/microsoftteams/rooms/surface-hub-manage-config).
 
 ### Modes
 
