@@ -45,5 +45,10 @@
             "redirect_url":  "https://docs.microsoft.com/surface-hub/prepare-your-environment-for-surface-hub",
             "redirect_document_id":  true
         },
+        {
+            "source_path":  "surface-hub/surface-hub-2s-manage-passwords.md",
+            "redirect_url":  "https://docs.microsoft.com/surface-hub/password-management-for-surface-hub-device-accounts",
+            "redirect_document_id":  true
+        },
 ]
 }
