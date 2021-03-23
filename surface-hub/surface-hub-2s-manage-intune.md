@@ -17,15 +17,17 @@ ms.localizationpriority: Medium
 
 Surface Hub allows IT administrators to manage settings and policies using a mobile device management (MDM) provider such as Microsoft Intune. Surface Hub has a built-in management component to communicate with the management server, so there is no need to install additional clients on the device.
 
-## Manual enrollment
+## Enrolling Surface Hub
+
+You can enroll Surface into Microsoft Intune or other MDM provider via Manual or Auto enrollment.
+
+### Manual enrollment
 
 1. Open the **Settings** app and sign in as a local administrator. Select **Surface Hub** > **Device management** and then select **+** to add.
 2.	You will be prompted to login with the account to use for your MDM provider. After authenticating, the device automatically enrolls into your MDM provider.
 
 > [!TIP]
 > If you’re using Intune and the server address is not detected, enter **manage.microsoft.com**.
-
-   ![Enroll Surface Hub with Intune](images/sh2-set-intune1.png)<br>
    
 > [!NOTE]
 > The account used for authentication will be the MDM provider enrollment account.
