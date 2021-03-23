@@ -1,6 +1,6 @@
 ---
-title: "Manage Surface Hub 2S with Intune"
-description: "Learn how to update and manage Surface Hub 2S using Intune."
+title: "Manage Surface Hub with an MDM provider"
+description: "Learn how to update and manage Surface Hub using MDM provider."
 keywords: separate values with commas
 ms.prod: surface-hub
 ms.sitesec: library
@@ -13,24 +13,22 @@ ms.date: 03/23/2021
 ms.localizationpriority: Medium
 ---
 
-# Manage Surface Hub 2S with Intune
+# Manage Surface Hub with an MDM provider
 
-
-
-Surface Hub 2S allows IT administrators to manage settings and policies using a mobile device management (MDM) provider. Surface Hub 2S has a built-in management component to communicate with the management server, so there is no need to install additional clients on the device.
+Surface Hub allows IT administrators to manage settings and policies using a mobile device management (MDM) provider such as Microsoft Intune. Surface Hub has a built-in management component to communicate with the management server, so there is no need to install additional clients on the device.
 
 ### Manual enrollment
 
 1. Open the **Settings** app and sign in as a local administrator. Select **Surface Hub** > **Device management** and then select **+** to add.
-2.	You will be prompted to login with the account to use for Intune. After authenticating, the device automatically enrolls into your MDM provider.
+2.	You will be prompted to login with the account to use for your MDM provider. After authenticating, the device automatically enrolls into your MDM provider.
 
 > [!TIP]
 > If you’re using Intune and the server address is not detected enter **manage.microsoft.com**.
 
-   ![Register Surface Hub 2S with Intune](images/sh2-set-intune1.png)<br>
+   ![Enroll Surface Hub with Intune](images/sh2-set-intune1.png)<br>
    
 > [!NOTE]
-> The account used for authentication will be the Intune enrollment account, and must be licensed for Intune.
+> The account used for authentication will be the MDM provider enrollment account.
 
 ### Auto registration — Azure Active Directory Affiliated
 
@@ -42,8 +40,8 @@ During the initial setup process, when affiliating a Surface Hub with an Azure A
 You can fully manage Surface Hub settings via Intune in the following ways:
  
 - Create a **Device restriction profile** from options available directly in the Intune UI such as turning a feature on or off or choosing a preset value from a drop-down list. See [Configure device restriction profiles](#configure-device-restriction-profiles).
-- Create a **Device configuration profile** and select a template that includes a logical grouping of settings for a feature or technology. See [Create Device configuration profiles] (#create-device-configuration-profiles.
-- Create a **Custom configuration profile** that lets you extend the scope of management by implementing Configuration service provider (CSP) based policy settings. These consist of OMA Uniform Resource Identifier (OMA URI) values that map to Registry keys or feature settings.  See [Configure custom configuration profiles](#configure-custom-configuraion-profiles).
+- Create a **Device configuration profile** and select a template that includes a logical grouping of settings for a feature or technology. See [Create Device configuration profiles] (#create-device-configuration-profiles).
+- Create a **Custom configuration profile** that lets you extend the scope of management by implementing Configuration service provider (CSP) based policy settings. These consist of OMA Uniform Resource Identifier (OMA URI) values that map to Registry keys or feature settings.  See [Configure custom configuration profiles](#configure-custom-configuration-profiles).
 
 
 ### Configure device restriction profiles
@@ -53,7 +51,7 @@ You can fully manage Surface Hub settings via Intune in the following ways:
 3. Under ****Profile type**,** select **Templates** and then select **Device restrictions (Windows 10 Team)**
 4. Select **Create**.
 5. Add a name and select **Next.**
-6. You can now browse and select preset device restriction settings for Surface Hub and Surface Hub 2S. across the following categories: Apps and experience, Azure operational insights, Maintenance, Session, and Wireless projection. This example configures a 4-hour maintenance window and a 15 mnute timeout for screen, sleep and session resume.
+6. You can now browse and select preset device restriction settings for Surface Hub across the following categories: Apps and experience, Azure operational insights, Maintenance, Session, and Wireless projection. This example configures a 4-hour maintenance window and a 15 mnute timeout for screen, sleep and session resume.
 
 For more information about creating and managing profiles, see [Restrict devices features using policy in Microsoft Intune](https://docs.microsoft.com/mem/intune/configuration/device-restrictions-configure#create-the-profile).
  
@@ -61,23 +59,24 @@ For more information about how to manage Surface Hub features and settings, see 
  
 
 ### Create device configuration profiles
+
 1. Sign in to [**Microsoft Endpoint Manager admin center**](https://endpoint.microsoft.com/), select **Devices** > **Configuration profiles** > **+ Create profile**.
 2. Under **Platform**, select **Windows 10 and later** >
-3. Under **Profile type, select **Templates.** and choose from the following templates supported on Surface Hub:
+3. Under **Profile type**, select **Templates** and choose from the following templates supported on Surface Hub:
 
-- Device restrictions: (Windows 10 Team), as described in the previous section.
+- Device restrictions (Windows 10 Team), as described in the [previous section](#configure-device-restriction-profiles).
 - Microsoft Defender for Endpoint (Windows 10 Desktop)
 - PKCS certificate
 - PKCS imported certificate
 - SCEP certificate
-- Trusted Certificate
+- Trusted certificate
 
 
 ### Configure custom configuration profiles
 
 You can extend the scope of management by using an OMA Uniform Resource Identifier (OMA URI) integrated with the Surface Hub Configuration service provider (CSP) along with multple other CSPs across a wide range of enterprise management areas.
  
-Microsoft provides new CSPs with each new version of the Windows 10 operating system. The [Windows 10 Team 2020 Update](https://docs.microsoft.com/surface-hub/surface-hub-2020-update) includes more than 20 new and updated device management policies for Surface Hub and Surface Hub 2S. These new MDM policy settings enable IT admins to remotely manage key features including app updates from the Microsoft Store, wireless projection settings such as Miracast over infrastructure, network settings such as Quality-Of-Service and 802.1x wired authentication, as well as new privacy/GDPR related settings.
+Microsoft provides new CSPs with each new version of the Windows 10 operating system. The [Windows 10 Team 2020 Update](https://docs.microsoft.com/surface-hub/surface-hub-2020-update) includes more than 20 new and updated device management policies for Surface Hub. These new MDM policy settings enable IT admins to remotely manage key features including app updates from the Microsoft Store, wireless projection settings such as Miracast over infrastructure, network settings such as Quality-Of-Service and 802.1x wired authentication, as well as new privacy/GDPR related settings.
  
 For more information, see the following resources:
 
@@ -113,7 +112,7 @@ To generate the OMA URI for any setting in the CSP documentation:
 
 ## Quality of Service (QoS) settings
 
-To ensure optimal video and audio quality on Surface Hub 2S, add the following QoS settings to the device. 
+To ensure optimal video and audio quality on Surface Hub, add the following QoS settings to the device. 
 
 ### Microsoft Teams QoS settings 
 
@@ -156,7 +155,7 @@ You can configure various Microsoft Teams settings using Intune.
 
 ### Modes
 
-Surface Hub 2S comes installed with Microsoft Teams in mode 0, which supports both Microsoft Teams and Skype for Business. The modes function as described below:
+Surface Hub comes installed with Microsoft Teams in mode 0, which supports both Microsoft Teams and Skype for Business. The modes function as described below:
 
 - Mode 0 — Skype for Business with Microsoft Teams functionality for scheduled meetings.
 - Mode 1 — Microsoft Teams with Skype for Business functionality for scheduled meetings.
