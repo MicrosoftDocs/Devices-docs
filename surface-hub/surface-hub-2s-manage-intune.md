@@ -38,12 +38,12 @@ During the initial setup process, when affiliating a Surface Hub with an Azure A
 
 You can fully manage Surface Hub settings via Intune in the following ways:
  
-- Create a **Device restriction profile** from options available directly in the Intune UI such as turning a feature on or off or choosing a preset value from a drop-down list. See [Configure device restriction profiles](#configure-device-restriction-profiles).
-- Create a **Device configuration profile** and select a template that includes a logical grouping of settings for a feature or technology. See [Create Device configuration profiles](#create-device-configuration-profiles).
-- Create a **Custom configuration profile** that lets you extend the scope of management by implementing Configuration service provider (CSP) based policy settings. These consist of OMA Uniform Resource Identifier (OMA URI) values that map to Registry keys or feature settings. See [Configure custom configuration profiles](#configure-custom-configuration-profiles).
+- Create a **Device restriction profile** from options available directly in the Intune UI such as turning a feature on or off or choosing a preset value from a drop-down list. See [Configure device restriction profile](#configure-device-restriction-profile).
+- Create a **Device configuration profile** and select a template that includes a logical grouping of settings for a feature or technology. See [Create Device configuration profile](#create-device-configuration-profile).
+- Create a **Custom configuration profile** that lets you extend the scope of management by implementing Configuration service provider (CSP) based policy settings. These consist of OMA Uniform Resource Identifier (OMA URI) values that map to Registry keys or feature settings. See [Configure custom configuration profile](#configure-custom-configuration-profile).
 
 
-### Configure device restriction profiles
+### Configure device restriction profile
 
 1. Sign in to [**Microsoft Endpoint Manager admin center**](https://endpoint.microsoft.com/), select **Devices** > **Configuration profiles** > **+** **Create profile**.
 2. Under **Platform**, select **Windows 10 and later** >
@@ -52,7 +52,7 @@ You can fully manage Surface Hub settings via Intune in the following ways:
 5. Add a name and select **Next.**
 6. You can now browse and select preset device restriction settings for Surface Hub across the following categories: Apps and experience, Azure operational insights, Maintenance, Session, and Wireless projection. The example shown in the following figure specifies a 4-hour maintenance window and a 15 minute timeout for screen, sleep and session resume.
 
- ![Configure Surface Hub settings with Intune device restriction profile](images/sh-device-restrictions.png)
+     ![Configure Surface Hub settings with Intune device restriction profile](images/sh-device-restrictions.png)
 
 
 For more information about creating and managing profiles, see [Restrict devices features using policy in Microsoft Intune](https://docs.microsoft.com/mem/intune/configuration/device-restrictions-configure#create-the-profile).
@@ -60,7 +60,7 @@ For more information about creating and managing profiles, see [Restrict devices
 For more information about how to manage Surface Hub features and settings, see [Surface Hub Windows 10 Team device restrictions in Microsoft Intune](https://docs.microsoft.com/mem/intune/configuration/device-restrictions-windows-10-teams)
  
 
-### Create device configuration profiles
+### Create device configuration profile
 
 1. Sign in to [**Microsoft Endpoint Manager admin center**](https://endpoint.microsoft.com/), select **Devices** > **Configuration profiles** > **+ Create profile**.
 2. Under **Platform**, select **Windows 10 and later** >
@@ -74,7 +74,7 @@ For more information about how to manage Surface Hub features and settings, see 
     - Trusted certificate
 
 
-### Configure custom configuration profiles
+### Configure custom configuration profile
 
 You can extend the scope of management by using an OMA Uniform Resource Identifier (OMA URI) integrated with the Surface Hub Configuration service provider (CSP) along with multple other CSPs across a wide range of enterprise management areas.
  
