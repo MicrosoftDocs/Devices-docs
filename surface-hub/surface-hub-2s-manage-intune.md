@@ -66,7 +66,7 @@ For more information about how to manage Surface Hub features and settings, see 
 2. Under **Platform**, select **Windows 10 and later** >
 3. Under **Profile type**, select **Templates** and choose from the following templates supported on Surface Hub:
 
-    - Device restrictions (Windows 10 Team), as described in the [previous section](#configure-device-restriction-profiles).
+    - Device restrictions (Windows 10 Team), as described in the [previous section](#configure-device-restriction-profile).
     - Microsoft Defender for Endpoint (Windows 10 Desktop)
     - PKCS certificate
     - PKCS imported certificate
