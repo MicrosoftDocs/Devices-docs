@@ -31,7 +31,7 @@ Set the device account’s **PasswordNeverExpires** property to True. You should
 
 ## Allow the Surface Hub to automatically rotate the device account’s password
 
-The Surface Hub can automatically change a device account's password without requiring you to manually update it. You can enable this feature in **Settings** > **Surface Hub** > **Account**. If you turn on Password Rotation, the Surface Hub will attempt to change the password every 7 days during maintenance hours. Passwords do not change during a meeting. If 7 days have passed since the last password rotation, but the Surface Hub was off, it will attempt to change the password immediately when turned on or every 10 minutes until successful.
+The Surface Hub can automatically change a device account's password without requiring you to manually update it. You can enable this feature in **Settings** > **Surface Hub** > **Accounts**. If you turn on Password Rotation, the Surface Hub will attempt to change the password every 7 days during maintenance hours. Passwords do not change during a meeting. If 7 days have passed since the last password rotation, but the Surface Hub was off, it will attempt to change the password immediately when turned on or every 10 minutes until successful.
 
 The automatically generated passwords contain 15-32 characters including a combination of uppercase and lowercase letters, numbers, and special characters. Note that when the device account's password is changed, you will not be shown the new password. If you need to sign in to the account, or to provide the password again (for example, if you want to change the device account settings on the Surface Hub), then you'll need use Active Directory or the Microsoft 365 admin portal to reset the password.
 
