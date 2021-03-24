@@ -50,7 +50,7 @@ To summarize, options to configure and manage policy settings within Intune incl
 - **Create a Custom configuration profile.**  Extend your scope of management by implementing Configuration service provider (CSP) based policy settings. These consist of OMA Uniform Resource Identifier (OMA URI) values that map to Registry keys or feature settings. See [Configure custom configuration profile](#configure-custom-configuration-profile).
 
 
-### Configure device restriction profile
+## Configure device restriction profile
 
 1. Sign in to [**Microsoft Endpoint Manager admin center**](https://endpoint.microsoft.com/), select **Devices** > **Configuration profiles** > **+** **Create profile**.
 2. Under **Platform**, select **Windows 10 and later** >
@@ -67,7 +67,7 @@ For more information about creating and managing profiles, see [Restrict devices
 For more information about how to manage Surface Hub features and settings, see [Surface Hub Windows 10 Team device restrictions in Microsoft Intune](https://docs.microsoft.com/mem/intune/configuration/device-restrictions-windows-10-teams)
  
 
-### Create device configuration profile
+## Create device configuration profile
 
 1. Sign in to [**Microsoft Endpoint Manager admin center**](https://endpoint.microsoft.com/), select **Devices** > **Configuration profiles** > **+ Create profile**.
 2. Under **Platform**, select **Windows 10 and later** >
@@ -80,10 +80,15 @@ For more information about how to manage Surface Hub features and settings, see 
     - SCEP certificate
     - Trusted certificate
 
+## Configure custom configuration profile
 
-### Configure custom configuration profile
+You can extend the scope of management by creating a custom profile using an OMA Uniform Resource Identifier (OMA URI) from any of the Configuration service providers (CSPs) supported by the Surface Hub. For details on these CSPs, see the following resources:
 
-You can extend the scope of management by using an OMA Uniform Resource Identifier (OMA URI) integrated with the Surface Hub Configuration service provider (CSP) along with multiple other CSPs across a wide range of enterprise management areas. To implement CSP-based policy settings, begin by generating an OMA URI and then add them to a custom configuration profile in Intune.
+- [Configuration service provider reference](https://docs.microsoft.com/windows/client-management/mdm/configuration-service-provider-reference)
+- [SurfaceHub CSP](https://docs.microsoft.com/windows/client-management/mdm/surfacehub-csp)
+- [Policy CSPs supported by Microsoft Surface Hub](https://docs.microsoft.com/windows/client-management/mdm/policy-csps-supported-by-surface-hub)
+
+To implement CSP-based policy settings, begin by generating an OMA URI and then add them to a custom configuration profile in Intune.
 
 ### Generate OMA URI for target setting
  
@@ -103,12 +108,6 @@ To generate the OMA URI for any setting in the CSP documentation:
 2. Under Platform select **Windows 10 and later.** Under Profile, select **Custom**, and then select **Create.**
 3. Add a name and optional description and then select **Next.**
 4. Under **Configuration settings** > **OMA-URI Settings**, select **Add**.
- 
-For more information, see the following resources:
-
-- [Configuration service provider reference](https://docs.microsoft.com/windows/client-management/mdm/configuration-service-provider-reference)
-- [SurfaceHub CSP](https://docs.microsoft.com/windows/client-management/mdm/surfacehub-csp)
-- [Policy CSPs supported by Microsoft Surface Hub](https://docs.microsoft.com/windows/client-management/mdm/policy-csps-supported-by-surface-hub)
 
 
 ## Supported Surface Hub CSP settings
