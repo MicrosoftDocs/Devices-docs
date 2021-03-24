@@ -45,12 +45,12 @@ Microsoft Intune and other MDM providers use CSPs to deliver a UI that enables y
 
 To summarize, options to configure and manage policy settings within Intune include the following: 
  
-- **Create a Device restriction profile.** Use Intune's built in profile and configure settings directly via the Intune UI. See [Configure device restriction profile](#configure-device-restriction-profile).
+- **Create a Device restriction profile.** Use Intune's built in profile and configure settings directly via the Intune UI. See [Create device restriction profile](#configure-device-restriction-profile).
 - **Create a Device configuration profile.**  Select a template that includes a logical grouping of settings for a feature or technology. See [Create Device configuration profile](#create-device-configuration-profile).
-- **Create a Custom configuration profile.**  Extend your scope of management using an OMA Uniform Resource Identifier (OMA URI) from any of the [CSPs supported in Microsoft Surface Hub](https://docs.microsoft.com/windows/client-management/mdm/configuration-service-provider-reference#surfacehubcspsupport). See [Configure custom configuration profile](#configure-custom-configuration-profile).
+- **Create a Custom configuration profile.**  Extend your scope of management using an OMA Uniform Resource Identifier (OMA URI) from any of the [CSPs supported in Microsoft Surface Hub](https://docs.microsoft.com/windows/client-management/mdm/configuration-service-provider-reference#surfacehubcspsupport). See [Create custom configuration profile](#configure-custom-configuration-profile).
 
 
-## Configure device restriction profile
+## Create Device restriction profile
 
 1. Sign in to [**Microsoft Endpoint Manager admin center**](https://endpoint.microsoft.com/), select **Devices** > **Configuration profiles** > **+** **Create profile**.
 2. Under **Platform**, select **Windows 10 and later** >
@@ -67,7 +67,7 @@ For more information about creating and managing profiles, see [Restrict devices
 For more information about how to manage Surface Hub features and settings, see [Surface Hub Windows 10 Team device restrictions in Microsoft Intune](https://docs.microsoft.com/mem/intune/configuration/device-restrictions-windows-10-teams)
  
 
-## Create device configuration profile
+## Create Device configuration profile
 
 1. Sign in to [**Microsoft Endpoint Manager admin center**](https://endpoint.microsoft.com/), select **Devices** > **Configuration profiles** > **+ Create profile**.
 2. Under **Platform**, select **Windows 10 and later** >
@@ -80,7 +80,7 @@ For more information about how to manage Surface Hub features and settings, see 
     - SCEP certificate
     - Trusted certificate
 
-## Configure custom configuration profile
+## Create Custom configuration profile
 
 You can extend the scope of management by creating a custom profile using an OMA Uniform Resource Identifier (OMA URI) from any of the Configuration service providers (CSPs) supported by the Surface Hub. For details on these CSPs, see the following resources:
 
@@ -109,7 +109,7 @@ To generate the OMA URI for any setting in the CSP documentation:
 3. Add a name and optional description and then select **Next.**
 4. Under **Configuration settings** > **OMA-URI Settings**, select **Add**.
 
-
+For a detailed reference of supported Surface Hub CSP settings, refer to the [Appendix](#appendix-supported-surface-hub-csp-settings) below.
   
 ## Quality of Service (QoS) settings
 
