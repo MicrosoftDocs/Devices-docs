@@ -17,14 +17,14 @@ ms.localizationpriority: Medium
 
 Surface Hub allows IT administrators to manage settings and policies using a mobile device management (MDM) provider such as Microsoft Intune. Surface Hub has a built-in management component to communicate with the management server, so there is no need to install additional clients on the device.
 
-## Enrolling Surface Hub
+## Enrolling Surface Hub into MDM management 
 
-You can enroll Surface into Microsoft Intune or other MDM provider via Manual or Auto enrollment.
+You can enroll Surface into Microsoft Intune or other MDM provider via manual or auto enrollment.
 
 ### Manual enrollment
 
-1. Open the **Settings** app and sign in as a local administrator. Select **Surface Hub** > **Device management** and then select **+** to add.
-2.	You will be prompted to login with the account to use for your MDM provider. After authenticating, the device automatically enrolls into your MDM provider.
+1. Open the **Settings** app and sign in as a local administrator. Select **Surface Hub** > **Device management** and then select **+Device management**.
+2. You will be prompted to sign in with the account to use for your MDM provider. After authenticating, the device automatically enrolls into your MDM provider.
 
 > [!TIP]
 > If you’re using Intune and the server address is not detected, enter **manage.microsoft.com**.
@@ -34,19 +34,19 @@ You can enroll Surface into Microsoft Intune or other MDM provider via Manual or
 
 ### Auto Enrollment — Azure AD affiliated
 
-During the initial setup process, when affiliating a Surface Hub with an Azure Active Directory (AD) tenant that has Intune auto enrollment enabled, the device will automatically enroll with Intune. For more information, refer to [Intune enrollment methods for Windows devices](https://docs.microsoft.com/intune/enrollment/windows-enrollment-methods). Azure AD affiliation and Intune auto enrollment is required for the Surface Hub to be a "compliant device" in Intune. 
+During the initial setup process, when affiliating Surface Hub with an Azure Active Directory (AD) tenant that has Intune auto enrollment enabled, the device will automatically enroll with Intune. To learn more, refer to [Intune enrollment methods for Windows devices](https://docs.microsoft.com/intune/enrollment/windows-enrollment-methods). Azure AD affiliation and Intune auto enrollment is required for the Surface Hub to be a "compliant device" in Intune. 
 
 ## Manage Windows 10 Team settings with Intune
 
 The foundational building block of policy settings management in Intune and other MDM providers is the XML-based Open Mobile Alliance - Device Management (OMA-DM) protocol. Windows 10 implements OMA-DM XML via one of many available Configuration service providers (CSPs) with names like AccountManagement CSP, DeviceStatus CSP, Wirednetwork-CSP, and so on. For a complete list, refer to [CSPs supported in Microsoft Surface Hub](https://docs.microsoft.com/windows/client-management/mdm/configuration-service-provider-reference#surfacehubcspsupport).
 
 
-Microsoft Intune and other MDM providers use CSPs to deliver a UI that enables you to configure policy settings within Configuration profiles. Intune uses the Surface Hub CSP for its built in profile --  **Device restrictions (Windows 10 Team)** -- letting you configure basic settings such as preventing Surface Hub from "waking up" whenever anyone enters the room where it's located. To manage Hub settings and features outside of Intune's built-in profile, you'll need to create a custom profile, which is created similar to a built-in profile, as shown below. 
+Microsoft Intune and other MDM providers use CSPs to deliver a UI that enables you to configure policy settings within Configuration profiles. Intune uses the Surface Hub CSP for its built in profile —  **Device restrictions (Windows 10 Team)** — letting you configure basic settings such as preventing Surface Hub from "waking up" whenever anyone moves nearby within its proximity range. To manage Hub settings and features outside of Intune's built-in profile, you'll need to create a custom profile, which is created similar to a built-in profile, as shown below. 
 
 To summarize, options to configure and manage policy settings within Intune include the following: 
  
-- **Create a Device restriction profile.** Use Intune's built in profile and configure settings directly via the Intune UI. See [Create device restriction profile](#create-device-restriction-profile).
-- **Create a Device configuration profile.**  Select a template that includes a logical grouping of settings for a feature or technology. See [Create Device configuration profile](#create-device-configuration-profile).
+- **Create a Device restriction profile.** Use Intune's built in profile and configure settings directly in the Intune UI. See [Create device restriction profile](#create-device-restriction-profile).
+- **Create a Device configuration profile.**  Select a template focused on a specific feature or technology such as Microsoft Defender or security certificates. See [Create Device configuration profile](#create-device-configuration-profile).
 - **Create a Custom configuration profile.**  Extend your scope of management using an OMA Uniform Resource Identifier (OMA URI) from any of the [CSPs supported in Microsoft Surface Hub](https://docs.microsoft.com/windows/client-management/mdm/configuration-service-provider-reference#surfacehubcspsupport). See [Create custom configuration profile](#create-custom-configuration-profile).
 
 
@@ -82,21 +82,24 @@ For more information about how to manage Surface Hub features and settings, see 
 
 ## Create Custom configuration profile
 
-You can extend the scope of management by creating a custom profile using an OMA Uniform Resource Identifier (OMA URI) from any of the Configuration service providers (CSPs) supported by the Surface Hub. For details on these CSPs, see the following resources:
+You can extend the scope of management by creating a custom profile using an OMA URI from any of the [CSPs supported in Microsoft Surface Hub](https://docs.microsoft.com/windows/client-management/mdm/configuration-service-provider-reference#surfacehubcspsupport). OMA-URIs function as the address or value that you apply to MDM. CSPs are documented on the following pages: 
 
-- [Configuration service provider reference](https://docs.microsoft.com/windows/client-management/mdm/configuration-service-provider-reference)
+- [Configuration service provider reference](https://docs.microsoft.com/windows/client-management/mdm/configuration-service-provider-reference#surfacehubcspsupport)
 - [SurfaceHub CSP](https://docs.microsoft.com/windows/client-management/mdm/surfacehub-csp)
 - [Policy CSPs supported by Microsoft Surface Hub](https://docs.microsoft.com/windows/client-management/mdm/policy-csps-supported-by-surface-hub)
 
-To implement CSP-based policy settings, begin by generating an OMA URI and then add them to a custom configuration profile in Intune.
+To implement CSP-based policy settings, begin by generating OMA URIs and then add them to a custom configuration profile in Intune.
 
 ### Generate OMA URI for target setting
  
-To generate the OMA URI for any setting in the CSP documentation:
+To generate the OMA URI for any setting:
 
-1. In the CSP documentation, identify the root node of the CSP. Generally, this looks like **./Vendor/MSFT/<name of CSP>**. For example, the root node of the [SurfaceHub CSP](https://docs.microsoft.com/windows/client-management/mdm/surfacehub-csp) is **./Vendor/MSFT/SurfaceHub**.
-2. Identify the node path for the setting you want to use. For example, the node path for the setting to enable wireless projection is **InBoxApps/WirelessProjection/Enabled**.
-3. Append the node path to the root node to generate the OMA URI. For example, the OMA URI for the setting to enable wireless projection is **./Vendor/MSFT/SurfaceHub/InBoxApps/WirelessProjection/Enabled.**
+1. In the [CSP documentation]([CSP documentation](https://docs.microsoft.com/windows/client-management/mdm/configuration-service-provider-reference#surfacehubcspsupport), identify the root node of the CSP. Generally, this looks like **./Vendor/MSFT/<name of CSP>**. 
+    - **Example:** The root node of the [SurfaceHub CSP](https://docs.microsoft.com/windows/client-management/mdm/surfacehub-csp) is **./Vendor/MSFT/SurfaceHub**.
+2. Identify the node path for the setting you want to use. 
+    - **Example:** The node path for the setting to enable wireless projection is **InBoxApps/WirelessProjection/Enabled**.
+3. Append the node path to the root node to generate the OMA URI. 
+    - **Example:** The OMA URI for the setting to enable wireless projection is **./Vendor/MSFT/SurfaceHub/InBoxApps/WirelessProjection/Enabled.**
 4. The data type is also stated in the CSP documentation. The most common data types are:
     - char (String)
     - int (Integer)
@@ -154,11 +157,11 @@ To ensure optimal video and audio quality on Surface Hub, add the following QoS 
 > [!NOTE]
 > Both tables show default port ranges. Administrators may change the port ranges in the Skype for Business and Teams control panel.
 
-## Microsoft Teams and Skype for Business settings
+### Microsoft Teams and Skype for Business settings
 
 You can create a custom profile to manage Teams Coordinated Meeting, proximity join, and other features. To learn more, see [Manage Microsoft Teams configuration on Surface Hub](https://docs.microsoft.com/microsoftteams/rooms/surface-hub-manage-config).
 
-### Changing default business communications platform
+#### Changing default business communications platform
 
 The default business communications platform on Surface Hub varies depending on how you install Windows 10 Team 2020 Update (aka Windows 10 20H2). If you re-image Surface Hub to Windows 10 20H2, Microsoft Teams with Skype for Business functionality will be installed by default. But if you upgrade, Skype for Business with Teams functionality will remain as the default installation unless you previously configured Teams as your default. 
 
