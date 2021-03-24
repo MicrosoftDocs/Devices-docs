@@ -112,7 +112,7 @@ For more information, see the following resources:
 - [Policy CSPs supported by Microsoft Surface Hub](https://docs.microsoft.com/windows/client-management/mdm/policy-csps-supported-by-surface-hub)
 
 
-# Supported Surface Hub CSP settings
+## Supported Surface Hub CSP settings
 
 | Setting                                                                      | Node in the SurfaceHub CSP                                                  | Supported with Intune? |
 | -------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- | --------------------------------- |
