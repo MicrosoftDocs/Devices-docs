@@ -80,7 +80,7 @@ For more information about how to manage Surface Hub features and settings, see 
 
 ## Create Custom configuration profile
 
-You can extend the scope of management by creating a custom profile using an OMA URI from any of the [CSPs supported in Microsoft Surface Hub](https://docs.microsoft.com/windows/client-management/mdm/configuration-service-provider-reference#surfacehubcspsupport). OMA-URIs function as the address or value that you apply to MDM. CSPs are documented on the following pages: 
+You can extend the scope of management by creating a custom profile using an OMA URI from any of the [CSPs supported in Microsoft Surface Hub](https://docs.microsoft.com/windows/client-management/mdm/configuration-service-provider-reference#surfacehubcspsupport). OMA-URIs function as the address or value that you apply to a custom configuration profile. CSPs are documented on the following pages: 
 
 - [Configuration service provider reference](https://docs.microsoft.com/windows/client-management/mdm/configuration-service-provider-reference#surfacehubcspsupport)
 - [SurfaceHub CSP](https://docs.microsoft.com/windows/client-management/mdm/surfacehub-csp)
@@ -92,7 +92,7 @@ To implement CSP-based policy settings, begin by generating an OMA URI and then 
  
 To generate the OMA URI for any setting:
 
-1. In the [CSP documentation]([CSP documentation](https://docs.microsoft.com/windows/client-management/mdm/configuration-service-provider-reference#surfacehubcspsupport), identify the root node of the CSP. Generally, this looks like **./Vendor/MSFT/<name of CSP>**. 
+1. In the [CSP documentation](https://docs.microsoft.com/windows/client-management/mdm/configuration-service-provider-reference#surfacehubcspsupport), identify the root node of the CSP. Generally, this looks like **./Vendor/MSFT/<name of CSP>**. 
     - **Example:** The root node of the [SurfaceHub CSP](https://docs.microsoft.com/windows/client-management/mdm/surfacehub-csp) is **./Vendor/MSFT/SurfaceHub**.
 2. Identify the node path for the setting you want to use. 
     - **Example:** The node path for the setting to enable wireless projection is **InBoxApps/WirelessProjection/Enabled**.
@@ -103,7 +103,7 @@ To generate the OMA URI for any setting:
     - int (Integer)
     - bool (Boolean)
 
-### Add OMA URI to custom profile
+### Add OMA URI to Custom configuration profile
 
 1. In Endpoint Manager, select **Devices** > **Configuration profiles** > **Create profile**.
 2. Under Platform select **Windows 10 and later.** Under Profile, select **Custom**, and then select **Create.**
@@ -157,11 +157,11 @@ To ensure optimal video and audio quality on Surface Hub, add the following QoS 
 
 ### Microsoft Teams and Skype for Business settings
 
-You can create a custom profile to manage Teams Coordinated Meeting, proximity join, and other features. To learn more, see [Manage Microsoft Teams configuration on Surface Hub](https://docs.microsoft.com/microsoftteams/rooms/surface-hub-manage-config).
+You can create a Custom configuration profile to manage Teams Coordinated Meeting, proximity join, and other features. To learn more, see [Manage Microsoft Teams configuration on Surface Hub](https://docs.microsoft.com/microsoftteams/rooms/surface-hub-manage-config).
 
 #### Changing default business communications platform
 
-The default business communications platform on Surface Hub varies depending on how you install Windows 10 Team 2020 Update (aka Windows 10 20H2). If you re-image Surface Hub to Windows 10 20H2, Microsoft Teams with Skype for Business functionality will be installed by default. But if you upgrade, Skype for Business with Teams functionality will remain as the default installation unless you previously configured Teams as your default. 
+The default business communications platform on Surface Hub varies depending on how you install Windows 10 Team 2020 Update (aka Windows 10 20H2). If you re-image Surface Hub to Windows 10 20H2, Microsoft Teams with Skype for Business functionality will be installed by default. But if you upgrade, Skype for Business with Teams functionality will remain as the default installation unless you had already configured Teams as your default. 
 
 To change the default installation, use a [custom profile](https://docs.microsoft.com/mem/intune/configuration/custom-settings-configure) by setting the Teams App Mode as follows:  
 
