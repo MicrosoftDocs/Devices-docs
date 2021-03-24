@@ -55,12 +55,10 @@ To summarize, options to configure and manage policy settings within Intune incl
 1. Sign in to [**Microsoft Endpoint Manager admin center**](https://endpoint.microsoft.com/), select **Devices** > **Configuration profiles** > **+** **Create profile**.
 2. Under **Platform**, select **Windows 10 and later** >
 3. Under ****Profile type**,** select **Templates** and then select **Device restrictions (Windows 10 Team)**
-4. Select **Create**.
-5. Add a name and select **Next.**
-6. You can now browse and select preset device restriction settings for Surface Hub across the following categories: Apps and experience, Azure operational insights, Maintenance, Session, and Wireless projection. The example shown in the following figure specifies a 4-hour maintenance window and a 15 minute timeout for screen, sleep and session resume.
+4. Select **Create**, add a name and then select **Next.**
+6. You can now browse and choose from preset device restriction settings for Surface Hub across the following categories: Apps and experience, Azure operational insights, Maintenance, Session, and Wireless projection. The example shown in the following figure specifies a 4-hour maintenance window and a 15 minute timeout for screen, sleep and session resume.
 
      ![Configure Surface Hub settings with Intune device restriction profile](images/sh-device-restrictions.png)
-
 
 For more information about creating and managing profiles, see [Restrict devices features using policy in Microsoft Intune](https://docs.microsoft.com/mem/intune/configuration/device-restrictions-configure#create-the-profile).
  
@@ -88,7 +86,7 @@ You can extend the scope of management by creating a custom profile using an OMA
 - [SurfaceHub CSP](https://docs.microsoft.com/windows/client-management/mdm/surfacehub-csp)
 - [Policy CSPs supported by Microsoft Surface Hub](https://docs.microsoft.com/windows/client-management/mdm/policy-csps-supported-by-surface-hub)
 
-To implement CSP-based policy settings, begin by generating OMA URIs and then add them to a custom configuration profile in Intune.
+To implement CSP-based policy settings, begin by generating an OMA URI and then add it to a custom configuration profile in Intune.
 
 ### Generate OMA URI for target setting
  
