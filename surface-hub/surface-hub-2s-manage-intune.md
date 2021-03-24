@@ -197,35 +197,17 @@ The following tables include info on Windows 10 settings that have been validate
 | Reboot the device at a scheduled date and time       | See above.                                                                                                                                                                    | ./Vendor/MSFT/Reboot/Schedule/Single<br>See [Reboot CSP](https://msdn.microsoft.com/library/windows/hardware/mt720802.aspx)         | Use a custom profile. |
 | Reboot the device daily at a scheduled date and time | See above.                                                                                                                                                                    | ./Vendor/MSFT/Reboot/Schedule/DailyRecurrent<br>See [Reboot CSP](https://msdn.microsoft.com/library/windows/hardware/mt720802.aspx) | Use a custom profile. |
 
-### Install certificates
 
-| Setting                         | Details                                                      | CSP reference                                                                                      | Supported with Intune?                                                                                                                      |
-| ------------------------------- | ------------------------------------------------------------ | -------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
-| Install trusted CA certificates | Use to deploy trusted root and intermediate CA certificates. | [RootCATrustedCertificates CSP](https://msdn.microsoft.com/library/windows/hardware/dn904970.aspx) | <br>See [Configure Intune certificate profiles](https://docs.microsoft.com/intune/deploy-use/configure-intune-certificate-profiles). |
+### Additional settings
 
-### Collect logs
+| Setting                         | Details                                                                                                                                                                                       | CSP reference                                                                                                                |
+| ------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| Install trusted CA certificates | Use to deploy trusted root and intermediate CA certificates. See [Configure Intune certificate profiles](https://docs.microsoft.com/intune/deploy-use/configure-intune-certificate-profiles). | [RootCATrustedCertificates CSP](https://msdn.microsoft.com/library/windows/hardware/dn904970.aspx)                           |
+| Collect ETW logs                | Use to remotely collect ETW logs from Surface Hub. Note this is not supported in Intune.                                                                                                      | [DiagnosticLog CSP](https://msdn.microsoft.com/library/windows/hardware/mt219118.aspx)                                       |
+| Set Network QoS Policy          | Use to set a QoS policy to perform a set of actions on network traffic. This is useful for prioritizing Skype network packets.                                                                | [NetworkQoSPolicy CSP](https://msdn.microsoft.com/windows/hardware/commercialize/customize/mdm/networkqospolicy-csp)         |
+| Set Network proxy               | Use to configure a proxy server for ethernet and Wi-Fi connections.                                                                                                                           | [NetworkProxy CSP](https://msdn.microsoft.com/windows/hardware/commercialize/customize/mdm/networkproxy-csp)                 |
+| Configure Start menu            | Use to configure which apps are displayed on the Start menu. For more information, see [Configure Surface Hub Start menu](https://docs.microsoft.com/surface-hub/surface-hub-start-menu)      | [Policy CSP: Start/StartLayout](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-start#start-startlayout) |
 
-| Setting          | Details                                            | CSP reference                                                                          | Supported with<br>Intune? |
-| ---------------- | -------------------------------------------------- | -------------------------------------------------------------------------------------- | ------------------------- |
-| Collect ETW logs | Use to remotely collect ETW logs from Surface Hub. | [DiagnosticLog CSP](https://msdn.microsoft.com/library/windows/hardware/mt219118.aspx) | No                        |
-
-### Set network quality of service (QoS) policy
-
-| Setting                | Details                                                                                                                        | CSP reference                                                                                                        | Supported with Intune?     |
-| ---------------------- | ------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------- | ----------------------------- |
-| Set Network QoS Policy | Use to set a QoS policy to perform a set of actions on network traffic. This is useful for prioritizing Skype network packets. | [NetworkQoSPolicy CSP](https://msdn.microsoft.com/windows/hardware/commercialize/customize/mdm/networkqospolicy-csp) | Use a custom profile. |
-
-### Set network proxy
-
-| Setting           | Details                                                             | CSP reference                                                                                                | Supported with Intune?     |
-| ----------------- | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ | ----------------------------- |
-| Set Network proxy | Use to configure a proxy server for ethernet and Wi-Fi connections. | [NetworkProxy CSP](https://msdn.microsoft.com/windows/hardware/commercialize/customize/mdm/networkproxy-csp) | Use a custom profile. |
-
-### Configure Start menu
-
-| Setting              | Details                                                                                                                                                                                        | CSP reference                                                                                                                      | Supported with Intune?     |
-| -------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | ----------------------------- |
-| Configure Start menu | Use to configure which apps are displayed on the Start menu. For more information, see [Configure Surface Hub Start menu](https://docs.microsoft.com/surface-hub/surface-hub-start-menu) | [Policy CSP: Start/StartLayout](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-start#start-startlayout) | Use a custom profile. |
 
   
 ## Quality of Service (QoS) settings
