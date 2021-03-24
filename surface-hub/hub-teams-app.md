@@ -23,3 +23,7 @@ The Microsoft Teams app for Surface Hub is periodically updated and available vi
 | 0.2020.521.2344.0     | - 3x3 Gallery view on Surface Hub<br>- Ability to search for External users                         | June 10, 2020<br>            |
 | 0.2020.13201          | - Quality improvements and Bug fixes                                                                | June 1, 2020<br>          |
 | 0.2020.4301.0         | - Accept incoming PSTN calls on Surface Hub<br>- Consume Attendee/Presenter role changes            | May 21, 2020                     |
+
+## Learn more
+
+- [Manage Microsoft Teams settings on Surface Hub](https://docs.microsoft.com/microsoftteams/rooms/surface-hub-manage-config)
