@@ -50,5 +50,10 @@
             "redirect_url":  "https://docs.microsoft.com/surface-hub/password-management-for-surface-hub-device-accounts",
             "redirect_document_id":  true
         },
+        {
+            "source_path":  "surface-hub/surface-hub-2s-whats-new.md",
+            "redirect_url":  "https://docs.microsoft.com/surface-hub/surface-hub-2020-update-whats-new",
+            "redirect_document_id":  true
+        },
 ]
 }
