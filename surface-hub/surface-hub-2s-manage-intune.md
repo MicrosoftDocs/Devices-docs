@@ -47,7 +47,7 @@ To summarize, options to configure and manage policy settings within Intune incl
  
 - **Create a Device restriction profile.** Use Intune's built in profile and configure settings directly via the Intune UI. See [Create device restriction profile](#create-device-restriction-profile).
 - **Create a Device configuration profile.**  Select a template that includes a logical grouping of settings for a feature or technology. See [Create Device configuration profile](#create-device-configuration-profile).
-- **Create a Custom configuration profile.**  Extend your scope of management using an OMA Uniform Resource Identifier (OMA URI) from any of the [CSPs supported in Microsoft Surface Hub](https://docs.microsoft.com/windows/client-management/mdm/configuration-service-provider-reference#surfacehubcspsupport). See [Create custom configuration profile](#configure-custom-configuration-profile).
+- **Create a Custom configuration profile.**  Extend your scope of management using an OMA Uniform Resource Identifier (OMA URI) from any of the [CSPs supported in Microsoft Surface Hub](https://docs.microsoft.com/windows/client-management/mdm/configuration-service-provider-reference#surfacehubcspsupport). See [Create custom configuration profile](#create-custom-configuration-profile).
 
 
 ## Create Device restriction profile
@@ -114,8 +114,8 @@ To generate the OMA URI for any setting in the CSP documentation:
 
 This section highlights information about features that you can manage via Intune or other MDM provider. This includes:
 
-- Quality of Service (QoS)
-- Microsoft Teams and Skype for Business
+- [Quality of Service (QoS)](#quality-of-service)
+- [Microsoft Teams and Skype for Business](#microsoft-teams-and-skype-for-business)
 
 ### Quality of Service 
 
