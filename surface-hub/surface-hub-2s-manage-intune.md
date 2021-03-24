@@ -114,10 +114,10 @@ To generate the OMA URI for any setting in the CSP documentation:
 
 This section highlights information about features that you can manage via Intune or other MDM provider. This includes:
 
-- [Quality of Service (QoS)](#quality-of-service)
-- [Microsoft Teams and Skype for Business](#microsoft-teams-and-skype-for-business)
+- [Quality of Service (QoS)](#quality-of-service-settings)
+- [Microsoft Teams and Skype for Business](#microsoft-teams-and-skype-for-business-settings)
 
-### Quality of Service 
+### Quality of Service settings
 
 To ensure optimal video and audio quality on Surface Hub, add the following QoS settings to the device. 
 
