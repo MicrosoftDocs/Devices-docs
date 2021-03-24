@@ -78,19 +78,13 @@ For more information about how to manage Surface Hub features and settings, see 
 
 ### Configure custom configuration profile
 
-You can extend the scope of management by using an OMA Uniform Resource Identifier (OMA URI) integrated with the Surface Hub Configuration service provider (CSP) along with multple other CSPs across a wide range of enterprise management areas.
- 
-Microsoft provides new CSPs with each new version of the Windows 10 operating system. The [Windows 10 Team 2020 Update](https://docs.microsoft.com/surface-hub/surface-hub-2020-update) includes more than 20 new and updated device management policies for Surface Hub. These new MDM policy settings enable IT admins to remotely manage key features including app updates from the Microsoft Store, wireless projection settings such as Miracast over infrastructure, network settings such as Quality-Of-Service and 802.1x wired authentication, as well as new privacy/GDPR related settings.
-
-To implement CSP-based policy settings, begin by generating an OMA URI and then add them to a custom configuration profile in Intune.
+You can extend the scope of management by using an OMA Uniform Resource Identifier (OMA URI) integrated with the Surface Hub Configuration service provider (CSP) along with multiple other CSPs across a wide range of enterprise management areas. To implement CSP-based policy settings, begin by generating an OMA URI and then add them to a custom configuration profile in Intune.
 
 ### Generate OMA URI for target setting
-
-You need to use a setting's OMA URI to create a custom policy in Intune
  
 To generate the OMA URI for any setting in the CSP documentation:
 
-1. In the CSP documentation, identify the root node of the CSP. Generally, this looks like **./Vendor/MSFT/<name of CSP>**. For example, the root node of the [SurfaceHub CSP](https://msdn.microsoft.com/library/windows/hardware/mt608323.aspx) is **./Vendor/MSFT/SurfaceHub**.
+1. In the CSP documentation, identify the root node of the CSP. Generally, this looks like **./Vendor/MSFT/<name of CSP>**. For example, the root node of the [SurfaceHub CSP](https://docs.microsoft.com/windows/client-management/mdm/surfacehub-csp) is **./Vendor/MSFT/SurfaceHub**.
 2. Identify the node path for the setting you want to use. For example, the node path for the setting to enable wireless projection is **InBoxApps/WirelessProjection/Enabled**.
 3. Append the node path to the root node to generate the OMA URI. For example, the OMA URI for the setting to enable wireless projection is **./Vendor/MSFT/SurfaceHub/InBoxApps/WirelessProjection/Enabled.**
 4. The data type is also stated in the CSP documentation. The most common data types are:
