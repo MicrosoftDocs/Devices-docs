@@ -112,6 +112,36 @@ For more information, see the following resources:
 - [Policy CSPs supported by Microsoft Surface Hub](https://docs.microsoft.com/windows/client-management/mdm/policy-csps-supported-by-surface-hub)
 
 
+# Supported Surface Hub CSP settings
+
+| Setting                                                                      | Node in the SurfaceHub CSP                                                  | Supported with Intune? |
+| -------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- | --------------------------------- |
+| Maintenance hours                                                                | MaintenanceHoursSimple/Hours/StartTime<br>MaintenanceHoursSimple/Hours/Duration | Yes                               |
+| Automatically turn on the screen using motion sensors                            | InBoxApps/Welcome/AutoWakeScreen                                                | Yes                               |
+| Require a pin for wireless projection                                            | InBoxApps/WirelessProjection/PINRequired                                        | Yes                               |
+| Enable wireless projection                                                       | InBoxApps/WirelessProjection/Enabled                                            | Yes                               |
+| Miracast channel to use for wireless projection                                  | InBoxApps/WirelessProjection/Channel                                            | Yes                               |
+| Connect to your Operations Management Suite workspace                            | MOMAgent/WorkspaceID<br>MOMAgent/WorkspaceKey                                   | Yes                               |
+| Welcome screen background image                                                  | InBoxApps/Welcome/CurrentBackgroundPath                                         | Yes                               |
+| Meeting information displayed on the welcome screen                              | InBoxApps/Welcome/MeetingInfoOption                                             | Yes                               |
+| Friendly name for wireless projection                                            | Properties/FriendlyName                                                         | Yes. Use custom profile           |
+| Device account                                                                   | DeviceAccount/*<name_of_policy>*                                                | No                                |
+| Specify Skype domain                                                             | InBoxApps/SkypeForBusiness/DomainName                                           | Yes                               |
+| Auto launch Connect App when projection is initiated                             | InBoxApps/Connect/AutoLaunch                                                    | Yes                               |
+| Set default volume                                                               | Properties/DefaultVolume                                                        | Yes                               |
+| Set screen timeout                                                               | Properties/ScreenTimeout                                                        | Yes                               |
+| Set session timeout                                                              | Properties/SessionTimeout                                                       | Yes                               |
+| Set sleep timeout                                                                | Properties/SleepTimeout                                                         | Yes                               |
+| Allow session to resume after screen is idle                                     | Properties/AllowSessionResume                                                   | Yes                               |
+| Allow device account to be used for proxy authentication                         | Properties/AllowAutoProxyAuth                                                   | Yes                               |
+| Disable auto-populating the sign-in dialog with invitees from scheduled meetings | Properties/DisableSignInSuggestions                                             | Yes                               |
+| Disable "My meetings and files" feature in Start menu                            | Properties/DoNotShowMyMeetingsAndFiles                                          | Yes                               |
+| Set the LanProfile for 802.1x Wired Auth                                         | Dot3/LanProfile                                                                 | Yes. Use custom profile.          |
+| Set the EapUserData for 802.1x Wired Auth                                        | Dot3/EapUserData                                                                | Yes. Use custom profile.          |
+
+
+
+
 ## Quality of Service (QoS) settings
 
 To ensure optimal video and audio quality on Surface Hub, add the following QoS settings to the device. 
