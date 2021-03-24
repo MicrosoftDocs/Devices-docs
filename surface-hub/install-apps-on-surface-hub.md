@@ -138,7 +138,7 @@ To deploy apps to a large number of Surface Hubs in your organization, use a sup
 > [!NOTE]
 > These instructions are based on the current branch of Microsoft Endpoint Configuration Manager.
 
-1. Enroll your Surface Hubs to Configuration Manager. For more information, see [Enroll a Surface Hub into MDM](manage-settings-with-mdm-for-surface-hub.md#enroll-into-mdm).
+1. Enroll your Surface Hubs into MDM management. For more information, see [Manage Surface Hub with an MDM provider](manage-settings-with-mdm-for-surface-hub.md).
 2. Download the offline-licensed app package, the *encoded* license file, and any necessary dependency files from the Store for Business. For more information, see [Download an offline-licensed app](https://technet.microsoft.com/itpro/windows/manage/distribute-offline-apps#download-an-offline-licensed-app). Place the downloaded files in the same folder on a network share.
 3. In the **Software Library** workspace of the Configuration Manager console, click **Overview** > **Application Management** > **Applications**.
 4. On the **Home** tab, in the **Create** group, click **Create Application**.

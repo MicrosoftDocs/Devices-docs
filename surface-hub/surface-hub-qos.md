@@ -8,6 +8,7 @@ ms.sitesec: library
 author: dansimp
 ms.author: dansimp
 ms.topic: article
+ms.date: 03/25/2021
 ms.localizationpriority: medium
 ---
 
@@ -42,10 +43,7 @@ This procedure explains how to configure QoS for Surface Hub using Microsoft Int
     >[!IMPORTANT]
     >Each **OMA-URI** path begins with `./Device/Vendor/MSFT/NetworkQoSPolicy`. The full path for the audio source port setting, for example, will be `./Device/Vendor/MSFT/NetworkQoSPolicy/HubAudio/SourcePortMatchCondition`.
 
-
-
-
-4. When the policy has been created, [deploy it to the Surface Hub.](manage-settings-with-mdm-for-surface-hub.md#manage-surface-hub-settings-with-mdm)
+4. When the policy has been created, deploy it to Surface Hub.
 
 
 >[!WARNING]
