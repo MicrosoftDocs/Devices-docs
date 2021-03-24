@@ -38,13 +38,16 @@ During the initial setup process, when affiliating a Surface Hub with an Azure A
 
 ## Manage Windows 10 Team settings with Intune
 
-Microsoft Intune includes built in settings to control different features on Surface Hub. These settings are included in a built in profile named **Device restrictions (Windows 10 Team)**. To manage Hub settings and features that aren’t built into Intune, you'll need to create a custom profile, which is created similar to a built-in profile. 
+The foundational building block of policy settings management in Intune and other MDM providers is the XML-based Open Mobile Alliance - Device Management (OMA-DM) protocol. Windows 10 implements OMA-DM XML via one of many available Configuration service providers (CSPs) with names like AccountManagement CSP, DeviceStatus CSP, Wirednetwork-CSP, and so on. For a complete list, refer to [CSPs supported in Microsoft Surface Hub](https://docs.microsoft.com/windows/client-management/mdm/configuration-service-provider-reference#surfacehubcspsupport).
 
-You can fully manage Surface Hub settings via Intune in the following ways:
+
+Microsoft Intune and other MDM providers use CSPs to deliver a UI that enables you to configure policy settings within Configuration profiles. Intune uses the Surface Hub CSP for its built in profile --  **Device restrictions (Windows 10 Team)** -- letting you configure  basic settings such as preventing Surface Hub from "waking up" whenever anyone enters the room where it's located. To manage Hub settings and features outside of Intune's built-in profile, you'll need to create a custom profile, which is created similar to a built-in profile, as shown below. 
+
+To summarize, options to configure and manage policy settings within Intune include the following: 
  
-- Create a **Device restriction profile** from a built in profile using the Intune UI. See [Configure device restriction profile](#configure-device-restriction-profile).
-- Create a **Device configuration profile** and select a template that includes a logical grouping of settings for a feature or technology. See [Create Device configuration profile](#create-device-configuration-profile).
-- Create a **Custom configuration profile** that lets you extend the scope of management by implementing Configuration service provider (CSP) based policy settings. These consist of OMA Uniform Resource Identifier (OMA URI) values that map to Registry keys or feature settings. See [Configure custom configuration profile](#configure-custom-configuration-profile).
+- **Create a Device restriction profile.** Use Intune's built in profile and configure settings directly via the Intune UI. See [Configure device restriction profile](#configure-device-restriction-profile).
+- **Create a Device configuration profile.**  Select a template that includes a logical grouping of settings for a feature or technology. See [Create Device configuration profile](#create-device-configuration-profile).
+- **Create a Custom configuration profile.**  Extend your scope of management by implementing Configuration service provider (CSP) based policy settings. These consist of OMA Uniform Resource Identifier (OMA URI) values that map to Registry keys or feature settings. See [Configure custom configuration profile](#configure-custom-configuration-profile).
 
 
 ### Configure device restriction profile
