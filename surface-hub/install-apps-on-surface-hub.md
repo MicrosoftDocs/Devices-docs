@@ -57,32 +57,37 @@ Once an app is ready for release, developers need to submit and publish it to th
 
 During app submission, developers need to set **Device family availability** and **Organizational licensing** options to make sure the app will be available to run on Surface Hub.
 
-**To set device family availability**  
+**To set device family availability**
+
 1. On the [Windows Dev Center](https://developer.microsoft.com), navigate to your app submission page.
+
 2. Select **Packages**.
 3. Under **Device family availability**, select these options:
     
     - **Windows 10 Team**
     - **Let Microsoft decide whether to make the app available to any future device families**
   
-![Image showing Device family availability page - part of Microsoft Store app submission process.](images/device-family.png)  
+   ![Image showing Device family availability page - part of Microsoft Store app submission process.](images/device-family.png)  
     
-For more information, see [Device family availability](https://msdn.microsoft.com/windows/uwp/publish/upload-app-packages#device-family-availability).
+   For more information, see [Device family availability](https://msdn.microsoft.com/windows/uwp/publish/upload-app-packages#device-family-availability).
 
 **To set organizational licensing**
+
 1. On the [Windows Dev Center](https://developer.microsoft.com), navigate to your app submission page.
+
 2. Select **Pricing and availability**.
+
 3. Under Organizational licensing, select **Allow disconnected (offline) licensing for organizations**.
 
-![Image showing Organizational licensing page - part of Microsoft Store app submission process.](images/sh-org-licensing.png)
+   ![Image showing Organizational licensing page - part of Microsoft Store app submission process.](images/sh-org-licensing.png)
 
-> [!NOTE]
-> **Make my app available to organizations with Store-managed (online) licensing and distribution** is selected by default.
+   > [!NOTE]
+   > **Make my app available to organizations with Store-managed (online) licensing and distribution** is selected by default.
 
-> [!NOTE]
-> Developers can also publish line-of-business apps directly to enterprises without making them broadly available in the Store. For more information, see [Distribute LOB apps to enterprises](https://msdn.microsoft.com/windows/uwp/publish/distribute-lob-apps-to-enterprises).
+   > [!NOTE]
+   > Developers can also publish line-of-business apps directly to enterprises without making them broadly available in the Store. For more information, see [Distribute LOB apps to enterprises](https://msdn.microsoft.com/windows/uwp/publish/distribute-lob-apps-to-enterprises).
 
-For more information, see [Organizational licensing options](https://msdn.microsoft.com/windows/uwp/publish/organizational-licensing).
+   For more information, see [Organizational licensing options](https://msdn.microsoft.com/windows/uwp/publish/organizational-licensing).
 
 
 ## Deploy released apps
@@ -139,17 +144,29 @@ To deploy apps to a large number of Surface Hubs in your organization, use a sup
 > These instructions are based on the current branch of Microsoft Endpoint Configuration Manager.
 
 1. Enroll your Surface Hubs into MDM management. For more information, see [Manage Surface Hub with an MDM provider](manage-settings-with-mdm-for-surface-hub.md).
+
 2. Download the offline-licensed app package, the *encoded* license file, and any necessary dependency files from the Store for Business. For more information, see [Download an offline-licensed app](https://technet.microsoft.com/itpro/windows/manage/distribute-offline-apps#download-an-offline-licensed-app). Place the downloaded files in the same folder on a network share.
+
 3. In the **Software Library** workspace of the Configuration Manager console, click **Overview** > **Application Management** > **Applications**.
+
 4. On the **Home** tab, in the **Create** group, click **Create Application**.
+
 5. On the **General** page of the **Create Application Wizard**, select the **Automatically detect information about this application from installation files** check box.
+
 6. In the **Type** drop-down list, select **Windows app package (\*.appx, \*.appxbundle)**.
+
 7. In the **Location** field, specify the UNC path in the form \\server\share\\filename for the offline-licensed app package that you downloaded from the Store for Business. Alternatively, click **Browse** to browse to the app package.
+
 8. On the **Import Information** page, review the information that was imported, and then click **Next**. If necessary, you can click **Previous** to go back and correct any errors.
+
 9. On the **General Information** page, complete additional details about the app. Some of this information might already be populated if it was automatically obtained from the app package.
+
 10. Click **Next**, review the application information on the Summary page, and then complete the Create Application Wizard. 
+
 11. Create a deployment type for the application. For more information, see [Create deployment types for the application](https://docs.microsoft.com/sccm/apps/deploy-use/create-applications#create-deployment-types-for-the-application).
+
 12. Deploy the application to your Surface Hubs. For more information, see [Deploy applications with Microsoft Endpoint Configuration Manager](https://docs.microsoft.com/sccm/apps/deploy-use/deploy-applications).
+
 13. As needed, update the app by downloading a new package from the Store for Business, and publishing an application revision in Configuration Manager. For more information, see [Update and retire applications with Microsoft Endpoint Configuration Manager](https://technet.microsoft.com/library/mt595704.aspx). 
 
 > [!NOTE] 
