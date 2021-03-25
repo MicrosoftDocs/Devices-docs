@@ -55,5 +55,10 @@
             "redirect_url":  "https://docs.microsoft.com/surface-hub/surface-hub-2020-update-whats-new",
             "redirect_document_id":  true
         },
+        {
+            "source_path":  "surface-hub/surface-hub-2s-manage-intune.md",
+            "redirect_url":  "https://docs.microsoft.com/surface-hub/manage-settings-with-mdm-for-surface-hub",
+            "redirect_document_id":  true
+        },
 ]
 }
