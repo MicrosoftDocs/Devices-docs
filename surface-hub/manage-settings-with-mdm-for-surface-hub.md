@@ -31,7 +31,7 @@ You can enroll Surface into Microsoft Intune or other MDM provider via manual or
 > If you’re using Intune and the server address is not detected, enter **manage.microsoft.com**.
    
 > [!NOTE]
-> The account used for authentication will be the MDM provider enrollment account.
+>  MDM enrollment uses the account details provided for authentication. The account must have permissions to enroll a device as well as a license assigned for Intune (or be compliant with the licensing provisions of a third-party MDM provider).
 
 ### Auto Enrollment — Azure AD affiliated
 
