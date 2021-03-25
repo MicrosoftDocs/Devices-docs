@@ -88,6 +88,8 @@ You can extend the scope of management by creating a custom profile using an OMA
 - [Policy CSPs supported by Microsoft Surface Hub](https://docs.microsoft.com/windows/client-management/mdm/policy-csps-supported-by-surface-hub)
 
 To implement CSP-based policy settings, begin by generating an OMA URI and then add it to a custom configuration profile in Intune.
+> [!NOTE]
+> Managing the device account with a custom policy is currently unavailable from Intune and requires using a third-party MDM provider. To learn more, refer to the [SurfaceHub CSP](https://docs.microsoft.com/windows/client-management/mdm/surfacehub-csp)
 
 To learn more about creating Custom configuration profiles, refer to [Create a profile with custom settings in Intune](https://docs.microsoft.com/mem/intune/configuration/custom-settings-configure)
 
