@@ -16,7 +16,7 @@ ms.localizationpriority: medium
 
 # Manage Surface Hub with an MDM provider
 
-Surface Hub allows IT administrators to manage settings and policies using a mobile device management (MDM) provider such as Microsoft Intune. Surface Hub has a built-in management component to communicate with the management server, so there is no need to install additional clients on the device.
+Surface Hub allows IT administrators to manage settings and policies using a mobile device management (MDM) provider such as Microsoft Intune. Surface Hub has a built-in management component to communicate with the management server. There is no need to install additional clients on the device.
 
 ## Enrolling Surface Hub into MDM management 
 
