@@ -25,13 +25,13 @@ You can enroll Surface into Microsoft Intune or other MDM provider via manual or
 ### Manual enrollment
 
 1. Open the **Settings** app and sign in as a local administrator. Select **Surface Hub** > **Device management** and then select **+Device management**.
-2. You will be prompted to sign in with the account to use for your MDM provider. After authenticating, the device automatically enrolls into your MDM provider.
+2. You will be prompted to sign in with the account to use for your MDM provider. After authenticating, the device automatically enrolls with your MDM provider.
 
 > [!TIP]
 > If you’re using Intune and the server address is not detected, enter **manage.microsoft.com**.
    
 > [!NOTE]
->  MDM enrollment uses the account details provided for authentication. The account must have permissions to enroll a device as well as a license assigned for Intune (or be compliant with the licensing provisions of a third-party MDM provider).
+>  MDM enrollment uses the account details provided for authentication. The account must have permissions to enroll a Windows device as well as an Intune license (or the equivalent enrollment promissions configured in your third-party MDM provider).
 
 ### Auto Enrollment — Azure AD affiliated
 
@@ -81,17 +81,15 @@ For more information about how to manage Surface Hub features and settings, see 
 
 ## Create Custom configuration profile
 
-You can extend the scope of management by creating a custom profile using an OMA URI from any of the [CSPs supported in Microsoft Surface Hub](https://docs.microsoft.com/windows/client-management/mdm/configuration-service-provider-reference#surfacehubcspsupport). OMA-URIs function as the address or value that you apply to a custom configuration profile. CSPs are documented on the following pages: 
+You can extend the scope of management by [creating a custom profile](https://docs.microsoft.com/mem/intune/configuration/custom-settings-configure) using an OMA URI from any of the [CSPs supported in Microsoft Surface Hub](https://docs.microsoft.com/windows/client-management/mdm/configuration-service-provider-reference#surfacehubcspsupport). Each setting in a CSP has a corresponding OMA-URI that you can set by using custom configuration profiles in Intune. For details on the CSPs supported by Surface Hub, you can reference the following resources: 
 
 - [Configuration service provider reference](https://docs.microsoft.com/windows/client-management/mdm/configuration-service-provider-reference#surfacehubcspsupport)
-- [SurfaceHub CSP](https://docs.microsoft.com/windows/client-management/mdm/surfacehub-csp)
 - [Policy CSPs supported by Microsoft Surface Hub](https://docs.microsoft.com/windows/client-management/mdm/policy-csps-supported-by-surface-hub)
+- [SurfaceHub CSP](https://docs.microsoft.com/windows/client-management/mdm/surfacehub-csp)
+> [!NOTE]
+> Managing the device account using settings from [SurfaceHub CSP](https://docs.microsoft.com/windows/client-management/mdm/surfacehub-csp) is not currently possible with Intune and requires using a third-party MDM provider.
 
 To implement CSP-based policy settings, begin by generating an OMA URI and then add it to a custom configuration profile in Intune.
-> [!NOTE]
-> Managing the device account with a custom policy is currently unavailable from Intune and requires using a third-party MDM provider. To learn more, refer to the [SurfaceHub CSP](https://docs.microsoft.com/windows/client-management/mdm/surfacehub-csp)
-
-To learn more about creating Custom configuration profiles, refer to [Create a profile with custom settings in Intune](https://docs.microsoft.com/mem/intune/configuration/custom-settings-configure)
 
 ### Generate OMA URI for target setting
  
@@ -162,11 +160,11 @@ To ensure optimal video and audio quality on Surface Hub, add the following QoS 
 
 ### Microsoft Teams and Skype for Business settings
 
-You can create a Custom configuration profile to manage Teams Coordinated Meeting, proximity join, and other features. To learn more, see [Manage Microsoft Teams configuration on Surface Hub](https://docs.microsoft.com/microsoftteams/rooms/surface-hub-manage-config).
+You can create a Custom configuration profile to manage Teams Coordinated Meetings, Proximity Join, and other features. To learn more, see [Manage Microsoft Teams configuration on Surface Hub](https://docs.microsoft.com/microsoftteams/rooms/surface-hub-manage-config).
 
 #### Changing default business communications platform
 
-The default business communications platform on Surface Hub varies depending on how you install Windows 10 Team 2020 Update (aka Windows 10 20H2). If you re-image Surface Hub to Windows 10 20H2, Microsoft Teams with Skype for Business functionality will be installed by default. But if you upgrade, Skype for Business with Teams functionality will remain as the default installation unless you had already configured Teams as your default. 
+The default business communications platform on Surface Hub varies depending on how you install Windows 10 Team 2020 Update (aka Windows 10 20H2). If you re-image Surface Hub to Windows 10 20H2, Microsoft Teams will be set as the default, with Skype for Business functionality available (Mode 1). If you upgrade your Hub from an earlier OS version, Skype for Business will remain as the default, with Teams functionality available (Mode 0) unless you had already configured Teams as your default. 
 
 To change the default installation, use a [custom profile](https://docs.microsoft.com/mem/intune/configuration/custom-settings-configure) by setting the Teams App Mode as follows:  
 
