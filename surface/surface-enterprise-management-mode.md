@@ -54,13 +54,11 @@ These packages contain a configuration file that specifies the UEFI settings. SE
 
 *Figure 1. Microsoft Surface UEFI Configurator*
 
-
 You can use the Microsoft Surface UEFI Configurator tool in three modes:
 
 * [Surface UEFI Configuration Package](#configuration-package). Use this mode to create a Surface UEFI configuration package to enroll a Surface device in SEMM and to configure UEFI settings on enrolled devices.
 * [Surface UEFI Reset Package](#reset-package). Use this mode to unenroll a Surface device from SEMM.
 * [Surface UEFI Recovery Request](#recovery-request). Use this mode to respond to a recovery request to unenroll a Surface device from SEMM where a Reset Package operation is not successful.
-
 
 #### Download Microsoft Surface UEFI Configurator
 
@@ -68,7 +66,7 @@ You can download Microsoft Surface UEFI Configurator from the [Surface Tools for
 
 ### Configuration package
 
-Surface UEFI configuration packages are the primary mechanism to implement and manage SEMM on Surface devices. These packages contain a configuration file and a certificate file, as shown in Figure 2. The configuration file contains UEFI settings that are specified when the package is created in Microsoft Surface UEFI Configurator. When a configuration package runs for the first time on a Surface device that's not already enrolled in SEMM, it provisions the certificate file in the device’s firmware and enrolls the device in SEMM. When enrolling a device in SEMM, , and before the certificate is stored and the enrollment completes, you're prompted to confirm the operation by providing the last two digits of the SEMM certificate thumbprint. This confirmation requires a user to be physically present at the device during enrollment to perform the confirmation.
+Surface UEFI configuration packages are the primary mechanism to implement and manage SEMM on Surface devices. These packages contain a configuration file and a certificate file, as shown in Figure 2. The configuration file contains UEFI settings that are specified when the package is created in Microsoft Surface UEFI Configurator. When a configuration package runs for the first time on a Surface device that's not already enrolled in SEMM, it provisions the certificate file in the device’s firmware and enrolls the device in SEMM. When enrolling a device in SEMM, and before the certificate is stored and the enrollment completes, you're prompted to confirm the operation by providing the last two digits of the SEMM certificate thumbprint. This confirmation requires a user to be physically present at the device during enrollment to perform the confirmation.
 
 ![Secure a SEMM configuration package with a certificate](images/surface-ent-mgmt-fig2-securepackage.png "Secure a SEMM configuration package with a certificate")
 
@@ -134,10 +132,10 @@ These characters are the last two characters of the certificate thumbprint and s
 
 >[!NOTE]
 >Administrators with access to the certificate file (.pfx) can read the thumbprint at any time by opening the .pfx file in CertMgr. To view the thumbprint with CertMgr:
->1. 1.	Select and hold (or right-click) the .pfx file, and then select **Open**.
+>1. Select and hold (or right-click) the .pfx file, and then select **Open**.
 >2. In the navigation pane, expand the folder.
 >3. Select **Certificates**.
->4. 4.	In the main pane, select and hold (or right-click) your certificate, and then select **Open**.
+>4.	In the main pane, select and hold (or right-click) your certificate, and then select **Open**.
 >5. Select the **Details** tab.
 >6. In the **Show** drop-down menu, **All** or **Properties Only** must be selected.
 >7. Select the **Thumbprint** field.
@@ -220,7 +218,8 @@ $TestUefiV2 | Export-PfxCertificate -Password $pw -FilePath "Demo Certificate\Te
 >[!IMPORTANT]
 >For use with SEMM and Microsoft Surface UEFI Configurator, the certificate must be exported with the private key and with password protection. Microsoft Surface UEFI Configurator prompts you to select the SEMM certificate file (.pfx) and certificate password.
 
-1.	On your C: drive where you'll save the script, create a folder; for example, C:\SEMM.
+To create a self-signed certificate:
+1.	On your C: drive, create the folder where you'll save the script; for example, C:\SEMM.
 2.	Copy the example script into Notepad (or equivalent text editor), and then save the file as a PowerShell script (.ps1).
 3.	Sign in to your computer with administrator credentials, and then open an elevated PowerShell session.
 4.	Make sure that your permissions are set to allow scripts to run. By default, scripts are blocked from running unless you modify the execution policy. To learn more, see [About Execution Policies](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_execution_policies).
@@ -248,7 +247,7 @@ valid and not expired.
 **Can bulk reset packages be created for each surface that we order? Can one be built that resets all machines in our environment?**<br><br>
 The PowerShell samples that create a config package for a specific device type can also be used to create a reset package that's serial-number independent. If the certificate is still valid, you can create a reset package using PowerShell to reset SEMM.
 
-## Version History
+## Version history
 
 ### Version 2.79.139.0
 
@@ -285,7 +284,6 @@ This version of SEMM includes:
 - Support for Surface Go 2.
 - Support for Surface Book 3.
 - Bug fixes.
-
 
 ### Version 2.59.139.0
 
