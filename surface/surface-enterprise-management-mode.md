@@ -13,7 +13,7 @@ ms.reviewer: hachidan
 manager: laurawi
 ms.localizationpriority: medium
 audience: itpro
-ms.date: 01/15/2021
+ms.date: 03/18/2021
 ---
 
 # Microsoft Surface Enterprise Management Mode
@@ -33,6 +33,9 @@ There are two administrative options that you can use to manage SEMM and enroll 
 – An SEMM standalone tool, Microsoft Surface UEFI Configurator, is described in this article.
 - Integration with Microsoft Endpoint Configuration Manager. For information, see [Use Microsoft Endpoint Configuration Manager to manage devices with SEMM](https://technet.microsoft.com/itpro/surface/use-system-center-configuration-manager-to-manage-devices-with-semm).
 
+> [!NOTE]
+> SEMM is supported on Surface Pro X via the UEFI Manager only. You can download UEFI Manager from [Surface Tools for IT](https://www.microsoft.com/download/details.aspx?id=46703). For more information, refer to [Deploying, managing, and servicing Surface Pro X](surface-pro-arm-app-management.md).
+
 
 ## Microsoft Surface UEFI Configurator
 
@@ -44,7 +47,7 @@ You can use Microsoft Surface UEFI Configurator to:
 
 These packages contain a configuration file that specifies the UEFI settings. SEMM packages also contain a certificate that's installed and stored in firmware and is used to verify the signature of configuration files before UEFI settings are applied.
 
->[!NOTE]
+>[!TIP]
 >You can now use Surface UEFI Configurator and SEMM to manage ports on Surface Dock 2. To learn more, see [Secure Surface Dock 2 ports with SEMM](secure-surface-dock-ports-semm.md).
 
 ![Microsoft Surface UEFI Configurator](images/surface-ent-mgmt-fig1-uefi-configurator.png "Microsoft Surface UEFI Configurator")
@@ -73,7 +76,7 @@ Surface UEFI configuration packages are the primary mechanism to implement and m
 
 For more information about the requirements for the SEMM certificate, see the [Surface Enterprise Management Mode certificate requirements](#surface-enterprise-management-mode-certificate-requirements) section later in this article.
 
->[!NOTE]
+>[!TIP]
 >You can also specify a UEFI password with SEMM that's required to view the **Security**, **Devices**, **Boot Configuration**, or **Enterprise Management** pages of Surface UEFI.
 
 After a device is enrolled in SEMM, the configuration file is read, and the settings specified in the file are applied to UEFI. When you run a configuration package on a device that's already enrolled in SEMM, the signature of the configuration file is checked against the certificate that's stored in the device firmware. If the signature doesn't match, no changes are applied to the device.
@@ -151,7 +154,8 @@ A Surface UEFI reset package is used to perform only one task — to unenroll a 
 
 In some scenarios, it might be impossible to use a Surface UEFI reset package. (For example, if Windows becomes unusable on the Surface device.) In these scenarios you can unenroll the Surface device from SEMM through the **Enterprise Management** page of Surface UEFI (shown in Figure 5) with a Recovery Request operation.
 
-![Initiate a SEMM recovery request](images/surface-ent-mgmt-fig7-semmrecovery.png "Initiate a SEMM recovery request")
+> [!div class="mx-imgBorder"]
+> ![Initiate a SEMM recovery request](images/surface-ent-mgmt-fig7-semmrecovery.png "Initiate a SEMM recovery request")
 
 *Figure 5. Initiate a SEMM recovery request on the Enterprise Management page*
 

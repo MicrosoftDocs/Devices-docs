@@ -51,8 +51,8 @@ landingContent:
     linkLists:
       - linkListType: get-started
         links:
-          - text: Inside look at the new Surface Hub 2S 85"
-            url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/inside-look-at-the-new-surface-hub-2s-85/ba-p/1721773      
+          - text: Prepare your environment for Surface Hub
+            url: prepare-your-environment-for-surface-hub.md    
           - text: Ordering Surface Hub 2S
             url: https://www.microsoft.com/p/surface-hub-2S/8P62MW6BN9G4?activetab=pivot:overviewtab 
           - text: Operating system essentials
@@ -93,8 +93,8 @@ landingContent:
         links:
           - url: https://docs.microsoft.com/microsoftteams/rooms/surface-hub-manage-config
             text: Manage Microsoft Teams settings on Surface Hub
-          - url: surface-hub-2s-manage-intune.md
-            text: Manage Surface Hub 2S with Intune
+          - url: manage-settings-with-mdm-for-surface-hub.md
+            text: Manage Surface Hub with an MDM provider 
           - url: local-management-surface-hub-settings.md
             text: Manage local settings
 

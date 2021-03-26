@@ -7,7 +7,7 @@ ms.sitesec: library
 author: dansimp
 ms.author: dansimp
 ms.topic: article
-ms.date: 03/03/2021
+ms.date: 03/23/2021
 ms.reviewer: 
 manager: laurawi
 ms.localizationpriority: medium
@@ -66,26 +66,26 @@ Files saved locally in these directories are deleted when users press **End sess
 With few exceptions, the default Universal Windows Platform (UWP) apps on Surface Hub are also available on Windows 10 PCs.
 
 UWP apps pre-installed on Surface Hub:
+
 - Alarms & Clock
 - Calculator
 - Connect
 - Excel Mobile
 - Feedback Hub
-- File Explorer*
+- File Explorer
 - Get Started
 - Maps
 - Microsoft Edge
 - Microsoft Power BI
+- Microsoft Teams
+- Microsoft Whiteboard
 - OneDrive
 - Photos
 - PowerPoint Mobile
-- Settings*
-- Skype for Business*
+- Settings
 - Store
-- Whiteboard*
+- Tips
 - Word Mobile
-
-*Apps with an asterisk (&ast;) are unique to Surface Hub*
 
 *Organization policies that this may affect:* <br> Use guidelines for Windows 10 Enterprise to determine the features and network requirements for default apps on the Surface Hub.
 
@@ -101,11 +101,11 @@ For Surface Hub to be used in communal spaces, such as meeting rooms, its custom
 
 Surface Hub implements these Windows 10 security features:
 - [UEFI Secure Boot](https://msdn.microsoft.com/windows/hardware/commercialize/manufacture/desktop/secure-boot-overview)
-- [User Mode Code Integrity (UMCI) with Device Guard](https://technet.microsoft.com/itpro/windows/keep-secure/introduction-to-device-guard-virtualization-based-security-and-code-integrity-policies)
+- [Windows Defender Application Control and virtualization-based protection of code integrity](https://technet.microsoft.com/itpro/windows/keep-secure/introduction-to-device-guard-virtualization-based-security-and-code-integrity-policies)
 - [Application restriction policies using AppLocker](https://technet.microsoft.com/itpro/windows/keep-secure/applocker-overview)
 - [BitLocker Drive Encryption](https://technet.microsoft.com/itpro/windows/keep-secure/bitlocker-overview)
 - [Trusted Platform Module (TPM)](https://technet.microsoft.com/itpro/windows/keep-secure/trusted-platform-module-overview)
-- [Windows Defender](https://technet.microsoft.com/itpro/windows/keep-secure/windows-defender-in-windows-10)
+- [Microsoft Defender](https://technet.microsoft.com/itpro/windows/keep-secure/windows-defender-in-windows-10)
 - [User Account Control (UAC)](https://technet.microsoft.com/itpro/windows/keep-secure/user-account-control-overview) for access to the Settings app
 
 These Surface Hub features provide additional security:
@@ -116,6 +116,8 @@ These Surface Hub features provide additional security:
 - Downloading advanced Plug and Play drivers is disabled
 
 *Organization policies that this may affect:* <br> Consider these features when performing your security assessment for Surface Hub.
+
+To learn more, see [Surface Hub Security Overview](surface-hub-security.md)
 
 ## Management
 

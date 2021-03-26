@@ -8,6 +8,7 @@ ms.sitesec: library
 author: dansimp
 ms.author: dansimp
 ms.topic: article
+ms.date: 03/25/2021
 ms.localizationpriority: medium
 ---
 
@@ -22,13 +23,15 @@ This procedure explains how to configure QoS for Surface Hub using Microsoft Int
 
 1. In Intune, [create a custom policy](https://docs.microsoft.com/intune/custom-settings-configure).
 
-    ![Screenshot of custom policy creation dialog in Intune](images/qos-create.png)
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of custom policy creation dialog in Intune](images/qos-create.png)
 
 2. In **Custom OMA-URI Settings**, select **Add**. For each setting that you add, you will enter a name, description (optional), data type, OMA-URI, and value.
 
-    ![Screenshot of a blank OMA-URI setting dialog box](images/qos-setting.png)
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of a blank OMA-URI setting dialog box](images/qos-setting.png)
 
-3. Add the following custom OMA-URI settings:
+3. Add the following custom OMA-URI settings:<br/><br/>
 
     Name | Data type | OMA-URI<br>./Device/Vendor/MSFT/NetworkQoSPolicy |  Value
     --- | --- | --- | ---
@@ -42,10 +45,7 @@ This procedure explains how to configure QoS for Surface Hub using Microsoft Int
     >[!IMPORTANT]
     >Each **OMA-URI** path begins with `./Device/Vendor/MSFT/NetworkQoSPolicy`. The full path for the audio source port setting, for example, will be `./Device/Vendor/MSFT/NetworkQoSPolicy/HubAudio/SourcePortMatchCondition`.
 
-
-
-
-4. When the policy has been created, [deploy it to the Surface Hub.](manage-settings-with-mdm-for-surface-hub.md#manage-surface-hub-settings-with-mdm)
+4. When the policy has been created, deploy it to Surface Hub.
 
 
 >[!WARNING]

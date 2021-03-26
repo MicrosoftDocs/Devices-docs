@@ -17,7 +17,8 @@ Windows 10 was designed to be a service, which means it automatically gets bette
 
 Most Windows updates focus on performance and security improvements to keep you going 24/7.
 
-One thing we’re hearing from you is that you want to know more about what's in our Windows 10 updates, so we're providing more details on this page. In the list below, the most recent Windows update is listed first. Installing the most recent update ensures that you also get any previous updates you might have missed, including security updates. Microsoft Store apps are updated through the Microsoft Store (managed by the Surface Hub's system administrator). Details about app updates are provided on a per-app basis.
+One thing we’re hearing from you is that you want to know more about what's in our Windows 10 updates, so we're providing more details on this page. In the list below, the most recent Windows update with Surface Hub-specific improvements is listed first. Updates are cumulative, so installing the latest available Windows update (even if it is not on the list below) ensures that you also benefit from improvements in any previous updates. Microsoft Store apps are updated through the Microsoft Store (managed by the Surface Hub's system administrator). Details about app updates are provided on a per-app basis.
+
 We'll be refreshing this page as new updates are released, so stay tuned for the latest info. And thank you for helping us learn and get better with each update!
 
 Please refer to the “[Surface Hub Important Information](https://support.microsoft.com/products/surface-devices/surface-hub)” page for related topics on current and past releases that may require your attention.

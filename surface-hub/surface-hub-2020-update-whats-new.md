@@ -9,7 +9,7 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 02/01/2021
+ms.date: 03/25/2021
 ms.localizationpriority: Medium
 ---
 
@@ -20,21 +20,29 @@ Windows 10 Team 2020 Update brings major improvements to device deployment and m
 ##  Deployment and manageability
 
 - **Modern authentication for cloud device accounts**. Surface Hub supports Exchange Web Services (EWS) and Active Directory Authentication Library (ADAL) based authentication to connect to Exchange, allowing customers to deprecate the use of Basic authentication. To learn more, see [Modern authentication on Surface Hub](https://docs.microsoft.com/surface-hub/surface-hub-modern-auth).
-- **More than 20 new and updated mobile device management (MDM) policies**.      These policies give IT admins improved control over multiple device settings including: app updates from the Microsoft Store, wireless projection settings such as Miracast over infrastructure, network settings such as Quality-Of-Service and 802.1x wired authentication, and new privacy/GDPR related settings. To learn more, see: 
-- [Manage Surface Hub 2S with Microsoft Intune](surface-hub-2s-manage-intune.md).
-- [Policy CSPs supported by Microsoft Surface Hub](https://docs.microsoft.com//windows/client-management/mdm/policy-csps-supported-by-surface-hub)
+- **More than 20 new and updated mobile device management (MDM) policy settings**.  These policy settings give IT admins improved control over multiple device settings including: app updates from the Microsoft Store, wireless projection settings such as Miracast over infrastructure, network settings such as Quality-Of-Service and 802.1x wired authentication, and new privacy/GDPR related settings. New Configuration service providers (CSPs) include: 
+- Accounts CSP 
+- Firewall-CSP 
+- RemoteWipe CSP 
+- Wifi-CSP 
+- Wirednetwork-CSP 
+
+To learn more, see: 
+- [CSPs supported in Microsoft Surface Hub](https://docs.microsoft.com/windows/client-management/mdm/configuration-service-provider-reference#surfacehubcspsupport).
+- [Manage Surface Hub with an MDM provider](manage-settings-with-mdm-for-surface-hub.md).
+
 
 ##  Azure Active Directory Joined devices
 
 - **Single sign-on (SSO) for Azure AD joined devices**. When users sign in with their Microsoft 365 credentials to “My meetings and files”, their user credentials flow seamlessly from app to app – including Microsoft 365 experiences in the browser.
 - **Conditional access (CA) for Azure AD joined devices**.       IT admins can deploy device-level security policies to their Azure AD joined Surface Hub to control access to organizational resources in accordance with corporate security and compliance requirements.
-- **Support for non-Global admins for Azure AD joined devices**. Customers can choose a more granular set of admins within their admin hierarchy to manage Surface Hub. To learn more, see [Configure non Global admin accounts on Surface Hub 2S](surface-hub-2s-nonglobal-admin.md).
+- **Support for non-Global admins for Azure AD joined devices**. Customers can choose a more granular set of admins within their admin hierarchy to manage Surface Hub. To learn more, see [Configure non Global admin accounts on Surface Hub](surface-hub-2s-nonglobal-admin.md).
 
 
 ## Browser and pen
 
 - **Support for the new Microsoft Edge**. Microsoft Edge has been rebuilt for optimal compatibility performance, security and privacy. To learn more, see [Install and configure the new Microsoft Edge on Surface Hub](https://docs.microsoft.com/surface-hub/surface-hub-install-chromium-edge).
-- - **Dual-pen inking on Surface Hub 2S**.   Users can whiteboard and collaborate side-by-side on Surface Hub 2S using two Surface Hub 2 Pens. The firmware updates required to enable dual-pen inking will be released with a subsequent update.
+- **Dual-pen inking on Surface Hub 2S**.   Users can whiteboard and collaborate side-by-side on Surface Hub 2S using two Surface Hub 2 Pens. The firmware updates required to enable dual-pen inking will be released with a subsequent update.
 
 ## Microsoft Teams  
 

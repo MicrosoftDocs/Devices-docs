@@ -4,7 +4,6 @@
 
 ## Overview
 ### [What's new in Windows 10 Team 2020 Update](surface-hub-2020-update-whats-new.md)
-### [What's new in Surface Hub 2S for IT admins](surface-hub-2s-whats-new.md)
 ### [Surface Hub 2S 50" tech specs](surface-hub-2s-techspecs.md) 
 ### [Surface Hub 2S 85" tech specs](surface-hub-2s-85.md)
 ### [Operating system essentials (Surface Hub)](differences-between-surface-hub-and-windows-10-enterprise.md)
@@ -22,7 +21,7 @@
 #### [Setup worksheet](setup-worksheet-surface-hub.md)
 #### [Surface Hub 2S ports and keypad overview](surface-hub-2s-port-keypad-overview.md)
 #### [Connect devices to Surface Hub 2S](surface-hub-2s-connect.md)
-### [Prepare your environment for Microsoft Surface Hub 2S](surface-hub-2s-prepare-environment.md)
+### [Prepare your environment for Microsoft Surface Hub](prepare-your-environment-for-surface-hub.md)
 
 
 ## Deploy
@@ -44,11 +43,11 @@
 ### [Essential add-ons for Windows 10 Pro and Enterprise on Surface Hub 2](surface-hub-2-essential-add-ons.md)
 ### [Install Windows 10 Team 2020 Update](surface-hub-2020-update.md)  
 ### [Known issues - Windows 10 Team 2020 Update](surface-hub-2020-team-update-known-issues.md)
-### [Configure non Global admin accounts on Surface Hub 2S](surface-hub-2s-nonglobal-admin.md)
+### [Configure non Global admin accounts on Surface Hub](surface-hub-2s-nonglobal-admin.md)
 ### [Install and configure the new Microsoft Edge on Surface Hub](surface-hub-install-chromium-edge.md)        
-### [Manage Surface Hub 2S with Microsoft Intune](surface-hub-2s-manage-intune.md)
+### [Manage Surface Hub with an MDM provider](manage-settings-with-mdm-for-surface-hub.md)
 ### [Local management for Surface Hub 2S settings](local-management-surface-hub-settings.md)
-### [Manage device account password rotation](surface-hub-2s-manage-passwords.md)
+### [Manage device account password rotation](password-management-for-surface-hub-device-accounts.md)
 ### [Manage Windows updates](manage-windows-updates-for-surface-hub.md)
 ### [Miracast on existing wireless network or LAN](miracast-over-infrastructure.md)
 ### [Save your BitLocker key](save-bitlocker-key-surface-hub.md)

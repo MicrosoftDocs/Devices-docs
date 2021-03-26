@@ -40,5 +40,25 @@
             "redirect_url":  "https://docs.microsoft.com/surface/get-started",
             "redirect_document_id":  true
         },
+        {
+            "source_path":  "surface-hub/surface-hub-2s-prepare-environment.md",
+            "redirect_url":  "https://docs.microsoft.com/surface-hub/prepare-your-environment-for-surface-hub",
+            "redirect_document_id":  true
+        },
+        {
+            "source_path":  "surface-hub/surface-hub-2s-manage-passwords.md",
+            "redirect_url":  "https://docs.microsoft.com/surface-hub/password-management-for-surface-hub-device-accounts",
+            "redirect_document_id":  true
+        },
+        {
+            "source_path":  "surface-hub/surface-hub-2s-whats-new.md",
+            "redirect_url":  "https://docs.microsoft.com/surface-hub/surface-hub-2020-update-whats-new",
+            "redirect_document_id":  true
+        },
+        {
+            "source_path":  "surface-hub/surface-hub-2s-manage-intune.md",
+            "redirect_url":  "https://docs.microsoft.com/surface-hub/manage-settings-with-mdm-for-surface-hub",
+            "redirect_document_id":  true
+        },
 ]
 }
