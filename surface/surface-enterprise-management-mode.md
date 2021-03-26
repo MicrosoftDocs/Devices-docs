@@ -30,7 +30,7 @@ SEMM also uses a certificate to protect the configuration from unauthorized tamp
 When Surface devices are configured by SEMM and secured with the SEMM certificate, they're considered *enrolled* in SEMM. When the SEMM certificate is removed and control of UEFI settings is returned to the user of the device, the Surface device is considered *unenrolled* in SEMM.
 
 There are two administrative options that you can use to manage SEMM and enroll Surface devices:
-– An SEMM standalone tool, Microsoft Surface UEFI Configurator, is described in this article.
+– An SEMM standalone tool, Microsoft Surface UEFI Configurator, is described in this article. 
 - Integration with Microsoft Endpoint Configuration Manager. For information, see [Use Microsoft Endpoint Configuration Manager to manage devices with SEMM](https://technet.microsoft.com/itpro/surface/use-system-center-configuration-manager-to-manage-devices-with-semm).
 
 > [!NOTE]
