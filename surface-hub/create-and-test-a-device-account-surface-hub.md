@@ -45,9 +45,10 @@ We recommend setting up your Surface Hub device accounts using remote Windows Po
 | Organization deployment             |  Description                  |
 |---------------------------------|--------------------------------------|
 | [Online deployment (Microsoft 365 or Office 365)](https://docs.microsoft.com/microsoftteams/rooms/with-office-365) |Your organization's environment is deployed entirely on Microsoft 365 or Office 365. |
-| [On-premises deployment (Skype for Business Server)](https://docs.microsoft.com/microsoftteams/rooms/with-skype-for-business-server-2015) | Your organization has servers that it controls, where Active Directory, Exchange, and Skype for Business Server are hosted. |
-| [Hybrid deployment (Exchange Online)](https://docs.microsoft.com/microsoftteams/rooms/with-exchange-online) | Your organization has a mix of services, with Skype for Business Server hosted on premises and Exchange Online. |
 | [Hybrid deployment (Exchange on-premises)](https://docs.microsoft.com/microsoftteams/rooms/with-exchange-on-premises) | Your organization has a mix of services, with Exchange Server hosted on premises and Microsoft Teams online. |
+| [Hybrid deployment (Exchange Online)](https://docs.microsoft.com/microsoftteams/rooms/with-exchange-online) | Your organization has a mix of services, with Skype for Business Server hosted on premises and Exchange Online. |
+| [On-premises deployment (single forest)](https://docs.microsoft.com/microsoftteams/rooms/with-skype-for-business-server-2015) | Your organization has servers that it controls, where Active Directory, Exchange, and Skype for Business Server are hosted in a single-forest environment.  |
+| [On-premises deployment (multiple forests)](https://docs.microsoft.com/skypeforbusiness/deploy/deploy-clients/multiple-forest-on-premises-deployments) | Your organization has servers that it controls, where Active Directory, Exchange, and Skype for Business Server are hosted in a multi-forest environment. |
 
 
 ## Account verification and testing
