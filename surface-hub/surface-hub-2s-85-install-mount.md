@@ -9,7 +9,7 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 03/22/2020
+ms.date: 03/22/2021
 ms.localizationpriority: Medium
 ---
 # Install and mount Surface Hub 2S 85”
