@@ -21,6 +21,7 @@ Windows 10 Team 2020 Update brings major improvements to device deployment and m
 
 - **Modern authentication for cloud device accounts**. Surface Hub supports Exchange Web Services (EWS) and Active Directory Authentication Library (ADAL) based authentication to connect to Exchange, allowing customers to deprecate the use of Basic authentication. To learn more, see [Modern authentication on Surface Hub](https://docs.microsoft.com/surface-hub/surface-hub-modern-auth).
 - **More than 20 new and updated mobile device management (MDM) policy settings**.  These policy settings give IT admins improved control over multiple device settings including: app updates from the Microsoft Store, wireless projection settings such as Miracast over infrastructure, network settings such as Quality-Of-Service and 802.1x wired authentication, and new privacy/GDPR related settings. New Configuration service providers (CSPs) include: 
+
   - [Accounts CSP](https://docs.microsoft.com/windows/client-management/mdm/accounts-csp) 
   - [Firewall-CSP](https://docs.microsoft.com/windows/client-management/mdm/firewall-csp) 
   - [RemoteWipe CSP](https://docs.microsoft.com/windows/client-management/mdm/remotewipe-csp) 
