@@ -42,13 +42,13 @@ This table explains the main steps and configuration decisions when you create a
 
 We recommend setting up your Surface Hub device accounts using remote Windows PowerShell. Microsoft provides [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), a script that will help create new resource accounts, or validate existing resource accounts you have in order to help you turn them into compatible Surface Hub device accounts. If you prefer, you can choose an option from the table below, and follow the detailed PowerShell steps based on your organization deployment.
 
-| Organization deployment             |  Description                  |
+| Organization deployment             |  Description                  |        Format to use during Surface Hub setup
 |---------------------------------|--------------------------------------|
-| [Online deployment (Microsoft 365 or Office 365)](https://docs.microsoft.com/microsoftteams/rooms/with-office-365) |Your organization's environment is deployed entirely on Microsoft 365 or Office 365. |
-| [Hybrid deployment (Exchange on-premises)](https://docs.microsoft.com/microsoftteams/rooms/with-exchange-on-premises) | Your organization has a mix of services, with Exchange Server hosted on premises and Microsoft Teams online. |
-| [Hybrid deployment (Exchange Online)](https://docs.microsoft.com/microsoftteams/rooms/with-exchange-online) | Your organization has a mix of services, with Skype for Business Server hosted on premises and Exchange Online. |
-| [On-premises deployment (single forest)](https://docs.microsoft.com/microsoftteams/rooms/with-skype-for-business-server-2015) | Your organization has servers that it controls, where Active Directory, Exchange, and Skype for Business Server are hosted in a single-forest environment.  |
-| [On-premises deployment (multiple forests)](https://docs.microsoft.com/skypeforbusiness/deploy/deploy-clients/multiple-forest-on-premises-deployments) | Your organization has servers that it controls, where Active Directory, Exchange, and Skype for Business Server are hosted in a multi-forest environment. |
+| [Online deployment (Microsoft 365 or Office 365)](https://docs.microsoft.com/microsoftteams/rooms/with-office-365) |Your organization's environment is deployed entirely on Microsoft 365 or Office 365. | username@domain.com |
+| [Hybrid deployment (Exchange on-premises)](https://docs.microsoft.com/microsoftteams/rooms/with-exchange-on-premises) | Your organization has a mix of services, with Exchange Server hosted on premises and Microsoft Teams online. | username@domain.com if [Hybrid Modern Authentication](https://docs.microsoft.com/microsoft-365/enterprise/configure-exchange-server-for-hybrid-modern-authentication) is enabled in Exchange, DOMAIN\username otherwise |
+| [Hybrid deployment (Exchange Online)](https://docs.microsoft.com/microsoftteams/rooms/with-exchange-online) | Your organization has a mix of services, with Skype for Business Server hosted on premises and Exchange Online. | username@domain.com if [Hybrid Modern Authentication](https://docs.microsoft.com/microsoft-365/enterprise/configure-skype-for-business-for-hybrid-modern-authentication) is enabled in SfB, DOMAIN\username otherwise |
+| [On-premises deployment (single forest)](https://docs.microsoft.com/microsoftteams/rooms/with-skype-for-business-server-2015) | Your organization has servers that it controls, where Active Directory, Exchange, and Skype for Business Server are hosted in a single-forest environment.  | DOMAIN\username |
+| [On-premises deployment (multiple forests)](https://docs.microsoft.com/skypeforbusiness/deploy/deploy-clients/multiple-forest-on-premises-deployments) | Your organization has servers that it controls, where Active Directory, Exchange, and Skype for Business Server are hosted in a multi-forest environment. | ACCOUNTFOREST\username |
 
 
 ## Account verification and testing
