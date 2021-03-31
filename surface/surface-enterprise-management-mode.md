@@ -75,7 +75,7 @@ Surface UEFI configuration packages are the primary mechanism to implement and m
 For more information about the requirements for the SEMM certificate, see the [Surface Enterprise Management Mode certificate requirements](#surface-enterprise-management-mode-certificate-requirements) section later in this article.
 
 >[!TIP]
->You can also specify a UEFI password with SEMM that's required to view the **Security**, **Devices**, **Boot Configuration**, or **Enterprise Management** pages of Surface UEFI.
+>You have the option to require a UEFI password with SEMM. If you do, the password is required to view the **Security**, **Devices**, **Boot Configuration**, and **Enterprise Management** pages of Surface UEFI.
 
 After a device is enrolled in SEMM, the configuration file is read, and the settings specified in the file are applied to UEFI. When you run a configuration package on a device that's already enrolled in SEMM, the signature of the configuration file is checked against the certificate that's stored in the device firmware. If the signature doesn't match, no changes are applied to the device.
 
