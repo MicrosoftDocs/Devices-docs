@@ -84,8 +84,8 @@
 
 ## Deploy
 ### [Create and test a device account](create-and-test-a-device-account-surface-hub.md)
-#### [Online deployment](online-deployment-surface-hub-device-accounts.md)
-#### [On-premises deployment (single forest)](on-premises-deployment-surface-hub-device-accounts.md)
+#### [Online deployment](https://docs.microsoft.com/microsoftteams/rooms/with-office-365)
+#### [On-premises deployment (single forest)](https://docs.microsoft.com/microsoftteams/rooms/with-skype-for-business-server-2015)
 #### [On-premises deployment (multiple forests)](https://docs.microsoft.com/skypeforbusiness/deploy/deploy-clients/multiple-forest-on-premises-deployments
 #### [Hybrid deployment](hybrid-deployment-surface-hub-device-accounts.md)
 #### [Microsoft Exchange properties](exchange-properties-for-surface-hub-device-accounts.md)
