@@ -20,7 +20,7 @@ appliesto:
 # Applying ActiveSync policies to device accounts (Surface Hub)
 
 
-The device account in all versions of Microsoft Surface Hub uses ActiveSync to sync mail and calendar. This allows people to join and start scheduled meetings from the Surface Hub, and allows them to email any whiteboards they have made during their meeting.
+Surface Hubs using the Windows 10 Team 1703 operating system make use of ActiveSync to sync mail and calendar of the device account. This allows people to join and start scheduled meetings from the Surface Hub, and allows them to email any whiteboards they have made during their meeting.
 
 For these features to work, the ActiveSync policies for your organization must be configured as follows:
 
