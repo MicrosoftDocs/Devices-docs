@@ -30,10 +30,10 @@
 ### [First time setup for Surface Hub 2S](surface-hub-2s-setup.md)
 ### [Connect devices to Surface Hub 2S](surface-hub-2s-connect.md)
 ### [Surface Hub 2S deployment checklist](surface-hub-2s-deploy-checklist.md)
-### [Create Surface Hub 2S device account](surface-hub-2s-account.md)
+### [Create and test a device account](create-and-test-a-device-account-surface-hub.md)
 ### [Create provisioning packages for Surface Hub 2S](surface-hub-2s-deploy.md)
 ### [Deploy apps to Surface Hub 2S using Intune](surface-hub-2s-deploy-apps-intune.md)
-### [Create Surface Hub 2S on-premises accounts with PowerShell](surface-hub-2s-onprem-powershell.md)
+### [Create Surface Hub 2S on-premises accounts with PowerShell](https://docs.microsoft.com/microsoftteams/rooms/with-skype-for-business-server-2015)
 ### [Surface Hub Teams app](hub-teams-app.md)
 ### [Teams certified accessories for Surface Hub 2S](surface-hub-2s-certifications.md)
 
@@ -84,12 +84,10 @@
 
 ## Deploy
 ### [Create and test a device account](create-and-test-a-device-account-surface-hub.md)
-#### [Online deployment](online-deployment-surface-hub-device-accounts.md)
-#### [On-premises deployment (single forest)](on-premises-deployment-surface-hub-device-accounts.md)
-#### [On-premises deployment (multiple forests)](on-premises-deployment-surface-hub-multi-forest.md)
+#### [Online deployment](https://docs.microsoft.com/microsoftteams/rooms/with-office-365)
+#### [On-premises deployment (single forest)](https://docs.microsoft.com/microsoftteams/rooms/with-skype-for-business-server-2015)
+#### [On-premises deployment (multiple forests)](https://docs.microsoft.com/skypeforbusiness/deploy/deploy-clients/multiple-forest-on-premises-deployments
 #### [Hybrid deployment](hybrid-deployment-surface-hub-device-accounts.md)
-#### [Online or hybrid deployment using Skype Hybrid Voice environment](skype-hybrid-voice.md)
-#### [Create a device account using UI](create-a-device-account-using-office-365.md)
 #### [Microsoft Exchange properties](exchange-properties-for-surface-hub-device-accounts.md)
 #### [Applying ActiveSync policies to device accounts](apply-activesync-policies-for-surface-hub-device-accounts.md)
 #### [Password management](password-management-for-surface-hub-device-accounts.md)
