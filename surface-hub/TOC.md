@@ -30,7 +30,7 @@
 ### [First time setup for Surface Hub 2S](surface-hub-2s-setup.md)
 ### [Connect devices to Surface Hub 2S](surface-hub-2s-connect.md)
 ### [Surface Hub 2S deployment checklist](surface-hub-2s-deploy-checklist.md)
-### [Create Surface Hub 2S device account](surface-hub-2s-account.md)
+### [Create and test a device account](create-and-test-a-device-account-surface-hub.md)
 ### [Create provisioning packages for Surface Hub 2S](surface-hub-2s-deploy.md)
 ### [Deploy apps to Surface Hub 2S using Intune](surface-hub-2s-deploy-apps-intune.md)
 ### [Create Surface Hub 2S on-premises accounts with PowerShell](surface-hub-2s-onprem-powershell.md)
