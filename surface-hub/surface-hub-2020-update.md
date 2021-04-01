@@ -33,8 +33,8 @@ You can obtain Windows 2020 Update using one of the following methods:
 | ----- | -------------------------------------- | ----------------- |
 | 1     | NZ, Australia, Canada, Belgium, Mexico | October 2020  |
 | 2     | UK, Japan, Switzerland, Italy          | November 2020 |
-| 3     | US, Germany                            | Late February 2021 |
-| 4     | Global                                 | Late February 2021 |
+| 3     | Germany, Netherlands                   | Late February 2021 |
+| 4     | Global                                 | Early March 2021 |
 
 ## Servicing Surface Hubs with Windows 10 Team Edition version 1703 
 
@@ -42,11 +42,11 @@ Full servicing support for [Windows 10 Team Edition version 1703](https://suppor
 
 ### 2S devices 
 
-Customers in all regions can continue to update their Surface Hub 2S devices to the 2020 Update using Windows Update for Business or using a bare metal recovery (BMR) image, as explained in [Reset and recovery for Surface Hub 2S](surface-hub-2s-recover-reset.md).
+Customers in all regions can update their Surface Hub 2S devices to the 2020 Update through Windows Update, Windows Update for Business or by using the bare metal recovery (BMR) image, as explained in [Reset and recovery for Surface Hub 2S](surface-hub-2s-recover-reset.md).
 
 ### V1 devices 
 
-Customers in all regions can now update their Surface Hub v1 devices to the 2020 Update by [using the Surface Hub Recovery Tool](surface-hub-recovery-tool.md). Other methods to update these devices to the Windows 10 Team 2020 Update will soon be available. To learn more, see [Surface IT Pro Blog](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/update-to-the-windows-10-team-rollout/ba-p/1669655).
+Customers in all regions can update their Surface Hub v1 devices to the 2020 Update through Windows Update, Windows Update for Business, or by [using the Surface Hub Recovery Tool](surface-hub-recovery-tool.md). KB5000749 must be installed in order to receive the update over-the-air. To learn more, see [Surface IT Pro Blog](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/surface-hub-windows-10-team-2020-update-hub-v1-status/ba-p/2118371).
  
 ## What’s new
 
@@ -68,4 +68,4 @@ To learn more, see [Save your BitLocker key](save-bitlocker-key-surface-hub.md).
 ## Learn more
 
 - [What's new in Windows 10 Team 2020 Update](surface-hub-2020-update-whats-new.md)
-- [Update to the Windows 10 Team rollout](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/update-to-the-windows-10-team-rollout/ba-p/1669655)
+- [Update to the Windows 10 Team rollout](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/surface-hub-windows-10-team-2020-update-february-status/ba-p/2118369)
