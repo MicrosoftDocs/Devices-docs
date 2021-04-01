@@ -186,7 +186,6 @@ The account creation scripts cannot modify an already existing account, but can 
 
 ### <a href="" id="create-on-premises-ps-scripts"></a>Create an on-premises account
 
-Creates an account as described in [On-premises deployment](on-premises-deployment-surface-hub-device-accounts.md).
 
 ```PowerShell
 # SHAccountCreateOnPrem.ps1
