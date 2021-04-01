@@ -86,10 +86,8 @@
 ### [Create and test a device account](create-and-test-a-device-account-surface-hub.md)
 #### [Online deployment](online-deployment-surface-hub-device-accounts.md)
 #### [On-premises deployment (single forest)](on-premises-deployment-surface-hub-device-accounts.md)
-#### [On-premises deployment (multiple forests)](on-premises-deployment-surface-hub-multi-forest.md)
+#### [On-premises deployment (multiple forests)](https://docs.microsoft.com/skypeforbusiness/deploy/deploy-clients/multiple-forest-on-premises-deployments
 #### [Hybrid deployment](hybrid-deployment-surface-hub-device-accounts.md)
-#### [Online or hybrid deployment using Skype Hybrid Voice environment](skype-hybrid-voice.md)
-#### [Create a device account using UI](create-a-device-account-using-office-365.md)
 #### [Microsoft Exchange properties](exchange-properties-for-surface-hub-device-accounts.md)
 #### [Applying ActiveSync policies to device accounts](apply-activesync-policies-for-surface-hub-device-accounts.md)
 #### [Password management](password-management-for-surface-hub-device-accounts.md)
