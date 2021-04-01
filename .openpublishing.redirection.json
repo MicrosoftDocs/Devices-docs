@@ -95,5 +95,10 @@
             "redirect_url":  "https://docs.microsoft.com/microsoftteams/rooms/with-office-365",
             "redirect_document_id":  false
         },
+        {
+            "source_path":  "surface-hub/change-history-surface-hub.md",
+            "redirect_url":  "https://docs.microsoft.com/surface-hub",
+            "redirect_document_id":  false
+        },
 ]
 }

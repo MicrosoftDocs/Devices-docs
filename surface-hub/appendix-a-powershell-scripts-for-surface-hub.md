@@ -546,7 +546,7 @@ else
 
 ### <a href="" id="create-os356-ps-scripts"></a>Create a device account using Office 365
 
-Creates an account as described in [Create a device account using Office 365](create-a-device-account-using-office-365.md).
+Creates an account as described in [Create a device account using Office 365](create-and-test-a-device-account-surface-hub.md).
 
 ```PowerShell
 # SHAccountCreateO365.ps1
