@@ -68,12 +68,12 @@
         {
             "source_path":  "surface-hub/create-a-device-account-using-office-365.md",
             "redirect_url":  "https://docs.microsoft.com/surface-hub/create-and-test-a-device-account-surface-hub",
-            "redirect_document_id":  true
+            "redirect_document_id":  false
         },
         {
             "source_path":  "surface-hub/skype-hybrid-voice.md",
             "redirect_url":  "https://docs.microsoft.com/surface-hub/create-and-test-a-device-account-surface-hub",
-            "redirect_document_id":  true
+            "redirect_document_id":  false
         },
         {
             "source_path":  "surface-hub/surface-hub-2s-onprem-powershell.md",
