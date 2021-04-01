@@ -85,5 +85,15 @@
             "redirect_url":  "https://docs.microsoft.com/skypeforbusiness/deploy/deploy-clients/multiple-forest-on-premises-deployments",
             "redirect_document_id":  false
         },
+        {
+            "source_path":  "surface-hub/on-premises-deployment-surface-hub-device-accounts.md",
+            "redirect_url":  "https://docs.microsoft.com/skypeforbusiness/deploy/deploy-clients/multiple-forest-on-premises-deployments",
+            "redirect_document_id":  false
+        },
+        {
+            "source_path":  "surface-hub/online-deployment-surface-hub-device-accounts.md",
+            "redirect_url":  "https://docs.microsoft.com/microsoftteams/rooms/with-office-365",
+            "redirect_document_id":  false
+        },
 ]
 }
