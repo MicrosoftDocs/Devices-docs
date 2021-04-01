@@ -60,5 +60,45 @@
             "redirect_url":  "https://docs.microsoft.com/surface-hub/manage-settings-with-mdm-for-surface-hub",
             "redirect_document_id":  true
         },
+        {
+            "source_path":  "surface-hub/surface-hub-2s-account.md",
+            "redirect_url":  "https://docs.microsoft.com/surface-hub/create-and-test-a-device-account-surface-hub",
+            "redirect_document_id":  true
+        },
+        {
+            "source_path":  "surface-hub/create-a-device-account-using-office-365.md",
+            "redirect_url":  "https://docs.microsoft.com/surface-hub/create-and-test-a-device-account-surface-hub",
+            "redirect_document_id":  false
+        },
+        {
+            "source_path":  "surface-hub/skype-hybrid-voice.md",
+            "redirect_url":  "https://docs.microsoft.com/surface-hub/create-and-test-a-device-account-surface-hub",
+            "redirect_document_id":  false
+        },
+        {
+            "source_path":  "surface-hub/surface-hub-2s-onprem-powershell.md",
+            "redirect_url":  "https://docs.microsoft.com/microsoftteams/rooms/with-skype-for-business-server-2015",
+            "redirect_document_id":  false
+        },
+        {
+            "source_path":  "surface-hub/on-premises-deployment-surface-hub-multi-forest.md",
+            "redirect_url":  "https://docs.microsoft.com/skypeforbusiness/deploy/deploy-clients/multiple-forest-on-premises-deployments",
+            "redirect_document_id":  false
+        },
+        {
+            "source_path":  "surface-hub/on-premises-deployment-surface-hub-device-accounts.md",
+            "redirect_url":  "https://docs.microsoft.com/microsoftteams/rooms/with-skype-for-business-server-2015",
+            "redirect_document_id":  false
+        },
+        {
+            "source_path":  "surface-hub/online-deployment-surface-hub-device-accounts.md",
+            "redirect_url":  "https://docs.microsoft.com/microsoftteams/rooms/with-office-365",
+            "redirect_document_id":  false
+        },
+        {
+            "source_path":  "surface-hub/change-history-surface-hub.md",
+            "redirect_url":  "https://docs.microsoft.com/surface-hub",
+            "redirect_document_id":  false
+        },
 ]
 }

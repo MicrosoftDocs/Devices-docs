@@ -19,7 +19,7 @@ appliesto:
 # PowerShell for Surface Hub (v1)
 
 > [!NOTE]
- >This page includes PowerShell scripts intended for the original Surface Hub (v1). For the latest account creation scripts for Surface Hub 2S, see [Create Surface Hub 2S device account](surface-hub-2s-account.md).
+ >This page includes PowerShell scripts intended for the original Surface Hub (v1). For the latest account creation scripts for Surface Hub 2S, see [Create and test a device account](create-and-test-a-device-account-surface-hub.md).
 
 -   [PowerShell scripts for Surface Hub admins](#scripts-for-admins)
     -   [Create an on-premises account](#create-on-premises-ps-scripts)
@@ -186,7 +186,6 @@ The account creation scripts cannot modify an already existing account, but can 
 
 ### <a href="" id="create-on-premises-ps-scripts"></a>Create an on-premises account
 
-Creates an account as described in [On-premises deployment](on-premises-deployment-surface-hub-device-accounts.md).
 
 ```PowerShell
 # SHAccountCreateOnPrem.ps1
@@ -546,7 +545,7 @@ else
 
 ### <a href="" id="create-os356-ps-scripts"></a>Create a device account using Office 365
 
-Creates an account as described in [Create a device account using Office 365](create-a-device-account-using-office-365.md).
+Creates an account as described in [Create a device account using Office 365](create-and-test-a-device-account-surface-hub.md).
 
 ```PowerShell
 # SHAccountCreateO365.ps1
