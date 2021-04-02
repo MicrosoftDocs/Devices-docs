@@ -26,7 +26,20 @@ Please refer to the “[Surface Hub Important Information](https://support.micro
 ## Windows 10 Team 2020 Update (20H2)
 
 <details>
-<summary>February 2nd, 2021 — update for Team based on KB4598291* (OS Build 19042.789)</summary>
+<summary>March 13, 2021 — update for Surface Hub 2S</summary>
+
+This update is specific to the Surface Hub 2S and provides the driver and firmware updates outlined below:
+
+* Intel(R) Bluetooth driver - 22.30.0.4
+  * Addresses security updates and improves system stability.
+* Intel(R) graphics driver - 27.20.100.8682
+  * Addresses security updates and improves system stability.
+* Intel(R) Wi-Fi driver - 22.30.0.11
+  * Addresses security updates and improves system stability.
+</details>
+
+<details>
+<summary>February 2, 2021 — update for Team based on KB4598291* (OS Build 19042.789)</summary>
 
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4581839/windows-10-update-history), include:
 
