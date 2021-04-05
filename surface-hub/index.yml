@@ -83,8 +83,8 @@ landingContent:
             text: Set up Coordinated Meetings with Microsoft Teams Rooms and Surface Hub 
           - url: surface-hub-2s-adoption-kit.md
             text: Surface Hub 2S adoption and training
-          - url: surface-hub-2s-account.md
-            text: Create device account
+          - url: create-and-test-a-device-account-surface-hub.md
+            text: Create and test a device account
 
   # Card (optional)
   - title: Manage
