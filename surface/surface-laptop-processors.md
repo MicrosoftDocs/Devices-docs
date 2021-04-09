@@ -26,7 +26,7 @@ For everyday usage, there’s roughly equivalent performance on Surface Laptop 4
 - If multithreaded app performance and longer battery life is a top priority, AMD is a good choice.
 - If faster single threaded performance is more important, along with options for greater memory and storage, Intel is a good choice.
 
-## Processor technical specifications
+## Processor tech specs
 
 **Surface Laptop 4 13.5”**
 
@@ -42,10 +42,11 @@ For everyday usage, there’s roughly equivalent performance on Surface Laptop 4
  
 
 ## 11th Gen Intel Core i5/i7
+
 | Feature                                    | i5-1145G7               | i7-1185G7               |
 | ------------------------------------------ | ----------------------- | ----------------------- |
-| # of Cores                                 | 4                       | 4                       |
-| # of Threads                               | 8                       | 8                       |
+| Cores                                 | 4                       | 4                       |
+| Threads                               | 8                       | 8                       |
 | Max Turbo Frequency                        | 4.40 GHz                | 4.80 GHz                |
 | Cache                                      | 8 MB Intel Smart Cache  | 12 MB Intel Smart Cache |
 | Bus Speed                                  | 4 GT/s                  | 4 GT/s                  |
@@ -55,7 +56,7 @@ For everyday usage, there’s roughly equivalent performance on Surface Laptop 4
 | Configurable TDP-down                      | 12 W                    | 12 W                    |
 | Max Memory Size (dependent on memory type) | 16 GB                   | 32 GB                   |
 | Memory Types                               | DDR4-3200, LPDDR4x-4267 | DDR4-3200, LPDDR4x-4267 |
-| Max # of Memory Channels                   | 2                       | 2                       |
+| Max Memory Channels                   | 2                       | 2                       |
 
 
 For more information, see:
