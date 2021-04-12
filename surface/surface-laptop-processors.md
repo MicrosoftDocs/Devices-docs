@@ -14,7 +14,7 @@ manager: laurawi
 audience: itpro
 ---
 
-# Surface Laptop 4 processors technical overview
+# Surface Laptop 4 processors tech overview
 
 Surface Laptop 4 is designed to provide commercial customers with a rich set device options to enable all of their employee scenarios with more choice and flexibility to help decision makers better align device procurement goals with increasingly specific role requirements. Compared with Laptop 3:
 
