@@ -20,11 +20,11 @@ Built for the hybrid workplace, Surface Headphones 2 reduce unwanted ambient noi
  
 ## Certified for Microsoft Teams
 
-Now certified for Microsoft Teams with the included dongle, Surface Headphones 2+ meet audio/video specification standards while in use with Teams software to ensure a high-quality call experience. It includes a Teams button to join calls, integrated volume controls, and a mute button with LED status indicator.
+Now certified for Microsoft Teams with the included dongle, Surface Headphones 2+ meet audio/video specification standards while in use with Teams software to ensure a high-quality call experience. It includes a Teams button to join calls or bring Teams to the forefront, integrated call controls, and a LED status indicator on the included dongle to see things like mute statu
  
 ## Using with Microsoft 365
 
-Surface Headphones 2+ integrate with productivity features in Microsoft 365 such as helping improve the accuracy of speech to text dictation or enabling captions to appear on-screen as you talk during a presentation. Captions can be translated in real time, so they appear in a different language. To learn more, see [Use Microsoft 365 with Surface Headphones](https://support.microsoft.com/en-us/surface/use-microsoft-365-with-surface-headphones-917d98c2-7495-a6cf-97f8-e1b594e8ce7c).
+Surface Headphones 2+ integrate with productivity features in Microsoft 365 such as helping improve the accuracy of speech to text dictation or enabling captions to appear on-screen as you talk during a presentation. Captions can be translated in real time, so they appear in a different language. To learn more, see [Use Microsoft 365 with Surface Headphones](https://support.microsoft.com/surface/use-microsoft-365-with-surface-headphones-917d98c2-7495-a6cf-97f8-e1b594e8ce7c).
  
 
 ## Updating firmware
