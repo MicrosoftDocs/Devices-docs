@@ -2,6 +2,14 @@
 
 
 
+## Week of April 05, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 4/5/2021 | [Surface Hub update history](/surface-hub/surface-hub-update-history) | modified |
+
+
 ## Week of March 29, 2021
 
 
