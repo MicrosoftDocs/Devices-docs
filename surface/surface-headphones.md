@@ -29,7 +29,7 @@ Surface Headphones 2+ integrate with productivity features in Microsoft 365 such
 
 ## Updating firmware
 
-- Headphones: users can update the headphone’s firmware via the Surface Audio app (Windows, iOS, Android).
+- Headphones: users can update the headphone’s firmware via the [Surface Audio app](https://www.microsoft.com/p/surface-audio/9nxjnfwnvm8d?)Surface Audio app (Windows, iOS, Android).
 - Dongle: Windows update will automatically push updates to the dongle’s firmware. 
 
 Note, currently there are no enterprise management options for managing Surface Headphones 2+.
@@ -90,4 +90,4 @@ The USB dongle and ear pads for Surface Headphones + are available as replacemen
 4. AptX™ only works with Surface Headphones 2+ when not using the Surface USB Link.
 5. Microsoft’s Limited Warranty is in addition to your consumer law rights.
 6. USB-A to USB-C® adapter should work for a C-capable source. Performance varies based on the quality of the adapter and the cable length
-7. To pair your replacement Surface USB Link to Surface Headphones 2+ you will need the [Surface Audio App](https://www.microsoft.com/p/surface-audio/9nxjnfwnvm8d?), available on devices running Windows 10. 
+7. To pair your replacement Surface USB Link to Surface Headphones 2+ you will need the [Surface Audio app](https://www.microsoft.com/p/surface-audio/9nxjnfwnvm8d?), available on devices running Windows 10. 
