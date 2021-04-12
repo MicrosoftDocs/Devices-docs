@@ -78,7 +78,6 @@ For general information about the Intel processors in Surface Laptop 4, see:
 | Package              | FP6               | FP6               |
 | PCI Express® Version | 3.0               | 3.0               |
 | Default TDP / TDP    | 15W               | 15W               |
-| cTDP                 | 10-25W            | 10-25W            |
 | Max Temps            | 105C              | 105 C             |
 
 For general information about AMD processors in Surface Laptop 4, see [AMD Ryzen](https://www.amd.com/processors/ryzen)
