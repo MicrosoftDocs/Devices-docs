@@ -82,8 +82,6 @@ The USB dongle and ear pads for Surface Headphones + are available as replacemen
 | Color                 | - Black                                                      |
 | Product Compatibility | - Surface Headphones 2+                                      |
 
- 
-
 ### References
 
 1. Music listening testing conducted by Microsoft in Feb 2021 using prerelease Surface Headphones + Dongle package with prerelease software. The dongle was plugged into Surface Laptop 3 and/or Surface Pro 7. Playlist consisted of 44 songs transmitted using SBC encoding. Volume was set to 46% with maximum noise cancellation. Bluetooth A2DP profile was used. Testing consisted of full Surface Headphones battery discharge while playing audio until the Surface Headphones disconnected from the host device. Battery life depends on device settings, environment, usage, and many other factors.
@@ -92,5 +90,4 @@ The USB dongle and ear pads for Surface Headphones + are available as replacemen
 4. AptX™ only works with Surface Headphones 2+ when not using the Surface USB Link.
 5. Microsoft’s Limited Warranty is in addition to your consumer law rights.
 6. USB-A to USB-C® adapter should work for a C-capable source. Performance varies based on the quality of the adapter and the cable length
-7. To pair your replacement Surface USB Link to Surface Headphones 2+ you will need the Surface Audio App, available on devices running Windows 10. Find out more [here](https://aka.ms/PairSurfaceUSBLink).
-
+7. To pair your replacement Surface USB Link to Surface Headphones 2+ you will need the [Surface Audio App](https://www.microsoft.com/p/surface-audio/9nxjnfwnvm8d?), available on devices running Windows 10. 
