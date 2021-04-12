@@ -42,6 +42,8 @@ There are a few key differences between Start menu customization for Surface Hub
 
 - You cannot use **DesktopApplicationTile** (https://docs.microsoft.com/windows/configuration/start-layout-xml-desktop#startdesktopapplicationtile) in your Start layout XML because Windows desktop applications (Win32) are not supported on Surface Hub.
 - You cannot use the Start layout XML to configure the taskbar or the Welcome screen for Surface Hub.  
+- The Start layout policy should be assigned only to devices, not users.
+- The OMA-URI setting to use in the policy is `./Device/Vendor/MSFT/Policy/Config/Start/StartLayout`
 - Surface Hub supports a maximum of 6 columns (6 1x1 tiles), however, you **must** define `GroupCellWidth=8` even though Surface Hub will only display tiles in columns 0-5, not columns 6 and 7.
 - Surface Hub supports a maximum 6 rows (6 1x1 tiles)
 - `SecondaryTile`, which is used for links, will open the link in Microsoft Edge.
