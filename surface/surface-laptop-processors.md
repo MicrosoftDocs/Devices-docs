@@ -52,10 +52,6 @@ To learn more, see [Surface Laptop 4 for Business](https://www.microsoft.com/sur
 | Max Turbo Frequency                        | 4.40 GHz                | 4.80 GHz                |
 | Cache                                      | 8 MB Intel Smart Cache  | 12 MB Intel Smart Cache |
 | Bus Speed                                  | 4 GT/s                  | 4 GT/s                  |
-| Configurable TDP-up Frequency              | 2.60 GHz                | 3.00 GHz                |
-| Configurable TDP-up                        | 28 W                    | 28 W                    |
-| Configurable TDP-down Frequency            | 1.10 GHz                | 1.20 GHz                |
-| Configurable TDP-down                      | 12 W                    | 12 W                    |
 | Max Memory Size (dependent on memory type) | 16 GB                   | 32 GB                   |
 | Memory Types                               | DDR4-3200, LPDDR4x-4267 | DDR4-3200, LPDDR4x-4267 |
 | Max Memory Channels                   | 2                       | 2                       |
