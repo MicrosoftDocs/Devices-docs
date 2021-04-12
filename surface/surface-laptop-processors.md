@@ -35,11 +35,12 @@ To learn more, see [Surface Laptop 4 for Business](https://www.microsoft.com/sur
 - Quad Core 11th Gen Intel Core™ i5-1145G7 processor
 - Quad Core 11th Gen Intel Core™ i7-1185G7 processor
 - AMD Ryzen™ 5 4680U Mobile Processor with Radeon™ Graphics Microsoft Surface Edition (6 cores)
+- AMD Ryzen 7 4980U Mobile Processor with Radeon Graphics Microsoft Surface Edition (8 cores)
 
 **Surface Laptop 4 15”**
 
 - Quad Core 11th Gen Intel Core™ i7-1185G7 processor
-- AMD Ryzen™ 7 4980U Mobile Processor with Radeon™ Graphics Microsoft Surface Edition (8 cores)
+- AMD Ryzen 7 4980U Mobile Processor with Radeon™ Graphics Microsoft Surface Edition (8 cores)
 
  
 
