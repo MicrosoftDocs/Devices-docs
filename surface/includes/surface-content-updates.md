@@ -5,6 +5,14 @@
 
 
 
+## Week of April 05, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 4/5/2021 | [Surface Hub update history](/surface-hub/surface-hub-update-history) | modified |
+
+
 ## Week of March 29, 2021
 
 
@@ -67,6 +75,22 @@
 | 3/16/2021 | [First time Setup  for Surface Hub 2S](/surface-hub/surface-hub-2s-setup) | modified |
 | 3/16/2021 | [What's new in Surface Hub 2S for IT admins](/surface-hub/surface-hub-2s-whats-new) | modified |
 | 3/17/2021 | [Prepare your environment for Microsoft Surface Hub](/surface-hub/prepare-your-environment-for-surface-hub) | modified |
+
+
+## Week of April 05, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 4/5/2021 | [Surface Enterprise Management Mode (Surface)](/surface/surface-enterprise-management-mode) | modified |
+
+
+## Week of April 05, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 4/5/2021 | [Surface Hub update history](/surface-hub/surface-hub-update-history) | modified |
 
 
 ## Week of March 29, 2021
