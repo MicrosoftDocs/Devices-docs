@@ -43,7 +43,7 @@ To learn more, see [Surface Laptop 4 for Business](https://www.microsoft.com/sur
 
  
 
-## 11th Gen Intel Core i5/i7
+## 11th Gen Intel Core i5/i7 in Surface Laptop 4
 
 | Feature                                    | i5-1145G7               | i7-1185G7               |
 | ------------------------------------------ | ----------------------- | ----------------------- |
@@ -57,7 +57,7 @@ To learn more, see [Surface Laptop 4 for Business](https://www.microsoft.com/sur
 | Max Memory Channels                   | 2                       | 2                       |
 
 
-For more information, see:
+For general information about the Intel processors in Surface Laptop 4, see:
 
 - [Intel Core i5-1145G7 Processor](https://www.intel.com/content/www/us/en/products/sku/208660/intel-core-i51145g7-processor-8m-cache-up-to-4-40-ghz-with-ipu/specifications.html) 
 - [Intel Core i7-1185G7 Processor](https://www.intel.com/content/www/us/en/products/sku/208664/intel-core-i71185g7-processor-12m-cache-up-to-4-80-ghz-with-ipu/specifications.html) 
@@ -80,7 +80,7 @@ For more information, see:
 | cTDP                 | 10-25W            | 10-25W            |
 | Max Temps            | 105C              | 105 C             |
 
-For more information, see [AMD Ryzen](https://www.amd.com/processors/ryzen)
+For general information about AMD processors in Surface Laptop 4, see [AMD Ryzen](https://www.amd.com/processors/ryzen)
 
 ## Surface Laptop 4 SKUs
 
