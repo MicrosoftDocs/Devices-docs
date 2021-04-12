@@ -22,7 +22,6 @@ Built for the hybrid workplace, Surface Headphones 2 reduce unwanted ambient noi
 
 Now certified for Microsoft Teams with the included dongle, Surface Headphones 2+ meet audio/video specification standards while in use with Teams software to ensure a high-quality call experience. It includes a Teams button to join calls, integrated volume controls, and a mute button with LED status indicator.
  
-
 ## Using with Microsoft 365
 
 Surface Headphones 2+ integrate with productivity features in Microsoft 365 such as helping improve the accuracy of speech to text dictation or enabling captions to appear on-screen as you talk during a presentation. Captions can be translated in real time, so they appear in a different language. To learn more, see [Use Microsoft 365 with Surface Headphones](https://support.microsoft.com/en-us/surface/use-microsoft-365-with-surface-headphones-917d98c2-7495-a6cf-97f8-e1b594e8ce7c).
@@ -88,10 +87,10 @@ The USB dongle and ear pads for Surface Headphones + are available as replacemen
 ### References
 
 1. Music listening testing conducted by Microsoft in Feb 2021 using prerelease Surface Headphones + Dongle package with prerelease software. The dongle was plugged into Surface Laptop 3 and/or Surface Pro 7. Playlist consisted of 44 songs transmitted using SBC encoding. Volume was set to 46% with maximum noise cancellation. Bluetooth A2DP profile was used. Testing consisted of full Surface Headphones battery discharge while playing audio until the Surface Headphones disconnected from the host device. Battery life depends on device settings, environment, usage, and many other factors.
-2 Voice calling testing conducted by Microsoft in Feb 2021 using prerelease Surface Headphones + Dongle package with prerelease software. The dongle was plugged into Surface Laptop 3 and/or Surface Pro 7. Volume was set to 52% with maximum noise cancellation. Bluetooth Hands-Free profile was used. Testing consisted of full Surface Headphones battery discharge with a Microsoft Teams call until the Surface Headphones disconnected from the host device. Battery life depends on device settings, environment, usage, and many other factors.
+2. Voice calling testing conducted by Microsoft in Feb 2021 using prerelease Surface Headphones + Dongle package with prerelease software. The dongle was plugged into Surface Laptop 3 and/or Surface Pro 7. Volume was set to 52% with maximum noise cancellation. Bluetooth Hands-Free profile was used. Testing consisted of full Surface Headphones battery discharge with a Microsoft Teams call until the Surface Headphones disconnected from the host device. Battery life depends on device settings, environment, usage, and many other factors.
 3. USB-A to USB-C® adapter should work for a C-capable source. Performance varies based on the quality of the adapter and the cable length.
 4. AptX™ only works with Surface Headphones 2+ when not using the Surface USB Link.
-5.Microsoft’s Limited Warranty is in addition to your consumer law rights.
-6..USB-A to USB-C® adapter should work for a C-capable source. Performance varies based on the quality of the adapter and the cable length
-7.To pair your replacement Surface USB Link to Surface Headphones 2+ you will need the Surface Audio App, available on devices running Windows 10. Find out more [here](https://aka.ms/PairSurfaceUSBLink).
+5. Microsoft’s Limited Warranty is in addition to your consumer law rights.
+6. USB-A to USB-C® adapter should work for a C-capable source. Performance varies based on the quality of the adapter and the cable length
+7. To pair your replacement Surface USB Link to Surface Headphones 2+ you will need the Surface Audio App, available on devices running Windows 10. Find out more [here](https://aka.ms/PairSurfaceUSBLink).
 
