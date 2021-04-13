@@ -36,6 +36,7 @@ To edit the default XML or the exported layout, familiarize yourself with the [S
 When you have your Start menu defined in a Start layout XML, [create an MDM policy to apply the layout.](https://docs.microsoft.com/windows/configuration/customize-windows-10-start-screens-by-using-mobile-device-management#a-href-idbkmk-domaingpodeploymentacreate-a-policy-for-your-customized-start-layout)
 
 <span id="differences" />
+
 ## Differences between Surface Hub and desktop Start menu
 
 There are a few key differences between Start menu customization for Surface Hub and a Windows 10 desktop:
@@ -50,6 +51,7 @@ There are a few key differences between Start menu customization for Surface Hub
 
 
 <span id="default" />
+
 ## Example: Default Surface Hub Start layout
 
 ```xml
@@ -107,6 +109,7 @@ There are a few key differences between Start menu customization for Surface Hub
 ```
 
 <span id="edge" />
+
 ## Example: Start layout that includes a Microsoft Edge link
 
 This example shows a link to a website and a link to a .pdf file. The secondary tile for Microsoft Edge uses a 150 x 150 pixel icon.
