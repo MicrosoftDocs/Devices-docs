@@ -43,12 +43,12 @@ conceptualContent:
     # Card 1
     - title: Surface overview
       links:
+        - url: https://www.microsoft.com/surface/business/surface-laptop-4
+          itemType: concept
+          text: Surface Laptop 4 for Business      
         - url: https://www.microsoft.com/surface/business/surface-pro-7-plus
           itemType: concept
-          text: Surface Laptop Pro 7+ for Business
-        - url: https://www.microsoft.com/surface/business/surface-laptop-go
-          itemType: concept
-          text: Surface Laptop Go for Business
+          text: Surface Pro 7+ for Business
         - url: https://www.microsoft.com/surface/business
           itemType: concept
           text: Explore all Surface family products

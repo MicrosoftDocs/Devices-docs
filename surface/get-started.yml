@@ -40,8 +40,8 @@ landingContent:
     linkLists:
       - linkListType: get-started
         links:
-         - text: What's new in Surface Pro 7+ for Business 
-           url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/surface-pro-7-brings-next-level-performance-and-versatility-to/ba-p/1928797
+         - text: Surface Laptop 4 processors tech overview 
+           url: surface-laptop-processors.md
          - text: Windows Virtual Desktop on Surface
            url: windows-virtual-desktop-surface.md
          - text: What’s new in Surface Dock 2
