@@ -87,7 +87,7 @@ For general information about AMD processors in Surface Laptop 4, see [AMD Ryzen
 | Configuration | Processor                                                         | GPU                    |
 | ------------- | ----------------------------------------------------------------- | ---------------------- |
 | R5/8/256GB    | AMD Ryzen 5 4680U Mobile Processor with Microsoft Surface Edition | Radeon™ Graphics       |
-| i5/8/256GB    | 11th Gen Intel Core i5 1145G7 processor                          | Intel Iris Xe Graphics |
+| i5/8/256GB    | 11th Gen Intel Core i5 1145G7 processor                          | Intel Iris® Xe Graphics |
 | R5/16/256GB   | AMD Ryzen 5 4680U Mobile Processor with Microsoft Surface Edition | Radeon Graphics        |
 | i5/8/512GB    | 11th Gen Intel Core i5 1145G7 processor                           | Intel Iris Xe Graphics |
 | i5/16/512GB   | 11th Gen Intel Core i5 1145G7 processor                           | Intel Iris Xe Graphics |
