@@ -74,7 +74,7 @@ For general information about the Intel processors in Surface Laptop 4, see:
 | Max Boost Clock      | 4.0 GHz           | 4.4 GHz           |
 | Total L2 Cache       | 3 MB              | 4 MB              |
 | Total L3 Cache       | 8 MB              | 8 MB              |
-| CMOS                 | TSMC 7nM FinFET   | TSMC 7nM FinFET   |
+| CMOS                 | TSMC 7nm FinFET   | TSMC 7nm FinFET   |
 | Package              | FP6               | FP6               |
 | PCI Express® Version | 3.0               | 3.0               |
 | Default TDP / TDP    | 15W               | 15W               |
