@@ -8,7 +8,7 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 10/09/2020
+ms.date: 04/13/2021
 ms.reviewer: jesko
 manager: laurawi
 ms.audience: itpro
@@ -19,6 +19,7 @@ appliesto:
 - Surface Laptop 3
 - Surface Book 3
 - Surface Laptop Go
+- Surface Laptop 4
 ---
 # Intune management of Surface UEFI settings
 
@@ -52,6 +53,7 @@ DFCI is supported in the following devices:
 - Surface Laptop 3
 - Surface Book 3
 - Surface Laptop Go
+- Surface Laptop 4
 
 > [!NOTE]
 > Surface Pro X does not support DFCI settings management for built-in camera, audio, and Wi-Fi/Bluetooth.
