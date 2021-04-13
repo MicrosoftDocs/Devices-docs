@@ -24,7 +24,7 @@ Now certified for Microsoft Teams with the included dongle, Surface Headphones 2
  
 ## Using with Microsoft 365
 
-Surface Headphones 2+ integrate with productivity features in Microsoft 365* such as helping improve the accuracy of speech to text dictation or enabling captions to appear on-screen while you speak during a presentation.
+Surface Headphones 2+ integrate with productivity features in Microsoft 365 such as helping improve the accuracy of speech to text dictation or enabling captions to appear on-screen while you speak during a presentation.
 
 - Talk rather than type with dictation in Microsoft Word, Outlook, and PowerPoint.
 - Enable live captions and subtitles on-screen while you’re talking, and translate what you’re saying into one of 60+ languages for more accessible presentations. 
