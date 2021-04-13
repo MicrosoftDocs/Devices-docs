@@ -1,5 +1,5 @@
 ---
-title: Surface Headphones 2+ technical overview
+title: Surface Headphones 2+ tech overview
 description: This article provides an overview of Surface Headphones 2+ for Business
 ms.prod: w10
 ms.mktglfcycl: manage
@@ -14,17 +14,17 @@ manager: laurawi
 audience: itpro
 ---
 
-# Surface Headphones 2+ for Business
+# Surface Headphones 2+ tech overview
 
-Built for the hybrid workplace, Surface Headphones 2 reduce unwanted ambient noise, enable clear remote meeting participation, and provide high-fidelity sound. Surface Headphones 2+ include 13 levels of active noise cancellation, earcup dials, and advanced 8-microphone system for voice clarity, [18.5 hours of music](https://www.microsoft.com/en-us/surface/business/surface-headphones-2-plus) <sup>1</sup> listening time or up to 15 hours of voice<sup>2</sup> calling time. 
+Built for the hybrid workplace, Surface Headphones 2+ reduce unwanted ambient noise, enable clear remote meeting participation, and provide high-fidelity sound. Surface Headphones 2+ include 13 levels of active noise cancellation, earcup dials, and advanced 8-microphone system for voice clarity, [18.5 hours of music](https://www.microsoft.com/en-us/surface/business/surface-headphones-2-plus) <sup>1</sup> listening time or up to 15 hours of voice<sup>2</sup> calling time. 
  
 ## Certified for Microsoft Teams
 
-Now certified for Microsoft Teams with the included dongle, Surface Headphones 2+ meet audio/video specification standards while in use with Teams software to ensure a high-quality call experience. It includes a Teams button to join calls or bring Teams to the forefront, integrated call controls, and a LED status indicator on the included dongle to see things like mute statu
+Now certified for Microsoft Teams with the included dongle, Surface Headphones 2+ meet audio/video specification standards while in use with Teams software to ensure a high-quality call experience. It includes a Teams button to join calls or bring Teams to the forefront, integrated call controls, and an LED status indicator on the included dongle to indicate mute status.
  
 ## Using with Microsoft 365
 
-Surface Headphones 2+ integrate with productivity features in Microsoft 365 such as helping improve the accuracy of speech to text dictation or enabling captions to appear on-screen as you talk during a presentation. Captions can be translated in real time, so they appear in a different language. To learn more, see [Use Microsoft 365 with Surface Headphones](https://support.microsoft.com/surface/use-microsoft-365-with-surface-headphones-917d98c2-7495-a6cf-97f8-e1b594e8ce7c).
+Surface Headphones 2+ integrate with productivity features in Microsoft 365 such as helping improve the accuracy of speech to text dictation or enabling captions to appear on-screen while you speak during a presentation. Captions can be translated in real time, so they appear in a different language. To learn more, see [Use Microsoft 365 with Surface Headphones](https://support.microsoft.com/surface/use-microsoft-365-with-surface-headphones-917d98c2-7495-a6cf-97f8-e1b594e8ce7c).
  
 
 ## Updating firmware
