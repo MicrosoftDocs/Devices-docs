@@ -14,11 +14,10 @@ author: coveminer
 ms.author: greglin
 ms.topic: article
 audience: itpro
-ms.date: 01/15/2021
+ms.date: 04/13/2021
 ---
 
 # Microsoft Surface Data Eraser
-
 
 Find out how the Microsoft Surface Data Eraser tool can help you securely wipe data from your Surface devices.
 
@@ -40,11 +39,11 @@ Compatible Surface devices include:
 
 Some scenarios where Microsoft Surface Data Eraser can be helpful include:
 
--   Prepare a Surface device to be sent for repair
+- Prepare a Surface device to be sent for repair
 
--   Decommission a Surface device to be removed from corporate or organizational use
+- Decommission a Surface device to be removed from corporate or organizational use
 
--   Repurpose a Surface device for use in a new department or for use by a new user
+- Repurpose a Surface device for use in a new department or for use by a new user
 
 -   Standard practice when performing reimaging for devices used with sensitive data
 
@@ -137,7 +136,7 @@ After you create a Microsoft Surface Data Eraser USB stick, you can boot a suppo
 
 6. The Microsoft Surface Data Eraser script detects the storage devices that are present in your Surface device and displays the details of the native storage device. To continue, press **Y** (this action runs Microsoft Surface Data Eraser and removes all data from the storage device) or press **N** (this action shuts down the device without removing data).
 
-   >[!NOTE]
+   >[!CAUTION]
    >The Microsoft Surface Data Eraser tool will delete all data, including Windows operating system files required to boot the device, in a secure and unrecoverable way. To boot a Surface device that has been wiped with Microsoft Surface Data Eraser, you will first need to reinstall the Windows operating system. To remove data from a Surface device without removing the Windows operating system, you can use the **Reset your PC** function. However, this does not prevent your data from being recovered with forensic or data recovery capabilities. See [Recovery options in Windows 10](https://support.microsoft.com/help/12415/windows-10-recovery-options) for more information.
 
    ![Partition to be erased is displayed](images/sda-fig5-erase.png "Partition to be erased is displayed")
@@ -148,14 +147,23 @@ After you create a Microsoft Surface Data Eraser USB stick, you can boot a suppo
 
 8. Click the **Yes** button to continue erasing data on the Surface device.
 
-   >[!NOTE]
+   >[!TIP]
    >When you run Surface Data Eraser on the Surface Data Eraser USB drive, a log file is generated in the **SurfaceDataEraserLogs** folder.
 
 ## Changes and updates
 
 Microsoft Surface Data Eraser is periodically updated by Microsoft. For information about the changes provided in each new version, see the following:
 
+### 3.39.139.0
+
+*Release Date: 13 April 2021*
+
+This version of Surface Data Eraser includes:
+
+- Support for Surface Laptop 4
+
 ### 2.34.139.0
+
 *Release Date: 15 January 2021*
 
 This version of Surface Data Eraser:
@@ -163,6 +171,7 @@ This version of Surface Data Eraser:
 - Includes bug fixes
 
 ### 3.33.139
+
 *Release Date: 9 September 2020*
 
 This version of Surface Data Eraser includes bug fixes and adds support for: 
@@ -174,14 +183,17 @@ This version of Surface Data Eraser includes bug fixes and adds support for:
 
 
 ### 3.30.139
+
 *Release Date: 11 May 2020*
 
 This version of Surface Data Eraser adds support for: 
+
 - Surface Book 3
 - Surface Go 2
 - New SSD in Surface Go
 
 ### 3.28.137
+
 *Release Date: 11 Nov 2019*
 
 This version of Surface Data Eraser:
@@ -189,6 +201,7 @@ This version of Surface Data Eraser:
 - Includes bug fixes
 
 ### Version 3.21.137
+
 *Release Date: 21 Oct 2019*
 
 This version of Surface Data Eraser is compiled for x86 and adds support for the following devices:
@@ -235,7 +248,6 @@ This version of Microsoft Surface Data Eraser adds support for the following:
 
 - Additional storage devices (drives) for Surface Pro and Surface Laptop devices
 
-
 ### Version 3.2.46.0
 
 This version of Microsoft Surface Data Eraser adds support for the following:
@@ -248,7 +260,6 @@ This version of Microsoft Surface Data Eraser adds support for the following:
 This version of Microsoft Surface Data Eraser adds support for the following:
 
 - Surface Book 2
-
 - Surface Pro 1TB
 
    >[!NOTE]
@@ -260,7 +271,6 @@ This version of Microsoft Surface Data Eraser adds support for the following:
 This version of Microsoft Surface Data Eraser adds support for the following:
 
 - Surface Pro
-
 - Surface Laptop
 
 >[!NOTE]
