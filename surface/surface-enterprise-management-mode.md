@@ -13,7 +13,7 @@ ms.reviewer: hachidan
 manager: laurawi
 ms.localizationpriority: medium
 audience: itpro
-ms.date: 03/18/2021
+ms.date: 04/13/2021
 ---
 
 # Microsoft Surface Enterprise Management Mode
@@ -249,15 +249,27 @@ The PowerShell samples that create a config package for a specific device type c
 
 ## Version history
 
+
+### Version 2.83.139.0
+
+This version of SEMM includes:
+
+- Support for Surface Laptop 4
+- Support for simultaneous multithreading option for Surface Pro 7
+- Removal of obsolete SEMM settings  
+- Improved MSI signing 
+
 ### Version 2.79.139.0
 
 This version of SEMM includes:
+
 - Support for Surface Pro 7+.
 - User experience improvements.
 
 ### Version 2.78.139.0
 
 This version of SEMM includes:
+
 - Support for Surface Laptop Go and Surface Pro X.
 - Notifications for new version releases.
 - The ability to create custom packages to change ownership.
@@ -266,21 +278,24 @@ This version of SEMM includes:
 ### Version 2.73.136.0
 
 This version of SEMM includes:
+
 - The ability for audio to be disabled on Surface Hub2S using SEMM.
-- Support to Surface Pro X for Dock 2.
-- Support to UEFI Manager for Dock 2-related operations.
+- Support for Surface Pro X for Dock 2.
+- Support for UEFI Manager for Dock 2-related operations.
 - A Surface Go reset package bug fix.
 - Support for migrating Surface Hub 2 devices from Windows 10 Team OS to Windows 10 Pro or Enterprise.
 
 ### Version 2.71.139.0
 
 This version of SEMM adds support for Surface Dock 2 management features for Surface Book 3, Surface Laptop 3, and Surface Pro 7. It includes:
+
 - The ability to enable audio (lock/unlock), and Ethernet and USB ports.
 - The ability to create dock packages for both authenticated and unauthenticated hosts.
 
 ### Version 2.70.130.0
 
 This version of SEMM includes:
+
 - Support for Surface Go 2.
 - Support for Surface Book 3.
 - Bug fixes.
@@ -288,6 +303,7 @@ This version of SEMM includes:
 ### Version 2.59.139.0
 
 This version of SEMM includes:
+
 - Support for Surface Pro 7, Surface Pro X, and Surface Laptop 3 13.5" and 15" models with Intel processor. 
     >[!NOTE]
     >Surface Laptop 3 15" AMD processor isn't supported.
@@ -296,36 +312,42 @@ This version of SEMM includes:
 ### Version 2.54.139.0
 
 This version of SEMM includes:
+
 - Support for Surface Hub 2S.
 - Bug fixes.
 
 ### Version 2.43.136.0
 
 This version of SEMM includes:
-- Support to enable/disable simultaneous multithreating.
+
+- Support to enable/disable simultaneous multithreading.
 - Separate options for wireless networking and Bluetooth for some devices.
 - Battery Limit removed for Surface Studio.
 
 ### Version 2.26.136.0
 
 This version of SEMM includes:
+
 - Support for Surface Studio 2.
 - Battery Limit feature.
 
 ### Version 2.21.136.0
 
 This version of SEMM includes:
+
 - Support for Surface Pro 6.
 - Support for Surface Laptop 2.
 
 ### Version 2.14.136.0
 
 This version of SEMM includes:
+
 - Support for Surface Go.
 
 ### Version 2.9.136.0
 
 This version of SEMM includes:
+
 - Support for Surface Book 2.
 - Support for Surface Pro LTE.
 - Accessibility improvements.
@@ -333,6 +355,7 @@ This version of SEMM includes:
 ### Version 1.0.74.0
 
 This version of SEMM includes:
+
 - Support for Surface Laptop.
 - Support for Surface Pro.
 - Bug fixes and general improvements.
