@@ -8,12 +8,12 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 03/05/2021
+ms.date: 04/13/2021
 ms.reviewer: brrecord
 manager: laurawi
 audience: itpro
 ---
-# What’s new in Surface Dock 
+# What’s new in Surface Dock
 
 Surface Dock 2, the next generation Surface dock, lets users connect external monitors and multiple peripherals to obtain a fully modernized desktop experience from a Surface device. Built to maximize efficiency at the office, in a flexible workspace, or at home, Surface Dock 2 features seven ports, including two front-facing USB-C ports, with 15 watts of fast charging power for phone and accessories. 
 
@@ -62,6 +62,7 @@ Surface Dock 2 is designed to simplify IT management, enabling admins to automat
   - Surface Pro 7+
   - Surface Pro X
   - Surface Laptop 3
+  - Surface Laptop 4
 
 - Dual 4K@ 4K@30Hz. Supports up to two displays on the following devices:
 
@@ -113,7 +114,7 @@ Surface Dock 2 is designed to simplify IT management, enabling admins to automat
 
 
 
-1. *Devices must be configured for Wake on LAN via Surface Enterprise Management Mode (SEMM) or Device Firmware Control Interface (DFCI) to wake from Hibernation or Power-Off states. Wake from Hibernation or Power-Off is supported on Surface Pro 7+, Surface Pro 7, Surface Laptop 3, Surface Pro X, Surface Book 3, and Surface Go 2.  Software license required for some features. Sold separately.*
+1. *Devices must be configured for Wake on LAN via Surface Enterprise Management Mode (SEMM) or Device Firmware Control Interface (DFCI) to wake from Hibernation or Power-Off states. Wake from Hibernation or Power-Off is supported on Surface Pro 7+, Surface Pro 7, Surface Laptop 4, Surface Laptop 3, Surface Pro X, Surface Book 3, and Surface Go 2.  Software license required for some features. Sold separately.*
 
 2. *Software license required for some features. Sold separately.*
 
