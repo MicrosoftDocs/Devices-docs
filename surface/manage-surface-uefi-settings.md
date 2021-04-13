@@ -12,7 +12,7 @@ ms.author: greglin
 ms.topic: article
 ms.reviewer: hachidan
 manager: laurawi
-ms.date: 01/25/2021
+ms.date: 04/13/2021
 ---
 
 # Manage Surface UEFI settings
@@ -172,7 +172,7 @@ Use the **Restart Now** button on the **Exit** page to exit UEFI settings, as sh
 
 ## Surface UEFI boot screens
 
-When you update Surface device firmware, by using either Windows Update or manual installation, the updates are not applied immediately to the device, but instead during the next reboot cycle. You can find out more about the Surface firmware update process in [Manage Surface driver and firmware updates](manage-surface-pro-3-firmware-updates.md). The progress of the firmware update is displayed on a screen with progress bars of differing colors to indicate the firmware for each component. Each component’s progress bar is shown in Figures 9 through 18.
+When you update Surface device firmware, by using either Windows Update or manual installation, the updates are not applied immediately to the device, but instead during the next reboot cycle. You can find out more about the Surface firmware update process in [Manage and deploy Surface driver and firmware updates](manage-surface-driver-and-firmware-updates.md). The progress of the firmware update is displayed on a screen with progress bars of differing colors to indicate the firmware for each component. Each component’s progress bar is shown in Figures 9 through 18.
 
 ![Surface UEFI firmware update with blue progress bar](images/manage-surface-uefi-fig8.png "Surface UEFI firmware update with blue progress bar")
 
