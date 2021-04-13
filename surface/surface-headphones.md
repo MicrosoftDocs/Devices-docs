@@ -33,8 +33,8 @@ Note that a software license is required for some Microsoft 365 features and is 
  
 ## Updating firmware
 
-- Headphones: users can update the headphone’s firmware via the [Surface Audio app](https://www.microsoft.com/p/surface-audio/9nxjnfwnvm8d?)Surface Audio app (Windows, iOS, Android).
-- Dongle: Windows update will automatically push updates to the dongle’s firmware. 
+- Headphones: users can update firmware on Surface Headphones 2+ via the [Surface Audio app](https://www.microsoft.com/p/surface-audio/9nxjnfwnvm8d?)(Windows, iOS, Android).
+- Surface USB link dongle: Windows Update automatically pushes updates to firmware on the dongle.
 
 Note, currently there are no enterprise management options for managing Surface Headphones 2+.
 
