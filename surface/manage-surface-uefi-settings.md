@@ -24,7 +24,7 @@ ms.date: 01/25/2021
 UEFI management is supported on the following: 
 
 - Surface Pro 4, Surface Pro (5th Gen), Surface Pro 6, Surface Pro 7, Surface Pro 7+, Surface Pro X
-- Surface Laptop (1st Gen), Surface Laptop 2, Surface Laptop 3, Surface Laptop Go
+- Surface Laptop (1st Gen), Surface Laptop 2, Surface Laptop 3, Surface Laptop Go, Surface Laptop 4
 - Surface Studio (1st Gen), Surface Studio 2
 - Surface Book, Surface Book 2, Surface Book 3
 - Surface Go, Surface Go 2[<sup>1</sup>](#references)
@@ -160,7 +160,7 @@ The Management page allows you to manage use of Zero Touch UEFI Management and o
 Zero Touch UEFI Management lets you remotely manage UEFI settings  by using a device profile within Intune called Device Firmware Configuration Interface (DFCI). If you do not configure this setting, the ability to manage eligible devices with DFCI is set to **Ready**. To prevent DFCI, select **Opt-Out**. 
 
 > [!NOTE]
-> The UEFI Management settings page and use of DFCI is currently available for Surface Pro 7+, Surface Laptop Go, Surface Book 3, Surface Laptop 3, Surface Pro 7, and Surface Pro X. To learn more, see [Intune management of Surface UEFI settings](surface-manage-dfci-guide.md).
+> The UEFI Management settings page and use of DFCI is currently available for Surface Pro 7+, Surface Laptop Go, Surface Book 3, Surface Laptop 4, Surface Laptop 3, Surface Pro 7, and Surface Pro X. To learn more, see [Intune management of Surface UEFI settings](surface-manage-dfci-guide.md).
 
 ## UEFI menu: Exit 
 
@@ -172,7 +172,7 @@ Use the **Restart Now** button on the **Exit** page to exit UEFI settings, as sh
 
 ## Surface UEFI boot screens
 
-When you update Surface device firmware, by using either Windows Update or manual installation, the updates are not applied immediately to the device, but instead during the next reboot cycle. You can find out more about the Surface firmware update process in [Manage Surface driver and firmware updates](https://docs.microsoft.com/surface/manage-surface-pro-3-firmware-updates). The progress of the firmware update is displayed on a screen with progress bars of differing colors to indicate the firmware for each component. Each component’s progress bar is shown in Figures 9 through 18.
+When you update Surface device firmware, by using either Windows Update or manual installation, the updates are not applied immediately to the device, but instead during the next reboot cycle. You can find out more about the Surface firmware update process in [Manage Surface driver and firmware updates](manage-surface-pro-3-firmware-updates.md). The progress of the firmware update is displayed on a screen with progress bars of differing colors to indicate the firmware for each component. Each component’s progress bar is shown in Figures 9 through 18.
 
 ![Surface UEFI firmware update with blue progress bar](images/manage-surface-uefi-fig8.png "Surface UEFI firmware update with blue progress bar")
 
