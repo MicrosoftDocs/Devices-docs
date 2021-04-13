@@ -23,8 +23,8 @@ Surface Laptop 4 is designed to provide commercial customers with a rich set of 
 
 For everyday usage, there’s roughly equivalent performance on Surface Laptop 4 running AMD Ryzen Microsoft Surface Edition or Intel 11th gen Core processors. Choice of SKU depends on customer priorities:
 
-- If multi-threaded app performance and longer battery life is a top priority, AMD is a good choice.
-- If faster single threaded performance is more important, along with options for greater memory and storage, Intel is a good choice.
+- If multi-threaded app performance and longer battery life is a top priority, Surface Laptop 4 with AMD Ryzen Surface Edition processors is a good choice.
+- If faster single threaded performance is more important, along with options for greater memory and storage, Surface Laptop 4 with Intel 11th gen core processors is a good choice.
 
 To learn more, see [Surface Laptop 4 for Business](https://www.microsoft.com/surface/business/surface-laptop-4).
 
@@ -50,12 +50,12 @@ To learn more, see [Surface Laptop 4 for Business](https://www.microsoft.com/sur
 | ------------------------------------------ | ----------------------- | ----------------------- |
 | Cores                                 | 4                       | 4                       |
 | Threads                               | 8                       | 8                       |
-| Max Turbo Frequency                        | 4.40 GHz                | 4.80 GHz                |
+| Max turbo frequency                        | 4.40 GHz                | 4.80 GHz                |
 | Cache                                      | 8 MB Intel Smart Cache  | 12 MB Intel Smart Cache |
-| Bus Speed                                  | 4 GT/s                  | 4 GT/s                  |
-| Max Memory Size (dependent on memory type) | 16 GB                   | 32 GB                   |
-| Memory Types                               | DDR4-3200, LPDDR4x-4267 | DDR4-3200, LPDDR4x-4267 |
-| Max Memory Channels                   | 2                       | 2                       |
+| Bus speed                                  | 4 GT/s                  | 4 GT/s                  |
+| Max memory size  | 16 GB                   | 32 GB                   |
+| Memory types                               | DDR4-3200, LPDDR4x-4267 | DDR4-3200, LPDDR4x-4267 |
+| Max memory channels                   | 2                       | 2                       |
 
 
 For general information about the Intel processors in Surface Laptop 4, see:
@@ -63,17 +63,17 @@ For general information about the Intel processors in Surface Laptop 4, see:
 - [Intel Core i5-1145G7 Processor](https://www.intel.com/content/www/us/en/products/sku/208660/intel-core-i51145g7-processor-8m-cache-up-to-4-40-ghz-with-ipu/specifications.html) 
 - [Intel Core i7-1185G7 Processor](https://www.intel.com/content/www/us/en/products/sku/208664/intel-core-i71185g7-processor-12m-cache-up-to-4-80-ghz-with-ipu/specifications.html) 
 
-## AMD Ryzen with Microsoft Surface Edition
+## AMD Ryzen Microsoft Surface Edition processors
 
 | Feature              | AMD Ryzen 5 4680U | AMD Ryzen 7 4980U |
 | -------------------- | ----------------- | ----------------- |
-| CPU Cores            | 6                 | 8                 |
+| CPU cores            | 6                 | 8                 |
 | Threads              | 12                | 16                |
-| GPU Cores            | 7                 | 8                 |
-| Base Clock           | 2.1 GHz           | 2.0 GHz           |
-| Max Boost Clock      | 4.0 GHz           | 4.4 GHz           |
-| Total L2 Cache       | 3 MB              | 4 MB              |
-| Total L3 Cache       | 8 MB              | 8 MB              |
+| GPU cores            | 7                 | 8                 |
+| Base clock           | 2.1 GHz           | 2.0 GHz           |
+| Max boost clock      | 4.0 GHz           | 4.4 GHz           |
+| Total L2 cache       | 3 MB              | 4 MB              |
+| Total L3 cache       | 8 MB              | 8 MB              |
 | CMOS                 | TSMC 7nm FinFET   | TSMC 7nm FinFET   |
 | Package              | FP6               | FP6               |
 | PCI Express® Version | 3.0               | 3.0               |
