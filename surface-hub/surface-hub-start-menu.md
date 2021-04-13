@@ -36,18 +36,22 @@ To edit the default XML or the exported layout, familiarize yourself with the [S
 When you have your Start menu defined in a Start layout XML, [create an MDM policy to apply the layout.](https://docs.microsoft.com/windows/configuration/customize-windows-10-start-screens-by-using-mobile-device-management#a-href-idbkmk-domaingpodeploymentacreate-a-policy-for-your-customized-start-layout)
 
 <span id="differences" />
+
 ## Differences between Surface Hub and desktop Start menu
 
 There are a few key differences between Start menu customization for Surface Hub and a Windows 10 desktop:
 
 - You cannot use **DesktopApplicationTile** (https://docs.microsoft.com/windows/configuration/start-layout-xml-desktop#startdesktopapplicationtile) in your Start layout XML because Windows desktop applications (Win32) are not supported on Surface Hub.
 - You cannot use the Start layout XML to configure the taskbar or the Welcome screen for Surface Hub.  
+- The Start layout policy should be assigned only to devices, not users.
+- The OMA-URI setting to use in the policy is `./Device/Vendor/MSFT/Policy/Config/Start/StartLayout`
 - Surface Hub supports a maximum of 6 columns (6 1x1 tiles), however, you **must** define `GroupCellWidth=8` even though Surface Hub will only display tiles in columns 0-5, not columns 6 and 7.
 - Surface Hub supports a maximum 6 rows (6 1x1 tiles)
 - `SecondaryTile`, which is used for links, will open the link in Microsoft Edge.
 
 
 <span id="default" />
+
 ## Example: Default Surface Hub Start layout
 
 ```xml
@@ -105,6 +109,7 @@ There are a few key differences between Start menu customization for Surface Hub
 ```
 
 <span id="edge" />
+
 ## Example: Start layout that includes a Microsoft Edge link
 
 This example shows a link to a website and a link to a .pdf file. The secondary tile for Microsoft Edge uses a 150 x 150 pixel icon.
