@@ -59,7 +59,7 @@ Note, currently there are no enterprise management options for managing Surface 
 
 ## Replacement parts
 
-The USB dongle and ear pads for Surface Headphones + are available as replacement parts.
+The USB dongle and ear pads for Surface Headphones + are available as replacement parts. To learn more, see [Get a replacement for Microsoft Surface USB Link] (https://support.microsoft.com/surface/get-a-replacement-for-microsoft-surface-usb-link-e862e6c6-0945-494f-bb4d-2e731f3b4724)
  
 ### Microsoft Surface USB Link tech specs
 
