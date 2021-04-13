@@ -24,9 +24,13 @@ Now certified for Microsoft Teams with the included dongle, Surface Headphones 2
  
 ## Using with Microsoft 365
 
-Surface Headphones 2+ integrate with productivity features in Microsoft 365 such as helping improve the accuracy of speech to text dictation or enabling captions to appear on-screen while you speak during a presentation. Captions can be translated in real time, so they appear in a different language. To learn more, see [Use Microsoft 365 with Surface Headphones](https://support.microsoft.com/surface/use-microsoft-365-with-surface-headphones-917d98c2-7495-a6cf-97f8-e1b594e8ce7c).
- 
+Surface Headphones 2+ integrate with productivity features in Microsoft 365* such as helping improve the accuracy of speech to text dictation or enabling captions to appear on-screen while you speak during a presentation.
 
+- Talk rather than type with dictation in Microsoft Word, Outlook, and PowerPoint.
+- Enable live captions and subtitles on-screen while you’re talking, and translate what you’re saying into one of 60+ languages for more accessible presentations. 
+
+Note that a software license is required for some Microsoft 365 features and is sold separately. To learn more, see [Use Microsoft 365 with Surface Headphones](https://support.microsoft.com/surface/use-microsoft-365-with-surface-headphones-917d98c2-7495-a6cf-97f8-e1b594e8ce7c).
+ 
 ## Updating firmware
 
 - Headphones: users can update the headphone’s firmware via the [Surface Audio app](https://www.microsoft.com/p/surface-audio/9nxjnfwnvm8d?)Surface Audio app (Windows, iOS, Android).
@@ -59,7 +63,7 @@ Note, currently there are no enterprise management options for managing Surface 
 
 ## Replacement parts
 
-The USB dongle and ear pads for Surface Headphones + are available as replacement parts. To learn more, see [Get a replacement for Microsoft Surface USB Link] (https://support.microsoft.com/surface/get-a-replacement-for-microsoft-surface-usb-link-e862e6c6-0945-494f-bb4d-2e731f3b4724)
+The USB dongle and ear pads for Surface Headphones + are available as replacement parts. To learn more, see [Get a replacement for Microsoft Surface USB Link](https://support.microsoft.com/surface/get-a-replacement-for-microsoft-surface-usb-link-e862e6c6-0945-494f-bb4d-2e731f3b4724)
  
 ### Microsoft Surface USB Link tech specs
 
