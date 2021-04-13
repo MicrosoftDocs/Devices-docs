@@ -16,7 +16,7 @@ audience: itpro
 
 # Surface Laptop 4 processors tech overview
 
-Surface Laptop 4 is designed to provide commercial customers with a rich set device options to enable all of their employee scenarios with more choice and flexibility to help decision makers better align device procurement goals with increasingly specific role requirements. Compared with Laptop 3:
+Surface Laptop 4 is designed to provide commercial customers with a rich set of device options to help decision makers better align device procurement goals with increasingly specific role requirements. Compared with Surface Laptop 3:
 
 - Surface Laptop 4 equipped with AMD Ryzen™ Microsoft Surface Edition processors provides superior multi-threading performance making it a great choice for information workers needing better multitasking capabilities.
 - Surface Laptop 4 equipped with 11th gen Intel® Core™ processors provide a stronger GPU and faster single threaded performance, making it a great choice for developers, researchers, data scientists and the like - especially when paired with the greater memory and storage offered in the top end Intel SKU.
