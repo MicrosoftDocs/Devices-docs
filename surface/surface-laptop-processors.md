@@ -1,5 +1,5 @@
 ---
-title: Surface Laptop processors technical overview
+title: Surface Laptop 4 processors technical overview
 description: This article provides an overview of AMD and Intel processors in Surface Laptop. 
 ms.prod: w10
 ms.mktglfcycl: manage
