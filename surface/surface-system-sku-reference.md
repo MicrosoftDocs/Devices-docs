@@ -9,7 +9,7 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 01/27/2021
+ms.date: 04/13/2021
 ms.reviewer: 
 manager: laurawi
 ms.localizationpriority: medium
@@ -53,6 +53,10 @@ System Model and System SKU are variables that are stored in the System Manageme
 | Surface Laptop 3 15" Intel | Surface Laptop 3 | Surface_Laptop_3_1872      |
 | Surface Laptop 3 15" AMD   | Surface Laptop 3 | Surface_Laptop_3_1873      | 
 | Surface Laptop Go  | Surface Laptop Go | Surface_Laptop_Go_1943      | 
+| Surface Laptop 4 13" Intel | Surface Laptop 4 | Surface_Laptop_4_1950:1951 |
+| Surface Laptop 4 15" Intel | Surface Laptop 4 | Surface_Laptop_4_1978:1979     |
+| Surface Laptop 4 15" AMD   | Surface Laptop 4 | Surface_Laptop_4_1952:1953     | 
+| Surface Laptop 4 13" AMD   | Surface Laptop 4 | Surface_Laptop_4_1958:1959    | 
 
 ## Examples 
 
