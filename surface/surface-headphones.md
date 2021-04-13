@@ -1,5 +1,5 @@
 ---
-title: Surface Headphones 2+ technical overview
+title: Surface Headphones 2+ tech overview
 description: This article provides an overview of Surface Headphones 2+ for Business
 ms.prod: w10
 ms.mktglfcycl: manage
