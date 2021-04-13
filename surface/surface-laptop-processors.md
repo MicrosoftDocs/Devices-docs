@@ -18,8 +18,8 @@ audience: itpro
 
 Surface Laptop 4 is designed to provide commercial customers with a rich set device options to enable all of their employee scenarios with more choice and flexibility to help decision makers better align device procurement goals with increasingly specific role requirements. Compared with Laptop 3:
 
-- Surface Laptop 4 equipped with AMD Ryzen Microsoft Surface Edition processors provides superior multi-threading performance making it a great choice for information workers needing better multitasking capabilities.
-- Surface Laptop 4 equipped with 11th gen Intel Core processors provide a stronger GPU and faster single threaded performance, making it a great choice for developers, researchers, data scientists and the like - especially when paired with the greater memory and storage offered in the top end Intel SKU.
+- Surface Laptop 4 equipped with AMD Ryzen™ Microsoft Surface Edition processors provides superior multi-threading performance making it a great choice for information workers needing better multitasking capabilities.
+- Surface Laptop 4 equipped with 11th gen Intel® Core™ processors provide a stronger GPU and faster single threaded performance, making it a great choice for developers, researchers, data scientists and the like - especially when paired with the greater memory and storage offered in the top end Intel SKU.
 
 For everyday usage, there’s roughly equivalent performance on Surface Laptop 4 running AMD Ryzen Microsoft Surface Edition or Intel 11th gen Core processors. Choice of SKU depends on customer priorities:
 
@@ -32,9 +32,9 @@ To learn more, see [Surface Laptop 4 for Business](https://www.microsoft.com/sur
 
 **Surface Laptop 4 13.5”**
 
-- Quad Core 11th Gen Intel Core™ i5-1145G7 processor
-- Quad Core 11th Gen Intel Core™ i7-1185G7 processor
-- AMD Ryzen™ 5 4680U Mobile Processor with Radeon™ Graphics Microsoft Surface Edition (6 cores)
+- Quad Core 11th Gen Intel Core i5-1145G7 processor
+- Quad Core 11th Gen Intel Core i7-1185G7 processor
+- AMD Ryzen 5 4680U Mobile Processor with Radeon™ Graphics Microsoft Surface Edition (6 cores)
 - AMD Ryzen 7 4980U Mobile Processor with Radeon Graphics Microsoft Surface Edition (8 cores)
 
 **Surface Laptop 4 15”**
