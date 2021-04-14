@@ -20,7 +20,7 @@ description: Next Business Day Replacement Information & Coverage Areas.
 
 Next Business Day Replacement is a paid-for service where a replacement Surface device will be delivered to your premises by the next business day. 
 
-Next Business Day Replacement is available with Complete for Business Plus protection plans in the United States, Canada, Europe (limited to Austria, Belgium, Czech Republic, France, Germany, Netherlands, Poland, United Kingdom), Australia, Singapore, and Japan. These services apply after an agent has determined a replacement device is required, we have available inventory, and order a replacement by a standard cutoff time, predetermined by Microsoft. 
+Next Business Day Replacement is available with the purchase of Complete for Business Plus protection plan (availablity in select countries) . These services apply after an agent determines a replacement device is required, confirms available inventory, and submits an order for a replacement device by a standard cutoff time, predetermined by Microsoft. 
 
 ## Guidelines
 
@@ -29,18 +29,81 @@ Next Business Day Replacement is available with Complete for Business Plus prote
 - For full terms and conditions, refer to 
 [Warranties, extended service plans, and Terms & Conditions for your device](https://support.microsoft.com/topic/warranties-extended-service-plans-and-terms-conditions-for-your-device-eedf7a23-84a7-1a47-480b-0e10503eedf5)
 
-### Table 1. Replacement request cutoff times by locale
+> [!NOTE]
+> Next business day coverage is subject to availability in specific postal codes, as indicated for each locale below.
 
-| Locale                                                                                                    | Cutoff Time |
-| -------------------------------------------------------------------------------------------------------------- | --------------- |
-| **United States & Canada**                                                                                     | 14:00 CST    (UTC-6)      |
-| **Europe** (limited to Austria, Belgium, Czech Republic, France, Germany, Netherlands, Poland, and United Kingdom) | 12:00 CET   (UTC+1)     |
-| **Australia**                                                                                                  | 13:00 AET   (UTC+11)    |
-| **Singapore**                                                                                                  | 13:00 SGT    (UTC+8)   |
-| **Japan**                                                                                                      | 13:00 JST    (UTC+9)   |
+## Austria
+
+Cutoff Time: 12:00 CET (UTC+1)
+
+- [Next business day coverage](https://download.microsoft.com/download/5/7/5/575447e3-70c1-468b-a714-22d3cded7a6e/NBD%20Coverage%20-%20Austria%20Post%20Codes%20 030321.xlsx)
+
+## Belgium
+
+- Cutoff Time: 12:00 CET (UTC+1)
+- [Next business day coverage] (https://download.microsoft.com/download/f/b/9/fb95d99c-1403-4ecf-bbde-0bab2af2c2ce/NBD%20Coverage%20-%20Belgium%20Post%20Codes%20 030321.xlsx)
+
+## Denmark 
+
+-  Cutoff Time: 12:00 CET (UTC+1) 
+- [Next business day coverage] (https://download.microsoft.com/download/9/e/6/9e6b4db6-b9f6-412e-a296-a10b5bc6e591/NBD%20Coverage%20-%20Denmark%20Post%20Codes%20 030321.xlsx
+
+## Finland
+
+- Cutoff Time: 12:00 CET (UTC+1)
+- [Next business day coverage] (https://download.microsoft.com/download/b/d/d/bddd01a3-6f8e-4bd2-9549-4dbf0a5aee86/NBD%20Coverage%20-%20Finland%20Post%20Codes%20 030321.xlsx)
+
+## Ireland
+
+- Cutoff Time: 12:00 CET (UTC+1)
+- [Next business day coverage] (https://download.microsoft.com/download/d/6/f/d6f05276-3657-49d3-8871-a2e445b686ef/NBD%20Coverage%20-%20Ireland%20Post%20Codes%20 030321.xlsx)
+
+## Italy
+
+- Cutoff Time: 12:00 CET (UTC+1)
+- [Next business day coverage] (https://download.microsoft.com/download/6/9/a/69a57c96-f4ce-4f93-a99a-2469ed737351/NBD%20Coverage%20-%20Italy%20Post%20Codes%20 030321.xlsx)
+
+## Japan
+
+- Cutoff Time: 13:00 JST (UTC+9)
+- [Next business day coverage](https://cdn.techcommunity.microsoft.com/assets/Surface/jp-next-day-replace-surface.pdf)
+- See also: [Available areas in Japan](#available-areas-in-japan)
+
+## Norway
+
+- Cutoff Time: 12:00 CET (UTC+1)
+- [Next business day coverage](https://download.microsoft.com/download/2/8/0/2803e50f-b7fb-431a-9eb9-efba7fb32260/NBD%20Coverage%20-%20Norway%20Post%20Codes%20 032521.xlsx)
+
+## Portugal
+
+- Cutoff Time: 12:00 CET (UTC+1)
+- [Next business day coverage] (https://download.microsoft.com/download/5/1/4/5146ceeb-651c-4b10-afeb-ea1abb733e33/NBD%20Coverage%20-%20Portugal%20Post%20Codes%20 030321.xlsx)
+
+## Singapore
+
+- Cutoff Time: 13:00 SGT (UTC+8)
+- 
+## Spain
+
+- Cutoff Time: 12:00 CET (UTC+1)
+- [Next business day coverage] (https://download.microsoft.com/download/6/1/d/61da1e35-e17e-4a67-ab81-27cf7a21f91b/NBD%20Coveragef-%20Spain%20Post%20Codes%20030321.xlsx)
+
+## Sweden
+
+- Cutoff Time: 12:00 CET (UTC+1)
+- [Next business day coverage] (https://download.microsoft.com/download/3/c/8/3c8a0591-2ee9-4742-835f-86b8c79b986f/NBD%20Coverage%20-%20Sweden%20Post%20Codes%20030321.xlsx)
+
+## Switzerland
+
+- Cutoff Time: 12:00 CET (UTC+1)
+- [Next business day coverage] (https://download.microsoft.com/download/3/c/8/3c8a0591-2ee9-4742-835f-86b8c79b986f/NBD%20Coverage%20-%20Sweden%20Post%20Codes%20 030321.xlsx)
+
+## United States & Canada
+
+- Cutoff Time:14:00 CST (UTC-6)
 
 
-##  Available areas in Japan 
+### Available areas in Japan 
 
 It will be available in the following regions in Japan. For more information, see [Surface Complete for Business Plus (Japan)](https://cdn.techcommunity.microsoft.com/assets/Surface/jp-next-day-replace-surface.pdf)
 
