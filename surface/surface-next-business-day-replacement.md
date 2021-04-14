@@ -29,6 +29,8 @@ Next Business Day Replacement is available with the purchase of Complete for Bus
 - For full terms and conditions, refer to 
 [Warranties, extended service plans, and Terms & Conditions for your device](https://support.microsoft.com/topic/warranties-extended-service-plans-and-terms-conditions-for-your-device-eedf7a23-84a7-1a47-480b-0e10503eedf5)
 
+## Coverage
+
 > [!NOTE]
 > Next business day coverage is subject to availability in specific postal codes, as indicated for each locale below.
 ## Austria
