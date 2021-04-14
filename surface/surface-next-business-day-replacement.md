@@ -98,9 +98,7 @@ Next Business Day Replacement is available with the purchase of Complete for Bus
 
 ## United States & Canada
 
-- Cutoff Time:14:00 CST (UTC-6)
-
-
+- Cutoff Time: 14:00 CST (UTC-6)
 
 ### Available areas in Japan 
 
