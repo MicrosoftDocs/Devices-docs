@@ -32,7 +32,7 @@ This update to the Surface Hub includes quality improvements and security fixes.
 
 * Resolves an issue where some Surface Hub devices were only installing monthly Windows security updates, instead of all Windows cumulative updates.
 
-Please refer to the [Surface Hub Admin guide](https://docs.microsoft.com/surface-hub/) for enabling/disabling device features and services. *[KB5001330](https://support.microsoft.com/help/5001330)
+Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabling device features and services. *[KB5001330](https://support.microsoft.com/help/5001330)
 </details>
 
 <details>
