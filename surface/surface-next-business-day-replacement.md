@@ -31,8 +31,6 @@ Next Business Day Replacement is available with the purchase of Complete for Bus
 
 ## Coverage
 
-> [!NOTE]
-> Next business day coverage is subject to availability in specific postal codes, as indicated for each locale below.
 ## Austria
 
 - Cutoff Time: 12:00 CET (UTC+1)
