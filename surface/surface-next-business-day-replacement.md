@@ -20,7 +20,7 @@ description: Next Business Day Replacement Information & Coverage Areas.
 
 Next Business Day Replacement is a paid-for service where a replacement Surface device will be delivered to your premises by the next business day. 
 
-Next Business Day Replacement is available with the purchase of Complete for Business Plus protection plan (availablity in select countries). These services apply after an agent determines a replacement device is required, confirms available inventory, and submits an order for a replacement device by a standard cutoff time, predetermined by Microsoft. 
+Next Business Day Replacement is available with the purchase of your Complete for Business Plus protection plan (availability in select countries). These services apply after an agent determines a replacement device is required, confirms available inventory, and submits an order for a replacement device by a standard cutoff time, predetermined by Microsoft. 
 
 ## Guidelines
 
