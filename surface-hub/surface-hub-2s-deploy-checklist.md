@@ -13,9 +13,9 @@ ms.date: 04/15/2021
 ms.localizationpriority: Medium
 ---
 
-# Surface Hub 2S deployment checklists
+# Surface Hub deployment checklists
 
-## Surface Hub 2S pre-deployment checklist
+## Pre-deployment checklist
 
 |Item|**Response|
 |------ |----- |
@@ -44,7 +44,7 @@ ms.localizationpriority: Medium
 |**Surface app speaker setting**| ☐ Rolling stand <br> ☐ Wall-mounted |
 |**IP Address**| ☐ Wired — DHCP <br> ☐ Wired — DHCP reservation <br> ☐ Wireless — DHCP <br> ☐ Wireless — DHCP reservation |
 
-## Surface Hub 2S post-deployment checklist
+## Post-deployment checklist
 
 |Check|Response|
 |--- |---- |
