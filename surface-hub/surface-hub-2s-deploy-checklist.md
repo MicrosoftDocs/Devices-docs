@@ -17,8 +17,8 @@ ms.localizationpriority: Medium
 
 ## Surface Hub 2S pre-deployment checklist
 
-|**Item**|**Response**|
-|:------ |:------ |
+|Item|**Response|
+|------ |----- |
 |**Device account name**| |
 |**Device account UPN**| |
 |**ActiveSync Policy**| |
@@ -46,8 +46,8 @@ ms.localizationpriority: Medium
 
 ## Surface Hub 2S post-deployment checklist
 
-|**Check**|**Response**|
-|:------|:---------|
+|Check|Response|
+|--- |---- |
 |**Device account syncing**| ☐ Yes <br> ☐ No |
 |**Bitlocker key**| ☐ Saved to file (no affiliation) <br> ☐ Saved in Active Directory (AD affiliation) <br>☐ Saved in Azure AD (Azure AD affiliation) |
 |**Device OS updates**| ☐ Completed |
