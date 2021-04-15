@@ -31,6 +31,10 @@ Next Business Day Replacement is available with the purchase of Complete for Bus
 
 ## Coverage
 
+## Australia
+
+- Cutoff Time: 13:00 AET (UTC+11)
+
 ## Austria
 
 - Cutoff Time: 12:00 CET (UTC+1)
