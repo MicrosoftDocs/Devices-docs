@@ -48,7 +48,6 @@ Surface Hubs have many settings that are common to other Windows devices, but al
 | Sleep time out | Surface Hub > Session & power | Choose how long the device needs to be inactive before going to sleep mode. |
 | Friendly name | Surface Hub > About | Set the Surface Hub name that people will see when connecting wirelessly. |
 | Maintenance hours | Update & security > Windows Update > Advanced options | Configure when updates can be installed. |
-| Configure Windows Server Update Services (WSUS) server | Update & security > Windows Update > Advanced options | Change whether Surface Hub receives updates from a WSUS server instead of Windows Update. |
 | Recover from the cloud | Update & security > Recovery | Reinstall the operating system on Surface Hub to a manufacturer build from the cloud. |
 | Save BitLocker key | Update & security > Recovery | Backup your Surface Hub's BitLocker key to a USB drive. |
 | Collect logs | Update & security > Recovery | Save logs to a USB drive to send to Microsoft later. | 
