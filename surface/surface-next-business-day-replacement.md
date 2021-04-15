@@ -3,7 +3,7 @@ title: Next Business Day Replacement information & coverage areas
 ms.author: v-kaij
 author: greg-lindsay
 manager: laurawi
-ms.date: 02/19/2021
+ms.date: 04/16/2021
 audience: Admin
 ms.topic: article
 ms.prod: surface
@@ -45,6 +45,14 @@ Next Business Day Replacement is available with the purchase of your Complete fo
 - Cutoff Time: 12:00 CET (UTC+1)
 - [Next business day coverage](https://download.microsoft.com/download/f/b/9/fb95d99c-1403-4ecf-bbde-0bab2af2c2ce/NBD%20Coverage%20-%20Belgium%20Post%20Codes%20030321.xlsx)
 
+## Canada
+
+- Cutoff Time: 14:00 CST (UTC-6)
+
+## Czech Republic
+
+- Cutoff Time: 12:00 CET (UTC+1)
+
 ## Denmark 
 
 - Cutoff Time: 12:00 CET (UTC+1) 
@@ -54,6 +62,14 @@ Next Business Day Replacement is available with the purchase of your Complete fo
 
 - Cutoff Time: 12:00 CET (UTC+1)
 - [Next business day coverage](https://download.microsoft.com/download/b/d/d/bddd01a3-6f8e-4bd2-9549-4dbf0a5aee86/NBD%20Coverage%20-%20Finland%20Post%20Codes%20030321.xlsx)
+
+## France
+
+- Cutoff Time: 12:00 CET (UTC+1)
+
+## Germany
+
+- Cutoff Time: 12:00 CET (UTC+1)
 
 ## Ireland
 
@@ -75,6 +91,11 @@ Next Business Day Replacement is available with the purchase of your Complete fo
 
 - Cutoff Time: 12:00 CET (UTC+1)
 - [Next business day coverage](https://download.microsoft.com/download/2/8/0/2803e50f-b7fb-431a-9eb9-efba7fb32260/NBD%20Coverage%20-%20Norway%20Post%20Codes%20032521.xlsx)
+
+## Poland
+
+- Cutoff Time: 12:00 CET (UTC+1)
+
 
 ## Portugal
 
@@ -100,7 +121,11 @@ Next Business Day Replacement is available with the purchase of your Complete fo
 - Cutoff Time: 12:00 CET (UTC+1)
 - [Next business day coverage](https://download.microsoft.com/download/3/c/8/3c8a0591-2ee9-4742-835f-86b8c79b986f/NBD%20Coverage%20-%20Sweden%20Post%20Codes%20030321.xlsx)
 
-## United States & Canada
+## The Netherlands
+
+- Cutoff Time: 12:00 CET (UTC+1)
+
+## United States 
 
 - Cutoff Time: 14:00 CST (UTC-6)
 
