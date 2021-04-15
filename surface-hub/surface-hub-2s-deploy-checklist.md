@@ -9,7 +9,7 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 06/20/2019
+ms.date: 04/15/2021
 ms.localizationpriority: Medium
 ---
 
@@ -40,7 +40,7 @@ ms.localizationpriority: Medium
 |**Bluetooth**| ☐ On <br> ☐ Off |
 |**Use only BitLocker USB drives**| ☐ On <br> ☐ Off |
 |**Install additional certificates (on-premises only)**| |
-|**Windows update**| ☐ Windows Update for Business <br> ☐ Windows Server Update Services [WSUS] |
+|**Windows update**| ☐ Windows Update for Business  |
 |**Surface app speaker setting**| ☐ Rolling stand <br> ☐ Wall-mounted |
 |**IP Address**| ☐ Wired — DHCP <br> ☐ Wired — DHCP reservation <br> ☐ Wireless — DHCP <br> ☐ Wireless — DHCP reservation |
 
