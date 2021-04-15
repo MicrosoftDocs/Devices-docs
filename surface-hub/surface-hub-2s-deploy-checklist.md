@@ -17,7 +17,7 @@ ms.localizationpriority: Medium
 
 ## Pre-deployment checklist
 
-|Item|**Response|
+|Item|Response|
 |------ |----- |
 |**Device account name**| |
 |**Device account UPN**| |
