@@ -1,6 +1,6 @@
 ---
-title: "Install and mount Surface Hub 2S 50-inch'
-description: "Learn how to install and mount Surface Hub 2S 50".
+title: "Install and mount Surface Hub 2S 50-inch"
+description: "Learn how to install and mount Surface Hub 2S 50-inch."
 keywords: separate values with commas
 ms.prod: surface-hub
 ms.sitesec: library

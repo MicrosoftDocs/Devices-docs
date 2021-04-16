@@ -1,6 +1,6 @@
 ---
 title: "Customize wall mount of Surface Hub 2S 50-inch"
-description: "Learn how to perform a custom install of Surface Hub 2S 50".
+description: "Learn how to perform a custom install of Surface Hub 2S 50-inch."
 keywords: separate values with commas
 ms.prod: surface-hub
 ms.sitesec: library
