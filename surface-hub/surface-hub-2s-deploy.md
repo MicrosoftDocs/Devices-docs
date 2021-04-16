@@ -44,9 +44,9 @@ As an Azure Active Directory Global Administrator, you can join large numbers of
 
 To create a bulk token, give it a friendly name, configure the expiration date (maximum of 30 days) and use your Admin credentials to acquire the token as shown below:
 
- ![Set up device admins](images/sh2-token.png) <br><br>
- ![Set up device admins](images/sh2-token2.png) <br><br>
- ![Set up device admins](images/sh2-token3.png) <br><br>
+ ![Set up device admins example 1](images/sh2-token.png) <br><br>
+ ![Set up device admins example 2](images/sh2-token2.png) <br><br>
+ ![Set up device admins example 3](images/sh2-token3.png) <br><br>
 
 ### Provisioning multiple devices (.csv file)
 
