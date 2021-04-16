@@ -17,7 +17,7 @@ ms.localizationpriority: Medium
 
 This article provides guidance for physically installing the Microsoft Surface Hub 2S 50." For information about installing the 85" see [Install and mount Surface Hub 2S 85"](surface-hub-2s-85-install-mount.md).
 
-If you’re not using certified mounting solutions, you can mount Surface Hub 2S 50" using readily available retail hardware.
+If not using certified mounting solutions, you can mount Surface Hub 2S 50" using readily available retail hardware.
 
 ## Set wall mount measurements
 
