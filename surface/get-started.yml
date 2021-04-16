@@ -42,10 +42,10 @@ landingContent:
         links:
          - text: Surface Laptop 4 processors tech overview 
            url: surface-laptop-processors.md
-         - text: Windows Virtual Desktop on Surface
+         - text: Surface Headphones 2+ tech overview
+           url: surface-headphones.md
+        - text: Windows Virtual Desktop on Surface
            url: windows-virtual-desktop-surface.md
-         - text: What’s new in Surface Dock 2
-           url: surface-dock-whats-new.md    
  
    # Card (optional)
   - title: Microsoft Ignite
@@ -76,12 +76,13 @@ landingContent:
     linkLists:
       - linkListType: how-to-guide
         links:
+          - text: Surface Enterprise Management Mode
+             url: surface-enterprise-management-mode.md 
           - text: Manage and deploy Surface driver and firmware updates
             url: manage-surface-driver-and-firmware-updates.md
-          - text: Intune management of Surface UEFI settings
+          - text: Manage DFCI on Surface devices
             url: surface-manage-dfci-guide.md
-          - text: Deploying, managing, and servicing Surface Pro X
-            url: surface-pro-arm-app-management.md
+
 
  # Card
   - title: Troubleshoot
