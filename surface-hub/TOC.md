@@ -17,7 +17,7 @@
 #### [Install and mount Surface Hub 2S](surface-hub-2s-install-mount.md)
 #### [Moving and handling Surface Hub 2S 85"](hub-move.md)
 #### [Install and mount Surface Hub 2S 85"](surface-hub-2s-85-install-mount.md)
-#### [Customize wall mount of Surface Hub 2S](surface-hub-2s-custom-install.md)
+#### [Customize wall mount of Surface Hub 2S 50"](surface-hub-2s-custom-install.md)
 #### [Setup worksheet](setup-worksheet-surface-hub.md)
 #### [Surface Hub 2S ports and keypad overview](surface-hub-2s-port-keypad-overview.md)
 #### [Connect devices to Surface Hub 2S](surface-hub-2s-connect.md)
