@@ -9,11 +9,13 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 06/20/2019
+ms.date: 04/16/2021
 ms.localizationpriority: Medium
 ---
 
-# Customize wall mount of Surface Hub 2S
+# Customize wall mount of Surface Hub 2S 50"
+
+This article provides guidance for physically installing the Microsoft Surface Hub 2S 50." For information about installing the 85" see [Install and mount Surface Hub 2S 85"](surface-hub-2s-85-install-mount.md).
 
 If you’re not using certified mounting solutions, you can mount Surface Hub 2S using readily available retail hardware.
 
