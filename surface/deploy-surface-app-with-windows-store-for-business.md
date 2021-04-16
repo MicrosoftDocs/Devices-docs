@@ -13,13 +13,14 @@ ms.localizationpriority: medium
 ms.audience: itpro
 ms.reviewer: 
 manager: laurawi
-ms.date: 1/15/2021
+ms.date: 4/16/2021
 ---
 
 # Deploy Surface app with Microsoft Store for Business and Education
 
 **Applies to**
 
+- Surface Laptop 4
 - Surface Pro 7+
 - Surface Laptop Go
 - Surface Pro 7
