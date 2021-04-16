@@ -31,8 +31,7 @@ Next Business Day Replacement is available with the purchase of your Complete fo
 
 ## Coverage
 
-For a list of supported post codes, see "Next day business coverage" where applicable below. 
-
+For a list of supported post codes, see "Next business day coverage" where applicable below. 
 
 #### Australia
 
