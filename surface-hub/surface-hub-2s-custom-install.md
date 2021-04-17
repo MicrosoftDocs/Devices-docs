@@ -23,7 +23,7 @@ If you’re not using certified mounting solutions, you can mount Surface Hub 2S
 
 Surface Hub 2S recommended mounting measurements:
 
-|**Item**|**Description**|**Notes**|
+| Item | Description | Notes |
 |:------ |:------------- |:------- |
 |**Height from bottom of Surface Hub 2S**| 1026.5 mm (40.41”) | Recommended |
 |**Height from top of Surface Hub 2S**| 1767.2 mm (69.57”) | Recommended |
@@ -43,7 +43,7 @@ Surface Hub 2S recommended mounting measurements:
 In addition to the visible ports on the sides of the device, certain integrated components must remain free of obstruction in order to function correctly. These include the Bluetooth, Wi-Fi, occupancy, and mic sensors as well thermal cooling vents.
  Keep out zones
 
-|**Item**|**Description**|**Notes**|
+| Item | Description | Notes |
 |:---- |:----------- |:----- |
 |**Access**| Ensure unimpeded access to input/output ports, the compute cartridge, Bluetooth radio, Bluetooth sensor, Wi-Fi radio, Wi-Fi sensor, occupancy sensor. | See Figure 1. |
 |**Air flow**| Avoid blocking inlet and outlet air vent zones. | See Figure 2  |
@@ -70,7 +70,7 @@ Surface Hub 2S uses a 350 mm x 350 mm mounting framework that meets most — but
 On the back of Surface Hub 2S, you’ll find a square pattern of four M6 x 1.0 threaded holes centered on the circular bump (565 mm in diameter). Attach your mount using four M6 x 1.0–12 mm-long metric bolts. Or, depending on preference, you can use longer bolts up to a maximum of 20 mm.
 Important considerations for mounting systems
 
-|**Item**|**Description**|**Notes**|
+| Item | Description | Notes |
 |:------ |:------------- |:------- |
 |**Strength**| Only choose mounts that can safely support devices of at least 28 kg (62 lbs.). | Required |
 |**Stiffness**| Avoid flexible display mounts that can diminish the interactive pen and touch use experience. Most TV mounts are not designed to support touch displays. | Recommended |
