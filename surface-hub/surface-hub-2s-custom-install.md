@@ -30,13 +30,14 @@ Surface Hub 2S recommended mounting measurements:
 |**Height from center of mount**| 1397 mm (55”) | Recommended |
 
 1. Measure 1026.5 mm (40.41”) from the floor level to set the recommended minimum height.
+
 2. Measure 1767.2 mm (69.57”) from the floor level to set the recommended top height.
 
-![*Surface Hub 2S wall mount front view*](images/sh2-wall-front.png) <br>
+    ![*Surface Hub 2S wall mount front view*](images/sh2-wall-front.png) <br>
 
 3. Measure 1397 mm (55”) mm from the floor level to set the recommended center height.
 
-![*Surface Hub 2S wall mount side view*](images/sh2-wall-side.png) <br>
+    ![*Surface Hub 2S wall mount side view*](images/sh2-wall-side.png) <br>
 
 ## Obstruction free mounting
 
