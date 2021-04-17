@@ -26,13 +26,15 @@ Install Windows Configuration Designer from the Windows Assessment and Deploymen
 You can import Certificate Authority certificates to Surface Hub 2S.
 To add certificates to Surface Hub 2S, you need a copy of each certificate as X.509 in .cer format. You cannot import .crt, .pfx or other container formats. Certificates must be imported into Windows Configuration Designer and arranged by hierarchy:
 
- ![Add certificates](images/sh2-wcd.png)
+> [!div class="mx-imgBorder"]
+> ![Add certificates](images/sh2-wcd.png)
 
 ### Configure proxy during OOBE
 
 In Windows Configuration Designer, go to the Configure proxy settings tab and enter the appropriate settings as shown below.
 
- ![Configure proxy settings](images/sh2-proxy.png) 
+> [!div class="mx-imgBorder"]
+> ![Configure proxy settings](images/sh2-proxy.png) 
 
 > [!NOTE]
 > When configuring proxy settings, turn off **Automatically detect settings** if you intend to use a setup script or a proxy server. You can use a setup script *or* a proxy server, not both.
@@ -44,9 +46,14 @@ As an Azure Active Directory Global Administrator, you can join large numbers of
 
 To create a bulk token, give it a friendly name, configure the expiration date (maximum of 30 days) and use your Admin credentials to acquire the token as shown below:
 
- ![Set up device admins](images/sh2-token.png) <br><br>
- ![Set up device admins](images/sh2-token2.png) <br><br>
- ![Set up device admins](images/sh2-token3.png) <br><br>
+> [!div class="mx-imgBorder"]
+> ![Set up device admins](images/sh2-token.png)
+
+> [!div class="mx-imgBorder"]
+> ![Set up device admins](images/sh2-token2.png)
+
+> [!div class="mx-imgBorder"]
+> ![Set up device admins](images/sh2-token3.png) <br><br>
 
 ### Provisioning multiple devices (.csv file)
 
@@ -55,11 +62,10 @@ In addition to the provisioning package, you can use a Surface Hub configuration
 ### To create a Surface Hub configuration file
 
 1. Using Microsoft Excel or another CSV editor, create a CSV file named: **SurfaceHubConfiguration.csv**
+
 2. Enter a list of device accounts and friendly names in this format:
 
-```
-<DeviceAccountName>,<DeviceAccountPassword>,<FriendlyName>
-```
+    `<DeviceAccountName>,<DeviceAccountPassword>,<FriendlyName>`
 
 3. Save the file to the root of the USB thumb drive where you copied the PPKG file.
 
