@@ -54,7 +54,7 @@ In addition to the visible ports on the sides of the device, certain integrated 
 ***Figure 1. Keep out zones for Surface Hub 2S components***
 
 ![Figure 2. Avoid blocking thermal inlet/outlet and audio exit zones](images/sh2-thermal-audio.png) <br>
-***Figure 2. Avoid blocking thermal inlet/outlet and audio exit zones.**
+***Figure 2. Avoid blocking thermal inlet/outlet and audio exit zones.***
 
 The removable compute cartridge containing the I/O ports must remain free of any obstructions or impediments of any kind.
 

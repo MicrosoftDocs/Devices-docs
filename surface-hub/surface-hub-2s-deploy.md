@@ -69,4 +69,5 @@ In addition to the provisioning package, you can use a Surface Hub configuration
 
 3. Save the file to the root of the USB thumb drive where you copied the PPKG file.
 
-    ![Configuration file example](images/sh2-config-file.png)
+    > [!div class="mx-imgBorder"]
+    > ![Configuration file example](images/sh2-config-file.png)
