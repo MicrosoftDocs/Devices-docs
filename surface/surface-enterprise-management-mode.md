@@ -13,7 +13,7 @@ ms.reviewer: hachidan
 manager: laurawi
 ms.localizationpriority: medium
 audience: itpro
-ms.date: 04/13/2021
+ms.date: 04/16/2021
 ---
 
 # Microsoft Surface Enterprise Management Mode
@@ -32,7 +32,7 @@ When Surface devices are configured by SEMM and secured with the SEMM certificat
 
 There are two administrative options that you can use to manage SEMM and enroll Surface devices:
 
-– SEMM standalone tool, Microsoft Surface UEFI Configurator, is described in this article. 
+- SEMM standalone tool, Microsoft Surface UEFI Configurator, is described in this article. 
 
 - Integration with Microsoft Endpoint Configuration Manager. For information, see [Use Microsoft Endpoint Configuration Manager to manage devices with SEMM](https://technet.microsoft.com/itpro/surface/use-system-center-configuration-manager-to-manage-devices-with-semm).
 
