@@ -87,7 +87,39 @@ For a list of supported post codes, see "Next business day coverage" where appli
 
 - Cutoff Time: 13:00 JST (UTC+9)
 - [Next business day coverage](https://cdn.techcommunity.microsoft.com/assets/Surface/jp-next-day-replace-surface.pdf)
-- See also: [Available areas in Japan](#available-areas-in-japan)
+
+**Available areas in Japan** 
+
+- Aomori
+- Iwate
+- Miyagi
+- Akita
+- Yamagata
+- Fukushima
+- Ibaraki
+- Saitama
+- Chiba
+- Tokyo
+- Kanagawa
+- Niigata
+- Toyama
+- Ishikawa
+- Fukui
+- Yamanashi
+- Nagano
+- Gifu
+- Shizuoka
+- Aichi
+- Mie
+- Shiga
+- Kyoto
+- Osaka
+- Hyogo
+- Nara
+- Wakayama
+- Tottori
+- Hiroshima
+- Yamaguchi
 
 #### Norway
 
@@ -130,39 +162,3 @@ For a list of supported post codes, see "Next business day coverage" where appli
 #### United States 
 
 - Cutoff Time: 14:00 CST (UTC-6)
-
-#### Available areas in Japan 
-
-It will be available in the following regions in Japan. For more information, see [Surface Complete for Business Plus (Japan)](https://cdn.techcommunity.microsoft.com/assets/Surface/jp-next-day-replace-surface.pdf)
-
-- Aomori
-- Iwate
-- Miyagi
-- Akita
-- Yamagata
-- Fukushima
-- Ibaraki
-- Saitama
-- Chiba
-- Tokyo
-- Kanagawa
-- Niigata
-- Toyama
-- Ishikawa
-- Fukui
-- Yamanashi
-- Nagano
-- Gifu
-- Shizuoka
-- Aichi
-- Mie
-- Shiga
-- Kyoto
-- Osaka
-- Hyogo
-- Nara
-- Wakayama
-- Tottori
-- Hiroshima
-- Yamaguchi
-
