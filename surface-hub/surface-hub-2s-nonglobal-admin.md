@@ -18,7 +18,7 @@ appliesto:
 
 # Configure non Global admin accounts on Surface Hub
 
-When you join Surface Hub v1 or Surface Hub 2S to an Azure AD domain, you can configure non Global admin accounts that limit permissions to management of the Settings app on Surface Hub. This enables you to scope admin permissions for Surface Hub only and prevent potentially unwanted admin access across an entire Azure AD domain. Before you begin, make sure your Surface Hub is joined to Azure AD. If not, you will need to reset Surface Hub and complete the first-time, out-of-the-box (OOBE) setup program, choosing the option to join Azure AD.
+The Windows 10 Team 2020 Update adds support for configuring non Global admin accounts that limit permissions to management of the Settings app on Surface Hub devices joined to an Azure AD domain. This enables you to scope admin permissions for Surface Hub only and prevent potentially unwanted admin access across an entire Azure AD domain. Before you begin, make sure your Surface Hub is joined to Azure AD and Intune auto-enrolled. If not, you will need to reset Surface Hub and complete the first-time, out-of-the-box (OOBE) setup program, choosing the option to join Azure AD.
 
 ## Summary 
 
@@ -123,4 +123,4 @@ To learn more about custom configuration profiles using OMA-URI strings, see [Us
 
 ## Non Global admins managing Surface Hub
 
-Members of the **Surface Hub Local Admins** Security group can now sign in to the Settings app on Surface Hub and manage settings.
+Members of the **Surface Hub Local Admins** Security group can now sign in to the Settings app on Surface Hub and manage settings. The default access of global admins to the Settings app is removed (unless they are also members of this new security group).
