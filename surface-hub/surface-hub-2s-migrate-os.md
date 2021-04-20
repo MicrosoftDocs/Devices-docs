@@ -105,7 +105,7 @@ How you get a certificate depends on the size or complexity of your organization
 
 - Medium-sized businesses and others often choose to get certificates from partner providers. This option is recommended for organizations that don't have as much IT expertise or lack a dedicated IT security team.
 
-- Alternatively, you can generate a self-signed certificate by using a PowerShell script. For more information, see the [Surface Enterprise Management Mode certificate requirements](https://docs.microsoft.com/surface/surface-enterprise-management-mode#surface-enterprise-management-mode-certificate-requirements). Or you can use PowerShell to create your own certificate. For more information, see the [New-SelfSignedCertificate](https://docs.microsoft.com/powershell/module/pkiclient/new-selfsignedcertificate) documentation.
+- Alternatively, you can generate a self-signed certificate by using a PowerShell script. For more information, see the [Surface Enterprise Management Mode certificate requirements](https://docs.microsoft.com/surface/surface-enterprise-management-mode#surface-enterprise-management-mode-certificate-requirements). Or you can use PowerShell to create your own certificate. For more information, see the [Self-signed certificate](https://docs.microsoft.com/dotnet/core/additional-tools/self-signed-certificates-guide#create-a-self-signed-certificate) documentation.
 
 The SEMM package that Surface UEFI Configurator creates must be secured with a certificate. The certificate verifies the signature of configuration files before UEFI settings can be applied. For more information, see the [SEMM](https://docs.microsoft.com/surface/surface-enterprise-management-mode) documentation.
  
