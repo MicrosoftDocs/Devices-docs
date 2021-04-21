@@ -38,12 +38,7 @@ You should fill out one list for each Surface Hub you need to configure, althoug
 | Friendly name                                                     | The friendly name of the device is the broadcast name that people will see when they try to wirelessly connect to the Surface Hub. This name will be displayed prominently on the Surface Hub's screen. We suggest that the friendly name you choose is recognizable and unique so that people can distinguish one Surface Hub from another when trying to connect.             | Conference Room 15                                                                                                 |
 | Device name                                                       | The device name is the name that will be used for domain join, and is the identity you will see in your MDM provider if the device is enrolled into MDM. The device name you choose must not be the same name as any other device on the user’s Active Directory domain (if you decide to domain join the device). The device cannot join the domain if its name is not unique. | confroom15                                                                                                         |
 
- 
- 
-
-## If you’re joining Azure AD
-
- 
+#### If you’re joining Azure AD
 
 | Property                                                 | What this is used for                                                                                                                                                                                       | Example                         |
 | -------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------- |
@@ -51,7 +46,8 @@ You should fill out one list for each Surface Hub you need to configure, althoug
 
  
 
-## If you’re joining a domain
+#### If you’re joining a domain
+
 | Property                                           | What this is used for                                                                                                                                                                                                                        | Example                                         |
 | -------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------- |
 | Domain to join                                     | This is the domain you will need to join so that a security group of your choice can be admins for the device. You may need the fully qualified domain name (FQDN).                                                                          | contoso (short name) OR contoso.corp.com (FQDN) |
@@ -61,14 +57,16 @@ You should fill out one list for each Surface Hub you need to configure, althoug
  
  
 
-## If you're using a local admin
+#### If you're using a local admin
+
 | Property                                                | What this is used for                                                                                   | Example             |
 | ------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- | ------------------- |
 | Local admin account credentials (username and password) | If you decide not to join an AD domain or Azure AD, you can create a local admin account on the device. | admin1, #MyPassw0rd |
 
  
 
-## If you need to install certificates or apps
+#### If you need to install certificates or apps
+
 | Property  | What this is used for                                                                                                                                                                                                                                                                                 |
 | --------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | USB drive | If you know before first run that you want to install certificates or universal apps, follow the steps in [Create provisioning packages](provisioning-packages-for-certificates-surface-hub.md). Your provisioning packages will be created on a USB drive. |
