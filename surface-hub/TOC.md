@@ -135,7 +135,7 @@
 ### [Top support solutions for Surface Hub](support-solutions-surface-hub.md)
 ### [Troubleshoot Microsoft Surface Hub](troubleshoot-surface-hub.md)
 ### [Surface Hub Update History](surface-hub-update-history.md)
-### [Known issues and additional information about Microsoft Surface Hub](known-issues-and-additional-info-about-surface-hub.md)
+### [Known issues: Windows 10 Team OS](surface-hub-2020-team-update-known-issues.md)
 ### [How to use cloud recovery for BitLocker on a Surface Hub](use-cloud-recovery-for-bitlocker-on-surfacehub.md)
 ### [Using the Surface Hub Hardware Diagnostic Tool to test a device account](use-surface-hub-diagnostic-test-device-account.md)
 ### [Troubleshoot Miracast on Surface Hub](miracast-troubleshooting.md)
