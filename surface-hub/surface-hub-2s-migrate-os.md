@@ -283,7 +283,7 @@ The following steps show how to create a USB flash drive from installation media
 
 3. If the Surface device doesn't automatically boot to the USB drive, power off the device (unplug the power cord and then plug it back in). After you plug in the power cord again, the device should boot after a few seconds. Then you'll see the white logo in the middle of screen.
 
-    If the device doesn't turn on, press and release the power button. Immediately after you see the logo in the middle of the screen, press and hold the volume button until you see the spinning circle below the white logo.
+    If the device doesn't turn on, press and release the power button. Immediately after you see the logo in the middle of the screen, press and hold the Volume down button until you see the spinning circle below the white logo.
  
    ![Picture of the volume and power buttons.](images/shm-fig26.png)
    
