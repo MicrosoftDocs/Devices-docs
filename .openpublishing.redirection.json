@@ -100,5 +100,10 @@
             "redirect_url":  "https://docs.microsoft.com/surface-hub",
             "redirect_document_id":  false
         },
+        {
+            "source_path":  "surface-hub/known-issues-and-additional-info-about-surface-hub.md",
+            "redirect_url":  "https://docs.microsoft.com/surface-hub/surface-hub-2020-team-update-known-issues",
+            "redirect_document_id":  false
+        },
 ]
 }
