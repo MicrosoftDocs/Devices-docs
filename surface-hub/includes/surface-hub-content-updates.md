@@ -2,6 +2,18 @@
 
 
 
+## Week of April 19, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 4/19/2021 | [Configure non Global admin accounts on Surface Hub](/surface-hub/surface-hub-2s-nonglobal-admin) | modified |
+| 4/20/2021 | [Migrate to Windows 10 Pro or Enterprise on Surface Hub 2](/surface-hub/surface-hub-2s-migrate-os) | modified |
+| 4/22/2021 | Known issues and additional information about Microsoft Surface Hub | removed |
+| 4/22/2021 | [Surface Hub: Known issues](/surface-hub/surface-hub-2020-team-update-known-issues) | modified |
+| 4/22/2021 | [Migrate to Windows 10 Pro or Enterprise on Surface Hub 2](/surface-hub/surface-hub-2s-migrate-os) | modified |
+
+
 ## Week of April 12, 2021
 
 
@@ -77,17 +89,3 @@
 | 3/25/2021 | Manage Surface Hub 2S with Intune | removed |
 | 3/25/2021 | [Implement Quality of Service on Surface Hub](/surface-hub/surface-hub-qos) | modified |
 | 3/26/2021 | [Manage settings with an MDM provider (Surface Hub)](/surface-hub/manage-settings-with-mdm-for-surface-hub) | modified |
-
-
-## Week of March 15, 2021
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 3/15/2021 | [Manage Surface Hub 2S with Intune](/surface-hub/surface-hub-2s-manage-intune) | modified |
-| 3/16/2021 | [Known issues: Windows 10 Team 2020 Update](/surface-hub/surface-hub-2020-team-update-known-issues) | modified |
-| 3/16/2021 | [Prepare your environment for Microsoft Surface Hub](/surface-hub/prepare-your-environment-for-surface-hub) | modified |
-| 3/16/2021 | Prepare your environment for Surface Hub 2S | removed |
-| 3/16/2021 | [First time Setup  for Surface Hub 2S](/surface-hub/surface-hub-2s-setup) | modified |
-| 3/16/2021 | [What's new in Surface Hub 2S for IT admins](/surface-hub/surface-hub-2s-whats-new) | modified |
-| 3/17/2021 | [Prepare your environment for Microsoft Surface Hub](/surface-hub/prepare-your-environment-for-surface-hub) | modified |
