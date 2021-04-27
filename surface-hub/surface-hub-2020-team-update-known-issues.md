@@ -1,5 +1,5 @@
 ---
-title: "Surface Hub: Known issues"
+title: "Known issues: Surface Hub"
 description: "This page provides a list of known issues for Surface Hubs"
 keywords: separate values with commas
 ms.prod: surface-hub
@@ -12,7 +12,7 @@ ms.topic: article
 ms.date: 02/09/2021
 ms.localizationpriority: Medium
 ---
-# Known issues: Windows 10 Team 2020 Update 
+# Known issues: Surface Hub
 
 This article lists known issues for Surface Hubs running the current operating system, Windows 10 Team 2020 Update.
 
