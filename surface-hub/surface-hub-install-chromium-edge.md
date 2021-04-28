@@ -23,6 +23,10 @@ Windows 10 Team 2020 Update supports the new Microsoft Edge based on Chromium (v
 > [!IMPORTANT]
 > By default, Surface Hub devices are preinstalled with Microsoft Edge Legacy (version 44). After installing the [2020 Update](surface-hub-2020-update.md), it's recommended to switch to the new Microsoft Edge browser; support for [Microsoft Edge Legacy](https://support.microsoft.com/microsoft-edge/what-is-microsoft-edge-legacy-3e779e55-4c55-08e6-ecc8-2333768c0fb0) will end on March 9, 2021.
 
+> [!NOTE]
+> The swipe down from top of screen gesture to exit full-screen mode requires two fingers with the new Microsoft Edge. The exit full-screen action is also available in the context menu displayed after a long-press touch.
+
+
 ## Install Microsoft Edge using a provisioning package
 
 1. From a PC, download the [Microsoft Edge provisioning package](https://aka.ms/HubEdge) (MicrosoftEdgeInstaller.ppkg) to the root folder of a USB drive.
@@ -40,7 +44,7 @@ Windows 10 Team 2020 Update supports the new Microsoft Edge based on Chromium (v
 ## Install Microsoft Edge using Intune
  
 > [!NOTE]
-> The Surface Hub device must be enrolled into and managed using Intune. For more information, see [Manage Surface Hub 2S with Microsoft Intune](https://docs.microsoft.com/surface-hub/surface-hub-2s-manage-intune).
+> To make use of this installation method, the Surface Hub device must be enrolled into and managed using Intune. For more information, see [Manage Surface Hub 2S with MDM](manage-settings-with-mdm-for-surface-hub.md).
  
 
 1. [Download the Microsoft Edge installer](https://www.microsoft.com/edge/business/download).
