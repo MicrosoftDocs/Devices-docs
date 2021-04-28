@@ -73,38 +73,6 @@ You should fill out one list for each Surface Hub you need to configure, althoug
 
  
 
-
-## Appendix A: Pre-deployment checklist
-
-
-|Item|Response|
-|------ |----- |
-|**Device account name**| |
-|**Device account UPN**| |
-|**ActiveSync Policy**| |
-|**Calendar processing configuration completed**| ☐ Yes <br>  ☐ No |
-|**Device-friendly name**| |
-|**Device host name**| |
-|**Affiliation**| ☐ None <br> ☐ Active Directory affiliation <br> ☐ Azure Active Directory |
-|**Microsoft Teams Mode**| ☐ Mode 0 <br> ☐ Mode 1 <br> ☐ Mode 2 |
-|**Device Management**| ☐ Yes, Microsoft Intune <br> ☐ Yes, other mobile device manager [MDM] <br> ☐ None |  
-|**Proxy**| ☐ Automatic configuration <br> ☐ Proxy server <br> ☐ Proxy auto-config (PAC) file |
-|**Proxy authentication**| ☐ Device account credentials <br> ☐ Prompt for credentials |
-|**Password rotation**| ☐ On <br> ☐ Off |
-|**Skype for Business additional domain names (on-premises only)**| |
-|**Session timeout time**| |
-|**Session timeout action**| ☐ End session <br> ☐ Allow resume |
-|**My meetings and files**| ☐ Enabled <br> ☐ Disabled |
-|**Lock screen timeout**| |
-|**Sleep idle timeout**| |
-|**Bluetooth**| ☐ On <br> ☐ Off |
-|**Use only BitLocker USB drives**| ☐ On <br> ☐ Off |
-|**Install additional certificates (on-premises only)**| |
-|**Windows update**| ☐ Windows Update for Business  |
-|**Surface app speaker setting**| ☐ Rolling stand <br> ☐ Wall-mounted |
-|**IP Address**| ☐ Wired — DHCP <br> ☐ Wired — DHCP reservation <br> ☐ Wireless — DHCP <br> ☐ Wireless — DHCP reservation |
-
-
 ## Appendix B: Post deployment checklist
 
 
