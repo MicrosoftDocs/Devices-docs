@@ -81,7 +81,7 @@ For a list of supported post codes, see "Next business day coverage" where appli
 #### Denmark 
 
 - Cutoff Time: 12:00 CET (UTC+1) 
-- [Next business day coverage](https://download.microsoft.com/download/9/e/6/9e6b4db6-b9f6-412e-a296-a10b5bc6e591/NBD%20Coverage-%20Denmark%20Post%20Codes%20030321.xlsx)
+- [Next business day coverage](https://download.microsoft.com/download/9/e/6/9e6b4db6-b9f6-412e-a296-a10b5bc6e591/NBD%20Coverage%20-%20Denmark%20Post%20Codes%20030321.xlsx)
 
 #### Finland
 
@@ -176,7 +176,7 @@ For a list of supported post codes, see "Next business day coverage" where appli
 #### Switzerland
 
 - Cutoff Time: 12:00 CET (UTC+1)
-- [Next business day coverage](https://download.microsoft.com/download/3/c/8/3c8a0591-2ee9-4742-835f-86b8c79b986f/NBD%20Coverage%20-%20Sweden%20Post%20Codes%20030321.xlsx)
+- [Next business day coverage](https://download.microsoft.com/download/e/6/9/e69789ca-4617-4b23-afb2-09529f320de3/NBD%20Coverage%20-%20Switzerland%20Post%20Codes%20030321%20update.xlsx)
 
 #### The Netherlands
 
