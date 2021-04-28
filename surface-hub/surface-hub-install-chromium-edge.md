@@ -44,7 +44,7 @@ Windows 10 Team 2020 Update supports the new Microsoft Edge based on Chromium (v
 ## Install Microsoft Edge using Intune
  
 > [!NOTE]
-> To make use of this installation method, the Surface Hub device must be enrolled into and managed using Intune. For more information, see [Manage Surface Hub 2S with MDM](https://docs.microsoft.com/surface-hub/manage-settings-with-mdm-for-surface-hub).
+> To make use of this installation method, the Surface Hub device must be enrolled into and managed using Intune. For more information, see [Manage Surface Hub 2S with MDM](manage-settings-with-mdm-for-surface-hub.md).
  
 
 1. [Download the Microsoft Edge installer](https://www.microsoft.com/edge/business/download).
