@@ -24,7 +24,7 @@ When you've finished pre-setup and are ready to start first-time setup for your 
 
 You should fill out one list for each Surface Hub you need to configure, although some information can be used on all Surface Hubs, like the proxy information or domain credentials. Some of this information may not be needed, depending on how you've decided to configure your device, or depending on how the environment is configured for your organization's infrastructure.
 
-When setup is finished, see checklist below for post-deployment tasks.
+When finished, review [Post deployment checklist](#post-deployment-checklist) below.
 
 
 
