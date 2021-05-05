@@ -62,13 +62,14 @@ Use Device affiliation to manage user access to the Settings app on Surface Hub.
 
 ## If you’re joining a domain
 
+| Property                                           | What this is used for                                                                                                                                                                                                                        | Example                                         |
+| -------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------- |
+| Domain to join                                     | This is the domain you will need to join so that a security group of your choice can be admins for the device. You may need the fully qualified domain name (FQDN).                                                                          | contoso (short name) OR contoso.corp.com (FQDN) |
+| Domain account credentials (username and password) | A domain can't be joined unless you provide sufficient account credentials to join the domain. Once you provide a domain to join and credentials to join the domain, then a security group of your choice can change settings on the device. | admin1, #MyPassw0rd                             |
+| Admin security group alias                         | This is a security group in your Active Directory (AD); any members of this security group can change settings on the device.                                                                                                                | SurfaceHubAdmins                                |
 
 
-| Property                                           | What this is used for                                                                                                                                                                                                                        | Example                                         |  |
-| -------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------- |  |
-| Domain to join                                     | This is the domain you will need to join so that a security group of your choice can be admins for the device. You may need the fully qualified domain name (FQDN).                                                                          | contoso (short name) OR contoso.corp.com (FQDN) |  |
-| Domain account credentials (username and password) | A domain can't be joined unless you provide sufficient account credentials to join the domain. Once you provide a domain to join and credentials to join the domain, then a security group of your choice can change settings on the device. | admin1, #MyPassw0rd                             |  |
-| Admin security group alias                         | This is a security group in your Active Directory (AD); any members of this security group can change settings on the device.                                                                                                                | SurfaceHubAdmins                                |  |
+
 
 ## If you're using a local admin
 
