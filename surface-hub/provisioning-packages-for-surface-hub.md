@@ -164,7 +164,7 @@ After you [install Windows Configuration Designer](https://technet.microsoft.com
 You can use provisioning packages to install certificates that will allow the device to authenticate to Microsoft Exchange.
 
 > [!NOTE]
-> Provisioning packages can only install certificates to the device (local machine) store, and not to the user store. If your organization requires that certificates be installed to the user store, you can use the **Import Certificate** button in the **Update & Security** > **Certificates** section of Hub's Settings. Alternatively, [Mobile Device Management (MDM) policies](manage-settings-with-mdm-for-surface-hub.md) can be used deploy certificates to either the device store or the user store.
+> Provisioning packages can only install certificates to the device (local machine) store, and not to the user store. If your organization requires that certificates be installed to the user store, you can use the **Import Certificate** button in the **Update & Security** > **Certificates** section of Hub's **Settings** app. Alternatively, [Mobile Device Management (MDM) policies](manage-settings-with-mdm-for-surface-hub.md) can be used deploy certificates to either the device store or the user store.
 
 1. In the **Available customizations** pane, go to **Runtime settings** > **Certificates** > **ClientCertificates**.
    > [!NOTE]
