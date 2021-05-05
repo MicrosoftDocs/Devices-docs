@@ -168,7 +168,7 @@ You can use provisioning packages to install certificates that will allow the de
 
 1. In the **Available customizations** pane, go to **Runtime settings** > **Certificates** > **ClientCertificates**.
    > [!NOTE]
-   > The **ClientCertificates** section is for .pfx files with a private key. Root CAs should be placed in the **RootCertificates** section and **Intermediate CAs** in the **CACertificates** section.
+   > The **ClientCertificates** section is for .pfx files with a private key; .cer files for root CAs should be placed in the **RootCertificates** section and for Intermediate CAs in the **CACertificates** section.
 
 2. Enter a label for **CertificateName** and then click **Add**. 
 
