@@ -60,7 +60,7 @@ Use Device affiliation to manage user access to the Settings app on Surface Hub.
 | Azure AD tenant user credentials (username and password) | If you decide to have people in your Azure Active Directory (Azure AD) organization become admins on the device, then you'll need to join Azure AD. To join Azure AD, you will need valid user credentials.                                                              | admin1@contoso.com, #MyPassw0rd | [Admin group management](admin-group-management-for-surface-hub.md)                     |
 | Non Global Admin accounts                                | For Surface Hub devices joined to Azure AD,  you can limit admin permissions to management of the Settings app on Surface Hub. This enables you to scope admin permissions for Surface Hub only and prevent potentially unwanted admin access an entire Azure AD domain. |                                 | [Configure non Global admin accounts on Surface Hub](surface-hub-2s-nonglobal-admin.md) |
 
-## If you’re joining a domain
+### If you’re joining a domain
 
 | Property                                           | What this is used for                                                                                                                                                                                                                        | Example                                         |
 | -------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------- |
@@ -71,13 +71,13 @@ Use Device affiliation to manage user access to the Settings app on Surface Hub.
 
 
 
-## If you're using a local admin
+### If you're using a local admin
 
 | Property                                                | What this is used for                                                                                   | Example             |
 | ------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- | ------------------- |
 | Local admin account credentials (username and password) | If you decide not to join an AD domain or Azure AD, you can create a local admin account on the device. | admin1, #MyPassw0rd |
 
-## If you need to install certificates or apps
+### If you need to install certificates or apps
 
 | Property  | What this is used for                                                                                                                                                                                                                                                                                        |
 | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
