@@ -96,6 +96,8 @@ First create a security group containing the admin accounts. Then create another
 	  </accessgroup>
 	  </groupmembership>
       ```
+      > [!IMPORTANT]
+      > Do not remove the default Administrator member from the XML file.
 
 2. Replace the placeholder SID (beginning with S-1-12-1) with your **Azure AD Group SID** and then save the file as XML; for example, **aad-local-admin.xml**. 
 
@@ -123,4 +125,7 @@ To learn more about custom configuration profiles using OMA-URI strings, see [Us
 
 ## Non Global admins managing Surface Hub
 
-Members of the **Surface Hub Local Admins** Security group can now sign in to the Settings app on Surface Hub and manage settings. The default access of global admins to the Settings app is removed (unless they are also members of this new security group).
+Members of the **Surface Hub Local Admins** Security group can now sign in to the Settings app on Surface Hub and manage settings.
+
+> [!IMPORTANT]
+> The default access of global admins to the Settings app is removed (unless they are also members of this new security group).
