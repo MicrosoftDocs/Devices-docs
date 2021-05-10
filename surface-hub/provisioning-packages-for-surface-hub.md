@@ -25,7 +25,7 @@ Begin by installing creating the provisioning package on a PC running Windows 10
 
 ## Requirements
 
-- Windows Configuration Designer, which can be installed from Microsoft Store or from the [Windows 10 Assessment and Deployment Kit (ADK)](https://go.microsoft.com/fwlink/p/?LinkId=845542).  For more information, see [Download and install the Windows ADK](https://docs.microsoft.com/Selectwindows-hardware/get-started/adk-install).
+- Windows Configuration Designer, which can be installed from Microsoft Store or from the [Windows 10 Assessment and Deployment Kit (ADK)](https://go.microsoft.com/fwlink/p/?LinkId=845542).  For more information, see [Download and install the Windows ADK](https://docs.microsoft.com/windows-hardware/get-started/adk-install).
 - A USB stick.
 - If you apply the package using the **Settings** app, you'll need device admin credentials.
 
@@ -41,8 +41,8 @@ Using the **Provision Surface Hub devices** wizard, you can:
 
 Using the advanced provisioning editor, you can add these items to provisioning packages for Surface Hub:
 
-- **Policies** - Surface Hub supports a subset of the policies in the [Policy configuration service provider](https://docs.microsoft.com/Selectwindows/client-management/mdm/policy-configuration-service-provider).
-- **Settings** - You can configure any setting in the [SurfaceHub configuration service provider](https://docs.microsoft.com/Selectwindows/client-management/mdm/surfacehub-csp).
+- **Policies** - Surface Hub supports a subset of the policies in the [Policy configuration service provider](https://docs.microsoft.com/windows/client-management/mdm/policy-configuration-service-provider).
+- **Settings** - You can configure any setting in the [SurfaceHub configuration service provider](https://docs.microsoft.com/windows/client-management/mdm/surfacehub-csp).
 
 ## Create  provisioning package
 
@@ -77,7 +77,7 @@ You can enroll the device in Active Directory and specify a security group to us
 ![join Active Directory, Azure AD, or create a local admin account](images/set-up-device-admins-details.png)
 
 1. To enroll the device in Active Directory, enter the credentials for a least-privileged user account to join the device to the domain, and specify the security group to have admin credentials on Surface Hub. If a provisioning package that enrolls a device in Active Directory is going to be applied to a Surface Hub that was reset, the same domain account can only be used if the account listed is a domain administrator or is the same account that set up the Surface Hub initially. Otherwise, a different domain account must be used in the provisioning package.
-2. Before you use Windows Configuration Designer to configure bulk Azure AD enrollment, [set up Azure AD join in your organization](https://docs.microsoft.com/Selectazure/active-directory/active-directory-azureadjoin-setup). The **maximum number of devices per user** setting in your Azure AD tenant determines how many times the bulk token that you get in the wizard can be used.
+2. Before you use Windows Configuration Designer to configure bulk Azure AD enrollment, [Plan your Azure AD join implementation](https://docs.microsoft.com/azure/active-directory/devices/azureadjoin-plan). The **maximum number of devices per user** setting in your Azure AD tenant determines how many times the bulk token that you get in the wizard can be used.
 3. To enroll the device in Azure AD, select that option and enter a friendly name for the bulk token you will get using the wizard. Set an expiration date for the token (maximum is 30 days from the date you get the token). Select **Get bulk token**. In the **Let's get you signed in** window, enter an account that has permissions to join a device to Azure AD, and then the password. Select **Accept** to give Windows Configuration Designer the necessary permissions.
 4. To create a local administrator account, select that option and enter a user name and password.
 
@@ -86,14 +86,14 @@ You can enroll the device in Active Directory and specify a security group to us
 
 ### Enroll in thrid party mobile device management (MDM)
 
-If you use a third party MDM provider, you can use this section to enroll Surface Hub. To enroll in Intune, first setup Azure AD join, as described in the previous section, and follow the instructions in the following Intune documentation: [Enable Windows 10 automatic enrollment](https://docs.microsoft.com/Selectmem/intune/enrollment/windows-enroll#enable-windows-10-automatic-enrollment).
+If you use a third party MDM provider, you can use this section to enroll Surface Hub. To enroll in Intune, first setup Azure AD join, as described in the previous section, and follow the instructions in the following Intune documentation: [Set up automatic enrollment for Windows 10 devices](https://docs.microsoft.com/mem/intune/enrollment/quickstart-setup-auto-enrollment).
  ![enroll in third party mobile device management](images/enroll-mdm-details.png)
 
 1. Toggle **Yes** or **No** for enrollment in third party MDM.
 2. If you toggle **Yes**, provide a service account and password or certificate thumbprint that is authorized to enroll the device and specify the authentication type.
 3. If required by your MDM provider, enter the URLs for the discovery service, enrollment service, and policy service.
 
- To learn more, see [Manage Surface Hub with an MDM provider.](https://docs.microsoft.com/Selectsurface-hub/manage-settings-with-mdm-for-surface-hub)
+ To learn more, see [Manage Surface Hub with an MDM provider.](https://docs.microsoft.com/surface-hub/manage-settings-with-mdm-for-surface-hub)
 
 ### Add applications
 
@@ -134,7 +134,7 @@ You can set a password to protect your provisioning package. You must enter this
 You can use provisioning packages to install certificates that will allow the device to authenticate to Microsoft Exchange.
 > [!NOTE]
 > Provisioning packages can only install certificates to the device (local machine) store, and not to the user store. If your organization requires that certificates be installed to the user store, use the Hub **Settings** app: **Update & Security** > **Certificates** > **Import Certificate**.
-Alternatively, you can use  [**MDM policies**](https://docs.microsoft.com/Selectsurface-hub/manage-settings-with-mdm-for-surface-hub) to deploy certificates to either the device store or the user store.
+Alternatively, you can use  [**MDM policies**](https://docs.microsoft.com/surface-hub/manage-settings-with-mdm-for-surface-hub) to deploy certificates to either the device store or the user store.
 
 > [!TIP]
 > The **ClientCertificates** section is for .pfx files with a private key; .cer files for root CAs should be placed in the **RootCertificates** section and for Intermediate CAs in the **CACertificates** section.
@@ -206,14 +206,14 @@ When you build a provisioning package, you may include sensitive information in 
 
 ## Apply a provisioning package to Surface Hub
 
-There are two options for deploying provisioning packages to a Surface Hub. [During the first run wizard](https://docs.microsoft.com/Selectsurface-hub/provisioning-packages-for-surface-hub#apply-a-provisioning-package-during-first-run), you can apply a provisioning package that installs certificates, or after the first-run program is complete, you can apply a provisioning package that configures settings, apps, and certificates by using [Settings](https://docs.microsoft.com/Selectsurface-hub/provisioning-packages-for-surface-hub#apply-a-package-using-settings).
+There are two options for deploying provisioning packages to a Surface Hub. [During the first run wizard](https://docs.microsoft.com/surface-hub/provisioning-packages-for-surface-hub#apply-a-provisioning-package-during-first-run), you can apply a provisioning package that installs certificates, or after the first-run program is complete, you can apply a provisioning package that configures settings, apps, and certificates by using [Settings](https://docs.microsoft.com/surface-hub/provisioning-packages-for-surface-hub#apply-a-package-using-settings).
 
 ### Apply a provisioning package during first run
 
 > [!IMPORTANT]
 > During the first-run program, you can only use provisioning packages to install certificates. Use the **Settings** app to install apps and apply other settings.
 
-1. When you turn on the Surface Hub for the first time, the first-run program will display the [**Hi there page**](https://docs.microsoft.com/Selectsurface-hub/first-run-program-surface-hub#first-page). Make sure that the settings are properly configured before proceeding.
+1. When you turn on the Surface Hub for the first time, the first-run program will display the [**Hi there page**](https://docs.microsoft.com/surface-hub/first-run-program-surface-hub#first-page). Make sure that the settings are properly configured before proceeding.
 2. Insert the USB flash drive containing the .ppkg file into the Surface Hub. If the package is in the root directory of the drive, the first-run program will recognize it and ask if you want to set up the device. Select **Set up**.
 3. The next screen asks you to select a provisioning source. Select **Removable Media** and tap **Next**.
 4. Select the provisioning package (*.ppkg) that you want to apply, and tap **Next**. Note that you can only install one package during first run.
