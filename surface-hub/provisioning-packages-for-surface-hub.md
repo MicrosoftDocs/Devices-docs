@@ -63,10 +63,10 @@ To provision the device with a certificate, select **Add a certificate**. Enter 
 
 ![configure proxy settings](images/proxy-details.png)
 
-2.If you toggle **Yes**,  you can select to automatically detect proxy settings or manually configure the settings by:
-    -  Entering a URL to a setup script. **Example**: http: //proxysrv.contoso.local/proxy.pa
-    -  Entering a static proxy server address and port information. **Example:** 192.168.1.1:8080
-3. If you intend to use a setup script or  proxy server, turn off **Automatically detect settings** . You can use a setup script *or* a proxy server, not both.
+2. If you toggle **Yes**,  you can select to automatically detect proxy settings or manually configure the settings by:
+    - Entering a URL to a setup script. **Example**: http://proxysrv.contoso.local/proxy.pa
+    - Entering a static proxy server address and port information. **Example:** 192.168.1.1:8080
+3. If you intend to use a setup script or proxy server, turn off **Automatically detect settings** . You can use a setup script *or* a proxy server, not both.
 4. Enter exceptions (addresses that Surface Hub should connect to directly without using the proxy server). Example: *.office365.com
 5. Identify whether to use the proxy server for local addresses.
 
@@ -74,12 +74,13 @@ To provision the device with a certificate, select **Add a certificate**. Enter 
 
 You can enroll the device in Active Directory and specify a security group to use the Settings app, enroll in Azure Active Directory to allow global admins to use the Settings app, or create a local administrator account on the device.
 
-![join Active Directory, Azure AD, or create a local admin account](images/set-up-device-admins-details.png)
-
 1. To enroll the device in Active Directory, enter the credentials for a least-privileged user account to join the device to the domain, and specify the security group to have admin credentials on Surface Hub. If a provisioning package that enrolls a device in Active Directory is going to be applied to a Surface Hub that was reset, the same domain account can only be used if the account listed is a domain administrator or is the same account that set up the Surface Hub initially. Otherwise, a different domain account must be used in the provisioning package.
 2. Before you use Windows Configuration Designer to configure bulk Azure AD enrollment, [Plan your Azure AD join implementation](/azure/active-directory/devices/azureadjoin-plan). The **maximum number of devices per user** setting in your Azure AD tenant determines how many times the bulk token that you get in the wizard can be used.
 3. To enroll the device in Azure AD, select that option and enter a friendly name for the bulk token you will get using the wizard. Set an expiration date for the token (maximum is 30 days from the date you get the token). Select **Get bulk token**. In the **Let's get you signed in** window, enter an account that has permissions to join a device to Azure AD, and then the password. Select **Accept** to give Windows Configuration Designer the necessary permissions.
 4. To create a local administrator account, select that option and enter a user name and password.
+
+![join Active Directory, Azure AD, or create a local admin account](images/set-up-device-admins-details.png)
+
 
 > [!IMPORTANT]
 > If you create a local account in the provisioning package, you must change the password using the **Settings** app every 42 days. If the password is not changed during that period, the account might be locked out and unable to sign in.
