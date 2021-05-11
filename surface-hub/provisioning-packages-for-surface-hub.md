@@ -79,7 +79,8 @@ You can enroll the device in Active Directory and specify a security group to us
 3. To enroll the device in Azure AD, select that option and enter a friendly name for the bulk token you will get using the wizard. Set an expiration date for the token (maximum is 30 days from the date you get the token). Select **Get bulk token**. In the **Let's get you signed in** window, enter an account that has permissions to join a device to Azure AD, and then the password. Select **Accept** to give Windows Configuration Designer the necessary permissions.
 4. To create a local administrator account, select that option and enter a user name and password.
 
-![join Active Directory, Azure AD, or create a local admin account](images/set-up-device-admins-details.png)
+> [!div class="mx-imgBorder"]
+> ![Join Active Directory, Azure AD, or create a local admin account](images/sh2-wcd.png)
 
 
 > [!IMPORTANT]
