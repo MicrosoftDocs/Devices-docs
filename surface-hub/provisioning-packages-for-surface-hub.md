@@ -44,6 +44,8 @@ Using the advanced provisioning editor, you can add these items to provisioning 
 - **Policies** - Surface Hub supports a subset of the policies in the [Policy configuration service provider](/windows/client-management/mdm/policy-configuration-service-provider).
 - **Settings** - You can configure any setting in the [SurfaceHub configuration service provider](/windows/client-management/mdm/surfacehub-csp).
 
+To learn more about supported settings, see [Windows Configuration Designer provisioning settings reference](/windows/configuration/wcd/wcd).
+
 ## Create  provisioning package
 
 Use the Surface Hub provisioning wizard to create a package with common settings, then switch to the advanced editor to add other settings.
@@ -55,13 +57,13 @@ Use the Surface Hub provisioning wizard to create a package with common settings
 
 To provision the device with a certificate, select **Add a certificate**. Enter a name for the certificate, and then browse to and select the certificate to be used.
 
-![add a certificate](images/add-certificates-details.png)
+![add a certificate](images/sh-prov-cert.png)
 
 ### Configure proxy settings
 
 1. Toggle **Yes** or **No** for proxy settings. By default Surface Hub automatically detects proxy settings. However, if your infrastructure previously required using a proxy server and has changed to not require a proxy server, you can use a provisioning package to revert your Surface Hub devices to the default settings by selecting **Yes** and **Automatically detect settings**.
 
-![configure proxy settings](images/proxy-details.png)
+![configure proxy settings](images/sh-prov-proxy.png)
 
 2. If you toggle **Yes**,  you can select to automatically detect proxy settings or manually configure the settings by:
     - Entering a URL to a setup script. **Example**: http://proxysrv.contoso.local/proxy.pa
@@ -89,7 +91,7 @@ You can enroll the device in Active Directory and specify a security group to us
 ### Enroll in thrid party mobile device management (MDM)
 
 If you use a third party MDM provider, you can use this section to enroll Surface Hub. To enroll in Intune, first setup Azure AD join, as described in the previous section, and follow the instructions in the following Intune documentation: [Set up automatic enrollment for Windows 10 devices](/mem/intune/enrollment/quickstart-setup-auto-enrollment).
- ![enroll in third party mobile device management](images/enroll-mdm-details.png)
+ ![enroll in third party mobile device management](images/sh-prov-mdm.png)
 
 1. Toggle **Yes** or **No** for enrollment in third party MDM.
 2. If you toggle **Yes**, provide a service account and password or certificate thumbprint that is authorized to enroll the device and specify the authentication type.
@@ -188,8 +190,6 @@ You can add settings from the [SurfaceHub configuration service provider](/windo
 2. Select the component you want to manage and configure the policy as appropriate.
 3. When you are done configuring the provisioning package, on the **File** menu, select **Save**.
 4. Read the warning that project files may contain sensitive information, and select **OK**
-
-To learn more about supported settings, see [Windows Configuration Designer provisioning settings reference](/windows/configuration/wcd/wcd).
 
 ### Build your package
 
