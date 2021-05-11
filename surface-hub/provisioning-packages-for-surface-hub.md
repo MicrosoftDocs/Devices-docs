@@ -107,12 +107,20 @@ You can install multiple Universal Windows Platform (UWP) apps in a provisioning
 
 ### Add a configuration file
 
-Follow the instructions for including a configuration file that contains a list of device accounts. The configuration file must not contain column headers. When you apply the provisioning package to Surface Hub, if a Surface Hub configuration file is included on the USB drive, you can select the account and friendly name for the device from the file. To create the .CSV file, you can use either a UPN address (Rainier@contoso.com) or you can use domain\username (contoso\rainier)
+In addition to this provisioning package, you can use a Surface Hub configuration file to make it even easier to set up your devices. A Surface Hub configuration file contains a list of device accounts that your device can use to connect to Exchange and Skype for Business, and also friendly names for wireless projection. During first run, you'll get an option to choose a device account and friendly name from a configuration file.
+
+To create a Surface Hub configuration file:
+
+1. Using Microsoft Excel or another CSV editor, create a CSV file named SurfaceHubConfiguration.csv
+2. Enter a list of device accounts and friendly names in this format: <DeviceAccountName>,<DeviceAccountPassword>,<FriendlyName>
+
+
+ The configuration file must not contain column headers. When you apply the provisioning package to Surface Hub, if a Surface Hub configuration file is included on the USB drive, you can select the account and friendly name for the device from the file. To create the .CSV file, you can use either a UPN address (Rainier@contoso.com) or you can use domain\username (contoso\rainier).
 
 - Rainier@contoso.com,password,Rainier Surface Hub
 - Adams@contoso.com,password,Adams Surface Hub
 
- ![Add a Surface Hub configuration file](images/add-config-file-details.png)
+3. Save the file to your ICD project folder and copy it to the USB key with your provisioning package.
 
 > [!NOTE]
 > The configuration file can only be applied during the out-of-box setup experience (OOBE) and can only be used with provisioning packages created using the Windows Configuration Designer released with Windows 10, version 1703.
