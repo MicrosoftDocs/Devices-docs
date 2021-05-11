@@ -57,7 +57,7 @@ Use the Surface Hub provisioning wizard to create a package with common settings
 
 To provision the device with a certificate, select **Add a certificate**. Enter a name for the certificate, and then browse to and select the certificate to be used.
 
-    ![add a certificate](images/sh-prov-cert.png)
+![add a certificate](images/sh-prov-cert.png)
 
 ### Configure proxy settings
 
