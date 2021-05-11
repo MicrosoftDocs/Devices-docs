@@ -10,7 +10,7 @@ ms.sitesec: library
 author: dansimp
 ms.author: dansimp
 ms.topic: article
-ms.date: 05/10/2021
+ms.date: 05/12/2021
 ms.localizationpriority: medium
 appliesto:
 - Surface Hub
@@ -21,7 +21,7 @@ appliesto:
 
 Provisioning packages allow you to automate deployment of key features and deliver a consistent experience across all Surface Hubs in your organization.  Using  Windows Configuration Designer (WCD) on a separate PC, you can configure certificates, proxy settings,  device accounts, and other features, join Azure Active Directory, and install Universal Windows Platform (UWP) apps.
 
-Begin by installing creating the provisioning package on a PC running Windows 10. Save the package to a USB drive and then deploy it to your Surface Hub during first-run setup, or through the Settings app.
+Begin by installing creating the provisioning package on a PC running Windows 10. Save the package to a USB drive and then deploy it to your Surface Hub during first-run setup, or through the Settings app. To learn more, see [Create a provisioning package for Windows 10](/windows/configuration/provisioning-packages/provisioning-create-package).
 
 ## Requirements
 
@@ -188,6 +188,8 @@ You can add settings from the [SurfaceHub configuration service provider](/windo
 2. Select the component you want to manage and configure the policy as appropriate.
 3. When you are done configuring the provisioning package, on the **File** menu, select **Save**.
 4. Read the warning that project files may contain sensitive information, and select **OK**
+
+To learn more about supported settings, see [Windows Configuration Designer provisioning settings reference](/windows/configuration/wcd/wcd).
 
 ### Build your package
 
