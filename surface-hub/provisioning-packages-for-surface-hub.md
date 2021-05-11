@@ -57,13 +57,13 @@ Use the Surface Hub provisioning wizard to create a package with common settings
 
 To provision the device with a certificate, select **Add a certificate**. Enter a name for the certificate, and then browse to and select the certificate to be used.
 
-![add a certificate](images/sh-prov-cert.png)
+    ![add a certificate](images/sh-prov-cert.png)
 
 ### Configure proxy settings
 
 1. Toggle **Yes** or **No** for proxy settings. By default Surface Hub automatically detects proxy settings. However, if your infrastructure previously required using a proxy server and has changed to not require a proxy server, you can use a provisioning package to revert your Surface Hub devices to the default settings by selecting **Yes** and **Automatically detect settings**.
 
-![configure proxy settings](images/sh-prov-proxy.png)
+    ![configure proxy settings](images/sh-prov-proxy.png)
 
 2. If you toggle **Yes**,  you can select to automatically detect proxy settings or manually configure the settings by:
     - Entering a URL to a setup script. **Example**: http://proxysrv.contoso.local/proxy.pa
@@ -81,8 +81,8 @@ You can enroll the device in Active Directory and specify a security group to us
 3. To enroll the device in Azure AD, select that option and enter a friendly name for the bulk token you will get using the wizard. Set an expiration date for the token (maximum is 30 days from the date you get the token). Select **Get bulk token**. In the **Let's get you signed in** window, enter an account that has permissions to join a device to Azure AD, and then the password. Select **Accept** to give Windows Configuration Designer the necessary permissions.
 4. To create a local administrator account, select that option and enter a user name and password.
 
-> [!div class="mx-imgBorder"]
-> ![Join Active Directory, Azure AD, or create a local admin account](images/sh2-wcd.png)
+    > [!div class="mx-imgBorder"]
+    > ![Join Active Directory, Azure AD, or create a local admin account](images/sh2-wcd.png)
 
 
 > [!IMPORTANT]
@@ -91,7 +91,7 @@ You can enroll the device in Active Directory and specify a security group to us
 ### Enroll in thrid party mobile device management (MDM)
 
 If you use a third party MDM provider, you can use this section to enroll Surface Hub. To enroll in Intune, first setup Azure AD join, as described in the previous section, and follow the instructions in the following Intune documentation: [Set up automatic enrollment for Windows 10 devices](/mem/intune/enrollment/quickstart-setup-auto-enrollment).
- ![enroll in third party mobile device management](images/sh-prov-mdm.png)
+     ![enroll in third party mobile device management](images/sh-prov-mdm.png)
 
 1. Toggle **Yes** or **No** for enrollment in third party MDM.
 2. If you toggle **Yes**, provide a service account and password or certificate thumbprint that is authorized to enroll the device and specify the authentication type.
@@ -103,7 +103,7 @@ If you use a third party MDM provider, you can use this section to enroll Surfac
 
 You can install multiple Universal Windows Platform (UWP) apps in a provisioning package. To learn more, see [Provision PCs with apps](/windows/configuration/provisioning-packages/provision-pcs-with-apps).
 
- ![add an application](images/add-applications-details.png)
+ ![add an application](images/sh-prov-apps.png)
 
 > [!NOTE]
 > Although WCD lets you add a Classic Win32 app to a provisioning package, Surface Hub will only accept UWP apps. If you include a Classic Win32 app, provisioning will fail.
