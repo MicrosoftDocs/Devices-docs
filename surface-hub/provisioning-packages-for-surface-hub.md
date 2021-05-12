@@ -63,14 +63,14 @@ To provision the device with a certificate, select **Add a certificate**. Enter 
 
 1. Toggle **Yes** or **No** for proxy settings. By default Surface Hub automatically detects proxy settings. However, if your infrastructure previously required using a proxy server and has changed to not require a proxy server, you can use a provisioning package to revert your Surface Hub devices to the default settings by selecting **Yes** and **Automatically detect settings**.
 
-    ![configure proxy settings](images/sh-prov-proxy.png)
-
 2. If you toggle **Yes**,  you can select to automatically detect proxy settings or manually configure the settings by:
-    - Entering a URL to a setup script. **Example**: http://proxysrv.contoso.local/proxy.pa
-    - Entering a static proxy server address and port information. **Example:** 192.168.1.1:8080
+    - Entering a URL to a setup script. 
+    - Entering a static proxy server address and port information. 
 3. If you intend to use a setup script or proxy server, turn off **Automatically detect settings** . You can use a setup script *or* a proxy server, not both.
 4. Enter exceptions (addresses that Surface Hub should connect to directly without using the proxy server). Example: *.office365.com
 5. Identify whether to use the proxy server for local addresses.
+ 
+   ![configure proxy settings](images/sh-prov-proxy.png)
 
 ### Set up device admins
 
@@ -115,15 +115,18 @@ In addition to this provisioning package, you can use a Surface Hub configuratio
 To create a Surface Hub configuration file:
 
 1. Using Microsoft Excel or another CSV editor, create a CSV file named SurfaceHubConfiguration.csv
-2. Enter a list of device accounts and friendly names in this format: <DeviceAccountName>,<DeviceAccountPassword>,<FriendlyName>
+2. Enter a list of device accounts and friendly names in this format: 
 
+```
+<DeviceAccountName>,<DeviceAccountPassword>,<FriendlyName>
+```
 
- The configuration file must not contain column headers. When you apply the provisioning package to Surface Hub, if a Surface Hub configuration file is included on the USB drive, you can select the account and friendly name for the device from the file. To create the .CSV file, you can use either a UPN address (Rainier@contoso.com) or you can use domain\username (contoso\rainier).
+The configuration file must not contain column headers. When you apply the provisioning package to Surface Hub, if a Surface Hub configuration file is included on the USB drive, you can select the account and friendly name for the device from the file. To create the .CSV file, you can use either a UPN address (Rainier@contoso.com) or you can use domain\username (contoso\rainier).
 
 - Rainier@contoso.com,password,Rainier Surface Hub
 - Adams@contoso.com,password,Adams Surface Hub
 
-3. Save the file to your ICD project folder and copy it to the USB key with your provisioning package.
+3. Save the file to your project folder and copy it to the USB key with your provisioning package.
 
 > [!NOTE]
 > The configuration file can only be applied during the out-of-box setup experience (OOBE) and can only be used with provisioning packages created using the Windows Configuration Designer released with Windows 10, version 1703.
