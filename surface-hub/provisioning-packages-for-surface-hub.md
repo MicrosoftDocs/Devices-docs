@@ -19,15 +19,13 @@ appliesto:
 
 # Create provisioning packages for Surface Hub
 
-Provisioning packages allow you to automate deployment of key features and deliver a consistent experience across all Surface Hubs in your organization.  Using  Windows Configuration Designer (WCD) on a separate PC, you can configure certificates, proxy settings,  device accounts, and other features, join Azure Active Directory, and install Universal Windows Platform (UWP) apps.
+Provisioning packages allow you to automate deployment of key features, helping deliver a consistent experience across all Surface Hubs in your organization.  Using  Windows Configuration Designer (WCD) on a separate PC, you can configure certificates, proxy settings, device accounts, and other features. You can also join Hub devices to your Active Directory domain or Azure Active Directory and install Universal Windows Platform (UWP) apps.
 
-Begin by installing creating the provisioning package on a PC running Windows 10. Save the package to a USB drive and then deploy it to your Surface Hub during first-run setup, or through the Settings app. To learn more, see [Create a provisioning package for Windows 10](/windows/configuration/provisioning-packages/provisioning-create-package).
+## Overview
 
-## Requirements
-
-- Windows Configuration Designer, which can be installed from Microsoft Store or from the [Windows 10 Assessment and Deployment Kit (ADK)](https://go.microsoft.com/fwlink/p/?LinkId=845542).  For more information, see [Download and install the Windows ADK](/windows-hardware/get-started/adk-install).
-- A USB stick.
-- If you apply the package using the **Settings** app, you'll need device admin credentials.
+1. Begin by installing [Windows Configuration Designer]((https://go.microsoft.com/fwlink/p/?LinkId=845542)) on a separate PC running Windows 10. 
+2. Create the provisioning package and save it to a USB drive.
+3. Deploy the package to your Surface Hub during the OOBE first-run setup, or through the Settings app. To learn more, see [Create a provisioning package for Windows 10](/windows/configuration/provisioning-packages/provisioning-create-package).
 
 ## Supported items for Surface Hub provisioning packages
 
@@ -46,7 +44,7 @@ Using the advanced provisioning editor, you can add these items to provisioning 
 
 To learn more about supported settings, see [Windows Configuration Designer provisioning settings reference](/windows/configuration/wcd/wcd).
 
-## Create  provisioning package
+## Create provisioning package
 
 Use the Surface Hub provisioning wizard to create a package with common settings, then switch to the advanced editor to add other settings.
 
