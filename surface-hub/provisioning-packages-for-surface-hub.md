@@ -64,12 +64,12 @@ To provision the device with a certificate, select **Add a certificate**. Enter 
 1. Toggle **Yes** or **No** for proxy settings. By default Surface Hub automatically detects proxy settings. However, if your infrastructure previously required using a proxy server and has changed to not require a proxy server, you can use a provisioning package to revert your Surface Hub devices to the default settings by selecting **Yes** and **Automatically detect settings**.
 
 2. If you toggle **Yes**,  you can select to automatically detect proxy settings or manually configure the settings by:
-    - Entering a URL to a setup script. 
-    - Entering a static proxy server address and port information. 
+    - Entering a URL to a setup script.
+    - Entering a static proxy server address and port information.
 3. If you intend to use a setup script or proxy server, turn off **Automatically detect settings** . You can use a setup script *or* a proxy server, not both.
 4. Enter exceptions (addresses that Surface Hub should connect to directly without using the proxy server). Example: *.office365.com
 5. Identify whether to use the proxy server for local addresses.
- 
+
    ![configure proxy settings](images/sh-prov-proxy.png)
 
 ### Set up device admins
@@ -84,7 +84,6 @@ You can enroll the device in Active Directory and specify a security group to us
     > [!div class="mx-imgBorder"]
     > ![Join Active Directory, Azure AD, or create a local admin account](images/sh2-wcd.png)
 
-
 > [!IMPORTANT]
 > If you create a local account in the provisioning package, you must change the password using the **Settings** app every 42 days. If the password is not changed during that period, the account might be locked out and unable to sign in.
 
@@ -92,7 +91,8 @@ You can enroll the device in Active Directory and specify a security group to us
 
 If you use a third party MDM provider, you can use this section to enroll Surface Hub. To enroll in Intune, first setup Azure AD join, as described in the previous section, and follow the instructions in the following Intune documentation: [Set up automatic enrollment for Windows 10 devices](/mem/intune/enrollment/quickstart-setup-auto-enrollment).
 
-     ![enroll in third party mobile device management](images/sh-prov-mdm.png)
+> [!div class="mx-imgBorder"]
+> ![enroll in third party mobile device management](images/sh-prov-mdm.png)
 
 1. Toggle **Yes** or **No** for enrollment in third party MDM.
 2. If you toggle **Yes**, provide a service account and password or certificate thumbprint that is authorized to enroll the device and specify the authentication type.
@@ -104,7 +104,8 @@ If you use a third party MDM provider, you can use this section to enroll Surfac
 
 You can install multiple Universal Windows Platform (UWP) apps in a provisioning package. To learn more, see [Provision PCs with apps](/windows/configuration/provisioning-packages/provision-pcs-with-apps).
 
-    ![add an application](images/sh-prov-apps.png)
+> [!div class="mx-imgBorder"]
+> ![add an application](images/sh-prov-apps.png)
 
 > [!NOTE]
 > Although WCD lets you add a Classic Win32 app to a provisioning package, Surface Hub will only accept UWP apps. If you include a Classic Win32 app, provisioning will fail.
@@ -116,7 +117,7 @@ In addition to this provisioning package, you can use a Surface Hub configuratio
 To create a Surface Hub configuration file:
 
 1. Using Microsoft Excel or another CSV editor, create a CSV file named SurfaceHubConfiguration.csv
-2. Enter a list of device accounts and friendly names in this format: 
+2. Enter a list of device accounts and friendly names in this format:
 
 ```
 <DeviceAccountName>,<DeviceAccountPassword>,<FriendlyName>
@@ -141,7 +142,7 @@ You can set a password to protect your provisioning package. You must enter this
 1. Open Windows Configuration Designer and select **Advanced provisioning**.
 2. Name your project and select **Next**.
 3. Select **Common to Windows 10 Team**, select **Next**, and then select **Finish**.
- 
+
     ![ICD new project](images/icd-new-project.png)
 4. In the project, under **Available customizations**, select **Common Team settings**.
     ![ICD common settings](images/icd-common-settings.png)
@@ -199,7 +200,6 @@ You can add settings from the [SurfaceHub configuration service provider](/windo
 ### Build your package
 
 When you build a provisioning package, you may include sensitive information in the project files and in the provisioning package (.ppkg) file. Although you have the option to encrypt the .ppkg file, project files are not encrypted. You should store the project files in a secure location and delete the project files when they are no longer needed.
-
 
 1. Open **Windows Configuration Designer** > **Export** > **Provisioning package**.
 2. Change **Owner** to **IT Admin**, which will set the precedence of this provisioning package higher than provisioning packages applied to this device from other sources.
