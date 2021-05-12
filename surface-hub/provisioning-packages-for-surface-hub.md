@@ -57,7 +57,8 @@ Use the Surface Hub provisioning wizard to create a package with common settings
 
 To provision the device with a certificate, select **Add a certificate**. Enter a name for the certificate, and then browse to and select the certificate to be used.
 
-    ![add a certificate](images/sh-prov-cert.png)
+> [!div class="mx-imgBorder"]
+> ![add a certificate](images/sh-prov-cert.png)
 
 ### Configure proxy settings
 
@@ -92,7 +93,7 @@ You can enroll the device in Active Directory and specify a security group to us
 If you use a third party MDM provider, you can use this section to enroll Surface Hub. To enroll in Intune, first setup Azure AD join, as described in the previous section, and follow the instructions in the following Intune documentation: [Set up automatic enrollment for Windows 10 devices](/mem/intune/enrollment/quickstart-setup-auto-enrollment).
 
 > [!div class="mx-imgBorder"]
-> ![enroll in third party mobile device management](images/sh-prov-mdm.png)
+> ![Enroll in third party mobile device management](images/sh-prov-mdm.png)
 
 1. Toggle **Yes** or **No** for enrollment in third party MDM.
 2. If you toggle **Yes**, provide a service account and password or certificate thumbprint that is authorized to enroll the device and specify the authentication type.
