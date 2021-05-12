@@ -19,7 +19,14 @@ appliesto:
 
 # Create provisioning packages for Surface Hub
 
-Provisioning packages allow you to automate deployment of key features, helping deliver a consistent experience across all Surface Hubs in your organization.  Using  Windows Configuration Designer (WCD) on a separate PC, you can configure certificates, proxy settings, device accounts, and other features. You can also join Hub devices to your Active Directory domain or Azure Active Directory and install Universal Windows Platform (UWP) apps.
+Provisioning packages allow you to automate deployment of key features, helping deliver a consistent experience across all Surface Hubs in your organization.  Using  Windows Configuration Designer (WCD) on a separate PC, you can:
+
+- Enroll in Active Directory or Azure Active Directory
+- Create a device administrator account
+- Add applications and certificates
+- Configure proxy settings
+- Add a Surface Hub configuration file
+- Configure [Configuration Service Provider (CSP) settings](/windows/client-management/mdm/surfacehub-csp)
 
 ## Overview
 
@@ -27,51 +34,44 @@ Provisioning packages allow you to automate deployment of key features, helping 
 2. Create the provisioning package and save it to a USB drive.
 3. Deploy the package to your Surface Hub during the OOBE first-run setup, or through the Settings app. To learn more, see [Create a provisioning package for Windows 10](/windows/configuration/provisioning-packages/provisioning-create-package).
 
-## Supported items for Surface Hub provisioning packages
-
-Using the **Provision Surface Hub devices** wizard, you can:
-
-- Enroll in Active Directory, Azure Active Directory, or MDM
-- Create an device administrator account
-- Add applications and certificates
-- Configure proxy settings
-- Add a Surface Hub configuration file
-
-Using the advanced provisioning editor, you can add these items to provisioning packages for Surface Hub:
-
-- **Policies** - Surface Hub supports a subset of the policies in the [Policy configuration service provider](/windows/client-management/mdm/policy-configuration-service-provider).
-- **Settings** - You can configure any setting in the [SurfaceHub configuration service provider](/windows/client-management/mdm/surfacehub-csp).
-
-To learn more about supported settings, see [Windows Configuration Designer provisioning settings reference](/windows/configuration/wcd/wcd).
-
 ## Create provisioning package
 
-Use the Surface Hub provisioning wizard to create a package with common settings, then switch to the advanced editor to add other settings.
+> [!div class="mx-imgBorder"]
+> ![Use the Surface Hub provisioning wizard](images/sh-prov-start.png)
+
+Use the Surface Hub provisioning wizard to create a package with common settings. Switch to the advanced editor to configure CSP add other settings.
 
 1. Open Windows Configuration Designer and select **Provision Surface Hub devices**.
 2. Name your project and click **Next**.
 
 ### Add certificates
 
-To provision the device with a certificate, select **Add a certificate**. Enter a name for the certificate, and then browse to and select the certificate to be used.
-
 > [!div class="mx-imgBorder"]
 > ![add a certificate](images/sh-prov-cert.png)
 
+To provision the device with a certificate, select **Add a certificate**. Enter a name for the certificate, and then browse to select the certificate to be used.
+
 ### Configure proxy settings
 
-1. Toggle **Yes** or **No** for proxy settings. By default Surface Hub automatically detects proxy settings. However, if your infrastructure previously required using a proxy server and has changed to not require a proxy server, you can use a provisioning package to revert your Surface Hub devices to the default settings by selecting **Yes** and **Automatically detect settings**.
+> [!div class="mx-imgBorder"]
+> ![configure proxy settings](images/sh-prov-proxy.png)
 
+1. Toggle **Yes** or **No** for proxy settings. By default Surface Hub automatically detects proxy settings. However, if your infrastructure previously required using a proxy server and has changed to not require a proxy server, you can use a provisioning package to revert your Surface Hub devices to the default settings by selecting **Yes** and **Automatically detect settings**.
 2. If you toggle **Yes**,  you can select to automatically detect proxy settings or manually configure the settings by:
-    - Entering a URL to a setup script.
-    - Entering a static proxy server address and port information.
+
+ - Entering a URL to a setup script.
+ - Entering a static proxy server address and port information.
+
 3. If you intend to use a setup script or proxy server, turn off **Automatically detect settings** . You can use a setup script *or* a proxy server, not both.
 4. Enter exceptions (addresses that Surface Hub should connect to directly without using the proxy server). Example: *.office365.com
 5. Identify whether to use the proxy server for local addresses.
 
-   ![configure proxy settings](images/sh-prov-proxy.png)
+
 
 ### Set up device admins
+
+ > [!div class="mx-imgBorder"]
+ > ![Join Active Directory, Azure AD, or create a local admin account](images/sh2-wcd.png)
 
 You can enroll the device in Active Directory and specify a security group to use the Settings app, enroll in Azure Active Directory to allow global admins to use the Settings app, or create a local administrator account on the device.
 
@@ -80,18 +80,16 @@ You can enroll the device in Active Directory and specify a security group to us
 3. To enroll the device in Azure AD, select that option and enter a friendly name for the bulk token you will get using the wizard. Set an expiration date for the token (maximum is 30 days from the date you get the token). Select **Get bulk token**. In the **Let's get you signed in** window, enter an account that has permissions to join a device to Azure AD, and then the password. Select **Accept** to give Windows Configuration Designer the necessary permissions.
 4. To create a local administrator account, select that option and enter a user name and password.
 
-    > [!div class="mx-imgBorder"]
-    > ![Join Active Directory, Azure AD, or create a local admin account](images/sh2-wcd.png)
-
 > [!IMPORTANT]
 > If you create a local account in the provisioning package, you must change the password using the **Settings** app every 42 days. If the password is not changed during that period, the account might be locked out and unable to sign in.
 
-### Enroll in third party mobile device management (MDM)
-
-If you use a third party MDM provider, you can use this section to enroll Surface Hub. To enroll in Intune, first setup Azure AD join, as described in the previous section, and follow the instructions in the following Intune documentation: [Set up automatic enrollment for Windows 10 devices](/mem/intune/enrollment/quickstart-setup-auto-enrollment).
+### Enroll in third party MDM provider
 
 > [!div class="mx-imgBorder"]
 > ![Enroll in third party mobile device management](images/sh-prov-mdm.png)
+
+If you use a third party mobile device management (MDM) provider, you can use this section to enroll Surface Hub. To enroll in Intune, first setup Azure AD join, as described in the previous section, and follow the instructions in the following Intune documentation: [Set up automatic enrollment for Windows 10 devices](/mem/intune/enrollment/quickstart-setup-auto-enrollment).
+
 
 1. Toggle **Yes** or **No** for enrollment in third party MDM.
 2. If you toggle **Yes**, provide a service account and password or certificate thumbprint that is authorized to enroll the device and specify the authentication type.
@@ -101,10 +99,10 @@ If you use a third party MDM provider, you can use this section to enroll Surfac
 
 ### Add applications
 
-You can install multiple Universal Windows Platform (UWP) apps in a provisioning package. To learn more, see [Provision PCs with apps](/windows/configuration/provisioning-packages/provision-pcs-with-apps).
-
 > [!div class="mx-imgBorder"]
 > ![add an application](images/sh-prov-apps.png)
+
+You can install multiple Universal Windows Platform (UWP) apps in a provisioning package. To learn more, see [Provision PCs with apps](/windows/configuration/provisioning-packages/provision-pcs-with-apps).
 
 > [!NOTE]
 > Although WCD lets you add a Classic Win32 app to a provisioning package, Surface Hub will only accept UWP apps. If you include a Classic Win32 app, provisioning will fail.
@@ -136,19 +134,28 @@ The configuration file must not contain column headers. When you apply the provi
 
 You can set a password to protect your provisioning package. You must enter this password when you apply the provisioning package to a device.
 
+### Complete provisioning wizard
+
+If you only need to configure common settings, select **Finish** > **Create** and skip to the section [Build your package](#build-your-package). 
+
+
 ## Use advanced provisioning
+
+> [!div class="mx-imgBorder"]
+> ![Use advanced provisioning](images/sh-prov-adv.png)
 
 1. Open Windows Configuration Designer and select **Advanced provisioning**.
 2. Name your project and select **Next**.
 3. Select **Common to Windows 10 Team**, select **Next**, and then select **Finish**.
 
-    ![ICD new project](images/icd-new-project.png)
+ ![ICD new project](images/icd-new-project.png)
 4. In the project, under **Available customizations**, select **Common Team settings**.
-    ![ICD common settings](images/icd-common-settings.png)
+ ![ICD common settings](images/icd-common-settings.png)
 
 ### Add a certificate to your package
 
 You can use provisioning packages to install certificates that will allow the device to authenticate to Microsoft Exchange.
+
 > [!NOTE]
 > Provisioning packages can only install certificates to the device (local machine) store, and not to the user store. If your organization requires that certificates be installed to the user store, use the Hub **Settings** app: **Update & Security** > **Certificates** > **Import Certificate**.
 Alternatively, you can use  [**MDM policies**](manage-settings-with-mdm-for-surface-hub.md) to deploy certificates to either the device store or the user store.
@@ -208,8 +215,8 @@ When you build a provisioning package, you may include sensitive information in 
 > You can make changes to existing packages and change the version number to update previously applied packages.
 
 4. Optional: You can choose to encrypt the package and enable package signing.
-    - Select **Encrypt package** and then enter a password.
-    - Select **Sign package** > **Browse** and choose the certificate as appropriate.
+ - Select **Encrypt package** and then enter a password.
+ - Select **Sign package** > **Browse** and choose the certificate as appropriate.
 
 > [!IMPORTANT]
 > Including a trusted provisioning certificate in your provisioning package is recommended. When the package is applied to a device, the certificate is added to the system store, enabling subsequent packages to be applied silently.
