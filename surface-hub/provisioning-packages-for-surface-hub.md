@@ -30,7 +30,7 @@ Provisioning packages allow you to automate deployment of key features, helping 
 
 ## Overview
 
-1. Begin by installing [Windows Configuration Designer](https://go.microsoft.com/fwlink/p/?LinkId=845542) on a separate PC running Windows 10. 
+1. Begin by installing [Windows Configuration Designer](https://go.microsoft.com/fwlink/p/?LinkId=845542) on a separate PC running Windows 10.
 2. Create the provisioning package and save it to a USB drive.
 3. Deploy the package to your Surface Hub during the OOBE first-run setup, or through the Settings app. To learn more, see [Create a provisioning package for Windows 10](/windows/configuration/provisioning-packages/provisioning-create-package).
 
@@ -66,8 +66,6 @@ To provision the device with a certificate, select **Add a certificate**. Enter 
 4. Enter exceptions (addresses that Surface Hub should connect to directly without using the proxy server). Example: *.office365.com
 5. Identify whether to use the proxy server for local addresses.
 
-
-
 ### Set up device admins
 
  > [!div class="mx-imgBorder"]
@@ -89,7 +87,6 @@ You can enroll the device in Active Directory and specify a security group to us
 > ![Enroll in third party mobile device management](images/sh-prov-mdm.png)
 
 If you use a third party mobile device management (MDM) provider, you can use this section to enroll Surface Hub. To enroll in Intune, first setup Azure AD join, as described in the previous section, and follow the instructions in the following Intune documentation: [Set up automatic enrollment for Windows 10 devices](/mem/intune/enrollment/quickstart-setup-auto-enrollment).
-
 
 1. Toggle **Yes** or **No** for enrollment in third party MDM.
 2. If you toggle **Yes**, provide a service account and password or certificate thumbprint that is authorized to enroll the device and specify the authentication type.
@@ -136,8 +133,7 @@ You can set a password to protect your provisioning package. You must enter this
 
 ### Complete provisioning wizard
 
-If you only need to configure common settings, select **Finish** > **Create** and skip to the section [Build your package](#build-your-package). 
-
+If you only need to configure common settings, select **Finish** > **Create** and skip to the section [Build your package](#build-your-package).
 
 ## Use advanced provisioning
 
@@ -215,8 +211,9 @@ When you build a provisioning package, you may include sensitive information in 
 > You can make changes to existing packages and change the version number to update previously applied packages.
 
 4. Optional: You can choose to encrypt the package and enable package signing.
- - Select **Encrypt package** and then enter a password.
- - Select **Sign package** > **Browse** and choose the certificate as appropriate.
+
+- Select **Encrypt package** and then enter a password.
+- Select **Sign package** > **Browse** and choose the certificate as appropriate.
 
 > [!IMPORTANT]
 > Including a trusted provisioning certificate in your provisioning package is recommended. When the package is applied to a device, the certificate is added to the system store, enabling subsequent packages to be applied silently.
