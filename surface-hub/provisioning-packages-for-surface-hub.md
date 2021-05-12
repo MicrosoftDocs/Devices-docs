@@ -40,8 +40,6 @@ Provisioning packages allow you to automate deployment of key features, helping 
 > [!div class="mx-imgBorder"]
 > ![Use the Surface Hub provisioning wizard](images/sh-prov-start.png)
 
-Use the Surface Hub provisioning wizard to create a package with common settings. Switch to the advanced editor to configure CSP add other settings.
-
 1. Open Windows Configuration Designer and select **Provision Surface Hub devices**.
 2. Name your project and click **Next**.
 
