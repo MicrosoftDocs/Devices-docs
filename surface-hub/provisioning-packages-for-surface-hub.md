@@ -31,7 +31,7 @@ Provisioning packages allow you to automate deployment of key features, helping 
 ## Overview
 
 1. Begin by installing [Windows Configuration Designer](https://go.microsoft.com/fwlink/p/?LinkId=845542) on a separate PC running Windows 10.
-1. Select [**Provision Surface Hub devices**](#surface-hub-provisioning-wizard) to configure common settings using a wizard. Or select [Advanced provisioning](#use-advanced-provisioning) to view and configure all possible settings. 
+1. Select [**Provision Surface Hub devices**](#use-surface-hub-provisioning-wizard) to configure common settings using a wizard. Or select [Advanced provisioning](#use-advanced-provisioning) to view and configure all possible settings. 
 1. Create the provisioning package and save it to a USB drive.
 1. Deploy the package to your Surface Hub during the OOBE first-run setup, or through the Settings app. To learn more, see [Create a provisioning package for Windows 10](/windows/configuration/provisioning-packages/provisioning-create-package).
 
