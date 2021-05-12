@@ -31,10 +31,11 @@ Provisioning packages allow you to automate deployment of key features, helping 
 ## Overview
 
 1. Begin by installing [Windows Configuration Designer](https://go.microsoft.com/fwlink/p/?LinkId=845542) on a separate PC running Windows 10.
-2. Create the provisioning package and save it to a USB drive.
-3. Deploy the package to your Surface Hub during the OOBE first-run setup, or through the Settings app. To learn more, see [Create a provisioning package for Windows 10](/windows/configuration/provisioning-packages/provisioning-create-package).
+1. Select [**Provision Surface Hub devices**](#surface-hub-provisioning-wizard) to configure common settings using a wizard. Or select [Advanced provisioning](#use-advanced-provisioning) to view and configure all possible settings. 
+1. Create the provisioning package and save it to a USB drive.
+1. Deploy the package to your Surface Hub during the OOBE first-run setup, or through the Settings app. To learn more, see [Create a provisioning package for Windows 10](/windows/configuration/provisioning-packages/provisioning-create-package).
 
-## Create provisioning package
+## Use Surface Hub provisioning wizard 
 
 > [!div class="mx-imgBorder"]
 > ![Use the Surface Hub provisioning wizard](images/sh-prov-start.png)
@@ -102,7 +103,7 @@ If you use a third party mobile device management (MDM) provider, you can use th
 You can install multiple Universal Windows Platform (UWP) apps in a provisioning package. To learn more, see [Provision PCs with apps](/windows/configuration/provisioning-packages/provision-pcs-with-apps).
 
 > [!NOTE]
-> Although WCD lets you add a Classic Win32 app to a provisioning package, Surface Hub will only accept UWP apps. If you include a Classic Win32 app, provisioning will fail.
+> Although Windows Configuration Designer lets you add a Classic Win32 app to a provisioning package, Surface Hub will only accept UWP apps. If you include a Classic Win32 app, provisioning will fail.
 
 ### Add a configuration file
 
@@ -135,7 +136,7 @@ You can set a password to protect your provisioning package. You must enter this
 
 If you only need to configure common settings, select **Finish** > **Create** and skip to the section [Build your package](#build-your-package).
 
-## Use advanced provisioning
+## Use Advanced provisioning
 
 > [!div class="mx-imgBorder"]
 > ![Use advanced provisioning](images/sh-prov-adv.png)
@@ -144,9 +145,9 @@ If you only need to configure common settings, select **Finish** > **Create** an
 2. Name your project and select **Next**.
 3. Select **Common to Windows 10 Team**, select **Next**, and then select **Finish**.
 
- ![ICD new project](images/icd-new-project.png)
+ ![WCD new project](images/icd-new-project.png)
 4. In the project, under **Available customizations**, select **Common Team settings**.
- ![ICD common settings](images/icd-common-settings.png)
+ ![WCD common settings](images/icd-common-settings.png)
 
 ### Add a certificate to your package
 
@@ -178,13 +179,13 @@ Before adding a UWP app to a provisioning package, you need the app package (eit
 If you acquired the app from the Microsoft Store for Business, you will also need to add the app license to your provisioning package.
 
 1. Make a copy of the app license, and rename it to use a **.ms-windows-store-license** extension. For example, "example.xml" becomes "example.ms-windows-store-license".
-2. In ICD, in the **Available customizations** pane, go to **Runtime settings** > **UniversalAppInstall** > **DeviceContextAppLicense**.
+2. In Windows Configuration Designer, in the **Available customizations** pane, go to **Runtime settings** > **UniversalAppInstall** > **DeviceContextAppLicense**.
 3. Enter a **LicenseProductId** and then select **Add**. For consistency, use the app's license ID from the app license. Open the license file using a text editor. Then, in the **License** tag, use the value in the **LicenseID** attribute.
 4. Select the new **LicenseProductId** node. For **LicenseInstall**, select **Browse** to find and select the license file that you renamed in Step 1.
 
 ### Add a policy to your package
 
-Surface Hub supports a subset of the policies in the [Policy configuration service provider](/windows/client-management/mdm/policy-configuration-service-provider). Some of those policies can be configured with ICD.
+Surface Hub supports a subset of the policies in the [Policy configuration service provider](/windows/client-management/mdm/policy-configuration-service-provider). Some of those policies can be configured with Windows Configuration Designer.
 
 1. In the **Available customizations** pane, go to **Runtime settings** > **Policies**.
 2. Select the component you want to manage and configure the policy as appropriate.
@@ -218,7 +219,7 @@ When you build a provisioning package, you may include sensitive information in 
 > [!IMPORTANT]
 > Including a trusted provisioning certificate in your provisioning package is recommended. When the package is applied to a device, the certificate is added to the system store, enabling subsequent packages to be applied silently.
 
-5. Select **Next** to specify the output location. By default, Windows ICD uses the project folder as the output location. Or select **Browse** to change the default output location. Select **Next**.
+5. Select **Next** to specify the output location. By default, Windows Configuration Designer uses the project folder as the output location. Or select **Browse** to change the default output location. Select **Next**.
 6. Select **Build** to start building the package. The project information is displayed in the build page.
 7. If your build fails, an error message appears with a link to the project folder. Review the logs to diagnose the error and try building the package again.
 8. If your build is successful, the name of the provisioning package, output directory, and project directory are displayed. Select **Finish** to close the wizard and go back to the **Customizations Page**.
