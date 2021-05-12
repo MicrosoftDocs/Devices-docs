@@ -57,7 +57,7 @@ Use the Surface Hub provisioning wizard to create a package with common settings
 
 To provision the device with a certificate, select **Add a certificate**. Enter a name for the certificate, and then browse to and select the certificate to be used.
 
-![add a certificate](images/sh-prov-cert.png)
+    ![add a certificate](images/sh-prov-cert.png)
 
 ### Configure proxy settings
 
@@ -88,9 +88,10 @@ You can enroll the device in Active Directory and specify a security group to us
 > [!IMPORTANT]
 > If you create a local account in the provisioning package, you must change the password using the **Settings** app every 42 days. If the password is not changed during that period, the account might be locked out and unable to sign in.
 
-### Enroll in thrid party mobile device management (MDM)
+### Enroll in third party mobile device management (MDM)
 
 If you use a third party MDM provider, you can use this section to enroll Surface Hub. To enroll in Intune, first setup Azure AD join, as described in the previous section, and follow the instructions in the following Intune documentation: [Set up automatic enrollment for Windows 10 devices](/mem/intune/enrollment/quickstart-setup-auto-enrollment).
+
      ![enroll in third party mobile device management](images/sh-prov-mdm.png)
 
 1. Toggle **Yes** or **No** for enrollment in third party MDM.
@@ -103,7 +104,7 @@ If you use a third party MDM provider, you can use this section to enroll Surfac
 
 You can install multiple Universal Windows Platform (UWP) apps in a provisioning package. To learn more, see [Provision PCs with apps](/windows/configuration/provisioning-packages/provision-pcs-with-apps).
 
- ![add an application](images/sh-prov-apps.png)
+    ![add an application](images/sh-prov-apps.png)
 
 > [!NOTE]
 > Although WCD lets you add a Classic Win32 app to a provisioning package, Surface Hub will only accept UWP apps. If you include a Classic Win32 app, provisioning will fail.
@@ -140,9 +141,10 @@ You can set a password to protect your provisioning package. You must enter this
 1. Open Windows Configuration Designer and select **Advanced provisioning**.
 2. Name your project and select **Next**.
 3. Select **Common to Windows 10 Team**, select **Next**, and then select **Finish**.
- ![ICD new project](images/icd-new-project.png)
+ 
+    ![ICD new project](images/icd-new-project.png)
 4. In the project, under **Available customizations**, select **Common Team settings**.
-![ICD common settings](images/icd-common-settings.png)
+    ![ICD common settings](images/icd-common-settings.png)
 
 ### Add a certificate to your package
 
