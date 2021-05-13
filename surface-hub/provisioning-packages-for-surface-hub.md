@@ -10,7 +10,7 @@ ms.sitesec: library
 author: dansimp
 ms.author: dansimp
 ms.topic: article
-ms.date: 05/12/2021
+ms.date: 05/13/2021
 ms.localizationpriority: medium
 appliesto:
 - Surface Hub
