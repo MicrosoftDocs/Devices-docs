@@ -144,6 +144,7 @@ open **Windows Configuration Designer** and select **Advanced provisioning**.
 3. Select **Common to Windows 10 Team**, select **Next**, and then select **Finish**.
 
  ![WCD new project](images/icd-new-project.png)
+
 4. In the project, under **Available customizations**, select **Common Team settings**.
  ![WCD common settings](images/icd-common-settings.png)
 
@@ -186,6 +187,7 @@ If you acquired the app from the Microsoft Store for Business, you will need to 
 4. Select the new **LicenseProductId** node. For **LicenseInstall**, select **Browse** to find and select your renamed license file (example.ms-windows-store-license).
 
 ### Add a policy to your package
+
 Surface Hub supports a subset of the policies in the [Policy configuration service provider] (/windows/client-management/mdm/policy-configuration-service-provider). Some of those policies can be configured with Windows Configuration Designer.
 
  **To add [CSP policies](/windows/client-management/mdm/policies-in-policy-csp-supported-by-surface-hub):**
