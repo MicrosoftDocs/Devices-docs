@@ -29,7 +29,6 @@
 ### [Surface Hub 2S adoption videos](surface-hub-2s-adoption-videos.md)
 ### [First time setup for Surface Hub 2S](surface-hub-2s-setup.md)
 ### [Connect devices to Surface Hub 2S](surface-hub-2s-connect.md)
-### [Surface Hub 2S deployment checklist](surface-hub-2s-deploy-checklist.md)
 ### [Create and test a device account](create-and-test-a-device-account-surface-hub.md)
 ### [Create provisioning packages for Surface Hub 2S](surface-hub-2s-deploy.md)
 ### [Deploy apps to Surface Hub 2S using Intune](surface-hub-2s-deploy-apps-intune.md)
