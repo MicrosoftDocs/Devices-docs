@@ -48,7 +48,7 @@ Use Device affiliation to manage user access to the Settings app on Surface Hub.
 > [!NOTE]
 > You can only set Device affiliation during the initial out-of-box experience (OOBE) setup. If you need to reset Device affiliation, you’ll have to repeat OOBE setup.
 
-## If you’re joining Azure AD
+### If you’re joining Azure AD
 
 | Property                                                 | What this is used for                                                                                                                                                                                                                                                    | Example                         | Learn more                                                                                                                        |
 | -------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
