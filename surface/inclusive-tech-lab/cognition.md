@@ -8,6 +8,8 @@ ms.author: brycejo
 ms.topic: article
 ms.date: 05/20/2021
 manager: krhunter
+ms.prod: surface
+ms.technology: windows
 ---
 
 # What is cognition?
