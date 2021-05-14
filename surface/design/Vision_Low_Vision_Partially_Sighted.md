@@ -34,11 +34,11 @@ Low vision can be caused by eye diseases such as cataracts, glaucoma, diabetes, 
 
 ## Examples
 
-![A woman holds a small tablet close to her face and squints through her glasses at it.](/images/Vision_LowVision_Barrier.jpg)
+![A woman holds a small tablet close to her face and squints through her glasses at it.](images/Vision_LowVision_Barrier.jpg)
 
 BARRIER — Text of a certain size or contrast level may be unreadable for someone.
 
-![The woman smiles as she looks at a settings screen on the tablet. She is increasing the display size so the content will look bigger.](/images/Vision_LowVision_Facilitator.jpg)
+![The woman smiles as she looks at a settings screen on the tablet. She is increasing the display size so the content will look bigger.](images/Vision_LowVision_Facilitator.jpg)
 
 FACILITATOR — Using settings, the user can adjust the size and contrast of screen content to meet their needs. 
 

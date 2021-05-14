@@ -32,11 +32,11 @@ Diminished speech quality can be caused by temporary situations like nervousness
 
 ## Examples
 
-![A man sits at a desk. He’s looking at a monitor and saying &quot;Hey Cortana, send a quick message message to Contoso.&quot;](/images/Communication_SpeechQuality_Barrier.jpg)
+![A man sits at a desk. He’s looking at a monitor and saying &quot;Hey Cortana, send a quick message message to Contoso.&quot;](images/Communication_SpeechQuality_Barrier.jpg)
 
 BARRIER — When a speech recognition program can’t understand speech that isn’t perfectly concise or accurate, such as stutters or repeated words, it may exclude people. 
 
-![The monitor shows the man’s request for Cortana and identifies the duplicate word.](/images/Communication_SpeechQuality_Facilitator.jpg)
+![The monitor shows the man’s request for Cortana and identifies the duplicate word.](images/Communication_SpeechQuality_Facilitator.jpg)
 
 FACILITATOR — Speech recognition programs that can detect and correct errors in speech allow the user to complete tasks without having to manually correct errors.
 

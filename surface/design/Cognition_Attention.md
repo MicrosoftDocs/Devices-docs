@@ -34,11 +34,11 @@ Attention may be impacted by conditions like sensory processing, Attention Defic
 
 ## Examples
 
-![A boy looks intently at a laptop that has several stacked notification windows. He looks frustrated.](/images/Cognition_Attention_Barrier.jpg)
+![A boy looks intently at a laptop that has several stacked notification windows. He looks frustrated.](images/Cognition_Attention_Barrier.jpg)
 
 BARRIER — When there are too many notifications and pop-ups on a screen, it can stop someone in their tracks and take their attention away from the task at hand.
 
-![The boy looks at a laptop with a single window open. He looks relaxed and focused.](/images/Cognition_Attention_Facilitator.jpg)
+![The boy looks at a laptop with a single window open. He looks relaxed and focused.](images/Cognition_Attention_Facilitator.jpg)
 
 FACILITATOR — The ability to turn off all notifications and pop-ups allows someone to concentrate without having to worry about extraneous distractions.
 

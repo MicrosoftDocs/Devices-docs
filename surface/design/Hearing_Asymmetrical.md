@@ -28,12 +28,12 @@ Hearing symmetry differences can be caused by permanent conditions or by tempora
 
 ## Examples
 
-![A girl is wearing over-the-ear headphones that are playing music. She looks frustrated that one side is too loud.](/images/Hearing_Symmetry_Barrier.jpg)
+![A girl is wearing over-the-ear headphones that are playing music. She looks frustrated that one side is too loud.](images/Hearing_Symmetry_Barrier.jpg)
 
 BARRIER — A person with asymmetric hearing loss may need to increase the volume. The output on one side of their headphones may become too loud for the other side to be just right. 
 
 
-![The girl is holding a phone. The content on the phone shows the audio settings window. The girl is adjusting only the right ear audio output volume.](/images/Hearing_Symmetry_Facilitator.jpg)
+![The girl is holding a phone. The content on the phone shows the audio settings window. The girl is adjusting only the right ear audio output volume.](images/Hearing_Symmetry_Facilitator.jpg)
 
 FACILITATOR — The ability to adjust audio output on the left and right side of the device, separately, allows a person to choose what is most comfortable for them. 
 

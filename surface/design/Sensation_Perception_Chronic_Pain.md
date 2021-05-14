@@ -32,11 +32,11 @@ Chronic pain can be caused by conditions that affect the nerves such as carpal t
 
 ## Examples
 
-![A woman is typing on her laptop. She appears to have discomfort in her right hand.](/images/Sensory_Chronic_Pain_Barrier.jpg)
+![A woman is typing on her laptop. She appears to have discomfort in her right hand.](images/Sensory_Chronic_Pain_Barrier.jpg)
 
 BARRIER — Typing on a flat surface like a laptop keyboard may be bothersome for someone with chronic hand pain. 
 
-![The woman is sitting at a desk. Her laptop is propped up on a stand at eye-level. She is using an external ergonomic keyboard and mouse.](/images/Sensory_Chronic_Pain_Facilitator.jpg)
+![The woman is sitting at a desk. Her laptop is propped up on a stand at eye-level. She is using an external ergonomic keyboard and mouse.](images/Sensory_Chronic_Pain_Facilitator.jpg)
 
 FACILITATOR — The ability to use any external hardware, such as ergonomic keyboards or mice, allows users to choose what is most comfortable for them. 
 

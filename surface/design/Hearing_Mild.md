@@ -34,11 +34,11 @@ As we age, we naturally lose some of our ability to hear—often resulting in mi
 
 ## Examples
 
-![A woman is sitting in a living room setting playing a game on Xbox. There is a person outside of her window using a jackhammer making loud noise.](/images/Hearing_Loss_Mild_Barrier.jpg)
+![A woman is sitting in a living room setting playing a game on Xbox. There is a person outside of her window using a jackhammer making loud noise.](images/Hearing_Loss_Mild_Barrier.jpg)
 
 BARRIER — When crucial elements of game play are hearing-based, such as live party chat, even situational circumstances like outside construction can result in exclusion from play.
 
-![The woman is playing a game on Xbox. There are live chat transcriptions on her screen along side the game.](/images/Hearing_Loss_Mild_Facilitator.jpg)
+![The woman is playing a game on Xbox. There are live chat transcriptions on her screen along side the game.](images/Hearing_Loss_Mild_Facilitator.jpg)
 
 FACILITATOR — The option to turn on live party chat transcriptions eliminates the requirement to hear game affordances in order to participate. 
 

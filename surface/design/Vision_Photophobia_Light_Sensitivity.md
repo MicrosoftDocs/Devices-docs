@@ -30,12 +30,12 @@ The ability to adjust the brightness of screen lighting or other light sources c
 
 ## Examples
 
-![A boy holds a tablet and squints at its bright screen.](/images/Vision_Photophobia_Barrier.jpg)
+![A boy holds a tablet and squints at its bright screen.](images/Vision_Photophobia_Barrier.jpg)
 
 BARRIER — Devices that emit a bright light without any options to adjust brightness can be irritating or painful.
 
 
-![The boy is choosing options to customize the screen brightness.](/images/Vision_Photophobia_Facilitator.jpg)
+![The boy is choosing options to customize the screen brightness.](images/Vision_Photophobia_Facilitator.jpg)
 
 FACILITATOR — Settings that allow the user to adjust the brightness and contrast of a screen can make their experience more comfortable.
 

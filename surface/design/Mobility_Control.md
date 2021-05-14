@@ -32,11 +32,11 @@ Tremors and involuntary motion can be caused by situational factors such as too 
 
 ## Examples
 
-![A man sits at a desk in front of a computer screen. He’s using a mouse, but his hand is shaky, and the cursor on the screen is moving unsteadily.](/images/Mobility_Control_Barrier.jpg)
+![A man sits at a desk in front of a computer screen. He’s using a mouse, but his hand is shaky, and the cursor on the screen is moving unsteadily.](images/Mobility_Control_Barrier.jpg)
 
 BARRIER — A mouse and cursor are often sensitive to movements like tremors or unsteadiness of the hand. This can cause difficulty navigating menus and selecting desired content.
 
-![The man looks at a computer screen and chooses options for anti-tremor filtering.](/images/Mobility_Control_Facilitator.jpg)
+![The man looks at a computer screen and chooses options for anti-tremor filtering.](images/Mobility_Control_Facilitator.jpg)
 
 FACILITATOR — Settings such as anti-tremor filtering or the ability to decrease cursor speed provide a more forgiving experience and make it easier to navigate the screen.
 

@@ -28,11 +28,11 @@ Endurance can be impacted by conditions like chronic pain, fibromyalgia, general
 
 ## Examples
 
-![A woman sits at a desk, typing on her laptop. She’s slumped back against her chair or wheelchair.](/images/Mobility_Endurance_Barrier.jpg)
+![A woman sits at a desk, typing on her laptop. She’s slumped back against her chair or wheelchair.](images/Mobility_Endurance_Barrier.jpg)
 
 BARRIER — Maintaining the posture needed to type on a keyboard for long periods of time can be tiresome or difficult. 
 
-![The woman smiles as she uses a mic for speech recognition. She has headphones draped around her neck and she’s not at a desk—she’s near some shelves, perhaps near information she needs to grab as she works.](/images/Mobility_Endurance_Facilitator.jpg)
+![The woman smiles as she uses a mic for speech recognition. She has headphones draped around her neck and she’s not at a desk—she’s near some shelves, perhaps near information she needs to grab as she works.](images/Mobility_Endurance_Facilitator.jpg)
 
 FACILITATOR — Speech recognition programs that can understand a wide range of tones, accents, speeds, and volumes that a person may use can eliminate the need for prolonged physical interaction with a device. 
 

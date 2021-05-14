@@ -29,11 +29,11 @@ Support for alternative methods of input outside of spoken language should be co
 
 ## Examples
 
-![A man is sitting at his computer. The window open on his screen shows that he is on a video call with four other people. He is typing on the keyboard.](/images/Communication_Non_Verbal_Barrier.jpg)
+![A man is sitting at his computer. The window open on his screen shows that he is on a video call with four other people. He is typing on the keyboard.](images/Communication_Non_Verbal_Barrier.jpg)
 
 BARRIER — During video calls, chat functions may get hidden. If a person communicates during video calls through text only, their input may not be received by others in a timely manner. 
 
-![A woman is sitting at her computer. The window open on her screen shows that she is on a video call with four other people. There is a message on her screen that reads: &quot;[Nyle] has sent a new chat&quot;](/images/Communication_Non_Verbal_Facilitator.jpg)
+![A woman is sitting at her computer. The window open on her screen shows that she is on a video call with four other people. There is a message on her screen that reads: &quot;[Nyle] has sent a new chat&quot;](images/Communication_Non_Verbal_Facilitator.jpg)
 
 FACILITATOR — A notification that lets other people on the video call know that someone has sent a chat message ensures that everyone is able to participate in the video call.
 

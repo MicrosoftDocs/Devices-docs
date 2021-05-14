@@ -32,11 +32,11 @@ A person’s ability to understand information also depends on their ability to 
 
 ## Examples
 
-![A woman holds instructions that look like a newspaper—pages full of small text folded open next to a box with a packaged Xbox controller.](/images/Cognition_ProcessingComprehension_Barrier.jpg)
+![A woman holds instructions that look like a newspaper—pages full of small text folded open next to a box with a packaged Xbox controller.](images/Cognition_ProcessingComprehension_Barrier.jpg)
 
 BARRIER — Instruction guides that are lengthy or primarily text-based can be difficult to follow or understand.
 
-![The woman smiles as she looks at a simple illustration and holds an Xbox controller the way the illustration shows it should be held.](/images/Cognition_ProcessingComprehension_Facilitator.jpg)
+![The woman smiles as she looks at a simple illustration and holds an Xbox controller the way the illustration shows it should be held.](images/Cognition_ProcessingComprehension_Facilitator.jpg)
 
 FACILITATOR — People with all levels of comprehension and reading abilities are included when there are simple pictures and diagrams. This addition can make instructions easier to follow.
 

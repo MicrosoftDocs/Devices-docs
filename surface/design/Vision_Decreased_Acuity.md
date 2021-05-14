@@ -39,11 +39,11 @@ Decreased acuity can be supplemented by using glasses or contacts, or by using a
 
 ## Examples
 
-![A man sits across the room from a monitor. He’s looking at a paragraph of small text on the screen. In his hand is an Xbox controller, and he seems to be making a decision in a game.](/images/Vision_DecreasedAcuity_Barrier.jpg)
+![A man sits across the room from a monitor. He’s looking at a paragraph of small text on the screen. In his hand is an Xbox controller, and he seems to be making a decision in a game.](images/Vision_DecreasedAcuity_Barrier.jpg)
 
 BARRIER — Text that is small or being viewed from far distances, like subtitles for closed captioning on a TV screen, can be difficult to read. 
 
-![The monitor shows closed captioning options. The man has selected the option to enlarge caption size, and he hasn’t selected the option to change the caption color.](/images/Vision_DecreasedAcuity_Facilitator.jpg)
+![The monitor shows closed captioning options. The man has selected the option to enlarge caption size, and he hasn’t selected the option to change the caption color.](images/Vision_DecreasedAcuity_Facilitator.jpg)
 
 FACILITATOR — When text size and contrast can be altered, more people are included in game play.
 

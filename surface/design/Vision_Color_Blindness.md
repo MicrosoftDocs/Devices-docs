@@ -31,11 +31,11 @@ Color blindness is most often genetic but can also be caused by physical or chem
 
 ## Examples
 
-![A man stands in front of a large touch screen that shows a pie chart. The whole chart appears to be the same grey color.](/images/Vision_ColorBlindness_Barrier.jpg)
+![A man stands in front of a large touch screen that shows a pie chart. The whole chart appears to be the same grey color.](images/Vision_ColorBlindness_Barrier.jpg)
 
 BARRIER —When the only means of describing information is through the use of color, this creates a barrier for someone who is color blind. 
 
-![The man selects a color filter on one side of a touch screen. He’s looking at a pie chart on the other side that has easily distinguishable grey tones.](/images/Vision_ColorBlindness_Facilitator.jpg)
+![The man selects a color filter on one side of a touch screen. He’s looking at a pie chart on the other side that has easily distinguishable grey tones.](images/Vision_ColorBlindness_Facilitator.jpg)
 
 FACILITATOR — Providing color filter settings that match the user’s particular type of color blindness can help alleviate this barrier. 
 
