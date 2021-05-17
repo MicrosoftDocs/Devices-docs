@@ -105,5 +105,10 @@
             "redirect_url":  "https://docs.microsoft.com/surface-hub/surface-hub-2020-team-update-known-issues",
             "redirect_document_id":  false
         },
+        {
+            "source_path":  "surface-hub/surface-hub-2s-deploy-checklist.md",
+            "redirect_url":  "https://docs.microsoft.com/surface-hub/setup-worksheet-surface-hub",
+            "redirect_document_id":  false
+        },
 ]
 }
