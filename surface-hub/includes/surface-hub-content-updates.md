@@ -2,6 +2,17 @@
 
 
 
+## Week of May 10, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 5/12/2021 | [Manage settings with an MDM provider (Surface Hub)](/surface-hub/manage-settings-with-mdm-for-surface-hub) | modified |
+| 5/12/2021 | [Prepare your environment for Microsoft Surface Hub](/surface-hub/prepare-your-environment-for-surface-hub) | modified |
+| 5/14/2021 | [Setup worksheet (Surface Hub)](/surface-hub/setup-worksheet-surface-hub) | modified |
+| 5/14/2021 | Surface Hub 2S deployment checklists | removed |
+
+
 ## Week of May 03, 2021
 
 
@@ -50,11 +61,3 @@
 | 4/16/2021 | [Customize wall mount of Surface Hub 2S 50-inch](/surface-hub/surface-hub-2s-custom-install) | modified |
 | 4/16/2021 | [Create provisioning packages for Surface Hub 2S](/surface-hub/surface-hub-2s-deploy) | modified |
 | 4/16/2021 | [Install and mount Surface Hub 2S 50-inch](/surface-hub/surface-hub-2s-install-mount) | modified |
-
-
-## Week of April 05, 2021
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 4/5/2021 | [Surface Hub update history](/surface-hub/surface-hub-update-history) | modified |
