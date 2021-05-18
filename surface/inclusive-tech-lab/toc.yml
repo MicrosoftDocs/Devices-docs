@@ -66,6 +66,7 @@ items:
             - name: Hearing loss (asymmetrical)
               href: hearing-asymmetrical.md
         - name: What is voice, speech, and communication?
+          href: voice-speech-communication.md
           items:
             - name: Aphasia (receptive)
               href: voice-speech-communication-aphasia-receptive.md

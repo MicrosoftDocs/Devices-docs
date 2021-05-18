@@ -33,6 +33,20 @@ The goal of this work is to provide a reference of human diversity factors to co
 
 This reference is not a prescriptive guideline for creating accessibility solutions. Rather, it’s a resource you can use to identify potential barriers a person may encounter. It is important to remember that this document isn’t static and will grow. While we strive to be comprehensive, many instances described can occur in conjunction with one another (depending on the individual) and may present differently from one person to another.
 
+## Contents of this reference
+
+**[What is cognition?](cognition.md)** — [Attention](cognition-attention.md); [Memory](cognition-memory.md); [Judgment](cognition-judgment.md); [Processing (speed)](cognition-processing-speed.md); [Processing (comprehension)](cognition-processing-comprehension.md); 
+
+**[What is mobility?](mobility.md)** — [Grasp](mobility-grasp.md); [Fine motor skills](mobility-fine-motor-skills.md); [Coordination](mobility-coordination.md); [Control (voluntary vs. involuntary movement)](mobility-control.md); [Speed](mobility-speed.md); [Muscle tone](mobility-muscle-tone.md); [Endurance](mobility-endurance.md); [Posture](mobility-posture.md); 
+
+**[What is vision?](vision.md)** — [Blindness (sightlessness)](vision-blindness-sightlessness.md); [Low vision (partially sighted)](vision-low-vision-partially-sighted.md); [Decreased acuity](vision-decreased-acuity.md); [Visual field loss](vision-visual-field-loss.md); [Color blindness](vision-color-blindness.md); [Photophobia (light sensitivity)](vision-photophobia-light-sensitivity.md); 
+
+**[What is hearing?](hearing.md)** — [Hearing Loss (mild)](hearing-mild.md); [Hearing loss (moderate/severe)](hearing-moderate-severe.md); [Hearing loss (profound)](hearing-profound.md); [Hearing loss (asymmetrical)](hearing-asymmetrical.md); 
+
+**[What is voice, speech, and communication?](voice-speech-communication.md)** — [Aphasia (receptive)](voice-speech-communication-aphasia-receptive.md); [Aphasia (expressive)](voice-speech-communication-aphasia-expressive.md); [Speech quality](voice-speech-communication-speech-quality.md); [Social participation](voice-speech-communication-social-participation.md); [Non-verbal](voice-speech-communication-non-verbal.md); 
+
+**[What is sensation and perception?](sensation-perception.md)** — [Vestibular](sensation-perception-vestibular.md); [Chronic pain](sensation-perception-chronic-pain.md); [Skin integrity](sensation-perception-skin-integrity.md); [Sensation (hypersensitive and hyposensitive)](sensation-perception-sensation.md); [Proprioception](sensation-perception-proprioception.md); 
+
 ## Created by
 
 ### Authors
