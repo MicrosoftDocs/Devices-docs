@@ -340,7 +340,7 @@ This is what happens when you choose an option.
     Clicking this option allows you to join the device to Azure AD. Once you click **Next**, the device will restart to apply some settings, and then you’ll be taken to the [Use Microsoft Azure Active Directory](#use-microsoft-azure) page and asked to enter credentials that can allow you to join Azure AD. Members of the Azure Global Admins role from the joined organization will be able to use the Settings app. The specific people that will be allowed depends on your Azure AD subscription and how you’ve configured the settings for your Azure AD organization.
     
     > [!IMPORTANT]
-    > To configure who can use the Settings app to administrate Surface Hubs ensure that [automatic Intune enrollment](https://docs.microsoft.com/mem/intune/enrollment/windows-enroll#enable-windows-10-automatic-enrollment) is enabled in your tenant before joining the device to Azure AD. Intune policies can then be used to [configure non Global admins](surface-hub-2s-nonglobal-admin.md) on Surface Hubs.
+    > To configure who can use the Settings app to administrate Surface Hubs ensure that [automatic Intune enrollment](/mem/intune/enrollment/windows-enroll#enable-windows-10-automatic-enrollment) is enabled in your tenant before joining the device to Azure AD. Intune policies can then be used to [configure non Global admins](surface-hub-2s-nonglobal-admin.md) on Surface Hubs.
 
 -   **Use Active Directory Domain Services**
 
