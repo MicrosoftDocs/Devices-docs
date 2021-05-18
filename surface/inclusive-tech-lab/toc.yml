@@ -1,6 +1,6 @@
 items:
 - name: Inclusive Tech Lab
-	href: index.md
+  href: index.md
   items:
     - name: Understanding Function to Design for Disabilities
       href: understanding-function-to-design-for-disabilities.md
