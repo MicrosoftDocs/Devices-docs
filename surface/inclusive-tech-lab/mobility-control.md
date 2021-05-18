@@ -43,6 +43,8 @@ BARRIER — A mouse and cursor are often sensitive to movements like tremors or 
 FACILITATOR — Settings such as anti-tremor filtering or the ability to decrease cursor speed provide a more forgiving experience and make it easier to navigate the screen.
 
 
+&nbsp;
+
 [comment]: # (Footer statement)
 ___
 The purpose of this reference is to provide concepts people can use to document and discuss aspects of function. Design should happen with people with disabilities, this reference is meant to support that activity, not replace it. 

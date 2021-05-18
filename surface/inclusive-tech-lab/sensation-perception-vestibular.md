@@ -40,6 +40,8 @@ BARRIER — Motion of objects across a screen may be undetectable to some, while
 
 FACILITATOR — The ability to reduce the motion of objects across a screen can enhance the usability and safety of an experience. 
 
+&nbsp;
+
 [comment]: # (Footer statement)
 ___
 The purpose of this reference is to provide concepts people can use to document and discuss aspects of function. Design should happen with people with disabilities, this reference is meant to support that activity, not replace it. 

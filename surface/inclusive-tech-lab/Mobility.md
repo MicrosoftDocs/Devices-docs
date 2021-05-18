@@ -34,6 +34,8 @@ Mobility can be influenced by situational, temporary, progressive, or permanent 
 
 **[Posture](mobility-posture.md)** &mdash; Does use of the device or input components require that a person’s body maintain a certain position during the experience (such as sitting upright at a desk to use a standard mouse)?
 
+&nbsp;
+
 [comment]: # (Footer statement)
 ___
 The purpose of this reference is to provide concepts people can use to document and discuss aspects of function. Design should happen with people with disabilities, this reference is meant to support that activity, not replace it. 

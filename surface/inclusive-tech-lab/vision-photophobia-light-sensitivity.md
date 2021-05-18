@@ -41,6 +41,8 @@ BARRIER — Devices that emit a bright light without any options to adjust brigh
 
 FACILITATOR — Settings that allow the user to adjust the brightness and contrast of a screen can make their experience more comfortable.
 
+&nbsp;
+
 [comment]: # (Footer statement)
 ___
 The purpose of this reference is to provide concepts people can use to document and discuss aspects of function. Design should happen with people with disabilities, this reference is meant to support that activity, not replace it. 

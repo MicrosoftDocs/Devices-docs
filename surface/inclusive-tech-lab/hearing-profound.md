@@ -44,6 +44,8 @@ BARRIER — Experiences such as live video calls can exclude a person who can’
 
 FACILITATOR — Live transcriptions that indicate who said what make video calls more accessible. 
 
+&nbsp;
+
 [comment]: # (Footer statement)
 ___
 The purpose of this reference is to provide concepts people can use to document and discuss aspects of function. Design should happen with people with disabilities, this reference is meant to support that activity, not replace it. 

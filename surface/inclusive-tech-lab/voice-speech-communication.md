@@ -26,6 +26,8 @@ Our ability to communicate (verbally or non-verbally) is essential in expressing
 
 **[Non-verbal](voice-speech-communication-non-verbal.md)** &mdash; Does the experience require voice in order to perform tasks?
 
+&nbsp;
+
 [comment]: # (Footer statement)
 ___
 The purpose of this reference is to provide concepts people can use to document and discuss aspects of function. Design should happen with people with disabilities, this reference is meant to support that activity, not replace it. 

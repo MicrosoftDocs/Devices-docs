@@ -42,6 +42,8 @@ BARRIER — Prompts requiring a person to read, interpret, and act within a time
 FACILITATOR — The ability to eliminate timed responses allows the user to react to prompts at their own pace, without having to worry about negative consequences.
 
 
+&nbsp;
+
 [comment]: # (Footer statement)
 ___
 The purpose of this reference is to provide concepts people can use to document and discuss aspects of function. Design should happen with people with disabilities, this reference is meant to support that activity, not replace it. 

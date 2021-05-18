@@ -42,6 +42,8 @@ BARRIER — Instruction guides that are lengthy or primarily text-based can be d
 
 FACILITATOR — People with all levels of comprehension and reading abilities are included when there are simple pictures and diagrams. This addition can make instructions easier to follow.
 
+&nbsp;
+
 [comment]: # (Footer statement)
 ___
 The purpose of this reference is to provide concepts people can use to document and discuss aspects of function. Design should happen with people with disabilities, this reference is meant to support that activity, not replace it. 

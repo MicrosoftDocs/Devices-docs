@@ -45,6 +45,8 @@ BARRIER — Lack of corrective feedback when deciding whether to increase screen
 FACILITATOR — Notifications that warn of hazards can eliminate the cognitive demands of identifying negative consequences before adjusting device settings.
 
 
+&nbsp;
+
 [comment]: # (Footer statement)
 ___
 The purpose of this reference is to provide concepts people can use to document and discuss aspects of function. Design should happen with people with disabilities, this reference is meant to support that activity, not replace it. 

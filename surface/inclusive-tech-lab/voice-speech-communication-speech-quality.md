@@ -42,6 +42,8 @@ BARRIER — When a speech recognition program can’t understand speech that isn
 
 FACILITATOR — Speech recognition programs that can detect and correct errors in speech allow the user to complete tasks without having to manually correct errors.
 
+&nbsp;
+
 [comment]: # (Footer statement)
 ___
 The purpose of this reference is to provide concepts people can use to document and discuss aspects of function. Design should happen with people with disabilities, this reference is meant to support that activity, not replace it. 

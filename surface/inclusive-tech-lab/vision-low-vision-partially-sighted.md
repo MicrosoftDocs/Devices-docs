@@ -44,6 +44,8 @@ BARRIER — Text of a certain size or contrast level may be unreadable for someo
 
 FACILITATOR — Using settings, the user can adjust the size and contrast of screen content to meet their needs. 
 
+&nbsp;
+
 [comment]: # (Footer statement)
 ___
 The purpose of this reference is to provide concepts people can use to document and discuss aspects of function. Design should happen with people with disabilities, this reference is meant to support that activity, not replace it. 

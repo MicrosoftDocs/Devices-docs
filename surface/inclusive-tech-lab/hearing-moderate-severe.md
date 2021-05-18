@@ -45,6 +45,8 @@ BARRIER — A hearing aid user may prefer to pair their hearing aid directly to 
 FACILITATOR — The ability to pair a Bluetooth hearing aid directly to a device through easily discoverable settings can enhance a person’s experience with the device. 
 
 
+&nbsp;
+
 [comment]: # (Footer statement)
 ___
 The purpose of this reference is to provide concepts people can use to document and discuss aspects of function. Design should happen with people with disabilities, this reference is meant to support that activity, not replace it. 

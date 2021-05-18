@@ -39,6 +39,8 @@ BARRIER — A person with asymmetric hearing loss may need to increase the volum
 
 FACILITATOR — The ability to adjust audio output on the left and right side of the device, separately, allows a person to choose what is most comfortable for them. 
 
+&nbsp;
+
 [comment]: # (Footer statement)
 ___
 The purpose of this reference is to provide concepts people can use to document and discuss aspects of function. Design should happen with people with disabilities, this reference is meant to support that activity, not replace it. 

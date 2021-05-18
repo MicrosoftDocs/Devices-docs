@@ -39,6 +39,8 @@ BARRIER — Maintaining the posture needed to type on a keyboard for long period
 FACILITATOR — Speech recognition programs that can understand a wide range of tones, accents, speeds, and volumes that a person may use can eliminate the need for prolonged physical interaction with a device. 
 
 
+&nbsp;
+
 [comment]: # (Footer statement)
 ___
 The purpose of this reference is to provide concepts people can use to document and discuss aspects of function. Design should happen with people with disabilities, this reference is meant to support that activity, not replace it. 

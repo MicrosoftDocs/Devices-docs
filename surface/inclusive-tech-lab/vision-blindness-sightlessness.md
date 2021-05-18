@@ -39,6 +39,8 @@ BARRIER — The plastic wrap on this new device only provides visual cues, such 
 
 FACILITATOR — By providing information in multiple ways, such as tactile cues in the form of a large pull tab, someone can more easily navigate through the unpackaging experience.
 
+&nbsp;
+
 [comment]: # (Footer statement)
 ___
 The purpose of this reference is to provide concepts people can use to document and discuss aspects of function. Design should happen with people with disabilities, this reference is meant to support that activity, not replace it. 

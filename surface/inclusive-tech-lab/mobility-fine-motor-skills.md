@@ -46,6 +46,8 @@ BARRIER — If buttons are small or level with surrounding hardware, they can be
 
 FACILITATOR — Increasing button size or height can reduce the amount of dexterity needed to press them. ​
 
+&nbsp;
+
 [comment]: # (Footer statement)
 ___
 The purpose of this reference is to provide concepts people can use to document and discuss aspects of function. Design should happen with people with disabilities, this reference is meant to support that activity, not replace it. 

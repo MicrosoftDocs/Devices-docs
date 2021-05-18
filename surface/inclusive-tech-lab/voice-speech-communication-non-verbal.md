@@ -39,6 +39,8 @@ BARRIER — During video calls, chat functions may get hidden. If a person commu
 
 FACILITATOR — A notification that lets other people on the video call know that someone has sent a chat message ensures that everyone is able to participate in the video call.
 
+&nbsp;
+
 [comment]: # (Footer statement)
 ___
 The purpose of this reference is to provide concepts people can use to document and discuss aspects of function. Design should happen with people with disabilities, this reference is meant to support that activity, not replace it. 

@@ -41,6 +41,8 @@ BARRIER —When the only means of describing information is through the use of c
 
 FACILITATOR — Providing color filter settings that match the user’s particular type of color blindness can help alleviate this barrier. 
 
+&nbsp;
+
 [comment]: # (Footer statement)
 ___
 The purpose of this reference is to provide concepts people can use to document and discuss aspects of function. Design should happen with people with disabilities, this reference is meant to support that activity, not replace it. 

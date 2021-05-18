@@ -42,6 +42,8 @@ BARRIER — Diminished proprioception can affect a person’s ability to sense h
 FACILITATOR — Providing visual or haptic feedback of the force of contact on a device can prevent hardware from being damaged.
 
 
+&nbsp;
+
 [comment]: # (Footer statement)
 ___
 The purpose of this reference is to provide concepts people can use to document and discuss aspects of function. Design should happen with people with disabilities, this reference is meant to support that activity, not replace it. 

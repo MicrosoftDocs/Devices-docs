@@ -42,6 +42,8 @@ BARRIER — Devices can be difficult to interact with and it may be difficult to
 FACILITATOR — Mounting hardware allows a person to access a device in the position of their choice and makes the device easier to use.
 
 
+&nbsp;
+
 [comment]: # (Footer statement)
 ___
 The purpose of this reference is to provide concepts people can use to document and discuss aspects of function. Design should happen with people with disabilities, this reference is meant to support that activity, not replace it. 

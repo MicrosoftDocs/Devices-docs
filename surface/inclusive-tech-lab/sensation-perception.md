@@ -30,6 +30,8 @@ Regardless, a variance in either of these two processes may result in exclusion 
 
 **[Proprioception](sensation-perception-proprioception.md)** &mdash; Does the product require physical contact in order to use it?
 
+&nbsp;
+
 [comment]: # (Footer statement)
 ___
 The purpose of this reference is to provide concepts people can use to document and discuss aspects of function. Design should happen with people with disabilities, this reference is meant to support that activity, not replace it. 

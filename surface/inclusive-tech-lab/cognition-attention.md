@@ -45,6 +45,8 @@ BARRIER — When there are too many notifications and pop-ups on a screen, it ca
 
 FACILITATOR — The ability to turn off all notifications and pop-ups allows someone to concentrate without having to worry about extraneous distractions.
 
+&nbsp;
+
 [comment]: # (Footer statement)
 ___
 The purpose of this reference is to provide concepts people can use to document and discuss aspects of function. Design should happen with people with disabilities, this reference is meant to support that activity, not replace it. 

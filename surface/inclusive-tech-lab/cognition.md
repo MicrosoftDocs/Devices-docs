@@ -29,6 +29,8 @@ Many aspects of cognition affect one another. If a person has difficulty with at
 **[Processing (comprehension)](cognition-processing-comprehension.md)** &mdash; Is there new information being presented to the user during the experience?
 
 
+&nbsp;
+
 [comment]: # (Footer statement)
 ___
 The purpose of this reference is to provide concepts people can use to document and discuss aspects of function. Design should happen with people with disabilities, this reference is meant to support that activity, not replace it. 

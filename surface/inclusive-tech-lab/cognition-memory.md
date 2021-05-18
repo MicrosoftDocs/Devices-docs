@@ -47,6 +47,8 @@ BARRIER — When access to a device requires memorized information, such as a ty
 FACILITATOR — Alternative login options, such as facial recognition, eliminate the need to memorize information and allow people to easily log in to their devices. 
 
 
+&nbsp;
+
 [comment]: # (Footer statement)
 ___
 The purpose of this reference is to provide concepts people can use to document and discuss aspects of function. Design should happen with people with disabilities, this reference is meant to support that activity, not replace it. 

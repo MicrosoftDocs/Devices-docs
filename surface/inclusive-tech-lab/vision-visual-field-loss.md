@@ -43,6 +43,8 @@ BARRIER — The positioning of a device may limit a person’s ability to see th
 FACILITATOR — The ability to reposition a device so that the entirety of it fits in the person’s visual field facilitates ease of use. 
 
 
+&nbsp;
+
 [comment]: # (Footer statement)
 ___
 The purpose of this reference is to provide concepts people can use to document and discuss aspects of function. Design should happen with people with disabilities, this reference is meant to support that activity, not replace it. 

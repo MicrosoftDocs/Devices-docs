@@ -44,6 +44,8 @@ BARRIER — Tasks like typing on a keyboard can be time consuming and strenuous 
 
 FACILITATOR — Support for features like predictive text can decrease the physical demands of typing and allow someone to perform a task at a faster rate.
 
+&nbsp;
+
 [comment]: # (Footer statement)
 ___
 The purpose of this reference is to provide concepts people can use to document and discuss aspects of function. Design should happen with people with disabilities, this reference is meant to support that activity, not replace it. 

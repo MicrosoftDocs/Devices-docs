@@ -42,6 +42,8 @@ BARRIER — Long, complex sentences can make it difficult to identify key inform
 
 FACILITATOR —Simple, concise sentences that leverage familiar key words make content and UI more accessible.
 
+&nbsp;
+
 [comment]: # (Footer statement)
 ___
 The purpose of this reference is to provide concepts people can use to document and discuss aspects of function. Design should happen with people with disabilities, this reference is meant to support that activity, not replace it. 

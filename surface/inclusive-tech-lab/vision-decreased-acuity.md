@@ -50,6 +50,8 @@ BARRIER — Text that is small or being viewed from far distances, like subtitle
 FACILITATOR — When text size and contrast can be altered, more people are included in game play.
 
 
+&nbsp;
+
 [comment]: # (Footer statement)
 ___
 The purpose of this reference is to provide concepts people can use to document and discuss aspects of function. Design should happen with people with disabilities, this reference is meant to support that activity, not replace it. 

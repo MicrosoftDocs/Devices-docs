@@ -45,6 +45,8 @@ BARRIER — If someone cannot fully grasp a standard Xbox controller, they may b
 FACILITATOR — The Xbox Adaptive Controller or other compatible hardware eliminates the need for a specific grasp on the device and allows users to choose inputs that work for them.​
 
 
+&nbsp;
+
 [comment]: # (Footer statement)
 ___
 The purpose of this reference is to provide concepts people can use to document and discuss aspects of function. Design should happen with people with disabilities, this reference is meant to support that activity, not replace it. 

@@ -39,6 +39,8 @@ BARRIER — We’re used to a conversational pace when interacting with people. 
 
 FACILITATOR — Allowing the user to adjust the time allowed for a response from their voice assistant can makes conversational UI more accessible. 
 
+&nbsp;
+
 [comment]: # (Footer statement)
 ___
 The purpose of this reference is to provide concepts people can use to document and discuss aspects of function. Design should happen with people with disabilities, this reference is meant to support that activity, not replace it. 

@@ -42,6 +42,8 @@ BARRIER — Noises emitted from a device like a fine-tip digital pen scratching 
 
 FACILITATOR — Providing optional softer pen tips can reduce the noise emitted from a digital pen gliding along a tablet screen.
 
+&nbsp;
+
 [comment]: # (Footer statement)
 ___
 The purpose of this reference is to provide concepts people can use to document and discuss aspects of function. Design should happen with people with disabilities, this reference is meant to support that activity, not replace it. 

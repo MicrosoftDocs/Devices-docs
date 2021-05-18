@@ -41,6 +41,8 @@ BARRIER — Unintentional word choices can be common following a stroke or brain
 FACILITATOR — When a device detects an error in speech or word choice, it gives helpful prompts to correct them. 
 
 
+&nbsp;
+
 [comment]: # (Footer statement)
 ___
 The purpose of this reference is to provide concepts people can use to document and discuss aspects of function. Design should happen with people with disabilities, this reference is meant to support that activity, not replace it. 

@@ -32,6 +32,8 @@ There are many conditions and disabilities that can affect a person’s vision. 
 
 **[Photophobia (light sensitivity)](vision-photophobia-light-sensitivity.md)** &mdash; Does the experience emit light or brightness?
 
+&nbsp;
+
 [comment]: # (Footer statement)
 ___
 The purpose of this reference is to provide concepts people can use to document and discuss aspects of function. Design should happen with people with disabilities, this reference is meant to support that activity, not replace it. 

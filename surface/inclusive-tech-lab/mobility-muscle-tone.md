@@ -41,6 +41,8 @@ BARRIER — Desktop computers and keyboards require the ability to sit upright a
 FACILITATOR — Products that support alternative input methods help create a workstation where controls are within reach and can be adapted or reconfigured as needed.
 
 
+&nbsp;
+
 [comment]: # (Footer statement)
 ___
 The purpose of this reference is to provide concepts people can use to document and discuss aspects of function. Design should happen with people with disabilities, this reference is meant to support that activity, not replace it. 

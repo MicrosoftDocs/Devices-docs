@@ -45,6 +45,8 @@ BARRIER — When crucial elements of game play are hearing-based, such as live p
 FACILITATOR — The option to turn on live party chat transcriptions eliminates the requirement to hear game affordances in order to participate. 
 
 
+&nbsp;
+
 [comment]: # (Footer statement)
 ___
 The purpose of this reference is to provide concepts people can use to document and discuss aspects of function. Design should happen with people with disabilities, this reference is meant to support that activity, not replace it. 
