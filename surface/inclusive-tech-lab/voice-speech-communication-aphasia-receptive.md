@@ -34,7 +34,7 @@ Aphasia can be caused by a stroke, a traumatic brain injury, or having disabilit
 
 ## Examples
 
-:::image type="content" source="images/communication_receptive_barrier.jpg" alt-text="A man reads a long notification on his computer with a confused look.":::
+:::image type="content" source="images/communication-receptive-barrier.jpg" alt-text="A man reads a long notification on his computer with a confused look.":::
 
 BARRIER — Long, complex sentences can make it difficult to identify key information or actionable steps for a user who has difficulty interpreting language. 
 

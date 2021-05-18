@@ -1,6 +1,6 @@
 ---
-title: placeholder title
-description: This page describes placeholder. 
+title: Low vision (partially sighted)
+description: Permanently reduced vision that can't be corrected with glasses, contact lenses, medicine, or surgery.
 ms.localizationpriority: medium
 ms.sitesec: library
 author: InclusiveTechLab

@@ -1,6 +1,6 @@
 ---
-title: placeholder title
-description: This page describes placeholder. 
+title: Non-verbal
+description: Not using spoken language or words.
 ms.localizationpriority: medium
 ms.sitesec: library
 author: InclusiveTechLab
