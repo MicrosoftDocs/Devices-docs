@@ -21,7 +21,7 @@ In our practice we have observed that engineers and designers sometimes struggle
 
 We created this reference to provide engineers and designers a way to understand and discuss the aspects of function that can lead to barriers in interaction, and the facilitators needed to overcome these barriers. The goal of our inclusive design practice is to recognize the barriers before we implement them. To create forms that facilitate the function of human diversity.
 
-This work was inspired by the World Health Organization’s – International Classification of Functioning, Disability and Health (ICF). We strive in our guide to make this material concise, approachable, and contextual to our field of technology. This is a living document that we expect will change and grow.
+This work was inspired by the World Health Organization’s – [International Classification of Functioning, Disability and Health](https://www.who.int/standards/classifications/international-classification-of-functioning-disability-and-health) (ICF). We strive in our guide to make this material concise, approachable, and contextual to our field of technology. This is a living document that we expect will change and grow.
 
 To reiterate, we design WITH the disability community – we see this reference being part of activities like documenting interactions, creating recruitment screeners and surveys, and writing usability reviews and bugs. There are many potential ways that this material can be leveraged effectively as part of our product creation process.
 
