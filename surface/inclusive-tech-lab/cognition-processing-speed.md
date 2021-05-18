@@ -33,11 +33,11 @@ The speed in which someone processes information can be influenced by fatigue, l
 
 ## Examples
 
-![A woman looks at her tablet’s screen as she sits in a wheelchair. She is trying to quickly press a digital pen against the tablet as she watches TV.](images/Cognition_ProcessingSpeed_Barrier.jpg)
+:::image type="content" source="images/cognition-processingspeed-barrier.jpg" alt-text="A woman looks at her tablet’s screen as she sits in a wheelchair. She is trying to quickly press a digital pen against the tablet as she watches TV.":::
 
 BARRIER — Prompts requiring a person to read, interpret, and act within a time limit can result in lost work if a person cannot meet those expectations.
 
-![The woman looks at her screen, selecting yes to a question about whether she wants to eliminate timed responses.](images/Cognition_Speed_Facilitator.jpg)
+:::image type="content" source="images/cognition-speed-facilitator.jpg" alt-text="The woman looks at her screen, selecting yes to a question about whether she wants to eliminate timed responses.":::
 
 FACILITATOR — The ability to eliminate timed responses allows the user to react to prompts at their own pace, without having to worry about negative consequences.
 

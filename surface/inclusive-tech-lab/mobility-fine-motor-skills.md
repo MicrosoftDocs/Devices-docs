@@ -38,11 +38,11 @@ Fine motor skills may be impacted when someone is missing fingers or hands, or i
 
 ## Examples
 
-![A man tries to touch a small button on his headphones with a knuckle. Both his hands look frozen in a loose fist shape, and his knuckle seems too big to maneuver the small button.](images/Mobility_FineMotor_Barrier.jpg)
+:::image type="content" source="images/mobility-finemotor-barrier.jpg" alt-text="A man tries to touch a small button on his headphones with a knuckle. Both his hands look frozen in a loose fist shape, and his knuckle seems too big to maneuver the small button.":::
 
 BARRIER — If buttons are small or level with surrounding hardware, they can be difficult to press with larger body parts like knuckles or palms. 
 
-![The man’s hand, in a loose fist shape, swipes a flat toggle switch on headphones.](images/Mobility_FineMotor_Facilitator.jpg)
+:::image type="content" source="The man’s hand, in a loose fist shape, swipes a flat toggle switch on headphones." alt-text="images/mobility-finemotor-facilitator.jpg":::
 
 FACILITATOR — Increasing button size or height can reduce the amount of dexterity needed to press them. ​
 

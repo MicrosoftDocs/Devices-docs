@@ -38,11 +38,11 @@ Coordination can be impacted by neurological conditions such as multiple scleros
 
 ## Examples
 
-![A woman concentrates as she tries to align a charging cable connector with the port on her tablet.](images/Mobility_Coordination_Barrier.jpg)
+:::image type="content" source="images/mobility-coordination-barrier.jpg" alt-text="A woman concentrates as she tries to align a charging cable connector with the port on her tablet.":::
 
 BARRIER — Ports that are small or require precise orientation are more difficult to insert.
 
-![The woman connects a charging cable to her laptop even though the port is facing away from her and she can’t really see it. A diagram shows the connector is symmetrical and can be plugged in with either side up.](images/Mobility_Coordination_Facilitator.jpg)
+:::image type="content" source="images/mobility-coordination-facilitator.jpg" alt-text="The woman connects a charging cable to her laptop even though the port is facing away from her and she can’t really see it. A diagram shows the connector is symmetrical and can be plugged in with either side up.":::
 
 FACILITATOR — Hardware connections such as USB-C are more forgiving because they can be inserted in either orientation.
 

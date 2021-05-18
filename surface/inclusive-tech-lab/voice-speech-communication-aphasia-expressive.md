@@ -32,11 +32,11 @@ Often, injuries that cause aphasia co-occur with symptoms such as paralysis and 
 
 ## Examples
 
-![A man sits at a desk in an office. He’s looking at a laptop screen and saying &quot;Hey Cortana, open my cat.&quot;](images/Communication_Expressive_Barrier.jpg)
+:::image type="content" source="images/communication-expressive-barrier.jpg" alt-text="A man sits at a desk in an office. He’s looking at a laptop screen and saying &quot;Hey Cortana, open my cat.&quot;":::
 
 BARRIER — Unintentional word choices can be common following a stroke or brain injury. Experiences that aren’t forgiving of errors can exclude a people from using speech recognition.
 
-![The man’s laptop screen shows his question and asks &quot;Did you mean to say &quot;Open up PowerPoint?&quot;&quot;.](images/Communication_Expressive_Facilitator.jpg)
+:::image type="content" source="images/communication-expressive-facilitator.jpg" alt-text="The man’s laptop screen shows his question and asks &quot;Did you mean to say &quot;Open up PowerPoint?&quot;&quot;.":::
 
 FACILITATOR — When a device detects an error in speech or word choice, it gives helpful prompts to correct them. 
 

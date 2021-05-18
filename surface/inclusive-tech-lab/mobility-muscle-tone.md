@@ -32,11 +32,11 @@ Variations in muscle tone are very common and can be caused by neurological cond
 
 ## Examples
 
-![A man in a wheelchair moves toward a desk with a monitor and keyboard on it. His wheelchair has a tray that extends out in front of him so he won’t be able to slide his knees under the desk.](images/Mobility_MuscleTone_Barrier.jpg)
+:::image type="content" source="images/mobility-muscletone-barrier.jpg" alt-text="A man in a wheelchair moves toward a desk with a monitor and keyboard on it. His wheelchair has a tray that extends out in front of him so he won’t be able to slide his knees under the desk.":::
 
 BARRIER — Desktop computers and keyboards require the ability to sit upright and maintain outstretched arms to type and move a mouse.
 
-![The man in the wheelchair has moved alternative input controls to his wheelchair tray so he can use the computer from farther back than most people would.](images/Mobility_MuscleTone_Facilitator.jpg)
+:::image type="content" source="images/mobility-muscletone-facilitator.jpg" alt-text="The man in the wheelchair has moved alternative input controls to his wheelchair tray so he can use the computer from farther back than most people would.":::
 
 FACILITATOR — Products that support alternative input methods help create a workstation where controls are within reach and can be adapted or reconfigured as needed.
 

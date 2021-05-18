@@ -32,11 +32,11 @@ Vestibular sensitivity can be affected by things like ear infection, congestion 
 
 ## Examples
 
-![A woman is holding a smartphone with an image moving across the screen. The woman looks frustrated.](images/Sensory_Vestibular_Barrier.jpg)
+:::image type="content" source="images/sensory-vestibular-barrier.jpg" alt-text="A woman is holding a smartphone with an image moving across the screen. The woman looks frustrated.":::
 
 BARRIER — Motion of objects across a screen may be undetectable to some, while causing extreme dizziness or sickness to others. 
 
-![The woman is holding her phone. On her screen is the "Accessibility Reduce Motion" settings window. She is toggling on the "Reduce Motion" option.](images/Sensory_Vestibular_Facilitator.jpg)
+:::image type="content" source="images/sensory-vestibular-facilitator.jpg" alt-text="The woman is holding her phone. On her screen is the &quot;Accessibility Reduce Motion&quot; settings window. She is toggling on the &quot;Reduce Motion&quot; option.":::
 
 FACILITATOR — The ability to reduce the motion of objects across a screen can enhance the usability and safety of an experience. 
 

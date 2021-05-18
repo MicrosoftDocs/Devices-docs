@@ -34,11 +34,11 @@ Visual field loss can be caused by eye diseases such as glaucoma, macular degene
 
 ## Examples
 
-![A man sits in front of a couple monitors, and a circle shows his range of vision. One monitor is only about halfway inside his range of vision.](images/Vision_VisualFieldLoss_Barrier.jpg)
+:::image type="content" source="images/vision-visualfieldloss-barrier.jpg" alt-text="A man sits in front of a couple monitors, and a circle shows his range of vision. One monitor is only about halfway inside his range of vision.":::
 
 BARRIER — The positioning of a device may limit a person’s ability to see the entirety of it if they are missing part of their visual field. 
 
-![The man sits in front of a monitor on a swing arm. An arrow shows how he moved it into his full field of vision.](images/Vision_VisualFieldLoss_Facilitator.jpg)
+:::image type="content" source="images/vision-visualfieldloss-facilitator.jpg" alt-text="The man sits in front of a monitor on a swing arm. An arrow shows how he moved it into his full field of vision.":::
 
 FACILITATOR — The ability to reposition a device so that the entirety of it fits in the person’s visual field facilitates ease of use. 
 

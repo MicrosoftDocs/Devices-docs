@@ -30,11 +30,11 @@ We gain tactile information through our skin. When skin is damaged by things lik
 
 ## Examples
 
-![Someone rests their wrist against a laptop as they use the touch pad. Their wrist looks scratched or inflamed, and an inset image shows that the laptop has Alcantara next to the touch pad.](images/Sensory_SkinIntegrity_Barrier.jpg)
+:::image type="content" source="images/sensory-skinintegrity-barrier.jpg" alt-text="Someone rests their wrist against a laptop as they use the touch pad. Their wrist looks scratched or inflamed, and an inset image shows that the laptop has Alcantara next to the touch pad.":::
 
 BARRIER — Materials and hardware components on devices may not be an issue for some, but for others, they can be abrasive or cause irritation to the skin.  
 
-![A man types on an external keyboard and smiles.](images/Sensory_SkinIntegrity_Facilitator.jpg)
+:::image type="content" source="images/sensory-skinintegrity-facilitator.jpg" alt-text="A man types on an external keyboard and smiles.":::
 
 FACILITATOR — Devices are more comfortable if they’re created with different material options or if they support third party hardware, like an external keyboard or mouse. 
 

@@ -34,11 +34,11 @@ Sensory limitations can occur in people with autism, sensory processing disorder
 
 ## Examples
 
-![A woman looks unhappy as she moves a pen across a tablet screen.](images/Sensory_Hypersensitive_Barrier.jpg)
+:::image type="content" source="images/sensory-hypersensitive-barrier.jpg" alt-text="A woman looks unhappy as she moves a pen across a tablet screen.":::
 
 BARRIER — Noises emitted from a device like a fine-tip digital pen scratching across a screen can be disruptive or irritating to a user who is hypersensitive to sound.
 
-![The woman chooses a different digital pen tip. She removes the one with a sharper point that creates more friction on the screen. She attaches a soft tip that moves easily across the screen.](images/Sensory_Hypersensitive_Facilitator.jpg)
+:::image type="content" source="images/sensory-hypersensitive-facilitator.jpg" alt-text="The woman chooses a different digital pen tip. She removes the one with a sharper point that creates more friction on the screen. She attaches a soft tip that moves easily across the screen.":::
 
 FACILITATOR — Providing optional softer pen tips can reduce the noise emitted from a digital pen gliding along a tablet screen.
 

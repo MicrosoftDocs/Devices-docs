@@ -33,11 +33,11 @@ Posture can be impacted by conditions that affect muscle tone, strength, control
 
 ## Examples
 
-![A woman lies propped up in bed, one arm holding a laptop and the other held up as she prepares to tap the screen.](images/Mobility_Posture_Barrier.jpg)
+:::image type="content" source="images/mobility-posture-barrier.jpg" alt-text="A woman lies propped up in bed, one arm holding a laptop and the other held up as she prepares to tap the screen.":::
 
 BARRIER — Devices can be difficult to interact with and it may be difficult to see screen content if a person must lay in bed or doesn’t sit upright during use.
 
-![The woman is propped up in bed, using a laptop that’s on a swing arm. She can use both hands for typing.](images/Mobility_Posture_Facilitator.jpg)
+:::image type="content" source="images/mobility-posture-facilitator.jpg" alt-text="The woman is propped up in bed, using a laptop that’s on a swing arm. She can use both hands for typing.":::
 
 FACILITATOR — Mounting hardware allows a person to access a device in the position of their choice and makes the device easier to use.
 

@@ -36,11 +36,11 @@ Hearing loss can be present from birth, or it can happen due to injury, illness,
 
 ## Examples
 
-![A woman is holding a tablet in one hand and gesturing toward the hearing aid she is wearing with her other hand, indicating that she isn't able to hear audio from her tablet. There are children in the background playing.](images/Hearing_Loss_Moderate_Severe_Barrier.jpg)
+:::image type="content" source="images/hearing-loss-moderate-severe-barrier.jpg" alt-text="A woman is holding a tablet in one hand and gesturing toward the hearing aid she is wearing with her other hand, indicating that she isn't able to hear audio from her tablet. There are children in the background playing.":::
 
 BARRIER — A hearing aid user may prefer to pair their hearing aid directly to their device but cannot due to lack of software support or difficulty navigating through settings. 
 
-![The woman is holding her hearing aid in her hand, pressing the Bluetooth pairing button on it. There is a Surface Pro with Bluetooth pairing settings window open on the table in front of her.](images/Hearing_Loss_Moderate_Severe_Facilitator.jpg)
+:::image type="content" source="images/hearing-loss-moderate-severe-facilitator.jpg" alt-text="The woman is holding her hearing aid in her hand, pressing the Bluetooth pairing button on it. There is a Surface Pro with Bluetooth pairing settings window open on the table in front of her.":::
 
 FACILITATOR — The ability to pair a Bluetooth hearing aid directly to a device through easily discoverable settings can enhance a person’s experience with the device. 
 

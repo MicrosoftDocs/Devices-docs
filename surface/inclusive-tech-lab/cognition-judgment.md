@@ -35,12 +35,12 @@ Judgment may be impacted by issues such as a lack of adequate information, anxie
 
 ## Examples
 
-![A young woman is surrounded by notebooks while working on a laptop. She throws her hands up in alarm as her laptop shows a black screen with a dead battery symbol.](images/Cognition_Judgment_Barrier.jpg)
+:::image type="content" source="images/cognition-judgment-barrier.jpg" alt-text="A young woman is surrounded by notebooks while working on a laptop. She throws her hands up in alarm as her laptop shows a black screen with a dead battery symbol.":::
 
 BARRIER — Lack of corrective feedback when deciding whether to increase screen brightness without being plugged in to a power source can result in lost work and frustration. 
 
 
-![The young woman, who was typing on her laptop, looks at a low battery warning on the screen.](images/Cognition_Judgment_Facilitator.jpg)
+:::image type="content" source="images/cognition-judgment-facilitator.jpg" alt-text="The young woman, who was typing on her laptop, looks at a low battery warning on the screen.":::
 
 FACILITATOR — Notifications that warn of hazards can eliminate the cognitive demands of identifying negative consequences before adjusting device settings.
 

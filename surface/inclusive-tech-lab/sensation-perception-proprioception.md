@@ -33,11 +33,11 @@ Difficulties with proprioception are common in people with autism and sensory pr
 
 ## Examples
 
-![A boy uses a digital pen on a tablet, pushing hard enough to stress the tablet screen.](images/Sensory_Proprioception_Barrier.jpg)
+:::image type="content" source="images/sensory-proprioception-barrier.jpg" alt-text="A boy uses a digital pen on a tablet, pushing hard enough to stress the tablet screen.":::
 
 BARRIER — Diminished proprioception can affect a person’s ability to sense how much pressure they exert on a device. 
 
-![The boy chooses settings for pen force feedback. Feedback can be turned on or off, and colors can be customized for “correct” pressure and “too hard” pressure. The boy smiles as he practices and gets a green circle, indicating correct pressure.](images/Sensory_Proprioception_Facilitator.jpg)
+:::image type="content" source="images/sensory-proprioception-facilitator.jpg" alt-text="The boy chooses settings for pen force feedback. Feedback can be turned on or off, and colors can be customized for &quot;correct&quot; pressure and &quot;too hard&quot; pressure. The boy smiles as he practices and gets a green circle, indicating correct pressure.":::
 
 FACILITATOR — Providing visual or haptic feedback of the force of contact on a device can prevent hardware from being damaged.
 

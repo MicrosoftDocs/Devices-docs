@@ -37,12 +37,12 @@ A person’s memory may be impacted by things like head injuries, age-related me
 
 ## Examples
 
-![A man throws his hand up in frustration as he looks at the sign-in screen on his laptop, which shows a warning symbol.](images/Cognition_Memory_Barrier.jpg)
+:::image type="content" source="images/cognition-memory-barrier.jpg" alt-text="A man throws his hand up in frustration as he looks at the sign-in screen on his laptop, which shows a warning symbol.":::
 
 BARRIER — When access to a device requires memorized information, such as a typed password, a person may be excluded from using their device. 
 
 
-![The man holds his laptop in front of his face as it scans his facial characteristics to sign him into his account.](images/Cognition_Memory_Facilitator.jpg)
+:::image type="content" source="images/cognition-memory-facilitator.jpg" alt-text="The man holds his laptop in front of his face as it scans his facial characteristics to sign him into his account.":::
 
 FACILITATOR — Alternative login options, such as facial recognition, eliminate the need to memorize information and allow people to easily log in to their devices. 
 

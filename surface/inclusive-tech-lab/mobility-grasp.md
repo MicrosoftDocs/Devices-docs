@@ -36,11 +36,11 @@ Difficulty grasping objects can be caused by many conditions like arthritis, han
 
 ## Examples
 
-![A man thinks about whether he can push a button on an Xbox controller with his prosthetic hand. He looks frustrated.](images/Mobility_Grasp_Barrier.jpg)
+:::image type="content" source="images/mobility-grasp-barrier.jpg" alt-text="A man thinks about whether he can push a button on an Xbox controller with his prosthetic hand. He looks frustrated.":::
 
 BARRIER — If someone cannot fully grasp a standard Xbox controller, they may be unable to access required buttons and thumbsticks, resulting in exclusion from gameplay.
 
-![The man taps an adaptive controller with his prosthetic hand. He looks fully engaged with the game on his computer screen.](images/Mobility_Grasp_Facilitator.jpg)
+:::image type="content" source="images/mobility-grasp-facilitator.jpg" alt-text="The man taps an adaptive controller with his prosthetic hand. He looks fully engaged with the game on his computer screen.":::
 
 FACILITATOR — The Xbox Adaptive Controller or other compatible hardware eliminates the need for a specific grasp on the device and allows users to choose inputs that work for them.​
 

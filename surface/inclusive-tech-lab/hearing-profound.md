@@ -36,11 +36,11 @@ Hearing loss can be present from birth, or it can happen due to injury, illness,
 
 ## Examples
 
-![A man stares at his computer screen. The screen shows a  window with a video call between the man and four other people.](images/Hearing_Loss_Profound_Barrier.jpg)
+:::image type="content" source="images/hearing-loss-profound-barrier.jpg" alt-text="A man stares at his computer screen. The screen shows a  window with a video call between the man and four other people.":::
 
 BARRIER — Experiences such as live video calls can exclude a person who can’t hear. 
 
-![The man is looking at his computer screen with the video call. There is a transcription at the bottom of this screen that reads &quot;[Michael]: I Think we should choose world war two as our topic&quot;](images/Hearing_Loss_Profound_Facilitator.jpg)
+:::image type="content" source="images/hearing-loss-profound-facilitator.jpg" alt-text="The man is looking at his computer screen with the video call. There is a transcription at the bottom of this screen that reads &quot;Michael: I Think we should choose world war two as our topic&quot;":::
 
 FACILITATOR — Live transcriptions that indicate who said what make video calls more accessible. 
 

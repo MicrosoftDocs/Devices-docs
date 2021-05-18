@@ -36,11 +36,11 @@ Slow movements can be caused by any kind of condition that affects movement or c
 
 ## Examples
 
-![A woman sits in a wheelchair and holds a tablet on her lap. She’s looking down while typing on the touchscreen, and she looks stressed.](images/)
+:::image type="content" source="images/mobility-speed-barrier.jpg" alt-text="A woman sits in a wheelchair and holds a tablet on her lap. She’s looking down while typing on the touchscreen, and she looks stressed.":::
 
 BARRIER — Tasks like typing on a keyboard can be time consuming and strenuous for someone who can't move their fingers at a fast pace.
 
-![The tablet screen shows an onscreen keyboard, and someone has typed &quot;I’m&quot; without including the apostrophe.](images/)
+:::image type="content" source="images/mobility-speed-facilitator.jpg" alt-text="The tablet screen shows an onscreen keyboard, and someone has typed &quot;I’m&quot; without including the apostrophe.":::
 
 FACILITATOR — Support for features like predictive text can decrease the physical demands of typing and allow someone to perform a task at a faster rate.
 

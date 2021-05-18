@@ -34,11 +34,11 @@ Aphasia can be caused by a stroke, a traumatic brain injury, or having disabilit
 
 ## Examples
 
-![A man reads a long notification on his computer with a confused look.](images/Communication_Receptive_Barrier.jpg)
+:::image type="content" source="images/communication_receptive_barrier.jpg" alt-text="A man reads a long notification on his computer with a confused look.":::
 
 BARRIER — Long, complex sentences can make it difficult to identify key information or actionable steps for a user who has difficulty interpreting language. 
 
-![The man is looking at his computer screen. The window shows only a  short sentence that says &quot;Turn on reminders?&quot;. He looks at ease.](images/Communication_Receptive_Facilitator.jpg)
+:::image type="content" source="images/communication-receptive-facilitator.jpg" alt-text="The man is looking at his computer screen. The window shows only a short sentence that says &quot;Turn on reminders?&quot;. He looks at ease.":::
 
 FACILITATOR —Simple, concise sentences that leverage familiar key words make content and UI more accessible.
 
