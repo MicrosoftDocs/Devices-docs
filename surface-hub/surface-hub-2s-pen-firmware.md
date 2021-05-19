@@ -45,7 +45,7 @@ You can update the firmware on Surface Hub 2 pen from a separate PC running Wind
 1. Run **get_version.bat** and press the **top** button on the pen.
 2. The tool will report the firmware version of the pen. Example:
     - Old firmware is 468.2727.368
-    - New firmware is 468.2863.369
+    - New firmware is 468.3347.368
 
 ## Command line options
 
