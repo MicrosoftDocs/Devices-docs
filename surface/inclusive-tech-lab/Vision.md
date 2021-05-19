@@ -8,6 +8,8 @@ ms.author: brycejo
 ms.topic: article
 ms.date: 05/20/2021
 manager: krhunter
+ms.prod: surface
+ms.technology: windows
 ---
 
 # What is vision?
@@ -18,17 +20,19 @@ Vision is influenced by both physical and neurological factors.
 
 There are many conditions and disabilities that can affect a person’s vision. For people with limited vision, interacting with technology often requires the use of other senses like touch and hearing. By creating effective solutions that optimize sensory information, we can make it easier to access technologies that might not otherwise be available.
 
-**[Blindness (sightlessness)](Vision_Blindness_Sightlessness.md)** &mdash; Does the experience rely on the ability to see in order to be successful?
+**[Blindness (sightlessness)](vision-blindness-sightlessness.md)** &mdash; Does the experience rely on the ability to see in order to be successful?
 
-**[Low vision (partially sighted)](Vision_Low_Vision_Partially_Sighted.md)** &mdash; Does the experience require full range of vision?
+**[Low vision (partially sighted)](vision-low-vision-partially-sighted.md)** &mdash; Does the experience require full range of vision?
 
-**[Decreased acuity](Vision_Decreased_Acuity.md)** &mdash; Does the experience require a high level of visual acuity?
+**[Decreased acuity](vision-decreased-acuity.md)** &mdash; Does the experience require a high level of visual acuity?
 
-**[Visual field loss](Vision_Visual_Field_Loss.md)** &mdash; Is it necessary to see the device, screen, etc. in its entirety in order to complete a task?
+**[Visual field loss](vision-visual-field-loss.md)** &mdash; Is it necessary to see the device, screen, etc. in its entirety in order to complete a task?
 
-**[Color blindness](Vision_Color_Blindness.md)** &mdash; Does the experience use color to convey useful information?
+**[Color blindness](vision-color-blindness.md)** &mdash; Does the experience use color to convey useful information?
 
-**[Photophobia (light sensitivity)](Vision_Photophobia_Light_Sensitivity.md)** &mdash; Does the experience emit light or brightness?
+**[Photophobia (light sensitivity)](vision-photophobia-light-sensitivity.md)** &mdash; Does the experience emit light or brightness?
+
+&nbsp;
 
 [comment]: # (Footer statement)
 ___

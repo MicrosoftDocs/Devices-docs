@@ -18,16 +18,18 @@ Cognition involves our ability to receive, interpret, and process information. T
 
 Many aspects of cognition affect one another. If a person has difficulty with attention, or problems focusing after an interruption, this may lead to issues with comprehension. Similarly, if a person has trouble understanding information, it might be difficult to commit the information to memory. This can influence a person’s confidence and motivation in learning something new. Cognition is essential to every task we perform.
 
-**[Attention](Cognition_Attention.md)** &mdash; Are notifications, animations, or distractions present during the experience?
+**[Attention](cognition-attention.md)** &mdash; Are notifications, animations, or distractions present during the experience?
 
-**[Memory](Cognition_Memory.md)** &mdash; Does the experience require memorized information in order to complete a task?
+**[Memory](cognition-memory.md)** &mdash; Does the experience require memorized information in order to complete a task?
 
-**[Judgment](Cognition_Judgment.md)** &mdash; Is the experience intuitive and familiar to navigate?
+**[Judgment](cognition-judgment.md)** &mdash; Is the experience intuitive and familiar to navigate?
 
-**[Processing (speed)](Cognition_Processing_Speed.md)** &mdash; Are there timed responses that could expire before the user can act upon them?
+**[Processing (speed)](cognition-processing-speed.md)** &mdash; Are there timed responses that could expire before the user can act upon them?
 
-**[Processing (comprehension)](Cognition_Processing_Comprehension.md)** &mdash; Is there new information being presented to the user during the experience?
+**[Processing (comprehension)](cognition-processing-comprehension.md)** &mdash; Is there new information being presented to the user during the experience?
 
+
+&nbsp;
 
 [comment]: # (Footer statement)
 ___
