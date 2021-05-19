@@ -122,10 +122,11 @@ The device will attempt to connect to the specified network. If it's successful,
 This page will be shown when the device detects a wired connection with limited connectivity. You have three options:
 
 -   You can select a wireless network to use instead of the limited wired connection.
--   You can skip connecting to a network by selecting **Skip this step**. You'll be taken to the [Set up for you page](#set-up-for-you).
-    **Note**  If you skip this, the device will not have a network connection, and nothing that requires a network connection will work on your Surface Hub, including things like email and calendar synchronization. You can connect to a wireless network later using Settings (see [Wireless network management](wireless-network-management-for-surface-hub.md)).
 
-     
+-   You can skip connecting to a network by selecting **Skip this step**. You'll be taken to the [Set up for you page](#set-up-for-you).
+
+    > [!NOTE]
+    > If you skip this, the device will not have a network connection, and nothing that requires a network connection will work on your Surface Hub, including things like email and calendar synchronization. You can connect to a wireless network later using Settings (see [Wireless network management](wireless-network-management-for-surface-hub.md)).
 
 -   You can select **Enter proxy settings** which will allow you to specify how to use the network proxy. You'll be taken to the next screen.
 
