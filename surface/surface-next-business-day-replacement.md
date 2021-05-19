@@ -3,7 +3,7 @@ title: Next Business Day Replacement information & coverage areas
 ms.author: v-kaij
 author: greg-lindsay
 manager: laurawi
-ms.date: 04/19/2021
+ms.date: 05/18/2021
 audience: Admin
 ms.topic: article
 ms.prod: surface
@@ -58,7 +58,7 @@ For a list of supported post codes, see "Next business day coverage" where appli
 
 #### Australia
 
-- Cutoff Time: 13:00 AET (UTC+11)
+- Cutoff Time: 14:30 AET (UTC+11)
 
 #### Austria
 
@@ -108,7 +108,7 @@ For a list of supported post codes, see "Next business day coverage" where appli
 
 #### Japan
 
-- Cutoff Time: 13:00 JST (UTC+9)
+- Cutoff Time: 15:30 JST (UTC+9)
 - [Next business day coverage](https://cdn.techcommunity.microsoft.com/assets/Surface/jp-next-day-replace-surface.pdf)
 
 **Available areas in Japan** 
