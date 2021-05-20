@@ -72,11 +72,10 @@ You can run Surface Hub 2 Pen Firmware Update Tool (PenCfu.exe) from the command
 
 3. For additional options, run **PenCfu.exe -h** to display the available parameters, as listed in the following table.  
 
-    - Example: `PenCfu.exe -h`
+   Example: `PenCfu.exe -h`
 
 4. Enter **Ctrl+C** to safely shut down the tool.
 
- 
 
 | Command | Description |
 | -------------- |---------------------------- |
