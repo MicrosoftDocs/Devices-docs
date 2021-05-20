@@ -60,7 +60,7 @@ You can update the firmware on Surface Hub 2 pen from a separate PC running Wind
 
    Example:
     - Old firmware is 468.2727.368
-    - New firmware is 468.2863.369
+    - New firmware is 468.3347.368
 
 ## Command line options
 
@@ -84,3 +84,4 @@ You can run Surface Hub 2 Pen Firmware Update Tool (PenCfu.exe) from the command
 | -v version     | Display tool version and exit. |
 | -l log-filter  | Set a filter level for the log file. Log messages have 4 possible levels: DEBUG (lowest), INFO, WARNING and ERROR (highest). Setting a log filter level filters log messages to only message with the same level or higher. For example, if the filter level is set to WARNING, only WARNING and ERROR messages will be logged. By default, this option is set to OFF, which disables logging. |
 | -g get-version | If specified, the tool will only get the FW version of the connected pen that matches the configuration file that is stored in the same folder as the tool.  |
+
