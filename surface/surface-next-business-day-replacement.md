@@ -42,6 +42,7 @@ For a list of supported post codes, see "Next business day coverage" where appli
 - [Finland](#finland)
 - [France](#france)
 - [Germany](#germany)
+- [Hong Kong](#hong-kong)
 - [Ireland](#ireland)
 - [Italy](#italy)
 - [Japan](#japan)
@@ -128,7 +129,6 @@ For a list of supported post codes, see "Next business day coverage" where appli
 - Cutoff Time: 12:00 CET (UTC+1)
 - [Next business day coverage](https://download.microsoft.com/download/f/e/8/fe8b9b43-5f72-4cf1-971d-78dd46f8ea1c/NBD%20Coverage%20-%20Poland%20Post%20Codes%20042821.xlsx
 )
-
 
 #### Portugal
 
