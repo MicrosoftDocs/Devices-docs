@@ -94,7 +94,7 @@ Wake on LAN for devices in hibernation mode is supported for most newer standalo
 - Surface Laptop Go
 - Surface Book 3
 
-## Hibernation for devices connected to Surface Dock 2
+### Hibernation for devices connected to Surface Dock 2
 
 Surface Dock 2 adds support for S4 (Hibernation) as well as the S5 “soft off” state to the following devices (in addition to the devices listed in the previous section).
 
