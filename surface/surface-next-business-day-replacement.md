@@ -3,7 +3,7 @@ title: Next Business Day Replacement information & coverage areas
 ms.author: v-kaij
 author: greg-lindsay
 manager: laurawi
-ms.date: 05/18/2021
+ms.date: 05/23/2021
 audience: Admin
 ms.topic: article
 ms.prod: surface
@@ -42,6 +42,7 @@ For a list of supported post codes, see "Next business day coverage" where appli
 - [Finland](#finland)
 - [France](#france)
 - [Germany](#germany)
+- [Hong Kong](#hong-kong)
 - [Ireland](#ireland)
 - [Italy](#italy)
 - [Japan](#japan)
@@ -77,6 +78,7 @@ For a list of supported post codes, see "Next business day coverage" where appli
 #### Czech Republic
 
 - Cutoff Time: 12:00 CET (UTC+1)
+- [Next business day coverage](https://download.microsoft.com/download/9/2/6/926014cb-38b2-4270-b841-d3dc56f6e341/NBD%20Coverage%20-%20Czech%20Republic%20Post%20Codes%20042821.xlsx)
 
 #### Denmark 
 
@@ -91,10 +93,16 @@ For a list of supported post codes, see "Next business day coverage" where appli
 #### France
 
 - Cutoff Time: 12:00 CET (UTC+1)
+- [Next business day coverage](https://download.microsoft.com/download/7/b/0/7b0fa1bb-4c75-474a-83be-6d55e0fa719f/NBD%20Coverage%20-%20France%20Postal%20Codes%20042821.xlsx)
 
 #### Germany
 
 - Cutoff Time: 12:00 CET (UTC+1)
+- [Next business day coverage](https://download.microsoft.com/download/d/4/f/d4f6c11f-ada2-4400-b502-2e722644427b/NBD%20Coverage%20-%20Germany%20Post%20Codes%20042821.xlsx)
+
+#### Hong Kong
+
+- Cutoff Time:16:00 HKT (UTC+8) 
 
 #### Ireland
 
@@ -109,40 +117,7 @@ For a list of supported post codes, see "Next business day coverage" where appli
 #### Japan
 
 - Cutoff Time: 15:30 JST (UTC+9)
-- [Next business day coverage](https://cdn.techcommunity.microsoft.com/assets/Surface/jp-next-day-replace-surface.pdf)
-
-**Available areas in Japan** 
-
-- Aomori
-- Iwate
-- Miyagi
-- Akita
-- Yamagata
-- Fukushima
-- Ibaraki
-- Saitama
-- Chiba
-- Tokyo
-- Kanagawa
-- Niigata
-- Toyama
-- Ishikawa
-- Fukui
-- Yamanashi
-- Nagano
-- Gifu
-- Shizuoka
-- Aichi
-- Mie
-- Shiga
-- Kyoto
-- Osaka
-- Hyogo
-- Nara
-- Wakayama
-- Tottori
-- Hiroshima
-- Yamaguchi
+- [Next business day coverage](https://download.microsoft.com/download/c/7/8/c781a035-19f7-4563-9dd9-e8c5f3713342/NBD%20Coverage%20-%20Japan%20Post%20Codes%20060121.xlsx)
 
 #### Norway
 
@@ -152,7 +127,8 @@ For a list of supported post codes, see "Next business day coverage" where appli
 #### Poland
 
 - Cutoff Time: 12:00 CET (UTC+1)
-
+- [Next business day coverage](https://download.microsoft.com/download/f/e/8/fe8b9b43-5f72-4cf1-971d-78dd46f8ea1c/NBD%20Coverage%20-%20Poland%20Post%20Codes%20042821.xlsx
+)
 
 #### Portugal
 
@@ -181,6 +157,7 @@ For a list of supported post codes, see "Next business day coverage" where appli
 #### The Netherlands
 
 - Cutoff Time: 12:00 CET (UTC+1)
+- [Next business day coverage](https://download.microsoft.com/download/6/3/f/63f2ff4c-3b8f-465e-9498-0878f7ba70f3/NBD%20Coverage%20-%20Netherlands%20Post%20Codes%20042821.xlsx)
 
 #### United States 
 
