@@ -28,17 +28,23 @@ Many management solutions, such as Microsoft Endpoint Configuration Manager and 
 
 ## Requirements
 
-**Connected Standby:** [Compatible Surface devices](#compatible-surface-devices) must:
+### Connected Standby
+
+[Compatible Surface devices](#compatible-surface-devices) must:
 
 - Be connected to AC power
-- Have a compatible Ethernet NIC connected to either a USB port on the device or Surface Dock or Surface Dock 2.
+- Have a [compatible Ethernet NIC](#supported-ethernet-nics) connected to either a USB port on the device or Surface Dock or Surface Dock 2.
 
-**Hibernation (S4 power state)**:  [Compatible Surface devices](#compatible-surface-devices) must:
+### Hibernation (S4 power state)
+
+[Compatible Surface devices](#compatible-surface-devices) must:
 
 - Be connected to AC power
 - Have Wake on LAN UEFI policy setting enabled via SEMM. (Not required for devices connected to Surface Dock 2.)
 
- **Hibernation (S5 “soft off” power state)**: [Compatible Surface devices](#compatible-surface-devices)  must:
+### Hibernation (S5 “soft off” power state)
+
+[Compatible Surface devices](#compatible-surface-devices)  must:
 
 - Be connected to AC power
 - Be connected to Surface Dock 2.
@@ -54,7 +60,7 @@ To wake devices from Hibernation using a USB Ethernet adapter, requires enabling
 3. Go to **Advanced settings** and switch **Wake on LAN** to **On**.
 
     > [!div class="mx-imgBorder"]
-    > ![Enable Wake on LAN UEFI policy setting](images/wol-uefi.png) 
+    > ![Enable Wake on LAN UEFI policy setting](images/wol-uefi.png)
 
 ## Compatible Surface devices
 
