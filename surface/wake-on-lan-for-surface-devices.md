@@ -53,7 +53,7 @@ As detailed below, Windows 10 supports Wake on LAN for devices in Connected stan
 
 ### Wake on LAN UEFI policy setting
 
-To wake devices from Hibernation using a USB Ethernet adapter, requires enabling the Wake on LAN UEFI setting using [Surface Enterprise Management Mode](surface-enterprise-management-mode.md) (SEMM).
+To wake devices from Hibernation using a USB Ethernet adapter, requires creating a configuration package using [Surface Enterprise Management Mode](surface-enterprise-management-mode.md) (SEMM), enabling the Wake on LAN UEFI setting, and then applying the package to target devices. (Not required for devices connected to Surface Dock 2.)
 
 **To enable:**
 
