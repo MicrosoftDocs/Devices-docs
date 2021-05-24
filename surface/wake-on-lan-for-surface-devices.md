@@ -32,21 +32,21 @@ Many management solutions, such as Microsoft Endpoint Configuration Manager and 
 
 [Compatible Surface devices](#compatible-surface-devices) must:
 
-- Be connected to AC power
+- Be connected to AC power.
 - Have a [compatible Ethernet NIC](#supported-ethernet-nics) connected to either a USB port on the device or Surface Dock or Surface Dock 2.
 
 ### Hibernation (S4 power state)
 
 [Compatible Surface devices](#compatible-surface-devices) must:
 
-- Be connected to AC power
+- Be connected to AC power.
 - Have Wake on LAN UEFI policy setting enabled via SEMM. (Not required for devices connected to Surface Dock 2.)
 
 ### Hibernation (S5 “soft off” power state)
 
 [Compatible Surface devices](#compatible-surface-devices)  must:
 
-- Be connected to AC power
+- Be connected to AC power.
 - Be connected to Surface Dock 2.
 
 ### Wake on LAN UEFI policy setting
@@ -55,7 +55,7 @@ To wake devices from Hibernation using a USB Ethernet adapter, requires enabling
 
 **To enable:**
 
-1. Download and install **Surface UEFI Configurator**.
+1. Download and install [**Surface UEFI Configurator**](https://www.microsoft.com/download/details.aspx?id=46703).
 2. Select **Start** > **Configuration Package** > **Create** >**+ Certificate Protection**.
 3. Go to **Advanced settings** and switch **Wake on LAN** to **On**.
 
@@ -66,7 +66,7 @@ To wake devices from Hibernation using a USB Ethernet adapter, requires enabling
 
 Support for Wake on LAN varies depending on the sleep state of the device (Connected Standby or Hibernation) as well as the type of processor installed on the device.  
 
-### Connected Standby
+### Connected Standby mode
 
 By default, Windows 10 supports Wake on LAN for Surface devices in Connected Standby mode. Supported Surface devices include:
 
@@ -81,7 +81,7 @@ By default, Windows 10 supports Wake on LAN for Surface devices in Connected Sta
 
 ### Hibernation for standalone devices
 
-Wake on LAN for devices in hibernation mode is supported for most newer standalone Surface devices with some exceptions. Waking standalone devices out of hibernation requires enablling Wake on LAN using SEMM, as described above.
+Wake on LAN for devices in hibernation mode is supported for most newer standalone Surface devices with some exceptions. Waking standalone devices out of hibernation requires enabling Wake on LAN using SEMM, as described above.
 
  Supported devices include:
 
