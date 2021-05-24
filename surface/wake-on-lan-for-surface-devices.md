@@ -28,6 +28,8 @@ Many management solutions, such as Microsoft Endpoint Configuration Manager and 
 
 ## Requirements
 
+As detailed below, Windows 10 supports Wake on LAN for devices in Connected standby mode when connected to an Ethernet NIC and AC Power. To wake devices out of Hibernation (S4) requires either enabling a UEFI policy setting or using Surface Dock 2, which also lets you wake devices out of the S5 "soft off" power state. 
+
 ### Connected Standby
 
 [Compatible Surface devices](#compatible-surface-devices) must:
@@ -44,7 +46,7 @@ Many management solutions, such as Microsoft Endpoint Configuration Manager and 
 
 ### Hibernation (S5 “soft off” power state)
 
-[Compatible Surface devices](#compatible-surface-devices)  must:
+[Compatible Surface devices](#compatible-surface-devices) must:
 
 - Be connected to AC power.
 - Be connected to Surface Dock 2.
