@@ -53,6 +53,9 @@ To wake devices from Hibernation using a USB Ethernet adapter, requires enabling
 2. Select **Start** > **Configuration Package** > **Create** >**+ Certificate Protection**.
 3. Go to **Advanced settings** and switch **Wake on LAN** to **On**.
 
+    > [!div class="mx-imgBorder"]
+    > ![Enable Wake on LAN UEFI policy setting](images/wol-uefi.png) 
+
 ## Compatible Surface devices
 
 Support for Wake on LAN varies depending on the sleep state of the device (Connected Standby or Hibernation) as well as the type of processor installed on the device.  
