@@ -72,9 +72,9 @@ To wake devices from Hibernation using a USB Ethernet adapter, requires creating
 
 By default, Windows 10 supports Wake on LAN for Surface devices in Connected Standby mode. Supported Surface devices include:
 
-- Surface Laptop 3 (Intel processors only).
-- Surface Laptop 4 (Intel processors only).
-- Surface Pro 7.
+- Surface Laptop 3 (Intel processors only)
+- Surface Laptop 4 (Intel processors only)
+- Surface Pro 7
 - Surface Pro 7+
 - Surface Pro X
 - Surface Go 2
@@ -87,8 +87,8 @@ Wake on LAN for devices in hibernation mode is supported for most newer standalo
 
  Supported devices include:
 
-- Surface Laptop 3 (Intel processors only).
-- Surface Laptop 4 (Intel processors only).
+- Surface Laptop 3 (Intel processors only)
+- Surface Laptop 4 (Intel processors only)
 - Surface Pro 7.
 - Surface Pro 7+
 - Surface Laptop Go
