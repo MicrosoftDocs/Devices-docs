@@ -30,7 +30,7 @@ Many management solutions, such as Microsoft Endpoint Configuration Manager and 
 
 Support for Wake on LAN varies depending on the sleep state of the device (Connected Standby or Hibernation) as well as the type of processor installed on the device. For details, see [Compatible Surface devices](#compatible-surface-devices) below.  
 
-As detailed below, Windows 10 supports Wake on LAN for devices in Connected standby mode when connected to an Ethernet NIC and AC Power. To wake devices out of Hibernation (S4) requires either enabling a UEFI policy setting or using Surface Dock 2, which also lets you wake devices out of the S5 "soft off" power state. 
+ Windows 10 supports Wake on LAN for devices in Connected standby mode when connected to an Ethernet NIC and AC Power. To wake devices out of Hibernation (S4) requires either enabling a UEFI policy setting or using Surface Dock 2, which also lets you wake devices out of the S5 "soft off" power state. 
 
 ### Connected Standby
 
