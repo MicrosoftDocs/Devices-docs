@@ -101,6 +101,9 @@ First create a security group containing the admin accounts. Then create another
 
 2. Replace the placeholder SID (beginning with S-1-12-1) with your **Azure AD Group SID** and then save the file as XML; for example, **aad-local-admin.xml**. 
 
+      > [!NOTE]
+      > While groups should be specified via SID, if you would like to add Azure users directly, they can be added by specifying their User Principal Name (UPN) in this format: `<member name = AzureAD\user@contoso.com />`
+
 ## Create Custom configuration profile
 
 1. In Endpoint Manager, select **Devices** > **Configuration profiles** > **Create profile**. 
