@@ -146,7 +146,7 @@ open **Windows Configuration Designer** and select **Advanced provisioning**.
 2. Name your project and select **Next**.
 3. Select **Common to Windows 10 Team**, select **Next**, and then select **Finish**.
 
- ![WCD new project](images/icd-new-project.png)
+     ![WCD new project](images/icd-new-project.png)
 
 4. In the project, under **Available customizations**, select **Common Team settings**.
  ![WCD common settings](images/icd-common-settings.png)
@@ -199,16 +199,16 @@ Surface Hub supports a subset of the policies in the [Policy configuration servi
 2. Select the component you want to manage and configure the policy setting as appropriate. For example, to prevent employees from using InPrivate website browsing on Surface Hub, select **AllowInPrivate** and then select **Disable**.  
 
 > [!div class="mx-imgBorder"]
-> ![Configure policy setting](images/sh-prov-policies.png)
+    > ![Configure policy setting](images/sh-prov-policies.png)
 
 ### Add Surface Hub settings to your package
 
 You can add settings from the [SurfaceHub configuration service provider](/windows/client-management/mdm/surfacehub-csp) to your provisioning package.
 
-1.Go to **Available customizations** > **Common Team Edition Settings**.
-2. Select the component you want to manage and configure the policy setting as appropriate.
-3. When you are done configuring the provisioning package, select  **File** > **Save**.
-4. Read the warning that project files may contain sensitive information, and select **OK**
+1. Go to **Available customizations** > **Common Team Edition Settings**.
+1. Select the component you want to manage and configure the policy setting as appropriate.
+1. When you are done configuring the provisioning package, select  **File** > **Save**.
+1. Read the warning that project files may contain sensitive information, and select **OK**
 
 ### Build your package
 
@@ -227,10 +227,10 @@ When you build a provisioning package, you may include sensitive information in 
 4. Optional: You can choose to encrypt the package and enable package signing.
 
 - Select **Encrypt package** and then enter a password.
-- Select **Sign package** > **Browse** and choose the certificate as appropriate.
+    - Select **Sign package** > **Browse** and choose the certificate as appropriate.
 
-> [!IMPORTANT]
-> Including a trusted provisioning certificate in your provisioning package is recommended. When the package is applied to a device, the certificate is added to the system store, enabling subsequent packages to be applied silently.
+    > [!IMPORTANT]
+    > Including a trusted provisioning certificate in your provisioning package is recommended. When the package is applied to a device, the certificate is added to the system store, enabling subsequent packages to be applied silently.
 
 5. Select **Next** to specify the output location. By default, Windows Configuration Designer uses the project folder as the output location. Or select **Browse** to change the default output location. Select **Next**.
 6. Select **Build** to start building the package. The project information is displayed in the build page.
