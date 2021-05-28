@@ -136,21 +136,20 @@ If you only need to configure common settings, select **Finish** > **Create** an
 
 ## Use Advanced provisioning
 
-> [!div class="mx-imgBorder"]
-> ![Use advanced provisioning](images/sh-prov-adv.png)
-
 > [!TIP]
 > Use the wizard to create a package with the common settings, then switch to the advanced editor to add other settings.
+> ![Switch to advanced editor](images/icd-simple-edit.png)
 
 1. If continuing from the previous section, select **Switch to advanced editor** otherwise
-open **Windows Configuration Designer** and select **Advanced provisioning**.
-2. Name your project and select **Next**.
-3. Select **Common to Windows 10 Team**, select **Next**, and then select **Finish**.
+open **Windows Configuration Designer** and select **Advanced provisioning**.<br>
+     ![Use advanced provisioning](images/sh-prov-adv.png)
 
+2. Name your project and select **Next**.
+3. Select **Common to Windows 10 Team**, select **Next**, and then select **Finish**.<br>
      ![WCD new project](images/icd-new-project.png)
 
-4. In the project, under **Available customizations**, select **Common Team settings**.
- ![WCD common settings](images/icd-common-settings.png)
+4. In the project, under **Available customizations**, select **Common Team settings**.<br>
+     ![WCD common settings](images/icd-common-settings.png)
 
 ### Add a certificate to your package
 
