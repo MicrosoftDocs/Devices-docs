@@ -153,7 +153,7 @@ Surface Hub does not support remote assistance.
 
 ### Domain join and Azure Active Directory (Azure AD) join 
 
-Surface Hub uses domain join and Azure AD join primarily to provide a directory-backed admin group. Users can't sign in with a domain account. For more information, see [Admin group management](admin-group-management-for-surface-hub.md).
+Surface Hub uses domain join and Azure AD join primarily to provide a directory-backed admin group. Hybrid join is not supported. Users can't sign in with a domain account. For more information, see [Admin group management](admin-group-management-for-surface-hub.md).
 
 *Organization policies that this may affect:* <br> Group policies are not applied when a Surface Hub is joined to your domain. Policies related to domain membership don't apply for Surface Hub.
 
