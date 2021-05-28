@@ -136,9 +136,7 @@ If you only need to configure common settings, select **Finish** > **Create** an
 ## Use Advanced provisioning
 
 > [!TIP]
-> Use the wizard to create a package with the common settings, then switch to the advanced editor to add other settings.
-> <br>
-> ![Switch to advanced editor](images/icd-simple-edit.png)
+> Use the wizard to create a package with the common settings, then switch to the advanced editor to add other settings.<br><br> ![Switch to advanced editor](images/icd-simple-edit.png)
 
 1. If continuing from the previous section, select **Switch to advanced editor** otherwise
 open **Windows Configuration Designer** and select **Advanced provisioning**.<br>
