@@ -112,11 +112,12 @@ In addition to this provisioning package, you can use a Surface Hub configuratio
 1. Open Microsoft Excel (or other .csv editor), create a .csv file named SurfaceHubConfiguration.csv
 2. Enter a list of device accounts and friendly names in this format:
 
-```
-<DeviceAccountName>,<DeviceAccountPassword>,<FriendlyName>
-```
+    ```
+    <DeviceAccountName>,<DeviceAccountPassword>,<FriendlyName>
+    ```
 
-The configuration file must not contain column headers. When included in a provisioning package applied to Surface Hub, you can select the account and friendly name for the device from the file. To create the .csv file,  use either a UPN address format (rainier@contoso.com) or down-level logon name format (contoso\rainier).
+    > [!NOTE]
+    > The configuration file must not contain column headers. When included in a provisioning package applied to Surface Hub, you can select the account and friendly name for the device from the file. To create the .csv file,  use either a UPN address format (rainier@contoso.com) or down-level logon name format (contoso\rainier).
 
 - rainier@contoso.com,password,Rainier Surface Hub
 
@@ -198,7 +199,7 @@ Surface Hub supports a subset of the policies in the [Policy configuration servi
 1. Go to  **Available customizations** > **Runtime settings** > **Policies**.
 2. Select the component you want to manage and configure the policy setting as appropriate. For example, to prevent employees from using InPrivate website browsing on Surface Hub, select **AllowInPrivate** and then select **Disable**.  
 
-> [!div class="mx-imgBorder"]
+    > [!div class="mx-imgBorder"]
     > ![Configure policy setting](images/sh-prov-policies.png)
 
 ### Add Surface Hub settings to your package
@@ -224,10 +225,10 @@ When you build a provisioning package, you may include sensitive information in 
 > [!TIP]
 > You can modify existing packages and change the version number to update previously applied packages.
 
-4. Optional: You can choose to encrypt the package and enable package signing.
+4. Optional: You can choose to encrypt the package and enable package signing:
 
-    - Select **Encrypt package** and then enter a password.
-    - Select **Sign package** > **Browse** and choose the certificate as appropriate.
+    1. Select **Encrypt package** and then enter a password.
+    1. Select **Sign package** > **Browse** and choose the certificate as appropriate.
 
     > [!IMPORTANT]
     > Including a trusted provisioning certificate in your provisioning package is recommended. When the package is applied to a device, the certificate is added to the system store, enabling subsequent packages to be applied silently.
