@@ -10,7 +10,7 @@ ms.sitesec: library
 author: dansimp
 ms.author: dansimp
 ms.topic: article
-ms.date: 05/13/2021
+ms.date: 05/28/2021
 ms.localizationpriority: medium
 appliesto:
 - Surface Hub
@@ -30,7 +30,7 @@ Provisioning packages allow you to automate deployment of key features, helping 
 
 ## Overview
 
-1. On a separate PC running Windows 10, install [Windows Configuration Designer] from the Microsoft Store (https://www.microsoft.com/store/apps/9nblggh4tx22) .
+1. On a separate PC running Windows 10, install [Windows Configuration Designer](https://www.microsoft.com/store/apps/9nblggh4tx22) from the Microsoft Store.
 1. Select [**Provision Surface Hub devices**](#use-surface-hub-provisioning-wizard) to configure common settings using a wizard. Or select [Advanced provisioning](#use-advanced-provisioning) to view and configure all possible settings. 
 1. Create the provisioning package and save it to a USB drive.
 1. Deploy the package to your Surface Hub during first-run setup, or through the Settings app. To learn more, see [Create a provisioning package for Windows 10](/windows/configuration/provisioning-packages/provisioning-create-package).
@@ -138,7 +138,10 @@ If you only need to configure common settings, select **Finish** > **Create** an
 > [!div class="mx-imgBorder"]
 > ![Use advanced provisioning](images/sh-prov-adv.png)
 
-1. If continuing from the previous section, select **Switch to advanced provisioning** otherwise
+> [!TIP]
+> Use the wizard to create a package with the common settings, then switch to the advanced editor to add other settings.
+
+1. If continuing from the previous section, select **Switch to advanced editor** otherwise
 open **Windows Configuration Designer** and select **Advanced provisioning**.
 2. Name your project and select **Next**.
 3. Select **Common to Windows 10 Team**, select **Next**, and then select **Finish**.
@@ -188,7 +191,7 @@ If you acquired the app from the Microsoft Store for Business, you will need to 
 
 ### Add a policy to your package
 
-Surface Hub supports a subset of the policies in the [Policy configuration service provider] (/windows/client-management/mdm/policy-configuration-service-provider). Some of those policies can be configured with Windows Configuration Designer.
+Surface Hub supports a subset of the policies in the [Policy configuration service provider](/windows/client-management/mdm/policy-configuration-service-provider). Some of those policies can be configured with Windows Configuration Designer.
 
  **To add [CSP policies](/windows/client-management/mdm/policies-in-policy-csp-supported-by-surface-hub):**
 
