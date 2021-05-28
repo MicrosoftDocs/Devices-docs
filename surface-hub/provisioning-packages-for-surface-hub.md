@@ -31,11 +31,11 @@ Provisioning packages allow you to automate deployment of key features, helping 
 ## Overview
 
 1. On a separate PC running Windows 10, install [Windows Configuration Designer](https://www.microsoft.com/store/apps/9nblggh4tx22) from the Microsoft Store.
-1. Select [**Provision Surface Hub devices**](#use-surface-hub-provisioning-wizard) to configure common settings using a wizard. Or select [Advanced provisioning](#use-advanced-provisioning) to view and configure all possible settings. 
+1. Select [**Provision Surface Hub devices**](#use-surface-hub-provisioning-wizard) to configure common settings using a wizard. Or select [Advanced provisioning](#use-advanced-provisioning) to view and configure all possible settings.
 1. Create the provisioning package and save it to a USB drive.
 1. Deploy the package to your Surface Hub during first-run setup, or through the Settings app. To learn more, see [Create a provisioning package for Windows 10](/windows/configuration/provisioning-packages/provisioning-create-package).
 
-## Use Surface Hub provisioning wizard 
+## Use Surface Hub provisioning wizard
 
 > [!div class="mx-imgBorder"]
 > ![Use the Surface Hub provisioning wizard](images/sh-prov-start.png)
@@ -48,7 +48,7 @@ Provisioning packages allow you to automate deployment of key features, helping 
 > [!div class="mx-imgBorder"]
 > ![add a certificate](images/sh-prov-cert.png)
 
-To provision the device with a certificate, select **Add a certificate**. Enter a name for the certificate, and then browse to select the certificate to be used.  For advanced provisioning options, refer to the section below [Add a certificate to your package](#add-a-certificate-to-your-package). 
+To provision the device with a certificate, select **Add a certificate**. Enter a name for the certificate, and then browse to select the certificate to be used.  For advanced provisioning options, refer to the section below [Add a certificate to your package](#add-a-certificate-to-your-package).
 
 ### Configure proxy settings
 
@@ -58,8 +58,8 @@ To provision the device with a certificate, select **Add a certificate**. Enter 
 1. Toggle **Yes** or **No** for proxy settings. By default, Surface Hub automatically detects proxy settings. However, if your infrastructure previously required using a proxy server and has changed to not require a proxy server, you can use a provisioning package to revert your Surface Hub devices to the default settings by selecting **Yes** and **Automatically detect settings**.
 2. If you toggle **Yes**, you can select to automatically detect proxy settings or manually configure the settings by entering one of the following:
 
- - A URL to a setup script.
- - A static proxy server address and port information.
+- A URL to a setup script.
+- A static proxy server address and port information.
 
 3. If you intend to use a setup script or proxy server, turn off **Automatically detect settings**. You can use a setup script *or* a proxy server, not both.
 4. Enter exceptions (addresses that Surface Hub should connect to directly without using the proxy server). Example: *.office365.com
@@ -131,7 +131,7 @@ If you choose to use a password,  you will need to enter it each time you apply 
 
 ### Complete provisioning wizard
 
-If you only need to configure common settings, select **Finish** > **Create** and skip to the section [Build your package](#build-your-package). Or continue configuring settings by switching to Advanced provisioning. 
+If you only need to configure common settings, select **Finish** > **Create** and skip to the section [Build your package](#build-your-package). Or continue configuring settings by switching to Advanced provisioning.
 
 ## Use Advanced provisioning
 
@@ -262,5 +262,5 @@ The settings from the provisioning package will be applied to the device and OOB
 1. Insert the USB flash drive containing the .ppkg file into the Surface Hub.
 2. From Surface Hub, start **Settings** and enter the admin credentials when prompted.
 3. Navigate to **Surface Hub** > **Device management**. Under **Provisioning packages**, select **Add or remove a provisioning package** > **Add a package**.
-5. Choose your provisioning package and select **Add**.  If prompted, enter your admin credentials again. 
+5. Choose your provisioning package and select **Add**.  If prompted, enter your admin credentials again.
 6. You'll see a summary of the changes to be applied. Select **Yes, add it**.
