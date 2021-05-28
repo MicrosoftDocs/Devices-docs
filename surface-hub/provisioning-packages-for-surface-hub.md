@@ -37,10 +37,9 @@ Provisioning packages allow you to automate deployment of key features, helping 
 
 ## Use Surface Hub provisioning wizard
 
-> [!div class="mx-imgBorder"]
-> ![Use the Surface Hub provisioning wizard](images/sh-prov-start.png)
-
-1. Open Windows Configuration Designer and select **Provision Surface Hub devices**.
+1. Open Windows Configuration Designer and select **Provision Surface Hub devices**.<br>
+    ![Use the Surface Hub provisioning wizard](images/sh-prov-start.png)
+    
 2. Name your project and select **Next**.
 
 ### Add certificates
@@ -137,7 +136,7 @@ If you only need to configure common settings, select **Finish** > **Create** an
 ## Use Advanced provisioning
 
 > [!TIP]
-> Use the wizard to create a package with the common settings, then switch to the advanced editor to add other settings.
+> Use the wizard to create a package with the common settings, then switch to the advanced editor to add other settings.<br>
 > ![Switch to advanced editor](images/icd-simple-edit.png)
 
 1. If continuing from the previous section, select **Switch to advanced editor** otherwise
