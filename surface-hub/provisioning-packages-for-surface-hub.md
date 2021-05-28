@@ -226,7 +226,7 @@ When you build a provisioning package, you may include sensitive information in 
 
 4. Optional: You can choose to encrypt the package and enable package signing.
 
-- Select **Encrypt package** and then enter a password.
+    - Select **Encrypt package** and then enter a password.
     - Select **Sign package** > **Browse** and choose the certificate as appropriate.
 
     > [!IMPORTANT]
