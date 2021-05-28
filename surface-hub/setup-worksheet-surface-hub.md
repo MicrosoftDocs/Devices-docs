@@ -10,243 +10,86 @@ ms.sitesec: library
 author: dansimp
 ms.author: dansimp
 ms.topic: article
-ms.date: 06/20/2019
+ms.date: 05/14/2021
 ms.localizationpriority: medium
+appliesto:
+- Surface Hub
+- Surface Hub 2S
 ---
 
 # Setup worksheet (Surface Hub)
-
 
 When you've finished pre-setup and are ready to start first-time setup for your Microsoft Surface Hub, make sure you have all the information listed in this section.
 
 You should fill out one list for each Surface Hub you need to configure, although some information can be used on all Surface Hubs, like the proxy information or domain credentials. Some of this information may not be needed, depending on how you've decided to configure your device, or depending on how the environment is configured for your organization's infrastructure.
 
-<table>
-<tr>
-<th>Property</th>
-<th>What this is used for</th>
-<th>Example</th>
-<th>Actual value</th>
-</tr>
-<tr>
-<td>
-<p>Proxy information</p>
-</td>
-<td>
-<p>If your network uses a proxy for network and/or Internet access, you must provide a script or server/port information.</p>
-</td>
-<td>
-<p>Proxy script: <code>http://contoso/proxy.pa</code> </br>
-- OR - </br>
-Server and port info: 10.10.10.100, port 80
-</p>
-</td>
-<td>
-<p></p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Wireless network credentials (username and password)</p>
-</td>
-<td>
-<p>If you decide to connect your device to Wi-Fi, and your wireless network requires user credentials.</p>
-</td>
-<td>
-<p>admin1@contoso.com, #MyPassw0rd</p>
-</td>
-<td>
-<p></p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Device account UPN or Domain\username and device account password</p>
-</td>
-<td>
-<p>This is the User Principal Name (UPN) or the domain\username, and the password of the device account. Mail, calendar, and Skype for Business depend on a compatible device account.</p>
-</td>
-<td>
-<p> UPN: ConfRoom15@contoso.com, #Passw0rd1 </br>
-- OR - <br> 
-Domain and username: CONTOSO\ConfRoom15, #Passw0rd1</p>
-</td>
-<td>
-<p></p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Device account Microsoft Exchange server</p>
-</td>
-<td>
-<p>This is the device account's Exchange server.
-Mail, calendar, and Skype for Business depend on a compatible device account.
-For mail and calendar to work, the device account must have a valid Exchange server. The device will try to find this automatically.</p>
-</td>
-<td>
-<p>outlook.office365.com</p>
-</td>
-<td>
-<p></p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Device account Session Initiation Protocol (SIP) address</p>
-</td>
-<td>
-<p>This is the device account's Skype for Business SIP address.
-Mail, calendar, and Skype for Business depend on a compatible device account.
-For Skype for Business to work, the device account must have a valid SIP address. The device will try to find this automatically.</p>
-</td>
-<td>
-<p>sip: ConfRoom15@contoso.com</p>
-</td>
-<td>
-<p></p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Friendly name</p>
-</td>
-<td>
-<p>The friendly name of the device is the broadcast name that people will see when they try to wirelessly connect to the Surface Hub. This name will be displayed prominently on the Surface Hub's screen.
-We suggest that the friendly name you choose is recognizable and unique so that people can distinguish one Surface Hub from another when trying to connect.</p>
-</td>
-<td>
-<p>Conference Room 15</p>
-</td>
-<td>
-<p></p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Device name</p>
-</td>
-<td>
-<p>The device name is the name that will be used for domain join, and is the identity you will see in your MDM provider if the device is enrolled into MDM.
-The device name you choose must not be the same name as any other device on the user’s Active Directory domain (if you decide to domain join the device). The device cannot join the domain if its name is not unique.
-</p>
-</td>
-<td>
-<p>confroom15</p>
-</td>
-<td>
-<p></p>
-</td>
-</tr>
-<tr>
-<td colspan="4">
-<p><b>IF YOU'RE JOINING AZURE AD</b></p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Azure AD tenant user credentials (username and password)</p>
-</td>
-<td>
-<p>If you decide to have people in your Azure Active Directory (Azure AD) organization become admins on the device, then you'll need to join Azure AD.
-To join Azure AD, you will need valid user credentials.</p>
-</td>
-<td>
-<p>admin1@contoso.com, #MyPassw0rd</p>
-</td>
-<td>
-<p></p>
-</td>
-</tr>
-<tr>
-<td colspan="4">
-<p><b>IF YOU'RE JOINING A DOMAIN</b></p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Domain to join</p>
-</td>
-<td>
-<p>This is the domain you will need to join so that a security group of your choice can be admins for the device.
-You may need the fully qualified domain name (FQDN).</p>
-</td>
-<td>
-<p>contoso (short name) OR contoso.corp.com (FQDN)</p>
-</td>
-<td>
-<p></p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Domain account credentials (username and password)</p>
-</td>
-<td>
-<p>A domain can't be joined unless you provide sufficient account credentials to join the domain. Once you provide a domain to join and credentials to join the domain, then a security group of your choice can change settings on the device.</p>
-</td>
-<td>
-<p>admin1, #MyPassw0rd</p>
-</td>
-<td>
-<p></p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Admin security group alias</p>
-</td>
-<td>
-<p>This is a security group in your Active Directory (AD); any members of this security group can change settings on the device.</p>
-</td>
-<td>
-<p>SurfaceHubAdmins</p>
-</td>
-<td>
-<p></p>
-</td>
-</tr>
-<tr>
-<td colspan="4">
-<p><b>IF YOU'RE USING A LOCAL ADMIN</b></p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Local admin account credentials (username and password)</p>
-</td>
-<td>
-<p>If you decide not to join an AD domain or Azure AD, you can create a local admin account on the device.</p>
-</td>
-<td>
-<p>admin1, #MyPassw0rd</p>
-</td>
-<td>
-<p></p>
-</td>
-</tr>
-<tr>
-<td colspan="4">
-<p><b>IF YOU NEED TO INSTALL CERTIFICATES OR APPS</b></p>
-</td>
-</tr>
-<tr>
-<td>
-<p>USB drive</p>
-</td>
-<td>
-<p>If you know before first run that you want to install certificates or universal apps, follow the steps in <a href="provisioning-packages-for-certificates-surface-hub.md">Create provisioning packages</a>. Your provisioning packages will be created on a USB drive.</p>
-</td>
-<td>
-<p></p>
-</td>
-<td>
-<p></p>
-</td>
-</tr>
-</table> 
+When finished, review [Post deployment checklist](#post-deployment-checklist) below.
 
+| Property                                                          | What this is used for                                                                                                                                                                                                                                                                                                                                                           | Example                                                                                                                               | Learn more                                                                                                                                                                                                                                                              |
+| ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Proxy information                                                 | If you use a proxy for network or Internet access, you must provide a script or server/port information.                                                                                                                                                                                                                                                                        |  Proxy script: http://contoso/proxy.pac <br><br>Or:<br><br>Server and port info: 10.10.10.100, port 80                                  | [Configure proxy using provisioning package.](surface-hub-2s-deploy.md)                                                                                                                           |
+| Wireless network credentials (username and password)              | If connect your device to Wi-Fi, and your wireless network requires user credentials.                                                                                                                                                                                                                                                                                           | admin1@contoso.com, #MyPassw0rd                                                                                                       | [Wireless network management](wireless-network-management-for-surface-hub.md)                                                                                                                                                 |
+| Device account UPN or Domain\username and device account password | This is the User Principal Name (UPN) or the domain\username, and the password of the device account. Mail, calendar, Microsoft Teams, and Skype for Business depend on a compatible device account.                                                                                                                                                                            | UPN: ConfRoom15@contoso.com, #Passw0rd1 <br><br>Or:<br><br>Domain and username: CONTOSO\ConfRoom15, #Passw0rd1                        | [Create and test a device account](create-and-test-a-device-account-surface-hub.md) |
+| Mailbox properties                                                | The mailbox must be configured with the correct properties to enable the best meeting experience on Surface Hub.                                                                                                                                                                                                                                                                | See [Microsoft Exchange properties](exchange-properties-for-surface-hub-device-accounts.md) |                                                                                                                                        |
+| EWS URL for device account's mailbox                              | This is the device account's Exchange server. Mail, calendar, Microsoft Teams, and Skype for Business depend on a compatible device account. For mail and calendar to work, the device account must have a valid Exchange server. The device will try to find this automatically.                                                                                               | https://outlook.office365.com/EWS/exchange.asmx                                                                                                                 | [Create and test a device account](create-and-test-a-device-account-surface-hub.md)<br><br>[Microsoft Exchange properties](exchange-properties-for-surface-hub-device-accounts.md)      |
+| Device account Session Initiation Protocol (SIP) address          | This is the device account's SIP address. Mail, calendar, Microsoft Teams, and Skype for Business depend on a compatible device account. For teams or Skype for business to work, the device account must have a valid SIP address The device will try to find this automatically.                                                                                              | sip: ConfRoom15@contoso.com                                                                                                           |                                                                                                                                                                                                                                                                         |
+| Device account password                                           | To simplify management, you can either disable password expiration for the device account or allow Surface Hub to automatically rotate the device account password. <br> <br>**Note:** If adding the account in domain\username format, affiliate the Hub with on-premises Active Directory during initial setup. If adding the account in username@domain.com format, affiliate the Hub with Azure Active Directory during initial setup. Otherwise, password rotation will not work.                                                                                                                                                                                                                 |                                                                                                                                       | [Password management](password-management-for-surface-hub-device-accounts.md)                                                                                                                                                 |
+| Exchange Web Services (EWS)                                       | Enable EWS. Surface Hub uses EWS to sync its calendar.                                                                                                                                                                                                                                                                                                                          |                                                                                                                                       | [Modern authentication on Surface Hub](surface-hub-modern-auth.md)                                                                                                                                                            |
+| Multifactor authentication                                        | Disable multifactor authentication on the device account. As the Surface Hub logs into Exchange in the background without user interaction, it cannot respond to any interactive prompts, such as multifactor authentication.                                                                                                                                                                         |                                                                                                                                       |                                                                                                                                                                                                                                                                         |
+| MDM enrollment details                                            | If you would like to manually enroll the device to MDM, you will need to have user credentials that are valid for the MDM provider and the enrollment URL. The device will try to find the enrollment URL automatically. | manage.microsoft.com | [Manage Surface Hub with an MDM provider](manage-settings-with-mdm-for-surface-hub.md) |
+| Friendly name                                                     | The friendly name of the device is the broadcast name that people will see when they try to wirelessly connect to the Surface Hub. This name will be displayed prominently on the Surface Hub's screen. We suggest that the friendly name you choose is recognizable and unique so that people can distinguish one Surface Hub from another when trying to connect.             | Conference Room 15                                                                                                                    | [First time Setup for Surface Hub](surface-hub-2s-setup.md)                                                                                                                                                                   |
+| Device name                                                       | The device name is the name that will be used for domain join, and is the identity you will see in your MDM provider if the device is enrolled into MDM. The device name you choose must not be the same name as any other device in your Active Directory domain (if you decide to domain join the device). The device cannot join the domain without a unique name.  | confroom15                                                                                                                            | [First time Setup for Surface Hub](surface-hub-2s-setup.md)                                                                                                                                                                   |
+| Teams App Mode                                                    | - Mode 0 — Skype for Business with Microsoft Teams functionality for scheduled meetings.<br>- Mode 1 — Microsoft Teams with Skype for Business functionality for scheduled meetings.<br>- Mode 2 — Microsoft Teams only                                                                                                                                                         |                                                                                                                                       | [Changing default business communications platform](manage-settings-with-mdm-for-surface-hub.md)                                                                            |
 
+## Device affiliation
 
+Use Device affiliation to manage user access to the Settings app on Surface Hub. With the Windows 10 Team operating system (that runs on Surface Hub), only authorized users can adjust settings using the Settings app. Since choosing the affiliation can impact feature availability, plan appropriately to ensure that users can access features as intended.
 
+> [!NOTE]
+> You can only set Device affiliation during the initial out-of-box experience (OOBE) setup. If you need to reset Device affiliation, you’ll have to repeat OOBE setup.
 
+### If you’re joining Azure AD
+
+| Property                                                 | What this is used for                                                                                                                                                                                                                                                    | Example                         | Learn more                                                                                                                        |
+| -------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| Azure AD tenant user credentials (username and password) | If you decide to have people in your Azure Active Directory (Azure AD) organization become admins on the device, then you'll need to join the Surface Hub to Azure AD. To join it to Azure AD, you will need valid credentials for an account in the tenant.                                                               | admin1@contoso.com, #MyPassw0rd | [Admin group management](admin-group-management-for-surface-hub.md)                     |
+| Non Global Admin accounts                                | For Surface Hub devices joined to Azure AD,  you can limit admin permissions to management of the Settings app on Surface Hub. This enables you to scope admin permissions for Surface Hub only and prevent potentially unwanted admin access an entire Azure AD domain. |                                 | [Configure non Global admin accounts on Surface Hub](surface-hub-2s-nonglobal-admin.md) |
+
+### If you’re joining a domain
+
+| Property                                           | What this is used for                                                                                                                                                                                                                        | Example                                         |
+| -------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------- |
+| Domain to join                                     | This is the domain you will need to join so that a security group of your choice can be admins for the device. You may need the fully qualified domain name (FQDN).                                                                          | contoso (short name) OR contoso.corp.com (FQDN) |
+| Domain account credentials (username and password) | A domain can't be joined unless you provide sufficient account credentials to join the domain. Once you provide a domain to join and credentials to join the domain, then a security group of your choice can change settings on the device. | admin1, #MyPassw0rd                             |
+| Admin security group alias                         | This is a security group in your Active Directory (AD); any members of this security group can change settings on the device.                                                                                                                | SurfaceHubAdmins                                |
+
+### If you're using a local admin
+
+| Property                                                | What this is used for                                                                                   | Example             |
+| ------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- | ------------------- |
+| Local admin account credentials (username and password) | If you decide not to join an AD domain or Azure AD, you can create a local admin account on the device. | admin1, #MyPassw0rd |
+
+### If you need to install certificates or apps
+
+| Property  | What this is used for                                                                                                                                                                                                                                                                                        |
+| --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| USB drive | If you know before first run that you want to install certificates or universal apps, follow the steps in [Create provisioning packages](provisioning-packages-for-certificates-surface-hub.md). Your provisioning packages will be created on a USB drive. |
+
+## Post deployment checklist
+
+| Check                                      | Response                                                                                                                                                                                                          |
+| ------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Device account syncing**                 | ☐ Yes <br><br>☐ No                                                                                                                                                                                                |
+| **Bitlocker key**                          | ☐ Saved to file (no affiliation) <br><br>☐ Saved in Active Directory (AD affiliation) <br><br>☐ Saved in Azure AD (Azure AD affiliation)                                                                          |
+| **Device OS updates**                      | ☐ Completed                                                                                                                                                                                                       |
+| **Windows Store updates**                  | ☐ Automatic <br><br>☐ Manual                                                                                                                                                                                      |
+| **Microsoft Teams scheduled meeting**      | ☐ Confirmation email received <br><br>☐ Meeting appears on start screen <br><br>☐ One-touch join functions <br><br>☐ Able to join audio <br><br>☐ Able to join video <br><br>☐ Able to share screen               |
+| **Skype for Business scheduled meeting**   | ☐ Confirmation email received<br>☐ Meeting appears on start screen<br>☐ One-touch join functions correctly<br>☐ Able to join audio<br>☐ Able to join video<br>☐ Able to share screen<br>☐ Able to send/receive IM |
+| **Scheduled meeting when already invited** | ☐ Meeting declined                                                                                                                                                                                                |
+| **Microsoft Teams ad-hoc meeting**         | ☐ Invite other users work <br><br>☐ Able to join audio <br><br>☐ Able to join video <br><br>☐ Able to share screen                                                                                                |
+| **Microsoft Whiteboard**                   | ☐ Launch from Welcome / Start screen <br><br>☐ Launch from Microsoft Teams                                                                                                                                        |
+| **Incoming Teams/Skype call**              | ☐ Able to join audio<br>☐ Able to join video<br>☐ Able to share screen<br>☐ Able to send/receive IM (Skype for Business only)                                                                                     |
+| **Incoming live video streams**            | ☐ Maximum 2 (Skype for Business)<br>☐ Maximum 4 (Microsoft Teams)                                                                                                                                                 |
+| **Microsoft Teams Mode 0 behavior**        | ☐ Skype for Business tile on Welcome/Start screen<br>☐ Can join scheduled Skype for Business meetings (Skype UI)<br>☐ Can join scheduled Teams meetings (Teams UI)                                                |
+| **Microsoft Teams Mode 1 behavior**        | ☐ Teams tile on Welcome/Start screen<br>☐ Can join scheduled Skype for Business meetings (Skype UI)<br>☐ Can join scheduled Teams meetings (Teams UI)                                                             |
+| **Microsoft Teams Mode 2 behavior**        | ☐ Teams tile on Welcome / Start screen<br>☐ Can join scheduled Teams meetings<br>☐ Fail to join Skype for Business meetings                                                                                       |
