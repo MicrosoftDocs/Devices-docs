@@ -29,7 +29,12 @@ Every layer of Surface from chip to cloud is developed and maintained by Microso
 
 Surface drives security through a defense in-depth approach by utilizing a layering of independent defensive sub-components. From chip to cloud, or a UEFI that ensures a Root of Trust to the AI powered Microsoft Defender for Endpoint that works to prevent, detect, investigate, and respond to advanced threats, Surface enforces the position that built-in from Microsoft is better than bolt-on.
 
-Figure 1. Microsoft built UEFI for Boot Security and Firmware Management
+    > [!div class="mx-imgBorder"]
+    > [Figure 1. Microsoft built UEFI for Boot Security and Firmware Management](images/surface-security-summary.png)
+
+*Figure 1. Microsoft built UEFI for Boot*
+
+Security and Firmware Management
 
 | Feature                         | Description                                                                                                                                                                                                                                                                                                                         | Learn more                                                                                                                                                                   |
 | ------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
