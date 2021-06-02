@@ -110,5 +110,10 @@
             "redirect_url":  "https://docs.microsoft.com/surface-hub/setup-worksheet-surface-hub",
             "redirect_document_id":  false
         },
+        {
+            "source_path":  "surface-hub/surface-hub-2s-deploy.md",
+            "redirect_url":  "https://docs.microsoft.com/surface-hub/provisioning-packages-for-surface-hub",
+            "redirect_document_id":  false
+        },
 ]
 }
