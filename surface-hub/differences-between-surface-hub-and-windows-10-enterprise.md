@@ -133,7 +133,7 @@ The administrative features in Windows 10 Enterprise, such as the Microsoft Mana
 
 ### Remote management and monitoring
 
-Surface Hub supports remote management through mobile device management (MDM) solutions such as [Microsoft Intune](https://docs.microsoft.com/intune/) and monitoring through [Azure Monitor](https://azure.microsoft.com/services/monitor/). 
+Surface Hub supports remote management through mobile device management (MDM) solutions such as [Microsoft Intune](/mem/intune/) and monitoring through [Azure Monitor](/azure/azure-monitor/). 
 
 *Organization policies that this may affect:* <br> Surface Hub doesn't support installing Win32 agents required by most traditional PC management and monitoring tools, such as System Center Operations Manager.
 
@@ -153,7 +153,7 @@ Surface Hub does not support remote assistance.
 
 ### Domain join and Azure Active Directory (Azure AD) join 
 
-Surface Hub uses domain join and Azure AD join primarily to provide a directory-backed admin group. Users can't sign in with a domain account. For more information, see [Admin group management](admin-group-management-for-surface-hub.md).
+Surface Hub uses domain join and Azure AD join primarily to provide a directory-backed admin group. Hybrid join is not supported. Users can't sign in with a domain account. For more information, see [Admin group management](admin-group-management-for-surface-hub.md).
 
 *Organization policies that this may affect:* <br> Group policies are not applied when a Surface Hub is joined to your domain. Policies related to domain membership don't apply for Surface Hub.
 
