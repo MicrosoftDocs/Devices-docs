@@ -46,10 +46,10 @@ By default, Windows 10 supports Wake on LAN for Surface devices in Connected Sta
 
 ### Supported Surface devices - Connected Standby
 
-- Surface Laptop 3 (Intel processors only)
 - Surface Laptop 4 (Intel processors only)
-- Surface Pro 7
+- Surface Laptop 3 (Intel processors only)
 - Surface Pro 7+
+- Surface Pro 7
 - Surface Pro X
 - Surface Go 2
 - Surface Laptop Go
@@ -61,10 +61,10 @@ To wake devices out of Hibernation requires enabling a UEFI policy setting via [
 
 ### Supported Surface devices - Hibernation
 
-- Surface Laptop 3 (Intel processors only)
 - Surface Laptop 4 (Intel processors only)
-- Surface Pro 7
+- Surface Laptop 3 (Intel processors only)
 - Surface Pro 7+
+- Surface Pro 7
 - Surface Laptop Go
 - Surface Book 3
 
