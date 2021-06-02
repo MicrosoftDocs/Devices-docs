@@ -86,6 +86,10 @@ Surface devices’ Root of Trust checks signatures and measurements to tightly e
 
 As shown in Figure 2, the integrity of the firmware is checked at each stage from pressing the power button to running the operating system.
 
+ > [!div class="mx-imgBorder"]
+ > ![Figure 2. Secure Boot for Surface devices](images/secboot.png)
+ *Figure 2. Secure Boot for Surface devices*
+
 | Step  | Secure Boot Phase                                                                                                                                                                                                                                      |
 | ----- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | **1** | Security is instantiated every time the power button is pressed from a root of trust provided by the TPM. When a device is first powered on, the system runs a series of security checks to ensure device firmware has not been tampered or corrupted. |
@@ -94,9 +98,7 @@ As shown in Figure 2, the integrity of the firmware is checked at each stage fro
 | **4** | Before allowing UEFI to run, Boot Guard checks that the UEFI is signed with a Surface OEM key. The initially checked UEFI module is the SEC security and the PEI Pre-EFI sections shown in the diagram.                                                |
 | **5** | The PEI section checks for a Surface signature on the driver execution environment, the DXE module, as it is loaded. The DXE module includes the boot device selection phase.                                                                          |
 | **6** | Once the boot device is selected, UEFI reads the boot device and checks the signature of the OS boot loader before allowing it to execute.                                                                                                             |
-| **7** | The OS then checks its signatures on its main component as it brings up the OS.                                                                                    > [!div class="mx-imgBorder"]
- > ![Figure 2. Secure Boot for Surface devices](images/secboot.png)
- *Figure 2. Secure Boot for Surface devices*
+| **7** | The OS then checks its signatures on its main component as it brings up the OS.                                                                                    
 
 ### Malware protection
 
