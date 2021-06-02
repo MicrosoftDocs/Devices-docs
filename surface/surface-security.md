@@ -31,6 +31,7 @@ Surface drives security through a defense in-depth approach by utilizing a layer
 
 > [!div class="mx-imgBorder"]
 > ![Figure 1. Microsoft built UEFI for Boot Security and Firmware Management](images/surface-uefi-firmware.png)
+
 *Figure 1. Microsoft built UEFI for Boot*
 
 Security and Firmware Management
