@@ -20,8 +20,8 @@ ms.date: 6/03/2021
 
 To keep devices fully up to date, IT admins need to be able to manage devices when they’re not in use, typically during nightly maintenance windows. Surface Dock 2 provides the best support for Wake on LAN (WOL) enabling admins to remotely wake up devices and automatically perform management tasks with Microsoft Intune or other mobile device management (MDM) providers. Devices must be connected to AC power and have a wired connection with Surface Dock 2.
 
-    > [!div class="mx-imgBorder"]
-    > ![Surface Dock 2](images/surface-dock2-angled.png)
+> [!div class="mx-imgBorder"]
+> ![Surface Dock 2](images/surface-dock2-angled.png)
 
 ## Supported Surface devices
 
@@ -41,7 +41,7 @@ Surface Dock 2 provides WOL support for devices in the following power states:
 - Hibernation (S4 power state)
 - Hibernation (S5 “soft off” power state)
 
-To learn more about power states, see [System Power States](https://docs.microsoft.com/windows/win32/power/system-power-states).
+To learn more about power states, see [System Power States](/windows/win32/power/system-power-states).
 
 ## How it works
 
@@ -53,5 +53,5 @@ To enable WOL on devices without Surface Dock 2, see [Wake on LAN for Surface de
 
 - [Surface Dock 2](https://www.microsoft.com/p/surface-dock-2-for-business/8q4hgc6kbmdq?)
 - [Wake On LAN for Surface devices](wake-on-lan-for-surface-devices.md)
-- [System Power States](https://docs.microsoft.com/windows/win32/power/system-power-states)
-- [Configure Wake on LAN - Configuration Manager](https://docs.microsoft.com/mem/configmgr/core/clients/deploy/configure-wake-on-lan)
+- [System Power States](/windows/win32/power/system-power-states)
+- [Configure Wake on LAN - Configuration Manager](/mem/configmgr/core/clients/deploy/configure-wake-on-lan)
