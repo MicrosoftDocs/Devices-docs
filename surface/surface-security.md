@@ -8,7 +8,7 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 05/28/2021
+ms.date: 06/04/2021
 ms.reviewer: brrecord
 manager: laurawi
 audience: itpro
@@ -21,7 +21,7 @@ Today, managing device firmware is an inconsistent experience and often involves
 
 Microsoft Surface has been using a unified approach to firmware protection and device security since 2015 through complete end-to-end ownership of the hardware design, in-house firmware development, and a holistic approach to device updates and management.
 
-For Surface, our Unified Extensible Firmware Interface (UEFI) is maintained in-house, regularly updated through Windows Update, and seamlessly deployed for management through Windows Autopilot, minimizing risk and maximizing control at the firmware level before the device boots. Microsoft provides fully transparency of the code base in our UEFI through the Open Source [Project Mu](https://microsoft.github.io/mu/) on GitHub, managed by Microsoft Endpoint Manager.
+For Surface, our Unified Extensible Firmware Interface (UEFI)<sup>[1](#references)</sup> is maintained in-house, regularly updated through Windows Update, and seamlessly deployed for management through Windows Autopilot, minimizing risk and maximizing control at the firmware level before the device boots. Microsoft provides fully transparency of the code base in our UEFI through the Open Source [Project Mu](https://microsoft.github.io/mu/) on GitHub, managed by Microsoft Endpoint Manager.
 
 ## Microsoft designed and built components
 
@@ -38,7 +38,7 @@ Security and Firmware Management
 
 | Feature                         | Description                                                                                                                                                                                                                                                                                                                         | Learn more                                                                                                                                                                   |
 | ------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Microsoft Built UEFI            | Software that configures the device and boots Windows 10<br>Controls initial boot of device and Windows 10, then provides firmware runtime services to the  OS. ensures significantly more control over the hardware of a device through SEMM on-prem management and DFCI cloud-based management through Microsoft Endpoint Manager | [Manage Surface UEFI settings](manage-surface-uefi-settings.md)                                                                        |
+| Microsoft Built UEFI            | Software that configures the device and boots Windows 10<br>Controls initial boot of device and Windows 10, then provides firmware runtime services to the  OS. ensures significantly more control over the hardware of a device through SEMM on-prem management and DFCI<sup>[2](#references)</sup> cloud-based management through Microsoft Endpoint Manager | [Manage Surface UEFI settings](manage-surface-uefi-settings.md)                                                                        |
 | Physical TPM 2.0                | Trusted Platform Module - Dedicated microcontroller designed to secure hardware through integrated cryptographic keys.<br>Encrypts and stores keys (BitLocker, Windows Hello, AD Credentials,)<br>PCR - Platform Configuration Registers that secure measurements and relevant metrics to detect changes to previous configuration  | [Trusted Platform Module Technology Overview](/windows/security/information-protection/tpm/trusted-platform-module-overview)                 |
 | Windows Hello for Business      | Replaces passwords with strong two-factor authentication on PCs and mobile devices. This biometric authentication consists of a new type of user credential that is tied to a device and uses a biometric or PIN.                                                                                                                   | [How Windows Hello for Business works - Microsoft 365 Security](/windows/security/identity-protection/hello-for-business/hello-how-it-works) |
 | Integrated encryption           | Integrated encryption is enabled by BitLocker to secure and encrypt your data, and Windows Hello to enable passwordless login, combined with physical TPM and UEFI.                                                                                                                                                                 | [BitLocker (Windows 10) - Microsoft 365 Security](/windows/security/information-protection/bitlocker/bitlocker-overview)                     |
@@ -132,4 +132,21 @@ IT admins can remotely manage Surface devices without having to physically touch
 | SEMM (Surface Enterprise Management Mode)      | Enables centralized enterprise engagement of UEFI firmware settings across on-premises, hybrid, and cloud environments.¹                                                                                                                                                                                                                                                                                           | [Surface Enterprise Management Mode](surface-enterprise-management-mode.md)                                                                                                                                                       |
 | Windows Update for Business                    | Enables IT admins to keep the Windows 10 devices in their organization always up to date with the latest security defenses, Windows features, and Surface firmware by directly connecting these systems to Windows Update service. You can use Group Policy or MDM solutions such as Microsoft Intune to configure the Windows Update for Business settings that control how and when Surface devices are updated. | [Windows Update for Business](/windows/deployment/update/waas-manage-updates-wufb)<br> <br>[Manage and deploy Surface driver and firmware updates](manage-surface-driver-and-firmware-updates.md) |
 
+## References
+
+1. Surface Go and Surface Go 2 use a third party UEFI and do not support DFCI. DFCI is currently available for Surface Laptop Go, Surface Book 3, Surface Laptop 3, Surface Pro 7, and Surface Pro X. about managing Surface UEFI settings.
+2. DFCI is currently available for Surface Laptop Go, Surface Book 3, Surface Laptop 3, Surface Pro 7, and Surface Pro X. about managing Surface UEFI settings.
+
+
+
+
+
+
+
 ## Learn more
+
+- [New Surface PCs enable virtualization-based security (VBS) by default to empower customers to do more, securely](https://www.microsoft.com/security/blog/2021/01/11/new-surface-pcs-enable-virtualization-based-security-vbs-by-default-to-empower-customers-to-do-more-securely/)
+- [Enhancing security and compliance with Microsoft Surface and Microsoft 365](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/enhancing-security-and-compliance-with-microsoft-surface-and/ba-p/2283062)
+- [Project Mu](https://microsoft.github.io/mu/)
+- [Manage Surface UEFI settings](manage-surface-uefi-settings.md)
+- [Intune management of Surface UEFI settings](surface-manage-dfci-guide.md)
