@@ -132,7 +132,8 @@ IT admins can remotely manage Surface devices without having to physically touch
 ## Learn more
 
 - [New Surface PCs enable virtualization-based security (VBS) by default to empower customers to do more, securely](https://www.microsoft.com/security/blog/2021/01/11/new-surface-pcs-enable-virtualization-based-security-vbs-by-default-to-empower-customers-to-do-more-securely/)
+- [Study highlights critical role of Surface firmware protection](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/study-highlights-critical-role-of-surface-firmware-protection/ba-p/2245244)
 - [Enhancing security and compliance with Microsoft Surface and Microsoft 365](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/enhancing-security-and-compliance-with-microsoft-surface-and/ba-p/2283062)
-- [Project Mu](https://microsoft.github.io/mu/)
 - [Manage Surface UEFI settings](manage-surface-uefi-settings.md)
 - [Intune management of Surface UEFI settings](surface-manage-dfci-guide.md)
+- [Project Mu](https://microsoft.github.io/mu/)
