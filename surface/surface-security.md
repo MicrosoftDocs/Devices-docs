@@ -99,7 +99,7 @@ As shown in Figure 2, the integrity of the firmware is checked at each stage fro
 | **4** | Before allowing UEFI to run, Boot Guard checks that the UEFI is signed with a Surface OEM key. The initially checked UEFI module is the SEC security and the PEI Pre-EFI sections shown in the diagram.                                                |
 | **5** | The PEI section checks for a Surface signature on the driver execution environment, the DXE module, as it is loaded. The DXE module includes the boot device selection phase.                                                                          |
 | **6** | Once the boot device is selected, UEFI reads the boot device and checks the signature of the OS boot loader before allowing it to execute.                                                                                                             |
-| **7** | The OS then checks its signatures on its main component as it brings up the OS.                                                                                    
+| **7** | The OS then checks its signatures on its main component as it brings up the OS.
 
 ### Malware protection
 
@@ -136,12 +136,6 @@ IT admins can remotely manage Surface devices without having to physically touch
 
 1. Surface Go and Surface Go 2 use a third party UEFI and do not support DFCI. DFCI is currently available for Surface Laptop Go, Surface Book 3, Surface Laptop 3, Surface Pro 7, and Surface Pro X. about managing Surface UEFI settings.
 2. DFCI is currently available for Surface Laptop Go, Surface Book 3, Surface Laptop 3, Surface Pro 7, and Surface Pro X. about managing Surface UEFI settings.
-
-
-
-
-
-
 
 ## Learn more
 
