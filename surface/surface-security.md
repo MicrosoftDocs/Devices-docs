@@ -29,13 +29,6 @@ Every layer of Surface from chip to cloud is developed and maintained by Microso
 
 Surface drives security through a defense in-depth approach by utilizing a layering of independent defensive sub-components. From chip to cloud, or a UEFI that ensures a Root of Trust to the AI powered Microsoft Defender for Endpoint that works to prevent, detect, investigate, and respond to advanced threats, Surface enforces the position that built-in from Microsoft is better than bolt-on.
 
-> [!div class="mx-imgBorder"]
-> ![Figure 1. Microsoft built UEFI for Boot Security and Firmware Management](images/surface-uefi-firmware.png)
-
-*Figure 1. Microsoft built UEFI for Boot*
-
-Security and Firmware Management
-
 | Feature                         | Description                                                                                                                                                                                                                                                                                                                         | Learn more                                                                                                                                                                   |
 | ------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Microsoft Built UEFI            | Software that configures the device and boots Windows 10<br>Controls initial boot of device and Windows 10, then provides firmware runtime services to the  OS. ensures significantly more control over the hardware of a device through SEMM on-prem management and DFCI cloud-based management through Microsoft Endpoint Manager | [Manage Surface UEFI settings](manage-surface-uefi-settings.md)                                                                        |
