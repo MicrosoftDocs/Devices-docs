@@ -40,6 +40,10 @@ When a Microsoft 365 tenant is onboarded to the beta, the following roles have a
 
 For more information about users and permissions, see [Microsoft Admin Center Overview](/microsoft-365/admin/admin-overview/about-the-admin-center)
 
+## Create and manage a service order
+
+(placeholder section)
+
 ## Frequently asked questions
 
 ### Why am I getting error code 400 “Generic client service error”, 401 “Unauthorized service error” or error 403 “Forbidden service error”?
