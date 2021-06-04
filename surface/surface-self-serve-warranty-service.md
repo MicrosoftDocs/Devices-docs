@@ -42,7 +42,28 @@ For more information about users and permissions, see [Microsoft Admin Center Ov
 
 ## Create and manage a service order
 
-(placeholder section)
+1. Go to Microsoft 365 Admin Center  and sign in with your owner account (the account that has administrative permissions).
+2. Click **Surface device repairs** > **Create repair request**.
+3. Select **Submit 1 device** and click **Next.**
+4. Confirm shipping address. To associate a new email address for notifications for this repair request, choose **Add new address** and enter the email as appropriate.
+
+### Submit multiple devices
+
+1. Create a .csv file in the following format:
+
+- placeholder
+
+### Submit single device
+
+1. Input the device serial number and confirm it's correct.
+2. Click **Add Device**.
+3. Repeat to add up to 20 devices to the request.
+
+### Finalize request
+
+1. Review your order. If any information is incorrect, choose **Back** to correct any errors.
+2. Accept the terms and conditions.
+3. Your repair request is summarized. If correct, choose **Submit your request.**
 
 ## Frequently asked questions
 
