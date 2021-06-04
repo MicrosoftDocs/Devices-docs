@@ -62,7 +62,7 @@ Orders created through Microsoft Customer Support will not be visible in the Sel
 
 The ability to add, edit, or delete a shipping address can only be done by your Microsoft 365 Global or Billing Admin. Reach out to them for assistance.  
 
-### How to Contact Microsoft Support for the Surface Self-Serve Warranty and Service beta
+### How can I Contact Microsoft Support for the Surface Self-Serve Warranty and Service beta?
 
 You can contact support directly through the Surface Support module in the Microsoft Admin Center.
 
