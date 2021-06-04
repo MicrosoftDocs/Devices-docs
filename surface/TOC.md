@@ -57,7 +57,7 @@
 ### [Surface Brightness Control](microsoft-surface-brightness-control.md)
 ### [Surface Asset Tag](assettag.md)
 ### [Wake On LAN for Surface devices](wake-on-lan-for-surface-devices.md)
-### [Wake On LAN for Surface Dock 2](wake-on-lan-surface-dock2.md)
+### [Wake On LAN with Surface Dock 2](wake-on-lan-surface-dock2.md)
 ### [Wake on Power for Surface devices](wake-on-power-for-surface.md)
 
 ## Secure
