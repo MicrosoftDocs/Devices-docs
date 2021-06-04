@@ -38,7 +38,7 @@ When a Microsoft 365 tenant is onboarded to the beta, the following roles have a
 | Service Support Admin | View Repair Requests<br>Create/Manage Repair Requests                                                                               |
 | Billing Admin         | View Repair Requests<br>Create/Manage Repair Requests<br>Add/Edit/Delete Ship to address(es)                                        |
 
-For more information about users and permissions, see [Microsoft Admin Center Overview](/microsoft-365/admin/admin-overview/about-the-admin-center?view=o365-worldwide)
+For more information about users and permissions, see [Microsoft Admin Center Overview](/microsoft-365/admin/admin-overview/about-the-admin-center)
 
 ## Frequently asked questions
 
