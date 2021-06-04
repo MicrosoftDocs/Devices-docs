@@ -13,12 +13,12 @@ ms.topic: article
 ms.reviewer: jesko
 manager: laurawi
 ms.audience: itpro
-ms.date: 6/03/2021
+ms.date: 6/04/2021
 ---
 
 # Wake On LAN for Surface devices
 
-To keep devices fully up to date, IT admins need to be able to manage devices when they’re not in use, typically during nightly maintenance windows. Wake on LAN (WOL) enables admins to remotely wake up devices and automatically perform management tasks with Microsoft Intune or other mobile device management (MDM) providers.
+To keep devices fully up to date, IT admins need to be able to manage devices when they’re not in use, typically during nightly maintenance windows. Wake on LAN (WOL) enables admins to remotely wake up devices and automatically perform management tasks with Microsoft Endpoint Manager or third-party solutions.
 
 ## Requirements
 
