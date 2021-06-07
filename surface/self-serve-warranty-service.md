@@ -14,7 +14,7 @@ manager: laurawi
 audience: itpro
 ---
 
-# Surface Self Serve Warranty and Service
+# Surface self-serve warranty and service
 
 Microsoft 365 Business customers may be eligible to use the beta Surface Self Serve Warranty and Service node in the Microsoft Admin Center to create and manage service orders. This new feature allows Global Admins to designate permissions to individuals within their company responsible for supporting warranty and service claims including:
 
@@ -43,7 +43,7 @@ For more information about users and permissions, see [Microsoft Admin Center Ov
 ## Create and manage a service order
 
 1. Go to the Microsoft 365 Admin Center at [https://admin.microsoft.com](https://go.microsoft.com/fwlink/p/?linkid=2024339) and sign in with the appropriate admin permissions. To learn more, see  [Who has admin permissions in my business?](/microsoft-365/business-video/admin-center-overview#who-has-admin-permissions-in-my-business).
-2. Go to **Support** > **Surface Device Repairs** and select **Create a Repair**. (If you do not see this repair option, you do not have permission to access this page.)
+2. Go to **Support** > **Surface Device Repairs** and select **Create repair request**. (If you do not see this repair option, you do not have permission to access this page.)
 
     > [!div class="mx-imgBorder"]
     > ![Start self-serve repair request](images/self-serve-fig1.png)
