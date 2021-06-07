@@ -50,7 +50,7 @@ For more information about users and permissions, see [Microsoft Admin Center Ov
     > [!div class="mx-imgBorder"]
     > ![Start self-serve repair request](images/self-serve-fig1.png)
 
-3. You can create a repair request for one or multiple devices. Select either **Submit 1 device** at a time or **Submit multiple devices** to use a .csv file to upload multiple serial numbers and click **Next**.
+3. You can create a repair request for one or multiple devices. Select either **Submit 1 device** at a time or **Submit multiple devices** to use a .csv file to upload multiple serial numbers and select **Next**.
 
     > [!NOTE]
     > **For multiple devices:**
@@ -75,14 +75,14 @@ For more information about users and permissions, see [Microsoft Admin Center Ov
     > ![Add devices](images/self-serve-fig2.png)
 
 6. Repeat steps 1-2 to add multiple devices (up to 20 total) to the request.
-7. From the drop down menu, select the issue type that best describes the issue and click **Next.**
+7. From the drop down menu, select the issue type that best describes the issue and select **Next.**
 
     > [!div class="mx-imgBorder"]
     > ![Select issue category](images/self-serve-fig3.png)
 
 8. Review your order. If any information is incorrect, choose **Back** to correct errors.
 9. Accept the terms of conditions.
-10. If request summary is correct, click **Submit your request**
+10. If request summary is correct, select **Submit your request**.
 
     > [!div class="mx-imgBorder"]
     > ![Submit self-serve repair request](images/self-serve-fig4.png)
