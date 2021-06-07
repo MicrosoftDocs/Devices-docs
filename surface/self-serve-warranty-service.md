@@ -44,15 +44,29 @@ For more information about users and permissions, see [Microsoft Admin Center Ov
 
 1. Go to the Microsoft 365 Admin Center at [https://admin.microsoft.com](https://go.microsoft.com/fwlink/p/?linkid=2024339) and sign in with the appropriate admin permissions. To learn more, see  [Who has admin permissions in my business?](https://docs.microsoft.com/microsoft-365/business-video/admin-center-overview?view=o365-worldwide#who-has-admin-permissions-in-my-business).)
 2. Go to **Support** > **Surface Device Repairs** and select **Create a Repair**. (If you do not see this repair option, you do not have permission to access this page.)
+
+> [!div class="mx-imgBorder"]
+> ![Start self-serve repair request](images/self-serve-fig1.png)
+
 3. You can create a repair request for one or multiple devices. Select either **Submit 1 device** at a time or **Submit multiple devices** to use a .csv file to upload multiple serial numbers and click **Next**.
 4. Under **Ship replacement to**, select a shipping address. Or select  **Add new address** .
-5. Add device by entering the device serial number in the text block. To learn more, see [device serial numbers](https://support.microsoft.com/help/4036293/surface-find-the-serial-number-on-surface) ).  If the serial number is valid, an image and product information including warranty date and model number will appear. Select **Add Device** if information is correct.
-6. Repeat steps 1-2 to add multiple devices (up to 20 total) to the request.
-7. From the drop down menu, select the issue type that best describes the issue and click **Next.**
-8. Review your order. If any information is incorrect, choose **Back** to correct errors.
-9. Accept the terms of conditions.
-10. If request summary is correct, click **Submit your request**
-11. You will be returned to the home page and be able to view your service request in the summary list and receive a confirmation email.
+5. Add device by entering the device serial number in the text block. To learn more, see [device serial numbers](https://support.microsoft.com/help/4036293/surface-find-the-serial-number-on-surface).  If the serial number is valid, an image and product information including warranty date and model number will appear. Select **Add Device** if information is correct.
+> [!div class="mx-imgBorder"]
+> ![Add devices](images/self-serve-fig2.png)
+
+1. Repeat steps 1-2 to add multiple devices (up to 20 total) to the request.
+1. From the drop down menu, select the issue type that best describes the issue and click **Next.**
+
+> [!div class="mx-imgBorder"]
+> ![Select issue category](images/self-serve-fig3.png)
+1. Review your order. If any information is incorrect, choose **Back** to correct errors.
+1. Accept the terms of conditions.
+1. If request summary is correct, click **Submit your request**
+
+> [!div class="mx-imgBorder"]
+> ![Submit self-serve repair request](images/self-serve-fig4.png)
+
+1. You will be returned to the home page and be able to view your service request in the summary list and receive a confirmation email.
 
 ## Frequently asked questions
 
