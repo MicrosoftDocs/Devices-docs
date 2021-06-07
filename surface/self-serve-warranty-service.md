@@ -55,9 +55,9 @@ For more information about users and permissions, see [Microsoft Admin Center Ov
     > [!NOTE]
     > **For multiple devices:**
     >
-    > - Download the sample CSV template, add the information required and save it to your local drive.
-    > - Click **Upload CSV file for bulk entries**, select the .csv file you saved to your local drive and click **Open.**
-    > - Your device serial numbers will upload. Click **Next** to continue the creating the repair.
+    > - From the Admin Center page, download the sample CSV template, add the information required and save it to your local drive.
+    > - Select **Upload CSV file for bulk entries**, select the .csv file you saved to your local drive and select **Open.**
+    > - Your device serial numbers will upload. Select **Next** to continue the creating the repair.
 
 4. Under **Ship replacement to**, select a shipping address. Or select  **Add new address**.
 
