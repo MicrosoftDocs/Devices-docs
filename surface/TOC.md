@@ -24,7 +24,6 @@
 
 ### [Surface device compatibility with Windows 10 Long-Term Servicing Branch](surface-device-compatibility-with-windows-10-ltsc.md)
 ### [Long-Term Servicing Branch for Surface devices](ltsb-for-surface.md)
-### [Wake On LAN for Surface devices](wake-on-lan-for-surface-devices.md)
 ### [Considerations for Surface and Endpoint Configuration Manager](considerations-for-surface-and-system-center-configuration-manager.md)
 ### [Deploy Surface app with Microsoft Store for Business](deploy-surface-app-with-windows-store-for-business.md)
 ### [Enable PEAP, EAP-FAST, and Cisco LEAP on Surface devices](enable-peap-eap-fast-and-cisco-leap-on-surface-devices.md)
@@ -57,6 +56,8 @@
 ### [Battery Limit setting](battery-limit.md)
 ### [Surface Brightness Control](microsoft-surface-brightness-control.md)
 ### [Surface Asset Tag](assettag.md)
+### [Wake On LAN for Surface devices](wake-on-lan-for-surface-devices.md)
+### [Wake On LAN with Surface Dock 2](wake-on-lan-surface-dock2.md)
 ### [Wake on Power for Surface devices](wake-on-power-for-surface.md)
 
 ## Secure

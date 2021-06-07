@@ -13,67 +13,78 @@ ms.topic: article
 ms.reviewer: jesko
 manager: laurawi
 ms.audience: itpro
-ms.date: 3/19/2021
+ms.date: 6/04/2021
 ---
 
 # Wake On LAN for Surface devices
 
-Surface devices that use a Surface Ethernet adapter to connect to a wired network can take advantage of Wake On LAN (WOL) from Connected Standby. With WOL, you can remotely wake up devices and automatically perform management tasks using management solutions such as Microsoft Endpoint Manager/Microsoft Intune.
+To keep devices fully up to date, IT admins need to be able to manage devices when they’re not in use, typically during nightly maintenance windows. Wake on LAN (WOL) enables admins to remotely wake up devices and automatically perform management tasks with Microsoft Endpoint Manager or third-party solutions.
 
-## WOL-supported devices
+## Requirements
 
-- Surface Ethernet adapter
+Devices must be connected to AC power and have a wired connection with one of the following compatible Ethernet adapters:
+
+- Surface USB 3.0 Gigabit Ethernet Adapter
+- Surface Ethernet Adapter
 - Surface USB-C to Ethernet and USB Adapter
+- Microsoft USB-C Travel Adapter Hub
+- Surface Dock
 - Surface Dock 2
-- Surface Pro 6 and later
-- Surface Book (all generations)
-- Surface Laptop (all generations)
-- Surface Go (all generations)
-- Surface Studio 2 (see Appendix)
 
+> [!NOTE]
+> Surface Dock 2 provides the best support for Wake on LAN without the need for any additional IT configuration. To learn more, see [Wake on LAN for Surface Dock 2](wake-on-lan-surface-dock2.md)
 
-## Using Surface WOL
+## How it works
 
-IT admins can trigger devices using a wake on LAN request (magic packet) that contains the target computer’s MAC address. To send a magic packet and wake up a device by using WOL, you must know the MAC address of the target device and Ethernet adapter. Because the magic packet does not use the IP network protocol, it is not possible to use the IP address or DNS name of the device.
+When not in use, Surface devices enter an idle, low powered state known as Modern Standby or Connected Standby. IT admins can remotely trigger devices using a wake request (magic packet) that contains the Media Access Control (MAC) address of the target Surface device. Many management solutions, such as Microsoft Endpoint Configuration Manager and third-party Microsoft Store apps provide built-in support for WOL. To learn more about waking devices with Endpoint Configuration Manager, see [Configure Wake on LAN - Configuration Manager](/mem/configmgr/core/clients/deploy/configure-wake-on-lan).
 
-Many management solutions, such as Microsoft Endpoint Configuration Manager and third party Microsoft Store apps provide built-in support for WOL. Note that devices need to be in Connected Standby (Sleep) mode and connected to AC power. To learn more about waking devices with Endpoint Configuration Manager, see [Configure Wake on LAN - Configuration Manager](https://docs.microsoft.com/mem/configmgr/core/clients/deploy/configure-wake-on-lan).
+Support for Wake on LAN varies depending on sleep state:  Connected Standby or Hibernation (S4 power state).
 
+## Connected Standby
 
-### To check WOL is enabled on your device
+By default, Windows 10 supports Wake on LAN for Surface devices in Connected Standby.
 
-1. On your Ethernet connected device, select your network adapter, and then select **Properties**.
+### Supported Surface devices - Connected Standby
 
-   > [!div class="mx-imgBorder"]
-   > ![Surface Ethernet Adapter](images/surface-ethernet.png)
+- Surface Laptop 4 (Intel processors only)
+- Surface Laptop 3 (Intel processors only)
+- Surface Pro 7+
+- Surface Pro 7
+- Surface Pro X
+- Surface Go 2
+- Surface Laptop Go
+- Surface Book 3
 
-2. Select **Configure** > **Advanced**.
-3. Scroll to **Modern Standby WoL Magic Packet** and ensure **Enabled** is selected.
+## Hibernation
 
-     ![Check WOL is enabled on your device](images/ethernet-wol-setting.png)
+To wake devices out of Hibernation requires enabling a UEFI policy setting via [Surface Enterprise Management Mode](surface-enterprise-management-mode.md) (SEMM) (not required for devices connected to Surface Dock 2).
 
-## Appendix: Surface Studio 2
+### Supported Surface devices - Hibernation
 
-To enable WOL on Surface Studio 2, use the following procedure.
+- Surface Laptop 4 (Intel processors only)
+- Surface Laptop 3 (Intel processors only)
+- Surface Pro 7+
+- Surface Pro 7
+- Surface Laptop Go
+- Surface Book 3
 
-1. Create the following registry keys:
+### To enable Wake on LAN UEFI setting
 
-   ```console
-   ; Set CONNECTIVITYINSTANDBY to 1:
-   [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\F15576E8-98B7-4186-B944-EAFA664402D9]
-   "Attributes"=dword:00000001
-   ; Set EnforceDisconnectedStandby to 0 and AllowSystemRequiredPowerRequests to 1:
-   [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power]
-   "EnforceDisconnectedStandby"=dword:00000000
-   "AllowSystemRequiredPowerRequests"=dword:00000001
-   ```
+To enable the Wake on LAN UEFI setting you need to enroll target devices into SEMM, create a configuration package, and apply the package to the devices. For more information, refer to:
 
-2. Run the following command
+- [Surface Enterprise Management Mode](surface-enterprise-management-mode.md)
+- [Enroll and configure Surface devices with SEMM](enroll-and-configure-surface-devices-with-semm.md)
 
-    ```powercfg /SETACVALUEINDEX SCHEME_BALANCED SUB_NONE CONNECTIVITYINSTANDBY 1```
+1. Download and install [**Surface UEFI Configurator**](https://www.microsoft.com/download/details.aspx?id=46703).
+2. Select **Start** > **Configuration Package** > **Create** >**+ Certificate Protection**.
+3. Go to **Advanced settings** and switch **Wake on LAN** to **On**.
+4. Apply the package to target devices.
 
+    > [!div class="mx-imgBorder"]
+    > ![Enable Wake on LAN UEFI policy setting](images/wol-uefi.png)
 
 ## Learn more
 
+- [Wake on LAN for Surface Dock 2](wake-on-lan-surface-dock2.md)
 - [Microsoft Surface USB-C to Ethernet and USB Adapter](https://www.microsoft.com/p/surface-usb-c-to-ethernet-and-usb-adapter/8wt81cglrblp?)
-
 - [Surface USB 3.0 Gigabit Ethernet Adapter](https://www.microsoft.com/p/surface-usb-30-gigabit-ethernet-adapter/8xn9fqvzbvq0?)
