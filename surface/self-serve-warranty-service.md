@@ -38,7 +38,7 @@ When a Microsoft 365 tenant is onboarded to the beta, the following roles have a
 | Service Support Admin | View Repair Requests<br>Create/Manage Repair Requests                                                                               |
 | Billing Admin         | View Repair Requests<br>Create/Manage Repair Requests<br>Add/Edit/Delete Ship to address(es)                                        |
 
-For more information about users and permissions, see [Microsoft Admin Center Overview](/microsoft-365/admin/admin-overview/about-the-admin-center)
+For more information about users and permissions, see [Microsoft Admin Center Overview](/microsoft-365/admin/admin-overview/about-the-admin-center).
 
 ## Create and manage a service order
 
@@ -50,31 +50,32 @@ For more information about users and permissions, see [Microsoft Admin Center Ov
 
 3. You can create a repair request for one or multiple devices. Select either **Submit 1 device** at a time or **Submit multiple devices** to use a .csv file to upload multiple serial numbers and click **Next**.
 
-> [!NOTE]
-> **For multiple devices:**
-> - Download the sample CSV template, add the information required and save it to your local drive.
-> - Click **Upload CSV file for bulk entries**, select the .csv file you saved to your local drive and click **Open.**
-> - Your device serial numbers will upload. Click **Next** to continue the creating the repair.
+    > [!NOTE]
+    > **For multiple devices:**
+    >
+    > - Download the sample CSV template, add the information required and save it to your local drive.
+    > - Click **Upload CSV file for bulk entries**, select the .csv file you saved to your local drive and click **Open.**
+    > - Your device serial numbers will upload. Click **Next** to continue the creating the repair.
 
-4. Under **Ship replacement to**, select a shipping address. Or select  **Add new address** .
+4. Under **Ship replacement to**, select a shipping address. Or select  **Add new address**.
 
-> [!NOTE]
-> The form automatically validates address information and you may be corrected to make changes if the address is not recognized by the local postal system. The email address is used to send notifications and communications for the repair request.
+    > [!NOTE]
+    > The form automatically validates address information and you may be corrected to make changes if the address is not recognized by the local postal system. The email address is used to send notifications and communications for the repair request.
 
-4. Add device by entering the device serial number in the text block. To learn more, see [device serial numbers](https://support.microsoft.com/help/4036293/surface-find-the-serial-number-on-surface). If the serial number is valid, an image and product information including warranty date and model number will appear. Select **Add Device** if information is correct.
+5. Add device by entering the device serial number in the text block. To learn more, see [device serial numbers](https://support.microsoft.com/help/4036293/surface-find-the-serial-number-on-surface). If the serial number is valid, an image and product information including warranty date and model number will appear. Select **Add Device** if information is correct.
 
     > [!div class="mx-imgBorder"]
     > ![Add devices](images/self-serve-fig2.png)
 
-5. Repeat steps 1-2 to add multiple devices (up to 20 total) to the request.
-6. From the drop down menu, select the issue type that best describes the issue and click **Next.**
+6. Repeat steps 1-2 to add multiple devices (up to 20 total) to the request.
+7. From the drop down menu, select the issue type that best describes the issue and click **Next.**
 
     > [!div class="mx-imgBorder"]
     > ![Select issue category](images/self-serve-fig3.png)
 
-7. Review your order. If any information is incorrect, choose **Back** to correct errors.
-8. Accept the terms of conditions.
-9. If request summary is correct, click **Submit your request**
+8. Review your order. If any information is incorrect, choose **Back** to correct errors.
+9. Accept the terms of conditions.
+10. If request summary is correct, click **Submit your request**
 
     > [!div class="mx-imgBorder"]
     > ![Submit self-serve repair request](images/self-serve-fig4.png)
