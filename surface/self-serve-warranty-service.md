@@ -54,19 +54,20 @@ For more information about users and permissions, see [Microsoft Admin Center Ov
 > [!div class="mx-imgBorder"]
 > ![Add devices](images/self-serve-fig2.png)
 
-1. Repeat steps 1-2 to add multiple devices (up to 20 total) to the request.
-1. From the drop down menu, select the issue type that best describes the issue and click **Next.**
+6. Repeat steps 1-2 to add multiple devices (up to 20 total) to the request.
+7. From the drop down menu, select the issue type that best describes the issue and click **Next.**
 
 > [!div class="mx-imgBorder"]
 > ![Select issue category](images/self-serve-fig3.png)
-1. Review your order. If any information is incorrect, choose **Back** to correct errors.
-1. Accept the terms of conditions.
-1. If request summary is correct, click **Submit your request**
+
+8. Review your order. If any information is incorrect, choose **Back** to correct errors.
+9. Accept the terms of conditions.
+10. If request summary is correct, click **Submit your request**
 
 > [!div class="mx-imgBorder"]
 > ![Submit self-serve repair request](images/self-serve-fig4.png)
 
-1. You will be returned to the home page and be able to view your service request in the summary list and receive a confirmation email.
+When the home page displays, you can view your service request in the summary list and receive a confirmation email.
 
 ## Frequently asked questions
 
