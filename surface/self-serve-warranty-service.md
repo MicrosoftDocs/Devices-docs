@@ -60,13 +60,14 @@ For more information about users and permissions, see [Microsoft Admin Center Ov
     > - Your device serial numbers will upload. Click **Next** to continue the creating the repair.
 
 4. Under **Ship replacement to**, select a shipping address. Or select  **Add new address**.
-    > [!div class="mx-imgBorder"]
-    > ![Add new address](images/self-serve-fig2a.png)
 
     > [!NOTE]
     >
     > - Permissions allow certain Admins to add new ship to addresses. If you have permissions,  > you can add new addresses. Enter the required info and then select  **Save**.
     > - The form automatically validates address information and you may be corrected to make changes if the address is not recognized by the local postal system. The email address is used to send notifications and communications for the repair request.
+
+    > [!div class="mx-imgBorder"]
+    > ![Add new address](images/self-serve-fig2a.png)
 
 5. Add device by entering the device serial number in the text block. To learn more, see [device serial numbers](https://support.microsoft.com/help/4036293/surface-find-the-serial-number-on-surface). If the serial number is valid, an image and product information including warranty date and model number will appear. Select **Add Device** if information is correct.
 
