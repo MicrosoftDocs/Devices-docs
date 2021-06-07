@@ -58,6 +58,8 @@ For more information about users and permissions, see [Microsoft Admin Center Ov
     > - Your device serial numbers will upload. Click **Next** to continue the creating the repair.
 
 4. Under **Ship replacement to**, select a shipping address. Or select  **Add new address**.
+    > [!div class="mx-imgBorder"]
+    > ![Add new address](images/self-serve-fig2a.png)
 
     > [!NOTE]
     >
