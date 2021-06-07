@@ -62,6 +62,7 @@
 
 ## Secure
 
+### [Surface security overview](surface-security.md)
 ### [Intune management of Surface UEFI settings](surface-manage-dfci-guide.md)
 ### [Manage Surface UEFI settings](manage-surface-uefi-settings.md)
 ### [Advanced UEFI security features for Surface Pro 3](advanced-uefi-security-features-for-surface-pro-3.md)
