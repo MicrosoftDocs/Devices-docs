@@ -16,13 +16,15 @@ audience: itpro
 
 # Surface self-serve warranty and service
 
-Microsoft 365 Business customers may be eligible to use the beta Surface Self Serve Warranty and Service node in the Microsoft Admin Center to create and manage service orders. This new feature allows Global Admins to designate permissions to individuals within their company responsible for supporting warranty and service claims including:
+Microsoft 365 Business customers may be eligible to use the Surface Self Serve Warranty and Service node in the Microsoft 365 Admin Center to create and manage service orders. This new feature, available as a beta program, allows Global Admins to designate permissions to individuals within their company responsible for supporting warranty and service claims including:
 
-- Uploading serial numbers for the devices requiring service
-- Adding multiple shipping addresses
-- Creating a single service order for one or many devices and type covers
-- Seeing real-time service order status
-- Shipping to and receiving Advance Exchange shipments in bulk if devices are covered by an extended warranty or Advanced Exchange was included as part of the device purchase
+- Upload serial numbers for the devices requiring service.
+- Add multiple shipping addresses.
+- Create a single service order for one or many devices and type covers.
+- See real-time service order status.
+- Ship to and receive Advance Exchange shipments in bulk if devices are covered by an extended warranty or Advanced Exchange was included as part of the device purchase.
+
+## Join beta program
 
 Contact your Microsoft Customer Success Account Manager or Customer Success Manager to learn more about the experience and how to participate in the beta program.
 
@@ -30,7 +32,7 @@ Contact your Microsoft Customer Success Account Manager or Customer Success Mana
 
 The Surface Self-Serve Warranty and Service allows a Microsoft 365 Global Admin the ability to grant different permissions for creating and managing service orders by assigning roles to users.
 
-When a Microsoft 365 tenant is onboarded to the beta, the following roles have additional permissions available to them
+When a Microsoft 365 tenant is added to the beta program, the following admin roles are granted  additional permissions:
 
 | Role                  | Permissions                                                                                                                         |
 | --------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
