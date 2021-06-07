@@ -51,6 +51,7 @@ For more information about users and permissions, see [Microsoft Admin Center Ov
 3. You can create a repair request for one or multiple devices. Select either **Submit 1 device** at a time or **Submit multiple devices** to use a .csv file to upload multiple serial numbers and click **Next**.
 4. Under **Ship replacement to**, select a shipping address. Or select  **Add new address** .
 5. Add device by entering the device serial number in the text block. To learn more, see [device serial numbers](https://support.microsoft.com/help/4036293/surface-find-the-serial-number-on-surface). If the serial number is valid, an image and product information including warranty date and model number will appear. Select **Add Device** if information is correct.
+
 > [!div class="mx-imgBorder"]
 > ![Add devices](images/self-serve-fig2.png)
 
