@@ -42,7 +42,7 @@ For more information about users and permissions, see [Microsoft Admin Center Ov
 
 ## Create and manage a service order
 
-1. Go to the Microsoft 365 Admin Center at [https://admin.microsoft.com](https://go.microsoft.com/fwlink/p/?linkid=2024339) and sign in with the appropriate admin permissions. To learn more, see  [Who has admin permissions in my business?](/microsoft-365/business-video/admin-center-overview#who-has-admin-permissions-in-my-business).
+1. Go to the Microsoft 365 Admin Center at [https://admin.microsoft.com](https://go.microsoft.com/fwlink/p/?linkid=2024339) and sign in with the appropriate admin permissions. To learn more, see  [Who has admin permissions in my business?](/microsoft-365/business-video/admin-center-overview#who-has-admin-permissions-in-my-business)
 2. Go to **Support** > **Surface Device Repairs** and select **Create repair request**. (If you do not see this repair option, you do not have permission to access this page.)
 
     > [!div class="mx-imgBorder"]
@@ -60,7 +60,9 @@ For more information about users and permissions, see [Microsoft Admin Center Ov
 4. Under **Ship replacement to**, select a shipping address. Or select  **Add new address**.
 
     > [!NOTE]
-    > The form automatically validates address information and you may be corrected to make changes if the address is not recognized by the local postal system. The email address is used to send notifications and communications for the repair request.
+    >
+    > - Permissions allow certain Admins to add new ship to addresses. If you have permissions,  > you can add new addresses. Enter the required info and then select  **Save**.
+    > - The form automatically validates address information and you may be corrected to make changes if the address is not recognized by the local postal system. The email address is used to send notifications and communications for the repair request.
 
 5. Add device by entering the device serial number in the text block. To learn more, see [device serial numbers](https://support.microsoft.com/help/4036293/surface-find-the-serial-number-on-surface). If the serial number is valid, an image and product information including warranty date and model number will appear. Select **Add Device** if information is correct.
 
