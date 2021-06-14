@@ -22,7 +22,7 @@ Surface Hub 2S comes with Windows 10 Team installed. This customized edition of 
 > This migration process requires you to follow the specific procedure that's described in this article. Before you continue, read [Solution components](#solution-components) and [Migration and installation workflow](#migration-and-installation-workflow-summary).
 
 > [!NOTE]
-> When you install Windows 10 Pro or Enterprise, you need a new licence that's separate from your existing Windows 10 Team license.
+> When you install Windows 10 Pro or Enterprise on your Surface Hub 2S, you need a new license that's distinct from the existing Windows 10 Team license provided with the device.
 
 Start the migration from Windows 10 Team by using a separate PC and the downloadable *Surface UEFI Configurator* tool. The tool creates a package that contains a new UEFI setting that you apply to the Surface Hub 2S.  
 
