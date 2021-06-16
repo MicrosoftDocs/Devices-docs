@@ -60,7 +60,7 @@ To add the keyboard drivers to the selection profile, follow these steps:
  > [!NOTE]
  > Check the downloaded MSI package to determine the format and directory structure.  The directory structure will start with either SurfacePlatformInstaller (older MSI files) or SurfaceUpdate (Newer MSI files) depending on when the MSI was released.
 
-### Surface Laptop (1st Gen)
+## Surface Laptop (1st Gen)
 
 To support Surface Laptop (1st Gen), import the following folders:
 
@@ -76,7 +76,7 @@ To support Surface Laptop (1st Gen), import the following folders:
 - SurfaceUpdate\SurfaceSerialHubDriver
 - SurfaceUpdate\Itouch
 
-### Surface Laptop 2
+## Surface Laptop 2
 
 To support Surface Laptop 2, import the following folders:
 
@@ -98,7 +98,7 @@ To support Surface Laptop 2, import the following folders:
 - SurfaceUpdate\SurfaceSerialHub
 - SurfaceUpdate\Itouch
 
-### Surface Laptop 3 with Intel processor
+## Surface Laptop 3 with Intel processor
 
 To support Surface Laptop 3 with Intel processor, import the following folders:
 
@@ -132,23 +132,26 @@ Importing the following folders will enable full keyboard, trackpad, and touch f
 - SurfaceService
 - SurfaceStorageFwUpdate
 
-### Surface Laptop 3 with AMD processor
+## Surface Laptop 3 with AMD processor
 
 To support Surface Laptop 3 with AMD processor, import the following folders:
+
 -
 
-### Surface Laptop 4 with Intel processor
+## Surface Laptop 4 with Intel processor
 
 To support Surface Laptop 4 with Intel processor, import the following folders:
+
 -
 
-### Surface Laptop 4 with AMD processor
+## Surface Laptop 4 with AMD processor
 
 To support Surface Laptop 4 with AMD processor, import the following folders:
+
 -
 
   > [!TIP]
-  >  Check the downloaded MSI package to determine the format and directory structure.  The directory structure will start with either SurfacePlatformInstaller (older MSI files) or SurfaceUpdate (Newer MSI files) depending on when the MSI was released.
+  > Check the downloaded MSI package to determine the format and directory structure.  The directory structure will start with either SurfacePlatformInstaller (older MSI files) or SurfaceUpdate (Newer MSI files) depending on when the MSI was released.
 
   > [!NOTE]
   > For Surface Laptop 3 with Intel processor, the model is Surface Laptop 3. The remaining Surface Laptop drivers are located in the \MDT Deployment Share\Out-of-Box Drivers\Windows10\X64\Surface Laptop 3 folder.
