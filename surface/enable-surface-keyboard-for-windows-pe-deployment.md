@@ -6,14 +6,14 @@ ms.prod: w10
 ms.mktglfcycl: deploy
 ms.pagetype: surface
 ms.sitesec: library
-author: Teresa-Motiv
+author: coveminer
 ms.author: v-tea
 ms.topic: article
-ms.reviewer: scottmca
+ms.reviewer: carlol
 ms.localizationpriority: medium
 ms.audience: itpro
 manager: jarrettr
-ms.date: 02/02/2021
+ms.date: 06/16/2021
 appliesto:
 - Surface Laptop (1st Gen)
 - Surface Laptop 2
@@ -39,7 +39,6 @@ To add the keyboard drivers to the selection profile, follow these steps:
     - [Surface Laptop (1st Gen) Drivers and Firmware](https://www.microsoft.com/download/details.aspx?id=55489)
     - [Surface Laptop 2 Drivers and Firmware](https://www.microsoft.com/download/details.aspx?id=57515)
     - [Surface Laptop 3 with Intel Processor Drivers and Firmware](https://www.microsoft.com/download/details.aspx?id=100429)
-    - [Surface Laptop 3 with AMD Processor Drivers and Firmware](https://www.microsoft.com/download/details.aspx?id=100428)
     - [Surface Laptop 4 with Intel Processor Drivers and Firmware](https://www.microsoft.com/download/102924)
     - [Surface Laptop 4 with AMD Processor Drivers and Firmware](https://www.microsoft.com/download/102923)
 
@@ -132,23 +131,58 @@ Importing the following folders will enable full keyboard, trackpad, and touch f
 - SurfaceService
 - SurfaceStorageFwUpdate
 
-## Surface Laptop 3 with AMD processor
-
-To support Surface Laptop 3 with AMD processor, import the following folders:
-
--
 
 ## Surface Laptop 4 with Intel processor
 
 To support Surface Laptop 4 with Intel processor, import the following folders:
 
--
+- TglSerial
+- IntelPreciseTouch
+- SurfaceEthernetAdapter
+- SurfaceBattery
+- SurfaceHidMini
+- SurfaceHotPlug
+- SurfaceSerialHub
+- SurfaceTconDriver
+- surfacetimealarmacpifilter
+- surfacevirtualfunctionenum
+- TglChipset
+- ManagementEngine
+
 
 ## Surface Laptop 4 with AMD processor
 
 To support Surface Laptop 4 with AMD processor, import the following folders:
 
--
+- U0361415
+- AMDfendr
+- AMDGpio2
+- AMDI2c
+- AMDLpcFilterDriver
+- AMDMicroPEP
+- AMDPsp
+- AMDSmf
+- AMDSpi
+- AMDUart
+- SurfaceEthernetAdapter
+- SMBUS
+- SurfaceBattery
+- SurfaceButton
+- SurfaceDigitizerHidSpiExtnPackage
+- SurfaceHIDFriendlyNames
+- SurfaceHidMini
+- SurfaceHotPlug
+- SurfaceOemPanel
+- SurfacePowerMeter
+- SurfacePowerTrackerCore
+- SurfaceSerialHub
+- SurfaceSMFClient
+- SurfaceSmfDisplayClient
+- SurfaceSystemManagementFramework
+- SurfaceTconDriver
+- SurfaceThermalPolicy
+- Surfacetimealarmacpifilter
+- SurfaceUcmUcsiHidClient
 
   > [!TIP]
   > Check the downloaded MSI package to determine the format and directory structure.  The directory structure will start with either SurfacePlatformInstaller (older MSI files) or SurfaceUpdate (Newer MSI files) depending on when the MSI was released.
