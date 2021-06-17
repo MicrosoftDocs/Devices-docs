@@ -3,7 +3,7 @@ title: Next Business Day Replacement information & coverage areas
 ms.author: v-kaij
 author: greg-lindsay
 manager: laurawi
-ms.date: 05/23/2021
+ms.date: 06/17/2021
 audience: Admin
 ms.topic: article
 ms.prod: surface
@@ -11,7 +11,6 @@ localization_priority: high
 ms.custom: references_regions
 appliesto:
 - Surface
-- Surface Hub
 ms.reviewer: irenewhite
 description: Next Business Day Replacement Information & Coverage Areas.
 ---
@@ -54,6 +53,7 @@ For a list of supported post codes, see "Next business day coverage" where appli
 - [Sweden](#sweden)
 - [Switzerland](#switzerland)
 - [The Netherlands](#the-netherlands)
+- [United Kingdom](#united-kingdom)
 - [United States](#united-states)
 
 
@@ -103,6 +103,7 @@ For a list of supported post codes, see "Next business day coverage" where appli
 #### Hong Kong
 
 - Cutoff Time:16:00 HKT (UTC+8) 
+- NBD coverage is available in all postal codes in Hong Kong.
 
 #### Ireland
 
@@ -138,6 +139,7 @@ For a list of supported post codes, see "Next business day coverage" where appli
 #### Singapore
 
 - Cutoff Time: 13:00 SGT (UTC+8)
+- NBD coverage is available in all postal codes in this country.
 
 #### Spain
 
@@ -158,6 +160,10 @@ For a list of supported post codes, see "Next business day coverage" where appli
 
 - Cutoff Time: 12:00 CET (UTC+1)
 - [Next business day coverage](https://download.microsoft.com/download/6/3/f/63f2ff4c-3b8f-465e-9498-0878f7ba70f3/NBD%20Coverage%20-%20Netherlands%20Post%20Codes%20042821.xlsx)
+
+### Untied Kingdom
+
+- Cutoff Time: 12:00 CET (UTC+1)
 
 #### United States 
 
