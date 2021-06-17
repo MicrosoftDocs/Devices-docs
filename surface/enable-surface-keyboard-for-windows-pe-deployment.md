@@ -181,7 +181,6 @@ To support Surface Laptop 4 with AMD processor, import the following folders:
 - Surfacetimealarmacpifilter
 - SurfaceUcmUcsiHidClient
 
-## 
 
   > [!TIP]
   > Check the downloaded MSI package to determine the format and directory structure.  The directory structure will start with either SurfacePlatformInstaller (older MSI files) or SurfaceUpdate (Newer MSI files) depending on when the MSI was released.
