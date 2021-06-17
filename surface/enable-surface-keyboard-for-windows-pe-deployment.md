@@ -131,7 +131,6 @@ Importing the following folders will enable full keyboard, trackpad, and touch f
 - SurfaceService
 - SurfaceStorageFwUpdate
 
-
 ## Surface Laptop 4 with Intel processor
 
 To support Surface Laptop 4 with Intel processor, import the following folders:
@@ -149,7 +148,6 @@ To support Surface Laptop 4 with Intel processor, import the following folders:
 - TglChipset
 - ManagementEngine
 
-
 ## Surface Laptop 4 with AMD processor
 
 To support Surface Laptop 4 with AMD processor, import the following folders:
@@ -158,8 +156,7 @@ To support Surface Laptop 4 with AMD processor, import the following folders:
 - AMDfendr
 - AMDGpio2
 - AMDI2c
-- AMDLpcFilterDriver
-- AMDMicroPEP
+- AMDLpcFilterDriverAMDMicroPEP
 - AMDPsp
 - AMDSmf
 - AMDSpi
@@ -184,6 +181,7 @@ To support Surface Laptop 4 with AMD processor, import the following folders:
 - Surfacetimealarmacpifilter
 - SurfaceUcmUcsiHidClient
 
+
   > [!TIP]
   > Check the downloaded MSI package to determine the format and directory structure.  The directory structure will start with either SurfacePlatformInstaller (older MSI files) or SurfaceUpdate (Newer MSI files) depending on when the MSI was released.
 
@@ -203,12 +201,12 @@ To support Surface Laptop 4 with AMD processor, import the following folders:
    - For **Platform**, select **x64**.
    - For **Selection profile**, select the new profile.
    - Select **Include all drivers from the selection profile**.
-   
+
    ![Image that shows the Windows PE properties of the MDT Deployment Share](./images/surface-laptop-keyboard-4.png)
 
 9. Verify that you have configured the remaining Surface Laptop drivers by using either a selection profile or a **DriverGroup001** variable.  
    - For Surface Laptop (1st Gen), the model is **Surface Laptop**. The remaining Surface Laptop drivers should reside in the \MDT Deployment Share\Out-of-Box Drivers\Windows10\X64\Surface Laptop folder as shown in the figure that follows this list.
-   - For Surface Laptop 2, the model is **Surface Laptop 2**. The remaining Surface Laptop drivers should reside in the \MDT Deployment Share\Out-of-Box Drivers\Windows10\X64\Surface Laptop 2 folder. 
+   - For Surface Laptop 2, the model is **Surface Laptop 2**. The remaining Surface Laptop drivers should reside in the \MDT Deployment Share\Out-of-Box Drivers\Windows10\X64\Surface Laptop 2 folder.
    - For Surface Laptop 3 with Intel processor, the model is Surface Laptop 3. The remaining Surface Laptop drivers are located in the \MDT Deployment Share\Out-of-Box Drivers\Windows10\X64\Surface Laptop 3 folder.
 
    ![Image that shows the regular Surface Laptop (1st Gen) drivers in the Surface Laptop folder of the Deployment Workbench](./images/surface-laptop-keyboard-5.png)
