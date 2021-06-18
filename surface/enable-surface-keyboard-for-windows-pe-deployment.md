@@ -179,9 +179,6 @@ To support Surface Laptop 4 with AMD processor, import the following folders:
   > [!TIP]
   > Check the downloaded MSI package to determine the format and directory structure.  The directory structure will start with either SurfacePlatformInstaller (older MSI files) or SurfaceUpdate (Newer MSI files) depending on when the MSI was released.
 
-  > [!NOTE]
-  > For Surface Laptop 3 with Intel processor, the model is Surface Laptop 3. The remaining Surface Laptop drivers are located in the \MDT Deployment Share\Out-of-Box Drivers\Windows10\X64\Surface Laptop 3 folder.
-
 ## Verify imported drivers & configure Windows PE properties
 
 1. Verify that the WindowsPEX64 folder now contains the imported drivers. The folder should resemble the following:
