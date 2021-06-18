@@ -55,139 +55,15 @@ This article addresses a deployment approach that uses Microsoft Deployment Tool
  > Check the downloaded MSI package to determine the format and directory structure.  The directory structure will start with either SurfacePlatformInstaller (older MSI files) or SurfaceUpdate (Newer MSI files) depending on when the MSI was released.
 
 
-# 
+## Import drivers for Surface devices
+
 | Device                                | Import folders                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | More information                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | ------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Surface Laptop 4 with Intel processor | - TglSerial<br>- IntelPreciseTouch<br>- SurfaceEthernetAdapter<br>- SurfaceBattery<br>- SurfaceHidMini<br>- SurfaceHotPlug<br>- SurfaceSerialHub<br>- SurfaceTconDriver<br>- surfacetimealarmacpifilter<br>- surfacevirtualfunctionenum<br>- TglChipset<br>- ManagementEngine                                                                                                                                                                                                                                                                                                                                                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| Surface Laptop 4 with AMD processor   | - U0361415<br>- AMDfendr<br>- AMDGpio2<br>- AMDI2c<br>- AMDLpcFilterDriverAMDMicroPEP<br>- AMDPsp<br>- AMDSmf<br>- AMDSpi<br>- AMDUart<br>- SurfaceEthernetAdapter<br>- SMBUS<br>- SurfaceBattery<br>- SurfaceButton<br>- SurfaceDigitizerHidSpiExtnPackage<br>- SurfaceHIDFriendlyNames<br>- SurfaceHidMini<br>- SurfaceHotPlug<br>- SurfaceOemPanel<br>- SurfacePowerMeter<br>- SurfacePowerTrackerCore<br>- SurfaceSerialHub<br>- SurfaceSMFClient<br>- SurfaceSmfDisplayClient<br>- SurfaceSystemManagementFramework<br>- SurfaceTconDriver<br>- SurfaceThermalPolicy<br>- Surfacetimealarmacpifilter<br>- SurfaceUcmUcsiHidClient |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| Surface Laptop 3 with Intel processor | - SurfaceUpdate\SerialIOGPIO<br>- SurfaceUpdate\SerialIOI2C<br>- SurfaceUpdate\SerialIOSPI<br>- SurfaceUpdate\SerialIOUART<br>- SurfaceUpdate\SurfaceHidMini<br>- SurfaceUpdate\SurfaceSerialHub<br>- SurfaceUpdate\SurfaceHotPlug<br>- SurfaceUpdate\Itouch                                                                                                                                                                                                                                                                                                                                                                           | Importing the following folders will enable full keyboard, trackpad, and touch functionality in PE:<br><br><br>- SerialIOGPIO<br>- SerialIOI2C<br>- SerialIOSPI<br>- SerialIOUART<br>- itouch<br>- Chipset<br>- ChipsetLPSS<br>- ChipsetNorthpeak<br>- ManagementEngine<br>- SurfaceAcpiNotify<br>- SurfaceBattery<br>- SurfaceDockIntegration<br>- SurfaceHidMini<br>- SurfaceHotPlug<br>- SurfaceIntegration<br>- SurfaceSerialHub<br>- SurfaceService<br>- SurfaceStorageFwUpdat |
-| Surface Laptop 2                      | - SurfacePlatformInstaller\Drivers\System\GPIO<br>- SurfacePlatformInstaller\Drivers\System\SurfaceHIDMiniDriver<br>- SurfacePlatformInstaller\Drivers\System\SurfaceSerialHubDriver<br>- SurfacePlatformInstaller\Drivers\System\I2C<br>- SurfacePlatformInstaller\Drivers\System\SPI<br>- SurfacePlatformInstaller\Drivers\System\UART<br>- SurfacePlatformInstaller\Drivers\System\PreciseTouch                                                                                                                                                                                                                                     | For newer MSI files beginning with "SurfaceUpdate", use:<br><br>- SurfaceUpdate\SerialIOGPIO<br>- SurfaceUpdate\serialioi2c<br>- SurfaceUpdate\SerialIOSPI<br>- SurfaceUpdate\SerialIOUART<br>- SurfaceUpdate\SurfaceHidMini<br>- SurfaceUpdate\SurfaceSerialHub<br>- SurfaceUpdate\Itouch                                                                                                                                                                                          |
-| Surface Laptop (1st Gen)              | - SurfacePlatformInstaller\Drivers\System\GPIO<br>- SurfacePlatformInstaller\Drivers\System\SurfaceHidMiniDriver<br>- SurfacePlatformInstaller\Drivers\System\SurfaceSerialHubDriver<br>- SurfacePlatformInstaller\Drivers\System\PreciseTouch                                                                                                                                                                                                                                                                                                                                                                                         | For newer MSI files beginning with "SurfaceUpdate", use:<br><br>- SurfaceUpdate\SerialIOGPIO<br>- SurfaceUpdate\SurfaceHidMiniDriver<br>- SurfaceUpdate\SurfaceSerialHubDriver<br>- SurfaceUpdate\Itouch                                                                                                                                                                                                                                                                            |
-
-
-
-
-### Surface Laptop (1st Gen)
-
-To support Surface Laptop (1st Gen), import the following folders:
-
-- SurfacePlatformInstaller\Drivers\System\GPIO
-- SurfacePlatformInstaller\Drivers\System\SurfaceHidMiniDriver
-- SurfacePlatformInstaller\Drivers\System\SurfaceSerialHubDriver
-- SurfacePlatformInstaller\Drivers\System\PreciseTouch
-
-Or for newer MSI files beginning with "SurfaceUpdate", use:
-
-- SurfaceUpdate\SerialIOGPIO
-- SurfaceUpdate\SurfaceHidMiniDriver
-- SurfaceUpdate\SurfaceSerialHubDriver
-- SurfaceUpdate\Itouch
-
-### Surface Laptop 2
-
-To support Surface Laptop 2, import the following folders:
-
-- SurfacePlatformInstaller\Drivers\System\GPIO
-- SurfacePlatformInstaller\Drivers\System\SurfaceHIDMiniDriver
-- SurfacePlatformInstaller\Drivers\System\SurfaceSerialHubDriver
-- SurfacePlatformInstaller\Drivers\System\I2C
-- SurfacePlatformInstaller\Drivers\System\SPI
-- SurfacePlatformInstaller\Drivers\System\UART
-- SurfacePlatformInstaller\Drivers\System\PreciseTouch
-
-Or for newer MSI files beginning with "SurfaceUpdate", use:
-
-- SurfaceUpdate\SerialIOGPIO
-- SurfaceUpdate\serialioi2c
-- SurfaceUpdate\SerialIOSPI
-- SurfaceUpdate\SerialIOUART
-- SurfaceUpdate\SurfaceHidMini
-- SurfaceUpdate\SurfaceSerialHub
-- SurfaceUpdate\Itouch
-
-### Surface Laptop 3 with Intel processor
-
-To support Surface Laptop 3 with Intel processor, import the following folders:
-
-- SurfaceUpdate\SerialIOGPIO
-- SurfaceUpdate\SerialIOI2C
-- SurfaceUpdate\SerialIOSPI
-- SurfaceUpdate\SerialIOUART
-- SurfaceUpdate\SurfaceHidMini
-- SurfaceUpdate\SurfaceSerialHub
-- SurfaceUpdate\SurfaceHotPlug
-- SurfaceUpdate\Itouch
-
-Importing the following folders will enable full keyboard, trackpad, and touch functionality in PE for Surface Laptop 3.
-
-- SerialIOGPIO
-- SerialIOI2C
-- SerialIOSPI
-- SerialIOUART
-- itouch
-- Chipset
-- ChipsetLPSS
-- ChipsetNorthpeak
-- ManagementEngine
-- SurfaceAcpiNotify
-- SurfaceBattery
-- SurfaceDockIntegration
-- SurfaceHidMini
-- SurfaceHotPlug
-- SurfaceIntegration
-- SurfaceSerialHub
-- SurfaceService
-- SurfaceStorageFwUpdate
-
-### Surface Laptop 4 with Intel processor
-
-To support Surface Laptop 4 with Intel processor, import the following folders:
-
-- TglSerial
-- IntelPreciseTouch
-- SurfaceEthernetAdapter
-- SurfaceBattery
-- SurfaceHidMini
-- SurfaceHotPlug
-- SurfaceSerialHub
-- SurfaceTconDriver
-- surfacetimealarmacpifilter
-- surfacevirtualfunctionenum
-- TglChipset
-- ManagementEngine
-
-### Surface Laptop 4 with AMD processor
-
-To support Surface Laptop 4 with AMD processor, import the following folders:
-
-- U0361415
-- AMDfendr
-- AMDGpio2
-- AMDI2c
-- AMDLpcFilterDriverAMDMicroPEP
-- AMDPsp
-- AMDSmf
-- AMDSpi
-- AMDUart
-- SurfaceEthernetAdapter
-- SMBUS
-- SurfaceBattery
-- SurfaceButton
-- SurfaceDigitizerHidSpiExtnPackage
-- SurfaceHIDFriendlyNames
-- SurfaceHidMini
-- SurfaceHotPlug
-- SurfaceOemPanel
-- SurfacePowerMeter
-- SurfacePowerTrackerCore
-- SurfaceSerialHub
-- SurfaceSMFClient
-- SurfaceSmfDisplayClient
-- SurfaceSystemManagementFramework
-- SurfaceTconDriver
-- SurfaceThermalPolicy
-- Surfacetimealarmacpifilter
-- SurfaceUcmUcsiHidClient
+| **Surface Laptop 4 with Intel processor** | - TglSerial<br>- IntelPreciseTouch<br>- SurfaceEthernetAdapter<br>- SurfaceBattery<br>- SurfaceHidMini<br>- SurfaceHotPlug<br>- SurfaceSerialHub<br>- SurfaceTconDriver<br>- surfacetimealarmacpifilter<br>- surfacevirtualfunctionenum<br>- TglChipset<br>- ManagementEngine                                                                                                                                                                                                                                                                                                                                                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| **Surface Laptop 4 with AMD processor**   | - U0361415<br>- AMDfendr<br>- AMDGpio2<br>- AMDI2c<br>- AMDLpcFilterDriverAMDMicroPEP<br>- AMDPsp<br>- AMDSmf<br>- AMDSpi<br>- AMDUart<br>- SurfaceEthernetAdapter<br>- SMBUS<br>- SurfaceBattery<br>- SurfaceButton<br>- SurfaceDigitizerHidSpiExtnPackage<br>- SurfaceHIDFriendlyNames<br>- SurfaceHidMini<br>- SurfaceHotPlug<br>- SurfaceOemPanel<br>- SurfacePowerMeter<br>- SurfacePowerTrackerCore<br>- SurfaceSerialHub<br>- SurfaceSMFClient<br>- SurfaceSmfDisplayClient<br>- SurfaceSystemManagementFramework<br>- SurfaceTconDriver<br>- SurfaceThermalPolicy<br>- Surfacetimealarmacpifilter<br>- SurfaceUcmUcsiHidClient |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| **Surface Laptop 3 with Intel processor** | - SurfaceUpdate\SerialIOGPIO<br>- SurfaceUpdate\SerialIOI2C<br>- SurfaceUpdate\SerialIOSPI<br>- SurfaceUpdate\SerialIOUART<br>- SurfaceUpdate\SurfaceHidMini<br>- SurfaceUpdate\SurfaceSerialHub<br>- SurfaceUpdate\SurfaceHotPlug<br>- SurfaceUpdate\Itouch                                                                                                                                                                                                                                                                                                                                                                           | Importing the following folders will enable full keyboard, trackpad, and touch functionality in PE:<br><br><br>- SerialIOGPIO<br>- SerialIOI2C<br>- SerialIOSPI<br>- SerialIOUART<br>- itouch<br>- Chipset<br>- ChipsetLPSS<br>- ChipsetNorthpeak<br>- ManagementEngine<br>- SurfaceAcpiNotify<br>- SurfaceBattery<br>- SurfaceDockIntegration<br>- SurfaceHidMini<br>- SurfaceHotPlug<br>- SurfaceIntegration<br>- SurfaceSerialHub<br>- SurfaceService<br>- SurfaceStorageFwUpdat |
+| **Surface Laptop 2**                      | - SurfacePlatformInstaller\Drivers\System\GPIO<br>- SurfacePlatformInstaller\Drivers\System\SurfaceHIDMiniDriver<br>- SurfacePlatformInstaller\Drivers\System\SurfaceSerialHubDriver<br>- SurfacePlatformInstaller\Drivers\System\I2C<br>- SurfacePlatformInstaller\Drivers\System\SPI<br>- SurfacePlatformInstaller\Drivers\System\UART<br>- SurfacePlatformInstaller\Drivers\System\PreciseTouch                                                                                                                                                                                                                                     | For newer MSI files beginning with "SurfaceUpdate", use:<br><br>- SurfaceUpdate\SerialIOGPIO<br>- SurfaceUpdate\serialioi2c<br>- SurfaceUpdate\SerialIOSPI<br>- SurfaceUpdate\SerialIOUART<br>- SurfaceUpdate\SurfaceHidMini<br>- SurfaceUpdate\SurfaceSerialHub<br>- SurfaceUpdate\Itouch                                                                                                                                                                                          |
+| **Surface Laptop (1st Gen)**              | - SurfacePlatformInstaller\Drivers\System\GPIO<br>- SurfacePlatformInstaller\Drivers\System\SurfaceHidMiniDriver<br>- SurfacePlatformInstaller\Drivers\System\SurfaceSerialHubDriver<br>- SurfacePlatformInstaller\Drivers\System\PreciseTouch                                                                                                                                                                                                                                                                                                                                                                                         | For newer MSI files beginning with "SurfaceUpdate", use:<br><br>- SurfaceUpdate\SerialIOGPIO<br>- SurfaceUpdate\SurfaceHidMiniDriver<br>- SurfaceUpdate\SurfaceSerialHubDriver<br>- SurfaceUpdate\Itouch                                                                                                                                                                                                                                                                            |
 
   > [!TIP]
   > Check the downloaded MSI package to determine the format and directory structure.  The directory structure will start with either SurfacePlatformInstaller (older MSI files) or SurfaceUpdate (Newer MSI files) depending on when the MSI was released.
