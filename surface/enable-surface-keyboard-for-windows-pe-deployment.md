@@ -71,11 +71,13 @@ Import the following folders as appropriate for your Surface Laptop device.
 
 ## Verify imported drivers & configure Windows PE properties
 
-1. Verify that the WindowsPEX64 folder now contains the imported drivers. The folder should resemble the following:
+1. Verify that the WindowsPEX64 folder now contains the imported drivers, as shown in the following figure:
+
    ![Image that shows the newly imported drivers in the WindowsPEX64 folder of the Deployment Workbench](./images/surface-laptop-keyboard-2.png)
-2. Configure a selection profile that uses the WindowsPEX64 folder. The selection profile should resemble the following:
+1. Configure a selection profile that uses the WindowsPEX64 folder, as shown in the following figure:
+
    ![Image that shows the WindowsPEX64 folder selected as part of a selection profile](./images/surface-laptop-keyboard-3.png)
-3. Configure the Windows PE properties of the MDT deployment share to use the new selection profile, as follows:
+1. Configure the Windows PE properties of the MDT deployment share to use the new selection profile, as follows:
     - For **Platform**, select **x64**.
     - For **Selection profile**, select the new profile.
     - Select **Include all drivers from the selection profile**.
@@ -87,4 +89,5 @@ Import the following folders as appropriate for your Surface Laptop device.
     - For Surface Laptop 3 with Intel processor, the model is Surface Laptop 3. The remaining Surface Laptop drivers are located in the \MDT Deployment Share\Out-of-Box Drivers\Windows10\X64\Surface Laptop 3 folder.
 
     ![Image that shows the regular Surface Laptop (1st Gen) drivers in the Surface Laptop folder of the Deployment Workbench](./images/surface-laptop-keyboard-5.png)
+
 After configuring the MDT Deployment Share to use the new selection profile and related settings, continue the deployment process as described in [Deploy a Windows 10 image using MDT: Step 6: Create the deployment task sequence](/deployment/deploy-windows-mdt/deploy-a-windows-10-image-using-mdt#step-6-create-the-deployment-task-sequence).
