@@ -10,7 +10,7 @@ ms.sitesec: library
 author: dansimp
 ms.author: dansimp
 ms.topic: article
-ms.date: 10/23/2018
+ms.date: 06/24/2021
 ms.localizationpriority: medium
 audience: ITPro
 ---
@@ -21,9 +21,9 @@ You can install additional apps on your Surface Hub to fit your team or organiza
 
 ## Supported app guidelines
 
-- Surface Hub only runs [Universal Windows Platform (UWP) apps](https://msdn.microsoft.com/windows/uwp/get-started/whats-a-uwp). Apps created using the [Desktop App Converter](https://docs.microsoft.com/windows/uwp/porting/desktop-to-uwp-run-desktop-app-converter) will not run on Surface Hub.
-- Apps must be targeted for the [Universal device family](https://msdn.microsoft.com/library/windows/apps/dn894631) or Windows Team device family.
-- Surface Hub only supports [offline-licensed apps](https://docs.microsoft.com/microsoft-store/distribute-offline-apps) from [Microsoft Store for Business](https://businessstore.microsoft.com/store).
+- Surface Hub only runs [Universal Windows Platform (UWP) apps](/windows/uwp/get-started/universal-application-platform-guide). Apps created using the [MSIX Packaging Tool] (/windows/msix/packaging-tool/tool-overview) will not run on Surface Hub.
+- Apps must be targeted for the [Universal device family](/windows/uwp/get-started/universal-application-platform-guide) or Windows Team device family.
+- Surface Hub only supports [offline-licensed apps](/microsoft-store/distribute-offline-apps) from [Microsoft Store for Business](https://businessstore.microsoft.com/store/private-store).
 - By default, apps must be Store-signed to be installed. During testing and development, you can also choose to run developer-signed UWP apps by placing the device in developer mode.
 - When submitting an app to the Microsoft Store, developers need to set Device family availability and Organizational licensing options to make sure an app will be available to run on Surface Hub.
 - You need admin credentials to install apps on your Surface Hub. Since the device is designed to be used in communal spaces like meeting rooms, people can't access the Microsoft Store to download and install apps.
@@ -93,7 +93,7 @@ While you're developing your own app, there are a few options for testing apps o
 
 ### Developer Mode
 
-By default, Surface Hub only runs UWP apps that have been published to and signed by the Microsoft Store. Apps submitted to the Microsoft Store go through security and compliance tests as part of the [app certification process](https://msdn.microsoft.com/windows/uwp/publish/the-app-certification-process), so this helps safeguard your Surface Hub against malicious apps.
+By default, Surface Hub only runs UWP apps that have been published to and signed by the Microsoft Store. Apps submitted to the Microsoft Store go through security and compliance tests as part of the [app certification process](/windows/uwp/publish/the-app-certification-process), so this helps safeguard your Surface Hub against malicious apps.
 
 By enabling developer mode, you can also install developer-signed UWP apps.
 
@@ -109,21 +109,21 @@ By enabling developer mode, you can also install developer-signed UWP apps.
 
 ### Visual Studio
 
-During development, the easiest way to test your app on a Surface Hub is using Visual Studio. Visual Studio's remote debugging feature helps you discover issues in your app before deploying it broadly. For more information, see [Test Surface Hub apps using Visual Studio](https://msdn.microsoft.com/windows/uwp/debug-test-perf/test-surface-hub-apps-using-visual-studio).
+During development, the easiest way to test your app on a Surface Hub is using Visual Studio. Visual Studio's remote debugging feature helps you discover issues in your app before deploying it broadly. For more information, see [Test Surface Hub apps using Visual Studio](/windows/uwp/debug-test-perf/test-surface-hub-apps-using-visual-studio).
 
 #### Create provisioning package
 
-Use Visual Studio to [create an app package](https://msdn.microsoft.com/library/windows/apps/hh454036.aspx) for your UWP app, signed using a test certificate. Then use Windows Imaging and Configuration Designer (ICD) to create a provisioning package containing the app package. For more information, see [Create provisioning packages](provisioning-packages-for-certificates-surface-hub.md).
+Use Visual Studio to create an app package for your UWP app, signed using a test certificate. Then use Windows Imaging and Configuration Designer (ICD) to create a provisioning package containing the app package. For more information, see [Create provisioning packages](provisioning-packages-for-certificates-surface-hub.md).
 
 ## Submit apps to the Microsoft Store
 
-Once an app is ready for release, developers need to submit and publish it to the Microsoft Store. For more information, see [Publish Windows apps](https://developer.microsoft.com/store/publish-apps).
+Once an app is ready for release, developers need to submit and publish it to the Microsoft Store. For more information, see [Publish Windows apps and games](/windows/uwp/publish).
 
 During app submission, developers need to set **Device family availability** and **Organizational licensing** options to make sure the app will be available to run on Surface Hub.
 
 ### To set device family availability
 
-1. On the [Windows Dev Center](https://developer.microsoft.com), navigate to your app submission page.
+1. On the [Windows Dev Center](https://developer.microsoft.com/windows), navigate to your app submission page.
 2. Select **Packages**.
 3. Under **Device family availability**, select these options:
 
@@ -132,11 +132,11 @@ During app submission, developers need to set **Device family availability** and
   
    ![Image showing Device family availability page - part of Microsoft Store app submission process.](images/device-family.png)  
 
-   For more information, see [Device family availability](https://msdn.microsoft.com/windows/uwp/publish/upload-app-packages#device-family-availability).
+   For more information, see [Device family availability](/windows/uwp/publish/upload-app-packages#device-family-availability).
 
 ### To set organizational licensing
 
-1. On the [Windows Dev Center](https://developer.microsoft.com), navigate to your app submission page.
+1. On the [Windows Dev Center](https://developer.microsoft.com/windows), navigate to your app submission page.
 
 2. Select **Pricing and availability**.
 
@@ -148,9 +148,9 @@ During app submission, developers need to set **Device family availability** and
    > **Make my app available to organizations with Store-managed (online) licensing and distribution** is selected by default.
 
    > [!NOTE]
-   > Developers can also publish line-of-business apps directly to enterprises without making them broadly available in the Store. For more information, see [Distribute LOB apps to enterprises](https://msdn.microsoft.com/windows/uwp/publish/distribute-lob-apps-to-enterprises).
+   > Developers can also publish line-of-business apps directly to enterprises without making them broadly available in the Store. For more information, see [Distribute LOB apps to enterprises](/windows/uwp/publish/distribute-lob-apps-to-enterprises).
 
-   For more information, see [Organizational licensing options](https://msdn.microsoft.com/windows/uwp/publish/organizational-licensing).
+   For more information, see [Organizational licensing options](/windows/uwp/publish/organizational-licensing).
 
 ## Summary
 
