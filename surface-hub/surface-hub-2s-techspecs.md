@@ -15,7 +15,7 @@ ms.localizationpriority: Medium
 
 # Surface Hub 2S 50-inch tech specs
 
-|**Item**|**Details**|
+| Item | Details |
 |:------ |:--------- |
 |**Dimensions**| 29.2" x 43.2" x 3.0” (741 mm x 1097 mm x 76 mm) |
 |**Shipping dimensions**| 47.64" x 36.89" x 9.92" (1,210 mm x 937 mm x 252 mm)|
