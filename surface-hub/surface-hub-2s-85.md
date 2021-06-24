@@ -42,8 +42,13 @@ The 85" version of the Surface Hub family brings the Surface Hub 2S experience t
 | Sensors           | Doppler occupancy sensor<sup>3</sup>                                                                                                                                                                                                                                 |
 | Wireless          | Wi-Fi 5: IEEE 802.11 a/b/g/n/ac compatible<br>Bluetooth® Wireless 5.0 technology<br>Miracast Display                                                                                                                                                      |
 | Exterior          | Casing: Precision machined aluminum with mineral-composite resin<br>Color: Platinum<br>Physical Buttons: Power, Volume, Source                                                                                                                            |
-| Warranty         | 1-year limited hardware warranty<sup>4</sup>                                                                                                                                                                                                                          |
 | What’s in the box | (1) Surface Hub 2S<br>(2) Surface Hub 2 Pen<br>(1) Surface Hub 2 Camera<br>4m AC Power Cable<br>Quick Start Guide                                                                                                                                         |
+| Warranty         | 1-year limited hardware warranty<sup>4</sup>                                                                                                                                                                                                                          |
+|**BTU**| 2047 BTU/hr |
+|**Input Voltage**| 50/60Hz 110/230v nominal, 90-265v max |
+|**Input power, operating**| 665 W (745 W Surge Load) |
+|**Input Current**| 7.8 A |
+|**Input Power, standby**| 5 W max  |
 
 > [!NOTE]
 > Surface Hub can be used continuously for a maximum of 18 hours a day. To optimize for efficiency, Surface Hub uses smart sensors to turn off the LED screen when presence is no longer detected, which means there is no need to power it down at the end of the day. If the unit is installed in a 24-hour workplace environment, the sensors can be disabled to comply with the 18 hour per day maximum use recommendation. Note that prolonged display of a video signal may cause burned-in or image retention to occur on the screen. To learn more about managing power settings, see:
