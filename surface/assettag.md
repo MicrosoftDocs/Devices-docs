@@ -37,8 +37,7 @@ To run Surface Asset Tag:
     > [!NOTE]
     > For Surface Pro X, use the application named **AssetTag_x86**  in the ZIP file.
 
-2. Open a command console as an Administrator and run AssetTag.exe,
-    entering the full path to the tool.
+2. Open a command console as an Administrator and run AssetTag.exe, entering the full path to the tool.
 
 3. Restart Surface.
 
@@ -49,19 +48,19 @@ To run Surface Asset Tag:
 
 In the following examples, AssetTag.exe is saved in a directory on a local machine (C:\assets).
 
-To get the proposed asset tag, run AssetTag -g:
+To get the proposed asset tag, run **AssetTag -g**:
 
-   ```
- C:\assets\AssetTag.exe -g
-  ```
+```console
+C:\assets\AssetTag.exe -g
+```
 
- To clear the proposed asset tag, run AssetTag -s:
+To clear the proposed asset tag, run **AssetTag -s**:
 
-   ```
+```console
 C:\assets\AssetTag.exe -s
-  ```
+```
 
-To set the proposed asset tag, run AssetTag -s testassettag12:
+To set the proposed asset tag, run **AssetTag -s testassettag12**:
 
 ```
 C:\assets\AssetTag.exe -s testassettag12
@@ -73,44 +72,42 @@ C:\assets\AssetTag.exe -s testassettag12
 ## Managing asset tags
 
 You can view the existing asset tag in the UEFI settings under Device
-Information (**Control Panel > Recovery > Advanced Startup > Restart
-now**.)
+Information (**Control Panel > Recovery > Advanced Startup > Restart now**.)
 
 The figure below shows the results of running the Asset Tag Tool on
 Surface Go.
 
-![Results of running Surface Asset Tag tool on Surface Go.
-](images/assettag-fig1.png)
+![Results of running Surface Asset Tag tool on Surface Go.](images/assettag-fig1.png)
 
 > **Figure 1.** Results of running Surface Asset Tag tool on Surface Go
 
 Alternately, you can use WMI to query the existing asset tag on a device:
 
-(Get-WmiObject -query “Select * from Win32_SystemEnclosure”)
+(Get-WmiObject -query "Select * from Win32_SystemEnclosure")
 
 ### Example
 
-   ```
-C:\Windows\System32> (Get-WmiObject -query “Select * from Win32_SystemEnclosure”)
-  ```
+```console
+C:\Windows\System32> (Get-WmiObject -query "Select * from Win32_SystemEnclosure")
+```
   
 ### Using PowerShell
 
 You can use the script below as a way of getting the proposed value and
 interpreting any errors.
 
- ```
+```powershell
 AssetTag -g \> $asset\_tag 2\> $error\_message  
 $asset\_tag\_return\_code = $LASTEXITCODE  
-$asset\_tag = $asset\_tag.Trim(“\`r\`n”)
+$asset\_tag = $asset\_tag.Trim("\`r\`n")
 
 if ($asset\_tag\_return\_code -eq 0) {  
-Write-Output (“Good Tag = ” + $asset\_tag)  
+Write-Output ("Good Tag = " + $asset\_tag)  
 } else {  
 Write-Output (  
-“Failure: Code = ” + $asset\_tag\_return\_code +  
-“Tag = ” + $asset\_tag +  
-“Message = ” + $error\_message)
+"Failure: Code = " + $asset\_tag\_return\_code +  
+"Tag = " + $asset\_tag +  
+"Message = " + $error\_message)
 
 }
- ```
+```
