@@ -8,7 +8,8 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.reviewer: hachidan
+ms.reviewer: carlol
+ms.date: 06/29/2021
 manager: laurawi
 ---
 
@@ -24,44 +25,43 @@ for Surface devices. It works on Surface Pro 3 and all newer Surface devices.
 
 - UEFI firmware version 3.9.150.0 or later
 
-## Using Surface Asset Tag 
+## Using Surface Asset Tag
 
 To run Surface Asset Tag:
 
-1.  On the Surface device, download **Surface Asset Tag.zip** from the [Microsoft Download
+1. On the Surface device, download **Surface Asset Tag.zip** from the [Microsoft Download
     Center](https://www.microsoft.com/download/details.aspx?id=46703),
     extract the zip file, and save AssetTag.exe in desired folder (in
     this example, C:\\assets).
 
     > [!NOTE]
-    > For Surface Pro X, use the application named **AssetTag_x86**  in the ZIP file. 
+    > For Surface Pro X, use the application named **AssetTag_x86**  in the ZIP file.
 
-2.  Open a command console as an Administrator and run AssetTag.exe,
+2. Open a command console as an Administrator and run AssetTag.exe,
     entering the full path to the tool.
 
-3.  Restart Surface.
+3. Restart Surface.
 
-### Asset Tag tool commands   
-In the following examples, AssetTag.exe is saved in a directory on a local machine (C:\assets). 
+​​> [!NOTE]
+​​>  After setting the asset tag, a second reboot is required before it appears in WMI.
 
-To get the proposed asset tag, run AssetTag -g.
+### Asset Tag tool commands
 
-**Example**
+In the following examples, AssetTag.exe is saved in a directory on a local machine (C:\assets).
+
+To get the proposed asset tag, run AssetTag -g:
 
    ```
  C:\assets\AssetTag.exe -g
   ```
- 
- To clear the proposed asset tag, run AssetTag -s.
- 
- **Example**
- 
+
+ To clear the proposed asset tag, run AssetTag -s:
+
    ```
 C:\assets\AssetTag.exe -s
   ```
-To set the proposed asset tag, run AssetTag -s testassettag12.
 
-**Example**
+To set the proposed asset tag, run AssetTag -s testassettag12:
 
 ```
 C:\assets\AssetTag.exe -s testassettag12
@@ -69,7 +69,6 @@ C:\assets\AssetTag.exe -s testassettag12
 
 >[!NOTE]
 >The asset tag value must contain between 1 and 36 characters. Valid characters include A-Z, a-z, 0-9, period (.) and hyphen (-).
-
 
 ## Managing asset tags
 
@@ -89,7 +88,7 @@ Alternately, you can use WMI to query the existing asset tag on a device:
 
 (Get-WmiObject -query “Select * from Win32_SystemEnclosure”)
 
-**Example**
+### Example
 
    ```
 C:\Windows\System32> (Get-WmiObject -query “Select * from Win32_SystemEnclosure”)
