@@ -90,14 +90,14 @@ First create a security group containing the admin accounts. Then create another
 
     ```xml
       <groupmembership>   
-	  <accessgroup desc = "Administrators">        
+	  <accessgroup desc = "S-1-5-32-544">        
 	  <member name = "Administrator" />        
 	  <member name = "S-1-12-1-XXXXXXXXXX-XXXXXXXXXX-XXXXXXXXXX-XXXXXXXXXX" />  
 	  </accessgroup>
 	  </groupmembership>
       ```
       > [!IMPORTANT]
-      > Do not remove the default Administrator member from the XML file.
+      > You may need to use the [localized name for the Administrator account](https://social.technet.microsoft.com/wiki/contents/articles/13813.localized-names-for-administrator-account-in-windows.aspx). Do not remove the default Administrator member from the XML file.
 
 2. Replace the placeholder SID (beginning with S-1-12-1) with your **Azure AD Group SID** and then save the file as XML; for example, **aad-local-admin.xml**. 
 
