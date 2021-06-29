@@ -42,8 +42,8 @@ To run Surface Asset Tag:
 
 3. Restart Surface.
 
-   > [!NOTE]
-​​   After setting the asset tag, a second reboot is required before it appears in WMI.
+    > [!NOTE]
+    > After setting the asset tag, a second reboot is required before it appears in WMI.
 
 ### Asset Tag tool commands
 
