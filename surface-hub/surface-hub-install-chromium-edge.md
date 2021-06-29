@@ -48,7 +48,7 @@ Windows 10 Team 2020 Update supports the new Microsoft Edge based on Chromium (v
  
 
 1. [Download the Microsoft Edge installer](https://www.microsoft.com/edge/business/download).
-    - Use the current version from [Stable channel](https://docs.microsoft.com/deployedge/microsoft-edge-channels) **(version 85)**
+    - Use the current version from [Stable channel](https://docs.microsoft.com/deployedge/microsoft-edge-channels) 
     - Choose **Windows 64-bit**
 2. [Add the Microsoft Edge installer as a line-of-business app to Microsoft Intune](https://docs.microsoft.com/mem/intune/apps/lob-apps-windows).
     - If you choose to use Microsoft Edge Update to handle automatic updates to Microsoft Edge, be sure to configure the **Ignore app version** setting the **App information** pane. When you switch this setting to **Yes**, Microsoft Intune will not enforce the app version that's installed on the Surface Hub device.
