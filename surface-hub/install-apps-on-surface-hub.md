@@ -89,7 +89,7 @@ To deploy apps to a large number of Surface Hubs in your organization, use a sup
 
 ## Develop and test apps
 
-While you're developing your own app, there are a few options for testing apps on Surface Hub.
+This section provides information for app developers for testing apps on Surface Hub.
 
 ### Developer Mode
 
