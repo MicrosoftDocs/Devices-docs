@@ -13,7 +13,7 @@ ms.topic: article
 ms.reviewer: jesko
 manager: laurawi
 ms.audience: itpro
-ms.date: 6/03/2021
+ms.date: 7/02/2021
 ---
 
 # Wake On LAN with Surface Dock 2
@@ -43,7 +43,7 @@ Surface Dock 2 provides WOL support for devices in the following power states:
 
 - Connected standby
 - Hibernation (S4 power state)
-- Hibernation (S5 “soft off” power state)
+- Shutdown (S5 “soft off” power state)
 
 To learn more about power states, see [System Power States](/windows/win32/power/system-power-states).
 
