@@ -26,6 +26,19 @@ Please refer to the “[Surface Hub Important Information](https://support.micro
 ## Windows 10 Team 2020 Update (20H2)
 
 <details>
+<summary>June 10, 2021 — update for Surface Hub 2S</summary>
+
+This update is specific to the Surface Hub 2S and provides the driver and firmware updates outlined below:
+
+* Surface UEFI update - 694.3751.768.0
+  * Addresses critical security vulnerability and improves system stability.
+* Surface ME Firmware update - 11.8.86.3877
+  * Addresses critical security vulnerability and improves system stability.
+* Intel(R) Management Engine Interface driver - 2102.100.0.1044
+  * Addresses critical security vulnerability and improves system stability.
+</details>
+
+<details>
 <summary>April 13, 2021 — update for Team based on KB5001330* (OS Build 19042.928)</summary>
 
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4581839/windows-10-update-history), include:
@@ -41,11 +54,11 @@ Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabl
 This update is specific to the Surface Hub 2S and provides the driver and firmware updates outlined below:
 
 * Intel(R) Bluetooth driver - 22.30.0.4
-  * Addresses security updates and improves system stability.
+  * Improves system security and stability.
 * Intel(R) graphics driver - 27.20.100.8682
-  * Addresses security updates and improves system stability.
+  * Improves system security and stability.
 * Intel(R) Wi-Fi driver - 22.30.0.11
-  * Addresses security updates and improves system stability.
+  * Improves system security and stability.
 </details>
 
 <details>
@@ -59,7 +72,7 @@ This update to the Surface Hub includes quality improvements and security fixes.
 * Resolves an issue where Windows Update and Store update checks would never complete if a proxy requiring authentication was in use.
 * Improves the reliability of the Connect App during wired ingest scenarios.
 
-Please refer to the [Surface Hub Admin guide](https://docs.microsoft.com/surface-hub/) for enabling/disabling device features and services. *[KB4598291](https://support.microsoft.com/help/4598291)
+Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabling device features and services. *[KB4598291](https://support.microsoft.com/help/4598291)
 </details>
 
 <details>
@@ -95,7 +108,7 @@ This update to the Surface Hub includes quality improvements and security fixes.
 * Improves reliability when enrolling into Windows Insider Program.
 * Improves reliability of Windows Team shell.
 
-Please refer to the [Surface Hub Admin guide](https://docs.microsoft.com/surface-hub/) for enabling/disabling device features and services. *[KB4586853](https://support.microsoft.com/help/4586853)
+Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabling device features and services. *[KB4586853](https://support.microsoft.com/help/4586853)
 </details>
 
 <details>
@@ -123,9 +136,9 @@ This update is specific to the Surface Hub 2S and provides the driver and firmwa
 <details>
 <summary>Windows 10 Team 2020 Update for Surface Hub — General Release notes (OS Build 19042.572)</summary>
 
-This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4581839/windows-10-update-history), are noted on the page "[What's new in Windows 10 Team 2020 Update](https://docs.microsoft.com/surface-hub/surface-hub-2020-update-whats-new)".
+This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4581839/windows-10-update-history), are noted on the page "[What's new in Windows 10 Team 2020 Update](/surface-hub/surface-hub-2020-update-whats-new)".
 
-Please refer to the "[Install Windows 10 Team 2020 Update](https://docs.microsoft.com/surface-hub/surface-hub-2020-update)" page for more information regarding update availability by region, distribution method, and device type.
+Please refer to the "[Install Windows 10 Team 2020 Update](/surface-hub/surface-hub-2020-update)" page for more information regarding update availability by region, distribution method, and device type.
 </details>
 
 ## Windows 10 Team Creators Update (1703)
@@ -183,7 +196,7 @@ This update to the Surface Hub includes quality improvements and security fixes.
 * Resolves an issue where the Hub 2S cannot be heard well by other participants during Skype for Business calls.
 * Improves reliability for some Arabic, Hebrew, and other RTL language usage scenarios on Surface Hub.
 
-Please refer to the [Surface Hub Admin guide](https://docs.microsoft.com/surface-hub/) for enabling/disabling device features and services.
+Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabling device features and services.
 *[KB4537765](https://support.microsoft.com/help/4537765)
 </details>
 
@@ -194,7 +207,7 @@ This update to the Surface Hub includes quality improvements and security fixes.
 
 * Addresses an issue with log collection for Microsoft Surface Hub 2S.
 
-Please refer to the [Surface Hub Admin guide](https://docs.microsoft.com/surface-hub/) for enabling/disabling device features and services.
+Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabling device features and services.
 *[KB4534296](https://support.microsoft.com/help/4534296)
 </details>
 
@@ -210,7 +223,7 @@ This update to the Surface Hub includes quality improvements and security fixes.
  * Fixed an issue in Microsoft Edge that occurs when browsing some internal websites.
  * Fixed an issue in Skype for Business that occurs when presenting in full-screen mode.
 
-Please refer to the [Surface Hub Admin guide](https://docs.microsoft.com/surface-hub/) for enabling/disabling device features and services.
+Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabling device features and services.
 *[KB4503289](https://support.microsoft.com/help/4503289)
 </details>
 
@@ -222,7 +235,7 @@ This update to the Surface Hub includes quality improvements and security fixes.
  * Ensures that Video Out on Hub 2S defaults to "Duplicate" mode.
  * Improves reliability for some Arabic language usage scenarios on Surface Hub.
 
-Please refer to the [Surface Hub Admin guide](https://docs.microsoft.com/surface-hub/) for enabling/disabling device features and services.
+Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabling device features and services.
 *[KB4503289](https://support.microsoft.com/help/4503289)
  </details>
 
@@ -236,7 +249,7 @@ This update to the Surface Hub includes quality improvements and security fixes.
 * Fixes to improve reliability of Hardware Diagnostic App on Hub 2S. 
 * Fix to improve consistency of first-run setup experience on Hub 2S. 
 
-Please refer to the [Surface Hub Admin guide](https://docs.microsoft.com/surface-hub/) for enabling/disabling device features and services.
+Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabling device features and services.
 *[KB4503289](https://support.microsoft.com/help/4503289)
 </details>
 
@@ -250,7 +263,7 @@ This update to the Surface Hub includes quality improvements and security fixes.
 * Adds support for TLS 1.2 in Skype for Business.
 * Resolves a SIP connection failure in the Skype client when the Skype server has TLS 1.0 or TLS 1.1 disabled.
 
-Please refer to the [Surface Hub Admin guide](https://docs.microsoft.com/surface-hub/) for enabling/disabling device features and services.
+Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabling device features and services.
 *[KB4499162](https://support.microsoft.com/help/4499162)
 </details>
 
@@ -261,7 +274,7 @@ This update to the Surface Hub includes quality improvements and security fixes.
 
 * Resolves video and audio sync issue with some USB devices that are connected to the Surface Hub.
 
-Please refer to the [Surface Hub Admin guide](https://docs.microsoft.com/surface-hub/) for enabling/disabling device features and services.
+Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabling device features and services.
 *[KB4493436](https://support.microsoft.com/help/4493436)
 </details>
 
@@ -272,7 +285,7 @@ This update to the Surface Hub includes quality improvements and security fixes.
 
 * Addresses an issue that prevents some users from Signing-In to “My Meetings and Files.”
 
-Please refer to the [Surface Hub Admin guide](https://docs.microsoft.com/surface-hub/) for enabling/disabling device features and services.
+Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabling device features and services.
 *[KBKB4467699](https://support.microsoft.com/help/KB4467699)
 </details>
 
@@ -288,7 +301,7 @@ This update to the Surface Hub includes quality improvements and security fixes.
 * Resolves issue where the Hub mistakenly reports “No Internet connection” in enterprise proxy environments.
 * Implemented a feature allowing customers to op-in to a new Whiteboard experience.
 
-Please refer to the [Surface Hub Admin guide](https://docs.microsoft.com/surface-hub/) for enabling/disabling device features and services.
+Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabling device features and services.
 *[KB4462939](https://support.microsoft.com/help/4462939)
 </details>
 
@@ -302,7 +315,7 @@ This update to the Surface Hub includes quality improvements and security fixes.
 * Enables Administrators to disable Instant Messaging and Email services for the Hub
 * Additional bug fixes and reliability improvements for the Surface Hub Skype for Business App
 
-Please refer to the [Surface Hub Admin guide](https://docs.microsoft.com/surface-hub/) for enabling/disabling device features and services.
+Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabling device features and services.
 *[KB4343889](https://support.microsoft.com/help/4343889)
 </details>
 
@@ -313,7 +326,7 @@ This update to the Surface Hub includes quality improvements and security fixes.
 
 * Telemetry change in support of GDPR requirements in EMEA
 
-Please refer to the [Surface Hub Admin guide](https://docs.microsoft.com/surface-hub/) for enabling/disabling device features and services.
+Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabling device features and services.
 *[KB4284830](https://support.microsoft.com/help/KB4284830)
 </details>
 
@@ -331,7 +344,7 @@ This update to the Surface Hub includes quality improvements and security fixes.
 * Addresses Miracast issue, when Surface Hub is specified to channels 149 through 165
   * Channels 149 through 165 will continue to be unusable in Europe, Japan or Israel due to regional governmental regulations
 
-Please refer to the [Surface Hub Admin guide](https://docs.microsoft.com/surface-hub/) for enabling/disabling device features and services.
+Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabling device features and services.
 *[KB4093117](https://support.microsoft.com/help/4093117)
 </details>
 
@@ -343,7 +356,7 @@ This update to the Surface Hub includes quality improvements and security fixes.
 * Resolved an issue where MDM settings were not being correctly applied
 * Improved Cleanup process
 
-Please refer to the [Surface Hub Admin guide](https://docs.microsoft.com/surface-hub/) for enabling/disabling device features and services.
+Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabling device features and services.
 *[KB4077528](https://support.microsoft.com/help/4077528)
 </details>
 
@@ -355,7 +368,7 @@ This update to the Surface Hub includes quality improvements and security fixes.
 * Adds ability to manage Start Menu tile layout via MDM
 * MDM bug fix on password rotation configuration
 
-Please refer to the [Surface Hub Admin guide](https://docs.microsoft.com/surface-hub/) for enabling/disabling device features and services.
+Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabling device features and services.
 *[KB4057144](https://support.microsoft.com/help/4057144)
 </details>
 
@@ -367,7 +380,7 @@ This update to the Surface Hub includes quality improvements and security fixes.
 * Resolves camera video flashes (tearing or flickers) during Skype for Business calls
 * Resolves Notification Center SSD ID issue
 
-Please refer to the [Surface Hub Admin guide](https://docs.microsoft.com/surface-hub/) for enabling/disabling device features and services.
+Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabling device features and services.
 *[KB4053580](https://support.microsoft.com/help/4053580)
 </details>
 
@@ -385,7 +398,7 @@ This update to the Surface Hub includes quality improvements and security fixes.
 * Reduces and more thoroughly secures the telemetry transmitted by the device, reducing bandwidth utilization.
 * Enables a feature allowing users to provide feedback to Microsoft after a meeting concludes.
 
-Please refer to the [Surface Hub Admin guide](https://docs.microsoft.com/surface-hub/) for enabling/disabling device features and services.
+Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabling device features and services.
 *[KB4048954](https://support.microsoft.com/help/4048954)
 </details>
 
@@ -504,7 +517,7 @@ This update to the Surface Hub includes quality improvements and security fixes.
   * Improved proxy credential support
   * Added and /improved Skype Quality of Service (QoS) configuration support
   * Added ability to set default device volume in Settings
-  * Improved MDM support for Surface Hub [settings](https://docs.microsoft.com/surface-hub/remote-surface-hub-management)
+  * Improved MDM support for Surface Hub [settings](/surface-hub/remote-surface-hub-management)
 * Improved Security 
   * Added ability to restrict USB drives to BitLocker only
   * Added ability to disable USB ports via MDM
