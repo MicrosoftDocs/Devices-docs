@@ -10,7 +10,7 @@ ms.sitesec: library
 author: dansimp
 ms.author: dansimp
 ms.topic: article
-ms.date: 06/24/2021
+ms.date: 07/12/2021
 ms.localizationpriority: medium
 audience: ITPro
 ---
@@ -51,8 +51,8 @@ To evaluate apps released on the Microsoft Store, use the Microsoft Store app on
 
 1. From your Surface Hub, start **Settings**.
 2. Type the device admin credentials when prompted.
-3. Navigate to **This device** > **Apps & features**.
-4. Select **Open Store**.
+3. Navigate to **Surface Hub** - **Device account, management** > **Apps & features**.
+4. Select **Open Store** and search for the Microsoft Teams app.
 
 ### Download app packages from Microsoft Store for Business
 
