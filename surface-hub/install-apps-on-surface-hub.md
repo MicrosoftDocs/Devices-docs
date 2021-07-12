@@ -21,7 +21,7 @@ You can install additional apps on your Surface Hub to fit your team or organiza
 
 ## Supported app guidelines
 
-- Surface Hub only runs [Universal Windows Platform (UWP) apps](/windows/uwp/get-started/universal-application-platform-guide). Apps created using the [MSIX Packaging Tool] (/windows/msix/packaging-tool/tool-overview) will not run on Surface Hub.
+- Surface Hub only runs [Universal Windows Platform (UWP) apps](/windows/uwp/get-started/universal-application-platform-guide). Apps created using the [MSIX Packaging Tool](/windows/msix/packaging-tool/tool-overview) will not run on Surface Hub.
 - Apps must be targeted for the [Universal device family](/windows/uwp/get-started/universal-application-platform-guide) or Windows Team device family.
 - Surface Hub only supports [offline-licensed apps](/microsoft-store/distribute-offline-apps) from [Microsoft Store for Business](https://businessstore.microsoft.com/store/private-store).
 - By default, apps must be Store-signed to be installed. During testing and development, you can also choose to run developer-signed UWP apps by placing the device in developer mode.
