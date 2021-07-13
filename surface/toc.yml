@@ -19,7 +19,7 @@
          - name: Surface Headphones 2+ tech overview
            href: surface-headphones.md
       - name: Evaluate Surface
-         items:  
+        items:  
          - name: Windows Autopilot and Surface devices
            href: windows-autopilot-and-surface-devices.md
          - name: Manage DFCI on Surface devices
@@ -31,7 +31,7 @@
          - name: Find remote work solutions with Surface
            href: https://www.microsoft.com/surface/business/lte-laptops-and-tablets
       - name: Order Surface devices
-         items:    
+        items:    
         - name: Surface Laptop 4 for Business
           href: https://www.microsoft.com/surface/business/surface-laptop-4
         - name: Surface Pro 7+ for Business
