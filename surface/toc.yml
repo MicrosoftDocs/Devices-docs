@@ -6,10 +6,34 @@
       href: get-started.yml
     - name: Overview
       items: 
+      - name: Technical overviews
+           items:
+             - name: Surface Laptop 4 processors tech overview
+               href: surface-laptop-processors.md
+             - name: Surface Book 3 GPU tech overview
+               href: surface-book-GPU-overview.md
+             - name: Surface Book 3 Quadro RTX 3000 tech overview
+               href: surface-book-quadro.md
+             - name: Windows Virtual Desktop on Surface
+               href: windows-virtual-desktop-surface.md
+             - name: Surface Headphones 2+ tech overview
+               href: surface-headphones.md
+      - name: Evaluate Surface
+          items:  
+          - name: Windows Autopilot and Surface devices
+            href: windows-autopilot-and-surface-devices.md
+          - name: Manage DFCI on Surface devices
+            href: surface-manage-dfci-guide.md
+          - name: Maximizing ROI with Microsoft Surface
+            href: forrester-tei-study.md
+          - name: Total Economic Impact of Microsoft Surface for Education
+            href: forrester-tei-edu-study.md
+          - name: Find remote work solutions with Surface
+            href: https://www.microsoft.com/surface/business/lte-laptops-and-tablets
+      - name: Order Surface devices
+         items:    
         - name: Surface Laptop 4 for Business
           href: https://www.microsoft.com/surface/business/surface-laptop-4
-        - name: Surface Laptop 4 processors tech overview
-          href: surface-laptop-processors.md
         - name: Surface Pro 7+ for Business
           href: https://www.microsoft.com/surface/business/surface-pro-7-plus
         - name: Surface Go 2 for Business
@@ -20,20 +44,6 @@
           href: https://www.microsoft.com/surface/business/surface-studio-2
         - name: Surface Book 3 for Business
           href: https://www.microsoft.com/surface/business/surface-book-3
-        - name: Maximizing ROI with Microsoft Surface
-          href: forrester-tei-study.md
-        - name: Total Economic Impact of Microsoft Surface for Education
-          href: forrester-tei-edu-study.md
-        - name: What's new in Surface Dock
-          href: surface-dock-whats-new.md
-        - name: Surface Book 3 GPU technical overview
-          href: surface-book-GPU-overview.md
-        - name: Surface Book 3 Quadro RTX 3000 technical overview
-          href: surface-book-quadro.md
-        - name: Secure, work-anywhere mobility with LTE Advanced
-          href: https://www.microsoft.com/surface/business/lte-laptops-and-tablets
-        - name: Surface Headphones 2+ tech overview
-          href: surface-headphones.md
     - name: Plan
       items: 
         - name: Surface device compatibility with Windows 10 Long-Term Servicing Branch
@@ -56,8 +66,6 @@
           href: windows-autopilot-and-surface-devices.md
         - name: Surface Registration Support for Windows Autopilot
           href: surface-autopilot-registration-support.md
-        - name: Windows Virtual Desktop on Surface
-          href: windows-virtual-desktop-surface.md
         - name: Deploying, managing, and servicing Surface Pro X
           href: surface-pro-arm-app-management.md
         - name: Surface Pro X app compatibility
@@ -86,6 +94,8 @@
           href: surface-wireless-connect.md
         - name: Best practice power settings for Surface devices
           href: maintain-optimal-power-settings-on-Surface-devices.md
+        - name: What's new in Surface Dock 2
+          href: surface-dock-whats-new.md
         - name: Surface Dock Firmware Update
           href: surface-dock-firmware-update.md
         - name: Manage Surface Dock 2 with WMI
@@ -106,7 +116,7 @@
       items: 
         - name: Surface security overview
           href: surface-security.md
-        - name: Intune management of Surface UEFI settings
+        - name: Manage DFCI on Surface devices
           href: surface-manage-dfci-guide.md
         - name: Manage Surface UEFI settings
           href: manage-surface-uefi-settings.md
