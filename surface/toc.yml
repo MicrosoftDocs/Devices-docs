@@ -7,17 +7,17 @@
     - name: Overview
       items: 
       - name: Technical overviews
-           items:
-             - name: Surface Laptop 4 processors tech overview
-               href: surface-laptop-processors.md
-             - name: Surface Book 3 GPU tech overview
-               href: surface-book-GPU-overview.md
-             - name: Surface Book 3 Quadro RTX 3000 tech overview
-               href: surface-book-quadro.md
-             - name: Windows Virtual Desktop on Surface
-               href: windows-virtual-desktop-surface.md
-             - name: Surface Headphones 2+ tech overview
-               href: surface-headphones.md
+        items:
+         - name: Surface Laptop 4 processors tech overview
+           href: surface-laptop-processors.md
+         - name: Surface Book 3 GPU tech overview
+           href: surface-book-GPU-overview.md
+         - name: Surface Book 3 Quadro RTX 3000 tech overview
+            href: surface-book-quadro.md
+         - name: Windows Virtual Desktop on Surface
+            href: windows-virtual-desktop-surface.md
+         - name: Surface Headphones 2+ tech overview
+            href: surface-headphones.md
       - name: Evaluate Surface
           items:  
           - name: Windows Autopilot and Surface devices
