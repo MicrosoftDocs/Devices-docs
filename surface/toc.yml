@@ -5,6 +5,7 @@
     - name: Surface devices documentation
       href: get-started.yml
     - name: Overview
+      expanded: true
       items: 
       - name: Technical overviews
         items:
