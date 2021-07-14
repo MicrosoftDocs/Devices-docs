@@ -1,6 +1,5 @@
 - name: Surface
   href: index.yml
-  expanded: true
   items: 
     - name: Surface devices documentation
       href: get-started.yml
