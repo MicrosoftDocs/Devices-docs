@@ -140,7 +140,7 @@
             href: surface-diagnostic-toolkit-business.md
           - name: Use Surface Diagnostic Toolkit for Business in desktop mode
             href: surface-diagnostic-toolkit-desktop-mode.md
-          - name: Run Surface Diagnostic Toolkit for Business using commands
+          - name: Run Surface Diagnostic Toolkit for Business with commands
             href: surface-diagnostic-toolkit-command-line.md
         - name: Surface Data Eraser
           href: microsoft-surface-data-eraser.md
