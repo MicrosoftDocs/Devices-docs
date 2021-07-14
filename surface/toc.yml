@@ -102,15 +102,15 @@
            href: secure-surface-dock-ports-semm.md
          - name: Surface Dock 1 Firmware Update
            href: surface-dock-firmware-update.md
-     - name: Remotely wake devices
-       items: 
+      - name: Remotely wake devices
+        items: 
        - name: Wake On LAN for Surface devices
          href: wake-on-lan-for-surface-devices.md
        - name: Wake On LAN with Surface Dock 2
          href: wake-on-lan-surface-dock2.md
        - name: Wake on Power for Surface devices
          href: wake-on-power-for-surface.md  
-     - name: Best practices
+      - name: Best practices
        items:     
        - name: Optimize Wi-Fi connectivity for Surface devices
          href: surface-wireless-connect.md
@@ -121,8 +121,8 @@
        - name: Best practices for SSD removal in compatible Surface devices
          href: surface-ssd-removal-guide.md   
        - name: Considerations for Surface and Endpoint Configuration Manager
-          href: considerations-for-surface-and-system-center-configuration-manager.md
-     - name: Surface tools
+         href: considerations-for-surface-and-system-center-configuration-manager.md
+      - name: Surface tools
         items:   
          - name: Surface Enterprise Management Mode
            href: surface-enterprise-management-mode.md
