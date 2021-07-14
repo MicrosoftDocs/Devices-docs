@@ -66,17 +66,17 @@
           href: surface-system-sku-reference.md
       - name: Automated deployment
         items: 
-         - name: Surface Deployment Accelerator
+        - name: Surface Deployment Accelerator
           href: microsoft-surface-deployment-accelerator.md
         - name: Deploy Windows 10 to Surface devices with MDT
           href: deploy-windows-10-to-surface-devices-with-mdt.md
-        - name: Enable the Surface Laptop keyboard during MDT deployment
+       - name: Enable the Surface Laptop keyboard during MDT deployment
           href: enable-surface-keyboard-for-windows-pe-deployment.md
         - name: Upgrade Surface devices to Windows 10 with MDT
           href: upgrade-surface-devices-to-windows-10-with-mdt.md
         - name: Customize the OOBE for Surface deployments
           href: customize-the-oobe-for-surface-deployments.md          
-       - name: Manage updates
+      - name : Manage updates
         items:
         - name: Manage and deploy Surface driver and firmware updates
           href: manage-surface-driver-and-firmware-updates.md     
@@ -84,49 +84,49 @@
           href: surface-driver-firmware-lifecycle-support.md
         - name: Manage Surface driver updates in Configuration Manager
           href: manage-surface-driver-updates-configuration-manager.md
-       - name: Manage UEFI (firmware)
-          items:
-         - name: Manage Surface UEFI settings
-          href: manage-surface-uefi-settings.md
-         - name: Manage DFCI on Surface devices
-          href: surface-manage-dfci-guide.md
-         - name: Advanced UEFI security features for Surface Pro 3
+      - name: Manage UEFI (firmware)
+        items:
+       - name: Manage Surface UEFI settings
+         href: manage-surface-uefi-settings.md
+       - name: Manage DFCI on Surface devices
+         href: surface-manage-dfci-guide.md
+        - name: Advanced UEFI security features for Surface Pro 3
           href: advanced-uefi-security-features-for-surface-pro-3.md 
-       - name: Surface Dock
+      - name: Surface Dock
          items:
          - name: What's new in Surface Dock 2
-          href: surface-dock-whats-new.md
-          - name: Manage Surface Dock 2 with WMI
-          href: surface-dock2-wmi.md  
+           href: surface-dock-whats-new.md
+         - name: Manage Surface Dock 2 with WMI
+           href: surface-dock2-wmi.md  
          - name: Secure Surface Dock 2 ports with SEMM
-          href: secure-surface-dock-ports-semm.md
+           href: secure-surface-dock-ports-semm.md
          - name: Surface Dock 1 Firmware Update
-          href: surface-dock-firmware-update.md
-       - name: Remotely wake devices
-         items: 
-         - name: Wake On LAN for Surface devices
-          href: wake-on-lan-for-surface-devices.md
-        - name: Wake On LAN with Surface Dock 2
-          href: wake-on-lan-surface-dock2.md
-        - name: Wake on Power for Surface devices
-          href: wake-on-power-for-surface.md  
-       - name: Best practices
-         items:     
-        - name: Optimize Wi-Fi connectivity for Surface devices
-          href: surface-wireless-connect.md
-        - name: Best practice power settings for Surface devices
-          href: maintain-optimal-power-settings-on-Surface-devices.md  
-        - name: Surface DMA Protection
-          href: dma-protect.md
-        - name: Best practices for SSD removal in compatible Surface devices
-          href: surface-ssd-removal-guide.md   
-        - name: Considerations for Surface and Endpoint Configuration Manager
+           href: surface-dock-firmware-update.md
+     - name: Remotely wake devices
+       items: 
+       - name: Wake On LAN for Surface devices
+         href: wake-on-lan-for-surface-devices.md
+       - name: Wake On LAN with Surface Dock 2
+         href: wake-on-lan-surface-dock2.md
+       - name: Wake on Power for Surface devices
+         href: wake-on-power-for-surface.md  
+     - name: Best practices
+       items:     
+       - name: Optimize Wi-Fi connectivity for Surface devices
+         href: surface-wireless-connect.md
+       - name: Best practice power settings for Surface devices
+         href: maintain-optimal-power-settings-on-Surface-devices.md  
+       - name: Surface DMA Protection
+         href: dma-protect.md
+       - name: Best practices for SSD removal in compatible Surface devices
+         href: surface-ssd-removal-guide.md   
+       - name: Considerations for Surface and Endpoint Configuration Manager
           href: considerations-for-surface-and-system-center-configuration-manager.md
-       - name: Surface tools
-         items:   
+     - name: Surface tools
+        items:   
          - name: Surface Enterprise Management Mode
-          href: surface-enterprise-management-mode.md
-          items:
+           href: surface-enterprise-management-mode.md
+           items:
              - name: Enroll and configure Surface devices with SEMM
                href: enroll-and-configure-surface-devices-with-semm.md
              - name: Unenroll Surface devices from SEMM
@@ -154,12 +154,12 @@
            href: enable-peap-eap-fast-and-cisco-leap-on-surface-devices.md
          - name: Surface Dock 1 Firmware Update
            href: surface-dock-firmware-update.md
-       - name: ARM processors
-         items:          
-            - name: Deploying, managing, and servicing Surface Pro X
-              href: surface-pro-arm-app-management.md
-            - name: Surface Pro X app compatibility
-                href: surface-pro-arm-app-performance.md
+      - name: ARM processors
+        items:          
+        - name: Deploying, managing, and servicing Surface Pro X
+          href: surface-pro-arm-app-management.md
+        - name: Surface Pro X app compatibility
+          href: surface-pro-arm-app-performance.md
     - name: Troubleshoot
       items: 
         - name: Top support solutions for Surface devices
