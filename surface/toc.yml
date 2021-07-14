@@ -64,7 +64,7 @@
           href: surface-autopilot-registration-support.md
         - name: Surface System SKU reference
           href: surface-system-sku-reference.md
-      - name: Automated deployment
+      - name: Automate deployment
         items: 
         - name: Surface Deployment Accelerator
           href: microsoft-surface-deployment-accelerator.md
@@ -154,7 +154,7 @@
           href: enable-peap-eap-fast-and-cisco-leap-on-surface-devices.md
         - name: Surface Dock 1 Firmware Update
           href: surface-dock-firmware-update.md
-      - name: ARM processors
+      - name: ARM devices
         items:          
         - name: Deploying, managing, and servicing Surface Pro X
           href: surface-pro-arm-app-management.md
