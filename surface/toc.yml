@@ -128,20 +128,20 @@
           href: surface-enterprise-management-mode.md
           items:
           - name: Enroll and configure Surface devices with SEMM
-             href: enroll-and-configure-surface-devices-with-semm.md
+            href: enroll-and-configure-surface-devices-with-semm.md
           - name: Unenroll Surface devices from SEMM
-             href: unenroll-surface-devices-from-semm.md
+            href: unenroll-surface-devices-from-semm.md
           - name: Use Microsoft Endpoint Configuration Manager to manage devices with SEMM
-             href: use-system-center-configuration-manager-to-manage-devices-with-semm.md
+            href: use-system-center-configuration-manager-to-manage-devices-with-semm.md
         - name: Fix common Surface problems using the Surface Diagnostic Toolkit for Business
-         href: surface-diagnostic-toolkit-for-business-intro.md
-         items: 
-         - name: Deploy Surface Diagnostic Toolkit for Business
-              href: surface-diagnostic-toolkit-business.md
-            - name: Use Surface Diagnostic Toolkit for Business in desktop mode
-              href: surface-diagnostic-toolkit-desktop-mode.md
-            - name: Run Surface Diagnostic Toolkit for Business using commands
-              href: surface-diagnostic-toolkit-command-line.md
+          href: surface-diagnostic-toolkit-for-business-intro.md
+          items: 
+          - name: Deploy Surface Diagnostic Toolkit for Business
+            href: surface-diagnostic-toolkit-business.md
+          - name: Use Surface Diagnostic Toolkit for Business in desktop mode
+            href: surface-diagnostic-toolkit-desktop-mode.md
+          - name: Run Surface Diagnostic Toolkit for Business using commands
+            href: surface-diagnostic-toolkit-command-line.md
         - name: Surface Data Eraser
           href: microsoft-surface-data-eraser.md
         - name: Battery Limit setting
