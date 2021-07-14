@@ -8,10 +8,10 @@
       items: 
       - name: Technical overviews
         items:
-         - name: Windows Virtual Desktop on Surface
-           href: windows-virtual-desktop-surface.md		
          - name: Surface security overview
            href: surface-security.md
+         - name: Windows Virtual Desktop on Surface
+           href: windows-virtual-desktop-surface.md			   
          - name: Surface Laptop 4 processors tech overview
            href: surface-laptop-processors.md
          - name: Surface Book 3 GPU tech overview
