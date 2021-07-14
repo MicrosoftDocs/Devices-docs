@@ -148,7 +148,7 @@
           href: surface-dock-firmware-update.md
       - name: ARM devices
         items:          
-        - name: Deploying, managing, and servicing Surface Pro X
+        - name: Deploying, managing, & servicing Surface Pro X
           href: surface-pro-arm-app-management.md
         - name: Surface Pro X app compatibility
           href: surface-pro-arm-app-performance.md
@@ -162,7 +162,7 @@
           href: https://support.microsoft.com/products/surface-devices
         - name: Contact Surface Support
           href: contact-surface-support.md
-    - name: Warranty and service
+    - name: Warranty & service
       items: 
         - name: Surface for Business warranty and protection plans
           href: https://www.microsoft.com/surface/business/warranty-service-offerings-and-support

@@ -13,7 +13,7 @@ ms.reviewer: brrecord
 manager: laurawi
 audience: itpro
 ---
-# Surface Book 3 GPU technical overview
+# Surface Book 3 GPU tech overview
 
 ## Introduction
 

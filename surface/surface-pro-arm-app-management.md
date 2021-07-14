@@ -13,7 +13,7 @@ ms.reviewer: jessko
 manager: laurawi
 ms.audience: itpro
 ---
-# Deploying, managing, and servicing Surface Pro X
+# Deploying, managing, & servicing Surface Pro X
 
 ## Introduction
 
