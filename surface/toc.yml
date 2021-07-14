@@ -87,9 +87,9 @@
       - name: Manage UEFI (firmware)
         items:
         - name: Manage Surface UEFI settings
-         href: manage-surface-uefi-settings.md
+          href: manage-surface-uefi-settings.md
         - name: Manage DFCI on Surface devices
-         href: surface-manage-dfci-guide.md
+          href: surface-manage-dfci-guide.md
         - name: Advanced UEFI security features for Surface Pro 3
           href: advanced-uefi-security-features-for-surface-pro-3.md 
       - name: Surface Dock
