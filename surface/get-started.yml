@@ -24,6 +24,8 @@ landingContent:
     linkLists:
       - linkListType: whats-new
         links:
+          - text: Remote work solutions with Surface
+            url: https://www.microsoft.com/surface/business/remote-work-solutions
           - text: Surface Laptop 4 + for Business 
             url: https://www.microsoft.com/surface/business/surface-laptop-4       
           - text: Surface Pro 7+ for Business 
@@ -120,6 +122,17 @@ landingContent:
           - text: Battery Limit setting
             url: battery-limit.md
 
+ # Card
+  - title: Surface ROI
+    linkLists:
+      - linkListType: learn
+        links:
+          - text: Maximizing ROI with Microsoft Surface
+            url: forrester-tei-study.md
+          - text: Total Economic Impact of Microsoft Surface for Education
+            url: forrester-tei-edu-study.md
+
+            
 # Card
   - title: Participate in Surface Community 
     linkLists:

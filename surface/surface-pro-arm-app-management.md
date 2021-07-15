@@ -13,7 +13,7 @@ ms.reviewer: jessko
 manager: laurawi
 ms.audience: itpro
 ---
-# Deploying, managing, and servicing Surface Pro X
+# Deploying, managing, & servicing Surface Pro X
 
 ## Introduction
 
@@ -28,7 +28,7 @@ Surface Pro X is designed almost exclusively for a modern, cloud-based environme
 For the best experience, deploy Surface Pro X using Windows Autopilot either with the assistance of a Microsoft Cloud Solution Provider or self-provisioned using Autopilot deployment profiles and related features. For more information, refer to:
 
 - [Windows Autopilot and Surface devices](windows-autopilot-and-surface-devices.md)
-- [Overview of Windows Autopilot](https://docs.microsoft.com/windows/deployment/windows-autopilot/windows-autopilot)
+- [Overview of Windows Autopilot](/windows/deployment/windows-autopilot/windows-autopilot)
 
 Autopilot deployment has several advantages: It allows you to use the factory provisioned operating system, streamlined for zero-touch deployment, to include pre-installation of Office Pro Plus.
 
@@ -44,7 +44,7 @@ Microsoft Deployment Toolkit (MDT) and Microsoft Endpoint Configuration Manager 
 
 A component of Microsoft Enterprise Mobility + Security, Intune integrates with Azure Active Directory for identity and access control and provides granular management of enrolled Surface Pro X devices. Intune mobile device management (MDM) policies have a number of advantages over older on-premises tools such as Windows Group Policy. This includes faster device login times and a more streamlined catalog of policies enabling full device management from the cloud. For example, you can manage LTE using eSIM profiles to configure data plans and deploy activation codes to multiple devices.<br> 
 
-For more information about using Intune, refer to the [Intune documentation](https://docs.microsoft.com/intune/).
+For more information about using Intune, refer to the [Intune documentation](/intune).
 
 ### Co-management
 
@@ -71,7 +71,7 @@ Surface Pro X was designed to use Windows Update to simplify the process of keep
 
 ### Recommendations for commercial customers
 
-- Use Windows Update or Windows Update for Business for maintaining the latest drivers and firmware. For more information, see [Deploy Updates using Windows Update for Business](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-wufb).
+- Use Windows Update or Windows Update for Business for maintaining the latest drivers and firmware. For more information, see [Deploy Updates using Windows Update for Business](/windows/deployment/update/waas-manage-updates-wufb).
 - For more information about deploying and managing updates on Surface devices, see [Manage and deploy Surface driver and firmware updates](manage-surface-driver-and-firmware-updates.md).
 - Note that Windows Server Update Services (WSUS) does not support the ability to deliver drivers and firmware to Surface Pro X.
 
@@ -90,12 +90,12 @@ Most apps run on ARM-based Windows 10 PCs with limited exclusions.
 
 ### FastTrack App Assure 
 
-The App Assure program is available to commercial customers for their LOB, ISV and Microsoft first-party apps targeting Windows 10 on ARM. If commercial customers encounter an app compatibility issue using Windows 10 on ARM, Microsoft will provide developer resources to troubleshoot and assist with app remediations, at no additional cost. To learn more,visit [aka.ms/AppAssure](https://docs.microsoft.com/fasttrack/products-and-capabilities#app-assure).
+The App Assure program is available to commercial customers for their LOB, ISV and Microsoft first-party apps targeting Windows 10 on ARM. If commercial customers encounter an app compatibility issue using Windows 10 on ARM, Microsoft will provide developer resources to troubleshoot and assist with app remediations, at no additional cost. To learn more,visit [aka.ms/AppAssure](/fasttrack/products-and-capabilities#app-assure).
 
 For more information about running apps on Surface Pro X, refer to:
 
 - [Windows 10 ARM-based PCs Support FAQ](https://support.microsoft.com/help/4521606)
-- [Windows 10 on ARM documentation](https://docs.microsoft.com/windows/arm)
+- [Windows 10 on ARM documentation](/windows/arm)
 
 ## Virtual Desktops (VDI)
 
