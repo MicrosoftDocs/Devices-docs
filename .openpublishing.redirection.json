@@ -115,5 +115,10 @@
             "redirect_url":  "https://docs.microsoft.com/surface-hub/provisioning-packages-for-surface-hub",
             "redirect_document_id":  false
         },
+        {
+            "source_path":  "surface/deploy.md",
+            "redirect_url":  "/surface/get-started",
+            "redirect_document_id":  false
+        },
 ]
 }
