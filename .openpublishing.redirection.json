@@ -117,7 +117,7 @@
         },
         {
             "source_path":  "surface/deploy.md",
-            "redirect_url":  "https://docs.microsoft.com/en-us/surface/get-started",
+            "redirect_url":  "/surface/get-started",
             "redirect_document_id":  false
         },
 ]
