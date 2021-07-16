@@ -1,0 +1,178 @@
+- name: Surface
+  href: index.yml
+  expanded: true
+  items: 
+    - name: Surface devices documentation
+      href: get-started.yml
+    - name: Overview
+      items: 
+      - name: Technical overviews
+        items:
+         - name: Surface security overview
+           href: surface-security.md
+         - name: Windows Virtual Desktop on Surface
+           href: windows-virtual-desktop-surface.md			   
+         - name: Surface Laptop 4 processors tech overview
+           href: surface-laptop-processors.md
+         - name: Surface Book 3 GPU tech overview
+           href: surface-book-GPU-overview.md
+         - name: Surface Book 3 Quadro RTX 3000 tech overview
+           href: surface-book-quadro.md
+         - name: Surface Headphones 2+ tech overview
+           href: surface-headphones.md
+      - name: Order Surface devices
+        items:    
+        - name: Surface Laptop 4 for Business
+          href: https://www.microsoft.com/surface/business/surface-laptop-4
+        - name: Surface Pro 7+ for Business
+          href: https://www.microsoft.com/surface/business/surface-pro-7-plus
+        - name: Surface Go 2 for Business
+          href: https://www.microsoft.com/surface/business/surface-go-2
+        - name: Surface Pro X for Business
+          href: https://www.microsoft.com/surface/business/surface-pro-x
+        - name: Surface Studio 2 for Business
+          href: https://www.microsoft.com/surface/business/surface-studio-2
+        - name: Surface Book 3 for Business
+          href: https://www.microsoft.com/surface/business/surface-book-3
+    - name: Plan
+      items: 
+        - name: Surface device compatibility with Windows 10 Long-Term Servicing Branch
+          href: surface-device-compatibility-with-windows-10-ltsc.md
+        - name: Long-Term Servicing Branch for Surface devices
+          href: ltsb-for-surface.md
+        - name: Deploy Surface app with Microsoft Store for Business
+          href: deploy-surface-app-with-windows-store-for-business.md
+        - name: Ethernet adapters and Surface deployment
+          href: ethernet-adapters-and-surface-device-deployment.md
+        - name: Surface System SKU reference
+          href: surface-system-sku-reference.md
+    - name: Deploy & manage
+      items: 
+      - name: Windows Autopilot
+        items:      
+        - name: Windows Autopilot and Surface devices
+          href: windows-autopilot-and-surface-devices.md
+        - name: Surface Registration Support for Windows Autopilot
+          href: surface-autopilot-registration-support.md
+        - name: Surface System SKU reference
+          href: surface-system-sku-reference.md
+      - name: Automate deployment
+        items: 
+        - name: Surface Deployment Accelerator
+          href: microsoft-surface-deployment-accelerator.md
+        - name: Deploy Windows 10 to Surface devices with MDT
+          href: deploy-windows-10-to-surface-devices-with-mdt.md
+        - name: Enable the Surface Laptop keyboard during MDT deployment
+          href: enable-surface-keyboard-for-windows-pe-deployment.md
+        - name: Upgrade Surface devices to Windows 10 with MDT
+          href: upgrade-surface-devices-to-windows-10-with-mdt.md
+        - name: Customize the OOBE for Surface deployments
+          href: customize-the-oobe-for-surface-deployments.md          
+      - name: Surface tools
+        items:   
+        - name: Surface Enterprise Management Mode
+          href: surface-enterprise-management-mode.md
+          items:
+          - name: Enroll and configure Surface devices with SEMM
+            href: enroll-and-configure-surface-devices-with-semm.md
+          - name: Unenroll Surface devices from SEMM
+            href: unenroll-surface-devices-from-semm.md
+          - name: Use Microsoft Endpoint Configuration Manager to manage devices with SEMM
+            href: use-system-center-configuration-manager-to-manage-devices-with-semm.md
+        - name: Fix common Surface problems using the Surface Diagnostic Toolkit for Business
+          href: surface-diagnostic-toolkit-for-business-intro.md
+          items: 
+          - name: Deploy Surface Diagnostic Toolkit for Business
+            href: surface-diagnostic-toolkit-business.md
+          - name: Use Surface Diagnostic Toolkit for Business in desktop mode
+            href: surface-diagnostic-toolkit-desktop-mode.md
+          - name: Run Surface Diagnostic Toolkit for Business with commands
+            href: surface-diagnostic-toolkit-command-line.md
+        - name: Surface Data Eraser
+          href: microsoft-surface-data-eraser.md
+        - name: Battery Limit setting
+          href: battery-limit.md
+        - name: Surface Brightness Control
+          href: microsoft-surface-brightness-control.md
+        - name: Surface Asset Tag
+          href: assettag.md
+        - name: Enable PEAP, EAP-FAST, and Cisco LEAP on Surface devices
+          href: enable-peap-eap-fast-and-cisco-leap-on-surface-devices.md
+        - name: Surface Dock 1 Firmware Update
+          href: surface-dock-firmware-update.md 
+      - name : Manage updates
+        items:
+        - name: Manage and deploy Surface driver and firmware updates
+          href: manage-surface-driver-and-firmware-updates.md     
+        - name: Surface driver and firmware lifecycle for Windows-based devices
+          href: surface-driver-firmware-lifecycle-support.md
+        - name: Manage Surface driver updates in Configuration Manager
+          href: manage-surface-driver-updates-configuration-manager.md
+      - name: Manage UEFI (firmware)
+        items:
+        - name: Manage Surface UEFI settings
+          href: manage-surface-uefi-settings.md
+        - name: Manage DFCI on Surface devices
+          href: surface-manage-dfci-guide.md
+        - name: Advanced UEFI security features for Surface Pro 3
+          href: advanced-uefi-security-features-for-surface-pro-3.md 
+      - name: Surface Dock
+        items:
+         - name: What's new in Surface Dock 2
+           href: surface-dock-whats-new.md
+         - name: Manage Surface Dock 2 with WMI
+           href: surface-dock2-wmi.md  
+         - name: Secure Surface Dock 2 ports with SEMM
+           href: secure-surface-dock-ports-semm.md
+         - name: Surface Dock 1 Firmware Update
+           href: surface-dock-firmware-update.md
+      - name: Remotely wake devices
+        items: 
+        - name: Wake On LAN for Surface devices
+          href: wake-on-lan-for-surface-devices.md
+        - name: Wake On LAN with Surface Dock 2
+          href: wake-on-lan-surface-dock2.md
+        - name: Wake on Power for Surface devices
+          href: wake-on-power-for-surface.md  
+      - name: Best practices
+        items:     
+        - name: Optimize Wi-Fi connectivity for Surface devices
+          href: surface-wireless-connect.md
+        - name: Best practice power settings for Surface devices
+          href: maintain-optimal-power-settings-on-Surface-devices.md  
+        - name: Surface DMA Protection
+          href: dma-protect.md
+        - name: Best practices for SSD removal in compatible Surface devices
+          href: surface-ssd-removal-guide.md   
+        - name: Considerations for Surface and Endpoint Configuration Manager
+          href: considerations-for-surface-and-system-center-configuration-manager.md
+      - name: ARM devices
+        items:          
+        - name: Deploying, managing, & servicing Surface Pro X
+          href: surface-pro-arm-app-management.md
+        - name: Surface Pro X app compatibility
+          href: surface-pro-arm-app-performance.md
+    - name: Troubleshoot
+      items: 
+        - name: Top support solutions for Surface devices
+          href: support-solutions-surface.md
+        - name: Surface IT Pro Blog
+          href: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/bg-p/SurfaceITPro
+        - name: Help for end-users
+          href: https://support.microsoft.com/products/surface-devices
+        - name: Contact Surface Support
+          href: contact-surface-support.md
+    - name: Warranty & service
+      items: 
+        - name: Surface for Business warranty and protection plans
+          href: https://www.microsoft.com/surface/business/warranty-service-offerings-and-support
+        - name: Terms & Conditions
+          href: https://support.microsoft.com/help/4493926/warranties-extended-service-plans-and-terms-conditions-for-your-device
+        - name: Surface self-serve warranty and service
+          href: self-serve-warranty-service.md
+        - name: Next Business Day Replacement
+          href: surface-next-business-day-replacement.md
+        - name: Check device warranty status
+          href: https://mybusinessservice.surface.com/
+        - name: Protecting data when sending Surface in for service
+          href: https://support.microsoft.com/help/4023508/surface-faq-protecting-your-data-service
