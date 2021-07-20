@@ -108,7 +108,8 @@ In addition to this provisioning package, you can use a Surface Hub configuratio
 
 **To create a Surface Hub configuration file:**
 
-1. Open Microsoft Excel (or other .csv editor), create a .csv file named SurfaceHubConfiguration.csv
+1. Open Microsoft Excel (or other .csv editor), create a .csv file named _SurfaceHubConfiguration.csv_.
+
 2. Enter a list of device accounts and friendly names in this format:
 
     ```
@@ -118,7 +119,7 @@ In addition to this provisioning package, you can use a Surface Hub configuratio
     > [!NOTE]
     > The configuration file must not contain column headers. When included in a provisioning package applied to Surface Hub, you can select the account and friendly name for the device from the file. To create the .csv file,  use either a UPN address format (rainier@contoso.com) or down-level logon name format (contoso\rainier).
 
-- rainier@contoso.com,password,Rainier Surface Hub
+    rainier@contoso.com,password,Rainier Surface Hub
 
 3. Save the file to your project folder and copy it to the USB key with your provisioning package.
 
@@ -139,15 +140,19 @@ If you only need to configure common settings, select **Finish** > **Create** an
 > Use the wizard to create a package with the common settings, then switch to the advanced editor to add other settings.<br><br> ![Switch to advanced editor](images/icd-simple-edit.png)
 
 1. If continuing from the previous section, select **Switch to advanced editor** otherwise
-open **Windows Configuration Designer** and select **Advanced provisioning**.<br>
-     ![Use advanced provisioning](images/sh-prov-adv.png)
+open **Windows Configuration Designer** and select **Advanced provisioning**.
+
+   ![Use advanced provisioning](images/sh-prov-adv.png)
 
 2. Name your project and select **Next**.
-3. Select **Common to Windows 10 Team**, select **Next**, and then select **Finish**.<br>
-     ![WCD new project](images/icd-new-project.png)
 
-4. In the project, under **Available customizations**, select **Common Team settings**.<br>
-     ![WCD common settings](images/icd-common-settings.png)
+3. Select **Common to Windows 10 Team**, select **Next**, and then select **Finish**.
+
+   ![WCD new project](images/icd-new-project.png)
+
+4. In the project, under **Available customizations**, select **Common Team settings**.
+
+   :::image type="content" alt-text="WCD common settings." source="images/icd-common-settings.png":::
 
 ### Add a certificate to your package
 
@@ -174,8 +179,11 @@ To add a UWP app to a provisioning package, you will need the app package (.appx
 **To add a UWP app:**
 
 1. In the **Available customizations** pane, go to **Runtime settings** > **UniversalAppInstall** > **DeviceContextApp**.
+
 2. Enter a **PackageFamilyName** for the app and then select **Add**. For consistency, use the app's package family name. If you acquired the app from the Microsoft Store for Business, you can find the package family name in the app license. Open the license file using a text editor, and use the value between the PFM tags.
+
 3. For **ApplicationFile**, select **Browse** to find and select the target app ( .appx or .appxbundle).
+
 4. For **DependencyAppxFiles**, select **Browse** to find and add any dependencies for the app. For Surface Hub, you will only need the x64 versions of these dependencies.
 
 If you acquired the app from the Microsoft Store for Business, you will need to add the app license to your provisioning package.
@@ -183,8 +191,11 @@ If you acquired the app from the Microsoft Store for Business, you will need to 
 **To add app license:**
 
 1. Make a copy of the app license, and rename it to use a **.ms-windows-store-license** extension. For example, rename "example.xml" to "example.ms-windows-store-license".
+
 2. In Windows Configuration Designer, go to **Available customizations** > **Runtime settings** > **UniversalAppInstall** > **DeviceContextAppLicense**.
+
 3. Enter a **LicenseProductId** and then select **Add**. For consistency, use the app's license ID from the app license. Open the license file using a text editor. Then, in the **License** tag, use the value in the **LicenseID** attribute.
+
 4. Select the new **LicenseProductId** node. For **LicenseInstall**, select **Browse** to find and select your renamed license file (example.ms-windows-store-license).
 
 ### Add a policy to your package
@@ -196,8 +207,7 @@ Surface Hub supports a subset of the policies in the [Policy configuration servi
 1. Go to  **Available customizations** > **Runtime settings** > **Policies**.
 2. Select the component you want to manage and configure the policy setting as appropriate. For example, to prevent employees from using InPrivate website browsing on Surface Hub, select **AllowInPrivate** and then select **Disable**.  
 
-    > [!div class="mx-imgBorder"]
-    > ![Configure policy setting](images/sh-prov-policies.png)
+   :::image type="content" alt-text="Configure policy setting." source="images/sh-prov-policies.png" lightbox="images/sh-prov-policies.png":::
 
 ### Add Surface Hub settings to your package
 
@@ -213,14 +223,16 @@ You can add settings from the [SurfaceHub configuration service provider](/windo
 When you build a provisioning package, you may include sensitive information in the project files and in the provisioning package (.ppkg) file. Although you have the option to encrypt the .ppkg file, project files are not encrypted.  Store the project files in a secure location or delete if no longer needed.
 
 1. Open **Windows Configuration Designer** > **Export** > **Provisioning package**.
+
 2. Change **Owner** to **IT Admin**.  
+
 3. Set a value for **Package Version**, and then select **Next.**
 
-> [!TIP]
-> Setting the owner to IT Admin ensures that package settings maintain the appropriate "precedence properties" and remain in effect on Surface Hub if other provisioning packages are subsequently applied from other sources.
+   > [!TIP]
+   > Setting the owner to IT Admin ensures that package settings maintain the appropriate "precedence properties" and remain in effect on Surface Hub if other provisioning packages are subsequently applied from other sources.
 
-> [!TIP]
-> You can modify existing packages and change the version number to update previously applied packages.
+   > [!TIP]
+   > You can modify existing packages and change the version number to update previously applied packages.
 
 4. Optional: You can choose to encrypt the package and enable package signing:
 
@@ -231,9 +243,13 @@ When you build a provisioning package, you may include sensitive information in 
     > Including a trusted provisioning certificate in your provisioning package is recommended. When the package is applied to a device, the certificate is added to the system store, enabling subsequent packages to be applied silently.
 
 5. Select **Next** to specify the output location. By default, Windows Configuration Designer uses the project folder as the output location. Or select **Browse** to change the default output location. Select **Next**.
+
 6. Select **Build** to start building the package. The project information is displayed in the build page.
+
 7. If your build fails, an error message appears with a link to the project folder. Review the logs to diagnose the error and try building the package again.
+
 8. If your build succeeds, the name of the provisioning package, output directory, and project directory are displayed. Select **Finish** to close the wizard and go back to the Customizations page.
+
 9. Select  **output location**  to go to the location of the package. Copy the .ppkg to an empty USB flash drive.
 
 ## Apply a provisioning package to Surface Hub
@@ -246,11 +262,17 @@ There are two ways of deploying provisioning packages to a Surface Hub:
 ### Apply a provisioning package during first run
 
 1. When you turn on the Surface Hub for the first time, the first-run program displays the [**Hi there page**](first-run-program-surface-hub.md). Make sure that the settings are properly configured before proceeding.
+
 2. Insert the USB flash drive containing the .ppkg file into the Surface Hub. If the package is in the root directory of the drive, the first-run program will recognize it and ask if you want to set up the device. Select **Set up**.
+
 3. The next screen asks you to select a provisioning source. Select **Removable Media** and tap **Next**.
+
 4. Select the provisioning package (*.ppkg) that you want to apply, and tap **Next**. Note that you can only install one package during first run.
+
 5. The first-run program will show you a summary of the changes that the provisioning package will apply. Select **Yes, add it**.
+
 6. If a configuration file is included in the root directory of the USB flash drive, you will see **Select a configuration**. The first device account in the configuration file will be shown with a summary of the account information that will be applied to the Surface Hub.
+
 7. In **Select a configuration**, select the device name to apply, and then select **Next**.
 
 The settings from the provisioning package will be applied to the device and OOBE will be complete. After the device restarts, you can remove the USB flash drive.
