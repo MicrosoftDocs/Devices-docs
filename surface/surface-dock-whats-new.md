@@ -13,7 +13,7 @@ ms.reviewer: brrecord
 manager: laurawi
 audience: itpro
 ---
-# What’s new in Surface Dock
+# What’s new in Surface Dock 2
 
 Surface Dock 2, the next generation Surface dock, lets users connect external monitors and multiple peripherals to obtain a fully modernized desktop experience from a Surface device. Built to maximize efficiency at the office, in a flexible workspace, or at home, Surface Dock 2 features seven ports, including two front-facing USB-C ports, with 15 watts of fast charging power for phone and accessories. 
 
