@@ -240,7 +240,7 @@ When you build a provisioning package, you may include sensitive information in 
 
 There are two ways of deploying provisioning packages to a Surface Hub:
 
-- [First run setup.](#apply-a-provisioning-package-during-first-run). You can apply a provisioning package to customize first run setup on Surface Hub across various options Wi-Fi settings, proxy settings, device account details, Azure AD join, device name and friendly name 
+- [First run setup.](#apply-a-provisioning-package-during-first-run). You can apply a provisioning package to customize multiple options including Wi-Fi settings, proxy settings, device account details, Azure AD join, and related settings.  
 - [Settings app.](#apply-a-provisioning-package-using-settings-app) After first run setup, you can apply a provisioning package via the Settings app. 
 
 ### Apply a provisioning package during first run
