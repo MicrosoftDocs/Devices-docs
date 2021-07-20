@@ -245,9 +245,6 @@ There are two ways of deploying provisioning packages to a Surface Hub:
 
 ### Apply a provisioning package during first run
 
-> [!IMPORTANT]
-> During the first-run program, you can only use provisioning packages to install certificates. Use the **Settings** app to install apps and apply other settings.
-
 1. When you turn on the Surface Hub for the first time, the first-run program displays the [**Hi there page**](first-run-program-surface-hub.md). Make sure that the settings are properly configured before proceeding.
 2. Insert the USB flash drive containing the .ppkg file into the Surface Hub. If the package is in the root directory of the drive, the first-run program will recognize it and ask if you want to set up the device. Select **Set up**.
 3. The next screen asks you to select a provisioning source. Select **Removable Media** and tap **Next**.
