@@ -26,7 +26,7 @@ Windows Virtual Desktop (WVD) is a comprehensive desktop and app virtualization 
 
 ### Windows Virtual Desktop partner integrations
 
-For a list of approved partner providers and independent software vendors for Windows Virtual Desktop, see [Windows Virtual Desktop partner integrations](/azure/virtual-desktop/partners). Some partners also provide Virtual Desktop as a Service (DaaS). DaaS frees you from having to maintain your own virtual machines (VMs) by providing a fully managed, turnkey desktop and virtualization service. The ability to deliver customized desktops to users anywhere in the world enables companies to quickly adjust to changing market conditions by spinning up cloud desktops on demand—when and where they’re needed.
+For a list of approved partner providers and independent software vendors, visit the [Azure Marketplace](https://azuremarketplace.microsoft.com) and search for  Windows Virtual Desktop. Some partners also provide Virtual Desktop as a Service (DaaS). DaaS frees you from having to maintain your own virtual machines (VMs) by providing a fully managed, turnkey desktop and virtualization service. The ability to deliver customized desktops to users anywhere in the world enables companies to quickly adjust to changing market conditions by spinning up cloud desktops on demand—when and where they’re needed.
 
 ## Microsoft Surface Devices
 
@@ -42,7 +42,7 @@ The Microsoft Surface for Business family comprises a diverse portfolio of form 
 
 ### The modern virtual desktop endpoint
 
-Surface 2-in-1 devices, including [Surface Go 2](https://www.microsoft.com/p/surface-go-2) (10.5”), [Surface Pro 7+](https://www.microsoft.com/surface/business/surface-pro-7-plus) (12”) and [Surface Pro X](https://www.microsoft.com/p/surface-pro-x/) (13”), provide users with the ideal cloud desktop endpoint bringing together the optimal balance of portability, versatility, power, and all-day battery. From site engineers relying on Surface Go 2 in tablet mode to financial advisers attaching Surface Pro 7 to a dock and multiple monitors, 2-in-1 devices deliver the versatility that has come to define the modern workplace.
+Surface 2-in-1 devices, including [Surface Go 2](https://www.microsoft.com/surface-go-2) (10.5”), [Surface Pro 7+](https://www.microsoft.com/surface/business/surface-pro-7-plus) (12”) and [Surface Pro X](https://www.microsoft.com/surface-pro-x/) (13”), provide users with the ideal cloud desktop endpoint bringing together the optimal balance of portability, versatility, power, and all-day battery. From site engineers relying on Surface Go 2 in tablet mode to financial advisers attaching Surface Pro 7 to a dock and multiple monitors, 2-in-1 devices deliver the versatility that has come to define the modern workplace.
 
  Unlike traditional, fixed VDI “terminals," Surface devices allow users to work from anywhere and enable companies to remain viable and operational during unforeseen events -- from severe weather to public health emergencies. With support for persistent, on-demand and just-in-time scenarios, Surface devices effectively help companies sustain ongoing operations and mitigate risk from disruptive events. Features designed to enhance productivity on Surface 2-in-1 devices include:
 
