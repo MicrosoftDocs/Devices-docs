@@ -224,4 +224,4 @@ After import, the Surface app will be available for selection in the **Applicati
 
 3. Select **Install a single application** and specify the **Surface App** as the **Application to be installed**.
 
-For more information about including apps into your Windows deployments, see [Deploy Windows 10 with the Microsoft Deployment Toolkit](https://technet.microsoft.com/itpro/windows/deploy/deploy-windows-10-with-the-microsoft-deployment-toolkit).
+For more information about including apps into your Windows deployments, see [Prepare for deployment with MDT](/windows/deployment/deploy-windows-mdt/prepare-for-windows-deployment-with-mdt).
