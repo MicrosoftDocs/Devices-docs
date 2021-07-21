@@ -81,6 +81,6 @@ Surface partners that are enabled for Windows Autopilot include:
 
 For more information about Windows Autopilot, see:
 
-- [Overview of Windows Autopilot](https://docs.microsoft.com/windows/deployment/windows-autopilot/windows-10-autopilot)
-- [Windows Autopilot requirements](https://docs.microsoft.com/windows/deployment/windows-autopilot/windows-autopilot-requirements)
+- [Overview of Windows Autopilot](/windows/deployment/windows-autopilot/windows-10-autopilot)
+- [Windows Autopilot requirements](/windows/deployment/windows-autopilot/windows-autopilot-requirements)
 - [Surface Registration Support for Windows Autopilot](surface-autopilot-registration-support.md)
