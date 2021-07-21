@@ -45,7 +45,7 @@ Third-party Ethernet adapters are also supported for network deployment, althoug
 
 To boot from the network or a connected USB stick, you must instruct the Surface device to boot from an alternate boot device. You can alter the boot order in the system firmware to prioritize USB boot devices, or you can instruct it to boot from an alternate boot device during the boot up process.
 
-To boot a Surface device from an alternative boot device, follow these steps:
+To boot a Surface device from an alternate boot device:
 
 1. Ensure the Surface device is powered off.
 2. Press and hold the **Volume Down** button.
@@ -67,13 +67,13 @@ Another potential solution to avoid conflict when adapters are shared is to use 
 
 When you use a shared adapter for deployment, the solution for affected deployment technologies is to use another means to identify unique systems. For Configuration Manager and WDS, both of which can be affected by this issue, the solution is to use the System Universal Unique Identifier (System UUID) that is embedded in the computer firmware by the computer manufacturer. For Surface devices, you can see this entry in the computer firmware under **Device Information**.
 
-To access the firmware of a Surface device, follow these steps:
+To access the firmware of a Surface device:
 
 1. Ensure the Surface device is powered off.
 2. Press and hold the **Volume Up** button.
 3. Press and release the **Power** button.
 4. After the device begins to boot, release the **Volume Up** button.
 
-When deploying with WDS, the MAC address is only used to identify a computer when the deployment server is configured to respond only to known, pre-staged clients. When pre-staging a client, an administrator creates a computer account in Active Directory and defines that computer by the MAC address or the System UUID. To avoid the identity conflicts caused by shared Ethernet adapters, you should use [System UUID to define pre-staged clients](https://technet.microsoft.com/library/cc742034). Alternatively, you can configure WDS to respond to unknown clients that do not require definition by either MAC address or System UUID by selecting the **Respond to all client computers (known and unknown)** option on the [**PXE Response** tab](https://technet.microsoft.com/library/cc732360) in **Windows Deployment Server Properties**.
+When deploying with WDS, the MAC address is only used to identify a computer when the deployment server is configured to respond only to known, pre-staged clients. When pre-staging a client, an administrator creates a computer account in Active Directory and defines that computer by the MAC address or the System UUID. To avoid the identity conflicts caused by shared Ethernet adapters, you should use [System UUID to define pre-staged clients](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/cc742034(v=ws.11)). Alternatively, you can configure WDS to respond to unknown clients that do not require definition by either MAC address or System UUID by selecting the **Respond to all client computers (known and unknown)** option on the [**PXE Response** tab](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc732360(v=ws.11)) in **Windows Deployment Server Properties**.
 
 The potential for conflicts with shared Ethernet adapters is much higher with Configuration Manager. Where WDS only uses MAC addresses to define individual systems when configured to do so, Configuration Manager uses the MAC address to define individual systems whenever performing a deployment to new or unknown computers. This can result in improperly configured devices or even the inability to deploy more than one system with a shared Ethernet adapter. There are several potential solutions for this situation that are described in detail in [How to Use The Same External Ethernet Adapter For Multiple SCCM OSD](https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/how-to-use-the-same-external-ethernet-adapter-for-multiple-sccm/ba-p/257374), a blog post on the Core Infrastructure and Security Blog.

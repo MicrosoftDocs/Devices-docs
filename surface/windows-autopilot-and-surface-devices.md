@@ -69,17 +69,18 @@ Surface partners that are enabled for Windows Autopilot include:
 
 | US partners | Global partners | US distributors |
 |--------------|---------------|-------------------|
-| * [CDW](https://www.cdw.com/) | * [ALSO](https://www.also.com/ec/cms5/de_1010/1010_anbieter/microsoft/windows-autopilot/index.jsp) | * [Synnex](https://www.synnexcorp.com/us/microsoft/surface-autopilot/)  |
-| * [Connection](https://www.connection.com/brand/microsoft/microsoft-surface)   | * [ATEA](https://www.atea.com/) | * [Techdata](https://www.techdata.com/)  |
-| * [Insight](https://www.insight.com/en_US/buy/partner/microsoft/surface/windows-autopilot.html)  | * [Bechtle](https://www.bechtle.com/marken/microsoft/microsoft-windows-autopilot) | * [Ingram](https://go.microsoft.com/fwlink/p/?LinkID=2128954)   |
-| * [SHI](https://www.shi.com/Surface) | * [Cancom](https://www.cancom.de/) |    |
-| * [LDI Connect](https://www.myldi.com/managed-it/)  | * [Computacenter](https://www.computacenter.com/uk) |    |
-| * [F1](https://www.functiononeit.com/#empower)  |   |  |
-| * [Protected Trust](https://go.microsoft.com/fwlink/p/?LinkID=2129005) | | | 
+|  [CDW](https://www.cdw.com/) |  [ALSO](https://www.also.com/ec/cms5/da_2800/2800-msportal/products-and-solutions/surface/surface-is-more/surface-and-wa/index.jsp) |  [Synnex](https://www.synnexcorp.com/us/microsoft/surface-autopilot/)  |
+|  [Connection](https://www.connection.com/brand/microsoft/microsoft-surface)   |  [ATEA](https://www.atea.com/) |  [Techdata](https://www.techdata.com/)  |
+|  [Insight](https://www.insight.com/en_US/buy/partner/microsoft/surface/windows-autopilot.html)  |  [Bechtle](https://www.bechtle.com/marken/microsoft/microsoft-windows-autopilot) |  [Ingram](https://go.microsoft.com/fwlink/p/?LinkID=2128954)   |
+|  [SHI](https://www.shi.com/Surface) |  [Cancom](https://www.cancom.de/) |    |
+|  [LDI Connect](https://www.myldi.com/managed-it/)  |  [Computacenter](https://www.computacenter.com/uk) |    |
+|  [F1](https://www.functiononeit.com/#empower)  |   |  |
+|  [Protected Trust](https://go.microsoft.com/fwlink/p/?LinkID=2129005) | | |
 
 ## Learn more
 
 For more information about Windows Autopilot, see:
+
 - [Overview of Windows Autopilot](https://docs.microsoft.com/windows/deployment/windows-autopilot/windows-10-autopilot)
 - [Windows Autopilot requirements](https://docs.microsoft.com/windows/deployment/windows-autopilot/windows-autopilot-requirements)
 - [Surface Registration Support for Windows Autopilot](surface-autopilot-registration-support.md)
