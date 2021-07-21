@@ -101,7 +101,7 @@ Azure N-series brings these capabilities to life on your Surface device allowing
 
 ## Microsoft 365 and Surface
 
-Even in a virtualized desktop environment, Microsoft 365 and Surface deliver the experiences employees love, the protection organizations demand, and flexibility for teams to work their way. According to Forrester Research: <a href="#4"><sup>4</sup></a>
+Even in a virtualized desktop environment, Microsoft 365 and Surface deliver the experiences employees love, the protection organizations demand, and flexibility for teams to work their way. According to [Forrester Research](forrester-tei-study.md): <a href="#4"><sup>4</sup></a>
 
 - Microsoft 365-powered Surface devices give users up to five hours in weekly productivity gains with up to nine hours saved per week for highly mobile workers, providing organizations with 112 percent ROI on Microsoft 365 with Surface.
 - 75 percent agree Microsoft 365-powered Surface devices help improve employee satisfaction and retention.
@@ -148,7 +148,7 @@ For more information, see the following resources:
 <a id="1">1.</a> Windows Virtual Desktop on Surface refers to running Azure Virtual Desktop Infrastructure on a Surface device and is described here as an architectural solution, not a separately available product.<br>
 <a id="2">2.</a> Battery life varies significantly with settings, usage and other factors.<br>
 <a id="3">3.</a> Service availability and performance subject to service provider’s network. Contact your service provider for details, compatibility, pricing, SIM card, and activation. See all specs and frequencies at surface.com.<br>
-<a id="4">4.</a> Forrester Consulting, “A Forrester Total Economic Impact™ Study: Maximizing Your ROI from Microsoft 365 Enterprise with Microsoft Surface,” commissioned by Microsoft, 2018.<br>
+<a id="4">4.</a> Forrester Consulting, “A Forrester Total Economic Impact™ Study: Maximizing Your ROI from Microsoft 365 Enterprise with Microsoft Surface,” commissioned by Microsoft, 2018.<br> 
 <a id="5">5.</a> Surface Go and Surface Go 2 use a third-party UEFI and do not support DFCI. DFCI is currently available for Surface Pro 7+, Surface Laptop Go, Surface Book 3, Surface Laptop 4, Surface Laptop 3, Surface Pro 7, and Surface Pro X.<br>
 <a id="6">6.</a> Removable SSD is available on Surface Pro 7+, Surface Laptop 4, Surface Laptop 3, and Surface Pro X. <br>
 <a id="7">7.</a> DFCI is currently available for Surface Pro 7+, Surface Laptop Go, Surface Book 4, Surface Laptop 3, Surface Pro 7, and Surface Pro X. [Find out more](surface-manage-dfci-guide.md) about managing Surface UEFI settings.
