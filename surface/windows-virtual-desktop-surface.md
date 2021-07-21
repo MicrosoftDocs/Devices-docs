@@ -26,7 +26,7 @@ Windows Virtual Desktop (WVD) is a comprehensive desktop and app virtualization 
 
 ### Windows Virtual Desktop partner integrations
 
-For a list of approved partner providers and independent software vendors for Windows Virtual Desktop, see [Windows Virtual Desktop partner integrations](https://docs.microsoft.com/azure/virtual-desktop/partners). Some partners also provide Virtual Desktop as a Service (DaaS). DaaS frees you from having to maintain your own virtual machines (VMs) by providing a fully managed, turnkey desktop and virtualization service. The ability to deliver customized desktops to users anywhere in the world enables companies to quickly adjust to changing market conditions by spinning up cloud desktops on demand—when and where they’re needed.
+For a list of approved partner providers and independent software vendors for Windows Virtual Desktop, see [Windows Virtual Desktop partner integrations](/azure/virtual-desktop/partners). Some partners also provide Virtual Desktop as a Service (DaaS). DaaS frees you from having to maintain your own virtual machines (VMs) by providing a fully managed, turnkey desktop and virtualization service. The ability to deliver customized desktops to users anywhere in the world enables companies to quickly adjust to changing market conditions by spinning up cloud desktops on demand—when and where they’re needed.
 
 ## Microsoft Surface Devices
 
@@ -58,7 +58,7 @@ Surface 2-in-1 devices, including [Surface Go 2](https://www.microsoft.com/p/sur
 
 ### Device Redirection Support
 
-The Surface-centric productivity experiences listed above become even more compelling in Windows Virtual Desktop environments by taking advantage of device redirection capabilities with Windows 10. Surface provides a broad range of device redirection support, especially when compared to OEM thin clients and fixed terminals, Android, iOS/macOS and web-based access. The Windows Inbox (MSTSC) and Windows Desktop (MSRDC) clients provide the most device redirection capabilities including Input Redirection (keyboard, mouse, pen and touch), Port Redirection (serial and USB) and Other Redirections (cameras, clipboard, local drive/storage, location, microphones, printers, scanners, smart cards and speakers). For a detailed comparison of device redirection support, refer to the [device redirection documentation](https://docs.microsoft.com/windows-server/remote/remote-desktop-services/clients/remote-desktop-app-compare#redirection-support).
+The Surface-centric productivity experiences listed above become even more compelling in Windows Virtual Desktop environments by taking advantage of device redirection capabilities with Windows 10. Surface provides a broad range of device redirection support, especially when compared to OEM thin clients and fixed terminals, Android, iOS/macOS and web-based access. The Windows Inbox (MSTSC) and Windows Desktop (MSRDC) clients provide the most device redirection capabilities including Input Redirection (keyboard, mouse, pen and touch), Port Redirection (serial and USB) and Other Redirections (cameras, clipboard, local drive/storage, location, microphones, printers, scanners, smart cards and speakers). For a detailed comparison of device redirection support, refer to the [device redirection documentation](/windows-server/remote/remote-desktop-services/clients/remote-desktop-app-compare#redirection-support).
 
 ### Familiar Desktop Experience
 
@@ -97,7 +97,7 @@ GPUs are ideal for AI compute and graphics-intensive workloads, helping customer
 
 To solve for this, Azure offers the N-series family of Virtual Machines with NVIDIA GPU capabilities (vGPU). With vGPUs, IT can either share GPU performance across multiple virtual machines, or power demanding workloads by assigning multiple GPUs to a single virtual machine. For Surface this means that no matter what device you’re using, from Surface Go 2 to Surface Laptop 4, your device has access to powerful server-class graphics performance. Surface and vGPUs allow you to combine all the things you love about Surface, to include pen, touch, keyboard, trackpad and PixelSense displays, with graphics capability only available in high performance computing environments.
 
-Azure N-series brings these capabilities to life on your Surface device allowing you to work in any way you want, wherever you go. [Learn more about Azure N-Series and GPU optimized virtual machine sizes.](https://docs.microsoft.com/azure/virtual-machines/sizes-gpu)
+Azure N-series brings these capabilities to life on your Surface device allowing you to work in any way you want, wherever you go. [Learn more about Azure N-Series and GPU optimized virtual machine sizes.](/azure/virtual-machines/sizes-gpu)
 
 ## Microsoft 365 and Surface
 
