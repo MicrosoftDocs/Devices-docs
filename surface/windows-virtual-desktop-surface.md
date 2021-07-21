@@ -22,7 +22,7 @@ Windows Virtual Desktop on Surface lets you run Virtual Desktop Infrastructure (
 
 ### Windows Virtual Desktop
 
-Windows Virtual Desktop (WVD) is a comprehensive desktop and app virtualization service running in the Azure cloud. It’s the only virtual desktop infrastructure that delivers simplified management, multi-session Windows 10, optimizations for Office 365 ProPlus, and support for Remote Desktop Services (RDS) environments. With WVD you can quickly deploy and scale Windows desktops and apps on Azure and get built-in security and compliance features.
+Windows Virtual Desktop (WVD) is a comprehensive desktop and app virtualization service running in the Azure cloud. It’s the only virtual desktop infrastructure that delivers simplified management, multi-session Windows 10, optimizations for [Microsoft 365 Apps](https://www.microsoft.com/microsoft-365) and support for Remote Desktop Services (RDS) environments. With WVD you can quickly deploy and scale Windows desktops and apps on Azure and get built-in security and compliance features.
 
 ### Windows Virtual Desktop partner integrations
 
@@ -32,7 +32,7 @@ For a list of approved partner providers and independent software vendors for Wi
 
 Surface engineering has long set new standards for innovation by going beyond the keyboard and mouse to imagine more natural ways of interacting with devices, whether by touch, voice, ink, or Surface Dial. And with chip-to-cloud integration of Microsoft 365 and the security and manageability of Windows 10 Pro, Surface delivers connected hardware, software, apps, and services the way they were intended. Although it’s possible to run WVD from Windows devices dating back to Windows 7, Microsoft Surface devices provide unique advantages including support for:
 
-- **Flexible form factors** - like 2-in-1 devices such as Surface Pro 7+, Surface Go 2, Surface Pro 7, and Surface Pro X with pen, touch and detachable keyboard. You can even use the new Surface Duo to connect to WVD.
+- **Flexible form factors** - like 2-in-1 devices such as Surface Pro 7+, Surface Go 2, Surface Pro 7, and Surface Pro X with pen, touch and detachable keyboard. You can even use [Surface Duo](/surface-duo/) to connect to WVD.
 - **Persistent, on-demand and just-in-time work scenarios** - with offline and on-device access for more productive experiences.
 - **Windows 10 modern device security and manageability** - providing the flexibility to be productive anywhere.
 
@@ -68,9 +68,9 @@ Not only does running the Windows Desktop Client on Surface devices provide user
 
 Windows Virtual Desktop on Surface helps customers meet increasingly complex business and security requirements across industries, employee roles, and work environments. These include:
 
-- Multi-layered security of access to data and organizational resources.
-- Compliance with industry regulations.
-- Support for an increasingly elastic workforce.
+- Multi-layered security of access to data and organizational resources
+- Compliance with industry regulations
+- Support for an increasingly elastic workforce
 - Employee-specific needs across a variety of job functions.
 - Ability to support specialized, processor-intensive workloads.
 - Resilience for sustaining operations during disruptions.
@@ -85,7 +85,7 @@ Windows Virtual Desktop on Surface helps customers meet increasingly complex bus
 
 Traditionally, VDI solutions only work when the endpoint is connected to the internet. But what happens when the internet or power is unavailable?
 
-To support business continuity and keep employees productive, Surface devices can easily augment the virtual desktop experience with offline access to files, Microsoft 365 and third-party applications. Traditional apps like Microsoft Office, available across .x86, x64, Universal Windows Platform, ARM platforms, enable users to stay productive in “offline mode.” Files from the virtual desktop cloud environment can be synced locally on Surface using OneDrive for Business for offline access as well. You can have the confidence that all locally “cached” information is up-to-date and secure.
+To support business continuity and keep employees productive, Surface devices can easily augment the virtual desktop experience with offline access to files, Microsoft 365 and third-party applications. Traditional apps like Microsoft Office, available across multiple platforms (x86, x64, Universal Windows Platform, ARM) enable users to stay productive in offline mode. Files from the virtual desktop cloud environment can be synced locally on Surface using OneDrive for Business for offline access as well. You can have the confidence that all locally cached information is up-to-date and secure.
 
 In addition to adding support for offline access to apps and files, Surface devices are designed to optimize collaborative experiences like Microsoft Teams “On-Device.” Although some VDI solutions support the use of Teams through a virtual session, users can benefit from the more optimized experience provided by a locally installed instance of Teams. Localizing communications and collaboration apps for multimedia channels like voice, video, live captioning allows organizations to take full advantage of Surface devices’ ability to provide optimized Microsoft 365 experiences. The emergence of Surface AI or “AI-on-device” brings new capabilities to life, such as eye gaze technology that adjusts the appearance of your eyes so the audience sees you looking directly at the camera when communicating via video.
 
