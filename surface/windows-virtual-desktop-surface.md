@@ -150,5 +150,5 @@ For more information, see the following resources:
 <a id="3">3.</a> Service availability and performance subject to service provider’s network. Contact your service provider for details, compatibility, pricing, SIM card, and activation. See all specs and frequencies at surface.com.<br>
 <a id="4">4.</a> Forrester Consulting, “A Forrester Total Economic Impact™ Study: Maximizing Your ROI from Microsoft 365 Enterprise with Microsoft Surface,” commissioned by Microsoft, 2018.<br>
 <a id="5">5.</a> Surface Go and Surface Go 2 use a third-party UEFI and do not support DFCI. DFCI is currently available for Surface Pro 7+, Surface Laptop Go, Surface Book 3, Surface Laptop 4, Surface Laptop 3, Surface Pro 7, and Surface Pro X.<br>
-<a id="6">6.</a> Removable SSD is available on Surface Laptop 4, Surface Laptop 3 and Surface Pro X. Note that hard drive is not user removable. Hard drive is only removable a by skilled technician following Microsoft instructions.<br>
+<a id="6">6.</a> Removable SSD is available on Surface Pro 7+, Surface Laptop 4, Surface Laptop 3, and Surface Pro X. <br>
 <a id="7">7.</a> DFCI is currently available for Surface Pro 7+, Surface Laptop Go, Surface Book 4, Surface Laptop 3, Surface Pro 7, and Surface Pro X. [Find out more](surface-manage-dfci-guide.md) about managing Surface UEFI settings.
