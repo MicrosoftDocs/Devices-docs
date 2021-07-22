@@ -25,7 +25,7 @@ appliesto:
 
 ## Introduction
 
-The ability to manage devices from the cloud has dramatically simplified IT deployment and provisioning across the lifecycle. With Device Firmware Configuration Interface (DFCI) profiles built into [Microsoft Intune](https://docs.microsoft.com/intune/configuration/device-firmware-configuration-interface-windows), Surface UEFI management extends the modern management stack down to the UEFI hardware level. DFCI supports zero-touch provisioning, eliminates BIOS passwords, provides control of security settings including boot options and built-in peripherals, and lays the groundwork for advanced security scenarios in the future. For answers to frequently asked questions, see [Ignite 2019: Announcing remote management of Surface UEFI settings from Intune](https://techcommunity.microsoft.com/t5/Surface-IT-Pro-Blog/Ignite-2019-Announcing-remote-management-of-Surface-UEFI/ba-p/978333).
+The ability to manage devices from the cloud has dramatically simplified IT deployment and provisioning across the lifecycle. With Device Firmware Configuration Interface (DFCI) profiles built into [Microsoft Intune](/intune/configuration/device-firmware-configuration-interface-windows), Surface UEFI management extends the modern management stack down to the UEFI hardware level. DFCI supports zero-touch provisioning, eliminates BIOS passwords, provides control of security settings including boot options and built-in peripherals, and lays the groundwork for advanced security scenarios in the future. For answers to frequently asked questions, see [Ignite 2019: Announcing remote management of Surface UEFI settings from Intune](https://techcommunity.microsoft.com/t5/Surface-IT-Pro-Blog/Ignite-2019-Announcing-remote-management-of-Surface-UEFI/ba-p/978333).
 
 ### Background
 
@@ -62,11 +62,11 @@ DFCI is supported in the following devices:
 
 - Devices must be registered with Windows Autopilot by a [Microsoft Cloud Solution Provider (CSP) partner](https://partner.microsoft.com/membership/cloud-solution-provider) or OEM distributor.
 
-- Before configuring DFCI for Surface, you should be familiar with Autopilot configuration requirements in  [Microsoft Intune](https://docs.microsoft.com/intune/) and [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/) (Azure AD).
+- Before configuring DFCI for Surface, you should be familiar with Autopilot configuration requirements in  [Microsoft Intune](/intune/) and [Azure Active Directory](/azure/active-directory/) (Azure AD).
 
 ## Before you begin
 
-Add your target Surface devices to an Azure AD security group. For more information about creating and managing security groups, refer to [Intune documentation](https://docs.microsoft.com/intune/configuration/device-firmware-configuration-interface-windows#create-your-azure-ad-security-groups).
+Add your target Surface devices to an Azure AD security group. For more information about creating and managing security groups, refer to [Intune documentation](/intune/configuration/device-firmware-configuration-interface-windows#create-your-azure-ad-security-groups).
 
 ## Configure DFCI management for Surface devices
 
@@ -79,7 +79,7 @@ Before configuring DFCI policy settings, first create a DFCI profile and assign 
 1. Sign into your tenant at  devicemanagement.microsoft.com.
 2. In the Microsoft Endpoint Manager Admin Center, select **Devices > Configuration profiles > Create profile** and enter a name; for example, **DFCI Configuration Policy.**
 3. Select **Windows 10 and later** for platform type.
-4. In the Profile type drop down list, select **Device Firmware Configuration Interface** to open the DFCI blade containing all available policy settings. For information on DFCI settings, refer to Table 1 on this page or the [Intune documentation](https://docs.microsoft.com/intune/configuration/device-firmware-configuration-interface-windows). You can configure DFCI settings during the initial setup process or later by editing the DFCI profile.
+4. In the Profile type drop down list, select **Device Firmware Configuration Interface** to open the DFCI blade containing all available policy settings. For information on DFCI settings, refer to Table 1 on this page or the [Intune documentation](/intune/configuration/device-firmware-configuration-interface-windows). You can configure DFCI settings during the initial setup process or later by editing the DFCI profile.
 
     ![Create DFCI profile](images/df1.png)
 
@@ -108,7 +108,7 @@ Before configuring DFCI policy settings, first create a DFCI profile and assign 
 
 To ensure that devices apply the DFCI configuration during OOBE before users sign in, you need to configure enrollment status.
 
-For more information, refer to [Set up an enrollment status page](https://docs.microsoft.com/intune/enrollment/windows-enrollment-status).
+For more information, refer to [Set up an enrollment status page](/intune/enrollment/windows-enrollment-status).
 
 
 ## Configure DFCI settings on Surface devices
@@ -142,7 +142,7 @@ The rest of the DFCI settings enable you to turn off functionality that would ot
 > [!NOTE]
 >  DFCI in Intune includes two settings that do not currently apply to Surface devices: (1) CPU and IO virtualization and (2) Disable Boot from network adapters.
  
-Intune provides Scope tags to delegate administrative rights and Applicability Rules to manage device types. For more information about policy management support and full details on all DFCI settings, refer to [Microsoft Intune documentation](https://docs.microsoft.com/intune/configuration/device-firmware-configuration-interface-windows).
+Intune provides Scope tags to delegate administrative rights and Applicability Rules to manage device types. For more information about policy management support and full details on all DFCI settings, refer to [Microsoft Intune documentation](/intune/configuration/device-firmware-configuration-interface-windows).
 
 ## Register devices in Autopilot
 
@@ -154,7 +154,7 @@ Although Intune policy settings typically get applied almost immediately, there 
 
 - In Endpoint Manager at  devicemanagement.microsoft.com, go to **Devices > Device enrollment > Windows enrollment > Windows Autopilot Devices** and select **Sync**.
 
- For more information, refer to [Sync your Windows device manually](https://docs.microsoft.com/intune-user-help/sync-your-device-manually-windows).
+ For more information, refer to [Sync your Windows device manually](/intune-user-help/sync-your-device-manually-windows).
 
 > [!NOTE]
 > When adjusting settings directly in UEFI, you need to ensure the device fully restarts to the standard Windows login.
@@ -184,7 +184,7 @@ If the original DFCI profile has been deleted, you can remove policy settings by
 **To remove DFCI management and return device to factory new state:**
 
 1. Retire the device from Intune:
-    1. In Endpoint Manager at  devicemanagement.microsoft.com, choose **Groups > All Devices**. Select the devices you want to retire, and then choose **Retire/Wipe.** To learn more refer to [Remove devices by using wipe, retire, or manually unenrolling the device](https://docs.microsoft.com/intune/remote-actions/devices-wipe). 
+    1. In Endpoint Manager at  devicemanagement.microsoft.com, choose **Groups > All Devices**. Select the devices you want to retire, and then choose **Retire/Wipe.** To learn more refer to [Remove devices by using wipe, retire, or manually unenrolling the device](/intune/remote-actions/devices-wipe). 
 2. Delete the Autopilot registration from Intune:
     1.  Choose **Device enrollment > Windows enrollment > Devices**.
     2. Under Windows Autopilot devices, choose the devices you want to delete, and then choose **Delete**.
@@ -197,4 +197,4 @@ To keep managing the device with Intune, but without DFCI management, self-regis
 - [Ignite 2019: Announcing remote management of Surface UEFI settings from Intune](https://techcommunity.microsoft.com/t5/Surface-IT-Pro-Blog/Ignite-2019-Announcing-remote-management-of-Surface-UEFI/ba-p/978333)
 [Windows Autopilot](https://www.microsoft.com/microsoft-365/windows/windows-autopilot)
 - [Windows Autopilot and Surface devices](windows-autopilot-and-surface-devices.md) 
-- [Use DFCI profiles on Windows devices in Microsoft Intune](https://docs.microsoft.com/intune/configuration/device-firmware-configuration-interface-windows)
+- [Use DFCI profiles on Windows devices in Microsoft Intune](/intune/configuration/device-firmware-configuration-interface-windows)
