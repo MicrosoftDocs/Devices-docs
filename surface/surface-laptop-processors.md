@@ -80,7 +80,7 @@ For general information about the Intel processors in Surface Laptop 4, see:
 | Default TDP / TDP    | 15W               | 15W               |
 | Max Temps            | 105C              | 105 C             |
 
-For general information about AMD processors in Surface Laptop 4, see [AMD Ryzen](https://www.amd.com/processors/ryzen)
+For general information about AMD processors in Surface Laptop 4, see [Microsoft Surface Laptop 4 Powered by AMD Ryzen Mobile Processors](https://www.amd.com/processors/ryzen-surface-edition).
 
 ## Surface Laptop 4 SKUs
 
