@@ -34,7 +34,7 @@ There are two administrative options that you can use to manage SEMM and enroll 
 
 - SEMM standalone tool, Microsoft Surface UEFI Configurator, is described in this article. 
 
-- Integration with Microsoft Endpoint Configuration Manager. For information, see [Use Microsoft Endpoint Configuration Manager to manage devices with SEMM](https://technet.microsoft.com/itpro/surface/use-system-center-configuration-manager-to-manage-devices-with-semm).
+- Integration with Microsoft Endpoint Configuration Manager. For information, see [Use Microsoft Endpoint Configuration Manager to manage devices with SEMM](use-system-center-configuration-manager-to-manage-devices-with-semm.md).
 
 > [!NOTE]
 > SEMM is supported on Surface Pro X via the UEFI Manager only. You can download UEFI Manager from [Surface Tools for IT](https://www.microsoft.com/download/details.aspx?id=46703). For more information, refer to [Deploying, managing, and servicing Surface Pro X](surface-pro-arm-app-management.md).
@@ -102,6 +102,7 @@ The following list shows all the available devices that you can manage in SEMM:
  >[!NOTE]
 >On the UEFI Devices page, the built-in devices might vary, depending on your device or corporate environment. For example, the UEFI Devices page isn't supported on Surface Pro X; LTE appears only on LTE-equipped devices. 
 ### Configure advanced settings with SEMM
+
 **Table 1. Advanced settings**
 
 | Setting                            | Description                                                                                                                                                                                        |
@@ -121,7 +122,7 @@ The following list shows all the available devices that you can manage in SEMM:
 | EnableOSMigration                          | Allows you to migrate Surface Hub 2 from Windows 10 Team to Windows 10 Pro or Enterprise. If you don't configure this setting, Surface Hub 2 devices can run only the Windows 10 Team OS. Note: Dual booting between Windows 10 Team and Windows 10 Pro/Enterprise isn't available on Surface Hub 2.                                                                                                           |
 
 
->[!NOTE]
+>[!TIP]
 >When you create a SEMM configuration package, two characters are shown on the **Successful** page, as shown in Figure 3.
 
 ![Certificate thumbprint display](images/surface-ent-mgmt-fig5-success.png "Certificate thumbprint display")
@@ -134,7 +135,7 @@ These characters are the last two characters of the certificate thumbprint and s
 
 *Figure 4. Enrollment confirmation in SEMM with the SEMM certificate thumbprint*
 
->[!NOTE]
+>[!TIP]
 >Administrators with access to the certificate file (.pfx) can read the thumbprint at any time by opening the .pfx file in CertMgr. To view the thumbprint with CertMgr:
 >1. Select and hold (or right-click) the .pfx file, and then select **Open**.
 >2. In the navigation pane, expand the folder.
@@ -144,9 +145,9 @@ These characters are the last two characters of the certificate thumbprint and s
 >6. In the **Show** drop-down menu, **All** or **Properties Only** must be selected.
 >7. Select the **Thumbprint** field.
 
-To enroll a Surface device in SEMM or apply the UEFI configuration from a configuration package, run the .msi file with administrative privileges on the intended Surface device. You can use application deployment or operating system deployment technologies, like [Microsoft Endpoint Configuration Manager](https://technet.microsoft.com/library/mt346023) or the [Microsoft Deployment Toolkit](https://technet.microsoft.com/windows/dn475741). When you enroll a device in SEMM, you must be physically present to confirm the enrollment on the device. When you apply a configuration to devices that are already enrolled in SEMM, user interaction isn’t required.
+To enroll a Surface device in SEMM or apply the UEFI configuration from a configuration package, run the .msi file with administrative privileges on the intended Surface device. You can use application deployment or operating system deployment technologies, like [Microsoft Endpoint Configuration Manager](/mem/configmgr) or the [Microsoft Deployment Toolkit](/mem/configmgr/mdt). When you enroll a device in SEMM, you must be physically present to confirm the enrollment on the device. When you apply a configuration to devices that are already enrolled in SEMM, user interaction isn’t required.
 
-For a step-by-step walkthrough of how to enroll a Surface device in SEMM or apply a Surface UEFI configuration with SEMM, see [Enroll and configure Surface devices with SEMM](https://technet.microsoft.com/itpro/surface/enroll-and-configure-surface-devices-with-semm).
+For a step-by-step walkthrough of how to enroll a Surface device in SEMM or apply a Surface UEFI configuration with SEMM, see [Enroll and configure Surface devices with SEMM](enroll-and-configure-surface-devices-with-semm.md).
 
 ### Reset package
 
@@ -169,13 +170,16 @@ When you use the process on the **Enterprise Management** page to reset SEMM on 
 For a step-by-step walkthrough of how to unenroll Surface devices from SEMM, see [Unenroll Surface devices from SEMM](https://technet.microsoft.com/itpro/surface/unenroll-surface-devices-from-semm).
 
 ## Surface Enterprise Management Mode certificate requirements
+
 When you use SEMM with Microsoft Surface UEFI Configurator and want to apply UEFI settings, a certificate is required to verify the signature of configuration files. This certificate ensures that after a device enrolls in SEMM, only packages created with the approved certificate can be used to modify the UEFI settings.
 
 >[!NOTE]
 >To make any modification to SEMM or Surface UEFI settings on enrolled Surface devices, the SEMM certificate is required. If the SEMM certificate is corrupt or lost, SEMM can’t be removed or reset. Manage your SEMM certificate accordingly with an appropriate solution for backup and recovery
 
 Packages created with the Microsoft Surface UEFI Configurator tool are signed with a certificate. This certificate ensures that after a device is enrolled in SEMM, only packages created with the approved certificate can be used to modify the settings of UEFI. 
+
 ### Recommended certificate settings
+
 The following settings are recommended for the SEMM certificate:
 
 - **Key Algorithm** – RSA 
@@ -187,9 +191,10 @@ The following settings are recommended for the SEMM certificate:
 - **Expiration Date** – 15 Months from certificate creation
 - **Key Export Policy** – Exportable
 
-It's also recommended that the SEMM certificate be authenticated in a two-tier public key infrastructure (PKI) architecture where the intermediate certification authority (CA) is dedicated to SEMM, enabling certificate revocation. For more information about a two-tier PKI configuration, see [Test Lab Guide: Deploying an AD CS Two-Tier PKI Hierarchy](https://technet.microsoft.com/library/hh831348).
+It's also recommended that the SEMM certificate be authenticated in a two-tier public key infrastructure (PKI) architecture where the intermediate certification authority (CA) is dedicated to SEMM, enabling certificate revocation. For more information about a two-tier PKI configuration, see [Test Lab Guide: Deploying an AD CS Two-Tier PKI Hierarchy](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831348(v=ws.11)).
 
 ### Self-signed certificate 
+
 You can use the following example PowerShell script to create a self-signed certificate for use in proof-of-concept scenarios.
 To use this script, copy the following text into Notepad, and then save the file as a PowerShell script (.ps1). 
 

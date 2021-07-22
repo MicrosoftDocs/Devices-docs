@@ -22,8 +22,8 @@ This article describes customizing the Surface out-of-box experience for end use
 
 It is common practice in a Windows deployment to customize the user experience for the first startup of deployed computers — the out-of-box experience, or OOBE.
 
->[!NOTE]
->OOBE is also often used to describe the phase, or configuration pass, of Windows setup during which the user experience is displayed. For more information about the OOBE phase of setup, see [How Configuration Passes Work](https://msdn.microsoft.com/library/windows/hardware/dn898581.aspx).
+>[!TIP]
+>OOBE is also often used to describe the phase, or configuration pass, of Windows setup during which the user experience is displayed. For more information about the OOBE phase of setup, see [How Configuration Passes Work](/windows-hardware/manufacture/desktop/how-configuration-passes-work).
 
 In some scenarios, you may want to provide complete automation to ensure that at the end of a deployment, computers are ready for use without any interaction from the user. In other scenarios, you may want to leave key elements of the experience for users to perform necessary actions or select between important choices. For administrators deploying to Surface devices, each of these scenarios presents a unique challenge to overcome.
 
@@ -33,18 +33,15 @@ In some scenarios, you may want to provide complete automation to ensure that at
 This article provides a summary of the scenarios where a deployment might require additional steps. It also provides the required information to ensure that the desired experience is achieved on any newly deployed Surface device. This article is intended for administrators who are familiar with the deployment process, as well as concepts such as answer files and [reference images](https://technet.microsoft.com/itpro/windows/deploy/create-a-windows-10-reference-image).
 
 >[!NOTE]
->Although the OOBE phase of setup is still run during a deployment with an automated deployment solution such as the [Microsoft Deployment Toolkit (MDT)](https://go.microsoft.com/fwlink/p/?LinkId=618117) or Microsoft Endpoint Configuration Manager Operating System Deployment (OSD), it is automated by the settings supplied in the Deployment Wizard and task sequence. For more information see:<br/>
->- [Deploy Windows 10 with the Microsoft Deployment Toolkit](https://technet.microsoft.com/itpro/windows/deploy/deploy-windows-10-with-the-microsoft-deployment-toolkit)
->- [Deploy Windows 10 with System Center 2012 R2 Configuration Manager](https://technet.microsoft.com/itpro/windows/deploy/deploy-windows-10-with-system-center-2012-r2-configuration-manager)
+>Although the OOBE phase of setup is still run as part of an automated deployment solution such as the [Microsoft Deployment Toolkit (MDT)](/mem/configmgr/mdt) or [Microsoft Endpoint Configuration Manager Operating System Deployment (OSD)](/mem/configmgr/osd/), it is automated by the settings supplied in the deployment wizard and task sequence. 
 
  
-
 ## Scenario 1: Wireless networking in OOBE with MDT 2013
 
 
 When a wireless network adapter is present during OOBE, the **Join a wireless network** page is displayed, which prompts a user to connect to a wireless network. This page is not automatically hidden by deployment technologies, including MDT 2013, and therefore will be displayed even when a deployment is configured for complete automation.
 
-To ensure that an automated deployment is not stopped by this page, the page must be hidden by configuring an additional setting in the answer file, **HideWirelessSetupInOOBE**. You can find additional information about the **HideWirelessSetupInOOBE** setting in [Unattended Windows Setup Reference](https://technet.microsoft.com/library/ff716213.aspx).
+To ensure that an automated deployment is not stopped by this page, the page must be hidden by configuring an additional setting in the answer file, **HideWirelessSetupInOOBE**. You can find additional information about the **HideWirelessSetupInOOBE** setting in [Unattended Windows Setup Reference](/previous-versions/windows/it-pro/windows-8.1-and-8/ff716213(v=win.10)).
 
 ## Scenario 2: Surface Pen pairing in OOBE
 
