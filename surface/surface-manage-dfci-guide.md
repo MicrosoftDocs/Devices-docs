@@ -1,5 +1,5 @@
 ---
-title: Intune management of Surface UEFI settings
+title: Manage DFCI on Surface devices
 description: This article explains how to configure a DFCI environment in Microsoft Intune and manage firmware settings for targeted Surface devices.
 ms.localizationpriority: medium
 ms.prod: w10
@@ -21,7 +21,7 @@ appliesto:
 - Surface Laptop Go
 - Surface Laptop 4
 ---
-# Intune management of Surface UEFI settings
+# Manage DFCI on Surface devices
 
 ## Introduction
 

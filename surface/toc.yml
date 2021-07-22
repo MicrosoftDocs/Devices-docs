@@ -40,8 +40,6 @@
           href: surface-device-compatibility-with-windows-10-ltsc.md
         - name: Long-Term Servicing Branch for Surface devices
           href: ltsb-for-surface.md
-        - name: Deploy Surface app with Microsoft Store for Business
-          href: deploy-surface-app-with-windows-store-for-business.md
         - name: Ethernet adapters and Surface deployment
           href: ethernet-adapters-and-surface-device-deployment.md
         - name: Surface System SKU reference
@@ -68,6 +66,8 @@
           href: upgrade-surface-devices-to-windows-10-with-mdt.md
         - name: Customize the OOBE for Surface deployments
           href: customize-the-oobe-for-surface-deployments.md          
+        - name: Deploy Surface app with Microsoft Store for Business
+          href: deploy-surface-app-with-windows-store-for-business.md
       - name: Surface tools
         items:   
         - name: Surface Enterprise Management Mode
