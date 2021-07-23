@@ -1,5 +1,5 @@
 ---
-title: Use Microsoft Endpoint Configuration Manager to manage devices with SEMM (Surface)
+title: Use Microsoft Endpoint Configuration Manager to manage devices with SEMM 
 description: Learn how to manage Microsoft Surface Enterprise Management Mode (SEMM) with Endpoint Configuration Manager.
 keywords: enroll, update, scripts, settings
 ms.prod: w10
@@ -29,14 +29,14 @@ For organizations with Microsoft Endpoint Configuration Manager there is an alte
 
 Before you begin the process outlined in this article, familiarize yourself with the following technologies and tools:
 
-* [Surface UEFI](https://technet.microsoft.com/itpro/surface/manage-surface-uefi-settings)
-* [Surface Enterprise Management Mode (SEMM)](https://technet.microsoft.com/itpro/surface/surface-enterprise-management-mode)
-* [PowerShell scripting](https://technet.microsoft.com/scriptcenter/dd742419)
-* [System Center Configuration Manager application deployment](https://docs.microsoft.com/sccm/apps/deploy-use/deploy-applications)
-* Certificate management
+* [Surface UEFI](manage-surface-uefi-settings.md)
+* [Surface Enterprise Management Mode (SEMM)](surface-enterprise-management-mode)
+* [PowerShell scripting](/powershell)
+* [Deploy applications with Configuration Manager](/mem/configmgr/apps/deploy-use/deploy-applications)
+
 
 > [!Note]
-> You will also need access to the certificate that you intend to use to secure SEMM. For details about the requirements for this certificate, see [Surface Enterprise Management Mode certificate requirements](https://technet.microsoft.com/itpro/surface/surface-enterprise-management-mode#surface-enterprise-management-mode-certificate-requirements).
+> You will also need access to the certificate that you intend to use to secure SEMM. For details about the requirements for this certificate, see [Surface Enterprise Management Mode certificate requirements](surface-enterprise-management-mode#surface-enterprise-management-mode-certificate-requirements).
 > 
 > It is very important that this certificate be kept in a safe location and properly backed up. If this certificate becomes lost or unusable, it is not possible to reset Surface UEFI, change managed Surface UEFI settings, or remove SEMM from an enrolled Surface device.
 
