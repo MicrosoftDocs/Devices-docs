@@ -30,13 +30,13 @@ For organizations with Microsoft Endpoint Configuration Manager there is an alte
 Before you begin the process outlined in this article, familiarize yourself with the following technologies and tools:
 
 * [Surface UEFI](manage-surface-uefi-settings.md)
-* [Surface Enterprise Management Mode (SEMM)](surface-enterprise-management-mode)
+* [Surface Enterprise Management Mode (SEMM)](surface-enterprise-management-mode.md)
 * [PowerShell scripting](/powershell)
 * [Deploy applications with Configuration Manager](/mem/configmgr/apps/deploy-use/deploy-applications)
 
 
 > [!Note]
-> You will also need access to the certificate that you intend to use to secure SEMM. For details about the requirements for this certificate, see [Surface Enterprise Management Mode certificate requirements](surface-enterprise-management-mode#surface-enterprise-management-mode-certificate-requirements).
+> You will also need access to the certificate that you intend to use to secure SEMM. For details about the requirements for this certificate, see [Surface Enterprise Management Mode certificate requirements](surface-enterprise-management-mode.md#surface-enterprise-management-mode-certificate-requirements).
 > 
 > It is very important that this certificate be kept in a safe location and properly backed up. If this certificate becomes lost or unusable, it is not possible to reset Surface UEFI, change managed Surface UEFI settings, or remove SEMM from an enrolled Surface device.
 
@@ -46,7 +46,7 @@ Management of SEMM with Configuration Manager requires the installation of Micro
 
 #### Download SEMM scripts for Configuration Manager
 
-After Microsoft Surface UEFI Manager is installed on the client Surface device, SEMM is deployed and managed with PowerShell scripts. You can download samples of the [SEMM management scripts](https://www.microsoft.com/download/details.aspx?id=46703) from the Download Center.
+After Microsoft Surface UEFI Manager is installed on the client Surface device, SEMM can be deployed and managed with PowerShell scripts. Get  samples of [SEMM management scripts](https://www.microsoft.com/download/details.aspx?id=46703) by downloading SEMM_PowerShell.zip from Surface Tools for IT.
 
 ## Deploy Microsoft Surface UEFI Manager
 
@@ -379,9 +379,7 @@ The following code fragment, found on lines 380-477, is used to write these regi
 
 ### Settings names and IDs
 
-To configure Surface UEFI settings or permissions for Surface UEFI settings, you must refer to each setting by either its setting name or setting ID. With each new update for Surface UEFI, new settings may be added. The best way to get a complete list of the settings available on a Surface device, along with the settings name and settings IDs, is to use the ShowSettingsOptions.ps1 script from SEMM_Powershell.zip in [Surface Tools for IT Downloads](https://www.microsoft.com/download/details.aspx?id=46703) 
-
-The computer where ShowSettingsOptions.ps1 is run must have Microsoft Surface UEFI Manager installed, but the script does not require a Surface device.
+To configure Surface UEFI settings or permissions for Surface UEFI settings, you must refer to each setting by either its setting name or setting ID. With each new update for Surface UEFI, new settings may be added. Running ShowSettingsOptions.ps1 script (from SEMM_Powershell.zip in [Surface Tools for IT](https://www.microsoft.com/download/details.aspx?id=46703))provides details of available settings. The computer where ShowSettingsOptions.ps1 is run must have Microsoft Surface UEFI Manager installed, but the script does not require a Surface device.
 
 
 ## Deploy SEMM Configuration Manager scripts
