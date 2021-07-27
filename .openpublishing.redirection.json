@@ -119,10 +119,16 @@
             "source_path":  "surface/deploy.md",
             "redirect_url":  "/surface/get-started",
             "redirect_document_id":  false
-        },        {
+        },       
+        {
             "source_path":  "surface-hub/surface-hub-2s-deploy-apps-intune.md",
             "redirect_url":  "/surface-hub/install-apps-on-surface-hub",
             "redirect_document_id":  false
         },
+        {
+            "source_path":  "surface/surface-diagnostic-toolkit-for-business-intro.md",
+            "redirect_url":  "/surface/surface-diagnostic-toolkit-business",
+            "redirect_document_id":  false
+        },        
 ]
 }
