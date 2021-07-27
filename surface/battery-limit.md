@@ -54,8 +54,6 @@ The Surface UEFI battery limit is also available for configuration via the follo
 - Surface Pro 4 and later 
     - [Microsoft Surface UEFI Configurator](https://docs.microsoft.com/surface/surface-enterprise-management-mode)  
     - Surface UEFI Manager Powershell scripts (SEMM_Powershell.zip) in the [Surface Tools for IT downloads](https://www.microsoft.com/download/details.aspx?id=46703)
-- Surface Pro 3 
-    - [SP3_Firmware_Powershell_Scripts.zip](https://www.microsoft.com/download/details.aspx?id=46703)
 
 ### Using Microsoft Surface UEFI Configurator
 
@@ -74,23 +72,3 @@ The battery limit feature is controlled via the following setting:
 **Default**:  `0` 
 
 Set this to `1` to enable Battery Limit.
-
-### Using Surface Pro 3 firmware tools
-
-The battery limit feature is controlled via the following setting:  
-
-**Name**: BatteryLimitEnable
-
-**Description**:  BatteryLimit
-
-**Current Value**:  `0` 
-
-**Default Value**: `0`
-
-**Proposed Value**: `0` 
-
-Set this to `1` to enable Battery Limit.
-
->[!NOTE]
->To configure this setting, you must use [SP3_Firmware_Powershell_Scripts.zip](https://www.microsoft.com/download/details.aspx?id=46703). 
-
