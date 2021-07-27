@@ -20,7 +20,7 @@ ms.topic: article
 
 Find out how to enable support for PEAP, EAP-FAST, or Cisco LEAP protocols on your Surface device.
 
-If you use PEAP, EAP-FAST, or Cisco LEAP in your enterprise network, you probably already know that these three wireless authentication protocols are not supported by Surface devices out of the box. Some users may discover this when they attempt to connect to your wireless network; others may discover it when they are unable to gain access to resources inside the network, like file shares and internal sites. For more information, see [Extensible Authentication Protocol](https://technet.microsoft.com/network/bb643147).
+If you use PEAP, EAP-FAST, or Cisco LEAP in your enterprise network, you probably already know that these three wireless authentication protocols are not supported by Surface devices out of the box. Some users may discover this when they attempt to connect to your wireless network; others may discover it when they are unable to gain access to resources inside the network, like file shares and internal sites. For more information, see [Extensible Authentication Protocol](/previous-versions/windows/it-pro/windows-xp/bb457039(v=technet.10)?).
 
 You can add support for each protocol by executing a small MSI package from a USB stick or from a file share. For organizations that want to enable EAP support on their Surface devices, the MSI package format supports deployment with many management and deployment tools, like the Microsoft Deployment Toolkit (MDT) and Microsoft Endpoint Configuration Manager.
 
@@ -83,13 +83,4 @@ To specify the protocol(s) explicitly, follow these steps:
 
 For organizations that manage Surface devices with Configuration Manager, it is even easier to deploy PEAP, EAP-FAST, or Cisco LEAP support to Surface devices. Simply import each MSI file as an application from the Software Library and configure a deployment to your Surface device collection.
 
-For more information on how to deploy applications with Configuration Manager see [How to Create Applications in Configuration Manager](https://technet.microsoft.com/library/gg682159.aspx) and [How to Deploy Applications in Configuration Manager](https://technet.microsoft.com/library/gg682082.aspx).
-
- 
-
- 
-
-
-
-
-
+For more information on how to deploy applications with Configuration Manager see [How to Create Applications in Configuration Manager](/mem/configmgr/apps/get-started/create-and-deploy-an-application.md) and [How to Deploy Applications in Configuration Manager](https://technet.microsoft.com/library/gg682082.aspx).
