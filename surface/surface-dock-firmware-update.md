@@ -53,7 +53,7 @@ To monitor the update:
     Reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\WUDF\Services\SurfaceDockFwUpdate\Parameters"
     ```
 
-3. Install the update as described in the [next section](#install-the-surface-dock-firmware-update) of this article.
+3. Install the update as described in the [next section](#install-surface-dock-1-firmware-update) of this article.
 
 4. Event 2007 with the following text indicates a successful update: **Firmware update finished. hr=0 DriverTelementry EventCode = 2007**.
 
@@ -89,14 +89,14 @@ msiexec /i "\\share\folder\Surface_Dock_FwUpdate_1.42.139_Win10_17134_19.084.316
 > [!NOTE]
 > A log file is not created by default. In order to create a log file, you will need to append "/l*v [path]". For example: Msiexec.exe /i \<path to msi file\> /l*v %windir%\logs\ SurfaceDockFWI.log"
 
-For more information, refer to [Command line options](https://docs.microsoft.com/windows/win32/msi/command-line-options) documentation.
+For more information, refer to [Command line options](/windows/win32/msi/command-line-options) documentation.
 
 > [!IMPORTANT]
 > If you want to keep your Surface Dock updated using any other method, refer to [Update your Surface Dock](https://support.microsoft.com/help/4023478/surface-update-your-surface-dock) for details.
 
 ## Intune deployment
 
-You can use Intune to distribute Surface Dock 1 Firmware Update to your devices. First you will need to convert the MSI file to the .intunewin format, as described in the following documentation: [Intune Standalone - Win32 app management](https://docs.microsoft.com/intune/apps/apps-win32-app-management).
+You can use Intune to distribute Surface Dock 1 Firmware Update to your devices. First you will need to convert the MSI file to the .intunewin format, as described in the following documentation: [Intune Standalone - Win32 app management](/intune/apps/apps-win32-app-management).
 
 Use the following command:
 
@@ -132,7 +132,7 @@ Successful completion of Surface Dock 1 Firmware Update results in new registry 
 | Log                              | Location                               | Notes                                                                                                                                                                                                         |
 | -------------------------------- | --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Surface Dock 1 Firmware Update log | Path needs to be specified (see note) | Earlier versions of this tool wrote events to Applications and Services Logs\Microsoft Surface Dock Updater.                                                                                                  |
-| Windows Device Install log       | %windir%\inf\setupapi.dev.log           | For more information about using Device Install Log, refer to [SetupAPI Logging](https://docs.microsoft.com/windows-hardware/drivers/install/setupapi-logging--windows-vista-and-later-) documentation. |
+| Windows Device Install log       | %windir%\inf\setupapi.dev.log           | For more information about using Device Install Log, refer to [SetupAPI Logging](/windows-hardware/drivers/install/setupapi-logging--windows-vista-and-later-) documentation. |
 
 ### Table 2. Event log IDs for Surface Dock 1 Firmware Update
 
