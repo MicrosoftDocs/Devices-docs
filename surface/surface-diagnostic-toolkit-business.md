@@ -16,12 +16,12 @@ audience: itpro
 
 # Surface Diagnostic Toolkit for Business
 
-The Microsoft Surface Diagnostic Toolkit for Business (SDT) enables IT administrators to quickly investigate, troubleshoot, and resolve hardware, software, and firmware issues with Surface devices. You can run a range of diagnostic tests and software repairs in addition to obtaining device health insights and guidance for resolving issues.
+If your Surface isn’t working properly, the Microsoft Surface Diagnostic Toolkit for Business can help you or your administrator find and solve problems.  Quickly investigate, troubleshoot, and resolve hardware, software, and firmware issues with Surface devices. You can run a range of diagnostic tests and software repairs in addition to obtaining device health insights and guidance for resolving issues.
 
 > [!NOTE]
 > Surface Diagnostic Toolkit for Business is built for commercial devices. If your device is a personal device and not managed by your work or school run the [Surface Diagnostic Toolkit](https://support.microsoft.com/en-us/help/4037239/surface-fix-common-surface-problems-using-surface-diagnostic-toolkit) instead.
 
-Specifically, SDT for Business enables you to:
+Specifically, Surface Diagnostic Toolkit (SDT) for Business enables you to:
 
 - [Customize the package.](#preparing-the-sdt-package-for-distribution)
 - [Run the app using commands.](surface-diagnostic-toolkit-command-line.md)
@@ -31,7 +31,7 @@ Specifically, SDT for Business enables you to:
 
 ## Primary scenarios and download resources
 
-To run SDT for Business, download the components listed in the following table.
+To run Surface Diagnostic Toolkit for Business, download the components listed in the following table.
 
 Mode | Primary scenarios | Download | Learn more
 --- | --- | --- | ---
