@@ -1,5 +1,5 @@
 ---
-title: Deploy Surface Diagnostic Toolkit for Business
+title: Surface Diagnostic Toolkit for Business
 description: This topic explains how to deploy and use the Surface Diagnostic Toolkit for Business, which enables IT administrators to quickly investigate, troubleshoot, and resolve hardware, software, and firmware issues with Surface devices.
 ms.prod: w10
 ms.mktglfcycl: manage
@@ -16,7 +16,7 @@ audience: itpro
 
 # Surface Diagnostic Toolkit for Business
 
-If your Surface isn’t working properly, the Microsoft Surface Diagnostic Toolkit (SDT) for Business can help you or your administrator find and solve problems.  Quickly investigate, troubleshoot, and resolve hardware, software, and firmware issues with Surface devices. You can run a range of diagnostic tests and software repairs in addition to obtaining device health insights and guidance for resolving issues.
+If your Surface isn’t working properly, the Microsoft Surface Diagnostic Toolkit (SDT) for Business can help you or your administrator find and solve problems.  SDT for business lets you quickly investigate, troubleshoot, and resolve hardware, software, and firmware issues with Surface devices — across your network.
 
 > [!NOTE]
 > Surface Diagnostic Toolkit for Business is built for commercial devices. If your device is a personal device and not managed by your work or school run the [Surface Diagnostic Toolkit](https://support.microsoft.com/en-us/help/4037239/surface-fix-common-surface-problems-using-surface-diagnostic-toolkit) instead.
