@@ -16,10 +16,9 @@ ms.audience: itpro
 ms.date: 6/04/2021
 ---
 
-# Wake On LAN for Surface devices in hibernation 
+# Wake On LAN for Surface devices in hibernation
 
-To keep devices fully up to date, IT admins need to be able to manage devices when they’re not in use, typically during nightly maintenance windows. WOL works by default for Surface devices in Modern Standby (also known as Connected Standby). But — unless your devices are [connected to Surface Dock 2](wake-on-lan-surface-dock2.md) — to wake devices from "deeper" power states requires some minimal IT configuration, as described on this page. 
-
+To keep devices fully up to date, IT admins need to be able to manage devices when they’re not in use, typically during nightly maintenance windows. WOL works by default for Surface devices in Modern Standby (also known as Connected Standby). But — unless your devices are [connected to Surface Dock 2](wake-on-lan-surface-dock2.md) — to wake devices from "deeper" power states requires some minimal IT configuration, as described on this page.
 
 ## Requirements
 
@@ -34,9 +33,10 @@ Devices must be connected to AC power and have a wired connection with one of th
 
 ## Wake devices from Hibernation or Shut-down power states
 
- To wake devices not connected to Surface Dock 2, requires you to first enable a UEFI policy setting via [Surface Enterprise Management Mode](surface-enterprise-management-mode.md) (SEMM). 
+ To wake devices not connected to Surface Dock 2, requires you to first enable a UEFI policy setting via [Surface Enterprise Management Mode](surface-enterprise-management-mode.md) (SEMM).
 
-> [!IMPORTANT] > This section is intended only for waking devices out of Hibernation or Shut-down power states. Waking devices out of Modern Standby does not require any UEFI policy setting configuration. 
+> [!IMPORTANT]
+> This section is intended only for waking devices out of Hibernation or Shut-down power states. Waking devices out of Modern Standby does not require any UEFI policy setting configuration.
 
 To enable the Wake on LAN UEFI setting you need to enroll target devices into SEMM, create a configuration package, and apply the package to the devices. For more information, refer to:
 
