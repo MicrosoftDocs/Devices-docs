@@ -126,6 +126,8 @@
            href: surface-dock-firmware-update.md
       - name: Remotely wake devices
         items: 
+        - name: Wake On LAN from Modern Standby
+          href: wake-on-lan-surface-modern-standby.md 
         - name: Wake On LAN for Surface devices
           href: wake-on-lan-for-surface-devices.md
         - name: Wake On LAN with Surface Dock 2
