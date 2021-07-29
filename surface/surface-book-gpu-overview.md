@@ -49,7 +49,7 @@ NVIDIA Quadro RTX 3000 unlocks several key features for professional users:  ray
 
 ## Comparing GPUs across Surface Book 3
 
-NVIDIA GPUs provide users with great performance for gaming, live streaming, and content creation. GeForce GTX products are great for gamers and content creators. Quadro RTX products are targeted at professional users, provide great performance in gaming and content creation, and also add the following features:
+NVIDIA GPUs provide users with great performance for gaming, livestreaming, and content creation. GeForce GTX products are great for gamers and content creators. Quadro RTX products are targeted at professional users, provide great performance in gaming and content creation, and also add the following features:
 
 - RTX acceleration for ray tracing and AI. This makes it possible to render film-quality, photorealistic objects and environments with physically accurate shadows, reflections and refractions.  And its hardware accelerated AI capabilities means the advanced AI-based features in popular applications can run faster than ever before.
 - Enterprise-level hardware, drivers and support, as well as ISV app certifications.

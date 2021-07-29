@@ -40,8 +40,6 @@
           href: surface-device-compatibility-with-windows-10-ltsc.md
         - name: Long-Term Servicing Branch for Surface devices
           href: ltsb-for-surface.md
-        - name: Deploy Surface app with Microsoft Store for Business
-          href: deploy-surface-app-with-windows-store-for-business.md
         - name: Ethernet adapters and Surface deployment
           href: ethernet-adapters-and-surface-device-deployment.md
         - name: Surface System SKU reference
@@ -68,6 +66,8 @@
           href: upgrade-surface-devices-to-windows-10-with-mdt.md
         - name: Customize the OOBE for Surface deployments
           href: customize-the-oobe-for-surface-deployments.md          
+        - name: Deploy Surface app with Microsoft Store for Business
+          href: deploy-surface-app-with-windows-store-for-business.md
       - name: Surface tools
         items:   
         - name: Surface Enterprise Management Mode
@@ -79,11 +79,9 @@
             href: unenroll-surface-devices-from-semm.md
           - name: Use Microsoft Endpoint Configuration Manager to manage devices with SEMM
             href: use-system-center-configuration-manager-to-manage-devices-with-semm.md
-        - name: Fix common Surface problems using the Surface Diagnostic Toolkit for Business
-          href: surface-diagnostic-toolkit-for-business-intro.md
+        - name: Surface Diagnostic Toolkit for Business
+          href: surface-diagnostic-toolkit-business.md
           items: 
-          - name: Deploy Surface Diagnostic Toolkit for Business
-            href: surface-diagnostic-toolkit-business.md
           - name: Use Surface Diagnostic Toolkit for Business in desktop mode
             href: surface-diagnostic-toolkit-desktop-mode.md
           - name: Run Surface Diagnostic Toolkit for Business with commands
