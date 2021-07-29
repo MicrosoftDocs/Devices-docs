@@ -36,7 +36,7 @@ Devices must be connected to AC power and have a wired connection with one of th
  To wake devices not connected to Surface Dock 2, requires you to first enable a UEFI policy setting via [Surface Enterprise Management Mode](surface-enterprise-management-mode.md) (SEMM).
 
 > [!IMPORTANT]
-> This section is intended only for waking devices out of Hibernation or Shut-down power states. Waking devices out of Modern Standby does not require any UEFI policy setting configuration.
+> This section is intended only for waking devices out of Hibernation or Shut-down power states. Waking devices out of Modern Standby does not require using SEMM or enabling any UEFI policy settings. 
 
 To enable the Wake on LAN UEFI setting you need to enroll target devices into SEMM, create a configuration package, and apply the package to the devices. For more information, refer to:
 

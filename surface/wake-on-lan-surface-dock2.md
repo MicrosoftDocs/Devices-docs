@@ -27,6 +27,9 @@ Devices must have a wired connection with Surface Dock 2 and stay connected to A
 > [!div class="mx-imgBorder"]
 > ![Surface Dock 2](images/surface-dock2-angled.png)
 
+> [!IMPORTANT]
+ Waking devices connected to Surface Dock 2 does not require using Surface Enterprise Management Mode (SEMM) or enabling any UEFI policy settings .
+ 
 ## Supported Surface devices
 
 - Surface Laptop 4 (Intel processors)
