@@ -26,6 +26,18 @@ Please refer to the “[Surface Hub Important Information](https://support.micro
 ## Windows 10 Team 2020 Update (20H2)
 
 <details>
+<summary>July 29, 2021 — update for Team based on KB5004296* (OS Build 19042.1151)</summary>
+
+This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4581839/windows-10-update-history), include:
+
+* Update to the "Collect logs" feature to include Windows diagnostic data in csv format.
+* Fix that ensures that End Session cleanup fully removes all data related to Edge Chromium.
+* Improves some scenarios with Azure AD-joined Surface Hubs when using the Authenticator app.
+
+Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabling device features and services. *[KB5004296](https://support.microsoft.com/help/5004296)
+</details>
+
+<details>
 <summary>June 10, 2021 — update for Surface Hub 2S</summary>
 
 This update is specific to the Surface Hub 2S and provides the driver and firmware updates outlined below:
@@ -99,7 +111,6 @@ This update is specific to the Surface Hub 2S and provides the driver and firmwa
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4581839/windows-10-update-history), include:
 
 * Update to Privacy Settings page to provide additional options.
-* Fix that ensures that End Session cleanup fully removes all data related to Edge Chromium.
 * Resolves an issue where meetings that had already started were not displayed on Welcome/Start screen.
 * Resolves an issue with cloud recovery for non-en-US locales.
 * Skype for Business
@@ -299,7 +310,7 @@ This update to the Surface Hub includes quality improvements and security fixes.
   * Resolves Skype for Business network connection issue, when device is connected to Internet
   * Resolves Skype for Business crash when searching for users from directory
 * Resolves issue where the Hub mistakenly reports “No Internet connection” in enterprise proxy environments.
-* Implemented a feature allowing customers to op-in to a new Whiteboard experience.
+* Implemented a feature allowing customers to opt-in to a new Whiteboard experience.
 
 Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabling device features and services.
 *[KB4462939](https://support.microsoft.com/help/4462939)
@@ -393,7 +404,7 @@ This update to the Surface Hub includes quality improvements and security fixes.
 * A feature update that enables users to dynamically select an application of their choice when opening a file.
 * Fix that ensures that End Session cleanup fully removes all connections between the user’s account and the device.
 * Performance fix that improves cleanup time as well as Miracast connection time.
-* Introduces Easy Authentication utilization during ad-hock meetings.
+* Introduces Easy Authentication utilization during ad-hoc meetings.
 * Fix that ensures service components to use the same proxy that is configured across the device.
 * Reduces and more thoroughly secures the telemetry transmitted by the device, reducing bandwidth utilization.
 * Enables a feature allowing users to provide feedback to Microsoft after a meeting concludes.
