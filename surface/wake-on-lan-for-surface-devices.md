@@ -55,6 +55,10 @@ Surface devices with support for WOL:
 - Surface Laptop Go
 - Surface Laptop 4
 
+## Using WOL 
+
+When not in use, Surface devices enter an idle, low powered state known as Modern Standby or Connected Standby. IT admins can remotely trigger devices using a wake request (magic packet) that contains the Media Access Control (MAC) address of the target Surface device. The destination network interface card (NIC) compares the MAC address with its own before waking up the device. If the MAC address in the magic packet wake request does not match the MAC address on the destination NIC, the NIC won’t wake up the device. To learn more, review [Wake sources documentation](/windows-hardware/design/device-experiences/modern-standby-wake-sources)
+
 ## Modern Standby
 
 Modern Standby starts when the user causes the system to enter sleep. For example, the user presss the power button, closes the lid, or selects Sleep from the power button in the Windows Start menu. WOL works by default for Surface devices in Modern Standby mode running Windows 10 version 1607 or later. No additional IT configuration is required, except for Surface Studio 2.
@@ -81,5 +85,3 @@ To enable WOL on Surface Studio 2, you must use the following procedure
 ## Advanced scenarios
 
 To wake devices from other power states such as hibernation requires minimal IT configuration. To learn more, see [Wake on LAN for Surface devices in hibernation](wake-on-lan-surface-devices-hibernation.md).
-
-
