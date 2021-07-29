@@ -85,3 +85,6 @@ To enable WOL on Surface Studio 2, you must use the following procedure
 ## Advanced scenarios
 
 To wake devices from other power states such as hibernation requires minimal IT configuration. To learn more, see [Wake on LAN for Surface devices in hibernation](wake-on-lan-surface-devices-hibernation.md).
+
+> [!NOTE]
+> Surface Dock 2 provides the best support for Wake on LAN without the need for any additional IT configuration. To learn more, see [Wake on LAN for Surface Dock 2](wake-on-lan-surface-dock2.md)
