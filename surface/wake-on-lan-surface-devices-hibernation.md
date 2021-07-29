@@ -1,5 +1,5 @@
 ---
-title: Wake On LAN for Surface devices 
+title: Wake On LAN for Surface devices in hibernation
 description: See how you can use Wake On LAN to remotely wake up devices to perform management tasks automatically.
 keywords: update, deploy, driver, wol, wake-on-lan
 ms.prod: w10
@@ -13,7 +13,7 @@ ms.topic: article
 ms.reviewer: jesko
 manager: laurawi
 ms.audience: itpro
-ms.date: 6/04/2021
+ms.date: 7/29/2021
 ---
 
 # Wake On LAN for Surface devices in hibernation

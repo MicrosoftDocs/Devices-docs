@@ -1,5 +1,5 @@
 ---
-title: Wake On LAN from Modern Standby
+title: Wake On LAN for Surface devices
 description: Surface devices that run Windows 10, version 1607 or later and use a Surface Ethernet adapter to connect to a wired network, are capable of Wake On LAN (WOL) from Modern Standby
 keywords: update, deploy, driver, wol, wake-on-lan
 ms.prod: w10
@@ -13,9 +13,10 @@ ms.topic: article
 ms.reviewer: scottmca
 manager: laurawi
 ms.audience: itpro
+ms.date: 7/29/2021
 ---
 
-# Wake On LAN from Modern Standby
+# Wake On LAN for Surface devices 
 
 Surface devices that run Windows 10 version 1607 or later are capable of Wake On LAN (WOL) from Modern Standby (also known as Connected Standby). With WOL, IT admins can remotely wake up devices and automatically perform management tasks with Microsoft Endpoint Manager or third party solutions.
 
@@ -62,16 +63,15 @@ Modern Standby starts when the user causes the system to enter sleep. For exampl
 
 To enable WOL on Surface Studio 2, you must use the following procedure
 
-1. Create the following registry keys:
+1. Open Registry Editor (**Start** > **Search** > **regedit.exe**) and create the following registry keys:
 
    ```console
    ; Set CONNECTIVITYINSTANDBY to 1:
    [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\F15576E8-98B7-4186-B944-EAFA664402D9]
    "Attributes"=dword:00000001
-   ; Set EnforceDisconnectedStandby to 0 and AllowSystemRequiredPowerRequests to 1:
+   ; Set EnforceDisconnectedStandby to 0:
    [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power]
    "EnforceDisconnectedStandby"=dword:00000000
-   "AllowSystemRequiredPowerRequests"=dword:00000001
    ```
 
 2. Run the following command
@@ -80,4 +80,6 @@ To enable WOL on Surface Studio 2, you must use the following procedure
 
 ## Advanced scenarios
 
-To wake devices from other power states such as hibernation requires minimal IT configuration. To learn more, see [Wake on LAN for Surface devices in hibernation]
+To wake devices from other power states such as hibernation requires minimal IT configuration. To learn more, see [Wake on LAN for Surface devices in hibernation](wake-on-lan-surface-devices-hibernation.md).
+
+
