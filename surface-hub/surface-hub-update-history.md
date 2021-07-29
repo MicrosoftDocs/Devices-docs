@@ -26,7 +26,7 @@ Please refer to the “[Surface Hub Important Information](https://support.micro
 ## Windows 10 Team 2020 Update (20H2)
 
 <details>
-<summary>July 20, 2021 — update for Team based on KB5004296* (OS Build 19042.xxx)</summary>
+<summary>July 20, 2021 — update for Team based on KB5004296* (OS Build 19042.1151)</summary>
 
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4581839/windows-10-update-history), include:
 
