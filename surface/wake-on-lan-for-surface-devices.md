@@ -82,6 +82,9 @@ To enable WOL on Surface Studio 2, you must use the following procedure
 
     ```powercfg /SETACVALUEINDEX SCHEME_BALANCED SUB_NONE CONNECTIVITYINSTANDBY 1```
 
+> [!NOTE]
+> If you upgrade the version of Windows 10 on your Surface Studio 2 (for example, you upgrade from Windows 10 20H2 to 21H1), you will need to follow these instructions again to enable WOL.
+
 ## Advanced scenarios
 
 Depending on the type of Ethernet adapter used by target devices, some additonial IT configuration may be required. 

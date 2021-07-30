@@ -31,6 +31,26 @@ Devices must be connected to AC power and have a wired connection with one of th
 - Surface Dock
 - Surface Dock 2. If using Surface Dock 2, skip this procedure and go to [Wake on LAN for Surface Dock 2](wake-on-lan-surface-dock2.md). 
 
+Surface devices with support for WOL:
+
+- Surface 3
+- Surface Pro 3
+- Surface Pro 4
+- Surface Pro (5th Gen)
+- Surface Pro (5th Gen) with LTE Advanced
+- Surface Book
+- Surface Laptop (1st Gen)
+- Surface Pro 6
+- Surface Book 2
+- Surface Laptop 2
+- Surface Go
+- Surface Go with LTE Advanced
+- Surface Studio 2 
+- Surface Pro 7
+- Surface Pro 7+
+- Surface Laptop 3
+- Surface Laptop Go
+- Surface Laptop 4
 
 ## Wake devices from Hibernation or Shut-down power states
 
