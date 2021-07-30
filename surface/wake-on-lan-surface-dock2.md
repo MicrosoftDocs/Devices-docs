@@ -13,7 +13,7 @@ ms.topic: article
 ms.reviewer: jesko
 manager: laurawi
 ms.audience: itpro
-ms.date: 7/02/2021
+ms.date: 7/30/2021
 ---
 
 # Wake On LAN with Surface Dock 2
@@ -27,6 +27,9 @@ Devices must have a wired connection with Surface Dock 2 and stay connected to A
 > [!div class="mx-imgBorder"]
 > ![Surface Dock 2](images/surface-dock2-angled.png)
 
+> [!NOTE]
+> Waking devices connected to Surface Dock 2 does not require using Surface Enterprise Management Mode (SEMM) or enabling any UEFI policy settings .
+ 
 ## Supported Surface devices
 
 - Surface Laptop 4 (Intel processors)
@@ -49,9 +52,12 @@ To learn more about power states, see [System Power States](/windows/win32/power
 
 ## How it works
 
-When not in use, Surface devices enter an idle, low powered state known as Modern Standby or Connected Standby. IT admins can remotely trigger devices using a wake request (magic packet) that contains the Media Access Control (MAC) address of the target Surface device. Many management solutions, such as Microsoft Endpoint Configuration Manager and third-party Microsoft Store apps provide built-in support for WOL.
+When not in use, Surface devices enter an idle, low powered state known as Modern Standby or Connected Standby. Or devices may be in hibernation (S4) or shutdown (S5) power state based on the power settings configured on the device. IT admins can remotely trigger devices using a wake request (magic packet) that contains the Media Access Control (MAC) address of the target Surface device. Many management solutions, such as Microsoft Endpoint Configuration Manager and third-party Microsoft Store apps provide built-in support for WOL.
 
-To enable WOL on devices without Surface Dock 2, see [Wake on LAN for Surface devices](wake-on-lan-for-surface-devices.md).
+To enable WOL on devices without Surface Dock 2, see:
+
+- [Wake on LAN for Surface devices](wake-on-lan-for-surface-devices.md)
+- [Wake On LAN for Surface devices in hibernation](wake-on-lan-surface-devices-hibernation.md)
 
 ## Learn more
 
