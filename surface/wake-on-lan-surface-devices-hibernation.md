@@ -50,9 +50,3 @@ To enable the Wake on LAN UEFI setting you need to enroll target devices into SE
 
     > [!div class="mx-imgBorder"]
     > ![Enable Wake on LAN UEFI policy setting](images/wol-uefi.png)
-
-## Learn more
-
-- [Wake on LAN for Surface Dock 2](wake-on-lan-surface-dock2.md)
-- [Microsoft Surface USB-C to Ethernet and USB Adapter](https://www.microsoft.com/p/surface-usb-c-to-ethernet-and-usb-adapter/8wt81cglrblp?)
-- [Surface USB 3.0 Gigabit Ethernet Adapter](https://www.microsoft.com/p/surface-usb-30-gigabit-ethernet-adapter/8xn9fqvzbvq0?)
