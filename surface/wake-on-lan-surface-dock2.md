@@ -18,7 +18,7 @@ ms.date: 7/30/2021
 
 # Wake On LAN with Surface Dock 2
 
-To keep devices fully up to date, IT admins need to be able to manage devices when they’re not in use, typically during nightly maintenance windows. Surface Dock 2 provides the best support for Wake on LAN (WOL) enabling admins to remotely wake up devices and automatically perform management tasks with Microsoft Endpoint Manager or other third party solutions.
+To keep devices fully up to date, IT admins need to be able to manage devices when they’re not in use, typically during nightly maintenance windows. Surface Dock 2 provides the best support for Wake on LAN (WOL) enabling admins to remotely wake up Surface devices and automatically perform management tasks with Microsoft Endpoint Manager or other third party solutions.
 
 ## Requirements
 
@@ -28,7 +28,7 @@ Devices must have a wired connection with Surface Dock 2 and stay connected to A
 > ![Surface Dock 2](images/surface-dock2-angled.png)
 
 > [!NOTE]
-> Waking devices connected to Surface Dock 2 does not require using Surface Enterprise Management Mode (SEMM) or enabling any UEFI policy settings .
+> Waking devices connected to Surface Dock 2 does not require using Surface Enterprise Management Mode (SEMM) or enabling any UEFI policy settings.
  
 ## Supported Surface devices
 
@@ -57,11 +57,10 @@ When not in use, Surface devices enter an idle, low powered state known as Moder
 To enable WOL on devices without Surface Dock 2, see:
 
 - [Wake on LAN for Surface devices](wake-on-lan-for-surface-devices.md)
-- [Wake On LAN for Surface devices in hibernation](wake-on-lan-surface-devices-hibernation.md)
 
 ## Learn more
 
 - [Surface Dock 2](https://www.microsoft.com/p/surface-dock-2-for-business/8q4hgc6kbmdq?)
 - [Wake On LAN for Surface devices](wake-on-lan-for-surface-devices.md)
 - [System Power States](/windows/win32/power/system-power-states)
-- [Configure Wake on LAN - Configuration Manager](/mem/configmgr/core/clients/deploy/configure-wake-on-lan)
+
