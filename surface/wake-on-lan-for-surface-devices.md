@@ -1,6 +1,6 @@
 ---
 title: Wake On LAN for Surface devices
-description: Surface devices that run Windows 10, version 1607 or later and use a Surface Ethernet adapter to connect to a wired network, are capable of Wake On LAN (WOL) from Modern Standby
+description: Surface devices that run Windows 10, version 1607 or later and use a Surface Ethernet adapter to connect to a wired network are capable of Wake On LAN (WOL) from Modern Standby.
 keywords: update, deploy, driver, wol, wake-on-lan
 ms.prod: w10
 ms.mktglfcycl: manage
@@ -10,10 +10,10 @@ ms.localizationpriority: medium
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.reviewer: scottmca
+ms.reviewer: jesko
 manager: laurawi
 ms.audience: itpro
-ms.date: 7/29/2021
+ms.date: 7/30/2021
 ---
 
 # Wake On LAN for Surface devices 
@@ -61,7 +61,7 @@ When not in use, Surface devices enter an idle, low powered state known as Moder
 
 ## Modern Standby
 
-Modern Standby starts when the user causes the system to enter sleep. For example, the user presss the power button, closes the lid, or selects Sleep from the power button in the Windows Start menu. WOL works by default for Surface devices in Modern Standby mode running Windows 10 version 1607 or later. No additional IT configuration is required, except for Surface Studio 2.
+Modern Standby starts when the user causes the system to enter sleep or the device goes to sleep based on the Windows power settings the user has set. For example, the user presses the power button, closes the lid, or selects Sleep from the power button in the Windows Start menu. WOL works by default for Surface devices in Modern Standby mode running Windows 10 version 1607 or later. No additional IT configuration is required, except for Surface Studio 2.
 
 ## Surface Studio 2 instructions
 
