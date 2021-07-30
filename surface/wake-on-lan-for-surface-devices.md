@@ -85,11 +85,7 @@ To enable WOL on Surface Studio 2, you must use the following procedure
 > [!NOTE]
 > If you upgrade the version of Windows 10 on your Surface Studio 2 (for example, you upgrade from Windows 10 20H2 to 21H1), you will need to follow these instructions again to enable WOL.
 
-## Advanced scenarios
-
-Depending on the type of Ethernet adapter used by target devices, some additonial IT configuration may be required. 
 
 ### To wake from hibernation (S4) or shutdown (S5) 
 
-- For devices using Ethernet adapters other than Surface Dock 2, see [Wake on LAN for Surface devices in hibernation](wake-on-lan-surface-devices-hibernation.md).
 - For devices connected to Surface Dock 2,see [Wake on LAN for Surface Dock 2](wake-on-lan-surface-dock2.md)

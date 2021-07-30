@@ -128,8 +128,6 @@
         items: 
         - name: Wake On LAN for Surface devices
           href: wake-on-lan-for-surface-devices.md
-        - name: Wake On LAN for Surface devices in hibernation
-          href: wake-on-lan-surface-devices-hibernation.md 
         - name: Wake On LAN with Surface Dock 2
           href: wake-on-lan-surface-dock2.md
         - name: Wake on Power for Surface devices

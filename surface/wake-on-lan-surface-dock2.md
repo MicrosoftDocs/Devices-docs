@@ -28,7 +28,7 @@ Devices must have a wired connection with Surface Dock 2 and stay connected to A
 > ![Surface Dock 2](images/surface-dock2-angled.png)
 
 > [!NOTE]
-> Waking devices connected to Surface Dock 2 does not require using Surface Enterprise Management Mode (SEMM) or enabling any UEFI policy settings .
+> Waking devices connected to Surface Dock 2 does not require using Surface Enterprise Management Mode (SEMM) or enabling any UEFI policy settings.
  
 ## Supported Surface devices
 
@@ -57,7 +57,6 @@ When not in use, Surface devices enter an idle, low powered state known as Moder
 To enable WOL on devices without Surface Dock 2, see:
 
 - [Wake on LAN for Surface devices](wake-on-lan-for-surface-devices.md)
-- [Wake On LAN for Surface devices in hibernation](wake-on-lan-surface-devices-hibernation.md)
 
 ## Learn more
 
