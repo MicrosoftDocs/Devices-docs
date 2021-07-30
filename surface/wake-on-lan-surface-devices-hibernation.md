@@ -29,7 +29,8 @@ Devices must be connected to AC power and have a wired connection with one of th
 - Surface USB-C to Ethernet and USB Adapter
 - Microsoft USB-C Travel Adapter Hub
 - Surface Dock
-- Surface Dock 2
+- Surface Dock 2. If using Surface Dock 2, skip this procedure and go to [Wake on LAN for Surface Dock 2](wake-on-lan-surface-dock2.md). 
+
 
 ## Wake devices from Hibernation or Shut-down power states
 
