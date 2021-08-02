@@ -38,7 +38,7 @@ Restricting Surface Dock 2 to authorized persons signed into a corporate host de
 
 This section provides step-by-step guidance for the following tasks:
 
-1. Install [**Surface UEFI Configurator**](https://www.microsoft.com/download/details.aspx?id=46703).
+1. Install **Surface UEFI Configurator** from [Surface Tools for IT](https://www.microsoft.com/download/details.aspx?id=46703).
 1. Create or obtain public key certificates.
 1. Create an .MSI configuration package.
    1. Add your certificates.
@@ -107,7 +107,7 @@ When you have obtained or created the certificates, you’re ready to build the 
 
    ![Select Surface Dock](images/secure-surface-dock-ports-semm-2.png)
 
-1. On the certificate page, enter the appropriate **certificates**.
+1. Enter the appropriate **certificates**  on the certificate page. (Demo certs are available from [Surface Tools for IT](https://www.microsoft.com/download/details.aspx?id=46703): Download **SEMM_PowerShell.zip** and refer to **CreateSurfaceDock2Certificates.ps1**. Make sure you install SurfaceDock2_WmiInstanceProvider before running the demo scripts)
 
    ![enter the appropriate certificates](images/secure-surface-dock-ports-semm-3.png)
 
@@ -120,7 +120,7 @@ When you have obtained or created the certificates, you’re ready to build the 
 
    ![Choose which components you want to activate or deactivate.](images/secure-surface-dock-ports-semm-4.png)
 
-   - Authenticated user refers to a Surface Device that has the appropriate certificates installed, as configured in the .MSI configuration package that you applied to target devices. It applies to any user authenticated user who signs into the device. 
+   - Authenticated user refers to a Surface Device that has the appropriate certificates installed, as configured in the .MSI configuration package that you applied to target devices. It applies to any user authenticated user who signs into the device.
    - Unauthenticated user refers to any other device.
    - Select **Reset** to create a special “Reset” package that will remove any previous configuration package that the dock had accepted.
 
