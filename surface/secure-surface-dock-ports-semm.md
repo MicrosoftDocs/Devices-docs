@@ -12,7 +12,7 @@ ms.pagetype: surfacehub
 author: v-miegge
 ms.author: jesko
 ms.topic: article
-ms.date: 06/08/2020
+ms.date: 08/02/2021
 ms.localizationpriority: medium
 ms.audience: itpro
 ---
@@ -107,7 +107,7 @@ When you have obtained or created the certificates, you’re ready to build the 
 
    ![Select Surface Dock](images/secure-surface-dock-ports-semm-2.png)
 
-1. Enter the appropriate **certificates**  on the certificate page. (Demo certs are available from [Surface Tools for IT](https://www.microsoft.com/download/details.aspx?id=46703): Download **SEMM_PowerShell.zip** and refer to **CreateSurfaceDock2Certificates.ps1**. Make sure you install SurfaceDock2_WmiInstanceProvider before running the demo scripts)
+1. Enter the appropriate **certificates**  on the certificate page. (Demo certs are available from [Surface Tools for IT](https://www.microsoft.com/download/details.aspx?id=46703): Download **SEMM_PowerShell.zip** and refer to **CreateSurfaceDock2Certificates.ps1**. (Make sure you install **SurfaceDock2_WmiInstanceProvider** before running the demo scripts.)
 
    ![enter the appropriate certificates](images/secure-surface-dock-ports-semm-3.png)
 
