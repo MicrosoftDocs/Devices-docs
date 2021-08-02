@@ -9,7 +9,7 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 04/19/2021
+ms.date: 08/02/2021
 ms.reviewer: 
 manager: laurawi
 ms.localizationpriority: medium
@@ -35,7 +35,7 @@ System Model and System SKU are variables that are stored in the System Manageme
 | Surface Book 2 15"                                        | Surface Book 2   | Surface_Book_1793                |
 | Surface Book 3 13"                                        | Surface Book 3   | Surface_Book_3_1900                |
 | Surface Book 3 15"                                        | Surface Book 3   | Surface_Book_3_1899
-| Surface Go LTE Commercial | System Go | Surface_Go_1825_Commercial |
+| Surface Go LTE Commercial | Surface Go | Surface_Go_1825_Commercial |
 | Surface Go Consumer                                          | Surface Go       | Surface_Go_1824_Consumer         |
 | Surface Go Commercial                                        | Surface Go       | Surface_Go_1824_Commercial       |
 | Surface Go 2                                                 | Surface Go 2     | Surface_Go_2_1927                |
@@ -51,16 +51,19 @@ System Model and System SKU are variables that are stored in the System Manageme
 | Surface Pro X with SQ2 processor                | Surface Pro X    | Surface_Pro_X_H_1876        |
 | Surface Laptop 3 13" Intel | Surface Laptop 3 | Surface_Laptop_3_1867:1868 |
 | Surface Laptop 3 15" Intel | Surface Laptop 3 | Surface_Laptop_3_1872      |
-| Surface Laptop 3 15" AMD   | Surface Laptop 3 | Surface_Laptop_3_1873      | 
-| Surface Laptop Go  | Surface Laptop Go | Surface_Laptop_Go_1943      | 
+| Surface Laptop 3 15" AMD   | Surface Laptop 3 | Surface_Laptop_3_1873      |
+| Surface Laptop Go  | Surface Laptop Go | Surface_Laptop_Go_1943      |
 | Surface Laptop 4 13" Intel | Surface Laptop 4 | Surface_Laptop_4_1950:1951 |
 | Surface Laptop 4 15" Intel | Surface Laptop 4 | Surface_Laptop_4_1978:1979     |
-| Surface Laptop 4 15" AMD   | Surface Laptop 4 | Surface_Laptop_4_1952:1953     | 
-| Surface Laptop 4 13" AMD   | Surface Laptop 4 | Surface_Laptop_4_1958:1959    | 
-| Surface Hub 2S 50"  | Surface Hub 2S | Surface Hub 2S   | 
-| Surface Hub 2S 85"  | Surface Hub 2S | Surface Hub 2S 85   | 
+| Surface Laptop 4 15" AMD   | Surface Laptop 4 | Surface_Laptop_4_1952:1953     |
+| Surface Laptop 4 13" AMD   | Surface Laptop 4 | Surface_Laptop_4_1958:1959    |
+| Surface Hub 2S 50"  | Surface Hub 2S | Surface Hub 2S   |
+| Surface Hub 2S 85"  | Surface Hub 2S | Surface Hub 2S 85   |
+| Surface Studio | Surface Studio | Surface_Studio   |
+| Surface Studio 2 | Surface Studio 2 | Surface_Studio_2_1707_Commercial   |
+|
 
-## Examples 
+## Examples
 
 **Retrieving the SKU by using PowerShell**  
 Use the following PowerShell command to pull the System SKU information:
@@ -81,9 +84,9 @@ You can use the System SKU information in the Microsoft Deployment Toolkit (MDT)
  ``` powershell  
     - WMI Namespace – Root\WMI
     - WQL Query – SELECT * FROM MS_SystemInformation WHERE SystemSKU = "Surface_Pro_1796"
- ``` 
+ ```
 
 ## Learn more
 
-- [WMI reference](https://docs.microsoft.com/windows/win32/wmisdk/wmi-reference)
+- [WMI reference](/windows/win32/wmisdk/wmi-reference)
 - [Surface Registration Support for Windows Autopilot](surface-autopilot-registration-support.md)
