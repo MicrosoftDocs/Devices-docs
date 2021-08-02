@@ -28,7 +28,7 @@ Surface Enterprise Management Mode (SEMM) enables IT admins to secure and manage
 Managing Surface Dock 2 with SEMM is available for docks connected to Surface Book 3, Surface Laptop 3, Surface Laptop Go, Surface Pro 7, and Surface Pro X. These compatible Surface devices are commonly referred to as **host devices**. A package is applied to host devices based on if a host device is **authenticated** or **unauthenticated**. Configured settings reside in the UEFI layer on host devices enabling you — the IT admin — to manage Surface Dock 2 just like any other built-in peripheral such as the camera.
 
 >[!NOTE]
->You can manage Surface Dock 2 ports only when the dock is connected to one of the following compatible devices:  Surface Book 3, Surface Laptop 3, and Surface Pro 7. Any device that doesn't receive the UEFI Authenticated policy settings is inherently an unauthenticated device.
+>You can manage Surface Dock 2 ports only when the dock is connected to one of the following compatible devices:  Surface Book 3, Surface Laptop 4, Surface Laptop 3, Surface Pro 7+, and Surface Pro 7. Any device that doesn't receive the UEFI Authenticated policy settings is inherently an unauthenticated device.
 
 ### Scenarios
 
@@ -107,14 +107,14 @@ When you have obtained or created the certificates, you’re ready to build the 
 
    ![Select Surface Dock](images/secure-surface-dock-ports-semm-2.png)
 
-1. Enter the appropriate **certificates**  on the certificate page. (Demo certs are available from [Surface Tools for IT](https://www.microsoft.com/download/details.aspx?id=46703): Download **SEMM_PowerShell.zip** and refer to **CreateSurfaceDock2Certificates.ps1**. (Make sure you install **SurfaceDock2_WmiInstanceProvider** before running the demo scripts.)
+1. Enter the appropriate **certificates**  on the certificate page. Demo certificates are available from [Surface Tools for IT](https://www.microsoft.com/download/details.aspx?id=46703): Download **SEMM_PowerShell.zip** and refer to **CreateSurfaceDock2Certificates.ps1**. Make sure you install **SurfaceDock2_WmiInstanceProvider** before you run the demo scripts.
 
    ![enter the appropriate certificates](images/secure-surface-dock-ports-semm-3.png)
 
 1. Add appropriate dock RNs to the list.
 
-   >[!NOTE]
-   >When creating a configuration package for multiple Surface Dock 2 devices, instead of entering each RN manually, you can use a .csv file that contains a list of RNs.
+   >[!TIP]
+   >When you create a configuration package for multiple Surface Dock 2 devices, instead of entering each RN manually, you can use a .csv file that contains a list of RNs.
 
 1. Specify your policy settings for USB data, Ethernet, and Audio ports. UEFI Configurator lets you configure policy settings for authenticated users (Authenticated Policy) and unauthenticated users (Unauthenticated Policy). The following figure shows port access turned on for authenticated users and turned off for unauthenticated users.
 
@@ -155,7 +155,7 @@ Objective: Configure policy settings to allow port access by authenticated users
 
    ![Surface app showing ports turned off for unauthenticated users ](images/secure-surface-dock-ports-semm-6.png)
 
->[!NOTE]
+>[!TIP]
 >If you want to keep ownership of the device, but allow all users full access, you can make a new package with everything turned on. If you wish to completely remove the restrictions and ownership of the device (make it unmanaged), select **Reset** in Surface UEFI Configurator to create a package to apply to target devices.
 
 Congratulations. You have successfully managed Surface Dock 2 ports on targeted host devices.
