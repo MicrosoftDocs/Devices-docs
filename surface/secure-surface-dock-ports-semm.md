@@ -53,7 +53,7 @@ This section provides step-by-step guidance for the following tasks:
 
 Install SEMM by running **SurfaceUEFI_Configurator_v2.71.139.0.msi**. This is a standalone installer and contains everything you need to create and distribute configuration packages for Surface Dock 2.
 
-- Download **Surface UEFI Configurator** from [Surface Tools for IT](https://www.microsoft.com/en-us/download/details.aspx?id=46703).
+- Download **Surface UEFI Configurator** from [Surface Tools for IT](https://www.microsoft.com/download/details.aspx?id=46703).
 
 ## Create public key certificates
 
@@ -61,9 +61,9 @@ This section provides specifications for creating the certificates needed to man
 
 ### Prerequisites
 
-This article assumes that you either obtain certificates from a third-party provider or you already have expertise in PKI certificate services and know how to create your own.  You should be familiar with and follow the general recommendations for creating certificates as described in [Surface Enterprise Management Mode (SEMM)](https://docs.microsoft.com/surface/surface-enterprise-management-mode) documentation, with one exception. The certificates documented on this page require expiration terms of 30 years for the **Dock Certificate Authority**, and 20 years for the **Host Authentication Certificate**.
+This article assumes that you either obtain certificates from a third-party provider or you already have expertise in PKI certificate services and know how to create your own.  You should be familiar with and follow the general recommendations for creating certificates as described in [Surface Enterprise Management Mode (SEMM)](surface-enterprise-management-mode.md) documentation, with one exception. The certificates documented on this page require expiration terms of 30 years for the **Dock Certificate Authority**, and 20 years for the **Host Authentication Certificate**.
 
-For more information, see [Certificate Services Architecture](https://docs.microsoft.com/windows/win32/seccrypto/certificate-services-architecture) documentation and review the appropriate chapters in [Windows Server 2019 Inside Out](https://www.microsoftpressstore.com/store/windows-server-2019-inside-out-9780135492277), or [Windows Server 2008 PKI and Certificate Security](https://www.microsoftpressstore.com/store/windows-server-2008-pki-and-certificate-security-9780735640788) available from Microsoft Press.
+For more information, see [Certificate Services Architecture](/windows/win32/seccrypto/certificate-services-architecture) documentation and review the appropriate chapters in [Windows Server 2019 Inside Out](https://www.microsoftpressstore.com/store/windows-server-2019-inside-out-9780135492277), or [Windows Server 2008 PKI and Certificate Security](https://www.microsoftpressstore.com/store/windows-server-2008-pki-and-certificate-security-9780735640788) available from Microsoft Press.
 
 ### Root and host certificate requirements
 
@@ -162,7 +162,7 @@ Congratulations. You have successfully managed Surface Dock 2 ports on targeted 
 
 ## Learn more
 
-- [Surface Enterprise Management Mode (SEMM) documentation](https://docs.microsoft.com/surface/surface-enterprise-management-mode)
-- [Certificate Services Architecture](https://docs.microsoft.com/windows/win32/seccrypto/certificate-services-architecture)
+- [Surface Enterprise Management Mode (SEMM) documentation](surface-enterprise-management-mode.md)
+- [Certificate Services Architecture](/windows/win32/seccrypto/certificate-services-architecture)
 - [Windows Server 2019 Inside Out](https://www.microsoftpressstore.com/store/windows-server-2019-inside-out-9780135492277)
 - [Windows Server 2008 PKI and Certificate Security](https://www.microsoftpressstore.com/store/windows-server-2008-pki-and-certificate-security-9780735640788)
