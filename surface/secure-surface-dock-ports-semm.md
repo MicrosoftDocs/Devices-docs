@@ -21,7 +21,7 @@ ms.audience: itpro
 
 ## Introduction
 
-Surface Enterprise Management Mode (SEMM) enables IT admins to secure and manage Surface Dock 2 ports by configuring UEFI settings in a Windows installer configuration package (.MSI file) deployed to compatible Surface devices across a corporate environment.
+Surface Enterprise Management Mode (SEMM) enables IT admins to secure and manage Surface Dock 2 ports by configuring UEFI settings in a Windows Installer configuration package (.msi file) deployed to compatible Surface devices across a corporate environment.
 
 ### Supported devices
 
@@ -40,7 +40,7 @@ This section provides step-by-step guidance for the following tasks:
 
 1. Install **Surface UEFI Configurator** from [Surface Tools for IT](https://www.microsoft.com/download/details.aspx?id=46703).
 1. Create or obtain public key certificates.
-1. Create an .MSI configuration package.
+1. Create a .msi configuration package.
    1. Add your certificates.
    1. Enter the 16-digit RN number for your Surface Dock 2 devices.
    1. Configure UEFI settings.
@@ -51,7 +51,7 @@ This section provides step-by-step guidance for the following tasks:
 
 ### Install SEMM and Surface UEFI Configurator
 
-Install SEMM by running **SurfaceUEFI_Configurator_v2.71.139.0.msi**. This is a standalone installer and contains everything you need to create and distribute configuration packages for Surface Dock 2.
+Install SEMM by running **SurfaceUEFI_Configurator_v2.83.139.0.msi.** This is a standalone installer and contains everything you need to create and distribute configuration packages for Surface Dock 2.
 
 - Download **Surface UEFI Configurator** from [Surface Tools for IT](https://www.microsoft.com/download/details.aspx?id=46703).
 
@@ -97,7 +97,7 @@ Each host device must have the doc CA and two certificates as shown in Table 2.
 
 ### Create configuration package
 
-When you have obtained or created the certificates, you’re ready to build the MSI configuration package that will be applied to target Surface devices.
+When you have obtained or created the certificates, you’re ready to build the .msi configuration package that will be applied to target Surface devices.
 
 1. Run Surface **UEFI Configurator**.
 
@@ -120,7 +120,7 @@ When you have obtained or created the certificates, you’re ready to build the 
 
    ![Choose which components you want to activate or deactivate.](images/secure-surface-dock-ports-semm-4.png)
 
-   - Authenticated user refers to a Surface Device that has the appropriate certificates installed, as configured in the .MSI configuration package that you applied to target devices. It applies to any user authenticated user who signs into the device.
+   - Authenticated user refers to a Surface Device that has the appropriate certificates installed, as configured in the .msi configuration package that you applied to target devices. It applies to any user authenticated user who signs into the device.
    - Unauthenticated user refers to any other device.
    - Select **Reset** to create a special “Reset” package that will remove any previous configuration package that the dock had accepted.
 
@@ -128,7 +128,7 @@ When you have obtained or created the certificates, you’re ready to build the 
 
 ### Apply the configuration package to a Surface Dock 2
 
-1. Take the MSI file that the Surface UEFI Configurator generated and install it on a Surface host device. Compatible host devices are Surface Book 3, Surface Laptop 3, or Surface Pro 7.
+1. Take the .msi file that the Surface UEFI Configurator generated and install it on a Surface host device. Compatible host devices are Surface Book 3, Surface Laptop 3, or Surface Pro 7.
 1. Connect the host device to the Surface Dock 2. When you connect the dock UEFI policy settings are applied.
 
 ## Verify managed state using the Surface App
