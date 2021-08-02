@@ -9,7 +9,7 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 04/19/2021
+ms.date: 08/02/2021
 ms.reviewer: 
 manager: laurawi
 ms.localizationpriority: medium
@@ -59,6 +59,9 @@ System Model and System SKU are variables that are stored in the System Manageme
 | Surface Laptop 4 13" AMD   | Surface Laptop 4 | Surface_Laptop_4_1958:1959    |
 | Surface Hub 2S 50"  | Surface Hub 2S | Surface Hub 2S   |
 | Surface Hub 2S 85"  | Surface Hub 2S | Surface Hub 2S 85   |
+| Surface Studio | Surface Studio | Surface_Studio   |
+| Surface Studio 2 | Surface Studio 2 | Surface_Studio_2_1707_Commercial   |
+|
 
 ## Examples
 
