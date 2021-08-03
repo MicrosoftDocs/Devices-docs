@@ -39,7 +39,7 @@ This article provides a summary of the scenarios where a deployment might requir
 
 When a wireless network adapter is present during OOBE, the **Join a wireless network** page is displayed, which prompts a user to connect to a wireless network. This page is not automatically hidden by deployment technologies, including MDT 2013, and therefore will be displayed even when a deployment is configured for complete automation.
 
-To ensure that an automated deployment is not stopped by this page, the page must be hidden by configuring an additional setting in the answer file, **HideWirelessSetupInOOBE**. You can find additional information about the **HideWirelessSetupInOOBE** setting in [Unattended Windows Setup Reference](/previous-versions/windows/it-pro/windows-8.1-and-8/ff716213(v=win.10)).
+To ensure that an automated deployment is not stopped by this page, the page must be hidden by configuring an additional setting in the answer file, **HideWirelessSetupInOOBE**. You can find additional information about the **HideWirelessSetupInOOBE** setting in [Unattended Windows Setup Reference](/windows-hardware/customize/desktop/unattend/microsoft-windows-shell-setup-oobe-hidewirelesssetupinoobe).
 
 ## Scenario 2: Surface Pen pairing in OOBE
 

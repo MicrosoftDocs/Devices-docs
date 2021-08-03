@@ -30,7 +30,7 @@ For the best experience, deploy Surface Pro X using Windows Autopilot either wit
 - [Windows Autopilot and Surface devices](windows-autopilot-and-surface-devices.md)
 - [Overview of Windows Autopilot](/windows/deployment/windows-autopilot/windows-autopilot)
 
-Autopilot deployment has several advantages: It allows you to use the factory provisioned operating system, streamlined for zero-touch deployment, to include pre-installation of Office Pro Plus.
+Autopilot deployment has several advantages: It allows you to use the factory provisioned operating system, streamlined for zero-touch deployment, to include pre-installation of Microsoft 365 Apps for enterprise (aka Office Pro Plus).
 
 Organizations already using modern management, security, and productivity solutions are well positioned to take advantage of the unique performance features in Surface Pro X. Customers using modernized line of business apps, Microsoft store (UWP) apps, or remote desktop solutions also stand to benefit.
 
