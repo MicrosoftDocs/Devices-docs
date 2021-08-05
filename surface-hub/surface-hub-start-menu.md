@@ -26,14 +26,14 @@ The customized Start menu is defined in a Start layout XML file. You have two op
 
     -or-
 
-- Configure the desired Start menu on a desktop (pinning only apps that are available on Surface Hub), and then [export the layout](https://docs.microsoft.com/windows/configuration/customize-and-export-start-layout#export-the-start-layout).
+- Configure the desired Start menu on a desktop (pinning only apps that are available on Surface Hub), and then [export the layout](/windows/configuration/customize-and-export-start-layout#export-the-start-layout).
 
 >[!TIP]
 >To add a tile with a web link to your desktop start menu, go to the link in Microsoft Edge, select `...` in the top right corner, and select **Pin this page to Start**. See [a Start layout that includes a Microsoft Edge link](#edge) for an example of how links will appear in the XML.
 
-To edit the default XML or the exported layout, familiarize yourself with the [Start layout XML](https://docs.microsoft.com/windows/configuration/start-layout-xml-desktop). There are a few [differences between Start layout on a deskop and a Surface Hub.](#differences)
+To edit the default XML or the exported layout, familiarize yourself with the [Start layout XML](/windows/configuration/start-layout-xml-desktop). There are a few [differences between Start layout on a deskop and a Surface Hub.](#differences)
 
-When you have your Start menu defined in a Start layout XML, [create an MDM policy to apply the layout.](https://docs.microsoft.com/windows/configuration/customize-windows-10-start-screens-by-using-mobile-device-management#a-href-idbkmk-domaingpodeploymentacreate-a-policy-for-your-customized-start-layout)
+When you have your Start menu defined in a Start layout XML, [create an MDM policy to apply the layout.](/windows/configuration/customize-windows-10-start-screens-by-using-mobile-device-management#a-href-idbkmk-domaingpodeploymentacreate-a-policy-for-your-customized-start-layout)
 
 <span id="differences" />
 
@@ -41,7 +41,7 @@ When you have your Start menu defined in a Start layout XML, [create an MDM poli
 
 There are a few key differences between Start menu customization for Surface Hub and a Windows 10 desktop:
 
-- You cannot use **DesktopApplicationTile** (https://docs.microsoft.com/windows/configuration/start-layout-xml-desktop#startdesktopapplicationtile) in your Start layout XML because Windows desktop applications (Win32) are not supported on Surface Hub.
+- You cannot use **[DesktopApplicationTile](/windows/configuration/start-layout-xml-desktop#startdesktopapplicationtile)** in your Start layout XML because Windows desktop applications (Win32) are not supported on Surface Hub.
 - You cannot use the Start layout XML to configure the taskbar or the Welcome screen for Surface Hub.  
 - The Start layout policy should be assigned only to devices, not users.
 - The OMA-URI setting to use in the policy is `./Device/Vendor/MSFT/Policy/Config/Start/StartLayout`
@@ -139,7 +139,7 @@ This example shows a link to a website and a link to a .pdf file. The secondary 
           <start:DesktopApplicationTile
               DesktopApplicationID="MSEdge"
               Size="2x2"
-              Row="0"
+              Row="2"
               Column="0"/>
     <start:Tile
               AppUserModelID="microsoft.microsoftskydrive_8wekyb3d8bbwe!App"
