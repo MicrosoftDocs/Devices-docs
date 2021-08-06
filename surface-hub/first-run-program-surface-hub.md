@@ -91,7 +91,7 @@ You can only set up device admins during first time Setup. For more information,
 2. Select the Active Directory Security Group containing members allowed to log on to the Settings app on Surface Hub 2S.
 3. Select **Finish**. The device will restart.
 
-### Microsoft Azure Active Directory
+### Azure Active Directory
 
 1. If you intend to manage surface hub from the cloud using Microsoft Intune or an MDM provider, select Microsoft Azure Active Directory.
 2. Select Next and sign in with a work or school account. If redirected, authenticate using your organization’s sign-in page and provide additional logon information if requested. Otherwise, enter your password and select **Next.**
@@ -104,7 +104,7 @@ You can only set up device admins during first time Setup. For more information,
 - Enter a username and a memorable password for your local admin. If you forget the local admin password you will need to [recover your device](surface-hub-2s-recover-reset.md) and repeat the setup process.  
 
 > [!div class="mx-imgBorder"]
-> ![Enter a memorable password for local admin account](images/hub-local-admin.png)
+> ![Enter a memorable password for local admin account](images/hub-setup-local-admin.png)
 
 ### Choose privacy settings for your device
 
