@@ -26,31 +26,31 @@ When you first start Surface Hub, the device automatically enters first time Set
 1. By default, Cortana is enabled to guide you through the process. To turn off Cortana assistance, select the microphone icon.
 
 > [!div class="mx-imgBorder"]
-> ![Cortana is enabled to guide you through the process](images/hub-setup-cortana.png)
+    > ![Cortana is enabled to guide you through the process](images/hub-setup-cortana.png)
 
-2. **Select your region.** Confirm the auto-detected region and select **Yes**.
+1. **Select your region.** Confirm the auto-detected region and select **Yes**.
 
 > [!div class="mx-imgBorder"]
-> ![Select your region](images/hub-setup-region.png)
+    > ![Select your region](images/hub-setup-region.png)
 
-3. **Confirm keyboard layout.** Select **Yes**.
+1. **Confirm keyboard layout.** Select **Yes**.
 
-4. To add a second keyboard, select **Add layout**. Otherwise, select **Skip**.
+1. To add a second keyboard, select **Add layout**. Otherwise, select **Skip**.
 
 > [!div class="mx-imgBorder"]
 > ![Add a second keyboard](images/hub-setup-2keyboard.png)
 
- 5. **Connect to a network.** If you have already attached an Ethernet cable, Surface Hub automatically connects to your network. Alternatively, you can connect to a wireless network. **Note:** You cannot connect to a wireless network in hotspots (captive portals) that redirect sign-in requests to a provider's website. Select **Next**.
+ 1. **Connect to a network.** If you have already attached an Ethernet cable, Surface Hub automatically connects to your network. Alternatively, you can connect to a wireless network. **Note:** You cannot connect to a wireless network in hotspots (captive portals) that redirect sign-in requests to a provider's website. Select **Next**.
 
 > [!div class="mx-imgBorder"]
 > ![Connect to a network](images/hub-setup-network.png)
 
-6. **Accept Windows 10 License Agreement.** Select **Accept**.
+1. **Accept Windows 10 License Agreement.** Select **Accept**.
 
 > [!div class="mx-imgBorder"]
 > ![Accept Windows 10 License Agreement](images/hub-setup-license.png)
 
-7. Enter Device account info using either a UPN address user@contoso.com or a down-level domain address (contoso\user). Use the format that matches your environment, and enter the password.
+1. Enter Device account info using either a UPN address user@contoso.com or a down-level domain address (contoso\user). Use the format that matches your environment, and enter the password.
 
 > [!div class="mx-imgBorder"]
 > ![Enter Device account info](images/hub-setup-device-account.png)
@@ -61,14 +61,14 @@ When you first start Surface Hub, the device automatically enters first time Set
 | Device account is hosted only on-premises                | CONTOSO\user                       |
 | Device account is hosted online and on-premises (hybrid) | CONTOSO\user                       |
 
-8. Enter your password and select **Next.**
+1. Enter your password and select **Next.**
 
-9. Surface Hub automatically detects Exchange server and SIP address info from the domain entered in the previous step. Or if needed, provide your Exchange server address and select **Next**.
+1. Surface Hub automatically detects Exchange server and SIP address info from the domain entered in the previous step. Or if needed, provide your Exchange server address and select **Next**.
 
 > [!div class="mx-imgBorder"]
 > ![Exchange server and SIP address](images/hub-setup-exchange.png)
 
-10. **Name this device.** Enter a name for your device or use the suggested one. **Select Next**.
+1. **Name this device.** Enter a name for your device or use the suggested one. **Select Next**.
 
 > [!div class="mx-imgBorder"]
 > ![Name this device](images/hub-setup-name.png)
