@@ -50,7 +50,7 @@ When you first start Surface Hub, the device automatically enters first time Set
 > [!div class="mx-imgBorder"]
 > ![Accept Windows 10 License Agreement](images/hub-setup-license.png)
 
-7. Enter Device account info using either a UPN address (user@contoso.com) or a down-level domain address (contoso\user). Use the format that matches your environment and enter the password.
+7. Enter Device account info using either a UPN address (user@contoso.com) or a down-level domain address (CONTOSO\user). Use the format that matches your environment and enter the password.
 
 | Environment                                              | Required format for device account |
 | -------------------------------------------------------- | ---------------------------------- |
@@ -104,7 +104,7 @@ You can only set up device admins during first time Setup. For more information,
 - Enter a username and a memorable password for your local admin. (If you forget the local admin password you will need to [recover your device](surface-hub-2s-recover-reset.md) and repeat the setup process.)  
 
 > [!div class="mx-imgBorder"]
-> ![Enter a memorable password for local admin account](images/hub-local-admin.png)
+> ![Enter a memorable password for local admin account](images/hub-setup-local-admin.png)
 
 ### Choose privacy settings for your device
 
