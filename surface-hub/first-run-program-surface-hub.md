@@ -34,6 +34,9 @@ When you first start Surface Hub, the device automatically enters first time Set
 > ![Select your region](images/hub-setup-region.png)
 
 3. **Confirm keyboard layout.** Select **Yes**.
+> [!div class="mx-imgBorder"]
+> ![Confirm keyboard layout](images/hub-setup-keyboard.png)
+
 
 4. To add a second keyboard, select **Add layout**. Otherwise, select **Skip**.
 
