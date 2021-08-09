@@ -63,7 +63,7 @@ You will also find detailed information about the firmware of your Surface devic
 
 - Touch Firmware
 
-![System information and firmware version information](images/manage-surface-uefi-figure-1.png "System information and firmware version information")
+:::image type="content" alt-text="System information and firmware version information." source="images/manage-surface-uefi-figure-1.png":::
 
 *Figure 1. System information and firmware version information*
 
@@ -71,7 +71,7 @@ You can find up-to-date information about the latest firmware version for your S
 
 ## UEFI Security page
 
-![Configure Surface UEFI security settings](images/manage-surface-uefi-fig4.png "Configure Surface UEFI security settings")
+:::image type="content" alt-text="Configure Surface UEFI security settings." source="images/manage-surface-uefi-fig4.png":::
 
 *Figure 2. Configure Surface UEFI security settings*
 
@@ -123,7 +123,7 @@ The Devices page allows you to  enable or disable specific devices and component
 
 Each device is listed with a slider button that you can move to **On** (enabled) or **Off** (disabled) position, as shown in Figure 6.
 
-![Enable and disable specific devices](images/manage-surface-uefi-fig5a.png "Enable and disable specific devices")
+:::image type="content" alt-text="Enable and disable specific devices." source="images/manage-surface-uefi-fig5a.png":::
 
 *Figure 6. Enable and disable specific devices*
 
@@ -143,7 +143,7 @@ You can boot from a specific device immediately, or you can swipe left on that d
 
 For the specified boot order to take effect, you must set the **Enable Alternate Boot Sequence** option to **On**, as shown in Figure 7.
 
-![Configure the boot order for your Surface device](images/manage-surface-uefi-fig6.png "Configure the boot order for your Surface device")
+:::image type="content" alt-text="Configure the boot order for your Surface device." source="images/manage-surface-uefi-fig6.png":::
 
 *Figure 7. Configure the boot order for your Surface device*
 
@@ -153,7 +153,8 @@ You can also turn on and off IPv6 support for PXE with the **Enable IPv6 for PXE
 
 The Management page allows you to manage use of Zero Touch UEFI Management and other features on eligible devices including Surface Pro 7, Surface Pro X, and Surface Laptop 3.  
 
-![Manage access to Zero Touch UEFI Management and other features](images/manage-surface-uefi-fig7a.png "Manage access to Zero Touch UEFI Management and other features")
+:::image type="content" alt-text="Manage access to Zero Touch UEFI Management and other features." source="images/manage-surface-uefi-fig7a.png":::
+
 *Figure 8. Manage access to Zero Touch UEFI Management and other features*
 
 Zero Touch UEFI Management lets you remotely manage UEFI settings  by using a device profile within Intune called Device Firmware Configuration Interface (DFCI). If you do not configure this setting, the ability to manage eligible devices with DFCI is set to **Ready**. To prevent DFCI, select **Opt-Out**.
@@ -165,7 +166,7 @@ Zero Touch UEFI Management lets you remotely manage UEFI settings  by using a de
 
 Use the **Restart Now** button on the **Exit** page to exit UEFI settings, as shown in Figure 9.
 
-![Exit Surface UEFI and restart the device](images/manage-surface-uefi-fig7.png "Exit Surface UEFI and restart the device")
+:::image type="content" alt-text="Exit Surface UEFI and restart the device." source="images/manage-surface-uefi-fig7.png":::
 
 *Figure 9. Click Restart Now to exit Surface UEFI and restart the device*
 
