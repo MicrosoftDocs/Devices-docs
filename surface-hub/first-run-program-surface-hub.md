@@ -27,29 +27,20 @@ When you first start Surface Hub, the device automatically enters first time Set
 :::image type="content" source="images/hub-setup-cortana.png" alt-text="Cortana is enabled to guide you through the process":::
 
 2. **Select your region.** Confirm the auto-detected region and select **Yes**.
-
-> [!div class="mx-imgBorder"]
-> ![Select your region](images/hub-setup-region.png)
+:::image type="content" source="images/hub-setup-region.png" alt-text="Select your region":::
 
 3. **Confirm keyboard layout.** Select **Yes**.
-> [!div class="mx-imgBorder"]
-> ![Confirm keyboard layout](images/hub-setup-keyboard.png)
-
+:::image type="content" source="images/hub-setup-keyboard.png" alt-text="Confirm keyboard layout":::
 
 4. To add a second keyboard, select **Add layout**. Otherwise, select **Skip**.
+:::image type="content" source="images/hub-setup-2keyboard.png" alt-text="Add a second keyboard":::
 
-> [!div class="mx-imgBorder"]
-> ![Add a second keyboard](images/hub-setup-2keyboard.png)
+5. **Connect to a network.** If you have already attached an Ethernet cable, Surface Hub automatically connects to your network. Alternatively, you can connect to a wireless network. **Note:** You cannot connect to a wireless network in hotspots (captive portals) that redirect sign-in requests to a provider's website. Select **Next**.
 
- 5. **Connect to a network.** If you have already attached an Ethernet cable, Surface Hub automatically connects to your network. Alternatively, you can connect to a wireless network. **Note:** You cannot connect to a wireless network in hotspots (captive portals) that redirect sign-in requests to a provider's website. Select **Next**.
-
-> [!div class="mx-imgBorder"]
-> ![Connect to a network](images/hub-setup-network.png)
+:::image type="content" source="images/hub-setup-network.png" alt-text="Connect to a network":::
 
 6. **Accept Windows 10 License Agreement.** Select **Accept**.
-
-> [!div class="mx-imgBorder"]
-> ![Accept Windows 10 License Agreement](images/hub-setup-license.png)
+:::image type="content" source="images/hub-setup-license.png" alt-text="Accept Windows 10 License Agreement":::
 
 7. Enter Device account info using either a UPN address (user@contoso.com) or a down-level domain address (CONTOSO\user). Use the format that matches your environment and enter the password.
 
@@ -59,20 +50,15 @@ When you first start Surface Hub, the device automatically enters first time Set
 | Device account is hosted only on-premises                | CONTOSO\user                       |
 | Device account is hosted online and on-premises (hybrid) | CONTOSO\user                       |
 
-> [!div class="mx-imgBorder"]
-> ![Enter Device account info](images/hub-setup-device-account.png)
+:::image type="content" source="images/hub-setup-device-account.png" alt-text="Enter Device account info":::
 
 8. Enter your password and select **Next.**
 
 9. Surface Hub automatically detects Exchange server and SIP address info from the domain entered in the previous step. Or if needed, provide your Exchange server address and select **Next**.
-
-> [!div class="mx-imgBorder"]
-> ![Exchange server and SIP address](images/hub-setup-exchange.png)
+:::image type="content" source="images/hub-setup-exchange.png" alt-text="Exchange server and SIP address":::
 
 10. **Name this device.** Enter a name for your device or use the suggested one. **Select Next**.
-
-> [!div class="mx-imgBorder"]
-> ![Name this device](images/hub-setup-name.png)
+:::image type="content" source="images/hub-setup-name.png" alt-text="Name this device":::
 
 - The **Friendly name** is visible on the bottom left corner of Surface Hub 2S and is shown when projecting to the device.
 - The **Device name** identifies the device when affiliated with Active Directory or Azure Active Directory, and when enrolling the device with Intune.
@@ -82,9 +68,7 @@ When you first start Surface Hub, the device automatically enters first time Set
 You can only set up device admins during first time Setup. For more information, refer to [Surface Hub 2S device affiliation](/surface-hub/prepare-your-environment-for-surface-hub#device-affiliation).
 
 1. **Choose type of admin account.** Select one of the following options: Active Directory Domain Services, Azure Active Directory, or Local admin.
-
-> [!div class="mx-imgBorder"]
-> ![Choose type of admin account](images/hub-setup-join.png)
+:::image type="content" source="images/hub-setup-join.png" alt-text="Choose type of admin account":::
 
 ### Active Directory Domain Services
 
@@ -96,23 +80,17 @@ You can only set up device admins during first time Setup. For more information,
 
 1. If you intend to manage Surface Hub from the cloud using Microsoft Intune or an MDM provider, select **Microsoft Azure Active Directory**.
 2. Select Next and sign in with a work or school account. If redirected, authenticate using your organization’s sign-in page and provide additional credentials if requested. Otherwise, enter your password and select **Next.**
-
-> [!div class="mx-imgBorder"]
-> ![Sign in with work or school account](images/hub-setup-signin.png)
+:::image type="content" source="images/hub-setup-signin.png" alt-text="Sign in with work or school account":::
 
 ### Local Administrator account
 
 - Enter a username and a memorable password for your local admin. (If you forget the local admin password you will need to [recover your device](surface-hub-2s-recover-reset.md) and repeat the setup process.)  
-
-> [!div class="mx-imgBorder"]
-> ![Enter a memorable password for local admin account](images/hub-setup-local-admin.png)
+:::image type="content" source="images/hub-setup-local-admin.png" alt-text="Enter a memorable password for local admin account":::
 
 ### Choose privacy settings for your device
 
 - Select from the available privacy settings and select **Accept.**
-
-> [!div class="mx-imgBorder"]
-> ![Choose privacy settings](images/hub-setup-privacy.png)
+:::image type="content" source="images/hub-setup-privacy.png" alt-text="Choose privacy settings":::
 
 ### Use provisioning packages
 
