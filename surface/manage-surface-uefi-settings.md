@@ -49,7 +49,7 @@ The PC information page includes detailed information about your Surface device:
 - **UUID** – This Universally Unique Identification number is specific to your device and is used to identify the device during deployment or management.
 
 - **Serial Number** – This number is used to identify this specific Surface device for asset tagging and support scenarios.
-- **Asset Tag** – The asset tag is assigned to the Surface device with the [Asset Tag Tool](https://docs.microsoft.com/surface/assettag).
+- **Asset Tag** – The asset tag is assigned to the Surface device with the [Asset Tag Tool](assettag.md).
 
 You will also find detailed information about the firmware of your Surface device. Surface devices have several internal components that each run different versions of firmware. The firmware version of each of the following devices is displayed on the **PC information** page (as shown in Figure 1):
 
@@ -97,7 +97,7 @@ On the Security page you can also change the configuration of Secure Boot on you
 
 *Figure 4. Configure Secure Boot*
 
-Depending on your device, you may also be able to see if your TPM is enabled or disabled. If you do not see the **Enable TPM**  setting, open tpm.msc in Windows to check the status, as shown in Figure 5. The TPM is used to authenticate encryption for your device’s data with BitLocker. To learn more, see [BitLocker overview](https://docs.microsoft.com/windows/security/information-protection/bitlocker/bitlocker-overview).
+Depending on your device, you may also be able to see if your TPM is enabled or disabled. If you do not see the **Enable TPM**  setting, open tpm.msc in Windows to check the status, as shown in Figure 5. The TPM is used to authenticate encryption for your device’s data with BitLocker. To learn more, see [BitLocker overview](/windows/security/information-protection/bitlocker/bitlocker-overview).
 
 ![TPM console](images/manage-surface-uefi-fig5-a.png "TPM console")
 
