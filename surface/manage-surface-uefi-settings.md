@@ -17,11 +17,11 @@ ms.date: 04/13/2021
 
 # Manage Surface UEFI settings
 
- Surface PC devices are designed to utilize a unique Unified Extensible Firmware Interface (UEFI) engineered by Microsoft specifically for these devices. Surface UEFI settings provide the ability to enable or disable built-in devices and components, protect UEFI settings from being changed, and adjust the Surface device boot settings. 
+ Surface PC devices are designed to utilize a unique Unified Extensible Firmware Interface (UEFI) engineered by Microsoft specifically for these devices. Surface UEFI settings provide the ability to enable or disable built-in devices and components, protect UEFI settings from being changed, and adjust the Surface device boot settings.
 
 ## Supported products
 
-UEFI management is supported on the following: 
+UEFI management is supported on the following:
 
 - Surface Pro 4, Surface Pro (5th Gen), Surface Pro 6, Surface Pro 7, Surface Pro 7+, Surface Pro X
 - Surface Laptop (1st Gen), Surface Laptop 2, Surface Laptop 3, Surface Laptop Go, Surface Laptop 4
@@ -43,49 +43,49 @@ To adjust UEFI settings during system startup:
 
 ## UEFI PC information page
 
-The PC information page includes detailed information about your Surface device: 
+The PC information page includes detailed information about your Surface device:
 
-- **Model** – Your Surface device’s model will be displayed here, such as Surface Book 2 or Surface Pro 7. The exact configuration of your device is not shown, (such as processor, disk size, or memory size). 
-- **UUID** – This Universally Unique Identification number is specific to your device and is used to identify the device during deployment or management. 
+- **Model** – Your Surface device’s model will be displayed here, such as Surface Book 2 or Surface Pro 7. The exact configuration of your device is not shown, (such as processor, disk size, or memory size).
+- **UUID** – This Universally Unique Identification number is specific to your device and is used to identify the device during deployment or management.
 
 - **Serial Number** – This number is used to identify this specific Surface device for asset tagging and support scenarios.
-- **Asset Tag** – The asset tag is assigned to the Surface device with the [Asset Tag Tool](https://docs.microsoft.com/surface/assettag). 
+- **Asset Tag** – The asset tag is assigned to the Surface device with the [Asset Tag Tool](https://docs.microsoft.com/surface/assettag).
 
-You will also find detailed information about the firmware of your Surface device. Surface devices have several internal components that each run different versions of firmware. The firmware version of each of the following devices is displayed on the **PC information** page (as shown in Figure 1): 
+You will also find detailed information about the firmware of your Surface device. Surface devices have several internal components that each run different versions of firmware. The firmware version of each of the following devices is displayed on the **PC information** page (as shown in Figure 1):
 
-- System UEFI 
+- System UEFI
 
-- SAM Controller 
+- SAM Controller
 
-- Intel Management Engine 
+- Intel Management Engine
 
-- System Embedded Controller 
+- System Embedded Controller
 
-- Touch Firmware 
+- Touch Firmware
 
 ![System information and firmware version information](images/manage-surface-uefi-figure-1.png "System information and firmware version information")
 
 *Figure 1. System information and firmware version information*
 
-You can find up-to-date information about the latest firmware version for your Surface device in the [Surface Update History](https://www.microsoft.com/surface/support/install-update-activate/surface-update-history) for your device. 
+You can find up-to-date information about the latest firmware version for your Surface device in the [Surface Update History](https://www.microsoft.com/surface/support/install-update-activate/surface-update-history) for your device.
 
-## UEFI Security page 
+## UEFI Security page
 
 ![Configure Surface UEFI security settings](images/manage-surface-uefi-fig4.png "Configure Surface UEFI security settings")
 
 *Figure 2. Configure Surface UEFI security settings*
 
-The Security page allows you to set a password to protect UEFI settings. This password must be entered when you boot the Surface device to UEFI. The password can contain the following characters (as shown in Figure 3): 
+The Security page allows you to set a password to protect UEFI settings. This password must be entered when you boot the Surface device to UEFI. The password can contain the following characters (as shown in Figure 3):
 
-- Uppercase letters: A-Z 
+- Uppercase letters: A-Z
 
-- Lowercase letters: a-z 
+- Lowercase letters: a-z
 
-- Numbers: 1-0 
+- Numbers: 1-0
 
-- Special characters: !@#$%^&*()?<>{}[]-_=+|.,;:’`” 
+- Special characters: !@#$%^&*()?<>{}[]-_=+|.,;:’`”
 
-The password must be at least 6 characters and is case sensitive. 
+The password must be at least 6 characters and is case sensitive.
 
 ![Add a password to protect Surface UEFI settings](images/manage-surface-uefi-fig2.png "Add a password to protect Surface UEFI settings")
 
@@ -97,74 +97,73 @@ On the Security page you can also change the configuration of Secure Boot on you
 
 *Figure 4. Configure Secure Boot*
 
-Depending on your device, you may also be able to see if your TPM is enabled or disabled. If you do not see the **Enable TPM**  setting, open tpm.msc in Windows to check the status, as shown in Figure 5. The TPM is used to authenticate encryption for your device’s data with BitLocker. To learn more, see [BitLocker overview](https://docs.microsoft.com/windows/security/information-protection/bitlocker/bitlocker-overview). 
+Depending on your device, you may also be able to see if your TPM is enabled or disabled. If you do not see the **Enable TPM**  setting, open tpm.msc in Windows to check the status, as shown in Figure 5. The TPM is used to authenticate encryption for your device’s data with BitLocker. To learn more, see [BitLocker overview](https://docs.microsoft.com/windows/security/information-protection/bitlocker/bitlocker-overview).
 
 ![TPM console](images/manage-surface-uefi-fig5-a.png "TPM console")
 
 *Figure 5. TPM console*
 
-
-## UEFI menu: Devices 
+## UEFI menu: Devices
 
 The Devices page allows you to  enable or disable specific devices and components including:
 
-- Docking and USB Ports 
+- Docking USB port
 
-- MicroSD or SD Card Slot 
+- MicroSD or SD Card Slot
 
-- Rear Camera 
+- Rear Camera
 
-- Front Camera 
+- Front Camera
 
-- Infrared (IR) Camera 
+- Infrared (IR) Camera
 
-- Wi-Fi and Bluetooth 
+- Wi-Fi and Bluetooth
 
-- Onboard Audio (Speakers and Microphone) 
+- Onboard Audio (Speakers and Microphone)
 
-Each device is listed with a slider button that you can move to **On** (enabled) or **Off** (disabled) position, as shown in Figure 6. 
+Each device is listed with a slider button that you can move to **On** (enabled) or **Off** (disabled) position, as shown in Figure 6.
 
 ![Enable and disable specific devices](images/manage-surface-uefi-fig5a.png "Enable and disable specific devices")
 
 *Figure 6. Enable and disable specific devices*
 
-## UEFI menu: Boot configuration 
+## UEFI menu: Boot configuration
 
-The Boot Configuration page allows you to change the order of your boot devices as well as enable or disable boot of the following devices: 
+The Boot Configuration page allows you to change the order of your boot devices as well as enable or disable boot of the following devices:
 
-- Windows Boot Manager 
+- Windows Boot Manager
 
-- USB Storage 
+- USB Storage
 
-- PXE Network 
+- PXE Network
 
-- Internal Storage 
+- Internal Storage
 
-You can boot from a specific device immediately, or you can swipe left on that device’s entry in the list using the touchscreen. You can also boot immediately to a USB device or USB Ethernet adapter when the Surface device is powered off by pressing the **Volume Down** button and the **Power** button simultaneously. 
+You can boot from a specific device immediately, or you can swipe left on that device’s entry in the list using the touchscreen. You can also boot immediately to a USB device or USB Ethernet adapter when the Surface device is powered off by pressing the **Volume Down** button and the **Power** button simultaneously.
 
-For the specified boot order to take effect, you must set the **Enable Alternate Boot Sequence** option to **On**, as shown in Figure 7. 
+For the specified boot order to take effect, you must set the **Enable Alternate Boot Sequence** option to **On**, as shown in Figure 7.
 
 ![Configure the boot order for your Surface device](images/manage-surface-uefi-fig6.png "Configure the boot order for your Surface device")
 
-*Figure 7. Configure the boot order for your Surface device* 
+*Figure 7. Configure the boot order for your Surface device*
 
 You can also turn on and off IPv6 support for PXE with the **Enable IPv6 for PXE Network Boot** option, for example when performing a Windows deployment using PXE where the PXE server is configured for IPv4 only.  
 
 ## UEFI menu: Management
+
 The Management page allows you to manage use of Zero Touch UEFI Management and other features on eligible devices including Surface Pro 7, Surface Pro X, and Surface Laptop 3.  
 
 ![Manage access to Zero Touch UEFI Management and other features](images/manage-surface-uefi-fig7a.png "Manage access to Zero Touch UEFI Management and other features")
-*Figure 8. Manage access to Zero Touch UEFI Management and other features* 
+*Figure 8. Manage access to Zero Touch UEFI Management and other features*
 
-
-Zero Touch UEFI Management lets you remotely manage UEFI settings  by using a device profile within Intune called Device Firmware Configuration Interface (DFCI). If you do not configure this setting, the ability to manage eligible devices with DFCI is set to **Ready**. To prevent DFCI, select **Opt-Out**. 
+Zero Touch UEFI Management lets you remotely manage UEFI settings  by using a device profile within Intune called Device Firmware Configuration Interface (DFCI). If you do not configure this setting, the ability to manage eligible devices with DFCI is set to **Ready**. To prevent DFCI, select **Opt-Out**.
 
 > [!NOTE]
 > The UEFI Management settings page and use of DFCI is currently available for Surface Pro 7+, Surface Laptop Go, Surface Book 3, Surface Laptop 4, Surface Laptop 3, Surface Pro 7, and Surface Pro X. To learn more, see [Intune management of Surface UEFI settings](surface-manage-dfci-guide.md).
 
-## UEFI menu: Exit 
+## UEFI menu: Exit
 
-Use the **Restart Now** button on the **Exit** page to exit UEFI settings, as shown in Figure 9. 
+Use the **Restart Now** button on the **Exit** page to exit UEFI settings, as shown in Figure 9.
 
 ![Exit Surface UEFI and restart the device](images/manage-surface-uefi-fig7.png "Exit Surface UEFI and restart the device")
 
@@ -210,11 +209,9 @@ When you update Surface device firmware, by using either Windows Update or manua
 
 *Figure 18. The Surface TCON firmware update displays a light gray progress bar*
 
-
 ![Surface TPM firmware with light purple progress bar](images/manage-surface-uefi-fig17.png "Surface TPM firmware with purple progress bar")
 
 *Figure 19. The Surface TPM firmware update displays a purple progress bar*
-
 
 >[!NOTE]
 >An additional warning message that indicates Secure Boot is disabled is displayed, as shown in Figure 19.
@@ -225,10 +222,10 @@ When you update Surface device firmware, by using either Windows Update or manua
 
 ## References
 
-1. Surface Go and Surface Go 2 use a third-party UEFI and do not support DFCI. 
+1. Surface Go and Surface Go 2 use a third-party UEFI and do not support DFCI.
 
 ## Related topics
 
 - [Intune management of Surface UEFI settings](surface-manage-dfci-guide.md)
 
--  [Surface Enterprise Management Mode](surface-enterprise-management-mode.md)
+- [Surface Enterprise Management Mode](surface-enterprise-management-mode.md)
