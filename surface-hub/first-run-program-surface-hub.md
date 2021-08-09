@@ -24,9 +24,7 @@ When you first start Surface Hub, the device automatically enters first time Set
 ## Get started
 
 1. By default, Cortana is enabled to guide you through the process. To turn off Cortana assistance, select the microphone icon.
-
-> [!div class="mx-imgBorder"]
-> ![Cortana is enabled to guide you through the process](images/hub-setup-cortana.png)
+:::image type="content" source="images/hub-setup-cortana.png" alt-text="Cortana is enabled to guide you through the process":::
 
 2. **Select your region.** Confirm the auto-detected region and select **Yes**.
 
