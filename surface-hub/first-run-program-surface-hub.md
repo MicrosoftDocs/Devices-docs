@@ -49,13 +49,13 @@ When you first start Surface Hub, the device automatically enters first time Set
 
 7. Enter Device account info using either a UPN address (user@contoso.com) or a down-level domain address (CONTOSO\user). Use the format that matches your environment and enter the password.
 
+    :::image type="content" source="images/hub-setup-device-account.png" alt-text="Enter Device account info":::
+
 | Environment                                              | Required format for device account |
 | -------------------------------------------------------- | ---------------------------------- |
 | Device account is hosted only online                     | username@contoso.com               |
 | Device account is hosted only on-premises                | CONTOSO\user                       |
 | Device account is hosted online and on-premises (hybrid) | CONTOSO\user                       |
-
-    :::image type="content" source="images/hub-setup-device-account.png" alt-text="Enter Device account info":::
 
 8. Enter your password and select **Next.**
 
