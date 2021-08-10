@@ -10,7 +10,7 @@ ms.sitesec: library
 author: dansimp
 ms.author: dansimp
 ms.topic: article
-ms.date: 08/09/2021
+ms.date: 08/10/2021
 ms.localizationpriority: medium
 ---
 
@@ -19,7 +19,7 @@ ms.localizationpriority: medium
 When you first start Surface Hub, the device automatically enters first time Setup mode to guide you through account configuration and related settings.
 
 > [!TIP]
-> If managing multiple Surface Hubs, you can automate the entire setup process with a [Provisioning package](#use-provisioning-packages) to ensure a consistent experience.
+> You can automate the entire setup process with a [Provisioning package](#use-provisioning-packages) to ensure a consistent experience across multiple Surface Hubs.
 
 ## Get started
 
@@ -27,11 +27,11 @@ When you first start Surface Hub, the device automatically enters first time Set
 
     :::image type="content" source="images/hub-setup-cortana.png" alt-text="Cortana is enabled to guide you through the process":::
 
-2. **Select your region.** Confirm the auto-detected region and select **Yes**.
+2. Select your region. Confirm the auto-detected region and select **Yes**.
 
     :::image type="content" source="images/hub-setup-region.png" alt-text="Select your region":::
 
-3. **Confirm keyboard layout.** Select **Yes**.
+3. Confirm keyboard layout. Select **Yes**.
 
     :::image type="content" source="images/hub-setup-keyboard.png" alt-text="Confirm keyboard layout":::
 
@@ -39,11 +39,11 @@ When you first start Surface Hub, the device automatically enters first time Set
 
     :::image type="content" source="images/hub-setup-2keyboard.png" alt-text="Add a second keyboard":::
 
-5. **Connect to a network.** If you have already attached an Ethernet cable, Surface Hub automatically connects to your network. Alternatively, you can connect to a wireless network. **Note:** You cannot connect to a wireless network in hotspots (captive portals) that redirect sign-in requests to a provider's website. Select **Next**.
+5. Connect to a network. If you have already attached an Ethernet cable, Surface Hub automatically connects to your network. Alternatively, you can connect to a wireless network. **Note:** You cannot connect to a wireless network in hotspots (captive portals) that redirect sign-in requests to a provider's website. Select **Next**.
 
     :::image type="content" source="images/hub-setup-network.png" alt-text="Connect to a network":::
 
-6. **Accept Windows 10 License Agreement.** Select **Accept**.
+6. Accept Windows 10 License Agreement. Select **Accept**.
 
     :::image type="content" source="images/hub-setup-license.png" alt-text="Accept Windows 10 License Agreement":::
 
@@ -63,7 +63,7 @@ When you first start Surface Hub, the device automatically enters first time Set
 
     :::image type="content" source="images/hub-setup-exchange.png" alt-text="Exchange server and SIP address":::
 
-10. **Name this device.** Enter a name for your device or use the suggested one. **Select Next**.
+10. Name this device. Enter a name for your device or use the suggested one. **Select Next**.
 
     :::image type="content" source="images/hub-setup-name.png" alt-text="Name this device":::
 
