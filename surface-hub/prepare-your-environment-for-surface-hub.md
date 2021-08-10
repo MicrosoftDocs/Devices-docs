@@ -20,15 +20,15 @@ appliesto:
 
 # Prepare your environment for Microsoft Surface Hub
 
- 
+
 This page describes dependencies for setting up and managing Surface Hub v1 or Surface Hub 2S.
- 
+
 
 ## Infrastructure dependencies
 
 Review these dependencies to make sure Surface Hub features will work in your IT infrastructure.
- 
- 
+
+
 | Dependency                                                                                                                                  | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | Learn more                                                                                                                                                                                                                                                                                 |
 | ------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | On-premises services and Active Directory or M365                                                                                           |  Surface Hub uses an Active Directory or Azure AD account (called a **device account**) to access Exchange and Teams (or Skype for Business) services. The Surface Hub must be able to connect to your Active Directory domain controller or to your Azure AD tenant in order to validate the device account’s credentials, as well as to access information like the device account’s display name, alias, Exchange server, and Session Initiation Protocol (SIP) address.  <br><br>**NOTE: Surface Hubs work with Microsoft Teams, Skype for Business Server 2019, Skype for Business Server 2015, or Skype for Business Online. Earlier platforms, such as Lync Server 2013, are not supported. Surface Hubs are not supported in GCC High or DoD environments.**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | [Microsoft 365 endpoints](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-endpoints) <br> <br> [Create and test a device account](create-and-test-a-device-account-surface-hub.md)                                                                                                                                                    |
@@ -40,26 +40,26 @@ Review these dependencies to make sure Surface Hub features will work in your IT
 ## Device affiliation
 
 Use Device affiliation to manage user access to the Settings app on Surface Hub. With the Windows 10 Team operating system (that runs on Surface Hub), only authorized users can adjust settings using the Settings app. Since choosing the affiliation can impact feature availability, plan appropriately to ensure that users can access features as intended.
- 
- 
+
+
 > [!NOTE]
 > You can only set Device affiliation during the initial out-of-box experience (OOBE) setup. If you need to reset Device affiliation, you’ll have to repeat OOBE setup.
- 
+
 
 ### No affiliation
 
 No affiliation is like having Surface Hub in a workgroup with a different local Administrator account on each Surface Hub. If you choose No affiliation, you must locally save the [BitLocker Key to a USB thumb drive](https://docs.microsoft.com/surface-hub/save-bitlocker-key-surface-hub). You can still enroll the device with Intune; however, only the local admin can access the Settings app using the account credentials configured during OOBE. You can change the Administrator account password from the Settings app.
- 
+
 
 ### Active Directory Domain Services
 
 If you affiliate Surface Hub with on-premises Active Directory Domain Services, you need to manage access to the Settings app using a security group on your domain. This helps ensure that all security group members have permissions to change settings on Surface Hub. Also note the following:
 When Surface Hub affiliates with your on-premises Active Directory Domain Services, the BitLocker key can be saved in the Active Directory Schema. For more information, see [Prepare your organization for BitLocker: Planning and policies](https://docs.microsoft.com/windows/security/information-protection/bitlocker/prepare-your-organization-for-bitlocker-planning-and-policies).
- 
+
 Your organization’s Trusted Root CAs are pushed to the same container in Surface Hub, which means you don’t need to import them using a provisioning package.
- 
+
 You can still enroll the device with Intune to centrally manage settings on your Surface Hub.
- 
+
 
 ### Azure Active Directory
 
