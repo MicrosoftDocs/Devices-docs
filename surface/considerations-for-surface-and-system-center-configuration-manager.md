@@ -18,22 +18,22 @@ ms.date: 08/12/2021
 
 # Considerations for Surface and Microsoft Endpoint Configuration Manager
 
-Fundamentally, management and deployment of Surface devices with Microsoft Endpoint Configuration Manager is the same as the management and deployment of any other PC. Like any other PC, a deployment to Surface devices includes importing drivers, importing a Windows image, preparing a deployment task sequence, and then deploying the task sequence to a collection. After deployment, Surface devices are like any other Windows client; to publish apps, settings, and policies, you use the same process as you would use for any other device.
+Fundamentally, management and deployment of Surface devices with Microsoft Endpoint Configuration Manager is the same as the management and deployment of any other PC. Like any other PC, a deployment of Surface devices includes importing drivers, importing a Windows image, preparing a deployment task sequence, and then deploying the task sequence to a collection. After deployment, Surface devices are like any other Windows client; to publish apps, settings, and policies, you use the same process as you would use for any other device.
 
 To learn more, see [Microsoft Endpoint Configuration Manager documentation](/mem/configmgr/).
 
-Although the deployment and management of Surface devices is fundamentally the same as any other PC, there are some scenarios that may require additional considerations or steps. This article provides descriptions and guidance for these scenarios. The solutions documented in this article may apply to other devices and manufacturers as well.
+Although the deployment and management of Surface devices is fundamentally similar to other PCs, some scenarios may require additional IT tasks, as described in this article. 
 
-> [!NOTE]
-> For management of Surface devices it is recommended that you use the Current Branch of Microsoft Endpoint Configuration Manager.
+> [!TIP]
+> Use the [Current Branch of Microsoft Endpoint Configuration Manager](/mem/configmgr/core/servers/manage/updates) to manage Surface devices .
 
-## Updating Surface device drivers and firmware
+## Update Surface device drivers and firmware
 
-For devices that recieve updates through Windows Update, drivers for Surface components (and even firmware updates) are applied automatically as part of the Windows Update process. For devices with managed updates, such as those updated through Windows Server Update Services (WSUS) or Configuration Manager, see [Manage Surface driver and firmware updates](manage-surface-driver-and-firmware-updates.md).
+Although drivers for Surface components and firmware updates are applied automatically as part of the Windows Update process, many organizations rely on managed updates using Windows Server Update Services (WSUS) or Configuration Manager. To learn more, see [Manage Surface driver and firmware updates](manage-surface-driver-and-firmware-updates.md).
 
 ## Surface Ethernet adapters and Configuration Manager deployment
 
-The default mechanism that Configuration Manager uses to identify devices during deployment is the Media Access Control (MAC) address. Because the MAC address is associated with the Ethernet controller, an Ethernet adapter shared among multiple devices will cause Configuration Manager to identify each of the devices as only a single device. This can cause a Configuration Manager deployment of Windows to not be applied to intended devices.
+The default mechanism that Configuration Manager uses to identify devices during deployment is the Media Access Control (MAC) address. Because the MAC address is associated with the Ethernet controller, an Ethernet adapter shared among multiple devices will cause Configuration Manager to identify each of the devices as only a single device, resulting in a failed deployment. 
 
 To ensure that Surface devices using the same Ethernet adapter are identified as unique devices during deployment, you can instruct Configuration Manager to identify devices using another method. You can specify that Configuration Manager use other identification methods, as documented in [Manage duplicate hardware identifiers](/mem/configmgr/core/clients/manage/manage-clients#manage-duplicate-hardware-identifiers):
 
