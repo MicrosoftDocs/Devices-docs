@@ -25,11 +25,11 @@ To learn more, see [Microsoft Endpoint Configuration Manager documentation](/mem
 Although the deployment and management of Surface devices is fundamentally similar to other PCs, some scenarios may require additional IT tasks, as described in this article. 
 
 > [!TIP]
-> Use the [Current Branch of Microsoft Endpoint Configuration Manager](/mem/configmgr/core/servers/manage/updates) to manage Surface devices .
+> Use the [Current Branch of Microsoft Endpoint Configuration Manager](/mem/configmgr/core/servers/manage/updates) to manage Surface devices.
 
 ## Update Surface device drivers and firmware
 
-Although drivers for Surface components and firmware updates are applied automatically as part of the Windows Update process, many organizations rely on managed updates using Windows Server Update Services (WSUS) or Configuration Manager. To learn more, see [Manage Surface driver and firmware updates](manage-surface-driver-and-firmware-updates.md).
+To deploy updates device drivers and firmware using Configuration Manager or Windows Server Update Services (WSUS), see [Manage Surface driver and firmware updates](manage-surface-driver-and-firmware-updates.md).
 
 ## Surface Ethernet adapters and Configuration Manager deployment
 
@@ -65,9 +65,7 @@ However, issues may arise when organizations intend to use versions of Windows t
 
 ## Apply an asset tag during deployment
 
-With the [Surface Asset tag tool](assettag.md), you can identify devices from UEFI even if the operating system fails. 
-
-To learn more about managing assets with Configuration Manager, see [Introduction to asset intelligence in Configuration Manager](/mem/configmgr/core/clients/manage/asset-intelligence/introduction-to-asset-intelligence).
+With the [Surface Asset tag tool](assettag.md), you can identify devices from UEFI even if the operating system fails. To learn more about managing assets with Configuration Manager, see [Introduction to asset intelligence in Configuration Manager](/mem/configmgr/core/clients/manage/asset-intelligence/introduction-to-asset-intelligence).
 
 ## Configure push-button reset
 
