@@ -15,8 +15,6 @@ ms.localizationpriority: medium
 
 # Microsoft Teams Room on Surface Hub (preview)
 
-## Prepare your environment
-
 This article explains how to prepare your environment to optimize Microsoft Teams Rooms on Surface Hub.
 
 ## Create and test a device account
@@ -50,20 +48,21 @@ To configure QoS for Surface Hub using Microsoft Intune:
 2. In **Custom OMA-URI Settings**, select **Add**. For each setting that you add, you will enter a name, description (optional), data type, OMA-URI, and value.
 3. To ensure optimal video and audio quality on Surface Hub, add the following QoS settings to the device.
 
-| Name              | Description           | OMA-URI                                                                        | Type    | Value       |
-| ----------------- | --------------------- | ------------------------------------------------------------------------------ | ------- | ----------- |
-| Audio Ports       | Audio Port range      | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsAudio/SourcePortMatchCondition      | String  | 3478-3479   |
-| Audio DSCP        | Audio ports marking   | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsAudio/DSCPAction                    | Integer | 46          |
-| Video Port        | Video Port range      | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsVideo/SourcePortMatchCondition      | String  | 3480        |
-| Video DSCP        | Video ports marking   | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsVideo/DSCPAction                    | Integer | 34          |
-| Sharing Port      | Sharing Port range    | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsSharing/SourcePortMatchCondition    | String  | 3481        |
-| Sharing DSCP      | Sharing ports marking | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsSharing/DSCPAction                  | Integer | 18          |
-| P2P Audio Ports   | Audio Port range      | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsP2PAudio/SourcePortMatchCondition   | String  | 50000-50019 |
-| P2P Audio DSCP    | Audio ports marking   | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsP2PAudio/DSCPAction                 | Integer | 46          |
-| P2P Video Ports   | Video Port range      | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsP2PVideo/SourcePortMatchCondition   | String  | 50020-50039 |
-| P2P Video DSCP    | Video ports marking   | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsP2PVideo/DSCPAction                 | Integer | 34          |
-| P2P Sharing Ports | Sharing Port range    | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsP2PSharing/SourcePortMatchCondition | String  | 50040-50059 |
-| P2P Sharing DSCP  | Sharing ports marking | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsP2PSharing/DSCPAction               | Integer | 18          |
+| Name                  | Description           | OMA-URI                                                                        | Type    | Value       |
+| --------------------- | --------------------- | ------------------------------------------------------------------------------ | ------- | ----------- |
+| **Audio Ports**       | Audio Port range      | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsAudio/SourcePortMatchCondition      | String  | 3478-3479   |
+| **Audio DSCP**        | Audio ports marking   | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsAudio/DSCPAction                    | Integer | 46          |
+| **Video Port**        | Video Port range      | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsVideo/SourcePortMatchCondition      | String  | 3480        |
+| **Video DSCP**        | Video ports marking   | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsVideo/DSCPAction                    | Integer | 34          |
+| **Sharing Port**      | Sharing Port range    | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsSharing/SourcePortMatchCondition    | String  | 3481        |
+| **Sharing DSCP**      | Sharing ports marking | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsSharing/DSCPAction                  | Integer | 18          |
+| **P2P Audio Ports**   | Audio Port range      | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsP2PAudio/SourcePortMatchCondition   | String  | 50000-50019 |
+| **P2P Audio DSCP**    | Audio ports marking   | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsP2PAudio/DSCPAction                 | Integer | 46          |
+| **P2P Video Ports**   | Video Port range      | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsP2PVideo/SourcePortMatchCondition   | String  | 50020-50039 |
+| **P2P Video DSCP**    | Video ports marking   | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsP2PVideo/DSCPAction                 | Integer | 34          |
+| **P2P Sharing Ports** | Sharing Port range    | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsP2PSharing/SourcePortMatchCondition | String  | 50040-50059 |
+| **P2P Sharing DSCP**  | Sharing ports marking | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsP2PSharing/DSCPAction               | Integer | 18          |
+
 
 > [!IMPORTANT]
 >
