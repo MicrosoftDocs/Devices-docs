@@ -16,7 +16,8 @@ ms.localizationpriority: medium
 # Microsoft Teams Room on Surface Hub (preview)
 
 ## Prepare your environment
-This section contains an overview of the steps required to prepare your environment in order to make full use of the features of Microsoft Teams Rooms on Surface Hub.
+
+This article explains how to prepare your environment to optimize Microsoft Teams Rooms on Surface Hub.
 
 ## Create and test a device account
 
@@ -28,7 +29,7 @@ A device account is an account that the Microsoft Teams Rooms client uses to acc
 > We strongly recommend using the practices for network configuration listed at
 [Microsoft 365 network connectivity principles](http://aka.ms/pnc)
 
-In order to function properly, Teams Rooms on Surface Hub must have access to a network that meets these requirements:
+Teams Rooms on Surface Hub must have access to a network that meets these requirements:
 
 - Access to your Active Directory or Azure Active Directory (Azure AD) instance
 - Access to a server that can provide an IP address using DHCP. Microsoft Teams Rooms on Surface Hub cannot be configured with a static IP address.
@@ -37,8 +38,9 @@ In order to function properly, Teams Rooms on Surface Hub must have access to a 
 
 > [!IMPORTANT]
 > Microsoft Teams Rooms does not support proxy authentication as it may interfere with regular operations of Teams. Ensure that Surface Hub devices or Microsoft 365 service endpoints have been exempted from proxy authentication before going into production.
- 
+
 ## Implement Quality of Service (QoS) on Surface Hub
+
 Quality of Service (QoS) is a combination of network technologies that allows the administrators to optimize the experience of real time audio/video and application sharing communications.
 Configuring QoS for Microsoft Teams on the Surface Hub can be done using your [mobile device management (MDM) provider](manage-settings-with-mdm-for-surface-hub.md) or through a [provisioning package](provisioning-packages-for-surface-hub.md).
 
@@ -47,8 +49,6 @@ To configure QoS for Surface Hub using Microsoft Intune:
 1. In Intune, [create a custom policy](/intune/custom-settings-configure).
 2. In **Custom OMA-URI Settings**, select **Add**. For each setting that you add, you will enter a name, description (optional), data type, OMA-URI, and value.
 3. To ensure optimal video and audio quality on Surface Hub, add the following QoS settings to the device.
-
- 
 
 | Name              | Description           | OMA-URI                                                                        | Type    | Value       |
 | ----------------- | --------------------- | ------------------------------------------------------------------------------ | ------- | ----------- |
@@ -65,8 +65,8 @@ To configure QoS for Surface Hub using Microsoft Intune:
 | P2P Sharing Ports | Sharing Port range    | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsP2PSharing/SourcePortMatchCondition | String  | 50040-50059 |
 | P2P Sharing DSCP  | Sharing ports marking | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsP2PSharing/DSCPAction               | Integer | 18          |
 
-
 > [!IMPORTANT]
+>
 > - Each **OMA-URI** path begins with ./Device/Vendor/MSFT/NetworkQoSPolicy. The full path for the audio source port setting, for example will be ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsAudio/SourcePortMatchCondition
 
 4. When the policy has been created, deploy it to Surface Hub.
