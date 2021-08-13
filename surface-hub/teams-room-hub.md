@@ -21,13 +21,13 @@ This article explains how to prepare your environment to optimize Microsoft Team
 
 ## Create and test a device account
 
-A device account is an account that the Microsoft Teams Rooms client uses to access features from Exchange, like calendar, and to enable Skype for Business. [See Create and test a device account](https://docs.microsoft.com/en-us/surface-hub/create-and-test-a-device-account-surface-hub)
+A device account is an account that the Microsoft Teams Rooms client uses to access features from Exchange, like calendar, and to enable Skype for Business. [See Create and test a device account](create-and-test-a-device-account-surface-hub.md)
 
 ## Check network availability
 
 > [!TIP]
 > We strongly recommend using the practices for network configuration listed at
-[Microsoft 365 network connectivity principles](http://aka.ms/pnc)
+[Microsoft 365 network connectivity principles](https://aka.ms/pnc)
 
 Teams Rooms on Surface Hub must have access to a network that meets these requirements:
 
