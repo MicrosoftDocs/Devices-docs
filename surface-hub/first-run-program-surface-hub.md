@@ -57,6 +57,9 @@ When you first start Surface Hub, the device automatically enters first time Set
 | Device account is hosted only on-premises                | CONTOSO\user                       |
 | Device account is hosted online and on-premises (hybrid) | CONTOSO\user                       |
 
+>[!NOTE]
+>Although you can skip setting up a device account, the device will not be fully integrated into your infrastructure. If you skip setting it up now, you can add a device account later by using the Settings app.
+
 8. **Enter your password** and select **Next.**
 
 9. Surface Hub automatically detects Exchange server and SIP address info from the domain entered in the previous step. Or if needed, provide your Exchange server address and select **Next**.
@@ -70,9 +73,15 @@ When you first start Surface Hub, the device automatically enters first time Set
 - The **Friendly name** is visible on the bottom left corner of Surface Hub 2S and is shown when projecting to the device.
 - The **Device name** identifies the device when affiliated with Active Directory or Azure Active Directory, and when enrolling the device with Intune.
 
+​​> [!TIP]
+​​> If you want to enable Miracast over Infrastructure, the device name needs to be discoverable via DNS. You can achieve this by either allowing your Surface Hub to register automatically via Dynamic DNS, or by manually creating an A or AAAA record for the Surface Hub's device name.
+
 ### Configure device admin accounts
 
-You can only set up device admins during first time Setup. For more information, refer to [Surface Hub 2S device affiliation](/surface-hub/prepare-your-environment-for-surface-hub#device-affiliation).
+You can only set up device admins during first time Setup. For more information, refer to:
+
+- [Surface Hub 2S device affiliation](/surface-hub/prepare-your-environment-for-surface-hub#device-affiliation)
+- [Admin Group Management](admin-group-management-for-surface-hub.md)
 
 1. **Choose type of admin account.** Select one of the following options: Active Directory Domain Services, Azure Active Directory, or Local admin.
 
@@ -96,6 +105,9 @@ You can only set up device admins during first time Setup. For more information,
 - Enter a username and a memorable password for your local admin. (If you forget the local admin password you will need to [recover your device](surface-hub-2s-recover-reset.md) and repeat the setup process.)  
 
     :::image type="content" source="images/hub-setup-local-admin.png" alt-text="Enter a memorable password for local admin account":::
+
+>[!NOTE]
+>To configure who can use the Settings app to administrate Surface Hubs ensure that automatic Intune enrollment is enabled in your tenant before joining the device to Azure AD. Intune policies can then be used to [configure non Global admins](surface-hub-2s-nonglobal-admin.md) on Surface Hubs.
 
 ### Choose privacy settings for your device
 
