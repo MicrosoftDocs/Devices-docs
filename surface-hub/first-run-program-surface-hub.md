@@ -73,8 +73,8 @@ When you first start Surface Hub, the device automatically enters first time Set
 - The **Friendly name** is visible on the bottom left corner of Surface Hub 2S and is shown when projecting to the device.
 - The **Device name** identifies the device when affiliated with Active Directory or Azure Active Directory, and when enrolling the device with Intune.
 
-​​> [!TIP]
-​​> If you want to enable Miracast over Infrastructure, the device name needs to be discoverable via DNS. You can achieve this by either allowing your Surface Hub to register automatically via Dynamic DNS, or by manually creating an A or AAAA record for the Surface Hub's device name.
+​​>[!TIP]
+​​>If you want to enable [Miracast over Infrastructure](miracast-over-infrastructure.md), the device name needs to be discoverable via DNS. You can achieve this by either allowing your Surface Hub to register automatically via Dynamic DNS, or by manually creating an A or AAAA record for the Surface Hub's device name.
 
 ### Configure device admin accounts
 
