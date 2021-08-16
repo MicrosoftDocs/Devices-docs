@@ -46,7 +46,7 @@ landingContent:
            url: surface-laptop-processors.md
          - text: Surface Headphones 2+ tech overview
            url: surface-headphones.md
-         - text: Windows Virtual Desktop on Surface
+         - text: Azure Virtual Desktop on Surface
            url: windows-virtual-desktop-surface.md
  
    # Card (optional)
