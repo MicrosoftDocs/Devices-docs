@@ -10,7 +10,7 @@ ms.sitesec: library
 author: dansimp
 ms.author: dansimp
 ms.topic: article
-ms.date: 08/10/2021
+ms.date: 08/17/2021
 ms.localizationpriority: medium
 ---
 
@@ -100,14 +100,14 @@ You can only set up device admins during first time Setup. For more information,
 
     :::image type="content" source="images/hub-setup-signin.png" alt-text="Sign in with work or school account":::
 
+>[!NOTE]
+>To configure who can use the Settings app to administrate Surface Hubs ensure that automatic Intune enrollment is enabled in your tenant before joining the device to Azure AD. Intune policies can then be used to [configure non Global admins](surface-hub-2s-nonglobal-admin.md) on Surface Hubs.
+
 ### Local Administrator account
 
 - Enter a username and a memorable password for your local admin. (If you forget the local admin password you will need to [recover your device](surface-hub-2s-recover-reset.md) and repeat the setup process.)  
 
     :::image type="content" source="images/hub-setup-local-admin.png" alt-text="Enter a memorable password for local admin account":::
-
->[!NOTE]
->To configure who can use the Settings app to administrate Surface Hubs ensure that automatic Intune enrollment is enabled in your tenant before joining the device to Azure AD. Intune policies can then be used to [configure non Global admins](surface-hub-2s-nonglobal-admin.md) on Surface Hubs.
 
 ### Choose privacy settings for your device
 
