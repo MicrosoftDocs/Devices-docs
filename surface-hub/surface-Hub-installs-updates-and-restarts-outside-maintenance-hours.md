@@ -32,6 +32,5 @@ It's important that you set aside maintenance time for Surface Hub to perform ad
 One option that you can use to control the availability of updates is Windows Update for Business.
 
 ## Learn more
- 
-- [Update the Surface Hub](first-run-program-surface-hub.md#update-the-surface-hub) 
+  
 - [Maintenance window](manage-windows-updates-for-surface-hub.md#maintenance-window) 
