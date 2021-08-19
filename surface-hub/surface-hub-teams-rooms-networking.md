@@ -69,4 +69,6 @@ To configure QoS for Surface Hub using Microsoft Intune:
 
 4. When the policy has been created, deploy it to Surface Hub.
 
-Learn more
+## Learn more
+
+- [Microsoft Teams Rooms on Surface Hub](surface-hub-teams-rooms.md)
