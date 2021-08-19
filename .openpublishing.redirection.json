@@ -129,6 +129,11 @@
             "source_path":  "surface/surface-diagnostic-toolkit-for-business-intro.md",
             "redirect_url":  "/surface/surface-diagnostic-toolkit-business",
             "redirect_document_id":  false
-        },        
+        },    
+        {
+            "source_path":  "surface-hub/surface-hub-2s-setup.md",
+            "redirect_url":  "/surface-hub/first-run-program-surface-hub",
+            "redirect_document_id":  false
+        },                   
 ]
 }
