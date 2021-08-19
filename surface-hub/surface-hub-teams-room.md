@@ -41,7 +41,7 @@ The new Teams Rooms for Surface Hub client, will automatically apply existing se
 
 ## Prepare networking for Teams Rooms
 
-To optimize Teams Rooms refer to the requirements and recommendations described in Configure networking and Quality of Service for Microsoft Teams Room on Surface Hub.
+To optimize Teams Rooms refer to the requirements and recommendations described in [Configure networking and Quality of Service for Microsoft Teams Room on Surface Hub](surface-hub-teams-rooms-networking.md).
 
 ## Simplified management of Teams coming to Surface Hub
 
