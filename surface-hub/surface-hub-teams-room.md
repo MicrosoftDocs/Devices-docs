@@ -37,13 +37,13 @@ When signed in with administrative credentials, you can customize the Teams expe
 - Adjust settings for default microphones, cameras, and speakers.
 - Check the client version and search for the latest updates.
 
-The new Teams Rooms for Surface Hub client, will automatically apply existing settings configured via XML files, provisioning packages, or an MDM provider. These methods, explained in [Manage Microsoft Teams configuration on Surface Hub](/microsoftteams/rooms/surface-hub-manage-config), will be superseded by new cloud-based solutions, as described in Simplified management of Teams coming to Surface Hub.
+The new Teams Rooms for Surface Hub client, will automatically apply existing settings configured via XML files, provisioning packages, or an MDM provider. These methods, explained in [Manage Microsoft Teams configuration on Surface Hub](/microsoftteams/rooms/surface-hub-manage-config), will be superseded by new cloud-based solutions, as described below in [Simplified management of Teams coming to Surface Hub](#simplified-management-of-teams-coming-to-surface-hub).
 
-## Prepare networking for Teams Rooms
+### Prepare networking for Teams Rooms
 
 To optimize Teams Rooms refer to the requirements and recommendations described in [Configure networking and Quality of Service for Microsoft Teams Room on Surface Hub](surface-hub-teams-rooms-networking.md).
 
-## Simplified management of Teams coming to Surface Hub
+### Simplified management of Teams coming to Surface Hub
 
 When Teams Rooms for Surface Hub is publicly released later this year, admins can take advantage of the following solutions:
 
