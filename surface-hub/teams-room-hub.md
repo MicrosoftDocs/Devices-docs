@@ -12,60 +12,43 @@ ms.reviewer:
 manager: laurawi
 ms.localizationpriority: medium
 ---
-
 # Microsoft Teams Room on Surface Hub (preview)
 
-This article explains how to prepare your environment to optimize Microsoft Teams Rooms on Surface Hub.
+Upon release in late 2021, Teams Rooms for Surface Hub will be installed on all Surface Hubs configured to receive automatic updates. The new experience, currently available as a [preview via the Windows Insider program](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/introducing-teams-rooms-on-surface-hub/ba-p/2118373), will replace the current [Surface Hub Teams app](hub-teams-app.md).
+ 
 
-## Create and test a device account
+## What’s new?
 
-A device account is an account that the Microsoft Teams Rooms client uses to access features from Exchange, like calendar, and to enable Skype for Business. [See Create and test a device account](create-and-test-a-device-account-surface-hub.md)
-
-## Check network availability
-
-> [!TIP]
-> We strongly recommend using the practices for network configuration listed at
-[Microsoft 365 network connectivity principles](https://aka.ms/pnc)
-
-Teams Rooms on Surface Hub must have access to a network that meets these requirements:
-
-- Access to your Active Directory or Azure Active Directory (Azure AD) instance
-- Access to a server that can provide an IP address using DHCP. Microsoft Teams Rooms on Surface Hub cannot be configured with a static IP address.
-- Access to HTTP ports 80 and 443.
-- TCP and UDP ports configured as described in Port and protocol requirements for [Microsoft 365 and Office 365 URLs and IP address ranges](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&rs=en-US&ad=US) for Microsoft Teams.
-
-> [!IMPORTANT]
-> Microsoft Teams Rooms does not support proxy authentication as it may interfere with regular operations of Teams. Ensure that Surface Hub devices or Microsoft 365 service endpoints have been exempted from proxy authentication before going into production.
-
-## Implement Quality of Service (QoS) on Surface Hub
-
-Quality of Service (QoS) is a combination of network technologies that allows the administrators to optimize the experience of real time audio/video and application sharing communications.
-Configuring QoS for Microsoft Teams on the Surface Hub can be done using your [mobile device management (MDM) provider](manage-settings-with-mdm-for-surface-hub.md) or through a [provisioning package](provisioning-packages-for-surface-hub.md).
-
-To configure QoS for Surface Hub using Microsoft Intune:
-
-1. In Intune, [create a custom policy](/intune/custom-settings-configure).
-2. In **Custom OMA-URI Settings**, select **Add**. For each setting that you add, you will enter a name, description (optional), data type, OMA-URI, and value.
-3. To ensure optimal video and audio quality on Surface Hub, add the following QoS settings to the device.
-
-| Name                  | Description           | OMA-URI                                                                        | Type    | Value       |
-| --------------------- | --------------------- | ------------------------------------------------------------------------------ | ------- | ----------- |
-| **Audio Ports**       | Audio Port range      | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsAudio/SourcePortMatchCondition      | String  | 3478-3479   |
-| **Audio DSCP**        | Audio ports marking   | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsAudio/DSCPAction                    | Integer | 46          |
-| **Video Port**        | Video Port range      | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsVideo/SourcePortMatchCondition      | String  | 3480        |
-| **Video DSCP**        | Video ports marking   | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsVideo/DSCPAction                    | Integer | 34          |
-| **Sharing Port**      | Sharing Port range    | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsSharing/SourcePortMatchCondition    | String  | 3481        |
-| **Sharing DSCP**      | Sharing ports marking | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsSharing/DSCPAction                  | Integer | 18          |
-| **P2P Audio Ports**   | Audio Port range      | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsP2PAudio/SourcePortMatchCondition   | String  | 50000-50019 |
-| **P2P Audio DSCP**    | Audio ports marking   | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsP2PAudio/DSCPAction                 | Integer | 46          |
-| **P2P Video Ports**   | Video Port range      | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsP2PVideo/SourcePortMatchCondition   | String  | 50020-50039 |
-| **P2P Video DSCP**    | Video ports marking   | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsP2PVideo/DSCPAction                 | Integer | 34          |
-| **P2P Sharing Ports** | Sharing Port range    | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsP2PSharing/SourcePortMatchCondition | String  | 50040-50059 |
-| **P2P Sharing DSCP**  | Sharing ports marking | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsP2PSharing/DSCPAction               | Integer | 18          |
+- Meetings joined from the Surface Hub Welcome Screen or new Agenda page are joining “Edge to Edge” to put people in the foreground.
+- Familiar meeting features including chat bubbles, reactions, desktop and application sharing, give and take control and audio, full PowerPoint live support, together mode, and large gallery.
+- Teams Rooms on Surface Hub can run side by side with other applications or run minimized.
+- Admins can configure features like Coordinated Meeting and Proximity Join for Surface Hub. [XML files](/microsoftteams/rooms/surface-hub-manage-config#teams-configuration-file-syntax) are supported and will be migrated to the new settings model.
+- New QoS Options and network requirements. To learn more, see Configure networking and Quality of Service for Microsoft Teams Room on Surface Hub***.***
+- Changes to Teams mode, replacing Skype for Business as the default collaboration and meeting app. To learn more, see [Deploy Microsoft Teams for Surface Hub](/MicrosoftTeams/teams-surface-hub).
 
 
-> [!IMPORTANT]
->
-> - Each **OMA-URI** path begins with ./Device/Vendor/MSFT/NetworkQoSPolicy. The full path for the audio source port setting, for example will be ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsAudio/SourcePortMatchCondition
+## In meeting experience
 
-4. When the policy has been created, deploy it to Surface Hub.
+Teams Rooms on Surface Hub Meetings experience is aligned to the familiar experience that users know from their personal devices with adjustments made to optimize for a large screen device. Opening Teams on Surface Hub lets users access key features including One-touch meeting join, Meet Now and Dial Pad for PSTN or peer-to-peer calls.
+
+
+## Manage Teams Rooms on Surface Hub
+
+When signed in with administrative credentials, you can customize the Teams experience directly from the Settings menu including:
+
+- Configure [Coordinated Meetings](/microsoftteams/rooms/coordinated-meetings) and Proximity join.
+- Adjust settings for default microphones, cameras, and speakers.
+- Check the client version and search for the latest updates.
+
+The new Teams Rooms for Surface Hub client, will automatically apply existing settings configured via XML files, provisioning packages, or an MDM provider. These methods, explained in [Manage Microsoft Teams configuration on Surface Hub](/microsoftteams/rooms/surface-hub-manage-config), will be superseded by new cloud-based solutions, as described in Simplified management of Teams coming to Surface Hub.
+ 
+## Prepare networking for Teams Rooms
+
+To optimize Teams Rooms refer to the requirements and recommendations described in Configure networking and Quality of Service for Microsoft Teams Room on Surface Hub.
+ 
+## Simplified management of Teams coming to Surface Hub
+
+When Teams Rooms for Surface Hub is publicly released later this year, admins can take advantage of the following solutions: 
+
+- **Teams Admin Center.** Teams Admin Center provides a comprehensive self-management platform to monitor and manage the Teams Rooms experience on Teams devices. Teams Admin Center will be available to Microsoft Teams Rooms users at no additional cost.
+- **Microsoft Teams Rooms managed service.** The [Microsoft Teams Rooms managed service](/microsoftteams/rooms/microsoft-teams-rooms-premium) is a cloud-based IT management and monitoring service that keeps Microsoft Teams Rooms devices and their peripherals up to date and proactively monitored, supporting an environment optimized for a great user experience.
