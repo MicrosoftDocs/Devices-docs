@@ -12,7 +12,7 @@ ms.reviewer:
 manager: laurawi
 ms.localizationpriority: medium
 ---
-# Microsoft Teams Room on Surface Hub (preview)
+# Microsoft Teams Rooms on Surface Hub (preview)
 
 Upon release in late 2021, Teams Rooms for Surface Hub will be installed on all Surface Hubs configured to receive automatic updates. The new experience, currently available as a [preview via the Windows Insider program](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/introducing-teams-rooms-on-surface-hub/ba-p/2118373), will replace the current [Surface Hub Teams app](hub-teams-app.md).
 

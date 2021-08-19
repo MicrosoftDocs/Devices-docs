@@ -33,6 +33,7 @@
 ### [Create provisioning packages for Surface Hub](provisioning-packages-for-surface-hub.md)
 ### [Install apps on your Microsoft Surface Hub](install-apps-on-surface-hub.md)
 ### [Create Surface Hub 2S on-premises accounts with PowerShell](/microsoftteams/rooms/with-skype-for-business-server-2015)
+### [Microsoft Teams Room on Surface Hub](surface-hub-teams-rooms.md)
 ### [Configure networking and Quality of Service for Microsoft Teams Room on Surface Hub](surface-hub-teams-rooms-networking.md)
 ### [Surface Hub Teams app](hub-teams-app.md)
 ### [Teams certified accessories for Surface Hub 2S](surface-hub-2s-certifications.md)

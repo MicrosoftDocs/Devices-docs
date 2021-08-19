@@ -13,7 +13,7 @@ manager: laurawi
 ms.localizationpriority: medium
 ---
 
-# Configure networking and Quality of Service for Microsoft Teams Room on Surface Hub
+# Configure networking and Quality of Service for Microsoft Teams Rooms on Surface Hub
 
 This article explains how to prepare your environment to optimize Microsoft Teams Rooms on Surface Hub.
 
@@ -68,3 +68,5 @@ To configure QoS for Surface Hub using Microsoft Intune:
 > - Each **OMA-URI** path begins with ./Device/Vendor/MSFT/NetworkQoSPolicy. The full path for the audio source port setting, for example will be ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsAudio/SourcePortMatchCondition
 
 4. When the policy has been created, deploy it to Surface Hub.
+
+Learn more
