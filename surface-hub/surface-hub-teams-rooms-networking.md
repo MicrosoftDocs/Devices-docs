@@ -32,10 +32,10 @@ Teams Rooms on Surface Hub must have access to a network that meets these requir
 - Access to your Active Directory or Azure Active Directory (Azure AD) instance
 - Access to a server that can provide an IP address using DHCP. Microsoft Teams Rooms on Surface Hub cannot be configured with a static IP address.
 - Access to HTTP ports 80 and 443.
-- TCP and UDP ports configured as described in Port and protocol requirements for [Microsoft 365 and Office 365 URLs and IP address ranges](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&rs=en-US&ad=US) for Microsoft Teams.
+- TCP and UDP ports configured as described in Port and protocol requirements for [Microsoft 365 and Office 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges) for Microsoft Teams.
 
 > [!IMPORTANT]
-> Microsoft Teams Rooms does not support proxy authentication as it may interfere with regular operations of Teams. Ensure that Surface Hub devices or Microsoft 365 service endpoints have been exempted from proxy authentication before going into production.
+> Microsoft Teams Rooms does not support proxy authentication as it may interfere with regular operations of Teams. Ensure that Surface Hub devices or Microsoft 365 service endpoints have been exempted from proxy authentication before going into production with Teams Rooms on Surface Hub.
 
 ## Implement Quality of Service (QoS) on Surface Hub
 
@@ -50,25 +50,15 @@ To configure QoS for Surface Hub using Microsoft Intune:
 
 | Name                  | Description           | OMA-URI                                                                        | Type    | Value       |
 | --------------------- | --------------------- | ------------------------------------------------------------------------------ | ------- | ----------- |
-| **Audio Ports**       | Audio Port range      | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsAudio/SourcePortMatchCondition      | String  | 3478-3479   |
+| **Audio Ports**       | Audio Port range      | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsAudio/SourcePortMatchCondition      | String  | 50000-50019 |
 | **Audio DSCP**        | Audio ports marking   | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsAudio/DSCPAction                    | Integer | 46          |
-| **Video Port**        | Video Port range      | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsVideo/SourcePortMatchCondition      | String  | 3480        |
+| **Video Port**        | Video Port range      | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsVideo/SourcePortMatchCondition      | String  | 50020-50039 |
 | **Video DSCP**        | Video ports marking   | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsVideo/DSCPAction                    | Integer | 34          |
-| **Sharing Port**      | Sharing Port range    | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsSharing/SourcePortMatchCondition    | String  | 3481        |
+| **Sharing Port**      | Sharing Port range    | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsSharing/SourcePortMatchCondition    | String  | 50040-50059 |
 | **Sharing DSCP**      | Sharing ports marking | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsSharing/DSCPAction                  | Integer | 18          |
-| **P2P Audio Ports**   | Audio Port range      | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsP2PAudio/SourcePortMatchCondition   | String  | 50000-50019 |
-| **P2P Audio DSCP**    | Audio ports marking   | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsP2PAudio/DSCPAction                 | Integer | 46          |
-| **P2P Video Ports**   | Video Port range      | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsP2PVideo/SourcePortMatchCondition   | String  | 50020-50039 |
-| **P2P Video DSCP**    | Video ports marking   | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsP2PVideo/DSCPAction                 | Integer | 34          |
-| **P2P Sharing Ports** | Sharing Port range    | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsP2PSharing/SourcePortMatchCondition | String  | 50040-50059 |
-| **P2P Sharing DSCP**  | Sharing ports marking | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsP2PSharing/DSCPAction               | Integer | 18          |
-
-> [!IMPORTANT]
->
-> - Each **OMA-URI** path begins with ./Device/Vendor/MSFT/NetworkQoSPolicy. The full path for the audio source port setting, for example will be ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsAudio/SourcePortMatchCondition
 
 4. When the policy has been created, deploy it to Surface Hub.
 
 ## Learn more
 
-- [Microsoft Teams Rooms on Surface Hub](surface-hub-teams-rooms.md)
+- [Implement Quality of Service (QoS) in Microsoft Teams](/microsoftteams/qos-in-teams)
