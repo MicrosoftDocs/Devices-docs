@@ -45,17 +45,19 @@ Configuring QoS for Microsoft Teams on the Surface Hub can be done using your [m
 To configure QoS for Surface Hub using Microsoft Intune:
 
 1. In Intune, [create a custom policy](/intune/custom-settings-configure).
+
 2. In **Custom OMA-URI Settings**, select **Add**. For each setting that you add, you will enter a name, description (optional), data type, OMA-URI, and value.
+
 3. To ensure optimal video and audio quality on Surface Hub, add the following QoS settings to the device.
 
-| Name                  | Description           | OMA-URI                                                                        | Type    | Value       |
-| --------------------- | --------------------- | ------------------------------------------------------------------------------ | ------- | ----------- |
-| **Audio Ports**       | Audio Port range      | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsAudio/SourcePortMatchCondition      | String  | 50000-50019 |
-| **Audio DSCP**        | Audio ports marking   | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsAudio/DSCPAction                    | Integer | 46          |
-| **Video Port**        | Video Port range      | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsVideo/SourcePortMatchCondition      | String  | 50020-50039 |
-| **Video DSCP**        | Video ports marking   | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsVideo/DSCPAction                    | Integer | 34          |
-| **Sharing Port**      | Sharing Port range    | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsSharing/SourcePortMatchCondition    | String  | 50040-50059 |
-| **Sharing DSCP**      | Sharing ports marking | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsSharing/DSCPAction                  | Integer | 18          |
+    | Name                  | Description           | OMA-URI                                                                        | Type    | Value       |
+    | --------------------- | --------------------- | ------------------------------------------------------------------------------ | ------- | ----------- |
+    | **Audio Ports**       | Audio Port range      | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsAudio/SourcePortMatchCondition      | String  | 50000-50019 |
+    | **Audio DSCP**        | Audio ports marking   | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsAudio/DSCPAction                    | Integer | 46          |
+    | **Video Port**        | Video Port range      | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsVideo/SourcePortMatchCondition      | String  | 50020-50039 |
+    | **Video DSCP**        | Video ports marking   | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsVideo/DSCPAction                    | Integer | 34          |
+    | **Sharing Port**      | Sharing Port range    | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsSharing/SourcePortMatchCondition    | String  | 50040-50059 |
+    | **Sharing DSCP**      | Sharing ports marking | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsSharing/DSCPAction                  | Integer | 18          |
 
 4. When the policy has been created, deploy it to Surface Hub.
 
