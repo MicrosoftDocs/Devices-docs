@@ -12,9 +12,9 @@ ms.reviewer:
 manager: laurawi
 ms.localizationpriority: medium
 ---
-# Microsoft Teams Rooms on Surface Hub (preview)
+# Microsoft Teams Rooms on Surface Hub
 
-Upon release in late 2021, Teams Rooms for Surface Hub will be installed on all Surface Hubs configured to receive automatic updates. The new experience, currently available as a [preview via the Windows Insider program](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/introducing-teams-rooms-on-surface-hub/ba-p/2118373), will replace the current [Surface Hub Teams app](hub-teams-app.md).
+Teams Rooms for Surface Hub will replace the current [Surface Hub Teams app](hub-teams-app.md) as part of a 4-week global rollout beginning September 23. For a demo of the new Teams experience, currently available as a preview via the Windows Insider program, see [Introducing Teams Rooms on Surface Hub](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/introducing-teams-rooms-on-surface-hub/ba-p/2118373).
 
 ## What’s new?
 
@@ -29,13 +29,19 @@ Upon release in late 2021, Teams Rooms for Surface Hub will be installed on all 
 
 Teams Rooms on Surface Hub Meetings experience is aligned to the familiar experience that users know from their personal devices with adjustments made to optimize for a large screen device. Opening Teams on Surface Hub lets users access key features including One-touch meeting join, Meet Now and Dial Pad for PSTN or peer-to-peer calls.
 
+:::image type="content" source="images/teamsroomsagendascreen.png" alt-text="Teams Rooms on Surface Hub Agenda.":::
+
+:::image type="content" source="images/teamsroomsmeeting.png" alt-text="Teams Rooms on Surface Hub Meeting.":::
+
 ## Manage Teams Rooms on Surface Hub
 
-When signed in with administrative credentials, you can customize the Teams experience directly from the Settings menu including:
+ You can customize the Teams experience directly from the Settings menu after entering administrative credentials, including:
 
 - Configure [Coordinated Meetings](/microsoftteams/rooms/coordinated-meetings) and Proximity join.
 - Adjust settings for default microphones, cameras, and speakers.
 - Check the client version and search for the latest updates.
+
+:::image type="content" source="images/teamsroomssetttings.png" alt-text="Teams Rooms Settings.":::
 
 The new Teams Rooms for Surface Hub client, will automatically apply existing settings configured via XML files, provisioning packages, or an MDM provider. These methods, explained in [Manage Microsoft Teams configuration on Surface Hub](/microsoftteams/rooms/surface-hub-manage-config), will be superseded by new cloud-based solutions, as described below in [Simplified management of Teams coming to Surface Hub](#simplified-management-of-teams-coming-to-surface-hub).
 
