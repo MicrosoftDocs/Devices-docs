@@ -14,7 +14,7 @@ ms.localizationpriority: medium
 ---
 # Microsoft Teams Rooms on Surface Hub
 
-Teams Rooms for Surface Hub will replace the current [Surface Hub Teams app](hub-teams-app.md) as part of a 4-week global rollout beginning September 23. For a demo of the new Teams experience, currently available as a preview via the Windows Insider program, see [Introducing Teams Rooms on Surface Hub](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/introducing-teams-rooms-on-surface-hub/ba-p/2118373).
+Teams Rooms for Surface Hub will automatically replace the current [Surface Hub Teams app](hub-teams-app.md) as part of a 4-week global rollout beginning September 23. For a demo of the new Teams experience, currently available as a preview via the Windows Insider program, see [Introducing Teams Rooms on Surface Hub](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/introducing-teams-rooms-on-surface-hub/ba-p/2118373).
 
 ## What’s new?
 
