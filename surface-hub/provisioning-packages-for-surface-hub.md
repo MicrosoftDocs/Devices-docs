@@ -38,21 +38,21 @@ Provisioning packages allow you to automate deployment of key features, helping 
 ## Use Surface Hub provisioning wizard
 
 1. Open Windows Configuration Designer and select **Provision Surface Hub devices**.<br>
-    ![Use the Surface Hub provisioning wizard](images/sh-prov-start.png)
+    ![Use the Surface Hub provisioning wizard.](images/sh-prov-start.png)
     
 2. Name your project and select **Next**.
 
 ### Add certificates
 
 > [!div class="mx-imgBorder"]
-> ![add a certificate](images/sh-prov-cert.png)
+> ![add a certificate.](images/sh-prov-cert.png)
 
 To provision the device with a certificate, select **Add a certificate**. Enter a name for the certificate, and then browse to select the certificate to be used.  For advanced provisioning options, refer to the section below [Add a certificate to your package](#add-a-certificate-to-your-package).
 
 ### Configure proxy settings
 
 > [!div class="mx-imgBorder"]
-> ![configure proxy settings](images/sh-prov-proxy.png)
+> ![configure proxy settings.](images/sh-prov-proxy.png)
 
 1. Toggle **Yes** or **No** for proxy settings. By default, Surface Hub automatically detects proxy settings. However, if your infrastructure previously required using a proxy server and has changed to not require a proxy server, you can use a provisioning package to revert your Surface Hub devices to the default settings by selecting **Yes** and **Automatically detect settings**.
 2. If you toggle **Yes**, you can select to automatically detect proxy settings or manually configure the settings by entering one of the following:
@@ -67,7 +67,7 @@ To provision the device with a certificate, select **Add a certificate**. Enter 
 ### Set up device admins
 
  > [!div class="mx-imgBorder"]
- > ![Join Active Directory, Azure AD, or create a local admin account](images/sh2-wcd.png)
+ > ![Join Active Directory, Azure AD, or create a local admin account.](images/sh2-wcd.png)
 
 You can enroll the device in Active Directory and specify a security group to use the Settings app, enroll in Azure Active Directory to allow global admins to use the Settings app, or create a local administrator account on the device.
 
@@ -82,7 +82,7 @@ You can enroll the device in Active Directory and specify a security group to us
 ### Enroll in third party MDM provider
 
 > [!div class="mx-imgBorder"]
-> ![Enroll in third party mobile device management](images/sh-prov-mdm.png)
+> ![Enroll in third party mobile device management.](images/sh-prov-mdm.png)
 
 If you use a third party mobile device management (MDM) provider, you can use this section to enroll Surface Hub. To enroll in Intune, first setup Azure AD join, as described in the previous section, and follow the instructions in the following Intune documentation: [Set up automatic enrollment for Windows 10 devices](/mem/intune/enrollment/quickstart-setup-auto-enrollment).
 
@@ -95,7 +95,7 @@ If you use a third party mobile device management (MDM) provider, you can use th
 ### Add applications
 
 > [!div class="mx-imgBorder"]
-> ![add an application](images/sh-prov-apps.png)
+> ![add an application.](images/sh-prov-apps.png)
 
 You can install multiple Universal Windows Platform (UWP) apps in a provisioning package. To learn more, see [Provision PCs with apps](/windows/configuration/provisioning-packages/provision-pcs-with-apps).
 
@@ -137,18 +137,18 @@ If you only need to configure common settings, select **Finish** > **Create** an
 ## Use Advanced provisioning
 
 > [!TIP]
-> Use the wizard to create a package with the common settings, then switch to the advanced editor to add other settings.<br><br> ![Switch to advanced editor](images/icd-simple-edit.png)
+> Use the wizard to create a package with the common settings, then switch to the advanced editor to add other settings.<br><br> ![Switch to advanced editor.](images/icd-simple-edit.png)
 
 1. If continuing from the previous section, select **Switch to advanced editor** otherwise
 open **Windows Configuration Designer** and select **Advanced provisioning**.
 
-   ![Use advanced provisioning](images/sh-prov-adv.png)
+   ![Use advanced provisioning.](images/sh-prov-adv.png)
 
 2. Name your project and select **Next**.
 
 3. Select **Common to Windows 10 Team**, select **Next**, and then select **Finish**.
 
-   ![WCD new project](images/icd-new-project.png)
+   ![WCD new project.](images/icd-new-project.png)
 
 4. In the project, under **Available customizations**, select **Common Team settings**.
 

@@ -25,7 +25,7 @@ To keep devices fully up to date, IT admins need to be able to manage devices wh
 Devices must have a wired connection with Surface Dock 2 and stay connected to AC Power.
 
 > [!div class="mx-imgBorder"]
-> ![Surface Dock 2](images/surface-dock2-angled.png)
+> ![Surface Dock 2.](images/surface-dock2-angled.png)
 
 > [!NOTE]
 > Waking devices connected to Surface Dock 2 does not require using Surface Enterprise Management Mode (SEMM) or enabling any UEFI policy settings.

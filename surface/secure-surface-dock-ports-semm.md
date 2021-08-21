@@ -101,15 +101,15 @@ When you have obtained or created the certificates, you’re ready to build the 
 
 1. Run Surface **UEFI Configurator**.
 
-   ![Run Surface UEFI Configurator](images/secure-surface-dock-ports-semm-1.png)
+   ![Run Surface UEFI Configurator.](images/secure-surface-dock-ports-semm-1.png)
 
 1. Select **Surface Dock**.
 
-   ![Select Surface Dock](images/secure-surface-dock-ports-semm-2.png)
+   ![Select Surface Dock.](images/secure-surface-dock-ports-semm-2.png)
 
 1. Enter the appropriate **certificates**  on the certificate page. Demo certificates are available from [Surface Tools for IT](https://www.microsoft.com/download/details.aspx?id=46703): Download **SEMM_PowerShell.zip** and refer to **CreateSurfaceDock2Certificates.ps1**. Make sure you install **SurfaceDock2_WmiInstanceProvider** before you run the demo scripts.
 
-   ![enter the appropriate certificates](images/secure-surface-dock-ports-semm-3.png)
+   ![enter the appropriate certificates.](images/secure-surface-dock-ports-semm-3.png)
 
 1. Add appropriate dock RNs to the list.
 
@@ -141,19 +141,19 @@ Objective: Configure policy settings to allow port access by authenticated users
 
 1. Turn on all ports for authenticated users and turn them off for unauthenticated users.
 
-   ![Enabling ports for authenticated users](images/secure-surface-dock-ports-semm-4.png)
+   ![Enabling ports for authenticated users.](images/secure-surface-dock-ports-semm-4.png)
 
 1. Apply the configuration package to your target device and then connect Surface Dock 2.
 
 1. Open **Surface App** and select **Surface Dock** to view the resultant policy state of your Surface Dock. If the policy settings are applied, Surface App will indicate that ports are available.
 
-   ![Surface app shows all ports are available for authenticated users](images/secure-surface-dock-ports-semm-5.png)
+   ![Surface app shows all ports are available for authenticated users.](images/secure-surface-dock-ports-semm-5.png)
 
 1. Now you need to verify that the policy settings have successfully turned off all ports for unauthenticated users. Connect Surface Dock 2 to an unmanaged device, i.e., any Surface device outside the scope of management for the configuration package you created.
 
 1. Open **Surface App** and select **Surface Dock**. The resultant policy state will indicate ports are turned off.
 
-   ![Surface app showing ports turned off for unauthenticated users ](images/secure-surface-dock-ports-semm-6.png)
+   ![Surface app showing ports turned off for unauthenticated users .](images/secure-surface-dock-ports-semm-6.png)
 
 >[!TIP]
 >If you want to keep ownership of the device, but allow all users full access, you can make a new package with everything turned on. If you wish to completely remove the restrictions and ownership of the device (make it unmanaged), select **Reset** in Surface UEFI Configurator to create a package to apply to target devices.

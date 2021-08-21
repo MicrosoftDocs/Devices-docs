@@ -85,7 +85,7 @@ If the device account gets into an unstable state or if the administrator accoun
 2. Under **Recover from the cloud**, select **Restart now**.
 
    > [!div class="mx-imgBorder"]
-   > ![recover from the cloud](images/recover-from-the-cloud.png)
+   > ![recover from the cloud.](images/recover-from-the-cloud.png)
 
 ### Recover a locked Surface Hub
 
@@ -107,22 +107,22 @@ On rare occasions, a Surface Hub may encounter an error while cleaning up user a
 
 7. Select **Cloud download.** 
 
-   ![Cloud download](images/recover-cloud-download.png)
+   ![Cloud download.](images/recover-cloud-download.png)
 
    >[!IMPORTANT]
    >If you get an error message indicating **Unable to Download**, select **Cancel** and then **Reset** again.
 
 8. Select **Fully clean the drive.**
  
-   ![recover and fully clean drive](images/recover-fully-clean-drive.png)
+   ![recover and fully clean drive.](images/recover-fully-clean-drive.png)
 
 9. You will be asked **Are you ready to reset this device?**. Select **Reset**. 
    
-   ![recover and confirm reset](images/recover-confirm-reset.png)
+   ![recover and confirm reset.](images/recover-confirm-reset.png)
 
 10. The download begins and the recovery process indicates **Resetting this device**.
 
-    ![recovery shown in progress](images/recover-in-progress.png)
+    ![recovery shown in progress.](images/recover-in-progress.png)
 
 ## Contact Support
 

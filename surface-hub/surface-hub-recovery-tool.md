@@ -64,31 +64,31 @@ Install Surface Hub Recovery Tool on the host PC.
 
 1. On the host PC, select the **Start** button, scroll through the alphabetical list on the left, and select the recovery tool shortcut.
 
-    ![Microsoft Surface Hub Recovery Tool shortcut](images/shrt-shortcut.png)
+    ![Microsoft Surface Hub Recovery Tool shortcut.](images/shrt-shortcut.png)
 
 2. Click **Start**.
 
-    ![Recovery Tool Start button](images/shrt-start.png)
+    ![Recovery Tool Start button.](images/shrt-start.png)
 
 
 3. In the **Guidance** window, click **Next**.
 
-    ![Do not let your machine go to sleep guidance](images/shrt-guidance.png)
+    ![Do not let your machine go to sleep guidance.](images/shrt-guidance.png)
 
 4. In the Select image window, click either **RS2** or its successor **20H2**, select **Continue,** and then select **Download image.**
 
-     ![Recovery Tool Select image](images/shrt-select-image.png)
-    ![Recovery Tool Download image](images/shrt-download-image.png)
+     ![Recovery Tool Select image.](images/shrt-select-image.png)
+    ![Recovery Tool Download image.](images/shrt-download-image.png)
 
 5. Time to download the recovery image is dependent on internet connection speeds. On an average corporate connection, it can take up to an hour to download the 8GB image file.
 
-    ![Downloading image](images/shrt-download.png)
+    ![Downloading image.](images/shrt-download.png)
 
 
 
 5. When the download is complete, the tool instructs you to connect an SSD drive. If the tool is unable to locate the attached drive, there is a good chance that the cable being used is not reporting the name of the SSD to Windows.  The imaging tool must find the name of the drive as "LITEON L CH-128V2S USB Device" before it can continue.  For more information on how to remove the existing drive from your Surface Hub, see [Surface Hub SSD replacement](surface-hub-ssd-replacement.md).
 
-    ![Connect SSD](images/shrt-drive.png)
+    ![Connect SSD.](images/shrt-drive.png)
 
 6. When the drive is recognized, click **Start** to begin the re-imaging process. On the warning that all data on the drive will be erased, click **OK**.
 

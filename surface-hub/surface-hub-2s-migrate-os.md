@@ -181,7 +181,7 @@ If you choose to restore your device to Windows 10 Team after the migration [as 
 1. Connect a USB drive to your PC.
 1. Choose **Hub 2S**, and then select **Next**.
 
-   ![Screenshot shows where to select Hub 2S](images/shm-fig13.png)
+   ![Screenshot shows where to select Hub 2S.](images/shm-fig13.png)
 
    > [!WARNING]
    > All existing data on the USB drive will be erased when the SEMM package is built. Before you build the SEMM package, remove any files that you need from the USB drive.

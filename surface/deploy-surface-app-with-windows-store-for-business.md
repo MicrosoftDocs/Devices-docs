@@ -64,7 +64,7 @@ Before users can install or deploy an app from a company’s Microsoft Store for
 3. Enable offline licensing: click **Manage** > **Settings** and then select the **Show offline licensed apps to people shopping in the store** checkbox, as shown in Figure 1. For more information about Microsoft Store for Business app licensing models, see [Apps in Microsoft Store for Business and Education](/microsoft-store/).
 
    > [!div class="mx-imgBorder"]
-   > ![Show offline licenses apps checkbox](images/deploysurfapp-figure1-enablingapps.png "Show offline licenses apps checkbox")<br/>
+   > ![Show offline licenses apps checkbox.](images/deploysurfapp-figure1-enablingapps.png "Show offline licenses apps checkbox")<br/>
    *Figure 1. Enable apps for offline use*
 
 4. Add Surface app to your Microsoft Store for Business account:
@@ -76,7 +76,7 @@ Before users can install or deploy an app from a company’s Microsoft Store for
     * You are presented with a choice (select **Online** or **Offline**), as shown in Figure 2.
     
       > [!div class="mx-imgBorder"]
-      > ![Select the Offline licensing mode and add the app to your inventory](images/deploysurfapp-fig2-selectingofflinelicense.png "Select the Offline licensing mode and add the app to your inventory")   
+      > ![Select the Offline licensing mode and add the app to your inventory.](images/deploysurfapp-fig2-selectingofflinelicense.png "Select the Offline licensing mode and add the app to your inventory")   
       *Figure 2. Select the Offline licensing mode and add the app to your inventory*
     
     * Click **Offline** to select the Offline licensing mode.
@@ -84,7 +84,7 @@ Before users can install or deploy an app from a company’s Microsoft Store for
     * Click **Get the app** to add the app to your Microsoft Store for Business inventory. As shown in Figure 3, you’ll see a dialog box that prompts you to acknowledge that offline apps can be deployed using a management tool or downloaded from the company’s inventory page in their private store.
     
       > [!div class="mx-imgBorder"]
-      > ![Offline-licensed app acknowledgement window](images/deploysurfapp-fig3-acknowledge.png "Offline-licensed app acknowledgement window")
+      > ![Offline-licensed app acknowledgement window.](images/deploysurfapp-fig3-acknowledge.png "Offline-licensed app acknowledgement window")
       *Figure 3. Offline-licensed app acknowledgement*
       
     * Click **OK**.
@@ -101,7 +101,7 @@ After you add an app to the Microsoft Store for Business account in Offline mode
 4. Select the desired **Platform** and **Architecture** options from the available selections for the selected app, as shown in Figure 4.
 
     > [!div class="mx-imgBorder"]
-    > ![Example of the AppxBundle package](images/deploysurfapp-fig4-downloadappxbundle.png "Example of the AppxBundle package")<br/>
+    > ![Example of the AppxBundle package.](images/deploysurfapp-fig4-downloadappxbundle.png "Example of the AppxBundle package")<br/>
     *Figure 4. Download the AppxBundle package for an app*
     
 5. Click **Download**. The AppxBundle package will be downloaded. Make sure you note the path of the downloaded file because you’ll need that later in this article.
@@ -116,7 +116,7 @@ After you add an app to the Microsoft Store for Business account in Offline mode
 Figure 5 shows the required frameworks for the Surface app.
 
 > [!div class="mx-imgBorder"]
-> ![Required frameworks for the Surface app](images/deploysurfapp-fig5-requiredframework.png "Required frameworks for the Surface app")<br/>
+> ![Required frameworks for the Surface app.](images/deploysurfapp-fig5-requiredframework.png "Required frameworks for the Surface app")<br/>
 *Figure 5. Required frameworks for the Surface app*
 
 >[!NOTE]

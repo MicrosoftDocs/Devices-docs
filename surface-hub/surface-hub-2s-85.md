@@ -21,7 +21,7 @@ The 85" version of the Surface Hub family brings the Surface Hub 2S experience t
 - **Consistent Surface Hub 2S experience.** Provides the same premium design, 4K display technology, touch, pen/ink, compute cartridge, and camera support as Surface Hub 2S 50”.
 - **Integration with existing and new A/V systems.** Combines with Microsoft Teams certified peripherals and integrates with Microsoft Teams Rooms.
 
-![Surface Hub 2S 85"](images/hub-2s-85.png)
+![Surface Hub 2S 85".](images/hub-2s-85.png)
 
 ## Surface Hub 2S 85" tech specs
 

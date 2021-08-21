@@ -53,11 +53,11 @@ To enable Surface driver updates management in Configuration Manager, follow the
 1. On the ribbon, select **Configure Site Components**, and then select **Software Update Point**. Or, right-click the site, and then select **Configure Site Components** > **Software Update Point**.
 1. On the **Classifications** tab, select the **Include Microsoft Surface drivers and firmware updates** check box.
 
-   ![Software Update Point Component Properties](images/manage-surface-driver-updates-1.png)
+   ![Software Update Point Component Properties.](images/manage-surface-driver-updates-1.png)
 
 1. When you're prompted by the following warning message, select **OK**.
 
-   ![Configuration Manager](images/manage-surface-driver-updates-2.png)
+   ![Configuration Manager.](images/manage-surface-driver-updates-2.png)
 
 1. On the Products tab, select the products that you want to update, and then select **OK**.
 
@@ -100,7 +100,7 @@ To verify that the SUP is configured correctly, follow these steps:
 
 1. Open WCM.log, and then look for an entry that resembles the following:
 
-   ![WCM.log settings](images/manage-surface-driver-updates-3.png)
+   ![WCM.log settings.](images/manage-surface-driver-updates-3.png)
 
    This entry is an XML element that lists every product group and classification that's currently synchronized by your SUP server. For example, you might see an entry that resembles the following:
 
@@ -116,7 +116,7 @@ To verify that the SUP is configured correctly, follow these steps:
 
    You can also wait until the next synchronization finishes, and then check whether the Surface driver and firmware updates are listed in Software Updates in the Configuration Manager console. For example, the console might display the following information.
 
-   ![All Software Updates Search Results](images/manage-surface-driver-updates-4.png)
+   ![All Software Updates Search Results.](images/manage-surface-driver-updates-4.png)
 
 ## Manual synchronization
 

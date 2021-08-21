@@ -28,4 +28,4 @@ There are a few scenarios where you need to specify the domain name of your Skyp
    > [!TIP]
    > You can type multiple domain names, separated by commas. <br> For example: lync.com, outlook.com, lync.glbdns.microsoft.com
 
-    ![Add Skype for Business FQDN to Settings](images/system-settings-add-fqdn.png)
+    ![Add Skype for Business FQDN to Settings.](images/system-settings-add-fqdn.png)
