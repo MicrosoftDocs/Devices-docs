@@ -119,7 +119,7 @@ Successful completion of Surface Dock 1 Firmware Update results in new registry 
 
 2. Look for the registry keys: **Component10CurrentFwVersion and Component20CurrentFwVersion**, which refer to the firmware that is currently on the device.
 
-   ![Surface Dock 1 Firmware Update installation process](images/regeditDock.png)
+   ![Surface Dock 1 Firmware Update installation process.](images/regeditDock.png)
 
 3. Verify the new registry key values match the updated registry key values listed in the Versions reference at the end of this document. If the values match, the firmware was updated successfully.
 

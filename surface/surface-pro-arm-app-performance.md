@@ -17,7 +17,7 @@ ms.audience: itpro
 
 
 
- ![Image of PC user](images/4527790_en_4.png)<br><br>
+ ![Image of PC user.](images/4527790_en_4.png)<br><br>
 
 
 

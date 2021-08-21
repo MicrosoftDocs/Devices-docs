@@ -43,7 +43,7 @@ Plus settings based on the new [NetworkQoSPolicy CSP](https://msdn.microsoft.com
 
 An easy-to-use wizard helps you quickly create provisioning packages that you can apply to multiple Surface Hub devices, and includes bulk join to Azure Active Directory. [Learn how to create a provisioning package for Surface Hub.](provisioning-packages-for-certificates-surface-hub.md)
 
-![steps in the provision Surface Hub devices wizard](images/wcd-wizard.png)
+![steps in the provision Surface Hub devices wizard.](images/wcd-wizard.png)
     
 ## Miracast on your existing wireless network or LAN 
 
@@ -56,13 +56,13 @@ When you reset a Surface Hub device, you now have the ability to download and in
 >[!NOTE]
 >Cloud recovery doesn't work if you use proxy servers.
     
-![Reinstall](images/reinstall.png)
+![Reinstall.](images/reinstall.png)
     
 ## End session
 
 **I'm done** is now **End session**. [Learn how to use End session.](finishing-your-surface-hub-meeting.md) 
 
-![end session](images/end-session.png)
+![end session.](images/end-session.png)
 
 
 

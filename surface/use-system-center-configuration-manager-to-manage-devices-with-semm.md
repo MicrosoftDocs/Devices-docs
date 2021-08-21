@@ -75,7 +75,7 @@ To create a new application and deploy it to a collection that contains your Sur
 
    * **Import Information** – The Create Application Wizard will parse the .msi file and read the **Application Name** and **Product Code**. SurfaceUEFIManagerSetup.msi should be listed as the only file under the line **Content Files**, as shown in Figure 1. Select **Next** to proceed.
 
-      ![Information from Surface UEFI Manager setup is automatically parsed](images/config-mgr-semm-fig1.png "Information from Surface UEFI Manager setup is automatically parsed")
+      ![Information from Surface UEFI Manager setup is automatically parsed.](images/config-mgr-semm-fig1.png "Information from Surface UEFI Manager setup is automatically parsed")
 
       *Figure 1. Information from Microsoft Surface UEFI Manager setup is automatically parsed*
 
@@ -418,7 +418,7 @@ To add the SEMM Configuration Manager scripts to Configuration Manager as an app
      * **General Information** – Enter a name for the deployment type (for example SEMM Configuration Scripts), and then select **Next** to continue.
      * **Content** – Select **Browse** next to the **Content Location** field, and then select the folder where your SEMM Configuration Manager scripts are located. In the **Installation Program** field, type the [installation command](#deploy-semm-configuration-manager-scripts) found earlier in this article. In the **Uninstall Program** field, enter the [uninstallation command](#deploy-semm-configuration-manager-scripts) found earlier in this article (shown in Figure 2). Select **Next** to move to the next page.
     
-     ![Set the SEMM Configuration Manager scripts as the install and uninstall commands](images/config-mgr-semm-fig2.png "Set the SEMM Configuration Manager scripts as the install and uninstall commands")
+     ![Set the SEMM Configuration Manager scripts as the install and uninstall commands.](images/config-mgr-semm-fig2.png "Set the SEMM Configuration Manager scripts as the install and uninstall commands")
 
      *Figure 2. Set the SEMM Configuration Manager scripts as the install and uninstall commands*
 
@@ -433,7 +433,7 @@ To add the SEMM Configuration Manager scripts to Configuration Manager as an app
        - Enter the name of the certificate you entered in line 58 of the script in the **Value** field.
        - Select **OK** to close the **Detection Rule** window.
 
-     ![Use a registry key to identify devices enrolled in SEMM](images/config-mgr-semm-fig3.png "Use a registry key to identify devices enrolled in SEMM")
+     ![Use a registry key to identify devices enrolled in SEMM.](images/config-mgr-semm-fig3.png "Use a registry key to identify devices enrolled in SEMM")
      
      *Figure 3. Use a registry key to identify devices enrolled in SEMM*
 

@@ -39,7 +39,7 @@ Previously, managing firmware required enrolling devices into Surface Enterprise
 
  With integrated UEFI firmware management capabilities in Microsoft Intune, the ability to lock down hardware is simplified and easier to use with new features for provisioning, security, and streamlined updating all in a single console, now unified as [Microsoft Endpoint Manager](https://www.microsoft.com/microsoft-365/microsoft-endpoint-manager). The following figure shows UEFI settings viewed directly on the device (left) and viewed in the Endpoint Manager console (right).
 
-![UEFI settings shown on device (left) and in the Endpoint Manager console (right)](images/uefidfci.png)
+![UEFI settings shown on device (left) and in the Endpoint Manager console (right).](images/uefidfci.png)
 
 Crucially, DFCI enables zero touch management, eliminating the need for manual interaction by IT admins. DFCI is deployed via Windows Autopilot using the device profiles capability in Intune. A device profile allows you to add and configure settings which can then be deployed to devices enrolled in management within your organization. Once the device receives the device profile, the features and settings are applied automatically. Examples of common device profiles include Email, Device restrictions, VPN, Wi-Fi, and Administrative templates. DFCI is simply an additional device profile that enables you to manage UEFI configuration settings from the cloud without having to maintain on-premises infrastructure.  
 
@@ -81,12 +81,12 @@ Before configuring DFCI policy settings, first create a DFCI profile and assign 
 3. Select **Windows 10 and later** for platform type.
 4. In the Profile type drop down list, select **Device Firmware Configuration Interface** to open the DFCI blade containing all available policy settings. For information on DFCI settings, refer to Table 1 on this page or the [Intune documentation](/intune/configuration/device-firmware-configuration-interface-windows). You can configure DFCI settings during the initial setup process or later by editing the DFCI profile.
 
-    ![Create DFCI profile](images/df1.png)
+    ![Create DFCI profile.](images/df1.png)
 
 5. Click **OK** and then select **Create**.
 6. Select **Assignments** and under **Select groups to include** select the Azure AD security group that contains your target devices, as shown in the following figure. Click **Save**.
 
-    ![Assign security group](images/df2a.png)
+    ![Assign security group.](images/df2a.png)
 
 ## Create Autopilot profile
 
@@ -99,7 +99,7 @@ Before configuring DFCI policy settings, first create a DFCI profile and assign 
 
 4. Leave the remaining default settings unchanged and select **Next**, as shown in the following figure.
 
-    ![Create Autopilot profile](images/df3b.png)
+    ![Create Autopilot profile.](images/df3b.png)
 
 5. On the Assignments page, choose **Select groups to include** and click your Azure AD security group. Select **Next**.
 6. Accept the summary and then select **Create**. The Autopilot profile is now created and assigned to the group.
@@ -119,7 +119,7 @@ You configure DFCI policy settings by editing the DFCI profile from Endpoint Man
 
 - In Endpoint Manager at  devicemanagement.microsoft.com, select **Devices > Windows > Configuration Profiles > “DFCI profile name” > Properties > Settings**.
 
-    ![Configure DFCI settings](images/dfciconfig.png)
+    ![Configure DFCI settings.](images/dfciconfig.png)
 
 ### Block user access to UEFI settings
 
@@ -166,7 +166,7 @@ In a test environment, you can verify settings in the Surface UEFI interface.
 1. Open Surface UEFI, which involves pressing the **Volume +** and **Power** buttons at the same time.
 2. Select **Devices**. The UEFI menu will reflect configured settings, as shown in the following figure.
 
-    ![Surface UEFI](images/df3.png)
+    ![Surface UEFI.](images/df3.png)
 
     Note how:
 

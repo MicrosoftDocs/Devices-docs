@@ -53,7 +53,7 @@ These packages contain a configuration file that specifies the UEFI settings. SE
 >[!TIP]
 >You can now use Surface UEFI Configurator and SEMM to manage ports on Surface Dock 2. To learn more, see [Secure Surface Dock 2 ports with SEMM](secure-surface-dock-ports-semm.md).
 
-![Microsoft Surface UEFI Configurator](images/surface-ent-mgmt-fig1-uefi-configurator.png "Microsoft Surface UEFI Configurator")
+![Microsoft Surface UEFI Configurator.](images/surface-ent-mgmt-fig1-uefi-configurator.png "Microsoft Surface UEFI Configurator")
 
 *Figure 1. Microsoft Surface UEFI Configurator*
 
@@ -71,7 +71,7 @@ You can download Microsoft Surface UEFI Configurator from the [Surface Tools for
 
 Surface UEFI configuration packages are the primary mechanism to implement and manage SEMM on Surface devices. These packages contain a configuration file and a certificate file, as shown in Figure 2. The configuration file contains UEFI settings that are specified when the package is created in Microsoft Surface UEFI Configurator. When a configuration package runs for the first time on a Surface device that's not already enrolled in SEMM, it provisions the certificate file in the device’s firmware and enrolls the device in SEMM. When enrolling a device in SEMM, and before the certificate is stored and the enrollment finishes, you're prompted to confirm the operation by providing the last two digits of the SEMM certificate thumbprint. This confirmation requires a user to be physically present at the device during enrollment to perform the confirmation.
 
-![Secure a SEMM configuration package with a certificate](images/surface-ent-mgmt-fig2-securepackage.png "Secure a SEMM configuration package with a certificate")
+![Secure a SEMM configuration package with a certificate.](images/surface-ent-mgmt-fig2-securepackage.png "Secure a SEMM configuration package with a certificate")
 
 *Figure 2. Secure a SEMM configuration package with a certificate*
 
@@ -124,13 +124,13 @@ The following list shows all the available devices that you can manage in SEMM:
 >[!TIP]
 >When you create a SEMM configuration package, two characters are shown on the **Successful** page, as shown in Figure 3.
 
-![Certificate thumbprint display](images/surface-ent-mgmt-fig5-success.png "Certificate thumbprint display")
+![Certificate thumbprint display.](images/surface-ent-mgmt-fig5-success.png "Certificate thumbprint display")
 
 *Figure 3. Display of the last two characters of the certificate thumbprint on the Successful page*
 
 These characters are the last two characters of the certificate thumbprint and should be written down or recorded. The characters are required to confirm enrollment in SEMM on a Surface device, as shown in Figure 4.
 
-![Enrollment confirmation in SEMM](images/surface-ent-mgmt-fig6-enrollconfirm.png "Enrollment confirmation in SEMM")
+![Enrollment confirmation in SEMM.](images/surface-ent-mgmt-fig6-enrollconfirm.png "Enrollment confirmation in SEMM")
 
 *Figure 4. Enrollment confirmation in SEMM with the SEMM certificate thumbprint*
 
@@ -158,7 +158,7 @@ A Surface UEFI reset package is used to perform only one task — to unenroll a 
 In some scenarios, it might be impossible to use a Surface UEFI reset package. (For example, if Windows becomes unusable on the Surface device.) In these scenarios you can unenroll the Surface device from SEMM through the **Enterprise Management** page of Surface UEFI (shown in Figure 5) with a Recovery Request operation.
 
 > [!div class="mx-imgBorder"]
-> ![Initiate a SEMM recovery request](images/surface-ent-mgmt-fig7-semmrecovery.png "Initiate a SEMM recovery request")
+> ![Initiate a SEMM recovery request.](images/surface-ent-mgmt-fig7-semmrecovery.png "Initiate a SEMM recovery request")
 
 *Figure 5. Initiate a SEMM recovery request on the Enterprise Management page*
 

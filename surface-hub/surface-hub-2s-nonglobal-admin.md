@@ -40,7 +40,7 @@ First create a security group containing the admin accounts. Then create another
 1. Sign into Intune via the [Microsoft Endpoint Manager admin center](https://go.microsoft.com/fwlink/?linkid=2109431), select **Groups** > **New Group** > and under Group type, select **Security.** 
 2. Enter a Group name -- for example, **Surface Hub Local Admins** -- and then select **Create.** 
 
-     ![Create security group for Hub admins](images/sh-create-sec-group.png)
+     ![Create security group for Hub admins.](images/sh-create-sec-group.png)
 
 3. Open the group, select **Members**, and then choose **Add members** to enter the Administrator accounts that you wish to designate as non Global admins on Surface Hub. To learn more about creating groups in Intune, see  [Add groups to organize users and devices](/mem/intune/fundamentals/groups-add).
 
@@ -48,7 +48,7 @@ First create a security group containing the admin accounts. Then create another
 
 1. Repeat the previous procedure to create a separate security group for Hub devices; for example, **Surface Hub devices**. 
 
-     ![Create security group for Hub devices](images/sh-create-sec-group-devices.png) 
+     ![Create security group for Hub devices.](images/sh-create-sec-group-devices.png) 
 
 ## Obtain Azure AD Group SID using PowerShell
 
@@ -72,7 +72,7 @@ First create a security group containing the admin accounts. Then create another
 
 5. In Intune, select the group you created earlier and copy the Object id, as shown in the following figure. 
 
-     ![Copy Object id of security group](images/sh-objectid.png)
+     ![Copy Object id of security group.](images/sh-objectid.png)
 
 6. Run the following commandlet to get the security group's SID:
 
@@ -117,7 +117,7 @@ First create a security group containing the admin accounts. Then create another
     ```
 6. Under Data type, select **String XML** and browse to open the XML file you created in the previous step. 
 
-     ![upload local admin xml config file](images/sh-local-admin-config.png)
+     ![upload local admin xml config file.](images/sh-local-admin-config.png)
 
 7. Click **Save**.
 8. Click **Select groups to include** and choose the [security group you created earlier](#create-security-group-for-surface-hub-devices) (**Surface Hub devices**). Click **Next.**

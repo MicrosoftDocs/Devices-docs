@@ -26,17 +26,17 @@ Successfully running SDT can quickly determine if a reported issue is caused by 
 
 2. Begin at the home page, which allows users to enter a description of the issue, and click **Continue**, as shown in figure 1.
 
-    ![Start SDT in desktop mode](images/sdt-desk-1.png)
+    ![Start SDT in desktop mode.](images/sdt-desk-1.png)
 *Figure 1. SDT in desktop mode*
 
 3. When SDT indicates the device has the latest updates, click **Continue** to advance to the catalog of available tests, as shown in figure 2.
 
-    ![Select from SDT options](images/sdt1.png)
+    ![Select from SDT options.](images/sdt1.png)
 *Figure 2. Select from SDT options*
 
 4. You can choose to run all the diagnostic tests. Or, if you already suspect a particular issue such as a faulty display or a power supply problem, click **Select** to choose from the available tests and click **Run Selected**, as shown in figure 3. See the following table for details of each test. 
 
-    ![Select hardware tests](images/sdt2.png)
+    ![Select hardware tests.](images/sdt2.png)
 *Figure 3. Select hardware tests*
 
     Hardware test | Description
@@ -58,7 +58,7 @@ Successfully running SDT can quickly determine if a reported issue is caused by 
 
 6. If the issue isn't resolved or you don't know, you can submit a Support ticket by selecting **Contact us** to **Get help now.**
  
- ![Submit a Support ticket](images/sdt4.png)
+ ![Submit a Support ticket.](images/sdt4.png)
 *Figure 3b. Submit a Support ticket*
 
 <span id="multiple" />
@@ -69,7 +69,7 @@ SDT is designed as an interactive tool that runs a series of tests. For each tes
 
 For each test, if functionality does not work as expected and the user clicks **No**, SDT generates a report of the possible causes and ways to troubleshoot it. 
 
-![Running hardware diagnostics](images/sdt-desk-4.png)
+![Running hardware diagnostics.](images/sdt-desk-4.png)
 *Figure 4. Running hardware diagnostics*
 
 1. If the brightness successfully adjusts from 0-100 percent as expected, direct the user to click **Yes** and then click **Continue**. 
@@ -81,7 +81,7 @@ For each test, if functionality does not work as expected and the user clicks **
 
 SDT enables you to diagnose and repair applications that may be causing issues, as shown in figure 5.
 
-![Running repairs](images/sdt-desk-5.png)
+![Running repairs.](images/sdt-desk-5.png)
 *Figure 5. Running repairs*
 <span id="logs" />
 
@@ -89,7 +89,7 @@ SDT enables you to diagnose and repair applications that may be causing issues, 
 
 SDT provides extensive log-enabled diagnosis support across applications, drivers, hardware, and operating system issues, as shown in figure 6.
 
-![Generating logs](images/sdt-desk-6.png)
+![Generating logs.](images/sdt-desk-6.png)
 *Figure 6. Generating logs*
 
 <span id="detailed-report" />

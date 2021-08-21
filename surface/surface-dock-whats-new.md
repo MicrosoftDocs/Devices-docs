@@ -46,7 +46,7 @@ Surface Dock 2 is designed to simplify IT management, enabling admins to automat
 
 ## Surface Dock 2 Components
 
-![Surface Dock 2 Components](./images/surface-dock2.png)
+![Surface Dock 2 Components.](./images/surface-dock2.png)
  
 ### USB
 
