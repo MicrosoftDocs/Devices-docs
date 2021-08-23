@@ -21,31 +21,31 @@ You might need to remove the solid state drive (SSD) from your Surface Hub so th
 
 1. Locate the SSD compartment door on the rear, upper portion of the Surface Hub in the locations illustrated below. The door is identifiable as it doesn't have open ventilation slots.
 
-    ![SSD compartment door](images/ssd-location.png)
+    ![SSD compartment door.](images/ssd-location.png)
 
     *Surface Hub hard drive locations*
 
 2. Locate the locking tab on the hard drive compartment door. On the Surface Hub 55, the locking tab will be located on the left-hand side of the door. On the Surface Hub 84, it will be on the right-hand side as shown in the illustration.
 
-    ![SSD compartment locking tab](images/ssd-lock-tab.png)
+    ![SSD compartment locking tab.](images/ssd-lock-tab.png)
 
     *Locking tab on hard drive compartment door*
 
 3. Lift open the compartment door to access the hard drive.
 
-    ![Lift](images/ssd-lift-door.png)
+    ![Lift.](images/ssd-lift-door.png)
 
     *Lift compartment door*
 
 4. Locate the pull tab, which may be partially hidden under the rear cover. Pull on the tab to eject the hard drive from the compartment.
 
-    ![Pull](images/ssd-pull-tab.png)
+    ![Pull.](images/ssd-pull-tab.png)
 
     *Pull tab*
 
 5. Slide the replacement drive into place until you hear it click.
 
-    ![Slide in drive](images/ssd-click.png)
+    ![Slide in drive.](images/ssd-click.png)
     
     *Slide replacement drive into place*
 

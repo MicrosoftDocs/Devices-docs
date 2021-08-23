@@ -34,7 +34,7 @@ Surface Hub security systems include the following:
 
 The SoC has a security processor that's separate from every other core. When you first start Surface Hub, only the security processor starts before anything else can be loaded.
 
-![Hub startup boot phases showing security processor protections](images/hub-sec-1.png)
+![Hub startup boot phases showing security processor protections.](images/hub-sec-1.png)
 
 #### Secure Boot
 
@@ -90,7 +90,7 @@ At a high level, during the factory provisioning process, Surface Hub UEFI is pr
 
 When managed via Microsoft Surface Enterprise Management Mode (SEMM), IT admins can deploy UEFI settings on Hub devices across an organization. This includes the ability to enable or disable built-in hardware components, protect UEFI settings from being changed by unauthorized users, and adjust boot settings.
 
-![Surface Hub UEFI settings](images/hub-sec-2.png)
+![Surface Hub UEFI settings.](images/hub-sec-2.png)
 
 Admins can implement SEMM and enrolled Surface Hub 2S devices using the downloadable [Microsoft Surface UEFI Configurator](https://www.microsoft.com/download/details.aspx?id=46703). For more information, see [Secure and manage Surface Hub 2S with SEMM and UEFI](https://docs.microsoft.com/surface-hub/surface-hub-2s-secure-with-uefi-semm).
 Secured using a certificate to protect the configuration from unauthorized tampering or removal, SEMM enables management of the following components:

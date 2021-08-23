@@ -20,7 +20,7 @@ Surface Hub 2S provides an on-screen display for volume, brightness, and input c
 
 - Press and hold the **Source** button for 4 seconds.
 
-  ![Surface Hub 2S on-screen display](images/sh2-onscreen-display.png)<br>
+  ![Surface Hub 2S on-screen display.](images/sh2-onscreen-display.png)<br>
 
  When the on-screen display is visible, use one or more buttons to reach desired settings.
  

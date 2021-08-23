@@ -24,7 +24,7 @@ This section describes how to update pen firmware via the automated maintenance 
 1. Ensure the Surface Hub 2 pen is paired to Surface Hub 2S: Press and hold the **top** button until the white indicator LED light begins to blink.
 
     > [!div class="mx-imgBorder"]
-    > ![Surface Hub 2 pen](images/sh2-pen-1.png)
+    > ![Surface Hub 2 pen.](images/sh2-pen-1.png)
 
 2. On Surface Hub, login as an Admin, open **Settings**, and then scan for new Bluetooth devices.
 
@@ -39,7 +39,7 @@ You can update the firmware on Surface Hub 2 pen from a separate PC running Wind
 1. Pair the Surface Hub 2 pen to your Bluetooth-capable PC: Press and hold the **top** button until the white indicator LED light begins to blink.
 
     > [!div class="mx-imgBorder"]
-    > ![Surface Hub 2 pen](images/sh2-pen-1.png)
+    > ![Surface Hub 2 pen.](images/sh2-pen-1.png)
 
 2. On the PC, scan for new Bluetooth devices.
 

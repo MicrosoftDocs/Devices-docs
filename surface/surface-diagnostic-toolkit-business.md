@@ -62,7 +62,7 @@ To create an SDT package that you can distribute to users in your organization:
     >[!NOTE]
     >If the setup wizard does not appear, ensure that you are signed into the Administrator account on your computer.
 
-    ![welcome to the Surface Diagnostic Toolkit setup wizard](images/sdt-1.png)
+    ![welcome to the Surface Diagnostic Toolkit setup wizard.](images/sdt-1.png)
 
     *Figure 1. Surface Diagnostic Toolkit setup wizard*
 
@@ -74,7 +74,7 @@ To create an SDT package that you can distribute to users in your organization:
     >[!NOTE]
     >The standard option allows users to run the diagnostic tool directly on their Surface device provided they are signed into their device using an Administrator account.
 
-     ![Install Options: Advanced](images/sdt-install.png)
+     ![Install Options: Advanced.](images/sdt-install.png)
 
 7. Click **Next** and then click **Install**.
 
@@ -105,7 +105,7 @@ Both SDT and the SDT app console are installed at `C:\Program Files\Microsoft\Su
 
 In addition to the .exe file, SDT installs a JSON file and an admin.dll file (modules\admin.dll), as shown in figure 2.
 
-![list of SDT installed files in File Explorer](images/sdt-2.png)
+![list of SDT installed files in File Explorer.](images/sdt-2.png)
 
 *Figure 2. Files installed by SDT*
 
@@ -116,7 +116,7 @@ Creating a custom package allows you to target the tool to specific known issues
 1. Click **Start > Run**, enter **Surface** and then click **Surface Diagnostic Toolkit for Business**.
 2. When the tool opens, click **Create Custom Package**, as shown in figure 3.
 
-    ![Create custom package option](images/sdt-3.png)
+    ![Create custom package option.](images/sdt-3.png)
 
     *Figure 3. Create custom package*
 
@@ -127,7 +127,7 @@ Creating a custom package allows you to target the tool to specific known issues
 >[!NOTE]
 >This setting does not affect the minimal telemetry automatically stored on Microsoft servers when running tests and repairs that require an Internet connection, such as Windows Update and Software repair, or providing feedback using the Smile or Frown buttons in the app toolbar.
 
-![Select language and telemetry settings](images/sdt-4.png)
+![Select language and telemetry settings.](images/sdt-4.png)
 
 *Figure 4. Select language and telemetry settings*
 
@@ -135,7 +135,7 @@ Creating a custom package allows you to target the tool to specific known issues
 
 Select the option appropriate for your organization. Most organizations with multiple users will typically select to receive updates via Windows Server Update Services (WSUS), as shown in figure 5. If using local Windows Update packages or WSUS, enter the path as appropriate.
 
-![Select Windows Update option](images/sdt-5.png)
+![Select Windows Update option.](images/sdt-5.png)
 
 *Figure 5. Windows Update option*
 
@@ -143,7 +143,7 @@ Select the option appropriate for your organization. Most organizations with mul
 
 This allows you to select or remove the option to run software repair updates.
 
-![Select software repair option](images/sdt-6.png)
+![Select software repair option.](images/sdt-6.png)
 
 *Figure 6. Software repair option*
 
@@ -151,7 +151,7 @@ This allows you to select or remove the option to run software repair updates.
 
 You can select to run a wide range of logs across applications, drivers, hardware, and the operating system. Click the appropriate area and select from the menu of available logs. You can then save the package to a software distribution point or equivalent location that users can access.
 
-![Select log options](images/sdt-7.png)
+![Select log options.](images/sdt-7.png)
 
 *Figure 7. Log option and save package*
 

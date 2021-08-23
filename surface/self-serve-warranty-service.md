@@ -48,7 +48,7 @@ For more information about users and permissions, see [Microsoft Admin Center Ov
 2. Go to **Support** > **Surface Device Repairs** and select **Create repair request**. (If you do not see this repair option, you do not have permission to access this page.)
 
     > [!div class="mx-imgBorder"]
-    > ![Start self-serve repair request](images/self-serve-fig1.png)
+    > ![Start self-serve repair request.](images/self-serve-fig1.png)
 
 3. You can create a repair request for one or multiple devices. Select either **Submit 1 device** at a time or **Submit multiple devices** to use a .csv file to upload multiple serial numbers and select **Next**.
 
@@ -67,25 +67,25 @@ For more information about users and permissions, see [Microsoft Admin Center Ov
     > - The form automatically validates address information and you may be corrected to make changes if the address is not recognized by the local postal system. The email address is used to send notifications and communications for the repair request.
 
     > [!div class="mx-imgBorder"]
-    > ![Add new address](images/self-serve-fig2a.png)
+    > ![Add new address.](images/self-serve-fig2a.png)
 
 5. Add device by entering the device serial number in the text block. To learn more, see [device serial numbers](https://support.microsoft.com/help/4036293/surface-find-the-serial-number-on-surface). If the serial number is valid, an image and product information including warranty date and model number will appear. Select **Add Device** if information is correct.
 
     > [!div class="mx-imgBorder"]
-    > ![Add devices](images/self-serve-fig2.png)
+    > ![Add devices.](images/self-serve-fig2.png)
 
 6. Repeat steps 1-2 to add multiple devices (up to 20 total) to the request.
 7. From the drop down menu, select the issue type that best describes the issue and select **Next.**
 
     > [!div class="mx-imgBorder"]
-    > ![Select issue category](images/self-serve-fig3.png)
+    > ![Select issue category.](images/self-serve-fig3.png)
 
 8. Review your order. If any information is incorrect, choose **Back** to correct errors.
 9. Accept the terms of conditions.
 10. If request summary is correct, select **Submit your request**.
 
     > [!div class="mx-imgBorder"]
-    > ![Submit self-serve repair request](images/self-serve-fig4.png)
+    > ![Submit self-serve repair request.](images/self-serve-fig4.png)
 
 When the home page displays, you can view your service request in the summary list and receive a confirmation email.
 

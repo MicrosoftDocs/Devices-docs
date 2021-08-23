@@ -32,29 +32,29 @@ To perform a cloud recovery, follow these steps:
 
 1. Select **Press Esc for more recovery options**.
 
-   ![Screenshot of Escape](images/01-escape.png)
+   ![Screenshot of Escape.](images/01-escape.png)
 
 1. Select **Skip this drive**.
 
-   ![Screenshot of Skip this drive](images/02-skip-this-drive.png)
+   ![Screenshot of Skip this drive.](images/02-skip-this-drive.png)
 
 1. Select **Recover from the cloud**.
 
-   ![Screenshot of Recover from the cloud](images/03-recover-from-cloud.png)
+   ![Screenshot of Recover from the cloud.](images/03-recover-from-cloud.png)
 
 1. Select **Yes**.
 
-   ![Screenshot of Yes](images/04-yes.png)
+   ![Screenshot of Yes.](images/04-yes.png)
 
 1. Select **Reinstall**.
 
-   ![Screenshot of Reinstall](images/05a-reinstall.png)
+   ![Screenshot of Reinstall.](images/05a-reinstall.png)
 
-   ![Screenshot of Downloading](images/05b-downloading.png)
+   ![Screenshot of Downloading.](images/05b-downloading.png)
 
 1. After the cloud recovery process is complete, start the reconfiguration by using the **Out of Box Experience**.
 
-   ![Screenshot of Out of the Box](images/06-out-of-box.png)
+   ![Screenshot of Out of the Box.](images/06-out-of-box.png)
 
 ## "Something went Wrong" error message
 
@@ -62,16 +62,16 @@ This error is usually caused by network issues that occur during the recovery do
 
 1. Select **Cancel**.
 
-   ![Screenshot of Cancel](images/07-cancel.png)
+   ![Screenshot of Cancel.](images/07-cancel.png)
 
 1. Select **Troubleshoot**.
 
-   ![Screenshot of Troubleshoot](images/08-troubleshoot.png)
+   ![Screenshot of Troubleshoot.](images/08-troubleshoot.png)
 
 1. Select **Recover from the cloud**.
 
-   ![Screenshot of Recover from the cloud](images/09-recover-from-cloud2.png)
+   ![Screenshot of Recover from the cloud.](images/09-recover-from-cloud2.png)
 
 1. If the **Wired network isn't found** error occurs, select **Cancel**, and then let the Surface Hub rediscover the wired network.
 
-   ![Screenshot of Wired network isn't found](images/10-cancel.png)
+   ![Screenshot of Wired network isn't found.](images/10-cancel.png)

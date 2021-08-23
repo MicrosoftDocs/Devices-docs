@@ -22,7 +22,7 @@ This page describes the ports, physical buttons, and configuration information e
 
 The figure below shows the location of ports and physical buttons on a keypad attached to the underside of the device. The table includes detailed descriptions of each element.
 
- ![Front facing and underside view of I/O connections and physical buttons](images/hub2s-schematic.png)
+ ![Front facing and underside view of I/O connections and physical buttons.](images/hub2s-schematic.png)
 
 ## Port and keypad component reference
 
@@ -40,4 +40,4 @@ The figure below shows the location of ports and physical buttons on a keypad at
 | 10 | **Volume** | Use +/- to adjust audio locally on the device. <br> <br> *NOTE: When navigating to the brightness control, use +/- on the volume slider to control display brightness.* | n/a |
 | 11 | **Power** | Power device on/off. <br> Use also to navigate display menus and select items. | n/a |
 
- ![Rear facing view of wireless, audio, & related components](images/hub2s-rear.png)
+ ![Rear facing view of wireless, audio, & related components.](images/hub2s-rear.png)

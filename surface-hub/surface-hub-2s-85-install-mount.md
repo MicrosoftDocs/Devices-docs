@@ -43,14 +43,14 @@ immediately, so the mounting system should be in place before unpacking. If you�
 3. Open and remove the six (6) clips from the ends.
 4. Remove lid and then lift and remove front and back panels.
 
- ![Remove outer packaging](images/hub85mount1a.png) <br>
+ ![Remove outer packaging.](images/hub85mount1a.png) <br>
 
 ## 2. Remove black outer packaging foam
 
 1. Remove black corner foam pieces (4).
 2. Remove black center foam support.
 
- ![Remove black outer packaging foam](images/hub85mount2a.png) <br>
+ ![Remove black outer packaging foam.](images/hub85mount2a.png) <br>
 
 > [!Caution]
 > Do not remove any white foam, strapping or packaging materials until the Hub 2S is adjacent to the cart or wall mount on which it will be placed.
@@ -63,14 +63,14 @@ Additional strapping materials are provided in the small box located under the h
 2. Lock wheel brakes (4).
 3. Slide inner packaging off pallet.
 
- ![Remove inner packaging frame from pallet](images/hub85mount3b.png) <br>
+ ![Remove inner packaging frame from pallet.](images/hub85mount3b.png) <br>
 
 ## 4. Rotate packaging frame to fit elevator
 
 1. Rotate frame to fit elevator
 2. Rotate on beveled end of inner frame and slide into the elevator.
 
- ![Rotate packaging frame to fit elevator](images/hub85mount4a.png) <br>
+ ![Rotate packaging frame to fit elevator.](images/hub85mount4a.png) <br>
 
 > [!TIP]
 > The wheeled pallet is custom fit to the inner frame packaging footprint and can be used throughout the installation site delivery process. Inner wood frame end piece has nylon skid plates.
@@ -80,7 +80,7 @@ Additional strapping materials are provided in the small box located under the h
 1. Slide out of elevator
 2. Lock wheel brakes (x4).
 
- ![Remove from elevator](images/hub85mount5a.png) <br>
+ ![Remove from elevator.](images/hub85mount5a.png) <br>
 
 
 ## 6. Place Surface Hub 85” back on pallet
@@ -89,7 +89,7 @@ Additional strapping materials are provided in the small box located under the h
 2. Unlock wheel brakes (x4).
 3. Move product to location of wall or cart mount.
 
- ![Place Surface Hub 85” back on pallet](images/hub85mount6a.png) <br>
+ ![Place Surface Hub 85” back on pallet.](images/hub85mount6a.png) <br>
 
 ## 7. Place Surface Hub 85" on Wall Mount or Cart
 
@@ -103,7 +103,7 @@ Additional strapping materials are provided in the small box located under the h
 8. Remove end piece by lifting vertically.
 9. Remove wood end pieces by the four hand knobs screws on the wood base.
 
-   ![Place Surface Hub 85” on Wall Mount or Cart](images/hub85mount7a.png) <br>
+   ![Place Surface Hub 85” on Wall Mount or Cart.](images/hub85mount7a.png) <br>
 
    > [!CAUTION]
    >  Do not leave Hub 2S 85" unattended. An additional person is needed to hold device upright. Once end pieces are removed, a minimum of one person needs to maintain contact with the Hub 2S until placement on wall mount or cart is completed.
@@ -132,16 +132,16 @@ Additional strapping materials are provided in the small box located under the h
 
 The Surface Hub 2S 85” uses a 600 x 600 VESA mount pattern. As shown in the following image, Microsoft has partnered with [Steelcase](https://www.steelcase.com/products/collaboration/steelcase-roam/) to create mounting options compatible with the Surface Hub 2S 85” unique design. 
 
-![Steelcase Wall Mount](images/sh2-steelcasemount.png) <br>
+![Steelcase Wall Mount.](images/sh2-steelcasemount.png) <br>
 
 ### Mounting dimensions
 
 If using other (non-Steelcase) mounting options, you will need spacers to account for the compute enclosure on the back of the device. Spacers and other certified accessories are available from [Salamander Designs](http://www.salamandercommercial.com/surface-hub-2).
 
 
-![Surface Hub 85” dimensions detail for mounting](images/sh2-85-measure2.png) <br>
+![Surface Hub 85” dimensions detail for mounting.](images/sh2-85-measure2.png) <br>
 
-![Surface Hub 85” dimensions for mounting](images/sh2-85-measure1.png) <br>
+![Surface Hub 85” dimensions for mounting.](images/sh2-85-measure1.png) <br>
 
 
 ## Supplemental Strapping Kit
