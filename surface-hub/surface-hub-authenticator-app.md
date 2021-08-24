@@ -26,7 +26,7 @@ To let people in your organization sign in to Surface Hub with their phones and 
 
 - [Configure Multi-Factor Authentication](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-mfasettings). Make sure **Notification through mobile app** is selected. 
 
-    ![multi-factor authentication options](images/mfa-options.png)
+    ![multi-factor authentication options.](images/mfa-options.png)
 
 - Enable content hosting on Azure AD services such as Office, SharePoint, etc. 
 
@@ -65,18 +65,18 @@ To let people in your organization sign in to Surface Hub with their phones and 
     >[!NOTE]
     >If you’re not sure how to schedule a meeting on a Surface Hub, see [Schedule a meeting on Surface Hub](https://support.microsoft.com/help/17325/surfacehub-schedulemeeting).
 
-    ![screenshot of Sign in option on Surface Hub](images/sign-in.png)
+    ![screenshot of Sign in option on Surface Hub.](images/sign-in.png)
 
 2. You’ll see a list of the people invited to the meeting. Select yourself (or the person who wants to sign in – make sure this person has gone through the steps to set up their device before your meeting), and then select **Continue**.
 
-    ![screenshot of list of attendees in a meeting](images/attendees.png)
+    ![screenshot of list of attendees in a meeting.](images/attendees.png)
 
     You'll see a code on the Surface Hub.
 
-    ![screenshot of code for Approve Sign in](images/approve-signin.png)
+    ![screenshot of code for Approve Sign in.](images/approve-signin.png)
 
 3. To approve the sign-in, open the Authenticator app, enter the four-digit code that’s displayed on the Surface Hub, and select **Approve**. You will then be asked to enter the PIN or use your fingerprint to complete the sign in. 
 
-    ![screenshot of the Approve sign-in screen in Microsoft Authenticator](images/approve-signin2.png)
+    ![screenshot of the Approve sign-in screen in Microsoft Authenticator.](images/approve-signin2.png)
 
 You can now access all files through the OneDrive app.

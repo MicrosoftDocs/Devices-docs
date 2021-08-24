@@ -36,7 +36,7 @@ The accessibility feature Narrator is not available in the **Settings** app. By 
 1. Dismiss the Welcome screen.
 2. Open **Quick Actions** > **Ease of Access** from the status bar.
 
-    ![Screenshot of Ease of Access tile](images/ease-of-access.png)
+    ![Screenshot of Ease of Access tile.](images/ease-of-access.png)
     
 3. Turn Narrator on.
 4. Click **Task Switcher**.
@@ -58,7 +58,7 @@ During a meeting, users can toggle accessibility features and apps in a couple w
 - [Keyboard shortcuts](https://support.microsoft.com/help/13813/windows-10-microsoft-surface-hub-keyboard-shortcuts)
 - **Quick Actions** > **Ease of Access** from the status bar
 
-> ![Image showing Quick Action center on Surface Hub](images/sh-quick-action.png)
+> ![Image showing Quick Action center on Surface Hub.](images/sh-quick-action.png)
 
 
 ## Related topics

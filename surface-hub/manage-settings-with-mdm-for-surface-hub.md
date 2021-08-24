@@ -60,7 +60,7 @@ To summarize, options to configure and manage policy settings within Intune incl
 4. Select **Create**, add a name and then select **Next.**
 6. You can now browse and choose from preset device restriction settings for Surface Hub across the following categories: Apps and experience, Azure operational insights, Maintenance, Session, and Wireless projection. The example shown in the following figure specifies a 4-hour maintenance window and a 15 minute timeout for screen, sleep and session resume.
 
-     ![Configure Surface Hub settings with Intune device restriction profile](images/sh-device-restrictions.png)
+     ![Configure Surface Hub settings with Intune device restriction profile.](images/sh-device-restrictions.png)
 
 For more information about creating and managing profiles, see [Restrict devices features using policy in Microsoft Intune](https://docs.microsoft.com/mem/intune/configuration/device-restrictions-configure#create-the-profile).
  

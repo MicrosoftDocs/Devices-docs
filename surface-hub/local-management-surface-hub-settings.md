@@ -39,7 +39,7 @@ Surface Hubs have many settings that are common to other Windows devices, but al
 | Require a PIN for wireless projection | Surface Hub > Projection | Choose whether people are required to enter a PIN before they use wireless projection. |
 | Wireless projection (Miracast) channel | Surface Hub > Projection | Set the channel for Miracast projection. |
 | Meeting info shown on the welcome screen | Surface Hub > Welcome screen | Choose whether meeting organizer, time, and subject show up on the welcome screen. |
-| Welcome screen background |  Surface Hub > Welcome screen | Choose a background image for the welcome screen. |
+| Welcome screen background |  Surface Hub > Welcome screen | Choose an image to be used as the background during user sessions and on the welcome screen. |
 | Session timeout to Welcome screen | Surface Hub > Session & power | Choose how long until the Surface Hub returns to the welcome screen after no motion is detected. |
 | Resume session | Surface Hub > Session & power | Choose to allow users to resume a session after no motion is detected or to automatically clean up a session. |
 | Access to Office 365 meetings and files | Surface Hub > Session & power | Choose whether a user can sign in to Office 365 to get access to their meetings and files. |

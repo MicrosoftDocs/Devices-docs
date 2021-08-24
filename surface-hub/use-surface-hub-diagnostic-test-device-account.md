@@ -26,7 +26,7 @@ ms.localizationpriority: medium
 
 By default, the [Surface Hub Hardware Diagnostic](https://www.microsoft.com/store/apps/9nblggh51f2g) application isn’t installed in earlier versions of the Surface Hub system. The application is available for free from the Microsoft Store. Administrator privileges are required to install the application.
 
-   ![Screenshot of Hardware Diagnostic](images/01-diagnostic.png)
+   ![Screenshot of Hardware Diagnostic.](images/01-diagnostic.png)
 
 ## About the Surface Hub Hardware Diagnostic Tool
 
@@ -39,50 +39,50 @@ The Surface Hub Hardware Diagnostic tool is an easy-to-navigate tool that lets t
 
 1. Navigate to **All Apps**, and then locate the Surface Hub Hardware Diagnostic application.
 
-    ![Screenshot of  All Apps](images/02-all-apps.png)
+    ![Screenshot of  All Apps.](images/02-all-apps.png)
 
 1. When the application starts, the **Welcome** page provides a text window to document the reason why you are testing the Hub. This note can be saved to USB together with the diagnostic results at the conclusion of testing. After you finish entering a note, select the **Continue** button.
 
     >[!NOTE]
     >When saving diagnostic results, do not change the default path or select a subdirectory. The files can be copied later via the File Explorer app.
 
-    ![Screenshot of  Welcome](images/03-welcome.png)
+    ![Screenshot of  Welcome.](images/03-welcome.png)
 
 1. The next screen provides you the option to test all or some of the Surface Hub components. To begin testing the device account, select the **Test Results** icon.
 
-    ![Screenshot of  Test Options](images/04-test-results-1.png)
+    ![Screenshot of  Test Options.](images/04-test-results-1.png)
 
-    ![Screenshot of  Test Results](images/05-test-results-2.png)
+    ![Screenshot of  Test Results.](images/05-test-results-2.png)
 
 1. Select **Account Settings**.  
 
-    ![Screenshot of  Account Settings](images/06-account-settings.png)
+    ![Screenshot of  Account Settings.](images/06-account-settings.png)
 
     The Account Settings screen is used to test your device account.
 
-    ![Screenshot of  Account Settings Details](images/07-account-settings-details.png)
+    ![Screenshot of  Account Settings Details.](images/07-account-settings-details.png)
 
 1. Enter the email address of your device account. The password is optional but is recommended. Select the **Test Account** button when you are ready to continue.
 
-    ![Screenshot of  Test Account](images/08-test-account.png)
+    ![Screenshot of  Test Account.](images/08-test-account.png)
 
 1. After testing is finished, review the results for the four areas of testing. Each section can be expanded or collapsed by selecting the Plus or Minus sign next to each topic.
 
     **Network**
 
-    ![Screenshot of Network](images/09-network.png)
+    ![Screenshot of Network.](images/09-network.png)
 
     **Environment**
 
-    ![Screenshot of Environment](images/10-environment.png)
+    ![Screenshot of Environment.](images/10-environment.png)
 
     **Certificates**
 
-    ![Screenshot of Certificates](images/11-certificates.png)
+    ![Screenshot of Certificates.](images/11-certificates.png)
 
     **Trust Model**
 
-    ![Screenshot of Trust Model](images/12-trust-model.png)
+    ![Screenshot of Trust Model.](images/12-trust-model.png)
 
 ## Appendix
 

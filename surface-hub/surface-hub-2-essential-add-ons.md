@@ -79,7 +79,7 @@ Surface Hub 2 includes the following ports for connecting a wide variety of devi
 - Bluetooth 4.1 support
 - HDMI 2.0
 
- ![Front facing and underside view of I/O connections and physical buttons](images/hub2s-schematic.png)
+ ![Front facing and underside view of I/O connections and physical buttons.](images/hub2s-schematic.png)
 
 For more information, see [Surface Hub 2S ports and keypad overview](surface-hub-2s-port-keypad-overview.md)
 

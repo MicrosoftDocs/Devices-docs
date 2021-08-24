@@ -36,7 +36,7 @@ To begin, sign in to Surface Hub 2S with admin credentials, open the **Settings*
 4. If you manage the device using Microsoft Intune or another mobile device management solution, retire and delete the previous record, and then re-enroll the new device. For more information, see [Remove devices by using wipe, retire, or manually unenrolling the device](https://docs.microsoft.com/intune/devices-wipe).
 
    > [!div class="mx-imgBorder"]
-   > ![*Reset and recovery for Surface Hub 2S*](images/sh2-reset.png)
+   > ![*Reset and recovery for Surface Hub 2S*.](images/sh2-reset.png)
    <br/>*Figure 1. Reset and recovery for Surface Hub 2S* 
 
 ## Recover Surface Hub 2S by using a USB recovery drive
@@ -76,7 +76,7 @@ Using Surface Hub 2S, you can reinstall the device by using a recovery image. By
    1. Keep pressing both buttons until you see the Windows logo.
    1. Release the Power button but continue to hold the Volume down button until the Install UI begins.
 
-      ![*Use Volume down and power buttons to initiate recovery*](images/sh2-keypad.png)
+      ![*Use Volume down and power buttons to initiate recovery*.](images/sh2-keypad.png)
       <br>*Figure 2. Volume and Power buttons*
 
 1. On the language selection screen, select the display language for your Surface Hub 2S.

@@ -50,7 +50,7 @@ On most Surface devices, you can configure client network adapter settings to on
 
 - **Start** > **Control panel** > **Network and Sharing Center** > **your Wi-Fi adapter** > **Properties** > **Configure** > **Advanced**.
 
-![* wifi-band settings*](images/wifi-band.png) <br>
+![* wifi-band settings*.](images/wifi-band.png) <br>
 
 Keep in mind that 2.4 GHz has some advantages over 5 GHz: It extends further and more easily penetrates through walls or other solid objects. Unless you have a clear use case that warrants connecting to 5 GHz, it’s recommended to leave the Band setting in the default state to avoid possible adverse consequences. For example:
 
@@ -78,7 +78,7 @@ It’s recommended to leave the roaming aggressiveness setting in the default st
 3. Select the **Advanced** tab.
 4. Select **Roaming Aggressiveness** and choose your preferred value from the drop-down menu.
 
-![* Roaming aggressiveness settings-Intel *](images/wifi-roaming-int.png) <br>
+![* Roaming aggressiveness settings-Intel *.](images/wifi-roaming-int.png) <br>
 
 ### Roaming aggressiveness settings on Surface Go and Surface Pro X
 
@@ -93,7 +93,7 @@ Leave the roaming aggressiveness setting in the default state unless you’re en
 3. Select **Client for Microsoft Networks** and then select **Configure**
 4. Select **Advanced** > **Roaming Aggressiveness** and choose your preferred value from the drop-down menu.
 
-![* Roaming aggressiveness settings-QualComm *](images/wifi-roaming.png) <br>
+![* Roaming aggressiveness settings-QualComm *.](images/wifi-roaming.png) <br>
 
 
 ## Conclusion

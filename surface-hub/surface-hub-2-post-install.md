@@ -51,7 +51,7 @@ When performing these steps, you might find it useful to use a wired or wireless
     
     - See the following example.
 
-      ![Touch settings](images/touch.png)
+      ![Touch settings.](images/touch.png)
 
 3. Configure the touch keyboard to QWERTY and floating.
 
@@ -61,20 +61,20 @@ When performing these steps, you might find it useful to use a wired or wireless
     
     1. Select the next to last keyboard type on the top row to enable QWERTY, and the last option on the second row to enable floating, which is very helpful on this large screen. See the following examples.
 
-       ![Keyboard settings](images/kbd.png)
+       ![Keyboard settings.](images/kbd.png)
  
 4. Configure the soft keyboard settings.
 
     1. Select the **Settings** icon on the touch keyboard or search for and open **Typing settings**.
     
-       ![soft keyboard settings](images/sh2-softkeyboard.png)
+       ![soft keyboard settings.](images/sh2-softkeyboard.png)
 
     1. Enable all the options under Spelling, Typing, and Touch keyboard.
 
 
 The following example shows the trackpad, which is useful to navigate and select options. The onscreen keyboard is being used to search the Microsoft Store:
 
-![Using the trackpad](images/store.png)
+![Using the trackpad.](images/store.png)
 
 ## Configure Bluetooth keyboard and mouse (optional)
 
@@ -86,7 +86,7 @@ If your Surface Hub device is near to a PC, you can use <a href="https://aka.ms/
 
 After completing the below steps to setup/configure your Surface Hub 2 for Windows 10 Professional or Enterprise, we recommend you utilize pinning your most used applications to the Taskbar for a quick one-touch launch of each application. Below is an example of what your taskbar could look like:
 
- ![Taskbar layout](images/taskblyt.png)
+ ![Taskbar layout.](images/taskblyt.png)
 ### Update installed apps
 
 To update all installed Store apps:
@@ -102,7 +102,7 @@ After migrating to Windows 10 Professional or Windows 10 Enterprise, there may b
 - If there are any updates, install them, reboot, and then repeat the process until you see the following notification:
 
 > [!div class="mx-imgBorder"]
-> ![Windows Update 'You're up to date' notification](images/wustatus.png)
+> ![Windows Update 'You're up to date' notification.](images/wustatus.png)
 
 
 ## OneDrive for Business
@@ -115,7 +115,7 @@ Use <a href="https://docs.microsoft.com/onedrive/onedrive" target="_blank"> OneD
 
 To configure OneDrive to download files only when needed, set the **Files On-Demand** setting to **Save space and download files as you use them**. For more information, see <a href="https://docs.microsoft.com/onedrive/files-on-demand-windows" target="_blank"> Query and set Files On-Demand states in Windows</a>.
 
-![OneDrive settings](images/onedrive.png)
+![OneDrive settings.](images/onedrive.png)
 
 > [!NOTE]
 > You can also repeat these steps to configure a personal OneDrive but be sure to conserve drive space and only download files as you need them.
@@ -179,7 +179,7 @@ The Surface Hub pen has a shortcut button sometimes referred to as a "tail click
 
 2. Near the bottom of the page, select Pen shortcuts which opens the dialog box, shown here:
 
-   ![Pen shortcuts](images/sh2-pen-shortcuts.png)
+   ![Pen shortcuts.](images/sh2-pen-shortcuts.png)
 
 ## Camera configuration
 
@@ -211,7 +211,7 @@ To add an icon to the taskbar that enables one-touch screen lock similar to the 
 
     See the following example:
 
-    ![Choose an icon](images/lock.png)
+    ![Choose an icon.](images/lock.png)
     
 1.	Select **OK** to save the shortcut.
 
@@ -228,7 +228,7 @@ To install the Microsoft Whiteboard:
 
  - Select the **Windows Ink Workspace** icon on the lower right of the taskbar and download **Whiteboard**.
  
-   ![Ink workspace](images/ink.png) 
+   ![Ink workspace.](images/ink.png) 
 
 Alternatively, you can install Whiteboard from the Microsoft Store:
 
@@ -278,14 +278,14 @@ Alternatively, you can install Whiteboard from the Microsoft Store:
 
 4. Consider reducing Teams notifications on the device to avoid distractions (optional).
 
-   ![Teams notifications](images/teams.png)
+   ![Teams notifications.](images/teams.png)
 
 ### Connect app
 
 > [!IMPORTANT]
 > In Windows 10, version 2004 and later, the Connect app for wireless projection using Miracast is not installed by default, but is available as an optional feature. If you have installed (or updated to) Windows version 2004 or later, you may see the following on the Projecting to this PC screen in settings:
 
-![Project to this PC](images/sh2-project.png) 
+![Project to this PC.](images/sh2-project.png) 
 
 
 1. To install the app from the “Projecting to this PC” settings page, select **Optional features** > **Add a feature** and then install the **Wireless Display** app.
@@ -307,11 +307,11 @@ Alternatively, you can install Whiteboard from the Microsoft Store:
 
 Recommended configuration when not on the corporate network:
 
-![Settings at home](images/project1.png)
+![Settings at home.](images/project1.png)
 
 Recommended configuration on the corporate network:
 
-![Settings at work](images/project2.png)
+![Settings at work.](images/project2.png)
 
 ### Your Phone
 
@@ -387,7 +387,7 @@ Before performing the following procedure, check with your IT department for app
 
 3. Expand the **Power management**  and select **Do not apply power settings from my IT department to this computer**.
 
-   ![Software settings](images/soft-cntr.png)
+   ![Software settings.](images/soft-cntr.png)
 
 ### Storage Sense
 
