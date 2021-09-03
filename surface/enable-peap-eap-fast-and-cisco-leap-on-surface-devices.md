@@ -79,4 +79,5 @@ To specify the protocol(s) explicitly, follow these steps:
 
 For organizations that manage Surface devices with Configuration Manager, it is even easier to deploy PEAP, EAP-FAST, or Cisco LEAP support to Surface devices. Simply import each MSI file as an application from the Software Library and configure a deployment to your Surface device collection.
 
-For more information on how to deploy applications with Configuration Manager,  see [Create and deploy an application with Configuration Manager](/mem/configmgr/apps/get-started/create-and-deploy-an-application.md).
+For more information on how to deploy applications with Configuration Manager,  see [Create and deploy an application with Configuration Manager](/mem/configmgr/apps/get-started/create-and-deploy-an-application).
+
