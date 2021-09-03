@@ -59,11 +59,11 @@ Microsoft regularly releases both updates and solutions for Surface devices. To 
 
 - [Creating and using a USB recovery drive for Surface](https://support.microsoft.com/help/4023512)
 - [FAQ: Protecting your data if you send your Surface in for service](https://support.microsoft.com/help/4023508)
-- [Microsoft Surface Data Eraser](https://docs.microsoft.com/surface/microsoft-surface-data-eraser)
+- [Microsoft Surface Data Eraser](microsoft-surface-data-eraser.md)
 
 ## Deployment issues
 
 - [DISK0 not found when you deploy Windows on Surface Pro Model 1796 or Surface Laptop](https://support.microsoft.com/help/4046108)
 - [Surface Pro Model 1796 and Surface Laptop 1TB display two drives](https://support.microsoft.com/help/4046105)
-- [System SKU reference](https://docs.microsoft.com/surface/surface-system-sku-reference)
+- [System SKU reference](surface-system-sku-reference.md)
 
