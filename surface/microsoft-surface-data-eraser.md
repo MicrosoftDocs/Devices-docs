@@ -72,12 +72,12 @@ After the creation tool is installed, follow these steps to create a Microsoft S
 
 3. Click **Start** to acknowledge that you have a USB stick of at least 4 GB connected, as shown in Figure 1.
 
-   ![Start the Microsoft Surface Data Eraser tool](images/dataeraser-start-tool.png "Start the Microsoft Surface Data Eraser tool")
+   ![Start the Microsoft Surface Data Eraser tool.](images/dataeraser-start-tool.png "Start the Microsoft Surface Data Eraser tool")
 
    *Figure 1. Start the Microsoft Surface Data Eraser tool*
 4. Choose **x64** for most Surface devices or  **ARM64** for Surface Pro X from the **Architecture Selection** page, as shown in Figure 2. Select **Continue**.
 
-    ![Architecture selection](images/dataeraser-arch.png "Architecture Selection")<br>
+    ![Architecture selection.](images/dataeraser-arch.png "Architecture Selection")<br>
        *Figure 2. Select device architecture*
 
 5. Select the USB drive of your choice from the **USB Thumb Drive Selection** page as shown in Figure 3, and then click **Start** to begin the USB creation process. The drive you select will be formatted and any existing data on this drive will be lost.
@@ -85,7 +85,7 @@ After the creation tool is installed, follow these steps to create a Microsoft S
    >[!TIP]
    >If the Start button is disabled, check that your removable drive has a total capacity of at least 4 GB.
   
-   ![USB thumb drive selection](images/dataeraser-usb-selection.png "USB thumb drive selection")
+   ![USB thumb drive selection.](images/dataeraser-usb-selection.png "USB thumb drive selection")
 
    *Figure 3. USB thumb drive selection*
 
@@ -93,7 +93,7 @@ After the creation tool is installed, follow these steps to create a Microsoft S
 
 7. When the **Congratulations** screen is displayed, you can eject and remove the thumb drive. This thumb drive is now ready to be inserted into a Surface device, booted from, and wipe any data on the device. Click **Complete** to finish the USB creation process, as shown in Figure 4.
 
-   ![Surface Data Eraser USB creation process](images/dataeraser-complete-process.png "Surface Data Eraser USB creation process")
+   ![Surface Data Eraser USB creation process.](images/dataeraser-complete-process.png "Surface Data Eraser USB creation process")
 
    *Figure 4. Complete the Microsoft Surface Data Eraser USB creation process*
 
@@ -117,7 +117,7 @@ After you create a Microsoft Surface Data Eraser USB stick, you can boot a suppo
 
 3. When the Surface device boots, a **SoftwareLicenseTerms** text file is displayed, as shown in Figure 5.
 
-   ![Booting the Microsoft Surface Data Eraser USB stick](images/data-eraser-3.png "Booting the Microsoft Surface Data Eraser USB stick")
+   ![Booting the Microsoft Surface Data Eraser USB stick.](images/data-eraser-3.png "Booting the Microsoft Surface Data Eraser USB stick")
 
    *Figure 5. Booting the Microsoft Surface Data Eraser USB stick*
 
@@ -130,7 +130,7 @@ After you create a Microsoft Surface Data Eraser USB stick, you can boot a suppo
    >[!CAUTION]
    >The Microsoft Surface Data Eraser tool will delete all data, including Windows operating system files required to boot the device, in a secure and unrecoverable way. To boot a Surface device that has been wiped with Microsoft Surface Data Eraser, you will first need to reinstall the Windows operating system. To remove data from a Surface device without removing the Windows operating system, you can use the **Reset your PC** function. However, this does not prevent your data from being recovered with forensic or data recovery capabilities. See [Recovery options in Windows 10](https://support.microsoft.com/help/12415/windows-10-recovery-options) for more information.
 
-   ![Partition to be erased is displayed](images/sda-fig5-erase.png "Partition to be erased is displayed")
+   ![Partition to be erased is displayed.](images/sda-fig5-erase.png "Partition to be erased is displayed")
   
    *Figure 6. Partition to be erased is displayed in Microsoft Surface Data Eraser*
 

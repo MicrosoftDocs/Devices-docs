@@ -35,13 +35,13 @@ You can set up administrator accounts for the device in the following ways:
 
 ### Create a local admin account
 
-To create a local admin, [choose to use a local admin during first run](first-run-program-surface-hub.md#use-a-local-admin). This will create a single local admin account on the Surface Hub with the username and password of your choice. Use these credentials to open the Settings app.
+To create a local admin, [choose to use a local admin during first run](first-run-program-surface-hub.md). This will create a single local admin account on the Surface Hub with the username and password of your choice. Use these credentials to open the Settings app.
 
 Note that the local admin account information is not backed by any directory service. We recommend you only choose a local admin if the device does not have access to Active Directory (AD) or Azure Active Directory (Azure AD). If you decide to change the local admin’s password, you can do so in Settings. However, if you want to change from using the local admin account to using a group from your domain or Azure AD tenant, then you’ll need to [reset the device](device-reset-surface-hub.md) and go through the first-time program again.
 
 ### Domain join the device to Active Directory
 
-You can domain join the Surface Hub to your AD domain to allow users from a specified security group to configure settings. During first run, choose to use [Active Directory Domain Services](first-run-program-surface-hub.md#use-active-directory-domain-services). You'll need to provide credentials that are capable of joining the domain of your choice, and the name of an existing security group. Anyone who is a member of that security group can enter their credentials and unlock Settings.
+You can domain join the Surface Hub to your AD domain to allow users from a specified security group to configure settings. During first run, choose to use [Active Directory Domain Services](first-run-program-surface-hub.md#active-directory-domain-services). You'll need to provide credentials that are capable of joining the domain of your choice, and the name of an existing security group. Anyone who is a member of that security group can enter their credentials and unlock Settings.
 
 #### What happens when you domain join your Surface Hub?
 Surface Hubs use domain join to:
@@ -57,7 +57,7 @@ Surface Hub does not support applying Group Policy or certificates from the doma
 
 ### Azure AD join the device
 
-You can Azure Active Directory (Azure AD) to join the Surface Hub to allow IT pros from your Azure AD tenant to configure settings. During first run, choose to use [Microsoft Azure Active Directory](first-run-program-surface-hub.md#use-microsoft-azure-active-directory). You will need to provide credentials that are capable of joining the Azure AD tenant of your choice. After you successfully Azure AD join, the appropriate people will be granted admin rights on the device.
+You can Azure Active Directory (Azure AD) to join the Surface Hub to allow IT pros from your Azure AD tenant to configure settings. During first run, choose to use [Microsoft Azure Active Directory](first-run-program-surface-hub.md#microsoft-azure-active-directory). You will need to provide credentials that are capable of joining the Azure AD tenant of your choice. After you successfully Azure AD join, the appropriate people will be granted admin rights on the device.
 
 By default, all **global administrators** will be given admin rights on an Azure AD joined Surface Hub. With **Azure AD Premium** or **Enterprise Mobility Suite (EMS)**, you can add additional administrators:
 1.  In the [Azure classic portal](https://manage.windowsazure.com/), click **Active Directory**, and then click the name of your organization's directory.
@@ -74,7 +74,7 @@ Surface Hubs use Azure AD join to:
 
 Surface Hub now supports the ability to automatically enroll in Intune by joining the device to Azure Active Directory. 
 
-For more information, see [Enable Windows 10 automatic enrollment](https://docs.microsoft.com/intune/windows-enroll#enable-windows-10-automatic-enrollment).
+For more information, see [Enable Windows 10 automatic enrollment](/intune/windows-enroll#enable-windows-10-automatic-enrollment).
 
 #### Which should I choose?
 

@@ -60,7 +60,7 @@ See the [Prerequisites](https://github.com/microsoft/SurfaceDeploymentAccelerato
     ```
     Sample script output is below.
 
-   ![Running Surface Deployment Accelerator tool](images/sda1.png)
+   ![Running Surface Deployment Accelerator tool.](images/sda1.png)
 
     The script will require about 45 minutes to run, but could take longer depending on available CPU and disk resources. 
 

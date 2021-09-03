@@ -87,19 +87,19 @@ The Security page allows you to set a password to protect UEFI settings. This pa
 
 The password must be at least 6 characters and is case sensitive.
 
-![Add a password to protect Surface UEFI settings](images/manage-surface-uefi-fig2.png "Add a password to protect Surface UEFI settings")
+![Add a password to protect Surface UEFI settings.](images/manage-surface-uefi-fig2.png "Add a password to protect Surface UEFI settings")
 
 *Figure 3. Add a password to protect Surface UEFI settings*
 
 On the Security page you can also change the configuration of Secure Boot on your Surface device. Secure Boot technology prevents unauthorized boot code from booting on your Surface device, which protects against bootkit and rootkit-type malware infections. You can disable Secure Boot to allow your Surface device to boot third-party operating systems or bootable media. You can also configure Secure Boot to work with third-party certificates, as shown in Figure 4. To learn more, see [Secure Boot](/windows-hardware/design/device-experiences/oem-secure-boot).
 
-![Configure Secure Boot](images/manage-surface-uefi-fig3.png "Configure Secure Boot")
+![Configure Secure Boot.](images/manage-surface-uefi-fig3.png "Configure Secure Boot")
 
 *Figure 4. Configure Secure Boot*
 
 Depending on your device, you may also be able to see if your TPM is enabled or disabled. If you do not see the **Enable TPM**  setting, open tpm.msc in Windows to check the status, as shown in Figure 5. The TPM is used to authenticate encryption for your device’s data with BitLocker. To learn more, see [BitLocker overview](/windows/security/information-protection/bitlocker/bitlocker-overview).
 
-![TPM console](images/manage-surface-uefi-fig5-a.png "TPM console")
+![TPM console.](images/manage-surface-uefi-fig5-a.png "TPM console")
 
 *Figure 5. TPM console*
 
@@ -174,50 +174,50 @@ Use the **Restart Now** button on the **Exit** page to exit UEFI settings, as sh
 
 When you update Surface device firmware, by using either Windows Update or manual installation, the updates are not applied immediately to the device, but instead during the next reboot cycle. You can find out more about the Surface firmware update process in [Manage and deploy Surface driver and firmware updates](manage-surface-driver-and-firmware-updates.md). The progress of the firmware update is displayed on a screen with progress bars of differing colors to indicate the firmware for each component. Each component’s progress bar is shown in Figures 9 through 18.
 
-![Surface UEFI firmware update with blue progress bar](images/manage-surface-uefi-fig8.png "Surface UEFI firmware update with blue progress bar")
+![Surface UEFI firmware update with blue progress bar.](images/manage-surface-uefi-fig8.png "Surface UEFI firmware update with blue progress bar")
 
 *Figure 10. The Surface UEFI firmware update displays a blue progress bar*
 
-![System Embedded Controller firmware with green progress bar](images/manage-surface-uefi-fig9.png "System Embedded Controller firmware with green progress bar")
+![System Embedded Controller firmware with green progress bar.](images/manage-surface-uefi-fig9.png "System Embedded Controller firmware with green progress bar")
 
 *Figure 11. The System Embedded Controller firmware update displays a green progress bar*
 
-![SAM Controller firmware update with orange progress bar](images/manage-surface-uefi-fig10.png "SAM Controller firmware update with orange progress bar")
+![SAM Controller firmware update with orange progress bar.](images/manage-surface-uefi-fig10.png "SAM Controller firmware update with orange progress bar")
 
 *Figure 12. The SAM Controller firmware update displays an orange progress bar*
 
-![Intel Management Engine firmware with red progress bar](images/manage-surface-uefi-fig11.png "Intel Management Engine firmware with red progress bar")
+![Intel Management Engine firmware with red progress bar.](images/manage-surface-uefi-fig11.png "Intel Management Engine firmware with red progress bar")
 
 *Figure 13. The Intel Management Engine firmware update displays a red progress bar*
 
-![Surface touch firmware with gray progress bar](images/manage-surface-uefi-fig12.png "Surface touch firmware with gray progress bar")
+![Surface touch firmware with gray progress bar.](images/manage-surface-uefi-fig12.png "Surface touch firmware with gray progress bar")
 
 *Figure 14. The Surface touch firmware update displays a gray progress bar*
 
-![Surface KIP firmware with light green progress bar](images/manage-surface-uefi-fig13.png "Surface touch firmware with light green progress bar")
+![Surface KIP firmware with light green progress bar.](images/manage-surface-uefi-fig13.png "Surface touch firmware with light green progress bar")
 
 *Figure 15. The Surface KIP firmware update displays a light green progress bar*
 
-![Surface ISH firmware with pink progress bar](images/manage-surface-uefi-fig14.png "Surface ISH firmware with pink progress bar")
+![Surface ISH firmware with pink progress bar.](images/manage-surface-uefi-fig14.png "Surface ISH firmware with pink progress bar")
 
 *Figure 16 The Surface ISH firmware update displays a light pink progress bar*
 
-![Surface Trackpad firmware with gray progress bar](images/manage-surface-uefi-fig15.png "Surface Trackpad firmware with gray progress bar")
+![Surface Trackpad firmware with gray progress bar.](images/manage-surface-uefi-fig15.png "Surface Trackpad firmware with gray progress bar")
 
 *Figure 17. The Surface Trackpad firmware update displays a pink progress bar*
 
-![Surface TCON firmware with light gray progress bar](images/manage-surface-uefi-fig16.png "Surface TCON firmware with light gray progress bar")
+![Surface TCON firmware with light gray progress bar.](images/manage-surface-uefi-fig16.png "Surface TCON firmware with light gray progress bar")
 
 *Figure 18. The Surface TCON firmware update displays a light gray progress bar*
 
-![Surface TPM firmware with light purple progress bar](images/manage-surface-uefi-fig17.png "Surface TPM firmware with purple progress bar")
+![Surface TPM firmware with light purple progress bar.](images/manage-surface-uefi-fig17.png "Surface TPM firmware with purple progress bar")
 
 *Figure 19. The Surface TPM firmware update displays a purple progress bar*
 
 >[!NOTE]
 >An additional warning message that indicates Secure Boot is disabled is displayed, as shown in Figure 19.
 
-![Surface boot screen that indicates Secure Boot has been disabled](images/manage-surface-uefi-fig18.png "Surface boot screen that indicates Secure Boot has been disabled")
+![Surface boot screen that indicates Secure Boot has been disabled.](images/manage-surface-uefi-fig18.png "Surface boot screen that indicates Secure Boot has been disabled")
 
 *Figure 20. Surface boot screen that indicates Secure Boot has been disabled in Surface UEFI settings*
 

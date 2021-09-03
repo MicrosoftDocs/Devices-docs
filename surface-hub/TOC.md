@@ -27,12 +27,14 @@
 ## Deploy
 ### [Surface Hub 2S adoption and training](surface-hub-2s-adoption-kit.md)
 ### [Surface Hub 2S adoption videos](surface-hub-2s-adoption-videos.md)
-### [First time setup for Surface Hub 2S](surface-hub-2s-setup.md)
+### [First time setup for Surface Hub 2S](first-run-program-surface-hub.md)
 ### [Connect devices to Surface Hub 2S](surface-hub-2s-connect.md)
 ### [Create and test a device account](create-and-test-a-device-account-surface-hub.md)
 ### [Create provisioning packages for Surface Hub](provisioning-packages-for-surface-hub.md)
 ### [Install apps on your Microsoft Surface Hub](install-apps-on-surface-hub.md)
-### [Create Surface Hub 2S on-premises accounts with PowerShell](https://docs.microsoft.com/microsoftteams/rooms/with-skype-for-business-server-2015)
+### [Create Surface Hub 2S on-premises accounts with PowerShell](/microsoftteams/rooms/with-skype-for-business-server-2015)
+### [Microsoft Teams Rooms on Surface Hub](surface-hub-teams-rooms.md)
+### [Configure networking and Quality of Service for Microsoft Teams Room on Surface Hub](surface-hub-teams-rooms-networking.md)
 ### [Surface Hub Teams app](hub-teams-app.md)
 ### [Teams certified accessories for Surface Hub 2S](surface-hub-2s-certifications.md)
 
@@ -83,11 +85,11 @@
 
 ## Deploy
 ### [Create and test a device account](create-and-test-a-device-account-surface-hub.md)
-#### [Online deployment](https://docs.microsoft.com/microsoftteams/rooms/with-office-365)
+#### [Online deployment](/microsoftteams/rooms/with-office-365)
 
-#### [On-premises deployment (single forest)](https://docs.microsoft.com/microsoftteams/rooms/with-skype-for-business-server-2015)
+#### [On-premises deployment (single forest)](/microsoftteams/rooms/with-skype-for-business-server-2015)
 
-#### [On-premises deployment (multiple forests)](https://docs.microsoft.com/skypeforbusiness/deploy/deploy-clients/multiple-forest-on-premises-deployments)
+#### [On-premises deployment (multiple forests)](/skypeforbusiness/deploy/deploy-clients/multiple-forest-on-premises-deployments)
 #### [Hybrid deployment](hybrid-deployment-surface-hub-device-accounts.md)
 #### [Microsoft Exchange properties](exchange-properties-for-surface-hub-device-accounts.md)
 #### [Applying ActiveSync policies to device accounts](apply-activesync-policies-for-surface-hub-device-accounts.md)
