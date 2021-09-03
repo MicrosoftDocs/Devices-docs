@@ -91,7 +91,7 @@ The password must be at least 6 characters and is case sensitive.
 
 *Figure 3. Add a password to protect Surface UEFI settings*
 
-On the Security page you can also change the configuration of Secure Boot on your Surface device. Secure Boot technology prevents unauthorized boot code from booting on your Surface device, which protects against bootkit and rootkit-type malware infections. You can disable Secure Boot to allow your Surface device to boot third-party operating systems or bootable media. You can also configure Secure Boot to work with third-party certificates, as shown in Figure 4. Read more about [Secure Boot](https://msdn.microsoft.com/windows/hardware/commercialize/manufacture/desktop/secure-boot-overview) in the TechNet Library.
+On the Security page you can also change the configuration of Secure Boot on your Surface device. Secure Boot technology prevents unauthorized boot code from booting on your Surface device, which protects against bootkit and rootkit-type malware infections. You can disable Secure Boot to allow your Surface device to boot third-party operating systems or bootable media. You can also configure Secure Boot to work with third-party certificates, as shown in Figure 4. To learn more, see [Secure Boot](/windows-hardware/design/device-experiences/oem-secure-boot).
 
 ![Configure Secure Boot](images/manage-surface-uefi-fig3.png "Configure Secure Boot")
 

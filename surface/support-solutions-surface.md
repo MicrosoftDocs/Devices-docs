@@ -31,15 +31,14 @@ Microsoft regularly releases both updates and solutions for Surface devices. To 
 - [Surface update history](https://www.microsoft.com/surface/support/install-update-activate/surface-update-history)
 - [Install Surface and Windows updates](https://www.microsoft.com/surface/support/performance-and-maintenance/install-software-updates-for-surface?os=windows-10&=undefined)
 - [Download drivers and firmware for Surface](https://support.microsoft.com/help/4023482)
-- [Deploy the latest firmware and drivers for Surface devices](https://docs.microsoft.com/surface/deploy-the-latest-firmware-and-drivers-for-surface-devices)
-- [Manage Surface driver and firmware updates](https://docs.microsoft.com/surface/manage-surface-pro-3-firmware-updates)
+- [Manage and deploy Surface driver and firmware updates](manage-surface-driver-and-firmware-updates.md)
 - [How to manage Surface driver updates in Configuration Manager](https://support.microsoft.com/help/4098906)
 
 ## Surface Dock Issues
 
 - [Troubleshoot Surface Dock and docking stations](https://support.microsoft.com/help/4023468/surface-troubleshoot-surface-dock-and-docking-stations)
 - [Troubleshoot connecting Surface to a second screen](https://support.microsoft.com/help/4023496)
-- [Microsoft Surface Dock firmware update](https://docs.microsoft.com/surface/surface-dock-updater)
+- [Microsoft Surface Dock 1 Firmware Update](surface-dock-firmware-update.md)
 
 ## Device cover or keyboard issues
 
