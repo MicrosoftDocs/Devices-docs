@@ -31,15 +31,14 @@ Microsoft regularly releases both updates and solutions for Surface devices. To 
 - [Surface update history](https://www.microsoft.com/surface/support/install-update-activate/surface-update-history)
 - [Install Surface and Windows updates](https://www.microsoft.com/surface/support/performance-and-maintenance/install-software-updates-for-surface?os=windows-10&=undefined)
 - [Download drivers and firmware for Surface](https://support.microsoft.com/help/4023482)
-- [Deploy the latest firmware and drivers for Surface devices](https://docs.microsoft.com/surface/deploy-the-latest-firmware-and-drivers-for-surface-devices)
-- [Manage Surface driver and firmware updates](https://docs.microsoft.com/surface/manage-surface-pro-3-firmware-updates)
+- [Manage and deploy Surface driver and firmware updates](manage-surface-driver-and-firmware-updates.md)
 - [How to manage Surface driver updates in Configuration Manager](https://support.microsoft.com/help/4098906)
 
 ## Surface Dock Issues
 
 - [Troubleshoot Surface Dock and docking stations](https://support.microsoft.com/help/4023468/surface-troubleshoot-surface-dock-and-docking-stations)
 - [Troubleshoot connecting Surface to a second screen](https://support.microsoft.com/help/4023496)
-- [Microsoft Surface Dock firmware update](https://docs.microsoft.com/surface/surface-dock-updater)
+- [Microsoft Surface Dock 1 Firmware Update](surface-dock-firmware-update.md)
 
 ## Device cover or keyboard issues
 
@@ -60,11 +59,11 @@ Microsoft regularly releases both updates and solutions for Surface devices. To 
 
 - [Creating and using a USB recovery drive for Surface](https://support.microsoft.com/help/4023512)
 - [FAQ: Protecting your data if you send your Surface in for service](https://support.microsoft.com/help/4023508)
-- [Microsoft Surface Data Eraser](https://docs.microsoft.com/surface/microsoft-surface-data-eraser)
+- [Microsoft Surface Data Eraser](microsoft-surface-data-eraser.md)
 
 ## Deployment issues
 
 - [DISK0 not found when you deploy Windows on Surface Pro Model 1796 or Surface Laptop](https://support.microsoft.com/help/4046108)
 - [Surface Pro Model 1796 and Surface Laptop 1TB display two drives](https://support.microsoft.com/help/4046105)
-- [System SKU reference](https://docs.microsoft.com/surface/surface-system-sku-reference)
+- [System SKU reference](surface-system-sku-reference.md)
 
