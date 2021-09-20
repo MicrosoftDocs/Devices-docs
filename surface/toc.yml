@@ -22,18 +22,18 @@
            href: surface-headphones.md
       - name: Order Surface devices
         items:    
-        - name: Surface Laptop 4 for Business
-          href: https://www.microsoft.com/surface/business/surface-laptop-4
-        - name: Surface Pro 7+ for Business
-          href: https://www.microsoft.com/surface/business/surface-pro-7-plus
-        - name: Surface Go 2 for Business
-          href: https://www.microsoft.com/surface/business/surface-go-2
+        - name: Surface Pro 8 for Business
+          href: https://www.microsoft.com/surface/business/surface-pro-8
+        - name: Surface Laptop Studio for Business
+          href: https://www.microsoft.com/surface/business/surface-laptop-studio          
+        - name: Surface Go 3 for Business
+          href: https://www.microsoft.com/surface/business/surface-go-3
         - name: Surface Pro X for Business
           href: https://www.microsoft.com/surface/business/surface-pro-x
+        - name: Surface Laptop 4 for Business
+          href: https://www.microsoft.com/surface/business/surface-laptop-4         
         - name: Surface Studio 2 for Business
-          href: https://www.microsoft.com/surface/business/surface-studio-2
-        - name: Surface Book 3 for Business
-          href: https://www.microsoft.com/surface/business/surface-book-3
+          href: https://www.microsoft.com/surface/business/surface-studio-2         
     - name: Plan
       items: 
         - name: Surface device compatibility with Windows 10 Long-Term Servicing Branch
