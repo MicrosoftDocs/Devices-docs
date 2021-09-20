@@ -24,14 +24,16 @@
         items:    
         - name: Surface Pro 8 for Business
           href: https://www.microsoft.com/surface/business/surface-pro-8
+        - name: Surface Pro X for Business
+          href: https://www.microsoft.com/surface/business/surface-pro-x         
         - name: Surface Laptop Studio for Business
           href: https://www.microsoft.com/surface/business/surface-laptop-studio          
         - name: Surface Go 3 for Business
           href: https://www.microsoft.com/surface/business/surface-go-3
-        - name: Surface Pro X for Business
-          href: https://www.microsoft.com/surface/business/surface-pro-x
         - name: Surface Laptop 4 for Business
-          href: https://www.microsoft.com/surface/business/surface-laptop-4         
+          href: https://www.microsoft.com/surface/business/surface-laptop-4 
+        - name: Surface Laptop Go for Business
+          href: https://www.microsoft.com/surface/business/surface-laptop-go                 
         - name: Surface Studio 2 for Business
           href: https://www.microsoft.com/surface/business/surface-studio-2         
     - name: Plan
