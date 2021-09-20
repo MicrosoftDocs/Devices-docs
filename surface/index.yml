@@ -56,13 +56,13 @@ conceptualContent:
         # Card 2
     - title: Surface Hub overview
       links:
-        - url: /surface-hub/surface-hub-2s-85-install-mount.md  
+        - url: /surface-hub/surface-hub-2s-85-install-mount  
           itemType: how-to-guide
           text: Install and mount Surface Hub 2S 85" (readiness guide)
-        - url: /microsoftteams/rooms/surface-hub-manage-config.md
+        - url: /microsoftteams/rooms/surface-hub-manage-config
           itemType: concept
           text: Manage Microsoft Teams settings on Surface Hub
-        - url: /surface-hub/surface-hub-2s-techspecs.md
+        - url: /surface-hub/surface-hub-2s-techspecs
           itemType: concept
           text: Surface Hub 2S tech specs
 
