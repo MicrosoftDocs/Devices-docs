@@ -60,16 +60,16 @@
           href: install-apps-on-surface-hub.md
         - name: Create Surface Hub 2S on-premises accounts with PowerShell
           href: /microsoftteams/rooms/with-skype-for-business-server-2015
-          - name: Microsoft Teams 
-            items: 
-            - name: Microsoft Teams Rooms on Surface Hub
-              href: surface-hub-teams-rooms.md
-            - name: Configure networking and Quality of Service for Microsoft Teams Room on Surface Hub
-              href: surface-hub-teams-rooms-networking.md
-            - name: Surface Hub Teams app
-              href: hub-teams-app.md
-            - name: Teams certified accessories for Surface Hub 2S
-              href: surface-hub-2s-certifications.md
+        - name: Microsoft Teams 
+          items: 
+           - name: Microsoft Teams Rooms on Surface Hub
+             href: surface-hub-teams-rooms.md
+           - name: Configure networking and Quality of Service for Microsoft Teams Room on Surface Hub
+             href: surface-hub-teams-rooms-networking.md
+           - name: Surface Hub Teams app
+             href: hub-teams-app.md
+           - name: Teams certified accessories for Surface Hub 2S
+             href: surface-hub-2s-certifications.md
     - name: Manage
       items: 
         - name: Migrate to Windows 10 Pro or Enterprise on Surface Hub 2
