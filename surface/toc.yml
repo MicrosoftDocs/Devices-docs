@@ -21,7 +21,9 @@
          - name: Surface Headphones 2+ tech overview
            href: surface-headphones.md
       - name: Order Surface devices
-        items:    
+        items:  
+        - name: Surface OS choice
+          href: surface-os-choice.md  
         - name: Surface Pro 8 for Business
           href: https://www.microsoft.com/surface/business/surface-pro-8
         - name: Surface Pro X for Business
