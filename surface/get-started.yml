@@ -24,8 +24,8 @@ landingContent:
     linkLists:
       - linkListType: whats-new
         links:
-          - text: Remote work solutions with Surface
-            url: https://www.microsoft.com/surface/business/remote-work-solutions
+          - text: Surface OS choice
+            url: surface-os-choice.md
           - text: Surface Pro 8 for Business 
             url: https://www.microsoft.com/surface/business/surface-pro-8   
           - text: Surface Pro X for Business
@@ -36,7 +36,6 @@ landingContent:
             url: https://www.microsoft.com/surface/business/surface-go-3           
           - text: Surface Laptop Go  for Business 
             url: https://www.microsoft.com/surface/business/surface-laptop-go
-
           - text: Explore all Surface family products
             url: https://www.microsoft.com/surface/business
   
@@ -51,6 +50,8 @@ landingContent:
            url: surface-headphones.md
          - text: Azure Virtual Desktop on Surface
            url: windows-virtual-desktop-surface.md
+         - text: Remote work solutions with Surface
+           url: https://www.microsoft.com/surface/business/remote-work-solutions
  
    # Card (optional)
   - title: Microsoft Ignite
