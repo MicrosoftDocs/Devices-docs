@@ -20,7 +20,7 @@ In light of the general availability of Windows 11, Oct. 5, 2021, commercial cus
  
 The ability to get the OS version they need directly from Surface frees IT admins and partners from having to compile driver packs and re-image devices before distributing them to their users via Autopilot or Azure Active Directory domain join (AADJ). This simplified IT process includes delivery of shrink-wrapped devices already configured with the firmware and drivers built and tested for the OS you choose. Plus, customers will be able to download bare metal recovery (BMR) and .msi files from the [Surface Recovery Image Download page.](https://support.microsoft.com/surface-recovery-image) 
  
-## How to order
+### How to order
 
 Commercial customers can place orders for new devices via [authorized Microsoft Surface resellers.](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface?)
 
