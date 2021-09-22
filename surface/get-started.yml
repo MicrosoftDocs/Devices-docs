@@ -24,16 +24,18 @@ landingContent:
     linkLists:
       - linkListType: whats-new
         links:
-          - text: Remote work solutions with Surface
-            url: https://www.microsoft.com/surface/business/remote-work-solutions
-          - text: Surface Laptop 4 + for Business 
-            url: https://www.microsoft.com/surface/business/surface-laptop-4       
-          - text: Surface Pro 7+ for Business 
-            url: https://www.microsoft.com/surface/business/surface-pro-7-plus
+          - text: Surface OS choice
+            url: surface-os-choice.md
+          - text: Surface Pro 8 for Business 
+            url: https://www.microsoft.com/surface/business/surface-pro-8   
+          - text: Surface Pro X for Business
+            url: https://www.microsoft.com/surface/business/surface-pro-x              
+          - text: Surface Laptop Studio for Business 
+            url: https://www.microsoft.com/surface/business/surface-laptop-studio
+          - text: Surface Go 3 for Business 
+            url: https://www.microsoft.com/surface/business/surface-go-3           
           - text: Surface Laptop Go  for Business 
             url: https://www.microsoft.com/surface/business/surface-laptop-go
-          - text: Surface Pro X for Business
-            url: https://www.microsoft.com/surface/business/surface-pro-x
           - text: Explore all Surface family products
             url: https://www.microsoft.com/surface/business
   
@@ -48,6 +50,8 @@ landingContent:
            url: surface-headphones.md
          - text: Azure Virtual Desktop on Surface
            url: windows-virtual-desktop-surface.md
+         - text: Remote work solutions with Surface
+           url: https://www.microsoft.com/surface/business/remote-work-solutions
  
    # Card (optional)
   - title: Microsoft Ignite
@@ -115,7 +119,7 @@ landingContent:
     linkLists:
       - linkListType: how-to-guide
         links:
-          - text: Deploy Surface Diagnostic Toolkit for Business
+          - text: Surface Diagnostic Toolkit for Business
             url: surface-diagnostic-toolkit-business.md
           - text: SEMM and UEFI
             url: surface-enterprise-management-mode.md
