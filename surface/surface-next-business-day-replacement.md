@@ -60,6 +60,7 @@ For a list of supported post codes, see "Next business day coverage" where appli
 #### Australia
 
 - Cutoff Time: 14:30 AET (UTC+11)
+- [Next business day coverage](https://download.microsoft.com/download/2/a/b/2abb0658-6900-440f-96c0-94eb38dcb488/NBD%20Coverage%20-%20Australia%20Post%20Codes%20092421.xlsx)
 
 #### Austria
 
