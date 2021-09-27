@@ -8,7 +8,7 @@ author: dansimp
 ms.author: dansimp
 ms.topic: article
 ms.date: 08/20/2021
-ms.reviewer: 
+ms.reviewer: dpandre
 manager: laurawi
 ms.localizationpriority: medium
 ---
@@ -48,6 +48,30 @@ The new Teams Rooms for Surface Hub client, will automatically apply existing se
 ### Prepare networking for Teams Rooms
 
 To optimize Teams Rooms refer to the requirements and recommendations described in [Configure networking and Quality of Service for Microsoft Teams Room on Surface Hub](surface-hub-teams-rooms-networking.md).
+
+### Support for Teams Rooms in Government Community Cloud High (GCC-H)
+
+When Teams Rooms for Surface Hub is publicly released later this year, a one-time manual update of the client to version 1.4.00.25354 is needed in order to for it to be able to connect to a GCC-H tenant and then keep itself up-to-date automatically:
+
+ - Confirm that your Hub has KB5005611 or a later Windows Cumulative Update installed
+ - Use Teams_Uninstall_win32.ppkg to remove current Teams Rooms on Surface Hub version
+ - Restart your device
+ - Install Teams_win32.ppkg to install version 1.4.00.25354
+ - Restart your device again
+
+Detailed steps:
+
+1. Save both provisioning packages to the root of your USB drive
+2.	Insert the USB drive into your Surface Hub
+3.	On your Surface Hub, open the Start menu, select All apps, and then select Settings
+4.	Provide your Hub admin credentials when prompted
+5.	Go to **Surface Hub** > **Device management** > **Add or remove a provisioning package**, and then select **Add a package**
+6.	Under **Select a package**, select the Teams_Uninstall_win32.ppkg provisioning package, and then restart your Surface Hub
+7.	On your Surface Hub, open the Start menu, select All apps, and then select Settings
+8.	Provide your Hub admin credentials when prompted
+9.	Go to **Surface Hub** > **Device management** > **Add or remove a provisioning package**, and then select **Add a package**
+10.	Under **Select a package**, select the Teams_win32.ppkg provisioning package, and then restart your Surface Hub
+
 
 ### Simplified management of Teams coming to Surface Hub
 
