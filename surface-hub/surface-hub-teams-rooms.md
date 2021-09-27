@@ -49,7 +49,15 @@ The new Teams Rooms for Surface Hub client, will automatically apply existing se
 
 To optimize Teams Rooms refer to the requirements and recommendations described in [Configure networking and Quality of Service for Microsoft Teams Room on Surface Hub](surface-hub-teams-rooms-networking.md).
 
-### Support for Teams Rooms in Government Community Cloud High (GCC-H)
+### Simplified management of Teams coming to Surface Hub
+
+When Teams Rooms for Surface Hub is publicly released later this year, admins can take advantage of the following solutions:
+
+- **Teams Admin Center.** Teams Admin Center provides a comprehensive self-management platform to monitor and manage the Teams Rooms experience on Teams devices. Teams Admin Center will be available to Microsoft Teams Rooms users at no additional cost.
+- **Microsoft Teams Rooms managed service.** The [Microsoft Teams Rooms managed service](/microsoftteams/rooms/microsoft-teams-rooms-premium) is a cloud-based IT management and monitoring service that keeps Microsoft Teams Rooms devices and their peripherals up to date and proactively monitored, supporting an environment optimized for a great user experience.
+
+
+## Support for Teams Rooms in Government Community Cloud High (GCC-H)
 
 When Teams Rooms for Surface Hub is publicly released later this year, a one-time manual update of the client to version 1.4.00.25354 is needed in order to for it to be able to connect to a GCC-H tenant and then keep itself up-to-date automatically:
 
@@ -71,11 +79,3 @@ Detailed steps:
 8.	Provide your Hub admin credentials when prompted
 9.	Go to **Surface Hub** > **Device management** > **Add or remove a provisioning package**, and then select **Add a package**
 10.	Under **Select a package**, select the Teams_win32.ppkg provisioning package, and then restart your Surface Hub
-
-
-### Simplified management of Teams coming to Surface Hub
-
-When Teams Rooms for Surface Hub is publicly released later this year, admins can take advantage of the following solutions:
-
-- **Teams Admin Center.** Teams Admin Center provides a comprehensive self-management platform to monitor and manage the Teams Rooms experience on Teams devices. Teams Admin Center will be available to Microsoft Teams Rooms users at no additional cost.
-- **Microsoft Teams Rooms managed service.** The [Microsoft Teams Rooms managed service](/microsoftteams/rooms/microsoft-teams-rooms-premium) is a cloud-based IT management and monitoring service that keeps Microsoft Teams Rooms devices and their peripherals up to date and proactively monitored, supporting an environment optimized for a great user experience.
