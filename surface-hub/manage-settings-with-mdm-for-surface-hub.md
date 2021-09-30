@@ -115,75 +115,45 @@ To generate the OMA URI for any setting:
 4. Under **Configuration settings** > **OMA-URI Settings**, select **Add**.
 
   
-## Manage specific Surface Hub features
+## Microsoft Teams and Skype for Business settings
 
 This section highlights information about features that you can manage via Intune or other MDM provider. This includes:
 
 - [Quality of Service (QoS)](#quality-of-service-settings)
-- [Microsoft Teams and Skype for Business](#microsoft-teams-and-skype-for-business-settings)
+- [Microsoft Teams and Skype for Business](#manage-specific-teams-features)
 
 ### Quality of Service settings
 
 To ensure optimal video and audio quality on Surface Hub, add the following QoS settings to the device. 
 
-| Name | Description | OMA-URI | Type | Value |
-|:------ |:------------- |:--------- |:------ |:------- |
-|**Audio Ports**| Audio Port range | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsAudio/DestinationPortMatchCondition | String  | 3478-3479 |
-|**Audio DSCP**| Audio ports marking | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsAudio/DSCPAction | Integer | 46 |
-|**Video Port**| Video Port range | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsVideo/DestinationPortMatchCondition | String  | 3480 |
-|**Video DSCP**| Video ports marking | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsVideo/DSCPAction | Integer | 34 |
-|**Sharing Port**| Sharing Port range | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsSharing/DestinationPortMatchCondition | String  | 3481 |
-|**Sharing DSCP**| Sharing ports marking | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsSharing/DSCPAction | Integer | 18 |
-|**P2P Audio Ports**| Audio Port range | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsP2PAudio/DestinationPortMatchCondition | String  | 50000-50019 |
-|**P2P Audio DSCP**| Audio ports marking | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsP2PAudio/DSCPAction | Integer | 46 |
-|**P2P Video Ports**| Video Port range | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsP2PVideo/DestinationPortMatchCondition | String  | 50020-50039 |
-|**P2P Video DSCP**| Video ports marking | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsP2PVideo/DSCPAction | Integer | 34 |
-|**P2P Sharing Ports**| Sharing Port range | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsP2PSharing/DestinationPortMatchCondition | String  | 50040-50059 |
-|**P2P Sharing DSCP**| Sharing ports marking | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsP2PSharing/DSCPAction | Integer | 18 |
-
-
-#### Skype for Business QoS settings
-
-| Name                 | Description           | OMA-URI                                                                    | Type    | Value                          |
-| -------------------- | --------------------- | -------------------------------------------------------------------------- | ------- | ------------------------------ |
-| Audio Ports          | Audio Port range      | ./Device/Vendor/MSFT/NetworkQoSPolicy/SfBAudio/SourcePortMatchCondition    | String  | 50000-50019                    |
-| Audio DSCP           | Audio ports marking   | ./Device/Vendor/MSFT/NetworkQoSPolicy/SfBAudio/DSCPAction                  | Integer | 46                             |
-| Audio Media Source   | Skype App name        | ./Device/Vendor/MSFT/NetworkQoSPolicy/SfBAudio/AppPathNameMatchCondition   | String  | Microsoft.PPISkype.Windows.exe |
-| Video Ports          | Video Port range      | ./Device/Vendor/MSFT/NetworkQoSPolicy/SfBVideo/SourcePortMatchCondition    | String  | 50020-50039                    |
-| Video DSCP           | Video ports marking   | ./Device/Vendor/MSFT/NetworkQoSPolicy/SfBVideo/DSCPAction                  | Integer | 34                             |
-| Video Media Source   | Skype App name        | ./Device/Vendor/MSFT/NetworkQoSPolicy/SfBVideo/AppPathNameMatchCondition   | String  | Microsoft.PPISkype.Windows.exe |
-| Sharing Ports        | Sharing Port range    | ./Device/Vendor/MSFT/NetworkQoSPolicy/SfBSharing/SourcePortMatchCondition  | String  | 50040-50059                    |
-| Sharing DSCP         | Sharing ports marking | ./Device/Vendor/MSFT/NetworkQoSPolicy/SfBSharing/DSCPAction                | Integer | 18                             |
-| Sharing Media Source | Skype App name        | ./Device/Vendor/MSFT/NetworkQoSPolicy/SfBSharing/AppPathNameMatchCondition | String  | Microsoft.PPISkype.Windows.exe |
+| Name                 | Description           | OMA-URI                                                                 | Type    | Value                          |
+| -------------------- | --------------------- | ----------------------------------------------------------------------- | ------- | ------------------------------ |
+| Audio Ports          | Audio Port range      | ./Device/Vendor/MSFT/NetworkQoSPolicy/Audio/SourcePortMatchCondition    | String  | 50000-50019                    |
+| Audio DSCP           | Audio ports marking   | ./Device/Vendor/MSFT/NetworkQoSPolicy/Audio/DSCPAction                  | Integer | 46                             |
+| Video Ports          | Video Port range      | ./Device/Vendor/MSFT/NetworkQoSPolicy/Video/SourcePortMatchCondition    | String  | 50020-50039                    |
+| Video DSCP           | Video ports marking   | ./Device/Vendor/MSFT/NetworkQoSPolicy/Video/DSCPAction                  | Integer | 34                             |
+| Sharing Ports        | Sharing Port range    | ./Device/Vendor/MSFT/NetworkQoSPolicy/Sharing/SourcePortMatchCondition  | String  | 50040-50059                    |
+| Sharing DSCP         | Sharing ports marking | ./Device/Vendor/MSFT/NetworkQoSPolicy/Sharing/DSCPAction                | Integer | 18                             |
 
 > [!NOTE]
-> Both tables show default port ranges. Administrators may change the port ranges in the Skype for Business and Teams control panel.
+> The table shows default port ranges. Administrators may change the port ranges in the Skype for Business and Teams control panel.
 
-### Microsoft Teams and Skype for Business settings
+### Manage specific Teams features
 
 You can create a Custom configuration profile to manage Teams Coordinated Meetings, Proximity Join, and other features. To learn more, see [Manage Microsoft Teams configuration on Surface Hub](https://docs.microsoft.com/microsoftteams/rooms/surface-hub-manage-config).
 
-#### Changing default business communications platform
+### Changing default app for meetings & calls
 
-The default business communications platform on Surface Hub varies depending on how you install Windows 10 Team 2020 Update (aka Windows 10 20H2). If you re-image Surface Hub to Windows 10 20H2, Microsoft Teams will be set as the default, with Skype for Business functionality available (Mode 1). If you upgrade your Hub from an earlier OS version, Skype for Business will remain as the default, with Teams functionality available (Mode 0) unless you had already configured Teams as your default. 
+The default app for meetings & calls on the Surface Hub varies depending on how you install Windows 10 Team 2020 Update (aka Windows 10 20H2 Team edition). If you re-image a Surface Hub to Windows 10 20H2, Microsoft Teams will be set as the default, with Skype for Business not available (Mode 1). If you upgrade your Hub from an earlier OS version, Skype for Business will remain as the default, with Teams functionality available (Mode 0) unless you had already configured Teams as your default. 
 
-To change the default installation, use a [custom profile](https://docs.microsoft.com/mem/intune/configuration/custom-settings-configure) by setting the Teams App Mode as follows:  
+To change the default installation, use a [custom profile](https://docs.microsoft.com/mem/intune/configuration/custom-settings-configure) to set the Teams Meeting Mode as follows:  
 
 - Mode 0 — Skype for Business with Microsoft Teams functionality for scheduled meetings.
-- Mode 1 — Microsoft Teams with Skype for Business functionality for scheduled meetings.
-- Mode 2 — Microsoft Teams only.
+- Mode 1 — Microsoft Teams only.
 
 | Name | Description | OMA-URI | Type | Value |
 |:--- |:--- |:--- |:--- |:--- |
 |**Teams App ID**|App name|./Vendor/MSFT/SurfaceHub/Properties/VtcAppPackageId|String| Microsoft.MicrosoftTeamsforSurfaceHub_8wekyb3d8bbwe!Teams|
-|**Teams App Mode**|Teams mode|./Vendor/MSFT/SurfaceHub/Properties/SurfaceHubMeetingMode|Integer| 0 or 1 or 2|
-
-
-
-
-
-
-
-
+|**Teams App Mode**|Teams mode|./Vendor/MSFT/SurfaceHub/Properties/SurfaceHubMeetingMode|Integer| 0 or 1|
 
 
