@@ -69,13 +69,13 @@ When Teams Rooms for Surface Hub is publicly released later this year, a one-tim
 
 Detailed steps:
 
-1. Save both provisioning packages to the root of your USB drive
-2.	Insert the USB drive into your Surface Hub
-3.	On your Surface Hub, open the Start menu, select All apps, and then select Settings
-4.	Provide your Hub admin credentials when prompted
-5.	Go to **Surface Hub** > **Device management** > **Add or remove a provisioning package**, and then select **Add a package**
-6.	Under **Select a package**, select the Teams_Uninstall_win32.ppkg provisioning package, and then restart your Surface Hub
-7.	On your Surface Hub, open the Start menu, select All apps, and then select Settings
-8.	Provide your Hub admin credentials when prompted
-9.	Go to **Surface Hub** > **Device management** > **Add or remove a provisioning package**, and then select **Add a package**
-10.	Under **Select a package**, select the Teams_win32.ppkg provisioning package, and then restart your Surface Hub
+1. Save both provisioning packages to the root of your USB drive.
+2.	Insert the USB drive into your Surface Hub.
+3.	On your Surface Hub, open the Start menu, select All apps, and then select Settings.
+4.	Provide your Hub admin credentials when prompted.
+5.	Go to **Surface Hub** > **Device management** > **Add or remove a provisioning package**, and then select **Add a package**.
+6.	Under **Select a package**, select the Teams_Uninstall_win32.ppkg provisioning package, and then restart your Surface Hub.
+7.	On your Surface Hub, open the Start menu, select All apps, and then select Settings.
+8.	Provide your Hub admin credentials when prompted.
+9.	Go to **Surface Hub** > **Device management** > **Add or remove a provisioning package**, and then select **Add a package**.
+10.	Under **Select a package**, select the Teams_win32.ppkg provisioning package, and then restart your Surface Hub.
