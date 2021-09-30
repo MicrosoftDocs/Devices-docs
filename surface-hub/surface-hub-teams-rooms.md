@@ -23,7 +23,7 @@ Teams Rooms for Surface Hub will automatically replace the current [Surface Hub 
 - Teams Rooms on Surface Hub can run side by side with other applications or run minimized.
 - Admins can configure features like Coordinated Meeting and Proximity Join for Surface Hub. [XML files](/microsoftteams/rooms/surface-hub-manage-config#teams-configuration-file-syntax) are supported and will be migrated to the new settings model.
 - New QoS Options and network requirements. To learn more, see [Configure networking and Quality of Service for Microsoft Teams Room on Surface Hub](surface-hub-teams-rooms-networking.md).
-- Changes to Teams mode, replacing Skype for Business as the default collaboration and meeting app. To learn more, see [Deploy Microsoft Teams for Surface Hub](/MicrosoftTeams/teams-surface-hub).
+- If not already the default, Teams can be set as the default app for meetings and calls in **Settings** > **Surface Hub** > **Calling & audio**. To learn more about meeting modes and configuring them through MDM policy, see [Manage Surface Hub with an MDM provider](manage-settings-with-mdm-for-surface-hub.md#changing-default-business-communications-platform).
 
 ## In meeting experience
 
@@ -62,9 +62,9 @@ When Teams Rooms for Surface Hub is publicly released later this year, admins ca
 When Teams Rooms for Surface Hub is publicly released later this year, a one-time manual update of the client to version 1.4.00.25354 is needed in order to for it to be able to connect to a GCC-H tenant and then keep itself up-to-date automatically:
 
  - Confirm that your Hub has KB5005611 or a later Windows Cumulative Update installed
- - Use Teams_Uninstall_win32.ppkg to remove current Teams Rooms on Surface Hub version
+ - Use [Teams_Uninstall_win32.ppkg](https://download.microsoft.com/download/8/3/F/83FD5089-D14E-42E3-AF7C-6FC36F80D347/Teams_Uninstall_Win32.ppkg) to remove current Teams Rooms on Surface Hub version
  - Restart your device
- - Install Teams_win32.ppkg to install version 1.4.00.25354
+ - Install [Teams_win32.ppkg](https://download.microsoft.com/download/8/3/F/83FD5089-D14E-42E3-AF7C-6FC36F80D347/Teams_Win32.ppkg) to install version 1.4.00.25354
  - Restart your device again
 
 Detailed steps:
