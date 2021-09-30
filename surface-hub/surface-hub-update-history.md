@@ -28,7 +28,9 @@ Please refer to the “[Surface Hub Important Information](https://support.micro
 <details>
 <summary>September 30, 2021 — KB5004196, KB5004198, and KB5004199</summary>
 
-These updates to the Surface Hub deliver the Teams Room client, Teams Admin Center agent, and Managed Meeting Rooms agent. Key features are outlined in [Teams Room on Surface Hub](surface-hub-teams-rooms.md)
+These updates to the Surface Hub deliver the Teams Room client, Teams Admin Center agent, and Managed Meeting Rooms agent. Key features are outlined in [Teams Room on Surface Hub](surface-hub-teams-rooms.md).
+ 
+Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabling device features and services.
 </details>
 
 <details>
