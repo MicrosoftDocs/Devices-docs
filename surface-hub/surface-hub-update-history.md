@@ -26,6 +26,16 @@ Please refer to the “[Surface Hub Important Information](https://support.micro
 ## Windows 10 Team 2020 Update (20H2)
 
 <details>
+<summary>September 30, 2021 — update for Team based on KB5005611* (OS Build 19042.1266)</summary>
+
+This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4581839/windows-10-update-history), include:
+
+* Replaces Meeting Mode 1 (Teams preferred/SfB available) with Mode 2 functionality (Teams only); either setting can be used, but both have the same effect.
+
+Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabling device features and services. *[KB5005611](https://support.microsoft.com/help/5005611)
+</details>
+
+<details>
 <summary>September 1, 2021 — update for Team based on KB5005101* (OS Build 19042.1202)</summary>
 
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub are outlined in [Windows 10 Team 2020 Update 1](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/windows-10-team-2020-update-1-released-to-all-surface-hubs/ba-p/2653503), and also include the below:
