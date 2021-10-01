@@ -13,7 +13,6 @@ ms.reviewer: jesko
 manager: laurawi
 ms.audience: itpro
 appliesto:
-
 - Surface Laptop Studio
 - Surface Pro 8
 - Surface Go 3
