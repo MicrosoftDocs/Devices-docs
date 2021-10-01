@@ -8,11 +8,15 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 04/13/2021
+ms.date: 10/01/2021
 ms.reviewer: jesko
 manager: laurawi
 ms.audience: itpro
 appliesto:
+
+- Surface Laptop Studio
+- Surface Pro 8
+- Surface Go 3
 - Surface Pro 7+
 - Surface Pro 7
 - Surface Pro X
@@ -47,6 +51,9 @@ Crucially, DFCI enables zero touch management, eliminating the need for manual i
 
 DFCI is supported in the following devices:
 
+- Surface Laptop Studio
+- Surface Pro 8
+- Surface Go 3
 - Surface Pro 7+
 - Surface Pro 7
 - Surface Pro X
