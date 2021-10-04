@@ -28,7 +28,7 @@ This section describes the integrated and discrete GPUs across Surface Laptop St
 
 ### Intel Iris™ Xe Graphics
 
-The integrated GPU (iGPU) Surface Laptop Studio is installed as the secondary GPU on most models, Intel Iris™ Xe Graphics functions as the singular GPU in the core i5 model. It supports richer gaming experiences and greater speeds for designers and creators. With advanced graphics capabilities and an AI-enhanced experience, Intel Iris Xe enables consumers, hobbyists, and online creators to run the latest productivity software like Adobe Creative Cloud or enjoy gaming titles in 1080p. It, also, increases the number of supported displays from 3 to total of 4. This allows customers to use up to three external displays alongside the internal display or four external displays at once[[1]](#references).
+The integrated GPU (iGPU) Surface Laptop Studio is installed as the secondary GPU on most models, Intel Iris™ Xe Graphics functions as the singular GPU in the core i5 model. It supports richer gaming experiences and greater speeds for designers and creators. With advanced graphics capabilities and an AI-enhanced experience, Intel Iris Xe enables consumers, hobbyists, and online creators to run the latest productivity software like Adobe Creative Cloud or enjoy gaming titles in 1080p. It, also, increases the number of supported displays from 3 to total of 4. This allows customers to use up to three external displays alongside the internal display or four external displays at once for both integrated GPU and discrete GPU models.[[1]](#references).
 
 ### Comparing discrete GPUs
 
