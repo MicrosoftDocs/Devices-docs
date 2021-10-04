@@ -17,7 +17,7 @@
          - name: Surface Headphones 2+ tech overview
            href: surface-headphones.md                    
          - name: Surface professional graphics
-            items: 
+          items: 
           - name: Surface Laptop Studio graphics overview
             href: surface-laptop-studio-graphics.md                    
           - name: Surface Book 3 tech overview
