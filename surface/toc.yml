@@ -14,12 +14,16 @@
            href: windows-virtual-desktop-surface.md			   
          - name: Surface Laptop 4 processors tech overview
            href: surface-laptop-processors.md
-         - name: Surface Book 3 GPU tech overview
+         - name: Surface Headphones 2+ tech overview
+           href: surface-headphones.md                    
+      - name: Surface professional graphics
+        items: 
+         - name: Surface Laptop Studio graphics overview
+           href: surface-laptop-studio-graphics.md                    
+         - name: Surface Book 3 tech overview
            href: surface-book-GPU-overview.md
          - name: Surface Book 3 Quadro RTX 3000 tech overview
-           href: surface-book-quadro.md
-         - name: Surface Headphones 2+ tech overview
-           href: surface-headphones.md
+           href: surface-book-quadro.md      
       - name: Order Surface devices
         items:  
         - name: Surface OS choice
