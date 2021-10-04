@@ -92,5 +92,5 @@ NVIDIA RTX A2000 builds on the GeForce RTX 3050 Ti features with the following a
  
 ### References
 
-* Subject to the limitations of the display connection. DisplayPort 1.4a over USB-C permits 4K displays up to the following configurations: 1x 4K at 120Hz; 2x 4K at 60Hz; 1x 4K at 60Hz + 2x 4K at 30Hz; 4x 4K at 30Hz. Display configurations of more than two displays require display support for daisy chaining or display adapters with support for multiple displays.
+1. Subject to the limitations of the display connection. DisplayPort 1.4a over USB-C permits 4K displays up to the following configurations: 1x 4K at 120Hz; 2x 4K at 60Hz; 1x 4K at 60Hz + 2x 4K at 30Hz; 4x 4K at 30Hz. Display configurations of more than two displays require display support for daisy chaining or display adapters with support for multiple displays.
 
