@@ -34,9 +34,9 @@ The integrated GPU (iGPU) Surface Laptop Studio is installed as the secondary GP
 
 NVIDIA GeForce RTX 30 Series and RTX professional GPUs provide massive speedups for games, 3D rendering, video editing, graphic design and AI-accelerated workflows in addition to many other creative tasks. This is thanks to the latest NVIDIA Ampere architecture:
 
-- 2nd generation RT Cores and DLSS, providing up to 2x performance boosts in top renderers including Blender Cycles, Chaos V-Ray, and Autodesk Arnold
+- 2nd generation RT Cores and DLSS, providing up to 2x performance boosts in top renderers including Blender Cycles, Chaos V-Ray, and Autodesk Arnold.
 - 3rd generation Tensor Cores that accelerate AI features. Tensor Cores also bring AI to graphics with capabilities like DLSS, AI denoising, and enhanced editing for select applications.
-- The best-in-class video encoder (NVENC), as well as new hardware acceleration for ray-traced motion blur, a common technique used in production rendering, now boosted by up to 5x
+- The best-in-class video encoder (NVENC), as well as new hardware acceleration for ray-traced motion blur, a common technique used in production rendering, now boosted by up to 5x.
 
 ### NVIDIA GeForce RTX 3050 Ti Laptop GPU
 
