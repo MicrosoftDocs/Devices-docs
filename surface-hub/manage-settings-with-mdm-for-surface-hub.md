@@ -120,7 +120,7 @@ To generate the OMA URI for any setting:
 This section highlights information about features that you can manage via Intune or other MDM provider. This includes:
 
 - [Quality of Service (QoS)](#quality-of-service-settings)
-- [Microsoft Teams and Skype for Business](#manage-specific-teams-features)
+- [Manage Teams-specific features](#manage-specific-teams-features)
 
 ### Quality of Service settings
 
@@ -138,7 +138,7 @@ To ensure optimal video and audio quality on Surface Hub, add the following QoS 
 > [!NOTE]
 > The table shows default port ranges. Administrators may change the port ranges in the Skype for Business and Teams control panel.
 
-### Manage specific Teams features
+### Manage Teams-specific features
 
 You can create a Custom configuration profile to manage Teams Coordinated Meetings, Proximity Join, and other features. To learn more, see [Manage Microsoft Teams configuration on Surface Hub](https://docs.microsoft.com/microsoftteams/rooms/surface-hub-manage-config).
 
