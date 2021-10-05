@@ -96,7 +96,7 @@ To implement CSP-based policy settings, begin by generating an OMA URI and then 
  
 To generate the OMA URI for any setting:
 
-1. In the [CSP documentation](/windows/client-management/mdm/configuration-service-provider-reference#surfacehubcspsupport), identify the root node of the CSP. Generally, this looks like **./Vendor/MSFT/<name of CSP>**. 
+1. In the [CSP documentation](/windows/client-management/mdm/configuration-service-provider-reference#surfacehubcspsupport), identify the root node of the CSP. Generally, this looks like **./Vendor/MSFT/NameOfCSP**. 
     - **Example:** The root node of the [SurfaceHub CSP](/windows/client-management/mdm/surfacehub-csp) is **./Vendor/MSFT/SurfaceHub**.
 2. Identify the node path for the setting you want to use. 
     - **Example:** The node path for the setting to enable wireless projection is **InBoxApps/WirelessProjection/Enabled**.
