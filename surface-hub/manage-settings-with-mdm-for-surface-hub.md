@@ -117,10 +117,10 @@ To generate the OMA URI for any setting:
   
 ## Microsoft Teams and Skype for Business settings
 
-This section highlights information about features that you can manage via Intune or other MDM provider. This includes:
+This section highlights Teams and Skype for Business settings that you can manage via Intune or other MDM provider. This includes:
 
 - [Quality of Service (QoS)](#quality-of-service-settings)
-- [Manage Teams-specific features](#manage-specific-teams-features)
+- [Manage Teams-specific features](#manage-teams-specific-features)
 
 ### Quality of Service settings
 
