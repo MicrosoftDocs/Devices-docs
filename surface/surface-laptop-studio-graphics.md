@@ -49,7 +49,7 @@ GeForce RTX 3050 Ti enables:
 - Ultra-fast 3D rendering thanks to RTX and DLSS accelerations in apps like Blender or Autodesk® Maya. 
 - Next-generation gaming with RTX graphics and high performance thanks to DLSS, as well as ultra low latency with NVIDIA Reflex.
 
-## NVIDIA RTX A2000 Laptop GPU
+### NVIDIA RTX A2000 Laptop GPU
 
 The NVIDIA RTX A2000 offers professional graphics rendering and AI capabilities for demanding professional workflows including manufacturing and product design, media and entertainment modeling, animating and rendering, architecture, engineering and construction design.
  
