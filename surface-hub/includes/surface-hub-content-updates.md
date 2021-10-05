@@ -2,6 +2,15 @@
 
 
 
+## Week of September 27, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 9/30/2021 | [Microsoft Teams Rooms on Surface Hub](/surface-hub/surface-hub-teams-rooms) | modified |
+| 9/30/2021 | [Surface Hub update history](/surface-hub/surface-hub-update-history) | modified |
+
+
 ## Week of September 20, 2021
 
 
