@@ -35,11 +35,11 @@ You can enroll Surface into Microsoft Intune or other MDM provider via manual or
 
 ### Auto Enrollment — Azure AD affiliated
 
-During the initial setup process, when affiliating Surface Hub with an Azure Active Directory (AD) tenant that has Intune auto enrollment enabled, the device will automatically enroll with Intune. To learn more, refer to [Intune enrollment methods for Windows devices](https://docs.microsoft.com/intune/enrollment/windows-enrollment-methods). Azure AD affiliation and Intune auto enrollment is required for the Surface Hub to be a "compliant device" in Intune. 
+During the initial setup process, when affiliating Surface Hub with an Azure Active Directory (AD) tenant that has Intune auto enrollment enabled, the device will automatically enroll with Intune. To learn more, refer to [Intune enrollment methods for Windows devices](/intune/enrollment/windows-enrollment-methods). Azure AD affiliation and Intune auto enrollment is required for the Surface Hub to be a "compliant device" in Intune. 
 
 ## Manage Surface Hub Windows 10 Team settings with Intune
 
-The foundational building block of policy settings management in Intune and other MDM providers is the XML-based Open Mobile Alliance-Device Management (OMA-DM) protocol. Windows 10 implements OMA-DM XML via one of many available Configuration service providers (CSPs) with names like AccountManagement CSP, DeviceStatus CSP, WiFi-CSP, and so on. For a complete list, refer to [CSPs supported in Microsoft Surface Hub](https://docs.microsoft.com/windows/client-management/mdm/configuration-service-provider-reference#surfacehubcspsupport).
+The foundational building block of policy settings management in Intune and other MDM providers is the XML-based Open Mobile Alliance-Device Management (OMA-DM) protocol. Windows 10 implements OMA-DM XML via one of many available Configuration service providers (CSPs) with names like AccountManagement CSP, DeviceStatus CSP, WiFi-CSP, and so on. For a complete list, refer to [CSPs supported in Microsoft Surface Hub](/windows/client-management/mdm/configuration-service-provider-reference#surfacehubcspsupport).
 
 Microsoft Intune and other MDM providers use CSPs to deliver a UI that enables you to configure policy settings within Configuration profiles. Intune uses the Surface Hub CSP for its built in profile —  **Device restrictions (Windows 10 Team)** — letting you configure basic settings such as preventing Surface Hub from "waking up" whenever anyone moves nearby within its proximity range. To manage Hub settings and features outside of Intune's built-in profile, you'll need to use a custom profile, as [shown below](#create-custom-configuration-profile). 
 
@@ -47,7 +47,7 @@ To summarize, options to configure and manage policy settings within Intune incl
  
 - **Create a Device restriction profile.** Use Intune's built in profile and configure settings directly in the Intune UI. See [Create device restriction profile](#create-device-restriction-profile).
 - **Create a Device configuration profile.**  Select a template focused on a specific feature or technology such as Microsoft Defender or security certificates. See [Create Device configuration profile](#create-device-configuration-profile).
-- **Create a Custom configuration profile.**  Extend your scope of management using an OMA Uniform Resource Identifier (OMA URI) from any of the [CSPs supported in Microsoft Surface Hub](https://docs.microsoft.com/windows/client-management/mdm/configuration-service-provider-reference#surfacehubcspsupport). See [Create custom configuration profile](#create-custom-configuration-profile).
+- **Create a Custom configuration profile.**  Extend your scope of management using an OMA Uniform Resource Identifier (OMA URI) from any of the [CSPs supported in Microsoft Surface Hub](/windows/client-management/mdm/configuration-service-provider-reference#surfacehubcspsupport). See [Create custom configuration profile](#create-custom-configuration-profile).
 
 > [!NOTE]
 > Profiles should be assigned to device groups containing the enrolled Surface Hub devices.
@@ -62,9 +62,9 @@ To summarize, options to configure and manage policy settings within Intune incl
 
      ![Configure Surface Hub settings with Intune device restriction profile.](images/sh-device-restrictions.png)
 
-For more information about creating and managing profiles, see [Restrict devices features using policy in Microsoft Intune](https://docs.microsoft.com/mem/intune/configuration/device-restrictions-configure#create-the-profile).
+For more information about creating and managing profiles, see [Restrict devices features using policy in Microsoft Intune](/mem/intune/configuration/device-restrictions-configure#create-the-profile).
  
-For more information about how to manage Surface Hub features and settings, see [Surface Hub Windows 10 Team device restrictions in Microsoft Intune](https://docs.microsoft.com/mem/intune/configuration/device-restrictions-windows-10-teams)
+For more information about how to manage Surface Hub features and settings, see [Surface Hub Windows 10 Team device restrictions in Microsoft Intune](/mem/intune/configuration/device-restrictions-windows-10-teams)
  
 
 ## Create Device configuration profile
@@ -82,13 +82,13 @@ For more information about how to manage Surface Hub features and settings, see 
 
 ## Create Custom configuration profile
 
-You can extend the scope of management by [creating a custom profile](https://docs.microsoft.com/mem/intune/configuration/custom-settings-configure) using an OMA URI from any of the [CSPs supported in Microsoft Surface Hub](https://docs.microsoft.com/windows/client-management/mdm/configuration-service-provider-reference#surfacehubcspsupport). Each setting in a CSP has a corresponding OMA-URI that you can set by using custom configuration profiles in Intune. For details on the CSPs supported by Surface Hub, you can reference the following resources: 
+You can extend the scope of management by [creating a custom profile](/mem/intune/configuration/custom-settings-configure) using an OMA URI from any of the [CSPs supported in Microsoft Surface Hub](/windows/client-management/mdm/configuration-service-provider-reference#surfacehubcspsupport). Each setting in a CSP has a corresponding OMA-URI that you can set by using custom configuration profiles in Intune. For details on the CSPs supported by Surface Hub, you can reference the following resources: 
 
-- [Configuration service provider reference](https://docs.microsoft.com/windows/client-management/mdm/configuration-service-provider-reference#surfacehubcspsupport)
-- [Policy CSPs supported by Microsoft Surface Hub](https://docs.microsoft.com/windows/client-management/mdm/policy-csps-supported-by-surface-hub)
-- [SurfaceHub CSP](https://docs.microsoft.com/windows/client-management/mdm/surfacehub-csp)
+- [Configuration service provider reference](/windows/client-management/mdm/configuration-service-provider-reference#surfacehubcspsupport)
+- [Policy CSPs supported by Microsoft Surface Hub](/windows/client-management/mdm/policy-csps-supported-by-surface-hub)
+- [SurfaceHub CSP](/windows/client-management/mdm/surfacehub-csp)
 > [!NOTE]
-> Managing the device account using settings from [SurfaceHub CSP](https://docs.microsoft.com/windows/client-management/mdm/surfacehub-csp) is not currently possible with Intune and requires using a third-party MDM provider.
+> Managing the device account using settings from [SurfaceHub CSP](/windows/client-management/mdm/surfacehub-csp) is not currently possible with Intune and requires using a third-party MDM provider.
 
 To implement CSP-based policy settings, begin by generating an OMA URI and then add it to a custom configuration profile in Intune.
 
@@ -96,8 +96,8 @@ To implement CSP-based policy settings, begin by generating an OMA URI and then 
  
 To generate the OMA URI for any setting:
 
-1. In the [CSP documentation](https://docs.microsoft.com/windows/client-management/mdm/configuration-service-provider-reference#surfacehubcspsupport), identify the root node of the CSP. Generally, this looks like **./Vendor/MSFT/<name of CSP>**. 
-    - **Example:** The root node of the [SurfaceHub CSP](https://docs.microsoft.com/windows/client-management/mdm/surfacehub-csp) is **./Vendor/MSFT/SurfaceHub**.
+1. In the [CSP documentation](/windows/client-management/mdm/configuration-service-provider-reference#surfacehubcspsupport), identify the root node of the CSP. Generally, this looks like **./Vendor/MSFT/NameOfCSP**. 
+    - **Example:** The root node of the [SurfaceHub CSP](/windows/client-management/mdm/surfacehub-csp) is **./Vendor/MSFT/SurfaceHub**.
 2. Identify the node path for the setting you want to use. 
     - **Example:** The node path for the setting to enable wireless projection is **InBoxApps/WirelessProjection/Enabled**.
 3. Append the node path to the root node to generate the OMA URI. 
@@ -115,75 +115,45 @@ To generate the OMA URI for any setting:
 4. Under **Configuration settings** > **OMA-URI Settings**, select **Add**.
 
   
-## Manage specific Surface Hub features
+## Microsoft Teams and Skype for Business settings
 
-This section highlights information about features that you can manage via Intune or other MDM provider. This includes:
+This section highlights Teams and Skype for Business settings that you can manage via Intune or other MDM provider. This includes:
 
 - [Quality of Service (QoS)](#quality-of-service-settings)
-- [Microsoft Teams and Skype for Business](#microsoft-teams-and-skype-for-business-settings)
+- [Manage Teams-specific features](#manage-teams-specific-features)
 
 ### Quality of Service settings
 
 To ensure optimal video and audio quality on Surface Hub, add the following QoS settings to the device. 
 
-| Name | Description | OMA-URI | Type | Value |
-|:------ |:------------- |:--------- |:------ |:------- |
-|**Audio Ports**| Audio Port range | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsAudio/DestinationPortMatchCondition | String  | 3478-3479 |
-|**Audio DSCP**| Audio ports marking | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsAudio/DSCPAction | Integer | 46 |
-|**Video Port**| Video Port range | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsVideo/DestinationPortMatchCondition | String  | 3480 |
-|**Video DSCP**| Video ports marking | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsVideo/DSCPAction | Integer | 34 |
-|**Sharing Port**| Sharing Port range | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsSharing/DestinationPortMatchCondition | String  | 3481 |
-|**Sharing DSCP**| Sharing ports marking | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsSharing/DSCPAction | Integer | 18 |
-|**P2P Audio Ports**| Audio Port range | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsP2PAudio/DestinationPortMatchCondition | String  | 50000-50019 |
-|**P2P Audio DSCP**| Audio ports marking | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsP2PAudio/DSCPAction | Integer | 46 |
-|**P2P Video Ports**| Video Port range | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsP2PVideo/DestinationPortMatchCondition | String  | 50020-50039 |
-|**P2P Video DSCP**| Video ports marking | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsP2PVideo/DSCPAction | Integer | 34 |
-|**P2P Sharing Ports**| Sharing Port range | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsP2PSharing/DestinationPortMatchCondition | String  | 50040-50059 |
-|**P2P Sharing DSCP**| Sharing ports marking | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsP2PSharing/DSCPAction | Integer | 18 |
-
-
-#### Skype for Business QoS settings
-
-| Name                 | Description           | OMA-URI                                                                    | Type    | Value                          |
-| -------------------- | --------------------- | -------------------------------------------------------------------------- | ------- | ------------------------------ |
-| Audio Ports          | Audio Port range      | ./Device/Vendor/MSFT/NetworkQoSPolicy/SfBAudio/SourcePortMatchCondition    | String  | 50000-50019                    |
-| Audio DSCP           | Audio ports marking   | ./Device/Vendor/MSFT/NetworkQoSPolicy/SfBAudio/DSCPAction                  | Integer | 46                             |
-| Audio Media Source   | Skype App name        | ./Device/Vendor/MSFT/NetworkQoSPolicy/SfBAudio/AppPathNameMatchCondition   | String  | Microsoft.PPISkype.Windows.exe |
-| Video Ports          | Video Port range      | ./Device/Vendor/MSFT/NetworkQoSPolicy/SfBVideo/SourcePortMatchCondition    | String  | 50020-50039                    |
-| Video DSCP           | Video ports marking   | ./Device/Vendor/MSFT/NetworkQoSPolicy/SfBVideo/DSCPAction                  | Integer | 34                             |
-| Video Media Source   | Skype App name        | ./Device/Vendor/MSFT/NetworkQoSPolicy/SfBVideo/AppPathNameMatchCondition   | String  | Microsoft.PPISkype.Windows.exe |
-| Sharing Ports        | Sharing Port range    | ./Device/Vendor/MSFT/NetworkQoSPolicy/SfBSharing/SourcePortMatchCondition  | String  | 50040-50059                    |
-| Sharing DSCP         | Sharing ports marking | ./Device/Vendor/MSFT/NetworkQoSPolicy/SfBSharing/DSCPAction                | Integer | 18                             |
-| Sharing Media Source | Skype App name        | ./Device/Vendor/MSFT/NetworkQoSPolicy/SfBSharing/AppPathNameMatchCondition | String  | Microsoft.PPISkype.Windows.exe |
+| Name                 | Description           | OMA-URI                                                                 | Type    | Value                          |
+| -------------------- | --------------------- | ----------------------------------------------------------------------- | ------- | ------------------------------ |
+| Audio Ports          | Audio Port range      | ./Device/Vendor/MSFT/NetworkQoSPolicy/Audio/SourcePortMatchCondition    | String  | 50000-50019                    |
+| Audio DSCP           | Audio ports marking   | ./Device/Vendor/MSFT/NetworkQoSPolicy/Audio/DSCPAction                  | Integer | 46                             |
+| Video Ports          | Video Port range      | ./Device/Vendor/MSFT/NetworkQoSPolicy/Video/SourcePortMatchCondition    | String  | 50020-50039                    |
+| Video DSCP           | Video ports marking   | ./Device/Vendor/MSFT/NetworkQoSPolicy/Video/DSCPAction                  | Integer | 34                             |
+| Sharing Ports        | Sharing Port range    | ./Device/Vendor/MSFT/NetworkQoSPolicy/Sharing/SourcePortMatchCondition  | String  | 50040-50059                    |
+| Sharing DSCP         | Sharing ports marking | ./Device/Vendor/MSFT/NetworkQoSPolicy/Sharing/DSCPAction                | Integer | 18                             |
 
 > [!NOTE]
-> Both tables show default port ranges. Administrators may change the port ranges in the Skype for Business and Teams control panel.
+> The table shows default port ranges. Administrators may change the port ranges in the Skype for Business and Teams control panel.
 
-### Microsoft Teams and Skype for Business settings
+### Manage Teams-specific features
 
-You can create a Custom configuration profile to manage Teams Coordinated Meetings, Proximity Join, and other features. To learn more, see [Manage Microsoft Teams configuration on Surface Hub](https://docs.microsoft.com/microsoftteams/rooms/surface-hub-manage-config).
+You can create a Custom configuration profile to manage Teams Coordinated Meetings, Proximity Join, and other features. To learn more, see [Manage Microsoft Teams configuration on Surface Hub](/microsoftteams/rooms/surface-hub-manage-config).
 
-#### Changing default business communications platform
+### Changing default app for meetings & calls
 
-The default business communications platform on Surface Hub varies depending on how you install Windows 10 Team 2020 Update (aka Windows 10 20H2). If you re-image Surface Hub to Windows 10 20H2, Microsoft Teams will be set as the default, with Skype for Business functionality available (Mode 1). If you upgrade your Hub from an earlier OS version, Skype for Business will remain as the default, with Teams functionality available (Mode 0) unless you had already configured Teams as your default. 
+The default app for meetings & calls on the Surface Hub varies depending on how you install Windows 10 Team 2020 Update (aka Windows 10 20H2 Team edition). If you re-image a Surface Hub to Windows 10 20H2, Microsoft Teams will be set as the default, with Skype for Business not available (Mode 1). If you upgrade your Hub from an earlier OS version, Skype for Business will remain as the default, with Teams functionality available (Mode 0) unless you had already configured Teams as your default. 
 
-To change the default installation, use a [custom profile](https://docs.microsoft.com/mem/intune/configuration/custom-settings-configure) by setting the Teams App Mode as follows:  
+To change the default installation, use a [custom profile](/mem/intune/configuration/custom-settings-configure) to set the Teams Meeting Mode as follows:  
 
 - Mode 0 — Skype for Business with Microsoft Teams functionality for scheduled meetings.
-- Mode 1 — Microsoft Teams with Skype for Business functionality for scheduled meetings.
-- Mode 2 — Microsoft Teams only.
+- Mode 1 — Microsoft Teams only.
 
 | Name | Description | OMA-URI | Type | Value |
 |:--- |:--- |:--- |:--- |:--- |
 |**Teams App ID**|App name|./Vendor/MSFT/SurfaceHub/Properties/VtcAppPackageId|String| Microsoft.MicrosoftTeamsforSurfaceHub_8wekyb3d8bbwe!Teams|
-|**Teams App Mode**|Teams mode|./Vendor/MSFT/SurfaceHub/Properties/SurfaceHubMeetingMode|Integer| 0 or 1 or 2|
-
-
-
-
-
-
-
-
+|**Teams App Mode**|Teams mode|./Vendor/MSFT/SurfaceHub/Properties/SurfaceHubMeetingMode|Integer| 0 or 1|
 
 
