@@ -54,7 +54,7 @@ After the creation tool is installed, follow these steps to create a Microsoft S
 
 2. Click **Build** to begin the Microsoft Surface Data Eraser USB creation process, as shown in Figure 1.
 
-     ![Begin the Microsoft Surface Data Eraser tool](images/microsoft-surface-data-eraser/fig1-build.png "Begin the Microsoft Surface Data Eraser tool")<br>
+  :::image type="content" source="images/microsoft-surface-data-eraser/fig1-build.png alt-text="Begin the Microsoft Surface Data Eraser tool":::<br>
       *Figure 1. Begin the Microsoft Surface Data Eraser tool*
 
 3. Click **Continue** to acknowledge that you have a USB drive of at least 4GB connected, as shown in Figure 2.
