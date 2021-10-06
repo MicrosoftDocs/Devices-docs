@@ -58,8 +58,8 @@ After the creation tool is installed, follow these steps to create a Microsoft S
   *Figure 1. Begin the Microsoft Surface Data Eraser tool*
 
 3. Select **Continue** to acknowledge that you have a USB drive of at least 4GB connected, as shown in Figure 2.
-  
-  :::image type="content" source="images/microsoft-surface-data-eraser/fig2-continue.png" alt-text="Figure 2. Confirm USB drive of at least 4GB is connected":::<br>
+   
+   :::image type="content" source="images/microsoft-surface-data-eraser/fig2-continue.png" alt-text="Figure 2. Confirm USB drive of at least 4GB is connected":::<br>
    *Figure 2. Confirm USB drive of at least 4GB is connected*
 
 4. Choose **x64 (for 2021+ devices only)** for 2021 or newer devices, choose **x64** for 2020 and older devices or **ARM64** for Surface Pro X from the **Architecture Selection** page, as shown Figure-3. Select **Continue**.
