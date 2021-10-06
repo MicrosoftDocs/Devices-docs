@@ -14,7 +14,7 @@ author: coveminer
 ms.author: greglin
 ms.topic: article
 audience: itpro
-ms.date: 05/17/2021
+ms.date: 10/06/2021
 ---
 
 # Microsoft Surface Data Eraser
@@ -56,46 +56,41 @@ Some scenarios where Microsoft Surface Data Eraser can be helpful include:
 
 ## How to create a Microsoft Surface Data Eraser USB stick
 
-To create a Microsoft Surface Data Eraser USB stick, first install the Microsoft Surface Data Eraser setup tool from the Microsoft Download Center using the link provided at the beginning of this article. You do not need a Surface device to *create* the USB stick. After you have downloaded the installation file to your computer, follow these steps to install the Microsoft Surface Data Eraser creation tool:
+After the creation tool is installed, follow these steps to create a Microsoft Surface Data Eraser USB stick. Before you begin these steps, ensure that you have a USB 3.0 stick that is 4 GB or larger connected to the computer.
 
 1. Run the DataEraserSetup.msi installation file that you downloaded from the [Microsoft Download Center](https://www.microsoft.com/download/details.aspx?id=46703).
 
-2. Select the check box to accept the terms of the license agreement, and then click **Install**.
+2. Click **Build** to begin the Microsoft Surface Data Eraser USB creation process, as shown in Figure 1.
 
-3. Click **Finish** to close the Microsoft Surface Data Eraser setup window.
+ ![Begin the Microsoft Surface Data Eraser tool.](images/microsoft-surface-data-eraser/fig1-build.png "Begin the Microsoft Surface Data Eraser tool")
+  *Figure 1. Begin the Microsoft Surface Data Eraser tool*
 
-After the creation tool is installed, follow these steps to create a Microsoft Surface Data Eraser USB stick. Before you begin these steps, ensure that you have a USB 3.0 stick that is 4 GB or larger connected to the computer.
+3. Click **Continue** to acknowledge that you have a USB drive of at least 4GB connected, as shown in Figure 2.
 
-1. Start Microsoft Surface Data Eraser from the Start menu or Start screen.
+ ![Confirm USB drive of at least 4GB is connected.](images/microsoft-surface-data-eraser/fig2-continue.png "Confirm USB drive of at least 4GB is connected")
+ *Figure 2. Confirm USB drive of at least 4GB is connected*
 
-2. Click **Build** to begin the Microsoft Surface Data Eraser USB creation process.
+4. Choose **x64 (for 2021+ devices only)** for 2021 or newer devices, choose **x64** for 2020 and older devices or **ARM64** for Surface Pro X from the **Architecture Selection** page, as shown Figure-3. Select **Continue**.
 
-3. Click **Start** to acknowledge that you have a USB stick of at least 4 GB connected, as shown in Figure 1.
+ ![Select device architecture](images/microsoft-surface-data-eraser/fig3-select.png)<br>
+       *Figure 3. Select device architecture*
 
-   ![Start the Microsoft Surface Data Eraser tool.](images/dataeraser-start-tool.png "Start the Microsoft Surface Data Eraser tool")
-
-   *Figure 1. Start the Microsoft Surface Data Eraser tool*
-4. Choose **x64** for most Surface devices or  **ARM64** for Surface Pro X from the **Architecture Selection** page, as shown in Figure 2. Select **Continue**.
-
-    ![Architecture selection.](images/dataeraser-arch.png "Architecture Selection")<br>
-       *Figure 2. Select device architecture*
-
-5. Select the USB drive of your choice from the **USB Thumb Drive Selection** page as shown in Figure 3, and then click **Start** to begin the USB creation process. The drive you select will be formatted and any existing data on this drive will be lost.
+5. Select the USB drive of your choice from the **USB Thumb Drive Selection** page as shown in Figure 4, and then click **Start** to begin the USB creation process. The drive you select will be formatted and any existing data on this drive will be lost.
 
    >[!TIP]
    >If the Start button is disabled, check that your removable drive has a total capacity of at least 4 GB.
   
-   ![USB thumb drive selection.](images/dataeraser-usb-selection.png "USB thumb drive selection")
+   ![Start the Microsoft Surface Data Eraser tool.](images/microsoft-surface-data-eraser/fig4-start.png)
 
-   *Figure 3. USB thumb drive selection*
+   *Figure 4. USB thumb drive selection*
 
 6. After the creation process is finished, the USB drive has been formatted and all binaries are copied to the USB drive. Click **Success**.
 
-7. When the **Congratulations** screen is displayed, you can eject and remove the thumb drive. This thumb drive is now ready to be inserted into a Surface device, booted from, and wipe any data on the device. Click **Complete** to finish the USB creation process, as shown in Figure 4.
+7. When the **Congratulations** screen is displayed, you can eject and remove the thumb drive. This thumb drive is now ready to be inserted into a Surface device, booted from, and wipe any data on the device. Click **Complete** to finish the USB creation process, as shown in Figure 5.
 
-   ![Surface Data Eraser USB creation process.](images/dataeraser-complete-process.png "Surface Data Eraser USB creation process")
+    ![Start the Microsoft Surface Data Eraser tool.](images/microsoft-surface-data-eraser/fig5-complete.png)
 
-   *Figure 4. Complete the Microsoft Surface Data Eraser USB creation process*
+   *Figure 5. Complete the Microsoft Surface Data Eraser USB creation process*
 
 8. Click **X** to close Microsoft Surface Data Eraser.
 
@@ -145,6 +140,13 @@ After you create a Microsoft Surface Data Eraser USB stick, you can boot a suppo
 
 Microsoft Surface Data Eraser is periodically updated by Microsoft. For information about the changes provided in each new version, see the following:
 
+### 3.42.139.0
+
+*Release Date: 5 October 2021*
+This version of Surface Data Eraser includes:
+
+- Separate option for 2021 and support for newer devices including Surface Laptop Studio, Surface Pro 8, and Surface Go 3.
+
 ### 3.39.139.0
 
 *Release Date: 13 April 2021*
@@ -165,7 +167,7 @@ This version of Surface Data Eraser:
 
 *Release Date: 9 September 2020*
 
-This version of Surface Data Eraser includes bug fixes and adds support for: 
+This version of Surface Data Eraser includes bug fixes and adds support for:
 
 - Architecture re-design to reduce the need to update with new product releases
 - Notification available for new tool updates
