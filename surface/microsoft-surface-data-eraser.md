@@ -28,6 +28,7 @@ Find out how the Microsoft Surface Data Eraser tool can help you securely wipe d
 
 Compatible Surface devices include:
 
+- Surface Laptop Studio
 - Surface Book (all editions)
 - Surface Go (all editions)
 - Surface Pro X (all editions)
@@ -62,12 +63,12 @@ After the creation tool is installed, follow these steps to create a Microsoft S
 
 2. Click **Build** to begin the Microsoft Surface Data Eraser USB creation process, as shown in Figure 1.
 
- ![Begin the Microsoft Surface Data Eraser tool.](images/microsoft-surface-data-eraser/fig1-build.png "Begin the Microsoft Surface Data Eraser tool")
+ ![Begin the Microsoft Surface Data Eraser tool](images/microsoft-surface-data-eraser/fig1-build.png "Begin the Microsoft Surface Data Eraser tool")
   *Figure 1. Begin the Microsoft Surface Data Eraser tool*
 
 3. Click **Continue** to acknowledge that you have a USB drive of at least 4GB connected, as shown in Figure 2.
 
- ![Confirm USB drive of at least 4GB is connected.](images/microsoft-surface-data-eraser/fig2-continue.png "Confirm USB drive of at least 4GB is connected")
+ ![Confirm USB drive of at least 4GB is connected](images/microsoft-surface-data-eraser/fig2-continue.png "Confirm USB drive of at least 4GB is connected")
  *Figure 2. Confirm USB drive of at least 4GB is connected*
 
 4. Choose **x64 (for 2021+ devices only)** for 2021 or newer devices, choose **x64** for 2020 and older devices or **ARM64** for Surface Pro X from the **Architecture Selection** page, as shown Figure-3. Select **Continue**.
@@ -80,7 +81,7 @@ After the creation tool is installed, follow these steps to create a Microsoft S
    >[!TIP]
    >If the Start button is disabled, check that your removable drive has a total capacity of at least 4 GB.
   
-   ![Start the Microsoft Surface Data Eraser tool.](images/microsoft-surface-data-eraser/fig4-start.png)
+   ![Start the Microsoft Surface Data Eraser tool](images/microsoft-surface-data-eraser/fig4-start.png)
 
    *Figure 4. USB thumb drive selection*
 
@@ -88,7 +89,7 @@ After the creation tool is installed, follow these steps to create a Microsoft S
 
 7. When the **Congratulations** screen is displayed, you can eject and remove the thumb drive. This thumb drive is now ready to be inserted into a Surface device, booted from, and wipe any data on the device. Click **Complete** to finish the USB creation process, as shown in Figure 5.
 
-    ![Start the Microsoft Surface Data Eraser tool.](images/microsoft-surface-data-eraser/fig5-complete.png)
+    ![Complete the Microsoft Surface Data Eraser tool](images/microsoft-surface-data-eraser/fig5-complete.png)
 
    *Figure 5. Complete the Microsoft Surface Data Eraser USB creation process*
 
