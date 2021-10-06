@@ -54,18 +54,18 @@ After the creation tool is installed, follow these steps to create a Microsoft S
 
 2. Click **Build** to begin the Microsoft Surface Data Eraser USB creation process, as shown in Figure 1.
 
- ![Begin the Microsoft Surface Data Eraser tool](images/microsoft-surface-data-eraser/fig1-build.png "Begin the Microsoft Surface Data Eraser tool")<br>
-  *Figure 1. Begin the Microsoft Surface Data Eraser tool*
+     ![Begin the Microsoft Surface Data Eraser tool](images/microsoft-surface-data-eraser/fig1-build.png "Begin the Microsoft Surface Data Eraser tool")<br>
+      *Figure 1. Begin the Microsoft Surface Data Eraser tool*
 
 3. Click **Continue** to acknowledge that you have a USB drive of at least 4GB connected, as shown in Figure 2.
 
- ![Confirm USB drive of at least 4GB is connected](images/microsoft-surface-data-eraser/fig2-continue.png "Confirm USB drive of at least 4GB is connected")<br>
- *Figure 2. Confirm USB drive of at least 4GB is connected*
+     ![Confirm USB drive of at least 4GB is connected](images/microsoft-surface-data-eraser/fig2-continue.png "Confirm USB drive of at least 4GB is connected")<br>
+     *Figure 2. Confirm USB drive of at least 4GB is connected*
 
 4. Choose **x64 (for 2021+ devices only)** for 2021 or newer devices, choose **x64** for 2020 and older devices or **ARM64** for Surface Pro X from the **Architecture Selection** page, as shown Figure-3. Select **Continue**.
 
- ![Select device architecture](images/microsoft-surface-data-eraser/fig3-select.png)<br>
-       *Figure 3. Select device architecture*
+     ![Select device architecture](images/microsoft-surface-data-eraser/fig3-select.png)<br>
+      *Figure 3. Select device architecture*
 
 5. Select the USB drive of your choice from the **USB Thumb Drive Selection** page as shown in Figure 4, and then click **Start** to begin the USB creation process. The drive you select will be formatted and any existing data on this drive will be lost.
 
