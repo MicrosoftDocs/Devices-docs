@@ -135,6 +135,7 @@ Microsoft Surface Data Eraser is periodically updated by Microsoft. For informat
 ### 3.42.139.0
 
 *Release Date: 5 October 2021*
+
 This version of Surface Data Eraser includes:
 
 - Separate option for 2021 and support for newer devices including Surface Laptop Studio, Surface Pro 8, and Surface Go 3.
