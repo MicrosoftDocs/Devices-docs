@@ -52,39 +52,35 @@ After the creation tool is installed, follow these steps to create a Microsoft S
 
 1. Run the DataEraserSetup.msi installation file that you downloaded from the [Microsoft Download Center](https://www.microsoft.com/download/details.aspx?id=46703).
 
-2. Click **Build** to begin the Microsoft Surface Data Eraser USB creation process, as shown in Figure 1.
+2. Select **Build** to begin the Microsoft Surface Data Eraser USB creation process, as shown in Figure 1.
 
-  :::image type="content" source="images/microsoft-surface-data-eraser/fig1-build.png alt-text="Begin the Microsoft Surface Data Eraser tool":::<br>
-      *Figure 1. Begin the Microsoft Surface Data Eraser tool*
+  :::image type="content" source="images/microsoft-surface-data-eraser/fig1-build.png" alt-text="Figure 1. Begin the Microsoft Surface Data Eraser tool":::<br>
+  *Figure 1. Begin the Microsoft Surface Data Eraser tool*
 
-3. Click **Continue** to acknowledge that you have a USB drive of at least 4GB connected, as shown in Figure 2.
-
-     ![Confirm USB drive of at least 4GB is connected](images/microsoft-surface-data-eraser/fig2-continue.png "Confirm USB drive of at least 4GB is connected")<br>
-     *Figure 2. Confirm USB drive of at least 4GB is connected*
+3. Select **Continue** to acknowledge that you have a USB drive of at least 4GB connected, as shown in Figure 2.
+ :::image type="content" source="images/microsoft-surface-data-eraser/fig2-continue.png" alt-text="Figure 2. Confirm USB drive of at least 4GB is connected":::<br>
+*Figure 2. Confirm USB drive of at least 4GB is connected*
 
 4. Choose **x64 (for 2021+ devices only)** for 2021 or newer devices, choose **x64** for 2020 and older devices or **ARM64** for Surface Pro X from the **Architecture Selection** page, as shown Figure-3. Select **Continue**.
 
-     ![Select device architecture](images/microsoft-surface-data-eraser/fig3-select.png)<br>
-      *Figure 3. Select device architecture*
+ :::image type="content" source="images/microsoft-surface-data-eraser/fig3-select.png" alt-text="Figure 3. Select device architecture":::
 
-5. Select the USB drive of your choice from the **USB Thumb Drive Selection** page as shown in Figure 4, and then click **Start** to begin the USB creation process. The drive you select will be formatted and any existing data on this drive will be lost.
+5. Select the USB drive of your choice from the **USB Thumb Drive Selection** page as shown in Figure 4, and then select **Start** to begin the USB creation process. The drive you select will be formatted and any existing data on this drive will be lost.
 
    >[!TIP]
    >If the Start button is disabled, check that your removable drive has a total capacity of at least 4 GB.
   
-   ![Start the Microsoft Surface Data Eraser tool](images/microsoft-surface-data-eraser/fig4-start.png)<br>
-
+  :::image type="content" source="images/microsoft-surface-data-eraser/fig4-start.png" alt-text="Figure 4. USB thumb drive selection>":::<br>
    *Figure 4. USB thumb drive selection*
 
-6. After the creation process is finished, the USB drive has been formatted and all binaries are copied to the USB drive. Click **Success**.
+6. After the creation process is finished, the USB drive has been formatted and all binaries are copied to the USB drive. Select **Success**.
 
-7. When the **Congratulations** screen is displayed, you can eject and remove the thumb drive. This thumb drive is now ready to be inserted into a Surface device, booted from, and wipe any data on the device. Click **Complete** to finish the USB creation process, as shown in Figure 5.
+7. When the **Congratulations** screen is displayed, you can eject and remove the thumb drive. This thumb drive is now ready to be inserted into a Surface device, booted from, and wipe any data on the device. Select **Complete** to finish the USB creation process, as shown in Figure 5.
 
-    ![Complete the Microsoft Surface Data Eraser tool](images/microsoft-surface-data-eraser/fig5-complete.png)<br>
-
+  :::image type="content" source="images/microsoft-surface-data-eraser/fig5-complete.png" alt-text="Complete the Microsoft Surface Data Eraser tool":::<br>
    *Figure 5. Complete the Microsoft Surface Data Eraser USB creation process*
 
-8. Click **X** to close Microsoft Surface Data Eraser.
+8. Select **X** to close Microsoft Surface Data Eraser.
 
 ## How to use a Microsoft Surface Data Eraser USB stick
 
@@ -126,7 +122,7 @@ After you create a Microsoft Surface Data Eraser USB stick, you can boot a suppo
 
 7. If you pressed **Y** in step 6, due to the destructive nature of the data erasure process, an additional dialog box is displayed to confirm your choice.
 
-8. Click the **Yes** button to continue erasing data on the Surface device.
+8. Select **Yes** to continue erasing data on the Surface device.
 
    >[!TIP]
    >When you run Surface Data Eraser on the Surface Data Eraser USB drive, a log file is generated in the **SurfaceDataEraserLogs** folder.
