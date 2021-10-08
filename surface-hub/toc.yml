@@ -38,8 +38,6 @@
               href: setup-worksheet-surface-hub.md
             - name: Surface Hub 2S ports and keypad overview
               href: surface-hub-2s-port-keypad-overview.md
-            - name: Connect devices to Surface Hub 2S
-              href: surface-hub-2s-connect.md
         - name: Prepare your environment for Microsoft Surface Hub
           href: prepare-your-environment-for-surface-hub.md
     - name: Deploy
@@ -50,17 +48,23 @@
           href: surface-hub-2s-adoption-videos.md
         - name: First time setup for Surface Hub 2S
           href: first-run-program-surface-hub.md
-        - name: Connect devices to Surface Hub 2S
-          href: surface-hub-2s-connect.md
+        - name: Admin group management
+          href: admin-group-management-for-surface-hub.md        
         - name: Create and test a device account
           href: create-and-test-a-device-account-surface-hub.md
         - name: Create provisioning packages for Surface Hub
           href: provisioning-packages-for-surface-hub.md
-        - name: Install apps on your Microsoft Surface Hub
-          href: install-apps-on-surface-hub.md
         - name: Create Surface Hub 2S on-premises accounts with PowerShell
           href: /microsoftteams/rooms/with-skype-for-business-server-2015
-        - name: Microsoft Teams 
+- name: Windows 10 Pro/Enterprise 
+          items: 
+           - name: Migrate to Windows 10 Pro or Enterprise on Surface Hub 2
+             href: surface-hub-2s-migrate-os.md
+          - name: Configure Windows 10 Pro or Enterprise on Surface Hub 2
+             href: surface-hub-2-post-install.md
+           - name: Essential add-ons for Windows 10 Pro and Enterprise on Surface Hub 2
+             href: surface-hub-2-essential-add-ons.md
+    - name: Microsoft Teams 
           items: 
            - name: Microsoft Teams Rooms on Surface Hub
              href: surface-hub-teams-rooms.md
@@ -72,25 +76,23 @@
              href: surface-hub-2s-certifications.md
     - name: Manage
       items: 
-        - name: Migrate to Windows 10 Pro or Enterprise on Surface Hub 2
-          href: surface-hub-2s-migrate-os.md
-        - name: Configure Windows 10 Pro or Enterprise on Surface Hub 2
-          href: surface-hub-2-post-install.md
-        - name: Essential add-ons for Windows 10 Pro and Enterprise on Surface Hub 2
-          href: surface-hub-2-essential-add-ons.md
+        - name: Connect devices to Surface Hub 2S
+          href: surface-hub-2s-connect.md        
         - name: Install Windows 10 Team 2020 Update
           href: surface-hub-2020-update.md)
         - name: Known issues - Windows 10 Team 2020 Update
           href: surface-hub-2020-team-update-known-issues.md
         - name: Configure non Global admin accounts on Surface Hub
           href: surface-hub-2s-nonglobal-admin.md
+        - name: Install apps on your Microsoft Surface Hub
+          href: install-apps-on-surface-hub.md        
         - name: Install and configure the new Microsoft Edge on Surface Hub
           href: surface-hub-install-chromium-edge.md)
         - name: Manage Surface Hub with an MDM provider
           href: manage-settings-with-mdm-for-surface-hub.md
         - name: Local management for Surface Hub 2S settings
           href: local-management-surface-hub-settings.md
-        - name: Manage device account password rotation
+        - name: Password management
           href: password-management-for-surface-hub-device-accounts.md
         - name: Manage Windows updates
           href: manage-windows-updates-for-surface-hub.md
@@ -146,32 +148,22 @@
         - name: Prepare your environment for Microsoft Surface Hub
           href: prepare-your-environment-for-surface-hub.md
         - name: Surface Hub Site Readiness Guide
-          href: surface-hub-site-readiness-guide.md)
+          href: surface-hub-site-readiness-guide.md
         - name: Physically install Microsoft Surface Hub
-          href: physically-install-your-surface-hub-device.md)
+          href: physically-install-your-surface-hub-device.md
     - name: Deploy
       items: 
+        - name: Admin group management
+          href: admin-group-management-for-surface-hub.md
+        - name: Create provisioning packages
+          href: provisioning-packages-for-surface-hub.md       
         - name: Create and test a device account
           href: create-and-test-a-device-account-surface-hub.md
           items: 
-            - name: Online deployment
-              href: /microsoftteams/rooms/with-office-365
-            - name: On-premises deployment (single forest)
-              href: /microsoftteams/rooms/with-skype-for-business-server-2015
-            - name: On-premises deployment (multiple forests)
-              href: /skypeforbusiness/deploy/deploy-clients/multiple-forest-on-premises-deployments
-            - name: Hybrid deployment
-              href: hybrid-deployment-surface-hub-device-accounts.md
             - name: Microsoft Exchange properties
               href: exchange-properties-for-surface-hub-device-accounts.md
             - name: Applying ActiveSync policies to device accounts
               href: apply-activesync-policies-for-surface-hub-device-accounts.md
-            - name: Password management
-              href: password-management-for-surface-hub-device-accounts.md
-            - name: Create provisioning packages
-              href: provisioning-packages-for-surface-hub.md
-            - name: Admin group management
-              href: admin-group-management-for-surface-hub.md
         - name: Set up Microsoft Surface Hub
           href: set-up-your-surface-hub.md
           items: 
@@ -201,6 +193,8 @@
           items: 
             - name: Local management for Surface Hub settings
               href: local-management-surface-hub-settings.md
+            - name: Password management
+              href: password-management-for-surface-hub-device-accounts.md             
             - name: Accessibility
               href: accessibility-surface-hub.md
             - name: Change the Surface Hub device account
