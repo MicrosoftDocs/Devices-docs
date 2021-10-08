@@ -8,7 +8,7 @@
         - name: What's new in Windows 10 Team 2020 Update
           href: surface-hub-2020-update-whats-new.md
         - name: Surface Hub 2S 50" tech specs
-          href: surface-hub-2s-techspecs.md)
+          href: surface-hub-2s-techspecs.md
         - name: Surface Hub 2S 85" tech specs
           href: surface-hub-2s-85.md
         - name: Operating system essentials (Surface Hub)
@@ -22,7 +22,7 @@
     - name: Plan
       items: 
         - name: Surface Hub 2S Site Readiness Guide
-          href: surface-hub-2s-site-readiness-guide.md)
+          href: surface-hub-2s-site-readiness-guide.md
           items: 
             - name: Site planning for Surface Hub 2S
               href: surface-hub-2s-site-planning.md
@@ -84,7 +84,7 @@
         - name: Connect devices to Surface Hub 2S
           href: surface-hub-2s-connect.md        
         - name: Install Windows 10 Team 2020 Update
-          href: surface-hub-2020-update.md)
+          href: surface-hub-2020-update.md
         - name: Known issues - Windows 10 Team 2020 Update
           href: surface-hub-2020-team-update-known-issues.md
         - name: Configure non Global admin accounts on Surface Hub
@@ -92,7 +92,7 @@
         - name: Install apps on your Microsoft Surface Hub
           href: install-apps-on-surface-hub.md        
         - name: Install and configure the new Microsoft Edge on Surface Hub
-          href: surface-hub-install-chromium-edge.md)
+          href: surface-hub-install-chromium-edge.md
         - name: Manage Surface Hub with an MDM provider
           href: manage-settings-with-mdm-for-surface-hub.md
         - name: Configure Surface Hub Start menu
@@ -118,9 +118,9 @@
         - name: Secure and manage Surface Hub 2S with SEMM and UEFI
           href: surface-hub-2s-secure-with-uefi-semm.md
         - name: Modern authentication on Surface Hub
-          href: surface-hub-modern-auth.md)
+          href: surface-hub-modern-auth.md
         - name: Configure password-less sign-in on Surface Hub
-          href: surface-hub-2s-phone-authenticate.md)
+          href: surface-hub-2s-phone-authenticate.md
         - name: How Surface Hub addresses Wi-Fi Direct security issues
           href: surface-hub-wifi-direct.md
     - name: Troubleshoot
@@ -187,9 +187,9 @@
     - name: Manage
       items: 
         - name: Manage Microsoft Surface Hub
-          href: manage-surface-hub.md)
+          href: manage-surface-hub.md
         - name: Install and configure the new Microsoft Edge on Surface Hub
-          href: surface-hub-install-chromium-edge.md)
+          href: surface-hub-install-chromium-edge.md
         - name: PowerShell for Surface Hub
           href: appendix-a-powershell-scripts-for-surface-hub.md
         - name: Remote Surface Hub management
@@ -225,7 +225,7 @@
         - name: Configure Surface Hub Start menu
           href: surface-hub-start-menu.md
         - name: Set up and use Microsoft Whiteboard
-          href: whiteboard-collaboration.md)
+          href: whiteboard-collaboration.md
         - name: End a Surface Hub meeting with End session
           href: finishing-your-surface-hub-meeting.md
         - name: Connect other devices and display with Surface Hub
@@ -243,9 +243,9 @@
         - name: Save your BitLocker key
           href: save-bitlocker-key-surface-hub.md
         - name: Modern authentication on Surface Hub
-          href: surface-hub-modern-auth.md)
+          href: surface-hub-modern-auth.md
         - name: Configure password-less sign-in on Surface Hub
-          href: surface-hub-2s-phone-authenticate.md)
+          href: surface-hub-2s-phone-authenticate.md
         - name: How Surface Hub addresses Wi-Fi Direct security issues
           href: surface-hub-wifi-direct.md
     - name: Troubleshoot
