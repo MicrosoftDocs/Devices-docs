@@ -17,6 +17,8 @@
           href: surface-hub-2s-onscreen-display.md
         - name: Use Microsoft Whiteboard on a Surface Hub
           href: https://support.office.com/article/use-microsoft-whiteboard-on-a-surface-hub-5c594985-129d-43f9-ace5-7dee96f7621d
+        - name: General Data Privacy Regulation and Surface Hub
+          href: general-data-privacy-regulation-and-surface-hub.md
     - name: Plan
       items: 
         - name: Surface Hub 2S Site Readiness Guide
@@ -107,6 +109,8 @@
           href: save-bitlocker-key-surface-hub.md
         - name: Update pen firmware on Surface Hub 2S
           href: surface-hub-2s-pen-firmware.md
+        - name: Adjust accessibility settings
+          href: accessibility-surface-hub.md  
     - name: Secure
       items: 
         - name: Surface Hub security overview
@@ -125,6 +129,10 @@
           href: surface-hub-2s-recover-reset.md
         - name: Troubleshoot Miracast on Surface Hub
           href: miracast-troubleshooting.md
+        - name: Surface Hub Miracast channels 149-165 not supported in Europe, Japan, Israel
+          href: surfacehub-miracast-not-supported-europe-japan-israel.md 
+        - name: Surface Hub may install updates and restart outside maintenance hours
+          href: surface-hub-installs-updates-and-restarts-outside-maintenance-hours.md 
         - name: How to pack and ship your Surface Hub 2S for service
           href: surface-hub-2s-pack-components.md
         - name: Change history
@@ -144,6 +152,8 @@
           href: surface-hub-technical-84.md
         - name: Use Microsoft Whiteboard on a Surface Hub
           href: https://support.office.com/article/use-microsoft-whiteboard-on-a-surface-hub-5c594985-129d-43f9-ace5-7dee96f7621d
+        - name: General Data Privacy Regulation and Surface Hub
+          href: general-data-privacy-regulation-and-surface-hub.md  
     - name: Plan
       items: 
         - name: Prepare your environment for Microsoft Surface Hub
@@ -152,6 +162,8 @@
           href: surface-hub-site-readiness-guide.md
         - name: Physically install Microsoft Surface Hub
           href: physically-install-your-surface-hub-device.md
+        - name: Downloadable resources for Surface Hub readiness
+          href: surface-hub-downloads.md          
     - name: Deploy
       items: 
         - name: Admin group management
@@ -198,12 +210,10 @@
               href: local-management-surface-hub-settings.md
             - name: Password management
               href: password-management-for-surface-hub-device-accounts.md             
-            - name: Accessibility
+            - name: Adjust accessibility settings
               href: accessibility-surface-hub.md
             - name: Change the Surface Hub device account
               href: change-surface-hub-device-account.md
-            - name: Device reset
-              href: device-reset-surface-hub.md
             - name: Use fully qualified domain name with Surface Hub
               href: use-fully-qualified-domain-name-surface-hub.md
             - name: Wireless network management
@@ -240,6 +250,8 @@
           href: surface-hub-wifi-direct.md
     - name: Troubleshoot
       items: 
+        - name: Reset or recover a Surface Hub
+          href: device-reset-surface-hub.md
         - name: Using the Surface Hub Recovery Tool
           href: surface-hub-recovery-tool.md
         - name: Surface Hub SSD replacement
@@ -264,9 +276,5 @@
           href: connect-app-in-surface-hub-unexpectedly-exits.md
         - name: Surface Hub may install updates and restart outside maintenance hours
           href: surface-hub-installs-updates-and-restarts-outside-maintenance-hours.md
-        - name: General Data Privacy Regulation and Surface Hub
-          href: general-data-privacy-regulation-and-surface-hub.md
-        - name: Useful downloads for Surface Hub administrators
-          href: surface-hub-downloads.md
         - name: Change history for Surface Hub
           href: change-history-surface-hub.md
