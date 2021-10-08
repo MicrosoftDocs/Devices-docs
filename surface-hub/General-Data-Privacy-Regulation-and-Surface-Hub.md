@@ -6,7 +6,7 @@ keywords: GDPR
 ms.prod: surface-hub
 ms.sitesec: library
 author: Teresa-MOTIV
-ms.author: v-tea
+ms.author: greglin
 ms.topic: article
 ms.localizationpriority: medium
 ---
