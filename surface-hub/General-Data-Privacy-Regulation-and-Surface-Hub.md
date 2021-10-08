@@ -5,7 +5,7 @@ ms.assetid: 087713CF-631D-477B-9CC6-EFF939DE0186
 keywords: GDPR
 ms.prod: surface-hub
 ms.sitesec: library
-author: Teresa-MOTIV
+author: greg-lindsay
 ms.author: greglin
 ms.topic: article
 ms.localizationpriority: medium
