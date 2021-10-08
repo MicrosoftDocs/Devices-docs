@@ -62,14 +62,14 @@
         - name: Create provisioning packages for Surface Hub
           href: provisioning-packages-for-surface-hub.md
         - name: Windows 10 Pro/Enterprise 
-            items: 
-            - name: Migrate to Windows 10 Pro or Enterprise on Surface Hub 2
-              href: surface-hub-2s-migrate-os.md
-            - name: Configure Windows 10 Pro or Enterprise on Surface Hub 2
-              href: surface-hub-2-post-install.md
-           -  name: Essential add-ons for Windows 10 Pro and Enterprise on Surface Hub 2
-              href: surface-hub-2-essential-add-ons.md
-    - name: Microsoft Teams 
+          items: 
+          - name: Migrate to Windows 10 Pro or Enterprise on Surface Hub 2
+            href: surface-hub-2s-migrate-os.md
+          - name: Configure Windows 10 Pro or Enterprise on Surface Hub 2
+            href: surface-hub-2-post-install.md
+          - name: Essential add-ons for Windows 10 Pro and Enterprise on Surface Hub 2
+            href: surface-hub-2-essential-add-ons.md
+        - name: Microsoft Teams 
           items: 
            - name: Microsoft Teams Rooms on Surface Hub
              href: surface-hub-teams-rooms.md
