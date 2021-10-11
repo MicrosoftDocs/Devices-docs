@@ -173,6 +173,6 @@ Users can sign in to Microsoft Edge to access intranet sites and online resource
 
 ### Diagnostic data
 
-The Surface Hub OS uses the Windows 10 Connected User Experience and Telemetry component to gather and transmit diagnostic data. For more information, see [Configure Windows diagnostic data in your organization](https://technet.microsoft.com/itpro/windows/manage/configure-windows-diagnostic-data-in-your-organization).
+The Surface Hub OS uses the Windows 10 Connected User Experience and Telemetry component to gather and transmit diagnostic data. For more information, see [Configure Windows diagnostic data in your organization](/windows/privacy/configure-windows-diagnostic-data-in-your-organization).
 
 *Organization policies that this may affect:* <br> Configure diagnostic data levels for Surface Hub in the same way as you do for Windows 10 Enterprise.
