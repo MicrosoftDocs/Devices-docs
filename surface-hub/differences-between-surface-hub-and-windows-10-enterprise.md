@@ -29,13 +29,17 @@ Beginning in September 2020, customers have the option of migrating to Windows 1
 
 The Surface Hub's shell is designed from the ground up to be large screen and touch optimized. It doesn't use the same shell as Windows 10 Enterprise.
 
-*Organization policies that this may affect:* <br> Settings related to controls in the Windows 10 Enterprise shell don't apply for Surface Hub.
+*Organization policies that this may affect:* 
+
+- Settings related to controls in the Windows 10 Enterprise shell don't apply for Surface Hub.
 
 ### Lock screen and screensaver
 
 Surface Hub doesn't have a lock screen or a screen saver, but it has a similar feature called the welcome screen. The welcome screen shows scheduled meetings from the device account's calendar, and easy entry points to the Surface Hub's top apps - Skype for Business, Whiteboard, and Connect.
 
-*Organization policies that this may affect:* <br> Settings for lock screen, screen timeout, and screen saver don't apply for Surface Hub.
+*Organization policies that this may affect:* 
+
+- Settings for lock screen, screen timeout, and screen saver don't apply for Surface Hub.
 
 ### User sign-in
 
@@ -43,8 +47,9 @@ Surface Hub is designed to be used in communal spaces, such as meeting rooms. Un
 
 Users can sign in to a Surface Hub, but they will not be signed in to the OS. For example, when a user signs in to Apps or My Meetings and Files, the users is signed in only to the apps or services, not to the OS. As a result, the signed-in user is able to retrieve their cloud files and personal meetings stored in the cloud, and these credentials are discarded when **End session** is activated.
 
+*Organization policies that this may affect:* 
 
-*Organization policies that this may affect:* <br> Generally, Surface Hub uses lockdown features rather than user access control to enforce security. Policies related to password requirements, interactive logon, user accounts, and access control don't apply for Surface Hub.
+- Generally, Surface Hub uses lockdown features rather than user access control to enforce security. Policies related to password requirements, interactive logon, user accounts, and access control don't apply for Surface Hub.
 
 ### Saving and browsing files
 
@@ -57,7 +62,7 @@ Users have access to a limited set of directories on the Surface Hub:
 
 Files saved locally in these directories are deleted when users press **End session**. To save content created during a meeting, users should save files to a USB drive or to OneDrive.
 
-*Organization policies that this may affect:* <br> Policies related to access permissions and ownership of files and folders don't apply for Surface Hub. Users can't browse and save files to system directories and network folders.
+*Organization policies that this may affect:* - Policies related to access permissions and ownership of files and folders don't apply for Surface Hub. Users can't browse and save files to system directories and network folders.
 
 ## Applications
 
@@ -87,35 +92,43 @@ UWP apps pre-installed on Surface Hub:
 - Tips
 - Word Mobile
 
-*Organization policies that this may affect:* <br> Use guidelines for Windows 10 Enterprise to determine the features and network requirements for default apps on the Surface Hub.
+*Organization policies that this may affect:* 
+
+- Use guidelines for Windows 10 Enterprise to determine the features and network requirements for default apps on the Surface Hub.
 
 ### Installing apps, drivers, and services
 
 To help preserve the appliance-like nature of the device, Surface Hub only supports installing Universal Windows Platform (UWP) apps, and does not support installing classic Win32 apps, services and drivers. Furthermore, only admins have access to install UWP apps.
 
-*Organization policies that this may affect:* <br> Employees can only use the apps that have been installed by admins, helping mitigate against unintended use. Surface Hub doesn't support installing Win32 agents required by most traditional PC management and monitoring tools.
+*Organization policies that this may affect:* 
+
+- Employees can only use the apps that have been installed by admins, helping mitigate against unintended use. Surface Hub doesn't support installing Win32 agents required by most traditional PC management and monitoring tools.
 
 ## Security and lockdown
 
 For Surface Hub to be used in communal spaces, such as meeting rooms, its custom OS implements many of the security and lockdown features available in Windows 10. To learn more, see [Surface Hub Security Overview](surface-hub-security.md)
 
 Surface Hub implements these Windows 10 security features:
-- [UEFI Secure Boot](https://msdn.microsoft.com/windows/hardware/commercialize/manufacture/desktop/secure-boot-overview)
+
+- [Secure Boot](/windows-hardware/design/device-experiences/oem-secure-boot)
 - [Windows Defender Application Control and virtualization-based protection of code integrity](/windows/security/threat-protection/device-guard/introduction-to-device-guard-virtualization-based-security-and-windows-defender-application-control)
 - [Application restriction policies using AppLocker](/windows/security/threat-protection/windows-defender-application-control/applocker/applocker-overview)
 - [BitLocker Drive Encryption](/windows/security/information-protection/bitlocker/bitlocker-overview)
 - [Trusted Platform Module (TPM)](/security/information-protection/tpm/trusted-platform-module-overview
 - [Microsoft Defender Antivirus in Windows](/microsoft-365/security/defender-endpoint/microsoft-defender-antivirus-windows)
-- [User Account Control (UAC)](https://technet.microsoft.com/itpro/windows/keep-secure/user-account-control-overview) for access to the Settings app
+- [User Account Control (UAC)](/windows/security/identity-protection/user-account-control/user-account-control-overview) for access to the Settings app
 
 These Surface Hub features provide additional security:
+
 - Custom UEFI firmware
 - Custom shell and Start menu limits device to meeting functions
 - Custom File Explorer only grants access to files and folders under My Documents
 - Custom Settings app only allows admins to modify device settings
 - Downloading advanced Plug and Play drivers is disabled
 
-*Organization policies that this may affect:* <br> Consider these features when performing your security assessment for Surface Hub.
+*Organization policies that this may affect:*
+
+- Consider these features when performing your security assessment for Surface Hub.
 
 ## Management
 
@@ -123,7 +136,9 @@ These Surface Hub features provide additional security:
 
 Device settings can be configured through the Settings app. The Settings app is customized for Surface Hub, but also contains many familiar settings from Windows 10 Desktop. A User Accounts Control (UAC) prompt appears when opening up the Settings app to verify the admin's credentials, but this does not sign in the admin.
 
-*Organization policies that this may affect:* <br> Employees can use the Surface Hub for meetings, but cannot modify any device settings. In addition to lockdown features, this ensures that employees only use the device for meeting functions.
+*Organization policies that this may affect:* 
+
+- Employees can use the Surface Hub for meetings, but cannot modify any device settings. In addition to lockdown features, this ensures that employees only use the device for meeting functions.
 
 ### Administrative features
 
@@ -133,19 +148,25 @@ The administrative features in Windows 10 Enterprise, such as the Microsoft Mana
 
 Surface Hub supports remote management through mobile device management (MDM) solutions such as [Microsoft Intune](/mem/intune/) and monitoring through [Azure Monitor](/azure/azure-monitor/). 
 
-*Organization policies that this may affect:* <br> Surface Hub doesn't support installing Win32 agents required by most traditional PC management and monitoring tools, such as System Center Operations Manager.
+*Organization policies that this may affect:* 
+
+- Surface Hub doesn't support installing Win32 agents required by most traditional PC management and monitoring tools, such as System Center Operations Manager.
 
 ### Group Policy
 
 Surface Hub does not support Windows Group Policy, including auditing. Instead, use MDM to apply policies to your Surface Hub. For more information about MDM, see [Manage settings with an MDM provider](manage-settings-with-mdm-for-surface-hub.md).
 
-*Organization policies that this may affect:* <br> Use MDM to manage Surface Hub rather than group policy.
+*Organization policies that this may affect:* 
+
+- Use MDM to manage Surface Hub rather than group policy.
 
 ### Remote assistance
 
 Surface Hub does not support remote assistance.
 
-*Organization policies that this may affect:* <br> Policies related to remote assistance don't apply for Surface Hub.
+*Organization policies that this may affect:* 
+
+- Policies related to remote assistance don't apply for Surface Hub.
 
 ## Network
 
@@ -153,24 +174,22 @@ Surface Hub does not support remote assistance.
 
 Surface Hub uses domain join and Azure AD join primarily to provide a directory-backed admin group. Hybrid join is not supported. Users can't sign in with a domain account. For more information, see [Admin group management](admin-group-management-for-surface-hub.md).
 
-*Organization policies that this may affect:* <br> Group policies are not applied when a Surface Hub is joined to your domain. Policies related to domain membership don't apply for Surface Hub.
+*Organization policies that this may affect:* 
+
+- Group policy settings are not applied when a Surface Hub is joined to your domain. Policy settings related to domain membership don't apply to Surface Hub.
 
 ### Accessing domain resources
 
 Users can sign in to Microsoft Edge to access intranet sites and online resources (such as Office 365). If your Surface Hub is configured with a device account, the system uses it to access Exchange and Skype for Business. However, Surface Hub doesn't support accessing domain resources such as file shares and printers.
 
-*Organization policies that this may affect:* <br> Policies related to accessing domain objects don't apply for Surface Hub.
+*Organization policies that this may affect:* 
 
-<!--
-### Endpoints
-
-
-
-*Organization policies that this may affect:* <br> 
--->
+- Policies related to accessing domain objects don't apply for Surface Hub.
 
 ### Diagnostic data
 
 The Surface Hub OS uses the Windows 10 Connected User Experience and Telemetry component to gather and transmit diagnostic data. For more information, see [Configure Windows diagnostic data in your organization](/windows/privacy/configure-windows-diagnostic-data-in-your-organization).
 
-*Organization policies that this may affect:* <br> Configure diagnostic data levels for Surface Hub in the same way as you do for Windows 10 Enterprise.
+*Organization policies that this may affect:* 
+
+- Configure diagnostic data levels for Surface Hub in the same way as you do for Windows 10 Enterprise.
