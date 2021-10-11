@@ -47,7 +47,7 @@ To learn more, see:
 
 ## Microsoft Teams  
 
-- **Microsoft Teams installed by default**.        Microsoft Teams is included as the default Meetings, calling and collaboration app on new Surface Hub devices which can be changed or configured via MDM or directly on Surface Hub using the Settings app. To learn more, see [Deploy Microsoft Teams](/MicrosoftTeams/teams-surface-hub).
+- **Microsoft Teams installed by default**.        Microsoft Teams is included as the default Meetings, calling and collaboration app on new Surface Hub devices which can be changed or configured via MDM or directly on Surface Hub using the Settings app. To learn more, see [Microsoft Teams deployment overview](/microsoftteams/deploy-overview).
 - **Support for Proximity Join with Microsoft Teams**.  Proximity Join enables users to take scheduled Microsoft Teams calls on a nearby Surface Hub using their laptop/phone, or seamlessly transition an in-progress meeting to a nearby Surface Hub. Windows 10 Team 2020 Update adds Mobile Device Management (MDM) support to configure Proximity Join. To learn more, see: 
 
   - [Microsoft Teams Blog](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-teams-devices-for-shared-spaces-july-and-august-update/ba-p/1604833). 

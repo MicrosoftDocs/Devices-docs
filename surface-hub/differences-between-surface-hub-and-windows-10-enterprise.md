@@ -97,15 +97,15 @@ To help preserve the appliance-like nature of the device, Surface Hub only suppo
 
 ## Security and lockdown
 
-For Surface Hub to be used in communal spaces, such as meeting rooms, its custom OS implements many of the security and lockdown features available in Windows 10.
+For Surface Hub to be used in communal spaces, such as meeting rooms, its custom OS implements many of the security and lockdown features available in Windows 10. To learn more, see [Surface Hub Security Overview](surface-hub-security.md)
 
 Surface Hub implements these Windows 10 security features:
 - [UEFI Secure Boot](https://msdn.microsoft.com/windows/hardware/commercialize/manufacture/desktop/secure-boot-overview)
-- [Windows Defender Application Control and virtualization-based protection of code integrity](https://technet.microsoft.com/itpro/windows/keep-secure/introduction-to-device-guard-virtualization-based-security-and-code-integrity-policies)
-- [Application restriction policies using AppLocker](https://technet.microsoft.com/itpro/windows/keep-secure/applocker-overview)
-- [BitLocker Drive Encryption](https://technet.microsoft.com/itpro/windows/keep-secure/bitlocker-overview)
-- [Trusted Platform Module (TPM)](https://technet.microsoft.com/itpro/windows/keep-secure/trusted-platform-module-overview)
-- [Microsoft Defender](https://technet.microsoft.com/itpro/windows/keep-secure/windows-defender-in-windows-10)
+- [Windows Defender Application Control and virtualization-based protection of code integrity](/windows/security/threat-protection/device-guard/introduction-to-device-guard-virtualization-based-security-and-windows-defender-application-control)
+- [Application restriction policies using AppLocker](/windows/security/threat-protection/windows-defender-application-control/applocker/applocker-overview)
+- [BitLocker Drive Encryption](/windows/security/information-protection/bitlocker/bitlocker-overview)
+- [Trusted Platform Module (TPM)](/security/information-protection/tpm/trusted-platform-module-overview
+- [Microsoft Defender Antivirus in Windows](/microsoft-365/security/defender-endpoint/microsoft-defender-antivirus-windows)
 - [User Account Control (UAC)](https://technet.microsoft.com/itpro/windows/keep-secure/user-account-control-overview) for access to the Settings app
 
 These Surface Hub features provide additional security:
@@ -116,8 +116,6 @@ These Surface Hub features provide additional security:
 - Downloading advanced Plug and Play drivers is disabled
 
 *Organization policies that this may affect:* <br> Consider these features when performing your security assessment for Surface Hub.
-
-To learn more, see [Surface Hub Security Overview](surface-hub-security.md)
 
 ## Management
 
