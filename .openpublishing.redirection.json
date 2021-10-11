@@ -139,6 +139,11 @@
             "source_path":  "surface/self-serve-warranty-service.md",
             "redirect_url":  "/surface/get-started",
             "redirect_document_id":  false
-        },                   
+        }, 
+        {
+            "source_path":  "surface-hub/surface-hub-2s-change-history.md",
+            "redirect_url":  "/surface-hub/",
+            "redirect_document_id":  false
+        },                             
 ]
 }
