@@ -2,6 +2,25 @@
 
 
 
+## Week of October 04, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 10/5/2021 | [Manage settings with an MDM provider (Surface Hub)](/surface-hub/manage-settings-with-mdm-for-surface-hub) | modified |
+| 10/5/2021 | [Microsoft Teams Rooms on Surface Hub](/surface-hub/surface-hub-teams-rooms) | modified |
+
+
+## Week of October 04, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 10/4/2021 | [Surface Laptop Studio graphics overview](/surface/surface-laptop-studio-graphics) | added |
+| 10/5/2021 | [Surface Laptop Studio graphics overview](/surface/surface-laptop-studio-graphics) | modified |
+| 10/6/2021 | [Microsoft Surface Data Eraser (Surface)](/surface/microsoft-surface-data-eraser) | modified |
+
+
 ## Week of September 27, 2021
 
 

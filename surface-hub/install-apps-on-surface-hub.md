@@ -68,11 +68,11 @@ Find and acquire the app you want, then download:
 - The *encoded* license file (if you're using MDM to distribute the app)
 - Any necessary dependency files
 
-For more information, see [Download an offline-licensed app](https://technet.microsoft.com/itpro/windows/manage/distribute-offline-apps#download-an-offline-licensed-app).
+For more information, see [Download an offline-licensed app](/microsoft-store/distribute-offline-apps#download-an-offline-licensed-app).
 
 ### Install offline-licensed apps via provisioning package
 
-You can manually install the offline-licensed apps that you downloaded from the Store for Business on a few Surface Hubs using provisioning packages. Use Windows Imaging and Configuration Designer (ICD) to create a provisioning package containing the app package and *unencoded* license file that you downloaded from the Store for Business. For more information, see [Create provisioning packages](provisioning-packages-for-certificates-surface-hub.md).
+You can manually install the offline-licensed apps that you downloaded from the Store for Business on a few Surface Hubs using provisioning packages. Use Windows Imaging and Configuration Designer (ICD) to create a provisioning package containing the app package and *unencoded* license file that you downloaded from the Store for Business. For more information, see [Create provisioning packages for Surface Hub](provisioning-packages-for-certificates-surface-hub.md).
 
 ### Supported MDM provider
 
@@ -113,7 +113,7 @@ During development, the easiest way to test your app on a Surface Hub is using V
 
 #### Create provisioning package
 
-Use Visual Studio to create an app package for your UWP app, signed using a test certificate. Then use Windows Imaging and Configuration Designer (ICD) to create a provisioning package containing the app package. For more information, see [Create provisioning packages](provisioning-packages-for-certificates-surface-hub.md).
+Use Visual Studio to create an app package for your UWP app, signed using a test certificate. Then use Windows Imaging and Configuration Designer (ICD) to create a provisioning package containing the app package. For more information, see [Create provisioning packages for Surface Hub](provisioning-packages-for-certificates-surface-hub.md).
 
 ## Submit apps to the Microsoft Store
 
