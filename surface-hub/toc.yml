@@ -125,6 +125,8 @@
           href: surface-hub-wifi-direct.md
     - name: Troubleshoot
       items: 
+        - name: Surface Hub Update History
+          href: surface-hub-update-history.md      
         - name: Recover and reset Surface Hub 2S
           href: surface-hub-2s-recover-reset.md
         - name: Troubleshoot Miracast on Surface Hub
@@ -135,8 +137,6 @@
           href: surface-hub-installs-updates-and-restarts-outside-maintenance-hours.md 
         - name: How to pack and ship your Surface Hub 2S for service
           href: surface-hub-2s-pack-components.md
-        - name: Change history
-          href: surface-hub-2s-change-history.md
 - name: Surface Hub (v1)
   expanded: true
   items: 
@@ -250,6 +250,8 @@
           href: surface-hub-wifi-direct.md
     - name: Troubleshoot
       items: 
+        - name: Surface Hub Update History
+          href: surface-hub-update-history.md 
         - name: Reset or recover a Surface Hub
           href: device-reset-surface-hub.md
         - name: Using the Surface Hub Recovery Tool
@@ -260,8 +262,6 @@
           href: support-solutions-surface-hub.md
         - name: Troubleshoot Microsoft Surface Hub
           href: troubleshoot-surface-hub.md
-        - name: Surface Hub Update History
-          href: surface-hub-update-history.md
         - name: "Known issues: Windows 10 Team OS"
           href: surface-hub-2020-team-update-known-issues.md
         - name: How to use cloud recovery for BitLocker on a Surface Hub
@@ -276,5 +276,4 @@
           href: connect-app-in-surface-hub-unexpectedly-exits.md
         - name: Surface Hub may install updates and restart outside maintenance hours
           href: surface-hub-installs-updates-and-restarts-outside-maintenance-hours.md
-        - name: Change history for Surface Hub
-          href: change-history-surface-hub.md
+
