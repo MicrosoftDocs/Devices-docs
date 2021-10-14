@@ -114,7 +114,9 @@ landingContent:
          - text: DMA Protection on Surface devices
            url: dma-protect.md 
          - text: Surface Data Eraser tool
-           url: microsoft-surface-data-eraser.md          
+           url: microsoft-surface-data-eraser.md
+         - text: Surface supported operating systems
+           url: https://support.microsoft.com/surface/surface-supported-operating-systems-9559cc3c-7a38-31b6-d9fb-571435e84cd1                 
 
  # Card
   - title: Discover Surface tools
