@@ -103,6 +103,8 @@ landingContent:
             url: support-solutions-surface.md
           - text: Surface driver and firmware lifecycle for Windows-based devices
             url: surface-driver-firmware-lifecycle-support.md
+          - text: Surface supported operating systems
+            url: https://support.microsoft.com/surface/surface-supported-operating-systems-9559cc3c-7a38-31b6-d9fb-571435e84cd1 
 
   # Card
   - title: Explore security guidance
@@ -115,8 +117,7 @@ landingContent:
            url: dma-protect.md 
          - text: Surface Data Eraser tool
            url: microsoft-surface-data-eraser.md
-         - text: Surface supported operating systems
-           url: https://support.microsoft.com/surface/surface-supported-operating-systems-9559cc3c-7a38-31b6-d9fb-571435e84cd1                 
+                
 
  # Card
   - title: Discover Surface tools
