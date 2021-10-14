@@ -1,5 +1,5 @@
 ---
-title: Useful downloads for Microsoft Surface Hub
+title: Downloadable resources for Surface Hub readiness
 description: Downloads related to the Microsoft Surface Hub.
 ms.prod: surface-hub
 ms.sitesec: library
@@ -12,7 +12,7 @@ manager: laurawi
 ms.localizationpriority: medium
 ---
 
-# Useful downloads for Microsoft Surface Hub
+# Downloadable resources for Surface Hub readiness
 
 This topic provides links to useful Surface Hub documents, such as product datasheets and user's guide.
 
