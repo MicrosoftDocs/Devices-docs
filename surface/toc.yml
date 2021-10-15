@@ -8,6 +8,8 @@
       items: 
       - name: Technical overviews
         items:
+         - name: Surface OS choice
+           href: surface-os-choice.md
          - name: Surface security overview
            href: surface-security.md
          - name: Azure Virtual Desktop on Surface
