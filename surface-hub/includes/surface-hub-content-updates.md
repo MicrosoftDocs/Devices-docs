@@ -2,6 +2,24 @@
 
 
 
+## Week of October 11, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 10/11/2021 | [General Data Privacy Regulation and Surface Hub](/surface-hub/general-data-privacy-regulation-and-surface-hub) | modified |
+| 10/11/2021 | [Operating system essentials (Surface Hub)](/surface-hub/differences-between-surface-hub-and-windows-10-enterprise) | modified |
+| 10/11/2021 | [Install apps on your Microsoft Surface Hub](/surface-hub/install-apps-on-surface-hub) | modified |
+| 10/11/2021 | [What's new in Windows 10 Team 2020 Update](/surface-hub/surface-hub-2020-update-whats-new) | modified |
+| 10/11/2021 | [Microsoft Teams certified accessories for Surface Hub 2S](/surface-hub/surface-hub-2s-certifications) | modified |
+| 10/11/2021 | Change history for Surface Hub 2S | removed |
+| 10/11/2021 | [Downloadable resources for Surface Hub readiness](/surface-hub/surface-hub-downloads) | modified |
+| 10/12/2021 | [Admin group management](/surface-hub/admin-group-management-for-surface-hub) | modified |
+| 10/12/2021 | [Manage Microsoft Surface Hub](/surface-hub/manage-surface-hub) | modified |
+| 10/14/2021 | [Operating system essentials (Surface Hub)](/surface-hub/differences-between-surface-hub-and-windows-10-enterprise) | modified |
+| 10/15/2021 | [Reset and recovery for Surface Hub 2S](/surface-hub/surface-hub-2s-recover-reset) | modified |
+
+
 ## Week of October 04, 2021
 
 
