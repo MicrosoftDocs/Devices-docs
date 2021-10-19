@@ -9,7 +9,7 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 08/02/2021
+ms.date: 10/19/2021
 ms.reviewer: 
 manager: laurawi
 ms.localizationpriority: medium
@@ -35,10 +35,12 @@ System Model and System SKU are variables that are stored in the System Manageme
 | Surface Book 2 15"                                        | Surface Book 2   | Surface_Book_1793                |
 | Surface Book 3 13"                                        | Surface Book 3   | Surface_Book_3_1900                |
 | Surface Book 3 15"                                        | Surface Book 3   | Surface_Book_3_1899
+| Surface Laptop Studio| Surface Laptop Studio | Surface_Laptop_Studio_1964 |
 | Surface Go LTE Commercial | Surface Go | Surface_Go_1825_Commercial |
 | Surface Go Consumer                                          | Surface Go       | Surface_Go_1824_Consumer         |
 | Surface Go Commercial                                        | Surface Go       | Surface_Go_1824_Commercial       |
 | Surface Go 2                                                 | Surface Go 2     | Surface_Go_2_1927                |
+| Surface Go 3| Surface Go 3     | Surface_Go_3_1926               |
 | Surface Pro 6 Consumer                                       | Surface Pro 6    | Surface_Pro_6_1796_Consumer      |
 | Surface Pro 6 Commercial                                     | Surface Pro 6    | Surface_Pro_6_1796_Commercial    |
 | Surface Laptop                                               | Surface Laptop   | Surface_Laptop                   |
