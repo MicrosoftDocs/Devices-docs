@@ -9,7 +9,7 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 03/25/2021
+ms.date: 10/19/2021
 ms.localizationpriority: Medium
 ---
 
@@ -40,12 +40,12 @@ To learn more, see:
 
 ## Browser and pen
 
-- **Support for the new Microsoft Edge**. Microsoft Edge has been rebuilt for optimal compatibility performance, security and privacy. To learn more, see [Install and configure the new Microsoft Edge on Surface Hub](surface-hub-install-chromium-edge.md).
+- **New Microsoft Edge installed by default**. Microsoft Edge has been rebuilt for optimal compatibility performance, security and privacy. To learn more, see [Manage Microsoft Edge on Surface Hub](surface-hub-install-chromium-edge.md).
 - **Dual-pen inking on Surface Hub 2S**.   Users can whiteboard and collaborate side-by-side on Surface Hub 2S using two Surface Hub 2 Pens. The firmware updates required to enable dual-pen inking will be released with a subsequent update.
 
 ## Microsoft Teams  
 
-- **Microsoft Teams installed by default**.        Microsoft Teams is included as the default Meetings, calling and collaboration app on new Surface Hub devices which can be changed or configured via MDM or directly on Surface Hub using the Settings app. To learn more, see [Microsoft Teams deployment overview](/microsoftteams/deploy-overview).
+- **Microsoft Teams installed by default**.        Microsoft Teams is included as the default Meetings, calling and collaboration app on new Surface Hub devices which can be changed or configured via MDM or directly on Surface Hub using the Settings app. To learn more, see [[Deploy Microsoft Teams](/MicrosoftTeams/teams-surface-hub).
 - **Support for Proximity Join with Microsoft Teams**.  Proximity Join enables users to take scheduled Microsoft Teams calls on a nearby Surface Hub using their laptop/phone, or seamlessly transition an in-progress meeting to a nearby Surface Hub. Windows 10 Team 2020 Update adds Mobile Device Management (MDM) support to configure Proximity Join. To learn more, see: 
 
   - [Microsoft Teams Blog](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-teams-devices-for-shared-spaces-july-and-august-update/ba-p/1604833). 

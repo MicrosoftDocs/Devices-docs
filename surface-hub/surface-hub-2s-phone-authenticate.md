@@ -20,8 +20,8 @@ Passwordless sign-in simplifies access to your apps, meetings, and files. Surfac
 
 **Important:** This content is intended for users. To use passwordless sign-in, your IT admin must enable passwordless authentication for your organization. For more information, see:
 
-- [Enable passwordless phone sign-in](https://docs.microsoft.com/azure/active-directory/authentication/howto-authentication-passwordless-phone)
-- [Enable passwordless security key sign-in](https://docs.microsoft.com/azure/active-directory/authentication/howto-authentication-passwordless-security-key)
+- [Enable passwordless phone sign-in](/azure/active-directory/authentication/howto-authentication-passwordless-phone)
+- [Enable passwordless security key sign-in](/azure/active-directory/authentication/howto-authentication-passwordless-security-key)
 
 
 ## Configure sign-in using Microsoft Authenticator app
@@ -34,8 +34,8 @@ The Microsoft Authenticator app helps you sign-in to Surface Hub using your mobi
 1. On your mobile device, download the Microsoft Authenticator app.
     - Google Android: On your Android device, go to Google Play to [download and install the Microsoft Authenticator app](https://app.adjust.com/e3rxkc_7lfdtm?fallback=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.azure.authenticator).
     - Apple iOS: On your Apple iOS device, go to the App Store to [download and install the Microsoft Authenticator app](https://app.adjust.com/e3rxkc_7lfdtm?fallback=https%3A%2F%2Fitunes.apple.com%2Fus%2Fapp%2Fmicrosoft-authenticator%2Fid983156458).
-2. On your PC, [setup the Microsoft Authenticator app from the Security info page](https://docs.microsoft.com/azure/active-directory/user-help/security-info-setup-auth-app#set-up-the-microsoft-authenticator-app-from-the-security-info-page) for your work or school account.
-3. From the Microsoft Authenticator app on your mobile device, [turn on and use phone sign-in](https://docs.microsoft.com/azure/active-directory/user-help/user-help-auth-app-sign-in#turn-on-and-use-phone-sign-in-for-your-work-or-school-account) for your work or school account.
+2. On your PC, [setup the Microsoft Authenticator app from the Security info page](/azure/active-directory/user-help/security-info-setup-auth-app#set-up-the-microsoft-authenticator-app-from-the-security-info-page) for your work or school account.
+3. From the Microsoft Authenticator app on your mobile device, [turn on and use phone sign-in](/azure/active-directory/user-help/user-help-auth-app-sign-in#turn-on-and-use-phone-sign-in-for-your-work-or-school-account) for your work or school account.
 
  
 ## Configure sign-in using FIDO2 security keys
@@ -72,7 +72,7 @@ Once you've configured passwordless sign-in, you can use it to make it easier to
 
 ## Learn more
 
-- [Passwordless authentication options for Azure Active Directory](https://docs.microsoft.com/azure/active-directory/authentication/concept-authentication-passwordless)
-- [Passwordless sign-in with the Microsoft Authenticator app](https://docs.microsoft.com/azure/active-directory/authentication/howto-authentication-passwordless-phone)
-- [Passwordless sign-in using FIDO2 security keys](https://docs.microsoft.com/azure/active-directory/authentication/howto-authentication-passwordless-security-key#user-registration-and-management-of-fido2-security-keys)
+- [Passwordless authentication options for Azure Active Directory](/azure/active-directory/authentication/concept-authentication-passwordless)
+- [Passwordless sign-in with the Microsoft Authenticator app](/azure/active-directory/authentication/howto-authentication-passwordless-phone)
+- [Passwordless sign-in using FIDO2 security keys](/azure/active-directory/authentication/howto-authentication-passwordless-security-key#user-registration-and-management-of-fido2-security-keys)
 

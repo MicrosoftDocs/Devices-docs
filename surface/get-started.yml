@@ -24,6 +24,8 @@ landingContent:
     linkLists:
       - linkListType: whats-new
         links:
+          - text: Which Surface devices can be upgraded to Windows 11?
+            url: https://support.microsoft.com/surface/which-surface-devices-can-be-upgraded-to-windows-11-76c3c125-82e0-4d1e-9550-12ed09f9058e
           - text: Surface OS choice
             url: surface-os-choice.md
           - text: Surface Pro 8 for Business 
@@ -44,10 +46,10 @@ landingContent:
     linkLists:
       - linkListType: get-started
         links:
-         - text: Surface Laptop 4 processors tech overview 
+         - text: Surface Laptop Studio graphics overview
+           url: surface-laptop-studio-graphics.md
+         - text: Surface Laptop 4 processors overview 
            url: surface-laptop-processors.md
-         - text: Surface Headphones 2+ tech overview
-           url: surface-headphones.md
          - text: Azure Virtual Desktop on Surface
            url: windows-virtual-desktop-surface.md
          - text: Remote work solutions with Surface
@@ -101,6 +103,8 @@ landingContent:
             url: support-solutions-surface.md
           - text: Surface driver and firmware lifecycle for Windows-based devices
             url: surface-driver-firmware-lifecycle-support.md
+          - text: Surface supported operating systems
+            url: https://support.microsoft.com/surface/surface-supported-operating-systems-9559cc3c-7a38-31b6-d9fb-571435e84cd1 
 
   # Card
   - title: Explore security guidance
@@ -112,7 +116,8 @@ landingContent:
          - text: DMA Protection on Surface devices
            url: dma-protect.md 
          - text: Surface Data Eraser tool
-           url: microsoft-surface-data-eraser.md          
+           url: microsoft-surface-data-eraser.md
+                
 
  # Card
   - title: Discover Surface tools

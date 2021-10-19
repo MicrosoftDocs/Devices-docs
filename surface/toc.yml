@@ -8,6 +8,8 @@
       items: 
       - name: Technical overviews
         items:
+         - name: Surface OS choice
+           href: surface-os-choice.md
          - name: Surface security overview
            href: surface-security.md
          - name: Azure Virtual Desktop on Surface
@@ -178,5 +180,7 @@
           href: surface-next-business-day-replacement.md
         - name: Check device warranty status
           href: https://mybusinessservice.surface.com/
+        - name: Surface Self-Serve Warranty and Service
+          href: self-serve-warranty-service.md 
         - name: Protecting data when sending Surface in for service
           href: https://support.microsoft.com/help/4023508/surface-faq-protecting-your-data-service
