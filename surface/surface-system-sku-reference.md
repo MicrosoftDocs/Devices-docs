@@ -44,6 +44,8 @@ System Model and System SKU are variables that are stored in the System Manageme
 | Surface Laptop                                               | Surface Laptop   | Surface_Laptop                   |
 | Surface Laptop 2 Consumer                                    | Surface Laptop 2 | Surface_Laptop_2_1769_Consumer   |
 | Surface Laptop 2 Commercial                                  | Surface Laptop 2 | Surface_Laptop_2_1769_Commercial |
+| Surface Pro 8                                              | Surface Pro 8 | Surface_Pro_8_for_Business_1983|
+| Surface Pro 8 LTE                                             | Surface Pro 8 | Surface_Pro_8_for_Business_with_LTE_Advanced_1982|
 | Surface Pro 7+                                               | Surface Pro 7+ | Surface_Pro_7+_1960|
 | Surface Pro 7+ LTE                                           | Surface Pro 7+ | Surface_Pro_7+_with_LTE_Advanced_1961|
 | Surface Pro 7                 | Surface Pro 7    | Surface_Pro_7_1866         |
@@ -61,7 +63,7 @@ System Model and System SKU are variables that are stored in the System Manageme
 | Surface Hub 2S 85"  | Surface Hub 2S | Surface Hub 2S 85   |
 | Surface Studio | Surface Studio | Surface_Studio   |
 | Surface Studio 2 | Surface Studio 2 | Surface_Studio_2_1707_Commercial   |
-|
+
 
 ## Examples
 
