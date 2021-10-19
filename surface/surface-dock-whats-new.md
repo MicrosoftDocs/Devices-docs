@@ -89,9 +89,9 @@ Surface Dock 2 is designed to simplify IT management, enabling admins to automat
 
 - 199 watts supporting 100V-240V.
 
-## Comparing Surface Dock
+## Compare Surface Dock
 
-### Table 1. Surface Dock and USB-C Travel Hub
+**Table 1. Surface Dock and USB-C Travel Hub**
 .
 
 | Component                           | Surface Dock                                                | Surface Dock 2                                                                                      | USB-C Travel Hub |
