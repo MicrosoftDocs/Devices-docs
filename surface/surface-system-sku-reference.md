@@ -9,7 +9,7 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 08/02/2021
+ms.date: 10/19/2021
 ms.reviewer: 
 manager: laurawi
 ms.localizationpriority: medium
@@ -35,15 +35,19 @@ System Model and System SKU are variables that are stored in the System Manageme
 | Surface Book 2 15"                                        | Surface Book 2   | Surface_Book_1793                |
 | Surface Book 3 13"                                        | Surface Book 3   | Surface_Book_3_1900                |
 | Surface Book 3 15"                                        | Surface Book 3   | Surface_Book_3_1899
+| Surface Laptop Studio| Surface Laptop Studio | Surface_Laptop_Studio_1964 |
 | Surface Go LTE Commercial | Surface Go | Surface_Go_1825_Commercial |
 | Surface Go Consumer                                          | Surface Go       | Surface_Go_1824_Consumer         |
 | Surface Go Commercial                                        | Surface Go       | Surface_Go_1824_Commercial       |
 | Surface Go 2                                                 | Surface Go 2     | Surface_Go_2_1927                |
+| Surface Go 3| Surface Go 3     | Surface_Go_3_1926               |
 | Surface Pro 6 Consumer                                       | Surface Pro 6    | Surface_Pro_6_1796_Consumer      |
 | Surface Pro 6 Commercial                                     | Surface Pro 6    | Surface_Pro_6_1796_Commercial    |
 | Surface Laptop                                               | Surface Laptop   | Surface_Laptop                   |
 | Surface Laptop 2 Consumer                                    | Surface Laptop 2 | Surface_Laptop_2_1769_Consumer   |
 | Surface Laptop 2 Commercial                                  | Surface Laptop 2 | Surface_Laptop_2_1769_Commercial |
+| Surface Pro 8                                              | Surface Pro 8 | Surface_Pro_8_for_Business_1983|
+| Surface Pro 8 LTE                                             | Surface Pro 8 | Surface_Pro_8_for_Business_with_LTE_Advanced_1982|
 | Surface Pro 7+                                               | Surface Pro 7+ | Surface_Pro_7+_1960|
 | Surface Pro 7+ LTE                                           | Surface Pro 7+ | Surface_Pro_7+_with_LTE_Advanced_1961|
 | Surface Pro 7                 | Surface Pro 7    | Surface_Pro_7_1866         |
@@ -61,7 +65,7 @@ System Model and System SKU are variables that are stored in the System Manageme
 | Surface Hub 2S 85"  | Surface Hub 2S | Surface Hub 2S 85   |
 | Surface Studio | Surface Studio | Surface_Studio   |
 | Surface Studio 2 | Surface Studio 2 | Surface_Studio_2_1707_Commercial   |
-|
+
 
 ## Examples
 

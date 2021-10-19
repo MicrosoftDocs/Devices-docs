@@ -8,7 +8,7 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 01/15/2021
+ms.date: 10/19/2021
 ms.reviewer: rohenr
 manager: laurawi
 audience: itpro
@@ -131,7 +131,7 @@ Surface performs life cycle assessments to calculate the environmental impact of
 
 ## Summary
 
-Azure Virtual Desktop on Surface provides organizations with greater flexibility and resilience in meeting the diverse needs of users, stakeholders, and customers. Running Azure Virtual Desktop solutions on Surface devices provides unique advantages over continued reliance on legacy devices. Flexible form factors like Surface Go 2 and Surface Pro 7+ connected to the cloud (or offline), enable users to be productive from anywhere, at any time. Whether employees work in persistent, on-demand, or just-in-time scenarios, Azure Virtual Desktop on Surface affords businesses with the versatility to sustain productivity throughout disruptions from public health emergencies or other unforeseen events. Using the built in, multi-layered security and modern manageability of Windows 10, companies can take advantage of an expanding ecosystem of cloud-based services to rapidly deploy and scale Windows desktops and apps. Simply put, Azure Virtual Desktop on Surface delivers critically needed technology to organizations and businesses of all sizes.
+Azure Virtual Desktop on Surface provides organizations with greater flexibility and resilience in meeting the diverse needs of users, stakeholders, and customers. Running Azure Virtual Desktop solutions on Surface devices provides unique advantages over continued reliance on legacy devices. Flexible form factors like Surface Go 3 and Surface Pro 8 connected to the cloud (or offline), enable users to be productive from anywhere, at any time. Whether employees work in persistent, on-demand, or just-in-time scenarios, Azure Virtual Desktop on Surface affords businesses with the versatility to sustain productivity throughout disruptions from public health emergencies or other unforeseen events. Using the built in, multi-layered security and modern manageability of Windows 10, companies can take advantage of an expanding ecosystem of cloud-based services to rapidly deploy and scale Windows desktops and apps. Simply put, Azure Virtual Desktop on Surface delivers critically needed technology to organizations and businesses of all sizes.
 
 ## Learn more
 
@@ -149,6 +149,6 @@ For more information, see the following resources:
 <a id="2">2.</a> Battery life varies significantly with settings, usage and other factors.<br>
 <a id="3">3.</a> Service availability and performance subject to service provider’s network. Contact your service provider for details, compatibility, pricing, SIM card, and activation. See all specs and frequencies at surface.com.<br>
 <a id="4">4.</a> Forrester Consulting, “A Forrester Total Economic Impact™ Study: Maximizing Your ROI from Microsoft 365 Enterprise with Microsoft Surface,” commissioned by Microsoft, 2018.<br> 
-<a id="5">5.</a> Surface Go and Surface Go 2 use a third-party UEFI and do not support DFCI. DFCI is currently available for Surface Pro 7+, Surface Laptop Go, Surface Book 3, Surface Laptop 4, Surface Laptop 3, Surface Pro 7, and Surface Pro X.<br>
+<a id="5">5.</a> Surface Go and Surface Go 2 use a third-party UEFI and do not support DFCI. DFCI is currently available for Surface Laptop Studio, Surface Pro 8, Surface Go 3, Surface Pro 7+, Surface Laptop Go, Surface Book 3, Surface Laptop 4, Surface Laptop 3, Surface Pro 7, and Surface Pro X.<br>
 <a id="6">6.</a> Removable SSD is available on Surface Pro 7+, Surface Laptop 4, Surface Laptop 3, and Surface Pro X. <br>
-<a id="7">7.</a> DFCI is currently available for Surface Pro 7+, Surface Laptop Go, Surface Book 4, Surface Laptop 3, Surface Pro 7, and Surface Pro X. [Find out more](surface-manage-dfci-guide.md) about managing Surface UEFI settings.
+<a id="7">7.</a> DFCI is currently available for Surface Laptop Studio, Surface Pro 8, Surface Go 3, Surface Pro 7+, Surface Laptop Go, Surface Book 3, Surface Laptop 4, Surface Laptop 3, Surface Pro 7, and Surface Pro X. [Find out more](surface-manage-dfci-guide.md) about managing Surface UEFI settings.
