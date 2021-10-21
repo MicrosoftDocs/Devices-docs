@@ -25,6 +25,8 @@ landingContent:
     linkLists:
       - linkListType: whats-new
         links:
+          - text: Surface Duo 2 for Business
+            url: https://www.microsoft.com/surface/business/surface-duo-2
           - text: Fluent UI framework for Surface Duo
             url: https://devblogs.microsoft.com/surface-duo/fluent-ui-android-dual-screen
           - text: Enroll Android Enterprise dedicated devices into Azure AD Shared device mode
