@@ -8,7 +8,7 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 07/27/2021
+ms.date: 10/25/2021
 ms.reviewer: hachidan
 manager: laurawi
 audience: itpro
@@ -43,8 +43,10 @@ Command line | Directly troubleshoot Surface devices remotely without user inter
 SDT for Business is supported on Surface 3 and later devices (except for devices configured in S mode):
 
 - Surface Book - all generations
+- Surface Laptop Studio
 - Surface Go - all generations
 - Surface Laptop - all generations
+- Surface Laptop Go
 - Surface Pro 3 and later
 - Surface Pro X - all generations
 - Surface Studio - all generations
@@ -56,8 +58,13 @@ SDT for Business is supported on Surface 3 and later devices (except for devices
 To create an SDT package that you can distribute to users in your organization:
 
 1. Sign in to your Surface device using the Administrator account.
-2. Download SDT Windows Installer Package (.msi) from the [Surface Tools for IT download page](https://www.microsoft.com/download/details.aspx?id=46703) and copy it to a preferred location on your Surface device, such as Desktop.
-3. The SDT setup wizard appears, as shown in figure 1. Click **Next**.
+
+2. Download SDT Windows Installer Package (.msi) from the [Surface Tools for IT download page](https://www.microsoft.com/download/details.aspx?id=46703)
+
+- For Intel/AMD devices, download: **Surface_Diagnostic_Toolkit_for_Business_v2.168.139.0.msi**.
+- For ARM devices, download: **Surface_Diagnostic_Toolkit_for_Business_v2.168.139.0_x86.msi**.
+
+3. Copy the .msi file to a preferred location on your Surface device, such as Desktop.The SDT setup wizard appears, as shown in figure 1. Click **Next**.
 
     >[!NOTE]
     >If the setup wizard does not appear, ensure that you are signed into the Administrator account on your computer.
@@ -162,11 +169,19 @@ You can select to run a wide range of logs across applications, drivers, hardwar
 
 ## Changes and updates
 
+### Version 2.168.139.0
+
+This version of Surface Diagnostic Toolkit for Business adds support for the following:
+
+- Surface Pro 8
+- Surface Laptop Studio
+- Surface Go 3
+
 ### Version 2.131.139.0
 
 This version of Surface Diagnostic Toolkit for Business adds support for the following:
 
-- Support for Surface Pro 7+
+- Surface Pro 7+
 - Seamless support experience on Surface Pro X
 - Security improvements
 - Inclusive user experience improvements
