@@ -27,18 +27,21 @@ This tool supersedes the earlier Microsoft Surface Dock Updater tool, previously
 
 ## Supported devices
 
-Surface Dock 1 Firmware Update is supported on the following devices: 
+Surface Dock 1 Firmware Update is supported on the following devices:
 
 - Surface Pro 3 and later
 - Surface Pro X (all generations)
 - Surface 3
 - Surface Book (all generations)
+- Surface Laptop Studio
 - Surface Studio (all generations)
 - Surface Laptop (all generations)
 - Surface Laptop Go
 - Surface Go (all generations)
-- Surface Laptop Studio
 
+### Minimum OS requirement
+
+- Windows 10, version 1803 or later
 
 ## Install Surface Dock 1 Firmware Update
 
