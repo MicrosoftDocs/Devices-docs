@@ -5,6 +5,16 @@
 
 
 
+## Week of October 18, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 10/18/2021 | [Manage Microsoft Edge on Surface Hub](/surface-hub/surface-hub-install-chromium-edge) | modified |
+| 10/19/2021 | [What's new in Windows 10 Team 2020 Update](/surface-hub/surface-hub-2020-update-whats-new) | modified |
+| 10/19/2021 | [Configure password-less sign-in on Surface Hub](/surface-hub/surface-hub-2s-phone-authenticate) | modified |
+
+
 ## Week of October 11, 2021
 
 
@@ -49,6 +59,28 @@
 | 9/20/2021 | [Microsoft Teams Rooms on Surface Hub](/surface-hub/surface-hub-teams-rooms) | modified |
 | 9/21/2021 | [Known issues: Surface Hub](/surface-hub/surface-hub-2020-team-update-known-issues) | modified |
 | 9/23/2021 | [Known issues: Surface Hub](/surface-hub/surface-hub-2020-team-update-known-issues) | modified |
+
+
+## Week of October 18, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 10/19/2021 | [Surface Self Serve Warranty and Service](/surface/self-serve-warranty-service) | added |
+| 10/19/2021 | [What’s new in Surface Dock](/surface/surface-dock-whats-new) | modified |
+| 10/19/2021 | [Surface System SKU reference](/surface/surface-system-sku-reference) | modified |
+| 10/19/2021 | [Azure Virtual Desktop on Surface](/surface/windows-virtual-desktop-surface) | modified |
+| 10/19/2021 | [What’s new in Surface Dock 2](/surface/surface-dock-whats-new) | modified |
+
+
+## Week of October 18, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 10/18/2021 | [Manage Microsoft Edge on Surface Hub](/surface-hub/surface-hub-install-chromium-edge) | modified |
+| 10/19/2021 | [What's new in Windows 10 Team 2020 Update](/surface-hub/surface-hub-2020-update-whats-new) | modified |
+| 10/19/2021 | [Configure password-less sign-in on Surface Hub](/surface-hub/surface-hub-2s-phone-authenticate) | modified |
 
 
 ## Week of October 11, 2021
@@ -135,11 +167,3 @@
 | 9/20/2021 | [Microsoft Teams Rooms on Surface Hub](/surface-hub/surface-hub-teams-rooms) | modified |
 | 9/21/2021 | [Known issues: Surface Hub](/surface-hub/surface-hub-2020-team-update-known-issues) | modified |
 | 9/23/2021 | [Known issues: Surface Hub](/surface-hub/surface-hub-2020-team-update-known-issues) | modified |
-
-
-## Week of September 13, 2021
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 9/13/2021 | Surface Self Serve Warranty and Service | removed |
