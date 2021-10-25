@@ -13,7 +13,7 @@ ms.reviewer: hachidan
 manager: laurawi
 ms.localizationpriority: medium
 audience: itpro
-ms.date: 04/16/2021
+ms.date: 10/25/2021
 ---
 
 # Microsoft Surface Enterprise Management Mode
@@ -35,9 +35,6 @@ There are two administrative options that you can use to manage SEMM and enroll 
 - SEMM standalone tool, Microsoft Surface UEFI Configurator, is described in this article.
 
 - Integration with Microsoft Endpoint Configuration Manager. For information, see [Use Microsoft Endpoint Configuration Manager to manage devices with SEMM](use-system-center-configuration-manager-to-manage-devices-with-semm.md).
-
-> [!NOTE]
-> SEMM is supported on Surface Pro X via the UEFI Manager only. You can download UEFI Manager from [Surface Tools for IT](https://www.microsoft.com/download/details.aspx?id=46703). For more information, refer to [Deploying, managing, and servicing Surface Pro X](surface-pro-arm-app-management.md).
 
 ## Microsoft Surface UEFI Configurator
 
@@ -66,6 +63,9 @@ You can use the Microsoft Surface UEFI Configurator tool in three modes:
 ### Download Microsoft Surface UEFI Configurator
 
 You can download Microsoft Surface UEFI Configurator from the [Surface Tools for IT](https://www.microsoft.com/download/details.aspx?id=46703) page in the Microsoft Download Center.
+
+- For Intel/AMD devices, download: **SurfaceUEFI_Configurator_v2.94.139.0_x64.msi**
+- For ARM devices, download: **SurfaceUEFI_Configurator_v2.94.139.0_x86.msi.**
 
 ### Configuration package
 
@@ -258,6 +258,12 @@ valid and not expired.
 The PowerShell samples that create a config package for a specific device type can also be used to create a reset package that's serial-number independent. If the certificate is still valid, you can create a reset package using PowerShell to reset SEMM.
 
 ## Version history
+
+### Version 2.94.139.0
+
+This version of SEMM includes:
+
+- Support for Surface Laptop Studio, Surface Pro 8, and Surface Go 3
 
 ### Version 2.83.139.0
 

@@ -19,7 +19,7 @@ audience: itpro
 If your Surface isn’t working properly, the Microsoft Surface Diagnostic Toolkit (SDT) for Business can help you or your administrator find and solve problems.  SDT for business lets you quickly investigate, troubleshoot, and resolve hardware, software, and firmware issues with Surface devices — across your network.
 
 > [!NOTE]
-> Surface Diagnostic Toolkit for Business is built for commercial devices. If your device is a personal device and not managed by your work or school run the [Surface Diagnostic Toolkit](https://support.microsoft.com/en-us/help/4037239/surface-fix-common-surface-problems-using-surface-diagnostic-toolkit) instead.
+> Surface Diagnostic Toolkit for Business is built for commercial devices. If your device is a personal device and not managed by your work or school run the [Surface Diagnostic Toolkit](https://support.microsoft.com/help/4037239/surface-fix-common-surface-problems-using-surface-diagnostic-toolkit) instead.
 
 Specifically, SDT for Business enables you to:
 
@@ -36,7 +36,7 @@ To run Surface Diagnostic Toolkit for Business, download the components listed i
 Mode | Primary scenarios | Download | Learn more
 --- | --- | --- | ---
 Desktop mode | Assist users in running SDT on their Surface devices to troubleshoot issues.<br>Create a custom package to deploy on one or more Surface devices allowing users to select specific logs to collect and analyze. | SDT distributable MSI package:<br>Microsoft Surface Diagnostic Toolkit for Business Installer<br>[Surface Tools for IT](https://www.microsoft.com/download/details.aspx?id=46703) | [Use Surface Diagnostic Toolkit in desktop mode](surface-diagnostic-toolkit-desktop-mode.md)
-Command line | Directly troubleshoot Surface devices remotely without user interaction, using standard tools such as Configuration Manager. It includes the following commands:<br>`-DataCollector` collects all log files<br>`-bpa` runs health diagnostics using Best Practice Analyzer.<br>`-windowsupdate` checks Windows Update for missing firmware or driver updates.<br>`-warranty` checks warranty information. <br><br>| SDT console app:<br>Microsoft Surface Diagnostics App Console<br>[Surface Tools for IT](https://www.microsoft.com/download/details.aspx?id=46703) | [Run Surface Diagnostic Toolkit using commands](surface-diagnostic-toolkit-command-line.md)
+Command line | Directly troubleshoot Surface devices remotely without user interaction, using standard tools such as Configuration Manager. It includes the following commands:<br>`-DataCollector` collects all log files<br>`-bpa` runs health diagnostics using Best Practice Analyzer.<br>`-windowsupdate` checks Windows Update for missing firmware or driver updates.<br>`-warranty` checks warranty information. <br><br>| SDT console app:<br>Microsoft Surface Diagnostics App Console<br>[Surface Tools for IT](https://www.microsoft.com/download/details.aspx?id=46703) | [Run command-line app console with Surface Diagnostic Toolkit for Business](surface-diagnostic-toolkit-command-line.md)
 
 ## Supported devices
 
@@ -165,7 +165,7 @@ You can select to run a wide range of logs across applications, drivers, hardwar
 ## Next steps
 
 - [Use Surface Diagnostic Toolkit for Business in desktop mode](surface-diagnostic-toolkit-desktop-mode.md)
-- [Use Surface Diagnostic Toolkit for Business using commands](surface-diagnostic-toolkit-command-line.md)
+- [Run command-line app console with Surface Diagnostic Toolkit for Business](surface-diagnostic-toolkit-command-line.md)
 
 ## Changes and updates
 

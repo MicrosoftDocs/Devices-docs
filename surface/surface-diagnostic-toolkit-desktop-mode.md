@@ -100,5 +100,5 @@ Based on the logs, SDT generates a report for software- and firmware-based issue
 
 ## Related topics
 
-- [Run Surface Diagnostic Toolkit for Business using commands](surface-diagnostic-toolkit-command-line.md)
+- [Run command-line app console with Surface Diagnostic Toolkit for Business](surface-diagnostic-toolkit-command-line.md)
 
