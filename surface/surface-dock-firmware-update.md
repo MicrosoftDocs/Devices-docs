@@ -45,7 +45,7 @@ This section is optional and provides an overview of how to monitor installation
 
 To monitor the update:
 
-1. Open Event Viewer, browse to **Windows Logs > Application**, and then under **Actions** in the right-hand pane click **Filter Current Log**, enter **SurfaceDockFwUpdate** next to **Event sources**, and then click **OK**.
+1. Open Event Viewer, browse to **Windows Logs > System**, and then under **Actions** in the right-hand pane click **Filter Current Log**, enter **SurfaceDockFwUpdate** next to **Event sources**, and then click **OK**.
 
 2. Type the following command at an elevated command prompt:
 
