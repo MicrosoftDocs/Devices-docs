@@ -167,7 +167,7 @@ When you use the process on the **Enterprise Management** page to reset SEMM on 
 >[!NOTE]
 >A Reset Request expires two hours after it's created.
 
-For a step-by-step walkthrough of how to unenroll Surface devices from SEMM, see [Unenroll Surface devices from SEMM](https://technet.microsoft.com/itpro/surface/unenroll-surface-devices-from-semm).
+For a step-by-step walkthrough of how to unenroll Surface devices from SEMM, see [Unenroll Surface devices from SEMM](unenroll-surface-devices-from-semm.md).
 
 ## Surface Enterprise Management Mode certificate requirements
 
