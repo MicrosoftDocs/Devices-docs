@@ -26,7 +26,7 @@ Microsoft Surface Enterprise Management Mode (SEMM) is a feature of Surface devi
 SEMM also uses a certificate to protect the configuration from unauthorized tampering or removal. To migrate a Surface Hub 2S to Windows 10 Pro or Windows Enterprise, SEMM is required.
 
 >[!NOTE]
->SEMM is only available on devices with Surface UEFI firmware. This includes most other Surface devices including Surface Pro 7+, Surface Pro X, Surface Hub 2S, Surface Laptop 4 commercial SKUs with an Intel processor, Surface Laptop 4 commercial SKUs with AMD processor, Surface Laptop 3 commercial SKUs with an Intel processor, and Surface Laptop Go. SEMM is not supported on the 15" Surface Laptop 3 SKU with AMD processor (available only as a retail SKU).
+>SEMM is only available on devices with Surface UEFI firmware. This includes most other Surface devices including Surface Pro 8, Surface Pro X, Surface Laptop Studio, Surface Hub 2S, Surface Laptop 4 commercial SKUs with an Intel processor, Surface Laptop 4 commercial SKUs with AMD processor, Surface Laptop 3 commercial SKUs with an Intel processor, and Surface Laptop Go. SEMM is not supported on the 15" Surface Laptop 3 SKU with AMD processor (available only as a retail SKU).
 
 When Surface devices are configured by SEMM and secured with the SEMM certificate, they're considered *enrolled* in SEMM. When the SEMM certificate is removed and control of UEFI settings is returned to the user of the device, the Surface device is considered *unenrolled* in SEMM.
 
