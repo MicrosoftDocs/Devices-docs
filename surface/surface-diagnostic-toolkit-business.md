@@ -112,7 +112,7 @@ Both SDT and the SDT app console are installed at `C:\Program Files\Microsoft\Su
 
 In addition to the .exe file, SDT installs a JSON file and an admin.dll file (modules\admin.dll), as shown in figure 2.
 
-:::image type="content" alt-text="list of SDT installed files in File Explorer." source="images/sdt-2.png" lightbox="images/sdt-2.png":::<br/>
+:::image type="content" alt-text="list of SDT installed files in File Explorer." source="images/sdt-2.png":::<br/>
 *Figure 2. Files installed by SDT*
 
 ## Preparing the SDT package for distribution
