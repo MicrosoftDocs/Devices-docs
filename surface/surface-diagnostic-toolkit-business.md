@@ -59,7 +59,7 @@ To create an SDT package that you can distribute to users in your organization:
 
 1. Sign in to your Surface device using the Administrator account.
 
-2. Download SDT Windows Installer Package (.msi) from the [Surface Tools for IT download page](https://www.microsoft.com/download/details.aspx?id=46703)
+2. Download SDT Windows Installer Package (.msi) from the [Surface Tools for IT download page](https://www.microsoft.com/download/details.aspx?id=46703).
 
     - For Intel/AMD devices, download: **Surface_Diagnostic_Toolkit_for_Business_v2.168.139.0.msi**.
     - For ARM devices, download: **Surface_Diagnostic_Toolkit_for_Business_v2.168.139.0_x86.msi**.
@@ -72,9 +72,10 @@ To create an SDT package that you can distribute to users in your organization:
     ![welcome to the Surface Diagnostic Toolkit setup wizard.](images/sdt-1.png)<br/>
     *Figure 1. Surface Diagnostic Toolkit setup wizard*
 
-4. When the SDT setup wizard appears, click **Next**, accept the End User License Agreement (EULA)
+4. When the SDT setup wizard appears, click **Next**, accept the End User License Agreement (EULA).
 
 5. On the Install Options screen, change the default install location if desired.
+
 6. Under Setup Type, select **Advanced**.
 
     >[!NOTE]
@@ -119,6 +120,7 @@ In addition to the .exe file, SDT installs a JSON file and an admin.dll file (mo
 Creating a custom package allows you to target the tool to specific known issues.
 
 1. Click **Start > Run**, enter **Surface** and then click **Surface Diagnostic Toolkit for Business**.
+
 2. When the tool opens, click **Create Custom Package**, as shown in figure 3.
 
     ![Create custom package option.](images/sdt-3.png)<br/>
@@ -224,7 +226,7 @@ This version of Surface Diagnostic Toolkit for Business adds support for the fol
 This version of Surface Diagnostic Toolkit for Business adds support for the following:
 
 - Ability to download hardware reports.
-- Ability to contact Microsoft Support directly from the tool. <br>
+- Ability to contact Microsoft Support directly from the tool.
 
 ### Version 2.41.139.0
 
@@ -232,7 +234,7 @@ This version of Surface Diagnostic Toolkit for Business adds support for the fol
 This version of Surface Diagnostic Toolkit for Business adds support for the following:
 
 - Driver version information included in logs and report.
-- Ability to provide feedback about the app.<br>
+- Ability to provide feedback about the app.
 
 ### Version 2.36.139.0
 
