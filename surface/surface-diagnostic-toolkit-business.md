@@ -95,13 +95,13 @@ If desired, you can install SDT at a command prompt and set a custom flag to ins
 
 1. Open a command prompt and enter:
 
-    ```
+    ```console
     msiexec.exe /i <the path of installer> ADMINMODE=1. 
     ```
 
     **Example:**
 
-    ```
+    ```console
     C:\Users\Administrator> msiexec.exe/I"C:\Users\Administrator\Desktop\Microsoft_Surface_Diagnostic_Toolkit_for_Business_Installer.msi" ADMINMODE=1
     ```
 
