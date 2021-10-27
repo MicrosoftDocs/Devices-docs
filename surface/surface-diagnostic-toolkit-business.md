@@ -61,8 +61,8 @@ To create an SDT package that you can distribute to users in your organization:
 
 2. Download SDT Windows Installer Package (.msi) from the [Surface Tools for IT download page](https://www.microsoft.com/download/details.aspx?id=46703)
 
-- For Intel/AMD devices, download: **Surface_Diagnostic_Toolkit_for_Business_v2.168.139.0.msi**.
-- For ARM devices, download: **Surface_Diagnostic_Toolkit_for_Business_v2.168.139.0_x86.msi**.
+    - For Intel/AMD devices, download: **Surface_Diagnostic_Toolkit_for_Business_v2.168.139.0.msi**.
+    - For ARM devices, download: **Surface_Diagnostic_Toolkit_for_Business_v2.168.139.0_x86.msi**.
 
 3. Copy the .msi file to a preferred location on your Surface device, such as Desktop.The SDT setup wizard appears, as shown in figure 1. Click **Next**.
 

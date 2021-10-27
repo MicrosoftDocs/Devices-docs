@@ -53,13 +53,13 @@ Successfully running SDT can quickly determine if a reported issue is caused by 
 
 5. When all tests have finished, the tool asks you to confirm if your issue is fixed. 
 
- ![Has your problem been resolved?](images/sdt3.png)
-*Figure 3a. Has your problem been resolved?*
+    ![Has your problem been resolved?](images/sdt3.png)
+    *Figure 3a. Has your problem been resolved?*
 
 6. If the issue isn't resolved or you don't know, you can submit a Support ticket by selecting **Contact us** to **Get help now.**
  
- ![Submit a Support ticket.](images/sdt4.png)
-*Figure 3b. Submit a Support ticket*
+    ![Submit a Support ticket.](images/sdt4.png)
+    *Figure 3b. Submit a Support ticket*
 
 <span id="multiple" />
 
