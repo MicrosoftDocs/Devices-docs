@@ -18,41 +18,44 @@ ms.audience: itpro
 
 When deploying Surface devices in point of sale or other “always-on”
 kiosk scenarios, you can optimize power management using the new Surface
-Brightness Control app.
-
-Available for download with [Surface Tools for IT](https://www.microsoft.com/download/details.aspx?id=46703).
-Surface Brightness Control is designed to help reduce thermal load and lower the overall carbon footprint for deployed Surface devices.
-If you plan to get only this tool from the download page, select the file **Surface_Brightness_Control_v1.16.137.0.msi** in the available list.
-The tool automatically dims the screen when not in use and includes the following configuration options:
+Brightness Control app. Surface Brightness Control is designed to help reduce thermal load and lower the overall carbon footprint for deployed Surface devices. The tool automatically dims the screen when not in use and includes the following configuration options:
 
 - Period of inactivity before dimming the display.
-
 - Brightness level when dimmed.
-
 - Maximum brightness level when in use.
 
-**To run Surface Brightness Control:**
+Download it from [Surface Tools for IT](https://www.microsoft.com/download/details.aspx?id=46703). Select the file **Surface_Brightness_Control_v1.16.137.0.msi** in the available list.
 
-- Install surfacebrightnesscontrol.msi on the target device and Surface Brightness Control
+## Supported devices
+
+- Surface Pro 3 and later
+- Surface Pro X (all generations)
+- Surface 3
+- Surface Book (all generations)
+- Surface Laptop Studio
+- Surface Studio (all generations)
+- Surface Laptop (all generations)
+- Surface Laptop Go
+- Surface Go (all generations)
+
+
+## Run Surface Brightness Control
+
+- Install **Surface_Brightness_Control_v1.16.137.0.msi** on the target device and Surface Brightness Control
   will begin working immediately.
 
-## Configuring Surface Brightness Control
+## Configure Surface Brightness Control
 
-You can adjust the default values via the Windows Registry. For more
+ you can adjust the default values via the Windows Registry. For more
 information about using the Windows Registry, refer to the [Registry
-documentation](https://docs.microsoft.com/windows/desktop/sysinfo/registry).
+documentation](/windows/desktop/sysinfo/registry).
 
-1.  Run regedit from a command prompt to open the Windows Registry
-    Editor.
-    
-      - Computer\HKEY\_LOCAL\_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Surface\Surface
-        Brightness Control\	
-    
-    If you're running an older version of Surface Brightness control, run the following command instead:
-    
-      - Computer\HKEY\_LOCAL\_MACHINE\SOFTWARE\Microsoft\Surface\Surface
-        Brightness Control\
+1. Run regedit from a command prompt to open the Windows Registry Editor.
+2. Navigate to Computer\HKEY\_LOCAL\_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Surface\Surface Brightness Control.
+3. Adjust the Registry key values, as described in the following table.
 
+> [!TIP]
+> If you're running an older version of Surface Brightness control, navigate to: Computer\HKEY\_LOCAL\_MACHINE\SOFTWARE\Microsoft\Surface\Surface Brightness Control\
 
 | Registry Setting | Data| Description  
 |-----------|------------|---------------
@@ -66,15 +69,17 @@ Full Brightness   | Default: 100  <br>Option: Range of 0-100 percent of screen b
 ## Changes and updates
 
 ### Version 1.16.137<br>
+
 *Release Date: 22 October 2019*<br>
 This version of Surface Brightness Control adds support for the following:
--Recompiled for x86, adding support for Surface Pro 7, Surface Pro X, and Surface Laptop 3. 
+-Recompiled for x86, adding support for Surface Pro 7, Surface Pro X, and Surface Laptop 3.
 
 ### Version 1.12.239.0
+
 *Release Date: 26 April 2019*<br>
 This version of Surface Brightness Control adds support for the following:
-- Touch delay fixes.
 
+- Touch delay fixes.
 
 ## Related topics
 

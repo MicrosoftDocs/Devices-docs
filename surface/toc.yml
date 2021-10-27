@@ -94,7 +94,7 @@
           items: 
           - name: Use Surface Diagnostic Toolkit for Business in desktop mode
             href: surface-diagnostic-toolkit-desktop-mode.md
-          - name: Run Surface Diagnostic Toolkit for Business with commands
+          - name: Run command-line app console with Surface Diagnostic Toolkit for Busines
             href: surface-diagnostic-toolkit-command-line.md
         - name: Surface Data Eraser
           href: microsoft-surface-data-eraser.md

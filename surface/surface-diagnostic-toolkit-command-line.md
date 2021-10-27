@@ -1,5 +1,5 @@
 ---
-title: Run Surface Diagnostic Toolkit for Business using commands
+title: Run command-line app console with Surface Diagnostic Toolkit for Business
 description: How to run Surface Diagnostic Toolkit in a command console
 ms.prod: w10
 ms.mktglfcycl: manage
@@ -13,7 +13,7 @@ ms.localizationpriority: medium
 ms.audience: itpro
 ---
 
-# Run Surface Diagnostic Toolkit for Business using commands
+# Run command-line app console with Surface Diagnostic Toolkit for Business
 
 Running the Surface Diagnostic Toolkit (SDT) at a command prompt requires downloading the SDT app console. After it's installed, you can run SDT at a command prompt via the Windows command console (cmd.exe) or using Windows PowerShell, including PowerShell Integrated Scripting Environment (ISE), which provides support for autocompletion of commands, copy/paste, and other features.  For a list of supported Surface devices in SDT, refer to [Deploy Surface Diagnostic Toolkit for Business](surface-diagnostic-toolkit-business.md).
 
@@ -22,14 +22,19 @@ Running the Surface Diagnostic Toolkit (SDT) at a command prompt requires downlo
 
 ## Running SDT app console
 
-Download and install SDT app console from the [Surface Tools for IT download page](https://www.microsoft.com/download/details.aspx?id=46703). You can use the Windows command prompt (cmd.exe) or Windows PowerShell to: 
+1. Download and install SDT app console from the [Surface Tools for IT download page](https://www.microsoft.com/download/details.aspx?id=46703).
 
-- Collect all log files.
-- Run health diagnostics using Best Practice Analyzer.
-- Check update for missing firmware or driver updates.
+- For Intel/AMD devices, download: **Microsoft.Surface.Diagnostics.App.Console.v2.168.139.0.exe**
+- For ARM devices, download: **Microsoft.Surface.Diagnostics.App.Console.v2.168.139.0_x86.exe**
+
+2. Use the Windows command prompt (cmd.exe) or Windows PowerShell to:
+
+- Collect all log files
+- Run health diagnostics using Best Practice Analyzer
+- Check update for missing firmware or driver updates
 
 >[!NOTE]
->In this release, the SDT app console supports single commands only. Running multiple command line options requires running the console exe separately for each command. 
+>In this release, the SDT app console supports single commands only. Running multiple command line options requires running the console exe separately for each command.
 
 By default, output files are saved in the same location as the console app. Refer to the following table for a complete list of commands.
 
@@ -40,17 +45,16 @@ Command | Notes
 -windowsupdate | Checks Windows Update online servers for missing firmware and/or driver updates.<br><br>**Example**:<br>Microsoft.Surface.Diagnostics.App.Console.exe -windowsupdate
 -warranty "output file" | Checks warranty information on the device (valid or invalid). The optional “output file” is the file path to create the xml file. <br><br>**Example**: <br>Microsoft.Surface.Diagnostics.App.Console.exe –warranty “warranty.xml”
 
-
 >[!NOTE]
->To run the SDT app console remotely on target devices, you can use a configuration management tool such as Microsoft Endpoint Configuration Manager. Alternatively, you can create a .zip file containing the console app and appropriate console commands and deploy per your organization’s software distribution processes. 
+>To run the SDT app console remotely on target devices, you can use a configuration management tool such as Microsoft Endpoint Configuration Manager. Alternatively, you can create a .zip file containing the console app and appropriate console commands and deploy per your organization’s software distribution processes.
 
-## Running Best Practice Analyzer 
+## Running Best Practice Analyzer
 
-You can run BPA tests across key components such as BitLocker, Secure Boot, and Trusted Platform Module (TPM) and then output the results to a shareable file. The tool generates a series of tables with color-coded headings and condition descriptors along with guidance about how to approach resolving the issue. 
+You can run BPA tests across key components such as BitLocker, Secure Boot, and Trusted Platform Module (TPM) and then output the results to a shareable file. The tool generates a series of tables with color-coded headings and condition descriptors along with guidance about how to approach resolving the issue.
 
 - Green indicates the component is running in an optimal condition (optimal).
 - Orange indicates the component is not running in an optimal condition (not optimal).
-- Red indicates the component is in an abnormal state. 
+- Red indicates the component is in an abnormal state.
 
 ### Sample BPA results output
 
