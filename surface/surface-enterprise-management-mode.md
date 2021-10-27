@@ -13,7 +13,7 @@ ms.reviewer: hachidan
 manager: laurawi
 ms.localizationpriority: medium
 audience: itpro
-ms.date: 04/16/2021
+ms.date: 10/25/2021
 ---
 
 # Microsoft Surface Enterprise Management Mode
@@ -26,7 +26,7 @@ Microsoft Surface Enterprise Management Mode (SEMM) is a feature of Surface devi
 SEMM also uses a certificate to protect the configuration from unauthorized tampering or removal. To migrate a Surface Hub 2S to Windows 10 Pro or Windows Enterprise, SEMM is required.
 
 >[!NOTE]
->SEMM is only available on devices with Surface UEFI firmware. This includes most other Surface devices including Surface Pro 7+, Surface Pro X, Surface Hub 2S, Surface Laptop 4 commercial SKUs with an Intel processor, Surface Laptop 4 commercial SKUs with AMD processor, Surface Laptop 3 commercial SKUs with an Intel processor, and Surface Laptop Go. SEMM is not supported on the 15" Surface Laptop 3 SKU with AMD processor (available only as a retail SKU).
+>SEMM is only available on devices with Surface UEFI firmware. This includes most other Surface devices including Surface Pro 8, Surface Pro X, Surface Laptop Studio, Surface Hub 2S, Surface Laptop 4 commercial SKUs with an Intel processor, Surface Laptop 4 commercial SKUs with AMD processor, Surface Laptop 3 commercial SKUs with an Intel processor, and Surface Laptop Go. SEMM is not supported on the 15" Surface Laptop 3 SKU with AMD processor (available only as a retail SKU).
 
 When Surface devices are configured by SEMM and secured with the SEMM certificate, they're considered *enrolled* in SEMM. When the SEMM certificate is removed and control of UEFI settings is returned to the user of the device, the Surface device is considered *unenrolled* in SEMM.
 
@@ -35,9 +35,6 @@ There are two administrative options that you can use to manage SEMM and enroll 
 - SEMM standalone tool, Microsoft Surface UEFI Configurator, is described in this article.
 
 - Integration with Microsoft Endpoint Configuration Manager. For information, see [Use Microsoft Endpoint Configuration Manager to manage devices with SEMM](use-system-center-configuration-manager-to-manage-devices-with-semm.md).
-
-> [!NOTE]
-> SEMM is supported on Surface Pro X via the UEFI Manager only. You can download UEFI Manager from [Surface Tools for IT](https://www.microsoft.com/download/details.aspx?id=46703). For more information, refer to [Deploying, managing, and servicing Surface Pro X](surface-pro-arm-app-management.md).
 
 ## Microsoft Surface UEFI Configurator
 
@@ -66,6 +63,9 @@ You can use the Microsoft Surface UEFI Configurator tool in three modes:
 ### Download Microsoft Surface UEFI Configurator
 
 You can download Microsoft Surface UEFI Configurator from the [Surface Tools for IT](https://www.microsoft.com/download/details.aspx?id=46703) page in the Microsoft Download Center.
+
+- For Intel/AMD devices, download: **SurfaceUEFI_Configurator_v2.94.139.0_x64.msi**
+- For ARM devices, download: **SurfaceUEFI_Configurator_v2.94.139.0_x86.msi.**
 
 ### Configuration package
 
@@ -167,7 +167,7 @@ When you use the process on the **Enterprise Management** page to reset SEMM on 
 >[!NOTE]
 >A Reset Request expires two hours after it's created.
 
-For a step-by-step walkthrough of how to unenroll Surface devices from SEMM, see [Unenroll Surface devices from SEMM](https://technet.microsoft.com/itpro/surface/unenroll-surface-devices-from-semm).
+For a step-by-step walkthrough of how to unenroll Surface devices from SEMM, see [Unenroll Surface devices from SEMM](unenroll-surface-devices-from-semm.md).
 
 ## Surface Enterprise Management Mode certificate requirements
 
@@ -258,6 +258,12 @@ valid and not expired.
 The PowerShell samples that create a config package for a specific device type can also be used to create a reset package that's serial-number independent. If the certificate is still valid, you can create a reset package using PowerShell to reset SEMM.
 
 ## Version history
+
+### Version 2.94.139.0
+
+This version of SEMM includes:
+
+- Support for Surface Laptop Studio, Surface Pro 8, and Surface Go 3
 
 ### Version 2.83.139.0
 

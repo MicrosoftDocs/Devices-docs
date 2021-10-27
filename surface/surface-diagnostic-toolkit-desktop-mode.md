@@ -26,18 +26,18 @@ Successfully running SDT can quickly determine if a reported issue is caused by 
 
 2. Begin at the home page, which allows users to enter a description of the issue, and click **Continue**, as shown in figure 1.
 
-    ![Start SDT in desktop mode.](images/sdt-desk-1.png)
-*Figure 1. SDT in desktop mode*
+    ![Start SDT in desktop mode.](images/sdt-desk-1.png)<br/>
+    *Figure 1. SDT in desktop mode*
 
 3. When SDT indicates the device has the latest updates, click **Continue** to advance to the catalog of available tests, as shown in figure 2.
 
-    ![Select from SDT options.](images/sdt1.png)
-*Figure 2. Select from SDT options*
+    ![Select from SDT options.](images/sdt1.png)<br/>
+    *Figure 2. Select from SDT options*
 
 4. You can choose to run all the diagnostic tests. Or, if you already suspect a particular issue such as a faulty display or a power supply problem, click **Select** to choose from the available tests and click **Run Selected**, as shown in figure 3. See the following table for details of each test. 
 
-    ![Select hardware tests.](images/sdt2.png)
-*Figure 3. Select hardware tests*
+    ![Select hardware tests.](images/sdt2.png)<br/>
+    *Figure 3. Select hardware tests*
 
     Hardware test | Description
     --- | ---
@@ -53,13 +53,13 @@ Successfully running SDT can quickly determine if a reported issue is caused by 
 
 5. When all tests have finished, the tool asks you to confirm if your issue is fixed. 
 
- ![Has your problem been resolved?](images/sdt3.png)
-*Figure 3a. Has your problem been resolved?*
+    ![Has your problem been resolved?](images/sdt3.png)<br/>
+    *Figure 3a. Has your problem been resolved?*
 
 6. If the issue isn't resolved or you don't know, you can submit a Support ticket by selecting **Contact us** to **Get help now.**
  
- ![Submit a Support ticket.](images/sdt4.png)
-*Figure 3b. Submit a Support ticket*
+    ![Submit a Support ticket.](images/sdt4.png)<br/>
+    *Figure 3b. Submit a Support ticket*
 
 <span id="multiple" />
 
@@ -100,5 +100,4 @@ Based on the logs, SDT generates a report for software- and firmware-based issue
 
 ## Related topics
 
-- [Run Surface Diagnostic Toolkit for Business using commands](surface-diagnostic-toolkit-command-line.md)
-
+- [Run command-line app console with Surface Diagnostic Toolkit for Business](surface-diagnostic-toolkit-command-line.md)
