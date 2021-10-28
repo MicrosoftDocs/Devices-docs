@@ -56,6 +56,12 @@
           href: surface-system-sku-reference.md
     - name: Deploy & manage
       items: 
+      - name: Surface Management Portal
+        items:
+        - name: Surface Management Portal overview
+          href: surface-management-portal.md
+        - name: What is Surface Management Portal?
+          href: /mem/intune/fundamentals/surface-management-portal
       - name: Windows Autopilot
         items:      
         - name: Windows Autopilot and Surface devices
