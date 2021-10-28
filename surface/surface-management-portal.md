@@ -68,5 +68,5 @@ Surface Management Portal is available to customers who use Microsoft Endpoint M
 ## Learn more
 
 - [What is Microsoft Surface Management Portal?](/mem/intune/fundamentals/surface-management-portal?)
-- [Microsoft Mechanics](https://aka.ms/SurfaceManagamentPortalMechanicsVideo)
+- [Microsoft Mechanics](https://youtu.be/_MmutkqNudk)
 - [Surface IT Pro Blog post: Surface Management Portal](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/surface-management-portal/ba-p/1419017)
