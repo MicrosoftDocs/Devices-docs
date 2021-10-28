@@ -14,7 +14,7 @@ ms.localizationpriority: medium
 
 # Enable 802.1x wired authentication
 
-The [November 14, 2017 update to Windows 10](https://support.microsoft.com/help/4048954/windows-10-update-kb4048954) (build 15063.726) enabled 802.1x wired authentication MDM policies on Surface Hub devices. The feature allows organizations to enforce standardized wired network authentication using the [IEEE 802.1x authentication protocol](http://www.ieee802.org/1/pages/802.1x-2010.html). This was already available for wireless authentication using WLAN profiles via MDM. This topic explains how to  configure a Surface Hub for use with wired authentication. 
+The [November 14, 2017 update to Windows 10](https://support.microsoft.com/help/4048954/windows-10-update-kb4048954) (build 15063.726) enabled 802.1x wired authentication MDM policies on Surface Hub devices. The feature allows organizations to enforce standardized wired network authentication using the [IEEE 802.1x authentication protocol](http://www.ieee802.org/1/pages/802.1x-2010.html). This was already available for wireless authentication using [WLAN profiles](/mem/intune/configuration/wi-fi-settings-import-windows-8-1) via MDM. This topic explains how to  configure a Surface Hub for use with wired authentication. 
 
 Enforcement and enablement of 802.1x wired authentication on Surface Hub can be done through MDM [OMA-URI definition](/mem/intune/configuration/custom-settings-windows-10). 
 
