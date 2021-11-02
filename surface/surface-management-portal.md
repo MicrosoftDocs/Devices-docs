@@ -8,7 +8,7 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 10/28/2021
+ms.date: 11/02/2021
 ms.reviewer: hachinda
 manager: laurawi
 audience: itpro
@@ -24,6 +24,8 @@ As a single environment for the end-to-end visibility of corporate or user-owned
 Get insights into device compliance, support activity, and warranty coverage. Quickly see the status of each device, which ones are still in warranty or expiring soon, and the status of active support requests with your hardware providers.
 
 When your Surface devices are enrolled for cloud management and users log in for the first time, information from these Surface devices automatically flows into the Surface Management Portal, giving you a single pane of glass for Surface-specific device admin activities.
+
+See also: [Known issues](#known-issues) below. 
 
 ## Get started
 
@@ -64,6 +66,10 @@ The Surface Management Portal gives complete visibility into support activity al
 ## Try for free
 
 Surface Management Portal is available to customers who use Microsoft Endpoint Manager and have enrolled Surface devices through Intune. If you’re new to Intune, set up your Intune tenant today by visiting [Quickstart: Try Microsoft Intune for free](/mem/intune/fundamentals/free-trial-sign-up).
+
+## Known issues
+
+- The portal may not load correctly for a small number of tenants. Surface engineering is actively investigating this issue. *Nov. 2, 2021.*
 
 ## Learn more
 
