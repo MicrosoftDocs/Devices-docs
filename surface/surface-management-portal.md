@@ -69,7 +69,7 @@ Surface Management Portal is available to customers who use Microsoft Endpoint M
 
 ## Known issues
 
-- The portal may not load correctly for a small number of tenants. Surface engineering is actively investigating this issue. **Nov. 2, 2012.**
+- The portal may not load correctly for a small number of tenants. Surface engineering is actively investigating this issue. **Nov. 2, 2021.**
 
 ## Learn more
 
