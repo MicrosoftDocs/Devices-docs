@@ -31,7 +31,7 @@ See also: [Known issues](#known-issues) below.
 
 Sign in to Microsoft Endpoint Manager, click **All services**, and then click **Surface Management Portal**.
 
-:::image type="content" source="/surface/images/surface-management-portal/surface-management-portal-start.png" alt-text="Start Surface Management Portal":::
+:::image type="content" source="/surface/images/surface-management-portal/surface-management-portal-start.png" lightbox="/surface/images/surface-management-portal/surface-management-portal-start.png" alt-text="Start Surface Management Portal":::
 
 ## Monitor Surface devices
 
@@ -46,7 +46,7 @@ Select **Monitor** to display insights for all your Surface devices, including:
 
 Select **View report** to see details on each insights category, giving you diagnostic information that you can customize and export.
 
-:::image type="content" source="/surface/images/surface-management-portal/surface-management-portal-view-report.png" alt-text="Get Surface device insights and view report":::
+:::image type="content" source="/surface/images/surface-management-portal/surface-management-portal-view-report.png" lightbox="/surface/images/surface-management-portal/surface-management-portal-view-report.png" alt-text="Get Surface device insights and view report":::
 
 ## Device warranty and coverage
 
@@ -61,7 +61,7 @@ if you manage hundreds or thousands of devices, having direct access to the warr
 
 The Surface Management Portal gives complete visibility into support activity along with the status of each request.
 
-:::image type="content" source="/surface/images/surface-management-portal/surface-management-portal-support.png" alt-text="Get information about support activity along with the status of each request.":::
+:::image type="content" source="/surface/images/surface-management-portal/surface-management-portal-support.png" lightbox="/surface/images/surface-management-portal/surface-management-portal-support.png" alt-text="Get information about support activity along with the status of each request.":::
 
 ## Try for free
 
@@ -69,7 +69,7 @@ Surface Management Portal is available to customers who use Microsoft Endpoint M
 
 ## Known issues
 
-- The portal may not load correctly for a small number of tenants. Surface engineering is actively investigating this issue. *Nov. 2, 2021.*
+- Resolved: An issue that prevented the portal from loading correctly for a small number of tenants is fixed. (Nov 3, 2021).
 
 ## Learn more
 
