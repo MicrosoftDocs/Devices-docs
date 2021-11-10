@@ -43,7 +43,9 @@
         - name: Surface Laptop Go for Business
           href: https://www.microsoft.com/surface/business/surface-laptop-go                 
         - name: Surface Studio 2 for Business
-          href: https://www.microsoft.com/surface/business/surface-studio-2         
+          href: https://www.microsoft.com/surface/business/surface-studio-2
+        - name: Surface Laptop SE for Education
+          href: https://www.microsoft.com/surface/business/surface-laptop-se
     - name: Plan
       items: 
         - name: Surface device compatibility with Windows 10 Long-Term Servicing Branch
