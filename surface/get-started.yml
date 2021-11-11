@@ -78,8 +78,8 @@ landingContent:
             url: windows-autopilot-and-surface-devices.md
           - text: Surface Registration Support for Windows Autopilot
             url: surface-autopilot-registration-support.md
-          - text: Windows 11 SE for Education - deploy apps
-            url: /education/windows/windows-11-se-overview
+          - text: Surface Deployment Accelerator
+            url: microsoft-surface-deployment-accelerator.md
   
     # Card
   - title: Manage Surface devices
