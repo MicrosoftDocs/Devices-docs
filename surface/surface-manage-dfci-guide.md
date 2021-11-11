@@ -50,6 +50,7 @@ Crucially, DFCI enables zero touch management, eliminating the need for manual i
 
 DFCI is supported in the following devices:
 
+- Surface Laptop SE
 - Surface Laptop Studio
 - Surface Pro 8
 - Surface Go 3
