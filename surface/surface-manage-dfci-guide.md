@@ -40,9 +40,9 @@ In contrast to other Windows 10 devices available in the market today, Surface p
 
 Previously, managing firmware required enrolling devices into Surface Enterprise Management Mode (SEMM) with the overhead of ongoing manual IT-intensive tasks. As an example, SEMM requires IT staff to physically access each PC to enter a two-digit pin as part of the certificate management process. Although SEMM remains a good solution for organizations in a strictly on-premises environment, its complexity and IT-intensive requirements make it costly to use.
 
- With integrated UEFI firmware management capabilities in Microsoft Intune, the ability to lock down hardware is simplified and easier to use with new features for provisioning, security, and streamlined updating all in a single console, now unified as [Microsoft Endpoint Manager](https://www.microsoft.com/microsoft-365/microsoft-endpoint-manager). The following figure shows UEFI settings viewed directly on the device (left) and viewed in the Endpoint Manager console (right).
+With integrated UEFI firmware management capabilities in Microsoft Intune, the ability to lock down hardware is simplified and easier to use with new features for provisioning, security, and streamlined updating all in a single console, now unified as [Microsoft Endpoint Manager](https://www.microsoft.com/microsoft-365/microsoft-endpoint-manager). The following figure shows UEFI settings viewed directly on the device (left) and viewed in the Endpoint Manager console (right).
 
-![UEFI settings shown on device (left) and in the Endpoint Manager console (right).](images/uefidfci.png)
+:::image type="content" alt-text="UEFI settings shown on device (left) and in the Endpoint Manager console (right)." source="images/uefidfci.png" lightbox="images/uefidfci.png":::
 
 Crucially, DFCI enables zero touch management, eliminating the need for manual interaction by IT admins. DFCI is deployed via Windows Autopilot using the device profiles capability in Intune. A device profile allows you to add and configure settings which can then be deployed to devices enrolled in management within your organization. Once the device receives the device profile, the features and settings are applied automatically. Examples of common device profiles include Email, Device restrictions, VPN, Wi-Fi, and Administrative templates. DFCI is simply an additional device profile that enables you to manage UEFI configuration settings from the cloud without having to maintain on-premises infrastructure.  
 
@@ -50,6 +50,7 @@ Crucially, DFCI enables zero touch management, eliminating the need for manual i
 
 DFCI is supported in the following devices:
 
+- Surface Laptop SE
 - Surface Laptop Studio
 - Surface Pro 8
 - Surface Go 3
@@ -105,7 +106,7 @@ Before configuring DFCI policy settings, first create a DFCI profile and assign 
 
 4. Leave the remaining default settings unchanged and select **Next**, as shown in the following figure.
 
-    ![Create Autopilot profile.](images/df3b.png)
+   :::image type="content" alt-text="Create Autopilot profile." source="images/df3b.png" lightbox="images/df3b.png":::
 
 5. On the Assignments page, choose **Select groups to include** and click your Azure AD security group. Select **Next**.
 6. Accept the summary and then select **Create**. The Autopilot profile is now created and assigned to the group.
@@ -125,7 +126,7 @@ You configure DFCI policy settings by editing the DFCI profile from Endpoint Man
 
 - In Endpoint Manager at  devicemanagement.microsoft.com, select **Devices > Windows > Configuration Profiles > “DFCI profile name” > Properties > Settings**.
 
-    ![Configure DFCI settings.](images/dfciconfig.png)
+  :::image type="content" alt-text="Configure DFCI settings." source="images/dfciconfig.png" lightbox="images/dfciconfig.png":::
 
 ### Block user access to UEFI settings
 
