@@ -6,7 +6,7 @@ keywords:
 ms.prod: surface-hub
 ms.sitesec: library
 author: v-miegge
-ms.author: v-miegge
+ms.author: dpandre
 ms.topic: article
 ms.localizationpriority: medium
 ---
