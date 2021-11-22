@@ -6,7 +6,7 @@ keywords:
 ms.prod: surface-hub
 ms.sitesec: library
 author: v-miegge
-ms.author: v-miegge
+ms.author: dpandre
 ms.topic: article
 ms.localizationpriority: medium
 ---
@@ -24,6 +24,18 @@ We'll be refreshing this page as new updates are released, so stay tuned for the
 Please refer to the “[Surface Hub Important Information](https://support.microsoft.com/products/surface-devices/surface-hub)” page for related topics on current and past releases that may require your attention.
 
 ## Windows 10 Team 2020 Update (20H2)
+
+<details>
+<summary>November 22, 2021 — update for Team based on KB5007253* (OS Build 19042.1382)</summary>
+
+This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4581839/windows-10-update-history), include:
+
+* Fix that enforces a 32-character limit when using MDM policy to set 'Friendly Name' on a Surface Hub.
+* Fix that corrects AllowStorageCard MDM policy behavior when it is reverted back to a value of 1 (storage cards allowed) from 0.
+* Update to allow the Edge (Chromium) browser to access the same file locations accessible in File Explorer, including an attached USB drive.
+
+Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabling device features and services. *[KB5007253](https://support.microsoft.com/help/5007253)
+</details>
 
 <details>
 <summary>September 30, 2021 — KB5004196, KB5004198, and KB5004199</summary>
