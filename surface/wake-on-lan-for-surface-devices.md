@@ -13,7 +13,7 @@ ms.topic: article
 ms.reviewer: jesko
 manager: laurawi
 ms.audience: itpro
-ms.date: 7/30/2021
+ms.date: 11/30/2021
 ---
 
 # Wake On LAN for Surface devices 
