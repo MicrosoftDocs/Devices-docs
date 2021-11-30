@@ -1,5 +1,5 @@
 ---
-title: How to enable Wake on Power for Surface
+title: Wake on Power for Surface devices
 ms.author: v-todmc
 author: mccoybot
 audience: ITPro
