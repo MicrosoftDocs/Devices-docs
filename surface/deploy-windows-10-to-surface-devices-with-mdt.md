@@ -20,17 +20,17 @@ ms.date: 10/12/2020
 
 **Applies to**
 
-- Surface Studio and later
+- Surface Studio (all generations)
 - Surface Pro 4 and later
-- Surface Book and later
-- Surface Laptop and later
-- Surface Laptop Go
-- Surface Go
+- Surface Book (all generations)
+- Surface Laptop (all generations)
+- Surface Laptop Go 
+- Surface Go (all generations)
 - Surface 3
 - Windows 10
 
 > [!NOTE]
 > MDT is not supported on Surface Pro X. For more information, refer to [Deploying, managing, and servicing Surface Pro X](surface-pro-arm-app-management.md).
 
-For the latest information about using MDT, refer to [Deploy a Windows 10 image using MDT](https://docs.microsoft.com/windows/deployment/deploy-windows-mdt/deploy-a-windows-10-image-using-mdt).
+For the latest information about using MDT, refer to [Deploy a Windows 10 image using MDT](/windows/deployment/deploy-windows-mdt/deploy-a-windows-10-image-using-mdt).
 
