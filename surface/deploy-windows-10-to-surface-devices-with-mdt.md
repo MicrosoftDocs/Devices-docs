@@ -20,12 +20,12 @@ ms.date: 10/12/2020
 
 **Applies to**
 
-- Surface Studio and later
+- Surface Studio (all generations)
 - Surface Pro 4 and later
-- Surface Book and later
-- Surface Laptop and later
-- Surface Laptop Go
-- Surface Go
+- Surface Book (all generations)
+- Surface Laptop (all generations)
+- Surface Laptop Go 
+- Surface Go (all generations)
 - Surface 3
 - Windows 10
 

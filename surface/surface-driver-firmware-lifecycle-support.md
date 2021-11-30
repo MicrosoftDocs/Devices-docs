@@ -8,7 +8,7 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 04/13/2021
+ms.date: 11/30/2021
 ms.reviewer: phorton
 manager: laurawi
 audience: itpro
@@ -50,13 +50,13 @@ The following table lists the release date and End of Servicing date for each Su
 | Surface Book with Performance Base | November 10, 2016   | November 13, 2021            |
 | Surface Studio (1st gen)           | December 15, 2016   | November 13, 2021            |
 | Surface Laptop (1st gen)           | June 14, 2017    | November 13, 2021            |
-| Surface Pro (5th gen)              | June 15, 2017    | November 13, 2021            |
-| Surface Book 2                     | November 17, 2017   | November 17, 2021            |
+| Surface Pro (5th gen)              | June 15, 2017    | January 15, 2024            |
+| Surface Book 2                     | November 17, 2017   | May 30, 2024            |
 | Surface Pro LTE (Model 1807)       | December 1, 2017    | January 15, 2024             |
 | Surface Go                         | August 2, 2018     | August 2, 2022              |
 | Surface Studio 2                   | October 2, 2018    | October 2, 2024             |
-| Surface Laptop 2                   | October 16, 2018   | October 16, 2022            |
-| Surface Pro 6                      | October 16, 2018   | October 16, 2022            |
+| Surface Laptop 2                   | October 16, 2018   | December 27, 2022            |
+| Surface Pro 6                      | October 16, 2018   | June 30, 2023           |
 | Surface Go with LTE Advanced       | November 20, 2018   | November 20, 2022            |
 | Surface Laptop 3                   | October 22, 2019   | October 22, 2023            |
 | Surface Pro 7                      | October 22, 2019   | October 22, 2023            |
@@ -66,8 +66,23 @@ The following table lists the release date and End of Servicing date for each Su
 | Surface Laptop Go                  | October 13, 2020   | October 13, 2024            |
 | Surface Pro 7+	                 | January 15, 2021	| January 15, 2025 |
 | Surface Laptop 4	                 | April 15, 2021	| April 15, 2025 |
- 
+| Surface Pro 8                      | October 5, 2021   |October 5, 2025|
+| Surface Laptop Studio              | October 5, 2021   |October 5, 2025|
+| Surface Go 3                       | October 5, 2021   |October 5, 2025|
+
  **1.** *Indicates devices with a previously declared end of firmware/driver servicing support date.*
+
+## Surface Hub driver and firmware support lifecycle
+
+The following table lists the release date and End of Servicing date for each Surface Hub device and Hub accessory with a defined Driver and Firmware Lifecycle policy:
+ 
+
+| Surface Hub device     | Release Date              | End of Servicing Date   |
+| ---------------------- | ------------------------- | ---------------------------- |
+| Surface Hub 55         | June 1, 2015              | November 30, 2022 |
+| Surface Hub 84         | June 1, 2015              | November 30, 2022 |
+| Surface Hub 2S         | April 17, 2019            | April 17, 2023    |
+| Surface Hub 2S 85in    | January 11, 2021          | January 11, 2025  | 
  
 ## Learn more
 
