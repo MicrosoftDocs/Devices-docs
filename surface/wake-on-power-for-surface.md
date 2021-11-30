@@ -1,6 +1,6 @@
 ---
 title: Wake on Power for Surface devices
-ms.author: v-todmc
+ms.author: greglin
 author: mccoybot
 audience: ITPro
 search.appverid:
