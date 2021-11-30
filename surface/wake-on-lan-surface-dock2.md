@@ -35,11 +35,11 @@ Devices must have a wired connection with Surface Dock 2 and stay connected to A
 - Surface Laptop 4 (Intel processors)
 - Surface Laptop 4 (AMD processors)
 - Surface Laptop 3 (Intel processors)
+- Surface Pro 8
 - Surface Pro 7+
 - Surface Pro 7
 - Surface Pro X
-- Surface Go 2
-- Surface Go 3
+- Surface Go (all generations)
 - Surface Laptop Go
 - Surface Book 3
 - Surface Laptop Studio
