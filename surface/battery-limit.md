@@ -34,7 +34,7 @@ The Surface UEFI Battery Limit setting can be configured by booting into Surface
 
 ![Battery Limit Advanced options.](images/enable-bl.png)
 
-## Enabling battery limit on Surface Go and Surface Go 2
+## Enabling battery limit on Surface Go (all generations)
 
 The Surface Battery Limit setting can be configured by booting into Surface UEFI (**Power + Vol Up** when turning on the device). Choose **boot configuration**, and then, under **Kiosk Mode**, move the slider to the right to set Battery Limit to **Enabled**.  
 

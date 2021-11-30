@@ -20,27 +20,17 @@ ms.date: 4/16/2021
 
 **Applies to**
 
-- Surface Laptop 4
-- Surface Pro 7+
+- Surface Laptop (all generations)
+- Surface Pro 3 and later
 - Surface Laptop Go
-- Surface Pro 7
-- Surface Laptop 3
-- Surface Pro 6
-- Surface Laptop 2
-- Surface Go
-- Surface Go with LTE
-- Surface Book 2
+- Surface Go (all generations)
+- Surface Book (all generations)
+- Surface Studio (all generations)
+- Surface Laptop Studio
 - Surface Pro with LTE Advanced (Model 1807)
 - Surface Pro (Model 1796)
-- Surface Laptop
-- Surface Studio
-- Surface Studio 2
-- Surface Book
-- Surface Pro 4
 - Surface 3 LTE
 - Surface 3
-- Surface Pro 3
-
 
 The Surface app is a lightweight Microsoft Store app that provides control of many Surface-specific settings and options with quick access to device information including serial number, Surface model name, UEFI version, and related drivers.  
 
