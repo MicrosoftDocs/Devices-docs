@@ -39,8 +39,10 @@ Devices must have a wired connection with Surface Dock 2 and stay connected to A
 - Surface Pro 7
 - Surface Pro X
 - Surface Go 2
+- Surface Go 3
 - Surface Laptop Go
 - Surface Book 3
+- Surface Laptop Studio
 
 Surface Dock 2 provides WOL support for devices in the following power states:
 
