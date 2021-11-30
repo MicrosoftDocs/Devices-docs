@@ -25,7 +25,7 @@ Surface Enterprise Management Mode (SEMM) enables IT admins to secure and manage
 
 ### Supported devices
 
-Managing Surface Dock 2 with SEMM is available for docks connected to Surface Book 3, Surface Laptop 4, Surface Laptop 3, Surface Laptop Go, Surface Pro 7+, Surface Pro 7, and Surface Pro X. These compatible Surface devices are commonly referred to as **host devices**. A package is applied to host devices based on if a host device is **authenticated** or **unauthenticated**. Configured settings reside in the UEFI layer on host devices enabling you — the IT admin — to manage Surface Dock 2 just like any other built-in peripheral such as the camera.
+Managing Surface Dock 2 with SEMM is available for docks connected to Surface Book 3, Surface Laptop Studio, Surface Laptop 4, Surface Laptop 3, Surface Laptop Go, Surface Pro 8, Surface Pro 7+, Surface Pro 7, and Surface Pro X. These compatible Surface devices are commonly referred to as **host devices**. A package is applied to host devices based on if a host device is **authenticated** or **unauthenticated**. Configured settings reside in the UEFI layer on host devices enabling you — the IT admin — to manage Surface Dock 2 just like any other built-in peripheral such as the camera.
 
 >[!NOTE]
 >You can manage Surface Dock 2 ports only when the dock is connected to one of the following compatible devices:  Surface Book 3, Surface Laptop 4, Surface Laptop 3, Surface Pro 7+, and Surface Pro 7. Any device that doesn't receive the UEFI Authenticated policy settings is inherently an unauthenticated device.
@@ -128,7 +128,7 @@ When you have obtained or created the certificates, you’re ready to build the 
 
 ### Apply the configuration package to a Surface Dock 2
 
-1. Take the .msi file that the Surface UEFI Configurator generated and install it on a Surface host device. Compatible host devices are Surface Book 3, Surface Laptop 3, or Surface Pro 7.
+1. Take the .msi file that the Surface UEFI Configurator generated and install it on a Surface host device. Compatible host devices are Surface Book 3, Surface Laptop Studio, Surface Laptop 3, Surface Laptop 4, Surface Pro 7+, and Surface Pro 7.
 1. Connect the host device to the Surface Dock 2. When you connect the dock UEFI policy settings are applied.
 
 ## Verify managed state using the Surface App
