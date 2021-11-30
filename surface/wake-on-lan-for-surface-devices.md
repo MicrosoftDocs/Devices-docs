@@ -13,7 +13,7 @@ ms.topic: article
 ms.reviewer: jesko
 manager: laurawi
 ms.audience: itpro
-ms.date: 7/30/2021
+ms.date: 11/30/2021
 ---
 
 # Wake On LAN for Surface devices 
@@ -41,19 +41,18 @@ Surface devices with support for WOL:
 - Surface Pro 4
 - Surface Pro (5th Gen)
 - Surface Pro (5th Gen) with LTE Advanced
-- Surface Book
-- Surface Laptop (1st Gen)
+- Surface Book (all generations)
+- Surface Laptop (all generations)
 - Surface Pro 6
 - Surface Book 2
-- Surface Laptop 2
-- Surface Go
-- Surface Go with LTE Advanced
+- Surface Go (all generations)
 - Surface Studio 2 (see Surface Studio 2 instructions below)
 - Surface Pro 7
 - Surface Pro 7+
-- Surface Laptop 3
+- Surface Pro 8
 - Surface Laptop Go
-- Surface Laptop 4
+- Surface Laptop Studio
+
 
 ## Using WOL 
 

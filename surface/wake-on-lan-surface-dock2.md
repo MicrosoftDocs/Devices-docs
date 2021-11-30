@@ -13,7 +13,7 @@ ms.topic: article
 ms.reviewer: jesko
 manager: laurawi
 ms.audience: itpro
-ms.date: 7/30/2021
+ms.date: 11/30/2021
 ---
 
 # Wake On LAN with Surface Dock 2
@@ -35,12 +35,14 @@ Devices must have a wired connection with Surface Dock 2 and stay connected to A
 - Surface Laptop 4 (Intel processors)
 - Surface Laptop 4 (AMD processors)
 - Surface Laptop 3 (Intel processors)
+- Surface Pro 8
 - Surface Pro 7+
 - Surface Pro 7
 - Surface Pro X
-- Surface Go 2
+- Surface Go (all generations)
 - Surface Laptop Go
 - Surface Book 3
+- Surface Laptop Studio
 
 Surface Dock 2 provides WOL support for devices in the following power states:
 
