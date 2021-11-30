@@ -12,7 +12,7 @@ ms.author: greglin
 ms.topic: article
 ms.reviewer: hachidan
 manager: laurawi
-ms.date: 04/13/2021
+ms.date: 11/30/2021
 ---
 
 # Manage Surface UEFI settings
@@ -23,11 +23,12 @@ ms.date: 04/13/2021
 
 UEFI management is supported on the following:
 
-- Surface Pro 4, Surface Pro (5th Gen), Surface Pro 6, Surface Pro 7, Surface Pro 7+, Surface Pro X
+- Surface Pro 4, Surface Pro (5th Gen), Surface Pro 6, Surface Pro 7, Surface Pro 7+, Surface Pro 8, Surface Pro X
 - Surface Laptop (1st Gen), Surface Laptop 2, Surface Laptop 3, Surface Laptop Go, Surface Laptop 4
 - Surface Studio (1st Gen), Surface Studio 2
 - Surface Book, Surface Book 2, Surface Book 3
-- Surface Go, Surface Go 2[<sup>1</sup>](#references)
+- Surface Laptop Studio
+- Surface Go, Surface Go 2[<sup>1</sup>](#references), Surface Go 3
 
 ## Support for cloud-based management
 
@@ -223,7 +224,7 @@ When you update Surface device firmware, by using either Windows Update or manua
 
 ## References
 
-1. Surface Go and Surface Go 2 use a third-party UEFI and do not support DFCI.
+1. Surface Go and Surface Go 2 use a third-party UEFI and do not support DFCI. DFCI is currently available for Surface Laptop SE, Surface Laptop Studio, Surface Pro 8, Surface Go 3, Surface Laptop 4, Surface Laptop Go, Surface Book 3, Surface Laptop 3, Surface Pro 7+, Surface Pro 7, and Surface Pro X.
 
 ## Related topics
 
