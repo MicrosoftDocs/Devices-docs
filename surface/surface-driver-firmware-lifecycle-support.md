@@ -51,7 +51,7 @@ The following table lists the release date and End of Servicing date for each Su
 | Surface Studio (1st gen)           | December 15, 2016   | November 13, 2021            |
 | Surface Laptop (1st gen)           | June 14, 2017    | November 13, 2021            |
 | Surface Pro (5th gen)              | June 15, 2017    | January 15, 2024            |
-| Surface Book 2                     | November 17, 2017   | May 30, 2024            |
+| Surface Book 2                     | November 17, 2017   | May 30, 2023            |
 | Surface Pro LTE (Model 1807)       | December 1, 2017    | January 15, 2024             |
 | Surface Go                         | August 2, 2018     | August 2, 2022              |
 | Surface Studio 2                   | October 2, 2018    | October 2, 2024             |
@@ -82,7 +82,7 @@ The following table lists the release date and End of Servicing date for each Su
 | Surface Hub 55         | June 1, 2015              | November 30, 2022 |
 | Surface Hub 84         | June 1, 2015              | November 30, 2022 |
 | Surface Hub 2S         | April 17, 2019            | April 17, 2023    |
-| Surface Hub 2S 85in    | January 11, 2021          | January 11, 2025  | 
+| Surface Hub 2S 85"     | January 11, 2021          | January 11, 2025  | 
  
 ## Learn more
 
