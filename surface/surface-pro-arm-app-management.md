@@ -8,7 +8,7 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 1/15/2021
+ms.date: 12/01/2021
 ms.reviewer: jessko
 manager: laurawi
 ms.audience: itpro
@@ -36,7 +36,7 @@ Organizations already using modern management, security, and productivity soluti
 
 ## Image-based deployment considerations
 
-Microsoft Deployment Toolkit (MDT) and Microsoft Endpoint Configuration Manager (formerly System Center Configuration Manager) currently do not support Surface Pro X for operating system deployment. Customers relying on image-based deployment should consider Surface Pro 7+ while they continue to evaluate the right time to transition to modern deployment solutions. 
+Microsoft Deployment Toolkit (MDT) and Microsoft Endpoint Configuration Manager (formerly System Center Configuration Manager) currently do not support Surface Pro X for operating system deployment. Customers relying on image-based deployment should consider Surface Pro 8 while they continue to evaluate the right time to transition to modern deployment solutions. 
 
 ## Managing Surface Pro X devices
 
@@ -174,7 +174,7 @@ The following tables show the availability of selected key features on Surface P
 
 ### Can I deploy Surface Pro X with MDT or Endpoint Configuration Manager?
 
-The Microsoft Deployment Toolkit (MDT) and Microsoft Endpoint Configuration Manager  currently do not support Surface Pro X for operating system deployment. Customers relying on image-based deployment should consider Surface Pro 7+ while they continue to evaluate the right time to transition to the cloud.
+The Microsoft Deployment Toolkit (MDT) and Microsoft Endpoint Configuration Manager  currently do not support Surface Pro X for operating system deployment. Customers relying on image-based deployment should consider Surface Pro 8 while they continue to evaluate the right time to transition to the cloud.
 
 ### How can I deploy Surface Pro X?
 
