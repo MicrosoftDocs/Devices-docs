@@ -152,7 +152,7 @@ You can also turn on and off IPv6 support for PXE with the **Enable IPv6 for PXE
 
 ## UEFI menu: Management
 
-The Management page allows you to manage use of Zero Touch UEFI Management and other features on eligible devices including Surface Pro 7, Surface Pro X, and Surface Laptop 3.  
+The Management page allows you to manage use of Zero Touch UEFI Management and other features on eligible devices including Surface Pro 8, Surface Go 3, Surface Laptop Studio, Surface Pro 7+, Surface Pro 7, Surface Pro X, Surface Laptop 4, Surface Laptop 3, and Surface Book 3. 
 
 :::image type="content" alt-text="Manage access to Zero Touch UEFI Management and other features." source="images/manage-surface-uefi-fig7a.png":::
 
