@@ -24,24 +24,16 @@ landingContent:
 # Start card title with a verb
 
   # Card
-  - title: Get ready for Surface Hub 2S
+  - title: What's new
     linkLists:
-      - linkListType: whats-new
+      - linkListType: learn
         links:
-          - text: Surface Hub Windows 10 Team 2020 Update - February status
-            url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/surface-hub-windows-10-team-2020-update-february-status/ba-p/2118369
-          - text: Surface Hub Windows 10 Team 2020 Update – Hub v1 status
-            url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/surface-hub-windows-10-team-2020-update-hub-v1-status/ba-p/2118371
-          - text: Install and mount Surface Hub 2S 85" (readiness guide)
-            url: surface-hub-2s-85-install-mount.md     
+          - text: Microsoft Teams Rooms on Surface Hub                               
+            url: /surface-hub/hub-teams-app
           - text: What's new in Windows 10 Team 2020 Update
             url: surface-hub-2020-update-whats-new.md
-          - text: Surface Hub 2S bridges digital and physical divide in today’s hybrid workspaces
-            url: https://blogs.windows.com/devices/2020/09/22/surface-hub-2s-bridges-digital-and-physical-divide-in-todays-hybrid-workspaces/
-          - text: Surface Hub 2S 85-inch overview & tech specs
-            url: surface-hub-2s-85.md
-          - text: Announcing the availability of Windows 10 Pro and Enterprise on Surface Hub 2
-            url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/announcing-the-availability-of-windows-10-pro-and-enterprise-on/ba-p/1624107            
+          - text: Modern authentication on Surface Hub                
+            url: surface-hub-modern-auth.md
           - text: Migrate to Windows 10 Pro or Enterprise on Surface Hub 2
             url: surface-hub-2s-migrate-os.md
 
