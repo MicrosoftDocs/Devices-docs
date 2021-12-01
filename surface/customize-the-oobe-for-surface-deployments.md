@@ -43,7 +43,7 @@ To ensure that an automated deployment is not stopped by this page, the page mus
 
 ## Scenario 2: Surface Pen pairing in OOBE
 
-When you first take a Surface Pro 3, Surface Pro 4, Surface Book, or Surface Studio out of the package and start it up, the first-run experience of the factory image includes a prompt that asks you to pair the included Surface Pen to the device. This prompt is only provided by the factory image that ships with the device and is not included in other images used for deployment, such as the Windows Enterprise installation media downloaded from the Volume Licensing Service Center. Because pairing the Bluetooth Surface Pen outside of this experience requires that you enter the Control Panel or PC Settings and manually pair a Bluetooth device, you may want to have users or a technician use this prompt to perform the pairing operation.
+When you first take a Surface device and start it up, the first-run experience of the factory image includes a prompt that asks you to pair the included Surface Pen to the device. This prompt is only provided by the factory image that ships with the device and is not included in other images used for deployment, such as the Windows Enterprise installation media downloaded from the Volume Licensing Service Center. Because pairing the Bluetooth Surface Pen outside of this experience requires that you enter the Control Panel or PC Settings and manually pair a Bluetooth device, you may want to have users or a technician use this prompt to perform the pairing operation.
 
 To provide the factory Surface Pen pairing experience in OOBE, you must copy four files from the factory Surface image into the reference image. You can copy these files into the reference environment before you capture the reference image, or you can add them later by using Deployment Image Servicing and Management (DISM) to mount the image. The four required files are:
 
@@ -52,7 +52,7 @@ To provide the factory Surface Pen pairing experience in OOBE, you must copy fou
 - %windir%\\system32\\oobe\\info\\default\\1033\\PenError\_en-US.png
 - %windir%\\system32\\oobe\\info\\default\\1033\\PenSuccess\_en-US.png
 
->[!NOTE]
->You should copy the files from a factory image for the same model Surface device that you intend to deploy to. For example, you should use the files from a Surface Pro 7 to deploy to Surface Pro 7, and the files from Surface Book 2 to deploy Surface Book 2, but you should not use the files from a Surface Pro 7 to deploy Surface Book or Surface Pro 6.
+>[!TIP]
+>You should copy the files from a factory image for the same model Surface device that you intend to deploy to. For example, you should use the files from a Surface Pro 8 to deploy to Surface Pro 8, and the files from Surface Book 3 to deploy Surface Book 3, but you should not use the files from a Surface Pro 8 to deploy Surface Book 3 or Surface Pro 7.
 
 The step-by-step process for adding these required files to an image is described in [Deploying Surface Pro 3 Pen and OneNote Tips](https://blogs.technet.microsoft.com/askcore/2014/07/15/deploying-surface-pro-3-pen-and-onenote-tips/). This blog post also includes tips to ensure that the necessary updates for the Surface Pen Quick Note-Taking Experience are installed, which allows users to send notes to OneNote with a single click.
