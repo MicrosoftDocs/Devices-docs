@@ -131,17 +131,17 @@ To enroll a Surface device in SEMM with a Surface UEFI configuration package, fo
 
 You can verify that a Surface device has been successfully enrolled in SEMM by looking for **Microsoft Surface Configuration Package** in **Programs and Features** (as shown in Figure 9), or in the events stored in the **Microsoft Surface UEFI Configurator** log, found under **Applications and Services Logs** in Event Viewer (as shown in Figure 10).
 
-![Verify enrollment of Surface device in SEMM in Programs and Features.](images/surface-semm-enroll-fig9.png "Verify enrollment of Surface device in SEMM in Programs and Features")
+:::image type="content" alt-text="Verify enrollment of Surface device in SEMM in Programs and Features." source="images/surface-semm-enroll-fig9.png":::
 
 *Figure 9. Verify the enrollment of a Surface device in SEMM in Programs and Features*
 
-![Verify enrollment of Surface device in SEMM in Event Viewer.](images/surface-semm-enroll-fig10.png "Verify enrollment of Surface device in SEMM in Event Viewer")
+:::image type="content" alt-text="Verify enrollment of Surface device in SEMM in Event Viewer." source="images/surface-semm-enroll-fig10.png":::
 
 *Figure 10. Verify the enrollment of a Surface device in SEMM in Event Viewer*
 
 You can also verify that the device is enrolled in SEMM in Surface UEFI – while the device is enrolled, Surface UEFI will contain the **Enterprise management** page (as shown in Figure 11).
 
-![Surface UEFI Enterprise management page.](images/surface-semm-enroll-fig11.png "Surface UEFI Enterprise management page")
+:::image type="content" alt-text="Surface UEFI Enterprise management page." source="images/surface-semm-enroll-fig11.png":::
 
 *Figure 11. The Surface UEFI Enterprise management page*
 
@@ -156,6 +156,6 @@ If you have secured Surface UEFI with a password, users without the password who
 
 If you have not secured Surface UEFI with a password or a user enters the password correctly, settings that are configured with SEMM will be dimmed (unavailable) and the text Some settings are managed by your organization will be displayed at the top of the page, as shown in Figure 12.
 
-![Settings managed by SEMM disabled in Surface UEFI.](images/surface-semm-enroll-fig12.png "Settings managed by SEMM disabled in Surface UEFI")
+:::image type="content" alt-text="Settings managed by SEMM disabled in Surface UEFI." source="images/surface-semm-enroll-fig12.png":::
 
 *Figure 12. Settings managed by SEMM will be disabled in Surface UEFI*

@@ -84,21 +84,27 @@ A DFCI environment requires setting up a DFCI profile that contains  the setting
 Before configuring DFCI policy settings, first create a DFCI profile and assign it to the Azure AD security group that contains your target devices.
 
 1. Sign into your tenant at  devicemanagement.microsoft.com.
+
 2. In the Microsoft Endpoint Manager Admin Center, select **Devices > Configuration profiles > Create profile** and enter a name; for example, **DFCI Configuration Policy.**
+
 3. Select **Windows 10 and later** for platform type.
+
 4. In the Profile type drop down list, select **Device Firmware Configuration Interface** to open the DFCI blade containing all available policy settings. For information on DFCI settings, refer to Table 1 on this page or the [Intune documentation](/intune/configuration/device-firmware-configuration-interface-windows). You can configure DFCI settings during the initial setup process or later by editing the DFCI profile.
 
-    ![Create DFCI profile.](images/df1.png)
+   :::image type="content" alt-text="Create DFCI profile." source="images/df1.png":::
 
 5. Click **OK** and then select **Create**.
+
 6. Select **Assignments** and under **Select groups to include** select the Azure AD security group that contains your target devices, as shown in the following figure. Click **Save**.
 
-    ![Assign security group.](images/df2a.png)
+   :::image type="content" alt-text="Assign security group." source="images/df2a.png":::
 
 ## Create Autopilot profile
 
 1. In Endpoint Manager at  devicemanagement.microsoft.com, select **devices > Windows enrollment** and scroll down to **Deployment profiles**.
+
 2. Select **Create profile** and enter a name; for example, **My Autopilot profile**, and select **Next**.
+
 3. Select the following settings:
 
     - Deployment mode: **User-Driven**.
@@ -109,6 +115,7 @@ Before configuring DFCI policy settings, first create a DFCI profile and assign 
    :::image type="content" alt-text="Create Autopilot profile." source="images/df3b.png" lightbox="images/df3b.png":::
 
 5. On the Assignments page, choose **Select groups to include** and click your Azure AD security group. Select **Next**.
+
 6. Accept the summary and then select **Create**. The Autopilot profile is now created and assigned to the group.
 
 ## Configure Enrollment Status Page
@@ -171,14 +178,15 @@ Although Intune policy settings typically get applied almost immediately, there 
 In a test environment, you can verify settings in the Surface UEFI interface.
 
 1. Open Surface UEFI, which involves pressing the **Volume +** and **Power** buttons at the same time.
+
 2. Select **Devices**. The UEFI menu will reflect configured settings, as shown in the following figure.
 
-    ![Surface UEFI.](images/df3.png)
+   :::image type="content" alt-text="Surface UEFI." source="images/df3.png":::
 
-    Note how:
+   Note how:
 
-      - The settings are greyed out because **Allow local user to change UEFI setting** is set to None.
-      - Audio is set to off because **Microphones and speakers** are set to **Disabled**.
+   - The settings are greyed out because **Allow local user to change UEFI setting** is set to None.
+   - Audio is set to off because **Microphones and speakers** are set to **Disabled**.
 
 ## Removing DFCI policy settings
 
