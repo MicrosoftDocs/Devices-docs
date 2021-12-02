@@ -40,7 +40,7 @@ You can register Surface devices at the time of purchase from a Surface partner 
 
 ## Modern management
 
-Autopilot is the recommended deployment option for Surface devices, including Surface Pro 7+, Surface Laptop 3, Surface Pro 7, and Surface Pro X, which is specifically designed for deployment through Autopilot.
+Autopilot is the recommended deployment option for Surface devices, including Surface Pro 8, Surface Laptop Studio, Surface Go 3, Surface Pro 7+, Surface Laptop 4, and Surface Pro X, which is specifically designed for deployment through Autopilot.
 
  It's best to enroll your Surface devices with the help of a Microsoft Cloud Solution Provider. This step allows you to manage UEFI firmware settings on Surface directly from Intune. It eliminates the need to physically touch devices for certificate management. See [Intune management of Surface UEFI settings](surface-manage-dfci-guide.md) for details.
 
@@ -48,7 +48,7 @@ Autopilot is the recommended deployment option for Surface devices, including Su
 
 Broad deployment of Surface devices through Windows Autopilot, including enrollment by Surface partners at the time of purchase, requires Windows 10 Version 1709 (Fall Creators Update) or later.
 
-These Windows versions support a 4,000-byte (4k) hash value that uniquely identifies devices for Windows Autopilot, which is necessary for deployments at scale. All new Surface devices, including Surface Pro 7+, Surface Pro X, and Surface Laptop 3 ship with Windows 10 Version 1903 or later.
+These Windows versions support a 4,000-byte (4k) hash value that uniquely identifies devices for Windows Autopilot, which is necessary for deployments at scale.
 
 ## Exchange experience on Surface devices in need of repair or replacement
 
