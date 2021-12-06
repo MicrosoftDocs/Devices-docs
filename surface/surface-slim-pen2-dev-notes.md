@@ -21,7 +21,7 @@ This page provides implementation notes for app developers who want to extend Wi
 - **Haptic feedback** that simulates the feel of pens, pencils, and other writing or drawing tools.
 - **Interaction feedback** that responds to user actions such as hovering over a button, clicking a button, or completing a task with the pen.
 
-If you're customizing an app for Surface Slim Pen 2, refer to the following Windows Ink guidelines [Pen interactions and haptic feedback](/windows/apps/design/input/pen-haptics) in conjunction with the notes listed below.
+If you're customizing an app for Surface Slim Pen 2, refer to the Windows Ink guidelines described in [Pen interactions and haptic feedback](/windows/apps/design/input/pen-haptics) and then consult the notes below.
 
 ## Implementation notes
 
