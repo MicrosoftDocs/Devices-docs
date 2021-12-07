@@ -170,6 +170,10 @@
           href: surface-pro-arm-app-management.md
         - name: Surface Pro X app compatibility
           href: surface-pro-arm-app-performance.md
+      - name: Accessories
+        items:
+        - name: Surface Slim Pen 2 haptics dev notes
+          href: surface-slim-pen2-haptics-dev-notes.md
     - name: Troubleshoot
       items: 
         - name: Top support solutions for Surface devices
