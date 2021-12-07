@@ -173,7 +173,7 @@
       - name: Accessories
         items:
         - name: Surface Slim Pen 2 developer notes
-          href: surface-slim-pen2-dev-notes.md
+          href: surface-slim-pen2-haptics-dev-notes.md
     - name: Troubleshoot
       items: 
         - name: Top support solutions for Surface devices
