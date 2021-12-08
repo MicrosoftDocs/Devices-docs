@@ -19,7 +19,7 @@ ms.localizationpriority: medium
 ms.topic: article
 manager: laurawi
 ms.audience: itpro
-ms.date: 11/30/2021
+ms.date: 12/08/2021
 
 ---
 
@@ -29,15 +29,16 @@ Surface devices can be powered off while you're away from your desk, or set to h
 
 The Wake on Power feature is available on the following devices:
 
-- Surface Pro 8
-- Surface Pro 7+
-- Surface Book 3
-- Surface Pro 7
-- Surface Laptop 3
-- Surface Laptop Go
-- Surface Pro X 
-- Surface Go 3
-- Surface Laptop Studio
+- Surface Pro 8 (commercial SKUs only)
+- Surface Pro 7+ (all SKUs)
+- Surface Pro X (all SKUs)
+- Surface Pro 7 (all SKUs)
+- Surface Laptop Studio (commercial SKUs only)
+- Surface Book 3 (all SKUs)
+- Surface Laptop 4 (commercial SKUs only)
+- Surface Laptop 3 (all SKUs)
+- Surface Laptop Go (commercial SKUs only)
+- Surface Go 3 (commercial SKUs only)
 
 ## Overview and prerequisites
 
