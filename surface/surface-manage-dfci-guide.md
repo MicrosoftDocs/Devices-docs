@@ -12,17 +12,6 @@ ms.date: 10/01/2021
 ms.reviewer: jesko
 manager: laurawi
 ms.audience: itpro
-appliesto:
-- Surface Laptop Studio
-- Surface Pro 8
-- Surface Go 3
-- Surface Pro 7+
-- Surface Pro 7
-- Surface Pro X
-- Surface Laptop 3
-- Surface Book 3
-- Surface Laptop Go
-- Surface Laptop 4
 ---
 # Manage DFCI on Surface devices
 
@@ -51,16 +40,17 @@ Crucially, DFCI enables zero touch management, eliminating the need for manual i
 DFCI is supported in the following devices:
 
 - Surface Laptop SE
-- Surface Laptop Studio
-- Surface Pro 8
-- Surface Go 3
-- Surface Pro 7+
-- Surface Pro 7
-- Surface Pro X
-- Surface Laptop 3
+- Surface Laptop Studio (commercial SKUs only)
+- Surface Pro 8 (commercial SKUs only)
+- Surface Go 3 (commercial SKUs only)
+- Surface Pro 7+ (all SKUs)
+- Surface Pro 7 (all SKUs)
+- Surface Pro X (all SKUs)
+- Surface Laptop 4 (commercial SKUs only; Intel or AMD processors)
+- Surface Laptop 3 (commercial SKUs only; Intel processors)
+- Surface Laptop 3 
 - Surface Book 3
 - Surface Laptop Go
-- Surface Laptop 4
 
 > [!NOTE]
 > Surface Pro X does not support DFCI settings management for built-in camera, audio, and Wi-Fi/Bluetooth.
