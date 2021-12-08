@@ -43,12 +43,11 @@ DFCI is supported in the following devices:
 - Surface Laptop Studio (commercial SKUs only)
 - Surface Pro 8 (commercial SKUs only)
 - Surface Go 3 (commercial SKUs only)
-- Surface Pro 7+ (all SKUs)
+- Surface Pro 7+ (commercial SKUs only)
 - Surface Pro 7 (all SKUs)
 - Surface Pro X (all SKUs)
 - Surface Laptop 4 (commercial SKUs only; Intel or AMD processors)
-- Surface Laptop 3 (commercial SKUs only; Intel processors)
-- Surface Laptop 3 
+- Surface Laptop 3 (Intel processors only)
 - Surface Book 3
 - Surface Laptop Go
 
