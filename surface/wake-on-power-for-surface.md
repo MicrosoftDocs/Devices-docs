@@ -33,6 +33,7 @@ The Wake on Power feature is available on the following devices:
 - Surface Pro 7+ (all SKUs)
 - Surface Pro X (all SKUs)
 - Surface Pro 7 (all SKUs)
+- Surface Laptop SE (all SKUs)
 - Surface Laptop Studio (commercial SKUs only)
 - Surface Book 3 (all SKUs)
 - Surface Laptop 4 (commercial SKUs only)

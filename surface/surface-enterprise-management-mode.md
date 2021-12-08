@@ -32,7 +32,7 @@ SEMM is only available on devices with Surface UEFI firmware including:
 - Surface Pro 8 (commercial SKUs only)
 - Surface Pro 4 and later (all SKUs)
 - Surface Pro X (all SKUs)
-- Surface Laptop SE
+- Surface Laptop SE (all SKUs)
 - Surface Laptop Studio (commercial SKUs only) 
 - Surface Hub 2S
 - Surface Laptop 4 (commercial SKUs only; Intel or AMD processors)
