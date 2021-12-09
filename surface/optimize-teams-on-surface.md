@@ -29,7 +29,7 @@ Microsoft regularly releases updates for Surface devices and has released severa
 
 ## Get updates to all devices
 
-Ensure your organization has a process for your devices to receive these updates. If you are using Windows Update or [Windows Update for Business](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-wufb), you are already receiving the latest Surface updates when they are released. Check for updates using Windows Update and verify the newest Surface updates have been installed. To learn more, see:
+Ensure your organization has a process for your devices to receive these updates. If you are using Windows Update or [Windows Update for Business](/windows/deployment/update/waas-manage-updates-wufb), you are already receiving the latest Surface updates when they are released. Check for updates using Windows Update and verify the newest Surface updates have been installed. To learn more, see:
 
 - [Surface update history](https://www.microsoft.com/surface/support/install-update-activate/surface-update-history)
 - [Install Surface and Windows updates](https://www.microsoft.com/surface/support/performance-and-maintenance/install-software-updates-for-surface?)
