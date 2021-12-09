@@ -37,7 +37,7 @@ SEMM is only available on devices with Surface UEFI firmware including:
 - Surface Hub 2S
 - Surface Laptop 4 (commercial SKUs only; Intel or AMD processors)
 - Surface Laptop 3 (Intel processors only)
-- Surface Laptop Go (commercial SKUs only)
+- Surface Laptop Go 
 - Surface Book (all generations)
 - Surface Go, Surface Go 2
 - Surface Go 3 (commercial SKUs only)
