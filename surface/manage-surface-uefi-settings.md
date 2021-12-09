@@ -12,7 +12,7 @@ ms.author: greglin
 ms.topic: article
 ms.reviewer: hachidan
 manager: laurawi
-ms.date:12/09/2021
+ms.date: 12/09/2021
 ---
 
 # Manage Surface UEFI settings
