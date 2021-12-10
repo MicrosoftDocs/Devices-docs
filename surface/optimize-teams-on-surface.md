@@ -27,7 +27,7 @@ Microsoft regularly releases updates for Surface devices and has released severa
 - Graphics driver updates
 - Power settings optimizations
 
-## Get updates to all devices
+### Get updates to all devices
 
 Ensure your organization has a process for your devices to receive these updates. If you are using Windows Update or [Windows Update for Business](/windows/deployment/update/waas-manage-updates-wufb), you are already receiving the latest Surface updates when they are released. Check for updates using Windows Update and verify the newest Surface updates have been installed. To learn more, see:
 
@@ -40,14 +40,14 @@ If you are using other options to install Surface drivers and firmware updates, 
 - [Manage and deploy Surface driver and firmware updates](manage-surface-driver-and-firmware-updates.md)
 - [How to manage Surface driver updates in Configuration Manager](https://support.microsoft.com/help/4098906)
 
-## Graphics driver updates for Microsoft Teams
+### Graphics driver updates for Microsoft Teams
 
 Newer Surface device models with 10th and 11th generation Intel processors have received graphics driver updates that help with video conferencing workloads. To enable these improvements, make sure you install the following:
 
 - Microsoft Teams version **1.4.00.22472** or later.
 - Intel graphics driver **27.20.100.9621** or later.
 
-## Power settings optimizations
+### Power settings optimizations
 
 Surface devices can adjust performance-related power settings by changing the Windows performance power slider position in Windows 10, also known as power mode in Windows 11.
 
