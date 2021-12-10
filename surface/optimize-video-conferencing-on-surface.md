@@ -51,7 +51,7 @@ Newer Surface device models with 10th and 11th generation Intel processors have 
 
 Surface devices can adjust performance-related power settings by changing the Windows performance power slider position in Windows 10, also known as power mode in Windows 11.
 
-Some Surface devices have received updates that include power setting optimizations for video conferencing workloads based on the power slider position or power mode. However, because Windows 10 and Windows 11 use the **Recommended** power slider position for video conferencing workloads, you will need to adjust the power slider to enable these optimizations:
+Some Surface devices have received updates that include power setting optimizations for video conferencing workloads based on the power slider position or power mode. However, because Windows 10 and Windows 11 use the **Recommended** power slider position and power mode position for video conferencing workloads, you will need to adjust the power slider to enable these optimizations:
 
 1. Connect to AC power (optimizations won’t run when using battery power).  
 2. Adjust the Power slider to use **Better Performance** or **Best Performance.**
