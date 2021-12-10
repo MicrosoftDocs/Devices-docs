@@ -1,6 +1,6 @@
 ---
-title: Optimize Microsoft Teams on Surface devices
-description: This page provides best practices for using Teams and other video conferencing solutions on Surface devices
+title: Optimize video conferencing on Surface devices
+description: This page provides best practices for using Microsoft Teams and other video conferencing solutions on Surface devices
 ms.prod: w11
 ms.mktglfcycl: manage
 ms.localizationpriority: medium
@@ -14,7 +14,7 @@ manager: laurawi
 audience: itpro
 ---
 
-# Optimize Microsoft Teams on Surface devices
+# Optimize video conferencing on Surface devices
 
 Surface devices take advantage of the latest advances in mobile device energy consumption to deliver a streamlined experience optimized across workloads. For most workloads, this provides a great experience. For some workloads using Microsoft Teams or other video conferencing applications, you should follow these recommendations to ensure the best experience.
 
