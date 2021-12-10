@@ -153,8 +153,10 @@
         - name: Wake on Power for Surface devices
           href: wake-on-power-for-surface.md  
       - name: Best practices
-        items:     
-        - name: Optimize Wi-Fi connectivity for Surface devices
+        items:  
+        - name: Optimize video conferencing on Surface devices
+          href: optimize-video-conferencing-on-surface.md   
+        - name: Optimize Wi-Fi connectivity on Surface devices
           href: surface-wireless-connect.md
         - name: Best practice power settings for Surface devices
           href: maintain-optimal-power-settings-on-Surface-devices.md  
