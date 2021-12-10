@@ -39,8 +39,10 @@ landingContent:
     linkLists:
       - linkListType: get-started
         links:
-         - text: Discover new ways of using Surface Duo (YouTube)
-           url: https://www.youtube.com/playlist?list=PLNA-j_cL4mUTCt7P_IZrMZL5Manoz4QrX       
+         - text: Microsoft Surface Duo 2 | Getting started
+           url: https://youtu.be/OtmSDrWcMEk
+         - text: Microsoft Surface Duo 2 | Getting familiar 
+           url: https://youtu.be/s5x9pwG5Rog  
          - text: Find a commercial reseller for Surface Duo
            url: https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface
          - text: Add Managed Google Play apps

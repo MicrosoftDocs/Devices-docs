@@ -70,12 +70,13 @@ HVCI uses VBS to significantly strengthen code integrity policy enforcement. Ker
 
 Both VBS and HVCI are enabled out of the box in the following Surface devices:
 
-- Surface Laptop 4
 - Surface Pro 8
-- Surface Pro 7+
 - Surface Laptop Studio
+- Surface Go 3
+- Surface Laptop 4
+- Surface Pro 7+
 - Surface Book 3,
-- Surface Laptop Go,
+- Surface Laptop Go
 - Surface Pro X
 
 ## Secure boot and boot guard
