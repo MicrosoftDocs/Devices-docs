@@ -53,7 +53,7 @@ Surface devices can adjust performance-related power settings by changing the Wi
 
 Some Surface devices have received updates that include power setting optimizations for video conferencing workloads based on the power slider position or power mode. However, because Windows 10 and Windows 11 use the **Recommended** power slider position for video conferencing workloads, you will need to adjust the power slider to enable these optimizations:
 
-1. First, connect to AC power (optimizations won’t run when using battery power).  
+1. Connect to AC power (optimizations won’t run when using battery power).  
 2. Adjust the Power slider to use **Better Performance** or **Best Performance.**
 
 ## Learn more
