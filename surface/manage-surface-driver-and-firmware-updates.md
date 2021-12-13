@@ -26,17 +26,13 @@ How you manage Surface driver and firmware updates varies depending on your envi
 
 While enterprise-grade software distribution solutions continue to evolve, the business rationale for centrally managing  updates remains the same: Maintain the security of Surface devices and keep them updated with the latest operating system and feature improvements. This is essential for sustaining a stable production environment and making sure that users aren't blocked from being productive. This article provides an overview of recommended tools and processes for larger organizations to accomplish these goals.
 
-## Central update management in commercial environments
-
-Microsoft has streamlined tools for managing devices – including driver and firmware updates -- into a single unified experience that is named [Microsoft Endpoint Manager admin center](https://devicemanagement.microsoft.com/) and is accessed from [devicemanagement.microsoft.com](https://devicemanagement.microsoft.com/#home).
-
 ## Downloadable Surface update packages
 
-Specific versions of Windows 10 have separate .msi files, each containing all the required cumulative driver and firmware updates for Surface devices. Update packages may include some or all the following components:
+Specific versions of Windows 10 have separate Windows Installer .msi files containing all the required cumulative driver and firmware updates for Surface devices. Update packages may include some or all the following components:
 
 - Wi-Fi and LTE
 - Video
-- Solid state drive
+- Solid-state drive
 - System aggregator module (SAM)
 - Battery
 - Keyboard controller
@@ -48,7 +44,7 @@ Specific versions of Windows 10 have separate .msi files, each containing all th
 
 This section provides direct links to downloadable packages containing driver and firmware updates. 
 
-### Surface Pro
+### Surface Pro driver and firmware updates
 
 - [Surface Pro 8](https://www.microsoft.com/en-us/download/details.aspx?id=103503)
 - [Surface Pro 7+ and Surface Pro 7+ (LTE)](https://www.microsoft.com/en-us/download/details.aspx?id=102633)
@@ -61,7 +57,7 @@ This section provides direct links to downloadable packages containing driver an
 - [Surface Pro 2](https://www.microsoft.com/download/details.aspx?id=49042)
 - [Surface Pro](https://www.microsoft.com/download/details.aspx?id=49038)
 
-### Surface Laptop
+### Surface Laptop driver and firmware updates
 
 - [Surface Laptop Go](https://www.microsoft.com/download/details.aspx?id=102261)
 - [Surface Laptop 4 with Intel Processor](https://www.microsoft.com/download/details.aspx?id=102924)
@@ -71,29 +67,29 @@ This section provides direct links to downloadable packages containing driver an
 - [Surface Laptop 2](https://www.microsoft.com/download/details.aspx?id=57515)
 - [Surface Laptop](https://www.microsoft.com/en-us/download/details.aspx?id=55489)
 
-### Surface Laptop Studio
+### Surface Laptop Studio driver and firmware updates
 
 - [Surface Laptop Studio](https://www.microsoft.com/en-us/download/details.aspx?id=103505)
 
-### Surface Book
+### Surface Book driver and firmware updates
 
 - [Surface Book 3](https://www.microsoft.com/download/details.aspx?id=101315)
 - [Surface Book 2](https://www.microsoft.com/download/details.aspx?id=56261)
 - [Surface Book](https://www.microsoft.com/download/details.aspx?id=49497)
 
-### Surface Go
+### Surface Go driver and firmware updates
 
 - [Surface Go 3](https://www.microsoft.com/en-us/download/details.aspx?id=103504)
 - [Surface Go 2](https://www.microsoft.com/download/details.aspx?id=101304)
 - [Surface Go (Wi-Fi)](https://www.microsoft.com/download/details.aspx?id=57439)
 - [Surface Go (LTE)](https://www.microsoft.com/download/details.aspx?id=57601)
 
-### Surface Studio
+### Surface Studio driver and firmware updates
 
 - [Surface Studio 2](https://www.microsoft.com/download/details.aspx?id=57593)
 - [Surface Studio](https://www.microsoft.com/download/details.aspx?id=54311)
 
-### Surface 3
+### Surface 3 driver and firmware updates
 
 - [Surface 3 (Wi-Fi)](https://www.microsoft.com/download/details.aspx?id=49040)
 - [Surface 3 (LTE) - ATT](https://www.microsoft.com/download/details.aspx?id=49039)
@@ -101,7 +97,7 @@ This section provides direct links to downloadable packages containing driver an
 - [Surface 3 (LTE) - North America Carrier Unlocked](https://www.microsoft.com/download/details.aspx?id=49037)
 - [Surface 3 (LTE) - Outside of North America and Y!mobile in Japan](https://www.microsoft.com/download/details.aspx?id=49041)
 
-### Surface Hub
+### Surface Hub driver and firmware updates
 
 If you have migrated Surface Hub to run Windows 10 Pro or Windows 10 Enterprise, see the following download:
 
@@ -110,7 +106,11 @@ If you have migrated Surface Hub to run Windows 10 Pro or Windows 10 Enterprise,
 > [!TIP]
 > For earlier devices that include separate files for different Windows versions, select the .msi file name that matches the Surface model and version of Windows. The .msi file name includes the minimum supported Windows build number that's required to install the drivers and firmware. For example, to update a Surface Book 2 that has build 18362 of Windows 10, choose **SurfaceBook2_Win10_18362_19.101.13994.msi.** For a Surface Book 2 that has build 16299 of Windows 10, choose **SurfaceBook2_Win10_16299_1803509_3.msi**.
 
-## Manage updates with Configuration Manager and Intune
+## Central update management in commercial environments
+
+Microsoft has streamlined tools for managing devices — including driver and firmware updates — into a single unified experience named [Microsoft Endpoint Manager admin center](https://devicemanagement.microsoft.com/). To access, go to: [devicemanagement.microsoft.com](https://devicemanagement.microsoft.com/#home).
+
+### Manage updates with Configuration Manager and Intune
 
 Microsoft Endpoint Configuration Manager allows you to synchronize and deploy Surface firmware and driver updates with the Configuration Manager client. Integration with Microsoft Intune lets you see all your managed, co-managed, and partner-managed devices in one place. This is the recommended solution for large organizations to manage Surface updates.
 
@@ -122,7 +122,7 @@ For detailed steps, see the following resources:
 
 ### Manage updates with Microsoft Deployment Toolkit
 
-The Microsoft Deployment Toolkit (MDT) is included in Endpoint Configuration Manager. It contains optional deployment tools that you may want to use, depending on your environment. These include the Windows Assessment and Deployment Kit (Windows ADK), Windows System Image Manager (Windows SIM), Deployment Image Servicing and Management (DISM), and User State Migration Tool (USMT). You can download the latest version of MDT from the [Microsoft Deployment Toolkit download page](https://www.microsoft.com/download/details.aspx?id=54259).
+The Microsoft Deployment Toolkit (MDT) is included in Endpoint Configuration Manager. Depending on your environment, it contains optional deployment tools that you may want to use.  These include the Windows Assessment and Deployment Kit (Windows ADK), Windows System Image Manager (Windows SIM), Deployment Image Servicing and Management (DISM), and User State Migration Tool (USMT). You can download the latest version of MDT from the [Microsoft Deployment Toolkit download page](https://www.microsoft.com/download/details.aspx?id=54259).
 
 For detailed steps, see the following resources:
 
@@ -130,13 +130,11 @@ For detailed steps, see the following resources:
 - [Deploy Windows 10 with the Microsoft Deployment Toolkit](/windows/deployment/deploy-windows-mdt/deploy-windows-10-with-the-microsoft-deployment-toolkit)
 - [Deploy Windows 10 to Surface devices with Microsoft Deployment Toolkit](deploy-windows-10-to-surface-devices-with-mdt.md)
 
-Surface driver and firmware updates are packaged as Windows Installer (*.msi) files. To deploy these Windows Installer packages, you can use Endpoint Configuration Manager or MDT. For information about how to select the correct .msi file for a device and operating system, refer to the guidance in the following sections about downloading .msi files.
-
 For instructions about how to deploy updates by using Endpoint Configuration Manager, see [Deploy applications with Configuration Manager](/configmgr/apps/deploy-use/deploy-applications). For instructions about how to deploy updates by using MDT, see [Deploy a Windows 10 image using MDT](/windows/deployment/deploy-windows-mdt/deploy-a-windows-10-image-using-mdt).
 
 **WindowsPE and Surface firmware and drivers**
 
-Endpoint Configuration Manager and MDT both use the Windows Preinstallation Environment (WindowsPE) during the deployment process. WindowsPE supports only a limited set of basic drivers such as those for network adapters and storage controllers. Drivers for Windows components that are not part of WindowsPE might produce errors. As a best practice, you can prevent such errors by configuring the deployment process to use only the required drivers during the WindowsPE phase.
+Endpoint Configuration Manager and MDT both use the Windows Preinstallation Environment (WindowsPE) during the deployment process. WindowsPE supports only a limited set of basic drivers such as network adapters and storage controllers. Drivers for Windows components that are not part of WindowsPE might produce errors. As a best practice, you can prevent such errors by configuring the deployment process to use only the required drivers during the WindowsPE phase.
 
 ### Endpoint Configuration Manager
 
@@ -155,7 +153,7 @@ By having Device Firmware Configuration Interface (DFCI) profiles [built into In
 
 ## Best practices for update deployment processes
 
-To maintain a stable environment, we strongly recommend that you maintain parity with the most recent version of Windows 10.  For best practice recommendations, see [Build deployment rings for Windows 10 updates](/windows/deployment/update/waas-deployment-rings-windows-10-updates).
+To maintain a stable environment, we strongly recommend that you keep parity with the most recent version of Windows 10.  For best practice recommendations, see [Build deployment rings for Windows 10 updates](/windows/deployment/update/waas-deployment-rings-windows-10-updates).
 
 ### Surface .msi naming convention
 
