@@ -45,7 +45,7 @@ Specific versions of Windows 10 have separate Windows Installer .msi files conta
 
 ## Download .msi files
 
-This section provides direct links to downloadable packages containing driver and firmware updates. 
+This section provides direct links to downloadable packages containing driver and firmware updates for Surface devices and Surface Dock 2.  
 
 ### Surface Pro driver and firmware updates
 
@@ -105,6 +105,10 @@ This section provides direct links to downloadable packages containing driver an
 If you have migrated Surface Hub to run Windows 10 Pro or Windows 10 Enterprise, see the following download:
 
 - [Windows 10 Pro and Enterprise OS on Surface Hub 2](https://www.microsoft.com/download/details.aspx?id=101974)
+
+### Surface Dock 2 driver and firmware updates
+
+- [Surface Dock 2](https://www.microsoft.com/download/details.aspx?id=101317)
 
 > [!TIP]
 > For earlier devices that include separate files for different Windows versions, select the .msi file name that matches the Surface model and version of Windows. The .msi file name includes the minimum supported Windows build number that's required to install the drivers and firmware. For example, to update a Surface Book 2 that has build 18362 of Windows 10, choose **SurfaceBook2_Win10_18362_19.101.13994.msi.** For a Surface Book 2 that has build 16299 of Windows 10, choose **SurfaceBook2_Win10_16299_1803509_3.msi**.
