@@ -1,10 +1,10 @@
 ---
 title: Manage and deploy Surface driver and firmware updates 
-description: This article explains available options to manage and deploy firmware and driver updates for Surface devices.
+description: This article provides links to downloadable packages containing driver and firmware updates for Surface devices and explains available management and deployment solutions.
 ms.assetid: CD1219BA-8EDE-4BC8-BEEF-99B50C211D73
 ms.reviewer: 
 manager: laurawi
-keywords: Surface, Surface Pro 3, firmware, update, device, manage, deploy, driver, USB
+keywords: Surface, Surface Pro 8, Surface Go, Surface Laptop, Surface Studio, Surface Pro 3, firmware, update, device, manage, deploy, driver, USB
 ms.localizationpriority: medium
 ms.prod: w10
 ms.mktglfcycl: manage
@@ -14,7 +14,7 @@ author: coveminer
 ms.author: greglin
 ms.topic: article
 ms.audience: itpro
-ms.date: 10/12/2020
+ms.date: 12/13/2021
 ---
 
 # Manage and deploy Surface driver and firmware updates
@@ -30,7 +30,83 @@ While enterprise-grade software distribution solutions continue to evolve, the b
 
 Microsoft has streamlined tools for managing devices – including driver and firmware updates -- into a single unified experience that is named [Microsoft Endpoint Manager admin center](https://devicemanagement.microsoft.com/) and is accessed from [devicemanagement.microsoft.com](https://devicemanagement.microsoft.com/#home).
 
-### Manage updates with Configuration Manager and Intune
+## Downloadable Surface update packages
+
+Specific versions of Windows 10 have separate .msi files, each containing all the required cumulative driver and firmware updates for Surface devices. Update packages may include some or all the following components:
+
+- Wi-Fi and LTE
+- Video
+- Solid state drive
+- System aggregator module (SAM)
+- Battery
+- Keyboard controller
+- Embedded controller (EC)
+- Management engine (ME)
+- Unified extensible firmware interface (UEFI)
+
+## Download .msi files
+
+1. Select Windows 10 or Windows as appropriate.
+2. For Earlier devices that include separate files for different Windows versions, select the .msi file name that matches the Surface model and version of Windows. The .msi file name includes the minimum supported Windows build number that's required to install the drivers and firmware. For example, to update a Surface Book 2 that has build 18362 of Windows 10, choose **SurfaceBook2_Win10_18362_19.101.13994.msi.** For a Surface Book 2 that has build 16299 of Windows 10, choose **SurfaceBook2_Win10_16299_1803509_3.msi**.
+
+### Surface Pro
+
+- [Surface Pro 8](https://www.microsoft.com/en-us/download/details.aspx?id=103503)
+- [Surface Pro 7+ and Surface Pro 7+ (LTE)](https://www.microsoft.com/en-us/download/details.aspx?id=102633)
+- [Surface Pro 7](https://www.microsoft.com/download/details.aspx?id=100419)
+- [Surface Pro 6](https://www.microsoft.com/download/details.aspx?id=57514)
+- [Surface Pro 5 (LTE)](https://www.microsoft.com/download/details.aspx?id=56278)
+- [Surface Pro 5 (Wi-Fi)](https://www.microsoft.com/download/details.aspx?id=55484)
+- [Surface Pro 4](https://www.microsoft.com/download/details.aspx?id=49498)
+- [Surface Pro 3](https://www.microsoft.com/download/details.aspx?id=38826)
+- [Surface Pro 2](https://www.microsoft.com/download/details.aspx?id=49042)
+- [Surface Pro](https://www.microsoft.com/download/details.aspx?id=49038)
+
+### Surface Laptop
+
+- [Surface Laptop Go](https://www.microsoft.com/download/details.aspx?id=102261)
+- [Surface Laptop 4 with Intel Processor](https://www.microsoft.com/download/details.aspx?id=102924)
+- [Surface Laptop 4 with AMD Processor](https://www.microsoft.com/download/details.aspx?id=102923)
+- [Surface Laptop 3 with Intel Processor](https://www.microsoft.com/download/details.aspx?id=100429)
+- [Surface Laptop 3 with AMD Processor](https://www.microsoft.com/download/details.aspx?id=100428)
+- [Surface Laptop 2](https://www.microsoft.com/download/details.aspx?id=57515)
+- [Surface Laptop](https://www.microsoft.com/en-us/download/details.aspx?id=55489)
+
+### Surface Laptop Studio
+
+- [Surface Laptop Studio](https://www.microsoft.com/en-us/download/details.aspx?id=103505)
+
+### Surface Book
+
+- [Surface Book 3](https://www.microsoft.com/download/details.aspx?id=101315)
+- [Surface Book 2](https://www.microsoft.com/download/details.aspx?id=56261)
+- [Surface Book](https://www.microsoft.com/download/details.aspx?id=49497)
+
+### Surface Go
+
+- [Surface Go 3](https://www.microsoft.com/en-us/download/details.aspx?id=103504)
+- [Surface Go 2](https://www.microsoft.com/download/details.aspx?id=101304)
+- [Surface Go (Wi-Fi)](https://www.microsoft.com/download/details.aspx?id=57439)
+- [Surface Go (LTE)](https://www.microsoft.com/download/details.aspx?id=57601)
+
+### Surface Studio
+
+- [Surface Studio 2](https://www.microsoft.com/download/details.aspx?id=57593)
+- [Surface Studio](https://www.microsoft.com/download/details.aspx?id=54311)
+
+### Surface 3
+
+- [Surface 3 (Wi-Fi)](https://www.microsoft.com/download/details.aspx?id=49040)
+- [Surface 3 (LTE) - ATT](https://www.microsoft.com/download/details.aspx?id=49039)
+- [Surface 3 (LTE) - Verizon](https://www.microsoft.com/download/details.aspx?id=49920)
+- [Surface 3 (LTE) - North America Carrier Unlocked](https://www.microsoft.com/download/details.aspx?id=49037)
+- [Surface 3 (LTE) - Outside of North America and Y!mobile in Japan](https://www.microsoft.com/download/details.aspx?id=49041)
+
+### Surface Hub
+
+- [Windows 10 Pro and Enterprise OS on Surface Hub 2](https://www.microsoft.com/download/details.aspx?id=101974)
+
+## Manage updates with Configuration Manager and Intune
 
 Microsoft Endpoint Configuration Manager allows you to synchronize and deploy Surface firmware and driver updates with the Configuration Manager client. Integration with Microsoft Intune lets you see all your managed, co-managed, and partner-managed devices in one place. This is the recommended solution for large organizations to manage Surface updates.
 
@@ -76,29 +152,6 @@ By having Device Firmware Configuration Interface (DFCI) profiles built into Int
 ## Best practices for update deployment processes
 
 To maintain a stable environment, we strongly recommend that you maintain parity with the most recent version of Windows 10.  For best practice recommendations, see [Build deployment rings for Windows 10 updates](https://docs.microsoft.com/windows/deployment/update/waas-deployment-rings-windows-10-updates).
-
-## Downloadable Surface update packages
-
-Specific versions of Windows 10 have separate .msi files, each containing all the required cumulative driver and firmware updates for Surface devices. Update packages may include some or all the following components:
-
-- Wi-Fi and LTE
-- Video
-- Solid state drive
-- System aggregator module (SAM)
-- Battery
-- Keyboard controller
-- Embedded controller (EC)
-- Management engine (ME)
-- Unified extensible firmware interface (UEFI)
-
-### Downloading .msi files
-
-1. Browse to [Download drivers and firmware for Surface](https://support.microsoft.com/help/4023482/surface-download-drivers-and-firmware) on the Microsoft Download Center.
-2. Select the .msi file name that matches the Surface model and version of Windows. The .msi file name includes the minimum supported Windows build number that's required to install the drivers and firmware. For example, refer to the following figure. To update a Surface Book 2 that has build 18362 of Windows 10, choose **SurfaceBook2_Win10_18362_19.101.13994.msi.** For a Surface Book 2 that has build 16299 of Windows 10, choose **SurfaceBook2_Win10_16299_1803509_3.msi**.
-
-    ![Figure 1. Downloading Surface updates.](images/fig1-downloads-msi.png)
-
-    *Figure 1. Downloading Surface updates*
 
 ### Surface .msi naming convention
 
