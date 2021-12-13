@@ -19,12 +19,15 @@ ms.date: 12/13/2021
 
 # Manage and deploy Surface driver and firmware updates
 
-How you manage Surface driver and firmware updates varies depending on your environment and organizational requirements. On Surface devices, firmware is exposed to the operating system as a driver and is visible in Device Manager. This enables device firmware and drivers to be automatically updated using Windows Update or Windows Update for Business. Although this simplified approach may be feasible for startups and small or medium-sized businesses, larger organizations typically need IT admins to distribute updates internally. This may involve comprehensive planning, application compatibility testing, and piloting and validating updates before final approval and distribution across the network.
+How you manage Surface driver and firmware updates varies depending on your environment and organizational requirements. In larger organizations, IT admins may perform several tasks prior to deployment such as: 
+
+- Test app compatibility
+- Pilot and validate updates with internal systems 
 
 > [!NOTE]
 > This article is intended for technical support agents and IT professionals and applies to Surface devices only. If you're looking for help to install Surface updates or firmware on a home device, see [Update Surface firmware and Windows 10](https://support.microsoft.com/help/4023505).
 
-While enterprise-grade software distribution solutions continue to evolve, the business rationale for centrally managing  updates remains the same: Maintain the security of Surface devices and keep them updated with the latest operating system and feature improvements. This is essential for sustaining a stable production environment and making sure that users aren't blocked from being productive. This article provides an overview of recommended tools and processes for larger organizations to accomplish these goals.
+While enterprise-grade software distribution solutions continue to evolve, the business rationale for centrally managing  updates remains the same: Maintain the security of Surface devices and keep them updated with the latest operating system and feature improvements. This is essential for sustaining a stable production environment and making sure that users aren't blocked from being productive. 
 
 ## Downloadable Surface update packages
 
