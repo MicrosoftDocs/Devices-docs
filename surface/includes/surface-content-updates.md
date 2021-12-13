@@ -2,6 +2,16 @@
 
 
 
+## Week of December 06, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 12/7/2021 | [Surface Slim Pen 2 haptics dev notes](/surface/surface-slim-pen2-haptics-dev-notes) | added |
+| 12/10/2021 | [Optimize video conferencing on Surface devices](/surface/optimize-video-conferencing-on-surface) | added |
+| 12/10/2021 | [Optimize Wi-Fi connectivity for Surface devices](/surface/surface-wireless-connect) | modified |
+
+
 ## Week of November 29, 2021
 
 
