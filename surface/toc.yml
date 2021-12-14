@@ -78,7 +78,7 @@
         items: 
         - name: Surface Deployment Accelerator
           href: microsoft-surface-deployment-accelerator.md
-        - name: Deploy Windows 10 to Surface devices with MDT
+        - name: Prepare Surface deployment with MDT
           href: deploy-windows-10-to-surface-devices-with-mdt.md
         - name: Enable the Surface Laptop keyboard during MDT deployment
           href: enable-surface-keyboard-for-windows-pe-deployment.md
