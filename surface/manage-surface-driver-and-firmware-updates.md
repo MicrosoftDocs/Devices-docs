@@ -14,15 +14,12 @@ author: coveminer
 ms.author: greglin
 ms.topic: article
 ms.audience: itpro
-ms.date: 12/13/2021
+ms.date: 12/14/2021
 ---
 
 # Manage and deploy Surface driver and firmware updates
 
-How you manage Surface driver and firmware updates varies depending on your environment and organizational requirements. In larger organizations, IT admins may perform several tasks prior to deployment such as: 
-
-- Test app compatibility
-- Pilot and validate updates with internal systems 
+How you manage Surface driver and firmware updates may vary depending on your environment and organizational requirements. In larger organizations, IT admins typically stage deployments internally and allocate time to test upgrades before rolling them out to user devices.
 
 > [!NOTE]
 > This article is intended for technical support agents and IT professionals and applies to Surface devices only. If you're looking for help to install Surface updates or firmware on a home device, see [Update Surface firmware and Windows 10](https://support.microsoft.com/help/4023505).
