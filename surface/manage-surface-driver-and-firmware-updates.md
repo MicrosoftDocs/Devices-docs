@@ -22,7 +22,7 @@ ms.date: 12/14/2021
 How you manage Surface driver and firmware updates may vary depending on your environment and organizational requirements. In larger organizations, IT admins typically stage deployments internally and allocate time to test upgrades before rolling them out to user devices.
 
 > [!NOTE]
-> This article is intended for technical support agents and IT professionals and applies to Surface devices only. If you're looking for help to install Surface updates or firmware on a home device, see [Download drivers and firmware for Surface](https://support.microsoft.com/help/4023505).
+> This article is intended for IT professionals and technical support agents and applies to Surface devices only. If you're looking for help to install Surface updates or firmware on a home device, see [Download drivers and firmware for Surface](https://support.microsoft.com/help/4023505).
 
 While enterprise-grade software distribution solutions continue to evolve, the business rationale for centrally managing  updates remains the same: Maintain the security of Surface devices and keep them updated with the latest operating system and feature improvements. This is essential for sustaining a stable production environment and making sure that users aren't blocked from being productive.
 
@@ -42,7 +42,10 @@ Windows Installer .msi files contain all the required cumulative driver and firm
 
 ## Download .msi files
 
-This section provides direct links to downloadable packages containing driver and firmware updates for Surface devices and Surface Dock 2. 
+This section provides direct links to downloadable packages containing driver and firmware updates for Surface devices. 
+
+1. Select Windows 10 or Windows 11 as appropriate. 
+2. For devices with multiple .msi files, select the .msi file name that matches the Surface model and version of Windows deployed in your organization.  
 
 
 | Surface device                                                                                                                                        | Downloadable .msi                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
