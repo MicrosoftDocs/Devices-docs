@@ -26,9 +26,9 @@ How you manage Surface driver and firmware updates may vary depending on your en
 
 While enterprise-grade software distribution solutions continue to evolve, the business rationale for centrally managing  updates remains the same: Maintain the security of Surface devices and keep them updated with the latest operating system and feature improvements. This is essential for sustaining a stable production environment and making sure that users aren't blocked from being productive.
 
-## Downloadable Surface update packages
+## What's in Surface driver and firmware updates
 
-Specific versions of Windows 10 have separate Windows Installer .msi files containing all the required cumulative driver and firmware updates for Surface devices. Update packages may include some or all the following components:
+Windows Installer .msi files contain all the required cumulative driver and firmware updates for Surface devices. Update packages may include some or all the following components:
 
 - Wi-Fi and LTE
 - Video
@@ -42,7 +42,8 @@ Specific versions of Windows 10 have separate Windows Installer .msi files conta
 
 ## Download .msi files
 
-This section provides direct links to downloadable packages containing driver and firmware updates for Surface devices and Surface Dock 2.  
+This section provides direct links to downloadable packages containing driver and firmware updates for Surface devices and Surface Dock 2. 
+
 
 | Surface device                                                                                                                                        | Downloadable .msi                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
