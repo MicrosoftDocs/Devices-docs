@@ -46,9 +46,6 @@ This section provides direct links to downloadable packages containing driver an
 
 ### Surface Pro driver and firmware updates
 
-# Driver and firmware updates for Surface devices
-
-
 | Surface device                                                                                                                                        | Downloadable .msi                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Surface Pro**                                                                                                                                       | - [Surface Pro 8](https://www.microsoft.com/en-us/download/details.aspx?id=103503)<br>- [Surface Pro 7+ and Surface Pro 7+ (LTE)](https://www.microsoft.com/en-us/download/details.aspx?id=102633)<br>- [Surface Pro 7](https://www.microsoft.com/download/details.aspx?id=100419)<br>- [Surface Pro 6](https://www.microsoft.com/download/details.aspx?id=57514)<br>- [Surface Pro 5 (LTE)](https://www.microsoft.com/download/details.aspx?id=56278)<br>- [Surface Pro 5 (Wi-Fi)](https://www.microsoft.com/download/details.aspx?id=55484)<br>- [Surface Pro 4](https://www.microsoft.com/download/details.aspx?id=49498)<br>- [Surface Pro 3](https://www.microsoft.com/download/details.aspx?id=38826)<br>- [Surface Pro 2](https://www.microsoft.com/download/details.aspx?id=49042)<br>- [Surface Pro](https://www.microsoft.com/download/details.aspx?id=49038) |
@@ -62,68 +59,7 @@ This section provides direct links to downloadable packages containing driver an
 | **Surface Hub running Windows 10 Teams 2020 Update**                                                                                                  | - See [Manage Windows updates on Surface Hub](https://review.docs.microsoft.com/en-us/surface-hub/manage-windows-updates-for-surface-hub)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | **Surface Dock 2**                                                                                                                                    | - [Surface Dock 2](https://www.microsoft.com/download/details.aspx?id=101317)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 
-- [Surface Pro 8](https://www.microsoft.com/en-us/download/details.aspx?id=103503)
-- [Surface Pro 7+ and Surface Pro 7+ (LTE)](https://www.microsoft.com/en-us/download/details.aspx?id=102633)
-- [Surface Pro 7](https://www.microsoft.com/download/details.aspx?id=100419)
-- [Surface Pro 6](https://www.microsoft.com/download/details.aspx?id=57514)
-- [Surface Pro 5 (LTE)](https://www.microsoft.com/download/details.aspx?id=56278)
-- [Surface Pro 5 (Wi-Fi)](https://www.microsoft.com/download/details.aspx?id=55484)
-- [Surface Pro 4](https://www.microsoft.com/download/details.aspx?id=49498)
-- [Surface Pro 3](https://www.microsoft.com/download/details.aspx?id=38826)
-- [Surface Pro 2](https://www.microsoft.com/download/details.aspx?id=49042)
-- [Surface Pro](https://www.microsoft.com/download/details.aspx?id=49038)
-
-### Surface Laptop driver and firmware updates
-
-- [Surface Laptop Go](https://www.microsoft.com/download/details.aspx?id=102261)
-- [Surface Laptop 4 with Intel Processor](https://www.microsoft.com/download/details.aspx?id=102924)
-- [Surface Laptop 4 with AMD Processor](https://www.microsoft.com/download/details.aspx?id=102923)
-- [Surface Laptop 3 with Intel Processor](https://www.microsoft.com/download/details.aspx?id=100429)
-- [Surface Laptop 3 with AMD Processor](https://www.microsoft.com/download/details.aspx?id=100428)
-- [Surface Laptop 2](https://www.microsoft.com/download/details.aspx?id=57515)
-- [Surface Laptop](https://www.microsoft.com/en-us/download/details.aspx?id=55489)
-
-### Surface Laptop Studio driver and firmware updates
-
-- [Surface Laptop Studio](https://www.microsoft.com/en-us/download/details.aspx?id=103505)
-
-### Surface Book driver and firmware updates
-
-- [Surface Book 3](https://www.microsoft.com/download/details.aspx?id=101315)
-- [Surface Book 2](https://www.microsoft.com/download/details.aspx?id=56261)
-- [Surface Book](https://www.microsoft.com/download/details.aspx?id=49497)
-
-### Surface Go driver and firmware updates
-
-- [Surface Go 3](https://www.microsoft.com/en-us/download/details.aspx?id=103504)
-- [Surface Go 2](https://www.microsoft.com/download/details.aspx?id=101304)
-- [Surface Go (Wi-Fi)](https://www.microsoft.com/download/details.aspx?id=57439)
-- [Surface Go (LTE)](https://www.microsoft.com/download/details.aspx?id=57601)
-
-### Surface Studio driver and firmware updates
-
-- [Surface Studio 2](https://www.microsoft.com/download/details.aspx?id=57593)
-- [Surface Studio](https://www.microsoft.com/download/details.aspx?id=54311)
-
-### Surface 3 driver and firmware updates
-
-- [Surface 3 (Wi-Fi)](https://www.microsoft.com/download/details.aspx?id=49040)
-- [Surface 3 (LTE) - ATT](https://www.microsoft.com/download/details.aspx?id=49039)
-- [Surface 3 (LTE) - Verizon](https://www.microsoft.com/download/details.aspx?id=49920)
-- [Surface 3 (LTE) - North America Carrier Unlocked](https://www.microsoft.com/download/details.aspx?id=49037)
-- [Surface 3 (LTE) - Outside of North America and Y!mobile in Japan](https://www.microsoft.com/download/details.aspx?id=49041)
-
-### Surface Hub driver and firmware updates
-
-- For Surface Hub, see [Manage Windows updates on Surface Hub](/surface-hub/manage-windows-updates-for-surface-hub).
-
-- If you have migrated Surface Hub to run [Windows 10 Pro or Windows 10 Enterprise](/surface-hub/surface-hub-2s-migrate-os), see the following download:
-
-- [Windows 10 Pro and Enterprise OS on Surface Hub 2](https://www.microsoft.com/download/details.aspx?id=101974)
-
-### Surface Dock 2 driver and firmware updates
-
-- [Surface Dock 2](https://www.microsoft.com/download/details.aspx?id=101317)
+ [Surface Dock 2](https://www.microsoft.com/download/details.aspx?id=101317)
 
 > [!TIP]
 > For earlier devices that include separate files for different Windows versions, select the .msi file name that matches the Surface model and version of Windows. The .msi file name includes the minimum supported Windows build number that's required to install the drivers and firmware. For example, to update a Surface Book 2 that has build 18362 of Windows 10, choose **SurfaceBook2_Win10_18362_19.101.13994.msi.** For a Surface Book 2 that has build 16299 of Windows 10, choose **SurfaceBook2_Win10_16299_1803509_3.msi**.
