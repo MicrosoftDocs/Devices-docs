@@ -99,7 +99,9 @@ This section provides direct links to downloadable packages containing driver an
 
 ### Surface Hub driver and firmware updates
 
-If you have migrated Surface Hub to run Windows 10 Pro or Windows 10 Enterprise, see the following download:
+- For Surface Hub, see [Manage Windows updates on Surface Hub](/surface-hub/manage-windows-updates-for-surface-hub).
+
+- If you have migrated Surface Hub to run [Windows 10 Pro or Windows 10 Enterprise](/surface-hub/surface-hub-2s-migrate-os), see the following download:
 
 - [Windows 10 Pro and Enterprise OS on Surface Hub 2](https://www.microsoft.com/download/details.aspx?id=101974)
 
