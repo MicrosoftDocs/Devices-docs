@@ -14,9 +14,9 @@ manager: laurawi
 audience: itpro
 ---
 
-# Surface Laptop Studio ISV-tested applications
 
 # Surface Laptop Studio ISV-tested applications
+
 Surface Laptop Studio with Nvidia RTX A2000 is tested and verified for leading ISV applications and provides significantly faster acceleration across professional applications.
 
 | App                                     | Description                                                                                                                                                                                                                                                       |
@@ -43,19 +43,14 @@ Microsoft Surface engineering works closely with Adobe to test and validate that
 | **Adobe Illustrator**       | Surface Laptop Studio with Nvidia RTX A2000 with 4GB GDDR6 has been tested and verified by Microsoft for Adobe Illustrator:<br> <br>- Pan and zoom with GPU-accelerated canvas, enabling graphic designers and illustrators to pan across and zoom in and out of complex vector graphics smoothly and interactively.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | **Adobe Fresco**            | Surface Laptop Studio with Nvidia RTX A2000 with 4GB GDDR6 has been tested and verified by Microsoft for Adobe Fresco.<br> <br>When Adobe Fresco is paired with tactile signals in Surface Slim Pen 2, creators can discover — or rediscover — the joy of drawing and painting. It feels like creating on an actual canvas – only better.                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 
-
-
 > [!NOTE]
 > ISV-tested apps for Surface Book 3 also run on Surface Laptop Studio. To learn more, see [ISV testing & app acceleration](surface-book-quadro.md#isv-testing--app-acceleration).
-
 
 ----------
 
 [[1]](#) Tactile signals in Adobe Premier Pro is coming soon. Visit Adobe.com for more details
- 
 
 ----------
 
 * Some accessories and software sold separately
 [i] Note: AutoCAD was tested on versions 2021 and 2022.
-
