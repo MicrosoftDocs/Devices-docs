@@ -19,11 +19,10 @@ audience: itpro
 
 Surface Laptop Studio with Nvidia RTX A2000 is tested and verified for leading ISV applications and provides significantly faster acceleration across professional applications.
 
-## AutoCAD, Maya, Rhino 7, & SolidEdge
 
 | App                                     | Description                                                                                                                                                                                                                                                       |
 | --------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Autodesk AutoCAD**                    | Surface Laptop Studio with Nvidia RTX A2000 with 4GB GDDR6 is recommended and approved by Autodesk for AutoCAD.[[i]](#)<br><br>- GPU-accelerated viewport graphics for fast, interactive 3D modeling and design.<br>-                                         |
+| **Autodesk AutoCAD**                    | Surface Laptop Studio with Nvidia RTX A2000 with 4GB GDDR6 is recommended and approved by Autodesk for AutoCAD.[[i]](#)<br><br>- GPU-accelerated viewport graphics for fast, interactive 3D modeling and design.                                         |
 | **Autodesk Maya**                       | Surface Laptop Studio with Nvidia RTX A2000 with 4GB GDDR6 is recommended and approved by Autodesk for Maya: <br><br>- RTX-accelerated ray tracing and AI denoising with the default Arnold renderer.<br>- OpenGL Viewport Acceleration.                      |
 | **McNeel & Associates**<br>**Rhino3D®** | Rhino 7 is supported on Surface Laptop Studio with Nvidia RTX A2000 with 4GB GDDR6, as tested by Microsoft:<br><br>- GPU-accelerated viewport for a smooth and interactive modeling and design experience.<br>- Supports cycles for GPU-accelerated 3D rendering. |
 | **Siemens SolidEdge 2022**              | Surface Laptop Studio with Nvidia RTX A2000 with 4GB GDDR6 is validated, certified, and recommended by Siemens.                                                                                                                                                   |
