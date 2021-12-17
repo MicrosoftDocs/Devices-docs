@@ -21,7 +21,7 @@ Today, managing device firmware is an inconsistent experience and often involves
 
 Microsoft Surface has been using a unified approach to firmware protection and device security since 2015 through complete end-to-end ownership of the hardware design, in-house firmware development, and a holistic approach to device updates and management.
 
-For Surface, our Unified Extensible Firmware Interface (UEFI)<sup>[1](#references)</sup> is maintained in-house, regularly updated through Windows Update, and seamlessly deployed for management through Windows Autopilot, minimizing risk and maximizing control at the firmware level before the device boots. Microsoft provides fully transparency of the code base in our UEFI through the Open Source [Project Mu](https://microsoft.github.io/mu/) on GitHub, managed by Microsoft Endpoint Manager.
+For Surface, our Unified Extensible Firmware Interface (UEFI)<sup>[1](#references)</sup> is maintained in-house, regularly updated through Windows Update, and seamlessly deployed for management through Windows Autopilot, minimizing risk and maximizing control at the firmware level before the device boots. Microsoft provides full transparency of the code base in our UEFI through the Open Source [Project Mu](https://microsoft.github.io/mu/) on GitHub, managed by Microsoft Endpoint Manager.
 
 ## Microsoft designed and built components
 
@@ -120,7 +120,7 @@ Runtime calls to System Management Mode (SMM) execute at the highest level, whic
 
 Surface Laptop 4 with AMD Ryzen supports [NIST 800-193 Platform Firmware Resiliency Guidelines](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-193.pdf), in addition to the robust firmware update support. The resilient update mechanism for boot firmware uses an A-B Recovery mechanism that provides auto-recovery to a backup copy of firmware should the boot sequence detect a corrupted copy of the firmware during boot.
 
-To learn more about DRTM and SMM, see [How a Windows Defender System Guard helps protect Windows 10 - Windows security | Microsoft Docs](/windows/security/threat-protection/windows-defender-system-guard/how-hardware-based-root-of-trust-helps-protect-windows)
+To learn more about DRTM and SMM, see [How a Windows Defender System Guard helps protect Windows 10](/windows/security/threat-protection/windows-defender-system-guard/how-hardware-based-root-of-trust-helps-protect-windows).
 
 ## Remote device management control
 
