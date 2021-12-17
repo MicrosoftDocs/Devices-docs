@@ -120,7 +120,7 @@ Runtime calls to System Management Mode (SMM) execute at the highest level, whic
 
 Surface Laptop 4 with AMD Ryzen supports [NIST 800-193 Platform Firmware Resiliency Guidelines](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-193.pdf), in addition to the robust firmware update support. The resilient update mechanism for boot firmware uses an A-B Recovery mechanism that provides auto-recovery to a backup copy of firmware should the boot sequence detect a corrupted copy of the firmware during boot.
 
-To learn more about DRTM and SMM, see [How a Windows Defender System Guard helps protect Windows 10 - Windows security | Microsoft Docs](/windows/security/threat-protection/windows-defender-system-guard/how-hardware-based-root-of-trust-helps-protect-windows)
+To learn more about DRTM and SMM, see [How a Windows Defender System Guard helps protect Windows 10](/windows/security/threat-protection/windows-defender-system-guard/how-hardware-based-root-of-trust-helps-protect-windows).
 
 ## Remote device management control
 
