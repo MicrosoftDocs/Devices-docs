@@ -1,0 +1,61 @@
+---
+title: Surface Laptop Studio ISV-tested applications
+description: This article lists applications that have been certified by ISVs for Surface Laptop Studio. 
+ms.prod: w10
+ms.mktglfcycl: manage
+ms.localizationpriority: medium
+ms.sitesec: library
+author: coveminer
+ms.author: greglin
+ms.topic: article
+ms.date: 12/17/2021
+ms.reviewer: brrecord
+manager: laurawi
+audience: itpro
+---
+
+# Surface Laptop Studio ISV-tested applications
+
+# Surface Laptop Studio ISV-tested applications
+Surface Laptop Studio with Nvidia RTX A2000 is tested and verified for leading ISV applications and provides significantly faster acceleration across professional applications.
+
+| App                                     | Description                                                                                                                                                                                                                                                       |
+| --------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Autodesk AutoCAD**                    | Surface Laptop Studio with Nvidia RTX A2000 with 4GB GDDR6 is recommended and approved by Autodesk for AutoCAD.[[i]](#)<br><br><br>- GPU-accelerated viewport graphics for fast, interactive 3D modeling and design.<br>-                                         |
+| **Autodesk Maya**                       | Surface Laptop Studio with Nvidia RTX A2000 with 4GB GDDR6 is recommended and approved by Autodesk for Maya:<br> <br><br>- RTX-accelerated ray tracing and AI denoising with the default Arnold renderer.<br>- OpenGL Viewport Acceleration.                      |
+| **McNeel & Associates**<br>**Rhino3D®** | Rhino 7 is supported on Surface Laptop Studio with Nvidia RTX A2000 with 4GB GDDR6, as tested by Microsoft:<br><br>- GPU-accelerated viewport for a smooth and interactive modeling and design experience.<br>- Supports cycles for GPU-accelerated 3D rendering. |
+| **Siemens SolidEdge 2022**              | Surface Laptop Studio with Nvidia RTX A2000 with 4GB GDDR6 is validated, certified, and recommended by Siemens.                                                                                                                                                   |
+|                                         |                                                                                                                                                                                                                                                                   |
+
+## Adobe applications
+
+Microsoft Surface engineering works closely with Adobe to test and validate that Surface Laptop Studio is optimized for the following Adobe® Creative Cloud™ applications. 
+
+| App                         | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| --------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Adobe Photoshop**         | Surface Laptop Studio with Nvidia RTX A2000 with 4GB GDDR6 has been tested and verified by Microsoft for Adobe Photoshop:<br> <br><br>- CUDA core acceleration enables faster editing with more than 30 GPU-accelerated features, including blur gallery, liquify, smart sharpen, and perspective warp. Photographers and designers can modify images smoothly and quickly.<br>-                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| **Adobe Premiere Pro**      | Surface Laptop Studio with Nvidia RTX A2000 with 4GB GDDR6 has been tested and verified by Microsoft for Adobe Premiere Pro:<br> <br>- Faster editing and rendering video with GPU-accelerated effects vs. CPU.<br>- GPU-accelerated effects with NVIDIA CUDA technology for real-time video editing and faster final frame rendering.<br>- GPU-accelerated AI Auto Reframe feature for intelligently converting landscape video to dynamically tracked portrait or square video.<br><br> <br>Adobe Premiere Pro* is now aware of the mode in which you’re using Surface Laptop Studio and will adjust the interface to help you edit or present on the go.<br> <br>With tactile signals in Surface Slim Pen 2,* you’ll get feedback to help you precisely trim and edit clips and align graphics.[[1]](#) |
+
+| **Adobe After Effects**     | Surface Laptop Studio with Nvidia RTX A2000 with 4GB GDDR6 has been tested and verified by Microsoft for Adobe After Effects:<br> <br>- RTX-accelerated ray tracing delivers photorealistic 3D rendering to 2D artists and designers.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| **Adobe Substance Painter** | Surface Laptop Studio with Nvidia RTX A2000 with 4GB GDDR6 has been tested and verified by Microsoft for Adobe Substance Painter:<br> <br>- Create and blend materials with ease, featuring RTX-accelerated AI.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| **Adobe Dimension**         | Surface Laptop Studio with Nvidia RTX A2000 with 4GB GDDR6 has been tested and verified by Microsoft for Adobe Dimension:<br> <br><br>- RTX-accelerated ray tracing delivers photorealistic 3D rendering to 2D artists and designers.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| **Adobe Lightroom**         | Surface Laptop Studio with Nvidia RTX A2000 with 4GB GDDR6 has been tested and verified by Microsoft for Adobe Lightroom:<br> <br>- Faster editing of high-resolution images with a GPU-accelerated viewport enables the modeling of larger 3D scenes and the creation of more complex animations.<br>- GPU-accelerated image processing enables significantly more responsive adjustments, especially on 4K or higher resolution displays.<br>- GPU-accelerated AI-powered “Enhance Details” for refining fine color detail of RAW images.                                                                                                                                                                                                                                                                |
+| **Adobe Illustrator**       | Surface Laptop Studio with Nvidia RTX A2000 with 4GB GDDR6 has been tested and verified by Microsoft for Adobe Illustrator:<br> <br>- Pan and zoom with GPU-accelerated canvas, enabling graphic designers and illustrators to pan across and zoom in and out of complex vector graphics smoothly and interactively.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| **Adobe Fresco**            | Surface Laptop Studio with Nvidia RTX A2000 with 4GB GDDR6 has been tested and verified by Microsoft for Adobe Fresco.<br> <br>When Adobe Fresco is paired with tactile signals in Surface Slim Pen 2, creators can discover — or rediscover — the joy of drawing and painting. It feels like creating on an actual canvas – only better.                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+
+
+
+> [!NOTE]
+> ISV-tested apps for Surface Book 3 also run on Surface Laptop Studio. To learn more, see [ISV testing & app acceleration](surface-book-quadro.md#isv-testing--app-acceleration).
+
+
+----------
+
+[[1]](#) Tactile signals in Adobe Premier Pro is coming soon. Visit Adobe.com for more details
+ 
+
+----------
+
+* Some accessories and software sold separately
+[i] Note: AutoCAD was tested on versions 2021 and 2022.
+
