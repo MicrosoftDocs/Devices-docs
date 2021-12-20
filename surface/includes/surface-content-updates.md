@@ -2,6 +2,16 @@
 
 
 
+## Week of December 13, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 12/14/2021 | [Prepare Surface deployment with Microsoft Deployment Toolkit](/surface/deploy-windows-10-to-surface-devices-with-mdt) | modified |
+| 12/14/2021 | [Manage and deploy Surface driver and firmware updates](/surface/manage-surface-driver-and-firmware-updates) | modified |
+| 12/17/2021 | [Surface security overview](/surface/surface-security) | modified |
+
+
 ## Week of December 06, 2021
 
 
