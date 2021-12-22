@@ -7,16 +7,16 @@ ms.sitesec: library
 author: dansimp
 ms.author: dansimp
 ms.topic: article
-ms.date: 12/22/2021
+ms.date: 12/23/2021
 ms.reviewer: brianst
 manager: laurawi
 ms.localizationpriority: medium
 ---
 
-# Surface Hub return to the office video series 
+# Surface Hub return to the office video series
 
 This page features instructional videos to help keep your Surface Hub devices up to date and functioning as expected when returning to the office.  Learn about new features of the Surface Hub operating system and updated applications and enhancements to the overall Surface Hub experience.
- 
+
 | Video                                                                                                        | Description                                                                                                                                              | Learn more
 | ------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------|
 | [How to verify a Surface Hub is fully updated](https://youtu.be/rxL5cUS_3TA)                                 | Discover the build number a Surface Hub is currently running and determine if it’s fully updated. Learn why a Surface Hub may not be installing updates. | [Surface Hub update history](surface-hub-update-history.md)                                                          |                                                                                                                                     |
@@ -27,4 +27,3 @@ This page features instructional videos to help keep your Surface Hub devices up
 ## Learn more
 
 - [Known issues: Surface Hub](surface-hub-2020-team-update-known-issues)
-
