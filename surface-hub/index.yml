@@ -28,6 +28,8 @@ landingContent:
     linkLists:
       - linkListType: learn
         links:
+          - text: Surface Hub return to the office video series
+            url: surface-hub-return-to-office-videos.md
           - text: Microsoft Teams Rooms on Surface Hub                               
             url: /surface-hub/hub-teams-app
           - text: What's new in Windows 10 Team 2020 Update
