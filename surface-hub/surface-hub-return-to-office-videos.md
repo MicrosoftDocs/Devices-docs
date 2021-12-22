@@ -26,4 +26,4 @@ This page features instructional videos to help keep your Surface Hub devices up
 
 ## Learn more
 
-- [Known issues: Surface Hub](surface-hub-2020-team-update-known-issues)
+- [Known issues: Surface Hub](surface-hub-2020-team-update-known-issues.md)
