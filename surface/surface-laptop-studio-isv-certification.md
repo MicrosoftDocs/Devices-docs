@@ -1,6 +1,6 @@
 ---
-title: Surface Laptop Studio ISV-tested applications
-description: This article lists applications that have been certified by ISVs for Surface Laptop Studio. 
+title: Surface Laptop Studio ISV-tested/certified apps
+description: This article lists applications that have been tested/certified by ISVs for Surface Laptop Studio. 
 ms.prod: w10
 ms.mktglfcycl: manage
 ms.localizationpriority: medium
@@ -8,14 +8,14 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 12/17/2021
+ms.date: 01/03/2022
 ms.reviewer: brrecord
 manager: laurawi
 audience: itpro
 ---
 
 
-# Surface Laptop Studio ISV-tested applications
+# Surface Laptop Studio ISV-tested/certified apps
 
 Surface Laptop Studio with Nvidia RTX A2000 is tested and verified for leading ISV applications and provides significantly faster acceleration across professional applications.
 
@@ -49,4 +49,4 @@ Microsoft Surface engineering works closely with Adobe to test and validate that
 
 1. AutoCAD was tested on versions 2021 and 2022. 
 2. Some accessories and software sold separately.
-3. Tactile signals in Adobe Premier Pro is coming soon. Visit [Adobe.com](https://www.adobe.com/products/premiere.html) for more details.
+3. Tactile signals in Adobe Premier Pro is available in Beta only. Visit [Adobe.com](https://www.adobe.com/products/premiere.html) for more details.

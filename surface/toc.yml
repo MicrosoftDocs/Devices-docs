@@ -22,8 +22,8 @@
         items: 
          - name: Surface Laptop Studio graphics overview
            href: surface-laptop-studio-graphics.md
-         - name: Surface Laptop Studio ISV-tested applications
-           href: surface-laptop-studio-isv-tested-apps.md                       
+         - name: Surface Laptop Studio ISV-tested/certified apps
+           href: surface-laptop-studio-isv-certification.md                       
          - name: Surface Book 3 tech overview
            href: surface-book-GPU-overview.md
          - name: Surface Book 3 Quadro RTX 3000 tech overview
