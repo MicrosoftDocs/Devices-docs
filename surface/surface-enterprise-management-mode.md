@@ -43,6 +43,10 @@ SEMM is only available on devices with Surface UEFI firmware including:
 - Surface Go 3 (commercial SKUs only)
 - Surface Studio 
 
+>[!TIP]
+> Commercial versions (aka Surface for Business) run Windows 10 Pro/Enterprise or Windows 11 Pro/Enterprise; consumer versions run Windows 10/Windows 11 Home. To learn more, see [View your system info](https://support.microsoft.com/windows/view-your-system-info-a965a8f2-0773-1d65-472a-1e747c9ebe00). 
+
+
 ## Getting started 
 
 When Surface devices are configured by SEMM and secured with the SEMM certificate, they're considered *enrolled* in SEMM. When the SEMM certificate is removed and control of UEFI settings is returned to the user of the device, the Surface device is considered *unenrolled* in SEMM.
