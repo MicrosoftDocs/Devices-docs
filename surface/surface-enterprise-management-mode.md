@@ -35,7 +35,7 @@ SEMM is only available on devices with Surface UEFI firmware including:
 - Surface Laptop SE (all SKUs)
 - Surface Laptop Studio (commercial SKUs only) 
 - Surface Hub 2S
-- Surface Laptop 4 (commercial SKUs only; Intel or AMD processors)
+- Surface Laptop 4 (commercial SKUs only)
 - Surface Laptop 3 (Intel processors only)
 - Surface Laptop Go 
 - Surface Book (all generations)
@@ -44,7 +44,7 @@ SEMM is only available on devices with Surface UEFI firmware including:
 - Surface Studio 
 
 >[!TIP]
-> Commercial versions (aka Surface for Business) run Windows 10 Pro/Enterprise or Windows 11 Pro/Enterprise; consumer versions run Windows 10/Windows 11 Home. To learn more, see [View your system info](https://support.microsoft.com/windows/view-your-system-info-a965a8f2-0773-1d65-472a-1e747c9ebe00). 
+> Commercial SKUs (aka Surface for Business) run Windows 10 Pro/Enterprise or Windows 11 Pro/Enterprise; consumer SKUs run Windows 10/Windows 11 Home. To learn more, see [View your system info](https://support.microsoft.com/windows/view-your-system-info-a965a8f2-0773-1d65-472a-1e747c9ebe00). 
 
 
 ## Getting started 

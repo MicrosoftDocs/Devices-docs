@@ -40,6 +40,10 @@ The Wake on Power feature is available on the following devices:
 - Surface Laptop 3 (all SKUs)
 - Surface Laptop Go (all SKUs)
 
+
+>[!TIP]
+> Commercial SKUs (aka Surface for Business) run Windows 10 Pro/Enterprise or Windows 11 Pro/Enterprise; consumer SKUs run Windows 10/Windows 11 Home. To learn more, see [View your system info](https://support.microsoft.com/windows/view-your-system-info-a965a8f2-0773-1d65-472a-1e747c9ebe00). 
+
 ## Overview and prerequisites
 
 Surface UEFI Configurator lets you save individual UEFI settings in a Windows Installer .msi package for distribution to target devices. 
