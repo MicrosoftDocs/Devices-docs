@@ -8,7 +8,7 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 10/15/2020
+ms.date: 01/03/2021
 ms.reviewer: jerbos
 manager: laurawi
 ms.audience: itpro
@@ -31,5 +31,5 @@ The following table outlines support information for Surface Duo:
 | Device  | Supported OS at device release | Release date   | Last planned Android version update | Last planned security update |
 | ----------- | ------------------------------------------ | ------------------ | --------------------------------------- | -------------------------------- |
 | Surface Duo | Android 10                                 | September 10, 2020 | September 10, 2023                      | September 10, 2023               |
-
+| Surface Duo 2| Android 11                                 | October 21, 2021 | October 21, 2024                    | October 21, 2024                |
  
