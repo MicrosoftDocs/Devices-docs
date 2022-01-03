@@ -2,6 +2,26 @@
 
 
 
+## Week of December 13, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 12/14/2021 | [Prepare Surface deployment with Microsoft Deployment Toolkit](/surface/deploy-windows-10-to-surface-devices-with-mdt) | modified |
+| 12/14/2021 | [Manage and deploy Surface driver and firmware updates](/surface/manage-surface-driver-and-firmware-updates) | modified |
+| 12/17/2021 | [Surface security overview](/surface/surface-security) | modified |
+
+
+## Week of December 06, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 12/7/2021 | [Surface Slim Pen 2 haptics dev notes](/surface/surface-slim-pen2-haptics-dev-notes) | added |
+| 12/10/2021 | [Optimize video conferencing on Surface devices](/surface/optimize-video-conferencing-on-surface) | added |
+| 12/10/2021 | [Optimize Wi-Fi connectivity for Surface devices](/surface/surface-wireless-connect) | modified |
+
+
 ## Week of November 29, 2021
 
 

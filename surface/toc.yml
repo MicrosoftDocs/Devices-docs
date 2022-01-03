@@ -21,7 +21,9 @@
       - name: Surface professional graphics
         items: 
          - name: Surface Laptop Studio graphics overview
-           href: surface-laptop-studio-graphics.md                    
+           href: surface-laptop-studio-graphics.md
+         - name: Surface Laptop Studio ISV-tested applications
+           href: surface-laptop-studio-isv-tested-apps.md                       
          - name: Surface Book 3 tech overview
            href: surface-book-GPU-overview.md
          - name: Surface Book 3 Quadro RTX 3000 tech overview
@@ -78,7 +80,7 @@
         items: 
         - name: Surface Deployment Accelerator
           href: microsoft-surface-deployment-accelerator.md
-        - name: Deploy Windows 10 to Surface devices with MDT
+        - name: Prepare Surface deployment with MDT
           href: deploy-windows-10-to-surface-devices-with-mdt.md
         - name: Enable the Surface Laptop keyboard during MDT deployment
           href: enable-surface-keyboard-for-windows-pe-deployment.md
@@ -153,8 +155,10 @@
         - name: Wake on Power for Surface devices
           href: wake-on-power-for-surface.md  
       - name: Best practices
-        items:     
-        - name: Optimize Wi-Fi connectivity for Surface devices
+        items:  
+        - name: Optimize video conferencing on Surface devices
+          href: optimize-video-conferencing-on-surface.md   
+        - name: Optimize Wi-Fi connectivity on Surface devices
           href: surface-wireless-connect.md
         - name: Best practice power settings for Surface devices
           href: maintain-optimal-power-settings-on-Surface-devices.md  

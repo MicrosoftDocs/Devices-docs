@@ -13,8 +13,7 @@ ms.reviewer: tokatz
 manager: laurawi
 ms.date: 11/30/2021
 ---
-# Optimize Wi-Fi connectivity for Surface devices
-
+# Optimize Wi-Fi connectivity on Surface devices
 
 To stay connected with all-day battery life, Surface devices implement wireless connectivity settings that balance performance and power conservation. Outside of the most demanding mobility workloads, users can maintain sufficient wireless connectivity without modifying default network adapter or related settings. This page highlights key wireless connectivity considerations in mobile scenarios using Surface devices.
 
@@ -29,7 +28,7 @@ Suppose you’re managing a wireless network that’s typically accessed by many
 - **802.11r.** “**Fast BSS Transition”** accelerates connecting to new wireless access points by reducing the number of frames required before your device can access another AP as you move around with your device. In the new generation of Surface devices released since 2019, end-users may gain access to roaming aggressiveness settings on their device. Although modifying default settings is not recommended, users should be aware of this capability and understand how specific settings can impact their ability to remain connected.
 - **802.11k.** **“Neighbor Reports”** provides devices with information on current conditions at neighboring access points. It can help your Surface device choose the best AP using criteria other than signal strength, such as AP utilization.
 
-Specific Surface devices can also use 802.11v “BSS Transition Management Frames,” which functions much like 802.11k in providing information on nearby candidate APs. These include Surface Pro 8, Surface Pro 7+, Surface Laptop Studio, Surface Go 3, Surface Go 2, Surface Go, Surface Pro 7, Surface Pro X, and Surface Laptop 3. 
+Specific Surface devices can also use 802.11v “BSS Transition Management Frames,” which functions much like 802.11k in providing information on nearby candidate APs. These include Surface Pro 8, Surface Pro 7+, Surface Laptop Studio, Surface Go 3, Surface Go 2, Surface Go, Surface Pro 7, Surface Pro X, and Surface Laptop 3.
 
 ## Managing user settings
 
@@ -62,13 +61,13 @@ Keep in mind that 2.4 GHz has some advantages over 5 GHz: It extends further and
 
 You can also toggle the band setting as needed to suit your environment. For example, users living in high-density apartment buildings with multiple Wi-Fi hotspots  —  amid the presence of consumer devices all broadcasting via 2.4 GHz  —  will likely benefit by setting their Surface device to connect on 5 GHz only and then revert to Auto when needed.
 
-### Roaming aggressiveness settings on Surface devices with Intel adapters 
+### Roaming aggressiveness settings on Surface devices with Intel adapters
 
-Users may wish to select a signal strength threshold that prompts the device to search for a new access point when the signal drops (roaming aggressiveness). By default, Surface devices with Intel adapters attempt to roam to a new access point if the signal strength drops below **Medium** (72 percent signal strength). Organizations can also implement purpose-built wireless protocols across multiple network access points to facilitate roaming congested network environments, as explained earlier on this page. 
+Users may wish to select a signal strength threshold that prompts the device to search for a new access point when the signal drops (roaming aggressiveness). By default, Surface devices with Intel adapters attempt to roam to a new access point if the signal strength drops below **Medium** (72 percent signal strength). Organizations can also implement purpose-built wireless protocols across multiple network access points to facilitate roaming congested network environments, as explained earlier on this page.
 
-While increasing roaming aggressiveness above **Medium** may yield improved connectivity in highly congested office or residential environments, it can result in degraded connectivity when stepping outside of these environments. 
+While increasing roaming aggressiveness above **Medium** may yield improved connectivity in highly congested office or residential environments, it can result in degraded connectivity when stepping outside of these environments.
 
-Leave the roaming aggressiveness setting in the default state unless you encounter connectivity issues in specific mobile scenarios such as conducting environmental site inspections while maintaining voice and video connectivity during a conference meeting. If you don’t notice any improvement, revert to the default Medium state. Note that if you increase roaming aggressiveness, you also accelerate battery power consumption. 
+Leave the roaming aggressiveness setting in the default state unless you encounter connectivity issues in specific mobile scenarios such as conducting environmental site inspections while maintaining voice and video connectivity during a conference meeting. If you don’t notice any improvement, revert to the default Medium state. Note that if you increase roaming aggressiveness, you also accelerate battery power consumption.
 
 **To enable roaming aggressiveness on Surface:**
 
@@ -93,7 +92,6 @@ Leave the roaming aggressiveness setting in the default state unless you encount
 4. Select **Advanced** > **Roaming Aggressiveness** and choose your preferred value from the drop-down menu.
 
 ![* Roaming aggressiveness settings-QualComm *.](images/wifi-roaming.png) <br>
-
 
 ## Conclusion
 
