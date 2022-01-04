@@ -36,8 +36,9 @@ System Model and System SKU are variables that are stored in the System Manageme
 | Surface Go LTE Commercial                                    | Surface Go       | Surface_Go_1825_Commercial |
 | Surface Go Consumer                                          | Surface Go       | Surface_Go_1824_Consumer         |
 | Surface Go Commercial                                        | Surface Go       | Surface_Go_1824_Commercial       |
-| Surface Go 2                                                 | Surface Go 2     | Surface_Go_2_1927                |
-| Surface Go 2 LTE Commercial                                  | Surface Go 2     |                 |
+| Surface Go 2 Consumer                                        | Surface Go 2     | Surface_Go_2_1901                |
+| Surface Go 2 Commercial                                      | Surface Go 2     | Surface_Go_2_1926                |
+| Surface Go 2 LTE Commercial/Consumer                         | Surface Go 2     | Surface_Go_2_1927                |
 | Surface Go 3                                                 | Surface Go 3     | Surface_Go_3_1926               |
 | Surface Go 3 LTE Commercial                                  | Surface Go 3     |                 |
 | Surface Hub 2S 50"                                           | Surface Hub 2S | Surface Hub 2S   |
