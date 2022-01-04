@@ -13,7 +13,7 @@ ms.reviewer: hachidan
 manager: laurawi
 ms.localizationpriority: medium
 audience: itpro
-ms.date: 10/25/2021
+ms.date: 12/08/2021
 ---
 
 # Microsoft Surface Enterprise Management Mode
@@ -25,8 +25,29 @@ Microsoft Surface Enterprise Management Mode (SEMM) is a feature of Surface devi
 
 SEMM also uses a certificate to protect the configuration from unauthorized tampering or removal. To migrate a Surface Hub 2S to Windows 10 Pro or Windows Enterprise, SEMM is required.
 
->[!NOTE]
->SEMM is only available on devices with Surface UEFI firmware. This includes most other Surface devices including Surface Pro 8, Surface Pro X, Surface Laptop Studio, Surface Hub 2S, Surface Laptop 4 commercial SKUs with an Intel processor, Surface Laptop 4 commercial SKUs with AMD processor, Surface Laptop 3 commercial SKUs with an Intel processor, and Surface Laptop Go. SEMM is not supported on the 15" Surface Laptop 3 SKU with AMD processor (available only as a retail SKU).
+## Supported devices
+
+SEMM is only available on devices with Surface UEFI firmware including: 
+
+- Surface Pro 8 (commercial SKUs only)
+- Surface Pro 4 and later (all SKUs)
+- Surface Pro X (all SKUs)
+- Surface Laptop SE (all SKUs)
+- Surface Laptop Studio (commercial SKUs only) 
+- Surface Hub 2S
+- Surface Laptop 4 (commercial SKUs only)
+- Surface Laptop 3 (Intel processors only)
+- Surface Laptop Go 
+- Surface Book (all generations)
+- Surface Go, Surface Go 2
+- Surface Go 3 (commercial SKUs only)
+- Surface Studio 
+
+>[!TIP]
+> Commercial SKUs (aka Surface for Business) run Windows 10 Pro/Enterprise or Windows 11 Pro/Enterprise; consumer SKUs run Windows 10/Windows 11 Home. To learn more, see [View your system info](https://support.microsoft.com/windows/view-your-system-info-a965a8f2-0773-1d65-472a-1e747c9ebe00). 
+
+
+## Getting started 
 
 When Surface devices are configured by SEMM and secured with the SEMM certificate, they're considered *enrolled* in SEMM. When the SEMM certificate is removed and control of UEFI settings is returned to the user of the device, the Surface device is considered *unenrolled* in SEMM.
 

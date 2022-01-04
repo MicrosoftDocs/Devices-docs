@@ -12,7 +12,7 @@ ms.author: greglin
 ms.topic: article
 ms.reviewer: hachidan
 manager: laurawi
-ms.date: 11/30/2021
+ms.date: 12/09/2021
 ---
 
 # Manage Surface UEFI settings
@@ -23,12 +23,16 @@ ms.date: 11/30/2021
 
 UEFI management is supported on the following:
 
-- Surface Pro 4, Surface Pro (5th Gen), Surface Pro 6, Surface Pro 7, Surface Pro 7+, Surface Pro 8, Surface Pro X
-- Surface Laptop (1st Gen), Surface Laptop 2, Surface Laptop 3, Surface Laptop Go, Surface Laptop 4
+- Surface Pro 4, Surface Pro (5th Gen), Surface Pro 6, Surface Pro 7, Surface Pro 7+ (commercial SKUs only), Surface Pro 8 (commercial SKUs only), Surface Pro X
+- Surface Laptop (1st Gen), Surface Laptop 2, Surface Laptop 3 (Intel processors only), Surface Laptop Go, Surface Laptop 4 (commercial SKUs only)
 - Surface Studio (1st Gen), Surface Studio 2
-- Surface Book, Surface Book 2, Surface Book 3
-- Surface Laptop Studio
-- Surface Go, Surface Go 2[<sup>1</sup>](#references), Surface Go 3
+- Surface Book (all generations)
+- Surface Laptop Studio (commercial SKUs only)
+- Surface Go, Surface Go 2[<sup>1</sup>](#references), Surface Go 3 (commercial SKUs only)
+
+>[!TIP]
+> Commercial SKUs (aka Surface for Business) run Windows 10 Pro/Enterprise or Windows 11 Pro/Enterprise; consumer SKUs run Windows 10/Windows 11 Home. To learn more, see [View your system info](https://support.microsoft.com/windows/view-your-system-info-a965a8f2-0773-1d65-472a-1e747c9ebe00). 
+
 
 ## Support for cloud-based management
 

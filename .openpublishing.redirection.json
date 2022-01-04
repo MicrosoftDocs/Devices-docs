@@ -139,6 +139,11 @@
             "source_path":  "surface-hub/surface-hub-2s-change-history.md",
             "redirect_url":  "/surface-hub/",
             "redirect_document_id":  false
-        },                             
+        }, 
+        {
+            "source_path":  "surface/surface-laptop-studio-isv-tested-apps.md",
+            "redirect_url":  "/surface/surface-laptop-studio-isv-certification",
+            "redirect_document_id":  false
+        },                                       
 ]
 }
