@@ -13,12 +13,14 @@ ms.reviewer: carlol
 ms.localizationpriority: medium
 ms.audience: itpro
 manager: jarrettr
-ms.date: 06/21/2021
+ms.date: 01/05/2022
 appliesto:
 - Surface Laptop (1st Gen)
 - Surface Laptop 2
 - Surface Laptop 3
 - Surface Laptop 4
+- Surface Laptop Studio
+- Surface Pro 8
 ---
 
 # How to enable the Surface Laptop keyboard during MDT deployment
