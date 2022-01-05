@@ -7,7 +7,7 @@ ms.mktglfcycl: deploy
 ms.pagetype: surface
 ms.sitesec: library
 author: coveminer
-ms.author: v-tea
+ms.author: greglin
 ms.topic: article
 ms.reviewer: carlol
 ms.localizationpriority: medium
