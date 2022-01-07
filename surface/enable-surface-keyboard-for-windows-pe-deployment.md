@@ -7,18 +7,20 @@ ms.mktglfcycl: deploy
 ms.pagetype: surface
 ms.sitesec: library
 author: coveminer
-ms.author: v-tea
+ms.author: greglin
 ms.topic: article
 ms.reviewer: carlol
 ms.localizationpriority: medium
 ms.audience: itpro
 manager: jarrettr
-ms.date: 06/21/2021
+ms.date: 01/05/2022
 appliesto:
 - Surface Laptop (1st Gen)
 - Surface Laptop 2
 - Surface Laptop 3
 - Surface Laptop 4
+- Surface Laptop Studio
+- Surface Pro 8
 ---
 
 # How to enable the Surface Laptop keyboard during MDT deployment
@@ -41,6 +43,9 @@ This article addresses a deployment approach that uses Microsoft Deployment Tool
     - [Surface Laptop 3 with Intel Processor Drivers and Firmware](https://www.microsoft.com/download/details.aspx?id=100429)
     - [Surface Laptop 4 with Intel Processor Drivers and Firmware](https://www.microsoft.com/download/102924)
     - [Surface Laptop 4 with AMD Processor Drivers and Firmware](https://www.microsoft.com/download/102923)
+    - [Surface Laptop Studio Drivers and Firmware](https://www.microsoft.com/download/details.aspx?id=103505)
+    - [Surface Pro 8 Drivers and Firmware](https://www.microsoft.com/download/details.aspx?id=103503)
+
 2. Extract the contents of the Surface Laptop .msi file to a folder that you can easily locate (for example, c:\surface_laptop_drivers). To extract the contents, open an elevated Command Prompt window and run the command from the following example:
 
    ```cmd
@@ -60,6 +65,8 @@ Import the following folders as appropriate for your Surface Laptop device.
 
 | Device                                | Import folders                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | More information                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Surface Laptop Studio                 | heci<br>ialpss2_gpio2_tgl<br>ialpss2_uart2_tgl<br>intelthcbase<br>surfacehidminidriver<br>surfacehotplug<br>surfaceintegrationdriver<br>surfacepenwirelesschargerhotkey<br>surfacesarmanager<br>surfaceserialhubdriver<br>surfacestoragefwupdateenum<br>surfacestoragefwupdatekbg40zns256gpackage<br>surfacewakeontouchcontrol | n/a |
+| Surface Pro 8                         | heci<br>ialpss2_gpio2_tgl<br>ialpss2_i2c_tgl<br>ialpss2_spi_tgl<br>ialpss2_uart2_tgl<br>intelthcbase<br>msux64w10<br>netwtw08<br>surfacebattery<br>surfacehidminidriver<br>surfaceintegrationdriver<br>surfacesarmanager<br>surfaceserialhubdriver<br>surfacetimealarmacpifilter<br>surfacevirtualfunctionenum<br>tbthostcontroller<br>tbthostcontrollerhsacomponent<br> |n/a |
 | Surface Laptop 4 with Intel processor | TglSerial<br>IntelPreciseTouch<br>SurfaceEthernetAdapter<br>SurfaceBattery<br>SurfaceHidMini<br>SurfaceHotPlug<br>SurfaceSerialHub<br>SurfaceTconDriver<br>surfacetimealarmacpifilter<br>surfacevirtualfunctionenum<br>TglChipset<br>ManagementEngine                                                                                                                                                                                                                                                                                                                          |n/a                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | Surface Laptop 4 with AMD processor   | U0361415<br>AMDfendr<br>AMDGpio2<br>AMDI2c<br>AMDLpcFilterDriverAMDMicroPEP<br>AMDPsp<br>AMDSmf<br>AMDSpi<br>AMDUart<br>SurfaceEthernetAdapter<br>SMBUS<br>SurfaceBattery<br>SurfaceButton<br>SurfaceDigitizerHidSpiExtnPackage<br>SurfaceHIDFriendlyNames<br>SurfaceHidMini<br>SurfaceHotPlug<br>SurfaceOemPanel<br>SurfacePowerMeter<br>SurfacePowerTrackerCore<br>SurfaceSerialHub<br>SurfaceSMFClient<br>SurfaceSmfDisplayClient<br>SurfaceSystemManagementFramework<br>SurfaceTconDriver<br>SurfaceThermalPolicy<br>Surfacetimealarmacpifilter<br>SurfaceUcmUcsiHidClient |n/a                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | Surface Laptop 3 with Intel processor | SurfaceUpdate\SerialIOGPIO<br>SurfaceUpdate\SerialIOI2C<br>SurfaceUpdate\SerialIOSPI<br>SurfaceUpdate\SerialIOUART<br>SurfaceUpdate\SurfaceHidMini<br>SurfaceUpdate\SurfaceSerialHub<br>SurfaceUpdate\SurfaceHotPlug<br>SurfaceUpdate\Itouch                                                                                                                                                                                                                                                                                                                                   | Importing the following folders will enable full keyboard, trackpad, and touch functionality in PE:<br><br>SerialIOGPIO<br>SerialIOI2C<br>SerialIOSPI<br>SerialIOUART<br>itouch<br>Chipset<br>ChipsetLPSS<br>ChipsetNorthpeak<br>ManagementEngine<br>SurfaceAcpiNotify<br>SurfaceBattery<br>SurfaceDockIntegration<br>SurfaceHidMini<br>SurfaceHotPlug<br>SurfaceIntegration<br>SurfaceSerialHub<br>SurfaceService<br>SurfaceStorageFwUpdat |
