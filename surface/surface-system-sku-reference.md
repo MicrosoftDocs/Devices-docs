@@ -19,7 +19,7 @@ ms.audience: itpro
 # Surface System SKU reference
 
 This document provides a reference that can be used for various IT tasks such as executing commands or installing drivers based on device model/SKU names. 
-System Model and System SKU are variables that are stored in the System Management BIOS (SMBIOS) tables in the UEFI layer of Surface devices. Use the System SKU name whenever you need to differentiate between devices with the same System Model name, such as Surface Pro and Surface Pro with LTE Advanced. SKUs listed in the following table refer to commercial devices unless labeled as Consumer. 
+System Model and System SKU are variables stored in System Management BIOS (SMBIOS) tables in the UEFI layer of Surface devices. Use the System SKU name whenever you need to differentiate between devices with the same System Model name, such as Surface Pro and Surface Pro with LTE Advanced. SKUs listed in the following table refer to commercial devices unless labeled as Consumer. 
 
 | Device   | System Model | System SKU       |
 | ---------- | ----------- | -------------- |
