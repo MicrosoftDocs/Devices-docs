@@ -2,9 +2,9 @@
 
 
 
-## Week of October 25, 2021
+## Week of January 03, 2022
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 10/25/2021 | [Surface Duo documentation # < 60 chars](/surface-duo/index) | modified |
+| 1/4/2022 | [Surface Lifecycle for Android-based devices](/surface-duo/surface-lifecycle-android-devices) | modified |
