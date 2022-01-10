@@ -14,22 +14,21 @@ manager: laurawi
 audience: itpro
 ---
 
-# Surface Laptop SE overview 
+# Surface Laptop SE overview
 
-Surface Laptop SE provides a managed device experience that simplifies learning for students at an affordable cost. It runs Windows 11 SE, a cloud-first OS and [comes pre-loaded with widely used apps](#pre-installed-apps) like Microsoft Teams, Word, PowerPoint, Excel, OneNote, Edge, Minecraft: Education Edition, Flipgrid, and more. It supports most applications that students and educators need including Progressive Web Apps (PWA), Universal Windows Platform (UWP) and a [curated set of Win32 apps](#install-optional-apps). 
+Surface Laptop SE provides a managed device experience that simplifies learning for students at an affordable cost. It runs Windows 11 SE, a cloud-first OS and [comes pre-loaded with widely used apps](#pre-installed-apps) like Microsoft Teams, Word, PowerPoint, Excel, OneNote, Edge, Minecraft: Education Edition, Flipgrid, and more. It supports most applications that students and educators need including Progressive Web Apps (PWA), Universal Windows Platform (UWP) and a [curated set of Win32 apps](#install-optional-apps).
 
-Unlike other Surface devices, Surface Laptop SE prevents users from installing their own apps. Instead, IT admins or technical leads manage Surface Laptop SE devices using Microsoft Intune or Microsoft Intune for Education. 
+Unlike other Surface devices, Surface Laptop SE prevents users from installing their own apps. Instead, IT admins or technical leads manage Surface Laptop SE devices using Microsoft Intune or Microsoft Intune for Education.
 
 > [!NOTE]
 > This article is intended for IT admins and education personnel who deploy and manage devices for school users. For general information or to order see [Surface Laptop SE Slim Laptop for Students](https://www.microsoft.com/surface/business/surface-laptop-se).
 
-
 ## Simplified deployment, management, and security
 
-- Complete low-touch deployment for new devices using Windows Autopilot, easily applying policies and installing apps. Windows Autopilot provides low-touch deployment and imaging out of the box, with many apps and policies preinstalled and preconfigured. IT can easily adjust device settings—including firmware settings—and install the apps students need so that everything is ready to go when they first power on their device. 
-- Once devices are deployed, Microsoft Intune delivers streamlined remote management throughout the school year, giving IT the ability to manage apps, control security and privacy, and generate compliance reports. 
+- Complete low-touch deployment for new devices using Windows Autopilot, easily applying policies and installing apps. Windows Autopilot provides low-touch deployment and imaging out of the box, with many apps and policies preinstalled and preconfigured. IT can easily adjust device settings—including firmware settings—and install the apps students need so that everything is ready to go when they first power on their device.
+- Once devices are deployed, Microsoft Intune delivers streamlined remote management throughout the school year, giving IT the ability to manage apps, control security and privacy, and generate compliance reports.
 - Lock the operating system with lid-lock when the laptop is closed, and control physical access with the integrated Kensington Nano Security Slot™.
-- A newly designed non-exposed hinge, a plastic chassis, and a plastic boarder surrounding the screen that goes out to the bezel, makes Surface Laptop SE more durable than the standard Surface device to better meet the needs and demands of student use. 
+- A newly designed non-exposed hinge, a plastic chassis, and a plastic boarder surrounding the screen that goes out to the bezel, makes Surface Laptop SE more durable than the standard Surface device to better meet the needs and demands of student use.
 - Intune and DFCI support secure device updates and management to the firmware layer. IT admins can control hardware elements such as mics, USB ports, cameras, and Bluetooth—and remove power to peripherals. The unique scannable Surface packaging allows easy identification of devices, with the device ID number staying the same when it comes time to re-enroll.
 
 ## Common admin scenarios
@@ -41,7 +40,6 @@ Unlike other Surface devices, Surface Laptop SE prevents users from installing t
 | Replace devices as needed                                           | In the event that students crack their screen or otherwise damage the device, IT admins can quickly deploy spare devices, transferring the students’ cloud identities to the new devices when the students swap in the broken ones.                                                                                                  | - [Remote device actions in Intune for Education](/intune-education/edu-device-remote-actions)                                                                                                                                                                                                                                                                                   |
 | Deploy new apps via Intune                                          | If teachers request a new app IT admins can remotely install the app on all student devices using Intune.                                                                                                                                                                                                                            | - [Install apps for all users](/microsoft-365/education/deploy/use-intune-for-education#install-apps-for-all-users)                                                                                                                                                                                                                                                              |
 | Reset devices via Intune                                            | When students turn in their Surface Laptop SE devices at the end of the school year IT admins can uses Intune to reset the devices for the next class that will need the devices at the beginning of the next school year.                                                                                                           | - [Use Autopilot Reset to reconfigure devices with Intune for Education](/intune-education/autopilot-reset)                                                                                                                                                                                                                                                                      |
-
 
 ## Pre-installed apps
 
@@ -63,7 +61,7 @@ Surface Laptop  SE comes with the following pre-installed apps:
 - OneNote
 - Outlook
 - Paint
-- Photos 
+- Photos
 - PowerPoint
 - Snipping tool
 - Sticky notes
@@ -76,20 +74,20 @@ Surface Laptop  SE comes with the following pre-installed apps:
 
 ## Install optional apps
 
-IT admins can install a [additional apps](/education/windows/windows-11-se-overview#available-apps) such as Chrome or Zoom via Intune. Note there is no app store for Surface Laptop SE. 
+IT admins can install a [additional apps](/education/windows/windows-11-se-overview#available-apps) such as Chrome or Zoom via Intune. Note there is no app store for Surface Laptop SE.
 
-Before you can add a Win32 app to Microsoft Intune, you must prepare the app by using the [Microsoft Win32 Content Prep Tool](https://github.com/Microsoft/Microsoft-Win32-Content-Prep-Tool), available from GitHub. 
+Before you can add a Win32 app to Microsoft Intune, you must prepare the app by using the [Microsoft Win32 Content Prep Tool](https://github.com/Microsoft/Microsoft-Win32-Content-Prep-Tool), available from GitHub.
 
 Refer to the following documentation:
 
 - [Prepare Win32 app content for upload](/mem/intune/apps/apps-win32-prepare)
 - [Add, assign, and monitor a Win32 app in Microsoft Intune](/mem/intune/apps/apps-win32-add)
 
-
 ## Repairability
 
-Surface Laptop SE Surface Laptop SE is designed to enabble skilled technicians to service devices locally by quickly replacing core components: 
+Surface Laptop SE Surface Laptop SE is designed to enabble skilled technicians to service devices locally by quickly replacing core components:
 saa
+
 - Display Module  
 - Keyboard & Bucket
 - Speaker & Wi-Fi Module
@@ -98,8 +96,7 @@ saa
 
 Schools can use an Authorized Service Provider or their own skilled technicians to repair devices onsite following the Microsoft-provided "Surface Laptop SE Service Guide," available from [Surface Service Guides](https://www.microsoft.com/download/100440).
 
-To learn more about servicing, see [Surface Laptop SE Repair Video](https://youtu.be/fVjjSqfp75g). 
-
+To learn more about servicing, see [Surface Laptop SE Repair Video](https://youtu.be/fVjjSqfp75g).
 
 ## Technical specifications
 
