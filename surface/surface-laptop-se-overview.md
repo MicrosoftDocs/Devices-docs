@@ -99,23 +99,23 @@ Schools can use an Authorized Service Provider or their own skilled technicians 
 
 To learn more see:
 
--[Surface Laptop SE Repair Video](https://youtu.be/fVjjSqfp75g).
--[Top support solutions for Surface devices](support-solutions-surface.md)
+- [Surface Laptop SE Repair Video](https://youtu.be/fVjjSqfp75g)
+- [Top support solutions for Surface devices](support-solutions-surface.md)
 
 ## Surface Laptop SE tech specs
 
 | Feature                     | Description                                                                                                                                                                                               |
 | --------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Dimensions**              | - 11.17” x 7.6” x 0.70” (283.70 mm x 193.05 mm x 17.85 mm)                                                                                                                                                |
-| **Storage**                 | - On board, Embedded Multimedia Card (eMMC) 64GB or 128GB                                                                                                                                                 |
+| **Storage**<sup>1</sup>                 | - On board, Embedded Multimedia Card (eMMC) 64GB or 128GB                                                                                                                                                 |
 | **Display**                 | - Screen: 11.6” TFT Liquid Crystal Display Module<br>- Display Resolution: 1366 x 768 (135 PPI)<br>- Aspect Ratio: 16:9<br>- Contrast ratio: 800:1 (Typical)<br>- Luminance: 220 nits<br>- No Cover Glass |
-| **Battery**                 | - 35Wh (nominal), 33.9Wh (min)<br>- 16 hours of battery life                                                                                                                                              |
+| **Battery**                 | - 35Wh (nominal), 33.9Wh (min)<br>- 16 hours of battery life <sup>2</sup>                                                                                                                                              |
 | **Memory**                  | - 4GB or 8GB DDR4 (2400 MHz min)                                                                                                                                                                          |
 | **CPU / Graphics**          | - Intel® Celeron® Processor N4020 / Intel® UHD Graphics 600<br>- Intel® Celeron® Processor N4120 / Intel® UHD Graphics 600                                                                                |
 | **Connections**             | - 1 x USB-A<br>- 1 x USB-C<br>- 1 x Barrel type DC connector<br>- 1 x 3.5 mm Headphone/Mic Jack                                                                                                           |
 | **Security**                | - Firmware TPM across all configurations (Commercial)<br>- Nano Security Lock slot                                                                                                                        |
 | **Cameras, video, & audio** | - 1MP front-facing camera with up to 720p 30fps video<br>- 2W Stereo Speakers<br>- Single digital microphone                                                                                              |
-| **Software**                | - Windows 11 SE<br>- Microsoft 365 for Education                                                                                                                                                          |
+| **Software**                | - Windows 11 SE<br>- Microsoft 365 for Education<sup>3</sup>                                                                                                                                                         |
 | **Wireless**                | - Wi-Fi: 802.11ac (2x2)<br>- Bluetooth Wireless 5.0 LE                                                                                                                                                    |
 | **Sensors**                 | - 1 x Hall-effect sensor                                                                                                                                                                                  |
 | **Exterior**                | - Casing: All plastic body unpainted<br>- Colors: Glacier<br>- Physical buttons: Power and Volume on keyboard<br>- Hinge: 135 degrees open angle                                                          |
@@ -124,10 +124,17 @@ To learn more see:
 | **Thermals**                | - Passively cooled                                                                                                                                                                                        |
 | **Power supply**            | - In-box, 45W with DC Barrel charger                                                                                                                                                                      |
 | **In the box**              | - Surface device<br>- Power supply<br>- Quick Start Guide<br>- Safety and warranty documents                                                                                                              |
-| **Warranty**                | - One-year limited hardware warranty                                                                                                                                                                      |
+| **Warranty**<sup>4</sup>    | - One-year limited hardware warranty                                                                                                                                                                      |
+
+## References
+
+1. System software and updates use significant storage space. Available storage is subject to change based on system software and updates and apps usage. 1 GB = 1 billion bytes. 1 TB = 1,000 GB. See [Surface Storage](https://support.microsoft.com/help/4023513/surface-surface-storage?os=windows-10&=undefined) for more details.
+2. Surface Laptop SE battery life: Up to 16 hours of battery life based on typical Surface device usage.
+3. Requires qualifying Microsoft 365 or Office 365 license; sold separately. [Compare Microsoft 365 education plans](https://aka.ms/EDU-Plan-Comparison).
+4. Microsoft’s Limited Warranty is in addition to your consumer law rights.
 
 
-Learn more
+## Learn more
 
 - [Order Surface Laptop SE](https://www.microsoft.com/surface/business/surface-laptop-se)
 - [Windows 11 SE for Education](/education/windows/windows-11-se-overview)
