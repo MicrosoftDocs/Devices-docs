@@ -16,9 +16,9 @@ audience: itpro
 
 # Surface Laptop SE overview
 
-Surface Laptop SE provides a managed device experience that simplifies learning for students at an affordable cost. It runs Windows 11 SE, a cloud-first OS and [comes pre-loaded with widely used apps](#pre-installed-apps) like Microsoft Teams, Word, PowerPoint, Excel, OneNote, Edge, Minecraft: Education Edition, Flipgrid, and more. It supports most applications that students and educators need including Progressive Web Apps (PWA), Universal Windows Platform (UWP) and a [curated set of Win32 apps](#install-optional-apps).
+Surface Laptop SE provides a managed device experience that simplifies learning for students at an affordable cost. It runs Windows 11 SE, a cloud-first OS and [comes pre-loaded with widely used apps](#pre-installed-apps) like Microsoft Teams, Word, PowerPoint, Excel, OneNote, Edge, Minecraft: Education Edition, Flipgrid, and more. 
 
-Unlike other Surface devices, Surface Laptop SE prevents users from installing their own apps. Instead, IT admins or technical leads manage Surface Laptop SE devices using Microsoft Intune or Microsoft Intune for Education.
+It supports most applications that students and educators need including Progressive Web Apps (PWA), Universal Windows Platform (UWP) and a [curated set of Win32 apps](#install-optional-apps)Unlike other Surface devices, Surface Laptop SE prevents users from installing their own apps. Instead, IT admins or technical leads manage Surface Laptop SE devices using [Microsoft Intune](/mem/intune/fundamentals/what-is-intune) or [Microsoft Intune for Education](https://www.microsoft.com/education/intune).
 
 > [!NOTE]
 > This article is intended for IT admins and education personnel who deploy and manage devices for school users. For general information or to order see [Surface Laptop SE Slim Laptop for Students](https://www.microsoft.com/surface/business/surface-laptop-se).
