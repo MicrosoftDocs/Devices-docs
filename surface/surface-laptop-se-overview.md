@@ -36,7 +36,7 @@ It supports most applications that students and educators need including Progres
 | Scenario                                                            | Description                                                                                                                                                                                                                                                                                                                          | Learn more                                                                                                                                                                                                                                                                                                                                                                                                       |
 | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Remotely configure Surface Laptop SE devices with Windows Autopilot | Windows Autopilot provides low-touch deployment and imaging out of the box, with many apps and policies preinstalled and preconfigured. IT can easily adjust device settings—including firmware settings—and install the apps students need so that everything is ready to go when they first power on their device.                 |[Set up Intune for Education devices with Windows Autopilot](/intune-education/windows-autopilot-setup)<br><br>[How should I enroll my devices?](/intune-education/how-should-i-enroll-devices)                                                                                                                                                  |
-| Deploy updates via Intune for Education                             | Throughout the year, IT admins can use Microsoft Intune to push out OS and app updates to Surface Laptop SE devices across the school. If necessary, they can disable hardware elements like the camera or Bluetooth on an individual device, and can also reset an individual device if a student is experiencing technical issues. |[Microsoft Education documentation and resources](/microsoft-365/education/)<br><br>[Get started with Intune for Education](/microsoft-365/education/deploy/intune-for-education)<br><br>[Use Intune for Education to manage groups, apps, and settings](/microsoft-365/education/deploy/use-intune-for-education) |
+| Deploy updates via Intune for Education                             | Throughout the year, IT admins can use Microsoft Intune to push out OS and app updates to Surface Laptop SE devices across the school. If necessary, they can disable hardware elements like the camera or Bluetooth on an individual device, and can also reset an individual device if a student is experiencing technical issues. |[Manage devices running Windows 11 SE](/intune-education/windows-11-se-overview)<br><br>[Microsoft Education documentation and resources](/microsoft-365/education/)<br><br>[Get started with Intune for Education](/microsoft-365/education/deploy/intune-for-education)<br><br>[Use Intune for Education to manage groups, apps, and settings](/microsoft-365/education/deploy/use-intune-for-education) |
 | Replace devices as needed                                           | In the event that students crack their screen or otherwise damage the device, IT admins can quickly deploy spare devices, transferring the students’ cloud identities to the new devices when the students swap in the broken ones.                                                                                                  |[Remote device actions in Intune for Education](/intune-education/edu-device-remote-actions)                                                                                                                                                                                                                                                                                   |
 | Deploy new apps via Intune                                          | If teachers request a new app IT admins can remotely install the app on all student devices using Intune.                                                                                                                                                                                                                            |[Install apps for all users](/microsoft-365/education/deploy/use-intune-for-education#install-apps-for-all-users)                                                                                                                                                                                                                                                              |
 | Reset devices via Intune                                            | When students turn in their Surface Laptop SE devices at the end of the school year IT admins can uses Intune to reset the devices for the next class that will need the devices at the beginning of the next school year.                                                                                                           |[Use Autopilot Reset to reconfigure devices with Intune for Education](/intune-education/autopilot-reset)                                                                                                                                                                                                                                                                      |
@@ -86,7 +86,6 @@ Refer to the following documentation:
 ## Repairability
 
 Surface Laptop SE Surface Laptop SE is designed to enabble skilled technicians to service devices locally by quickly replacing core components:
-saa
 
 - Display Module  
 - Keyboard & Bucket
@@ -96,9 +95,12 @@ saa
 
 Schools can use an Authorized Service Provider or their own skilled technicians to repair devices onsite following the Microsoft-provided "Surface Laptop SE Service Guide," available from [Surface Service Guides](https://www.microsoft.com/download/100440).
 
-To learn more about servicing, see [Surface Laptop SE Repair Video](https://youtu.be/fVjjSqfp75g).
+To learn more see:
 
-## Technical specifications
+-[Surface Laptop SE Repair Video](https://youtu.be/fVjjSqfp75g).
+-[Top support solutions for Surface devices](support-solutions-surface.md)
+
+## Surface Laptop SE tech specs
 
 | Feature                     | Description                                                                                                                                                                                               |
 | --------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -121,3 +123,12 @@ To learn more about servicing, see [Surface Laptop SE Repair Video](https://yout
 | **Power supply**            | - In-box, 45W with DC Barrel charger                                                                                                                                                                      |
 | **In the box**              | - Surface device<br>- Power supply<br>- Quick Start Guide<br>- Safety and warranty documents                                                                                                              |
 | **Warranty**                | - One-year limited hardware warranty                                                                                                                                                                      |
+
+
+Learn more
+
+- [Order Surface Laptop SE](https://www.microsoft.com/surface/business/surface-laptop-se)
+- [Windows 11 SE for Education](/education/windows/windows-11-se-overview)
+- [Manage devices running Windows 11 SE](/intune-education/windows-11-se-overview)
+- [Set up Intune for Education devices with Windows Autopilot](/intune-education/windows-autopilot-setup)
+- [Microsoft Education documentation and resources](/microsoft-365/education/)
