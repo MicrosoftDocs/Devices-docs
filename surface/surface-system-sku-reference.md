@@ -78,7 +78,7 @@ System Model and System SKU are variables stored in System Management BIOS (SMBI
 Use the following PowerShell command to pull the System SKU information:
 
  ``` powershell  
-gwmi -namespace root\wmi -class MS_SystemInformation | select SystemSKU 
+(Get-CimInstance -Namespace root\wmi -ClassName MS_SystemInformation).SystemSKU
 ```
 
 **Retrieving the SKU by using System Information**  
