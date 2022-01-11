@@ -22,8 +22,8 @@ ms.localizationpriority: Medium
 |**Weight**| 61.6 lbs. (28 kg) |
 |**Shipping Weight**| 81.08 lbs. (36.77 kg) |
 |**Display**| PixelSense Display, 3:2 aspect ratio, 10-bit color, 15.5 mm border, anti-glare, IPS LCD |
-|**Resolution**| 3840 x 2560 |
-|**Contrast**| 1200:1 (Typical), 1000:1 minimum. |
+|**Resolution**| 3840 x 2560 (4K UHD) |
+|**Contrast**| 1200:1 (typical), 1000:1 minimum. |
 |**Brightness**| 350 nits (typical)  |
 |**Processor**| Quad-core 8th Generation Intel Core i5 processor, 8 GB RAM, 128 GB SSD<sup>1</sup> |
 |**Graphics**| Intel UHD Graphics 620 |
