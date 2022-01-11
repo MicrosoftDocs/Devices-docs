@@ -9,7 +9,7 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 02/26/2021
+ms.date: 01/11/2022
 ms.localizationpriority: Medium
 ---
 
@@ -31,8 +31,8 @@ The 85" version of the Surface Hub family brings the Surface Hub 2S experience t
 |**Shipping dimensions**| 89.5” x 62” x 22.8”<br>(2275 mm x 1573 mm x 580 mm)                                                                                                                                                                                                        |
 |**Weight**| 185 lbs (84 kg)                                                                                                                                                                                                                                            |
 |**Shipping weight**| 399 lbs (181 kg)                                                                                                                                                                                                                                            |
-|**Resolution**| 3840 x 2160                                                                                                                                                                                                                                               |
-|**Display**| PixelSense™ Display, 16:9 aspect ratio, 10-bit color, 30.5mm border width, anti-glare, IPS LCD, in-cell touch with 20 simultaneous touch points                                                                                                           |
+|**Resolution**| 3840 x 2160 (4K UHD)                                                                                                                                                                                                                                              |
+|**Display**| PixelSense™ Display, 16:9 aspect ratio, 10-bit color, 1400:1 contrast ratio, 350 nits brightness, 30.5mm border width, anti-glare, IPS LCD, in-cell touch with 20 simultaneous touch points                                                                                                           |
 |**Compute**| Modular Compute Cartridge<br>Quad-core 8th Generation Intel® Core™ i5 processor, 8GB RAM, 128GB SSD<sup>1</sup>                                                                                                                                                      |
 |**Software<sup>2</sup>**| Windows 10 Team OS<br>Microsoft Teams for Surface Hub<br>Skype for Business<br>Microsoft Whiteboard<br>Microsoft Office (Mobile)<br>Microsoft Power BI                                                                                               |
 |**Connections**| USB-A<br>Mini-DisplayPort Video Output<br>RJ45 Gigabit Ethernet<br>HDMI Video Input<br>USB-C® with DisplayPort Input<br>(3) USB-C® (on display)                                                                                                           |
