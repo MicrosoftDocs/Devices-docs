@@ -126,7 +126,7 @@ To learn more, see:
 
 1. System software and updates use significant storage space. Available storage is subject to change based on system software and updates and apps usage. 1 GB = 1 billion bytes. 1 TB = 1,000 GB. See [Surface Storage](https://support.microsoft.com/help/4023513/surface-surface-storage?) for more details.
 2. Surface Laptop SE battery life: Up to 16 hours of battery life based on typical Surface device usage.
-3. Requires qualifying Microsoft 365 or Office 365 license; sold separately. [Compare Microsoft 365 education plans](https://aka.ms/EDU-Plan-Comparison.
+3. Requires qualifying Microsoft 365 or Office 365 license; sold separately. [Compare Microsoft 365 education plans](https://aka.ms/EDU-Plan-Comparison).
 4. Microsoft’s Limited Warranty is in addition to your consumer law rights.
 
 
