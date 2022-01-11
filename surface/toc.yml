@@ -8,6 +8,8 @@
       items: 
       - name: Technical overviews
         items:
+         - name: Surface Laptop SE overview
+           href: surface-laptop-se-overview.md
          - name: Surface OS choice
            href: surface-os-choice.md
          - name: Surface security overview
