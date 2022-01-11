@@ -20,7 +20,7 @@ Surface Laptop SE provides a managed device experience that simplifies learning 
 
 :::image type="content" source="images/surface-laptop-se.png" alt-text="Surface Laptop SE":::
 
-Surface Laptop SE supports most applications that students and educators need, including Progressive Web Apps (PWAs), Universal Windows Platform apps (UWPs), and a [curated set of Win32 apps](#install-optional-apps). Unlike other Surface devices, Surface Laptop SE prevents users from installing their own apps. Instead, IT admins or technical leads manage Surface Laptop SE devices using [Microsoft Intune](/mem/intune/fundamentals/what-is-intune) or [Microsoft Intune for Education](https://www.microsoft.com/education/intune).
+Surface Laptop SE supports most applications that students and educators need, including Progressive Web Apps (PWAs), Universal Windows Platform apps (UWPs), and a [curated set of Win32 & Microsoft Store apps](#install-optional-apps). Unlike other Surface devices, Surface Laptop SE prevents users from installing their own apps. Instead, IT admins or technical leads manage Surface Laptop SE devices using [Microsoft Intune](/mem/intune/fundamentals/what-is-intune) or [Microsoft Intune for Education](https://www.microsoft.com/education/intune).
 
 > [!NOTE]
 > This article is intended for IT admins and education personnel who deploy and manage devices for school users. For general information or to order, see [Surface Laptop SE Slim Laptop for Students](https://www.microsoft.com/surface/business/surface-laptop-se).
@@ -54,14 +54,14 @@ Surface Laptop  SE comes with the following pre-installed apps:
 - Microsoft Edge
 - Microsoft News
 - Microsoft Teams
-- Microsoft to do
+- Microsoft To Do
 - Microsoft Whiteboard
 - Minecraft Education Edition
 - Notepad
 - Microsoft Office
 - OneDrive
 - OneNote
-- Outlook
+- Outlook on the web
 - Paint
 - Photos
 - PowerPoint
@@ -76,14 +76,10 @@ Surface Laptop  SE comes with the following pre-installed apps:
 
 ## Install optional apps
 
-IT admins can install [additional apps](/education/windows/windows-11-se-overview#available-apps) such as Chrome or Zoom via Intune. Note there is no app store for Surface Laptop SE.
+IT admins can install [additional apps](/education/windows/windows-11-se-overview#available-apps) such as Chrome or Zoom via Intune. Note there is no app store for Surface Laptop SE. Refer to the following instructions to complete your app deployment: 
 
-Before you can add a Win32 app to Microsoft Intune, you must prepare the app using the [Microsoft Win32 Content Prep Tool](https://github.com/Microsoft/Microsoft-Win32-Content-Prep-Tool), available from GitHub.
+- [App deployment](/intune-education/windows-11-se-overview#app-deployment)
 
-After using the content prep tool, refer to the following instructions to complete your app deployment: 
-
-- [Prepare Win32 app content for upload](/mem/intune/apps/apps-win32-prepare)
-- [Add, assign, and monitor a Win32 app in Microsoft Intune](/mem/intune/apps/apps-win32-add)
 
 ## Repairability
 
@@ -142,3 +138,4 @@ To learn more, see:
 - [Manage devices running Windows 11 SE](/intune-education/windows-11-se-overview)
 - [Set up Intune for Education devices with Windows Autopilot](/intune-education/windows-autopilot-setup)
 - [Microsoft Education documentation and resources](/microsoft-365/education/)
+- [Outlook on the web](https://www.microsoft.com/microsoft-365/outlook/web-email-login-for-outlook?)
