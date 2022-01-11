@@ -137,6 +137,7 @@ To learn more, see:
 ## Learn more
 
 - [Order Surface Laptop SE](https://www.microsoft.com/surface/business/surface-laptop-se)
+- [Introducing Surface Laptop SE for Education](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/introducing-surface-laptop-se-for-education/ba-p/1721767)
 - [Windows 11 SE for Education](/education/windows/windows-11-se-overview)
 - [Manage devices running Windows 11 SE](/intune-education/windows-11-se-overview)
 - [Set up Intune for Education devices with Windows Autopilot](/intune-education/windows-autopilot-setup)
