@@ -21,8 +21,10 @@ ms.localizationpriority: Medium
 |**Shipping dimensions**| 47.64" x 36.89" x 9.92" (1,210 mm x 937 mm x 252 mm)|
 |**Weight**| 61.6 lbs. (28 kg) |
 |**Shipping Weight**| 81.08 lbs. (36.77 kg) |
-|**Resolution**| 3840 x 2560 |
 |**Display**| PixelSense Display, 3:2 aspect ratio, 10-bit color, 15.5 mm border, anti-glare, IPS LCD |
+|**Resolution**| 3840 x 2560 (4K UHD) |
+|**Contrast**| 1200:1 (typical), 1000:1 minimum |
+|**Brightness**| 350 nits (typical)  |
 |**Processor**| Quad-core 8th Generation Intel Core i5 processor, 8 GB RAM, 128 GB SSD<sup>1</sup> |
 |**Graphics**| Intel UHD Graphics 620 |
 |**Wireless**| Wi-Fi 5 (IEEE 802.11 a/b/g/n/ac compatible) Bluetooth Wireless 4.1 technology <br> Miracast display |
