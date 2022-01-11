@@ -23,6 +23,8 @@ ms.localizationpriority: Medium
 |**Shipping Weight**| 81.08 lbs. (36.77 kg) |
 |**Resolution**| 3840 x 2560 |
 |**Display**| PixelSense Display, 3:2 aspect ratio, 10-bit color, 15.5 mm border, anti-glare, IPS LCD |
+|**Contrast**| 1200:1 (Typical), 1000:1 minimum. |
+|**Brightness**| 350 nits (typical)  |
 |**Processor**| Quad-core 8th Generation Intel Core i5 processor, 8 GB RAM, 128 GB SSD<sup>1</sup> |
 |**Graphics**| Intel UHD Graphics 620 |
 |**Wireless**| Wi-Fi 5 (IEEE 802.11 a/b/g/n/ac compatible) Bluetooth Wireless 4.1 technology <br> Miracast display |
