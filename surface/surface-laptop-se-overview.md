@@ -35,7 +35,7 @@ Surface Laptop SE supports most applications that students and educators need, i
 
 ### Surface Management Portal
 
-When you enroll Surface Laptop SE for cloud management and users log in  for the first time, information from these Surface devices automatically flows into the Surface Management Portal, giving you a single pane of glass for Surface-specific device admin activities. You can get insights into device compliance, support activity, and warranty coverage. Quickly see the status of each device, which ones are still in warranty or expiring soon, and the status of active support requests with your hardware providers.
+When you enroll Surface Laptop SE for cloud management and users log in  for the first time, information from these Surface devices automatically flows into the [Surface Management Portal](surface-management-portal.md), giving you a single pane of glass for Surface-specific device admin activities. You can get insights into device compliance, support activity, and warranty coverage. Quickly see the status of each device, which ones are still in warranty or expiring soon, and the status of active support requests.
 
 :::image type="content" source="images/surface-management-portal-laptop-se.png" alt-text="Surface Management Portal showing Surface Laptop SE":::
 *Surface Management Portal showing Surface Laptop SE*
