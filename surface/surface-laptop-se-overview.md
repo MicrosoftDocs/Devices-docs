@@ -20,7 +20,7 @@ Surface Laptop SE provides a managed device experience that simplifies learning 
 
 :::image type="content" source="images/surface-laptop-se.png" alt-text="Surface Laptop SE":::
 
-Surface Laptop SE supports most applications that students and educators need, including Progressive Web Apps (PWAs), Universal Windows Platform apps (UWPs), and a [curated set of Win32 & Microsoft Store apps](#install-optional-apps). Unlike other Surface devices, Surface Laptop SE prevents users from installing their own apps. Instead, IT admins or technical leads manage Surface Laptop SE devices using [Microsoft Intune](/mem/intune/fundamentals/what-is-intune) or [Microsoft Intune for Education](https://www.microsoft.com/education/intune).
+Surface Laptop SE supports most applications that students and educators need, including Progressive Web Apps (PWAs), Universal Windows Platform apps (UWPs), and a [curated set of Win32 & Microsoft Store apps](#install-optional-apps). Unlike other Surface devices, Surface Laptop SE prevents users from installing their own apps. Instead, IT admins or technical leads manage Surface Laptop SE devices using Microsoft Endpoint Manager, which includes [Microsoft Intune](/mem/intune/fundamentals/what-is-intune), [Microsoft Intune for Education](https://www.microsoft.com/education/intune), and the new [Surface Management Portal](surface-management-portal.md). 
 
 > [!NOTE]
 > This article is intended for IT admins and education personnel who deploy and manage devices for school users. For general information or to order, see [Surface Laptop SE Slim Laptop for Students](https://www.microsoft.com/surface/business/surface-laptop-se).
@@ -32,6 +32,13 @@ Surface Laptop SE supports most applications that students and educators need, i
 - Lock the operating system with lid-lock when the laptop is closed, and control physical access with the integrated Kensington Nano Security Slot™.
 - A newly designed non-exposed hinge, a plastic chassis, and a plastic border surrounding the screen that goes out to the bezel provide extra durability to better meet the needs and demands of student use.
 - Intune and DFCI support secure device updates and management to the firmware layer. IT admins can control hardware elements such as mics, USB ports, cameras, and Bluetooth—and remove power to peripherals. The unique scannable Surface packaging allows easy identification of devices, with the device ID number staying the same when it comes time to re-enroll.
+
+### Surface Management Portal
+
+When you enroll Surface Laptop SE for cloud management and users log in  for the first time, information from these Surface devices automatically flows into the Surface Management Portal, giving you a single pane of glass for Surface-specific device admin activities. You can get insights into device compliance, support activity, and warranty coverage. Quickly see the status of each device, which ones are still in warranty or expiring soon, and the status of active support requests with your hardware providers.
+
+:::image type="content" source="images/surface-management-portal-laptop-se.png" alt-text="Surface Management Portal showing Surface Laptop SE":::
+*Surface Management Portal showing Surface Laptop SE*
 
 ## Common admin scenarios
 
