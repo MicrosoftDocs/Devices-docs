@@ -25,7 +25,7 @@ Surface Laptop SE supports most applications that students and educators need, i
 > [!NOTE]
 > This article is intended for IT admins and education personnel who deploy and manage devices for school users. For general information or to order, see [Surface Laptop SE Slim Laptop for Students](https://www.microsoft.com/surface/business/surface-laptop-se).
 
-## Simplified deployment, management, and security
+## Simplified deployment, management & security
 
 - Complete low-touch deployment for new devices using Windows Autopilot, quickly applying policies and installing apps. Windows Autopilot provides low-touch deployment and imaging out of the box, with many apps and policies pre-installed and pre-configured. IT can easily adjust device settings—including firmware settings—and install the apps students need so that everything is ready to go when they first power on their device.
 - Once devices are deployed, Microsoft Intune delivers streamlined remote management throughout the school year, giving IT the ability to manage apps, control security and privacy, and generate compliance reports.
