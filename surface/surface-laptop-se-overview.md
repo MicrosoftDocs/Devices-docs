@@ -18,7 +18,8 @@ audience: itpro
 
 Surface Laptop SE provides a managed device experience that simplifies learning for students at an affordable cost. It runs Windows 11 SE, a cloud-first OS, and [comes pre-loaded with widely used apps](#pre-installed-apps) like Microsoft Teams, Word, PowerPoint, Excel, OneNote, Edge, Minecraft: Education Edition, Flipgrid, and more. 
 
-:::image type="content" source="images/surface-laptop-se.png" alt-text="Surface Laptop SE":::
+:::image type="content" source="images/surface-laptop-se.png" alt-text="Surface Laptop SE showing Windows 11 SE Start menu":::
+*Figure 1. Surface Laptop SE showing Windows 11 SE Start menu*
 
 Surface Laptop SE supports most applications that students and educators need, including Progressive Web Apps (PWAs), Universal Windows Platform apps (UWPs), and a [curated set of Win32 & Microsoft Store apps](#install-optional-apps). Unlike other Surface devices, Surface Laptop SE prevents users from installing their own apps. Instead, IT admins or technical leads manage Surface Laptop SE devices using Microsoft Endpoint Manager, which includes [Microsoft Intune](/mem/intune/fundamentals/what-is-intune), [Microsoft Intune for Education](https://www.microsoft.com/education/intune), and the new [Surface Management Portal](surface-management-portal.md). 
 
@@ -37,8 +38,8 @@ Surface Laptop SE supports most applications that students and educators need, i
 
 When you enroll Surface Laptop SE for cloud management and users log in  for the first time, information from these Surface devices automatically flows into the [Surface Management Portal](surface-management-portal.md), giving you a single pane of glass for Surface-specific device admin activities. You can get insights into device compliance, support activity, and warranty coverage. Quickly see the status of each device, which ones are still in warranty or expiring soon, and the status of active support requests.
 
-:::image type="content" source="images/surface-management-portal-laptop-se.png" alt-text="Surface Management Portal showing Surface Laptop SE":::
-*Figure 1. Surface Management Portal showing warranty coverage for Surface Laptop SE*
+:::image type="content" source="images/surface-management-portal-laptop-se.png" alt-text="Surface Management Portal showing warranty coverage for Surface Laptop SE":::
+*Figure 2. Surface Management Portal showing warranty coverage for Surface Laptop SE*
 
 ## Common admin scenarios
 
