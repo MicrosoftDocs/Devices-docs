@@ -16,15 +16,14 @@ ms.audience: itpro
 
 # Surface Brightness Control
 
-When deploying Surface devices in point of sale or other “always-on”
-kiosk scenarios, you can optimize power management using the new Surface
-Brightness Control app. Surface Brightness Control is designed to help reduce thermal load and lower the overall carbon footprint for deployed Surface devices. The tool automatically dims the screen when not in use and includes the following configuration options:
+When deploying Surface devices in point of sale or other "always-on"
+kiosk scenarios, you can optimize power management using the Surface Brightness Control app. Surface Brightness Control is designed to help reduce thermal load and lower the overall carbon footprint for deployed Surface devices. The tool automatically dims the screen when not in use and includes the following configuration options:
 
 - Period of inactivity before dimming the display.
 - Brightness level when dimmed.
 - Maximum brightness level when in use.
 
-Download it from [Surface Tools for IT](https://www.microsoft.com/download/details.aspx?id=46703). Select the file **Surface_Brightness_Control_v1.16.137.0.msi** in the available list.
+Download Surface Brightness Control from [Surface Tools for IT](https://www.microsoft.com/download/details.aspx?id=46703). Select the file **Surface_Brightness_Control_v1.16.137.0.msi** in the available list.
 
 ## Supported devices
 
@@ -41,12 +40,11 @@ Download it from [Surface Tools for IT](https://www.microsoft.com/download/detai
 
 ## Run Surface Brightness Control
 
-- Install **Surface_Brightness_Control_v1.16.137.0.msi** on the target device and Surface Brightness Control
-  will begin working immediately.
+- Install **Surface_Brightness_Control_v1.16.137.0.msi** on the target device, and Surface Brightness Control will begin working immediately.
 
 ## Configure Surface Brightness Control
 
- you can adjust the default values via the Windows Registry. For more
+You can adjust the default values via the Windows Registry. For more
 information about using the Windows Registry, refer to the [Registry
 documentation](/windows/desktop/sysinfo/registry).
 
@@ -64,7 +62,7 @@ documentation](/windows/desktop/sysinfo/registry).
 | DimmedBrightness   | Default: 20  <br>Option: Range of 0-100 percent of screen brightness <br> Data Type: Positive integer <br> Type: REG_DWORD | This setting allows you to manage brightness range during periods of inactivity. If you do not configure this setting, the brightness level will drop to 20 percent of full brightness after 30 seconds of inactivity. |
 FullBrightness   | Default: 100  <br>Option: Range of 0-100 percent of screen brightness <br> Data Type: Positive integer <br> Type: REG_DWORD  | This setting allows you to manage the maximum brightness range for the device. If you do not configure this setting, the maximum brightness range is 100 percent.|  
 | InactivityTimeout| Default: 30 seconds <br>Option: Any numeric value  <br>Data Type: Integer  <br> Type: REG_DWORD | This setting allows you to manage the period of inactivity before dimming the device. If you do not configure this setting, the inactivity timeout is 30 seconds.|
-| TelemetryEnabled | Default: 01 <br>Option: 01, 00 <br> Type: REG_BINARY  | This setting allows you to manage the sharing of app usage information to improve software and provide better user experience. To disable telemetry, set the value to 00. If you do not configure this setting, telemetry information is shared with Microsoft in accordance with the [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement). |
+| TelemetryEnabled | Default: 01 <br>Option: 01, 00 <br> Type: REG_BINARY  | This setting allows you to manage the sharing of app usage information to improve software and provide a better user experience. To disable telemetry, set the value to 00. If you do not configure this setting, telemetry information is shared with Microsoft per the [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement). |
 
 ## Changes and updates
 
