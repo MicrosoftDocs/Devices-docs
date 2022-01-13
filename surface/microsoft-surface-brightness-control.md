@@ -48,7 +48,7 @@ You can adjust the default values via the Windows Registry. For more
 information about using the Windows Registry, refer to the [Registry
 documentation](/windows/desktop/sysinfo/registry).
 
-1. Run regedit from a command prompt to open the Windows Registry Editor.
+1. Run **regedit** from a command prompt to open the Windows Registry Editor.
 2. Navigate to Computer\HKEY\_LOCAL\_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Surface\Surface Brightness Control.
 3. Adjust the Registry key values, as described in the following table.
 
