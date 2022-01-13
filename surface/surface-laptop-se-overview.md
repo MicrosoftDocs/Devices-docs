@@ -18,20 +18,28 @@ audience: itpro
 
 Surface Laptop SE provides a managed device experience that simplifies learning for students at an affordable cost. It runs Windows 11 SE, a cloud-first OS, and [comes pre-loaded with widely used apps](#pre-installed-apps) like Microsoft Teams, Word, PowerPoint, Excel, OneNote, Edge, Minecraft: Education Edition, Flipgrid, and more. 
 
-:::image type="content" source="images/surface-laptop-se.png" alt-text="Surface Laptop SE":::
+:::image type="content" source="images/surface-laptop-se.png" alt-text="Surface Laptop SE showing Windows 11 SE Start menu":::<br>
+*Figure 1. Surface Laptop SE showing Windows 11 SE Start menu*
 
-Surface Laptop SE supports most applications that students and educators need, including Progressive Web Apps (PWAs), Universal Windows Platform apps (UWPs), and a [curated set of Win32 & Microsoft Store apps](#install-optional-apps). Unlike other Surface devices, Surface Laptop SE prevents users from installing their own apps. Instead, IT admins or technical leads manage Surface Laptop SE devices using [Microsoft Intune](/mem/intune/fundamentals/what-is-intune) or [Microsoft Intune for Education](https://www.microsoft.com/education/intune).
+Surface Laptop SE supports most applications that students and educators need, including Progressive Web Apps (PWAs), Universal Windows Platform apps (UWPs), and a [curated set of Win32 & Microsoft Store apps](#install-optional-apps). Unlike other Surface devices, Surface Laptop SE prevents users from installing their own apps. Instead, IT admins or technical leads manage Surface Laptop SE devices using Microsoft Endpoint Manager, which includes [Microsoft Intune](/mem/intune/fundamentals/what-is-intune), [Microsoft Intune for Education](https://www.microsoft.com/education/intune), and the new [Surface Management Portal](surface-management-portal.md). 
 
 > [!NOTE]
 > This article is intended for IT admins and education personnel who deploy and manage devices for school users. For general information or to order, see [Surface Laptop SE Slim Laptop for Students](https://www.microsoft.com/surface/business/surface-laptop-se).
 
-## Simplified deployment, management, and security
+## Simplified deployment, management & security
 
 - Complete low-touch deployment for new devices using Windows Autopilot, quickly applying policies and installing apps. Windows Autopilot provides low-touch deployment and imaging out of the box, with many apps and policies pre-installed and pre-configured. IT can easily adjust device settings—including firmware settings—and install the apps students need so that everything is ready to go when they first power on their device.
 - Once devices are deployed, Microsoft Intune delivers streamlined remote management throughout the school year, giving IT the ability to manage apps, control security and privacy, and generate compliance reports.
 - Lock the operating system with lid-lock when the laptop is closed, and control physical access with the integrated Kensington Nano Security Slot™.
 - A newly designed non-exposed hinge, a plastic chassis, and a plastic border surrounding the screen that goes out to the bezel provide extra durability to better meet the needs and demands of student use.
 - Intune and DFCI support secure device updates and management to the firmware layer. IT admins can control hardware elements such as mics, USB ports, cameras, and Bluetooth—and remove power to peripherals. The unique scannable Surface packaging allows easy identification of devices, with the device ID number staying the same when it comes time to re-enroll.
+
+### Surface Management Portal
+
+When you enroll Surface Laptop SE for cloud management and users log in  for the first time, information from these Surface devices automatically flows into the [Surface Management Portal](surface-management-portal.md), giving you a single pane of glass for Surface-specific device admin activities. You can get insights into device compliance, support activity, and warranty coverage. Quickly see the status of each device, which ones are still in warranty or expiring soon, and the status of active support requests.
+
+:::image type="content" source="images/surface-management-portal-laptop-se.png" alt-text="Surface Management Portal showing warranty coverage for Surface Laptop SE":::
+*Figure 2. Surface Management Portal showing warranty coverage for Surface Laptop SE*
 
 ## Common admin scenarios
 
@@ -125,7 +133,7 @@ To learn more, see:
 ## References
 
 1. System software and updates use significant storage space. Available storage is subject to change based on system software and updates and apps usage. 1 GB = 1 billion bytes. 1 TB = 1,000 GB. See [Surface Storage](https://support.microsoft.com/help/4023513/surface-surface-storage?) for more details.
-2. Surface Laptop SE battery life: Up to 16 hours of battery life based on typical Surface device usage.
+2. Battery life varies significantly based on usage, network and feature configuration, signal strength, settings and other factors. See [Surface battery testing and estimated performance](https://support.microsoft.com/surface/surface-battery-testing-and-estimated-performance-f038487c-a6c8-407d-b0b0-5737ac5e8397) for details.
 3. Requires qualifying Microsoft 365 or Office 365 license; sold separately. [Compare Microsoft 365 education plans](https://aka.ms/EDU-Plan-Comparison).
 4. Microsoft’s Limited Warranty is in addition to your consumer law rights.
 
