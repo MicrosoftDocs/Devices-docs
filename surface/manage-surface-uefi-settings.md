@@ -12,7 +12,7 @@ ms.author: greglin
 ms.topic: article
 ms.reviewer: hachidan
 manager: laurawi
-ms.date: 12/09/2021
+ms.date: 01/18/2022
 ---
 
 # Manage Surface UEFI settings
@@ -90,7 +90,7 @@ The Security page allows you to set a password to protect UEFI settings. This pa
 
 - Special characters: !@#$%^&*()?<>{}[]-_=+|.,;:’`”
 
-The password must be at least 6 characters and is case sensitive.
+The password must be at least six characters and is case-sensitive.
 
 ![Add a password to protect Surface UEFI settings.](images/manage-surface-uefi-fig2.png "Add a password to protect Surface UEFI settings")
 
