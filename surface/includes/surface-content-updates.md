@@ -2,6 +2,28 @@
 
 
 
+## Week of January 10, 2022
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 1/11/2022 | [Surface Hub 2S tech specs](/surface-hub/surface-hub-2s-techspecs) | modified |
+
+
+## Week of January 10, 2022
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 1/10/2022 | [Surface System SKU reference](/surface/surface-system-sku-reference) | modified |
+| 1/11/2022 | [Surface Laptop SE overview](/surface/surface-laptop-se-overview) | added |
+| 1/11/2022 | [Surface devices documentation # < 60 chars](/surface/get-started) | modified |
+| 1/12/2022 | [Microsoft Surface for IT professionals # < 60 chars](/surface/index) | modified |
+| 1/12/2022 | [Surface Laptop SE overview](/surface/surface-laptop-se-overview) | modified |
+| 1/13/2022 | [Surface Brightness Control](/surface/microsoft-surface-brightness-control) | modified |
+| 1/13/2022 | [Surface Laptop Studio ISV-tested/certified apps](/surface/surface-laptop-studio-isv-certification) | modified |
+
+
 ## Week of January 03, 2022
 
 
@@ -32,13 +54,3 @@
 | 12/14/2021 | [Prepare Surface deployment with Microsoft Deployment Toolkit](/surface/deploy-windows-10-to-surface-devices-with-mdt) | modified |
 | 12/14/2021 | [Manage and deploy Surface driver and firmware updates](/surface/manage-surface-driver-and-firmware-updates) | modified |
 | 12/17/2021 | [Surface security overview](/surface/surface-security) | modified |
-
-
-## Week of December 06, 2021
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 12/7/2021 | [Surface Slim Pen 2 haptics dev notes](/surface/surface-slim-pen2-haptics-dev-notes) | added |
-| 12/10/2021 | [Optimize video conferencing on Surface devices](/surface/optimize-video-conferencing-on-surface) | added |
-| 12/10/2021 | [Optimize Wi-Fi connectivity for Surface devices](/surface/surface-wireless-connect) | modified |
