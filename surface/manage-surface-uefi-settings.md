@@ -12,7 +12,7 @@ ms.author: greglin
 ms.topic: article
 ms.reviewer: hachidan
 manager: laurawi
-ms.date: 12/09/2021
+ms.date: 01/18/2022
 ---
 
 # Manage Surface UEFI settings
@@ -24,7 +24,7 @@ ms.date: 12/09/2021
 UEFI management is supported on the following:
 
 - Surface Pro 4, Surface Pro (5th Gen), Surface Pro 6, Surface Pro 7, Surface Pro 7+ (commercial SKUs only), Surface Pro 8 (commercial SKUs only), Surface Pro X
-- Surface Laptop (1st Gen), Surface Laptop 2, Surface Laptop 3 (Intel processors only), Surface Laptop Go, Surface Laptop 4 (commercial SKUs only)
+- Surface Laptop (1st Gen), Surface Laptop 2, Surface Laptop 3 (Intel processors only), Surface Laptop Go, Surface Laptop 4 (commercial SKUs only), Surface Laptop SE
 - Surface Studio (1st Gen), Surface Studio 2
 - Surface Book (all generations)
 - Surface Laptop Studio (commercial SKUs only)
@@ -90,7 +90,7 @@ The Security page allows you to set a password to protect UEFI settings. This pa
 
 - Special characters: !@#$%^&*()?<>{}[]-_=+|.,;:’`”
 
-The password must be at least 6 characters and is case sensitive.
+The password must be at least six characters and is case-sensitive.
 
 ![Add a password to protect Surface UEFI settings.](images/manage-surface-uefi-fig2.png "Add a password to protect Surface UEFI settings")
 
@@ -156,7 +156,7 @@ You can also turn on and off IPv6 support for PXE with the **Enable IPv6 for PXE
 
 ## UEFI menu: Management
 
-The Management page allows you to manage use of Zero Touch UEFI Management and other features on eligible devices including Surface Pro 8, Surface Go 3, Surface Laptop Studio, Surface Pro 7+, Surface Pro 7, Surface Pro X, Surface Laptop 4, Surface Laptop 3, and Surface Book 3. 
+The Management page allows you to manage use of Zero Touch UEFI Management and other features on eligible devices including Surface Pro 8, Surface Go 3, Surface Laptop Studio, Surface Pro 7+, Surface Pro 7, Surface Pro X, Surface Laptop 4, Surface Laptop 3, Surface Laptop SE, and Surface Book 3. 
 
 :::image type="content" alt-text="Manage access to Zero Touch UEFI Management and other features." source="images/manage-surface-uefi-fig7a.png":::
 
