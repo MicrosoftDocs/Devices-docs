@@ -8,7 +8,7 @@ ms.sitesec: library
 author: v-miegge
 ms.author: dpandre
 ms.topic: article
-ms.localizationpriority: medium
+ms.localizationpriority: high
 ---
 
 # Surface Hub update history
