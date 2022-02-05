@@ -39,6 +39,17 @@ Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabl
 </details>
 
 <details>
+<summary>January 21, 2022 — update for Surface Hub 2S</summary>
+
+This update is specific to the Surface Hub 2S and provides the driver and firmware updates outlined below:
+
+* Surface UEFI update - 694.3924.768.0
+  * Improves system security and stability.
+* Intel(R) Management Engine Interface driver - 2120.100.0.1085
+  * Improves system security and stability.
+</details>
+
+<details>
 <summary>November 22, 2021 — update for Team based on KB5007253* (OS Build 19042.1382)</summary>
 
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4581839/windows-10-update-history), include:
