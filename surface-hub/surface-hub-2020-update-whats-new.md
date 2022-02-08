@@ -27,6 +27,8 @@ Windows 10 Team 2020 Update brings major improvements to device deployment and m
   - [RemoteWipe CSP](/windows/client-management/mdm/remotewipe-csp) 
   - [Wifi-CSP](/windows/client-management/mdm/wifi-csp) 
   - [Wirednetwork-CSP](/windows/client-management/mdm/wirednetwork-csp) 
+  - [TimeLanguageSettings-CSP](/windows/client-management/mdm/policy-csp-timelanguagesettings)
+  - [LocalUsersAndGroups-CSP](/windows/client-management/mdm/policy-csp-localusersandgroups)
 
 To learn more, see: 
 - [CSPs supported in Microsoft Surface Hub](/windows/client-management/mdm/configuration-service-provider-reference#surfacehubcspsupport)

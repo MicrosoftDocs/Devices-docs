@@ -146,13 +146,14 @@ The administrative features in Windows 10 Enterprise, such as the Microsoft Mana
 
 #### Event viewer
 
-Windows 10 Team 2020 Update 2 adds support for the Windows Event Viewer, which is identical to the Event Viewer installed on Windows 10 Pro or Windows 10 Enterprise. 
+Windows 10 Team 2020 Update 2 adds support for the Windows Event Viewer, which is identical to the [Event Viewer](/host-integration-server/core/windows-event-viewer1) installed on Windows 10 Pro or Windows 10 Enterprise. 
 
 **To open Event viewer:**
 
 1. Sign in to **Settings** app with admin credentials.
 2. Select **Update & Security** > **Logs** and under Event Viewer, select **Open**. 
 
+To learn more, see [Windows Event Viewer](/host-integration-server/core/windows-event-viewer1).
 
 ### Remote management and monitoring
 
