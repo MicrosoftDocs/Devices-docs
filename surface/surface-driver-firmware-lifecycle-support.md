@@ -3,7 +3,7 @@ title: Surface driver and firmware lifecycle for Windows-based devices
 description: This article provides detailed lifecycle information to help plan and manage hardware and software deployments. 
 ms.prod: w10
 ms.mktglfcycl: manage
-ms.localizationpriority: medium
+ms.localizationpriority: high
 ms.sitesec: library
 author: coveminer
 ms.author: greglin
