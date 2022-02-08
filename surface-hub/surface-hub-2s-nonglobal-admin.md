@@ -91,15 +91,14 @@ First create a security group containing the admin accounts. Then create another
 1. Copy the following into a text editor: 
 
     ```xml
-      <groupmembership>   
-	  <accessgroup desc = "S-1-5-32-544">        
-	  <member name = "Administrator" />        
-	  <member name = "S-1-12-1-XXXXXXXXXX-XXXXXXXXXX-XXXXXXXXXX-XXXXXXXXXX" />  
-	  </accessgroup>
-	  </groupmembership>
+<GroupConfiguration>
+    <accessgroup desc = "S-1-5-32-544">
+        <group action = "U" />
+        <add member = "AzureAD\bob@contoso.com"/>
+        <add member = "S-1-12-1-XXXXXXXXXX-XXXXXXXXXX-XXXXXXXXXX-XXXXXXXXXX"/>
+    </accessgroup>
+</GroupConfiguration>
       ```
-      > [!IMPORTANT]
-      > You may need to use the [localized name for the Administrator account](https://social.technet.microsoft.com/wiki/contents/articles/13813.localized-names-for-administrator-account-in-windows.aspx). Do not remove the default Administrator member from the XML file.
 
 2. Replace the placeholder SID (beginning with S-1-12-1) with your **Azure AD Group SID** and then save the file as XML; for example, **aad-local-admin.xml**. 
 
@@ -115,10 +114,10 @@ First create a security group containing the admin accounts. Then create another
 5. In the Add Row pane, add a name and under     **OMA-URI**, add the following  string: 
 
     ```OMA-URI
-    ./Device/Vendor/MSFT/Policy/Config/LocalUsersAndGroups/ConfigureGroupMembership
+ ./Device/Vendor/MSFT/Policy/Config/LocalUsersAndGroups/Configure
     ```
 > [!NOTE]
-> The **RestrictedGroups/ConfigureGroupMembership** policy setting also allows you to configure members (users or AAD groups) to a Windows 10 local group. However, it allows only for a full replace of the existing groups with the new members and does not allow selective add or remove. Available in Windows 10 Teams 2020 Update 2, it is recommended to use the **LocalUsersandGroups** policy setting instead of the RestrictedGroups policy setting. Applying both policy settings to Surface Hub is unsupported and may yield unpredictable results.
+> The **RestrictedGroups/ConfigureGroupMembership** policy setting also allows you to configure members (users or AAD groups) to a Windows 10 local group. However, it allows only for a full replace of the existing groups with the new members and does not allow selective add or remove. Available in Windows 10 Team 2020 Update 2, it is recommended to use the **LocalUsersandGroups** policy setting instead of the RestrictedGroups policy setting. Applying both policy settings to Surface Hub is unsupported and may yield unpredictable results.
     
 6. Under Data type, select **String XML** and browse to open the XML file you created in the previous step. 
 
