@@ -9,7 +9,7 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 03/22/2021
+ms.date: 02/15/2022
 ms.localizationpriority: Medium
 appliesto:
 - Surface Hub
@@ -19,6 +19,8 @@ appliesto:
 # Configure non Global admin accounts on Surface Hub
 
 The Windows 10 Team 2020 Update adds support for configuring non Global admin accounts that limit permissions to management of the Settings app on Surface Hub devices joined to an Azure AD domain. This enables you to scope admin permissions for Surface Hub only and prevent potentially unwanted admin access across an entire Azure AD domain. Before you begin, make sure your Surface Hub is joined to Azure AD and Intune auto-enrolled. If not, you will need to reset Surface Hub and complete the first-time, out-of-the-box (OOBE) setup program, choosing the option to join Azure AD.
+
+Windows 10 Team 2020 Update 2 adds support for [LocalUsersAndGroups configuration service provider](/windows/client-management/mdm/policy-csp-localusersandgroups). This replaces the [RestrictedGroups CSP](/windows/client-management/mdm/policy-csp-restrictedgroups), which remains available but is no longer recommended, as explained below. 
 
 ## Summary 
 
@@ -113,8 +115,11 @@ First create a security group containing the admin accounts. Then create another
 5. In the Add Row pane, add a name and under     **OMA-URI**, add the following  string: 
 
     ```OMA-URI
-    ./Device/Vendor/MSFT/Policy/Config/RestrictedGroups/ConfigureGroupMembership
+    ./Device/Vendor/MSFT/Policy/Config/LocalUsersAndGroups/ConfigureGroupMembership
     ```
+> [!NOTE]
+> The **RestrictedGroups/ConfigureGroupMembership** policy setting also allows you to configure members (users or AAD groups) to a Windows 10 local group. However, it allows only for a full replace of the existing groups with the new members and does not allow selective add or remove. Available in Windows 10 Teams 2020 Update 2, it is recommended to use the **LocalUsersandGroups** policy setting instead of the RestrictedGroups policy setting. Applying both policy settings to Surface Hub is unsupported and may yield unpredictable results.
+    
 6. Under Data type, select **String XML** and browse to open the XML file you created in the previous step. 
 
      ![upload local admin xml config file.](images/sh-local-admin-config.png)
