@@ -20,18 +20,17 @@ appliesto:
 
 The Windows 10 Team 2020 Update adds support for configuring non Global admin accounts that limit permissions to management of the Settings app on Surface Hub devices joined to an Azure AD domain. This enables you to scope admin permissions for Surface Hub only and prevent potentially unwanted admin access across an entire Azure AD domain. Before you begin, make sure your Surface Hub is joined to Azure AD and Intune auto-enrolled. If not, you will need to reset Surface Hub and complete the first-time, out-of-the-box (OOBE) setup program, choosing the option to join Azure AD.
 
-Windows 10 Team 2020 Update 2 adds support for [LocalUsersAndGroups configuration service provider](/windows/client-management/mdm/policy-csp-localusersandgroups). This replaces the [RestrictedGroups CSP](/windows/client-management/mdm/policy-csp-restrictedgroups), which remains available but is no longer recommended, as explained below. 
+Windows 10 Team 2020 Update 2 adds support for [LocalUsersAndGroups configuration service provider](/windows/client-management/mdm/policy-csp-localusersandgroups). This replaces the [RestrictedGroups CSP](/windows/client-management/mdm/policy-csp-restrictedgroups), which remains available but is no longer recommended, as explained below.
 
-## Summary 
+## Summary
 
-The process of creating non Global admin accounts involves the following steps: 
+The process of creating non Global admin accounts involves the following steps:
 
 1. In Microsoft Intune, create a Security group containing the admins designated to manage Surface Hub.
 2. Obtain Azure AD Group SID using PowerShell.
 3. Create XML file containing Azure AD Group SID.
 4. Create a Security Group containing the Surface Hub devices that will be managed by the non-Global admins Security group.
-5. Create a custom Configuration profile targeting the security group that contains your Surface Hub devices. 
-
+5. Create a custom Configuration profile targeting the security group that contains your Surface Hub devices.
 
 ## Create Azure AD security groups
 
@@ -39,8 +38,8 @@ First create a security group containing the admin accounts. Then create another
 
 ### Create security group for Admin accounts
 
-1. Sign into Intune via the [Microsoft Endpoint Manager admin center](https://go.microsoft.com/fwlink/?linkid=2109431), select **Groups** > **New Group** > and under Group type, select **Security.** 
-2. Enter a Group name -- for example, **Surface Hub Local Admins** -- and then select **Create.** 
+1. Sign into Intune via the [Microsoft Endpoint Manager admin center](https://go.microsoft.com/fwlink/?linkid=2109431), select **Groups** > **New Group** > and under Group type, select **Security.**
+2. Enter a Group name -- for example, **Surface Hub Local Admins** -- and then select **Create.**
 
      ![Create security group for Hub admins.](images/sh-create-sec-group.png)
 
@@ -48,13 +47,13 @@ First create a security group containing the admin accounts. Then create another
 
 ### Create security group for Surface Hub devices
 
-1. Repeat the previous procedure to create a separate security group for Hub devices; for example, **Surface Hub devices**. 
+1. Repeat the previous procedure to create a separate security group for Hub devices; for example, **Surface Hub devices**.
 
-     ![Create security group for Hub devices.](images/sh-create-sec-group-devices.png) 
+     ![Create security group for Hub devices.](images/sh-create-sec-group-devices.png)
 
 ## Obtain Azure AD Group SID using PowerShell
 
-1. Launch PowerShell with elevated account privileges (**Run as Administrator**) and ensure your system is configured to run PowerShell scripts. To learn more, refer to [About Execution Policies](/powershell/module/microsoft.powershell.core/about/about_execution_policies?). 
+1. Launch PowerShell with elevated account privileges (**Run as Administrator**) and ensure your system is configured to run PowerShell scripts. To learn more, refer to [About Execution Policies](/powershell/module/microsoft.powershell.core/about/about_execution_policies?).
 2. [Install Azure PowerShell module](/powershell/azure/install-az-ps).
 3. Sign into your Azure AD tenant.
 
@@ -68,11 +67,11 @@ First create a security group containing the admin accounts. Then create another
     function Convert-ObjectIdToSid
     {    param([String] $ObjectId)   
          $d=[UInt32[]]::new(4);[Buffer]::BlockCopy([Guid]::Parse($ObjectId).ToByteArray(),0,$d,0,16);"S-1-12-1-$d".Replace(' ','-')
-    	 
+      
     }
     ```
 
-5. In Intune, select the group you created earlier and copy the Object id, as shown in the following figure. 
+5. In Intune, select the group you created earlier and copy the Object id, as shown in the following figure.
 
      ![Copy Object id of security group.](images/sh-objectid.png)
 
@@ -83,14 +82,15 @@ First create a security group containing the admin accounts. Then create another
     $Result = Convert-ObjectIdToSid $AADGroup
     Write-Host "Your Azure Ad Group SID is" -ForegroundColor Yellow $Result
     ```
-    
-7. Paste the Object id into the PowerShell commandlet, press **Enter**, and then copy the **Azure AD Group SID** into a text editor. 
+
+7. Paste the Object id into the PowerShell commandlet, press **Enter**, and then copy the **Azure AD Group SID** into a text editor.
 
 ## Create XML file containing Azure AD Group SID
 
-1. Copy the following into a text editor: 
+1. Copy the following into a text editor:
 
     ```xml
+
 <GroupConfiguration>
     <accessgroup desc = "S-1-5-32-544">
         <group action = "U" />
@@ -100,26 +100,27 @@ First create a security group containing the admin accounts. Then create another
 </GroupConfiguration>
       ```
 
-2. Replace the placeholder SID (beginning with S-1-12-1) with your **Azure AD Group SID** and then save the file as XML; for example, **aad-local-admin.xml**. 
+2. Replace the placeholder SID (beginning with S-1-12-1) with your **Azure AD Group SID** and then save the file as XML; for example, **aad-local-admin.xml**.
 
       > [!NOTE]
       > While groups should be specified via their SID, if you would like to add Azure users directly, they can be added by specifying their User Principal Name (UPN) in this format: `<member name = "AzureAD\user@contoso.com" />`
 
 ## Create Custom configuration profile
 
-1. In Endpoint Manager, select **Devices** > **Configuration profiles** > **Create profile**. 
+1. In Endpoint Manager, select **Devices** > **Configuration profiles** > **Create profile**.
 2. Under Platform select **Windows 10 and later.** Under Profile, select **Custom**, and then select **Create.**
 3. Add a name and description and then select **Next.**
 4. Under **Configuration settings** > **OMA-URI Settings**, select **Add**.
-5. In the Add Row pane, add a name and under     **OMA-URI**, add the following  string: 
+5. In the Add Row pane, add a name and under     **OMA-URI**, add the following  string:
 
     ```OMA-URI
+
  ./Device/Vendor/MSFT/Policy/Config/LocalUsersAndGroups/Configure
     ```
 > [!NOTE]
 > The **RestrictedGroups/ConfigureGroupMembership** policy setting also allows you to configure members (users or AAD groups) to a Windows 10 local group. However, it allows only for a full replace of the existing groups with the new members and does not allow selective add or remove. Available in Windows 10 Team 2020 Update 2, it is recommended to use the **LocalUsersandGroups** policy setting instead of the RestrictedGroups policy setting. Applying both policy settings to Surface Hub is unsupported and may yield unpredictable results.
-    
-6. Under Data type, select **String XML** and browse to open the XML file you created in the previous step. 
+
+6. Under Data type, select **String XML** and browse to open the XML file you created in the previous step.
 
      ![upload local admin xml config file.](images/sh-local-admin-config.png)
 
@@ -128,7 +129,6 @@ First create a security group containing the admin accounts. Then create another
 9. Under Applicability rules, add a Rule if desired. Otherwise, select **Next** and then select **Create**.
 
 To learn more about custom configuration profiles using OMA-URI strings, see [Use custom settings for Windows 10 devices in Intune](/mem/intune/configuration/custom-settings-windows-10).
-
 
 ## Non Global admins managing Surface Hub
 

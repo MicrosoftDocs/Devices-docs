@@ -20,17 +20,18 @@ Windows 10 Team 2020 Update brings major improvements to device deployment and m
 ## Deployment and manageability
 
 - **Modern authentication for cloud device accounts**. Surface Hub supports Exchange Web Services (EWS) and Active Directory Authentication Library (ADAL) based authentication to connect to Exchange, allowing customers to deprecate the use of Basic authentication. To learn more, see [Modern authentication on Surface Hub](surface-hub-modern-auth.md).
-- **More than 20 new and updated mobile device management (MDM) policy settings**.  These policy settings give IT admins improved control over multiple device settings including: app updates from the Microsoft Store, wireless projection settings such as Miracast over infrastructure, network settings such as Quality-Of-Service and 802.1x wired authentication, and new privacy/GDPR related settings. New Configuration service providers (CSPs) include: 
+- **More than 20 new and updated mobile device management (MDM) policy settings**.  These policy settings give IT admins improved control over multiple device settings including: app updates from the Microsoft Store, wireless projection settings such as Miracast over infrastructure, network settings such as Quality-Of-Service and 802.1x wired authentication, and new privacy/GDPR related settings. New Configuration service providers (CSPs) include:
 
-  - [Accounts CSP](/windows/client-management/mdm/accounts-csp) 
-  - [Firewall-CSP](/windows/client-management/mdm/firewall-csp) 
-  - [RemoteWipe CSP](/windows/client-management/mdm/remotewipe-csp) 
-  - [Wifi-CSP](/windows/client-management/mdm/wifi-csp) 
-  - [Wirednetwork-CSP](/windows/client-management/mdm/wirednetwork-csp) 
+  - [Accounts CSP](/windows/client-management/mdm/accounts-csp)
+  - [Firewall-CSP](/windows/client-management/mdm/firewall-csp)
+  - [RemoteWipe CSP](/windows/client-management/mdm/remotewipe-csp)
+  - [Wifi-CSP](/windows/client-management/mdm/wifi-csp)
+  - [Wirednetwork-CSP](/windows/client-management/mdm/wirednetwork-csp)
   - [TimeLanguageSettings-CSP](/windows/client-management/mdm/policy-csp-timelanguagesettings)
   - [LocalUsersAndGroups-CSP](/windows/client-management/mdm/policy-csp-localusersandgroups)
 
-To learn more, see: 
+To learn more, see:
+
 - [CSPs supported in Microsoft Surface Hub](/windows/client-management/mdm/configuration-service-provider-reference#surfacehubcspsupport)
 - [Manage Surface Hub with an MDM provider](manage-settings-with-mdm-for-surface-hub.md)
 
@@ -48,9 +49,9 @@ To learn more, see:
 ## Microsoft Teams  
 
 - **Microsoft Teams installed by default**.        Microsoft Teams is included as the default Meetings, calling and collaboration app on new Surface Hub devices which can be changed or configured via MDM or directly on Surface Hub using the Settings app. To learn more, see [[Deploy Microsoft Teams](/MicrosoftTeams/teams-surface-hub).
-- **Support for Proximity Join with Microsoft Teams**.  Proximity Join enables users to take scheduled Microsoft Teams calls on a nearby Surface Hub using their laptop/phone, or seamlessly transition an in-progress meeting to a nearby Surface Hub. Windows 10 Team 2020 Update adds Mobile Device Management (MDM) support to configure Proximity Join. To learn more, see: 
+- **Support for Proximity Join with Microsoft Teams**.  Proximity Join enables users to take scheduled Microsoft Teams calls on a nearby Surface Hub using their laptop/phone, or seamlessly transition an in-progress meeting to a nearby Surface Hub. Windows 10 Team 2020 Update adds Mobile Device Management (MDM) support to configure Proximity Join. To learn more, see:
 
-  - [Microsoft Teams Blog](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-teams-devices-for-shared-spaces-july-and-august-update/ba-p/1604833). 
+  - [Microsoft Teams Blog](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-teams-devices-for-shared-spaces-july-and-august-update/ba-p/1604833).
   - [Manage Microsoft Teams settings on Surface Hub](/MicrosoftTeams/rooms/surface-hub-manage-config)
 
 - **Support for Coordinated Meetings with Microsoft Teams**. In meeting rooms that feature a Surface Hub and a Microsoft Teams Room device, or spaces with two Surface Hub devices, Coordinated Meetings enable users to easily leverage both devices during a Microsoft Teams meeting. With a single tap, users can join a meeting from either device and maximize screen real estate by showing video feeds on one device, and a digital whiteboard or content on the other. Windows 10 Team 2020 Update adds Mobile Device Management (MDM) support to configure Coordinated Meetings, and the feature will be subsequently released as a Microsoft Teams update through Microsoft Store.To learn more, see [Set up Coordinated Meetings with Microsoft Teams Rooms and Surface Hub](/MicrosoftTeams/rooms/coordinated-meetings).
@@ -64,4 +65,3 @@ To learn more, see:
 
 - [Windows 10 Team 2020 Update 1 released to all Surface Hubs](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/windows-10-team-2020-update-1-released-to-all-surface-hubs/ba-p/2653503)
 - [Install Windows 10 Team 2020 Update](surface-hub-2020-update.md)  
- 
