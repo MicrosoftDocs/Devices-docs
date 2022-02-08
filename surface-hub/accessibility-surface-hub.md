@@ -79,7 +79,7 @@ Turn on Narrator to describe Windows and apps. Control Surface Hub using a keybo
 
 ## Closed captions
 
-Windows lets you customize things like the color, transparency and size of closed captions.
+Customize things like the color, transparency and size of closed captions.
 
 - Color: White, black, red, green, blue, yellow, magenta, and cyan
 - Transparency: opaque, translucent, semitransparent, and transparent
@@ -88,5 +88,7 @@ Windows lets you customize things like the color, transparency and size of close
 :::image type="content" source="images/closed-captions.png" alt-text="Customize color, transparency and size of closed captions":::
 
 ## Keyboard
+
+Change how you interact with Surface Hub with options like an on-screen keyboard, toggle keys, sticky keys, and more.
 
 :::image type="content" source="images/keyboard.png" alt-text="Adjust keyboard settings":::
