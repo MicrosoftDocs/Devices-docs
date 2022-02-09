@@ -19,7 +19,7 @@ ms.localizationpriority: medium
 Microsoft Surface Hub has a variety of ease of use and accessibility options, providing users with a familiar experience to other versions of the Windows 10/Windows 11 OS. New in Windows 10 Team 2020 Update 2:
 
 - Users have direct access to accessibility settings during a Surface Hub session.
-- You can now close apps on Surface Hub by selecting the top right corner of the app.
+- Users can close apps on Surface Hub by selecting the close button, in the top right corner of the app, just like they do in other versions of Windows 10. This removes the need to close apps by dragging them to the bottom of the Surface Hub display. 
 
 ## Default accessibility settings
 
