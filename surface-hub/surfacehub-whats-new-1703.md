@@ -49,15 +49,6 @@ An easy-to-use wizard helps you quickly create provisioning packages that you ca
 
 Microsoft has extended the ability to [send a Miracast stream over a local network](miracast-over-infrastructure.md) rather than over a direct wireless link. 
     
-## Cloud recovery
-
-When you reset a Surface Hub device, you now have the ability to download and install a factory build of the operating system from the cloud. [Learn more about cloud recovery.](device-reset-surface-hub.md#cloud-recovery)
-
->[!NOTE]
->Cloud recovery doesn't work if you use proxy servers.
-    
-![Reinstall.](images/reinstall.png)
-    
 ## End session
 
 **I'm done** is now **End session**. [Learn how to use End session.](finishing-your-surface-hub-meeting.md) 
