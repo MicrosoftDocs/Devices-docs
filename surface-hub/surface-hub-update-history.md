@@ -50,7 +50,7 @@ This update is specific to the Surface Hub 2S and provides the driver and firmwa
 </details>
 
 <details>
-<summary>November 22, 2021 — update for Team based on KB5007253* (OS Build 19042.1382)</summary>
+<summary>November 22, 2021 — update for Team based on KB5007253* (OS Build 19042.1387)</summary>
 
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4581839/windows-10-update-history), include:
 
