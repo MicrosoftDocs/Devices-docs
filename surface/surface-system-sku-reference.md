@@ -9,7 +9,7 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 01/07/2022
+ms.date: 02/03/2022
 ms.reviewer: carlol
 manager: laurawi
 ms.localizationpriority: medium
@@ -64,6 +64,7 @@ System Model and System SKU are variables stored in System Management BIOS (SMBI
 | Surface Pro 7+                                               | Surface Pro 7+   | Surface_Pro_7+_1960|
 | Surface Pro 7+ LTE                                           | Surface Pro 7+   | Surface_Pro_7+_with_LTE_Advanced_1961|
 | Surface Pro 8                                                | Surface Pro 8    | Surface_Pro_8_for_Business_1983|
+| Surface Pro 8 Consumer                                       | Surface Pro 8    | Surface_Pro_8_1983|
 | Surface Pro 8 LTE                                            | Surface Pro 8    | Surface_Pro_8_for_Business_with_LTE_Advanced_1982|
 | Surface Pro X with SQ1 processor                             | Surface Pro X    | Surface_Pro_X_1876         |
 | Surface Pro X with SQ2 processor                             | Surface Pro X    | Surface_Pro_X_H_1876        |
