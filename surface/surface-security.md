@@ -85,8 +85,7 @@ Surface devices' Root of Trust checks signatures and measurements to ensure each
 
 As shown in the following figure, the integrity of the firmware is checked at each stage from pressing the power button to running the operating system.
 
-> [!div class="mx-imgBorder"]
-> [Figure 1. Secure Boot for Surface devices.](images/secboot.png) ](images/secboot.png)
+:::image type="content" source="images/secboot.png" alt-text="Figure 1. Secure Boot for Surface devices":::
 *Figure 1. Secure Boot for Surface devices*
 
 <br/>
