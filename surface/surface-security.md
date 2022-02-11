@@ -25,7 +25,7 @@ For Surface, our Unified Extensible Firmware Interface (UEFI)<sup>[1](#reference
 
 ## Microsoft designed and built components
 
-Every layer of Surface from chip to cloud is maintained by Microsoft, giving you ultimate control, proactive protection, and peace of mind wherever and however work gets done. Surface devices ship with the strongest security protocols Microsoft offers and enables with streamlined management that reduces IT complexity and helps users stay focused on their work.
+Every layer of Surface from chip to cloud is develoloped and maintained by Microsoft, giving you ultimate control, proactive protection, and peace of mind wherever and however work gets done. Surface devices ship with the strongest security protocols Microsoft offers and enables with streamlined management that reduces IT complexity and helps users stay focused on their work.
 
 Surface drives security through a defense-in-depth approach by utilizing a layering of independent defensive sub-components. From chip to cloud, or a UEFI that ensures a Root of Trust to the AI-powered Microsoft Defender for Endpoint that works to prevent, detect, investigate, and respond to advanced threats, Surface enforces the position that built-in from Microsoft is better than bolt-on.
 
@@ -49,7 +49,7 @@ Protecting facilities from external Internet-based attacks, intrusion, and other
 
 - Rigorous inspection and testing of all components at final assembly locations.
 - Maintaining high levels of physical security at the factory.
-- Use of only Microsoft-maintained firmware, drivers, and OS.
+- Use of only Microsoft-developed and maintained firmware, drivers, and OS.
 - Secure logistics and trusted carrier delivery of Surface devices direct to Microsoft resellers.
 
 Upon leaving the factory, Surface for Business devices are protected via Windows Update throughout the lifecycle.
@@ -86,7 +86,7 @@ Surface devices' Root of Trust checks signatures and measurements to ensure each
 As shown in the following figure, the integrity of the firmware is checked at each stage from pressing the power button to running the operating system.
 
 > [!div class="mx-imgBorder"]
-> [ ![Figure 1. Secure Boot for Surface devices.](images/secboot.png) ](images/secboot.png#lightbox)
+> [Figure 1. Secure Boot for Surface devices.](images/secboot.png) ](images/secboot.png#lightbox)
 *Figure 1. Secure Boot for Surface devices*
 
 <br/>
@@ -135,7 +135,7 @@ IT admins can remotely manage Surface devices without physically touching every 
 
 ## References
 
-1. Surface Go and Surface Go 2 use a third-party UEFI and do not support DFCI. DFCI is currently available for Surface Laptop SE, Surface Laptop Studio, Surface Pro 8, Surface Go 3, Surface Laptop 4, Surface Laptop Go, Surface Book 3, Surface Laptop 3, Surface Pro 7+, Surface Pro 7, and Surface Pro X. 
+1. Surface Go and Surface Go 2 use a third-party UEFI and do not support DFCI. DFCI is currently available for Surface Laptop SE, Surface Laptop Studio, Surface Pro 8, Surface Go 3, Surface Laptop 4, Surface Laptop Go, Surface Book 3, Surface Laptop 3, Surface Pro 7+, Surface Pro 7, and Surface Pro X.
 
 ## Learn more
 
