@@ -55,7 +55,7 @@ The growing number of policy settings available in mobile device management solu
 | Fully managed high security Level 3                                                                                  | Devices used by users or groups who are uniquely high risk. For example, users handling highly sensitive data where unauthorized disclosure causes considerable material loss. | Increases the minimum Android version to 10.0, introduces mobile threat defense or Microsoft Defender ATP, and enforces additional device restrictions.                                     | [Fully managed Level 3 settings](/mem/intune/enrollment/android-fully-managed-security-settings#fully-managed-high-security)                                                                                      |
  As with any framework, settings within a corresponding level may need to be adjusted based on the organization's needs as security must evaluate the threat environment, risk appetite, and impact on usability.
 
-**Learn more**
+## Learn more
 
 - [Android Enterprise security configuration framework](/mem/intune/enrollment/android-configuration-framework)
 - [App protection policies overview](/mem/intune/apps/app-protection-policy)
