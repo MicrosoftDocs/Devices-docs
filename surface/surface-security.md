@@ -49,7 +49,7 @@ Protecting facilities from external Internet-based attacks, intrusion, and other
 
 - Rigorous inspection and testing of all components at final assembly locations.
 - Maintaining high levels of physical security at the factory.
-- Use of only Microsoft developed & maintained firmware, drivers, and OS.
+- Use of only Microsoft-maintained firmware, drivers, and OS.
 - Secure logistics and trusted carrier delivery of Surface devices direct to Microsoft resellers.
 
 Upon leaving the factory, Surface for Business devices are protected via Windows Update throughout the lifecycle.
