@@ -90,16 +90,14 @@ First create a security group containing the admin accounts. Then create another
 1. Copy the following into a text editor:
 
     ```xml
-
-<GroupConfiguration>
+    <GroupConfiguration>
     <accessgroup desc = "S-1-5-32-544">
         <group action = "U" />
         <add member = "AzureAD\bob@contoso.com"/>
         <add member = "S-1-12-1-XXXXXXXXXX-XXXXXXXXXX-XXXXXXXXXX-XXXXXXXXXX"/>
     </accessgroup>
-</GroupConfiguration>
-      ```
-
+    </GroupConfiguration>
+    ```
 2. Replace the placeholder SID (beginning with S-1-12-1) with your **Azure AD Group SID** and then save the file as XML; for example, **aad-local-admin.xml**.
 
       > [!NOTE]
