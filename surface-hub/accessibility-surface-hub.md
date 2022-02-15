@@ -1,5 +1,5 @@
 ---
-title: Adjust ease of use settings on Surface Hub 
+title: Adjust Ease of Access settings on Surface Hub 
 description: Users can adjust ease of use and accessibility settings for Microsoft Surface Hub.
 ms.assetid: 1D44723B-1162-4DF6-99A2-8A3F24443442
 ms.reviewer: .
@@ -14,9 +14,9 @@ ms.date: 02/15/2022
 ms.localizationpriority: medium
 ---
 
-# Adjust ease of use settings on Surface Hub
+# Adjust Ease of Access settings on Surface Hub
 
-Microsoft Surface Hub has a variety of ease of use and accessibility options, providing users with a familiar experience to other versions of the Windows 10/Windows 11 OS. New in Windows 10 Team 2020 Update 2:
+Microsoft Surface Hub has a variety of Ease of Access options. New in Windows 10 Team 2020 Update 2:
 
 - Users have direct access to accessibility settings during a Surface Hub session.
 - Users can close apps on Surface Hub by selecting the close button, in the top right corner of the app, just like they do in other versions of Windows 10. This removes the need to close apps by dragging them to the bottom of the Surface Hub display. 
