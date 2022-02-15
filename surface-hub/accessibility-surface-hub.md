@@ -2,7 +2,7 @@
 title: Adjust Ease of Access settings on Surface Hub 
 description: Users can adjust Ease of Access settings for Microsoft Surface Hub.
 ms.assetid: 1D44723B-1162-4DF6-99A2-8A3F24443442
-ms.reviewer: .
+ms.reviewer: dpandre
 manager: laurawi
 keywords: Accessibility settings, Settings app, Ease of Access
 ms.prod: surface-hub
