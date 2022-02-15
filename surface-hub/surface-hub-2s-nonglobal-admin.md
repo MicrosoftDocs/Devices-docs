@@ -112,9 +112,9 @@ First create a security group containing the admin accounts. Then create another
 5. In the Add Row pane, add a name and under     **OMA-URI**, add the following  string:
 
     ```OMA-URI
-
- ./Device/Vendor/MSFT/Policy/Config/LocalUsersAndGroups/Configure
+     ./Device/Vendor/MSFT/Policy/Config/LocalUsersAndGroups/Configure
     ```
+
 > [!NOTE]
 > The **RestrictedGroups/ConfigureGroupMembership** policy setting also allows you to configure members (users or AAD groups) to a Windows 10 local group. However, it allows only for a full replace of the existing groups with the new members and does not allow selective add or remove. Available in Windows 10 Team 2020 Update 2, it is recommended to use the **LocalUsersandGroups** policy setting instead of the RestrictedGroups policy setting. Applying both policy settings to Surface Hub is unsupported and may yield unpredictable results.
 
