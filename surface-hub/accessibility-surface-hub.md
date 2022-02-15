@@ -1,6 +1,6 @@
 ---
 title: Adjust Ease of Access settings on Surface Hub 
-description: Users can adjust ease of use and accessibility settings for Microsoft Surface Hub.
+description: Users can adjust Ease of Access settings for Microsoft Surface Hub.
 ms.assetid: 1D44723B-1162-4DF6-99A2-8A3F24443442
 ms.reviewer: .
 manager: laurawi
@@ -12,18 +12,21 @@ ms.author: dansimp
 ms.topic: article
 ms.date: 02/15/2022
 ms.localizationpriority: medium
+appliesto:
+- Surface Hub
+- Surface Hub 2S
 ---
 
 # Adjust Ease of Access settings on Surface Hub
 
 Microsoft Surface Hub has a variety of Ease of Access options. New in Windows 10 Team 2020 Update 2:
 
-- Users have direct access to accessibility settings during a Surface Hub session.
+- Users can adjust Ease of Access settings for the duration of a  Surface Hub session. When the session ends, Ease of Access settings revert to their default state. 
 - Users can close apps on Surface Hub by selecting the close button, in the top right corner of the app, just like they do in other versions of Windows 10. This removes the need to close apps by dragging them to the bottom of the Surface Hub display. 
 
-## Default accessibility settings
+## Default Ease of Acess settings
 
-| Accessibility feature | Default settings  |
+| Ease of Access feature | Default settings  |
 | --------------------- | ----------------- |
 | Magnifier             | Off               |
 | High contrast         | No theme selected |
@@ -46,12 +49,6 @@ During a Surface Hub session, users can adjust Ease of Access settings.
 By default, Surface Hub notifications disappear five seconds after they appear. If you want more time to read them, you can increase how long they're displayed.
 
  :::image type="content" source="images/display.png" alt-text="Adjust display to simplify and personalize Surface Hub":::
-
-## Mouse Pointer
-
-Changing the size or color of pointers or adding trails or touch feedback make it easier to follow the mouse.
-
-:::image type="content" source="images/mouse-pointer.png" alt-text="Change the size or color of pointers":::
 
 ## Text cursor
 
