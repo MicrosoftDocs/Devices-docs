@@ -26,6 +26,21 @@ Please refer to the “[Surface Hub Important Information](https://support.micro
 ## Windows 10 Team 2020 Update (20H2)
 
 <details>
+<summary>February 15, 2022 — update for Team based on KB5010415* (OS Build 19042.1566)</summary>
+
+This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4581839/windows-10-update-history), include:
+
+* Enables Administrators to launch Windows Event Viewer from the Settings app.
+* Adds support for the ConfigureTimeZone MDM policy in the TimeLanguageSettings CSP.
+* Improves reliability for some MDM policy setting scenarios when using the SurfaceHub CSP.
+* Improves reliability for some Device Account setup scenarios when using an on-premises Exchange mailbox.
+* Improves reliability for incoming call scenarios when using Skype for Business.
+* Fix that allows Exchange services to be disabled during Device Account setup.
+
+Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabling device features and services. *[KB5010415](https://support.microsoft.com/help/5010415)
+</details>
+
+<details>
 <summary>January 25, 2022 — update for Team based on KB5009596* (OS Build 19042.1503)</summary>
 
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4581839/windows-10-update-history), include:
