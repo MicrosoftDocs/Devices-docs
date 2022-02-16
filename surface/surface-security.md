@@ -12,6 +12,9 @@ ms.date: 10/01/2021
 ms.reviewer: brrecord
 manager: laurawi
 audience: itpro
+appliesto:
+- Windows 10
+- Windows 11
 ---
 # Surface security overview
 
@@ -25,7 +28,7 @@ For Surface, our Unified Extensible Firmware Interface (UEFI)<sup>[1](#reference
 
 ## Microsoft designed and built components
 
-Every layer of Surface from chip to cloud is maintained by Microsoft, giving you ultimate control, proactive protection, and peace of mind wherever and however work gets done. Surface devices ship with the strongest security protocols Microsoft offers and enables with streamlined management that reduces IT complexity and helps users stay focused on their work.
+Every layer of Surface from chip to cloud is maintained by Microsoft, giving you ultimate control, proactive protection, and peace of mind wherever and however work gets done. Surface devices ship with the strongest security protocols Microsoft offers and enables streamlined management that reduces IT complexity and helps users stay focused on their work.
 
 Surface drives security through a defense-in-depth approach by utilizing a layering of independent defensive sub-components. From chip to cloud, or a UEFI that ensures a Root of Trust to the AI-powered Microsoft Defender for Endpoint that works to prevent, detect, investigate, and respond to advanced threats, Surface enforces the position that built-in from Microsoft is better than bolt-on.
 

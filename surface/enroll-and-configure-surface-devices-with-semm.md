@@ -14,6 +14,9 @@ ms.audience: itpro
 ms.reviewer: hachinda
 manager: laurawi
 ms.date: 1/15/2021
+appliesto:
+- Windows 10
+- Windows 11
 ---
 
 # Enroll and configure Surface devices with SEMM
@@ -33,7 +36,7 @@ The tool used to create SEMM packages is Microsoft Surface UEFI Configurator. Yo
 Run the Microsoft Surface UEFI Configurator Windows Installer (.msi) file to start the installation of the tool. When the installer completes, find Microsoft Surface UEFI Configurator in the All Apps section of your Start menu.
 
 >[!NOTE]
->Microsoft Surface UEFI Configurator is supported only on Windows 10.
+>Microsoft Surface UEFI Configurator is supported only on Windows 10 and Windows 11.
 
 ## Create a Surface UEFI configuration package
 

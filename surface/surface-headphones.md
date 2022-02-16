@@ -12,6 +12,9 @@ ms.date: 04/13/2021
 ms.reviewer: brrecord
 manager: laurawi
 audience: itpro
+appliesto:
+- Windows 10
+- Windows 11
 ---
 
 # Surface Headphones 2+ tech overview
@@ -55,7 +58,7 @@ Note, currently there are no enterprise management options for managing Surface 
 | Audio cable length          | - 1.2 m                                                                                                                                                                                                         |
 | Inputs                      | - Headphones: USB C® connector, 3.5 mm audio connector<br>- Surface USB Link: USB-A<sup>3</sup>                                                                                                                     |
 | Sensors                     | - Wear detection sensors on earcups<br>- Touch sensors on earcups                                                                                                                                               |
-| Compatibility               | - Bluetooth (without Surface USB Link):  Windows 10, Android 11 / 10 / 9, iOS 14 / 13 / 12, macOS 11 / 10.14, Bluetooth 5.0 / 4.2 / 4.1<br>- With Surface USB Link: Windows 10, macOS 11 / 10.14, Bluetooth 5.0 |
+| Compatibility               | - Bluetooth (without Surface USB Link):  Windows 10/11, Android 11 / 10 / 9, iOS 14 / 13 / 12, macOS 11 / 10.14, Bluetooth 5.0 / 4.2 / 4.1<br>- With Surface USB Link: Windows 10, macOS 11 / 10.14, Bluetooth 5.0 |
 | Audio Codec       | - SBC and aptX™<sup>4</sup>                                                                                                                                             |
 | Buttons/controls  | - Power button, Microsoft Teams button, Volume dial (right ear), Noise Cancellation dial (left ear), Single earcup tap (Mute)                                       |
 | What’s in the box | - Surface Headphones 2+<br>- Carrying case<br>- USB cable<br>- Audio cable<br>- Surface USB Link (USB-A)4<br>- Quick Start Guide<br>- Safety and warranty documents |
@@ -74,7 +77,7 @@ The USB dongle and ear pads for Surface Headphones + are available as replacemen
 | Exterior              | - Colors: Black                                                                    |
 | Wireless Platform     | - Bluetooth® 5.0                                                                   |
 | Interface             | - USB-A<sup>6</sup> 2.0 full speed                                                     |
-| Compatibility         | - Windows 10, macOS 11 / 10.14,<sup>7</sup> Bluetooth 5.0                              |
+| Compatibility         | - Windows 10/11, macOS 11 / 10.14,<sup>7</sup> Bluetooth 5.0                              |
 | Product Compatibility | - Surface Headphones 2+                                                            |
 
 ### Microsoft Surface Headphones Ear Pads tech specs
@@ -94,4 +97,4 @@ The USB dongle and ear pads for Surface Headphones + are available as replacemen
 4. AptX™ only works with Surface Headphones 2+ when not using the Surface USB Link.
 5. Microsoft’s Limited Warranty is in addition to your consumer law rights.
 6. USB-A to USB-C® adapter should work for a C-capable source. Performance varies based on the quality of the adapter and the cable length
-7. To pair your replacement Surface USB Link to Surface Headphones 2+ you will need the [Surface Audio app](https://www.microsoft.com/p/surface-audio/9nxjnfwnvm8d?), available on devices running Windows 10. 
+7. To pair your replacement Surface USB Link to Surface Headphones 2+ you will need the [Surface Audio app](https://www.microsoft.com/p/surface-audio/9nxjnfwnvm8d?), available on devices running Windows 10 or Windows 11. 

@@ -14,6 +14,9 @@ ms.reviewer: carlol
 manager: laurawi
 ms.localizationpriority: medium
 ms.audience: itpro
+appliesto:
+- Windows 10
+- Windows 11
 ---
 
 # Surface System SKU reference
