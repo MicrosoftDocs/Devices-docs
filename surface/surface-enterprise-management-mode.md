@@ -14,6 +14,9 @@ manager: laurawi
 ms.localizationpriority: medium
 audience: itpro
 ms.date: 12/08/2021
+appliesto:
+- Windows 10
+- Windows 11
 ---
 
 # Microsoft Surface Enterprise Management Mode
@@ -140,7 +143,7 @@ The following list shows all the available devices that you can manage in SEMM:
 | Devices                            | Displays the Surface UEFI **Devices** page. If you don't configure this setting,  the Devices page is displayed.                                                                                                                     |
 | Boot                               | Displays the Surface UEFI **Boot** page. If you don't configure this setting, the Boot page is displayed.                                                                                                                                                            |
 | DateTime                           | Displays the Surface UEFI **DateTime** page. If you don't configure this setting, the DateTime page is displayed.                                                                                                                |
-| EnableOSMigration                          | Allows you to migrate Surface Hub 2 from Windows 10 Team to Windows 10 Pro or Enterprise. If you don't configure this setting, Surface Hub 2 devices can run only the Windows 10 Team OS. Note: Dual booting between Windows 10 Team and Windows 10 Pro/Enterprise isn't available on Surface Hub 2.                                                                                                           |
+| EnableOSMigration                          | Allows you to migrate Surface Hub 2 from Windows 10 Team to Windows 10/11 Pro or Enterprise. If you don't configure this setting, Surface Hub 2 devices can run only the Windows 10 Team OS. Note: Dual booting between Windows 10 Team and Windows 10/11 Pro/Enterprise isn't available on Surface Hub 2.                                                                                                           |
 
 >[!TIP]
 >When you create a SEMM configuration package, two characters are shown on the **Successful** page, as shown in Figure 3.

@@ -12,6 +12,9 @@ ms.date: 01/03/2022
 ms.reviewer: brrecord
 manager: laurawi
 audience: itpro
+appliesto:
+- Windows 10
+- Windows 11
 ---
 
 

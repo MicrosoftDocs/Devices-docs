@@ -12,6 +12,9 @@ ms.date: 11/02/2021
 ms.reviewer: hachinda
 manager: laurawi
 audience: itpro
+appliesto:
+- Windows 10
+- Windows 11
 ---
 # Surface Management Portal overview
 
