@@ -12,6 +12,9 @@ ms.date: 10/25/2021
 ms.reviewer: hachidan
 manager: laurawi
 audience: itpro
+appliesto:
+- Windows 10
+- Windows 11
 ---
 
 # Surface Diagnostic Toolkit for Business
