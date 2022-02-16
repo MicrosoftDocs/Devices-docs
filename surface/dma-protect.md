@@ -12,6 +12,9 @@ ms.date: 12/01/2021
 ms.reviewer: carlol
 manager: laurawi
 audience: itpro
+appliesto:
+- Windows 10
+- Windows 11
 ---
 # DMA Protection on Surface devices
 
