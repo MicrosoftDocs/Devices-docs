@@ -30,7 +30,7 @@ For a list of approved partner providers and independent software vendors, visit
 
 ## Microsoft Surface Devices
 
-Surface engineering has long set new standards for innovation by going beyond the keyboard and mouse to imagine more natural ways of interacting with devices, whether by touch, voice, ink, or Surface Dial. And with chip-to-cloud integration of Microsoft 365 and the security and manageability of Windows 10 or Windows 11 Pro, Surface delivers connected hardware, software, apps, and services the way they were intended. Although it’s possible to run AVD from Windows devices dating back to Windows 7, Microsoft Surface devices provide unique advantages, including support for:
+Surface engineering has long set new standards for innovation by going beyond the keyboard and mouse to imagine more natural ways of interacting with devices, whether by touch, voice, ink, or Surface Dial. And with chip-to-cloud integration of Microsoft 365 and the security and manageability of Windows 10 and Windows 11 Pro, Surface delivers connected hardware, software, apps, and services the way they were intended. Although it’s possible to run AVD from Windows devices dating back to Windows 7, Microsoft Surface devices provide unique advantages, including support for:
 
 - **Flexible form factors** - like 2-in-1 devices such as Surface Pro 8, Surface Go 3, and Surface Pro X with pen, touch and detachable keyboard. You can even use [Surface Duo](/surface-duo/) to connect to AVD.
 - **Persistent, on-demand and just-in-time work scenarios** - with offline and on-device access for more productive experiences.
