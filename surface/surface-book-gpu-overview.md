@@ -12,6 +12,9 @@ ms.date: 5/06/2020
 ms.reviewer: brrecord
 manager: laurawi
 audience: itpro
+appliesto:
+- Windows 10
+- Windows 11
 ---
 # Surface Book 3 GPU tech overview
 
