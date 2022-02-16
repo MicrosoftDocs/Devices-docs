@@ -42,7 +42,7 @@ The Microsoft Surface for Business family comprises a diverse portfolio of form 
 
 ### The modern virtual desktop endpoint
 
-Surface 2-in-1 devices, including [Surface Go 3](https://www.microsoft.com/surface-go-3) (10.5”), [Surface Pro 8](https://www.microsoft.com/surface/business/surface-pro-8) (12”) and [Surface Pro X](https://www.microsoft.com/surface-pro-x/) (13”), provide users with the ideal cloud desktop endpoint bringing together the optimal balance of portability, versatility, power, and an all-day battery. From site engineers relying on Surface Go 3 in tablet mode to financial advisers attaching Surface Pro 8 to a dock and multiple monitors, 2-in-1 devices deliver the versatility that has come to define the modern workplace.
+Surface 2-in-1 devices, including [Surface Go 3](https://www.microsoft.com/surface/business/surface-go-3) (10.5”), [Surface Pro 8](https://www.microsoft.com/surface/business/surface-pro-8) (12”) and [Surface Pro X](https://www.microsoft.com/surface-pro-x/) (13”), provide users with the ideal cloud desktop endpoint bringing together the optimal balance of portability, versatility, power, and an all-day battery. From site engineers relying on Surface Go 3 in tablet mode to financial advisers attaching Surface Pro 8 to a dock and multiple monitors, 2-in-1 devices deliver the versatility that has come to define the modern workplace.
 
  Unlike traditional, fixed VDI “terminals," Surface devices allow users to work from anywhere and enable companies to remain viable and operational during unforeseen events -- from severe weather to public health emergencies. With support for persistent, on-demand and just-in-time scenarios, Surface devices effectively help companies sustain ongoing operations and mitigate risk from disruptive events. Features designed to enhance productivity on Surface 2-in-1 devices include:
 
@@ -95,7 +95,7 @@ An alternative to locally installing traditional applications is to take advanta
 
 GPUs are ideal for AI compute and graphics-intensive workloads, helping customers to fuel innovation through scenarios like high-end remote visualization, deep learning, and predictive analytics. However, this isn’t ideal for professionals who need to work remotely or on the go because varying degrees of internal GPU horsepower are tied to the physical devices, limiting mobility and flexibility.
 
-To solve this, Azure offers the N-series family of Virtual Machines with NVIDIA GPU capabilities (vGPU). With vGPUs, IT can either share GPU performance across multiple virtual machines or power-demanding workloads by assigning multiple GPUs to a single virtual machine. For Surface, this means that no matter what device you’re using, from Surface Go 3 to Surface Laptop 4, your device has access to powerful server-class graphics performance. Surface and vGPUs allow you to combine all the things you love about Surface, includeing pen, touch, keyboard, trackpad and PixelSense displays, with graphics capability only available in high-performance computing environments.
+To solve this, Azure offers the N-series family of Virtual Machines with NVIDIA GPU capabilities (vGPU). With vGPUs, IT can either share GPU performance across multiple virtual machines or power-demanding workloads by assigning multiple GPUs to a single virtual machine. For Surface, this means that no matter what device you’re using, from Surface Go 3 to Surface Laptop 4, your device has access to powerful server-class graphics performance. Surface and vGPUs allow you to combine all the things you love about Surface, including pen, touch, keyboard, trackpad and PixelSense displays, with graphics capability only available in high-performance computing environments.
 
 Azure N-series brings these capabilities to life on your Surface device, allowing you to work in any way you want, wherever you go. [Learn more about Azure N-Series and GPU optimized virtual machine sizes.](/azure/virtual-machines/sizes-gpu)
 
@@ -104,7 +104,7 @@ Azure N-series brings these capabilities to life on your Surface device, allowin
 Even in a virtualized desktop environment, Microsoft 365 and Surface deliver the experiences employees love, the protection organizations demand, and flexibility for teams to work their way. According to [Forrester Research](forrester-tei-study.md): <a href="#4"><sup>4</sup></a>
 
 - Microsoft 365-powered Surface devices give users up to five hours in weekly productivity gains with up to nine hours saved per week for highly mobile workers, providing organizations with 112 percent ROI on Microsoft 365 with Surface.
-- Seventy five percent agree Microsoft 365-powered Surface devices help improve employee satisfaction and retention.
+- Seventy-five percent agree Microsoft 365-powered Surface devices help improve employee satisfaction and retention.
 
 ### Security and management
 
