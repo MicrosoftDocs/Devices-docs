@@ -15,6 +15,9 @@ ms.author: greglin
 ms.topic: article
 ms.audience: itpro
 ms.date: 12/14/2021
+appliesto:
+- Windows 10
+- Windows 11
 ---
 
 # Manage and deploy Surface driver and firmware updates

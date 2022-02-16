@@ -12,6 +12,8 @@ ms.date: 12/07/2021
 ms.reviewer: gusing
 manager: laurawi
 audience: itpro
+appliesto:
+- Windows 11
 ---
 
 # Surface Slim Pen 2 haptics dev notes

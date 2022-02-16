@@ -12,6 +12,9 @@ ms.date: 10/19/2021
 ms.reviewer: cchauvet 
 manager: laurawi
 audience: itpro
+appliesto:
+- Windows 10
+- Windows 11
 ---
 
 # Surface self-serve warranty and service

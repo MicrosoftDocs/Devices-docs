@@ -14,6 +14,9 @@ ms.audience: itpro
 ms.reviewer: 
 manager: laurawi
 ms.date: 10/12/2020
+appliesto:
+- Windows 10
+- Windows 11
 ---
 
 # Prepare Surface deployment with Microsoft Deployment Toolkit

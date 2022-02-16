@@ -13,6 +13,9 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
+appliesto:
+- Windows 10
+- Windows 11
 ---
 
 # Enable PEAP, EAP-FAST, and Cisco LEAP on Surface devices

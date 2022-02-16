@@ -15,6 +15,9 @@ ms.topic: article
 ms.date: 08/02/2021
 ms.localizationpriority: medium
 ms.audience: itpro
+appliesto:
+- Windows 10
+- Windows 11
 ---
 
 # Secure Surface Dock 2 ports with Surface Enterprise Management Mode (SEMM)
