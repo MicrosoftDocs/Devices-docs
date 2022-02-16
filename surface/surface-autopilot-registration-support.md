@@ -47,8 +47,8 @@ See the following table for details of the information you will need to collect 
 ## Learn more
 
 - [Windows Autopilot and Surface devices](windows-autopilot-and-surface-devices.md)
-- [Enroll Windows devices in Intune by using Windows Autopilot](https://docs.microsoft.com/mem/autopilot/enrollment-autopilot)
-- [Overview of Windows Autopilot](https://docs.microsoft.com/mem/autopilot/windows-autopilot)
+- [Enroll Windows devices in Intune by using Windows Autopilot](/mem/autopilot/enrollment-autopilot)
+- [Overview of Windows Autopilot](/mem/autopilot/windows-autopilot)
 - [Surface System SKU reference](surface-system-sku-reference.md)
 
  
