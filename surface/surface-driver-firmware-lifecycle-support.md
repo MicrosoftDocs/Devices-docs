@@ -12,6 +12,9 @@ ms.date: 11/30/2021
 ms.reviewer: phorton
 manager: laurawi
 audience: itpro
+appliesto:
+- Windows 10
+- Windows 11
 ---
 
 # Surface driver and firmware lifecycle for Windows-based devices

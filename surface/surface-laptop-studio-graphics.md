@@ -12,6 +12,9 @@ ms.date: 10/04/2021
 ms.reviewer: brrecord
 manager: laurawi
 audience: itpro
+appliesto:
+- Windows 10
+- Windows 11
 ---
 
 # Surface Laptop Studio graphics overview

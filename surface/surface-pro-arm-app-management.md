@@ -12,6 +12,9 @@ ms.date: 12/01/2021
 ms.reviewer: jessko
 manager: laurawi
 ms.audience: itpro
+appliesto:
+- Windows 10
+- Windows 11
 ---
 # Deploying, managing, & servicing Surface Pro X
 
@@ -56,9 +59,9 @@ You may be able to use third-party MDM tools to manage Surface Pro X devices. Fo
 
 ### Antivirus software
 
-Windows Defender will help protect Windows 10 on ARM-based PCs for the supported lifetime of the Windows 10 device. 
+Microsoft Defender will help protect Windows 10 and Windows 11 on ARM-based PCs for the supported lifetime of the device. 
 
-Some third-party antivirus software cannot be installed on a Windows 10 PC running on an ARM-based processor. Collaboration with third-party antivirus software providers is continuing for AV app readiness on ARM-based PCs. Contact your antivirus software provider to understand when their apps will be available.
+Some third-party antivirus software cannot be installed on devices running on an ARM-based processor. Collaboration with third-party antivirus software providers is continuing for AV app readiness on ARM-based PCs. Contact your antivirus software provider to understand when their apps will be available.
 
 ## Servicing Surface Pro X
 
@@ -83,7 +86,7 @@ Most apps run on ARM-based Windows 10 PCs with limited exclusions.
 
 - Most x86 Win32 apps run on Surface Pro X.
 - Native ARM64 and Microsoft Store UWP apps provide an excellent user experience utilizing the full native speed of the ARM-based processor while optimizing battery life.
-- Apps that use drivers designed for a Windows 10 PC running on an ARM-based processor.
+- Apps that use drivers designed for a Windows 10 or Windows 11 PC running on an ARM-based processor.
 
 > [!NOTE]
 > With 64-bit emulation coming soon in Preview via the Windows Insider program, you'll be able to run 64-bit (x64) apps on Surface Pro X.
@@ -110,8 +113,8 @@ Popular browsers run on Surface Pro X:
 
 ## Installing and using Microsoft Office
 
-- Use Office 365 for the best experience on a Windows 10 PC on an ARM-based processor.
-- Office 365 "click-to-run" installs Outlook, Word, Excel, and PowerPoint, optimized to run on a Windows 10 PC on an ARM-based processor.
+- Use Office 365 for the best experience on a Windows 10 or Windows 11 PC on an ARM-based processor.
+- Office 365 "click-to-run" installs Outlook, Word, Excel, and PowerPoint, optimized to run on a Windows 10 or Windows 11 PC on an ARM-based processor.
 - Microsoft Teams runs great on Surface Pro X.
 - For "perpetual versions" of Office such as Office 2019, install the 32-bit version.
 
@@ -121,7 +124,7 @@ To confirm if a specific third-party VPN supports a Windows 10 PC on an ARM-base
 
 ## Feature summary
 
-The following tables show the availability of selected key features on Surface Pro X with Windows 10 on ARM.
+The following tables show the availability of selected key features on Surface Pro X with Windows 10 or Windows 11 on ARM.
 
 
 **Deployment**
@@ -162,7 +165,7 @@ The following tables show the availability of selected key features on Surface P
 | --------------------------------------------- | ------- | ------------------------------------------------------------------------------------- |
 | BitLocker                                     | Yes     |                                                       |
 | Windows Defender                              | Yes     |                                                                                       |
-| Support for third-party antivirus             | See note| Some third-party antivirus software cannot be installed on a Windows 10 PC running on an ARM-based processor. Collaboration with third-party antivirus software providers is continuing for AV app readiness on ARM-based PCs. Contact your antivirus software provider to understand when their apps will be available. |
+| Support for third-party antivirus             | See note| Some third-party antivirus software cannot be installed on running on an ARM-based processor. Collaboration with third-party antivirus software providers is continuing for AV app readiness on ARM-based PCs. Contact your antivirus software provider to understand when their apps will be available. |
 | Secure Boot               | Yes     |                                                                                       |
 | Windows Information Protection                      | Yes     |                                                                                       |
 | Surface Data Eraser (SDE)     | Yes     |                                                                                       |
