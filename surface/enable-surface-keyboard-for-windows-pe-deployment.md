@@ -21,6 +21,8 @@ appliesto:
 - Surface Laptop 4
 - Surface Laptop Studio
 - Surface Pro 8
+- Windows 10
+- Windows 11
 ---
 
 # How to enable the Surface Laptop keyboard during MDT deployment

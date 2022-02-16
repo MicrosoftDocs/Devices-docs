@@ -15,6 +15,9 @@ ms.author: greglin
 ms.topic: article
 audience: itpro
 ms.date: 10/06/2021
+appliesto:
+- Windows 10
+- Windows 11
 ---
 
 # Microsoft Surface Data Eraser
@@ -255,4 +258,4 @@ This version of Microsoft Surface Data Eraser adds support for the following:
 - Surface Laptop
 
 >[!NOTE]
->The Microsoft Surface Data Eraser USB drive creation tool is unable to run on Windows 10 S. To wipe a Surface Laptop running Windows 10 S, you must first create the Microsoft Surface Data Eraser USB drive on another computer with Windows 10 Pro or Windows 10 Enterprise.
+>The Microsoft Surface Data Eraser USB drive creation tool is unable to run on Windows 10 S. To wipe a Surface Laptop running Windows 10 S, you must first create the Microsoft Surface Data Eraser USB drive on another computer with Windows 10/11 Pro or Windows 10/11 Enterprise.

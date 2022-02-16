@@ -15,6 +15,9 @@ ms.author: greglin
 ms.topic: article
 ms.audience: itpro
 ms.date: 5/08/2020
+appliesto:
+- Windows 10
+- Windows 11
 ---
 
 # Microsoft Surface Deployment Accelerator
@@ -31,7 +34,7 @@ The resulting image closely matches the configuration of Bare Metal Recovery (BM
 ## Requirements
 
 1. A USB thumb drive at least 16 GB in size. The USB drive will be formatted.
-2. An .iso file with Windows 10 Pro or Windows 10 Enterprise. The media creation tool can be used to download Windows 10 and create an .iso file. For more information, see [Download Windows 10](https://www.microsoft.com/software-download/windows10).
+2. An .iso file with Windows 10/11 Pro or Windows 10/11 Enterprise. The media creation tool can be used to download Windows 10 or Windows 11 and create an .iso file. For more information, see [Download Windows 10](https://www.microsoft.com/software-download/windows10).
 3. A device running Windows 10, version 2004 or later with Internet access.
 
 See the [Prerequisites](https://github.com/microsoft/SurfaceDeploymentAccelerator/blob/master/README.md#prerequisites) section of the README document for a detailed list of requirements.
@@ -51,9 +54,9 @@ See the [Prerequisites](https://github.com/microsoft/SurfaceDeploymentAccelerato
     ```powershell
     Set-ExecutionPolicy -Scope Process -ExecutionPolicy Unrestricted -Force
     ```
-8. Run the SDA script specifying parameters for your environment. The script can be used to create images to install Windows 10 on a variety of Surface devices. For a full list of supported devices, see the [Device parameter description](https://github.com/microsoft/SurfaceDeploymentAccelerator/blob/master/README.md#full-parameter-documentation) in the SDA README article. 
+8. Run the SDA script specifying parameters for your environment. The script can be used to create images to install Windows 10 or Windows 11 on a variety of Surface devices. For a full list of supported devices, see the [Device parameter description](https://github.com/microsoft/SurfaceDeploymentAccelerator/blob/master/README.md#full-parameter-documentation) in the SDA README article. 
 
-    For example, the following command will create a bootable USB drive that can be used to [install Windows 10 on Surface Hub 2](https://docs.microsoft.com/surface-hub/surface-hub-2s-migrate-os):
+    For example, the following command will create a bootable USB drive that can be used to [install Windows 10 on Surface Hub 2](/surface-hub/surface-hub-2s-migrate-os):
 
     ```powershell
     .\CreateSurfaceWindowsImage.ps1 -ISO C:\SDA\enterprise_client.iso -OSSKU Enterprise -DestinationFolder C:\Output -Device SurfaceHub2 -CreateUSB $True
@@ -64,14 +67,14 @@ See the [Prerequisites](https://github.com/microsoft/SurfaceDeploymentAccelerato
 
     The script will require about 45 minutes to run, but could take longer depending on available CPU and disk resources. 
 
-    After creating a Windows image, the script will ask you to insert and confirm the drive letter of your USB drive. The USB drive will then be formatted, configured as bootable, and files copied to enable installation of the custom Windows 10 image for Surface devices.
+    After creating a Windows image, the script will ask you to insert and confirm the drive letter of your USB drive. The USB drive will then be formatted, configured as bootable, and files copied to enable installation of the custom Windows 10 or Windows 11 image for Surface devices.
 
-9. Insert the USB drive into the device where you want to install Windows 10 and reboot to begin installing Windows 10. USB boot must be enabled in BIOS, which can require that you temporarily disable Secure Boot.
+9. Insert the USB drive into the device where you want to install Windows 10 or Windows 11 and reboot to begin the installation. USB boot must be enabled in BIOS, which can require that you temporarily disable Secure Boot.
 
 > [!IMPORTANT]
-> Booting from the USB drive will immediately begin installing Windows 10. Ensure that your device is ready before inserting the USB and restarting. 
+> Booting from the USB drive will immediately begin installing the OS. Ensure that your device is ready before inserting the USB and restarting. 
 
 ## Related links
 
  - [Open source image deployment tool released on GitHub](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/open-source-image-deployment-tool-released-on-github/ba-p/1314115)
- - [Download and install the Windows ADK](https://docs.microsoft.com/windows-hardware/get-started/adk-install)
+ - [Download and install the Windows ADK](/windows-hardware/get-started/adk-install)

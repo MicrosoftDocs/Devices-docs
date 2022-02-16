@@ -100,7 +100,7 @@ NVIDIA GPUs provide users with great performance for gaming, livestreaming, and 
 
 ## Optimizing power and performance on Surface Book 3
 
-Windows 10 includes a Battery Saver mode with a performance slider that lets you maximize app performance (by sliding it to the right) or preserve battery life (by sliding it to the left). Surface Book 3 implements this functionality algorithmically to optimize power and performance across the following components:
+Surface devices can adjust performance-related power settings by changing the Windows performance power slider position in Windows 10, also known as power mode in Windows 11. Surface Book 3 implements this functionality algorithmically to optimize power and performance across the following components:
 
 - CPU Energy Efficiency Registers (Intel Speed Shift technology) and other SoC tuning parameters to maximize efficiency.
 - Fan Maximum RPM with four modes: quiet, nominal, performance, and max.
@@ -121,9 +121,9 @@ New in Surface Book 3, apps enabled for Safe Detach let you disconnect while the
 
 ### Modifying app settings to always use a specific GPU
 
-You can switch between the power-saving but still capable built-in Intel graphics and the more powerful discrete NVIDIA GPU and associate a GPU with a specific app. By default, Windows 10 automatically chooses the appropriate GPU, assigning graphically demanding apps to the discrete NVIDIA GPU. In most instances there is no need to manually adjust these settings. However, if you frequently detach and reattach the display from the keyboard base while using a graphically demanding app, you’ll typically need to close the app prior to detaching. To enable continuous use of the app without having to close it every time you detach or reattach the display, you can assign it to the integrated GPU, albeit with some loss of graphics performance.  
+You can switch between the power-saving but still capable built-in Intel graphics and the more powerful discrete NVIDIA GPU and associate a GPU with a specific app. By default, Windows 10 and Windows 11 automatically choose the appropriate GPU, assigning graphically demanding apps to the discrete NVIDIA GPU. In most instances there is no need to manually adjust these settings. However, if you frequently detach and reattach the display from the keyboard base while using a graphically demanding app, you’ll typically need to close the app prior to detaching. To enable continuous use of the app without having to close it every time you detach or reattach the display, you can assign it to the integrated GPU, albeit with some loss of graphics performance.  
 
-In some instances, Windows 10 may assign a graphically demanding app to be iGPU; for example, if the app is not fully optimized for hybrid graphics. To remedy this, you can manually assign the app to the discrete NVIDIA GPU.
+In some instances, the OS may assign a graphically demanding app to be iGPU; for example, if the app is not fully optimized for hybrid graphics. To remedy this, you can manually assign the app to the discrete NVIDIA GPU.
 
 **To configure apps using custom per-GPU options:**  
 
