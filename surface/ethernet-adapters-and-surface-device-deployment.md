@@ -14,6 +14,9 @@ author: coveminer
 ms.author: greglin
 ms.topic: article
 ms.audience: itpro
+appliesto:
+- Windows 10
+- Windows 11
 ---
 
 # Ethernet adapters and Surface deployment

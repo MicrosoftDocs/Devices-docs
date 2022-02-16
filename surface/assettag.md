@@ -11,6 +11,9 @@ ms.topic: article
 ms.reviewer: carlol
 ms.date: 06/29/2021
 manager: laurawi
+appliesto:
+- Windows 10
+- Windows 11
 ---
 
 # Surface Asset Tag Tool

@@ -12,6 +12,9 @@ ms.date: 9/14/2020
 ms.reviewer: brrecord
 manager: laurawi
 audience: itpro
+appliesto:
+- Windows 10
+- Windows 11
 ---
 # Surface Registration Support for Windows Autopilot
 

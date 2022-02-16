@@ -13,6 +13,9 @@ ms.topic: article
 ms.reviewer: hachidan
 manager: laurawi
 ms.date: 01/18/2022
+appliesto:
+- Windows 10
+- Windows 11
 ---
 
 # Manage Surface UEFI settings
