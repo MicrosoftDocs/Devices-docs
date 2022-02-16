@@ -11,6 +11,9 @@ ms.reviewer: hachidan
 manager: laurawi
 ms.localizationpriority: medium
 ms.audience: itpro
+appliesto:
+- Windows 10
+- Windows 11
 ---
 
 # Run command-line app console with Surface Diagnostic Toolkit for Business
