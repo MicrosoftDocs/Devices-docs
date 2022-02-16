@@ -62,97 +62,97 @@ You can run BPA tests across key components such as BitLocker, Secure Boot, and 
 ### Sample BPA results output
 
 <table>
-<tr><th colspan="2"><font color="00ff00">BitLocker</font></th></tr>
+<tr><th colspan="2">BitLocker</th></tr>
 <tr><td><strong>Description:</strong></td><td>Checks if BitLocker is enabled on the system drive.</td></tr>
 <tr><td><strong>Value:</strong></td><td>Protection On</td></tr>
-<tr><td><strong>Condition:</strong></td><td><font color="00ff00">Optimal</font></td></tr>
+<tr><td><strong>Condition:</strong></td><td>Optimal</td></tr>
 <tr><td><strong>Guidance:</strong></td><td>It is highly recommended to enable BitLocker to protect your data.</td></tr>
 </table>
 
 <table>
-<tr><th colspan="2"><font color="00ff00">Secure Boot</font></th></tr>
+<tr><th colspan="2">Secure Boot</th></tr>
 <tr><td><strong>Description:</strong></td><td>Checks if Secure Boot is enabled.</td></tr>
 <tr><td><strong>Value:</strong></td><td>True</td></tr>
-<tr><td><strong>Condition:</strong></td><td><font color="00ff00">Optimal</font></td></tr>
+<tr><td><strong>Condition:</strong></td><td>Optimal</td></tr>
 <tr><td><strong>Guidance:</strong></td><td>It is highly recommended to enable Secure Boot to protect your PC.</td></tr>
 </table>
 
 <table>
-<tr><th colspan="2"><font color="00ff00">Trusted Platform Module</font></th></tr>
+<tr><th colspan="2">Trusted Platform Module</th></tr>
 <tr><td><strong>Description:</strong></td><td>Ensures that the TPM is functional.</td></tr>
 <tr><td><strong>Value:</strong></td><td>True</td></tr>
-<tr><td><strong>Condition:</strong></td><td><font color="00ff00">Optimal</font></td></tr>
+<tr><td><strong>Condition:</strong></td><td>Optimal</td></tr>
 <tr><td><strong>Guidance:</strong></td><td>Without a functional TPM, security-based functions such as BitLocker may not work properly.</td></tr>
 </table>
 
 <table>
-<tr><th colspan="2"><font color="00ff00">Connected Standby</font></th></tr>
+<tr><th colspan="2">Connected Standby</th></tr>
 <tr><td><strong>Description:</strong></td><td>Checks if Connected Standby is enabled.</td></tr>
 <tr><td><strong>Value:</strong></td><td>True</td></tr>
-<tr><td><strong>Condition:</strong></td><td><font color="00ff00">Optimal</font></td></tr>
+<tr><td><strong>Condition:</strong></td><td>Optimal</td></tr>
 <tr><td><strong>Guidance:</strong></td><td>Connected Standby allows a Surface device to receive updates and notifications while not being used. For best experience, Connected Standby should be enabled.</td></tr>
 </table>
 
 <table>
-<tr><th colspan="2"><font color="00ff00">Bluetooth</font></th></tr>
+<tr><th colspan="2">Bluetooth</th></tr>
 <tr><td><strong>Description:</strong></td><td>Checks if Bluetooth is enabled.</td></tr>
 <tr><td><strong>Value:</strong></td><td>Enabled</td></tr>
-<tr><td><strong>Condition:</strong></td><td><font color="00ff00">Optimal</font></td></tr>
+<tr><td><strong>Condition:</strong></td><td>Optimal</td></tr>
 <tr><td><strong>Guidance:</strong></td><td></td></tr>
 </table>
 
 <table>
-<tr><th colspan="2"><font color="00ff00">Debug Mode</font></th></tr>
+<tr><th colspan="2">Debug Mode</th></tr>
 <tr><td><strong>Description:</strong></td><td>Checks if the operating system is in Debug mode.</td></tr>
 <tr><td><strong>Value:</strong></td><td>Normal</td></tr>
-<tr><td><strong>Condition:</strong></td><td><font color="00ff00">Optimal</font></td></tr>
+<tr><td><strong>Condition:</strong></td><td>Optimal</td></tr>
 <tr><td><strong>Guidance:</strong></td><td>The debug boot option enables or disables kernel debugging of the Windows operating system. Enabling this option can cause system instability and can prevent DRM (digital rights managemend) protected media from playing.</td></tr>
 </table>
 
 <table>
-<tr><th colspan="2"><font color="00ff00">Test Signing</font></th></tr>
+<tr><th colspan="2">Test Signing</th></tr>
 <tr><td><strong>Description:</strong></td><td>Checks if Test Signing is enabled.</td></tr>
 <tr><td><strong>Value:</strong></td><td>Normal</td></tr>
-<tr><td><strong>Condition:</strong></td><td><font color="00ff00">Optimal</font></td></tr>
+<tr><td><strong>Condition:</strong></td><td>Optimal</td></tr>
 <tr><td><strong>Guidance:</strong></td><td>Test Signing is a Windows startup setting that should only be used to test pre-release drivers.</td></tr>
 </table>
 
 <table>
-<tr><th colspan="2"><font color="00ff00">Active Power Plan</font></th></tr>
+<tr><th colspan="2">Active Power Plan</th></tr>
 <tr><td><strong>Description:</strong></td><td>Checks that the correct power plan is active.</td></tr>
 <tr><td><strong>Value:</strong></td><td>Balanced</td></tr>
-<tr><td><strong>Condition:</strong></td><td><font color="00ff00">Optimal</font></td></tr>
+<tr><td><strong>Condition:</strong></td><td>Optimal</td></tr>
 <tr><td><strong>Guidance:</strong></td><td>It is highly recommended to use the "Balanced" power plan to maximize productivity and battery life.</td></tr>
 </table>
 
 <table>
-<tr><th colspan="2"><font color="ff9500">Windows Update</font></th></tr>
+<tr><th colspan="2">Windows Update</th></tr>
 <tr><td><strong>Description:</strong></td><td>Checks if the device is up to date with Windows updates.</td></tr>
 <tr><td><strong>Value:</strong></td><td>Microsoft Silverlight (KB4023307), Definition Update for Windows Defender Antivirus - KB2267602 (Definition 1.279.1433.0)</td></tr>
-<tr><td><strong>Condition:</strong></td><td><font color="ff9500">Not Optimal</font></td></tr>
+<tr><td><strong>Condition:</strong></td><td>Not Optimal</td></tr>
 <tr><td><strong>Guidance:</strong></td><td>Updating to the latest windows makes sure you are on the latest firmware and drivers. It is recommended to always keep your device up to date</td></tr>
 </table>
 
 <table>
-<tr><th colspan="2"><font color="00ff00">Free Hard Drive Space</font></th></tr>
+<tr><th colspan="2">Free Hard Drive Space</th></tr>
 <tr><td><strong>Description:</strong></td><td>Checks for low free hard drive space.</td></tr>
 <tr><td><strong>Value:</strong></td><td>66%</td></tr>
-<tr><td><strong>Condition:</strong></td><td><font color="00ff00">Optimal</font></td></tr>
+<tr><td><strong>Condition:</strong></td><td>Optimal</td></tr>
 <tr><td><strong>Guidance:</strong></td><td>For best performance, your hard drive should have at least 10% of its capacity as free space.</td></tr>
 </table>
 
 <table>
-<tr><th colspan="2"><font color="00ff00">Non-Functioning Devices</font></th></tr>
+<tr><th colspan="2">Non-Functioning Devices</th></tr>
 <tr><td><strong>Description:</strong></td><td>List of non-functioning devices in Device Manager.</td></tr>
 <tr><td><strong>Value:</strong></td><td></td></tr>
-<tr><td><strong>Condition:</strong></td><td><font color="00ff00">Optimal</font></td></tr>
+<tr><td><strong>Condition:</strong></td><td>Optimal</td></tr>
 <tr><td><strong>Guidance:</strong></td><td>Non-functioning devices in Device Manager may cause unpredictable problems with Surface devices such as, but not limited to, no power savings for the respective hardware component.</td></tr>
 </table>
 
 <table>
-<tr><th colspan="2"><font color="00ff00">External Monitor</font></th></tr>
+<tr><th colspan="2">External Monitor</th></tr>
 <tr><td><strong>Description:</strong></td><td>Checks for an external monitor that may have compatibility issues.</td></tr>
 <tr><td><strong>Value:</strong></td><td></td></tr>
-<tr><td><strong>Condition:</strong></td><td><font color="00ff00">Optimal</font></td></tr>
+<tr><td><strong>Condition:</strong></td><td>Optimal</td></tr>
 <tr><td><strong>Guidance:</strong></td><td>Check with the original equipment manufacturer for compatibility with your Surface device.</td></tr>
 </table>
