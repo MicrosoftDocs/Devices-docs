@@ -12,6 +12,9 @@ ms.date: 10/19/2021
 ms.reviewer: rohenr
 manager: laurawi
 audience: itpro
+appliesto:
+- Windows 10
+- Windows 11
 ---
 
 # Azure Virtual Desktop on Surface
