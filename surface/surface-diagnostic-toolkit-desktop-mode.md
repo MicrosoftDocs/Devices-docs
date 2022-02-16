@@ -12,6 +12,9 @@ manager: laurawi
 ms.localizationpriority: medium
 ms.audience: itpro
 ms.date: 7/31/2020
+appliesto:
+- Windows 10
+- Windows 11
 
 ---
 

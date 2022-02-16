@@ -14,6 +14,9 @@ ms.audience: itpro
 ms.reviewer: 
 manager: laurawi
 ms.date: 08/12/2021
+appliesto:
+- Windows 10
+- Windows 11
 ---
 
 # Considerations for Surface and Microsoft Endpoint Configuration Manager

@@ -12,6 +12,9 @@ ms.reviewer: scottmca
 manager: laurawi
 ms.audience: itpro
 ms.date: 10/25/2021
+appliesto:
+- Windows 10
+- Windows 11
 ---
 # Surface Dock 1 Firmware Update
 
