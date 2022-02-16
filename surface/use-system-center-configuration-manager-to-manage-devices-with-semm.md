@@ -14,6 +14,9 @@ manager: laurawi
 ms.localizationpriority: medium
 ms.audience: itpro
 ms.date: 10/28/2020
+appliesto:
+- Windows 10
+- Windows 11
 ---
 
 # Use Microsoft Endpoint Configuration Manager to manage devices with SEMM

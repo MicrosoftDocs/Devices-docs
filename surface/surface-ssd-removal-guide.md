@@ -21,6 +21,8 @@ appliesto:
 - Surface Laptop Go
 - Surface Laptop 3
 - Surface Laptop 4
+- Windows 10
+- Windows 11
 
 
 ms.custom: 
