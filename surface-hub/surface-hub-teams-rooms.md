@@ -59,7 +59,7 @@ When Teams Rooms for Surface Hub is publicly released later this year, admins ca
 
 ## Support for Teams Rooms in Government Community Cloud High (GCC-H)
 
-When Teams Rooms for Surface Hub is publicly released later this year, a one-time manual update of the client to version 1.4.00.25354 is needed in order to for it to be able to connect to a GCC-H tenant and then keep itself up-to-date automatically:
+A one-time manual update of the Teams Rooms client to version 1.4.00.25354 is needed in order to for it to be able to connect to a GCC-H tenant and then keep itself up-to-date automatically:
 
  - Confirm that your Hub has KB5005611 or a later Windows Cumulative Update installed
  - Use [Teams_Uninstall_win32.ppkg](https://download.microsoft.com/download/8/3/F/83FD5089-D14E-42E3-AF7C-6FC36F80D347/Teams_Uninstall_Win32.ppkg) to remove current Teams Rooms on Surface Hub version

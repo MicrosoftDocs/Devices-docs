@@ -19,6 +19,10 @@ Surface Hub benefits from periodic updates that deliver new features and functio
 
 ## Windows 10 Team 2020 Update 2 
 
+### GCC High support
+
+After installation of this update ([KB5010415](https://support.microsoft.com/help/5010415)), Surface Hubs are supported in GCC High environments. At this time, [additional steps ](surface-hub-teams-rooms.md#support-for-teams-rooms-in-government-community-cloud-high-gcc-h) are needed for the Teams Rooms client to successfully connect to GCC High tenants.
+
 ### Ease of Access updates
 
 Users can adjust Ease of Access settings during a Surface Hub session and close apps just like they do in other versions of Windows 10. 
