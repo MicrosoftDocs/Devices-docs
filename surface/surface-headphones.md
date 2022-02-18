@@ -19,7 +19,7 @@ appliesto:
 
 # Surface Headphones 2+ tech overview
 
-Built for the hybrid workplace, Surface Headphones 2+ reduce unwanted ambient noise, enable clear remote meeting participation, and provide high-fidelity sound. Surface Headphones 2+ include 13 levels of active noise cancellation, earcup dials, and advanced 8-microphone system for voice clarity, [18.5 hours of music](https://www.microsoft.com/en-us/surface/business/surface-headphones-2-plus) <sup>1</sup> listening time or up to 15 hours of voice<sup>2</sup> calling time. 
+Built for the hybrid workplace, Surface Headphones 2+ reduce unwanted ambient noise, enable clear remote meeting participation, and provide high-fidelity sound. Surface Headphones 2+ include 13 levels of active noise cancellation, earcup dials, and an advanced 8-microphone system for voice clarity, [18.5 hours of music](https://www.microsoft.com/en-us/surface/business/surface-headphones-2-plus) <sup>1</sup> listening time or up to 15 hours of voice<sup>2</sup> calling time. 
  
 ## Certified for Microsoft Teams
 
@@ -27,7 +27,7 @@ Now certified for Microsoft Teams with the included dongle, Surface Headphones 2
  
 ## Using with Microsoft 365
 
-Surface Headphones 2+ integrate with productivity features in Microsoft 365 such as helping improve the accuracy of speech to text dictation or enabling captions to appear on-screen while you speak during a presentation.
+Surface Headphones 2+ integrate with productivity features in Microsoft 365, such as helping improve the accuracy of speech-to-text dictation or enabling captions to appear on-screen while you speak during a presentation.
 
 - Talk rather than type with dictation in Microsoft Word, Outlook, and PowerPoint.
 - Enable live captions and subtitles on-screen while you’re talking, and translate what you’re saying into one of 60+ languages for more accessible presentations. 
@@ -39,7 +39,7 @@ Note that a software license is required for some Microsoft 365 features and is 
 - Headphones: users can update firmware on Surface Headphones 2+ via the [Surface Audio app](https://www.microsoft.com/p/surface-audio/9nxjnfwnvm8d?)(Windows, iOS, Android).
 - Surface USB link dongle: Windows Update automatically pushes updates to firmware on the dongle.
 
-Note, currently there are no enterprise management options for managing Surface Headphones 2+.
+Currently, there are no enterprise management options for managing Surface Headphones 2+.
 
 ## Surface Headphones 2+ tech specs
 
@@ -97,4 +97,4 @@ The USB dongle and ear pads for Surface Headphones + are available as replacemen
 4. AptX™ only works with Surface Headphones 2+ when not using the Surface USB Link.
 5. Microsoft’s Limited Warranty is in addition to your consumer law rights.
 6. USB-A to USB-C® adapter should work for a C-capable source. Performance varies based on the quality of the adapter and the cable length
-7. To pair your replacement Surface USB Link to Surface Headphones 2+ you will need the [Surface Audio app](https://www.microsoft.com/p/surface-audio/9nxjnfwnvm8d?), available on devices running Windows 10 or Windows 11. 
+7. To pair your replacement Surface USB Link to Surface Headphones 2+, you will need the [Surface Audio app](https://www.microsoft.com/p/surface-audio/9nxjnfwnvm8d?), available on devices running Windows 10 or Windows 11. 

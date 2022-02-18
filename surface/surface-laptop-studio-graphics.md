@@ -31,13 +31,13 @@ This section describes the integrated and discrete GPUs across Surface Laptop St
 
 ### Intel Iris™ Xe Graphics
 
-The integrated GPU (iGPU) Surface Laptop Studio is installed as the secondary GPU on most models, Intel Iris™ Xe Graphics functions as the singular GPU in the Core i5 model. It supports richer gaming experiences and greater speeds for designers and creators. With advanced graphics capabilities and an AI-enhanced experience, Intel Iris Xe enables consumers, hobbyists, and online creators to run the latest productivity software like Adobe Creative Cloud or enjoy gaming titles in 1080p. It, also, increases the number of supported displays from three to a total of four. Now you can use up to three external displays alongside the internal display or four external displays at once -- for both integrated GPU and discrete GPU models.[[1]](#references)
+As the integrated GPU (iGPU) on Surface Laptop Studio, Intel Iris™ Xe Graphics functions as the singular GPU in the Core i5 model. It supports richer gaming experiences and greater speeds for designers and creators. With advanced graphics capabilities and an AI-enhanced experience, Intel Iris Xe enables consumers, hobbyists, and online creators to run the latest productivity software like Adobe Creative Cloud or enjoy gaming titles in 1080p. It also increases the number of supported displays from three to a total of four. Now you can use up to three external displays alongside the internal display or four external displays at once -- for both integrated GPU and discrete GPU models.[[1]](#references)
 
 ### Comparing discrete GPUs
 
 NVIDIA GeForce RTX 30 Series and RTX professional GPUs provide massive speedups for games, 3D rendering, video editing, graphic design and AI-accelerated workflows in addition to many other creative tasks. This is thanks to the latest NVIDIA Ampere architecture:
 
-- 2nd generation RT Cores and DLSS, providing up to 2x performance boosts in top renderers including Blender Cycles, Chaos V-Ray, and Autodesk Arnold.
+- 2nd generation RT Cores and DLSS, providing up to 2x performance boosts in top renderers, including Blender Cycles, Chaos V-Ray, and Autodesk Arnold.
 - 3rd generation Tensor Cores that accelerate AI features. Tensor Cores also bring AI to graphics with capabilities like DLSS, AI denoising, and enhanced editing for select applications.
 - The best-in-class video encoder (NVENC) and new hardware acceleration for ray-traced motion blur, a common technique used in production rendering, is now boosted by up to 5x.
 
@@ -47,14 +47,14 @@ The GeForce RTX 3050 Ti Laptop GPU is a great GPU for gamers and content creator
  
 GeForce RTX 3050 Ti enables:
 
-- Video editing and livestreaming accelerations, thanks to the dedicated hardware encoder, enhanced AI features, and app accelerations in apps like Adobe Premiere® Pro, DaVinci Resolve or OBS.
-- Graphic design and photography, with AI accelerated features in apps like Adobe Lightroom or Photoshop.
+- Video editing and live streaming accelerations, thanks to the dedicated hardware encoder, enhanced AI features, and app accelerations in apps like Adobe Premiere® Pro, DaVinci Resolve or OBS.
+- Graphic design and photography, with AI-accelerated features in apps like Adobe Lightroom or Photoshop.
 - Ultra-fast 3D rendering thanks to RTX and DLSS accelerations in apps like Blender or Autodesk® Maya. 
-- Next-generation gaming with RTX graphics and high performance thanks to DLSS and ultra low latency with NVIDIA Reflex.
+- Next-generation gaming with RTX graphics and high performance thanks to DLSS and ultra-low latency with NVIDIA Reflex.
 
 ### NVIDIA RTX A2000 Laptop GPU
 
-The NVIDIA RTX A2000 offers professional graphics rendering and AI capabilities for demanding professional workflows including manufacturing and product design, media and entertainment modeling, animating and rendering, architecture, engineering and construction design.
+The NVIDIA RTX A2000 offers professional graphics rendering and AI capabilities for demanding professional workflows, including manufacturing and product design, media and entertainment modeling, animating and rendering, architecture, engineering and construction design.
  
 NVIDIA RTX A2000 builds on the GeForce RTX 3050 Ti features with the following additional capabilities:
 
