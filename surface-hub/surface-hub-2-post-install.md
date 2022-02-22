@@ -31,7 +31,7 @@ When performing these steps, you might find it useful to use a wired or wireless
 
 1. Sign in with an account that has local administrator privileges on the device.  
 
-    - On Azure AD joined devices, the user that performs the Azure AD join is automatically added to the local administrator group. Azure AD global administrators and Azure AD devices administrators are <a href="https://docs.microsoft.com/azure/active-directory/devices/assign-local-admin" target="_blank">also local administrators</a>. 
+    - On Azure AD joined devices, the user that performs the Azure AD join is automatically added to the local administrator group. Azure AD global administrators and Azure AD devices administrators are <a href="/azure/active-directory/devices/assign-local-admin" target="_blank">also local administrators</a>. 
     
     - You can type **net localgroup administrators** at a command prompt to list the accounts that have local administrator rights.
     
@@ -110,13 +110,13 @@ After migration, there may be servicing and feature updates available for you to
 
 ## OneDrive for Business
 
-Use <a href="https://docs.microsoft.com/onedrive/onedrive" target="_blank"> OneDrive for Business</a> to easily share tools, logs, and other files between all your work devices.
+Use <a href="/onedrive/onedrive" target="_blank"> OneDrive for Business</a> to easily share tools, logs, and other files between all your work devices.
 
 - OneDrive enables you to share your work files between your laptops, Surface Hub Desktop, and your Intune-managed mobile devices. Files can be edited on any device, and all network connected devices will be updated with the changes.
 
 - Considering the size of the Surface Hub SSD (128GB), if you configure OneDrive on your Surface Hub Desktop device, make sure the default configuration is to keep the files online and download files as you use them.
 
-To configure OneDrive to download files only when needed, set the **Files On-Demand** setting to **Save space and download files as you use them**. For more information, see <a href="https://docs.microsoft.com/onedrive/files-on-demand-windows" target="_blank"> Query and set Files On-Demand states in Windows</a>.
+To configure OneDrive to download files only when needed, set the **Files On-Demand** setting to **Save space and download files as you use them**. For more information, see <a href="/onedrive/files-on-demand-windows" target="_blank"> Query and set Files On-Demand states in Windows</a>.
 
 ![OneDrive settings.](images/onedrive.png)
 
