@@ -1,5 +1,5 @@
 ---
-title: Configure Windows 10 Pro or Enterprise on Surface Hub 2
+title: Configure Windows 10 or Windows 11 Pro/Enterprise on Surface Hub 2
 description: This article includes recommendations to ensure the best experience when using a personalized large screen touch and pen computer.
 keywords: Surface Hub, Windows 10, desktop, install, configuration
 ms.prod: surface-hub
@@ -17,11 +17,13 @@ ms.topic: article
 ms.date: 12/08/2020
 appliesto:
 - Surface Hub 2S
+- Windows 10
+- Windows 11
 ---
 
-# Configure Windows 10 Pro or Enterprise on Surface Hub 2
+# Configure Windows 10 or Windows 11 Pro/Enterprise on Surface Hub 2
 
-After you have completed the installation process of migrating to Windows 10 Pro or Enterprise, you can perform the following steps to configure apps and settings on your Surface Hub 2. These steps are recommended to ensure the best experience when using this personalized large screen touch and pen computer.
+After migrating to Windows 10 or Windows 11 Pro/Enterprise, you can configure apps and settings to ensure the best experience when using this personalized large screen touch and pen computer.
 
 When performing these steps, you might find it useful to use a wired or wireless keyboard and mouse.
 
@@ -84,7 +86,7 @@ If your Surface Hub device is near to a PC, you can use <a href="https://aka.ms/
 
 ## Example of Taskbar layout
 
-After completing the below steps to setup/configure your Surface Hub 2 for Windows 10 Professional or Enterprise, we recommend you utilize pinning your most used applications to the Taskbar for a quick one-touch launch of each application. Below is an example of what your taskbar could look like:
+After completing the below steps to setup/configure your Surface Hub 2 for Windows 10 or Windows 11 Pro/Enterprise, we recommend you utilize pinning your most used applications to the Taskbar for a quick one-touch launch of each application. Below is an example of what your taskbar could look like:
 
  ![Taskbar layout.](images/taskblyt.png)
 ### Update installed apps
@@ -96,7 +98,8 @@ To update all installed Store apps:
 3. Select **Get updates**
 
 ### Scan for and install all Windows Updates
-After migrating to Windows 10 Professional or Windows 10 Enterprise, there may be servicing and feature updates available for you to install. 
+
+After migration, there may be servicing and feature updates available for you to install. 
 
 - Go to **Settings** > **Update & Security** > and then select **Check for updates**.
 - If there are any updates, install them, reboot, and then repeat the process until you see the following notification:
@@ -189,7 +192,7 @@ For more information on how to side-mount the camera and rotate the camera manua
 
 ## Windows Hello configuration
 
-Surface Hub 2S running Windows 10 Enterprise allows the full suite of Win32 desktop applications as well as biometric Windows Hello options. The Surface Hub 2 Fingerprint Reader accessory can be plugged into any USB-C port on the device. 
+Surface Hub 2S running Windows 10 or Windows 11 Pro/Enterprise allows the full suite of Win32 desktop applications as well as biometric Windows Hello options. The Surface Hub 2 Fingerprint Reader accessory can be plugged into any USB-C port on the device. 
 
 To order a Surface Hub 2 Fingerprint Reader or view technical specs, see (surface-hub-2-essential-add-ons.md" target="_blank">Essential add-ons for Windows 10 Pro and Enterprise on Surface Hub 2 </a>. 
 
@@ -354,9 +357,9 @@ The <a href="https://www.microsoft.com/p/surface-hub-hardware-diagnostic/9nblggh
 
 ### Power management
 
-There are several power settings available to get the best experience using Windows 10 Pro or Enterprise on Surface Hub 2. This includes screen and pc timeouts and how they interact with the built-in human presence detection (Doppler), the screen saver and password protection, and then if appropriate how to by-pass group policy power settings intended for laptop / desktop users.
+There are several power settings available to get the best experience using Windows 10 or Windows 11 Pro/Enterprise on Surface Hub 2. This includes screen and pc timeouts and how they interact with the built-in human presence detection (Doppler), the screen saver and password protection, and then if appropriate how to by-pass group policy power settings intended for laptop / desktop users.
 
-Windows 10 Pro or Enterprise on Surface Hub 2 keeps the screen from going to sleep by touch, mouse, and keyboard actions, as well as the built-in human occupancy detection (Doppler). Human occupancy detection is enabled by default, but if desired it can be disabled in UEFI by toggling the device option in the Surface UEFI Configurator tool either as part of the initial migration, or by building and applying a later UEFI configuration package. 
+Windows 10 or Windows 11 Pro/Enterprise on Surface Hub 2 keeps the screen from going to sleep by touch, mouse, and keyboard actions, as well as the built-in human occupancy detection (Doppler). Human occupancy detection is enabled by default, but if desired it can be disabled in UEFI by toggling the device option in the Surface UEFI Configurator tool either as part of the initial migration, or by building and applying a later UEFI configuration package. 
 
 **Power Management: Screen and PC sleep settings**
 
@@ -474,8 +477,8 @@ Turn on Tablet mode if desired for accessibility needs.
 10. Verify startup apps.
 
 > [!TIP]
-> After installing and configuring Windows 10, the Surface Hub 2S can be managed just like any other Windows 10 device.
+> After installing and configuring Windows 10, the Surface Hub 2S can be managed just like any other Windows 10 or Windows 11 device.
 
 ## Related topics
 
-<a href="surface-hub-2s-migrate-os.md" target="_blank"> Migrate to Windows 10 Pro or Enterprise on Surface Hub 2</a>
+<a href="surface-hub-2s-migrate-os.md" target="_blank"> Migrate to Windows 10 or Windows 11 Pro/Enterprise on Surface Hub 2</a>
