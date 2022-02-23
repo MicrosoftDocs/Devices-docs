@@ -26,14 +26,17 @@ Microsoft Surface Hub has a variety of Ease of Access options. New in Windows 10
 
 ## Default Ease of Acess settings
 
-| Ease of Access feature | Default settings  |
-| --------------------- | ----------------- |
-| Magnifier             | Off               |
-| High contrast         | No theme selected |
-| Closed captions       | Defaults selected for Font and Background and window |
-| Keyboard              | **On-screen Keyboard**, **Sticky Keys**, **Toggle Keys**, and **Filter Keys** are all off. |
-| Mouse                 | Defaults selected for **Pointer size**, **Pointer color** and **Mouse keys**. |
-| Other options         | Defaults selected for **Visual options** and **Touch feedback**. |
+Admins can manage Ease of Access settings so they remain in effect across all user sessions. With the exception of Mouse settings, users can adjust the default behavior, as shown in the following table.  
+
+
+| Ease of Access feature | Default settings  | Availability|
+| --------------------- | ----------------- |-------------|
+| Magnifier             | Off               |Admins & users|
+| High contrast         | No theme selected |Admins & users|
+| Closed captions       | Defaults selected for Font and Background and window |Admins & users|
+| Keyboard              | **On-screen Keyboard**, **Sticky Keys**, **Toggle Keys**, and **Filter Keys** are all off. |Admins & users|
+| Mouse                 | Defaults selected for **Pointer size**, **Pointer color** and **Mouse keys**. |Admins only|
+| Other options         | Defaults selected for **Visual options** and **Touch feedback**. |Admins & users|
 
 ## Ease of access settings
 
