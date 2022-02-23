@@ -28,7 +28,7 @@ After installation of this update ([KB5010415](https://support.microsoft.com/hel
 Users can adjust Ease of Access settings during a Surface Hub session and close apps just like they do in other versions of Windows 10. 
 
 - **Ease of Access**. Users can adjust the following settings without signing in:   Display, Text cursor, Magnifier, High contrast, Narrator, Closed captions, and Keyboard. 
-- **Familiar UI for apps**. Users can close apps on Surface Hub by selecting the Close button in the top right corner of the app. This removes the need to close apps by dragging them to the bottom of the Surface Hub display. 
+- **Familiar UI for apps**. Users can close apps on Surface Hub by selecting the Close button in the top right corner of the app. This removes the need to close apps by dragging them to the bottom of the Surface Hub display. (Note: This functionality will be available on the Edge browser as part of the next Edge update, scheduled for March 2022.) 
 
 To learn more, see [Adjust Ease of Access settings on Surface Hub](accessibility-surface-hub.md).
 
