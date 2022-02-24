@@ -165,6 +165,7 @@ For a list of supported post codes, see "Next business day coverage" where appli
 ### United Kingdom
 
 - Cutoff Time: 12:00 CET (UTC+1)
+- [Next day business coverage](https://download.microsoft.com/download/a/4/8/a48a3872-f5de-43ac-8a24-564228b9b3bf/NBD%20Coverage%20UK%20Post%20Codes%20022222.xlsx)
 
 #### United States 
 
