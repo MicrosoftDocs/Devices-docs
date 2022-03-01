@@ -45,11 +45,11 @@ When you install the Surface Hub Smart Camera, auto-framing is enabled by defaul
 > If you don't know your user name or admin password, you'll need to reset the device. For more information, see [Reset and recovery for Surface Hub 2S](/surface-hub/surface-hub-2s-recover-reset).
 
 2. Open the **Settings** app and go to  **Surface Hub > Calling & Audio.**
-3. Under Automatic Framing, adjust the toggle, as appropriate:
+3. Under **Automatic Framing**, adjust the toggle, as appropriate:
 
 - **Set the Surface Hub 2 Smart Camera to automatically zoom and keep people centered in the video when they move around.**
 
-3. Restart Surface Hub. 
+4. Restart Surface Hub. 
 
 If the toggle is set to **On**, auto-framing will always be on by default when users begin a session on Surface Hub. If the toggle is set to **Off**, auto-framing will always be off by default when starting a session on Surface Hub.
 
