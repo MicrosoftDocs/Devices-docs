@@ -50,7 +50,7 @@ After installation of this update ([KB5005101](https://support.microsoft.com/hel
 
 ### Support for new Whiteboard application
 
-After installation of this update, Surface Hubs support an automatic upgrade to the new [Whiteboard app](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/unified-whiteboard-experience-coming-to-surface-hub/ba-p/3145226) through Microsoft Store updates.
+After installation of this update, Surface Hubs support an automatic upgrade (when available) to the new [Whiteboard app](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/unified-whiteboard-experience-coming-to-surface-hub/ba-p/3145226) through Microsoft Store updates.
 
 ### Support for new Microsoft Edge browser
 
