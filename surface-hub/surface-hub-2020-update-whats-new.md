@@ -104,4 +104,5 @@ To learn more, see:
 ## Learn more
 
 - [Windows 10 Team 2020 Update 1 released to all Surface Hubs](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/windows-10-team-2020-update-1-released-to-all-surface-hubs/ba-p/2653503)
-- [Install Windows 10 Team 2020 Update](surface-hub-2020-update.md)  
+- [Windows 10 Team 2020 Update available October 27](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/surface-hub-windows-10-team-2020-update-available-october-27/ba-p/1810739)
+- [Install Windows 10 Team 2020 Update](surface-hub-2020-update.md)
