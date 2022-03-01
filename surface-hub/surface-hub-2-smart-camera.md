@@ -23,7 +23,7 @@ Surface Hub 2 Smart Camera <sup>1</sup> is designed for hybrid teams, providing 
 
      ![Attach the camera to the USB-C port in the middle of the top of Surface Hub 2.](images/hub2smartcamera1.png)
 
-2. To remove the camera, pull up and forward. There is a magnetic tether that prevents the camera from being knocked off or pulled off backwards.
+2. To remove the camera, pull up and forward. A magnetic tether prevents the camera from being knocked off or pulled  backward.
 
     ![To remove the camera, pull up and forward.](images/hub2smartcamera2.png)
 
@@ -70,12 +70,12 @@ Auto-framing is always enabled and cannot be disabled or otherwise configured.
 
 ## Order Surface Hub 2 Smart Camera
 
-You can get Surface Hub 2 Smart Camera from your [authorized Microsoft Surface reseller](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface?).
+Purchase Surface Hub 2 Smart Camera from your [authorized Microsoft Surface reseller](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface?).
 
 ## Learn more
 
-- Add links as appropriate
+- 
 
 ### References
 
-1. Surface Hub 2 Smart Camera, sold separately starting March 16, 2022 dynamically adjusts the video feed for remote participants. Surface Hub 2 Smart Camera will be included in the box with Surface Hub 2S 85” starting in May 2022.
+1. Surface Hub 2 Smart Camera, sold separately starting March 16, 2022, dynamically adjusts the video feed for remote participants. Surface Hub 2 Smart Camera will be included in the box with Surface Hub 2S 85” starting in May 2022.
