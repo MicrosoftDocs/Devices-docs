@@ -15,7 +15,7 @@ ms.localizationpriority: Medium
 
 # Install and Manage Surface Hub 2 Smart Camera
 
-Surface Hub 2 Smart Camera <sup>1</sup> is designed for hybrid teams, providing remote participants with the best possible view of the room. With sharp focus on the foreground and background, remote participants can see people interact with content on the Surface Hub while also viewing everyone else in the room. Surface Hub 2 Smart Camera has a wide field of view greater than 130 degrees, digital pan-tilt-zoom, high-quality glass optics, and a low light sensor.
+Surface Hub 2 Smart Camera <sup>1</sup> is designed for hybrid teams and optimized for remote participants. With sharp focus on the foreground and background, remote participants can see people interact with content on the Surface Hub while also viewing everyone else in the room. Surface Hub 2 Smart Camera has a wide field of view greater than 130 degrees, digital pan-tilt-zoom, high-quality glass optics, and a low light sensor.
 
 ## Install smart camera
 
@@ -48,6 +48,8 @@ When you install the Surface Hub Smart Camera, auto-framing is enabled by defaul
 3. Under Automatic Framing, adjust the toggle, as appropriate:
 
 - **Set the Surface Hub 2 Smart Camera to automatically zoom and keep people centered in the video when they move around.**
+
+3. Restart Surface Hub. 
 
 If the toggle is set to **On**, auto-framing will always be on by default when users begin a session on Surface Hub. If the toggle is set to **Off**, auto-framing will always be off by default when starting a session on Surface Hub.
 
