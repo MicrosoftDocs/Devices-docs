@@ -12,6 +12,8 @@ ms.date: 01/11/2022
 ms.reviewer: hachidan
 manager: laurawi
 audience: itpro
+appliesto:
+- Windows 11
 ---
 
 # Surface Laptop SE overview

@@ -1,5 +1,5 @@
 ---
-title: Configure Windows 10 Pro or Enterprise on Surface Hub 2
+title: Configure Windows 10 or Windows 11 Pro/Enterprise on Surface Hub 2
 description: This article includes recommendations to ensure the best experience when using a personalized large screen touch and pen computer.
 keywords: Surface Hub, Windows 10, desktop, install, configuration
 ms.prod: surface-hub
@@ -17,23 +17,25 @@ ms.topic: article
 ms.date: 12/08/2020
 appliesto:
 - Surface Hub 2S
+- Windows 10
+- Windows 11
 ---
 
-# Configure Windows 10 Pro or Enterprise on Surface Hub 2
+# Configure Windows 10 or Windows 11 Pro/Enterprise on Surface Hub 2
 
-After you have completed the installation process of migrating to Windows 10 Pro or Enterprise, you can perform the following steps to configure apps and settings on your Surface Hub 2. These steps are recommended to ensure the best experience when using this personalized large screen touch and pen computer.
+After migrating to Windows 10 or Windows 11 Pro/Enterprise, you can configure apps and settings to ensure the best experience using this personalized large screen touch and pen computer.
 
-When performing these steps, you might find it useful to use a wired or wireless keyboard and mouse.
+When performing these steps, you might find it helpful to use a wired or wireless keyboard and mouse.
 
 ## Configure system settings
 
 1. Sign in with an account that has local administrator privileges on the device.  
 
-    - On Azure AD joined devices, the user that performs the Azure AD join is automatically added to the local administrator group. Azure AD global administrators and Azure AD devices administrators are <a href="https://docs.microsoft.com/azure/active-directory/devices/assign-local-admin" target="_blank">also local administrators</a>. 
-    
+    - The user who performs the Azure AD join on Azure AD joined devices is automatically added to the local administrator group.  Azure AD global administrators and Azure AD devices administrators are <a href="/azure/active-directory/devices/assign-local-admin" target="_blank">also local administrators</a>. 
+
     - You can type **net localgroup administrators** at a command prompt to list the accounts that have local administrator rights.
     
-2. Rename the device using a friendly name, for example: **username-SHub-Desktop**.
+2. Rename the device using a friendly name, for example, **username-SHub-Desktop**.
 
 3. Select **Start** > **Settings** > **Accounts** > **Sync your settings** and turn **Sync settings** off. 
 
@@ -43,9 +45,9 @@ When performing these steps, you might find it useful to use a wired or wireless
 
 ## Enable the touch keyboard and touchpad
 
-1. Select **Start** > **Settings** > **Devices** > **Typing** and turn **Show the touch keyboard when not in tablet mode and there's no keyboard attached** on.
+1. Select **Start** > **Settings** > **Devices** > **Typing** and turn on **Show the touch keyboard when not in tablet mode and there's no keyboard attached**.
 
-2. Tap and hold or right-click the taskbar and then select **Show touch keyboard button** and **Show touchpad button**. 
+2. Tap and hold or right-click the taskbar and select the **Show touch keyboard button** and **Show touchpad button**. 
 
     - The touch keyboard is helpful for direct user input, and the virtual touchpad helps with precise selections, hovering screen tips, or as an alternative to tap and hold for right-click. 
     
@@ -59,7 +61,7 @@ When performing these steps, you might find it useful to use a wired or wireless
     
     1. On the touch keyboard, select the keyboard icon in the upper left corner to open keyboard settings.
     
-    1. Select the next to last keyboard type on the top row to enable QWERTY, and the last option on the second row to enable floating, which is very helpful on this large screen. See the following examples.
+    1. Select the next to last keyboard type on the top row to enable QWERTY and the last option on the second row to enable floating, which is helpful on this large screen. See the following examples.
 
        ![Keyboard settings.](images/kbd.png)
  
@@ -78,27 +80,28 @@ The following example shows the trackpad, which is useful to navigate and select
 
 ## Configure Bluetooth keyboard and mouse (optional)
 
-Connect a keyboard and mouse if you are using the device as your primary Windows device, or you use it often for typing or precision work.
+Connect a keyboard and mouse if you use the device as your primary Windows device, or you often use it for typing or precision work.
 
-If your Surface Hub device is near to a PC, you can use <a href="https://aka.ms/mm" target="_blank"> Mouse without Borders</a> to move seamlessly between the Surface Hub and the PC. For more information, see <a href="https://blogs.microsoft.com/ai/microsoft-download-from-the-garage-mouse-without-borders/" target="_blank"> Microsoft download from The Garage: Mouse without Borders. </a>
+If your Surface Hub device is near a PC, you can use <a href="https://aka.ms/mm" target="_blank"> Mouse without Borders</a> to move seamlessly between the Surface Hub and the PC. For more information, see <a href="https://blogs.microsoft.com/ai/microsoft-download-from-the-garage-mouse-without-borders/" target="_blank"> Microsoft download from The Garage: Mouse without Borders. </a>
 
 ## Example of Taskbar layout
 
-After completing the below steps to setup/configure your Surface Hub 2 for Windows 10 Professional or Enterprise, we recommend you utilize pinning your most used applications to the Taskbar for a quick one-touch launch of each application. Below is an example of what your taskbar could look like:
+After completing the below steps to set up/configure your Surface Hub 2 for Windows 10 or Windows 11 Pro/Enterprise, we recommend you utilize pinning your most-used applications to the Taskbar for a quick one-touch launch of each application. Below is an example of what your taskbar could look like:
 
  ![Taskbar layout.](images/taskblyt.png)
 ### Update installed apps
 
 To update all installed Store apps:
 
-1. Open Microsoft Store app and select the **See more** ellipsis in the top-right corner.
+1. Open the Microsoft Store app and select the **See more** ellipsis in the top-right corner.
 2. Select **Downloads and updates.**
 3. Select **Get updates**
 
 ### Scan for and install all Windows Updates
-After migrating to Windows 10 Professional or Windows 10 Enterprise, there may be servicing and feature updates available for you to install. 
 
-- Go to **Settings** > **Update & Security** > and then select **Check for updates**.
+After migration, there may be servicing and feature updates available for you to install. 
+
+- Go to **Settings** > **Update & Security** > and select **Check for updates**.
 - If there are any updates, install them, reboot, and then repeat the process until you see the following notification:
 
 > [!div class="mx-imgBorder"]
@@ -107,13 +110,13 @@ After migrating to Windows 10 Professional or Windows 10 Enterprise, there may b
 
 ## OneDrive for Business
 
-Use <a href="https://docs.microsoft.com/onedrive/onedrive" target="_blank"> OneDrive for Business</a> to easily share tools, logs, and other files between all your work devices.
+Use <a href="/onedrive/onedrive" target="_blank"> OneDrive for Business</a> to easily share tools, logs, and other files between all your work devices.
 
-- OneDrive enables you to share your work files between your laptops, Surface Hub Desktop, and your Intune-managed mobile devices. Files can be edited on any device, and all network connected devices will be updated with the changes.
+- OneDrive lets you share your work files between your laptops, Surface Hub Desktop, and your Intune-managed mobile devices. Files can be edited on any device, and all network-connected devices will be updated with the changes.
 
 - Considering the size of the Surface Hub SSD (128GB), if you configure OneDrive on your Surface Hub Desktop device, make sure the default configuration is to keep the files online and download files as you use them.
 
-To configure OneDrive to download files only when needed, set the **Files On-Demand** setting to **Save space and download files as you use them**. For more information, see <a href="https://docs.microsoft.com/onedrive/files-on-demand-windows" target="_blank"> Query and set Files On-Demand states in Windows</a>.
+To configure OneDrive to download files only when needed, set the **Files On-Demand** setting to **Save space and download files as you use them**. For more information, see <a href="/onedrive/files-on-demand-windows" target="_blank"> Query and set Files On-Demand states in Windows</a>.
 
 ![OneDrive settings.](images/onedrive.png)
 
@@ -126,29 +129,29 @@ SharePoint and Teams Channel files can also sync locally to your desktop devices
 
 To sync internal corporate files to your local drive with the OneDrive sync app:
 
-1. Go to a SharePoint site and navigate to the top-level document directory for files that you are interested in viewing or editing from your local device.
+1. Go to a SharePoint site and navigate to the top-level document directory for files you are interested in viewing or editing from your local device.
 
 2. Select on the **Sync** button on the top of the SharePoint ribbon.
 
 3. Select on **Open** on the popup **This site is trying to open Microsoft OneDrive**.
 
-4. Verify that the SharePoint files are synchronizing to your local drive by selecting on the OneDrive icon at the bottom right of the taskbar.
+4. Verify that the SharePoint files are synchronizing to your local drive by selecting the OneDrive icon at the bottom right of the taskbar.
 
 5. Verify the configuration is set to keep the files online and download the files only as you use them:
 
     1. Open file explorer.
     
-    2. Navigate to and right click your SharePoint name; for example, **Contoso \ \<SharePoint Document Folder Name\>**.
+    2. Navigate to and right-click your SharePoint name; for example, **Contoso \ \<SharePoint Document Folder Name\>**.
     
     3. Select **Free up space**.
     
     4. The Status column will display the status of files and folders. For more information, see <a href="https://support.microsoft.com/office/sync-sharepoint-files-with-the-onedrive-sync-client-groove-exe-59b1de2b-519e-4d3a-8f45-51647cf291cd" target="_blank"> Sync SharePoint files with the OneDrive sync client</a>.
     
-6. Teams Channel files are stored in SharePoint sites, with all of the same SharePoint document functionality, including version history and synchronizing to your local desktop devices. To sync Teams Channel files:
+6. Teams Channel files are stored in SharePoint sites, with the same SharePoint document functionality, including version history and synchronizing to your local desktop devices. To sync Teams Channel files:
 
-    1. Navigate to the Teams Channel of interest and select the **Files** tab at the top. Then select **Sync**. The files will start synchronizing and will be visible in File Explorer at **Desktop \ Contoso \ \<name of the Teams Channel\>**.
+    1. Navigate to the Teams Channel of interest and select the **Files** tab at the top. Then select **Sync**. The files will start synchronizing and be visible in File Explorer at **Desktop \ Contoso \ \<name of the Teams Channel\>**.
     
-    2. Use the same procedure that you used for synchronizing SharePoint sites to keep the files in the cloud and only download them when you use them, by tap and hold or right-click in File Explorer on the Teams Channel name, and then selecting **Free up space**.
+    2. Use the same procedure you used for synchronizing SharePoint sites to keep the files in the cloud and only download them when you use them, by tap and hold or right-click in File Explorer on the Teams Channel name, and then selecting **Free up space**.
 
 ## Surface Hub pen settings
 
@@ -170,10 +173,10 @@ Pair the pen to keep the pen firmware up to date, set the pen shortcuts, and get
 
 7. Complete the pairing operation. 
 
-8. If the pairing is not successful, you can attempt to pair the pen again. If that doesn't work, you can test to see if the battery is charged by verifying the pen works in the Whiteboard application. If not, then replace the battery and then try to pair the pen again. If necessary, restart the device and then try again.
+8. If the pairing is not successful, try to pair the pen again. If that doesn't work, you can test to see if the battery is charged by verifying the pen works in the Whiteboard application. If not, replace the battery and try to pair the pen again.  If necessary, restart the device and then try again.
 
 **Set pen shortcuts**
-The Surface Hub pen has a shortcut button sometimes referred to as a "tail click". Configuring shortcuts requires you to first pair the pen, as described earlier.
+The Surface Hub pen has a shortcut button sometimes called a "tail click." Configuring shortcuts requires you to first pair the pen, as described earlier.
 
 1. Search for Pen and select **Pen & Windows Ink settings**.
 
@@ -183,13 +186,13 @@ The Surface Hub pen has a shortcut button sometimes referred to as a "tail click
 
 ## Camera configuration
 
-You can mount the camera on the top or on either side of the device. Mount the camera in a position to optimize the camera angle if you are using the Hub with a desktop stand instead of a cart, or are in close proximity to the Hub. The camera does not auto-rotate, so you need to have a 2mm hex key to manually rotate the camera. 
+You can mount the camera on the top or either side of the device. Mount the camera in a position to optimize the camera angle if you are using the Hub with a desktop stand instead of a cart, or are near the Hub. The camera does not auto-rotate, so you need to have a 2mm hex key to manually rotate the camera. 
 
 For more information on how to side-mount the camera and rotate the camera manually, see <a href="https://support.microsoft.com/help/4509729/surface-hub-2s-camera-lens-orientation" target="_blank"> Surface Hub 2S camera lens orientation</a>.
 
 ## Windows Hello configuration
 
-Surface Hub 2S running Windows 10 Enterprise allows the full suite of Win32 desktop applications as well as biometric Windows Hello options. The Surface Hub 2 Fingerprint Reader accessory can be plugged into any USB-C port on the device. 
+Surface Hub 2S running Windows 10 or Windows 11 Pro/Enterprise allows the full suite of Win32 desktop applications as well as biometric Windows Hello options. The Surface Hub 2 Fingerprint Reader accessory can be plugged into any USB-C port on the device. 
 
 To order a Surface Hub 2 Fingerprint Reader or view technical specs, see (surface-hub-2-essential-add-ons.md" target="_blank">Essential add-ons for Windows 10 Pro and Enterprise on Surface Hub 2 </a>. 
 
@@ -330,7 +333,7 @@ The [PowerToys wiki](https://github.com/microsoft/PowerToys/wiki) has instructio
 **Power toys tips**
 - To receive email notifications of PowerToys release updates on GitHub, click the “sign-up” button at the top of the [page](https://github.com/microsoft/PowerToys/releases).
 - Once PowerToys is installed, you can receive Windows notifications and/or download and install the latest updates by configuring the PowerToys settings **Download updates automatically** to on.
-- To get to the PowerToys settings, select the up carat **Running apps** on the taskbar, and then right click or press and hold the PowerToys icon until the menu appears. Select “Settings”.
+- To get to the PowerToys settings, select the up carat **Running apps** on the taskbar, and then right-click or press and hold the PowerToys icon until the menu appears. Select “Settings”.
 - At the bottom of the PowerToys settings page, turn **Download updates automatically** to on.
 - When an update has been released, a Windows notification will appear giving you the option of when to install the update.
 
@@ -354,9 +357,9 @@ The <a href="https://www.microsoft.com/p/surface-hub-hardware-diagnostic/9nblggh
 
 ### Power management
 
-There are several power settings available to get the best experience using Windows 10 Pro or Enterprise on Surface Hub 2. This includes screen and pc timeouts and how they interact with the built-in human presence detection (Doppler), the screen saver and password protection, and then if appropriate how to by-pass group policy power settings intended for laptop / desktop users.
+There are several power settings available to get the best experience using Windows 10 or Windows 11 Pro/Enterprise on Surface Hub 2. This includes screen and pc timeouts and how they interact with the built-in human presence detection (Doppler), the screen saver and password protection, and then if appropriate how to by-pass group policy power settings intended for laptop / desktop users.
 
-Windows 10 Pro or Enterprise on Surface Hub 2 keeps the screen from going to sleep by touch, mouse, and keyboard actions, as well as the built-in human occupancy detection (Doppler). Human occupancy detection is enabled by default, but if desired it can be disabled in UEFI by toggling the device option in the Surface UEFI Configurator tool either as part of the initial migration, or by building and applying a later UEFI configuration package. 
+Windows 10 or Windows 11 Pro/Enterprise on Surface Hub 2 keeps the screen from going to sleep by touch, mouse, and keyboard actions, as well as the built-in human occupancy detection (Doppler). Human occupancy detection is enabled by default, but if desired it can be disabled in UEFI by toggling the device option in the Surface UEFI Configurator tool either as part of the initial migration, or by building and applying a later UEFI configuration package. 
 
 **Power Management: Screen and PC sleep settings**
 
@@ -474,8 +477,8 @@ Turn on Tablet mode if desired for accessibility needs.
 10. Verify startup apps.
 
 > [!TIP]
-> After installing and configuring Windows 10, the Surface Hub 2S can be managed just like any other Windows 10 device.
+> After installing and configuring Windows 10, the Surface Hub 2S can be managed just like any other Windows 10 or Windows 11 device.
 
 ## Related topics
 
-<a href="surface-hub-2s-migrate-os.md" target="_blank"> Migrate to Windows 10 Pro or Enterprise on Surface Hub 2</a>
+<a href="surface-hub-2s-migrate-os.md" target="_blank"> Migrate to Windows 10 or Windows 11 Pro/Enterprise on Surface Hub 2</a>

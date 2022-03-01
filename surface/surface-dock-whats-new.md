@@ -12,6 +12,9 @@ ms.date: 10/19/2021
 ms.reviewer: brrecord
 manager: laurawi
 audience: itpro
+appliesto:
+- Windows 10
+- Windows 11
 ---
 # What’s new in Surface Dock 2
 
@@ -27,7 +30,7 @@ Surface Dock 2 is designed to simplify IT management, enabling admins to automat
 
 ## General system requirements
 
-- Windows 10 version 1809. There is no support for Windows 7, Windows 8, or non-Surface host devices. Surface Dock 2 works with the following Surface devices:
+- Windows 10 version 1809 and later. There is no support for Windows 7, Windows 8, or non-Surface host devices. Surface Dock 2 works with the following Surface devices:
 
   - Surface Pro (5th Gen)
   - Surface Laptop (1st Gen)

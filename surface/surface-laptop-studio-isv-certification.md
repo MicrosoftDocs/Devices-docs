@@ -12,6 +12,9 @@ ms.date: 01/03/2022
 ms.reviewer: brrecord
 manager: laurawi
 audience: itpro
+appliesto:
+- Windows 10
+- Windows 11
 ---
 
 
@@ -51,4 +54,4 @@ Microsoft Surface engineering works closely with Adobe to test and validate that
 
 1. AutoCAD was tested on versions 2021 and 2022. 
 2. Some accessories and software sold separately.
-3. Tactile signals in Adobe Premier Pro is available in Beta only. Visit [Adobe.com](https://www.adobe.com/products/premiere.html) for more details.
+3. Tactile signals in Adobe Premier Pro are available in Beta only. Visit [Adobe.com](https://www.adobe.com/products/premiere.html) for more details.

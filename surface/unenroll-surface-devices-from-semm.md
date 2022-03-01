@@ -13,6 +13,9 @@ ms.reviewer:
 manager: laurawi
 ms.localizationpriority: medium
 ms.audience: itpro
+appliesto:
+- Windows 10
+- Windows 11
 ---
 
 # Unenroll Surface devices from SEMM

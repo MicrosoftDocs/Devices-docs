@@ -20,6 +20,9 @@ ms.topic: article
 manager: laurawi
 ms.audience: itpro
 ms.date: 12/08/2021
+appliesto:
+- Windows 10
+- Windows 11
 
 ---
 

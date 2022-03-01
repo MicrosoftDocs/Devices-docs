@@ -12,6 +12,9 @@ ms.topic: article
 ms.reviewer: tokatz
 manager: laurawi
 ms.date: 11/30/2021
+appliesto:
+- Windows 10
+- Windows 11
 ---
 # Optimize Wi-Fi connectivity on Surface devices
 

@@ -15,6 +15,9 @@ ms.topic: article
 ms.date: 09/26/2019
 ms.localizationpriority: medium
 ms.audience: itpro
+appliesto:
+- Windows 10
+- Windows 11
 ---
 
 # Top support solutions for Surface devices

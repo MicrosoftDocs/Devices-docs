@@ -12,6 +12,9 @@ ms.date: 09/22/2021
 ms.reviewer: oayakta
 manager: laurawi
 audience: itpro
+appliesto:
+- Windows 10
+- Windows 11
 ---
 
 # OS choice for new Surface devices

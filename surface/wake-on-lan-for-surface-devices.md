@@ -14,6 +14,9 @@ ms.reviewer: jesko
 manager: laurawi
 ms.audience: itpro
 ms.date: 11/30/2021
+appliesto:
+- Windows 10
+- Windows 11
 ---
 
 # Wake On LAN for Surface devices 

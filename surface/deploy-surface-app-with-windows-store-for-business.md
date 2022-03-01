@@ -14,6 +14,9 @@ ms.audience: itpro
 ms.reviewer: 
 manager: laurawi
 ms.date: 4/16/2021
+appliesto:
+- Windows 10
+- Windows 11
 ---
 
 # Deploy Surface app with Microsoft Store for Business and Education

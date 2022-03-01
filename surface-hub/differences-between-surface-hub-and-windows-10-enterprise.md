@@ -7,7 +7,7 @@ ms.sitesec: library
 author: dansimp
 ms.author: dansimp
 ms.topic: article
-ms.date: 03/23/2021
+ms.date: 02/15/2022
 ms.reviewer: 
 manager: laurawi
 ms.localizationpriority: medium
@@ -142,7 +142,18 @@ Device settings can be configured through the Settings app. The Settings app is 
 
 ### Administrative features
 
-The administrative features in Windows 10 Enterprise, such as the Microsoft Management Console, Run, Command Prompt, PowerShell, registry editor, event viewer, and task manager are not supported on Surface Hub. The Settings app contains all of the administrative features locally available on Surface Hub.
+The administrative features in Windows 10 Enterprise, such as the Microsoft Management Console, Run, Command Prompt, PowerShell, Registry editor, and Task manager are not supported on Surface Hub. The Settings app contains all of the administrative features locally available on Surface Hub.
+
+#### Event viewer
+
+Windows 10 Team 2020 Update 2 adds support for the Windows Event Viewer, which is identical to the [Event Viewer](/host-integration-server/core/windows-event-viewer1) installed on Windows 10 Pro or Windows 10 Enterprise. 
+
+**To open Event viewer:**
+
+1. Sign in to **Settings** app with admin credentials.
+2. Select **Update & Security** > **Logs** and under Event Viewer, select **Open**. 
+
+To learn more, see [Windows Event Viewer](/host-integration-server/core/windows-event-viewer1).
 
 ### Remote management and monitoring
 

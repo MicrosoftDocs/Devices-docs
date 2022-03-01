@@ -3,7 +3,7 @@ title: Windows Autopilot and Surface devices
 ms.reviewer: 
 manager: laurawi
 description: Find out about Windows Autopilot deployment options for Surface devices.
-keywords: autopilot, windows 10, surface, deployment
+keywords: autopilot, Windows 10, Windows 11, surface, deployment
 ms.prod: w10
 ms.mktglfcycl: deploy
 ms.pagetype: surface, devices
@@ -14,11 +14,14 @@ ms.topic: article
 ms.localizationpriority: medium
 ms.audience: itpro
 ms.date: 9/14/2020
+appliesto:
+- Windows 10
+- Windows 11
 ---
 
 # Windows Autopilot and Surface devices
 
-Windows Autopilot is a cloud-based deployment technology in Windows 10. You can use Windows Autopilot to remotely deploy and configure devices in a zero-touch process right out of the box.
+Windows Autopilot is a cloud-based deployment technology in Windows 10 and Windows 11. You can use Windows Autopilot to remotely deploy and configure devices in a zero-touch process right out of the box.
 
 Traditionally, IT pros spend a lot of time building and customizing images that will later be deployed to devices that already come with a perfectly good OS already installed on them. Windows Autopilot introduces a new zero-touch deployment approach using a collection of technologies to set up and configure Windows devices. This enables an IT department to configure/customize images with little to no infrastructure to manage and a process that is easy and simple. From the user’s perspective, it only takes a few simple steps to get Surface to a productive state. In fact, the only interaction required from the end user is to connect to a network and to verify their credentials. Everything after that is fully automated.
 

@@ -12,6 +12,9 @@ manager: laurawi
 ms.localizationpriority: medium
 ms.audience: itpro
 ms.date: 1/15/2021
+appliesto:
+- Windows 10
+- Windows 11
 ---
 
 # Best practice power settings for Surface devices
@@ -33,7 +36,7 @@ To ensure Surface devices across your organization fully benefit from Surface po
 - If you must manage the power profile of devices across your network (such as in highly managed organizations), use the powercfg command tool to export the power plan from the factory image of the Surface device and then import it into the provisioning package for your Surface devices. 
 
     >[!NOTE]
-    >You can only export a power plan across the same type of Surface device.  For example, you cannot export a power plan from Surface Laptop and import it on Surface Pro.  For more information, refer to [Configure power settings](https://docs.microsoft.com/windows-hardware/customize/power-settings/configure-power-settings).
+    >You can only export a power plan across the same type of Surface device.  For example, you cannot export a power plan from Surface Laptop and import it on Surface Pro.  For more information, refer to [Configure power settings](/windows-hardware/customize/power-settings/configure-power-settings).
 
 - Exclude Surface devices from any existing power management policy settings. 
 
@@ -55,7 +58,7 @@ function. This article applies to all currently supported Surface devices includ
 
 ## Utilizing the custom power profile in Surface
 
-If you go into the power options on a surface device, you'll see that there's a single power plan available. This is the custom power profile. And if you go to the advanced power settings, you’ll see a much smaller subset of power options compared to a generic PC running Windows 10. Unlike generic devices, Surface has firmware and custom components to manage these power options.
+If you go into the power options on a surface device, you'll see that there's a single power plan available. This is the custom power profile. And if you go to the advanced power settings, you’ll see a much smaller subset of power options compared to a generic PC running Windows 10 or Windows 11. Unlike generic devices, Surface has firmware and custom components to manage these power options.
 
 
 ## Modern Standby
@@ -76,7 +79,7 @@ power mode for Surface devices. Modern standby has two modes:
   connectivity.
 
 To learn more about modern standby, refer to the [Microsoft Hardware Dev
-Center](https://docs.microsoft.com/windows-hardware/design/device-experiences/modern-standby-wake-sources).
+Center](/windows-hardware/design/device-experiences/modern-standby-wake-sources).
 
 ## How Surface streamlines the power management experience 
 
@@ -126,7 +129,7 @@ Power slider enables four states as described in the following table:
 
 | Slider mode| Description |
 |---|---|
-| Battery saver| Helps conserve power and prolong battery life when the system is disconnected from a power source. When battery saver is on, some Windows features are disabled, throttled, or behave differently. Screen brightness is also reduced. Battery saver is only available when using battery power (DC). To learn more, see [Battery Saver](https://docs.microsoft.com/windows-hardware/design/component-guidelines/battery-saver).|
+| Battery saver| Helps conserve power and prolong battery life when the system is disconnected from a power source. When battery saver is on, some Windows features are disabled, throttled, or behave differently. Screen brightness is also reduced. Battery saver is only available when using battery power (DC). To learn more, see [Battery Saver](/windows-hardware/design/component-guidelines/battery-saver).|
 | Recommended | Delivers longer battery life than the default settings in earlier versions of Windows. |
 | Better Performance | Slightly favors performance over battery life, functioning as the default slider mode. |
 | Best Performance | Favors performance over power for workloads requiring maximum performance and responsiveness, regardless of battery power consumption.|
@@ -147,10 +150,10 @@ in the following table.
 To learn more, see:
 
 -   [Customize the Windows performance power
-    slider](https://docs.microsoft.com/windows-hardware/customize/desktop/customize-power-slider)
+    slider](/windows-hardware/customize/desktop/customize-power-slider)
 
 -   [Battery
-    saver.](https://docs.microsoft.com/windows-hardware/design/component-guidelines/battery-saver)
+    saver.](/windows-hardware/design/component-guidelines/battery-saver)
 
 ## Best practices for extended battery life
 
@@ -169,13 +172,13 @@ To learn more, see:
 ## Learn more 
 
 - [Modern
-    standby](https://docs.microsoft.com/windows-hardware/design/device-experiences/modern-standby-wake-sources)
+    standby](/windows-hardware/design/device-experiences/modern-standby-wake-sources)
 
 <!-- -->
 
 - [Customize the Windows performance power
-    slider](https://docs.microsoft.com/windows-hardware/customize/desktop/customize-power-slider)
+    slider](/windows-hardware/customize/desktop/customize-power-slider)
 
 - [Battery
-    saver](https://docs.microsoft.com/windows-hardware/design/component-guidelines/battery-saver)
+    saver](/windows-hardware/design/component-guidelines/battery-saver)
 - [Manage and deploy Surface driver and firmware updates](manage-surface-driver-and-firmware-updates.md)
