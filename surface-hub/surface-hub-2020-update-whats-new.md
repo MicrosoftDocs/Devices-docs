@@ -15,13 +15,13 @@ ms.localizationpriority: Medium
 
 # What's new in Windows 10 Team 2020 updates
 
-Surface Hub benefits from periodic updates that deliver new features and functionality. Together, Windows 10 Team 2020 Update and Windows 10 Team 2020 Update 2 deliver significant improvements to device deployment and manageability along with the latest Windows 10 features.
+Surface Hub benefits from periodic updates that deliver new features and functionality. The 2020 Update (20H2) to Windows 10 Team, and subsequently Update 1 & Update 2, deliver significant improvements to device deployment and manageability along with the latest Windows 10 features.
 
 ## Windows 10 Team 2020 Update 2 
 
 ### GCC High support
 
-After installation of this update ([KB5010415](https://support.microsoft.com/help/5010415)), Surface Hubs are supported in GCC High environments. At this time, [additional steps ](surface-hub-teams-rooms.md#support-for-teams-rooms-in-government-community-cloud-high-gcc-h) are needed for the Teams Rooms client to successfully connect to GCC High tenants.
+After installation of this update ([KB5010415](https://support.microsoft.com/help/5010415) or a subsequent Windows CU), Surface Hubs are supported in GCC High environments. At this time, [additional steps ](surface-hub-teams-rooms.md#support-for-teams-rooms-in-government-community-cloud-high-gcc-h) are needed for the Teams Rooms client to successfully connect to GCC High tenants.
 
 ### Ease of Access updates
 
@@ -42,7 +42,21 @@ To learn more, see [Adjust Ease of Access settings on Surface Hub](accessibility
 
 To learn more, see [Configure non Global admin accounts on Surface Hub](surface-hub-2s-nonglobal-admin.md).
 
-## Windows 10 Team 2020 Update 
+## Windows 10 Team 2020 Update 1
+
+### Support for new Teams Rooms application
+
+After installation of this update ([KB5005101](https://support.microsoft.com/help/5005101) or a subsequent Windows CU), Surface Hubs support an automatic upgrade to the new [Teams Rooms client](surface-hub-teams-rooms.md) through Windows Update.
+
+### Support for new Whiteboard application
+
+After installation of this update, Surface Hubs support an automatic upgrade to the new [Whiteboard app](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/unified-whiteboard-experience-coming-to-surface-hub/ba-p/3145226) through Microsoft Store updates.
+
+### Support for new Microsoft Edge browser
+
+After installation of this update, Surface Hubs will automatically replace their Microsoft Edge Legacy browser with the new Chromium-based Edge browser. Edge Legacy is no longer available on Windows 10 Team after installation of this update or any subsequent Windows CU.
+
+## Windows 10 Team 2020 Update (20H2)
 
 ### Deployment and manageability
 
