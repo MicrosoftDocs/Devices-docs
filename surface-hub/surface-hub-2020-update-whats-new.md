@@ -42,6 +42,7 @@ To learn more, see [Adjust Ease of Access settings on Surface Hub](accessibility
 
 To learn more, see [Configure non Global admin accounts on Surface Hub](surface-hub-2s-nonglobal-admin.md).
 
+
 ## Windows 10 Team 2020 Update 1
 
 ### Support for new Teams Rooms application
@@ -52,9 +53,10 @@ After installation of this update ([KB5005101](https://support.microsoft.com/hel
 
 After installation of this update, Surface Hubs support an automatic upgrade (when available) to the new [Whiteboard app](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/unified-whiteboard-experience-coming-to-surface-hub/ba-p/3145226) through Microsoft Store updates.
 
-### Support for new Microsoft Edge browser
+### New Microsoft Edge browser installed by default
 
-After installation of this update, Surface Hubs will automatically replace their Microsoft Edge Legacy browser with the new Chromium-based Edge browser. Edge Legacy is no longer available on Windows 10 Team after installation of this update or any subsequent Windows CU.
+After installation of this update, Surface Hubs will automatically replace their Microsoft Edge Legacy browser with the new Chromium-based Edge browser.  To learn more, see [Manage Microsoft Edge on Surface Hub](surface-hub-install-chromium-edge.md). Edge Legacy is no longer available on Windows 10 Team after installation of this update or a subsequent Windows CU.
+
 
 ## Windows 10 Team 2020 Update (20H2)
 
@@ -69,7 +71,6 @@ After installation of this update, Surface Hubs will automatically replace their
   - [Wifi-CSP](/windows/client-management/mdm/wifi-csp)
   - [Wirednetwork-CSP](/windows/client-management/mdm/wirednetwork-csp)
 
-
 To learn more, see:
 
 - [CSPs supported in Microsoft Surface Hub](/windows/client-management/mdm/configuration-service-provider-reference#surfacehubcspsupport)
@@ -81,14 +82,13 @@ To learn more, see:
 - **Conditional access (CA) for Azure AD joined devices**. IT admins can control user access to organizational resources from Azure AD joined Surface Hubs by assigning device policies per their corporate security and compliance requirements.
 - **Support for non Global admins for Azure AD joined devices**. Customers can choose a more granular set of admins within their admin hierarchy to manage Surface Hub. To learn more, see [Configure non Global admin accounts on Surface Hub](surface-hub-2s-nonglobal-admin.md).
 
-### Browser and pen
+### Inking improvements
 
-- **New Microsoft Edge installed by default**. Microsoft Edge has been rebuilt for optimal compatibility performance, security and privacy. To learn more, see [Manage Microsoft Edge on Surface Hub](surface-hub-install-chromium-edge.md).
-- **Dual-pen inking on Surface Hub 2S**.   Use the whiteboard and collaborate side-by-side on Surface Hub 2S with two Surface Hub 2 Pens. The firmware updates required to enable dual-pen inking will be released with a subsequent update.
+- **Support for dual-pen inking on Surface Hub 2S**.  Use the whiteboard and collaborate side-by-side on Surface Hub 2S with two Surface Hub 2 Pens. Any system hardware update installed after upgrading to Windows 10 Team 2020 will add firmware support for this scenario.
 
 ### Microsoft Teams  
 
-- **Microsoft Teams installed by default**. Microsoft Teams is included as the default Meetings, calling and collaboration app on new Surface Hub devices, which can be changed or configured via MDM or directly on Surface Hub using the Settings app. To learn more, see [Deploy Microsoft Teams](/MicrosoftTeams/teams-surface-hub).
+- **Microsoft Teams installed by default**. Microsoft Teams is included as the default app for meetings, calls & collaboration on new Surface Hub devices, which can be changed or configured via MDM or directly on Surface Hub using the Settings app. To learn more, see [Deploy Microsoft Teams](/MicrosoftTeams/teams-surface-hub).
 - **Support for Proximity Join with Microsoft Teams**.  Proximity Join lets users take scheduled Microsoft Teams calls on a nearby Surface Hub using their laptop or phone.  It also lets users transition an in-progress meeting to a nearby Surface Hub. Windows 10 Team 2020 Update adds Mobile Device Management (MDM) support to configure Proximity Join. To learn more, see:
 
   - [Microsoft Teams Blog](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-teams-devices-for-shared-spaces-july-and-august-update/ba-p/1604833).
