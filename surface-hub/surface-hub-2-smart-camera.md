@@ -19,15 +19,13 @@ Surface Hub 2 Smart Camera <sup>1</sup> is designed for hybrid teams, providing 
 
 ## Install smart camera
 
-1. Attach the camera to the USB-C port in the middle of the top of Surface Hub 2.
+1. Attach the camera to the USB-C port in the middle of the top of Surface Hub 2. The indicator LED will light briefly when the camera is connected and continuously when the camera is in use.
 
      ![Attach the camera to the USB-C port in the middle of the top of Surface Hub 2.](images/hub2smartcamera1.png)
 
 2. To remove the camera, pull up and forward. There is a magnetic tether that prevents the camera from being knocked off or pulled off backwards.
 
     ![To remove the camera, pull up and forward.](images/hub2smartcamera2.png)
-
-The indicator LED will light briefly when the camera is connected and continuously when the camera is in use.
 
 3. Attach the lens cover to the back of the camera when not in use.
 
