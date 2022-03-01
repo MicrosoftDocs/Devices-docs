@@ -21,6 +21,8 @@ Surface Hub 2 Smart Camera <sup>1</sup> is designed for hybrid teams, providing 
 
 1. Attach the camera to the USB-C port in the middle of the top of Surface Hub 2.
 
+ ![Create security group for Hub admins.](images/sh-create-sec-group.png)
+
  ![Attach the camera to the USB-C port in the middle of the top of Surface Hub 2.](images/installsmartcam.png)
 
 :::image type="content" source="images/installsmartcam.png" alt-text="Attach the camera to the USB-C port in the middle of the top of Surface Hub 2.":::
