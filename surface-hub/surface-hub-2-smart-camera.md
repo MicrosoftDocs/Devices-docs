@@ -25,7 +25,7 @@ Surface Hub 2 Smart Camera <sup>1</sup> is designed for hybrid teams, providing 
 
 2. To remove the camera, pull up and forward. There is a magnetic tether that prevents the camera from being knocked off or pulled off backwards.
 
-:::image type="content" source="images/installsmartcam2.png" alt-text="To remove the camera, pull up and forward.":::
+:::image type="content" source="/images/installsmartcam2.png" alt-text="To remove the camera, pull up and forward.":::
 
 The indicator LED will light briefly when the camera is connected and continuously when the camera is in use.
 
