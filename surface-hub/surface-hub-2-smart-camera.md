@@ -1,6 +1,6 @@
 ---
-title: "Manage Surface Hub 2 Smart Camera"
-description: "Explains how to manage settings for the Surface Hub 2 Smart Camera."
+title: "Install and manage Surface Hub 2 Smart Camera"
+description: "Explains how to install and manage settings for the Surface Hub 2 Smart Camera."
 keywords: separate values with commas
 ms.prod: surface-hub
 ms.sitesec: library
@@ -13,7 +13,7 @@ ms.date: 03/16/2022
 ms.localizationpriority: Medium
 ---
 
-# Manage Surface Hub 2 Smart Camera
+# Install and Manage Surface Hub 2 Smart Camera
 
 Surface Hub 2 Smart Camera <sup>1</sup> is designed for hybrid teams, providing remote participants with the best possible view of the room. With sharp focus on the foreground and background, remote participants can see people interact with content on the Surface Hub while also viewing everyone else in the room. Surface Hub 2 Smart Camera has a wide field of view greater than 130 degrees, digital pan-tilt-zoom, high-quality glass optics, and a low light sensor.
 
