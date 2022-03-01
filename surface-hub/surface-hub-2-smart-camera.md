@@ -15,7 +15,21 @@ ms.localizationpriority: Medium
 
 # Manage Surface Hub 2 Smart Camera
 
-Surface Hub 2 Smart Camera <sup>1</sup> is designed for hybrid teams, providing remote participants with the best possible view of the room. With a sharp focus on the foreground and background, remote participants can see people interact with content on the Surface Hub while also viewing everyone else in the room. Surface Hub 2 Smart Camera has a wide field of view greater than 130 degrees, digital pan-tilt-zoom, high-quality glass optics, and a low light sensor.
+Surface Hub 2 Smart Camera <sup>1</sup> is designed for hybrid teams, providing remote participants with the best possible view of the room. With sharp focus on the foreground and background, remote participants can see people interact with content on the Surface Hub while also viewing everyone else in the room. Surface Hub 2 Smart Camera has a wide field of view greater than 130 degrees, digital pan-tilt-zoom, high-quality glass optics, and a low light sensor.
+
+## Install smart camera
+
+1. Attach the camera to the USB-C port in the middle of the top of Surface Hub 2.
+
+:::image type="content" source="images/nstallsmartcam.png" alt-text="Attach the camera to the USB-C port in the middle of the top of Surface Hub 2.":::
+
+2. To remove the camera, pull up and forward. There is a magnetic tether that prevents the camera from being knocked off or pulled off backwards.
+
+:::image type="content" source="images/nstallsmartcam2.png" alt-text="To remove the camera, pull up and forward.":::
+
+The indicator LED will light briefly when the camera is connected and continuously when the camera is in use.
+
+3. Attach the lens cover to the back of the camera when not in use.
 
 ## Auto-framing
 
