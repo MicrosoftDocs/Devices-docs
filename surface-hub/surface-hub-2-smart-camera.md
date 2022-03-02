@@ -17,6 +17,15 @@ ms.localizationpriority: Medium
 
 Surface Hub 2 Smart Camera <sup>1</sup> is designed for hybrid teams and optimized for remote participants. With sharp focus on the foreground and background, remote participants can see people interact with content on the Surface Hub while also viewing everyone else in the room. Surface Hub 2 Smart Camera has a wide field of view greater than 130 degrees, digital pan-tilt-zoom, high-quality glass optics, and a low light sensor.
 
+## System requirements
+
+Surface Hub 2 Smart Camera requires the following updates for [Windows 10 Team 2020 update](surface-hub-2020-update-whats-new.md) (20H2) on Surface Hub 2:
+
+- February 15, 2022 — update for Team based on KB5010415* (OS Build 19042.1566)
+- January 21, 2022 — update for Surface Hub 2S
+
+To learn more, refer to [Surface Hub update history](surface-hub-update-history.md).
+
 ## Install smart camera
 
 1. Attach the camera to the USB-C port in the middle of the top of Surface Hub 2. The indicator LED will light briefly when the camera is connected and continuously when the camera is in use.
@@ -76,7 +85,7 @@ Purchase Surface Hub 2 Smart Camera from your [authorized Microsoft Surface rese
 
 ## Learn more
 
-- 
+- [What's new in Windows 10 Team 2020 updates](surface-hub-2020-update-whats-new.md)
 
 ### References
 
