@@ -28,14 +28,12 @@ Please refer to the “[Surface Hub Important Information](https://support.micro
 <details>
 <summary>February 15, 2022 — update for Team based on KB5010415* (OS Build 19042.1566)</summary>
 
-This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4581839/windows-10-update-history), include:
+ This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub are outlined in [Windows 10 Team 2020 Update 2](surface-hub-2020-update-whats-new.md#windows-10-team-2020-update-2), and also include the below:
 
-* Enables Administrators to launch Windows Event Viewer from the Settings app.
-* Adds support for the ConfigureTimeZone MDM policy in the TimeLanguageSettings CSP.
-* Improves reliability for some MDM policy setting scenarios when using the SurfaceHub CSP.
-* Improves reliability for some Device Account setup scenarios when using an on-premises Exchange mailbox.
-* Improves reliability for incoming call scenarios when using Skype for Business.
 * Fix that allows Exchange services to be disabled during Device Account setup.
+* Improves reliability for some Device Account setup scenarios when using an on-premises Exchange mailbox.
+* Improves reliability for some MDM policy setting scenarios when using the SurfaceHub CSP.
+* Improves reliability for incoming call scenarios when using Skype for Business.
 
 Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabling device features and services. *[KB5010415](https://support.microsoft.com/help/5010415)
 </details>
@@ -97,7 +95,7 @@ Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabl
 <details>
 <summary>September 1, 2021 — update for Team based on KB5005101* (OS Build 19042.1202)</summary>
 
-This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub are outlined in [Windows 10 Team 2020 Update 1](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/windows-10-team-2020-update-1-released-to-all-surface-hubs/ba-p/2653503), and also include the below:
+This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub are outlined in [Windows 10 Team 2020 Update 1](surface-hub-2020-update-whats-new.md#windows-10-team-2020-update-1) and also include the below:
 
 * Improves reliability for some Device Account setup scenarios when using an on-premises Exchange mailbox.
 
