@@ -64,7 +64,13 @@ If the toggle is set to **On**, auto-framing will always be on by default when u
 
 ## Manage camera settings via an MDM provider
 
-You can manage auto-framing via the [Surface Hub configuration service provider](/windows/client-management/mdm/surfacehub-csp) (CSP) from Intune or a third-party mobile device management (MDM) provider. To learn more, refer to the following:
+You can manage auto-framing via the [Surface Hub configuration service provider](/windows/client-management/mdm/surfacehub-csp) (CSP) from Intune or a third-party mobile device management (MDM) provider. 
+
+|CSP policy setting| Description|
+|------------------|------------|
+|DefaultAutomaticFraming|If you turn on this policy setting, auto-framing is enabled. If you turn off this poicy setting, auto-framing is disabled. If you do not configure this policy setting, auto-framing is enabled. |
+
+To learn more, refer to the following:
 
 - [Manage settings with an MDM provider](/surface-hub/manage-settings-with-mdm-for-surface-hub#create-custom-configuration-profile)
 - [SurfaceHub CSP - Windows Client Management](/windows/client-management/mdm/surfacehub-csp)
