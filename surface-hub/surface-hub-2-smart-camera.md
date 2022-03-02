@@ -44,7 +44,7 @@ AI-powered Surface Hub 2 Smart Camera dynamically adjusts the video feed, re-fra
 
 ### Manage auto-framing settings
 
-When you install the Surface Hub Smart Camera, auto-framing is enabled by default for every Surface Hub session or when the camera is connected.
+When you install the Surface Hub Smart Camera, auto-framing is enabled by default. You can manage auto-framing from the Settigns app, via an On/Off toggle that sets the automatic framing state at the start of each Surface Hub session. 
 
 **To adjust auto-framing:**
 
