@@ -58,8 +58,6 @@ When you install the Surface Hub Smart Camera, auto-framing is enabled by defaul
 
 - **Set the Surface Hub 2 Smart Camera to automatically zoom and keep people centered in the video when they move around.**
 
-4. Restart Surface Hub. 
-
 If the toggle is set to **On**, auto-framing will always be on by default when users begin a session on Surface Hub. If the toggle is set to **Off**, auto-framing will always be off by default when starting a session on Surface Hub.
 
 ## Manage camera settings via an MDM provider
