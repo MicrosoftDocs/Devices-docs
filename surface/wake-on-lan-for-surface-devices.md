@@ -30,12 +30,14 @@ Surface devices that run Windows 10 version 1607 or later are capable of Wake On
 
 Ethernet adapters with support for WOL:
 
-- Surface USB 3.0 Gigabit Ethernet Adapter 
+- Microsoft USB-C Travel Hub
 - Surface Ethernet adapter
-- Surface USB-C to Ethernet and USB Adapter
+- Surface USB-C to Ethernet and USB 3.0 Adapter
+- Surface USB 3.0 Gigabit Ethernet Adapter 
 - Surface Dock
 - Surface Dock 2
 - Surface Docking Station for Surface Pro 3
+
 
 Surface devices with support for WOL:
 
@@ -44,17 +46,17 @@ Surface devices with support for WOL:
 - Surface Pro 4
 - Surface Pro (5th Gen)
 - Surface Pro (5th Gen) with LTE Advanced
-- Surface Book (all generations)
-- Surface Laptop (all generations)
 - Surface Pro 6
-- Surface Book 2
-- Surface Go (all generations)
-- Surface Studio 2 (see Surface Studio 2 instructions below)
 - Surface Pro 7
 - Surface Pro 7+
 - Surface Pro 8
+- Surface Book (all generations)
+- Surface Go (all generations)
+- Surface Laptop (all generations)
 - Surface Laptop Go
+- Surface Laptop SE
 - Surface Laptop Studio
+- Surface Studio 2 (see Surface Studio 2 instructions below)
 
 
 ## Using WOL 
