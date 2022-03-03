@@ -21,7 +21,7 @@ appliesto:
 
 # Ethernet adapters and Surface deployment
 
-This article provides guidance to perform a network deployment of the latest Surface devices including Surface Pro 3 and later.
+This article describes how to perform a network deployment of the latest Surface devices including Surface Pro 3 and later.
 
 Network deployment to Surface devices can pose some unique challenges for system administrators. Due to the lack of a native wired Ethernet adapter, administrators must provide connectivity through a removable Ethernet adapter.
 
