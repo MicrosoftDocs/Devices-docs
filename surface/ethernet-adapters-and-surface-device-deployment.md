@@ -72,7 +72,7 @@ Another potential solution to avoid conflict when adapters are shared is to use 
 
 When you use a shared adapter for deployment, the solution for affected deployment technologies is to use another means to identify unique systems. For Configuration Manager and WDS, both of which can be affected by this issue, the solution is to use the System Universal Unique Identifier (System UUID) embedded in the computer firmware by the computer manufacturer. For Surface devices, you can see this entry in the computer firmware under **Device Information**.
 
-To access the firmware of a Surface device:
+**To access the firmware of a Surface device:**
 
 1. Ensure the Surface device is powered off.
 2. Press and hold the **Volume Up** button.
