@@ -34,7 +34,7 @@ Ethernet adapters with support for WOL:
 - Surface Ethernet adapter
 - Surface USB-C to Ethernet and USB 3.0 Adapter
 - Surface USB 3.0 Gigabit Ethernet Adapter 
-- Surface Dock
+- Surface DockDocking Station for Surface Pro 3 
 - Surface Dock 2
 - Docking Station for Surface 3
 - Docking Station for Surface Pro 3 
