@@ -31,7 +31,7 @@ Before you can address the concerns of how you will boot to your deployment envi
 
 When selecting Ethernet adapters, the primary concern is how adapters will boot your Surface devices from the network. Suppose you are pre-staging clients with Windows Deployment Services (WDS) or using Microsoft Endpoint Configuration Manager. In that case, you may also want to consider whether the removable Ethernet adapters will be dedicated to a specific Surface device or shared among multiple devices. For more information on potential conflicts with shared adapters, see [Manage MAC addresses with removable Ethernet adapters](#manage-mac-addresses) later in this article.
 
-Booting from the network (PXE boot) is only supported when using an Ethernet adapter or docking station from Microsoft. The chipset in the Ethernet adapter or dock must be detected and configured as a boot device in the firmware of the Surface device. Microsoft Ethernet adapters, such as the Surface Ethernet Adapter and the [Surface Dock](https://www.microsoft.com/surface/accessories/surface-dock) use a chipset compatible with the Surface firmware.
+Booting from the network (PXE boot) is only supported when using an Ethernet adapter or docking station from Microsoft. The chipset in the Ethernet adapter or dock must be detected and configured as a boot device in the firmware of the Surface device. Microsoft Ethernet adapters, such as the Surface Ethernet Adapter and the [Surface Dock](https://www.microsoft.com/surface/accessories/surface-dock), use a chipset compatible with the Surface firmware.
 
 The following Ethernet devices are supported for network boot with Surface devices:
 
@@ -44,7 +44,7 @@ The following Ethernet devices are supported for network boot with Surface devic
 - Docking Station for Surface Pro 3 
 - Docking Station for Surface Pro and Surface Pro 2
 
-Third-party Ethernet adapters are also supported for network deployment, although they do not support PXE boot. To use a third-party Ethernet adapter, you must load the drivers into the deployment boot image and you must launch that boot image from a separate storage device, such as a USB stick.
+Third-party Ethernet adapters are also supported for network deployment, although they do not support PXE boot. To use a third-party Ethernet adapter, you must load the drivers into the deployment boot image, and you must launch that boot image from a separate storage device, such as a USB stick.
 
 ## Boot Surface devices from the network
 
@@ -68,7 +68,7 @@ Another consideration for administrators performing Windows deployment over the 
 
 The simplest solution to avoid MAC address conflicts is to provide a dedicated removable Ethernet adapter for each Surface device. This can make sense in many scenarios where the Ethernet adapter or the additional functionality of the docking station will be used regularly. However, not all scenarios call for the additional connectivity of a docking station or support for wired networks.
 
-Another potential solution to avoid conflict when adapters are shared is to use the [Microsoft Deployment Toolkit (MDT)](/mem/configmgr/mdt) to perform deployment to Surface devices. MDT does not use the MAC address to identify individual computers and thus is not subject to this limitation. However, MDT does use Windows Deployment Services to provide PXE boot functionality, and is subject to the limitations regarding pre-staged clients which are covered later in this section.
+Another potential solution to avoid conflict when adapters are shared is to use the [Microsoft Deployment Toolkit (MDT)](/mem/configmgr/mdt) to perform deployment to Surface devices. MDT does not use the MAC address to identify individual computers and thus is not subject to this limitation. However, MDT does use Windows Deployment Services to provide PXE boot functionality, and is subject to the limitations regarding pre-staged clients, as described later in this section.
 
 When you use a shared adapter for deployment, the solution for affected deployment technologies is to use another means to identify unique systems. For Configuration Manager and WDS, both of which can be affected by this issue, the solution is to use the System Universal Unique Identifier (System UUID) embedded in the computer firmware by the computer manufacturer. For Surface devices, you can see this entry in the computer firmware under **Device Information**.
 
@@ -83,4 +83,4 @@ When deploying with WDS, the MAC address is only used to identify a computer whe
 
 Alternatively, you can configure WDS to respond to unknown clients that do not require definition by either MAC address or System UUID. Select the **Respond to all client computers (known and unknown)** option on the [**PXE Response** tab](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc732360(v=ws.11)) in **Windows Deployment Server Properties**.
 
-The potential for conflicts with shared Ethernet adapters is much higher with Configuration Manager. Where WDS only uses MAC addresses to define individual systems when configured to do so, Configuration Manager uses the MAC address to define separate systems whenever deploying to new or unknown computers. This can result in improperly configured devices or even the inability to deploy more than one system with a shared Ethernet adapter. Several potential solutions for this situation are described in detail in [How to Use The Same External Ethernet Adapter For Multiple SCCM OSD](https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/how-to-use-the-same-external-ethernet-adapter-for-multiple-sccm/ba-p/257374).
+The potential for conflicts with shared Ethernet adapters is much higher with Configuration Manager. Where WDS only uses MAC addresses to define individual systems, Configuration Manager uses the MAC address to define separate systems whenever deploying to new or unknown computers. This can result in improperly configured devices or even the inability to deploy more than one system with a shared Ethernet adapter. Several potential solutions for this situation are described in detail in [How to Use The Same External Ethernet Adapter For Multiple SCCM OSD](https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/how-to-use-the-same-external-ethernet-adapter-for-multiple-sccm/ba-p/257374).
