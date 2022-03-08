@@ -27,7 +27,7 @@ For Surface Hubs running Team OS, Surface Hub 2 Smart Camera requires the follow
 To learn more, refer to [Surface Hub update history](surface-hub-update-history.md).
 
 > [!NOTE]
-> No additional updates are required for Surface Hubs that have been migrated to run Windows 10 or Windows 11 Pro/Enterprise.
+> No additional updates are required for Surface Hubs  migrated to run Windows 10 or Windows 11 Pro/Enterprise.
 
 ## Install smart camera
 
@@ -40,7 +40,7 @@ To learn more, refer to [Surface Hub update history](surface-hub-update-history.
     ![To remove the camera, pull up and forward.](images/hub2smartcamera2.png)
 
 > [!TIP]
-> The camera includes a cover that magnetically snaps to the front of the camera for privacy when not in use and to the back of the camera for storage.
+> The camera cover magnetically snaps to the front for privacy when not in use and to the back for storage.
 
 ## Manage Automatic framing settings
 
@@ -52,7 +52,7 @@ Automatic framing automatically zooms and keeps you centered in the video when y
 
 ### Windows 10 Team 2020 update (20H2)
 
-When you install the Surface Hub Smart Camera, automatic framing is enabled by default. You can manage automatic framing from the Settings app, via an On/Off toggle that sets the automatic framing state at the start of each Surface Hub session.
+When you install the Surface Hub Smart Camera, automatic framing is enabled by default. You can manage automatic framing from Settings, via an On/Off toggle that sets the automatic framing state at the start of each Surface Hub session.
 
 **To adjust automatic framing:**
 
@@ -74,7 +74,7 @@ You can manage Automatic framing via the [Surface Hub configuration service prov
 
 |CSP policy setting| Description|
 |------------------|------------|
-|DefaultAutomaticFraming|If you turn on this policy setting, Automatic framing is enabled. If you turn off this poicy setting, Automatic framing is disabled. If you do not configure this policy setting, Automatic framing is enabled. |
+|DefaultAutomaticFraming|If you turn on this policy setting, Automatic framing is enabled. If you turn off this policy setting, Automatic framing is disabled. If you do not configure this policy setting, Automatic framing is enabled. |
 
 To learn more, refer to the following:
 
