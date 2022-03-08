@@ -42,17 +42,15 @@ To learn more, refer to [Surface Hub update history](surface-hub-update-history.
 > [!TIP]
 > The camera includes a cover that magnetically snaps to the front of the camera for privacy when not in use and to the back of the camera for storage. 
 
-## Automatic framing
+## Manage Automatic framing settings
 
-Automatic framing automatically zooms and keeps you centered in the video when you move around.
+Automatic framing automatically zooms and keeps you centered in the video when you move around.Managing settings varies depending on the OS installed on Surface Hub:
 
+- [Windows 10 Team 2020 update (20H2)](#windows-10-team-2020-update-20h2)
+- [Windows 11 Desktop on Surface Hub](#windows-11-desktop-on-surface-hub)
+- [Windows 10 Desktop on Surface Hub](#windows-10-desktop-on-surface-hub)
 
-
-## Windows 10 Team 2020 update (20H2) 
-
-Managing the camera varies depending on the OS installed on Surface Hub. By default, Surface Hub 2S runs Windows 10 Team 2020 update (20H2). If you have [migrated your Surface Hub](surface-hub-2s-migrate-os.md) to run Windows 11 Pro or Windows 11 Enterprise, refer to [the section below](#windows-11-desktop-on-surface-hub).
-
-### Manage Automatic framing settings
+### Windows 10 Team 2020 update (20H2) 
 
 When you install the Surface Hub Smart Camera, automatic framing is enabled by default. You can manage automatic framing from the Settings app, via an On/Off toggle that sets the automatic framing state at the start of each Surface Hub session. 
 
@@ -70,7 +68,7 @@ When you install the Surface Hub Smart Camera, automatic framing is enabled by d
 
 If the toggle is set to **On**, Automatic framing will always be on by default when users begin a session on Surface Hub. If the toggle is set to **Off**, Automatic framing will always be off by default when starting a session on Surface Hub.
 
-## Manage camera settings via an MDM provider
+#### Manage camera settings via an MDM provider
 
 You can manage Automatic framing via the [Surface Hub configuration service provider](/windows/client-management/mdm/surfacehub-csp) (CSP) from Intune or a third-party mobile device management (MDM) provider. 
 
