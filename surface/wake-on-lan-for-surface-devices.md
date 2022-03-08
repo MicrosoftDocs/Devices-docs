@@ -30,12 +30,14 @@ Surface devices that run Windows 10 version 1607 or later are capable of Wake On
 
 Ethernet adapters with support for WOL:
 
-- Surface USB 3.0 Gigabit Ethernet Adapter 
+- Microsoft USB-C Travel Hub
 - Surface Ethernet adapter
-- Surface USB-C to Ethernet and USB Adapter
-- Surface Dock
+- Surface USB-C to Ethernet and USB 3.0 Adapter
+- Surface USB 3.0 Gigabit Ethernet Adapter 
+- Surface DockDocking Station for Surface Pro 3 
 - Surface Dock 2
-- Surface Docking Station for Surface Pro 3
+- Docking Station for Surface 3
+- Docking Station for Surface Pro 3 
 
 Surface devices with support for WOL:
 
@@ -44,26 +46,26 @@ Surface devices with support for WOL:
 - Surface Pro 4
 - Surface Pro (5th Gen)
 - Surface Pro (5th Gen) with LTE Advanced
-- Surface Book (all generations)
-- Surface Laptop (all generations)
 - Surface Pro 6
-- Surface Book 2
-- Surface Go (all generations)
-- Surface Studio 2 (see Surface Studio 2 instructions below)
 - Surface Pro 7
 - Surface Pro 7+
 - Surface Pro 8
+- Surface Book (all generations)
+- Surface Go (all generations)
+- Surface Laptop (all generations)
 - Surface Laptop Go
+- Surface Laptop SE
 - Surface Laptop Studio
+- Surface Studio 2 (see Surface Studio 2 instructions below)
 
 
 ## Using WOL 
 
-When not in use, Surface devices enter an idle, low powered state known as Modern Standby or Connected Standby. IT admins can remotely trigger devices using a wake request (magic packet) that contains the Media Access Control (MAC) address of the target Surface device. The destination network interface card (NIC) compares the MAC address with its own before waking up the device. If the MAC address in the magic packet wake request does not match the MAC address on the destination NIC, the NIC won’t wake up the device. To learn more, review [Wake sources documentation](/windows-hardware/design/device-experiences/modern-standby-wake-sources)
+When not in use, Surface devices enter an idle, low-powered state known as Modern Standby or Connected Standby. IT admins can remotely trigger devices using a wake request (magic packet) that contains the Media Access Control (MAC) address of the target Surface device. The destination network interface card (NIC) compares the MAC address with its own before waking up the device. If the MAC address in the magic packet wake request does not match the MAC address on the destination NIC, the NIC won’t wake up the device. To learn more, review [Wake sources documentation](/windows-hardware/design/device-experiences/modern-standby-wake-sources)
 
 ## Modern Standby
 
-Modern Standby starts when the user causes the system to enter sleep or the device goes to sleep based on the Windows power settings the user has set. For example, the user presses the power button, closes the lid, or selects Sleep from the power button in the Windows Start menu. WOL works by default for Surface devices in Modern Standby mode running Windows 10 version 1607 or later. No additional IT configuration is required, except for Surface Studio 2.
+Modern Standby starts when the user causes the system to enter sleep, or the device goes to sleep based on the Windows power settings the user has set. For example, the user presses the power button, closes the lid, or selects Sleep from the power button in the Windows Start menu. WOL works by default for Surface devices in Modern Standby mode running Windows 10 version 1607 or later. No additional IT configuration is required, except for Surface Studio 2.
 
 ## Surface Studio 2 instructions
 
