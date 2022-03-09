@@ -87,9 +87,7 @@ Most apps run on ARM-based Windows 10 PCs with limited exclusions.
 - Most x86 Win32 apps run on Surface Pro X.
 - Native ARM64 and Microsoft Store UWP apps provide an excellent user experience utilizing the full native speed of the ARM-based processor while optimizing battery life.
 - Apps that use drivers designed for a Windows 10 or Windows 11 PC running on an ARM-based processor.
-
-> [!NOTE]
-> With 64-bit emulation coming soon in Preview via the Windows Insider program, you'll be able to run 64-bit (x64) apps on Surface Pro X.
+- x64 emulation for Windows is now generally available in Windows 11.
 
 ### FastTrack App Assure 
 
