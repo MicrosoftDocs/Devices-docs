@@ -18,11 +18,9 @@ appliesto:
 ---
 # Deploying, managing, & servicing Surface Pro X
 
-## Introduction
+Built to handle high-performance commercial requirements, Surface Pro X breaks new ground by incorporating the most powerful processors in its class, the Microsoft SQ1 and Microsoft SQ1 ARM chipsets.
 
-Built to handle high performance commercial requirements, Surface Pro X breaks new ground by incorporating the most powerful processors in its class, the Microsoft SQ1 and Microsoft SQ1 ARM chipsets.
-
-Powered by a 3GHz CPU and a 2.1 teraflop GPU, Surface Pro X provides a full Windows experience. Its 15-hour battery life built-in Gigabit LTE and the versatility of touch, pen, tablet, and laptop make it ideally suited for mobile first-line workers and professionals across the financial, legal, and medical fields or any role demanding extended battery life and continuous connectivity capabilities.
+Powered by a 3GHz CPU and a 2.1 teraflop GPU, Surface Pro X provides a full Windows experience. Its 15-hour battery life, built-in Gigabit LTE and the versatility of touch, pen, tablet, and laptop make it ideal for mobile frontline workers and professionals across the financial, legal, and medical fields or any role demanding extended battery life and continuous connectivity capabilities.
 
 Surface Pro X is designed almost exclusively for a modern, cloud-based environment and works best when paired with Microsoft 365, Intune and Windows Autopilot. This article highlights what that looks like and outlines key considerations for deploying, managing, and servicing Surface Pro X.
 
@@ -33,27 +31,27 @@ For the best experience, deploy Surface Pro X using Windows Autopilot either wit
 - [Windows Autopilot and Surface devices](windows-autopilot-and-surface-devices.md)
 - [Overview of Windows Autopilot](/windows/deployment/windows-autopilot/windows-autopilot)
 
-Autopilot deployment has several advantages: It allows you to use the factory provisioned operating system, streamlined for zero-touch deployment, to include pre-installation of Microsoft 365 Apps for enterprise (also known as Office Pro Plus).
+Autopilot deployment has several advantages: It allows you to use the factory provisioned operating system, streamlined for zero-touch deployment, to include pre-installation of [Microsoft 365 Apps for enterprise](https://www.microsoft.com/microsoft-365/enterprise/microsoft-365-apps-for-enterprise).
 
-Organizations already using modern management, security, and productivity solutions are well positioned to take advantage of the unique performance features in Surface Pro X. Customers using modernized line of business apps, Microsoft store (UWP) apps, or remote desktop solutions also stand to benefit.
+Organizations already using modern management, security, and productivity solutions are well-positioned to take advantage of the unique performance features in Surface Pro X. Customers using modernized [line of business apps](/microsoft-store/working-with-line-of-business-apps), [Microsoft Store (UWP) apps](/windows/uwp/get-started/universal-application-platform-guide), or remote desktop solutions also stand to benefit.
 
 ## Image-based deployment considerations
 
-Microsoft Deployment Toolkit (MDT) and Microsoft Endpoint Configuration Manager (formerly System Center Configuration Manager) currently do not support Surface Pro X for operating system deployment. Customers relying on image-based deployment should consider Surface Pro 8 while they continue to evaluate the right time to transition to modern deployment solutions. 
+Microsoft Deployment Toolkit (MDT) and Microsoft Endpoint Configuration Manager (formerly System Center Configuration Manager) do not support Surface Pro X for operating system deployment. Customers relying on image-based deployment should consider Surface Pro 8 while they continue to evaluate the right time to transition to modern deployment solutions. 
 
 ## Managing Surface Pro X devices
 
 ### Intune
 
-A component of Microsoft Enterprise Mobility + Security, Intune integrates with Azure Active Directory for identity and access control and provides granular management of enrolled Surface Pro X devices. Intune mobile device management (MDM) policies have a number of advantages over older on-premises tools such as Windows Group Policy. This includes faster device login times and a more streamlined catalog of policies enabling full device management from the cloud. For example, you can manage LTE using eSIM profiles to configure data plans and deploy activation codes to multiple devices.<br> 
+Microsoft Intune integrates with Azure Active Directory for identity and access control and provides granular management of enrolled Surface Pro X devices. Intune mobile device management (MDM) policies have several advantages over older on-premises tools such as Windows Group Policy. This includes faster device login times and a more streamlined catalog of policies enabling full device management from the cloud. For example, you can manage LTE using eSIM profiles to configure data plans and deploy activation codes to multiple devices.<br> 
 
 For more information about using Intune, refer to the [Intune documentation](/intune).
 
 ### Co-management
 
-Once deployed in Autopilot, you can join Surface Pro X devices to Azure AD or Active Directory (Hybrid Azure AD Join) where you will be able to manage the devices with Intune or co-manage them with Endpoint Configuration Manager, which will install the 32-bit x86 ConfigMgr client.
+Once deployed in Autopilot, you can join Surface Pro X devices to Azure AD or Active Directory (Hybrid Azure AD Join) where you can manage the devices with Intune or co-manage them with Endpoint Configuration Manager, which will install the 32-bit x86 ConfigMgr client.
 
-### Third party MDM solutions
+### Third-party MDM solutions
 
 You may be able to use third-party MDM tools to manage Surface Pro X devices. For details, contact your MDM provider.
 
@@ -67,7 +65,7 @@ Some third-party antivirus software cannot be installed on devices running on an
 
 Surface Pro X ships with Windows 10 version 2004 and supports Windows 10, version 1903 and later. As an ARM-based device, it has specific requirements for maintaining the latest drivers and firmware. 
 
-Surface Pro X was designed to use Windows Update to simplify the process of keeping drivers and firmware up to date for both home users and small business users. Use the default settings to receive Automatic updates.  To verify:
+Surface Pro X was designed to use Windows Update to simplify keeping drivers and firmware up to date for both home users and small business users. Use the default settings to receive Automatic updates.  To verify:
 
 1. Go to **Start** > **Settings > Update & Security > Windows Update** > **Advanced Options.**
 2. Under **Choose how updates are installed,** select **Automatic (recommended)**.
@@ -76,7 +74,7 @@ Surface Pro X was designed to use Windows Update to simplify the process of keep
 
 - Use Windows Update or Windows Update for Business for maintaining the latest drivers and firmware. For more information, see [Deploy Updates using Windows Update for Business](/windows/deployment/update/waas-manage-updates-wufb).
 - For more information about deploying and managing updates on Surface devices, see [Manage and deploy Surface driver and firmware updates](manage-surface-driver-and-firmware-updates.md).
-- Note that Windows Server Update Services (WSUS) does not support the ability to deliver drivers and firmware to Surface Pro X.
+- Note that Windows Server Update Services (WSUS) does not support delivery of drivers and firmware to Surface Pro X.
 
 ## Running apps on Surface Pro X
 
@@ -100,14 +98,14 @@ For more information about running apps on Surface Pro X, refer to:
 
 ## Virtual Desktops (VDI)
 
-Windows Virtual Desktop enables access to Windows desktops,applications, and data on any computing device or platform, from any location. To learn more, refer to the [Windows Virtual Desktop site](https://aka.ms/wvd). 
+Azure Virtual Desktop enables access to Windows desktops,applications, and data on any computing device or platform, from any location. To learn more, refer to the [Azure Virtual Desktop site](https://aka.ms/wvd). 
 
 ## Browsing with Surface Pro X
 
 Popular browsers run on Surface Pro X:
 
 - In-box Edge, Firefox, Chrome, and Internet Explorer all run on Surface Pro X.
-- Firefox and Microsoft Edge based on Chromium run natively and therefore have enhanced performance on a Windows 10 PC on an ARM-based processor.
+- Firefox and Microsoft Edge based on Chromium run natively with enhanced performance on ARM-based Windows 10 or Windows 11 PCs.
 
 ## Installing and using Microsoft Office
 
@@ -150,7 +148,7 @@ The following tables show the availability of selected key features on Surface P
 | Power on When AC Restore                      | Yes     |                                                                                       |
 | Surface Diagnostic Toolkit (SDT) for Business | Yes     |                                                                                       |
 | Surface Asset Tag tool                        | Yes     |                                                                                       |
-| Surface Enterprise management Mode (SEMM)     | Partial | No option to disable hardware on Surface Pro X at the firmware level.                 |
+| Surface Enterprise Management Mode (SEMM)     | Partial | No option to disable hardware on Surface Pro X at the firmware level.                 |
 | Surface UEFI Configurator                     | No      | No option to disable hardware. on Surface Pro X at the firmware level.                |
 | Surface UEFI Manager                          | Partial | No option to disable hardware on Surface Pro X at the firmware level.                 |
 
