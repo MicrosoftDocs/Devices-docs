@@ -43,13 +43,11 @@ Microsoft Deployment Toolkit (MDT) and Microsoft Endpoint Configuration Manager 
 
 ### Intune
 
-Microsoft Intune integrates with Azure Active Directory for identity and access control and provides granular management of enrolled Surface Pro X devices. Intune mobile device management (MDM) policies have several advantages over older on-premises tools such as Windows Group Policy. This includes faster device login times and a more streamlined catalog of policies enabling full device management from the cloud. For example, you can manage LTE using eSIM profiles to configure data plans and deploy activation codes to multiple devices.<br> 
-
-For more information about using Intune, refer to the [Intune documentation](/intune).
+[Microsoft Intune](/intune) integrates with Azure Active Directory for identity and access control and provides granular management of enrolled Surface Pro X devices. Intune mobile device management (MDM) policy settings have several advantages over earlier on-premises tools such as Windows Group Policy. This includes faster device login times and a more streamlined catalog of policy settings enabling full device management from the cloud. For example, you can manage LTE using eSIM profiles to configure data plans and deploy activation codes to multiple devices.
 
 ### Co-management
 
-Once deployed in Autopilot, you can join Surface Pro X devices to Azure AD or Active Directory (Hybrid Azure AD Join) where you can manage the devices with Intune or co-manage them with Endpoint Configuration Manager, which will install the 32-bit x86 ConfigMgr client.
+Once deployed in Autopilot, you can join Surface Pro X devices to Azure AD or Active Directory ([Hybrid Azure AD Join](/azure/active-directory/devices/concept-azure-ad-join-hybrid)), where you can [manage the devices with Intune](/mem/intune/remote-actions/device-management) or [co-manage them with Endpoint Configuration Manager](/mem/configmgr/comanage/overview), which will install the 32-bit x86 ConfigMgr client.
 
 ### Third-party MDM solutions
 
@@ -123,7 +121,7 @@ To confirm if a specific third-party VPN supports a Windows 10 PC on an ARM-base
 The following tables show the availability of selected key features on Surface Pro X with Windows 10 or Windows 11 on ARM.
 
 
-**Deployment**
+### Deployment
 
 | Feature                                                           | Y/N | Notes                                                                                                                             |
 | ----------------------------------------------------------------- | --- | --------------------------------------------------------------------------------------------------------------------------------- |
@@ -136,7 +134,7 @@ The following tables show the availability of selected key features on Surface P
 
  
  
- **Management**
+### Management
  
 
 | Feature                                       | Y/N     | Notes                                                                                 |
@@ -149,24 +147,21 @@ The following tables show the availability of selected key features on Surface P
 | Surface Diagnostic Toolkit (SDT) for Business | Yes     |                                                                                       |
 | Surface Asset Tag tool                        | Yes     |                                                                                       |
 | Surface Enterprise Management Mode (SEMM)     | Partial | No option to disable hardware on Surface Pro X at the firmware level.                 |
-| Surface UEFI Configurator                     | No      | No option to disable hardware. on Surface Pro X at the firmware level.                |
+| Surface UEFI Configurator                     | No      | No option to disable hardware on Surface Pro X at the firmware level.                |
 | Surface UEFI Manager                          | Partial | No option to disable hardware on Surface Pro X at the firmware level.                 |
 
  
 
-**Security**
+### Security
  
-
- Feature                                       | Y/N     | Notes                                                                                 |
+ Feature                                        | Y/N     | Notes                                                                                 |
 | --------------------------------------------- | ------- | ------------------------------------------------------------------------------------- |
-| BitLocker                                     | Yes     |                                                       |
-| Windows Defender                              | Yes     |                                                                                       |
-| Support for third-party antivirus             | See note| Some third-party antivirus software cannot be installed on running on an ARM-based processor. Collaboration with third-party antivirus software providers is continuing for AV app readiness on ARM-based PCs. Contact your antivirus software provider to understand when their apps will be available. |
-| Secure Boot               | Yes     |                                                                                       |
-| Windows Information Protection                      | Yes     |                                                                                       |
-| Surface Data Eraser (SDE)     | Yes     |                                                                                       |
-
-
+| BitLocker                                     | Yes     |                                                                                       |
+| Microsoft Defender                            | Yes     |                                                                                       |
+| Support for third-party antivirus             | See note| Some third-party antivirus software cannot be installed on an ARM-based processor. Contact your antivirus software provider to understand when their apps will be available. |
+| Secure Boot                                   | Yes     |                                                                                       |
+| Windows Information Protection                | Yes     |                                                                                       |
+| Surface Data Eraser (SDE)                     | Yes     |                                                                                       |
 
 
 ## FAQ
