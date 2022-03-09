@@ -18,7 +18,7 @@ appliesto:
 ---
 # Deploying, managing, & servicing Surface Pro X
 
-Built to handle high-performance commercial requirements, Surface Pro X breaks new ground by incorporating the most powerful processors in its class, the Microsoft SQ1 and Microsoft SQ1 ARM chipsets.
+Built to handle high-performance commercial requirements, Surface Pro X incorporates the most powerful processors in its class, the Microsoft SQ1 and Microsoft SQ1 ARM chipsets.
 
 Powered by a 3GHz CPU and a 2.1 teraflop GPU, Surface Pro X provides a full Windows experience. Its 15-hour battery life, built-in Gigabit LTE and the versatility of touch, pen, tablet, and laptop make it ideal for mobile frontline workers and professionals across the financial, legal, and medical fields or any role demanding extended battery life and continuous connectivity capabilities.
 
