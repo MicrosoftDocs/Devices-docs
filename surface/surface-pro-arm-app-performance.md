@@ -29,9 +29,13 @@ Windows 10 and Windows 11 ARM-based PCs help you keep working wherever you go. H
 Note that applications run differently on ARM-based PCs such as Surface Pro X. Limitations include the following:
 
 - **Drivers for hardware, games and apps will only work if designed for a Windows 10 or Windows 11 ARM-based PC**. For more info, check with the hardware manufacturer or the organization that developed the driver. Drivers are software programs that communicate with hardware devices—they're commonly used for antivirus and antimalware software, printing or PDF software, assistive technologies, CD and DVD utilities, and virtualization software. If a driver doesn't work, the app or hardware that relies on it is unlikely to function. Peripherals and devices only work if the drivers they depend on are built into the OS, or if the hardware developer has released ARM64 drivers for the device.
+
 - **Certain games won't work**. Games and apps won't work if they use a version of OpenGL greater than 1.1 or rely on "anti-cheat" drivers that haven't been made for Windows 10 or Windows 11 ARM-based PCs. Check with your game publisher to see if a game will work.
+
 - **Apps that customize the Windows experience might have problems**. This includes input method editors (IMEs), assistive technologies, and cloud storage apps. The organization that develops the app determines whether it will work on a Windows 10 ARM-based PC.
+
 - **Some third-party antivirus software can't be installed**. You won't be able to install some third-party antivirus software on a Windows 10 or Windows 11 ARM-based PC. However, Windows Security will help keep you safe for the supported lifetime of your Windows 10 or Windows 11 device.
+
 - **Windows Fax and Scan is unavailable**. This feature isn't available on a Windows 10 or Windows 11 ARM-based PC.
 
 ## App assure
