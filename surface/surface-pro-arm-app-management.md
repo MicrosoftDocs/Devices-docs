@@ -43,7 +43,7 @@ Microsoft Deployment Toolkit (MDT) and Microsoft Endpoint Configuration Manager 
 
 ### Intune
 
-[Microsoft Intune](/intune) integrates with Azure Active Directory for identity and access control and provides granular management of enrolled Surface Pro X devices. Intune mobile device management (MDM) policy settings have several advantages over earlier on-premises tools such as Windows Group Policy. This includes faster device login times and a more streamlined catalog of policy settings enabling full device management from the cloud. For example, you can manage LTE using eSIM profiles to configure data plans and deploy activation codes to multiple devices.
+[Microsoft Intune](/intune) integrates with Azure Active Directory for identity and access control and provides granular management of enrolled Surface Pro X devices. Intune mobile device management (MDM) policy settings have several advantages over earlier on-premises tools such as Windows Group Policy. This includes faster device login times and a more streamlined catalog of policy settings enabling full device management from the cloud. For example, you can [manage LTE using eSIM profiles](/windows/client-management/mdm/esim-enterprise-management) to configure data plans and deploy activation codes to multiple devices.
 
 ### Co-management
 
