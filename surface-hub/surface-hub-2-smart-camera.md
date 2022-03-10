@@ -18,6 +18,7 @@ ms.localizationpriority: Medium
 Surface Hub 2 Smart Camera <sup>1</sup> is designed for hybrid teams and optimized for remote participants. With sharp focus on the foreground and background, remote participants can see people interact with content on the Surface Hub while also viewing everyone else in the room. Surface Hub 2 Smart Camera has a wide field of view greater than 136 degrees, Automatic framing, high-quality glass optics, and a low light sensor.
 
 ![Super wide camera view includes people whiteboarding on extreme edges of 85" Hub](images/surface-hub-2-smart-camera-fov.png)
+
 *Super wide camera view includes people whiteboarding on extreme edges of 85" Hub*
 
 ## System requirements
