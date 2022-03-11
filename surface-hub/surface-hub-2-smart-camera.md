@@ -19,7 +19,7 @@ Surface Hub 2 Smart Camera <sup>1</sup> is designed for hybrid teams and optimiz
 
 ![Super wide camera view includes people whiteboarding on extreme edges of 85" Hub](images/surface-hub-2-smart-camera-fov.png)
 
-*Super wide camera view includes people whiteboarding on extreme edges of 85" Hub*
+*Ultra-wide camera view includes people whiteboarding on extreme edges of 85" Hub*
 
 ## System requirements
 
@@ -44,7 +44,7 @@ To learn more, refer to [Surface Hub update history](surface-hub-update-history.
     ![To remove the camera, pull up and forward.](images/hub2smartcamera2.png)
 
 > [!TIP]
-> The camera cover magnetically snaps to the front for privacy and to the back for storage when not in use.
+> The camera cover magnetically snaps to the front for privacy and the back for storage when not in use.
 
 ## Manage Automatic framing settings
 
@@ -56,7 +56,7 @@ Automatic framing automatically zooms and keeps you centered in the video when y
 
 ### Windows 10 Team 2020 update (20H2)
 
-When you install the Surface Hub Smart Camera, automatic framing is enabled by default. You can manage automatic framing from Settings, via an On/Off toggle that sets the automatic framing state at the start of each Surface Hub session.
+When you install the Surface Hub Smart Camera, automatic framing is enabled by default. Admins can manage automatic framing from Settings, via an On/Off toggle that sets the automatic framing state at the start of each Surface Hub session.
 
 **To adjust automatic framing:**
 
@@ -66,15 +66,14 @@ When you install the Surface Hub Smart Camera, automatic framing is enabled by d
 > If you don't know your user name or admin password, you'll need to reset the device. For more information, see [Reset and recovery for Surface Hub 2S](/surface-hub/surface-hub-2s-recover-reset).
 
 2. Open the **Settings** app and go to  **Surface Hub > Calling & Audio.**
-3. Under **Automatic framing**, adjust the toggle, as appropriate:
+3. Under **Automatic framing**, adjust the toggle, as appropriate.
 
-- **Set the Surface Hub 2 Smart Camera to automatically zoom and keep people centered in the video when they move around.**
 
 If the toggle is set to **On**, Automatic framing will always be on by default when users begin a session on Surface Hub. If the toggle is set to **Off**, Automatic framing will always be off by default when starting a session on Surface Hub.
 
 #### Manage camera settings via an MDM provider
 
-You can manage Automatic framing via the [Surface Hub configuration service provider](/windows/client-management/mdm/surfacehub-csp) (CSP) from Intune or a third-party mobile device management (MDM) provider.
+Admins can manage Automatic framing via the [Surface Hub configuration service provider](/windows/client-management/mdm/surfacehub-csp) (CSP) from Intune or a third-party mobile device management (MDM) provider.
 
 |CSP policy setting| Description|
 |------------------|------------|
