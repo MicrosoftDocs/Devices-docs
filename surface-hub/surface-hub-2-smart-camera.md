@@ -55,7 +55,7 @@ Automatic framing dynamically zooms and keeps you centered in the video when you
 
 ### Windows 10 Team 2020 update (20H2)
 
-When you install the Surface Hub Smart Camera, automatic framing is enabled by default. Admins can manage automatic framing from Settings, via an On/Off toggle that sets the automatic framing state at the start of each Surface Hub session.
+When you install the Surface Hub Smart Camera, automatic framing is enabled by default. Admins can manage automatic framing from Settings via an On/Off toggle that sets the automatic framing state at the start of each Surface Hub session.
 
 **To adjust automatic framing:**
 
