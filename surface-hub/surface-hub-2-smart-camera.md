@@ -22,10 +22,10 @@ Surface Hub 2 Smart Camera<sup>1</sup> is designed for hybrid teams and optimize
 
 ## System requirements
 
-For Surface Hubs running Team OS, Surface Hub 2 Smart Camera requires the following updates for [Windows 10 Team 2020 update](surface-hub-2020-update-whats-new.md) (20H2) on Surface Hub 2:
+For Surface Hubs running Team OS, Surface Hub 2 Smart Camera requires the following updates for the [Windows 10 Team 2020 update](surface-hub-2020-update-whats-new.md) (20H2) on Surface Hub 2:
 
-- February 15, 2022 — update for Team based on KB5010415* (OS Build 19042.1566)
-- January 21, 2022 — update for Surface Hub 2S
+- Windows 10 Team 2020 Update 2 (KB5010415 or a subsequent Windows update)
+- System Hardware Update — 1/21/2022 (or a subsequent System Hardware Update)
 
 To learn more, refer to [Surface Hub update history](surface-hub-update-history.md).
 
