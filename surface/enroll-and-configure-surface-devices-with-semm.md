@@ -68,9 +68,12 @@ To create a Surface UEFI configuration package, follow these steps:
 
 8. If you do not want the Surface UEFI package to apply to a particular device, on the **Choose which Surface type you want to target** page, click the slider beneath the corresponding device so that it is in the **Off** position, as shown in Figure 3.
    > [!TIP] 
-   > You must select a device as none are selected by default.
+   > You must select a device as none are selected by default. Scroll to the right to view all available devices.
 
-   ![Choose devices for package compatibility.](images/surface-semm-enroll-fig3.jpg "Choose devices for package compatibility")
+   ![Choose devices for package compatibility.](images/surface-semm-enroll-fig3.png "Choose devices for package compatibility")
+
+   ![Choose devices for package compatibility.](images/surface-semm-enroll-fig3a.png "Choose devices for package compatibility")
+
 
    *Figure 3. Choose the devices for package compatibility*
 
