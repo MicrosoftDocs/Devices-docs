@@ -64,8 +64,9 @@ When you install the Surface Hub Smart Camera, automatic framing is enabled by d
 > [!NOTE]
 > If you don't know your user name or admin password, you'll need to reset the device. For more information, see [Reset and recovery for Surface Hub 2S](/surface-hub/surface-hub-2s-recover-reset).
 
-2. Open the **Settings** app and go to  **Surface Hub > Calling & Audio.**
+2. Open **Settings** and go to  **Surface Hub > Calling & Audio.**
 3. Under **Automatic framing**, adjust the toggle, as appropriate.
+4. Select **End session**. 
 
 
 If the toggle is set to **On**, automatic framing will always be on by default when users begin a session on Surface Hub. If the toggle is set to **Off**, automatic framing will always be off by default when starting a session on Surface Hub.
