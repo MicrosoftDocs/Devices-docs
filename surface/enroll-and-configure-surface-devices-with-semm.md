@@ -93,7 +93,7 @@ To create a Surface UEFI configuration package, follow these steps:
 
     *Figure 5. Control advanced Surface UEFI settings and Surface UEFI pages with SEMM*
 
-13. In the **Save As** dialog box, sspecify the Surface UEFI configuration package name, browse to the location where you would like to save the file, and click **Save**.
+13. In the **Save As** dialog box, specify the Surface UEFI configuration package name, browse to the location where you would like to save the file, and click **Save**.
 
 14. When the package is created and saved, the **Successful** page is displayed.
 
