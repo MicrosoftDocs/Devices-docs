@@ -160,7 +160,7 @@ For more information about how to deploy Windows Installer (.msi) files with Con
 
 Suppose you have secured Surface UEFI with a password. In that case, users without the password who attempt to boot to Surface UEFI will only have the **PC information**, **About**, **Enterprise management**, and **Exit** pages displayed to them.
 
-If you have not secured Surface UEFI with a password or a user enters the password correctly, settings configured with SEMM will be dimmed (unavailable) and the text Some settings are managed by your organization will be displayed at the top of the page, as shown in Figure 12.
+If you have not secured Surface UEFI with a password or a user enters the password correctly, settings configured with SEMM will be dimmed (unavailable) indicating  **Some settings are managed by your organization**, as shown in Figure 12.
 
 :::image type="content" alt-text="Settings managed by SEMM are disabled in Surface UEFI." source="images/surface-semm-enroll-fig12.png":::
 
