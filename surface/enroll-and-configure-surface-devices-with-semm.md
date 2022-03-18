@@ -70,7 +70,7 @@ To create a Surface UEFI configuration package, follow these steps:
    > [!TIP] 
    > You must select a device as none are selected by default. Scroll to the right to view all available devices.
 
-   ![Choose devices for package compatibility.](images/surface-semm-enroll-fig3.png "Choose devices for package compatibility")
+   ![Choose devices for package compatibility and scroll to the right to view all available devices](images/surface-semm-enroll-fig3.png "Choose devices for package compatibility")
 
    ![Choose devices for package compatibility.](images/surface-semm-enroll-fig3a.png "Choose devices for package compatibility")
 
