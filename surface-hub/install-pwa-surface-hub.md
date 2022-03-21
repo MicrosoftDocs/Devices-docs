@@ -25,7 +25,7 @@ To learn more, see [Overview of Progressive Web Apps (PWAs) - Microsoft Edge Dev
 
 ## Install PWAs via Intune
 
-Use Intune or another MDM provider to install PWAs on Surface Hubs. To learn more, refer to [Manage settings with an MDM provider](surface-hub/manage-settings-with-mdm-for-surface-hub.md).
+Use Intune or another MDM provider to install PWAs on Surface Hubs. To learn more, refer to [Manage settings with an MDM provider](manage-settings-with-mdm-for-surface-hub.md).
 
 ### Get started
 
@@ -33,11 +33,15 @@ Use Intune or another MDM provider to install PWAs on Surface Hubs. To learn mor
 2. Go  to **Devices** > **Configuration** **Policies** > **Create profile** >
 3. Under Platform, select Windows 10 and later. Under Profile **type,** select Templates**.** Under **Template name,** select **Administrative Templates.**
 4. Select **Create.**
+![Create profile](images/pwa-hubpwainstall.png)
 5. Name the profile, enter an optional description, and select **Next**.
+![Name profile](images/pwa-hubwebappscreateprofile.png)
 
 ### Configure force-installed Web Apps policy (Intune)
 
 1. Select **Microsoft Edge Configuration** and in the Search box, enter **force-installed**, select **force-installed Web Apps**, and then select **Enabled**.
+![Configure force-installed Web Apps](images/pwa-hubwebappscreateprofile.png)
+
 2. Under **URLs for Web Apps to be silently installed**, use the following syntax:
 
 > [!TIP]
@@ -49,6 +53,7 @@ Use Intune or another MDM provider to install PWAs on Surface Hubs. To learn mor
 4. Assign to users as appropriate.
 5. Assign to a group containing the Surface Hubs you wish to target. To learn more, see [Add groups to organize users and devices - Microsoft Intune | Microsoft Docs](/mem/intune/fundamentals/groups-add)
 6. Review and then select **Create**.
+![Create profile](images/pwa-hubwebappscreateprofile.png)
 7. Sync target devices as appropriate.
 8. On Surface Hub, launch Edge. PWAs are installed and appear in the Start menu All apps list.
 
