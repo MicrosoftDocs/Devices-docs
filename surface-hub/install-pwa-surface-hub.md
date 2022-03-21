@@ -33,7 +33,7 @@ Use Intune or another MDM provider to install PWAs on Surface Hubs. To learn mor
 2. Go  to **Devices** > **Configuration** **Policies** > **Create profile** >
 3. Under Platform, select Windows 10 and later. Under Profile **type,** select Templates**.** Under **Template name,** select **Administrative Templates.**
 4. Select **Create.**
-![Create profile](images/pwa-hubpwainstall.png)
+![Create Intune Configuration profile](images/pwa-hubpwainstall.png)
 5. Name the profile, enter an optional description, and select **Next**.
 ![Name profile](images/pwa-hubwebappscreateprofile.png)
 
@@ -52,14 +52,15 @@ Use Intune or another MDM provider to install PWAs on Surface Hubs. To learn mor
 
 > [!TIP]
 > This example installs PWAs for YoutTube, Webex, Zoom, and Uber.
-    ```
+
+```
     [
 { "url": "https://www.youtube.com/",       "default_launch_container": "window" },
 { "url": "https://signin.webex.com/join",  "default_launch_container": "window" },
 { "url": "https://zoom.us/join",           "default_launch_container": "window" },
 { "url": "https://www.uber.com/",          "default_launch_container": "tab"
 ]
-    ```
+```
 
 - Enter the code snippet containing URLs for the apps you want to install.
 
@@ -100,12 +101,12 @@ You can install PWAs by applying a provisioning package to target Surface Hubs u
 3. Select **AreaName: MSEdgePolicy~Policy~microsoft_edge** in the Customizations Tree and in the Edit pane, set **Policy Name** to **WebAppInstallForceList** and select **Add**.
 4. Select **PolicyName: WebAppInstallForceList** in the Customizations Tree and in the Edit pane, set **WebAppInstallForceList to** by entering the following code as a single line of text.
 
- > [!TIP:]
+ > [!TIP]
  > This example installs You Tube as a PWA.
 
-     ```
+```
     <enabled/><data id="WebAppInstallForceList" value="[{&quot;url&quot;: &quot;https://www.youtube.com&quot;, &quot;create_desktop_shortcut&quot;: true, &quot;default_launch_container&quot;: &quot;window&quot;}]"/>
-    ```
+```
 
 ### Export provisioning package and apply to Surface Hubs
 
