@@ -93,6 +93,8 @@ You can install PWAs by applying a provisioning package to target Surface Hubs u
 
 1. In the Available customizations tree navigation pane in WCD, navigate to **\Runtime Settings\ADMXIngestion\ConfigOperations\ADMXInstall\AppName**
 2. In the customizations edit pane, enter the app name as **MSEdgePolicy** and select **Add**.
+![Enter app name as MSEdgePolicy](images/pwa-add-edge-policy.png)
+
 3. Select **AppName: MSEdgePolicy** in the customizations Tree and in the Edit pane, change **SettingType** to **Policy** and choose **Add**.
 4. Select **SettingType: Policy** in the customizations Tree and in the Edit pane, set **AdmxFileUid** to **MSEdgePolicy,** and choose **Add**.
 5. Select **AdmxFileUid: MSEdgePolicy** in the customizations Tree and in the Edit pane, set **MSEdgePolicy** by entering the following code as a single line of text:
