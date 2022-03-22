@@ -34,7 +34,7 @@ Use Intune or another MDM provider to install PWAs on Surface Hubs. To learn mor
 
 1. Sign in to the Intune portal at  [**Microsoft Endpoint Manager admin center**](https://endpoint.microsoft.com/).
 2. Go  to **Devices** > **Configuration** **Policies** > **Create profile**. 
-3. Under Platform, select Windows 10 and later. Under Profile **type,** select **Templates**. Under **Template name,** select **Administrative Templates.**
+3. Under Platform, select **Windows 10 and later**. Under Profile type, select **Templates**. Under Template name, select **Administrative Templates.**
 4. Select **Create.**
 
     :::image type="content" source="images/pwa-hubpwainstall.png" alt-text="Create Intune Configuration profile" :::
@@ -84,7 +84,7 @@ This example installs PWAs for YoutTube, Webex, Zoom, and Uber.
 
 ## Install PWAs via provisioning package
 
-You can install PWAs by applying a provisioning package to target Surface Hubs using a USB drive. To learn more refer to [Create provisioning packages](/surface-hub/provisioning-packages-for-surface-hub#use-surface-hub-provisioning-wizard).
+You can install PWAs by applying a provisioning package to Surface Hubs using a USB drive. To learn more refer to [Create provisioning packages](/surface-hub/provisioning-packages-for-surface-hub#use-surface-hub-provisioning-wizard).
 
 ### Get started with provisioning
 
@@ -99,9 +99,9 @@ You can install PWAs by applying a provisioning package to target Surface Hubs u
 
     :::image type="content" source="images/pwa-add-edge-policy.png" alt-text="Enter app name as MSEdgePolicy" :::
 
-3. Select **AppName: MSEdgePolicy** in the customizations Tree and in the Edit pane, change **SettingType** to **Policy** and choose **Add**.
-4. Select **SettingType: Policy** in the customizations Tree and in the Edit pane, set **AdmxFileUid** to **MSEdgePolicy,** and choose **Add**.
-5. Select **AdmxFileUid: MSEdgePolicy** in the customizations Tree and in the Edit pane, set **MSEdgePolicy** by entering the following code as a single line of text:
+3. In the Available customizations pane, select **AppName: MSEdgePolicy** and in the Edit pane, change **SettingType** to **Policy** and choose **Add**.
+4. In the Available customizations pane, select **SettingType: Policy** and in the Edit pane, set **AdmxFileUid** to **MSEdgePolicy,** and choose **Add**.
+5. In the Available customizations pane, select **AdmxFileUid: MSEdgePolicy** and in the Edit pane, set **MSEdgePolicy** by entering the following code as a single line of text:
 
     ```
     <policyDefinitions revision="1.0" schemaVersion="1.0" xmlns="http://www.microsoft.com/GroupPolicy/PolicyDefinitions">  <!--microsoft_edge version: 96.0.1054.53-->  <policyNamespaces>    <target namespace="Microsoft.Policies.Edge" prefix="microsoft_edge"/>    <using namespace="Microsoft.Policies.Windows" prefix="windows"/>  </policyNamespaces>  <resources minRequiredRevision="1.0"/>  <supportedOn>    <definitions>      <definition displayName="$(string.SUPPORTED_WIN7_V80)" name="SUPPORTED_WIN7_V80"/>     </definitions>  </supportedOn>  <categories>    <category displayName="$(string.microsoft_edge)" name="microsoft_edge"/>    <category displayName="$(string.microsoft_edge_recommended)" name="microsoft_edge_recommended"/>  </categories>  <policies>    <policy class="Both" displayName="$(string.WebAppInstallForceList)" explainText="$(string.WebAppInstallForceList_Explain)" key="Software\Policies\Microsoft\Edge" name="WebAppInstallForceList" presentation="$(presentation.WebAppInstallForceList)">      <parentCategory ref="microsoft_edge"/>      <supportedOn ref="SUPPORTED_WIN7_V80"/>      <elements>        <text id="WebAppInstallForceList" maxLength="1000000" valueName="WebAppInstallForceList"/>      </elements>    </policy>    </policies></policyDefinitions>
@@ -111,10 +111,10 @@ You can install PWAs by applying a provisioning package to target Surface Hubs u
 
 ### Configure force-installed Web Apps policy (provisioning package)
 
-1. In the customizations tree console in WCD, go to: **\Runtime Settings\ADMXIngestion\ConfigADMXInstalledPolicy\AreaName**
+1. In the Available customizations pane in WCD, go to: **\Runtime Settings\ADMXIngestion\ConfigADMXInstalledPolicy\AreaName**
 2. In the customizations edit pane, enter the Areaname as **MSEdgePolicy~Policy~microsoft_edge,** select **Add**.
-3. In the customizations Tree, select **AreaName: MSEdgePolicy~Policy~microsoft_edge** and in the Edit pane, set **Policy Name** to **WebAppInstallForceList** and select **Add**.
-4. Select **PolicyName: WebAppInstallForceList** in the customizations Tree and in the Edit pane, for **WebAppInstallForceList** enter the following code as a single line of text.
+3. In the Available customizations pane, select **AreaName: MSEdgePolicy~Policy~microsoft_edge** and in the edit pane, set **Policy Name** to **WebAppInstallForceList** and select **Add**.
+4. In the Available customizations pane, select **PolicyName: WebAppInstallForceList** and in the edit pane for **WebAppInstallForceList** enter the following code as a single line of text.
 
     :::image type="content" source="images/pwa-force-web-app-install.png" alt-text="Enter code for force-installed Web Apps policy" :::   
 
