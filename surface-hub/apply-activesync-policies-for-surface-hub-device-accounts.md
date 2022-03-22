@@ -19,12 +19,11 @@ appliesto:
 
 # Applying ActiveSync policies to device accounts (Surface Hub)
 
+Surface Hubs on Windows 10 Team 1703 and earlier versions used ActiveSync to sync mail & calendar.
 
-Surface Hubs using Active Directory device accounts (provisioned on the Hub in **domain\username** format) and on-premises Exchange services make use of ActiveSync to sync mail and calendar. This allows people to join and start scheduled meetings from the Surface Hub, and allows them to email any whiteboards they have made during their meeting.
+The Surface Hub requirements for ActiveSync policies in your organization are as follows:
 
-For these features to work, the ActiveSync policies for your organization must be configured as follows:
-
--   There can't be any global policies that block synchronization of the resource mailbox that's being used by the Surface Hub’s device account. If there is such a blocking policy, you need to add the Surface Hub as an allowed device.
+-   There can't be any global policies that block synchronization of the resource mailbox that's being used by the Surface Hub's device account. If there is such a blocking policy, you need to add the Surface Hub as an allowed device.
 -   You must set a mobile device mailbox policy where the **PasswordEnabled** setting is set to False. Other mobile device mailbox policy settings are not compatible with the Surface Hub.
 
 ## Allowing the DeviceID
