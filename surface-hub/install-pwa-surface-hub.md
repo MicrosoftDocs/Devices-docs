@@ -1,6 +1,6 @@
 ---
 title: Install Progressive Web Apps on Surface Hub
-description: Explains how to install Progressive Web Apps (PWAs) on Surface Hub via Intune or a provisioning package. 
+description: Explains how admins can install Progressive Web Apps (PWAs) on Surface Hub via Intune or a provisioning package. 
 keywords: Surface Hub, PWAs, App
 ms.reviewer: dpandre
 manager: laurawi
@@ -16,15 +16,15 @@ audience: ITPro
 
 # Install Progressive Web Apps on Surface Hub
 
-Admins can remotely install Progressive Web Apps (PWAs) on Surface Hubs via a mobile device management provider such as Microsoft Intune or a provisioning pack. PWAs function like installed native apps on supported platforms and function like regular websites on other browsers. When you install PWAs on Surface Hub, users can run them directly from the App menu.
-
-To learn more, see [Overview of Progressive Web Apps (PWAs) - Microsoft Edge Development | Microsoft Docs](/microsoft-edge/progressive-web-apps-chromium/)
+Admins can remotely install [Progressive Web Apps (PWAs)](/microsoft-edge/progressive-web-apps-chromium/) on Surface Hubs via a mobile device management provider such as Microsoft Intune or a provisioning pack. PWAs function like installed native apps on supported platforms and function like regular websites on other browsers. When admins install PWAs on Surface Hub, users can run them directly from the App menu. 
 
 - [Install PWAs on Surface Hub via Intune](#install-pwas-via-intune)
 - [Install PWAs on Surface Hub via provisioning package](#install-pwas-via-provisioning-package)
 
 > [!IMPORTANT]
 > Before you install PWAs, ensure that your Surface Hub has the requisite updates; specifically, [KB5011543](https://support.microsoft.com/help/5011543). To learn more about the latest updates, refer to [Surface Hub update history](surface-hub-update-history.md). 
+
+Users can also install PWAs for use during their Hub session. When the session ends, PWAs are removed. To learn more, see [Install, manage, or uninstall apps in Microsoft Edge](https://support.microsoft.com/topic/install-manage-or-uninstall-apps-in-microsoft-edge-0c156575-a94a-45e4-a54f-3a84846f6113)
 
 ## Install PWAs via Intune
 
