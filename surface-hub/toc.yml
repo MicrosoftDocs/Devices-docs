@@ -63,6 +63,8 @@
             href: apply-activesync-policies-for-surface-hub-device-accounts.md       
         - name: Create provisioning packages for Surface Hub
           href: provisioning-packages-for-surface-hub.md
+        - name: Install Progressive Web Apps on Surface Hub
+          href: install-pwa-surface-hub.md  
         - name: Windows 10 Pro/Enterprise 
           items: 
           - name: Migrate to Windows 10 Pro or Enterprise on Surface Hub 2
