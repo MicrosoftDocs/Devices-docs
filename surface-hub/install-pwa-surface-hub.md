@@ -37,7 +37,7 @@ Use Intune or another MDM provider to install PWAs on Surface Hubs. To learn mor
 3. Under Platform, select Windows 10 and later. Under Profile **type,** select **Templates**. Under **Template name,** select **Administrative Templates.**
 4. Select **Create.**
 
-    ![Create Intune Configuration profile](images/pwa-hubpwainstall.png)
+    :::image type="content" source="images/pwa-hubpwainstall.png" alt-text="Create Intune Configuration profile" :::
 
 5. Name the profile, enter an optional description, and select **Next**.
     ![Name profile](images/pwa-hubwebappscreateprofile.png)
