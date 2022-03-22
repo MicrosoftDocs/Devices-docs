@@ -23,6 +23,9 @@ To learn more, see [Overview of Progressive Web Apps (PWAs) - Microsoft Edge Dev
 - [Install PWAs on Surface Hub via Intune](#install-pwas-via-intune)
 - [Install PWAs on Surface Hub via provisioning package](#install-pwas-via-provisioning-package)
 
+> [!IMPORTANT]
+> Before you install PWAs, ensure that your Surface Hub has the requisite updates; specifically, [KB5011543](https://support.microsoft.com/help/5011543). To learn more about the latest updates, refer to [Surface Hub update history](surface-hub-update-history.md). 
+
 ## Install PWAs via Intune
 
 Use Intune or another MDM provider to install PWAs on Surface Hubs. To learn more, refer to [Manage settings with an MDM provider](manage-settings-with-mdm-for-surface-hub.md).
@@ -31,7 +34,7 @@ Use Intune or another MDM provider to install PWAs on Surface Hubs. To learn mor
 
 1. Sign in to the Intune portal at  [**Microsoft Endpoint Manager admin center**](https://endpoint.microsoft.com/).
 2. Go  to **Devices** > **Configuration** **Policies** > **Create profile** >
-3. Under Platform, select Windows 10 and later. Under Profile **type,** select Templates**.** Under **Template name,** select **Administrative Templates.**
+3. Under Platform, select Windows 10 and later. Under Profile **type,** select **Templates**. Under **Template name,** select **Administrative Templates.**
 4. Select **Create.**
 
 ![Create Intune Configuration profile](images/pwa-hubpwainstall.png)
