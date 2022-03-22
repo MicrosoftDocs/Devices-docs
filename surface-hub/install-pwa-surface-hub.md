@@ -116,14 +116,14 @@ You can install PWAs by applying a provisioning package to target Surface Hubs u
 3. In the customizations Tree, select **AreaName: MSEdgePolicy~Policy~microsoft_edge** and in the Edit pane, set **Policy Name** to **WebAppInstallForceList** and select **Add**.
 4. Select **PolicyName: WebAppInstallForceList** in the customizations Tree and in the Edit pane, for **WebAppInstallForceList** enter the following code as a single line of text.
 
+    :::image type="content" source="images/pwa-force-web-app-install.png" alt-text="Enter code for force-installed Web Apps policy" :::   
+
  > [!TIP]
  > This example installs You Tube as a PWA. Replace the URL as appropriate. 
 
 ```
     <enabled/><data id="WebAppInstallForceList" value="[{&quot;url&quot;: &quot;https://www.youtube.com&quot;, &quot;create_desktop_shortcut&quot;: true, &quot;default_launch_container&quot;: &quot;window&quot;}]"/>
 ```    
-
-:::image type="content" source="images/pwa-force-web-app-install.png" alt-text="Enter code for force-installed Web Apps policy" :::   
 
 ### Export provisioning package and apply to Surface Hubs
 
