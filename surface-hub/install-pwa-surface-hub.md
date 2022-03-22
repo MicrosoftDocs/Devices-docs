@@ -16,13 +16,13 @@ audience: ITPro
 
 # Install Progressive Web Apps on Surface Hub
 
-Admins can remotely install [Progressive Web Apps (PWAs)](/microsoft-edge/progressive-web-apps-chromium/) on Surface Hubs via a mobile device management provider such as Microsoft Intune or a provisioning pack. PWAs function like installed native apps on supported platforms and function like regular websites on other browsers. When admins install PWAs on Surface Hub, users can run them directly from the App menu. 
-
-- [Install PWAs on Surface Hub via Intune](#install-pwas-via-intune)
-- [Install PWAs on Surface Hub via provisioning package](#install-pwas-via-provisioning-package)
+Admins can remotely install [Progressive Web Apps (PWAs)](/microsoft-edge/progressive-web-apps-chromium/) on Surface Hubs by using either a mobile device management provider (MDM) such as Microsoft Intune or a provisioning pack. PWAs function like installed native apps on supported platforms and function like regular websites on other browsers. When admins install PWAs on Surface Hub, users can run them directly from the App menu. 
 
 > [!IMPORTANT]
 > Before you install PWAs, ensure that your Surface Hub has the requisite updates; specifically, [KB5011543](https://support.microsoft.com/help/5011543). To learn more about the latest updates, refer to [Surface Hub update history](surface-hub-update-history.md). 
+
+- [Install PWAs on Surface Hub via Intune](#install-pwas-via-intune)
+- [Install PWAs on Surface Hub via provisioning package](#install-pwas-via-provisioning-package)
 
 Users can also install PWAs for use during their Hub session. When the session ends, PWAs are removed. To learn more, see [Install, manage, or uninstall apps in Microsoft Edge](https://support.microsoft.com/topic/install-manage-or-uninstall-apps-in-microsoft-edge-0c156575-a94a-45e4-a54f-3a84846f6113)
 
@@ -33,13 +33,14 @@ Use Intune or another MDM provider to install PWAs on Surface Hubs. To learn mor
 ### Get started
 
 1. Sign in to the Intune portal at  [**Microsoft Endpoint Manager admin center**](https://endpoint.microsoft.com/).
-2. Go  to **Devices** > **Configuration** **Policies** > **Create profile** >
+2. Go  to **Devices** > **Configuration** **Policies** > **Create profile** 
 3. Under Platform, select Windows 10 and later. Under Profile **type,** select **Templates**. Under **Template name,** select **Administrative Templates.**
 4. Select **Create.**
 
     :::image type="content" source="images/pwa-hubpwainstall.png" alt-text="Create Intune Configuration profile" :::
 
 5. Name the profile, enter an optional description, and select **Next**.
+
     :::image type="content" source="images/pwa-hubwebappscreateprofile.png" alt-text="Name profile" :::
 
 ### Configure force-installed Web Apps policy (Intune)
@@ -58,8 +59,7 @@ Use Intune or another MDM provider to install PWAs on Surface Hubs. To learn mor
     
 #### Example PWAs
 
-> [!TIP]
-> This example installs PWAs for YoutTube, Webex, Zoom, and Uber.
+This example installs PWAs for YoutTube, Webex, Zoom, and Uber.
 
 ```
     [
