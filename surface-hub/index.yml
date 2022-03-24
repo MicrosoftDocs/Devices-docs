@@ -30,6 +30,8 @@ landingContent:
         links:
           - text: Latest Surface Hub OS updates released 
             url: surface-hub-2020-update-whats-new.md 
+          - text: Install Progressive Web Apps on Surface Hub
+            url:  install-pwa-surface-hub.md 
           - text: Install and manage Surface Hub 2 Smart Camera
             url: surface-hub-2-smart-camera.md       
           - text: Surface Hub return to the office video series
