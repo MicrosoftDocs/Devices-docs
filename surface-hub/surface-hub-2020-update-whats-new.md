@@ -19,11 +19,13 @@ Surface Hub benefits from periodic updates that deliver new features and functio
 
 ## Windows 10 Team 2020 Update 2 
 
-### Support for Progressive Web Apps (PWAs)
+### Progressive Web Apps (PWAs) support
 
 Admins can remotely install PWAs on Surface Hubs using a mobile device management provider (MDM) applying a provisioning pack. To learn more, see [Install Progressive Web Apps on Surface Hub](install-pwa-surface-hub.md). 
 
+### Support for Surface Hub 2 Smart Camera
 
+Designed for hybrid teams, Surface Hub 2 Smart Camera is optimized for remote participants enabling them to see people interact with content on the Surface Hub while also viewing everyone else in the room. To learn more, see [Install and manage Surface Hub 2 Smart Camera](surface-hub-2-smart-camera.md). 
 
 ### GCC High support
 
