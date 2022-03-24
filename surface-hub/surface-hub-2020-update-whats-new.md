@@ -25,7 +25,7 @@ Admins can remotely install PWAs on Surface Hubs using a mobile device managemen
 
 ### Support for Surface Hub 2 Smart Camera
 
-Designed for hybrid teams, Surface Hub 2 Smart Camera is optimized for remote participants enabling them to see people interact with content on the Surface Hub while also viewing everyone else in the room. To learn more, see [Install and manage Surface Hub 2 Smart Camera](surface-hub-2-smart-camera.md). 
+The AI-powered Surface Hub 2 Smart Camera is optimized for hybrid teams allowing remote participants to see people interact with content on the Surface Hub while also viewing everyone else in the room.  To learn more, see [Install and manage Surface Hub 2 Smart Camera](surface-hub-2-smart-camera.md). 
 
 ### GCC High support
 
@@ -86,7 +86,7 @@ To learn more, see:
 
 ### Azure Active Directory Joined devices
 
-- **Single sign-on (SSO) for Azure AD joined devices**. When users sign in with their Microsoft 365 credentials to **My meetings and files** their credentials flow seamlessly from app to app – including Microsoft 365 experiences in the browser.
+- **Single sign-on (SSO) for Azure AD joined devices**. When users sign in with their Microsoft 365 credentials to **My meetings and files**, their credentials flow seamlessly from app to app – including Microsoft 365 experiences in the browser.
 - **Conditional access (CA) for Azure AD joined devices**. IT admins can control user access to organizational resources from Azure AD joined Surface Hubs by assigning device policies per their corporate security and compliance requirements.
 - **Support for non Global admins for Azure AD joined devices**. Customers can choose a more granular set of admins within their admin hierarchy to manage Surface Hub. To learn more, see [Configure non Global admin accounts on Surface Hub](surface-hub-2s-nonglobal-admin.md).
 
@@ -96,7 +96,7 @@ To learn more, see:
 
 ### Microsoft Teams  
 
-- **Microsoft Teams installed by default**. Microsoft Teams is included as the default app for meetings, calls and collaboration on new Surface Hub devices, which can be changed or configured via MDM or directly on Surface Hub using the Settings app. To learn more, see [Deploy Microsoft Teams](/MicrosoftTeams/teams-surface-hub).
+- **Microsoft Teams installed by default**. Microsoft Teams is the default app for meetings, calls and collaboration on new Surface Hub devices, which can be changed or configured via MDM or directly on Surface Hub using the Settings app. To learn more, see [Deploy Microsoft Teams](/MicrosoftTeams/teams-surface-hub).
 - **Support for Proximity Join with Microsoft Teams**.  Proximity Join lets users take scheduled Microsoft Teams calls on a nearby Surface Hub using their laptop or phone.  It also lets users transition an in-progress meeting to a nearby Surface Hub. Windows 10 Team 2020 Update adds Mobile Device Management (MDM) support to configure Proximity Join. To learn more, see:
 
   - [Microsoft Teams Blog](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-teams-devices-for-shared-spaces-july-and-august-update/ba-p/1604833).
@@ -106,8 +106,8 @@ To learn more, see:
 
 ### Security
 
-- **Passwordless sign-in using FIDO2 security keys** With FIDO2 security keys, users can quickly sign in to Surface Hub without typing in usernames and passwords. Combined with Single Sign-On (SSO), this feature provides fast and seamless authentication to files, apps, and websites during a meeting. To learn more, see [Configure passwordless sign-in on Surface Hub](surface-hub-2s-phone-authenticate.md).
-- **Improvements to passwordless sign-in using Microsoft Authenticator**.  For organizations that use Azure AD, users can sign in with the Microsoft Authenticator app. Additionally, users can sign-in with their preferred email aliases in Azure AD as well as their User Principal Name (UPN). To learn more, see [Sign in to Surface Hub with Microsoft Authenticator](surface-hub-authenticator-app.md).
+- **Passwordless sign-in using FIDO2 security keys** With FIDO2 security keys, users can quickly sign in to Surface Hub without typing usernames and passwords. Combined with Single Sign-On (SSO), this feature provides fast and seamless authentication to files, apps, and websites during a meeting. To learn more, see [Configure passwordless sign-in on Surface Hub](surface-hub-2s-phone-authenticate.md).
+- **Improvements to passwordless sign-in using Microsoft Authenticator**.  For organizations that use Azure AD, users can sign in with the Microsoft Authenticator app. Additionally, users can sign in with their preferred email aliases in Azure AD or their User Principal Name (UPN). To learn more, see [Sign in to Surface Hub with Microsoft Authenticator](surface-hub-authenticator-app.md).
 
 ## Learn more
 
