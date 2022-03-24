@@ -73,6 +73,9 @@ When you first start Surface Hub, the device automatically enters first time Set
 - The **Friendly name** is visible on the bottom left corner of Surface Hub 2S and is shown when projecting to the device.
 - The **Device name** identifies the device when affiliated with Active Directory or Azure Active Directory, and when enrolling the device with Intune.
 
+>[!IMPORTANT]
+>If you plan to affliate the Surface Hub with Active Directory, the device name must meet the [standard requirements for computer names in AD](/troubleshoot/windows-server/identity/naming-conventions-for-computer-domain-site-ou#computer-names), otherwise setup will fail.
+
 >[!NOTE]
 >If you want to enable [Miracast over Infrastructure](miracast-over-infrastructure.md), the device name needs to be discoverable via DNS. You can achieve this by either allowing your Surface Hub to register automatically via Dynamic DNS, or by manually creating an A or AAAA record for the Surface Hub's device name.
 
@@ -120,7 +123,7 @@ You can only set up device admins during first time Setup. For more information,
 You can customize first time setup options, allowing you to ensure a consistent experience across multiple Surface Hubs.
 
 1. To begin, review the documentation in [Create provisioning packages](provisioning-packages-for-surface-hub.md) and save the provisioning package to a USB thumb drive.
-2. Insert the USB thumb drive into one of the USB ports before beginning the setup process.
-3. When prompted, choose the provisioning package you’d like to use.
+2. Insert the USB thumb drive into one of the USB ports when you see the License Agreement page (step 6 in setup steps above).
+3. When prompted, choose the provisioning package you'd like to use.
 4. If you created a multiple devices CSV file, you will be able to choose a device configuration.
 5. Follow the instructions to complete first time Setup.

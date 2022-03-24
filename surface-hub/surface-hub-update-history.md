@@ -26,9 +26,21 @@ Please refer to the “[Surface Hub Important Information](https://support.micro
 ## Windows 10 Team 2020 Update (20H2)
 
 <details>
+<summary>March 22, 2022 — update for Team based on KB5011543* (OS Build 19042.1620)</summary>
+
+This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4581839/windows-10-update-history), include:
+
+* Adds ability for administrators to [install Progressive Web Apps](install-pwa-surface-hub.md) (PWAs).
+* Resolves an issue where Surface Hubs joined to Azure AD or configured with a local administrator account could fail to synchronize their computer clock.
+* Resolves an issue where using Meetings and Files sign-in suggestions with the Authenticator app could force the user to repeat the login process.
+ 
+Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabling device features and services. *[KB5011543](https://support.microsoft.com/help/5011543)
+</details>
+
+<details>
 <summary>February 15, 2022 — update for Team based on KB5010415* (OS Build 19042.1566)</summary>
 
- This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub are outlined in [Windows 10 Team 2020 Update 2](surface-hub-2020-update-whats-new.md#windows-10-team-2020-update-2), and also include the below:
+This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub are outlined in [Windows 10 Team 2020 Update 2](surface-hub-2020-update-whats-new.md#windows-10-team-2020-update-2), and also include the below:
 
 * Fix that allows Exchange services to be disabled during Device Account setup.
 * Improves reliability for some Device Account setup scenarios when using an on-premises Exchange mailbox.
@@ -109,7 +121,7 @@ This update to the Surface Hub includes quality improvements and security fixes.
 
 * Update to the "Collect logs" feature to include Windows diagnostic data in csv format.
 * Fix that ensures that End Session cleanup fully removes all data related to Edge Chromium.
-* Improves some scenarios with Azure AD-joined Surface Hubs when using the Authenticator app.
+* Improves some personal sign-in scenarios with Azure AD-joined Surface Hubs when using the Authenticator app.
 
 Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabling device features and services. *[KB5004296](https://support.microsoft.com/help/5004296)
 </details>
@@ -156,7 +168,7 @@ This update is specific to the Surface Hub 2S and provides the driver and firmwa
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4581839/windows-10-update-history), include:
 
 * Fix that allows calendar synchronization with Exchange to work when the Device Account's UPN is not equal its SMTP.
-* Adds ability for Admins to disable the use of Modern Authentication during calendar synchronization with Exchange.
+* Adds ability for administrators to [disable the use of Modern Authentication](/windows/client-management/mdm/surfacehub-csp#deviceaccount-exchangemodernauthenabled) during calendar synchronization with Exchange.
 * Ensures that Surface Hub users aren't prompted to enter proxy credentials after the "Use device account credentials" feature has been enabled.
 * Resolves an issue where Windows Update and Store update checks would never complete if a proxy requiring authentication was in use.
 * Improves the reliability of the Connect App during wired ingest scenarios.
