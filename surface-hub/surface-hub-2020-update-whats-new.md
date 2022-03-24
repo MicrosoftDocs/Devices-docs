@@ -19,6 +19,12 @@ Surface Hub benefits from periodic updates that deliver new features and functio
 
 ## Windows 10 Team 2020 Update 2 
 
+### Support for Progressive Web Apps (PWAs)
+
+Admins can remotely install PWAs on Surface Hubs using a mobile device management provider (MDM) applying a provisioning pack. To learn more, see [Install Progressive Web Apps on Surface Hub](install-pwa-surface-hub.md). 
+
+
+
 ### GCC High support
 
 After installation of this update ([KB5010415](https://support.microsoft.com/help/5010415) or a subsequent Windows CU), Surface Hubs are supported in GCC High environments. At this time, [additional steps ](surface-hub-teams-rooms.md#support-for-teams-rooms-in-government-community-cloud-high-gcc-h) are needed for the Teams Rooms client to successfully connect to GCC High tenants.
