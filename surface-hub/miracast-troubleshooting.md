@@ -51,6 +51,8 @@ The Windows firewall can block Miracast traffic. The simplest test is to disable
 
     C:\Windows\System32\WUDFHost.exe
     Allow In/Out connections for TCP and UDP, Ports: All.
+    
+If you are only able to add exceptions via network ports, please follow the Miracast [protocol specifications](https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-mice/940d808c-97f8-418e-a8a9-c471dc0d21bb).
 
 ### Check Group Policy settings
 
