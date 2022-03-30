@@ -66,7 +66,7 @@ This example installs PWAs for YoutTube, Webex, Zoom, and Uber.
 { "url": "https://www.youtube.com/",       "default_launch_container": "window" },
 { "url": "https://signin.webex.com/join",  "default_launch_container": "window" },
 { "url": "https://zoom.us/join",           "default_launch_container": "window" },
-{ "url": "https://www.uber.com/",          "default_launch_container": "tab"
+{ "url": "https://www.uber.com/",          "default_launch_container": "tab"}
 ]
 ```
 
