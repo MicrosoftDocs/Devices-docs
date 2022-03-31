@@ -72,6 +72,7 @@ The following table lists the release date and End of Servicing date for each Su
 | Surface Pro 8                      | October 5, 2021   |October 5, 2025|
 | Surface Laptop Studio              | October 5, 2021   |October 5, 2025|
 | Surface Go 3                       | October 5, 2021   |October 5, 2025|
+| Surface Laptop SE                  | January 11, 2022  |January 11, 2026|
 
  **1.** *Indicates devices with a previously declared end of firmware/driver servicing support date.*
 
