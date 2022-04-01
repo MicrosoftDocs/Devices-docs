@@ -19,17 +19,17 @@ Surface Hub benefits from periodic updates that deliver new features and functio
 
 ## Windows 10 Team 2020 Update 2 
 
-### Progressive Web Apps (PWAs) support
+### GCC High support
 
-Admins can remotely install PWAs on Surface Hubs using a mobile device management provider (MDM) applying a provisioning pack. To learn more, see [Install Progressive Web Apps on Surface Hub](install-pwa-surface-hub.md). 
+After installation of this update ([KB5010415](https://support.microsoft.com/help/5010415) or a subsequent Windows CU), Surface Hubs are supported in GCC High environments. At this time, [additional steps ](surface-hub-teams-rooms.md#support-for-teams-rooms-in-government-community-cloud-high-gcc-h) are needed for the Teams Rooms client to successfully connect to GCC High tenants.
 
 ### Support for Surface Hub 2 Smart Camera
 
 The AI-powered Surface Hub 2 Smart Camera is optimized for hybrid teams allowing remote participants to see people interact with content on the Surface Hub while also viewing everyone else in the room.  To learn more, see [Install and manage Surface Hub 2 Smart Camera](surface-hub-2-smart-camera.md). 
 
-### GCC High support
+### Support for Progressive Web Apps (PWAs)
 
-After installation of this update ([KB5010415](https://support.microsoft.com/help/5010415) or a subsequent Windows CU), Surface Hubs are supported in GCC High environments. At this time, [additional steps ](surface-hub-teams-rooms.md#support-for-teams-rooms-in-government-community-cloud-high-gcc-h) are needed for the Teams Rooms client to successfully connect to GCC High tenants.
+Admins can remotely install PWAs on Surface Hubs using a mobile device management provider (MDM) applying a provisioning pack. To learn more, see [Install Progressive Web Apps on Surface Hub](install-pwa-surface-hub.md). 
 
 ### Ease of Access updates
 
