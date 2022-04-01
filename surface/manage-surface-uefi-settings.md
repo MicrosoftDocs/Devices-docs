@@ -12,7 +12,7 @@ ms.author: greglin
 ms.topic: article
 ms.reviewer: hachidan
 manager: laurawi
-ms.date: 01/18/2022
+ms.date: 04/01/2022
 appliesto:
 - Windows 10
 - Windows 11
@@ -34,7 +34,7 @@ UEFI management is supported on the following:
 - Surface Go, Surface Go 2[<sup>1</sup>](#references), Surface Go 3 (commercial SKUs only)
 
 >[!TIP]
-> Commercial SKUs (aka Surface for Business) run Windows 10 Pro/Enterprise or Windows 11 Pro/Enterprise; consumer SKUs run Windows 10/Windows 11 Home. To learn more, see [View your system info](https://support.microsoft.com/windows/view-your-system-info-a965a8f2-0773-1d65-472a-1e747c9ebe00). 
+> Commercial SKUs (aka Surface for Business) run Windows 10 Pro/Enterprise or Windows 11 Pro/Enterprise; consumer SKUs run Windows 10/Windows 11 Home. In UEFI, commercial SKUs are the only models to feature the [Devices page](#uefi-devices-page) and [Management page](#uefi-management-page). To learn more, see [View your system info](https://support.microsoft.com/windows/view-your-system-info-a965a8f2-0773-1d65-472a-1e747c9ebe00). 
 
 
 ## Support for cloud-based management
@@ -111,9 +111,9 @@ Depending on your device, you may also be able to see if your TPM is enabled or 
 
 *Figure 5. TPM console*
 
-## UEFI menu: Devices
+## UEFI Devices page
 
-The Devices page allows you to  enable or disable specific devices and components including:
+The Devices page allows you to  enable or disable specific components on eligible devices including Surface Pro 8, Surface Go 3, Surface Laptop Studio, Surface Pro 7+, Surface Pro 7, Surface Pro X, Surface Laptop 4, Surface Laptop 3, Surface Laptop SE, and Surface Book 3. Components consist of the following:
 
 - Docking USB port
 
@@ -135,7 +135,7 @@ Each device is listed with a slider button that you can move to **On** (enabled)
 
 *Figure 6. Enable and disable specific devices*
 
-## UEFI menu: Boot configuration
+## UEFI Boot configuration page
 
 The Boot Configuration page allows you to change the order of your boot devices as well as enable or disable boot of the following devices:
 
@@ -157,7 +157,7 @@ For the specified boot order to take effect, you must set the **Enable Alternate
 
 You can also turn on and off IPv6 support for PXE with the **Enable IPv6 for PXE Network Boot** option, for example when performing a Windows deployment using PXE where the PXE server is configured for IPv4 only.  
 
-## UEFI menu: Management
+## UEFI Management page
 
 The Management page allows you to manage use of Zero Touch UEFI Management and other features on eligible devices including Surface Pro 8, Surface Go 3, Surface Laptop Studio, Surface Pro 7+, Surface Pro 7, Surface Pro X, Surface Laptop 4, Surface Laptop 3, Surface Laptop SE, and Surface Book 3. 
 
@@ -170,7 +170,7 @@ Zero Touch UEFI Management lets you remotely manage UEFI settings  by using a de
 > [!NOTE]
 > The UEFI Management settings page and use of DFCI is currently available for Surface Laptop SE, Surface Laptop Studio, Surface Pro 8, Surface Go 3, Surface Laptop 4, Surface Laptop Go, Surface Book 3, Surface Laptop 3, Surface Pro 7+, Surface Pro 7, and Surface Pro X.  To learn more, see [Intune management of Surface UEFI settings](surface-manage-dfci-guide.md).
 
-## UEFI menu: Exit
+## UEFI Exit page
 
 Use the **Restart Now** button on the **Exit** page to exit UEFI settings, as shown in Figure 9.
 
