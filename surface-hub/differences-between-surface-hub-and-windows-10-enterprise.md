@@ -114,7 +114,7 @@ Surface Hub implements these Windows 10 security features:
 - [Windows Defender Application Control and virtualization-based protection of code integrity](/windows/security/threat-protection/device-guard/introduction-to-device-guard-virtualization-based-security-and-windows-defender-application-control)
 - [Application restriction policies using AppLocker](/windows/security/threat-protection/windows-defender-application-control/applocker/applocker-overview)
 - [BitLocker Drive Encryption](/windows/security/information-protection/bitlocker/bitlocker-overview)
-- [Trusted Platform Module (TPM)](/security/information-protection/tpm/trusted-platform-module-overview)
+- [Trusted Platform Module (TPM)](/windows/security/information-protection/tpm/trusted-platform-module-top-node)
 - [Microsoft Defender Antivirus in Windows](/microsoft-365/security/defender-endpoint/microsoft-defender-antivirus-windows)
 - [User Account Control (UAC)](/windows/security/identity-protection/user-account-control/user-account-control-overview) for access to the Settings app
 
