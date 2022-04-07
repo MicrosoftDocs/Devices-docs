@@ -28,7 +28,7 @@ Windows Update for Business is a set of features designed to provide enterprises
 - Define maintenance windows for installing updates. 
 
 > [!TIP]
-> Use peer-to-peer content sharing to reduce bandwidth issues during updates. See [Optimize update delivery for Windows 10 updates](https://technet.microsoft.com/itpro/windows/manage/waas-optimize-windows-10-updates) for details.
+> Use peer-to-peer content sharing to reduce bandwidth issues during updates. See [Optimize update delivery for Windows 10 updates](/windows/deployment/do/waas-optimize-windows-10-updates) for details.
 
 > [!NOTE]
 > Surface Hub does not currently support rolling back updates.
@@ -36,7 +36,7 @@ Windows Update for Business is a set of features designed to provide enterprises
 
 ## Surface Hub servicing model
 
-Surface Hub uses the Windows 10 servicing model, referred to as [Windows as a Service (WaaS)](https://docs.microsoft.com/windows/deployment/update/waas-overview). Traditionally, new features were added only in new versions of Windows that were released every few years. Each new version required lengthy and expensive processes to deploy in an organization. As a result, end users and organizations don't frequently enjoy the benefits of new innovation. The goal of Windows as a Service is to continually provide new capabilities while maintaining a high level of quality.
+Surface Hub uses the Windows 10 servicing model, referred to as [Windows as a Service (WaaS)](/windows/deployment/update/waas-overview). Traditionally, new features were added only in new versions of Windows that were released every few years. Each new version required lengthy and expensive processes to deploy in an organization. As a result, end users and organizations don't frequently enjoy the benefits of new innovation. The goal of Windows as a Service is to continually provide new capabilities while maintaining a high level of quality.
 
 Microsoft publishes two types of Surface Hub releases broadly on an ongoing basis:
 - **Feature updates** - Updates that install the latest new features, experiences, and capabilities. Microsoft expects to publish two new feature updates per year.
@@ -44,14 +44,14 @@ Microsoft publishes two types of Surface Hub releases broadly on an ongoing basi
 
 In order to improve release quality and simplify deployments, all new releases that Microsoft publishes for Windows 10, including Surface Hub, will be cumulative. This means new feature updates and quality updates will contain the payloads of all previous releases (in an optimized form to reduce storage and networking requirements), and installing the release on a device will bring it completely up to date. Also, unlike earlier versions of Windows, you cannot install a subset of the contents of a Windows 10 quality update. For example, if a quality update contains fixes for three security vulnerabilities and one reliability issue, deploying the update will result in the installation of all four fixes.
 
-The Surface Hub operating system receives updates on the [Semi-Annual Channel](https://docs.microsoft.com/windows/deployment/update/waas-overview#naming-changes). Like other editions of Windows 10, the servicing lifetime is finite. You must install new feature updates on machines running these branches in order to continue receiving quality updates.
+The Surface Hub operating system receives updates on the [Semi-Annual Channel](/windows/deployment/update/waas-overview#naming-changes). Like other editions of Windows 10, the servicing lifetime is finite. You must install new feature updates on machines running these branches in order to continue receiving quality updates.
 
-For more information on Windows as a Service, see [Overview of Windows as a service](https://technet.microsoft.com/itpro/windows/manage/waas-overview).
+For more information on Windows as a Service, see [Overview of Windows as a service](/windows/deployment/update/waas-overview).
 
 
 ## Use Windows Update for Business
 
-Surface Hubs, like all Windows 10 devices, include **Windows Update for Business (WUfB)** to enable you to control how your devices are being updated. Windows Update for Business helps reduce device management costs, provide controls over update deployment, offer quicker access to security updates, as well as provide access to the latest innovations from Microsoft on an ongoing basis. For more information, see [Manage updates using Windows Update for Business](https://technet.microsoft.com/itpro/windows/manage/waas-manage-updates-wufb).
+Surface Hubs, like all Windows 10 devices, include **Windows Update for Business (WUfB)** to enable you to control how your devices are being updated. Windows Update for Business helps reduce device management costs, provide controls over update deployment, offer quicker access to security updates, as well as provide access to the latest innovations from Microsoft on an ongoing basis. For more information, see [Manage updates using Windows Update for Business](/windows/deployment/update/waas-manage-updates-wufb).
 
 > [!IMPORTANT]
 > Microsoft generally releases one mandatory Windows security update per month (released on the 2nd Tuesday and ofter referred to as a "B" release). Together with out-of-band security updates, these are the only updates made available to devices using WUfB. However, Surface Hub improvements are generally delivered through optional non-security updates on the 3rd Tuesday of each month ("C" release). As a result, customers using Windows Update for Business with their Surface Hubs will have wait until the following month's "B" release to see the latest improvements on these devices.
@@ -61,12 +61,12 @@ Surface Hubs, like all Windows 10 devices, include **Windows Update for Business
 2. [Configure when Surface Hub receives updates](#configure-when-surface-hub-receives-updates).
 
 > [!NOTE]
-> You can use Microsoft Intune, Microsoft Endpoint Configuration Manager, or a supported third-party MDM provider to set up WUfB. [Walkthrough: use Microsoft Intune to configure Windows Update for Business.](https://docs.microsoft.com/windows/deployment/update/waas-wufb-intune)
+> You can use Microsoft Intune, Microsoft Endpoint Configuration Manager, or a supported third-party MDM provider to set up WUfB. [Walkthrough: use Microsoft Intune to configure Windows Update for Business.](/windows/deployment/update/waas-wufb-intune)
 
 
 ### Group Surface Hub into deployment rings
 
-Use deployment rings to control when updates roll out to your Surface Hubs, giving you time to validate them. For example, you can update a small pool of devices first to verify quality before a broader roll-out to your organization. Depending on who manages Surface Hub in your organization, consider incorporating Surface Hub into the deployment rings that you've built for your other Windows 10 devices. For more information about deployment rings, see [Build deployment rings for Windows 10 updates](https://technet.microsoft.com/itpro/windows/manage/waas-deployment-rings-windows-10-updates).
+Use deployment rings to control when updates roll out to your Surface Hubs, giving you time to validate them. For example, you can update a small pool of devices first to verify quality before a broader roll-out to your organization. Depending on who manages Surface Hub in your organization, consider incorporating Surface Hub into the deployment rings that you've built for your other Windows 10 devices. For more information about deployment rings, see [Build deployment rings for Windows 10 updates](/windows/deployment/update/waas-servicing-strategy-windows-10-updates).
 
 See the following table for examples of deployment rings.
 
@@ -81,11 +81,11 @@ See the following table for examples of deployment rings.
 ### Configure when Surface Hub receives updates
 
 Once you've determined deployment rings for your Surface Hubs, configure update deferral policies for each ring:
-- To defer feature updates, set an appropriate [Update/DeferFeatureUpdatesPeriodInDays](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-deferfeatureupdatesperiodindays) policy for each ring.
-- To defer quality updates, set an appropriate [Update/DeferQualityUpdatesPeriodInDays](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-deferqualityupdatesperiodindays) policy for each ring.
+- To defer feature updates, set an appropriate [Update/DeferFeatureUpdatesPeriodInDays](/windows/client-management/mdm/policy-csp-update#update-deferfeatureupdatesperiodindays) policy for each ring.
+- To defer quality updates, set an appropriate [Update/DeferQualityUpdatesPeriodInDays](/windows/client-management/mdm/policy-csp-update#update-deferqualityupdatesperiodindays) policy for each ring.
 
 > [!NOTE]
-> If you encounter issues during the update rollout, you can pause updates using [Update/PauseFeatureUpdates](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-pausefeatureupdates) and [Update/PauseQualityUpdates](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-pausequalityupdates).
+> If you encounter issues during the update rollout, you can pause updates using [Update/PauseFeatureUpdates](/windows/client-management/mdm/policy-csp-update#update-pausefeatureupdates) and [Update/PauseQualityUpdates](/windows/client-management/mdm/policy-csp-update#update-pausequalityupdates).
 
 **If you use a proxy server or other method to block URLs**
 
@@ -118,7 +118,7 @@ A default maintenance window is set for all new Surface Hubs:
 2.  Navigate to **Update & security** > **Windows Update** > **Advanced options**.
 3.  Under **Maintenance hours**, select **Change**.
 
-To change the maintenance window using MDM, set the **MaintenanceHoursSimple** node in the [SurfaceHub configuration service provider](https://msdn.microsoft.com/library/windows/hardware/mt608323.aspx). See [Manage settings with an MDM provider](manage-settings-with-mdm-for-surface-hub.md) for more details.
+To change the maintenance window using MDM, set the **MaintenanceHoursSimple** node in the [SurfaceHub configuration service provider](/windows/client-management/mdm/surfacehub-csp). See [Manage settings with an MDM provider](manage-settings-with-mdm-for-surface-hub.md) for more details.
 
 
 ## More information
