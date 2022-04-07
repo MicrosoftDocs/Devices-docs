@@ -53,6 +53,9 @@ For more information on Windows as a Service, see [Overview of Windows as a serv
 
 Surface Hubs, like all Windows 10 devices, include **Windows Update for Business (WUfB)** to enable you to control how your devices are being updated. Windows Update for Business helps reduce device management costs, provide controls over update deployment, offer quicker access to security updates, as well as provide access to the latest innovations from Microsoft on an ongoing basis. For more information, see [Manage updates using Windows Update for Business](https://technet.microsoft.com/itpro/windows/manage/waas-manage-updates-wufb).
 
+> [!IMPORTANT]
+> Microsoft generally releases one mandatory Windows security update per month (released on the 2nd Tuesday and ofter referred to as a "B" release). Together with out-of-band security updates, these are the only updates made available to devices using WUfB. However, Surface Hub improvements are generally delivered through optional non-security updates on the 3rd Tuesday of each month ("C" release). As a result, customers using Windows Update for Business with their Surface Hubs will have wait until the following month's "B" release to see the latest improvements on these devices.
+
 **To set up Windows Update for Business:**
 1. [Group Surface Hub into deployment rings](#group-surface-hub-into-deployment-rings)
 2. [Configure when Surface Hub receives updates](#configure-when-surface-hub-receives-updates).
