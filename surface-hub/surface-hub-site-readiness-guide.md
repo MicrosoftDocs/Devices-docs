@@ -108,7 +108,7 @@ Connect lets people project their laptop, tablet, or phone to the Surface Hub sc
 
 #### Wireless connect 
 
-Since wireless connect is based on Miracast, you don’t need cables or additional setup planning to use it. Your users can load Miracast on most Miracast-enabled Windows 8.1 and Windows 10 devices. Then they can project their display from their computer or phone to the Surface Hub screen.
+Since wireless connect is based on Miracast, you don’t need cables or additional setup planning to use it. Your users can load Miracast on most Miracast-enabled Windows devices. Then they can project their display from their computer or phone to the Surface Hub screen.
 
 <span id="wired" />
 

@@ -30,7 +30,7 @@ For Surface Hubs running Team OS, Surface Hub 2 Smart Camera requires the follow
 To learn more, refer to [Surface Hub update history](surface-hub-update-history.md).
 
 > [!NOTE]
-> No additional updates are required for Surface Hubs  migrated to run Windows 10 or Windows 11 Pro/Enterprise.
+> No additional updates are required for Surface Hubs  migrated to run Windows 10/11 Pro or Enterprise.
 
 ## Install smart camera
 

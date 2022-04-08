@@ -50,7 +50,7 @@ Customers in all regions can update their Surface Hub v1 devices to the 2020 Upd
  
 ## What’s new
 
-Windows 10 Team 2020 Update brings major improvements to device deployment and manageability along with the latest Windows 10 features. To learn more, see [What's new in Windows 10 Team 2020 Update](surface-hub-2020-update-whats-new.md).
+Windows 10 Team 2020 Update brings major improvements to device deployment and manageability along with the latest Windows features. To learn more, see [What's new in Windows 10 Team 2020 Update](surface-hub-2020-update-whats-new.md).
  
 ## Before you begin
 
