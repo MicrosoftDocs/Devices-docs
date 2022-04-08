@@ -20,7 +20,7 @@ The Microsoft Whiteboard app includes the capability for Surface Hubs and other 
 
 To use whiteboard collaboration complete the following actions:
 
-- Add  Whiteboard.ms, whiteboard.microsoft.com, and wbd.ms to your list of allowed sites.
+- Add Whiteboard.ms, whiteboard.microsoft.com, and wbd.ms to your list of allowed sites.
 - Open port: **HTTPS: 443** (normally configured when you first run Surface Hub.)
 
 ## Office 365 requirements
@@ -59,7 +59,7 @@ For more information, see [Use Microsoft Whiteboard on a Surface Hub](https://su
 The Microsoft Whiteboard app, updated for Surface Hub on July 1, 2019 includes a host of new features including:
 
 - **Automatic Saving** - Boards are saved to the cloud automatically when you sign in, and can be found in the board gallery. There is no local folder name or directory.
-- **Extended collaboration across devices** - You can collaborate using new apps for Windows 10 PC and iOS, and a web version for other devices.
+- **Extended collaboration across devices** - You can collaborate using new apps for Windows 10 or Windows 11 PC and iOS, and a web version for other devices.
 - **Richer canvas** - In addition to ink and images, Whiteboard now includes sticky notes, text and GIFs, with more objects coming soon.
 - **Intelligence** – In addition to ink to shape and table, Whiteboard now includes ink beautification to improve handwriting and ink grab to convert images to ink.
 - **More color and background options** - Whiteboard now includes more pen colors and thickness options along with additional background colors and designs.

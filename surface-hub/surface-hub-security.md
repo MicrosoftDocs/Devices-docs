@@ -118,9 +118,9 @@ Surface Hub 2S enables admins to reinstall the device to factory settings using 
 
 Surface Hub uses a device account, also known as a "room account" to authenticate with Exchange, Microsoft Teams, and other services. When you enable password rotation, Hub 2S automatically generates a new password every 7 days, consisting of 15-32 characters with a combination of uppercase and lowercase letters, numbers, and special characters. Because no one knows the password, the device account password rotation effectively mitigates associated risk from human error and potential social engineering security attacks.
 
-## Windows 10 enterprise-grade security
+## Enterprise-grade security
 
-In addition to Surface Hub-specific configurations and features addressed in this document, Surface Hub also uses the standard security features of Windows 10. These include:
+In addition to Surface Hub-specific configurations and features addressed in this document, Surface Hub also uses standard Windows security features. These include:
 
 - **BitLocker**. The Surface Hub SSD is equipped with BitLocker to protect the data on the device. Its configuration follows industry standards. For more information, see [BitLocker overview](https://docs.microsoft.com/windows-hardware/design/device-experiences/oem-secure-boot).
 - **Windows Defender.** The Windows Defender anti-malware engine runs continuously on Surface Hub and works to automatically remediate threats found on Surface Hub. The Windows Defender engine receives updates automatically and is manageable via remote management tools for IT admins. The Windows Defender engine is a perfect example of our Defense in Depth approach: If malware can find a way around our core code-signage-based security solution, it will be caught here. For more information, see [Windows Defender Application Control and virtualization-based protection of code integrity](https://docs.microsoft.com/windows/security/threat-protection/device-guard/introduction-to-device-guard-virtualization-based-security-and-windows-defender-application-control).

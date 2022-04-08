@@ -51,8 +51,8 @@ Microsoft Edge is preconfigured with the following policy setttings to provide a
 | [ProActiveAuthEnabled](/deployedge/microsoft-edge-policies#proactiveauthenabled)             | Enables Microsoft Edge to proactively authenticate signed-in users with Microsoft services. This simplifies the Single Sign-On (SSO) experience.                                                                                                                         | 1                 |
 | [PromptForDownloadLocation](/deployedge/microsoft-edge-policies#promptfordownloadlocation)   | Automatically saves files to the Downloads folder, rather than asking users where to save the file. This simplifies the browsing experience.                                                                                                                             | 0                 |
 
-> [!IMPORTANT]
-> Deployable progressive web apps (PWAs) are not currently supported on the Windows 10 Team operating system.  Note also that the Microsoft Edge policy setting [WebAppInstallForceList](/deployedge/microsoft-edge-policies#webappinstallforcelist) is not supported on Surface Hub.
+> [!TIP]
+> Deployable progressive web apps (PWAs) are now supported on the Windows 10 Team operating system. To learn more, see [Install Progressive Web Apps on Surface Hub](install-pwa-surface-hub.md). 
 
 ### Configure Microsoft Edge updates
 

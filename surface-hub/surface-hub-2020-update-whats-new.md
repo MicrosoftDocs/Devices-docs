@@ -15,7 +15,7 @@ ms.localizationpriority: Medium
 
 # What's new in Windows 10 Team 2020 updates
 
-Surface Hub benefits from periodic updates that deliver new features and functionality. The 2020 Update (20H2) to Windows 10 Team, and subsequently Update 1 & Update 2, deliver significant improvements to device deployment and manageability along with the latest Windows 10 features.
+Surface Hub benefits from periodic updates that deliver new features and functionality. The 2020 Update (20H2) to Windows 10 Team, and subsequently Update 1 & Update 2, deliver significant improvements to device deployment and manageability along with the latest Windows features.
 
 ## Windows 10 Team 2020 Update 2 
 
