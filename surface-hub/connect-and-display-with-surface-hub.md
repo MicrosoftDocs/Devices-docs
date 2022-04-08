@@ -40,6 +40,7 @@ Guest Mode uses a wired connection, so people can display content from their dev
 ### Ports
 
 Use these ports on the Surface Hub for Guest Mode.
+
 | Interface         | Type        | Description        | Capabilities                                                                                                                                                                      |
 | ----------------- | ----------- | ------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Display Port 1.1a | Video input | Guest input #1     | - Support simultaneous guest input display with guest input #2 and guest input #3 (one full resolution, two thumbnail).<br>- HDCP compliant in bypass mode<br>- Touchback enabled |
