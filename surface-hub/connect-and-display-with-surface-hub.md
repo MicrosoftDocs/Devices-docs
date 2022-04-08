@@ -29,7 +29,7 @@ When connecting external devices and displays to a Surface Hub, there are severa
 | --- | --- |
 | Mirror the Surface Hub's display on another device. | [Video Out](#video-out) |
 | Present another device's display on the Surface Hub screen and interact with both the device's content and the built-in Surface Hub experience. | [Guest Mode](#guest-mode) |
-| Power the Surface Hub from an external Windows 10 PC, turning off the embedded computer of the Surface Hub. Cameras, microphones, speakers, and other peripherals, are sent to the external PC, in addition to pen and touch. | [Replacement PC Mode](#replacement-pc-mode) |
+| Power the Surface Hub from an external Windows 10 or Windows 11 PC, turning off the embedded computer of the Surface Hub. Cameras, microphones, speakers, and other peripherals, are sent to the external PC, in addition to pen and touch. | [Replacement PC Mode](#replacement-pc-mode) |
 
 
 ## Guest Mode
@@ -226,7 +226,7 @@ Your choice of video cable will be determined by what is available from your sou
 
  
 
-Source audio is provided by DisplayPort and HDMI cables. If you must use VGA, Surface Hub has an audio input port that uses a 3.5 mm plug. Surface Hub also uses a USB cable that provides Touchback and Inkback from the Surface Hub to compatible Windows 10 devices. The USB cable can be used with any video input that is already connected with a cable.
+Source audio is provided by DisplayPort and HDMI cables. If you must use VGA, Surface Hub has an audio input port that uses a 3.5 mm plug. Surface Hub also uses a USB cable that provides Touchback and Inkback from the Surface Hub to compatible Windows 10 or Windows 11 devices. The USB cable can be used with any video input that is already connected with a cable.
 
 Someone using Guest Mode to connect a PC would use one of these options:
 
@@ -245,11 +245,11 @@ In Replacement PC Mode, the embedded computer of the Surface Hub is turned off a
 
 ### Software requirements
 
-You can run Surface Hub in Replacement PC Mode with 64-bit versions of Windows 10 Home, Windows 10 Pro, and Windows 10 Enterprise. You can download the  [Surface Hub Replacement PC driver package](https://www.microsoft.com/download/details.aspx?id=52210) from the Microsoft Download Center. We recommend that you install these drivers on any computer you plan to use as a replacement PC.
+You can run Surface Hub in Replacement PC Mode with 64-bit versions of Windows 10 or Windows 11 Home, Windows 10 or Windows 11 Pro, and Windows 10 or Windows 11 Enterprise. You can download the  [Surface Hub Replacement PC driver package](https://www.microsoft.com/download/details.aspx?id=52210) from the Microsoft Download Center. We recommend that you install these drivers on any computer you plan to use as a replacement PC.
 
 ### Hardware requirements
 
-Surface Hub is compatible with a range of hardware. Choose the processor and memory confirmation for your replacement PC so that it supports the programs you'll be using. Your replacement PC hardware needs to support 64-bit versions of Windows 10.
+Surface Hub is compatible with a range of hardware. Choose the processor and memory confirmation for your replacement PC so that it supports the programs you'll be using. Your replacement PC hardware needs to support 64-bit versions of Windows 10 or Windows 11.
 
 ### Graphics adapter
 
