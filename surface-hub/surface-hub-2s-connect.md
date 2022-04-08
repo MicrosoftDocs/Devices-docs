@@ -14,6 +14,7 @@ ms.localizationpriority: Medium
 ---
 
 # Connect devices to Surface Hub 2S
+
 Surface Hub 2S enables you to connect external devices, mirror the display on Surface Hub 2S to another device, and connect multiple third-party peripherals including video conference cameras, conference phones, and room system devices.
 
 You can display content from your devices to Surface Hub 2S. If the source device is Windows-based, that device can also provide TouchBack and InkBack, which takes video and audio from the connected device and presents them on Surface Hub 2S. If Surface Hub 2S encounters a High-Bandwidth Digital Content Protection (HDCP) signal, such as a Blu-ray DVD player, the source is displayed as a black image.
@@ -108,11 +109,11 @@ Note the following recommendations:
 
 ## Wirelessly connect to Surface Hub 2S
 
-Windows 10 natively supports Miracast, which lets you wireless connect to Surface Hub 2S.<br><br>
+Windows 10/11 natively supports Miracast, which lets you wireless connect to Surface Hub 2S.<br><br>
 
 ### To connect using Miracast:
 
-1. On your Windows 10 device, enter **Windows logo key** + **K**. 
+1. On your Windows 10/11 device, enter **Windows logo key** + **K**. 
 2. In the Connect window, look for the name of your Surface Hub 2S in the list of nearby devices. You can find the name of your Surface Hub 2S in the bottom left corner of the display.
 3. Enter a PIN if your system administrator has enabled the PIN setting for Miracast connections. This requires you to enter a PIN number when you connect to Surface Hub 2S for the first time.
 
@@ -132,4 +133,4 @@ You can connect the following accessories to Surface Hub-2S using Bluetooth:
 - Surface Hub 2 pens
 
 > [!NOTE]
-> After you connect a Bluetooth headset or speaker, you might need to change the default microphone and speaker settings. For more information, see [**Local management for Surface Hub settings**](https://docs.microsoft.com/surface-hub/local-management-surface-hub-settings).
+> After you connect a Bluetooth headset or speaker, you might need to change the default microphone and speaker settings. For more information, see [Local management for Surface Hub settings](local-management-surface-hub-settings.md).
