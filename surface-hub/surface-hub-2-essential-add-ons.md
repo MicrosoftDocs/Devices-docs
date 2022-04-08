@@ -23,7 +23,7 @@ If you have migrated from Windows 10 Team to Windows 10 or Windows 11 Pro or Ent
 
 ## Surface Hub 2 Fingerprint Reader
 
-If you’re running Windows 10/11 Pro or Windows 10/11 Enterprise on Surface Hub 2, you can sign in using the optional Surface Hub 2 Fingerprint Reader, a biometric authentication option that uses [Windows Hello](https://docs.microsoft.com/windows-hardware/design/device-experiences/windows-hello).
+If you’re running Windows 10/11 Pro or Windows 10/11 Enterprise on Surface Hub 2, you can sign in using the optional Surface Hub 2 Fingerprint Reader, a biometric authentication option that uses [Windows Hello](/windows-hardware/design/device-experiences/windows-hello).
 
 ### Ordering
 
@@ -37,7 +37,7 @@ Commercial customers can place orders through their Surface Authorized Device Re
 For more information about configuring the fingerprint reader to sign in using Windows Hello, see the following:
 
 - [Learn about Windows Hello and set it up](https://support.microsoft.com/help/4028017/windows-learn-about-windows-hello-and-set-it-up)
-- [Windows Hello biometrics in the enterprise](https://docs.microsoft.com/windows/security/identity-protection/hello-for-business/hello-biometrics-in-enterprise).
+- [Windows Hello biometrics in the enterprise](/windows/security/identity-protection/hello-for-business/hello-biometrics-in-enterprise).
 
   
 ### Table 1. Surface Hub 2 Fingerprint Reader tech specs
@@ -57,7 +57,7 @@ For more information about configuring the fingerprint reader to sign in using W
  
 ## Windows Hello face recognition
 
-Windows 10/11 Pro and Enterprise on Surface Hub 2 supports Windows Hello for authentication and requires a Windows Hello certified camera accessory. Note that the built-in camera for Surface Hub 2S is not designed for authentication and does not support Windows Hello. For more information, see [Windows Hello.](https://docs.microsoft.com/windows-hardware/design/device-experiences/windows-hello)
+Windows 10/11 Pro and Enterprise on Surface Hub 2 supports Windows Hello for authentication and requires a Windows Hello certified camera accessory. Note that the built-in camera for Surface Hub 2S is not designed for authentication and does not support Windows Hello. For more information, see [Windows Hello.](/windows-hardware/design/device-experiences/windows-hello)
 
 
 ## Audio and video accessories
@@ -66,8 +66,8 @@ You can extend the audio and video capabilities of Surface Hub 2 with audio and 
 
 For information about recommended accessories, see:
 
-- [USB audio and video devices certified for Microsoft Teams](https://docs.microsoft.com/microsoftteams/devices/usb-devices)
-- [IP Phones certified for Microsoft Teams](https://docs.microsoft.com/microsoftteams/devices/teams-ip-phones)
+- [USB audio and video devices certified for Microsoft Teams](/microsoftteams/devices/usb-devices)
+- [IP Phones certified for Microsoft Teams](/microsoftteams/devices/teams-ip-phones)
 
 
 

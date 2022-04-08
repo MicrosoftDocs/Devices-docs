@@ -209,11 +209,11 @@ The Surface Hub includes a Video Out port for mirroring visual content from the 
 
 Video Out port on the 55" Surface Hub
 
-![Illustration of video output port.](images/video-out-55.png)
+![Illustration of video output port on 55" Surface Hub.](images/video-out-55.png)
 
 Video Out port on the 84" Surface Hub
 
-![Illustration of video output port.](images/video-out-84.png)
+![Illustration of video output port 84" Surface Hub.](images/video-out-84.png)
 
 | Description         | Type         | Interface    | Capabilities                                                                                                                                                                                                               |
 | ------------------- | ------------ | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
