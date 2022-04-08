@@ -47,4 +47,4 @@ Learn about managing and updating Surface Hub.
 
 ## Related topics
 
-- [View Power BI presentation mode on Surface Hub & Windows 10](https://powerbi.microsoft.com/documentation/powerbi-mobile-win10-app-presentation-mode/)
+- [View reports and dashboards in presentation mode on Surface Hub and Windows 10 devices](https://powerbi.microsoft.com/documentation/powerbi-mobile-win10-app-presentation-mode/)

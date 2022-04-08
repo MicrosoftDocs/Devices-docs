@@ -40,7 +40,7 @@ landingContent:
             url: /surface-hub/hub-teams-app
           - text: Modern authentication on Surface Hub                
             url: surface-hub-modern-auth.md
-          - text: Migrate to Windows 10 Pro or Enterprise on Surface Hub 2
+          - text: Migrate to Windows 10 or Windows 11 Pro or Enterprise on Surface Hub 2
             url: surface-hub-2s-migrate-os.md
 
 

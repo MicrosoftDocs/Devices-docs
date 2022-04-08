@@ -16,7 +16,7 @@ ms.localizationpriority: medium
 
 # Manage Windows updates on Surface Hub
 
-New releases of the Surface Hub operating system are published through Windows Update, just like releases of Windows 10. This page explains best practices for managing updates for Surface Hub devices. 
+New releases of the Surface Hub operating system are published through Windows Update, just like releases of Windows 10 or Windows 11. This page explains best practices for managing updates for Surface Hub devices. 
 
 ## Windows Update for Business
 
@@ -28,7 +28,7 @@ Windows Update for Business is a set of features designed to provide enterprises
 - Define maintenance windows for installing updates. 
 
 > [!TIP]
-> Use peer-to-peer content sharing to reduce bandwidth issues during updates. See [Optimize update delivery for Windows 10 updates](/windows/deployment/do/waas-optimize-windows-10-updates) for details.
+> Use peer-to-peer content sharing to reduce bandwidth issues during updates. See [Optimize Windows update delivery](/windows/deployment/do/waas-optimize-windows-10-updates) for details.
 
 > [!NOTE]
 > Surface Hub does not currently support rolling back updates.
@@ -36,15 +36,15 @@ Windows Update for Business is a set of features designed to provide enterprises
 
 ## Surface Hub servicing model
 
-Surface Hub uses the Windows 10 servicing model, referred to as [Windows as a Service (WaaS)](/windows/deployment/update/waas-overview). Traditionally, new features were added only in new versions of Windows that were released every few years. Each new version required lengthy and expensive processes to deploy in an organization. As a result, end users and organizations don't frequently enjoy the benefits of new innovation. The goal of Windows as a Service is to continually provide new capabilities while maintaining a high level of quality.
+Surface Hub uses the Windows servicing model, referred to as [Windows as a Service (WaaS)](/windows/deployment/update/waas-overview). Traditionally, new features were added only in new versions of Windows that were released every few years. Each new version required lengthy and expensive processes to deploy in an organization. As a result, end users and organizations don't frequently enjoy the benefits of new innovation. The goal of Windows as a Service is to continually provide new capabilities while maintaining a high level of quality.
 
 Microsoft publishes two types of Surface Hub releases broadly on an ongoing basis:
 - **Feature updates** - Updates that install the latest new features, experiences, and capabilities. Microsoft expects to publish two new feature updates per year.
 - **Quality updates** - Updates that focus on the installation of security fixes, drivers, and other servicing updates. Microsoft expects to publish one cumulative quality update per month.
 
-In order to improve release quality and simplify deployments, all new releases that Microsoft publishes for Windows 10, including Surface Hub, will be cumulative. This means new feature updates and quality updates will contain the payloads of all previous releases (in an optimized form to reduce storage and networking requirements), and installing the release on a device will bring it completely up to date. Also, unlike earlier versions of Windows, you cannot install a subset of the contents of a Windows 10 quality update. For example, if a quality update contains fixes for three security vulnerabilities and one reliability issue, deploying the update will result in the installation of all four fixes.
+In order to improve release quality and simplify deployments, all new releases that Microsoft publishes for Windows 10 or Windows 11, including Surface Hub, will be cumulative. This means new feature updates and quality updates will contain the payloads of all previous releases (in an optimized form to reduce storage and networking requirements), and installing the release on a device will bring it completely up to date. Also, unlike earlier versions of Windows, you cannot install a subset of the contents of a Windows 10 quality update. For example, if a quality update contains fixes for three security vulnerabilities and one reliability issue, deploying the update will result in the installation of all four fixes.
 
-The Surface Hub operating system receives updates on the [Semi-Annual Channel](/windows/deployment/update/waas-overview#naming-changes). Like other editions of Windows 10, the servicing lifetime is finite. You must install new feature updates on machines running these branches in order to continue receiving quality updates.
+The Surface Hub operating system receives updates on the [Semi-Annual Channel](/windows/deployment/update/waas-overview#naming-changes). Like other editions of Windows 10 or Windows 11, the servicing lifetime is finite. You must install new feature updates on machines running these branches in order to continue receiving quality updates.
 
 For more information on Windows as a Service, see [Overview of Windows as a service](/windows/deployment/update/waas-overview).
 
@@ -66,7 +66,7 @@ Surface Hubs, like all Windows 10 devices, include **Windows Update for Business
 
 ### Group Surface Hub into deployment rings
 
-Use deployment rings to control when updates roll out to your Surface Hubs, giving you time to validate them. For example, you can update a small pool of devices first to verify quality before a broader roll-out to your organization. Depending on who manages Surface Hub in your organization, consider incorporating Surface Hub into the deployment rings that you've built for your other Windows 10 devices. For more information about deployment rings, see [Build deployment rings for Windows 10 updates](/windows/deployment/update/waas-servicing-strategy-windows-10-updates).
+Use deployment rings to control when updates roll out to your Surface Hubs, giving you time to validate them. For example, you can update a small pool of devices first to verify quality before a broader roll-out to your organization. Depending on who manages Surface Hub in your organization, consider incorporating Surface Hub into the deployment rings that you've built for your other Windows 10 or Windows 11 devices. For more information about deployment rings, see [Prepare servicing strategy for Windows client updates](/windows/deployment/update/waas-servicing-strategy-windows-10-updates).
 
 See the following table for examples of deployment rings.
 
