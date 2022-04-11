@@ -104,13 +104,11 @@ The sample scripts include examples of how to set Surface UEFI settings and how 
 > [!NOTE]
 > The SEMM Configuration Manager scripts and the exported SEMM certificate file (.pfx) should be placed in the same folder with no other files before they are added to Configuration Manager.
 
-## Manage USB  ports on supported devices
+### Manage USB ports on supported devices
 
 With USB port functionality enabled by default on Surface devices, many devices with Surface UEFI allow admins to disable connectivity to USB ports. For example, you may wish to prevent users from copying data from USB thumb drives or external hard disks.
 
-How you manage USB port functionality varies across Surface devices. Recently released devices -- Surface Pro 8, Surface Go 3, and Surface Laptop Studio – allow you to granularly manage the functionality of USB-C ports and disable USB-A. See Table 1 below for a reference of available settings across Surface devices.
-
-### Use SEMM PowerShell scripts to manage USB ports
+How you manage USB port functionality varies across Surface devices. Recently released devices -- Surface Pro 8, Surface Go 3, and Surface Laptop Studio – allow you to use Powershell to granularly manage the functionality of USB-C ports and disable USB-A. See [Table 1](#table-1-usb-port-management-options-for-surface-devices) below for a reference of available settings across Surface devices.
 
 For USB-A ports supporting USB2 and USB3, you can disable the USB data protocol from the USB controller to prevent all functionality.
 
@@ -120,7 +118,7 @@ Beginning with Surface Pro 8, Surface Laptop Studio, and Surface Go 3, both of t
 
 **To manage USB ports:**
 
-1. Go to [Surface Tools for IT](https://www.microsoft.com/en-us/download/details.aspx?id=46703) and download **SEMM_PowerShell.zip**.
+1. Go to [Surface Tools for IT](https://www.microsoft.com/download/details.aspx?id=46703) and download **SEMM_PowerShell.zip**.
 2. Run **ConfigureSEMM.ps1** and skip to **UsbPortSettingType**.
 3. To disable both USB-A and USB-C ports, enable the following setting: **UsbPortHwDisabled.**
 
@@ -130,14 +128,14 @@ Beginning with Surface Pro 8, Surface Laptop Studio, and Surface Go 3, both of t
 2. To turn off data only and continue to use USB-C ports for power and display functionality, enable the following mode:  **Mode 1 – Data Disabled.**
 3. To turn off data, power, and display functionality, enable the following mode:  **Mode 2 – Fully Disabled.**
 
-**Table 1. USB port management options for Surface devices**
+### Table 1. USB port management options for Surface devices
 
 | Device                                                                                                                                                                   | USB-A options                     | USB-C options                                                                                                                                                  | Settings                                                                   | SEMM IDs |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- | -------- |
-| **Surface Laptop 2**<br>**Surface Pro 6**<br>**Surface Laptop**<br>**Surface Pro 4**<br>**Surface Pro**<br>**Surface Studio 2**<br>**Surface Studio**<br> ****<br> ****  | Enable or disable data            | N/A: No USB-C port on device                                                                                                                                   | - USBPortEnabled (default)<br>- USBPortHWDisabled                          | 370-379  |
+| **Surface Laptop 2**<br>**Surface Pro 6**<br>**Surface Laptop**<br>**Surface Pro 4**<br>**Surface Pro**<br>**Surface Studio 2**<br>**Surface Studio**<br> ****<br>  | Enable or disable data            | N/A: No USB-C port on device                                                                                                                                   | - USBPortEnabled (default)<br>- USBPortHWDisabled                          | 370-379  |
 | **Surface Laptop SE**<br>**Surface Pro 7+**<br>**Surface Pro 7**<br>**Surface Go 2**<br>**Surface Go**<br>**Surface Laptop Go**<br>**Surface Laptop 3 (Intel CPU only)** | Enable or disable data            | - Enable or disable data<br><br>Power delivery and display-out functionality are always available                                                              | - USBPortEnabled (default)<br>- USBPortHWDisabled                          | 370-379  |
 | **Surface Pro 8**<br>**Surface Laptop Studio**<br>**Surface Go 3**                                                                                                       | N/A: No USB-A port on device      | - Enable data, display-out, and  power delivery<br>- Disable data but enable display-out and power delivery<br>- Disable data, display-out, and power delivery | - UsbPortEnabled (default)<br>- UsbPortHwDisabled<br>- UsbPortDataDisabled | 380-389  |
-| **Surface Book 3**<br>**Surface Book 2**<br> ****                                                                                                                        | Base USB ports are always enabled | Base USB ports are always enabled                                                                                                                              | n/a                                                                        |          |
+| **Surface Book 3**<br>**Surface Book 2**<br>                                                                                                                        | Base USB ports are always enabled | Base USB ports are always enabled                                                                                                                              | n/a                                                                        |          |
 | **Surface Book with Performance Base**<br>**Surface Book**                                                                                                               | Base USB ports are always enabled | N/A: No USB-C port on device                                                                                                                                   | n/a                                                                        |          |
 
  The following sections of this article explain the ConfigureSEMM.ps1 script and explore the modifications you need to make to the script to fit your requirements.
