@@ -1,6 +1,6 @@
 ---
 title: Create provisioning packages 
-description: For Windows 10, settings that use the registry or a configuration service provider (CSP) can be configured using provisioning packages.
+description: For Windows 10 or Windows 11, settings that use the registry or a configuration service provider (CSP) can be configured using provisioning packages.
 ms.assetid: 8AA25BD4-8A8F-4B95-9268-504A49BA5345
 ms.reviewer: dpandre
 manager: laurawi
@@ -30,10 +30,10 @@ Provisioning packages allow you to automate deployment of key features, helping 
 
 ## Overview
 
-1. On a separate PC running Windows 10, install [Windows Configuration Designer](https://www.microsoft.com/store/apps/9nblggh4tx22) from the Microsoft Store.
+1. On a separate PC running Windows 10 or Windows 11, install [Windows Configuration Designer](https://www.microsoft.com/store/apps/9nblggh4tx22) from the Microsoft Store.
 1. Select [**Provision Surface Hub devices**](#use-surface-hub-provisioning-wizard) to configure common settings using a wizard. Or select [Advanced provisioning](#use-advanced-provisioning) to view and configure all possible settings.
 1. Create the provisioning package and save it to a USB drive.
-1. Deploy the package to your Surface Hub during first-run setup, or through the Settings app. To learn more, see [Create a provisioning package for Windows 10](/windows/configuration/provisioning-packages/provisioning-create-package).
+1. Deploy the package to your Surface Hub during first-run setup, or through the Settings app. To learn more, see [Create a provisioning package](/windows/configuration/provisioning-packages/provisioning-create-package).
 
 ## Use Surface Hub provisioning wizard
 
@@ -84,7 +84,7 @@ You can enroll the device in Active Directory and specify a security group to us
 > [!div class="mx-imgBorder"]
 > ![Enroll in third party mobile device management.](images/sh-prov-mdm.png)
 
-If you use a third party mobile device management (MDM) provider, you can use this section to enroll Surface Hub. To enroll in Intune, first setup Azure AD join, as described in the previous section, and follow the instructions in the following Intune documentation: [Set up automatic enrollment for Windows 10 devices](/mem/intune/enrollment/quickstart-setup-auto-enrollment).
+If you use a third party mobile device management (MDM) provider, you can use this section to enroll Surface Hub. To enroll in Intune, first setup Azure AD join, as described in the previous section, and follow the instructions in the following Intune documentation: [Quickstart: Set up automatic enrollment for Windows 10/11 devices](/mem/intune/enrollment/quickstart-setup-auto-enrollment).
 
 1. Toggle **Yes** or **No** for enrollment in third party MDM.
 2. If you toggle **Yes**, provide a service account and password or certificate thumbprint that is authorized to enroll the device and specify the authentication type.
@@ -288,5 +288,5 @@ The settings from the provisioning package will be applied to the device and OOB
 ## Learn more
 
 - [Download Windows Configuration Designer](https://www.microsoft.com/store/apps/9nblggh4tx22)
-- [Create a provisioning package for Windows 10](/windows/configuration/provisioning-packages/provisioning-create-package)
+- [Create a provisioning package](/windows/configuration/provisioning-packages/provisioning-create-package)
 - [Manage Surface Hub with an MDM provider](manage-settings-with-mdm-for-surface-hub.md)

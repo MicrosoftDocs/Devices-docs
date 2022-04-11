@@ -15,7 +15,7 @@ ms.localizationpriority: Medium
 
 # What's new in Windows 10 Team 2020 updates
 
-Surface Hub benefits from periodic updates that deliver new features and functionality. The 2020 Update (20H2) to Windows 10 Team, and subsequently Update 1 & Update 2, deliver significant improvements to device deployment and manageability along with the latest Windows 10 features.
+Surface Hub benefits from periodic updates that deliver new features and functionality. The 2020 Update (20H2) to Windows 10 Team, and subsequently Update 1 & Update 2, deliver significant improvements to device deployment and manageability along with the latest Windows features.
 
 ## Windows 10 Team 2020 Update 2 
 
@@ -33,7 +33,7 @@ Admins can remotely install PWAs on Surface Hubs using a mobile device managemen
 
 ### Ease of Access updates
 
-Users can adjust Ease of Access settings during a Surface Hub session and close apps just like they do in other versions of Windows 10. 
+Users can adjust Ease of Access settings during a Surface Hub session and close apps just like they do in other versions of Windows 10 or Windows 11. 
 
 - **Ease of Access**. Users can adjust the following settings without signing in:   Display, Text cursor, Magnifier, High contrast, Narrator, Closed captions, and Keyboard. 
 - **Familiar UI for apps**. Users can close apps on Surface Hub by selecting the Close button in the top right corner of the app. This removes the need to close apps by dragging them to the bottom of the Surface Hub display. (Note: This functionality will be available on the Edge browser as part of the next Edge update, scheduled for March 2022.) 
