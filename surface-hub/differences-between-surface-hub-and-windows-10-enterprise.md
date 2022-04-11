@@ -1,6 +1,6 @@
 ---
 title: Operating system essentials (Surface Hub)
-description: This topic explains unique aspects of the Windows 10 Team operating system and how it differs from Windows 10 Enterprise.
+description: This topic explains unique aspects of the Windows Team operating system on Surface Hub and how it differs from Windows 10 or Windows 11 Enterprise.
 keywords: change history
 ms.prod: surface-hub
 ms.sitesec: library
@@ -15,23 +15,25 @@ ms.localizationpriority: medium
 
 # Operating system essentials (Surface Hub)
 
-The Surface Hub operating system, Windows 10 Team, is based on Windows 10 Enterprise, providing rich support for enterprise management, security, and other features. However, there are important differences between them. While the Enterprise edition is designed for PCs, Windows 10 Team is designed from the ground up for large screens and meeting rooms. When you evaluate security and management requirements for Surface Hub, it's best to consider it as a new operating system. This article is designed to help highlight the key differences between Windows 10 Team on Surface Hub and Windows 10 Enterprise, and what the differences mean for your organization.
+The Surface Hub operating system, Windows 10 Team, originated with Windows 10 Enterprise, providing rich support for enterprise management, security, and other features. However, there are important differences between them. While the Enterprise edition is designed for PCs, Windows 10 Team is designed from the ground up for large screens and meeting rooms. When you evaluate security and management requirements for Surface Hub, it's recommended to consider it as a new operating system. This article highlights the key differences between Windows 10 Team on Surface Hub and enterprise versions of Windows 10 or Windows 11.
 
-Beginning in September 2020, customers have the option of migrating to Windows 10 Pro or Enterprise on Surface Hub 2S. To learn more, see the following:
+## Convert Surface Hub to run Pro or Enterprise desktop
+
+You can change the OS on Surface Hub 2S by migrating to Windows 10 or Windows 11 Pro/Enterprise. To learn more, see the following:
 
 - [Announcing the availability of Windows 10 Pro and Enterprise on Surface Hub 2](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/announcing-the-availability-of-windows-10-pro-and-enterprise-on/ba-p/1624107).
 
-- [Migrate to Windows 10 Pro or Enterprise on Surface Hub 2](surface-hub-2s-migrate-os.md)
+- [Migrate to Windows 10 or Windows 11 Pro or Enterprise on Surface Hub 2](surface-hub-2s-migrate-os.md)
 
 ## User interface
 
 ### Shell (OS user interface)
 
-The Surface Hub's shell is designed from the ground up to be large screen and touch optimized. It doesn't use the same shell as Windows 10 Enterprise.
+The Surface Hub's shell is designed from the ground up to be large screen and touch optimized. It doesn't use the same shell as Windows 10 or Windows 11 Enterprise.
 
 *Organization policies that this may affect:* 
 
-- Settings related to controls in the Windows 10 Enterprise shell don't apply for Surface Hub.
+- Settings related to controls in the Windows 10 or Windows 11 Enterprise shell don't apply for Surface Hub.
 
 ### Lock screen and screensaver
 
@@ -43,7 +45,7 @@ Surface Hub doesn't have a lock screen or a screen saver, but it has a similar f
 
 ### User sign-in
 
-Surface Hub is designed to be used in communal spaces, such as meeting rooms. Unlike Windows PCs, anyone can walk up and use a Surface Hub without requiring a user to sign in. To enable this communal functionality, Surface Hub does not support Windows sign-in the same way that Windows 10 Enterprise does (e.g., signing in a user to the OS and using those credentials throughout the OS). Instead, there is always a local, auto signed-in, low-privilege user signed in to the Surface Hub. It doesn't support signing in any additional users, including admin users (e.g., when an admin signs in, they are not signed in to the OS).
+Surface Hub is designed to be used in communal spaces, such as meeting rooms. Unlike Windows PCs, anyone can walk up and use a Surface Hub without requiring a user to sign in. To enable this communal functionality, Surface Hub does not support Windows sign-in the same way that Windows 10 or Windows 11 Enterprise does (e.g., signing in a user to the OS and using those credentials throughout the OS). Instead, there is always a local, auto signed-in, low-privilege user signed in to the Surface Hub. It doesn't support signing in any additional users, including admin users (e.g., when an admin signs in, they are not signed in to the OS).
 
 Users can sign in to a Surface Hub, but they will not be signed in to the OS. For example, when a user signs in to Apps or My Meetings and Files, the users is signed in only to the apps or services, not to the OS. As a result, the signed-in user is able to retrieve their cloud files and personal meetings stored in the cloud, and these credentials are discarded when **End session** is activated.
 
@@ -68,7 +70,7 @@ Files saved locally in these directories are deleted when users press **End sess
 
 ### Default applications
 
-With few exceptions, the default Universal Windows Platform (UWP) apps on Surface Hub are also available on Windows 10 PCs.
+With few exceptions, the default Universal Windows Platform (UWP) apps on Surface Hub are also available on Windows 10 or Windows 11 PCs.
 
 UWP apps pre-installed on Surface Hub:
 
@@ -94,7 +96,7 @@ UWP apps pre-installed on Surface Hub:
 
 *Organization policies that this may affect:* 
 
-- Use guidelines for Windows 10 Enterprise to determine the features and network requirements for default apps on the Surface Hub.
+- Use guidelines for Windows 10 or Windows 11 Enterprise to determine the features and network requirements for default apps on the Surface Hub.
 
 ### Installing apps, drivers, and services
 
@@ -106,9 +108,9 @@ To help preserve the appliance-like nature of the device, Surface Hub only suppo
 
 ## Security and lockdown
 
-For Surface Hub to be used in communal spaces, such as meeting rooms, its custom OS implements many of the security and lockdown features available in Windows 10. To learn more, see [Surface Hub Security Overview](surface-hub-security.md)
+For Surface Hub to be used in communal spaces, such as meeting rooms, its custom OS implements many of the security and lockdown features available in Windows 10 or Windows 11. To learn more, see [Surface Hub Security Overview](surface-hub-security.md)
 
-Surface Hub implements these Windows 10 security features:
+Surface Hub implements these Windows security features:
 
 - [Secure Boot](/windows-hardware/design/device-experiences/oem-secure-boot)
 - [Windows Defender Application Control and virtualization-based protection of code integrity](/windows/security/threat-protection/device-guard/introduction-to-device-guard-virtualization-based-security-and-windows-defender-application-control)
@@ -134,7 +136,7 @@ These Surface Hub features provide additional security:
 
 ### Device settings
 
-Device settings can be configured through the Settings app. The Settings app is customized for Surface Hub, but also contains many familiar settings from Windows 10 Desktop. A User Accounts Control (UAC) prompt appears when opening up the Settings app to verify the admin's credentials, but this does not sign in the admin.
+Device settings can be configured through the Settings app. The Settings app is customized for Surface Hub, but also contains many familiar settings from Windows 10 or Windows 11 Desktop. A User Accounts Control (UAC) prompt appears when opening up the Settings app to verify the admin's credentials, but this does not sign in the admin.
 
 *Organization policies that this may affect:* 
 
@@ -142,7 +144,7 @@ Device settings can be configured through the Settings app. The Settings app is 
 
 ### Administrative features
 
-The administrative features in Windows 10 Enterprise, such as the Microsoft Management Console, Run, Command Prompt, PowerShell, Registry editor, and Task manager are not supported on Surface Hub. The Settings app contains all of the administrative features locally available on Surface Hub.
+The administrative features in Windows 10 or Windows 11 Enterprise, such as the Microsoft Management Console, Run, Command Prompt, PowerShell, Registry editor, and Task manager are not supported on Surface Hub. The Settings app contains all of the administrative features locally available on Surface Hub.
 
 #### Event viewer
 
@@ -199,8 +201,8 @@ Users can sign in to Microsoft Edge to access intranet sites and online resource
 
 ### Diagnostic data
 
-The Surface Hub OS uses the Windows 10 Connected User Experience and Telemetry component to gather and transmit diagnostic data. For more information, see [Configure Windows diagnostic data in your organization](/windows/privacy/configure-windows-diagnostic-data-in-your-organization).
+The Surface Hub OS uses the Windows Connected User Experience and Telemetry component to gather and transmit diagnostic data. For more information, see [Configure Windows diagnostic data in your organization](/windows/privacy/configure-windows-diagnostic-data-in-your-organization).
 
 *Organization policies that this may affect:* 
 
-- Configure diagnostic data levels for Surface Hub in the same way as you do for Windows 10 Enterprise.
+- Configure diagnostic data levels for Surface Hub in the same way as you do for Windows 10 or Windows 11 Enterprise.

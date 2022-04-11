@@ -14,7 +14,7 @@ ms.localizationpriority: medium
 
 # Miracast over infrastructure
 
-In the Windows 10, version 1703, Microsoft has extended the ability to send a Miracast stream over a local network rather than over a direct wireless link. This functionality is based on the [Miracast over Infrastructure Connection Establishment Protocol (MS-MICE)](https://msdn.microsoft.com/library/mt796768.aspx).
+Beginning with Windows 10 version 1703, Microsoft extended the ability to send a Miracast stream over a local network rather than over a direct wireless link. This functionality is based on the [Miracast over Infrastructure Connection Establishment Protocol (MS-MICE)](https://msdn.microsoft.com/library/mt796768.aspx).
 
 Miracast over Infrastructure offers a number of benefits:
 
