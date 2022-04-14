@@ -47,7 +47,7 @@ Use Intune or another MDM provider to install PWAs on Surface Hubs. To learn mor
 
 1. Under **All Settings** > **Computer Configuration**,  select **Microsoft Edge** and in the Search box, enter **force-installed**, select **force-installed Web Apps**, and then select **Enabled**.
 
-    :::image type="content" source="images/pwa-hub-pwa-install-enable.png" alt-text="Configure force-installed Web Apps" :::
+    :::image type="content" source="images/hub-pwa-install-enable.png" alt-text="Configure force-installed Web Apps" :::
 
 2. Under **URLs for Web Apps to be silently installed**, create an XML snippet from the following syntax or copy from the [example](#example-pwas) below. 
 
