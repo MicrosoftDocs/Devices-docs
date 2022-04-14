@@ -181,6 +181,9 @@ If your company outsources the Surface Hub 2 migration to Windows 10/11 Pro or E
 
 If you choose to restore your device to Windows 10 Team after the migration [as described later in this article](#to-roll-back-to-windows-10-team), we recommend that you first unenroll Hub from SEMM. To learn more, see [Unenroll Surface devices from SEMM](/surface/unenroll-surface-devices-from-semm).
 
+>[!WARNING]
+>To unenroll a device from SEMM and restore user control of Surface UEFI settings, you must have the SEMM certificate that was used to enroll the device in SEMM. If this certificate becomes lost or corrupted, it is not possible to unenroll from SEMM. Back up and protect your SEMM certificate accordingly.
+
 #### Save the SEMM package to a USB drive
 
 1. Connect a USB drive to your PC.
@@ -311,9 +314,6 @@ If you want to restore your device to Windows 10 Team, see [Reset and recovery f
 
 > [!NOTE]
 > Before you roll back to Windows 10 Team, we recommended that you first unenroll the Surface Hub from SEMM. To learn more, see [Unenroll Surface devices from SEMM](/surface/unenroll-surface-devices-from-semm).
-
->[!WARNING]
->To unenroll a device from SEMM and restore user control of Surface UEFI settings, you must have the SEMM certificate that was used to enroll the device in SEMM. If this certificate becomes lost or corrupted, it is not possible to unenroll from SEMM. Back up and protect your SEMM certificate accordingly.
 
 ## Version history
 
