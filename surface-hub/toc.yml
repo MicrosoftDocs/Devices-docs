@@ -65,13 +65,13 @@
           href: provisioning-packages-for-surface-hub.md
         - name: Install Progressive Web Apps on Surface Hub
           href: install-pwa-surface-hub.md  
-        - name: Windows 10 Pro/Enterprise 
+        - name: Windows 10/11 Pro or Enterprise 
           items: 
-          - name: Migrate to Windows 10 Pro or Enterprise on Surface Hub 2
+          - name: Migrate to Windows 10/11 Pro or Enterprise on Surface Hub 2
             href: surface-hub-2s-migrate-os.md
-          - name: Configure Windows 10 Pro or Enterprise on Surface Hub 2
+          - name: Configure Windows 10/11 Pro or Enterprise on Surface Hub 2
             href: surface-hub-2-post-install.md
-          - name: Essential add-ons for Windows 10 Pro and Enterprise on Surface Hub 2
+          - name: Essential add-ons for Windows 10/11 Pro and Enterprise on Surface Hub 2
             href: surface-hub-2-essential-add-ons.md
         - name: Microsoft Teams 
           items: 
