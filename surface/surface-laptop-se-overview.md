@@ -149,3 +149,4 @@ To learn more, see:
 - [Set up Intune for Education devices with Windows Autopilot](/intune-education/windows-autopilot-setup)
 - [Microsoft Education documentation and resources](/microsoft-365/education/)
 - [Outlook on the web](https://www.microsoft.com/microsoft-365/outlook/web-email-login-for-outlook?)
+- [A purpose-built hardware & software solution for education](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/a-purpose-built-hardware-amp-software-solution-for-education/ba-p/1419013)

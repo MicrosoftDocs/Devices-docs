@@ -75,7 +75,7 @@ Surface Hubs use Azure AD join to:
 
 Surface Hub now supports the ability to automatically enroll in Intune by joining the device to Azure Active Directory.
 
-For more information, see [Enable Windows 10 automatic enrollment](/intune/windows-enroll#enable-windows-10-automatic-enrollment).
+For more information, see [Set up enrollment for Windows devices](/intune/windows-enroll#enable-windows-10-automatic-enrollment).
 
 #### Which should I choose?
 
