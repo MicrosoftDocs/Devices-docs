@@ -51,7 +51,7 @@ Use Intune or another MDM provider to install PWAs on Surface Hubs. To learn mor
 
 2. Under **URLs for Web Apps to be silently installed**, copy and enter the following code snippet to install PWAs for YouTube, Webex, Zoom, and Uber. Or skip to the next step to install other PWAs.
 
-```
+```json
     [
 { "url": "https://www.youtube.com/",       "default_launch_container": "window" },
 { "url": "https://signin.webex.com/join",  "default_launch_container": "window" },
@@ -62,9 +62,9 @@ Use Intune or another MDM provider to install PWAs on Surface Hubs. To learn mor
 
     :::image type="content" source="images/hub-pwa-install-enable.png" alt-text="Enter list of force-installed Web apps" :::
 
-3. Alternatively, you can create an XML snippet from the following syntax to install other PWAs.
+3. Alternatively, you can create a JSON snippet from the following syntax to install other PWAs.
 
-    ```
+    ```json
     [ { "url": "https://www.contoso.com ",   "default_launch_container": "window" }, 
     
    { "url": "https://www.fabrikam.com/",   "default_launch_container": "tab"  }, ]
@@ -111,7 +111,7 @@ You can install PWAs by applying a provisioning package to Surface Hubs using a 
 
    :::image type="content" source="images/pwa-enter-edge-policy.png" alt-text="Enter code for MSEdgePolicy" :::
 
-    ```
+    ```xml
     <policyDefinitions revision="1.0" schemaVersion="1.0" xmlns="http://www.microsoft.com/GroupPolicy/PolicyDefinitions">  <!--microsoft_edge version: 96.0.1054.53-->  <policyNamespaces>    <target namespace="Microsoft.Policies.Edge" prefix="microsoft_edge"/>    <using namespace="Microsoft.Policies.Windows" prefix="windows"/>  </policyNamespaces>  <resources minRequiredRevision="1.0"/>  <supportedOn>    <definitions>      <definition displayName="$(string.SUPPORTED_WIN7_V80)" name="SUPPORTED_WIN7_V80"/>     </definitions>  </supportedOn>  <categories>    <category displayName="$(string.microsoft_edge)" name="microsoft_edge"/>    <category displayName="$(string.microsoft_edge_recommended)" name="microsoft_edge_recommended"/>  </categories>  <policies>    <policy class="Both" displayName="$(string.WebAppInstallForceList)" explainText="$(string.WebAppInstallForceList_Explain)" key="Software\Policies\Microsoft\Edge" name="WebAppInstallForceList" presentation="$(presentation.WebAppInstallForceList)">      <parentCategory ref="microsoft_edge"/>      <supportedOn ref="SUPPORTED_WIN7_V80"/>      <elements>        <text id="WebAppInstallForceList" maxLength="1000000" valueName="WebAppInstallForceList"/>      </elements>    </policy>    </policies></policyDefinitions>
     ```
 
@@ -127,7 +127,7 @@ You can install PWAs by applying a provisioning package to Surface Hubs using a 
  > [!TIP]
  > This example installs You Tube as a PWA. Replace the URL as appropriate.
 
-```
+```xml
     <enabled/><data id="WebAppInstallForceList" value="[{&quot;url&quot;: &quot;https://www.youtube.com&quot;, &quot;create_desktop_shortcut&quot;: true, &quot;default_launch_container&quot;: &quot;window&quot;}]"/>
 ```
 
