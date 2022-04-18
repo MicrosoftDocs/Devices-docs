@@ -60,7 +60,7 @@ Use Intune or another MDM provider to install PWAs on Surface Hubs. To learn mor
 ]
 ```
 
-    :::image type="content" source="images/hub-pwa-install-enable.png" alt-text="Enter list of force-installed Web apps" :::
+:::image type="content" source="images/hub-pwa-install-enable.png" alt-text="Enter list of force-installed Web apps" :::
 
 3. Alternatively, you can create a JSON snippet from the following syntax to install other PWAs.
 
