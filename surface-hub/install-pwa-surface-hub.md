@@ -16,10 +16,10 @@ audience: ITPro
 
 # Install Progressive Web Apps on Surface Hub
 
-Admins can remotely install [Progressive Web Apps (PWAs)](/microsoft-edge/progressive-web-apps-chromium/) on Surface Hubs by using either a mobile device management provider (MDM) such as Microsoft Intune or a provisioning pack. PWAs function like installed native apps on supported platforms and function like regular websites on other browsers. When admins install PWAs on Surface Hub, users can run them directly from the App menu. 
+Admins can remotely install [Progressive Web Apps (PWAs)](/microsoft-edge/progressive-web-apps-chromium/) on Surface Hubs by using either a mobile device management provider (MDM) such as Microsoft Intune or a provisioning pack. PWAs function like installed native apps on supported platforms and function like regular websites on other browsers. When admins install PWAs on Surface Hub, users can run them directly from the App menu.
 
 > [!IMPORTANT]
-> Before you install PWAs, ensure that your Surface Hub has [KB5011543](https://support.microsoft.com/help/5011543) (or a subsequent Windows update) installed. To learn more about the latest Windows 10 Team updates, refer to [Surface Hub update history](surface-hub-update-history.md). 
+> Before you install PWAs, ensure that your Surface Hub has [KB5011543](https://support.microsoft.com/help/5011543) (or a subsequent Windows update) installed. To learn more about the latest Windows 10 Team updates, refer to [Surface Hub update history](surface-hub-update-history.md).
 
 - [Install PWAs on Surface Hub via Intune](#install-pwas-via-intune)
 - [Install PWAs on Surface Hub via provisioning package](#install-pwas-via-provisioning-package)
@@ -33,7 +33,7 @@ Use Intune or another MDM provider to install PWAs on Surface Hubs. To learn mor
 ### Get started
 
 1. Sign in to the Intune portal at  [**Microsoft Endpoint Manager admin center**](https://endpoint.microsoft.com/).
-2. Go  to **Devices** > **Configuration** **Policies** > **Create profile**. 
+2. Go  to **Devices** > **Configuration** **Policies** > **Create profile**.
 3. Under Platform, select **Windows 10 and later**. Under Profile type, select **Templates**. Under Template name, select **Administrative Templates.**
 4. Select **Create.**
 
@@ -47,19 +47,9 @@ Use Intune or another MDM provider to install PWAs on Surface Hubs. To learn mor
 
 1. Under **All Settings** > **Computer Configuration**,  select **Microsoft Edge** and in the Search box, enter **force-installed**, select **force-installed Web Apps**, and then select **Enabled**.
 
-    :::image type="content" source="images/hub-pwa-install-enable.png" alt-text="Configure force-installed Web Apps" :::
+    :::image type="content" source="images/pwa-enable-force-install.png" alt-text="Configure force-installed Web Apps" :::
 
-2. Under **URLs for Web Apps to be silently installed**, create an XML snippet from the following syntax or copy from the [example](#example-pwas) below. 
-
-    ```
-    [ { "url": "https://www.contoso.com ",   "default_launch_container": "window" }, 
-    
-   { "url": "https://www.fabrikam.com/",   "default_launch_container": "tab"  }, ]
-    ```
-    
-#### Example PWAs
-
-This example installs PWAs for YoutTube, Webex, Zoom, and Uber.
+2. Under **URLs for Web Apps to be silently installed**, copy and enter the following code snippet to install PWAs for YouTube, Webex, Zoom, and Uber. Or skip to the next step to install other PWAs. 
 
 ```
     [
@@ -70,12 +60,30 @@ This example installs PWAs for YoutTube, Webex, Zoom, and Uber.
 ]
 ```
 
-3. Enter the code snippet containing URLs for the apps you want to install.
-4. Enter optional Scope tags as appropriate and select **Next.**
-5. Assign to users as appropriate.
-6. Assign to a group containing the Surface Hubs you wish to target. To learn more, see [Add groups to organize users and devices](/mem/intune/fundamentals/groups-add)
+3. Alternatively, create an XML snippet from the following syntax to install other PWAs.
+
+    ```
+    [ { "url": "https://www.contoso.com ",   "default_launch_container": "window" }, 
+    
+   { "url": "https://www.fabrikam.com/",   "default_launch_container": "tab"  }, ]
+    ```
+
+4. On the Scope tags page, select **Next** to skip.
+5. On the Assignments page, under **Included groups**, select **Add groups**.
+
+    :::image type="content" source="images/pwa-add-groups.png" alt-text="Add groups" :::
+
+6. Under **Select groups to include**, enter the name of a group containing the Surface Hubs you wish to target, choose **Select**, and then click **Next**. To learn more about assigning a Configuration profile to a group, see [Add groups to organize users and devices](/mem/intune/fundamentals/groups-add).
+
+    :::image type="content" source="images/pwa-select-groups.png" alt-text="Select groups" :::
+
 7. Review and then select **Create**.
-8. Sync target devices as appropriate.
+
+    :::image type="content" source="images/pwa-create-profile.png" alt-text="Create profile" :::
+
+> [!TIP]
+> To apply the Configuration profile immmediately, select **Devices** > **All devices** and find the device you targeted. Open its Overview pane, and select Sync.
+
 9. On Surface Hub, launch Edge. PWAs are installed and appear in the Start menu All apps list.
 
 ## Install PWAs via provisioning package
@@ -99,12 +107,12 @@ You can install PWAs by applying a provisioning package to Surface Hubs using a 
 4. In the Available customizations pane, select **SettingType: Policy** and in the edit pane, set **AdmxFileUid** to **MSEdgePolicy,** and choose **Add**.
 5. In the Available customizations pane, select **AdmxFileUid: MSEdgePolicy** and in the edit pane, set **MSEdgePolicy** by entering the following code as a single line of text:
 
-   :::image type="content" source="images/pwa-enter-edge-policy.png" alt-text="Enter code for MSEdgePolicy" :::   
-   
+   :::image type="content" source="images/pwa-enter-edge-policy.png" alt-text="Enter code for MSEdgePolicy" :::
+
     ```
     <policyDefinitions revision="1.0" schemaVersion="1.0" xmlns="http://www.microsoft.com/GroupPolicy/PolicyDefinitions">  <!--microsoft_edge version: 96.0.1054.53-->  <policyNamespaces>    <target namespace="Microsoft.Policies.Edge" prefix="microsoft_edge"/>    <using namespace="Microsoft.Policies.Windows" prefix="windows"/>  </policyNamespaces>  <resources minRequiredRevision="1.0"/>  <supportedOn>    <definitions>      <definition displayName="$(string.SUPPORTED_WIN7_V80)" name="SUPPORTED_WIN7_V80"/>     </definitions>  </supportedOn>  <categories>    <category displayName="$(string.microsoft_edge)" name="microsoft_edge"/>    <category displayName="$(string.microsoft_edge_recommended)" name="microsoft_edge_recommended"/>  </categories>  <policies>    <policy class="Both" displayName="$(string.WebAppInstallForceList)" explainText="$(string.WebAppInstallForceList_Explain)" key="Software\Policies\Microsoft\Edge" name="WebAppInstallForceList" presentation="$(presentation.WebAppInstallForceList)">      <parentCategory ref="microsoft_edge"/>      <supportedOn ref="SUPPORTED_WIN7_V80"/>      <elements>        <text id="WebAppInstallForceList" maxLength="1000000" valueName="WebAppInstallForceList"/>      </elements>    </policy>    </policies></policyDefinitions>
     ```
- 
+
 ### Configure force-installed Web Apps policy (provisioning package)
 
 1. In the Available customizations pane in WCD, go to: **\Runtime Settings\ADMXIngestion\ConfigADMXInstalledPolicy\AreaName**
@@ -112,14 +120,14 @@ You can install PWAs by applying a provisioning package to Surface Hubs using a 
 3. In the Available customizations pane, select **AreaName: MSEdgePolicy~Policy~microsoft_edge** and in the edit pane, set **Policy Name** to **WebAppInstallForceList** and select **Add**.
 4. In the Available customizations pane, select **PolicyName: WebAppInstallForceList** and in the edit pane for **WebAppInstallForceList** enter the following code as a single line of text.
 
-    :::image type="content" source="images/pwa-force-web-app-install.png" alt-text="Enter code for force-installed Web Apps policy" :::   
+    :::image type="content" source="images/pwa-force-web-app-install.png" alt-text="Enter code for force-installed Web Apps policy" :::
 
  > [!TIP]
- > This example installs You Tube as a PWA. Replace the URL as appropriate. 
+ > This example installs You Tube as a PWA. Replace the URL as appropriate.
 
 ```
     <enabled/><data id="WebAppInstallForceList" value="[{&quot;url&quot;: &quot;https://www.youtube.com&quot;, &quot;create_desktop_shortcut&quot;: true, &quot;default_launch_container&quot;: &quot;window&quot;}]"/>
-```    
+```
 
 ### Export provisioning package and apply to Surface Hubs
 
