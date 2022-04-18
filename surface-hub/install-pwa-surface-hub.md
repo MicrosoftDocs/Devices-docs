@@ -47,7 +47,7 @@ Use Intune or another MDM provider to install PWAs on Surface Hubs. To learn mor
 
 1. Under **All Settings** > **Computer Configuration**,  select **Microsoft Edge** and in the Search box, enter **force-installed**, select **force-installed Web Apps**, and then select **Enabled**.
 
-    :::image type="content" source="images/pwa-enable-force-install.png" alt-text="Configure force-installed Web Apps" :::
+    :::image type="content" source="images/pwa-enable-force-install.png" alt-text="Enable force-installed Web apps" :::
 
 2. Under **URLs for Web Apps to be silently installed**, copy and enter the following code snippet to install PWAs for YouTube, Webex, Zoom, and Uber. Or skip to the next step to install other PWAs. 
 
@@ -59,6 +59,8 @@ Use Intune or another MDM provider to install PWAs on Surface Hubs. To learn mor
 { "url": "https://www.uber.com/",          "default_launch_container": "tab"}
 ]
 ```
+
+ :::image type="content" source="images/hub-pwa-install-enable.png" alt-text="Enter list of force-installed Web apps" :::
 
 3. Alternatively, create an XML snippet from the following syntax to install other PWAs.
 
