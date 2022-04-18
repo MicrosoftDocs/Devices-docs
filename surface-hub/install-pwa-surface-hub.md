@@ -53,16 +53,16 @@ Use Intune or another MDM provider to install PWAs on Surface Hubs. To learn mor
 
 ```
     [
-    { "url": "https://www.youtube.com/",       "default_launch_container": "window" },
-    { "url": "https://signin.webex.com/join",  "default_launch_container": "window" },
-    { "url": "https://zoom.us/join",           "default_launch_container": "window" },
-    { "url": "https://www.uber.com/",          "default_launch_container": "tab"}
-    ]
+{ "url": "https://www.youtube.com/",       "default_launch_container": "window" },
+{ "url": "https://signin.webex.com/join",  "default_launch_container": "window" },
+{ "url": "https://zoom.us/join",           "default_launch_container": "window" },
+{ "url": "https://www.uber.com/",          "default_launch_container": "tab"}
+]
 ```
 
     :::image type="content" source="images/hub-pwa-install-enable.png" alt-text="Enter list of force-installed Web apps" :::
 
-3. Alternatively, create an XML snippet from the following syntax to install other PWAs.
+3. Alternatively, you can create an XML snippet from the following syntax to install other PWAs.
 
     ```
     [ { "url": "https://www.contoso.com ",   "default_launch_container": "window" }, 
