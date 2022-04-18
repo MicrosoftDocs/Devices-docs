@@ -51,6 +51,8 @@ Use Intune or another MDM provider to install PWAs on Surface Hubs. To learn mor
 
 2. Under **URLs for Web Apps to be silently installed**, copy and enter the following code snippet to install PWAs for YouTube, Webex, Zoom, and Uber. Or skip to the next step to install other PWAs.
 
+    :::image type="content" source="images/hub-pwa-install-enable.png" alt-text="Enter list of force-installed Web apps" :::
+
 ```json
     [
 { "url": "https://www.youtube.com/",       "default_launch_container": "window" },
@@ -59,8 +61,6 @@ Use Intune or another MDM provider to install PWAs on Surface Hubs. To learn mor
 { "url": "https://www.uber.com/",          "default_launch_container": "tab"}
 ]
 ```
-
-:::image type="content" source="images/hub-pwa-install-enable.png" alt-text="Enter list of force-installed Web apps" :::
 
 3. Alternatively, you can create a JSON snippet from the following syntax to install other PWAs.
 
