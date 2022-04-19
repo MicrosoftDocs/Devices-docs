@@ -23,6 +23,17 @@ Most Windows updates focus on performance and security improvements. In the list
 ## Windows 10 Team 2020 Update (20H2)
 
 <details>
+<summary>April 19, 2022 — update for Team based on KB5011831* (OS Build 19042.1679)</summary>
+
+This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4581839/windows-10-update-history), include:
+
+* Fix that prevents "End Session" from triggering the message "Your device needs an update. Restarting to finish it up..." and subsequent restart in some scenarios.
+* Fix that ensures the [SurfaceHub CSP](/windows/client-management/mdm/surfacehub-csp#deviceaccount) can be used with SyncML policies that configure Device Accounts in `DOMAIN\username` format.
+ 
+Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabling device features and services. *[KB5011831](https://support.microsoft.com/help/5011831)
+</details>
+
+<details>
 <summary>March 22, 2022 — update for Team based on KB5011543* (OS Build 19042.1620)</summary>
 
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4581839/windows-10-update-history), include:
