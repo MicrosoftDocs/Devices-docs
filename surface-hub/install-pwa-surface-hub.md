@@ -33,8 +33,11 @@ Use Intune or another MDM provider to install PWAs on Surface Hubs. To learn mor
 ### Get started
 
 1. Sign in to the Intune portal at  [**Microsoft Endpoint Manager admin center**](https://endpoint.microsoft.com/).
+
 2. Go  to **Devices** > **Configuration** **Policies** > **Create profile**.
+
 3. Under Platform, select **Windows 10 and later**. Under Profile type, select **Templates**. Under Template name, select **Administrative Templates.**
+
 4. Select **Create.**
 
     :::image type="content" source="images/pwa-hubpwainstall.png" alt-text="Create Intune Configuration profile" :::
@@ -71,6 +74,7 @@ Use Intune or another MDM provider to install PWAs on Surface Hubs. To learn mor
     ```
 
 4. On the Scope tags page, select **Next** to skip.
+
 5. On the Assignments page, under **Included groups**, select **Add groups**.
 
     :::image type="content" source="images/pwa-add-groups.png" alt-text="Add groups" :::
@@ -95,18 +99,23 @@ You can install PWAs by applying a provisioning package to Surface Hubs using a 
 ### Get started with provisioning
 
 1. On a separate PC running Windows 10 or Windows 11, install [Windows Configuration Designer](https://www.microsoft.com/store/apps/9nblggh4tx22) (WCD) from the Microsoft Store.
+
 2. In WCD, create a new Project. Select **Provision Desktop Devices,** provide a name for the project and choose **Finish.**
+
 3. Select **Switch to advanced editor** and select **Yes** to confirm.
 
 ### Configure MSEdgePolicy
 
 1. In the Available customizations pane in WCD, go to **\Runtime Settings\ADMXIngestion\ConfigOperations\ADMXInstall\AppName**
+
 2. In the customizations edit pane, enter the app name as **MSEdgePolicy** and select **Add**.
 
     :::image type="content" source="images/pwa-add-edge-policy.png" alt-text="Enter app name as MSEdgePolicy" :::
 
 3. In the Available customizations pane, select **AppName: MSEdgePolicy** and in the edit pane, change **SettingType** to **Policy** and choose **Add**.
+
 4. In the Available customizations pane, select **SettingType: Policy** and in the edit pane, set **AdmxFileUid** to **MSEdgePolicy,** and choose **Add**.
+
 5. In the Available customizations pane, select **AdmxFileUid: MSEdgePolicy** and in the edit pane, set **MSEdgePolicy** by entering the following code as a single line of text:
 
    :::image type="content" source="images/pwa-enter-edge-policy.png" alt-text="Enter code for MSEdgePolicy" :::
@@ -118,8 +127,11 @@ You can install PWAs by applying a provisioning package to Surface Hubs using a 
 ### Configure force-installed Web Apps policy (provisioning package)
 
 1. In the Available customizations pane in WCD, go to: **\Runtime Settings\ADMXIngestion\ConfigADMXInstalledPolicy\AreaName**
+
 2. In the customizations edit pane, enter the Areaname as **MSEdgePolicy~Policy~microsoft_edge,** select **Add**.
+
 3. In the Available customizations pane, select **AreaName: MSEdgePolicy~Policy~microsoft_edge** and in the edit pane, set **Policy Name** to **WebAppInstallForceList** and select **Add**.
+
 4. In the Available customizations pane, select **PolicyName: WebAppInstallForceList** and in the edit pane for **WebAppInstallForceList** enter the following code as a single line of text.
 
     :::image type="content" source="images/pwa-force-web-app-install.png" alt-text="Enter code for force-installed Web Apps policy" :::
@@ -134,7 +146,9 @@ You can install PWAs by applying a provisioning package to Surface Hubs using a 
 ### Export provisioning package and apply to Surface Hubs
 
 1. In the menu bar, select **Export**, select **Provisioning Package** and follow the prompts to generate the .ppkg file.
+
 2. Insert an empty USB flash drive. Select output location to go to the location of the package. Copy the .ppkg file to the USB drive.
+
 3. Apply the provisioning package via the Settings app or during first-run setup. To learn more, see [Create provisioning packages](/surface-hub/provisioning-packages-for-surface-hub#apply-a-provisioning-package-to-surface-hub)
 
 ## Learn more
