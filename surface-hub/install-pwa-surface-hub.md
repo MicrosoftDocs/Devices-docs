@@ -53,14 +53,14 @@ Use Intune or another MDM provider to install PWAs on Surface Hubs. To learn mor
 
     :::image type="content" source="images/hub-pwa-install-enable.png" alt-text="Enter list of force-installed Web apps" :::
 
-```json
+    ```json
     [
-{ "url": "https://www.youtube.com/",       "default_launch_container": "window" },
-{ "url": "https://signin.webex.com/join",  "default_launch_container": "window" },
-{ "url": "https://zoom.us/join",           "default_launch_container": "window" },
-{ "url": "https://www.uber.com/",          "default_launch_container": "tab"}
-]
-```
+    { "url": "https://www.youtube.com/",       "default_launch_container": "window" },
+    { "url": "https://signin.webex.com/join",  "default_launch_container": "window" },
+    { "url": "https://zoom.us/join",           "default_launch_container": "window" },
+    { "url": "https://www.uber.com/",          "default_launch_container": "tab"}
+    ]
+    ```
 
 3. Alternatively, you can create a JSON snippet from the following syntax to install other PWAs.
 
@@ -83,8 +83,8 @@ Use Intune or another MDM provider to install PWAs on Surface Hubs. To learn mor
 
     :::image type="content" source="images/pwa-create-profile.png" alt-text="Create profile" :::
 
-> [!TIP]
-> To apply the Configuration profile immmediately, select **Devices** > **All devices** and find the device you targeted. Open its Overview pane, and select **Sync**.
+    > [!TIP]
+    > To apply the Configuration profile immmediately, select **Devices** > **All devices** and find the device you targeted. Open its Overview pane, and select **Sync**.
 
 8. On Surface Hub, launch Edge. PWAs are installed and appear in the Start menu All apps list.
 
@@ -124,8 +124,8 @@ You can install PWAs by applying a provisioning package to Surface Hubs using a 
 
     :::image type="content" source="images/pwa-force-web-app-install.png" alt-text="Enter code for force-installed Web Apps policy" :::
 
- > [!TIP]
- > This example installs YouTube as a PWA. Replace the URL as appropriate.
+    > [!TIP]
+    > This example installs YouTube as a PWA. Replace the URL as appropriate.
 
 ```xml
     <enabled/><data id="WebAppInstallForceList" value="[{"url": "https://www.youtube.com", "create_desktop_shortcut": true, "default_launch_container": "window"}]"/>
