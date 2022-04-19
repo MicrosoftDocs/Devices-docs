@@ -127,9 +127,9 @@ You can install PWAs by applying a provisioning package to Surface Hubs using a 
     > [!TIP]
     > This example installs YouTube as a PWA. Replace the URL as appropriate.
 
-```xml
+    ```xml
     <enabled/><data id="WebAppInstallForceList" value="[{"url": "https://www.youtube.com", "create_desktop_shortcut": true, "default_launch_container": "window"}]"/>
-```
+    ```
 
 ### Export provisioning package and apply to Surface Hubs
 
