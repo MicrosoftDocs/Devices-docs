@@ -152,12 +152,12 @@ For a list of supported post codes, see "Next business day coverage" where appli
 #### Latvia
 
 - Cutoff Time: 12:00 CET (UTC+1)
-- [Next business day coverage](https://download.microsoft.com/download/b/5/c/b5c6602e-73fc-493d-9741-14f28b58c1e8/NBD_Coverage_LithuaniaPostCodes_030222.xlsx)
+- [Next business day coverage](https://download.microsoft.com/download/d/6/c/d6c8c486-a667-4e52-8867-d0dff68cfe39/NBD_Coverage_LatviaPostCodes_030222.xlsx)
 
 #### Lithuania
 
 - Cutoff Time: 12:00 CET (UTC+1)
-- [Next business day coverage](https://download.microsoft.com/download/d/6/c/d6c8c486-a667-4e52-8867-d0dff68cfe39/NBD_Coverage_LatviaPostCodes_030222.xlsx)
+- [Next business day coverage](https://download.microsoft.com/download/b/5/c/b5c6602e-73fc-493d-9741-14f28b58c1e8/NBD_Coverage_LithuaniaPostCodes_030222.xlsx)
 
 #### Luxembourg
 
