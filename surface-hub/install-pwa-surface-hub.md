@@ -86,7 +86,7 @@ Use Intune or another MDM provider to install PWAs on Surface Hubs. To learn mor
 > [!TIP]
 > To apply the Configuration profile immmediately, select **Devices** > **All devices** and find the device you targeted. Open its Overview pane, and select Sync.
 
-9. On Surface Hub, launch Edge. PWAs are installed and appear in the Start menu All apps list.
+8. On Surface Hub, launch Edge. PWAs are installed and appear in the Start menu All apps list.
 
 ## Install PWAs via provisioning package
 
@@ -125,10 +125,10 @@ You can install PWAs by applying a provisioning package to Surface Hubs using a 
     :::image type="content" source="images/pwa-force-web-app-install.png" alt-text="Enter code for force-installed Web Apps policy" :::
 
  > [!TIP]
- > This example installs You Tube as a PWA. Replace the URL as appropriate.
+ > This example installs YouTube as a PWA. Replace the URL as appropriate.
 
 ```xml
-    <enabled/><data id="WebAppInstallForceList" value="[{&quot;url&quot;: &quot;https://www.youtube.com&quot;, &quot;create_desktop_shortcut&quot;: true, &quot;default_launch_container&quot;: &quot;window&quot;}]"/>
+    <enabled/><data id="WebAppInstallForceList" value="[{"url": "https://www.youtube.com", "create_desktop_shortcut": true, "default_launch_container": "window"}]"/>
 ```
 
 ### Export provisioning package and apply to Surface Hubs
