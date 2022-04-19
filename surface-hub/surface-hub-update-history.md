@@ -28,7 +28,7 @@ Most Windows updates focus on performance and security improvements. In the list
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4581839/windows-10-update-history), include:
 
 * Fix that prevents "End Session" from triggering the message "Your device needs an update. Restarting to finish it up..." and subsequent restart in some scenarios.
-* Fix that ensures SyncML policies can use the [SurfaceHub CSP](/windows/client-management/mdm/surfacehub-csp#deviceaccount) to configure Device Accounts with `DOMAIN\username` format
+* Fix that ensures SyncML policies can use the [SurfaceHub CSP](/windows/client-management/mdm/surfacehub-csp#deviceaccount) to configure Device Accounts in `DOMAIN\username` format.
  
 Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabling device features and services. *[KB5011831](https://support.microsoft.com/help/5011831)
 </details>
