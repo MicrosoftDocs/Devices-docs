@@ -23,7 +23,7 @@ Most Windows updates focus on performance and security improvements. In the list
 ## Windows 10 Team 2020 Update (20H2)
 
 <details>
-<summary>April 19, 2022 — update for Team based on KB5011831* (OS Build 19042.1679)</summary>
+<summary>April 21, 2022 — update for Team based on KB5011831* (OS Build 19042.1679)</summary>
 
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4581839/windows-10-update-history), include:
 
