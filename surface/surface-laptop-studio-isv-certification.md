@@ -31,6 +31,7 @@ Surface Laptop Studio with Nvidia RTX A2000 is tested and verified for leading I
 | **Siemens SolidEdge 2022**              | Surface Laptop Studio with Nvidia RTX A2000 with 4GB GDDR6 is validated, certified, and recommended by Siemens.                                                                                                                                                   |
 | **Esri ArcGIS Pro**                     | Surface Laptop Studio with Nvidia RTX A2000 with 4GB GDDR6 is certified and recommended by ESRI for ArcGIS Pro:<br><br> *"I'd absolutely see a GIS professional, even one that specializes in advanced 3D geospatial work, use this in place of a heavy workstation."* - Philip Mielke, 3D GIS product manager                                                                                                                                                     |
 | **Dassault Systemes Solidworks**                 | Surface Laptop Studio with Nvidia RTX A2000 with 4GB GDDR6 is certified by Dassault Systemes for Solidworks. <br><br> - Solidworks Interactive Ray Tracer accelerated by both RT Cores and Tensor Cores; AI-accelerated denoiser.                                                                                                            |
+| **PTC Creo**                              |Surface Laptop Studio with Nvidia RTX A2000 with 4GB GDDR6 is certified by PTC for PTC Creo: <br><br> - PTC Creo's real-time engineering simulation tool (Creo Simulation Live) built on CUDA. <br> - Surface Laptop Studio with Nvidia RTX delivers up to 11% better performance score on PTC Creo workload than Surface Book 3 15" with NVIDIA Quadro RTX.<br> - Surface Laptop Studio with Nvidia RTX delivers up to a 45% better performance score on PTC Creo workload than Surface Laptop Studio with Nvidia GeForce RTX.|
 
 ## Adobe applications
 
@@ -55,3 +56,4 @@ Microsoft Surface engineering works closely with Adobe to test and validate that
 1. AutoCAD was tested on versions 2021 and 2022. 
 2. Some accessories and software sold separately.
 3. Tactile signals in Adobe Premier Pro are available in Beta only. Visit [Adobe.com](https://www.adobe.com/products/premiere.html) for more details.
++
