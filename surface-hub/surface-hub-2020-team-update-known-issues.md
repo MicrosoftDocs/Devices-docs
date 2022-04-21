@@ -18,9 +18,6 @@ This article lists known issues for Surface Hubs running the current operating s
 
 To ensure Surface Hub receives the latest updates, sign in with an Admin account and select **All apps** > **Settings** > **Update and Security** > **Windows Update**, and then install all updates.
 
-
-
-
 | Issue               | Description           | Remedy                 |
 |---------------------|-----------------------|------------------------|
 | When using the Whiteboard Application on Surface Hub devices, the contents cannot be shared via email.             | The "Easy Share" feature has been removed from the new version of the Whiteboard app. | The recommended way to save Whiteboard contents is to sign-in to the app. If sign-in is not possible, an image file can be saved to local storage and then shared through a user-preferred service via the Edge browser. The "Easy Share" feature will return in a future version of the Whiteboard. [Learn more about Whiteboard sharing scenarios.](https://support.microsoft.com/office/enable-microsoft-whiteboard-for-your-organization-1caaa2e2-5c18-4bdf-b878-2d98f1da4b24) |
