@@ -70,7 +70,7 @@ Use Intune or another MDM provider to install PWAs on Surface Hubs. To learn mor
     ```json
     [ { "url": "https://www.contoso.com ",   "default_launch_container": "window" }, 
     
-   { "url": "https://www.fabrikam.com/",   "default_launch_container": "tab"  }, ]
+   { "url": "https://www.fabrikam.com/",   "default_launch_container": "tab"  } ]
     ```
 
 4. On the Scope tags page, select **Next** to skip.
