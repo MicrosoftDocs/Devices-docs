@@ -44,7 +44,7 @@ Use Intune or another MDM provider to install PWAs on Surface Hubs. To learn mor
 
 5. Name the profile, enter an optional description, and select **Next**.
 
-    :::image type="content" source="images/pwa-hubwebappscreateprofile.png" alt-text="Name profile" :::
+    :::image type="content" source="images/pwa-hubwebappscreateprofile.png" alt-text="Name profile" lightbox="images/pwa-hubwebappscreateprofile.png":::
 
 ### Configure force-installed Web Apps policy (Intune)
 
