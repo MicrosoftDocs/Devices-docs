@@ -77,7 +77,7 @@ Use Intune or another MDM provider to install PWAs on Surface Hubs. To learn mor
 
 5. On the Assignments page, under **Included groups**, select **Add groups**.
 
-    :::image type="content" source="images/pwa-add-groups.png" alt-text="Add groups" :::
+    :::image type="content" source="images/pwa-add-groups.png" alt-text="Add groups" lightbox="images/pwa-add-groups.png" :::
 
 6. Under **Select groups to include**, enter the name of a group containing the Surface Hubs you wish to target, choose **Select**, and then click **Next**. To learn more about assigning a Configuration profile to a group, see [Add groups to organize users and devices](/mem/intune/fundamentals/groups-add).
 
