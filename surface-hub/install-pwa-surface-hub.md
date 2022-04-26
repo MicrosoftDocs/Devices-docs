@@ -90,8 +90,19 @@ Use Intune or another MDM provider to install PWAs on Surface Hubs. To learn mor
 
 8. To apply the Configuration profile immmediately, select **Devices** > **All devices** and find the device you targeted. Open its Overview pane, and select **Sync**.
 
+ :::image type="content" source="images/pwa-sync-tenant.png" alt-text="Sync Tenant" lightbox="images/pwa-select-groups.png":::
+
  > [!IMPORTANT]
  > To complete installation of PWAs, go to your Surface Hub and launch Edge. PWAs are installed and appear in the Start menu All apps list.
+
+ ### Troubleshooting Intune-managed PWAs
+ 
+If you don't see PWAs listed under **All apps:**
+
+- Make sure your Surface Hub has the latest updates, specifically [KB5011543](https://support.microsoft.com/help/5011543) (or a subsequent Windows update). To learn more about the latest Windows 10 Team updates, refer to [Surface Hub update history](surface-hub-update-history.md).
+- Check to ensure the Configuration profile has successfully applied and has no conflicts with other settings. 
+- Check to ensure the Configuration profile is targeted to a security group that contains your Surface Hub. 
+- Remember to launch Edge a single time on your Surface Hub, which is required for Intune-managed PWAs to successfully install.
 
 ## Install PWAs via provisioning package
 
@@ -164,6 +175,12 @@ You can install PWAs by applying a provisioning package to Surface Hubs using a 
 2. Insert an empty USB flash drive. Select output location to go to the location of the package. Copy the .ppkg file to the USB drive.
 
 3. Apply the provisioning package via the Settings app or during first-run setup. To learn more, see [Create provisioning packages](/surface-hub/provisioning-packages-for-surface-hub#apply-a-provisioning-package-to-surface-hub)
+
+ ### Troubleshooting provisioning package PWAs
+ 
+If you don't see PWAs listed under **All apps**:
+
+- Make sure your Surface Hub has the latest updates, specifically [KB5011543](https://support.microsoft.com/help/5011543) (or a subsequent Windows update). To learn more about the latest Windows 10 Team updates, refer to [Surface Hub update history](surface-hub-update-history.md).
 
 ## Learn more
 
