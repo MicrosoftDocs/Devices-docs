@@ -88,10 +88,10 @@ Use Intune or another MDM provider to install PWAs on Surface Hubs. To learn mor
 
     :::image type="content" source="images/pwa-create-profile.png" alt-text="Create profile" lightbox="images/pwa-create-profile.png" :::
 
-    > [!TIP]
-    > To apply the Configuration profile immmediately, select **Devices** > **All devices** and find the device you targeted. Open its Overview pane, and select **Sync**.
+8. To apply the Configuration profile immmediately, select **Devices** > **All devices** and find the device you targeted. Open its Overview pane, and select **Sync**.
 
-8. On Surface Hub, launch Edge. PWAs are installed and appear in the Start menu All apps list.
+ > [!IMPORTANT]
+ > To complete installation of PWAs, go to your Surface Hub and launch Edge. PWAs are installed and appear in the Start menu All apps list.
 
 ## Install PWAs via provisioning package
 
@@ -133,19 +133,25 @@ You can install PWAs by applying a provisioning package to Surface Hubs using a 
 
 3. In the Available customizations pane, select **AreaName: MSEdgePolicy~Policy~microsoft_edge** and in the edit pane, set **Policy Name** to **WebAppInstallForceList** and select **Add**.
 
-4. In the Available customizations pane, select **PolicyName: WebAppInstallForceList** and in the edit pane for **WebAppInstallForceList** enter PWA code as a single line of text.
+4. In the Available customizations pane, select **PolicyName: WebAppInstallForceList** and in the edit pane for **WebAppInstallForceList** enter [PWA code](#ppkg-code-samples) as a single line of text.
 
     :::image type="content" source="images/pwa-force-web-app-install.png" alt-text="Enter code for force-installed Web Apps policy" lightbox="images/pwa-force-web-app-install.png":::
 
 ### PPKG code samples
 
--   YouTube PWA. 
+- YouTube PWA:
 
     ```xml
     <enabled/><data id="WebAppInstallForceList" value="[{&quot;url&quot;: &quot;https://www.youtube.com&quot;, &quot;create_desktop_shortcut&quot;: true, &quot;default_launch_container&quot;: &quot;window&quot;}]"/>
     ```
 
- - PWAs for YouTube, Webex, Zoom, and Uber:
+- Alternatively, you can create a JSON snippet from the following syntax to install other PWAs:
+
+    ```xml
+    <enabled/><data id="WebAppInstallForceList" value="[{&quot;url&quot;: &quot;https://www.contoso.com&quot;, &quot;create_desktop_shortcut&quot;: true, &quot;default_launch_container&quot;: &quot;window&quot;}]"/>
+    ```
+
+- This sample includes PWAs for YouTube, Webex, Zoom, and Uber:
 
     ```xml
      <enabled/><data id="WebAppInstallForceList" value="[{&quot;url&quot;: &quot;https://www.youtube.com&quot;, &quot;create_desktop_shortcut&quot;: true, &quot;default_launch_container&quot;: &quot;window&quot;},{&quot;url&quot;: &quot;https://www.signin.webex.com/join&quot;, &quot;create_desktop_shortcut&quot;: true, &quot;default_launch_container&quot;: &quot;window&quot;},{&quot;url&quot;: &quot;https://zoom.us/join&quot;, &quot;create_desktop_shortcut&quot;: true, &quot;default_launch_container&quot;: &quot;window&quot;},{&quot;url&quot;: &quot;https://www.uber.com&quot;, &quot;create_desktop_shortcut&quot;: true, &quot;default_launch_container&quot;: &quot;window&quot;}]"/>
