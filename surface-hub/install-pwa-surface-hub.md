@@ -16,7 +16,8 @@ audience: ITPro
 
 # Install Progressive Web Apps on Surface Hub
 
-Progressive Web App (PWA) support opens up a rich new source of apps that significantly extends your app library beyond UWP or store apps. Compared to web pages, PWAs behave more like fast-loading native apps with offline functionality, the ability to update in the background, and other unique features. When PWAs are installed on Surface Hub, users can run them directly from the App menu.
+Progressive Web App (PWA) support opens up a rich new source of apps that significantly extends your app library beyond UWP or store apps. Compared to web pages, PWAs behave more like fast-loading native apps with offline functionality, the ability to update in the background, and other unique features. PWAs provide an easy way for end users to use their favorite apps like YouTube, Zoom, or WebEx. When PWAs are installed on Surface Hub, users can run them directly from the App menu. Most websites can be installed as PWAs and take advantage of any additional functionilty enabled by web developers. 
+
 Admins can remotely install PWAs on Surface Hubs via mobile device management (MDM) providers like Microsoft Intune. Or you can use a provisioning pack. This article describes both methods with sample code for installing YouTube, WebEx, Zoom, and Uber and instructions for installing your own PWAs. To learn more, see [Overview of Progressive Web Apps](/microsoft-edge/progressive-web-apps-chromium/).
 
 > [!IMPORTANT]
