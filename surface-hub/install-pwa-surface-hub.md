@@ -91,7 +91,7 @@ Use Intune or another MDM provider to install PWAs on Surface Hubs. To learn mor
 
 8. To apply the Configuration profile immmediately, select **Devices** > **All devices** and find the device you targeted. Open its Overview pane, and select **Sync**.
 
- :::image type="content" source="images/pwa-sync-tenant.png" alt-text="Sync Tenant" lightbox="images/pwa-select-groups.png":::
+    :::image type="content" source="images/pwa-sync-tenant.png" alt-text="Sync Tenant" lightbox="images/pwa-select-groups.png":::
 
  > [!IMPORTANT]
  > To complete installation of PWAs, go to your Surface Hub and launch Edge. PWAs are installed and appear in the Start menu All apps list.
