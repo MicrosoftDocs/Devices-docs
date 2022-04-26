@@ -16,7 +16,8 @@ audience: ITPro
 
 # Install Progressive Web Apps on Surface Hub
 
-Admins can remotely install [Progressive Web Apps (PWAs)](/microsoft-edge/progressive-web-apps-chromium/) on Surface Hubs by using either a mobile device management provider (MDM) such as Microsoft Intune or a provisioning pack. PWAs function like installed native apps on supported platforms and function like regular websites on other browsers. When admins install PWAs on Surface Hub, users can run them directly from the App menu.
+Progressive Web App (PWA) support opens up a rich new source of apps that significantly extends your app library beyond UWP or store apps. Compared to web pages, PWAs behave more like fast-loading native apps with offline functionality, the ability to update in the background, and other unique features. When PWAs are installed on Surface Hub, users can run them directly from the App menu.
+Admins can remotely install PWAs on Surface Hubs via mobile device management (MDM) providers like Microsoft Intune. Or you can use a provisioning pack. This article describes both methods with sample code for installing YouTube, WebEx, Zoom, and Uber and instructions for installing your own PWAs. To learn more, see[Overview of Progressive Web Apps](/microsoft-edge/progressive-web-apps-chromium/).
 
 > [!IMPORTANT]
 > Before you install PWAs, ensure that your Surface Hub has [KB5011543](https://support.microsoft.com/help/5011543) (or a subsequent Windows update) installed. To learn more about the latest Windows 10 Team updates, refer to [Surface Hub update history](surface-hub-update-history.md).
@@ -132,15 +133,22 @@ You can install PWAs by applying a provisioning package to Surface Hubs using a 
 
 3. In the Available customizations pane, select **AreaName: MSEdgePolicy~Policy~microsoft_edge** and in the edit pane, set **Policy Name** to **WebAppInstallForceList** and select **Add**.
 
-4. In the Available customizations pane, select **PolicyName: WebAppInstallForceList** and in the edit pane for **WebAppInstallForceList** enter the following code as a single line of text.
+4. In the Available customizations pane, select **PolicyName: WebAppInstallForceList** and in the edit pane for **WebAppInstallForceList** enter PWA code as a single line of text.
 
     :::image type="content" source="images/pwa-force-web-app-install.png" alt-text="Enter code for force-installed Web Apps policy" lightbox="images/pwa-force-web-app-install.png":::
 
-    > [!TIP]
-    > This example installs YouTube as a PWA. Replace the URL as appropriate.
+### PPKG code samples
+
+-   YouTube PWA. 
 
     ```xml
     <enabled/><data id="WebAppInstallForceList" value="[{&quot;url&quot;: &quot;https://www.youtube.com&quot;, &quot;create_desktop_shortcut&quot;: true, &quot;default_launch_container&quot;: &quot;window&quot;}]"/>
+    ```
+
+ - PWAs for YouTube, Webex, Zoom, and Uber:
+
+    ```xml
+     <enabled/><data id="WebAppInstallForceList" value="[{&quot;url&quot;: &quot;https://www.youtube.com&quot;, &quot;create_desktop_shortcut&quot;: true, &quot;default_launch_container&quot;: &quot;window&quot;},{&quot;url&quot;: &quot;https://www.signin.webex.com/join&quot;, &quot;create_desktop_shortcut&quot;: true, &quot;default_launch_container&quot;: &quot;window&quot;},{&quot;url&quot;: &quot;https://zoom.us/join&quot;, &quot;create_desktop_shortcut&quot;: true, &quot;default_launch_container&quot;: &quot;window&quot;},{&quot;url&quot;: &quot;https://www.uber.com&quot;, &quot;create_desktop_shortcut&quot;: true, &quot;default_launch_container&quot;: &quot;window&quot;}]"/>
     ```
 
 ### Export provisioning package and apply to Surface Hubs
