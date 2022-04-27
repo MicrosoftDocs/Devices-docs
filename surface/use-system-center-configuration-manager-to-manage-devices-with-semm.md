@@ -119,12 +119,12 @@ Beginning with Surface Pro 8, Surface Laptop Studio, and Surface Go 3, both of t
 **To manage USB ports:**
 
 1. Go to [Surface Tools for IT](https://www.microsoft.com/download/details.aspx?id=46703) and download **SEMM_PowerShell.zip**.
-2. Run **ConfigureSEMM.ps1** and skip to **UsbPortSettingType**.
-3. To disable both USB-A and USB-C ports, enable the following setting: **UsbPortHwDisabled.**
+2. Open **ConfigureSEMM.ps1** and modify as appropriate.
+3. To disable both USB-A and USB-C ports: For UsbPortSettingType, enable the following setting: **UsbPortHwDisabled.**
 
 **Additional options for USB-C ports:**
 
-1. Run **ConfigureSEMM.ps1** and skip to **UsbPortSettingType**.
+1. Run **ConfigureSEMM.ps1** and and modify as appropriate. 
 2. To turn off data only and continue to use USB-C ports for power and display functionality, enable the following mode:  **Mode 1 – Data Disabled.**
 3. To turn off data, power, and display functionality, enable the following mode:  **Mode 2 – Fully Disabled.**
 
@@ -134,7 +134,7 @@ Beginning with Surface Pro 8, Surface Laptop Studio, and Surface Go 3, both of t
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- | -------- |
 | **Surface Laptop 2**<br>**Surface Pro 6**<br>**Surface Laptop**<br>**Surface Pro 4**<br>**Surface Pro**<br>**Surface Studio 2**<br>**Surface Studio**<br> ****<br>  | Enable or disable data            | N/A: No USB-C port on device                                                                                                                                   | - USBPortEnabled (default)<br>- USBPortHWDisabled                          | 370-379  |
 | **Surface Laptop SE**<br>**Surface Pro 7+**<br>**Surface Pro 7**<br>**Surface Go 2**<br>**Surface Go**<br>**Surface Laptop Go**<br>**Surface Laptop 3 (Intel CPU only)** | Enable or disable data            | - Enable or disable data<br><br>Power delivery and display-out functionality are always available                                                              | - USBPortEnabled (default)<br>- USBPortHWDisabled                          | 370-379  |
-| **Surface Pro 8**<br>**Surface Laptop Studio**<br>**Surface Go 3**                                                                                                       | N/A: No USB-A port on device      | - Enable data, display-out, and  power delivery<br>- Disable data but enable display-out and power delivery<br>- Disable data, display-out, and power delivery | - UsbPortEnabled (default)<br>- UsbPortHwDisabled<br>- UsbPortDataDisabled | 380-389  |
+| **Surface Pro 8**<br>**Surface Laptop Studio**<br>**Surface Go 3**                                                                                                       | N/A: No USB-A port on device      | - Enable data, display-out, and  power delivery<br>- Disable data but enable display-out and power delivery<br>- Disable data, display-out, and power delivery | - UsbPortEnabled (default)<br>- UsbPortDataDisabled<br>- UsbPortHwDisabled | 380-389  |
 | **Surface Book 3**<br>**Surface Book 2**<br>                                                                                                                        | Base USB ports are always enabled | Base USB ports are always enabled                                                                                                                              | n/a                                                                        |          |
 | **Surface Book with Performance Base**<br>**Surface Book**                                                                                                               | Base USB ports are always enabled | N/A: No USB-C port on device                                                                                                                                   | n/a                                                                        |          |
 
