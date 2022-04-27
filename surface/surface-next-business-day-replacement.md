@@ -3,7 +3,7 @@ title: Next Business Day Replacement information & coverage areas
 ms.author: v-kaij
 author: greg-lindsay
 manager: laurawi
-ms.date: 06/17/2021
+ms.date: 04/19/2022
 audience: Admin
 ms.topic: article
 ms.prod: surface
@@ -17,9 +17,7 @@ description: Next Business Day Replacement Information & Coverage Areas.
 
 # Next Business Day Replacement information & coverage areas
 
-Next Business Day Replacement is a paid-for service where a replacement Surface device will be delivered to your premises by the next business day. 
-
-Next Business Day Replacement is available with the purchase of your Complete for Business Plus protection plan (availability in select countries). These services apply after an agent determines a replacement device is required, confirms available inventory, and submits an order for a replacement device by a standard cutoff time, predetermined by Microsoft. 
+Next Business Day Replacement is a paid-for service where a replacement Surface device will be delivered to your premises by the next business day (availability in select countries). These services apply after an agent determines a replacement device is required, confirms available inventory, and submits an order for a replacement device by a standard cutoff time, predetermined by Microsoft.
 
 ## Guidelines
 
@@ -35,20 +33,28 @@ For a list of supported post codes, see "Next business day coverage" where appli
 - [Australia](#australia)
 - [Austria](#austria)
 - [Belgium](#belgium)
+- [Bulgaria](#bulgaria)
 - [Canada](#canada)
+- [Croatia](#croatia)
 - [Czech Republic](#czech-republic)
 - [Denmark](#denmark)
+- [Estonia](#estonia)
 - [Finland](#finland)
 - [France](#france)
 - [Germany](#germany)
+- [Greece](#greece)
 - [Hong Kong](#hong-kong)
 - [Ireland](#ireland)
 - [Italy](#italy)
 - [Japan](#japan)
+- [Latvia](#latvia)
+- [Lithuania](#lithuania)
+- [Luxembourg](#luxembourg)
 - [Norway](#norway)
 - [Poland](#poland)
 - [Portugal](#portugal)
 - [Singapore](#singapore)
+- [Slovenia](#slovenia)
 - [Spain](#spain)
 - [Sweden](#sweden)
 - [Switzerland](#switzerland)
@@ -72,9 +78,19 @@ For a list of supported post codes, see "Next business day coverage" where appli
 - Cutoff Time: 12:00 CET (UTC+1)
 - [Next business day coverage](https://download.microsoft.com/download/f/b/9/fb95d99c-1403-4ecf-bbde-0bab2af2c2ce/NBD%20Coverage%20-%20Belgium%20Post%20Codes%20030321.xlsx)
 
+#### Bulgaria
+
+- Cutoff Time: 12:00 CET (UTC+1)
+- [Next business day coverage](https://download.microsoft.com/download/a/5/c/a5c0d6af-114e-4ecf-aea8-55e556b52adb/NBD_Coverage_BulgariaPostCodes_030222.xlsx)
+
 #### Canada
 
 - Cutoff Time: 14:00 CST (UTC-6)
+
+#### Croatia
+
+- Cutoff Time: 12:00 CET (UTC+1)
+- [Next business day coverage](https://download.microsoft.com/download/4/e/6/4e6bae3f-80bd-4b28-9436-8519dfcd5b3e/NBD_Coverage_CroatiaPostCodes_030222.xlsx)
 
 #### Czech Republic
 
@@ -85,6 +101,11 @@ For a list of supported post codes, see "Next business day coverage" where appli
 
 - Cutoff Time: 12:00 CET (UTC+1) 
 - [Next business day coverage](https://download.microsoft.com/download/9/e/6/9e6b4db6-b9f6-412e-a296-a10b5bc6e591/NBD%20Coverage%20-%20Denmark%20Post%20Codes%20030321.xlsx)
+
+#### Estonia
+
+- Cutoff Time: 12:00 CET (UTC+1)
+- [Next business day coverage](https://download.microsoft.com/download/f/e/8/fe87e78a-384d-4860-b96c-c0956f2393d4/NBD_Coverage_EstoniaPostCodes_030222.xlsx)
 
 #### Finland
 
@@ -100,6 +121,11 @@ For a list of supported post codes, see "Next business day coverage" where appli
 
 - Cutoff Time: 12:00 CET (UTC+1)
 - [Next business day coverage](https://download.microsoft.com/download/d/4/f/d4f6c11f-ada2-4400-b502-2e722644427b/NBD%20Coverage%20-%20Germany%20Post%20Codes%20042821.xlsx)
+
+#### Greece
+
+- Cutoff Time: 12:00 CET (UTC+1)
+- [Next business day coverage](https://download.microsoft.com/download/5/7/8/578c1206-8771-41dd-a02b-fce8ac736200/NBD_Coverage_GreecePostCodes_030222.xlsx)
 
 #### Hong Kong
 
@@ -121,6 +147,22 @@ For a list of supported post codes, see "Next business day coverage" where appli
 - Cutoff Time: 15:30 JST (UTC+9)
 - [Next business day coverage](https://download.microsoft.com/download/c/7/8/c781a035-19f7-4563-9dd9-e8c5f3713342/NBD%20Coverage%20-%20Japan%20Post%20Codes%20060121.xlsx)
 
+#### Latvia
+
+- Cutoff Time: 12:00 CET (UTC+1)
+- [Next business day coverage](https://download.microsoft.com/download/d/6/c/d6c8c486-a667-4e52-8867-d0dff68cfe39/NBD_Coverage_LatviaPostCodes_030222.xlsx)
+
+#### Lithuania
+
+- Cutoff Time: 12:00 CET (UTC+1)
+- [Next business day coverage](https://download.microsoft.com/download/b/5/c/b5c6602e-73fc-493d-9741-14f28b58c1e8/NBD_Coverage_LithuaniaPostCodes_030222.xlsx)
+
+#### Luxembourg
+
+- Cutoff Time: 12:00 CET (UTC+1)
+- [Next business day coverage](https://download.microsoft.com/download/d/6/c/d6c8c486-a667-4e52-8867-d0dff68cfe39/NBD_Coverage_LatviaPostCodes_030222.xlsx)
+
+
 #### Norway
 
 - Cutoff Time: 12:00 CET (UTC+1)
@@ -137,10 +179,16 @@ For a list of supported post codes, see "Next business day coverage" where appli
 - Cutoff Time: 12:00 CET (UTC+1)
 - [Next business day coverage](https://download.microsoft.com/download/5/1/4/5146ceeb-651c-4b10-afeb-ea1abb733e33/NBD%20Coverage%20-%20Portugal%20Post%20Codes%20030321.xlsx)
 
+
 #### Singapore
 
 - Cutoff Time: 13:00 SGT (UTC+8)
 - NBD coverage is available in all postal codes in this country.
+
+#### Slovenia
+
+- Cutoff Time: 12:00 CET (UTC+1)
+- [Next business day coverage](https://download.microsoft.com/download/c/4/4/c4436f03-1c81-487b-9e43-e002292ebe28/NBD_Coverage_SloveniaPostCodes_030222.xlsx)
 
 #### Spain
 
