@@ -108,7 +108,7 @@ The sample scripts include examples of how to set Surface UEFI settings and how 
 
 With USB port functionality enabled by default on Surface devices, many devices with Surface UEFI allow admins to disable connectivity to USB ports. For example, you may wish to prevent users from copying data from USB thumb drives or external hard disks.
 
-How you manage USB port functionality varies across Surface devices. Recently released devices -- Surface Pro 8, Surface Go 3, and Surface Laptop Studio – allow you to use Powershell to granularly manage the functionality of USB-C ports and disable USB-A. See [Table 1](#table-1-usb-port-management-options-for-surface-devices) below for a reference of available settings across Surface devices.
+How you manage USB port functionality varies across Surface devices. Recently released devices—Surface Pro 8, Surface Go 3, and Surface Laptop Studio—allow you to use Powershell to granularly manage the functionality of USB-C ports and disable USB-A. See [Table 1](#table-1-usb-port-management-options-for-surface-devices) below for a reference of available settings across Surface devices.
 
 For USB-A ports supporting USB2 and USB3, you can disable the USB data protocol from the USB controller to prevent all functionality.
 
