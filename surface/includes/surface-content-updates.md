@@ -12,6 +12,8 @@
 |------|------------|--------|
 | 4/25/2022 | [Install Progressive Web Apps on Surface Hub](/surface-hub/install-pwa-surface-hub) | modified |
 | 4/27/2022 | [Install Progressive Web Apps on Surface Hub](/surface-hub/install-pwa-surface-hub) | modified |
+| 4/25/2022 | [Install Progressive Web Apps on Surface Hub](/surface-hub/install-pwa-surface-hub) | modified |
+| 4/27/2022 | [Install Progressive Web Apps on Surface Hub](/surface-hub/install-pwa-surface-hub) | modified |
 
 
 ## Week of April 18, 2022
@@ -48,6 +50,8 @@
 |------|------------|--------|
 | 4/29/2022 | [Surface Laptop Studio ISV-tested/certified apps](/surface/surface-laptop-studio-isv-certification) | modified |
 | 4/29/2022 | [Use Microsoft Endpoint Configuration Manager to manage devices with SEMM](/surface/use-system-center-configuration-manager-to-manage-devices-with-semm) | modified |
+| 4/29/2022 | [Surface Laptop Studio ISV-tested/certified apps](/surface/surface-laptop-studio-isv-certification) | modified |
+| 4/29/2022 | [Use Microsoft Endpoint Configuration Manager to manage devices with SEMM](/surface/use-system-center-configuration-manager-to-manage-devices-with-semm) | modified |
 
 
 ## Week of April 25, 2022
@@ -55,6 +59,8 @@
 
 | Published On |Topic title | Change |
 |------|------------|--------|
+| 4/25/2022 | [Install Progressive Web Apps on Surface Hub](/surface-hub/install-pwa-surface-hub) | modified |
+| 4/27/2022 | [Install Progressive Web Apps on Surface Hub](/surface-hub/install-pwa-surface-hub) | modified |
 | 4/25/2022 | [Install Progressive Web Apps on Surface Hub](/surface-hub/install-pwa-surface-hub) | modified |
 | 4/27/2022 | [Install Progressive Web Apps on Surface Hub](/surface-hub/install-pwa-surface-hub) | modified |
 
