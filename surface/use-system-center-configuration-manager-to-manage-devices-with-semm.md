@@ -13,7 +13,7 @@ ms.reviewer: hachidan
 manager: laurawi
 ms.localizationpriority: medium
 ms.audience: itpro
-ms.date: 10/28/2020
+ms.date: 04/29/2020
 appliesto:
 - Windows 10
 - Windows 11
