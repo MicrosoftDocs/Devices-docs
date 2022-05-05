@@ -18,7 +18,7 @@ Surface Hub ships with a default Start menu that admins can modify with specific
 
 ## Overview
 
-The Surface Hub Start menu is rendered from a [Start layout XML file](#default-surface-hub-start-layout-xml) that includes App ID values (AppUserModelID) for default applications such as Microsoft PowerPoint, Word, and Excel. You can add new tiles or replace the default values with the AppUserModelID associated with the apps you wish to display. [As described below](#to-apply-a-customized-start-menu-to-surface-hub), use a mobile device management (MDM) provider such as Microsoft Intune to deploy a Start layout device policy containing the modified Start layout XML.
+The Surface Hub Start menu is rendered from a [Start layout XML file](#default-surface-hub-start-menu) that includes App ID values (AppUserModelID) for default applications such as Microsoft PowerPoint, Word, and Excel. You can add new tiles or replace the default values with the AppUserModelID associated with the apps you wish to display. [As described below](#to-apply-a-customized-start-menu-to-surface-hub), use a mobile device management (MDM) provider such as Microsoft Intune to deploy a Start layout device policy containing the modified Start layout XML.
 
 ### Differences between Surface Hub and desktop Start menu
 
@@ -34,12 +34,12 @@ There are a few key differences between Start menu customization for Surface Hub
 
 ## Modify the default Surface Hub Start menu
 
-1. On a separate PC, copy the [default Surface Hub Start menu XML](#default-surface-hub-start-layout-xml) into a text editor.
+1. On a separate PC, copy the [default Surface Hub Start layout XML](#default-surface-hub-start-menu) into a text editor.
 2. Search for **AppUserModelID** values of the apps you wish to remove. Replace with the AppUserModelIDs for the apps you want to include.
 
 ### Example
 
-This example removes PowerPoint, Word, and Excel from the Start menu and adds the following Progressive Web Apps:
+This [example](#surface-hub-start-menu-modified-for-progressive-web-apps) adds the following Progressive Web Apps:
 
 | **App** | **AppUserModelID**                          |
 | ------- | ------------------------------------------- |
