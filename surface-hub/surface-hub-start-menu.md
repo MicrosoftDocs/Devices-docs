@@ -170,8 +170,8 @@ The following modified Start layout XML includes PWAs for Zoom, WebEx, and YouTu
 
 1. Sign in to the Intune portal at [**Microsoft Endpoint Manager admin center**](https://endpoint.microsoft.com/).
 2. Go to **Devices** > **Configuration** **Policies** > **Create profile**.
-3. Under Platform, select **Windows 10 and later**. Under Profile type, select **Templates**. Under Template name, select **Custom.**
-4. Select **Create.**
+3. Under Platform, select **Windows 10 and later**. Under Profile type, select **Templates**. Under Template name, select **Custom** and choose **Create**.
+
   ![Start creating the custom Configuration profile](images/fig1-start-custom-profile.png)
 
 5. Name the profile, enter an optional description, and select **Next**.
