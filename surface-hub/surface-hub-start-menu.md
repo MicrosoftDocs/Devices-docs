@@ -18,21 +18,19 @@ Surface Hub ships with a default Start menu that admins can modify with specific
 
 ## Overview
 
-The Surface Hub Start menu is rendered from a [simple XML file](#default-surface-hub-start-layout-xml) that includes App ID values (AppUserModelID) for default applications such as Microsoft PowerPoint, Word, and Excel. You can replace the default values with the AppUserModelID associated with the apps you wish to display. You deploy the modified Start menu XML file to targeted Surface Hubs via a mobile device management (MDM) provider such as Microsoft Intune.
-
-When you apply a customized Start menu layout to Surface Hub, users cannot pin, unpin, or uninstall apps from Start.
+The Surface Hub Start menu is rendered from a [Start layout XML file](#default-surface-hub-start-layout-xml) that includes App ID values (AppUserModelID) for default applications such as Microsoft PowerPoint, Word, and Excel. You can replace the default values with the AppUserModelID associated with the apps you wish to display. [As described below](#to-apply-a-customized-start-menu-to-surface-hub), use a mobile device management (MDM) provider such as Microsoft Intune to deploy a Start layout device policy containing the modified Start layout XML.
 
 ### Differences between Surface Hub and desktop Start menu
 
 There are a few key differences between Start menu customization for Surface Hub and a Windows 10 desktop:
 
-- You cannot use **[DesktopApplicationTile](/windows/configuration/start-layout-xml-desktop#startdesktopapplicationtile)** in your Start layout XML because Windows desktop applications (Win32) are not supported on Surface Hub.
 - You cannot use the Start layout XML to configure the taskbar or the Welcome screen for Surface Hub.
 - The Start layout policy should be assigned only to devices, not users.
 - The OMA-URI setting to use in the policy is `./Device/Vendor/MSFT/Policy/Config/Start/StartLayout`
 - Surface Hub supports a maximum of 6 columns (6 1x1 tiles). However, you **must** define GroupCellWidth=8 even though Surface Hub will only display tiles in columns 0-5, not columns 6 and 7.
 - Surface Hub supports a maximum of 6 rows (6 1x1 tiles)
 - `SecondaryTile`, used for links, will open the link in Microsoft Edge.
+-  **[DesktopApplicationTile](/windows/configuration/start-layout-xml-desktop#startdesktopapplicationtile)** is only supported for Edge and Microsoft Teams. All other Win32 apps are blocked by Code Integrity policy
 
 ## Modify the default Surface Hub Start menu
 
@@ -200,7 +198,7 @@ The following modified Start layout XML includes PWAs for Zoom, WebEx, and YouTu
 
     ![Finish creating Custom configuration profile](images/fig6-create-custom-profile.png)
 
-13. To apply te Configuration profile immediately, select **Devices** > **All devices** and find the Surface Hub you targeted. Open its Overview pane, and select **Sync**.
+13. To apply the Configuration profile immediately, select **Devices** > **All devices** and find the Surface Hub you targeted. Open its Overview pane, and select **Sync**.
 
    ![Sync targeted Surface Hub](images/pwa-sync-tenant.png)
    
