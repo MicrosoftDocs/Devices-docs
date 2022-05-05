@@ -189,12 +189,13 @@ The following modified Start layout XML includes PWAs for Zoom, WebEx, and YouTu
 > The Configuration profile **must** be assigned to devices and targeted to the device URI. Do not use: ./User/Vendor/MSFT/Policy/Config/Start/StartLayout.
 
 7. For Data type, select **String (XML file) and** open your modified Start layout XML file. Select **Save** and then click **Next**.
-   ![Upload modified Start layout XML file ](images/fig4-upload-modified-xml.png)
+
+    :::image type="content" source="images/fig4-upload-modified-xml.png" alt-text="Upload modified Start layout XML file":::
   
 8. On the Assignments page, under **Included groups**, select **Add groups**.
 9. Under **Select groups to include**, enter the name of a group containing the Surface Hubs you wish to target, choose **Select**, and then click **Next**. To learn more about assigning a Configuration profile to a group, see [Add groups to organize users and devices](/mem/intune/fundamentals/groups-add).
 
-  ![Select group containing targeted Surface Hubs ](images/fig5-selectgroup.png)
+    :::image type="content" source="images/fig5-selectgroup.png" alt-text="Select group containing targeted Surface Hubs]":::
 
 10. On the Applicability Rules page, enter optional criteria if desired. Otherwise, select **Next**.
 11. Review the Configuration profile and select **Create**.
