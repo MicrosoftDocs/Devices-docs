@@ -71,36 +71,32 @@ This section provides direct links to downloadable packages containing driver an
 
 ## Central update management in commercial environments
 
-Tools for managing devices — including driver and firmware updates —  included in [Microsoft Endpoint Manager](https://devicemanagement.microsoft.com/). 
+Tools for managing devices, including driver and firmware updates, are included in [Microsoft Endpoint Manager](/mem/). Microsoft Endpoint Manager includes Microsoft Intune, Windows Autopilot, and Microsoft Endpoint Configuration Manager.
 
 ### Manage updates with Configuration Manager and Intune
 
-Microsoft Endpoint Configuration Manager allows you to synchronize and deploy Surface firmware and driver updates with the Configuration Manager client. Integration with Microsoft Intune lets you see all your managed, co-managed, and partner-managed devices in one place. This is the recommended solution for large organizations to manage Surface updates.
+Microsoft Endpoint Manager is the recommended solution for large organizations to manage Surface updates. Configuration Manager allows you to synchronize and deploy Surface firmware and driver updates with the Configuration Manager client. Integration with Intune lets you see all your managed, co-managed, and partner-managed devices in one place. The Microsoft Surface Management Portal is a centralized place in the Microsoft Endpoint Manager admin center where you can self-serve, manage, and monitor your organization's Intune-managed Surface devices at scale.
 
-For detailed steps, see the following resources:
+For more information, see the following resources:
 
-- [Manage Surface driver updates in Configuration Manager](manage-surface-driver-updates-configuration-manager.md)
-- [Deploy applications with Configuration Manager](/configmgr/apps/deploy-use/deploy-applications)
-- [Endpoint Configuration Manager documentation](/configmgr/)
+- [Manage Surface driver updates in Configuration Manager](/mem/configmgr/sum/deploy-use/surface-drivers)
+- [Deploy applications with Configuration Manager](/mem/configmgr/apps/deploy-use/deploy-applications)
+- [Overview of Microsoft Surface Management Portal](/mem/intune/fundamentals/surface-management-portal)
+- [Configuration Manager documentation](/mem/configmgr/)
+- [Intune documentation](/mem/intune/)
 
 ### Manage updates with Microsoft Deployment Toolkit
 
-The Microsoft Deployment Toolkit (MDT) is included in Endpoint Configuration Manager. Depending on your environment, it contains optional deployment tools that you may want to use.  These include the Windows Assessment and Deployment Kit (Windows ADK), Windows System Image Manager (Windows SIM), Deployment Image Servicing and Management (DISM), and User State Migration Tool (USMT). You can download the latest version of MDT from the [Microsoft Deployment Toolkit download page](https://www.microsoft.com/download/details.aspx?id=54259).
+The Microsoft Deployment Toolkit (MDT) is a free tool for automating Windows deployment. It uses the task sequence engine from Configuration Manager, and can also install drivers and software updates during the deployment.
 
-For detailed steps, see the following resources:
+For more information, see the following resources:
 
-- [Microsoft Deployment Toolkit documentation](/configmgr/mdt/)
 - [Prepare for deployment with MDT](/windows/deployment/deploy-windows-mdt/deploy-windows-10-with-the-microsoft-deployment-toolkit)
+- [MDT documentation](/configmgr/mdt/)
 
-For instructions about how to deploy updates by using Endpoint Configuration Manager, see [Deploy applications with Configuration Manager](/configmgr/apps/deploy-use/deploy-applications). For instructions about how to deploy updates by using MDT, see [Deploy a Windows 10 image using MDT](/windows/deployment/deploy-windows-mdt/deploy-a-windows-10-image-using-mdt).
+### Windows PE and Surface firmware and drivers
 
-**WindowsPE and Surface firmware and drivers**
-
-Endpoint Configuration Manager and MDT both use the Windows Preinstallation Environment (WindowsPE) during the deployment process. WindowsPE supports only a limited set of basic drivers such as network adapters and storage controllers. Drivers for Windows components that are not part of WindowsPE might produce errors. As a best practice, you can prevent such errors by configuring the deployment process to use only the required drivers during the WindowsPE phase.
-
-### Endpoint Configuration Manager
-
-Starting in Endpoint Configuration Manager, you can synchronize and deploy Microsoft Surface firmware and driver updates by using the Configuration Manager client. For additional information, see KB 4098906, [Manage Surface driver updates in Configuration Manager](https://support.microsoft.com/help/4098906/manage-surface-driver-updates-in-configuration-manager).
+Configuration Manager and MDT both use the Windows Preinstallation Environment (Windows PE) during the deployment process. Windows PE supports only a limited set of basic drivers such as network adapters and storage controllers. Drivers for Windows components that aren't part of Windows PE might produce errors. You can prevent such errors by configuring the deployment process to use only the required drivers during the Windows PE phase.
 
 ## Supported devices
 
@@ -160,11 +156,7 @@ This file name provides the following information:
 ## Learn more
 
 - [Prepare servicing strategy for Windows client updates](/windows/deployment/update/waas-deployment-rings-windows-10-updates)
-- [Manage Surface driver updates in Configuration Manager](https://support.microsoft.com/help/4098906/manage-surface-driver-updates-in-configuration-manager)
-- [Deploy applications with Configuration Manager](/configmgr/apps/deploy-use/deploy-applications)
-- [Endpoint Configuration Manager documentation](/configmgr/)
-- [Microsoft Deployment Toolkit documentation](/configmgr/mdt/)
-- [Prepare for deployment with MDT](/windows/deployment/deploy-windows-mdt/deploy-windows-10-with-the-microsoft-deployment-toolkit)
+- [Manage Surface driver updates in Configuration Manager](/mem/configmgr/sum/deploy-use/surface-drivers)
+- [Deploy applications with Configuration Manager](/mem/configmgr/apps/deploy-use/deploy-applications)
 - [Manage DFCI on Surface devices](surface-manage-dfci-guide.md)
 - [Ignite 2019: Announcing remote management of Surface UEFI settings from Intune](https://techcommunity.microsoft.com/t5/Surface-IT-Pro-Blog/Ignite-2019-Announcing-remote-management-of-Surface-UEFI/ba-p/978333).
-
