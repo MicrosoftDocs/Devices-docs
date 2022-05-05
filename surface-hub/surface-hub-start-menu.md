@@ -184,7 +184,7 @@ The following modified Start layout XML includes PWAs for Zoom, WebEx, and YouTu
 > [!TIP]
 > The Configuration profile **must** be assigned to devices and targeted to the device URI. Do not use: ./User/Vendor/MSFT/Policy/Config/Start/StartLayout.
   
-  ![Add URI string](images/fig3-add-uri-string.png)
+   ![Add URI string](images/fig3-add-uri-string.png)
 
 8. For Data type, select **String (XML file) and** open your modified Start layout XML file. Select **Save** and then click **Next**.
    ![Upload modified Start layout XML file ](images/fig4-upload-modified-xml.png)
@@ -196,7 +196,7 @@ The following modified Start layout XML includes PWAs for Zoom, WebEx, and YouTu
 11. On the Applicability Rules page, enter optional criteria if desired. Otherwise, select **Next**.
 12. Review the Configuration profile and select **Create**.
 
-  ![Finish creating Custom configuration profile](images/fig6-create-custom-profile.png)
+    ![Finish creating Custom configuration profile](images/fig6-create-custom-profile.png)
 
 13. To apply te Configuration profile immediately, select **Devices** > **All devices** and find the Surface Hub you targeted. Open its Overview pane, and select **Sync**.
    ![Sync targeted Surface Hub](images/pwa-sync-tenant.png)
@@ -212,9 +212,10 @@ To obtain the AppUserModelID of apps installed on Surface Hub:
 4. In the Registry folder, open **HKLM_SOFTWARE_Microsoft.txt**.
 5. Search for the **ApplicationUserModelId** associated with the app you want to include in the Start menu.
 
-![Locate the app ID in the Hub registry](images/fig8-locate-appid-in-hub- registry.png)
+  ![Locate the app ID in the Hub registry](images/fig8-locate-appid-in-hub-registry.png)
 
-## Appendix B: Start layout that includes a Microsoft Edge link
+## Appendix B: Start layout with Microsoft Edge link
+
 
 This example shows a link to a website and a .pdf file. The secondary tile for Microsoft Edge uses a 150 x 150-pixel icon.
 
