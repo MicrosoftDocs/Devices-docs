@@ -172,37 +172,40 @@ The following modified Start layout XML includes PWAs for Zoom, WebEx, and YouTu
 
    ![Start creating the custom Configuration profile](images/fig1-start-custom-profile.png)
 
-5. Name the profile, enter an optional description, and select **Next**.
+4. Name the profile, enter an optional description, and select **Next**.
 
   ![Name custom Configuration profile](images/fig2-name-custom-profile.png)
 
-6. On the configuration settings page, select **Add.** Enter a name and optional description.
-7. For OMA-URI, enter the following string:
-`./Device/Vendor/MSFT/Policy/Config/Start/StartLayout`
+5. On the configuration settings page, select **Add.** Enter a name and optional description.
+6. For OMA-URI, enter the following string:
+
+```xml
+./Device/Vendor/MSFT/Policy/Config/Start/StartLayout
+```
 
 > [!TIP]
 > The Configuration profile **must** be assigned to devices and targeted to the device URI. Do not use: ./User/Vendor/MSFT/Policy/Config/Start/StartLayout.
   
   ![Add URI string](images/fig3-add-uri-string.png)
 
-8. For Data type, select **String (XML file) and** open your modified Start layout XML file. Select **Save** and then click **Next**.
+7. For Data type, select **String (XML file) and** open your modified Start layout XML file. Select **Save** and then click **Next**.
    ![Upload modified Start layout XML file ](images/fig4-upload-modified-xml.png)
   
-9. On the Assignments page, under **Included groups**, select **Add groups**.
-10. Under **Select groups to include**, enter the name of a group containing the Surface Hubs you wish to target, choose **Select**, and then click **Next**. To learn more about assigning a Configuration profile to a group, see [Add groups to organize users and devices](/mem/intune/fundamentals/groups-add).
+8. On the Assignments page, under **Included groups**, select **Add groups**.
+9. Under **Select groups to include**, enter the name of a group containing the Surface Hubs you wish to target, choose **Select**, and then click **Next**. To learn more about assigning a Configuration profile to a group, see [Add groups to organize users and devices](/mem/intune/fundamentals/groups-add).
 
   ![Select group containing targeted Surface Hubs ](images/fig5-selectgroup.png)
 
-11. On the Applicability Rules page, enter optional criteria if desired. Otherwise, select **Next**.
-12. Review the Configuration profile and select **Create**.
+10. On the Applicability Rules page, enter optional criteria if desired. Otherwise, select **Next**.
+11. Review the Configuration profile and select **Create**.
 
     ![Finish creating Custom configuration profile](images/fig6-create-custom-profile.png)
 
-13. To apply the Configuration profile immediately, select **Devices** > **All devices** and find the Surface Hub you targeted. Open its Overview pane, and select **Sync**.
+12. To apply the Configuration profile immediately, select **Devices** > **All devices** and find the Surface Hub you targeted. Open its Overview pane, and select **Sync**.
 
    ![Sync targeted Surface Hub](images/pwa-sync-tenant.png)
    
-14. Once applied, you will see the customized Start menu on your Surface Hub.
+13. Once applied, you will see the customized Start menu on your Surface Hub.
 
 ## Appendix A: Extract AppUserModelIDs from installed apps
 
