@@ -183,10 +183,10 @@ The following modified Start layout XML includes PWAs for Zoom, WebEx, and YouTu
 ./Device/Vendor/MSFT/Policy/Config/Start/StartLayout
 ```
 
-    :::image type="content" source="images/fig3-add-uri-string.png" alt-text="Add OMA-URI string":::
-
 > [!TIP]
 > The Configuration profile **must** be assigned to devices and targeted to the device URI. Do not use: ./User/Vendor/MSFT/Policy/Config/Start/StartLayout.
+
+  :::image type="content" source="images/fig3-add-uri-string.png" alt-text="Add OMA-URI string":::
 
 7. For Data type, select **String (XML file) and** open your modified Start layout XML file. Select **Save** and then click **Next**.
 
