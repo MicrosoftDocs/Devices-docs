@@ -18,7 +18,7 @@ Surface Hub ships with a default Start menu that admins can modify with specific
 
 ## Overview
 
-The Surface Hub Start menu is rendered from a [Start layout XML file](#default-surface-hub-start-layout-xml) that includes App ID values (AppUserModelID) for default applications such as Microsoft PowerPoint, Word, and Excel. You can replace the default values with the AppUserModelID associated with the apps you wish to display. [As described below](#to-apply-a-customized-start-menu-to-surface-hub), use a mobile device management (MDM) provider such as Microsoft Intune to deploy a Start layout device policy containing the modified Start layout XML.
+The Surface Hub Start menu is rendered from a [Start layout XML file](#default-surface-hub-start-layout-xml) that includes App ID values (AppUserModelID) for default applications such as Microsoft PowerPoint, Word, and Excel. You can add new tiles or replace the default values with the AppUserModelID associated with the apps you wish to display. [As described below](#to-apply-a-customized-start-menu-to-surface-hub), use a mobile device management (MDM) provider such as Microsoft Intune to deploy a Start layout device policy containing the modified Start layout XML.
 
 ### Differences between Surface Hub and desktop Start menu
 
@@ -108,7 +108,7 @@ This example removes PowerPoint, Word, and Excel from the Start menu and adds th
 
 ### Surface Hub Start layout XML modified for Progressive Web Apps
 
-The following modified Start layout XML includes PWAs for Zoom, WebEx, and YouTube.
+The following modified Start layout XML adds PWAs for Zoom, WebEx, and YouTube.
 
 ```xml
 <LayoutModificationTemplate Version="1" xmlns="http://schemas.microsoft.com/Start/2014/LayoutModification">
@@ -123,17 +123,17 @@ The following modified Start layout XML includes PWAs for Zoom, WebEx, and YouTu
             Row="0"
             Column="0"/>
         <start:Tile
-            AppUserModelID="zoom.us-F576B427_j0dtdqw38r40m!App"
+            AppUserModelID="Microsoft.Getstarted_8wekyb3d8bbwe!App"
             Size="4x2"
             Row="0"
             Column="2"/>
         <start:Tile
-            AppUserModelID="signin.webex.com-8846C236_2aab1d9x9fqba!App"
+            AppUserModelID="Microsoft.Office.PowerPoint_8wekyb3d8bbwe!Microsoft.pptim"
             Size="2x2"
             Row="2"
             Column="0"/>
         <start:Tile
-            AppUserModelID="www.youtube.com-756BE99A_pd8mbgmqs65xy!App"
+            AppUserModelID="Microsoft.Office.Word_8wekyb3d8bbwe!Microsoft.Word"
             Size="2x2"
             Row="2"
             Column="2"/>
@@ -156,6 +156,21 @@ The following modified Start layout XML includes PWAs for Zoom, WebEx, and YouTu
             AppUserModelID="Microsoft.MicrosoftPowerBIForWindows_8wekyb3d8bbwe!Microsoft.MicrosoftPowerBIForWindows"
             Size="2x2"
             Row="4"
+            Column="4"/>
+        <start:Tile
+            AppUserModelID="signin.webex.com-8846C236_2aab1d9x9fqba!App"
+            Size="2x2"
+            Row="6"
+            Column="0"/>
+        <start:Tile 
+            AppUserModelID="zoom.us-F576B427_j0dtdqw38r40m!App"
+            Size="2x2" 
+            Row="6"
+            Column="2"/>
+        <start:Tile
+            AppUserModelID="www.youtube.com-756BE99A_pd8mbgmqs65xy!App"
+            Size="2x2"
+            Row="6"
             Column="4"/>
         </start:Group>
       </defaultlayout:StartLayout>
