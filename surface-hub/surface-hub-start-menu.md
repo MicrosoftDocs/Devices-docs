@@ -170,11 +170,11 @@ The following modified Start layout XML includes PWAs for Zoom, WebEx, and YouTu
 2. Go to **Devices** > **Configuration** **Policies** > **Create profile**.
 3. Under Platform, select **Windows 10 and later**. Under Profile type, select **Templates**. Under Template name, select **Custom** and choose **Create**.
 
-   ![Start creating the custom Configuration profile](images/fig1-start-custom-profile.png)
+  :::image type="content" source="images/fig1-start-custom-profile.png" alt-text="Start creating the custom Configuration profile":::
 
 4. Name the profile, enter an optional description, and select **Next**.
 
-  ![Name custom Configuration profile](images/fig2-name-custom-profile.png)
+  :::image type="content" source="images/fig2-name-custom-profile.png" alt-text="Name custom Configuration profile":::
 
 5. On the configuration settings page, select **Add.** Enter a name and optional description.
 6. For OMA-URI, enter the following string:
@@ -185,7 +185,7 @@ The following modified Start layout XML includes PWAs for Zoom, WebEx, and YouTu
 
 > [!TIP]
 > The Configuration profile **must** be assigned to devices and targeted to the device URI. Do not use: ./User/Vendor/MSFT/Policy/Config/Start/StartLayout.
-  
+
   ![Add URI string](images/fig3-add-uri-string.png)
 
 7. For Data type, select **String (XML file) and** open your modified Start layout XML file. Select **Save** and then click **Next**.
