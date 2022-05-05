@@ -200,11 +200,11 @@ The following modified Start layout XML includes PWAs for Zoom, WebEx, and YouTu
 10. On the Applicability Rules page, enter optional criteria if desired. Otherwise, select **Next**.
 11. Review the Configuration profile and select **Create**.
 
-    ![Finish creating Custom configuration profile](images/fig6-create-custom-profile.png)
+    :::image type="content" source="images/fig6-create-custom-profile.png" alt-text="Finish creating Custom configuration profile":::
 
 12. To apply the Configuration profile immediately, select **Devices** > **All devices** and find the Surface Hub you targeted. Open its Overview pane, and select **Sync**.
 
-   ![Sync targeted Surface Hub](images/pwa-sync-tenant.png)
+   :::image type="content" source="images/pwa-sync-tenant.png" alt-text="Sync targeted Surface Hub":::
    
 13. Once applied, you will see the customized Start menu on your Surface Hub.
 
