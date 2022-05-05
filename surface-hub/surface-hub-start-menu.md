@@ -43,14 +43,16 @@ This example removes PowerPoint, Word, and Excel from the Start menu and adds th
 
 | **App** | **AppUserModelID**                          |
 | ------- | ------------------------------------------- |
-| Zoom    | zoom.us-F576B427_j0dtdqw38r40m!App          |
 | WebEx   | signin.webex.com-8846C236_2aab1d9x9fqba!App |
+| Zoom    | zoom.us-F576B427_j0dtdqw38r40m!App          |
 | YouTube | www.youtube.com-756BE99A_pd8mbgmqs65xy!App  |
 
 3. See [Appendix A](#appendix-a-extract-appusermodelids-from-installed-apps) for instructions on obtaining the AppUserModelID for other apps installed on Surface Hub.
 4. Save the modified Start menu XML locally and [follow the instructions below](#to-apply-a-customized-start-menu-to-surface-hub) to deploy it to targeted Surface Hubs.
 
-### Default Surface Hub Start layout XML
+### Default Surface Hub Start menu 
+
+  :::image type="content" source="images/figa-default-surface-hub-start-menu.png" alt-text="Default Surface Hub Start menu":::
 
 ```xml
 <LayoutModificationTemplate Version="1" xmlns="http://schemas.microsoft.com/Start/2014/LayoutModification">
@@ -106,9 +108,9 @@ This example removes PowerPoint, Word, and Excel from the Start menu and adds th
 </LayoutModificationTemplate>
 ```
 
-### Surface Hub Start layout XML modified for Progressive Web Apps
+### Surface Hub Start menu modified for Progressive Web Apps
 
-The following modified Start layout XML adds PWAs for Zoom, WebEx, and YouTube.
+The following modified Start layout XML adds PWAs for WebEx, Zoom, and YouTube.
 
 ```xml
 <LayoutModificationTemplate Version="1" xmlns="http://schemas.microsoft.com/Start/2014/LayoutModification">
@@ -222,6 +224,8 @@ The following modified Start layout XML adds PWAs for Zoom, WebEx, and YouTube.
    :::image type="content" source="images/pwa-sync-tenant.png" alt-text="Sync targeted Surface Hub":::
    
 13. Once applied, you will see the customized Start menu on your Surface Hub.
+
+  :::image type="content" source="images/figb-modified-start-menu.png" alt-text="Modified Surface Hub Start menu with PWAs":::
 
 ## Appendix A: Extract AppUserModelIDs from installed apps
 
