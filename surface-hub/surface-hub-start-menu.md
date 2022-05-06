@@ -92,7 +92,7 @@ The default Start menu is rendered by the following Start XML layout.
 
 ### Modify default Start menu
 
-Customize the Start menu by modifying the XML that renders tiles displaying the various apps. Surface Hub supports a maximum of 12 tiles.
+Customize the Start menu by modifying the **Start:Tile** elements of the XML. Surface Hub supports a maximum of 12 tiles. Do not adjust the default width: **GroupCellWidth="8"**.
 
 This example adds the following [Progressive Web Apps](install-pwa-surface-hub.md) to the default XML layout. See [Appendix A](#appendix-a-surface-hub-start-menu-modified-for-progressive-web-apps) for the modified Start layout XML file containing these PWAs.
 
