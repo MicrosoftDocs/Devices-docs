@@ -149,11 +149,11 @@ See [Appendix A](#appendix-a-surface-hub-start-menu-modified-for-progressive-web
 
 12. To apply the Configuration profile immediately, select **Devices** > **All devices** and find the Surface Hub you targeted. Open its Overview pane, and select **Sync**.
 
-   :::image type="content" source="images/pwa-sync-tenant.png" alt-text="Sync targeted Surface Hub":::
+    :::image type="content" source="images/pwa-sync-tenant.png" alt-text="Sync targeted Surface Hub":::
    
 13. Once applied, you will see the customized Start menu on your Surface Hub.
 
-  :::image type="content" source="images/figb-modified-start-menu.png" alt-text="Modified Surface Hub Start menu with PWAs":::
+    :::image type="content" source="images/figb-modified-start-menu.png" alt-text="Modified Surface Hub Start menu with PWAs":::
 
 ## Appendix A: Surface Hub Start menu modified for Progressive Web Apps
 
