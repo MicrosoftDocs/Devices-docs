@@ -18,7 +18,7 @@ Surface Hub ships with a default Start menu that admins can modify with specific
 
 ## Overview
 
-The Surface Hub Start menu is rendered from a [Start layout XML file](#default-surface-hub-start-layout-xml) that includes App ID values (AppUserModelID) for default applications such as Microsoft PowerPoint, Word, and Excel. You can add new tiles or replace the default values with the AppUserModelID associated with the apps you wish to display. [As described below](#deploy-customized-start-menu-to-surface-hub), use a mobile device management (MDM) provider such as Microsoft Intune to deploy a Start layout device policy containing the modified Start layout XML.
+The Surface Hub Start menu is rendered from a [Start layout XML file](#default-surface-hub-start-menu) that includes App ID values (AppUserModelID) for default applications such as Microsoft PowerPoint, Word, and Excel. You can add new tiles or replace the default values with the AppUserModelID associated with the apps you wish to display. [As described below](#deploy-customized-start-menu-to-surface-hub), use a mobile device management (MDM) provider such as Microsoft Intune to deploy a Start layout device policy containing the modified Start layout XML.
 
 ### Differences between Surface Hub and desktop Start menu
 
@@ -27,29 +27,14 @@ There are a few key differences between Start menu customization for Surface Hub
 - You cannot use the Start layout XML to configure the taskbar or the Welcome screen for Surface Hub.
 - The Start layout policy should be assigned only to devices, not users.
 - The OMA-URI setting to use in the policy is `./Device/Vendor/MSFT/Policy/Config/Start/StartLayout`
-- Surface Hub supports a maximum of 6 columns (6 1x1 tiles). However, you **must** define GroupCellWidth=8 even though Surface Hub will only display tiles in columns 0-5, not columns 6 and 7.
-- Surface Hub supports a maximum of 6 rows (6 1x1 tiles)
 - `SecondaryTile`, used for links, will open the link in Microsoft Edge.
 -  **[DesktopApplicationTile](/windows/configuration/start-layout-xml-desktop#startdesktopapplicationtile)** is only supported for Edge and Microsoft Teams. All other Win32 apps are blocked by Code Integrity policy
 
-## Modify the default Surface Hub Start menu
+## Default Surface Hub Start menu
 
   :::image type="content" source="images/figa-default-surface-hub-start-menu.png" alt-text="Default Surface Hub Start menu":::
 
-This example adds the following Progressive Web Apps. 
-
-| **App** | **AppUserModelID**                          |
-| ------- | ------------------------------------------- |
-| WebEx   | signin.webex.com-8846C236_2aab1d9x9fqba!App |
-| Zoom    | zoom.us-F576B427_j0dtdqw38r40m!App          |
-| YouTube | www.youtube.com-756BE99A_pd8mbgmqs65xy!App  |
-
-> [!TIP]
-> See [Appendix A](#appendix-a-extract-appusermodelids-from-installed-apps) for instructions on obtaining the AppUserModelID for other apps installed on Surface Hub.
-
-1. On a separate PC, copy the the following into a text editor:
-
-### Default Surface Hub Start layout XML
+The default Start menu is rendered by the following Start XML layout. 
 
 ```xml
 <LayoutModificationTemplate Version="1" xmlns="http://schemas.microsoft.com/Start/2014/LayoutModification">
@@ -105,31 +90,28 @@ This example adds the following Progressive Web Apps.
 </LayoutModificationTemplate>
 ```
 
-2. Add the following XML. The modified file should match the sample shown in [Appendix B](#appendix-b-surface-hub-start-menu-modified-for-progressive-web-apps).
+### Modify default Start menu
 
-```xml
-        <start:Tile
-            AppUserModelID="signin.webex.com-8846C236_2aab1d9x9fqba!App"
-            Size="2x2"
-            Row="6"
-            Column="0"/>
-        <start:Tile 
-            AppUserModelID="zoom.us-F576B427_j0dtdqw38r40m!App"
-            Size="2x2" 
-            Row="6"
-            Column="2"/>
-        <start:Tile
-            AppUserModelID="www.youtube.com-756BE99A_pd8mbgmqs65xy!App"
-            Size="2x2"
-            Row="6"
-            Column="4"/>
-```
+Customize the Start menu by modifying the XML that renders tiles displaying the various apps. Surface Hub supports a maximum of 12 tiles. Do not change **GroupCellWidth=8**, which is required even though Surface Hub display tiles in columns 0-5, not columns 6 and 7.
 
-3. Save the [modified Start menu XML](#appendix-b-surface-hub-start-menu-modified-for-progressive-web-apps) locally and [follow the steps below](#deploy-customized-start-menu-to-surface-hub) to deploy it to targeted Surface Hubs.
+This example adds the following Progressive Web Apps to the default XML layout.
+
+| **App** | **AppUserModelID**                          |
+| ------- | ------------------------------------------- |
+| WebEx   | signin.webex.com-8846C236_2aab1d9x9fqba!App |
+| Zoom    | zoom.us-F576B427_j0dtdqw38r40m!App          |
+| YouTube | www.youtube.com-756BE99A_pd8mbgmqs65xy!App  |
+
+See [Appendix A](#appendix-a-surface-hub-start-menu-modified-for-progressive-web-apps) for the modified Start layout XML.
+
+> [!TIP]
+> See [Appendix B](#appendix-b-extract-appusermodelids-from-installed-apps) for instructions on obtaining the AppUserModelID for other apps installed on Surface Hub.
+
 
 ## Deploy customized Start menu to Surface Hub
 
-1. Sign in to the Intune portal at [**Microsoft Endpoint Manager admin center**](https://endpoint.microsoft.com/).
+1. Save your [modified Start menu XML](#appendix-b-surface-hub-start-menu-modified-for-progressive-web-apps) to a separate PC.
+2. Sign in to the Intune portal at [**Microsoft Endpoint Manager admin center**](https://endpoint.microsoft.com/).
 2. Go to **Devices** > **Configuration** **Policies** > **Create profile**.
 3. Under Platform, select **Windows 10 and later**. Under Profile type, select **Templates**. Under Template name, select **Custom** and choose **Create**.
 
@@ -173,19 +155,7 @@ This example adds the following Progressive Web Apps.
 
   :::image type="content" source="images/figb-modified-start-menu.png" alt-text="Modified Surface Hub Start menu with PWAs":::
 
-## Appendix A: Extract AppUserModelIDs from installed apps
-
-To obtain the AppUserModelID of apps installed on Surface Hub:
-
-1. Sign in to Surface Hub as an admin, open **Settings**, and select **Update & Security**.
-2. Select Logs. Insert a USB drive, then select **Collect logs.**
-3. On a separate PC, open the USB drive and unzip the Log folder.
-4. In the Registry folder, open **HKLM_SOFTWARE_Microsoft.txt**.
-5. Search for the **ApplicationUserModelId** associated with the app you want to include in the Start menu.
-
-  ![Locate the app ID in the Hub registry](images/fig8-locate-appid-in-hub-registry.png)
-
-## Appendix B: Surface Hub Start menu modified for Progressive Web Apps
+## Appendix A: Surface Hub Start menu modified for Progressive Web Apps
 
 The following modified Start layout XML includes PWAs for WebEx, Zoom, and YouTube.
 
@@ -258,81 +228,15 @@ The following modified Start layout XML includes PWAs for WebEx, Zoom, and YouTu
 </LayoutModificationTemplate>
 ```
 
-## Appendix C: Start layout with Microsoft Edge link
+## Appendix B: Extract AppUserModelIDs from installed apps
 
+To obtain the AppUserModelID of apps installed on Surface Hub:
 
-This example shows a link to a website and a .pdf file. The secondary tile for Microsoft Edge uses a 150 x 150-pixel icon.
+1. Sign in to Surface Hub as an admin, open **Settings**, and select **Update & Security**.
+2. Select Logs. Insert a USB drive, then select **Collect logs.**
+3. On a separate PC, open the USB drive and unzip the Log folder.
+4. In the Registry folder, open **HKLM_SOFTWARE_Microsoft.txt**.
+5. Search for the **ApplicationUserModelId** associated with the app you want to include in the Start menu.
 
-```xml
-<LayoutModificationTemplate Version="1" xmlns="http://schemas.microsoft.com/Start/2014/LayoutModification">
-  <LayoutOptions StartTileGroupCellWidth="8" />
-  <DefaultLayoutOverride>
-    <StartLayoutCollection>
-      <defaultlayout:StartLayout GroupCellWidth="8" xmlns:defaultlayout="http://schemas.microsoft.com/Start/2014/FullDefaultLayout">
-        <start:Group Name="" xmlns:start="http://schemas.microsoft.com/Start/2014/StartLayout">
-    <start:Tile
-              AppUserModelID="Microsoft.Office.PowerPoint_8wekyb3d8bbwe!Microsoft.pptim"
-              Size="2x2"
-              Row="0"
-              Column="0"/>
-          <start:Tile
-              AppUserModelID="Microsoft.Office.Word_8wekyb3d8bbwe!Microsoft.Word"
-              Size="2x2"
-              Row="0"
-              Column="2"/>
-          <start:Tile
-              AppUserModelID="Microsoft.Office.Excel_8wekyb3d8bbwe!Microsoft.Excel"
-              Size="2x2"
-              Row="0"
-              Column="4"/>
-          <start:DesktopApplicationTile
-              DesktopApplicationID="MSEdge"
-              Size="2x2"
-              Row="2"
-              Column="0"/>
-    <start:Tile
-              AppUserModelID="microsoft.microsoftskydrive_8wekyb3d8bbwe!App"
-              Size="2x2" 
-             Row="2"
-             Column="2"/>   
-  <start:SecondaryTile
-            AppUserModelID="Microsoft.MicrosoftEdge_8wekyb3d8bbwe!MicrosoftEdge"
-           TileID="2678823080"
-           DisplayName="Bing"
-           Arguments="https://www.bing.com/"
-           Square150x150LogoUri="ms-appx:///"
-           Wide310x150LogoUri="ms-appx:///"
-           ShowNameOnSquare150x150Logo="true"
-           ShowNameOnWide310x150Logo="false"
-           BackgroundColor="#ffe9e7e7"
-           ForegroundText="dark"
-           Size="2x2"
-           Column="4"
-           Row="2"  />
-    <start:Tile
-              AppUserModelID="Microsoft.Windows.Photos_8wekyb3d8bbwe!App"
-              Size="2x2"
-              Row="4"
-              Column="0"/>
-    <start:SecondaryTile
-             AppUserModelID="Microsoft.MicrosoftEdge_8wekyb3d8bbwe!MicrosoftEdge"
-             TileID="6153963000"
-             DisplayName="cstrtqbiology.pdf"
-             Arguments="-contentTile -formatVersion 0x00000003 -pinnedTimeLow 0x45b7376e -pinnedTimeHigh 0x01d2356c -securityFlags 0x00000000 -tileType 0x00000000 -url 0x0000003a https://www.ada.gov/regs2010/2010ADAStandards/Guidance_2010ADAStandards.pdf"
-             Square150x150LogoUri="ms-appx:///Assets/MicrosoftEdgeSquare150x150.png"
-             Wide310x150LogoUri="ms-appx:///" 
-             ShowNameOnSquare150x150Logo="true"
-             ShowNameOnWide310x150Logo="false"
-             BackgroundColor="#ff4e4248"
-             Size="4x2" 
-             Row="4"
-             Column="2"/>
-        </start:Group>
-      </defaultlayout:StartLayout>
-    </StartLayoutCollection>
-  </DefaultLayoutOverride>
-</LayoutModificationTemplate>
-```
+  ![Locate the app ID in the Hub registry](images/fig8-locate-appid-in-hub-registry.png)
 
->[!NOTE]
->The default value for `ForegroundText` is light; you don't need to include `ForegroundText` in your XML unless you're changing the value to dark.
