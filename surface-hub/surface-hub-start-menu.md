@@ -110,7 +110,7 @@ See [Appendix A](#appendix-a-surface-hub-start-menu-modified-for-progressive-web
 
 ## Deploy customized Start menu to Surface Hub
 
-1. Save your [modified Start menu XML](#appendix-b-surface-hub-start-menu-modified-for-progressive-web-apps) to a separate PC.
+1. Save your [modified Start menu XML](#appendix-a-surface-hub-start-menu-modified-for-progressive-web-apps) to a separate PC.
 2. Sign in to the Intune portal at [**Microsoft Endpoint Manager admin center**](https://endpoint.microsoft.com/).
 2. Go to **Devices** > **Configuration** **Policies** > **Create profile**.
 3. Under Platform, select **Windows 10 and later**. Under Profile type, select **Templates**. Under Template name, select **Custom** and choose **Create**.
