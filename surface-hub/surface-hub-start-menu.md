@@ -18,7 +18,7 @@ Surface Hub ships with a default Start menu that admins can modify with specific
 
 ## Overview
 
-The [Surface Hub Start menu](#default-surface-hub-start-menu) is rendered from a Start layout XML file that includes App ID values (AppUserModelID) for default applications such as Microsoft PowerPoint, Word, and Excel. You can add new tiles or replace the default values with the AppUserModelID associated with the apps you wish to display. [As described below](#deploy-customized-start-menu-to-surface-hub), use a mobile device management (MDM) provider such as Microsoft Intune to deploy a Start layout device policy containing your modified Start layout XML. To learn more, refer to [Manage Surface Hub with an MDM provider](manage-settings-with-mdm-for-surface-hub.md).
+The [Surface Hub Start menu](#default-surface-hub-start-menu) is rendered from a Start layout XML file that includes App ID values (AppUserModelID) for default applications such as Microsoft PowerPoint, Word, and Excel. You can add new tiles or replace the default values with the AppUserModelID associated with the apps you wish to display. [As described below](#deploy-modified-start-menu-to-surface-hub), use a mobile device management (MDM) provider such as Microsoft Intune to deploy a Start layout device policy containing your modified Start layout XML. To learn more, refer to [Manage Surface Hub with an MDM provider](manage-settings-with-mdm-for-surface-hub.md).
 
 ### Differences between Surface Hub and desktop Start menu
 
