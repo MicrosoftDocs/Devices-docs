@@ -28,13 +28,13 @@ There are a few key differences between Start menu customization for Surface Hub
 - The Start layout policy should be assigned only to devices, not users.
 - The OMA-URI setting to use in the policy is `./Device/Vendor/MSFT/Policy/Config/Start/StartLayout`
 - `SecondaryTile`, used for links, will open the link in Microsoft Edge.
--  **[DesktopApplicationTile](/windows/configuration/start-layout-xml-desktop#startdesktopapplicationtile)** is only supported for Edge and Microsoft Teams. All other Win32 apps are blocked by Code Integrity policy
+- **[DesktopApplicationTile](/windows/configuration/start-layout-xml-desktop#startdesktopapplicationtile)** is only supported for Edge and Microsoft Teams. All other Win32 apps are blocked by Code Integrity policy
 
 ## Default Surface Hub Start menu
 
   :::image type="content" source="images/figa-default-surface-hub-start-menu.png" alt-text="Default Surface Hub Start menu":::
 
-The default Start menu is rendered by the following Start XML layout. 
+The default Start menu is rendered by the following Start XML layout.
 
 ```xml
 <LayoutModificationTemplate Version="1" xmlns="http://schemas.microsoft.com/Start/2014/LayoutModification">
@@ -92,7 +92,7 @@ The default Start menu is rendered by the following Start XML layout.
 
 ### Modify default Start menu
 
-Customize the Start menu by modifying the XML that renders tiles displaying the various apps. Surface Hub supports a maximum of 12 tiles. 
+Customize the Start menu by modifying the XML that renders tiles displaying the various apps. Surface Hub supports a maximum of 12 tiles.
 
 This example adds the following [Progressive Web Apps](install-pwa-surface-hub.md) to the default XML layout. See [Appendix A](#appendix-a-surface-hub-start-menu-modified-for-progressive-web-apps) for the modified Start layout XML.
 
@@ -102,55 +102,54 @@ This example adds the following [Progressive Web Apps](install-pwa-surface-hub.m
 | Zoom    | zoom.us-F576B427_j0dtdqw38r40m!App          |
 | YouTube | www.youtube.com-756BE99A_pd8mbgmqs65xy!App  |
 
-
 > [!TIP]
 > See [Appendix B](#appendix-b-extract-appusermodelids-from-installed-apps) for instructions on obtaining the AppUserModelID for other apps installed on Surface Hub.
-
 
 ## Deploy customized Start menu to Surface Hub
 
 1. Save your [modified Start menu XML](#appendix-a-surface-hub-start-menu-modified-for-progressive-web-apps) to a separate PC.
 2. Sign in to the Intune portal at [**Microsoft Endpoint Manager admin center**](https://endpoint.microsoft.com/).
-2. Go to **Devices** > **Configuration** **Policies** > **Create profile**.
-3. Under Platform, select **Windows 10 and later**. Under Profile type, select **Templates**. Under Template name, select **Custom** and choose **Create**.
+3. Go to **Devices** > **Configuration** **Policies** > **Create profile**.
+4. Under Platform, select **Windows 10 and later**. Under Profile type, select **Templates**. Under Template name, select **Custom** and choose **Create**.
 
     :::image type="content" source="images/fig1-start-custom-profile.png" alt-text="Start creating the custom Configuration profile":::
 
-4. Name the profile, enter an optional description, and select **Next**.
+5. Name the profile, enter an optional description, and select **Next**.
 
     :::image type="content" source="images/fig2-name-custom-profile.png" alt-text="Name custom Configuration profile":::
 
-5. On the configuration settings page, select **Add.** Enter a name and optional description.
-6. For OMA-URI, enter the following string:
+6. On the configuration settings page, select **Add.** Enter a name and optional description.
+7. For OMA-URI, enter the following string:
 
 ```xml
 ./Device/Vendor/MSFT/Policy/Config/Start/StartLayout
 ```
 
-> [!TIP]
-> The Configuration profile **must** be assigned to devices and targeted to the device URI. Do not use: ./User/Vendor/MSFT/Policy/Config/Start/StartLayout.
-
   :::image type="content" source="images/fig3-add-uri-string.png" alt-text="Add OMA-URI string":::
 
-7. For Data type, select **String (XML file) and** open your modified Start layout XML file. Select **Save** and then click **Next**.
+8. For Data type, select **String (XML file) and** open your modified Start layout XML file. Select **Save** and then click **Next**.
 
     :::image type="content" source="images/fig4-upload-modified-xml.png" alt-text="Upload modified Start layout XML file":::
+
+### Assign Start layout policy
+
+The Configuration profile **must** be assigned to devices and targeted to the device URI. Do not use: ./User/Vendor/MSFT/Policy/Config/Start/StartLayout.  
   
-8. On the Assignments page, under **Included groups**, select **Add groups**.
-9. Under **Select groups to include**, enter the name of a group containing the Surface Hubs you wish to target, choose **Select**, and then click **Next**. To learn more about assigning a Configuration profile to a group, see [Add groups to organize users and devices](/mem/intune/fundamentals/groups-add).
+1. On the Assignments page, under **Included groups**, select **Add groups**.
+2. Under **Select groups to include**, enter the name of a group containing the Surface Hubs you wish to target, choose **Select**, and then click **Next**. To learn more about assigning a Configuration profile to a group, see [Add groups to organize users and devices](/mem/intune/fundamentals/groups-add).
 
     :::image type="content" source="images/fig5-selectgroup.png" alt-text="Select group containing targeted Surface Hubs]":::
 
-10. On the Applicability Rules page, enter optional criteria if desired. Otherwise, select **Next**.
-11. Review the Configuration profile and select **Create**.
+3. On the Applicability Rules page, enter optional criteria if desired. Otherwise, select **Next**.
+4. Review the Configuration profile and select **Create**.
 
     :::image type="content" source="images/fig6-create-custom-profile.png" alt-text="Finish creating Custom configuration profile":::
 
-12. To apply the Configuration profile immediately, select **Devices** > **All devices** and find the Surface Hub you targeted. Open its Overview pane, and select **Sync**.
+5. To apply the Configuration profile immediately, select **Devices** > **All devices** and find the Surface Hub you targeted. Open its Overview pane, and select **Sync**.
 
     :::image type="content" source="images/pwa-sync-tenant.png" alt-text="Sync targeted Surface Hub":::
-   
-13. Once applied, you will see the customized Start menu on your Surface Hub.
+
+6. Once applied, you will see the customized Start menu on your Surface Hub.
 
     :::image type="content" source="images/figb-modified-start-menu.png" alt-text="Modified Surface Hub Start menu with PWAs":::
 
@@ -238,4 +237,3 @@ To obtain the AppUserModelID of apps installed on Surface Hub:
 5. Search for the **ApplicationUserModelId** associated with the app you want to include in the Start menu.
 
   ![Locate the app ID in the Hub registry](images/fig8-locate-appid-in-hub-registry.png)
-
