@@ -27,7 +27,6 @@ There are a few key differences between Start menu customization for Surface Hub
 - You cannot use the Start layout XML to configure the taskbar or the Welcome screen for Surface Hub.
 - The Start layout policy should be assigned only to devices, not users.
 - The OMA-URI setting to use in the policy is `./Device/Vendor/MSFT/Policy/Config/Start/StartLayout`
-- `SecondaryTile`, used for links, will open the link in Microsoft Edge.
 - **[DesktopApplicationTile](/windows/configuration/start-layout-xml-desktop#startdesktopapplicationtile)** is only supported for Edge and Microsoft Teams. All other Win32 apps are blocked by Code Integrity policy
 
 ## Default Surface Hub Start menu
@@ -117,7 +116,6 @@ This example adds the following [Progressive Web Apps](install-pwa-surface-hub.m
 5. On the configuration settings page, select **Add.** Enter a name and optional description. Select **Next**.
 
     :::image type="content" source="images/fig2-name-custom-profile.png" alt-text="Name custom Configuration profile":::
-
 
 6. For OMA-URI, enter the following string:
 
