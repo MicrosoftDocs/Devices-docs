@@ -30,7 +30,7 @@ Users can also install PWAs for use during their Hub session. When the session e
 
 ## Install PWAs via Intune
 
-Use Intune or another MDM provider to install PWAs on Surface Hubs. To learn more, refer to [Manage settings with an MDM provider](manage-settings-with-mdm-for-surface-hub.md).
+Use Intune or another MDM provider to install PWAs on Surface Hubs. To learn more, refer to [Manage Surface Hub with an MDM provider](manage-settings-with-mdm-for-surface-hub.md).
 
 ### Get started
 
@@ -95,6 +95,10 @@ Use Intune or another MDM provider to install PWAs on Surface Hubs. To learn mor
 
  > [!IMPORTANT]
  > To complete installation of PWAs, go to your Surface Hub and launch Edge. PWAs are installed and appear in the Start menu All apps list.
+
+ ### Add PWAs to Start menu
+
+ You can modify the default Start menu so users have quick access to PWAs at the start of each Surface Hub session. To learn more, see [Configure Surface Hub Start menu](surface-hub-start-menu.md) 
 
  ### Troubleshooting Intune-managed PWAs
  
@@ -183,7 +187,8 @@ If you don't see PWAs listed under **All apps**:
 
 - Make sure your Surface Hub has the latest updates, specifically [KB5011543](https://support.microsoft.com/help/5011543) (or a subsequent Windows update). To learn more about the latest Windows 10 Team updates, refer to [Surface Hub update history](surface-hub-update-history.md).
 
-## Learn more
+## Related links
 
+- [Configure Surface Hub Start menu](surface-hub-start-menu.md) 
 - [WCD reference: ADMXIngestion](/windows/configuration/wcd/wcd-admxingestion)
 - [Overview of Progressive Web Apps (PWAs)](/microsoft-edge/progressive-web-apps-chromium/)

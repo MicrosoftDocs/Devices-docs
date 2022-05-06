@@ -18,7 +18,7 @@ Surface Hub ships with a default Start menu that admins can modify with specific
 
 ## Overview
 
-The [Surface Hub Start menu](#default-surface-hub-start-menu) is rendered from a Start layout XML file that includes App ID values (AppUserModelID) for default applications such as Microsoft PowerPoint, Word, and Excel. You can add new tiles or replace the default values with the AppUserModelID associated with the apps you wish to display. [As described below](#deploy-customized-start-menu-to-surface-hub), use a mobile device management (MDM) provider such as Microsoft Intune to deploy a Start layout device policy containing your modified Start layout XML.
+The [Surface Hub Start menu](#default-surface-hub-start-menu) is rendered from a Start layout XML file that includes App ID values (AppUserModelID) for default applications such as Microsoft PowerPoint, Word, and Excel. You can add new tiles or replace the default values with the AppUserModelID associated with the apps you wish to display. [As described below](#deploy-customized-start-menu-to-surface-hub), use a mobile device management (MDM) provider such as Microsoft Intune to deploy a Start layout device policy containing your modified Start layout XML. To learn more, refer to [Manage Surface Hub with an MDM provider](manage-settings-with-mdm-for-surface-hub.md).
 
 ### Differences between Surface Hub and desktop Start menu
 
@@ -129,7 +129,7 @@ This example adds the following [Progressive Web Apps](install-pwa-surface-hub.m
 
 ### Assign Start layout policy
 
-The Configuration profile **must** be assigned to devices and targeted to the device URI. Do not use: ./User/Vendor/MSFT/Policy/Config/Start/StartLayout.  
+The Configuration profile **must** be assigned to devices and targeted to the device URI. Do not use: `./User/Vendor/MSFT/Policy/Config/Start/StartLayout`.  
   
 1. On the Assignments page, under **Included groups**, select **Add groups**.
 2. Under **Select groups to include**, enter the name of a group containing the Surface Hubs you wish to target, choose **Select**, and then click **Next**. To learn more about assigning a Configuration profile to a group, see [Add groups to organize users and devices](/mem/intune/fundamentals/groups-add).
@@ -233,3 +233,7 @@ To obtain the AppUserModelID of apps installed on Surface Hub:
 5. Search for the **ApplicationUserModelId** associated with the app you want to include in the Start menu.
 
   ![Locate the app ID in the Hub registry](images/fig8-locate-appid-in-hub-registry.png)
+
+## Related links
+
+- [Install Progressive Web Apps on Surface Hub](install-pwa-surface-hub.md)
