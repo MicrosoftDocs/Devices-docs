@@ -18,7 +18,7 @@ Surface Hub ships with a default Start menu that admins can modify with specific
 
 ## Overview
 
-The Surface Hub Start menu is rendered from a [Start layout XML file](#default-surface-hub-start-layout-xml) that includes App ID values (AppUserModelID) for default applications such as Microsoft PowerPoint, Word, and Excel. You can add new tiles or replace the default values with the AppUserModelID associated with the apps you wish to display. [As described below](#to-apply-a-customized-start-menu-to-surface-hub), use a mobile device management (MDM) provider such as Microsoft Intune to deploy a Start layout device policy containing the modified Start layout XML.
+The Surface Hub Start menu is rendered from a [Start layout XML file](#default-surface-hub-start-layout-xml) that includes App ID values (AppUserModelID) for default applications such as Microsoft PowerPoint, Word, and Excel. You can add new tiles or replace the default values with the AppUserModelID associated with the apps you wish to display. [As described below](#deploy-customized-start-menu-to-surface-hub), use a mobile device management (MDM) provider such as Microsoft Intune to deploy a Start layout device policy containing the modified Start layout XML.
 
 ### Differences between Surface Hub and desktop Start menu
 
@@ -125,9 +125,9 @@ This example adds the following Progressive Web Apps.
             Column="4"/>
 ```
 
-3. Save the modified Start menu XML locally and [follow the instructions below](#to-apply-a-customized-start-menu-to-surface-hub) to deploy it to targeted Surface Hubs.
+3. Save the modified Start menu XML locally and [follow the steps below](#deploy-customized-start-menu-to-surface-hub) to deploy it to targeted Surface Hubs.
 
-## Apply customized Start menu to Surface Hub
+## Deploy customized Start menu to Surface Hub
 
 1. Sign in to the Intune portal at [**Microsoft Endpoint Manager admin center**](https://endpoint.microsoft.com/).
 2. Go to **Devices** > **Configuration** **Policies** > **Create profile**.
