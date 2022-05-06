@@ -119,15 +119,13 @@ This example adds the following [Progressive Web Apps](install-pwa-surface-hub.m
     :::image type="content" source="images/fig2-name-custom-profile.png" alt-text="Name custom Configuration profile":::
 
 
-7. For OMA-URI, enter the following string:
+6. For OMA-URI, enter the following string:
 
 ```xml
 ./Device/Vendor/MSFT/Policy/Config/Start/StartLayout
 ```
 
-  :::image type="content" source="images/fig3-add-uri-string.png" alt-text="Add OMA-URI string":::
-
-8. For Data type, select **String (XML file) and** open your modified Start layout XML file. Select **Save** and then click **Next**.
+7. For Data type, select **String (XML file) and** open your modified Start layout XML file. Select **Save** and then click **Next**.
 
     :::image type="content" source="images/fig4-upload-modified-xml.png" alt-text="Upload modified Start layout XML file":::
 
