@@ -125,7 +125,7 @@ This example adds the following Progressive Web Apps.
             Column="4"/>
 ```
 
-3. Save the modified Start menu XML locally and [follow the steps below](#deploy-customized-start-menu-to-surface-hub) to deploy it to targeted Surface Hubs.
+3. Save the [modified Start menu XML](#appendix-b-surface-hub-start-menu-modified-for-progressive-web-apps) locally and [follow the steps below](#deploy-customized-start-menu-to-surface-hub) to deploy it to targeted Surface Hubs.
 
 ## Deploy customized Start menu to Surface Hub
 
