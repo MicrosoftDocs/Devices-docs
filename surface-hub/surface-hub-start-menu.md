@@ -34,10 +34,7 @@ There are a few key differences between Start menu customization for Surface Hub
 
 ## Modify the default Surface Hub Start menu
 
-1. On a separate PC, copy the [default Surface Hub Start layout XML](#default-surface-hub-start-menu) into a text editor.
-2. Search for **AppUserModelID** values of the apps you wish to remove. Replace with the AppUserModelIDs for the apps you want to include.
-
-### Example
+  :::image type="content" source="images/figa-default-surface-hub-start-menu.png" alt-text="Default Surface Hub Start menu":::
 
 This [example](#surface-hub-start-menu-modified-for-progressive-web-apps) adds the following Progressive Web Apps:
 
@@ -47,12 +44,10 @@ This [example](#surface-hub-start-menu-modified-for-progressive-web-apps) adds t
 | Zoom    | zoom.us-F576B427_j0dtdqw38r40m!App          |
 | YouTube | www.youtube.com-756BE99A_pd8mbgmqs65xy!App  |
 
-3. See [Appendix A](#appendix-a-extract-appusermodelids-from-installed-apps) for instructions on obtaining the AppUserModelID for other apps installed on Surface Hub.
-4. Save the modified Start menu XML locally and [follow the instructions below](#to-apply-a-customized-start-menu-to-surface-hub) to deploy it to targeted Surface Hubs.
+> [!TIP]
+> See [Appendix A](#appendix-a-extract-appusermodelids-from-installed-apps) for instructions on obtaining the AppUserModelID for other apps installed on Surface Hub.
 
-### Default Surface Hub Start menu 
-
-  :::image type="content" source="images/figa-default-surface-hub-start-menu.png" alt-text="Default Surface Hub Start menu":::
+1. On a separate PC, copy the default Surface Hub Start layout XML into a text editor:
 
 ```xml
 <LayoutModificationTemplate Version="1" xmlns="http://schemas.microsoft.com/Start/2014/LayoutModification">
@@ -108,9 +103,91 @@ This [example](#surface-hub-start-menu-modified-for-progressive-web-apps) adds t
 </LayoutModificationTemplate>
 ```
 
-### Surface Hub Start menu modified for Progressive Web Apps
+2. Add the following XML. The modified file should match the sample shown in Appendix B.
 
-The following modified Start layout XML adds PWAs for WebEx, Zoom, and YouTube.
+```xml
+        <start:Tile
+            AppUserModelID="signin.webex.com-8846C236_2aab1d9x9fqba!App"
+            Size="2x2"
+            Row="6"
+            Column="0"/>
+        <start:Tile 
+            AppUserModelID="zoom.us-F576B427_j0dtdqw38r40m!App"
+            Size="2x2" 
+            Row="6"
+            Column="2"/>
+        <start:Tile
+            AppUserModelID="www.youtube.com-756BE99A_pd8mbgmqs65xy!App"
+            Size="2x2"
+            Row="6"
+            Column="4"/>
+```
+
+3. Save the modified Start menu XML locally and [follow the instructions below](#to-apply-a-customized-start-menu-to-surface-hub) to deploy it to targeted Surface Hubs.
+
+
+
+## To apply a customized Start menu to Surface Hub
+
+1. Sign in to the Intune portal at [**Microsoft Endpoint Manager admin center**](https://endpoint.microsoft.com/).
+2. Go to **Devices** > **Configuration** **Policies** > **Create profile**.
+3. Under Platform, select **Windows 10 and later**. Under Profile type, select **Templates**. Under Template name, select **Custom** and choose **Create**.
+
+    :::image type="content" source="images/fig1-start-custom-profile.png" alt-text="Start creating the custom Configuration profile":::
+
+4. Name the profile, enter an optional description, and select **Next**.
+
+    :::image type="content" source="images/fig2-name-custom-profile.png" alt-text="Name custom Configuration profile":::
+
+5. On the configuration settings page, select **Add.** Enter a name and optional description.
+6. For OMA-URI, enter the following string:
+
+```xml
+./Device/Vendor/MSFT/Policy/Config/Start/StartLayout
+```
+
+> [!TIP]
+> The Configuration profile **must** be assigned to devices and targeted to the device URI. Do not use: ./User/Vendor/MSFT/Policy/Config/Start/StartLayout.
+
+  :::image type="content" source="images/fig3-add-uri-string.png" alt-text="Add OMA-URI string":::
+
+7. For Data type, select **String (XML file) and** open your modified Start layout XML file. Select **Save** and then click **Next**.
+
+    :::image type="content" source="images/fig4-upload-modified-xml.png" alt-text="Upload modified Start layout XML file":::
+  
+8. On the Assignments page, under **Included groups**, select **Add groups**.
+9. Under **Select groups to include**, enter the name of a group containing the Surface Hubs you wish to target, choose **Select**, and then click **Next**. To learn more about assigning a Configuration profile to a group, see [Add groups to organize users and devices](/mem/intune/fundamentals/groups-add).
+
+    :::image type="content" source="images/fig5-selectgroup.png" alt-text="Select group containing targeted Surface Hubs]":::
+
+10. On the Applicability Rules page, enter optional criteria if desired. Otherwise, select **Next**.
+11. Review the Configuration profile and select **Create**.
+
+    :::image type="content" source="images/fig6-create-custom-profile.png" alt-text="Finish creating Custom configuration profile":::
+
+12. To apply the Configuration profile immediately, select **Devices** > **All devices** and find the Surface Hub you targeted. Open its Overview pane, and select **Sync**.
+
+   :::image type="content" source="images/pwa-sync-tenant.png" alt-text="Sync targeted Surface Hub":::
+   
+13. Once applied, you will see the customized Start menu on your Surface Hub.
+
+  :::image type="content" source="images/figb-modified-start-menu.png" alt-text="Modified Surface Hub Start menu with PWAs":::
+
+## Appendix A: Extract AppUserModelIDs from installed apps
+
+To obtain the AppUserModelID of apps installed on Surface Hub:
+
+1. Sign in to Surface Hub as an admin, open **Settings**, and select **Update & Security**.
+2. Select Logs. Insert a USB drive, then select **Collect logs.**
+3. On a separate PC, open the USB drive and unzip the Log folder.
+4. In the Registry folder, open **HKLM_SOFTWARE_Microsoft.txt**.
+5. Search for the **ApplicationUserModelId** associated with the app you want to include in the Start menu.
+
+  ![Locate the app ID in the Hub registry](images/fig8-locate-appid-in-hub-registry.png)
+
+## Appendix B: Surface Hub Start menu modified for Progressive Web Apps
+
+The following modified Start layout XML includes PWAs for WebEx, Zoom, and YouTube.
 
 ```xml
 <LayoutModificationTemplate Version="1" xmlns="http://schemas.microsoft.com/Start/2014/LayoutModification">
@@ -181,65 +258,7 @@ The following modified Start layout XML adds PWAs for WebEx, Zoom, and YouTube.
 </LayoutModificationTemplate>
 ```
 
-## To apply a customized Start menu to Surface Hub
-
-1. Sign in to the Intune portal at [**Microsoft Endpoint Manager admin center**](https://endpoint.microsoft.com/).
-2. Go to **Devices** > **Configuration** **Policies** > **Create profile**.
-3. Under Platform, select **Windows 10 and later**. Under Profile type, select **Templates**. Under Template name, select **Custom** and choose **Create**.
-
-    :::image type="content" source="images/fig1-start-custom-profile.png" alt-text="Start creating the custom Configuration profile":::
-
-4. Name the profile, enter an optional description, and select **Next**.
-
-    :::image type="content" source="images/fig2-name-custom-profile.png" alt-text="Name custom Configuration profile":::
-
-5. On the configuration settings page, select **Add.** Enter a name and optional description.
-6. For OMA-URI, enter the following string:
-
-```xml
-./Device/Vendor/MSFT/Policy/Config/Start/StartLayout
-```
-
-> [!TIP]
-> The Configuration profile **must** be assigned to devices and targeted to the device URI. Do not use: ./User/Vendor/MSFT/Policy/Config/Start/StartLayout.
-
-  :::image type="content" source="images/fig3-add-uri-string.png" alt-text="Add OMA-URI string":::
-
-7. For Data type, select **String (XML file) and** open your modified Start layout XML file. Select **Save** and then click **Next**.
-
-    :::image type="content" source="images/fig4-upload-modified-xml.png" alt-text="Upload modified Start layout XML file":::
-  
-8. On the Assignments page, under **Included groups**, select **Add groups**.
-9. Under **Select groups to include**, enter the name of a group containing the Surface Hubs you wish to target, choose **Select**, and then click **Next**. To learn more about assigning a Configuration profile to a group, see [Add groups to organize users and devices](/mem/intune/fundamentals/groups-add).
-
-    :::image type="content" source="images/fig5-selectgroup.png" alt-text="Select group containing targeted Surface Hubs]":::
-
-10. On the Applicability Rules page, enter optional criteria if desired. Otherwise, select **Next**.
-11. Review the Configuration profile and select **Create**.
-
-    :::image type="content" source="images/fig6-create-custom-profile.png" alt-text="Finish creating Custom configuration profile":::
-
-12. To apply the Configuration profile immediately, select **Devices** > **All devices** and find the Surface Hub you targeted. Open its Overview pane, and select **Sync**.
-
-   :::image type="content" source="images/pwa-sync-tenant.png" alt-text="Sync targeted Surface Hub":::
-   
-13. Once applied, you will see the customized Start menu on your Surface Hub.
-
-  :::image type="content" source="images/figb-modified-start-menu.png" alt-text="Modified Surface Hub Start menu with PWAs":::
-
-## Appendix A: Extract AppUserModelIDs from installed apps
-
-To obtain the AppUserModelID of apps installed on Surface Hub:
-
-1. Sign in to Surface Hub as an admin, open **Settings**, and select **Update & Security**.
-2. Select Logs. Insert a USB drive, then select **Collect logs.**
-3. On a separate PC, open the USB drive and unzip the Log folder.
-4. In the Registry folder, open **HKLM_SOFTWARE_Microsoft.txt**.
-5. Search for the **ApplicationUserModelId** associated with the app you want to include in the Start menu.
-
-  ![Locate the app ID in the Hub registry](images/fig8-locate-appid-in-hub-registry.png)
-
-## Appendix B: Start layout with Microsoft Edge link
+## Appendix C: Start layout with Microsoft Edge link
 
 
 This example shows a link to a website and a .pdf file. The secondary tile for Microsoft Edge uses a 150 x 150-pixel icon.
