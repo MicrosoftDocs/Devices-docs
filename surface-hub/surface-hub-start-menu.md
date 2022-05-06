@@ -94,7 +94,7 @@ The default Start menu is rendered by the following Start XML layout.
 
 Customize the Start menu by modifying the XML that renders tiles displaying the various apps. Surface Hub supports a maximum of 12 tiles. 
 
-This example adds the following [Progressive Web Apps](install-pwa-surface-hub.md) to the default XML layout.
+This example adds the following [Progressive Web Apps](install-pwa-surface-hub.md) to the default XML layout. See [Appendix A](#appendix-a-surface-hub-start-menu-modified-for-progressive-web-apps) for the modified Start layout XML.
 
 | **App** | **AppUserModelID**                          |
 | ------- | ------------------------------------------- |
@@ -102,7 +102,6 @@ This example adds the following [Progressive Web Apps](install-pwa-surface-hub.m
 | Zoom    | zoom.us-F576B427_j0dtdqw38r40m!App          |
 | YouTube | www.youtube.com-756BE99A_pd8mbgmqs65xy!App  |
 
-See [Appendix A](#appendix-a-surface-hub-start-menu-modified-for-progressive-web-apps) for the modified Start layout XML.
 
 > [!TIP]
 > See [Appendix B](#appendix-b-extract-appusermodelids-from-installed-apps) for instructions on obtaining the AppUserModelID for other apps installed on Surface Hub.
