@@ -14,7 +14,7 @@ ms.localizationpriority: medium
 
 # Configure Surface Hub Start menu
 
-Surface Hub ships with a default Start menu that admins can modify with specific apps to meet organizational requirements. For example, you can [install Progressive Web Apps}(install-pwa-surface-hub) and include them in the Start menu for quick user access at the start of every Hub session.
+Surface Hub ships with a default Start menu that admins can modify with specific apps to meet organizational requirements. For example, you can [install Progressive Web Apps](install-pwa-surface-hub.md) and include them in the Start menu for quick user access at the start of every Hub session.
 
 ## Overview
 
