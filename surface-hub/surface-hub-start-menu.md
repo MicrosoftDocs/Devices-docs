@@ -14,7 +14,7 @@ ms.localizationpriority: medium
 
 # Configure Surface Hub Start menu
 
-Surface Hub ships with a default Start menu that admins can modify with specific apps to meet organizational requirements. For example, you can install Progressive Web Apps and include them in the Start menu for quick user access at the start of every Hub session.
+Surface Hub ships with a default Start menu that admins can modify with specific apps to meet organizational requirements. For example, you can [install Progressive Web Apps}(install-pwa-surface-hub) and include them in the Start menu for quick user access at the start of every Hub session.
 
 ## Overview
 
@@ -94,7 +94,7 @@ The default Start menu is rendered by the following Start XML layout.
 
 Customize the Start menu by modifying the XML that renders tiles displaying the various apps. Surface Hub supports a maximum of 12 tiles. Do not change **GroupCellWidth=8**, which is required even though Surface Hub display tiles in columns 0-5, not columns 6 and 7.
 
-This example adds the following Progressive Web Apps to the default XML layout.
+This example adds the following [Progressive Web Apps](install-pwa-surface-hub.md) to the default XML layout.
 
 | **App** | **AppUserModelID**                          |
 | ------- | ------------------------------------------- |
@@ -157,7 +157,7 @@ See [Appendix A](#appendix-a-surface-hub-start-menu-modified-for-progressive-web
 
 ## Appendix A: Surface Hub Start menu modified for Progressive Web Apps
 
-The following modified Start layout XML includes PWAs for WebEx, Zoom, and YouTube.
+The following modified Start layout XML includes [PWAs](install-pwa-surface-hub.md) for WebEx, Zoom, and YouTube.
 
 ```xml
 <LayoutModificationTemplate Version="1" xmlns="http://schemas.microsoft.com/Start/2014/LayoutModification">
