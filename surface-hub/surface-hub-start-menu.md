@@ -36,7 +36,7 @@ There are a few key differences between Start menu customization for Surface Hub
 
   :::image type="content" source="images/figa-default-surface-hub-start-menu.png" alt-text="Default Surface Hub Start menu":::
 
-This [example](#surface-hub-start-menu-modified-for-progressive-web-apps) adds the following Progressive Web Apps:
+This example adds the following Progressive Web Apps. 
 
 | **App** | **AppUserModelID**                          |
 | ------- | ------------------------------------------- |
@@ -105,7 +105,7 @@ This [example](#surface-hub-start-menu-modified-for-progressive-web-apps) adds t
 </LayoutModificationTemplate>
 ```
 
-2. Add the following XML. The modified file should match the sample shown in Appendix B.
+2. Add the following XML. The modified file should match the sample shown in [Appendix B](#appendix-b-surface-hub-start-menu-modified-for-progressive-web-apps).
 
 ```xml
         <start:Tile
@@ -127,7 +127,7 @@ This [example](#surface-hub-start-menu-modified-for-progressive-web-apps) adds t
 
 3. Save the modified Start menu XML locally and [follow the instructions below](#to-apply-a-customized-start-menu-to-surface-hub) to deploy it to targeted Surface Hubs.
 
-## To apply a customized Start menu to Surface Hub
+## Apply customized Start menu to Surface Hub
 
 1. Sign in to the Intune portal at [**Microsoft Endpoint Manager admin center**](https://endpoint.microsoft.com/).
 2. Go to **Devices** > **Configuration** **Policies** > **Create profile**.
