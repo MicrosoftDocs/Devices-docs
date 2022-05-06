@@ -104,7 +104,7 @@ This example adds the following [Progressive Web Apps](install-pwa-surface-hub.m
 > [!TIP]
 > See [Appendix B](#appendix-b-extract-appusermodelids-from-installed-apps) for instructions on obtaining the AppUserModelID for other apps installed on Surface Hub.
 
-## Deploy customized Start menu to Surface Hub
+## Deploy modified Start menu to Surface Hub
 
 1. Save your [modified Start menu XML](#appendix-a-surface-hub-start-menu-modified-for-progressive-web-apps) to a separate PC.
 2. Sign in to the Intune portal at [**Microsoft Endpoint Manager admin center**](https://endpoint.microsoft.com/).
