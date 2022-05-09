@@ -125,8 +125,6 @@ This example adds the following [Progressive Web Apps](install-pwa-surface-hub.m
 
 7. For Data type, select **String (XML file) and** open your modified Start layout XML file. Select **Save** and then click **Next**.
 
-    :::image type="content" source="images/fig4-upload-modified-xml.png" alt-text="Upload modified Start layout XML file":::
-
 ### Assign Start layout policy
 
 The Configuration profile **must** be assigned to devices and targeted to the device URI. Do not use: `./User/Vendor/MSFT/Policy/Config/Start/StartLayout`.  
@@ -134,18 +132,12 @@ The Configuration profile **must** be assigned to devices and targeted to the de
 1. On the Assignments page, under **Included groups**, select **Add groups**.
 2. Under **Select groups to include**, enter the name of a group containing the Surface Hubs you wish to target, choose **Select**, and then click **Next**. To learn more about assigning a Configuration profile to a group, see [Add groups to organize users and devices](/mem/intune/fundamentals/groups-add).
 
-    :::image type="content" source="images/fig5-selectgroup.png" alt-text="Select group containing targeted Surface Hubs]":::
-
 3. On the Applicability Rules page, enter optional criteria if desired. Otherwise, select **Next**.
 4. Review the Configuration profile and select **Create**.
 
-    :::image type="content" source="images/fig6-create-custom-profile.png" alt-text="Finish creating Custom configuration profile":::
-
 5. To apply the Configuration profile immediately, select **Devices** > **All devices** and find the Surface Hub you targeted. Open its Overview pane, and select **Sync**.
 
-    :::image type="content" source="images/pwa-sync-tenant.png" alt-text="Sync targeted Surface Hub":::
-
-6. Once applied, you will see the customized Start menu on your Surface Hub.
+6. Once applied, you will see the modified Start menu on your Surface Hub.
 
     :::image type="content" source="images/figb-modified-start-menu.png" alt-text="Modified Surface Hub Start menu with PWAs":::
 
