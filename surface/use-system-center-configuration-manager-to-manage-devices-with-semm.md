@@ -13,7 +13,7 @@ ms.reviewer: hachidan
 manager: laurawi
 ms.localizationpriority: medium
 ms.audience: itpro
-ms.date: 10/28/2020
+ms.date: 04/29/2020
 appliesto:
 - Windows 10
 - Windows 11
@@ -124,7 +124,7 @@ Beginning with Surface Pro 8, Surface Laptop Studio, and Surface Go 3, both of t
 
 **Additional options for USB-C ports:**
 
-1. Run **ConfigureSEMM.ps1** and and modify as appropriate. 
+1. Run **ConfigureSEMM.ps1** and modify as appropriate. 
 2. To turn off data only and continue to use USB-C ports for power and display functionality, enable the following mode:  **Mode 1 – Data Disabled.**
 3. To turn off data, power, and display functionality, enable the following mode:  **Mode 2 – Fully Disabled.**
 
