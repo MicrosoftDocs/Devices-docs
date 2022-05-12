@@ -68,8 +68,6 @@ The Microsoft Whiteboard app, updated for Surface Hub on July 1, 2019 includes a
 
 ## Related topics
 
-- [Windows 10 Creators Update for Surface Hub](https://www.microsoft.com/surface/support/surface-hub/windows-10-creators-update-surface-hub)
-
 - [Support documentation for Microsoft Whiteboard](https://support.office.com/article/Whiteboard-Help-0c0f2aa0-b1bb-491c-b814-fd22de4d7c01)
 
 - [Use Microsoft Whiteboard on a Surface Hub](https://support.office.com/article/use-microsoft-whiteboard-on-a-surface-hub-5c594985-129d-43f9-ace5-7dee96f7621d)
