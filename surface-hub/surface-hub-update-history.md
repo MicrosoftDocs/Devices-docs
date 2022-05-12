@@ -394,7 +394,7 @@ This update to the Surface Hub includes quality improvements and security fixes.
 * Addresses an issue that prevents some users from Signing-In to “My Meetings and Files.”
 
 Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabling device features and services.
-*[KBKB4467699](https://support.microsoft.com/help/KB4467699)
+*[KB4467699](https://support.microsoft.com/help/4467699)
 </details>
 
 <details>
@@ -435,7 +435,7 @@ This update to the Surface Hub includes quality improvements and security fixes.
 * Telemetry change in support of GDPR requirements in EMEA
 
 Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabling device features and services.
-*[KB4284830](https://support.microsoft.com/help/KB4284830)
+*[KB4284830](https://support.microsoft.com/help/4284830)
 </details>
 
 <details>
