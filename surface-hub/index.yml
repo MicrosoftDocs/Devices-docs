@@ -111,7 +111,7 @@ landingContent:
     # Card (optional)
   - title: Design, develop, and distribute
     linkLists:
-      - linkListType: develop
+      - linkListType: learn
         links:
           - url: https://docs.microsoft.com/windows/apps/design/basics/
             text: Design basics for Windows apps 
