@@ -108,7 +108,25 @@ landingContent:
           - url: surface-hub-2s-secure-with-uefi-semm.md
             text: Secure and manage Surface Hub 2S with SEMM and UEFI
 
-  # Card (optional)
+    # Card (optional)
+  - title: Design, develop, and distribute
+    linkLists:
+      - linkListType: develop
+        links:
+          - url: https://docs.microsoft.com/windows/apps/design/basics/
+            text: Design basics for Windows apps 
+          - url: https://docs.microsoft.com/windows/uwp/get-started/
+            text: Get started building Windows apps that work on all Windows devices
+          - url: https://docs.microsoft.com/windows/uwp/debug-test-perf/test-surface-hub-apps-using-visual-studio
+            text: Test Surface Hub apps using Visual Studio
+          - url: https://docs.microsoft.com/windows/uwp/publish/distribute-lob-apps-to-enterprises
+            text: Distribute LOB apps to enterprises
+          - url: https://businessstore.microsoft.com/store/private-store
+            text: Microsoft Store for Business
+          - url: https://docs.microsoft.com/microsoft-store/distribute-apps-with-management-tool
+            text: Distribute apps with a management tool
+
+# Card (optional)
   - title: Troubleshoot
     linkLists:
       - linkListType: learn
