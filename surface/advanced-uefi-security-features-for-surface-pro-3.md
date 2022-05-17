@@ -54,7 +54,7 @@ After the v3.11.760.0 UEFI update is installed on a Surface device, an additiona
 ## Automate additional security settings
 
 
-As an IT professional with administrative privileges, you can automate the configuration of UEFI settings by leveraging [Surface Pro 3 Firmware Tools (476 KB)](https://go.microsoft.com/fwlink/p/?LinkID=618038) available from the Microsoft Download Center. These tools install a .NET assembly that can be called from any custom application or script.
+As an IT professional with administrative privileges, you can automate the configuration of UEFI settings by leveraging [Surface Pro 3 Firmware Tools (476 KB)](https://www.microsoft.com/download/details.aspx?id=38826) available from the Microsoft Download Center. These tools install a .NET assembly that can be called from any custom application or script.
 
 **Prerequisites**
 
