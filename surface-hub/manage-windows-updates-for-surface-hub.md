@@ -121,11 +121,6 @@ A default maintenance window is set for all new Surface Hubs:
 To change the maintenance window using MDM, set the **MaintenanceHoursSimple** node in the [SurfaceHub configuration service provider](/windows/client-management/mdm/surfacehub-csp). See [Manage settings with an MDM provider](manage-settings-with-mdm-for-surface-hub.md) for more details.
 
 
-## More information
-
-- [Blog post: Servicing, Flighting, and Managing updates for Surface Hub (With Intune, of course!)](https://blogs.technet.microsoft.com/y0av/2018/05/31/7-3/)
-
-
 ## Related topics
 
 [Manage Microsoft Surface Hub](manage-surface-hub.md)
