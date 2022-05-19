@@ -125,5 +125,5 @@ To change the maintenance window using MDM, set the **MaintenanceHoursSimple** n
 
 [Manage Microsoft Surface Hub](manage-surface-hub.md)
 
-[Surface Hub may install updates and restart outside maintenance hours](surface-hub-installs-updates-and-restarts-outside-maintenance-hours)
+[Surface Hub may install updates and restart outside maintenance hours](surface-hub-installs-updates-and-restarts-outside-maintenance-hours.md)
 
