@@ -98,13 +98,13 @@ Once the Windows 10 Team Anniversary Update is installed, you can remove these a
 
 ## Maintenance window
 
-To ensure the device is always available for use during business hours, Surface Hub performs its administrative functions during a specified maintenance window. During the maintenance window, the Surface Hub automatically installs updates through Windows Update and reboots the device 20 minutes before the end of the window.
+To ensure the device is always available for use during business hours, the Surface Hub performs its administrative functions during a specified maintenance window. The Surface Hub automatically installs updates through Windows Update during the maintenance window, and reboots the device 20 minutes before the end of the window.
 
 Surface Hub follows these guidelines to apply updates:
 - Install the update during the next maintenance window. If a meeting is scheduled to start during a maintenance window, or the Surface Hub sensors detect that the device is being used, the pending update will be postponed to the following maintenance window.
 - If the next maintenance window is past the update’s prescribed grace period, the device will calculate the next available slot during business hours using the estimated install time from the update’s metadata. It will continue to postpone the update if a meeting is scheduled, or the Surface Hub sensors detect that the device is being used.
 - If the next maintenance window is **not** past the update's grace period, the Surface Hub will continue to postpone the update.
-- If a reboot is needed, the Surface Hub will automatically reboot during the next maintenance window.
+- If an additional reboot is needed, the Surface Hub will automatically reboot during the next maintenance window.
 
 > [!NOTE]
 > Allow time for updates when you first setup your Surface Hub. For example, a backlog of virus definitions may be available, which should be immediately installed.
@@ -125,5 +125,5 @@ To change the maintenance window using MDM, set the **MaintenanceHoursSimple** n
 
 [Manage Microsoft Surface Hub](manage-surface-hub.md)
 
-[Microsoft Surface Hub administrator's guide](surface-hub-administrators-guide.md)
+[Surface Hub may install updates and restart outside maintenance hours](surface-hub-installs-updates-and-restarts-outside-maintenance-hours)
 
