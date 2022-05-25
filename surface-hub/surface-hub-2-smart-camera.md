@@ -42,8 +42,15 @@ To learn more, refer to [Surface Hub update history](surface-hub-update-history.
 
     ![To remove the camera, pull up and forward.](images/hub2smartcamera2.png)
 
-> [!TIP]
-> The camera cover magnetically snaps to the front for privacy and the back for storage when not in use.
+### Camera cover
+
+The camera cover magnetically snaps to the front for privacy and the back for storage when not in use.
+
+:::image type="content" source="images/hub-smart-cam.png" alt-text="emove the cover and place it on rear of the camera " :::
+
+> [!NOTE]
+> Do not place the cover in the vented slot at the top of the camera.
+
 
 ## Manage automatic framing settings
 
