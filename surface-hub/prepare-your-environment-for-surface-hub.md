@@ -59,7 +59,7 @@ You can still enroll the device with Intune to centrally manage settings on your
 When you choose to affiliate your Surface Hub with Azure Active Directory (Azure AD), any user with the Global Administrator role can sign in to the Settings app on Surface Hub. You can also configure non Global admin accounts that limit permissions to management of the Settings app on Surface Hub. This enables you to scope admin permissions for Surface Hubs only and prevent potentially unwanted admin access across an entire Azure AD domain.
 
 > [!NOTE]
-> Surface Hub Administrator accounts can only sign in to the Settings app when [authenticating via Azure AD](/azure/active-directory/hybrid/choose-ad-authn#cloud-authentication).
+> When a Surface Hub is Azure AD-joined, only [Azure AD authenticated] admin accounts (/azure/active-directory/hybrid/choose-ad-authn#cloud-authentication) can sign in to the Settings app.
 
 If you enabled [Intune Automatic Enrollment](/mem/intune/enrollment/windows-enroll#enable-windows-10-automatic-enrollment) for your organization, the Surface Hub will automatically enroll itself with Intune; in this scenario, the account used for Azure AD affiliation during setup must be licensed for Intune and have permissions to enroll Windows devices. After the setup process is completed, the device's BitLocker key is automatically saved in Azure AD.
 
