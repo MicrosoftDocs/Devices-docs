@@ -27,7 +27,7 @@ Most Windows updates focus on performance and security improvements. In the list
 
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4581839/windows-10-update-history), include:
 
-* Resolves an issue where new meeting invitations did not show up on the Welcome screen calendar without a reboot.
+* Resolves an issue where meeting invitations did not show up immediately on the Welcome screen calendar in some environments without a reboot.
 * Resolves an issue where one-click meeting join from the Welcome screen calendar did not work in GCC High environments.
 * Resolves an issue where a "Microsoft Teams is not responding" window would sometimes appear during regular Teams usage.
  
