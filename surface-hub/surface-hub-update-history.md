@@ -23,6 +23,18 @@ Most Windows updates focus on performance and security improvements. In the list
 ## Windows 10 Team 2020 Update (20H2)
 
 <details>
+<summary>May 26, 2022 — update for Team based on KB5014023* (OS Build 19042.1739)</summary>
+
+This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4581839/windows-10-update-history), include:
+
+* Resolves an issue where new meeting invitations did not show up on the Welcome screen calendar without a reboot.
+* Resolves an issue where one-click meeting join from the Welcome screen calendar did not work in GCC High environments.
+* Resolves an issue where a "Microsoft Teams is not responding" window would sometimes appear during regular Teams usage.
+ 
+Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabling device features and services. *[KB5014023](https://support.microsoft.com/help/5014023)
+</details>
+
+<details>
 <summary>April 21, 2022 — update for Team based on KB5011831* (OS Build 19042.1679)</summary>
 
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4581839/windows-10-update-history), include:
