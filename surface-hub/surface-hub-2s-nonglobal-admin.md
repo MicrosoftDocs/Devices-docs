@@ -106,7 +106,7 @@ First, create a security group containing the admin accounts. Then create anothe
 ## Create Custom configuration profile
 
 1. In Endpoint Manager, select **Devices** > **Configuration profiles** > **Create profile**.
-2. Under Platform select **Windows 10 and later.** Under Profile, select **Custom**, and then select **Create.**
+2. Under Platform select **Windows 10 and later.** Under Profile, select **Templates** > **Custom** > **Create.**
 3. Add a name and description and then select **Next.**
 4. Under **Configuration settings** > **OMA-URI Settings**, select **Add**.
 5. In the Add Row pane, add a name and under     **OMA-URI**, add the following  string:
@@ -115,8 +115,8 @@ First, create a security group containing the admin accounts. Then create anothe
      ./Device/Vendor/MSFT/Policy/Config/LocalUsersAndGroups/Configure
     ```
 
-> [!NOTE]
-> The **RestrictedGroups/ConfigureGroupMembership** policy setting also allows you to configure members (users or AAD groups) to a Windows 10 local group. However, it only allows for a complete replacement of the existing groups with the new members. You cannot selectively add or remove members.  Available in Windows 10 Team 2020 Update 2, it is recommended to use the **LocalUsersandGroups** policy setting instead of the RestrictedGroups policy setting. Applying both policy settings to Surface Hub is unsupported and may yield unpredictable results.
+   > [!NOTE]
+   > The **RestrictedGroups/ConfigureGroupMembership** policy setting also allows you to configure members (users or AAD groups) to a Windows 10 local group. However, it only allows for a complete replacement of the existing groups with the new members. You cannot selectively add or remove members.  Available in Windows 10 Team 2020 Update 2, it is recommended to use the **LocalUsersandGroups** policy setting instead of the RestrictedGroups policy setting. Applying both policy settings to Surface Hub is unsupported and may yield unpredictable results.
 
 6. Under Data type, select **String XML** and browse to open the XML file you created in the previous step.
 

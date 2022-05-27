@@ -42,8 +42,15 @@ To learn more, refer to [Surface Hub update history](surface-hub-update-history.
 
     ![To remove the camera, pull up and forward.](images/hub2smartcamera2.png)
 
-> [!TIP]
-> The camera cover magnetically snaps to the front for privacy and the back for storage when not in use.
+### Camera cover
+
+The camera cover magnetically snaps to the front for privacy and the back for storage when not in use.
+
+:::image type="content" source="images/smart-camera-cover.png" alt-text="Remove the cover and place it on rear of the camera " :::
+
+> [!NOTE]
+> Do not place the cover in the vented slot at the top of the camera.
+
 
 ## Manage automatic framing settings
 
@@ -99,4 +106,4 @@ Purchase Surface Hub 2 Smart Camera from your [authorized Microsoft Surface rese
 
 ### References
 
-1. Surface Hub 2 Smart Camera, sold separately starting March 16, 2022, dynamically adjusts the video feed for remote participants. Surface Hub 2 Smart Camera will be included in the box with Surface Hub 2S 85” starting in May 2022.
+<sup>1</sup> Surface Hub 2 Smart Camera, sold separately starting March 16, 2022, dynamically adjusts the video feed for remote participants. Surface Hub 2 Smart Camera will be included in the box with Surface Hub 2S 85” starting in May 2022.

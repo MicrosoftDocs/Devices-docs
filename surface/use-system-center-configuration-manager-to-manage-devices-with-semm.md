@@ -13,7 +13,7 @@ ms.reviewer: hachidan
 manager: laurawi
 ms.localizationpriority: medium
 ms.audience: itpro
-ms.date: 10/28/2020
+ms.date: 04/29/2020
 appliesto:
 - Windows 10
 - Windows 11
@@ -37,10 +37,9 @@ Before you begin the process outlined in this article, familiarize yourself with
 * [PowerShell scripting](/powershell)
 * [Deploy applications with Configuration Manager](/mem/configmgr/apps/deploy-use/deploy-applications)
 
-
 > [!Note]
 > You will also need access to the certificate that you intend to use to secure SEMM. For details about the requirements for this certificate, see [Surface Enterprise Management Mode certificate requirements](surface-enterprise-management-mode.md#surface-enterprise-management-mode-certificate-requirements).
-> 
+>
 > It is very important that this certificate be kept in a safe location and properly backed up. If this certificate becomes lost or unusable, it is not possible to reset Surface UEFI, change managed Surface UEFI settings, or remove SEMM from an enrolled Surface device.
 
 #### Download Microsoft Surface UEFI Manager
@@ -72,7 +71,7 @@ To create a new application and deploy it to a collection that contains your Sur
 5. The Create Application Wizard presents a series of steps:
 
    * **General** – The **Automatically detect information about this application from installation files** option is selected by default. In the **Type** field, **Windows Installer (.msi file)** is also selected by default. Select **Browse** to navigate to and select **SurfaceUEFIManagerSetup.msi**, and then select **Next**.
-   
+
       > [!Note]
       > The location of SurfaceUEFIManagerSetup.msi must be on a network share and located in a folder that contains no other files. A local file location cannot be used.
 
@@ -104,6 +103,42 @@ The sample scripts include examples of how to set Surface UEFI settings and how 
 
 > [!NOTE]
 > The SEMM Configuration Manager scripts and the exported SEMM certificate file (.pfx) should be placed in the same folder with no other files before they are added to Configuration Manager.
+
+### Manage USB ports on supported devices
+
+With USB port functionality enabled by default on Surface devices, many devices with Surface UEFI allow admins to disable connectivity to USB ports. For example, you may wish to prevent users from copying data from USB thumb drives or external hard disks.
+
+How you manage USB port functionality varies across Surface devices. Recently released devices—Surface Pro 8, Surface Go 3, and Surface Laptop Studio—allow you to use Powershell to granularly manage the functionality of USB-C ports and disable USB-A. See [Table 1](#table-1-usb-port-management-options-for-surface-devices) below for a reference of available settings across Surface devices.
+
+For USB-A ports supporting USB2 and USB3, you can disable the USB data protocol from the USB controller to prevent all functionality.
+
+Managing USB-C ports with their support for DisplayPort and USB Power Delivery provides additional options beyond disabling all functionality. For example, you can prevent data connectivity to stop users from copying data from USB storage but retain the ability to extend displays and charge the device via a USB-C dock.
+
+Beginning with Surface Pro 8, Surface Laptop Studio, and Surface Go 3, both of these options are now available via the SEMM PowerShell scripts.
+
+**To manage USB ports:**
+
+1. Go to [Surface Tools for IT](https://www.microsoft.com/download/details.aspx?id=46703) and download **SEMM_PowerShell.zip**.
+2. Open **ConfigureSEMM.ps1** and modify as appropriate.
+3. To disable both USB-A and USB-C ports: For UsbPortSettingType, enable the following setting: **UsbPortHwDisabled.**
+
+**Additional options for USB-C ports:**
+
+1. Run **ConfigureSEMM.ps1** and modify as appropriate. 
+2. To turn off data only and continue to use USB-C ports for power and display functionality, enable the following mode:  **Mode 1 – Data Disabled.**
+3. To turn off data, power, and display functionality, enable the following mode:  **Mode 2 – Fully Disabled.**
+
+### Table 1. USB port management options for Surface devices
+
+| Device                                                                                                                                                                   | USB-A options                     | USB-C options                                                                                                                                                  | Settings                                                                   | SEMM IDs |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- | -------- |
+| **Surface Laptop 2**<br>**Surface Pro 6**<br>**Surface Laptop**<br>**Surface Pro 4**<br>**Surface Pro**<br>**Surface Studio 2**<br>**Surface Studio**<br> ****<br>  | Enable or disable data            | N/A: No USB-C port on device                                                                                                                                   | - USBPortEnabled (default)<br>- USBPortHWDisabled                          | 370-379  |
+| **Surface Laptop SE**<br>**Surface Pro 7+**<br>**Surface Pro 7**<br>**Surface Go 2**<br>**Surface Go**<br>**Surface Laptop Go**<br>**Surface Laptop 3 (Intel CPU only)** | Enable or disable data            | - Enable or disable data<br><br>Power delivery and display-out functionality are always available                                                              | - USBPortEnabled (default)<br>- USBPortHWDisabled                          | 370-379  |
+| **Surface Pro 8**<br>**Surface Laptop Studio**<br>**Surface Go 3**                                                                                                       | N/A: No USB-A port on device      | - Enable data, display-out, and  power delivery<br>- Disable data but enable display-out and power delivery<br>- Disable data, display-out, and power delivery | - UsbPortEnabled (default)<br>- UsbPortDataDisabled<br>- UsbPortHwDisabled | 380-389  |
+| **Surface Book 3**<br>**Surface Book 2**<br>                                                                                                                        | Base USB ports are always enabled | Base USB ports are always enabled                                                                                                                              | n/a                                                                        |          |
+| **Surface Book with Performance Base**<br>**Surface Book**                                                                                                               | Base USB ports are always enabled | N/A: No USB-C port on device                                                                                                                                   | n/a                                                                        |          |
+
+ The following sections of this article explain the ConfigureSEMM.ps1 script and explore the modifications you need to make to the script to fit your requirements.
 
 ### Specify certificate and package names
 
@@ -384,7 +419,6 @@ The following code fragment, found on lines 380-477, is used to write these regi
 
 To configure Surface UEFI settings or permissions for Surface UEFI settings, you must refer to each setting by either its setting name or setting ID. With each new update for Surface UEFI, new settings may be added. Running ShowSettingsOptions.ps1 script (from SEMM_Powershell.zip in [Surface Tools for IT](https://www.microsoft.com/download/details.aspx?id=46703))provides details of available settings. The computer where ShowSettingsOptions.ps1 is run must have Microsoft Surface UEFI Manager installed, but the script does not require a Surface device.
 
-
 ## Deploy SEMM Configuration Manager scripts
 
 After your scripts are prepared to configure and enable SEMM on the client device, the next step is to add these scripts as an application in Configuration Manager. Before you open Configuration Manager, ensure that the following files are in a shared folder that does not include other files:
@@ -420,7 +454,7 @@ To add the SEMM Configuration Manager scripts to Configuration Manager as an app
      * **General** – Select **Script Installer** from the **Type** drop-down menu. The **Manually specify the deployment type information** option will automatically be selected. Select **Next** to proceed.
      * **General Information** – Enter a name for the deployment type (for example SEMM Configuration Scripts), and then select **Next** to continue.
      * **Content** – Select **Browse** next to the **Content Location** field, and then select the folder where your SEMM Configuration Manager scripts are located. In the **Installation Program** field, type the [installation command](#deploy-semm-configuration-manager-scripts) found earlier in this article. In the **Uninstall Program** field, enter the [uninstallation command](#deploy-semm-configuration-manager-scripts) found earlier in this article (shown in Figure 2). Select **Next** to move to the next page.
-    
+
      ![Set the SEMM Configuration Manager scripts as the install and uninstall commands.](images/config-mgr-semm-fig2.png "Set the SEMM Configuration Manager scripts as the install and uninstall commands")
 
      *Figure 2. Set the SEMM Configuration Manager scripts as the install and uninstall commands*
@@ -437,15 +471,15 @@ To add the SEMM Configuration Manager scripts to Configuration Manager as an app
        - Select **OK** to close the **Detection Rule** window.
 
      ![Use a registry key to identify devices enrolled in SEMM.](images/config-mgr-semm-fig3.png "Use a registry key to identify devices enrolled in SEMM")
-     
+
      *Figure 3. Use a registry key to identify devices enrolled in SEMM*
 
      * Select **Next** to proceed to the next page.
-     
+
      * **User Experience** – Select **Install for system** from the **Installation Behavior** drop-down menu. If you want your users to record and enter the certificate thumbprint themselves, leave the logon requirement set to **Only when a user is logged on**. If you want your administrators to enter the thumbprint for users and the users do not need to see the thumbprint, select **Whether or not a user is logged on** from the **Logon Requirement** drop-down menu.
 
      * **Requirements** – The ConfigureSEMM.ps1 script automatically verifies that the device is a Surface device before attempting to enable SEMM. However, if you intend to deploy this script application to a collection with devices other than those to be managed with SEMM, you could add requirements here to ensure this application would run only on Surface devices or devices you intend to manage with SEMM. Select **Next** to continue.
-     
+
      * **Dependencies** – Select **Add** to open the **Add Dependency** window.
 
        * Select **Add** to open the **Specify Required Application** window.
@@ -453,15 +487,15 @@ To add the SEMM Configuration Manager scripts to Configuration Manager as an app
           - Enter a name for the SEMM dependencies in the **Dependency Group Name** field (for example, *SEMM Assemblies*).
 
           - Select **Microsoft Surface UEFI Manager** from the list of **Available Applications** and the MSI deployment type, and then select **OK** to close the **Specify Required Application** window.
-          
+
          *   Keep the **Auto Install** check box selected if you want Microsoft Surface UEFI Manager installed automatically on devices when you attempt to enable SEMM with the Configuration Manager scripts. Select **OK** to close the **Add Dependency** window.
 
      * Select **Next** to proceed.
-     
+
      * **Summary** – The information you have entered throughout the Create Deployment Type wizard is displayed on this page. Select **Next** to confirm your selections.
-     
+
      * **Progress** – A progress bar and status as the deployment type is added for the SEMM script application is displayed on this page.
-     
+
      * **Completion** – Confirmation of the deployment type creation is displayed when the process is complete. Select **Close** to finish the Create Deployment Type Wizard.
 
    - **Summary** – The information that you entered throughout the Create Application Wizard is displayed. Select **Next** to create the application.
@@ -480,9 +514,9 @@ Removal of SEMM from a device deployed with Configuration Manager using these sc
 
 > [!NOTE]
 > Microsoft Surface recommends that you create reset packages only when you need to unenroll a device. These reset packages are typically valid for only one device, identified by its serial number. You can, however, create a universal reset package that would work for any device enrolled in SEMM with this certificate.
-> 
+>
 > We strongly recommend that you protect your universal reset package as carefully as the certificate you used to enroll devices in SEMM. Please remember that, just like the certificate itself, this universal reset package can be used to unenroll any of your organization’s Surface devices from SEMM.
-> 
+>
 > When you install a reset package, the Lowest Supported Value (LSV) is reset to a value of 1. You can reenroll a device by using an existing configuration package. The device will prompt for the certificate thumbprint before ownership is taken.
-> 
+>
 > For this reason, the reenrollment of a device in SEMM would require a new package to be created and installed on that device. Because this action is a new enrollment and not a change in configuration on a device already enrolled in SEMM, the device will prompt for the certificate thumbprint before ownership is taken.
