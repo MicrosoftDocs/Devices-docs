@@ -8,7 +8,7 @@ ms.sitesec: library
 author: mccoybot
 ms.author: brrecord
 ms.topic: article
-ms.date: 04/13/2021
+ms.date: 06/01/2022
 ms.reviewer: 
 manager: laurawi
 ms.audience: itpro
@@ -19,6 +19,7 @@ appliesto:
 - Surface Pro 7+
 - Surface Pro X
 - Surface Laptop Go
+- Surface Laptop Go 2
 - Surface Laptop 3
 - Surface Laptop 4
 - Windows 10

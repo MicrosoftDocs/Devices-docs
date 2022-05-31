@@ -22,7 +22,7 @@ Surface Laptop Go 2 for Business is designed to meet the needs of the hybrid wor
 
 :::image type="content" source="images/surface-laptop-go-2.png" alt-text="Surface Laptop Go 2 showing Windows 11 SE Start menu":::<br>
 
-As a Secured-core PC, Surface Laptop Go 2 enables One Touch sign-in and has a removable hard drive.  Surface customers can save time and money with streamlined deployment, modern device management, and built-in, cloud-powered security.
+As a Secured-core PC, [Surface Laptop Go 2](https://www.microsoft.com/surface/business/surface-laptop-go-2) enables One Touch sign-in and has a removable hard drive.  Surface customers can save time and money with streamlined deployment, modern device management, and built-in, cloud-powered security.
 
 - **Get back to work quickly and securely** thanks to Fingerprint Power Button with Windows Hello and One Touch sign-in on select models.
 - **More control with cloud-first device deployment and management**. Deploy and manage down to the firmware layer through the cloud with Microsoft Endpoint Manager and DFCI. Every Surface for Business device ships with Windows Autopilot, reducing IT complexity by deploying straight to your employees.
@@ -61,7 +61,19 @@ When you enroll Surface Laptop Go 2 for cloud management and users log in  for t
 | **What's in the box**      | - Redbank<br>- 39W Power Supply<br>- Quick Start Guide<br>- Safety and warranty documents                                                                                                                                     |
 | **Warranty** <sup>8</sup>               | - 1-year limited hardware warranty                                                                                                                                                                                            |
 
-## References
+## Commercial availability
+
+Surface Laptop Go 2 begins shipping June 7, 2022. 
+
+- [Order Surface Laptop Go 2](https://www.microsoft.com/surface/business/surface-laptop-go-2) 
+
+## Learn more
+
+- [Explore Surface](https://exploresurface.com) 
+- [SSD removal in compatible Surface devices](surface-ssd-removal-guide.md)
+
+
+### References
 
 1. Requires license or subscription to activate and use.
 2. Activation required. If your device is managed by your organization’s IT department, contact your IT administrator for activation. After one month trial, you will be charged the applicable monthly or annual subscription fee. Credit card required. Cancel any time to stop future charges. See [aka.ms/m365businesstrialinfo](https://aka.ms/m365businesstrialinfo).
