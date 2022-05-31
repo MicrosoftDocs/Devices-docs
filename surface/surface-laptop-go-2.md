@@ -22,12 +22,11 @@ Surface Laptop Go 2 for Business is designed to meet the needs of the hybrid wor
 
 :::image type="content" source="images/surface-laptop-go-2.png" alt-text="Surface Laptop Go 2 showing Windows 11 SE Start menu":::<br>
 
-*Figure 1. Surface Laptop Go 2*
 As a Secured-core PC, Surface Laptop Go 2 enables One Touch sign-in and has a removable hard drive.  Surface customers can save time and money with streamlined deployment, modern device management, and built-in, cloud-powered security.
 
-- Get back to work quickly and securely thanks to Fingerprint Power Button with Windows Hello and One Touch sign-in on select models.
-- More control with cloud-first device deployment and management. Deploy and manage down to the firmware layer through the cloud with Microsoft Endpoint Manager and DFCI. Every Surface for Business device ships with Windows Autopilot, reducing IT complexity by deploying straight to your employees.
-- Secured-core PCs are the most secure Windows 11 devices for workers handling the most sensitive data. Secured-core PCs are designed to elevate the benefits of Windows 11 security, providing additional hardware and software protection for workers that handle the most sensitive data in your organization.
+- **Get back to work quickly and securely** thanks to Fingerprint Power Button with Windows Hello and One Touch sign-in on select models.
+- **More control with cloud-first device deployment and management**. Deploy and manage down to the firmware layer through the cloud with Microsoft Endpoint Manager and DFCI. Every Surface for Business device ships with Windows Autopilot, reducing IT complexity by deploying straight to your employees.
+- **Secured-core PCs are the most secure Windows 11 devices** for workers handling the most sensitive data. Secured-core PCs are designed to elevate the benefits of Windows 11 security, providing additional hardware and software protection for workers that handle the most sensitive data in your organization.
 
 ## Repairability
 
