@@ -8,6 +8,8 @@
       items: 
       - name: Technical overviews
         items:
+         - name: Surface Laptop Go 2 overview
+           href: surface-laptop-go-2.md 
          - name: Surface Laptop SE overview
            href: surface-laptop-se-overview.md
          - name: Surface OS choice
