@@ -57,9 +57,9 @@ When you enroll Surface Laptop Go 2 for cloud management and users log in  for t
 | **Exterior**               | - Top: Aluminum<br>- Base: Aluminum and polycarbonate composite resin system with glass fiber and 30% post-consumer recycled content                                                                                          |
 | **Colors** <sup>6</sup>    | - Ice Blue, Sandstone, Platinum, and Sage                                                                                                                                                                                     |
 | **Keyboard**               | - Activation: Moving keys<br>- Layout: QWERTY, full row of function keys (F1 – F12)<br>- Windows key and dedicated buttons for media controls, screen brightness                                                              |
-| **Serviceability**<sup>7</sup> | - Replaceable components include:<br>- AB Cover (Display)<br>- C-cover (keyset and trackpad)<br>- Battery<br>- Feet<br>- SSD<br>- Surflink cable                                                                              |
+| **Serviceability**<sup>7</sup> | - Replaceable components include:<br>- AB Cover (Display)<br>- C-cover (keyset and trackpad)<br>- Battery<sup>8</sup> <br>- Feet<br>- SSD<br>- Surflink cable                                                                              |
 | **What's in the box**      | - Surface Laptop Go 2<br>- 39 W Power Supply<br>- Quick Start Guide<br>- Safety and warranty documents                                                                                                                                     |
-| **Warranty** <sup>8</sup>               | - 1-year limited hardware warranty                                                                                                                                                                                            |
+| **Warranty** <sup>9</sup>               | - 1-year limited hardware warranty                                                                                                                                                                                            |
 
 ## Commercial availability
 
@@ -81,5 +81,6 @@ Surface Laptop Go 2 begins shipping June 7, 2022.
 4. This device does not contain user serviceable parts. Hard drive is only removable by an authorized technician following Microsoft-provided instructions.
 5. Battery life varies based on usage, network and feature configuration, signal strength, settings and other factors. See [aka.ms/SurfaceBatteryPerformance](https://aka.ms/SurfaceBatteryPerformance) for details.
 6. Available colors may vary by configuration and market
-7. This device does not contain user serviceable parts. Hard drive is only removable by an authorized technician following Microsoft-provided instructions.
-8. Microsoft’s Limited Warranty is in addition to your consumer law rights.
+7. Customers can purchase Components through Surface Commercial Authorized Device Resellers. Components can be replaced on-site by a skilled technician following Microsoft’s Service Guide. Opening and/or repairing your device can present electric shock, fire and personal injury risks and other hazards. Use caution if undertaking do-it-yourself repairs. Device damage caused during repair will not be covered under Microsoft’s Hardware Warranty or protection plans.
+8. Battery will be available as a Field Replacement Unit (FRU) replaceable through Microsoft or a Microsoft Authorized Service Provider, where available. 
+9. Microsoft’s Limited Warranty is in addition to your consumer law rights.
