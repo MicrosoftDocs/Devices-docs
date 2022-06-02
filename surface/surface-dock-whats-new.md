@@ -30,7 +30,7 @@ Surface Dock 2 is designed to simplify IT management, enabling admins to automat
 
 ## General system requirements
 
-- Windows 10 version 1809 and later. There is no support for Windows 7, Windows 8, or non-Surface host devices. Surface Dock 2 works with the following Surface devices:
+- Windows 10 version 1809 and later. There's no support for Windows 7, Windows 8, or non-Surface host devices. Surface Dock 2 works with the following Surface devices:
 
   - Surface Pro (5th Gen)
   - Surface Laptop (1st Gen)
@@ -87,7 +87,7 @@ Surface Dock 2 is designed to simplify IT management, enabling admins to automat
 
 ### Ethernet
 
-- 1 gigabit Ethernet port.
+- 1-gigabit Ethernet port.
 
 ### External Power supply
 
@@ -108,11 +108,11 @@ Surface Dock 2 is designed to simplify IT management, enabling admins to automat
 | Ethernet                            | Yes, 1 gigabit                                              | Yes 1 gigabit                                                                                       | Yes, 1 gigabit   |
 | DC power in                         | Yes                                                         | Yes                                                                                                 |                  |
 | Kensington lock                     | Yes                                                         | Yes                                                                                                 |                  |
-| Surflink cable length               | 65cm                                                        | 80cm                                                                                                | 20cm             |
-| Surflink host power                 | 60W                                                         | 120W                                                                                                | N/A              |
-| USB load power                      | 30W                                                         | 60W                                                                                                 |                  |
+| Surflink cable length               | 65 cm                                                        | 80 cm                                                                                                | 20 cm             |
+| Surflink host power                 | 60 W                                                         | 120 W                                                                                                | N/A              |
+| USB load power                      | 30 W                                                         | 60 W                                                                                                 |                  |
 | USB bit rate                        | 5 Gbps                                                      | 10 Gbps                                                                                             | 10 Gbps          |
-| Monitor support                     | 2 x 4K @30fps, or<br>1 x 4K @ 60fps                         | 2 x 4K @ 60fps<br> or 1 x 4K @120fps                                                                                     | 1 x 4K @ 60fps   |
+| Monitor support                     | 2 x 4K @30fps, or<br>1 x 4K @ 60 fps                         | 2 x 4K @ 60 fps<br> or 1 x 4K @120fps                                                                                     | 1 x 4K @ 60 fps   |
 | Wake-on-LAN from Connected Standby<sup>1</sup> | Yes                                                         | Yes                                                                                                 |    Yes              |
 | Wake-on-LAN from S4/S5 sleep modes  | No                                                          | Yes                                                                                                 |          Yes        |
 | Network PXE boot                    | Yes                                                         | Yes                                                                                                 |        Yes          |
