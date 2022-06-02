@@ -419,7 +419,7 @@ This update to the Surface Hub includes quality improvements and security fixes.
   * Resolves Skype for Business network connection issue, when device is connected to Internet
   * Resolves Skype for Business crash when searching for users from directory
 * Resolves issue where the Hub mistakenly reports “No Internet connection” in enterprise proxy environments.
-* Implemented a feature allowing customers to opt-in to a new Whiteboard experience.
+* Implemented a feature allowing customers to opt in to a new Whiteboard experience.
 
 Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabling device features and services.
 *[KB4462939](https://support.microsoft.com/help/4462939)
@@ -734,7 +734,7 @@ This update brings the Windows 10 Team Anniversary Update to Surface Hub and inc
     * Loss of video during meeting with multiple video presenters
     * Video cropping during calls
     * Outgoing call video not displaying for other participants
-  * Addressed issue with UPN sign in error
+  * Addressed issue with UPN sign-in error
   * Addressed issue with dial pad during use of Session Initiation Protocol (SIP) calls
 * Whiteboard
   * User can now save and recall Whiteboard sessions using OneDrive online service (via Share functionality)
