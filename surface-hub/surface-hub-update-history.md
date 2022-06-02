@@ -35,7 +35,7 @@ Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabl
 </details>
 
 <details>
-<summary>April 21, 2022 — update for Team based on KB5011831* (OS Build 19042.1679)</summary>
+<summary>April 21, 2022 — update for Team based on KB5011831* (OS Build 19042.1682)</summary>
 
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4581839/windows-10-update-history), include:
 
