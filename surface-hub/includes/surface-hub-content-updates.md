@@ -2,6 +2,14 @@
 
 
 
+## Week of May 23, 2022
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 5/27/2022 | [Install and manage Surface Hub 2 Smart Camera](/surface-hub/surface-hub-2-smart-camera) | modified |
+
+
 ## Week of May 16, 2022
 
 
@@ -17,14 +25,3 @@
 |------|------------|--------|
 | 5/9/2022 | [Install Progressive Web Apps on Surface Hub](/surface-hub/install-pwa-surface-hub) | modified |
 | 5/9/2022 | [Configure Surface Hub Start menu](/surface-hub/surface-hub-start-menu) | modified |
-
-
-## Week of April 25, 2022
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 4/25/2022 | [Install Progressive Web Apps on Surface Hub](/surface-hub/install-pwa-surface-hub) | modified |
-| 4/27/2022 | [Install Progressive Web Apps on Surface Hub](/surface-hub/install-pwa-surface-hub) | modified |
-| 4/25/2022 | [Install Progressive Web Apps on Surface Hub](/surface-hub/install-pwa-surface-hub) | modified |
-| 4/27/2022 | [Install Progressive Web Apps on Surface Hub](/surface-hub/install-pwa-surface-hub) | modified |
