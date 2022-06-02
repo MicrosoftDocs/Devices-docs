@@ -23,7 +23,19 @@ Most Windows updates focus on performance and security improvements. In the list
 ## Windows 10 Team 2020 Update (20H2)
 
 <details>
-<summary>April 21, 2022 — update for Team based on KB5011831* (OS Build 19042.1679)</summary>
+<summary>May 31, 2022 — update for Team based on KB5014023* (OS Build 19042.1741)</summary>
+
+This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4581839/windows-10-update-history), include:
+
+* Resolves an issue where meeting invitations did not show up immediately on the Welcome screen calendar in some environments without a reboot.
+* Resolves an issue where one-click meeting join from the Welcome screen calendar did not work in GCC High environments.
+* Resolves an issue where a "Microsoft Teams is not responding" window would sometimes appear during regular Teams usage.
+ 
+Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabling device features and services. *[KB5014023](https://support.microsoft.com/help/5014023)
+</details>
+
+<details>
+<summary>April 21, 2022 — update for Team based on KB5011831* (OS Build 19042.1682)</summary>
 
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4581839/windows-10-update-history), include:
 
@@ -407,7 +419,7 @@ This update to the Surface Hub includes quality improvements and security fixes.
   * Resolves Skype for Business network connection issue, when device is connected to Internet
   * Resolves Skype for Business crash when searching for users from directory
 * Resolves issue where the Hub mistakenly reports “No Internet connection” in enterprise proxy environments.
-* Implemented a feature allowing customers to opt-in to a new Whiteboard experience.
+* Implemented a feature allowing customers to opt in to a new Whiteboard experience.
 
 Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabling device features and services.
 *[KB4462939](https://support.microsoft.com/help/4462939)
@@ -722,7 +734,7 @@ This update brings the Windows 10 Team Anniversary Update to Surface Hub and inc
     * Loss of video during meeting with multiple video presenters
     * Video cropping during calls
     * Outgoing call video not displaying for other participants
-  * Addressed issue with UPN sign in error
+  * Addressed issue with UPN sign-in error
   * Addressed issue with dial pad during use of Session Initiation Protocol (SIP) calls
 * Whiteboard
   * User can now save and recall Whiteboard sessions using OneDrive online service (via Share functionality)
