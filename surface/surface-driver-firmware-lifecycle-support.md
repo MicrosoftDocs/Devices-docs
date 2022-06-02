@@ -19,17 +19,20 @@ appliesto:
 
 # Surface driver and firmware lifecycle for Windows-based devices
  
-In response to requests from customers for more detailed lifecycle information to help plan and manage hardware and software deployments, Surface is offering additional guidance on our driver and firmware updates.
+In response to requests from customers for more detailed lifecycle information to help plan and manage hardware and software deployments, Surface is offering more guidance on our driver and firmware updates.
  
 This lifecycle policy covers drivers and firmware releases for Windows-based Surface devices. The lifecycle begins when a device is first released and concludes when Surface ceases publication of drivers and firmware updates on the End of Servicing date. The following sections define the lifecycle policy and End of Servicing dates.
 
 ## Surface driver and firmware support lifecycle
  
-The Surface Driver and Firmware Lifecycle is comprised of two parts: The driver and firmware support period for a device, and the support provided for OS versions during that period.
+The Surface Driver and Firmware Lifecycle has two parts:
+
+- The driver and firmware-support period for a device.
+- The support provided for OS versions during that period.
 
 - **Device support period.** The device support period defines the period during which Surface will support driver and firmware updates for a device. The Device Support Period starts when a device is released. Surface devices will receive driver and firmware updates for at least 4 years from when the device was first released. In cases where the support duration is longer than 4 years, an updated end of servicing date will be published in advance of the date of last servicing.
 
-- **OS version support.** OS version support defines the operating system versions supported by Surface during the device support period. Surface devices will receive driver and firmware updates for Windows OS versions released in the prior 30 months. Surface will not support Windows OS versions earlier than the OS versions supported at device release. For the minimum supported OS version of your Surface device, see [Surface supported operating systems.](https://support.microsoft.com/help/2858199/surface-supported-operating-systems)  
+- **OS version support.** OS version support defines the operating system versions supported by Surface during the device support period. Surface devices will receive driver and firmware updates for Windows OS versions released in the prior 30 months. Surface won't support Windows OS versions earlier than the OS versions supported at device release. For the minimum supported OS version of your Surface device, see [Surface supported operating systems.](https://support.microsoft.com/help/2858199/surface-supported-operating-systems)  
 
  
 Once the device support period is concluded at the End of Servicing Date, devices will continue to receive Windows OS feature and security updates in accordance with the Windows Lifecycle Policy as described on the  [Microsoft Lifecycle Policy support page](https://support.microsoft.com/hub/4095338/microsoft-lifecycle-policy).
@@ -91,6 +94,6 @@ The following table lists the release date and End of Servicing date for each Su
  
 ## Learn more
 
-For additional information on LTSC support see [Surface device compatibility with Windows 10 Long-Term Servicing Channel (LTSC)](surface-device-compatibility-with-windows-10-ltsc.md)
+- [Surface device compatibility with Windows 10 Long-Term Servicing Channel (LTSC)](surface-device-compatibility-with-windows-10-ltsc.md)
 
-For additional information about Hardware Warranty and Customer support, see [Surface Warranty and Support Plans](https://www.microsoft.com/surface/business/warranty-service-offerings-and-support).
+- [Surface Warranty and Support Plans](https://www.microsoft.com/surface/business/warranty-service-offerings-and-support).
