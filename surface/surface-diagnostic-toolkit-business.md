@@ -49,7 +49,7 @@ SDT for Business is supported on Surface 3 and later devices (except for devices
 - Surface Laptop Studio
 - Surface Go - all generations
 - Surface Laptop - all generations
-- Surface Laptop Go
+- Surface Laptop Go - all generations
 - Surface Pro 3 and later
 - Surface Pro X - all generations
 - Surface Studio - all generations

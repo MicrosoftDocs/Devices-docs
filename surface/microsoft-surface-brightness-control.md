@@ -37,7 +37,7 @@ Download Surface Brightness Control from [Surface Tools for IT](https://www.micr
 - Surface Laptop Studio
 - Surface Studio (all generations)
 - Surface Laptop (all generations)
-- Surface Laptop Go
+- Surface Laptop Go (all generations)
 - Surface Go (all generations)
 
 

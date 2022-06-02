@@ -49,6 +49,7 @@ Surface Dock 2 is designed to simplify IT management, enabling admins to automat
   - Surface Laptop Studio
   - Surface Pro 8
   - Surface Go 3
+  - Surface Laptop Go 2
 
 ## Surface Dock 2 Components
 

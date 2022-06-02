@@ -25,7 +25,7 @@ Setting the device on Battery Limit changes the protocol for charging the device
 
 ## Supported devices
 
-The Battery Limit UEFI setting is built into Surface devices by default including: 
+The Battery Limit UEFI setting is built into Surface devices by default including:
 
 - Surface Pro 7 and later
 - Surface Laptop 3 and later
