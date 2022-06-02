@@ -1,6 +1,6 @@
 ---
 title: Considerations for Surface and Microsoft Endpoint Configuration Manager
-description: The management and deployment of Surface devices with Configuration Manager is fundamentally the same as any other PC; this article describes scenarios that may require additional considerations.
+description: The management and deployment of Surface devices with Configuration Manager is fundamentally the same as any other PC; this article describes scenarios that may require other considerations.
 keywords: manage, deployment, updates, driver, firmware
 ms.prod: w10
 ms.mktglfcycl: deploy
@@ -25,7 +25,7 @@ Fundamentally, management and deployment of Surface devices with Microsoft Endpo
 
 To learn more, see [Microsoft Endpoint Configuration Manager documentation](/mem/configmgr/).
 
-Although the deployment and management of Surface devices is fundamentally similar to other PCs, some scenarios may require additional IT tasks, as described in this article. 
+Although the deployment and management of Surface devices is fundamentally similar to other PCs, some scenarios may require extra IT tasks, as described below. 
 
 > [!TIP]
 > Use the [Current Branch of Microsoft Endpoint Configuration Manager](/mem/configmgr/core/servers/manage/updates) to manage Surface devices.
@@ -46,7 +46,7 @@ To ensure that Surface devices using the same Ethernet adapter are identified as
 
 ### Surface Ethernet Driver
 
-Since 2016, the driver for the Surface Ethernet adapter has been included by default in Windows and requires no additional IT configuration. Starting with its inclusion in Windows 10, the driver is no longer available for download from the Microsoft Download Center. (If you need to deploy earlier versions of Windows 10 Pro, you can download the latest driver from the [Microsoft Update Catalog](https://www.catalog.update.microsoft.com/Search.aspx?q=surface%20ethernet%20drivers)).
+Since 2016, the driver for the Surface Ethernet adapter has been included by default in Windows and requires no another IT configuration. The driver is no longer available for download from the Microsoft Download Center. If you need to deploy earlier versions of Windows 10 Pro, you can download the latest driver from the [Microsoft Update Catalog](https://www.catalog.update.microsoft.com/Search.aspx?q=surface%20ethernet%20drivers).
 
 ## Deploy Surface app with Configuration Manager
 
@@ -54,17 +54,17 @@ With the release of Microsoft Store for Business, Surface app is no longer avail
 
 ## Use prestaged media with Surface clients
 
-If your organization uses prestaged media to load deployment resources onto machines prior to deployment with Configuration Manager, the nature of Surface devices as UEFI devices may require you to take additional steps. Specifically, a native UEFI environment requires that you create multiple partitions on the boot disk of the system. If you are following along with the [documentation for prestaged media](/mem/configmgr/osd/deploy-use/create-prestaged-media), the instructions provide for only single partition boot disks and therefore will fail when applied to Surface devices.
+If your organization uses prestaged media to load deployment resources onto machines prior to deployment with Configuration Manager, you may need to take extra steps. Specifically, a native UEFI environment requires that you create multiple partitions on the boot disk of the system. If you're following along with the [documentation for prestaged media](/mem/configmgr/osd/deploy-use/create-prestaged-media), the instructions provide for only single partition boot disks and therefore will fail when applied to Surface devices.
 
-Instructions for applying prestaged media to UEFI devices, such as Surface devices, can be found in the [How to apply Task Sequence Prestaged Media on multi-partitioned disks for BIOS or UEFI PCs in System](https://techcommunity.microsoft.com/t5/configuration-manager-archive/how-to-apply-task-sequence-prestaged-media-on-multi-partitioned/ba-p/392239) blog post.
+To learn more, see [How to apply Task Sequence Prestaged Media on multi-partitioned disks for BIOS or UEFI PCs in System](https://techcommunity.microsoft.com/t5/configuration-manager-archive/how-to-apply-task-sequence-prestaged-media-on-multi-partitioned/ba-p/392239) blog post.
 
 ## Licensing conflicts with OEM Activation 3.0
 
-Surface devices come preinstalled with a licensed copy of Windows. The license key for this preinstalled copy of Windows is embedded in the firmware of the device with [OEM Activation 3.0](/windows-hardware/manufacture/desktop/oem-activation-3) (OA 3.0). When you run Windows installation media on a device with an OA 3.0 key, Windows setup automatically reads the license key and uses it to install and activate Windows. In most situations, this simplifies the reinstallation of Windows, because the user does not have to find or enter a license key.
+Surface devices come preinstalled with a licensed copy of Windows. The license key for this preinstalled copy of Windows is embedded in the firmware of the device with [OEM Activation 3.0](/windows-hardware/manufacture/desktop/oem-activation-3) (OA 3.0). When you run Windows installation media on a device with an OA 3.0 key, Windows setup automatically reads the license key and uses it to install and activate Windows. In most situations, users don't have to find or enter a license key.
 
-When you reimage a device by using Windows Enterprise, this embedded license key does not cause a conflict. This is because the installation media for Windows Enterprise is configured to install only an Enterprise edition of Windows and therefore is incompatible with the license key embedded in the system firmware. If a product key is not specified (such as when you intend to activate with Key Management Services [KMS] or Active Directory Based Activation), a Generic Volume License Key (GVLK) is used until Windows is activated by one of those technologies.
+When you reimage a device by using Windows Enterprise, the embedded license key doesn't cause a conflict. This is because the installation media for Windows Enterprise is configured to install only an Enterprise edition of Windows and is incompatible with the license key embedded in the system firmware. If a product key isn't specified--such as when you intend to activate with Key Management Services [KMS] or Active Directory Based Activation--a Generic Volume License Key (GVLK) is used until Windows is activated by one of those technologies.
 
-However, issues may arise when organizations intend to use versions of Windows that are compatible with the firmware embedded key. For example, an organization that wants to install Windows 10 Pro on a device that originally shipped with Windows 10 Home  may encounter difficulty when Windows setup automatically reads the Home edition key during installation and installs as Windows 10 Home instead of Windows 10 Pro. To avoid this conflict, use the Ei.cfg or Pid.txt file to explicitly instruct Windows setup to prompt for a product key, or enter a specific product key in the deployment task sequence. For more information, see [Windows Setup Edition Configuration and Product ID Files](/windows-hardware/manufacture/desktop/windows-setup-edition-configuration-and-product-id-files--eicfg-and-pidtxt). If you do not have a specific key, you can use the default product keys for Windows. For more information, see [Deploy Windows 10](/windows/deployment/deploy).
+However, issues may arise when organizations intend to use versions of Windows that are compatible with the firmware embedded key. For example, an organization that wants to install Windows 10 Pro on a device that originally shipped with Windows 10 Home  may encounter difficulty when Windows setup automatically reads the Home edition key during installation and installs as Windows 10 Home instead of Windows 10 Pro. To avoid this conflict, use the Ei.cfg or Pid.txt file to explicitly instruct Windows setup to prompt for a product key, or enter a specific product key in the deployment task sequence. For more information, see [Windows Setup Edition Configuration and Product ID Files](/windows-hardware/manufacture/desktop/windows-setup-edition-configuration-and-product-id-files--eicfg-and-pidtxt). If you don't have a specific key, you can use the default product keys for Windows. For more information, see [Deploy Windows 10](/windows/deployment/deploy).
 
 ## Apply an asset tag during deployment
 
@@ -72,6 +72,6 @@ With the [Surface Asset tag tool](assettag.md), you can identify devices from UE
 
 ## Configure push-button reset
 
-When you deploy Windows to a Surface device, the push-button reset functionality of Windows is configured by default to revert the system back to a state where the environment is not yet configured. When the reset function is used, the system discards any installed applications and settings. Although in some situations it can be beneficial to restore the system to a state without applications and settings, in a professional environment this effectively renders the system unusable to the end user.
+When you deploy Windows to a Surface device, the push-button reset functionality of Windows is configured by default to revert the system back to a state where the environment isn't yet configured. When the reset function is used, the system discards any installed applications and settings. Although in some situations it can be beneficial to restore the system to a state without applications and settings, in a professional environment, this effectively renders the system unusable to the end user.
 
-Push-button reset can be configured, however, to restore the system configuration to a state where it is ready for use by the end user. Follow the process outlined in [Deploy push-button reset features](/windows-hardware/manufacture/desktop/deploy-push-button-reset-features) to customize the push-button reset experience for your devices.
+Push-button reset can be configured, however, to restore the system configuration to a state where it's ready for use by the end user. Follow the process outlined in [Deploy push-button reset features](/windows-hardware/manufacture/desktop/deploy-push-button-reset-features) to customize the push-button reset experience for your devices.

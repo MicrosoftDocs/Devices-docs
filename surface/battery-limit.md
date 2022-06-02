@@ -21,7 +21,7 @@ Battery Limit option is a UEFI setting that changes how the Surface device batte
 
 ## How Battery Limit works
 
-Setting the device on Battery Limit changes the protocol for charging the device battery. When Battery Limit is enabled, the battery charge will be limited to 50% of its maximum capacity. The charge level reported in Windows will reflect this limit. Therefore, it will show that the battery is charged up to 50% and will not charge beyond  this limit. If you enable Battery Limit while the device is above 50% charge, the Battery icon will show that the device is plugged in but discharging until the device reaches 50% of its maximum charge capacity.  
+Setting the device on Battery Limit changes the protocol for charging the device battery. When Battery Limit is enabled, the battery charge will be limited to 50% of its maximum capacity. The charge level reported in Windows will reflect this limit. Therefore, it will show that the battery is charged up to 50% and won't charge beyond  this limit. If you enable Battery Limit while the device is above 50% charge, the Battery icon shows the device is plugged in but discharging until the device reaches 50% of its maximum charge capacity.  
 
 ## Supported devices
 
@@ -65,7 +65,7 @@ The Surface UEFI battery limit is also available for configuration via the follo
 
 - Surface Pro 4 and later
   - [Microsoft Surface UEFI Configurator](surface-enterprise-management-mode.md)  
-    - Surface UEFI Manager Powershell scripts (SEMM_Powershell.zip) in the [Surface Tools for IT downloads](https://www.microsoft.com/download/details.aspx?id=46703)
+    - Surface UEFI Manager PowerShell scripts (SEMM_Powershell.zip) in the [Surface Tools for IT downloads](https://www.microsoft.com/download/details.aspx?id=46703)
 
 ### Using Microsoft Surface UEFI Configurator
 
@@ -83,4 +83,4 @@ The battery limit feature is controlled via the following setting:
 
 **Default**:  `0`
 
-Set this to `1` to enable Battery Limit.
+Configure setting to `1` to enable Battery Limit.
