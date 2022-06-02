@@ -32,6 +32,7 @@ The Battery Limit UEFI setting is built into Surface devices by default includin
 - Surface Book 3
 - Surface Laptop Studio
 - Surface Laptop Go
+- Surface Laptop Go 2
 - Surface Studio 2
 - Surface Laptop SE
 

@@ -26,6 +26,7 @@ appliesto:
 - Surface Laptop (all generations)
 - Surface Pro 3 and later
 - Surface Laptop Go
+- Surface Laptop Go 2
 - Surface Go (all generations)
 - Surface Book (all generations)
 - Surface Studio (all generations)

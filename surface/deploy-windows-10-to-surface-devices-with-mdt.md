@@ -27,7 +27,7 @@ appliesto:
 - Surface Pro 4 and later
 - Surface Book (all generations)
 - Surface Laptop (all generations)
-- Surface Laptop Go 
+- Surface Laptop Go (all generations)
 - Surface Go (all generations)
 - Surface 3
 - Windows 10
