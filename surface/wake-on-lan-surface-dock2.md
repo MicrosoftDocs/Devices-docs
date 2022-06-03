@@ -44,6 +44,7 @@ Devices must have a wired connection with Surface Dock 2 and stay connected to A
 - Surface Pro X
 - Surface Go (all generations)
 - Surface Laptop Go
+- Surface Laptop Go 2
 - Surface Book 3
 - Surface Laptop Studio
 

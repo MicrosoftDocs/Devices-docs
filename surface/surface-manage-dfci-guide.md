@@ -53,10 +53,10 @@ DFCI is supported in the following devices:
 - Surface Laptop 3 (Intel processors only)
 - Surface Book 3
 - Surface Laptop Go
-
+- Surface Laptop Go 2
 
 >[!TIP]
-> Commercial SKUs (aka Surface for Business) run Windows 10 Pro/Enterprise or Windows 11 Pro/Enterprise; consumer SKUs run Windows 10/Windows 11 Home. To learn more, see [View your system info](https://support.microsoft.com/windows/view-your-system-info-a965a8f2-0773-1d65-472a-1e747c9ebe00). 
+> Commercial SKUs (aka Surface for Business) run Windows 10 Pro/Enterprise or Windows 11 Pro/Enterprise; consumer SKUs run Windows 10/Windows 11 Home. To learn more, see [View your system info](https://support.microsoft.com/windows/view-your-system-info-a965a8f2-0773-1d65-472a-1e747c9ebe00).
 
 > [!NOTE]
 > Surface Pro X does not support DFCI settings management for built-in camera, audio, and Wi-Fi/Bluetooth.
@@ -120,12 +120,11 @@ To ensure that devices apply the DFCI configuration during OOBE before users sig
 
 For more information, refer to [Set up an enrollment status page](/intune/enrollment/windows-enrollment-status).
 
-
 ## Configure DFCI settings on Surface devices
 
 DFCI includes a streamlined set of UEFI configuration policies that provide an extra level of security by locking down devices at the hardware level. DFCI is designed to be used in conjunction with mobile device management settings at the software level. Note that DFCI settings only affect hardware components built into Surface devices and do not extend to attached peripherals such as USB webcams. (However, you can use Device restriction policies in Intune to turn off access to attached peripherals at the software level).
 
-You configure DFCI policy settings by editing the DFCI profile from Endpoint Manager, as shown in the figure below. 
+You configure DFCI policy settings by editing the DFCI profile from Endpoint Manager, as shown in the figure below.
 
 - In Endpoint Manager at  devicemanagement.microsoft.com, select **Devices > Windows > Configuration Profiles > “DFCI profile name” > Properties > Settings**.
 
@@ -148,15 +147,15 @@ The rest of the DFCI settings enable you to turn off functionality that would ot
 
 > [!CAUTION]
 > The **Disable radios (Bluetooth, Wi-Fi)** setting should only be used on devices that have a wired Ethernet connection.
- 
+
 > [!NOTE]
->  DFCI in Intune includes two settings that do not currently apply to Surface devices: (1) CPU and IO virtualization and (2) Disable Boot from network adapters.
- 
+> DFCI in Intune includes two settings that do not currently apply to Surface devices: (1) CPU and IO virtualization and (2) Disable Boot from network adapters.
+
 Intune provides Scope tags to delegate administrative rights and Applicability Rules to manage device types. For more information about policy management support and full details on all DFCI settings, refer to [Microsoft Intune documentation](/intune/configuration/device-firmware-configuration-interface-windows).
 
 ## Register devices in Autopilot
 
-As stated above, DFCI can only be applied on devices registered in Windows Autopilot by your reseller or distributor and is  supported on Surface Pro 8, Surface Laptop Studio, Surface Go 3, Surface Pro 7+, Surface Laptop Go, Surface Pro 7, Surface Pro X, and Surface Laptop 3. For security reasons, it’s not possible to “self-provision” your devices into Autopilot. To learn more, see Surface [Registration Support for Windows Autopilot](surface-autopilot-registration-support.md). 
+As stated above, DFCI can only be applied on devices registered in Windows Autopilot by your reseller or distributor and is  supported on Surface Pro 8, Surface Laptop Studio, Surface Go 3, Surface Pro 7+, Surface Laptop Go, Surface Laptp Go 2, Surface Pro 7, Surface Pro X, and Surface Laptop 3. For security reasons, it’s not possible to “self-provision” your devices into Autopilot. To learn more, see Surface [Registration Support for Windows Autopilot](surface-autopilot-registration-support.md).
 
 ## Manually Sync Autopilot devices
 
@@ -195,7 +194,7 @@ If the original DFCI profile has been deleted, you can remove policy settings by
 **To remove DFCI management and return device to factory new state:**
 
 1. Retire the device from Intune:
-    1. In Endpoint Manager at  devicemanagement.microsoft.com, choose **Groups > All Devices**. Select the devices you want to retire, and then choose **Retire/Wipe.** To learn more refer to [Remove devices by using wipe, retire, or manually unenrolling the device](/intune/remote-actions/devices-wipe). 
+    1. In Endpoint Manager at  devicemanagement.microsoft.com, choose **Groups > All Devices**. Select the devices you want to retire, and then choose **Retire/Wipe.** To learn more refer to [Remove devices by using wipe, retire, or manually unenrolling the device](/intune/remote-actions/devices-wipe).
 2. Delete the Autopilot registration from Intune:
     1.  Choose **Device enrollment > Windows enrollment > Devices**.
     2. Under Windows Autopilot devices, choose the devices you want to delete, and then choose **Delete**.
@@ -205,7 +204,8 @@ If the original DFCI profile has been deleted, you can remove policy settings by
 To keep managing the device with Intune, but without DFCI management, self-register the device to Autopilot and enroll it to Intune. DFCI will not be applied to self-registered devices.
 
 ## Learn more
+
 - [Ignite 2019: Announcing remote management of Surface UEFI settings from Intune](https://techcommunity.microsoft.com/t5/Surface-IT-Pro-Blog/Ignite-2019-Announcing-remote-management-of-Surface-UEFI/ba-p/978333)
-[Windows Autopilot](https://www.microsoft.com/microsoft-365/windows/windows-autopilot)
-- [Windows Autopilot and Surface devices](windows-autopilot-and-surface-devices.md) 
+- [Windows Autopilot](https://www.microsoft.com/microsoft-365/windows/windows-autopilot)
+- [Windows Autopilot and Surface devices](windows-autopilot-and-surface-devices.md)
 - [Use DFCI profiles on Windows devices in Microsoft Intune](/intune/configuration/device-firmware-configuration-interface-windows)
