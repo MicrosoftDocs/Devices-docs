@@ -40,6 +40,7 @@ ms.custom:
 - Surface Pro 7+
 - Surface Pro X
 - Surface Laptop Go
+- Surface Laptop Go 2
 - Surface Laptop 3
 - Surface Laptop 4
 
