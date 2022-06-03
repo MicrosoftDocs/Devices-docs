@@ -54,6 +54,7 @@ Surface devices with support for WOL:
 - Surface Go (all generations)
 - Surface Laptop (all generations)
 - Surface Laptop Go
+- Surface Laptop Go 2
 - Surface Laptop SE
 - Surface Laptop Studio
 - Surface Studio 2 (see Surface Studio 2 instructions below)
