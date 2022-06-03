@@ -19,7 +19,7 @@ appliesto:
 
 # OS choice for new Surface devices
  
-In light of the general availability of Windows 11, Oct. 5, 2021, commercial customers can choose to have Windows 10 or Windows 11 installed on new Surface devices including [Surface Pro 8](https://www.microsoft.com/surface/business/surface-pro-8), [Surface Laptop Studio](https://www.microsoft.com/surface/business/surface-laptop-studio), and [Surface Go 3](https://www.microsoft.com/surface/business/surface-go-3).  
+In light of the general availability of Windows 11, Oct. 5, 2021, commercial customers can choose to have Windows 10 or Windows 11 installed on new Surface devices including [Surface Pro 8](https://www.microsoft.com/surface/business/surface-pro-8), [Surface Laptop Studio](https://www.microsoft.com/surface/business/surface-laptop-studio), [Surface Go 3](https://www.microsoft.com/surface/business/surface-go-3), and [Surface Laptop Go 2](https://www.microsoft.com/surface/business/surface-laptop-go-2).    
  
 The ability to get the OS version they need directly from Surface frees IT admins and partners from having to compile driver packs and re-image devices before distributing them to their users via Autopilot or Azure Active Directory domain join (AADJ). This simplified IT process includes delivery of shrink-wrapped devices already configured with the firmware and drivers built and tested for the OS you choose. Plus, customers will be able to download bare metal recovery (BMR) and .msi files from the [Surface Recovery Image Download page.](https://support.microsoft.com/surface-recovery-image) 
  

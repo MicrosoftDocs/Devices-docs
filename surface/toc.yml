@@ -35,7 +35,9 @@
       - name: Order Surface devices
         items:  
         - name: Surface OS choice
-          href: surface-os-choice.md  
+          href: surface-os-choice.md    
+        - name: Surface Laptop Go 2
+          href: https://www.microsoft.com/surface/business/surface-laptop-go-2
         - name: Surface Pro 8 for Business
           href: https://www.microsoft.com/surface/business/surface-pro-8
         - name: Surface Pro X for Business
