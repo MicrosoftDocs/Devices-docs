@@ -21,12 +21,13 @@ appliesto:
 
 Commercial customers can choose to have Windows 10 or Windows 11 installed on new Surface devices:
 
+- [Surface Laptop Go 2](https://www.microsoft.com/surface/business/surface-laptop-go-2)
 - [Surface Pro 8](https://www.microsoft.com/surface/business/surface-pro-8)
 - [Surface Laptop Studio](https://www.microsoft.com/surface/business/surface-laptop-studio)
 - [Surface Go 3](https://www.microsoft.com/surface/business/surface-go-3)
-- [Surface Laptop Go 2](https://www.microsoft.com/surface/business/surface-laptop-go-2).
 
-## How to choose
+
+## Considerations for choosing your OS 
 
 Whether you choose to purchase new Surface devices running Windows 11 or opt for Surface devices with Windows 10 may depend on your current corporate environment:
 
