@@ -26,7 +26,7 @@ Whether you choose to purchase new Surface devices running Windows 11 or opt for
 - Windows 10 only. Designed for customers who require Windows 10 out of the box and deploy devices using Windows Autopilot or Azure Active Directory domain join (AADJ). With **Windows 10 SKUs**, you avoid the need to compile driver packs and re-image devices before distributing them to users. It includes an additional fee of $30 per device.1
 - Windows 10 & Windows 11. Designed for customers who use Windows 11 and also deploy Windows 10 via traditional deployment methods that rely on re-imaging devices. With **Windows 11 SKUs**, you can take advantage of built-in downgrade rights to Windows 10 and load custom Windows 10 images on devices as needed.
 
-## OS choice summary
+**Table 1. OS choice summary**
 
 | Network environment     | Deployment method               | Recommended SKUs | Additional cost |
 | ----------------------- | ------------------------------- | ---------------- | --------------- |
