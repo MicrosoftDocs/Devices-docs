@@ -163,7 +163,7 @@
       - name: Best practices
         items:  
         - name: NFC support in Surface Go for Business
-          href: nfc-support-surface-go.md
+          href: surface-go-nfc-support.md
         - name: Optimize video conferencing on Surface devices
           href: optimize-video-conferencing-on-surface.md   
         - name: Optimize Wi-Fi connectivity on Surface devices
