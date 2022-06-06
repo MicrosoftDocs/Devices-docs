@@ -24,8 +24,8 @@ landingContent:
     linkLists:
       - linkListType: whats-new
         links:
-          - text: Introducing Surface Laptop SE overview
-            url: surface-laptop-se-overview.md
+          - text: Surface Laptop Go 2 overview
+            url: surface-laptop-go-2.md
           - text: Surface Management Portal
             url: surface-management-portal.md
           - text: Which Surface devices can be upgraded to Windows 11?
