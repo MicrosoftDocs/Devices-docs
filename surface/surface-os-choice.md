@@ -19,12 +19,19 @@ appliesto:
 
 # OS choice for new Surface devices
 
-Commercial customers can choose to have Windows 10 or Windows 11 installed on new Surface devices, including [Surface Pro 8](https://www.microsoft.com/surface/business/surface-pro-8), [Surface Laptop Studio](https://www.microsoft.com/surface/business/surface-laptop-studio), [Surface Go 3](https://www.microsoft.com/surface/business/surface-go-3), and [Surface Laptop Go 2](https://www.microsoft.com/surface/business/surface-laptop-go-2).
+Commercial customers can choose to have Windows 10 or Windows 11 installed on new Surface devices:
+
+- [Surface Pro 8](https://www.microsoft.com/surface/business/surface-pro-8)
+- [Surface Laptop Studio](https://www.microsoft.com/surface/business/surface-laptop-studio)
+- [Surface Go 3](https://www.microsoft.com/surface/business/surface-go-3)
+- [Surface Laptop Go 2](https://www.microsoft.com/surface/business/surface-laptop-go-2).
+
+## How to choose
 
 Whether you choose to purchase new Surface devices running Windows 11 or opt for Surface devices with Windows 10 may depend on your current corporate environment:
 
-- Windows 10 only. Designed for customers who require Windows 10 out of the box and deploy devices using Windows Autopilot or Azure Active Directory domain join (AADJ). With **Windows 10 SKUs**, you avoid the need to compile driver packs and re-image devices before distributing them to users. It includes an additional fee of $30 per device.1
-- Windows 10 & Windows 11. Designed for customers who use Windows 11 and also deploy Windows 10 via traditional deployment methods that rely on re-imaging devices. With **Windows 11 SKUs**, you can take advantage of built-in downgrade rights to Windows 10 and load custom Windows 10 images on devices as needed.
+- Windows 10 only. Designed for customers who require Windows 10 out of the box and deploy devices using Windows Autopilot or Azure Active Directory domain join (AADJ). With **Windows 10 SKUs**, you avoid the need to compile driver packs and reimage devices before distributing them to users. It includes an additional fee of $30 per device. <sup>1</sup>
+- Windows 10 & Windows 11. Designed for customers who use Windows 11 and also deploy Windows 10 via traditional deployment methods that rely on reimaging devices. With **Windows 11 SKUs**, you can take advantage of built-in downgrade rights to Windows 10 and load custom Windows 10 images on devices as needed.
 
 **Table 1. OS choice summary**
 
@@ -38,14 +45,18 @@ Whether you choose to purchase new Surface devices running Windows 11 or opt for
 The ability to get the OS version you need directly from Surface includes delivery of factory shrink-wrapped devices fully configured with the requisite firmware, drivers, and security policies. The additional $30 fee covers the cost of this service along with the following benefits that allow you to:
 
 - Provide your users with the latest Surface hardware today while upgrading to Windows 11 at your own pace.
-- Reduce your exposure to potential supply chain vulnerabilities by eliminating the need to re-image to Windows 10.
+- Reduce your exposure to potential supply chain vulnerabilities by eliminating the need to reimage to Windows 10.
 - Save time with Windows Autopilot zero-touch deployment, including faster app and policy updates and fewer help desk calls.
 
 ## How to order
 
 Commercial customers can place orders for new devices via [authorized Microsoft Surface resellers](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface).
 
-## Learn more
+### References
+
+1. Based on MSRP, actual pricing may vary
+
+### Learn more
 
 - [Surface for Business](https://www.microsoft.com/surface/business)
 - [Surface IT Pro blog](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/bg-p/SurfaceITPro)
