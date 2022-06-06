@@ -1,6 +1,6 @@
 ---
 title: Best practice power settings for Surface devices
-description: This topic provides best practice recommendations for maintaining optimal power settings and explains how Surface streamlines the power management experience. This article applies to all currently supported Surface devices including Surface Pro 7+, Surface Pro 7, Surface Pro X, and Surface Laptop 3. 
+description: This topic provides best practice recommendations for maintaining optimal power settings and explains how Surface streamlines the power management experience. This article applies to all currently supported Surface devices including Surface Laptop Go 2, Surface Pro 8, Surface Laptop SE, Surface Laptop 4, and Surface Pro X. 
 ms.prod: w10
 ms.mktglfcycl: manage
 ms.sitesec: library
@@ -35,7 +35,7 @@ To ensure Surface devices across your organization fully benefit from Surface po
 - Avoid creating custom power profiles or adjusting advanced power settings not visible in the default UI  (**System** > **Power & sleep**).
 - If you must manage the power profile of devices across your network (such as in highly managed organizations), use the powercfg command tool to export the power plan from the factory image of the Surface device and then import it into the provisioning package for your Surface devices. 
 
-    >[!NOTE]
+    >[!TIP]
     >You can only export a power plan across the same type of Surface device.  For example, you cannot export a power plan from Surface Laptop and import it on Surface Pro.  For more information, refer to [Configure power settings](/windows-hardware/customize/power-settings/configure-power-settings).
 
 - Exclude Surface devices from any existing power management policy settings. 
