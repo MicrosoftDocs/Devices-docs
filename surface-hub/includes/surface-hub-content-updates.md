@@ -2,6 +2,14 @@
 
 
 
+## Week of May 30, 2022
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 6/3/2022 | [Surface Hub update history](/surface-hub/surface-hub-update-history) | modified |
+
+
 ## Week of May 23, 2022
 
 
