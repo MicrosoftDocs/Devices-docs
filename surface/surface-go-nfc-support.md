@@ -19,7 +19,7 @@ appliesto:
 
 # NFC support in Surface Go for Business
 
-Surface Go for Business devices have limited near field communication (NFC) support. Common scenarios applicable to Surface Go, Surface Go 2, and Surface Go 3 include:
+Surface Go for Business devices are equipped with support for near field communication (NFC), allowing users to take advantage of several common scenarios with the exception of NFC card payments. Applicable scenarios include:
 
 - **Passwordless authentication.** Azure AD supports FIDO2 security keys as an authentication method for signing into operating systems, applications, and services. To learn more, see the following blog post: [More NFC card reading accessories released for Surface Go](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/more-nfc-card-reading-accessories-released-for-surface-go/ba-p/2203298).
 - **Proximity-based apps.** Applications that take advantage of proximity and location by using the RFID capability in Surface Go and a proximity sensor in Windows 10.
