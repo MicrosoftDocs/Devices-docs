@@ -13,7 +13,7 @@ ms.reviewer: hachidan
 manager: laurawi
 ms.localizationpriority: medium
 audience: itpro
-ms.date: 12/08/2021
+ms.date: 06/07/2022
 appliesto:
 - Windows 10
 - Windows 11
@@ -283,6 +283,13 @@ valid and not expired.
 The PowerShell samples that create a config package for a specific device type can also be used to create a reset package that's serial-number independent. If the certificate is still valid, you can create a reset package using PowerShell to reset SEMM.
 
 ## Version history
+
+### Version 2.97.139.0
+
+This version of SEMM includes:
+
+- Support for Surface Laptop Go 2
+
 
 ### Version 2.94.139.0
 
