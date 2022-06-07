@@ -14,7 +14,7 @@ author: coveminer
 ms.author: greglin
 ms.topic: article
 audience: itpro
-ms.date: 10/06/2021
+ms.date: 06/02/2022
 appliesto:
 - Windows 10
 - Windows 11
@@ -61,7 +61,7 @@ After the creation tool is installed, follow these steps to create a Microsoft S
   *Figure 1. Begin the Microsoft Surface Data Eraser tool*
 
 3. Select **Continue** to acknowledge that you have a USB drive of at least 4GB connected, as shown in Figure 2.
-   
+
    :::image type="content" source="images/microsoft-surface-data-eraser/fig2-continue.png" alt-text="Figure 2. Confirm USB drive of at least 4GB is connected":::<br>
    *Figure 2. Confirm USB drive of at least 4GB is connected*
 
@@ -134,6 +134,14 @@ After you create a Microsoft Surface Data Eraser USB stick, you can boot a suppo
 ## Changes and updates
 
 Microsoft Surface Data Eraser is periodically updated by Microsoft. For information about the changes provided in each new version, see the following:
+
+### 3.45.139.0
+
+*Release Date: 7 June 2022*
+
+This version of Surface Data Eraser includes:
+
+- Support for Surface Laptop Go 2.
 
 ### 3.42.139.0
 
