@@ -83,14 +83,14 @@ You can use the Microsoft Surface UEFI Configurator tool in three modes:
 
 - [Surface UEFI Configuration Package](#configuration-package). Use this mode to create a Surface UEFI configuration package to enroll a Surface device in SEMM and to configure UEFI settings on enrolled devices.
 - [Surface UEFI Reset Package](#reset-package). Use this mode to unenroll a Surface device from SEMM.
-- [Surface UEFI Recovery Request](#recovery-request). Use this mode to respond to a recovery request to unenroll a Surface device from SEMM where a Reset Package operation is not successful.
+- [Surface UEFI Recovery Request](#recovery-request). Use this mode to respond to a recovery request to unenroll a Surface device from SEMM where a Reset Package operation isn't successful.
 
 ### Download Microsoft Surface UEFI Configurator
 
 You can download Microsoft Surface UEFI Configurator from the [Surface Tools for IT](https://www.microsoft.com/download/details.aspx?id=46703) page in the Microsoft Download Center.
 
-- For Intel/AMD devices, download: **SurfaceUEFI_Configurator_v2.94.139.0_x64.msi**
-- For ARM devices, download: **SurfaceUEFI_Configurator_v2.94.139.0_x86.msi.**
+- For Intel/AMD devices, download: **SurfaceUEFI_Configurator_v2.97.139.0_x64.msi**
+- For ARM devices, download: **SurfaceUEFI_Configurator_v2.97.139.0_x86.msi**
 
 ### Configuration package
 
@@ -176,11 +176,11 @@ For a step-by-step walkthrough of how to enroll a Surface device in SEMM or appl
 
 ### Reset package
 
-A Surface UEFI reset package is used to perform only one task — to unenroll a Surface device from SEMM. The reset package contains signed instructions to remove the SEMM certificate from the device’s firmware and to reset UEFI settings to the factory default settings. Like a Surface UEFI configuration package, a reset package must be signed with the same SEMM certificate that’s provisioned on the Surface device. When you create a SEMM reset package, you’re required to supply the serial number of the Surface device that you intend to reset. SEMM reset packages aren’t universal — they’re specific to one device.
+A Surface UEFI reset package is used to perform only one task—to unenroll a Surface device from SEMM. The reset package contains signed instructions to remove the SEMM certificate from the device’s firmware and to reset UEFI settings to the factory default settings. Like a Surface UEFI configuration package, a reset package must be signed with the same SEMM certificate that’s provisioned on the Surface device. When you create a SEMM reset package, you’re required to supply the serial number of the Surface device that you intend to reset. SEMM reset packages aren’t universal—they’re specific to one device.
 
 ### Recovery request
 
-In some scenarios, it might be impossible to use a Surface UEFI reset package. (For example, if Windows becomes unusable on the Surface device.) In these scenarios you can unenroll the Surface device from SEMM through the **Enterprise Management** page of Surface UEFI (shown in Figure 5) with a Recovery Request operation.
+In some scenarios, it might be impossible to use a Surface UEFI reset package. (For example, if Windows becomes unusable on the Surface device.) In these scenarios, you can unenroll the Surface device from SEMM through the **Enterprise Management** page of Surface UEFI (shown in Figure 5) with a Recovery Request operation.
 
 > [!div class="mx-imgBorder"]
 > ![Initiate a SEMM recovery request.](images/surface-ent-mgmt-fig7-semmrecovery.png "Initiate a SEMM recovery request")
@@ -216,7 +216,7 @@ The following settings are recommended for the SEMM certificate:
 - **Expiration Date** – 15 Months from certificate creation
 - **Key Export Policy** – Exportable
 
-It's also recommended that the SEMM certificate be authenticated in a two-tier public key infrastructure (PKI) architecture where the intermediate certification authority (CA) is dedicated to SEMM, enabling certificate revocation. For more information about a two-tier PKI configuration, see [Test Lab Guide: Deploying an AD CS Two-Tier PKI Hierarchy](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831348(v=ws.11)).
+It's also recommended that the SEMM certificate is authenticated in a two-tier public key infrastructure (PKI) architecture where the intermediate certification authority (CA) is dedicated to SEMM, enabling certificate revocation. For more information about a two-tier PKI configuration, see [Test Lab Guide: Deploying an AD CS Two-Tier PKI Hierarchy](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831348(v=ws.11)).
 
 ### Self-signed certificate
 
@@ -407,7 +407,7 @@ This version of SEMM includes:
 - Support for Surface Pro.
 - Bug fixes and general improvements.
 
-## Related topics
+## Related articles
 
 - [Enroll and configure Surface devices with SEMM](enroll-and-configure-surface-devices-with-semm.md)
 - [Unenroll Surface devices from SEMM](unenroll-surface-devices-from-semm.md)
