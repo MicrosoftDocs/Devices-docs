@@ -39,6 +39,8 @@ OEMConfig policies are a distinct type of device configuration policy similar to
 
 ## Get started
 
+:::image type="content" source="images/surface-oem-config.png" alt-text="Microsoft Surface OEM Config app" :::
+
 First, add the Microsoft Surface OEMConfig application to your environment using the Managed Google Play iframe in your EMM.
 
 First, assign the Surface OEMConfig app to the groups or users you want to target. Then create an Android Configuration profile to apply your settings to target devices.
