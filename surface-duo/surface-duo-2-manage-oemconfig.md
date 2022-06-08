@@ -8,7 +8,7 @@ ms.sitesec: library
 author: coveminer
 ms.author: karand
 ms.topic: article
-ms.date: 5/31/2022
+ms.date: 6/08/2022
 ms.reviewer: karand
 manager: laurawi
 ms.audience: itpro
@@ -50,10 +50,13 @@ First, assign the Surface OEMConfig app to the groups or users you want to targe
 
 ## Assign Surface OEMConfig to groups or users
 
+> [!TIP]
+> Before beginning, review Intune documentation: [Managed Google Play app deployment to unmanaged devices](/mem/intune/apps/apps-deploy#managed-google-play-app-deployment-to-unmanaged-devices)
+
 1. Sign in to the Intune portal at [Microsoft Endpoint Manager admin center](https://endpoint.microsoft.com/).
 2. Go to **Apps** > **Android** > and select **Add**.
 3. Under **App** type, select **Managed Google Play**.
-4. On the **Managed** Google Play page, search for Microsoft Surface OEMConfig.
+4. On the **Managed Google Play** page, search for Microsoft Surface OEMConfig.
 5. On the Surface OEMConfig page, select  **Properties**. Under Assignments, select **Edit**.
 6. Assign to groups or users as appropriate.
 7. Select **Review** + save.
@@ -61,10 +64,10 @@ First, assign the Surface OEMConfig app to the groups or users you want to targe
 ## Manage firmware on Surface Duo 2
 
 1. Select **Devices** > **Android Configuration profiles** > **Create profile**.
-2. Under Platform, select **Android** enterprise. Under **Profile** type, select **OEMConfig**. Select **Create**.
+2. Under Platform, select **Android enterprise**. Under **Profile** type, choose **OEMConfig** and then select  **Create**.
 3. Enter a name and an optional description.
-4. Choose Select an OEMConfig app and select **Surface OEMConfig**. Choose **Next**.
-5. Select Next. On the configuration settings page, you can manage the following: Camera, Microphone, Near Field Communication (NFC), Wireless LAN (aka Wi-Fi), and Bluetooth. These components are enabled by default. To turn any of them off, select **false** and click **Next**. In this example, NFC is disabled.
+4. Choose **Select an OEMConfig app** and select **Surface OEMConfig**. Select **Next**.
+5. Select **Next**. On the configuration settings page, you can manage the following: Camera, Microphone, Near Field Communication (NFC), Wireless LAN (aka Wi-Fi), and Bluetooth. These components are enabled by default. To turn any of them off, select **false** and click **Next**. 
 6. Enter scope tags as appropriate and select **Next**.
 7. Under Assignments, add a group containing the Surface Duo 2 devices you wish to target. Or you can add All users or All devices, as appropriate. Select **Next**.
 8. Review the profile and select **Create**.
