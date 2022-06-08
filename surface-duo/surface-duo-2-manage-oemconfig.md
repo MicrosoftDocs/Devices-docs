@@ -67,7 +67,7 @@ First, assign the Surface OEMConfig app to the groups or users you want to targe
 2. Under Platform, select **Android enterprise**. Under **Profile** type, choose **OEMConfig** and then select  **Create**.
 3. Enter a name and an optional description.
 4. Choose **Select an OEMConfig app** and select **Surface OEMConfig**. Select **Next**.
-5. Select **Next**. On the configuration settings page, you can manage the following: Camera, Microphone, Near Field Communication (NFC), Wireless LAN (aka Wi-Fi), and Bluetooth. These components are enabled by default. To turn any of them off, select **false** and click **Next**. 
+5. Select **Next**. On the configuration settings page, you can manage the following: Camera, Microphone, Near Field Communication (NFC), Wireless LAN (aka Wi-Fi), and Bluetooth. These components are enabled by default. To turn any of them off, select **false** and click **Next**.
 6. Enter scope tags as appropriate and select **Next**.
 7. Under Assignments, add a group containing the Surface Duo 2 devices you wish to target. Or you can add All users or All devices, as appropriate. Select **Next**.
 8. Review the profile and select **Create**.
