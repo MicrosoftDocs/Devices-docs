@@ -17,6 +17,8 @@
 
     - name: Manage
       items:
+        - name: Manage OEMConfig on Surface Duo 2
+          href: surface-duo-2-manage-oemconfig.md
         - name: Configure work profile for Surface Duo
           href: surface-duo-config-work-profile.md
         - name: Configure Microsoft Launcher for Surface Duo
