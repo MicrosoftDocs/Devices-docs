@@ -30,7 +30,7 @@ With Surface Duo 2, admins can remotely configure specific hardware components v
 
 This capability is similar to Device Firmware Configuration Interface profiles that admins use to remotely manage firmware on Surface Pro 8 and other Surface devices.
 
-OEMConfig policies are a distinct type of device configuration policy similar to app configuration policy. OEMConfig is a standard defined by Google that uses app configuration in Android to send device settings to apps written by OEMs (original equipment manufacturers). This standard allows OEMs and enterprise mobility management (EMM) solutions to build and support OEM-specific features in a standardized way. To learn more, see OEMConfig supports enterprise device features at Google’s Android Enterprise blog.
+OEMConfig policies are a distinct type of device configuration policy similar to app configuration policy. OEMConfig is a standard defined by Google that uses app configuration in Android to send device settings to apps written by OEMs (original equipment manufacturers). This standard allows OEMs and enterprise mobility management (EMM) solutions to build and support OEM-specific features in a standardized way. To learn more, see [OEMConfig supports enterprise device features](https://blog.google/products/android-enterprise/oemconfig-supports-enterprise-device-features/) at Google’s Android Enterprise blog.
 
 ## Prerequisites
 
