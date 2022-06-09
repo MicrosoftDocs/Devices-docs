@@ -8,7 +8,7 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 06/06/2022
+ms.date: 06/09/2022
 ms.reviewer: oayakta
 manager: laurawi
 audience: itpro
@@ -22,12 +22,12 @@ appliesto:
 Commercial customers can choose to have Windows 10 or Windows 11 installed on new Surface devices:
 
 - [Surface Laptop Go 2](https://www.microsoft.com/surface/business/surface-laptop-go-2)
+- [Surface Laptop 4](https://www.microsoft.com/surface/business/surface-laptop-4)
 - [Surface Pro 8](https://www.microsoft.com/surface/business/surface-pro-8)
 - [Surface Laptop Studio](https://www.microsoft.com/surface/business/surface-laptop-studio)
 - [Surface Go 3](https://www.microsoft.com/surface/business/surface-go-3)
 
-
-## Considerations for choosing your OS 
+## Considerations for choosing your OS
 
 Whether you choose to purchase new Surface devices running Windows 11 or opt for Surface devices with Windows 10 may depend on your current corporate environment:
 
@@ -48,6 +48,18 @@ The ability to get the OS version you need directly from Surface includes delive
 - Provide your users with the latest Surface hardware today while upgrading to Windows 11 at your own pace.
 - Reduce your exposure to potential supply chain vulnerabilities by eliminating the need to reimage to Windows 10.
 - Save time with Windows Autopilot zero-touch deployment, including faster app and policy updates and fewer help desk calls.
+
+### Windows OS versions
+
+The following OS versions are available for new devices.
+
+|                       | Windows 10 | Windows 11 |
+| --------------------- | ---------- | ---------- |
+| Surface Laptop Go 2   | 21H2       | 21H2       |
+| Surface Laptop 4      | 21H2       | 21H2       |
+| Surface Laptop Studio | 20H2       | 21H2       |
+| Surface Go 3          | 20H2       | 21H2       |
+| Surface Pro 8         | 20H2       | 21H2       |
 
 ## How to order
 
