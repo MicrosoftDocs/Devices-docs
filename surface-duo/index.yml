@@ -25,6 +25,8 @@ landingContent:
     linkLists:
       - linkListType: whats-new
         links:
+          - text: Manage OEMConfig on Surface Duo 2
+            url: surface-duo-2-manage-oemconfig.md
           - text: Surface Duo 2 for Business
             url: https://www.microsoft.com/surface/business/surface-duo-2
           - text: Fluent UI framework for Surface Duo
