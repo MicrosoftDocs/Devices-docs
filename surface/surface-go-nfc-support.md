@@ -25,7 +25,7 @@ Surface Go for Business devices are equipped with support for near field communi
 - **Proximity-based apps.** Applications that take advantage of proximity and location by using the RFID capability in Surface Go and a proximity sensor in Windows 10 and Windows 11.
 - **Consumer apps.**  RFID-enabled apps capable of directing consumers to target websites. For example,  users can swipe an RFID-enabled prescription container that opens relevant product information.
 
-:::image type="content" source="images/nfc-go.png" alt-text="NFC sensor inside Surface Go for Businesss" :::
+:::image type="content" source="images/nfc-surface-go.png alt-text="NFC sensor inside Surface Go for Businesss" :::
 
 ## NFC FAQ: Surface Go for Business
 
