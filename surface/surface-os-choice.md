@@ -41,7 +41,15 @@ Whether you choose to purchase new Surface devices running Windows 11 or opt for
 | Windows 10 only         | Modern: Autopilot/AADJ          | Windows 10       | $30             |
 | Windows 10 & Windows 11 | Legacy: Custom image deployment | Windows 11       | None            |
 
-**Table 2. Windows OS versions**
+### Windows 10 only
+
+The ability to get the OS version you need directly from Surface includes delivery of factory shrink-wrapped devices fully configured with the requisite firmware, drivers, and security policies. The additional $30 fee covers the cost of this service along with the following benefits that allow you to:
+
+- Provide your users with the latest Surface hardware today while upgrading to Windows 11 at your own pace.
+- Reduce your exposure to potential supply chain vulnerabilities by eliminating the need to reimage to Windows 10.
+- Save time with Windows Autopilot zero-touch deployment, including faster app and policy updates and fewer help desk calls.
+
+## Windows OS versions
 
 The following OS versions are available for new devices.
 
@@ -52,14 +60,6 @@ The following OS versions are available for new devices.
 | Surface Laptop Studio | 20H2       | 21H2       |
 | Surface Go 3          | 20H2       | 21H2       |
 | Surface Pro 8         | 20H2       | 21H2       |
-
-### Windows 10 only
-
-The ability to get the OS version you need directly from Surface includes delivery of factory shrink-wrapped devices fully configured with the requisite firmware, drivers, and security policies. The additional $30 fee covers the cost of this service along with the following benefits that allow you to:
-
-- Provide your users with the latest Surface hardware today while upgrading to Windows 11 at your own pace.
-- Reduce your exposure to potential supply chain vulnerabilities by eliminating the need to reimage to Windows 10.
-- Save time with Windows Autopilot zero-touch deployment, including faster app and policy updates and fewer help desk calls.
 
 ## How to order
 
