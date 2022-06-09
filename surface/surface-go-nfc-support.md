@@ -22,7 +22,7 @@ appliesto:
 Surface Go for Business devices are equipped with support for near field communication (NFC), allowing users to take advantage of several common scenarios with the exception of NFC card payments. Applicable scenarios include:
 
 - **Passwordless authentication.** Azure AD supports FIDO2 security keys as an authentication method for signing into operating systems, applications, and services. To learn more, see the following blog post: [More NFC card reading accessories released for Surface Go](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/more-nfc-card-reading-accessories-released-for-surface-go/ba-p/2203298).
-- **Proximity-based apps.** Applications that take advantage of proximity and location by using the RFID capability in Surface Go and a proximity sensor in Windows 10.
+- **Proximity-based apps.** Applications that take advantage of proximity and location by using the RFID capability in Surface Go and a proximity sensor in Windows 10 and Windows 11.
 - **Consumer apps.**  RFID-enabled apps capable of directing consumers to target websites. For example,  users can swipe an RFID-enabled prescription container that opens relevant product information.
 
 :::image type="content" source="images/nfc-go.png" alt-text="NFC sensor inside Surface Go for Businesss" :::
@@ -55,6 +55,14 @@ Surface Go for Business devices are equipped with support for near field communi
 - Remove any other NFC tags or NFC-enabled cards in the vicinity. Limited NFC support is available for ISO/IEC 14443-A tag types 1 and 2 with antenna diameters between 15 mm to 17 mm.
 - We recommend using the Mifare Classic 1 K card type.
 - Try keeping your badge in a nylon sleeve rather than a hard plastic case.
+
+**Can I use NFC while the device is in a protective case?**
+
+- Our Designed for Surface partners have created protective cases with a built-in NFC range extender designed for a variety of industries. These solutions include:
+
+  - [aXtion Pro MPA/NFC](https://licensedhardware.azurewebsites.net/surface/product/dc426547-655b-eb11-8fed-00155dd3d394/axtion-pro-mpanfc-for-surface-go--go-2--go-3)
+  - [aXtion Extreme MP NFC](https://licensedhardware.azurewebsites.net/surface/product/d1548288-82a1-ec11-b820-00155dd3dff8/axtion-extreme-mp-nfc-for-ms-surface-go-3-c1d2)
+  - [aXtion Extreme MP NFC (ATEX Zone 2)](https://licensedhardware.azurewebsites.net/surface/product/6c85a536-debc-ec11-bea1-00155dd3d776/axtion-extreme-mp-nfc-for-ms-surface-go-3-atex-zone-2)
 
 ## Learn more
 
