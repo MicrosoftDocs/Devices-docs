@@ -53,7 +53,7 @@ The ability to get the OS version you need directly from Surface includes delive
 
 The following OS versions are available for new devices.
 
-|                       | Windows 10 | Windows 11 |
+|      Device           | Windows 10 | Windows 11 |
 | --------------------- | ---------- | ---------- |
 | Surface Laptop Go 2   | 21H2       | 21H2       |
 | Surface Laptop 4      | 21H2       | 21H2       |
