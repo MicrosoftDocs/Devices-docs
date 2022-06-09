@@ -26,6 +26,7 @@ Surface Go for Business devices are equipped with support for near field communi
 - **Consumer apps.**  RFID-enabled apps capable of directing consumers to target websites. For example,  users can swipe an RFID-enabled prescription container that opens relevant product information.
 
 :::image type="content" source="images/nfc-surface-go.png" alt-text="NFC on Surface Go for Businesss" :::
+
 *NFC sensor location on Surface Go for Business*
 
 ## NFC FAQ: Surface Go for Business
