@@ -51,7 +51,7 @@ The ability to get the OS version you need directly from Surface includes delive
 
 ## Windows OS versions
 
-The following OS versions are available for new devices.
+Devices ship from the factory with one of the following OS versions, depending on your choice.
 
 |      Device           | Windows 10 | Windows 11 |
 | --------------------- | ---------- | ---------- |
