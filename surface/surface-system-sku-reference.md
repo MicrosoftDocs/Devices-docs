@@ -9,7 +9,7 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 02/03/2022
+ms.date: 06/07/2022
 ms.reviewer: carlol
 manager: laurawi
 ms.localizationpriority: medium
@@ -57,6 +57,7 @@ System Model and System SKU are variables stored in System Management BIOS (SMBI
 | Surface Laptop 4 15" AMD                                     | Surface Laptop 4 | Surface_Laptop_4_1952:1953     |
 | Surface Laptop 4 15" Intel                                   | Surface Laptop 4 | Surface_Laptop_4_1978:1979     |
 | Surface Laptop Go                                            | Surface Laptop Go | Surface_Laptop_Go_1943      |
+| Surface Laptop Go 2                                          | Surface Laptop Go 2 | Surface_Laptop_Go_2_2013      |
 | Surface Laptop SE                                            | Surface Laptop SE | Surface Laptop SE            |
 | Surface Laptop Studio                                        | Surface Laptop Studio | Surface_Laptop_Studio_1964 |
 | Surface Pro (5th Gen)                                        | Surface Pro      | Surface_Pro_1796                 |
