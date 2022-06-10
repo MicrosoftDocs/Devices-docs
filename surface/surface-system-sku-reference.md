@@ -60,6 +60,8 @@ System Model and System SKU are variables stored in System Management BIOS (SMBI
 | Surface Laptop Go 2                                          | Surface Laptop Go 2 | Surface_Laptop_Go_2_2013      |
 | Surface Laptop SE                                            | Surface Laptop SE | Surface Laptop SE            |
 | Surface Laptop Studio                                        | Surface Laptop Studio | Surface_Laptop_Studio_1964 |
+| Surface Pro 3                                                | Surface Pro 3    | Surface_Pro_3         |
+| Surface Pro 4                                                | Surface Pro 4    | Surface_Pro_4         |
 | Surface Pro (5th Gen)                                        | Surface Pro      | Surface_Pro_1796                 |
 | Surface Pro with LTE Advanced (5th Gen)                      | Surface Pro      | Surface_Pro_1807                 |
 | Surface Pro 6 Commercial                                     | Surface Pro 6    | Surface_Pro_6_1796_Commercial    |
