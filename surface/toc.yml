@@ -112,7 +112,7 @@
           items: 
           - name: Use Surface Diagnostic Toolkit for Business in desktop mode
             href: surface-diagnostic-toolkit-desktop-mode.md
-          - name: Run command-line app console with Surface Diagnostic Toolkit for Busines
+          - name: Run command-line app console with Surface Diagnostic Toolkit for Business
             href: surface-diagnostic-toolkit-command-line.md
         - name: Surface Data Eraser
           href: microsoft-surface-data-eraser.md
@@ -162,6 +162,8 @@
           href: wake-on-power-for-surface.md  
       - name: Best practices
         items:  
+        - name: NFC support in Surface Go for Business
+          href: surface-go-nfc-support.md
         - name: Optimize video conferencing on Surface devices
           href: optimize-video-conferencing-on-surface.md   
         - name: Optimize Wi-Fi connectivity on Surface devices
