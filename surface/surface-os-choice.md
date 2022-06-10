@@ -76,4 +76,4 @@ Commercial customers can place orders for new devices via [authorized Microsoft 
 
 ### References
 
-1. Based on MSRP, actual pricing may vary
+1. Based on MSRP, actual pricing may vary.
