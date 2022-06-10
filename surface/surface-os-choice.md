@@ -53,6 +53,9 @@ The ability to get the OS version you need directly from Surface includes delive
 
 Devices ship from the factory with one of the following OS versions, depending on your choice.
 
+> [!TIP]
+> If you order devices from a partner, please check with the partner on the exact OS version that meets your requirements.
+
 |      Device           | Windows 10 | Windows 11 |
 | --------------------- | ---------- | ---------- |
 | Surface Laptop Go 2   | 21H2       | 21H2       |
