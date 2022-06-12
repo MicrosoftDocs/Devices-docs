@@ -2,9 +2,9 @@
 
 
 
-## Week of January 03, 2022
+## Week of June 06, 2022
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 1/4/2022 | [Surface Lifecycle for Android-based devices](/surface-duo/surface-lifecycle-android-devices) | modified |
+| 6/8/2022 | [Manage OEMConfig on Surface Duo 2](/surface-duo/surface-duo-2-manage-oemconfig) | added |
