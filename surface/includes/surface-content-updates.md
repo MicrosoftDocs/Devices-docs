@@ -2,6 +2,26 @@
 
 
 
+## Week of June 06, 2022
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 6/8/2022 | [Manage OEMConfig on Surface Duo 2](/surface-duo/surface-duo-2-manage-oemconfig) | added |
+
+
+## Week of June 06, 2022
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 6/7/2022 | [Microsoft Surface Data Eraser (Surface)](/surface/microsoft-surface-data-eraser) | modified |
+| 6/7/2022 | [Secure Surface Dock 2 ports with Surface Enterprise Management Mode (SEMM)](/surface/secure-surface-dock-ports-semm) | modified |
+| 6/7/2022 | [Surface Enterprise Management Mode (SEMM)](/surface/surface-enterprise-management-mode) | modified |
+| 6/10/2022 | [NFC support in Surface Go for Business](/surface/surface-go-nfc-support) | added |
+| 6/10/2022 | [OS choice for new Surface devices](/surface/surface-os-choice) | modified |
+
+
 ## Week of May 30, 2022
 
 
@@ -55,11 +75,3 @@
 |------|------------|--------|
 | 5/9/2022 | [Install Progressive Web Apps on Surface Hub](/surface-hub/install-pwa-surface-hub) | modified |
 | 5/9/2022 | [Configure Surface Hub Start menu](/surface-hub/surface-hub-start-menu) | modified |
-
-
-## Week of May 02, 2022
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 5/5/2022 | [Manage and deploy Surface driver and firmware updates](/surface/manage-surface-driver-and-firmware-updates) | modified |
