@@ -1,9 +1,9 @@
 ---
 title: Contact Surface Support
-ms.author: v-todmc
+ms.author: greglin
 author: greg-lindsay
 manager: laurawi
-ms.date: 5/27/2020
+ms.date: 6/14/2022
 audience: Admin
 ms.topic: article
 ms.prod: surface
@@ -25,7 +25,7 @@ description: Support information for Microsoft Surface and Surface Hub products.
 
 ### Before you contact us:  
 
-Run the [Surface Diagnostic Toolkit for Business](https://docs.microsoft.com/surface/surface-diagnostic-toolkit-business) (SDT). The SDT enables IT administrators to quickly investigate, troubleshoot, and resolve hardware, software, and firmware issues with Surface devices. You can run a range of diagnostic tests and software repairs in addition to obtaining device health insights and guidance for resolving issues. 
+Run the [Surface Diagnostic Toolkit for Business](surface-diagnostic-toolkit-business.md) (SDT). The SDT enables IT administrators to quickly investigate, troubleshoot, and resolve hardware, software, and firmware issues with Surface devices. You can run a range of diagnostic tests and software repairs in addition to obtaining device health insights and guidance for resolving issues. 
 
 If you are still having a problem after running the toolkit, use the tabs below to select a support option.
 
