@@ -47,6 +47,14 @@ For Microsoft Premier customers: [Submit your service request on Services Hub](h
 
 ## [In-store support](#tab/instore)
 
+## US
+
+Make an appointment at a Surface participating Service Center to help resolve your issue:
+
+1. Go to [Find a participating Best Buy Service Center for in-person support in the US](https://support.microsoft.com/surface/find-a-participating-best-buy-service-center-for-in-person-support-in-the-us-9c30c2ba-a8d3-4657-b9df-9c00239751a2).
+2. Select your location to find the Service Center nearest you.
+3. Choose your Service Center and contact them to schedule an appointment.
+
 ## China, India
 
 Make an appointment at a Surface Walk-In Center to help resolve your issue:
