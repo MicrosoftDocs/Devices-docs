@@ -93,4 +93,4 @@ To enable WOL on Surface Studio 2, you must use the following procedure:
 
 ### To wake from hibernation (S4) or shutdown (S5) 
 
-- For devices connected to Surface Dock 2, see [Wake on LAN for Surface Dock 2](wake-on-lan-surface-dock2.md)
+For devices connected to Surface Dock 2, see [Wake on LAN for Surface Dock 2](wake-on-lan-surface-dock2.md)
