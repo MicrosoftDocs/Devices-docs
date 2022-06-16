@@ -85,7 +85,7 @@ Before configuring DFCI policy settings, first create a DFCI profile and assign 
 
 3. Select **Windows 10 and later** for platform type.
 
-4. In the Profile type drop down list, select **Device Firmware Configuration Interface** to open the DFCI blade containing all available policy settings. For information on DFCI settings, refer to Table 1 on this page or the [Intune documentation](/intune/configuration/device-firmware-configuration-interface-windows). You can configure DFCI settings during the initial setup process or later by editing the DFCI profile.
+4. In the Profile type dropdown list, select **Device Firmware Configuration Interface** to open the DFCI blade containing all available policy settings. For information on DFCI settings, refer to Table 1 on this page or the [Intune documentation](/intune/configuration/device-firmware-configuration-interface-windows). You can configure DFCI settings during the initial setup process or later by editing the DFCI profile.
 
    :::image type="content" alt-text="Create DFCI profile." source="images/df1.png":::
 
@@ -142,7 +142,7 @@ The rest of the DFCI settings enable you to turn off functionality that would ot
 | Block local users from changing UEFI settings | Under **Security Features > Allow local user to change UEFI settings**, select **None**.              |
 | Disable cameras                               | Under **Built in Hardware > Cameras**, select **Disabled**.                                       |
 | Disable Microphones and speakers              | Under **Built in Hardware > Microphones and speakers**, select **Disabled**.                      |
-| Disable radios (Bluetooth, Wi-Fi)             | Under **Built in Hardware > Radios (Bluetooth, Wi-Fi, etc…)**, select **Disabled**.                   |
+| Disable radios (Bluetooth, Wi-Fi)             | Under **Built in Hardware > Radios (Bluetooth, Wi-Fi, etc.)**, select **Disabled**.                   |
 | Disable Boot from external media (USB, SD)    | Under **Built in Hardware > Boot Options > Boot from external media (USB, SD)**, select **Disabled**. |
 
 > [!CAUTION]
@@ -155,11 +155,11 @@ Intune provides Scope tags to delegate administrative rights and Applicability R
 
 ## Register devices in Autopilot
 
-As stated above, DFCI can only be applied on devices registered in Windows Autopilot by your reseller or distributor and is  supported on Surface Pro 8, Surface Laptop Studio, Surface Go 3, Surface Pro 7+, Surface Laptop Go, Surface Laptp Go 2, Surface Pro 7, Surface Pro X, and Surface Laptop 3. For security reasons, it’s not possible to “self-provision” your devices into Autopilot. To learn more, see Surface [Registration Support for Windows Autopilot](surface-autopilot-registration-support.md).
+As stated above, DFCI can only be applied on devices registered in Windows Autopilot by your reseller or distributor and is  supported on Surface Pro 8, Surface Laptop Studio, Surface Go 3, Surface Pro 7+, Surface Laptop Go, Surface Laptop Go 2, Surface Pro 7, Surface Pro X, and Surface Laptop 3. For security reasons, it’s not possible to “self-provision” your devices into Autopilot. To learn more, see Surface [Registration Support for Windows Autopilot](surface-autopilot-registration-support.md).
 
 ## Manually Sync Autopilot devices
 
-Although Intune policy settings typically get applied almost immediately, there may be a delay of 10 minutes before the settings take effect on targeted devices. In rare circumstances, delays of up to 8 hours are possible. To ensure settings apply as soon as possible, (such as in test scenarios), you can manually sync the target devices.
+Although Intune policy settings typically get applied almost immediately, there may be a delay of 10 minutes before the settings take effect on targeted devices. In rare circumstances, delays of up to 8 hours are possible. To ensure settings apply as soon as possible, such as in test scenarios, you can manually sync the target devices.
 
 - In Endpoint Manager at  devicemanagement.microsoft.com, go to **Devices > Device enrollment > Windows enrollment > Windows Autopilot Devices** and select **Sync**.
 
