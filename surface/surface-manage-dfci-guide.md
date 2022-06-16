@@ -42,6 +42,7 @@ Crucially, DFCI enables zero touch management, eliminating the need for manual i
 
 DFCI is supported in the following devices:
 
+- Surface Laptop Go 2 (commercial SKUs only)
 - Surface Laptop SE
 - Surface Laptop Studio (commercial SKUs only)
 - Surface Pro 8 (commercial SKUs only)
@@ -53,7 +54,6 @@ DFCI is supported in the following devices:
 - Surface Laptop 3 (Intel processors only)
 - Surface Book 3
 - Surface Laptop Go
-- Surface Laptop Go 2
 
 >[!TIP]
 > Commercial SKUs (aka Surface for Business) run Windows 10 Pro/Enterprise or Windows 11 Pro/Enterprise; consumer SKUs run Windows 10/Windows 11 Home. To learn more, see [View your system info](https://support.microsoft.com/windows/view-your-system-info-a965a8f2-0773-1d65-472a-1e747c9ebe00).
