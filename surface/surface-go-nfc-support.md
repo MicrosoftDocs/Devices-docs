@@ -41,7 +41,7 @@ Surface Go for Business devices are equipped with support for near field communi
 
 **Can NFC be disabled through UEFI or DFCI?**
 
-- Not at this time.
+- Yes. Surface Go 3 supports management of NFC via [Surface Enterprise Management Mode (SEMM)](surface-enterprise-management-mode.md). 
 
 **Is multifactor authentication on Surface Go for Business compliant with FIDO 2.0 standards?**
 
