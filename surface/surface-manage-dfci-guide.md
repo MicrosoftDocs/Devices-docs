@@ -20,7 +20,7 @@ appliesto:
 
 ## Introduction
 
-The ability to manage devices from the cloud has dramatically simplified IT deployment and provisioning across the lifecycle. With Device Firmware Configuration Interface (DFCI) profiles built into [Microsoft Intune](/intune/configuration/device-firmware-configuration-interface-windows), Surface UEFI management extends the modern management stack down to the UEFI hardware level. DFCI supports zero-touch provisioning, eliminates BIOS passwords, provides control of security settings including boot options and built-in peripherals, and lays the groundwork for advanced security scenarios in the future. For answers to frequently asked questions, see [Ignite 2019: Announcing remote management of Surface UEFI settings from Intune](https://techcommunity.microsoft.com/t5/Surface-IT-Pro-Blog/Ignite-2019-Announcing-remote-management-of-Surface-UEFI/ba-p/978333).
+The ability to manage devices from the cloud has dramatically simplified IT deployment and provisioning across the lifecycle. With Device Firmware Configuration Interface (DFCI) profiles built into [Microsoft Intune](/intune/configuration/device-firmware-configuration-interface-windows), Surface UEFI management extends the modern management stack down to the UEFI hardware level. DFCI supports zero-touch provisioning, eliminates BIOS passwords, provides control of security settings including boot options and built-in peripherals, and lays the groundwork for advanced security scenarios in the future.
 
 ### Background
 
@@ -32,11 +32,11 @@ In contrast to other Windows devices available in the market today, Surface prov
 
 Previously, managing firmware required enrolling devices into Surface Enterprise Management Mode (SEMM) with the overhead of ongoing manual IT-intensive tasks. As an example, SEMM requires IT staff to physically access each PC to enter a two-digit pin as part of the certificate management process. Although SEMM remains a good solution for organizations in a strictly on-premises environment, its complexity and IT-intensive requirements make it costly to use.
 
-With integrated UEFI firmware management capabilities in Microsoft Intune, the ability to lock down hardware is simplified and easier to use with new features for provisioning, security, and streamlined updating all in a single console, now unified as [Microsoft Endpoint Manager](https://www.microsoft.com/microsoft-365/microsoft-endpoint-manager). The following figure shows UEFI settings viewed directly on the device (left) and viewed in the Endpoint Manager console (right).
+With integrated UEFI firmware management capabilities in Microsoft Intune, the ability to lock down hardware is simplified and easier to use with new features for provisioning, security, and streamlined updating, all in a single console, now unified as [Microsoft Endpoint Manager](https://www.microsoft.com/microsoft-365/microsoft-endpoint-manager). The following figure shows UEFI settings viewed directly on the device (left) and viewed in the Endpoint Manager console (right).
 
 :::image type="content" alt-text="UEFI settings shown on device (left) and in the Endpoint Manager console (right)." source="images/uefidfci.png" lightbox="images/uefidfci.png":::
 
-Crucially, DFCI enables zero touch management, eliminating the need for manual interaction by IT admins. DFCI is deployed via Windows Autopilot using the device profiles capability in Intune. A device profile allows you to add and configure settings, which can then be deployed to devices enrolled in management within your organization. Once the device receives the device profile, the features and settings are applied automatically. Examples of common device profiles include Email, Device restrictions, VPN, Wi-Fi, and Administrative templates. DFCI is simply another device profile that enables you to manage UEFI configuration settings from the cloud without having to maintain on-premises infrastructure.  
+Crucially, DFCI enables zero-touch management, eliminating the need for manual interaction by IT admins. DFCI is deployed via Windows Autopilot using the device profiles capability in Intune. A device profile allows you to add and configure settings, which can then be deployed to devices enrolled in management within your organization. Once the device receives the device profile, the features and settings are applied automatically. Examples of common device profiles include Email, Device restrictions, VPN, Wi-Fi, and Administrative templates. DFCI is simply another device profile that enables you to manage UEFI configuration settings from the cloud without having to maintain on-premises infrastructure.  
 
 ## Supported devices
 
@@ -59,7 +59,7 @@ DFCI is supported in the following devices:
 > Commercial SKUs (aka Surface for Business) run Windows 10 Pro/Enterprise or Windows 11 Pro/Enterprise; consumer SKUs run Windows 10/Windows 11 Home. To learn more, see [View your system info](https://support.microsoft.com/windows/view-your-system-info-a965a8f2-0773-1d65-472a-1e747c9ebe00).
 
 > [!NOTE]
-> Surface Pro X does not support DFCI settings management for built-in camera, audio, and Wi-Fi/Bluetooth.
+> Surface Pro X does not support DFCI settings management for the built-in camera, audio, and Wi-Fi/Bluetooth.
 
 ## Prerequisites
 
@@ -77,9 +77,9 @@ A DFCI environment requires setting up a DFCI profile that contains  the setting
 
 ## Create DFCI profile
 
-Before configuring DFCI policy settings, first create a DFCI profile and assign it to the Azure AD security group that contains your target devices.
+Before configuring DFCI policy settings, create a DFCI profile and assign it to the Azure AD security group that contains your target devices.
 
-1. Sign into your tenant at  devicemanagement.microsoft.com.
+1. Sign in to your tenant at  devicemanagement.microsoft.com.
 
 2. In the Microsoft Endpoint Manager Admin Center, select **Devices > Configuration profiles > Create profile** and enter a name; for example, **DFCI Configuration Policy.**
 
@@ -116,7 +116,7 @@ Before configuring DFCI policy settings, first create a DFCI profile and assign 
 
 ## Configure Enrollment Status Page
 
-To ensure that devices, apply the DFCI configuration during OOBE before users sign in, you need to configure enrollment status.
+To ensure that devices apply the DFCI configuration during OOBE before users sign in, you need to configure enrollment status.
 
 For more information, see [Set up an enrollment status page](/intune/enrollment/windows-enrollment-status).
 
@@ -187,21 +187,21 @@ In a test environment, you can verify settings in the Surface UEFI interface.
 
 When you create a DFCI profile, all configured settings will remain in effect across all devices within the profile’s scope of management. You can only remove DFCI policy settings by editing the DFCI profile directly.
 
-If the original DFCI profile has been deleted, you can remove policy settings by creating a new profile and then editing the settings, as appropriate.
+If the original DFCI profile has been deleted, you can remove policy settings by creating a new profile and then editing the settings as appropriate.
 
 ## Removing DFCI management
 
 **To remove DFCI management and return device to factory new state:**
 
 1. Retire the device from Intune:
-    1. In Endpoint Manager at  devicemanagement.microsoft.com, choose **Groups > All Devices**. Select the devices you want to retire, and then choose **Retire/Wipe.** To learn more refer to [Remove devices by using wipe, retire, or manually unenrolling the device](/intune/remote-actions/devices-wipe).
+    1. In Endpoint Manager at  devicemanagement.microsoft.com, choose **Groups > All Devices**. Select the devices you want to retire, and then choose **Retire/Wipe.** To learn more, see [Remove devices by using wipe, retire, or manually unenrolling the device](/intune/remote-actions/devices-wipe).
 2. Delete the Autopilot registration from Intune:
     1.  Choose **Device enrollment > Windows enrollment > Devices**.
     2. Under Windows Autopilot devices, choose the devices you want to delete, and then choose **Delete**.
-3. Connect device to wired internet with Surface-branded ethernet adapter. Restart device and open the UEFI menu (press and hold the volume-up button while also pressing and releasing the power button).
+3. Connect the device to wired internet with a Surface-branded ethernet adapter. Restart the device and open the UEFI menu (press and hold the volume-up button while also pressing and releasing the power button).
 4. Select **Management > Configure > Refresh from Network** and then choose **Opt-out.**
 
-To keep managing the device with Intune, but without DFCI management, self-register the device to Autopilot and enroll it to Intune. DFCI won't be applied to self-registered devices.
+To keep managing the device with Intune but without DFCI management, self-register the device to Autopilot and enroll it in Intune. DFCI won't be applied to self-registered devices.
 
 ## Learn more
 
