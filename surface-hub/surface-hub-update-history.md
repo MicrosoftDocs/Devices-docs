@@ -15,7 +15,7 @@ ms.localizationpriority: high
 
 Windows was designed to be a service, which means it automatically gets better through periodic software updates. Typically you don’t have to do anything to get the latest Windows 10 updates—they'll download and install whenever they’re available.
 
-Most Windows updates focus on performance and security improvements. In the list below, the most recent Windows update with Surface Hub-specific improvements is listed first. Updates are cumulative, so installing the latest available Windows update (even if it is not on the list below) ensures that you also benefit from improvements in any previous updates. Microsoft Store apps are updated through the Microsoft Store (managed by the Surface Hub's system administrator). Details about app updates are provided on a per-app basis.
+Most Windows updates focus on performance and security improvements. In the list below, the most recent Windows update with Surface Hub-specific improvements is listed first. Updates are cumulative, so installing the latest available Windows update (even if it isn't on the list below) ensures that you also benefit from improvements in any previous updates. Microsoft Store apps are updated through the Microsoft Store (managed by the Surface Hub's system administrator). Details about app updates are provided on a per-app basis.
 
 > [!TIP]
 > This page is refreshed as new updates are released. Please refer to the [Surface Hub Important Information](https://support.microsoft.com/products/surface-devices/surface-hub) page for related topics on current and past releases that may require your attention.
@@ -328,7 +328,7 @@ This update is specific to the Surface Hub 2S and provides the driver and firmwa
 
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4018124/windows-10-update-history), include:
 
-* Resolves an issue where the Hub 2S cannot be heard well by other participants during Skype for Business calls.
+* Resolves an issue where the Hub 2S can't be heard well by other participants during Skype for Business calls.
 * Improves reliability for some Arabic, Hebrew, and other RTL language usage scenarios on Surface Hub.
 
 Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabling device features and services.
