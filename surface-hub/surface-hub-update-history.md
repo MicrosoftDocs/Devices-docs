@@ -40,12 +40,13 @@ Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabl
 This update is specific to the Surface Hub 2S and provides the driver and firmware updates outlined below:
 
 * Intel(R) graphics driver - 30.0.101.1339
-  * Improves system security and stability.
+  * Improves system stability.
  * Intel(R) Ethernet driver - 12.19.1.37
-  * Improves system security and stability.
+  * Improves system stability.
 * Surface SMC Firmware update - 4.3.139.0
+  * Improves Surface Hub 2 Smart Camera performance in different lighting conditions.
 * Surface UEFI update - 697.148.768.0
-  * Improves system security and stability.
+  * Improves thermal logging and detection of thermal shutdown scenarios.
 </details>
 
 <details>
