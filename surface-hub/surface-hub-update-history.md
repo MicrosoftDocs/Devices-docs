@@ -279,7 +279,7 @@ Please refer to the "[Install Windows 10 Team 2020 Update](/surface-hub/surface-
 ## Windows 10 Team Creators Update (1703)
 
 <details>
-<summary>Sep 1, 2020 — update for Surface Hub 2S</summary>
+<summary>September 1, 2020 — update for Surface Hub 2S</summary>
 
 This update is specific to the Surface Hub 2S and provides the driver and firmware updates outlined below:
 
@@ -473,7 +473,7 @@ This update to the Surface Hub includes quality improvements and security fixes.
 * Resolves a wired projection issue
 * Enables bulk update for certain MDM (Mobile Device Management) policies
 * Resolves phone dialer issue with international calls
-* Addresses image resolution issue when 2 Surface Hubs join the same meeting
+* Addresses image resolution issue when two Surface Hubs join the same meeting
 * Resolves OMS (Operations Management Suite) certificate handling error
 * Addresses a security issue when cleaning up at the end of a session
 * Addresses Miracast issue, when Surface Hub is specified to channels 149 through 165
