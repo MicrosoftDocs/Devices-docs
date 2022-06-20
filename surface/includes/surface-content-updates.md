@@ -2,6 +2,16 @@
 
 
 
+## Week of June 13, 2022
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 6/14/2022 | [Contact Surface Support](/surface/contact-surface-support) | modified |
+| 6/16/2022 | [Wake On LAN for Surface devices](/surface/wake-on-lan-for-surface-devices) | modified |
+| 6/17/2022 | [Manage DFCI on Surface devices](/surface/surface-manage-dfci-guide) | modified |
+
+
 ## Week of June 06, 2022
 
 
@@ -66,12 +76,3 @@
 | Published On |Topic title | Change |
 |------|------------|--------|
 | 5/16/2022 | [Surface Hub documentation # < 60 chars](/surface-hub/index) | modified |
-
-
-## Week of May 09, 2022
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 5/9/2022 | [Install Progressive Web Apps on Surface Hub](/surface-hub/install-pwa-surface-hub) | modified |
-| 5/9/2022 | [Configure Surface Hub Start menu](/surface-hub/surface-hub-start-menu) | modified |
