@@ -529,7 +529,7 @@ This update to the Surface Hub includes quality improvements and security fixes.
 * Fix that ensures that End Session cleanup fully removes all connections between the user’s account and the device.
 * Performance fix that improves cleanup time as well as Miracast connection time.
 * Introduces Easy Authentication utilization during ad-hoc meetings.
-* Fix that ensures service components to use the same proxy that is configured across the device.
+* Fix that ensures proxy settings configured on the device are used across all service components.
 * Reduces and more thoroughly secures the telemetry transmitted by the device, reducing bandwidth utilization.
 * Enables a feature allowing users to provide feedback to Microsoft after a meeting concludes.
 
@@ -789,7 +789,7 @@ This update to the Windows 10 Team (version 1511) to Surface Hub includes qualit
 <details>
 <summary>July 12, 2016 - update for Team based on KB3172985* (OS Build 10586.494)</summary>
 
-This update includes quality improvements and security fixes. No new operating system features are being introduced in this update. Key changes specific to the Surface Hub (those not already included in the [Windows 10 Update History](https://support.microsoft.com/help/4018124/windows-10-update-history)), include:
+This update includes quality improvements and security fixes. No new operating system features are being introduced in this update.  Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4018124/windows-10-update-history), include:
 
 * Fixed issue that caused Windows system crashes
 * Fixed issue that caused repeated Edge crashes
