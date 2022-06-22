@@ -35,7 +35,7 @@ Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabl
 </details>
 
 <details>
-<summary>May 21, 2022 - update for Surface Hub 2S</summary>
+<summary>May 19, 2022 - update for Surface Hub 2S</summary>
 
 This update is specific to the Surface Hub 2S and provides the driver and firmware updates outlined below:
 
