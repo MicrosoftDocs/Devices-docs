@@ -765,7 +765,7 @@ This update brings the Windows 10 Team Anniversary Update to Surface Hub and inc
   * Enabled support for HDCP on DisplayPort output connector
   * System UI changes to settings for usability optimization (refer to [User and Admin Guides](https://www.microsoft.com/surface/support/surface-hub) for additional details)
   * Bug fixes and performance optimizations to speed up the Azure Active Directory sign-in flow
-  * Significantly improved time needed to reset and restore Surface Hub
+  * Reduced time needed to reset and restore a Surface Hub
   * Windows Defender UI has been added within settings
   * Improved UX touch to start
   * Enabled support for greater than 1080p wireless projection via Miracast, on supported devices
@@ -777,14 +777,6 @@ This update brings the Windows 10 Team Anniversary Update to Surface Hub and inc
 </details>
 
 ## Updates for Windows 10 Version 1511
-
-<details>
-<summary>November 4, 2016 - update for Team based on KB3198586* (OS Build 10586.679)</summary>
-
-This update to the Windows 10 Team (version 1511) to Surface Hub includes quality improvements and security fixes that are outlined in [Windows 10 Update History](https://support.microsoft.com/help/4018124/windows-10-update-history). There are no Surface Hub specific items in this update.
-
-*[KB3198586](https://support.microsoft.com/help/3198586)
-</details>
 
 <details>
 <summary>July 12, 2016 - update for Team based on KB3172985* (OS Build 10586.494)</summary>
