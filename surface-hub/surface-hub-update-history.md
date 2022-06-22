@@ -359,7 +359,7 @@ This update to the Surface Hub includes quality improvements and security fixes.
  * Fixed an issue in Skype for Business that occurs when presenting in full-screen mode.
 
 Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabling device features and services.
-*[KB4503289](https://support.microsoft.com/help/4503289)
+*[KB4516059](https://support.microsoft.com/help/4516059)
 </details>
 
 <details>
@@ -371,7 +371,7 @@ This update to the Surface Hub includes quality improvements and security fixes.
  * Improves reliability for some Arabic language usage scenarios on Surface Hub.
 
 Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabling device features and services.
-*[KB4503289](https://support.microsoft.com/help/4503289)
+*[KB4512474](https://support.microsoft.com/help/4512474)
  </details>
 
 <details>
