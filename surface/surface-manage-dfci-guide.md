@@ -94,7 +94,7 @@ Before you begin, review how to set up and manage a DFCI profile with Windows Au
 3. Under Platform, select **Windows 10 and later**.
 4. Under Profile type, select **Templates** > **Device Firmware Configuration Interface** and then select **Create.**
 
-:::image type="content" source="images/dfci-start.png" alt-text="Start creating DFCI profile":::<br>
+    :::image type="content" source="images/dfci-start.png" alt-text="Start creating DFCI profile":::<br>
 
 5. Name the profile, add an optional description and select **Next**.
 6. On the configuration settings page, select the category of settings you wish to configure.
@@ -128,7 +128,7 @@ When you finish configuring the desired settings, target the settings to your in
 
 3. On the Review + create page, check your intended DFCI settings and choose **Create.** This example blocks users from changing UEFI settings.
 
-:::image type="content" source="images/dfci-create.png" alt-text="Create DFCI profile":::<br>
+    :::image type="content" source="images/dfci-create.png" alt-text="Create DFCI profile":::<br>
 
 ## Apply DFCI settings on new devices
 
