@@ -105,7 +105,7 @@ Before you begin, review how to set up and manage a DFCI profile with Windows Au
 
 For many customers, the ability to block users from changing UEFI settings is critically important and a primary reason to use DFCI. As listed in [Table 1](#), this is managed via the setting **Allow local user to change UEFI settings**. If you don't edit or configure this setting, local users can change any UEFI setting not managed by Intune. Therefore, it's highly recommended to set **Allow local user to change UEFI settings** to **None.**
 
-    :::image type="content" source="images/dfci-configure.png" alt-text="Block user access to change UEFI settings":::<br>
+:::image type="content" source="images/dfci-configure.png" alt-text="Block user access to change UEFI settings":::<br>
 
 ## All DFCI settings
 
