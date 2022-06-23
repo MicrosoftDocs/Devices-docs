@@ -18,194 +18,150 @@ appliesto:
 ---
 # Manage DFCI on Surface devices
 
-## Introduction
 
-The ability to manage devices from the cloud has dramatically simplified IT deployment and provisioning across the lifecycle. With Device Firmware Configuration Interface (DFCI) profiles built into [Microsoft Intune](/intune/configuration/device-firmware-configuration-interface-windows), Surface UEFI management extends the modern management stack down to the UEFI hardware level. DFCI supports zero-touch provisioning, eliminates BIOS passwords, provides control of security settings including boot options and built-in peripherals, and lays the groundwork for advanced security scenarios in the future.
+# Introduction
 
-### Background
+With Device Firmware Configuration Interface (DFCI) profiles built into [Microsoft Intune](https://docs.microsoft.com/en-us/intune/configuration/device-firmware-configuration-interface-windows), Surface UEFI management extends the modern management stack down to the Unified Extensible Firmware Interface (UEFI) hardware level. DFCI supports zero-touch provisioning, eliminates BIOS passwords, provides control of security settings, including boot options and built-in peripherals, and lays the groundwork for advanced security scenarios in the future.
 
-Like any computer running Windows 10 or Windows 11, Surface devices rely on code stored in the SoC that enables the CPU to interface with hard drives, display devices, USB ports, and other devices. The programs stored in this read-only memory (ROM) are known as firmware (while programs stored in dynamic media are known as software).
+Designed to be used with software-level mobile device management (MDM), DFCI enables IT admins to lock down devices at the hardware level. This page shows how to configure DFCI policy settings on Autopilot-deployed Surface devices, along with documentation for every DFCI setting.
 
-In contrast to other Windows devices available in the market today, Surface provides IT admins with the ability to configure and manage firmware through a rich set of UEFI configuration settings. This provides a layer of hardware control on top of software-based policy management as implemented via mobile device management (MDM) policies, Configuration Manager or Group Policy. For example, organizations deploying devices in highly secure areas with sensitive information can prevent camera use by removing functionality at the hardware level. From a device standpoint, turning off the camera via a firmware setting is equivalent to physically removing the camera. Compare the added security of managing at the firmware level to relying only on operating system software settings. For example, if you disable the Windows audio service via a policy setting in a domain environment, a local admin could still re-enable the service.
+# Overview
+1. Review [Intune DFCI documentation](https://docs.microsoft.com/en-us/mem/autopilot/dfci-management) to ensure your devices and environment meet the requirements to manage DFCI.
+2. Review [DFCI settings reference](#) below for a description of all available settings on Surface devices.
+3. [Configure DFCI settings](#)
+4. [Target DFCI settings](#)
+5. [Apply DFCI settings on new devices](#).
+# Prerequisites
 
-### DFCI versus SEMM
+Devices must be registered with Windows Autopilot by a [Microsoft Cloud Solution Provider (CSP) partner](https://partner.microsoft.com/membership/cloud-solution-provider) or OEM distributor. To learn more, see:
 
-Previously, managing firmware required enrolling devices into Surface Enterprise Management Mode (SEMM) with the overhead of ongoing manual IT-intensive tasks. As an example, SEMM requires IT staff to physically access each PC to enter a two-digit pin as part of the certificate management process. Although SEMM remains a good solution for organizations in a strictly on-premises environment, its complexity and IT-intensive requirements make it costly to use.
+- [Surface Registration Support for Windows Autopilot](https://docs.microsoft.com/en-us/surface/surface-autopilot-registration-support)
 
-With integrated UEFI firmware management capabilities in Microsoft Intune, the ability to lock down hardware is simplified and easier to use with new features for provisioning, security, and streamlined updating, all in a single console, now unified as [Microsoft Endpoint Manager](https://www.microsoft.com/microsoft-365/microsoft-endpoint-manager). The following figure shows UEFI settings viewed directly on the device (left) and viewed in the Endpoint Manager console (right).
+Before you begin, review how to set up and manage a DFCI profile with Windows Autopilot, as documented in [Use DFCI profiles on Windows devices in Microsoft Intune](https://docs.microsoft.com/en-us/mem/intune/configuration/device-firmware-configuration-interface-windows)
+ 
 
-:::image type="content" alt-text="UEFI settings shown on device (left) and in the Endpoint Manager console (right)." source="images/uefidfci.png" lightbox="images/uefidfci.png":::
-
-Crucially, DFCI enables zero-touch management, eliminating the need for manual interaction by IT admins. DFCI is deployed via Windows Autopilot using the device profiles capability in Intune. A device profile allows you to add and configure settings, which can then be deployed to devices enrolled in management within your organization. Once the device receives the device profile, the features and settings are applied automatically. Examples of common device profiles include Email, Device restrictions, VPN, Wi-Fi, and Administrative templates. DFCI is simply another device profile that enables you to manage UEFI configuration settings from the cloud without having to maintain on-premises infrastructure.  
-
-## Supported devices
-
-DFCI is supported in the following devices:
-
-- Surface Laptop Go 2 (commercial SKUs only)
-- Surface Laptop SE
-- Surface Laptop Studio (commercial SKUs only)
+# DFCI settings reference for Surface devices
+## Eligible devices
 - Surface Pro 8 (commercial SKUs only)
-- Surface Go 3 (commercial SKUs only)
 - Surface Pro 7+ (commercial SKUs only)
 - Surface Pro 7 (all SKUs)
 - Surface Pro X (all SKUs)
+- Surface Laptop Studio (commercial SKUs only)
 - Surface Laptop 4 (commercial SKUs only)
 - Surface Laptop 3 (Intel processors only)
-- Surface Book 3
 - Surface Laptop Go
+- Surface Laptop Go 2
+- Surface Laptop SE
+- Surface Book 3
+- Surface Go 3 (commercial SKUs only)
 
->[!TIP]
-> Commercial SKUs (aka Surface for Business) run Windows 10 Pro/Enterprise or Windows 11 Pro/Enterprise; consumer SKUs run Windows 10/Windows 11 Home. To learn more, see [View your system info](https://support.microsoft.com/windows/view-your-system-info-a965a8f2-0773-1d65-472a-1e747c9ebe00).
+ 
+**Note:** Surface Pro X does not support DFCI settings management for built-in camera, audio, and Wi-Fi/Bluetooth. Some newer settings are only supported on the latest devices.
+ **
+**Table 1. DFCI settings reference**
 
-> [!NOTE]
-> Surface Pro X does not support DFCI settings management for the built-in camera, audio, and Wi-Fi/Bluetooth.
+| DFCI setting                                        | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | Supported on                                                                    |
+| --------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
+| **UEFI access**                                     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |                                                                                 |
+| **Allow local user to change UEFI (BIOS) settings** | This setting lets you manage whether end users can modify UEFI settings.<br><br>- If you select **Only not configured settings,** the local user may change any setting *except* any settings that you have explicitly enabled or disabled via Intune.<br>- If you select **None**, the local user may not change UEFI settings, including settings not shown in the DFCI profile.                                                                                                | All eligible devices                                                            |
+| **Security settings**                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |                                                                                 |
+| **Windows Platform Binary Table**                   | This setting lets you manage whether Windows Platform Binary Table  (WPBT) can run on eligible devices. WPBT allows computer vendors to force the installation of a service program or anti-theft software, exposing devices to potentially unwanted 3rd party programs that run on first boot.<br>If you enable this setting, WPBT is allowed to run.<br><br>- If you disable this setting, WPBT cannot run. <br>- If you do not configure this setting, WPBT is allowed to run. | All eligible devices                                                            |
+| **Simultaneous multithreading**                     | This setting lets you manage whether simultaneous multithreading (SMT) support is enabled on eligible devices. SMT supports Intel hyperthreading technology, which provides two logical processors for each physical core.<br><br>- If you enable this setting, SMT is turned on.<br>-  If you disable this setting, SMT is turned off.<br>-  If you do not configure this setting, SMT is enabled.                                                                               | All eligible devices                                                            |
+| **Cameras**                                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |                                                                                 |
+| **Cameras**                                         | This setting lets you manage whether devices can utilize the built-in camera.<br><br>- If you enable this setting, all built-in cameras are allowed. Peripherals, like USB cameras, aren't affected.<br>- If you disable this setting, all built-in cameras are disabled. Peripherals, like USB cameras, aren't affected.<br>- If you do not configure this setting,  all built-in cameras are enabled. Intune doesn't change or update this setting.                             | - Not supported on Surface Pro X.<br>- Supported on all other eligible devices. |
+| **Microphones and speakers:**                       | - If you enable this setting, all built-in microphones and speakers are allowed. Peripherals, like USB devices, aren't affected.<br>- If you disable this setting, all built-in microphones and speakers are disabled. Peripherals, like USB devices, aren't affected.<br>- If you do not configure this setting, microphones and speakers are enabled. Intune doesn't change or update this setting.                                                                             | - Not supported on Surface Pro X.<br>- Supported on all other eligible devices. |
+| **Microphones**                                     | - If you enable this setting, all built-in microphones are enabled. Peripherals, like USB devices, aren't affected.<br>- If you disable this setting, all built-in microphones are disabled. Peripherals, like USB devices, aren't affected.<br>- If you do not configure this setting, microphones are enabled. Intune doesn't change or update this setting.                                                                                                                    | - Not supported on Surface Pro X.<br>- Supported on all other eligible devices. |
+| **Radios (Bluetooth, Wi-Fi, NFC, etc..)**           | - If you enable this setting, all built-in radios are allowed. Peripherals, like USB devices, aren't affected.<br>- If you disable this setting, all built-in radios are disabled. Peripherals, like USB devices, aren't affected.<br>- If you do not configure this setting, all built-in radios are enabled.<br><br>CAUTION: The **Disable** setting should only be used on devices with a wired Ethernet connection.                                                           | - Not supported on Surface Pro X.<br>- Supported on all other eligible devices. |
+| Bluetooth                                           | - If you enable this setting, Bluetooth is enabled.<br>- If you disable this setting,  Bluetooth is disabled.<br>- If you do not configure this setting,  Bluetooth is enabled.                                                                                                                                                                                                                                                                                                   | - Not supported on Surface Pro X.<br>- Supported on all other eligible devices. |
+| Wi-Fi                                               | - If you enable this setting,  Wi-Fi is enabled.<br>- If you disable this setting,  Wi-Fi is disabled.<br>- If you do not configure this setting,  Wi-Fi is enabled.                                                                                                                                                                                                                                                                                                              | - Not supported on Surface Pro X.<br>- Supported on all other eligible devices. |
+| Boot options                                        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |                                                                                 |
+| Boot from external media (USB, SD)                  | - If you enable this setting, end users can boot the device from  USB flash drives or other non-hard drive storage technologies.<br>- If you disable this setting, end users cannot boot the device from  USB flash drives or other non-hard drive storage technologies.<br>- If you do not configure this setting,  end users can boot the device from  USB flash drives or other non-hard drive storage technologies.                                                           | All eligible devices                                                            |
+| **Ports**                                           |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |                                                                                 |
+| USB type A                                          | This setting lets you manage how devices can utilize USB-A connections.<br><br>- If you enable this setting,  USB-A data connections are allowed on eligible devices.<br>- If you disable this setting, USB-A data connections are disabled on eligible devices.<br><br>If you do not configure this setting, USB-A data connections are enabled on all devices.                                                                                                                  | Supported only on Surface Laptop Go 2 and later.                                |
+| Wake settings                                       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |                                                                                 |
+| Wake on LAN                                         | This setting lets you manage whether eligible devices can be remotely started from Modern Standby.<br><br>- If you enable this setting, IT admins can remotely wake eligible devices.<br>- If you disable this setting,  admins cannot remotely wake eligible devices.<br>- If you do not configure this setting,  admins can remotely wake eligible devices.                                                                                                                     | Supported only on Surface Laptop Go 2 and later.                                |
+| Wake on power                                       | This setting lets you manage whether eligible devices can be remotely started from Modern Standby, hibernation, or powered-off states.<br><br>- If you enable this setting, eligible Surface devices will automatically start when reconnected to power<br>- If you disable this setting,  eligible Surface devices cannot be remotely powered on.<br>- If you do not configure this setting, [Type here]                                                                         | Supported only on Surface Laptop Go 2 and later.                                |
 
-## Prerequisites
+ **Note:** DFCI in Intune includes two settings that do not currently apply to Surface devices: (1) CPU and IO virtualization and (2) Disable Boot from network adapters.
 
-- Devices must be registered with Windows Autopilot by a [Microsoft Cloud Solution Provider (CSP) partner](https://partner.microsoft.com/membership/cloud-solution-provider) or OEM distributor.
-
-- Before configuring DFCI for Surface, you should be familiar with Autopilot configuration requirements in  [Microsoft Intune](/intune/) and [Azure Active Directory](/azure/active-directory/) (Azure AD).
-
-## Before you begin
-
-Add your target Surface devices to an Azure AD security group. For more information about creating and managing security groups, see [Intune documentation](/intune/configuration/device-firmware-configuration-interface-windows#create-your-azure-ad-security-groups).
-
-## Configure DFCI management for Surface devices
-
-A DFCI environment requires setting up a DFCI profile that contains  the settings and an Autopilot profile to apply the settings to registered devices. An enrollment status profile is also recommended to ensure settings are pushed down during OOBE setup when users first start the device. This guide explains how to configure the DFCI environment and manage UEFI configuration settings for targeted Surface devices.
-
-## Create DFCI profile
-
-Before configuring DFCI policy settings, create a DFCI profile and assign it to the Azure AD security group that contains your target devices.
-
-1. Sign in to your tenant at  devicemanagement.microsoft.com.
-
+# Configure DFCI settings for Surface devices
+1. Sign in to your tenant at devicemanagement.microsoft.com.
 2. In the Microsoft Endpoint Manager Admin Center, select **Devices > Configuration profiles > Create profile** and enter a name; for example, **DFCI Configuration Policy.**
+3. Under Platform, select **Windows 10 and later**.
+4. Under Profile type, select **Templates** > **Device Firmware Configuration Interface** and then select **Create.**
 
-3. Select **Windows 10 and later** for platform type.
+ 
 
-4. In the Profile type dropdown list, select **Device Firmware Configuration Interface** to open the DFCI page containing all available policy settings. For information on DFCI settings, refer to Table 1 on this page or the [Intune documentation](/intune/configuration/device-firmware-configuration-interface-windows). You can configure DFCI settings during the initial setup process or later by editing the DFCI profile.
+5. Name the profile, add an optional description and select **Next**.
+6. On the configuration settings page, select the category of settings you wish to configure.
 
-   :::image type="content" alt-text="Create DFCI profile." source="images/df1.png":::
+ 
+ 
 
-5. Select **OK** and then select **Create**.
+## UEFI access
 
-6. Select **Assignments** and under **Select groups to include** select the Azure AD security group that contains your target devices, as shown in the following figure. Select **Save**.
+For many customers, the ability to block users from changing UEFI settings is critically important and a primary reason to use DFCI. As listed in [Table 1](#), this is managed via the setting **Allow local user to change UEFI settings**. If you do not edit or configure this setting, local users can change any UEFI setting not managed by Intune. Therefore, it's highly recommended to set **Allow local user to change UEFI settings** to **None.** 
+ 
 
-   :::image type="content" alt-text="Assign security group." source="images/df2a.png":::
+## All DFCI settings
 
-## Create Autopilot profile
+DFCI lets you remotely disable hardware components and prevent users from accessing them. For example, suppose you must protect sensitive information in highly secure areas. In that case, you can disable the camera, and if you don't want users booting from USB drives, you can disable that also.
+In most cases, this requires you to set a policy to Disable. For example, to turn off access to the built-in camera, select Cameras and then choose **Disabled.**
+ 
 
-1. In Endpoint Manager at  devicemanagement.microsoft.com, select **devices > Windows enrollment** and scroll down to **Deployment profiles**.
+## Target DFCI settings to Surface devices
 
-2. Select **Create profile** and enter a name; for example, **My Autopilot profile**, and select **Next**.
+When you finish configuring the desired settings, target the settings to your intended Surface devices.
+ 
 
-3. Select the following settings:
+1. On the Assignments page, add groups containing your target devices. Or you can **Add all users** or **Add all devices.** Select **Next.** For more information about creating and managing security groups, refer to [Intune documentation](https://docs.microsoft.com/en-us/intune/configuration/device-firmware-configuration-interface-windows#create-your-azure-ad-security-groups).
 
-    - Deployment mode: **User-Driven**.
-    - Join type: Azure **AD joined**.
+ 
 
-4. Leave the remaining default settings unchanged and select **Next**, as shown in the following figure.
+2. On the Applicability Rules page, you can target DFCI settings to apply to specific operating systems (OS edition) and OS versions. Select **Next**.
 
-   :::image type="content" alt-text="Create Autopilot profile." source="images/df3b.png" lightbox="images/df3b.png":::
+3. On the Review + create page, check your intended DFCI settings and choose **Create.** This example blocks users from changing UEFI settings.
 
-5. On the Assignments page, choose **Select groups to include** and select your Azure AD security group. Select **Next**.
+## Apply DFCI settings on new devices
 
-6. Accept the summary and then select **Create**. The Autopilot profile is now created and assigned to the group.
+To ensure that devices apply the DFCI configuration during OOBE before users sign in, you need to configure enrollment status. For more information, refer to [Set up an enrollment status page](https://docs.microsoft.com/en-us/intune/enrollment/windows-enrollment-status).
 
-## Configure Enrollment Status Page
-
-To ensure that devices apply the DFCI configuration during OOBE before users sign in, you need to configure enrollment status.
-
-For more information, see [Set up an enrollment status page](/intune/enrollment/windows-enrollment-status).
-
-## Configure DFCI settings on Surface devices
-
-DFCI includes a streamlined set of UEFI configuration policies that provide an extra level of security by locking down devices at the hardware level. DFCI is designed to be used with mobile device management settings at the software level. Note that DFCI settings only affect hardware components built into Surface devices and don't extend to attached peripherals such as USB webcams. (However, you can use Device restriction policies in Intune to turn off access to attached peripherals at the software level).
-
-You configure DFCI policy settings by editing the DFCI profile from Endpoint Manager, as shown in the figure below.
-
-- In Endpoint Manager at  devicemanagement.microsoft.com, select **Devices > Windows > Configuration Profiles > “DFCI profile name” > Properties > Settings**.
-
-  :::image type="content" alt-text="Configure DFCI settings." source="images/dfciconfig.png" lightbox="images/dfciconfig.png":::
-
-### Block user access to UEFI settings
-
-For many customers, the ability to block users from changing UEFI settings is critically important and a primary reason to use DFCI. As listed in Table 1, this is managed via the setting **Allow local user to change UEFI settings**. If you don't edit or configure this setting, local users will be able to change any UEFI setting not managed by Intune. Therefore, it’s highly recommended to disable **Allow local user to change UEFI settings.**
-The rest of the DFCI settings enable you to turn off functionality that would otherwise be available to users. For example, if you need to protect sensitive information in highly secure areas, you can disable the camera, and if you don’t want users booting from USB drives, you can disable that also.
-
-### Table 1. DFCI scenarios
-
-| Device management goal                        | Configuration steps                                                                           |
-| --------------------------------------------- | --------------------------------------------------------------------------------------------- |
-| Block local users from changing UEFI settings | Under **Security Features > Allow local user to change UEFI settings**, select **None**.              |
-| Disable cameras                               | Under **Built in Hardware > Cameras**, select **Disabled**.                                       |
-| Disable Microphones and speakers              | Under **Built in Hardware > Microphones and speakers**, select **Disabled**.                      |
-| Disable radios (Bluetooth, Wi-Fi)             | Under **Built in Hardware > Radios (Bluetooth, Wi-Fi, etc.)**, select **Disabled**.                   |
-| Disable Boot from external media (USB, SD)    | Under **Built in Hardware > Boot Options > Boot from external media (USB, SD)**, select **Disabled**. |
-
-> [!CAUTION]
-> The **Disable radios (Bluetooth, Wi-Fi)** setting should only be used on devices that have a wired Ethernet connection.
-
-> [!NOTE]
-> DFCI in Intune includes two settings that do not currently apply to Surface devices: (1) CPU and IO virtualization and (2) Disable Boot from network adapters.
-
-Intune provides Scope tags to delegate administrative rights and Applicability Rules to manage device types. For more information about policy management support and full details on all DFCI settings, see [Microsoft Intune documentation](/intune/configuration/device-firmware-configuration-interface-windows).
-
-## Register devices in Autopilot
-
-As stated above, DFCI can only be applied on devices registered in Windows Autopilot by your reseller or distributor. For security reasons, it’s not possible to “self-provision” your devices into Autopilot. To learn more, see Surface [Registration Support for Windows Autopilot](surface-autopilot-registration-support.md).
-
-## Manually Sync Autopilot devices
-
-Although Intune policy settings typically get applied almost immediately, there may be a delay of 10 minutes before the settings take effect on targeted devices. In rare circumstances, delays of up to 8 hours are possible. To ensure settings apply as soon as possible, such as in test scenarios, you can manually sync the target devices.
-
-- In Endpoint Manager at  devicemanagement.microsoft.com, go to **Devices > Device enrollment > Windows enrollment > Windows Autopilot Devices** and select **Sync**.
-
- For more information, see [Sync your Windows device manually](/intune-user-help/sync-your-device-manually-windows).
-
-> [!NOTE]
-> When adjusting settings directly in UEFI, you need to ensure the device fully restarts to the standard Windows login.
-
-## Verifying UEFI settings on DFCI-managed devices
+## Verify UEFI settings on DFCI-managed devices
 
 In a test environment, you can verify settings in the Surface UEFI interface.
 
 1. Open Surface UEFI, which involves pressing the **Volume +** and **Power** buttons at the same time.
-
 2. Select **Devices**. The UEFI menu will reflect configured settings, as shown in the following figure.
 
-   :::image type="content" alt-text="Surface UEFI." source="images/df3.png":::
+Note how:
+    - The settings are greyed out because **Allow local user to change UEFI setting** is set to None.
+    - Audio is set to off because **Microphones and speakers** are set to **Disabled**.
+## Remove DFCI policy settings
 
-   Note how:
+When you create a DFCI profile, all configured settings will remain in effect across all devices within the profile's scope of management. You can only remove DFCI policy settings by editing the DFCI profile directly.
+If the original DFCI profile has been deleted, create a new profile and edit the appropriate settings.
 
-   - The settings are greyed out because **Allow local user to change UEFI setting** is set to None.
-   - Audio is set to off because **Microphones and speakers** are set to **Disabled**.
-
-## Removing DFCI policy settings
-
-When you create a DFCI profile, all configured settings will remain in effect across all devices within the profile’s scope of management. You can only remove DFCI policy settings by editing the DFCI profile directly.
-
-If the original DFCI profile has been deleted, you can remove policy settings by creating a new profile and then editing the settings as appropriate.
-
-## Removing DFCI management
+## Remove DFCI management
 
 **To remove DFCI management and return device to factory new state:**
 
 1. Retire the device from Intune:
-    1. In Endpoint Manager at  devicemanagement.microsoft.com, choose **Groups > All Devices**. Select the devices you want to retire, and then choose **Retire/Wipe.** To learn more, see [Remove devices by using wipe, retire, or manually unenrolling the device](/intune/remote-actions/devices-wipe).
+    1. In Endpoint Manager at devicemanagement.microsoft.com, choose **Groups > All Devices**. Select the devices you want to retire, and then choose **Retire/Wipe.** To learn more, see [Remove devices by using wipe, retire, or manually unenrolling the device](https://docs.microsoft.com/en-us/intune/remote-actions/devices-wipe).
 2. Delete the Autopilot registration from Intune:
-    1.  Choose **Device enrollment > Windows enrollment > Devices**.
-    2. Under Windows Autopilot devices, choose the devices you want to delete, and then choose **Delete**.
+    1. Choose **Device enrollment > Windows enrollment > Devices**.
+    2. Under Windows Autopilot devices, choose the devices you want to delete, then choose **Delete**.
 3. Connect the device to wired internet with a Surface-branded ethernet adapter. Restart the device and open the UEFI menu (press and hold the volume-up button while also pressing and releasing the power button).
 4. Select **Management > Configure > Refresh from Network** and then choose **Opt-out.**
 
-To keep managing the device with Intune but without DFCI management, self-register the device to Autopilot and enroll it in Intune. DFCI won't be applied to self-registered devices.
+To manage the device with Intune but without DFCI management, self-register it to Autopilot and enroll it in Intune. DFCI will not be applied to self-registered devices.
 
 ## Learn more
-
-- [Ignite 2019: Announcing remote management of Surface UEFI settings from Intune](https://techcommunity.microsoft.com/t5/Surface-IT-Pro-Blog/Ignite-2019-Announcing-remote-management-of-Surface-UEFI/ba-p/978333)
+- [DFCI Management | Microsoft Docs](https://docs.microsoft.com/en-us/mem/autopilot/dfci-management)
+- [Use DFCI profiles on Windows devices in Microsoft Intune](https://docs.microsoft.com/en-us/intune/configuration/device-firmware-configuration-interface-windows)
 - [Windows Autopilot](https://www.microsoft.com/microsoft-365/windows/windows-autopilot)
-- [Windows Autopilot and Surface devices](windows-autopilot-and-surface-devices.md)
-- [Use DFCI profiles on Windows devices in Microsoft Intune](/intune/configuration/device-firmware-configuration-interface-windows)
+- [Windows Autopilot and Surface devices](https://docs.microsoft.com/en-us/surface/windows-autopilot-and-surface-devices)
+- [Ignite 2019: Announcing remote management of Surface UEFI settings from Intune](https://techcommunity.microsoft.com/t5/Surface-IT-Pro-Blog/Ignite-2019-Announcing-remote-management-of-Surface-UEFI/ba-p/978333)
+
+ 
+ 
+
