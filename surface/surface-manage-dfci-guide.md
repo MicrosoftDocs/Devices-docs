@@ -1,6 +1,6 @@
 ---
 title: Manage DFCI on Surface devices
-description: This article explains how to configure a DFCI environment in Microsoft Intune and manage firmware settings for targeted Surface devices.
+description: This page shows how to configure DFCI policy settings on Autopilot-deployed Surface devices, along with documentation for every DFCI setting.
 ms.localizationpriority: medium
 ms.prod: w10
 ms.mktglfcycl: manage
@@ -8,8 +8,8 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 10/01/2021
-ms.reviewer: jesko
+ms.date: 06/24/2022
+ms.reviewer: karand
 manager: laurawi
 ms.audience: itpro
 appliesto:
@@ -81,7 +81,7 @@ Before you begin, review how to set up and manage a DFCI profile with Windows Au
 | **Ports**                                           |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |                                                                                 |
 | **USB type A**                                          | This setting lets you manage how devices can utilize USB-A connections.<br><br>- If you enable this setting,  USB-A data connections are allowed on eligible devices.<br>- If you disable this setting, USB-A data connections are disabled on eligible devices.<br><br>If you don't configure this setting, USB-A data connections are enabled on all devices.<br> <br> **CAUTION:** If you disable both **Boot from external media** and **USB type A**—and the device becomes unbootable for any reason—you won’t be able to recover the device without replacing the SSD. You will be unable to boot from external media, perform a PXE boot or DFCI refresh from the network.                                                                                                               | Supported only on Surface Laptop Go 2 and later.                                |
 | **Wake settings**                                       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |                                                                                 |
-| **Wake on LAN**                                         | This setting lets you manage whether eligible devices can be remotely started from Modern Standby.<br><br>- If you enable this setting, eligible devices cannot be configured to remotely wake on LAN. <br>- If you disable this setting, eligible devices can be configured to remotely wake on LAN.<br>- If you don't configure this setting, eligible devices cannot be configured to remotely wake on LAN.                                                                                                                     | Supported only on Surface Laptop Go 2 and later.                                |
+| **Wake on LAN**                                         | This setting lets you manage whether eligible devices can be remotely started from Modern Standby.<br><br>- If you enable this setting, eligible devices can't be configured to remotely wake on LAN. <br>- If you disable this setting, eligible devices can be configured to remotely wake on LAN.<br>- If you don't configure this setting, eligible devices can't be configured to remotely wake on LAN.                                                                                                                     | Supported only on Surface Laptop Go 2 and later.                                |
 | **Wake on power**                                       | This setting lets you manage whether eligible devices can be remotely started from Modern Standby, hibernation, or powered-off states.<br><br>- If you enable this setting, eligible Surface devices can't be configured to automatically start when reconnected to power<br>- If you disable this setting,  eligible Surface devices can configured to remotely powered on.<br>- If you don't configure this setting, eligible Surface devices can't be configured to automatically start when reconnected to power.                                                                        | Supported only on Surface Laptop Go 2 and later.                                |
 
 > [!NOTE]
