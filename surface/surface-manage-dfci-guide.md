@@ -20,25 +20,25 @@ appliesto:
 
 ## Introduction
 
-With Device Firmware Configuration Interface (DFCI) profiles built into [Microsoft Intune](https://docs.microsoft.com/intune/configuration/device-firmware-configuration-interface-windows), Surface UEFI management extends the modern management stack down to the Unified Extensible Firmware Interface (UEFI) hardware level. DFCI supports zero-touch provisioning, eliminates BIOS passwords, provides control of security settings, including boot options and built-in peripherals, and lays the groundwork for advanced security scenarios in the future.
+With Device Firmware Configuration Interface (DFCI) profiles built into [Microsoft Intune](/intune/configuration/device-firmware-configuration-interface-windows), Surface UEFI management extends the modern management stack down to the Unified Extensible Firmware Interface (UEFI) hardware level. DFCI supports zero-touch provisioning, eliminates BIOS passwords, provides control of security settings, including boot options and built-in peripherals, and lays the groundwork for advanced security scenarios in the future.
 
 Designed to be used with software-level mobile device management (MDM), DFCI enables IT admins to lock down devices at the hardware level. This page shows how to configure DFCI policy settings on Autopilot-deployed Surface devices, along with documentation for every DFCI setting.
 
 ## Overview
 
-1. Review [Intune DFCI documentation](https://docs.microsoft.com/mem/autopilot/dfci-management) to ensure your devices and environment meet the requirements to manage DFCI.
+1. Review [Intune DFCI documentation](/mem/autopilot/dfci-management) to ensure your devices and environment meet the requirements to manage DFCI.
 2. Review [DFCI settings reference](#dfci-settings-reference-for-surface-devices) below for a description of all available settings on Surface devices.
 3. [Configure DFCI settings](#configure-dfci-settings-for-surface-devices).
 4. [Target DFCI settings](#target-dfci-settings-to-surface-devices).
 5. [Apply DFCI settings on new devices](#apply-dfci-settings-on-new-devices).
 
-# Prerequisites
+## Prerequisites
 
 Devices must be registered with Windows Autopilot by a [Microsoft Cloud Solution Provider (CSP) partner](https://partner.microsoft.com/membership/cloud-solution-provider) or OEM distributor. To learn more, see:
 
-- [Surface Registration Support for Windows Autopilot](https://docs.microsoft.com/surface/surface-autopilot-registration-support)
+- [Surface Registration Support for Windows Autopilot](surface-autopilot-registration-support.md)
 
-Before you begin, review how to set up and manage a DFCI profile with Windows Autopilot, as documented in [Use DFCI profiles on Windows devices in Microsoft Intune](https://docs.microsoft.com/mem/intune/configuration/device-firmware-configuration-interface-windows)
+Before you begin, review how to set up and manage a DFCI profile with Windows Autopilot, as documented in [Use DFCI profiles on Windows devices in Microsoft Intune](/mem/intune/configuration/device-firmware-configuration-interface-windows)
 
 ## DFCI settings reference for Surface devices
 
@@ -82,9 +82,10 @@ Before you begin, review how to set up and manage a DFCI profile with Windows Au
 | USB type A                                          | This setting lets you manage how devices can utilize USB-A connections.<br><br>- If you enable this setting,  USB-A data connections are allowed on eligible devices.<br>- If you disable this setting, USB-A data connections are disabled on eligible devices.<br><br>If you don't configure this setting, USB-A data connections are enabled on all devices.                                                                                                                  | Supported only on Surface Laptop Go 2 and later.                                |
 | Wake settings                                       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |                                                                                 |
 | Wake on LAN                                         | This setting lets you manage whether eligible devices can be remotely started from Modern Standby.<br><br>- If you enable this setting, IT admins can remotely wake eligible devices.<br>- If you disable this setting,  admins can't remotely wake eligible devices.<br>- If you don't configure this setting,  admins can remotely wake eligible devices.                                                                                                                     | Supported only on Surface Laptop Go 2 and later.                                |
-| Wake on power                                       | This setting lets you manage whether eligible devices can be remotely started from Modern Standby, hibernation, or powered-off states.<br><br>- If you enable this setting, eligible Surface devices will automatically start when reconnected to power<br>- If you disable this setting,  eligible Surface devices can't be remotely powered on.<br>- If you don't configure this setting, [Type here]                                                                         | Supported only on Surface Laptop Go 2 and later.                                |
+| Wake on power                                       | This setting lets you manage whether eligible devices can be remotely started from Modern Standby, hibernation, or powered-off states.<br><br>- If you enable this setting, eligible Surface devices can be configured to automatically start when reconnected to power<br>- If you disable this setting,  eligible Surface devices can't be remotely powered on.<br>- If you don't configure this setting, eligible Surface devices can be configured to automatically start when reconnected to power.                                                                        | Supported only on Surface Laptop Go 2 and later.                                |
 
- **Note:** DFCI in Intune includes two settings that don't currently apply to Surface devices: (1) CPU and IO virtualization and (2) Disable Boot from network adapters.
+> [!NOTE]
+> DFCI in Intune includes two settings that don't currently apply to Surface devices: (1) CPU and IO virtualization and (2) Disable Boot from network adapters.
 
 ## Configure DFCI settings for Surface devices
 
@@ -109,7 +110,7 @@ In most cases, this requires you to set a policy to Disable. For example, to tur
 
 When you finish configuring the desired settings, target the settings to your intended Surface devices.
 
-1. On the Assignments page, add groups containing your target devices. Or you can **Add all users** or **Add all devices.** Select **Next.** For more information about creating and managing security groups, see [Intune documentation](https://docs.microsoft.com/intune/configuration/device-firmware-configuration-interface-windows#create-your-azure-ad-security-groups).
+1. On the Assignments page, add groups containing your target devices. Or you can **Add all users** or **Add all devices.** Select **Next.** For more information about creating and managing security groups, see [Intune documentation](/intune/configuration/device-firmware-configuration-interface-windows#create-your-azure-ad-security-groups).
 
 2. On the Applicability Rules page, you can target DFCI settings to apply to specific operating systems (OS edition) and OS versions. Select **Next**.
 
@@ -117,7 +118,7 @@ When you finish configuring the desired settings, target the settings to your in
 
 ## Apply DFCI settings on new devices
 
-To ensure that devices, apply the DFCI configuration during OOBE before users sign in, you need to configure enrollment status. For more information, see [Set up an enrollment status page](https://docs.microsoft.com/intune/enrollment/windows-enrollment-status).
+To ensure that devices, apply the DFCI configuration during OOBE before users sign in, you need to configure enrollment status. For more information, see [Set up an enrollment status page](/intune/enrollment/windows-enrollment-status).
 
 ## Verify UEFI settings on DFCI-managed devices
 
@@ -140,7 +141,7 @@ If the original DFCI profile has been deleted, create a new profile and edit the
 **To remove DFCI management and return device to factory new state:**
 
 1. Retire the device from Intune:
-    1. In Endpoint Manager at devicemanagement.microsoft.com, choose **Groups > All Devices**. Select the devices you want to retire, and then choose **Retire/Wipe.** To learn more, see [Remove devices by using wipe, retire, or manually unenrolling the device](https://docs.microsoft.com/intune/remote-actions/devices-wipe).
+    1. In Endpoint Manager at devicemanagement.microsoft.com, choose **Groups > All Devices**. Select the devices you want to retire, and then choose **Retire/Wipe.** To learn more, see [Remove devices by using wipe, retire, or manually unenrolling the device](/intune/remote-actions/devices-wipe).
 2. Delete the Autopilot registration from Intune:
     1. Choose **Device enrollment > Windows enrollment > Devices**.
     2. Under Windows Autopilot devices, choose the devices you want to delete, then choose **Delete**.
@@ -151,8 +152,8 @@ To manage the device with Intune but without DFCI management, self-register it t
 
 ## Learn more
 
-- [DFCI Management | Microsoft Docs](https://docs.microsoft.com/mem/autopilot/dfci-management)
-- [Use DFCI profiles on Windows devices in Microsoft Intune](https://docs.microsoft.com/intune/configuration/device-firmware-configuration-interface-windows)
+- [DFCI Management | Microsoft Docs](/mem/autopilot/dfci-management)
+- [Use DFCI profiles on Windows devices in Microsoft Intune](/intune/configuration/device-firmware-configuration-interface-windows)
 - [Windows Autopilot](https://www.microsoft.com/microsoft-365/windows/windows-autopilot)
-- [Windows Autopilot and Surface devices](https://docs.microsoft.com/surface/windows-autopilot-and-surface-devices)
+- [Windows Autopilot and Surface devices](windows-autopilot-and-surface-devices.md)
 - [Ignite 2019: Announcing remote management of Surface UEFI settings from Intune](https://techcommunity.microsoft.com/t5/Surface-IT-Pro-Blog/Ignite-2019-Announcing-remote-management-of-Surface-UEFI/ba-p/978333)
