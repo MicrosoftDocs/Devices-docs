@@ -94,19 +94,25 @@ Before you begin, review how to set up and manage a DFCI profile with Windows Au
 3. Under Platform, select **Windows 10 and later**.
 4. Under Profile type, select **Templates** > **Device Firmware Configuration Interface** and then select **Create.**
 
-:::image type="content" source="images/dfci-start.png" alt-text="Create DFCI profile":::<br>
+:::image type="content" source="images/dfci-start.png" alt-text="Start creating DFCI profile":::<br>
 
 5. Name the profile, add an optional description and select **Next**.
 6. On the configuration settings page, select the category of settings you wish to configure.
+
+    :::image type="content" source="images/dfci-config-settings.png" alt-text="Select DFCI settings category":::<br>
 
 ## UEFI access
 
 For many customers, the ability to block users from changing UEFI settings is critically important and a primary reason to use DFCI. As listed in [Table 1](#), this is managed via the setting **Allow local user to change UEFI settings**. If you don't edit or configure this setting, local users can change any UEFI setting not managed by Intune. Therefore, it's highly recommended to set **Allow local user to change UEFI settings** to **None.**
 
+    :::image type="content" source="images/dfci-configure.png" alt-text="Block user access to change UEFI settings":::<br>
+
 ## All DFCI settings
 
 DFCI lets you remotely disable hardware components and prevent users from accessing them. For example, suppose you must protect sensitive information in highly secure areas. In that case, you can disable the camera, and if you don't want users booting from USB drives, you can disable that also.
 In most cases, this requires you to set a policy to Disable. For example, to turn off access to the built-in camera, select Cameras and then choose **Disabled.**
+
+:::image type="content" source="images/dfci-disable-camera.png" alt-text="Disable built-in camera":::<br>
 
 ## Target DFCI settings to Surface devices
 
@@ -114,9 +120,15 @@ When you finish configuring the desired settings, target the settings to your in
 
 1. On the Assignments page, add groups containing your target devices. Or you can **Add all users** or **Add all devices.** Select **Next.** For more information about creating and managing security groups, see [Intune documentation](/intune/configuration/device-firmware-configuration-interface-windows#create-your-azure-ad-security-groups).
 
+    :::image type="content" source="images/dfci-assign.png" alt-text="Assign DFCI profile":::<br>
+
 2. On the Applicability Rules page, you can target DFCI settings to apply to specific operating systems (OS edition) and OS versions. Select **Next**.
 
+    :::image type="content" source="images/dfci-rules.png" alt-text="Apply DFCI rules":::<br>
+
 3. On the Review + create page, check your intended DFCI settings and choose **Create.** This example blocks users from changing UEFI settings.
+
+:::image type="content" source="images/dfci-create.png" alt-text="Create DFCI profile":::<br>
 
 ## Apply DFCI settings on new devices
 
@@ -128,6 +140,7 @@ In a test environment, you can verify settings in the Surface UEFI interface.
 
 1. Open Surface UEFI, which involves pressing the **Volume +** and **Power** buttons at the same time.
 2. Select **Devices**. The UEFI menu will reflect configured settings, as shown in the following figure.
+   :::image type="content" alt-text="Surface UEFI." source="images/df3.png":::
 
 Note how:
     - The settings are greyed out because **Allow local user to change UEFI setting** is set to None.
