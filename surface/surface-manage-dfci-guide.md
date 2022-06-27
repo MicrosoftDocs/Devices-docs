@@ -85,7 +85,7 @@ Designed to be used with software-level mobile device management (MDM), DFCI ena
 
     :::image type="content" source="images/dfci-start.png" alt-text="Start creating DFCI profile":::<br>
 
-See [Use DFCI profiles on Windows devices in Microsoft Intune](/mem/intune/configuration/device-firmware-configuration-interface-windows) for complete instructions, including:
+5. See [Use DFCI profiles on Windows devices in Microsoft Intune](/mem/intune/configuration/device-firmware-configuration-interface-windows) for complete instructions, including:
 
 - Create your Azure AD security groups
 - Create the profiles
@@ -112,7 +112,7 @@ In a test environment, you can verify settings in the Surface UEFI interface.
 
       - The settings are grayed out (inactive) because **Allow local user to change UEFI setting** is set to **None**.
 
-      - Audio is set to off because **Microphones and speakers** are set to **Disabled**.
+      - On-board Audio is set to off because **Microphones and speakers** is set to **Disabled**.
 
 ## Remove DFCI policy settings
 
