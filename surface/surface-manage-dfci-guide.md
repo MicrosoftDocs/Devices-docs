@@ -29,10 +29,10 @@ Designed to be used with software-level mobile device management (MDM), DFCI ena
 
 ## Prerequisites
 
-- Windows 11 or Windows 10 version 1809 (released November 2018).
+- Windows 11 or Windows 10 version 1809 (released November 2018)
 - Devices must be registered with Windows Autopilot via one of the following methods: 
-  - [Microsoft Cloud Solution Provider (CSP) partner](https://partner.microsoft.com/membership/cloud-solution-provider). 
-  - [Directly from Surface](https://prod.support.services.microsoft.com/supportrequestform/0d8bf192-cab7-6d39-143d-5a17840b9f5f). 
+  - [Microsoft Cloud Solution Provider (CSP) partner](https://partner.microsoft.com/membership/cloud-solution-provider)
+  - [Directly from Surface](https://prod.support.services.microsoft.com/supportrequestform/0d8bf192-cab7-6d39-143d-5a17840b9f5f)
 
 > [!NOTE]
 > Devices manually or self-registered for Autopilot, such as imported from a CSV file, aren't allowed to use DFCI. By design, DFCI management requires external attestation of the device's commercial acquisition via a Microsoft CSP partner or Surface registration.
