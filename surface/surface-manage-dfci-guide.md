@@ -68,9 +68,9 @@ Designed to be used with software-level mobile device management (MDM), DFCI ena
 | **Security features** | | |
 | **Windows Platform Binary Table** | This setting lets you manage whether the Windows Platform Binary Table (WPBT) can run on eligible devices. WPBT allows vendors and OEMs to run an .exe program in the UEFI layer. Every time Windows boots, it looks at the UEFI, and runs the .exe. It's used to run programs that aren't included with the Windows media. 
 
-- If you enable this setting, WPBT is turned on and .exe programs in the UEFI layer are allowed to run. 
-- If you disable this setting, WPBT is turned off, and .exe programs in the UEFI layer cannot run. 
-- If you don't configure this setting, WPBT is turned on. The OS might allow vendors and OEMs to run programs using the WPBT. | All eligible devices |
+- If you enable this setting, WPBT is turned on and .exe programs in the UEFI layer are allowed to run.
+- If you disable this setting, WPBT is turned off, and .exe programs in the UEFI layer cannot run.
+- If you don't configure this setting, WPBT is turned on. The OS might allow vendors and OEMs to run programs using the WPBT.| All eligible devices |
 | **Simultaneous multithreading** | This setting lets you manage whether simultaneous multithreading (SMT) support is enabled on eligible devices. SMT supports Intel hyperthreading technology, which provides two logical processors for each physical core.
 
 - If you enable this setting, SMT is turned on in the UEFI layer.
