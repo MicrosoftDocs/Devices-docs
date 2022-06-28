@@ -60,20 +60,48 @@ Designed to be used with software-level mobile device management (MDM), DFCI ena
 **Table 1. DFCI policy settings reference: Autopilot-deployed Surface devices**
 
 | DFCI setting | Description | Supported on |
-| :--------------------------------------------------- | :----------------------------| :------------------------------- |
-| **UEFI access**                                     |                                |                                           |
+| :---| :----| :--- |
+| **UEFI access** | | |
 | **Allow local user to change UEFI (BIOS) settings** | This setting lets you manage whether end users can modify UEFI settings on eligible devices. 
-- If you select **Only not configured settings,**  end users may change any UEFI setting *except* any settings that you've explicitly enabled or disabled via Intune.
-- If you select **None**, end users may not change UEFI settings, including settings not shown in the DFCI profile.                                                        | All eligible devices    |
-| **Security features**    |    |   |
-| **Windows Platform Binary Table** | This setting lets you manage whether the Windows Platform Binary Table (WPBT) can run on eligible devices. WPBT allows vendors and OEMs to run an .exe program in the UEFI layer. Every time Windows boots, it looks at the UEFI, and runs the .exe. It's used to run programs that aren't included with the Windows media. <br><br>- If you enable this setting, WPBT is turned on and .exe programs in the UEFI layer are allowed to run. <br>- If you disable this setting, WPBT is turned off, and .exe programs in the UEFI layer cannot run. <br>- If you don't configure this setting, WPBT is turned on. The OS might allow vendors and OEMs to run programs using the WPBT. | All eligible devices                                                            |
-| **Simultaneous multithreading**                     | This setting lets you manage whether simultaneous multithreading (SMT) support is enabled on eligible devices. SMT supports Intel hyperthreading technology, which provides two logical processors for each physical core.<br><br>- If you enable this setting, SMT is turned on in the UEFI layer.<br>-  If you disable this setting, SMT is turned off in the UEFI layer.<br>-  If you don't configure this setting, SMT is enabled.                                                                               | All eligible devices                                                            |
-| **Built-in hardware**                                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |                                                                                 |
-| **Cameras**                                         | This setting lets you manage whether the built-in camera can function on eligible devices.<br><br>- If you enable this setting, all built-in cameras are allowed. Peripherals, like USB cameras, aren't affected.<br>- If you disable this setting, all built-in cameras are disabled. Peripherals, like USB cameras, aren't affected.<br>- If you don't configure this setting,  all built-in cameras are enabled.                            | - Not supported on Surface Pro X.<br>- Supported on all other eligible devices. |
-| **Microphones and speakers**                       | This setting lets you manage whether on-board audio can function on eligible devices. <br><br> - If you enable this setting, all built-in microphones and speakers are allowed. Peripherals, like USB devices, aren't affected.<br>- If you disable this setting, all built-in microphones and speakers are disabled. Peripherals, like USB devices, aren't affected.<br>- If you don't configure this setting, microphones and speakers are enabled.                                                                              | - Not supported on Surface Pro X.<br>- Supported on all other eligible devices. |
-| **Radios (Bluetooth, Wi-Fi, NFC, etc.)**   |This setting lets you manage whether built-in Bluetooth, Wi-Fi, or near field communication (NFC) can function on eligible devices. <br><br> - If you enable this setting, all built-in radios are allowed. Peripherals, like USB devices, aren't affected. <br>- If you disable this setting, all built-in radios are disabled. Peripherals, like USB devices, aren't affected. <br>- If you don't configure this setting, all built-in radios are enabled. <br><br>**CAUTION:** The **Disable** setting should only be used on devices with a wired Ethernet connection.  | - Not supported on Surface Pro X. <br>- Supported on all other eligible devices. |
-| **Boot options**                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |                                                                                 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |                                                                                 |
-| **Boot from external media (USB, SD)**              | This setting lets you manage whether eligible devices can be booted from external media.<br><br>  - If you enable this setting, end users can boot the device from  USB flash drives or other non-hard drive storage technologies.<br>- If you disable this setting, end users can't boot the device from  USB flash drives or other non-hard drive storage technologies.<br>- If you don't configure this setting,  end users can boot the device from  USB flash drives or other non-hard drive storage technologies.                                                          | All eligible devices                                    |
+- If you select **Only not configured settings,** end users may change any UEFI setting *except* any settings that you've explicitly enabled or disabled via Intune.
+- If you select **None**, end users may not change UEFI settings, including settings not shown in the DFCI profile. | All eligible devices |
+| **Security features** | | |
+| **Windows Platform Binary Table** | This setting lets you manage whether the Windows Platform Binary Table (WPBT) can run on eligible devices. WPBT allows vendors and OEMs to run an .exe program in the UEFI layer. Every time Windows boots, it looks at the UEFI, and runs the .exe. It's used to run programs that aren't included with the Windows media. 
+
+- If you enable this setting, WPBT is turned on and .exe programs in the UEFI layer are allowed to run. 
+- If you disable this setting, WPBT is turned off, and .exe programs in the UEFI layer cannot run. 
+- If you don't configure this setting, WPBT is turned on. The OS might allow vendors and OEMs to run programs using the WPBT. | All eligible devices |
+| **Simultaneous multithreading** | This setting lets you manage whether simultaneous multithreading (SMT) support is enabled on eligible devices. SMT supports Intel hyperthreading technology, which provides two logical processors for each physical core.
+
+- If you enable this setting, SMT is turned on in the UEFI layer.
+- If you disable this setting, SMT is turned off in the UEFI layer.
+- If you don't configure this setting, SMT is enabled. | All eligible devices |
+| **Built-in hardware** | | |
+| **Cameras** | This setting lets you manage whether the built-in camera can function on eligible devices.
+
+- If you enable this setting, all built-in cameras are allowed. Peripherals, like USB cameras, aren't affected.
+- If you disable this setting, all built-in cameras are disabled. Peripherals, like USB cameras, aren't affected.
+- If you don't configure this setting, all built-in cameras are enabled. | - Not supported on Surface Pro X.
+- Supported on all other eligible devices. |
+| **Microphones and speakers** | This setting lets you manage whether on-board audio can function on eligible devices. 
+- If you enable this setting, all built-in microphones and speakers are allowed. Peripherals, like USB devices, aren't affected.
+- If you disable this setting, all built-in microphones and speakers are disabled. Peripherals, like USB devices, aren't affected.
+- If you don't configure this setting, microphones and speakers are enabled. | - Not supported on Surface Pro X.
+- Supported on all other eligible devices. |
+| **Radios (Bluetooth, Wi-Fi, NFC, etc.)** |This setting lets you manage whether built-in Bluetooth, Wi-Fi, or near field communication (NFC) can function on eligible devices. 
+
+- If you enable this setting, all built-in radios are allowed. Peripherals, like USB devices, aren't affected. 
+- If you disable this setting, all built-in radios are disabled. Peripherals, like USB devices, aren't affected. 
+- If you don't configure this setting, all built-in radios are enabled. 
+
+**CAUTION:** The **Disable** setting should only be used on devices with a wired Ethernet connection. | - Not supported on Surface Pro X. 
+- Supported on all other eligible devices. |
+| **Boot options** | | | 
+| **Boot from external media (USB, SD)** | This setting lets you manage whether eligible devices can be booted from external media.
+
+- If you enable this setting, end users can boot the device from USB flash drives or other non-hard drive storage technologies.
+- If you disable this setting, end users can't boot the device from USB flash drives or other non-hard drive storage technologies.
+- If you don't configure this setting, end users can boot the device from USB flash drives or other non-hard drive storage technologies. | All eligible devices |
 
 > [!NOTE]
 > DFCI in Intune includes two settings that don't currently apply to Surface devices: (1) CPU and IO virtualization and (2) Disable Boot from network adapters.
@@ -85,7 +113,7 @@ Designed to be used with software-level mobile device management (MDM), DFCI ena
 3. Under Platform, select **Windows 10 and later**.
 4. Under Profile type, select **Templates** > **Device Firmware Configuration Interface** and then select **Create.**
 
-    :::image type="content" source="images/dfci-start.png" alt-text="Start creating DFCI profile":::<br>
+   :::image type="content" source="images/dfci-start.png" alt-text="Start creating DFCI profile":::
 
 5. See [Use DFCI profiles on Windows devices in Microsoft Intune](/mem/intune/configuration/device-firmware-configuration-interface-windows) for complete instructions, including:
 
@@ -99,7 +127,7 @@ Designed to be used with software-level mobile device management (MDM), DFCI ena
 
 For many customers, the ability to block users from changing UEFI settings is critically important and a primary reason to use DFCI. As listed above in Table 1, this is managed via the setting **Allow local user to change UEFI settings**. If you don't edit or configure this setting, an end user can change any UEFI setting not managed by Intune. Therefore, it's highly recommended to set **Allow local user to change UEFI settings** to **None.**
 
-:::image type="content" source="images/dfci-configure.png" alt-text="Block user access to change UEFI settings":::<br>
+:::image type="content" source="images/dfci-configure.png" alt-text="Block user access to change UEFI settings":::
 
 ## Verify UEFI settings on DFCI-managed devices
 
@@ -115,8 +143,8 @@ In a test environment, you can verify settings in the Surface UEFI interface.
 
    Note that:
 
-      - The settings are grayed out (inactive) because **Allow local user to change UEFI setting** is set to **None**.
-      - On-board Audio is set to off because **Microphones and speakers** is set to **Disabled**.
+     - The settings are grayed out (inactive) because **Allow local user to change UEFI setting** is set to **None**.
+     - On-board Audio is set to off because **Microphones and speakers** is set to **Disabled**.
 
 ## Remove DFCI policy settings
 
@@ -127,14 +155,14 @@ When you create a DFCI profile, all configured settings will remain in effect ac
 **To remove DFCI management and return device to factory new state:**
 
 1. Retire the device from Intune:
-    1. In Endpoint Manager at endpoint.microsoft.com, choose **Devices** > **All Devices**. 
-    1. Select the device you want to retire, then choose **Retire/Wipe.** 
-    To learn more, see [Remove devices by using wipe, retire, or manually unenrolling the device](/intune/remote-actions/devices-wipe).
+   1. In Endpoint Manager at endpoint.microsoft.com, choose **Devices** > **All Devices**. 
+   1. Select the device you want to retire, then choose **Retire/Wipe.** 
+   To learn more, see [Remove devices by using wipe, retire, or manually unenrolling the device](/intune/remote-actions/devices-wipe).
 2. Delete the Autopilot registration from Intune:
-    1. Choose **Device enrollment > Windows enrollment > Devices**.
-    2. Under Windows Autopilot devices, choose the devices you want to delete, then choose **Delete**.
+   1. Choose **Device enrollment > Windows enrollment > Devices**.
+   2. Under Windows Autopilot devices, choose the devices you want to delete, then choose **Delete**.
 3. Connect the device to wired internet with a Surface-branded ethernet adapter. Restart the device and open the UEFI menu (press and hold the volume-up button while also pressing and releasing the power button).
-4. Select **Management > Configure > Refresh from Network** and then choose **Opt-out.**
+4. Select **Management > Configure > Refresh from Network**, then choose **Opt-out.**
 
 To manage the device with Intune but without DFCI management, self-register it to Autopilot and enroll it in Intune. DFCI won't be applied to self-registered devices.
 
