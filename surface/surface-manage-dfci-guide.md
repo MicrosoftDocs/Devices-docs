@@ -62,10 +62,9 @@ Designed to be used with software-level mobile device management (MDM), DFCI ena
 | DFCI setting | Description | Supported on |
 | :---| :----| :--- |
 | **UEFI access** | | |
-| **Allow local user to change UEFI (BIOS) settings** | This setting lets you manage whether end users can modify UEFI settings on eligible devices. 
-
+| **Allow local user to change UEFI (BIOS) settings** | This setting lets you manage whether end users can modify UEFI settings on eligible devices.
 - If you select **Only not configured settings,** end users may change any UEFI setting *except* any settings that you've explicitly enabled or disabled via Intune.
-- If you select **None**, end users may not change UEFI settings, including settings not shown in the DFCI profile.| All eligible devices|
+- If you select **None**, end users may not change UEFI settings, including settings not shown in the DFCI profile.| All eligible devices |
 | **Security features** | | |
 | **Windows Platform Binary Table** | This setting lets you manage whether the Windows Platform Binary Table (WPBT) can run on eligible devices. WPBT allows vendors and OEMs to run an .exe program in the UEFI layer. Every time Windows boots, it looks at the UEFI, and runs the .exe. It's used to run programs that aren't included with the Windows media.
 
