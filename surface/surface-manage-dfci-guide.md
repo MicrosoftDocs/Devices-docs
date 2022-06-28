@@ -71,7 +71,7 @@ Designed to be used with software-level mobile device management (MDM), DFCI ena
 | **Microphones and speakers**                       | This setting lets you manage whether on-board audio can function on eligible devices. <br><br> - If you enable this setting, all built-in microphones and speakers are allowed. Peripherals, like USB devices, aren't affected.<br>- If you disable this setting, all built-in microphones and speakers are disabled. Peripherals, like USB devices, aren't affected.<br>- If you don't configure this setting, microphones and speakers are enabled.                                                                              | - Not supported on Surface Pro X.<br>- Supported on all other eligible devices. |
 | **Radios (Bluetooth, Wi-Fi, NFC, etc.)**   |This setting lets you manage whether built-in Bluetooth, Wi-Fi, or near field communication (NFC) can function on eligible devices. 
   
-  - If you enable this setting, all built-in radios are allowed. Peripherals, like USB devices, aren't affected.
+  - If you enable this setting, all built-in radios are allowed. Peripherals, like USB devices, aren't affected. <br></br>```
   - If you disable this setting, all built-in radios are disabled. Peripherals, like USB devices, aren't affected.
   - If you don't configure this setting, all built-in radios are enabled.
   
