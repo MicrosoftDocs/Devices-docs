@@ -63,19 +63,16 @@ Designed to be used with software-level mobile device management (MDM), DFCI ena
 | :---| :----| :--- |
 | **UEFI access** | | |
 | **Allow local user to change UEFI (BIOS) settings** | This setting lets you manage whether end users can modify UEFI settings on eligible devices.
-- If you select **Only not configured settings,** end users may change any UEFI setting *except* any settings that you've explicitly enabled or disabled via Intune.
-- If you select **None**, end users may not change UEFI settings, including settings not shown in the DFCI profile. | All eligible devices |
+- If you select **Only not configured settings,** end users may change any UEFI setting *except* any settings that you've explicitly enabled or disabled via Intune.<br>- If you select **None**, end users may not change UEFI settings, including settings not shown in the DFCI profile. | All eligible devices |
 | **Security features** | | |
 | **Windows Platform Binary Table** | This setting lets you manage whether the Windows Platform Binary Table (WPBT) can run on eligible devices. WPBT allows vendors and OEMs to run an .exe program in the UEFI layer. Every time Windows boots, it looks at the UEFI, and runs the .exe. It's used to run programs that aren't included with the Windows media.
 
 - If you enable this setting, WPBT is turned on and .exe programs in the UEFI layer are allowed to run.
-- If you disable this setting, WPBT is turned off, and .exe programs in the UEFI layer cannot run.
-- If you don't configure this setting, WPBT is turned on. The OS might allow vendors and OEMs to run programs using the WPBT. | All eligible devices |
+- If you disable this setting, WPBT is turned off, and .exe programs in the UEFI layer cannot run. <br>- If you don't configure this setting, WPBT is turned on. The OS might allow vendors and OEMs to run programs using the WPBT. | All eligible devices |
 | **Simultaneous multithreading** | This setting lets you manage whether simultaneous multithreading (SMT) support is enabled on eligible devices. SMT supports Intel hyperthreading technology, which provides two logical processors for each physical core.
 
 - If you enable this setting, SMT is turned on in the UEFI layer.
-- If you disable this setting, SMT is turned off in the UEFI layer.
-- If you don't configure this setting, SMT is enabled. | All eligible devices |
+- If you disable this setting, SMT is turned off in the UEFI layer. <br>- If you don't configure this setting, SMT is enabled. | All eligible devices |
 | **Built-in hardware** | | |
 | **Cameras** | This setting lets you manage whether the built-in camera can function on eligible devices.
 
