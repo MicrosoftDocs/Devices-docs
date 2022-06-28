@@ -127,7 +127,9 @@ When you create a DFCI profile, all configured settings will remain in effect ac
 **To remove DFCI management and return device to factory new state:**
 
 1. Retire the device from Intune:
-    1. In Endpoint Manager at endpoint.microsoft.com, choose **Devices** > **All Devices**. Select the device you want to retire, and then choose **Retire/Wipe.** To learn more, see [Remove devices by using wipe, retire, or manually unenrolling the device](/intune/remote-actions/devices-wipe).
+    1. In Endpoint Manager at endpoint.microsoft.com, choose **Devices** > **All Devices**. 
+    1. Select the device you want to retire, then choose **Retire/Wipe.** 
+    To learn more, see [Remove devices by using wipe, retire, or manually unenrolling the device](/intune/remote-actions/devices-wipe).
 2. Delete the Autopilot registration from Intune:
     1. Choose **Device enrollment > Windows enrollment > Devices**.
     2. Under Windows Autopilot devices, choose the devices you want to delete, then choose **Delete**.
