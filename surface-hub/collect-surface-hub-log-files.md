@@ -23,7 +23,7 @@ You can access log files directly from your Surface Hub or remotely via Teams Ad
 ## Access logs from Surface Hub
 
 1. Insert a USB flash drive into the Surface. 
-2. Sign in to Surface Hub with Admin credentials and go to **Settings > Update & Security > Logs > Collect Logs**. This saves the log files to the root of the USB drive, a process that can take up to 5 minutes.
+2. Sign in to Surface Hub with Admin credentials and go to **Settings > Update & Security > Logs > Collect Logs**. This process saves the log files to the root of the USB drive, a process that can take up to 5 minutes.
   
     :::image type="content" source="images/hub-logs-fig1.png" alt-text="Access logs from Surface Hub":::
 
@@ -41,7 +41,7 @@ You can access log files directly from your Surface Hub or remotely via Teams Ad
 
     :::image type="content" source="images/hub-logs-fig4.png" alt-text="Prepare  device logs for download.":::
 
-5. Select the **History** tab to view the status of the log collection process and download the logs when they are available.
-6. When the logs are ready, press **Download**. This saves the log files to the Downloads folder on your PC.
+5. Select the **History** tab to view the status of the log collection process and download the logs when they're available.
+6. When the logs are ready, press **Download**. This process saves the log files to the Downloads folder on your PC.
 
     :::image type="content" source="images/hub-logs-fig5.png" alt-text="Download Surface Hub logs from Teams Admin Center":::
