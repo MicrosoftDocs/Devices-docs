@@ -53,7 +53,7 @@ Select **View report** to see details on each insights category, giving you diag
 
 ## Device warranty and coverage
 
-if you manage hundreds or thousands of devices, having direct access to the warranty status of each device is especially useful, letting you quickly see the following information:
+If you manage hundreds or thousands of devices, having direct access to the warranty status of each device is especially useful, letting you quickly see the following information:
 
 - Devices within the warranty period
 - Devices expiring
@@ -65,6 +65,21 @@ if you manage hundreds or thousands of devices, having direct access to the warr
 The Surface Management Portal gives complete visibility into support activity along with the status of each request.
 
 :::image type="content" source="/surface/images/surface-management-portal/surface-management-portal-support.png" lightbox="/surface/images/surface-management-portal/surface-management-portal-support.png" alt-text="Get information about support activity along with the status of each request.":::
+
+### Create Support Requests
+
+Newly added to the portal is the ability to create and submit new requests for one device or many.
+
+1. Select create a support request
+2. Select the Product (Device) from the drop-down list.
+3. Based on the Product selected, pick the device model.
+4. Select the device or devices based on the serial number (SN).
+5. Provide details and supporting information around the issue.
+6. Provide your contact information and a contact preference.
+7. Review and submit the request.
+8. Track the request status using the current insights and detailed views.
+
+:::image type="content" source="/surface/images/surface-management-portal/smp-submit-support-request.png"  alt-text="Submit support request.":::
 
 ## Try for free
 
