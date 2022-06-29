@@ -1,5 +1,5 @@
 ---
-title: Prepare your environment for Microsoft Surface Hub
+title: Collect Surface Hub log files
 description: This page shows how admins can collect log files for use when troubleshooting Surface Hub. 
 ms.reviewer: 
 manager: laurawi
@@ -32,7 +32,7 @@ You can access log files directly from your Surface Hub or remotely via Teams Ad
 1. Sign in to **Teams Admin Center** and select **Teams devices > Surface Hubs**.
 2. Locate your Surface Hub and select its **Display name**.
 
-    :::image type="content" source="images/hub-logs-fig2.png" alt-text="Access logs from Surface Hub":::
+    :::image type="content" source="images/hub-logs-fig2.png" alt-text="Select your Surface Hub Display name":::
 
 3. Press **Download device logs**.
     :::image type="content" source="images/hub-logs-fig3.png" alt-text="Press Download device logs":::
