@@ -30,7 +30,7 @@ When your Surface devices are enrolled for cloud management and users log in for
 
 ## Get started
 
-Sign in to Microsoft Endpoint Manager, click **All services**, and then click **Surface Management Portal**.
+Sign in to Microsoft Endpoint Manager, select **All services** > **Surface Management Portal**.
 
    :::image type="content" source="images/surface-management-portal/surface-management-portal-start.png" lightbox="/surface/images/surface-management-portal/surface-management-portal-start.png" alt-text="Start Surface Management Portal":::
 
@@ -68,7 +68,7 @@ The Surface Management Portal gives complete visibility into support activity al
 
 Newly added to the portal is the ability to create and submit new requests for one device or many.
 
-1. Select **Create support request**
+1. Select **Create support request**.
 2. Select the Product (Device) from the drop-down list.
 3. Based on the Product selected, pick the device model.
 4. Select the device or devices based on the serial number (SN).
@@ -76,7 +76,7 @@ Newly added to the portal is the ability to create and submit new requests for o
 6. Provide your contact information and a contact preference.
 7. Review and submit the request.  
 
-:::image type="content" source="images/surface-management-portal/smp-submit-support-request.png"  alt-text="Submit support request.":::
+   :::image type="content" source="images/surface-management-portal/smp-submit-support-request.png"  alt-text="Submit support request.":::
 
 > [!TIP]
 > Track request status using the current insights and detailed views.
