@@ -23,13 +23,13 @@ You can access log files directly from your Surface Hub or remotely via Teams Ad
 ## Access logs from Surface Hub
 
 1. Insert a USB flash drive into the Surface. 
-2. Sign in to Surface Hub with Admin credentials and go to **Settings > Update & Security > Logs > Collect Logs**. This process saves the log files to the root of the USB drive, a process that can take up to 5 minutes.
+2. Sign in to Surface Hub with Admin credentials and go to **Settings** > **Update & Security** > **Logs** > **Collect Logs**. This process saves the log files to the root of the USB drive, a process that can take up to 5 minutes.
   
     :::image type="content" source="images/hub-logs-fig1.png" alt-text="Access logs from Surface Hub":::
 
 ## Access logs remotely from Teams Admin Center
 
-1. Sign in to **Teams Admin Center** and select **Teams devices > Surface Hubs**.
+1. Sign in to [Teams Admin Center](https://admin.teams.microsoft.com/) and select **Teams devices** > **Surface Hubs**.
 2. Locate your Surface Hub and select its **Display name**.
 
     :::image type="content" source="images/hub-logs-fig2.png" alt-text="Select your Surface Hub Display name":::
@@ -45,3 +45,8 @@ You can access log files directly from your Surface Hub or remotely via Teams Ad
 6. When the logs are ready, press **Download**. This process saves the log files to the Downloads folder on your PC.
 
     :::image type="content" source="images/hub-logs-fig5.png" alt-text="Download Surface Hub logs from Teams Admin Center":::
+
+## Learn more
+
+- [What's new in Windows 10 Team 2020 updates](surface-hub-2020-update-whats-new.md)
+- [Windows Event Viewer](/host-integration-server/core/windows-event-viewer1)
