@@ -17,7 +17,7 @@ ms.date: 1/15/2021
 
 # Battery Limit setting
 
-Battery Limit option is a UEFI setting that changes how the Surface device battery is charged and may prolong its longevity. This setting is recommended in  cases  in which the device is continuously connected to power, for example when devices are integrated into kiosk solutions.  
+Battery Limit option is a UEFI setting that changes how the Surface device battery is charged and may prolong its longevity. This setting is recommended for devices continuously connected to power, for example when devices are integrated into kiosk solutions.  
 
 ## How Battery Limit works
 
