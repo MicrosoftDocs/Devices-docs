@@ -133,6 +133,8 @@
           href: surface-hub-update-history.md      
         - name: Recover and reset Surface Hub 2S
           href: surface-hub-2s-recover-reset.md
+        - name: Collect Surface Hub log files  
+          href: collect-surface-hub-log-files.md 
         - name: Surface Hub return to the office video series 
           href: surface-hub-return-to-office-videos.md   
         - name: Troubleshoot Miracast on Surface Hub
@@ -262,6 +264,8 @@
           href: device-reset-surface-hub.md
         - name: Using the Surface Hub Recovery Tool
           href: surface-hub-recovery-tool.md
+        - name: Collect Surface Hub log files  
+          href: collect-surface-hub-log-files.md 
         - name: Surface Hub SSD replacement
           href: surface-hub-ssd-replacement.md
         - name: Top support solutions for Surface Hub
