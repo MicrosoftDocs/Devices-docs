@@ -9,6 +9,7 @@ metadata:
   ms.service: product-insights #Required; service per approved list. service slug assigned to your service by ACOM.
   ms.prod: Surface
   ms.topic: landing-page # Required
+  ms.custom: intro-hub-or-landing
   manager: laurawi
   author: greg-lindsay #Required; your GitHub user alias, with correct capitalization.
   ms.author: greglin #Required; microsoft alias of author; optional team alias.
