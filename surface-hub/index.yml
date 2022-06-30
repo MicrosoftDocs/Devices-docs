@@ -11,6 +11,7 @@ metadata:
   ms.topic: landing-page # Required
   ms.prod: surface-hub
   ms.technology: windows
+  ms.custom: intro-hub-or-landing
   audience: ITPro
   ms.localizationpriority: medium
   author: greg-lindsay #Required; your GitHub user alias, with correct capitalization.
