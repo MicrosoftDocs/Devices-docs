@@ -18,9 +18,14 @@ appliesto:
 
 # Configure non Global admin accounts on Surface Hub
 
-The Windows 10 Team 2020 Update adds support for configuring non Global admin accounts that limit permissions to management of the Settings app on Surface Hub devices joined to an Azure AD domain. This enables you to scope admin permissions for Surface Hub only and prevent potentially unwanted admin access across an entire Azure AD domain. Before you begin, make sure your Surface Hub is joined to Azure AD and Intune auto-enrolled. If not, you will need to reset Surface Hub and complete the first-time, out-of-the-box (OOBE) setup program, choosing the option to join Azure AD.
+The Windows 10 Team 2020 Update adds support for configuring non Global admin accounts that limit permissions to management of the Settings app on Surface Hub devices joined to an Azure AD domain. This enables you to scope admin permissions for Surface Hub only and prevent potentially unwanted admin access across an entire Azure AD domain. 
 
-Windows 10 Team 2020 Update 2 adds support for [LocalUsersAndGroups configuration service provider](/windows/client-management/mdm/policy-csp-localusersandgroups). This replaces the [RestrictedGroups CSP](/windows/client-management/mdm/policy-csp-restrictedgroups), which remains available but is no longer recommended, as explained below.
+Windows 10 Team 2020 Update 2 adds support for [LocalUsersAndGroups CSP](/windows/client-management/mdm/policy-csp-localusersandgroups). That is now the recommended CSP to use; [RestrictedGroups CSP](/windows/client-management/mdm/policy-csp-restrictedgroups) is still supported, but has been deprecated.
+
+> [!NOTE]
+> Before you begin, make sure your Surface Hub is Azure AD-joined and Intune auto-enrolled. If not, you will need to reset Surface Hub and complete the [first-time, out-of-the-box (OOBE) setup](first-run-program-surface-hub.md) again, choosing the option to join Azure AD. Only accounts that [authenticate via Azure AD](/azure/active-directory/hybrid/choose-ad-authn#cloud-authentication) are supported with the non Global admin policy configuration.
+
+
 
 ## Summary
 
