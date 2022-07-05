@@ -1,32 +1,22 @@
 <!-- This file is generated automatically each week. Changes made to this file will be overwritten.-->
 
-<!-- This file is generated automatically each week. Changes made to this file will be overwritten.-->
 
 
-
-
-## Week of June 20, 2022
+## Week of June 27, 2022
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 6/22/2022 | [Surface Hub update history](/surface-hub/surface-hub-update-history) | modified |
+| 6/30/2022 | [Collect Surface Hub log files](/surface-hub/collect-surface-hub-log-files) | added |
 
 
-## Week of May 30, 2022
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 6/3/2022 | [Surface Hub update history](/surface-hub/surface-hub-update-history) | modified |
-
-
-## Week of May 23, 2022
+## Week of June 27, 2022
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 5/27/2022 | [Install and manage Surface Hub 2 Smart Camera](/surface-hub/surface-hub-2-smart-camera) | modified |
+| 6/28/2022 | [Manage DFCI on Surface devices](/surface/surface-manage-dfci-guide) | modified |
+| 6/30/2022 | [Surface Management Portal](/surface/surface-management-portal) | modified |
 
 
 ## Week of June 20, 2022
@@ -95,19 +85,3 @@
 | 6/3/2022 | [What’s new in Surface Dock 2](/surface/surface-dock-whats-new) | modified |
 | 6/3/2022 | [Surface driver and firmware lifecycle for Windows-based devices](/surface/surface-driver-firmware-lifecycle-support) | modified |
 | 6/3/2022 | [Manage DFCI on Surface devices](/surface/surface-manage-dfci-guide) | modified |
-
-
-## Week of May 23, 2022
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 5/27/2022 | [Next Business Day Replacement information & coverage areas](/surface/surface-next-business-day-replacement) | modified |
-
-
-## Week of May 23, 2022
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 5/27/2022 | [Install and manage Surface Hub 2 Smart Camera](/surface-hub/surface-hub-2-smart-camera) | modified |
