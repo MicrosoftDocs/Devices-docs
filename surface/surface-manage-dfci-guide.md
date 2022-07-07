@@ -149,7 +149,7 @@ To manage the device with Intune but without DFCI management, self-register it t
 ## Learn more
 
 - [DFCI Management | Microsoft Docs](/mem/autopilot/dfci-management)
-- [Use DFCI profiles on Windows devices in Microsoft Intune](mem/intune/configuration/device-firmware-configuration-interface-windows)
+- [Use DFCI profiles on Windows devices in Microsoft Intune](/mem/intune/configuration/device-firmware-configuration-interface-windows)
 - [DFCI settings for Windows 10/11 in Microsoft Intune](/mem/intune/configuration/device-firmware-configuration-interface-windows-settings)
 - [Windows Autopilot](https://www.microsoft.com/microsoft-365/windows/windows-autopilot)
 - [Windows Autopilot and Surface devices](windows-autopilot-and-surface-devices.md)
