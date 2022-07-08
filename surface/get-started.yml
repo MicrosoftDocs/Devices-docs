@@ -7,7 +7,9 @@ metadata:
   title: Surface devices documentation # Required; page title displayed in search results. Include the brand. < 60 chars.
   description: Get started with Microsoft Surface devices # Required; article description that is displayed in search results. < 160 chars.
   ms.service: product-insights #Required; service per approved list. service slug assigned to your service by ACOM.
+  ms.prod: Surface
   ms.topic: landing-page # Required
+  ms.custom: intro-hub-or-landing
   manager: laurawi
   author: greg-lindsay #Required; your GitHub user alias, with correct capitalization.
   ms.author: greglin #Required; microsoft alias of author; optional team alias.
@@ -30,7 +32,7 @@ landingContent:
             url: surface-management-portal.md
           - text: Which Surface devices can be upgraded to Windows 11?
             url: https://support.microsoft.com/surface/which-surface-devices-can-be-upgraded-to-windows-11-76c3c125-82e0-4d1e-9550-12ed09f9058e
-          - text: Surface OS choice
+          - text: OS choice for new Surface devices
             url: surface-os-choice.md
           - text: Surface Pro 8 for Business 
             url: https://www.microsoft.com/surface/business/surface-pro-8   

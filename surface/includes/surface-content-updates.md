@@ -2,6 +2,69 @@
 
 
 
+## Week of June 27, 2022
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 6/30/2022 | [Collect Surface Hub log files](/surface-hub/collect-surface-hub-log-files) | added |
+
+
+## Week of June 27, 2022
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 6/28/2022 | [Manage DFCI on Surface devices](/surface/surface-manage-dfci-guide) | modified |
+| 6/30/2022 | [Surface Management Portal](/surface/surface-management-portal) | modified |
+
+
+## Week of June 20, 2022
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 6/24/2022 | [Manage DFCI on Surface devices](/surface/surface-manage-dfci-guide) | modified |
+
+
+## Week of June 20, 2022
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 6/22/2022 | [Surface Hub update history](/surface-hub/surface-hub-update-history) | modified |
+
+
+## Week of June 13, 2022
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 6/14/2022 | [Contact Surface Support](/surface/contact-surface-support) | modified |
+| 6/16/2022 | [Wake On LAN for Surface devices](/surface/wake-on-lan-for-surface-devices) | modified |
+| 6/17/2022 | [Manage DFCI on Surface devices](/surface/surface-manage-dfci-guide) | modified |
+
+
+## Week of June 06, 2022
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 6/8/2022 | [Manage OEMConfig on Surface Duo 2](/surface-duo/surface-duo-2-manage-oemconfig) | added |
+
+
+## Week of June 06, 2022
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 6/7/2022 | [Microsoft Surface Data Eraser (Surface)](/surface/microsoft-surface-data-eraser) | modified |
+| 6/7/2022 | [Secure Surface Dock 2 ports with Surface Enterprise Management Mode (SEMM)](/surface/secure-surface-dock-ports-semm) | modified |
+| 6/7/2022 | [Surface Enterprise Management Mode (SEMM)](/surface/surface-enterprise-management-mode) | modified |
+| 6/10/2022 | [NFC support in Surface Go for Business](/surface/surface-go-nfc-support) | added |
+| 6/10/2022 | [OS choice for new Surface devices](/surface/surface-os-choice) | modified |
+
+
 ## Week of May 30, 2022
 
 
@@ -22,44 +85,3 @@
 | 6/3/2022 | [What’s new in Surface Dock 2](/surface/surface-dock-whats-new) | modified |
 | 6/3/2022 | [Surface driver and firmware lifecycle for Windows-based devices](/surface/surface-driver-firmware-lifecycle-support) | modified |
 | 6/3/2022 | [Manage DFCI on Surface devices](/surface/surface-manage-dfci-guide) | modified |
-
-
-## Week of May 23, 2022
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 5/27/2022 | [Next Business Day Replacement information & coverage areas](/surface/surface-next-business-day-replacement) | modified |
-
-
-## Week of May 23, 2022
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 5/27/2022 | [Install and manage Surface Hub 2 Smart Camera](/surface-hub/surface-hub-2-smart-camera) | modified |
-
-
-## Week of May 16, 2022
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 5/16/2022 | [Surface Hub documentation # < 60 chars](/surface-hub/index) | modified |
-
-
-## Week of May 09, 2022
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 5/9/2022 | [Install Progressive Web Apps on Surface Hub](/surface-hub/install-pwa-surface-hub) | modified |
-| 5/9/2022 | [Configure Surface Hub Start menu](/surface-hub/surface-hub-start-menu) | modified |
-
-
-## Week of May 02, 2022
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 5/5/2022 | [Manage and deploy Surface driver and firmware updates](/surface/manage-surface-driver-and-firmware-updates) | modified |
