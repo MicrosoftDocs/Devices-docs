@@ -2,6 +2,14 @@
 
 
 
+## Week of July 04, 2022
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 7/8/2022 | [Manage DFCI on Surface devices](/surface/surface-manage-dfci-guide) | modified |
+
+
 ## Week of June 27, 2022
 
 
@@ -63,25 +71,3 @@
 | 6/7/2022 | [Surface Enterprise Management Mode (SEMM)](/surface/surface-enterprise-management-mode) | modified |
 | 6/10/2022 | [NFC support in Surface Go for Business](/surface/surface-go-nfc-support) | added |
 | 6/10/2022 | [OS choice for new Surface devices](/surface/surface-os-choice) | modified |
-
-
-## Week of May 30, 2022
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 6/3/2022 | [Surface Hub update history](/surface-hub/surface-hub-update-history) | modified |
-
-
-## Week of May 30, 2022
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 6/1/2022 | [Surface Laptop Go 2 overview](/surface/surface-laptop-go-2) | added |
-| 6/3/2022 | [Considerations for Surface and Microsoft Endpoint Configuration Manager](/surface/considerations-for-surface-and-system-center-configuration-manager) | modified |
-| 6/3/2022 | [Ethernet adapters and Surface deployment (Surface)](/surface/ethernet-adapters-and-surface-device-deployment) | modified |
-| 6/3/2022 | [Microsoft Surface Data Eraser (Surface)](/surface/microsoft-surface-data-eraser) | modified |
-| 6/3/2022 | [What’s new in Surface Dock 2](/surface/surface-dock-whats-new) | modified |
-| 6/3/2022 | [Surface driver and firmware lifecycle for Windows-based devices](/surface/surface-driver-firmware-lifecycle-support) | modified |
-| 6/3/2022 | [Manage DFCI on Surface devices](/surface/surface-manage-dfci-guide) | modified |
