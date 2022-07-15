@@ -8,7 +8,7 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 06/02/2022
+ms.date: 07/14/2022
 ms.reviewer: phorton
 manager: laurawi
 audience: itpro
@@ -88,8 +88,8 @@ The following table lists the release date and End of Servicing date for each Su
 | ---------------------- | ------------------------- | ---------------------------- |
 | Surface Hub 55         | June 1, 2015              | November 30, 2022 |
 | Surface Hub 84         | June 1, 2015              | November 30, 2022 |
-| Surface Hub 2S         | April 17, 2019            | April 17, 2023    |
-| Surface Hub 2S 85"     | January 11, 2021          | January 11, 2025  | 
+| Surface Hub 2S         | April 17, 2019            | February 7, 2026    |
+| Surface Hub 2S 85"     | January 11, 2021          | February 7, 2026  | 
  
 ## Learn more
 
