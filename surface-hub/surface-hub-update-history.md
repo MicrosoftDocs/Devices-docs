@@ -20,14 +20,6 @@ Most Windows updates focus on performance and security improvements. In the list
 > [!TIP]
 > This page is refreshed as new updates are released. Please refer to the [Surface Hub Important Information](https://support.microsoft.com/products/surface-devices/surface-hub) page for related topics on current and past releases that may require your attention.
 
-**RSS feed:** Get notified when this page is updated by copying and pasting the following URL into your RSS reader.
-
- ```http
-https://docs.microsoft.com/api/search/rss?search=%22most+recent+Windows+update+with+Surface+Hub-specific+improvements+is+listed+first%22&locale=en-us&facet=
-    ```
-
-https://docs.microsoft.com/api/search/rss?search=%22most+recent+Windows+update+with+Surface+Hub-specific+improvements+is+listed+first%22&locale=en-us&facet=
-
 ## Windows 10 Team 2020 Update (20H2)
 
 <details>
