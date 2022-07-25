@@ -100,9 +100,13 @@ To turn on automatic framing, go to **Settings > Bluetooth & devices > Manage Ca
 
 Automatic framing is always enabled and cannot be disabled or otherwise configured.
 
-## Order Surface Hub 2 Smart Camera
+### Order Surface Hub 2 Smart Camera
 
 Purchase Surface Hub 2 Smart Camera from your [authorized Microsoft Surface reseller](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface?).
+
+### Learn more
+
+-[Video:The new Surface Hub 2 Smart Camera](https://youtu.be/sgv_TeT8RB8)
 
 ### References
 
