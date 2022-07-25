@@ -64,8 +64,8 @@ landingContent:
     linkLists:
       - linkListType: video  
         links:
-          - text: Surface Hub – The Future of Collaboration from Anywhere
-            url: https://youtu.be/pv6GhJfunaQ
+          - text: Enabling inclusive hybrid meetings with Microsoft Teams and Teams devices
+            url: https://youtu.be/Bi82WE7HQU0
           - text: Adoption and training videos
             url: surface-hub-2s-adoption-videos.md
           - text: Surface Hub 2S with Teams
