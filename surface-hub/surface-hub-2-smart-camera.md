@@ -25,7 +25,7 @@ Surface Hub 2 Smart Camera<sup>1</sup> is designed for hybrid teams and optimize
 For Surface Hubs running Team OS, Surface Hub 2 Smart Camera requires the following updates for the [Windows 10 Team 2020 update](surface-hub-2020-update-whats-new.md) (20H2) on Surface Hub 2:
 
 - Windows 10 Team 2020 Update 2 (KB5010415 or a subsequent Windows update)
-- System Hardware Update — 1/21/2022 (or a subsequent System Hardware Update)
+- System Hardware Update-January 21, 2022 (or a subsequent System Hardware Update)
 
 To learn more, refer to [Surface Hub update history](surface-hub-update-history.md).
 
@@ -83,22 +83,22 @@ Admins can manage automatic framing via the [Surface Hub configuration service p
 
 |CSP policy setting| Description|
 |------------------|------------|
-|DefaultAutomaticFraming|If you turn on this policy setting, automatic framing is enabled. If you turn off this policy setting, automatic framing is disabled. If you do not configure this policy setting, automatic framing is enabled. |
+|DefaultAutomaticFraming|If you turn on this policy setting, automatic framing is enabled. If you turn off this policy setting, automatic framing is disabled. If you don't configure this policy setting, automatic framing is enabled. |
 
-To learn more, refer to the following:
+To learn more, refer to the following pages:
 
 - [Manage settings with an MDM provider](/surface-hub/manage-settings-with-mdm-for-surface-hub#create-custom-configuration-profile)
 - [SurfaceHub CSP - Windows Client Management](/windows/client-management/mdm/surfacehub-csp)
 
 ### Windows 11 Desktop on Surface Hub
 
-If you have [migrated your Surface Hub](surface-hub-2s-migrate-os.md) to run Windows 11 Pro or Windows 11 Enterprise, you'll need to turn on automatic framing for the Surface Hub Smart Camera. By default, automatic framing is turned off.
+If you've [migrated your Surface Hub](surface-hub-2s-migrate-os.md) to run Windows 11 Pro or Windows 11 Enterprise, you'll need to turn on automatic framing for the Surface Hub Smart Camera. By default, automatic framing is turned off.
 
 To turn on automatic framing, go to **Settings > Bluetooth & devices > Manage Cameras>  Surface Hub 2 Smart Camera.**
 
 ### Windows 10 Desktop on Surface Hub
 
-Automatic framing is always enabled and cannot be disabled or otherwise configured.
+Automatic framing is always enabled and can't be disabled or otherwise configured.
 
 ### Order Surface Hub 2 Smart Camera
 
@@ -106,7 +106,7 @@ Purchase Surface Hub 2 Smart Camera from your [authorized Microsoft Surface rese
 
 ### Learn more
 
--[Video:The new Surface Hub 2 Smart Camera](https://youtu.be/sgv_TeT8RB8)
+-[Video: The new Surface Hub 2 Smart Camera](https://youtu.be/sgv_TeT8RB8)
 
 ### References
 
