@@ -1,6 +1,6 @@
 ---
 title: Troubleshoot Teams sign-in issues on Surface Hub
-description: Troubleshoot common problems, including setup issues, Exchange ActiveSync errors.
+description: This page explains recommended troubleshooting steps if you're unable to sign in to Microsoft Teams on Surface Hub. 
 ms.reviewer: 
 manager: laurawi
 keywords: Troubleshoot common problems, setup issues, Exchange ActiveSync errors
@@ -9,9 +9,11 @@ ms.sitesec: library
 author: dansimp
 ms.author: dansimp
 ms.topic: article
-ms.date: 08/10/22
+ms.date: 08/10/2022
 ms.localizationpriority: medium
 ---
+
+# Troubleshoot Teams sign-in issues on Surface Hub
 
 If you can't sign in to Microsoft Teams on Surface Hub, several recommended troubleshooting steps are described on this page.
  
