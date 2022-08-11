@@ -39,20 +39,29 @@ If you can't sign in to Microsoft Teams on Surface Hub, several recommended trou
 
 ## Support requests
 
-If you still can't successfully sign in to Teams, you can [create a support request](https://support.serviceshub.microsoft.com/supportforbusiness/onboarding?). Include the following items:
- 
+If you still can't successfully sign in to Teams, you can [create a support request](https://support.serviceshub.microsoft.com/supportforbusiness/onboarding?). Include the following items: 
+
 - Any error codes displayed when you attempt to sign in to Teams.
-- Web/diagnostic Teams log files. 
-
-### Collect Teams log files
-
-1. Connect an external keyboard to Surface Hub.  
-2. Open the Teams app and reproduce the issue by attempting to sign in.  
-3. Select Teams App (to select the application), and ensure focus is on Teams > highlight Dial Pad using keyboard > press Tab to highlight "..."
-4. While the Teams UI element is the active app, press CTRL + ALT + SHIFT + 1 to download the web logs
-5. Enter a USB drive, open File Explorer, and copy the Teams logs from the Downloads folder to your USB drive
-
+- Log files, as noted below. 
  
+
+### Diagnostic Teams log files
+
+When creating a support request with Microsoft Support, the support engineer will require diagnostic log files. Having the logs before creating the support request will allow Microsoft to quickly start troubleshooting the problem.
+
+**To collect Teams log files:** 
+
+1. Connect an external keyboard to Surface Hub. 
+2. Open the Teams app and reproduce the issue by attempting to sign in.  
+3. Select the Teams app and ensure the focus is on Teams as the active app on the Hub display. 
+4. On your keyboard, press **Tab** three times to highlight the UI element for settings, represented by three dots (**...**). 
+5. Press **CTRL + ALT + SHIFT + 1** to download the Teams log files.
+6. Open **File Explorer**, go to **Downloads**, and look for the folder containing the Teams log files. 
+7. Copy the folder to a USB drive. 
+
+To learn more, see [Configure log files for monitoring and troubleshooting in Teams](/microsoftteams/log-files)
+ 
+### Surface Hub & Azure log files
 
 - [Surface Hub log files](/surface-hub/collect-surface-hub-log-files)
 - Any applicable [Azure sign-in logs](/azure/active-directory/reports-monitoring/howto-troubleshoot-sign-in-errors#troubleshoot-sign-in-errors-using-the-sign-ins-report) that indicate sign-in failure.
