@@ -36,7 +36,7 @@ If you're still having a problem after running the toolkit, use the tabs below t
 
 Expedite your Warranty and Service requests:
 
-- **US only:** Use the [Microsoft 365 Hardware Support portal](https://admin.microsoft.com/adminportal/home).  The M365 Hardware Support portal lets you view warranty and protection plans, create single or bulk repair requests, and track the status of repairs.  Note: Surface Hub, Surface Studio and Surface accessories (with the exception of type covers) are not currently supported.
+- **US only:** Use the [Microsoft 365 Hardware Support portal](https://admin.microsoft.com/adminportal/home).  The Microsoft 365 Hardware Support portal lets you view warranty and protection plans, create single or bulk repair requests, and track the status of repairs.  Note: Surface Hub, Surface Studio and Surface accessories (except for type covers) aren't currently supported.
 
 - **Rest of world:** Use the [Warranty and Service claim form](https://download.microsoft.com/download/2/e/0/2e00e1c2-3f49-4b6a-b605-74a0244cb88b/Warranty_and_Service_Claim_Submission_Form.xlsx). For information about how to use the form, see [Warranty and Service claim form instructions](warranty-and-service-claim-form.md) and attaching it to your case submission.
 
