@@ -17,7 +17,7 @@ ms.localizationpriority: medium
 
 If you can't sign in to Microsoft Teams on Surface Hub, several recommended troubleshooting steps are described on this page.
  
-- First, make sure your Surface Hub is running the latest updates. `To learn more, see the following video: [How to verify a Surface Hub is fully updated](https://youtu.be/rxL5cUS_3TA).
+- First, make sure your Surface Hub is running the latest updates. To learn more, see the following video: [How to verify a Surface Hub is fully updated](https://youtu.be/rxL5cUS_3TA).
 - Check Microsoft Teams is updated to the latest version. On Surface Hub, open **Microsoft** **Teams**, select **…** > **Settings** > **Check for updates**.
 
 - Use the [Azure sign-in logs](/azure/active-directory/reports-monitoring/howto-troubleshoot-sign-in-errors#troubleshoot-sign-in-errors-using-the-sign-ins-report) for insights into sign-in errors. You can filter by the Surface Hub device account and look for any failures.
