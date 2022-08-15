@@ -22,6 +22,7 @@ To use whiteboard collaboration complete the following actions:
 
 - Add Whiteboard.ms, whiteboard.microsoft.com, and wbd.ms to your list of allowed sites.
 - Open port: **HTTPS: 443** (normally configured when you first run Surface Hub.)
+- Ensure that Whiteboard is enabled for your organization. For more information, see [Manage access to Whiteboard](https://docs.microsoft.com/microsoft-365/whiteboard/manage-whiteboard-access-organizations).
 
 ## Office 365 requirements
 
