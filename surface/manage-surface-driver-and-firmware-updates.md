@@ -27,7 +27,7 @@ How you manage Surface driver and firmware updates may vary depending on your en
 > [!NOTE]
 > This article is intended for IT professionals and technical support agents and applies to Surface devices only. If you're looking for help to install Surface updates or firmware on a home device, see [Download drivers and firmware for Surface](https://support.microsoft.com/help/4023505).
 
-While enterprise-grade software distribution solutions continue to evolve, the business rationale for centrally managing  updates remains the same: Maintain the security of Surface devices and keep them updated with the latest operating system and feature improvements. This is essential for sustaining a stable production environment and making sure that users aren't blocked from being productive.
+While enterprise-grade software distribution solutions continue to evolve, the business rationale for centrally managing  updates remains the same: Maintain the security of Surface devices and keep them updated with the latest operating system and feature improvements. This IT practice is essential for sustaining a stable production environment and making sure that users aren't blocked from being productive.
 
 ## What's in Surface driver and firmware updates
 
@@ -100,11 +100,11 @@ Configuration Manager and MDT both use the Windows Preinstallation Environment (
 
 ## Supported devices
 
-Downloadable .msi files are available for Surface Pro 2 and later devices (except Surface Pro X which runs Windows 10 on ARM).
+Downloadable .msi files are available for Surface Pro 2 and later devices (except Surface Pro X, which runs Windows 10 on ARM processor).
 
 ## Managing firmware with DFCI
 
-By having Device Firmware Configuration Interface (DFCI) profiles [built into Intune](/intune/configuration/device-firmware-configuration-interface-windows), Surface UEFI management extends the modern management stack down to the UEFI hardware level. DFCI supports zero-touch provisioning, eliminates BIOS passwords, provides control of security settings (including startup options and built-in peripherals), and lays the groundwork for advanced security scenarios in the future. For more information, see the following:
+By having Device Firmware Configuration Interface (DFCI) profiles [built into Intune](/intune/configuration/device-firmware-configuration-interface-windows), Surface UEFI management extends the modern management stack down to the UEFI hardware level. DFCI supports zero-touch provisioning, eliminates BIOS passwords, provides control of security settings (including startup options and built-in peripherals), and lays the groundwork for advanced security scenarios in the future. For more information, see the following resources:
 
 - [Manage DFCI on Surface devices](surface-manage-dfci-guide.md)
 - [Ignite 2019: Announcing remote management of Surface UEFI settings from Intune](https://techcommunity.microsoft.com/t5/Surface-IT-Pro-Blog/Ignite-2019-Announcing-remote-management-of-Surface-UEFI/ba-p/978333).
@@ -128,7 +128,7 @@ This file name provides the following information:
 - **Product:** SurfacePro6
 - **Windows release:** Win10
 - **Build:** 18362
-- **Version:** 19.073.44195 – This shows the date and time that the file was created, as follows:
+- **Version:** 19.073.44195 – Version number shows the date and time that the file was created, as follows:
   - **Year:** 19 (2019)
   - **Month and week:** 073 (third week of July)
   - **Minute of the month:** 44195
@@ -147,7 +147,7 @@ This file name provides the following information:
 - **Product:** SurfacePro6
 - **Windows release:** Win10
 - **Build:** 16299
-- **Version:** 1900307 – This shows the date that the file was created and its position in the release sequence, as follows:
+- **Version:** 1900307 – Version number shows the date that the file was created and its position in the release sequence, as follows:
   - **Year:** 19 (2019)
   - **Number of release:** 003 (third release of the year)
   - **Product version number:** 07 (Surface Pro 6 is officially the seventh version of Surface Pro)
@@ -159,4 +159,3 @@ This file name provides the following information:
 - [Manage Surface driver updates in Configuration Manager](/mem/configmgr/sum/deploy-use/surface-drivers)
 - [Deploy applications with Configuration Manager](/mem/configmgr/apps/deploy-use/deploy-applications)
 - [Manage DFCI on Surface devices](surface-manage-dfci-guide.md)
-- [Ignite 2019: Announcing remote management of Surface UEFI settings from Intune](https://techcommunity.microsoft.com/t5/Surface-IT-Pro-Blog/Ignite-2019-Announcing-remote-management-of-Surface-UEFI/ba-p/978333).
