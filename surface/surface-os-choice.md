@@ -8,7 +8,7 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 06/10/2022
+ms.date: 08/24/2022
 ms.reviewer: oayakta
 manager: laurawi
 audience: itpro
@@ -31,7 +31,7 @@ Commercial customers can choose to have Windows 10 or Windows 11 installed on ne
 
 Whether you choose to purchase new Surface devices running Windows 11 or opt for Surface devices with Windows 10 may depend on your current corporate environment:
 
-- **Windows 10 only.** Designed for customers who require Windows 10 out of the box and deploy devices using Windows Autopilot or Azure Active Directory domain join (AADJ). With **Windows 10 SKUs**, you avoid the need to compile driver packs and reimage devices before distributing them to users. It includes an additional fee of $30 per device,<sup>1</sup> effective for Surface Laptop Go 2 devices upon public availability June 7 and applicable to all eligible devices, as listed above, beginning August 1, 2022. 
+- **Windows 10 only.** Designed for customers who require Windows 10 out of the box and deploy devices using Windows Autopilot or Azure Active Directory domain join (AADJ). With **Windows 10 SKUs**, you avoid the need to compile driver packs and reimage devices before distributing them to users. It includes an additional fee of $30 per device (based on MSRP, actual pricing may vary) applicable to all eligible devices, as listed above, beginning August 1, 2022. 
 - **Windows 10 & Windows 11.** Designed for customers who use Windows 11 and also deploy Windows 10 via traditional deployment methods that rely on reimaging devices. With **Windows 11 SKUs**, you can take advantage of built-in downgrade rights to Windows 10 and load custom Windows 10 images on devices as needed.
 
 **Table 1. OS choice summary**
@@ -73,7 +73,3 @@ Commercial customers can place orders for new devices via [authorized Microsoft 
 
 - [Surface for Business](https://www.microsoft.com/surface/business)
 - [Surface IT Pro blog](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/bg-p/SurfaceITPro)
-
-### References
-
-1. Based on MSRP, actual pricing may vary.
