@@ -73,7 +73,3 @@ Commercial customers can place orders for new devices via [authorized Microsoft 
 
 - [Surface for Business](https://www.microsoft.com/surface/business)
 - [Surface IT Pro blog](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/bg-p/SurfaceITPro)
-
-### References
-
-1. Based on MSRP, actual pricing may vary.
