@@ -23,6 +23,17 @@ Most Windows updates focus on performance and security improvements. In the list
 ## Windows 10 Team 2020 Update (20H2)
 
 <details>
+<summary>August 26, 2022 - update for Team based on KB5016688* (OS Build 19042.1741)</summary>
+
+This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4581839/windows-10-update-history), include:
+
+* Resolves an issue where Teams or Skype for Business Quality of Service settings did not apply DSCP markings as expected.
+* Update to allow the Edge (Chromium) browser to launch the File Explorer app when clicking on the Downloads folder icon.
+ 
+Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabling device features and services. *[KB5016688](https://support.microsoft.com/help/5016688)
+</details>
+
+<details>
 <summary>June 2, 2022 - update for Team based on KB5014023* (OS Build 19042.1741)</summary>
 
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4581839/windows-10-update-history), include:
