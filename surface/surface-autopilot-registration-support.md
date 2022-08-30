@@ -8,7 +8,7 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 9/14/2020
+ms.date: 8/15/2022
 ms.reviewer: brrecord
 manager: laurawi
 audience: itpro
@@ -40,9 +40,7 @@ See the following table for details of the information you will need to collect 
 
 ## Submit support requests
 
-  [![Get Autopilot Registration Support for Surface.](images/autopilot-reg-support-surface.png)](https://prod.support.services.microsoft.com/supportrequestform/0d8bf192-cab7-6d39-143d-5a17840b9f5f)
- 
- 
+  [![Get Autopilot Registration Support for Surface.](images/autopilot-reg-support-surface.png)](https://support.serviceshub.microsoft.com/supportforbusiness/create?sapId=0d8bf192-cab7-6d39-143d-5a17840b9f5f)
  
 ## Learn more
 

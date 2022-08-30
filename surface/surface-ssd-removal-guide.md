@@ -8,7 +8,7 @@ ms.sitesec: library
 author: mccoybot
 ms.author: brrecord
 ms.topic: article
-ms.date: 04/13/2021
+ms.date: 06/01/2022
 ms.reviewer: 
 manager: laurawi
 ms.audience: itpro
@@ -19,6 +19,7 @@ appliesto:
 - Surface Pro 7+
 - Surface Pro X
 - Surface Laptop Go
+- Surface Laptop Go 2
 - Surface Laptop 3
 - Surface Laptop 4
 - Windows 10
@@ -39,6 +40,7 @@ ms.custom:
 - Surface Pro 7+
 - Surface Pro X
 - Surface Laptop Go
+- Surface Laptop Go 2
 - Surface Laptop 3
 - Surface Laptop 4
 
@@ -113,7 +115,7 @@ If the SSD is unencrypted during the transfer, follow these steps:
 If the SSD is encrypted during the transfer, follow these steps:
 
 1. Insert the USB drive that contains the BitLocker recovery key into the second device.
-2. Open the .txt file that contains the Bitlocker recovery key.
+2. Open the .txt file that contains the BitLocker recovery key.
 3. Manually enter the BitLocker recovery key on the new device that contains the original SSD.  
 4. After you have successfully entered the BitLocker recovery key, go to **Sign-In Options** > **Password** (represented by the key icon on the left side).  
 5. Enter the password and sign in, pending completion of two-factor authentication (if applicable).

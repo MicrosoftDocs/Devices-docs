@@ -11,6 +11,7 @@ metadata:
   ms.topic: landing-page # Required
   ms.prod: surface-hub
   ms.technology: windows
+  ms.custom: intro-hub-or-landing
   audience: ITPro
   ms.localizationpriority: medium
   author: greg-lindsay #Required; your GitHub user alias, with correct capitalization.
@@ -63,14 +64,21 @@ landingContent:
     linkLists:
       - linkListType: video  
         links:
-          - text: Surface Hub – The Future of Collaboration from Anywhere
-            url: https://youtu.be/pv6GhJfunaQ
-          - text: Adoption and training videos
-            url: surface-hub-2s-adoption-videos.md
-          - text: Surface Hub 2S with Teams
-            url: https://www.youtube.com/watch?v=CH2seLS5Wb0
-          - text: Microsoft Surface Hub 2S IT pro deep dive
-            url: https://youtu.be/fFiL60JztGk        
+          - text: Microsoft Mechanics Surface Hub playlist
+            url: https://www.youtube.com/watch?v=mE3UfFmePiI&list=PLXtHYVsvn_b8Vkr9tmPvlWMJX-Rd5rTw8
+          - text: The new Surface Hub 2 Smart Camera
+            url: https://www.youtube.com/watch?v=sgv_TeT8RB8  
+          - text: Surface Hub 2S. Meetings and collaboration for hybrid teams
+            url: https://www.youtube.com/watch?v=SNmrxh-ACwQ 
+          - text: Beneath the Surface | Surface Hub and the hybrid workplace
+            url: https://www.youtube.com/watch?v=7pJU1eV_fgM
+          - text: New hybrid meeting experiences and manageability options
+            url: https://www.youtube.com/watch?v=5XFW9IzG18A 
+          - text: Enabling inclusive hybrid meetings with Microsoft Teams and Teams devices
+            url: https://youtu.be/Bi82WE7HQU0    
+          - text: REI embraces hybrid work & supporting sustainability goals with Surface Hub
+            url: https://www.youtube.com/watch?v=u4pLDQCQoYc  
+    
 
   # Card (optional)
   - title: Deploy
@@ -108,22 +116,56 @@ landingContent:
           - url: surface-hub-2s-secure-with-uefi-semm.md
             text: Secure and manage Surface Hub 2S with SEMM and UEFI
 
-  # Card (optional)
+    # Card (optional)
+  - title: Design, develop, and distribute
+    linkLists:
+      - linkListType: learn
+        links:
+          - url: https://docs.microsoft.com/windows/apps/design/basics/
+            text: Design basics for Windows apps 
+          - url: https://docs.microsoft.com/windows/uwp/get-started/
+            text: Get started building Windows apps that work on all Windows devices
+          - url: https://docs.microsoft.com/windows/uwp/debug-test-perf/test-surface-hub-apps-using-visual-studio
+            text: Test Surface Hub apps using Visual Studio
+          - url: https://docs.microsoft.com/windows/uwp/publish/distribute-lob-apps-to-enterprises
+            text: Distribute LOB apps to enterprises
+          - url: https://businessstore.microsoft.com/store/private-store
+            text: Microsoft Store for Business
+          - url: https://docs.microsoft.com/microsoft-store/distribute-apps-with-management-tool
+            text: Distribute apps with a management tool
+
+# Card (optional)
+  - title: Service & support
+    linkLists:
+      - linkListType: reference
+        links:
+          - url: https://support.serviceshub.microsoft.com/supportforbusiness/create?sapId=bb7066fb-e329-c1c0-9c13-8e9949c6a64e&hidden=false
+            text: Get support 
+          - url: support-solutions-surface-hub.md
+            text: Surface Hub support solutions           
+          - url: https://support.microsoft.com/help/4493926
+            text: Service and warranty
+          - url: https://www.microsoft.com/surface/business/warranty-service-offerings-and-support
+            text: Surface Hub warranty and protection plans           
+          - url: /surface/surface-driver-firmware-lifecycle-support#surface-hub-driver-and-firmware-support-lifecycle
+            text: Surface Hub driver and firmware support lifecycle 
+
+
+# Card (optional)
   - title: Troubleshoot
     linkLists:
       - linkListType: learn
         links:
-          - url: https://support.microsoft.com/help/4493926
-            text: Service and warranty
           - url: surface-hub-2s-recover-reset.md
             text: Recover & reset Surface Hub 2S
           - url:  device-reset-surface-hub.md
             text: Recover Surface Hub v1 from the cloud
-          - url: support-solutions-surface-hub.md
-            text: Surface Hub support solutions
+          - url: collect-surface-hub-log-files.md
+            text: Collect Surface Hub log files
+          - url: troubleshoot-teams-sign-in-surface-hub.md
+            text: Troubleshoot Teams sign-in issues on Surface Hub    
           - text: Surface Hub Update History  
             url: surface-hub-update-history.md
-
 
   # Card (optional)
   - title: Community
@@ -132,13 +174,3 @@ landingContent:
         links:
           - url: https://techcommunity.microsoft.com/t5/Surface-Hub/bd-p/SurfaceHub
             text: Join the Surface Hub Technical Community
-
-  # Card
-  - title: Need help?
-    linkLists: 
-      - linkListType: reference
-        links:
-          - url: https://support.serviceshub.microsoft.com/supportforbusiness/create?sapId=bb7066fb-e329-c1c0-9c13-8e9949c6a64e&hidden=false
-            text: Get support
-          - url: https://www.microsoft.com/surface/business/warranty-service-offerings-and-support
-            text: Surface Hub warranty and protection plans

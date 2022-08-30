@@ -8,6 +8,8 @@
       items: 
       - name: Technical overviews
         items:
+         - name: Surface Laptop Go 2 overview
+           href: surface-laptop-go-2.md 
          - name: Surface Laptop SE overview
            href: surface-laptop-se-overview.md
          - name: Surface OS choice
@@ -32,8 +34,10 @@
            href: surface-book-quadro.md      
       - name: Order Surface devices
         items:  
-        - name: Surface OS choice
-          href: surface-os-choice.md  
+        - name: OS choice for new Surface devices
+          href: surface-os-choice.md    
+        - name: Surface Laptop Go 2 for Business
+          href: https://www.microsoft.com/surface/business/surface-laptop-go-2
         - name: Surface Pro 8 for Business
           href: https://www.microsoft.com/surface/business/surface-pro-8
         - name: Surface Pro X for Business
@@ -108,7 +112,7 @@
           items: 
           - name: Use Surface Diagnostic Toolkit for Business in desktop mode
             href: surface-diagnostic-toolkit-desktop-mode.md
-          - name: Run command-line app console with Surface Diagnostic Toolkit for Busines
+          - name: Run command-line app console with Surface Diagnostic Toolkit for Business
             href: surface-diagnostic-toolkit-command-line.md
         - name: Surface Data Eraser
           href: microsoft-surface-data-eraser.md
@@ -158,6 +162,8 @@
           href: wake-on-power-for-surface.md  
       - name: Best practices
         items:  
+        - name: NFC support in Surface Go for Business
+          href: surface-go-nfc-support.md
         - name: Optimize video conferencing on Surface devices
           href: optimize-video-conferencing-on-surface.md   
         - name: Optimize Wi-Fi connectivity on Surface devices
