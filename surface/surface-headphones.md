@@ -44,7 +44,7 @@ A software license is required for some Microsoft 365 features and is sold separ
 ### Headphones
 
 - To update Surface Headphones 2+, use the Surface App installed on your Surface device. Or you can download the [Surface App](https://apps.microsoft.com/store/detail/surface/9WZDNCRFJB8P?hl=) from the Microsoft Store (version 61.5058.139 or later).
-- For Apple Mac users, use the Microsoft Accessory Updater tool available from the Mac App Store.   
+- For Apple Mac users, use the [Microsoft Accessory Updater tool](https://apps.apple.com/us/app/microsoft-accessory-updater/id1599783787?mt=12) available from the Mac App Store.   
 - Once you connect the Surface Headphones 2+ to your host device (PC/Mac), the update will automatically apply to the headphones.
 - To confirm if your Surface Headphones 2+ received the update, go to the Surface App. Under Device information, verify the firmware version is **1.0.7.44** or later. If not, select **Update using Bluetooth, as shown below.**
 
