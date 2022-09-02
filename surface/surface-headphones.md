@@ -19,11 +19,11 @@ appliesto:
 
 # Surface Headphones 2+ tech overview
 
-Built for the hybrid workplace, Surface Headphones 2+ reduce unwanted ambient noise, enable clear remote meeting participation, and provide high-fidelity sound. Surface Headphones 2+ include 13 levels of active noise cancellation, ear cup dials, and an advanced 8-microphone system for voice clarity, [18.5 hours of music](https://www.microsoft.com/en-us/surface/business/surface-headphones-2-plus) <sup>1</sup> listening time or up to 15 hours of voice<sup>2</sup> calling time. 
+Built for the hybrid workplace, [Surface Headphones 2+](https://www.microsoft.com/surface/business/surface-headphones-2-plus) reduces unwanted ambient noise, enables clear remote meeting participation, and provides high-fidelity sound. Surface Headphones 2+ includes 13 levels of active noise cancellation, ear cup dials, and an advanced 8-microphone system for voice clarity, 18.5 hours of music <sup>1</sup> listening time or up to 15 hours of voice<sup>2</sup> calling time. 
  
 ## Certified for Microsoft Teams
 
-Surface Headphones 2+ meet audio/video specification standards while using Teams software to ensure a high-quality call experience. A "Certified for Microsoft Teams" experience is enabled via one of the following methods: 
+Surface Headphones 2+ meets audio/video specification standards while using Teams software to ensure a high-quality call experience. A "Certified for Microsoft Teams" experience is enabled via one of the following methods: 
 
 - **Surface USB link dongle.** Use the included dongle for a wired connection.
 - **Bluetooth**. Now available for Windows 11, ensure you update the headphones to run the latest firmware, [as described below](#updating-firmware). A subsequent firmware update for the headphones to meet Teams certification standards on Windows 10 is coming soon. 
@@ -32,7 +32,7 @@ Surface Headphones 2+ includes a Teams button to join calls or bring Teams to th
  
 ## Using with Microsoft 365
 
-Surface Headphones 2+ integrate with productivity features in Microsoft 365, such as helping improve the accuracy of speech-to-text dictation or enabling captions to appear on-screen while you speak during a presentation.
+Surface Headphones 2+ integrates with productivity features in Microsoft 365, such as helping improve the accuracy of speech-to-text dictation or enabling captions to appear on-screen while you speak during a presentation.
 
 - Talk rather than type with dictation in Microsoft Word, Outlook, and PowerPoint.
 - Enable live captions and subtitles on-screen while you’re talking, and translate what you’re saying into one of 60+ languages for more accessible presentations. 
