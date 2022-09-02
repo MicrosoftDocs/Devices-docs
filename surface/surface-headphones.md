@@ -8,7 +8,7 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 04/13/2021
+ms.date: 09/02/2022
 ms.reviewer: brrecord
 manager: laurawi
 audience: itpro
@@ -23,7 +23,11 @@ Built for the hybrid workplace, Surface Headphones 2+ reduce unwanted ambient no
  
 ## Certified for Microsoft Teams
 
-Now certified for Microsoft Teams with the included dongle, Surface Headphones 2+ meet audio/video specification standards while in use with Teams software to ensure a high-quality call experience. It includes a Teams button to join calls or bring Teams to the forefront, integrated call controls, and an LED status indicator on the included dongle to indicate mute status.
+Certified for Microsoft Teams, Surface Headphones 2+ meet audio/video specification standards while using Teams software to ensure a high-quality call experience. For Teams certification using the headphones on Windows 11, ensure you update the headphones to run the latest firmware, [as described below](#updating-firmware). A subsequent firmware update to enable Teams certification on Windows 10 is coming soon. 
+
+Using the included Surface USB link dongle also provides a certified Teams experience. 
+Surface Headphones 2+ includes a Teams button to join calls or bring Teams to the forefront, integrated call controls, and an LED status indicator on the dongle to indicate mute status.
+
  
 ## Using with Microsoft 365
 
@@ -36,10 +40,18 @@ Note that a software license is required for some Microsoft 365 features and is 
  
 ## Updating firmware
 
-- Headphones: users can update firmware on Surface Headphones 2+ via the [Surface Audio app](https://www.microsoft.com/p/surface-audio/9nxjnfwnvm8d?)(Windows, iOS, Android).
-- Surface USB link dongle: Windows Update automatically pushes updates to firmware on the dongle.
+### Headphones
 
-Currently, there are no enterprise management options for managing Surface Headphones 2+.
+- To update Surface Headphones 2+, use the Surface App installed on your Surface device. Or you can download the [Surface App](https://apps.microsoft.com/store/detail/surface/9WZDNCRFJB8P?hl=) from the Microsoft Store (version 61.5058.139 or later).
+- For Apple Mac users, use the Microsoft Accessory Updater tool available from the Mac App Store.   
+- Once you connect the Surface Headphones 2+ to your host device (PC/Mac), the update will automatically apply to the headphones.
+- To confirm if your Surface Headphones 2+ received the update, go to the Surface App. Under Device information, verify the firmware version is **1.0.7.44** or later. If not, select **Update using Bluetooth, as shown below.**
+
+:::image type="content" source="images/update-headphones2+-with-surface-app.png" alt-text="Use the Surface App to update firmware on Surface Headphones 2+" :::
+
+### Surface USB link dongle
+
+Firmware for the USB link dongle is maintained via Windows Update, which automatically pushes updates to firmware on the dongle.
 
 ## Surface Headphones 2+ tech specs
 
@@ -97,4 +109,4 @@ The USB dongle and ear pads for Surface Headphones + are available as replacemen
 4. AptX™ only works with Surface Headphones 2+ when not using the Surface USB Link.
 5. Microsoft’s Limited Warranty is in addition to your consumer law rights.
 6. USB-A to USB-C® adapter should work for a C-capable source. Performance varies based on the quality of the adapter and the cable length
-7. To pair your replacement Surface USB Link to Surface Headphones 2+, you will need the [Surface Audio app](https://www.microsoft.com/p/surface-audio/9nxjnfwnvm8d?), available on devices running Windows 10 or Windows 11. 
+7. To pair your replacement Surface USB Link to Surface Headphones 2+, you will need the Surface App available on devices running Windows 10 or Windows 11. Or you can download the [Surface App](https://apps.microsoft.com/store/detail/surface/9WZDNCRFJB8P?hl=) from the Microsoft Store (version 61.5058.139 or later).
