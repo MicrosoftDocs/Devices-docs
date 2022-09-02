@@ -48,7 +48,7 @@ A software license is required for some Microsoft 365 features and is sold separ
 - Once you connect the Surface Headphones 2+ to your host device (PC/Mac), the update will automatically apply to the headphones.
 - To confirm if your Surface Headphones 2+ received the update, go to the Surface App. Under Device information, verify the firmware version is **1.0.7.44** or later. If not, select **Update using Bluetooth, as shown below.**
 
-:::image type="content" source="images/update-headphones2+-with-surface-app.png" alt-text="Use the Surface App to update firmware on Surface Headphones 2+" :::
+:::image type="content" source="images/update-headphones2plus-with-surface-app.png" alt-text="Use the Surface App to update firmware on Surface Headphones 2+" :::
 
 ### Surface USB link dongle
 
