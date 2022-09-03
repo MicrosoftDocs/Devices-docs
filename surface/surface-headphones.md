@@ -8,7 +8,7 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 04/13/2021
+ms.date: 09/02/2022
 ms.reviewer: brrecord
 manager: laurawi
 audience: itpro
@@ -19,27 +19,40 @@ appliesto:
 
 # Surface Headphones 2+ tech overview
 
-Built for the hybrid workplace, Surface Headphones 2+ reduce unwanted ambient noise, enable clear remote meeting participation, and provide high-fidelity sound. Surface Headphones 2+ include 13 levels of active noise cancellation, earcup dials, and an advanced 8-microphone system for voice clarity, [18.5 hours of music](https://www.microsoft.com/en-us/surface/business/surface-headphones-2-plus) <sup>1</sup> listening time or up to 15 hours of voice<sup>2</sup> calling time. 
+Built for the hybrid workplace, [Surface Headphones 2+](https://www.microsoft.com/surface/business/surface-headphones-2-plus) reduces unwanted ambient noise, enables clear remote meeting participation, and provides high-fidelity sound. Surface Headphones 2+ includes 13 levels of active noise cancellation, ear cup dials, and an advanced 8-microphone system for voice clarity, 18.5 hours of music <sup>1</sup> listening time or up to 15 hours of voice<sup>2</sup> calling time. 
  
 ## Certified for Microsoft Teams
 
-Now certified for Microsoft Teams with the included dongle, Surface Headphones 2+ meet audio/video specification standards while in use with Teams software to ensure a high-quality call experience. It includes a Teams button to join calls or bring Teams to the forefront, integrated call controls, and an LED status indicator on the included dongle to indicate mute status.
+Surface Headphones 2+ meets audio/video specification standards while using Teams software to ensure a high-quality call experience. A "Certified for Microsoft Teams" experience is enabled via one of the following methods: 
+
+- **Surface USB link dongle.** Use the included dongle for a wired connection.
+- **Bluetooth**. Now available for Windows 11, ensure you update the headphones to run the latest firmware, [as described below](#updating-firmware). A subsequent firmware update for the headphones to meet Teams certification standards on Windows 10 is coming soon. 
+
+Surface Headphones 2+ includes a Teams button to join calls or bring Teams to the forefront, integrated call controls, and an LED status indicator on the dongle to indicate mute status.
  
 ## Using with Microsoft 365
 
-Surface Headphones 2+ integrate with productivity features in Microsoft 365, such as helping improve the accuracy of speech-to-text dictation or enabling captions to appear on-screen while you speak during a presentation.
+Surface Headphones 2+ integrates with productivity features in Microsoft 365, such as helping improve the accuracy of speech-to-text dictation or enabling captions to appear on-screen while you speak during a presentation.
 
 - Talk rather than type with dictation in Microsoft Word, Outlook, and PowerPoint.
 - Enable live captions and subtitles on-screen while you’re talking, and translate what you’re saying into one of 60+ languages for more accessible presentations. 
 
-Note that a software license is required for some Microsoft 365 features and is sold separately. To learn more, see [Use Microsoft 365 with Surface Headphones](https://support.microsoft.com/surface/use-microsoft-365-with-surface-headphones-917d98c2-7495-a6cf-97f8-e1b594e8ce7c).
+A software license is required for some Microsoft 365 features and is sold separately. To learn more, see [Use Microsoft 365 with Surface Headphones](https://support.microsoft.com/surface/use-microsoft-365-with-surface-headphones-917d98c2-7495-a6cf-97f8-e1b594e8ce7c).
  
 ## Updating firmware
 
-- Headphones: users can update firmware on Surface Headphones 2+ via the [Surface Audio app](https://www.microsoft.com/p/surface-audio/9nxjnfwnvm8d?)(Windows, iOS, Android).
-- Surface USB link dongle: Windows Update automatically pushes updates to firmware on the dongle.
+### Headphones
 
-Currently, there are no enterprise management options for managing Surface Headphones 2+.
+- To update Surface Headphones 2+, use the Surface App installed on your Surface device. Or you can download the [Surface App](https://apps.microsoft.com/store/detail/surface/9WZDNCRFJB8P?hl=) from the Microsoft Store (version 61.5058.139 or later).
+- For Apple Mac users, use the [Microsoft Accessory Updater tool](https://apps.apple.com/us/app/microsoft-accessory-updater/id1599783787?mt=12) available from the Mac App Store.   
+- Once you connect the Surface Headphones 2+ to your host device (PC/Mac), the update will automatically apply to the headphones.
+- To confirm if your Surface Headphones 2+ received the update, go to the Surface App. Under Device information, verify the firmware version is **1.0.7.44** or later. If not, select **Update using Bluetooth, as shown below.**
+
+:::image type="content" source="images/update-headphones2plus-with-surface-app.png" alt-text="Use the Surface App to update firmware on Surface Headphones 2+" :::
+
+### Surface USB link dongle
+
+Firmware for the USB link dongle is maintained via Windows Update, which automatically pushes updates to firmware on the dongle.
 
 ## Surface Headphones 2+ tech specs
 
@@ -48,19 +61,19 @@ Currently, there are no enterprise management options for managing Surface Headp
 | Dimensions                  | - Length: 8.03” (204 mm) <br>- Width: 7.68” (195 mm) <br>- Depth: 1.89” (48 mm)                                                                                                                                 |
 | Weight                      | - 0.64 lbs (290 g)                                                                                                                                                                                              |
 | Exterior                    | - Colors: Matte Black                                                                                                                                                                                           |
-| Frequency response          | - 20 – 20kHz                                                                                                                                                                                                    |
+| Frequency response          | - 20 – 20 kHz                                                                                                                                                                                                    |
 | Noise cancellation          | - Up to 30 dB for active noise cancellation<br>- Up to 40 dB for passive noise cancellation                                                                                                                     |
 | Speaker                     | - 40 mm Free Edge driver                                                                                                                                                                                        |
-| Sound pressure level output | - Up to 115 dB (1kHz, 1Vrms via cable connector with power on)<br>- Up to 115 dB (1kHz, 0dBFS over Bluetooth® connection)                                                                                       |
+| Sound pressure level output | - Up to 115 dB (1 kHz, 1 Vrms via cable connector with power on)<br>- Up to 115 dB (1 kHz, 0dBFS over Bluetooth® connection)                                                                                       |
 | Charging                    | - Full charge in less than two hours                                                                                                                                                                            |
 | Battery Life                | - Up to 18.5 hours of music listening time<sup>1</sup> or up to 15 hours of voice calling on Microsoft Teams<sup>2</sup>                                                                                                |
 | USB cord length             | - 1.5 m                                                                                                                                                                                                         |
 | Audio cable length          | - 1.2 m                                                                                                                                                                                                         |
-| Inputs                      | - Headphones: USB C® connector, 3.5 mm audio connector<br>- Surface USB Link: USB-A<sup>3</sup>                                                                                                                     |
-| Sensors                     | - Wear detection sensors on earcups<br>- Touch sensors on earcups                                                                                                                                               |
+| Inputs                      | - Headphones: USB C® connector, 3.5-mm audio connector<br>- Surface USB Link: USB-A<sup>3</sup>                                                                                                                     |
+| Sensors                     | - Wear detection sensors on ear cups<br>- Touch sensors on ear cups                                                                                                                                               |
 | Compatibility               | - Bluetooth (without Surface USB Link):  Windows 10/11, Android 11 / 10 / 9, iOS 14 / 13 / 12, macOS 11 / 10.14, Bluetooth 5.0 / 4.2 / 4.1<br>- With Surface USB Link: Windows 10, macOS 11 / 10.14, Bluetooth 5.0 |
 | Audio Codec       | - SBC and aptX™<sup>4</sup>                                                                                                                                             |
-| Buttons/controls  | - Power button, Microsoft Teams button, Volume dial (right ear), Noise Cancellation dial (left ear), Single earcup tap (Mute)                                       |
+| Buttons/controls  | - Power button, Microsoft Teams button, Volume dial (right ear), Noise Cancellation dial (left ear), Single ear cup tap (Mute)                                       |
 | What’s in the box | - Surface Headphones 2+<br>- Carrying case<br>- USB cable<br>- Audio cable<br>- Surface USB Link (USB-A)4<br>- Quick Start Guide<br>- Safety and warranty documents |
 | Warranty          | - 1-year limited hardware warranty<sup>5</sup>                                                                                                                          |
 
@@ -84,7 +97,7 @@ The USB dongle and ear pads for Surface Headphones + are available as replacemen
 
 | Feature               | Description                                                  |
 | --------------------- | ------------------------------------------------------------ |
-| Dimensions            | - Each ear pad: 3.62” x 3.62” x 1.16” (92mm x 92mm x 29.5mm) |
+| Dimensions            | - Each ear pad: 3.62” x 3.62” x 1.16” (92 mm x 92 mm x 29.5 mm) |
 | Weight                | - Each ear pad: 0.08 lbs (34.3 g)                            |
 | Color                 | - Black                                                      |
 | Product Compatibility | - Surface Headphones 2+                                      |
@@ -97,4 +110,4 @@ The USB dongle and ear pads for Surface Headphones + are available as replacemen
 4. AptX™ only works with Surface Headphones 2+ when not using the Surface USB Link.
 5. Microsoft’s Limited Warranty is in addition to your consumer law rights.
 6. USB-A to USB-C® adapter should work for a C-capable source. Performance varies based on the quality of the adapter and the cable length
-7. To pair your replacement Surface USB Link to Surface Headphones 2+, you will need the [Surface Audio app](https://www.microsoft.com/p/surface-audio/9nxjnfwnvm8d?), available on devices running Windows 10 or Windows 11. 
+7. To pair your replacement Surface USB Link to Surface Headphones 2+, you'll need the Surface App available on devices running Windows 10 or Windows 11. Or you can download the [Surface App](https://apps.microsoft.com/store/detail/surface/9WZDNCRFJB8P?hl=) from the Microsoft Store (version 61.5058.139 or later).
