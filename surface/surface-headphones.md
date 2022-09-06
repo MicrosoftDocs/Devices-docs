@@ -25,7 +25,7 @@ Built for the hybrid workplace, [Surface Headphones 2+](https://www.microsoft.co
 
 Surface Headphones 2+ meets audio/video specification standards while using Teams software to ensure a high-quality call experience. A "Certified for Microsoft Teams" experience is enabled via one of the following methods: 
 
-- **Surface USB link dongle.** Use the included dongle for a dedicated connection when using multiple bluetooth devices.
+- **Surface USB link dongle**. Use the included dongle for a dedicated connection when using multiple Bluetooth® devices.
 - **Bluetooth**. Now available for Windows 11, ensure you update the headphones to run the latest firmware, [as described below](#updating-firmware). A subsequent firmware update for the headphones to meet Teams certification standards on Windows 10 is coming soon. 
 
 Surface Headphones 2+ includes a Teams button to join calls or bring Teams to the forefront, integrated call controls, and an LED status indicator on the dongle to indicate mute status.
@@ -64,7 +64,7 @@ Firmware for the USB link dongle is maintained via Windows Update, which automat
 | Frequency response          | - 20 – 20 kHz                                                                                                                                                                                                    |
 | Noise cancellation          | - Up to 30 dB for active noise cancellation<br>- Up to 40 dB for passive noise cancellation                                                                                                                     |
 | Speaker                     | - 40 mm Free Edge driver                                                                                                                                                                                        |
-| Sound pressure level output | - Up to 115 dB (1 kHz, 1 Vrms via cable connector with power on)<br>- Up to 115 dB (1 kHz, 0dBFS over Bluetooth® connection)                                                                                       |
+| Sound pressure level output | - Up to 115 dB (1 kHz, 1 Vrms via cable connector with power on)<br>- Up to 115 dB (1 kHz, 0dBFS over Bluetooth connection)                                                                                       |
 | Charging                    | - Full charge in less than two hours                                                                                                                                                                            |
 | Battery Life                | - Up to 18.5 hours of music listening time<sup>1</sup> or up to 15 hours of voice calling on Microsoft Teams<sup>2</sup>                                                                                                |
 | USB cord length             | - 1.5 m                                                                                                                                                                                                         |
