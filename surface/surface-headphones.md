@@ -25,7 +25,7 @@ Built for the hybrid workplace, [Surface Headphones 2+](https://www.microsoft.co
 
 Surface Headphones 2+ meets audio/video specification standards while using Teams software to ensure a high-quality call experience. A "Certified for Microsoft Teams" experience is enabled via one of the following methods: 
 
-- **Surface USB link dongle.** Use the included dongle for a wired connection.
+- **Surface USB link dongle.** Use the included dongle for a dedicated connection when using multiple bluetooth devices.
 - **Bluetooth**. Now available for Windows 11, ensure you update the headphones to run the latest firmware, [as described below](#updating-firmware). A subsequent firmware update for the headphones to meet Teams certification standards on Windows 10 is coming soon. 
 
 Surface Headphones 2+ includes a Teams button to join calls or bring Teams to the forefront, integrated call controls, and an LED status indicator on the dongle to indicate mute status.
