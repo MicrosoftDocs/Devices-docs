@@ -1,5 +1,5 @@
 ---
-title: Next Business Day Replacement information & coverage areas
+title: Next Business Day Service information & coverage areas
 ms.author: alyee
 author: greg-lindsay
 manager: laurawi
@@ -12,12 +12,12 @@ ms.custom: references_regions
 appliesto:
 - Surface
 ms.reviewer: irenewhite
-description: Next Business Day Replacement Information & Coverage Areas.
+description: Next Business Day Service Information & Coverage Areas.
 ---
 
-# Next Business Day Replacement information & coverage areas
+# Next Business Day Service information & coverage areas
 
-Next Business Day Replacement is a paid-for service where a replacement Surface device will be delivered to your premises by the next business day (availability in select countries). These services apply after an agent determines a replacement device is required, confirms available inventory, and submits an order for a replacement device by a standard cutoff time, predetermined by Microsoft.
+Next Business Day is a paid-for service where a replacement Surface device will be delivered to your premises by the next business day (availability in select countries). These services apply after an agent determines a replacement device is required, confirms available inventory, and submits an order for a replacement device by a standard cutoff time, predetermined by Microsoft.
 
 ## Guidelines
 
@@ -45,6 +45,7 @@ For a list of supported post codes, see "Next business day coverage" where appli
 - [Greece](#greece)
 - [Hong Kong](#hong-kong)
 - [Hungary](#hungary)
+- [India](#india)
 - [Ireland](#ireland)
 - [Italy](#italy)
 - [Japan](#japan)
@@ -52,6 +53,8 @@ For a list of supported post codes, see "Next business day coverage" where appli
 - [Lithuania](#lithuania)
 - [Luxembourg](#luxembourg)
 - [Malta](#malta)
+- [Mexico](#mexico)
+- [New Zealand](#new-zealand)
 - [Norway](#norway)
 - [Poland](#poland)
 - [Portugal](#portugal)
@@ -140,6 +143,11 @@ For a list of supported post codes, see "Next business day coverage" where appli
 - Cutoff Time: 12:00 CET (UTC+1)
 - [Next business day coverage](https://download.microsoft.com/download/9/0/4/904818c7-0f21-421a-a9b3-fdae8275a87d/NBD_Coverage_HungaryPostCodes_052522.xlsx)
 
+#### India
+
+- Cutoff Time: 15:00 (UTC+5.5)
+- [Next business day coverage](https://download.microsoft.com/download/5/5/e/55e2bb36-c720-4e25-b834-9e3e5b87c120/NBD_Coverage_IndiaPostCodes_090622.xlsx)
+
 #### Ireland
 
 - Cutoff Time: 12:00 CET (UTC+1)
@@ -174,6 +182,16 @@ For a list of supported post codes, see "Next business day coverage" where appli
 
 - Cutoff Time: 12:00 CET (UTC+1)
 - [Next business day coverage](https://download.microsoft.com/download/a/b/5/ab5ece41-ec04-44e9-a855-f1881dc292e3/NBD_Coverage_MaltaPostCodes_052522.xlsx)
+
+#### Mexico
+
+- Cutoff Time: 10:00 MT (UTC+6)
+- [Next business day coverage](https://download.microsoft.com/download/a/6/5/a65f407c-e98a-421e-94a0-2b65e3dd7cb8/NBD_Coverage_MexicoPostCodes_020122.xlsx)
+
+#### New Zealand
+
+- Cutoff Time: 14:00 NZST (UTC+12)
+- [Next business day coverage](https://download.microsoft.com/download/8/f/0/8f0945d8-7c13-4a92-9758-4a663ae432c4/NBD_Coverage_NewZealandPostCodes_062922.xlsx)
 
 #### Norway
 
