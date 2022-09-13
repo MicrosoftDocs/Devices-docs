@@ -2,7 +2,7 @@
     "redirections":  [
         {
             "source_path":  "surface-hub/i-am-done-finishing-your-surface-hub-meeting.md",
-            "redirect_url":  "https://docs.microsoft.com/surface-hub/finishing-your-surface-hub-meeting",
+            "redirect_url":  "/surface-hub/finishing-your-surface-hub-meeting",
             "redirect_document_id":  true
         },
         {
@@ -12,107 +12,107 @@
         },
         {
             "source_path":  "surface-hub/provisioning-packages-for-certificates-surface-hub.md",
-            "redirect_url":  "https://docs.microsoft.com/surface-hub/provisioning-packages-for-surface-hub",
+            "redirect_url":  "/surface-hub/provisioning-packages-for-surface-hub",
             "redirect_document_id":  true
         },
         {
             "source_path":  "surface/documentation/surface-system-sku-reference.md",
-            "redirect_url":  "https://docs.microsoft.com/surface/surface-system-sku-reference",
+            "redirect_url":  "/surface/surface-system-sku-reference",
             "redirect_document_id":  true
         },
         {
             "source_path":  "surface-hub/intro-to-surface-hub.md",
-            "redirect_url":  "https://docs.microsoft.com/surface-hub/index",
+            "redirect_url":  "/surface-hub/index",
             "redirect_document_id":  false
         },
         {
             "source_path":  "surface-duo/contact-surface-support.md",
-            "redirect_url":  "https://docs.microsoft.com/surface-duo/contact-surface-duo-support",
+            "redirect_url":  "/surface-duo/contact-surface-duo-support",
             "redirect_document_id":  false
         },
         {
             "source_path":  "surface-hub/surface-hub-install-2020preview.md",
-            "redirect_url":  "https://docs.microsoft.com/surface-hub/surface-hub-2020-update",
+            "redirect_url":  "/surface-hub/surface-hub-2020-update",
             "redirect_document_id":  true
         },
         {
             "source_path":  "surface/change-history-for-surface.md",
-            "redirect_url":  "https://docs.microsoft.com/surface/get-started",
+            "redirect_url":  "/surface/get-started",
             "redirect_document_id":  true
         },
         {
             "source_path":  "surface-hub/surface-hub-2s-prepare-environment.md",
-            "redirect_url":  "https://docs.microsoft.com/surface-hub/prepare-your-environment-for-surface-hub",
+            "redirect_url":  "/surface-hub/prepare-your-environment-for-surface-hub",
             "redirect_document_id":  true
         },
         {
             "source_path":  "surface-hub/surface-hub-2s-manage-passwords.md",
-            "redirect_url":  "https://docs.microsoft.com/surface-hub/password-management-for-surface-hub-device-accounts",
+            "redirect_url":  "/surface-hub/password-management-for-surface-hub-device-accounts",
             "redirect_document_id":  true
         },
         {
             "source_path":  "surface-hub/surface-hub-2s-whats-new.md",
-            "redirect_url":  "https://docs.microsoft.com/surface-hub/surface-hub-2020-update-whats-new",
+            "redirect_url":  "/surface-hub/surface-hub-2020-update-whats-new",
             "redirect_document_id":  true
         },
         {
             "source_path":  "surface-hub/surface-hub-2s-manage-intune.md",
-            "redirect_url":  "https://docs.microsoft.com/surface-hub/manage-settings-with-mdm-for-surface-hub",
+            "redirect_url":  "/surface-hub/manage-settings-with-mdm-for-surface-hub",
             "redirect_document_id":  true
         },
         {
             "source_path":  "surface-hub/surface-hub-2s-account.md",
-            "redirect_url":  "https://docs.microsoft.com/surface-hub/create-and-test-a-device-account-surface-hub",
+            "redirect_url":  "/surface-hub/create-and-test-a-device-account-surface-hub",
             "redirect_document_id":  true
         },
         {
             "source_path":  "surface-hub/create-a-device-account-using-office-365.md",
-            "redirect_url":  "https://docs.microsoft.com/surface-hub/create-and-test-a-device-account-surface-hub",
+            "redirect_url":  "/surface-hub/create-and-test-a-device-account-surface-hub",
             "redirect_document_id":  false
         },
         {
             "source_path":  "surface-hub/skype-hybrid-voice.md",
-            "redirect_url":  "https://docs.microsoft.com/surface-hub/create-and-test-a-device-account-surface-hub",
+            "redirect_url":  "/surface-hub/create-and-test-a-device-account-surface-hub",
             "redirect_document_id":  false
         },
         {
             "source_path":  "surface-hub/surface-hub-2s-onprem-powershell.md",
-            "redirect_url":  "https://docs.microsoft.com/microsoftteams/rooms/with-skype-for-business-server-2015",
+            "redirect_url":  "/microsoftteams/rooms/with-skype-for-business-server-2015",
             "redirect_document_id":  false
         },
         {
             "source_path":  "surface-hub/on-premises-deployment-surface-hub-multi-forest.md",
-            "redirect_url":  "https://docs.microsoft.com/skypeforbusiness/deploy/deploy-clients/multiple-forest-on-premises-deployments",
+            "redirect_url":  "/skypeforbusiness/deploy/deploy-clients/multiple-forest-on-premises-deployments",
             "redirect_document_id":  false
         },
         {
             "source_path":  "surface-hub/on-premises-deployment-surface-hub-device-accounts.md",
-            "redirect_url":  "https://docs.microsoft.com/microsoftteams/rooms/with-skype-for-business-server-2015",
+            "redirect_url":  "/microsoftteams/rooms/with-skype-for-business-server-2015",
             "redirect_document_id":  false
         },
         {
             "source_path":  "surface-hub/online-deployment-surface-hub-device-accounts.md",
-            "redirect_url":  "https://docs.microsoft.com/microsoftteams/rooms/with-office-365",
+            "redirect_url":  "/microsoftteams/rooms/with-office-365",
             "redirect_document_id":  false
         },
         {
             "source_path":  "surface-hub/change-history-surface-hub.md",
-            "redirect_url":  "https://docs.microsoft.com/surface-hub",
+            "redirect_url":  "/surface-hub",
             "redirect_document_id":  false
         },
         {
             "source_path":  "surface-hub/known-issues-and-additional-info-about-surface-hub.md",
-            "redirect_url":  "https://docs.microsoft.com/surface-hub/surface-hub-2020-team-update-known-issues",
+            "redirect_url":  "/surface-hub/surface-hub-2020-team-update-known-issues",
             "redirect_document_id":  false
         },
         {
             "source_path":  "surface-hub/surface-hub-2s-deploy-checklist.md",
-            "redirect_url":  "https://docs.microsoft.com/surface-hub/setup-worksheet-surface-hub",
+            "redirect_url":  "/surface-hub/setup-worksheet-surface-hub",
             "redirect_document_id":  false
         },
         {
             "source_path":  "surface-hub/surface-hub-2s-deploy.md",
-            "redirect_url":  "https://docs.microsoft.com/surface-hub/provisioning-packages-for-surface-hub",
+            "redirect_url":  "/surface-hub/provisioning-packages-for-surface-hub",
             "redirect_document_id":  false
         },
         {
@@ -144,6 +144,6 @@
             "source_path":  "surface/surface-laptop-studio-isv-tested-apps.md",
             "redirect_url":  "/surface/surface-laptop-studio-isv-certification",
             "redirect_document_id":  false
-        },                                       
-]
+        }
+    ]
 }
