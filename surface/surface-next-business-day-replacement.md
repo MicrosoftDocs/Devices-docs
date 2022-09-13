@@ -45,7 +45,7 @@ For a list of supported post codes, see "Next business day coverage" where appli
 - [Greece](#greece)
 - [Hong Kong](#hong-kong)
 - [Hungary](#hungary)
-- [India])(#india)
+- [India](#india)
 - [Ireland](#ireland)
 - [Italy](#italy)
 - [Japan](#japan)
