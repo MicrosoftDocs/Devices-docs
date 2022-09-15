@@ -43,7 +43,7 @@ Teams Rooms on Surface Hub Meetings experience are aligned to the familiar exper
 
 :::image type="content" source="images/teamsroomssetttings.png" alt-text="Teams Rooms Settings.":::
 
-The new Teams Rooms for Surface Hub client, will automatically apply existing settings configured via XML files, provisioning packages, or an MDM provider. These methods, explained in [Manage Microsoft Teams configuration on Surface Hub](/microsoftteams/rooms/surface-hub-manage-config), will be superseded by new cloud-based solutions, as described below in [Simplified management of Teams coming to Surface Hub](#simplified-management-of-teams-coming-to-surface-hub).
+The new Teams Rooms for Surface Hub client, will automatically apply existing settings configured via XML files, provisioning packages, or an MDM provider. These methods, explained in [Manage Microsoft Teams configuration on Surface Hub](/microsoftteams/rooms/surface-hub-manage-config), will be superseded by new cloud-based solutions, as described below in [Simplified management of Teams coming to Surface Hub](#simplified-management-of-teams-on-surface-hub).
 
 ### Prepare networking for Teams Rooms
 
@@ -84,14 +84,8 @@ Depending on your environment, you may need to configure more settings. For exam
 
 Optionally, you may wish to configure calendar processing rules to enable "auto accept," "auto decline," and related settings.
 
-To learn more, see [Enable Teams Rooms devices to join third-party meetings](https://docs.microsoft.com/microsoftteams/rooms/third-party-join) and related [Teams Rooms documentation](https://docs.microsoft.com/microsoftteams/rooms/).
+To learn more, see [Enable Teams Rooms devices to join third-party meetings](/microsoftteams/rooms/third-party-join) and related [Teams Rooms documentation](/microsoftteams/rooms/).
  
- 
- 
- 
-
-
-
 ## Support for Teams Rooms in Government Community Cloud High (GCC-H)
 
 A one-time manual update of the Teams Rooms client to version 1.4.00.25354 is needed in order to for it to be able to connect to a GCC-H tenant and then keep itself up-to-date automatically:
