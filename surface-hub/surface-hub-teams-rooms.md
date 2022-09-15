@@ -69,7 +69,7 @@ Microsoft Teams Rooms on Surface Hub supports joining third-party online meeting
 
 1. Select **Home**, select the meeting tile from the home screen calendar, or go directly to the Teams agenda page, which includes join buttons for the third-party-enabled meetings.
 
-:::image type="content" source="images/jointhirdpartymeeting-hub.png" alt-text="Join third party meetings on Surface Hub Meeting.":::
+    :::image type="content" source="images/jointhirdpartymeeting-hub.png" alt-text="Join third party meetings on Surface Hub Meeting.":::
 
 1. Select **Join**. When the Microsoft Edge browser launches you into the meeting, you'll need to allow the browser to use the Surface Hub microphone and camera for the meeting.  
 
