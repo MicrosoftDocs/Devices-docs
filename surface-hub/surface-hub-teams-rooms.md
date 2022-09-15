@@ -1,13 +1,13 @@
 ---
 title: Microsoft Teams Rooms on Surface Hub 
-description: This article provides an overview of Microsoft Teams Rooms on Surface Hub.
-keywords: Teams Rooms, Surface Hub, Intune, QoS
+description: This article provides an overview of Microsoft Teams Rooms on Surface Hub and includes guidance on Direct Guest Join and related features. 
+keywords: Teams Rooms, Surface Hub, Intune, QoS, Direct Guest Join
 ms.prod: surface-hub
 ms.sitesec: library
 author: dansimp
 ms.author: dansimp
 ms.topic: article
-ms.date: 08/20/2021
+ms.date: 09/19/2022
 ms.reviewer: dpandre
 manager: laurawi
 ms.localizationpriority: medium
@@ -27,7 +27,7 @@ Teams Rooms for Surface Hub automatically replaced the previous [Surface Hub Tea
 
 ## In meeting experience
 
-Teams Rooms on Surface Hub Meetings experience is aligned to the familiar experience that users know from their personal devices with adjustments made to optimize for a large screen device. Opening Teams on Surface Hub lets users access key features including One-touch meeting join, Meet Now and Dial Pad for PSTN or peer-to-peer calls.
+Teams Rooms on Surface Hub Meetings experience are aligned to the familiar experience that users know from their personal devices with adjustments made to optimize for a large screen device. Opening Teams on Surface Hub lets users access key features including One-touch meeting join, Meet Now and Dial Pad for PSTN or peer-to-peer calls.
 
 :::image type="content" source="images/teamsroomsagendascreen.png" alt-text="Teams Rooms on Surface Hub Agenda.":::
 
@@ -47,16 +47,16 @@ The new Teams Rooms for Surface Hub client, will automatically apply existing se
 
 ### Prepare networking for Teams Rooms
 
-To optimize Teams Rooms refer to the requirements and recommendations described in [Configure networking and Quality of Service for Microsoft Teams Room on Surface Hub](surface-hub-teams-rooms-networking.md).
+To optimize Teams Rooms, refer to the requirements and recommendations described in [Configure networking and Quality of Service for Microsoft Teams Room on Surface Hub](surface-hub-teams-rooms-networking.md).
 
 ### Simplified management of Teams on Surface Hub
 
-- **Teams Admin Center.** Teams Admin Center provides a comprehensive self-management platform to monitor and manage the Teams Rooms experience on Teams devices. Teams Admin Center will be available to Microsoft Teams Rooms users at no additional cost.
+- **Teams Admin Center.** Teams Admin Center provides a comprehensive self-management platform to monitor and manage the Teams Rooms experience on Teams devices. Teams Admin Center is available to Microsoft Teams Rooms users at no additional cost.
 - **Microsoft Teams Rooms managed service.** The [Microsoft Teams Rooms managed service](/microsoftteams/rooms/microsoft-teams-rooms-premium) is a cloud-based IT management and monitoring service that keeps Microsoft Teams Rooms devices and their peripherals up to date and proactively monitored, supporting an environment optimized for a great user experience.
 
 ## Third-party meetings on Surface Hub
 
-Microsoft Teams Rooms on Surface Hub supports joining third-party online meetings, referred to as Direct Guest Join. You can use Surface Hub to join meetings hosted on Cisco Webex and Zoom. And others can join Teams meetings on Hub from their third-party room systems.
+Microsoft Teams Rooms on Surface Hub supports joining third-party online meetings, referred to as Direct Guest Join. You can use Surface Hub to join meetings hosted on Cisco Webex and Zoom. And others can join Teams meetings on Hub from their third-party room systems. This feature is rolling out to Surface Hubs beginning September 19. 
 
 ### To enable third-party meetings on Surface Hub:
 
@@ -67,11 +67,11 @@ Microsoft Teams Rooms on Surface Hub supports joining third-party online meeting
 
 ### To join third-party meetings:
 
-1. Select **Home**, click the meeting tile from the home screen calendar, or go directly to the Teams agenda page, which includes join buttons for the third-party-enabled meetings.
+1. Select **Home**, select the meeting tile from the home screen calendar, or go directly to the Teams agenda page, which includes join buttons for the third-party-enabled meetings.
 
 :::image type="content" source="images/jointhirdpartymeeting-hub.png" alt-text="Join third party meetings on Surface Hub Meeting.":::
 
-1. Select **Join**. When the Edge browser launches you into the meeting, you will need to allow the browser to use the Surface Hub microphone and camera for the meeting.  
+1. Select **Join**. When the Microsoft Edge browser launches you into the meeting, you'll need to allow the browser to use the Surface Hub microphone and camera for the meeting.  
 
 > [!NOTE]
 > Microphone and camera approvals are removed when you end a Surface Hub session, and you will be asked to allow them again in the next session.
@@ -80,7 +80,7 @@ Microsoft Teams Rooms on Surface Hub supports joining third-party online meeting
 
 ### Optional advanced configuration for third-party meetings
 
-Depending on your environment, you may need to configure additional settings. For example, you should ensure your organization has no policies preventing you from connecting to third-party meeting services.
+Depending on your environment, you may need to configure more settings. For example, you should ensure your organization has no policies preventing you from connecting to third-party meeting services.
 
 Optionally, you may wish to configure calendar processing rules to enable "auto accept," "auto decline," and related settings.
 
