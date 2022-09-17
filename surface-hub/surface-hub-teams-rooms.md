@@ -82,6 +82,18 @@ Microsoft Teams Rooms on Surface Hub supports joining third-party online meeting
 
 Depending on your environment, you may need to configure more settings. For example, you should ensure your organization has no policies preventing you from connecting to third-party meeting services.
 
+#### Configure Edge policy settings
+
+To enable a more seamless experience that avoids users having to approve the microphone and camera for each Hub session, you can configure the following Edge policies via Microsoft Endpoint Manager. 
+
+| Microsoft Edge policy setting                                                 | Location                                                                                                  | Notes                                                                                                   |
+| ----------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| Force synchronization of browser data and do not show the sync consent prompt | Devices | Configuration Profiles > Administrative Templates > Edge Chromium General Policies | Properties | Enable                                                                                                  |
+| Sites that can access video capture devices without requesting permission     | Devices | Configuration Profiles > Administrative Templates > Edge Chromium General Policies | Properties |                                                                                                         |
+| Sites that can access audio capture devices without requesting permission     | Devices | Configuration Profiles > Administrative Templates > Edge Chromium General Policies | Properties |                                                                                                         |
+| Default geolocation setting                                                   | Devices | Configuration Profiles > Administrative Templates > Edge Chromium General Policies | Properties | Policy options mapping: * BlockGeolocation (2) = Don't allow any site to track users' physical location |
+
+
 Optionally, you may wish to configure calendar processing rules to enable "auto accept," "auto decline," and related settings.
 
 To learn more, see [Enable Teams Rooms devices to join third-party meetings](/microsoftteams/rooms/third-party-join) and related [Teams Rooms documentation](/microsoftteams/rooms/).
