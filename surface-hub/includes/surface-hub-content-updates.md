@@ -2,6 +2,14 @@
 
 
 
+## Week of September 12, 2022
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 9/16/2022 | [Surface Hub update history](/surface-hub/surface-hub-update-history) | modified |
+
+
 ## Week of August 29, 2022
 
 
@@ -20,11 +28,3 @@
 | 8/20/2022 | [Surface Hub 2S 85-inch](/surface-hub/surface-hub-2s-85) | modified |
 | 8/20/2022 | [What's new in Windows 10 Team 2020 updates](/surface-hub/surface-hub-2020-update-whats-new) | modified |
 | 8/20/2022 | [Surface Hub update history](/surface-hub/surface-hub-update-history) | modified |
-
-
-## Week of August 08, 2022
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 8/11/2022 | [Troubleshoot Teams sign-in issues on Surface Hub](/surface-hub/troubleshoot-teams-sign-in-surface-hub) | added |
