@@ -610,10 +610,5 @@ If you have questions or need help, you can [create a support request](https://s
  
 ## Related content
 
-- [Troubleshooting Miracast connection to the Surface Hub](https://docs.microsoft.com/surface-hub/miracast-troubleshooting)
+- [Troubleshooting Miracast connection to the Surface Hub](https://learn.microsoft.com/surface-hub/miracast-troubleshooting)
  
-
-
-
-
-
