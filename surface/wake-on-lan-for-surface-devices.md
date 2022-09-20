@@ -88,7 +88,8 @@ To enable WOL on Surface Studio 2, you must use the following procedure:
     ```powercfg /SETACVALUEINDEX SCHEME_BALANCED SUB_NONE CONNECTIVITYINSTANDBY 1```
 
 > [!NOTE]
-> The **CONNECTIVITYINSTANDBY** setting is only supported on [Windows 10 Long-Term Servicing Channel (LTSC) version 1809](https://learn.microsoft.com/windows/release-health/release-information). **CONNECTIVITYINSTANDBY** is deprecated starting in Windows 10, version 2004. 
+> If you upgrade the version of Windows 10 on your Surface Studio 2 (for example, you upgrade from Windows 10 20H2 to 21H1), you will need to follow these instructions again to enable WOL.
+
 
 ### To wake from hibernation (S4) or shutdown (S5) 
 
