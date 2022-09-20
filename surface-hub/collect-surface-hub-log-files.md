@@ -42,7 +42,7 @@ You can access log files directly from your Surface Hub or remotely via Teams Ad
 
 5. Select the **History** tab to view the status of the log collection process and download the logs when they're available.
 6. When the logs are ready, press **Download**. This process saves the log files to the Downloads folder on your PC.
-    :::image type="content" source="images/hub-logs-fig4.png" alt-text="Prepare  device logs for download.":::
+    :::image type="content" source="images/hub-logs-fig4.png" alt-text="Prepare device logs for download.":::
     
 
 ## Learn more
