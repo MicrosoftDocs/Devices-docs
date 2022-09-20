@@ -16,7 +16,7 @@ ms.localizationpriority: medium
 
 # Monitor your Microsoft Surface Hub
 
-Monitoring for Microsoft Surface Hub devices is enabled through Azure Monitor (formerly Microsoft Operations Management Suite or OMS). To get started, refer to [Monitor Surface Hubs with Azure Monitor to track their health](https://docs.microsoft.com/azure/azure-monitor/insights/surface-hubs).
+Monitoring for Microsoft Surface Hub devices is enabled through Azure Monitor (formerly Microsoft Operations Management Suite or OMS). To get started, refer to [Monitor Surface Hubs with Azure Monitor to track their health](https://learn.microsoft.com/azure/azure-monitor/insights/surface-hubs).
 
 
 ### Related topics
