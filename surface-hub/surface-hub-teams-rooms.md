@@ -7,7 +7,7 @@ ms.sitesec: library
 author: dansimp
 ms.author: dansimp
 ms.topic: article
-ms.date: 09/19/2022
+ms.date: 09/26/2022
 ms.reviewer: dpandre
 manager: laurawi
 ms.localizationpriority: medium
@@ -56,7 +56,7 @@ To optimize Teams Rooms, refer to the requirements and recommendations described
 
 ## Third-party meetings on Surface Hub
 
-Microsoft Teams Rooms on Surface Hub supports joining third-party online meetings, referred to as Direct Guest Join. You can use Surface Hub to join meetings hosted on Cisco Webex and Zoom. And others can join Teams meetings on Hub from their third-party room systems. This feature is rolling out to Surface Hubs beginning September 19. 
+Microsoft Teams Rooms on Surface Hub supports joining third-party online meetings, referred to as Direct Guest Join. You can use Surface Hub to join meetings hosted on Cisco Webex and Zoom. And others can join Teams meetings on Hub from their third-party room systems. This feature is rolling out to Surface Hubs beginning September 26. 
 
 ### To enable third-party meetings on Surface Hub:
 
