@@ -20,11 +20,11 @@ People in your organization can sign in to a Surface Hub  without a password usi
 
 To let people in your organization sign in to Surface Hub with their phones and other devices instead of a password, you’ll need to make sure that your organization meets these prerequisites: 
 
-- Your organization must be a hybrid or cloud-only organization, backed by Azure Active Directory (Azure AD). For more information, see [What is Azure Active Directory?](https://docs.microsoft.com/azure/active-directory/active-directory-whatis)
+- Your organization must be a hybrid or cloud-only organization, backed by Azure Active Directory (Azure AD). For more information, see [What is Azure Active Directory?](https://learn.microsoft.com/azure/active-directory/active-directory-whatis)
 
 - Make sure you have at minimum an Office 365 E3 subscription. 
 
-- [Configure Multi-Factor Authentication](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-mfasettings). Make sure **Notification through mobile app** is selected. 
+- [Configure Multi-Factor Authentication](https://learn.microsoft.com/azure/active-directory/authentication/howto-mfa-mfasettings). Make sure **Notification through mobile app** is selected. 
 
     ![multi-factor authentication options.](images/mfa-options.png)
 
@@ -54,7 +54,7 @@ To let people in your organization sign in to Surface Hub with their phones and 
 >
 >If you have already set up Microsoft Authenticator on your phone and registered your device, go to the sign-in instructions.
 
-1. Add your work or school account to Microsoft Authenticator for Multi-Factor Authentication. You will need a QR code provided by your IT department. For help, see [Get started with the Microsoft Authenticator app](https://docs.microsoft.com/azure/multi-factor-authentication/end-user/microsoft-authenticator-app-how-to).
+1. Add your work or school account to Microsoft Authenticator for Multi-Factor Authentication. You will need a QR code provided by your IT department. For help, see [Get started with the Microsoft Authenticator app](https://learn.microsoft.com/azure/multi-factor-authentication/end-user/microsoft-authenticator-app-how-to).
 2. Go to **Settings** and register your device.
 3. Return to the accounts page and choose **Enable phone sign-in** from the account dropdown menu.
 
