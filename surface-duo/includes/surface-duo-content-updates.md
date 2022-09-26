@@ -2,9 +2,10 @@
 
 
 
-## Week of June 06, 2022
+## Week of September 19, 2022
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 6/8/2022 | [Manage OEMConfig on Surface Duo 2](/surface-duo/surface-duo-2-manage-oemconfig) | added |
+| 9/19/2022 | [Surface Duo documentation # < 60 chars](/surface-duo/index) | modified |
+| 9/19/2022 | [Surface Duo management overview](/surface-duo/surface-duo-manage) | modified |
