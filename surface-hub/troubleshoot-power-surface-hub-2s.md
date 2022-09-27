@@ -1,5 +1,5 @@
 ---
-title: Troubleshooting Surface Hub 2S Power Issues
+title: Troubleshoot Surface Hub 2S Power Issues
 description: This page explains how to troubleshoot power issues on Surface Hub. 
 ms.reviewer: 
 manager: laurawi
@@ -15,7 +15,7 @@ appliesto:
 - Surface Hub 2S
 ---
 
-# Troubleshooting Surface Hub 2S Power Issues
+# Troubleshoot Surface Hub 2S Power Issues
 
 If you encounter an issue powering on your Surface Hub 2S, review the troubleshooting steps outlined on this page. 
 
