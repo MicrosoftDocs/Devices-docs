@@ -6,7 +6,7 @@ ms.sitesec: library
 author: dansimp
 ms.author: dansimp
 ms.topic: article
-ms.date: 03/18/2019
+ms.date: 09/27/2022
 ms.reviewer: 
 manager: laurawi
 ms.localizationpriority: medium
@@ -66,9 +66,7 @@ The Microsoft Whiteboard app, updated for Surface Hub on July 1, 2019 includes a
 - **More color and background options** - Whiteboard now includes more pen colors and thickness options along with other background colors and designs.
 - **Teams Integration** – You can automatically launch Whiteboard from a Teams meeting and share with participants.
 
-
 ## Related articles
 
-- [Support documentation for Microsoft Whiteboard](https://support.office.com/article/Whiteboard-Help-0c0f2aa0-b1bb-491c-b814-fd22de4d7c01)
-
+- [Support documentation for Microsoft Whiteboard](/microsoft-365/whiteboard/)
 - [Use Microsoft Whiteboard on a Surface Hub](https://support.office.com/article/use-microsoft-whiteboard-on-a-surface-hub-5c594985-129d-43f9-ace5-7dee96f7621d)
