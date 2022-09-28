@@ -129,8 +129,8 @@
           href: surface-hub-2s-phone-authenticate.md
         - name: How Surface Hub addresses Wi-Fi Direct security issues
           href: surface-hub-wifi-direct.md
-    - name: Troubleshoot
-      items: 
+        - name: Troubleshoot Surface Hub 2S Power Issues
+          href: troubleshoot-power-surface-hub-2s.md
         - name: Surface Hub Update History
           href: surface-hub-update-history.md      
         - name: Recover and reset Surface Hub 2S
@@ -139,6 +139,7 @@
           href: collect-surface-hub-log-files.md 
         - name: Troubleshoot Teams sign-in issues on Surface Hub
           href: troubleshoot-teams-sign-in-surface-hub.md  
+        - name: Troubleshoot 
         - name: Surface Hub return to the office video series 
           href: surface-hub-return-to-office-videos.md   
         - name: Troubleshoot Miracast on Surface Hub
