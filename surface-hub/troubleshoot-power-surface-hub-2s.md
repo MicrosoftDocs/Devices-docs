@@ -1,5 +1,5 @@
 ---
-title: Troubleshoot Surface Hub 2S Power Issues
+title: Troubleshoot Surface Hub 2S power issues
 description: This page explains how to troubleshoot power issues on Surface Hub. 
 ms.reviewer: 
 manager: laurawi
@@ -15,7 +15,7 @@ appliesto:
 - Surface Hub 2S
 ---
 
-# Troubleshoot Surface Hub 2S Power Issues
+# Troubleshoot Surface Hub 2S power issues
 
 If you encounter an issue powering on your Surface Hub 2S, review the troubleshooting steps outlined on this page. 
 
@@ -26,7 +26,7 @@ If you encounter an issue powering on your Surface Hub 2S, review the troublesho
 5. Initiate a hardware reset on Surface Hub 2S: Hold and press the power button (see [Label 11](#port-and-keypad-component-reference) in Figure 1 below) for at least 20 seconds.
 6. If you’re still unable to power on the device, try [reseating the compute cartridge](/surface-hub/surface-hub-2s-pack-components#how-to-replace-and-pack-your-surface-hub-2s-compute-cartridge). 
 
-## Support Requests
+## Support requests
 
 If your Surface Hub 2S still fails to power on after trying these troubleshooting steps, please [create a support request](https://support.serviceshub.microsoft.com/supportforbusiness/onboarding) and include the following details:
  
@@ -36,7 +36,7 @@ If your Surface Hub 2S still fails to power on after trying these troubleshootin
 - If you try to connect an external device (via HDMI, for example), does the Hub display the external content?
 - If you [Miracast to the Surface Hub](surface-hub-2s-connect.md) from a projecting device, does the Surface Hub appear as an available connection, as shown below? 
 
-    :::image type="content" source="images/hub-project.png" alt-text="Check Surface Hub appears as an available connection when projecting" :::
+    :::image type="content" source="images/hub-project.png" alt-text="Screenshot that shows the how Check Surface Hub appears as an available connection when projecting." :::
 
 - Date of Surface Hub 2S delivery and discovery of the unresponsive unit.
 - The serial number of the Surface Hub 2S.
@@ -44,7 +44,7 @@ If your Surface Hub 2S still fails to power on after trying these troubleshootin
 > [!TIP]
 > The serial number is printed on Surface Hub 2S near the power cord, as shown below.
 
-:::image type="content" source="images/hub-serial-number.png" alt-text="Find serial number printed on Surface Hub 2S near the power cord" :::
+:::image type="content" source="images/hub-serial-number.png" alt-text="Screenshot that shows how to find the serial number printed on Surface Hub 2S near the power cord." :::
 
 ## Port and keypad component reference
 
