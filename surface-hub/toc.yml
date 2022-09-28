@@ -129,7 +129,7 @@
           href: surface-hub-2s-phone-authenticate.md
         - name: How Surface Hub addresses Wi-Fi Direct security issues
           href: surface-hub-wifi-direct.md
-	- name: Troubleshoot
+	  - name: Troubleshoot
       items: 	  
         - name: Surface Hub Update History
           href: surface-hub-update-history.md      
