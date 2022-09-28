@@ -21,7 +21,7 @@ If you encounter an issue powering on your Surface Hub 2S, review the troublesho
 
 1. First, remove all connections to the Surface Hub 2S except for Ethernet and power.
 2. Ensure Surface Hub 2S has a direct connection to a dedicated power outlet.
-3. Do you have an [APC Charge Mobile Battery](https://www.apc.com/us/campaign/apc-charge-mobile-battery-for-microsoft-surface-hub-2.jsp) connected to Surface Hub? If yes, disconnect the battery and try again. If the power-on issue only occurs when using the APC battery, please contact [APC support](https://www.apc.com/us/support/contact-us/) for further assistance.
+3. Do you have an [APC Charge Mobile Battery](https://www.apc.com/us/campaign/apc-charge-mobile-battery-for-microsoft-surface-hub-2.jsp) connected to Surface Hub? If yes, disconnect the battery and try again. If the power-on issue only occurs when using the APC battery, please contact [APC support](https://www.apc.com/us/en/support/contact-us/) for further assistance.
 4. Test with another power cord (see [Label 2](#port-and-keypad-component-reference) in Figure 1 below) and a different power outlet.
 5. Initiate a hardware reset on Surface Hub 2S: Hold and press the power button (see [Label 11](#port-and-keypad-component-reference) in Figure 1 below) for at least 20 seconds.
 6. If you’re still unable to power on the device, try [reseating the compute cartridge](/surface-hub/surface-hub-2s-pack-components#how-to-replace-and-pack-your-surface-hub-2s-compute-cartridge). 
