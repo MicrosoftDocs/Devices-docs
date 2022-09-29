@@ -183,7 +183,7 @@
         items:          
         - name: Deploying, managing, & servicing Surface Pro X
           href: surface-pro-arm-app-management.md
-        - name: Surface Pro X app compatibility
+        - name: ARM-based Surface devices FAQ
           href: surface-pro-arm-app-performance.md
       - name: Accessories
         items:
