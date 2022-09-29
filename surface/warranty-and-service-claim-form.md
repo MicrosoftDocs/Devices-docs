@@ -9,7 +9,7 @@ ms.mktglfcycl: deploy
 ms.pagetype: surface, devices
 ms.sitesec: library
 author: mccoybot
-ms.author: v-todmc
+ms.author: greglin
 ms.topic: article
 ms.localizationpriority: medium
 ms.audience: itpro
@@ -26,7 +26,7 @@ Use the Warranty and Service Claim form when you have to submit a hardware warra
 
 ## How to use the form
 
-1.	Download the form, and select Enable.
+1.	[Download the form](https://download.microsoft.com/download/2/e/0/2e00e1c2-3f49-4b6a-b605-74a0244cb88b/Warranty_and_Service_Claim_Submission_Form.xlsx), and select **Enable**.
 2.	Enter the product information:
     - Product
     - Product Version
