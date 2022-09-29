@@ -26,7 +26,7 @@ Use the Warranty and Service Claim form when you have to submit a hardware warra
 
 ## How to use the form
 
-1.	[Download the form](https://download.microsoft.com/download/2/e/0/2e00e1c2-3f49-4b6a-b605-74a0244cb88b/Warranty_and_Service_Claim_Submission_Form.xlsx), and select **Enable**.
+1.	[Download the form](https://download.microsoft.com/download/2/e/0/2e00e1c2-3f49-4b6a-b605-74a0244cb88b/Warranty_and_Service_Claim_Submission_Form.xlsx) and select **Enable**.
 2.	Enter the product information:
     - Product
     - Product Version
@@ -40,7 +40,7 @@ Use the Warranty and Service Claim form when you have to submit a hardware warra
 
        - **Surface Hub 2**
          - From the Surface Hub 2 Operating System, go to: **Start Icon** > **Settings** > **System** > **About**. Select the **Surface** app, and then select **Your Surface**.
-         - The serial number label is located on the bracket where the power cord connects to the device.
+         - The serial number label is on the bracket where the power cord connects to the device.
        - **HoloLens 2**
          - From the HoloLens 2 Operating System, go to **Start Menu** > **Settings** > **System** > **About**.
          - The serial number is located by flipping up the visor directly under the hinge.
@@ -51,15 +51,15 @@ Use the Warranty and Service Claim form when you have to submit a hardware warra
     - Accessories<br/>
         For accessory warranty claims:
         - Include the serial number from the device that the accessory is used with.
-        - In-warranty accessory replacements require proof of purchase. To expedite the process, upload a copy of your proof of purchase together with your form when you create the service request. 
+        - In-warranty accessory replacements require proof of purchase. To expedite the process, upload a copy of your proof of purchase with your form when you create the service request. 
     - Reason for Replacement
     
-        1. Select the reason for your replacement request. (If you are not requesting a replacement, leave this field blank.)
-        1. If the issue for the warranty claim is not listed, leave this field blank. 
+        1. Select the reason for your replacement request. (If you are not requesting a replacement, leave the field blank.)
+        1. If the issue for the warranty claim is not listed, leave the field blank. 
         1. Troubleshooting may be requested before a Warranty Claim is processed.
         1. Provide the shipping information for each serial number, including the contact phone number and email address.
     - Warranty Adjustment
-        1. If you are requesting a warranty adjustment, provide a statement that outlines the request. If you are not requesting a warranty adjustment, leave this field blank.
+        1. If you request a warranty adjustment, provide a statement that outlines the request. Otherwise, leave this field blank.
         2. To expedite the process, upload the warranty or hardware proof of purchase together with your request.
 
 ## Out-of-warranty service fees
