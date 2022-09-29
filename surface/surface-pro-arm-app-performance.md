@@ -1,6 +1,6 @@
 ---
 title: ARM-based Surface devices FAQ
-description: This article provides introductory app compatibility information for Surface Pro X ARM-based PCs.
+description: This article provides answers to questions about app compatibility and related issues for Surface Pro X ARM-based PCs.
 ms.prod: w10
 ms.localizationpriority: medium
 ms.mktglfcycl: manage
