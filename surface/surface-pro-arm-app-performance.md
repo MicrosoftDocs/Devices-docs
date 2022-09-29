@@ -56,7 +56,7 @@ There are some limitations when you run a Windows 11 ARM-based device:
 - You may want to check with the vendor to determine if their app is compatible with a Windows 11 ARM-based device. Not all assistive technology apps work as expected.
 - If you use a screen reader, NVDA has updated its app to be compatible with a Windows 11 ARM-based device. For more info, visit the [NV Access website](https://go.microsoft.com/fwlink/?linkid=867679).
 
-## Windows 10
+## Windows 10 ARM devices
 
 ### What limitations should I be aware of when running a Windows 10 ARM-based device?
 
