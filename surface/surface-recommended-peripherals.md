@@ -64,14 +64,14 @@ This page lists the results of extensive testing for external monitors, docks, c
 
 | Connection type   | Surface Connect                      | Thunderbird                         | Thunderbird                                                                                                                                                     |
 | ----------------- | ------------------------------------ | ----------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Recommended docks | - Surface Dock 1<br>- Surface Dock 2 | - Dell WD19DC<br>- Plugable ULT-CDL | - Cal Digit TS3 Thunderbolt Station 3<br>- Dell WD19TB<br>- Kensington SD5700T Thunderbolt 4 Dock<br>- Lenovo ThinkPad Thunderbolt 3 Dock Gen 2 - Model# DK1841 |
+| Recommended docks | - Surface Dock 1<br>- Surface Dock 2 | - Dell WD19DC<br>- Pluggable ULT-CDL | - Cal Digit TS3 Thunderbolt Station 3<br>- Dell WD19TB<br>- Kensington SD5700T Thunderbolt 4 Dock<br>- Lenovo ThinkPad Thunderbolt 3 Dock Gen 2 - Model# DK1841 |
 
 
 **Table 6.Recommended docks for Surface Pro 9 with 5G**
 
 | Connection type   | Surface Connect | USB-C                               |
 | ----------------- | --------------- | ----------------------------------- |
-| Recommended docks | n/a             | - Dell WD19DC<br>- Plugable ULT-CDL |
+| Recommended docks | n/a             | - Dell WD19DC<br>- Pluggable ULT-CDL |
 
  
 
