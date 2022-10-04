@@ -19,7 +19,7 @@ appliesto:
 
 # Recommended peripherals for new Surface devices
 
-This page lists the results of extensive testing for external monitors, docks, cables, and adapters for the latest Surface devices, including Surface Pro 9, Surface Pro 9 with 5G, and Surface Studio 2 +.
+This page lists the results of extensive testing for external monitors, docks, cables, and adapters for the latest Surface devices, including Surface Pro 9, Surface Pro 9 with 5G, and Surface Laptop 5.
 
 ## Recommended Monitors
 
