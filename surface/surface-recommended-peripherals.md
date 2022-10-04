@@ -25,14 +25,14 @@ This page lists the results of extensive testing for external monitors, docks, c
 
 ## Monitors
 
-**Table 1. Recommended monitors for Surface Pro 9**
+### Recommended monitors for Surface Pro 9
 
 | Connection type      | USB-C                                                                                                                                      | Display Port                                                                                       | Thunderbird                    | HDMI                  |
 | -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------- | ------------------------------ | --------------------- |
 | Recommended monitors | - ASUS PA247CV<br>- ASUS PA278CV<br>- Dell C2422HE<br>- Dell P2720DC<br>- Dell P2721Q<br>- Dell U2720Q<br>- Dell U3421WE<br>- LG 27UL850-W | - ASUS PA27A<br>- ASUS VG279QM<br>- Dell U3421WE<br>- HP X24iH<br>- LG 27UL850-W<br>- LG 34GN850-B | - ASUS PA27A<br>- BenQ PD3220U | - Viewsonic VA2447-MH |
 
 
-**Table 2. Recommended monitors for Surface Pro 9 with 5G**
+### Recommended monitors for Surface Pro 9 with 5G
 
 | Connection type      | USB-C                                                                                                                                      | Display Port                                                                                                                                                                               | HDMI                                |
 | -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------- |
@@ -43,14 +43,14 @@ This page lists the results of extensive testing for external monitors, docks, c
 
 ## Cables
 
-**Table 3. Recommended cables for Surface Pro 9**
+### Recommended cables for Surface Pro 9
 
 | Connection type   | USB-C to USB-C         | Thunderbird to Thunderbird                             | Display Port                                                                                       | USB-C to Display Port                                                  | HDMI to HDMI            |
 | ----------------- | ---------------------- | ------------------------------------------------------ | -------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- | ----------------------- |
 | Recommended docks | - j5Create USB-C Cable | - Cable Matters 107032-BLK-0.8m<br>- SIIG CB-TB0011-S1 | - CableMatters Display Port Cable<br>- Club3D Display Port Cable<br>- Monoprice Display Port Cable | - Designed for Surface: Moshi USB-C to Display Port Cable (99MO084102) | - BlueRigger HDMI Cable |
 
 
-**Table 4. Recommended cables for Surface Pro 9 with 5G**
+### Recommended cables for Surface Pro 9 with 5G
 
 | Connection type   | USB-C to USB-C         | Display Port to Display Port                                                                       | USB-C to Display Port                                                  | HDMI to HDMI            |
 | ----------------- | ---------------------- | -------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- | ----------------------- |
@@ -60,14 +60,14 @@ This page lists the results of extensive testing for external monitors, docks, c
 
 ## Docks
 
-**Table 5.Recommended docks for Surface Pro 9**
+### Recommended docks for Surface Pro 9
 
 | Connection type   | Surface Connect                      | Thunderbird                         | Thunderbird                                                                                                                                                     |
 | ----------------- | ------------------------------------ | ----------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Recommended docks | - Surface Dock 1<br>- Surface Dock 2 | - Dell WD19DC<br>- Pluggable ULT-CDL | - Cal Digit TS3 Thunderbolt Station 3<br>- Dell WD19TB<br>- Kensington SD5700T Thunderbolt 4 Dock<br>- Lenovo ThinkPad Thunderbolt 3 Dock Gen 2 - Model# DK1841 |
 
 
-**Table 6.Recommended docks for Surface Pro 9 with 5G**
+### Recommended docks for Surface Pro 9 with 5G
 
 | Connection type   | Surface Connect | USB-C                               |
 | ----------------- | --------------- | ----------------------------------- |
@@ -77,7 +77,7 @@ This page lists the results of extensive testing for external monitors, docks, c
 
 ## Adapters
 
-**Table 7. Recommended adapters for Surface Pro 9**
+### Recommended adapters for Surface Pro 9
 
 | Connection type   | USB-C to Display Port                                                                                                                                    | USB-C to HDMI                            |
 | ----------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------- |
