@@ -163,7 +163,9 @@ landingContent:
           - url: collect-surface-hub-log-files.md
             text: Collect Surface Hub log files
           - url: troubleshoot-teams-sign-in-surface-hub.md
-            text: Troubleshoot Teams sign-in issues on Surface Hub    
+            text: Troubleshoot Teams sign-in issues on Surface Hub  
+          - url: troubleshoot-power-surface-hub-2s.md
+            text: Troubleshoot Surface Hub 2S Power Issues    
           - text: Surface Hub Update History  
             url: surface-hub-update-history.md
 

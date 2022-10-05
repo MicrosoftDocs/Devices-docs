@@ -5,6 +5,7 @@
     - name: Surface devices documentation
       href: get-started.yml
     - name: Overview
+      expanded: true
       items: 
       - name: Technical overviews
         items:
@@ -55,6 +56,7 @@
         - name: Surface Laptop SE for Education
           href: https://www.microsoft.com/surface/business/surface-laptop-se
     - name: Plan
+      expanded: true
       items: 
         - name: Surface device compatibility with Windows 10 Long-Term Servicing Branch
           href: surface-device-compatibility-with-windows-10-ltsc.md
@@ -65,6 +67,7 @@
         - name: Surface System SKU reference
           href: surface-system-sku-reference.md
     - name: Deploy & manage
+      expanded: true
       items: 
       - name: Surface supported operating systems
         href: https://support.microsoft.com/surface/surface-supported-operating-systems-9559cc3c-7a38-31b6-d9fb-571435e84cd1
@@ -187,6 +190,7 @@
         - name: Surface Slim Pen 2 haptics dev notes
           href: surface-slim-pen2-haptics-dev-notes.md
     - name: Troubleshoot
+      expanded: true
       items: 
         - name: Top support solutions for Surface devices
           href: support-solutions-surface.md
@@ -197,6 +201,7 @@
         - name: Contact Surface Support
           href: contact-surface-support.md
     - name: Warranty & service
+      expanded: true
       items: 
         - name: Surface driver and firmware lifecycle for Windows-based devices
           href: surface-driver-firmware-lifecycle-support.md     

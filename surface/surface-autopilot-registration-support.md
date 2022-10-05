@@ -18,7 +18,7 @@ appliesto:
 ---
 # Surface Registration Support for Windows Autopilot
 
-A simplified process of registering Surface devices for Windows Autopilot deployment is now available from Microsoft Support. Beginning September 2020, customers and Microsoft Cloud Solution Providers (CSPs) can register Surface devices by submitting requests to Microsoft Support. This page outlines the requirements for the following supported Autopilot registration scenarios:
+A simplified process of registering Surface devices for Windows Autopilot deployment is now available from Microsoft Support. Customers and Microsoft Cloud Solution Providers (CSPs) can register Surface devices by submitting requests to Microsoft Support. This page outlines the requirements for the following supported Autopilot registration scenarios:
  
 - **Surface Device Autopilot Registration**. Submits request to register Surface devices into Windows Autopilot.
 - **Surface Device Hardware Hash Request.** Submits request to Microsoft Support to provide you with hardware hashes that customers or CSPs can use to self-register devices via Microsoft Intune or the Microsoft Partner Center.

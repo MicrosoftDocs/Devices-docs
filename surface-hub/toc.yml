@@ -130,13 +130,15 @@
         - name: How Surface Hub addresses Wi-Fi Direct security issues
           href: surface-hub-wifi-direct.md
     - name: Troubleshoot
-      items: 
+      items:   
         - name: Surface Hub Update History
           href: surface-hub-update-history.md      
         - name: Recover and reset Surface Hub 2S
           href: surface-hub-2s-recover-reset.md
         - name: Collect Surface Hub log files  
           href: collect-surface-hub-log-files.md 
+        - name: Troubleshoot Surface Hub 2S Power Issues
+          href: troubleshoot-power-surface-hub-2s.md		  		  
         - name: Troubleshoot Teams sign-in issues on Surface Hub
           href: troubleshoot-teams-sign-in-surface-hub.md  
         - name: Surface Hub return to the office video series 
