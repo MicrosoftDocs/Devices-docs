@@ -26,6 +26,8 @@ landingContent:
     linkLists:
       - linkListType: whats-new
         links:
+          - text: Recommended peripherals for new Surface devices
+            url: surface-recommended-peripherals.md
           - text: Surface Laptop Go 2 overview
             url: surface-laptop-go-2.md
           - text: Surface Management Portal
@@ -35,9 +37,7 @@ landingContent:
           - text: OS choice for new Surface devices
             url: surface-os-choice.md
           - text: Surface Pro 8 for Business 
-            url: https://www.microsoft.com/surface/business/surface-pro-8   
-          - text: Surface Pro X for Business
-            url: https://www.microsoft.com/surface/business/surface-pro-x              
+            url: https://www.microsoft.com/surface/business/surface-pro-8           
           - text: Surface Laptop Studio for Business 
             url: https://www.microsoft.com/surface/business/surface-laptop-studio
           - text: Surface Go 3 for Business 
