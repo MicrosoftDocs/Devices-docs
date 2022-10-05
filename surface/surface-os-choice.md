@@ -21,11 +21,16 @@ appliesto:
 
 Commercial customers can choose to have Windows 10 or Windows 11 installed on new Surface devices:
 
+- [Surface Pro 9](surface-pro-9-overview.md)
+- [Surface Laptop 5](surface-laptop-5-overview.md)
 - [Surface Laptop Go 2](https://www.microsoft.com/surface/business/surface-laptop-go-2)
 - [Surface Laptop 4](https://www.microsoft.com/surface/business/surface-laptop-4)
 - [Surface Pro 8](https://www.microsoft.com/surface/business/surface-pro-8)
 - [Surface Laptop Studio](https://www.microsoft.com/surface/business/surface-laptop-studio)
 - [Surface Go 3](https://www.microsoft.com/surface/business/surface-go-3)
+
+> [!NOTE]
+> Surface Pro 9 is available for Windows 10. Surface Pro 9 with 5G is available for Windows 11 only. 
 
 ## Considerations for choosing your OS
 
