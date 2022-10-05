@@ -84,7 +84,7 @@ Depending on your environment, you may need to configure more settings. For exam
 
 #### Configure Edge policy settings
 
-To enable a more seamless experience that avoids users having to approve the microphone and camera for each Hub session, you can configure the following Edge policies via Microsoft Endpoint Manager. To learn more, see [Create a device profile in Microsoft Intune](mem/intune/configuration/device-profile-create).
+To enable a more seamless experience that avoids users having to approve the microphone and camera for each Hub session, you can configure the following Edge policies via Microsoft Endpoint Manager. To learn more, see [Create a device profile in Microsoft Intune](/mem/intune/configuration/device-profile-create).
 
 | Microsoft Edge policy setting                                                 | Location                                                                                                  | Notes                                                                                                   |
 | ----------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
