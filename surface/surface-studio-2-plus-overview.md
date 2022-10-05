@@ -1,6 +1,6 @@
 ---
 title: Surface Studio 2+ overview
-description: This article provides an overview of the new Surface Laptop 5.
+description: This article provides an overview of the new Surface Surface Studio 2+.
 ms.prod: w11
 ms.mktglfcycl: manage
 ms.localizationpriority: medium
