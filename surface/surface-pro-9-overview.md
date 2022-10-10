@@ -20,6 +20,10 @@ appliesto:
 # Surface Pro 9 overview
 
 
+:::image type="content" source="surface-pro-9.png" alt-text="Surface Pro 9" :::
+
+
+
 ## Table 1. Surface Pro 9 commercial tech specs
 
 | Feature                                                    | Surface Pro 9                                                                                                                                                                                                                                                                                                                                                                  | Surface Pro 9 with 5G                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
