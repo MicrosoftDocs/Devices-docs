@@ -20,7 +20,7 @@ appliesto:
 # Surface Pro 9 overview
 
 
-:::image type="content" source="surface-pro-9.png" alt-text="Surface Pro 9" :::
+:::image type="content" source="images/surface-pro-9.png" alt-text="Surface Pro 9" :::
 
 
 
