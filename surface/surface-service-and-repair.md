@@ -1,6 +1,6 @@
 ---
-title: Surface repairability
-description: This article explains how Surface devices are designed for repairability. 
+title: Surface service and repair
+description: This article explains how Surface devices are designed te enable service and repair. repairability. 
 ms.prod: w10
 ms.mktglfcycl: manage
 ms.localizationpriority: medium
@@ -17,4 +17,4 @@ appliesto:
 - Windows 11
 ---
 
-# Surface repairability
+# Surface service and repair
