@@ -175,6 +175,8 @@
           href: maintain-optimal-power-settings-on-Surface-devices.md  
         - name: Surface DMA Protection
           href: dma-protect.md
+         -name: Surface Surface repairability 
+          href: surface-repairability.md
         - name: Best practices for SSD removal in compatible Surface devices
           href: surface-ssd-removal-guide.md   
         - name: Considerations for Surface and Endpoint Configuration Manager
