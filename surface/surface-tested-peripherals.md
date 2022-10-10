@@ -1,6 +1,6 @@
 ---
 title: Recommended peripherals for new Surface devices 
-description: This page lists the results of extensive testing for external monitors, docks, cables, and adapters for the latest Surface devices, including Surface Pro 9, Surface Pro 9 with 5G, and Surface Studio 2 +. 
+description: This page lists the results of extensive testing for external monitors, docks, cables, and adapters for Surface Pro 9 and Surface Pro 9 with 5G.
 ms.prod: w10
 ms.mktglfcycl: manage
 ms.localizationpriority: medium
@@ -19,7 +19,7 @@ appliesto:
 
 # Surface tested peripherals
 
-Surface engineering have tested various external monitors, docks, cables, and adapters to bring you the best experiences on Surface Pro 9 and Surface Pro 9 with 5G. See Tables 9-15 below for tested peripherals across port connections including Surface Connect, USB-C, Display Port, HDMI, Thunderbolt.
+Surface engineering has tested various external monitors, docks, cables, and adapters to bring you the best experiences on Surface Pro 9 and Surface Pro 9 with 5G. See Tables 9-15 below for tested peripherals across port connections including Surface Connect, USB-C, Display Port, HDMI, Thunderbolt.
 
 > [!NOTE]
 > The testing results shown here cover popular in-market peripherals but are not intended to be comprehensive. Many peripherals not shown here may still function as expected. Based on our research, we estimate that customers will have a generally positive experience with these peripherals. Testing took place Aug-Oct 2022 and is continuing for other devices across the Surface family.
@@ -36,7 +36,7 @@ Surface engineering have tested various external monitors, docks, cables, and ad
 | ------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------- |
 | - ASUS PA247CV<br>- ASUS PA247CV<br>- Dell C2422HE<br>- Dell P2720DC<br>- Dell P2721Q<br>- Dell U2720Q<br>- Dell U3421WE<br>- LG 27UL850-W | - ASUS PA247CV<br>- ASUS PA27A<br>- ASUS VG279QM<br>- BenQ PD3220U<br>- Dell C2422HE<br>- Dell P2720DC<br>- Dell P2721Q<br>- Dell U2720Q<br>- Dell U3421WE<br>- HP X24iH<br>- LG 27UL850-W | - HP X24iH<br>- Viewsonic VA2447-MH |
 
-NOTE: Surface Pro 9 with 5G does not support daisy-chaining monitors.
+NOTE: Surface Pro 9 with 5G doesn't support daisy-chaining monitors.
 
 
 ### Table 10. Tested docks for Surface Pro 9 with 5G
