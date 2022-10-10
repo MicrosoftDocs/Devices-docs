@@ -19,7 +19,7 @@ appliesto:
 
 # Surface Laptop 5 overview
 
-## Table 1 Surface Laptop 5 tech specs
+## Surface Laptop 5 tech specs
 
 
 | Feature                                    | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
