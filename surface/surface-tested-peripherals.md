@@ -1,5 +1,5 @@
 ---
-title: Recommended peripherals for new Surface devices 
+title: Tested peripherals for new Surface devices
 description: This page lists the results of extensive testing for external monitors, docks, cables, and adapters for Surface Pro 9 and Surface Pro 9 with 5G.
 ms.prod: w10
 ms.mktglfcycl: manage
@@ -17,7 +17,7 @@ appliesto:
 - Windows 11
 ---
 
-# Surface tested peripherals
+# Tested peripherals for new Surface devices
 
 Surface engineering has tested various external monitors, docks, cables, and adapters to bring you the best experiences on Surface Pro 9 and Surface Pro 9 with 5G. See Tables 9-15 below for tested peripherals across port connections including Surface Connect, USB-C, Display Port, HDMI, Thunderbolt.
 

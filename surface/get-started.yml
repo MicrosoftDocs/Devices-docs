@@ -26,8 +26,8 @@ landingContent:
     linkLists:
       - linkListType: whats-new
         links:
-          - text: Recommended peripherals for new Surface devices
-            url: surface-recommended-peripherals.md
+          - text: Tested peripherals for new Surface devices
+            url: surface-tested-peripherals.md
           - text: Surface Laptop Go 2 overview
             url: surface-laptop-go-2.md
           - text: Surface Management Portal
