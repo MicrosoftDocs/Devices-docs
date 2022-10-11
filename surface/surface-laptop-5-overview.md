@@ -21,6 +21,23 @@ appliesto:
 
 :::image type="content" source="images/surface-laptop-5-for-business.png" alt-text="Surface Laptop 5 for Business" :::
 
+The modern workplace has changed in the last few years. Employees need high-performance devices they can set up wherever they work, that still have the guts to get everything done. Keeping connections strong with a dispersed workforce is a massive challenge. Especially in highly collaborative teams, technology must facilitate building and maintaining strong connections with colleagues and customers alike.
+
+With ultra-fast performance, sleek portability, an enhanced camera for more engaging video calls, Surface Laptop 5 keeps you connected and engaged with Windows 11 interactive features, high-quality cameras, Omnisonic® speakers, and Microsoft 365 apps that are optimized for the Surface signature 3:2 screen ratio.
+
+## Superpowered for serious productivity
+
+- Lightning-fast performance and multitasking power comes from 12th Intel® Core™ i5 and i7 processors, now built on the Intel Evo platform. Employees can connect to external monitors and charge their devices simultaneously with USB-C and Thunderbolt™ 4 connecting to up to two 4k monitors at 60Hz to deliver superfast connections.
+- Surface Laptop 5 is the perfect device for high achievers, power users, and executive talent: Users who need high-powered apps and intensive multitasking and professionals who take video calls, co-author presentations, and run analytical models simultaneously
+
+## Deploy, manage, and stay secure from anywhere
+
+- Give IT peace of mind knowing that your company, customer, and employee data are safe and secured with a Windows 11 Secured-core PC. Surface customers save time and money with streamlined deployment, modern device management, and built-in, cloud-powered security. Empower people, data, and systems with connected experiences from Surface and Microsoft 365.
+- Secured-core PCs are the most secure Windows 11 devices for workers handling the most sensitive data. Secured-core PCs are designed to elevate the benefits of Windows 11 security, providing additional hardware and software protection for workers that handle the most sensitive data in your organization.
+- More control with cloud-first device deployment and management. Deploy and manage down to the firmware layer through the cloud with Microsoft Endpoint Manager and DFCI. Every Surface ships with Windows Autopilot, reducing IT complexity by deploying straight to your employees.
+- Get more out of your device with more components that are replaceable. Major components in Surface Laptop 5, including the display module, keyboard assembly, battery, storage, and more, are replaceable through a network of approved service providers.
+- Make the most of your investment in Microsoft 3653 with the essential foundation of Windows 10 or Windows 11 Pro, the protection of Microsoft Enterprise Mobility + Security, and the suite of Office 3654 productivity apps you rely on every day.
+
 ## Surface Laptop 5 tech specs
 
 | Feature                                    | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |

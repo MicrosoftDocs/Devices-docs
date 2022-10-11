@@ -20,7 +20,28 @@ appliesto:
 
 :::image type="content" source="images/surface-studio-2-plus-for-business.png" alt-text="Surface Studio 2+ for Business" :::
 
-## Surface Studio 2+ tech specs
+Surface Studio 2+ is a new type of business PC that offers inspiring design in both customer-facing scenarios and high-level workspaces. Over the last few years, we've seen massive changes in the workplace, and the hybrid workplace is one of them.
+ 
+Featuring a 28" touchscreen laptop with a digital pen and a Zero Gravity Hinge, Surface Studio 2+ is designed to allow professionals to work their way, whether they are creatives, multitaskers, collaborators, or data-rich dashboard users. Surface Studio 2+ provides impactful design, versatile form factors, high performance, and advanced security features to help teams drive productivity, build closer connections, and collaborate freely.
+ 
+Executives and advanced professionals need high-productivity, high-powered devices with great remote collaboration and connectivity features.
+ 
+- The 11th Intel® Core™ i7-11375H processor gives employees the power they need for multitasking or high-powered apps. 
+- The NVIDIA® GeForce RTX® 3060 Laptop GPU provides the best GPU of any Surface device and features the latest RT Cores, Tensor Cores, and streaming multiprocessors.
+- Improved camera experience for conferencing and auto color management for display
+- Multiple ports help your employees craft the workspace they need to perform, with 3 USB-C ports , Thunderbolt™ 4, native external display support for up to three 4K UHD displays at 60Hz
+- Your sensitive data is protected with Secured-core PCs on Windows 11, making them the most secure Windows PC
+- Get more out of your device with more replaceable components. Major components in Surface Studio 2+ including the display module, feet, SSD module, PSU, thermal module, motherboard, are replaceable or repairable through a network of approved service providers.
+
+## Explore Surface devices
+
+- [Explore Surface: Interactive tour](https://surfacestories.exploresurface.com)
+
+## Order Surface Pro 9 for Business
+
+- [Order Surface Pro 9 for Business](https://www.microsoft.com/surface/business/surface-studio-2-plus)
+ 
+### Surface Studio 2+ tech specs
 
 | Feature                                                                                                                                           | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | ------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
