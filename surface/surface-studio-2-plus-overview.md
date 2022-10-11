@@ -74,7 +74,7 @@ Executives and advanced professionals need high-productivity, high-powered devic
 3. Requires Dolby Atmos® encoded content and video.
 4. Sold separately.
 5. Requires license or subscription (sold separately) to activate and use.
-6. Activation required. If your device is managed by your organization’s IT department, contact your IT administrator for activation. If you activate your trial outside your organization, after 30 days, you'll be charged the applicable monthly or annual subscription fee. Credit card required. Cancel anytime to stop future charges. See [https://aka.ms/m365businesstrialinfo](https://aka.ms/m365businesstrialinfo).
+6. Activation required. If your device is managed by your organization’s IT department, contact your IT administrator for activation. If you activate your trial outside your organization, after 30 days, you'll be charged the applicable monthly or annual subscription fee. Credit card required. Cancel anytime to stop future charges.
 7. Customer Replaceable Units (CRUs) are components available for purchase through your Surface Commercial Authorized Device Reseller. Components can be replaced on-site by a skilled technician following Microsoft’s Service Guide. Opening and/or repairing your device can present electric shock, fire and personal injury risks and other hazards. Use caution if undertaking do-it-yourself repairs. Device damage caused during repair won't be covered under Microsoft’s Hardware Warranty or protection plans. Components will be available shortly after initial launch; timing of availability varies by component and market.
 8. Microsoft’s Limited Warranty is in addition to your consumer law rights.
 
