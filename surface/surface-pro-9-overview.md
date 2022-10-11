@@ -19,10 +19,23 @@ appliesto:
 
 # Surface Pro 9 overview
 
-
 :::image type="content" source="images/surface-pro-9.png" alt-text="Surface Pro 9" :::
 
+Surface 2-in-1s combine the benefits of a laptop and tablet into one hyper-mobile package, with the ability to stay connected wherever that work happens. They are grounded in some important core principles: timeless design, versatile form factors, high performance, and best-in-class integration with Windows and Microsoft 365. Get the tablet flexibility you want and laptop performance you need.
 
+Surface Pro 9 is our most powerful Pro ever, now featuring a choice of silicon and connectivity to help professionals get the best experience for their needs. Whether you’re docked at your desk and require the highest performance for intense workloads, or need 5G connectivity for the field, there’s a Surface Pro 9 for you.
+
+Get powerful performance with 12th Gen Intel® Core™ processors built on the Intel® Evo™ platform to run productivity tools, creative apps and Thunderbolt™ 4 ports. From CAD files to Excel spreadsheets, your employees get pro-level performance with 12th Gen Intel® Core™ processors built on the Intel® Evo™ platform.27 This device is great for your finance pros, sales reps, mobile engineers, and case workers.
+
+For on-the-go professionals looking to supercharge their work with our AI-powered Neural Processing Unit (NPU), opt for the latest generation Microsoft SQ®3 powered by Qualcomm Snapdragon. With instant mobile 5G access, superior multitasking capabilities, and longer battery life, there’s no simply nothing holding you back. Perfect in the hands of a real estate agent, highly mobile engineers or technicians, or people leading worksites.
+
+## Explore Surface
+
+- [Explore Surface: Interactive tour](https://surfacestories.exploresurface.com)
+
+## Order Surface Pro 9 for Business
+
+- [Order Surface Pro 9 for Business](https://www.microsoft.com/surface/business/surface-pro-9)
 
 ## Table 1. Surface Pro 9 commercial tech specs
 
@@ -51,7 +64,6 @@ appliesto:
 | **What's in the box**                             | - Surface Pro 9<br>- Power Supply<br>- Quick Start Guide<br>- Safety and warranty documents<br>-                                                                                                                                                                                                                                                                               | - Surface Pro 9 with 5G<br>- Power Supply<br>- Quick Start Guide<br>- Safety and warranty documents<br>- SIM Card access tool                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | **Warranty**<sup>17</sup>                                  | - One-year  Microsoft limited hardware warranty                                                                                                                                                                                                                                                                                                                                   | - One-year Microsoft limited hardware warranty                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 
- 
 ## References
 
 1. System software and updates use significant storage space. Available storage is subject to change based on system software and updates and apps usage. 1 GB = 1 billion bytes. 1 TB = 1,000 GB. See Surface Storage for more details.
@@ -61,14 +73,13 @@ appliesto:
 5. Weight not including Surface Pro Signature Keyboard and Surface Slim Pen 2 (sold separately).
 6. Battery life varies significantly based on usage, network and feature configuration, signal strength, settings and other factors. See [aka.ms/SurfaceBatteryPerformance for details.
 7. Requires Dolby Vision® encoded content and video.
-8. eSIM support may vary by carrier. Individual device activation for eSIM is supported, however bulk activations leveraging eSIM on devices with Windows 10 aren't currently available. 
+8. eSIM support may vary by carrier. Individual device activation for eSIM is supported, however bulk activations leveraging eSIM on devices with Windows 10 aren't currently available.
 9. 5G not available in all areas, mmWave in US only. Supports Sub-6 GHz, not available in all areas; compatibility and performance depend on carrier network, plan and other factors. See carrier for details and pricing.
 10. Surface Slim Pen 2 sold separately.
 11. Tactile signals with Surface Slim Pen 2 can be experienced on some applications on Surface B&P running Windows 11.
-12. Activation required. If your device is managed by your organization’s IT department, contact your IT administrator for activation. After 30 days, you'll be charged the applicable monthly or annual subscription fee. Credit card required. Cancel anytime to stop future charges. See https://aka.ms/m365businesstrialinfo. 
-13. Activation required. If your device is managed by your organization’s IT department, contact your IT administrator for activation. After 30 days, you'll be charged the applicable monthly or annual subscription fee. Credit card required. Cancel anytime to stop future charges. See [https://aka.ms/m365businesstrialinfo](https://aka.ms/m365businesstrialinfo). 
+12. Activation required. If your device is managed by your organization’s IT department, contact your IT administrator for activation. After 30 days, you'll be charged the applicable monthly or annual subscription fee. Credit card required. Cancel anytime to stop future charges. See [https://aka.ms/m365businesstrialinfo](https://aka.ms/m365businesstrialinfo).
+13. Activation required. If your device is managed by your organization’s IT department, contact your IT administrator for activation. After 30 days, you'll be charged the applicable monthly or annual subscription fee. Credit card required. Cancel anytime to stop future charges. See [https://aka.ms/m365businesstrialinfo](https://aka.ms/m365businesstrialinfo).
 14. Surface Pro 9 with 5G comes with Windows 11 Pro on ARM processor. At this time, Surface Pro 9 with 5G with Windows 11 Pro on ARM processor won't install some games and CAD software, and some third-party drivers or anti-virus software. Certain features require specific hardware (see [aka.ms/windows11-spec](aka.ms/windows11-spec)). Find out more in the [FAQ](surface-pro-arm-app-performance.md).
 15. Customer Replaceable Units (CRUs) are components available for purchase through your Surface Commercial Authorize Device Reseller. Components can be replaced on-site by a skilled technician following Microsoft’s Service Guide. Opening and/or repairing your device can present electric shock, fire and personal injury risks and other hazards. Use caution if undertaking do-it-yourself repairs. Device damage caused during repair won't be covered under Microsoft’s Hardware Warranty or protection plans. Components will be available shortly after initial launch; timing of availability varies by component and market.
 16. Colors available on selected models only. Available colors, sizes, finishes, and processors may vary by store, market, and configuration.
 17. Microsoft’s Limited Warranty is in addition to your consumer law rights. See also: [Surface Warranty, Service Offerings & Support Plans – Microsoft Surface for Business](https://www.microsoft.com/surface/business/warranty-service-offerings-and-support) [Warranties.](https://support.microsoft.com/topic/warranties-extended-service-plans-and-terms-conditions-for-your-device-eedf7a23-84a7-1a47-480b-0e10503eedf5)
-

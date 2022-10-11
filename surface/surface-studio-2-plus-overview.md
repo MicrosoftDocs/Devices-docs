@@ -13,7 +13,6 @@ ms.reviewer: hachidan
 manager: laurawi
 audience: itpro
 appliesto:
-- Windows 10
 - Windows 11
 ---
 
