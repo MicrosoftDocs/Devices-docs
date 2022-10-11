@@ -19,6 +19,8 @@ appliesto:
 
 # Surface Laptop 5 overview
 
+:::image type="content" source="images/surface-laptop-5.png" alt-text="Surface Laptop 5" :::
+
 ## Surface Laptop 5 tech specs
 
 
