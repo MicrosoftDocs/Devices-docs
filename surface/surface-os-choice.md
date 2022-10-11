@@ -68,6 +68,8 @@ Devices ship from the factory with one of the following OS versions, depending o
 | Surface Laptop Studio | 20H2       | 21H2       |
 | Surface Go 3          | 20H2       | 21H2       |
 | Surface Pro 8         | 20H2       | 21H2       |
+| Surface Pro 9         | 20H2       | 22H2       |
+| Surface Laptop 5        20H2       | 22H2       |
 
 ## How to order
 
