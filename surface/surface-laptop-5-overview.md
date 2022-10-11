@@ -36,7 +36,7 @@ With ultra-fast performance, sleek portability, an enhanced camera for more enga
 - Secured-core PCs are the most secure Windows 11 devices for workers handling the most sensitive data. Secured-core PCs are designed to elevate the benefits of Windows 11 security, providing additional hardware and software protection for workers that handle the most sensitive data in your organization.
 - More control with cloud-first device deployment and management. Deploy and manage down to the firmware layer through the cloud with Microsoft Endpoint Manager and DFCI. Every Surface ships with Windows Autopilot, reducing IT complexity by deploying straight to your employees.
 - Get more out of your device with more components that are replaceable. Major components in Surface Laptop 5, including the display module, keyboard assembly, battery, storage, and more, are replaceable through a network of approved service providers.
-- Make the most of your investment in Microsoft 3653 with the essential foundation of Windows 10 or Windows 11 Pro, the protection of Microsoft Enterprise Mobility + Security, and the suite of Office 3654 productivity apps you rely on every day.
+- Make the most of your investment in Microsoft 365 with the essential foundation of Windows 10 or Windows 11 Pro, the protection of Microsoft Enterprise Mobility + Security, and the suite of Office 3654 productivity apps you rely on every day.
 
 ## Explore Surface devices
 
