@@ -21,13 +21,13 @@ appliesto:
 
 :::image type="content" source="images/surface-pro-9.png" alt-text="Surface Pro 9" :::
 
-Surface 2-in-1s combine the benefits of a laptop and tablet into one hyper-mobile package, with the ability to stay connected wherever that work happens. They are grounded in some important core principles: timeless design, versatile form factors, high performance, and best-in-class integration with Windows and Microsoft 365. Get the tablet flexibility you want and laptop performance you need.
+Surface 2-in-1s combine the benefits of a laptop and tablet into one hyper-mobile package, with the ability to stay connected wherever that work happens. They're grounded in some important core principles: timeless design, versatile form factors, high performance, and best-in-class integration with Windows and Microsoft 365. Get the tablet flexibility you want and laptop performance you need.
 
 Surface Pro 9 is our most powerful Pro ever, now featuring a choice of silicon and connectivity to help professionals get the best experience for their needs. Whether you’re docked at your desk and require the highest performance for intense workloads, or need 5G connectivity for the field, there’s a Surface Pro 9 for you.
 
 Get powerful performance with 12th Gen Intel® Core™ processors built on the Intel® Evo™ platform to run productivity tools, creative apps and Thunderbolt™ 4 ports. From CAD files to Excel spreadsheets, your employees get pro-level performance with 12th Gen Intel® Core™ processors built on the Intel® Evo™ platform.27 This device is great for your finance pros, sales reps, mobile engineers, and case workers.
 
-For on-the-go professionals looking to supercharge their work with our AI-powered Neural Processing Unit (NPU), opt for the latest generation Microsoft SQ®3 powered by Qualcomm Snapdragon. With instant mobile 5G access, superior multitasking capabilities, and longer battery life, there’s no simply nothing holding you back. Perfect in the hands of a real estate agent, highly mobile engineers or technicians, or people leading worksites.
+For on-the-go professionals looking to supercharge their work with our AI-powered Neural Processing Unit (NPU), opt for the latest generation Microsoft SQ®3 powered by Qualcomm Snapdragon. With instant mobile 5G access, superior multitasking capabilities, and longer battery life, there’s no nothing holding you back. Perfect in the hands of a real estate agent, highly mobile engineers or technicians, or people leading worksites.
 
 ## Explore Surface
 
