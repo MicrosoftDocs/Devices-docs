@@ -25,9 +25,7 @@ landingContent:
   - title: Surface devices
     linkLists:
       - linkListType: whats-new
-        links:
-          - text: Tested peripherals for new Surface devices
-            url: surface-tested-peripherals.md
+        links:  
           - text: Surface Laptop Go 2 overview
             url: surface-laptop-go-2.md
           - text: Surface Management Portal
