@@ -38,6 +38,15 @@ With ultra-fast performance, sleek portability, an enhanced camera for more enga
 - Get more out of your device with more components that are replaceable. Major components in Surface Laptop 5, including the display module, keyboard assembly, battery, storage, and more, are replaceable through a network of approved service providers.
 - Make the most of your investment in Microsoft 3653 with the essential foundation of Windows 10 or Windows 11 Pro, the protection of Microsoft Enterprise Mobility + Security, and the suite of Office 3654 productivity apps you rely on every day.
 
+## Explore Surface devices
+
+- [Explore Surface: Interactive tour](https://surfacestories.exploresurface.com)
+
+## Order Surface Laptop 5 for Business
+
+- [Order Surface Pro 9 for Business](https://www.microsoft.com/surface/business/surface-laptop-5)
+
+
 ## Surface Laptop 5 tech specs
 
 | Feature                                    | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
