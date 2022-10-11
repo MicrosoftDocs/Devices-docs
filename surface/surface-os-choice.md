@@ -8,7 +8,7 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 08/24/2022
+ms.date: 10/12/2022
 ms.reviewer: oayakta
 manager: laurawi
 audience: itpro
@@ -65,11 +65,11 @@ Devices ship from the factory with one of the following OS versions, depending o
 | --------------------- | ---------- | ---------- |
 | Surface Laptop Go 2   | 21H2       | 21H2       |
 | Surface Laptop 4      | 21H2       | 21H2       |
-| Surface Laptop Studio | 20H2       | 21H2       |
-| Surface Go 3          | 20H2       | 21H2       |
-| Surface Pro 8         | 20H2       | 21H2       |
-| Surface Pro 9         | 20H2       | 22H2       |
-| Surface Laptop 5      | 20H2       | 22H2       |
+| Surface Laptop Studio | 21H2       | 21H2       |
+| Surface Go 3          | 21H2       | 21H2       |
+| Surface Pro 8         | 21H2       | 21H2       |
+| Surface Pro 9         | 21H2       | 22H2       |
+| Surface Laptop 5      | 21H2       | 22H2       |
 
 ## How to order
 
