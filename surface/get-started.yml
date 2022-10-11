@@ -26,22 +26,14 @@ landingContent:
     linkLists:
       - linkListType: whats-new
         links:
-          - text: Surface Laptop Go 2 overview
-            url: surface-laptop-go-2.md
+          - text: Check out the new Surface devices
+            url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/new-surface-devices/ba-p/1721766
           - text: Surface Management Portal
             url: surface-management-portal.md
           - text: Which Surface devices can be upgraded to Windows 11?
             url: https://support.microsoft.com/surface/which-surface-devices-can-be-upgraded-to-windows-11-76c3c125-82e0-4d1e-9550-12ed09f9058e
           - text: OS choice for new Surface devices
-            url: surface-os-choice.md
-          - text: Surface Pro 8 for Business 
-            url: https://www.microsoft.com/surface/business/surface-pro-8   
-          - text: Surface Pro X for Business
-            url: https://www.microsoft.com/surface/business/surface-pro-x              
-          - text: Surface Laptop Studio for Business 
-            url: https://www.microsoft.com/surface/business/surface-laptop-studio
-          - text: Surface Go 3 for Business 
-            url: https://www.microsoft.com/surface/business/surface-go-3           
+            url: surface-os-choice.md         
           - text: Explore all Surface family products
             url: https://www.microsoft.com/surface/business
   
