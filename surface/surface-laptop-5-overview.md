@@ -19,7 +19,7 @@ appliesto:
 
 # Surface Laptop 5 overview
 
-:::image type="content" source="images/surface-laptop-5.png" alt-text="Surface Laptop 5" :::
+:::image type="content" source="images/surface-laptop-5-for-business.png" alt-text="Surface Laptop 5 for Business" :::
 
 ## Surface Laptop 5 tech specs
 
@@ -54,7 +54,7 @@ appliesto:
 ### References
 
 1. System software and updates use significant storage space. Available storage is subject to change based on system software and updates and apps usage. 1 GB = 1 billion bytes. 1 TB = 1,000 GB. See Surface.com/Storage for more details.
-2. .Customer Replaceable Units (CRUs) are components available for purchase through your Surface Commercial Authorize Device Reseller. Components can be replaced on-site by a skilled technician following Microsoft’s Service Guide. Opening and/or repairing your device can present electric shock, fire and personal injury risks and other hazards. Use caution if undertaking do-it-yourself repairs. Device damage caused during repair will not be covered under Microsoft’s Hardware Warranty or protection plans. Components will be available shortly after initial launch; timing of availability varies by component and market.
+2. Customer Replaceable Units (CRUs) are components available for purchase through your Surface Commercial Authorize Device Reseller. Components can be replaced on-site by a skilled technician following Microsoft’s Service Guide. Opening and/or repairing your device can present electric shock, fire and personal injury risks and other hazards. Use caution if undertaking do-it-yourself repairs. Device damage caused during repair will not be covered under Microsoft’s Hardware Warranty or protection plans. Components will be available shortly after initial launch; timing of availability varies by component and market.
 3. Requires Dolby Vision® encoded content and video.
 4. Battery life varies significantly based on device configuration, usage, network and feature configuration, signal strength, settings and other factors. See aka.ms/SurfaceBatteryPerformance for details. 
 5. Requires Dolby® Atmos® encoded content/audio.
