@@ -210,9 +210,9 @@
           href: https://support.microsoft.com/products/surface-devices
         - name: Contact Surface Support
           href: contact-surface-support.md
-        - name: Warranty & service
+    - name: Warranty & service
       expanded: true
-      items: 
+      items:  
         - name: Surface driver and firmware lifecycle for Windows-based devices
           href: surface-driver-firmware-lifecycle-support.md     
         - name: Surface for Business warranty and protection plans
