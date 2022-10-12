@@ -19,7 +19,7 @@ appliesto:
 
 # Surface Laptop 5 overview
 
-:::image type="content" source="images/surface-laptop-5-for-business.png" alt-text="Surface Laptop 5 for Business" :::
+:::image type="content" source="images/surface-laptop-5-for-business.png" alt-text="Illustration that shows the Surface Laptop 5 for Business." :::
 
 The modern workplace has changed in the last few years. Employees need high-performance devices they can set up wherever they work, that still have the guts to get everything done. Keeping connections strong with a dispersed workforce is a massive challenge. Especially in highly collaborative teams, technology must facilitate building and maintaining strong connections with colleagues and customers alike.
 

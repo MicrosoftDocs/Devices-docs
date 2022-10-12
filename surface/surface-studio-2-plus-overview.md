@@ -18,7 +18,7 @@ appliesto:
 
 # Surface Studio 2+ overview
 
-:::image type="content" source="images/surface-studio-2-plus-for-business.png" alt-text="Surface Studio 2+ for Business" :::
+:::image type="content" source="images/surface-studio-2-plus-for-business.png" alt-text="Illustration that shows the Surface Studio 2+ for Business." :::
 
 Surface Studio 2+ is a new type of business PC that offers inspiring design in both customer-facing scenarios and high-level workspaces. Over the last few years, we've seen massive changes in the workplace, and the hybrid workplace is one of them.
  

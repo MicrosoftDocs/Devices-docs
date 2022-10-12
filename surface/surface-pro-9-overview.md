@@ -19,7 +19,7 @@ appliesto:
 
 # Surface Pro 9 overview
 
-:::image type="content" source="images/surface-pro-9.png" alt-text="Surface Pro 9" :::
+:::image type="content" source="images/surface-pro-9.png" alt-text="Illustration that shows the Surface Pro 9." :::
 
 Surface 2-in-1s combine the benefits of a laptop and tablet into one hyper-mobile package, with the ability to stay connected wherever that work happens. They're grounded in some important core principles: timeless design, versatile form factors, high performance, and best-in-class integration with Windows and Microsoft 365. Get the tablet flexibility you want and laptop performance you need.
 
