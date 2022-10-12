@@ -185,8 +185,8 @@
         items:          
         - name: Deploying, managing, & servicing Surface Pro X
           href: surface-pro-arm-app-management.md
-        - name: Surface Pro X app compatibility
-          href: surface-pro-arm-app-performance.md
+        - name: ARM-based Surface devices FAQ
+          href: surface-arm-faq.md
       - name: Accessories
         items:
         - name: Surface Slim Pen 2 haptics dev notes
