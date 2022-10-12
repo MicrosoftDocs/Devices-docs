@@ -19,7 +19,7 @@ appliesto:
 
 # Tested peripherals for new Surface devices
 
-Surface engineering has tested various external monitors, docks, cables, and adapters to bring you the best experience on select new Surface devices, starting with Surface Pro 9. See the tables below for tested peripherals across port connections including Surface Connect, USB-C, Display Port, HDMI, Thunderbolt.
+Surface engineering has tested various external monitors, docks, cables, and adapters to bring you the best experience on select new Surface devices, starting with Surface Pro 9. Expanded sections will include coverage for Surface Laptop 5 and Surface Studio 2+ in the weeks ahead.See the tables below for tested peripherals across port connections including Surface Connect, USB-C, Display Port, HDMI, Thunderbolt.
 
 > [!NOTE]
 > The testing results shown here cover popular in-market peripherals but are not intended to be comprehensive. Based on our research, we estimate customers will have a generally positive experience with these peripherals. Still, many peripherals not shown here may still function as expected.  Testing took place Aug-Oct 2022 and is continuing for other devices across the Surface family.
@@ -39,13 +39,13 @@ NOTE: Surface Pro 9 with 5G doesn't support daisy-chaining monitors.
 
 ### Table 2. Tested docks for Surface Pro 9 with 5G
 
-| USB-c                                | Surface Connect                      |
+| USB-C                                | Surface Connect                      |
 | ------------------------------------ | ------------------------------------ |
 | - Dell WD19DC<br>- Pluggable ULT-CDL | - Surface Dock 1<br>- Surface Dock 2 |
 
 ### Table 3. Tested cables for Surface Pro 9 with 5G
 
-| usb-c to USB-C         | Display Port to Display Port                                                                       | USB-c to Display Port                                                      | HDMI to HDMI            |
+| USB-C to USB-C         | Display Port to Display Port                                                                       | USB-C to Display Port                                                      | HDMI to HDMI            |
 | ---------------------- | -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- | ----------------------- |
 | - j5Create USB-C Cable | - CableMatters Display Port Cable<br>- Club3D Display Port Cable<br>- Monoprice Display Port Cable | - **Designed for Surface:** Moshi USB-C to Display Port Cable (99MO084102) | - BlueRigger HDMI Cable |
 
