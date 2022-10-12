@@ -65,7 +65,7 @@ Surface engineering has tested various external monitors, docks, cables, and ada
 | ---------------------- | ------------------------------------------------------ | -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- | ----------------------- |
 | - j5Create USB-C Cable | - Cable Matters 107032-BLK-0.8m<br>- SIIG CB-TB0011-S1 | - CableMatters Display Port Cable<br>- Club3D Display Port Cable<br>- Monoprice Display Port Cable | - **Designed for Surface:** Moshi USB-C to Display Port Cable (99MO084102) | - BlueRigger HDMI Cable |
 
-## Tested cables for Surface Pro 9 with 5G
+### Tested cables for Surface Pro 9 with 5G
 
 | USB-C to USB-C         | Display Port to Display Port                                                                       | USB-C to Display Port                                                      | HDMI to HDMI            |
 | ---------------------- | -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- | ----------------------- |
