@@ -46,6 +46,6 @@ If access has already been granted, this link will directly lead to the portal. 
 
 ## Learn more
 - Watch this [demo video](https://www.microsoft.com/videoplayer/embed/RE4Y55A).
-- Read the [walkthrough tutorial](https://docs.microsoft.com/surface/media/microsoft-hardware-support-portal-tutorial.pdf).
+- Read the [walkthrough tutorial](/media/microsoft-hardware-support-portal-tutorial.pdf).
 - Contact your Microsoft representative if you have more questions.
 
