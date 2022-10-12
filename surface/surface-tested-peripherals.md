@@ -19,10 +19,10 @@ appliesto:
 
 # Tested peripherals for new Surface devices
 
-Surface engineering has tested various external monitors, docks, cables, and adapters to bring you the best experience on select new Surface devices, starting with Surface Pro 9. Expanded sections will include coverage for Surface Laptop 5 and Surface Studio 2+ in the weeks ahead. See the tables below for tested peripherals across port connections including Surface Connect, USB-C, Display Port, HDMI, and Thunderbolt.
+Surface engineering has tested various external monitors, docks, cables, and adapters to bring you the best experience on select new Surface devices, starting with Surface Pro 9. See the tables below for tested peripherals across port connections including Surface Connect, USB-C, Display Port, HDMI, and Thunderbolt.
 
 > [!NOTE]
-> The testing results shown here cover popular in-market peripherals but are not intended to be comprehensive. Based on our research, we estimate customers will have a generally positive experience with these peripherals. Still, many peripherals not shown here may still function as expected.  Testing took place Aug-Oct 2022 and is continuing for other devices across the Surface family.
+> The testing results shown here cover popular in-market peripherals but are not intended to be comprehensive. Our research estimates that customers will have a generally positive experience with these peripherals. Still, many peripherals not shown here may function as expected. Testing took place Aug-Oct 2022 and continues for other devices across the Surface family. Expanded sections will include coverage for Surface Laptop 5 and Surface Studio 2+ in the weeks ahead.
 
 > [!TIP]
 > For the best experience, be sure to get the latest updates. To manage your options and see available updates, select  **Start > Settings > Windows Update**.
