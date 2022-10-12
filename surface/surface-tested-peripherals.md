@@ -53,9 +53,9 @@ NOTE: Surface Pro 9 with 5G doesn't support daisy-chaining monitors.
 
 ### Tested docks for Surface Pro 9 with 5G
 
-| USB-C                                | Surface Connect                      |
-| ------------------------------------ | ------------------------------------ |
-| - Dell WD19DC<br>- Pluggable ULT-CDL | - Surface Dock 1<br>- Surface Dock 2 |
+| Surface Connect                      | USB-C                                |  
+| ------------------------------------ | ------------------------------------ | 
+| - Surface Dock 1<br>- Surface Dock 2 | - Dell WD19DC<br>- Pluggable ULT-CDL | 
 
 
 ### Tested cables for Surface Pro 9
