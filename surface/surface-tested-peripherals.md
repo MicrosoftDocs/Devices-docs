@@ -42,7 +42,8 @@ Surface engineering has tested various external monitors, docks, cables, and ada
 | ------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------- |
 | - ASUS PA247CV<br>- ASUS PA247CV<br>- Dell C2422HE<br>- Dell P2720DC<br>- Dell P2721Q<br>- Dell U2720Q<br>- Dell U3421WE<br>- LG 27UL850-W | - ASUS PA247CV<br>- ASUS PA27A<br>- ASUS VG279QM<br>- BenQ PD3220U<br>- Dell C2422HE<br>- Dell P2720DC<br>- Dell P2721Q<br>- Dell U2720Q<br>- Dell U3421WE<br>- HP X24iH<br>- LG 27UL850-W | - HP X24iH<br>- Viewsonic VA2447-MH |
 
-NOTE: Surface Pro 9 with 5G doesn't support daisy-chaining monitors.
+> [!NOTE]
+> Surface Pro 9 with 5G doesn't support daisy-chaining monitors.
 
 ### Tested docks for Surface Pro 9
 
