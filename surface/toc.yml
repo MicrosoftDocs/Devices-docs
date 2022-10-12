@@ -165,6 +165,8 @@
           href: wake-on-power-for-surface.md  
       - name: Best practices
         items:  
+        - name: Tested peripherals for new Surface devices
+          href: surface-tested-peripherals.md
         - name: NFC support in Surface Go for Business
           href: surface-go-nfc-support.md
         - name: Optimize video conferencing on Surface devices
