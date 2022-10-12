@@ -43,15 +43,15 @@ conceptualContent:
     # Card 1
     - title: Surface overview
       links:
-        - url: /surface/surface-laptop-go-2
+        - url: https://www.microsoft.com/surface/business/surface-pro-9  
           itemType: concept
-          text: Surface Laptop Go 2      
-        - url: https://www.microsoft.com/surface/business/surface-pro-8
+          text: Surface Pro 9 for Business     
+        - url: https://www.microsoft.com/surface/business/surface-laptop-5    
           itemType: concept
-          text: Surface Pro 8 for Business      
-        - url: https://www.microsoft.com/surface/business
+          text: Surface Laptop 5 for Business      
+        - url: https://www.microsoft.com/surface/business/surface-studio-2-plus        
           itemType: concept
-          text: Explore all Surface family products
+          text: Surface Studio 2+ for Business
 
         # Card 2
     - title: Surface Hub overview
