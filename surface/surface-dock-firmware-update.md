@@ -61,7 +61,9 @@ This section describes how to manually install the firmware update on Surface Do
 > [!NOTE]
 > All current software, firmware, and drivers for the Surface Dock 2 can be found [here](https://www.microsoft.com/en-us/download/details.aspx?id=101317)
 
-2. Disconnect your Surface device from the Surface Dock, wait ~5 seconds, and then reconnect. The Surface Dock 1 Firmware Update will update the dock silently in background. The process can take a few minutes to complete and will continue even if interrupted.
+2. Disconnect your Surface device from the Surface Dock. The Surface Dock 1 Firmware Update will update the dock silently in the background. The process can take a few minutes to complete and will continue even if interrupted. While the update progresses, the green LED on the dock's Ethernet port will blink; when it no longer blinks after you disconnect your Surface, the new firmware should be in place.
+
+3. Reconnect the Surface to the Surface Dock. Steps listed below to monitor the upgrade using the registry and event log should work at this point.
 
 ## Monitor the Surface Dock 1 Firmware Update
 
@@ -69,7 +71,7 @@ This section is optional and provides an overview of how to monitor installation
 
 To monitor the update:
 
-1. Open Event Viewer, browse to **Windows Logs > Application**, and then under **Actions** in the right-hand pane click **Filter Current Log**, enter **SurfaceDockFwUpdate** next to **Event sources**, and then click **OK**.
+1. Open Event Viewer, browse to **Windows Logs > System**, and then under **Actions** in the right-hand pane click **Filter Current Log**, enter **SurfaceDockFwUpdate** next to **Event sources**, and then click **OK**.
 
 2. Type the following command at an elevated command prompt:
 
@@ -86,7 +88,7 @@ To monitor the update:
 5. When the update is complete, updated DWORD values will be displayed in the Windows Registry, corresponding to the current version of the tool. See the [Versions reference](#versions-reference) section in this article for details. For example:
 
     - Component10CurrentFwVersion 0x04ac3970 (78395760)
-    - Component20CurrentFwVersion 0x04915a70 (76634736)
+    - Component20CurrentFwVersion 0x04a1d570 (77714800)
 
 >[!TIP]
 >If you see "The description for Event ID xxxx from source SurfaceDockFwUpdate cannot be found" in event text, this is expected and can be ignored.
@@ -155,12 +157,12 @@ Successful completion of Surface Dock 1 Firmware Update results in new registry 
 
 | Log                              | Location                               | Notes                                                                                                                                                                                                         |
 | -------------------------------- | --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Surface Dock 1 Firmware Update log | Path needs to be specified (see note) | Earlier versions of this tool wrote events to Applications and Services Logs\Microsoft Surface Dock Updater.                                                                                                  |
+| Surface Dock 1 Firmware Update log | System event log, SurfaceDockFwUpdate | Earlier versions of this tool wrote events to Applications and Services Logs\Microsoft Surface Dock Updater.                                                                                                  |
 | Windows Device Install log       | %windir%\inf\setupapi.dev.log           | For more information about using Device Install Log, refer to [SetupAPI Logging](/windows-hardware/drivers/install/setupapi-logging--windows-vista-and-later-) documentation. |
 
 ### Table 2. Event log IDs for Surface Dock 1 Firmware Update
 
-Events are logged in the Application Event Log.  Note:  Earlier versions of this tool wrote events to Applications and Services Logs\Microsoft Surface Dock Updater.
+Events are logged in the System Event Log with the event source **SurfaceDockFwUpdate**.  Note:  Earlier versions of this tool wrote events to Applications and Services Logs\Microsoft Surface Dock Updater.
 
 | Event ID | Event type                                                           |
 | -------- | -------------------------------------------------------------------- |
@@ -176,10 +178,13 @@ Events are logged in the Application Event Log.  Note:  Earlier versions of this
 
 ## Troubleshooting tips
 
-- Completely disconnect power for Surface dock from the AC power to reset the Surface Dock.
-- Disconnect all peripherals except for the Surface Dock.
+### Monitoring Progress
+- After you disconnect your Surface device from the dock, the firmware update will begin. You can monitor progress by watching the green LED on the dock's Ethernet port. It will blink while the update is running and stop when it is complete. This can take a few minutes.
+- Completely disconnect the Surface Dock from the AC power to reset the Surface Dock after the LED stops blinking. When the dock is powered back up and your Surface is connected to it, you will see the updated version numbers in the registry and event log entries indicating status.
+
+### Solving Problems
+- Disconnect all peripherals except for the Surface Dock before updating.
 - Uninstall any current Surface Dock 1 Firmware Update and then install the latest version.
-- Ensure that the Surface Dock is disconnected, and then allow enough time for the update to complete as monitored via an LED in the Ethernet port of the dock. Wait until the LED stops blinking before you unplug Surface Dock from power.
 - Connect the Surface Dock to a different device to see if it is able to update the dock.
 
 ## Versions reference
