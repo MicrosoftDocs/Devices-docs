@@ -45,6 +45,6 @@ Customers can update their Surface Hub 2S devices to the 22H2 feature update thr
 
 Customers can update their Surface Hub v1 devices to the 22H2 feature update through Windows Update, or Windows Update for Business. An updated image for [the Surface Hub Recovery Tool](surface-hub-recovery-tool.md) is not available at this time.
 
-### Learn more
+## Learn more
 
 - [Surface Hub Update History](surface-hub-update-history.md)
