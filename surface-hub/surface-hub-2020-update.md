@@ -25,6 +25,7 @@ You can obtain the 22H2 version of Windows 10 Team using one of the following me
 
 - **Windows Update for Business**.
 - **Windows Update.** Availability varies by region/country, as noted in the following table:
+
 | Phase | Country/Region                            | Starting         |
 | ----- | ----------------------------------------- | ---------------- |
 | 1     | Canada, New Zealand, Belgium              | October 18 2022  |
