@@ -35,7 +35,7 @@ You can obtain the 22H2 version of Windows 10 Team using one of the following me
 
 ## Servicing Surface Hubs with Windows 10 Team Edition version 20H2 
 
-Full servicing support for [Windows 10 Team Edition version 20H2](https://support.microsoft.com/topic/november-12-2019-kb4525245-os-build-15063-2172-dfc81b85-11a6-54ef-4370-11408193419f) is scheduled to continue until May 9, 2023. Be sure to update your devices to the 22H2 version before this date to continue recieving Windows Updates.
+Full servicing support for [Windows 10 Team Edition version 20H2](https://support.microsoft.com/topic/november-12-2019-kb4525245-os-build-15063-2172-dfc81b85-11a6-54ef-4370-11408193419f) is scheduled to continue until May 9, 2023. Be sure to update your devices to the 22H2 version before this date to continue receiving Windows Updates.
 
 ### 2S devices 
 
