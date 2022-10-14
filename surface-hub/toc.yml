@@ -89,9 +89,9 @@
       items: 
         - name: Connect devices to Surface Hub 2S
           href: surface-hub-2s-connect.md        
-        - name: Install Windows 10 Team 2020 Update
+        - name: Install Windows 10 Team version 22H2
           href: surface-hub-2020-update.md
-        - name: Known issues - Windows 10 Team 2020 Update
+        - name: Known issues - Windows 10 Team
           href: surface-hub-2020-team-update-known-issues.md
         - name: Configure non Global admin accounts on Surface Hub
           href: surface-hub-2s-nonglobal-admin.md
