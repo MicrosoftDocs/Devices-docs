@@ -8,7 +8,7 @@ ms.sitesec: library
 author: mccoybot
 ms.author: brrecord
 ms.topic: article
-ms.date: 06/01/2022
+ms.date: 10/14/2022
 ms.reviewer: 
 manager: laurawi
 ms.audience: itpro
@@ -25,6 +25,7 @@ appliesto:
 - Surface Laptop 3
 - Surface Laptop 4
 - Surface Laptop 5
+- Surface Studio 2+
 - Windows 10
 - Windows 11
 
@@ -49,6 +50,7 @@ ms.custom:
 - Surface Laptop 3
 - Surface Laptop 4
 - Surface Laptop 5
+- Surface Studio 2+
 
 > [!WARNING]
 > Opening devices and replacing device components can present electric shock, device damage, fire, and personal injury risks, and other hazards.  Always use caution when you undertake such activities. Follow the safety precautions and procedures that are identified in the [rSSD Removal Guide for Enterprise](https://www.microsoft.com/download/100440). We recommend that you get professional assistance if you cannot follow the safety precautions and procedures that are specified in the "rSSD Removal Guide for Enterprise."
