@@ -42,10 +42,12 @@ Designed to be used with software-level mobile device management (MDM), DFCI ena
 ### Eligible devices
 
 - Surface Pro 8 (commercial SKUs only)
+- Surface Pro 9 (commercial SKUs only)
 - Surface Pro 7+ (commercial SKUs only)
 - Surface Pro 7 (all SKUs)
 - Surface Pro X (all SKUs)
 - Surface Laptop Studio (commercial SKUs only)
+- Surface Laptop 5 (commercial SKUs only)
 - Surface Laptop 4 (commercial SKUs only)
 - Surface Laptop 3 (Intel processors only)
 - Surface Laptop Go
@@ -53,6 +55,7 @@ Designed to be used with software-level mobile device management (MDM), DFCI ena
 - Surface Laptop SE
 - Surface Book 3
 - Surface Go 3 (commercial SKUs only)
+- Surface Studio 2+
 
 > [!NOTE]
 > Surface Pro X doesn't support DFCI settings management for built-in camera, audio, and Wi-Fi/Bluetooth. Some newer settings are only supported on the latest devices.
