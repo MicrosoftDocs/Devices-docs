@@ -47,4 +47,4 @@ Customers in all regions can update their Surface Hub v1 devices to the 22H2 fea
 
 ### Learn more
 
-- [Surface Hub Update History](https://learn.microsoft.com/en-us/surface-hub/surface-hub-update-history)
+- [Surface Hub Update History](surface-hub-update-history.md)
