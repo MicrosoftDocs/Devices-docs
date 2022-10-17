@@ -23,15 +23,15 @@ An updated version of the Surface Hub operating system, **Windows 10 Team 22H2**
 
 You can obtain the 22H2 version of Windows 10 Team using one of the following methods:
 
-- **Windows Update for Business**.
+- **Windows Update for Business**. Available starting on October 18, but controlled by [WUfB policy configuration](/windows/deployment/update/waas-configure-wufb#configure-when-devices-receive-feature-updates).
 - **Windows Update.** Availability varies by region/country, as noted in the following table:
 
-| Phase | Country/Region                            | Starting         |
-| ----- | ----------------------------------------- | ---------------- |
-| 1     | Canada, New Zealand, Belgium              | October 18 2022  |
-| 2     | United Kingdom, Japan, Switzerland, Italy | November 1 2022  |
-| 3     | United States, Germany                    | November 15 2022 |
-| 4     | Global                                    | November 29 2022 |
+| Phase | Country/Region                            | Starting       |
+| ----- | ----------------------------------------- | -------------- |
+| 1     | Canada, New Zealand, Belgium              | Late October   |
+| 2     | United Kingdom, Japan, Switzerland, Italy | Early November |
+| 3     | United States, Germany                    | Mid November   |
+| 4     | Global                                    | Late November  |
 
 ## Servicing Surface Hubs with Windows 10 Team Edition version 20H2 
 
