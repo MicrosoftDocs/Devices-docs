@@ -149,6 +149,16 @@
             "source_path":  "surface/surface-pro-arm-app-performance.md",
             "redirect_url":  "/surface/surface-arm-faq",
             "redirect_document_id":  false
+        }, 
+        {
+            "source_path":  "surface-hub/surface-hub-2020-update.md",
+            "redirect_url":  "/surface-hub/surface-hub-2022-update",
+            "redirect_document_id":  false
+        },    
+        {
+            "source_path":  "surface-hub/surface-hub-2020-team-update-known-issues.md",
+            "redirect_url":  "/surface-hub/windows-10-team-known-issues",
+            "redirect_document_id":  false
         }
     ]
 }
