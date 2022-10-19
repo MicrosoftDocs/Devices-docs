@@ -17,7 +17,7 @@ appliesto:
 ---
 # Install Windows 10 Team 2022 Update
 
-An updated version of the Surface Hub operating system, **Windows 10 Team 2022 Update**, based on [Windows 10 version 22H2](/windows/release-health/status-windows-10-22h2), is now becoming available for Surface Hub 2S and the original Surface Hub (v1). 
+An updated version of the Surface Hub operating system, **Windows 10 Team 2022 Update**, based on [Windows 10 version 22H2](/windows/release-health/release-information), is now becoming available for Surface Hub 2S and the original Surface Hub (v1). 
 
 ## Distribution
 
