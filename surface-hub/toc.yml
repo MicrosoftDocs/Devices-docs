@@ -90,9 +90,9 @@
         - name: Connect devices to Surface Hub 2S
           href: surface-hub-2s-connect.md        
         - name: Install Windows 10 Team version 22H2
-          href: surface-hub-2020-update.md
+          href: surface-hub-2022-update.md
         - name: Known issues - Windows 10 Team
-          href: surface-hub-2020-team-update-known-issues.md
+          href: windows-10-team-known-issues.md
         - name: Configure non Global admin accounts on Surface Hub
           href: surface-hub-2s-nonglobal-admin.md
         - name: Install apps on your Microsoft Surface Hub
