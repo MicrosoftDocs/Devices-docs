@@ -89,10 +89,10 @@
       items: 
         - name: Connect devices to Surface Hub 2S
           href: surface-hub-2s-connect.md        
-        - name: Install Windows 10 Team 2020 Update
-          href: surface-hub-2020-update.md
-        - name: Known issues - Windows 10 Team 2020 Update
-          href: surface-hub-2020-team-update-known-issues.md
+        - name: Install Windows 10 Team 2022 Update
+          href: surface-hub-2022-update.md
+        - name: Known issues - Windows 10 Team
+          href: windows-10-team-known-issues.md
         - name: Configure non Global admin accounts on Surface Hub
           href: surface-hub-2s-nonglobal-admin.md
         - name: Install apps on your Microsoft Surface Hub
@@ -282,8 +282,8 @@
           href: surface-hub-return-to-office-videos.md          
         - name: Troubleshoot Microsoft Surface Hub
           href: troubleshoot-surface-hub.md
-        - name: "Known issues: Windows 10 Team OS"
-          href: surface-hub-2020-team-update-known-issues.md
+        - name: "Known issues: Windows 10 Team"
+          href: windows-10-team-known-issues.md
         - name: How to use cloud recovery for BitLocker on a Surface Hub
           href: use-cloud-recovery-for-bitlocker-on-surfacehub.md
         - name: Using the Surface Hub Hardware Diagnostic Tool to test a device account
