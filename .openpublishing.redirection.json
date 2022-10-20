@@ -159,6 +159,11 @@
             "source_path":  "surface/surface-pro-arm-app-performance.md",
             "redirect_url":  "/surface/surface-arm-faq",
             "redirect_document_id":  false
+        },
+        {
+            "source_path":  "surface/contact-surface-support.md",
+            "redirect_url":  "/surface/contact-surface-business-education-support",
+            "redirect_document_id":  true
         }
     ]
 }
