@@ -53,7 +53,7 @@ Create, Manage, and track support requests while staying current on Microsoft te
 
 To expedite your service requests, please make sure to include your device(s) serial number(s).
 
-[Get Support](http://support.serviceshub.microsoft.com/supportforbusiness)
+[Get Support](https://support.serviceshub.microsoft.com/supportforbusiness)
 
 ## [In-store support](#tab/instore)
 
