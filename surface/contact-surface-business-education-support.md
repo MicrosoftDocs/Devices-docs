@@ -27,21 +27,21 @@ description: Support information for Microsoft Surface and Surface Hub products.
 
 Review the [Top Support Solutions for Surface devices](/surface/support-solutions-surface).
 
-Run the [Surface Diagnostic Toolkit for Business](surface-diagnostic-toolkit-business.md) (SDT). The SDT enables IT administrators to quickly investigate, troubleshoot, and resolve several hardware, software, and firmware issues with Surface devices.
+Run the [Surface Diagnostic Toolkit for Business](surface-diagnostic-toolkit-business.md) (SDT). The SDT enables IT administrators to quickly investigate, troubleshoot, and resolve hardware, software, and firmware issues with Surface devices.
 
 If you're still having a problem after reviewing the top solutions and running the toolkit, use the tabs below to select a support option.
 
 ## [Online support](#tab/online)
 
-Depending on your company's active product subscription(s) and/or paid Support offers, convenient solutions are available to manage your Surface device support requests individually and in bulk.  Please follow the link that best fits your company’s profile.
+Depending on your company's active product subscription(s) and/or paid Support offers, convenient solutions are available to manage your Surface device support requests individually and in bulk. Please follow the link that best fits your company's profile.
 
 ### You manage your devices with Intune
 
-Built into Intune, the Surface Management Portal provides a centralized solution to self-serve, manage and monitor Surface devices at scale. [Get support](/surface/surface-management-portal).
+Built into Intune, the Surface Management Portal provides a centralized solution to self-serve, manage, and monitor Surface devices at scale. [Get support](/surface/surface-management-portal).
 
 ### You have a Microsoft 365 Subscription
 
-The Microsoft 365 Hardware Support Portal provides a self-serve, centralized solution to look up current warranty and protection plans, create service requests and track the status of device repairs. [Get support](/surface/self-serve-warranty-service).
+The Microsoft 365 Hardware Support Portal provides a self-serve, centralized solution to look up current warranty and protection plans, create service requests, and track the status of device repairs. [Get support](/surface/self-serve-warranty-service).
 
 ### You have a Premier or Unified Support contract
 
@@ -59,7 +59,7 @@ To expedite your service requests, please make sure to include your device(s) se
 
 ## US
 
-Make an appointment at a Surface participating Service Center to help resolve your issue:
+Make an appointment at a participating Surface participating Service Center to help resolve your issue:
 
 1. Go to [Find a participating Best Buy Service Center for in-person support in the US](https://support.microsoft.com/surface/find-a-participating-best-buy-service-center-for-in-person-support-in-the-us-9c30c2ba-a8d3-4657-b9df-9c00239751a2).
 2. Select your location to find the Service Center nearest you.
