@@ -163,7 +163,7 @@
         {
             "source_path":  "surface/contact-surface-support.md",
             "redirect_url":  "https://support.microsoft.com/surface",
-            "redirect_document_id":  true
+            "redirect_document_id":  false
         }
     ]
 }
