@@ -162,7 +162,7 @@
         },
         {
             "source_path":  "surface/contact-surface-support.md",
-            "redirect_url":  "/surface/contact-surface-business-education-support",
+            "redirect_url":  "https://support.microsoft.com/surface",
             "redirect_document_id":  true
         }
     ]
