@@ -20,6 +20,18 @@ Most Windows updates focus on performance and security improvements. In the list
 > [!TIP]
 > This page is refreshed as new updates are released. Please refer to the [Surface Hub Important Information](https://support.microsoft.com/products/surface-devices/surface-hub) page for related topics on current and past releases that may require your attention.
 
+## Windows 10 Team 2022 Update (22H2)
+
+<details>
+<summary>October 25, 2022 - update for Team based on KB5018482* (OS Build 19045.2193)</summary>
+
+This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4581839/windows-10-update-history), include:
+
+* Resolves an issue where Surface Hub devices did not advertise Miracast availability in some scenarios
+ 
+Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabling device features and services. *[KB5018482](https://support.microsoft.com/help/5018482)
+</details>
+
 ## Windows 10 Team 2020 Update (20H2)
 
 <details>
