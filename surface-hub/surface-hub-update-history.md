@@ -239,7 +239,7 @@ This update is specific to the Surface Hub 2S and provides the driver and firmwa
 
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4581839/windows-10-update-history), include:
 
-* Fix that allows calendar synchronization with Exchange to work when the Device Account's UPN is not equal its SMTP.
+* Fix that allows calendar synchronization with Exchange to work when the Device Account's UPN is not equal to its SMTP address.
 * Adds ability for administrators to [disable the use of Modern Authentication](/windows/client-management/mdm/surfacehub-csp#deviceaccount-exchangemodernauthenabled) during calendar synchronization with Exchange.
 * Ensures that Surface Hub users aren't prompted to enter proxy credentials after the "Use device account credentials" feature has been enabled.
 * Resolves an issue where Windows Update and Store update checks would never complete if a proxy requiring authentication was in use.
@@ -768,7 +768,7 @@ This update to the Surface Hub includes quality improvements and security fixes.
   * Resolves scenarios where the on-screen keyboard would sometimes not appear
   * Resolves Whiteboard application shift that occasionally occurs when opening scheduled meeting
   * Resolves issue that prevented Admins from changing the local administrator password, after device has been Reset
-  * BIOS change resolving issue with status bar tracking during device Reset
+  * BIOS change to resolve an issue with status bar tracking during device reset
   * UEFI update to resolve powering down issues
 
 *[KB3197954](https://support.microsoft.com/help/3197954)
