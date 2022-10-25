@@ -27,7 +27,7 @@ Most Windows updates focus on performance and security improvements. In the list
 
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4581839/windows-10-update-history), include:
 
-* Resolves an issue where Surface Hub devices did not advertise Miracast availability in some scenarios
+* Resolves an issue where Surface Hub devices did not advertise Miracast availability in some scenarios.
  
 Please refer to the "[Install Windows 10 Team 2022 Update](/surface-hub/surface-hub-2022-update)" page for more information regarding update availability by region, distribution method, and device type.
 *[KB5018482](https://support.microsoft.com/help/5018482)
