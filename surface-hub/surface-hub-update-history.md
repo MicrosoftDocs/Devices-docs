@@ -767,7 +767,7 @@ This update to the Surface Hub includes quality improvements and security fixes.
 * General
   * Resolves scenarios where the on-screen keyboard would sometimes not appear
   * Resolves Whiteboard application shift that occasionally occurs when opening scheduled meeting
-  * Resolves issue that prevented Admins from changing the local administrator password, after device has been Reset
+  * Resolves issue that prevented Admins from changing the local administrator password, after device has been reset
   * BIOS change to resolve an issue with status bar tracking during device reset
   * UEFI update to resolve powering down issues
 
