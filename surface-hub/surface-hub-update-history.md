@@ -25,7 +25,7 @@ Most Windows updates focus on performance and security improvements. In the list
 <details>
 <summary>October 25, 2022 - update for Team based on KB5018482* (OS Build 19045.2193)</summary>
 
-This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4581839/windows-10-update-history), include:
+This update brings the Windows 10 Team 2022 Update to Surface Hub and includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4581839/windows-10-update-history), include:
 
 * Resolves an issue where Surface Hub devices did not advertise Miracast availability in some scenarios.
  
