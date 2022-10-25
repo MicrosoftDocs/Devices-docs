@@ -105,9 +105,12 @@ conceptualContent:
     # Card 7
     - title: Surface help
       links:
-        - url: contact-surface-support.md
+        - url: https://support.microsoft.com/surface
           itemType: learn
-          text: Contact Surface Support
+          text: Contact Surface Support for end users
+        - url: contact-surface-business-education-support.md
+          itemType: learn
+          text: Contact Surface Support for Business and Education customers
 
     # Card 8
     - title: Surface Hub help
