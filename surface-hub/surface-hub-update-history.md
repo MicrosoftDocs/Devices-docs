@@ -29,7 +29,8 @@ This update to the Surface Hub includes quality improvements and security fixes.
 
 * Resolves an issue where Surface Hub devices did not advertise Miracast availability in some scenarios
  
-Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabling device features and services. *[KB5018482](https://support.microsoft.com/help/5018482)
+Please refer to the "[Install Windows 10 Team 2022 Update](/surface-hub/surface-hub-2022-update)" page for more information regarding update availability by region, distribution method, and device type.
+*[KB5018482](https://support.microsoft.com/help/5018482)
 </details>
 
 ## Windows 10 Team 2020 Update (20H2)
@@ -305,11 +306,13 @@ This update is specific to the Surface Hub 2S and provides the driver and firmwa
 </details>
 
 <details>
-<summary>Windows 10 Team 2020 Update for Surface Hub - General Release notes (OS Build 19042.572)</summary>
+<summary>October 13, 2020 - update for Team based on KB4579311* (OS Build 19042.572)</summary>
 
-This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4581839/windows-10-update-history), are noted on the page "[What's new in Windows 10 Team 2020 Update](/surface-hub/surface-hub-2020-update-whats-new)".
+Windows 10 Team 2020 Update for Surface Hub - General Release notes 
 
-Please refer to the "[Install Windows 10 Team 2020 Update](/surface-hub/surface-hub-2020-update)" page for more information regarding update availability by region, distribution method, and device type.
+This update brings the Windows 10 Team 2020 Update to Surface Hub and includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4581839/windows-10-update-history), are noted on the page "[What's new in Windows 10 Team 2020 Update](/surface-hub/surface-hub-2020-update-whats-new)".
+
+*[KB4579311](https://support.microsoft.com/help/4579311)
 </details>
 
 ## Windows 10 Team Creators Update (1703)
