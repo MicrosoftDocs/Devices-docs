@@ -1,5 +1,5 @@
 ---
-title: Surface service and repair
+title: Surface for Business service and repair
 description: This article explains how Surface devices are designed te enable service and repair. repairability. 
 ms.prod: w10
 ms.mktglfcycl: manage
@@ -17,73 +17,30 @@ appliesto:
 - Windows 11
 ---
 
-# Surface service and repair
+# Surface for Business service and repair
 
 Built with integrity by design, our latest Microsoft Surface devices are now easier to repair and maintain, enabling customers greater flexibility and extending the use of devices.
 
-Service and repair for your Surface business devices
+## Service and repair for your Surface for Business devices
+
 The latest Surface devices are now built for repair.  Choose one of the following options:
 
 - **Microsoft In Region Repair.** Repairs your device and returns it to you. Create a repair order and mail your device using the prepaid shipping label provided by Microsoft. For details, see Microsoft In Region Repair.
-- **Customer Self Service.** Commercial customers can self-repair devices with replaceable components available to purchase from device resellers. For details, see Customer Self Service.
+- **Customer Self Repair.** Commercial customers can self-repair devices with replaceable components available to purchase from device resellers. For details, see Customer Self Service.
 - **Authorized Service Providers.** Microsoft has a network of Authorized Service Providers (ASPs) who perform repairs on Microsoft's behalf. For details, see Authorized Service Providers.
 
 ## Microsoft Surface devices and replaceable components
 
-:::image type="content" source="images/surface-repair-demo.png" alt-text="Surface repair example" :::
 
 Microsoft recommends that only technically inclined individuals with the knowledge, experience, and required tools perform repairs while following the instructions available in the relevant [Surface Services Guide](https://www.microsoft.com/download/100440) available on the [Microsoft Download Center](https://www.microsoft.com/download/default.aspx). Opening or repairing your device can present electric shock, device damage, fire and personal injury risks, and other hazards. Use caution if undertaking do-it-yourself repairs. Further, any damage you cause to the device or component will not be covered under Microsoft's Limited Hardware Warranty or protection plan.
 
 - Replaceable components for Microsoft Surface devices can be purchased from a [Microsoft Authorized Device Reseller](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface).
 - Replaceable components have a 1-year Microsoft Limited Hardware Warranty. 2
 
-## Laptops and replaceable components
+:::image type="content" source="images/surface-repair-demo.png" alt-text="Surface repair example" :::
 
-| Replaceable<br>Components      | Surface Laptop <br>3 & 4 | Surface Laptop <br>5 | Surface Laptop <br>Studio | Surface Studio <br>2+ | Surface Laptop <br>Go 2 | Surface Laptop <br>SE |                     |
-| ------------------------------ | ------------------------ | -------------------- | ------------------------- | --------------------- | ----------------------- | --------------------- | ------------------- |
-| **rSSD**                       | **✓**                    | **✓**                | **✓**                     |                       | **✓**                   |                       |                     |
-| **SSD door**                   |                      |                  |                       | **✓**                 |                     |                   |                     |
-| **Kickstand**                  |                      |                  |                       |                   |                     |                   |                     |
-| **Display/Screen (A/B-cover)** | **✓**                    | **✓**                | **✓**                     | **✓**                 | **✓**                   | **✓**                 |                     |
-| **Screen (TDM)**               |                      |                  |                       |                   |                     |                   |                     |
-| **Keyboard C cover**           | **✓**                    | **✓**                | **✓**                     |                   |                     | **✓**                 |                     |
-| **Feet & screws**              | **✓**                    | **✓**                | **✓**                     |                   |                     | **✓**                 |                     |
-| **USB-C & audio jacks**        |                      | **✓**                | **✓**                     |                   |                     |                   |                     |
-| **Surflink**                   |                      | **✓**                | **✓**                     |                   |                     |                   |                     |
-| **Bucket**                     |                      | **✓**                |                       |                   |                     | **✓**                 |                     |
-| **Speaker/Wi-Fi modules**      |                      | **✓**                |                       |                   |                     | **✓**                 |                     |
-| **Fingerprint reader**         |                      |                  |                       |                       |                     |                   |                     |
-| **Battery**                    |                      | **✓**                |                       |                       |                     |                   |                     |
-| **Thermal module**             |                      | **✓**                |                       | **✓**                 | **✓**                   |                   |                     |
-| **Camera front & rear**        |                      |                  |                       |                   |                     |                   |                     |
-| **Camera deck**                |                      |                  |                       |                   |                     |                   |                     |
-| **Power/Volume button**        |                      |                  |                       | **✓**                 |                     |                   | Part of the C cover |
-| **Motherboard**                |                          | **✓**                |                       | **✓**                 | **✓**                   |                   |                     |
 
-## 2-in-1 replaceable components
-
-| Replaceable<br>Components      | Surface Pro 7 + | Surface Pro 8 | Surface Pro 9 | Surface Pro 9 5G |                     |
-| ------------------------------ | --------------- | ------------- | ------------- | ---------------- | ------------------- |
-| **rSSD**                       | **✓**           | **✓**         | **✓**         | **✓**            |                     |
-| **SSD door**                   | **✓**           | **✓**         | **✓**         | **✓**            |                     |
-| **Kickstand**                  | **✓**           | **✓**         | **✓**         | **✓**            |                     |
-| **Display/Screen (A/B-cover)** |             |           |           |              |                     |
-| **Screen (TDM)**               |             | **✓**         | **✓**         | **✓**            |                     |
-| **Keyboard C cover**           |             |           |           |              |                     |
-| **Feet & screws**              |             |           |           |              |                     |
-| **USB-C & audio jacks**        |             |           | USB-C Only    | USB-C Only       |                     |
-| **Surflink**                   |             |           | **✓**         | **✓**            |                     |
-| **Bucket**                     |             |           | **✓**         | **✓**            |                     |
-| **Speaker/Wi-Fi modules**      |             |           | **✓**         | **✓**            |                     |
-| **Fingerprint reader**         |             |           |           |              |                     |
-| **Battery**                    |             |           | **✓**         | **✓**            |                     |
-| **Thermal module**             |             |           | **✓**         | **✓**            |                     |
-| **Camera front & rear**        |             |           | **✓**         | **✓**            |                     |
-| **Camera deck**                |             |           | **✓**         | **✓**            |                     |
-| **Power/Volume button**        |             |           | **✓**         | **✓**            | Part of the C Cover |
-| **Motherboard**                |             |               | **✓**         | **✓**            |                     |
-
-## Replaceable components for specific devices
+## Replaceable components for Surface devices
 
 | Surface Pro 7+ | Replaceable components                                            |
 | -------------- | ----------------------------------------------------------------- |
