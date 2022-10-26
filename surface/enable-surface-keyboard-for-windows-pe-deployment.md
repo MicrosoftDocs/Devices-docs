@@ -13,12 +13,13 @@ ms.reviewer: carlol
 ms.localizationpriority: medium
 ms.audience: itpro
 manager: jarrettr
-ms.date: 01/05/2022
+ms.date: 10/25/2022
 appliesto:
 - Surface Laptop (1st Gen)
 - Surface Laptop 2
 - Surface Laptop 3
 - Surface Laptop 4
+- Surface Laptop 5
 - Surface Laptop Studio
 - Surface Pro 8
 - Windows 10
