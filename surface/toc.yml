@@ -9,6 +9,12 @@
       items: 
       - name: Technical overviews
         items:
+         - name: Surface Pro 9 overview
+           href: surface-pro-9-overview.md
+         - name: Surface Laptop 5 overview
+           href: surface-laptop-5-overview.md
+         - name: Surface Studio 2+ overview
+           href: surface-studio-2-plus-overview.md
          - name: Surface Laptop Go 2 overview
            href: surface-laptop-go-2.md 
          - name: Surface Laptop SE overview
@@ -28,7 +34,9 @@
          - name: Surface Laptop Studio graphics overview
            href: surface-laptop-studio-graphics.md
          - name: Surface Laptop Studio ISV-tested/certified apps
-           href: surface-laptop-studio-isv-certification.md                       
+           href: surface-laptop-studio-isv-certification.md   
+         - name: Surface Studio 2+ overview
+           href: surface-studio-2-plus-overview.md      
          - name: Surface Book 3 tech overview
            href: surface-book-GPU-overview.md
          - name: Surface Book 3 Quadro RTX 3000 tech overview
@@ -36,23 +44,25 @@
       - name: Order Surface devices
         items:  
         - name: OS choice for new Surface devices
-          href: surface-os-choice.md    
+          href: surface-os-choice.md 
+        - name: Surface Pro 9 for Business
+          href: https://www.microsoft.com/surface/business/surface-pro-9    
+        - name: Surface Laptop 5 for Business
+          href: https://www.microsoft.com/surface/business/surface-laptop-5    
+        - name: Surface Studio 2+ for Business
+          href: https://www.microsoft.com/surface/business/surface-studio-2-plus        
         - name: Surface Laptop Go 2 for Business
-          href: https://www.microsoft.com/surface/business/surface-laptop-go-2
-        - name: Surface Pro 8 for Business
-          href: https://www.microsoft.com/surface/business/surface-pro-8
-        - name: Surface Pro X for Business
-          href: https://www.microsoft.com/surface/business/surface-pro-x         
+          href: https://www.microsoft.com/surface/business/surface-laptop-go-2 
         - name: Surface Laptop Studio for Business
           href: https://www.microsoft.com/surface/business/surface-laptop-studio          
         - name: Surface Go 3 for Business
           href: https://www.microsoft.com/surface/business/surface-go-3
-        - name: Surface Laptop 4 for Business
-          href: https://www.microsoft.com/surface/business/surface-laptop-4 
+        - name: Surface Pro 8 for Business
+          href: https://www.microsoft.com/surface/business/surface-pro-8   
+        - name: Surface Pro 7+ for Business
+          href: https://www.microsoft.com/d/surface-pro-7-for-business
         - name: Surface Laptop Go for Business
           href: https://www.microsoft.com/surface/business/surface-laptop-go                 
-        - name: Surface Studio 2 for Business
-          href: https://www.microsoft.com/surface/business/surface-studio-2
         - name: Surface Laptop SE for Education
           href: https://www.microsoft.com/surface/business/surface-laptop-se
     - name: Plan
@@ -165,6 +175,8 @@
           href: wake-on-power-for-surface.md  
       - name: Best practices
         items:  
+        - name: Tested peripherals for new Surface devices
+          href: surface-tested-peripherals.md
         - name: NFC support in Surface Go for Business
           href: surface-go-nfc-support.md
         - name: Optimize video conferencing on Surface devices
@@ -185,8 +197,8 @@
         items:          
         - name: Deploying, managing, & servicing Surface Pro X
           href: surface-pro-arm-app-management.md
-        - name: Surface Pro X app compatibility
-          href: surface-pro-arm-app-performance.md
+        - name: ARM-based Surface devices FAQ
+          href: surface-arm-faq.md
       - name: Accessories
         items:
         - name: Surface Slim Pen 2 haptics dev notes
@@ -204,7 +216,7 @@
           href: contact-surface-support.md
     - name: Warranty & service
       expanded: true
-      items: 
+      items:  
         - name: Surface driver and firmware lifecycle for Windows-based devices
           href: surface-driver-firmware-lifecycle-support.md     
         - name: Surface for Business warranty and protection plans
@@ -215,7 +227,7 @@
           href: surface-next-business-day-replacement.md
         - name: Check device warranty status
           href: https://mybusinessservice.surface.com/
-        - name: Surface Self-Serve Warranty and Service
+        - name: Self-serve your Surface warranty & service requests
           href: self-serve-warranty-service.md 
         - name: Protecting data when sending Surface in for service
           href: https://support.microsoft.com/help/4023508/surface-faq-protecting-your-data-service

@@ -14,7 +14,7 @@ ms.localizationpriority: medium
 ---
 # Microsoft Teams Rooms on Surface Hub
 
-Teams Rooms for Surface Hub automatically replaced the previous [Surface Hub Teams app](hub-teams-app.md) upon installation of [KB5004196, KB5004198, and KB5004199](surface-hub-update-history.md).
+Teams Rooms for Surface Hub automatically replaces the previous [Surface Hub Teams app](hub-teams-app.md) upon installation of [KB5004196, KB5004198, and KB5004199](surface-hub-update-history.md), which were released on September 30, 2021.
 
 ## What’s new?
 
@@ -23,7 +23,7 @@ Teams Rooms for Surface Hub automatically replaced the previous [Surface Hub Tea
 - Teams Rooms on Surface Hub can run side by side with other applications or run minimized.
 - Admins can configure features like Coordinated Meeting, Proximity Join for Surface Hub, and [Direct Guest Join](#third-party-meetings-on-surface-hub). [XML files](/microsoftteams/rooms/surface-hub-manage-config#teams-configuration-file-syntax) are supported and will be migrated to the new settings model.
 - New QoS Options and network requirements. To learn more, see [Configure networking and Quality of Service for Microsoft Teams Room on Surface Hub](surface-hub-teams-rooms-networking.md).
-- If not already the default, Teams can be set as the default app for meetings and calls in **Settings** > **Surface Hub** > **Calling & audio**. To learn more about meeting modes and configuring them through MDM policy, see [Manage Surface Hub with an MDM provider](manage-settings-with-mdm-for-surface-hub.md#changing-default-app-for-meetings--calls).
+- If it is not already the default, Teams can be set as the default app for meetings and calls in **Settings** > **Surface Hub** > **Calling & audio**. To learn more about meeting modes and configuring them through MDM policy, see [Manage Surface Hub with an MDM provider](manage-settings-with-mdm-for-surface-hub.md#changing-default-app-for-meetings--calls).
 
 ## In meeting experience
 
@@ -56,7 +56,7 @@ To optimize Teams Rooms, refer to the requirements and recommendations described
 
 ## Third-party meetings on Surface Hub
 
-Microsoft Teams Rooms on Surface Hub supports joining third-party online meetings, referred to as Direct Guest Join. You can use Surface Hub to join meetings hosted on Cisco Webex and Zoom. And others can join Teams meetings on Hub from their third-party room systems. This feature is rolling out to Surface Hubs beginning October 5. 
+Microsoft Teams Rooms on Surface Hub supports joining third-party online meetings, referred to as Direct Guest Join. You can use Surface Hub to join meetings hosted on Cisco Webex and Zoom. And others can join Teams meetings on Hub from their third-party room systems. This feature is rolling out to Surface Hubs beginning October 5, 2022. 
 
 ### To enable third-party meetings on Surface Hub:
 
