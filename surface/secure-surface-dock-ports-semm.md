@@ -28,10 +28,10 @@ Surface Enterprise Management Mode (SEMM) enables IT admins to secure and manage
 
 ### Supported devices
 
-Managing Surface Dock 2 with SEMM is available for docks connected to Surface Book 3, Surface Laptop Studio, Surface Laptop 4, Surface Laptop 3, Surface Laptop Go, Surface Laptop Go 2, Surface Pro 8, Surface Pro 7+, Surface Pro 7, and Surface Pro X. These compatible Surface devices are commonly referred to as **host devices**. A package is applied to host devices based on if a host device is **authenticated** or **unauthenticated**. Configured settings reside in the UEFI layer on host devices enabling you—the IT admin—to manage Surface Dock 2 just like any other built-in peripheral such as the camera.
+Managing Surface Dock 2 with SEMM is available for docks connected to Surface Book 3, Surface Laptop Studio, Surface Laptop 5, Surface Laptop 4, Surface Laptop 3, Surface Laptop Go, Surface Laptop Go 2, Surface Pro 9 & Surface Pro 9 with 5G, Surface Pro 8, Surface Pro 7+, Surface Pro 7, Surface Pro X, and Surface Studio 2+. These compatible Surface devices are commonly referred to as **host devices**. A package is applied to host devices based on if a host device is **authenticated** or **unauthenticated**. Configured settings reside in the UEFI layer on host devices enabling you—the IT admin—to manage Surface Dock 2 just like any other built-in peripheral such as the camera.
 
 >[!NOTE]
->You can manage Surface Dock 2 ports only when the dock is connected to one of the following compatible devices: Surface Pro 8, Surface Laptop Studio, Surface Book 3, Surface Laptop 4, Surface Laptop 3, Surface Pro 7+, and Surface Pro 7. Any device that doesn't receive the UEFI Authenticated policy settings is inherently an unauthenticated device.
+>You can manage Surface Dock 2 ports only when the dock is connected to one of the following compatible devices: Surface Pro 9, Surface Pro 9 with 5G, Surface Studio 2+, Surface Pro 8, Surface Laptop Studio, Surface Book 3, Surface Laptop 5, Surface Laptop 4, Surface Laptop 3, Surface Pro 7+, and Surface Pro 7. Any device that doesn't receive the UEFI Authenticated policy settings is inherently an unauthenticated device.
 
 ### Scenarios
 
@@ -47,7 +47,7 @@ This section provides step-by-step guidance for the following tasks:
    1. Add your certificates.
    1. Enter the 16-digit RN number for your Surface Dock 2 devices.
    1. Configure UEFI settings.
-1. Build and apply the configuration package to targeted Surface devices (Surface Book 3, Surface Laptop 3, or Surface Pro 7.)
+1. Build and apply the configuration package to targeted Surface devices.
 
 >[!NOTE]
 >The **Random Number (RN)** is a unique 16-digit hex code identifier which is provisioned at the factory, and printed in small type on the underside of the dock. The RN differs from most serial numbers in that it can't be read electronically. This ensures proof of ownership is primarily established only by reading the RN when physically accessing the device. The RN may also be obtained during the purchase transaction and is recorded in Microsoft inventory systems.
@@ -136,7 +136,7 @@ When you've obtained or created the certificates, you’re ready to build the .m
 
 ### Apply the configuration package to a Surface Dock 2
 
-1. Take the .msi file that the Surface UEFI Configurator generated and install it on a Surface host device. Compatible hosts include the following commercial devices: Surface Book 3, Surface Laptop Studio, Surface Laptop 3, Surface Laptop 4, Surface Pro 8, Surface Pro 7+, Surface Pro 7, Surface Laptop Go, and Surface Laptop Go 2.
+1. Take the .msi file that the Surface UEFI Configurator generated and install it on a Surface host device. 
 1. Connect the host device to the Surface Dock 2. When you connect the dock, UEFI policy settings are applied.
 
 ## Verify managed state using the Surface App

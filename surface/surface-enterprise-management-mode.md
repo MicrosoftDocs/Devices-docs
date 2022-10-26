@@ -13,7 +13,7 @@ ms.reviewer: hachidan
 manager: laurawi
 ms.localizationpriority: medium
 audience: itpro
-ms.date: 06/07/2022
+ms.date: 10/25/2022
 appliesto:
 - Windows 10
 - Windows 11
@@ -32,12 +32,16 @@ SEMM also uses a certificate to protect the configuration from unauthorized tamp
 
 SEMM is only available on devices with Surface UEFI firmware including: 
 
+- Surface Pro 9 (commercial SKUs only)
+- Surface Pro 9 with 5G (commercial SKUs only)
 - Surface Pro 8 (commercial SKUs only)
+- Surface Pro 7+ (commercial SKUs only)
 - Surface Pro 4 and later (all SKUs)
 - Surface Pro X (all SKUs)
 - Surface Laptop SE (all SKUs)
 - Surface Laptop Studio (commercial SKUs only) 
 - Surface Hub 2S
+- Surface Laptop 5 (commercial SKUs only)
 - Surface Laptop 4 (commercial SKUs only)
 - Surface Laptop 3 (Intel processors only)
 - Surface Laptop Go 
@@ -45,7 +49,7 @@ SEMM is only available on devices with Surface UEFI firmware including:
 - Surface Book (all generations)
 - Surface Go, Surface Go 2
 - Surface Go 3 (commercial SKUs only)
-- Surface Studio 
+- Surface Studio (all SKUs)
 
 >[!TIP]
 > Commercial SKUs (aka Surface for Business) run Windows 10 Pro/Enterprise or Windows 11 Pro/Enterprise; consumer SKUs run Windows 10/Windows 11 Home. To learn more, see [View your system info](https://support.microsoft.com/windows/view-your-system-info-a965a8f2-0773-1d65-472a-1e747c9ebe00). 

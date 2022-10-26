@@ -8,7 +8,7 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 07/06/2022
+ms.date: 10/25/2022
 ms.reviewer: karand
 manager: laurawi
 ms.audience: itpro
@@ -41,8 +41,8 @@ Designed to be used with software-level mobile device management (MDM), DFCI ena
 
 ### Eligible devices
 
-- Surface Pro 8 (commercial SKUs only)
 - Surface Pro 9 (commercial SKUs only)
+- Surface Pro 8 (commercial SKUs only)
 - Surface Pro 7+ (commercial SKUs only)
 - Surface Pro 7 (all SKUs)
 - Surface Pro X (all SKUs)
