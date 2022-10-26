@@ -23,7 +23,7 @@ An updated version of the Surface Hub operating system, **Windows 10 Team 2022 U
 
 You can obtain the 2022 Update for Windows 10 Team using one of the following methods:
 
-- **Windows Update for Business**. Available starting on October 19, but controlled by [WUfB policy configuration](/windows/deployment/update/waas-configure-wufb#configure-when-devices-receive-feature-updates).
+- **Windows Update for Business**. Available starting on October 19 2022, but controlled by [WUfB policy configuration](/windows/deployment/update/waas-configure-wufb#configure-when-devices-receive-feature-updates).
 - **Windows Update.** Availability will be phased by country/region, as noted in the following table:
 
 | Phase | Country/Region                            | Starting       |
