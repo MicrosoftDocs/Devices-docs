@@ -37,6 +37,7 @@ Compatible Surface devices include:
 - Surface Pro X (all generations)
 - Surface Laptop (all generations)
 - Surface Laptop Go (all generations)
+- Surface Laptop SE
 - Surface Studio (all generations)
 - Surface Pro 2 and later
 - Surface 3
