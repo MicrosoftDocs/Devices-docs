@@ -20,6 +20,19 @@ Most Windows updates focus on performance and security improvements. In the list
 > [!TIP]
 > This page is refreshed as new updates are released. Please refer to the [Surface Hub Important Information](https://support.microsoft.com/products/surface-devices/surface-hub) page for related topics on current and past releases that may require your attention.
 
+## Windows 10 Team 2022 Update (22H2)
+
+<details>
+<summary>October 25, 2022 - update for Team based on KB5018482* (OS Build 19045.2193)</summary>
+
+This update brings the Windows 10 Team 2022 Update to Surface Hub and includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4581839/windows-10-update-history), include:
+
+* Resolves an issue where Surface Hub devices did not advertise Miracast availability in some scenarios.
+ 
+Please refer to the "[Install Windows 10 Team 2022 Update](/surface-hub/surface-hub-2022-update)" page for more information regarding update availability by region, distribution method, and device type.
+*[KB5018482](https://support.microsoft.com/help/5018482)
+</details>
+
 ## Windows 10 Team 2020 Update (20H2)
 
 <details>
@@ -226,7 +239,7 @@ This update is specific to the Surface Hub 2S and provides the driver and firmwa
 
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4581839/windows-10-update-history), include:
 
-* Fix that allows calendar synchronization with Exchange to work when the Device Account's UPN is not equal its SMTP.
+* Fix that allows calendar synchronization with Exchange to work when the Device Account's UPN is not equal to its SMTP address.
 * Adds ability for administrators to [disable the use of Modern Authentication](/windows/client-management/mdm/surfacehub-csp#deviceaccount-exchangemodernauthenabled) during calendar synchronization with Exchange.
 * Ensures that Surface Hub users aren't prompted to enter proxy credentials after the "Use device account credentials" feature has been enabled.
 * Resolves an issue where Windows Update and Store update checks would never complete if a proxy requiring authentication was in use.
@@ -293,11 +306,13 @@ This update is specific to the Surface Hub 2S and provides the driver and firmwa
 </details>
 
 <details>
-<summary>Windows 10 Team 2020 Update for Surface Hub - General Release notes (OS Build 19042.572)</summary>
+<summary>October 13, 2020 - update for Team based on KB4579311* (OS Build 19042.572)</summary>
 
-This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4581839/windows-10-update-history), are noted on the page "[What's new in Windows 10 Team 2020 Update](/surface-hub/surface-hub-2020-update-whats-new)".
+Windows 10 Team 2020 Update for Surface Hub - General Release notes 
 
-Please refer to the "[Install Windows 10 Team 2020 Update](/surface-hub/surface-hub-2020-update)" page for more information regarding update availability by region, distribution method, and device type.
+This update brings the Windows 10 Team 2020 Update to Surface Hub and includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4581839/windows-10-update-history), are noted on the page "[What's new in Windows 10 Team 2020 Update](/surface-hub/surface-hub-2020-update-whats-new)".
+
+*[KB4579311](https://support.microsoft.com/help/4579311)
 </details>
 
 ## Windows 10 Team Creators Update (1703)
@@ -752,8 +767,8 @@ This update to the Surface Hub includes quality improvements and security fixes.
 * General
   * Resolves scenarios where the on-screen keyboard would sometimes not appear
   * Resolves Whiteboard application shift that occasionally occurs when opening scheduled meeting
-  * Resolves issue that prevented Admins from changing the local administrator password, after device has been Reset
-  * BIOS change resolving issue with status bar tracking during device Reset
+  * Resolves issue that prevented Admins from changing the local administrator password, after device has been reset
+  * BIOS change to resolve an issue with status bar tracking during device reset
   * UEFI update to resolve powering down issues
 
 *[KB3197954](https://support.microsoft.com/help/3197954)
