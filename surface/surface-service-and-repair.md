@@ -30,6 +30,8 @@ The latest Surface devices are now built for repair.  Choose one of the followin
 
 ## Microsoft Surface devices and replaceable components
 
+:::image type="content" source="images/surface-repair-demo.png" alt-text="Surface repair example" :::
+
 Microsoft recommends that only technically inclined individuals with the knowledge, experience, and required tools perform repairs while following the instructions available in the relevant [Surface Services Guide](https://www.microsoft.com/download/100440) available on the [Microsoft Download Center](https://www.microsoft.com/download/default.aspx). Opening or repairing your device can present electric shock, device damage, fire and personal injury risks, and other hazards. Use caution if undertaking do-it-yourself repairs. Further, any damage you cause to the device or component will not be covered under Microsoft's Limited Hardware Warranty or protection plan.
 
 - Replaceable components for Microsoft Surface devices can be purchased from a [Microsoft Authorized Device Reseller](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface).
@@ -80,6 +82,8 @@ Microsoft recommends that only technically inclined individuals with the knowled
 | **Camera deck**                |             |           | **✓**         | **✓**            |                     |
 | **Power/Volume button**        |             |           | **✓**         | **✓**            | Part of the C Cover |
 | **Motherboard**                |             |               | **✓**         | **✓**            |                     |
+
+## Replaceable components for specific devices
 
 | Surface Pro 7+ | Replaceable components                                            |
 | -------------- | ----------------------------------------------------------------- |
