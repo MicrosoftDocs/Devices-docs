@@ -32,24 +32,13 @@ Surface Dock 2 is designed to simplify IT management, enabling admins to automat
 
 - Windows 10 version 1809 and later. There's no support for Windows 7, Windows 8, or non-Surface host devices. Surface Dock 2 works with the following Surface devices:
 
-  - Surface Pro (5th Gen)
-  - Surface Laptop (1st Gen)
-  - Surface Pro 6
-  - Surface Book 2
-  - Surface Laptop 2
-  - Surface Go
-  - Surface Pro 7
-  - Surface Pro X
-  - Surface Laptop 3
-  - Surface Book 3
-  - Surface Go 2
-  - Surface Laptop Go
-  - Surface Pro 7+
-  - Surface Laptop 4
+  - Surface Pro (5th Gen) and later
+  - Surface Laptop (1st Gen) and later
+  - Surface Book 2 and later
+  - Surface Go and later
+  - Surface Laptop Go and later
   - Surface Laptop Studio
-  - Surface Pro 8
-  - Surface Go 3
-  - Surface Laptop Go 2
+  - Surface Studio 2 and later
 
 ## Surface Dock 2 Components
 
@@ -73,6 +62,8 @@ Surface Dock 2 is designed to simplify IT management, enabling admins to automat
   - Surface Pro X
   - Surface Laptop 3
   - Surface Laptop 4
+  - Surface Pro 9 
+  - Surface Pro 9 with 5G
 
 - Dual 4K@30Hz. Supports up to two displays on the following devices:
 
@@ -120,7 +111,7 @@ Surface Dock 2 is designed to simplify IT management, enabling admins to automat
 | SEMM port access control<sup>2</sup>          | No                                                          | Yes                                                                                                 | No               |
 | Servicing support                   | MSI                                                         | Windows Update or MSI                                                                               |                  |
 
-1. *Devices must be configured for Wake on LAN via Surface Enterprise Management Mode (SEMM) or Device Firmware Control Interface (DFCI) to wake from hibernation or power-off states. Wake from hibernation or power-off is supported on Surface Laptop Studio, Surface Pro 8, Surface Pro 7+, Surface Pro 7, Surface Laptop 4, Surface Laptop 3, Surface Pro X, Surface Book 3, Surface Go 3, and Surface Go 2.  Software license required for some features. Sold separately.*
+1. *Devices must be configured for Wake on LAN via Surface Enterprise Management Mode (SEMM) or Device Firmware Control Interface (DFCI) to wake from hibernation or power-off states. Wake from hibernation or power-off is supported on Surface Laptop Studio, Surface Pro 9 & Surface Pro 9 with 5G, Surface Pro 8, Surface Pro 7+, Surface Pro 7, Surface Laptop 5, Surface Laptop 4, Surface Laptop 3, Surface Pro X, Surface Book 3, Surface Go 3, and Surface Go 2.  Software license required for some features. Sold separately.*
 
 2. *Software license required for some features. Sold separately.*
 
