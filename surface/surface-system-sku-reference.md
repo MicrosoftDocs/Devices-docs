@@ -26,7 +26,7 @@ System Model and System SKU are variables stored in System Management BIOS (SMBI
 
 | Device   | System Model | System SKU       |
 | ---------- | ----------- | -------------- |
-| Surface 3 Wi-FI                                               | Surface 3        | Surface_3                        |
+| Surface 3 Wi-Fi                                              | Surface 3        | Surface_3                        |
 | Surface 3 LTE AT&T                                           | Surface 3        | Surface_3_US1                    |
 | Surface 3 LTE Verizon                                        | Surface 3        | Surface_3_US2                    |
 | Surface 3 LTE North America                                  | Surface 3        | Surface_3_NAG                    |
