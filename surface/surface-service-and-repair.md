@@ -42,51 +42,16 @@ Microsoft recommends that only technically inclined individuals with the knowled
 
 ## Replaceable components for Surface devices
 
-| Surface Pro 7+ | Replaceable components                                            |
-| -------------- | ----------------------------------------------------------------- |
-|                | - Kickstand<br>- SSD door<br>- Removable solid-state drive (rSSD) |
-
-| Surface Pro 8 | Replaceable components                                                                               |
-| ------------- | ---------------------------------------------------------------------------------------------------- |
-|               | - Kickstand<br>- SSD Door<br>- Removable solid-state drive (rSSD)<br>- Screen (Touch Display Module) |
-
-
-| Surface Pro 9 | Replaceable components                                                                                                                                                                                                                                                                                                                                 |
-| ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-|               | - Replaceable components:<br>- Kickstand<br>- Screen (Touch Display Module)<br>- USB-C & Audio Jacks<br>- Surflink<br>- Bucket<br>- Speaker & Wi-Fi Modules<br>- Battery<br>- Thermal Module <br>- Camera Front & Rear<br>- Camera Deck<br>- Battery<br>- Power & Volume Button<br>- Motherboard<br>- SSD Door<br>- Removable solid-state drive (rSSD) |
-
-| Surface Pro 9 5G | Replaceable components                                                                                                                                                                                                                                                                                                    |
-| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|                  | - Kickstand<br>- USB-C & Audio Jacks<br>- Surflink<br>- Bucket<br>- Speaker & Wi-Fi Modules<br>- Battery<br>- Thermal Module <br>- Camera Front & Rear<br>- Camera Deck<br>- Battery<br>- Screen (Touch Display Module)<br>- Power & Volume Button<br>- Motherboard<br>- SSD Door<br>- Removable solid-state drive (rSSD) |
-
-| Surface Laptop 3 | Replaceable components                                                                                  |
-| ---------------- | ------------------------------------------------------------------------------------------------------- |
-|                  | - Screen (A/B-Cover)<br>- Keyboard (C-Cover)<br>- Feet & Screws<br>- Removable solid-state drive (rSSD) |
-
-| Surface Laptop 4 | Replaceable components                                                                                  |
-| ---------------- | ------------------------------------------------------------------------------------------------------- |
-|                  | - Screen (A/B-Cover)<br>- Keyboard (C-Cover)<br>- Feet & Screws<br>- Removable solid-state drive (rSSD) |
-
-| Surface Laptop 5 | Replaceable components                                                                                                                                                                                                                                                                                                                                                                               |
-| ---------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|                  | - Kickstand<br>- Display/Screen (A/B- Cover)<br>- Keyboard<br>- Feet & Screws<br>- USB-C & Audio Jacks<br>- Surflink<br>- Bucket<br>- Speaker & Wi-Fi Modules<br>- Battery<br>- Thermal Module<br>- Camera Front & Rear (Part of the A/B Cover)<br>- Camera Deck (Part of the A/B Cover)<br>- Power & Volume Button (Part of the A/B Cover)<br>- Motherboard<br>- Removable solid-state drive (rSSD) |
-
-
-| Surface Laptop Go 2 | Replaceable components                                                                                |
-| ------------------- | ----------------------------------------------------------------------------------------------------- |
-|                     | - A/B-Cover<br>- Hard drive<br>- C-Cover<br>- Feet<br>- Battery<br>- Fingerprint Reader<br>- Surflink |
-
- 
-| Surface Laptop Studio | Replaceable components                                                                                                                  |
-| --------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-|                       | - Screen<br>- Keyboard<br>- Charging Port<br>- USB-C & Audio Jacks<br>- Hard Drive<br>- Cosmetic Plate<br>- Keyboard/Trackpad<br>- Feet |
-
-
-| Surface Studio 2+ | Replaceable components                                                                                                   |
-| ----------------- | ------------------------------------------------------------------------------------------------------------------------ |
-|                   | - Solid State Drive Door<br>- Motherboard<br>- Display/Screen (A/B-Cover)<br>- Thermal Module<br>- Power & Volume button |
-
-
-| Surface Laptop SE | Replaceable components                                                                                                                               |
-| ----------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ****<br> ****     | - Display (Sub-assembly)<br>- Keyboard (C-Cover)<br>- Bucket<br>- Feet & Screws<br>- Speaker & Wi-Fi Modules<br>- Removable solid-state drive (rSSD) |
+|Device              |Replaceable components                                                                                                                                                                                                                                                                                                                                                                           |
+| ------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Surface Pro 7+**        | - Kickstand<br>- SSD door<br>- Removable solid-state drive (rSSD)                                                                                                                                                                                                                                                                                                                                    |
+| **Surface Pro 8**         | - Kickstand<br>- SSD Door<br>- Removable solid-state drive (rSSD)<br>- Screen (Touch Display Module)                                                                                                                                                                                                                                                                                                 |
+| **Surface Pro 9**         | - Kickstand<br>- Screen (Touch Display Module)<br>- USB-C & Audio Jacks<br>- Surflink<br>- Bucket<br>- Speaker & Wi-Fi Modules<br>- Battery<br>- Thermal Module<br>- Camera Front & Rear<br>- Camera Deck<br>- Battery<br>- Power & Volume Button<br>- Motherboard<br>- SSD Door<br>- Removable solid-state drive (rSSD)                                                                             |
+| **Surface Pro 9 5G**      | - Kickstand<br>- USB-C & Audio Jacks<br>- Surflink<br>- Bucket<br>- Speaker & Wi-Fi Modules<br>- Battery<br>- Thermal Module<br>- Camera Front & Rear<br>- Camera Deck<br>- Battery<br>- Screen (Touch Display Module)<br>- Power & Volume Button<br>- Motherboard<br>- SSD Door<br>- Removable solid-state drive (rSSD)                                                                             |
+| **Surface Laptop 3**      | - Screen (A/B-Cover)<br>- Keyboard (C-Cover)<br>- Feet & Screws<br>- Removable solid-state drive (rSSD)                                                                                                                                                                                                                                                                                              |
+| **Surface Laptop 4**      | - Screen (A/B-Cover)<br>- Keyboard (C-Cover)<br>- Feet & Screws<br>- Removable solid-state drive (rSSD)                                                                                                                                                                                                                                                                                              |
+| **Surface Laptop 5**      | - Kickstand<br>- Display/Screen (A/B- Cover)<br>- Keyboard<br>- Feet & Screws<br>- USB-C & Audio Jacks<br>- Surflink<br>- Bucket<br>- Speaker & Wi-Fi Modules<br>- Battery<br>- Thermal Module<br>- Camera Front & Rear (Part of the A/B Cover)<br>- Camera Deck (Part of the A/B Cover)<br>- Power & Volume Button (Part of the A/B Cover)<br>- Motherboard<br>- Removable solid-state drive (rSSD) |
+| **Surface Laptop Go 2**   | - A/B-Cover<br>- Hard drive<br>- C-Cover<br>- Feet<br>- Battery<br>- Fingerprint Reader<br>- Surflink                                                                                                                                                                                                                                                                                                |
+| **Surface Laptop Studio** | - Screen<br>- Keyboard<br>- Charging Port<br>- USB-C & Audio Jacks<br>- Hard Drive<br>- Cosmetic Plate<br>- Keyboard/Trackpad<br>- Feet                                                                                                                                                                                                                                                              |
+| **Surface Studio 2+**     | - Solid State Drive Door<br>- Motherboard<br>- Display/Screen (A/B-Cover)<br>- Thermal Module<br>- Power & Volume button                                                                                                                                                                                                                                                                             |
+| **Surface Laptop SE**     | - Display (Sub-assembly)<br>- Keyboard (C-Cover)<br>- Bucket<br>- Feet & Screws<br>- Speaker & Wi-Fi Modules<br>- Removable solid-state drive (rSSD)                
