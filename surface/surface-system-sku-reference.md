@@ -9,7 +9,7 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 06/07/2022
+ms.date: 10/27/2022
 ms.reviewer: carlol
 manager: laurawi
 ms.localizationpriority: medium
@@ -26,7 +26,7 @@ System Model and System SKU are variables stored in System Management BIOS (SMBI
 
 | Device   | System Model | System SKU       |
 | ---------- | ----------- | -------------- |
-| Surface 3 Wi-FI                                               | Surface 3        | Surface_3                        |
+| Surface 3 Wi-Fi                                              | Surface 3        | Surface_3                        |
 | Surface 3 LTE AT&T                                           | Surface 3        | Surface_3_US1                    |
 | Surface 3 LTE Verizon                                        | Surface 3        | Surface_3_US2                    |
 | Surface 3 LTE North America                                  | Surface 3        | Surface_3_NAG                    |
@@ -56,6 +56,10 @@ System Model and System SKU are variables stored in System Management BIOS (SMBI
 | Surface Laptop 4 13" Intel                                   | Surface Laptop 4 | Surface_Laptop_4_1950:1951 |
 | Surface Laptop 4 15" AMD                                     | Surface Laptop 4 | Surface_Laptop_4_1952:1953     |
 | Surface Laptop 4 15" Intel                                   | Surface Laptop 4 | Surface_Laptop_4_1978:1979     |
+| Surface Laptop 5 13" Consumer                                  | Surface Laptop 5 | Surface_Laptop_5_1950:1951|
+| Surface Laptop 5 13" Commercial                                  | Surface Laptop 5 | Surface_Laptop_5_for_Business_1950:1951|
+| Surface Laptop 5 15" Consumer                                  | Surface Laptop 5 | Surface_Laptop_5_1979|
+| Surface Laptop 5 15" Commercial                                  | Surface Laptop 5 | Surface_Laptop_5_for_Business_1979|
 | Surface Laptop Go                                            | Surface Laptop Go | Surface_Laptop_Go_1943      |
 | Surface Laptop Go 2                                          | Surface Laptop Go 2 | Surface_Laptop_Go_2_2013      |
 | Surface Laptop SE                                            | Surface Laptop SE | Surface Laptop SE            |
@@ -70,12 +74,15 @@ System Model and System SKU are variables stored in System Management BIOS (SMBI
 | Surface Pro 8                                                | Surface Pro 8    | Surface_Pro_8_for_Business_1983|
 | Surface Pro 8 Consumer                                       | Surface Pro 8    | Surface_Pro_8_1983|
 | Surface Pro 8 LTE                                            | Surface Pro 8    | Surface_Pro_8_for_Business_with_LTE_Advanced_1982|
+| Surface Pro 9 Consumer                                           | Surface Pro 9   | Surface_Pro_9_2038   |
+| Surface Pro 9 Commercial                                          | Surface Pro 9   | Surface_Pro_9_for_Business_2038 |
+| Surface Pro 9 with 5G                                           | Surface Pro 9   | Surface_Pro_9_With_5G_1997       |
 | Surface Pro X with SQ1 processor                             | Surface Pro X    | Surface_Pro_X_1876         |
 | Surface Pro X with SQ2 processor                             | Surface Pro X    | Surface_Pro_X_H_1876        |
 | Surface Pro X (Wi-Fi)                                        | Surface Pro X    | Surface_Pro_X_2010        |
 | Surface Studio                                               | Surface Studio   | Surface_Studio   |
 | Surface Studio 2                                             | Surface Studio 2 | Surface_Studio_2_1707_Commercial   |
-
+| Surface Studio 2+                                            | Surface Studio 2+ | Surface_Studio_2+_2028  |
 
 ## Examples
 
