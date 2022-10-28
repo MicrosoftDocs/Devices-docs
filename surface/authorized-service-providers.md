@@ -1,7 +1,7 @@
 ---
 title: Surface repair by Microsoft Authorized Service Providers
 description: This article describes how Authorized service providers (ASPs) work closely with Microsoft to help resolve issues that may occur with your Microsoft devices. 
-ms.prod: w10
+ms.prod: w11
 ms.mktglfcycl: manage
 ms.localizationpriority: medium
 ms.sitesec: library
@@ -9,7 +9,7 @@ author: coveminer
 ms.author: greglin
 ms.topic: article
 ms.date: 10/28/2022
-ms.reviewer: oayakta
+ms.reviewer: 
 manager: laurawi
 audience: itpro
 appliesto:
@@ -19,9 +19,15 @@ appliesto:
 
 # Surface repair by Microsoft Authorized Service Providers
 
-Authorized Service Providers (ASPs) work closely with Microsoft to help resolve issues that may occur with your Microsoft devices.  ASPs perform repairs on behalf of Microsoft, have direct access to Microsoft support, and use genuine Microsoft parts.
+Authorized Service Providers (ASPs) work closely with Microsoft to help resolve issues that may occur with your Microsoft devices. ASPs perform repairs on behalf of Microsoft, have direct access to Microsoft support, and use genuine Microsoft parts.
+
+## Global ASP network
+
+The growing ASP network consists of more than 150 locations.  
+
+:::image type="content" source="images/surface-service-repair/aspnetworkmap.png" alt-text="Global map of Microsoft Authorized Service Providers" :::
  
-## Americas
+### Americas
 
 - [Best Buy](https://www.bestbuy.com/)
 - [CompuCom](https://www.compucom.com/)
@@ -30,8 +36,7 @@ Authorized Service Providers (ASPs) work closely with Microsoft to help resolve 
 - [Integrated Technology Group (ITG)](https://www.itgsolutions.com/)
 - [Synnex](https://www.synnexcorp.com/)
 
-
-## Europe
+### Europe
 
 - [Carillion](https://www.carillion.com/)
 - [Computacenter](https://www.computacenter.com/)
@@ -40,8 +45,7 @@ Authorized Service Providers (ASPs) work closely with Microsoft to help resolve 
 - [Ratiodata](https://www.ratiodata.de/)
 - [Think About It](https://think-about.it/)
 
-
-## Asia Pacific
+### Asia Pacific
 
 - [ASI solutions](https://www.asi.com.au/)
 - [Comp Now](https://www.compnow.com.au/)
@@ -49,7 +53,7 @@ Authorized Service Providers (ASPs) work closely with Microsoft to help resolve 
 - [JB Hi-Fi](https://www.jbhifi.business/)
 
 
-## Join Microsoft Authorized Service Provider network
+## Become an ASP
 
 For potential partners interested in becoming a Microsoft Authorized Service Provider, please visit our Partner Onboarding site. To begin, request the Global Intake Form from your nearest Regional Operations Team:
 
