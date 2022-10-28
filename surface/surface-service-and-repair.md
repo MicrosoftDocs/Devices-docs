@@ -19,26 +19,23 @@ appliesto:
 
 # Surface for Business service and repair
 
-Built with integrity by design, our latest Microsoft Surface devices are now easier to repair and maintain, enabling customers greater flexibility and extending the use of devices.
+Built with integrity by design, many Microsoft Surface devices are now easier to repair<sup>1</sup> and maintain, providing commercial customers with greater flexibility while extending the use of devices. Choose one of the following options:
 
-## Service and repair for your Surface for Business devices
-
-The latest Surface devices are now built for repair.  Choose one of the following options:
-
-- **Microsoft In Region Repair.** Repairs your device and returns it to you. Create a repair order and mail your device using the prepaid shipping label provided by Microsoft. For details, see Microsoft In Region Repair.
-- **Customer Self Repair.** Commercial customers can self-repair devices with replaceable components available to purchase from device resellers. For details, see Customer Self Service.
-- **Authorized Service Providers.** Microsoft has a network of Authorized Service Providers (ASPs) who perform repairs on Microsoft's behalf. For details, see Authorized Service Providers.
+- **Microsoft in-region repair.**  Send devices for repair and return shipping. Create a repair order and mail your device using the prepaid shipping label provided by Microsoft. For details, see [Microsoft in-region repair](microsoft-in-region-same-unit-repair.md).
+- **Customer Self Repair.**  Self-repair devices using replaceable components available from device resellers. For details, see [Customer self-serve repair](surface-customer-self-repair-surface.md).
+- **Authorized Service Providers.**  Send devices to an Authorized Service Provider (ASP) who perform repairs on Microsoft's behalf. For details, see [Surface repair by Microsoft Authorized Service Providers](authorized-service-providers.md).
 
 ## Microsoft Surface devices and replaceable components
 
+Microsoft recommends that only technically inclined individuals with the knowledge, experience, and requisite tools perform repairs in accordance with the relevant [Surface Services Guide instructions](https://www.microsoft.com/download/100440) available on the Microsoft Download Center. 
 
-Microsoft recommends that only technically inclined individuals with the knowledge, experience, and required tools perform repairs while following the instructions available in the relevant [Surface Services Guide](https://www.microsoft.com/download/100440) available on the [Microsoft Download Center](https://www.microsoft.com/download/default.aspx). Opening or repairing your device can present electric shock, device damage, fire and personal injury risks, and other hazards. Use caution if undertaking do-it-yourself repairs. Further, any damage you cause to the device or component will not be covered under Microsoft's Limited Hardware Warranty or protection plan.
+> [!CAUTION]
+> Opening or repairing your device can present electric shock, device damage, fire and personal injury risks, and other hazards. Use caution if undertaking do-it-yourself repairs. Further, any damage you cause to the device or component will not be covered under Microsoft's Limited Hardware Warranty or protection plan.
 
-- Replaceable components for Microsoft Surface devices can be purchased from a [Microsoft Authorized Device Reseller](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface).
-- Replaceable components have a 1-year Microsoft Limited Hardware Warranty. 2
+> [!NOTE]
+> Replaceable components have a 1-year Microsoft Limited Hardware Warranty and can be purchased from a [Microsoft Authorized Device Reseller](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface).
 
-:::image type="content" source="images/surface-repair-demo.png" alt-text="Surface repair example" :::
-
+:::image type="content" source="images/surface-service-repair/surface-repair-demo.png" alt-text="Surface repair example" :::
 
 ## Replaceable components for Surface devices
 
