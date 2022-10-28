@@ -17,7 +17,7 @@ appliesto:
 - Windows 11
 ---
 
-# Surface Advanced Exchange Replacement for Surface devices
+# Advanced Exchange Replacement for Surface devices
 
 Some commercial Microsoft Surface products and extended protection plans come with Advanced Exchange. If Microsoft determines your device needs to be replaced, you can replace your device with Advanced Exchange.
 
