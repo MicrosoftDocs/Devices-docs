@@ -25,7 +25,7 @@ Built with integrity by design, many Microsoft Surface devices are now easier to
 - **Customer Self Repair.**  Self-repair devices using replaceable components available from device resellers. For details, see [Customer self-serve repair](surface-customer-self-repair-surface.md).
 - **Authorized Service Providers.**  Send devices to an Authorized Service Provider (ASP) who perform repairs on Microsoft's behalf. For details, see [Surface repair by Microsoft Authorized Service Providers](authorized-service-providers.md).
 
-### Surface devices and replaceable components
+## Surface devices and replaceable components
 
 Microsoft recommends that only technically inclined individuals with the knowledge, experience, and requisite tools perform repairs in accordance with the relevant [Surface Services Guide instructions](https://www.microsoft.com/download/100440) available on the Microsoft Download Center. 
 
@@ -37,7 +37,6 @@ Microsoft recommends that only technically inclined individuals with the knowled
 
 :::image type="content" source="images/surface-service-repair/surface-repair-demo.png" alt-text="Surface repair example" :::
 
-## Replaceable components for Surface devices
 
 |Device              |Replaceable components                                                                                                                                                                                                                                                                                                                                                                           |
 | ------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
