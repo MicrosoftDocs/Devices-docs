@@ -186,9 +186,7 @@
         - name: Best practice power settings for Surface devices
           href: maintain-optimal-power-settings-on-Surface-devices.md  
         - name: Surface DMA Protection
-          href: dma-protect.md
-        - name: Best practices for SSD removal in compatible Surface devices
-          href: surface-ssd-removal-guide.md   
+          href: dma-protect.md   
         - name: Considerations for Surface & Endpoint Configuration Manager
           href: considerations-for-surface-and-system-center-configuration-manager.md
       - name: ARM devices
@@ -219,6 +217,10 @@
           href: https://support.microsoft.com/help/4493926/warranties-extended-service-plans-and-terms-conditions-for-your-device
         - name: Self-serve your Surface warranty & service requests
           href: self-serve-warranty-service.md 
+        - name: Check device warranty status
+          href: https://mybusinessservice.surface.com         
+        - name: Out of warranty repair & cost
+          href: https://support.microsoft.com/topic/how-much-does-out-of-warranty-service-cost-for-your-surface-device-or-accessory-4c77ac8a-e8c3-d0e4-7e8a-a29f768d43ff         
     - name: Commercial service & repair
       expanded: true
       items:        
@@ -235,9 +237,9 @@
             href: surface-customer-self-repair-surface.md
        - name: Next Business Day service
          href: surface-next-business-day-replacement.md
+       - name: Best practices for SSD removal in compatible Surface devices
+         href: surface-ssd-removal-guide.md
        - name: Advanced Exchange replacement
          href: surface-advanced-exchange-replacement.md
-       - name: Check device warranty status
-         href: https://mybusinessservice.surface.com
        - name: Protect data during service
          href: https://support.microsoft.com/help/4023508/surface-faq-protecting-your-data-service
