@@ -64,3 +64,12 @@ Downloadable service guides provide step-by-step instructions for servicing spec
 - [Surface Support](https://support.microsoft.com/surface/find-a-participating-best-buy-service-center-for-in-person-support-in-the-us-9c30c2ba-a8d3-4657-b9df-9c00239751a2)
 - [Global Customer Service phone numbers](https://support.microsoft.com/topic/global-customer-service-phone-numbers-c0389ade-5640-e588-8b0e-28de8afeb3f2)
 - [Purchase replaceable Components at our Authorized Resellers](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface#DEVICESRESELLERS)
+
+## Self help tips & tools
+
+- [Surface Diagnostic Toolkit for Business](surface-diagnostic-toolkit-business.md)
+- [Top support solutions for Surface devices](support-solutions-surface.md)
+- [Microsoft 365 admin center](https://admin.microsoft.com/adminportal/home?ref=homepage) (Microsoft Manager Centralized solution)
+- [Preparing Surface devices for service](https://support.microsoft.com/surface/how-to-prepare-your-surface-for-service-e6fe1f6a-c516-0cd5-5a96-0377d82e7fc5)
+- [Microsoft Packing and Shipping Instructions](https://support.microsoft.com/surface/packing-and-shipping-instructions-for-surface-devices-0847468e-0eaf-4b01-269f-566b71dcb373)
+- [Protect data during service](https://support.microsoft.com/help/4023508/surface-faq-protecting-your-data-service)
