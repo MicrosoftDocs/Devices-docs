@@ -1,6 +1,7 @@
 ---
 title: Surface repair by Microsoft Authorized Service Providers
 description: This article describes how Authorized service providers (ASPs) work closely with Microsoft to help resolve issues that may occur with your Microsoft devices. 
+ms.prod: w10
 ms.mktglfcycl: manage
 ms.localizationpriority: medium
 ms.sitesec: library
