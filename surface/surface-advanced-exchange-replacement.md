@@ -1,5 +1,5 @@
 ---
-title: Advanced Exchange Replacement for Surface devices
+title: Advanced Exchange replacement for Surface devices
 description: This article explains how use Advanced Exchange to service or repair eligible Surface devices
 ms.prod: w11
 ms.mktglfcycl: manage
@@ -17,7 +17,7 @@ appliesto:
 - Windows 11
 ---
 
-# Advanced Exchange Replacement for Surface devices
+# Advanced Exchange replacement for Surface devices
 
 Some commercial Microsoft Surface products and extended protection plans come with Advanced Exchange. If Microsoft determines your device needs to be replaced, you can replace your device with Advanced Exchange.
 
