@@ -57,3 +57,10 @@ Microsoft recommends that only technically inclined individuals with the knowled
 Downloadable service guides provide step-by-step instructions for servicing specific devices. This documentation and instructions are intended for use by skilled technicians and IT professionals only. 
 
 - [Download service guides](https://www.microsoft.com/download/confirmation.aspx?id=100440)
+
+## Support
+
+- [Microsoft Support](https://support.microsoft.com)
+- [Surface Support](https://support.microsoft.com/surface/find-a-participating-best-buy-service-center-for-in-person-support-in-the-us-9c30c2ba-a8d3-4657-b9df-9c00239751a2)
+- [Global Customer Service phone numbers](https://support.microsoft.com/topic/global-customer-service-phone-numbers-c0389ade-5640-e588-8b0e-28de8afeb3f2)
+- [Purchase replaceable Components at our Authorized Resellers](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface#DEVICESRESELLERS)
