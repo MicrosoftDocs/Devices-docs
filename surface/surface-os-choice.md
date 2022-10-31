@@ -8,7 +8,7 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 10/12/2022
+ms.date: 10/31/2022
 ms.reviewer: oayakta
 manager: laurawi
 audience: itpro
@@ -34,7 +34,7 @@ Commercial customers can choose to have Windows 10 or Windows 11 installed on ne
 
 ## Considerations for choosing your OS
 
-Whether you choose to purchase new Surface devices running Windows 11 or opt for Surface devices with Windows 10 may depend on your current corporate environment:
+Whether you choose to purchase new Surface devices running Windows 11 or opt for Surface devices with Windows 10<sup>1</sup> may depend on your current corporate environment:
 
 - **Windows 10 only.** Designed for customers who require Windows 10 out of the box and deploy devices using Windows Autopilot or Azure Active Directory domain join (AADJ). With **Windows 10 SKUs**, you avoid the need to compile driver packs and reimage devices before distributing them to users. It includes an additional fee of $30 per device (based on MSRP, actual pricing may vary) applicable to all eligible devices, as listed above, beginning August 1, 2022. 
 - **Windows 10 & Windows 11.** Designed for customers who use Windows 11 and also deploy Windows 10 via traditional deployment methods that rely on reimaging devices. With **Windows 11 SKUs**, you can take advantage of built-in downgrade rights to Windows 10 and load custom Windows 10 images on devices as needed.
@@ -75,6 +75,9 @@ Devices ship from the factory with one of the following OS versions, depending o
 
 Commercial customers can place orders for new devices via [authorized Microsoft Surface resellers](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface).
 
+### References
+
+1. Windows 10 Downgrade Facilitation SKU offered for Windows 11-capable devices.  
 
 ### Learn more
 
