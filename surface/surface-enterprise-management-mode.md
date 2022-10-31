@@ -13,7 +13,7 @@ ms.reviewer: hachidan
 manager: laurawi
 ms.localizationpriority: medium
 audience: itpro
-ms.date: 10/25/2022
+ms.date: 10/28/2022
 appliesto:
 - Windows 10
 - Windows 11
@@ -126,9 +126,15 @@ The following list shows all the available devices that you can manage in SEMM:
 - Bluetooth only
 - Wireless network and Bluetooth
 - Long-term evolution (LTE)
+- Discrete GPU (dGPU)
+- On-board microphone
+- MAC address emulation
+- Wired LAN
+- Near-field communication (NFC)
 
- >[!NOTE]
->On the UEFI Devices page, the built-in devices might vary, depending on your device or corporate environment. For example, the UEFI Devices page isn't supported on Surface Pro X; LTE appears only on LTE-equipped devices.
+
+> [!NOTE]
+> On the UEFI Devices page, the built-in devices might vary, depending on your device or corporate environment. For example, the UEFI Devices page isn't supported on Surface Pro X; LTE appears only on LTE-equipped devices.
 
 ### Configure advanced settings with SEMM
 
@@ -148,7 +154,11 @@ The following list shows all the available devices that you can manage in SEMM:
 | Devices                            | Displays the Surface UEFI **Devices** page. If you don't configure this setting,  the Devices page is displayed.                                                                                                                     |
 | Boot                               | Displays the Surface UEFI **Boot** page. If you don't configure this setting, the Boot page is displayed.                                                                                                                                                            |
 | DateTime                           | Displays the Surface UEFI **DateTime** page. If you don't configure this setting, the DateTime page is displayed.                                                                                                                |
-| EnableOSMigration                          | Allows you to migrate Surface Hub 2 from Windows 10 Team to Windows 10/11 Pro or Enterprise. If you don't configure this setting, Surface Hub 2 devices can run only the Windows 10 Team OS. Note: Dual booting between Windows 10 Team and Windows 10/11 Pro/Enterprise isn't available on Surface Hub 2.                                                                                                           |
+| EnableOSMigration                  | Allows you to migrate Surface Hub 2 from Windows 10 Team to Windows 10/11 Pro or Enterprise. If you don't configure this setting, Surface Hub 2 devices can run only the Windows 10 Team OS. Note: Dual booting between Windows 10 Team and Windows 10/11 Pro/Enterprise isn't available on Surface Hub 2.                                                                                                           |
+| Secured Core                       | Allows you to manage Secured Core functionality. If you don't configure this setting, Secured Core functionality is enabled on supported devices.                                                                                                         |
+| Wake on LAN                        | Allows you to manage Wake on LAN functionality. If you don't configure this setting, Wake on LAN is enabled on supported devices.                                                                                                            |
+| Wake on Power                      | Allows you to manage Wake on Power functionality. If you don't configure this setting, Wake on Power is enabled on supported devices.                                                                                                          |
+
 
 >[!TIP]
 >When you create a SEMM configuration package, two characters are shown on the **Successful** page, as shown in Figure 3.
@@ -287,6 +297,12 @@ valid and not expired.
 The PowerShell samples that create a config package for a specific device type can also be used to create a reset package that's serial-number independent. If the certificate is still valid, you can create a reset package using PowerShell to reset SEMM.
 
 ## Version history
+
+### Version 2.100.139.0 
+
+This version of SEMM includes:
+
+- Support for Surface Laptop 5, Surface Pro 9, Surface Pro 9 with 5G, and Surface Studio 2+
 
 ### Version 2.97.139.0
 
