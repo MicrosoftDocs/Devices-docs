@@ -39,6 +39,9 @@ Whether you choose to purchase new Surface devices running Windows 11 or opt for
 - **Windows 10 only.** Designed for customers who require Windows 10 out of the box and deploy devices using Windows Autopilot or Azure Active Directory domain join (AADJ). With **Windows 10 SKUs**, you avoid the need to compile driver packs and reimage devices before distributing them to users. It includes an additional fee of $30 per device (based on MSRP, actual pricing may vary) applicable to all eligible devices, as listed above, beginning August 1, 2022. 
 - **Windows 10 & Windows 11.** Designed for customers who use Windows 11 and also deploy Windows 10 via traditional deployment methods that rely on reimaging devices. With **Windows 11 SKUs**, you can take advantage of built-in downgrade rights to Windows 10 and load custom Windows 10 images on devices as needed.
 
+> [!TIP]
+> Microsoft Windows 10 Pro is preinstalled with Windows 10 downgrade software. It includes a license for the Downgrade Facilitation Product available via downgrade rights from Windows 11 Pro. The appropriate build is indicated in the [Windows OS versions](#windows-os-versions) section below. End users may use only one version at a time; switching between versions requires uninstalling the other version.
+
 **Table 1. OS choice summary**
 
 | Network environment     | Deployment method               | Recommended SKUs | Additional cost |
