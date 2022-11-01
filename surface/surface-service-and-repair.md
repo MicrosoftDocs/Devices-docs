@@ -21,7 +21,7 @@ appliesto:
 
 Built with integrity by design, many Microsoft Surface devices are now easier to repair<sup>1</sup> and maintain, providing commercial customers with greater flexibility while extending the use of devices. 
 
-There are several ways commercial customers can obtain service for Surface for Business devices. You can get service directly from Microsoft or use a third party Authorized Service Provider. Or you can repair devices yourself with skilled technicians following Microsoft instructions in downloadable service guides.
+There are several ways commercial customers can obtain service for Surface for Business devices. You can get service directly from Microsoft or use a third party Authorized Service Provider. Or with skilled technicians, you can repair devices yourself following official Microsoft instructions in downloadable service guides.
 
 Choose one of the following options:
 
