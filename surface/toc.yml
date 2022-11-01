@@ -111,7 +111,7 @@
           href: deploy-surface-app-with-windows-store-for-business.md
       - name: Surface tools
         items:   
-        - name: Surface Enterprise Management Mode
+        - name: Surface Enterprise Management Mode (SEMM)
           href: surface-enterprise-management-mode.md
           items:
           - name: Enroll & configure Surface devices with SEMM
