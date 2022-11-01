@@ -56,11 +56,19 @@ Microsoft recommends that only technically inclined individuals with the knowled
 | **Surface Studio 2+**  :::image type="content" source="images/surface-service-repair/studio-2-plus.png" alt-text="Surface Studio 2+" :::   | - Solid State Drive Door<br>- Motherboard<br>- Display/Screen (A/B-Cover)<br>- Thermal Module<br>- Power & Volume button                                                                                                                                                                                                                                                                             |
 | **Surface Laptop SE**  :::image type="content" source="images/surface-service-repair/laptop-se.png" alt-text="Surface Laptop SE" :::   | - Display (Sub-assembly)<br>- Keyboard (C-Cover)<br>- Bucket<br>- Feet & Screws<br>- Speaker & Wi-Fi Modules<br>- Removable solid-state drive (rSSD)                
 
-## Surface Service Guides
+## Surface service guides 
 
 Downloadable service guides provide step-by-step instructions for servicing specific devices. This documentation and instructions are intended for use by skilled technicians and IT professionals only. 
 
 - [Download service guides](https://www.microsoft.com/download/confirmation.aspx?id=100440)
+
+### Repair videos 
+
+Demos from Surface engineering show how to disassemble replaceable components, as documented in Surface service guides. 
+
+- [Surface Laptop Go 2](https://youtu.be/ZNzZbvkbmyo)
+- [Surface Laptop Studio](https://youtu.be/cnBAeUD0Li4)
+- [Surface Laptop SE](https://youtu.be/fVjjSqfp75g)
 
 ## Support
 
