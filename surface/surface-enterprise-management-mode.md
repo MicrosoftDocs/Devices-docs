@@ -157,7 +157,7 @@ The following list shows all the available devices that you can manage in SEMM:
 | EnableOSMigration                  | Allows you to migrate Surface Hub 2 from Windows 10 Team to Windows 10/11 Pro or Enterprise. If you don't configure this setting, Surface Hub 2 devices can run only the Windows 10 Team OS. Note: Dual booting between Windows 10 Team and Windows 10/11 Pro/Enterprise isn't available on Surface Hub 2.                                                                                                           |
 | Secured Core                       | Allows you to manage Secured Core functionality. If you don't configure this setting, Secured Core functionality is enabled on supported devices.                                                                                                         |
 | Wake on LAN                        | Allows you to manage Wake on LAN functionality. If you don't configure this setting, Wake on LAN is enabled on supported devices.                                                                                                            |
-| Wake on Power                      | Allows you to manage Wake on Power functionality. If you don't configure this setting, Wake on Power is enabled on supported devices.                                                                                                          |
+| Wake on Power                      | Allows you to manage Wake on Power functionality. If you don't configure this setting, Wake on Power is disabled on supported devices.                                                                                                          |
 
 
 >[!TIP]
