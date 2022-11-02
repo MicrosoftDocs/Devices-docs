@@ -24,8 +24,6 @@ Authorized Service Providers (ASPs) work closely with Microsoft to help resolve 
 ## Global ASP network
 
 The growing ASP network consists of more than 150 locations.  
-
-:::image type="content" source="images/surface-service-repair/aspnetworkmap.png" alt-text="Global map of Microsoft Authorized Service Providers" :::
  
 ### Americas
 

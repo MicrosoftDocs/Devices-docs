@@ -39,8 +39,6 @@ Microsoft recommends that only technically inclined individuals with the knowled
 > [!NOTE]
 > Replaceable components have a 1-year Microsoft Limited Hardware Warranty<sup>1</sup> and can be purchased from a [Microsoft Authorized Device Reseller](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface).
 
-:::image type="content" source="images/surface-service-repair/surface-repair-demo.png" alt-text="Surface repair example" :::
-
 
 |Device              |Replaceable components                                                                                                                                                                                                                                                                                                                                                                           |
 | ------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
