@@ -37,7 +37,7 @@ Microsoft recommends that only technically inclined individuals with the knowled
 > Opening or repairing your device can present electric shock, device damage, fire and personal injury risks, and other hazards. Use caution if undertaking do-it-yourself repairs. Further, any damage you cause to the device or component will not be covered under Microsoft's Limited Hardware Warranty or protection plan.
 
 > [!NOTE]
-> Replaceable components have a 1-year Microsoft Limited Hardware Warranty<sup>1</sup> and can be purchased from a [Microsoft Authorized Device Reseller](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface).
+> Replaceable components have a 1-year Microsoft Limited Hardware Warranty<sup>2</sup> and can be purchased from a [Microsoft Authorized Device Reseller](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface).
 
 
 |Device              |Replaceable components                                                                                                                                                                                                                                                                                                                                                                           |
@@ -86,5 +86,6 @@ Demos from Surface engineering show how to disassemble replaceable components, a
 
 ### References
 
-1. Microsoft’s Limited Warranty is in addition to your consumer law rights.
-2. Back cover (aka bucket) for Surface Pro 9 with 5G is currently unavailable in US. 
+1. Repairing your device with a replaceable component does not impact Microsoft’s Limited Warranty, however any damage to the device resulting from a repair performed by someone other than Microsoft or an Authorized Service Provider will not be covered under Microsoft’s warranty or protection plan.
+2. Microsoft’s Limited Warranty is in addition to your consumer law rights.
+3. Back cover (aka bucket) for Surface Pro 9 with 5G is currently unavailable in US. 
