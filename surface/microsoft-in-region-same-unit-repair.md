@@ -1,5 +1,5 @@
 ---
-title:  Microsoft In Region Same Unit Repair
+title:  Microsoft in-region same unit repair
 description: This article describes devices eligible for in-region same unit repair.
 ms.prod: w11
 ms.mktglfcycl: manage

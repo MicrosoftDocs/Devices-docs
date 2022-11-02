@@ -1,6 +1,6 @@
 ---
 title:  Customer self-serve repair for Surface devices
-description: This article explains how you can self-serve repair Surface devices
+description: This article explains how you can self-serve repair Surface devices.
 ms.prod: w10
 ms.mktglfcycl: manage
 ms.localizationpriority: medium
