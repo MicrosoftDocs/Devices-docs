@@ -29,9 +29,7 @@ landingContent:
           - text: Check out the new Surface devices
             url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/new-surface-devices/ba-p/1721766
           - text: Surface Management Portal
-            url: surface-management-portal.md
-          - text: OS choice for new Surface devices
-            url: surface-os-choice.md         
+            url: surface-management-portal.md    
           - text: Which Surface devices can be upgraded to Windows 11?
             url: https://support.microsoft.com/surface/which-surface-devices-can-be-upgraded-to-windows-11-76c3c125-82e0-4d1e-9550-12ed09f9058e
           - text: Explore all Surface family products
@@ -87,6 +85,17 @@ landingContent:
           - text: Manage DFCI on Surface devices
             url: surface-manage-dfci-guide.md
 
+    # Card
+  - title: Service & repair Surface
+    linkLists:
+      - linkListType: concept
+        links:
+          - text: Surface for Business service and repair
+            url: surface-service-and-repair.md 
+          - text: Downloadable Surface service guides 
+            url: https://www.microsoft.com/download/100440
+          - text: Surface repair videos
+            url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/bg-p/SurfaceITPro
 
  # Card
   - title: Troubleshoot
