@@ -75,6 +75,7 @@ Both VBS and HVCI are enabled out of the box in the following Surface devices:
 
 - Surface Pro 8
 - Surface Pro 9
+- Surface Pro 9 with 5G
 - Surface Laptop Studio
 - Surface Go 3
 - Surface Laptop 4
@@ -141,7 +142,7 @@ IT admins can remotely manage Surface devices without physically touching every 
 
 ## References
 
-1. Surface Go and Surface Go 2 use a third-party UEFI and do not support DFCI. DFCI is currently available for Surface Laptop SE, Surface Laptop Studio, Surface Pro 8, Surface Go 3, Surface Laptop 4, Surface Laptop Go, Surface Laptop Go 2, Surface Book 3, Surface Laptop 3, Surface Pro 7+, Surface Pro 7, and Surface Pro X.
+1. Surface Go and Surface Go 2 use a third-party UEFI and do not support DFCI. DFCI is currently available for Surface Studio 2+, Surface Pro 9 & Surface Pro 9 with 5G, Surface Laptop 5, Surface Laptop 4, Surface Laptop 3, Surface Laptop Studio, Surface Book 3, Surface Laptop SE, Surface Laptop Go 2, Surface Laptop Go, Surface Pro 8, Surface Pro 7+, Surface Pro 7, Surface Pro X, and Surface Go 3.
 
 ## Learn more
 
