@@ -30,7 +30,7 @@ As an alternative to SEMM, newer Surface devices support remote management of a 
 > [!NOTE]
 > SEMM is supported on Surface Pro X via the UEFI Manager only. For more information, refer to [Deploying, managing, and servicing Surface Pro X](surface-pro-arm-app-management.md).
 
-#### Download and install Microsoft Surface UEFI Configurator
+## Download and install Microsoft Surface UEFI Configurator
 
 The tool used to create SEMM packages is Microsoft Surface UEFI Configurator. You can download Microsoft Surface UEFI Configurator from the [Surface Tools for IT](https://www.microsoft.com/download/details.aspx?id=46703) page in the Microsoft Download Center.
 Run the Microsoft Surface UEFI Configurator Windows Installer (.msi) file to start the installation of the tool. When the installer completes, find Microsoft Surface UEFI Configurator in the All Apps section of your Start menu.

@@ -64,21 +64,7 @@ To enable Surface driver updates management in Configuration Manager, follow the
 
 1. On the Products tab, select the products that you want to update, and then select **OK**.
 
-   Most drivers belong to the following product groups:
-
-   - Windows 10 and later version drivers
-   - Windows 10 and later Upgrade & Servicing Drivers
-   - Windows 10 Anniversary Update and Later Servicing Drivers
-   - Windows 10 Anniversary Update and Later Upgrade & Servicing Drivers
-   - Windows 10 Creators Update and Later Servicing Drivers
-   - Windows 10 Creators Update and Later Upgrade & Servicing Drivers
-   - Windows 10 Fall Creators Update and Later Servicing Drivers
-   - Windows 10 Fall Creators Update and Later Upgrade & Servicing Drivers
-   - Windows 10 S and Later Servicing Drivers
-   - Windows 10 S Version 1709 and Later Servicing Drivers for testing
-   - Windows 10 S Version 1709 and Later Upgrade & Servicing Drivers for testing
-
-   > [!NOTE]
+   > [!TIP]
    > Most Surface drivers belong to multiple Windows 10 or Windows 11 product groups. You may not have to select all the products that are listed here. To help reduce the number of products that populate your Update Catalog, we recommend that you select only the products that are required by your environment for synchronization.
 
 ## Verifying the configuration
