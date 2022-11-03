@@ -33,8 +33,8 @@ The Battery Limit UEFI setting is built into Surface devices by default includin
 - Surface Laptop Studio
 - Surface Laptop Go
 - Surface Laptop Go 2
-- Surface Studio 2
 - Surface Laptop SE
+- Surface Go and later
 
  Earlier devices require a
  [Surface UEFI firmware update](manage-surface-driver-and-firmware-updates.md), available through Windows Update or via the MSI driver and firmware packages on the [Surface Support site](https://support.microsoft.com/help/4023482/surface-download-drivers-and-firmware-for-surface). Check [Enable "Battery Limit" for Surface devices that have to be plugged in for extended periods of time](https://support.microsoft.com/help/4464941) for the specific Surface UEFI version required for each supported device.
