@@ -54,12 +54,10 @@ landingContent:
     linkLists:
       - linkListType: video
         links:
-         - text: Demystifying AI NPU and Machine Learning within Microsoft Surface
-           url: https://youtu.be/3i8-mougnKo
-         - text: Advanced Security and Management Solutions for Hybrid Work from Microsoft Surface 
-           url: https://youtu.be/UkJDfjkCTK4
          - text: Zero Touch Deployment with Surface & AutoPilot
            url: https://youtu.be/WQ-wg8fRzN0
+         - text: Surface Pro X and Windows on ARM in a remote world
+           url: https://youtu.be/bDw77ZQNPPw
          - text: Surface Security – Chip to Cloud Modern Endpoint Protection from Microsoft
            url: https://youtu.be/uadAecDbqf4
  
@@ -97,7 +95,7 @@ landingContent:
           - text: Downloadable Surface service guides 
             url: https://www.microsoft.com/download/100440
           - text: Surface repair videos
-            url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/service-amp-repair-for-surface-devices/ba-p/3667517
+            url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/bg-p/SurfaceITPro
 
  # Card
   - title: Troubleshoot

@@ -72,7 +72,7 @@
           href: surface-device-compatibility-with-windows-10-ltsc.md
         - name: Long-Term Servicing Branch for Surface devices
           href: ltsb-for-surface.md
-        - name: Ethernet adapters and Surface deployment
+        - name: Ethernet adapters & Surface deployment
           href: ethernet-adapters-and-surface-device-deployment.md
         - name: Surface System SKU reference
           href: surface-system-sku-reference.md
@@ -89,7 +89,7 @@
           href: /mem/intune/fundamentals/surface-management-portal
       - name: Windows Autopilot
         items:      
-        - name: Windows Autopilot and Surface devices
+        - name: Windows Autopilot & Surface devices
           href: windows-autopilot-and-surface-devices.md
         - name: Surface Registration Support for Windows Autopilot
           href: surface-autopilot-registration-support.md
@@ -114,7 +114,7 @@
         - name: Surface Enterprise Management Mode (SEMM)
           href: surface-enterprise-management-mode.md
           items:
-          - name: Enroll and configure Surface devices with SEMM
+          - name: Enroll & configure Surface devices with SEMM
             href: enroll-and-configure-surface-devices-with-semm.md
           - name: Unenroll Surface devices from SEMM
             href: unenroll-surface-devices-from-semm.md
@@ -141,9 +141,9 @@
           href: surface-dock-firmware-update.md 
       - name : Manage updates
         items:
-        - name: Manage and deploy Surface driver and firmware updates
+        - name: Manage & deploy Surface driver & firmware updates
           href: manage-surface-driver-and-firmware-updates.md     
-        - name: Surface driver and firmware lifecycle for Windows-based devices
+        - name: Surface driver & firmware lifecycle for Windows-based devices
           href: surface-driver-firmware-lifecycle-support.md
         - name: Manage Surface driver updates in Configuration Manager
           href: manage-surface-driver-updates-configuration-manager.md
@@ -186,10 +186,8 @@
         - name: Best practice power settings for Surface devices
           href: maintain-optimal-power-settings-on-Surface-devices.md  
         - name: Surface DMA Protection
-          href: dma-protect.md
-        - name: Best practices for SSD removal in compatible Surface devices
-          href: surface-ssd-removal-guide.md   
-        - name: Considerations for Surface and Endpoint Configuration Manager
+          href: dma-protect.md   
+        - name: Considerations for Surface & Endpoint Configuration Manager
           href: considerations-for-surface-and-system-center-configuration-manager.md
       - name: ARM devices
         items:          
@@ -206,26 +204,45 @@
       items: 
         - name: Top support solutions for Surface devices
           href: support-solutions-surface.md
-        - name: Surface IT Pro Blog
-          href: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/bg-p/SurfaceITPro
         - name: Help for end-users
           href: https://support.microsoft.com/products/surface-devices
         - name: Contact Surface Support
           href: contact-surface-support.md
-    - name: Warranty & service
+    - name: Commercial warranty & protection 
       expanded: true
-      items:  
-        - name: Surface driver and firmware lifecycle for Windows-based devices
-          href: surface-driver-firmware-lifecycle-support.md     
-        - name: Surface for Business warranty and protection plans
+      items:   
+        - name: Surface for Business warranty & protection plans
           href: https://www.microsoft.com/surface/business/warranty-service-offerings-and-support
-        - name: Terms & Conditions
+        - name: Warranty & protection plan terms & conditions
           href: https://support.microsoft.com/help/4493926/warranties-extended-service-plans-and-terms-conditions-for-your-device
-        - name: Next Business Day service
-          href: surface-next-business-day-replacement.md
-        - name: Check device warranty status
-          href: https://mybusinessservice.surface.com/
         - name: Self-serve your Surface warranty & service requests
           href: self-serve-warranty-service.md 
-        - name: Protecting data when sending Surface in for service
-          href: https://support.microsoft.com/help/4023508/surface-faq-protecting-your-data-service
+        - name: Check device warranty status
+          href: https://mybusinessservice.surface.com         
+        - name: Out of warranty repair & cost
+          href: https://support.microsoft.com/topic/how-much-does-out-of-warranty-service-cost-for-your-surface-device-or-accessory-4c77ac8a-e8c3-d0e4-7e8a-a29f768d43ff         
+    - name: Commercial service & repair
+      expanded: true
+      items:        
+       - name: Surface for Business service & repair
+         href: surface-service-and-repair.md
+       - name: Service & repair options
+         expanded: true
+         items:
+          - name: Microsoft in-region repair
+            href: microsoft-in-region-same-unit-repair.md
+          - name: Authorized service providers
+            href: authorized-service-providers.md
+          - name: Customer self-service repair
+            href: surface-customer-self-repair-surface.md
+          - name: Service & repair features
+            expanded: true
+            items:
+            - name: Next Business Day service
+              href: surface-next-business-day-replacement.md
+            - name: Best practices for SSD removal in compatible Surface devices
+              href: surface-ssd-removal-guide.md
+            - name: Advanced Exchange replacement
+              href: surface-advanced-exchange-replacement.md
+            - name: Protect data during service
+              href: https://support.microsoft.com/help/4023508/surface-faq-protecting-your-data-service

@@ -69,4 +69,3 @@ Microsoft regularly releases both updates and solutions for Surface devices. To 
 - [DISK0 not found when you deploy Windows on Surface Pro Model 1796 or Surface Laptop](https://support.microsoft.com/help/4046108)
 - [Surface Pro Model 1796 and Surface Laptop 1TB display two drives](https://support.microsoft.com/help/4046105)
 - [System SKU reference](surface-system-sku-reference.md)
-
