@@ -1,5 +1,5 @@
 ---
-title: Surface Laptop 5 overview
+title: Surface Laptop 5 for Business overview
 description: This article provides an overview of the new Surface Laptop 5.
 ms.prod: w11
 ms.mktglfcycl: manage
@@ -17,7 +17,7 @@ appliesto:
 - Windows 11
 ---
 
-# Surface Laptop 5 overview
+# Surface Laptop 5 for Business overview
 
 :::image type="content" source="images/surface-laptop-5-for-business.png" alt-text="Illustration that shows the Surface Laptop 5 for Business." :::
 

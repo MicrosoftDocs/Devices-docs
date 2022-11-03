@@ -1,5 +1,5 @@
 ---
-title: Surface Studio 2+ overview
+title: Surface Studio 2+ for Business overview
 description: This article provides an overview of the new Surface Studio 2+.
 ms.prod: w11
 ms.mktglfcycl: manage
@@ -16,7 +16,7 @@ appliesto:
 - Windows 11
 ---
 
-# Surface Studio 2+ overview
+# Surface Studio 2+ for Business overview
 
 :::image type="content" source="images/surface-studio-2-plus-for-business.png" alt-text="Illustration that shows the Surface Studio 2+ for Business." :::
 

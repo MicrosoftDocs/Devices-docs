@@ -1,5 +1,5 @@
 ---
-title: Surface Pro 9 overview
+title: Surface Pro 9 for Business overview
 description: This article provides an overview of the new Surface Pro 9 and Surface Pro 9 with 5G
 ms.prod: w11
 ms.mktglfcycl: manage
@@ -17,7 +17,7 @@ appliesto:
 - Windows 11
 ---
 
-# Surface Pro 9 overview
+# Surface Pro 9 for Business overview
 
 :::image type="content" source="images/surface-pro-9.png" alt-text="Illustration that shows the Surface Pro 9." :::
 
