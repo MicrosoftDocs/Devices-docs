@@ -28,8 +28,8 @@ landingContent:
         links:
           - text: Check out the new Surface devices
             url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/new-surface-devices/ba-p/1721766
-          - text: Surface Management Portal
-            url: surface-management-portal.md    
+          - text: Surface for Business service and repair
+            url: surface-service-and-repair.md  
           - text: Which Surface devices can be upgraded to Windows 11?
             url: https://support.microsoft.com/surface/which-surface-devices-can-be-upgraded-to-windows-11-76c3c125-82e0-4d1e-9550-12ed09f9058e
           - text: Explore all Surface family products
@@ -40,10 +40,8 @@ landingContent:
     linkLists:
       - linkListType: get-started
         links:
-         - text: Surface Laptop Studio graphics overview
-           url: surface-laptop-studio-graphics.md
-         - text: Surface Laptop 4 processors overview 
-           url: surface-laptop-processors.md
+         - text: Explore Surface interactive tour
+           url: https://surfacestories.exploresurface.com
          - text: Azure Virtual Desktop on Surface
            url: windows-virtual-desktop-surface.md
          - text: Remote work solutions with Surface
@@ -54,10 +52,12 @@ landingContent:
     linkLists:
       - linkListType: video
         links:
+         - text: Demystifying AI NPU and Machine Learning within Microsoft Surface
+           url: https://youtu.be/3i8-mougnKo
+         - text: Advanced Security and Management Solutions for Hybrid Work from Microsoft Surface 
+           url: https://youtu.be/UkJDfjkCTK4
          - text: Zero Touch Deployment with Surface & AutoPilot
            url: https://youtu.be/WQ-wg8fRzN0
-         - text: Surface Pro X and Windows on ARM in a remote world
-           url: https://youtu.be/bDw77ZQNPPw
          - text: Surface Security – Chip to Cloud Modern Endpoint Protection from Microsoft
            url: https://youtu.be/uadAecDbqf4
  
@@ -78,7 +78,7 @@ landingContent:
     linkLists:
       - linkListType: how-to-guide
         links:
-          - text: Surface Enterprise Management Mode
+          - text: Surface Enterprise Management Mode (SEMM)
             url: surface-enterprise-management-mode.md 
           - text: Manage and deploy Surface driver and firmware updates
             url: manage-surface-driver-and-firmware-updates.md
@@ -86,7 +86,7 @@ landingContent:
             url: surface-manage-dfci-guide.md
 
     # Card
-  - title: Service & repair Surface
+  - title: Surface service & repair 
     linkLists:
       - linkListType: concept
         links:
@@ -95,8 +95,8 @@ landingContent:
           - text: Downloadable Surface service guides 
             url: https://www.microsoft.com/download/100440
           - text: Surface repair videos
-            url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/bg-p/SurfaceITPro
-
+            url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/service-amp-repair-for-surface-devices/ba-p/3667517
+ 
  # Card
   - title: Troubleshoot
     linkLists:
