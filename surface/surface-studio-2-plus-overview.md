@@ -29,7 +29,7 @@ Executives and advanced professionals need high-productivity, high-powered devic
 - The 11th Intel® Core™ i7-11375H processor gives employees the power they need for multitasking or high-powered apps. 
 - The NVIDIA® GeForce RTX® 3060 Laptop GPU provides the best GPU of any Surface device and features the latest RT Cores, Tensor Cores, and streaming multiprocessors.
 - Improved camera experience for conferencing and auto color management for display
-- Multiple ports help your employees craft the workspace they need to perform, with 3 USB-C ports , Thunderbolt™ 4, native external display support for up to three 4K UHD displays at 60Hz
+- Multiple ports help your employees craft the workspace they need to perform, with 3 USB-C ports, Thunderbolt™ 4, native external display support for up to three 4K UHD displays at 60Hz
 - Your sensitive data is protected with Secured-core PCs on Windows 11, making them the most secure Windows PC
 - Get more out of your device with more replaceable components. Major components in Surface Studio 2+ including the display module, feet, SSD module, PSU, thermal module, motherboard, are replaceable or repairable through a network of approved service providers.
 
