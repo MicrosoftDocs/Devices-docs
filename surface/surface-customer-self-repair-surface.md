@@ -34,5 +34,5 @@ There are no certifications required to repair or service a Surface device. Stil
 
 ## References
 
-1. Customer self-repair is only available on Microsoft devices with a removable component per the product’s technical specifications. Microsoft recommends that self-repair be performed by technically inclined individuals with the knowledge, experience and required tools, while following a [Microsoft Service Guide]((https://www.microsoft.com/download/100440)). 
+1. Customer self-repair is only available on Microsoft devices with a removable component per the product’s technical specifications. Microsoft recommends that self-repair be performed by technically inclined individuals with the knowledge, experience and required tools, while following a [Microsoft Service Guide](https://www.microsoft.com/download/100440). 
 1. Microsoft’s Limited Warranty is in addition to any right you may have under consumer or other laws applicable to you.
