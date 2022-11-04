@@ -34,7 +34,7 @@ Choose one of the following options:
 Microsoft recommends that only technically inclined individuals with the knowledge, experience, and requisite tools perform repairs in accordance with the relevant [Surface Services Guide instructions](https://www.microsoft.com/download/100440) available on the Microsoft Download Center. 
 
 > [!CAUTION]
-> Opening or repairing your device can present electric shock, device damage, fire and personal injury risks, and other hazards. Use caution if undertaking do-it-yourself repairs. Further, any damage you cause to the device or component will not be covered under Microsoft's Limited Hardware Warranty or protection plan.
+> Opening or repairing your device can present electric shock, device damage, fire and personal injury risks, and other hazards. Use caution if undertaking do-it-yourself repairs. Further, any resulting damage caused will not be covered under Microsoft's Limited Hardware Warranty or purchased protection plan.
 
 > [!NOTE]
 > Replaceable components have a 1-year Microsoft Limited Hardware Warranty<sup>3</sup> and can be purchased from a [Microsoft Authorized Device Reseller](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface).
@@ -87,6 +87,6 @@ Demos from Surface engineering show how to disassemble replaceable components, a
 ### References
 
 1. Repairing your device with a replaceable component does not impact Microsoft’s Limited Warranty, however any damage to the device resulting from a repair performed by someone other than Microsoft or an Authorized Service Provider will not be covered under Microsoft’s warranty or protection plan.
-1. Microsoft recommends that only technically inclined individuals with the knowledge, experience, and required tools perform the repair while following the instructions available in the relevant Surface Services Guide available on the Microsoft Download Center. Opening and/or repairing your device can present electric shock, device damage, fire and personal injury risks, and other hazards. Use caution if undertaking do-it-yourself repairs
-1. Microsoft’s Limited Warranty is in addition to your consumer law rights.
+1. Customer self-repair is only available on Microsoft devices with a removable component per the product’s technical specifications. Microsoft recommends that self-repair be performed by technically inclined individuals with the knowledge, experience and required tools while following a Microsoft Service Guide. Opening or repairing your device can present various risks, such as electric shock, device damage, fire and personal injury risks, and other hazards. Use caution if undertaking do-it-yourself repairs. Further, any resulting damage caused will not be covered under Microsoft’s Limited Hardware Warranty or purchased protection plan.
+1. Microsoft’s Limited Hardware Warranty is in addition to any right you may have under consumer or other laws applicable to you.
 1. Back cover (aka bucket) for Surface Pro 9 with 5G is only available in select markets and is currently unavailable in US. 
