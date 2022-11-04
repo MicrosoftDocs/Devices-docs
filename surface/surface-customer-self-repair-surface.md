@@ -21,7 +21,7 @@ appliesto:
 
 Maximize user productivity by reducing device downtime, giving your in-house skilled technicians the flexibility to repair these devices using well-defined self-repair guidance or swap devices—whatever best fits your organization’s priorities and business needs.
 
-Skilled technicians can self-repair<sup>1</sup>  components of Surface devices following the appropriate Microsoft [Surface Service Guide](https://www.microsoft.com/download/100440).
+Skilled technicians can self-repair<sup>1</sup>  components of Surface devices following the appropriate Microsoft [Surface Service Guide](https://www.microsoft.com/download/100440).There are no certifications required to repair or service a Surface device. 
 
 > [!CAUTION]
 > Opening or repairing your device can present various risks, such as electric shock, device damage, fire and personal injury risks, and other hazards. Use caution if undertaking do-it-yourself repairs. 
@@ -29,8 +29,6 @@ Skilled technicians can self-repair<sup>1</sup>  components of Surface devices f
 Microsoft replaceable components are used to service or repair Surface devices and can support both in-warranty and out-of-warranty scenarios. Replaceable components have a 1-year Limited Hardware Warranty.<sup>2</sup> Replaceable components are available for purchase through [Microsoft's Authorized Distributors and Resellers](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface#DEVICESRESELLERS).
 
 Repairing your device with a replaceable component does not impact Microsoft's Limited Warranty; however, any damage to the device resulting from a repair performed by someone other than Microsoft or an Authorized Service Provider will not be covered under Microsoft's warranty or extended protection plans.
-
-There are no certifications required to repair or service a Surface device. Still, Microsoft recommends that only technically inclined individuals with the knowledge, experience, and required tools perform repairs. 
 
 ## References
 
