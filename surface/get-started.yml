@@ -56,10 +56,9 @@ landingContent:
            url: https://youtu.be/3i8-mougnKo
          - text: Advanced Security and Management Solutions for Hybrid Work from Microsoft Surface 
            url: https://youtu.be/UkJDfjkCTK4
-         - text: Zero Touch Deployment with Surface & AutoPilot
-           url: https://youtu.be/WQ-wg8fRzN0
-         - text: Surface Security – Chip to Cloud Modern Endpoint Protection from Microsoft
-           url: https://youtu.be/uadAecDbqf4
+         - text: Satya Nadella Full Keynote
+           url: https://youtu.be/pdSfgRYy8Ao
+
  
   # Card
   - title: Deploy Surface devices
