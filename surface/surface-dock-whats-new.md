@@ -8,7 +8,7 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 10/19/2021
+ms.date: 11/07/2022
 ms.reviewer: brrecord
 manager: laurawi
 audience: itpro
@@ -61,6 +61,7 @@ Surface Dock 2 is designed to simplify IT management, enabling admins to automat
   - Surface Pro X
   - Surface Laptop 3
   - Surface Laptop 4
+  - Surface Laptop 5
   - Surface Pro 9 
   - Surface Pro 9 with 5G
 
