@@ -67,6 +67,7 @@ Before you migrate Surface Hub from Windows 10 Team to Windows 10 Desktop, you n
 1. On the Surface Hub 2S home page, select **Start**, and then open the Surface app (**All Apps** > **Surface**).
 
 1. Select **Your Surface** to display information about Surface Hub, including the current UEFI version on the device.
+
    - If the UEFI version is *694.2938.768.0* or later, as the following image shows, you can create the SEMM package to enable OS migration.
 
        ![Screenshot shows the "Your Surface" page in the Surface app.](images/shm-fig1.png)
@@ -165,7 +166,7 @@ The SEMM package that Surface UEFI Configurator creates must be secured with a c
 
 1. Select **Surface Hub 2S**, and then select **Next**.
 
-    ![Screenshot shows where to select Surface Hub 2S.](images/shm-fig10.png)
+      ![Screenshot shows where to select Surface Hub 2S.](images/shm-fig10.png)
 
 1. Select **Next** again.
 
