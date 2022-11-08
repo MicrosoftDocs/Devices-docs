@@ -130,9 +130,9 @@ The SEMM package that Surface UEFI Configurator creates must be secured with a c
 
    ![Screenshot shows "Select Configuration Package" selected.](images/shm-fig4.png)
 
-1. Select **Windows Installer (MSI)**.
+1. Select **DFI File**.
 
-   ![Screenshot shows "Windows Installer (MSI)" selected.](images/shm-fig4a.png)
+   ![Screenshot shows "DFI File" selected.](images/shm-fig4a.png)
   
 1. Select **Certificate Protection**.
 
