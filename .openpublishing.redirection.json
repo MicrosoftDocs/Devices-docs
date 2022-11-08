@@ -168,7 +168,7 @@
         {
             "source_path":  "surface-duo/contact-surface-duo-support.md",
             "redirect_url":  "/surface/contact-surface-business-education-support",
-            "redirect_document_id":  true
+            "redirect_document_id":  false
         }
     ]
 }
