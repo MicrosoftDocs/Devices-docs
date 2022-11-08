@@ -176,7 +176,7 @@ The SEMM package that Surface UEFI Configurator creates must be secured with a c
 
      ![Screenshot shows where to select Enable O S Migration.](images/shm-fig11.png)
 
-       ![Screenshot shows where to set Enable OS Migration to on.](images/shm-fig12.png)
+     ![Screenshot shows where to set Enable OS Migration to on.](images/shm-fig12.png)
 
 ### Manage SEMM enrollment
 
