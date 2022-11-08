@@ -66,10 +66,10 @@ Before you migrate Surface Hub from Windows 10 Team to Windows 10 Desktop, you n
 
 1. On the Surface Hub 2S home page, select **Start**, and then open the Surface app (**All Apps** > **Surface**).
 
-2. Select **Your Surface** to display information about Surface Hub, including the current UEFI version on the device.
+1. Select **Your Surface** to display information about Surface Hub, including the current UEFI version on the device.
    - If the UEFI version is *694.2938.768.0* or later, as the following image shows, you can create the SEMM package to enable OS migration.
 
-    ![Screenshot shows the "Your Surface" page in the Surface app.](images/shm-fig1.png)
+       ![Screenshot shows the "Your Surface" page in the Surface app.](images/shm-fig1.png)
 
    - If the UEFI version is earlier than version *694.2938.768.0*, use one of the following methods to get a newer version
 
@@ -87,9 +87,9 @@ Before you migrate Surface Hub from Windows 10 Team to Windows 10 Desktop, you n
 #### Update the UEFI via bare metal recovery (BMR) image
 
 1. Go to the [Surface recovery site](https://support.microsoft.com/surfacerecoveryimage) and select **Surface Hub 2S**.
-3. Enter your Hub serial number. It's located on the back of the Hub next to the power connection.
-4. Follow the directions to download the image onto a formatted USB drive by installing the Windows 10 Team 2020 Update.
-5. After the update, the device enters out-of-box-experience (OOBE) setup. You don't need to complete setup. The UEFI version is already updated. Instead power down the device by holding the power button until the screen turns off.
+1. Enter your Hub serial number. It's located on the back of the Hub next to the power connection.
+1. Follow the directions to download the image onto a formatted USB drive by installing the Windows 10 Team 2020 Update.
+1. After the update, the device enters out-of-box-experience (OOBE) setup. You don't need to complete setup. The UEFI version is already updated. Instead power down the device by holding the power button until the screen turns off.
 
 ### Download Surface UEFI Configurator and Surface Hub 2 drivers and firmware
 
@@ -97,7 +97,6 @@ On a separate PC, follow these steps:
 
 1. On the <a href="https://www.microsoft.com/download/details.aspx?id=46703" target="_blank"> Surface Tools for IT page</a>, select **Download**.  
 1. Select and download the Surface UEFI Configurator MSI file, and install it on a separate PC. The Surface UEFI Configurator tool can't be run on a Surface Hub 2S while Windows 10 Team edition is installed.
-
 1. Download the [Surface Hub 2 drivers and firmware Windows Installer MSI file](https://www.microsoft.com/download/details.aspx?id=101974). You'll use this file when you install the new operating system.
 
 ### Prepare the SEMM certificate
@@ -120,42 +119,42 @@ The SEMM package that Surface UEFI Configurator creates must be secured with a c
 
 1. Open Surface UEFI Configurator, and then select **Start**.
 
-   ![Surface UEFI Configurator start screen.](images/shm-fig2.png)
+      ![Surface UEFI Configurator start screen.](images/shm-fig2.png)
 
 1. Select **Surface Devices**, and then select **Next**.
 
-   ![Screenshot shows the Surface Devices option selected.](images/shm-fig3.png)
+      ![Screenshot shows the Surface Devices option selected.](images/shm-fig3.png)
   
 1. Select **Configuration Package**.
 
-   ![Screenshot shows "Select Configuration Package" selected.](images/shm-fig4.png)
+      ![Screenshot shows "Select Configuration Package" selected.](images/shm-fig4.png)
 
 1. Select **DFI File**.
 
-   ![Screenshot shows "DFI File" selected.](images/shm-fig4a.png)
+      ![Screenshot shows "DFI File" selected.](images/shm-fig4a.png)
   
 1. Select **Certificate Protection**.
 
-   ![Screenshot shows were to choose "Select Certificate Protection".](images/shm-fig5.png)
+      ![Screenshot shows were to choose "Select Certificate Protection".](images/shm-fig5.png)
 
    You'll be prompted to add your certificate .pfx file.
 
-   ![Screenshot shows where to add your certificate file.](images/shm-fig6.png)
+      ![Screenshot shows where to add your certificate file.](images/shm-fig6.png)
 
 1. Enter your certificate password, and then select **OK**.
 
-   ![Screenshot shows fields to enter and confirm your certificate password.](images/shm-fig7.png)
+      ![Screenshot shows fields to enter and confirm your certificate password.](images/shm-fig7.png)
 
 1. Select **Password Protection** to add a password to the Surface UEFI. You'll need this password whenever you boot to the UEFI. *We strongly recommend that you set a UEFI password that you'll use on Surface Hub 2S.*
 
-   ![Screenshot shows where to select Password Protection.](images/shm-fig8.png)
+      ![Screenshot shows where to select Password Protection.](images/shm-fig8.png)
 
 1. Set a UEFI password, and then select **OK**.
 
    > [!IMPORTANT]
    > Save the password in a secure location that's accessible to your IT admins who manage Surface Hub. *If this password is lost, it can't be recovered.*
 
-   ![Screenshot shows where you set the UEFI password.](images/shm-fig9.png)
+      ![Screenshot shows where you set the UEFI password.](images/shm-fig9.png)
 
 1. Select **Surface Hub 2S**, and then select **Next**.
 
@@ -163,13 +162,13 @@ The SEMM package that Surface UEFI Configurator creates must be secured with a c
 
 1. Select **Next** again.
 
-    ![Screenshot shows to select Next under "Choose which components".](images/shm-fig10a.png)
+       ![Screenshot shows to select Next under "Choose which components".](images/shm-fig10a.png)
 
 1. To allow installation of Windows 10/11 Pro or Enterprise, turn on **EnableOsMigration**, and then select **Next**.
 
-    ![Screenshot shows where to select Enable O S Migration.](images/shm-fig11.png)
+       ![Screenshot shows where to select Enable O S Migration.](images/shm-fig11.png)
 
-    ![Screenshot shows where to set Enable OS Migration to on.](images/shm-fig12.png)
+       ![Screenshot shows where to set Enable OS Migration to on.](images/shm-fig12.png)
 
 ### Manage SEMM enrollment
 
@@ -193,20 +192,20 @@ If you choose to restore your device to Windows 10 Team after the migration [as 
 1. Connect a USB drive to your PC.
 1. Choose **Hub 2S**, and then select **Next**.
 
-   ![Screenshot shows where to select Hub 2S.](images/shm-fig13.png)
+      ![Screenshot shows where to select Hub 2S.](images/shm-fig13.png)
 
    > [!WARNING]
    > All existing data on the USB drive will be erased when the SEMM package is built. Before you build the SEMM package, remove any files that you need from the USB drive.
 
 1. Select **Build**.
 
-   ![Screenshot shows where to select Build.](images/shm-fig14.png)
+      ![Screenshot shows where to select Build.](images/shm-fig14.png)
 
 1. Capture a screenshot of this page, and then select **End**. Your SEMM package is now ready. It contains the SEMM package *DfciUpdate.dfi* and a text file that includes the SEMM *thumbprint*, which is the last two characters of the certificate's thumbprint.
 
-   ![Screenshot shows where to select End.](images/shm-fig15.png)
+      ![Screenshot shows where to select End.](images/shm-fig15.png)
 
-4. Save the certificate thumbprint's last two characters. You'll need these characters to activate SEMM when you apply the package on Surface Hub 2S.
+1. Save the certificate thumbprint's last two characters. You'll need these characters to activate SEMM when you apply the package on Surface Hub 2S.
 
 ### Load a USB flash drive with a Windows 10 image, SEMM package, and Surface Hub 2 drivers and firmware
 
@@ -228,28 +227,28 @@ The following steps show how to create a USB flash drive from installation media
 1. Insert a new USB storage drive.
 1. Open the media creation tool, select **Create installation media**, and then select **Next**.
 
-   ![Screenshot shows the option to create installation media.](images/shm-fig16.png)
+      ![Screenshot shows the option to create installation media.](images/shm-fig16.png)
 
-3. Select a language, and then select **Windows 10** and **64-bit (x64)**. Then select **Next**.
+1. Select a language, and then select **Windows 10** and **64-bit (x64)**. Then select **Next**.
 
-   ![Screenshot shows where you select the language, O S edition, and architecture type.](images/shm-fig17.png)
+      ![Screenshot shows where you select the language, O S edition, and architecture type.](images/shm-fig17.png)
 
-4. Select **USB flash drive**, and then select **Next**.
+1. Select **USB flash drive**, and then select **Next**.
 
-   ![Screenshot shows where to select U S B flash drive.](images/shm-fig18.png)
+      ![Screenshot shows where to select U S B flash drive.](images/shm-fig18.png)
 
-5. When the download finishes, select **Finish**.
+1. When the download finishes, select **Finish**.
 
-   ![Screen reports that the U S B drive is ready and includes a Finish button.](images/shm-fig19.png)
+      ![Screen reports that the U S B drive is ready and includes a Finish button.](images/shm-fig19.png)
 
-6. Copy the SEMM package files and the drivers and firmware for Windows 10 Pro and Enterprise OS on Surface Hub 2 (the MSI file) to the root of the USB flash drive (*BOOTME*) that contains your Windows 10 image. The BOOTME USB drive will contain:
+1. Copy the SEMM package files and the drivers and firmware for Windows 10 Pro and Enterprise OS on Surface Hub 2 (the MSI file) to the root of the USB flash drive (*BOOTME*) that contains your Windows 10 image. The BOOTME USB drive will contain:
 
-    - Your Windows 10 bootable image.
+   - Your Windows 10 bootable image.
 
-    - The SEMM package files, copied to the root of the USB drive:
+   - The SEMM package files, copied to the root of the USB drive:
 
-      - *DfciUpdate.dfi*.
-      - A text file that includes the SEMM thumbprint. (In this example, the file is *SurfaceUEFI_2020Aug25_1058.txt*.) The automatically generated date-time stamp corresponds to the date that you created the file by using Surface UEFI Configurator.
+     - *DfciUpdate.dfi*.
+     - A text file that includes the SEMM thumbprint. (In this example, the file is *SurfaceUEFI_2020Aug25_1058.txt*.) The automatically generated date-time stamp corresponds to the date that you created the file by using Surface UEFI Configurator.
 
    - The drivers and firmware for Windows 10 Pro and Enterprise OS on Surface Hub 2 (SurfaceHub2S_Win10_18362_20.082.25682.0.msi). Copy this file to the root of the USB drive.
 
@@ -262,25 +261,23 @@ The following steps show how to create a USB flash drive from installation media
    1. Turn off (shut down) your Surface Hub 2S.
    1. Press and hold **Volume +**, and then press and release the power button. Keep holding **Volume +** until the UEFI menu appears.
 
-      ![Drawing shows the volume and power buttons.](images/shm-fig20.png)
+         ![Drawing shows the volume and power buttons.](images/shm-fig20.png)
+1. When the device restarts, enter the UEFI password that you created earlier, if applicable (recommended).
 
-3. When the device restarts, enter the UEFI password that you created earlier, if applicable (recommended).
+      ![System password screen.](images/shm-fig22.png)
+1. From the UEFI menu, select **Management**. Then select  **Install from USB**.
 
-   ![System password screen.](images/shm-fig22.png)
+      ![Screenshot shows where to select Management and then "Install from U S B".](images/shm-fig21.png)
 
-4. From the UEFI menu, select **Management**. Then select  **Install from USB**.
+1. Select **Restart now**, as the following image shows. The device will restart. It will display a white Microsoft logo in the middle of the window and then shut down.
 
-   ![Screenshot shows where to select Management and then "Install from U S B".](images/shm-fig21.png)
+      ![Screenshot shows a message prompting you to restart.](images/shm-fig25.png)
 
-5. Select **Restart now**, as the following image shows. The device will restart. It will display a white Microsoft logo in the middle of the window and then shut down.
+1. Press and release the power button. In the red dialog box that appears, choose to activate Surface Enterprise Management Mode.
 
-   ![Screenshot shows a message prompting you to restart.](images/shm-fig25.png)
+1. Enter your two-character certificate thumbprint and your UEFI settings password. Then select **OK**.
 
-6. Press and release the power button. In the red dialog box that appears, choose to activate Surface Enterprise Management Mode.
-
-7. Enter your two-character certificate thumbprint and your UEFI settings password. Then select **OK**.
-
-   ![Screenshot shows the confirm-activation dialog box where you enter your two-character certificate thumbprint and your UEFI settings password.](images/shm-fig23.png)
+      ![Screenshot shows the confirm-activation dialog box where you enter your two-character certificate thumbprint and your UEFI settings password.](images/shm-fig23.png)
 
    > [!NOTE]
    > After you activate SEMM on your device, the new UEFI setting **EnableOSMigration** is applied. You can no longer access Windows 10 Team. Instead, you must continue to the next step and install Windows 10 Pro or Windows 10 Enterprise.
@@ -291,15 +288,15 @@ The following steps show how to create a USB flash drive from installation media
 
 1. If your bootable Windows 10/11 Pro or Enterprise drive isn't already in the Surface Hub 2 USB-A port, insert it now. Then press and release the power button.
 
-    When the device starts, you'll see the white logo in the middle of the screen. Then a spinning circle appears below the white logo.
+   When the device starts, you'll see the white logo in the middle of the screen. Then a spinning circle appears below the white logo.
 
-3. If the Surface device doesn't automatically boot to the USB drive, power off the device (unplug the power cord and then plug it back in). After you plug in the power cord again, the device should boot after a few seconds. Then you'll see the white logo in the middle of screen.
+1. If the Surface device doesn't automatically boot to the USB drive, power off the device (unplug the power cord and then plug it back in). After you plug in the power cord again, the device should boot after a few seconds. Then you'll see the white logo in the middle of screen.
 
-    If the device doesn't turn on, press and release the power button. Immediately after you see the logo in the middle of the screen, press and hold the Volume down button until you see the spinning circle below the white logo.
+   If the device doesn't turn on, press and release the power button. Immediately after you see the logo in the middle of the screen, press and hold the Volume down button until you see the spinning circle below the white logo.
 
-   ![Picture of the volume and power buttons.](images/shm-fig26.png)
+         ![Picture of the volume and power buttons.](images/shm-fig26.png)
 
-4. When the out-of-box experience (OOBE) setup starts, follow the instructions to install Windows 10/11 Pro or Enterprise (version *20H2* or later).
+1. When the out-of-box experience (OOBE) setup starts, follow the instructions to install Windows 10/11 Pro or Enterprise (version *20H2* or later).
 
 ### Install Surface Hub 2 drivers and firmware
 
@@ -310,14 +307,14 @@ To ensure that your Surface Hub 2 is up to date, install [drivers and firmware f
 To configure Surface Hub 2S as a personal productivity device, see [Configure Windows 10/11 Pro or Enterprise on Surface Hub 2](surface-hub-2-post-install.md).
 
 > [!NOTE]
->If you can't successfully migrate your device to Windows 10/11 Pro or Enterprise for Surface Hub 2 by following the steps outlined in this article, contact [Surface Hub Support](https://support.microsoft.com/help/4037644/surface-contact-surface-warranty-and-software-support).
+> If you can't successfully migrate your device to Windows 10/11 Pro or Enterprise for Surface Hub 2 by following the steps outlined in this article, contact [Surface Hub Support](https://support.microsoft.com/help/4037644/surface-contact-surface-warranty-and-software-support).
 
 ## To roll back to Windows 10 Team
 
 If you want to restore your device to Windows 10 Team, see [Reset and recovery for Surface Hub 2S](surface-hub-2s-recover-reset.md). Before you roll back to Windows 10 Team, we recommend that you first unenroll the Surface Hub from SEMM. To learn more, see [Unenroll Surface devices from SEMM](/surface/unenroll-surface-devices-from-semm).
 
->[!WARNING]
->To unenroll a device from SEMM and restore user control of Surface UEFI settings, you must have the SEMM certificate that was used to enroll the device in SEMM. If this certificate becomes lost or corrupted, it is not possible to unenroll from SEMM. Back up and protect your SEMM certificate accordingly.
+> [!WARNING]
+> To unenroll a device from SEMM and restore user control of Surface UEFI settings, you must have the SEMM certificate that was used to enroll the device in SEMM. If this certificate becomes lost or corrupted, it is not possible to unenroll from SEMM. Back up and protect your SEMM certificate accordingly.
 
 ## Version history
 
