@@ -55,7 +55,7 @@ Unlike other Surface devices, you cannot use an MSI file or a Win PE image to ap
 1. After importing the private key, continue creating the package.<br>
 ![* Continue creating the package *.](images/sh2-uefi4.png) <br><br>
 1. Choose **Hub** and **Surface Hub 2S** as the target for the UEFI configuration package.<br>
-![* Choose Hub and Surface Hub 2S as the target for the UEFI configuration package *.](images/sh2-uefi5.png) <br><br>
+![* Choose Surface Hub 2S as the target for the UEFI configuration package *.](images/shm-fig10.png) <br><br>
 1. Choose the components and settings you want to activate or deactivate on Surface Hub 2S.<br>
 ![* Choose the components and settings you want to activate or deactivate *.](images/sh2-uefi6.png) <br><br>
 1. Use the USB option to export the file.<br>
