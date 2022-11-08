@@ -9,7 +9,7 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 12/14/2020
+ms.date: 11/08/2022
 ms.localizationpriority: Medium
 appliesto:
 - Surface Hub 2S
@@ -129,6 +129,10 @@ The SEMM package that Surface UEFI Configurator creates must be secured with a c
 1. Select **Configuration Package**.
 
    ![Screenshot shows "Select Configuration Package" selected.](images/shm-fig4.png)
+
+1. Select **Windows Installer (MSI)**.
+
+   ![Screenshot shows "Windows Installer (MSI)" selected.](images/shm-fig4a.png)
   
 1. Select **Certificate Protection**.
 
