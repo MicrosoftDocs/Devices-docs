@@ -122,7 +122,7 @@ conceptualContent:
     # Card 9
     - title: Surface Duo help
       links:
-        - url: https://support.microsoft.com/en-us/surface
+        - url: https://support.microsoft.com/surface
           itemType: learn
           text: Contact Surface Duo Support for end users
         - url: /surface/contact-surface-business-education-support
