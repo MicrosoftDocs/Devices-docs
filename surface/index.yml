@@ -122,9 +122,12 @@ conceptualContent:
     # Card 9
     - title: Surface Duo help
       links:
-        - url: /surface-duo/contact-surface-duo-support
+        - url: https://support.microsoft.com/en-us/surface
           itemType: learn
-          text: Contact Surface Duo Support
+          text: Contact Surface Duo Support for end users
+        - url: /surface/contact-surface-business-education-support
+          itemType: learn
+          text: Contact Surface Duo Support for Business and Education customers
         - url: /dual-screen/android/get-duo-sdk?tabs=windows
           itemType: learn
           text: Get the Surface Duo SDK
