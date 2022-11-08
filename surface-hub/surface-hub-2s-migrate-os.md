@@ -170,11 +170,11 @@ The SEMM package that Surface UEFI Configurator creates must be secured with a c
 
 1. Select **Next** again.
 
-       ![Screenshot shows to select Next under "Choose which components".](images/shm-fig10a.png)
+     ![Screenshot shows to select Next under "Choose which components".](images/shm-fig10a.png)
 
 1. To allow installation of Windows 10/11 Pro or Enterprise, turn on **EnableOsMigration**, and then select **Next**.
 
-       ![Screenshot shows where to select Enable O S Migration.](images/shm-fig11.png)
+     ![Screenshot shows where to select Enable O S Migration.](images/shm-fig11.png)
 
        ![Screenshot shows where to set Enable OS Migration to on.](images/shm-fig12.png)
 
@@ -307,7 +307,7 @@ The following steps show how to create a USB flash drive from installation media
 
    If the device doesn't turn on, press and release the power button. Immediately after you see the logo in the middle of the screen, press and hold the Volume down button until you see the spinning circle below the white logo.
 
-         ![Picture of the volume and power buttons.](images/shm-fig26.png)
+     ![Picture of the volume and power buttons.](images/shm-fig26.png)
 
 1. When the out-of-box experience (OOBE) setup starts, follow the instructions to install Windows 10/11 Pro or Enterprise (version *20H2* or later).
 
