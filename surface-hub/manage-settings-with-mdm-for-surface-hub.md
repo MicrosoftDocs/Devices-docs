@@ -35,17 +35,17 @@ You can enroll Surface into Microsoft Intune or other MDM provider via manual or
 
 ### Auto Enrollment — Azure AD affiliated
 
-During the initial setup process, when affiliating Surface Hub with an Azure Active Directory (AD) tenant that has Intune auto enrollment enabled, the device will automatically enroll with Intune. To learn more, refer to [Intune enrollment methods for Windows devices](/intune/enrollment/windows-enrollment-methods). Azure AD affiliation and Intune auto enrollment is required for the Surface Hub to be a "compliant device" in Intune. 
+During the initial setup process, when affiliating Surface Hub with an Azure Active Directory (AD) tenant that has Intune auto enrollment enabled, the device will automatically enroll with Intune. To learn more, refer to [Intune enrollment methods for Windows devices](/intune/enrollment/windows-enrollment-methods). Azure AD affiliation and Intune auto enrollment are required for the Surface Hub to be a "compliant device" in Intune. 
 
 ## Manage Surface Hub Windows 10 Team settings with Intune
 
 The foundational building block of policy settings management in Intune and other MDM providers is the XML-based Open Mobile Alliance-Device Management (OMA-DM) protocol. Windows implements OMA-DM XML via one of many available Configuration service providers (CSPs) with names like AccountManagement CSP, DeviceStatus CSP, WiFi-CSP, and so on. For a complete list, refer to [CSPs supported in Microsoft Surface Hub](/windows/client-management/mdm/configuration-service-provider-support#csps-supported-in-microsoft-surface-hub).
 
-Microsoft Intune and other MDM providers use CSPs to deliver a UI that enables you to configure policy settings within Configuration profiles. Intune uses the Surface Hub CSP for its built in profile —  **Device restrictions (Windows 10 Team)** — letting you configure basic settings such as preventing Surface Hub from "waking up" whenever anyone moves nearby within its proximity range. To manage Hub settings and features outside of Intune's built-in profile, you'll need to use a custom profile, as [shown below](#create-custom-configuration-profile). 
+Microsoft Intune and other MDM providers use CSPs to deliver a UI that enables you to configure policy settings within Configuration profiles. Intune uses the Surface Hub CSP for its built-in template —  **Device restrictions (Windows 10 Team)** — letting you configure basic settings such as preventing Surface Hub from "waking up" whenever anyone moves nearby within its proximity range. To manage Hub settings and features outside of Intune's built-in profile, you'll need to use a custom profile, as [shown below](#create-custom-configuration-profile). 
 
 To summarize, options to configure and manage policy settings within Intune include the following: 
  
-- **Create a Device restriction profile.** Use Intune's built in profile and configure settings directly in the Intune UI. See [Create device restriction profile](#create-device-restriction-profile).
+- **Create a Device restriction profile.** Use Intune's built-in Surface Hub template and configure settings directly in the Intune UI. See [Create device restriction profile](#create-device-restriction-profile).
 - **Create a Device configuration profile.**  Select a template focused on a specific feature or technology such as Microsoft Defender or security certificates. See [Create Device configuration profile](#create-device-configuration-profile).
 - **Create a Custom configuration profile.**  Extend your scope of management using an OMA Uniform Resource Identifier (OMA URI) from any of the [CSPs supported in Microsoft Surface Hub](/windows/client-management/mdm/configuration-service-provider-support#csps-supported-in-microsoft-surface-hub). See [Create custom configuration profile](#create-custom-configuration-profile).
 
