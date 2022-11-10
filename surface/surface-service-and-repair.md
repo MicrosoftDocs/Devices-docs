@@ -8,7 +8,7 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 11/02/2022
+ms.date: 11/10/2022
 ms.reviewer: oayakta
 manager: laurawi
 audience: itpro
@@ -70,9 +70,8 @@ Demos from Surface engineering show how to disassemble replaceable components, a
 
 ## Support
 
-- [Microsoft Support](https://support.microsoft.com)
-- [Surface Support](https://support.microsoft.com/surface/find-a-participating-best-buy-service-center-for-in-person-support-in-the-us-9c30c2ba-a8d3-4657-b9df-9c00239751a2)
-- [Global Customer Service phone numbers](https://support.microsoft.com/topic/global-customer-service-phone-numbers-c0389ade-5640-e588-8b0e-28de8afeb3f2)
+- [Surface Support for Business and Education customers](contact-surface-business-education-support.md)
+- [In-store Support](https://support.microsoft.com/surface/find-a-participating-best-buy-service-center-for-in-person-support-in-the-us-9c30c2ba-a8d3-4657-b9df-9c00239751a2)
 - [Purchase replaceable Components at our Authorized Resellers](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface#DEVICESRESELLERS)
 
 ## Self help tips & tools
