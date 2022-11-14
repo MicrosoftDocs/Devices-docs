@@ -69,7 +69,7 @@ Click on the relevant support article from the table below and follow the recomm
 
 ## Enterprise (Deploy, Manage, IT Tools)
 
-[Surface devices documentation](get-started.md)
+[Surface devices documentation](get-started.yml)
 
 [Surface Registration Support for Windows Autopilot](surface-autopilot-registration-support.md)
 
