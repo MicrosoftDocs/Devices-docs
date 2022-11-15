@@ -9,7 +9,7 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 02/15/2022
+ms.date: 11/15/2022
 ms.localizationpriority: Medium
 appliesto:
 - Surface Hub
