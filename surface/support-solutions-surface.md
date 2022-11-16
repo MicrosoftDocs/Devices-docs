@@ -25,18 +25,15 @@ appliesto:
 > [!NOTE]
 > **Home users**: This article is only intended for use by IT professionals and technical support agents, and applies only to Surface devices. If you're looking for help with a problem with your home device, please see [Surface Devices Help](https://support.microsoft.com/products/surface-devices).
 
-These are the Microsoft Support solutions for common issues you may experience using Surface devices in an enterprise. If your issue is not listed here, [contact Surface Support](https://surface.com/help).
+These are the Microsoft Support solutions for common issues you may experience using Surface devices in an enterprise. If your issue is not listed here, contact [Surface Support for Business and Education customers](https://surface.com/help).
 
 ## Warranty and service
 
 ### Self-Serve your Surface Service Orders on the Microsoft 365 Hardware Support Portal
 
-The Microsoft 365 Hardware Support Portal provides a centralized solution for commercial customers to look up current warranty and protection plans, create service requests, and track the status of device repairs. Learn more about this service by watching the demo video or reading the walkthrough tutorial.
+The Microsoft 365 Hardware Support Portal provides a centralized solution for commercial customers to look up current warranty and protection plans, create service requests, and track the status of device repairs. Learn more about this service by watching the [demo video](https://www.microsoft.com/videoplayer/embed/RE4Y55A) or reading the [walkthrough tutorial](https://opdhsblobprod04-secondary.blob.core.windows.net/contents/c431470c962e48af91a266cb2568e19a/9fbcdaa53e1a41dbcac90477966078a6?skoid=2d004ef0-5468-4cd8-a5b7-14c04c6415bc&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2022-11-14T03%3A35%3A21Z&ske=2022-11-21T03%3A40%3A21Z&sks=b&skv=2020-10-02&sv=2020-08-04&se=2022-11-16T18%3A45%3A36Z&sr=b&sp=r&sig=h3igiCEwFuB1R8qswMH8P4QdCEH7MF4dh38nXvSeIzk%3D).
 
-To access the portal, sign in to your M365 Admin Center (active access is required) and then register to use the platform by using this link.
-
-> [!IMPORTANT]
-> To expedite your support request, make sure to include your device(s) serial number and your shipping address in the Issue Description field.
+To access the portal, sign in to your M365 Admin Center (active access is required) and then register to use the platform by using this [link](https://admin.microsoft.com/adminportal/home#/support/microsofthardwaresupport).
 
 > [!NOTE]
 > This service does not address Surface accessories, Surface Hub, or product safety concerns.
@@ -87,4 +84,4 @@ Click on the relevant support article from the table below and follow the recomm
 
 ## Need more help?
 
-If your issue was not listed or you need more help, contact [Surface Support](contact-surface-support.md).
+To expedite your support request, make sure to include your device(s) serial number and your shipping address in the Issue Description field. If your issue was not listed or you need more help, contact [Surface Support for Business and Education customers](contact-surface-business-education-support.md).
