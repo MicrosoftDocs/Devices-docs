@@ -1,6 +1,6 @@
 ---
 title: Surface hardware rugged testing
-description: This article lists results of Surface hardware rugged testing
+description: This article lists results of Surface hardware rugged testing.
 ms.prod: w11
 ms.mktglfcycl: manage
 ms.localizationpriority: medium
@@ -19,38 +19,46 @@ appliesto:
 
 # Surface hardware rugged testing
 
-Draft intro text
+Surface devices are built to meet rigorous conditions that include harsh drops and vibration, high temperatures, along with mechanical and functional tests. This helps ensure strong reliability and lower cost of ownership.
+
+:::image type="content" source="images/surface-family.png" alt-text="Surface device family" :::
+
+The MIL-STD-810-G and MIL-STD-810-H test standards, created by the U.S. government, helps organizations evaluate how devices perform in the field. It outlines multiple test methods across a range of environmental stress conditions.
+
+Operational tests pass if the unit remained operational during the entire test, and non-operational tests pass if a functional verification was performed immediately after the test exposure.
 
 ## Surface Laptop family
 
-| Test                                      | Surface Laptop SE | Surface Laptop Go 2* | Surface Laptop Go | Surface Laptop Studio | Surface Laptop 4 13” AMD | Surface Laptop 4 13” Intel | Surface Laptop 4 15” AMD | Surface Laptop 4 15” Intel | Surface Laptop 3 | Surface Laptop 2 | Surface Laptop |
-| ----------------------------------------- | ----------------- | -------------------- | ----------------- | --------------------- | ------------------------ | -------------------------- | ------------------------ | -------------------------- | ---------------- | ---------------- | -------------- |
-| **Bench Handling**                        | Pass              | Pass                 | Pass              | Pass                  | Pass                     | Pass                       | Pass                     | Pass                       | Pass             | Pass             | Pass           |
-| **Blowing Dust**                          | Pass              | Pass                 | Pass              | Pass                  | Pass                     | Pass                       | Pass                     | Pass                       | Pass             | Pass             | Pass           |
-| **Blowing Sand**                          | Pass              | Pass                 | Pass              | Pass                  | Pass                     | Pass                       | Pass                     | Pass                       | Pass             | Pass             | No             |
-| **Crash Safety Shock**                    | Pass              | Pass                 | Pass              | Pass                  | Pass                     | Pass                       | Pass                     | Pass                       | Pass             | Pass             | Pass           |
-| **Explosive Atmosphere**                  | Pass              | Pass                 | Pass              | Pass                  | Pass                     | Pass                       | Pass                     | Pass                       | Pass             | Pass             | No             |
-| **Freeze/Thaw**                           | Pass              | Pass                 | Pass              | Pass                  | Pass                     | Pass                       | Pass                     | Pass                       | Pass             | Pass             | Pass           |
-| **Function Shock**                        | Pass              | Pass                 | Pass              | Pass                  | Pass                     | Pass                       | Pass                     | Pass                       | Pass             | Pass             | Pass           |
-| **High Altitude Operation**               | Pass              | Pass                 | Pass              | Pass                  | Pass                     | Pass                       | Pass                     | Pass                       | Pass             | Pass             | Pass           |
-| **High Altitude Storage**                 | Pass              | Pass                 | Pass              | Pass                  | Pass                     | Pass                       | Pass                     | Pass                       | Pass             | Pass             | Pass           |
-| **High Temperature Operating (Constant)** | Pass              | Pass                 | Pass              | Pass                  | Pass                     | Pass                       | Pass                     | Pass                       | Pass             | Pass             | Pass           |
-| **High Temperature Storage (Constant)**   | Pass              | Pass                 | Pass              | Pass                  | Pass                     | Pass                       | Pass                     | Pass                       | Pass             | Pass             | Pass           |
-| **High Temperature Storage (cyclic)**     | Pass              | Pass                 | Pass              | Pass                  | Pass                     | Pass                       | Pass                     | Pass                       | Pass             | Pass             | Pass           |
-| **Humidity**                              | Pass              | Pass                 | Pass              | Pass                  | Pass                     | No                         | Pass                     | Pass                       | Pass             | Pass             | Pass           |
-| **Low Temperature Operating**             | Pass              | Pass                 | Pass              | Pass                  | Pass                     | Pass                       | Pass                     | Pass                       | Pass             | Pass             | Pass           |
-| **Low Temperature Storage**               | Pass              | Pass                 | Pass              | Pass                  | Pass                     | Pass                       | Pass                     | Pass                       | Pass             | Pass             | Pass           |
-| **Temperature Shock**                     | n/a               | n/a                  | n/a               | n/a                   | n/a                      | n/a                        | n/a                      | n/a                        | Pass             | No               | n/a            |
-| **Thermal Shock**                         | Pass              | Pass                 | Pass              | Pass                  | Pass                     | Pass                       | Pass                     | Pass                       | Pass             | No               | No             |
-| **Transit Drop**                          | Pass              | Pass                 | Pass              | Pass                  | Pass                     | Pass                       | Pass                     | Pass                       | Pass             | Pass             | Pass           |
-| **Vibration Ground Vehicle**              | Pass              | Pass                 | Pass              | Pass                  | Pass                     | Pass                       | Pass                     | Pass                       | Pass             | Pass             | Pass           |
-| **Vibration Minimum Integrity**           | Pass              | Pass                 | Pass              | Pass                  | Pass                     | Pass                       | Pass                     | Pass                       | Pass             | Pass             | Pass           |
+:::image type="content" source="images/surface-laptop-studio.png" alt-text="Surface Laptop Studio" :::
 
- 
+| Test                                      | Surface Laptop Studio | Surface Laptop 4 13” AMD | Surface Laptop 4 13” Intel | Surface Laptop 4 15” AMD | Surface Laptop SE | Surface Laptop Go 2* | Surface Laptop Go | Surface Laptop 4 15” Intel | Surface Laptop 3 | Surface Laptop 2 | Surface Laptop |
+| ----------------------------------------- | --------------------- | ------------------------ | -------------------------- | ------------------------ | ----------------- | -------------------- | ----------------- | -------------------------- | ---------------- | ---------------- | -------------- |
+| **Bench Handling**                        | Pass                  | Pass                     | Pass                       | Pass                     | Pass              | Pass                 | Pass              | Pass                       | Pass             | Pass             | Pass           |
+| **Blowing Dust**                          | Pass                  | Pass                     | Pass                       | Pass                     | Pass              | Pass                 | Pass              | Pass                       | Pass             | Pass             | Pass           |
+| **Blowing Sand**                          | Pass                  | Pass                     | Pass                       | Pass                     | Pass              | Pass                 | Pass              | Pass                       | Pass             | Pass             | No             |
+| **Crash Safety Shock**                    | Pass                  | Pass                     | Pass                       | Pass                     | Pass              | Pass                 | Pass              | Pass                       | Pass             | Pass             | Pass           |
+| **Explosive Atmosphere**                  | Pass                  | Pass                     | Pass                       | Pass                     | Pass              | Pass                 | Pass              | Pass                       | Pass             | Pass             | No             |
+| **Freeze/Thaw**                           | Pass                  | Pass                     | Pass                       | Pass                     | Pass              | Pass                 | Pass              | Pass                       | Pass             | Pass             | Pass           |
+| **Function Shock**                        | Pass                  | Pass                     | Pass                       | Pass                     | Pass              | Pass                 | Pass              | Pass                       | Pass             | Pass             | Pass           |
+| **High Altitude Operation**               | Pass                  | Pass                     | Pass                       | Pass                     | Pass              | Pass                 | Pass              | Pass                       | Pass             | Pass             | Pass           |
+| **High Altitude Storage**                 | Pass                  | Pass                     | Pass                       | Pass                     | Pass              | Pass                 | Pass              | Pass                       | Pass             | Pass             | Pass           |
+| **High Temperature Operating (Constant)** | Pass                  | Pass                     | Pass                       | Pass                     | Pass              | Pass                 | Pass              | Pass                       | Pass             | Pass             | Pass           |
+| **High Temperature Storage (Constant)**   | Pass                  | Pass                     | Pass                       | Pass                     | Pass              | Pass                 | Pass              | Pass                       | Pass             | Pass             | Pass           |
+| **High Temperature Storage (cyclic)**     | Pass                  | Pass                     | Pass                       | Pass                     | Pass              | Pass                 | Pass              | Pass                       | Pass             | Pass             | Pass           |
+| **Humidity**                              | Pass                  | Pass                     | No                         | Pass                     | Pass              | Pass                 | Pass              | Pass                       | Pass             | Pass             | Pass           |
+| **Low Temperature Operating**             | Pass                  | Pass                     | Pass                       | Pass                     | Pass              | Pass                 | Pass              | Pass                       | Pass             | Pass             | Pass           |
+| **Low Temperature Storage**               | Pass                  | Pass                     | Pass                       | Pass                     | Pass              | Pass                 | Pass              | Pass                       | Pass             | Pass             | Pass           |
+| **Temperature Shock**                     | n/a                   | n/a                      | n/a                        | n/a                      | n/a               | n/a                  | n/a               | n/a                        | Pass             | No               | n/a            |
+| **Thermal Shock**                         | Pass                  | Pass                     | Pass                       | Pass                     | Pass              | Pass                 | Pass              | Pass                       | Pass             | No               | No             |
+| **Transit Drop**                          | Pass                  | Pass                     | Pass                       | Pass                     | Pass              | Pass                 | Pass              | Pass                       | Pass             | Pass             | Pass           |
+| **Vibration Ground Vehicle**              | Pass                  | Pass                     | Pass                       | Pass                     | Pass              | Pass                 | Pass              | Pass                       | Pass             | Pass             | Pass           |
+| **Vibration Minimum Integrity**           | Pass                  | Pass                     | Pass                       | Pass                     | Pass              | Pass                 | Pass              | Pass                       | Pass             | Pass             | Pass           |
+
 * Surface Laptop Go 2 results from MIL-STD-810H test.
 
- 
 ## Surface Pro family
+
+:::image type="content" source="images/surface-pro.png" alt-text="Surface Pro" :::
 
 | Test                                      | Surface Pro X SQ2 | Surface Pro 8 | Surface Pro 7+ | Surface Pro 7 | Surface Pro 6 | Surface Pro 5 LTE |
 | ----------------------------------------- | ----------------- | ------------- | -------------- | ------------- | ------------- | ----------------- |
@@ -74,8 +82,9 @@ Draft intro text
 | **Vibration Ground Vehicle**              | Pass              | Pass          | Pass           | Pass          | Pass          | Pass              |
 | **Vibration Minimum Integrity**           | Pass              | Pass          | Pass           | Pass          | Pass          | Pass              |
 
- 
 ## Surface Book family
+
+:::image type="content" source="images/surface-book-3.png" alt-text="Surface Book 3" :::
 
 | Test                                      | Surface Book 3 | Surface Book 2 | Surface Book |
 | ----------------------------------------- | -------------- | -------------- | ------------ |
@@ -99,9 +108,9 @@ Draft intro text
 | **Vibration Ground Vehicle**              | Pass           | Pass           | Pass         |
 | **Vibration Minimum Integrity**           | Pass           | Pass           | Pass         |
 
- 
-
 ## Surface Go family
+
+:::image type="content" source="images/surface-go-3.png" alt-text="Surface Go 3" :::
 
 | Test                                      | Surface Go 3 | Surface Go 2 | Surface Go 2 (LTE) | Surface Go |
 | ----------------------------------------- | ------------ | ------------ | ------------------ | ---------- |
@@ -128,6 +137,8 @@ Draft intro text
 
 ## Surface Duo
 
+:::image type="content" source="images/surface-duo-2.png" alt-text="Surface Duo 2" :::
+
 | Test                                      | Surface Duo 2 |
 | ----------------------------------------- | ------------- |
 | **Bench Handling**                        | Pass          |
@@ -149,5 +160,3 @@ Draft intro text
 | **Transit Drop**                          | Pass          |
 | **Vibration Ground Vehicle**              | Pass          |
 | **Vibration Minimum Integrity**           | Pass          |
-
-## Learn more
