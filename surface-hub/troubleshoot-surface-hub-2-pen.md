@@ -21,7 +21,7 @@ If you encounter issues with your Surface Hub 2 pen, follow the troubleshooting 
 
 1. First, make sure your pen has a working battery. If the indicator light on the pen shows **solid white**, the pen is ready for use. If the indicator light shows **solid red** or no light, replace the battery on the pen. The Surface Hub 2S pen requires a single **AAA battery.**
 :::image type="content" source="images/hub-2-pen-start.png" alt-text="Surface Hub 2 Pen" :::
-2. If the pen is not functioning as expected, pair it to Surface Hub 2S via Bluetooth to ensure it’s running the latest firmware. Press and hold the Eraser and top button until the indicator light starts blinking. This enables the pen to be discoverable via Bluetooth.
+2. If the pen isn't functioning as expected, pair it to Surface Hub 2S via Bluetooth to ensure it’s running the latest firmware. Press and hold the Eraser and top button until the indicator light starts blinking. This enables the pen to be discoverable via Bluetooth.
 
 > [!TIP]
 > If the indicator light does not start blinking (even with new a new battery), try reseating the eraser cap.
@@ -29,7 +29,7 @@ If you encounter issues with your Surface Hub 2 pen, follow the troubleshooting 
 1. Navigate to **Settings** > **sign in as an administrator** and select **Devices (Bluetooth, printers, mouse).**
 2. Ensure Bluetooth is turned **On.**
 3. If the pen is already connected to the Surface Hub, you should see **Surface Hub 2 Pen** listed under **Mouse, keyboard, & pen.**
-4. If you do not see the pen listed here, select the **+** button to **Add Bluetooth or other device.**
+4. If you don't see the pen listed here, select the **+** button to **Add Bluetooth or other device.**
 5. Once you see the **Surface Hub 2 Pen** listed in the results, you can add the pen from here.
 
 :::image type="content" source="images/hub-2-pen-bluetooth.png" alt-text="Connect Surface Hub 2 Pen via Bluetooth" :::
@@ -45,7 +45,7 @@ If you encounter issues with your Surface Hub 2 pen, follow the troubleshooting 
 
 ## Support requests
 
-If you can still not use your pen with your Surface Hub 2S, you can [create a support request](https://support.serviceshub.microsoft.com/supportforbusiness/onboarding). Include the following items:
+If you  still can't use your pen with your Surface Hub 2S, you can [create a support request](https://support.serviceshub.microsoft.com/supportforbusiness/onboarding). Include the following items:
 
 - Results of troubleshooting steps on this page.
 - Shipping address and recipient contact information.
