@@ -19,13 +19,15 @@ appliesto:
 
 # Surface hardware rugged testing
 
-Surface devices are built to meet rigorous conditions that include harsh drops and vibration, high temperatures, along with mechanical and functional tests. This helps ensure strong reliability and lower cost of ownership.
+Surface devices are built to withstand rigorous conditions that help ensure optimal reliability and lower cost of ownership.
 
 :::image type="content" source="images/surface-family.png" alt-text="Surface device family" :::
 
-The MIL-STD-810-G and MIL-STD-810-H test standards, created by the U.S. government, helps organizations evaluate how devices perform in the field. It outlines multiple test methods across a range of environmental stress conditions.
+The MIL-STD-810 test standards, maintained by the US Department of Defense, help organizations evaluate how devices perform in the field. The testing program outlines multiple test methods across a range of environmental stress conditions. This is designed to test equipment limits in various conditions where it is expected to be used (environment) or transported (shocks). An independent third-party laboratory has tested the Surface devices listed below using recommended test methods. 
 
-Operational tests pass if the unit remained operational during the entire test, and non-operational tests pass if a functional verification was performed immediately after the test exposure.
+## MIL-STD-810 test results
+
+Operational tests pass if the unit remained operational during the entire test, and non-operational tests pass if a functional verification was performed immediately after the test exposure. Tests were conducted in accordance with the MIL-STD-810 standards effective at the time of product release (MIL-STD-810H for Surface Laptop Go 2 and MIL-STD-810G for earlier devices).
 
 ## Surface Laptop family
 
@@ -160,3 +162,6 @@ Operational tests pass if the unit remained operational during the entire test, 
 | **Transit Drop**                          | Pass          |
 | **Vibration Ground Vehicle**              | Pass          |
 | **Vibration Minimum Integrity**           | Pass          |
+
+> [!NOTE]
+> Lab tests simulate but don't duplicate real-world environmental stresses. A device that passes lab tests may not withstand real-world field conditions. 
