@@ -34,10 +34,10 @@ If you encounter issues with your Surface Hub 2 pen, follow the troubleshooting 
 :::image type="content" source="images/hub-2-pen-bluetooth.png" alt-text="Connect Surface Hub 2 Pen via Bluetooth" :::
 
 6. To see the battery level for your pen, navigate to **All Apps** > **Surface** > select the **Surface Hub 2S Pen.**
-7. Ensure your Surface Hub 2S pen firmware is up to date, as outlined here: [Update pen firmware on Surface Hub 2S](surface-hub-2s-pen-firmware.md)
- :::image type="content" source="images/surface-app-hub-2-pen.png" alt-text="Check battery level on Surface Hub 2 Pen" :::
+7. Ensure your Surface Hub 2S pen firmware is up to date, as outlined here: [Update pen firmware on Surface Hub 2S](surface-hub-2s-pen-firmware.md)<br>
+:::image type="content" source="images/surface-app-hub-2-pen.png" alt-text="Check battery level on Surface Hub 2 Pen" :::
 
-8. You can also adjust the pressure settings for your pen in the Surface app under the **Pen pressure** drop-down:
+8. You can also adjust the pressure settings for your pen in the Surface app under the **Pen pressure** drop-down:<br>
 :::image type="content" source="images/surface-app-hub-2-pen-pressure.png" alt-text="Adjust pressure on Surface Hub 2 Pen" :::
 
 ## Support requests
