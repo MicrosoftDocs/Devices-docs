@@ -23,7 +23,7 @@ Surface devices are built to withstand rigorous conditions that help ensure opti
 
 :::image type="content" source="images/surface-family.png" alt-text="Surface device family" :::
 
-The MIL-STD-810 test standards, maintained by the US Department of Defense, help organizations evaluate how devices perform in the field. The testing program outlines multiple test methods across a range of environmental stress conditions. This is designed to test equipment limits in various conditions where it is expected to be used (environment) or transported (shocks). An independent third-party laboratory has tested the Surface devices listed below using recommended test methods. 
+The MIL-STD-810 test standards, maintained by the US Department of Defense, help organizations evaluate how devices perform in the field. The testing program outlines multiple test methods across a range of environmental stress conditions. This is designed to test equipment limits in various conditions where it's expected to be used (environment) or transported (shocks). An independent third-party laboratory has tested the Surface devices listed below using recommended test methods. 
 
 ## MIL-STD-810 test results
 
