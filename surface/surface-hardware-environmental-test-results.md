@@ -1,5 +1,5 @@
 ---
-title: Surface hardware rugged testing
+title: Surface hardware environmental test results
 description: This article lists results of Surface hardware rugged testing.
 ms.prod: w11
 ms.mktglfcycl: manage
@@ -17,7 +17,7 @@ appliesto:
 - Windows 11
 ---
 
-# Surface hardware rugged testing
+# Surface hardware environmental test results
 
 Surface devices are built to withstand rigorous conditions that help ensure optimal reliability and lower cost of ownership.
 

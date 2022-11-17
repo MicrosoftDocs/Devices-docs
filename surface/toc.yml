@@ -208,8 +208,8 @@
           href: https://support.microsoft.com/products/surface-devices
         - name: Contact Surface Support
           href: contact-surface-support.md
-        - name: Surface hardware rugged testing
-          href: surface-hardware-rugged-testing.md 
+        - name: Surface hardware environmental test results
+          href: surface-hardware-environmental-test-results.md 
     - name: Commercial warranty & protection 
       expanded: true
       items:   
