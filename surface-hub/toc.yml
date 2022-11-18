@@ -141,8 +141,8 @@
           href: troubleshoot-power-surface-hub-2s.md		  		  
         - name: Troubleshoot Teams sign-in issues on Surface Hub
           href: troubleshoot-teams-sign-in-surface-hub.md  
-        - name: Surface Hub return to the office video series 
-          href: surface-hub-return-to-office-videos.md   
+        - name: Troubleshoot Surface Hub 2 pen
+          href: troubleshoot-surface-hub-2-pen.md
         - name: Troubleshoot Miracast on Surface Hub
           href: miracast-troubleshooting.md
         - name: Surface Hub Miracast channels 149-165 not supported in Europe, Japan, Israel
@@ -151,6 +151,8 @@
           href: surface-hub-installs-updates-and-restarts-outside-maintenance-hours.md 
         - name: How to pack and ship your Surface Hub 2S for service
           href: surface-hub-2s-pack-components.md
+        - name: Surface Hub return to the office video series 
+          href: surface-hub-return-to-office-videos.md   
 - name: Surface Hub (v1)
   expanded: true
   items: 
