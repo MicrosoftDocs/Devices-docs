@@ -19,7 +19,7 @@ appliesto:
 
 If you encounter issues with your Surface Hub 2 pen, follow the troubleshooting steps on this page.
 
-1. First, make sure your pen has a working battery. If the indicator light on the pen shows **solid white**, the pen is ready for use. If the indicator light shows **solid red** or no light, replace the battery on the pen. The Surface Hub 2S pen requires a single **AAA battery.**
+1. First, make sure your pen has a working battery. If the indicator light on the pen shows **solid white**, the pen is ready for use. If the indicator light shows **solid red** or no light, replace the battery on the pen. The Surface Hub 2S pen requires a single **AAA battery.**<br>
 :::image type="content" source="images/hub-2-pen-start.png" alt-text="Surface Hub 2 Pen" :::
 2. If the pen isn't functioning as expected, pair it to Surface Hub 2S via Bluetooth to ensure it’s running the latest firmware. Press and hold the Eraser and top button until the indicator light starts blinking. This enables the pen to be discoverable via Bluetooth.
 
@@ -30,7 +30,7 @@ If you encounter issues with your Surface Hub 2 pen, follow the troubleshooting 
 2. Ensure Bluetooth is turned **On.**
 3. If the pen is already connected to the Surface Hub, you should see **Surface Hub 2 Pen** listed under **Mouse, keyboard, & pen.**
 4. If you don't see the pen listed here, select the **+** button to **Add Bluetooth or other device.**
-5. Once you see the **Surface Hub 2 Pen** listed in the results, you can add the pen from here.
+5. Once you see the **Surface Hub 2 Pen** listed in the results, you can add the pen from here.<br>
 :::image type="content" source="images/hub-2-pen-bluetooth.png" alt-text="Connect Surface Hub 2 Pen via Bluetooth" :::
 
 6. To see the battery level for your pen, navigate to **All Apps** > **Surface** > select the **Surface Hub 2S Pen.**
