@@ -67,6 +67,7 @@ The following table lists the release date and End of Servicing date for each Su
 | Surface Laptop 3                   | October 22, 2019   | October 22, 2023            |
 | Surface Pro 7                      | October 22, 2019   | October 22, 2023            |
 | Surface Pro X                      | November 5, 2019    | October 13, 2024             |
+| Surface Pro X SQ2                  | October 13, 2020     | October 13, 2024             |
 | Surface Go 2                       | May 6, 2020     | May 6, 2024              |
 | Surface Book 3                     | May 26, 2020    | May 26, 2024             |
 | Surface Laptop Go                  | October 13, 2020   | October 13, 2024            |
