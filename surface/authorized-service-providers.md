@@ -19,11 +19,11 @@ appliesto:
 
 # Surface repair by Microsoft Authorized Service Providers
 
-Authorized Service Providers (ASPs) work closely with Microsoft to help resolve issues that may occur with your Microsoft devices. ASPs perform repairs on behalf of Microsoft, have direct access to Microsoft support, and use genuine Microsoft parts.
+As part of our commitment to provide great service and support to all our customers, we are building a great network of authorized service providers (ASPs) to help repair and service your Surface devices. ASPs work closely with Microsoft to help resolve issues that may occur with your Microsoft devices. ASPs perform repairs on behalf of Microsoft, have direct access to Microsoft support, and use genuine Microsoft parts. 
 
 ## Global ASP network
 
-The growing ASP network consists of more than 150 locations.  
+The growing ASP network consists of more than 160 locations.  
  
 ### Americas
 
@@ -32,7 +32,9 @@ The growing ASP network consists of more than 150 locations.
 - [Compugen](https://www.compugen.com/)
 - [Coreio](https://www.coreio.com/)
 - [Integrated Technology Group (ITG)](https://www.itgsolutions.com/)
+- [Microserve](https://www.microserve.ca/)
 - [Synnex](https://www.synnexcorp.com/)
+
 
 ### Europe
 
