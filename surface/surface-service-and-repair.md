@@ -1,15 +1,15 @@
 ---
 title: Surface for Business service and repair
 description: This article explains how Surface devices are designed to enable service and repair. It lists the serviceable components for all in-market Surface devices. 
-ms.prod: w10
+ms.prod: w11
 ms.mktglfcycl: manage
 ms.localizationpriority: medium
 ms.sitesec: library
 author: coveminer
-ms.author: greglin
+ms.author: hachidan
 ms.topic: article
 ms.date: 11/10/2022
-ms.reviewer: oayakta
+ms.reviewer: 
 manager: laurawi
 audience: itpro
 appliesto:
