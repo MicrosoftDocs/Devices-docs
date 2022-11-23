@@ -38,7 +38,7 @@ Microsoft Deployment Toolkit (MDT) and Microsoft Endpoint Configuration Manager 
 
 ### Manage firmware with UEFI Configurator and SEMM
 
-With Surface Enterprise Management Mode (SEMM), you can manage the following hardware components at the firmware level for Surface Pro 9 with 5G devices:
+With [Surface Enterprise Management Mode (SEMM)](surface-enterprise-management-mode.md), you can manage the following hardware components at the firmware level for Surface Pro 9 with 5G devices:
 
 - **Accessories.** Docking USB Port, Type Cover, Onboard Audio, Onboard Microphone, MAC Address Emulation.
 - **Cameras.** Front Camera, Rear Camera, IR Camera.
@@ -54,13 +54,16 @@ With Surface Enterprise Management Mode (SEMM), you can manage the following har
 
 :::image type="content" source="images/uefi-config-advanced-surface-arm.png" alt-text="Manage firmware settings on Surface Pro 9 with 5G" :::
 
-To learn more about managing firmware with SEMM, see [Surface Enterprise Management Mode](surface-enterprise-management-mode.md).
+To learn more about managing firmware with SEMM, see:
+
+- [Surface Enterprise Management Mode](surface-enterprise-management-mode.md)
+- [Manage Surface UEFI settings](manage-surface-uefi-settings.md)
 
 ## Microsoft Endpoint Manager
 
 ### Manage firmware with Intune and DFCI
 
-With Microsoft Intune and Device Firmware Configuration Interface (DFCI) profiles, you can manage the following hardware components at the firmware level for Surface Pro 9 with 5G devices:
+With Microsoft Intune and [Device Firmware Configuration Interface (DFCI) profiles](surface-manage-dfci-guide.md), you can manage the following hardware components at the firmware level for Surface Pro 9 with 5G devices:
 
 - Front Camera
 - Rear Camera
