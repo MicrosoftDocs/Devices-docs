@@ -32,13 +32,13 @@ Organizations already using modern management, security, and productivity soluti
 
 ### Image-based deployment considerations
 
-Microsoft Deployment Toolkit (MDT) and Microsoft Endpoint Configuration Manager (formerly System Center Configuration Manager) do not support Surface Pro 9 with 5G or Surface Pro X for operating system deployment. Customers relying on image-based deployment should consider Surface Pro 9 while evaluating the right time to transition to modern deployment solutions.
+Microsoft Deployment Toolkit (MDT) and Microsoft Endpoint Configuration Manager do not support image-based Operating System Deployment (OSD) for Surface Pro 9 with 5G or Surface Pro X. Customers relying on image-based deployment should consider Surface Pro 9 while evaluating the right time to transition to modern deployment solutions.
 
 ## Manage
 
 ### Manage firmware with UEFI Configurator and SEMM
 
-With Surface Enterprise Management Mode [SEMM], you can manage the following hardware components at the firmware level for Surface Pro 9 with 5G devices:
+With Surface Enterprise Management Mode (SEMM), you can manage the following hardware components at the firmware level for Surface Pro 9 with 5G devices:
 
 - **Accessories.** Docking USB Port, Type Cover, Onboard Audio, Onboard Microphone, MAC Address Emulation.
 - **Cameras.** Front Camera, Rear Camera, IR Camera.
@@ -54,7 +54,7 @@ With Surface Enterprise Management Mode [SEMM], you can manage the following har
 
 ### Manage firmware with Intune and DFCI
 
-With Microsoft Intune and Device Firmware Configuration Interface [DFCI] profiles, you can manage the following hardware components at the firmware level for Surface Pro 9 with 5G devices:
+With Microsoft Intune and Device Firmware Configuration Interface (DFCI) profiles, you can manage the following hardware components at the firmware level for Surface Pro 9 with 5G devices:
 
 - Front Camera
 - Rear Camera
