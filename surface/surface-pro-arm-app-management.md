@@ -185,8 +185,10 @@ The following tables show the availability of selected key features on Surface P
 
 **Is a BMR available?**
 
-- A BMR is available for Surface Pro X., Refer to [Download a recovery image for your Surface](https://support.microsoft.com/surfacerecoveryimage). A BMR will be available for Surface Pro 9 5G
+- A BMR is available for Surface Pro X. Refer to [Download a recovery image for your Surface](https://support.microsoft.com/surfacerecoveryimage). A BMR will be available for Surface Pro 9 5G.
 
 **Is Intune required to manage Surface Pro 9 with 5G or Surface Pro X**
 
 - Intune is recommended but not required. Once deployed in Autopilot, you can join Surface Pro 9 with 5G and Surface Pro X devices to Azure AD or Active Directory (Hybrid Azure AD Join), where you will be able to manage the devices with Intune or co-manage them with Endpoint Configuration Manager, which will install the 32-bit x86 ConfigMgr client.
+
+To learn more, see [ARM-based Surface devices FAQ](surface-arm-faq.md)
