@@ -19,12 +19,11 @@ appliesto:
 # Surface Asset Tag Tool
 
 Surface Asset Tag is a command line interface (CLI) utility
-that allows you to view, assign, and modify an assigned asset tag value
-for Surface devices. It works on Surface Pro 3 and all newer Surface devices.
+that allows you to view, assign, and modify an assigned asset tag value for Surface devices. 
 
 ## System requirements
 
-- Surface Pro 3 or later
+- Surface Pro 3 or later and all newer Surface devices.
 
 - UEFI firmware version 3.9.150.0 or later
 

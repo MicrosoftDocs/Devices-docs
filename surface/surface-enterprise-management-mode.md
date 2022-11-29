@@ -13,7 +13,7 @@ ms.reviewer: hachidan
 manager: laurawi
 ms.localizationpriority: medium
 audience: itpro
-ms.date: 10/28/2022
+ms.date: 11/03/2022
 appliesto:
 - Windows 10
 - Windows 11
@@ -142,14 +142,14 @@ The following list shows all the available devices that you can manage in SEMM:
 
 | Setting                            | Description                                                                                                                                                                                        |
 | ---------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| IPv6 for PXE Boot                  | Allows you to manage IPv6 support for PXE boot. If you don't configure this setting, IPv6 support for PXE boot is disabled.                                                                               |
+| IPv6 for PXE Boot                  | Allows you to manage IPv6 support for PXE boot. If you don't configure this setting, IPv6 support for PXE boot is enabled.                                                                               |
 | Alternate Boot                     | Allows you to manage the use of an Alternate boot order to boot directly to a USB or Ethernet device by pressing both the Volume Down button and Power button during boot. If you don't configure this setting, Alternate boot is enabled. |
 | Boot Order Lock                    | Allows you to lock the boot order to prevent changes. If you don't configure this setting, Boot Order Lock is disabled.                                                                                                        |
 | USB Boot                           | Allows you to manage booting to USB devices. If you don't configure this setting, USB Boot is enabled.                                                                                                                 |
 | Network Stack                      | Allows you to manage Network Stack boot settings. If you don't configure this setting,  the ability to manage Network Stack boot settings is disabled.                                                                                                           |
 | Auto Power On                      | Allows you to manage Auto Power On boot settings. If you don't configure this setting, Auto Power on is enabled.                                                                                                        |
 | Simultaneous Multi-Threading (SMT) | Allows you to manage Simultaneous Multi-Threading (SMT) to enable or disable hyperthreading. If you don't configure this setting, SMT is enabled.                                                  |
-|Enable Battery limit| Allows you to manage Battery limit functionality. If you don't configure this setting, Battery limit is enabled |
+| Enable Battery limit               | Allows you to manage Battery limit functionality. If you don't configure this setting, Battery limit is enabled |
 | Security                           | Displays the Surface UEFI **Security** page. If you don't configure this setting, the Security page is displayed.                                                                                                                 |
 | Devices                            | Displays the Surface UEFI **Devices** page. If you don't configure this setting,  the Devices page is displayed.                                                                                                                     |
 | Boot                               | Displays the Surface UEFI **Boot** page. If you don't configure this setting, the Boot page is displayed.                                                                                                                                                            |

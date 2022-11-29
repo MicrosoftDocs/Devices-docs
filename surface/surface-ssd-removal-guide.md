@@ -36,8 +36,8 @@ ms.custom:
 ---
 # Best practices for SSD removal from compatible Surface devices
 
-> [!IMPORTANT]
-> This article is intended for use by qualified IT technicians in an enterprise organization only. It describes the recommended best practices for use by qualified IT technicians in the removal and replacement of SSDs in the following compatible Surface devices:
+> [!NOTE]
+> This article is intended for use by qualified IT technicians in an enterprise organization. It describes the recommended best practices for use by skilled IT technicians in the removal and replacement of SSDs in the following compatible Surface devices:
 
 - Surface Laptop Studio
 - Surface Pro 9
@@ -52,13 +52,8 @@ ms.custom:
 - Surface Laptop 5
 - Surface Studio 2+
 
-> [!WARNING]
-> Opening devices and replacing device components can present electric shock, device damage, fire, and personal injury risks, and other hazards.  Always use caution when you undertake such activities. Follow the safety precautions and procedures that are identified in the [rSSD Removal Guide for Enterprise](https://www.microsoft.com/download/100440). We recommend that you get professional assistance if you cannot follow the safety precautions and procedures that are specified in the "rSSD Removal Guide for Enterprise."
-
-## Prerequisites
-
-> [!IMPORTANT]
-> This article assumes that you understand the General Safety Precautions and Safety policies and procedures that are described in the "rSSD Removal Guide for Enterprise."
+> [!CAUTION]
+> Opening devices and replacing components can present electric shock, device damage, fire, personal injury risks, and other hazards. Always use caution when you undertake such activities. Follow the safety precautions and procedures identified in in the [Surface Service Guide](https://www.microsoft.com/download/100440) We recommend that you get professional assistance if you cannot follow the the documented safety precautions and procedures.
 
 ## Prepare for SSD removal
 
@@ -96,7 +91,7 @@ If the device is encrypted before SSD removal and replacement, follow these step
 
 ## Remove and replace SSD
 
-1. Remove the SSD by using the appropriate instructions for your device included in [rSSD Removal Guide for Enterprise](https://www.microsoft.com/download/100440).
+1. Remove the SSD by using the instructions for your device included in the appropriate [Surface Service Guide](https://www.microsoft.com/download/100440).
 2. Put the original SSD into a new device and connect the new device to a wired internet connection.
 3. Power on the new device. The device may go through a firmware update during startup.  
 
@@ -136,7 +131,7 @@ If the SSD is encrypted during the transfer, follow these steps:
 
 ## Learn more
 
-- [rSSD Removal Guide for Enterprise](https://www.microsoft.com/download/100440)
+- [Surface Service Guides](https://www.microsoft.com/download/100440)
 - [BitLocker Recovery Guide](/windows/security/information-protection/bitlocker/bitlocker-recovery-guide-plan)
 
 Still need help? Go to [Microsoft Community](https://answers.microsoft.com/).

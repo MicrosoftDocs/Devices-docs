@@ -9,7 +9,7 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 02/15/2022
+ms.date: 11/15/2022
 ms.localizationpriority: Medium
 appliesto:
 - Surface Hub
@@ -135,7 +135,7 @@ To learn more about custom configuration profiles using OMA-URI strings, see [Us
 
 ## Non Global admins managing Surface Hub
 
-Members of the **Surface Hub Local Admins** Security group can now sign in to the Settings app on Surface Hub and manage settings.
+Members of the newly configured **Surface Hub Local Admins** Security group can now sign in to the Settings app on Surface Hub and manage settings.
 
 > [!IMPORTANT]
-> The default access of global admins to the Settings app is removed (unless they are also members of this new security group).
+> Unless the Update ("U") action of the [LocalUsersAndGroups CSP](/windows/client-management/mdm/policy-csp-localusersandgroups) is the only configuration used, the pre-existing access of global admins to the Settings app is removed.
