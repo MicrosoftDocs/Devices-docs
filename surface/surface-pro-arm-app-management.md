@@ -207,4 +207,4 @@ The following tables show the availability of selected key features on Surface P
 
 - Intune is recommended but not required. Once deployed in Autopilot, you can join Surface Pro 9 with 5G and Surface Pro X devices to Azure AD or Active Directory (Hybrid Azure AD Join), where you will be able to manage the devices with Intune or co-manage them with Endpoint Configuration Manager, which will install the 32-bit x86 ConfigMgr client.
 
-To learn more, see [ARM-based Surface devices FAQ](surface-arm-faq.md)
+To learn more, see [ARM-based Surface devices FAQ](surface-arm-faq.md).
