@@ -176,7 +176,7 @@ For a list of supported post codes, see "Next business day coverage" where appli
 #### Luxembourg
 
 - Cutoff Time: 12:00 CET (UTC+1)
-- [Next business day coverage](https://download.microsoft.com/download/d/6/c/d6c8c486-a667-4e52-8867-d0dff68cfe39/NBD_Coverage_LatviaPostCodes_030222.xlsx)
+- [Next business day coverage](https://download.microsoft.com/download/5/c/0/5c049363-70e8-467d-96f6-d9c96096745b/NBD_Coverage_LuxembourgPostCodes_030321.xlsx)
 
 #### Malta
 
