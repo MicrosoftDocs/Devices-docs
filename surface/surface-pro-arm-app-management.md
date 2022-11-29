@@ -83,7 +83,7 @@ Microsoft Endpoint Manager and Intune integrate with Azure Active Directory for 
 
 ### Co-management
 
-Once deployed in Autopilot, you can join devices to Azure AD or Active Directory ([Hybrid Azure AD Join](/azure/active-directory/devices/concept-azure-ad-join-hybrid)), where you can [manage the devices with Intune](/mem/intune/remote-actions/device-management) or [co-manage Them with Endpoint Configuration Manager](/mem/configmgr/comanage/overview), which will install the 32-bit x86 ConfigMgr client.
+Once deployed in Autopilot, you can join devices to Azure AD or Active Directory ([Hybrid Azure AD Join](/azure/active-directory/devices/concept-azure-ad-join-hybrid)), where you can [manage the devices with Intune](/mem/intune/remote-actions/device-management) or [co-manage them with Endpoint Configuration Manager](/mem/configmgr/comanage/overview), which will install the 32-bit x86 ConfigMgr client.
 
 ### Third-party MDM solutions
 
