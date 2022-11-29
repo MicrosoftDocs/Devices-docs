@@ -8,7 +8,7 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 07/14/2022
+ms.date: 11/03/2022
 ms.reviewer: phorton
 manager: laurawi
 audience: itpro
@@ -26,6 +26,7 @@ This lifecycle policy covers drivers and firmware releases for Windows-based Sur
 ## Surface driver and firmware support lifecycle
  
 The Surface Driver and Firmware Lifecycle has two parts:
+
    - The driver and firmware-support period for a device.
    - The support provided for OS versions during that period.
 
@@ -66,6 +67,7 @@ The following table lists the release date and End of Servicing date for each Su
 | Surface Laptop 3                   | October 22, 2019   | October 22, 2023            |
 | Surface Pro 7                      | October 22, 2019   | October 22, 2023            |
 | Surface Pro X                      | November 5, 2019    | October 13, 2024             |
+| Surface Pro X SQ2                  | October 13, 2020     | October 13, 2024             |
 | Surface Go 2                       | May 6, 2020     | May 6, 2024              |
 | Surface Book 3                     | May 26, 2020    | May 26, 2024             |
 | Surface Laptop Go                  | October 13, 2020   | October 13, 2024            |
@@ -76,6 +78,9 @@ The following table lists the release date and End of Servicing date for each Su
 | Surface Laptop Studio              | October 5, 2021   |October 5, 2025|
 | Surface Go 3                       | October 5, 2021   |October 5, 2025|
 | Surface Laptop SE                  | January 11, 2022  |January 11, 2026|
+| Surface Pro 9                      | October 25, 2022 | October 25, 2026|
+| Surface Laptop 5                   | October 25, 2022 | October 25, 2026|
+| Surface Studio 2+                  | October 25, 2022 | October 25, 2026|
 
  **1.** *Indicates devices with a previously declared end of firmware/driver servicing support date.*
 

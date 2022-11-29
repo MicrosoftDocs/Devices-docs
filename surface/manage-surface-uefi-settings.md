@@ -27,7 +27,7 @@ appliesto:
 UEFI management is supported on the following:
 
 - Surface Pro 4, Surface Pro (5th Gen), Surface Pro 6, Surface Pro 7, Surface Pro 7+ (commercial SKUs only), Surface Pro 8 (commercial SKUs only), Surface Pro 9 & Surface Pro 9 with 5G (commercial SKUs only), Surface Pro X
-- Surface Laptop (1st Gen), Surface Laptop 2, Surface Laptop 3 (Intel processors only), Surface Laptop Go, Surface Laptop 4 (commercial SKUs only), Surface Laptop SE, Surface Laptop Go 2
+- Surface Laptop (1st Gen), Surface Laptop 2, Surface Laptop 3 (Intel processors only), Surface Laptop Go, Surface Laptop 4 (commercial SKUs only), Surface Laptop 5 (commercial SKUs only), Surface Laptop SE, Surface Laptop Go 2 (commercial SKUs only)
 - Surface Studio (1st Gen), Surface Studio 2, Surface Studio 2+
 - Surface Book (all generations)
 - Surface Laptop Studio (commercial SKUs only)
@@ -39,7 +39,9 @@ UEFI management is supported on the following:
 
 ## Support for cloud-based management
 
-With Device Firmware Configuration Interface (DFCI) profiles built into Microsoft Intune (now available in public preview), Surface UEFI management extends the modern management stack down to the UEFI hardware level. DFCI supports zero-touch provisioning, eliminates BIOS passwords, provides control of security settings -- including boot options and built-in peripherals -- and lays the groundwork for advanced security scenarios in the future. DFCI is currently available for Surface Studio 2+, Surface Pro 9, Surface Pro 9 with 5G, Surface Laptop 5, Surface Laptop 4, Surface Laptop 3, Surface Laptop Studio, Surface Book 3, Surface Laptop SE, Surface Laptop Go 2, Surface Laptop Go, Surface Pro 8, Surface Pro 7+, Surface Pro 7, Surface Pro X, and Surface Go 3. For more information, refer to [Intune management of Surface UEFI settings](surface-manage-dfci-guide.md).
+With Device Firmware Configuration Interface (DFCI) profiles built into Microsoft Intune (now available in public preview), Surface UEFI management extends the modern management stack down to the UEFI hardware level. DFCI supports zero-touch provisioning, eliminates BIOS passwords, provides control of security settings -- including boot options and built-in peripherals -- and lays the groundwork for advanced security scenarios in the future. 
+
+DFCI is currently available for Surface Studio 2+, Surface Pro 9, Surface Pro 9 with 5G, Surface Laptop 5, Surface Laptop 4, Surface Laptop 3, Surface Laptop Studio, Surface Book 3, Surface Laptop SE, Surface Laptop Go 2, Surface Laptop Go, Surface Pro 8, Surface Pro 7+, Surface Pro 7, Surface Pro X, and Surface Go 3. For more information, refer to [Manage DFCI on Surface devices](surface-manage-dfci-guide.md).
 
 ## Open Surface UEFI menu
 
