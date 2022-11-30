@@ -64,6 +64,9 @@ Downloadable service guides provide step-by-step instructions for servicing spec
 
 Demos from Surface engineering show how to disassemble replaceable components, as documented in Surface service guides. 
 
+- [Surface Pro 9](https://youtu.be/S_i5OQNUbh8)
+- [Surface Laptop 5](https://youtu.be/6aCpzyfDUnk)
+- [Surface Studio 2+](https://youtu.be/KFPJ2s26JUw)
 - [Surface Laptop Go 2](https://youtu.be/ZNzZbvkbmyo)
 - [Surface Laptop Studio](https://youtu.be/cnBAeUD0Li4)
 - [Surface Laptop SE](https://youtu.be/fVjjSqfp75g)
