@@ -23,7 +23,7 @@ This service is available for mechanical breakdown of covered devices under the 
 
 ## Customer eligibility
 
-EHS Plus with On-Site is a commercial Protection Plan only available to enterprise customers, including educational institutions, who purchase EHS Plus with On-Site through a [Microsoft-authorized reseller.](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface)<sup>1</sup>.
+EHS Plus with On-Site is a commercial Protection Plan only available to enterprise customers, including educational institutions, who purchase EHS Plus with On-Site through a [Microsoft-authorized reseller.](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface)<sup>1</sup>
 
 ### Eligible devices (commercial versions only)
 
