@@ -38,7 +38,10 @@ EHS Plus with On-Site covers mechanical breakdown that results in the device no 
 
 ## Postal Codes for availability
 
-Placeholder
+- [Queensland](https://download.microsoft.com/download/2/6/5/26593c54-9e9a-46e6-ada1-24e483aa6d61/AU%20Service%20Locator%20_QLD_Nov302022.xlsx)
+- [Victoria](https://download.microsoft.com/download/2/6/5/26593c54-9e9a-46e6-ada1-24e483aa6d61/AU%20Service%20Locator_ACT_Nov302022.xlsx)
+- [New South Wales](https://download.microsoft.com/download/2/6/5/26593c54-9e9a-46e6-ada1-24e483aa6d61/AU%20Service%20Locator_NSW_Nov302022.xlsx)
+- [Australian Capital Territory](https://download.microsoft.com/download/2/6/5/26593c54-9e9a-46e6-ada1-24e483aa6d61/AU%20Service%20Locator_VIC_Nov302022.xlsx)
 
 > [!NOTE]
 > Onsite service is part of the extended EHS Plus Onsite Protection plan you purchased, and the services are provided by a Microsoft vendor and not Microsoft.  
