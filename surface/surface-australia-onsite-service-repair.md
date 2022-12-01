@@ -38,10 +38,12 @@ EHS Plus with On-Site covers mechanical breakdown that results in the device no 
 
 ## Postal Codes for availability
 
-- [Queensland](https://download.microsoft.com/download/2/6/5/26593c54-9e9a-46e6-ada1-24e483aa6d61/AU%20Service%20Locator%20_QLD_Nov302022.xlsx)
-- [Victoria](https://download.microsoft.com/download/2/6/5/26593c54-9e9a-46e6-ada1-24e483aa6d61/AU%20Service%20Locator_VIC_Nov302022.xlsx)
-- [New South Wales](https://download.microsoft.com/download/2/6/5/26593c54-9e9a-46e6-ada1-24e483aa6d61/AU%20Service%20Locator_NSW_Nov302022.xlsx)
 - [Australian Capital Territory](https://download.microsoft.com/download/2/6/5/26593c54-9e9a-46e6-ada1-24e483aa6d61/AU%20Service%20Locator_ACT_Nov302022.xlsx)
+- [New South Wales](https://download.microsoft.com/download/2/6/5/26593c54-9e9a-46e6-ada1-24e483aa6d61/AU%20Service%20Locator_NSW_Nov302022.xlsx)
+- [Queensland](https://download.microsoft.com/download/2/6/5/26593c54-9e9a-46e6-ada1-24e483aa6d61/AU%20Service%20Locator%20_QLD_Nov302022.xlsx)
+- [Tasmania](https://download.microsoft.com/download/7/f/2/7f2470fe-8e65-4732-8173-2c8307b09eba/AU%20Service%20Locator_TAS_Nov302022.xlsx)
+- [Victoria](https://download.microsoft.com/download/2/6/5/26593c54-9e9a-46e6-ada1-24e483aa6d61/AU%20Service%20Locator_VIC_Nov302022.xlsx)
+
 
 > [!NOTE]
 > On-site service is part of the extended EHS Plus On-Site Protection plan you purchased, and the services are provided by a Microsoft vendor and not Microsoft.  
