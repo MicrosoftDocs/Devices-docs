@@ -44,9 +44,9 @@ EHS Plus with On-Site covers mechanical breakdown that results in the device no 
 - [Australian Capital Territory](https://download.microsoft.com/download/2/6/5/26593c54-9e9a-46e6-ada1-24e483aa6d61/AU%20Service%20Locator_ACT_Nov302022.xlsx)
 
 > [!NOTE]
-> Onsite service is part of the extended EHS Plus Onsite Protection plan you purchased, and the services are provided by a Microsoft vendor and not Microsoft.  
+> On-Site service is part of the extended EHS Plus On-Site Protection plan you purchased, and the services are provided by a Microsoft vendor and not Microsoft.  
 
-Onsite may not be available within the first 90 days after the original purchase date of an eligible Microsoft Surface series device. As an alternative, Microsoft may replace your device using [Next Business Day Advanced Exchange](surface-advanced-exchange-replacement.md).
+On-Site may not be available within the first 90 days after the original purchase date of an eligible Microsoft Surface series device. As an alternative, Microsoft may replace your device using [Next Business Day Advanced Exchange](surface-next-business-day-replacement.md).
 
 ## References
 
