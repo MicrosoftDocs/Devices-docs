@@ -1,5 +1,5 @@
 ---
-title: Surface Australia onsite service and repair
+title: Surface Australia On-site service and repair
 description: This article describes onsite service and repair options for Surface devices in Australia
 ms.prod: w11
 ms.mktglfcycl: manage
@@ -17,14 +17,14 @@ appliesto:
 - Windows 11
 ---
 
-# Surface Australia onsite service and repair
+# Surface Australia On-site service and repair
 
 This service is one of the benefits available under the Microsoft Extended Hardware Service Plan Plus with On-Site (“EHS Plus with On-Site”) for eligible Microsoft Surface series devices.<sup>1</sup>
 This plan is only offered in Australia at this time.
 
 ## Customer eligibility
 
-EHS Plus with On-Site is a commercial Protection Plan available for purchase by enterprise customers, including educational institutions, through a [Microsoft-authorized reseller.](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface).<sup>2</sup>
+EHS Plus with On-Site is a commercial Protection Plan available for purchase by enterprise customers, including educational institutions, through a [Microsoft Authorized Reseller.](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface).<sup>2</sup>
 
 ### Eligible devices (commercial versions only)
 
