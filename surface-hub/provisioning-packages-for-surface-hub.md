@@ -275,7 +275,7 @@ There are two ways of deploying provisioning packages to a Surface Hub:
 
 7. In **Select a configuration**, select the device name to apply, and then select **Next**.
 
-The settings from the provisioning package will be applied to the device and OOBE will be complete. After the device restarts, you can remove the USB flash drive.
+After the first time the device restarts, remove the USB flash drive. The settings from the provisioning package will be applied to the device and OOBE can be completed.
 
 ### Apply a provisioning package using Settings app
 
