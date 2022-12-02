@@ -115,11 +115,10 @@ In addition to this provisioning package, you can use a Surface Hub configuratio
     ```
     <DeviceAccountName>,<DeviceAccountPassword>,<FriendlyName>
     ```
-
+   Example: `rainier@contoso.com,password,Rainier Surface Hub`
+   
     > [!NOTE]
     > The configuration file must not contain column headers. When included in a provisioning package applied to Surface Hub, you can select the account and friendly name for the device from the file. To create the .csv file,  use either a UPN address format (rainier@contoso.com) or down-level logon name format (contoso\rainier).
-
-    rainier@contoso.com,password,Rainier Surface Hub
 
 3. Save the file to your project folder and copy it to the USB key with your provisioning package.
 
