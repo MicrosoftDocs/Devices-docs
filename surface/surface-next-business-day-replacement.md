@@ -145,7 +145,7 @@ For a list of supported post codes, see "Next business day coverage" where appli
 
 #### India
 
-- Cutoff Time: 15:00 (UTC+5.5)
+- Cutoff Time: 12:00 (UTC+8.5)
 - [Next business day coverage](https://download.microsoft.com/download/5/5/e/55e2bb36-c720-4e25-b834-9e3e5b87c120/NBD_Coverage_IndiaPostCodes_090622.xlsx)
 
 #### Ireland
