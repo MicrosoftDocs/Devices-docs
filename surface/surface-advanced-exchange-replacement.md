@@ -29,7 +29,8 @@ Some commercial Microsoft Surface products and extended protection plans come wi
 1. If possible, ensure all data is backed up and removed before returning your defective product to Microsoft. To learn more, see [Backup and Restore in Windows](https://support.microsoft.com/topic/352091d2-bb9d-3ea3-ed18-52ef2b88cbef). Microsoft is not responsible for any loss of data during servicing.    
 1. Return your original product using the box and prepaid shipping label that comes with your replacement device. If you fail to return your original Surface device within 10 days, you will be assessed Microsoft's retail price of the device plus a shipping & handling fee.  
 
-Allow an average of 3-5 calendar days to receive your replacement device. Times may vary based on location and product availability.
+> [!NOTE]
+> Allow an average of 3-5 days to receive your replacement device. Times may vary based on location and product availability.
 
 Commercial products or scenarios not covered by the Microsoft Limited Hardware Warranty or a Microsoft Extended Protection Plan are not eligible for Advanced Exchange replacement. 
 
