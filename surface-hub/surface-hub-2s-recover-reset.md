@@ -1,13 +1,13 @@
 ---
 title: "Reset and recovery for Surface Hub 2S"
 description: "Learn how to recover and reset Surface Hub 2S."
-keywords: separate values with commas
+
 ms.prod: surface-hub
 
 author: coveminer
 ms.author: hachidan
 manager: frankbu
-audience: Admin
+
 ms.topic: how-to
 ms.date: 11/09/2022
 ms.localizationpriority: Medium

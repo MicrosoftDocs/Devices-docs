@@ -1,13 +1,13 @@
 ---
 title: "Surface Hub 2S site planning"
 description: "Learn more about rooms for Surface Hub 2S."
-keywords: separate values with commas
+
 ms.prod: surface-hub
 
 author: coveminer
 ms.author: hachidan
 manager: frankbu
-audience: Admin
+
 ms.topic: how-to
 ms.date: 06/20/2019
 ms.localizationpriority: Medium

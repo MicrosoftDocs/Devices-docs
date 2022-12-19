@@ -1,13 +1,13 @@
 ---
 title: "Configure password-less sign-in on Surface Hub"
 description: "Learn how to simplify signing in to Surface Hub."
-keywords: separate values with commas
+
 ms.prod: surface-hub
 
 author: coveminer
 ms.author: hachidan
 manager: frankbu
-audience: Admin
+
 ms.topic: how-to
 ms.date: 07/21/2020
 ms.localizationpriority: Medium

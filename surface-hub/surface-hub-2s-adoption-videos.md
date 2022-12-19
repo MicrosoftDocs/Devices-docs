@@ -1,13 +1,10 @@
 ---
 title: "Surface Hub 2S on-demand adoption and training videos"
 description: "This page contains on-demand training for Surface Hub 2S."
-keywords: separate values with commas
 ms.prod: surface-hub
-
 author: coveminer
 ms.author: hachidan
 manager: frankbu
-audience: Admin
 ms.topic: how-to
 ms.localizationpriority: Medium
 ---

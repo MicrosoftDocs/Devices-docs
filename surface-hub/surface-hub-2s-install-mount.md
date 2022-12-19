@@ -1,13 +1,10 @@
 ---
 title: "Install and mount Surface Hub 2S 50-inch"
 description: "Learn how to install and mount Surface Hub 2S 50-inch."
-keywords: separate values with commas
 ms.prod: surface-hub
-
 author: coveminer
 ms.author: hachidan
 manager: frankbu
-audience: Admin
 ms.topic: how-to
 ms.date: 04/16/2021
 ms.localizationpriority: Medium

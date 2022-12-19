@@ -7,7 +7,7 @@ ms.prod: surface-hub
 author: coveminer
 ms.author: hachidan
 manager: frankbu
-audience: Admin
+
 ms.topic: how-to
 ms.date: 11/08/2022
 ms.localizationpriority: Medium

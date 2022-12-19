@@ -1,13 +1,13 @@
 ---
 title: "Known issues: Windows 10 Team"
 description: "This page provides a list of known issues for Surface Hubs"
-keywords: separate values with commas
+
 ms.prod: surface-hub
 
 author: coveminer
 ms.author: hachidan
 manager: frankbu
-audience: Admin
+
 ms.topic: how-to
 ms.date: 02/09/2021
 ms.localizationpriority: Medium

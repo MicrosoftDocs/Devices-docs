@@ -1,13 +1,13 @@
 ---
 title: "Unpack Surface Hub 2S"
 description: "This page includes information about safely unpacking Surface Hub 2S."
-keywords: separate values with commas
+
 ms.prod: surface-hub
 
 author: coveminer
 ms.author: hachidan
 manager: frankbu
-audience: Admin
+
 ms.topic: how-to
 ms.date: 06/20/2019
 ms.localizationpriority: Medium
