@@ -1,14 +1,11 @@
 ---
 title: Troubleshoot Teams sign-in issues on Surface Hub
 description: This page explains recommended troubleshooting steps if you're unable to sign in to Microsoft Teams on Surface Hub. 
-ms.reviewer: 
 manager: frankbu
-keywords: Troubleshoot common problems, setup issues, Exchange ActiveSync errors
 ms.prod: surface-hub
-
 author: coveminer
 ms.author: hachidan
-ms.topic: how-to
+ms.topic: troubleshooting
 ms.date: 08/10/2022
 ms.localizationpriority: medium
 ---
@@ -36,7 +33,6 @@ If you can't sign in to Microsoft Teams on Surface Hub, several recommended trou
 | **unknownautherror**<br>      |Hub still running earlier OS             | Surface Hub v1 only:<br>   1. Ensure the device is updated to [Windows 10 Team 2020 Update (20H2)](/surface-hub/surface-hub-update-history#windows-10-team-2020-update-20h2).<br>2. If your Hub v1 device is still running an earlier OS, it could be affected by the following [known issue:](/surface-hub/surface-hub-2020-team-update-known-issues) **A small subset of v1 Surface Hub devices is not able to automatically upgrade to the Windows 10 Team 2020**<br>3. To resolve, reimage Hub v1 using the [Surface Hub Recovery Tool](/surface-hub/surface-hub-recovery-tool) and upgrade to 20H2.                                                                                              | - [Known issues: Surface Hub](/surface-hub/surface-hub-2020-team-update-known-issues)<br>- [Using the Surface Hub Recovery Tool](/surface-hub/surface-hub-recovery-tool)                                                                                                                                                                                                                                                                                                                                                                                                              |
 |                               | Conditional Access (CA) Policy    | Follow the instructions above to resolve Conditional Access issues.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 
-
 ## Support requests
 
 If you still can't successfully sign in to Teams, you can [create a support request](https://support.serviceshub.microsoft.com/supportforbusiness/onboarding?). Include the following items: 
@@ -44,7 +40,6 @@ If you still can't successfully sign in to Teams, you can [create a support requ
 - Any error codes displayed when you attempt to sign in to Teams.
 - Log files, as noted below. 
  
-
 ### Diagnostic Teams log files
 
 When creating a support request with Microsoft Support, the support engineer will require diagnostic log files. Having the logs before creating the support request will allow Microsoft to quickly start troubleshooting the problem.
@@ -65,6 +60,3 @@ To learn more, see [Configure log files for monitoring and troubleshooting in Te
 
 - [Surface Hub log files](/surface-hub/collect-surface-hub-log-files)
 - Any applicable [Azure sign-in logs](/azure/active-directory/reports-monitoring/howto-troubleshoot-sign-in-errors#troubleshoot-sign-in-errors-using-the-sign-ins-report) that indicate sign-in failure.
-
- 
-

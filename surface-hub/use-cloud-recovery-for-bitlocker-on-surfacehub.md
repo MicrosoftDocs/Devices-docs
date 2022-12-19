@@ -2,11 +2,9 @@
 title: How to use cloud recovery for BitLocker on a Surface Hub
 description: How to use cloud recovery for BitLocker on a Surface Hub
 ms.assetid: c0bde23a-49de-40f3-a675-701e3576d44d
-keywords: Accessibility settings, Settings app, Ease of Access
 ms.prod: surface-hub
-
-author: v-miegge
-ms.author: v-miegge
+author: coveminer
+ms.author: coveminer
 ms.topic: how-to
 ms.localizationpriority: medium
 ---
@@ -19,6 +17,7 @@ This article describes how to use the cloud recovery function if you are unexpec
 > You should follow these steps only if a BitLocker recovery key isn't available.
 
 > [!WARNING]
+>
 > * This recovery process deletes the contents of the internal drive. If the process fails, the internal drive will become completely unusable. If this occurs, you will have to log a service request with Microsoft for a resolution.
 > * After the recovery process is complete, the device will be reset to the factory settings and returned to its Out of Box Experience state.
 > * After the recovery, the Surface Hub must be completely reconfigured.

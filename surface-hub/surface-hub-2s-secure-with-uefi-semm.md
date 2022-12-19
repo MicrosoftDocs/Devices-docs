@@ -1,13 +1,10 @@
 ---
 title: "Secure and manage Surface Hub 2S with SEMM"
 description: "Learn more about securing Surface Hub 2S with SEMM."
-
 ms.prod: surface-hub
-
 author: coveminer
 ms.author: hachidan
 manager: frankbu
-
 ms.topic: how-to
 ms.date: 06/20/2019
 ms.localizationpriority: Medium

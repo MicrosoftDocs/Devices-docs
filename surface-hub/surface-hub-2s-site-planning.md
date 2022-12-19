@@ -1,21 +1,16 @@
 ---
 title: "Surface Hub 2S site planning"
 description: "Learn more about rooms for Surface Hub 2S."
-
 ms.prod: surface-hub
-
 author: coveminer
 ms.author: hachidan
 manager: frankbu
-
 ms.topic: how-to
 ms.date: 06/20/2019
 ms.localizationpriority: Medium
 ---
 
 # Surface Hub 2S site planning
-
-## Introduction
 
 Designed for team collaboration, Surface Hub 2S can transform the way you work  —  not only in the conference rooms but any place you want to work. One of the biggest advantages of Surface Hub 2S is the ability to move it from one space to another when used with the Steelcase Roam mobile stand and mobile battery. Providing unplugged, uninterrupted teamwork capabilities, Surface Hub 2S can be integrated into almost any workspace.
 

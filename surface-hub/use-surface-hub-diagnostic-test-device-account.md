@@ -2,11 +2,9 @@
 title: Using the Surface Hub Hardware Diagnostic Tool to test a device account
 description: Using the Surface Hub Hardware Diagnostic Tool to test a device account
 ms.assetid: a87b7d41-d0a7-4acc-bfa6-b9070f99bc9c
-keywords: Accessibility settings, Settings app, Ease of Access
 ms.prod: surface-hub
-
-author: v-miegge
-ms.author: v-miegge
+author: coveminer
+ms.author: coveminer
 ms.topic: how-to
 ms.localizationpriority: medium
 ---
@@ -19,6 +17,7 @@ ms.localizationpriority: medium
 > The "Account Settings" section of the Surface Hub Hardware Diagnostic tool doesn’t collect any information. The email and password that are entered as input are used only directly on your environment and not collected or transferred to anyone. The login information persists only until the application is closed or you end the current session on the Surface Hub.
 
 > [!IMPORTANT]
+>
 > * Administrator privileges are not required to run this application.
 > * The results of the diagnostic should be discussed with your local administrator before you open a service call with Microsoft.
 

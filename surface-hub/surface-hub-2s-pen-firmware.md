@@ -1,13 +1,10 @@
 ---
 title: "Update pen firmware on Surface Hub 2S"
 description: "This page describes how to update firmware for the Surface Hub 2 pen."
-
 ms.prod: surface-hub
-
 author: coveminer
 ms.author: hachidan
 manager: frankbu
-
 ms.topic: how-to
 ms.date: 04/15/2021
 ms.localizationpriority: Medium
@@ -15,7 +12,7 @@ ms.localizationpriority: Medium
 
 # Update pen firmware on Surface Hub 2S
 
-You can update firmware on Surface Hub 2 pen from Windows Update for Business or by downloading the firmware update to a separate PC. Updated firmware is available from Windows Update beginning February 26, 2020. 
+You can update firmware on Surface Hub 2 pen from Windows Update for Business or by downloading the firmware update to a separate PC. 
 
 ## Update pen firmware using Windows Update for Business
 
@@ -27,9 +24,7 @@ This section describes how to update pen firmware via the automated maintenance 
     > ![Surface Hub 2 pen.](images/sh2-pen-1.png)
 
 2. On Surface Hub, login as an Admin, open **Settings**, and then scan for new Bluetooth devices.
-
 3. Select the pen to complete the pairing process.
-
 4. Press the **top** button on the pen to apply the update. It may take up to two hours to complete.
 
 ## Update pen firmware by downloading to separate PC
@@ -42,20 +37,15 @@ You can update the firmware on Surface Hub 2 pen from a separate PC running Wind
     > ![Surface Hub 2 pen.](images/sh2-pen-1.png)
 
 2. On the PC, scan for new Bluetooth devices.
-
 3. Select the pen to complete the pairing process.
-
 4. Disconnect all other Surface Hub 2s pens before starting a new update.
-
 5. Download the [Surface Hub 2 Pen Firmware Update Tool](https://download.microsoft.com/download/8/3/F/83FD5089-D14E-42E3-AF7C-6FC36F80D347/Pen_Firmware_Tool.zip) to your PC.
-
 6. Run **PenCfu.exe.** The install progress is displayed in the tool. It may take several minutes to finish updating. 
 
 
 ## Check firmware version of Surface Hub 2 pen
 
 1. Run **get_version.bat** and press the **top** button on the pen.
-
 2. The tool will report the firmware version of the pen. 
 
    Example:
@@ -67,13 +57,8 @@ You can update the firmware on Surface Hub 2 pen from a separate PC running Wind
 You can run Surface Hub 2 Pen Firmware Update Tool (PenCfu.exe) from the command line.
 
 1. Pair the pen to your PC and click the **top** button on the pen.
-
 2. Double click **PenCfu.exe** to initiate the firmware update. Note that the configuration file and the firmware image files must be stored in the same folder as the tool.
-
-3. For additional options, run **PenCfu.exe -h** to display the available parameters, as listed in the following table.  
-
-   Example: `PenCfu.exe -h`
-
+3. For additional options, run **PenCfu.exe -h** to display the available parameters, as listed in the following table.  Example: `PenCfu.exe -h`
 4. Enter **Ctrl+C** to safely shut down the tool.
 
 
@@ -83,4 +68,3 @@ You can run Surface Hub 2 Pen Firmware Update Tool (PenCfu.exe) from the command
 | -v version     | Display tool version and exit. |
 | -l log-filter  | Set a filter level for the log file. Log messages have 4 possible levels: DEBUG (lowest), INFO, WARNING and ERROR (highest). Setting a log filter level filters log messages to only message with the same level or higher. For example, if the filter level is set to WARNING, only WARNING and ERROR messages will be logged. By default, this option is set to OFF, which disables logging. |
 | -g get-version | If specified, the tool will only get the FW version of the connected pen that matches the configuration file that is stored in the same folder as the tool.  |
-

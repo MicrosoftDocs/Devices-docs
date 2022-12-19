@@ -1,12 +1,10 @@
 ---
 title: How Surface Hub addresses Wi-Fi Direct security issues
 description: Guidance about Wi-Fi Direct security risks.
-keywords: change history
 ms.prod: surface-hub
-
 author: coveminer
 ms.author: hachidan
-ms.topic: how-to
+ms.topic: conceptual
 ms.date: 11/27/2019
 ms.reviewer: 
 manager: frankbu
@@ -36,6 +34,7 @@ Wi-Fi Direct or Wi-Fi "peer to peer" (P2P) is a standard from the Wi-Fi Alliance
 Security for Wi-Fi Direct is provided by WPA2 under the WPS standard. The authentication mechanism for devices can be a numerical pin (WPS-PIN), a physical or virtual push button (WPS-PBC), or an out-of-band message such as near field communication (WPS-OOO). Surface Hub supports both the PIN method and the push-button method, which is the default.
 
 In Wi-Fi Direct, groups are created as one of the following types:
+
 - *Persistent*, in which automatic reconnection can occur by using stored key material
 - *Temporary*, in which devices can't re-authenticate without user action
 
@@ -110,13 +109,11 @@ For additional wireless interface security, Surface Hub users should enable the 
 If you still have concerns about authentication and authorization for Surface Hub, we recommend that you connect the device to a separate network. You could use Wi-Fi (such as a "guest" Wi-Fi network) or a separate Ethernet network, preferably an entirely different physical network. But a VLAN can also provide added security. Of course, this approach may preclude connections to internal network resources or services and may require additional network configuration to regain access.
 
 Also recommended:
+
 - [Install regular system updates](manage-windows-updates-for-surface-hub.md) 
-- Update the Miracast settings to disable auto-present mode
+- Update Miracast settings to disable auto-present mode
 
 ## Learn more
 
 - [Wi-Fi Direct specifications](http://www.wi-fi.org/discover-wi-fi/wi-fi-direct)
 - [Wireless Protected Setup (WPS) specification](http://www.wi-fi.org/discover-wi-fi/wi-fi-protected-setup)
-
-
-

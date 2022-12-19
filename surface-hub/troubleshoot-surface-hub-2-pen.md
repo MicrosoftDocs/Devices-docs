@@ -1,11 +1,9 @@
 ---
 title: Troubleshoot Surface Hub 2 Pen
 description: This page explains how to troubleshoot issues with Surface Hub 2 Pen 
-ms.reviewer: 
 manager: frankbu
 keywords: troubleshoot Surface Hub power
 ms.prod: surface-hub
-
 author: coveminer
 ms.author: hachidan
 ms.topic: how-to

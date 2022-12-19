@@ -1,13 +1,10 @@
 ---
 title: "Manage Microsoft Edge on Surface Hub"
 description: "This article describes default Microsoft Edge policy settings and tools to configure browser settings."
-
 ms.prod: surface-hub
-
 author: coveminer
 ms.author: hachidan
 manager: frankbu
-
 ms.topic: how-to
 ms.date: 08/17/2021
 ms.localizationpriority: Medium
@@ -30,7 +27,6 @@ Use [Microsoft Edge browser policies](/deployedge/microsoft-edge-policies) to co
 ## Default Microsoft Edge policies for Surface Hub
 
 Microsoft Edge is preconfigured with the following policy setttings to provide an optimized experience for Surface Hub.
-
 
 > [!TIP]
 > It's recommended to retain the default value for these policy settings.

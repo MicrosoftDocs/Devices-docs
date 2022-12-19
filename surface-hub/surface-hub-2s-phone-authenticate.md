@@ -1,13 +1,10 @@
 ---
 title: "Configure password-less sign-in on Surface Hub"
 description: "Learn how to simplify signing in to Surface Hub."
-
 ms.prod: surface-hub
-
 author: coveminer
 ms.author: hachidan
 manager: frankbu
-
 ms.topic: how-to
 ms.date: 07/21/2020
 ms.localizationpriority: Medium
@@ -15,7 +12,6 @@ ms.localizationpriority: Medium
 
 # Configure passwordless sign-in on Surface Hub
 
- 
 Passwordless sign-in simplifies access to your apps, meetings, and files. Surface Hub supports signing in using the Microsoft Authenticator app and FIDO2 security keys provided by your organization.
 
 **Important:** This content is intended for users. To use passwordless sign-in, your IT admin must enable passwordless authentication for your organization. For more information, see:
@@ -26,7 +22,8 @@ Passwordless sign-in simplifies access to your apps, meetings, and files. Surfac
 
 ## Configure sign-in using Microsoft Authenticator app
 
-**Note:** Starting with Windows 10 Team 2020 Update, users can use their preferred email aliases in Azure AD, as well as their User Principal Name (UPN), to sign in using Microsoft Authenticator. For example, a user can use either their preferred alias (John.Doe@contoso.com) or their UPN (jdoe@contoso.com) to sign in.
+​​> [!NOTE]
+​​> Starting with Windows 10 Team 2020 Update, users can use their preferred email aliases in Azure AD, as well as their User Principal Name (UPN), to sign in using Microsoft Authenticator. For example, a user can use either their preferred alias (John.Doe@contoso.com) or their UPN (jdoe@contoso.com) to sign in.
  
 The Microsoft Authenticator app helps you sign-in to Surface Hub using your mobile device. To configure sign-in using Microsoft Authenticator:
 
@@ -41,7 +38,7 @@ The Microsoft Authenticator app helps you sign-in to Surface Hub using your mobi
 ## Configure sign-in using FIDO2 security keys
 
 > [!NOTE]
->  Passwordless sign-in on Surface Hub using FIDO2 security keys requires the Windows 10 Team 2020 Update.
+> Passwordless sign-in on Surface Hub using FIDO2 security keys requires the Windows 10 Team 2020 Update.
 
 > [!IMPORTANT]
 > Surface Hub only supports USB security keys.
@@ -49,7 +46,6 @@ The Microsoft Authenticator app helps you sign-in to Surface Hub using your mobi
 You can also sign into Surface Hub using a FIDO2 security key provided by your organization. 
 
 ### To configure sign-in using a security key:
-
 
 1. On your PC, go to your [https://myprofile.microsoft.com/](https://myprofile.microsoft.com/) page and sign in to your work or school account.
 2. Select **Security info** from the left navigation pane or from the link in the **Security info** block, and then select **Add method** from the **Security info** page.
@@ -68,7 +64,6 @@ Once you've configured passwordless sign-in, you can use it to make it easier to
 - Quickly sign in to Microsoft apps like Whiteboard, PowerPoint, Word, Excel, OneDrive, and Power BI.
 - Quickly sign in to the new Microsoft Edge to access your favorites and browsing preferences. For more information, see [Install and configure the new Microsoft Edge](surface-hub-install-chromium-edge.md).
 - Once you've signed into Surface Hub, you can use other apps without having to sign in again until you select **End session**. Selecting **End session** deletes your credentials, files, and personal data from the device. For more information, see [End session](finishing-your-surface-hub-meeting.md).
-
 
 ## Learn more
 

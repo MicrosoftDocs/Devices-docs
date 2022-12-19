@@ -1,13 +1,10 @@
 ---
 title: "Install Windows 10 Team 2022 Update"
 description: "Get the latest update of the Surface Hub operating system, Windows 10 Team Edition version 22H2."
-
 ms.prod: surface-hub
-
 author: coveminer
 ms.author: hachidan
 manager: frankbu
-
 ms.topic: how-to
 ms.date: 10/19/2022
 ms.localizationpriority: Medium
