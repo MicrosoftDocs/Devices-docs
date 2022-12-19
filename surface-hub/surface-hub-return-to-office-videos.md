@@ -3,13 +3,13 @@ title: Surface Hub return to the office video series
 description: This page features instructional videos to help keep your Surface Hub devices up to date and functioning as expected
 keywords: Teams Rooms, Surface Hub, 
 ms.prod: surface-hub
-ms.sitesec: library
-author: dansimp
-ms.author: dansimp
-ms.topic: article
+
+author: coveminer
+ms.author: hachidan
+ms.topic: how-to
 ms.date: 12/23/2021
 ms.reviewer: brianst
-manager: laurawi
+manager: frankbu
 ms.localizationpriority: medium
 ---
 

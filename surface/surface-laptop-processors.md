@@ -1,17 +1,17 @@
 ---
 title: Surface Laptop 4 processors technical overview
 description: This article highlights AMD and Intel processors in Surface Laptop 4. 
-ms.prod: w10
-ms.mktglfcycl: manage
+ms.prod: surface
+
 ms.localizationpriority: medium
-ms.sitesec: library
+
 author: coveminer
-ms.author: greglin
-ms.topic: article
+ms.author: hachidan
+ms.topic: how-to
 ms.date: 04/13/2021
 ms.reviewer: brrecord
-manager: laurawi
-audience: itpro
+manager: frankbu
+
 appliesto:
 - Windows 10
 - Windows 11

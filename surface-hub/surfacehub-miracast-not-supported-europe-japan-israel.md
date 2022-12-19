@@ -4,10 +4,10 @@ description: Surface Hub Miracast channels 149-165 not supported in Europe, Japa
 ms.assetid: 8af3a832-0537-403b-823b-12eaa7a1af1f
 keywords:
 ms.prod: surface-hub
-ms.sitesec: library
+
 author: v-miegge
 ms.author: v-miegge
-ms.topic: article
+ms.topic: how-to
 ms.localizationpriority: medium
 ---
 

@@ -3,12 +3,12 @@ title: "Install and mount Surface Hub 2S 85"
 description: "Learn how to install and mount Surface Hub 2S 85."
 keywords: separate values with commas
 ms.prod: surface-hub
-ms.sitesec: library
-author: greg-lindsay
-ms.author: greglin
-manager: laurawi
+
+author: coveminer
+ms.author: hachidan
+manager: frankbu
 audience: Admin
-ms.topic: article
+ms.topic: how-to
 ms.date: 03/22/2021
 ms.localizationpriority: Medium
 ---

@@ -1,17 +1,17 @@
 ---
 title: Self-serve your Surface warranty & service requests
 description: Microsoft 365 Business customers may be eligible to use the beta Surface Self Serve Warranty and Service node in the Microsoft Admin Center to create and manage service orders. 
-ms.prod: w10
+ms.prod: surface
 ms.mktglfcycl: support
 ms.localizationpriority: medium
-ms.sitesec: library
+
 author: coveminer
-ms.author: greglin
-ms.topic: article
+ms.author: hachidan
+ms.topic: how-to
 ms.date: 10/12/2022
 ms.reviewer: cchauvet 
-manager: laurawi
-audience: itpro
+manager: frankbu
+
 appliesto:
 - Windows 10
 - Windows 11

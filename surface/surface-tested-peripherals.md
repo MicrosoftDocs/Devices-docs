@@ -1,17 +1,17 @@
 ---
 title: Tested peripherals for new Surface devices
 description: This page lists the results of extensive testing for external monitors, docks, cables, and adapters for Surface Pro 9 and Surface Pro 9 with 5G.
-ms.prod: w10
-ms.mktglfcycl: manage
+ms.prod: surface
+
 ms.localizationpriority: medium
-ms.sitesec: library
+
 author: coveminer
-ms.author: greglin
-ms.topic: article
+ms.author: hachidan
+ms.topic: how-to
 ms.date: 10/12/2022
 ms.reviewer: dpushkareva
-manager: laurawi
-audience: itpro
+manager: frankbu
+
 appliesto:
 - Windows 10
 - Windows 11

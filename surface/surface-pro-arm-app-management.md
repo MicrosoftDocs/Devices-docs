@@ -2,16 +2,16 @@
 title: Deploy, manage, and service ARM-based Surface devices
 description: This article provides an overview of key considerations for deploying, managing, and servicing Surface Pro 9 with 5G and Surface Pro X.
 ms.prod: w11
-ms.mktglfcycl: manage
+
 ms.localizationpriority: high
-ms.sitesec: library
+
 author: coveminer
 ms.author: hachidan
-ms.topic: article
+ms.topic: how-to
 ms.date: 11/28/2022
 ms.reviewer: Karand 
-manager: laurawi
-ms.audience: itpro
+manager: frankbu
+ms.
 appliesto:
 - Windows 10
 - Windows 11

@@ -3,12 +3,12 @@ title: "Install Windows 10 Team 2022 Update"
 description: "Get the latest update of the Surface Hub operating system, Windows 10 Team Edition version 22H2."
 keywords: separate values with commas
 ms.prod: surface-hub
-ms.sitesec: library
-author: greg-lindsay
-ms.author: greglin
-manager: laurawi
+
+author: coveminer
+ms.author: hachidan
+manager: frankbu
 audience: Admin
-ms.topic: article
+ms.topic: how-to
 ms.date: 10/19/2022
 ms.localizationpriority: Medium
 appliesto:

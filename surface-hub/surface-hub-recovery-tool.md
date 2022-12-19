@@ -3,13 +3,13 @@ title: Using the Surface Hub Recovery Tool
 description: How to use the Surface Hub Recovery Tool to re-image the SSD.
 ms.assetid: FDB6182C-1211-4A92-A930-6C106BCD5DC1
 ms.reviewer: 
-manager: laurawi
+manager: frankbu
 keywords: manage Surface Hub
 ms.prod: surface-hub
-ms.sitesec: library
-author: dansimp
-ms.author: dansimp
-ms.topic: article
+
+author: coveminer
+ms.author: hachidan
+ms.topic: how-to
 ms.date: 02/11/2020
 ms.localizationpriority: medium
 ---

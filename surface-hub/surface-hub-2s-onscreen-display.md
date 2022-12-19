@@ -3,12 +3,12 @@ title: "Adjust Surface Hub 2S brightness, volume, and input"
 description: "Learn how to use the onscreen display to adjust brightness and other settings in Surface Hub 2S."
 keywords: separate values with commas
 ms.prod: surface-hub
-ms.sitesec: library
-author: greg-lindsay
-ms.author: greglin
-manager: laurawi
+
+author: coveminer
+ms.author: hachidan
+manager: frankbu
 audience: Admin
-ms.topic: article
+ms.topic: how-to
 ms.date: 07/09/2019
 ms.localizationpriority: Medium
 ---

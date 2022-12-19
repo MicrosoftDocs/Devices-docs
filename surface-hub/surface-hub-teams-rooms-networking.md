@@ -3,13 +3,13 @@ title: Configure networking and Quality of Service for Microsoft Teams Room on S
 description: This article explains requirements and recommendations for networking and Quality of Service to optimize Microsoft Teams Rooms on Surface Hub.
 keywords: Teams Rooms, Surface Hub, Intune, QoS
 ms.prod: surface-hub
-ms.sitesec: library
-author: dansimp
-ms.author: dansimp
-ms.topic: article
+
+author: coveminer
+ms.author: hachidan
+ms.topic: how-to
 ms.date: 08/20/2021
 ms.reviewer: 
-manager: laurawi
+manager: frankbu
 ms.localizationpriority: medium
 ---
 

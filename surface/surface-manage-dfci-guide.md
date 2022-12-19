@@ -2,16 +2,16 @@
 title: Manage DFCI on Surface devices
 description: This page shows how to configure DFCI policy settings on Autopilot-deployed Surface devices. It includes documentation for all DFCI settings compatible with Surface devices.
 ms.localizationpriority: medium
-ms.prod: w10
-ms.mktglfcycl: manage
-ms.sitesec: library
+ms.prod: surface
+
+
 author: coveminer
-ms.author: greglin
-ms.topic: article
+ms.author: hachidan
+ms.topic: how-to
 ms.date: 10/25/2022
 ms.reviewer: karand
-manager: laurawi
-ms.audience: itpro
+manager: frankbu
+ms.
 appliesto:
 - Windows 10
 - Windows 11

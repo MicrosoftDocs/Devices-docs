@@ -3,12 +3,12 @@ title: "Surface Hub 2S Adoption and training guides"
 description: "Microsoft has developed downloadable materials that you can make available for your users to aid in adoption of Surface Hub 2S."
 keywords: separate values with commas
 ms.prod: surface-hub
-ms.sitesec: library
-author: greg-lindsay
-ms.author: greglin
-manager: laurawi
+
+author: coveminer
+ms.author: hachidan
+manager: frankbu
 audience: Admin
-ms.topic: article
+ms.topic: how-to
 ms.date: 11/04/2019
 ms.localizationpriority: Medium
 ---

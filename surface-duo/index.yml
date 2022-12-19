@@ -8,10 +8,10 @@ metadata:
   description: Get started with Microsoft Surface Duo # Required; article description that is displayed in search results. < 160 chars.
   ms.service: product-insights #Required; service per approved list. service slug assigned to your service by ACOM.
   ms.topic: landing-page # Required
-  manager: laurawi
-  author: greg-lindsay #Required; your GitHub user alias, with correct capitalization.
-  ms.author: greglin #Required; microsoft alias of author; optional team alias.
-  audience: itpro
+  manager: frankbu
+  author: coveminer #Required; your GitHub user alias, with correct capitalization.
+  ms.author: hachidan #Required; microsoft alias of author; optional team alias.
+  
   ms.localizationpriority: medium
 
 

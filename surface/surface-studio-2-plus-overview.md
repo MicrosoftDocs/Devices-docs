@@ -2,16 +2,16 @@
 title: Surface Studio 2+ for Business overview
 description: This article provides an overview of the new Surface Studio 2+.
 ms.prod: w11
-ms.mktglfcycl: manage
+
 ms.localizationpriority: medium
-ms.sitesec: library
+
 author: coveminer
-ms.author: greglin
-ms.topic: article
+ms.author: hachidan
+ms.topic: how-to
 ms.date: 10/12/2022
 ms.reviewer: hachidan
-manager: laurawi
-audience: itpro
+manager: frankbu
+
 appliesto:
 - Windows 11
 ---

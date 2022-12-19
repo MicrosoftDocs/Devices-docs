@@ -2,15 +2,15 @@
 title: Use fully qualified domain name with Surface Hub
 description: Troubleshoot common problems, including setup issues, Exchange ActiveSync errors.
 keywords: ["Troubleshoot common problems", "setup issues", "Exchange ActiveSync errors"]
-author: dansimp
-ms.author: dansimp
-ms.topic: article
+author: coveminer
+ms.author: hachidan
+ms.topic: how-to
 ms.date: 07/27/2017
 ms.reviewer: 
-manager: laurawi
+manager: frankbu
 ms.localizationpriority: medium
 ms.prod: surface-hub
-ms.sitesec: library
+
 ---
 
 # Configure domain name for Skype for Business

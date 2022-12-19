@@ -1,16 +1,16 @@
 ---
 title: Use Surface Diagnostic Toolkit for Business in desktop mode
 description: How to use SDT to help users in your organization run the tool to identify and diagnose issues with the Surface device as well as submit Support requests directly from the tool.
-ms.prod: w10
-ms.mktglfcycl: manage
-ms.sitesec: library
+ms.prod: surface
+
+
 author: coveminer
-ms.author: greglin
-ms.topic: article
+ms.author: hachidan
+ms.topic: how-to
 ms.reviewer: hachidan
-manager: laurawi
+manager: frankbu
 ms.localizationpriority: medium
-ms.audience: itpro
+ms.
 ms.date: 7/31/2020
 appliesto:
 - Windows 10

@@ -1,13 +1,13 @@
 ---
 title: Technical information for 55" Surface Hub (v1)
 ms.reviewer: 
-manager: laurawi
+manager: frankbu
 description: Specifications for the 55" Surface Hub (v1)
 ms.prod: surface-hub
-ms.sitesec: library
-author: dansimp
-ms.author: dansimp
-ms.topic: article
+
+author: coveminer
+ms.author: hachidan
+ms.topic: how-to
 ms.localizationpriority: medium
 ms.date: 12/21/2020
 appliesto:

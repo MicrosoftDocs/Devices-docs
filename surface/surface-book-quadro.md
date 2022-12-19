@@ -1,17 +1,17 @@
 ---
 title: Surface Book 3 Quadro RTX 3000 technical overview
 description: This article describes the advanced capabilities enabled by Nvidia Quadro RTX 3000 in select Surface Book 3 for Business 15-inch models and includes information about ISV-tested applications.
-ms.prod: w10
-ms.mktglfcycl: manage
+ms.prod: surface
+
 ms.localizationpriority: medium
-ms.sitesec: library
+
 author: coveminer
-ms.author: greglin
-ms.topic: article
+ms.author: hachidan
+ms.topic: how-to
 ms.date: 10/05/2020
 ms.reviewer: brrecord
-manager: laurawi
-audience: itpro
+manager: frankbu
+
 ---
 
 # Surface Book 3 Quadro RTX 3000 tech overview

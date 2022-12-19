@@ -1,11 +1,11 @@
 ---
 title: Next Business Day Service information & coverage areas
 ms.author: alyee
-author: greg-lindsay
-manager: laurawi
+author: coveminer
+manager: frankbu
 ms.date: 04/19/2022
 audience: Admin
-ms.topic: article
+ms.topic: how-to
 ms.prod: surface
 localization_priority: high
 ms.custom: references_regions

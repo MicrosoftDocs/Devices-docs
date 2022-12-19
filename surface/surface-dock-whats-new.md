@@ -1,17 +1,17 @@
 ---
 title: What’s new in Surface Dock 2
 description: This article highlights new features and functionality for the next generation Surface Dock.
-ms.prod: w10
-ms.mktglfcycl: manage
+ms.prod: surface
+
 ms.localizationpriority: medium
-ms.sitesec: library
+
 author: coveminer
-ms.author: greglin
-ms.topic: article
+ms.author: hachidan
+ms.topic: how-to
 ms.date: 11/07/2022
 ms.reviewer: brrecord
-manager: laurawi
-audience: itpro
+manager: frankbu
+
 appliesto:
 - Windows 10
 - Windows 11

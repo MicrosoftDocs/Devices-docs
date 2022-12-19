@@ -1,13 +1,13 @@
 ---
 title: Surface Hub Site Readiness Guide
 ms.reviewer: 
-manager: laurawi
+manager: frankbu
 description: Use this Site Readiness Guide to help plan your Surface Hub installation.
 ms.prod: surface-hub
-ms.sitesec: library
-author: greg-lindsay
-ms.author: greglin
-ms.topic: article
+
+author: coveminer
+ms.author: hachidan
+ms.topic: how-to
 ms.localizationpriority: medium
 ---
 

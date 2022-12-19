@@ -3,12 +3,12 @@ title: "Surface Hub 2S 85-inch"
 description: "This article introduces Surface Hub 2S 85-inch."
 keywords: Surface Hub 2S 85, tech specs
 ms.prod: surface-hub
-ms.sitesec: library
-author: greg-lindsay
-ms.author: greglin
-manager: laurawi
+
+author: coveminer
+ms.author: hachidan
+manager: frankbu
 audience: Admin
-ms.topic: article
+ms.topic: how-to
 ms.date: 01/11/2022
 ms.localizationpriority: Medium
 ---

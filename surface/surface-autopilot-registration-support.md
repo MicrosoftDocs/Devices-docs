@@ -1,17 +1,17 @@
 ---
 title: Surface Registration Support for Windows Autopilot
 description: This article describes the requirements for submitting Autopilot registration requests to Microsoft Support. 
-ms.prod: w10
-ms.mktglfcycl: manage
+ms.prod: surface
+
 ms.localizationpriority: medium
-ms.sitesec: library
+
 author: coveminer
-ms.author: greglin
-ms.topic: article
+ms.author: hachidan
+ms.topic: how-to
 ms.date: 8/15/2022
 ms.reviewer: brrecord
-manager: laurawi
-audience: itpro
+manager: frankbu
+
 appliesto:
 - Windows 10
 - Windows 11

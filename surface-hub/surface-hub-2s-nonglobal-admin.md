@@ -3,12 +3,12 @@ title: "Configure non Global admin accounts on Surface Hub"
 description: "This article describes how to configure non Global admin accounts to manage Surface Hub and Surface Hub 2S."
 keywords: Surface Hub, Surface Hub v1, Surface Hub 2S
 ms.prod: surface-hub
-ms.sitesec: library
-author: greg-lindsay
-ms.author: greglin
-manager: laurawi
+
+author: coveminer
+ms.author: hachidan
+manager: frankbu
 audience: Admin
-ms.topic: article
+ms.topic: how-to
 ms.date: 11/15/2022
 ms.localizationpriority: Medium
 appliesto:

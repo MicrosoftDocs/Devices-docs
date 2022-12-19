@@ -3,12 +3,12 @@ title: "Surface Hub 2S ports and keypad overview"
 description: "This page describes the ports, physical buttons, and configuration information essential for connecting to Surface Hub 2S."
 keywords: separate values with commas
 ms.prod: surface-hub
-ms.sitesec: library
-author: greg-lindsay
-ms.author: greglin
-manager: laurawi
+
+author: coveminer
+ms.author: hachidan
+manager: frankbu
 audience: Admin
-ms.topic: article
+ms.topic: how-to
 ms.date: 06/20/2019
 ms.localizationpriority: Medium
 ---

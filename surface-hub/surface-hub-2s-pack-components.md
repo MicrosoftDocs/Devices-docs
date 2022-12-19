@@ -3,12 +3,12 @@ title: "How to pack and ship your Surface Hub 2S for service"
 description: "Instructions for packing Surface Hub 2S components, replacing the Compute cartridge, and replacing the camera"
 keywords: pack, replace components, camera, compute cartridge
 ms.prod: surface-hub
-ms.sitesec: library
-author: greg-lindsay
-ms.author: greglin
-manager: laurawi
+
+author: coveminer
+ms.author: hachidan
+manager: frankbu
 audience: Admin
-ms.topic: article
+ms.topic: how-to
 ms.date: 02/06/2019
 ms.localizationpriority: Medium
 ---

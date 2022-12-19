@@ -1,17 +1,17 @@
 ---
 title: Long-Term Servicing Channel for Surface devices (Surface)
 description: LTSB is not supported for general-purpose Surface devices and should be used for specialized devices only.
-ms.prod: w10
-ms.mktglfcycl: manage
-ms.pagetype: surface, devices
-ms.sitesec: library
+ms.prod: surface
+
+
+
 author: coveminer
-ms.author: greglin
-ms.topic: article
+ms.author: hachidan
+ms.topic: how-to
 ms.reviewer: 
-manager: laurawi
+manager: frankbu
 ms.localizationpriority: medium
-ms.audience: itpro
+ms.
 ---
 
 # Long-Term Servicing Channel (LTSC) for Surface devices

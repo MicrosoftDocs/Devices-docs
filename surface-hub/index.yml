@@ -12,11 +12,11 @@ metadata:
   ms.prod: surface-hub
   ms.technology: windows
   ms.custom: intro-hub-or-landing
-  audience: ITPro
+  
   ms.localizationpriority: medium
-  author: greg-lindsay #Required; your GitHub user alias, with correct capitalization.
-  ms.author: greglin #Required; microsoft alias of author; optional team alias.
-  manager: laurawi
+  author: coveminer #Required; your GitHub user alias, with correct capitalization.
+  ms.author: hachidan #Required; microsoft alias of author; optional team alias.
+  manager: frankbu
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
 

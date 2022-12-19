@@ -3,16 +3,16 @@ title: Contact Surface Business Support
 description: Business support information for Microsoft Surface products.
 ms.prod: surface
 ms.technology: windows
-ms.mktglfcycl: manage
-ms.sitesec: library
+
+
 author: coveminer
-ms.author: greglin
-ms.topic: article
+ms.author: hachidan
+ms.topic: how-to
 ms.date: 9/3/2020
 ms.reviewer: karand
-manager: laurawi
-ms.audience: itpro
-audience: ITPro
+manager: frankbu
+ms.
+
 ms.localizationpriority: medium
 appliesto:
 - Surface Duo

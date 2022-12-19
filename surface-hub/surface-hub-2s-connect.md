@@ -3,12 +3,12 @@ title: "Connect devices to Surface Hub 2S"
 description: "This page explains how to connect external devices to Surface Hub 2S."
 keywords: separate values with commas
 ms.prod: surface-hub
-ms.sitesec: library
-author: greg-lindsay
-ms.author: greglin
-manager: laurawi
+
+author: coveminer
+ms.author: hachidan
+manager: frankbu
 audience: Admin
-ms.topic: article
+ms.topic: how-to
 ms.date: 02/24/2020
 ms.localizationpriority: Medium
 ---

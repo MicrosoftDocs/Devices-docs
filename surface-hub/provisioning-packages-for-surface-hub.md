@@ -3,13 +3,11 @@ title: Create provisioning packages
 description: For Windows 10 or Windows 11, settings that use the registry or a configuration service provider (CSP) can be configured using provisioning packages.
 ms.assetid: 8AA25BD4-8A8F-4B95-9268-504A49BA5345
 ms.reviewer: dpandre
-manager: laurawi
-keywords: add certificate, provisioning package
+manager: frankbu
 ms.prod: surface-hub
-ms.sitesec: library
-author: dansimp
-ms.author: dansimp
-ms.topic: article
+author: coveminer
+ms.author: hachidan
+ms.topic: how-to
 ms.date: 07/20/2021
 ms.localizationpriority: medium
 appliesto:
@@ -38,8 +36,7 @@ Provisioning packages allow you to automate deployment of key features, helping 
 ## Use Surface Hub provisioning wizard
 
 1. Open Windows Configuration Designer and select **Provision Surface Hub devices**.<br>
-    ![Use the Surface Hub provisioning wizard.](images/sh-prov-start.png)
-    
+    ![Use the Surface Hub provisioning wizard.](images/sh-prov-start.png) 
 2. Name your project and select **Next**.
 
 ### Add certificates
@@ -115,8 +112,7 @@ In addition to this provisioning package, you can use a Surface Hub configuratio
     ```
     <DeviceAccountName>,<DeviceAccountPassword>,<FriendlyName>
     ```
-
-    > [!NOTE]
+    > [!TIP]
     > The configuration file must not contain column headers. When included in a provisioning package applied to Surface Hub, you can select the account and friendly name for the device from the file. To create the .csv file,  use either a UPN address format (rainier@contoso.com) or down-level logon name format (contoso\rainier).
 
     rainier@contoso.com,password,Rainier Surface Hub
@@ -262,17 +258,11 @@ There are two ways of deploying provisioning packages to a Surface Hub:
 ### Apply a provisioning package during first run
 
 1. When you turn on the Surface Hub for the first time, the first-run program displays the [**Hi there page**](first-run-program-surface-hub.md). Make sure that the settings are properly configured before proceeding.
-
 2. Insert the USB flash drive containing the .ppkg file into the Surface Hub. If the package is in the root directory of the drive, the first-run program will recognize it and ask if you want to set up the device. Select **Set up**.
-
 3. The next screen asks you to select a provisioning source. Select **Removable Media** and tap **Next**.
-
 4. Select the provisioning package (*.ppkg) that you want to apply, and tap **Next**. Note that you can only install one package during first run.
-
 5. The first-run program will show you a summary of the changes that the provisioning package will apply. Select **Yes, add it**.
-
 6. If a configuration file is included in the root directory of the USB flash drive, you will see **Select a configuration**. The first device account in the configuration file will be shown with a summary of the account information that will be applied to the Surface Hub.
-
 7. In **Select a configuration**, select the device name to apply, and then select **Next**.
 
 The settings from the provisioning package will be applied to the device and OOBE will be complete. After the device restarts, you can remove the USB flash drive.

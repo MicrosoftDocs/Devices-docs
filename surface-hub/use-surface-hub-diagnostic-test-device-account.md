@@ -4,10 +4,10 @@ description: Using the Surface Hub Hardware Diagnostic Tool to test a device acc
 ms.assetid: a87b7d41-d0a7-4acc-bfa6-b9070f99bc9c
 keywords: Accessibility settings, Settings app, Ease of Access
 ms.prod: surface-hub
-ms.sitesec: library
+
 author: v-miegge
 ms.author: v-miegge
-ms.topic: article
+ms.topic: how-to
 ms.localizationpriority: medium
 ---
 

@@ -3,12 +3,12 @@ title: "Surface Hub 2S site readiness guide"
 description: "Get familiar with site readiness requirements and recommendations for Surface Hub 2S."
 keywords: separate values with commas
 ms.prod: surface-hub
-ms.sitesec: library
-author: greg-lindsay
-ms.author: greglin
-manager: laurawi
+
+author: coveminer
+ms.author: hachidan
+manager: frankbu
 audience: Admin
-ms.topic: article
+ms.topic: how-to
 ms.date: 12/18/2019
 ms.localizationpriority: Medium
 ---

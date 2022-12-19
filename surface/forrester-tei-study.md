@@ -1,17 +1,17 @@
 ---
 title: Maximizing your ROI from Microsoft 365 Enterprise with Microsoft Surface
 description: This page provides a downloadable PDF of a Forrester Total Economic Impact Study commissioned by Microsoft.
-ms.prod: w10
-ms.mktglfcycl: manage
+ms.prod: surface
+
 ms.localizationpriority: medium
-ms.sitesec: library
+
 author: coveminer
-ms.author: greglin
-ms.topic: article
+ms.author: hachidan
+ms.topic: how-to
 ms.date: 9/29/2020
 ms.reviewer: rarroyo
-manager: laurawi
-audience: itpro
+manager: frankbu
+
 ---
 # Maximizing your ROI from Microsoft 365 Enterprise with Microsoft Surface
 

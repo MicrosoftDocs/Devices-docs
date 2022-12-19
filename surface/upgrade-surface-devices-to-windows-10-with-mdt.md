@@ -1,18 +1,12 @@
 ---
 title: Upgrade Surface devices to Windows 10 with Microsoft Deployment Toolkit (Surface)
 description: Find out how to perform a Windows 10 upgrade deployment to your Surface devices. 
-keywords: windows 10 surface, upgrade, customize, mdt
-ms.prod: w10
-ms.mktglfcycl: deploy
-ms.pagetype: surface
-ms.sitesec: library
+ms.prod: surface
 author: coveminer
-ms.author: greglin
-ms.topic: article
+ms.author: hachidan
+ms.topic: how-to
 ms.localizationpriority: medium
-ms.audience: itpro
-ms.reviewer: 
-manager: laurawi
+manager: frankbu
 ms.date: 10/12/2020
 ---
 

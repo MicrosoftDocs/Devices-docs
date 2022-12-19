@@ -1,16 +1,16 @@
 ---
 title: Surface Asset Tag Tool
 description: This topic explains how to use the Surface Asset Tag Tool.
-ms.prod: w10
-ms.mktglfcycl: manage
+ms.prod: surface
+
 ms.localizationpriority: medium
-ms.sitesec: library
+
 author: coveminer
-ms.author: greglin
-ms.topic: article
+ms.author: hachidan
+ms.topic: how-to
 ms.reviewer: carlol
 ms.date: 06/29/2021
-manager: laurawi
+manager: frankbu
 appliesto:
 - Windows 10
 - Windows 11

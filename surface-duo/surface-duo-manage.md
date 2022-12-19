@@ -3,16 +3,15 @@ title: Surface Duo management overview
 description: This article highlights options for managing Surface Duo in a commercial environment.
 ms.technology: windows
 ms.prod: surface
-ms.mktglfcycl: manage
-ms.sitesec: library
+
 author: coveminer
-ms.author: greglin
-ms.topic: article
+ms.author: hachidan
+ms.topic: how-to
 ms.date: 9/23/2020
 ms.reviewer: karand
-manager: laurawi
-ms.audience: itpro
-audience: ITPro
+manager: frankbu
+ms.
+
 ms.localizationpriority: medium
 appliesto:
 - Surface Duo

@@ -3,12 +3,12 @@ title: "What's new in Windows 10 Team 2020 updates"
 description: "Check out what's new in the latest update of the Surface Hub operating system, Windows 10 Team 2020 Update."
 keywords: separate values with commas
 ms.prod: surface-hub
-ms.sitesec: library
-author: greg-lindsay
-ms.author: greglin
-manager: laurawi
+
+author: coveminer
+ms.author: hachidan
+manager: frankbu
 audience: Admin
-ms.topic: article
+ms.topic: how-to
 ms.date: 02/15/2022
 ms.localizationpriority: Medium
 ---

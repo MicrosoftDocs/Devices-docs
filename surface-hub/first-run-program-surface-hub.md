@@ -3,13 +3,11 @@ title: First time setup for Surface Hub
 description: The term \ 0034;first run \ 0034; refers to the series of steps you'll go through the first time you power up your Microsoft Surface Hub, and means the same thing as \ 0034;out-of-box experience \ 0034; (OOBE). This section will walk you through the process.
 ms.assetid: 07C9E84C-1245-4511-B3B3-75939AD57C49
 ms.reviewer: 
-manager: laurawi
-keywords: first run, Surface Hub, out-of-box experience, OOBE
+manager: frankbu
 ms.prod: surface-hub
-ms.sitesec: library
-author: dansimp
-ms.author: dansimp
-ms.topic: article
+author: coveminer
+ms.author: hachidan
+ms.topic: how-to
 ms.date: 08/17/2021
 ms.localizationpriority: medium
 ---
@@ -76,7 +74,7 @@ When you first start Surface Hub, the device automatically enters first time Set
 >[!IMPORTANT]
 >If you plan to affliate the Surface Hub with Active Directory, the device name must meet the [standard requirements for computer names in AD](/troubleshoot/windows-server/identity/naming-conventions-for-computer-domain-site-ou#computer-names), otherwise setup will fail.
 
->[!NOTE]
+>[!TIP]
 >If you want to enable [Miracast over Infrastructure](miracast-over-infrastructure.md), the device name needs to be discoverable via DNS. You can achieve this by either allowing your Surface Hub to register automatically via Dynamic DNS, or by manually creating an A or AAAA record for the Surface Hub's device name.
 
 ### Configure device admin accounts
@@ -103,8 +101,8 @@ You can only set up device admins during first time Setup. For more information,
 
     :::image type="content" source="images/hub-setup-signin.png" alt-text="Sign in with work or school account.":::
 
->[!NOTE]
->To configure who can use the Settings app to administrate Surface Hubs ensure that automatic Intune enrollment is enabled in your tenant before joining the device to Azure AD. Intune policies can then be used to [configure non Global admins](surface-hub-2s-nonglobal-admin.md) on Surface Hubs.
+>[!TIP]
+>To configure who can use the Settings app to manage Surface Hubs, ensure that automatic Intune enrollment is enabled in your tenant before joining the device to Azure AD. Intune policies can then be used to [configure non Global admins](surface-hub-2s-nonglobal-admin.md) on Surface Hubs.
 
 ### Local Administrator account
 

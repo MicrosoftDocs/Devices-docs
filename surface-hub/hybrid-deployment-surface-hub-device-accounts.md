@@ -2,14 +2,11 @@
 title: Hybrid deployment (Surface Hub)
 description: This page lists the hybrid scenarios supported by Microsoft Teams Rooms.
 ms.assetid: 7BFBB7BE-F587-422E-9CE4-C9DDF829E4F1
-ms.reviewer: 
-manager: laurawi
-keywords: hybrid deployment, device account for Surface Hub, Exchange hosted on-prem, Exchange hosted online
+manager: frankbu
 ms.prod: surface-hub
-ms.sitesec: library
-author: dansimp
-ms.author: dansimp
-ms.topic: article
+author: coveminer
+ms.author: hachidan
+ms.topic: how-to
 ms.date: 04/01/2021
 ms.localizationpriority: medium
 ---

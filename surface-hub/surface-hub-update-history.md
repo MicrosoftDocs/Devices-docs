@@ -4,10 +4,10 @@ description: Surface Hub update history
 ms.assetid: d66a9392-2b14-4cb2-95c3-92db0ae2de34
 keywords:
 ms.prod: surface-hub
-ms.sitesec: library
+
 author: v-miegge
 ms.author: dpandre
-ms.topic: article
+ms.topic: how-to
 ms.localizationpriority: high
 ---
 
