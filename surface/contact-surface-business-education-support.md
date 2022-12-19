@@ -21,7 +21,7 @@ ms.reviewer: mablaik
 description: Support information for Microsoft Surface and Surface Hub products.
 ---
 
-# Surface Support for Business and Education customers
+# Contact Surface Support for Business and Education customers
 
 ## Before you contact us  
 
