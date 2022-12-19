@@ -76,7 +76,8 @@ System Model and System SKU are variables stored in System Management BIOS (SMBI
 | Surface Pro 8 LTE                                            | Surface Pro 8    | Surface_Pro_8_for_Business_with_LTE_Advanced_1982|
 | Surface Pro 9 Consumer                                           | Surface Pro 9   | Surface_Pro_9_2038   |
 | Surface Pro 9 Commercial                                          | Surface Pro 9   | Surface_Pro_9_for_Business_2038 |
-| Surface Pro 9 with 5G                                           | Surface Pro 9   | Surface_Pro_9_With_5G_1997       |
+| Surface Pro 9 with 5G (U.S.)                                           | Surface Pro 9   | Surface_Pro_9_With_5G_1997       |
+| Surface Pro 9 with 5G (outside of U.S.)                                         | Surface Pro 9   | Surface_Pro_9_With_5G_1996       |
 | Surface Pro X with SQ1 processor                             | Surface Pro X    | Surface_Pro_X_1876         |
 | Surface Pro X with SQ2 processor                             | Surface Pro X    | Surface_Pro_X_H_1876        |
 | Surface Pro X (Wi-Fi)                                        | Surface Pro X    | Surface_Pro_X_2010        |
