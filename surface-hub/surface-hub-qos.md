@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 
 Quality of Service (QoS) is a combination of network technologies that allows the administrators to optimize the experience of real time audio/video and application sharing communications.
  
-Configuring [QoS for Skype for Business](https://learn.microsoft.com/windows/client-management/mdm/networkqospolicy-csp) on the Surface Hub can be done using your [mobile device management (MDM) provider](manage-settings-with-mdm-for-surface-hub.md) or through a [provisioning package](provisioning-packages-for-surface-hub.md). 
+Configuring [QoS for Skype for Business](/windows/client-management/mdm/networkqospolicy-csp) on the Surface Hub can be done using your [mobile device management (MDM) provider](manage-settings-with-mdm-for-surface-hub.md) or through a [provisioning package](provisioning-packages-for-surface-hub.md). 
  
  
 This procedure explains how to configure QoS for Surface Hub using Microsoft Intune. 
 
-1. In Intune, [create a custom policy](https://learn.microsoft.com/intune/custom-settings-configure).
+1. In Intune, [create a custom policy](/intune/custom-settings-configure).
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of custom policy creation dialog in Intune.](images/qos-create.png)
@@ -49,5 +49,5 @@ This procedure explains how to configure QoS for Surface Hub using Microsoft Int
 
 
 >[!WARNING]
->Currently, you cannot configure the setting **IPProtocolMatchCondition** in the [NetworkQoSPolicy CSP](https://learn.microsoft.com/windows/client-management/mdm/networkqospolicy-csp). If this setting is configured, the policy will fail to apply.
+>Currently, you cannot configure the setting **IPProtocolMatchCondition** in the [NetworkQoSPolicy CSP](/windows/client-management/mdm/networkqospolicy-csp). If this setting is configured, the policy will fail to apply.
  

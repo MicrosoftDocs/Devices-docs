@@ -58,4 +58,4 @@ Use work profiles to manage corporate data and apps on user-owned Android device
 
 ## Learn more
 
-- [Set up enrollment of Android Enterprise work profile devices](https://learn.microsoft.com/mem/intune/enrollment/android-work-profile-enroll)
+- [Set up enrollment of Android Enterprise work profile devices](/mem/intune/enrollment/android-work-profile-enroll)

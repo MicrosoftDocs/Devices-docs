@@ -32,7 +32,7 @@ By default, the [Surface Hub Hardware Diagnostic](https://www.microsoft.com/stor
 The Surface Hub Hardware Diagnostic tool is an easy-to-navigate tool that lets the user test many of the hardware components within the Surface Hub device. This tool can also test and verify a Surface Hub device account. This article describes how to use the Account Settings test within the Surface Hub Hardware Diagnostic tool.
 
 > [!NOTE]
-> The device account for the Surface Hub should be created before any testing is done. The Surface Hub Administrator Guide provides instructions and PowerShell scripts to help you create on-premises, online (Office365), or hybrid device accounts. For more information, go to the [Create and test a device account (Surface Hub)](https://learn.microsoft.com/surface-hub/create-and-test-a-device-account-surface-hub) topic in the guide.
+> The device account for the Surface Hub should be created before any testing is done. The Surface Hub Administrator Guide provides instructions and PowerShell scripts to help you create on-premises, online (Office365), or hybrid device accounts. For more information, go to the [Create and test a device account (Surface Hub)](/surface-hub/create-and-test-a-device-account-surface-hub) topic in the guide.
 
 ### Device account testing process
 
@@ -118,7 +118,7 @@ Field |Success |Failure |Comment |Reference
 LyncDiscover Cert CN | | |Informational. Displays the LD cert Common name |
 LyncDiscover Cert CA | | |Informational. Displays the LD Cert CA |
 LyncDiscover Cert Root CA | | |Informational. Displays the LD Cert Root CA, if available. |
-LD Trust Status |Certificate is Trusted. |Certificate is not trusted, please add the Root CA. |Verify the certificate against the local cert store. Returns positive if the machine trusts the certificate.|[Download and deploy Skype for Business certificates using PowerShell](https://blogs.msdn.microsoft.com/surfacehub/2016/06/07/download-and-deploy-skype-for-business-certificates-using-powershell/)/[Supported items for Surface Hub provisioning packages](https://learn.microsoft.com/surface-hub/provisioning-packages-for-surface-hub#supported-items-for-surface-hub-provisioning-packages)
+LD Trust Status |Certificate is Trusted. |Certificate is not trusted, please add the Root CA. |Verify the certificate against the local cert store. Returns positive if the machine trusts the certificate.|[Download and deploy Skype for Business certificates using PowerShell](https://blogs.msdn.microsoft.com/surfacehub/2016/06/07/download-and-deploy-skype-for-business-certificates-using-powershell/)/[Supported items for Surface Hub provisioning packages](/surface-hub/provisioning-packages-for-surface-hub#supported-items-for-surface-hub-provisioning-packages)
 
 SIP Pool Certification
 

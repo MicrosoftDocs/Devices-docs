@@ -24,4 +24,4 @@ The Microsoft Teams app for Surface Hub is periodically updated and available vi
 
 ## Learn more
 
-- [Manage Microsoft Teams settings on Surface Hub](https://learn.microsoft.com/microsoftteams/rooms/surface-hub-manage-config)
+- [Manage Microsoft Teams settings on Surface Hub](/microsoftteams/rooms/surface-hub-manage-config)
