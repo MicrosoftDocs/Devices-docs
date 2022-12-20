@@ -9,7 +9,7 @@ ms.topic: how-to
 ms.reviewer: carlol
 ms.localizationpriority: medium
 ms.
-manager: jarrettr
+manager: frankbu
 ms.date: 10/25/2022
 appliesto:
 - Surface Laptop (1st Gen)
