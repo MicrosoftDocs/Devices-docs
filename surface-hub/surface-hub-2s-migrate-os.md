@@ -123,6 +123,8 @@ The SEMM package that Surface UEFI Configurator creates must be secured with a c
 
 ### Create a SEMM package
 
+Use a specific USB for this step.
+
 1. On a separate PC, install the Surface UEFI Configurator tool that you downloaded earlier.
 
 1. Open Surface UEFI Configurator, and then select **Start**.
@@ -227,6 +229,12 @@ You can install a Windows 10/11 Pro or Enterprise image (version *20H2* or later
 - A USB flash drive that contains a Windows 10/11 Pro or Enterprise image. This option will not have Wi-Fi available until after out-of-box-experience (OOBE) setup. Once setup is complete, install the required [Surface Hub 2 drivers and firmware for Windows 10 Pro and Enterprise](https://www.microsoft.com/download/details.aspx?id=101974) on the device.
 
 The following steps show how to create a USB flash drive from installation media and then add the SEMM package files and the drivers and firmware for Windows 10 Pro and Enterprise OS on Surface Hub 2 MSI file. If you use another deployment method, go to the [Update UEFI on Surface Hub 2S to enable OS migration](#update-uefi-on-surface-hub-2s-to-enable-os-migration) section of this article.
+
+Download Windows 10 installation media:
+https://www.microsoft.com/en-us/software-download/windows10
+
+Download Windows 11 options:
+https://www.microsoft.com/software-download/windows11
 
 > [!NOTE]
 > After you finish the installation, you'll need a valid license for Windows 10 Pro or Windows 10 Enterprise that's separate from your existing Windows 10 Team license.
