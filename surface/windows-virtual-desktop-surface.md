@@ -3,22 +3,18 @@ title: Azure Virtual Desktop on Surface
 description: This article explains how Surface devices deliver an ideal end node for Azure Virtual Desktop solutions, providing customers with flexible form factors, Windows 11 modern device security and manageability, and support for persistent, on-demand & just-in-time work scenarios. 
 ms.prod: surface
 ms.localizationpriority: medium
-
 author: coveminer
 ms.author: hachidan
 ms.topic: how-to
 ms.date: 10/19/2021
 ms.reviewer: rohenr
 manager: frankbu
-
 appliesto:
 - Windows 10
 - Windows 11
 ---
 
 # Azure Virtual Desktop on Surface
-
-## Introduction
 
 Azure Virtual Desktop on Surface lets you run Virtual Desktop Infrastructure (VDI) on a Surface device — blurring the lines between the local desktop experience and the virtual desktop where touch, pen, ink, and biometric authentication span both physical and virtual environments. Representing another milestone in the evolution of computing, Azure Virtual Desktop on Surface <a href="#1"><sup>1</sup></a> combines Microsoft 365 — virtualized in the Azure cloud — with the advanced security protections, enterprise-level manageability, and enhanced productivity tools of Windows 10 or Windows 11 on Surface. This fusion of premium form factors and Virtual Desktop Infrastructure in Azure equips organizations to deliver advanced user experiences, portability, security, business continuity, and modern management.
 
@@ -145,12 +141,11 @@ For more information, see the following resources:
 - [A guide to Surface Technical Content and Solutions](https://boards.microsoft.com/public/prism/104362/category/90968?token=09e688ec4a)
 - [Microsoft zero-trust security](https://www.microsoft.com/security/business/zero-trust)
 
-----------
+### References
 
 <a id="1">1.</a> Azure Virtual Desktop on Surface refers to running Azure Virtual Desktop Infrastructure on a Surface device and is described here as an architectural solution, not a separately available product.<br>
 <a id="2">2.</a> Battery life varies significantly with settings, usage and other factors.<br>
 <a id="3">3.</a> Service availability and performance subject to service provider's network. Contact your service provider for details, compatibility, pricing, SIM card, and activation. See all specs and frequencies at surface.com.<br>
 <a id="4">4.</a> Forrester Consulting, "A Forrester Total Economic Impact™ Study: Maximizing Your ROI from Microsoft 365 Enterprise with Microsoft Surface," commissioned by Microsoft, 2018.<br> 
 <a id="5">5.</a> Surface Go and Surface Go 2 use a third-party UEFI and do not support DFCI. DFCI is currently available for Surface Studio 2+, Surface Pro 9 & Surface Pro 9 with 5G, Surface Laptop 5, Surface Laptop 4, Surface Laptop 3, Surface Laptop Studio, Surface Book 3, Surface Laptop SE, Surface Laptop Go 2, Surface Laptop Go, Surface Pro 8, Surface Pro 7+, Surface Pro 7, Surface Pro X, and Surface Go 3.<br>
-<a id="6">6.</a> Removable SSD is available on Surface Laptop Studio, Surface Pro 8, Surface Pro 7+, Surface Laptop 4, Surface Laptop 3, and Surface Pro X. <br>
-
+<a id="6">6.</a> Removable SSD is available on Surface Laptop Studio, Surface Pro 8, Surface Pro 7+, Surface Laptop 4, Surface Laptop 3, and Surface Pro X. 

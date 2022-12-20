@@ -3,15 +3,12 @@ title: Surface Duo management overview
 description: This article highlights options for managing Surface Duo in a commercial environment.
 ms.technology: windows
 ms.prod: surface
-
 author: coveminer
 ms.author: hachidan
 ms.topic: how-to
 ms.date: 9/23/2020
 ms.reviewer: karand
 manager: frankbu
-ms.
-
 ms.localizationpriority: medium
 appliesto:
 - Surface Duo
@@ -23,17 +20,18 @@ Commercial customers can manage Surface Duo using any of various Enterprise mobi
 
 You can manage Duo manage Duo via the [Microsoft EMM](https://androidenterprisepartners.withgoogle.com/provider/#!/75) that uses a unified console -- Microsoft Endpoint Manager – and extensible components like Microsoft Intune. Alternatively, you can use any EMM provider in Google’s Android ecosystem. In some cases, third-party EMM solutions provide additional support to meet specific scenarios that may be useful depending on your environment.
 
- To compare EMM solutions, refer to the [Android Enterprise Solutions Directory](https://androidenterprisepartners.withgoogle.com/emm/).
+To compare EMM solutions, refer to the [Android Enterprise Solutions Directory](https://androidenterprisepartners.withgoogle.com/emm/).
+
 Endpoint Manager with Intune lets you manage Duo with the latest mobile device management policies as well as earlier technologies such as Exchange ActiveSync. If you already use Exchange ActiveSync settings to manage mobile devices, you can apply those settings to Duo devices with Intune using an Email device-configuration profile.  For more information, see [Add email settings to devices using Intune](/mem/intune/configuration/email-settings-configure).
 
 The primary means of managing devices in Intune, profiles provide default settings that you can customize to meet the needs of your organization. 
 
 ## Managing personally owned Surface Duo devices
+
 | Solution                                          | Features                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Learn more                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | ------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | App Protection Policies without device enrollment | Allows you to manage and protect your organization's data within an application.<br>Deploy app protection policies, a lightweight management solution without requiring device enrollment.<br>A growing number of apps can now be managed with app protection policies including Microsoft Office and third-party apps like Adobe Acrobat, Service Now, and Zoom. For a complete list, refer to [Microsoft Intune protected apps](/mem/intune/apps/apps-supported-intune-apps). | - [App protection policies overview](/mem/intune/apps/app-protection-policy-settings-android)<br>- [Android app protection policy settings in Microsoft Intune](/mem/intune/apps/app-protection-policy-settings-android).<br>- [Prepare Android apps for app protection policies with the Intune App Wrapping Tool](/mem/intune/developer/app-wrapper-prepare-android). |
 | Android Enterprise work profile                   | Targeted at BYOD deployments, work profiles provide a separate space on Duo for work apps and data, giving organizations full control of their data, apps, and security policies without restricting users from using their device for personal apps and data.                                                                                                                                                                                                                                                  | - [Configure Android Enterprise Work Profile for Surface Duo](surface-duo-config-work-profile.md).                                                                                                                                                                                                                                                                                                               |
-
 
 ## Managing corporate-owned Surface Duo devices
 
@@ -43,8 +41,8 @@ The primary means of managing devices in Intune, profiles provide default settin
 | Android Enterprise Fully Managed          | Provides comprehensive device and app management capabilities for company-owned devices associated with a single user and leveraged exclusively for work and not personal use.<br> <br>Full device management provides IT with full control over device data and security, as well as access to Android's full suite of app management features. For example:<br><br>- You can set the minimum password requirements on a device<br>- Remotely wipe and lock a device<br>- Set default responses to app permission requests.<br>- Customize end user experience with Microsoft Launcher<br><br>You also have full control over the apps on a device, including the ability to remotely install and remove apps.                                 | - [Set up Intune enrollment of Android Enterprise fully managed devices](/mem/intune/enrollment/android-fully-managed-enroll). |
 | Dedicated device management               | This enterprise deployment scenario is targeted for devices deployed into specific use cases like logistics, transportation and factory floors. Use it for locked down experiences where you need to restrict usage to one or two apps and prohibit users from altering any settings.                                                                                                                                                                                                                                                                                                                                                                                                                                                           | - [Set up Intune enrollment of Android Enterprise dedicated devices](/mem/intune/enrollment/android-kiosk-enroll)                                                                                                                                                               |
 
- 
 ## Learn more
+
 - [Ignite Session: Deploy, Manage, and Enable Productivity with Surface Duo in the Enterprise](https://youtu.be/DOsBMNFmdfw)
 - [Manage devices with Microsoft Intune](/mem/intune/remote-actions/device-management)
 - [Intune deployment planning, design, and implementation guide](/mem/intune/fundamentals/planning-guide)

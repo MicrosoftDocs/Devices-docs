@@ -13,7 +13,6 @@ metadata:
   manager: frankbu
   author: coveminer #Required; your GitHub user alias, with correct capitalization.
   ms.author: hachidan #Required; microsoft alias of author; optional team alias.
-  
   ms.localizationpriority: High
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new

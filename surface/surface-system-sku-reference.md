@@ -9,7 +9,6 @@ ms.date: 10/27/2022
 ms.reviewer: carlol
 manager: frankbu
 ms.localizationpriority: medium
-ms.
 appliesto:
 - Windows 10
 - Windows 11

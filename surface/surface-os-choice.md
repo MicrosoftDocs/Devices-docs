@@ -2,16 +2,13 @@
 title: OS choice for new Surface devices
 description: This article describes how commercial customers can purchase new Surface devices with Windows 10 or Windows 11. 
 ms.prod: surface
-
 ms.localizationpriority: medium
-
 author: coveminer
 ms.author: hachidan
-ms.topic: how-to
+ms.topic: overview
 ms.date: 10/31/2022
 ms.reviewer: oayakta
 manager: frankbu
-
 appliesto:
 - Windows 10
 - Windows 11

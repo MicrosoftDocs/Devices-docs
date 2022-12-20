@@ -1,10 +1,8 @@
 ---
 title: Surface Hub Site Readiness Guide
-ms.reviewer: 
 manager: frankbu
 description: Use this Site Readiness Guide to help plan your Surface Hub installation.
 ms.prod: surface-hub
-
 author: coveminer
 ms.author: hachidan
 ms.topic: how-to
@@ -55,11 +53,10 @@ To use Surface Hub, you need an active Ethernet port and a standard power outlet
 
 - Equip the conference table for Wired Connect.
 - Expand the wall outlet configuration to include:
-    - Additional AC outlets 
-    - Ethernetports 
-    - Audio ports 
-    - Video ports (DisplayPort, HDMI, VGA, etc.) 
-
+  - Additional AC outlets 
+  - Ethernetports 
+  - Audio ports 
+  - Video ports (DisplayPort, HDMI, VGA, etc.)
 
 ## When Surface Hub arrives
 
@@ -131,8 +128,6 @@ For example, to provide audio, video, and touchback capability to all three vide
 When you create your wired connect cable bundles, check the [55” Microsoft Surface Hub technical information](surface-hub-technical-55.md) or [84” Microsoft Surface Hub technical information](surface-hub-technical-84.md) sections for specific technical and physical details and port locations for each type of Surface Hub. Make the cables long enough to reach from Surface Hub to where the presenter will sit or stand.
 
 For details on Touchback and Inkback, see the user guide at https://www.microsoft.com/surface/support/surface-hub. 
-
-
 
 ## See also
 
