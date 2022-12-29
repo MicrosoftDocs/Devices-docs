@@ -4,7 +4,6 @@ ms.reviewer:
 manager: frankbu
 description: Specifications for the 55" Surface Hub (v1)
 ms.prod: surface-hub
-
 author: coveminer
 ms.author: hachidan
 ms.topic: how-to
@@ -59,32 +58,32 @@ Input power, standby    |   5W nominal
 
 Connector and location | Label | Description
 --- | --- | ---
-Switch, bottom I/O | ![](images/switch.png) | Switches the function between using internal PC or external PC.
-Display port, bottom I/O | ![](images/dport.png) | Provides input for replacement PC.
-USB type B, bottom I/O | ![](images/usb.png) | Provides USB connection for replacement PC to internal peripherals.
-USB type B, bottom I/O | ![](images/usb.png) | Provides USB connection for integrated hub.
+Switch, bottom I/O | ![Switch, bottom I/O](images/switch.png) | Switches the function between using internal PC or external PC.
+Display port, bottom I/O | ![Display port, bottom I/O |](images/dport.png) | Provides input for replacement PC.
+USB type B, bottom I/O | ![USB type B & bottom I/O ](images/usb.png) | Provides USB connection for replacement PC to internal peripherals.
+USB type B, bottom I/O | ![USB type B, bottom I/O](images/usb.png) | Provides USB connection for integrated hub.
 
 ## Wired connect connections
 
 Connector and location | Label | Description
 --- | --- | ---
-Display port, bottom I/O | ![](images/dportio.png) | Provides input for wired connect PC.
-HDMI, bottom I/O | ![](images/hdmi.png) | Provides HDMI input for wired connect PC.
-VGA, bottom I/O | ![](images/vga.png) | Provides VGA input for wired connect PC.
-3.5mm, bottom I/O | ![](images/35mm.png) | Provides analog audio input.
-USB type B, bottom I/O | ![](images/usb.png) | Provides USB connection for video ingest touchback.
+Display port, bottom I/O | ![Display port, bottom I/O](images/dportio.png) | Provides input for wired connect PC.
+HDMI, bottom I/O | ![HDMI, bottom I/O ](images/hdmi.png) | Provides HDMI input for wired connect PC.
+VGA, bottom I/O | ![VGA, bottom I/O ](images/vga.png) | Provides VGA input for wired connect PC.
+3.5mm, bottom I/O | ![3.5mm, bottom I/O](images/35mm.png) | Provides analog audio input.
+USB type B, bottom I/O | ![USB type B - bottom I/O](images/usb.png) | Provides USB connection for video ingest touchback.
 
 ## Additional connections
 
 Connector and location | Label | Description
 --- | --- | ---
-USB type A, side I/O | ![](images/usb.png) | Provides 1 USB 3.0 connection for USB devices. Wake-on USB capable.
-USB type A, bottom I/O with blue insulator | ![](images/usb.png) | Provides USB 3.0 connection.
-3.5mm, bottom I/O | ![](images/analog.png) | Provides analog audio out.
-Display port, bottom I/O | ![](images/dportout.png) | Provides mirrored video out function to another display.
-IEC/EN60320-C13 receptacle with hard switch | ![](images/iec.png) | Provides AC input and compliance with EU power requirements.
-RJ45, bottom I/O | ![](images/rj45.png) | Connects to Ethernet.
-RJ11, bottom I/O | ![](images/rj11.png) | Connects to room control systems.
+USB type A, side I/O | ![USB type A, side I/O ](images/usb.png) | Provides 1 USB 3.0 connection for USB devices. Wake-on USB capable.
+USB type A, bottom I/O with blue insulator | ![USB type A, bottom I/O with blue insulator ](images/usb.png) | Provides USB 3.0 connection.
+3.5mm, bottom I/O | ![3.5mm, bottom I/O ](images/analog.png) | Provides analog audio out.
+Display port, bottom I/O | ![Display port, bottom I/O ](images/dportout.png) | Provides mirrored video out function to another display.
+IEC/EN60320-C13 receptacle with hard switch | ![IEC/EN60320-C13 receptacle with hard switch](images/iec.png) | Provides AC input and compliance with EU power requirements.
+RJ45, bottom I/O | ![RJ45, bottom I/O](images/rj45.png) | Connects to Ethernet.
+RJ11, bottom I/O | ![RJ11, bottom I/O](images/rj11.png) | Connects to room control systems.
 
 > [!NOTE]
 > Surface Hub can be used continuously for a maximum of 18 hours a day. To optimize for efficiency, Surface Hub uses smart sensors to turn off the LED screen when presence is no longer detected, which means there is no need to power it down at the end of the day. If the unit is installed in a 24-hour workplace environment, the sensors can be disabled to comply with the 18 hour per day maximum use recommendation. Note that prolonged display of a video signal may cause burned-in or image retention to occur on the screen. To learn more about managing power settings, see:
