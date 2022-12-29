@@ -4,7 +4,7 @@ description: Surface Hub Miracast channels 149-165 not supported in Europe, Japa
 ms.assetid: 8af3a832-0537-403b-823b-12eaa7a1af1f
 ms.prod: surface-hub
 author: coveminer
-ms.author: coveminer
+ms.author: hachidan
 ms.topic: troubleshooting
 ms.localizationpriority: medium
 ---
@@ -18,4 +18,4 @@ In compliance with regional governmental regulations, all 5-GHz wireless devices
 For more information see the [U-NII](https://en.wikipedia.org/wiki/U-NII) topic on Wikipedia.
 
 > [!NOTE]
-> Microsoft provides third-party contact information to help you find additional information about this topic. This information may change without notice. Microsoft does not guarantee the accuracy of third-party information. 
+> Microsoft provides third-party contact information to help you find additional information about this topic. This information may change without notice. Microsoft does not guarantee the accuracy of third-party information.
