@@ -9,7 +9,7 @@ ms.topic: troubleshooting
 ms.localizationpriority: medium
 ---
 
-# Summary
+# Surface Hub Miracast channels 149-165 not supported in Europe, Japan, Israel
 
 In compliance with regional governmental regulations, all 5-GHz wireless devices in Europe, Japan, and Israel do not support the U-NII-3 band. In Surface Hub, the channels that are associated with U-NII-3 are 149 through 165. This includes Miracast connection on these channels. Therefore, Surface Hubs that are used in Europe, Japan, and Israel can't use channels 149 through 165 for Miracast connection.
 
