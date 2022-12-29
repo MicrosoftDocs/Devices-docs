@@ -4,7 +4,7 @@ description: This article provides an overview of Microsoft Teams Rooms on Surfa
 ms.prod: surface-hub
 author: coveminer
 ms.author: hachidan
-ms.topic: Overview
+ms.topic: overview
 ms.date: 09/26/2022
 ms.reviewer: dpandre
 manager: frankbu
@@ -99,11 +99,11 @@ To learn more, see [Enable Teams Rooms devices to join third-party meetings](/mi
 
 A one-time manual update of the Teams Rooms client to version 1.4.00.25354 is needed in order to for it to be able to connect to a GCC-H tenant and then keep itself up-to-date automatically:
 
- - Confirm that your Hub has KB5005611 or a later Windows Cumulative Update installed
- - Use [Teams_Uninstall_win32.ppkg](https://download.microsoft.com/download/8/3/F/83FD5089-D14E-42E3-AF7C-6FC36F80D347/Teams_Uninstall_Win32.ppkg) to remove current Teams Rooms on Surface Hub version
- - Restart your device
- - Install [Teams_win32.ppkg](https://download.microsoft.com/download/8/3/F/83FD5089-D14E-42E3-AF7C-6FC36F80D347/Teams_Win32.ppkg) to install version 1.4.00.25354
- - Restart your device again
+- Confirm that your Hub has KB5005611 or a later Windows Cumulative Update installed
+- Use [Teams_Uninstall_win32.ppkg](https://download.microsoft.com/download/8/3/F/83FD5089-D14E-42E3-AF7C-6FC36F80D347/Teams_Uninstall_Win32.ppkg) to remove current Teams Rooms on Surface Hub version
+- Restart your device
+- Install [Teams_win32.ppkg](https://download.microsoft.com/download/8/3/F/83FD5089-D14E-42E3-AF7C-6FC36F80D347/Teams_Win32.ppkg) to install version 1.4.00.25354
+- Restart your device again
 
 Detailed steps:
 
