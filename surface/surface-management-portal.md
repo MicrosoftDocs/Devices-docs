@@ -2,16 +2,13 @@
 title: Surface Management Portal 
 description: This article describes how the new Surface Management Portal provides a centralized solution to self-serve, manage and monitor Surface devices at scale. 
 ms.prod: surface
-
 ms.localizationpriority: medium
-
 author: coveminer
 ms.author: hachidan
 ms.topic: how-to
 ms.date: 06/29/2022
 ms.reviewer: hachinda
 manager: frankbu
-
 appliesto:
 - Windows 10
 - Windows 11

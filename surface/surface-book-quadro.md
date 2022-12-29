@@ -1,13 +1,11 @@
 ---
-title: Surface Book 3 Quadro RTX 3000 technical overview
+title: Surface Book 3 Quadro RTX 3000 tech overview
 description: This article describes the advanced capabilities enabled by Nvidia Quadro RTX 3000 in select Surface Book 3 for Business 15-inch models and includes information about ISV-tested applications.
 ms.prod: surface
-
 ms.localizationpriority: medium
-
 author: coveminer
 ms.author: hachidan
-ms.topic: how-to
+ms.topic: overview
 ms.date: 10/05/2020
 ms.reviewer: brrecord
 manager: frankbu
@@ -25,22 +23,20 @@ Surface Book 3 for Business powered by the NVIDIA® Quadro RTX™ 3000 GPU is bu
 ## Enterprise-grade solution
 
 Of paramount importance to commercial customers, Quadro RTX 3000 brings a fully professional-grade solution that combines accelerated ray tracing and deep learning capabilities with an integrated enterprise-level management and support solution. Quadro drivers are tested and certified for more than 100 professional applications by leading ISVs, providing an additional layer of quality assurance to validate stability, reliability, and performance.
- 
+
 Quadro includes dedicated enterprise tools for remote management of Surface Book 3 devices with Quadro RTX 3000. IT admins can remotely configure graphics systems, save/restore configurations, continuously monitor graphics systems, and perform remote troubleshooting if necessary. These capabilities, along with deployment tools, help maximize uptime and minimize IT support requirements.
- 
+
 NVIDIA develops and maintains Quadro Optimal Drivers for Enterprise (ODE) that are tuned, tested, and validated to provide enterprise-level stability, reliability, availability, and support with extended product availability. Each driver release involves more than 2,000 man-days of testing with professional applications test suites and test cases, as well as WHQL certification. Security threats are continually monitored, and regular security updates are released to protect against newly discovered vulnerabilities. In addition, Quadro drivers undergo an additional layer of testing by Surface engineering prior to release via Windows Update.
- 
 
 ## Built for compute-intensive workloads
 
 The Surface Book 3 with Quadro RTX 3000 delivers the best graphics performance of any Surface laptop, enabling advanced professionals to work from anywhere.
- 
+
 - **Creative professionals such as designers and animators.** Quadro RTX enables real-time cinematic-quality rendering through Turing-optimized ray tracing APIs such as NVIDIA OptiX, Microsoft DXR, and Vulkan.
 - **Architects and engineers using large, complex computer-aided design (CAD) models and assemblies.** The RTX platform features the new NGX SDK to infuse powerful AI-enhanced capabilities into visual applications. This frees up time and resources through intelligent manipulation of images, automation of repetitive tasks, and optimization of compute-intensive processes.
 - **Software developers across manufacturing, media and entertainment, medical, and other industries.** Quadro RTX speeds application development with ray tracing, deep learning, and rasterization capabilities through industry-leading software SDKs and APIs.
 - **Data scientists using Tensor Cores and CUDA cores to accelerate computationally intensive tasks and other deep learning operations.** By using sensors, increased connectivity, and deep learning, researchers and developers can enable AI applications for everything from autonomous vehicles to scientific research.
 
- 
 **Table 1. Quadro RTX 3000 performance features**
 
 |  Component                                        |  Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
@@ -83,7 +79,6 @@ The Surface Book 3 with Quadro RTX 3000 delivers the best graphics performance o
 | NVIDIA 3D vision Pro                                       | Yes             |
 | NVIDIA Optimus                                             | Yes             |
 
- 
 ## ISV testing & app acceleration
 
 As shown in Table 3, Surface Book 3 with Quadro RTX 3000 is tested and approved by leading ISVs and provides significantly faster acceleration across professional applications. SPECview perf 13 benchmark test results compare Surface Book 3 15-inch with NVIDIA Quadro RTX 3000 versus the Surface Book 2 15-inch with NVIDIA GeForce GTX 1060 devices.
@@ -115,11 +110,6 @@ As shown in Table 3, Surface Book 3 with Quadro RTX 3000 is tested and approved 
 | **Siemens SolidEdge 2020**                                        |  **Siemens-tested and approved for Surface Book 3 with Quadro RTX 3000**                                                                                                                                                                                 |
 | **Siemens NX**                                      | - Siemens NX Interactive Ray Tracer (Ray Traced Studio) accelerated by RT Cores.<br><br>- Runs more than 10x faster compared with Surface Book 2 15”.                                                                                                                                                                                                                                                                                                                                    |
 
-
-
-
-
-
 ## SKUs
 
 **Table 4. Surface Book 3 with Quadro RTX 3000 SKUs**
@@ -132,7 +122,7 @@ As shown in Table 3, Surface Book 3 with Quadro RTX 3000 is tested and approved 
 ## Summary
 
 The Surface Book 3 with Quadro RTX 3000 delivers the best graphics performance of any Surface laptop, providing architects, engineers, developers, and data scientists with the tools they need to work efficiently from anywhere:
- 
+
 - RTX-acceleration across multiple workflows like design, animation, video production, and more.
 - Desktop-grade performance in a mobile form factor.
 - Enterprise-class features, reliability, and support for mission-critical projects.

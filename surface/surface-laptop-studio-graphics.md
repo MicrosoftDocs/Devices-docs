@@ -1,17 +1,14 @@
 ---
 title: Surface Laptop Studio graphics overview
-description: This article highlights GPUs in Surface Lapto Studio. 
+description: This article highlights GPUs in Surface Laptop Studio. 
 ms.prod: surface
-
 ms.localizationpriority: medium
-
 author: coveminer
 ms.author: hachidan
-ms.topic: how-to
+ms.topic: overview
 ms.date: 10/04/2021
 ms.reviewer: brrecord
 manager: frankbu
-
 appliesto:
 - Windows 10
 - Windows 11
@@ -20,11 +17,11 @@ appliesto:
 # Surface Laptop Studio graphics overview
 
 Surface Laptop Studio integrates fully modernized compute and graphics capabilities into a new versatile form factor. Led by the quad-core 11th Gen Intel® Core™ i7 and NVIDIA® RTX™ A2000 or NVIDIA® GeForce RTX™ 3050 Ti, Surface Laptop Studio provides architects, engineers, data scientists, and creative professionals with the compute power to do their best work.
- 
+
 A significant differentiator across Surface Laptop Studio models is the GPU configuration. All but the Core i5 device feature a discrete NVIDIA RTX GPU, enabling hardware-accelerated ray tracing, AI and video. The design also optimizes energy efficiency for mobile form factors. The models with NVIDIA GPUs are part of the NVIDIA Studio Products program, benefiting from RTX-accelerations in the top creative apps, reliable NVIDIA Studio Drivers, and having access to exclusive NVIDIA apps like Canvas or Broadcast. Ray tracing is a computationally intensive technique that simulates the physical behavior of light to achieve greater realism in computer-generated scenes. It’s used both in gaming and in 3D rendering. NVIDIA RTX also features deep learning super sampling (DLSS), an AI technology that boosts frame rates.
- 
+
 These advanced graphics rendering capabilities come in two primary configurations: NVIDIA GeForce RTX 3050 Ti Laptop GPU for consumers or creative professionals and NVIDIA RTX A2000 Laptop GPU for architects, engineers, creative professionals, and other business professionals who need advanced graphics capabilities.
- 
+
 ## Surface Laptop Studio GPUs
 
 This section describes the integrated and discrete GPUs across Surface Laptop Studio models.
@@ -44,25 +41,25 @@ NVIDIA GeForce RTX 30 Series and RTX professional GPUs provide massive speedups 
 ### NVIDIA GeForce RTX 3050 Ti Laptop GPU
 
 The GeForce RTX 3050 Ti Laptop GPU is a great GPU for gamers and content creators. It’s powered by the NVIDIA Studio drivers for enhanced reliability and performance in creator apps.
- 
+
 GeForce RTX 3050 Ti enables:
 
 - Video editing and live streaming accelerations, thanks to the dedicated hardware encoder, enhanced AI features, and app accelerations in apps like Adobe Premiere® Pro, DaVinci Resolve or OBS.
 - Graphic design and photography, with AI-accelerated features in apps like Adobe Lightroom or Photoshop.
-- Ultra-fast 3D rendering thanks to RTX and DLSS accelerations in apps like Blender or Autodesk® Maya. 
+- Ultra-fast 3D rendering thanks to RTX and DLSS accelerations in apps like Blender or Autodesk® Maya.
 - Next-generation gaming with RTX graphics and high performance thanks to DLSS and ultra-low latency with NVIDIA Reflex.
 
 ### NVIDIA RTX A2000 Laptop GPU
 
 The NVIDIA RTX A2000 offers professional graphics rendering and AI capabilities for demanding professional workflows, including manufacturing and product design, media and entertainment modeling, animating and rendering, architecture, engineering and construction design.
- 
+
 NVIDIA RTX A2000 builds on the GeForce RTX 3050 Ti features with the following additional capabilities:
 
 - Enterprise-grade reliability, including ISV certification for professional apps and enterprise drivers tuned for software compatibility and stability.
 - Enterprise-level hardware, drivers and support.
 - Dedicated IT enterprise tools for remote management that help maximize uptime and minimize IT support requirements.
 - Enhanced support for professional applications using Open GL graphics.
- 
+
 **Table 1. Discrete GPUs on Surface Laptop Studio**
 
 | GPU                                         | NVIDIA GeForce RTX 3050 Ti Laptop GPU | NVIDIA RTX A2000 Laptop GPU |
@@ -92,8 +89,6 @@ NVIDIA RTX A2000 builds on the GeForce RTX 3050 Ti features with the following a
 | OpenGL                                      | 4.6                                   | 4.6                         |
 | DirectX                                     | 12 Ultimate                           | 12 Ultimate                 |
 
- 
 ### References
 
 1. Subject to the limitations of the display connection. DisplayPort 1.4a over USB-C permits 4K displays up to the following configurations: 1x 4K at 120Hz; 2x 4K at 60Hz; 1x 4K at 60Hz + 2x 4K at 30Hz; 4x 4K at 30Hz. Display configurations of more than two displays require display support for daisy-chaining or display adapters with support for multiple displays.
-

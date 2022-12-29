@@ -2,16 +2,13 @@
 title: Surface Pro 9 for Business overview
 description: This article provides an overview of the new Surface Pro 9 and Surface Pro 9 with 5G
 ms.prod: w11
-
 ms.localizationpriority: medium
-
 author: coveminer
 ms.author: hachidan
 ms.topic: how-to
 ms.date: 10/12/2022
 ms.reviewer: hachidan
 manager: frankbu
-
 appliesto:
 - Windows 10
 - Windows 11

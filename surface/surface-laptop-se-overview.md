@@ -2,16 +2,13 @@
 title: Surface Laptop SE overview
 description: This article provides an overview of Surface Laptop SE for education. 
 ms.prod: w11
-
 ms.localizationpriority: medium
-
 author: coveminer
 ms.author: hachidan
 ms.topic: how-to
 ms.date: 01/11/2022
 ms.reviewer: hachidan
 manager: frankbu
-
 appliesto:
 - Windows 11
 ---
