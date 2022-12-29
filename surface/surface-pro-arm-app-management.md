@@ -2,16 +2,13 @@
 title: Deploy, manage, and service ARM-based Surface devices
 description: This article provides an overview of key considerations for deploying, managing, and servicing Surface Pro 9 with 5G and Surface Pro X.
 ms.prod: w11
-
 ms.localizationpriority: high
-
 author: coveminer
 ms.author: hachidan
 ms.topic: how-to
 ms.date: 11/28/2022
 ms.reviewer: Karand 
 manager: frankbu
-ms.
 appliesto:
 - Windows 10
 - Windows 11
@@ -59,8 +56,8 @@ With [Surface Enterprise Management Mode (SEMM)](surface-enterprise-management-m
 With [Surface Enterprise Management Mode (SEMM)](surface-enterprise-management-mode.md), you can manage the following hardware components at the firmware level for Surface Pro X devices:
 
 - Wake On Power
-- IPv6 for PXE boot 
-- Alternate Boot 
+- IPv6 for PXE boot
+- Alternate Boot
 - Boot Order Lock
 - USB Boot
 - PXE Boot
