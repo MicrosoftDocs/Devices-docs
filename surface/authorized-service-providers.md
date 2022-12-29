@@ -2,16 +2,13 @@
 title: Surface repair by Microsoft Authorized Service Providers
 description: This article describes how Authorized service providers (ASPs) work closely with Microsoft to help resolve issues that may occur with your Microsoft devices. 
 ms.prod: w11
-
 ms.localizationpriority: medium
-
 author: coveminer
 ms.author: hachidan
-ms.topic: how-to
+ms.topic: overview
 ms.date: 10/28/2022
 ms.reviewer: 
 manager: frankbu
-
 appliesto:
 - Windows 10
 - Windows 11
@@ -19,12 +16,12 @@ appliesto:
 
 # Surface repair by Microsoft Authorized Service Providers
 
-As part of our commitment to provide great service and support to all our customers, we are building a great network of authorized service providers (ASPs) to help repair and service your Surface devices. ASPs work closely with Microsoft to help resolve issues that may occur with your Microsoft devices. ASPs perform repairs on behalf of Microsoft, have direct access to Microsoft support, and use genuine Microsoft parts. 
+As part of our commitment to provide great service and support to all our customers, we are building a great network of authorized service providers (ASPs) to help repair and service your Surface devices. ASPs work closely with Microsoft to help resolve issues that may occur with your Microsoft devices. ASPs perform repairs on behalf of Microsoft, have direct access to Microsoft support, and use genuine Microsoft parts.
 
 ## Global ASP network
 
 The growing ASP network consists of more than 160 locations.  
- 
+
 ### Americas
 
 - [Best Buy](https://www.bestbuy.com/)
@@ -34,7 +31,6 @@ The growing ASP network consists of more than 160 locations.
 - [Integrated Technology Group (ITG)](https://www.itgsolutions.com/)
 - [Microserve](https://www.microserve.ca/)
 - [Synnex](https://www.synnexcorp.com/)
-
 
 ### Europe
 
@@ -51,7 +47,6 @@ The growing ASP network consists of more than 160 locations.
 - [Comp Now](https://www.compnow.com.au/)
 - [Digital China](https://www.digitalchina.com/)
 - [JB Hi-Fi](https://www.jbhifi.business/)
-
 
 ## Become an ASP
 

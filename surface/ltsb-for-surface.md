@@ -4,7 +4,7 @@ description: LTSB is not supported for general-purpose Surface devices and shoul
 ms.prod: surface
 author: coveminer
 ms.author: hachidan
-ms.topic: how-to
+ms.topic: overview
 ms.reviewer: 
 manager: frankbu
 ms.localizationpriority: medium
@@ -25,7 +25,3 @@ LTSC prevents Surface devices from receiving critical Windows 10 feature updates
 General-purpose Surface devices are intended to run on the Semi-Annual Channel to receive full servicing and firmware updates and forward compatibility with the introduction of new Surface features. In the Semi-Annual Channel, feature updates are available as soon as Microsoft releases them.
 
 Surface devices in specialized scenarios–such as PCs that control medical equipment, point-of-sale systems, and ATMs–might consider the use of LTSC. These special-purpose systems typically perform a single task and do not require feature updates as frequently as other devices in the organization.
-
-## Related topics
-
-- [Surface IT Pro Blog](https://techcommunity.microsoft.com/t5/Surface-IT-Pro-Blog/bg-p/SurfaceITPro)

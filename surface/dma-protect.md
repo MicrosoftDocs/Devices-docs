@@ -2,16 +2,13 @@
 title: Surface DMA Protection
 description: This article describes DMA protection on compatible Surface devices
 ms.prod: surface
-
 ms.localizationpriority: medium
-
 author: coveminer
 ms.author: hachidan
-ms.topic: how-to
+ms.topic: overview
 ms.date: 10/14/2022                        
 ms.reviewer: carlol
 manager: frankbu
-
 appliesto:
 - Windows 10
 - Windows 11
