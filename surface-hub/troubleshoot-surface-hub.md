@@ -1,6 +1,6 @@
 ---
 title: Troubleshoot Microsoft Surface Hub
-description: Troubleshoot common problems, including setup issues, Exchange ActiveSync errors.
+description: Troubleshoot common problems, including setup issues and Exchange ActiveSync errors.
 ms.assetid: CF58F74D-8077-48C3-981E-FCFDCA34B34A
 manager: frankbu
 ms.prod: surface-hub

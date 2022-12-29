@@ -44,13 +44,13 @@ Next, ensure Miracast is supported on the device.
 1. Press Windows Key + R and type `dxdiag`. 
 2. Click "Save all information". 
 3. Open the saved dxdiag.txt and find **Miracast**. It should say **Available, with HDCP**. 
-    
+
 ### Check firewall
-    
+
 The Windows firewall can block Miracast traffic. The simplest test is to disable the firewall and test projection. If Miracast works with the firewall disabled, add an exception for
 
-    C:\Windows\System32\WUDFHost.exe
-    Allow In/Out connections for TCP and UDP, Ports: All.
+- C:\Windows\System32\WUDFHost.exe
+- Allow In/Out connections for TCP and UDP, Ports: All.
 
 ### Check Group Policy settings
 
