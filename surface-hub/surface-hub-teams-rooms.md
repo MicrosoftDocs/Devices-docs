@@ -54,16 +54,16 @@ To optimize Teams Rooms, refer to the requirements and recommendations described
 
 ## Third-party meetings on Surface Hub
 
-Microsoft Teams Rooms on Surface Hub supports joining third-party online meetings, referred to as Direct Guest Join. You can use Surface Hub to join meetings hosted on Cisco Webex and Zoom. And others can join Teams meetings on Hub from their third-party room systems. This feature is rolling out to Surface Hubs beginning October 5, 2022. 
+Microsoft Teams Rooms on Surface Hub supports joining third-party online meetings, referred to as Direct Guest Join. You can use Surface Hub to join meetings hosted on Cisco Webex and Zoom. And others can join Teams meetings on Hub from their third-party room systems. This feature is rolling out to Surface Hubs beginning October 5, 2022.
 
-### To enable third-party meetings on Surface Hub:
+### To enable third-party meetings on Surface Hub
 
 1. Open Teams, select Settings (**…**), and enter your admin username and password.
-2. Select **Meetings** and then select **Allow joining third-party meetings**. 
+2. Select **Meetings** and then select **Allow joining third-party meetings**.
 :::image type="content" source="images/teams-settings-surface-hub.png" alt-text="Enable third party meetings on Surface Hub Meeting.":::
 1. Select **Cisco WebEx** or **Zoom**, as appropriate.
 
-### To join third-party meetings:
+### To join third-party meetings
 
 1. Select **Home**, select the meeting tile from the home screen calendar, or go directly to the Teams agenda page, which includes join buttons for the third-party-enabled meetings.
 
@@ -94,7 +94,7 @@ To enable a more seamless experience that avoids users having to approve the mic
 Optionally, you may wish to configure calendar processing rules to enable "auto accept," "auto decline," and related settings.
 
 To learn more, see [Enable Teams Rooms devices to join third-party meetings](/microsoftteams/rooms/third-party-join) and related [Teams Rooms documentation](/microsoftteams/rooms/).
- 
+
 ## Support for Teams Rooms in Government Community Cloud High (GCC-H)
 
 A one-time manual update of the Teams Rooms client to version 1.4.00.25354 is needed in order to for it to be able to connect to a GCC-H tenant and then keep itself up-to-date automatically:
@@ -108,12 +108,12 @@ A one-time manual update of the Teams Rooms client to version 1.4.00.25354 is ne
 Detailed steps:
 
 1. Save both provisioning packages to the root of your USB drive.
-2.	Insert the USB drive into your Surface Hub.
-3.	On your Surface Hub, open the Start menu, select All apps, and then select Settings.
-4.	Provide your Hub admin credentials when prompted.
-5.	Go to **Surface Hub** > **Device management** > **Add or remove a provisioning package**, and then select **Add a package**.
-6.	Under **Select a package**, select the Teams_Uninstall_win32.ppkg provisioning package, and then restart your Surface Hub.
-7.	On your Surface Hub, open the Start menu, select All apps, and then select Settings.
-8.	Provide your Hub admin credentials when prompted.
-9.	Go to **Surface Hub** > **Device management** > **Add or remove a provisioning package**, and then select **Add a package**.
-10.	Under **Select a package**, select the Teams_win32.ppkg provisioning package, and then restart your Surface Hub.
+2. Insert the USB drive into your Surface Hub.
+3. On your Surface Hub, open the Start menu, select All apps, and then select Settings.
+4. Provide your Hub admin credentials when prompted.
+5. Go to **Surface Hub** > **Device management** > **Add or remove a provisioning package**, and then select **Add a package**.
+6. Under **Select a package**, select the Teams_Uninstall_win32.ppkg provisioning package, and then restart your Surface Hub.
+7. On your Surface Hub, open the Start menu, select All apps, and then select Settings.
+8. Provide your Hub admin credentials when prompted.
+9. Go to **Surface Hub** > **Device management** > **Add or remove a provisioning package**, and then select **Add a package**.
+10. Under **Select a package**, select the Teams_win32.ppkg provisioning package, and then restart your Surface Hub.

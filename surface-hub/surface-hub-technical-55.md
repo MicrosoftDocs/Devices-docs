@@ -18,37 +18,36 @@ appliesto:
 
 |
 --- | ---
-Pricing	| Starting at $8,999 
-Size |	31.75” x 59.62” x 3.38” (806.4mm x 1514.3mm x 85.8mm)
-Storage/RAM	| SSD 128GB with 8GB RAM
-Processor |	4th Generation Intel® Core™ i5 
-Graphics |	Intel® HD 4600 
-Ports |	**Internal PC**<br>• (1) USB 3.0 (bottom) + (1) USB 3.0 (side access) <br>• (2) USB 2.0<br>• Ethernet 1000 Base-T<br>• DisplayPort <br>• Video Output<br>• 3.5mm Stereo Out<br>• RJ11 Connector for system-level control<br>**Alternate PC**<br>• (2) USB 2.0 type B output<br>• Connection for Camera, Sensors, Microphone, Speakers<br>• (1) DisplayPort Video Input<br>**Guest PC**<br>• DisplayPort Video Input<br>• HDMI Video Input<br>• VGA Video Input<br>• 3.5mm Stereo Input<br>• (1) USB 2.0 type B Touchback™ Output
-Sensors |	(2) Passive Infrared Presence Sensors, Ambient Light Sensors 
-Speakers |	(2) Front-facing stereo speakers 
-Microphone |	High-Performance, 4-Element Array 
-Camera |	(2) Wide angle HD cameras 1080p @ 30fps 
-Pen	 | (2) Powered, active, subpixel accuracy 
-Physical side buttons |	Power, Input Select, Volume, Brightness 
-Software |	Windows 10 + Office (Word, PowerPoint, Excel) 
-What’s in the box |	• Surface Hub 55”<br>• (2) Surface Hub Pens<br>• Power Cable<br>• Setup Guide<br>• Start Guide<br>• Safety and Warranty documents<br>• Wireless All-in-One Keyboard
-Mounting features	| 4X VESA standard, 400mm x 400mm plus 1150mm x 400mm pattern, 8X M6 X 1.0 threaded mounting locations
-Display height from floor	| Recommended height of 55 inches (139.7 cm) to center of screen
-Product weight |	Approx. 105 lb. (47.6 kg) without accessories
-Product shipping weight	 | Approx. 150 lb. (68 kg)
-Product dimensions HxWxD | 	31.63 x 59.62 x 3.2 inches (80.34 x 151.44 x 8.14 cm)
-Product shipping dimensions HxWxD |	43 x 65 x 20 inches (109 x 165 x 51 cm)
-Product thickness	| Touch surface to mounting surface: ≤ 2.4 inches (6 cm)
-Orientation	 | Landscape only. Display cannot be used in a portrait orientation.
-BTU	 | 1706 BTU/h
-Image resolution |	1920 x 1080
-Frame rate |	120Hz
-EDID preferred timing, replacement PC |	1920 x 1080, 120Hz vertical refresh
-EDID preferred timing, wired connect |	1920 x 1080, 60Hz vertical refresh
-Input voltage | (50/60Hz)	110/230v nominal, 90-265v max
-Input power, operating |	500W max
-Input power, standby    |  	5W nominal
-
+Pricing | Starting at $8,999
+Size | 31.75” x 59.62” x 3.38” (806.4mm x 1514.3mm x 85.8mm)
+Storage/RAM | SSD 128GB with 8GB RAM
+Processor | 4th Generation Intel® Core™ i5
+Graphics | Intel® HD 4600
+Ports | **Internal PC**<br>• (1) USB 3.0 (bottom) + (1) USB 3.0 (side access) <br>• (2) USB 2.0<br>• Ethernet 1000 Base-T<br>• DisplayPort <br>• Video Output<br>• 3.5mm Stereo Out<br>• RJ11 Connector for system-level control<br>**Alternate PC**<br>• (2) USB 2.0 type B output<br>• Connection for Camera, Sensors, Microphone, Speakers<br>• (1) DisplayPort Video Input<br>**Guest PC**<br>• DisplayPort Video Input<br>• HDMI Video Input<br>• VGA Video Input<br>• 3.5mm Stereo Input<br>• (1) USB 2.0 type B Touchback™ Output
+Sensors | (2) Passive Infrared Presence Sensors, Ambient Light Sensors
+Speakers | (2) Front-facing stereo speakers
+Microphone | High-Performance, 4-Element Array
+Camera | (2) Wide angle HD cameras 1080p @ 30fps
+Pen  | (2) Powered, active, subpixel accuracy
+Physical side buttons | Power, Input Select, Volume, Brightness
+Software | Windows 10 + Office (Word, PowerPoint, Excel)
+What’s in the box | • Surface Hub 55”<br>• (2) Surface Hub Pens<br>• Power Cable<br>• Setup Guide<br>• Start Guide<br>• Safety and Warranty documents<br>• Wireless All-in-One Keyboard
+Mounting features | 4X VESA standard, 400mm x 400mm plus 1150mm x 400mm pattern, 8X M6 X 1.0 threaded mounting locations
+Display height from floor | Recommended height of 55 inches (139.7 cm) to center of screen
+Product weight | Approx. 105 lb. (47.6 kg) without accessories
+Product shipping weight  | Approx. 150 lb. (68 kg)
+Product dimensions HxWxD |  31.63 x 59.62 x 3.2 inches (80.34 x 151.44 x 8.14 cm)
+Product shipping dimensions HxWxD | 43 x 65 x 20 inches (109 x 165 x 51 cm)
+Product thickness | Touch surface to mounting surface: ≤ 2.4 inches (6 cm)
+Orientation  | Landscape only. Display cannot be used in a portrait orientation.
+BTU  | 1706 BTU/h
+Image resolution | 1920 x 1080
+Frame rate | 120Hz
+EDID preferred timing, replacement PC | 1920 x 1080, 120Hz vertical refresh
+EDID preferred timing, wired connect | 1920 x 1080, 60Hz vertical refresh
+Input voltage | (50/60Hz) 110/230v nominal, 90-265v max
+Input power, operating | 500W max
+Input power, standby    |   5W nominal
 
 > [!NOTE]
 > Surface Hub can be used continuously for a maximum of 18 hours a day. To optimize for efficiency, Surface Hub uses smart sensors to turn off the LED screen when presence is no longer detected, which means there is no need to power it down at the end of the day. If the unit is installed in a 24-hour workplace environment, the sensors can be disabled to comply with the 18 hour per day maximum use recommendation. Note that prolonged display of a video signal may cause burned-in or image retention to occur on the screen. To learn more about managing power settings, see:
@@ -56,15 +55,14 @@ Input power, standby    |  	5W nominal
 > - [Local management Surface Hub settings](local-management-surface-hub-settings.md)
 > - [SurfaceHub CSP - Windows Client Management](/windows/client-management/mdm/surfacehub-csp)
 
-## Replacement PC connections 
+## Replacement PC connections
 
 Connector and location | Label | Description
 --- | --- | ---
 Switch, bottom I/O | ![](images/switch.png) | Switches the function between using internal PC or external PC.
 Display port, bottom I/O | ![](images/dport.png) | Provides input for replacement PC.
-USB type B, bottom I/O | ![](images/usb.png) | Provides USB connection for replacement PC to internal peripherals. 
+USB type B, bottom I/O | ![](images/usb.png) | Provides USB connection for replacement PC to internal peripherals.
 USB type B, bottom I/O | ![](images/usb.png) | Provides USB connection for integrated hub.
-
 
 ## Wired connect connections
 
@@ -88,75 +86,62 @@ IEC/EN60320-C13 receptacle with hard switch | ![](images/iec.png) | Provides AC 
 RJ45, bottom I/O | ![](images/rj45.png) | Connects to Ethernet.
 RJ11, bottom I/O | ![](images/rj11.png) | Connects to room control systems.
 
-
 > [!NOTE]
 > Surface Hub can be used continuously for a maximum of 18 hours a day. To optimize for efficiency, Surface Hub uses smart sensors to turn off the LED screen when presence is no longer detected, which means there is no need to power it down at the end of the day. If the unit is installed in a 24-hour workplace environment, the sensors can be disabled to comply with the 18 hour per day maximum use recommendation. Note that prolonged display of a video signal may cause burned-in or image retention to occur on the screen. To learn more about managing power settings, see:
 >
 > - [Local management Surface Hub settings](local-management-surface-hub-settings.md)
 > - [SurfaceHub CSP - Windows Client Management](/windows/client-management/mdm/surfacehub-csp)
 
-
-
-
 ## Diagrams of ports and clearances
 
 ***Top view of 55" Surface Hub***
 
-![](images/sh-55-top.png)
+![Top view of 55" Surface Hub](images/sh-55-top.png)
 
 ---
 
-
 ***Front view of 55" Surface Hub***
 
-![](images/sh-55-front.png)
-
+![Front view of 55" Surface Hub*](images/sh-55-front.png)
 
 ---
 
 ***Bottom view of 55" Surface Hub***
 
-![](images/sh-55-bottom.png)
-
+![Bottom view of 55" Surface Hub](images/sh-55-bottom.png)
 
 ---
 
 ***Replacement PC ports on 55" Surface Hub***
 
-![](images/sh-55-rpc-ports.png)
-
+![Replacement PC ports on 55" Surface Hub](images/sh-55-rpc-ports.png)
 
 ---
 
 ***Keypad on right side of 55" Surface Hub***
 
-![](images/key-55.png)
-
+![Keypad on right side of 55" Surface Hub](images/key-55.png)
 
 ---
 
 ***Rear view of 55" Surface Hub***
 
-![](images/sh-55-rear.png)
-
+![Rear view of 55" Surface Hub](images/sh-55-rear.png)
 
 ---
 
 ***Clearances for 55" Surface Hub***
 
-![](images/sh-55-clearance.png)
+![Clearances for 55" Surface Hub](images/sh-55-clearance.png)
 
 ---
-
 
 ***Front and bottom handholds and clearances for 55" Surface Hub***
 
-![](images/sh-55-hand.png)
-
+![Front and bottom handholds and clearances for 55" Surface Hub](images/sh-55-hand.png)
 
 ---
 
-
 ***Rear handholds and clearances for 55" Surface Hub***
 
-![](images/sh-55-hand-rear.png)
+![Rear handholds and clearances for 55" Surface Hub](images/sh-55-hand-rear.png)
