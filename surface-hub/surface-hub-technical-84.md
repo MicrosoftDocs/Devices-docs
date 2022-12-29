@@ -15,7 +15,7 @@ appliesto:
 
 # Technical information for 84" Surface Hub (v1)
 
-|
+| Feature                               | Description   
 --- | ---
 Pricing | Starting at $21,999
 Size | 46.12” x 86.7” x 4.15” (1171.5mm x 2202.9mm x 105.4mm)

@@ -15,7 +15,7 @@ appliesto:
 
 # Technical information for 55" Surface Hub (v1)
 
-|
+| Feature                               | Description   
 --- | ---
 Pricing | Starting at $8,999
 Size | 31.75” x 59.62” x 3.38” (806.4mm x 1514.3mm x 85.8mm)
