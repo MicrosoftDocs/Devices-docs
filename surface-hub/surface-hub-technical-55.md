@@ -127,4 +127,5 @@ appliesto:
 
 ***Rear handholds and clearances for 55" Surface Hub***
 
-:::image type="content" alt-text="Rear handholds and clearances for 55" Surface Hub*" source="images/sh-55-hand-rear.png":::
+:::image type="content" alt-text="Rear handholds and clearances for 55 &#8221;  Surface Hub." source="images/sh-55-hand-rear.png":::
+
