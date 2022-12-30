@@ -133,7 +133,7 @@ If using other (non-Steelcase) mounting options, you will need spacers to accoun
 
 :::image type="content" source="images/sh2-85-measure2.png" alt-text="Surface Hub 85&#8221; dimensions detail for mounting."::: <br>
 
-![Surface Hub 85” dimensions for mounting.](images/sh2-85-measure1.png) <br>
+:::image type="content" alt-text="Surface Hub 85 &#8221; dimensions for mounting." source="images/sh2-85-measure1.png"::: <br>
 
 ## Supplemental Strapping Kit
 
