@@ -22,12 +22,13 @@ For more information, see [Officially licensed third-party accessories](http://l
 
 If you’re not using licensed accessories, see [Customize wall mount of Surface Hub 2S 50"](surface-hub-2s-custom-install.md).
 
-| 1. **Set up your mount first** | |
-|:------ |:-------- |
+| Task | Illustration|
+|------|-------------|
+| **1. Set up your mount first** | |
 | Leave your Surface Hub in the box until the mount is set up and mounting hardware is applied. Mount is not included. Your mount is sold separately. | ![* Set up your mount first *.](images/sh2-setup-1.png) <br> |
-| 2. **Attach hardware to the Surface Hub** | |
+| **2. Attach hardware to the Surface Hub** | |
 | Mounting hardware and specific instructions are found in the box for your mount. | ![* Attach hardware to the Surface Hub *.](images/sh2-setup-2.png) <br> |
-| 3. **Remove the instructional label before mounting.** | |
+| **3. Remove the instructional label before mounting.** | |
 | Get someone to help you lift and mount your Surface Hub. Make sure to hold and lift the Surface Hub from the bottom. | ![* Remove the instructional label before mounting *.](images/sh2-setup-3.png) <br> |
-| 4. **Attach accessories and power on** | |
+| **4. Attach accessories and power on** | |
 | Install accessories and attach power cable as shown. See guides on the screen cling. Remove cling wrap from the screen. Press the power button to power on. | ![* Attach accessories and power on *.](images/sh2-setup-4.png) <br> |
