@@ -81,7 +81,7 @@ NVIDIA GPUs provide users with great performance for gaming, live streaming, and
 | **Real-time ray tracing**                                | No                   | No                      | Yes                 |
 | **AI hardware acceleration**                             | No                   | No                      | Yes                 |
 | **Hardware Encoder**                                     | Yes                  | Yes                     | Yes                 |
-| **Game Ready Driver (GRD)**                              | Yes <sup>1</sup>                                   | Yes  <sup>1</sup>          |Yes <sup>2</sup>
+| **Game Ready Driver (GRD)**                              | Yes <sup>1</sup>                                   | Yes  <sup>1</sup>          |Yes <sup>2</sup> |
 | **Studio Driver (SD)**                                   | Yes  <sup>1</sup>            | Yes<sup>1</sup>                 | Yes  <sup>1</sup>           |
 | **Optimal Driver for Enterprise (ODE)**                  | No                   | No                      | Yes            |
 | **Quadro New Feature Driver (QNF)**                      | No                   | No                      | Yes            |
