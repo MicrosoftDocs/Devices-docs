@@ -93,40 +93,48 @@ appliesto:
 
 :::image type="content" alt-text="Top view of 84 &#8221; Surface Hub." source="images/sh-84-top.png":::
 
----
 
 ***Front view of 84" Surface Hub***
 
 :::image type="content" alt-text="Front view of 84 &#8221; Surface Hub." source="images/sh-84-front.png":::
 
+
 ***Bottom view of 84" Surface Hub***
 
 :::image type="content" alt-text="Bottom view of 84 &#8221; Surface Hub." source="images/sh-84-bottom.png":::
+
 
 ***Replacement PC ports on 84" Surface Hub***
 
 :::image type="content" alt-text="Replacement PC ports on 84 &#8221; Surface Hub." source="images/sh-84-rpc-ports.png":::
 
+
 ***Rear view of 84" Surface Hub***
 
 :::image type="content" alt-text="Rear view of 84 &#8221; Surface Hub." source="images/sh-84-rear.png":::
+
 
 ***Clearances for 84" Surface Hub***
 
 :::image type="content" alt-text="Clearances for 84 &#8221; Surface Hub." source="images/sh-84-clearance.png":::
 
+
 ***Removable lifting handles on 84” Surface Hub***
 
 :::image type="content" alt-text="Removable lifting handles on 84 &#8221; Surface Hub." source="images/sh-84-hand.png":::
+
 
 ***Wall mount threads on back of 84” Surface Hub***
 
 :::image type="content" alt-text="Wall mount threads on back of 84 &#8221; Surface Hub." source="images/sh-84-wall.png":::
 
+
 ***Lifting handles in top view of 84” Surface Hub***
 
 :::image type="content" alt-text="Lifting handles in top view of 84 &#8221; Surface Hub." source="images/sh-84-hand-top.png":::
 
+
 ***Side view of 84” Surface Hub***
 
 :::image type="content" alt-text="Side view of 84 &#8221; Surface Hub." source="images/sh-84-side.png":::
+
