@@ -26,7 +26,7 @@ To let people in your organization sign in to Surface Hub with their phones and 
 
 - [Configure Multi-Factor Authentication](/azure/active-directory/authentication/howto-mfa-mfasettings). Make sure **Notification through mobile app** is selected. 
 
-    ![multi-factor authentication options.](images/mfa-options.png)
+    :::image type="content" source="images/mfa-options.png" alt-text="Configure multi-factor authentication options.":::
 
 - Enable content hosting on Azure AD services such as Office, SharePoint, etc. 
 
