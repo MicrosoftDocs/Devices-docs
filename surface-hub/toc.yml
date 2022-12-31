@@ -4,6 +4,7 @@
   expanded: true
   items: 
     - name: Overview
+      expanded: true
       items: 
         - name: What's new in Windows 10 Team 2020 Update
           href: surface-hub-2020-update-whats-new.md
@@ -22,6 +23,7 @@
         - name: Install and manage Surface Hub 2 Smart Camera
           href: surface-hub-2-smart-camera.md
     - name: Plan
+      expanded: true
       items: 
         - name: Surface Hub 2S Site Readiness Guide
           href: surface-hub-2s-site-readiness-guide.md
@@ -45,6 +47,7 @@
         - name: Prepare your environment for Microsoft Surface Hub
           href: prepare-your-environment-for-surface-hub.md
     - name: Deploy
+      expanded: true
       items: 
         - name: Surface Hub 2S adoption and training
           href: surface-hub-2s-adoption-kit.md
@@ -86,6 +89,7 @@
            - name: Teams certified accessories for Surface Hub 2S
              href: surface-hub-2s-certifications.md
     - name: Manage
+      expanded: true
       items: 
         - name: Connect devices to Surface Hub 2S
           href: surface-hub-2s-connect.md        
@@ -117,7 +121,10 @@
           href: surface-hub-2s-pen-firmware.md
         - name: Adjust Ease of Access settings
           href: accessibility-surface-hub.md  
+        - name: Enroll Surface Hub in Windows Insider program
+          href: enroll-surface-hub-in-windows-insider-program.md
     - name: Secure
+      expanded: true
       items: 
         - name: Surface Hub security overview
           href: surface-hub-security.md
@@ -130,6 +137,7 @@
         - name: How Surface Hub addresses Wi-Fi Direct security issues
           href: surface-hub-wifi-direct.md
     - name: Troubleshoot
+      expanded: true
       items:   
         - name: Surface Hub Update History
           href: surface-hub-update-history.md      
