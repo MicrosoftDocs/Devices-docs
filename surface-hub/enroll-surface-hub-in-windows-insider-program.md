@@ -9,11 +9,12 @@ ms.topic: how-to
 ms.date: 12/30/2022
 ms.localizationpriority: medium
 ---
-# Enroll Surface Hub in the Windows Insider Program 
- 
-Be the first to see what's next for Surface Hub in the Windows Insider Program. Join the community and give us your feedback to help make Surface Hub better.<br>
+# Enroll Surface Hub in the Windows Insider Program
+
+Be the first to see what's next for Surface Hub in the Windows Insider Program. Join the community and give us your feedback to help make Surface Hub better.
+
 1. Go to [https://insider.windows.com/](https://insider.windows.com/) and register your account for Windows Insider Program.
-2. Sign in to Settings on Surface Hub with an admin account.
+2. Sign in to **Settings** on Surface Hub with an admin account.
 3. Go to **Update & Security**, select **Windows Insider Program** from the left menu, and then select **Get started**.
 
    :::image type="content" source="images/wip-get-started.png" alt-text="Select Get Started" :::
