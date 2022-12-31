@@ -59,4 +59,4 @@ To learn more, see [Configure log files for monitoring and troubleshooting in Te
 ### Surface Hub & Azure log files
 
 - [Surface Hub log files](/surface-hub/collect-surface-hub-log-files)
-- Any applicable [Azure sign-in logs](/azure/active-directory/reports-monitoring/howto-troubleshoot-sign-in-errors#troubleshoot-sign-in-errors-using-the-sign-ins-report) that indicate sign-in failure.
+- Any applicable [Azure sign-in logs](/azure/active-directory/reports-monitoring/howto-troubleshoot-sign-in-errors#troubleshoot-sign-in-errors-using-the-sign-ins-report) that indicate sign-in failure
