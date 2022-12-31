@@ -33,5 +33,5 @@ ms.localizationpriority: medium
 1. When Surface Hub restarts, sign restarts, sign back into Settings and go to **Update & Security** > **Windows Update.** Select **Check for updates** to find and start the installation of the Insider Preview.
 
 > [!NOTE]
-> To unenroll Surface Hub from the Windows Insider Program,  you must reset the device. To learn more, see [Reset and recovery for Surface Hub 2S](surface-hub-2s-recover-reset).
+> To unenroll Surface Hub from the Windows Insider Program,  you must reset the device. To learn more, see [Reset and recovery for Surface Hub 2S](surface-hub-2s-recover-reset.md).
 
