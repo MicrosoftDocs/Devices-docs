@@ -87,7 +87,7 @@ SDT enables you to diagnose and repair applications that may be causing issues, 
 
 SDT provides extensive log-enabled diagnosis support across applications, drivers, hardware, and operating system issues, as shown in figure 6.
 
-![Generating logs.](images/sdt-desk-6.png)
+![Generating logs.](images/sdt-desk-6.png)<br>
 *Figure 6. Generating logs*
 
 <span id="detailed-report" />
