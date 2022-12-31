@@ -10,8 +10,8 @@ ms.date: 12/30/2022
 ms.localizationpriority: medium
 ---
 # Enroll Surface Hub in the Windows Insider Program 
-
-
+ 
+Be the first to see what's next for Surface Hub in the Windows Insider Program. Join the community and give us your feedback to help make Surface Hub better.<br>
 1. Go to [https://insider.windows.com/](https://insider.windows.com/) and register your account for Windows Insider Program.
 2. Sign in to Settings on Surface Hub with an admin account.
 3. Go to **Update & Security**, select **Windows Insider Program** from the left menu, and then select **Get started**.
@@ -34,4 +34,3 @@ ms.localizationpriority: medium
 
 > [!NOTE]
 > To unenroll Surface Hub from the Windows Insider Program,  you must reset the device. To learn more, see [Reset and recovery for Surface Hub 2S](surface-hub-2s-recover-reset.md).
-
