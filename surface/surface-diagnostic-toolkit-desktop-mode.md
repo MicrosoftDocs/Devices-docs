@@ -38,17 +38,17 @@ Successfully running SDT can quickly determine if a reported issue is caused by 
     ![Select hardware tests.](images/sdt2.png)<br/>
     *Figure 3. Select hardware tests*
 
-    Hardware test | Description
-    --- | ---
-    Power Supply and Battery | Checks Power supply is functioning optimally
-    Display and Sound | Checks brightness, stuck or dead pixels, speaker and microphone functioning
-    Ports and Accessories | Checks accessories, screen attach and USB functioning
-    Connectivity | Checks Bluetooth, wireless and LTE connectivity
-    Security | Checks security related issues
-    Touch | Checks touch related issues
-    Keyboard and touch | Checks integrated keyboard connection and type cover
-    Sensors | Checks functioning of different sensors in the device
-    Hardware | Checks issues with different hardware components such as graphics card and camera
+    | Hardware test | Description |
+    | --- | --- |
+    | Power Supply and Battery | Checks Power supply is functioning optimally |
+    | Display and Sound | Checks brightness, stuck or dead pixels, speaker and microphone functioning |
+    | Ports and Accessories | Checks accessories, screen attach and USB functioning |
+    | Connectivity | Checks Bluetooth, wireless and LTE connectivity |
+    | Security | Checks security related issues |
+    | Touch | Checks touch related issues |
+    | Keyboard and touch | Checks integrated keyboard connection and type cover |
+    | Sensors | Checks functioning of different sensors in the device |
+    | Hardware | Checks issues with different hardware components such as graphics card and camera |
 
 5. When all tests have finished, the tool asks you to confirm if your issue is fixed.
 
