@@ -1,17 +1,13 @@
 ---
 title: Surface Brightness Control
 description: This topic describes how you can use the Surface Brightness Control app to manage display brightness in point-of-sale and kiosk scenarios.
-ms.prod: w10
-ms.mktglfcycl: manage
-ms.pagetype: surface, devices
-ms.sitesec: library
+ms.prod: surface
 author: coveminer
-ms.author: greglin
-ms.topic: article
+ms.author: hachidan
+ms.topic: how-to
 ms.reviewer: hachidan
-manager: laurawi
+manager: frankbu
 ms.localizationpriority: medium
-ms.audience: itpro
 appliesto:
 - Windows 10
 - Windows 11
@@ -39,7 +35,6 @@ Download Surface Brightness Control from [Surface Tools for IT](https://www.micr
 - Surface Laptop (all generations)
 - Surface Laptop Go (all generations)
 - Surface Go (all generations)
-
 
 ## Run Surface Brightness Control
 
@@ -69,12 +64,11 @@ FullBrightness   | Default: 100  <br>Option: Range of 0-100 percent of screen br
 
 ## Changes and updates
 
-
 ### Version 1.16.137<br>
 
 *Release Date: 22 October 2019*<br>
 This version of Surface Brightness Control adds support for the following:
--Recompiled for x86, adding support for Surface Pro 7, Surface Pro X,  Surface Laptop 3. It includes support for subsequently released products. 
+-Recompiled for x86, adding support for Surface Pro 7, Surface Pro X,  Surface Laptop 3. It includes support for subsequently released products.
 
 ### Version 1.12.239.0
 

@@ -1,14 +1,11 @@
 ---
 title: "Surface Hub security overview"
 description: "This page explains the Defense in Depth design of Surface Hub and describes security enhancements in Surface Hub 2S, wireless security protections, and related features."
-keywords: separate values with commas
 ms.prod: surface-hub
-ms.sitesec: library
 author: coveminer
-ms.author: greglin
-manager: laurawi
-audience: Admin
-ms.topic: article
+ms.author: hachidan
+manager: frankbu
+ms.topic: overview
 ms.date: 01/26/2021
 ms.localizationpriority: High
 ---
@@ -140,19 +137,11 @@ Security for Wi-Fi Direct is provided by WPA2 using the WPS standard. Devices ca
 ## Learn more
 
 - [Secure Boot overview](/windows-hardware/design/device-experiences/oem-secure-boot)
-
 - [BitLocker overview](/windows/security/information-protection/bitlocker/bitlocker-overview)
-
 - [Application Control overview](/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-control)
-
 - [Secure and manage Surface Hub 2S with SEMM and UEFI](/surface-hub/surface-hub-2s-secure-with-uefi-semm)
-
 - [How Surface Hub addresses Wi-Fi Direct security issues](/surface-hub/surface-hub-wifi-direct)
-
 - [Windows Defender Application Control and virtualization-based protection of code integrity](/windows/security/threat-protection/device-guard/introduction-to-device-guard-virtualization-based-security-and-windows-defender-application-control)
-
 - [Surface Tools for IT](https://www.microsoft.com/download/details.aspx?id=46703)
-
 - [FIPS 140-2 Level 2](/windows/security/threat-protection/fips-140-validation)
-
 - [Common Criteria certification](/windows/security/threat-protection/windows-platform-common-criteria)

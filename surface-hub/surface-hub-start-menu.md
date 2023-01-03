@@ -2,13 +2,13 @@
 title: Configure Surface Hub Start menu
 description: Modify the Surface Hub Start menu with custom tiles to include specific apps such as Progressive Web Apps. 
 ms.prod: surface-hub
-ms.sitesec: library
+
 author: coveminer
 ms.author: dpandre
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/06/2022
 ms.reviewer: dpandre
-manager: laurawi
+manager: frankbu
 ms.localizationpriority: medium
 ---
 

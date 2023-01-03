@@ -1,19 +1,13 @@
 ---
 title: Configure Windows 10/11 Pro or Enterprise on Surface Hub 2
 description: This article includes recommendations to ensure the best experience when using a personalized large screen touch and pen computer.
-keywords: Surface Hub, Windows 10, desktop, install, configuration
 ms.prod: surface-hub
-ms.mktglfcycl: deploy
 ms.localizationpriority: low
-ms.sitesec: library
-ms.pagetype: deploy
-audience: admin
-manager: laurawi
-ms.audience: itpro
-author: greg-lindsay
-ms.author: greglin
+manager: frankbu
+author: coveminer
+ms.author: hachidan
 ms.collection: M365-modern-desktop
-ms.topic: article
+ms.topic: how-to
 ms.date: 12/08/2020
 appliesto:
 - Surface Hub 2S

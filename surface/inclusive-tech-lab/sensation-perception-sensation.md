@@ -2,10 +2,10 @@
 title: Sensation (hypersensitive and hyposensitive)
 description: Increased sensitivity to sensory stimuli (hypersensitive) or diminished ability to detect sensory stimuli (hyposensitive)
 ms.localizationpriority: medium
-ms.sitesec: library
+
 author: InclusiveTechLab
 ms.author: brycejo 
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/20/2021
 manager: krhunter
 ms.prod: surface

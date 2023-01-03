@@ -1,17 +1,12 @@
 ---
 title: Battery Limit setting (Surface)
 description: Battery Limit is a UEFI setting that changes how the Surface device battery is charged and may prolong its longevity.
-ms.prod: w10
-ms.mktglfcycl: manage
-ms.pagetype: surface, devices
-ms.sitesec: library
+ms.prod: surface
 author: coveminer
-ms.reviewer: jesko
-ms.author: greglin
-ms.topic: article
+ms.author: hachidan
+ms.topic: how-to
 ms.localizationpriority: medium
-manager: laurawi
-audience: itpro
+manager: frankbu
 ms.date: 1/15/2021
 ---
 
