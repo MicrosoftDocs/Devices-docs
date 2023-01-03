@@ -2,16 +2,13 @@
 title: Surface Laptop Go 2 overview
 description: This article provides an overview of Surface Laptop Go 2.
 ms.prod: w11
-ms.mktglfcycl: manage
 ms.localizationpriority: medium
-ms.sitesec: library
 author: coveminer
-ms.author: greglin
-ms.topic: article
+ms.author: hachidan
+ms.topic: how-to
 ms.date: 06/01/2022
 ms.reviewer: hachidan
-manager: laurawi
-audience: itpro
+manager: frankbu
 appliesto:
 - Windows 10
 - Windows 11
@@ -31,7 +28,7 @@ As a Secured-core PC, [Surface Laptop Go 2](https://www.microsoft.com/surface/bu
 
 ## Repairability
 
-Surface Laptop Go 2 is built to be more serviceable. Skilled technicians can service devices by replacing components like the Feet, SSD, Keyboard Cover, Top Assembly, and SurfLink connectors. The battery can be replaced through Microsoft or a Microsoft Authorized Service Provider.
+Surface Laptop Go 2 is [built to be more serviceable](surface-service-and-repair.md). Skilled technicians can service devices by replacing components like the Feet, SSD, Keyboard Cover, Top Assembly, and SurfLink connectors. The battery can be replaced through Microsoft or a Microsoft Authorized Service Provider.
 
 ## Surface Management Portal
 

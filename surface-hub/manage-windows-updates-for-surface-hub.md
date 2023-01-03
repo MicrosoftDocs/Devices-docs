@@ -2,15 +2,12 @@
 title: Manage Windows updates on Surface Hub
 description: Describes best practices for managing updates on Microsoft Surface Hub or Surface Hub 2S.
 ms.assetid: A737BD50-2D36-4DE5-A604-55053D549045
-ms.reviewer: 
-manager: laurawi
-keywords: manage Windows updates, Surface Hub, Windows Server Update Services
+manager: frankbu
 ms.prod: surface-hub
-ms.sitesec: library
-author: dansimp
-ms.author: dansimp
-ms.topic: article
-ms.date: 10/27/2020
+author: coveminer
+ms.author: hachidan
+ms.topic: how-to
+ms.date: 12/19/2022
 ms.localizationpriority: medium
 ---
 
@@ -39,6 +36,7 @@ Windows Update for Business is a set of features designed to provide enterprises
 Surface Hub uses the Windows servicing model, referred to as [Windows as a Service (WaaS)](/windows/deployment/update/waas-overview). Traditionally, new features were added only in new versions of Windows that were released every few years. Each new version required lengthy and expensive processes to deploy in an organization. As a result, end users and organizations don't frequently enjoy the benefits of new innovation. The goal of Windows as a Service is to continually provide new capabilities while maintaining a high level of quality.
 
 Microsoft publishes two types of Surface Hub releases broadly on an ongoing basis:
+
 - **Feature updates** - Updates that install the latest new features, experiences, and capabilities. Microsoft expects to publish two new feature updates per year.
 - **Quality updates** - Updates that focus on the installation of security fixes, drivers, and other servicing updates. Microsoft expects to publish one cumulative quality update per month.
 
@@ -57,6 +55,7 @@ Surface Hubs, like all Windows 10 devices, include **Windows Update for Business
 > Microsoft generally releases one mandatory Windows security update per month (released on the 2nd Tuesday and often referred to as a "B" release). Together with out-of-band security updates, these are the only updates made available to devices using WUfB. However, Surface Hub improvements are generally delivered through optional non-security updates on the 3rd Tuesday of each month ("C" release). As a result, customers using Windows Update for Business with their Surface Hubs will have wait until the following month's "B" release to see the latest improvements on these devices.
 
 **To set up Windows Update for Business:**
+
 1. [Group Surface Hub into deployment rings](#group-surface-hub-into-deployment-rings)
 2. [Configure when Surface Hub receives updates](#configure-when-surface-hub-receives-updates).
 
@@ -81,6 +80,7 @@ See the following table for examples of deployment rings.
 ### Configure when Surface Hub receives updates
 
 Once you've determined deployment rings for your Surface Hubs, configure update deferral policies for each ring:
+
 - To defer feature updates, set an appropriate [Update/DeferFeatureUpdatesPeriodInDays](/windows/client-management/mdm/policy-csp-update#update-deferfeatureupdatesperiodindays) policy for each ring.
 - To defer quality updates, set an appropriate [Update/DeferQualityUpdatesPeriodInDays](/windows/client-management/mdm/policy-csp-update#update-deferqualityupdatesperiodindays) policy for each ring.
 
@@ -90,6 +90,7 @@ Once you've determined deployment rings for your Surface Hubs, configure update 
 **If you use a proxy server or other method to block URLs**
 
 Add the following Windows update trusted site URLs to the “allow list”:
+
 - `http(s)://*.update.microsoft.com`
 - `http://download.windowsupdate.com` 
 - `http://windowsupdate.microsoft.com`
@@ -101,29 +102,29 @@ Once the Windows 10 Team Anniversary Update is installed, you can remove these a
 To ensure the device is always available for use during business hours, the Surface Hub performs its administrative functions during a specified maintenance window. The Surface Hub automatically installs updates through Windows Update during the maintenance window, and reboots the device 20 minutes before the end of the window.
 
 Surface Hub follows these guidelines to apply updates:
+
 - Install the update during the next maintenance window. If a meeting is scheduled to start during a maintenance window, or the Surface Hub sensors detect that the device is being used, the pending update will be postponed to the following maintenance window.
 - If the next maintenance window is past the update’s prescribed grace period, the device will calculate the next available slot during business hours using the estimated install time from the update’s metadata. It will continue to postpone the update if a meeting is scheduled, or the Surface Hub sensors detect that the device is being used.
 - If the next maintenance window is **not** past the update's grace period, the Surface Hub will continue to postpone the update.
 - If an additional reboot is needed, the Surface Hub will automatically reboot during the next maintenance window.
 
-> [!NOTE]
+> [!TIP]
 > Allow time for updates when you first setup your Surface Hub. For example, a backlog of virus definitions may be available, which should be immediately installed.
 
 A default maintenance window is set for all new Surface Hubs:
--   **Start time:** 2:00 AM
--   **Duration:** 2 hours
+
+- **Start time:** 2:00 AM
+- **Duration:** 2 hours
 
 **To manually change the maintenance window:**
-1.  Open **Settings** on your Surface Hub.
-2.  Navigate to **Update & security** > **Windows Update** > **Advanced options**.
-3.  Under **Maintenance hours**, select **Change**.
+
+1. Open **Settings** on your Surface Hub.
+2. Navigate to **Update & security** > **Windows Update** > **Advanced options**.
+3. Under **Maintenance hours**, select **Change**.
 
 To change the maintenance window using MDM, set the **MaintenanceHoursSimple** node in the [SurfaceHub configuration service provider](/windows/client-management/mdm/surfacehub-csp). See [Manage settings with an MDM provider](manage-settings-with-mdm-for-surface-hub.md) for more details.
 
-
 ## Related topics
 
-[Manage Microsoft Surface Hub](manage-surface-hub.md)
-
-[Surface Hub may install updates and restart outside maintenance hours](surface-hub-installs-updates-and-restarts-outside-maintenance-hours.md)
-
+- [Manage Microsoft Surface Hub](manage-surface-hub.md)
+- [Surface Hub may install updates and restart outside maintenance hours](surface-hub-installs-updates-and-restarts-outside-maintenance-hours.md)

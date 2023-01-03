@@ -1,14 +1,11 @@
 ---
 title: "Configure non Global admin accounts on Surface Hub"
 description: "This article describes how to configure non Global admin accounts to manage Surface Hub and Surface Hub 2S."
-keywords: Surface Hub, Surface Hub v1, Surface Hub 2S
 ms.prod: surface-hub
-ms.sitesec: library
-author: greg-lindsay
-ms.author: greglin
-manager: laurawi
-audience: Admin
-ms.topic: article
+author: coveminer
+ms.author: hachidan
+manager: frankbu
+ms.topic: how-to
 ms.date: 11/15/2022
 ms.localizationpriority: Medium
 appliesto:
@@ -24,8 +21,6 @@ Windows 10 Team 2020 Update 2 adds support for [LocalUsersAndGroups CSP](/window
 
 > [!NOTE]
 > Before you begin, make sure your Surface Hub is Azure AD-joined and Intune auto-enrolled. If not, you will need to [reset the Surface Hub](surface-hub-2s-recover-reset.md) and complete the [first-time, out-of-the-box (OOBE) setup](first-run-program-surface-hub.md) again, choosing the option to join Azure AD. Only accounts that [authenticate via Azure AD](/azure/active-directory/hybrid/choose-ad-authn#cloud-authentication) are supported with the non Global admin policy configuration.
-
-
 
 ## Summary
 

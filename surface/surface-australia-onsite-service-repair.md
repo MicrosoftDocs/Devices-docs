@@ -2,16 +2,13 @@
 title: Surface Australia On-site service and repair
 description: This article describes onsite service and repair options for Surface devices in Australia
 ms.prod: w11
-ms.mktglfcycl: manage
 ms.localizationpriority: medium
-ms.sitesec: library
 author: coveminer
-ms.author: greglin
-ms.topic: article
+ms.author: hachidan
+ms.topic: overview
 ms.date: 12/01/2022
 ms.reviewer: hachidan
-manager: laurawi
-audience: itpro
+manager: frankbu
 appliesto:
 - Windows 10
 - Windows 11
@@ -43,7 +40,6 @@ EHS Plus with On-Site covers mechanical breakdown that results in the device no 
 - [Queensland](https://download.microsoft.com/download/2/6/5/26593c54-9e9a-46e6-ada1-24e483aa6d61/AU%20Service%20Locator%20_QLD_Nov302022.xlsx)
 - [Tasmania](https://download.microsoft.com/download/7/f/2/7f2470fe-8e65-4732-8173-2c8307b09eba/AU%20Service%20Locator_TAS_Nov302022.xlsx)
 - [Victoria](https://download.microsoft.com/download/2/6/5/26593c54-9e9a-46e6-ada1-24e483aa6d61/AU%20Service%20Locator_VIC_Nov302022.xlsx)
-
 
 > [!NOTE]
 > On-site service is part of the extended EHS Plus On-Site Protection plan you purchased, and the services are provided by a Microsoft vendor and not Microsoft.  

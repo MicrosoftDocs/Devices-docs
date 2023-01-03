@@ -280,7 +280,7 @@
           href: surface-hub-update-history.md 
         - name: Reset or recover a Surface Hub
           href: device-reset-surface-hub.md
-        - name: Using the Surface Hub Recovery Tool
+        - name: Use the Surface Hub Recovery Tool
           href: surface-hub-recovery-tool.md
         - name: Collect Surface Hub log files  
           href: collect-surface-hub-log-files.md 
@@ -298,7 +298,7 @@
           href: windows-10-team-known-issues.md
         - name: How to use cloud recovery for BitLocker on a Surface Hub
           href: use-cloud-recovery-for-bitlocker-on-surfacehub.md
-        - name: Using the Surface Hub Hardware Diagnostic Tool to test a device account
+        - name: Use the Surface Hub Hardware Diagnostic Tool to test a device account
           href: use-surface-hub-diagnostic-test-device-account.md
         - name: Troubleshoot Miracast on Surface Hub
           href: miracast-troubleshooting.md
