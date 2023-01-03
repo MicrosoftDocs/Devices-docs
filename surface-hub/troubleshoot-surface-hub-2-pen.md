@@ -40,11 +40,15 @@ If you encounter issues with your Surface Hub 2 pen, follow the troubleshooting 
 
 ## Support requests
 
-If you  still can't use your pen with your Surface Hub 2S, you can [create a support request](https://support.serviceshub.microsoft.com/supportforbusiness/onboarding). Include the following items:
+If you're still unable to use the pen with your Surface Hub 2S, you'll need to acquire a replacement pen. The first step is to [identify the warranty status of your device](https://mybusinessservice.surface.com/en-US/CheckWarranty/CheckWarranty) using the serial number of your Surface Hub 2S.
+
+> [!TIP]
+> You can find the serial number on the outside of the packaging, on the display by the power cord, or by using the Surface app.
+
+If the warranty for your Surface Hub 2S is expired, you can order a replacement pen directly through the [Microsoft Store](https://www.microsoft.com/d/surface-hub-2-pen/943fmjbs4k86?atc=true&rtc=1).
+
+If your device is still covered under warranty, please [create a support request](https://support.serviceshub.microsoft.com/supportforbusiness/onboarding) and include the following items as it will help speed up the process:
 
 - Results of troubleshooting steps on this page.
 - Shipping address and recipient contact information.
 - Serial number of the **Surface Hub 2S** (not the pen itself).
-
-> [!TIP]
-> You can find the serial number on the outside of the packaging, on the display by the power cord, or by using the Surface app.
