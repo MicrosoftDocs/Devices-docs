@@ -987,7 +987,7 @@ else
 
 ## <a href="" id="acct-verification-ps-scripts"></a>Account verification script
 
-This script validates the previously-created device account on Surface Hub and Surface Hub 2S, no matter which method was used to create it. This script is basically pass/fail. If one of the test errors out, it will show a detailed error message, but if all tests pass, the end result will be a summary report. For example, you might see:
+This script validates the previously created device account on Surface Hub and Surface Hub 2S, no matter which method was used to create it. This script is basically pass/fail. If one of the test errors out, it will show a detailed error message, but if all tests pass, the end result will be a summary report. For example, you might see:
 
 ```console
 15 tests executed
