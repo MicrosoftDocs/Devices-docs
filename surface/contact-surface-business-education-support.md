@@ -1,11 +1,11 @@
 ---
 title: Contact Surface Support
-ms.author: greglin
-author: greg-lindsay
-manager: laurawi
+ms.author: hachidan
+author: coveminer
+manager: frankbu
 ms.date: 6/14/2022
-audience: Admin
-ms.topic: article
+
+ms.topic: how-to
 ms.prod: surface
 localization_priority: medium
 search.appverid:
@@ -21,7 +21,7 @@ ms.reviewer: mablaik
 description: Support information for Microsoft Surface and Surface Hub products.
 ---
 
-# Surface Support for Business and Education customers
+# Contact Surface Support for Business and Education customers
 
 ## Before you contact us  
 

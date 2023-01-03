@@ -1,13 +1,13 @@
 ---
 title: Surface Hub SSD replacement
 ms.reviewer: 
-manager: laurawi
+manager: frankbu
 description: Learn how to replace the solid state drive in a Surface Hub.
 ms.prod: surface-hub
-ms.sitesec: library
-author: dansimp
-ms.author: dansimp
-ms.topic: article
+
+author: coveminer
+ms.author: hachidan
+ms.topic: how-to
 ms.localizationpriority: medium
 ---
 

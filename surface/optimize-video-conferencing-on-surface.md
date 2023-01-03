@@ -2,16 +2,13 @@
 title: Optimize video conferencing on Surface devices
 description: This page provides best practices for using Microsoft Teams and other video conferencing solutions on Surface devices
 ms.prod: w11
-ms.mktglfcycl: manage
 ms.localizationpriority: medium
-ms.sitesec: library
 author: coveminer
-ms.author: greglin
-ms.topic: article
+ms.author: hachidan
+ms.topic: how-to
 ms.date: 12/10/2021
 ms.reviewer: gusing
-manager: laurawi
-audience: itpro
+manager: frankbu
 appliesto:
 - Windows 10
 - Windows 11

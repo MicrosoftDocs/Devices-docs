@@ -1,18 +1,13 @@
 ---
 title: SSD removal in compatible Surface devices
 description: This article, intended for qualified IT technicians, describes the recommended best practices for the removal and replacement of SSDs in Surface Laptop 4, Surface Laptop 3, Surface Pro 7+, Surface Pro X, and Surface Laptop Go. 
-ms.prod: w10
+ms.prod: surface
 ms.localizationpriority: medium
-ms.mktglfcycl: manage
-ms.sitesec: library
-author: mccoybot
+author: coveminer
 ms.author: brrecord
-ms.topic: article
+ms.topic: how-to
 ms.date: 10/14/2022
-ms.reviewer: 
-manager: laurawi
-ms.audience: itpro
-audience: ITPro
+manager: frankbu
 appliesto:
 - Surface Laptop Studio
 - Surface Pro 9
@@ -28,8 +23,6 @@ appliesto:
 - Surface Studio 2+
 - Windows 10
 - Windows 11
-
-
 ms.custom: 
 - CI 121887
 - CSSTroubleshoot 

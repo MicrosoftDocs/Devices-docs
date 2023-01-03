@@ -12,11 +12,10 @@ metadata:
   ms.prod: surface-hub
   ms.technology: windows
   ms.custom: intro-hub-or-landing
-  audience: ITPro
   ms.localizationpriority: medium
-  author: greg-lindsay #Required; your GitHub user alias, with correct capitalization.
-  ms.author: greglin #Required; microsoft alias of author; optional team alias.
-  manager: laurawi
+  author: coveminer #Required; your GitHub user alias, with correct capitalization.
+  ms.author: hachidan #Required; microsoft alias of author; optional team alias.
+  manager: frankbu
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
 
@@ -85,7 +84,7 @@ landingContent:
     linkLists:
       - linkListType: deploy
         links:
-          - url: https://learn.microsoft.com/microsoftteams/rooms/coordinated-meetings
+          - url: /microsoftteams/rooms/coordinated-meetings
             text: Set up Coordinated Meetings with Microsoft Teams Rooms and Surface Hub 
           - url: surface-hub-2s-adoption-kit.md
             text: Surface Hub 2S adoption and training
@@ -97,7 +96,7 @@ landingContent:
     linkLists:
       - linkListType: learn
         links:
-          - url: https://learn.microsoft.com/microsoftteams/rooms/surface-hub-manage-config
+          - url: /microsoftteams/rooms/surface-hub-manage-config
             text: Manage Microsoft Teams settings on Surface Hub
           - url: manage-settings-with-mdm-for-surface-hub.md
             text: Manage Surface Hub with an MDM provider 
@@ -121,17 +120,17 @@ landingContent:
     linkLists:
       - linkListType: learn
         links:
-          - url: https://learn.microsoft.com/windows/apps/design/basics/
+          - url: /windows/apps/design/basics/
             text: Design basics for Windows apps 
-          - url: https://learn.microsoft.com/windows/uwp/get-started/
+          - url: /windows/uwp/get-started/
             text: Get started building Windows apps that work on all Windows devices
-          - url: https://learn.microsoft.com/windows/uwp/debug-test-perf/test-surface-hub-apps-using-visual-studio
+          - url: /windows/uwp/debug-test-perf/test-surface-hub-apps-using-visual-studio
             text: Test Surface Hub apps using Visual Studio
-          - url: https://learn.microsoft.com/windows/uwp/publish/distribute-lob-apps-to-enterprises
+          - url: /windows/uwp/publish/distribute-lob-apps-to-enterprises
             text: Distribute LOB apps to enterprises
           - url: https://businessstore.microsoft.com/store/private-store
             text: Microsoft Store for Business
-          - url: https://learn.microsoft.com/microsoft-store/distribute-apps-with-management-tool
+          - url: /microsoft-store/distribute-apps-with-management-tool
             text: Distribute apps with a management tool
 
 # Card (optional)

@@ -2,10 +2,10 @@
 title: Vestibular
 description: A sensory system that informs our sense of balance and orientation in our environment 
 ms.localizationpriority: medium
-ms.sitesec: library
+
 author: InclusiveTechLab
 ms.author: brycejo 
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/20/2021
 manager: krhunter
 ms.prod: surface

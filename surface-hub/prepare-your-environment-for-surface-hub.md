@@ -3,13 +3,11 @@ title: Prepare your environment for Microsoft Surface Hub
 description: This page describes dependencies for setting up and managing Surface Hub v1 or Surface Hub 2S.
 ms.assetid: 336A206C-5893-413E-A270-61BFF3DF7DA9
 ms.reviewer: 
-manager: laurawi
-keywords: prepare environment, Surface Hub, device account, network availability, M365 endpoints, Intune
+manager: frankbu
 ms.prod: surface-hub
-ms.sitesec: library
-author: dansimp
-ms.author: dansimp
-ms.topic: article
+author: coveminer
+ms.author: hachidan
+ms.topic: how-to
 ms.date: 02/15/2022
 ms.localizationpriority: medium
 appliesto:

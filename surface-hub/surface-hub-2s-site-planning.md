@@ -1,21 +1,16 @@
 ---
 title: "Surface Hub 2S site planning"
 description: "Learn more about rooms for Surface Hub 2S."
-keywords: separate values with commas
 ms.prod: surface-hub
-ms.sitesec: library
-author: greg-lindsay
-ms.author: greglin
-manager: laurawi
-audience: Admin
-ms.topic: article
+author: coveminer
+ms.author: hachidan
+manager: frankbu
+ms.topic: how-to
 ms.date: 06/20/2019
 ms.localizationpriority: Medium
 ---
 
 # Surface Hub 2S site planning
-
-## Introduction
 
 Designed for team collaboration, Surface Hub 2S can transform the way you work  —  not only in the conference rooms but any place you want to work. One of the biggest advantages of Surface Hub 2S is the ability to move it from one space to another when used with the Steelcase Roam mobile stand and mobile battery. Providing unplugged, uninterrupted teamwork capabilities, Surface Hub 2S can be integrated into almost any workspace.
 
@@ -36,7 +31,7 @@ Whether mounted to a wall or installed on the mobile stand, the areas where you 
 - Room temperatures no cooler than 10°C (50° F) and no hotter than 35°C  (95° F).
 - Relative humidity no lower than 20 percent and no higher than 80 percent.
 
-For detailed room planning guidance and more information about Microsoft Teams Rooms see [Plan Microsoft Teams Rooms.](https://learn.microsoft.com/MicrosoftTeams/room-systems/skype-room-systems-v2-0)
+For detailed room planning guidance and more information about Microsoft Teams Rooms see [Plan Microsoft Teams Rooms.](/MicrosoftTeams/room-systems/skype-room-systems-v2-0)
 
 ## Managing Surface Hub 2S location
 
