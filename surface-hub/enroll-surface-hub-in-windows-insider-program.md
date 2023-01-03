@@ -8,6 +8,9 @@ ms.author: hachidan
 ms.topic: how-to
 ms.date: 12/30/2022
 ms.localizationpriority: medium
+appliesto:
+- Surface Hub
+- Surface Hub 2S
 ---
 # Enroll Surface Hub in the Windows Insider Program
 
