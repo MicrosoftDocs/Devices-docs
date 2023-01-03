@@ -1,17 +1,14 @@
 ---
 title:  Customer self-serve repair for Surface devices
 description: This article explains how you can self-serve repair Surface devices.
-ms.prod: w10
-ms.mktglfcycl: manage
+ms.prod: surface
 ms.localizationpriority: medium
-ms.sitesec: library
 author: coveminer
-ms.author: greglin
-ms.topic: article
+ms.author: hachidan
+ms.topic: overview
 ms.date: 11/02/2022
-ms.reviewer: oayakta
-manager: laurawi
-audience: itpro
+ms.reviewer: hachidan
+manager: frankbu
 appliesto:
 - Windows 10
 - Windows 11

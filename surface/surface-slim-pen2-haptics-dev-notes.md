@@ -2,16 +2,13 @@
 title: Surface Slim Pen 2 haptics dev notes
 description: This page provides implementation notes for app developers who want to extend Windows 11 Ink capabilities of Surface Slim Pen 2 for Business. 
 ms.prod: w11
-ms.mktglfcycl: manage
 ms.localizationpriority: medium
-ms.sitesec: library
 author: coveminer
-ms.author: greglin
-ms.topic: article
+ms.author: hachidan
+ms.topic: how-to
 ms.date: 12/07/2021
 ms.reviewer: gusing
-manager: laurawi
-audience: itpro
+manager: frankbu
 appliesto:
 - Windows 11
 ---

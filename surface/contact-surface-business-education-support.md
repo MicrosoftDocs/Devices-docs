@@ -1,11 +1,11 @@
 ---
-title: Contact Surface Support for Business and Education
-ms.author: greglin
-author: greg-lindsay
-manager: laurawi
+title: Contact Surface Support
+ms.author: hachidan
+author: coveminer
+manager: frankbu
 ms.date: 6/14/2022
-audience: Admin
-ms.topic: article
+
+ms.topic: how-to
 ms.prod: surface
 localization_priority: medium
 search.appverid:

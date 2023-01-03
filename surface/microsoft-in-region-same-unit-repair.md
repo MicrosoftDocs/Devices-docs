@@ -2,16 +2,13 @@
 title:  Microsoft in-region same unit repair
 description: This article describes devices eligible for in-region same unit repair.
 ms.prod: w11
-ms.mktglfcycl: manage
 ms.localizationpriority: medium
-ms.sitesec: library
 author: coveminer
-ms.author: greglin
-ms.topic: article
+ms.author: hachidan
+ms.topic: overview
 ms.date: 10/28/2022
 ms.reviewer: 
-manager: laurawi
-audience: itpro
+manager: frankbu
 appliesto:
 - Windows 10
 - Windows 11
@@ -30,7 +27,7 @@ Upon successful repair, Microsoft will return the device to your specified shipp
 - Surface Go
 - Surface Pro X
 
-## Availability 
+## Availability
 
 | Eligible devices                                                                                     | Available countries/regions                                                                                                                                                                                                                                                                                                                                                           |
 | ---------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

@@ -2,16 +2,13 @@
 title: Deploy, manage, and service ARM-based Surface devices
 description: This article provides an overview of key considerations for deploying, managing, and servicing Surface Pro 9 with 5G and Surface Pro X.
 ms.prod: w11
-ms.mktglfcycl: manage
 ms.localizationpriority: high
-ms.sitesec: library
 author: coveminer
 ms.author: hachidan
-ms.topic: article
+ms.topic: how-to
 ms.date: 11/28/2022
 ms.reviewer: Karand 
-manager: laurawi
-ms.audience: itpro
+manager: frankbu
 appliesto:
 - Windows 10
 - Windows 11
@@ -59,8 +56,8 @@ With [Surface Enterprise Management Mode (SEMM)](surface-enterprise-management-m
 With [Surface Enterprise Management Mode (SEMM)](surface-enterprise-management-mode.md), you can manage the following hardware components at the firmware level for Surface Pro X devices:
 
 - Wake On Power
-- IPv6 for PXE boot 
-- Alternate Boot 
+- IPv6 for PXE boot
+- Alternate Boot
 - Boot Order Lock
 - USB Boot
 - PXE Boot
@@ -203,7 +200,7 @@ The following tables show the availability of selected key features on Surface P
 
 - A BMR is available for Surface Pro X. Refer to [Download a recovery image for your Surface](https://support.microsoft.com/surfacerecoveryimage). A BMR will be available for Surface Pro 9 5G.
 
-**Is Intune required to manage Surface Pro 9 with 5G or Surface Pro X**
+**Is Intune required to manage Surface Pro 9 with 5G or Surface Pro X?**
 
 - Intune is recommended but not required. Once deployed in Autopilot, you can join Surface Pro 9 with 5G and Surface Pro X devices to Azure AD or Active Directory (Hybrid Azure AD Join), where you will be able to manage the devices with Intune or co-manage them with Endpoint Configuration Manager, which will install the 32-bit x86 ConfigMgr client.
 
