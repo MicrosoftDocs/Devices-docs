@@ -1,20 +1,17 @@
 ---
-title: Using the Surface Hub Recovery Tool
+title: Use the Surface Hub Recovery Tool
 description: How to use the Surface Hub Recovery Tool to re-image the SSD.
 ms.assetid: FDB6182C-1211-4A92-A930-6C106BCD5DC1
-ms.reviewer: 
-manager: laurawi
-keywords: manage Surface Hub
+manager: frankbu
 ms.prod: surface-hub
-ms.sitesec: library
-author: dansimp
-ms.author: dansimp
-ms.topic: article
+author: coveminer
+ms.author: hachidan
+ms.topic: how-to
 ms.date: 02/11/2020
 ms.localizationpriority: medium
 ---
 
-# Using the Surface Hub Recovery Tool
+# Use the Surface Hub Recovery Tool
 
 The [Microsoft Surface Hub Recovery Tool](https://www.microsoft.com/download/details.aspx?id=52210) helps you re-image your Surface Hub Solid State Drive (SSD) using a Windows 10 desktop device, without calling support or replacing the SSD. With this tool, you can reimage an SSD that has an unknown Administrator password, boot errors, was unable to complete a cloud recovery, or for a device that has an older version of the operating system. The tool will not fix physically damaged SSDs.
 
@@ -42,9 +39,9 @@ If the tool is unsuccessful in reimaging your drive, please contact [Surface Hub
 - Open USB 3.0 port
 - USB 3.0 or higher USB-to-SATA cable
 - The imaging tool was tested with the following make and model of cables:
-    - Startech USB312SAT3CB
-    - Rosewill RCUC16001
-    - Ugreen 20231
+  - Startech USB312SAT3CB
+  - Rosewill RCUC16001
+  - Ugreen 20231
 
 ## Download Surface Hub Recovery Tool
 
@@ -84,19 +81,13 @@ Install Surface Hub Recovery Tool on the host PC.
 
     ![Downloading image.](images/shrt-download.png)
 
-
-
 5. When the download is complete, the tool instructs you to connect an SSD drive. If the tool is unable to locate the attached drive, there is a good chance that the cable being used is not reporting the name of the SSD to Windows.  The imaging tool must find the name of the drive as "LITEON L CH-128V2S USB Device" before it can continue.  For more information on how to remove the existing drive from your Surface Hub, see [Surface Hub SSD replacement](surface-hub-ssd-replacement.md).
 
     ![Connect SSD.](images/shrt-drive.png)
 
 6. When the drive is recognized, click **Start** to begin the re-imaging process. On the warning that all data on the drive will be erased, click **OK**.
 
-
-
     Prior to applying the system image to the drive, the SSD is repartitioned and formatted. Copying the system binaries will take approximately 30 minutes, but can take longer depending on the speed of your USB bus, the cable being used, or antivirus software installed on your system.
-
-
 
 ## Troubleshooting and common problems
 
@@ -111,14 +102,12 @@ If the tool is unsuccessful in reimaging your drive, please contact [Surface Hub
 
 ## Version history
 
-
 ### Version v2.7.139.0
 
 *Release date: February 11, 2021*<br>
 This version of Surface Hub Recovery Tool adds support for the following:
 
 - Security update
-
 
 ### Version v2.0.139.0
 
@@ -131,4 +120,3 @@ This version of Surface Hub Recovery Tool adds support for the following:
 - User experience improvements
 - Architectural changes
 - Telemetry additions
-

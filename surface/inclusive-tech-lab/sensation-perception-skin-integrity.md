@@ -2,10 +2,10 @@
 title: Skin integrity
 description: The skin’s ability to perform protective functions and detect sensory stimuli
 ms.localizationpriority: medium
-ms.sitesec: library
+
 author: InclusiveTechLab
 ms.author: brycejo 
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/20/2021
 manager: krhunter
 ms.prod: surface

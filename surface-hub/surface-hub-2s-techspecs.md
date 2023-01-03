@@ -1,14 +1,11 @@
 ---
 title: "Surface Hub 2S tech specs"
 description: "View tech specs for Surface Hub 2S including pen, camera, and optional mobile battery specifications."
-keywords: separate values with commas
 ms.prod: surface-hub
-ms.sitesec: library
-author: greg-lindsay
-manager: laurawi
-ms.author: greglin
-audience: Admin
-ms.topic: article
+author: coveminer
+manager: frankbu
+ms.author: hachidan
+ms.topic: how-to
 ms.date: 12/21/2020
 ms.localizationpriority: Medium
 ---

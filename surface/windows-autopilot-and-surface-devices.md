@@ -1,18 +1,13 @@
 ---
 title: Windows Autopilot and Surface devices
 ms.reviewer: 
-manager: laurawi
+manager: frankbu
 description: Find out about Windows Autopilot deployment options for Surface devices.
-keywords: autopilot, Windows 10, Windows 11, surface, deployment
-ms.prod: w10
-ms.mktglfcycl: deploy
-ms.pagetype: surface, devices
-ms.sitesec: library
+ms.prod: surface
 author: coveminer
-ms.author: greglin
-ms.topic: article
+ms.author: hachidan
+ms.topic: conceptual
 ms.localizationpriority: medium
-ms.audience: itpro
 ms.date: 10/25/2022
 appliesto:
 - Windows 10

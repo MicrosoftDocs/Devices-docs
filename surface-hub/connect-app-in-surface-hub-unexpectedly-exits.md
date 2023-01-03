@@ -2,12 +2,10 @@
 title: What to do if the Connect app in Surface Hub exits unexpectedly
 description: Describes how to resolve an issue where the Connect app in Surface Hub exits to the Welcome screen after cycling through inputs.
 ms.assetid: 9576f4e4-d936-4235-8a03-d8a6fe9e8fec
-keywords: surface, hub, connect, input, displayport
 ms.prod: surface-hub
-ms.sitesec: library
-author: greg-lindsay
-ms.author: v-todmc
-ms.topic: article
+author: coveminer
+ms.author: hachidan
+ms.topic: how-to
 ms.localizationpriority: medium
 ---
 

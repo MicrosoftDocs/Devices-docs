@@ -1,19 +1,14 @@
 ---
 title: Surface System SKU reference
 description: See a reference of System Model and System SKU names for all Surface devices. 
-keywords: uefi, configure, firmware, secure, semm, Autopilot
-ms.prod: w10
-ms.mktglfcycl: manage
-ms.pagetype: surface, devices, security
-ms.sitesec: library
+ms.prod: surface
 author: coveminer
-ms.author: greglin
-ms.topic: article
+ms.author: hachidan
+ms.topic: how-to
 ms.date: 10/27/2022
 ms.reviewer: carlol
-manager: laurawi
+manager: frankbu
 ms.localizationpriority: medium
-ms.audience: itpro
 appliesto:
 - Windows 10
 - Windows 11
@@ -76,7 +71,8 @@ System Model and System SKU are variables stored in System Management BIOS (SMBI
 | Surface Pro 8 LTE                                            | Surface Pro 8    | Surface_Pro_8_for_Business_with_LTE_Advanced_1982|
 | Surface Pro 9 Consumer                                           | Surface Pro 9   | Surface_Pro_9_2038   |
 | Surface Pro 9 Commercial                                          | Surface Pro 9   | Surface_Pro_9_for_Business_2038 |
-| Surface Pro 9 with 5G                                           | Surface Pro 9   | Surface_Pro_9_With_5G_1997       |
+| Surface Pro 9 with 5G (U.S.)                                           | Surface Pro 9   | Surface_Pro_9_With_5G_1997       |
+| Surface Pro 9 with 5G (outside of U.S.)                                         | Surface Pro 9   | Surface_Pro_9_With_5G_1996       |
 | Surface Pro X with SQ1 processor                             | Surface Pro X    | Surface_Pro_X_1876         |
 | Surface Pro X with SQ2 processor                             | Surface Pro X    | Surface_Pro_X_H_1876        |
 | Surface Pro X (Wi-Fi)                                        | Surface Pro X    | Surface_Pro_X_2010        |

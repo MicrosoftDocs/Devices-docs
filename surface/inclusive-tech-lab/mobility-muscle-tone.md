@@ -2,10 +2,10 @@
 title: Muscle tone
 description: The tightness or looseness of muscles that ultimately impact strength, range of motion, coordination, and speed
 ms.localizationpriority: medium
-ms.sitesec: library
+
 author: InclusiveTechLab
 ms.author: brycejo 
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/20/2021
 manager: krhunter
 ms.prod: surface

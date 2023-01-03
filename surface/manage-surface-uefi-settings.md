@@ -1,17 +1,13 @@
 ---
 title: Manage Surface UEFI settings 
 description: Use Surface UEFI settings to enable or disable devices or components, configure security settings, and adjust Surface device boot settings. 
-keywords: firmware, security, features, configure, hardware
 ms.localizationpriority: medium
-ms.prod: w10
-ms.mktglfcycl: manage
-ms.sitesec: library
-ms.pagetype: devices, surface
+ms.prod: surface
 author: coveminer
-ms.author: greglin
-ms.topic: article
+ms.author: hachidan
+ms.topic: how-to
 ms.reviewer: hachidan
-manager: laurawi
+manager: frankbu
 ms.date: 10/25/2022
 appliesto:
 - Windows 10
@@ -27,7 +23,7 @@ appliesto:
 UEFI management is supported on the following:
 
 - Surface Pro 4, Surface Pro (5th Gen), Surface Pro 6, Surface Pro 7, Surface Pro 7+ (commercial SKUs only), Surface Pro 8 (commercial SKUs only), Surface Pro 9 & Surface Pro 9 with 5G (commercial SKUs only), Surface Pro X
-- Surface Laptop (1st Gen), Surface Laptop 2, Surface Laptop 3 (Intel processors only), Surface Laptop Go, Surface Laptop 4 (commercial SKUs only), Surface Laptop SE, Surface Laptop Go 2
+- Surface Laptop (1st Gen), Surface Laptop 2, Surface Laptop 3 (Intel processors only), Surface Laptop Go, Surface Laptop 4 (commercial SKUs only), Surface Laptop 5 (commercial SKUs only), Surface Laptop SE, Surface Laptop Go 2 (commercial SKUs only)
 - Surface Studio (1st Gen), Surface Studio 2, Surface Studio 2+
 - Surface Book (all generations)
 - Surface Laptop Studio (commercial SKUs only)

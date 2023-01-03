@@ -2,12 +2,10 @@
 title: Surface Hub may install updates and restart outside maintenance hours
 description: troubleshooting information for Surface Hub regarding automatic updates
 ms.assetid: 6C09A9F8-F9CF-4491-BBFB-67A1A1DED0AA
-keywords: surface hub, maintenance window, update
 ms.prod: surface-hub
-ms.sitesec: library
-author: Teresa-MOTIV
-ms.author: v-tea
-ms.topic: article
+author: coveminer
+ms.author: hachidan
+ms.topic: troubleshooting
 ms.localizationpriority: medium
 ms.date: 04/15/2021
 ---

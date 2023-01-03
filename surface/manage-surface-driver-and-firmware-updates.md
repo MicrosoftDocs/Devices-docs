@@ -2,18 +2,12 @@
 title: Manage and deploy Surface driver and firmware updates 
 description: This article provides links to downloadable packages containing driver and firmware updates for Surface devices and explains available management and deployment solutions.
 ms.assetid: CD1219BA-8EDE-4BC8-BEEF-99B50C211D73
-ms.reviewer: 
-manager: laurawi
-keywords: Surface, Surface Pro 8, Surface Go, Surface Laptop, Surface Studio, Surface Pro 3, firmware, update, device, manage, deploy, driver, USB
+manager: frankbu
 ms.localizationpriority: medium
-ms.prod: w10
-ms.mktglfcycl: manage
-ms.pagetype: surface, devices
-ms.sitesec: library
+ms.prod: surface
 author: coveminer
-ms.author: greglin
-ms.topic: article
-ms.audience: itpro
+ms.author: hachidan
+ms.topic: how-to
 ms.date: 11/03/2022
 appliesto:
 - Windows 10
