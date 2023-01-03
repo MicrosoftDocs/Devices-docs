@@ -56,7 +56,7 @@ During the reset process, if you see a blank screen for long periods of time, pl
    > [!div class="mx-imgBorder"]
    > ![Image that shows the Reset device option in Settings app for Surface Hub.](images/sh-settings-reset-device.png)
 
-   After the reset process finishes, the Surface Hub starts the [first run program](first-run-program-surface-hub.md) again. If the reset process encounters a problem, it rolls the Surface Hub back to the previously-existing operating system image and then displays the Welcome screen.
+   After the reset process finishes, the Surface Hub starts the [first run program](first-run-program-surface-hub.md) again. If the reset process encounters a problem, it rolls the Surface Hub back to the previously existing operating system image and then displays the Welcome screen.
 
 ## Recover a locked Surface Hub
 
