@@ -64,7 +64,7 @@ Successfully running SDT can quickly determine if a reported issue is caused by 
 
 ## Running multiple hardware tests to troubleshoot issues
 
-SDT is designed as an interactive tool that runs a series of tests. For each test, SDT provides instructions summarizing  the nature of the test and what users should expect or look for in order for the test to be successful. For example, to diagnose if the display brightness is working properly, SDT starts at zero and increases the brightness to 100 percent, asking users to confirm – by answering **Yes** or **No** -- that brightness is functioning as expected, as shown in figure 4.
+SDT is designed as an interactive tool that runs a series of tests. For each test, SDT provides instructions summarizing  the nature of the test and what users should expect or look for in order for the test to be successful. For example, to diagnose if the display brightness is working properly, SDT starts at zero and increases the brightness to 100 percent, asking users to confirm—by answering **Yes** or **No**—that brightness is functioning as expected, as shown in figure 4.
 
 For each test, if functionality does not work as expected and the user clicks **No**, SDT generates a report of the possible causes and ways to troubleshoot it.
 
