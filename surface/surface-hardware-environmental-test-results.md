@@ -1,17 +1,13 @@
 ---
 title: Surface hardware environmental test results
-description: This article lists results of Surface hardware rugged testing.
-ms.prod: w11
-ms.mktglfcycl: manage
-ms.localizationpriority: medium
-ms.sitesec: library
+description: This article lists results of Surface hardware rugged testing. The latest Surface devices – Surface Pro 9, Surface Pro 9 with 5G, Surface Studio 2, Surface Laptop 5, and Surface Laptop Go 2 – meet the current standard, MIL-STD-810H.  Earlier devices were tested under the previous standard, MIL-STD-810G.
+manager: frankbu
+ms.prod: surface-hub
 author: coveminer
-ms.author: greglin
-ms.topic: article
-ms.date: 11/19/2022
-ms.reviewer: hachidan
-manager: laurawi
-audience: itpro
+ms.author: hachidan
+ms.topic: overview
+ms.date: 01/03/2023
+ms.localizationpriority: medium
 appliesto:
 - Windows 10
 - Windows 11
@@ -27,13 +23,14 @@ The MIL-STD-810 test standards, maintained by the US Department of Defense, help
 
 ## MIL-STD-810 test results
 
-Operational tests pass if the unit remained operational during the entire test, and non-operational tests pass if a functional verification was performed immediately after the test exposure. Tests were conducted in accordance with the MIL-STD-810 standards effective at the time of product release (MIL-STD-810H for Surface Laptop Go 2 and MIL-STD-810G for earlier devices).
+Operational tests pass if the unit remained operational during the entire test, and non-operational tests pass if a functional verification was performed immediately after the test exposure. Tests were conducted in accordance with the MIL-STD-810 standards effective at the time of product release. The latest Surface devices – Surface Pro 9, Surface Pro 9 with 5G, Surface Studio 2, Surface Laptop 5, and Surface Laptop Go 2 – meet the current standard, MIL-STD-810H.  Earlier devices were tested under the previous standard, MIL-STD-810G.
+
 
 ## Surface Laptop family
 
 :::image type="content" source="images/surface-laptop-studio.png" alt-text="Surface Laptop Studio" :::
 
-| Test                                      | Surface Laptop Studio | Surface Laptop 4 13” AMD | Surface Laptop 4 13” Intel | Surface Laptop 4 15” AMD | Surface Laptop SE | Surface Laptop Go 2* | Surface Laptop Go | Surface Laptop 4 15” Intel |
+| Test                                      | Surface Laptop Studio | Surface Laptop 4 13” AMD | Surface Laptop 4 13” Intel | Surface Laptop 4 15” AMD | Surface Laptop SE | Surface Laptop Go 2  | Surface Laptop Go | Surface Laptop 4 15” Intel |
 | ----------------------------------------- | --------------------- | ------------------------ | -------------------------- | ------------------------ | ----------------- | -------------------- | ----------------- | -------------------------- |
 | **Bench Handling**                        | Pass                  | Pass                     | Pass                       | Pass                     | Pass              | Pass                 | Pass              | Pass                       |
 | **Blowing Dust**                          | Pass                  | Pass                     | Pass                       | Pass                     | Pass              | Pass                 | Pass              | Pass                       |
@@ -55,7 +52,6 @@ Operational tests pass if the unit remained operational during the entire test, 
 | **Vibration Ground Vehicle**              | Pass                  | Pass                     | Pass                       | Pass                     | Pass              | Pass                 | Pass              | Pass                       |
 | **Vibration Minimum Integrity**           | Pass                  | Pass                     | Pass                       | Pass                     | Pass              | Pass                 | Pass              | Pass                       |
 
-* Surface Laptop Go 2 results from MIL-STD-810H test.
 
 ## Surface Pro family
 
