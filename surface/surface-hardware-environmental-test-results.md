@@ -23,14 +23,43 @@ The MIL-STD-810 test standards, maintained by the US Department of Defense, help
 
 ## MIL-STD-810 test results
 
-Operational tests pass if the unit remained operational during the entire test, and non-operational tests pass if a functional verification was performed immediately after the test exposure. Tests were conducted in accordance with the MIL-STD-810 standards effective at the time of product release. The latest Surface devices – Surface Pro 9, Surface Pro 9 with 5G, Surface Studio 2, Surface Laptop 5, and Surface Laptop Go 2 – meet the current standard, MIL-STD-810H.  Earlier devices were tested under the previous standard, MIL-STD-810G.
+Operational tests pass if the unit remained operational during the entire test, and non-operational tests pass if a functional verification was performed immediately after the test exposure. Tests were conducted in accordance with the MIL-STD-810 standards effective at the time of product release. The latest Surface devices – Surface Pro 9, Surface Pro 9 with 5G, Surface Laptop 5, and Surface Laptop Go 2 – meet the current standard, MIL-STD-810H.  Earlier devices were tested under the previous standard, MIL-STD-810G.
+
+## Latest devices 
+
+:::image type="content" source="images/surface-pro-9-and-surface-laptop-5.png" alt-text="Surface Pro 9 and Surface Laptop 5" :::
 
 
-## Surface Laptop family
+| Test                       | Surface Pro 9 | Surface Pro 9 with 5G | Surface Laptop 5 |
+| -------------------------- | ------------- | --------------------- | ---------------- |
+| Altitude Operating         | Pass          | Pass                  | Pass             |
+| Altitude Storage           | Pass          | Pass                  | Pass             |
+| Bench Handling Shock       | Pass          | Pass                  | Pass             |
+| Blowing Dust               | Pass          | Pass                  | Pass             |
+| Blowing Sand               | Pass          | Pass                  | Pass             |
+| Crash Safety Shock         | Pass          | Pass                  | Pass             |
+| Explosive Atmosphere       | Pass          | Pass                  | Pass             |
+| Freeze/Thaw                | Pass          | Pass                  | Pass             |
+| Functional Shock           | Pass          | Pass                  | Pass             |
+| High Temperature Operating | Pass          | Pass                  | Pass             |
+| High Temperature Storage   | Pass          | Pass                  | Pass             |
+| Humidity                   | Pass          | Pass                  | Pass             |
+| Low Temperature Operating  | Pass          | Pass                  | Pass             |
+| Low Temperature Storage    | Pass          | Pass                  | Pass             |
+| Temperature Shock          | Pass          | Pass                  | Pass             |
+| Transit Drop               | Pass          | Pass                  | Pass             |
+| Vibration (Category 24)    | Pass          | Pass                  | Pass             |
+| Vibration (Category 4)     | Pass          | Pass                  | Pass             |
+
+
+## Earlier devices
+
+
+### Surface Laptop family
 
 :::image type="content" source="images/surface-laptop-studio.png" alt-text="Surface Laptop Studio" :::
 
-| Test                                      | Surface Laptop Studio | Surface Laptop 4 13” AMD | Surface Laptop 4 13” Intel | Surface Laptop 4 15” AMD | Surface Laptop SE | Surface Laptop Go 2  | Surface Laptop Go | Surface Laptop 4 15” Intel |
+| Test                                      | Surface Laptop Studio | Surface Laptop 4 13” AMD | Surface Laptop 4 13” Intel | Surface Laptop 4 15” AMD | Surface Laptop SE | Surface Laptop Go 2<sup> 1</sup> | Surface Laptop Go | Surface Laptop 4 15” Intel |
 | ----------------------------------------- | --------------------- | ------------------------ | -------------------------- | ------------------------ | ----------------- | -------------------- | ----------------- | -------------------------- |
 | **Bench Handling**                        | Pass                  | Pass                     | Pass                       | Pass                     | Pass              | Pass                 | Pass              | Pass                       |
 | **Blowing Dust**                          | Pass                  | Pass                     | Pass                       | Pass                     | Pass              | Pass                 | Pass              | Pass                       |
@@ -53,7 +82,7 @@ Operational tests pass if the unit remained operational during the entire test, 
 | **Vibration Minimum Integrity**           | Pass                  | Pass                     | Pass                       | Pass                     | Pass              | Pass                 | Pass              | Pass                       |
 
 
-## Surface Pro family
+### Surface Pro family
 
 :::image type="content" source="images/surface-pro.png" alt-text="Surface Pro" :::
 
@@ -80,7 +109,7 @@ Operational tests pass if the unit remained operational during the entire test, 
 | **Vibration Ground Vehicle**              | Pass              | Pass          | Pass           |
 | **Vibration Minimum Integrity**           | Pass              | Pass          | Pass           |
 
-## Surface Book family
+### Surface Book family
 
 :::image type="content" source="images/surface-book-3.png" alt-text="Surface Book 3" :::
 
@@ -106,7 +135,7 @@ Operational tests pass if the unit remained operational during the entire test, 
 | **Vibration Ground Vehicle**              | Pass           | Pass           |
 | **Vibration Minimum Integrity**           | Pass           | Pass           |
 
-## Surface Go family
+### Surface Go family
 
 :::image type="content" source="images/surface-go-3.png" alt-text="Surface Go 3" :::
 
@@ -134,7 +163,7 @@ Operational tests pass if the unit remained operational during the entire test, 
 | **Vibration Minimum Integrity**           | Pass         | Pass         | Pass               |
 
 
-## Surface Duo
+### Surface Duo
 
 :::image type="content" source="images/surface-duo-2.png" alt-text="Surface Duo 2" :::
 
@@ -162,3 +191,7 @@ Operational tests pass if the unit remained operational during the entire test, 
 
 > [!NOTE]
 > Lab tests simulate but don't duplicate real-world environmental stresses. A device that passes lab tests may not withstand real-world field conditions. 
+
+### References
+
+1. MIL-STD-810H results shown for Surface Laptop Go 2. MIL-STD-810G results shown for earlier devices.
