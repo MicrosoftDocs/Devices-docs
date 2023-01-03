@@ -92,6 +92,7 @@ For a list of supported post codes, see "Next business day coverage" where appli
 #### Canada
 
 - Cutoff Time: 14:00 CST (UTC-6)
+- [Next business day coverage](https://download.microsoft.com/download/6/1/6/6164e843-83dd-4628-a6eb-0c66cdc7eb90/NBD%20Coverage-CA%20Post%20Codes%2012142022.xlsx)
 
 #### Croatia
 
@@ -257,3 +258,4 @@ For a list of supported post codes, see "Next business day coverage" where appli
 #### United States
 
 - Cutoff Time: 14:00 CST (UTC-6)
+- [Next day business coverage](https://download.microsoft.com/download/b/5/e/b5ec09b5-25d3-48c1-8a51-570fe4b0d82f/NBD%20Coverage-US%20Post%20Codes%2012042022.xlsx)
