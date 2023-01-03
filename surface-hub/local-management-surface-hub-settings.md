@@ -46,7 +46,7 @@ Surface Hubs have many settings that are common to other Windows devices, but al
 | Friendly name | Surface Hub > About | Set the Surface Hub name that people will see when connecting wirelessly. |
 | Maintenance hours | Update & security > Windows Update > Advanced options | Configure when updates can be installed. |
 | Recover from the cloud | Update & security > Recovery | Reinstall the operating system on Surface Hub to a manufacturer build from the cloud. |
-| Save BitLocker key | Update & security > Recovery | Backup your Surface Hub's BitLocker key to a USB drive. |
+| Save BitLocker key | Update & security > Recovery | Back up your Surface Hub's BitLocker key to a USB drive. |
 | Collect logs | Update & security > Logs | Save logs to a USB drive to send to Microsoft later. | 
 | Event viewer | Update & security > Logs | Launch Windows Event Viewer to see events that have happened on the Surface Hub. | 
 
