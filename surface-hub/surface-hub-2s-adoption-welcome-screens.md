@@ -11,7 +11,7 @@ ms.localizationpriority: medium
 appliesto:
 - Surface Hub 2S
 ---
-# Customize Surface Hub Welcome screen
+# Surface Hub 2S adoption welcome screens
 
 Surface Hub adoption welcome screens are designed to help Surface Hub users get started quickly. This page provides a sample welcome screen and links to downloadable files that you can use to customize your own welcome screen.
 
