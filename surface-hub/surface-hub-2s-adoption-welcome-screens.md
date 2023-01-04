@@ -21,10 +21,18 @@ Surface Hub adoption welcome screens are designed to help Surface Hub users get 
 
 [Download full size file](downloads/surface-hub-85-adoption-welcome-screen.png)
 
-## Customize welcome screens
+## Customize welcome screen
 
 Build your own adoption Welcome Screen by overlaying the following downloadable files with your [background of choice](https://wallpaperhub.app/wallpapers/7820):
 
 - [Download Surface Hub 2S 50” overlay](downloads/surface-hub-overlay-50-resized.png)
 - [Download Surface Hub 2S 85” overlay](downloads/surface-hub-overlay-85-resized.png)
 - [Browse official Surface Hub backgrounds](https://wallpaperhub.app/wallpapers/7820)
+
+## Upload welcome screen
+
+1. Save your adoption welcome screen image to Surface Hub 2S. Use a USB flash drive or save the image to a cloud service that you can access from Surface Hub. 
+2. Sign into Surface Hub 2S with an Admin account.
+3. Open **Settings** > **Welcome Screen**.
+4. Under **Background for welcome screen**, choose **Photo 2** and select **Browse** to locate your welcome screen image.
+5. Your new welcome screen appears under **Preview**.
