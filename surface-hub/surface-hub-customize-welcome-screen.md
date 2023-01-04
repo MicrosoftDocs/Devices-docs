@@ -19,12 +19,12 @@ Surface Hub adoption welcome screens are designed to help Surface Hub users get 
 
 :::image type="content" source="images/surface-hub-85-adoption-welcome-screen-sample.png" alt-text="Screenshot of Surface Hub 2S 85” sample welcome screen." :::
 
-[Download full size file](/downloads/surface-hub-85-adoption-welcome-screen.png)
+[Download full size file](downloads/surface-hub-85-adoption-welcome-screen.png)
 
 ## Customize welcome screens
 
 Build your own adoption Welcome Screen by overlaying the following downloadable files with your [background of choice](https://wallpaperhub.app/wallpapers/7820):
 
-- [Download Surface Hub 2S 50” overlay](/downloads/surface-hub-overlay-50-resized.png)
-- [Download Surface Hub 2S 85” overlay](/downloads/surface-hub-overlay-85-resized.png)
+- [Download Surface Hub 2S 50” overlay](downloads/surface-hub-overlay-50-resized.png)
+- [Download Surface Hub 2S 85” overlay](downloads/surface-hub-overlay-85-resized.png)
 - [Browse official Surface Hub backgrounds](https://wallpaperhub.app/wallpapers/7820)
