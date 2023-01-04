@@ -1,0 +1,30 @@
+---
+title: Customize Surface Hub Welcome screen
+description: Provides overlay files to create a customized welcome screen for Surface Hub 2S
+manager: frankbu
+ms.prod: surface-hub
+author: coveminer
+ms.author: hachidan
+ms.topic: how-to
+ms.date: 12/30/2022
+ms.localizationpriority: medium
+appliesto:
+- Surface Hub 2S
+---
+# Customize Surface Hub Welcome screen
+
+Surface Hub adoption welcome screens are designed to help Surface Hub users get started quickly. This page provides a sample welcome screen and links to downloadable files that you can use to customize your own welcome screen.
+
+## Surface Hub 2S 85” sample welcome screen
+
+:::image type="content" source="images/surface-hub-85-adoption-welcome-screen-sample.png" alt-text="Screenshot of Surface Hub 2S 85” sample welcome screen." :::
+
+[Download full size file](/downloads/surface-hub-85-adoption-welcome-screen.png)
+
+## Customize welcome screens
+
+Build your own adoption Welcome Screen by overlaying the following downloadable files with your [background of choice](https://wallpaperhub.app/wallpapers/7820):
+
+- [Download Surface Hub 2S 50” overlay](/downloads/surface-hub-overlay-50-resized.png)
+- [Download Surface Hub 2S 85” overlay](/downloads/surface-hub-overlay-85-resized.png)
+- [Browse official Surface Hub backgrounds](https://wallpaperhub.app/wallpapers/7820)
