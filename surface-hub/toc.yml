@@ -208,6 +208,13 @@
               href: setup-worksheet-surface-hub.md
             - name: First-run program
               href: first-run-program-surface-hub.md
+        - name: Hybrid deployment
+          href: hybrid-deployment-surface-hub-device-accounts.md
+          items:
+           - name: Deploy Microsoft Teams Rooms with Exchange Online (Hybrid)
+             href: /microsoftteams/rooms/with-exchange-online
+           - name: Deploy Microsoft Teams Rooms with Exchange on premises (Hybrid)
+             href: /microsoftteams/rooms/with-exchange-on-premise       
     - name: Manage
       items: 
         - name: Manage Microsoft Surface Hub
