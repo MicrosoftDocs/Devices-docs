@@ -1,5 +1,5 @@
 ---
-title: Customize Surface Hub Welcome screen
+title: Surface Hub 2S adoption welcome screens
 description: Provides overlay files to create a customized welcome screen for Surface Hub 2S
 manager: frankbu
 ms.prod: surface-hub
