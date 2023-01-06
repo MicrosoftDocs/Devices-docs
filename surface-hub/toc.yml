@@ -90,10 +90,8 @@
              href: troubleshoot-teams-sign-in-surface-hub.md               
            - name: Teams certified accessories for Surface Hub 2S
              href: surface-hub-2s-certifications.md
-           - name: Deploy Microsoft Teams Rooms with Exchange Online (Hybrid)
+           - name: Create and configure resource accounts for rooms and shared Teams devices
              href: /microsoftteams/rooms/with-exchange-online
-           - name: Deploy Microsoft Teams Rooms with Exchange on premises (Hybrid)
-             href: /microsoftteams/rooms/with-exchange-on-premise   
     - name: Manage
       expanded: true
       items: 
@@ -216,11 +214,6 @@
               href: first-run-program-surface-hub.md
         - name: Hybrid deployment
           href: hybrid-deployment-surface-hub-device-accounts.md
-          items:
-           - name: Deploy Microsoft Teams Rooms with Exchange Online (Hybrid)
-             href: /microsoftteams/rooms/with-exchange-online
-           - name: Deploy Microsoft Teams Rooms with Exchange on premises (Hybrid)
-             href: /microsoftteams/rooms/with-exchange-on-premise       
     - name: Manage
       items: 
         - name: Manage Microsoft Surface Hub
