@@ -15,7 +15,7 @@ appliesto:
 
 Surface Hub adoption welcome screens are designed to help Surface Hub users get started quickly. This page provides downloadable full-size adoption welcome screens you can use for Surface Hub 2S 85" and Surface Hub 2S 50" devices.
 
-- Download the appropriate file below and [upload it](#upload-welcome-screen) to Surface Hub. 
+- Download the appropriate file-size file from the following sections and [upload it](#upload-welcome-screen) to Surface Hub. 
 - Or [customize your own welcome screen](#customize-welcome-screen) using the background of your choice.
 
 ## Surface Hub 2S 85” welcome screen
