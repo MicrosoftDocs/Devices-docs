@@ -13,7 +13,7 @@ appliesto:
 ---
 # Surface Hub 2S adoption welcome screens
 
-Surface Hub adoption welcome screens are designed to help Surface Hub users get started quickly with call-outs for common tasks and a QR code for quick access to adoption resources. This page provides downloadable adoption welcome screens optimized for Surface Hub 2S 50" or Surface Hub 2S 85" devices.
+Surface Hub adoption welcome screens are designed to help Surface Hub users get started quickly with call-outs for everyday tasks and a QR code for quick access to adoption resources. This page provides downloadable adoption welcome screens optimized for Surface Hub 2S 50" or Surface Hub 2S 85" devices.
 
 - Download the appropriate file from the following sections and [upload the welcome screen](#upload-welcome-screen) to Surface Hub. 
 - Or [customize your own welcome screen](#customize-welcome-screen) using the background of your choice.
@@ -48,7 +48,7 @@ To customize your own adoption welcome screen:
 ## Upload welcome screen
 
 1. If using a USB flash drive, plug it into an available port on Surface Hub.
-2. Sign into Surface Hub 2S with an Admin account.
+2. Sign in to Surface Hub 2S with an Admin account.
 3. Open **Settings** > **Welcome Screen**.
-4. Under **Background for welcome screen**, choose **Photo 2** and select **Browse** to locate your welcome screen image from your USB flash drive or cloud service.
+4. Under **Background for welcome screen**, choose **Photo 2** and **Browse** to locate your welcome screen image from your USB flash drive or cloud service.
 5. Your new welcome screen appears under **Preview**.
