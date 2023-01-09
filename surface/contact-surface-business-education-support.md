@@ -1,5 +1,5 @@
 ---
-title: Contact Surface Support
+title: Contact Surface Support for Business and Education customers
 ms.author: hachidan
 author: coveminer
 manager: frankbu
