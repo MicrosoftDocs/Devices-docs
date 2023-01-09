@@ -54,3 +54,7 @@ Whether you're a small or large business, a Surface Hub adoption plan is critica
 - [Whiteboard tools](downloads/QRCWhiteboardTools.pdf)
 
 [Download all quick reference cards](https://download.microsoft.com/download/E/7/F/E7FC6611-BB55-43E1-AF36-7BD5CE6E0FE0/SurfaceHub2S-EndUserGuides-July2019.zip)
+
+## Surface Hub adoption welcome screens
+
+- [Download or customize adoption welcome screens](surface-hub-2s-adoption-welcome-screens.md)
