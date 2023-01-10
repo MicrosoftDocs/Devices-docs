@@ -7,7 +7,7 @@ manager: frankbu
 ms.prod: surface-hub
 author: coveminer
 ms.author: hachidan
-ms.topic: troubleshoot
+ms.topic: troubleshooting
 ms.date: 03/10/2021
 ms.localizationpriority: medium
 appliesto:
