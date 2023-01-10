@@ -29,23 +29,23 @@ By default, when Surface Hub is joined to AAD, only an account designated as a G
 - Is the password expired? Try resetting the password.
 - Is Surface Hub connected to the internet?
 - Is Surface Hub behind a proxy or firewall that blocks access to AAD?
-- Did you or another admin configure [non-Global admin policy](surface-hub-2s-nonglobal-admin.md) for Surface Hub? If yes, see the following section.
+- Did you or another admin configure [non-Global Admin policy](surface-hub-2s-nonglobal-admin.md) for Surface Hub? If yes, see the following section.
 
-### Troubleshoot non-Global admin policy
+### Troubleshoot non-Global Admin policy
 
-When joined to AAD and auto-enrolled in Intune, you can configure non-Global admin policy to allow other accounts to access Setting on Surface Hub. If non-Global admin policy is enabled and users cannot access Settings, check the following issues:
+When joined to AAD and auto-enrolled in Intune, you can configure non-Global Admin policy to allow other accounts to access Setting on Surface Hub. If non-Global Admin policy is enabled and users cannot access Settings, check the following issues:
 
 #### Policy succeeds: Still no access to Settings
 
-If Intune shows the non-Global admin policy setting is successfully applied to Surface Hub:
+If Intune shows the non-Global Admin policy setting is successfully applied to Surface Hub:
 
 - Is the account attempting to log in a member of the security group designated for this policy?
 - Is the Surface Hub connected to the internet?
-- If a GA account is being used, is it a member of the security group configured on the Surface Hub? GA accounts must also be added to this security group. Otherwise, if non-Global admin policy is applied to Surface Hub, the GA can no longer access Settings.
+- If a GA account is being used, is it a member of the security group configured on the Surface Hub? GA accounts must also be added to this security group. Otherwise, if non-Global Admin policy is applied to Surface Hub, the GA can no longer access Settings.
 
 #### Policy fails: Intune error
 
-If Intune shows the non-Global admin policy setting fails to reach Surface Hub:
+If Intune shows the non-Global Admin policy setting fails to reach Surface Hub:
 
 - Is the security group for the accounts created in the cloud?
 - Is the correct [Azure AD group SID (security identifiers)](/surface-hub/surface-hub-2s-nonglobal-admin#obtain-azure-ad-group-sid-using-powershell) used in the XML?

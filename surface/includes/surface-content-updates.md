@@ -62,7 +62,7 @@
 | 1/3/2023 | [Customize wall mount of Surface Hub 2S 50-inch](/surface-hub/surface-hub-2s-custom-install) | modified |
 | 1/3/2023 | [Install and mount Surface Hub 2S 50-inch](/surface-hub/surface-hub-2s-install-mount) | modified |
 | 1/3/2023 | [Migrate tonon-Global0/11 Pro or Enterprise on Surface Hub 2](/surface-hub/surface-hub-2s-migrate-os) | modified |
-| 1/3/2023 | [Configure non Global admin accounts on Surface Hub](/surface-hub/surface-hub-2s-nonglobal-admin) | modified |
+| 1/3/2023 | [Configure non Global Admin accounts on Surface Hub](/surface-hub/surface-hub-2s-nonglobal-admin) | modified |
 | 1/3/2023 | [Adjust Surface Hub 2S brightness, volume, and input](/surface-hub/surface-hub-2s-onscreen-display) | modified |
 | 1/3/2023 | [How to pack and ship your Surface Hub 2S for service](/surface-hub/surface-hub-2s-pack-components) | modified |
 | 1/3/2023 | [Update pen firmware on Surface Hub 2S](/surface-hub/surface-hub-2s-pen-firmware) | modified |
@@ -255,7 +255,7 @@
 | 1/3/2023 | [Customize wall mount of Surface Hub 2S 50-inch](/surface-hub/surface-hub-2s-custom-install) | modified |
 | 1/3/2023 | [Install and mount Surface Hub 2S 50-inch](/surface-hub/surface-hub-2s-install-mount) | modified |
 | 1/3/2023 | [Migrate tonon-Global0/11 Pro or Enterprise on Surface Hub 2](/surface-hub/surface-hub-2s-migrate-os) | modified |
-| 1/3/2023 | [Configure non Global admin accounts on Surface Hub](/surface-hub/surface-hub-2s-nonglobal-admin) | modified |
+| 1/3/2023 | [Configure non Global Admin accounts on Surface Hub](/surface-hub/surface-hub-2s-nonglobal-admin) | modified |
 | 1/3/2023 | [Adjust Surface Hub 2S brightness, volume, and input](/surface-hub/surface-hub-2s-onscreen-display) | modified |
 | 1/3/2023 | [How to pack and ship your Surface Hub 2S for service](/surface-hub/surface-hub-2s-pack-components) | modified |
 | 1/3/2023 | [Update pen firmware on Surface Hub 2S](/surface-hub/surface-hub-2s-pen-firmware) | modified |
