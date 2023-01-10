@@ -41,7 +41,7 @@ If Intune shows the non-Global admin policy setting is successfully applied to S
 
 - Is the account attempting to log in a member of the security group designated for this policy?
 - Is the Surface Hub connected to the internet?
-- If a GA account is being used, is it a member of the security group configured on the Surface Hub? **GA accounts must also be added to this security group. Otherwise, if non-Global admin policy is applied to Surface Hub, the GA can no longer access Settings.
+- If a GA account is being used, is it a member of the security group configured on the Surface Hub? GA accounts must also be added to this security group. Otherwise, if non-Global admin policy is applied to Surface Hub, the GA can no longer access Settings.
 
 #### Policy fails: Intune error
 
