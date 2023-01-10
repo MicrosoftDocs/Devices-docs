@@ -1,20 +1,20 @@
 ---
-title: Reset and recovery for Surface Hub
-description: Describes the reset and recovery processes for the Surface Hub, and provides instructions.
+title: Reset and recovery for Surface Hub (v1)
+description: Shows how to reset and recover the original Surface Hub v1.
 ms.assetid: 44E82EEE-1905-464B-A758-C2A1463909FF
 ms.reviewer: 
 manager: frankbu
 ms.prod: surface-hub
 author: coveminer
 ms.author: hachidan
-ms.topic: how-to
+ms.topic: troubleshoot
 ms.date: 03/10/2021
 ms.localizationpriority: medium
+appliesto:
+- Surface Hub
 ---
 
-# Reset and recovery for Surface Hub
-
-This article describes how to reset a Microsoft Surface Hub.  
+# Reset and recovery for Surface Hub (v1)
 
 [Resetting the Surface Hub](#reset-a-surface-hub) returns its operating system to the last cumulative Windows update, and removes all local user files and configuration information. The information that is removed includes the following:
 
