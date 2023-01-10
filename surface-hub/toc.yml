@@ -78,6 +78,8 @@
             href: surface-hub-2-post-install.md
           - name: Essential add-ons for Windows 10/11 Pro and Enterprise on Surface Hub 2
             href: surface-hub-2-essential-add-ons.md
+        - name: Hybrid deployment
+          href: hybrid-deployment-surface-hub-device-accounts.md        
         - name: Microsoft Teams 
           items: 
            - name: Microsoft Teams Rooms on Surface Hub
@@ -90,6 +92,8 @@
              href: troubleshoot-teams-sign-in-surface-hub.md               
            - name: Teams certified accessories for Surface Hub 2S
              href: surface-hub-2s-certifications.md
+           - name: Create and configure resource accounts for rooms and shared Teams devices
+             href: /microsoftteams/rooms/with-exchange-online
     - name: Manage
       expanded: true
       items: 
@@ -210,6 +214,8 @@
               href: setup-worksheet-surface-hub.md
             - name: First-run program
               href: first-run-program-surface-hub.md
+        - name: Hybrid deployment
+          href: hybrid-deployment-surface-hub-device-accounts.md
     - name: Manage
       items: 
         - name: Manage Microsoft Surface Hub
