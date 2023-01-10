@@ -103,7 +103,7 @@
           href: surface-hub-2022-update.md
         - name: Known issues - Windows 10 Team
           href: windows-10-team-known-issues.md
-        - name: Configure non Global admin accounts on Surface Hub
+        - name: Configure non-Global Admin accounts on Surface Hub
           href: surface-hub-2s-nonglobal-admin.md
         - name: Install apps on your Microsoft Surface Hub
           href: install-apps-on-surface-hub.md        
@@ -157,6 +157,8 @@
           href: troubleshoot-teams-sign-in-surface-hub.md  
         - name: Troubleshoot Surface Hub 2 pen
           href: troubleshoot-surface-hub-2-pen.md
+        - name: Troubleshoot access to Settings app on Surface Hub
+          href: troubleshoot-access-to-settings-app-surface-hub.md
         - name: Troubleshoot Miracast on Surface Hub
           href: miracast-troubleshooting.md
         - name: Surface Hub Miracast channels 149-165 not supported in Europe, Japan, Israel
@@ -229,7 +231,7 @@
           items: 
             - name: Manage settings with an MDM provider
               href: manage-settings-with-mdm-for-surface-hub.md
-            - name: Configure non Global admin accounts on Surface Hub
+            - name: Configure non-Global Admin accounts on Surface Hub
               href: surface-hub-2s-nonglobal-admin.md         
             - name: Monitor your Surface Hub
               href: monitor-surface-hub.md
@@ -304,6 +306,8 @@
           href: troubleshoot-surface-hub.md
         - name: "Known issues: Windows 10 Team"
           href: windows-10-team-known-issues.md
+        - name: Troubleshoot access to Settings app on Surface Hub
+          href: troubleshoot-access-to-settings-app-surface-hub.md
         - name: How to use cloud recovery for BitLocker on a Surface Hub
           href: use-cloud-recovery-for-bitlocker-on-surfacehub.md
         - name: Use the Surface Hub Hardware Diagnostic Tool to test a device account

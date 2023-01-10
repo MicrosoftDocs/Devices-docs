@@ -5,9 +5,11 @@ ms.prod: surface-hub
 author: coveminer
 ms.author: hachidan
 manager: frankbu
-ms.topic: how-to
+ms.topic: troubleshooting
 ms.date: 11/09/2022
 ms.localizationpriority: Medium
+appliesto:
+- Surface Hub 2S
 ---
 
 # Reset and recovery for Surface Hub 2S
