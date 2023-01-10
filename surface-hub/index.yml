@@ -44,6 +44,27 @@ landingContent:
             url: surface-hub-2s-migrate-os.md
 
 
+# Card (optional)
+  - title: Troubleshoot
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - url: surface-hub-2s-recover-reset.md
+            text: Recover & reset Surface Hub 2S
+          - url:  device-reset-surface-hub.md
+            text: Recover Surface Hub v1 from the cloud
+          - url: collect-surface-hub-log-files.md
+            text: Collect Surface Hub log files
+          - url: troubleshoot-teams-sign-in-surface-hub.md
+            text: Troubleshoot Teams sign-in issues on Surface Hub  
+          - url: troubleshoot-power-surface-hub-2s.md
+            text: Troubleshoot Surface Hub 2S Power Issues  
+          - url: troubleshoot-access-to-settings-app-surface-hub.md
+            text: Troubleshoot access to Settings app on Surface Hub 
+          - url: troubleshoot-surface-hub-2-pen.md
+            text: Troubleshoot Surface Hub 2 pen   
+          - text: Surface Hub Update History  
+            url: surface-hub-update-history.md
   # Card (optional)
   - title: Get started
     linkLists:
@@ -149,24 +170,6 @@ landingContent:
           - url: /surface/surface-driver-firmware-lifecycle-support#surface-hub-driver-and-firmware-support-lifecycle
             text: Surface Hub driver and firmware support lifecycle 
 
-
-# Card (optional)
-  - title: Troubleshoot
-    linkLists:
-      - linkListType: learn
-        links:
-          - url: surface-hub-2s-recover-reset.md
-            text: Recover & reset Surface Hub 2S
-          - url:  device-reset-surface-hub.md
-            text: Recover Surface Hub v1 from the cloud
-          - url: collect-surface-hub-log-files.md
-            text: Collect Surface Hub log files
-          - url: troubleshoot-teams-sign-in-surface-hub.md
-            text: Troubleshoot Teams sign-in issues on Surface Hub  
-          - url: troubleshoot-power-surface-hub-2s.md
-            text: Troubleshoot Surface Hub 2S Power Issues    
-          - text: Surface Hub Update History  
-            url: surface-hub-update-history.md
 
   # Card (optional)
   - title: Community
