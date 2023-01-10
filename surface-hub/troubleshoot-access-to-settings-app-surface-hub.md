@@ -35,7 +35,7 @@ By default, when Surface Hub is joined to AAD, only an account designated as a G
 
 When joined to AAD and auto-enrolled in Intune, you can configure non-Global admin policy to allow other accounts to access Setting on Surface Hub. If non-Global admin policy is enabled and users cannot access Settings, check the following issues:
 
-#### Policy succeeds: No access
+#### Policy succeeds: Still no access to Settings
 
 If Intune shows the non-Global admin policy setting is successfully applied to Surface Hub:
 
