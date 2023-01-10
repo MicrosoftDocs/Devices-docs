@@ -21,9 +21,6 @@ Full access to the Settings app on Surface Hub depends on how you [initially aff
 - [On-premises AD (Active Directory)](#on-premises-ad)
 - [Local account administrator](#local-admin---no-device-affiliation)
 
-> [!TIP]
-> If you have an admin account that can access Settings, you can verify device affiliation in Settings > Surface Hub > Accounts.
-
 ## Azure Active Directory (AAD)
 
 By default, when Surface Hub is joined to AAD, only an account designated as a Global Administrator (GA) in your Azure tenant can access Settings. If unable to access Settings, check the following:
