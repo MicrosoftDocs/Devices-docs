@@ -11,7 +11,7 @@ ms.localizationpriority: medium
 ---
 # Troubleshoot access to Settings app on Surface Hub
 
-To open the Settings app on Surface Hub, select **All apps** > **Settings**. Note that Ease of Access settings are available to anyone using Surface Hub. For all other settings, select **View as Admin** and login with an Admin account. If you're unable to access settings after attempting to login with your Admin account, review the troubleshooting guidance on this page, beginning with Device affiliation. 
+To open the Settings app on Surface Hub, select **All apps** > **Settings**. Note that Ease of Access settings are available to anyone using Surface Hub. For all other settings, select **View as Admin** and log in with an Admin account. If you're unable to access settings after attempting to log in with your Admin account, review the troubleshooting guidance on this page, beginning with Device affiliation. 
 
 ## Device affiliation
 
