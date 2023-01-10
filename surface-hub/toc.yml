@@ -103,7 +103,7 @@
           href: surface-hub-2022-update.md
         - name: Known issues - Windows 10 Team
           href: windows-10-team-known-issues.md
-        - name: Configure non Global admin accounts on Surface Hub
+        - name: Configure non-Global admin accounts on Surface Hub
           href: surface-hub-2s-nonglobal-admin.md
         - name: Install apps on your Microsoft Surface Hub
           href: install-apps-on-surface-hub.md        
@@ -231,7 +231,7 @@
           items: 
             - name: Manage settings with an MDM provider
               href: manage-settings-with-mdm-for-surface-hub.md
-            - name: Configure non Global admin accounts on Surface Hub
+            - name: Configure non-Global admin accounts on Surface Hub
               href: surface-hub-2s-nonglobal-admin.md         
             - name: Monitor your Surface Hub
               href: monitor-surface-hub.md

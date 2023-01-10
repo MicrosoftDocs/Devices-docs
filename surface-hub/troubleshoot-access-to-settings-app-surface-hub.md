@@ -42,7 +42,7 @@ If Intune shows that the policy setting is successfully applied to the Surface H
 
 #### Troubleshoot policy errors
 
-If the policy shows an error in Intune, consider the following:
+If the non-global admin policy shows an error in Intune, consider the following:
 
 - Is the security group for the accounts created in the cloud?
 - Is the correct [Azure AD group SID (security identifiers)](/surface-hub/surface-hub-2s-nonglobal-admin#obtain-azure-ad-group-sid-using-powershell) used in the XML?

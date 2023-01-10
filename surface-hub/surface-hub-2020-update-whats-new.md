@@ -45,7 +45,7 @@ To learn more, see [Adjust Ease of Access settings on Surface Hub](accessibility
   - [TimeLanguageSettings-CSP](/windows/client-management/mdm/policy-csp-timelanguagesettings)
   - [LocalUsersAndGroups-CSP](/windows/client-management/mdm/policy-csp-localusersandgroups) 
 
-To learn more, see [Configure non Global admin accounts on Surface Hub](surface-hub-2s-nonglobal-admin.md).
+To learn more, see [Configure non-Global admin accounts on Surface Hub](surface-hub-2s-nonglobal-admin.md).
 
 ## Windows 10 Team 2020 Update 1
 
@@ -83,7 +83,7 @@ To learn more, see:
 
 - **Single sign-on (SSO) for Azure AD joined devices**. When users sign in with their Microsoft 365 credentials to **My meetings and files**, their credentials flow seamlessly from app to app – including Microsoft 365 experiences in the browser.
 - **Conditional access (CA) for Azure AD joined devices**. IT admins can control user access to organizational resources from Azure AD joined Surface Hubs by assigning device policies per their corporate security and compliance requirements.
-- **Support for non Global admins for Azure AD joined devices**. Customers can choose a more granular set of admins within their admin hierarchy to manage Surface Hub. To learn more, see [Configure non Global admin accounts on Surface Hub](surface-hub-2s-nonglobal-admin.md).
+- **Support for non-Global admins for Azure AD joined devices**. Customers can choose a more granular set of admins within their admin hierarchy to manage Surface Hub. To learn more, see [Configure non-Global admin accounts on Surface Hub](surface-hub-2s-nonglobal-admin.md).
 
 ### Inking improvements
 

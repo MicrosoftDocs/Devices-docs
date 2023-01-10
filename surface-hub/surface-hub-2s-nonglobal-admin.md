@@ -1,6 +1,6 @@
 ---
-title: "Configure non Global admin accounts on Surface Hub"
-description: "This article describes how to configure non Global admin accounts to manage Surface Hub and Surface Hub 2S."
+title: "Configure non-Global admin accounts on Surface Hub"
+description: "This article describes how to configure non-Global admin accounts to manage Surface Hub and Surface Hub 2S."
 ms.prod: surface-hub
 author: coveminer
 ms.author: hachidan
@@ -13,18 +13,18 @@ appliesto:
 - Surface Hub 2S
 ---
 
-# Configure non Global admin accounts on Surface Hub
+# Configure non-Global admin accounts on Surface Hub
 
-The Windows 10 Team 2020 Update adds support for configuring non Global admin accounts that limit permissions to management of the Settings app on Surface Hub devices joined to an Azure AD domain. This enables you to scope admin permissions for Surface Hub only and prevent potentially unwanted admin access across an entire Azure AD domain. 
+The Windows 10 Team 2020 Update adds support for configuring non-Global admin accounts that limit permissions to management of the Settings app on Surface Hub devices joined to an Azure AD domain. This enables you to scope admin permissions for Surface Hub only and prevent potentially unwanted admin access across an entire Azure AD domain. 
 
 Windows 10 Team 2020 Update 2 adds support for [LocalUsersAndGroups CSP](/windows/client-management/mdm/policy-csp-localusersandgroups). That is now the recommended CSP to use; [RestrictedGroups CSP](/windows/client-management/mdm/policy-csp-restrictedgroups) is still supported, but has been deprecated.
 
 > [!NOTE]
-> Before you begin, make sure your Surface Hub is Azure AD-joined and Intune auto-enrolled. If not, you will need to [reset the Surface Hub](surface-hub-2s-recover-reset.md) and complete the [first-time, out-of-the-box (OOBE) setup](first-run-program-surface-hub.md) again, choosing the option to join Azure AD. Only accounts that [authenticate via Azure AD](/azure/active-directory/hybrid/choose-ad-authn#cloud-authentication) are supported with the non Global admin policy configuration.
+> Before you begin, make sure your Surface Hub is Azure AD-joined and Intune auto-enrolled. If not, you will need to [reset the Surface Hub](surface-hub-2s-recover-reset.md) and complete the [first-time, out-of-the-box (OOBE) setup](first-run-program-surface-hub.md) again, choosing the option to join Azure AD. Only accounts that [authenticate via Azure AD](/azure/active-directory/hybrid/choose-ad-authn#cloud-authentication) are supported with the non-Global admin policy configuration.
 
 ## Summary
 
-The process of creating non Global admin accounts involves the following steps:
+The process of creating non-Global admin accounts involves the following steps:
 
 1. In Microsoft Intune, create a Security group containing the admins designated to manage Surface Hub.
 2. Obtain Azure AD Group SID using PowerShell.
@@ -43,7 +43,7 @@ First, create a security group containing the admin accounts. Then create anothe
 
      ![Create security group for Hub admins.](images/sh-create-sec-group.png)
 
-3. Open the group, select **Members**, and choose **Add members** to enter the Administrator accounts you wish to designate as non Global admins on Surface Hub. To learn more about creating groups in Intune, see  [Add groups to organize users and devices](/mem/intune/fundamentals/groups-add).
+3. Open the group, select **Members**, and choose **Add members** to enter the Administrator accounts you wish to designate as non-Global admins on Surface Hub. To learn more about creating groups in Intune, see  [Add groups to organize users and devices](/mem/intune/fundamentals/groups-add).
 
 ### Create security group for Surface Hub devices
 
