@@ -23,26 +23,29 @@ Full access to the Settings app on Surface Hub depends on how you [initially aff
 
 ## Azure Active Directory (AAD)
 
-By default, when Surface Hub is joined to AAD, only an account designated as a Global Administrator (GA) in your Azure tenant can access Settings. If unable to access Settings, check the following:
+By default, when Surface Hub is joined to AAD, only an account designated as a Global Administrator (GA) in your Azure tenant can access Settings. If unable to access Settings, check the following issues:
 
 - Is the account a Global Admin account?
 - Is the password expired? Try resetting the password.
 - Is Surface Hub connected to the internet?
 - Is Surface Hub behind a proxy or firewall that blocks access to AAD?
-- Did you or another admin configure [non-global admin policy](surface-hub-2s-nonglobal-admin.md) for Surface Hub? If yes, see the following section.
+- Did you or another admin configure [non-Global admin policy](surface-hub-2s-nonglobal-admin.md) for Surface Hub? If yes, see the following section.
 
-### Non-global admin policy
+### Troubleshoot non-Global admin policy
 
-When joined to AAD and auto-enrolled in Intune, you can configure non-global admin policy to allow other accounts to access Setting on Surface Hub. If non-global admin policy is enabled and users cannot access Settings, check the following:
-If Intune shows that the policy setting is successfully applied to the Surface Hub that you’re troubleshooting:
+When joined to AAD and auto-enrolled in Intune, you can configure non-Global admin policy to allow other accounts to access Setting on Surface Hub. If non-Global admin policy is enabled and users cannot access Settings, check the following issues:
+
+#### Policy succeeds: No access
+
+If Intune shows the non-Global admin policy setting is successfully applied to Surface Hub:
 
 - Is the account attempting to log in a member of the security group designated for this policy?
 - Is the Surface Hub connected to the internet?
-- If a GA account is being used, is it a member of the security group configured on the Surface Hub? **GA accounts must also be added to this security group. Otherwise, if non-global admin policy is applied to Surface Hub, the GA can no longer access Settings.
+- If a GA account is being used, is it a member of the security group configured on the Surface Hub? **GA accounts must also be added to this security group. Otherwise, if non-Global admin policy is applied to Surface Hub, the GA can no longer access Settings.
 
-#### Troubleshoot policy errors
+#### Policy fails: Intune error
 
-If the non-global admin policy shows an error in Intune, consider the following:
+If Intune shows the non-Global admin policy setting fails to reach Surface Hub:
 
 - Is the security group for the accounts created in the cloud?
 - Is the correct [Azure AD group SID (security identifiers)](/surface-hub/surface-hub-2s-nonglobal-admin#obtain-azure-ad-group-sid-using-powershell) used in the XML?
@@ -53,7 +56,7 @@ To learn more, see [Troubleshoot policies and configuration profiles in Microsof
 
 ## On-premises AD
 
-If the Surface Hub is domain joined and connected to on-prem AD, a security group in AD is specified during first-run setup to allow group members to sign into Settings. This designated group can be seen on Surface Hub within Settings > Surface Hub > Accounts. If an error message is received stating “this requires elevation” when attempting to log into Settings, check the following:
+If the Surface Hub is domain joined and connected to on-prem AD, a security group in AD is specified during first-run setup to allow group members to sign into Settings. This designated group can be seen on Surface Hub within Settings > Surface Hub > Accounts. If an error message is received stating “this requires elevation” when attempting to log into Settings, check the following issues:
 
 - Ensure the account being used is a member of the security group designated during OOBE.
 - Ensure the account is enabled and the password has not expired.
