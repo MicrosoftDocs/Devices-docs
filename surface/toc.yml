@@ -191,7 +191,7 @@
           href: considerations-for-surface-and-system-center-configuration-manager.md
       - name: ARM devices
         items:          
-        - name: Deploying, managing, & servicing Surface Pro X
+        - name: Deploy, manage, and service ARM-based Surface devices
           href: surface-pro-arm-app-management.md
         - name: ARM-based Surface devices FAQ
           href: surface-arm-faq.md
