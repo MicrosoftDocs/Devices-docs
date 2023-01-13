@@ -130,7 +130,7 @@
             href: surface-diagnostic-toolkit-command-line.md
         - name: Surface Data Eraser
           href: microsoft-surface-data-eraser.md
-        - name: Battery Limit setting
+        - name: Surface Battery Limit setting
           href: battery-limit.md
         - name: Surface Brightness Control
           href: microsoft-surface-brightness-control.md
