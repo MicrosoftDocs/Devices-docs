@@ -129,6 +129,8 @@
           href: accessibility-surface-hub.md  
         - name: Enroll Surface Hub in Windows Insider program
           href: enroll-surface-hub-in-windows-insider-program.md
+        - name: Check Surface Hub warranty status
+          href: check-surface-hub-warranty.md
     - name: Secure
       expanded: true
       items: 
