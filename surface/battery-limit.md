@@ -1,27 +1,20 @@
 ---
-title: Battery Limit setting (Surface)
-description: Battery Limit is a UEFI setting that changes how the Surface device battery is charged and may prolong its longevity.
+title: Surface Battery Limit setting 
+description: Enable Battery Limit on Surface devices that are always powered on such as in kiosk scenarios. Battery Limit is a UEFI setting that changes how the Surface device battery is charged and may prolong its longevity.
 ms.prod: surface
 author: coveminer
 ms.author: hachidan
 ms.topic: how-to
 ms.localizationpriority: medium
 manager: frankbu
-ms.date: 1/15/2021
+ms.date: 01/13/2023
 ---
 
-# Battery Limit setting
+# Surface Battery Limit setting
 
-Battery Limit option is a UEFI setting that changes how the Surface device battery is charged and may prolong its longevity. This setting is recommended for devices continuously connected to power, for example when devices are integrated into kiosk solutions.  
+The Battery Limit option is a Surface UEFI setting that changes how the Surface device battery is charged and may prolong its longevity. This firmware setting (similar to BIOS) is recommended for devices intended to be always connected to power. Examples include devices configured for point of sale, RFID, and related kiosk scenarios. The Battery Limit UEFI setting is built into Surface devices by default including:
 
-## How Battery Limit works
-
-Setting the device on Battery Limit changes the protocol for charging the device battery. When Battery Limit is enabled, the battery charge will be limited to 50% of its maximum capacity. The charge level reported in Windows will reflect this limit. Therefore, it will show that the battery is charged up to 50% and won't charge beyond  this limit. If you enable Battery Limit while the device is above 50% charge, the Battery icon shows the device is plugged in but discharging until the device reaches 50% of its maximum charge capacity.  
-
-## Supported devices
-
-The Battery Limit UEFI setting is built into Surface devices by default including:
-
+- Surface Go and later
 - Surface Pro 7 and later
 - Surface Laptop 3 and later
 - Surface Book 3
@@ -29,46 +22,41 @@ The Battery Limit UEFI setting is built into Surface devices by default includin
 - Surface Laptop Go
 - Surface Laptop Go 2
 - Surface Laptop SE
-- Surface Go and later
 
- Earlier devices require a
- [Surface UEFI firmware update](manage-surface-driver-and-firmware-updates.md), available through Windows Update or via the MSI driver and firmware packages on the [Surface Support site](https://support.microsoft.com/help/4023482/surface-download-drivers-and-firmware-for-surface). Check [Enable "Battery Limit" for Surface devices that have to be plugged in for extended periods of time](https://support.microsoft.com/help/4464941) for the specific Surface UEFI version required for each supported device.
+## How it works
 
-## Enabling Battery Limit in Surface UEFI (Surface Pro 4 and later)
+When you enable the Battery Limit setting, the battery stops charging when it reaches 50% of maximum charge capacity. If you enable Battery Limit when your device is more than 50% charged, the battery won't resume charging until it drops below 50% of maximum charge.
 
-The Surface UEFI Battery Limit setting can be configured by booting into Surface UEFI (**Power + Vol Up** when turning on the device). Choose **boot configuration**, and then, under **Advanced Options**, toggle **Enable Battery Limit Mode** to **On**.  
+Enable Battery Limit via one of the following methods:
 
-![Battery Limit Advanced options.](images/enable-bl.png)
+- [Modify Surface UEFI on an individual device](#modify-surface-uefi-on-an-individual-device)
+- [Create a Surface UEFI configuration package for remote deployment to multiple devices](#create-a-surface-uefi-configuration-package-for-remote-deployment-to-multiple-devices)
 
-## Enabling battery limit on Surface Go (all generations)
+## Modify Surface UEFI on an individual device
 
-The Surface Battery Limit setting can be configured by booting into Surface UEFI (**Power + Vol Up** when turning on the device). Choose **boot configuration**, and then, under **Kiosk Mode**, move the slider to the right to set Battery Limit to **Enabled**.  
+1. Boot into Surface UEFI: Press **Power + Vol Up** when turning on the device.
+2. Choose **Boot configuration** > **Advanced Options**, and toggle **Enable Battery Limit** to **On**.  
+:::image type="content" source="images/enable-bl.png" alt-text="Screenshot of Battery Limit Advanced options." :::
 
-![Kiosk Mode Battery Limit in Surface Go.](images/go-batterylimit.png)
+> [!TIP]
+> On Surface Go (all generations): Choose **Boot configuration** > **Kiosk Mode**, and move the slider to the right to set Battery Limit to **Enabled**.  
 
-## Enabling Battery Limit in Surface UEFI (Surface Pro 3)
+## Create a Surface UEFI configuration package for remote deployment to multiple devices
 
-The Surface UEFI Battery Limit setting can be configured by booting into Surface UEFI (**Power + Vol Up** when turning on the device). Choose **Kiosk Mode**, select **Battery Limit**, and then choose **Enabled**.
+If you're an advanced IT admin, you can use [Surface UEFI Configurator](enroll-and-configure-surface-devices-with-semm.md) to modify Surface UEFI and remotely deploy it to multiple devices via [Surface Enterprise Management Mode (SEMM)](surface-enterprise-management-mode.md). Alternatively, you can use Surface UEFI Manager PowerShell scripts (SEMM_Powershell.zip) available from [Surface Tools for IT](https://www.microsoft.com/download/details.aspx?id=46703).
 
-![Screenshot of Advanced options.](images/enable-bl-sp3.png)
+> [!NOTE]
+> To use SEMM, most eligible devices must be commercial SKUs, branded as "Surface for Business." For a complete list of compatible devices, see [Supported devices](/surface/surface-enterprise-management-mode#supported-devices).
 
-![Advanced options.](images/enable-bl-sp3-2.png)
+### Use Microsoft Surface UEFI Configurator
 
-## Enabling Battery Limit using Surface Enterprise Management Mode (SEMM) or Surface Pro 3 firmware PowerShell scripts
+1. Open [UEFI Configurator](enroll-and-configure-surface-devices-with-semm.md).
+2. On the **Advanced Settings** configuration page, toggle the **Kiosk Overrides** setting to **On**.
+3. Toggle **Battery Limit** to **On**.
 
-The Surface UEFI battery limit is also available for configuration via the following methods:
+:::image type="content" source="images/semm-bl.png" alt-text="Screenshot of advanced settings showing option to enable Battery Limit." :::
 
-- Surface Pro 4 and later
-  - [Microsoft Surface UEFI Configurator](surface-enterprise-management-mode.md)  
-    - Surface UEFI Manager PowerShell scripts (SEMM_Powershell.zip) in the [Surface Tools for IT downloads](https://www.microsoft.com/download/details.aspx?id=46703)
-
-### Using Microsoft Surface UEFI Configurator
-
-To configure Battery Limit mode, set the **Kiosk Overrides** setting on the **Advanced Settings** configuration page in SEMM (Surface Pro 4 and later).
-
-![Screenshot of advanced settings.](images/semm-bl.png)
-
-### Using Surface UEFI Manager PowerShell scripts
+### Use Surface UEFI Manager PowerShell scripts
 
 The battery limit feature is controlled via the following setting:  
 
@@ -79,3 +67,8 @@ The battery limit feature is controlled via the following setting:
 **Default**:  `0`
 
 Configure setting to `1` to enable Battery Limit.
+
+## Learn more
+
+- [Enroll and configure Surface devices with SEMM](enroll-and-configure-surface-devices-with-semm.md)
+- [Best practice power settings for Surface devices](maintain-optimal-power-settings-on-Surface-devices.md)
