@@ -110,6 +110,7 @@
         - name: Deploy Surface app with Microsoft Store for Business
           href: deploy-surface-app-with-windows-store-for-business.md
       - name: Surface tools
+        expanded: true
         items:   
         - name: Surface Enterprise Management Mode (SEMM)
           href: surface-enterprise-management-mode.md
@@ -129,7 +130,7 @@
             href: surface-diagnostic-toolkit-command-line.md
         - name: Surface Data Eraser
           href: microsoft-surface-data-eraser.md
-        - name: Battery Limit setting
+        - name: Surface Battery Limit setting
           href: battery-limit.md
         - name: Surface Brightness Control
           href: microsoft-surface-brightness-control.md
@@ -191,7 +192,7 @@
           href: considerations-for-surface-and-system-center-configuration-manager.md
       - name: ARM devices
         items:          
-        - name: Deploying, managing, & servicing Surface Pro X
+        - name: Deploy, manage, and service ARM-based Surface devices
           href: surface-pro-arm-app-management.md
         - name: ARM-based Surface devices FAQ
           href: surface-arm-faq.md
