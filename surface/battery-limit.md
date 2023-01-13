@@ -45,6 +45,9 @@ Enable Battery Limit via one of the following methods:
 
 If you're an advanced IT admin, you can use [Surface UEFI Configurator](enroll-and-configure-surface-devices-with-semm.md) to modify Surface UEFI and remotely deploy it to multiple devices via [Surface Enterprise Management Mode (SEMM)](surface-enterprise-management-mode.md). Alternatively, you can use Surface UEFI Manager PowerShell scripts (SEMM_Powershell.zip) available from [Surface Tools for IT](https://www.microsoft.com/download/details.aspx?id=46703).
 
+> [!NOTE]
+> To use SEMM, most eligible devices must be commercial SKUs, branded as "Surface for Business." For a complete list of compatible devices, see [Supported devices](/surface/surface-enterprise-management-mode#supported-devices).
+
 ### Use Microsoft Surface UEFI Configurator
 
 1. Open [UEFI Configurator](enroll-and-configure-surface-devices-with-semm.md).
