@@ -12,7 +12,7 @@ ms.date: 01/13/2023
 
 # Surface Battery Limit setting
 
-The Battery Limit option is a Surface UEFI (BIOS) setting that changes how the Surface device battery is charged and may prolong its longevity. This setting is recommended for devices continuously connected to power, such as kiosk scenarios. The Battery Limit UEFI setting is built into Surface devices by default including:
+The Battery Limit option is a Surface UEFI setting that changes how the Surface device battery is charged and may prolong its longevity. This firmware setting (similar to BIOS) is recommended for devices intended to be always connected to power. Examples include devices configured for point of sale, RFID, and related kiosk scenarios. The Battery Limit UEFI setting is built into Surface devices by default including:
 
 - Surface Go and later
 - Surface Pro 7 and later
