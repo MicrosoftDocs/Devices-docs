@@ -30,7 +30,7 @@ When you enable the Battery Limit setting, the battery charge is limited to 50% 
 Enable Battery Limit via one of the following methods:
 
 - [Modify Surface UEFI on an individual device](#modify-surface-uefi-on-an-individual-device)
-- [Create a Surface UEFI configuration package for remote deployment to multiple devices](#battery-limit-setting)
+- [Create a Surface UEFI configuration package for remote deployment to multiple devices](#create-a-surface-uefi-configuration-package-for-remote-deployment-to-multiple-devices)
 
 ## Modify Surface UEFI on an individual device
 
