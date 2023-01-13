@@ -23,7 +23,7 @@ The Battery Limit option is a UEFI setting that changes how the Surface device b
 - Surface Laptop Go 2
 - Surface Laptop SE
 
-## How Battery Limit works
+## How it works
 
 When you enable the Battery Limit setting, the battery stops charging when it reaches 50% of maximum charge capacity. If you enable Battery Limit when your device is more than 50% charged, the battery won't resume charging until it drops below 50% of maximum charge.
 
