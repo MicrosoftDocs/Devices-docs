@@ -45,13 +45,14 @@ You can check the warranty status of Surface Hub devices directly from Surface H
 
 4. To filter for Surface Hub devices:
     - (A) Click **Add filter**
-    - (B) From the drop-down menu, select device model, and then select **Apply**.
+    - (B) From the drop-down menu, select device model.
     - (C) Select **Apply**
 
     :::image type="content" source="images/hub-warranty-fig5.png" alt-text="Screenshot of filter for Surface Hub devices." :::
 
 5. After the filter is applied:
     - (A) Click device model: All
-    - (B) From the drop-down menu, select the Surface Hub model, and then select **Apply**.
+    - (B) From the drop-down menu, select Surface Hub model.
+    - (C) Select **Apply**
 
     :::image type="content" source="images/hub-warranty-fig6.png" alt-text="Screenshot of filter for Surface Hub model." :::
