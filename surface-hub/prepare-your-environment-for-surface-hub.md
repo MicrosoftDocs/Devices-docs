@@ -73,3 +73,7 @@ To learn more about managing Surface Hub with Azure AD, see:
 ### Review and complete Surface Hub setup worksheet (optional)
 
 When you go through the first-run program for your Surface Hub, there's some information that you'll need to supply. The setup worksheet summarizes that info, and provides lists of environment-specific info that you'll need when you go through the first-run program. For more information, see [Setup worksheet](setup-worksheet-surface-hub.md).
+
+## Learn more
+
+- [Surface Hub and Microsoft Teams Rooms setup guide](https://go.microsoft.com/fwlink/?linkid=2221605)
