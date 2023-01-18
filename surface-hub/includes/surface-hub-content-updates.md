@@ -1,6 +1,17 @@
 <!-- This file is generated automatically each week. Changes made to this file will be overwritten.-->
+
 
 
+## Week of January 09, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 1/9/2023 | [Surface Hub 2S adoption welcome screens](/surface-hub/surface-hub-2s-adoption-welcome-screens) | added |
+| 1/10/2023 | [Troubleshoot access to Settings app on Surface Hub](/surface-hub/troubleshoot-access-to-settings-app-surface-hub) | added |
+| 1/10/2023 | [Reset and recovery for Surface Hub (v1)](/surface-hub/device-reset-surface-hub) | modified |
+| 1/10/2023 | [Configure non-Global Admin accounts on Surface Hub](/surface-hub/surface-hub-2s-nonglobal-admin) | modified |
+| 1/10/2023 | [Surface Hub documentation # < 60 chars](/surface-hub/index) | modified |
 
 
 ## Week of January 02, 2023
@@ -58,8 +69,8 @@
 | 1/3/2023 | [Connect devices to Surface Hub 2S](/surface-hub/surface-hub-2s-connect) | modified |
 | 1/3/2023 | [Customize wall mount of Surface Hub 2S 50-inch](/surface-hub/surface-hub-2s-custom-install) | modified |
 | 1/3/2023 | [Install and mount Surface Hub 2S 50-inch](/surface-hub/surface-hub-2s-install-mount) | modified |
-| 1/3/2023 | [Migrate tonon-Global0/11 Pro or Enterprise on Surface Hub 2](/surface-hub/surface-hub-2s-migrate-os) | modified |
-| 1/3/2023 | [Configure non Global Admin accounts on Surface Hub](/surface-hub/surface-hub-2s-nonglobal-admin) | modified |
+| 1/3/2023 | [Migrate to Windows 10/11 Pro or Enterprise on Surface Hub 2](/surface-hub/surface-hub-2s-migrate-os) | modified |
+| 1/3/2023 | [Configure non Global admin accounts on Surface Hub](/surface-hub/surface-hub-2s-nonglobal-admin) | modified |
 | 1/3/2023 | [Adjust Surface Hub 2S brightness, volume, and input](/surface-hub/surface-hub-2s-onscreen-display) | modified |
 | 1/3/2023 | [How to pack and ship your Surface Hub 2S for service](/surface-hub/surface-hub-2s-pack-components) | modified |
 | 1/3/2023 | [Update pen firmware on Surface Hub 2S](/surface-hub/surface-hub-2s-pen-firmware) | modified |
