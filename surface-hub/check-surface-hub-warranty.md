@@ -6,7 +6,7 @@ ms.prod: surface-hub
 author: coveminer
 ms.author: hachidan
 ms.topic: how-to
-ms.date: 01/13/2023
+ms.date: 01/18/2023
 ms.localizationpriority: medium
 ---
 # How to check Surface Hub warranty status
@@ -15,44 +15,30 @@ You can check the warranty status of Surface Hub devices directly from Surface H
 
 ## Check warranty status from Surface Hub
 
-1. Open the start menu on the Surface Hub.
-2. Go to All Apps.
-3. Open the **Surface** app.
-
-   :::image type="content" source="images/hub-warranty-fig1.png" alt-text="Screenshot of opening Surface app." :::
-
-4. Expand the **Warranty & Services** section. Warranty information is displayed.
+1. On Surface Hub, open the Start menu
+2. Select **All Apps** >  **Surface** app.
+3. Select **Warranty & Services** section. Warranty information is displayed.
 
 ## Check warranty status via Surface Support for Business Online Service Center
 
-1. Navigate to [Surface Support for Business Online Service Center](https://mybusinessservice.surface.com/en-US/CheckWarranty/CheckWarranty) website.
-2. Enter the device country/region and serial number, and the characters seen.
-3. Press **Submit**.
+1. Go to [Surface Support for Business Online Service Center](https://mybusinessservice.surface.com/en-US/CheckWarranty/CheckWarranty).
+2. Enter the Country/Region and Serial Number.
+3. Add the characters shown, and select **Submit**.
 
-    :::image type="content" source="images/hub-warranty-fig2.png" alt-text="Screenshot of Surface Support for Business Online Service Center." :::
+    :::image type="content" source="images/hub-warranty-support-for-business.png" alt-text="Screenshot of Surface Support for Business Online Service Center." :::
 
 ## Check warranty status in Surface Management Portal
 
-1. Login to the [Endpoint Manager](https://endpoint.microsoft.com/) administrator dashboard.
-2. Choose:
-    - (A) All Services from the left menu
-    - (B) Surface Management Portal
+1. Sign in to the [Endpoint Manager](https://endpoint.microsoft.com/) administrator dashboard.
+2. Select **All Services** > **Surface Management Portal**. This takes you to the main page of the Surface Management Portal that displays information for all your Surface devices. 
 
-    :::image type="content" source="images/hub-warranty-fig3.png" alt-text="Screenshot of Surface Management Portal." :::
+    :::image type="content" source="images/hub-warranty-surface-management-portal.png" alt-text="Screenshot of Surface Management Portal." :::
 
-3. This takes you to the main page of the Surface Management Portal that displays information for all your Surface devices. From here, select **View report** under Warranty and coverage.
-:::image type="content" source="images/hub-warranty-fig4.png" alt-text="Screenshot of Select view report under Warranty and coverage." :::
+3. Under Warranty and coverage, select **View report** .
+:::image type="content" source="images/hub-warranty-surface-management-portal-view-report.png" alt-text="Screenshot of Select view report under Warranty and coverage." :::
 
-4. To filter for Surface Hub devices:
-    - (A) Click **Add filter**
-    - (B) From the drop-down menu, select device model.
-    - (C) Select **Apply**
+4. To filter for Surface Hub devices, select **Add filter**. From the drop-down menu, select **Device model** >  **Apply**
 
-    :::image type="content" source="images/hub-warranty-fig5.png" alt-text="Screenshot of filter for Surface Hub devices." :::
+5. After the filter is applied, select **Device model: All**. From the drop-down menu, choose your Surface Hub model and then select **Apply**.
 
-5. After the filter is applied:
-    - (A) Click device model: All
-    - (B) From the drop-down menu, select Surface Hub model.
-    - (C) Select **Apply**
-
-    :::image type="content" source="images/hub-warranty-fig6.png" alt-text="Screenshot of filter for Surface Hub model." :::
+    :::image type="content" source="images/hub-warranty-apply-device-model.png" alt-text="Screenshot of filter for Surface Hub model." :::
