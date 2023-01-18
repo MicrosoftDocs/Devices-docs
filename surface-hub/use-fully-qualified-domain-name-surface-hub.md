@@ -1,10 +1,10 @@
 ---
-title: Use fully qualified domain name with Surface Hub
-description: Troubleshoot common problems, including setup issues, Exchange ActiveSync errors.
+title: Configure domain name for Skype for Business
+description: Describes scenarios where you need to specify the domain name of your Skype for Business server on Surface Hub
 author: coveminer
 ms.author: hachidan
 ms.topic: how-to
-ms.date: 07/27/2017
+ms.date: 01/18/2023
 ms.reviewer: 
 manager: frankbu
 ms.localizationpriority: medium
