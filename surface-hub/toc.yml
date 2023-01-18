@@ -50,9 +50,9 @@
       expanded: true
       items: 
         - name: Surface Hub and Microsoft Teams Rooms automated setup guide (requires M365 authentication)
-          https://go.microsoft.com/fwlink/?linkid=2221605
+          href: https://go.microsoft.com/fwlink/?linkid=2221605
         - name: Surface Hub and Microsoft Teams Rooms setup guide 
-          https://go.microsoft.com/fwlink/?linkid=2222648
+          href: https://go.microsoft.com/fwlink/?linkid=2222648
         - name: Surface Hub 2S adoption and training
           href: surface-hub-2s-adoption-kit.md
         - name: Surface Hub 2S adoption videos
