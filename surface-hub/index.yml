@@ -28,6 +28,8 @@ landingContent:
     linkLists:
       - linkListType: learn
         links:
+          - text: Surface Hub and Microsoft Teams Rooms setup guide
+            url: https://go.microsoft.com/fwlink/?linkid=2221605
           - text: Latest Surface Hub OS updates released 
             url: surface-hub-2020-update-whats-new.md 
           - text: Install Progressive Web Apps on Surface Hub
@@ -40,8 +42,7 @@ landingContent:
             url: /surface-hub/hub-teams-app
           - text: Modern authentication on Surface Hub                
             url: surface-hub-modern-auth.md
-          - text: Migrate to Windows 10 or Windows 11 Pro or Enterprise on Surface Hub 2
-            url: surface-hub-2s-migrate-os.md
+
 
 
 # Card (optional)
@@ -83,6 +84,20 @@ landingContent:
           - text: Enable Microsoft Whiteboard on Surface Hub
             url: https://support.office.com/article/Enable-Microsoft-Whiteboard-on-Surface-Hub-b5df4539-f735-42ff-b22a-0f5e21be7627
 
+    # Card (optional)
+  - title: Deploy
+    linkLists:
+      - linkListType: deploy
+        links:
+          - url: https://go.microsoft.com/fwlink/?linkid=2221605
+            text: Surface Hub and Microsoft Teams Rooms setup guide
+          - url: /microsoftteams/rooms/coordinated-meetings
+            text: Set up Coordinated Meetings with Microsoft Teams Rooms and Surface Hub 
+          - url: surface-hub-2s-adoption-kit.md
+            text: Surface Hub 2S adoption and training
+          - url: create-and-test-a-device-account-surface-hub.md
+            text: Create and test a device account
+
   # Card
   - title: See Surface Hub in action
     linkLists:
@@ -104,17 +119,6 @@ landingContent:
             url: https://www.youtube.com/watch?v=u4pLDQCQoYc  
     
 
-  # Card (optional)
-  - title: Deploy
-    linkLists:
-      - linkListType: deploy
-        links:
-          - url: /microsoftteams/rooms/coordinated-meetings
-            text: Set up Coordinated Meetings with Microsoft Teams Rooms and Surface Hub 
-          - url: surface-hub-2s-adoption-kit.md
-            text: Surface Hub 2S adoption and training
-          - url: create-and-test-a-device-account-surface-hub.md
-            text: Create and test a device account
 
   # Card (optional)
   - title: Manage
