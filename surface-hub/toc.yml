@@ -250,7 +250,7 @@
               href: accessibility-surface-hub.md
             - name: Change the Surface Hub device account
               href: change-surface-hub-device-account.md
-            - name: Use fully qualified domain name with Surface Hub
+            - name: Configure domain name for Skype for Business
               href: use-fully-qualified-domain-name-surface-hub.md
             - name: Wireless network management
               href: wireless-network-management-for-surface-hub.md
