@@ -22,8 +22,7 @@ You can check the warranty status of Surface Hub devices directly from Surface H
 ## Check warranty status via Surface Support for Business Online Service Center
 
 1. Go to [Surface Support for Business Online Service Center](https://mybusinessservice.surface.com/en-US/CheckWarranty/CheckWarranty).
-2. Enter the Country/Region and Serial Number.
-3. Add the characters shown, and select **Submit**.
+2. Enter the Country/Region and Serial Number. Add the characters shown, and select **Submit**.
 
     :::image type="content" source="images/hub-warranty-support-for-business.png" alt-text="Screenshot of Surface Support for Business Online Service Center." :::
 
@@ -37,8 +36,8 @@ You can check the warranty status of Surface Hub devices directly from Surface H
 3. Under Warranty and coverage, select **View report** .
 :::image type="content" source="images/hub-warranty-surface-management-portal-view-report.png" alt-text="Screenshot of Select view report under Warranty and coverage." :::
 
-4. To filter for Surface Hub devices, select **Add filter**. From the drop-down menu, select **Device model** >  **Apply**
+4. To filter for Surface Hub devices, select **Add filter**. From the dropdown menu, select **Device model** >  **Apply**.
 
-5. After the filter is applied, select **Device model: All**. From the drop-down menu, choose your Surface Hub model and then select **Apply**.
+5. After the filter is applied, select **Device model: All**. From the dropdown menu, choose your Surface Hub model and then select **Apply**.
 
     :::image type="content" source="images/hub-warranty-apply-device-model.png" alt-text="Screenshot of filter for Surface Hub model." :::
