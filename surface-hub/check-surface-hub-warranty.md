@@ -1,6 +1,6 @@
 ---
-title: How to check Surface Hub warranty status
-description: You can check the warranty status of Surface Hub devices directly from Surface Hub or from the cloud. 
+title: Check Surface Hub warranty status
+description: Describes how to check the warranty status of Surface Hub devices directly from Surface Hub or from the cloud. 
 manager: frankbu
 ms.prod: surface-hub
 author: coveminer
@@ -9,7 +9,7 @@ ms.topic: how-to
 ms.date: 01/18/2023
 ms.localizationpriority: medium
 ---
-# How to check Surface Hub warranty status
+# Check Surface Hub warranty status
 
 You can check the warranty status of Surface Hub devices directly from Surface Hub or from the cloud.
 
