@@ -17,7 +17,7 @@ ms.localizationpriority: medium
 When you first start Surface Hub, the device automatically enters first time Setup mode to guide you through account configuration and related settings.
 
 > [!TIP]
-> Prior to first time setup, we recommend reviewing the [Surface Hub and Microsoft Teams Rooms setup guide](https://go.microsoft.com/fwlink/?linkid=2221605). Get the most out of your Surface Hub and Microsoft Teams Rooms devices with Microsoft 365. This guide will customize your experience based on your environment. If you're hosted in Exchange Online and using Microsoft Teams, the guide will automatically create your device account with the correct settings.
+> As a companion to this article, we recommend using the [Surface Hub and Microsoft Teams Rooms setup guide](https://go.microsoft.com/fwlink/?linkid=2221605) when signed in to the Microsoft 365 Admin Center. This guide will customize your experience based on your environment. If you're hosted in Exchange Online and using Microsoft Teams, the guide will automatically create your device account with the correct settings. To review the guide content without signing in and activating automated setup features, go to the [M365 Setup portal](https://go.microsoft.com/fwlink/?linkid=2222648). 
 
 > [!NOTE]
 > You can automate the entire setup process with a [Provisioning package](#use-provisioning-packages) to ensure a consistent experience across multiple Surface Hubs.
