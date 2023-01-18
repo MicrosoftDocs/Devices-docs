@@ -20,6 +20,9 @@ Once the device account is provisioned on a Surface Hub, people can add this acc
 
 You can configure the device account during the [Out-of-Box Experience (OOBE) setup](first-run-program-surface-hub.md). If needed, you can also change it later in **Settings** > **Surface Hub** > **Accounts**.
 
+> [!TIP]
+> As a companion to this article, we recommend reviewing the [Surface Hub and Microsoft Teams Rooms setup guide](https://go.microsoft.com/fwlink/?linkid=2221605). Get the most out of your Surface Hub and Microsoft Teams Rooms devices with Microsoft 365. This guide will customize your experience based on your environment. If you're hosted in Exchange Online and using Microsoft Teams, the guide will automatically create your device account with the correct settings.
+
 ## Configuration overview
 
 This table explains the main steps and configuration decisions when you create a device account.
@@ -48,3 +51,7 @@ Device account setup steps can differ based on environment. Select your deployme
 | [On-premises deployment (multiple forests)](/skypeforbusiness/deploy/deploy-clients/multiple-forest-on-premises-deployments) | Your organization has servers that it controls, where Active Directory, Exchange, and Skype for Business Server are hosted in a multi-forest environment. | ACCOUNTFOREST\username |
 
 For online deployments, there is also a [deployment wizard available for Microsoft 365 admins](https://admin.microsoft.com/Adminportal/Home#/modernonboarding/surfacehubsetupguide) directly in the M365 admin center. This wizard can help create new device accounts, or validate existing resource accounts you have in order to help turn them into compatible Surface Hub device accounts.
+
+## Learn more
+
+- [Surface Hub and Microsoft Teams Rooms setup guide](https://go.microsoft.com/fwlink/?linkid=2221605)
