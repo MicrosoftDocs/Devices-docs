@@ -21,8 +21,7 @@ A device account is an account that the Microsoft Teams Rooms client uses to acc
 ## Check network availability
 
 > [!TIP]
-> We strongly recommend using the practices for network configuration listed at
-[Microsoft 365 network connectivity principles](https://aka.ms/pnc)
+> As a companion to this article, we recommend reviewing the [Surface Hub and Microsoft Teams Rooms setup guide](https://go.microsoft.com/fwlink/?linkid=2221605). Get the most out of your Surface Hub and Microsoft Teams Rooms devices with Microsoft 365. This guide will customize your experience based on your environment. If you're hosted in Exchange Online and using Microsoft Teams, the guide will automatically create your device account with the correct settings.
 
 Teams Rooms on Surface Hub must have access to a network that meets these requirements:
 
@@ -60,4 +59,6 @@ To configure QoS for Surface Hub using Microsoft Intune:
 
 ## Learn more
 
+- [Surface Hub and Microsoft Teams Rooms setup guide](https://go.microsoft.com/fwlink/?linkid=2221605)
+- [Microsoft 365 network connectivity principles](https://aka.ms/pnc)
 - [Implement Quality of Service (QoS) in Microsoft Teams](/microsoftteams/qos-in-teams)
