@@ -11,7 +11,7 @@ ms.localizationpriority: medium
 ---
 # Check Surface Hub warranty status
 
-You can check the warranty status of Surface Hub devices directly from Surface Hub or from the cloud, via the Surface Support for Business Online Service Center or the Microsoft Endpoint Manager Admin Center.
+You can check the warranty status directly from Surface Hub or from the cloud, via the Surface Support for Business Online Service Center or the Microsoft Endpoint Manager Admin Center.
 
 ## Check warranty status from Surface Hub
 
@@ -27,7 +27,7 @@ You can check the warranty status of Surface Hub devices directly from Surface H
 
 ## Check warranty status in Surface Management Portal
 
-1. Sign in to the [Microsoft Endpoint Manager Admin Center](https://endpoint.microsoft.com/).
+1. Sign in to the [Endpoint Manager Admin Center](https://endpoint.microsoft.com/).
 2. Select **All Services** > **Surface Management Portal**. This takes you to the main page of the Surface Management Portal that displays information for all your Surface devices. 
 
     :::image type="content" source="images/hub-warranty-surface-management-portal.png" alt-text="Screenshot of Surface Management Portal." :::
