@@ -26,7 +26,7 @@ Most Windows updates focus on performance and security improvements. In the list
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/5018682/windows-10-update-history), include:
 
 * Resolves an issue where meeting invitations did not show up immediately on the Welcome screen calendar in some environments without a reboot.
-* Resolves an issue where one-click meeting join from the Welcome screen calendar did not work in GCC High environments.
+* Resolves an issue where one-click meeting join from the Welcome screen calendar did not automatically join Teams meetings in GCC High environments.
  
 Please refer to the "[Install Windows 10 Team 2022 Update](/surface-hub/surface-hub-2022-update)" page for more information regarding update availability by region, distribution method, and device type.
 *[KB5019275](https://support.microsoft.com/help/5019275)
