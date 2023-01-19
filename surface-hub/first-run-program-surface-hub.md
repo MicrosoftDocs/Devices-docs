@@ -52,16 +52,16 @@ When you first start Surface Hub, the device automatically enters first time Set
 
     :::image type="content" source="images/hub-setup-device-account.png" alt-text="Enter Device account info.":::
 
-| Environment                                              | Required format for device account |
-| -------------------------------------------------------- | ---------------------------------- |
-| Device account is hosted only online                     | username@contoso.com               |
-| Device account is hosted only on-premises                | CONTOSO\user                       |
-| Device account is hosted online and on-premises (hybrid) | CONTOSO\user                       |
+  | Environment                                              | Required format for device account |
+  | -------------------------------------------------------- | ---------------------------------- |
+  | Device account is hosted only online                     | username@contoso.com               |
+  | Device account is hosted only on-premises                | CONTOSO\user                       |
+  | Device account is hosted online and on-premises (hybrid) | CONTOSO\user                       |
 
->[!NOTE]
->Although you can skip setting up a device account, the device will not be fully integrated into your infrastructure. If you skip setting it up now, you can add a device account later by using the Settings app.
+  > [!NOTE]
+  > Although you can skip setting up a device account, the device will not be fully integrated into your infrastructure. If you skip setting it up now, you can add a device account later by using the Settings app.
 
-8. **Enter your password** and select **Next.**
+8. **Enter your password** and select **Next**.
 
 9. Surface Hub automatically detects Exchange server and SIP address info from the domain entered in the previous step. Or if needed, provide your Exchange server address and select **Next**.
 
@@ -71,14 +71,14 @@ When you first start Surface Hub, the device automatically enters first time Set
 
     :::image type="content" source="images/hub-setup-name.png" alt-text="Name this device.":::
 
-- The **Friendly name** is visible on the bottom left corner of Surface Hub 2S and is shown when projecting to the device.
-- The **Device name** identifies the device when affiliated with Active Directory or Azure Active Directory, and when enrolling the device with Intune.
+   - The **Friendly name** is visible on the bottom left corner of Surface Hub 2S and is shown when projecting to the device.
+   - The **Device name** identifies the device when affiliated with Active Directory or Azure Active Directory, and when enrolling the device with Intune.
 
->[!IMPORTANT]
->If you plan to affliate the Surface Hub with Active Directory, the device name must meet the [standard requirements for computer names in AD](/troubleshoot/windows-server/identity/naming-conventions-for-computer-domain-site-ou#computer-names), otherwise setup will fail.
+   > [!IMPORTANT]
+   > If you plan to affliate the Surface Hub with Active Directory, the device name must meet the [standard requirements for computer names in AD](/troubleshoot/windows-server/identity/naming-conventions-for-computer-domain-site-ou#computer-names), otherwise setup will fail.
 
->[!TIP]
->If you want to enable [Miracast over Infrastructure](miracast-over-infrastructure.md), the device name needs to be discoverable via DNS. You can achieve this by either allowing your Surface Hub to register automatically via Dynamic DNS, or by manually creating an A or AAAA record for the Surface Hub's device name.
+   > [!TIP]
+   > If you want to enable [Miracast over Infrastructure](miracast-over-infrastructure.md), the device name needs to be discoverable via DNS. You can achieve this by either allowing your Surface Hub to register automatically via Dynamic DNS, or by manually creating an A or AAAA record for the Surface Hub's device name.
 
 ### Configure device admin accounts
 
@@ -102,22 +102,22 @@ You can only set up device admins during first time Setup. For more information,
 1. If you intend to manage Surface Hub from the cloud using Microsoft Intune or an MDM provider, select **Microsoft Azure Active Directory**.
 2. Select Next and sign in with a work or school account. If redirected, authenticate using your organization’s sign-in page and provide additional credentials if requested. Otherwise, enter your password and select **Next.**
 
-    :::image type="content" source="images/hub-setup-signin.png" alt-text="Sign in with work or school account.":::
+    :::image type="content" source="images/hub-setup-signin.png" alt-text="The screenshot shows the dialog to sign in with a work or school account.":::
 
->[!TIP]
->To configure who can use the Settings app to manage Surface Hubs, ensure that automatic Intune enrollment is enabled in your tenant before joining the device to Azure AD. Intune policies can then be used to [configure non-Global admins](surface-hub-2s-nonglobal-admin.md) on Surface Hubs.
+> [!TIP]
+> To configure who can use the Settings app to manage Surface Hubs, ensure that automatic Intune enrollment is enabled in your tenant before joining the device to Azure AD. Intune policies can then be used to [configure non-Global admins](surface-hub-2s-nonglobal-admin.md) on Surface Hubs.
 
 ### Local Administrator account
 
 - Enter a username and a memorable password for your local admin. (If you forget the local admin password you will need to [recover your device](surface-hub-2s-recover-reset.md) and repeat the setup process.)  
 
-    :::image type="content" source="images/hub-setup-local-admin.png" alt-text="Enter a memorable password for local admin account.":::
+    :::image type="content" source="images/hub-setup-local-admin.png" alt-text="This screenshot shows the field to enter a memorable password for local admin account.":::
 
 ### Choose privacy settings for your device
 
 - Select from the available privacy settings and select **Accept.**
 
-    :::image type="content" source="images/hub-setup-privacy.png" alt-text="Choose privacy settings.":::
+    :::image type="content" source="images/hub-setup-privacy.png" alt-text="This screenshot shows the dialog to choose privacy settings.":::
 
 ### Use provisioning packages
 
