@@ -24,7 +24,7 @@ Teams Rooms for Surface Hub automatically replaces the previous [Surface Hub Tea
 - If it is not already the default, Teams can be set as the default app for meetings and calls in **Settings** > **Surface Hub** > **Calling & audio**. To learn more about meeting modes and configuring them through MDM policy, see [Manage Surface Hub with an MDM provider](manage-settings-with-mdm-for-surface-hub.md#changing-default-app-for-meetings--calls).
 
 > [!TIP]
-> As a companion to this article, we recommend using the [Surface Hub and Microsoft Teams Rooms setup guide](https://go.microsoft.com/fwlink/?linkid=2221605) when signed in to the Microsoft 365 Admin Center. This guide will customize your experience based on your environment. If you're hosted in Exchange Online and using Microsoft Teams, the guide will automatically create your device account with the correct settings. To review the guide content without signing in and activating automated setup features, go to the [M365 Setup portal](https://go.microsoft.com/fwlink/?linkid=2222648). 
+> As a companion to this article, we recommend using the [Surface Hub and Microsoft Teams Rooms automated setup guide](https://go.microsoft.com/fwlink/?linkid=2221605) when signed in to the Microsoft 365 Admin Center. This guide will customize your experience based on your environment. If you're hosted in Exchange Online and using Microsoft Teams, the guide will automatically create your device account with the correct settings. To review best practices without signing in and activating automated setup features, go to the [M365 Setup portal](https://go.microsoft.com/fwlink/?linkid=2222648). 
 
 ## In meeting experience
 
