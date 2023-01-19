@@ -12,7 +12,7 @@ ms.localizationpriority: medium
 ---
 # Microsoft Teams Rooms on Surface Hub
 
-Teams Rooms for Surface Hub automatically replaces the previous [Surface Hub Teams app](hub-teams-app.md) upon installation of [KB5004196, KB5004198, and KB5004199](surface-hub-update-history.md), which were released on September 30, 2021.
+Teams Rooms for Surface Hub automatically replaces the previous [Surface Hub Teams app](hub-teams-app.md) upon installation of [KB5004196, KB5004198, and KB5004199](surface-hub-update-history.md) that released on September 30, 2021.
 
 ## What’s new?
 
@@ -30,9 +30,9 @@ Teams Rooms for Surface Hub automatically replaces the previous [Surface Hub Tea
 
 Teams Rooms on Surface Hub Meetings experience are aligned to the familiar experience that users know from their personal devices with adjustments made to optimize for a large screen device. Opening Teams on Surface Hub lets users access key features including One-touch meeting join, Meet Now and Dial Pad for PSTN or peer-to-peer calls.
 
-:::image type="content" source="images/teamsroomsagendascreen.png" alt-text="Teams Rooms on Surface Hub Agenda.":::
+:::image type="content" source="images/teamsroomsagendascreen.png" alt-text="This screenshot is of the Teams Rooms on Surface Hub Agenda experience.":::
 
-:::image type="content" source="images/teamsroomsmeeting.png" alt-text="Teams Rooms on Surface Hub Meeting.":::
+:::image type="content" source="images/teamsroomsmeeting.png" alt-text="This screenshot is of the Teams Rooms on Surface Hub Meeting experience.":::
 
 ## Manage Teams Rooms on Surface Hub
 
@@ -42,7 +42,7 @@ Teams Rooms on Surface Hub Meetings experience are aligned to the familiar exper
 - Adjust settings for default microphones, cameras, and speakers.
 - Check the client version and search for the latest updates.
 
-:::image type="content" source="images/teamsroomssetttings.png" alt-text="Teams Rooms Settings.":::
+:::image type="content" source="images/teamsroomssetttings.png" alt-text="This screenshot shows the Teams Rooms Settings dialog.":::
 
 The new Teams Rooms for Surface Hub client, will automatically apply existing settings configured via XML files, provisioning packages, or an MDM provider. These methods, explained in [Manage Microsoft Teams configuration on Surface Hub](/microsoftteams/rooms/surface-hub-manage-config), will be superseded by new cloud-based solutions, as described below in [Simplified management of Teams coming to Surface Hub](#simplified-management-of-teams-on-surface-hub).
 
@@ -63,7 +63,7 @@ Microsoft Teams Rooms on Surface Hub supports joining third-party online meeting
 
 1. Open Teams, select Settings (**…**), and enter your admin username and password.
 2. Select **Meetings** and then select **Allow joining third-party meetings**.
-:::image type="content" source="images/teams-settings-surface-hub.png" alt-text="Enable third party meetings on Surface Hub Meeting.":::
+   :::image type="content" source="images/teams-settings-surface-hub.png" alt-text="Enable third party meetings on Surface Hub Meeting.":::
 1. Select **Cisco WebEx** or **Zoom**, as appropriate.
 
 ### To join third-party meetings
