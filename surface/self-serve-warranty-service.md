@@ -6,7 +6,7 @@ ms.localizationpriority: medium
 author: coveminer
 ms.author: hachidan
 ms.topic: overview
-ms.date: 10/12/2022
+ms.date: 01/19/2023
 ms.reviewer: cchauvet 
 manager: frankbu
 appliesto:
@@ -26,11 +26,16 @@ The Hardware Support Portal allows you to:
 
 When you add a Microsoft 365 tenant to the tool, the following Admin roles are granted additional permissions:
 
-| Role                  | Permissions                                                                                                                         |
-| --------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
-| Global Admin          | View Repair Requests<br>Create/Manage Repair Requests<br>Add/Edit/Delete Ship-to address(es)<br>Create/Manage users and their roles |
-| Service Support Admin | View Repair Requests<br>Create/Manage Repair Requests                                                                               |
-| Billing Admin         | View Repair Requests<br>Create/Manage Repair Requests<br>Add/Edit/Delete Ship-to address(es)                                        |
+
+| Role                                      | Permissions                                                                                                                                                                                 |
+| ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Microsoft Hardware Warranty Administrator | View all service requests<br>Create/manage device replacement requests<br>Add/edit/delete ship-to address(es)<br>Read-only access to the M365 tenant outside of the Hardware Support Portal |
+| Microsoft Hardware Warranty Specialist    | View own service requests<br>Create/manage device replacement requests<br>Read-only access to the M365 tenant outside of the Hardware Support Portal                                        |
+| Global Admin                              | View service requests<br>Create/manage device replacement requests<br>Add/edit/delete ship-to address(es)<br>Create/manage users and their roles                                            |
+| Service Support Admin                     | View service requests<br>Create/manage device replacement requests                                                                                                                          |
+| Billing Admin                             | View service requests<br>Create/manage device replacement requests<br>Add/edit/delete ship-to address(es)                                                                                   |
+
+
 
 ## Gain access to the Hardware Support Portal
 

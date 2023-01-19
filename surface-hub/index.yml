@@ -28,7 +28,7 @@ landingContent:
     linkLists:
       - linkListType: learn
         links:
-          - text: Surface Hub and Microsoft Teams Rooms setup guide
+          - text: Surface Hub and Microsoft Teams Rooms automated setup guide (requires M365 authentication)
             url: https://go.microsoft.com/fwlink/?linkid=2221605
           - text: Latest Surface Hub OS updates released 
             url: surface-hub-2020-update-whats-new.md 
@@ -89,8 +89,8 @@ landingContent:
     linkLists:
       - linkListType: deploy
         links:
-          - url: https://go.microsoft.com/fwlink/?linkid=2221605
-            text: Surface Hub and Microsoft Teams Rooms setup guide
+          - url: https://go.microsoft.com/fwlink/?linkid=2222648
+            text: Surface Hub and Microsoft Teams Rooms setup best practices
           - url: /microsoftteams/rooms/coordinated-meetings
             text: Set up Coordinated Meetings with Microsoft Teams Rooms and Surface Hub 
           - url: surface-hub-2s-adoption-kit.md
