@@ -12,7 +12,7 @@ ms.localizationpriority: medium
 ---
 # Microsoft Teams Rooms on Surface Hub
 
-Teams Rooms for Surface Hub automatically replaces the previous [Surface Hub Teams app](hub-teams-app.md) upon installation of [KB5004196, KB5004198, and KB5004199](surface-hub-update-history.md), which were released on September 30, 2021.
+Teams Rooms for Surface Hub automatically replaces the previous [Surface Hub Teams app](hub-teams-app.md) upon installation of [KB5004196, KB5004198, and KB5004199](surface-hub-update-history.md) that released on September 30, 2021.
 
 ## What’s new?
 
@@ -24,15 +24,15 @@ Teams Rooms for Surface Hub automatically replaces the previous [Surface Hub Tea
 - If it is not already the default, Teams can be set as the default app for meetings and calls in **Settings** > **Surface Hub** > **Calling & audio**. To learn more about meeting modes and configuring them through MDM policy, see [Manage Surface Hub with an MDM provider](manage-settings-with-mdm-for-surface-hub.md#changing-default-app-for-meetings--calls).
 
 > [!TIP]
-> As a companion to this article, we recommend reviewing the [Surface Hub and Microsoft Teams Rooms setup guide](https://go.microsoft.com/fwlink/?linkid=2221605). Get the most out of your Surface Hub and Microsoft Teams Rooms devices with Microsoft 365. This guide will customize your experience based on your environment. If you're hosted in Exchange Online and using Microsoft Teams, the guide will automatically create your device account with the correct settings.
+> As a companion to this article, we recommend using the [Surface Hub and Microsoft Teams Rooms automated setup guide](https://go.microsoft.com/fwlink/?linkid=2221605) when signed in to the Microsoft 365 Admin Center. This guide will customize your experience based on your environment. If you're hosted in Exchange Online and using Microsoft Teams, the guide will automatically create your device account with the correct settings. To review best practices without signing in and activating automated setup features, go to the [M365 Setup portal](https://go.microsoft.com/fwlink/?linkid=2222648). 
 
 ## In meeting experience
 
 Teams Rooms on Surface Hub Meetings experience are aligned to the familiar experience that users know from their personal devices with adjustments made to optimize for a large screen device. Opening Teams on Surface Hub lets users access key features including One-touch meeting join, Meet Now and Dial Pad for PSTN or peer-to-peer calls.
 
-:::image type="content" source="images/teamsroomsagendascreen.png" alt-text="Teams Rooms on Surface Hub Agenda.":::
+:::image type="content" source="images/teamsroomsagendascreen.png" alt-text="This screenshot shows the Teams Rooms on Surface Hub Agenda experience.":::
 
-:::image type="content" source="images/teamsroomsmeeting.png" alt-text="Teams Rooms on Surface Hub Meeting.":::
+:::image type="content" source="images/teamsroomsmeeting.png" alt-text="This screenshot displays the Teams Rooms on Surface Hub Meeting experience.":::
 
 ## Manage Teams Rooms on Surface Hub
 
@@ -42,7 +42,7 @@ Teams Rooms on Surface Hub Meetings experience are aligned to the familiar exper
 - Adjust settings for default microphones, cameras, and speakers.
 - Check the client version and search for the latest updates.
 
-:::image type="content" source="images/teamsroomssetttings.png" alt-text="Teams Rooms Settings.":::
+:::image type="content" source="images/teamsroomssetttings.png" alt-text="This screenshot shows the Teams Rooms Settings dialog.":::
 
 The new Teams Rooms for Surface Hub client, will automatically apply existing settings configured via XML files, provisioning packages, or an MDM provider. These methods, explained in [Manage Microsoft Teams configuration on Surface Hub](/microsoftteams/rooms/surface-hub-manage-config), will be superseded by new cloud-based solutions, as described below in [Simplified management of Teams coming to Surface Hub](#simplified-management-of-teams-on-surface-hub).
 
@@ -63,21 +63,21 @@ Microsoft Teams Rooms on Surface Hub supports joining third-party online meeting
 
 1. Open Teams, select Settings (**…**), and enter your admin username and password.
 2. Select **Meetings** and then select **Allow joining third-party meetings**.
-:::image type="content" source="images/teams-settings-surface-hub.png" alt-text="Enable third party meetings on Surface Hub Meeting.":::
+   :::image type="content" source="images/teams-settings-surface-hub.png" alt-text="The screenshot shows the option to enable third party meetings on Surface Hub Meeting.":::
 1. Select **Cisco WebEx** or **Zoom**, as appropriate.
 
 ### To join third-party meetings
 
 1. Select **Home**, select the meeting tile from the home screen calendar, or go directly to the Teams agenda page, which includes join buttons for the third-party-enabled meetings.
 
-    :::image type="content" source="images/jointhirdpartymeeting-hub.png" alt-text="Join third party meetings on Surface Hub Meeting.":::
+    :::image type="content" source="images/jointhirdpartymeeting-hub.png" alt-text="This screenshot shows the dialog to join third party meetings on Surface Hub Meeting.":::
 
 1. Select **Join**. When the Microsoft Edge browser launches you into the meeting, you'll need to allow the browser to use the Surface Hub microphone and camera for the meeting.  
 
-> [!NOTE]
-> Microphone and camera approvals are removed when you end a Surface Hub session, and you will be asked to allow them again in the next session.
+   > [!NOTE]
+   > Microphone and camera approvals are removed when you end a Surface Hub session, and you will be asked to allow them again in the next session.
 
-3.Enter your name and other required fields to start the meeting.
+1. Enter your name and other required fields to start the meeting.
 
 ### Optional advanced configuration for third-party meetings
 
@@ -87,12 +87,12 @@ Depending on your environment, you may need to configure more settings. For exam
 
 To enable a more seamless experience that avoids users having to approve the microphone and camera for each Hub session, you can configure the following Edge policies via Microsoft Endpoint Manager. To learn more, see [Create a device profile in Microsoft Intune](/mem/intune/configuration/device-profile-create).
 
-| Microsoft Edge policy setting                                                 | Location                                                                                                  | Notes                                                                                                   |
-| ----------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
-| **Force synchronization of browser data and do not show the sync consent prompt** | Devices > Configuration Profiles > Administrative Templates > Edge Chromium General Policies > Properties | Set to **Enable**                                                                                                  |
-| **Sites that can access video capture devices without requesting permission**     | Devices > Configuration Profiles > Administrative Templates > Edge Chromium General Policies > Properties | Prevents camera approval prompt. Add [https://www.zoom.com](https://www.zoom.com) or [https://www.webex.com](https://www.webex.com) as appropriate.|
-| **Sites that can access audio capture devices without requesting permission**    | Devices > Configuration Profiles > Administrative Templates > Edge Chromium General Policies > Properties |  Prevents audio approval prompt.  Add [https://www.zoom.com](https://www.zoom.com) or [https://www.webex.com](https://www.webex.com) as appropriate.|
-| **Default geolocation setting**                                                 | Devices > Configuration Profiles > Administrative Templates > Edge Chromium General Policies > Properties | Prevents geolocation prompt, if desired. If you wish to prevent third-party meetings from tracking the location of your Surface Hub,  set **BlockGeolocation (2)**. If you don't configure this setting, users will be prompted to allow Zoom or Webex to track the location of Surface Hub. |
+| Microsoft Edge policy setting                 | Location         | Notes      |
+| --------------------------------------- | ----------------------- | ------------------------------------------------------- |
+| **Force synchronization of browser data and do not show the sync consent prompt** | Devices > Configuration Profiles > Administrative Templates > Edge Chromium General Policies > Properties | Set to **Enable**   |
+| **Sites that can access video capture devices without requesting permission** | Devices > Configuration Profiles > Administrative Templates > Edge Chromium General Policies > Properties | Prevents camera approval prompt. Add [https://www.zoom.com](https://www.zoom.com) or [https://www.webex.com](https://www.webex.com) as appropriate.|
+| **Sites that can access audio capture devices without requesting permission** | Devices > Configuration Profiles > Administrative Templates > Edge Chromium General Policies > Properties |  Prevents audio approval prompt.  Add [https://www.zoom.com](https://www.zoom.com) or [https://www.webex.com](https://www.webex.com) as appropriate.|
+| **Default geolocation setting** | Devices > Configuration Profiles > Administrative Templates > Edge Chromium General Policies > Properties | Prevents geolocation prompt, if desired. If you wish to prevent third-party meetings from tracking the location of your Surface Hub,  set **BlockGeolocation (2)**. If you don't configure this setting, users will be prompted to allow Zoom or Webex to track the location of Surface Hub. |
 
 Optionally, you may wish to configure calendar processing rules to enable "auto accept," "auto decline," and related settings.
 

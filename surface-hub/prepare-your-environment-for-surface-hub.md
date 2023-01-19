@@ -8,7 +8,7 @@ ms.prod: surface-hub
 author: coveminer
 ms.author: hachidan
 ms.topic: how-to
-ms.date: 02/15/2022
+ms.date: 01/18/2023
 ms.localizationpriority: medium
 appliesto:
 - Surface Hub 
@@ -21,8 +21,7 @@ appliesto:
 This page describes dependencies for setting up and managing Surface Hub v1 or Surface Hub 2S.
 
 > [!TIP]
-> As a companion to this article, we recommend reviewing the [Surface Hub and Microsoft Teams Rooms setup guide](https://go.microsoft.com/fwlink/?linkid=2221605). Get the most out of your Surface Hub and Microsoft Teams Rooms devices with Microsoft 365. This guide will customize your experience based on your environment. If you're hosted in Exchange Online and using Microsoft Teams, the guide will automatically create your device account with the correct settings.
-
+> As a companion to this article, we recommend using the [Surface Hub and Microsoft Teams Rooms automated setup guide](https://go.microsoft.com/fwlink/?linkid=2221605) when signed in to the Microsoft 365 Admin Center. This guide will customize your experience based on your environment. If you're hosted in Exchange Online and using Microsoft Teams, the guide will automatically create your device account with the correct settings. To review best practices without signing in and activating automated setup features, go to the [M365 Setup portal](https://go.microsoft.com/fwlink/?linkid=2222648). 
 
 ## Infrastructure dependencies
 
