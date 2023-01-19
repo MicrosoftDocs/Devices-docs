@@ -98,7 +98,7 @@
           - name: Teams certified accessories for Surface Hub 2S
             href: surface-hub-2s-certifications.md
           - name: Create and configure resource accounts for rooms and shared Teams devices
-            href: microsoftteams/rooms/with-exchange-online.md
+            href: /microsoftteams/rooms/with-exchange-online
     - name: Manage
       expanded: true
       items: 
