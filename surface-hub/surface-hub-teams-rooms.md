@@ -30,9 +30,9 @@ Teams Rooms for Surface Hub automatically replaces the previous [Surface Hub Tea
 
 Teams Rooms on Surface Hub Meetings experience are aligned to the familiar experience that users know from their personal devices with adjustments made to optimize for a large screen device. Opening Teams on Surface Hub lets users access key features including One-touch meeting join, Meet Now and Dial Pad for PSTN or peer-to-peer calls.
 
-:::image type="content" source="images/teamsroomsagendascreen.png" alt-text="This screenshot is of the Teams Rooms on Surface Hub Agenda experience.":::
+:::image type="content" source="images/teamsroomsagendascreen.png" alt-text="This screenshot shows the Teams Rooms on Surface Hub Agenda experience.":::
 
-:::image type="content" source="images/teamsroomsmeeting.png" alt-text="This screenshot is of the Teams Rooms on Surface Hub Meeting experience.":::
+:::image type="content" source="images/teamsroomsmeeting.png" alt-text="This screenshot displays the Teams Rooms on Surface Hub Meeting experience.":::
 
 ## Manage Teams Rooms on Surface Hub
 
@@ -63,21 +63,21 @@ Microsoft Teams Rooms on Surface Hub supports joining third-party online meeting
 
 1. Open Teams, select Settings (**…**), and enter your admin username and password.
 2. Select **Meetings** and then select **Allow joining third-party meetings**.
-   :::image type="content" source="images/teams-settings-surface-hub.png" alt-text="Enable third party meetings on Surface Hub Meeting.":::
+   :::image type="content" source="images/teams-settings-surface-hub.png" alt-text="The screenshot shows the option to enable third party meetings on Surface Hub Meeting.":::
 1. Select **Cisco WebEx** or **Zoom**, as appropriate.
 
 ### To join third-party meetings
 
 1. Select **Home**, select the meeting tile from the home screen calendar, or go directly to the Teams agenda page, which includes join buttons for the third-party-enabled meetings.
 
-    :::image type="content" source="images/jointhirdpartymeeting-hub.png" alt-text="Join third party meetings on Surface Hub Meeting.":::
+    :::image type="content" source="images/jointhirdpartymeeting-hub.png" alt-text="This screenshot shows the dialog to join third party meetings on Surface Hub Meeting.":::
 
 1. Select **Join**. When the Microsoft Edge browser launches you into the meeting, you'll need to allow the browser to use the Surface Hub microphone and camera for the meeting.  
 
-> [!NOTE]
-> Microphone and camera approvals are removed when you end a Surface Hub session, and you will be asked to allow them again in the next session.
+   > [!NOTE]
+   > Microphone and camera approvals are removed when you end a Surface Hub session, and you will be asked to allow them again in the next session.
 
-3.Enter your name and other required fields to start the meeting.
+1. Enter your name and other required fields to start the meeting.
 
 ### Optional advanced configuration for third-party meetings
 
@@ -87,12 +87,12 @@ Depending on your environment, you may need to configure more settings. For exam
 
 To enable a more seamless experience that avoids users having to approve the microphone and camera for each Hub session, you can configure the following Edge policies via Microsoft Endpoint Manager. To learn more, see [Create a device profile in Microsoft Intune](/mem/intune/configuration/device-profile-create).
 
-| Microsoft Edge policy setting                                                 | Location                                                                                                  | Notes                                                                                                   |
-| ----------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
-| **Force synchronization of browser data and do not show the sync consent prompt** | Devices > Configuration Profiles > Administrative Templates > Edge Chromium General Policies > Properties | Set to **Enable**                                                                                                  |
-| **Sites that can access video capture devices without requesting permission**     | Devices > Configuration Profiles > Administrative Templates > Edge Chromium General Policies > Properties | Prevents camera approval prompt. Add [https://www.zoom.com](https://www.zoom.com) or [https://www.webex.com](https://www.webex.com) as appropriate.|
-| **Sites that can access audio capture devices without requesting permission**    | Devices > Configuration Profiles > Administrative Templates > Edge Chromium General Policies > Properties |  Prevents audio approval prompt.  Add [https://www.zoom.com](https://www.zoom.com) or [https://www.webex.com](https://www.webex.com) as appropriate.|
-| **Default geolocation setting**                                                 | Devices > Configuration Profiles > Administrative Templates > Edge Chromium General Policies > Properties | Prevents geolocation prompt, if desired. If you wish to prevent third-party meetings from tracking the location of your Surface Hub,  set **BlockGeolocation (2)**. If you don't configure this setting, users will be prompted to allow Zoom or Webex to track the location of Surface Hub. |
+| Microsoft Edge policy setting                 | Location         | Notes      |
+| --------------------------------------- | ----------------------- | ------------------------------------------------------- |
+| **Force synchronization of browser data and do not show the sync consent prompt** | Devices > Configuration Profiles > Administrative Templates > Edge Chromium General Policies > Properties | Set to **Enable**   |
+| **Sites that can access video capture devices without requesting permission** | Devices > Configuration Profiles > Administrative Templates > Edge Chromium General Policies > Properties | Prevents camera approval prompt. Add [https://www.zoom.com](https://www.zoom.com) or [https://www.webex.com](https://www.webex.com) as appropriate.|
+| **Sites that can access audio capture devices without requesting permission** | Devices > Configuration Profiles > Administrative Templates > Edge Chromium General Policies > Properties |  Prevents audio approval prompt.  Add [https://www.zoom.com](https://www.zoom.com) or [https://www.webex.com](https://www.webex.com) as appropriate.|
+| **Default geolocation setting** | Devices > Configuration Profiles > Administrative Templates > Edge Chromium General Policies > Properties | Prevents geolocation prompt, if desired. If you wish to prevent third-party meetings from tracking the location of your Surface Hub,  set **BlockGeolocation (2)**. If you don't configure this setting, users will be prompted to allow Zoom or Webex to track the location of Surface Hub. |
 
 Optionally, you may wish to configure calendar processing rules to enable "auto accept," "auto decline," and related settings.
 
