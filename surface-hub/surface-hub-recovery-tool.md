@@ -7,7 +7,7 @@ ms.prod: surface-hub
 author: coveminer
 ms.author: hachidan
 ms.topic: how-to
-ms.date: 02/11/2020
+ms.date: 01/20/2023
 ms.localizationpriority: medium
 ---
 
@@ -72,7 +72,7 @@ Install Surface Hub Recovery Tool on the host PC.
 
     ![Do not let your machine go to sleep guidance.](images/shrt-guidance.png)
 
-4. In the Select image window, click either **RS2** or its successor **20H2**, select **Continue,** and then select **Download image.**
+4. In the Select image window, click either **20H2** or its successor **22H2**, select **Continue,** and then select **Download image.**
 
      ![Recovery Tool Select image.](images/shrt-select-image.png)
     ![Recovery Tool Download image.](images/shrt-download-image.png)
