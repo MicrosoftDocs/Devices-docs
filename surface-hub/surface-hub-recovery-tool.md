@@ -13,7 +13,7 @@ ms.localizationpriority: medium
 
 # Use the Surface Hub Recovery Tool
 
-The [Microsoft Surface Hub Recovery Tool](https://www.microsoft.com/download/details.aspx?id=52210) helps you reimage your Surface Hub Solid State Drive (SSD) using a Windows 10 desktop device, without calling support or replacing the SSD. With this tool, you can reimage an SSD that that has an older version of the operating system. Or use it to remedy an unknown Administrator password, boot errors, or related issues.  The tool won't fix physically damaged SSDs.
+The [Microsoft Surface Hub Recovery Tool](https://www.microsoft.com/download/details.aspx?id=52210) helps you reimage your Surface Hub Solid State Drive (SSD) using a Windows 10 desktop device, without calling support or replacing the SSD. With this tool, you can reimage an SSD that that has an older version of the operating system. Or use it to remedy an unknown Administrator password, boot errors, and related issues.  The tool won't fix physically damaged SSDs.
 
 To reimage the Surface Hub SSD using the Recovery Tool, you'll need to remove the SSD from the Surface Hub and connect the drive to the USB-to-SATA cable. Next, connect the cable to the desktop PC on which the Recovery Tool is installed. For more information on how to remove the existing drive from your Surface Hub, see [Surface Hub SSD replacement](surface-hub-ssd-replacement.md).
 
