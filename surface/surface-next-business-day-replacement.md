@@ -1,11 +1,11 @@
 ---
 title: Next Business Day Service information & coverage areas
 ms.author: alyee
-author: greg-lindsay
-manager: laurawi
+author: coveminer
+manager: frankbu
 ms.date: 04/19/2022
-audience: Admin
-ms.topic: article
+
+ms.topic: how-to
 ms.prod: surface
 localization_priority: high
 ms.custom: references_regions
@@ -92,6 +92,7 @@ For a list of supported post codes, see "Next business day coverage" where appli
 #### Canada
 
 - Cutoff Time: 14:00 CST (UTC-6)
+- [Next business day coverage](https://download.microsoft.com/download/6/1/6/6164e843-83dd-4628-a6eb-0c66cdc7eb90/NBD%20Coverage-CA%20Post%20Codes%2012142022.xlsx)
 
 #### Croatia
 
@@ -145,7 +146,7 @@ For a list of supported post codes, see "Next business day coverage" where appli
 
 #### India
 
-- Cutoff Time: 15:00 (UTC+5.5)
+- Cutoff Time: 12:00 (UTC+8.5)
 - [Next business day coverage](https://download.microsoft.com/download/5/5/e/55e2bb36-c720-4e25-b834-9e3e5b87c120/NBD_Coverage_IndiaPostCodes_090622.xlsx)
 
 #### Ireland
@@ -176,7 +177,7 @@ For a list of supported post codes, see "Next business day coverage" where appli
 #### Luxembourg
 
 - Cutoff Time: 12:00 CET (UTC+1)
-- [Next business day coverage](https://download.microsoft.com/download/d/6/c/d6c8c486-a667-4e52-8867-d0dff68cfe39/NBD_Coverage_LatviaPostCodes_030222.xlsx)
+- [Next business day coverage](https://download.microsoft.com/download/5/c/0/5c049363-70e8-467d-96f6-d9c96096745b/NBD_Coverage_LuxembourgPostCodes_030321.xlsx)
 
 #### Malta
 
@@ -257,3 +258,4 @@ For a list of supported post codes, see "Next business day coverage" where appli
 #### United States
 
 - Cutoff Time: 14:00 CST (UTC-6)
+- [Next day business coverage](https://download.microsoft.com/download/b/5/e/b5ec09b5-25d3-48c1-8a51-570fe4b0d82f/NBD%20Coverage-US%20Post%20Codes%2012042022.xlsx)

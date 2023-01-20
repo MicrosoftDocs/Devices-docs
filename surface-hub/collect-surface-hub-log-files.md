@@ -2,13 +2,11 @@
 title: Collect Surface Hub log files
 description: This page shows how admins can collect log files for use when troubleshooting Surface Hub. 
 ms.reviewer: 
-manager: laurawi
-keywords: troubleshoot, log files, Event Viewer
+manager: frankbu
 ms.prod: surface-hub
-ms.sitesec: library
-author: dansimp
-ms.author: dansimp
-ms.topic: article
+author: coveminer
+ms.author: hachidan
+ms.topic: troubleshooting
 ms.date: 06/30/2022
 ms.localizationpriority: medium
 appliesto:

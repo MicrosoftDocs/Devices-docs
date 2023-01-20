@@ -2,10 +2,10 @@
 title: What is vision?
 description: Vision is complex. It involves both the presence of sight and the brain’s ability to process the information the eyes see.
 ms.localizationpriority: medium
-ms.sitesec: library
+
 author: InclusiveTechLab
 ms.author: brycejo 
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/20/2021
 manager: krhunter
 ms.prod: surface

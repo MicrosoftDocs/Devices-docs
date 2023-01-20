@@ -3,23 +3,18 @@ title: Using a room control system (Surface Hub)
 description: Room control systems can be used with your Microsoft Surface Hub.
 ms.assetid: DC365002-6B35-45C5-A2B8-3E1EB0CB8B50
 ms.reviewer: 
-manager: laurawi
-keywords: room control system, Surface Hub
+manager: frankbu
 ms.prod: surface-hub
-ms.sitesec: library
-author: dansimp
-ms.author: dansimp
-ms.topic: article
+author: coveminer
+ms.author: hachidan
+ms.topic: how-to
 ms.date: 07/27/2017
 ms.localizationpriority: medium
 ---
 
 # Using a room control system (Surface Hub)
 
-
-Room control systems can be used with your Microsoft Surface Hub.
-
-Using a room control system with your Surface Hub involves connecting room control hardware to the Surface Hub, usually through the RJ11 serial port on the bottom of the Surface Hub.
+Room control systems can be used with your Microsoft Surface Hub. Using a room control system with your Surface Hub involves connecting room control hardware to the Surface Hub, usually through the RJ11 serial port on the bottom of the Surface Hub.
 
 ## Terminal settings
 
@@ -84,8 +79,6 @@ For a control device, anything other than 5 / Ready should be considered off. Ea
 | PowerOff | Device transitions to ambient state (PC on, display dim). |  Power=0 |
 | Power? |  SMC reports the last-known power state. |  Power=<#> |
 
-
-
 ## Brightness
 
 The current brightness level is a range from 0 to 100.
@@ -111,9 +104,6 @@ Changes to volume levels can be sent by a room control system, or other system.
 | Volume+ |  SMC sends the volume up command.</br></br>PC service notifies SMC of new volume level. |  Volume = 51 |
 | Volume- |  SMC sends the volume down command.</br></br>PC service notifies SMC of new volume level. |  Volume = 50 |
 
-
- 
-
 ## Mute for audio
 
 Audio can be muted.
@@ -121,9 +111,6 @@ Audio can be muted.
 | Command | State change | Response |
 | --- | --- | --- |
 | AudioMute+ |  SMC sends the audio mute command.</br></br>PC service notifies SMC that audio is muted. |  none |
-
-
- 
 
 ## Video source
 
@@ -135,9 +122,6 @@ Several display sources can be used.
 | 1 |  DisplayPort |
 | 2 |  HDMI |
 | 3 |  VGA |
-
-
- 
 
 Changes to display source can be sent by a room control system, or other system.
 
@@ -159,21 +143,7 @@ Errors are returned following the format in this table.
 | Error: Unknown parameter '&lt;input&gt;'. |  The instruction contains an unknown parameter. For example, &quot;Volume=abc&quot; would be invalid and return &quot; Error: Unknown parameter 'abc'&quot;. |
 | Error: Command not available when off '&lt;input&gt;'. |  When the Surface Hub is off, commands other than Power return this error. For example, &quot;Volume+&quot; would be invalid and return &quot; Error: Command not available when off 'Volume'&quot;. |
 
-
- 
-
 ## Related topics
 
-
-[Manage Microsoft Surface Hub](manage-surface-hub.md)
-
-[Microsoft Surface Hub administrator's guide](surface-hub-administrators-guide.md)
-
- 
-
- 
-
-
-
-
-
+- [Manage Microsoft Surface Hub](manage-surface-hub.md)
+- [Microsoft Surface Hub administrator's guide](surface-hub-administrators-guide.md)

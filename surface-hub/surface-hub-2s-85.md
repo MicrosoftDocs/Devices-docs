@@ -1,14 +1,12 @@
 ---
 title: "Surface Hub 2S 85-inch"
 description: "This article introduces Surface Hub 2S 85-inch."
-keywords: Surface Hub 2S 85, tech specs
 ms.prod: surface-hub
-ms.sitesec: library
-author: greg-lindsay
-ms.author: greglin
-manager: laurawi
-audience: Admin
-ms.topic: article
+author: coveminer
+ms.author: hachidan
+manager: frankbu
+
+ms.topic: conceptual
 ms.date: 01/11/2022
 ms.localizationpriority: Medium
 ---
@@ -39,7 +37,7 @@ The 85" version of the Surface Hub family brings the Surface Hub 2S experience t
 |**Software<sup>2</sup>**| Windows 10 Team OS<br>Microsoft Teams for Surface Hub<br>Skype for Business<br>Microsoft Whiteboard<br>Microsoft Office (Mobile)<br>Microsoft Power BI                                                                                               |
 |**Connections**| USB-A<br>Mini-DisplayPort Video Output<br>RJ45 Gigabit Ethernet<br>HDMI Video Input<br>USB-C® with DisplayPort Input<br>(3) USB-C® (on display)                                                                                                           |
 |**Graphics**| Intel® UHD Graphics 620                                                                                                                                                                                                                                   |
-|**Audio/video**| 100Hz - 12KHz range 3-way stereo speakers, including (2) mid/high-range and (1) mid/low-range in rear bump. <br>Full band 8-element MEMS microphone array<br>Microsoft Surface Hub 2 Camera, 4K, USB-C® connection, 90-degree HFOV |
+|**Audio/video**| 100Hz - 12KHz range 3-way stereo speakers, including (2) mid/high-range and (1) mid/low-range in rear bump. <br>Full band 8-element MEMS microphone array certified for use with Microsoft Teams up to 3.5 meters away<br>Microsoft Surface Hub 2 Camera, 4K, USB-C® connection, 90-degree HFOV |
 |**Pen**| Microsoft Surface Hub 2 Pen (active)<br>Surface Slim Pen compatible                                                                                                                                                                                       |
 |**Sensors**| Doppler occupancy sensor<sup>3</sup>                                                                                                                                                                                                                                 |
 |**Wireless**| Wi-Fi 5: IEEE 802.11 a/b/g/n/ac compatible<br>Bluetooth® Wireless 5.0 technology<br>Miracast Display                                                                                                                                                      |

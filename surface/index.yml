@@ -10,7 +10,7 @@ metadata:
   description: Learn how to plan, deploy, and manage Microsoft Surface and Surface Hub devices. # Required; article description that is displayed in search results. < 160 chars.
   ms.prod: surface #Required; service per approved list. service slug assigned to your service by ACOM.
   ms.topic: hub-page # Required
-  audience: ITPro
+  
   author: samanro #Required; your GitHub user alias, with correct capitalization.
   ms.author: samanro #Required; microsoft alias of author; optional team alias.
   ms.date: 07/03/2019 #Required; mm/dd/yyyy format.

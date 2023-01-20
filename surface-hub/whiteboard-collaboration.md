@@ -2,13 +2,13 @@
 title: Set up and use Microsoft Whiteboard
 description: Microsoft Whiteboard's latest update includes the capability for two Surface Hubs to collaborate in real time on the same board.
 ms.prod: surface-hub
-ms.sitesec: library
-author: dansimp
-ms.author: dansimp
-ms.topic: article
+
+author: coveminer
+ms.author: hachidan
+ms.topic: how-to
 ms.date: 09/27/2022
 ms.reviewer: 
-manager: laurawi
+manager: frankbu
 ms.localizationpriority: medium
 ---
 

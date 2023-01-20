@@ -3,13 +3,11 @@ title: First time setup for Surface Hub
 description: The term \ 0034;first run \ 0034; refers to the series of steps you'll go through the first time you power up your Microsoft Surface Hub, and means the same thing as \ 0034;out-of-box experience \ 0034; (OOBE). This section will walk you through the process.
 ms.assetid: 07C9E84C-1245-4511-B3B3-75939AD57C49
 ms.reviewer: 
-manager: laurawi
-keywords: first run, Surface Hub, out-of-box experience, OOBE
+manager: frankbu
 ms.prod: surface-hub
-ms.sitesec: library
-author: dansimp
-ms.author: dansimp
-ms.topic: article
+author: coveminer
+ms.author: hachidan
+ms.topic: how-to
 ms.date: 08/17/2021
 ms.localizationpriority: medium
 ---
@@ -19,6 +17,9 @@ ms.localizationpriority: medium
 When you first start Surface Hub, the device automatically enters first time Setup mode to guide you through account configuration and related settings.
 
 > [!TIP]
+> As a companion to this article, we recommend using the [Surface Hub and Microsoft Teams Rooms automated setup guide](https://go.microsoft.com/fwlink/?linkid=2221605) when signed in to the Microsoft 365 Admin Center. This guide will customize your experience based on your environment. If you're hosted in Exchange Online and using Microsoft Teams, the guide will automatically create your device account with the correct settings. To review best practices without signing in and activating automated setup features, go to the [M365 Setup portal](https://go.microsoft.com/fwlink/?linkid=2222648). 
+
+> [!NOTE]
 > You can automate the entire setup process with a [Provisioning package](#use-provisioning-packages) to ensure a consistent experience across multiple Surface Hubs.
 
 ## Get started
@@ -51,16 +52,16 @@ When you first start Surface Hub, the device automatically enters first time Set
 
     :::image type="content" source="images/hub-setup-device-account.png" alt-text="Enter Device account info.":::
 
-| Environment                                              | Required format for device account |
-| -------------------------------------------------------- | ---------------------------------- |
-| Device account is hosted only online                     | username@contoso.com               |
-| Device account is hosted only on-premises                | CONTOSO\user                       |
-| Device account is hosted online and on-premises (hybrid) | CONTOSO\user                       |
+  | Environment                                              | Required format for device account |
+  | -------------------------------------------------------- | ---------------------------------- |
+  | Device account is hosted only online                     | username@contoso.com               |
+  | Device account is hosted only on-premises                | CONTOSO\user                       |
+  | Device account is hosted online and on-premises (hybrid) | CONTOSO\user                       |
 
->[!NOTE]
->Although you can skip setting up a device account, the device will not be fully integrated into your infrastructure. If you skip setting it up now, you can add a device account later by using the Settings app.
+  > [!NOTE]
+  > Although you can skip setting up a device account, the device will not be fully integrated into your infrastructure. If you skip setting it up now, you can add a device account later by using the Settings app.
 
-8. **Enter your password** and select **Next.**
+8. **Enter your password** and select **Next**.
 
 9. Surface Hub automatically detects Exchange server and SIP address info from the domain entered in the previous step. Or if needed, provide your Exchange server address and select **Next**.
 
@@ -70,14 +71,14 @@ When you first start Surface Hub, the device automatically enters first time Set
 
     :::image type="content" source="images/hub-setup-name.png" alt-text="Name this device.":::
 
-- The **Friendly name** is visible on the bottom left corner of Surface Hub 2S and is shown when projecting to the device.
-- The **Device name** identifies the device when affiliated with Active Directory or Azure Active Directory, and when enrolling the device with Intune.
+   - The **Friendly name** is visible on the bottom left corner of Surface Hub 2S and is shown when projecting to the device.
+   - The **Device name** identifies the device when affiliated with Active Directory or Azure Active Directory, and when enrolling the device with Intune.
 
->[!IMPORTANT]
->If you plan to affliate the Surface Hub with Active Directory, the device name must meet the [standard requirements for computer names in AD](/troubleshoot/windows-server/identity/naming-conventions-for-computer-domain-site-ou#computer-names), otherwise setup will fail.
+   > [!IMPORTANT]
+   > If you plan to affliate the Surface Hub with Active Directory, the device name must meet the [standard requirements for computer names in AD](/troubleshoot/windows-server/identity/naming-conventions-for-computer-domain-site-ou#computer-names), otherwise setup will fail.
 
->[!NOTE]
->If you want to enable [Miracast over Infrastructure](miracast-over-infrastructure.md), the device name needs to be discoverable via DNS. You can achieve this by either allowing your Surface Hub to register automatically via Dynamic DNS, or by manually creating an A or AAAA record for the Surface Hub's device name.
+   > [!TIP]
+   > If you want to enable [Miracast over Infrastructure](miracast-over-infrastructure.md), the device name needs to be discoverable via DNS. You can achieve this by either allowing your Surface Hub to register automatically via Dynamic DNS, or by manually creating an A or AAAA record for the Surface Hub's device name.
 
 ### Configure device admin accounts
 
@@ -101,29 +102,29 @@ You can only set up device admins during first time Setup. For more information,
 1. If you intend to manage Surface Hub from the cloud using Microsoft Intune or an MDM provider, select **Microsoft Azure Active Directory**.
 2. Select Next and sign in with a work or school account. If redirected, authenticate using your organization’s sign-in page and provide additional credentials if requested. Otherwise, enter your password and select **Next.**
 
-    :::image type="content" source="images/hub-setup-signin.png" alt-text="Sign in with work or school account.":::
+    :::image type="content" source="images/hub-setup-signin.png" alt-text="The screenshot shows the dialog to sign in with a work or school account.":::
 
->[!NOTE]
->To configure who can use the Settings app to administrate Surface Hubs ensure that automatic Intune enrollment is enabled in your tenant before joining the device to Azure AD. Intune policies can then be used to [configure non Global admins](surface-hub-2s-nonglobal-admin.md) on Surface Hubs.
+> [!TIP]
+> To configure who can use the Settings app to manage Surface Hubs, ensure that automatic Intune enrollment is enabled in your tenant before joining the device to Azure AD. Intune policies can then be used to [configure non-Global admins](surface-hub-2s-nonglobal-admin.md) on Surface Hubs.
 
 ### Local Administrator account
 
 - Enter a username and a memorable password for your local admin. (If you forget the local admin password you will need to [recover your device](surface-hub-2s-recover-reset.md) and repeat the setup process.)  
 
-    :::image type="content" source="images/hub-setup-local-admin.png" alt-text="Enter a memorable password for local admin account.":::
+    :::image type="content" source="images/hub-setup-local-admin.png" alt-text="This screenshot shows the field to enter a memorable password for local admin account.":::
 
 ### Choose privacy settings for your device
 
 - Select from the available privacy settings and select **Accept.**
 
-    :::image type="content" source="images/hub-setup-privacy.png" alt-text="Choose privacy settings.":::
+    :::image type="content" source="images/hub-setup-privacy.png" alt-text="This screenshot shows the dialog to choose privacy settings.":::
 
 ### Use provisioning packages
 
 You can customize first time setup options, allowing you to ensure a consistent experience across multiple Surface Hubs.
 
 1. To begin, review the documentation in [Create provisioning packages](provisioning-packages-for-surface-hub.md) and save the provisioning package to a USB thumb drive.
-2. Insert the USB thumb drive into one of the USB ports when you see the License Agreement page (step 6 in setup steps above).
+2. Insert the USB thumb drive into one of the USB ports when you see the License Agreement page (step 6 in the ["Get started"](#get-started) steps above).
 3. When prompted, choose the provisioning package you'd like to use.
 4. If you created a multiple devices CSV file, you will be able to choose a device configuration.
-5. Follow the instructions to complete first time Setup.
+6. Follow the rest of the steps, and remove the USB drive at the first reboot that occurs in the setup process.

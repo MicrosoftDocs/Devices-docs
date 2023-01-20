@@ -2,10 +2,10 @@
 title: Decreased acuity
 description: The lack of sharpness or clarity of vision
 ms.localizationpriority: medium
-ms.sitesec: library
+
 author: InclusiveTechLab
 ms.author: brycejo 
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/20/2021
 manager: krhunter
 ms.prod: surface

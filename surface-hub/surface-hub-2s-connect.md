@@ -1,14 +1,11 @@
 ---
 title: "Connect devices to Surface Hub 2S"
 description: "This page explains how to connect external devices to Surface Hub 2S."
-keywords: separate values with commas
 ms.prod: surface-hub
-ms.sitesec: library
-author: greg-lindsay
-ms.author: greglin
-manager: laurawi
-audience: Admin
-ms.topic: article
+author: coveminer
+ms.author: hachidan
+manager: frankbu
+ms.topic: how-to
 ms.date: 02/24/2020
 ms.localizationpriority: Medium
 ---
@@ -104,7 +101,7 @@ Note the following recommendations:
 - **MiniDP.** DisplayPort cables certified for up to 3 meters in length.
 - **HDMI.** If a long cable is necessary, HDMI is recommended due to the wide availability of cost-effective, long-haul cables with the ability to install repeaters if needed.
 
-> [!NOTE]
+> [!TIP]
 > Most DisplayPort sources will automatically switch to HDMI signaling if HDMI is detected.
 
 ## Wirelessly connect to Surface Hub 2S
@@ -132,5 +129,5 @@ You can connect the following accessories to Surface Hub-2S using Bluetooth:
 - Speakers
 - Surface Hub 2 pens
 
-> [!NOTE]
+> [!TIP]
 > After you connect a Bluetooth headset or speaker, you might need to change the default microphone and speaker settings. For more information, see [Local management for Surface Hub settings](local-management-surface-hub-settings.md).

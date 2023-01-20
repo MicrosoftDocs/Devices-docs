@@ -2,10 +2,10 @@
 title: Social participation
 description: Social skills that influence the way we speak conversationally and interact with others
 ms.localizationpriority: medium
-ms.sitesec: library
+
 author: InclusiveTechLab
 ms.author: brycejo 
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/20/2021
 manager: krhunter
 ms.prod: surface

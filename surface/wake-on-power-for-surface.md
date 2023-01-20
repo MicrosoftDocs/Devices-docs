@@ -1,8 +1,7 @@
 ---
 title: Wake on Power for Surface devices
-ms.author: greglin
+ms.author: hachidan
 author: mccoybot
-audience: ITPro
 search.appverid:
 - SPO160
 - MET150
@@ -10,15 +9,10 @@ ms.custom:
 - CI 121602
 ms.reviewer: hachidan  
 description: Describes how to enable and disable Wake on Power for Surface devices.
-keywords: update, deploy, driver, wol, wake-on-lan
-ms.prod: w10
-ms.mktglfcycl: manage
-ms.pagetype: surface, devices
-ms.sitesec: library
+ms.prod: surface
 ms.localizationpriority: medium
-ms.topic: article
-manager: laurawi
-ms.audience: itpro
+ms.topic: how-to
+manager: frankbu
 ms.date: 12/08/2021
 appliesto:
 - Windows 10

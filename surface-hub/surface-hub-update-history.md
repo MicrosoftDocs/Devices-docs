@@ -2,12 +2,10 @@
 title: Surface Hub update history
 description: Surface Hub update history
 ms.assetid: d66a9392-2b14-4cb2-95c3-92db0ae2de34
-keywords:
 ms.prod: surface-hub
-ms.sitesec: library
-author: v-miegge
+author: coveminer
 ms.author: dpandre
-ms.topic: article
+ms.topic: how-to
 ms.localizationpriority: high
 ---
 
@@ -21,6 +19,29 @@ Most Windows updates focus on performance and security improvements. In the list
 > This page is refreshed as new updates are released. Please refer to the [Surface Hub Important Information](https://support.microsoft.com/products/surface-devices/surface-hub) page for related topics on current and past releases that may require your attention.
 
 ## Windows 10 Team 2022 Update (22H2)
+
+<details>
+<summary>January 19, 2023 - update for Team based on KB5019275* (OS Build 19045.2546)</summary>
+
+This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/5018682/windows-10-update-history), include:
+
+* Resolves an issue where meeting invitations did not show up immediately on the Welcome screen calendar in some environments without a reboot.
+* Resolves an issue where one-click meeting join from the Welcome screen calendar did not automatically join Teams meetings in GCC High environments.
+ 
+Please refer to the "[Install Windows 10 Team 2022 Update](/surface-hub/surface-hub-2022-update)" page for more information regarding update availability by region, distribution method, and device type.
+*[KB5019275](https://support.microsoft.com/help/5019275)
+</details>
+
+<details>
+<summary>November 15, 2022 - update for Team based on KB5020030* (OS Build 19045.2311)</summary>
+
+This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/5018682/windows-10-update-history), include:
+
+* Replaces built-in email client on Surface Hub with a new one to enable more share via email scenarios.
+ 
+Please refer to the "[Install Windows 10 Team 2022 Update](/surface-hub/surface-hub-2022-update)" page for more information regarding update availability by region, distribution method, and device type.
+*[KB5020030](https://support.microsoft.com/help/5020030)
+</details>
 
 <details>
 <summary>October 25, 2022 - update for Team based on KB5018482* (OS Build 19045.2193)</summary>
@@ -64,8 +85,7 @@ This update is specific to the Surface Hub 2S and provides the driver and firmwa
 
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4581839/windows-10-update-history), include:
 
-* Resolves an issue where meeting invitations did not show up immediately on the Welcome screen calendar in some environments without a reboot.
-* Resolves an issue where one-click meeting join from the Welcome screen calendar did not work in GCC High environments.
+* Resolves an issue where the Welcome screen calendar did not show a "Join" action for Teams meetings in GCC High environments.
 * Resolves an issue where a "Microsoft Teams is not responding" window would sometimes appear during regular Teams usage.
  
 Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabling device features and services. *[KB5014023](https://support.microsoft.com/help/5014023)

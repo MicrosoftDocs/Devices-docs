@@ -3,16 +3,12 @@ title: Configure Microsoft Launcher for Surface Duo
 description: This article summarizes how to configure Microsoft Launcher for managed devices in commercial environments. 
 ms.technology: windows
 ms.prod: surface
-ms.mktglfcycl: manage
-ms.sitesec: library
 author: coveminer
-ms.author: greglin
-ms.topic: article
+ms.author: hachidan
+ms.topic: how-to
 ms.date: 8/12/2020
 ms.reviewer: karand
-manager: laurawi
-ms.audience: itpro
-audience: ITPro
+manager: frankbu
 ms.localizationpriority: medium
 appliesto:
 - Surface Duo
@@ -38,6 +34,6 @@ Microsoft Launcher includes the following settings to customize the end user exp
 - Dock Mode
 - Dock Mode User Change Allowed
 
-For full details of each setting, refer to [Configure Microsoft Launcher for Android Enterprise with Intune](https://learn.microsoft.com/mem/intune/apps/configure-microsoft-launcher).
+For full details of each setting, refer to [Configure Microsoft Launcher for Android Enterprise with Intune](/mem/intune/apps/configure-microsoft-launcher).
 
 For step by step deployment instructions, refer to [How to Setup Microsoft Launcher on Android Enterprise Fully Managed Devices with Intune](https://techcommunity.microsoft.com/t5/intune-customer-success/how-to-setup-microsoft-launcher-on-android-enterprise-fully/ba-p/1482134).

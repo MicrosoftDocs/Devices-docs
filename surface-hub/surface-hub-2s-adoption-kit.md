@@ -1,14 +1,11 @@
 ---
 title: "Surface Hub 2S Adoption and training guides"
 description: "Microsoft has developed downloadable materials that you can make available for your users to aid in adoption of Surface Hub 2S."
-keywords: separate values with commas
 ms.prod: surface-hub
-ms.sitesec: library
-author: greg-lindsay
-ms.author: greglin
-manager: laurawi
-audience: Admin
-ms.topic: article
+author: coveminer
+ms.author: hachidan
+manager: frankbu
+ms.topic: how-to
 ms.date: 11/04/2019
 ms.localizationpriority: Medium
 ---
@@ -16,6 +13,9 @@ ms.localizationpriority: Medium
 # Surface Hub 2S adoption and training guides
 
 Whether you're a small or large business, a Surface Hub adoption plan is critical in generating the right use cases and helping your users become comfortable with the device. Check out these downloadable guides designed to help you deliver training across your organization.
+
+> [!TIP]
+> As a companion to the adoption kit, we recommend using the [Surface Hub and Microsoft Teams Rooms automated setup guide](https://go.microsoft.com/fwlink/?linkid=2221605) when signed in to the Microsoft 365 Admin Center. This guide will customize your experience based on your environment. If you're hosted in Exchange Online and using Microsoft Teams, the guide will automatically create your device account with the correct settings. To review best practices without signing in and activating automated setup features, go to the [M365 Setup portal](https://go.microsoft.com/fwlink/?linkid=2222648). 
 
 ## On-demand training
 
@@ -57,3 +57,7 @@ Whether you're a small or large business, a Surface Hub adoption plan is critica
 - [Whiteboard tools](downloads/QRCWhiteboardTools.pdf)
 
 [Download all quick reference cards](https://download.microsoft.com/download/E/7/F/E7FC6611-BB55-43E1-AF36-7BD5CE6E0FE0/SurfaceHub2S-EndUserGuides-July2019.zip)
+
+## Surface Hub adoption welcome screens
+
+- [Download or customize adoption welcome screens](surface-hub-2s-adoption-welcome-screens.md)

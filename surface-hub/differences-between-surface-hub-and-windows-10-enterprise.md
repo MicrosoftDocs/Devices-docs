@@ -1,15 +1,12 @@
 ---
 title: Operating system essentials (Surface Hub)
 description: This topic explains unique aspects of the Windows Team operating system on Surface Hub and how it differs from Windows 10 or Windows 11 Enterprise.
-keywords: change history
 ms.prod: surface-hub
-ms.sitesec: library
-author: dansimp
-ms.author: dansimp
-ms.topic: article
+author: coveminer
+ms.author: hachidan
+ms.topic: how-to
 ms.date: 02/15/2022
-ms.reviewer: 
-manager: laurawi
+manager: frankbu
 ms.localizationpriority: medium
 ---
 

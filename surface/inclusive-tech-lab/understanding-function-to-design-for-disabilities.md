@@ -2,10 +2,10 @@
 title: Understanding Function to Design for Disabilities
 description: A Microsoft Inclusive Design reference from the Inclusive Tech Lab
 ms.localizationpriority: medium
-ms.sitesec: library
+
 author: InclusiveTechLab
 ms.author: brycejo 
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/20/2021
 manager: krhunter
 ms.prod: surface

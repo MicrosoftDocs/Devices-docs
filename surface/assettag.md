@@ -1,16 +1,14 @@
 ---
 title: Surface Asset Tag Tool
 description: This topic explains how to use the Surface Asset Tag Tool.
-ms.prod: w10
-ms.mktglfcycl: manage
+ms.prod: surface
 ms.localizationpriority: medium
-ms.sitesec: library
 author: coveminer
-ms.author: greglin
-ms.topic: article
+ms.author: hachidan
+ms.topic: how-to
 ms.reviewer: carlol
 ms.date: 06/29/2021
-manager: laurawi
+manager: frankbu
 appliesto:
 - Windows 10
 - Windows 11
@@ -19,7 +17,7 @@ appliesto:
 # Surface Asset Tag Tool
 
 Surface Asset Tag is a command line interface (CLI) utility
-that allows you to view, assign, and modify an assigned asset tag value for Surface devices. 
+that allows you to view, assign, and modify an assigned asset tag value for Surface devices.
 
 ## System requirements
 
@@ -68,7 +66,7 @@ To set the proposed asset tag, run **AssetTag -s testassettag12**:
 C:\assets\AssetTag.exe -s testassettag12
 ```
 
->[!NOTE]
+>[!TIP]
 >The asset tag value must contain between 1 and 36 characters. Valid characters include A-Z, a-z, 0-9, period (.) and hyphen (-).
 
 ## Managing asset tags

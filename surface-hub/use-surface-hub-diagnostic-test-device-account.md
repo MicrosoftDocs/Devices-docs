@@ -1,17 +1,15 @@
 ---
-title: Using the Surface Hub Hardware Diagnostic Tool to test a device account
+title: Use the Surface Hub Hardware Diagnostic Tool to test a device account
 description: Using the Surface Hub Hardware Diagnostic Tool to test a device account
 ms.assetid: a87b7d41-d0a7-4acc-bfa6-b9070f99bc9c
-keywords: Accessibility settings, Settings app, Ease of Access
 ms.prod: surface-hub
-ms.sitesec: library
-author: v-miegge
-ms.author: v-miegge
-ms.topic: article
+author: coveminer
+ms.author: hachidan
+ms.topic: how-to
 ms.localizationpriority: medium
 ---
 
-# Using the Surface Hub Hardware Diagnostic Tool to test a device account
+# Use the Surface Hub Hardware Diagnostic Tool to test a device account
 
 ## Introduction
 
@@ -19,6 +17,7 @@ ms.localizationpriority: medium
 > The "Account Settings" section of the Surface Hub Hardware Diagnostic tool doesn’t collect any information. The email and password that are entered as input are used only directly on your environment and not collected or transferred to anyone. The login information persists only until the application is closed or you end the current session on the Surface Hub.
 
 > [!IMPORTANT]
+>
 > * Administrator privileges are not required to run this application.
 > * The results of the diagnostic should be discussed with your local administrator before you open a service call with Microsoft.
 
@@ -33,7 +32,7 @@ By default, the [Surface Hub Hardware Diagnostic](https://www.microsoft.com/stor
 The Surface Hub Hardware Diagnostic tool is an easy-to-navigate tool that lets the user test many of the hardware components within the Surface Hub device. This tool can also test and verify a Surface Hub device account. This article describes how to use the Account Settings test within the Surface Hub Hardware Diagnostic tool.
 
 > [!NOTE]
-> The device account for the Surface Hub should be created before any testing is done. The Surface Hub Administrator Guide provides instructions and PowerShell scripts to help you create on-premises, online (Office365), or hybrid device accounts. For more information, go to the [Create and test a device account (Surface Hub)](https://learn.microsoft.com/surface-hub/create-and-test-a-device-account-surface-hub) topic in the guide.
+> The device account for the Surface Hub should be created before any testing is done. The Surface Hub Administrator Guide provides instructions and PowerShell scripts to help you create on-premises, online (Office365), or hybrid device accounts. For more information, go to the [Create and test a device account (Surface Hub)](/surface-hub/create-and-test-a-device-account-surface-hub) topic in the guide.
 
 ### Device account testing process
 
@@ -90,49 +89,49 @@ The Surface Hub Hardware Diagnostic tool is an easy-to-navigate tool that lets t
 
 #### Network
 
-Field |Success |Failure |Comment |Reference
+| Field |Success |Failure |Comment |Reference |
 |------|------|------|------|------|
-Internet Connectivity |Device does have Internet connectivity |Device does not have Internet connectivity |Verifies internet connectivity, including proxy connection |
-HTTP Version |1.1 |1.0 |If HTTP 1.0 found, it will cause issue with WU and Store |
-Direct Internet Connectivity |Device has a Proxy configured Device has no Proxy configured |N/A |Informational. Is your device behind a proxy? |
-Proxy Address | | |If configured, returns proxy address. |
-Proxy Authentication |Proxy does not require Authentication |Proxy requires Proxy Auth |Result may be a false positive if a user already has an open session in Edge and has authenticated through the proxy. |
-Proxy Auth Types | | |If proxy authentication is used, return the Authentication methods advertised by the proxy.  |
+| Internet Connectivity | Device does have Internet connectivity |Device does not have Internet connectivity |Verifies internet connectivity, including proxy connection | |
+| HTTP Version |1.1 |1.0 |If HTTP 1.0 found, it will cause issue with WU and Store | |
+| Direct Internet Connectivity |Device has a Proxy configured Device has no Proxy configured |N/A |Informational. Is your device behind a proxy? | |
+| Proxy Address | | |If configured, returns proxy address. | |
+| Proxy Authentication | Proxy does not require Authentication | Proxy requires Proxy Auth |Result may be a false positive if a user already has an open session in Edge and has authenticated through the proxy. | |
+| Proxy Auth Types | | |If proxy authentication is used, return the Authentication methods advertised by the proxy.  | |
 
 #### Environment
 
-Field |Success |Failure |Comment |Reference
+| Field |Success |Failure |Comment |Reference |
 |------|------|------|------|------|
-SIP Domain | | |Informational.  |
-Skype Environment |Skype for Business Online, Skype for Business OnPrem, Skype for Business Hybrid |Informational. |What type of environment was detected. Note: Hybrid can only be detected if the password is entered.
-LyncDiscover FQDN | | |Informational. Displays the LyncDiscover DNS result |
-LyncDiscover URI | | |Informational. Displays the URL used to perform a LyncDiscover on your environment.|
-LyncDiscover |Connection Successful |Connection Failed |Response from LyncDiscover web service. |
-SIP Pool Hostname | | |Informational. Display the SIP pool name discovered from LyncDiscover |
+| SIP Domain | | |Informational.  | |
+| Skype Environment |Skype for Business Online, Skype for Business OnPrem, Skype for Business Hybrid |Informational. |What type of environment was detected. Note: Hybrid can only be detected if the password is entered. | |
+| LyncDiscover FQDN | | |Informational. Displays the LyncDiscover DNS result | |
+| LyncDiscover URI | | |Informational. Displays the URL used to perform a LyncDiscover on your environment.| |
+| LyncDiscover |Connection Successful |Connection Failed |Response from LyncDiscover web service. | |
+| SIP Pool Hostname | | |Informational. Display the SIP pool name discovered from LyncDiscover | |
 
 #### Certificates (in-premises hybrid only)
 
 LyncDiscover Certificate
 
-Field |Success |Failure |Comment |Reference
+| Field |Success |Failure |Comment |Reference |
 |------|------|------|------|------|
-LyncDiscover Cert CN | | |Informational. Displays the LD cert Common name |
-LyncDiscover Cert CA | | |Informational. Displays the LD Cert CA |
-LyncDiscover Cert Root CA | | |Informational. Displays the LD Cert Root CA, if available. |
-LD Trust Status |Certificate is Trusted. |Certificate is not trusted, please add the Root CA. |Verify the certificate against the local cert store. Returns positive if the machine trusts the certificate.|[Download and deploy Skype for Business certificates using PowerShell](https://blogs.msdn.microsoft.com/surfacehub/2016/06/07/download-and-deploy-skype-for-business-certificates-using-powershell/)/[Supported items for Surface Hub provisioning packages](https://learn.microsoft.com/surface-hub/provisioning-packages-for-surface-hub#supported-items-for-surface-hub-provisioning-packages)
+| LyncDiscover Cert CN | | |Informational. Displays the LD cert Common name | |
+| LyncDiscover Cert CA | | |Informational. Displays the LD Cert CA | |
+| LyncDiscover Cert Root CA | | |Informational. Displays the LD Cert Root CA, if available. | |
+| LD Trust Status |Certificate is Trusted. |Certificate is not trusted, please add the Root CA. |Verify the certificate against the local cert store. Returns positive if the machine trusts the certificate.|[Download and deploy Skype for Business certificates using PowerShell](https://blogs.msdn.microsoft.com/surfacehub/2016/06/07/download-and-deploy-skype-for-business-certificates-using-powershell/)/[Supported items for Surface Hub provisioning packages](/surface-hub/provisioning-packages-for-surface-hub#supported-items-for-surface-hub-provisioning-packages) |
 
 SIP Pool Certification
 
-Field |Success |Failure |Comment |Reference
+| Field | Success | Failure | Comment | Reference |
 |------|------|------|------|------|
-SIP Pool Cert CN | | |(CONTENTS) |
-SIP Pool Cert CA | | |(CONTENTS) |
-SIP Pool Trust Status |Certificate is Trusted. |Certificate is not trusted, please add the Root CA. |Verify the certificate against the local cert store and return a positive if the devices trusts the certificate. |
-SIP Pool Cert Root CA | | |Information. Display the SIP Pool Cert Root CA, if available. |
+| SIP Pool Cert CN | | |(CONTENTS) | |
+| SIP Pool Cert CA | | |(CONTENTS) | |
+| SIP Pool Trust Status |Certificate is Trusted. |Certificate is not trusted, please add the Root CA. |Verify the certificate against the local cert store and return a positive if the devices trusts the certificate. | |
+| SIP Pool Cert Root CA | | |Information. Display the SIP Pool Cert Root CA, if available. | |
 
 #### Trust Model (on-premises hybrid only)
 
-Field |Success |Failure |Comment |Reference
+| Field | Success | Failure | Comment | Reference |
 |------|------|------|------|------|
-Trust Model Status |No Trust Model Issue Detected. |SIP Domain and server domain are different please add the following domains. |Check the LD FQDN/ LD Server Name/ Pool Server name for Trust model issue. 
-Domain Name(s) | | |Return the list of domains that should be added for SFB to connect. |
+| Trust Model Status |No Trust Model Issue Detected. |SIP Domain and server domain are different please add the following domains. |Check the LD FQDN/ LD Server Name/ Pool Server name for Trust model issue.  | |
+| Domain Name(s) | | |Return the list of domains that should be added for SFB to connect. | |

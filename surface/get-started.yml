@@ -10,10 +10,9 @@ metadata:
   ms.prod: Surface
   ms.topic: landing-page # Required
   ms.custom: intro-hub-or-landing
-  manager: laurawi
-  author: greg-lindsay #Required; your GitHub user alias, with correct capitalization.
-  ms.author: greglin #Required; microsoft alias of author; optional team alias.
-  audience: itpro
+  manager: frankbu
+  author: coveminer #Required; your GitHub user alias, with correct capitalization.
+  ms.author: hachidan #Required; microsoft alias of author; optional team alias.
   ms.localizationpriority: High
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
@@ -30,8 +29,8 @@ landingContent:
             url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/new-surface-devices/ba-p/1721766
           - text: Surface for Business service and repair
             url: surface-service-and-repair.md  
-          - text: Which Surface devices can be upgraded to Windows 11?
-            url: https://support.microsoft.com/surface/which-surface-devices-can-be-upgraded-to-windows-11-76c3c125-82e0-4d1e-9550-12ed09f9058e
+          - text: How rugged are Surface devices?
+            url: surface-hardware-environmental-test-results.md
           - text: Explore all Surface family products
             url: https://www.microsoft.com/surface/business
   
@@ -56,8 +55,8 @@ landingContent:
            url: https://youtu.be/3i8-mougnKo
          - text: Advanced Security and Management Solutions for Hybrid Work from Microsoft Surface 
            url: https://youtu.be/UkJDfjkCTK4
-         - text: Satya Nadella Full Keynote
-           url: https://youtu.be/pdSfgRYy8Ao
+         - text: Built for sustainability - Surface design for a more repairable future
+           url: https://youtu.be/sLalQgxI8Hk
 
  
   # Card

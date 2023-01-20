@@ -1,20 +1,14 @@
 ---
 title: Essential add-ons for Windows 10/11 Pro and Enterprise on Surface Hub 2
 description: This article provides information about optional accessories you can use with Windows 10/11 Pro or Enterprise on Surface Hub 2. 
-keywords: Surface Hub, Windows 10, Windows 11, desktop, fingerprint reader, Windows Hello
 ms.prod: surface-hub
-ms.mktglfcycl: deploy
 ms.localizationpriority: low
-ms.sitesec: library
-ms.pagetype: deploy
-audience: admin
-manager: laurawi
-ms.audience: itpro
-author: greg-lindsay
-ms.author: greglin
+manager: frankbu
+author: coveminer
+ms.author: hachidan
 ms.date: 09/18/2020
 ms.collection: M365-modern-desktop
-ms.topic: article
+ms.topic: conceptual
 ---
 
 # Essential add-ons for Windows 10/11 Pro and Enterprise on Surface Hub 2

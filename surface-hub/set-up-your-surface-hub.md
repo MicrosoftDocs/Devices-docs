@@ -1,28 +1,23 @@
 ---
 title: Set up Microsoft Surface Hub
-description: Set up instructions for Surface Hub include a setup worksheet, and a walkthrough of the first-run program.
+description: Set up instructions for Surface Hub include a setup worksheet and a walkthrough of the first-run program.
 ms.assetid: 4D1722BC-704D-4471-BBBE-D0500B006221
-ms.reviewer: 
-manager: laurawi
-keywords: set up instructions, Surface Hub, setup worksheet, first-run program
+manager: frankbu
 ms.prod: surface-hub
-ms.sitesec: library
-author: dansimp
-ms.author: dansimp
-ms.topic: article
+author: coveminer
+ms.author: hachidan
+ms.topic: how-to
 ms.date: 07/27/2017
 ms.localizationpriority: medium
 ---
 
 # Set up Microsoft Surface Hub
 
-
 Set up instructions for Surface Hub include a setup worksheet, and a walkthrough of the first-run program.
 
 Before you turn on your Microsoft Surface Hub for the first time, make sure you've completed the checklist at the end of the [Prepare your environment for Surface Hub](prepare-your-environment-for-surface-hub.md) section, and that you have the information listed in the [Setup worksheet](setup-worksheet-surface-hub.md). When you do power it on, the device will walk you through a series of setup screens. If you haven't properly set up your environment, or don't have the required information, you'll have to do extra work afterward making sure the settings are correct.
 
 ## In this section
-
 
 <table>
 <colgroup>
@@ -46,14 +41,3 @@ Before you turn on your Microsoft Surface Hub for the first time, make sure you'
 </tr>
 </tbody>
 </table>
-
- 
-
- 
-
- 
-
-
-
-
-

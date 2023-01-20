@@ -2,14 +2,11 @@
 title: Password management (Surface Hub)
 description: Every Microsoft Surface Hub device account requires a password to authenticate and enable features on the device.
 ms.assetid: 0FBFB546-05F0-430E-905E-87111046E4B8
-ms.reviewer: 
-manager: laurawi
-keywords: password, password management, password rotation, device account
+manager: frankbu
 ms.prod: surface-hub
-ms.sitesec: library
-author: dansimp
-ms.author: dansimp
-ms.topic: article
+author: coveminer
+ms.author: hachidan
+ms.topic: how-to
 ms.date: 07/27/2017
 ms.localizationpriority: medium
 ---
@@ -20,14 +17,12 @@ Every Microsoft Surface Hub device account requires a password to authenticate a
 
 To simplify password management for your Surface Hub device accounts, there are two options:
 
-1.  Turn off password expiration for the device account.
-2.  Allow the Surface Hub to automatically rotate the device account’s password.
-
+1. Turn off password expiration for the device account.
+2. Allow the Surface Hub to automatically rotate the device account’s password.
 
 ## Turn off password rotation for the device account
 
 Set the device account’s **PasswordNeverExpires** property to True. You should verify whether this meets your organization’s security requirements.
-
 
 ## Allow the Surface Hub to automatically rotate the device account’s password
 

@@ -3,16 +3,13 @@ title: Create and test a device account (Surface Hub)
 description: This topic introduces how to create and test the device account that Microsoft Surface Hub uses to communicate with Microsoft Exchange and Skype.
 ms.assetid: C8605B5F-2178-4C3A-B4E0-CE32C70ECF67
 ms.reviewer: rikot
-manager: laurawi
-keywords: create and test device account, device account, Surface Hub and Microsoft Exchange, Surface Hub and Skype
+manager: frankbu
 ms.prod: surface-hub
-ms.sitesec: library
-author: dansimp
-ms.author: dansimp
-ms.topic: article
+author: coveminer
+ms.author: hachidan
+ms.topic: how-to
 ms.date: 04/01/2021
 ms.localizationpriority: medium
-ms.audience: itpro
 ---
 
 # Create and test a device account (Surface Hub)
@@ -22,6 +19,9 @@ Creating a Surface Hub device account (also known as a resource account/room mai
 Once the device account is provisioned on a Surface Hub, people can add this account to a meeting invitation the same way that they would invite a conference room. 
 
 You can configure the device account during the [Out-of-Box Experience (OOBE) setup](first-run-program-surface-hub.md). If needed, you can also change it later in **Settings** > **Surface Hub** > **Accounts**.
+
+> [!TIP]
+> As a companion to this article, we recommend using the [Surface Hub and Microsoft Teams Rooms automated setup guide](https://go.microsoft.com/fwlink/?linkid=2221605) when signed in to the Microsoft 365 Admin Center. This guide will customize your experience based on your environment. If you're hosted in Exchange Online and using Microsoft Teams, the guide will automatically create your device account with the correct settings. To review best practices without signing in and activating automated setup features, go to the [M365 Setup portal](https://go.microsoft.com/fwlink/?linkid=2222648). 
 
 ## Configuration overview
 
@@ -51,3 +51,7 @@ Device account setup steps can differ based on environment. Select your deployme
 | [On-premises deployment (multiple forests)](/skypeforbusiness/deploy/deploy-clients/multiple-forest-on-premises-deployments) | Your organization has servers that it controls, where Active Directory, Exchange, and Skype for Business Server are hosted in a multi-forest environment. | ACCOUNTFOREST\username |
 
 For online deployments, there is also a [deployment wizard available for Microsoft 365 admins](https://admin.microsoft.com/Adminportal/Home#/modernonboarding/surfacehubsetupguide) directly in the M365 admin center. This wizard can help create new device accounts, or validate existing resource accounts you have in order to help turn them into compatible Surface Hub device accounts.
+
+## Learn more
+
+- [Surface Hub and Microsoft Teams Rooms setup guide](https://go.microsoft.com/fwlink/?linkid=2221605)

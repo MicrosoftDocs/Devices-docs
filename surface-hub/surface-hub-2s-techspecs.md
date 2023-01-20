@@ -1,14 +1,11 @@
 ---
 title: "Surface Hub 2S tech specs"
 description: "View tech specs for Surface Hub 2S including pen, camera, and optional mobile battery specifications."
-keywords: separate values with commas
 ms.prod: surface-hub
-ms.sitesec: library
-author: greg-lindsay
-manager: laurawi
-ms.author: greglin
-audience: Admin
-ms.topic: article
+author: coveminer
+manager: frankbu
+ms.author: hachidan
+ms.topic: how-to
 ms.date: 12/21/2020
 ms.localizationpriority: Medium
 ---
@@ -30,7 +27,7 @@ ms.localizationpriority: Medium
 |**Wireless**| Wi-Fi 5 (IEEE 802.11 a/b/g/n/ac compatible) Bluetooth Wireless 4.1 technology <br> Miracast display |
 |**Connections**| USB-A <br> Mini-DisplayPort 1.2 video output <br> RJ45 gigabit Ethernet (1000/100/10 BaseT) <br> HDMI video input (HDMI 2.0, HDCP 2.2 /1.4) <br> USB-C with DisplayPort input <br> Four USB-C (on display) |
 |**Sensors**| Doppler occupancy<sup>2</sup> <br> Accelerometer <br> Gyroscope |
-|**Audio/Video**| Full-range, front facing 3-way stereo speakers <br> Full band 8-element MEMS microphone array <br> Microsoft Surface Hub 2 Camera, 4K, USB-C connection, 90-degree HFOV |
+|**Audio/Video**| Full-range, front facing 3-way stereo speakers <br>Full band 8-element MEMS microphone array certified for use with Microsoft Teams up to 2.3 meters away<br>Microsoft Surface Hub 2 Camera, 4K, USB-C connection, 90-degree HFOV |
 |**Pen**| Microsoft Surface Hub 2 Pen (active) |
 |**Software<sup>3</sup>**| Windows 10 <br> Microsoft Teams for Surface Hub <br> Skype for Business <br> Microsoft Whiteboard <br> Microsoft Office (Mobile) <br> Microsoft Power BI |
 |**Exterior**| Casing: Precision machined aluminum with mineral-composite resin <br> Color: Platinum <br> Physical Buttons: Power, Volume, Source |

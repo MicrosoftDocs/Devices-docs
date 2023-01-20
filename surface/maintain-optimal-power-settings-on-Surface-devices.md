@@ -2,15 +2,12 @@
 title: Best practice power settings for Surface devices
 description: This topic provides best practice recommendations for maintaining optimal power settings and explains how Surface streamlines the power management experience. This article applies to all currently supported Surface devices including Surface Laptop Go 2, Surface Pro 9, Surface Pro 8, Surface Laptop SE, Surface Laptop 5, Surface Laptop 4, and Surface Pro X. 
 ms.prod: w11
-ms.mktglfcycl: manage
-ms.sitesec: library
 author: coveminer
-ms.author: greglin
-ms.topic: article
+ms.author: hachidan
+ms.topic: how-to
 ms.reviewer: 
-manager: laurawi
+manager: frankbu
 ms.localizationpriority: medium
-ms.audience: itpro
 ms.date: 10/25/2022
 appliesto:
 - Windows 10
@@ -31,14 +28,14 @@ low power idle state (S0ix).
 
 To ensure Surface devices across your organization fully benefit from Surface power optimization features:
 
--  Install the latest  drivers and firmware from Windows Update or the Surface Driver and Firmware MSI. This creates the balanced power plan (aka power profile) by default and configures optimal power settings.  For more information, refer to [Manage and deploy Surface driver and firmware updates](manage-surface-driver-and-firmware-updates.md).
+- Install the latest  drivers and firmware from Windows Update or the Surface Driver and Firmware MSI. This creates the balanced power plan (aka power profile) by default and configures optimal power settings.  For more information, refer to [Manage and deploy Surface driver and firmware updates](manage-surface-driver-and-firmware-updates.md).
 - Avoid creating custom power profiles or adjusting advanced power settings not visible in the default UI  (**System** > **Power & sleep**).
-- If you must manage the power profile of devices across your network (such as in highly managed organizations), use the powercfg command tool to export the power plan from the factory image of the Surface device and then import it into the provisioning package for your Surface devices. 
+- If you must manage the power profile of devices across your network (such as in highly managed organizations), use the powercfg command tool to export the power plan from the factory image of the Surface device and then import it into the provisioning package for your Surface devices.
 
     >[!TIP]
     >You can only export a power plan across the same type of Surface device.  For example, you cannot export a power plan from Surface Laptop and import it on Surface Pro.  For more information, refer to [Configure power settings](/windows-hardware/customize/power-settings/configure-power-settings).
 
-- Exclude Surface devices from any existing power management policy settings. 
+- Exclude Surface devices from any existing power management policy settings.
 
 ## Background
 
@@ -60,7 +57,6 @@ function. This article applies to all currently supported Surface devices.
 
 If you go into the power options on a surface device, you'll see that there's a single power plan available. This is the custom power profile. And if you go to the advanced power settings, you’ll see a much smaller subset of power options compared to a generic PC running Windows 10 or Windows 11. Unlike generic devices, Surface has firmware and custom components to manage these power options.
 
-
 ## Modern Standby
 
 The algorithmically embedded custom power profile enables modern standby
@@ -81,7 +77,7 @@ power mode for Surface devices. Modern standby has two modes:
 To learn more about modern standby, refer to the [Microsoft Hardware Dev
 Center](/windows-hardware/design/device-experiences/modern-standby-wake-sources).
 
-## How Surface streamlines the power management experience 
+## How Surface streamlines the power management experience
 
 Surface integrates the following features designed to help users
 optimize the power management experience:
@@ -149,17 +145,16 @@ in the following table.
 
 To learn more, see:
 
--   [Customize the Windows performance power
+- [Customize the Windows performance power
     slider](/windows-hardware/customize/desktop/customize-power-slider)
 
--   [Battery
+- [Battery
     saver.](/windows-hardware/design/component-guidelines/battery-saver)
 
 ## Best practices for extended battery life
 
-
 | Best practice | Go to | Next steps |
-|---|---|---|                                                                                                                                    
+|---|---|---|
 | Ensure your Surface device is up to date| Windows Update | In the taskbar search box, type **Windows Update** and select **Check for updates**. |
 | Choose the best power setting for what you’re doing | Power slider | In the taskbar, select the battery icon, then choose **Best performance**, **Best battery life**, or somewhere in between.|
 | Conserve battery when it’s low | Battery saver | In the taskbar, select the battery icon and click **Battery settings**. Select **Turn battery saver on automatically if my battery falls below** and then move the slider further to the right for longer battery life. |
@@ -169,7 +164,7 @@ To learn more, see:
 | Check app usage | Your apps | Close apps.|
 | Check your power cord for any damage.| Your power cord | Replace power cord if worn or damaged.|
 
-## Learn more 
+## Learn more
 
 - [Modern
     standby](/windows-hardware/design/device-experiences/modern-standby-wake-sources)

@@ -12,11 +12,10 @@ metadata:
   ms.prod: surface-hub
   ms.technology: windows
   ms.custom: intro-hub-or-landing
-  audience: ITPro
   ms.localizationpriority: medium
-  author: greg-lindsay #Required; your GitHub user alias, with correct capitalization.
-  ms.author: greglin #Required; microsoft alias of author; optional team alias.
-  manager: laurawi
+  author: coveminer #Required; your GitHub user alias, with correct capitalization.
+  ms.author: hachidan #Required; microsoft alias of author; optional team alias.
+  manager: frankbu
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
 
@@ -29,6 +28,8 @@ landingContent:
     linkLists:
       - linkListType: learn
         links:
+          - text: Surface Hub and Microsoft Teams Rooms automated setup guide (requires M365 authentication)
+            url: https://go.microsoft.com/fwlink/?linkid=2221605
           - text: Latest Surface Hub OS updates released 
             url: surface-hub-2020-update-whats-new.md 
           - text: Install Progressive Web Apps on Surface Hub
@@ -41,10 +42,34 @@ landingContent:
             url: /surface-hub/hub-teams-app
           - text: Modern authentication on Surface Hub                
             url: surface-hub-modern-auth.md
-          - text: Migrate to Windows 10 or Windows 11 Pro or Enterprise on Surface Hub 2
-            url: surface-hub-2s-migrate-os.md
 
 
+
+# Card (optional)
+  - title: Troubleshoot
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - url: troubleshoot-teams-sign-in-surface-hub.md
+            text: Troubleshoot Teams sign-in issues on Surface Hub  
+          - url: troubleshoot-power-surface-hub-2s.md
+            text: Troubleshoot Surface Hub 2S Power Issues  
+          - url: troubleshoot-access-to-settings-app-surface-hub.md
+            text: Troubleshoot access to Settings app on Surface Hub 
+          - url: troubleshoot-surface-hub-2-pen.md
+            text: Troubleshoot Surface Hub 2 pen   
+          - url: miracast-troubleshooting.md
+            text: Troubleshoot Miracast on Surface Hub
+          - url: surface-hub-2s-recover-reset.md
+            text: Recover & reset Surface Hub 2S
+          - url:  device-reset-surface-hub.md
+            text: Recover Surface Hub v1 from the cloud
+          - url: collect-surface-hub-log-files.md
+            text: Collect Surface Hub log files     
+          - url: surface-hub-update-history.md 
+            text: Surface Hub Update History  
+
+  
   # Card (optional)
   - title: Get started
     linkLists:
@@ -58,6 +83,20 @@ landingContent:
             url: differences-between-surface-hub-and-windows-10-enterprise.md
           - text: Enable Microsoft Whiteboard on Surface Hub
             url: https://support.office.com/article/Enable-Microsoft-Whiteboard-on-Surface-Hub-b5df4539-f735-42ff-b22a-0f5e21be7627
+
+    # Card (optional)
+  - title: Deploy
+    linkLists:
+      - linkListType: deploy
+        links:
+          - url: https://go.microsoft.com/fwlink/?linkid=2222648
+            text: Surface Hub and Microsoft Teams Rooms setup best practices
+          - url: /microsoftteams/rooms/coordinated-meetings
+            text: Set up Coordinated Meetings with Microsoft Teams Rooms and Surface Hub 
+          - url: surface-hub-2s-adoption-kit.md
+            text: Surface Hub 2S adoption and training
+          - url: create-and-test-a-device-account-surface-hub.md
+            text: Create and test a device account
 
   # Card
   - title: See Surface Hub in action
@@ -80,24 +119,13 @@ landingContent:
             url: https://www.youtube.com/watch?v=u4pLDQCQoYc  
     
 
-  # Card (optional)
-  - title: Deploy
-    linkLists:
-      - linkListType: deploy
-        links:
-          - url: https://learn.microsoft.com/microsoftteams/rooms/coordinated-meetings
-            text: Set up Coordinated Meetings with Microsoft Teams Rooms and Surface Hub 
-          - url: surface-hub-2s-adoption-kit.md
-            text: Surface Hub 2S adoption and training
-          - url: create-and-test-a-device-account-surface-hub.md
-            text: Create and test a device account
 
   # Card (optional)
   - title: Manage
     linkLists:
       - linkListType: learn
         links:
-          - url: https://learn.microsoft.com/microsoftteams/rooms/surface-hub-manage-config
+          - url: /microsoftteams/rooms/surface-hub-manage-config
             text: Manage Microsoft Teams settings on Surface Hub
           - url: manage-settings-with-mdm-for-surface-hub.md
             text: Manage Surface Hub with an MDM provider 
@@ -121,17 +149,17 @@ landingContent:
     linkLists:
       - linkListType: learn
         links:
-          - url: https://learn.microsoft.com/windows/apps/design/basics/
+          - url: /windows/apps/design/basics/
             text: Design basics for Windows apps 
-          - url: https://learn.microsoft.com/windows/uwp/get-started/
+          - url: /windows/uwp/get-started/
             text: Get started building Windows apps that work on all Windows devices
-          - url: https://learn.microsoft.com/windows/uwp/debug-test-perf/test-surface-hub-apps-using-visual-studio
+          - url: /windows/uwp/debug-test-perf/test-surface-hub-apps-using-visual-studio
             text: Test Surface Hub apps using Visual Studio
-          - url: https://learn.microsoft.com/windows/uwp/publish/distribute-lob-apps-to-enterprises
+          - url: /windows/uwp/publish/distribute-lob-apps-to-enterprises
             text: Distribute LOB apps to enterprises
           - url: https://businessstore.microsoft.com/store/private-store
             text: Microsoft Store for Business
-          - url: https://learn.microsoft.com/microsoft-store/distribute-apps-with-management-tool
+          - url: /microsoft-store/distribute-apps-with-management-tool
             text: Distribute apps with a management tool
 
 # Card (optional)
@@ -150,24 +178,6 @@ landingContent:
           - url: /surface/surface-driver-firmware-lifecycle-support#surface-hub-driver-and-firmware-support-lifecycle
             text: Surface Hub driver and firmware support lifecycle 
 
-
-# Card (optional)
-  - title: Troubleshoot
-    linkLists:
-      - linkListType: learn
-        links:
-          - url: surface-hub-2s-recover-reset.md
-            text: Recover & reset Surface Hub 2S
-          - url:  device-reset-surface-hub.md
-            text: Recover Surface Hub v1 from the cloud
-          - url: collect-surface-hub-log-files.md
-            text: Collect Surface Hub log files
-          - url: troubleshoot-teams-sign-in-surface-hub.md
-            text: Troubleshoot Teams sign-in issues on Surface Hub  
-          - url: troubleshoot-power-surface-hub-2s.md
-            text: Troubleshoot Surface Hub 2S Power Issues    
-          - text: Surface Hub Update History  
-            url: surface-hub-update-history.md
 
   # Card (optional)
   - title: Community

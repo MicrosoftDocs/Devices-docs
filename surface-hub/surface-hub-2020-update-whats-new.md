@@ -1,14 +1,11 @@
 ---
 title: "What's new in Windows 10 Team 2020 updates"
 description: "Check out what's new in the latest update of the Surface Hub operating system, Windows 10 Team 2020 Update."
-keywords: separate values with commas
 ms.prod: surface-hub
-ms.sitesec: library
-author: greg-lindsay
-ms.author: greglin
-manager: laurawi
-audience: Admin
-ms.topic: article
+author: coveminer
+ms.author: hachidan
+manager: frankbu
+ms.topic: overview
 ms.date: 02/15/2022
 ms.localizationpriority: Medium
 ---
@@ -48,8 +45,7 @@ To learn more, see [Adjust Ease of Access settings on Surface Hub](accessibility
   - [TimeLanguageSettings-CSP](/windows/client-management/mdm/policy-csp-timelanguagesettings)
   - [LocalUsersAndGroups-CSP](/windows/client-management/mdm/policy-csp-localusersandgroups) 
 
-To learn more, see [Configure non Global admin accounts on Surface Hub](surface-hub-2s-nonglobal-admin.md).
-
+To learn more, see [Configure non-Global Admin accounts on Surface Hub](surface-hub-2s-nonglobal-admin.md).
 
 ## Windows 10 Team 2020 Update 1
 
@@ -64,7 +60,6 @@ After installation of this update, Surface Hubs support an automatic upgrade (wh
 ### New Microsoft Edge browser installed by default
 
 After installation of this update, Surface Hubs will automatically replace their Microsoft Edge Legacy browser with the new Chromium-based Edge browser.  To learn more, see [Manage Microsoft Edge on Surface Hub](surface-hub-install-chromium-edge.md). Edge Legacy is no longer available on Windows 10 Team after installation of this update or a subsequent Windows CU.
-
 
 ## Windows 10 Team 2020 Update (20H2)
 
@@ -88,7 +83,7 @@ To learn more, see:
 
 - **Single sign-on (SSO) for Azure AD joined devices**. When users sign in with their Microsoft 365 credentials to **My meetings and files**, their credentials flow seamlessly from app to app – including Microsoft 365 experiences in the browser.
 - **Conditional access (CA) for Azure AD joined devices**. IT admins can control user access to organizational resources from Azure AD joined Surface Hubs by assigning device policies per their corporate security and compliance requirements.
-- **Support for non Global admins for Azure AD joined devices**. Customers can choose a more granular set of admins within their admin hierarchy to manage Surface Hub. To learn more, see [Configure non Global admin accounts on Surface Hub](surface-hub-2s-nonglobal-admin.md).
+- **Support for non-Global admins for Azure AD joined devices**. Customers can choose a more granular set of admins within their admin hierarchy to manage Surface Hub. To learn more, see [Configure non-Global Admin accounts on Surface Hub](surface-hub-2s-nonglobal-admin.md).
 
 ### Inking improvements
 

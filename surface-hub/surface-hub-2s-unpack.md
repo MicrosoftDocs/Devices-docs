@@ -1,21 +1,18 @@
 ---
 title: "Unpack Surface Hub 2S"
 description: "This page includes information about safely unpacking Surface Hub 2S."
-keywords: separate values with commas
 ms.prod: surface-hub
-ms.sitesec: library
-author: greg-lindsay
-ms.author: greglin
-manager: laurawi
-audience: Admin
-ms.topic: article
+author: coveminer
+ms.author: hachidan
+manager: frankbu
+ms.topic: how-to
 ms.date: 06/20/2019
 ms.localizationpriority: Medium
 ---
 
 # Unpack Surface Hub 2S
 
-## Unpacking the Surface Hub 2S
+## Unpacking Surface Hub 2S
 
 Before you remove Surface Hub 2S from the box, make sure that you have your mounting solution assembled and someone available to help you.
 

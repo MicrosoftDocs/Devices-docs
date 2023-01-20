@@ -2,19 +2,13 @@
 title: Secure Surface Dock 2 ports with Surface Enterprise Management Mode (SEMM)
 description: This document provides guidance for configuring UEFI port settings for Surface Dock 2 when connected to compatible Surface devices.
 ms.assetid: 2808a8be-e2d4-4cb6-bd53-9d10c0d3e1d6
-ms.reviewer: 
-manager: laurawi
-keywords: Troubleshoot common problems, setup issues
-ms.prod: w10
-ms.mktglfcycl: support
-ms.sitesec: library
-ms.pagetype: surfacehub
+manager: frankbu
+ms.prod: surface
 author: coveminer
-ms.author: jesko
-ms.topic: article
+ms.author: hachidan
+ms.topic: how-to
 ms.date: 06/07/2022
 ms.localizationpriority: medium
-ms.audience: itpro
 appliesto:
 - Windows 10
 - Windows 11

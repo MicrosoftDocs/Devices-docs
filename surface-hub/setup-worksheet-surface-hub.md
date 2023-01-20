@@ -3,13 +3,11 @@ title: Setup worksheet (Surface Hub)
 description: When you've finished pre-setup and are ready to start first-time setup for your Microsoft Surface Hub, make sure you have all the information listed in this section.
 ms.assetid: AC6F925B-BADE-48F5-8D53-8B6FFF6EE3EB
 ms.reviewer: 
-manager: laurawi
-keywords: Setup worksheet, pre-setup, first-time setup
+manager: frankbu
 ms.prod: surface-hub
-ms.sitesec: library
-author: dansimp
-ms.author: dansimp
-ms.topic: article
+author: coveminer
+ms.author: hachidan
+ms.topic: how-to
 ms.date: 05/14/2021
 ms.localizationpriority: medium
 appliesto:
@@ -53,7 +51,7 @@ Use Device affiliation to manage user access to the Settings app on Surface Hub.
 | Property                                                 | What this is used for                                                                                                                                                                                                                                                    | Example                         | Learn more                                                                                                                        |
 | -------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
 | Azure AD tenant user credentials (username and password) | If you decide to have people in your Azure Active Directory (Azure AD) organization become admins on the device, then you'll need to join the Surface Hub to Azure AD. To join it to Azure AD, you will need valid credentials for an account in the tenant.                                                               | admin1@contoso.com, #MyPassw0rd | [Admin group management](admin-group-management-for-surface-hub.md)                     |
-| Non Global Admin accounts                                | For Surface Hub devices joined to Azure AD,  you can limit admin permissions to management of the Settings app on Surface Hub. This enables you to scope admin permissions for Surface Hub only and prevent potentially unwanted admin access an entire Azure AD domain. |                                 | [Configure non Global admin accounts on Surface Hub](surface-hub-2s-nonglobal-admin.md) |
+| Non Global Admin accounts                                | For Surface Hub devices joined to Azure AD,  you can limit admin permissions to management of the Settings app on Surface Hub. This enables you to scope admin permissions for Surface Hub only and prevent potentially unwanted admin access an entire Azure AD domain. |                                 | [Configure non-Global Admin accounts on Surface Hub](surface-hub-2s-nonglobal-admin.md) |
 
 ### If you’re joining a domain
 

@@ -1,17 +1,14 @@
 ---
 title: Surface Diagnostic Toolkit for Business
 description: This topic explains how to deploy and use the Surface Diagnostic Toolkit for Business, which enables IT administrators to quickly investigate, troubleshoot, and resolve hardware, software, and firmware issues with Surface devices.
-ms.prod: w10
-ms.mktglfcycl: manage
+ms.prod: surface
 ms.localizationpriority: medium
-ms.sitesec: library
 author: coveminer
-ms.author: greglin
-ms.topic: article
+ms.author: hachidan
+ms.topic: how-to
 ms.date: 10/25/2021
 ms.reviewer: hachidan
-manager: laurawi
-audience: itpro
+manager: frankbu
 appliesto:
 - Windows 10
 - Windows 11
@@ -166,6 +163,14 @@ You can select to run a wide range of logs across applications, drivers, hardwar
 - [Run command-line app console with Surface Diagnostic Toolkit for Business](surface-diagnostic-toolkit-command-line.md)
 
 ## Changes and updates
+
+### Version 2.193.139.0
+
+This version of Surface Diagnostic Toolkit for Business adds support for the following:
+
+- Surface Pro 9
+- Surface Laptop 5
+- Surface Studio 2+
 
 ### Version 2.168.139.0
 

@@ -3,12 +3,12 @@ title: Connect other devices and display with Surface Hub
 description: You can connect other device to your Surface Hub to display content. 
 ms.assetid: 8BB80FA3-D364-4A90-B72B-65F0F0FC1F0D
 ms.reviewer: 
-manager: laurawi
+manager: frankbu
 ms.prod: surface-hub
-ms.sitesec: library
-author: dansimp
-ms.author: dansimp
-ms.topic: article
+
+author: coveminer
+ms.author: hachidan
+ms.topic: how-to
 ms.date: 07/27/2017
 ms.localizationpriority: medium
 ---

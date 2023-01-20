@@ -1,21 +1,17 @@
 ---
 title: Troubleshoot Microsoft Surface Hub
-description: Troubleshoot common problems, including setup issues, Exchange ActiveSync errors.
+description: Troubleshoot common problems, including setup issues and Exchange ActiveSync errors.
 ms.assetid: CF58F74D-8077-48C3-981E-FCFDCA34B34A
-ms.reviewer: 
-manager: laurawi
-keywords: Troubleshoot common problems, setup issues, Exchange ActiveSync errors
+manager: frankbu
 ms.prod: surface-hub
-ms.sitesec: library
-author: dansimp
-ms.author: dansimp
-ms.topic: article
+author: coveminer
+ms.author: hachidan
+ms.topic: troubleshooting
 ms.date: 03/16/2018
 ms.localizationpriority: medium
 ---
 
 # Troubleshoot Microsoft Surface Hub
-
 
 Troubleshoot common problems, including setup issues, Exchange ActiveSync errors.
 
@@ -23,11 +19,7 @@ The [Surface Hub Hardware Diagnostic tool](https://www.microsoft.com/store/p/sur
 
 Common issues are listed in the following table, along with causes and possible fixes. The [Setup troubleshooting](#setup-troubleshooting) section contains a listing of on-device problems, along with several types of issues that may be encountered during the first-run experience. The [Exchange ActiveSync errors](#exchange-activesync-errors) section lists common errors the device may encounter when trying to synchronize with an Microsoft Exchange ActiveSync server.
 
-
-
-
 ## Setup troubleshooting
-
 
 This section lists causes, and possible fixes to help troubleshoot issues you might find when you set up your Microsoft Surface Hub.
 
@@ -164,8 +156,6 @@ Possible fixes for issues with Surface Hub first-run program.
 </tbody>
 </table>
 
- 
-
 ### <a href="" id="first-run-device-acct-page"></a>Device account page, issues for new account settings
 
 <table>
@@ -204,8 +194,6 @@ Possible fixes for issues with Surface Hub first-run program.
 </tr>
 </tbody>
 </table>
-
- 
 
 ### Device account page, issues for existing account settings
 
@@ -365,8 +353,6 @@ Possible fixes for issues with Surface Hub first-run program.
 </tbody>
 </table>
 
- 
-
 ### First run, Exchange server page
 
 <table>
@@ -390,8 +376,6 @@ Possible fixes for issues with Surface Hub first-run program.
 </tr>
 </tbody>
 </table>
-
- 
 
 ### <a href="" id="first-run-on-device"></a>First run, On-device issues
 
@@ -420,14 +404,7 @@ Possible fixes for issues with Surface Hub first-run program.
 </tbody>
 </table>
 
- 
-
-
-
- 
-
 ## Exchange ActiveSync errors
-
 
 This section lists status codes, mapping, user messages, and actions an admin can take to solve Exchange ActiveSync errors.
 
@@ -606,9 +583,7 @@ This section lists status codes, mapping, user messages, and actions an admin ca
 
 If you have questions or need help, you can [create a support request](https://support.microsoft.com/supportforbusiness/productselection).
 
-
- 
 ## Related content
 
-- [Troubleshooting Miracast connection to the Surface Hub](https://learn.microsoft.com/surface-hub/miracast-troubleshooting)
+- [Troubleshooting Miracast connection to the Surface Hub](/surface-hub/miracast-troubleshooting)
  
