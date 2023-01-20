@@ -13,14 +13,14 @@ ms.localizationpriority: medium
 
 # Use the Surface Hub Recovery Tool
 
-The [Microsoft Surface Hub Recovery Tool](https://www.microsoft.com/download/details.aspx?id=52210) helps you re-image your Surface Hub Solid State Drive (SSD) using a Windows 10 desktop device, without calling support or replacing the SSD. With this tool, you can reimage an SSD that has an unknown Administrator password, boot errors, was unable to complete a cloud recovery, or for a device that has an older version of the operating system. The tool will not fix physically damaged SSDs.
+The [Microsoft Surface Hub Recovery Tool](https://www.microsoft.com/download/details.aspx?id=52210) helps you re-image your Surface Hub Solid State Drive (SSD) using a Windows 10 desktop device, without calling support or replacing the SSD. With this tool, you can re-image an SSD that has an unknown Administrator password, boot errors, was unable to complete a cloud recovery, or for a device that has an older version of the operating system. The tool will not fix physically damaged SSDs.
 
 To re-image the Surface Hub SSD using the Recovery Tool, you'll need to remove the SSD from the Surface Hub, connect the drive to the USB-to-SATA cable, and then connect the cable to the desktop PC on which the Recovery Tool is installed. For more information on how to remove the existing drive from your Surface Hub, see [Surface Hub SSD replacement](surface-hub-ssd-replacement.md).
 
 > [!IMPORTANT]
 > Do not let the device go to sleep or interrupt the download of the image file.
 
-If the tool is unsuccessful in reimaging your drive, please contact [Surface Hub Support](https://support.microsoft.com/help/4037644/surface-contact-surface-warranty-and-software-support).
+If the tool is unsuccessful in re-imaging your drive, please contact [Surface Hub Support](https://support.microsoft.com/help/4037644/surface-contact-surface-warranty-and-software-support).
 
 ## Prerequisites
 
@@ -31,7 +31,7 @@ If the tool is unsuccessful in reimaging your drive, please contact [Surface Hub
 - Open USB 2.0 or greater port
 - USB-to-SATA cable
 - 10 GB of free disk space on the host computer
-- SSDs shipped with Surface Hub or a SSD provided by Support as a replacement. SSDs not supplied by Microsoft are not supported.
+- SSDs shipped with Surface Hub or an SSD provided by Support as a replacement. SSDs not supplied by Microsoft are not supported.
 
 ### Recommended
 
@@ -71,11 +71,11 @@ Install Surface Hub Recovery Tool on the host PC.
 4. In the Select image window, click either **20H2** or its successor **22H2**, select **Continue,** and then select **Download image.**
 
    :::image type="content" source="images/shrt-select-image.png" alt-text="Screenshot of Recovery Tool Select image." :::
-   :::image type="content" source="images/shrt-download-image.png" alt-text="Screenshot of Recovery Tool Select image." :::
+   :::image type="content" source="images/shrt-download-image.png" alt-text="Screenshot showing image download." :::
 
 5. Time to download the recovery image is dependent on internet connection speeds. On an average corporate connection, it can take up to an hour to download the 8GB image file.
 
-   :::image type="content" source="images/shrt-download.png" alt-text="Screenshot of Downloadiing image." :::
+   :::image type="content" source="images/shrt-download.png" alt-text="Screenshot showing progress of image download." :::
 
 5. When the download is complete, the tool instructs you to connect an SSD drive. If the tool is unable to locate the attached drive, there is a good chance that the cable being used is not reporting the name of the SSD to Windows.  The imaging tool must find the name of the drive as "LITEON L CH-128V2S USB Device" before it can continue.  For more information on how to remove the existing drive from your Surface Hub, see [Surface Hub SSD replacement](surface-hub-ssd-replacement.md).
 
