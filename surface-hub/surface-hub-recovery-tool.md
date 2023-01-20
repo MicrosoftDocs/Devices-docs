@@ -100,15 +100,9 @@ If the tool is unsuccessful in reimaging your drive, contact [Surface Hub Suppor
 
 ### Version v2.7.139.0
 
-*Release date: September 30, 2021*<br>
 This version of Surface Hub Recovery Tool adds support for Windows 10 Team 2022 Update (22H2).
-
-*Release date: February 11, 2021*<br>
-This version of Surface Hub Recovery Tool adds support for security updates.
 
 ### Version v2.0.139.0
 
 > [!IMPORTANT]
 > This version is no longer functional. Please download the current version.
-
-*Release date: December 18, 2020*<br>
