@@ -1,3 +1,8 @@
-- name: Docs
+- name: Learn
   tocHref: /
   topicHref: /
+  items:
+  - name: Surface Duo
+    tocHref: /surface/
+    topicHref: /surface-duo/
+    
