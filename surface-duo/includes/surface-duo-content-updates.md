@@ -8,6 +8,7 @@
 | Published On |Topic title | Change |
 |------|------------|--------|
 | 1/20/2023 | Contact Surface Business Support | removed |
+| 1/20/2023 | Contact Surface Business Support | removed |
 
 
 ## Week of January 02, 2023
