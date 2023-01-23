@@ -26,7 +26,7 @@ You can reset Surface Hub to restore the operating system to the last cumulative
 - Configuration data that was set by using MDM or the Settings app.
 
 > [!TIP]
-> If the reset option cannot be used, the [Surface Hub Recovery Tool](surface-hub-recovery-tool.md) is available to reimage the Surface Hub SSD directly.
+> If the reset option cannot be used, the [Surface Hub Recovery Tool](surface-hub-recovery-tool.md) can reimage the Surface Hub SSD directly.
 
 ## Reset a Surface Hub
 
@@ -35,10 +35,10 @@ You may have to reset Surface Hub for the following scenarios:
 - You're repurposing the device for a new meeting space and want to reconfigure it.
 - You want to change how you locally manage the device.
 
-During the reset process, if you see a blank screen for long periods of time, wait and don't take any action.
+During the reset process, if you see a blank screen for long periods, wait and don't take any action.
 
 > [!WARNING]
-> The device reset process may take up to six hours. Do not turn off or unplug the Surface Hub until the process has finished. If you interrupt the process, the device becomes inoperable and requires warranty service in order to become functional again.
+> The device reset process may take up to six hours. Do not turn off or unplug the Surface Hub until the process has finished. If you interrupt the process, the device becomes inoperable and requires warranty service to become functional again.
 
 1. On your Surface Hub, open **Settings**.
 
@@ -53,7 +53,7 @@ During the reset process, if you see a blank screen for long periods of time, wa
 3. Select **Recovery**, and then, under **Reset device**, select **Get started**.
 
    > [!IMPORTANT]
-   > Ensure that you have your BitLocker key available before resetting the device, as you will be prompted for it later. To learn more, see [Save your BitLocker key](save-bitlocker-key-surface-hub.md). When the Hub reboots to the recovery partition, it will prompt you to enter the BitLocker key. Skipping that prompt will cause reset to fail.
+   > Ensure that your BitLocker key is available as you will be prompted for it later. To learn more, see [Save your BitLocker key](save-bitlocker-key-surface-hub.md). When the Hub reboots to the recovery partition, it will prompt you to enter the BitLocker key. Skipping that prompt will cause reset to fail.
 
    > [!div class="mx-imgBorder"]
    > ![Screenshot that shows the Reset device option in Settings app for Surface Hub.](images/sh-settings-reset-device.png)
@@ -62,7 +62,7 @@ During the reset process, if you see a blank screen for long periods of time, wa
 
 ## Recover a locked Surface Hub
 
-If the Surface Hub becomes unusable and you can't reset it from the Settings app, you can still reset the Surface Hub if you have the BitLocker recovery key.
+If the Surface Hub becomes unusable and you can't reset it from the Settings app, you can still reset it if you have the BitLocker recovery key.
 
 1. Locate the power switch on the bottom of Surface Hub. The power switch is next to the power cord connection. For more information about the power switch, see the [Surface Hub Site Readiness Guide (PDF)](surface-hub-site-readiness-guide.md).
 
@@ -70,7 +70,7 @@ If the Surface Hub becomes unusable and you can't reset it from the Settings app
 
 3. Use the power switch to turn the Surface Hub back on. The device starts and displays the Surface Hub Logo screen. When you see spinning dots under the Surface Hub Logo, use the power switch to turn the Surface Hub off again.  
 
-4. Repeat step 3 two times, or until the Surface Hub displays the "Preparing Automatic Repair" message. After it displays this message, the Surface Hub displays the Windows RE screen.
+4. Repeat step 3 twice, or until Surface Hub displays the "Preparing Automatic Repair" message. After it displays this message, Surface Hub shows the Windows RE screen.
 
 5. Select **Reset** > **Local reinstall** > **Fully clean the drive.**
 
