@@ -201,10 +201,11 @@
           href: prepare-your-environment-for-surface-hub.md
         - name: Surface Hub Site Readiness Guide
           href: surface-hub-site-readiness-guide.md
-        - name: Physically install Microsoft Surface Hub
-          href: physically-install-your-surface-hub-device.md
-        - name: Downloadable resources for Surface Hub readiness
-          href: surface-hub-downloads.md          
+          items:
+          - name: Physically install Microsoft Surface Hub
+            href: physically-install-your-surface-hub-device.md
+          - name: Downloadable resources for Surface Hub readiness
+            href: surface-hub-downloads.md          
     - name: Deploy
       items: 
         - name: Admin group management
