@@ -205,7 +205,9 @@
           - name: Physically install Microsoft Surface Hub
             href: physically-install-your-surface-hub-device.md
           - name: Downloadable resources for Surface Hub readiness
-            href: surface-hub-downloads.md          
+            href: surface-hub-downloads.md         
+          - name: Setup worksheet
+            href: setup-worksheet-surface-hub.md
     - name: Deploy
       items: 
         - name: Admin group management
