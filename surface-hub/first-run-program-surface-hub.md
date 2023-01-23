@@ -10,6 +10,9 @@ ms.author: hachidan
 ms.topic: how-to
 ms.date: 08/17/2021
 ms.localizationpriority: medium
+appliesto:
+- Surface Hub 
+- Surface Hub 2S
 ---
 
 # First time setup for Surface Hub
