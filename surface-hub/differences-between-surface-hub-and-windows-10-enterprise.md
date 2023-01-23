@@ -190,7 +190,7 @@ Surface Hub uses domain join and Azure AD join primarily to provide a directory-
 
 ### Accessing domain resources
 
-Users can sign in to Microsoft Edge to access intranet sites and online resources (such as Office 365). If your Surface Hub is configured with a device account, the system uses it to access Exchange and Skype for Business. However, Surface Hub doesn't support accessing domain resources such as file shares and printers.
+Users can sign in to Microsoft Edge to access intranet sites and online resources (such as Microsoft 365). If your Surface Hub is configured with a device account, the system uses it to access Exchange and Skype for Business. However, Surface Hub doesn't support accessing domain resources such as file shares and printers.
 
 *Organization policies that this may affect:* 
 

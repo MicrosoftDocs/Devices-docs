@@ -24,11 +24,11 @@ To use whiteboard collaboration, complete the following actions:
 - Open port: **HTTPS: 443** (normally configured when you first run Surface Hub.)
 - Ensure that Whiteboard is enabled for your organization. For more information, see [Manage access to Whiteboard](/microsoft-365/whiteboard/manage-whiteboard-access-organizations).
 
-## Office 365 requirements
+## Microsoft 365 requirements
 
-- Whiteboard collaboration is only supported in the Office 365 commercial environment and requires Office 365 with cloud-based Azure Active Directory (Azure AD).
-- You can only run collaborative sessions among users belonging to the same Office 365 tenant.
-- Office 365 Germany or Office 365 operated by 21Vianet don't support whiteboard collaboration.
+- Whiteboard collaboration is only supported in the Microsoft 365 commercial environment and requires Microsoft 365 with cloud-based Azure Active Directory (Azure AD).
+- You can only run collaborative sessions among users belonging to the same Microsoft 365 tenant.
+- Microsoft 365 Germany or Microsoft 365 operated by 21Vianet don't support whiteboard collaboration.
 
 ## Collaborating with whiteboards
 

@@ -37,7 +37,7 @@ Whether you're a small or large business, a Surface Hub adoption plan is critica
 ## End user guides
 
 - [Guide to Navigation on Surface Hub](downloads/Guide-SurfaceHub2S-Navigation.pptx)
-- [Guide to Office 365 on Surface Hub](downloads/Guide-SurfaceHub2S-Office365.pptx)
+- [Guide to Microsoft 365 on Surface Hub](downloads/Guide-SurfaceHub2S-Office365.pptx)
 - [Guide to Microsoft Whiteboard on Surface Hub](downloads/Guide-SurfaceHub2S-Whiteboard.pptx)
 - [Guide to Microsoft Teams on Surface Hub](downloads/Guide-SurfaceHub2S-Teams.pptx)
 
