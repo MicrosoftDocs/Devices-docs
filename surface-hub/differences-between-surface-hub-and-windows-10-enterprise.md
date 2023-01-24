@@ -1,5 +1,5 @@
 ---
-title: Operating system essentials (Surface Hub)
+title: Operating system essentials for Surface Hub
 description: This article explains unique aspects of the Windows Team operating system on Surface Hub and how it differs from Windows 10 or Windows 11 Enterprise.
 ms.prod: surface-hub
 author: coveminer
@@ -8,9 +8,12 @@ ms.topic: how-to
 ms.date: 02/15/2022
 manager: frankbu
 ms.localizationpriority: medium
+appliesto:
+- Surface Hub 
+- Surface Hub 2S
 ---
 
-# Operating system essentials (Surface Hub)
+# Operating system essentials for Surface Hub
 
 The Surface Hub operating system, Windows 10 Team, originated with Windows 10 Enterprise, providing rich support for enterprise management, security, and other features. However, there are important differences between them. While the Enterprise edition is designed for PCs, Windows 10 Team is designed from the ground up for large screens and meeting rooms. When you evaluate security and management requirements for Surface Hub, it's recommended to consider it as a new operating system. This article highlights the key differences between Windows 10 Team on Surface Hub and enterprise versions of Windows 10 or Windows 11.
 
