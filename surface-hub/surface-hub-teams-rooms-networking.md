@@ -28,7 +28,7 @@ Teams Rooms on Surface Hub must have access to a network that meets these requir
 - Access to your Active Directory or Azure Active Directory (Azure AD) instance
 - Access to a server that can provide an IP address using DHCP. Microsoft Teams Rooms on Surface Hub cannot be configured with a static IP address.
 - Access to HTTP ports 80 and 443.
-- TCP and UDP ports configured as described in Port and protocol requirements for [Microsoft 365 and Office 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges) for Microsoft Teams.
+- TCP and UDP ports configured as described in Port and protocol requirements for [Microsoft 365 and Microsoft 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges) for Microsoft Teams.
 
 > [!IMPORTANT]
 > Microsoft Teams Rooms does not support proxy authentication as it may interfere with regular operations of Teams. Ensure that Surface Hub devices or Microsoft 365 service endpoints have been exempted from proxy authentication before going into production with Teams Rooms on Surface Hub.

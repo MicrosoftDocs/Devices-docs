@@ -1,6 +1,6 @@
 ---
-title: Create and test a device account (Surface Hub)
-description: This topic introduces how to create and test the device account that Microsoft Surface Hub uses to communicate with Microsoft Exchange and Skype.
+title: Create and test a device account on Surface Hub
+description: This article introduces how to create and test the device account that Microsoft Surface Hub uses to communicate with Microsoft Exchange and Skype.
 ms.assetid: C8605B5F-2178-4C3A-B4E0-CE32C70ECF67
 ms.reviewer: rikot
 manager: frankbu
@@ -12,7 +12,7 @@ ms.date: 04/01/2021
 ms.localizationpriority: medium
 ---
 
-# Create and test a device account (Surface Hub)
+# Create and test a device account on Surface Hub
 
 Creating a Surface Hub device account (also known as a resource account/room mailbox) allows the Surface Hub to receive, approve, or decline meeting requests and join meetings.
 
@@ -31,8 +31,8 @@ This table explains the main steps and configuration decisions when you create a
 |------|---------------------------------|--------------------------------------|
 | 1    | Create a logon-enabled room mailbox (Exchange Online or Exchange Server 2016 and later) | This type of mailbox allows the device to maintain a meeting calendar, receive meeting requests, and send mail. It must be logon-enabled in order to be used with a Surface Hub. |
 | 2    | Configure mailbox properties | The mailbox must be configured with the correct properties to enable the best meeting experience on Surface Hub. For more information on mailbox properties, see [Mailbox properties](exchange-properties-for-surface-hub-device-accounts.md). |
-| 3    | Ensure that Exchange Web Services (EWS) is enabled, and multi-factor authentication (MFA) is disabled | The Surface Hub uses EWS to sync its calendar. If you don't allow EWS in your environment by default, the Hub mailbox would need to have it explicitly enabled. As the Surface Hub logs into Exchange in the background without user interaction, it cannot respond to any interactive prompts, such as MFA. The device account you create must be excluded from any such authentication requirements. Otherwise, Surface Hub can't sync mail and calendar info. |
-| 4    | Enable the account for Teams or Skype for Business (Skype for Business Server 2015 and later) | Skype for Business or Teams must be enabled to use conferencing features like video calls and screen sharing. For more information on the licenses that enable Teams, see [Teams Meeting Room licensing](/MicrosoftTeams/rooms/rooms-licensing) and [Teams service description](/office365/servicedescriptions/teams-service-description). The Teams and SfB applications on the Surface Hub are not compatible with [Azure AD Conditional Access policies](/azure/active-directory/conditional-access/concept-conditional-access-policies) requiring device information (e.g. compliance). The device account you create must be excluded from any such CA policies. Otherwise, Surface Hub is not able to use any conferencing features. |
+| 3    | Ensure that Exchange Web Services (EWS) is enabled, and multi-factor authentication (MFA) is disabled | The Surface Hub uses EWS to sync its calendar. If you don't allow EWS in your environment by default, the Hub mailbox would need to have it explicitly enabled. As the Surface Hub logs into Exchange in the background without user interaction, it can't respond to any interactive prompts, such as MFA. The device account you create must be excluded from any such authentication requirements. Otherwise, Surface Hub can't sync mail and calendar info. |
+| 4    | Enable the account for Teams or Skype for Business (Skype for Business Server 2015 and later) | Skype for Business or Teams must be enabled to use conferencing features like video calls and screen sharing. For more information on the licenses that enable Teams, see [Teams Meeting Room licensing](/MicrosoftTeams/rooms/rooms-licensing) and [Teams service description](/office365/servicedescriptions/teams-service-description). The Teams and SfB applications on the Surface Hub aren't compatible with [Azure AD Conditional Access policies](/azure/active-directory/conditional-access/concept-conditional-access-policies) requiring device information (for example, compliance). The device account you create must be excluded from any such CA policies. Otherwise, Surface Hub isn't able to use any conferencing features. |
 | 5    | (Optional) Disable password expiration | To simplify management, you can turn off password expiration for the device account and allow Surface Hub to automatically rotate the device account password. For more information about password management, see [Password management](password-management-for-surface-hub-device-accounts.md).  |
 
 > [!NOTE]  
@@ -40,7 +40,7 @@ This table explains the main steps and configuration decisions when you create a
 
 ## Detailed configuration steps 
 
-Device account setup steps can differ based on environment. Select your deployment scenario from the table below to find the appropriate steps, and make note of the "Format to use" column for configuring Surface Hubs once the accounts are provisioned.
+Device account setup steps can differ based on environment. Select your deployment scenario from the following table to find the appropriate steps, and make note of the "Format to use" column for configuring Surface Hubs after the accounts are provisioned.
 
 | Organization deployment             |  Description                  |        Format to use during Surface Hub setup
 |---------------------------------|--------------------------------------|
@@ -50,8 +50,9 @@ Device account setup steps can differ based on environment. Select your deployme
 | [On-premises deployment (single forest)](/skypeforbusiness/deploy/deploy-clients/single-forest-on-premises-deployments) | Your organization has servers that it controls, where Active Directory, Exchange, and Skype for Business Server are hosted in a single-forest environment.  | DOMAIN\username |
 | [On-premises deployment (multiple forests)](/skypeforbusiness/deploy/deploy-clients/multiple-forest-on-premises-deployments) | Your organization has servers that it controls, where Active Directory, Exchange, and Skype for Business Server are hosted in a multi-forest environment. | ACCOUNTFOREST\username |
 
-For online deployments, there is also a [deployment wizard available for Microsoft 365 admins](https://admin.microsoft.com/Adminportal/Home#/modernonboarding/surfacehubsetupguide) directly in the M365 admin center. This wizard can help create new device accounts, or validate existing resource accounts you have in order to help turn them into compatible Surface Hub device accounts.
+For online deployments, there's also a [deployment wizard available for Microsoft 365 admins](https://admin.microsoft.com/Adminportal/Home#/modernonboarding/surfacehubsetupguide) directly in the Microsoft 365 admin center. This wizard can help create new device accounts, or validate existing resource accounts you have in order to help turn them into compatible Surface Hub device accounts.
 
 ## Learn more
 
+- [Prepare your environment for Surface Hub](prepare-your-environment-for-surface-hub.md)
 - [Surface Hub and Microsoft Teams Rooms setup guide](https://go.microsoft.com/fwlink/?linkid=2221605)

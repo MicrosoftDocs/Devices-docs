@@ -80,7 +80,7 @@ User interface (UI) settings are returned to their default values when **End ses
 - Reset volume levels
 - Reset sidebar width
 - Reset tablet mode layout
-- Sign user out of Office 365 meetings and files
+- Sign user out of Microsoft 365 meetings and files
 
 ### Accessibility
 

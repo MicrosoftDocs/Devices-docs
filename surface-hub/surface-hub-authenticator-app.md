@@ -22,7 +22,7 @@ To let people in your organization sign in to Surface Hub with their phones and 
 
 - Your organization must be a hybrid or cloud-only organization, backed by Azure Active Directory (Azure AD). For more information, see [What is Azure Active Directory?](/azure/active-directory/active-directory-whatis)
 
-- Make sure you have at minimum an Office 365 E3 subscription. 
+- Make sure you have at minimum an Microsoft 365 E3 subscription. 
 
 - [Configure Multi-Factor Authentication](/azure/active-directory/authentication/howto-mfa-mfasettings). Make sure **Notification through mobile app** is selected. 
 

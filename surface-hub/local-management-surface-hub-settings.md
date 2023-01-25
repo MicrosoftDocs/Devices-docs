@@ -39,7 +39,7 @@ Surface Hubs have many settings that are common to other Windows devices, but al
 | Welcome screen background |  Surface Hub > Welcome screen | Choose an image to be used as the background during user sessions and on the welcome screen. |
 | Session timeout to Welcome screen | Surface Hub > Session & power | Choose how long until the Surface Hub returns to the welcome screen after no motion is detected. |
 | Resume session | Surface Hub > Session & power | Choose to allow users to resume a session after no motion is detected or to automatically clean up a session. |
-| Access to Office 365 meetings and files | Surface Hub > Session & power | Choose whether a user can sign in to Office 365 to get access to their meetings and files. |
+| Access to Microsoft 365 meetings and files | Surface Hub > Session & power | Choose whether a user can sign in to Microsoft 365 to get access to their meetings and files. |
 | Turn on screen with motion sensors | Surface Hub > Session & power | Choose whether the screen turns on when motion is detected. |
 | Screen time out | Surface Hub > Session & power | Choose how long the device needs to be inactive before turning off the screen. |
 | Sleep time out | Surface Hub > Session & power | Choose how long the device needs to be inactive before going to sleep mode. |

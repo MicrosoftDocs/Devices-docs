@@ -136,8 +136,8 @@ Popular browsers run on Surface Pro 9 with 5G and Surface Pro X:
 
 ### Installing and using Microsoft Office
 
-- Use Office 365 for the best experience on a Windows 10 or Windows 11 PC on an ARM-based processor.
-- Office 365 "click-to-run" installs Outlook, Word, Excel, and PowerPoint optimized to run on a Windows 10 or Windows 11 PC on an ARM-based processor.
+- Use Microsoft 365 for the best experience on a Windows 10 or Windows 11 PC on an ARM-based processor.
+- Microsoft 365 "click-to-run" installs Outlook, Word, Excel, and PowerPoint optimized to run on a Windows 10 or Windows 11 PC on an ARM-based processor.
 - Microsoft Teams runs natively on Surface Pro 9 with 5G and Surface Pro X.
 - For "[perpetual versions](/microsoft-365/troubleshoot/installation/office-perpetual-volume-license-products)" of Office, such as Office 2021, install the 32-bit version.
 
