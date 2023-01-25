@@ -70,7 +70,7 @@ This page contains comprehensive training for Surface Hub 2S, available on deman
 - Microsoft Excel
 - Microsoft Edge
 
-## Chapter 6 - Advanced apps and Office 365
+## Chapter 6 - Advanced apps and Microsoft 365
 
 > [!video https://www.microsoft.com/videoplayer/embed/RE46EjA] 
 
@@ -78,7 +78,7 @@ This page contains comprehensive training for Surface Hub 2S, available on deman
 - Microsoft Maps
 - Photos
 - Power BI
-- Sign in to Office 365
+- Sign in to Microsoft 365
 - OneDrive
 - CoAuthor documents
 

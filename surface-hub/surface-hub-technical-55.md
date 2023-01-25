@@ -6,7 +6,7 @@ description: Specifications for the 55" Surface Hub (v1)
 ms.prod: surface-hub
 author: coveminer
 ms.author: hachidan
-ms.topic: how-to
+ms.topic: overview
 ms.localizationpriority: medium
 ms.date: 12/21/2020
 appliesto:
@@ -97,44 +97,34 @@ appliesto:
 
 :::image type="content" alt-text="Top view of 55 &#8221; Surface Hub." source="images/sh-55-top.png":::
 
-
 ***Front view of 55" Surface Hub***
 
 :::image type="content" alt-text="Front view of 55 &#8221; Surface Hub." source="images/sh-55-front.png":::
-
 
 ***Bottom view of 55" Surface Hub***
 
 :::image type="content" alt-text="Bottom view of 55 &#8221; Surface Hub." source="images/sh-55-bottom.png":::
 
-
 ***Replacement PC ports on 55" Surface Hub***
 
 :::image type="content" alt-text="Replacement PC ports on 55 &#8221; Surface Hub." source="images/sh-55-rpc-ports.png":::
-
 
 ***Keypad on right side of 55" Surface Hub***
 
 :::image type="content" alt-text="Keypad on right side of 55 &#8221; Surface Hub." source="images/key-55.png":::
 
-
 ***Rear view of 55" Surface Hub***
 
 :::image type="content" alt-text="Rear view of 55 &#8221; Surface Hub." source="images/sh-55-rear.png":::
-
 
 ***Clearances for 55" Surface Hub***
 
 :::image type="content" alt-text="Clearances for 55 &#8221; Surface Hub." source="images/sh-55-clearance.png":::
 
-
 ***Front and bottom handholds and clearances for 55" Surface Hub***
 
 :::image type="content" alt-text="Front and bottom handholds and clearances for 55 &#8221; Surface Hub." source="images/sh-55-hand.png":::
 
-
 ***Rear handholds and clearances for 55" Surface Hub***
 
 :::image type="content" alt-text="Rear handholds and clearances for 55 &#8221;  Surface Hub." source="images/sh-55-hand-rear.png":::
-
-

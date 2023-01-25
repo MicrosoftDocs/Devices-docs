@@ -1,5 +1,5 @@
 ---
-title: Prepare your environment for Microsoft Surface Hub
+title: Prepare your environment for Surface Hub
 description: This page describes dependencies for setting up and managing Surface Hub v1 or Surface Hub 2S.
 ms.assetid: 336A206C-5893-413E-A270-61BFF3DF7DA9
 ms.reviewer: 
@@ -16,7 +16,7 @@ appliesto:
 ---
 
 
-# Prepare your environment for Microsoft Surface Hub
+# Prepare your environment for Surface Hub
 
 This page describes dependencies for setting up and managing Surface Hub v1 or Surface Hub 2S.
 
