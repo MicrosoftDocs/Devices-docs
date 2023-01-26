@@ -1,6 +1,6 @@
 - name: Microsoft Surface Hub
   href: index.yml
-- name: Documentation
+- name: Admin Guide
   expanded: true
   items: 
     - name: Hardware
