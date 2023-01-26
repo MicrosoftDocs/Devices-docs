@@ -131,3 +131,8 @@ You can customize first time setup options, allowing you to ensure a consistent 
 3. When prompted, choose the provisioning package you'd like to use.
 4. If you created a multiple devices CSV file, you will be able to choose a device configuration.
 6. Follow the rest of the steps, and remove the USB drive at the first reboot that occurs in the setup process.
+
+## Learn more
+
+- [Prepare your environment for Surface Hub](prepare-your-environment-for-surface-hub.md)
+- [Surface Hub and Microsoft Teams Rooms automated setup guide](https://go.microsoft.com/fwlink/?linkid=2221605)
