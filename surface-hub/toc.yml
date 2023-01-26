@@ -16,7 +16,7 @@
                   href: surface-hub-2s-techspecs.md
                 - name: Surface Hub 2S 85" tech specs
                   href: surface-hub-2s-85.md     
-            - name: Surface Hub 2S site readiness guide
+            - name: Site readiness
               href: surface-hub-2s-site-readiness-guide.md
               expanded: true
               items: 
@@ -66,7 +66,7 @@
                  href: surface-hub-technical-55.md
                - name: Technical information for 84" Surface Hub (v1)
                  href: surface-hub-technical-84.md
-            - name: Surface Hub site readiness
+            - name: Site readiness
               expanded: true
               items:
                - name: Surface Hub v1 site readiness guide
