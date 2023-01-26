@@ -8,6 +8,7 @@ ms.topic: overview
 ms.reviewer: 
 manager: frankbu
 ms.localizationpriority: medium
+ms.date: 06/09/2020
 ---
 
 # Long-Term Servicing Channel (LTSC) for Surface devices

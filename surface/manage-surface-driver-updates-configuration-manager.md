@@ -13,6 +13,7 @@ ms.topic: how-to
 appliesto:
 - Windows 10
 - Windows 11
+ms.date: 06/09/2020
 ---
 
 # Manage Surface driver updates in Configuration Manager

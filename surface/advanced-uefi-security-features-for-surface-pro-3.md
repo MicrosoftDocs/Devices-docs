@@ -8,6 +8,7 @@ ms.prod: surface
 author: coveminer
 ms.author: hachidan
 ms.topic: how-to
+ms.date: 06/09/2020
 ---
 
 # Advanced UEFI security features for Surface Pro 3
