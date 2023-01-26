@@ -93,7 +93,7 @@
     - name: Operating system
       expanded: true
       items: 
-        - name: Setup
+        - name: Set up
           expanded: true
           items:
            - name: Surface Hub and Microsoft Teams Rooms automated setup guide (requires M365 authentication)
@@ -110,7 +110,7 @@
              href: create-and-test-a-device-account-surface-hub.md
            - name: Use the Surface Hub Hardware Diagnostic Tool to test a device account
              href: use-surface-hub-diagnostic-test-device-account.md
-           - name:  Enroll Surface Hub into MDM management
+           - name: Enroll Surface Hub into MDM management
              href: enroll-surface-hub-mdm.md
            - name: Configure non-Global Admin accounts on Surface Hub
              href: surface-hub-2s-nonglobal-admin.md
@@ -150,7 +150,7 @@
                 href: miracast-over-infrastructure.md
               - name: Troubleshoot Miracast on Surface Hub
                 href: miracast-troubleshooting.md        
-           - name: Microsoft Teams 
+           - name: Configure Microsoft Teams 
              expanded: true
              items: 
              - name: Microsoft Teams Rooms on Surface Hub
