@@ -7,6 +7,7 @@ author: coveminer
 ms.author: hachidan
 ms.topic: troubleshooting
 ms.localizationpriority: medium
+ms.date: 06/09/2020
 ---
 
 # Surface Hub Miracast channels 149-165 not supported in Europe, Japan, Israel

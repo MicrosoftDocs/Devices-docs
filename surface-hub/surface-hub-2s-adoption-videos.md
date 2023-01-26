@@ -7,6 +7,7 @@ ms.author: hachidan
 manager: frankbu
 ms.topic: how-to
 ms.localizationpriority: Medium
+ms.date: 06/09/2020
 ---
 
 # Surface Hub 2S on-demand adoption and training videos
