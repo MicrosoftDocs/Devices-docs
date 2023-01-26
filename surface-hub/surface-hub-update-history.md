@@ -7,6 +7,7 @@ author: coveminer
 ms.author: dpandre
 ms.topic: how-to
 ms.localizationpriority: high
+ms.date: 06/09/2020
 ---
 
 # Surface Hub update history

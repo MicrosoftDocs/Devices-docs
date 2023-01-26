@@ -9,6 +9,7 @@ author: coveminer
 ms.author: hachidan
 ms.topic: how-to
 ms.localizationpriority: medium
+ms.date: 06/09/2020
 ---
 
 # Surface Hub SSD replacement
