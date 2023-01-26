@@ -59,6 +59,6 @@ To configure QoS for Surface Hub using Microsoft Intune:
 
 ## Learn more
 
-- [Surface Hub and Microsoft Teams Rooms setup guide](https://go.microsoft.com/fwlink/?linkid=2221605)
+- [Surface Hub and Microsoft Teams Rooms automated setup guide](https://go.microsoft.com/fwlink/?linkid=2221605)
 - [Microsoft 365 network connectivity principles](https://aka.ms/pnc)
 - [Implement Quality of Service (QoS) in Microsoft Teams](/microsoftteams/qos-in-teams)
