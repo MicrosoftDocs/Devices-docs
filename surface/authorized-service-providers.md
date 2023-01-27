@@ -16,7 +16,7 @@ appliesto:
 
 # Surface repair by Microsoft Authorized Service Providers
 
-As part of our commitment to provide great service and support to all our customers, we are building a great network of authorized service providers (ASPs) to help repair and service your Surface devices. ASPs work closely with Microsoft to help resolve issues that may occur with your Microsoft devices. ASPs perform repairs on behalf of Microsoft, have direct access to Microsoft support, and use genuine Microsoft parts.
+As part of our commitment to provide great service and support to all our customers, we're building a great network of authorized service providers (ASPs) to help repair and service your Surface devices. ASPs work closely with Microsoft to help resolve issues that may occur with your Microsoft devices. ASPs perform repairs on behalf of Microsoft, have direct access to Microsoft support, and use genuine Microsoft parts.
 
 ## Global ASP network
 
@@ -24,7 +24,6 @@ The growing ASP network consists of more than 160 locations.
 
 ### Americas
 
-- [Best Buy](https://www.bestbuy.com/)
 - [CompuCom](https://www.compucom.com/)
 - [Compugen](https://www.compugen.com/)
 - [Coreio](https://www.coreio.com/)
@@ -47,12 +46,3 @@ The growing ASP network consists of more than 160 locations.
 - [Comp Now](https://www.compnow.com.au/)
 - [Digital China](https://www.digitalchina.com/)
 - [JB Hi-Fi](https://www.jbhifi.business/)
-
-## Become an ASP
-
-For potential partners interested in becoming a Microsoft Authorized Service Provider, please visit our Partner Onboarding site. To begin, request the Global Intake Form from your nearest Regional Operations Team:
-
-- USA and Canada: [aoccagre@microsoft.com](mailto:aoccagre@microsoft.com)
-- LATAM: [loccpr@microsoft.com](mailto:loccpr@microsoft.com)
-- Europe, Middle East, and Africa: [eocchanc@microsoft.com](mailto:eocchanc@microsoft.com)
-- Asia, Australia, and NZ: [apoctte@microsoft.com](mailto:apoctte@microsoft.com)
