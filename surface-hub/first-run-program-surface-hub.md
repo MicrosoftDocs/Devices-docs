@@ -20,7 +20,7 @@ appliesto:
 When you first start Surface Hub, the device automatically enters first time Setup mode to guide you through account configuration and related settings.
 
 > [!TIP]
-> As a companion to this article, we recommend using the [Surface Hub and Microsoft Teams Rooms automated setup guide](https://go.microsoft.com/fwlink/?linkid=2221605) when signed in to the Microsoft 365 Admin Center. This guide will customize your experience based on your environment. If you're hosted in Exchange Online and using Microsoft Teams, the guide will automatically create your device account with the correct settings. To review best practices without signing in and activating automated setup features, go to the [M365 Setup portal](https://go.microsoft.com/fwlink/?linkid=2222648). 
+> As a companion to this article, we recommend using the [Surface Hub and Microsoft Teams Rooms automated setup guide](https://go.microsoft.com/fwlink/?linkid=2221605) when signed in to the Microsoft 365 Admin Center. This guide will customize your experience based on your environment. If you're hosted in Exchange Online and using Microsoft Teams, the guide will automatically create your device account with the correct settings. Or use it to validate existing resource accounts to help turn them into compatible Surface Hub device accounts. To review best practices without signing in and activating automated setup features, go to the [M365 Setup portal](https://go.microsoft.com/fwlink/?linkid=2222648). 
 
 > [!NOTE]
 > You can automate the entire setup process with a [Provisioning package](#use-provisioning-packages) to ensure a consistent experience across multiple Surface Hubs.
@@ -131,3 +131,8 @@ You can customize first time setup options, allowing you to ensure a consistent 
 3. When prompted, choose the provisioning package you'd like to use.
 4. If you created a multiple devices CSV file, you will be able to choose a device configuration.
 6. Follow the rest of the steps, and remove the USB drive at the first reboot that occurs in the setup process.
+
+## Learn more
+
+- [Prepare your environment for Surface Hub](prepare-your-environment-for-surface-hub.md)
+- [Surface Hub and Microsoft Teams Rooms automated setup guide](https://go.microsoft.com/fwlink/?linkid=2221605)
