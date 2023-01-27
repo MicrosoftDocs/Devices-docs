@@ -21,7 +21,7 @@ Once the device account is provisioned on a Surface Hub, people can add this acc
 You can configure the device account during the [Out-of-Box Experience (OOBE) setup](first-run-program-surface-hub.md). If needed, you can also change it later in **Settings** > **Surface Hub** > **Accounts**.
 
 > [!TIP]
-> As a companion to this article, we recommend using the [Surface Hub and Microsoft Teams Rooms automated setup guide](https://go.microsoft.com/fwlink/?linkid=2221605) when signed in to the Microsoft 365 Admin Center. This guide will customize your experience based on your environment. If you're hosted in Exchange Online and using Microsoft Teams, the guide will automatically create your device account with the correct settings. To review best practices without signing in and activating automated setup features, go to the [M365 Setup portal](https://go.microsoft.com/fwlink/?linkid=2222648). 
+> As a companion to this article, we recommend using the [Surface Hub and Microsoft Teams Rooms automated setup guide](https://go.microsoft.com/fwlink/?linkid=2221605) when signed in to the Microsoft 365 Admin Center. This guide will customize your experience based on your environment. If you're hosted in Exchange Online and using Microsoft Teams, the guide will automatically create your device account with the correct settings. Or use it to validate existing resource accounts to help turn them into compatible Surface Hub device accounts. To review best practices without signing in and activating automated setup features, go to the [M365 Setup portal](https://go.microsoft.com/fwlink/?linkid=2222648). 
 
 ## Configuration overview
 
@@ -50,9 +50,8 @@ Device account setup steps can differ based on environment. Select your deployme
 | [On-premises deployment (single forest)](/skypeforbusiness/deploy/deploy-clients/single-forest-on-premises-deployments) | Your organization has servers that it controls, where Active Directory, Exchange, and Skype for Business Server are hosted in a single-forest environment.  | DOMAIN\username |
 | [On-premises deployment (multiple forests)](/skypeforbusiness/deploy/deploy-clients/multiple-forest-on-premises-deployments) | Your organization has servers that it controls, where Active Directory, Exchange, and Skype for Business Server are hosted in a multi-forest environment. | ACCOUNTFOREST\username |
 
-For online deployments, there's also a [deployment wizard available for Microsoft 365 admins](https://admin.microsoft.com/Adminportal/Home#/modernonboarding/surfacehubsetupguide) directly in the Microsoft 365 admin center. This wizard can help create new device accounts, or validate existing resource accounts you have in order to help turn them into compatible Surface Hub device accounts.
 
 ## Learn more
 
 - [Prepare your environment for Surface Hub](prepare-your-environment-for-surface-hub.md)
-- [Surface Hub and Microsoft Teams Rooms setup guide](https://go.microsoft.com/fwlink/?linkid=2221605)
+- [Surface Hub and Microsoft Teams Rooms automated setup guide](https://go.microsoft.com/fwlink/?linkid=2221605)
