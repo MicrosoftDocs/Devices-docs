@@ -2,6 +2,22 @@
 
 
 
+## Week of January 23, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 1/23/2023 | [Reset and recovery for Surface Hub (v1)](/surface-hub/device-reset-surface-hub) | modified |
+| 1/23/2023 | [Use the Surface Hub Recovery Tool](/surface-hub/surface-hub-recovery-tool) | modified |
+| 1/25/2023 | [Applying ActiveSync policies to device accounts on Surface Hub](/surface-hub/apply-activesync-policies-for-surface-hub-device-accounts) | modified |
+| 1/25/2023 | [Change the Microsoft Surface Hub device account](/surface-hub/change-surface-hub-device-account) | modified |
+| 1/25/2023 | [Create and test a device account on Surface Hub](/surface-hub/create-and-test-a-device-account-surface-hub) | modified |
+| 1/25/2023 | [Operating system essentials for Surface Hub](/surface-hub/differences-between-surface-hub-and-windows-10-enterprise) | modified |
+| 1/25/2023 | [Microsoft Exchange properties for device account on Surface Hub](/surface-hub/exchange-properties-for-surface-hub-device-accounts) | modified |
+| 1/25/2023 | [Manage Microsoft Edge on Surface Hub](/surface-hub/surface-hub-install-chromium-edge) | modified |
+| 1/25/2023 | [Technical information for 55" Surface Hub (v1)](/surface-hub/surface-hub-technical-55) | modified |
+
+
 ## Week of January 16, 2023
 
 
