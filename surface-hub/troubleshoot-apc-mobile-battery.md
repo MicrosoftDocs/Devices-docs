@@ -58,3 +58,7 @@ If your Surface Hub 2S does power on properly while bypassing the APC Charge Mob
 > The model and serial numbers are located on the top panel of the APC Charge Mobile Battery.
 
 Or if your Surface Hub doesn’t power on despite bypassing the APC Charge Mobile Battery (step 3), refer to [Troubleshoot Surface Hub 2S power](troubleshoot-power-surface-hub-2s.md) and contact Microsoft for support regarding Surface Hub 2S.
+
+## Learn more
+
+- [APC Charge Mobile Power Supply User Manual](https://www.apc.com/us/en/download/document/SPD_UM-990-6394_EN/).
