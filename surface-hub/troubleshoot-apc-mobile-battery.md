@@ -6,7 +6,7 @@ ms.prod: surface-hub
 author: coveminer
 ms.author: hachidan
 ms.topic: troubleshooting
-ms.date: 01/27/2023
+ms.date: 01/30/2023
 ms.localizationpriority: medium
 ---
 
@@ -16,7 +16,10 @@ The APC Charge Mobile Battery lets you move your Surface Hub 2S from one workspa
 
 1. First, verify that all connections between the Surface Hub 2S and the APC Charge Mobile Battery are **securely and adequately seated.**
 
- Connections include the following items, as shown in the following figure.
+ Connections include the following items, as shown in Figure 1.
+
+:::image type="content" source="images/apc-mobile-battery-fig1.png" alt-text="Screenshot of input/output connections." :::
+*Figure 1. Input/output connections*
 
 (1) USB cable
 (2) DC
@@ -25,10 +28,16 @@ The APC Charge Mobile Battery lets you move your Surface Hub 2S from one workspa
 
 The following figure shows the correct configuration:
 
+:::image type="content" source="images/apc-mobile-battery-fig2.png" alt-text="Screenshot of correct configuration of input/output connections." :::
+*Figure 2. Correct configuration of input/output connections*
+
 > [!NOTE]
 > To learn more, refer to the [APC Charge Mobile Power Supply User Manual](https://www.apc.com/us/en/download/document/SPD_UM-990-6394_EN/).
 
 2. Ensure that the APC Charge Mobile Battery is powered on by pressing the **power on/off** button for more than 3 seconds and less than 6 seconds to enable the 24 V DC output voltage. The LEDs will turn white to indicate the battery's charge state.
+
+:::image type="content" source="images/apc-mobile-battery-fig3.png" alt-text="Screenshot that shows On/off button and LEDs indicating power function." :::
+*Figure 3. On/off button and LEDs indicating power function*
 
 > [!TIP]
 > The power on/off button is located on the bottom of the unit under a green sticker
