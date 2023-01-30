@@ -161,7 +161,9 @@
         - name: Collect Surface Hub log files  
           href: collect-surface-hub-log-files.md 
         - name: Troubleshoot Surface Hub 2S Power Issues
-          href: troubleshoot-power-surface-hub-2s.md		  		  
+          href: troubleshoot-power-surface-hub-2s.md	
+        - name: Troubleshoot APC Charge Mobile Battery 
+          href: troubleshoot-apc-mobile-battery.md	  		  
         - name: Troubleshoot Teams sign-in issues on Surface Hub
           href: troubleshoot-teams-sign-in-surface-hub.md  
         - name: Troubleshoot Surface Hub 2 pen
