@@ -14,7 +14,7 @@ ms.localizationpriority: medium
 
 The APC Charge Mobile Battery lets you move your Surface Hub 2S for unplugged and uninterrupted teamwork capabilities. If Surface Hub 2S won't power on when connected to the APC Charge Mobile Battery, try the troubleshooting steps on this page.
 
-1. First, verify that all connections between the Surface Hub 2S and the APC Charge Mobile Battery are **securely and adequately seated.**
+A. Verify that all connections between the Surface Hub 2S and the APC Charge Mobile Battery are **securely and adequately seated.**
 
 Connections include the following items, as shown in Figure 1.
 
@@ -34,7 +34,7 @@ The following figure shows the correct configuration:
 > [!NOTE]
 > To learn more, refer to the [APC Charge Mobile Power Supply User Manual](https://www.apc.com/us/en/download/document/SPD_UM-990-6394_EN/).
 
-2. Ensure that the APC Charge Mobile Battery is powered on by pressing the **power on/off** button for more than 3 seconds and less than 6 seconds to enable the 24 V DC output voltage. The LEDs will turn white to indicate the battery's charge state.
+B. Ensure that the APC Charge Mobile Battery is powered on by pressing the **power on/off** button for more than 3 seconds and less than 6 seconds to enable the 24 V DC output voltage. The LEDs will turn white to indicate the battery's charge state.
 
 :::image type="content" source="images/apc-mobile-battery-fig3.png" alt-text="Screenshot that shows On/off button and LEDs indicating power function." :::<br>
 *Figure 3. On/off button and LEDs indicating power function*
@@ -42,7 +42,7 @@ The following figure shows the correct configuration:
 > [!TIP]
 > The power on/off button is located on the bottom of the unit under a green sticker
 
-3. Try to bypass the APC Charge Mobile Battery and power the Surface Hub 2S directly via the **AC power cord** to the power source. Does the Surface Hub 2S power on independently?
+C. Try to bypass the APC Charge Mobile Battery and power the Surface Hub 2S directly via the **AC power cord** to the power source. Does the Surface Hub 2S power on independently?
 
 ## Support requests
 
@@ -57,7 +57,7 @@ If your Surface Hub 2S does power on properly while bypassing the APC Charge Mob
 > [!TIP]
 > The model and serial numbers are located on the top panel of the APC Charge Mobile Battery.
 
-Or if your Surface Hub doesn’t power on despite bypassing the APC Charge Mobile Battery (step 3), refer to [Troubleshoot Surface Hub 2S power](troubleshoot-power-surface-hub-2s.md) and contact Microsoft for support regarding Surface Hub 2S.
+Or if your Surface Hub doesn’t power on despite bypassing the APC Charge Mobile Battery (step C), refer to [Troubleshoot Surface Hub 2S power](troubleshoot-power-surface-hub-2s.md) and contact Microsoft for support regarding Surface Hub 2S.
 
 ## Learn more
 
