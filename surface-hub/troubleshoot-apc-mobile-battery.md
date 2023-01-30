@@ -12,7 +12,7 @@ ms.localizationpriority: medium
 
 # Troubleshoot APC Charge Mobile Battery on Surface Hub 2S
 
-The APC Charge Mobile Battery lets you move your Surface Hub 2S from one workspace to another, providing unplugged and uninterrupted teamwork capabilities. If you encounter an issue powering on your Surface Hub 2S when connected to the APC Charge Mobile Battery, review the troubleshooting steps outlined on this page.
+The APC Charge Mobile Battery lets you move your Surface Hub 2S for unplugged and uninterrupted teamwork capabilities. If Surface Hub 2S won't power on when connected to the APC Charge Mobile Battery, try the troubleshooting steps on this page.
 
 1. First, verify that all connections between the Surface Hub 2S and the APC Charge Mobile Battery are **securely and adequately seated.**
 
