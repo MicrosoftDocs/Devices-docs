@@ -16,15 +16,15 @@ The APC Charge Mobile Battery lets you move your Surface Hub 2S from one workspa
 
 1. First, verify that all connections between the Surface Hub 2S and the APC Charge Mobile Battery are **securely and adequately seated.**
 
- Connections include the following items, as shown in Figure 1.
+Connections include the following items, as shown in Figure 1.
+
+1. USB cable for onscreen battery display
+2. DC cable for on-battery operation
+3. AC passthrough cable for normal operation
+4. AC power cord (supplied with Surface Hub 2S)
 
 :::image type="content" source="images/apc-mobile-battery-fig1.png" alt-text="Screenshot of input/output connections." :::<br>
 *Figure 1. Input/output connections*
-
-(1) USB cable
-(2) DC
-(3) AC Pass Through cable
-(4) AC Power Cord
 
 The following figure shows the correct configuration:
 
