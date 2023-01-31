@@ -163,7 +163,7 @@
                href: troubleshoot-teams-sign-in-surface-hub.md               
              - name: Create and configure resource accounts for rooms and shared Teams devices
                href: /microsoftteams/rooms/with-exchange-online
-           - name: Convert Surface Hub to standard PC 
+           - name: Migrate to Windows 10/11 Pro or Enterprise
              expanded: true
              items: 
               - name: Migrate to Windows 10/11 Pro or Enterprise on Surface Hub 2
