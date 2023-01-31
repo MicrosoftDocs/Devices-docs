@@ -30,4 +30,4 @@ You can enroll Surface into Microsoft Intune or other MDM provider via manual or
 
 ## Auto Enrollment — Azure AD affiliated
 
-During the initial setup process, when affiliating Surface Hub with an Azure Active Directory (AD) tenant that has Intune auto enrollment enabled, the device will automatically enroll with Intune. To learn more, refer to [Intune enrollment methods for Windows devices](/intune/enrollment/windows-enrollment-methods). Azure AD affiliation and Intune auto enrollment are required for the Surface Hub to be a "compliant device" in Intune. 
+During the [initial setup process](/surface-hub/first-run-program-surface-hub#microsoft-azure-active-directory), when affiliating Surface Hub with an Azure Active Directory (AD) tenant that has Intune auto enrollment enabled, the device will automatically enroll with Intune. To learn more, refer to [Intune enrollment methods for Windows devices](/intune/enrollment/windows-enrollment-methods). Azure AD affiliation and Intune auto enrollment are required for the Surface Hub to be a "compliant device" in Intune. 
