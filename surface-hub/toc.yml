@@ -54,6 +54,8 @@
               items:        
                - name: Troubleshoot Surface Hub 2S Power Issues
                  href: troubleshoot-power-surface-hub-2s.md
+               - name: Troubleshoot APC Charge Mobile Battery
+                 href: troubleshoot-apc-mobile-battery.md
                - name: Troubleshoot Surface Hub 2 pen
                  href: troubleshoot-surface-hub-2-pen.md            
                - name: How to pack and ship your Surface Hub 2S for service
