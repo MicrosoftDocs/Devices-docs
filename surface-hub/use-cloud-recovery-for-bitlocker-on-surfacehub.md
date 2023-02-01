@@ -7,6 +7,7 @@ author: coveminer
 ms.author: hachidan
 ms.topic: how-to
 ms.localizationpriority: medium
+ms.date: 06/09/2020
 ---
 
 # How to use cloud recovery for BitLocker on a Surface Hub

@@ -11,6 +11,7 @@ ms.topic: how-to
 appliesto:
 - Windows 10
 - Windows 11
+ms.date: 06/09/2020
 ---
 
 # Customize the OOBE for Surface deployments

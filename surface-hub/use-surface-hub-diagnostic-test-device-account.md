@@ -7,6 +7,7 @@ author: coveminer
 ms.author: hachidan
 ms.topic: how-to
 ms.localizationpriority: medium
+ms.date: 06/09/2020
 ---
 
 # Use the Surface Hub Hardware Diagnostic Tool to test a device account

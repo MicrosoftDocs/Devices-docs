@@ -10,6 +10,7 @@ ms.localizationpriority: medium
 appliesto:
 - Windows 10
 - Windows 11
+ms.date: 06/09/2020
 ---
 
 # Unenroll Surface devices from SEMM
