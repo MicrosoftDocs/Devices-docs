@@ -170,5 +170,10 @@
             "redirect_url":  "/surface/contact-surface-business-education-support",
             "redirect_document_id":  false
         }
+        {
+            "source_path":  "surface-hub/surfacehub-miracast-not-supported-europe-japan-israel.md",
+            "redirect_url":  "surface-hub/miracast-troubleshooting",
+            "redirect_document_id":  false
+        }
     ]
 }

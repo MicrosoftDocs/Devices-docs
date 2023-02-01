@@ -2,7 +2,6 @@
 title: Sign in to Surface Hub with Microsoft Authenticator
 description: Use Microsoft Authenticator on your mobile device to sign in to Surface Hub.
 ms.prod: surface-hub
-
 author: coveminer
 ms.author: hachidan
 ms.topic: how-to

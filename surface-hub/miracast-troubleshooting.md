@@ -78,6 +78,15 @@ Channel switching will also occur if the projecting device is connected to a Wi-
 
 If there are multiple Wi-Fi networks or access points in the environment, some channel switching is unavoidable. This is best addressed by ensuring all Wi-Fi drivers are up to date.
 
+## Surface Hub Miracast channels 149-165 not supported in Europe, Japan, Israel
+
+In compliance with regional governmental regulations, all 5-GHz wireless devices in Europe, Japan, and Israel do not support the U-NII-3 band. In Surface Hub, the channels that are associated with U-NII-3 are 149 through 165. This includes Miracast connection on these channels. Therefore, Surface Hubs that are used in Europe, Japan, and Israel can't use channels 149 through 165 for Miracast connection.
+
+For more information see the [U-NII](https://en.wikipedia.org/wiki/U-NII) topic on Wikipedia.
+
+> [!NOTE]
+> Microsoft provides third-party contact information to help you find additional information about this topic. This information may change without notice. Microsoft does not guarantee the accuracy of third-party information.
+
 ## Contact Support
 
 If you have questions or need help, you can [create a support request](https://support.microsoft.com/supportforbusiness/productselection).
