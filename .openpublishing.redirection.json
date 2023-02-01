@@ -175,5 +175,10 @@
             "redirect_url":  "surface-hub/miracast-troubleshooting",
             "redirect_document_id":  false
         }
+        {
+            "source_path":  "surface-hub/surface-hub-wifi-direct.md",
+            "redirect_url":  "surface-hub/surface-hub-security",
+            "redirect_document_id":  false
+        }
     ]
 }
