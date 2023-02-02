@@ -55,7 +55,7 @@ Microsoft recommends that only technically inclined individuals with the knowled
 
 Downloadable service guides provide step-by-step instructions for servicing specific devices. This documentation and instructions are intended for use by skilled technicians and IT professionals only. 
 
-- [Download service guides](https://www.microsoft.com/download/confirmation.aspx?id=100440)
+- [Download service guides](https://www.microsoft.com/download/100440)
 
 ### Repair videos 
 
