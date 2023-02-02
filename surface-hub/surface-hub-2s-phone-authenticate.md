@@ -19,17 +19,11 @@ Passwordless sign-in simplifies access to your apps, meetings, and files. Surfac
 To let people in your organization sign in to Surface Hub with their phones and other devices instead of a password, you’ll need to make sure that your organization meets these prerequisites:
 
 - Your organization must be a hybrid or cloud-only organization, backed by Azure Active Directory (Azure AD). For more information, see [What is Azure Active Directory?](/azure/active-directory/active-directory-whatis)
-
 - Make sure you have at minimum an Microsoft 365 E3 subscription.
-
 - [Configure Multi-Factor Authentication](/azure/active-directory/authentication/howto-mfa-mfasettings). Make sure **Notification through mobile app** is selected.
 
-    :::image type="content" source="images/mfa-options.png" alt-text="Configure multi-factor authentication options.":::
-
 - Enable content hosting on Azure AD services such as Office, SharePoint, etc.
-
 - Surface Hub must be running Windows 10, version 1703 or later.
-
 - Surface Hub is set up with either a local or domain-joined account.
 
 To learn more see:
