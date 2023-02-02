@@ -21,7 +21,7 @@ Technically inclined individuals with the knowledge, skills, and required tools 
 > [!CAUTION]
 > Opening or repairing your device can present various risks, such as electric shock, device damage, fire and personal injury risks, and other hazards. Use caution if undertaking do-it-yourself repairs. 
 
-Microsoft replaceable components are used to service or repair Surface devices and can support both in-warranty and out-of-warranty scenarios. Replaceable components have a 1-year Limited Hardware Warranty.<sup>2</sup> Replaceable components are available for purchase through [Microsoft's Authorized Distributors and Resellers](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface#DEVICESRESELLERS).There are no certifications required to repair or service a Surface device. 
+Self-repair replaceable components are available to buy from device resellers. Replaceable components have a 1-year Limited Hardware Warranty.<sup>2</sup> Replaceable components are available for purchase through [Microsoft's Authorized Distributors and Resellers](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface#DEVICESRESELLERS).There are no certifications required to repair or service a Surface device. 
 
 Repairing your device with a replaceable component does not impact Microsoft's Limited Warranty; however, any damage to the device resulting from a repair performed by someone other than Microsoft or an Authorized Service Provider will not be covered under Microsoft's warranty or extended protection plans.
 
