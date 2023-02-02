@@ -40,7 +40,7 @@ Customers can update their Surface Hub 2S devices to the 2022 Update through Win
 
 ### V1 devices
 
-Customers can update their Surface Hub v1 devices to the 2022 Update through Windows Update, or Windows Update for Business. An updated image for [the Surface Hub Recovery Tool](surface-hub-recovery-tool.md) is not available at this time.
+Customers can update their Surface Hub v1 devices to the 2022 Update through Windows Update, or Windows Update for Business. [The Surface Hub Recovery Tool](surface-hub-recovery-tool.md) can also be used to re-image a device with the 2022 Update.
 
 ## Learn more
 
