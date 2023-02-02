@@ -21,11 +21,11 @@ Technically inclined individuals with the knowledge, skills, and required tools 
 > [!CAUTION]
 > Opening or repairing your device can present various risks, such as electric shock, device damage, fire and personal injury risks, and other hazards. Use caution if undertaking do-it-yourself repairs. 
 
-Self-repair replaceable components are available to buy from device resellers. Replaceable components have a 1-year Limited Hardware Warranty.<sup>2</sup> Replaceable components are available for purchase through [Microsoft's Authorized Distributors and Resellers](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface#DEVICESRESELLERS).There are no certifications required to repair or service a Surface device. 
+Self-repair replaceable components are available to buy from [device resellers](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface). Replaceable components have a 1-year Limited Hardware Warranty.<sup>2</sup> Replaceable components are available for purchase through [Microsoft's Authorized Distributors and Resellers](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface#DEVICESRESELLERS). There are no certifications required to repair or service a Surface device. 
 
-Repairing your device with a replaceable component does not impact Microsoft's Limited Warranty; however, any damage to the device resulting from a repair performed by someone other than Microsoft or an Authorized Service Provider will not be covered under Microsoft's warranty or extended protection plans.
+Repairing your device with a replaceable component doesn't affect Microsoft's Limited Warranty; however, any damage to the device resulting from a repair performed by someone other than Microsoft or an Authorized Service Provider won't be covered under Microsoft's warranty or extended protection plans.
 
 ## References
 
-1. Customer self-repair is only available on Microsoft devices with a removable component per the product’s technical specifications. Microsoft recommends that self-repair be performed by technically inclined individuals with the knowledge, experience and required tools, while following a [Microsoft Service Guide](https://www.microsoft.com/download/100440). 
+1. Customer self-repair is only available on Microsoft devices with a removable component per the product’s technical specifications. Microsoft recommends that self-repair is performed by technically inclined individuals with the knowledge, experience and required tools, while following a [Microsoft Service Guide](https://www.microsoft.com/download/100440). 
 1. Microsoft’s Limited Warranty is in addition to any right you may have under consumer or other laws applicable to you.
