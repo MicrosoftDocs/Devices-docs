@@ -39,8 +39,10 @@ To learn more see:
 
 ## Configure sign-in using Microsoft Authenticator app
 
-​​> [!NOTE]
-​​> Starting with Windows 10 Team 2020 Update, users can use their preferred email aliases in Azure AD, as well as their User Principal Name (UPN), to sign in using Microsoft Authenticator. For example, a user can use either their preferred alias (John.Doe@contoso.com) or their UPN (jdoe@contoso.com) to sign in.
+Starting with the [Windows 10 Team 2020 Update](surface-hub-2022-update.md), you can sign in with your preferred email alias in Azure AD or your User Principal Name (UPN) to sign in with Microsoft Authenticator. For example:
+
+- Preferred alias format: sofia.gomes@contoso.com
+- UPN format: sgomes@contoso.com
 
 The Microsoft Authenticator app helps you sign-in to Surface Hub using your mobile device. To configure sign-in using Microsoft Authenticator:
 
@@ -53,7 +55,7 @@ The Microsoft Authenticator app helps you sign-in to Surface Hub using your mobi
 ## Configure sign-in using FIDO2 security keys
 
 > [!NOTE]
-> Passwordless sign-in on Surface Hub using FIDO2 security keys requires the Windows 10 Team 2020 Update.
+> Passwordless sign-in on Surface Hub using FIDO2 security keys requires the [Windows 10 Team 2020 Update](surface-hub-2022-update.md).
 
 > [!IMPORTANT]
 > Surface Hub only supports USB security keys.
