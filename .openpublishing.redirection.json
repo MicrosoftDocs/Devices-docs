@@ -179,6 +179,11 @@
             "source_path":  "surface-hub/surface-hub-wifi-direct.md",
             "redirect_url":  "surface-hub/surface-hub-security",
             "redirect_document_id":  false
+        },
+        {
+            "source_path":  "surface-hub/surface-hub-authenticator-app.md",
+            "redirect_url":  "surface-hub/surface-hub-2s-phone-authenticate",
+            "redirect_document_id":  false
         }
     ]
 }
