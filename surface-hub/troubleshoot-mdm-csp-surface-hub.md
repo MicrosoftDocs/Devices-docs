@@ -24,9 +24,9 @@ Configuration service providers (CSPs) provide a rich set of options for deployi
 ## Troubleshoot MDM issues
 
 1. Refer to the following documentation to verify that the CSP is supported on Surface Hub.
-    - [SurfaceHub CSP](windows/client-management/mdm/surfacehub-csp)
-    - [CSPs supported in Microsoft Surface Hub](windows/client-management/mdm/configuration-service-provider-support#csps-supported-in-microsoft-surface-hub)
-    - [Policies in Policy CSP supported by Microsoft Surface Hub](windows/client-management/mdm/policies-in-policy-csp-supported-by-surface-hub)
+    - [SurfaceHub CSP](/windows/client-management/mdm/surfacehub-csp)
+    - [CSPs supported in Microsoft Surface Hub](/windows/client-management/mdm/configuration-service-provider-support#csps-supported-in-microsoft-surface-hub)
+    - [Policies in Policy CSP supported by Microsoft Surface Hub](/windows/client-management/mdm/policies-in-policy-csp-supported-by-surface-hub)
 
 2. Upon confirmation that your CSP is supported on Surface Hub, sign in to the [Endpoint Manager Admin Center](https://endpoint.microsoft.com/). Choose **Devices** > **Configuration profiles** and select your CSP.
 3. On the CSP page, ensure the **Configuration profile** is applied to a **Device group** (not a user group or device account), as indicated in the following figure. Note how in this example, the **Hub Devices** group is listed as an included group for the CSP and, in the subsequent figure, your Surface Hub is also a member of the group.
