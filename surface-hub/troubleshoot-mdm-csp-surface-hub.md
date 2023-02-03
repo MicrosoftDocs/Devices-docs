@@ -11,7 +11,7 @@ ms.localizationpriority: medium
 ---
 # Troubleshoot configuration service provider policy for Surface Hub
 
-Configuration service providers (CSPs) provide a rich set of options for deploying policy settings to Surface Hub. This page explains the most troubleshooting common steps if your CSP policy settings are not showing up on your Surface Hub. Dammit
+Configuration service providers (CSPs) provide a rich set of options for deploying policy settings to Surface Hub. This page explains the most troubleshooting common steps if your CSP policy settings are not showing up on your Surface Hub. 
 
 - First, ensure that Surface Hub is enrolled in a mobile device management [MDM] provider without errors and is syncing correctly. To verify, sign in to Surface Hub with an admin account, and go to Settings > Surface Hub > Device management. If you see a tenant with an email address, the device is enrolled in MDM.
 
@@ -30,10 +30,13 @@ Configuration service providers (CSPs) provide a rich set of options for deployi
 
 2. Upon confirmation that your CSP is supported on Surface Hub, sign in to the [Endpoint Manager Admin Center](https://endpoint.microsoft.com/). Choose **Devices** > **Configuration profiles** and select your CSP.
 3. On the CSP page, ensure the **Configuration profile** is applied to a **Device group** (not a user group or device account), as indicated in the following figure. Note how in this example, the **Hub Devices** group is listed as an included group for the CSP and, in the subsequent figure, your Surface Hub is also a member of the group.
-:::image type="content" source="images/hub-csp-fig3.png" alt-text="Screenshot That shows of devices group is listed as an included group for the CSP.":::
 
-:::image type="content" source="images/hub-csp-fig4.png" alt-text="Screenshot That shows Surface Hub is a member of the group. ":::
+:::image type="content" source="images/hub-csp-fig3.png" alt-text="Screenshot that shows the Hub Devices group is listed as an included group for the CSP.":::
 
-1. Ensure the CSP is successfully deployed to your Surface Hub. In Endpoint Manager, select **Devices** > **All devices** > and choose your Surface Hub. Select **Device configuration** and check that the CSP is deployed successfully, as shown in the following figure.
-:::image type="content" source="images/hub-csp-fig5.png" alt-text="Screenshot That shows the CSP is successfully deployed to Surfasce Hub. ":::
-1. Ensure the appropriate [Intune URLs/IP ranges](/mem/intune/fundamentals/intune-endpoints) are allowed through the proxy/firewall.
+:::image type="content" source="images/hub-csp-fig4.png" alt-text="Screenshot that shows Surface Hub is a member of the group. ":::
+
+4. Ensure the CSP is successfully deployed to your Surface Hub. In Endpoint Manager, select **Devices** > **All devices** > and choose your Surface Hub. Select **Device configuration** and check that the CSP is deployed successfully, as shown in the following figure.
+
+:::image type="content" source="images/hub-csp-fig5.png" alt-text="Screenshot that shows the CSP is successfully deployed to Surfasce Hub.":::
+
+5. Ensure the appropriate [Intune URLs/IP ranges](/mem/intune/fundamentals/intune-endpoints) are allowed through the proxy/firewall.
