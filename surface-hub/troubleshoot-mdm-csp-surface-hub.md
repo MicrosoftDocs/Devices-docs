@@ -13,7 +13,7 @@ ms.localizationpriority: medium
 
 Configuration service providers (CSPs) provide a rich set of options for deploying policy settings to Surface Hub. This page explains the most troubleshooting common steps if your CSP policy settings are not showing up on your Surface Hub. 
 
-- First, ensure that Surface Hub is enrolled in a mobile device management [MDM] provider without errors and is syncing correctly. To verify, sign in to Surface Hub with an admin account, and go to Settings > Surface Hub > Device management. If you see a tenant with an email address, the device is enrolled in MDM.
+- First, ensure that Surface Hub is enrolled in a mobile device management (MDM) provider without errors and is syncing correctly. To verify, sign in to Surface Hub with an admin account, and go to **Settings** > **Surface Hub** > **Device management**. If you see a tenant with an email address, the device is enrolled in MDM.
 
     :::image type="content" source="images/hub-csp-fig1.png" alt-text="Screenshot of Device management settings on Surface Hub. ":::
 
