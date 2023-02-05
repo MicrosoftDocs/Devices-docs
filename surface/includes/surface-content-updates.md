@@ -5,6 +5,14 @@
 
 
 
+## Week of January 30, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 1/30/2023 | [Troubleshoot APC Charge Mobile Battery on Surface Hub 2S](/surface-hub/troubleshoot-apc-mobile-battery) | added |
+
+
 ## Week of January 23, 2023
 
 
@@ -149,6 +157,22 @@
 | 1/3/2023 | [Known issues: Windows 10 Team](/surface-hub/windows-10-team-known-issues) | modified |
 | 1/3/2023 | [Wireless network management (Surface Hub)](/surface-hub/wireless-network-management-for-surface-hub) | modified |
 | 1/4/2023 | [Enroll Surface Hub in the Windows Insider Program](/surface-hub/enroll-surface-hub-in-windows-insider-program) | added |
+
+
+## Week of January 30, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 2/2/2023 | [Surface for Business service and repair](/surface/surface-service-and-repair) | modified |
+
+
+## Week of January 30, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 1/30/2023 | [Troubleshoot APC Charge Mobile Battery on Surface Hub 2S](/surface-hub/troubleshoot-apc-mobile-battery) | added |
 
 
 ## Week of January 23, 2023
