@@ -166,6 +166,8 @@
           href: troubleshoot-apc-mobile-battery.md	  		  
         - name: Troubleshoot Teams sign-in issues on Surface Hub
           href: troubleshoot-teams-sign-in-surface-hub.md  
+        - name: Troubleshoot CSP policy settings
+          href: troubleshoot-mdm-csp-surface-hub.md 
         - name: Troubleshoot Surface Hub 2 pen
           href: troubleshoot-surface-hub-2-pen.md
         - name: Troubleshoot access to Settings app on Surface Hub
