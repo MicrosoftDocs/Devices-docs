@@ -26,5 +26,6 @@ ms.localizationpriority: medium
 
 2. Upon confirmation that your CSP is supported on Surface Hub, sign in to the [Endpoint Manager Admin Center](https://endpoint.microsoft.com/). Choose **Devices** > **Configuration profiles** and select your CSP.
 3. On the CSP page, ensure the **Configuration profile** is applied to a **Device group** (not a user group or device account).
-4. Ensure your CSP is successfully deployed to your Surface Hub. In Endpoint Manager, select **Devices** > **All devices** > and choose your Surface Hub. Select **Device configuration** and check that the CSP is deployed successfully.
-5. Ensure the appropriate [Intune URLs/IP ranges](/mem/intune/fundamentals/intune-endpoints) are allowed through the proxy/firewall.
+4. Ensure your CSP is successfully deployed to your Surface Hub. In Endpoint Manager, select **Devices** > **All devices** > and choose your Surface Hub. 
+5. Select **Device configuration** and check that the CSP is deployed successfully.
+6. Ensure the appropriate [Intune URLs/IP ranges](/mem/intune/fundamentals/intune-endpoints) are allowed through the proxy/firewall.
