@@ -44,6 +44,20 @@ Profile File Name: .\Ethernet.xml
 1 profile(s) were exported successfully.
 ```
 
+To disable 802.1x completely on the Surface Hub, the following XML can be used when configuring the LanProfile OMA-URI policy:
+
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<LANProfile xmlns="https://www.microsoft.com/networking/LAN/profile/v1">
+   <MSM>
+       <security>
+           <OneXEnforced>false</OneXEnforced>
+           <OneXEnabled>false</OneXEnabled>
+       </security>
+  </MSM>
+</LANProfile>
+```
+
 ## EapUserData policy element
 
 If your selected authentication method requires a username and password as opposed to a certificate, you can use the **EapUserData** element to specify credentials for the device to use to authenticate to the network. 
