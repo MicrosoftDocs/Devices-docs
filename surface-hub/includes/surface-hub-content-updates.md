@@ -2,6 +2,14 @@
 
 
 
+## Week of January 30, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 1/30/2023 | [Troubleshoot APC Charge Mobile Battery on Surface Hub 2S](/surface-hub/troubleshoot-apc-mobile-battery) | added |
+
+
 ## Week of January 23, 2023
 
 
