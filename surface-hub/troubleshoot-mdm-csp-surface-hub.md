@@ -37,6 +37,6 @@ ms.localizationpriority: medium
 
 4. Ensure your CSP is successfully deployed to your Surface Hub. In Endpoint Manager, select **Devices** > **All devices** > and choose your Surface Hub. Select **Device configuration** and check that the CSP is deployed successfully, as shown in the following figure.
 
-    :::image type="content" source="images/hub-csp-fig5.png" alt-text="Screenshot that shows the CSP is successfully deployed to Surfasce Hub.":::
+    :::image type="content" source="images/hub-csp-fig5.png" alt-text="Screenshot that shows the CSP is successfully deployed to Surface Hub.":::
 
 5. Ensure the appropriate [Intune URLs/IP ranges](/mem/intune/fundamentals/intune-endpoints) are allowed through the proxy/firewall.
