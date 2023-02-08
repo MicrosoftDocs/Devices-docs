@@ -8,7 +8,7 @@ ms.prod: surface-hub
 author: coveminer
 ms.author: hachidan
 ms.topic: how-to
-ms.date: 04/01/2021
+ms.date: 02/08/2023
 ms.localizationpriority: medium
 ---
 
