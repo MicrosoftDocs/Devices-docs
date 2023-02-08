@@ -184,6 +184,11 @@
             "source_path":  "surface-hub/surface-hub-authenticator-app.md",
             "redirect_url":  "surface-hub/surface-hub-2s-phone-authenticate",
             "redirect_document_id":  false
+        },
+        {
+            "source_path":  "surface-hub/exchange-properties-for-surface-hub-device-accounts.md",
+            "redirect_url":  "surface-hub/create-and-test-a-device-account-surface-hub",
+            "redirect_document_id":  false
         }
     ]
 }
