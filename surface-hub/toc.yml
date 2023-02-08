@@ -118,16 +118,12 @@
              href: surface-hub-2s-nonglobal-admin.md
            - name: Create provisioning packages for Surface Hub
              href: provisioning-packages-for-surface-hub.md
-           - name: Adjust accessibility settings
-             href: accessibility-surface-hub.md   
            - name: Hybrid deployment
              href: hybrid-deployment-surface-hub-device-accounts.md        
            - name: Configure password-less sign-in on Surface Hub
              href: surface-hub-2s-phone-authenticate.md 
            - name: Configure Surface Hub Start menu
              href: surface-hub-start-menu.md
-           - name: Set up and use Microsoft Whiteboard
-             href: whiteboard-collaboration.md
            - name: Modern authentication on Surface Hub
              href: surface-hub-modern-auth.md
            - name: Save your BitLocker key
@@ -173,7 +169,20 @@
               - name: Configure Windows 10/11 Pro or Enterprise on Surface Hub 2
                 href: surface-hub-2-post-install.md
               - name: Essential add-ons for Windows 10/11 Pro and Enterprise on Surface Hub 2
-                href: surface-hub-2-essential-add-ons.md               
+                href: surface-hub-2-essential-add-ons.md        
+        - name: Get started
+          expanded: true
+          items:    
+           -  name: What's new in Windows 10 Team 2020 updates
+              href: surface-hub-2020-update-whats-new.md
+           - name: Operating system essentials
+             href: differences-between-surface-hub-and-windows-10-enterprise.md
+           - name: Set up and use Microsoft Whiteboard
+             href: whiteboard-collaboration.md
+           - name: Adjust accessibility settings
+             href: accessibility-surface-hub.md   
+           - name: Surface Hub security overview
+             href: surface-hub-security.md    
         - name: Manage
           expanded: true
           items:
@@ -223,26 +232,23 @@
             href: troubleshoot-teams-sign-in-surface-hub.md  
           - name: Troubleshoot access to Settings app on Surface Hub
             href: troubleshoot-access-to-settings-app-surface-hub.md
+          - name: Troubleshoot CSP policy settings
+            href: troubleshoot-mdm-csp-surface-hub.md
           - name: Troubleshoot Miracast on Surface Hub
             href: miracast-troubleshooting.md
+          - name: Surface Hub may install updates and restart outside maintenance hours
+            href: surface-hub-installs-updates-and-restarts-outside-maintenance-hours.md
           - name: Top support solutions for Surface Hub
             href: support-solutions-surface-hub.md
         - name: Training
           expanded: true
           items:
-            - name: What's new in Windows 10 Team 2020 Update
-              href: surface-hub-2020-update-whats-new.md
             - name: Surface Hub 2S adoption and training
               href: surface-hub-2s-adoption-kit.md
             - name: Surface Hub 2S adoption videos
               href: surface-hub-2s-adoption-videos.md
             - name: Surface Hub 2S adoption welcome screens
               href: surface-hub-2s-adoption-welcome-screens.md
-            - name: Use Microsoft Whiteboard on Surface Hub
-              href: https://support.office.com/article/use-microsoft-whiteboard-on-a-surface-hub-5c594985-129d-43f9-ace5-7dee96f7621d
             - name: Surface Hub return to the office video series 
               href: surface-hub-return-to-office-videos.md     
-            - name: Operating system essentials for Surface Hub
-              href: differences-between-surface-hub-and-windows-10-enterprise.md
-            - name: Surface Hub security overview
-              href: surface-hub-security.md      
+  
