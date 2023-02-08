@@ -5,11 +5,10 @@ ms.assetid: 8BB80FA3-D364-4A90-B72B-65F0F0FC1F0D
 ms.reviewer: 
 manager: frankbu
 ms.prod: surface-hub
-
 author: coveminer
 ms.author: hachidan
 ms.topic: how-to
-ms.date: 07/27/2017
+ms.date: 02/08/2023
 ms.localizationpriority: medium
 ---
 
@@ -235,3 +234,11 @@ You can connect the following accessories to Surface Hub using Bluetooth:
 
 >[!NOTE]
 >After you connect a Bluetooth headset or speaker, you might need to change the [default microphone and speaker settings](local-management-surface-hub-settings.md).
+
+## What to do if the Connect app in Surface Hub exits unexpectedly
+
+At times, a wired Connect session that is started from the Welcome screen by connecting a DisplayPort input will exit back to the Welcome screen after using the side keypad or the source button to cycle through all source inputs.
+
+This is an issue in the Connect app and its default full-screen state. By changing the size of the app, or by selecting a DisplayPort input thumbnail in the Connect app, you can prevent input cycling from affecting the app.
+
+The way to resolve this issue is to first launch the Connect app from the Welcome screen, and THEN connect a DisplayPort input. If the input is already connected, manually select the thumbnail.

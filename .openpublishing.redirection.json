@@ -194,6 +194,16 @@
             "source_path":  "surface-hub/apply-activesync-policies-for-surface-hub-device-accounts.md",
             "redirect_url":  "surface-hub/create-and-test-a-device-account-surface-hub",
             "redirect_document_id":  false
+        },
+        {
+            "source_path":  "surface-hub/connect-app-in-surface-hub-unexpectedly-exits.md",
+            "redirect_url":  "surface-hub/connect-and-display-with-surface-hub",
+            "redirect_document_id":  false
+        },
+        {
+            "source_path":  "surface-hub/remote-surface-hub-management.md",
+            "redirect_url":  "surface-hub/manage-settings-with-mdm-for-surface-hub",
+            "redirect_document_id":  false
         }
     ]
 }
