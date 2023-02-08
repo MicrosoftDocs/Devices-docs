@@ -204,6 +204,11 @@
             "source_path":  "surface-hub/remote-surface-hub-management.md",
             "redirect_url":  "surface-hub/manage-settings-with-mdm-for-surface-hub",
             "redirect_document_id":  false
+        },
+        {
+            "source_path":  "surface-hub/remote-surface-hub-management.md",
+            "redirect_url":  "surface-hub/manage-settings-with-mdm-for-surface-hub",
+            "redirect_document_id":  false
         }
     ]
 }

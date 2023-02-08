@@ -7,7 +7,7 @@ ms.prod: surface-hub
 author: coveminer
 ms.author: hachidan
 ms.topic: how-to
-ms.date: 03/25/2021
+ms.date: 02/08/2023
 ms.localizationpriority: medium
 appliesto:
 - Surface Hub 2S
@@ -137,3 +137,42 @@ To change the default installation, use a [custom profile](/mem/intune/configura
 |:--- |:--- |:--- |:--- |:--- |
 |**Teams App ID**|App name|./Vendor/MSFT/SurfaceHub/Properties/VtcAppPackageId|String| Microsoft.MicrosoftTeamsforSurfaceHub_8wekyb3d8bbwe!Teams|
 |**Teams App Mode**|Teams mode|./Vendor/MSFT/SurfaceHub/Properties/SurfaceHubMeetingMode|Integer| 0 or 1|
+
+## Implement Quality of Service (QoS)
+
+Quality of Service (QoS) is a combination of network technologies that allows the administrators to optimize the experience of real time audio/video and application sharing communications.
+ 
+Configuring [QoS for Teams or Skype for Business](/windows/client-management/mdm/networkqospolicy-csp) on the Surface Hub can be done using your [MDM provider](manage-settings-with-mdm-for-surface-hub.md) or through a [provisioning package](provisioning-packages-for-surface-hub.md). 
+ 
+ 
+This procedure explains how to configure QoS for Surface Hub using Microsoft Intune. 
+
+1. In Intune, [create a custom policy](/intune/custom-settings-configure).
+
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of custom policy creation dialog in Intune.](images/qos-create.png)
+
+2. In **Custom OMA-URI Settings**, select **Add**. For each setting that you add, you will enter a name, description (optional), data type, OMA-URI, and value.
+
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of a blank OMA-URI setting dialog box.](images/qos-setting.png)
+
+3. Add the following custom OMA-URI settings:<br/><br/>
+
+    Name | Data type | OMA-URI<br>./Device/Vendor/MSFT/NetworkQoSPolicy |  Value
+    --- | --- | --- | ---
+    Audio Source Port | String |  /HubAudio/SourcePortMatchCondition  |   Get the values from your Skype administrator
+    Audio DSCP | Integer |  /HubAudio/DSCPAction  |   46
+    Video Source Port | String |  /HubVideo/SourcePortMatchCondition   |  Get the values from your Skype administrator
+    Video DSCP | Integer |  /HubVideo/DSCPAction   |   34
+    Audio Process Name | String |  /HubAudio/AppPathNameMatchCondition  |   Microsoft.PPISkype.Windows.exe
+    Video Process Name | String |  /HubVideo/AppPathNameMatchCondition  |   Microsoft.PPISkype.Windows.exe
+
+    >[!IMPORTANT]
+    >Each **OMA-URI** path begins with `./Device/Vendor/MSFT/NetworkQoSPolicy`. The full path for the audio source port setting, for example, will be `./Device/Vendor/MSFT/NetworkQoSPolicy/HubAudio/SourcePortMatchCondition`.
+
+4. When the policy has been created, deploy it to Surface Hub.
+
+
+>[!WARNING]
+>Currently, you cannot configure the setting **IPProtocolMatchCondition** in the [NetworkQoSPolicy CSP](/windows/client-management/mdm/networkqospolicy-csp). If this setting is configured, the policy will fail to apply.
