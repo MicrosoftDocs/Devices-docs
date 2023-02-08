@@ -110,6 +110,8 @@
              href: first-run-program-surface-hub.md   
            - name: Create and test a device account
              href: create-and-test-a-device-account-surface-hub.md
+           - name: Change the Surface Hub device account
+             href: change-surface-hub-device-account.md
            - name: Use the Surface Hub Hardware Diagnostic Tool to test a device account
              href: use-surface-hub-diagnostic-test-device-account.md
            - name: Enroll Surface Hub into MDM management
