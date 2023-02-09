@@ -229,6 +229,8 @@
             href: windows-10-team-known-issues.md
           - name: Troubleshoot Surface Hub
             href: troubleshoot-surface-hub.md
+          - name: Reset and recovery for Surface Hub 2S
+            href: surface-hub-2s-recover-reset.md        
           - name: Collect Surface Hub log files  
             href: collect-surface-hub-log-files.md 	  		  
           - name: Troubleshoot Teams sign-in issues on Surface Hub
