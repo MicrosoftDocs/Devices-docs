@@ -81,8 +81,6 @@ landingContent:
             url: https://www.microsoft.com/p/surface-hub-2S/8P62MW6BN9G4?activetab=pivot:overviewtab 
           - text: Operating system essentials
             url: differences-between-surface-hub-and-windows-10-enterprise.md
-          - text: Enable Microsoft Whiteboard on Surface Hub
-            url: https://support.office.com/article/Enable-Microsoft-Whiteboard-on-Surface-Hub-b5df4539-f735-42ff-b22a-0f5e21be7627
 
     # Card (optional)
   - title: Deploy
