@@ -133,14 +133,12 @@
            - name: Enroll Surface Hub in Windows Insider program
              href: enroll-surface-hub-in-windows-insider-program.md
            - name: Install apps
-             expanded: true
              items:
               - name: Install apps on Surface Hub
                 href: install-apps-on-surface-hub.md
               - name: Install Progressive Web Apps on Surface Hub
                 href: install-pwa-surface-hub.md  
            - name: Connect devices
-             expanded: true
              items:
               - name: Connect devices to Surface Hub 2S
                 href: surface-hub-2s-connect.md        
@@ -151,7 +149,6 @@
               - name: Troubleshoot Miracast on Surface Hub
                 href: miracast-troubleshooting.md        
            - name: Configure Microsoft Teams 
-             expanded: true
              items: 
              - name: Microsoft Teams Rooms on Surface Hub
                href: surface-hub-teams-rooms.md
@@ -164,7 +161,6 @@
              - name: Create and configure resource accounts for rooms and shared Teams devices
                href: /microsoftteams/rooms/with-exchange-online
            - name: Migrate to Windows 10/11 Pro or Enterprise
-             expanded: true
              items: 
               - name: Migrate to Windows 10/11 Pro or Enterprise on Surface Hub 2
                 href: surface-hub-2s-migrate-os.md
@@ -205,7 +201,6 @@
           - name: Secure and manage Surface Hub 2S with SEMM and UEFI
             href: surface-hub-2s-secure-with-uefi-semm.md
           - name: Manage Surface Hub settings
-            expanded: true
             items:
              - name: Manage Surface Hub settings
                href: manage-surface-hub-settings.md
