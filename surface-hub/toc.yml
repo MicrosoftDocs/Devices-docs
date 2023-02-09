@@ -7,10 +7,8 @@
       expanded: true
       items: 
         - name: Surface Hub 2S
-          expanded: true
           items:
             - name: Tech specs
-              expanded: true
               items: 
                 - name: Surface Hub 2S 50" tech specs
                   href: surface-hub-2s-techspecs.md
@@ -36,7 +34,6 @@
                   - name: Adjust Surface Hub 2S brightness, volume, and input
                     href: surface-hub-2s-onscreen-display.md
             - name: Accessories
-              expanded: true
               items: 
                  - name: Update pen firmware on Surface Hub 2S
                    href: surface-hub-2s-pen-firmware.md
@@ -47,7 +44,6 @@
                  - name: Teams certified accessories for Surface Hub 2S
                    href: surface-hub-2s-certifications.md
             - name: Troubleshoot hardware
-              expanded: true
               items:        
                - name: Reset and recovery for Surface Hub 2S
                  href: surface-hub-2s-recover-reset.md      
@@ -63,14 +59,12 @@
           expanded: true
           items:
             - name: Tech specs
-              expanded: true
               items: 
                - name: Surface Hub (v1) 55" tech specs
                  href: surface-hub-technical-55.md
                - name: Surface Hub (v1) 84" tech specs
                  href: surface-hub-technical-84.md
             - name: Site readiness
-              expanded: true
               items:
                - name: Surface Hub v1 site readiness guide
                  href: surface-hub-site-readiness-guide.md
@@ -81,7 +75,6 @@
                - name: Downloadable resources for Surface Hub readiness
                  href: surface-hub-downloads.md    
             - name: Troubleshoot hardware
-              expanded: true
               items:     
                 - name: Reset or recover a Surface Hub
                   href: device-reset-surface-hub.md
@@ -170,7 +163,6 @@
               - name: Essential add-ons for Windows 10/11 Pro and Enterprise on Surface Hub 2
                 href: surface-hub-2-essential-add-ons.md        
         - name: Get started
-          expanded: true
           items:    
            -  name: What's new in Windows 10 Team 2020 updates
               href: surface-hub-2020-update-whats-new.md
@@ -187,7 +179,6 @@
            - name: Surface Hub security overview
              href: surface-hub-security.md    
         - name: Manage
-          expanded: true
           items:
           - name: Manage Microsoft Surface Hub
             href: manage-surface-hub.md
@@ -222,7 +213,6 @@
              - name: Enable 802.1x wired authentication
                href: enable-8021x-wired-authentication.md
         - name: Troubleshoot
-          expanded: true
           items:
           - name: Surface Hub Update History
             href: surface-hub-update-history.md      
@@ -245,7 +235,6 @@
           - name: Top support solutions for Surface Hub
             href: support-solutions-surface-hub.md
         - name: Training
-          expanded: true
           items:
             - name: Surface Hub 2S adoption and training
               href: surface-hub-2s-adoption-kit.md
