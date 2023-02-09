@@ -228,6 +228,7 @@
                - name: How to pack and ship your Surface Hub 2S for service
                  href: surface-hub-2s-pack-components.md               
         - name: Surface Hub v1
+          expanded: true
           items:
             - name: Tech specs
               items: 
