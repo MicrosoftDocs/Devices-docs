@@ -7,8 +7,8 @@
       expanded: true
       items: 
         - name: Surface Hub 2S
-          items:
           expanded: true
+          items:
             - name: Tech specs
               items: 
                 - name: Surface Hub 2S 50" tech specs
