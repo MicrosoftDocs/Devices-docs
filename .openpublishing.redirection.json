@@ -214,6 +214,11 @@
             "source_path":  "surface-hub/hub-move.md",
             "redirect_url":  "surface-hub/surface-hub-2s-85-install-mount",
             "redirect_document_id":  false
+        },
+        {
+            "source_path":  "surface-hub/set-up-your-surface-hub.md",
+            "redirect_url":  "surface-hub/first-run-program-surface-hub",
+            "redirect_document_id":  false
         }
     ]
 }

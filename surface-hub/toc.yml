@@ -100,6 +100,8 @@
              href: https://go.microsoft.com/fwlink/?linkid=2221605
            - name: Surface Hub and Microsoft Teams Rooms setup best practices  
              href: https://go.microsoft.com/fwlink/?linkid=2222648  
+           - name: Install Windows 10 Team 2022 Update
+             href: surface-hub-2022-update.md
            - name: Prepare your environment for Surface Hub
              href: prepare-your-environment-for-surface-hub.md
            - name: Setup worksheet
@@ -177,6 +179,8 @@
              href: whiteboard-collaboration.md
            - name: Adjust accessibility settings
              href: accessibility-surface-hub.md   
+           - name: End a Surface Hub meeting with End session
+             href: finishing-your-surface-hub-meeting.md
            - name: Surface Hub security overview
              href: surface-hub-security.md    
         - name: Manage
@@ -184,6 +188,8 @@
           items:
           - name: Manage Microsoft Surface Hub
             href: manage-surface-hub.md
+          - name: Manage Surface Hub with an MDM provider
+            href: manage-settings-with-mdm-for-surface-hub.md
           - name: Admin group management
             href: admin-group-management-for-surface-hub.md
           - name: Manage Microsoft Edge on Surface Hub
