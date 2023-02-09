@@ -16,9 +16,8 @@
                   href: surface-hub-2s-techspecs.md
                 - name: Surface Hub 2S 85" tech specs
                   href: surface-hub-2s-85.md     
-            - name: Site readiness
+            - name: Site readiness guide
               href: surface-hub-2s-site-readiness-guide.md
-              expanded: true
               items: 
                   - name: Site planning for Surface Hub 2S
                     href: surface-hub-2s-site-planning.md
@@ -66,9 +65,9 @@
             - name: Tech specs
               expanded: true
               items: 
-               - name: Technical information for 55" Surface Hub (v1)
+               - name: Surface Hub (v1) 55" tech specs
                  href: surface-hub-technical-55.md
-               - name: Technical information for 84" Surface Hub (v1)
+               - name: Surface Hub (v1) 84" tech specs
                  href: surface-hub-technical-84.md
             - name: Site readiness
               expanded: true
@@ -181,6 +180,8 @@
              href: whiteboard-collaboration.md
            - name: Adjust accessibility settings
              href: accessibility-surface-hub.md   
+           - name: Adjust Surface Hub 2S brightness, volume, and input
+             href: surface-hub-2s-onscreen-display.md
            - name: End a Surface Hub meeting with End session
              href: finishing-your-surface-hub-meeting.md
            - name: Surface Hub security overview
