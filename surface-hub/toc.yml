@@ -90,42 +90,53 @@
         - name: Set up
           expanded: true
           items:
+           - name: Install Windows 10 Team 2022 Update
+             href: surface-hub-2022-update.md
            - name: Surface Hub and Microsoft Teams Rooms automated setup guide (requires M365 authentication)
              href: https://go.microsoft.com/fwlink/?linkid=2221605
            - name: Surface Hub and Microsoft Teams Rooms setup best practices  
              href: https://go.microsoft.com/fwlink/?linkid=2222648  
-           - name: Install Windows 10 Team 2022 Update
-             href: surface-hub-2022-update.md
-           - name: Prepare your environment for Surface Hub
-             href: prepare-your-environment-for-surface-hub.md
-           - name: Setup worksheet
-             href: setup-worksheet-surface-hub.md
-           - name: First time setup for Surface Hub 2S
-             href: first-run-program-surface-hub.md   
-           - name: Create and test a device account
-             href: create-and-test-a-device-account-surface-hub.md
-           - name: Change the Surface Hub device account
-             href: change-surface-hub-device-account.md
-           - name: Use the Surface Hub Hardware Diagnostic Tool to test a device account
-             href: use-surface-hub-diagnostic-test-device-account.md
-           - name: Enroll Surface Hub into MDM management
-             href: enroll-surface-hub-mdm.md
-           - name: Configure non-Global Admin accounts on Surface Hub
-             href: surface-hub-2s-nonglobal-admin.md
-           - name: Create provisioning packages for Surface Hub
-             href: provisioning-packages-for-surface-hub.md
-           - name: Hybrid deployment
-             href: hybrid-deployment-surface-hub-device-accounts.md        
+           - name: Enroll Surface Hub in Windows Insider program
+             href: enroll-surface-hub-in-windows-insider-program.md  
            - name: Configure password-less sign-in on Surface Hub
              href: surface-hub-2s-phone-authenticate.md 
            - name: Configure Surface Hub Start menu
              href: surface-hub-start-menu.md
-           - name: Modern authentication on Surface Hub
-             href: surface-hub-modern-auth.md
-           - name: Save your BitLocker key
-             href: save-bitlocker-key-surface-hub.md
-           - name: Enroll Surface Hub in Windows Insider program
-             href: enroll-surface-hub-in-windows-insider-program.md
+           - name: First-time setup
+             expanded: true
+             items:
+              - name: First time setup for Surface Hub 2S
+                href: first-run-program-surface-hub.md   
+              - name: Admin group management
+                href: admin-group-management-for-surface-hub.md
+              - name: Setup worksheet
+                href: setup-worksheet-surface-hub.md   
+              - name: Prepare your environment for Surface Hub
+                href: prepare-your-environment-for-surface-hub.md           
+              - name: Save your BitLocker key
+                href: save-bitlocker-key-surface-hub.md
+           - name: Device account
+             expanded: true
+             items:
+              - name: Create and test a device account
+                href: create-and-test-a-device-account-surface-hub.md
+              - name: Change the Surface Hub device account
+                href: change-surface-hub-device-account.md
+              - name: Use the Surface Hub Hardware Diagnostic Tool to test a device account
+                href: use-surface-hub-diagnostic-test-device-account.md
+              - name: Hybrid deployment
+                href: hybrid-deployment-surface-hub-device-accounts.md    
+              - name: Modern authentication on Surface Hub
+                href: surface-hub-modern-auth.md
+           - name: Configuration management
+             expanded: true
+             items:
+              - name: Enroll Surface Hub into MDM management
+                href: enroll-surface-hub-mdm.md
+              - name: Configure non-Global Admin accounts on Surface Hub
+                href: surface-hub-2s-nonglobal-admin.md
+              - name: Create provisioning packages for Surface Hub
+                href: provisioning-packages-for-surface-hub.md
            - name: Install apps
              items:
               - name: Install apps on Surface Hub

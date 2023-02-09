@@ -14,7 +14,6 @@ ms.localizationpriority: medium
 
 # Save your BitLocker key (Surface Hub)
 
-
 Every Microsoft Surface Hub is automatically set up with BitLocker drive encryption software. Microsoft strongly recommends that you make sure you back up your BitLocker recovery keys.
 
 There are several ways to manage your BitLocker key on the Surface Hub.
