@@ -50,6 +50,8 @@
             - name: Troubleshoot hardware
               expanded: true
               items:        
+               - name: Reset and recovery for Surface Hub 2S
+                 href: surface-hub-2s-recover-reset.md      
                - name: Troubleshoot Surface Hub 2S Power Issues
                  href: troubleshoot-power-surface-hub-2s.md
                - name: Troubleshoot APC Charge Mobile Battery
@@ -212,8 +214,6 @@
                href: local-management-surface-hub-settings.md
              - name: Password management
                href: password-management-for-surface-hub-device-accounts.md             
-             - name: Change the Surface Hub device account
-               href: change-surface-hub-device-account.md
              - name: Configure domain name for Skype for Business
                href: use-fully-qualified-domain-name-surface-hub.md
              - name: Wireless network management
@@ -228,9 +228,7 @@
           - name: Known issues - 22H2 
             href: windows-10-team-known-issues.md
           - name: Troubleshoot Surface Hub
-            href: troubleshoot-surface-hub.md
-          - name: Reset and recovery for Surface Hub 2S
-            href: surface-hub-2s-recover-reset.md        
+            href: troubleshoot-surface-hub.md  
           - name: Collect Surface Hub log files  
             href: collect-surface-hub-log-files.md 	  		  
           - name: Troubleshoot Teams sign-in issues on Surface Hub
