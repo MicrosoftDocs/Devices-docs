@@ -96,12 +96,6 @@
              href: https://go.microsoft.com/fwlink/?linkid=2221605
            - name: Surface Hub and Microsoft Teams Rooms setup best practices  
              href: https://go.microsoft.com/fwlink/?linkid=2222648  
-           - name: Enroll Surface Hub in Windows Insider program
-             href: enroll-surface-hub-in-windows-insider-program.md  
-           - name: Configure password-less sign-in on Surface Hub
-             href: surface-hub-2s-phone-authenticate.md 
-           - name: Configure Surface Hub Start menu
-             href: surface-hub-start-menu.md
            - name: First-time setup
              expanded: true
              items:
@@ -209,6 +203,12 @@
             href: check-surface-hub-warranty.md    
           - name: Secure and manage Surface Hub 2S with SEMM and UEFI
             href: surface-hub-2s-secure-with-uefi-semm.md
+          - name: Enroll Surface Hub in Windows Insider program
+            href: enroll-surface-hub-in-windows-insider-program.md  
+          - name: Configure password-less sign-in on Surface Hub
+            href: surface-hub-2s-phone-authenticate.md 
+          - name: Configure Surface Hub Start menu
+            href: surface-hub-start-menu.md
           - name: Manage Surface Hub settings
             items:
              - name: Manage Surface Hub settings
