@@ -30,16 +30,14 @@ landingContent:
         links:
           - text: Surface Hub and Microsoft Teams Rooms automated setup guide (requires M365 authentication)
             url: https://go.microsoft.com/fwlink/?linkid=2221605
-          - text: Latest Surface Hub OS updates released 
-            url: surface-hub-2020-update-whats-new.md 
+          - text: Install Windows 10 Team 2022 Update 
+            url: surface-hub-2022-update.md 
           - text: Install Progressive Web Apps on Surface Hub
             url:  install-pwa-surface-hub.md 
           - text: Install and manage Surface Hub 2 Smart Camera
             url: surface-hub-2-smart-camera.md       
-          - text: Surface Hub return to the office video series
-            url: surface-hub-return-to-office-videos.md
           - text: Microsoft Teams Rooms on Surface Hub                               
-            url: /surface-hub/hub-teams-app
+            url: surface-hub-teams-rooms.md
           - text: Modern authentication on Surface Hub                
             url: surface-hub-modern-auth.md
 
