@@ -28,8 +28,6 @@
                     href: surface-hub-2s-unpack.md
                   - name: Install and mount Surface Hub 2S 50"
                     href: surface-hub-2s-install-mount.md
-                  - name: Moving and handling Surface Hub 2S 85"
-                    href: hub-move.md
                   - name: Install and mount Surface Hub 2S 85"
                     href: surface-hub-2s-85-install-mount.md
                   - name: Customize wall mount of Surface Hub 2S 50"
@@ -214,6 +212,8 @@
                href: use-fully-qualified-domain-name-surface-hub.md
              - name: Wireless network management
                href: wireless-network-management-for-surface-hub.md
+             - name: Enable 802.1x wired authentication
+               href: enable-8021x-wired-authentication.md
         - name: Troubleshoot
           expanded: true
           items:
