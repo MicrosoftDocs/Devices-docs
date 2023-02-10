@@ -10,6 +10,9 @@ ms.author: hachidan
 ms.topic: how-to
 ms.date: 12/19/2022
 ms.localizationpriority: medium
+appliesto:
+- Surface Hub 
+- Surface Hub 2S
 ---
 
 # Save your BitLocker key (Surface Hub)

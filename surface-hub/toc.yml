@@ -22,7 +22,7 @@
                 href: admin-group-management-for-surface-hub.md
               - name: Setup worksheet
                 href: setup-worksheet-surface-hub.md   
-              - name: Prepare environment for Surface Hub
+              - name: Prepare environment
                 href: prepare-your-environment-for-surface-hub.md           
               - name: Save BitLocker key
                 href: save-bitlocker-key-surface-hub.md
@@ -33,11 +33,11 @@
                 href: create-and-test-a-device-account-surface-hub.md
               - name: Change device account
                 href: change-surface-hub-device-account.md
-              - name: Use Hardware Diagnostic Tool to test device account
+              - name: Test device account
                 href: use-surface-hub-diagnostic-test-device-account.md
               - name: Hybrid deployment
                 href: hybrid-deployment-surface-hub-device-accounts.md    
-              - name: Modern authentication on Surface Hub
+              - name: Modern authentication
                 href: surface-hub-modern-auth.md
            - name: Configuration management
              expanded: true
