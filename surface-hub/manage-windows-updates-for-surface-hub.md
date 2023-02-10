@@ -11,7 +11,7 @@ ms.date: 12/19/2022
 ms.localizationpriority: medium
 ---
 
-# Manage Windows updates on Surface Hub
+# Manage Windows Update on Surface Hub
 
 New releases of the Surface Hub operating system are published through Windows Update, just like releases of Windows 10 or Windows 11. This page explains best practices for managing updates for Surface Hub devices. 
 

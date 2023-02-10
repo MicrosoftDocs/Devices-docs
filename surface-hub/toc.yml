@@ -16,24 +16,24 @@
            - name: First-time setup
              expanded: true
              items:
-              - name: First time setup for Surface Hub 2S
+              - name: First time setup for Surface Hub
                 href: first-run-program-surface-hub.md   
               - name: Admin group management
                 href: admin-group-management-for-surface-hub.md
               - name: Setup worksheet
                 href: setup-worksheet-surface-hub.md   
-              - name: Prepare your environment for Surface Hub
+              - name: Prepare environment for Surface Hub
                 href: prepare-your-environment-for-surface-hub.md           
-              - name: Save your BitLocker key
+              - name: Save BitLocker key
                 href: save-bitlocker-key-surface-hub.md
            - name: Device account
              expanded: true
              items:
-              - name: Create & test a device account
+              - name: Create & test device account
                 href: create-and-test-a-device-account-surface-hub.md
-              - name: Change the Surface Hub device account
+              - name: Change device account
                 href: change-surface-hub-device-account.md
-              - name: Use the Surface Hub Hardware Diagnostic Tool to test a device account
+              - name: Use Hardware Diagnostic Tool to test device account
                 href: use-surface-hub-diagnostic-test-device-account.md
               - name: Hybrid deployment
                 href: hybrid-deployment-surface-hub-device-accounts.md    
@@ -44,15 +44,15 @@
              items:
               - name: Enroll Surface Hub into MDM management
                 href: enroll-surface-hub-mdm.md
-              - name: Configure non-Global Admin accounts on Surface Hub
+              - name: Configure non-Global Admin accounts
                 href: surface-hub-2s-nonglobal-admin.md
-              - name: Create provisioning packages for Surface Hub
+              - name: Create provisioning packages
                 href: provisioning-packages-for-surface-hub.md
            - name: Install apps
              items:
               - name: Install apps on Surface Hub
                 href: install-apps-on-surface-hub.md
-              - name: Install Progressive Web Apps on Surface Hub
+              - name: Install Progressive Web Apps
                 href: install-pwa-surface-hub.md  
            - name: Connect devices
              items:
@@ -62,7 +62,7 @@
                 href: connect-and-display-with-surface-hub.md
               - name: Miracast on existing wireless network or LAN
                 href: miracast-over-infrastructure.md
-              - name: Troubleshoot Miracast on Surface Hub
+              - name: Troubleshoot Miracast wireless connectivity
                 href: miracast-troubleshooting.md        
            - name: Configure Microsoft Teams 
              items: 
@@ -98,7 +98,7 @@
              href: accessibility-surface-hub.md   
            - name: Adjust Surface Hub 2S brightness, volume, & input
              href: surface-hub-2s-onscreen-display.md
-           - name: End a Surface Hub meeting with End session
+           - name: Finish a meeting
              href: finishing-your-surface-hub-meeting.md
            - name: Surface Hub security overview
              href: surface-hub-security.md    
@@ -112,13 +112,13 @@
             href: admin-group-management-for-surface-hub.md
           - name: Manage Microsoft Edge on Surface Hub
             href: surface-hub-install-chromium-edge.md
-          - name: Monitor your Surface Hub
+          - name: Monitor Surface Hub
             href: monitor-surface-hub.md
-          - name: Windows updates
+          - name: Manage Windows Update
             href: manage-windows-updates-for-surface-hub.md
-          - name: Manage EU privacy settings for Surface Hub
+          - name: Manage EU privacy settings on Surface Hub
             href: general-data-privacy-regulation-and-surface-hub.md
-          - name: Check Surface Hub warranty status
+          - name: Check Surface Hub warranty
             href: check-surface-hub-warranty.md    
           - name: Secure & manage Surface Hub 2S with SEMM & UEFI
             href: surface-hub-2s-secure-with-uefi-semm.md
@@ -152,13 +152,13 @@
             href: troubleshoot-surface-hub.md  
           - name: Collect Surface Hub log files  
             href: collect-surface-hub-log-files.md 	  		  
-          - name: Troubleshoot Teams sign-in issues on Surface Hub
+          - name: Troubleshoot Teams sign-in issues
             href: troubleshoot-teams-sign-in-surface-hub.md  
-          - name: Troubleshoot access to Settings app on Surface Hub
+          - name: Troubleshoot access to Settings app
             href: troubleshoot-access-to-settings-app-surface-hub.md
           - name: Troubleshoot CSP policy settings
             href: troubleshoot-mdm-csp-surface-hub.md
-          - name: Troubleshoot Miracast on Surface Hub
+          - name: Troubleshoot Miracast wireless connecivity
             href: miracast-troubleshooting.md
           - name: Surface Hub may install updates & restart outside maintenance hours
             href: surface-hub-installs-updates-and-restarts-outside-maintenance-hours.md
@@ -225,35 +225,35 @@
                  href: troubleshoot-apc-mobile-battery.md
                - name: Troubleshoot Surface Hub 2 pen
                  href: troubleshoot-surface-hub-2-pen.md            
-               - name: How to pack & ship your Surface Hub 2S for service
+               - name: Pack & ship Surface Hub 2S for service
                  href: surface-hub-2s-pack-components.md               
         - name: Surface Hub v1
           expanded: true
           items:
             - name: Tech specs
               items: 
-               - name: Surface Hub (v1) 55" tech specs
+               - name: Surface Hub v1 55" tech specs
                  href: surface-hub-technical-55.md
-               - name: Surface Hub (v1) 84" tech specs
+               - name: Surface Hub v1 84" tech specs
                  href: surface-hub-technical-84.md
             - name: Site readiness
               items:
                - name: Surface Hub v1 site readiness guide
                  href: surface-hub-site-readiness-guide.md
-               - name: Physically install Surface Hub
+               - name: Physically install Surface Hub v1
                  href: physically-install-your-surface-hub-device.md
                - name: PowerShell for Surface Hub v1
                  href: appendix-a-powershell-scripts-for-surface-hub.md
-               - name: Downloadable resources for Surface Hub readiness
+               - name: Downloadable resources for Surface Hub v1 readiness
                  href: surface-hub-downloads.md    
             - name: Troubleshoot hardware
               items:     
-                - name: Reset or recover a Surface Hub
+                - name: Reset or recover Surface Hub v1
                   href: device-reset-surface-hub.md
-                - name: Use the Surface Hub Recovery Tool
+                - name: Use Surface Hub v1 Recovery Tool
                   href: surface-hub-recovery-tool.md
-                - name: How to use cloud recovery for BitLocker on a Surface Hub
+                - name: Use cloud recovery for BitLocker on Surface Hub
                   href: use-cloud-recovery-for-bitlocker-on-surfacehub.md             
-                - name: Surface Hub SSD replacement
+                - name: Surface Hub v1 SSD replacement
                   href: surface-hub-ssd-replacement.md       
     

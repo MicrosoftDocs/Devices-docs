@@ -11,9 +11,9 @@ ms.date: 01/17/2018
 ms.localizationpriority: medium
 ---
 
-# Manage Microsoft Surface Hub
+# Manage Surface Hub
 
-After initial setup of Microsoft Surface Hub, device settings and configuration can be modified or changed in a couple ways:
+After initial setup of Surface Hub, you can modify device settings and configuration:
 
 - **Local management** - Every Surface Hub can be configured locally using the **Settings** app on the device. To prevent unauthorized users from changing settings, the Settings app requires admin credentials to open the app. For more information, see [Local management for Surface Hub settings](local-management-surface-hub-settings.md).
 - **Remote management** - Surface Hub allow IT admins to manage settings and policies using a mobile device management (MDM) provider, such as Microsoft Intune, Microsoft Endpoint Configuration Manager, and other third-party providers. Additionally, admins can monitor Surface Hubs using Azure Monitor.  For more information, see [Manage settings with an MDM provider](manage-settings-with-mdm-for-surface-hub.md), and [Monitor Surface Hubs with Azure Monitor to track their health](/azure/azure-monitor/insights/surface-hubs).
