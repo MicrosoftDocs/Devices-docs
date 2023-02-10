@@ -13,8 +13,6 @@
              href: surface-hub-2022-update.md
            - name: Surface Hub and Microsoft Teams Rooms automated setup guide (requires M365 authentication)
              href: https://go.microsoft.com/fwlink/?linkid=2221605
-           - name: Surface Hub and Microsoft Teams Rooms setup best practices  
-             href: https://go.microsoft.com/fwlink/?linkid=2222648  
            - name: First-time setup
              expanded: true
              items:
@@ -68,6 +66,8 @@
                 href: miracast-troubleshooting.md        
            - name: Configure Microsoft Teams 
              items: 
+             - name: Surface Hub and Microsoft Teams Rooms setup best practices  
+               href: https://go.microsoft.com/fwlink/?linkid=2222648  
              - name: Microsoft Teams Rooms on Surface Hub
                href: surface-hub-teams-rooms.md
              - name: Configure networking and Quality of Service for Microsoft Teams Rooms on Surface Hub
