@@ -26,7 +26,7 @@ landingContent:
   # Card
   - title: What's new
     linkLists:
-      - linkListType: learn
+      - linkListType: how-to-guide
         links:
           - text: Surface Hub & Microsoft Teams Rooms automated setup guide (requires M365 authentication)
             url: https://go.microsoft.com/fwlink/?linkid=2221605
@@ -40,8 +40,6 @@ landingContent:
             url: surface-hub-teams-rooms.md
           - text: Modern authentication on Surface Hub                
             url: surface-hub-modern-auth.md
-
-
 
 # Card (optional)
   - title: Troubleshoot
@@ -67,7 +65,22 @@ landingContent:
           - url: surface-hub-update-history.md 
             text: Surface Hub Update History  
 
-  
+  # Card (optional)
+  - title: Service & support
+    linkLists:
+      - linkListType: reference
+        links:
+          - url: https://support.serviceshub.microsoft.com/supportforbusiness/create?sapId=bb7066fb-e329-c1c0-9c13-8e9949c6a64e&hidden=false
+            text: Get support 
+          - url: support-solutions-surface-hub.md
+            text: Surface Hub support solutions           
+          - url: https://support.microsoft.com/help/4493926
+            text: Service & warranty
+          - url: https://www.microsoft.com/surface/business/warranty-service-offerings-and-support
+            text: Surface Hub warranty & protection plans           
+          - url: /surface/surface-driver-firmware-lifecycle-support#surface-hub-driver-and-firmware-support-lifecycle
+            text: Surface Hub driver & firmware support lifecycle 
+
   # Card (optional)
   - title: Get started
     linkLists:
@@ -81,7 +94,7 @@ landingContent:
             url: differences-between-surface-hub-and-windows-10-enterprise.md
 
     # Card (optional)
-  - title: Deploy
+  - title: Setup & deploy
     linkLists:
       - linkListType: deploy
         links:
@@ -103,7 +116,7 @@ landingContent:
             url: https://www.youtube.com/watch?v=mE3UfFmePiI&list=PLXtHYVsvn_b8Vkr9tmPvlWMJX-Rd5rTw8
           - text: The new Surface Hub 2 Smart Camera
             url: https://www.youtube.com/watch?v=sgv_TeT8RB8  
-          - text: Surface Hub 2S. Meetings & collaboration for hybrid teams
+          - text: Meetings & collaboration for hybrid teams
             url: https://www.youtube.com/watch?v=SNmrxh-ACwQ 
           - text: Beneath the Surface | Surface Hub & the hybrid workplace
             url: https://www.youtube.com/watch?v=7pJU1eV_fgM
@@ -114,12 +127,10 @@ landingContent:
           - text: REI embraces hybrid work & supporting sustainability goals with Surface Hub
             url: https://www.youtube.com/watch?v=u4pLDQCQoYc  
     
-
-
   # Card (optional)
   - title: Manage
     linkLists:
-      - linkListType: learn
+      - linkListType: get-started
         links:
           - url: /microsoftteams/rooms/surface-hub-manage-config
             text: Manage Microsoft Teams settings on Surface Hub
@@ -131,7 +142,7 @@ landingContent:
   # Card (optional)
   - title: Secure
     linkLists:
-      - linkListType: learn
+      - linkListType: get-started
         links:
           - url: surface-hub-security.md
             text: Surface Hub security overview 
@@ -157,23 +168,6 @@ landingContent:
             text: Microsoft Store for Business
           - url: /microsoft-store/distribute-apps-with-management-tool
             text: Distribute apps with a management tool
-
-# Card (optional)
-  - title: Service & support
-    linkLists:
-      - linkListType: reference
-        links:
-          - url: https://support.serviceshub.microsoft.com/supportforbusiness/create?sapId=bb7066fb-e329-c1c0-9c13-8e9949c6a64e&hidden=false
-            text: Get support 
-          - url: support-solutions-surface-hub.md
-            text: Surface Hub support solutions           
-          - url: https://support.microsoft.com/help/4493926
-            text: Service & warranty
-          - url: https://www.microsoft.com/surface/business/warranty-service-offerings-and-support
-            text: Surface Hub warranty & protection plans           
-          - url: /surface/surface-driver-firmware-lifecycle-support#surface-hub-driver-and-firmware-support-lifecycle
-            text: Surface Hub driver & firmware support lifecycle 
-
 
   # Card (optional)
   - title: Community
