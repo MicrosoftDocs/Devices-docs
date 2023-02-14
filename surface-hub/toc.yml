@@ -100,8 +100,6 @@
              href: surface-hub-2s-onscreen-display.md
            - name: Finish a meeting
              href: finishing-your-surface-hub-meeting.md
-           - name: Surface Hub security overview
-             href: surface-hub-security.md    
         - name: Manage
           items:
           - name: Manage Microsoft Surface Hub
@@ -120,12 +118,8 @@
             href: general-data-privacy-regulation-and-surface-hub.md
           - name: Check Surface Hub warranty
             href: check-surface-hub-warranty.md    
-          - name: Secure & manage Surface Hub 2S with SEMM & UEFI
-            href: surface-hub-2s-secure-with-uefi-semm.md
           - name: Enroll Surface Hub in Windows Insider program
             href: enroll-surface-hub-in-windows-insider-program.md  
-          - name: Configure password-less sign-in on Surface Hub
-            href: surface-hub-2s-phone-authenticate.md 
           - name: Configure Surface Hub Start menu
             href: surface-hub-start-menu.md
           - name: Manage Surface Hub settings
@@ -133,15 +127,23 @@
              - name: Manage Surface Hub settings
                href: manage-surface-hub-settings.md
              - name: Local management for Surface Hub settings
-               href: local-management-surface-hub-settings.md
-             - name: Password management
-               href: password-management-for-surface-hub-device-accounts.md             
+               href: local-management-surface-hub-settings.md        
              - name: Configure domain name for Skype for Business
                href: use-fully-qualified-domain-name-surface-hub.md
              - name: Wireless network management
                href: wireless-network-management-for-surface-hub.md
              - name: Enable 802.1x wired authentication
                href: enable-8021x-wired-authentication.md
+        - name: Secure
+          items: 
+          - name: Surface Hub security overview
+            href: surface-hub-security.md 
+          - name: Password management
+            href: password-management-for-surface-hub-device-accounts.md     
+          - name: Configure password-less sign-in on Surface Hub
+            href: surface-hub-2s-phone-authenticate.md
+          - name: Secure & manage Surface Hub 2S with SEMM & UEFI
+            href: surface-hub-2s-secure-with-uefi-semm.md
         - name: Troubleshoot
           items:
           - name: Surface Hub Update History
