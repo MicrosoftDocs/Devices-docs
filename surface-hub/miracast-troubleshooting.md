@@ -57,6 +57,40 @@ Channel switching will also occur if the projecting device is connected to a Wi-
 
 In compliance with regional governmental regulations, all 5-GHz wireless devices in Europe, Japan, and Israel do not support the Unlicensed National Information Infrastructure-3 (U-NII-3) band. In Surface Hub, the channels associated with U-NII-3 are 149 through 165. This includes Miracast connections on these channels. Therefore, Surface Hubs used in Europe, Japan, and Israel can't use channels 149-165 for Miracast connections.
 
+## Troubleshoot wired connections
+
+- [Device resolution not supported error](#device-resolution-not-supported-error)
+- [Connect app exits unexpectedly](#connect-app-exits-unexpectedly)
+
+### Device resolution not supported error
+
+When you try to project from a Surface Pro, Surface Book, or Surface Laptop to an 84-inch Surface Hub by using the HDMI port on the Surface Hub, the error message "Device Resolution is not supported" is displayed.
+
+- **Cause:** The Surface device is not set to a supported 84-inch ingest resolution. By default, Windows tries to connect to the Surface Hub using *Duplicate* mode, duplicating your desktop on both screens. But the default resolution of the Surface device is higher than the 1080p resolution of the Surface Hub, so the Hub cannot display the higher-resolution image.
+- **Resolution:** Projecting to a second screen can be accomplished by using *Extend*. Extend is used to expand the desktop user interface across your Surface and Surface Hub displays, allowing each to display the desktop in its native resolution. Both methods described below can configure your Surface to display your desktop in Extend mode.
+
+**Method 1: Change the desktop resolution**
+
+1. Open **Start**, and then select **Settings** > **System** > **Display**.
+2. Select the Surface Hub display from the choice made available.
+3. Under **Scale and layout**, change the setting under **Resolution** to **1920 x 1080**.
+
+**Method 2: Change Project setting to Extend**
+
+- Press **Windows key+P** and then select **Extend**.
+
+### Connect app exits unexpectedly
+
+At times, a wired Connect session that is started from the Welcome screen by connecting a DisplayPort input will exit back to the Welcome screen after using the side keypad or the source button to cycle through all source inputs.
+
+- **Cause:** This is an issue in the Connect app and its default full-screen state. By changing the size of the app or by selecting a DisplayPort input thumbnail in the Connect app, you can prevent input cycling from affecting the app.
+- **Resolution:** Launch the Connect app from the Welcome screen and connect a DisplayPort input to resolve this issue. If the input is already connected, manually select the thumbnail.
+
 ## Contact Support
 
 If you have questions or need help, you can [create a support request](https://support.microsoft.com/supportforbusiness/productselection).
+
+## Learn more
+
+- [Connect devices to Surface Hub 2S](surface-hub-2s-connect.md)
+- [Connect other devices and display with Surface Hub v1](connect-and-display-with-surface-hub.md)
