@@ -84,14 +84,16 @@ landingContent:
   # Card (optional)
   - title: Get started
     linkLists:
-      - linkListType: get-started
+      - linkListType: training
         links:
           - text: Prepare your environment for Surface Hub
-            url: prepare-your-environment-for-surface-hub.md    
-          - text: Ordering Surface Hub 2S
-            url: https://www.microsoft.com/p/surface-hub-2S/8P62MW6BN9G4?activetab=pivot:overviewtab 
-          - text: Operating system essentials
-            url: differences-between-surface-hub-and-windows-10-enterprise.md
+            url: prepare-your-environment-for-surface-hub.md  
+          - text: Surface Hub 2S adoption and training guides
+            url:  surface-hub-2s-adoption-kit.md
+          - text: Surface Hub 2S adoption videos  
+            url: surface-hub-2s-adoption-videos.md
+          - text: Surface Hub 2S adoption welcome screens
+            url: surface-hub-2s-adoption-welcome-screens.md 
 
     # Card (optional)
   - title: Setup & deploy
