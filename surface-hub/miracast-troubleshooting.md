@@ -1,5 +1,5 @@
 ---
-title: Troubleshoot connecting external devices to Surface Hub
+title: Troubleshoot display projection to Surface Hub
 description: Learn how to resolve issues connecting external devices to Surface Hub.
 ms.prod: surface-hub
 author: coveminer
@@ -11,7 +11,7 @@ manager: frankbu
 ms.localizationpriority: medium
 ---
 
-# Troubleshoot connecting external devices to Surface Hub
+# Troubleshoot display projection to Surface Hub
 
 Surface Hub is designed to enable end users to connect laptops or other external devices wirelessly via Miracast or directly using HDMI or UBC cables. Surface Hub listens for incoming wireless connections via Miracast when Wi-Fi is enabled. If your external device supports Miracast and runs Windows 10 or Windows 11, you should be able to wirelessly project your screen onto Surface Hub. If you cannot, try the troubleshooting steps on this page.
 
