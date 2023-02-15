@@ -2,7 +2,6 @@
 title: Miracast on existing wireless network or LAN
 description: Windows 10 enables you to send a Miracast stream over a local network.
 ms.prod: surface-hub
-
 author: coveminer
 ms.author: hachidan
 ms.topic: how-to
@@ -28,17 +27,14 @@ Miracast over Infrastructure offers a number of benefits:
 
 ## How it works
 
-Users attempt to connect to a Miracast receiver through their Wi-Fi adapter as they did previously. When the list of Miracast receivers is populated, Windows 10 will identify that the receiver is capable of supporting a connection over the infrastructure. When the user selects a Miracast receiver, Windows 10 will attempt to resolve the device's hostname via standard DNS, as well as via multicast DNS (mDNS). If the name is not resolvable via either DNS method, Windows 10 will fall back to establishing the Miracast session using the standard Wi-Fi direct connection.
+Users attempt to connect to a Miracast receiver through their Wi-Fi adapter as they did previously. When the list of Miracast receivers is populated, Windows will identify that the receiver is capable of supporting a connection over the infrastructure. When the user selects a Miracast receiver, Windows will attempt to resolve the device's hostname via standard DNS, as well as via multicast DNS (mDNS). If the name is not resolvable via either DNS method, Windows will fall back to establishing the Miracast session using the standard Wi-Fi direct connection.
 
 > [!NOTE]
 > For more information on the connection negotiation sequence, see [Miracast over Infrastructure Connection Establishment Protocol (MS-MICE)](https://msdn.microsoft.com/library/mt796768.aspx)
 
-
-
-
 ## Enabling Miracast over Infrastructure 
 
-If you have a Surface Hub or other Windows 10 device that has been updated to Windows 10, version 1703, then you automatically have this new feature. To take advantage of it in your environment, you need to ensure the following is true within your deployment:
+If you have a Surface Hub or other Windows 10/11 device, then you automatically have this new feature. To take advantage of it in your environment, you need to ensure the following is true within your deployment:
 
 - The Surface Hub or device (Windows PC or phone) needs to be running Windows 10, version 1703.
 - Open TCP port: **7250**.
@@ -53,6 +49,6 @@ It is important to note that Miracast over Infrastructure is not a replacement f
 
 The **InBoxApps/WirelessProjection/PinRequired** setting in the [SurfaceHub configuration service provider (CSP)](https://msdn.microsoft.com/windows/hardware/commercialize/customize/mdm/surfacehub-csp) is not required for Miracast over Infrastructure. This is because Miracast over Infrastructure only works when both devices are connected to the same enterprise network. This removes the security restriction that was previously missing from Miracast. We recommend that you continue using this setting (if you used it previously) as Miracast will fall back to regular Miracast if the infrastructure connection does not work. 
 
-## FAQ
-**Why do I still need Wi-Fi to use Miracast over infrastructure?**<br>
-Discovery requests to identify Miracast receivers can only occur through the Wi-Fi adapter. Once the receivers have been identified, Windows 10 can then attempt the connection to the network.
+## Learn more
+
+- [Troubleshoot connecting external devices to Surface Hub](miracast-troubleshooting.md)
