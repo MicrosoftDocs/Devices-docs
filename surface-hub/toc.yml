@@ -140,9 +140,9 @@
             href: surface-hub-security.md 
           - name: Password management
             href: password-management-for-surface-hub-device-accounts.md     
-          - name: Configure password-less sign-in on Surface Hub
+          - name: Configure password-less sign-in
             href: surface-hub-2s-phone-authenticate.md
-          - name: Secure & manage Surface Hub 2S with SEMM & UEFI
+          - name: Secure with Surface Enterprise Management
             href: surface-hub-2s-secure-with-uefi-semm.md
         - name: Troubleshoot
           items:
