@@ -53,7 +53,7 @@ If Surface Hub and the projecting device are connected to Wi-Fi but use differen
 
 Channel switching will also occur if the projecting device is connected to a Wi-Fi network using a different channel than Surface Hub's channel for Miracast. So, a best practice is to set Surface Hub's Miracast channel to the same channel as the most commonly used access point. Some channel switching is unavoidable if there are multiple Wi-Fi networks or access points in the environment. In this scenario, ensure all Wi-Fi drivers are up to date.
 
-## Surface Hub Miracast channels 149-165 not supported in Europe, Japan, Israel
+### Surface Hub Miracast channels 149-165 not supported in Europe, Japan, Israel
 
 In compliance with regional governmental regulations, all 5-GHz wireless devices in Europe, Japan, and Israel don't support the Unlicensed National Information Infrastructure-3 (U-NII-3) band. In Surface Hub, the channels associated with U-NII-3 are 149 through 165. This includes Miracast connections on these channels. Therefore, Surface Hubs used in Europe, Japan, and Israel can't use channels 149-165 for Miracast connections.
 
