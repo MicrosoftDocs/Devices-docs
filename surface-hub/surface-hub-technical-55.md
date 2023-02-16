@@ -1,5 +1,5 @@
 ---
-title: Technical information for 55" Surface Hub (v1)
+title: Surface Hub (v1) 55" tech specs
 ms.reviewer: 
 manager: frankbu
 description: Specifications for the 55" Surface Hub (v1)
@@ -13,7 +13,7 @@ appliesto:
 - Surface Hub
 ---
 
-# Technical information for 55" Surface Hub (v1)
+# Surface Hub (v1) 55" tech specs
 
 | Feature      | Description    |
 | --- | --- |

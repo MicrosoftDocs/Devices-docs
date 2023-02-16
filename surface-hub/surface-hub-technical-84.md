@@ -1,5 +1,5 @@
 ---
-title: Technical information for 84" Surface Hub (v1)
+title: Surface Hub (v1) 84" tech specs
 ms.reviewer: 
 manager: frankbu
 description: Specifications for the 84" Surface Hub (v1)
@@ -13,7 +13,7 @@ appliesto:
 - Surface Hub
 ---
 
-# Technical information for 84" Surface Hub (v1)
+# Surface Hub (v1) 84" tech specs
 
 | Feature                               | Description   |
 | --- | --- |
