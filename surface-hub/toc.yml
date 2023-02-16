@@ -160,7 +160,7 @@
             href: troubleshoot-access-to-settings-app-surface-hub.md
           - name: Troubleshoot CSP policy settings
             href: troubleshoot-mdm-csp-surface-hub.md
-          - name: Troubleshoot Miracast wireless connecivity
+          - name: Troubleshoot Miracast wireless connectivity
             href: miracast-troubleshooting.md
           - name: Surface Hub may install updates & restart outside maintenance hours
             href: surface-hub-installs-updates-and-restarts-outside-maintenance-hours.md
