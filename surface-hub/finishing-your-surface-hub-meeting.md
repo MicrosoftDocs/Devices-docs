@@ -11,7 +11,7 @@ manager: frankbu
 ms.localizationpriority: medium
 ---
 
-# End a Surface Hub meeting with End session
+# Finish a Surface Hub meeting with End session
 
 Surface Hub is a collaboration device designed to be used in meeting spaces by different groups of people. At the end of a meeting, users can tap **End session** to clean up any sensitive data and prepare the device for the next meeting. Surface Hub will clean up, or reset, the following states:
 
