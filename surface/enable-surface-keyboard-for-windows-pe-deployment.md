@@ -8,7 +8,7 @@ ms.topic: how-to
 ms.reviewer: carlol
 ms.localizationpriority: medium
 manager: frankbu
-ms.date: 10/25/2022
+ms.date: 02/17/2023
 appliesto:
 - Surface Laptop (1st Gen)
 - Surface Laptop 2
@@ -17,13 +17,14 @@ appliesto:
 - Surface Laptop 5
 - Surface Laptop Studio
 - Surface Pro 8
+- Surface Pro 9
 - Windows 10
 - Windows 11
 ---
 
 # How to enable the Surface Laptop keyboard during MDT deployment
 
-This article addresses a deployment approach that uses Microsoft Deployment Toolkit (MDT). You can also apply this information to other deployment methodologies. On most types of Surface devices, the keyboard should work during Lite Touch Installation (LTI). However, Surface Laptop requires some additional drivers to enable the keyboard. For Surface Laptop (1st Gen) and Surface Laptop 2 devices, you must prepare the folder structure and selection profiles that allow you to specify keyboard drivers for use during the Windows Preinstallation Environment (Windows PE) phase of LTI. For more information about this folder structure, see [Deploy a Windows 10 image using MDT: Step 5: Prepare the drivers repository](/windows/deployment/deploy-windows-mdt/deploy-a-windows-10-image-using-mdt?redirectedfrom=MSDN#step-5-prepare-the-drivers-repository).
+This article addresses a deployment approach that uses Microsoft Deployment Toolkit (MDT). You can also apply this information to other deployment methodologies. On most types of Surface devices, the keyboard should work during Lite Touch Installation (LTI). However, Surface Laptop requires some extra drivers to enable the keyboard. For Surface Laptop (1st Gen) and Surface Laptop 2 devices, you must prepare the folder structure and selection profiles that allow you to specify keyboard drivers for use during the Windows Preinstallation Environment (Windows PE) phase of LTI. For more information about this folder structure, see [Deploy a Windows 10 image using MDT: Step 5: Prepare the drivers repository](/windows/deployment/deploy-windows-mdt/deploy-a-windows-10-image-using-mdt?redirectedfrom=MSDN#step-5-prepare-the-drivers-repository).
 
 > [!TIP]
 > When using keyboard drivers for Surface Laptop 2 and Surface Laptop 3 in the same Windows PE boot instance, you may need to manually reset the firmware if the keyboard or touchpad don’t work in Windows PE:
@@ -36,14 +37,16 @@ This article addresses a deployment approach that uses Microsoft Deployment Tool
 ## Add keyboard drivers to the selection profile
 
 1. Download the latest Surface Laptop .msi file from the appropriate locations:
-    - [Surface Laptop (1st Gen) Drivers and Firmware](https://www.microsoft.com/download/details.aspx?id=55489)
-    - [Surface Laptop 2 Drivers and Firmware](https://www.microsoft.com/download/details.aspx?id=57515)
-    - [Surface Laptop 3 with Intel Processor Drivers and Firmware](https://www.microsoft.com/download/details.aspx?id=100429)
-    - [Surface Laptop 4 with Intel Processor Drivers and Firmware](https://www.microsoft.com/download/102924)
-    - [Surface Laptop 4 with AMD Processor Drivers and Firmware](https://www.microsoft.com/download/102923)
-    - [Surface Laptop 5 with Intel Processor Drivers and Firmware](https://www.microsoft.com/download/104679)
-    - [Surface Laptop Studio Drivers and Firmware](https://www.microsoft.com/download/details.aspx?id=103505)
-    - [Surface Pro 8 Drivers and Firmware](https://www.microsoft.com/download/details.aspx?id=103503)
+
+- [Surface Pro 9 with Intel Processor Drivers and Firmware](https://www.microsoft.com/download/details.aspx?id=104680)
+- [Surface Pro 8 Drivers and Firmware](https://www.microsoft.com/download/details.aspx?id=103503)
+- [Surface Laptop Studio Drivers and Firmware](https://www.microsoft.com/download/details.aspx?id=103505)
+- [Surface Laptop 5 with Intel Processor Drivers and Firmware](https://www.microsoft.com/download/104679)
+- [Surface Laptop 4 with Intel Processor Drivers and Firmware](https://www.microsoft.com/download/102924)
+- [Surface Laptop 4 with AMD Processor Drivers and Firmware](https://www.microsoft.com/download/102923)
+- [Surface Laptop 3 with Intel Processor Drivers and Firmware](https://www.microsoft.com/download/details.aspx?id=100429)
+- [Surface Laptop 2 Drivers and Firmware](https://www.microsoft.com/download/details.aspx?id=57515)
+- [Surface Laptop (1st Gen) Drivers and Firmware](https://www.microsoft.com/download/details.aspx?id=55489)
 
 2. Extract the contents of the Surface Laptop .msi file to a folder that you can easily locate (for example, c:\surface_laptop_drivers). To extract the contents, open an elevated Command Prompt window and run the command from the following example:
 
@@ -62,8 +65,9 @@ This article addresses a deployment approach that uses Microsoft Deployment Tool
 
 Import the following folders as appropriate for your Surface Laptop device.
 
-| Device     | Import folders     | More information       |
+| Device                           | Import folders        | More information  |
 | ------------------------------- | ------------------------ | -----------------------|
+| **Surface Pro 9 with Intel processor** | adlserial<br>alderlakepchpsystem<br>alderlakesystem<br>gna<br>intelprecisetouch<br>managementengine<br>msump64x64sta<br>surfaceacpiplatformextension<br>surfacebattery<br>surfacedockintegration<br>surfacehidmini<br>surfacehotplug<br>surfaceintegrationdriver<br>surfacesarmanager<br>surfaceserialhubdriver<br>surfaceservicenulldriver<br>surfacetimealarmacpifilter<br>surfaceucmucsihidclient<br>tbtslimhostcontroller |n/a |
 | **Surface Laptop Studio**     | heci <br> ialpss2_gpio2_tgl <br> ialpss2_uart2_tgl <br> intelthcbase <br> surfacehidminidriver <br> surfacehotplug  <br>  surfaceintegrationdriver  <br>  surfacepenwirelesschargerhotkey  <br> surfacesarmanager  <br> surfaceserialhubdriver <br> surfacestoragefwupdateenum <br> surfacestoragefwupdatekbg40zns256gpackage <br> surfacewakeontouchcontrol     | n/a     |
 | **Surface Pro 8**       | intelthcbase <br> ManagementEngine <br> surfaceacpiplatformextension <br> SurfaceBattery <br> SurfaceCoverClick <br> SurfaceEthernetAdapter <br> SurfaceHidMini <br> SurfaceHotPlug <br> surfaceintegrationdriver <br> SurfaceSar <br> SurfaceSerialHub <br> surfacetimealarmacpifilter <br> surfacetypecoverv7fprude <br> SurfaceUcmUcsiHidClient <br> surfacevirtualfunctionenum <br> tbtslimhostcontroller <br> TglChipset <br> TglSerial| n/a  |
 | **Surface Laptop 5 with Intel processor**| adlserial <br> alderlakepchpsystem <br> gna <br> heci <br> intelprecisetouch <br> msump64x64sta <br> surfaceacpiplatformextensiondriver <br> surfacebattery <br> surfacebutton <br> surfacedockintegration <br> surfacehidminidriver <br> surfacehotplug <br> surfaceintegration <br> surfaceserialhubdriver <br> surfacetimealarmacpifilter <br> tbtslimhostcontroller      |  n/a |
