@@ -4,6 +4,7 @@ title: Surface devices documentation # < 60 chars
 summary: Harness the power of Surface, Windows, and Office connected together through the cloud. # < 160 chars
 
 metadata:
+  ms.date: 06/09/2020
   title: Surface devices documentation # Required; page title displayed in search results. Include the brand. < 60 chars.
   description: Get started with Microsoft Surface devices # Required; article description that is displayed in search results. < 160 chars.
   ms.service: product-insights #Required; service per approved list. service slug assigned to your service by ACOM.
@@ -166,3 +167,4 @@ landingContent:
             url: contact-surface-support.md
           - text: Surface for Business warranty and protection plans
             url: https://www.microsoft.com/surface/business/warranty-service-offerings-and-support
+
