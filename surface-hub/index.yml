@@ -4,6 +4,7 @@ title: Surface Hub documentation # < 60 chars
 summary: Surface Hub 2S is an all-in-one digital interactive whiteboard, meetings platform, and collaborative computing device. # < 160 chars
 
 metadata:
+  ms.date: 06/09/2020
   title: Surface Hub documentation # Required; page title displayed in search results. Include the brand. < 60 chars.
   description: Get started with Microsoft Surface Hub. # Required; article description that is displayed in search results. < 160 chars.
   services: product-insights
@@ -178,3 +179,4 @@ landingContent:
         links:
           - url: https://techcommunity.microsoft.com/t5/Surface-Hub/bd-p/SurfaceHub
             text: Join the Surface Hub Technical Community
+
