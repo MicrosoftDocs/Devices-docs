@@ -22,10 +22,17 @@ Upon successful repair, Microsoft will return the device to your specified shipp
 
 - Surface Laptop 3 – 13" and 15"
 - Surface Laptop 4 – 13" and 15"
+- Surface Laptop 5 – 13" and 15"
 - Surface Pro 7
+- Surface Pro 7+
+- Surface Pro 8
 - Surface Laptop Go
-- Surface Go
+- Surface Laptop Go 2
+- Surface Go 2
+- Surface Go 3
 - Surface Pro X
+- Surface Laptop Studio
+- Surface Laptop SE
 
 ## Availability
 
