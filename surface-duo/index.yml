@@ -4,6 +4,7 @@ title: Surface Duo documentation # < 60 chars
 summary: Mobile productivity powered by two screens with Microsoft 365 and Android mobile apps # < 160 chars
 
 metadata:
+  ms.date: 08/09/2020
   title: Surface Duo documentation # Required; page title displayed in search results. Include the brand. < 60 chars.
   description: Get started with Microsoft Surface Duo # Required; article description that is displayed in search results. < 160 chars.
   ms.service: product-insights #Required; service per approved list. service slug assigned to your service by ACOM.
@@ -149,3 +150,4 @@ landingContent:
             url:  /surface/contact-surface-business-education-support
           - text: Surface for Business warranty and protection plans
             url: https://www.microsoft.com/surface/business/warranty-service-offerings-and-support
+
