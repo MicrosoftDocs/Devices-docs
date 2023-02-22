@@ -41,7 +41,6 @@ Except where noted, same unit repair is available in the following locations:
 
 Austria, Belgium, Bulgaria, Croatia, Cyprus, Denmark, Finland, France, Germany, Hungary, Iceland, Ireland, Italy, Latvia, Luxemburg, Malta, Mexico, Netherlands, Norway, Poland, Portugal, Romania, Slovakia, Spain, Sweden, Switzerland, United Kingdom, United States 
 
-
 ## References
 
 1. Currently unavailable in United States or Mexico.
