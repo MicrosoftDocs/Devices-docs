@@ -16,15 +16,14 @@ appliesto:
 
 # Microsoft in region same unit repair
 
-Microsoft can repair many commercial Surface devices via in-region repair facilities. If troubleshooting or diagnostics determine that your Surface device needs repair and is eligible for mail-in repair services, you can ship it to Microsoft for repair and return. 
+Microsoft can repair many commercial Surface devices via in-region repair facilities. If troubleshooting or diagnostics determine that your Surface device needs repair and is eligible for mail-in repair services, you can ship it to Microsoft for repair and return.
 
-Upon successful repair, Microsoft returns the device to your shipping 
+Upon successful repair, Microsoft returns the device to your shipping
 address. (If there are no issues, Microsoft returns your device as is). Average turnaround time is 6-12 calendar days depending on your location and supply chain availability. The following devices are eligible for same unit repair:
 
-
-- Surface Laptop 3 – 13" and 15"
-- Surface Laptop 4 – 13" and 15"
-- Surface Laptop 5 – 13" and 15"
+- Surface Laptop 3 – 13" & 15"
+- Surface Laptop 4 – 13" & 15"
+- Surface Laptop 5 – 13" & 15"
 - Surface Pro 7
 - Surface Pro 7+
 - Surface Pro 8
@@ -40,5 +39,5 @@ address. (If there are no issues, Microsoft returns your device as is). Average 
 
 | Eligible devices                                                                                     | Available countries/regions                                                                                                                                                                                                                                                                                                                                                           |
 | ---------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Surface Laptop 3 – 13" and 15"<br>Surface Pro 7<br>Surface Laptop Go<br>Surface Go 2<br>Surface Go 3 | Austria, Belgium, Bulgaria, Croatia, Cyprus, Denmark, Finland, France, Germany, Hungary, Iceland, Ireland, Italy, Latvia, Luxemburg, Malta, Mexico, Netherlands, Norway, Poland, Portugal, Romania, Slovakia, Spain, Sweden, Switzerland, United Kingdom, United States |
+| Surface Laptop 3 – 13" & 15"<br>Surface Pro 7<br>Surface Laptop Go<br>Surface Go 2<br>Surface Go 3 | Austria, Belgium, Bulgaria, Croatia, Cyprus, Denmark, Finland, France, Germany, Hungary, Iceland, Ireland, Italy, Latvia, Luxemburg, Malta, Mexico, Netherlands, Norway, Poland, Portugal, Romania, Slovakia, Spain, Sweden, Switzerland, United Kingdom, United States |
 | Surface Laptop 4  13" & 15"<br>Surface Pro X                                                         | Austria, Belgium, Bulgaria, Croatia, Cyprus, Denmark, Finland, France, Germany, Hungary, Iceland, Ireland, Italy, Latvia, Luxemburg, Malta, Netherlands, Norway, Poland, Portugal, Romania, Slovakia, Spain, Sweden, Switzerland, United Kingdom |
