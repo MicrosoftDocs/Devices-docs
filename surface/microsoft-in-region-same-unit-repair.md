@@ -25,19 +25,23 @@ address. (If there are no issues, Microsoft returns your device as is). Average 
 - Surface Laptop 4 – 13" & 15"
 - Surface Laptop 5 – 13" & 15"
 - Surface Pro 7
-- Surface Pro 7+
+- Surface Pro 7+ <sup>1</sup>
 - Surface Pro 8
 - Surface Laptop Go
 - Surface Laptop Go 2
 - Surface Go 2
 - Surface Go 3
 - Surface Pro X
-- Surface Laptop Studio
+- Surface Laptop Studio <sup>1</sup>
 - Surface Laptop SE
 
 ## Availability
 
-| Eligible devices                                                                                     | Available countries/regions                                                                                                                                                                                                                                                                                                                                                           |
-| ---------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Surface Laptop 3 – 13" & 15"<br>Surface Pro 7<br>Surface Laptop Go<br>Surface Go 2<br>Surface Go 3 | Austria, Belgium, Bulgaria, Croatia, Cyprus, Denmark, Finland, France, Germany, Hungary, Iceland, Ireland, Italy, Latvia, Luxemburg, Malta, Mexico, Netherlands, Norway, Poland, Portugal, Romania, Slovakia, Spain, Sweden, Switzerland, United Kingdom, United States |
-| Surface Laptop 4  13" & 15"<br>Surface Pro X                                                         | Austria, Belgium, Bulgaria, Croatia, Cyprus, Denmark, Finland, France, Germany, Hungary, Iceland, Ireland, Italy, Latvia, Luxemburg, Malta, Netherlands, Norway, Poland, Portugal, Romania, Slovakia, Spain, Sweden, Switzerland, United Kingdom |
+Except where noted, same unit repair is available in the following locations:
+
+Austria, Belgium, Bulgaria, Croatia, Cyprus, Denmark, Finland, France, Germany, Hungary, Iceland, Ireland, Italy, Latvia, Luxemburg, Malta, Mexico, Netherlands, Norway, Poland, Portugal, Romania, Slovakia, Spain, Sweden, Switzerland, United Kingdom, United States 
+
+
+## References
+
+1. Currently unavailable in United States or Mexico.
