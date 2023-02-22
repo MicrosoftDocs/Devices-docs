@@ -1,5 +1,5 @@
 ---
-title: Remove, replace & install Surface Hub 2S compute cartridge
+title: Replace & install Surface Hub 2S compute cartridge
 description: Explains how to remove the Surface Hub 2S compute cartridge, pack it for shipment, and install a new compute cartridge
 manager: frankbu
 ms.prod: surface-hub
@@ -12,7 +12,7 @@ appliesto:
 - Surface Hub 2S
 ---
 
-# Remove, replace & install Surface Hub 2S compute cartridge
+# Replace & install Surface Hub 2S compute cartridge
 
 This article explains how to remove the Surface Hub 2S compute cartridge, pack it for shipment, and install a new compute cartridge.<br>
     ![Image of the compute cartridge.](images/surface-hub-2s-replace-cartridge-1.png)

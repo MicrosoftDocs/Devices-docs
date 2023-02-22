@@ -228,7 +228,11 @@
                - name: Troubleshoot Surface Hub 2 pen
                  href: troubleshoot-surface-hub-2-pen.md            
                - name: Pack & ship Surface Hub 2S for service
-                 href: surface-hub-2s-pack-components.md               
+                 href: surface-hub-2s-pack-components.md 
+               - name: Replace & install compute cartridge 
+                 href: surface-hub-2s-replace-cartridge.md         
+               - name: Replace & install camera
+                 href: surface-hub-2s-replace-camera.md               
         - name: Surface Hub v1
           expanded: true
           items:

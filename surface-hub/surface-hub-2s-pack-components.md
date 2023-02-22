@@ -14,7 +14,7 @@ ms.localizationpriority: Medium
 
 This article explains how to pack Surface Hub 2S for shipment or service.
 
->[!TIP]  
+>[!IMPORTANT]  
 >When packing your device for shipment, make sure that you use the original packaging that came with Surface Hub 2S.  
 
 | Step  |    Task                                                                                                                                             |    Illustration   |
@@ -30,3 +30,8 @@ This article explains how to pack Surface Hub 2S for shipment or service.
 | **9.**  | Remove any base or mounting hardware. Using two people, place the unit in the base of the shipping container.    | ![Remove any base or mounting hardware. Using two people, place the unit in the base of the shipping container.](images/surface-hub-2s-repack-11.png)|
 | **10.** | Replace the cover of the shipping container, and insert the four clips.                                          | ![Replace the cover of the shipping container, and insert the four clips.](images/surface-hub-2s-repack-12.png)|
 | **11.** | Close the four clips.                                                                                            | ![Close the four clips.](images/surface-hub-2s-repack-13.png)|
+
+## Learn more
+
+- [Remove, replace & install Surface Hub 2S compute cartridge](surface-hub-2s-replace-cartridge.md)
+- [Remove or replace Surface Hub 2S Camera](surface-hub-2s-replace-camera.md)
