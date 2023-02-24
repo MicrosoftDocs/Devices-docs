@@ -21,7 +21,7 @@ If your Surface Hub is successfully Azure AD joining, but failing to automatical
 
 A common reason for Intune auto enrollment to fail is because the account used to Azure AD join the Surface Hub wasn't included in the MDM user scope to enroll into Intune. To see which users and groups are included in the MDM user scope navigate to the [Azure portal](https://portal.azure.com/), and select **Azure Active Directory > Mobility (MDM and MAM) > Microsoft Intune.**
 
-The MDM user scope section defines the accounts capable of Intune auto enrollment. Ensure the account used to Azure AD join the Surface Hub is also included in the MDM user scope group. Otherwise, devices won't be auto enrolled in Intune during the Azure AD join process.
+The MDM user scope section defines the accounts capable of Intune auto enrollment. Ensure the account used to Azure AD join the Surface Hub is also included in the MDM user scope group. Otherwise, devices aren't auto enrolled in Intune during the Azure AD join process.
 
 ![MDM user scope settings within Azure.](images/intune-auto-enroll-1.png)
 
