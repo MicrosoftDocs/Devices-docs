@@ -152,6 +152,12 @@
             href: windows-10-team-known-issues.md
           - name: Troubleshoot Surface Hub
             href: troubleshoot-surface-hub.md  
+          - name: Troubleshoot Azure AD Join 
+            href: troubleshoot-azure-ad-join-on-surface-hub.md
+          - name: Troubleshoot Intune auto enrollment
+            href: troubleshoot-intune-auto-enrollment-on-surface-hub.md
+          - name: Troubleshoot One-click Join
+            href: troubleshoot-one-click-join-from-welcome-screen-calendar.md
           - name: Collect Surface Hub log files  
             href: collect-surface-hub-log-files.md 	  		  
           - name: Troubleshoot Teams sign-in issues
