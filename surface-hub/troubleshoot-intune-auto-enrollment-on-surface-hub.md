@@ -1,13 +1,12 @@
 ---
 title: Troubleshoot Intune auto enrollment on Surface Hub
 description: How to troubleshoot Intune auto enrollment issues on Surface Hub
-keywords: change history
 ms.prod: surface-hub
 ms.sitesec: library
 author: rwold
 ms.author: rwold
 ms.topic: article
-ms.date: 02/01/2023
+ms.date: 02/24/2023
 ms.reviewer: 
 manager: laurawi
 ms.localizationpriority: medium
@@ -33,4 +32,4 @@ To determine if a Surface Hub was auto-enrolled in Intune:
 1. Go to the [Azure portal](https://portal.azure.com/) and select **Azure Active Directory > Devices > All Devices.**
 2. Locate the Surface Hub and note the join type and MDM fields. If the join type shows "Azure AD joined" with "Microsoft Intune" as the MDM provider, the Surface Hub was successfully auto-enrolled in Intune. If the device lists anything else, it wasn't auto-enrolled in Intune.
 
-![Confirming if Surface Hub device was Intune auto enrolled.](images/intune-auto-enroll-2.png)
+![Image that confirms Surface Hub was Intune auto-enrolled.](images/intune-auto-enroll-2.png)

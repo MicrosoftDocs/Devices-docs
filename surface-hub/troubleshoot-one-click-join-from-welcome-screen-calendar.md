@@ -12,22 +12,22 @@ ms.date: 02/24/2023
 ms.localizationpriority: medium
 ---
 
-# Troubleshoot One-click Join from the Welcome Screen Calendar
+# Troubleshoot One-click Join from the Welcome Screen calendar
 
-When a user invites the Surface Hub to a Teams or Skype for Business meeting the invitation should appear on the Welcome Screen with a Join button. Tapping the invitation allows the user to join the meeting with one-click. If the Join button is missing from the invitation, follow the troubleshooting steps on this page.
+When a user invites the Surface Hub to a Teams or Skype for Business meeting, the invitation should appear on the Welcome Screen with a Join button. Tapping the invitation allows the user to join the meeting with one click. If the Join button is missing from the invitation, follow the troubleshooting steps on this page.
 
 ![Image showing join button missing from Welcome Screen calendar.](images/troubleshoot-join-button-1.png)  
 
 ## How Welcome Screen calendar works
 
-The Welcome Screen calendar parses the meeting join URL from the comments of the invitation and uses it join the meeting. If the meeting join URL isn't present in the comments of the invite, the Surface Hub doesn't display the join button.
+The Welcome Screen calendar parses the meeting join URL from the invitation comments and uses it to join the meeting. If the meeting join URL isn't present in the comments of the invite, the Surface Hub doesn't display the join button.
 
 > [!NOTE]  
 > If the Surface Hub is invited to a Cisco WebEx or Zoom meeting, the Welcome Screen calendar won't display the join button.
 
 ## Analyze meeting invitation comments
 
-The most common reason for a Surface Hub to not display the join button is due to Exchange deleting the meeting join URL from the invitation comments. This happens if the device account [Exchange property](/surface-hub/exchange-properties-for-surface-hub-device-accounts) DeleteComments is set to True. You can confirm if this is happening via the following steps:
+The most common reason you won't see the join button is if the device account’s Exchange properties are incorrect, causing Exchange to delete the meeting join URL from the invitation comments. This happens if the device account [Exchange property](/surface-hub/exchange-properties-for-surface-hub-device-accounts) **DeleteComments** is set to **True**. You can confirm if this is happening via the following steps:
 
 1. Open a web browser and navigate to [teams.microsoft.com](https://teams.microsoft.com/).
 2. Sign in with the Surface Hub device account credentials.
