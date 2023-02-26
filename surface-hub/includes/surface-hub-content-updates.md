@@ -2,6 +2,18 @@
 
 
 
+## Week of February 20, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 2/22/2023 | [Replace & install camera on Surface Hub 2S](/surface-hub/surface-hub-2s-replace-camera) | added |
+| 2/22/2023 | [Replace & install compute cartridge on Surface Hub 2S](/surface-hub/surface-hub-2s-replace-cartridge) | added |
+| 2/24/2023 | [Troubleshoot Azure AD Join issues on Surface Hub](/surface-hub/troubleshoot-azure-ad-join-on-surface-hub) | added |
+| 2/24/2023 | [Troubleshoot Intune auto enrollment on Surface Hub](/surface-hub/troubleshoot-intune-auto-enrollment-on-surface-hub) | added |
+| 2/24/2023 | [Troubleshoot One-click Join from the Welcome Screen Calendar](/surface-hub/troubleshoot-one-click-join-from-welcome-screen-calendar) | added |
+
+
 ## Week of February 13, 2023
 
 
@@ -62,22 +74,3 @@
 | 1/25/2023 | [Microsoft Exchange properties for device account on Surface Hub](/surface-hub/exchange-properties-for-surface-hub-device-accounts) | modified |
 | 1/25/2023 | [Manage Microsoft Edge on Surface Hub](/surface-hub/surface-hub-install-chromium-edge) | modified |
 | 1/25/2023 | [Technical information for 55" Surface Hub (v1)](/surface-hub/surface-hub-technical-55) | modified |
-
-
-## Week of January 16, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 1/18/2023 | [Check Surface Hub warranty status](/surface-hub/check-surface-hub-warranty) | added |
-| 1/18/2023 | [Surface Hub documentation # < 60 chars](/surface-hub/index) | modified |
-| 1/18/2023 | [Migrate to Windows 10/11 Pro or Enterprise on Surface Hub 2](/surface-hub/surface-hub-2s-migrate-os) | modified |
-| 1/19/2023 | [First time setup for Surface Hub](/surface-hub/first-run-program-surface-hub) | modified |
-| 1/19/2023 | [Microsoft Teams Rooms on Surface Hub](/surface-hub/surface-hub-teams-rooms) | modified |
-| 1/19/2023 | [Surface Hub update history](/surface-hub/surface-hub-update-history) | modified |
-| 1/18/2023 | [Check Surface Hub warranty status](/surface-hub/check-surface-hub-warranty) | added |
-| 1/18/2023 | [Surface Hub documentation # < 60 chars](/surface-hub/index) | modified |
-| 1/18/2023 | [Migrate to Windows 10/11 Pro or Enterprise on Surface Hub 2](/surface-hub/surface-hub-2s-migrate-os) | modified |
-| 1/19/2023 | [First time setup for Surface Hub](/surface-hub/first-run-program-surface-hub) | modified |
-| 1/19/2023 | [Microsoft Teams Rooms on Surface Hub](/surface-hub/surface-hub-teams-rooms) | modified |
-| 1/19/2023 | [Surface Hub update history](/surface-hub/surface-hub-update-history) | modified |
