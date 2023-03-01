@@ -2,12 +2,12 @@
 title: Troubleshoot One-click Join from the Welcome Screen Calendar
 description: This page explains recommended troubleshooting steps if the join button isn't displayed on the Surface Hub Welcome Screen calendar.
 ms.reviewer: 
-manager: laurawi
+manager: frankbu
 ms.prod: surface-hub
 ms.sitesec: library
-author: rwold
+author: ryanbwold
 ms.author: rwold
-ms.topic: article
+ms.topic: troubleshooting
 ms.date: 02/24/2023
 ms.localizationpriority: medium
 ---
