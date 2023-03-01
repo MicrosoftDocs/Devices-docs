@@ -26,8 +26,10 @@ landingContent:
     linkLists:
       - linkListType: whats-new
         links:
-          - text: Check out the new Surface devices
+          - text: Check out the latest Surface devices
             url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/new-surface-devices/ba-p/1721766
+          - text: Surface Autopilot Cookbook for CSPs
+            url: surface-autopilot-cookbook.md
           - text: Surface for Business service and repair
             url: surface-service-and-repair.md  
           - text: How rugged are Surface devices?
