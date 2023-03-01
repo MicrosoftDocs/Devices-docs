@@ -93,6 +93,8 @@
           href: windows-autopilot-and-surface-devices.md
         - name: Surface Registration Support for Windows Autopilot
           href: surface-autopilot-registration-support.md
+        - name: Surface Autopilot Cookbook for CSPs
+          href: surface-autopilot-cookbook.md
         - name: Surface System SKU reference
           href: surface-system-sku-reference.md
       - name: Automate deployment
