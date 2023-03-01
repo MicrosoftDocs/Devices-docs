@@ -2,13 +2,13 @@
 title: Troubleshoot Azure AD Join issues on Surface Hub
 description: This page explains recommended troubleshooting steps if you're unable to Azure AD join a Surface Hub during the out of box experience.
 ms.reviewer: 
-manager: laurawi
+manager: frankbu
 keywords: Troubleshoot common problems, setup issues, azure ad join
 ms.prod: surface-hub
 ms.sitesec: library
-author: rwold
+author: ryanbwold 
 ms.author: rwold
-ms.topic: article
+ms.topic: troubleshooting
 ms.date: 02/24/2023
 ms.localizationpriority: medium
 ---
