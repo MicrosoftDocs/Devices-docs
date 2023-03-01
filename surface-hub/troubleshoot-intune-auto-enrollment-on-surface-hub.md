@@ -3,12 +3,12 @@ title: Troubleshoot Intune auto enrollment on Surface Hub
 description: How to troubleshoot Intune auto enrollment issues on Surface Hub
 ms.prod: surface-hub
 ms.sitesec: library
-author: rwold
+manager: frankbu
+author: ryanbwold
 ms.author: rwold
-ms.topic: article
+ms.topic: troubleshooting
 ms.date: 02/24/2023
 ms.reviewer: 
-manager: laurawi
 ms.localizationpriority: medium
 ---
 
