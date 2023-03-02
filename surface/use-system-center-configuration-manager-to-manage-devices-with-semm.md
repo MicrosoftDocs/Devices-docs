@@ -20,10 +20,10 @@ The Microsoft Surface Enterprise Management Mode (SEMM) feature of Surface UEFI 
 
 For organizations with Microsoft Endpoint Configuration Manager there is an alternative to using the Microsoft Surface UEFI Configurator .msi process to deploy and administer SEMM. Microsoft Surface UEFI Manager is a lightweight installer that makes required assemblies for SEMM management available on a device. By installing these assemblies with Microsoft Surface UEFI Manager on a managed client, SEMM can be administered by Configuration Manager with PowerShell scripts, deployed as applications. With this process, SEMM management is performed within Configuration Manager, which eliminates the need for the external Microsoft Surface UEFI Configurator tool.
 
-> [!Note]
+> [!NOTE]
 > Although the process described in this article may work with earlier versions of Endpoint Configuration Manager or with other third-party management solutions, management of SEMM with Microsoft Surface UEFI Manager and PowerShell is supported only with the Current Branch of Endpoint Configuration Manager.
 
-#### Prerequisites
+## Prerequisites
 
 Before you begin the process outlined in this article, familiarize yourself with the following technologies and tools:
 
@@ -32,12 +32,12 @@ Before you begin the process outlined in this article, familiarize yourself with
 * [PowerShell scripting](/powershell)
 * [Deploy applications with Configuration Manager](/mem/configmgr/apps/deploy-use/deploy-applications)
 
-> [!Note]
+> [!IMPORTANT]
 > You will also need access to the certificate that you intend to use to secure SEMM. For details about the requirements for this certificate, see [Surface Enterprise Management Mode certificate requirements](surface-enterprise-management-mode.md#surface-enterprise-management-mode-certificate-requirements).
 >
 > It is very important that this certificate be kept in a safe location and properly backed up. If this certificate becomes lost or unusable, it is not possible to reset Surface UEFI, change managed Surface UEFI settings, or remove SEMM from an enrolled Surface device.
 
-#### Download Microsoft Surface UEFI Manager
+### Download Microsoft Surface UEFI Manager
 
 Management of SEMM with Configuration Manager requires the installation of Microsoft Surface UEFI Manager on each client Surface device. You can download Microsoft Surface UEFI Manager (SurfaceUEFIManager.msi) from the [Surface Tools for IT](https://www.microsoft.com/download/details.aspx?id=46703) page on the Microsoft Download Center.
 
@@ -119,7 +119,7 @@ Beginning with Surface Pro 8, Surface Laptop Studio, and Surface Go 3, both of t
 
 **Additional options for USB-C ports:**
 
-1. Run **ConfigureSEMM.ps1** and modify as appropriate. 
+1. Run **ConfigureSEMM.ps1** and modify as appropriate.
 2. To turn off data only and continue to use USB-C ports for power and display functionality, enable the following mode:  **Mode 1 – Data Disabled.**
 3. To turn off data, power, and display functionality, enable the following mode:  **Mode 2 – Fully Disabled.**
 
@@ -127,11 +127,11 @@ Beginning with Surface Pro 8, Surface Laptop Studio, and Surface Go 3, both of t
 
 | Device                                                                                                                                                                   | USB-A options                     | USB-C options                                                                                                                                                  | Settings                                                                   | SEMM IDs |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- | -------- |
-| **Surface Laptop 2**<br>**Surface Pro 6**<br>**Surface Laptop**<br>**Surface Pro 4**<br>**Surface Pro**<br>**Surface Studio 2**<br>**Surface Studio**<br> ****<br>  | Enable or disable data            | N/A: No USB-C port on device                                                                                                                                   | - USBPortEnabled (default)<br>- USBPortHWDisabled                          | 370-379  |
-| **Surface Laptop SE**<br>**Surface Pro 7+**<br>**Surface Pro 7**<br>**Surface Go 2**<br>**Surface Go**<br>**Surface Laptop Go**<br>**Surface Laptop Go 2**<br>**Surface Laptop 3 (Intel CPU only)** | Enable or disable data            | - Enable or disable data<br><br>Power delivery and display-out functionality are always available                                                              | - USBPortEnabled (default)<br>- USBPortHWDisabled                          | 370-379  |
-| **Surface Pro 8**<br>**Surface Laptop Studio**<br>**Surface Go, **Surface Laptop Go 2**<br> 3**                                                                                                       | N/A: No USB-A port on device      | - Enable data, display-out, and  power delivery<br>- Disable data but enable display-out and power delivery<br>- Disable data, display-out, and power delivery | - UsbPortEnabled (default)<br>- UsbPortDataDisabled<br>- UsbPortHwDisabled | 380-389  |
-| **Surface Book 3**<br>**Surface Book 2**<br>                                                                                                                        | Base USB ports are always enabled | Base USB ports are always enabled                                                                                                                              | n/a                                                                        |          |
-| **Surface Book with Performance Base**<br>**Surface Book**                                                                                                               | Base USB ports are always enabled | N/A: No USB-C port on device                                                                                                                                   | n/a                                                                        |          |
+| **Surface Laptop** (all generations)<br>**Surface Pro** (all generations)<br>**Surface Studio** (all generations)<br>  | Enable or disable data            | N/A: No USB-C port on device                                                                                                                                   | - USBPortEnabled (default)<br>- USBPortHWDisabled                          | 370-379  |
+| **Surface Laptop SE**<br>**Surface Pro 7** and later<br>**Surface Go** (all generations)<br>**Surface Laptop Go** (all generations)<br>**Surface Laptop 3** & later (Intel CPU only)| Enable or disable data            | - Enable or disable data<br><br>Power delivery and display-out functionality are always available                                                              | - USBPortEnabled (default)<br>- USBPortHWDisabled                          | 370-379  |
+| **Surface Pro 8** and later<br>**Surface Laptop Studio**<br>**Surface Go** (all generations)<br> **Surface Laptop Go 2**<br>                                                                                                       | N/A: No USB-A port on device      | - Enable data, display-out, and  power delivery<br>- Disable data but enable display-out and power delivery<br>- Disable data, display-out, and power delivery | - UsbPortEnabled (default)<br>- UsbPortDataDisabled<br>- UsbPortHwDisabled | 380-389  |
+| **Surface Book 2** and later <br>                                                                                                                        | Base USB ports are always enabled | Base USB ports are always enabled                                                                                                                              | n/a                                                                        |          |
+| **Surface Book** with Performance Base<br>**Surface Book**                                                                                                               | Base USB ports are always enabled | N/A: No USB-C port on device                                                                                                                                   | n/a                                                                        |          |
 
  The following sections of this article explain the ConfigureSEMM.ps1 script and explore the modifications you need to make to the script to fit your requirements.
 
