@@ -67,7 +67,7 @@ To create a new application and deploy it to a collection that contains your Sur
 
    * **General** – The **Automatically detect information about this application from installation files** option is selected by default. In the **Type** field, **Windows Installer (.msi file)** is also selected by default. Select **Browse** to navigate to and select **SurfaceUEFIManagerSetup.msi**, and then select **Next**.
 
-      > [!Note]
+      > [!NOTE]
       > The location of SurfaceUEFIManagerSetup.msi must be on a network share and located in a folder that contains no other files. A local file location cannot be used.
 
    * **Import Information** – The Create Application Wizard parses the .msi file and read the **Application Name** and **Product Code**. SurfaceUEFIManagerSetup.msi should be listed as the only file under the line **Content Files**, as shown in Figure 1. Select **Next** to proceed.
@@ -166,7 +166,7 @@ Owner package and reset package will also be created in the Config directory and
 
 On line 73, replace the value of the **$password** variable, from **1234** to the password for your certificate file. If a password isn't required, delete the **1234** text.
 
-> [!Note]
+> [!NOTE]
 > The last two characters of the certificate thumbprint are required to enroll a device in SEMM. This script will display these digits to the user, which allows the user or technician to record these digits before the system reboots to enroll the device in SEMM. The script uses the following code, found on lines 150-155, to accomplish this.
 
 ```powershell
