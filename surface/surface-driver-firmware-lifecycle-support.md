@@ -58,12 +58,12 @@ The following table lists the release date and End of Servicing date for each Su
 | Surface Laptop 2                   | October 16, 2018   | December 27, 2022            |
 | Surface Pro 6                      | October 16, 2018   | June 30, 2023           |
 | Surface Go with LTE Advanced       | November 20, 2018   | November 20, 2022            |
-| Surface Laptop 3                   | October 22, 2019   | October 22, 2023            |
-| Surface Pro 7                      | October 22, 2019   | October 22, 2023            |
-| Surface Pro X                      | November 5, 2019    | October 13, 2024             |
-| Surface Pro X SQ2                  | October 13, 2020     | October 13, 2024             |
-| Surface Go 2                       | May 6, 2020     | May 6, 2024              |
-| Surface Book 3                     | May 26, 2020    | May 26, 2024             |
+| Surface Laptop 3                   | October 22, 2019   | July 30, 2024            |
+| Surface Pro 7                      | October 22, 2019   | February 28, 2024            |
+| Surface Pro X                      | November 5, 2019    | August 10, 2025             |
+| Surface Pro X SQ2                  | October 13, 2020     | August 10, 2025             |
+| Surface Go 2                       | May 6, 2020     | December 30, 2024              |
+| Surface Book 3                     | May 26, 2020    | April 1, 2025             |
 | Surface Laptop Go                  | October 13, 2020   | October 13, 2024            |
 | Surface Laptop Go 2                | June 7, 2022     | June 7, 2026   |
 | Surface Pro 7+                  | January 15, 2021 | January 15, 2025 |
@@ -71,6 +71,7 @@ The following table lists the release date and End of Servicing date for each Su
 | Surface Pro 8                      | October 5, 2021   |October 5, 2025|
 | Surface Laptop Studio              | October 5, 2021   |October 5, 2025|
 | Surface Go 3                       | October 5, 2021   |October 5, 2025|
+| Surface Pro X Wi-Fi                | October 5, 2021   | October 5, 2025             |
 | Surface Laptop SE                  | January 11, 2022  |January 11, 2026|
 | Surface Pro 9                      | October 25, 2022 | October 25, 2026|
 | Surface Laptop 5                   | October 25, 2022 | October 25, 2026|
