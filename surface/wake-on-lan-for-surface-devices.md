@@ -16,10 +16,10 @@ appliesto:
 
 # Wake On LAN for Surface devices 
 
-Surface devices that run Windows 10 version 1607 or later are capable of Wake On LAN (WOL) from Modern Standby (also known as Connected Standby). With WOL, IT admins can remotely wake up devices and automatically perform management tasks with Microsoft Endpoint Manager or third party solutions.
+Surface devices are capable of Wake On LAN (WOL) from Modern Standby (also known as Connected Standby). With WOL, IT admins can remotely wake up devices and automatically perform management tasks with Microsoft Endpoint Manager or third party solutions.
 
 >[!NOTE]
->To support WOL, Surface devices must be plugged into AC power and use a Surface Ethernet adapter that is connected to a wired network.
+>To support WOL, Surface devices must be plugged into AC power and use a Surface Ethernet adapter or docking device that is connected to a wired network.
 
 ## Supported devices
 
@@ -29,7 +29,8 @@ Ethernet adapters with support for WOL:
 - Surface Ethernet adapter
 - Surface USB-C to Ethernet and USB 3.0 Adapter
 - Surface USB 3.0 Gigabit Ethernet Adapter 
-- Surface DockDocking Station for Surface Pro 3 
+- Surface Docking Station for Surface Pro 3 
+- Surface Dock
 - Surface Dock 2
 - Docking Station for Surface 3
 - Docking Station for Surface Pro 3 
@@ -45,6 +46,7 @@ Surface devices with support for WOL:
 - Surface Pro 7
 - Surface Pro 7+
 - Surface Pro 8
+- Surface Pro 9
 - Surface Book (all generations)
 - Surface Go (all generations)
 - Surface Laptop (all generations)
@@ -53,6 +55,7 @@ Surface devices with support for WOL:
 - Surface Laptop SE
 - Surface Laptop Studio
 - Surface Studio 2 (see Surface Studio 2 instructions below)
+- Surface Studio 2+
 
 
 ## Using WOL 
