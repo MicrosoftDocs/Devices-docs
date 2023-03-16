@@ -13,9 +13,9 @@ ms.localizationpriority: medium
 
 # Enable 802.1x wired authentication
 
-The [November 14, 2017 update to Windows 10](https://support.microsoft.com/help/4048954/windows-10-update-kb4048954) (build 15063.726) enabled 802.1x wired authentication MDM policies on Surface Hub devices. The feature allows organizations to enforce standardized wired network authentication using the [IEEE 802.1x authentication protocol](http://www.ieee802.org/1/pages/802.1x-2010.html). This was already available for wireless authentication using [WLAN profiles](/mem/intune/configuration/wi-fi-settings-import-windows-8-1) via MDM. This topic explains how to  configure a Surface Hub for use with wired authentication. 
+The [November 14, 2017 update to Windows 10](https://support.microsoft.com/help/4048954/windows-10-update-kb4048954) (build 15063.726) enabled 802.1x wired authentication policy configuration on Surface Hub devices. The feature allows organizations to enforce standardized wired network authentication using the [IEEE 802.1x authentication protocol](http://www.ieee802.org/1/pages/802.1x-2010.html). This was already available for wireless authentication using [WLAN profiles](/mem/intune/configuration/wi-fi-settings-import-windows-8-1) via MDM or provisioning package. This topic explains how to configure a Surface Hub for use with wired authentication. 
 
-Enforcement and enablement of 802.1x wired authentication on Surface Hub can be done through MDM [OMA-URI definition](/mem/intune/configuration/custom-settings-windows-10). 
+Enforcement and enablement of 802.1x wired authentication on Surface Hub can be done through MDM [OMA-URI definition](/mem/intune/configuration/custom-settings-windows-10) or provisioning package. 
 
 The primary configuration to set is the **LanProfile** policy. Depending on the authentication method selected, other policies may be required, either the **EapUserData** policy or through MDM policies for adding user or machine certificates (such as [ClientCertificateInstall](/windows/client-management/mdm/clientcertificateinstall-csp) for user/device certificates or [RootCATrustedCertificates](/windows/client-management/mdm/rootcacertificates-csp) for device certificates). 
 
@@ -43,7 +43,7 @@ Profile File Name: .\Ethernet.xml
 1 profile(s) were exported successfully.
 ```
 
-To disable 802.1x completely on the Surface Hub, the following XML can be used when configuring the LanProfile OMA-URI policy:
+To disable 802.1x completely on the Surface Hub, a [provisioning package](provisioning-packages-for-surface-hub.md#use-advanced-provisioning) can be used to the SurfaceHub\Dot3\LanProfile node to the following xml:
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
