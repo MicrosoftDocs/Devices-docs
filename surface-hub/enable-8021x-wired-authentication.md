@@ -15,7 +15,7 @@ ms.localizationpriority: medium
 
 The [November 14, 2017 update to Windows 10](https://support.microsoft.com/help/4048954/windows-10-update-kb4048954) (build 15063.726) enabled 802.1x wired authentication policy configuration on Surface Hub devices. The feature allows organizations to enforce standardized wired network authentication using the [IEEE 802.1x authentication protocol](http://www.ieee802.org/1/pages/802.1x-2010.html). This was already available for wireless authentication using [WLAN profiles](/mem/intune/configuration/wi-fi-settings-import-windows-8-1) via MDM or provisioning package. This topic explains how to configure a Surface Hub for use with wired authentication. 
 
-Enforcement and enablement of 802.1x wired authentication on Surface Hub can be done through MDM [OMA-URI definition](/mem/intune/configuration/custom-settings-windows-10) or provisioning package. 
+Enforcement and enablement of 802.1x wired authentication on Surface Hub can be done through MDM [OMA-URI profiles](/mem/intune/configuration/custom-settings-windows-10) or provisioning package. 
 
 The primary configuration to set is the **LanProfile** policy. Depending on the authentication method selected, other policies may be required, either the **EapUserData** policy or through MDM policies for adding user or machine certificates (such as [ClientCertificateInstall](/windows/client-management/mdm/clientcertificateinstall-csp) for user/device certificates or [RootCATrustedCertificates](/windows/client-management/mdm/rootcacertificates-csp) for device certificates). 
 
