@@ -30,9 +30,12 @@ Devices must have a wired connection with Surface Dock 2 and stay connected to A
  
 ## Supported Surface devices
 
+- Surface Laptop 5
 - Surface Laptop 4 (Intel processors)
 - Surface Laptop 4 (AMD processors)
 - Surface Laptop 3 (Intel processors)
+- Surface Pro 9
+- Surface Pro 9 with 5G
 - Surface Pro 8
 - Surface Pro 7+
 - Surface Pro 7
@@ -42,6 +45,7 @@ Devices must have a wired connection with Surface Dock 2 and stay connected to A
 - Surface Laptop Go 2
 - Surface Book 3
 - Surface Laptop Studio
+- Surface Studio 2+
 
 Surface Dock 2 provides WOL support for devices in the following power states:
 
