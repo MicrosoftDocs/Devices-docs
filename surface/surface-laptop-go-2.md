@@ -28,7 +28,7 @@ As a Secured-core PC, [Surface Laptop Go 2](https://www.microsoft.com/surface/bu
 
 ## Repairability
 
-Surface Laptop Go 2 is [built to be more serviceable](surface-service-and-repair.md). Skilled technicians can service devices by replacing components like the Feet, SSD, Keyboard Cover, Top Assembly, and SurfLink connectors. The battery can be replaced through Microsoft or a Microsoft Authorized Service Provider.
+Surface Laptop Go 2 is [built to be more serviceable](surface-service-and-repair.md). Skilled technicians can service devices by replacing components like the Feet, SSD, Keyboard Cover, Top Assembly, and Surface Connect connectors. The battery can be replaced through Microsoft or a Microsoft Authorized Service Provider.
 
 ## Surface Management Portal
 
@@ -55,7 +55,7 @@ When you enroll Surface Laptop Go 2 for cloud management and users log in  for t
 | **Exterior**               | - Top: Aluminum<br>- Base: Aluminum and polycarbonate composite resin system with glass fiber and 30% post-consumer recycled content                                                                                          |
 | **Colors** <sup>6</sup>    | - Ice Blue, Sandstone, Platinum, and Sage                                                                                                                                                                                     |
 | **Keyboard**               | - Activation: Moving keys<br>- Layout: QWERTY, full row of function keys (F1 – F12)<br>- Windows key and dedicated buttons for media controls, screen brightness                                                              |
-| **Serviceability**<sup>7</sup> | - Replaceable components include:<br>- AB Cover (Display)<br>- C-cover (keyset and trackpad)<br>- Battery<sup>8</sup> <br>- Feet<br>- SSD<br>- Surflink cable                                                                              |
+| **Serviceability**<sup>7</sup> | - Replaceable components include:<br>- AB Cover (Display)<br>- C-cover (keyset and trackpad)<br>- Battery<sup>8</sup> <br>- Feet<br>- SSD<br>- Surface Connect cable                                                                              |
 | **What's in the box**      | - Surface Laptop Go 2<br>- 39 W Power Supply<br>- Quick Start Guide<br>- Safety and warranty documents                                                                                                                                     |
 | **Warranty** <sup>9</sup>               | - 1-year limited hardware warranty                                                                                                                                                                                            |
 
