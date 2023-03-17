@@ -21,6 +21,10 @@ As the latest generation Surface dock, Salerno delivers ultra-high speed data tr
 - **Fast charging power for your device and accessories.** Connect and power your laptop with up to 96 watts of power passthrough for your phone and accessories.[[3]](#references)
 - **Inclusive design with sustainable materials.** Quickly access ports with raised tactile indicators for greater accessibility. The lightest Surface dock comes with 20% ocean-bound plastic[[4]](#references) and 99% recyclable packaging that’s free of single-use plastics[[5]](#references).
 
+:::image type="content" source="images/surface-dock-front.png" alt-text="Screenshot showing front of dock. " :::
+
+:::image type="content" source="images/surface-dock-rear.png" alt-text="Screenshot showing rear of dock." :::
+
 ## Simple management and security from anywhere
 
 Salerno helps improve IT efficiency and reduce overhead and support costs through optimization for Microsoft software.
@@ -61,33 +65,39 @@ Salerno is compatible with the following Surface devices with USB-C ports:
 > [!NOTE]
 > USB-C connection supports one 4k external display at up to 60 Hz (when supported by device and display). Or you can “[daisy chain](#connect-multiple-monitors-to-devices-without-usb4thunderbolt-4)” multiple monitors when supported by device and display.
 
-TIP: You can use Salerno with any host PC with USB4/ Thunderbolt 4. Full support for enterprise management and security features is exclusive to Surface devices. Automatic firmware updates via Windows Update only works on Windows-based PCs.
+TIP: You can use Salerno with any host PC with USB4/ Thunderbolt 4. Full support for enterprise management and security features is exclusive to Surface devices. Automatic firmware updates via Windows Update only work on Windows-based PCs.
 
 ## Surface Dock Components
 
+:::image type="content" source="images/frontdockdiagram.png" alt-text="Screenshot front facing view of components. " :::
+
+:::image type="content" source="images/reardockdiagram.png " alt-text="Screenshot showing rear facing view of components." :::
+
 ### USB
 
-- 1 front-facing USB-A (USB 3.1 Gen 2, 7.5W)
-- 1 front-facing USB-C (USB4/Thunderbolt 4, video display enabled, 15W)
-- 2 rear-facing USB-A (USB 3.1 Gen 2, 7.5W)
-- 2 rear-facing USB-C (USB4/Thunderbolt 4, video display enabled, 15W)
+- One front-facing USB-A (USB 3.1 Gen 2, 7.5 W)
+- One front-facing USB-C (USB4/Thunderbolt 4, video display enabled, 15 W)
+- Two rear-facing USB-A (USB 3.1 Gen 2, 7.5 W)
+- Two rear-facing USB-C (USB4/Thunderbolt 4, video display enabled, 15 W)
 
 ### Ethernet
 
-- 2.5 gigabit Ethernet port.
+- 2.5-gigabit Ethernet port.
 
 ### External Power supply
 
-- 165W power supply and up to 96W passthrough to connected PC. Supports 100V-240V.
+- 165-W power supply and up to 96-W passthrough to connected PC. Supports 100V-240V.
 
 ## Cable Matters Desk Mount for Microsoft Salerno
 
 Optimize port access, save desk space, and utilize enhanced security capabilities with the Cable Matters Mount, purpose built for Salerno, and Designed for Surface certified.
- 
+
 - Facilitates single-handed interaction with Microsoft Salerno
 - Improves port access through stabilization
 - Saves desk space through cable management
 - Integrates easily with locking devices for extra security
+
+:::image type="content" source="images/cable-matters-desk-mount.png " alt-text="Screenshot showing Cable Matters Mount." :::
 
 ## Compare Surface Docks
 
@@ -95,9 +105,9 @@ Optimize port access, save desk space, and utilize enhanced security capabilitie
 | ---------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- |
 | Surface Connect                    | No                                                                                                                                                  | Yes                                                                                                 | Yes                                                            |
 | Optimal host devices               | Surface Laptop 5, Surface Pro 9, Surface Pro 8, Surface Laptop Studio                                                                               | Surface Pro 9 with 5G, Surface Laptop 4, Surface Laptop Go 2, Surface Go 3                          | Surface Go, Surface Laptop 2, Surface Laptop 3, Surface Pro 7+ |
-| USB-A                              | 1 front-facing USB-A (USB 3.1 Gen 2, 7.5W)<br> <br>2 rear-facing USB-A (USB 3.1 Gen 2, 7.5W)                                                        | 2 rear-facing USB 3.2 Gen 2 (7.5W power)                                                            | 2 front-facing USB 3.1 Gen 1<br>2 rear-facing USB 3.1 Gen 1    |
-| Mini Display port                  | None                                                                                                                                                | None                                                                                                | 2 rear facing (DP1.2)                                          |
-| USB-C                              | 1 front-facing USB-C (USB 4 Thunderbolt 4, video display enabled, 15W)<br> <br>2 rear-facing USB-C (USB4/Thunderbolt 4, video display enabled, 15W) | 2 front-facing USB 3.2 Gen 2<br>(15W power)<br>2 rear-facing USB 3.2 Gen 2 (DP1.4a)<br>(7.5W power) | None                                                           |
+| USB-A                              | One front-facing USB-A (USB 3.1 Gen 2, 7.5 W)<br> <br>Two rear-facing USB-A (USB 3.1 Gen 2, 7.5 W)                                                        | Two rear-facing USB 3.2 Gen 2 (7.5-W power)                                                            | Two front-facing USB 3.1 Gen 1<br>Two rear-facing USB 3.1 Gen 1    |
+| Mini Display port                  | None                                                                                                                                                | None                                                                                                | Two rear facing (DP1.2)                                          |
+| USB-C                              | One front-facing USB-C (USB 4 Thunderbolt 4, video display enabled, 15 W)<br> <br>Two rear-facing USB-C (USB4/Thunderbolt 4, video display enabled, 15 W) | Two front-facing USB 3.2 Gen 2<br>(15-W power)<br>Two rear-facing USB 3.2 Gen 2 (DP1.4a)<br>(7.5-W power) | None                                                           |
 | 3.5 mm Audio in/out                | Yes                                                                                                                                                 | Yes                                                                                                 | Yes                                                            |
 | Ethernet                           | Yes 2.5 Gigabit                                                                                                                                     | Yes 1 gigabit                                                                                       | Yes, 1 gigabit                                                 |
 | DC power in                        | Yes                                                                                                                                                 | Yes                                                                                                 | Yes                                                            |
@@ -114,12 +124,11 @@ Optimize port access, save desk space, and utilize enhanced security capabilitie
 | SEMM port access control[[8]](#references)   | Yes                                                                                                                                                 | Yes                                                                                                 | No                                                             |
 | Servicing support                  | Windows Update, Surface App, or MSI (Confirm MSI)                                                                                                   | Windows Update or MSI                                                                               | MSI                                                            |
 
-
 ## Connect multiple monitors to devices without USB4/Thunderbolt 4
 
 You can daisy chain monitors by connecting a series of display devices using a wired connection from monitor to monitor in a series, rather than connecting each monitor directly to Salerno.
- 
-To daisy chain monitors, you need two or more monitors that support at least **DisplayPort 1.2**. Displays that function as a middle link in the chain must include **DisplayPort** output ports as well as input ports. You also need a video or graphics card (GPU) on your PC that supports **DisplayPort 1.2 Multi-Stream Transport (MST).**
+
+To daisy chain monitors, you need two or more monitors that support at least **DisplayPort 1.2**. Displays that function as a middle link in the chain must include **DisplayPort** output ports and input ports. You also need a video or graphics card (GPU) on your PC that supports **DisplayPort 1.2 Multi-Stream Transport (MST).**
 
 **To connect your PC to multiple monitors using DisplayPort MST:**
 
@@ -135,9 +144,9 @@ To daisy chain monitors, you need two or more monitors that support at least **D
 
 ### References
 
-1. Surface Enterprise Management Mode for Dock and MAC address passthrough are available on select host devices and supported operating systems.
+1. Surface Enterprise Management Mode for Dock and MAC address passthrough is available on select host devices and supported operating systems.
 2. When supported by device and display
-3. USB-C® port does not charge your Surface device or any  device that requires more than 15W.
+3. USB-C® port doesn't charge your Surface device or any  device that requires more than 15 W.
 4. Ocean-bound plastic is plastic waste recovered from oceans and waterways, cleaned, and processed into recycled plastic resin pellets. These recycled pellets are blended in with virgin plastic during the manufacturing process.
 5. In OECD countries, Microsoft operates recycling programs either independently or through third parties covering Microsoft Devices.
 6. Requires device with USB4®/Thunderbolt™ 4 port
