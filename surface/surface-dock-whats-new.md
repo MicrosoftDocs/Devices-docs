@@ -97,7 +97,7 @@ Optimize port access, save desk space, and utilize enhanced security capabilitie
 - Saves desk space through cable management
 - Integrates easily with locking devices for extra security
 
-:::image type="content" source="images/cable-matters-desk-mount.png " alt-text="Screenshot showing Cable Matters Mount." :::
+:::image type="content" source="images/surface-dock/cable-matters-desk-mount.png " alt-text="Screenshot showing Cable Matters Mount." :::
 
 ## Compare Surface Docks
 
