@@ -21,9 +21,9 @@ As the latest generation Surface dock, Salerno delivers ultra-high speed data tr
 - **Fast charging power for your device and accessories.** Connect and power your laptop with up to 96 watts of power passthrough for your phone and accessories.[[3]](#references)
 - **Inclusive design with sustainable materials.** Quickly access ports with raised tactile indicators for greater accessibility. The lightest Surface dock comes with 20% ocean-bound plastic[[4]](#references) and 99% recyclable packaging that’s free of single-use plastics[[5]](#references).
 
-:::image type="content" source="images/surface-dock-front.png" alt-text="Screenshot showing front of dock. " :::
+:::image type="content" source="images/surface-dock/surface-dock-front.png" alt-text="Screenshot showing front of dock. " :::
 
-:::image type="content" source="images/surface-dock-rear.png" alt-text="Screenshot showing rear of dock." :::
+:::image type="content" source="images/surface-dock/surface-dock-rear.png" alt-text="Screenshot showing rear of dock." :::
 
 ## Simple management and security from anywhere
 
@@ -69,9 +69,9 @@ TIP: You can use Salerno with any host PC with USB4/ Thunderbolt 4. Full support
 
 ## Surface Dock Components
 
-:::image type="content" source="images/frontdockdiagram.png" alt-text="Screenshot front facing view of components. " :::
+:::image type="content" source="images/surface-dock/frontdockdiagram.png" alt-text="Screenshot front facing view of components. " :::
 
-:::image type="content" source="images/reardockdiagram.png " alt-text="Screenshot showing rear facing view of components." :::
+:::image type="content" source="images/surface-dock/reardockdiagram.png " alt-text="Screenshot showing rear facing view of components." :::
 
 ### USB
 
