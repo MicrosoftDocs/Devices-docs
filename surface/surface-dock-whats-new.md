@@ -1,127 +1,145 @@
 ---
-title: What’s new in Surface Dock 2
+title: What’s new in Surface Dock 
 description: This article highlights new features and functionality for the next generation Surface Dock.
 ms.prod: surface
 ms.localizationpriority: medium
 author: coveminer
 ms.author: hachidan
 ms.topic: overview
-ms.date: 11/07/2022
-ms.reviewer: brrecord
+ms.date: 04/04/2023
+ms.reviewer: dashap
 manager: frankbu
 appliesto:
 - Windows 10
 - Windows 11
 ---
-# What’s new in Surface Dock 2
+# What’s new in Surface Dock
 
-Surface Dock 2, the next-generation Surface dock, lets users connect external monitors and multiple peripherals for a fully modernized desktop experience from a Surface device. Built to maximize efficiency at the office, in a flexible workspace, or at home, Surface Dock 2 features seven ports, including two front-facing USB-C ports, with 15 watts of fast charging power for phones and accessories.
+As the latest generation Surface dock, Salerno delivers ultra-high speed data transfer, built-in enterprise management and security[[1]](#references) and the versatility to connect your most important peripherals.
 
-## Full device management support
+- **High-speed USB4®/Thunderbolt™ 4 on USB-C® ports.** Plug in one cable to power your device, connect two 4K monitors at up to 60 Hz[[2]](#references), and transfer data and files at up to 40 Gbps.
+- **Fast charging power for your device and accessories.** Connect and power your laptop with up to 96 watts of power passthrough for your phone and accessories.[[3]](#references)
+- **Inclusive design with sustainable materials.** Quickly access ports with raised tactile indicators for greater accessibility. The lightest Surface dock comes with 20% ocean-bound plastic[[4]](#references) and 99% recyclable packaging that’s free of single-use plastics[[5]](#references).
 
-Surface Dock 2 is designed to simplify IT management, enabling admins to automate firmware updates using Windows Update or centralize updates with internal software distribution tools.
+## Simple management and security from anywhere
 
-- Surface Enterprise Management Mode (SEMM) enables IT admins to secure ports on Surface Dock 2. For more information, see [Secure Surface Dock 2 ports with Surface Enterprise Management Mode](secure-surface-dock-ports-semm.md).
-- Windows Management Instrumentation (WMI) support enables IT admins to remotely monitor and manage the latest firmware, policy state, and related data across Surface Dock 2 devices. For more information, see [Manage Surface Dock 2 with WMI](surface-dock2-wmi.md).
-- Centralize updates on your local network using software distribution tools. [Download Surface Dock 2 Firmware and Drivers](https://www.microsoft.com/download/details.aspx?id=101317).
+Salerno helps improve IT efficiency and reduce overhead and support costs through optimization for Microsoft software.
+
+- **Surface Enterprise Management Mode (SEMM) for Dock**. Designed to easily lock down the ports of your dock in mission-critical environments and restrict functionality to specific devices, enabling organizations to simplify and secure IT management. For more information, see [Secure Surface Dock ports with Surface Enterprise Management Mode](/surface/secure-surface-dock-ports-semm).
+- **Firmware update through Windows Update**. Seamlessly keep your dock up to date with automatic updates or downloadable update driver and firmware packs.
+- **MAC Address Passthrough.** [[6]](#references)Maintain device network identity from one dock to another for ease of management in shared workspaces or dock environments.
+- **Wake on LAN from Modern Standby.** IT admins can remotely wake up devices connected to Salerno and automatically perform management tasks
+- **Windows Management Instrumentation (WMI) support**. IT admins can remotely monitor and manage the latest firmware, policy settings, and related data across Salerno devices. For more information, see [Manage Surface Dock with WMI](/surface/surface-dock2-wmi)
 
 ## General system requirements
 
-- Windows 10 version 1809 and later. There's no support for Windows 7, Windows 8, or non-Surface host devices. Surface Dock 2 works with the following Surface devices:
+Salerno is optimized for devices with a USB4/ Thunderbolt 4 port, including the following Surface devices:
 
-  - Surface Pro (5th Gen) and later
-  - Surface Laptop (1st Gen) and later
-  - Surface Book 2 and later
-  - Surface Go and later
-  - Surface Laptop Go and later
-  - Surface Laptop Studio
+- Surface Laptop 5
+- Surface Laptop Studio
+- Surface Pro 8
+- Surface Pro 9 (Intel/Wi-Fi)
 
-## Surface Dock 2 Components
+> [!NOTE]
+> Thunderbolt 4 connection supports two 4K external displays at up to 60 Hz
 
-![Surface Dock 2 Components.](./images/surface-dock2.png)
+Salerno is compatible with the following Surface devices with USB-C ports:
+
+- Surface Pro 9 with 5G
+- Surface Pro 7+
+- Surface Pro 7
+- Surface Pro X
+- Surface Laptop 4
+- Surface Laptop 3
+- Surface Laptop Go 2
+- Surface Laptop Go
+- Surface Go 3
+- Surface Go 2
+- Surface Book 3
+- Surface Studio 2+ (no charging)
+
+> [!NOTE]
+> USB-C connection supports one 4k external display at up to 60 Hz (when supported by device and display). Or you can “[daisy chain](#connect-multiple-monitors-to-devices-without-usb4thunderbolt-4)” multiple monitors when supported by device and display.
+
+TIP: You can use Salerno with any host PC with USB4/ Thunderbolt 4. Full support for enterprise management and security features is exclusive to Surface devices. Automatic firmware updates via Windows Update only works on Windows-based PCs.
+
+## Surface Dock Components
 
 ### USB
 
-- Two front-facing USB-C ports
-- Two rear-facing USB-C (gen 2) ports
-- Two rear-facing USB-A ports
-
-### Video
-  
-- Dual 4K@60Hz. Supports up to two displays on the following devices:
-
-  - Surface Laptop Studio
-  - Surface Book 3
-  - Surface Pro 8
-  - Surface Pro 7
-  - Surface Pro 7+
-  - Surface Pro X
-  - Surface Laptop 3
-  - Surface Laptop 4
-  - Surface Laptop 5
-  - Surface Pro 9 
-  - Surface Pro 9 with 5G
-
-- Dual 4K@30Hz. Supports up to two displays on the following devices:
-
-  - Surface Pro 6
-  - Surface Pro (5th Gen)
-  - Surface Laptop 2
-  - Surface Laptop (1st Gen)
-  - Surface Go
-  - Surface Go 2
-  - Surface Go 3
-  - Surface Book 2
+- 1 front-facing USB-A (USB 3.1 Gen 2, 7.5W)
+- 1 front-facing USB-C (USB4/Thunderbolt 4, video display enabled, 15W)
+- 2 rear-facing USB-A (USB 3.1 Gen 2, 7.5W)
+- 2 rear-facing USB-C (USB4/Thunderbolt 4, video display enabled, 15W)
 
 ### Ethernet
 
-- 1-gigabit Ethernet port.
+- 2.5 gigabit Ethernet port.
 
 ### External Power supply
 
-- 199 watts supporting 100V-240V.
+- 165W power supply and up to 96W passthrough to connected PC. Supports 100V-240V.
 
-## Compare Surface Dock
+## Cable Matters Desk Mount for Microsoft Salerno
 
-**Table 1. Surface Dock and USB-C Travel Hub**
-.
+Optimize port access, save desk space, and utilize enhanced security capabilities with the Cable Matters Mount, purpose built for Salerno, and Designed for Surface certified.
+ 
+- Facilitates single-handed interaction with Microsoft Salerno
+- Improves port access through stabilization
+- Saves desk space through cable management
+- Integrates easily with locking devices for extra security
 
-| Component                           | Surface Dock                                                | Surface Dock 2                                                                                      | USB-C Travel Hub |
-| ----------------------------------- | ----------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | ---------------- |
-| Surface Connect                            | Yes                                                         | Yes                                                                                                 | No               |
-| USB-A                               | 2 front facing USB 3.1 Gen 1<br>2 rear facing USB 3.1 Gen 1 | 2 rear facing USB 3.2 Gen 2 (7.5W power)                                                            | 1 USB 3.1 Gen 2  |
-| Mini Display port                   | 2 rear facing (DP1.2)                                       | None                                                                                                | None             |
-| USB-C                               | None                                                        | 2 front facing USB 3.2 Gen 2<br>(15W power)<br>2 rear facing USB 3.2 Gen 2 (DP1.4a)<br>(7.5W power) | 1 USB 3.2 Gen 2  |
-| 3.5 mm Audio in/out                 | Yes                                                         | Yes                                                                                                 | Yes              |
-| Ethernet                            | Yes, 1 gigabit                                              | Yes 1 gigabit                                                                                       | Yes, 1 gigabit   |
-| DC power in                         | Yes                                                         | Yes                                                                                                 |                  |
-| Kensington lock                     | Yes                                                         | Yes                                                                                                 |                  |
-| Surface Connect cable length               | 65 cm                                                        | 80 cm                                                                                                | 20 cm             |
-| Surface Connect host power                 | 60 W                                                         | 120 W                                                                                                | N/A              |
-| USB load power                      | 30 W                                                         | 60 W                                                                                                 |                  |
-| USB bit rate                        | 5 Gbps                                                      | 10 Gbps                                                                                             | 10 Gbps          |
-| Monitor support                     | 2 x 4K @30fps, or<br>1 x 4K @ 60 fps                         | 2 x 4K @ 60 fps<br> or 1 x 4K @120fps                                                                                     | 1 x 4K @ 60 fps   |
-| Wake-on-LAN from Connected Standby<sup>1</sup> | Yes                                                         | Yes                                                                                                 |    Yes              |
-| Wake-on-LAN from S4/S5 sleep modes  | No                                                          | Yes                                                                                                 |          Yes        |
-| Network PXE boot                    | Yes                                                         | Yes                                                                                                 |        Yes          |
-| SEMM host access control            | No                                                          | Yes                                                                                                 | No               |
-| SEMM port access control<sup>2</sup>          | No                                                          | Yes                                                                                                 | No               |
-| Servicing support                   | MSI                                                         | Windows Update or MSI                                                                               |                  |
+## Compare Surface Docks
 
-1. *Devices must be configured for Wake on LAN via Surface Enterprise Management Mode (SEMM) or Device Firmware Control Interface (DFCI) to wake from hibernation or power-off states. Wake from hibernation or power-off is supported on Surface Laptop Studio, Surface Pro 9 & Surface Pro 9 with 5G, Surface Pro 8, Surface Pro 7+, Surface Pro 7, Surface Laptop 5, Surface Laptop 4, Surface Laptop 3, Surface Pro X, Surface Book 3, Surface Go 3, and Surface Go 2.  Software license required for some features. Sold separately.*
+| **Feature**                        | Salerno                                                                                                                                             | Surface Dock 2                                                                                      | Surface Dock                                                   |
+| ---------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- |
+| Surface Connect                    | No                                                                                                                                                  | Yes                                                                                                 | Yes                                                            |
+| Optimal host devices               | Surface Laptop 5, Surface Pro 9, Surface Pro 8, Surface Laptop Studio                                                                               | Surface Pro 9 with 5G, Surface Laptop 4, Surface Laptop Go 2, Surface Go 3                          | Surface Go, Surface Laptop 2, Surface Laptop 3, Surface Pro 7+ |
+| USB-A                              | 1 front-facing USB-A (USB 3.1 Gen 2, 7.5W)<br> <br>2 rear-facing USB-A (USB 3.1 Gen 2, 7.5W)                                                        | 2 rear-facing USB 3.2 Gen 2 (7.5W power)                                                            | 2 front-facing USB 3.1 Gen 1<br>2 rear-facing USB 3.1 Gen 1    |
+| Mini Display port                  | None                                                                                                                                                | None                                                                                                | 2 rear facing (DP1.2)                                          |
+| USB-C                              | 1 front-facing USB-C (USB 4 Thunderbolt 4, video display enabled, 15W)<br> <br>2 rear-facing USB-C (USB4/Thunderbolt 4, video display enabled, 15W) | 2 front-facing USB 3.2 Gen 2<br>(15W power)<br>2 rear-facing USB 3.2 Gen 2 (DP1.4a)<br>(7.5W power) | None                                                           |
+| 3.5 mm Audio in/out                | Yes                                                                                                                                                 | Yes                                                                                                 | Yes                                                            |
+| Ethernet                           | Yes 2.5 Gigabit                                                                                                                                     | Yes 1 gigabit                                                                                       | Yes, 1 gigabit                                                 |
+| DC power in                        | Yes                                                                                                                                                 | Yes                                                                                                 | Yes                                                            |
+| Kensington lock                    | Yes                                                                                                                                                 | Yes                                                                                                 | Yes                                                            |
+| Cable length                       | 80 cm                                                                                                                                               | 80 cm                                                                                               | 65 cm                                                          |
+| Host power                         | 96 W                                                                                                                                                | 120 W                                                                                               | 60 W                                                           |
+| USB load power                     | 67.5 W                                                                                                                                              | 60 W                                                                                                | 30 W                                                           |
+| USB bit rate                       | Up to 32 Gbps[[7]](#references)                                                                                                                               | Up to 10 Gbps                                                                                       | Up to 5 Gbps                                                   |
+| Monitor support                    | 2 x 4K @ 60 Hz or 1 x 4K @ 60 Hz                                                                                                                    | 2 x 4K @ 60 Hz<br>or 1 x 4K @120 Hz                                                                 | 2 x 4K @ 30 Hz, or<br>1 x 4K @ 60 Hz                           |
+| Wake-on-LAN from Modern Standby    | Yes                                                                                                                                                 | Yes                                                                                                 | Yes                                                            |
+| Wake-on-LAN from S4/S5 sleep modes | No                                                                                                                                                  | Yes                                                                                                 | No                                                             |
+| Network PXE boot                   | Yes                                                                                                                                                 | Yes                                                                                                 | Yes                                                            |
+| SEMM host access control           | Yes                                                                                                                                                 | Yes                                                                                                 | No                                                             |
+| SEMM port access control[[8]](#references)   | Yes                                                                                                                                                 | Yes                                                                                                 | No                                                             |
+| Servicing support                  | Windows Update, Surface App, or MSI (Confirm MSI)                                                                                                   | Windows Update or MSI                                                                               | MSI                                                            |
 
-2. *Software license required for some features. Sold separately.*
 
-## Streamlined device management
+## Connect multiple monitors to devices without USB4/Thunderbolt 4
 
-Surface has released streamlined management functionality via Windows Update enabling IT admins to utilize the following enterprise-grade features:
+You can daisy chain monitors by connecting a series of display devices using a wired connection from monitor to monitor in a series, rather than connecting each monitor directly to Salerno.
+ 
+To daisy chain monitors, you need two or more monitors that support at least **DisplayPort 1.2**. Displays that function as a middle link in the chain must include **DisplayPort** output ports as well as input ports. You also need a video or graphics card (GPU) on your PC that supports **DisplayPort 1.2 Multi-Stream Transport (MST).**
 
-- **Frictionless updates**. Update your docks silently and automatically, with Windows Update or Microsoft Endpoint Configuration Manager (formerly System Center Configuration Manager - SCCM) or other MSI deployment tools.
-- **Wake from the network**. Manage and access corporate devices without depending on users to keep their devices powered on. Even when a docked device is in sleep, hibernation, or power off mode, your team can wake from the network for service and management, using Endpoint Configuration Manager or other enterprise management tools.
-- **Centralized IT control**. Control who can connect to Surface Dock 2 by turning ports on and off. Restrict which host devices can be used with Surface Dock 2. Limit dock access to a single user or configure docks for access only by specific users in your team or across the entire company.
+**To connect your PC to multiple monitors using DisplayPort MST:**
 
-## Next steps
+1. Connect your PC to the **DisplayPort-In** connection on the first monitor.
+2. Connect the **DisplayPort-Out** connection on the first monitor to the **DisplayPort-In** connection on the second monitor. To daisy chain more than two monitors, follow a similar sequence: The first monitor connects to the second, the second monitor connects to the third, and so on.
+3. Use the On-Screen Display (OSD) menu, to enable **DisplayPort 1.2** on your monitor. To learn more, refer to the user manual of your monitor.
 
-- [Secure Surface Dock 2 ports with Surface Enterprise Management Mode](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/secure-surface-dock-2-ports-with-surface-enterprise-management/ba-p/1418999)
-- [Surface Enterprise Management Mode](surface-enterprise-management-mode.md)
-- [Best practice power settings for Surface devices](maintain-optimal-power-settings-on-Surface-devices.md)
+### Next steps
+
+- [Secure Surface Dock ports with Surface Enterprise Management Mode](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/secure-surface-dock-2-ports-with-surface-enterprise-management/ba-p/1418999)
+- [Surface Enterprise Management Mode](/surface/surface-enterprise-management-mode)
+- [Best practice power settings for Surface devices](/surface/maintain-optimal-power-settings-on-surface-devices)
+
+### References
+
+1. Surface Enterprise Management Mode for Dock and MAC address passthrough are available on select host devices and supported operating systems.
+2. When supported by device and display
+3. USB-C® port does not charge your Surface device or any  device that requires more than 15W.
+4. Ocean-bound plastic is plastic waste recovered from oceans and waterways, cleaned, and processed into recycled plastic resin pellets. These recycled pellets are blended in with virgin plastic during the manufacturing process.
+5. In OECD countries, Microsoft operates recycling programs either independently or through third parties covering Microsoft Devices.
+6. Requires device with USB4®/Thunderbolt™ 4 port
+7. Requires device with USB 4 Thunderbolt 4.
+8. Software license required for some features. Sold separately.
