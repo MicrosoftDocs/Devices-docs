@@ -21,7 +21,7 @@ Most Windows updates focus on performance and security improvements. In the list
 
 ## Windows 10 Team 2022 Update (22H2)
 
-### March 21, 2023 - update for Team based on KB5023773* (OS Build 19045.2787)
+### March 21, 2023 - update for Team OS based on KB5023773* (19045.2787)
 
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/5018682/windows-10-update-history), include:
 
@@ -32,7 +32,7 @@ This update to the Surface Hub includes quality improvements and security fixes.
 Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabling device features and services. *[KB5023773](https://support.microsoft.com/help/5023773)
 
 
-### January 19, 2023 - update for Team based on KB5019275* (OS Build 19045.2546)
+### January 19, 2023 - update for Team OS based on KB5019275* (19045.2546)
 
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/5018682/windows-10-update-history), include:
 
@@ -42,7 +42,7 @@ This update to the Surface Hub includes quality improvements and security fixes.
 Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabling device features and services. *[KB5019275](https://support.microsoft.com/help/5019275)
 
 
-### November 15, 2022 - update for Team based on KB5020030* (OS Build 19045.2311)
+### November 15, 2022 - update for Team OS based on KB5020030* (19045.2311)
 
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/5018682/windows-10-update-history), include:
 
@@ -52,7 +52,7 @@ Please refer to the "[Install Windows 10 Team 2022 Update](/surface-hub/surface-
 *[KB5020030](https://support.microsoft.com/help/5020030)
 
 
-### October 25, 2022 - update for Team based on KB5018482* (OS Build 19045.2193)
+### October 25, 2022 - update for Team OS based on KB5018482* (19045.2193)
 
 This update brings the Windows 10 Team 2022 Update to Surface Hub and includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4581839/windows-10-update-history), include:
 
@@ -64,7 +64,7 @@ Please refer to the "[Install Windows 10 Team 2022 Update](/surface-hub/surface-
 
 ## Windows 10 Team 2020 Update (20H2)
 
-### August 26, 2022 - update for Team based on KB5016688* (OS Build 19042.1949)
+### August 26, 2022 - update for Team OS based on KB5016688* (19042.1949)
 
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4581839/windows-10-update-history), include:
 
@@ -86,7 +86,7 @@ This update is specific to the Surface Hub 2S and provides the driver and firmwa
   * Improves system security and stability.
 
 
-### June 2, 2022 - update for Team based on KB5014023* (OS Build 19042.1741)
+### June 2, 2022 - update for Team OS based on KB5014023* (19042.1741)
 
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4581839/windows-10-update-history), include:
 
@@ -110,7 +110,7 @@ This update is specific to the Surface Hub 2S and provides the driver and firmwa
   * Improves thermal logging and detection of thermal shutdown scenarios.
 
 
-### April 21, 2022 - update for Team based on KB5011831* (OS Build 19042.1682)
+### April 21, 2022 - update for Team OS based on KB5011831* (19042.1682)
 
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4581839/windows-10-update-history), include:
 
@@ -120,7 +120,7 @@ This update to the Surface Hub includes quality improvements and security fixes.
 Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabling device features and services. *[KB5011831](https://support.microsoft.com/help/5011831)
 
 
-### March 22, 2022 - update for Team based on KB5011543* (OS Build 19042.1620)
+### March 22, 2022 - update for Team OS based on KB5011543* (19042.1620)
 
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4581839/windows-10-update-history), include:
 
@@ -131,7 +131,7 @@ This update to the Surface Hub includes quality improvements and security fixes.
 Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabling device features and services. *[KB5011543](https://support.microsoft.com/help/5011543)
 
 
-### February 15, 2022 - update for Team based on KB5010415* (OS Build 19042.1566)
+### February 15, 2022 - update for Team OS based on KB5010415* (19042.1566)
 
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub are outlined in [Windows 10 Team 2020 Update 2](surface-hub-2020-update-whats-new.md#windows-10-team-2020-update-2), and also include the below:
 
@@ -143,7 +143,7 @@ This update to the Surface Hub includes quality improvements and security fixes.
 Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabling device features and services. *[KB5010415](https://support.microsoft.com/help/5010415)
 
 
-### January 25, 2022 - update for Team based on KB5009596* (OS Build 19042.1503)
+### January 25, 2022 - update for Team OS based on KB5009596* (19042.1503)
 
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4581839/windows-10-update-history), include:
 
@@ -165,7 +165,7 @@ This update is specific to the Surface Hub 2S and provides the driver and firmwa
   * Improves system security and stability.
 
 
-### November 22, 2021 - update for Team based on KB5007253* (OS Build 19042.1387)
+### November 22, 2021 - update for Team OS based on KB5007253* (19042.1387)
 
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4581839/windows-10-update-history), include:
 
@@ -183,7 +183,7 @@ These updates to the Surface Hub deliver the Teams Room client, Teams Admin Cent
 Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabling device features and services.
 
 
-### September 30, 2021 - update for Team based on KB5005611* (OS Build 19042.1266)
+### September 30, 2021 - update for Team OS based on KB5005611* (19042.1266)
 
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4581839/windows-10-update-history), include:
 
@@ -192,7 +192,7 @@ This update to the Surface Hub includes quality improvements and security fixes.
 Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabling device features and services. *[KB5005611](https://support.microsoft.com/help/5005611)
 
 
-### September 1, 2021 - update for Team based on KB5005101* (OS Build 19042.1202)
+### September 1, 2021 - update for Team OS based on KB5005101* (19042.1202)
 
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub are outlined in [Windows 10 Team 2020 Update 1](surface-hub-2020-update-whats-new.md#windows-10-team-2020-update-1) and also include the below:
 
@@ -201,7 +201,7 @@ This update to the Surface Hub includes quality improvements and security fixes.
 Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabling device features and services. *[KB5005101](https://support.microsoft.com/help/5005101)
 
 
-### July 29, 2021 - update for Team based on KB5004296* (OS Build 19042.1151)
+### July 29, 2021 - update for Team OS based on KB5004296* (19042.1151)
 
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4581839/windows-10-update-history), include:
 
@@ -224,7 +224,7 @@ This update is specific to the Surface Hub 2S and provides the driver and firmwa
   * Addresses critical security vulnerability and improves system stability.
 
 
-### April 13, 2021 - update for Team based on KB5001330* (OS Build 19042.928)
+### April 13, 2021 - update for Team OS based on KB5001330* (19042.928)
 
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4581839/windows-10-update-history), include:
 
@@ -245,7 +245,7 @@ This update is specific to the Surface Hub 2S and provides the driver and firmwa
   * Improves system security and stability.
 
 
-### February 2, 2021 - update for Team based on KB4598291* (OS Build 19042.789)
+### February 2, 2021 - update for Team OS based on KB4598291* (19042.789)
 
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4581839/windows-10-update-history), include:
 
@@ -274,7 +274,7 @@ This update is specific to the Surface Hub 2S and provides the driver and firmwa
 * Surface UEFI update - 694.3447.768.0
 
 
-### November 30, 2020 - update for Team based on KB4586853* (OS Build 19042.662)
+### November 30, 2020 - update for Team OS based on KB4586853* (19042.662)
 
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4581839/windows-10-update-history), include:
 
@@ -310,7 +310,7 @@ This update is specific to the Surface Hub 2S and provides the driver and firmwa
 * Surface UEFI update - 694.3386.768.0
 
 
-### October 13, 2020 - update for Team based on KB4579311* (OS Build 19042.572)
+### October 13, 2020 - update for Team OS based on KB4579311* (19042.572)
 
 Windows 10 Team 2020 Update for Surface Hub - General Release notes 
 
@@ -363,7 +363,7 @@ This update is specific to the Surface Hub 2S and provides the driver and firmwa
   * Improves system stability.
 
 
-### February 11, 2020 - update for Team based on KB4537765* (OS Build 15063.2284)
+### February 11, 2020 - update for Team OS based on KB4537765* (15063.2284)
 
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4018124/windows-10-update-history), include:
 
@@ -374,7 +374,7 @@ Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabl
 *[KB4537765](https://support.microsoft.com/help/4537765)
 
 
-### January 14, 2020 - update for Team based on KB4534296* (OS Build 15063.2254)
+### January 14, 2020 - update for Team OS based on KB4534296* (15063.2254)
 
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4018124/windows-10-update-history), include:
 
@@ -384,7 +384,7 @@ Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabl
 *[KB4534296](https://support.microsoft.com/help/4534296)
 
 
-### September 24, 2019 - update for Team based on KB4516059*  (OS Build 15063.2078)
+### September 24, 2019 - update for Team OS based on KB4516059*  (15063.2078)
 
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4018124/windows-10-update-history), include:
 
@@ -399,7 +399,7 @@ Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabl
 *[KB4516059](https://support.microsoft.com/help/4516059)
 
 
-### August 17, 2019 - update for Team based on KB4512474*  (OS Build 15063.2021)
+### August 17, 2019 - update for Team OS based on KB4512474*  (15063.2021)
 
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4018124/windows-10-update-history), include:
 
@@ -410,7 +410,7 @@ Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabl
 *[KB4512474](https://support.microsoft.com/help/4512474)
  
 
-### June 18, 2019 - update for Team based on KB4503289*  (OS Build 15063.1897)
+### June 18, 2019 - update for Team OS based on KB4503289*  (15063.1897)
 
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4018124/windows-10-update-history), include:
 
@@ -423,7 +423,7 @@ Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabl
 *[KB4503289](https://support.microsoft.com/help/4503289)
 
 
-### May 28, 2019 - update for Team based on KB4499162*  (OS Build 15063.1835)
+### May 28, 2019 - update for Team OS based on KB4499162*  (15063.1835)
 
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4018124/windows-10-update-history), include:
 
@@ -436,7 +436,7 @@ Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabl
 *[KB4499162](https://support.microsoft.com/help/4499162)
 
 
-### April 25, 2019 - update for Team based on KB4493436*  (OS Build 15063.1784)
+### April 25, 2019 - update for Team OS based on KB4493436*  (15063.1784)
 
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4018124/windows-10-update-history), include:
 
@@ -446,7 +446,7 @@ Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabl
 *[KB4493436](https://support.microsoft.com/help/4493436)
 
 
-### November 27, 2018 - update for Team based on KB4467699*  (OS Build 15063.1478)
+### November 27, 2018 - update for Team OS based on KB4467699*  (15063.1478)
 
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4018124/windows-10-update-history), include:
 
@@ -456,7 +456,7 @@ Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabl
 *[KB4467699](https://support.microsoft.com/help/4467699)
 
 
-### October 18, 2018 - update for Team based on KB4462939*  (OS Build 15063.1418)
+### October 18, 2018 - update for Team OS based on KB4462939*  (15063.1418)
 
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4018124/windows-10-update-history), include:
 
@@ -471,7 +471,7 @@ Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabl
 *[KB4462939](https://support.microsoft.com/help/4462939)
 
 
-### August 31, 2018 - update for Team based on KB4343889* (OS Build 15063.1292)
+### August 31, 2018 - update for Team OS based on KB4343889* (15063.1292)
 
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4018124/windows-10-update-history), include:
 
@@ -484,7 +484,7 @@ Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabl
 *[KB4343889](https://support.microsoft.com/help/4343889)
 
 
-### June 21, 2018 - update for Team based on KB4284830* (OS Build 15063.1182)
+### June 21, 2018 - update for Team OS based on KB4284830* (15063.1182)
 
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4018124/windows-10-update-history), include:
 
@@ -494,7 +494,7 @@ Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabl
 *[KB4284830](https://support.microsoft.com/help/4284830)
 
 
-### April 17, 2018 - update for Team based on KB4093117* (OS Build 15063.1058)
+### April 17, 2018 - update for Team OS based on KB4093117* (15063.1058)
 
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4018124/windows-10-update-history), include:
 
@@ -511,7 +511,7 @@ Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabl
 *[KB4093117](https://support.microsoft.com/help/4093117)
 
 
-### February 23, 2018 - update for Team based on KB4077528* (OS Build 15063.907)
+### February 23, 2018 - update for Team OS based on KB4077528* (15063.907)
 
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4018124/windows-10-update-history), include:
 
@@ -522,7 +522,7 @@ Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabl
 *[KB4077528](https://support.microsoft.com/help/4077528)
 
 
-### January 16, 2018 - update for Team based on KB4057144* (OS Build 15063.877)
+### January 16, 2018 - update for Team OS based on KB4057144* (15063.877)
 
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4018124/windows-10-update-history), include:
 
@@ -533,7 +533,7 @@ Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabl
 *[KB4057144](https://support.microsoft.com/help/4057144)
 
 
-### December 12, 2017 - update for Team based on KB4053580* (OS Build 15063.786)
+### December 12, 2017 - update for Team OS based on KB4053580* (15063.786)
 
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4018124/windows-10-update-history), include:
 
@@ -544,7 +544,7 @@ Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabl
 *[KB4053580](https://support.microsoft.com/help/4053580)
 
 
-### November 14, 2017 - update for Team based on KB4048954* (OS Build 15063.726)
+### November 14, 2017 - update for Team OS based on KB4048954* (15063.726)
 
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4018124/windows-10-update-history), include:
 
@@ -561,7 +561,7 @@ Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabl
 *[KB4048954](https://support.microsoft.com/help/4048954)
 
 
-### October 10, 2017 - update for Team based on KB4041676* (OS Build 15063.674)
+### October 10, 2017 - update for Team OS based on KB4041676* (15063.674)
 
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4018124/windows-10-update-history), include:
 
@@ -576,7 +576,7 @@ This update to the Surface Hub includes quality improvements and security fixes.
 *[KB4041676](https://support.microsoft.com/help/4041676)
 
 
-### September 12, 2017 - update for Team based on KB4038788* (OS Build 15063.605) 
+### September 12, 2017 - update for Team OS based on KB4038788* (15063.605) 
 
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4018124/windows-10-update-history), include:
 
@@ -589,7 +589,7 @@ This update to the Surface Hub includes quality improvements and security fixes.
 *[KB4038788](https://support.microsoft.com/help/4038788)
 
 
-### August 1, 2017 - update for Team based on KB4032188* (OS Build 15063.498)
+### August 1, 2017 - update for Team OS based on KB4032188* (15063.498)
 
 * Skype for Business 
   * Resolves Skype for Business Sign-In issue, which required retry or system reboot.
@@ -599,7 +599,7 @@ This update to the Surface Hub includes quality improvements and security fixes.
 *[KB4032188](https://support.microsoft.com/help/4032188)
 
 
-### June 27, 2017 - update for Team based on KB4022716* (OS Build 15063.442)
+### June 27, 2017 - update for Team OS based on KB4022716* (15063.442)
 
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4018124/windows-10-update-history), include:
 
@@ -609,7 +609,7 @@ This update to the Surface Hub includes quality improvements and security fixes.
 *[KB4022716](https://support.microsoft.com/help/4022716)
 
 
-### June 13, 2017 - update for Team based on KB4022725* (OS Build 15063.413)
+### June 13, 2017 - update for Team OS based on KB4022725* (15063.413)
 
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4018124/windows-10-update-history), include:
 
@@ -620,7 +620,7 @@ This update to the Surface Hub includes quality improvements and security fixes.
 *[KB4022725](https://support.microsoft.com/help/4022725)
 
 
-### May 24, 2017 - update for Team based on KB4021573* (OS Build 15063.328)
+### May 24, 2017 - update for Team OS based on KB4021573* (15063.328)
 
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4018124/windows-10-update-history), include:
 
@@ -630,7 +630,7 @@ This update to the Surface Hub includes quality improvements and security fixes.
 *[KB4021573](https://support.microsoft.com/help/4021573)
 
 
-### May 9, 2017 - update for Team based on KB4016871* (OS Build 15063.296)
+### May 9, 2017 - update for Team OS based on KB4016871* (15063.296)
 
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4018124/windows-10-update-history), include:
 
@@ -645,7 +645,7 @@ This update to the Surface Hub includes quality improvements and security fixes.
 *[KB4016871](https://support.microsoft.com/help/4016871)
 
 
-### Windows 10 Team Creators Update 1703 for Surface Hub - General Release notes (OS Build 15063.0)
+### Windows 10 Team Creators Update 1703 for Surface Hub - General Release notes (15063.0)
 
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4018124/windows-10-update-history), include:
 
@@ -689,7 +689,7 @@ This update to the Surface Hub includes quality improvements and security fixes.
 
 ## Windows 10 Team Anniversary Update (1607)
 
-### March 14, 2017 - update for Team based on KB4013429* (OS Build 14393.953)
+### March 14, 2017 - update for Team OS based on KB4013429* (14393.953)
 
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4018124/windows-10-update-history), include:
 
@@ -701,7 +701,7 @@ This update to the Surface Hub includes quality improvements and security fixes.
 *[KB4013429](https://support.microsoft.com/help/4013429)
 
 
-### January 10, 2017 - update for Team based on KB4000825* (OS Build 14393.693)
+### January 10, 2017 - update for Team OS based on KB4000825* (14393.693)
 
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4018124/windows-10-update-history), include:
 
@@ -710,7 +710,7 @@ This update to the Surface Hub includes quality improvements and security fixes.
 *[KB4000825](https://support.microsoft.com/help/4000825)
 
 
-### December 13, 2016 - update for Team based on KB3206632* (OS Build 14393.576)
+### December 13, 2016 - update for Team OS based on KB3206632* (14393.576)
 
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4018124/windows-10-update-history), include:
 
@@ -719,7 +719,7 @@ This update to the Surface Hub includes quality improvements and security fixes.
 *[KB3206632](https://support.microsoft.com/help/3206632)
 
 
-### November 4, 2016 - update for Team based on KB3200970* (OS Build 14393.447)
+### November 4, 2016 - update for Team OS based on KB3200970* (14393.447)
 
 This update to the Windows 10 Team Anniversary Update (version 1607) for Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4018124/windows-10-update-history), include:
 
@@ -728,7 +728,7 @@ This update to the Windows 10 Team Anniversary Update (version 1607) for Surface
 *[KB3200970](https://support.microsoft.com/help/3200970)
 
 
-### October 25, 2016 - update for Team based on KB3197954* (OS Build 14393.351)
+### October 25, 2016 - update for Team OS based on KB3197954* (14393.351)
 
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4018124/windows-10-update-history), include:
 
@@ -743,7 +743,7 @@ This update to the Surface Hub includes quality improvements and security fixes.
 *[KB3197954](https://support.microsoft.com/help/3197954)
 
 
-### October 11, 2016 - update for Team based on KB3194496* (OS Build 14393.222)
+### October 11, 2016 - update for Team OS based on KB3194496* (14393.222)
 
 This update brings the Windows 10 Team Anniversary Update to Surface Hub and includes quality improvements and security fixes. (Your device will be running Windows 10 Version 1607 after it's installed.) Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4018124/windows-10-update-history), include:
 
@@ -785,7 +785,7 @@ This update brings the Windows 10 Team Anniversary Update to Surface Hub and inc
 
 ## Updates for Windows 10 Version 1511
 
-### July 12, 2016 - update for Team based on KB3172985* (OS Build 10586.494)
+### July 12, 2016 - update for Team OS based on KB3172985* (10586.494)
 
 This update includes quality improvements and security fixes. No new operating system features are being introduced in this update.  Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4018124/windows-10-update-history), include:
 
@@ -806,7 +806,7 @@ This update includes quality improvements and security fixes. No new operating s
 *[KB3172985](https://support.microsoft.com/help/3172985)
 
 
-### May 10, 2016 - update for Team based on KB3156421* (OS Build 10586.318)
+### May 10, 2016 - update for Team OS based on KB3156421* (10586.318)
 
 This update to the Surface Hub includes quality improvements and security fixes. No new operating system features are being introduced in this update. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4018124/windows-10-update-history), include:
 
@@ -816,7 +816,7 @@ This update to the Surface Hub includes quality improvements and security fixes.
 *[KB3156421](https://support.microsoft.com/help/3156421)
 
 
-### April 12, 2016 - update for Team based on KB3147458* (OS Build 10586.218)
+### April 12, 2016 - update for Team OS based on KB3147458* (10586.218)
 
 This update to the Surface Hub includes quality improvements and security fixes. No new operating system features are being introduced in this update. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4018124/windows-10-update-history), include:
 
