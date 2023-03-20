@@ -748,7 +748,7 @@ This update to the Surface Hub includes quality improvements and security fixes.
 ## Windows 10 Team Anniversary Update (1607)
 
 <details>
-<summary>March 14th, 2017 - update for Team based on KB4013429* (OS Build 14393.953)</summary>
+<summary>March 14, 2017 - update for Team based on KB4013429* (OS Build 14393.953)</summary>
 
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4018124/windows-10-update-history), include:
 
@@ -761,7 +761,7 @@ This update to the Surface Hub includes quality improvements and security fixes.
 </details>
 
 <details>
-<summary>January 10th, 2017 - update for Team based on KB4000825* (OS Build 14393.693)</summary>
+<summary>January 10, 2017 - update for Team based on KB4000825* (OS Build 14393.693)</summary>
 
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4018124/windows-10-update-history), include:
 
