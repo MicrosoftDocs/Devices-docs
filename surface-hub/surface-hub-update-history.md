@@ -673,10 +673,10 @@ This update to the Surface Hub includes quality improvements and security fixes.
   * Added ability to restrict USB drives to BitLocker only
   * Added ability to disable USB ports via MDM
   * Added ability to disable “Resume session” functionality on timeout
-  * Addition of wired 802.1x support
+  * [Addition of wired 802.1x support](enable-8021x-wired-authentication.md)
 * Audio and Projection
-  * Dolby Audio “Human Speaker” enhancements
-  * Reduced “pen tap” sounds when using Pen during Skype for Business calls
+  * Dolby Audio "Human Speaker" enhancements
+  * Reduced "pen tap" sounds when using Pen during Skype for Business calls
   * Added support for Miracast infrastructure connections
 * Reliability and Performance fixes
   * Resolved several Reset and Recovery issues
@@ -685,9 +685,7 @@ This update to the Surface Hub includes quality improvements and security fixes.
   * Fixed Miracast audio popping and sync issues during video playback
   * Included setting to disable auto connect behavior
 
-*Single sign-in feature requires use of Office365 and OneDrive for Business
-**Refer to Admin Guide for service requirements
-
+*Single sign-in feature requires use of Office 365 and OneDrive for Business
 
 
 ## Windows 10 Team Anniversary Update (1607)
