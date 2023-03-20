@@ -666,7 +666,7 @@ This update to the Surface Hub includes quality improvements and security fixes.
   * Cloud-based device recovery service
   * Enterprise client certificate support
   * Improved proxy credential support
-  * Added and /improved Skype Quality of Service (QoS) configuration support
+  * Added and improved Skype Quality of Service (QoS) configuration support
   * Added ability to set default device volume in Settings
   * Improved [MDM support for Surface Hub settings](manage-settings-with-mdm-for-surface-hub.md)
 * Improved Security 
