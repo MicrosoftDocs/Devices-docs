@@ -22,6 +22,18 @@ Most Windows updates focus on performance and security improvements. In the list
 ## Windows 10 Team 2022 Update (22H2)
 
 <details>
+<summary>March 21, 2023 - update for Team based on KB5023773* (OS Build 19045.2787)</summary>
+
+This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/5018682/windows-10-update-history), include:
+
+* Resolves an issue where Meetings and Files sign-in would take a long time in some proxy environments.
+* Resolves an issue where End Session cleanup would unnecessarily trigger a restart of the device.
+* Implements a feature that allows end users to change the preferred display language on the device.
+ 
+Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabling device features and services. *[KB5023773](https://support.microsoft.com/help/5023773)
+</details>
+
+<details>
 <summary>January 19, 2023 - update for Team based on KB5019275* (OS Build 19045.2546)</summary>
 
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/5018682/windows-10-update-history), include:
@@ -29,8 +41,7 @@ This update to the Surface Hub includes quality improvements and security fixes.
 * Resolves an issue where meeting invitations did not show up immediately on the Welcome screen calendar in some environments without a reboot.
 * Resolves an issue where one-click meeting join from the Welcome screen calendar did not automatically join Teams meetings in GCC High environments.
  
-Please refer to the "[Install Windows 10 Team 2022 Update](/surface-hub/surface-hub-2022-update)" page for more information regarding update availability by region, distribution method, and device type.
-*[KB5019275](https://support.microsoft.com/help/5019275)
+Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabling device features and services. *[KB5019275](https://support.microsoft.com/help/5019275)
 </details>
 
 <details>
