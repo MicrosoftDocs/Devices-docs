@@ -807,15 +807,6 @@ This update includes quality improvements and security fixes. No new operating s
 *[KB3172985](https://support.microsoft.com/help/3172985)
 
 
-### June 14, 2016 - update for Team based on KB3163018* (OS Build 10586.420)
-
-This update to the Surface Hub includes quality improvements and security fixes. No new operating system features are being introduced in this update. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4018124/windows-10-update-history), include:
-
-* Constrained release. Refer to July 12, 2016 — [KB3172985](https://support.microsoft.com/en-us/help/3172985) (OS Build 10586.494) for Surface Hub specific package details
-
-*[KB3163018](https://support.microsoft.com/help/3163018)
-
-
 ### May 10, 2016 - update for Team based on KB3156421* (OS Build 10586.318)
 
 This update to the Surface Hub includes quality improvements and security fixes. No new operating system features are being introduced in this update. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4018124/windows-10-update-history), include:
