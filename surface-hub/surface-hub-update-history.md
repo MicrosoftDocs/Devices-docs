@@ -26,8 +26,8 @@ Most Windows updates focus on performance and security improvements. In the list
 
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/5018682/windows-10-update-history), include:
 
-* Resolves an issue where Meetings and Files sign-in would take a long time in some proxy environments.
-* Resolves an issue where End Session cleanup would unnecessarily trigger a restart of the device.
+* Resolves an issue where Meetings and Files sign-in could take a long time in some proxy environments.
+* Resolves an issue where End Session cleanup could unnecessarily trigger a restart of the device.
 * Implements a feature that allows end users to change the preferred display language on the device.
  
 Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabling device features and services. *[KB5023773](https://support.microsoft.com/help/5023773)
