@@ -660,7 +660,7 @@ This update to the Surface Hub includes quality improvements and security fixes.
   * Join meetings and end the session directly from the Start menu
   * Access personal files through OneDrive for Business directly from Start
   * Pre-populated attendee sign-in
-  * Streamlined authentication flows with “Authenticator” app**
+  * [Streamlined authentication flows with the "Authenticator" app](surface-hub-2s-phone-authenticate.md)
 * Deployment & Manageability 
   * Simplified OOBE experience through bulk provisioning
   * Cloud-based device recovery service
