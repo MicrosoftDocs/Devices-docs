@@ -668,12 +668,12 @@ This update to the Surface Hub includes quality improvements and security fixes.
   * Improved proxy credential support
   * Added and /improved Skype Quality of Service (QoS) configuration support
   * Added ability to set default device volume in Settings
-  * Improved MDM support for Surface Hub [settings](/surface-hub/remote-surface-hub-management)
+  * Improved [MDM support for Surface Hub settings](manage-settings-with-mdm-for-surface-hub.md)
 * Improved Security 
   * Added ability to restrict USB drives to BitLocker only
   * Added ability to disable USB ports via MDM
   * Added ability to disable “Resume session” functionality on timeout
-  * [Addition of wired 802.1x support](enable-8021x-wired-authentication.md)
+  * Addition of [wired 802.1x support](enable-8021x-wired-authentication.md)
 * Audio and Projection
   * Dolby Audio "Human Speaker" enhancements
   * Reduced "pen tap" sounds when using Pen during Skype for Business calls
