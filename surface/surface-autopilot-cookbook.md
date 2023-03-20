@@ -13,7 +13,7 @@ ms.localizationpriority: medium
 
 With Windows Autopilot, customers can quickly deploy and manage Surface devices without having to manually configure them or maintain their own infrastructure. When users first receive a Surface device, they must connect to a network and verify their credentials. Everything after that is fully automated.
 
-This [downloadable step-by-step walkthrough](/media/surface-autopilot-cookbook.pdf) is primarily intended for [Cloud Solution Providers (CSPs)](/partner-center/csp-overview) with access to the [Microsoft Partner Center](https://partner.microsoft.com).
+This [downloadable step-by-step walkthrough](/surface/media/surface-autopilot-cookbook.pdf) is primarily intended for [Cloud Solution Providers (CSPs)](/partner-center/csp-overview) with access to the [Microsoft Partner Center](https://partner.microsoft.com).
 
 ## Contents
 
