@@ -672,11 +672,10 @@ This update to the Surface Hub includes quality improvements and security fixes.
 * Improved Security 
   * Added ability to restrict USB drives to BitLocker only
   * Added ability to disable USB ports via MDM
-  * Added ability to disable “Resume session” functionality on timeout
+  * Added ability to disable "Resume session" functionality on timeout
   * Addition of [wired 802.1x support](enable-8021x-wired-authentication.md)
 * Audio and Projection
   * Dolby Audio "Human Speaker" enhancements
-  * Reduced "pen tap" sounds when using Pen during Skype for Business calls
   * Added support for Miracast infrastructure connections
 * Reliability and Performance fixes
   * Resolved several Reset and Recovery issues
