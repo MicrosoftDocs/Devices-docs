@@ -2,6 +2,15 @@
 
 
 
+## Week of March 13, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 3/14/2023 | [Surface driver and firmware lifecycle for Windows-based devices](/surface/surface-driver-firmware-lifecycle-support) | modified |
+| 3/16/2023 | [Wake On LAN for Surface devices](/surface/wake-on-lan-for-surface-devices) | modified |
+
+
 ## Week of February 27, 2023
 
 
@@ -66,28 +75,3 @@
 | 2/16/2023 | [Surface Hub v1 SSD replacement](/surface-hub/surface-hub-ssd-replacement) | modified |
 | 2/16/2023 | How Surface Hub addresses Wi-Fi Direct security issues | removed |
 | 2/16/2023 | Surface Hub Miracast channels 149-165 not supported in Europe, Japan, Israel | removed |
-
-
-## Week of February 06, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 2/6/2023 | [Troubleshoot configuration service provider policy settings for Surface Hub](/surface-hub/troubleshoot-mdm-csp-surface-hub) | added |
-| 2/6/2023 | [Enable 802.1x wired authentication](/surface-hub/enable-8021x-wired-authentication) | modified |
-
-
-## Week of January 30, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 2/2/2023 | [Surface for Business service and repair](/surface/surface-service-and-repair) | modified |
-
-
-## Week of January 30, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 1/30/2023 | [Troubleshoot APC Charge Mobile Battery on Surface Hub 2S](/surface-hub/troubleshoot-apc-mobile-battery) | added |

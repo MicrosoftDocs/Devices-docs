@@ -43,7 +43,7 @@ Profile File Name: .\Ethernet.xml
 1 profile(s) were exported successfully.
 ```
 
-To disable 802.1x completely on the Surface Hub, a [provisioning package](provisioning-packages-for-surface-hub.md#use-advanced-provisioning) can be used to the SurfaceHub\Dot3\LanProfile node to the following xml:
+To disable 802.1x completely on the Surface Hub, a [provisioning package](provisioning-packages-for-surface-hub.md#use-advanced-provisioning) can be used to set the SurfaceHub\Dot3\LanProfile node to the following xml:
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
