@@ -47,6 +47,7 @@ Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabl
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/5018682/windows-10-update-history), include:
 
 * Replaces built-in email client on Surface Hub with a new one to enable more share via email scenarios.
+* Improves sovereign cloud support by adding tenant region awareness to some personal sign-in and device account scenarios.
  
 Please refer to the "[Install Windows 10 Team 2022 Update](/surface-hub/surface-hub-2022-update)" page for more information regarding update availability by region, distribution method, and device type.
 *[KB5020030](https://support.microsoft.com/help/5020030)
