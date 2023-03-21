@@ -16,7 +16,7 @@ Surface Hub now allows end users to change the display language and preferred la
 Once a Surface Hub admin installs extra languages, users can change the display language by selecting a new one from the available installed languages.
 
 > [!NOTE]
-> Only Surface Hub admins can install additional languages for end users. First, ensure that your Surface Hub has [KB5023773](https://support.microsoft.com/help/5023773)(or a subsequent Windows update) installed. To learn more about the latest Windows 10 Team updates, refer to [Surface Hub update history](surface-hub-update-history.md).
+> Only Surface Hub admins can install additional languages for availability to end users. First, ensure that your Surface Hub has [KB5023773](https://support.microsoft.com/help/5023773)(or a subsequent Windows update) installed. To learn more about the latest Windows 10 Team updates, refer to [Surface Hub update history](surface-hub-update-history.md).
 
 ## End user language option
 
