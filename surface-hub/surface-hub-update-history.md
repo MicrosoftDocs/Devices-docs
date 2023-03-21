@@ -21,7 +21,7 @@ Most Windows updates focus on performance and security improvements. In the list
 
 ## Windows 10 Team 2022 Update (22H2)
 
-### March 21, 2023 - update for Team OS based on KB5023773* (19045.2787)
+### March 21, 2023 - update for Team OS based on KB5023773* (19045.2788)
 
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/5018682/windows-10-update-history), include:
 
