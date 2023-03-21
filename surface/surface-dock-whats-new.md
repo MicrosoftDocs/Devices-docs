@@ -145,7 +145,7 @@ To daisy chain monitors, you need two or more monitors that support at least **D
 ### References
 
 1. Surface Enterprise Management Mode for Dock and MAC address passthrough is available on select host devices and supported operating systems.
-2. When supported by device and display
+2. When supported by device and display.
 3. USB-C® port doesn't charge your Surface device or any  device that requires more than 15 W.
 4. Ocean-bound plastic is plastic waste recovered from oceans and waterways, cleaned, and processed into recycled plastic resin pellets. These recycled pellets are blended in with virgin plastic during the manufacturing process.
 5. In OECD countries, Microsoft operates recycling programs either independently or through third parties covering Microsoft Devices.
