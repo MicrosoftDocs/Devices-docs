@@ -29,6 +29,8 @@ landingContent:
     linkLists:
       - linkListType: how-to-guide
         links:
+          - text: Change display language on Surface Hub
+            url: change-language-on-surface-hub.md
           - text: Surface Hub & Microsoft Teams Rooms automated setup guide (requires M365 authentication)
             url: https://go.microsoft.com/fwlink/?linkid=2221605
           - text: Install Windows 10 Team 2022 Update 
@@ -39,8 +41,7 @@ landingContent:
             url: surface-hub-2-smart-camera.md       
           - text: Microsoft Teams Rooms on Surface Hub                               
             url: surface-hub-teams-rooms.md
-          - text: Modern authentication on Surface Hub                
-            url: surface-hub-modern-auth.md
+
 
 # Card (optional)
   - title: Troubleshoot
