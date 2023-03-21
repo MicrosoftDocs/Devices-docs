@@ -16,7 +16,7 @@ Surface Hub now allows end users to change the display language and preferred la
 Once a Surface Hub admin installs extra languages, users can change the display language by selecting a new one from the available installed languages.
 
 > [!NOTE]
-> Only Surface Hub admins can install additional languages for end users. This option requires that Surface Hub is running the March 2023 update, as described in Surface Hub update history.
+> Only Surface Hub admins can install additional languages for end users. First, ensure that your Surface Hub has [KB5023773](https://support.microsoft.com/help/5023773)(or a subsequent Windows update) installed. To learn more about the latest Windows 10 Team updates, refer to [Surface Hub update history](surface-hub-update-history.md).
 
 ## End user language option
 
@@ -28,7 +28,7 @@ Users can change the display language on Surface Hub via a similar process used 
     :::image type="content" source="images/hub-user-change-language-settings.png" alt-text="Screenshot of Surface Hub settings." :::
 2. Choose from the available languages as installed by your Surface Hub admin.
     :::image type="content" source="images/hub-user-change-display-language.png" alt-text="Screenshot that shows Windows Display language settings on Surface Hub." :::
-3. For best results, move the new language to the top of the **Preferred languages** list.
+3. Optional: For best results, also move the new language to the top of the **Preferred languages** list.
     :::image type="content" source="images/hub-user-change-preferred-language.png" alt-text="Screenshot that shows Preferred languages list on Surface Hub." :::
 4. Restart Surface Hub.
 
@@ -46,7 +46,7 @@ To enable users to change the display language on Surface Hub, admins must first
 3. Use the same procedure described in [Manage the input and display language settings in Windows](https://support.microsoft.com/windows/manage-the-input-and-display-language-settings-in-windows-12a10cb4-8626-9b77-0ccb-5013e0c7c7a2#WindowsVersion=Windows_10).
 
 > [!NOTE]
-> When end users change the display language, screens that display admin-only info are not switched to the newly selected language.
+> When end users change the display language, some screens that display admin-only info are not switched to the newly selected language.
 
 > [!TIP]
 > Admins can also install a keyboard layout for another language without switching the user interface. This may be useful for users who collaborate in English and communicate with colleagues in another language.
