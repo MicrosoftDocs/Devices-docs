@@ -96,6 +96,8 @@
              href: whiteboard-collaboration.md
            - name: Adjust accessibility settings
              href: accessibility-surface-hub.md   
+           - name: Change display language on Surface Hub
+             href: change-language-on-surface-hub.md    
            - name: Adjust Surface Hub 2S brightness, volume, & input
              href: surface-hub-2s-onscreen-display.md
            - name: Finish a meeting

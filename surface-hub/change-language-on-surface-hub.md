@@ -56,3 +56,4 @@ To enable users to change the display language on Surface Hub, admins must first
 - [Manage the input and display language settings in Windows](https://support.microsoft.com/windows/manage-the-input-and-display-language-settings-in-windows-12a10cb4-8626-9b77-0ccb-5013e0c7c7a2#WindowsVersion=Windows_10)
 - [Install Windows 10 Team 2022 Update](surface-hub-2022-update.md)
 - [Surface Hub update history](surface-hub-update-history.md)
+- [Adjust accessibility settings](accessibility-surface-hub.md)
