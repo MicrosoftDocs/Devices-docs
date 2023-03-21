@@ -18,7 +18,7 @@ Surface Hub benefits from periodic updates that deliver new features and functio
 
 ### Display and preferred language support
 
-After a Surface Hub admin installs additional languages, end users [can change the display language](change-language-on-surface-hub) by selecting a new one from the available installed languages. Ensure that your Surface Hub has [KB5023773](https://support.microsoft.com/help/5023773) (or a subsequent Windows update) installed. To learn more about the latest Windows 10 Team updates, refer to [Surface Hub update history](surface-hub-update-history.md).
+After a Surface Hub admin installs additional languages, end users [can change the display language](change-language-on-surface-hub.md) by selecting a new one from the available installed languages. Ensure that your Surface Hub has [KB5023773](https://support.microsoft.com/help/5023773) (or a subsequent Windows update) installed. To learn more about the latest Windows 10 Team updates, refer to [Surface Hub update history](surface-hub-update-history.md).
 
 ### GCC High support
 
