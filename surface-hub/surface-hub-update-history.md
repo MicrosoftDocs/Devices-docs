@@ -27,7 +27,7 @@ This update to the Surface Hub includes quality improvements and security fixes.
 
 * Resolves an issue where Meetings and Files sign-in could take a long time in some proxy environments.
 * Resolves an issue where End Session cleanup could unnecessarily trigger a restart of the device.
-* Implements a feature that allows end users to change the preferred display language on the device.
+* Implements a feature that allows end users to [change the preferred display language](change-language-on-surface-hub.md) on the device.
  
 Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabling device features and services. *[KB5023773](https://support.microsoft.com/help/5023773)
 
@@ -49,8 +49,7 @@ This update to the Surface Hub includes quality improvements and security fixes.
 * Replaces built-in email client on Surface Hub with a new one to enable more share via email scenarios.
 * Improves sovereign cloud support by adding tenant region awareness to some personal sign-in and device account scenarios.
  
-Please refer to the "[Install Windows 10 Team 2022 Update](/surface-hub/surface-hub-2022-update)" page for more information regarding update availability by region, distribution method, and device type.
-*[KB5020030](https://support.microsoft.com/help/5020030)
+Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabling device features and services. *[KB5020030](https://support.microsoft.com/help/5020030)
 
 
 ### October 25, 2022 - update for Team OS based on KB5018482* (19045.2193)
