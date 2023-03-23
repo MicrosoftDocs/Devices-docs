@@ -27,7 +27,7 @@ This update to the Surface Hub includes quality improvements and security fixes.
 
 * Resolves an issue where Meetings and Files sign-in could take a long time in some proxy environments.
 * Resolves an issue where End Session cleanup could unnecessarily trigger a restart of the device.
-* Implements a feature that allows end users to change the preferred display language on the device.
+* Implements a feature that allows end users to [change the preferred display language](change-language-on-surface-hub.md) on the device.
  
 Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabling device features and services. *[KB5023773](https://support.microsoft.com/help/5023773)
 
@@ -49,8 +49,7 @@ This update to the Surface Hub includes quality improvements and security fixes.
 * Replaces built-in email client on Surface Hub with a new one to enable more share via email scenarios.
 * Improves sovereign cloud support by adding tenant region awareness to some personal sign-in and device account scenarios.
  
-Please refer to the "[Install Windows 10 Team 2022 Update](/surface-hub/surface-hub-2022-update)" page for more information regarding update availability by region, distribution method, and device type.
-*[KB5020030](https://support.microsoft.com/help/5020030)
+Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabling device features and services. *[KB5020030](https://support.microsoft.com/help/5020030)
 
 
 ### October 25, 2022 - update for Team OS based on KB5018482* (19045.2193)
@@ -582,7 +581,7 @@ This update to the Surface Hub includes quality improvements and security fixes.
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4018124/windows-10-update-history), include:
 
 * Security
-  * Resolves issue with Bitlocker when device wakes from sleep.
+  * Resolves issue with BitLocker when device wakes from sleep.
 * General
   * Reduces frequency/amount of device health telemetry, improving system performance.
   * Fixes issue that prevented device from collecting system logs.
@@ -672,7 +671,7 @@ This update to the Surface Hub includes quality improvements and security fixes.
   * Improved [MDM support for Surface Hub settings](manage-settings-with-mdm-for-surface-hub.md)
 * Improved Security 
   * Added ability to restrict USB drives to BitLocker only
-  * Added ability to disable USB ports via MDM
+  * Added ability to [disable USB drives via MDM](/windows/client-management/mdm/policy-csp-system#allowstoragecard)
   * Added ability to disable "Resume session" functionality on timeout
   * Addition of [wired 802.1x support](enable-8021x-wired-authentication.md)
 * Audio and Projection
@@ -765,7 +764,7 @@ This update brings the Windows 10 Team Anniversary Update to Surface Hub and inc
 * Apps
   * Pre-installed OneDrive app, for access to your personal and work files
   * Pre-installed Photos app, to view photos and video
-  * Pre-installed PowerBI app, to view dashboards
+  * Pre-installed Power BI app, to view dashboards
   * The Office apps – Word, Excel, PowerPoint – are all ink-enabled
   * Edge on Surface Hub now supports Flash-based websites
 * General
@@ -777,7 +776,7 @@ This update brings the Windows 10 Team Anniversary Update to Surface Hub and inc
   * Windows Defender UI has been added within settings
   * Improved UX touch to start
   * Enabled support for greater than 1080p wireless projection via Miracast, on supported devices
-  * Resolved “There’s no internet connection” and “Appointments may be out of date” false notification states from launch
+  * Resolved "There's no internet connection" and "Appointments may be out of date" false notification states from launch
   * Improved reliability of on-screen keyboard
   * Additional support for creating Surface Hub provisioning packages using Windows Imaging & Configuration Designer (ICD) and improved Surface Hub monitoring solution on Operations Management Suite (OMS)
 
