@@ -46,6 +46,9 @@ Select **View report** to see details on each insights category, giving you diag
 
 :::image type="content" source="images/surface-management-portal/surface-management-portal-view-report.png" lightbox="/surface/images/surface-management-portal/surface-management-portal-view-report.png" alt-text="Get Surface device insights and view report":::
 
+> [!TIP]
+> The portal shows device information for your top four registered devices with all others listed under **Other**. Select **View report** to see all your devices. 
+
 ## Device warranty and coverage
 
 If you manage hundreds or thousands of devices, having direct access to the warranty status of each device is especially useful, letting you quickly see the following information:
