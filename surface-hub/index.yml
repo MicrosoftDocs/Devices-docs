@@ -29,6 +29,8 @@ landingContent:
     linkLists:
       - linkListType: how-to-guide
         links:
+          - text: New Microsoft Teams Rooms licensing requirements
+            url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/new-microsoft-teams-rooms-licensing-requirements-for-surface-hub/ba-p/1669712
           - text: Change display language on Surface Hub
             url: change-language-on-surface-hub.md
           - text: Surface Hub & Microsoft Teams Rooms automated setup guide (requires M365 authentication)
