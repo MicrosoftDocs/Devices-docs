@@ -8,7 +8,7 @@ ms.prod: surface-hub
 author: coveminer
 ms.author: hachidan
 ms.topic: how-to
-ms.date: 02/08/2023
+ms.date: 03/27/2023
 ms.localizationpriority: medium
 ---
 
@@ -33,7 +33,7 @@ This table explains the main steps and configuration decisions when you create a
 | 2    | Configure mailbox properties | The mailbox must be configured with the correct properties to enable the best meeting experience on Surface Hub. For more information on mailbox properties, see [Mailbox properties](exchange-properties-for-surface-hub-device-accounts.md). |
 | 3    | Ensure that Exchange Web Services (EWS) is enabled, and multi-factor authentication (MFA) is disabled | The Surface Hub uses EWS to sync its calendar. If you don't allow EWS in your environment by default, the Hub mailbox would need to have it explicitly enabled. As the Surface Hub logs into Exchange in the background without user interaction, it can't respond to any interactive prompts, such as MFA. The device account you create must be excluded from any such authentication requirements. Otherwise, Surface Hub can't sync mail and calendar info. |
 | 4    | Enable the account for Teams or Skype for Business (Skype for Business Server 2015 and later) | Skype for Business or Teams must be enabled to use conferencing features like video calls and screen sharing. For more information on the licenses that enable Teams, see [Teams Meeting Room licensing](/MicrosoftTeams/rooms/rooms-licensing) and [Teams service description](/office365/servicedescriptions/teams-service-description). The Teams and SfB applications on the Surface Hub aren't compatible with [Azure AD Conditional Access policies](/azure/active-directory/conditional-access/concept-conditional-access-policies) requiring device information (for example, compliance). The device account you create must be excluded from any such CA policies. Otherwise, Surface Hub isn't able to use any conferencing features. |
-| 5    | Ensure the Device account has a Teams Rooms license.| Teams Rooms devices logged in with resource accounts that don't have one of the above supported Teams Rooms licenses assigned to them won't be able to sign in after July 1, 2023. <br> Use a sample PowerShell script to [check Teams Rooms licenses on multiple devices](/MicrosoftTeams/rooms/license-check#check-the-license-of-multiple-microsoft-teams-rooms-devices). |
+| 5    | Ensure the device account has a Teams Rooms license to meet new requirements.| Teams Rooms devices logged in with resource accounts that don't have one of the above supported Teams Rooms licenses assigned to them won't be able to sign in after July 1, 2023. <br><br> - Use a sample PowerShell script to [check Teams Rooms licenses on multiple devices](/MicrosoftTeams/rooms/license-check#check-the-license-of-multiple-microsoft-teams-rooms-devices). <br><br> - To learn more, see [New Microsoft Teams Rooms licensing requirements for Surface Hub] (https://techcommunity.microsoft.com/t5/surface-it-pro-blog/new-microsoft-teams-rooms-licensing-requirements-for-surface-hub/ba-p/1669712) |
 | 6    | (Optional) Disable password expiration | To simplify management, you can turn off password expiration for the device account and allow Surface Hub to automatically rotate the device account password. For more information about password management, see [Password management](password-management-for-surface-hub-device-accounts.md).  |
 
 > [!NOTE]  
