@@ -35,6 +35,8 @@
                 href: change-surface-hub-device-account.md
               - name: Test device account
                 href: use-surface-hub-diagnostic-test-device-account.md
+              - name: Find Teams Rooms devices with unsupported licenses 
+                href: /MicrosoftTeams/rooms/license-check
               - name: Hybrid deployment
                 href: hybrid-deployment-surface-hub-device-accounts.md    
               - name: Modern authentication
