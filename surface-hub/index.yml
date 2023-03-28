@@ -29,6 +29,8 @@ landingContent:
     linkLists:
       - linkListType: how-to-guide
         links:
+          - text: Teams Rooms on Windows comes to Surface Hub 2S   
+            url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/surface-hub-2s-now-a-microsoft-teams-rooms-on-windows-device/ba-p/3779970
           - text: New Microsoft Teams Rooms licensing requirements
             url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/new-microsoft-teams-rooms-licensing-requirements-for-surface-hub/ba-p/1669712
           - text: Change display language on Surface Hub
