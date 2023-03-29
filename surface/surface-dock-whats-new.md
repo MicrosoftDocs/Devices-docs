@@ -19,7 +19,7 @@ As the latest generation Surface dock, Salerno delivers ultra-high speed data tr
 
 - **High-speed USB4®/Thunderbolt™ 4 on USB-C® ports.** Plug in one cable to power your device, connect two 4K monitors at up to 60 Hz[[2]](#references), and transfer data and files at up to 40 Gbps.
 - **The charging power you need for your devices and accessories.** Connect and power your laptop with up to 96 watts of power passthrough for your phone and accessories.[[3]](#references)
-- **Inclusive design with sustainable materials.** Quickly access ports with raised tactile indicators for greater accessibility. The lightest Surface dock comes with 20% ocean-bound plastic[[4]](#references) and 99% recyclable packaging that’s free of single-use plastics[[5]](#references).
+- **Inclusive design with recycled materials.** Quickly access ports with raised tactile indicators for greater accessibility. The lightest Surface dock comes with 20% ocean-bound plastic[[4]](#references) and 99% recyclable packaging that’s free of single-use plastics[[5]](#references).
 
 :::image type="content" source="images/surface-dock/surface-dock-front.png" alt-text="Screenshot showing front of dock. " :::
 
