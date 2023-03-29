@@ -29,9 +29,13 @@ landingContent:
     linkLists:
       - linkListType: how-to-guide
         links:
+          - text: Microsoft Teams Rooms on Windows comes to Surface Hub 2S   
+            url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/surface-hub-2s-now-a-microsoft-teams-rooms-on-windows-device/ba-p/3779970
+          - text: New Teams Rooms licensing requirements
+            url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/new-microsoft-teams-rooms-licensing-requirements-for-surface-hub/ba-p/1669712
           - text: Change display language on Surface Hub
             url: change-language-on-surface-hub.md
-          - text: Surface Hub & Microsoft Teams Rooms automated setup guide (requires M365 authentication)
+          - text: Surface Hub & Teams Rooms automated setup guide (requires M365 authentication)
             url: https://go.microsoft.com/fwlink/?linkid=2221605
           - text: Install Windows 10 Team 2022 Update 
             url: surface-hub-2022-update.md 
@@ -39,7 +43,7 @@ landingContent:
             url:  install-pwa-surface-hub.md 
           - text: Install & manage Surface Hub 2 Smart Camera
             url: surface-hub-2-smart-camera.md       
-          - text: Microsoft Teams Rooms on Surface Hub                               
+          - text: Teams Rooms on Surface Hub                               
             url: surface-hub-teams-rooms.md
 
 
@@ -103,9 +107,9 @@ landingContent:
       - linkListType: deploy
         links:
           - url: https://go.microsoft.com/fwlink/?linkid=2222648
-            text: Surface Hub & Microsoft Teams Rooms setup best practices
+            text: Surface Hub & Teams Rooms setup best practices
           - url: /microsoftteams/rooms/coordinated-meetings
-            text: Set up Coordinated Meetings with Microsoft Teams Rooms & Surface Hub 
+            text: Set up Coordinated Meetings with Teams Rooms & Surface Hub 
           - url: surface-hub-2s-adoption-kit.md
             text: Surface Hub 2S adoption & training
           - url: create-and-test-a-device-account-surface-hub.md
