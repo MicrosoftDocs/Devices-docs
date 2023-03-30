@@ -34,6 +34,7 @@ Ethernet adapters with support for WOL:
 - Surface Dock 2
 - Docking Station for Surface 3
 - Docking Station for Surface Pro 3 
+- Surface Thunderbolt™ 4 Dock
 
 Surface devices with support for WOL:
 
@@ -94,3 +95,9 @@ To enable WOL on Surface Studio 2, you must use the following procedure:
 ### To wake from hibernation (S4) or shutdown (S5) 
 
 For devices connected to Surface Dock 2, see [Wake on LAN for Surface Dock 2](wake-on-lan-surface-dock2.md)
+
+## Learn more
+
+- [Wake on LAN for Surface Thunderbolt 4 Dock](wake-on-lan-surface-thunderbolt4-dock.md)
+- [Wake On LAN for Surface Dock 2](wake-on-lan-surface-dock2.md)
+- [System Power States](/windows/win32/power/system-power-states)
