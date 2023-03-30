@@ -1,12 +1,12 @@
 ---
 title: Manage Surface Docks with WMI
-description: This article explains how to use WMI to remotely monitor and manage the latest firmware, policy state, and related data across Surface Dock 2 devices.
+description: This article explains how to use WMI to remotely monitor and manage the latest firmware, policy state, and related data across Surface Dock 2 and Surface Thunderbolt 4 Dock devices.
 ms.prod: surface
 ms.localizationpriority: medium
 author: coveminer
 ms.author: hachidan
 ms.topic: how-to
-ms.date: 10/12/2020
+ms.date: 04/04/2023
 ms.reviewer: dashap
 manager: frankbu
 appliesto:

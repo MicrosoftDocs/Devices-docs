@@ -22,7 +22,7 @@ Surface Dock 2, the next-generation Surface dock, lets users connect external mo
 Surface Dock 2 is designed to simplify IT management, enabling admins to automate firmware updates using Windows Update or centralize updates with internal software distribution tools.
 
 - Surface Enterprise Management Mode (SEMM) enables IT admins to secure ports on Surface Dock 2. For more information, see [Secure Surface Dock 2 ports with Surface Enterprise Management Mode](secure-surface-dock-ports-semm.md).
-- Windows Management Instrumentation (WMI) support enables IT admins to remotely monitor and manage the latest firmware, policy state, and related data across Surface Dock 2 devices. For more information, see [Manage Surface Dock 2 with WMI](surface-dock2-wmi.md).
+- Windows Management Instrumentation (WMI) support enables IT admins to remotely monitor and manage the latest firmware, policy state, and related data across Surface Dock 2 devices. For more information, see [Manage Surface Dock 2 with WMI](surface-dock-wmi.md).
 - Centralize updates on your local network using software distribution tools. [Download Surface Dock 2 Firmware and Drivers](https://www.microsoft.com/download/details.aspx?id=101317).
 
 ## General system requirements

@@ -33,7 +33,7 @@ Salerno helps improve IT efficiency and reduce overhead and support costs throug
 - **Firmware update through Windows Update**. Seamlessly keep your dock up to date with automatic updates or downloadable update driver and firmware packs.
 - **MAC Address Passthrough.** [[6]](#references)Maintain device network identity from one dock to another for ease of management in shared workspaces or dock environments.
 - **Wake on LAN from Modern Standby.** IT admins can remotely wake up devices connected to Salerno and automatically perform management tasks
-- **Windows Management Instrumentation (WMI) support**. IT admins can remotely monitor and manage the latest firmware, policy settings, and related data across Salerno devices. For more information, see [Manage Surface Dock with WMI](/surface/surface-dock2-wmi)
+- **Windows Management Instrumentation (WMI) support**. IT admins can remotely monitor and manage the latest firmware, policy settings, and related data across Salerno devices. For more information, see [Manage Surface Dock with WMI](/surface/surface-dock-wmi)
 
 ## General system requirements
 
