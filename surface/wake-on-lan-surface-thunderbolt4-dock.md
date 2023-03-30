@@ -5,22 +5,26 @@ manager: frankbu
 ms.prod: surface-hub
 author: coveminer
 ms.author: hachidan
-ms.topic: troubleshooting
-ms.date: 02/22/2023
+ms.topic: how-to
+ms.date: 04/04/2023
 ms.localizationpriority: medium
+appliesto:
+- Windows 10
+- Windows 11
 ---
-## Wake On LAN with Surface Thunderbolt 4 Dock
+
+# Wake On LAN with Surface Thunderbolt 4 Dock
 
 To keep devices fully up to date, IT admins need to be able to manage devices when they’re not in use, typically during nightly maintenance windows. Surface Thunderbolt™ 4 Dock supports Wake on LAN (WOL) enabling admins to remotely wake up Surface devices.
 
 ## Requirements
 
-Devices must have a wired connection with Salerno and stay connected to AC Power
+Devices must have a wired connection with Surface Thunderbolt™ 4 Dock and stay connected to AC Power.
 
 ## Wake up from Modern Standby via USB-C
 
-Modern Standby starts when the user causes the system to enter sleep, or the device goes to sleep based on the Windows power settings the user has set. For example, the user presses the power button, closes the lid, or selects Sleep from the power button in the Windows Start menu. WOL works by default for Surface devices in Modern Standby mode 
- 
+Modern Standby starts when the user causes the system to enter sleep, or the device goes to sleep based on the Windows power settings the user has set. For example, the user presses the power button, closes the lid, or selects Sleep from the power button in the Windows Start menu. WOL works by default for Surface devices in Modern Standby mode
+
 ### Supported Surface devices
 
 - Surface Laptop 5
