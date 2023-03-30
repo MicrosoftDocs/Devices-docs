@@ -78,11 +78,12 @@ Surface engineering has tested various external monitors, docks, cables, and ada
 
 ## Surface Salerno
 
-Surface Salerno has been tested extensively with popular in-market peripherals to bring you the best docking experience. For host device compatibility with Surface Salerno, refer to the online tech specs.
+Surface Salerno has been tested extensively with popular in-market peripherals to bring you the best docking experience. For host device compatibility with Surface Salerno, refer to [What's new in Surface Dock](surface-dock-whats-new).
 
 ### Monitors
 
-**Note:** We designed Surface Salerno as the optimal dock for Surface devices with USB4®/Thunderbolt™ 4 support. The Thunderbolt 4 connection on a host device supports two 4K external displays at up to 60 Hz (when supported by display).
+> [!NOTE]
+> We designed Surface Salerno as the optimal dock for Surface devices with USB4®/Thunderbolt™ 4 support. The Thunderbolt 4 connection on a host device supports two 4K external displays at up to 60 Hz (when supported by display).
 
 For devices without USB4/Thunderbolt 4 support, the USB-C connection supports one 4K external display at up to 60 Hz (when supported by display). For more details on which Surface devices have USB4/Thunderbolt 4 support, refer to the online tech specs.
  
