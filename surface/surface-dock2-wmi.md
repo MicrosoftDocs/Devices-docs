@@ -1,5 +1,5 @@
 ---
-title: Manage Surface Dock 2 with WMI
+title: Manage Surface Docks with WMI
 description: This article explains how to use WMI to remotely monitor and manage the latest firmware, policy state, and related data across Surface Dock 2 devices.
 ms.prod: surface
 ms.localizationpriority: medium
@@ -7,14 +7,14 @@ author: coveminer
 ms.author: hachidan
 ms.topic: how-to
 ms.date: 10/12/2020
-ms.reviewer: hachidan
+ms.reviewer: dashap
 manager: frankbu
 appliesto:
 - Windows 10
 - Windows 11
 ---
 
-# Manage Surface Dock 2 with WMI
+# Manage Surface Docks with WMI
 
 Windows Management Instrumentation (WMI) support provides a rich set of diagnostic information enabling IT admins to remotely monitor and manage the latest firmware, policy state, and related data across Surface Dock 2 devices. You can use WMI with Windows PowerShell, System Center Operations Manager, and other tools. For more information about WMI, see [Working with WMI](/powershell/scripting/learn/ps101/07-working-with-wmi?&preserve-view=true).
 
@@ -71,7 +71,7 @@ To enable WMI support, go to [Surface Dock 2 Drivers and Firmware](https://www.m
 
 ## Learn more
 
-- [Secure Surface Dock 2 ports with SEMM](secure-surface-dock-ports-semm.md)
+- [Secure Surface Dock ports with SEMM](secure-surface-dock-ports-semm.md)
 - [What's new in Surface Dock 2](surface-dock-whats-new.md)
 - [Device Manager error codes](/windows-hardware/drivers/install/device-manager-error-messages)
 - [Working with WMI](/powershell/scripting/learn/ps101/07-working-with-wmi?&preserve-view=true)

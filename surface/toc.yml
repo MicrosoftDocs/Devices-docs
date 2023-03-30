@@ -166,9 +166,9 @@
         items:
          - name: What's new in Surface Dock 
            href: surface-dock-whats-new.md
-         - name: Manage Surface Dock 2 with WMI
+         - name: Manage Surface Docks with WMI
            href: surface-dock2-wmi.md  
-         - name: Secure Surface Dock 2 ports with SEMM
+         - name: Secure Surface Dock ports with SEMM
            href: secure-surface-dock-ports-semm.md
          - name: Surface Dock 2 Overview
            href: surface-dock2-overview.md          
