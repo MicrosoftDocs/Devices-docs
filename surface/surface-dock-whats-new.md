@@ -128,9 +128,12 @@ Optimize port access, save desk space, and utilize enhanced security capabilitie
 
 ## Connect multiple monitors to devices without USB4/Thunderbolt 4
 
-You can daisy chain monitors by connecting a series of display devices using a wired connection from monitor to monitor in a series, rather than connecting each monitor directly to Surface Thunderbolt 4 Dock.
+You can daisy chain up to 10 monitors by connecting a series of display devices using a wired connection from monitor to monitor in a series, rather than connecting each monitor directly to Surface Thunderbolt 4 Dock.
 
-To daisy chain monitors, you need two or more monitors that support at least **DisplayPort 1.2**. Displays that function as a middle link in the chain must include **DisplayPort** output ports and input ports. You also need a video or graphics card (GPU) on your PC that supports **DisplayPort 1.2 Multi-Stream Transport (MST).**
+To daisy chain monitors, you need two or more monitors that support at least **DisplayPort 1.2** and **Multi-Stream Transport (MST).**. Displays that function as a middle link in the chain must include **DisplayPort** output ports and input ports. You also need a video or graphics card (GPU) on your PC that supports **DisplayPort 1.2** and **MST.**
+
+> [!NOTE]
+> Resolution and refresh rate is reduced when daisy chaining two or more monitors.
 
 **To connect your PC to multiple monitors using DisplayPort MST:**
 
