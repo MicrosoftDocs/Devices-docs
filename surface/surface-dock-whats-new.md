@@ -35,6 +35,9 @@ Surface Thunderbolt 4 Dock helps improve IT efficiency and reduce overhead and s
 - **Wake on LAN from Modern Standby.** IT admins can remotely wake up devices connected to Surface Thunderbolt 4 Dock and automatically perform management tasks
 - **Windows Management Instrumentation (WMI) support**. IT admins can remotely monitor and manage the latest firmware, policy settings, and related data across Surface Thunderbolt 4 Dock devices. For more information, see [Manage Surface Dock with WMI](/surface/surface-dock-wmi)
 
+> [!TIP]
+> Get direct support or warranty service via the [Surface Management Portal](surface-management-portal.md).
+
 ## General system requirements
 
 Surface Thunderbolt 4 Dock is optimized for devices with a USB4/ Thunderbolt 4 port, including the following Surface devices:
@@ -63,9 +66,10 @@ Surface Thunderbolt 4 Dock is compatible with the following Surface devices with
 - Surface Studio 2+ (no charging)
 
 > [!NOTE]
-> USB-C connection supports one 4k external display at up to 60 Hz (when supported by device and display). Or you can “[daisy chain](#connect-multiple-monitors-to-devices-without-usb4thunderbolt-4)” multiple monitors when supported by device and display.
+> USB-C connection supports one 4K external display at up to 60 Hz (when supported by device and display). Or you can “[daisy chain](#connect-multiple-monitors-to-devices-without-usb4thunderbolt-4)” multiple monitors when supported by device and display.
 
-TIP: You can use Surface Thunderbolt 4 Dock with any host PC with USB4/ Thunderbolt 4. Full support for enterprise management and security features is exclusive to Surface devices. Automatic firmware updates via Windows Update only work on Windows-based PCs.
+> [!TIP]
+> You can use Surface Thunderbolt 4 Dock with any host PC with USB4/ Thunderbolt 4. Full support for enterprise management and security features is exclusive to Surface devices. Automatic firmware updates via Windows Update only work on Windows-based PCs.
 
 ## Surface Dock Components
 
