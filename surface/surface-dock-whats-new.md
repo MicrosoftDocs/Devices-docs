@@ -34,9 +34,7 @@ Surface Thunderbolt 4 Dock helps improve IT efficiency and reduce overhead and s
 - **MAC Address Passthrough.** [<sup>6</sup>](#references)Maintain device network identity from one dock to another for ease of management in shared workspaces or dock environments.
 - **Wake on LAN from Modern Standby.** IT admins can remotely wake up devices connected to Surface Thunderbolt 4 Dock and automatically perform management tasks
 - **Windows Management Instrumentation (WMI) support**. IT admins can remotely monitor and manage the latest firmware, policy settings, and related data across Surface Thunderbolt 4 Dock devices. For more information, see [Manage Surface Dock with WMI](/surface/surface-dock-wmi)
-
-> [!TIP]
-> Get direct support or warranty service via the [Surface Management Portal](surface-management-portal.md).
+- **Centralized support & warranty service**. IT admins can get direct support via the [Surface Management Portal](surface-management-portal.md) or [Microsoft Hardware Support Portal](https://admin.microsoft.com/adminportal/home).
 
 ## General system requirements
 
