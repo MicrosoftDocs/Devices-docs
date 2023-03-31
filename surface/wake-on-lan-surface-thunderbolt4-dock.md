@@ -21,7 +21,7 @@ To keep devices fully up to date, IT admins need to be able to manage devices wh
 
 Devices must have a wired connection with Surface Thunderbolt™ 4 Dock and stay connected to AC Power.
 
-## Wake up from Modern Standby via USB-C
+## Wake up from Modern Standby
 
 Modern Standby starts when the user causes the system to enter sleep, or the device goes to sleep based on the Windows power settings the user has set. For example, the user presses the power button, closes the lid, or selects Sleep from the power button in the Windows Start menu. WOL works by default for Surface devices in Modern Standby mode
 

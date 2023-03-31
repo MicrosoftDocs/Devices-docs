@@ -15,7 +15,7 @@ appliesto:
 ---
 # What’s new in Surface Thunderbolt 4 Dock
 
-As the latest generation Surface dock, Salerno delivers ultra-high speed data transfer, built-in enterprise management and security[[1]](#references) and the versatility to connect your most important peripherals.
+As the latest generation Surface dock, Surface Thunderbolt 4 Dock delivers ultra-high speed data transfer, built-in enterprise management and security[[1]](#references) and the versatility to connect your most important peripherals.
 
 - **High-speed USB4®/Thunderbolt™ 4 on USB-C® ports.** Plug in one cable to power your device, connect two 4K monitors at up to 60 Hz[[2]](#references), and transfer data and files at up to 40 Gbps.
 - **The charging power you need for your devices and accessories.** Connect and power your laptop with up to 96 watts of power passthrough for your phone and accessories.[[3]](#references)
@@ -27,17 +27,17 @@ As the latest generation Surface dock, Salerno delivers ultra-high speed data tr
 
 ## Simple management and security from anywhere
 
-Salerno helps improve IT efficiency and reduce overhead and support costs through optimization for Microsoft software.
+Surface Thunderbolt 4 Dock helps improve IT efficiency and reduce overhead and support costs through optimization for Microsoft software.
 
 - **Surface Enterprise Management Mode (SEMM) for Dock**. Designed to easily lock down the ports of your dock in mission-critical environments and restrict functionality to specific devices, enabling organizations to simplify and secure IT management. For more information, see [Secure Surface Dock ports with Surface Enterprise Management Mode](/surface/secure-surface-dock-ports-semm).
 - **Firmware update through Windows Update**. Seamlessly keep your dock up to date with automatic updates or downloadable update driver and firmware packs.
 - **MAC Address Passthrough.** [[6]](#references)Maintain device network identity from one dock to another for ease of management in shared workspaces or dock environments.
-- **Wake on LAN from Modern Standby.** IT admins can remotely wake up devices connected to Salerno and automatically perform management tasks
-- **Windows Management Instrumentation (WMI) support**. IT admins can remotely monitor and manage the latest firmware, policy settings, and related data across Salerno devices. For more information, see [Manage Surface Dock with WMI](/surface/surface-dock-wmi)
+- **Wake on LAN from Modern Standby.** IT admins can remotely wake up devices connected to Surface Thunderbolt 4 Dock and automatically perform management tasks
+- **Windows Management Instrumentation (WMI) support**. IT admins can remotely monitor and manage the latest firmware, policy settings, and related data across Surface Thunderbolt 4 Dock devices. For more information, see [Manage Surface Dock with WMI](/surface/surface-dock-wmi)
 
 ## General system requirements
 
-Salerno is optimized for devices with a USB4/ Thunderbolt 4 port, including the following Surface devices:
+Surface Thunderbolt 4 Dock is optimized for devices with a USB4/ Thunderbolt 4 port, including the following Surface devices:
 
 - Surface Laptop 5
 - Surface Laptop Studio
@@ -47,7 +47,7 @@ Salerno is optimized for devices with a USB4/ Thunderbolt 4 port, including the 
 > [!NOTE]
 > Thunderbolt 4 connection supports two 4K external displays at up to 60 Hz
 
-Salerno is compatible with the following Surface devices with USB-C ports:
+Surface Thunderbolt 4 Dock is compatible with the following Surface devices with USB-C ports:
 
 - Surface Pro 9 with 5G
 - Surface Pro 7+
@@ -65,7 +65,7 @@ Salerno is compatible with the following Surface devices with USB-C ports:
 > [!NOTE]
 > USB-C connection supports one 4k external display at up to 60 Hz (when supported by device and display). Or you can “[daisy chain](#connect-multiple-monitors-to-devices-without-usb4thunderbolt-4)” multiple monitors when supported by device and display.
 
-TIP: You can use Salerno with any host PC with USB4/ Thunderbolt 4. Full support for enterprise management and security features is exclusive to Surface devices. Automatic firmware updates via Windows Update only work on Windows-based PCs.
+TIP: You can use Surface Thunderbolt 4 Dock with any host PC with USB4/ Thunderbolt 4. Full support for enterprise management and security features is exclusive to Surface devices. Automatic firmware updates via Windows Update only work on Windows-based PCs.
 
 ## Surface Dock Components
 
@@ -88,11 +88,11 @@ TIP: You can use Salerno with any host PC with USB4/ Thunderbolt 4. Full support
 
 - 165-W power supply and up to 96-W passthrough to connected PC. Supports 100V-240V.
 
-## Cable Matters Desk Mount for Microsoft Salerno
+## Cable Matters Desk Mount for Microsoft Surface Thunderbolt 4 Dock
 
-Optimize port access, save desk space, and utilize enhanced security capabilities with the Cable Matters Mount, purpose built for Salerno, and Designed for Surface certified.
+Optimize port access, save desk space, and utilize enhanced security capabilities with the Cable Matters Mount, purpose built for Surface Thunderbolt 4 Dock, and Designed for Surface certified.
 
-- Facilitates single-handed interaction with Microsoft Salerno
+- Facilitates single-handed interaction with Microsoft Surface Thunderbolt 4 Dock
 - Improves port access through stabilization
 - Saves desk space through cable management
 - Integrates easily with locking devices for extra security
@@ -101,7 +101,7 @@ Optimize port access, save desk space, and utilize enhanced security capabilitie
 
 ## Compare Surface Docks
 
-| **Feature**                        | Salerno                                                                                                                                             | Surface Dock 2                                                                                      | Surface Dock                                                   |
+| **Feature**                        | Surface Thunderbolt 4 Dock                                                                                                                                             | Surface Dock 2                                                                                      | Surface Dock                                                   |
 | ---------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- |
 | Surface Connect                    | No                                                                                                                                                  | Yes                                                                                                 | Yes                                                            |
 | Optimal host devices               | Surface Laptop 5, Surface Pro 9, Surface Pro 8, Surface Laptop Studio                                                                               | Surface Pro 9 with 5G, Surface Laptop 4, Surface Laptop Go 2, Surface Go 3                          | Surface Go, Surface Laptop 2, Surface Laptop 3, Surface Pro 7+ |
@@ -126,7 +126,7 @@ Optimize port access, save desk space, and utilize enhanced security capabilitie
 
 ## Connect multiple monitors to devices without USB4/Thunderbolt 4
 
-You can daisy chain monitors by connecting a series of display devices using a wired connection from monitor to monitor in a series, rather than connecting each monitor directly to Salerno.
+You can daisy chain monitors by connecting a series of display devices using a wired connection from monitor to monitor in a series, rather than connecting each monitor directly to Surface Thunderbolt 4 Dock.
 
 To daisy chain monitors, you need two or more monitors that support at least **DisplayPort 1.2**. Displays that function as a middle link in the chain must include **DisplayPort** output ports and input ports. You also need a video or graphics card (GPU) on your PC that supports **DisplayPort 1.2 Multi-Stream Transport (MST).**
 
