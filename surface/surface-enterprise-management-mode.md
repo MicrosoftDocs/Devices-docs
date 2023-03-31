@@ -72,7 +72,7 @@ You can use Microsoft Surface UEFI Configurator to:
 These packages contain a configuration file that specifies the UEFI settings. SEMM packages also contain a certificate that's installed and stored in firmware and is used to verify the signature of configuration files before UEFI settings are applied.
 
 >[!TIP]
->You can now use Surface UEFI Configurator and SEMM to manage ports on Surface Dock 2. To learn more, see [Secure Surface Dock ports with SEMM](secure-surface-dock-ports-semm.md).
+>You can now use Surface UEFI Configurator and SEMM to manage ports on Surface Dock 2 or Surface Thunderbolt 4 Dock. To learn more, see [Secure Surface Dock ports with SEMM](secure-surface-dock-ports-semm.md).
 
 ![Microsoft Surface UEFI Configurator.](images/surface-ent-mgmt-fig1-uefi-configurator.png "Microsoft Surface UEFI Configurator")
 
@@ -426,4 +426,4 @@ This version of SEMM includes:
 
 - [Enroll and configure Surface devices with SEMM](enroll-and-configure-surface-devices-with-semm.md)
 - [Unenroll Surface devices from SEMM](unenroll-surface-devices-from-semm.md)
-- [Secure Surface Dock 2 ports with SEMM](secure-surface-dock-ports-semm.md)
+- [Secure Surface Dock ports with SEMM](secure-surface-dock-ports-semm.md)
