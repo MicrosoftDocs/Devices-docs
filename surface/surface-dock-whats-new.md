@@ -1,5 +1,5 @@
 ---
-title: What’s new in Surface Dock 
+title: What’s new in Surface Thunderbolt 4 Dock
 description: This article highlights new features and functionality for the next generation Surface Dock.
 ms.prod: surface
 ms.localizationpriority: medium
@@ -13,7 +13,7 @@ appliesto:
 - Windows 10
 - Windows 11
 ---
-# What’s new in Surface Dock
+# What’s new in Surface Thunderbolt 4 Dock
 
 As the latest generation Surface dock, Salerno delivers ultra-high speed data transfer, built-in enterprise management and security[[1]](#references) and the versatility to connect your most important peripherals.
 
