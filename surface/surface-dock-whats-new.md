@@ -130,7 +130,7 @@ Optimize port access, save desk space, and utilize enhanced security capabilitie
 
 You can daisy chain up to 10 monitors by connecting a series of display devices using a wired connection from monitor to monitor in a series, rather than connecting each monitor directly to Surface Thunderbolt 4 Dock.
 
-To daisy chain monitors, you need two or more monitors that support at least **DisplayPort 1.2** and **Multi-Stream Transport (MST).**. Displays that function as a middle link in the chain must include **DisplayPort** output ports and input ports. You also need a video or graphics card (GPU) on your PC that supports **DisplayPort 1.2** and **MST.**
+To daisy chain monitors, you need two or more monitors that support at least **DisplayPort 1.2** and **Multi-Stream Transport (MST).** Displays that function as a middle link in the chain must include **DisplayPort** output ports and input ports. You also need a video or graphics card (GPU) on your PC that supports **DisplayPort 1.2** and **MST.**
 
 > [!NOTE]
 > Resolution and refresh rate is reduced when daisy chaining two or more monitors.
@@ -141,11 +141,10 @@ To daisy chain monitors, you need two or more monitors that support at least **D
 2. Connect the **DisplayPort-Out** connection on the first monitor to the **DisplayPort-In** connection on the second monitor. To daisy chain more than two monitors, follow a similar sequence: The first monitor connects to the second, the second monitor connects to the third, and so on.
 3. Use the On-Screen Display (OSD) menu, to enable **DisplayPort 1.2** on your monitor. To learn more, refer to the user manual of your monitor.
 
-### Next steps
+### Learn more
 
 - [Secure Surface Dock ports with Surface Enterprise Management Mode](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/secure-surface-dock-2-ports-with-surface-enterprise-management/ba-p/1418999)
-- [Surface Enterprise Management Mode](/surface/surface-enterprise-management-mode)
-- [Best practice power settings for Surface devices](/surface/maintain-optimal-power-settings-on-surface-devices)
+- [Wake On LAN with Surface Thunderbolt 4 Dock](wake-on-lan-surface-thunderbolt4-dock.md)
 
 ### References
 
