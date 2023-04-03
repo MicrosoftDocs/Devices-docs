@@ -21,6 +21,7 @@ Windows Management Instrumentation (WMI) support provides a rich set of diagnost
 ## Enable WMI support
 
 Go to Surface Dock Drivers and Firmware and download the appropriate package:
+
 **SurfaceDock_WmiInstanceProvider_Win10_Win11_19041_23.021.21048.0_x64.msi**
 
 - Surface Pro (fifth generation and later)
