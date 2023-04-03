@@ -64,7 +64,7 @@ Surface Thunderbolt 4 Dock is compatible with the following Surface devices with
 - Surface Studio 2+ (no charging)
 
 > [!NOTE]
-> USB-C connection supports one 4K external display at up to 60 Hz (when supported by device and display). Or you can “[daisy chain](#connect-multiple-monitors-to-devices-without-usb4thunderbolt-4)” multiple monitors when supported by device and display.
+> USB-C connection supports one 4K external display at up to 60 Hz (when supported by device and display). Or you can daisy chain more monitors, as described in the section on this page: [Connect multiple monitors to devices without USB4/Thunderbolt 4.](#connect-multiple-monitors-to-devices-without-usb4thunderbolt-4)
 
 > [!TIP]
 > You can use Surface Thunderbolt 4 Dock with any host PC with USB4/ Thunderbolt 4. Full support for enterprise management and security features is exclusive to Surface devices. Automatic firmware updates via Windows Update only work on Windows-based PCs.
