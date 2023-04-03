@@ -159,7 +159,7 @@ To daisy chain monitors, you need two or more monitors that support at least **D
 
 ### Learn more
 
-- [Secure Surface Dock ports with Surface Enterprise Management Mode](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/secure-surface-dock-2-ports-with-surface-enterprise-management/ba-p/1418999)
+- [Secure Surface Dock ports with Surface Enterprise Management Mode](secure-surface-dock-ports-semm.d)
 - [Wake On LAN with Surface Thunderbolt 4 Dock](wake-on-lan-surface-thunderbolt4-dock.md)
 
 ### References
