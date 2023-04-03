@@ -71,7 +71,7 @@ Surface Thunderbolt 4 Dock is compatible with the following Surface devices with
 
 ## Components
 
-:::image type="content" source="images/surface-dock/frontdockdiagram.png" alt-text="Screenshot front facing view of components. " :::
+:::image type="content" source="images/surface-dock/frontdockdiagram.png" alt-text="Screenshot front facing view of components." :::
 *Front facing view*
 
 :::image type="content" source="images/surface-dock/reardockdiagram.png " alt-text="Screenshot showing rear facing view of components." :::
