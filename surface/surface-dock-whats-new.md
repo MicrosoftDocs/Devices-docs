@@ -18,8 +18,8 @@ appliesto:
 As the latest generation Surface dock, Surface Thunderbolt 4 Dock delivers ultra-high speed data transfer, built-in enterprise management and security[<sup>1</sup>](#references) and the versatility to connect your most important peripherals.
 
 - **High-speed USB4®/Thunderbolt™ 4 on USB-C® ports.** Plug in one cable to power your device, connect two 4K monitors at up to 60 Hz[<sup>2</sup>](#references), and transfer data and files at up to 40 Gbps.
-- **The charging power you need for your devices and accessories.** Connect and power your laptop with up to 96 watts of power passthrough for your phone and accessories.[<sup>3</sup>](#references)
-- **Inclusive design with recycled materials.** Quickly access ports with raised tactile indicators for greater accessibility. The lightest Surface dock comes with 20% ocean-bound plastic[<sup>4</sup>](#references) and 99% recyclable packaging that’s free of single-use plastics[<sup>5</sup>](#references).
+- **The charging power you need for your devices and accessories.** Connect and power your laptop with up to 96 watts of power passthrough and extra charging power for your phone and accessories.[<sup>3</sup>](#references)
+- **More inclusive design with recycled materials.** Quickly access ports with raised tactile indicators for greater accessibility. The lightest Surface dock is made with recycled materials and the dock and PSU enclosures (excluding the AC cable) are attributed to 20% ocean-bound plastic.[<sup>4</sup>](#references) The packaging is ~99% recyclable in OECD countries and free of single-use plastics. The lightest Surface dock comes with 20% ocean-bound plastic and 99% recyclable packaging that’s free of single-use plastics[<sup>5</sup>](#references).
 
 :::image type="content" source="images/surface-dock/surface-dock-front.png" alt-text="Screenshot showing front of dock. " :::
 
@@ -169,7 +169,7 @@ To daisy chain monitors, you need two or more monitors that support at least **D
 2. When supported by device and display.
 3. USB-C® port doesn't charge your Surface device or any  device that requires more than 15 W.
 4. Ocean-bound plastic is plastic waste recovered from oceans and waterways, cleaned, and processed into recycled plastic resin pellets. These recycled pellets are blended in with virgin plastic during the manufacturing process.
-5. In OECD countries, Microsoft operates recycling programs either independently or through third parties covering Microsoft Devices.
+5. In OECD countries, Microsoft operates recycling programs either independently or through third parties covering Microsoft Devices. In addition, check local recycling programs for availability.
 6. Requires device with USB4®/Thunderbolt™ 4 port
 7. Requires device with USB 4 Thunderbolt 4.
 8. Software license required for some features. Sold separately.
