@@ -19,7 +19,7 @@ As the latest generation Surface dock, Surface Thunderbolt™ 4 Dock delivers ul
 
 - **High-speed USB4®/Thunderbolt 4 on USB-C® ports.** Plug in one cable to power your device, connect two 4K monitors at up to 60 Hz[<sup>2</sup>](#references), and transfer data and files at up to 40 Gbps.
 - **The charging power you need for your devices and accessories.** Connect and power your laptop with up to 96 watts of power passthrough and extra charging power for your phone and accessories.[<sup>3</sup>](#references)
-- **More inclusive design with recycled materials.** Quickly access ports with raised tactile indicators for greater accessibility. The lightest Surface dock is made with recycled materials and the dock and PSU enclosures (excluding the AC cable) are attributed to 20% ocean-bound plastic.[<sup>4</sup>](#references) The packaging is ~99% recyclable in OECD countries and free of single-use plastics. The lightest Surface dock comes with 20% ocean-bound plastic and 99% recyclable packaging that’s free of single-use plastics[<sup>5</sup>](#references).
+- **More inclusive design with recycled materials.** Quickly access ports with raised tactile indicators for greater accessibility. The lightest Surface dock and PSU enclosures (excluding the AC cable) are attributed to 20% ocean-bound plastic.[<sup>4</sup>](#references) The packaging is ~99% recyclable in OECD countries and free of single-use plastics. The lightest Surface dock comes with 20% ocean-bound plastic and 99% recyclable packaging that’s free of single-use plastics[<sup>5</sup>](#references).
 
 :::image type="content" source="images/surface-dock/surface-dock-front.png" alt-text="Screenshot showing front of dock. " :::
 
