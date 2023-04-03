@@ -69,11 +69,13 @@ Surface Thunderbolt 4 Dock is compatible with the following Surface devices with
 > [!TIP]
 > You can use Surface Thunderbolt 4 Dock with any host PC with USB4/ Thunderbolt 4. Full support for enterprise management and security features is exclusive to Surface devices. Automatic firmware updates via Windows Update only work on Windows-based PCs.
 
-## Surface Dock Components
+## Components
 
 :::image type="content" source="images/surface-dock/frontdockdiagram.png" alt-text="Screenshot front facing view of components. " :::
+*Front facing view*
 
 :::image type="content" source="images/surface-dock/reardockdiagram.png " alt-text="Screenshot showing rear facing view of components." :::
+*Rear facing view*
 
 ### USB
 
