@@ -20,7 +20,9 @@ Windows Management Instrumentation (WMI) support provides a rich set of diagnost
 
 ## Enable WMI support
 
-Go to [Surface Dock Drivers and Firmware](https://aka.ms/manage-dock) and download the appropriate package:
+### Surface Thunderbolt 4 Dock
+
+Go to [Surface Thunderbolt 4 Dock Firmware and Drivers](https://www.microsoft.com/download/details.aspx?id=105115) and download the appropriate package:
 
 **SurfaceDock_WmiInstanceProvider_Win10_Win11_19041_23.021.21048.0_x64.msi**
 
@@ -34,6 +36,13 @@ Go to [Surface Dock Drivers and Firmware](https://aka.ms/manage-dock) and downlo
 
 - Surface Pro 9 with 5G
 - Surface Pro X
+
+### Surface Dock 2 
+
+Download [Surface Dock 2 Firmware and Drivers](https://www.microsoft.com/download/details.aspx?id=101317) and download the appropriate package:
+
+- **SurfaceDock2_WmiInstanceProvider_Win10_17763_20.072.32423.0_x64.msi**
+- **SurfaceDock2_WmiInstanceProvider_Win10_17763_20.072.32491.0_arm64.msi**
 
 ## Using WMI with Surface Dock
 
