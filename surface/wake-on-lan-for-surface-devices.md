@@ -1,6 +1,6 @@
 ---
 title: Wake On LAN for Surface devices
-description: Surface devices that run Windows 10, version 1607 or later and use a Surface Ethernet adapter to connect to a wired network are capable of Wake On LAN (WOL) from Modern Standby.
+description: Surface devices that use a Surface Ethernet adapter to connect to a wired network are capable of Wake On LAN (WOL) from Modern Standby.
 ms.prod: surface
 ms.localizationpriority: medium
 author: coveminer
@@ -8,13 +8,13 @@ ms.author: hachidan
 ms.topic: how-to
 ms.reviewer: jesko
 manager: frankbu
-ms.date: 11/30/2021
+ms.date: 04/04/2023
 appliesto:
 - Windows 10
 - Windows 11
 ---
 
-# Wake On LAN for Surface devices 
+# Wake On LAN for Surface devices
 
 Surface devices are capable of Wake On LAN (WOL) from Modern Standby (also known as Connected Standby). With WOL, IT admins can remotely wake up devices and automatically perform management tasks with Microsoft Endpoint Manager or third party solutions.
 
@@ -25,15 +25,17 @@ Surface devices are capable of Wake On LAN (WOL) from Modern Standby (also known
 
 Ethernet adapters with support for WOL:
 
+- Surface Thunderbolt™ 4 Dock
+- Surface Dock 2
+- Surface Dock
 - Microsoft USB-C Travel Hub
 - Surface Ethernet adapter
 - Surface USB-C to Ethernet and USB 3.0 Adapter
-- Surface USB 3.0 Gigabit Ethernet Adapter 
-- Surface Docking Station for Surface Pro 3 
-- Surface Dock
-- Surface Dock 2
+- Surface USB 3.0 Gigabit Ethernet Adapter
+- Surface Docking Station for Surface Pro 3
 - Docking Station for Surface 3
-- Docking Station for Surface Pro 3 
+- Docking Station for Surface Pro 3
+
 
 Surface devices with support for WOL:
 
@@ -60,7 +62,7 @@ Surface devices with support for WOL:
 - Surface Studio 2+
 
 
-## Using WOL 
+## Using WOL
 
 When not in use, Surface devices enter an idle, low-powered state known as Modern Standby or Connected Standby. IT admins can remotely trigger devices using a wake request (magic packet) that contains the Media Access Control (MAC) address of the target Surface device. The destination network interface card (NIC) compares the MAC address with its own before waking up the device. If the MAC address in the magic packet wake request doesn't match the MAC address on the destination NIC, the NIC won’t wake up the device. To learn more, review [Wake sources documentation](/windows-hardware/design/device-experiences/modern-standby-wake-sources).
 
@@ -91,6 +93,12 @@ To enable WOL on Surface Studio 2, you must use the following procedure:
 > If you upgrade the version of Windows 10 on your Surface Studio 2 (for example, you upgrade from Windows 10 20H2 to 21H1), you will need to follow these instructions again to enable WOL.
 
 
-### To wake from hibernation (S4) or shutdown (S5) 
+### To wake from hibernation (S4) or shutdown (S5)
 
 For devices connected to Surface Dock 2, see [Wake on LAN for Surface Dock 2](wake-on-lan-surface-dock2.md)
+
+## Learn more
+
+- [Wake on LAN for Surface Thunderbolt 4 Dock](wake-on-lan-surface-thunderbolt4-dock.md)
+- [Wake On LAN for Surface Dock 2](wake-on-lan-surface-dock2.md)
+- [System Power States](/windows/win32/power/system-power-states)
