@@ -4,7 +4,6 @@ ms.author: alyee
 author: coveminer
 manager: frankbu
 ms.date: 04/19/2022
-
 ms.topic: how-to
 ms.prod: surface
 localization_priority: high
@@ -63,6 +62,7 @@ For a list of supported post codes, see "Next business day coverage" where appli
 - [Singapore](#singapore)
 - [Slovakia](#slovakia)
 - [Slovenia](#slovenia)
+- [South Africa](#south-africa)
 - [South Korea](#south-korea)
 - [Spain](#spain)
 - [Sweden](#sweden)
