@@ -52,6 +52,7 @@ For a list of supported post codes, see "Next business day coverage" where appli
 - [Latvia](#latvia)
 - [Lithuania](#lithuania)
 - [Luxembourg](#luxembourg)
+- [Malaysia](#malaysia)
 - [Malta](#malta)
 - [Mexico](#mexico)
 - [New Zealand](#new-zealand)
@@ -62,9 +63,12 @@ For a list of supported post codes, see "Next business day coverage" where appli
 - [Singapore](#singapore)
 - [Slovakia](#slovakia)
 - [Slovenia](#slovenia)
+- [South Korea](#south-korea)
 - [Spain](#spain)
 - [Sweden](#sweden)
 - [Switzerland](#switzerland)
+- [Taiwan](#taiwan)
+- [Thailand](#thailand)
 - [The Netherlands](#the-netherlands)
 - [United Kingdom](#united-kingdom)
 - [United States](#united-states)
@@ -179,6 +183,11 @@ For a list of supported post codes, see "Next business day coverage" where appli
 - Cutoff Time: 12:00 CET (UTC+1)
 - [Next business day coverage](https://download.microsoft.com/download/5/c/0/5c049363-70e8-467d-96f6-d9c96096745b/NBD_Coverage_LuxembourgPostCodes_030321.xlsx)
 
+#### Malaysia
+
+- Cutoff Time: 2:00 PM MST (UTC +8:00)
+- [Next business day coverage](https://download.microsoft.com/download/d/7/f/d7f1160e-0d9b-4606-9574-1e97e7b18664/MY%20NBD%20Zipcode%20list-Aug%202021.xlsx)
+
 #### Malta
 
 - Cutoff Time: 12:00 CET (UTC+1)
@@ -192,7 +201,7 @@ For a list of supported post codes, see "Next business day coverage" where appli
 #### New Zealand
 
 - Cutoff Time: 14:00 NZST (UTC+12)
-- [Next business day coverage](https://download.microsoft.com/download/8/f/0/8f0945d8-7c13-4a92-9758-4a663ae432c4/NBD_Coverage_NewZealandPostCodes_062922.xlsx)
+- [Next business day coverage](https://download.microsoft.com/download/d/7/f/d7f1160e-0d9b-4606-9574-1e97e7b18664/NBD%20Coverage%20-%20New%20Zealand%20Post%20Codes%20Nov%202022.xlsx)
 
 #### Norway
 
@@ -230,6 +239,16 @@ For a list of supported post codes, see "Next business day coverage" where appli
 - Cutoff Time: 12:00 CET (UTC+1)
 - [Next business day coverage](https://download.microsoft.com/download/c/4/4/c4436f03-1c81-487b-9e43-e002292ebe28/NBD_Coverage_SloveniaPostCodes_030222.xlsx)
 
+#### South Africa
+
+- Cutoff Time: 2:00 PM SAST (UTC +2:00)
+- [Next business day coverage](https://download.microsoft.com/download/d/7/f/d7f1160e-0d9b-4606-9574-1e97e7b18664/ZA%20Postal%20Codes%20(pre%201700).xlsx)
+
+#### South Korea
+
+- Cutoff Time: 2:00 PM KST (UTC +9:00)
+- [Next business day coverage](https://download.microsoft.com/download/d/7/f/d7f1160e-0d9b-4606-9574-1e97e7b18664/KR%20NBD%20Zipcode%20list-Aug%202021.xlsx)
+
 #### Spain
 
 - Cutoff Time: 12:00 CET (UTC+1)
@@ -244,6 +263,16 @@ For a list of supported post codes, see "Next business day coverage" where appli
 
 - Cutoff Time: 12:00 CET (UTC+1)
 - [Next business day coverage](https://download.microsoft.com/download/e/6/9/e69789ca-4617-4b23-afb2-09529f320de3/NBD%20Coverage%20-%20Switzerland%20Post%20Codes%20030321%20update.xlsx)
+
+#### Taiwan
+
+- Cutoff Time: 1:00 PM NST (UTC +8:00)
+- [Next business day coverage](https://download.microsoft.com/download/d/7/f/d7f1160e-0d9b-4606-9574-1e97e7b18664/TW%20NBD%20Postal%20code%20list.xlsx)
+
+#### Thailand
+
+- Cutoff Time: 2:00 PM ICT (UTC +7:00)
+- [Next business day coverage](https://download.microsoft.com/download/d/7/f/d7f1160e-0d9b-4606-9574-1e97e7b18664/TH%20NBD%20Zipcode%20list-Aug%202021.xlsx)
 
 #### The Netherlands
 
