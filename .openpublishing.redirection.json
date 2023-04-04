@@ -219,6 +219,11 @@
             "source_path":  "surface-hub/set-up-your-surface-hub.md",
             "redirect_url":  "/surface-hub/first-run-program-surface-hub",
             "redirect_document_id":  false
+        },
+        {
+            "source_path":  "surface/surface-dock2-wmi.md",
+            "redirect_url":  "/surface/surface-dock-wmi",
+            "redirect_document_id":  false
         }
     ]
 }

@@ -9,6 +9,8 @@
       items: 
       - name: Technical overviews
         items:
+         - name: What's new in Surface Thunderbolt 4 Dock
+           href: surface-dock-whats-new.md
          - name: Surface Pro 9 overview
            href: surface-pro-9-overview.md
          - name: Surface Laptop 5 overview
@@ -28,7 +30,9 @@
          - name: Surface Laptop 4 processors tech overview
            href: surface-laptop-processors.md
          - name: Surface Headphones 2+ tech overview
-           href: surface-headphones.md                    
+           href: surface-headphones.md           
+         - name: Surface Dock 2 Overview
+           href: surface-dock2-overview.md
       - name: Surface professional graphics
         items: 
          - name: Surface Laptop Studio graphics overview
@@ -160,18 +164,26 @@
           href: advanced-uefi-security-features-for-surface-pro-3.md 
       - name: Surface Dock
         items:
-         - name: What's new in Surface Dock 2
+         - name: What's new in Surface Thunderbolt 4 Dock
            href: surface-dock-whats-new.md
-         - name: Manage Surface Dock 2 with WMI
+         - name: Manage Surface Docks with WMI
            href: surface-dock2-wmi.md  
-         - name: Secure Surface Dock 2 ports with SEMM
+         - name: Secure Surface Dock ports with SEMM
            href: secure-surface-dock-ports-semm.md
+         - name: Wake On LAN with Surface Thunderbolt 4 Dock
+           href: wake-on-lan-surface-thunderbolt4-dock.md
+         - name: Wake On LAN with Surface Dock 2
+           href: wake-on-lan-surface-dock2.md
+         - name: Surface Dock 2 Overview
+           href: surface-dock2-overview.md          
          - name: Surface Dock 1 Firmware Update
            href: surface-dock-firmware-update.md
       - name: Remotely wake devices
         items: 
         - name: Wake On LAN for Surface devices
           href: wake-on-lan-for-surface-devices.md
+        - name: Wake On LAN with Surface Thunderbolt 4 Dock
+          href: wake-on-lan-surface-thunderbolt4-dock.md
         - name: Wake On LAN with Surface Dock 2
           href: wake-on-lan-surface-dock2.md
         - name: Wake on Power for Surface devices

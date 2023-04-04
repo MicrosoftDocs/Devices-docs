@@ -72,7 +72,7 @@ You can use Microsoft Surface UEFI Configurator to:
 These packages contain a configuration file that specifies the UEFI settings. SEMM packages also contain a certificate that's installed and stored in firmware and is used to verify the signature of configuration files before UEFI settings are applied.
 
 >[!TIP]
->You can now use Surface UEFI Configurator and SEMM to manage ports on Surface Dock 2. To learn more, see [Secure Surface Dock 2 ports with SEMM](secure-surface-dock-ports-semm.md).
+>You can now use Surface UEFI Configurator and SEMM to manage ports on Surface Dock 2 or Surface Thunderbolt 4 Dock. To learn more, see [Secure Surface Dock ports with SEMM](secure-surface-dock-ports-semm.md).
 
 ![Microsoft Surface UEFI Configurator.](images/surface-ent-mgmt-fig1-uefi-configurator.png "Microsoft Surface UEFI Configurator")
 
@@ -142,7 +142,7 @@ The following list shows all the available devices that you can manage in SEMM:
 | Boot Order Lock                    | Allows you to lock the boot order to prevent changes. If you don't configure this setting, Boot Order Lock is disabled.                                                                                                        |
 | USB Boot                           | Allows you to manage booting to USB devices. If you don't configure this setting, USB Boot is enabled.                                                                                                                 |
 | Network Stack                      | Allows you to manage Network Stack boot settings. If you don't configure this setting,  the ability to manage Network Stack boot settings is disabled.                                                                                                           |
-| Auto Power On                      | Allows you to manage Auto Power On boot settings. If you don't configure this setting, Auto Power on is enabled.                                                                                                        |
+| Auto Power On                      | Allows you to manage Auto Power-on boot settings. If you don't configure this setting, Auto Power-on is enabled.                                                                                                        |
 | Simultaneous Multi-Threading (SMT) | Allows you to manage Simultaneous Multi-Threading (SMT) to enable or disable hyperthreading. If you don't configure this setting, SMT is enabled.                                                  |
 | Enable Battery limit               | Allows you to manage Battery limit functionality. If you don't configure this setting, Battery limit is enabled |
 | Security                           | Displays the Surface UEFI **Security** page. If you don't configure this setting, the Security page is displayed.                                                                                                                 |
@@ -426,4 +426,4 @@ This version of SEMM includes:
 
 - [Enroll and configure Surface devices with SEMM](enroll-and-configure-surface-devices-with-semm.md)
 - [Unenroll Surface devices from SEMM](unenroll-surface-devices-from-semm.md)
-- [Secure Surface Dock 2 ports with SEMM](secure-surface-dock-ports-semm.md)
+- [Secure Surface Dock ports with SEMM](secure-surface-dock-ports-semm.md)
