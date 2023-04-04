@@ -170,8 +170,8 @@ To daisy chain monitors, you need two or more monitors that support at least **D
 3. USB-C® port doesn't charge your Surface device or any  device that requires more than 15 W.
 4. Ocean-bound plastic is plastic waste recovered from oceans and waterways, cleaned, and processed into recycled plastic resin pellets. These recycled pellets are blended in with virgin plastic during the manufacturing process.
 5. In OECD countries, Microsoft operates recycling programs either independently or through third parties covering Microsoft Devices. In addition, check local recycling programs for availability.
-6. Requires device with USB4®/Thunderbolt™ 4 port
-7. Requires device with USB 4 Thunderbolt 4.
+6. Requires device with USB4/Thunderbolt 4 port.
+7. Requires device with USB4/Thunderbolt 4 port.
 8. Software license required for some features. Sold separately.
 9. 4K @60 Hz via USB-C requires High Bit Rate 3 (HBR3) support on both display and host computer.
 10. Learn more about Design for Surface and Cable Matters Desk Mount at [Licensed Hardware - Designed for Surface Program](/licensed-hardware/program-designed-for-surface).
