@@ -238,8 +238,6 @@ There are two ways of deploying provisioning packages to a Surface Hub:
 3. The next screen asks you to select a provisioning source. Select **Removable Media** and tap **Next**.
 4. Select the provisioning package (*.ppkg) that you want to apply, and tap **Next**. Note that you can only install one package during first run.
 5. The first-run program will show you a summary of the changes that the provisioning package will apply. Select **Yes, add it**.
-6. If a configuration file is included in the root directory of the USB flash drive, you will see **Select a configuration**. The first device account in the configuration file will be shown with a summary of the account information that will be applied to the Surface Hub.
-7. In **Select a configuration**, select the device name to apply, and then select **Next**.
 
 After the first time the device restarts, remove the USB flash drive. The settings from the provisioning package will be applied to the device and OOBE can be completed.
 
