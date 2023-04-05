@@ -23,7 +23,6 @@ Provisioning packages allow you to automate deployment of key features, helping 
 - Create a device administrator account
 - Add applications and certificates
 - Configure proxy settings
-- Add a Surface Hub configuration file
 - Configure [Configuration Service Provider (CSP) settings](/windows/client-management/mdm/surfacehub-csp)
 
 ## Overview
@@ -98,27 +97,6 @@ You can install multiple Universal Windows Platform (UWP) apps in a provisioning
 
 > [!NOTE]
 > Although Windows Configuration Designer lets you add a Classic Win32 app to a provisioning package, Surface Hub only accepts UWP apps. If you include a Classic Win32 app, provisioning will fail.
-
-### Add a configuration file
-
-In addition to this provisioning package, you can use a Surface Hub configuration file to make it even easier to set up your devices. A Surface Hub configuration file contains a list of device accounts for connecting to Exchange, Microsoft Teams, or Skype for Business, as well as "friendly names" for wireless projection.
-
-**To create a Surface Hub configuration file:**
-
-1. Open Microsoft Excel (or other .csv editor), create a .csv file named _SurfaceHubConfiguration.csv_.
-
-2. Enter a list of device accounts and friendly names in this format:
-
-    ```
-    <DeviceAccountName>,<DeviceAccountPassword>,<FriendlyName>
-    ```
-    > [!TIP]
-    > The configuration file must not contain column headers. When included in a provisioning package applied to Surface Hub, you can select the account and friendly name for the device from the file. To create the .csv file,  use either a UPN address format (rainier@contoso.com) or down-level logon name format (contoso\rainier).
-
-3. Save the file to your project folder and copy it to the USB key with your provisioning package.
-
-> [!NOTE]
-> The configuration file can only be applied during first run setup.
 
 ### Password protect provisioning package
 
