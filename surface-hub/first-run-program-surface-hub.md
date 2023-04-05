@@ -129,8 +129,7 @@ You can customize first time setup options, allowing you to ensure a consistent 
 1. To begin, review the documentation in [Create provisioning packages](provisioning-packages-for-surface-hub.md) and save the provisioning package to a USB thumb drive.
 2. Insert the USB thumb drive into one of the USB ports when you see the License Agreement page (step 6 in the ["Get started"](#get-started) steps above).
 3. When prompted, choose the provisioning package you'd like to use.
-4. If you created a multiple devices CSV file, you will be able to choose a device configuration.
-6. Follow the rest of the steps, and remove the USB drive at the first reboot that occurs in the setup process.
+4. Follow the rest of the steps, and remove the USB drive at the first reboot that occurs in the setup process.
 
 ## Learn more
 
