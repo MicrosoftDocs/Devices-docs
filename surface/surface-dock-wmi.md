@@ -39,12 +39,24 @@ Go to [Surface Thunderbolt 4 Dock Firmware and Drivers](https://www.microsoft.co
 
 ### Surface Dock 2 
 
-Download [Surface Dock 2 Firmware and Drivers](https://www.microsoft.com/download/details.aspx?id=101317) and download the appropriate package:
+Go to [Surface Dock 2 Firmware and Drivers](https://www.microsoft.com/download/details.aspx?id=101317) and download the appropriate package:
 
-- **SurfaceDock2_WmiInstanceProvider_Win10_17763_20.072.32423.0_x64.msi**
-- **SurfaceDock2_WmiInstanceProvider_Win10_17763_20.072.32491.0_arm64.msi**
+**SurfaceDock2_WmiInstanceProvider_Win10_17763_20.072.32423.0_x64.msi**
+
+- Surface Pro (fifth generation and later)
+- Surface Book (second generation and later)
+- Surface Go (all generations)
+- Surface Laptop (all generations)
+- Surface Laptop Go (all generations)
+
+**SurfaceDock2_WmiInstanceProvider_Win10_17763_20.072.32491.0_arm64.msi**
+
+- Surface Pro 9 with 5G
+- Surface Pro X
 
 ## Using WMI with Surface Dock
+
+The following instructions apply to Surface Dock 2 and Surface Thunderbolt 4 Dock. 
 
 1. To enumerate all dock component instances:
 
