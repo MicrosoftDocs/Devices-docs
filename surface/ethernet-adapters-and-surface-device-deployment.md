@@ -8,10 +8,10 @@ ms.prod: surface
 author: coveminer
 ms.author: hachidan
 ms.topic: how-to
+ms.date: 04/06/2023
 appliesto:
 - Windows 10
 - Windows 11
-ms.date: 06/09/2020
 ---
 
 # Ethernet adapters and Surface deployment
