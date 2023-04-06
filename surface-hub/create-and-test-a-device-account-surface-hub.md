@@ -56,7 +56,7 @@ Device account setup steps can differ based on environment. Select your deployme
 Some Microsoft Exchange properties of the device account must be set to particular values to have the best meeting experience on Microsoft Surface Hub. The following table lists various Exchange properties based on PowerShell cmdlet parameters, their purpose, and the values they should be set to.
 
 > [!TIP]  
-> Automate configuration of recommended Exchange settings via the [Surface Hub and Microsoft Teams Rooms automated setup guide](https://go.microsoft.com/fwlink/?linkid=2221605).
+> You can automatically configure recommended Exchange settings via the [Surface Hub and Microsoft Teams Rooms automated setup guide](https://go.microsoft.com/fwlink/?linkid=2221605).
 
 | Property              | Description          | Value                       | Impact                     |
 | --------------------- | ------------------------------------- | ----------------------------- | ----------------------------------------------------------- |
