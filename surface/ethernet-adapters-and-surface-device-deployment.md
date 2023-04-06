@@ -30,11 +30,12 @@ Booting from the network (PXE boot) is only supported when using an Ethernet ada
 
 The following Ethernet devices are supported for network boot with Surface devices:
 
+- Surface Thunderbolt 4 Dock
+- Surface Dock 2
+- Surface Dock
 - Surface USB-C to Ethernet and USB 3.0 Adapter
 - Surface USB 3.0 to Gigabit Ethernet Adapter
 - Microsoft USB-C Travel Hub
-- Surface Dock
-- Surface Dock 2
 - Docking Station for Surface 3
 - Docking Station for Surface Pro 3 
 - Docking Station for Surface Pro and Surface Pro 2
