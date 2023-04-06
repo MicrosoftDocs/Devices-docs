@@ -51,21 +51,23 @@ Device account setup steps can differ based on environment. Select your deployme
 | [On-premises deployment (single forest)](/skypeforbusiness/deploy/deploy-clients/single-forest-on-premises-deployments) | Your organization has servers that it controls, where Active Directory, Exchange, and Skype for Business Server are hosted in a single-forest environment.  | DOMAIN\username |
 | [On-premises deployment (multiple forests)](/skypeforbusiness/deploy/deploy-clients/multiple-forest-on-premises-deployments) | Your organization has servers that it controls, where Active Directory, Exchange, and Skype for Business Server are hosted in a multi-forest environment. | ACCOUNTFOREST\username |
 
-
 ## Microsoft Exchange properties for device account
 
 Some Microsoft Exchange properties of the device account must be set to particular values to have the best meeting experience on Microsoft Surface Hub. The following table lists various Exchange properties based on PowerShell cmdlet parameters, their purpose, and the values they should be set to.
 
+> [!TIP]  
+> Automate configuration of recommended Exchange settings via the [Surface Hub and Microsoft Teams Rooms automated setup guide](https://go.microsoft.com/fwlink/?linkid=2221605).
+
 | Property              | Description          | Value                       | Impact                     |
 | --------------------- | ------------------------------------- | ----------------------------- | ----------------------------------------------------------- |
 | AutomateProcessing    | The AutomateProcessing parameter enables or disables calendar processing on the mailbox.     | AutoAccept            | Surface Hub will be able to automatically accept or decline meeting requests based on its availability.                                |
-| AddOrganizerToSubject | The AddOrganizerToSubject parameter specifies whether the meeting organizer's name is used as the subject of the meeting request.  | $False | The welcome screen will not show the meeting organizer twice (instead of showing it as both the organizer and in the meeting subject). |
+| AddOrganizerToSubject | The AddOrganizerToSubject parameter specifies whether the meeting organizer's name is used as the subject of the meeting request.  | $False | The welcome screen won't show the meeting organizer twice (instead of showing it as both the organizer and in the meeting subject). |
 | AllowConflicts        | The AllowConflicts parameter specifies whether to allow conflicting meeting requests.   | $False  | Surface Hub will decline meeting requests that conflict with another meeting’s time.    |
 | DeleteComments        | The DeleteComments parameter specifies whether to remove or keep any text in the message body of incoming meeting requests.   | $False    | The message body of meetings can be retained and retrieved from a Surface Hub if you need it during a meeting.                         |
 | DeleteSubject         | The DeleteSubject parameter specifies whether to remove or keep the subject of incoming meeting requests.    | $False     | Meeting request subjects can be shown on the Surface Hub.  |
 | RemovePrivateProperty | The RemovePrivateProperty parameter specifies whether to clear the private flag for incoming meeting requests.     | $False     | Private meeting subjects will show as Private on the welcome screen.       |
 | AddAdditionalResponse | The AddAdditionalResponse parameter specifies whether additional information will be sent from the resource mailbox when responding to meeting requests.    | $True     | When a response is sent to a meeting request, custom text will be provided in the response.     |
-| AdditionalResponse    | The AdditionalResponse parameter specifies the additional information to be included in responses to meeting requests.<br>**Note**  This text will not be sent unless AddAdditionalResponse is set to $True. | Your choice—the additional response can be used to inform people how to use a Surface Hub or point them towards resources. | An additional response message can provide people an introduction to how they can use a Surface Hub in their meeting.                  |
+| AdditionalResponse    | The AdditionalResponse parameter specifies the additional information to be included in responses to meeting requests.<br>**Note**  This text won't be sent unless AddAdditionalResponse is set to $True. | Your choice—the additional response can be used to inform people how to use a Surface Hub or point them towards resources. | An additional response message can provide people an introduction to how they can use a Surface Hub in their meeting.                  |
 
 ## Apply ActiveSync policies to device accounts 
 
@@ -73,7 +75,7 @@ Surface Hubs on Windows 10 Team 1703 and earlier versions used AGctiveSync to sy
 
 The Surface Hub requirements for ActiveSync policies in your organization are as follows:
 
-- There can't be any global policies that block synchronization of the resource mailbox that's being used by the Surface Hub's device account. If there is such a blocking policy, you need to add the Surface Hub as an allowed device.
+- There can't be any global policies that block synchronization of the resource mailbox that's being used by the Surface Hub's device account. If there's such a blocking policy, you need to add the Surface Hub as an allowed device.
 - You must set a mobile device mailbox policy where the **PasswordEnabled** setting is set to False. Other mobile device mailbox policy settings aren't compatible with the Surface Hub.
 
 ## Allowing the DeviceID
