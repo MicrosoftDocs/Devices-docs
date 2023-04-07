@@ -15,7 +15,7 @@ appliesto:
 ---
 # What’s new in Surface Thunderbolt 4 Dock
 
-As the latest generation Surface dock, Surface Thunderbolt™ 4 Dock delivers ultra-high speed data transfer, built-in enterprise management and security[<sup>1</sup>](#references) and the versatility to connect your most important peripherals.
+As the latest generation Surface dock, [Surface Thunderbolt™ 4 Dock](https://www.microsoft.com/d/surface-thunderbolt-4-dock-for-business/8svnb0c8j1qw) delivers ultra-high speed data transfer, built-in enterprise management and security[<sup>1</sup>](#references) and the versatility to connect your most important peripherals.
 
 - **High-speed USB4®/Thunderbolt 4 on USB-C® ports.** Plug in one cable to power your device, connect two 4K monitors at up to 60 Hz[<sup>2</sup>](#references), and transfer data and files at up to 40 Gbps.
 - **The charging power you need for your devices and accessories.** Connect and power your laptop with up to 96 watts of power passthrough and extra charging power for your phone and accessories.[<sup>3</sup>](#references)
@@ -94,7 +94,7 @@ Surface Thunderbolt 4 Dock is compatible with the following Surface devices with
 
 ## Cable Matters Desk Mount for Microsoft Surface Thunderbolt 4 Dock
 
-Optimize port access, save desk space, and use enhanced security capabilities with the Cable Matters Mount, purpose built for Surface Thunderbolt 4 Dock, and Designed for Surface certified.
+Optimize port access, save desk space and use enhanced security capabilities with the [Cable Matters Mount,](https://licensedhardware.azurewebsites.net/surface/product/c33868fb-00d3-ed11-9ac4-281878fc277c/cable-matters-desk-mount-for-microsoft-surface-thunderbolt-4-dock) purpose-built for Surface Thunderbolt 4 Dock and Designed for Surface certified.
 
 - Facilitates single-handed interaction with Microsoft Surface Thunderbolt 4 Dock
 - Improves port access through stabilization
@@ -143,6 +143,11 @@ To daisy chain monitors, you need two or more monitors that support at least **D
 2. Connect the **DisplayPort-Out** connection on the first monitor to the **DisplayPort-In** connection on the second monitor. To daisy chain more than two monitors, follow a similar sequence: The first monitor connects to the second, the second monitor connects to the third, and so on.
 3. Use the On-Screen Display (OSD) menu, to enable **DisplayPort 1.2** on your monitor. To learn more, refer to the user manual of your monitor.
 
+## Place an order
+
+- [Surface Thunderbolt 4 Dock](https://www.microsoft.com/d/surface-thunderbolt-4-dock-for-business/8svnb0c8j1qw)
+- [Cable Matters Desk Mount for Microsoft Surface Thunderbolt 4 Dock](https://licensedhardware.azurewebsites.net/surface/product/c33868fb-00d3-ed11-9ac4-281878fc277c/cable-matters-desk-mount-for-microsoft-surface-thunderbolt-4-dock)
+
 ## Appendix: Surface Dock Thunderbolt 4 tech specs
 
 | Feature           | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
@@ -159,9 +164,11 @@ To daisy chain monitors, you need two or more monitors that support at least **D
 
 ### Learn more
 
+- [Simple management & security with our latest Surface Dock](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/simple-management-amp-security-with-our-latest-surface-dock/ba-p/3784764)
 - [Secure Surface Dock ports with Surface Enterprise Management Mode](secure-surface-dock-ports-semm.md)
 - [Manage Surface Docks with WMI](surface-dock-wmi.md)
 - [Wake On LAN with Surface Thunderbolt 4 Dock](wake-on-lan-surface-thunderbolt4-dock.md)
+- [Surface Thunderbolt 4 Dock Firmware and Drivers](https://www.microsoft.com/download/details.aspx?id=105115)
 
 ### References
 
@@ -173,7 +180,7 @@ To daisy chain monitors, you need two or more monitors that support at least **D
 6. Requires device with USB4/Thunderbolt 4 port.
 7. Software license required for some features. Sold separately.
 8. 4K @ 60 Hz via USB-C requires High Bit Rate 3 (HBR3) support on both display and host computer.
-9. Learn more about Design for Surface and Cable Matters Desk Mount at [Licensed Hardware - Designed for Surface Program](/licensed-hardware/program-designed-for-surface).
+9. Learn more at [Cable Matters Desk Mount for Microsoft Surface Thunderbolt 4 Dock](https://licensedhardware.azurewebsites.net/surface/product/c33868fb-00d3-ed11-9ac4-281878fc277c/cable-matters-desk-mount-for-microsoft-surface-thunderbolt-4-dock).
 10. Surface Enterprise Management Mode for Dock and MAC address passthrough are available on select host devices and supported operating systems.
 11. Ocean-bound plastic is plastic waste recovered from oceans and waterways, cleaned, and processed into recycled plastic resin pellets. These recycled pellets are blended in with virgin plastic during the manufacturing process.
 12. Microsoft’s Limited Warranty is in addition to your consumer law rights.
