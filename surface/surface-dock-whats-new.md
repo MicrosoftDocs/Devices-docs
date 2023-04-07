@@ -173,7 +173,7 @@ To daisy chain monitors, you need two or more monitors that support at least **D
 6. Requires device with USB4/Thunderbolt 4 port.
 7. Software license required for some features. Sold separately.
 8. 4K @ 60 Hz via USB-C requires High Bit Rate 3 (HBR3) support on both display and host computer.
-9. Learn more about Design for Surface and Cable Matters Desk Mount at [Licensed Hardware - Designed for Surface Program](/licensed-hardware/program-designed-for-surface).
+9. Learn more at [Cable Matters Desk Mount for Microsoft Surface Thunderbolt 4 Dock](https://licensedhardware.azurewebsites.net/surface/product/c33868fb-00d3-ed11-9ac4-281878fc277c/cable-matters-desk-mount-for-microsoft-surface-thunderbolt-4-dock).
 10. Surface Enterprise Management Mode for Dock and MAC address passthrough are available on select host devices and supported operating systems.
 11. Ocean-bound plastic is plastic waste recovered from oceans and waterways, cleaned, and processed into recycled plastic resin pellets. These recycled pellets are blended in with virgin plastic during the manufacturing process.
 12. Microsoft’s Limited Warranty is in addition to your consumer law rights.
