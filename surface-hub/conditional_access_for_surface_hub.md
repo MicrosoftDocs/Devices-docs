@@ -79,10 +79,9 @@ Navigate to your organization's Conditional Access policies within Endpoint Mana
 Select each Conditional Access policy and review its **Assignments** and **Access Controls**. Use the requirements listed above to determine if the policy is compatible with the Surface Hub.
 If not, the device account needs to be Excluded from such policies in order to sign-in.
  
+![](images/conditional-access-review-policies.gif)
 >[!NOTE]
 >Policies in *On* or *Report Only* states can affect the Surface Hub device account.
-
-![](images/conditional-access-review-policies.gif)
 
 ### Step 3 ###
 ## Exclude device account from unsupported Conditional Access policies ##
