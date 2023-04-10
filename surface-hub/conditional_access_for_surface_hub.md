@@ -15,7 +15,7 @@ ms.localizationpriority: medium
 
 # Conditional Access for Surface Hub
 
-## What it Conditional Access? ##
+## What is Conditional Access? ##
 [Conditional Access](https://learn.microsoft.com/azure/active-directory/conditional-access/overview) is an Azure Active Directory (Azure AD) feature that allows organizations to configure policies to grant or block access to corporate resources. These policies are if-then statements, of [Assignments](https://learn.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-policies#assignments) and [Access controls](https://learn.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-policies#access-controls). If incompatible Conditional Access policies are enforced on the Surface Hub device account, you may experience one or more of the following issues:
 
 - Unable to add the device account to the Surface Hub
