@@ -94,10 +94,10 @@ Due to the limited number of policies the Surface Hub device account supports, i
  
 Here's a [video](https://www.youtube.com/watch?v=5DsW1hB3Jqs&ab_channel=MicrosoftSecurity) demonstrating how to exclude user accounts from a Conditional Access policy.
 
+![Image showing how to exclude the Surface Hub device account from a Conditional Access policy](images/conditional-access-exclude-device-account.png)
+
 >[!IMPORTANT]
 >Select the Surface Hub device account **user** object, not the Surface Hub **device** object.
- 
-![Image showing how to exclude the Surface Hub device account from a Conditional Access policy](images/conditional-access-exclude-device-account.png)
 
 More troubleshooting details and examples of incompatible Conditional Access policies can be found in the How To: Troubleshoot Surface Hub Conditional Access page.
 
