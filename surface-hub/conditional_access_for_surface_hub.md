@@ -73,8 +73,6 @@ Navigate to your tenant's Conditional Access policies within Endpoint Manager. T
 1. Sign into the [Endpoint Manager portal](https://endpoint.microsoft.com/#home)
 2. Go to **Devices > Conditional Access**
 
-:::image type="content" source="images/conditional-access-policies.png" alt-text="Image showing where to locate a tenant's ![](images/conditional-access-policies.png)
-
 ![Image showing where to locate a tenant's Conditional Access policies](images/conditional-access-policies.png)
 
 ### Step 2 ###
