@@ -16,7 +16,7 @@ ms.localizationpriority: medium
 # Troubleshoot Azure Sign-in Logs for Surface Hub
 
 ## What are Azure sign-in logs? ##
-Azure [sign-in logs](azure/active-directory/reports-monitoring/concept-sign-ins) provide information on successful and failed sign-in attempts that occur within an Azure AD tenant. The Azure sign-in logs provide a detailed view of all sign-in activities for an account. When sign-in issues are encountered on the Surface Hub, an IT administrator can review these logs to see if any interrupts or failures are seen. Common reasons these logs are helpful for troubleshooting Surface Hub issues include:
+Azure [sign-in logs](/azure/active-directory/reports-monitoring/concept-sign-ins) provide information on successful and failed sign-in attempts that occur within an Azure AD tenant. The Azure sign-in logs provide a detailed view of all sign-in activities for an account. When sign-in issues are encountered on the Surface Hub, an IT administrator can review these logs to see if any interrupts or failures are seen. Common reasons these logs are helpful for troubleshooting Surface Hub issues include:
 
 - Unable to add the device account to the Surface Hub
 - Device account no longer syncing with Exchange Online
@@ -26,7 +26,7 @@ Azure [sign-in logs](azure/active-directory/reports-monitoring/concept-sign-ins)
 If you're experiencing sign-in issues with the Surface Hub device account or personal user sign-in, follow the troubleshooting steps on this page.
  
 ## View sign-in logs ##
-To access the Azure sign-in logs for a tenant, a user must have the necessary [role](azure/active-directory/reports-monitoring/concept-all-sign-ins#how-do-you-access-the-sign-in-logs) assigned.
+To access the Azure sign-in logs for a tenant, a user must have the necessary [role](/azure/active-directory/reports-monitoring/concept-all-sign-ins#how-do-you-access-the-sign-in-logs) assigned.
 
 1. Sign into the [Azure portal](https://portal.azure.com/)
 2. Go to **Azure Active Directory** > **Users**
@@ -59,7 +59,7 @@ Selecting the Conditional Access tab reveals the policy that is enforcing MFA on
 
 Follow the guidance on [Conditional Access for Surface Hub](conditional_access_for_surface_hub.md) to better understand the requirements for the device, and how to [exclude](conditional_access_for_surface_hub.md#exclude-device-account-from-unsupported-conditional-access-policies) the device account from unsupported policies.
  
-Additional details on how to view and analyze the Azure sign-in logs can be found on the [Sign-in logs in Azure Active Directory](azure/active-directory/reports-monitoring/concept-all-sign-ins) page.
+Additional details on how to view and analyze the Azure sign-in logs can be found on the [Sign-in logs in Azure Active Directory](/azure/active-directory/reports-monitoring/concept-all-sign-ins) page.
 
 
 
