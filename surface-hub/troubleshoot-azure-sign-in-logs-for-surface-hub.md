@@ -16,7 +16,7 @@ ms.localizationpriority: medium
 # Troubleshoot Azure Sign-in Logs for Surface Hub
 
 ## What are Azure sign-in logs? ##
-Azure [sign-in logs](/azure/active-directory/reports-monitoring/concept-sign-ins) provide information on successful and failed sign-in attempts that occur within an Azure AD tenant. The Azure sign-in logs provide a detailed view of all sign-in activities for an account. When sign-in issues are encountered on the Surface Hub, an IT administrator can review these logs to see if any interrupts or failures are seen. Common reasons these logs are helpful for troubleshooting Surface Hub issues include:
+Azure [sign-in logs](azure/active-directory/reports-monitoring/concept-sign-ins) provide information on successful and failed sign-in attempts that occur within an Azure AD tenant. The Azure sign-in logs provide a detailed view of all sign-in activities for an account. When sign-in issues are encountered on the Surface Hub, an IT administrator can review these logs to see if any interrupts or failures are seen. Common reasons these logs are helpful for troubleshooting Surface Hub issues include:
 
 - Unable to add the device account to the Surface Hub
 - Device account no longer syncing with Exchange Online
