@@ -16,7 +16,7 @@ ms.localizationpriority: medium
 # Conditional Access for Surface Hub
 
 ## What is Conditional Access? ##
-[Conditional Access](https://learn.microsoft.com/azure/active-directory/conditional-access/overview) is an Azure Active Directory (Azure AD) feature that allows organizations to configure policies to grant or block access to corporate resources. These policies are if-then statements, of [Assignments](https://learn.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-policies#assignments) and [Access controls](https://learn.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-policies#access-controls). If incompatible Conditional Access policies are enforced on the Surface Hub device account, you may experience one or more of the following issues:
+[Conditional Access](/azure/active-directory/conditional-access/overview) is an Azure Active Directory (Azure AD) feature that allows organizations to configure policies to grant or block access to corporate resources. These policies are if-then statements, of [Assignments](/azure/active-directory/conditional-access/concept-conditional-access-policies#assignments) and [Access controls](/azure/active-directory/conditional-access/concept-conditional-access-policies#access-controls). If incompatible Conditional Access policies are enforced on the Surface Hub device account, you may experience one or more of the following issues:
 
 - Unable to add the device account to the Surface Hub
 - Welcome Screen calendar not syncing with Exchange
@@ -25,27 +25,27 @@ ms.localizationpriority: medium
 Follow the guidance on this page to better understand how the Surface Hub device account interacts with Conditional Access and how to troubleshoot issues.
 
 ## Device account and Conditional Access policies ##
-The Surface Hub [device account](https://learn.microsoft.com/surface-hub/create-and-test-a-device-account-surface-hub) is used to receive meeting invitations and join Teams meetings.  When creating Conditional Access policies, consider the below Surface Hub distinctions for Assignments and Access contols to prevent the device account from being blocked.
+The Surface Hub [device account](create-and-test-a-device-account-surface-hub.md) is used to receive meeting invitations and join Teams meetings.  When creating Conditional Access policies, consider the below Surface Hub distinctions for Assignments and Access controls to prevent the device account from being blocked.
 
 ## Assignments
 
 #### Cloud apps ###
-The Surface Hub device account uses the following [cloud apps](https://learn.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-cloud-apps) when signing in. Ensure your Conditional Access policies are configured to allow sign-in to these resources.
+The Surface Hub device account uses the following [cloud apps](/azure/active-directory/conditional-access/concept-conditional-access-cloud-apps) when signing in. Ensure your Conditional Access policies are configured to allow sign-in to these resources.
 
-- Office365
+- Office 365
 - Office 365 Exchange Online
-- Office 365 SharePoint Online (includes OneDrive)
+- Office 365 SharePoint Online (this includes OneDrive for Business)
 - Graph Explorer
 - Microsoft Teams
 
 #### Conditions ####
-The Surface Hub is included in the following [conditions](https://learn.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-conditions).
+The Surface Hub is included in the following [conditions](/azure/active-directory/conditional-access/concept-conditional-access-conditions).
 
  - Device platforms - Windows
  - Client apps - Mobile apps and desktop
  
 ## Grant Access Controls
-The Surface Hub device account isn't compatible with Conditional Access policies requiring the below types of Grant access controls. The device accounts needs to be [excluded](#exclude-device-account-from-unsupported-conditional-access-policies) from such policies.
+The Surface Hub device account isn't compatible with Conditional Access policies requiring the below types of Grant access controls. The device accounts of all Surface Hubs needs to be [excluded](#exclude-device-account-from-unsupported-conditional-access-policies) from such policies.
 
 - Require multifactor authentication
 - Require authentication strength (Preview)
@@ -55,22 +55,22 @@ The Surface Hub device account isn't compatible with Conditional Access policies
 - Require app protection policy
 - Require password change
 
- Additional details on Assignments and Access controls can be found in the [building a Conditional Access policy](https://learn.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-policies) article.
+ Additional details on Assignments and Access controls can be found in the [building a Conditional Access policy](/azure/active-directory/conditional-access/concept-conditional-access-policies) article.
  
 ## Troubleshoot ##
 Manually reviewing your organization's Conditional Access policies can also be helpful in pinpointing policies that are incompatible with the Surface Hub.
  
-The [What If](https://learn.microsoft.com/azure/active-directory/conditional-access/what-if-tool) tool can be used to determine which Conditional Access policies apply to the device account. When using the tool, select the Surface Hub device account as the user and leave the default of "Any cloud app". More information can be found at [Troubleshooting Conditional Access using the What If tool](https://learn.microsoft.com/azure/active-directory/conditional-access/troubleshoot-conditional-access-what-if).
+The ["What If"](/azure/active-directory/conditional-access/what-if-tool) tool can be used to determine which Conditional Access policies apply to the device account. When using the tool, select the Surface Hub device account as the user and leave the default of "Any cloud app". More information can be found at [Troubleshooting Conditional Access using the What If tool](/azure/active-directory/conditional-access/troubleshoot-conditional-access-what-if).
 
 ![Gif image showing how to select the Surface Hub device account and run the What If tool against it](images/WhatIfTool.gif) 
  
 ## Review Conditional Access Policies ##
-If the Azure sign-in logs and What If tool don't reveal any Conditional Access policies affecting the account, it's recommended to manually review every Conditional Access policy to ensure the Surface Hub device account isn't affected.
+If the Azure sign-in logs and "What If" tool don't reveal any Conditional Access policies affecting the account, it's recommended to manually review every Conditional Access policy to ensure the Surface Hub device account isn't affected.
  
 ### Step 1 ###
-Navigate to your tenant's Conditional Access policies within Endpoint Manager. To access this page, ensure the user has the correct [role](https://learn.microsoft.com/azure/active-directory/reports-monitoring/how-to-view-applied-conditional-access-policies#required-administrator-roles) assigned.
+Navigate to your tenant's Conditional Access policies within Endpoint Manager. To access this page, ensure the user has the correct [role](/azure/active-directory/reports-monitoring/how-to-view-applied-conditional-access-policies#required-administrator-roles) assigned.
 
-1. Sign into the [Endpoint Manager portal](https://endpoint.microsoft.com/#home)
+1. Sign into the [Endpoint Manager portal](https://endpoint.microsoft.com/)
 2. Go to **Devices > Conditional Access**
 
 ![Image showing where to locate a tenant's Conditional Access policies](images/conditional-access-policies.png)
