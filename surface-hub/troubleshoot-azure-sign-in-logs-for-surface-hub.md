@@ -23,14 +23,14 @@ Azure [sign-in logs](https://learn.microsoft.com/azure/active-directory/reports-
 - Teams Rooms client not signing in
 - Users unable to personally sign into the device
  
-If you are experiencing sign-in issues with the Surface Hub device account or personal user sign-in, follow the troubleshooting steps on this page.
+If you're experiencing sign-in issues with the Surface Hub device account or personal user sign-in, follow the troubleshooting steps on this page.
  
 ## View sign-in logs ##
 To access the Azure sign-ins log for a tenant, a user must have the necessary [role](https://learn.microsoft.com/azure/active-directory/reports-monitoring/concept-all-sign-ins#how-do-you-access-the-sign-in-logs) assigned.
 
 1. Sign into the [Azure portal](https://portal.azure.com/)
 2. Go to **Azure Active Directory** > **Users**
-3. Locate or search for the account you are troubleshooting and select it.
+3. Locate or search for the account you're troubleshooting and select it.
 4. Select **Sign-in logs**
 5. If the below banner is displayed, select **Try out our new sign-ins preview** link.
 
@@ -49,7 +49,7 @@ If analyzing sign-in activity older than 24 hours, extend the timeframe by selec
 [ ![Image alt text.](images/azure-sign-in-logs-3.png) ](images/azure-sign-in-logs-3.png#lightbox)
 
 ## Additional sign-in details ##
-After selecting the sign-in attempt the activity details pane will show the reason for the failure or interrupt. In this example, the failure is caused by multi-factor authentication (MFA), which the Surface Hub device account does not support.
+After selecting the sign-in attempt the activity details pane shows the reason for the failure or interrupt. In this example, the failure is caused by multi-factor authentication (MFA), which the Surface Hub device account doesn't support.
  
 [ ![Image alt text.](images/azure-sign-in-logs-4.png) ](images/azure-sign-in-logs-4.png#lightbox)
 
