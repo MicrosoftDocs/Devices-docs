@@ -34,7 +34,7 @@ To access the Azure sign-ins log for a tenant, a user must have the necessary [r
 4. Select **Sign-in logs**
 5. If the below banner is displayed, select **Try out our new sign-ins preview** link.
 
-[ ![Image alt text.](images/review-azure-sign-in-logs.gif) ](images/review-azure-sign-in-logs.giflightbox)
+[ ![Image alt text.](images/review-azure-sign-in-logs.gif) ](images/review-azure-sign-in-logs.gif#lightbox)
 
 >[!NOTE]
 >It may take 5-10 minutes for the sign-in logs to propagate to Azure.
