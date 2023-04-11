@@ -7,7 +7,7 @@ manager: peterdem
 ms.prod: surface-hub
 ms.sitesec: library
 author: ryanbwold
-ms.author: ryanbwold
+ms.author: rwold
 ms.topic: article
 ms.date: 04/05/2023
 ms.localizationpriority: medium
