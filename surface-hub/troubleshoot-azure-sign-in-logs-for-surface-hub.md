@@ -26,13 +26,13 @@ Azure [sign-in logs](azure/active-directory/reports-monitoring/concept-sign-ins)
 If you're experiencing sign-in issues with the Surface Hub device account or personal user sign-in, follow the troubleshooting steps on this page.
  
 ## View sign-in logs ##
-To access the Azure sign-ins log for a tenant, a user must have the necessary [role](azure/active-directory/reports-monitoring/concept-all-sign-ins#how-do-you-access-the-sign-in-logs) assigned.
+To access the Azure sign-in logs for a tenant, a user must have the necessary [role](azure/active-directory/reports-monitoring/concept-all-sign-ins#how-do-you-access-the-sign-in-logs) assigned.
 
 1. Sign into the [Azure portal](https://portal.azure.com/)
 2. Go to **Azure Active Directory** > **Users**
 3. Locate or search for the account you're troubleshooting and select it.
 4. Select **Sign-in logs**
-5. If the below banner is displayed, select **Try out our new sign-ins preview** link.
+5. If you see a banner to **Try out our new sign-ins preview**, select it.
 
 [ ![GIF image showing how to review Azure sign-in logs.](images/review-azure-sign-in-logs.gif) ](images/review-azure-sign-in-logs.gif#lightbox)
 
@@ -40,16 +40,16 @@ To access the Azure sign-ins log for a tenant, a user must have the necessary [r
 >It may take 5-10 minutes for the sign-in logs to propagate to Azure.
 
 ## Analyze sign-in logs ##
-Scroll through both the interactive and non-interactive sign-ins noting the **Status** column. If any failures or interrupts are seen, select the sign-in for additional details. You can optionally [filter the sign-in logs](/azure/active-directory/reports-monitoring/concept-all-sign-ins#filter-the-results) by status to only show Failures and Interrupts.
+Scroll through the interactive and non-interactive sign-in logs noting the **Status** column. If any failures or interrupts are seen, select the sign-in for additional details. You can optionally [filter the sign-in logs](/azure/active-directory/reports-monitoring/concept-all-sign-ins#filter-the-results) by status to only show failures and interrupts.
  
 [ ![Image showing detailed view of failed sign-in logs.](images/azure-sign-in-logs-2.png) ](images/azure-sign-in-logs-2.png#lightbox)
 
-If analyzing sign-in activity older than 24 hours, extend the timeframe by selecting the Date field.
+If analyzing sign-in activity older than 24 hours, expand the timeframe by selecting the Date field.
 
 [ ![Image showing how to expand date range of logs.](images/azure-sign-in-logs-3.png) ](images/azure-sign-in-logs-3.png#lightbox)
 
 ## Additional sign-in details ##
-After selecting the sign-in attempt the activity details pane shows the reason for the failure or interrupt. In this example, the failure is caused by multi-factor authentication (MFA), which the Surface Hub device account doesn't support.
+After selecting the sign-in, the activity details pane will show the reason for the failure or interrupt. In this example, the failure is caused by multi-factor authentication (MFA), which the Surface Hub device account doesn't support.
  
 [ ![Image showing log details for failed sign-in.](images/azure-sign-in-logs-4.png) ](images/azure-sign-in-logs-4.png#lightbox)
 
@@ -57,9 +57,9 @@ Selecting the Conditional Access tab reveals the policy that is enforcing MFA on
 
 [ ![Image showing Conditional Access details for failed sign-in](images/azure-sign-in-logs-5.png) ](images/azure-sign-in-logs-5.png#lightbox)
 
-Follow the guidance on [Conditional Access for Surface Hub](conditional_access_for_surface_hub.md) to better understand the requirements for Surface Hub and how to [exclude](conditional_access_for_surface_hub.md#exclude-device-account-from-unsupported-conditional-access-policies) the device account from unsupported policies.
+Follow the guidance on [Conditional Access for Surface Hub](conditional_access_for_surface_hub.md) to better understand the requirements for the device, and how to [exclude](conditional_access_for_surface_hub.md#exclude-device-account-from-unsupported-conditional-access-policies) the device account from unsupported policies.
  
-Additional details on how to view and analyze the sign-in logs can be found on the [Sign-in logs in Azure Active Directory](azure/active-directory/reports-monitoring/concept-all-sign-ins) page.
+Additional details on how to view and analyze the Azure sign-in logs can be found on the [Sign-in logs in Azure Active Directory](azure/active-directory/reports-monitoring/concept-all-sign-ins) page.
 
 
 
