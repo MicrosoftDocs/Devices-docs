@@ -71,7 +71,7 @@ This section explains what **End session** resets for each of these states.
 
 ## Applications
 
-When you start apps on Surface Hub, they are stored in memory and data is stored at the application level. Data is available to all users during that session (or meeting) until date is removed or overwritten. When **End session** is selected, Surface Hub application state is cleared out by closing applications, deleting browser history, resetting applications, and removing Skype logs.
+When you start apps on Surface Hub, they are stored in memory and data is stored at the application level. Data is available to all users during that session (or meeting) until data is removed or overwritten. When **End session** is selected, Surface Hub application state is cleared out by closing applications, deleting browser history, resetting applications, and removing Skype logs.
 
 ### Close applications
 
@@ -79,11 +79,11 @@ Surface Hub closes all visible windows, including Win32 and Universal Windows Pl
 
 ### Delete browser history
 
-Surface Hub uses Delete Browser History (DBH) in Edge to clear Edge history and cached data. This is similar to how a user can clear out their browser history manually, but **End session** also ensures that application states are cleared and data is removed before the next session, or meeting, starts.
+Surface Hub uses Delete Browser History (DBH) in Edge to clear Edge history and cached data. This is similar to how a user can manually clear out their browser history, but **End session** also ensures that application states are cleared and data is removed before the next session, or meeting, starts.
 
 ### Reset applications
 
-**End session** resets the state of each application that is installed on the Surface Hub. Resetting an application clears all background tasks, application data, notifications, and user consent dialogs. Applications are returned to their first-run state for the next people that use Surface Hub.  
+**End session** resets the state of each application installed on the Surface Hub. Resetting an application clears all background tasks, application data, notifications, and user consent dialogs. Applications are returned to their first-run state for the next people that use Surface Hub.  
 
 ### Remove Skype logs
 
@@ -115,7 +115,7 @@ Surface Hub also clears these directories, since many applications often write t
 
 ### Credentials
 
-User credentials that are stored in **TokenBroker**, **PasswordVault**, or **Credential Manager** are cleared when you tap **End session**.
+User credentials stored in **TokenBroker**, **PasswordVault**, or **Credential Manager** are cleared when you tap **End session**.
 
 ## User interface
 
@@ -150,7 +150,7 @@ The clipboard is cleared to remove data that was copied to the clipboard during 
 
 **What happens if I forget to tap End session at the end of a meeting, and someone else uses the Surface Hub later?**
 
-- Surface Hub only cleans up meeting content when users tap **End session**. If you leave the meeting without tapping **End session**, the device will return to the welcome screen after some time. From the welcome screen, users have the option to resume the previous session or start a new one. You can also disable the ability to resume a session if **End session** is not pressed.
+- Surface Hub only cleans up meeting content when users tap **End session**. If you leave the meeting without tapping **End session**, the device will return to the welcome screen after some time. From the welcome screen, users can resume the previous session or start a new one. You can also disable the ability to resume a session if **End session** is not pressed.
 
 **Are documents recoverable?**
 

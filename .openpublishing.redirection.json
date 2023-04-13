@@ -224,6 +224,11 @@
             "source_path":  "surface/surface-dock2-wmi.md",
             "redirect_url":  "/surface/surface-dock-wmi",
             "redirect_document_id":  false
+        },
+        {
+            "source_path":  "surface-hub/finishing-your-surface-hub-meeting.md",
+            "redirect_url":  "/surface-hub/meet-on-surface-hub",
+            "redirect_document_id":  false
         }
     ]
 }
