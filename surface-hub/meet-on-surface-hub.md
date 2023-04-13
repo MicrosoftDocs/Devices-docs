@@ -14,7 +14,7 @@ ms.localizationpriority: medium
 
 # Start and finish a meeting on Surface Hub
 
-Surface Hub is a collaboration device designed to be used in meeting spaces by different groups of people.
+Surface Hub is a collaboration device designed to be used in meeting spaces by different groups of people. This page explains how to [start](#meet-with-others-on-surface-hub-2s) and [finish](#finish-a-surface-hub-meeting-with-end-session) a meeting plus how to [save or share your work](#save-or-share-your-work-on-surface-hub) during collaboration.
 
 ## Meet with others on Surface Hub 2S
 
@@ -146,7 +146,7 @@ Accessibility features and apps are returned to default settings when **End sess
 
 The clipboard is cleared to remove data that was copied to the clipboard during the session.
 
-## Frequently asked questions
+### Frequently asked questions
 
 **What happens if I forget to tap End session at the end of a meeting, and someone else uses the Surface Hub later?**
 
@@ -159,3 +159,9 @@ The clipboard is cleared to remove data that was copied to the clipboard during 
 **Do the clean-up actions from End session comply with the US Department of Defense clearing and sanitizing standard: DoD 5220.22-M?**
 
 - No. Currently, the clean-up actions from **End session** do not comply with this standard.  
+
+## Save or share your work on Surface Hub
+
+The easiest way to save your work is to sign in to Surface Hub. That way, you’ll also be automatically signed in to Microsoft 365, and your work will save automatically to OneDrive or SharePoint—whatever you have set up already with your organization’s Microsoft 365 subscription.
+
+Autosave means you don’t have to worry about losing work after collaborating on Surface Hub. All your notes, revisions, changes, and additions will stay synced in your file.
