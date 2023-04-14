@@ -42,5 +42,5 @@ For devices that are out of warranty, Microsoft offers several options for servi
 > [!NOTE]
 > Although these options can also be used for in-warranty repairs, we recommend commercial customers initiate in-warranty support requests via the self-serve portals, listed on this page.
  
-> [!NOTE]
+> [!TIP]
 > Before proceeding with a service request, download the [Surface Diagnostic Toolkit](https://support.microsoft.com/surface/fix-common-surface-problems-using-the-surface-app-and-surface-diagnostic-toolkit-f61d8d18-37a9-863d-f8d0-1982eb16f7b5) for automated hardware tests on components including the power supply, battery, display, and sound.
