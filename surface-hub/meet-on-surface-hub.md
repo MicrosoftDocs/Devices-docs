@@ -1,6 +1,6 @@
 ---
 title: Start and finish a meeting on Surface Hub
-description: Explains how to start and finish a meeting on Surface Hub.
+description: Provides instructions to start, schedule, and finish a Surface Hub meeting, including details on data that is automatically removed at the end of each session. 
 ms.reviewer: dpandre
 manager: frankbu
 ms.prod: surface-hub
@@ -69,7 +69,7 @@ At the end of a meeting, users can tap **End session** to clean up any sensitive
 
 This section explains what **End session** resets for each of these states.
 
-## Applications
+### Applications
 
 When you start apps on Surface Hub, they are stored in memory and data is stored at the application level. Data is available to all users during that session (or meeting) until data is removed or overwritten. When **End session** is selected, Surface Hub application state is cleared out by closing applications, deleting browser history, resetting applications, and removing Skype logs.
 
@@ -89,11 +89,11 @@ Surface Hub uses Delete Browser History (DBH) in Edge to clear Edge history and 
 
 Skype does not store personally-identifiable information on Surface Hub. Information is stored in the Skype service to meet existing Skype for Business guidance. Local Skype logging information is the only data removed when **End session** is selected. This includes Unified Communications Client Platform (UCCP) logs and media logs.
 
-## Operating System
+### Operating System
 
 The operating system hosts a variety of information about the state of the sessions that needs to be cleared after each Surface Hub meeting.
 
-### File System
+#### File System
 
 Meeting attendees have access to a limited set of directories on the Surface Hub. When **End session** is selected, Surface Hub clears these directories:
 
@@ -113,15 +113,15 @@ Surface Hub also clears these directories, since many applications often write t
 - Public Videos
 - Public Downloads
 
-### Credentials
+#### Credentials
 
 User credentials stored in **TokenBroker**, **PasswordVault**, or **Credential Manager** are cleared when you tap **End session**.
 
-## User interface
+### User interface
 
 User interface (UI) settings are returned to their default values when **End session** is selected.
 
-### UI items
+#### UI items
 
 - Reset Quick Actions to default state
 - Clear Toast notifications
@@ -142,7 +142,7 @@ Accessibility features and apps are returned to default settings when **End sess
 - Magnifier
 - Narrator
 
-### Clipboard
+#### Clipboard
 
 The clipboard is cleared to remove data that was copied to the clipboard during the session.
 
