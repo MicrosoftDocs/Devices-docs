@@ -9,6 +9,9 @@ ms.date: 11/15/2017
 ms.reviewer: 
 manager: frankbu
 ms.localizationpriority: medium
+appliesto:
+- Surface Hub
+- Surface Hub 2S
 ---
 
 # Enable 802.1x wired authentication

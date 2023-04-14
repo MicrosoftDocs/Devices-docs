@@ -9,6 +9,9 @@ ms.author: hachidan
 ms.topic: how-to
 ms.date: 04/14/2023
 ms.localizationpriority: medium
+appliesto:
+- Surface Hub
+- Surface Hub 2S
 
 ---
 
