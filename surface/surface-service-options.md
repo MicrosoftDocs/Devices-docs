@@ -14,7 +14,7 @@ appliesto:
 - Windows 11
 ---
 
-# Surface device service options
+# Surface service options
 
 Most [newer Surface devices](surface-service-and-repair.md) are designed to facilitate repair or replacement of primary components like the solid-state drive (SSD), keyboard, or display. With the purchase of a new commercial Surface for Business device, you can maximize your investment with services and repair options.
 
