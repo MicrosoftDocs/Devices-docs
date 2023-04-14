@@ -57,7 +57,7 @@ Selecting the Conditional Access tab reveals the policy that is enforcing MFA on
 
 [ ![Image showing Conditional Access details for failed sign-in](images/azure-sign-in-logs-5.png) ](images/azure-sign-in-logs-5.png#lightbox)
 
-Follow the guidance on [Conditional Access for Surface Hub](conditional_access_for_surface_hub.md) to better understand the requirements for the device, and how to [exclude](conditional_access_for_surface_hub.md#exclude-device-account-from-unsupported-conditional-access-policies) the device account from unsupported policies.
+Follow the guidance on [Conditional Access for Surface Hub](conditional-access-for-surface-hub.md) to better understand the requirements for the device, and how to [exclude](conditional-access-for-surface-hub.md#exclude-device-account-from-unsupported-conditional-access-policies) the device account from unsupported policies.
  
 Additional details on how to view and analyze the Azure sign-in logs can be found on the [Sign-in logs in Azure Active Directory](/azure/active-directory/reports-monitoring/concept-all-sign-ins) page.
 
