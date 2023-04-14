@@ -90,10 +90,12 @@
                 href: surface-hub-2-essential-add-ons.md        
         - name: Get started
           items:    
-           -  name: What's new in Windows 10 Team 2020 updates
-              href: surface-hub-2020-update-whats-new.md
+           - name: What's new in Windows 10 Team 2020 updates
+             href: surface-hub-2020-update-whats-new.md
            - name: Operating system essentials
              href: differences-between-surface-hub-and-windows-10-enterprise.md
+           - name: Start and finish a meeting  
+             href: meet-on-surface-hub.md
            - name: Set up & use Microsoft Whiteboard
              href: whiteboard-collaboration.md
            - name: Adjust accessibility settings
@@ -102,8 +104,6 @@
              href: change-language-on-surface-hub.md    
            - name: Adjust Surface Hub 2S brightness, volume, & input
              href: surface-hub-2s-onscreen-display.md
-           - name: Finish a meeting
-             href: finishing-your-surface-hub-meeting.md
         - name: Manage
           items:
           - name: Manage Microsoft Surface Hub
