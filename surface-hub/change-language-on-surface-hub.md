@@ -8,6 +8,9 @@ ms.author: hachidan
 ms.topic: troubleshooting
 ms.date: 03/21/2023
 ms.localizationpriority: medium
+appliesto:
+- Surface Hub
+- Surface Hub 2S
 ---
 # Change display language on Surface Hub
 

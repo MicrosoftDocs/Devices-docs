@@ -6,11 +6,13 @@ author: coveminer
 ms.author: hachidan
 manager: frankbu
 ms.topic: how-to
-ms.date: 07/21/2020
+ms.date: 04/13/2023
 ms.localizationpriority: Medium
 ---
 
 # Configure passwordless sign-in on Surface Hub
+
+When you sign in to Surface Hub, you’ll see all your meetings and all your recent Microsoft 365 files. You can open your presentation, document, whiteboard, or workbook without having to project from a PC or send the file.
 
 Passwordless sign-in simplifies access to your apps, meetings, and files. Surface Hub supports signing in using the Microsoft Authenticator app and FIDO2 security keys provided by your organization.
 
@@ -67,15 +69,11 @@ You can also sign into Surface Hub using a FIDO2 security key provided by your o
 
 ## Sign in to Surface Hub
 
-Once you've configured passwordless sign-in, you can use it to make it easier to access your apps, meetings, and files on the Surface Hub:
+Once you've configured passwordless sign-in, you can use it to make it easier to access your apps, meetings, and files on the Surface Hub.
 
 ### Sign in during a meeting
 
 1. After you’ve set up a meeting, go to the Surface Hub and select **Sign in to see your meetings and files**.
-
-    >[!NOTE]
-    >If you’re not sure how to schedule a meeting on a Surface Hub, see [Schedule a meeting on Surface Hub](https://support.microsoft.com/help/17325/surfacehub-schedulemeeting).
-
 2. You’ll see a list of the people invited to the meeting. Select yourself (or the person who wants to sign in – make sure this person has gone through the steps to set up their device before your meeting), and then select **Continue**.
 You'll see a code on the Surface Hub.
 3. To approve the sign-in, open the Authenticator app, enter the four-digit code that’s displayed on the Surface Hub, and select **Approve**. You will then be asked to enter the PIN or use your fingerprint to complete the sign in. You can now access all files through the OneDrive app.
