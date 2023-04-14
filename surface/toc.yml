@@ -246,6 +246,8 @@
        - name: Service & repair options
          expanded: true
          items:
+          - name: Surface service options
+            href: surface-service-options.md
           - name: Microsoft in-region repair
             href: microsoft-in-region-same-unit-repair.md
           - name: Authorized service providers

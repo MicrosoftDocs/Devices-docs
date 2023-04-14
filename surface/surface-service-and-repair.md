@@ -20,11 +20,7 @@ Built with integrity by design, many Microsoft Surface devices are now easier to
 
 There are several ways commercial customers can obtain service for Surface for Business devices. You can get service directly from Microsoft or use a third party Authorized Service Provider. Or with skilled technicians, you can repair<sup>2</sup> devices yourself following official Microsoft instructions in downloadable service guides.
 
-Choose one of the following options:
-
-- **Microsoft in-region repair.**  Send devices for repair and return shipping. Create a repair order and mail your device using the prepaid shipping label provided by Microsoft. For details, see [Microsoft in-region repair](microsoft-in-region-same-unit-repair.md).
-- **Authorized Service Providers.**  Send devices to an Authorized Service Provider (ASP) who perform repairs on Microsoft's behalf. For details, see [Surface repair by Microsoft Authorized Service Providers](authorized-service-providers.md).
-- **Customer Self Repair.**  Self-repair devices using replaceable components available from device resellers. For details, see [Customer self-serve repair](surface-customer-self-repair-surface.md).
+To learn more, see [Surface service options](surface-service-options.md)
 
 ## Surface devices and replaceable components
 
