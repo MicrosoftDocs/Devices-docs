@@ -33,7 +33,7 @@ In this scenario, a customer needs to replace a cracked display on their Surface
 3. Go to the Illustrated Parts List and look for the display (7).
 :::image type="content" source="images/surface-service-repair/surface-service-guide-ssurface-laptop-5-illustrated-parts-list.png" alt-text="Screenshot of Illustrated Parts List for Surface Laptop 5.":::
 4. Look up the part number; specifically, the CRU Part No (customer replaceable unit): in this example, the CRU Part No for a Platinum 15-inch Surface Laptop 5 is **U71-00001**.
-:::image type="content" source="images/surface-service-repair/surface-service-guide-order-display-example-surface-laptop-5.png alt-text="Screenshot of Illustrated Parts List for Surface Laptop 5.":::
+:::image type="content" source="images/surface-service-repair/surface-service-guide-order-display-example-surface-laptop-5.png" alt-text="Screenshot of Illustrated Parts List for Surface Laptop 5.":::
 
 > [!TIP]
 > Order self-service parts using the CRU number. Ignore ASP/FRU part numbers. Each Surface Service Guide contains an Illustrated Parts List followed by a table that contains CRU numbers for replaceable parts.  
