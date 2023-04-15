@@ -22,7 +22,7 @@ If your Surface stops working, you can take advantage of new options to service,
  
 Every commercial device comes with a minimum 1-year Microsoft Limited Hardware warranty. For added peace of mind, Microsoft Protection Plans offer extended coverage and services that help you with every stage of support you might need for your Surface devices, from deployment to replacement.
  
-## In-warranty repair
+## Reommended repair options for in-warranty devices
 
 If you need to service a device that is covered by Microsoft's Limited Hardware Warranty or a Microsoft Protection Plan, we recommend commercial customers open service requests via a self-serve portal:
 
@@ -31,13 +31,13 @@ If you need to service a device that is covered by Microsoft's Limited Hardware 
 
 (For others with personal devices, sign into your account at [account.microsoft.com/devices](https://account.microsoft.com/devices), select the device that needs service, and then select **Start order.)**
  
-## Out-of-warranty repair
+## Reommended repair options for out-of-warranty devices
 
-For devices that are out of warranty, Microsoft offers several options for service or repair:
+For devices that are out of warranty, Microsoft offers several options for service or repair. 
 
-- **Microsoft in-region repair.** Send devices for repair and return shipping. Create a repair order and mail your device using the prepaid shipping label provided by Microsoft. For details, see [Microsoft in-region repair](microsoft-in-region-same-unit-repair.md).
-- **Authorized Service Providers.** Send devices to an Authorized Service Provider (ASP) who performs repairs on Microsoft's behalf. For details, see [Surface repair by Microsoft Authorized Service Providers](authorized-service-providers.md).
-- **Customer Self Repair.** Self-repair devices using replaceable components available from device resellers. For details, see [Customer self-serve repair](surface-customer-self-repair-surface.md).
+- **Customer Self Repair.** Self-repair devices using replaceable components available from [Authorized Device Resellers](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface#DEVICESRESELLERS). For intructions on how to submit a parts request, see [Customer self-serve repair](surface-customer-self-repair-surface.md).
+- **Microsoft in-region repair.** Send devices for repair and return shipping. Create a repair order and mail your device using the prepaid shipping label provided by Microsoft. To learn more, see [Microsoft in-region repair](microsoft-in-region-same-unit-repair.md).
+- **Authorized Service Providers.** Send devices to an Authorized Service Provider (ASP) who performs repairs on Microsoft's behalf. To learn more, see [Surface repair by Microsoft Authorized Service Providers](authorized-service-providers.md).
 
 > [!NOTE]
 > Although these options can also be used for in-warranty repairs, we recommend commercial customers initiate in-warranty support requests via the self-serve portals, listed on this page.
