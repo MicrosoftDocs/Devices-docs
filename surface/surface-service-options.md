@@ -24,10 +24,21 @@ Every commercial device comes with a minimum 1-year Microsoft Limited Hardware w
  
 ## Reommended repair options for in-warranty devices
 
-If you need to service a device that is covered by Microsoft's Limited Hardware Warranty or a Microsoft Protection Plan, we recommend commercial customers open service requests via a self-serve portal:
+If you need to service a device that is covered by Microsoft's Limited Hardware Warranty or a Microsoft Protection Plan, we recommend commercial customers open service requests via a self-serve portal. 
 
-- **Surface Management Portal:** sign into the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431) and go to **All services** > **Surface Management Portal**.
-- **Hardware Support Portal:** Sign into the [Microsoft 365 Admin Center](https://admin.microsoft.com/AdminPortal) and go to **Support** > **Microsoft hardware support**.
+### Surface Management Portal
+
+1. Sign into the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431) and go to **All services** > **Surface Management Portal**.
+2. Select **New repair request**.
+
+:::image type="content" source="images/surface-service-repair/smp-repair-request.png" alt-text="Screenshot of Surface Management Portal showing New repair request feature.":::
+
+## Hardware Support Portal
+
+1. Sign into the [Microsoft 365 admin center](https://admin.microsoft.com/AdminPortal) and go to **Show all** > **Support** > **Microsoft hardware support**.
+2. Select **New repair request**.
+
+:::image type="content" source="images/surface-service-repair/m365admincenter-repair-request.png" alt-text="Screenshot of Microsoft 365 admin center showing New repair request feature.":::
 
 (For others with personal devices, sign into your account at [account.microsoft.com/devices](https://account.microsoft.com/devices), select the device that needs service, and then select **Start order.)**
  
@@ -42,5 +53,3 @@ For devices that are out of warranty, Microsoft offers several options for servi
 > [!NOTE]
 > Although these options can also be used for in-warranty repairs, we recommend commercial customers initiate in-warranty support requests via the self-serve portals, listed on this page.
  
-> [!TIP]
-> Before proceeding with a service request, download the [Surface Diagnostic Toolkit](https://support.microsoft.com/surface/fix-common-surface-problems-using-the-surface-app-and-surface-diagnostic-toolkit-f61d8d18-37a9-863d-f8d0-1982eb16f7b5) for automated hardware tests on components including the power supply, battery, display, and sound.

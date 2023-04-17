@@ -18,8 +18,13 @@ appliesto:
 
 Microsoft can repair many commercial Surface devices via in-region repair facilities. If troubleshooting or diagnostics determine that your Surface device needs repair and is eligible for mail-in repair services, you can ship it to Microsoft for repair and return.
 
+To iniitiate a request, open service requests via a self-serve portal:
+
+- **Surface Management Portal:** Sign into the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431) and go to **All services** > **Surface Management Portal**.
+- **Hardware Support Portal:** Sign into the [Microsoft 365 Admin Center](https://admin.microsoft.com/AdminPortal) and go to **Show all** > **Support** > **Microsoft hardware support**.
+
 Upon successful repair, Microsoft returns the device to your shipping
-address. (If there are no issues, Microsoft returns your device as is). Average turnaround time is 6-12 calendar days depending on your location and supply chain availability. The following devices are eligible for same unit repair:
+address. Average turnaround time is 6-12 calendar days depending on your location and supply chain availability. The following devices are eligible for same unit repair:
 
 - Surface Laptop 3 – 13" & 15"
 - Surface Laptop 4 – 13" & 15"
