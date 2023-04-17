@@ -2,6 +2,17 @@
 
 
 
+## Week of April 10, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 4/13/2023 | [Start and finish a meeting on Surface Hub](/surface-hub/meet-on-surface-hub) | added |
+| 4/14/2023 | [Adjust accessibility settings on Surface Hub](/surface-hub/accessibility-surface-hub) | modified |
+| 4/14/2023 | End session - ending a Surface Hub meeting | removed |
+| 4/14/2023 | [Configure password-less sign-in on Surface Hub](/surface-hub/surface-hub-2s-phone-authenticate) | modified |
+
+
 ## Week of April 03, 2023
 
 
