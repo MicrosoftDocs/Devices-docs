@@ -22,7 +22,7 @@ If your Surface stops working, you can take advantage of new options to service,
  
 Every commercial device comes with a minimum 1-year Microsoft Limited Hardware warranty. For added peace of mind, Microsoft Protection Plans offer extended coverage and services that help you with every stage of support you might need for your Surface devices, from deployment to replacement.
  
-## Reommended repair options for in-warranty devices
+## Recommended repair options for in-warranty devices
 
 If you need to service a device that is covered by Microsoft's Limited Hardware Warranty or a Microsoft Protection Plan, we recommend commercial customers open service requests via a self-serve portal. 
 
