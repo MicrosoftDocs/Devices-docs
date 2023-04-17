@@ -31,14 +31,14 @@ If you need to service a device that is covered by Microsoft's Limited Hardware 
 1. Sign into the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431) and go to **All services** > **Surface Management Portal**.
 2. Select **New repair request**.
 
-:::image type="content" source="images/surface-service-repair/smp-repair-request.png" alt-text="Screenshot of Surface Management Portal showing New repair request feature.":::
+    :::image type="content" source="images/surface-service-repair/smp-repair-request.png" alt-text="Screenshot of Surface Management Portal showing New repair request feature.":::
 
 ## Hardware Support Portal
 
 1. Sign into the [Microsoft 365 admin center](https://admin.microsoft.com/AdminPortal) and go to **Show all** > **Support** > **Microsoft hardware support**.
 2. Select **New repair request**.
 
-:::image type="content" source="images/surface-service-repair/m365admincenter-repair-request.png" alt-text="Screenshot of Microsoft 365 admin center showing New repair request feature.":::
+    :::image type="content" source="images/surface-service-repair/m365admincenter-repair-request.png" alt-text="Screenshot of Microsoft 365 admin center showing New repair request feature.":::
 
 (For others with personal devices, sign into your account at [account.microsoft.com/devices](https://account.microsoft.com/devices), select the device that needs service, and then select **Start order.)**
  
