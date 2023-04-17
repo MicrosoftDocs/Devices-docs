@@ -29,25 +29,25 @@ If you need to service a device that is covered by Microsoft's Limited Hardware 
 ### Surface Management Portal
 
 1. Sign into the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431) and go to **All services** > **Surface Management Portal**.
-2. Select **New repair request**.
+2. Select **New repair request**. Your request is routed to a [Microsoft in region repair facility](microsoft-in-region-same-unit-repair.md). 
 
     :::image type="content" source="images/surface-service-repair/smp-repair-request.png" alt-text="Screenshot of Surface Management Portal showing New repair request feature.":::
 
 ## Hardware Support Portal
 
 1. Sign into the [Microsoft 365 admin center](https://admin.microsoft.com/AdminPortal) and go to **Show all** > **Support** > **Microsoft hardware support**.
-2. Select **New repair request**.
+2. Select **New repair request**. Your request is routed to a [Microsoft in region repair facility](microsoft-in-region-same-unit-repair.md). 
 
     :::image type="content" source="images/surface-service-repair/m365admincenter-repair-request.png" alt-text="Screenshot of Microsoft 365 admin center showing New repair request feature.":::
 
 (For others with personal devices, sign into your account at [account.microsoft.com/devices](https://account.microsoft.com/devices), select the device that needs service, and then select **Start order.)**
  
-## Reommended repair options for out-of-warranty devices
+## Recommended repair options for out-of-warranty devices
 
 For devices that are out of warranty, Microsoft offers several options for service or repair. 
 
 - **Customer Self Repair.** Self-repair devices using replaceable components available from [Authorized Device Resellers](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface#DEVICESRESELLERS). For intructions on how to submit a parts request, see [Customer self-serve repair](surface-customer-self-repair-surface.md).
-- **Microsoft in-region repair.** Send devices for repair and return shipping. Create a repair order and mail your device using the prepaid shipping label provided by Microsoft. To learn more, see [Microsoft in-region repair](microsoft-in-region-same-unit-repair.md).
+- **Microsoft in-region repair.** Send devices for repair and return shipping. Submit a repair request via the [Surface Management Portal](#surface-management-portal) or [Hardware Support Portal](#hardware-support-portal). To learn more, see [Microsoft in-region repair](microsoft-in-region-same-unit-repair.md).
 - **Authorized Service Providers.** Send devices to an Authorized Service Provider (ASP) who performs repairs on Microsoft's behalf. To learn more, see [Surface repair by Microsoft Authorized Service Providers](authorized-service-providers.md).
 
 > [!NOTE]
