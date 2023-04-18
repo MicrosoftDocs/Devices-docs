@@ -47,10 +47,13 @@ If you need to service a device that is covered by Microsoft's Limited Hardware 
 
 For devices that are out of warranty, Microsoft offers several options for service or repair. 
 
-- **Customer Self Repair.** Self-repair devices using replaceable components available from [Authorized Device Resellers](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface#DEVICESRESELLERS). For intructions on how to submit a parts request, see [Customer self-serve repair](surface-customer-self-repair-surface.md).
+- **Customer Self Repair.** Self-repair devices using replaceable components<sup>1</sup>available from [Authorized Device Resellers](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface#DEVICESRESELLERS). For intructions on how to submit a parts request, see [Customer self-serve repair](surface-customer-self-repair-surface.md).
 - **Microsoft in-region repair.** Send devices for repair and return shipping. Submit a repair request via the [Surface Management Portal](#surface-management-portal) or [Hardware Support Portal](#hardware-support-portal). To learn more, see [Microsoft in-region repair](microsoft-in-region-same-unit-repair.md).
 - **Authorized Service Providers.** Send devices to an Authorized Service Provider (ASP) who performs repairs on Microsoft's behalf. To learn more, see [Surface repair by Microsoft Authorized Service Providers](authorized-service-providers.md).
 
 > [!TIP]
 > Any of these options can also be used to service devices that are still in warranty. For example, you could opt to replace the hard drive yourself by following the instructions in [Customer self-serve repair](surface-customer-self-repair-surface.md).
- 
+
+### References
+
+1. Customer Replaceable Units (CRUs) are components available for purchase through your [Surface Commercial Authorized Device Reseller](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface#DEVICESRESELLERS). Components can be replaced on-site by a skilled technician following Microsoft’s Service Guide. Opening and/or repairing your device can present electric shock, fire and personal injury risks and other hazards. Use caution if undertaking do-it-yourself repairs. Device damage caused during repair will not be covered under Microsoft’s Hardware Warranty or protection plans.
