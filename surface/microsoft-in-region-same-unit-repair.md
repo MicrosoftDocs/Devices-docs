@@ -7,7 +7,7 @@ author: coveminer
 ms.author: hachidan
 ms.topic: overview
 ms.date: 10/28/2022
-ms.reviewer: 
+ms.reviewer: hachidan
 manager: frankbu
 appliesto:
 - Windows 10
@@ -18,7 +18,7 @@ appliesto:
 
 Microsoft can repair many commercial Surface devices via in-region repair facilities. If troubleshooting or diagnostics determine that your Surface device needs repair and is eligible for mail-in repair services, you can ship it to Microsoft for repair and return.
 
-To iniitiate service, open a repair request via a self-serve portal:
+To initiate service, open a repair request via a self-serve portal:
 
 - **Surface Management Portal:** Sign into the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431) and go to **All services** > **Surface Management Portal**. Select **New repair request**.
 - **Microsoft Hardware Support Portal:** Sign into the [Microsoft 365 Admin Center](https://admin.microsoft.com/AdminPortal) and go to **Show all** > **Support** > **Microsoft hardware support**. Select **New repair request**.
