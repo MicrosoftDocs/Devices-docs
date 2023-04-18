@@ -16,7 +16,7 @@ appliesto:
 
 # Customer self-serve repair for Surface devices
 
-Technically inclined individuals with the knowledge, skills, and required tools can perform self-serve repairs<sup>1</sup> on eligible Surface devices by following [Surface Service Guides](https://www.microsoft.com/download/100440) available from the Microsoft Download Center.
+Technically inclined individuals with the knowledge, skills, and required tools can perform self-serve repairs<sup>1</sup> on eligible Surface devices by following the appropriate [Surface Service Guide](https://www.microsoft.com/download/100440) available from the Microsoft Download Center.
 
 Self-repair replaceable components are available for purchase through [device resellers](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface#DEVICESRESELLERS). There are no certifications required to repair or service a Surface device. Replaceable components have a 1-year Limited Hardware Warranty.<sup>2</sup> 
 
@@ -52,5 +52,5 @@ In this scenario, a customer needs to replace a cracked display on their Surface
 
 ## References
 
-1. Customer self-repair is only available on Microsoft devices with a removable component per the product’s technical specifications. Microsoft recommends that self-repair is performed by technically inclined individuals with the knowledge, experience and required tools, while following a [Microsoft Service Guide](https://www.microsoft.com/download/100440). 
+1. Customer self-repair is available on Microsoft devices with a removable component per the product’s technical specifications. Microsoft recommends that self-repair is performed by technically inclined individuals with the knowledge, experience and required tools, while following a [Microsoft Service Guide](https://www.microsoft.com/download/100440). 
 1. Microsoft’s Limited Warranty is in addition to any right you may have under consumer or other laws applicable to you.
