@@ -40,7 +40,8 @@ If you need to service a device that is covered by Microsoft's Limited Hardware 
 
     :::image type="content" source="images/surface-service-repair/m365admincenter-repair-request.png" alt-text="Screenshot of Microsoft 365 admin center showing New repair request feature.":::
 
-(For others with personal devices, sign into your account at [account.microsoft.com/devices](https://account.microsoft.com/devices), select the device that needs service, and then select **Start order.)**
+> [!TIP]
+> If you need to repair a personal (non-commercial) device, sign into your account at [account.microsoft.com/devices](https://account.microsoft.com/devices), choose the device that needs service, and then select **Start order.**
  
 ## Recommended repair options for out-of-warranty devices
 
@@ -50,6 +51,6 @@ For devices that are out of warranty, Microsoft offers several options for servi
 - **Microsoft in-region repair.** Send devices for repair and return shipping. Submit a repair request via the [Surface Management Portal](#surface-management-portal) or [Hardware Support Portal](#hardware-support-portal). To learn more, see [Microsoft in-region repair](microsoft-in-region-same-unit-repair.md).
 - **Authorized Service Providers.** Send devices to an Authorized Service Provider (ASP) who performs repairs on Microsoft's behalf. To learn more, see [Surface repair by Microsoft Authorized Service Providers](authorized-service-providers.md).
 
-> [!NOTE]
-> Although these options can also be used for in-warranty repairs, we recommend commercial customers initiate in-warranty support requests via the self-serve portals, listed on this page.
+> [!TIP]
+> Any of these options can also be used to service devices that are still in warranty. For example, you could opt to replace the hard drive yourself by following the instructions in [Customer self-serve repair](surface-customer-self-repair-surface.md).
  
