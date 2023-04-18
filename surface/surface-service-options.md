@@ -36,7 +36,7 @@ If you need to service a device that is covered by Microsoft's Limited Hardware 
 ## Hardware Support Portal
 
 1. Sign into the [Microsoft 365 admin center](https://admin.microsoft.com/AdminPortal) and go to **Show all** > **Support** > **Microsoft hardware support**.
-2. Select **New repair request**. Your request is routed to a [Microsoft in region repair facility](microsoft-in-region-same-unit-repair.md). 
+2. Select **New repair request**. For eligible devices and regional availablity, see [Microsoft in-region repair](microsoft-in-region-same-unit-repair.md).
 
     :::image type="content" source="images/surface-service-repair/m365admincenter-repair-request.png" alt-text="Screenshot of Microsoft 365 admin center showing New repair request feature.":::
 
@@ -48,11 +48,11 @@ If you need to service a device that is covered by Microsoft's Limited Hardware 
 For devices that are out of warranty, Microsoft offers several options for service or repair. 
 
 - **Customer Self Repair.** Self-repair devices using replaceable components<sup>2</sup> available from [Authorized Device Resellers](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface#DEVICESRESELLERS). For intructions on how to submit a parts request, see [Customer self-serve repair](surface-customer-self-repair-surface.md).
-- **Microsoft in-region repair.** Send devices for repair and return shipping. Submit a repair request via the [Surface Management Portal](#surface-management-portal) or [Hardware Support Portal](#hardware-support-portal). To learn more, see [Microsoft in-region repair](microsoft-in-region-same-unit-repair.md).
+- **Microsoft in-region repair.** Send devices for repair and return shipping. Submit a repair request via the [Surface Management Portal](#surface-management-portal) or [Hardware Support Portal](#hardware-support-portal), as described on this page. For eligible devices and regional availablity, see [Microsoft in-region repair](microsoft-in-region-same-unit-repair.md).
 - **Authorized Service Providers.** Send devices to an Authorized Service Provider (ASP) who performs repairs on Microsoft's behalf. To learn more, see [Surface repair by Microsoft Authorized Service Providers](authorized-service-providers.md).
 
 > [!TIP]
-> Any of these options can also be used to service devices that are still in warranty. For example, you could opt to replace the hard drive yourself by following the instructions in [Customer self-serve repair](surface-customer-self-repair-surface.md). 
+> These options--self-repair, in-region repair, or ASP service--can also be used for devices that are still in warranty, if desired. For example, you could opt to replace the SSD yourself by following the instructions in [Customer self-serve repair](surface-customer-self-repair-surface.md). 
 
 > [!NOTE]
 > Self-serve replaceable compoonents are available for purchase separately, independent of the warranty status of your device. To repair your in-warranty device without the additional cost of obtaining and installing replaceable parts, use the [recommended repair options for in-warranty devices](#recommended-repair-options-for-in-warranty-devices) described on this page. 
