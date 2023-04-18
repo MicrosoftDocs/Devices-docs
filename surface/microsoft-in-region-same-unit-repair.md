@@ -32,8 +32,6 @@ address. Average turnaround time is 6-12 calendar days depending on your locatio
 - Surface Pro 7
 - Surface Pro 7+ <sup>1</sup>
 - Surface Pro 8
-- Surface Pro 9
-- Surface Pro 9 with 5G
 - Surface Laptop Go
 - Surface Laptop Go 2
 - Surface Go 2
