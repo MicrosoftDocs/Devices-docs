@@ -27,7 +27,7 @@ When your Surface devices are enrolled for cloud management and users log in for
 
 ## Get started
 
-Sign in to Microsoft Intune admin center, select **All services** > **Surface Management Portal**.
+Sign in to [Microsoft Intune admin center](https://endpoint.microsoft.com), select **All services** > **Surface Management Portal**.
 
    :::image type="content" source="images/surface-management-portal/surface-management-portal-start.png" lightbox="/surface/images/surface-management-portal/surface-management-portal-start.png" alt-text="Start Surface Management Portal":::
 
