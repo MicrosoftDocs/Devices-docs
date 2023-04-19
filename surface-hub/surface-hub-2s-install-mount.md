@@ -1,6 +1,6 @@
 ---
-title: "Install and mount Surface Hub 2S 50-inch"
-description: "Learn how to install and mount Surface Hub 2S 50-inch."
+title: "Install and mount Surface Hub 2S 50 inch"
+description: "Learn how to install and mount Surface Hub 2S 50 inch."
 ms.prod: surface-hub
 author: coveminer
 ms.author: hachidan
@@ -25,7 +25,7 @@ If you’re not using licensed accessories, see [Customize wall mount of Surface
 | Task | Illustration|
 |------|-------------|
 | **1. Set up your mount first** | |
-| Leave your Surface Hub in the box until the mount is set up and mounting hardware is applied. Mount is not included. Your mount is sold separately. | ![* Set up your mount first *.](images/sh2-setup-1.png) <br> |
+| Leave your Surface Hub in the box until the mount is set up and mounting hardware is applied. Mount isn't included. Your mount is sold separately. | ![* Set up your mount first *.](images/sh2-setup-1.png) <br> |
 | **2. Attach hardware to the Surface Hub** | |
 | Mounting hardware and specific instructions are found in the box for your mount. | ![* Attach hardware to the Surface Hub *.](images/sh2-setup-2.png) <br> |
 | **3. Remove the instructional label before mounting.** | |
