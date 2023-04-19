@@ -92,7 +92,7 @@ Designed to be used with software-level mobile device management (MDM), DFCI ena
 
 ## Get started
 
-1. Sign in to your tenant at endpoint.microsoft.com.
+1. Sign in to your tenant at [endpoint.microsoft.com](https://endpoint.microsoft.com).
 2. In the Microsoft Intune admin center Admin Center, select **Devices > Configuration profiles > Create profile**.
 3. Under Platform, select **Windows 10 and later**.
 4. Under Profile type, select **Templates** > **Device Firmware Configuration Interface** and then select **Create.**

@@ -65,7 +65,7 @@ This section provides direct links to downloadable packages containing driver an
 
 ## Central update management in commercial environments
 
-Tools for managing devices, including driver and firmware updates, are included in [Microsoft Intune admin center](/mem/). Microsoft Intune admin center includes Microsoft Intune, Windows Autopilot, and Microsoft Endpoint Configuration Manager.
+Tools for managing devices, including driver and firmware updates, are included in [Microsoft Configuration Manager](/mem/). 
 
 ### Manage updates with Configuration Manager and Intune
 
