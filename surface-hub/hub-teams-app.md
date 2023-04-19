@@ -7,6 +7,9 @@ ms.author: hachidan
 ms.topic: how-to
 ms.date: 08/17/2020
 ms.localizationpriority: medium
+appliesto:
+- Surface Hub
+- Surface Hub 2S
 ---
 
 # Microsoft Teams app for Surface Hub 

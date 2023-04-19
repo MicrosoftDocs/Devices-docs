@@ -1,5 +1,5 @@
 ---
-title: Password management (Surface Hub)
+title: Password management on Surface Hub
 description: Every Microsoft Surface Hub device account requires a password to authenticate and enable features on the device.
 ms.assetid: 0FBFB546-05F0-430E-905E-87111046E4B8
 manager: frankbu
@@ -9,6 +9,9 @@ ms.author: hachidan
 ms.topic: how-to
 ms.date: 07/27/2017
 ms.localizationpriority: medium
+appliesto:
+- Surface Hub
+- Surface Hub 2S
 ---
 
 # Password management (Surface Hub)

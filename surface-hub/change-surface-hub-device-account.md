@@ -9,6 +9,9 @@ ms.author: hachidan
 ms.topic: how-to
 ms.date: 01/23/2023
 ms.localizationpriority: medium
+appliesto:
+- Surface Hub
+- Surface Hub 2S
 ---
 
 # Change the Microsoft Surface Hub device account

@@ -9,6 +9,9 @@ ms.date: 04/24/2020
 ms.reviewer: 
 manager: frankbu
 ms.localizationpriority: medium
+appliesto:
+- Surface Hub
+- Surface Hub 2S
 ---
 
 # Miracast over infrastructure
