@@ -16,44 +16,44 @@ ms.localizationpriority: medium
 # Troubleshoot Azure Sign-in Logs for Surface Hub
 
 ## What are Azure sign-in logs? ##
-Azure [sign-in logs](/azure/active-directory/reports-monitoring/concept-sign-ins) provide information on successful and failed sign-in attempts that occur within an Azure AD tenant. The Azure sign-in logs provide a detailed view of all sign-in activities for an account. When sign-in issues are encountered on the Surface Hub, an IT administrator can review these logs to see if any interrupts or failures are seen. Common reasons these logs are helpful for troubleshooting Surface Hub issues include:
+Azure [sign-in logs](/azure/active-directory/reports-monitoring/concept-sign-ins) provide information on successful and failed sign-in attempts that occur within an Azure AD tenant. The Azure sign-in logs provide a detailed view of all sign-in activities for an account. When sign-in issues are encountered on the Surface Hub, an IT administrator can review these logs for any interrupts or failures. Here are some common reasons these logs are helpful to troubleshoot Surface Hub issues:
 
 - Unable to add the device account to the Surface Hub
-- Device account no longer syncing with Exchange Online
-- Teams Rooms client not signing in
+- Device account no longer syncs with Exchange Online
+- Teams Rooms client fails to sign in
 - Users unable to personally sign into the device
  
-If you're experiencing sign-in issues with the Surface Hub device account or personal user sign-in, follow the troubleshooting steps on this page.
+If you experience sign-in issues with the Surface Hub device account or personal user sign-in, follow the troubleshooting steps on this page.
  
 ## View sign-in logs ##
 To access the Azure sign-in logs for a tenant, a user must have the necessary [role](/azure/active-directory/reports-monitoring/concept-all-sign-ins#how-do-you-access-the-sign-in-logs) assigned.
 
-1. Sign into the [Azure portal](https://portal.azure.com/)
+1. Sign in to the [Azure portal](https://portal.azure.com/)
 2. Go to **Azure Active Directory** > **Users**
 3. Locate or search for the account you're troubleshooting and select it.
 4. Select **Sign-in logs**
-5. If you see a banner to **Try out our new sign-ins preview**, select it.
+5. If you see a banner to **Try out our new sign-in preview**, select it.
 
 [ ![GIF image showing how to review Azure sign-in logs.](images/review-azure-sign-in-logs.gif) ](images/review-azure-sign-in-logs.gif#lightbox)
 
 >[!NOTE]
->It may take 5-10 minutes for the sign-in logs to propagate to Azure.
+>The sign-in logs may take 5-10 minutes for the sign-in logs to propagate to Azure.
 
 ## Analyze sign-in logs ##
-Scroll through the interactive and non-interactive sign-in logs noting the **Status** column. If any failures or interrupts are seen, select the sign-in for additional details. You can optionally [filter the sign-in logs](/azure/active-directory/reports-monitoring/concept-all-sign-ins#filter-the-results) by status to only show failures and interrupts.
+Scroll through the interactive and non-interactive sign-in logs and note the **Status** column. If any failures or interrupts are seen, select the sign-in for additional details. You can optionally [filter the sign-in logs](/azure/active-directory/reports-monitoring/concept-all-sign-ins#filter-the-results) by status to only show failures and interrupts.
  
 [ ![Image showing detailed view of failed sign-in logs.](images/azure-sign-in-logs-2.png) ](images/azure-sign-in-logs-2.png#lightbox)
 
-If analyzing sign-in activity older than 24 hours, expand the timeframe by selecting the Date field.
+To analyze sign-in activity older than 24 hours, select the Date field to expand the timeframe.
 
 [ ![Image showing how to expand date range of logs.](images/azure-sign-in-logs-3.png) ](images/azure-sign-in-logs-3.png#lightbox)
 
 ## Additional sign-in details ##
-After selecting the sign-in, the activity details pane will show the reason for the failure or interrupt. In this example, the failure is caused by multi-factor authentication (MFA), which the Surface Hub device account doesn't support.
+After you select the sign-in, the activity details pane shows the reason for the failure or interrupt. In this example, the failure is caused by multi-factor authentication (MFA), which the Surface Hub device account doesn't support.
  
 [ ![Image showing log details for failed sign-in.](images/azure-sign-in-logs-4.png) ](images/azure-sign-in-logs-4.png#lightbox)
 
-Selecting the Conditional Access tab reveals the policy that is enforcing MFA on the device account.
+To reveal the policy that is enforcing MFA on the device account, select the Conditional Access tab.
 
 [ ![Image showing Conditional Access details for failed sign-in](images/azure-sign-in-logs-5.png) ](images/azure-sign-in-logs-5.png#lightbox)
 
