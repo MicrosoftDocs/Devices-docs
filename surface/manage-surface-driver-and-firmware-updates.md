@@ -65,11 +65,11 @@ This section provides direct links to downloadable packages containing driver an
 
 ## Central update management in commercial environments
 
-Tools for managing devices, including driver and firmware updates, are included in [Microsoft Endpoint Manager](/mem/). Microsoft Endpoint Manager includes Microsoft Intune, Windows Autopilot, and Microsoft Endpoint Configuration Manager.
+Tools for managing devices, including driver and firmware updates, are included in [Microsoft Intune admin center](/mem/). Microsoft Intune admin center includes Microsoft Intune, Windows Autopilot, and Microsoft Endpoint Configuration Manager.
 
 ### Manage updates with Configuration Manager and Intune
 
-Microsoft Endpoint Manager is the recommended solution for large organizations to manage Surface updates. Configuration Manager allows you to synchronize and deploy Surface firmware and driver updates with the Configuration Manager client. Integration with Intune lets you see all your managed, co-managed, and partner-managed devices in one place. The Microsoft Surface Management Portal is a centralized place in the Microsoft Endpoint Manager admin center where you can self-serve, manage, and monitor your organization's Intune-managed Surface devices at scale.
+Microsoft Intune admin center is the recommended solution for large organizations to manage Surface updates. Configuration Manager allows you to synchronize and deploy Surface firmware and driver updates with the Configuration Manager client. Integration with Intune lets you see all your managed, co-managed, and partner-managed devices in one place. The Microsoft Surface Management Portal is a centralized place in the Microsoft Intune admin center admin center where you can self-serve, manage, and monitor your organization's Intune-managed Surface devices at scale.
 
 For more information, see the following resources:
 

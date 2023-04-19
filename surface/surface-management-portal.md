@@ -15,7 +15,7 @@ appliesto:
 ---
 # Surface Management Portal overview
 
-Built into Microsoft Endpoint Manager, the new Surface Management Portal provides a centralized solution to self-serve, manage and monitor Surface devices at scale.
+Built into Microsoft Intune admin center, the new Surface Management Portal provides a centralized solution to self-serve, manage and monitor Surface devices at scale.
 
 ## Introduction
 
@@ -27,7 +27,7 @@ When your Surface devices are enrolled for cloud management and users log in for
 
 ## Get started
 
-Sign in to Microsoft Endpoint Manager, select **All services** > **Surface Management Portal**.
+Sign in to Microsoft Intune admin center, select **All services** > **Surface Management Portal**.
 
    :::image type="content" source="images/surface-management-portal/surface-management-portal-start.png" lightbox="/surface/images/surface-management-portal/surface-management-portal-start.png" alt-text="Start Surface Management Portal":::
 
@@ -83,7 +83,7 @@ Newly added to the portal is the ability to create and submit new requests for o
 
 ## Try for free
 
-Surface Management Portal is available to customers who use Microsoft Endpoint Manager and have enrolled Surface devices through Intune. If you’re new to Intune, set up your Intune tenant today by visiting [Quickstart: Try Microsoft Intune for free](/mem/intune/fundamentals/free-trial-sign-up).
+Surface Management Portal is available to customers who use Microsoft Intune admin center and have enrolled Surface devices through Intune. If you’re new to Intune, set up your Intune tenant today by visiting [Quickstart: Try Microsoft Intune for free](/mem/intune/fundamentals/free-trial-sign-up).
 
 ## Learn more
 
