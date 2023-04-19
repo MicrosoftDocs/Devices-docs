@@ -37,7 +37,7 @@ To summarize, options to configure and manage policy settings within Intune incl
 
 ## Create Device restriction profile
 
-1. Sign in to [**Microsoft Intune admin center admin center**](https://endpoint.microsoft.com/), select **Devices** > **Configuration profiles** > **+** **Create profile**.
+1. Sign in to [**Microsoft Intune admin center**](https://endpoint.microsoft.com/), select **Devices** > **Configuration profiles** > **+** **Create profile**.
 2. Under **Platform**, select **Windows 10 and later** >
 3. Under ****Profile type**,** select **Templates** and then select **Device restrictions (Windows 10 Team)**
 4. Select **Create**, add a name and then select **Next.**
@@ -51,7 +51,7 @@ For more information about how to manage Surface Hub features and settings, see 
 
 ## Create Device configuration profile
 
-1. Sign in to [**Microsoft Intune admin center admin center**](https://endpoint.microsoft.com/), select **Devices** > **Configuration profiles** > **+ Create profile**.
+1. Sign in to [**Microsoft Intune admin center**](https://endpoint.microsoft.com/), select **Devices** > **Configuration profiles** > **+ Create profile**.
 2. Under **Platform**, select **Windows 10 and later** >
 3. Under **Profile type**, select **Templates** and choose from the following templates supported on Surface Hub:
 

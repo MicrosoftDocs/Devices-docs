@@ -69,7 +69,7 @@ Tools for managing devices, including driver and firmware updates, are included 
 
 ### Manage updates with Configuration Manager and Intune
 
-Microsoft Intune admin center is the recommended solution for large organizations to manage Surface updates. Configuration Manager allows you to synchronize and deploy Surface firmware and driver updates with the Configuration Manager client. Integration with Intune lets you see all your managed, co-managed, and partner-managed devices in one place. The Microsoft Surface Management Portal is a centralized place in the Microsoft Intune admin center admin center where you can self-serve, manage, and monitor your organization's Intune-managed Surface devices at scale.
+Microsoft Intune admin center is the recommended solution for large organizations to manage Surface updates. Configuration Manager allows you to synchronize and deploy Surface firmware and driver updates with the Configuration Manager client. Integration with Intune lets you see all your managed, co-managed, and partner-managed devices in one place. The Microsoft Surface Management Portal is a centralized place in the Microsoft Intune admin center where you can self-serve, manage, and monitor your organization's Intune-managed Surface devices at scale.
 
 For more information, see the following resources:
 

@@ -32,7 +32,7 @@ Use Intune or another MDM provider to install PWAs on Surface Hubs. To learn mor
 
 ### Get started
 
-1. Sign in to the Intune portal at  [**Microsoft Intune admin center admin center**](https://endpoint.microsoft.com/).
+1. Sign in to the Intune portal at  [**Microsoft Intune admin center**](https://endpoint.microsoft.com/).
 
 2. Go  to **Devices** > **Configuration** **Policies** > **Create profile**.
 

@@ -49,7 +49,7 @@ First, assign the Surface OEMConfig app to the groups or users you want to targe
 > [!TIP]
 > Before beginning, review Intune documentation: [Managed Google Play app deployment to unmanaged devices](/mem/intune/apps/apps-deploy#managed-google-play-app-deployment-to-unmanaged-devices)
 
-1. Sign in to the Intune portal at [Microsoft Intune admin center admin center](https://endpoint.microsoft.com/).
+1. Sign in to the Intune portal at [Microsoft Intune admin center](https://endpoint.microsoft.com/).
 2. Go to **Apps** > **Android** > and select **Add**.
 3. Under **App** type, select **Managed Google Play**.
 4. On the **Managed Google Play** page, search for Microsoft Surface OEMConfig.
