@@ -68,7 +68,7 @@ To learn more about managing firmware with SEMM, see:
 - [Surface Enterprise Management Mode](surface-enterprise-management-mode.md)
 - [Manage Surface UEFI settings](manage-surface-uefi-settings.md)
 
-## Microsoft Endpoint Manager
+## Microsoft Intune admin center
 
 ### Manage firmware with Intune and DFCI
 
@@ -76,7 +76,7 @@ With Microsoft Intune and [Device Firmware Configuration Interface (DFCI) profil
 
 ### Manage with Azure AD
 
-Microsoft Endpoint Manager and Intune integrate with Azure Active Directory for identity and access control and provide granular management of enrolled devices. Highlights include faster device login times and a more streamlined catalog of policy settings enabling full device management from the cloud. For example, you can [manage LTE using eSIM profiles](/windows/client-management/mdm/esim-enterprise-management) to configure data plans and deploy activation codes to multiple devices.
+Microsoft Intune admin center and Intune integrate with Azure Active Directory for identity and access control and provide granular management of enrolled devices. Highlights include faster device login times and a more streamlined catalog of policy settings enabling full device management from the cloud. For example, you can [manage LTE using eSIM profiles](/windows/client-management/mdm/esim-enterprise-management) to configure data plans and deploy activation codes to multiple devices.
 
 ### Co-management
 

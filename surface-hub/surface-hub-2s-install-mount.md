@@ -1,6 +1,6 @@
 ---
-title: "Install and mount Surface Hub 2S 50-inch"
-description: "Learn how to install and mount Surface Hub 2S 50-inch."
+title: "Install and mount Surface Hub 2S 50 inch"
+description: "Learn how to install and mount Surface Hub 2S 50 inch."
 ms.prod: surface-hub
 author: coveminer
 ms.author: hachidan
@@ -14,9 +14,9 @@ ms.localizationpriority: Medium
 
 Surface Hub 2S 50" is designed for ease of mobility with a form factor that enables you to quickly install and begin using the device. Microsoft has partnered with Steelcase on the following certified mounting solutions: Roam Mobile Stand and Roam Wall Mount. Both fully integrate with the design of Surface Hub 2S 50", enabling unimpeded access to the compute cartridge, power, USB-A, USB-C, and other ports.
 
-You can mount Surface Hub 2S 50" with the certified wall mount or the certified mobile stand, both developed in partnership with Steelcase. Both fully integrate with the design of Surface Hub 2S 50", enabling unimpeded access to the compute cartridge along with all I/O ports and power. 
+You can mount Surface Hub 2S 50" with the certified wall mount or the certified mobile stand, both developed in partnership with Steelcase. Both fully integrate with the design of Surface Hub 2S 50", enabling unimpeded access to the compute cartridge along with all I/O ports and power.
 
-For more information, see [Officially licensed third-party accessories](http://licensedhardware.azurewebsites.net/surface) and view installation demos from the Surface product team at [Steelcase mobile stand and APC battery set up](https://youtu.be/VTzdu4Skpkg).
+For more information, see [Officially licensed third-party accessories](https://licensedhardware.azurewebsites.net/surface) and view installation demos from the Surface product team at [Steelcase mobile stand and APC battery set up](https://youtu.be/VTzdu4Skpkg).
 
  ![Surface Hub 2S 50" on Roam Mobile Stand.](images/sh2-mobile-stand.png)<br>
 
@@ -25,7 +25,7 @@ If you’re not using licensed accessories, see [Customize wall mount of Surface
 | Task | Illustration|
 |------|-------------|
 | **1. Set up your mount first** | |
-| Leave your Surface Hub in the box until the mount is set up and mounting hardware is applied. Mount is not included. Your mount is sold separately. | ![* Set up your mount first *.](images/sh2-setup-1.png) <br> |
+| Leave your Surface Hub in the box until the mount is set up and mounting hardware is applied. Mount isn't included. Your mount is sold separately. | ![* Set up your mount first *.](images/sh2-setup-1.png) <br> |
 | **2. Attach hardware to the Surface Hub** | |
 | Mounting hardware and specific instructions are found in the box for your mount. | ![* Attach hardware to the Surface Hub *.](images/sh2-setup-2.png) <br> |
 | **3. Remove the instructional label before mounting.** | |

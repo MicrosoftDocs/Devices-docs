@@ -38,7 +38,7 @@ First, create a security group containing the admin accounts. Then create anothe
 
 ### Create security group for Admin accounts
 
-1. Sign in to Intune via the [Microsoft Endpoint Manager admin center](https://go.microsoft.com/fwlink/?linkid=2109431), select **Groups** > **New Group** > and under Group type, select **Security.**
+1. Sign in to Intune via the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431), select **Groups** > **New Group** > and under Group type, select **Security.**
 2. Enter a Group name -- for example, **Surface Hub Local Admins** -- and then select **Create.**
 
      ![Create security group for Hub admins.](images/sh-create-sec-group.png)
