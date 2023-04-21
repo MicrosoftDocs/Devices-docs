@@ -52,7 +52,7 @@ For devices that are out of warranty, Microsoft offers several options for servi
 - **Authorized Service Providers.** Send devices to an Authorized Service Provider (ASP) who performs repairs on Microsoft's behalf. To learn more, see [Surface repair by Microsoft Authorized Service Providers](authorized-service-providers.md).
 
 > [!TIP]
-> These options--self-repair, in-region repair, or ASP service--can also be used for devices that are still under warranty if desired. For example, you could opt to replace the SSD yourself by following the instructions in [Customer self-serve repair](surface-customer-self-repair-surface.md). Self-serve replaceable components are available for purchase separately, independent of the warranty status of your device. To repair your in-warranty device without the additional cost of obtaining and installing replaceable parts, use the [recommended repair options for in-warranty devices](#recommended-service-options-for-in-warranty-devices) described on this page.
+> These options--self-repair, in-region repair, or ASP service--can also be used for devices that are still under warranty if desired. For example, you could opt to replace the SSD yourself by following the instructions in [Customer self-serve repair](surface-customer-self-repair-surface.md). Self-serve replaceable components are **available for purchase separately**, independent of the warranty status of your device. To repair your in-warranty device without the additional cost of obtaining and installing replaceable parts, use the [recommended repair options for in-warranty devices](#recommended-service-options-for-in-warranty-devices) described on this page.
 
 ### References
 
