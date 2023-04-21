@@ -30,7 +30,8 @@ Microsoft recommends that only technically inclined individuals with the knowled
 > Opening or repairing your device can present electric shock, device damage, fire and personal injury risks, and other hazards. Use caution if undertaking do-it-yourself repairs. Further, any resulting damage caused will not be covered under Microsoft's Limited Hardware Warranty or purchased protection plan.
 
 > [!NOTE]
-> Replaceable components have a 1-year Microsoft Limited Hardware Warranty<sup>3</sup> and can be purchased from a [Microsoft Authorized Device Reseller](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface).
+> Replaceable components have a 1-year Microsoft Limited Hardware Warranty<sup>3</sup> and can be purchased from a [Microsoft Authorized Device Reseller](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface). Replaceable compononents are currently **only available for purchase separately**, independent of the warranty status of your device. To order parts, see [Customer self-serve repair](surface-customer-self-repair-surface.md).
+
 
 
 |Device              |Replaceable components                                                                                                                                                                                                                                                                                                                                                                           |
