@@ -78,13 +78,13 @@ Navigate to your tenant's Conditional Access policies within Endpoint Manager. T
 1. Sign into [Microsoft Intune admin center](https://endpoint.microsoft.com/)
 2. Go to **Devices > Conditional Access**
 
-[ ![Image showing where to locate a tenant's Conditional Access policies.](images/conditional-access-policies.png) ](images/conditional-access-policies.png#lightbox)
+:::image type="content" source="images/conditional-access-policies.png#lightbox" alt-text="Image showing where to locate a tenant's Conditional Access policies.":::
 
 ### Step 2 ###
 Select each Conditional Access policy and review its **Assignments** and **Access Controls**. Use the requirements listed above to determine if the policy is compatible with the Surface Hub.
 If not, the device account needs to be [excluded](#exclude-device-account-from-unsupported-conditional-access-policies) from such policies to sign-in.
 
-[ ![Gif image showing how to review each Conditional Access policy for Surface Hub compatability](images/conditional-access-review-policies.gif) ](images/conditional-access-review-policies.gif#lightbox)
+:::image type="content" source="images/conditional-access-review-policies.gif#lightbox" alt-text="Gif image showing how to review each Conditional Access policy for Surface Hub compatability":::
 
 >[!NOTE]
 >Policies in *On* or *Report Only* states can affect the Surface Hub device account.
@@ -99,7 +99,7 @@ Due to the limited number of policies the Surface Hub device account supports, i
  
 Here's a [video](https://www.youtube.com/watch?v=5DsW1hB3Jqs&ab_channel=MicrosoftSecurity) demonstrating how to exclude user accounts from a Conditional Access policy.
 
-[ ![Image showing how to exclude the Surface Hub device account from a Conditional Access policy.](images/conditional-access-exclude-device-account.png) ](images/conditional-access-exclude-device-account.png#lightbox)
+:::image type="content" source="images/conditional-access-exclude-device-account.png#lightbox" alt-text="Image showing how to exclude the Surface Hub device account from a Conditional Access policy.":::
 
 >[!IMPORTANT]
 >Select the Surface Hub device account **user** object, not the Surface Hub **device** object.
