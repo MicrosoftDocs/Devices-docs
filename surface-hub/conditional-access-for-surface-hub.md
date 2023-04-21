@@ -67,7 +67,7 @@ If your Surface Hub is experiencing sign-in issues with the device account, firs
 
 The ["What If"](/azure/active-directory/conditional-access/what-if-tool) tool can be used to determine which Conditional Access policies apply to the device account. When using the tool, select the Surface Hub device account as the user and leave the default "Any cloud app." More information can be found at [Troubleshooting Conditional Access using the What If tool](/azure/active-directory/conditional-access/troubleshoot-conditional-access-what-if).
 
-[ ![Gif image showing how to select the Surface Hub device account and run the What If tool against it.](images/WhatIfTool.gif) ](images/WhatIfTool.gif#lightbox)
+:::image type="content" source="images/WhatIfTool.gif#lightbox" alt-text="Gif image showing how to select the Surface Hub device account and run the What If tool against it.":::
  
 ## Review Conditional Access Policies ##
 If the Azure sign-in logs and "What If" tool don't reveal any Conditional Access policies affecting the account, it's recommended to manually review every Conditional Access policy to ensure the Surface Hub device account isn't affected.
