@@ -34,7 +34,7 @@ To access the Azure sign-in logs for a tenant, a user must have the necessary [r
 4. Select **Sign-in logs**
 5. If you see a banner to **Try out our new sign-in preview**, select it.
 
-[ ![GIF image showing how to review Azure sign-in logs.](images/review-azure-sign-in-logs.gif) ](images/review-azure-sign-in-logs.gif#lightbox)
+:::image type="content" source="images/review-azure-sign-in-logs.gif#lightbox" alt-text="GIF image showing how to review Azure sign-in logs.":::
 
 >[!NOTE]
 >The sign-in logs may take 5-10 minutes for the sign-in logs to propagate to Azure.
@@ -42,20 +42,20 @@ To access the Azure sign-in logs for a tenant, a user must have the necessary [r
 ## Analyze sign-in logs ##
 Scroll through the interactive and non-interactive sign-in logs and note the **Status** column. If any failures or interrupts are seen, select the sign-in for additional details. You can optionally [filter the sign-in logs](/azure/active-directory/reports-monitoring/concept-all-sign-ins#filter-the-results) by status to only show failures and interrupts.
  
-[ ![Image showing detailed view of failed sign-in logs.](images/azure-sign-in-logs-2.png) ](images/azure-sign-in-logs-2.png#lightbox)
+:::image type="content" source="images/azure-sign-in-logs-2.png#lightbox" alt-text="Image showing detailed view of failed sign-in logs.":::
 
 To analyze sign-in activity older than 24 hours, select the Date field to expand the timeframe.
 
-[ ![Image showing how to expand date range of logs.](images/azure-sign-in-logs-3.png) ](images/azure-sign-in-logs-3.png#lightbox)
+:::image type="content" source="images/azure-sign-in-logs-3.png#lightbox" alt-text="Image showing how to expand date range of logs.":::
 
 ## Additional sign-in details ##
 After you select the sign-in, the activity details pane shows the reason for the failure or interrupt. In this example, the failure is caused by multi-factor authentication (MFA), which the Surface Hub device account doesn't support.
  
-[ ![Image showing log details for failed sign-in.](images/azure-sign-in-logs-4.png) ](images/azure-sign-in-logs-4.png#lightbox)
+:::image type="content" source="images/azure-sign-in-logs-4.png#lightbox" alt-text="Image showing log details for failed sign-in.":::
 
 To reveal the policy that is enforcing MFA on the device account, select the Conditional Access tab.
 
-[ ![Image showing Conditional Access details for failed sign-in](images/azure-sign-in-logs-5.png) ](images/azure-sign-in-logs-5.png#lightbox)
+:::image type="content" source="images/azure-sign-in-logs-5.png#lightbox" alt-text="Image showing Conditional Access details for failed sign-in":::
 
 Follow the guidance on [Conditional Access for Surface Hub](conditional-access-for-surface-hub.md) to better understand the requirements for the device, and how to [exclude](conditional-access-for-surface-hub.md#exclude-device-account-from-unsupported-conditional-access-policies) the device account from unsupported policies.
  
