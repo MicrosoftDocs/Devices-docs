@@ -27,6 +27,9 @@ Self-repair replaceable components are available for purchase through [device re
 
 This section explains how self-repair works for commercial customers.
 
+> [!NOTE]
+> Self-serve replaceable components are currently **only available for purchase separately**, independent of the warranty status of your device.
+
 ### Example: Surface Laptop 5: Replace cracked display
 
 In this scenario, a customer must replace a broken display on their Surface Laptop 5. (Follow the same process for all other part requests for repairable Surface devices.)
