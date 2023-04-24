@@ -19,7 +19,7 @@ ms.localizationpriority: medium
 [Conditional Access](/azure/active-directory/conditional-access/overview) is an Azure Active Directory (Azure AD) feature that allows organizations to configure policies to grant or block access to corporate resources. These policies are if-then statements, of [Assignments](/azure/active-directory/conditional-access/concept-conditional-access-policies#assignments) and [Access controls](/azure/active-directory/conditional-access/concept-conditional-access-policies#access-controls). If incompatible Conditional Access policies are enforced on the Surface Hub device account, you may experience one or more of the following issues:
 
 - Unable to add the device account to the Surface Hub
-- Welcome Screen calendar not syncing with Exchange
+- Welcome Screen calendar fails to sync with Exchange
 - Teams Rooms client not signing in
 
 Follow the guidance on this page to better understand how the Surface Hub device account interacts with Conditional Access and how to troubleshoot issues.
