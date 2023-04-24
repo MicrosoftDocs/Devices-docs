@@ -2,6 +2,15 @@
 
 
 
+## Week of April 17, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 4/19/2023 | [Install and mount Surface Hub 2S 50 inch](/surface-hub/surface-hub-2s-install-mount) | modified |
+| 4/19/2023 | [Downloadable resources for Surface Hub readiness](/surface-hub/surface-hub-downloads) | modified |
+
+
 ## Week of April 10, 2023
 
 
