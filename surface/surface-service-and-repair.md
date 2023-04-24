@@ -26,9 +26,6 @@ To learn more, see [Surface service options](surface-service-options.md)
 
 Microsoft recommends that only technically inclined individuals with the knowledge, experience, and requisite tools perform repairs in accordance with the relevant [Surface Services Guide instructions](https://www.microsoft.com/download/100440) available on the Microsoft Download Center. 
 
-> [!CAUTION]
-> Opening or repairing your device can present electric shock, device damage, fire and personal injury risks, and other hazards. Use caution if undertaking do-it-yourself repairs. Further, any resulting damage caused will not be covered under Microsoft's Limited Hardware Warranty or purchased protection plan.
-
 > [!NOTE]
 > Replaceable components have a 1-year Microsoft Limited Hardware Warranty<sup>3</sup> and can be purchased from a [Microsoft Authorized Device Reseller](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface). Replaceable compononents are currently **only available for purchase separately**, independent of the warranty status of your device. To order, see [Customer self-serve repair](surface-customer-self-repair-surface.md).
 
@@ -53,6 +50,9 @@ Microsoft recommends that only technically inclined individuals with the knowled
 Downloadable service guides provide step-by-step instructions for servicing specific devices. This documentation and instructions are intended for use by skilled technicians and IT professionals only. 
 
 - [Download service guides](https://www.microsoft.com/download/100440)
+
+> [!CAUTION]
+> Opening or repairing your device can present electric shock, device damage, fire and personal injury risks, and other hazards. Use caution if undertaking do-it-yourself repairs. Further, any resulting damage caused will not be covered under Microsoft's Limited Hardware Warranty or purchased protection plan.
 
 ### Repair videos 
 
