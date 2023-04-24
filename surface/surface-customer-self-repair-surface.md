@@ -55,5 +55,5 @@ In this scenario, a customer must replace a broken display on their Surface Lapt
 
 ## References
 
-1. Customer self-repair is available on Microsoft devices with a removable component per the product’s technical specifications. Microsoft recommends that self-repair is performed by technically inclined individuals with the knowledge, experience and required tools while following a [Microsoft Service Guide](https://www.microsoft.com/download/100440).
+1. Customer self-repair is only available on Microsoft devices with a removable component per the product’s technical specifications. Microsoft recommends that self-repair is performed by technically inclined individuals with the knowledge, experience and required tools while following a [Microsoft Service Guide](https://www.microsoft.com/download/100440).
 2. Microsoft’s Limited Warranty is in addition to any right you may have under consumer or other laws applicable to you.
