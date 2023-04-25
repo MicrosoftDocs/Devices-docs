@@ -18,7 +18,7 @@ appliesto:
 
 Built with integrity by design, many Microsoft Surface devices are now easier to repair<sup>1</sup> and maintain, providing commercial customers with greater flexibility while extending the use of devices. 
 
-There are several ways commercial customers can obtain service for Surface for Business devices. You can get service directly from Microsoft or use a third party Authorized Service Provider. Or with skilled technicians, you can repair<sup>2</sup> devices yourself following official Microsoft instructions in downloadable service guides.
+There are several ways commercial customers can obtain service for Surface for Business devices. You can get service directly from Microsoft or use a third party Authorized Service Provider. Or with skilled technicians, you can repair<sup>2</sup> devices yourself following the applicable [Surface Service Guide](https://www.microsoft.com/download/100440) or [article](https://support.microsoft.com/surface/replace-the-feet-on-surface-devices-791bcf1d-db4a-4807-816e-06d30072383d).
 
 To learn more, see [Surface service options](surface-service-options.md)
 
@@ -45,11 +45,12 @@ Microsoft recommends that only technically inclined individuals with the knowled
 | **Surface Studio 2+**  <br> :::image type="content" source="images/surface-service-repair/studio-2-plus.png" alt-text="Screenshot of Surface Studio 2+." :::   | - Removable solid-state drive (rSSD)<br>- Motherboard<br>- A/B-Cover (Display module)<br>- Thermal Module                                                                                                                                                                                                                                                                            |
 | **Surface Laptop SE** <br>  :::image type="content" source="images/surface-service-repair/laptop-se.png" alt-text="Screenshot of Surface Laptop SE." :::   | - A/B Cover (Display module)<br>- C-Cover (Keyboard)<br>- Bucket<br>- Feet & Screws<br>- Speaker & Wi-Fi Modules<br>- Motherboard                 
 
-## Surface service guides 
+## Surface service guides & related documentation
 
-Downloadable service guides provide step-by-step instructions for servicing specific devices. This documentation and instructions are intended for use by skilled technicians and IT professionals only. 
+Downloadable service guides provide step-by-step instructions for servicing specific devices. This documentation is intended for use by skilled technicians and IT professionals. 
 
 - [Download service guides](https://www.microsoft.com/download/100440)
+- [Replace the feet on Surface devices](https://support.microsoft.com/surface/replace-the-feet-on-surface-devices-791bcf1d-db4a-4807-816e-06d30072383d)
 
 > [!CAUTION]
 > Opening or repairing your device can present electric shock, device damage, fire and personal injury risks, and other hazards. Use caution if undertaking do-it-yourself repairs. Further, any resulting damage caused will not be covered under Microsoft's Limited Hardware Warranty or purchased protection plan.
@@ -70,6 +71,7 @@ Demos from Surface engineering show how to disassemble replaceable components, a
 - [Surface Support for Business and Education customers](contact-surface-business-education-support.md)
 - [In-store Support](https://support.microsoft.com/surface/find-a-participating-best-buy-service-center-for-in-person-support-in-the-us-9c30c2ba-a8d3-4657-b9df-9c00239751a2)
 - [Purchase replaceable Components at our Authorized Resellers](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface#DEVICESRESELLERS)
+
 
 ## Self help tips & tools
 
