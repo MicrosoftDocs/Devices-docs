@@ -25,8 +25,8 @@ Most Windows updates focus on performance and security improvements. In the list
 
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/5018682/windows-10-update-history), include:
 
-* Resolves an issue where the Surface Hub password rotation feature did not work as expected with Azure AD-based device accounts.
-* Updates built-in Azure Log Analytics agent to version 10.20.18067.
+* Resolves an issue where the [Surface Hub password rotation feature](password-management-for-surface-hub-device-accounts.md) did not work as expected with Azure AD-based device accounts.
+* Updates the built-in Azure Log Analytics agent to version 10.20.18067.
  
 Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabling device features and services. *[KB5025297](https://support.microsoft.com/help/5025297)
 
