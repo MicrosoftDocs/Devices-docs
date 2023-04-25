@@ -16,7 +16,7 @@ appliesto:
 
 # Customer self-serve repair for Surface devices
 
-Technically inclined individuals with the knowledge, skills, and required tools can perform self-serve repairs<sup>1</sup> on eligible Surface devices by following the appropriate [Surface Service Guide](https://www.microsoft.com/download/100440) from the Microsoft Download Center.
+Technically inclined individuals with the knowledge, skills, and required tools can perform self-serve repairs<sup>1</sup> on eligible Surface devices by following the appropriate [Surface Service Guide](https://www.microsoft.com/download/100440) or article from the Microsoft Download Center.
 
 Self-repair replaceable components are available for purchase through [device resellers](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface#DEVICESRESELLERS). There are no certifications required to repair or service a Surface device. Replaceable components have a 1-year Limited Hardware Warranty.<sup>2</sup>
 
@@ -48,12 +48,12 @@ In this scenario, a customer must replace a broken display on their Surface Lapt
 6. The reseller confirms the part availability and places an order with their Authorized Device Distributor. Parts are shipped to the reseller or directly to you.
 
 > [!NOTE]
-> Part availability may vary due to supply chain constraints, customer demand, and related issues.
+> Part availability may vary by country and is subject to change due to supply chain constraints, customer demand, and related issues.
 
 > [!CAUTION]
-> Repairing your device with a replaceable component doesn't affect Microsoft's Limited Warranty; however, any damage to the device resulting from a repair performed by someone other than Microsoft or an Authorized Service Provider won't be covered under Microsoft's warranty or extended protection plans.
+> Repairing your device with a replaceable component doesn't affect Microsoft's Limited Warranty; however, any damage to the device resulting from a repair performed by someone other than Microsoft or an Authorized Service Provider won't be covered under Microsoft's warranty or protection plans.
 
 ## References
 
-1. Customer self-repair is only available on Microsoft devices with a removable component per the product’s technical specifications. Microsoft recommends that self-repair is performed by technically inclined individuals with the knowledge, experience and required tools while following a [Microsoft Service Guide](https://www.microsoft.com/download/100440).
-2. Microsoft’s Limited Warranty is in addition to any right you may have under consumer or other laws applicable to you.
+1. Customer self-repair is only available on Microsoft devices with a removable component per the product’s technical specifications. Microsoft recommends that self-repair is performed by technically inclined individuals with the knowledge, experience and required tools while following the [Microsoft Service Guide](https://www.microsoft.com/download/100440) or article.
+2. Microsoft’s Limited Hardware Warranty is in addition to any right you may have under consumer or other laws applicable to you.
