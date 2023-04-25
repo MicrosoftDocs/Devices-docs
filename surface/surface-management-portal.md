@@ -31,6 +31,17 @@ Sign in to [Microsoft Intune admin center](https://endpoint.microsoft.com), sele
 
    :::image type="content" source="images/surface-management-portal/surface-management-portal-start.png" lightbox="/surface/images/surface-management-portal/surface-management-portal-start.png" alt-text="Start Surface Management Portal":::
 
+## Azure AD roles for Surface Management Portal
+
+
+| Role                                      | Permissions                                                                                                                                                                                 |
+| ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Microsoft Hardware Warranty Administrator | View all service requests<br>Create/manage device replacement requests<br>Add/edit/delete ship-to address(es)<br>Read-only access to the M365 tenant outside of the Hardware Support Portal |
+| Microsoft Hardware Warranty Specialist    | View own service requests<br>Create/manage device replacement requests<br>Read-only access to the M365 tenant outside of the Hardware Support Portal                                        |
+| Global Admin                              | View service requests<br>Create/manage device replacement requests<br>Add/edit/delete ship-to address(es)<br>Create/manage users and their roles                                            |
+| Service Support Admin                     | View service requests<br>Create/manage device replacement requests                                                                                                                          |
+| Billing Admin                             | View service requests<br>Create/manage device replacement requests<br>Add/edit/delete ship-to address(es)                                                                                   |
+
 ## Monitor Surface devices
 
 Select **Monitor** to display insights for all your Surface devices, including:
