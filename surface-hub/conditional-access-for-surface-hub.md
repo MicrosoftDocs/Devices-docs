@@ -45,7 +45,7 @@ The Surface Hub is included in the following [conditions](/azure/active-director
  - Client apps - Mobile apps and desktop
  
 ## Access controls ##
-The Surface Hub device account isn't compatible with Conditional Access policies requiring the below types of Grant and Session Access controls. The device accounts for all Surface must be [excluded](#exclude-device-account-from-unsupported-conditional-access-policies) from such policies.
+The Surface Hub device account isn't compatible with Conditional Access policies requiring the below types of Grant and Session Access controls. The device accounts for all Surface Hubs must be [excluded](#exclude-device-account-from-unsupported-conditional-access-policies) from such policies.
 
 #### Grant ####
 - Require multifactor authentication
