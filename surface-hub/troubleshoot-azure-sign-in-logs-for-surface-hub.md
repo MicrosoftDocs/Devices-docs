@@ -37,7 +37,7 @@ To access the Azure sign-in logs for a tenant, a user must have the necessary [r
 :::image type="content" source="images/review-azure-sign-in-logs.gif#lightbox" alt-text="GIF image showing how to review Azure sign-in logs.":::
 
 >[!NOTE]
->The sign-in logs may take 5-10 minutes for the sign-in logs to propagate to Azure.
+>The sign-in logs may take 5-10 minutes to propagate to Azure.
 
 ## Analyze sign-in logs ##
 Scroll through the interactive and non-interactive sign-in logs and note the **Status** column. If any failures or interrupts are seen, select the sign-in for additional details. You can optionally [filter the sign-in logs](/azure/active-directory/reports-monitoring/concept-all-sign-ins#filter-the-results) by status to only show failures and interrupts.
