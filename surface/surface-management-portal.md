@@ -42,7 +42,7 @@ Sign in to [Microsoft Intune admin center](https://endpoint.microsoft.com), sele
 | Service Support Admin                     | View service requests<br>Create/manage device replacement requests                                                                                                                          |
 | Billing Admin                             | View service requests<br>Create/manage device replacement requests<br>Add/edit/delete ship-to address(es)                                                                                   |
 
-1. *Requires **Read Only Operator** role for access*
+1. *Requires **Read Only Operator** role for access*.
 
 ## Monitor Surface devices
 
