@@ -15,7 +15,7 @@ appliesto:
 ---
 # Surface Management Portal overview
 
-Built into Microsoft Intune admin center, the new Surface Management Portal provides a centralized solution to self-serve, manage and monitor Surface devices at scale.
+Built into Microsoft Intune admin center, the Surface Management Portal provides a centralized solution to self-serve, manage and monitor Surface devices at scale.
 
 ## Introduction
 

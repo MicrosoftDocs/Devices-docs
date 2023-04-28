@@ -18,23 +18,17 @@ appliesto:
 
 Built with integrity by design, many Microsoft Surface devices are now easier to repair<sup>1</sup> and maintain, providing commercial customers with greater flexibility while extending the use of devices. 
 
-There are several ways commercial customers can obtain service for Surface for Business devices. You can get service directly from Microsoft or use a third party Authorized Service Provider. Or with skilled technicians, you can repair<sup>2</sup> devices yourself following official Microsoft instructions in downloadable service guides.
+There are several ways commercial customers can obtain service for Surface for Business devices. You can get service directly from Microsoft or use a third party Authorized Service Provider. Or with skilled technicians, you can repair<sup>2</sup> devices yourself following the applicable [Surface Service Guide](https://www.microsoft.com/download/100440) or [article](https://support.microsoft.com/surface/replace-the-feet-on-surface-devices-791bcf1d-db4a-4807-816e-06d30072383d).
 
-Choose one of the following options:
-
-- **Microsoft in-region repair.**  Send devices for repair and return shipping. Create a repair order and mail your device using the prepaid shipping label provided by Microsoft. For details, see [Microsoft in-region repair](microsoft-in-region-same-unit-repair.md).
-- **Authorized Service Providers.**  Send devices to an Authorized Service Provider (ASP) who perform repairs on Microsoft's behalf. For details, see [Surface repair by Microsoft Authorized Service Providers](authorized-service-providers.md).
-- **Customer Self Repair.**  Self-repair devices using replaceable components available from device resellers. For details, see [Customer self-serve repair](surface-customer-self-repair-surface.md).
+To learn more, see [Surface service options](surface-service-options.md).
 
 ## Surface devices and replaceable components
 
 Microsoft recommends that only technically inclined individuals with the knowledge, experience, and requisite tools perform repairs in accordance with the relevant [Surface Services Guide instructions](https://www.microsoft.com/download/100440) available on the Microsoft Download Center. 
 
-> [!CAUTION]
-> Opening or repairing your device can present electric shock, device damage, fire and personal injury risks, and other hazards. Use caution if undertaking do-it-yourself repairs. Further, any resulting damage caused will not be covered under Microsoft's Limited Hardware Warranty or purchased protection plan.
-
 > [!NOTE]
-> Replaceable components have a 1-year Microsoft Limited Hardware Warranty<sup>3</sup> and can be purchased from a [Microsoft Authorized Device Reseller](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface).
+> Replaceable components have a 1-year Microsoft Limited Hardware Warranty<sup>3</sup> and can be purchased from a [Microsoft Authorized Device Reseller](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface). Replaceable compononents are currently **only available for purchase separately**, independent of the warranty status of your device. To order, see [Customer self-serve repair](surface-customer-self-repair-surface.md).
+
 
 
 |Device              |Replaceable components                                                                                                                                                                                                                                                                                                                                                                           |
@@ -51,11 +45,15 @@ Microsoft recommends that only technically inclined individuals with the knowled
 | **Surface Studio 2+**  <br> :::image type="content" source="images/surface-service-repair/studio-2-plus.png" alt-text="Screenshot of Surface Studio 2+." :::   | - Removable solid-state drive (rSSD)<br>- Motherboard<br>- A/B-Cover (Display module)<br>- Thermal Module                                                                                                                                                                                                                                                                            |
 | **Surface Laptop SE** <br>  :::image type="content" source="images/surface-service-repair/laptop-se.png" alt-text="Screenshot of Surface Laptop SE." :::   | - A/B Cover (Display module)<br>- C-Cover (Keyboard)<br>- Bucket<br>- Feet & Screws<br>- Speaker & Wi-Fi Modules<br>- Motherboard                 
 
-## Surface service guides 
+## Surface service guides & related documentation
 
-Downloadable service guides provide step-by-step instructions for servicing specific devices. This documentation and instructions are intended for use by skilled technicians and IT professionals only. 
+Downloadable service guides provide step-by-step instructions for servicing specific devices. This documentation is intended for use by skilled technicians and IT professionals. 
 
 - [Download service guides](https://www.microsoft.com/download/100440)
+- [Replace the feet on Surface devices](https://support.microsoft.com/surface/replace-the-feet-on-surface-devices-791bcf1d-db4a-4807-816e-06d30072383d)
+
+> [!CAUTION]
+> Opening or repairing your device can present electric shock, device damage, fire and personal injury risks, and other hazards. Use caution if undertaking do-it-yourself repairs. Further, any resulting damage caused will not be covered under Microsoft's Limited Hardware Warranty or purchased protection plan.
 
 ### Repair videos 
 
@@ -74,6 +72,7 @@ Demos from Surface engineering show how to disassemble replaceable components, a
 - [In-store Support](https://support.microsoft.com/surface/find-a-participating-best-buy-service-center-for-in-person-support-in-the-us-9c30c2ba-a8d3-4657-b9df-9c00239751a2)
 - [Purchase replaceable Components at our Authorized Resellers](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface#DEVICESRESELLERS)
 
+
 ## Self help tips & tools
 
 - [Surface Diagnostic Toolkit for Business](surface-diagnostic-toolkit-business.md)
@@ -86,6 +85,6 @@ Demos from Surface engineering show how to disassemble replaceable components, a
 ### References
 
 1. Repairing your device with a replaceable component does not impact Microsoft’s Limited Warranty, however any damage to the device resulting from a repair performed by someone other than Microsoft or an Authorized Service Provider will not be covered under Microsoft’s warranty or protection plan.
-1. Customer self-repair is only available on Microsoft devices with a removable component per the product’s technical specifications. Microsoft recommends that self-repair be performed by technically inclined individuals with the knowledge, experience and required tools while following a Microsoft Service Guide. Opening or repairing your device can present various risks, such as electric shock, device damage, fire and personal injury risks, and other hazards. Use caution if undertaking do-it-yourself repairs. Further, any resulting damage caused will not be covered under Microsoft’s Limited Hardware Warranty or purchased protection plan.
-1. Microsoft’s Limited Hardware Warranty is in addition to any right you may have under consumer or other laws applicable to you.
-1. Back cover (aka bucket) for Surface Pro 9 with 5G is only available in select markets and is currently unavailable in US. 
+2. Customer self-repair is only available on Microsoft devices with a removable component per the product’s technical specifications. Microsoft recommends that self-repair be performed by technically inclined individuals with the knowledge, experience and required tools while following the applicable [Surface Service Guide](https://www.microsoft.com/download/100440) or [article](https://support.microsoft.com/surface/replace-the-feet-on-surface-devices-791bcf1d-db4a-4807-816e-06d30072383d). Opening or repairing your device can present various risks, such as electric shock, device damage, fire and personal injury risks, and other hazards. Use caution if undertaking do-it-yourself repairs. Further, any resulting damage caused will not be covered under Microsoft’s Limited Hardware Warranty or purchased protection plan.
+3. Microsoft’s Limited Hardware Warranty is in addition to any right you may have under consumer or other laws applicable to you.
+4. Back cover (aka bucket) for Surface Pro 9 with 5G is only available in select markets and is currently unavailable in US. 
