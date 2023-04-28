@@ -36,11 +36,13 @@ Sign in to [Microsoft Intune admin center](https://endpoint.microsoft.com), sele
 
 | Role                                      | Permissions                                                                                                                                                                                 |
 | ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Microsoft Hardware Warranty Administrator | View all service requests<br>Create/manage device replacement requests<br>Add/edit/delete ship-to address(es)<br>Read-only access to the M365 tenant outside of the Hardware Support Portal |
-| Microsoft Hardware Warranty Specialist    | View own service requests<br>Create/manage device replacement requests<br>Read-only access to the M365 tenant outside of the Hardware Support Portal                                        |
+| Microsoft Hardware Warranty Administrator<sup>1</sup> | View all service requests<br>Create/manage device replacement requests<br>Add/edit/delete ship-to address(es)<br>Read-only access to the M365 tenant outside of the Hardware Support Portal |
+| Microsoft Hardware Warranty Specialist<sup>1</sup>     | View own service requests<br>Create/manage device replacement requests<br>Read-only access to the M365 tenant outside of the Hardware Support Portal                                        |
 | Global Admin                              | View service requests<br>Create/manage device replacement requests<br>Add/edit/delete ship-to address(es)<br>Create/manage users and their roles                                            |
 | Service Support Admin                     | View service requests<br>Create/manage device replacement requests                                                                                                                          |
 | Billing Admin                             | View service requests<br>Create/manage device replacement requests<br>Add/edit/delete ship-to address(es)                                                                                   |
+
+1. *Requires **Read Only Operator** role for access*.
 
 ## Monitor Surface devices
 
