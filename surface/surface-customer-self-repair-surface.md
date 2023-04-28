@@ -34,10 +34,10 @@ This section explains how self-repair works for commercial customers.
 
 In this scenario, a customer must replace a broken display on their Surface Laptop 5. (Follow the same process for all other part requests for repairable Surface devices.)
 
-1. First, you need to obtain the appropriate part number for the replaceable part and order it from an authorized device reseller. In this example, you would need the part number that corresponds to the display size and color of the device.
-2. Go to [Surface Service Guides](https://www.microsoft.com/download/100440) and download the **Surface Laptop 5 Service Guide** (available in English, French, Japanese, or Simplified Chinese). This page contains links to all available Service Guides for Surface devices.
+1. First, you need to obtain the appropriate part number for the replaceable part and order it from an [authorized device reseller](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface#DEVICESRESELLERS). In this example, you would need the part number that corresponds to the display size and color of the device.
+2. Go to [Surface Service Guides](https://www.microsoft.com/download/100440) and download the **Surface Laptop 5 Service Guide** (available in English, French, Japanese, or Simplified Chinese). The [Surface Service Guides](https://www.microsoft.com/download/100440) page contains links to all available Service Guides for Surface devices.
 3. Go to the Illustrated Parts List and look for the display (7).
-:::image type="content" source="images/surface-service-repair/surface-service-guide-ssurface-laptop-5-illustrated-parts-list.png" alt-text="Screenshot of Illustrated Parts List for Surface Laptop 5.":::
+:::image type="content" source="images/surface-service-repair/surface-service-guide-surface-laptop-5-illustrated-parts-list.png" alt-text="Screenshot of Illustrated Parts List for Surface Laptop 5.":::
 4. Look up the part number; specifically, the CRU Part No (customer replaceable unit): in this example, the CRU Part No for a Platinum 15-inch Surface Laptop 5 is **U71-00001**.
 :::image type="content" source="images/surface-service-repair/surface-service-guide-order-display-example-surface-laptop-5.png" alt-text="Screenshot that shows the CRU Part No for a replacement display on Surface Laptop 5.":::
 
