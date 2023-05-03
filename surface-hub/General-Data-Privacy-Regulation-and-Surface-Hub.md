@@ -8,6 +8,9 @@ ms.author: hachidan
 ms.topic: how-to
 ms.localizationpriority: medium
 ms.date: 02/09/2023
+appliesto:
+- Surface Hub
+- Surface Hub 2S
 ---
 
 # Manage EU privacy settings on Surface Hub

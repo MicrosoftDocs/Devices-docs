@@ -16,7 +16,7 @@ appliesto:
 
 # Wake On LAN for Surface devices
 
-Surface devices are capable of Wake On LAN (WOL) from Modern Standby (also known as Connected Standby). With WOL, IT admins can remotely wake up devices and automatically perform management tasks with Microsoft Endpoint Manager or third party solutions.
+Surface devices are capable of Wake On LAN (WOL) from Modern Standby (also known as Connected Standby). With WOL, IT admins can remotely wake up devices and automatically perform management tasks with Microsoft Intune admin center or third party solutions.
 
 >[!NOTE]
 >To support WOL, Surface devices must be plugged into AC power and use a Surface Ethernet adapter or docking device that is connected to a wired network.

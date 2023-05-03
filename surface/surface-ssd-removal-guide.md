@@ -4,7 +4,7 @@ description: This article, intended for qualified IT technicians, describes the 
 ms.prod: surface
 ms.localizationpriority: medium
 author: coveminer
-ms.author: brrecord
+ms.author: hachidan
 ms.topic: how-to
 ms.date: 10/14/2022
 manager: frankbu
@@ -84,7 +84,7 @@ If the device is encrypted before SSD removal and replacement, follow these step
 
 ## Remove and replace SSD
 
-1. Remove the SSD by using the instructions for your device included in the appropriate [Surface Service Guide](https://www.microsoft.com/download/100440).
+1. Remove the SSD by using the instructions for your device included in the applicable [Surface Service Guide](https://www.microsoft.com/download/100440).
 2. Put the original SSD into a new device and connect the new device to a wired internet connection.
 3. Power on the new device. The device may go through a firmware update during startup.  
 

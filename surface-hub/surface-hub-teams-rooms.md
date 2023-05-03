@@ -20,7 +20,7 @@ Teams Rooms for Surface Hub automatically replaces the previous [Surface Hub Tea
 - Familiar meeting features including chat bubbles, reactions, desktop and application sharing, give and take control and audio, full PowerPoint live support, together mode, and large gallery.
 - Teams Rooms on Surface Hub can run side by side with other applications or run minimized.
 - Admins can configure features like Coordinated Meeting, Proximity Join for Surface Hub, and [Direct Guest Join](#third-party-meetings-on-surface-hub). [XML files](/microsoftteams/rooms/surface-hub-manage-config#teams-configuration-file-syntax) are supported and will be migrated to the new settings model.
-- New QoS Options and network requirements. To learn more, see [Configure networking and Quality of Service for Microsoft Teams Room on Surface Hub](surface-hub-teams-rooms-networking.md).
+- New QoS Options and network requirements. To learn more, see [Configure networking and Quality of Service for Microsoft Teams Rooms on Surface Hub](surface-hub-teams-rooms-networking.md).
 - If it is not already the default, Teams can be set as the default app for meetings and calls in **Settings** > **Surface Hub** > **Calling & audio**. To learn more about meeting modes and configuring them through MDM policy, see [Manage Surface Hub with an MDM provider](manage-settings-with-mdm-for-surface-hub.md#changing-default-app-for-meetings--calls).
 
 > [!TIP]
@@ -48,7 +48,7 @@ The new Teams Rooms for Surface Hub client, will automatically apply existing se
 
 ### Prepare networking for Teams Rooms
 
-To optimize Teams Rooms, refer to the requirements and recommendations described in [Configure networking and Quality of Service for Microsoft Teams Room on Surface Hub](surface-hub-teams-rooms-networking.md).
+To optimize Teams Rooms, refer to the requirements and recommendations described in [Configure networking and Quality of Service for Microsoft Teams Rooms on Surface Hub](surface-hub-teams-rooms-networking.md).
 
 ### Simplified management of Teams on Surface Hub
 
@@ -85,7 +85,7 @@ Depending on your environment, you may need to configure more settings. For exam
 
 #### Configure Edge policy settings
 
-To enable a more seamless experience that avoids users having to approve the microphone and camera for each Hub session, you can configure the following Edge policies via Microsoft Endpoint Manager. To learn more, see [Create a device profile in Microsoft Intune](/mem/intune/configuration/device-profile-create).
+To enable a more seamless experience that avoids users having to approve the microphone and camera for each Hub session, you can configure the following Edge policies via Microsoft Intune admin center. To learn more, see [Create a device profile in Microsoft Intune](/mem/intune/configuration/device-profile-create).
 
 | Microsoft Edge policy setting                 | Location         | Notes      |
 | --------------------------------------- | ----------------------- | ------------------------------------------------------- |

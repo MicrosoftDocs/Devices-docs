@@ -8,6 +8,9 @@ ms.topic: how-to
 ms.date: 07/08/2019
 manager: frankbu
 ms.localizationpriority: medium
+appliesto:
+- Surface Hub
+- Surface Hub 2S
 ---
 
 # Local management for Surface Hub settings
