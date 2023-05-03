@@ -10,6 +10,9 @@ ms.author: hachidan
 ms.topic: conceptual
 ms.date: 03/03/2021
 ms.localizationpriority: medium
+appliesto:
+- Surface Hub
+- Surface Hub 2S
 ---
 
 # Monitor Surface Hub

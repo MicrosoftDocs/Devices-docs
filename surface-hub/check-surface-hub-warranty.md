@@ -8,10 +8,13 @@ ms.author: hachidan
 ms.topic: how-to
 ms.date: 01/18/2023
 ms.localizationpriority: medium
+appliesto:
+- Surface Hub
+- Surface Hub 2S
 ---
 # Check Surface Hub warranty status
 
-You can check the warranty status directly from Surface Hub or from the cloud, via the Surface Support for Business Online Service Center or the Microsoft Endpoint Manager Admin Center.
+You can check the warranty status directly from Surface Hub or from the cloud, via the Surface Support for Business Online Service Center or the Microsoft Intune admin center.
 
 ## Check warranty status from Surface Hub
 
