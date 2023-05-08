@@ -70,7 +70,7 @@ FullBrightness   | Default: 100  <br>Options Range of 0-100 percent of screen br
 
 *Release Date: 3 May 2023*<br>
 This version of Surface Brightness Control adds support for the following:
-- New policy setting: AlwaysAllowBrightenEnabled
+- New Registry setting: AlwaysAllowBrightenEnabled
 
 ### Version 1.16.137<br>
 
