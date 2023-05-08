@@ -66,7 +66,7 @@ FullBrightness   | Default: 100  <br>Options Range of 0-100 percent of screen br
 
 ## Changes and updates
 
-### Version 1.20.138.0<br>
+### Latest version
 
 *Release Date: 3 May 2023*<br>
 This version of Surface Brightness Control adds support for the following:
