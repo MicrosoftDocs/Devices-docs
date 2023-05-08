@@ -11,7 +11,7 @@ ms.localizationpriority: medium
 appliesto:
 - Windows 10
 - Windows 11
-ms.date: 06/09/2020
+ms.date: 05/08/2023
 ---
 
 # Surface Brightness Control
@@ -56,14 +56,21 @@ documentation](/windows/desktop/sysinfo/registry).
 
 | Registry Setting | Data| Description  
 |-----------|------------|---------------
-| BrightnessControlEnabled  |  Default: 01  <br> Option: 01, 00 <br> Type: REG_BINARY |  This setting allows you to turn Surface Brightness Control on or off. To disable Surface Brightness Control, set the value to 00. If you do not configure this setting, Surface Brightness Control is on. |
-| BrightnessControlOnPowerEnabled| Default: 01 <br> Options: 01, 00 <br> Type: REG_BINARY | This setting allows you to turn off Surface Brightness Control when the device is directly connected to power. To disable Surface Brightness Control when power is plugged in, set the value to 00. If you do not configure this setting, Surface Brightness Control is on. |
-| DimmedBrightness   | Default: 20  <br>Option: Range of 0-100 percent of screen brightness <br> Data Type: Positive integer <br> Type: REG_DWORD | This setting allows you to manage brightness range during periods of inactivity. If you do not configure this setting, the brightness level will drop to 20 percent of full brightness after 30 seconds of inactivity. |
-FullBrightness   | Default: 100  <br>Option: Range of 0-100 percent of screen brightness <br> Data Type: Positive integer <br> Type: REG_DWORD  | This setting allows you to manage the maximum brightness range for the device. If you do not configure this setting, the maximum brightness range is 100 percent.|  
-| InactivityTimeout| Default: 30 seconds <br>Option: Any numeric value  <br>Data Type: Integer  <br> Type: REG_DWORD | This setting allows you to manage the period of inactivity before dimming the device. If you do not configure this setting, the inactivity timeout is 30 seconds.|
-| TelemetryEnabled | Default: 01 <br>Option: 01, 00 <br> Type: REG_BINARY  | This setting allows you to manage the sharing of app usage information to improve software and provide a better user experience. To disable telemetry, set the value to 00. If you do not configure this setting, telemetry information is shared with Microsoft per the [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement). |
+| BrightnessControlEnabled  |  Default: 01  <br> Options 01, 00 <br> Type: REG_BINARY |  This setting allows you to turn Surface Brightness Control on or off. To disable Surface Brightness Control, set the value to 00. If you do not configure this setting, Surface Brightness Control is on. |
+| BrightnessControlOnPowerEnabled| Default: 00 <br> Options: 01, 00 <br> Type: REG_BINARY | This setting allows you to turn off Surface Brightness Control when the device is directly connected to power. To disable Surface Brightness Control when power is plugged in, set the value to 00. If you do not configure this setting, Surface Brightness Control is off. |
+| DimmedBrightness   | Default: 20  <br>Options Range of 0-100 percent of screen brightness <br> Data Type: Positive integer <br> Type: REG_DWORD | This setting allows you to manage brightness range during periods of inactivity. If you do not configure this setting, the brightness level will drop to 20 percent of full brightness after 30 seconds of inactivity. |
+FullBrightness   | Default: 100  <br>Options Range of 0-100 percent of screen brightness <br> Data Type: Positive integer <br> Type: REG_DWORD  | This setting allows you to manage the maximum brightness range for the device. If you do not configure this setting, the maximum brightness range is 100 percent.|  
+|AlwaysAllowBrightenEnabled| Default: 01 <br> Options: 01, 00 <br> Type: REG_BINARY | This setting allows Surface Brightness Control to brighten the screen when AC power is connected, even if BrightessControlOnPowerEnabled is set to 00.  If you disable this, if power is connected while the screen is dimmed, it will not brighten if BrightControlOnPowerEnabled is also set to 00.|
+| InactivityTimeout| Default: 30 seconds <br>Options Any numeric value  <br>Data Type: Integer  <br> Type: REG_DWORD | This setting allows you to manage the period of inactivity before dimming the device. If you do not configure this setting, the inactivity timeout is 30 seconds.|
+| TelemetryEnabled | Default: 01 <br>Options 01, 00 <br> Type: REG_BINARY  | This setting allows you to manage the sharing of app usage information to improve software and provide a better user experience. To disable telemetry, set the value to 00. If you do not configure this setting, telemetry information is shared with Microsoft per the [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement). |
 
 ## Changes and updates
+
+### Version 1.20.138.0<br>
+
+*Release Date: 3 May 2023*<br>
+This version of Surface Brightness Control adds support for the following:
+- New policy setting: AlwaysAllowBrightenEnabled
 
 ### Version 1.16.137<br>
 
