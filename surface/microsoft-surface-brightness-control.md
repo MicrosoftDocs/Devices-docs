@@ -70,12 +70,14 @@ FullBrightness   | Default: 100  <br>Options Range of 0-100 percent of screen br
 
 *Release Date: 3 May 2023*<br>
 This version of Surface Brightness Control adds support for the following:
+
 - New Registry setting: AlwaysAllowBrightenEnabled
 
 ### Version 1.16.137<br>
 
 *Release Date: 22 October 2019*<br>
 This version of Surface Brightness Control adds support for the following:
+
 -Recompiled for x86, adding support for Surface Pro 7, Surface Pro X,  Surface Laptop 3. It includes support for subsequently released products.
 
 ### Version 1.12.239.0
