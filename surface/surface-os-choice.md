@@ -33,11 +33,11 @@ Commercial customers can choose to have Windows 10 or Windows 11 installed on ne
 
 Whether you choose to purchase new Surface devices running Windows 11 or opt for Surface devices with Windows 10<sup>1</sup> may depend on your current corporate environment:
 
-- **Windows 10 only.** Designed for customers who require Windows 10 out of the box and deploy devices using Windows Autopilot or Azure Active Directory domain join (AADJ). With **Windows 10 SKUs**, you avoid the need to compile driver packs and reimage devices before distributing them to users. It includes an additional fee of $30 per device (based on MSRP, actual pricing may vary) applicable to all eligible devices, as listed above, beginning August 1, 2022. 
+- **Windows 10 only.** Designed for customers who require Windows 10 out of the box and deploy devices using Windows Autopilot or Azure Active Directory domain join (AADJ). With **Windows 10 SKUs**, you avoid the need to compile driver packs and reimage devices before distributing them to users. It includes an additional fee of $30 per device (based on MSRP, actual pricing may vary).<sup>2</sup> 
 - **Windows 10 & Windows 11.** Designed for customers who use Windows 11 and also deploy Windows 10 via traditional deployment methods that rely on reimaging devices. With **Windows 11 SKUs**, you can take advantage of built-in downgrade rights to Windows 10 and load custom Windows 10 images on devices as needed.
 
 > [!TIP]
-> Microsoft Windows 10 Pro is preinstalled with Windows 10 downgrade software. It includes a license for the Downgrade Facilitation Product available via downgrade rights from Windows 11 Pro. The appropriate build is indicated in the [Windows OS versions](#windows-os-versions) section below. End users may use only one version at a time; switching between versions requires uninstalling the other version.
+> Microsoft Windows 10 Pro is preinstalled with Windows 10 downgrade software. It includes a license for the Downgrade Facilitation Product available via downgrade rights from Windows 11 Pro. The appropriate build is indicated in the [Windows OS versions](#windows-os-versions) section on this page. End users may use only one version at a time; switching between versions requires uninstalling the other version.
 
 **Table 1. OS choice summary**
 
@@ -48,7 +48,7 @@ Whether you choose to purchase new Surface devices running Windows 11 or opt for
 
 ### Windows 10 only
 
-The ability to get the OS version you need directly from Surface includes delivery of factory shrink-wrapped devices fully configured with the requisite firmware, drivers, and security policies. The additional $30 fee covers the cost of this service along with the following benefits that allow you to:
+The ability to get the OS version you need directly from Surface includes delivery of factory shrink-wrapped devices fully configured with the requisite firmware, drivers, and security policies. The extra fee covers the cost of this service along with the following benefits that allow you to:
 
 - Provide your users with the latest Surface hardware today while upgrading to Windows 11 at your own pace.
 - Reduce your exposure to potential supply chain vulnerabilities by eliminating the need to reimage to Windows 10.
@@ -78,6 +78,7 @@ Commercial customers can place orders for new devices via [authorized Microsoft 
 ### References
 
 1. Windows 10 Downgrade Facilitation SKU offered for Windows 11-capable devices.  
+2. Effective July 1, 2023, additional fee will increase from $30 to $50 for the following devices: Surface Pro 9, Surface Laptop 5, Surface Go 3 LTE, and Surface Pro 8 LTE. The fee will remain set at $30 for Surface Laptop Go 2, Surface Laptop 4, and Surface Laptop Studio.
 
 ### Learn more
 
