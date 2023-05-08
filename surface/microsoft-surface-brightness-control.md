@@ -23,7 +23,7 @@ kiosk scenarios, you can optimize power management using the Surface Brightness 
 - Brightness level when dimmed.
 - Maximum brightness level when in use.
 
-Download Surface Brightness Control from [Surface Tools for IT](https://www.microsoft.com/download/details.aspx?id=46703). Select the file **Surface_Brightness_Control_v1.16.137.0.msi** in the available list.
+Download Surface Brightness Control from [Surface Tools for IT](https://www.microsoft.com/download/details.aspx?id=46703). Select the file **Surface_Brightness_Control_v1.20.139.0.msi** in the available list.
 
 ## Supported devices
 
@@ -39,7 +39,7 @@ Download Surface Brightness Control from [Surface Tools for IT](https://www.micr
 
 ## Run Surface Brightness Control
 
-- Install **Surface_Brightness_Control_v1.16.137.0.msi** on the target device, and Surface Brightness Control begins working immediately.
+- Install **Surface_Brightness_Control_v1.20.139.0.msi** on the target device, and Surface Brightness Control begins working immediately.
 
 ## Configure Surface Brightness Control
 
