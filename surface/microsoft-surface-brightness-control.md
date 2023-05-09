@@ -23,7 +23,7 @@ kiosk scenarios, you can optimize power management using the Surface Brightness 
 - Brightness level when dimmed.
 - Maximum brightness level when in use.
 
-Download Surface Brightness Control from [Surface Tools for IT](https://www.microsoft.com/download/details.aspx?id=46703). Select the file **Surface_Brightness_Control_v1.16.137.0.msi** in the available list.
+Download Surface Brightness Control from [Surface Tools for IT](https://www.microsoft.com/download/details.aspx?id=46703). Select the file **Surface_Brightness_Control_v1.20.139.0.msi** in the available list.
 
 ## Supported devices
 
@@ -39,7 +39,7 @@ Download Surface Brightness Control from [Surface Tools for IT](https://www.micr
 
 ## Run Surface Brightness Control
 
-- Install **Surface_Brightness_Control_v1.16.137.0.msi** on the target device, and Surface Brightness Control begins working immediately.
+- Install **Surface_Brightness_Control_v1.20.139.0.msi** on the target device, and Surface Brightness Control begins working immediately.
 
 ## Configure Surface Brightness Control
 
@@ -57,8 +57,8 @@ documentation](/windows/desktop/sysinfo/registry).
 | Registry Setting | Data| Description  
 |-----------|------------|---------------
 | BrightnessControlEnabled  |  Default: 01  <br> Options 01, 00 <br> Type: REG_BINARY |  This setting allows you to turn Surface Brightness Control on or off. To disable Surface Brightness Control, set the value to 00. If you don't configure this setting, Surface Brightness Control is on. |
-| BrightnessControlOnPowerEnabled| Default: 00 <br> Options: 01, 00 <br> Type: REG_BINARY | This setting allows you to turn off Surface Brightness Control when the device is directly connected to power. To disable Surface Brightness Control when power is plugged in, set the value to 00. If you don't configure this setting, Surface Brightness Control is off. |
-|AlwaysAllowBrightenEnabled| Default: 01 <br> Options: 01, 00 <br> Type: REG_BINARY | This setting allows Surface Brightness Control to brighten the screen when AC power is connected, even if BrightessControlOnPowerEnabled is set to 00 (disabled).  If you disable this setting and power is connected while the screen is dimmed, it will not brighten if BrightControlOnPowerEnabled is also set to 00 (disabled).|
+| BrightnessControlOnPowerEnabled| Default: 00 <br> Options: 01, 00 <br> Type: REG_BINARY | This setting allows you to turn off Surface Brightness Control when the device is directly connected to AC power. To disable Surface Brightness Control when AC power is plugged in, set the value to 00. If you don't configure this setting when plugged into AC power, Surface Brightness Control is off. |
+|AlwaysAllowBrightenEnabled| Default: 01 <br> Options: 01, 00 <br> Type: REG_BINARY | This setting allows Surface Brightness Control to brighten the screen when AC power is connected, even if BrightessControlOnPowerEnabled is set to 00 (disabled).  If you disable this setting and AC power is connected while the screen is dimmed, it will not brighten if BrightControlOnPowerEnabled is also set to 00 (disabled).|
 | DimmedBrightness   | Default: 20  <br>Options Range of 0-100 percent of screen brightness <br> Data Type: Positive integer <br> Type: REG_DWORD | This setting allows you to manage brightness range during periods of inactivity. If you don't configure this setting, the brightness level will drop to 20 percent of full brightness after 30 seconds of inactivity. |
 FullBrightness   | Default: 100  <br>Options Range of 0-100 percent of screen brightness <br> Data Type: Positive integer <br> Type: REG_DWORD  | This setting allows you to manage the maximum brightness range for the device. If you don't configure this setting, the maximum brightness range is 100 percent.|  
 | InactivityTimeout| Default: 30 seconds <br>Options Any numeric value  <br>Data Type: Integer  <br> Type: REG_DWORD | This setting allows you to manage the period of inactivity before dimming the device. If you don't configure this setting, the inactivity timeout is 30 seconds.|
