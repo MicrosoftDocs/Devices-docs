@@ -1,9 +1,9 @@
 ---
 title: Surface Hub can't download updates from Windows Update
 description: Helps resolve the issue in which Surface Hub can't download updates from Windows Update. The download either doesn't start or remains stuck at 1% progress.
-ms.date: 05/08/2023
-author: v-lianna
-ms.author: v-lianna
+ms.date: 05/10/2023
+author: Deland-Han
+ms.author: delhan
 manager: dcscontentpm
 audience: itpro
 ms.topic: troubleshooting
@@ -40,4 +40,6 @@ To resolve this issue, make sure that the proxy doesn't try to perform any of th
 
 If you're using a Bluecoat proxy, you can find more details at [Microsoft Windows updates fail to install](https://knowledge.broadcom.com/external/article/166719/microsoft-windows-updates-fail-to-instal.html).
 
-[!INCLUDE [Third-party contact disclaimer](../../includes/third-party-contact-disclaimer.md)]
+> **Third-party information disclaimer**
+>
+> Microsoft provides third-party contact information to help you find technical support. This contact information may change without notice. Microsoft does not guarantee the accuracy of this third-party contact information.

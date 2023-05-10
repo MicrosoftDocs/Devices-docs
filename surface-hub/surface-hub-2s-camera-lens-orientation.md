@@ -1,9 +1,9 @@
 ---
 title: Surface Hub 2S camera lens orientation
 description: Introduction of an external camera accessory that can be mounted to any of the four (4) USB-C ports on the bezel of the display.
-ms.date: 05/08/2023
-author: v-lianna
-ms.author: v-lianna
+ms.date: 05/10/2023
+author: Deland-Han
+ms.author: delhan
 manager: dcscontentpm
 audience: itpro
 ms.topic: how-to

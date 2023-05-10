@@ -1,9 +1,9 @@
 ---
 title: Surface Hub Third-Party Stand Policy and Waiver
 description: Provides Surface Hub Third-Party Stand Policy and Waiver for each country or region.
-ms.date: 05/08/2023
-author: v-lianna
-ms.author: v-lianna
+ms.date: 05/10/2023
+author: Deland-Han
+ms.author: delhan
 manager: dcscontentpm
 audience: itpro
 ms.topic: how-to

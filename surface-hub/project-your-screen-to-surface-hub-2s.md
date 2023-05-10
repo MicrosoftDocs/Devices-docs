@@ -1,9 +1,9 @@
 ---
 title: Project your screen to Surface Hub 2S
 description: Describes several ways you can project your device's screen to a Surface Hub 2S.
-ms.date: 05/08/2023
-author: v-lianna
-ms.author: v-lianna
+ms.date: 05/10/2023
+author: Deland-Han
+ms.author: delhan
 manager: dcscontentpm
 audience: itpro
 ms.topic: how-to
