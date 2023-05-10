@@ -17,9 +17,6 @@ ms.technology: windows
 
 This article provides Surface Hub Third-Party Stand Policy and Waiver for each country or region. To download the document, select the country or region where you purchased your Surface Hub.
 
-_Applies to:_ &nbsp; General  
-_Original KB number:_ &nbsp; 4498737
-
 To find other warranty terms in your country or region, go to [Warranties, extended service plans, and Terms & Conditions for your device](https://support.microsoft.com/topic/warranty-and-protection-plan-terms-conditions-eedf7a23-84a7-1a47-480b-0e10503eedf5).
 
 > [!NOTE]

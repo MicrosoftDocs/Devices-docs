@@ -15,14 +15,10 @@ ms.technology: windows
 ---
 # Surface Hub 2S camera lens orientation
 
-This article introduces an external camera accessory that can be mounted to any of the four (4) USB-C ports on the bezel of the display.
+Surface Hub 2S comes with an external camera accessory that can be mounted to any of the four (4) USB-C ports on the bezel of the display. It is recommended to place the camera on the top center of the display to provide the widest field of view for remote meeting participants.
 
 _Applies to:_ &nbsp; Surface Hub 2S - 50 inch  
 _Original KB number:_ &nbsp; 4509729
-
-## Introduction
-
-Surface Hub 2S comes with an external camera accessory that can be mounted to any of the four (4) USB-C ports on the bezel of the display. It is recommended to place the camera on the top center of the display to provide the widest field of view for remote meeting participants.
 
 ## Summary
 
