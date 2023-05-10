@@ -21,11 +21,11 @@ You can display content from your devices to Surface Hub 2S. If the source devic
 
 ## Project using cables to Surface Hub 2S
 
-To project your screen with cables, connect using the ports along the bottom edge of the compute cartridge. The compute cartridge has an HDMI port, a USB-C port, USB-A, as well as the ethernet port and DisplayPort.
+To project your screen with cables, connect using the ports along the bottom edge of the compute cartridge. The compute cartridge has an HDMI port, a USB-C port, USB-A, as well as the Ethernet port and DisplayPort.
 
 You can project in with USB-C or HDMI—the DisplayPort is only for mirroring your Surface Hub’s screen on another screen.
 
-:::image type="content" source="images/computer-cartridge-ports.png" alt-text="Screenshot of the compute cartridge that has an HDMI port, a USB-C port, USB-A, as well as the ethernet port and DisplayPort.":::
+:::image type="content" source="images/computer-cartridge-ports.png" alt-text="Screenshot of the compute cartridge that has an HDMI port, a USB-C port, USB-A, as well as the Ethernet port and DisplayPort.":::
 
 ### Recommended wired configurations 
 
@@ -122,6 +122,7 @@ Windows 10/11 natively supports Miracast, which lets you wireless connect to Sur
 2. In the Connect window, look for the name of your Surface Hub 2S in the list of nearby devices. You can find the name of your Surface Hub 2S in the bottom left corner of the display or when you press **Connect** on the welcome screen.
 
 :::image type="content" source="images/surface-hub-ready-connect-wirelessly.png" alt-text="Screenshot of a welcome screen shows that Surface Hub is ready for you to connect wirelessly.":::
+
 3. Enter a PIN if your system administrator has enabled the PIN setting for Miracast connections. This requires you to enter a PIN number when you connect to Surface Hub 2S for the first time.
 
 > [!NOTE]
