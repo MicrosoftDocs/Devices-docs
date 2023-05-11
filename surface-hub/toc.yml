@@ -94,6 +94,8 @@
              href: surface-hub-2020-update-whats-new.md
            - name: Operating system essentials
              href: differences-between-surface-hub-and-windows-10-enterprise.md
+           - name: Surface Hub 2S camera lens orientation
+             href: surface-hub-2s-camera-lens-orientation.md
            - name: Start and finish a meeting  
              href: meet-on-surface-hub.md
            - name: Set up & use Microsoft Whiteboard
@@ -104,6 +106,8 @@
              href: change-language-on-surface-hub.md    
            - name: Adjust Surface Hub 2S brightness, volume, & input
              href: surface-hub-2s-onscreen-display.md
+           - name: Using the Surface app 
+             href: using-surface-app-on-surface-hub-2s.md
         - name: Manage
           items:
           - name: Manage Microsoft Surface Hub
@@ -176,6 +180,8 @@
             href: troubleshoot-mdm-csp-surface-hub.md
           - name: Troubleshoot Miracast wireless connectivity
             href: miracast-troubleshooting.md
+          - name: Surface Hub can't download updates from Windows Update
+            href: surface-hub-cannot-download-updates-from-windows-update.md
           - name: Surface Hub may install updates & restart outside maintenance hours
             href: surface-hub-installs-updates-and-restarts-outside-maintenance-hours.md
           - name: Top support solutions for Surface Hub
@@ -246,7 +252,9 @@
                - name: Replace & install compute cartridge 
                  href: surface-hub-2s-replace-cartridge.md         
                - name: Replace & install camera
-                 href: surface-hub-2s-replace-camera.md               
+                 href: surface-hub-2s-replace-camera.md    
+               - name: Third-party stand policy and waiver  
+                 href: surface-hub-third-party-stand-policy-waiver.md             
         - name: Surface Hub v1
           expanded: true
           items:
@@ -276,4 +284,6 @@
                   href: use-cloud-recovery-for-bitlocker-on-surfacehub.md             
                 - name: Surface Hub v1 SSD replacement
                   href: surface-hub-ssd-replacement.md       
+                - name: Third-party stand policy and waiver  
+                  href: surface-hub-third-party-stand-policy-waiver.md     
     
