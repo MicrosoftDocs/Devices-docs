@@ -14,12 +14,20 @@ ms.localizationpriority: Medium
 
 Surface Hub 2S enables you to connect external devices, mirror the display on Surface Hub 2S to another device, and connect multiple third-party peripherals including video conference cameras, conference phones, and room system devices.
 
-You can display content from your devices to Surface Hub 2S. If the source device is Windows-based, that device can also provide TouchBack and InkBack, which takes video and audio from the connected device and presents them on Surface Hub 2S. If Surface Hub 2S encounters a High-Bandwidth Digital Content Protection (HDCP) signal, such as a Blu-ray DVD player, the source is displayed as a black image.
+You can display content from your devices to Surface Hub 2S. If the source device is Windows-based, that device can also provide [TouchBack and InkBack](#control-your-laptop-from-the-surface-hub), which takes video and audio from the connected device and presents them on Surface Hub 2S. If Surface Hub 2S encounters a High-Bandwidth Digital Content Protection (HDCP) signal, such as a Blu-ray DVD player, the source is displayed as a black image.
 
 > [!NOTE]
 > Surface Hub 2S uses the video input selected until a new connection is made, the existing connection is disrupted, or the Connect app is closed.
 
-## Recommended wired configurations 
+## Project using cables to Surface Hub 2S
+
+To project your screen with cables, connect using the ports along the bottom edge of the compute cartridge. The compute cartridge has an HDMI port, a USB-C port, USB-A, as well as the Ethernet port and DisplayPort.
+
+You can project in with USB-C or HDMI—the DisplayPort is only for mirroring your Surface Hub’s screen on another screen.
+
+:::image type="content" source="images/computer-cartridge-ports.png" alt-text="Screenshot of the compute cartridge that has an HDMI port, a USB-C port, USB-A, as well as the Ethernet port and DisplayPort.":::
+
+### Recommended wired configurations 
 
 In general, it’s recommended to use native cable connections whenever possible such as USB-C to USB-C or HDMI to HDMI. Other combinations such as MiniDP to HDMI or MiniDP to USB-C will also work. Some additional configuration may be required to optimize the video-out experience, as described on this page.
 
@@ -33,14 +41,14 @@ In general, it’s recommended to use native cable connections whenever possible
 When you connect a guest computer to Surface Hub 2S via the USB-C port, several USB devices are discovered and configured. These peripheral devices are created for TouchBack and InkBack. As shown in the following table, the peripheral devices can be viewed in Device Manager, which will show duplicate names for some devices, as shown in the following table.
 
  
-|**Peripheral**| **Listing in Device Manager** |
-| ---------------------------- |------------- | ------------------------------|
+|Peripheral| Listing in Device Manager |
+| ---------------------------- |------------- | 
 | Human interface devices | HID-compliant consumer control device<br>HID-compliant pen<br>HID-compliant pen (duplicate item)<br>HID-compliant pen (duplicate item)<br>HID-compliant touch screen<br>USB Input Device<br>USB Input Device (duplicate item) |
 | Keyboards | Standard PS/2 keyboard |
 | Mice and other pointing devices | HID-compliant mouse |
 | USB controllers | Generic USB hub<br>USB composite device |
 
-## Connecting video-in to Surface Hub 2S
+## Connect video-in to Surface Hub 2S
 
 You can input video to Surface Hub 2S using USB-C or HDMI, as indicated in the following table.  
 
@@ -63,7 +71,7 @@ You can input video to Surface Hub 2S using USB-C or HDMI, as indicated in the f
 > [!NOTE]
 > Video from a connected external PC may appear smaller when displayed on Surface Hub 2S.
 
-## Mirroring Surface Hub 2S display on another device
+## Mirror Surface Hub 2S display on another device
 
 You can output video to another display using MiniDP, as indicated in the following table.
 
@@ -93,7 +101,7 @@ Surface Hub 2S includes a MiniDP video-out port for projecting visual content fr
 > [!NOTE]
 > if your second monitor uses a 16:9 aspect ratio (the predominant ratio for most TV monitors), black bars may appear on the left and right sides of the mirrored display. If this occurs, you may wish to inform your users that there is no need to adjust the second display.
 
-## Selecting cables
+## Select cables
 
 Note the following recommendations:
 
@@ -111,13 +119,26 @@ Windows 10/11 natively supports Miracast, which lets you wireless connect to Sur
 ### To connect using Miracast:
 
 1. On your Windows 10/11 device, enter **Windows logo key** + **K**. 
-2. In the Connect window, look for the name of your Surface Hub 2S in the list of nearby devices. You can find the name of your Surface Hub 2S in the bottom left corner of the display.
+2. In the Connect window, look for the name of your Surface Hub 2S in the list of nearby devices. You can find the name of your Surface Hub 2S in the bottom left corner of the display or when you press **Connect** on the welcome screen.
+
+:::image type="content" source="images/surface-hub-ready-connect-wirelessly.png" alt-text="Screenshot of a welcome screen shows that Surface Hub is ready for you to connect wirelessly.":::
+
 3. Enter a PIN if your system administrator has enabled the PIN setting for Miracast connections. This requires you to enter a PIN number when you connect to Surface Hub 2S for the first time.
 
 > [!NOTE]
 >If you do not see the name of the Surface Hub 2S device as expected, it’s possible the previous session was prematurely closed. If so, sign into Surface Hub 2S directly to end the previous session and then connect from your external device.
 
-## Connecting peripherals to Surface Hub 2S
+### Control your laptop from the Surface Hub
+
+Sometimes when you’re presenting or collaborating on Surface Hub, you’ll want to be able to leave your laptop at your seat and be able to fully pay attention to what's on the big screen.
+
+When you've connected a device that has Windows 8 or later to Surface Hub, on that device, you’ll see a checkbox to **Allow mouse, keyboard, touch, and pen input**.
+
+:::image type="content" source="images/checkbox-allow-mouse-keyboard-touch-pen-input.png" alt-text="Screenshot of a checkbox to allow mouse, keyboard, touch, and pen input.":::
+
+When this is checked, you’ll be able to use touch and inking on the Surface Hub to control and make changes on your own connected device. If you’re connecting via USB-C, you’ll be able to use the touch and inking to make changes on your device automatically. However, if you’re connecting with HDMI, you’ll need to connect a USB cable as well to use touch and pen input on your device.
+
+## Connect peripherals to Surface Hub 2S
 
 ### Bluetooth accessories
 
