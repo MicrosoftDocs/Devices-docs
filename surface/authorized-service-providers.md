@@ -27,9 +27,12 @@ The growing ASP network consists of more than 160 locations.
 - [CompuCom](https://www.compucom.com/)
 - [Compugen](https://www.compugen.com/)
 - [Coreio](https://www.coreio.com/)
+- [DXC Technology](https://dxc.com/us)
+- [FEDEX](https://www.fedex.com/global/choose-location.html)
 - [Integrated Technology Group (ITG)](https://www.itgsolutions.com/)
 - [Microserve](https://www.microserve.ca/)
-- [Synnex](https://www.synnexcorp.com/)
+- [TD SYNNEX](https://www.synnexcorp.com/us/)
+- [UDT](https://udtonline.com/)
 
 ### Europe
 
@@ -45,4 +48,6 @@ The growing ASP network consists of more than 160 locations.
 - [ASI solutions](https://www.asi.com.au/)
 - [Comp Now](https://www.compnow.com.au/)
 - [Digital China](https://www.digitalchina.com/)
+- [Double Rise](https://www.doublerise.com/)
 - [JB Hi-Fi](https://www.jbhifi.business/)
+- [Unisys](https://www.unisys.com/)
