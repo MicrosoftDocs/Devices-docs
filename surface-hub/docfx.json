@@ -53,6 +53,7 @@
       "manager": "laurawi",
       "ms.mktglfcycl": "manage",
       "searchScope": ["Surface", "Surface Hub"],
+      "uhfHeaderId": "MSDocsHeader-Surface",
       "recommendations": true,
       "ms.sitesec": "library",
       "feedback_system": "GitHub",
