@@ -20,6 +20,8 @@ Technically inclined individuals with the knowledge, skills, and required tools 
 
 Self-repair replaceable components are available for purchase through [device resellers](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface#DEVICESRESELLERS). There are no certifications required to repair or service a Surface device. Replaceable components have a 1-year Limited Hardware Warranty.<sup>2</sup>
 
+Microsoft is partnering with [ifixit.com](https://www.ifixit.com/Tools/Toolkits) to offer complete tool kits to repair electronics. Use iFixit's everyday precision tool kit or essential electronics tool kit to repair your computers, tablets, game consoles, and or other electronic gadgets.
+
 > [!TIP]
 > Before proceeding with a service request, download the [Surface Diagnostic Toolkit](https://support.microsoft.com/surface/fix-common-surface-problems-using-the-surface-app-and-surface-diagnostic-toolkit-f61d8d18-37a9-863d-f8d0-1982eb16f7b5) for automated hardware tests on components, including the power supply, battery, display, and sound.
 
