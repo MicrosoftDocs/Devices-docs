@@ -2,6 +2,18 @@
 
 
 
+## Week of May 08, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 5/11/2023 | [Surface Hub 2S camera lens orientation](/surface-hub/surface-hub-2s-camera-lens-orientation) | added |
+| 5/11/2023 | [Surface Hub can't download updates from Windows Update](/surface-hub/surface-hub-cannot-download-updates-from-windows-update) | added |
+| 5/11/2023 | [Surface Hub Third-Party Stand Policy and Waiver](/surface-hub/surface-hub-third-party-stand-policy-waiver) | added |
+| 5/11/2023 | [Using the Surface app on Surface Hub 2S](/surface-hub/using-surface-app-on-surface-hub-2s) | added |
+| 5/11/2023 | [Connect devices to Surface Hub 2S](/surface-hub/surface-hub-2s-connect) | modified |
+
+
 ## Week of April 24, 2023
 
 
@@ -35,52 +47,3 @@
 | 4/14/2023 | [Adjust accessibility settings on Surface Hub](/surface-hub/accessibility-surface-hub) | modified |
 | 4/14/2023 | End session - ending a Surface Hub meeting | removed |
 | 4/14/2023 | [Configure password-less sign-in on Surface Hub](/surface-hub/surface-hub-2s-phone-authenticate) | modified |
-
-
-## Week of April 03, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 4/3/2023 | [Surface Hub update history](/surface-hub/surface-hub-update-history) | modified |
-| 4/3/2023 | [Create provisioning packages](/surface-hub/provisioning-packages-for-surface-hub) | modified |
-| 4/3/2023 | [Install apps on your Microsoft Surface Hub](/surface-hub/install-apps-on-surface-hub) | modified |
-| 4/3/2023 | [Surface Hub 2S tech specs](/surface-hub/surface-hub-2s-techspecs) | modified |
-| 4/3/2023 | [Create provisioning packages (Surface Hub)](/surface-hub/provisioning-packages-for-surface-hub) | modified |
-| 4/3/2023 | [Setup worksheet (Surface Hub)](/surface-hub/setup-worksheet-surface-hub) | modified |
-| 4/3/2023 | [Surface Hub may install updates and restart outside maintenance hours](/surface-hub/surface-hub-installs-updates-and-restarts-outside-maintenance-hours) | modified |
-| 4/3/2023 | [Migrate to Windows 10 Pro or Enterprise on Surface Hub 2](/surface-hub/surface-hub-2s-migrate-os) | modified |
-| 4/3/2023 | [Create and test a device account (Surface Hub)](/surface-hub/create-and-test-a-device-account-surface-hub) | modified |
-| 4/3/2023 | [Hybrid deployment (Surface Hub)](/surface-hub/hybrid-deployment-surface-hub-device-accounts) | modified |
-| 4/3/2023 | [Using the Surface Hub Recovery Tool](/surface-hub/surface-hub-recovery-tool) | modified |
-| 4/3/2023 | [Configure non Global admin accounts on Surface Hub 2S](/surface-hub/surface-hub-2s-nonglobal-admin) | added |
-| 4/3/2023 | [Surface Hub documentation # < 60 chars](/surface-hub/index) | modified |
-| 4/3/2023 | [Install and configure the new Microsoft Edge on Surface Hub](/surface-hub/surface-hub-install-chromium-edge) | modified |
-| 4/3/2023 | [Monitor your Microsoft Surface Hub](/surface-hub/monitor-surface-hub) | modified |
-| 4/3/2023 | [First-run program (Surface Hub)](/surface-hub/first-run-program-surface-hub) | modified |
-| 4/3/2023 | [Manage Windows updates on Surface Hub](/surface-hub/manage-windows-updates-for-surface-hub) | modified |
-| 4/3/2023 | [What's new in Windows 10 Team 2020 Update](/surface-hub/surface-hub-2020-update-whats-new) | added |
-| 4/3/2023 | [Configure Windows 10 Pro or Enterprise on Surface Hub 2](/surface-hub/surface-hub-2-post-install) | modified |
-| 4/6/2023 | [Create and test a device account on Surface Hub](/surface-hub/create-and-test-a-device-account-surface-hub) | modified |
-
-
-## Week of March 27, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 3/27/2023 | [Operating system essentials for Surface Hub](/surface-hub/differences-between-surface-hub-and-windows-10-enterprise) | modified |
-| 3/28/2023 | [Surface Hub documentation # < 60 chars](/surface-hub/index) | modified |
-| 3/31/2023 | [Install and configure the new Microsoft Edge on Surface Hub](/surface-hub/surface-hub-install-chromium-edge) | modified |
-| 3/31/2023 | [Surface Hub update history](/surface-hub/surface-hub-update-history) | modified |
-| 3/31/2023 | [Migrate to Windows 10 Pro or Enterprise on Surface Hub 2](/surface-hub/surface-hub-2s-migrate-os) | modified |
-| 3/31/2023 | [Operating system essentials (Surface Hub)](/surface-hub/differences-between-surface-hub-and-windows-10-enterprise) | modified |
-| 3/31/2023 | [What's new in Windows 10 Team 2020 Update](/surface-hub/surface-hub-2020-update-whats-new) | modified |
-| 3/31/2023 | [Setup worksheet (Surface Hub)](/surface-hub/setup-worksheet-surface-hub) | modified |
-| 3/31/2023 | [Reset and recovery for Surface Hub 2S](/surface-hub/surface-hub-2s-recover-reset) | modified |
-| 3/31/2023 | [Surface Hub documentation # < 60 chars](/surface-hub/index) | modified |
-| 3/31/2023 | [Create provisioning packages](/surface-hub/provisioning-packages-for-surface-hub) | modified |
-| 3/31/2023 | [Install apps on your Microsoft Surface Hub](/surface-hub/install-apps-on-surface-hub) | modified |
-| 3/31/2023 | [Manage settings with an MDM provider (Surface Hub)](/surface-hub/manage-settings-with-mdm-for-surface-hub) | modified |
-| 3/31/2023 | [Surface Hub may install updates and restart outside maintenance hours](/surface-hub/surface-hub-installs-updates-and-restarts-outside-maintenance-hours) | modified |
-| 3/31/2023 | [Reset or recover a Surface Hub](/surface-hub/device-reset-surface-hub) | modified |
