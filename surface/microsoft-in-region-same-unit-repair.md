@@ -18,6 +18,9 @@ appliesto:
 
 Microsoft can repair many commercial Surface devices via in-region repair facilities. If troubleshooting or diagnostics determine that your Surface device needs repair and is eligible for mail-in repair services, you can ship it to Microsoft for repair and return.
 
+> [!NOTE]
+> Allow an average of 6-8 days to receive your replacement device. Times may vary based on location and product availability.
+
 ## Open service request
 
 To initiate service, open a request via a self-serve portal:

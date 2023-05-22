@@ -28,7 +28,7 @@ The growing ASP network consists of more than 160 locations.
 - [Compugen](https://www.compugen.com/)
 - [Coreio](https://www.coreio.com/)
 - [DXC Technology](https://dxc.com/us)
-- [FEDEX](https://www.fedex.com/global/choose-location.html)
+- [FeDex](https://www.fedex.com/global/choose-location.html)
 - [Integrated Technology Group (ITG)](https://www.itgsolutions.com/)
 - [Microserve](https://www.microserve.ca/)
 - [TD SYNNEX](https://www.synnexcorp.com/us/)
