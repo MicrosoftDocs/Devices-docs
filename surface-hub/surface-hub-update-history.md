@@ -135,7 +135,7 @@ Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabl
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4581839/windows-10-update-history), include:
 
 * Adds ability for administrators to [install Progressive Web Apps](install-pwa-surface-hub.md) (PWAs).
-* Resolves an issue where Surface Hubs joined to Azure AD or configured with a local administrator account could fail to synchronize their computer clock.
+* Resolves an issue where some Surface Hubs joined to Azure AD or configured with a local administrator account could fail to synchronize their computer clock.
 * Resolves an issue where using Meetings and Files sign-in suggestions with the Authenticator app could force the user to repeat the login process.
  
 Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabling device features and services. *[KB5011543](https://support.microsoft.com/help/5011543)
