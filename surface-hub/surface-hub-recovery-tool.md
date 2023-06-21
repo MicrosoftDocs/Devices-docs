@@ -15,7 +15,7 @@ ms.localizationpriority: medium
 
 The [Microsoft Surface Hub Recovery Tool](https://www.microsoft.com/download/details.aspx?id=52210) helps you reimage your Surface Hub Solid State Drive (SSD) from a separate PC without replacing the SSD or calling support. Use this tool for any of the following scenarios:
 
-- You're unable to [recover Surface Hub from the cloud](device-reset-surface-hub.md).
+- You're unable to use [local reset option](device-reset-surface-hub.md).
 - You need to reimage an SSD that that has an older version of the operating system.
 - You no longer have access to the Administrator password.
 - You're encountering boot errors that prevent restarting Surface Hub.
