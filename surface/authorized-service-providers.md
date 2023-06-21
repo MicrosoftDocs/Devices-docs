@@ -6,7 +6,7 @@ ms.localizationpriority: medium
 author: coveminer
 ms.author: hachidan
 ms.topic: overview
-ms.date: 10/28/2022
+ms.date: 06/21/2023
 ms.reviewer: 
 manager: frankbu
 appliesto:
@@ -46,8 +46,10 @@ The growing ASP network consists of more than 160 locations.
 ### Asia Pacific
 
 - [ASI solutions](https://www.asi.com.au/)
+- [Bic Camera](https://www.biccamera.co.jp/support/surface_repair/)
 - [Comp Now](https://www.compnow.com.au/)
 - [Digital China](https://www.digitalchina.com/)
 - [Double Rise](https://www.doublerise.com/)
+- [GSS](https://www.gssltd.co.jp/surface/)
 - [JB Hi-Fi](https://www.jbhifi.business/)
 - [Unisys](https://www.unisys.com/)
