@@ -1,6 +1,6 @@
 ---
 title: Surface self-serve portals
-description: This article provides an overview of Surface self-serve portals
+description: This article provides an overview of Surface self-serve portals including the Surface Management Portal and the Hardware Support Portal.
 ms.prod: w11
 ms.localizationpriority: medium
 author: coveminer
@@ -37,5 +37,5 @@ Choose the portal that’s right for you.
 ## Learn more
 
 - [Surface self-serve portals: Created to elevate IT experience - Microsoft Community Hub](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/surface-self-serve-portals-created-to-elevate-it-experience/ba-p/1419002)
-- [Surface Management Portal - Surface | Microsoft Learn](surface-management-portal.md)
-- [Microsoft Hardware Support Portal tutorial | Microsoft Learn](/surface/media/microsoft-hardware-support-portal-tutorial.pdf)
+- [Surface Management Portal](surface-management-portal.md)
+- [Microsoft Hardware Support Portal tutorial](/surface/media/microsoft-hardware-support-portal-tutorial.pdf)
