@@ -85,8 +85,10 @@
       items: 
       - name: Surface supported operating systems
         href: https://support.microsoft.com/surface/surface-supported-operating-systems-9559cc3c-7a38-31b6-d9fb-571435e84cd1
-      - name: Surface Management Portal
+      - name: Self-serve portals
         items:
+        - name: Surface self-serve portals overview
+          href: surface-portals.md
         - name: Surface Management Portal overview
           href: surface-management-portal.md
         - name: What is Surface Management Portal?
