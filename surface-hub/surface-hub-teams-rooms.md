@@ -12,7 +12,7 @@ ms.localizationpriority: medium
 ---
 # Microsoft Teams Rooms on Surface Hub
 
-Teams Rooms for Surface Hub automatically replaces the previous [Surface Hub Teams app](hub-teams-app.md) upon installation of [KB5004196, KB5004198, and KB5004199](surface-hub-update-history.md) that released on September 30, 2021.
+Teams Rooms on Surface Hub automatically replaces the previous Teams for Surface Hub UWP app upon installation of [KB5004196, KB5004198, and KB5004199](surface-hub-update-history.md) that released on September 30, 2021.
 
 ## What’s new?
 
