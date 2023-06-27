@@ -26,7 +26,7 @@ The growing ASP network consists of more than 160 locations.
 
 - [CompuCom](https://www.compucom.com/)
 - [Compugen](https://www.compugen.com/)
-- [Connections](https://www.connection.com/)
+- [Connection](https://www.connection.com/)
 - [Coreio](https://www.coreio.com/)
 - [DXC Technology](https://dxc.com/us)
 - [FedEx](https://www.fedex.com/global/choose-location.html)
