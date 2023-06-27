@@ -33,7 +33,7 @@ The growing ASP network consists of more than 160 locations.
 - [Insight](https://www.insight.com/)
 - [Integrated Technology Group (ITG)](https://www.itgsolutions.com/)
 - [Microserve](https://www.microserve.ca/)
-- [MPC](https://www.mcpc.com/)
+- [MCPC](https://www.mcpc.com/)
 - [TD SYNNEX](https://www.synnexcorp.com/us/)
 - [UDT](https://udtonline.com/)
 
