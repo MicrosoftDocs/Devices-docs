@@ -164,7 +164,7 @@
             href: troubleshoot-azure-ad-join-on-surface-hub.md
           - name: Troubleshoot Azure sign-in logs
             href: troubleshoot-azure-sign-in-logs-for-surface-hub.md          
-          - name: Troubleshoot conditional access
+          - name: Troubleshoot Conditional Access
             href: conditional-access-for-surface-hub.md      
           - name: Troubleshoot Intune auto enrollment
             href: troubleshoot-intune-auto-enrollment-on-surface-hub.md

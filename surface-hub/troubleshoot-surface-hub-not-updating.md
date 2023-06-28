@@ -26,9 +26,9 @@ If the Surface Hub is Azure AD joined, you can verify the OS build number by nav
  
 :::image type="content" source="images/intune-os-version.png" alt-text="Image showing how to find OS build number of a device in Azure.":::
 
-Compare the OS build number the Surface Hub is running with the [Surface Hub update history](/surface-hub/surface-hub-update-history) page to see which updates are missing. More details on how to do this is covered in the [verify a Surface Hub is fully updated](https://www.youtube.com/watch?v=rxL5cUS_3TA) video.
+Compare the OS build number the Surface Hub is running with the [Surface Hub update history](/surface-hub/surface-hub-update-history) page to see which updates are missing. The current Surface Hub OS version is [Windows 10 Team 2022 Update](/surface-hub/surface-hub-2022-update) (22H2 / 19045). More details can be found in our video on how to [verify a Surface Hub is fully updated](https://www.youtube.com/watch?v=rxL5cUS_3TA).
  
-## Surface Hub v1 devices not updating past Windows 10 version 1703 (15063) ##
+## Surface Hub v1 devices not updating past Windows 10 Team version 1703 (15063) ##
 In some environments, Surface Hub v1 devices fail to install updates past OS build number 15063. If you have a Surface Hub experiencing this, the device needs to be reimaged using the [Surface Hub Recovery Tool](/surface-hub/surface-hub-recovery-tool).
  
 ## Windows Update for Business deferral policy ##
@@ -49,34 +49,51 @@ Ensure "Use WSUS server to check for updates" is **unchecked**.
 ## Surface Hub not performing nightly maintenance ##
 The Surface Hub automatically installs Windows Updates during the nightly [maintenance window](/surface-hub/manage-windows-updates-for-surface-hub#maintenance-window). The default maintenance window is set to begin at 2:00 AM with a duration of two hours. If the Surface Hub is unable to perform maintenance, it can result in the device not installing Windows updates. Common reasons for this include:
 
-- The device is shutdown/powered off
+- The device is unplugged or powered off
 - Surface Hub is reserved for a 24 hour interval meeting
 - Device is in use during the maintenance window
 
-We recommend you don't use or reserve the Surface Hub during the scheduled maintenance period. You can adjust the maintenance window timeframe by opening **Settings > Update & security > Windows Update > Advanced options**. Selecting "Change" allows you to adjust the maintenance hours. A two-hour window should be reserved for updating.
+We recommend you don't use or reserve the Surface Hub during the scheduled maintenance period. You can adjust the maintenance window timeframe by opening **Settings > Update & security > Windows Update > Advanced options**. Selecting "Change" allows you to adjust the maintenance hours. A maintenance window of at least 2 hours should be reserved for updating.
 
 :::image type="content" source="images/surface-hub-maintenance-hours.png" alt-text="Image showing where to configure the Surface Hub Maintenance hours.":::
 
-## Proxy or firewall blocking necessary Windows Update endpoints ##
+## Network requirements and troubleshooting ##
 If your organization uses a proxy or firewall, ensure the necessary [connection endpoints for Windows 10 Enterprise](/windows/privacy/manage-windows-21h2-endpoints) and [Windows Updates endpoints](/troubleshoot/windows-client/deployment/windows-update-issues-troubleshooting#device-cant-access-update-files) are accessible by the Surface Hub.
- 
-A quick test can be performed to confirm whether your network is blocking these endpoints by doing the following:
+
+### Proxy server ###
+If you have a proxy server configured and Wndows updates either don't download or remain stuck at 1% progress, it can be caused by the following:
+- SSL inspection
+- Cache updates from Windows Update
+- Block support for partial file download (HTTP range headers)
+
+Windows update uses dynamically created temporary file names that differ for each computer that downloads updates. This eliminates any benefit that might be gained from caching. Windows update also uses the Background Intelligent Transfer Service (BITS) as a client, which can request partial files, an operation the proxy may not support.
+
+To resolve this issue, ensure the proxy doesn't perform any of the above operations on Windows Update traffic. Additional requirements and information can be found in [Windows Update issues troubleshooting](/troubleshoot/windows-client/deployment/windows-update-issues-troubleshooting).
+
+If you're using a Bluecoat proxy, you can find more details at [Microsoft Windows updates fail to install](https://knowledge.broadcom.com/external/article/166719/microsoft-windows-updates-fail-to-instal.html).
+
+> **Third-party information disclaimer**
+>
+> Microsoft provides third-party contact information to help you find technical support. This contact information may change without notice. Microsoft does not guarantee the accuracy of this third-party contact information.
+
+### Test with open network ###
+For troubleshooting purposes you can test connecting the Surface Hub to an open network to see if the device is able to download Windows updates. This will help confirm if the internal network is not meeting the necessary network requirements for Windows udpate. To test with an open network do the following:
 
 - If a proxy is configured, unconfigure it on the Surface Hub. **Settings > Network & internet > Proxy**
 - Disconnect the Surface Hub from the network and connect it to a mobile Wi-Fi hotspot. **Settings > Network & internet > Wi-Fi**
-- Navigate to **Settings > Update & security** and check for updates. If updates are found and begin downloading while on a Wi-Fi hotspot, the network is likely not configured to allow access to the necessary Microsoft endpoints.
+- Navigate to **Settings > Update & security** and check for updates. If updates are still not found reboot the device and try again.
 
-Alternatively, the network port the Surface Hub is using can be mirrored, this will allow an administrator to monitor the network traffic to determine if Microsoft endpoints are unaccesible.
- 
-## SSL inspection ##
-If outbound SSL inspection is used on your network, test turning this feature off to determine if it's causing an issue with the Surface Hub being able to download Windows Updates.
- 
+### Mirror network port ###
+Port mirroring is a technique used on a network switch or router to send a copy of network packets seen on the specified ports (source ports) to other specified ports (destination ports). After enabling port mirroring on the Surface Hub port, the packets can be monitored and analyzed by an administrator to determine if Microsoft endpoints are unaccessible. 
+
 ## Windows event logs ##
 You can view the Windows Event logs on the Surface Hub to see if any errors are present.
  
-On the Surface Hub navigate to **Settings > Update & security > Logs > Event Viewer > Open.** Windows Update event logs can be found under **Applications and Services Logs > Microsoft > Windows > WindowsUpdateClient > Operational.**
+On the Surface Hub navigate to **Settings > Update & security > Logs > Event Viewer > Open.** 
+
+Windows Update event logs can be found under **Applications and Services Logs > Microsoft > Windows > WindowsUpdateClient > Operational.**
  
 :::image type="content" source="images/surface-hub-windows-update-event-viewer.png" alt-text="Image showing the Windows Update Event Viewer files on the Surface Hub.":::
 
 ## Reimage Surface Hub ##
-In the event the troubleshooting steps in this article don't resolve the Surface Hub updating issue, it's possible the local Windows Update cache on the device is corrupt. The device needs to be reset to resolve this issue. Detailed instructions on how to reset the device can be found in the articles for [Surface Hub v1](/surface-hub/device-reset-surface-hub) and [Surface Hub 2S](/surface-hub/surface-hub-2s-recover-reset).
+In the event the troubleshooting steps in this article don't resolve the Surface Hub updating issue, it's possible the local Windows Update cache on the device is corrupt. The device needs to be reset to resolve this issue. Detailed instructions on how to reset can be found in the articles for [Surface Hub v1](/surface-hub/device-reset-surface-hub) and [Surface Hub 2S](/surface-hub/surface-hub-2s-recover-reset).
