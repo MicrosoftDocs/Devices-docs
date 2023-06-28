@@ -61,14 +61,14 @@ We recommend you don't use or reserve the Surface Hub during the scheduled maint
 If your organization uses a proxy or firewall, ensure the necessary [connection endpoints for Windows 10 Enterprise](/windows/privacy/manage-windows-21h2-endpoints) and [Windows Updates endpoints](/troubleshoot/windows-client/deployment/windows-update-issues-troubleshooting#device-cant-access-update-files) are accessible by the Surface Hub.
 
 ### Proxy server ###
-If you have a proxy server configured and Wndows updates either don't download or remain stuck at 1% progress, it can be caused by the following:
+If you have a proxy server configured and Windows updates either don't download or remain stuck at 1% progress, it can be caused by the following:
 - SSL inspection
 - Cache updates from Windows Update
 - Block support for partial file download (HTTP range headers)
 
 Windows update uses dynamically created temporary file names that differ for each computer that downloads updates. This eliminates any benefit that might be gained from caching. Windows update also uses the Background Intelligent Transfer Service (BITS) as a client, which can request partial files, an operation the proxy may not support.
 
-To resolve this issue, ensure the proxy doesn't perform any of the above operations on Windows Update traffic. Additional requirements and information can be found in [Windows Update issues troubleshooting](/troubleshoot/windows-client/deployment/windows-update-issues-troubleshooting).
+To resolve this issue, ensure the proxy doesn't perform any of the above operations on Windows Update traffic. More requirements and information can be found in [Windows Update issues troubleshooting](/troubleshoot/windows-client/deployment/windows-update-issues-troubleshooting).
 
 If you're using a Bluecoat proxy, you can find more details at [Microsoft Windows updates fail to install](https://knowledge.broadcom.com/external/article/166719/microsoft-windows-updates-fail-to-instal.html).
 
@@ -77,7 +77,7 @@ If you're using a Bluecoat proxy, you can find more details at [Microsoft Window
 > Microsoft provides third-party contact information to help you find technical support. This contact information may change without notice. Microsoft does not guarantee the accuracy of this third-party contact information.
 
 ### Test with open network ###
-For troubleshooting purposes you can test connecting the Surface Hub to an open network to see if the device is able to download Windows updates. This will help confirm if the internal network is not meeting the necessary network requirements for Windows udpate. To test with an open network do the following:
+For troubleshooting purposes you can test connecting the Surface Hub to an open network to see if the device is able to download Windows updates. This will help confirm if the internal network isn't meeting the necessary network requirements for Windows update. To test with an open network do the following:
 
 - If a proxy is configured, unconfigure it on the Surface Hub. **Settings > Network & internet > Proxy**
 - Disconnect the Surface Hub from the network and connect it to a mobile Wi-Fi hotspot. **Settings > Network & internet > Wi-Fi**
