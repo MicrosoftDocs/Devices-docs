@@ -27,35 +27,6 @@ If the Surface Hub is Azure AD joined, you can verify the OS build number by nav
 :::image type="content" source="images/intune-os-version.png" alt-text="Image showing how to find OS build number of a device in Azure.":::
 
 Compare the OS build number the Surface Hub is running with the [Surface Hub update history](/surface-hub/surface-hub-update-history) page to see which updates are missing. The current Surface Hub OS version is [Windows 10 Team 2022 Update](/surface-hub/surface-hub-2022-update) (22H2 / 19045). More details can be found in our video on how to [verify a Surface Hub is fully updated](https://www.youtube.com/watch?v=rxL5cUS_3TA).
- 
-## Surface Hub v1 devices not updating past Windows 10 Team version 1703 (15063) ##
-In some environments, Surface Hub v1 devices fail to install updates past OS build number 15063. If you have a Surface Hub experiencing this, the device needs to be reimaged using the [Surface Hub Recovery Tool](/surface-hub/surface-hub-recovery-tool).
- 
-## Windows Update for Business deferral policy ##
-[Windows Update for Business](/surface-hub/manage-windows-updates-for-surface-hub#windows-update-for-business) is a feature that allows IT administrators to manage when Windows devices receive updates. Administrators can defer or pause updates, allowing time to validate them prior to installing on all devices. Feature updates can be deferred up to 365 days and quality updates can be deferred up to 30 days. Deferring means the device won't receive the update until it has been released for at least the number of deferral days you specified (offer date = release date + deferral date).
- 
-If your Surface Hub isn't updating, confirm if a [Windows Update deferral policy](/surface-hub/manage-windows-updates-for-surface-hub#group-surface-hub-into-deployment-rings) is applied. The specific policies are:
-
-- [Update/DeferFeatureUpdatesPeriodInDays](/windows/client-management/mdm/policy-csp-update#deferfeatureupdatesperiodindays)
-- [Update/DeferQualityUpdatesPeriodInDays](/windows/client-management/mdm/policy-csp-update#deferqualityupdatesperiodindays)
-
-## Confirm WSUS isn't configured ##
-The Surface Hub no longer supports [Windows Server Update Services](/windows-server/administration/windows-server-update-services/get-started/windows-server-update-services-wsus) (WSUS). If the Surface Hub is configured to use WSUS, Windows Updates won't be received. Confirm WSUS isn't configured on the device by going to **Settings > Update & security > Windows Updates > Advanced options > Configure Windows Server Update Service (WSUS) server**.
- 
-Ensure "Use WSUS server to check for updates" is **unchecked**.
- 
-:::image type="content" source="images/surface-hub-configure-wsus.png" alt-text="Image showing where to find Surface Hub WSUS configuration setting.":::
-
-## Surface Hub not performing nightly maintenance ##
-The Surface Hub automatically installs Windows Updates during the nightly [maintenance window](/surface-hub/manage-windows-updates-for-surface-hub#maintenance-window). The default maintenance window is set to begin at 2:00 AM with a duration of two hours. If the Surface Hub is unable to perform maintenance, it can result in the device not installing Windows updates. Common reasons for this include:
-
-- The device is unplugged or powered off
-- Surface Hub is reserved for a 24 hour interval meeting
-- Device is in use during the maintenance window
-
-We recommend you don't use or reserve the Surface Hub during the scheduled maintenance period. You can adjust the maintenance window timeframe by opening **Settings > Update & security > Windows Update > Advanced options**. Selecting "Change" allows you to adjust the maintenance hours. A maintenance window of at least 2 hours should be reserved for updating.
-
-:::image type="content" source="images/surface-hub-maintenance-hours.png" alt-text="Image showing where to configure the Surface Hub Maintenance hours.":::
 
 ## Network requirements and troubleshooting ##
 If your organization uses a proxy or firewall, ensure the necessary [connection endpoints for Windows 10 Enterprise](/windows/privacy/manage-windows-21h2-endpoints) and [Windows Updates endpoints](/troubleshoot/windows-client/deployment/windows-update-issues-troubleshooting#device-cant-access-update-files) are accessible by the Surface Hub.
@@ -84,7 +55,36 @@ For troubleshooting purposes you can test connecting the Surface Hub to an open 
 - Navigate to **Settings > Update & security** and check for updates. If updates are still not found reboot the device and try again.
 
 ### Mirror network port ###
-Port mirroring is a technique used on a network switch or router to send a copy of network packets seen on the specified ports (source ports) to other specified ports (destination ports). After enabling port mirroring on the Surface Hub port, the packets can be monitored and analyzed by an administrator to determine if Microsoft endpoints are unaccessible. 
+Port mirroring is a technique used on a network switch or router to send a copy of network packets seen on the specified ports (source ports) to other specified ports (destination ports). After enabling port mirroring on the Surface Hub port, the packets can be monitored and analyzed by an administrator to determine if any Microsoft endpoints are unaccessible. 
+
+## Windows Update for Business deferral policy ##
+[Windows Update for Business](/surface-hub/manage-windows-updates-for-surface-hub#windows-update-for-business) is a feature that allows IT administrators to manage when Windows devices receive updates. Administrators can defer or pause updates, allowing time to validate them prior to installing on all devices. Feature updates can be deferred up to 365 days and quality updates can be deferred up to 30 days. Deferring means the device won't receive the update until it has been released for at least the number of deferral days you specified (offer date = release date + deferral date).
+ 
+If your Surface Hub isn't updating, confirm if a [Windows Update deferral policy](/surface-hub/manage-windows-updates-for-surface-hub#group-surface-hub-into-deployment-rings) is applied. The specific policies are:
+
+- [Update/DeferFeatureUpdatesPeriodInDays](/windows/client-management/mdm/policy-csp-update#deferfeatureupdatesperiodindays)
+- [Update/DeferQualityUpdatesPeriodInDays](/windows/client-management/mdm/policy-csp-update#deferqualityupdatesperiodindays)
+
+## Surface Hub v1 devices not updating past Windows 10 Team version 1703 (15063) ##
+In some environments, Surface Hub v1 devices fail to install updates past OS build number 15063. If you have a Surface Hub experiencing this, the device needs to be reimaged using the [Surface Hub Recovery Tool](/surface-hub/surface-hub-recovery-tool).
+
+## Confirm WSUS isn't configured ##
+The Surface Hub no longer supports [Windows Server Update Services](/windows-server/administration/windows-server-update-services/get-started/windows-server-update-services-wsus) (WSUS). If the Surface Hub is configured to use WSUS, Windows Updates won't be received. Confirm WSUS isn't configured on the device by going to **Settings > Update & security > Windows Updates > Advanced options > Configure Windows Server Update Service (WSUS) server**.
+ 
+Ensure "Use WSUS server to check for updates" is **unchecked**.
+ 
+:::image type="content" source="images/surface-hub-configure-wsus.png" alt-text="Image showing where to find Surface Hub WSUS configuration setting.":::
+
+## Surface Hub not performing nightly maintenance ##
+The Surface Hub automatically installs Windows Updates during the nightly [maintenance window](/surface-hub/manage-windows-updates-for-surface-hub#maintenance-window). The default maintenance window is set to begin at 2:00 AM with a duration of two hours. If the Surface Hub is unable to perform maintenance, it can result in the device not installing Windows updates. Common reasons for this include:
+
+- The device is unplugged or powered off
+- Surface Hub is reserved for a 24 hour interval meeting
+- Device is in use during the maintenance window
+
+We recommend you don't use or reserve the Surface Hub during the scheduled maintenance period. You can adjust the maintenance window timeframe by opening **Settings > Update & security > Windows Update > Advanced options**. Selecting "Change" allows you to adjust the maintenance hours. A maintenance window of at least 2 hours should be reserved for updating.
+
+:::image type="content" source="images/surface-hub-maintenance-hours.png" alt-text="Image showing where to configure the Surface Hub Maintenance hours.":::
 
 ## Windows event logs ##
 You can view the Windows Event logs on the Surface Hub to see if any errors are present.
