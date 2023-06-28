@@ -1,5 +1,5 @@
 ---
-title: Troubleshoot Surface Hub Not Updating
+title: Troubleshoot Surface Hub not Updating
 description: Information on how to troubleshoot a Surface Hub that isn't automatically installing Windows Updates.
 ms.assetid: 8BB80FA3-D364-4A90-B72B-65F0F0FC1F0D
 ms.reviewer: 
@@ -13,7 +13,7 @@ ms.date: 06/27/2023
 ms.localizationpriority: medium
 ---
 
-# Troubleshoot Surface Hub Not Updating ##
+# Troubleshoot Surface Hub not Updating ##
 
 If your Surface Hub isn't automatically installing Windows Updates, follow the troubleshooting steps on this page.
  
