@@ -43,6 +43,7 @@ The growing ASP network consists of more than 160 locations.
 - [CDW (UK)](https://www.uk.cdw.com/)
 - [Computacenter](https://www.computacenter.com/)
 - [D4B](https://digital4business.fr/)
+- [DXC Technology(UK)](https://dxc.com/uk/)
 - [Econocom](https://www.econocom.com/)
 - [Ratiodata](https://www.ratiodata.de/)
 - [Think About It](https://think-about.it/)
