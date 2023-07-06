@@ -33,7 +33,7 @@ Commercial customers can choose to have Windows 10 or Windows 11 installed on ne
 
 Whether you choose to purchase new Surface devices running Windows 11 or opt for Surface devices with Windows 10<sup>1</sup> may depend on your current corporate environment:
 
-- **Windows 10 only.** Designed for customers who require Windows 10 out of the box and deploy devices using Windows Autopilot or Azure Active Directory domain join (AADJ). With **Windows 10 SKUs**, you avoid the need to compile driver packs and reimage devices before distributing them to users. It includes an additional fee of $30 per device (based on MSRP, actual pricing may vary).<sup>2</sup> 
+- **Windows 10 only.** Designed for customers who require Windows 10 out of the box and deploy devices using Windows Autopilot or Azure Active Directory domain join (AADJ). With **Windows 10 SKUs**, you avoid the need to compile driver packs and reimage devices before distributing them to users. It includes an additional per-device fee of $30 or $50 depending on the device, as noted below. <sup>2</sup> (Prices are based on MSRP, actual pricing may vary.)
 - **Windows 10 & Windows 11.** Designed for customers who use Windows 11 and also deploy Windows 10 via traditional deployment methods that rely on reimaging devices. With **Windows 11 SKUs**, you can take advantage of built-in downgrade rights to Windows 10 and load custom Windows 10 images on devices as needed.
 
 > [!TIP]
@@ -43,7 +43,7 @@ Whether you choose to purchase new Surface devices running Windows 11 or opt for
 
 | Network environment     | Deployment method               | Recommended SKUs | Additional cost |
 | ----------------------- | ------------------------------- | ---------------- | --------------- |
-| Windows 10 only         | Modern: Autopilot/AADJ          | Windows 10       | $30             |
+| Windows 10 only         | Modern: Autopilot/AADJ          | Windows 10       | $30-$50 <sup>2</sup>        |
 | Windows 10 & Windows 11 | Legacy: Custom image deployment | Windows 11       | None            |
 
 ### Windows 10 only
@@ -78,7 +78,7 @@ Commercial customers can place orders for new devices via [authorized Microsoft 
 ### References
 
 1. Windows 10 Downgrade Facilitation SKU offered for Windows 11-capable devices.  
-2. Effective July 1, 2023, additional fee will increase from $30 to $50 for the following devices: Surface Pro 9, Surface Laptop 5, Surface Go 3 LTE, and Surface Pro 8 LTE. The fee will remain set at $30 for Surface Laptop Go 2, Surface Laptop 4, and Surface Laptop Studio.
+2. Effective July 1, 2023, additional fee increased from $30 to $50 for the following devices: Surface Pro 9, Surface Laptop 5, Surface Go 3 LTE, and Surface Pro 8 LTE. The fee remains set at $30 for Surface Laptop Go 2, Surface Laptop 4, and Surface Laptop Studio.
 
 ### Learn more
 
