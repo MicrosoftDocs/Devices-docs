@@ -78,7 +78,7 @@ Commercial customers can place orders for new devices via [authorized Microsoft 
 ### References
 
 1. Windows 10 Downgrade Facilitation SKU offered for Windows 11-capable devices.  
-2. Effective July 1, 2023, additional fee will increase from $30 to $50 for the following devices: Surface Pro 9, Surface Laptop 5, Surface Go 3 LTE, and Surface Pro 8 LTE. The fee will remain set at $30 for Surface Laptop Go 2, Surface Laptop 4, and Surface Laptop Studio.
+2. Effective July 1, 2023, additional fee increased from $30 to $50 for the following devices: Surface Pro 9, Surface Laptop 5, Surface Go 3 LTE, and Surface Pro 8 LTE. The fee remains set at $30 for Surface Laptop Go 2, Surface Laptop 4, and Surface Laptop Studio.
 
 ### Learn more
 
