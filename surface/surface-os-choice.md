@@ -43,7 +43,7 @@ Whether you choose to purchase new Surface devices running Windows 11 or opt for
 
 | Network environment     | Deployment method               | Recommended SKUs | Additional cost |
 | ----------------------- | ------------------------------- | ---------------- | --------------- |
-| Windows 10 only         | Modern: Autopilot/AADJ          | Windows 10       | $30             |
+| Windows 10 only         | Modern: Autopilot/AADJ          | Windows 10       | $30-$50 <sup>2</sup>        |
 | Windows 10 & Windows 11 | Legacy: Custom image deployment | Windows 11       | None            |
 
 ### Windows 10 only
