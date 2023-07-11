@@ -4,7 +4,6 @@ ms.author: hachidan
 author: coveminer
 manager: frankbu
 ms.date: 6/14/2022
-
 ms.topic: how-to
 ms.prod: surface
 localization_priority: medium
@@ -72,6 +71,14 @@ Make an appointment at a Surface Walk-In Center to help resolve your issue:
 1. Go to the [Surface Walk-In Center Contact Information](https://support.microsoft.com/help/4498593/find-surface-walk-in-center-contact-information) page.
 2. Select your location to find the Walk-In Center nearest you.  
 3. Choose your Walk-In Center and contact them to schedule an appointment.
+
+## Japan
+
+Make an appointment at a participating Surface Authorized Service Provider [BIC Camera](https://www.biccamera.co.jp/support/surface_repair/) to help resolve your issue:
+
+1. Go to [Surface 修理 | ビックカメラグループ (biccamera.co.jp)](https://www.biccamera.co.jp/support/surface_repair/apply/#shops) to find a participating Surface Authorized Service Provider for in-person support in Japan.
+2. Select your location to find the Authorized Service Provider nearest you.
+3. Choose your Authorized Service Provider and contact them to schedule an appointment.
 
 ---
 
