@@ -16,7 +16,7 @@ description: Next Business Day Service Information & Coverage Areas.
 
 # Next Business Day Service information & coverage areas
 
-Next Business Day is a paid-for service where a replacement Surface device will be delivered to your premises by the next business day (availability in select countries). These services apply after an agent determines a replacement device is required, confirms available inventory, and submits an order for a replacement device by a standard cutoff time, predetermined by Microsoft.
+Next Business Day is a paid-for service where a replacement Surface device will be delivered to your premises by the next business day (availability in select countries/regions). These services apply after an agent determines a replacement device is required, confirms available inventory, and submits an order for a replacement device by a standard cutoff time, predetermined by Microsoft.
 
 ## Guidelines
 
@@ -227,7 +227,7 @@ For a list of supported post codes, see "Next business day coverage" where appli
 #### Singapore
 
 - Cutoff Time: 13:00 SGT (UTC+8)
-- NBD coverage is available in all postal codes in this country.
+- NBD coverage is available in all postal codes in this country/region.
 
 #### Slovakia
 

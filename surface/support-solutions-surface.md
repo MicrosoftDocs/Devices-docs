@@ -32,7 +32,7 @@ To access the portal, sign in to your M365 Admin Center (active access is requir
 
 > [!NOTE]
 > This service does not address Surface accessories, Surface Hub, or product safety concerns.
-> The Hardware Support Portal is accessible in the following countries only: Australia, Austria, Belgium, Canada, Croatia, Cyprus, Czech Republic, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Iceland, Ireland, Italy, Japan, Latvia, Liechtenstein, Lithuania, Luxembourg, Netherlands, New Zealand, Norway, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, Switzerland, United Kingdom, and USA.
+> The Hardware Support Portal is accessible in the following countries/regions only: Australia, Austria, Belgium, Canada, Croatia, Cyprus, Czech Republic, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Iceland, Ireland, Italy, Japan, Latvia, Liechtenstein, Lithuania, Luxembourg, Netherlands, New Zealand, Norway, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, Switzerland, United Kingdom, and USA.
 
 ## Technical support scenarios
 
