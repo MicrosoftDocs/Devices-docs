@@ -180,7 +180,7 @@
             href: troubleshoot-access-to-settings-app-surface-hub.md
           - name: Troubleshoot CSP policy settings
             href: troubleshoot-mdm-csp-surface-hub.md
-          - name: Troubleshoot Miracast wireless connectivity
+          - name: Troubleshoot display projection 
             href: miracast-troubleshooting.md
           - name: Surface Hub can't download updates from Windows Update
             href: surface-hub-cannot-download-updates-from-windows-update.md

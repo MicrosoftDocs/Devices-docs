@@ -40,7 +40,7 @@ ms.localizationpriority: Medium
 |**Input Power, standby**| 5 W max  |
 
 > [!NOTE]
-> <sup>1</sup> System software uses significant storage space. Available storage is subject to change based on system software updates and apps usage. 1 GB= 1 billion bytes. See Surface.com/Storage for more details. <br> <sup>2</sup> Doppler sensor not available in Hong Kong, India, Kuwait, and Oman  due to local regulations.
+> <sup>1</sup> System software uses significant storage space. Available storage is subject to change based on system software updates and apps usage. 1 GB= 1 billion bytes. See Surface.com/Storage for more details. <br> <sup>2</sup> Doppler sensor not available in Hong Kong Special Administrative Region, India, Kuwait, and Oman  due to local regulations.
 <br> <sup>3</sup> Software license required for some features. Sold separately.<br> <sup>4</sup> Microsoft's Limited Warranty is in addition to your consumer law rights. 
 
 > [!NOTE]
