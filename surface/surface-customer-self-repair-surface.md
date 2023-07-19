@@ -50,7 +50,7 @@ In this scenario, a customer must replace a broken display on their Surface Lapt
 6. The reseller confirms the part availability and places an order with their Authorized Device Distributor. Parts are shipped to the reseller or directly to you.
 
 > [!NOTE]
-> Part availability may vary by country and is subject to change due to supply chain constraints, customer demand, and related issues.
+> Part availability may vary by country/region and is subject to change due to supply chain constraints, customer demand, and related issues.
 
 > [!CAUTION]
 > Repairing your device with a replaceable component doesn't affect Microsoft's Limited Warranty; however, any damage to the device resulting from a repair performed by someone other than Microsoft or an Authorized Service Provider won't be covered under Microsoft's warranty or protection plans.
