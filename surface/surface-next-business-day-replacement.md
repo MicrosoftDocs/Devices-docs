@@ -42,7 +42,7 @@ For a list of supported post codes, see "Next business day coverage" where appli
 - [France](#france)
 - [Germany](#germany)
 - [Greece](#greece)
-- [Hong Kong Special Administrative Region](#hong-kong)
+- [Hong Kong Special Administrative Region](#hong-kong-sar)
 - [Hungary](#hungary)
 - [India](#india)
 - [Ireland](#ireland)
@@ -141,7 +141,7 @@ For a list of supported post codes, see "Next business day coverage" where appli
 #### Hong Kong SAR
 
 - Cutoff Time:16:00 HKT (UTC+8)
-- NBD coverage is available in all postal codes in Hong Kong SAR.
+- NBD coverage is available in all postal codes.
 
 #### Hungary
 
@@ -227,7 +227,7 @@ For a list of supported post codes, see "Next business day coverage" where appli
 #### Singapore
 
 - Cutoff Time: 13:00 SGT (UTC+8)
-- NBD coverage is available in all postal codes in this country/region.
+- NBD coverage is available in all postal codes.
 
 #### Slovakia
 
