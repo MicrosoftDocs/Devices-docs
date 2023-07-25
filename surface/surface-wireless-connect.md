@@ -76,9 +76,11 @@ Leave the roaming aggressiveness setting in the default state unless you encount
 3. Select the **Advanced** tab.
 4. Select **Roaming aggressiveness** and choose your preferred value from the drop-down menu.
 
-![* Screenshot showing roaming aggressiveness settings on an Intel Wi-Fi adapter *.](images/wifi-roaming-int.png) <br>
+![* Screenshot showing roaming aggressiveness settings on an Intel Wi-Fi adapter *.](images/wifi-roaming-int.png) 
+*Roaming aggressiveness settings on an Intel Wi-Fi adapter*<br>
 
-![* Screenshot showing roaming aggressiveness settings on a Qualcomm Wi-Fi adapter *.](images/wifi-roaming-qua.png) <br>
+![* Screenshot showing roaming aggressiveness settings on a Qualcomm Wi-Fi adapter *.](images/wifi-roaming-qua.png) 
+*Roaming aggressiveness settings on a Qualcomm Wi-Fi adapter*<br><br>
 
 ### Roaming aggressiveness settings on Surface Go
 
