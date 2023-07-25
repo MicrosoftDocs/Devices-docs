@@ -2,6 +2,15 @@
 
 
 
+## Week of July 17, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 7/19/2023 | [First-time setup for Surface Hub](/surface-hub/first-run-program-surface-hub) | modified |
+| 7/19/2023 | [Miracast on existing wireless network or LAN](/surface-hub/miracast-over-infrastructure) | modified |
+
+
 ## Week of July 10, 2023
 
 
