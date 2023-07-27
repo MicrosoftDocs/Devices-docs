@@ -21,6 +21,28 @@ Most Windows updates focus on performance and security improvements. In the list
 
 ## Windows 10 Team 2022 Update (22H2)
 
+### June 27, 2023 - update for Team OS based on KB5027293* (19045.3155)
+
+This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/5018682/windows-10-update-history), include:
+
+* Resolves an issue where progressive web apps (PWAs) like the Whiteboard app were not immediately displayed after launching the app or switching to it.
+* Removes the deprecated Microsoft Teams for Surface Hub UWP app. Teams functionality is provided through the up-to-date [Microsoft Teams Rooms app](surface-hub-teams-rooms.md).
+ 
+Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabling device features and services. *[KB5027293](https://support.microsoft.com/help/5027293)
+
+
+### May 24, 2023 - update for Surface Hub 2S
+
+This update is specific to the Surface Hub 2S and provides the driver and firmware updates outlined below:
+
+* Surface Integration driver - 94.19.3.0
+  * Improves thermal logging and detection of thermal shutdown scenarios.
+* Surface SMC Firmware update - 4.6.4.0
+  * Improves thermal logging and detection of thermal shutdown scenarios.
+* Surface UEFI update - 699.653.768.0
+  * Improves system security and stability.
+
+
 ### April 25, 2023 - update for Team OS based on KB5025297* (19045.2913)
 
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/5018682/windows-10-update-history), include:

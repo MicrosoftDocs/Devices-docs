@@ -164,21 +164,23 @@
             href: troubleshoot-azure-ad-join-on-surface-hub.md
           - name: Troubleshoot Azure sign-in logs
             href: troubleshoot-azure-sign-in-logs-for-surface-hub.md          
-          - name: Troubleshoot conditional access
+          - name: Troubleshoot Conditional Access
             href: conditional-access-for-surface-hub.md      
           - name: Troubleshoot Intune auto enrollment
             href: troubleshoot-intune-auto-enrollment-on-surface-hub.md
           - name: Troubleshoot One-click Join
             href: troubleshoot-one-click-join-from-welcome-screen-calendar.md
           - name: Collect Surface Hub log files  
-            href: collect-surface-hub-log-files.md 	  		  
+            href: collect-surface-hub-log-files.md
+          - name: Troubleshoot Surface Hub not Updating
+            href: troubleshoot-surface-hub-not-updating.md 	  		  
           - name: Troubleshoot Teams sign-in issues
             href: troubleshoot-teams-sign-in-surface-hub.md  
           - name: Troubleshoot access to Settings app
             href: troubleshoot-access-to-settings-app-surface-hub.md
           - name: Troubleshoot CSP policy settings
             href: troubleshoot-mdm-csp-surface-hub.md
-          - name: Troubleshoot Miracast wireless connectivity
+          - name: Troubleshoot display projection 
             href: miracast-troubleshooting.md
           - name: Surface Hub can't download updates from Windows Update
             href: surface-hub-cannot-download-updates-from-windows-update.md

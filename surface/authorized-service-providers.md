@@ -26,19 +26,24 @@ The growing ASP network consists of more than 160 locations.
 
 - [CompuCom](https://www.compucom.com/)
 - [Compugen](https://www.compugen.com/)
+- [Connection](https://www.connection.com/)
 - [Coreio](https://www.coreio.com/)
 - [DXC Technology](https://dxc.com/us)
 - [FedEx](https://www.fedex.com/global/choose-location.html)
+- [Insight](https://www.insight.com/)
 - [Integrated Technology Group (ITG)](https://www.itgsolutions.com/)
 - [Microserve](https://www.microserve.ca/)
+- [MCPC](https://www.mcpc.com/)
 - [TD SYNNEX](https://www.synnexcorp.com/us/)
 - [UDT](https://udtonline.com/)
 
 ### Europe
 
 - [Carillion](https://www.carillion.com/)
+- [CDW (UK)](https://www.uk.cdw.com/)
 - [Computacenter](https://www.computacenter.com/)
 - [D4B](https://digital4business.fr/)
+- [DXC Technology (UK)](https://dxc.com/uk/)
 - [Econocom](https://www.econocom.com/)
 - [Ratiodata](https://www.ratiodata.de/)
 - [Think About It](https://think-about.it/)

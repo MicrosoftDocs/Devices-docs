@@ -60,7 +60,7 @@ The 85" version of the Surface Hub family brings the Surface Hub 2S experience t
 
 1. System software and updates use significant storage space. Available storage is subject to change based on system software and updates and apps usage. 1 GB = 1 billion bytes. 1 TB = 1,000 GB. See [Surface Storage](https://www.surface.com/storage) for more details.
 2. Software license required for some features. Sold separately.
-3. Doppler sensor not available in Hong Kong, India, Kuwait, and Oman.
+3. Doppler sensor not available in Hong Kong Special Administrative Region, India, Kuwait, and Oman.
 4. Microsoft's Limited Warranty is in addition to your consumer law rights. 
 
 ## Learn more

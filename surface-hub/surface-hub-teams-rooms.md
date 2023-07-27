@@ -12,7 +12,7 @@ ms.localizationpriority: medium
 ---
 # Microsoft Teams Rooms on Surface Hub
 
-Teams Rooms for Surface Hub automatically replaces the previous [Surface Hub Teams app](hub-teams-app.md) upon installation of [KB5004196, KB5004198, and KB5004199](surface-hub-update-history.md) that released on September 30, 2021.
+Teams Rooms on Surface Hub automatically replaces the previous Teams for Surface Hub UWP app upon installation of [KB5004196, KB5004198, and KB5004199](surface-hub-update-history.md) that released on September 30, 2021.
 
 ## What’s new?
 
@@ -90,8 +90,8 @@ To enable a more seamless experience that avoids users having to approve the mic
 | Microsoft Edge policy setting                 | Location         | Notes      |
 | --------------------------------------- | ----------------------- | ------------------------------------------------------- |
 | **Force synchronization of browser data and do not show the sync consent prompt** | Devices > Configuration Profiles > Administrative Templates > Edge Chromium General Policies > Properties | Set to **Enable**   |
-| **Sites that can access video capture devices without requesting permission** | Devices > Configuration Profiles > Administrative Templates > Edge Chromium General Policies > Properties | Prevents camera approval prompt. Add [https://www.zoom.com](https://www.zoom.com) or [https://www.webex.com](https://www.webex.com) as appropriate.|
-| **Sites that can access audio capture devices without requesting permission** | Devices > Configuration Profiles > Administrative Templates > Edge Chromium General Policies > Properties |  Prevents audio approval prompt.  Add [https://www.zoom.com](https://www.zoom.com) or [https://www.webex.com](https://www.webex.com) as appropriate.|
+| **Sites that can access video capture devices without requesting permission** | Devices > Configuration Profiles > Administrative Templates > Edge Chromium General Policies > Properties | Prevents camera approval prompt. Add [https://www.zoom.us](https://www.zoom.us) or [https://www.webex.com](https://www.webex.com) as appropriate.|
+| **Sites that can access audio capture devices without requesting permission** | Devices > Configuration Profiles > Administrative Templates > Edge Chromium General Policies > Properties |  Prevents audio approval prompt.  Add [https://www.zoom.us](https://www.zoom.us) or [https://www.webex.com](https://www.webex.com) as appropriate.|
 | **Default geolocation setting** | Devices > Configuration Profiles > Administrative Templates > Edge Chromium General Policies > Properties | Prevents geolocation prompt, if desired. If you wish to prevent third-party meetings from tracking the location of your Surface Hub,  set **BlockGeolocation (2)**. If you don't configure this setting, users will be prompted to allow Zoom or Webex to track the location of Surface Hub. |
 
 Optionally, you may wish to configure calendar processing rules to enable "auto accept," "auto decline," and related settings.
