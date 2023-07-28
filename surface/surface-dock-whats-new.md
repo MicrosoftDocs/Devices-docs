@@ -19,7 +19,7 @@ As the latest generation Surface dock, [Surface Thunderbolt™ 4 Dock](https://w
 
 - **High-speed USB4®/Thunderbolt 4 on USB-C® ports.** Plug in one cable to power your device, connect two 4K monitors at up to 60 Hz[<sup>2</sup>](#references), and transfer data and files at up to 40 Gbps.
 - **The charging power you need for your devices and accessories.** Connect and power your laptop with up to 96 watts of power passthrough and extra charging power for your phone and accessories.[<sup>3</sup>](#references)
-- **More inclusive design with recycled materials.** Quickly access ports with raised tactile indicators for greater accessibility. The lightest Surface dock and PSU enclosures (excluding the AC cable) are attributed to 20% ocean-bound plastic.[<sup>4</sup>](#references) The packaging is ~99% recyclable in OECD countries/regions and free of single-use plastics. The lightest Surface dock comes with 20% ocean-bound plastic and 99% recyclable packaging that’s free of single-use plastics.[<sup>5</sup>](#references)
+- **More inclusive design with recycled materials.** Quickly access ports with raised tactile indicators for greater accessibility. The lightest Surface dock and PSU enclosures (excluding the AC cable) are attributed to 20% ocean-bound plastic.[<sup>4</sup>](#references) The packaging is ~99% recyclable in OECD countries/regions and free of single-use plastics. The lightest Surface dock comes with 20% ocean-bound plastic and 99% recyclable packaging free of single-use plastics.[<sup>5</sup>](#references)
 
 :::image type="content" source="images/surface-dock/surface-dock-front.png" alt-text="Screenshot showing a front view of the dock.":::
 
@@ -29,8 +29,8 @@ As the latest generation Surface dock, [Surface Thunderbolt™ 4 Dock](https://w
 
 Surface Thunderbolt 4 Dock helps improve IT efficiency and reduce overhead and support costs through optimization for Microsoft software.
 
-- **Surface Enterprise Management Mode (SEMM) for Dock**. Designed to easily lock down the ports of your dock in mission-critical environments and restrict functionality to specific devices, enabling organizations to simplify and secure IT management. For more information, see [Secure Surface Dock ports with Surface Enterprise Management Mode](/surface/secure-surface-dock-ports-semm).
-- **Firmware update through Windows Update**. Seamlessly keep your dock up to date with automatic updates or downloadable update driver and firmware packs.
+- **Surface Enterprise Management Mode (SEMM) for Dock**. Designed to quickly lock down the ports of your dock in mission-critical environments and restrict functionality to specific devices, enabling organizations to simplify and secure IT management. For more information, see [Secure Surface Dock ports with Surface Enterprise Management Mode](/surface/secure-surface-dock-ports-semm).
+- **Firmware updates through Windows Update**. Seamlessly keep your dock up to date with automatic updates or downloadable update driver and firmware packs.
 - **MAC Address Passthrough.** [<sup>6</sup>](#references)Maintain device network identity from one dock to another for ease of management in shared workspaces or dock environments.
 - **Wake on LAN from Modern Standby.** IT admins can remotely wake up devices connected to Surface Thunderbolt 4 Dock and automatically perform management tasks.
 - **Windows Management Instrumentation (WMI) support**. IT admins can remotely monitor and manage the latest firmware, policy settings, and related data across Surface Thunderbolt 4 Dock devices. For more information, see [Manage Surface Dock with WMI](/surface/surface-dock-wmi).
@@ -166,7 +166,7 @@ To daisy chain monitors, you need two or more monitors that support at least **D
 
 | Issue               |  Remedy                 |
 |---------------------|------------------------|
-| Surface Thunderbolt 4 Dock does not fully enumerate with Surface Laptop 3 with AMD processor (System SKU: Surface_Laptop_3_1873) causing audio to fail. This issue only affects Surface Laptop 3 devices with an AMD processor. | Microsoft is actively looking to find a resolution to this issue. | 
+| Surface Thunderbolt 4 Dock does not fully enumerate with Surface Laptop 3 with AMD processor (System SKU: Surface_Laptop_3_1873), causing audio to fail. This issue only affects Surface Laptop 3 devices with an AMD processor. | Microsoft is actively looking to find a resolution to this issue. | 
 
 ### Learn more
 
