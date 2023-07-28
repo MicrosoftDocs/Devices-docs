@@ -86,7 +86,7 @@ Leave the roaming aggressiveness setting in the default state unless you encount
 
 Front-line workers using Surface Go may wish to select a signal strength threshold that prompts the device to search for a new access point when signal strength drops (roaming aggressiveness). By default, Surface devices attempt to roam to a new access point if the signal strength drops below **Medium** (50 percent signal strength). Note that whenever you increase roaming aggressiveness, you accelerate battery power consumption.
 
-Leave the roaming aggressiveness setting in the default state unless you encounter connectivity issues in specific mobile scenarios such as conducting environmental site inspections while maintaining voice and video connectivity during a conference meeting. If you don’t notice any improvement revert,to the default **Medium** state.
+Leave the roaming aggressiveness setting in the default state unless you encounter connectivity issues in specific mobile scenarios such as conducting environmental site inspections while maintaining voice and video connectivity during a conference meeting. If you don’t notice any improvement, revert to the default **Medium** state.
 
 **To enable roaming aggressiveness on Surface Go:**
 
