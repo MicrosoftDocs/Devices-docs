@@ -17,10 +17,10 @@ appliesto:
 
 # Connect other devices and display with Surface Hub
 
-You can connect other devices to your Microsoft Surface Hub to display content. This article describes the Guest Mode, Replacement PC Mode, and Video Out functionality available through wired connections, and also lists accessories that you can connect to Surface Hub using [Bluetooth](#bluetooth-accessories).
+You can connect other devices to your Surface Hub to display content. This article describes the Guest Mode, Replacement PC Mode, and Video Out functionality available through wired connections and lists accessories you can connect to Surface Hub using [Bluetooth](#bluetooth-accessories).
 
 >[!TIP]
->Surface Hub will use the video input that you select until a new connection is made, the existing connection is disrupted, or the Connect App is closed.
+>Surface Hub will use the video input you select until a new connection is made, the existing connection is disrupted, or the Connect App is closed.
 
 ## Which method should I choose?
 
@@ -34,7 +34,7 @@ When connecting external devices and displays to a Surface Hub, there are severa
 
 ## Guest Mode
 
-Guest Mode uses a wired connection, so people can display content from their devices to the Surface Hub. If the source device is Windows-based, that device can also provide Touchback and Inkback. Surface Hub's internal PC takes video and audio from the connected device and presents them on the Surface Hub. If Surface Hub encounters a High-Bandwidth Digital Content Protection (HDCP) signal, the source is displayed as a black image. To display your content without violating HDCP requirements, use the keypad on the right side of the Surface Hub to directly choose the external source.
+Guest Mode uses a wired connection, so that users can display content from their devices to the Surface Hub. If the source device is Windows-based, that device can also provide Touchback and Inkback. Surface Hub's internal PC takes video and audio from the connected device and presents them on the Surface Hub. If Surface Hub encounters a High-Bandwidth Digital Content Protection (HDCP) signal, the source is displayed as a black image. To display your content without violating HDCP requirements, use the keypad on the right side of the Surface Hub to directly choose the external source.
 
 >[!TIP]
 >When an HDCP source is connected, use the side  keypad to change source inputs.
@@ -53,7 +53,7 @@ Use these ports on the Surface Hub for Guest Mode.
 
 ### Port locations
 
-These are the port connections used for Guest Mode on the 55" and 84" Surface Hubs.
+These port connections are used for Guest Mode on the 55" and 84" Surface Hub (v1).
 
 ![image showing guest ports on 55" surface hub.](images/sh-55-guest-ports.png)
 
@@ -93,7 +93,7 @@ When a Surface Hub is connected to a guest computer with the wired connect USB p
 
 ### Guest Mode connectivity
 
-Your choice of video cable depends on what is available from your source input. The Surface Hub has three choices of video input: DisplayPort, HDMI, and VGA. See the following chart for available resolutions.
+Your choice of video cable depends on what is available from your source input. Surface Hub (v1) has three options for video input: DisplayPort, HDMI, and VGA. See the following chart for available resolutions.
 
 | Signal Type | Resolution | Frame rate | HDMI - RGB | DisplayPort | VGA |
 | ----------- | ---------- | ---------- | ---------- | ----------- | --- |
@@ -103,7 +103,7 @@ Your choice of video cable depends on what is available from your source input. 
 | HDTV        | 720p       | 59.94/60   | X          | X           | X   |
 | HDTV        | 1080p      | 59.94/60   | X          | X           | X   |
 
-Source audio is provided by DisplayPort and HDMI cables. If you must use VGA, Surface Hub has an audio input port that uses a 3.5-mm plug. Surface Hub also uses a USB cable that provides Touchback and Inkback from the Surface Hub to compatible Windows 10 or Windows 11 devices. The USB cable can be used with any video input that is already connected with a cable.
+Source audio is provided by DisplayPort and HDMI cables. If you must use VGA, Surface Hub has an audio input port with a 3.5-mm plug. Surface Hub also uses a USB cable that provides Touchback and Inkback from the Surface Hub to compatible Windows 10 or Windows 11 devices. The USB cable can be used with any video input that is already connected to a cable.
 
 Someone using Guest Mode to connect a PC would use one of these options:
 
