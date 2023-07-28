@@ -7,7 +7,7 @@ author: coveminer
 ms.author: hachidan
 ms.topic: overview
 ms.date: 10/04/2021
-ms.reviewer: brrecord
+ms.reviewer: hachidan
 manager: frankbu
 appliesto:
 - Windows 10
@@ -18,7 +18,7 @@ appliesto:
 
 Surface Laptop Studio integrates fully modernized compute and graphics capabilities into a new versatile form factor. Led by the quad-core 11th Gen Intel® Core™ i7 and NVIDIA® RTX™ A2000 or NVIDIA® GeForce RTX™ 3050 Ti, Surface Laptop Studio provides architects, engineers, data scientists, and creative professionals with the compute power to do their best work.
 
-A significant differentiator across Surface Laptop Studio models is the GPU configuration. All but the Core i5 device feature a discrete NVIDIA RTX GPU, enabling hardware-accelerated ray tracing, AI and video. The design also optimizes energy efficiency for mobile form factors. The models with NVIDIA GPUs are part of the NVIDIA Studio Products program, benefiting from RTX-accelerations in the top creative apps, reliable NVIDIA Studio Drivers, and having access to exclusive NVIDIA apps like Canvas or Broadcast. Ray tracing is a computationally intensive technique that simulates the physical behavior of light to achieve greater realism in computer-generated scenes. It’s used both in gaming and in 3D rendering. NVIDIA RTX also features deep learning super sampling (DLSS), an AI technology that boosts frame rates.
+A significant differentiator across Surface Laptop Studio models is the GPU configuration. All but the Core i5 device feature a discrete NVIDIA RTX GPU, enabling hardware-accelerated ray tracing, AI and video. The design also optimizes energy efficiency for mobile form factors. The models with NVIDIA GPUs are part of the NVIDIA Studio Products program, benefiting from RTX-accelerations in the top creative apps, reliable NVIDIA Studio Drivers, and access to exclusive NVIDIA apps like Canvas or Broadcast. Ray tracing is a computationally intensive technique that simulates the physical behavior of light to achieve greater realism in computer-generated scenes. It's used both in gaming and in 3D rendering. NVIDIA RTX also features deep learning super sampling (DLSS), an AI technology that boosts frame rates.
 
 These advanced graphics rendering capabilities come in two primary configurations: NVIDIA GeForce RTX 3050 Ti Laptop GPU for consumers or creative professionals and NVIDIA RTX A2000 Laptop GPU for architects, engineers, creative professionals, and other business professionals who need advanced graphics capabilities.
 
@@ -28,11 +28,11 @@ This section describes the integrated and discrete GPUs across Surface Laptop St
 
 ### Intel Iris™ Xe Graphics
 
-As the integrated GPU (iGPU) on Surface Laptop Studio, Intel Iris™ Xe Graphics functions as the singular GPU in the Core i5 model. It supports richer gaming experiences and greater speeds for designers and creators. With advanced graphics capabilities and an AI-enhanced experience, Intel Iris Xe enables consumers, hobbyists, and online creators to run the latest productivity software like Adobe Creative Cloud or enjoy gaming titles in 1080p. It also increases the number of supported displays from three to a total of four. Now you can use up to three external displays alongside the internal display or four external displays at once -- for both integrated GPU and discrete GPU models.[[1]](#references)
+As the integrated GPU (iGPU) on Surface Laptop Studio, Intel Iris™ Xe Graphics is the singular GPU in the Core i5 model. It supports richer gaming experiences and greater speeds for designers and creators. With advanced graphics capabilities and an AI-enhanced experience, Intel Iris Xe enables consumers, hobbyists, and online creators to run the latest productivity software like Adobe® Creative Cloud or enjoy gaming titles in 1080p. It also increases the number of supported displays from three to four. Now you can use up to three external displays alongside the internal display or four external displays at once -- for both integrated GPU and discrete GPU models.[[1]](#references)
 
 ### Comparing discrete GPUs
 
-NVIDIA GeForce RTX 30 Series and RTX professional GPUs provide massive speedups for games, 3D rendering, video editing, graphic design and AI-accelerated workflows in addition to many other creative tasks. This is thanks to the latest NVIDIA Ampere architecture:
+NVIDIA GeForce RTX 30 Series and RTX professional GPUs provide massive speedups for games, 3D rendering, video editing, graphic design, AI-accelerated workflows, and many other creative tasks. This is thanks to the latest NVIDIA Ampere architecture:
 
 - 2nd generation RT Cores and DLSS, providing up to 2x performance boosts in top renderers, including Blender Cycles, Chaos V-Ray, and Autodesk Arnold.
 - 3rd generation Tensor Cores that accelerate AI features. Tensor Cores also bring AI to graphics with capabilities like DLSS, AI denoising, and enhanced editing for select applications.
@@ -44,10 +44,10 @@ The GeForce RTX 3050 Ti Laptop GPU is a great GPU for gamers and content creator
 
 GeForce RTX 3050 Ti enables:
 
-- Video editing and live streaming accelerations, thanks to the dedicated hardware encoder, enhanced AI features, and app accelerations in apps like Adobe Premiere® Pro, DaVinci Resolve or OBS.
-- Graphic design and photography, with AI-accelerated features in apps like Adobe Lightroom or Photoshop.
-- Ultra-fast 3D rendering thanks to RTX and DLSS accelerations in apps like Blender or Autodesk® Maya.
-- Next-generation gaming with RTX graphics and high performance thanks to DLSS and ultra-low latency with NVIDIA Reflex.
+- Video editing and live streaming accelerations, thanks to the dedicated hardware encoder, enhanced AI features, and app accelerations in apps like Adobe Premiere® Pro, DaVinci Resolve® or OBS.
+- Graphic design and photography, with AI-accelerated features in apps like Adobe Lightroom® or Photoshop® image editing software.
+- Ultra-fast 3D rendering thanks to RTX and DLSS accelerations in apps like Blender™ or Autodesk® Maya.
+- Next-generation gaming with RTX graphics and high-performance thanks to DLSS and ultra-low latency with NVIDIA Reflex.
 
 ### NVIDIA RTX A2000 Laptop GPU
 
