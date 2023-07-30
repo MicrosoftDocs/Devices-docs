@@ -5,6 +5,14 @@
 
 
 
+## Week of July 24, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 7/28/2023 | [Connect other devices and display with Surface Hub](/surface-hub/connect-and-display-with-surface-hub) | modified |
+
+
 ## Week of July 17, 2023
 
 
@@ -136,6 +144,24 @@
 | 6/27/2023 | [Surface Hub update history](/surface-hub/surface-hub-update-history) | modified |
 | 6/28/2023 | [Troubleshoot Surface Hub not Updating](/surface-hub/troubleshoot-surface-hub-not-updating) | added |
 | 6/28/2023 | [Surface Hub update history](/surface-hub/surface-hub-update-history) | modified |
+
+
+## Week of July 24, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 7/28/2023 | [What’s new in Surface Thunderbolt 4 Dock](/surface/surface-dock-whats-new) | modified |
+| 7/28/2023 | [Surface Laptop Studio graphics overview](/surface/surface-laptop-studio-graphics) | modified |
+| 7/28/2023 | [Optimize Wi-Fi connectivity for Surface devices](/surface/surface-wireless-connect) | modified |
+
+
+## Week of July 24, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 7/28/2023 | [Connect other devices and display with Surface Hub](/surface-hub/connect-and-display-with-surface-hub) | modified |
 
 
 ## Week of July 17, 2023
