@@ -2,6 +2,14 @@
 
 
 
+## Week of July 24, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 7/28/2023 | [Connect other devices and display with Surface Hub](/surface-hub/connect-and-display-with-surface-hub) | modified |
+
+
 ## Week of July 17, 2023
 
 
