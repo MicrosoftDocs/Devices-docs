@@ -22,7 +22,7 @@ If you encounter issues with your Surface Hub 2 pen, follow the troubleshooting 
 2. If the pen isn't functioning as expected, pair it to Surface Hub 2S via Bluetooth to ensure it’s running the latest firmware. Press and hold the Eraser and top button until the indicator light starts blinking. This enables the pen to be discoverable via Bluetooth.
 
 > [!TIP]
-> If the indicator light does not start blinking (even with new a new battery), try reseating the eraser cap.
+> If the indicator light does not start blinking (even with a new battery), try reseating the eraser cap.
 
 1. Navigate to **Settings** > **sign in as an administrator** and select **Devices (Bluetooth, printers, mouse).**
 2. Ensure Bluetooth is turned **On.**
