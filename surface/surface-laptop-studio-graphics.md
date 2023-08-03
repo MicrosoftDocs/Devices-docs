@@ -16,7 +16,7 @@ appliesto:
 
 # Surface Laptop Studio graphics overview
 
-Surface Laptop Studio integrates fully modernized compute and graphics capabilities into a new versatile form factor. Led by the quad-core 11th Gen Intel® Core™ i7 and NVIDIA® RTX™ A2000 or NVIDIA® GeForce RTX™ 3050 Ti, Surface Laptop Studio provides architects, engineers, data scientists, and creative professionals with the compute power to do their best work.
+Surface Laptop Studio integrates fully modernized compute and graphics capabilities into a versatile form factor. Led by the quad-core 11th Gen Intel® Core™ i7 and NVIDIA® RTX™ A2000 or NVIDIA® GeForce RTX™ 3050 Ti, Surface Laptop Studio provides architects, engineers, data scientists, and creative professionals with the compute power to do their best work.
 
 A significant differentiator across Surface Laptop Studio models is the GPU configuration. All but the Core i5 device feature a discrete NVIDIA RTX GPU, enabling hardware-accelerated ray tracing, AI and video. The design also optimizes energy efficiency for mobile form factors. The models with NVIDIA GPUs are part of the NVIDIA Studio Products program, benefiting from RTX-accelerations in the top creative apps, reliable NVIDIA Studio Drivers, and access to exclusive NVIDIA apps like Canvas or Broadcast. Ray tracing is a computationally intensive technique that simulates the physical behavior of light to achieve greater realism in computer-generated scenes. It's used both in gaming and in 3D rendering. NVIDIA RTX also features deep learning super sampling (DLSS), an AI technology that boosts frame rates.
 
@@ -36,7 +36,7 @@ NVIDIA GeForce RTX 30 Series and RTX professional GPUs provide massive speedups 
 
 - 2nd generation RT Cores and DLSS, providing up to 2x performance boosts in top renderers, including Blender Cycles, Chaos V-Ray, and Autodesk Arnold.
 - 3rd generation Tensor Cores that accelerate AI features. Tensor Cores also bring AI to graphics with capabilities like DLSS, AI denoising, and enhanced editing for select applications.
-- The best-in-class video encoder (NVENC) and new hardware acceleration for ray-traced motion blur, a common technique used in production rendering, is now boosted by up to 5x.
+- The best-in-class video encoder (NVENC) and hardware acceleration for ray-traced motion blur, a common technique used in production rendering, is now boosted by up to 5x.
 
 ### NVIDIA GeForce RTX 3050 Ti Laptop GPU
 

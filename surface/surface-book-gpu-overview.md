@@ -33,12 +33,11 @@ The integrated GPU (iGPU) included on all Surface Book 3 models incorporates a w
 
 ### NVIDIA GeForce GTX 1650
 
-NVIDIA GeForce GTX 1650 with Max-Q design delivers a major upgrade of the core streaming multiprocessor to more efficiently handle the complex graphics of modern games. Its
-concurrent execution of floating-point and integer operations boosts performance in the compute-heavy workloads of modern games. A new unified memory architecture with twice the cache of its predecessor allows for better performance on complex modern games. New shading advancements improve performance, enhance image quality, and deliver new levels of geometric complexity.
+NVIDIA GeForce GTX 1650 with Max-Q design delivers a major upgrade of the core streaming multiprocessor to more efficiently handle the complex graphics of modern games. Its concurrent execution of floating-point and integer operations boosts performance in the compute-heavy workloads of modern games. A unified memory architecture with twice the cache of its predecessor allows for better performance on complex modern games. Shading advancements improve performance, enhance image quality, and allow for greater geometric complexity.
 
 ### NVIDIA GeForce GTX 1660 Ti
 
-Compared with the GeForce GTX 1650, the faster GeForce GTX 1660 Ti provides Surface Book 3 with additional performance improvements and includes the new and upgraded NVIDIA Encoder, making it better for consumers, gamers, live streamers, and creative professionals.
+Compared with the GeForce GTX 1650, the faster GeForce GTX 1660 Ti provides Surface Book 3 with additional performance improvements and includes an upgraded NVIDIA Encoder, making it better for consumers, gamers, live streamers, and creative professionals.
 
 Thanks to 6 GB of GDDR6 graphics memory, Surface Book 3 models equipped with NVIDIA GeForce GTX 1660 TI provide superior speeds on advanced business productivity software and popular games, especially when running the most modern titles or live streaming. With an optional 2 TB SSD (available in U.S. only), the 15-inch model with GeForce GTX 1660 Ti delivers the most storage of any Surface Book 3 device.
 
@@ -107,11 +106,11 @@ Using default settings is recommended for optimal performance when used as a lap
 
 ### Game mode
 
-Surface Book 3 includes a new game mode that automatically selects maximum performance settings when launched.
+Surface Book 3 includes a game mode that automatically selects maximum performance settings when launched.
 
 ### Safe Detach
 
-New in Surface Book 3, apps enabled for Safe Detach let you disconnect while the app is using the GPU. For supported apps like *World of Warcraft*, your work is moved to the iGPU.
+In Surface Book 3, apps enabled for Safe Detach let you disconnect while the app is using the GPU. For supported apps like *World of Warcraft*, your work is moved to the iGPU.
 
 ### Modifying app settings to always use a specific GPU
 

@@ -1,6 +1,6 @@
 ---
 title: Surface Laptop 5 for Business overview
-description: This article provides an overview of the new Surface Laptop 5.
+description: This article provides an overview of Surface Laptop 5.
 ms.prod: w11
 ms.localizationpriority: medium
 author: coveminer
