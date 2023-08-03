@@ -52,11 +52,9 @@ On the other device, such as a Surface Hub, when you're signed in, the shared bo
 For more information, see [Use Microsoft Whiteboard on a Surface Hub](https://support.office.com/article/use-microsoft-whiteboard-on-a-surface-hub-5c594985-129d-43f9-ace5-7dee96f7621d).
 
 > [!TIP]
->  If you are using Whiteboard and cannot sign in, you can collaborate by joining a Teams or Skype for Business meeting, and then sharing your screen. After you're done, tap **Settings** > **Export to email** or save a copy of the board. If you choose to export to SVG, it exports vector graphics and provides higher resolution than PNG and can be opened in a web browser.
+> If you are using Whiteboard and cannot sign in, you can collaborate by joining a Teams or Skype for Business meeting, and then sharing your screen. After you're done, tap **Settings** > **Export to email** or save a copy of the board. If you choose to export to SVG, it exports vector graphics and provides higher resolution than PNG and can be opened in a web browser.
 
 ## New features in Whiteboard
-
-The Microsoft Whiteboard app, updated for Surface Hub on July 1, 2019 includes a host of new features including:
 
 - **Automatic Saving** - Boards are saved to the cloud automatically when you sign in, and can be found in the board gallery. There's no local folder name or directory.
 - **Extended collaboration across devices** - You can collaborate using new apps for Windows 10 or Windows 11 PC and iOS, and a web version for other devices.
