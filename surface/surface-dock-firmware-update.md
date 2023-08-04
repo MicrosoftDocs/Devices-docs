@@ -55,8 +55,6 @@ This section describes how to manually install the firmware update on Surface Do
     - The update requires a Surface device running Windows 10, version 1803 or later.
     - Installing the MSI file might prompt you to restart Surface. However, restarting is not required to perform the update.
 
-> [!NOTE]
-> 
 2. Disconnect your Surface device from the Surface Dock, wait ~5 seconds, and then reconnect. The Surface Dock 1 Firmware Update updates the dock silently in background. The process can take a few minutes to complete and continues even if interrupted.
 
 ## Monitor the Surface Dock 1 Firmware Update
