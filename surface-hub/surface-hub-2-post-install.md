@@ -334,7 +334,7 @@ The [PowerToys wiki](https://github.com/microsoft/PowerToys/wiki) has instructio
 
 ### Edge Chromium browser
 
-Download and install the new <a href="https://www.microsoft.com/en-us/edge?form=MY01BL&OCID=MY01BL" target="_blank">Edge Chromium browser</a>.
+Download and install <a href="https://www.microsoft.com/edge?form=MY01BL&OCID=MY01BL" target="_blank">Edge</a>.
 
 
 ### Surface Hub Hardware Diagnostic tool

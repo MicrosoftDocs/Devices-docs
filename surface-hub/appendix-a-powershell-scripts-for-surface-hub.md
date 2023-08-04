@@ -16,25 +16,25 @@ appliesto:
 # PowerShell for Surface Hub (v1)
 
 > [!NOTE]
- >This page includes PowerShell scripts intended for the original Surface Hub (v1). For the latest account creation scripts for Surface Hub 2S, see [Create and test a device account](create-and-test-a-device-account-surface-hub.md).
+ >This page includes PowerShell scripts intended for the original Surface Hub (v1). For Surface Hub 2S, see [Create and test a device account](create-and-test-a-device-account-surface-hub.md).
 
--   [PowerShell scripts for Surface Hub admins](#scripts-for-admins)
-    -   [Create an on-premises account](#create-on-premises-ps-scripts)
-    -   [Create a device account using Office 365](#create-os356-ps-scripts)
-    -   [Account verification script](#acct-verification-ps-scripts)
-    -   [Enable Skype for Business (EnableSfb.ps1)](#enable-sfb-ps-scripts)
--   [Useful cmdlets](#useful-cmdlets)
-    -   [Creating a Surface Hub-compatible Exchange ActiveSync policy](#create-compatible-as-policy)
-    -   [Allowing device IDs for ActiveSync](#allowing-device-ids-for-activesync)
-    -   [Auto-accepting and declining meeting requests](#auto-accept-meetings-cmdlet)
-    -   [Accepting external meeting requests](#accept-ext-meetings-cmdlet)
+- [PowerShell scripts for Surface Hub admins](#scripts-for-admins)
+  - [Create an on-premises account](#create-on-premises-ps-scripts)
+  - [Create a device account using Office 365](#create-os356-ps-scripts)
+  - [Account verification script](#acct-verification-ps-scripts)
+  - [Enable Skype for Business (EnableSfb.ps1)](#enable-sfb-ps-scripts)
+- [Useful cmdlets](#useful-cmdlets)
+  - [Creating a Surface Hub-compatible Exchange ActiveSync policy](#create-compatible-as-policy)
+  - [Allowing device IDs for ActiveSync](#allowing-device-ids-for-activesync)
+  - [Auto-accepting and declining meeting requests](#auto-accept-meetings-cmdlet)
+  - [Accepting external meeting requests](#accept-ext-meetings-cmdlet)
     
  > [!NOTE]
  > See also [Modern Auth and Unattended Scripts in Exchange Online PowerShell V2](https://techcommunity.microsoft.com/t5/exchange-team-blog/modern-auth-and-unattended-scripts-in-exchange-online-powershell/ba-p/1497387)
 
 ## Prerequisites
 
-To successfully execute these PowerShell scripts, you will need to install the following prerequisites:
+To successfully execute these PowerShell scripts, you  need to install the following prerequisites:
 
 - Microsoft Online Services Sign-in Assistant for IT Professionals RTW
 - [Microsoft Azure Active Directory Module for Windows PowerShell (64-bit version)](https://www.powershellgallery.com/packages/MSOnline/1.1.183.17)
@@ -54,11 +54,11 @@ What do you need in order to run the scripts?
 -   Admin credentials for your organization's domain or tenant, Exchange servers, and Skype for Business servers.
 
 > [!NOTE]
-> Whether you’re creating a new account or modifying an already-existing account, the validation script will verify that your device account is configured correctly. You should always run the validation script before adding a device account to Surface Hub.
+> Whether you’re creating a new account or modifying an already-existing account, the validation script verifies that your device account is configured correctly. You should always run the validation script before adding a device account to Surface Hub.
 
 ## Running the scripts
 
-The account creation scripts will:
+The account creation scripts perform the following tasks:
 
 -   Ask for administrator credentials.
 -   Create device accounts in your domain/tenant.
@@ -163,12 +163,12 @@ These are the attributes that are set by the scripts:
 <td align="left"><p>True</p></td>
 </tr>
 <tr class="odd">
-<td align="left"><p>Set-AdUser (On-prem only)</p></td>
+<td align="left"><p>Set-AdUser (On-premises only)</p></td>
 <td align="left"><p>Enabled</p></td>
 <td align="left"><p>True</p></td>
 </tr>
 <tr class="even">
-<td align="left"><p>Set-AdUser (On-prem only)</p></td>
+<td align="left"><p>Set-AdUser (On-premises only)</p></td>
 <td align="left"><p>PasswordNeverExpires</p></td>
 <td align="left"><p>True</p></td>
 </tr>
@@ -177,7 +177,7 @@ These are the attributes that are set by the scripts:
 
 ## Account creation scripts
 
-These scripts will create a device account for you. You can use the [Account verification script](#acct-verification-ps-scripts) to make sure they ran correctly.
+These scripts create a device account for you. You can use the [Account verification script](#acct-verification-ps-scripts) to make sure they ran correctly.
 
 The account creation scripts cannot modify an already existing account, but can be used to help you understand which cmdlets need to be run to configure the existing account correctly.
 
@@ -302,7 +302,7 @@ Import-PSSession $sessLync -AllowClobber -WarningAction SilentlyContinue
 > [!Note]
 > These exchange commandlets do not always throw their errors as exceptions
 
-# Because Get-Mailbox will throw an error if the mailbox is not found
+# Because Get-Mailbox throws an error if the mailbox isn't found
 $Error.Clear()
 PrintAction "Creating a new account..."
 try
@@ -317,9 +317,9 @@ $status["Mailbox Setup"] = "Successfully created a mailbox for the new account"
 $strEmail = $mailbox.WindowsEmailAddress
 PrintSuccess "The following mailbox has been created for this room: $strEmail"
 
-## Create or retrieve a policy that will be applied to surface hub devices ##
+## Create or retrieve a policy to be applied to surface hub devices ##
 # The policy disables requiring a device password so that the SurfaceHub does not need to be lockable to use Active Sync
-$strPolicy = Read-Host 'Please enter the name for a new Surface Hub ActiveSync policy that will be created and applied to this account.
+$strPolicy = Read-Host 'Please enter the name for a new Surface Hub ActiveSync policy to be created and applied to this account.
 We will configure that policy to be compatible with Surface Hub devices.
 If this script has been used before, please enter the name of the existing policy.'
 
@@ -669,7 +669,7 @@ Import-PSSession $sessCS -AllowClobber -WarningAction SilentlyContinue
 > [!Note]
 > These exchange commandlets do not always throw their errors as exceptions
 
-# Because Get-Mailbox will throw an error if the mailbox is not found
+# Because Get-Mailbox throws an error if the mailbox isn't found
 $Error.Clear()
 PrintAction "Creating a new account..."
 try
@@ -685,9 +685,9 @@ $strEmail = $mailbox.WindowsEmailAddress
 PrintSuccess "The following mailbox has been created for this room: $strEmail"
 
 
-## Create or retrieve a policy that will be applied to surface hub devices ##
+## Create or retrieve a policy to be be applied to surface hub devices ##
 # The policy disables requiring a device password so that the SurfaceHub does not need to be lockable to use Active Sync
-$strPolicy = Read-Host 'Please enter the name for a new Surface Hub ActiveSync policy that will be created and applied to this account.
+$strPolicy = Read-Host 'Please enter the name for a new Surface Hub ActiveSync policy to be be created and applied to this account.
 We will configure that policy to be compatible with Surface Hub devices.
 If this script has been used before, please enter the name of the existing policy.'
 
@@ -987,7 +987,7 @@ else
 
 ## <a href="" id="acct-verification-ps-scripts"></a>Account verification script
 
-This script validates the previously created device account on Surface Hub and Surface Hub 2S, no matter which method was used to create it. This script is basically pass/fail. If one of the test errors out, it will show a detailed error message, but if all tests pass, the end result will be a summary report. For example, you might see:
+This pass/fail script validates the previously created device account on Surface Hub and Surface Hub 2S and results in a summary report or a detailed error message. For example:
 
 ```console
 15 tests executed
@@ -996,7 +996,7 @@ This script validates the previously created device account on Surface Hub and S
 15 passed
 ```
 
-Details of specific settings will not be shown.
+Details of specific settings aren't shown.
 
 ```PowerShell
 # SHAccountValidate.ps1
@@ -1057,7 +1057,7 @@ function ExitIfError($strMsg)
 $strUpn = Read-Host "What is the email address of the account you wish to validate?"
 if (!$strUpn.Contains('@'))
 {
-    CleanupAndFail "$strUpn is not a valid email address"
+    CleanupAndFail "$strUpn isn't a valid email address"
 }
 $strExServer = Read-Host "What is your exchange server? (leave blank for online tenants)"
 if ($strExServer.Equals(""))
@@ -1293,13 +1293,13 @@ function Validate()
 
 ## Exchange ##
 
-Validate -WarningOnly -Test "The mailbox $strUpn is enabled as a room account" -Condition ($mailbox.RoomMailboxAccountEnabled -eq $True) -FailureMsg "RoomMailboxEnabled - without a device account, the Surface Hub will not be able to use various key features."
+Validate -WarningOnly -Test "The mailbox $strUpn is enabled as a room account" -Condition ($mailbox.RoomMailboxAccountEnabled -eq $True) -FailureMsg "RoomMailboxEnabled - without a device account, the Surface Hub won't be able to use various key features."
 $calendarProcessing = Get-CalendarProcessing -Identity $strUpn -WarningAction SilentlyContinue -ErrorAction SilentlyContinue
-Validate -Test "The mailbox $strUpn is configured to accept meeting requests" -Condition ($calendarProcessing -ne $null -and $calendarProcessing.AutomateProcessing -eq 'AutoAccept') -FailureMsg "AutomateProcessing - the Surface Hub will not be able to send mail or sync its calendar."
-Validate -WarningOnly -Test "The mailbox $strUpn will not delete meeting comments" -Condition ($calendarProcessing -ne $null -and !$calendarProcessing.DeleteComments) -FailureMsg "DeleteComments - the Surface Hub may be missing some meeting information on the welcome screen and Skype."
+Validate -Test "The mailbox $strUpn is configured to accept meeting requests" -Condition ($calendarProcessing -ne $null -and $calendarProcessing.AutomateProcessing -eq 'AutoAccept') -FailureMsg "AutomateProcessing - the Surface Hub won't be able to send mail or sync its calendar."
+Validate -WarningOnly -Test "The mailbox $strUpn won't delete meeting comments" -Condition ($calendarProcessing -ne $null -and !$calendarProcessing.DeleteComments) -FailureMsg "DeleteComments - the Surface Hub may be missing some meeting information on the welcome screen and Skype."
 Validate -WarningOnly -Test "The mailbox $strUpn keeps private meetings private" -Condition ($calendarProcessing -ne $null -and !$calendarProcessing.RemovePrivateProperty) -FailureMsg "RemovePrivateProperty - the Surface Hub will make show private meetings."
-Validate -Test "The mailbox $strUpn keeps meeting subjects" -Condition ($calendarProcessing -ne $null -and !$calendarProcessing.DeleteSubject) -FailureMsg "DeleteSubject - the Surface Hub will not keep meeting subject information."
-Validate -WarningOnly -Test "The mailbox $strUpn does not prepend meeting organizers to subjects" -Condition ($calendarProcessing -ne $null -and !$calendarProcessing.AddOrganizerToSubject) -FailureMsg "AddOrganizerToSubject - the Surface Hub will not display meeting subjects as intended."
+Validate -Test "The mailbox $strUpn keeps meeting subjects" -Condition ($calendarProcessing -ne $null -and !$calendarProcessing.DeleteSubject) -FailureMsg "DeleteSubject - the Surface Hub won't keep meeting subject information."
+Validate -WarningOnly -Test "The mailbox $strUpn does not prepend meeting organizers to subjects" -Condition ($calendarProcessing -ne $null -and !$calendarProcessing.AddOrganizerToSubject) -FailureMsg "AddOrganizerToSubject - the Surface Hub won't display meeting subjects as intended."
 
 if ($fExIsOnline)
 {
@@ -1312,7 +1312,7 @@ else
 
 #ActiveSync
 $casMailbox = Get-Casmailbox $strUpn -WarningAction SilentlyContinue -ErrorAction SilentlyContinue
-Validate -Test "The mailbox $strUpn has a mailbox policy" -Condition ($casMailbox -ne $null) -FailureMsg "PasswordEnabled - unable to find policy - the Surface Hub will not be able to send mail or sync its calendar."
+Validate -Test "The mailbox $strUpn has a mailbox policy" -Condition ($casMailbox -ne $null) -FailureMsg "PasswordEnabled - unable to find policy - the Surface Hub won't be able to send mail or sync its calendar."
 if ($casMailbox)
 {
     $policy = $null
@@ -1320,18 +1320,18 @@ if ($casMailbox)
     {
         $strPolicy = $casMailbox.ActiveSyncMailboxPolicy
         $policy = Get-MobileDeviceMailboxPolicy -Identity $strPolicy -WarningAction SilentlyContinue -ErrorAction SilentlyContinue
-        Validate -Test "The policy $strPolicy does not require a device password" -Condition ($policy.PasswordEnabled -ne $True) -FailureMsg "PasswordEnabled - policy requires a device password - the Surface Hub will not be able to send mail or sync its calendar."
+        Validate -Test "The policy $strPolicy does not require a device password" -Condition ($policy.PasswordEnabled -ne $True) -FailureMsg "PasswordEnabled - policy requires a device password - the Surface Hub won't be able to send mail or sync its calendar."
     }
     else
     {
         $strPolicy = $casMailbox.ActiveSyncMailboxPolicy
         $policy = Get-ActiveSyncMailboxPolicy -Identity $strPolicy -WarningAction SilentlyContinue -ErrorAction SilentlyContinue
-        Validate -Test "The policy $strPolicy does not require a device password" -Condition ($policy.PasswordEnabled -ne $True) -FailureMsg "PasswordEnabled - policy requires a device password - the Surface Hub will not be able to send mail or sync its calendar."
+        Validate -Test "The policy $strPolicy does not require a device password" -Condition ($policy.PasswordEnabled -ne $True) -FailureMsg "PasswordEnabled - policy requires a device password - the Surface Hub won't be able to send mail or sync its calendar."
     }
 
     if ($policy -ne $null)
     {
-        Validate -Test "The policy $strPolicy allows non-provisionable devices" -Condition ($policy.AllowNonProvisionableDevices -eq $null -or $policy.AllowNonProvisionableDevices -eq $true) -FailureMsg "AllowNonProvisionableDevices - policy will not allow the SurfaceHub to sync"
+        Validate -Test "The policy $strPolicy allows non-provisionable devices" -Condition ($policy.AllowNonProvisionableDevices -eq $null -or $policy.AllowNonProvisionableDevices -eq $true) -FailureMsg "AllowNonProvisionableDevices - policy won't allow the SurfaceHub to sync"
     }
 
 }
@@ -1340,11 +1340,11 @@ if ($casMailbox)
 # Check the default access level
 $orgSettings = Get-ActiveSyncOrganizationSettings
 $strDefaultAccessLevel = $orgSettings.DefaultAccessLevel
-Validate -Test "ActiveSync devices are allowed" -Condition ($strDefaultAccessLevel -eq 'Allow') -FailureMsg "DeviceType Windows Mail is accessible - devices are not allowed by default - the surface hub will not be able to send mail or sync its calendar."
+Validate -Test "ActiveSync devices are allowed" -Condition ($strDefaultAccessLevel -eq 'Allow') -FailureMsg "DeviceType Windows Mail is accessible - devices are not allowed by default - the surface hub won't be able to send mail or sync its calendar."
 
 # Check if there exists a device access rule that bans the device type Windows Mail
 $blockingRules = Get-ActiveSyncDeviceAccessRule | where {($_.AccessLevel -eq 'Block' -or $_.AccessLevel -eq 'Quarantine') -and $_.Characteristic -eq 'DeviceType'-and $_.QueryString -eq 'WindowsMail'}
-Validate -Test "Windows mail devices are not blocked or quarantined" -Condition ($blockingRules -eq $null -or $blockingRules.Length -eq 0) -FailureMsg "DeviceType Windows Mail is accessible - devices are blocked or quarantined - the surface hub will not be able to send mail or sync its calendar."
+Validate -Test "Windows mail devices are not blocked or quarantined" -Condition ($blockingRules -eq $null -or $blockingRules.Length -eq 0) -FailureMsg "DeviceType Windows Mail is accessible - devices are blocked or quarantined - the surface hub won't be able to send mail or sync its calendar."
 
 ## End Exchange ##
 
@@ -1369,7 +1369,7 @@ try {
         $lyncAccount = Get-CsUser -Identity $strLyncIdentity -WarningAction SilentlyContinue -ErrorAction SilentlyContinue
     } catch { }
 }
-Validate -Test "There is a Lync or Skype for Business account for $strLyncIdentity" -Condition ($lyncAccount -ne $null -and $lyncAccount.Enabled) -FailureMsg "SfB Enabled - there is no Skype for Business account - meetings will not support Skype for Business"
+Validate -Test "There is a Lync or Skype for Business account for $strLyncIdentity" -Condition ($lyncAccount -ne $null -and $lyncAccount.Enabled) -FailureMsg "SfB Enabled - there is no Skype for Business account - meetings won't support Skype for Business"
 if ($lyncAccount)
 {
     Validate -Test "The meeting room has a SIP address" -Condition (![System.String]::IsNullOrEmpty($lyncAccount.SipAddress)) -FailureMsg "SfB Enabled - there is no SIP Address - the device account cannot be used to sign into Skype for Business."
@@ -1384,26 +1384,26 @@ if ($fHasOnline)
     Validate -Test "There is an online user account for $strUpn" -Condition ($accountOnline -ne $null) -FailureMsg "Could not find a Microsoft Online account for this user even though some services are online"
     if ($accountOnline)
     {
-        Validate -Test "The password for $strUpn will not expire" -Condition ($accountOnline.PasswordNeverExpires -eq $True) -FailureMsg "PasswordNeverExpires - the admin will need to update the device account's password on the Surface Hub when it expires."
+        Validate -Test "The password for $strUpn won't expire" -Condition ($accountOnline.PasswordNeverExpires -eq $True) -FailureMsg "PasswordNeverExpires - the admin needs to update the device account's password on the Surface Hub when it expires."
         if ($fIsSfbOnline -and !$fIsExOnline)
         {
-            $strLicenseFailureMsg = "Has O365 license - The devices will not be able to use Skype for Business services."
+            $strLicenseFailureMsg = "Has O365 license - The devices won't be able to use Skype for Business services."
         }
         elseif ($fIsExOnline -and !$fIsSfbOnline)
         {
-            $strLicenseFailureMsg = "Has O365 license - The devices will not be able to use Exchange Online services."
+            $strLicenseFailureMsg = "Has O365 license - The devices won't be able to use Exchange Online services."
         }
         else
         {
-            $strLicenseFailureMsg = "Has O365 license - The devices will not be able to use Skype for Business or Exchange Online services."
+            $strLicenseFailureMsg = "Has O365 license - The devices won't be able to use Skype for Business or Exchange Online services."
         }
         Validate -Test "$strUpn is licensed" -Condition ($accountOnline.IsLicensed -eq $True) -FailureMsg $strLicenseFailureMsg
 
-        Validate -Test "$strUpn is allowed to sign in" -Condition ($accountOnline.BlockCredential -ne $True) -FailureMsg "BlockCredential - This user is not allowed to sign in."
+        Validate -Test "$strUpn is allowed to sign in" -Condition ($accountOnline.BlockCredential -ne $True) -FailureMsg "BlockCredential - This user isn't allowed to sign in."
     }
 }
 
-#If there is an on-prem component, we can get the authoritative AD user from mailbox
+#If there is an on-premises component, we can get the authoritative AD user from mailbox
 if ($fHasOnPrem)
 {
     $accountOnPrem = $null
@@ -1420,8 +1420,8 @@ if ($fHasOnPrem)
     Validate -Test "There is a user account for $strOnPremUpn" -Condition ($accountOnprem -ne $null) -FailureMsg "Could not find an Active Directory account for this user"
     if ($accountOnPrem)
     {
-        Validate -WarningOnly -Test "The password for $strOnPremUpn will not expire" -Condition ($accountOnprem.PasswordNeverExpires -eq $True) -FailureMsg "PasswordNeverExpires - the admin will need to update the device account's password on the Surface Hub when it expires."
-        Validate -Test "$strOnPremUpn is enabled" -Condition $accountOnPrem.Enabled -FailureMsg "AccountEnabled - this device account will not sign in"
+        Validate -WarningOnly -Test "The password for $strOnPremUpn won't expire" -Condition ($accountOnprem.PasswordNeverExpires -eq $True) -FailureMsg "PasswordNeverExpires - the admin needs to update the device account's password on the Surface Hub when it expires."
+        Validate -Test "$strOnPremUpn is enabled" -Condition $accountOnPrem.Enabled -FailureMsg "AccountEnabled - this device account won't sign in"
     }
 }
 
@@ -1438,7 +1438,7 @@ Cleanup
 
 ## <a href="" id="enable-sfb-ps-scripts"></a>Enable Skype for Business
 
-This script will enable Skype for Business on a device account. Use it only if Skype for Business wasn't previously enabled during account creation.
+This script enables Skype for Business on a device account. Use it only if Skype for Business wasn't previously enabled during account creation.
 
 ```PowerShell
 ## This script performs only the Enable for Skype for Business step on an account. It should only be run if this step failed in SHAccountCreate and the other steps have been completed ##
@@ -1662,10 +1662,10 @@ Set-CalendarProcessing $strRoomUpn -AutomateProcessing AutoAccept
 
 ### <a href="" id="accept-ext-meetings-cmdlet"></a>Accepting external meeting requests
 
-For a device account to accept external meeting requests (a meeting request from an account not in the same tenant/domain), the device account must be set to allow processing of external meeting requests. Once set, the device account will automatically accept or decline meeting requests from external accounts as well as local accounts.
+For a device account to accept external meeting requests (a meeting request from an account not in the same tenant/domain), the device account must be set to allow processing of external meeting requests. Once set, the device account automatically accepts or declines meeting requests from external accounts and local accounts.
 
 > [!Note]
-> If the **AutomateProcessing** attribute is not set to **AutoAccept**, then setting this will have no effect.
+> If the **AutomateProcessing** attribute isn't set to **AutoAccept**, then setting this has no effect.
 
 ```PowerShell
 Set-CalendarProcessing $strRoomUpn -ProcessExternalMeetingMessages $true

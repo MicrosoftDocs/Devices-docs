@@ -103,8 +103,8 @@ Purchase Surface Hub 2 Smart Camera from your [authorized Microsoft Surface rese
 
 ### Learn more
 
--[Video: The new Surface Hub 2 Smart Camera](https://youtu.be/sgv_TeT8RB8)
+-[Video:Surface Hub 2 Smart Camera](https://youtu.be/sgv_TeT8RB8)
 
 ### References
 
-<sup>1</sup> Surface Hub 2 Smart Camera, sold separately starting March 16, 2022, dynamically adjusts the video feed for remote participants. Surface Hub 2 Smart Camera will be included in the box with Surface Hub 2S 85” starting in May 2022.
+<sup>1</sup> Surface Hub 2 Smart Camera, sold separately starting March 16, 2022, dynamically adjusts the video feed for remote participants. Surface Hub 2 Smart Camera included in the box with Surface Hub 2S 85” starting in May 2022.

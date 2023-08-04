@@ -42,7 +42,7 @@ If you are using other options to install Surface drivers and firmware updates, 
 
 ### Graphics driver updates for Microsoft Teams
 
-Newer Surface device models with 10th and 11th generation Intel processors have received graphics driver updates that help with video conferencing workloads. To enable these improvements, make sure you install the following:
+Surface device models with 10th and 11th generation Intel processors have received graphics driver updates that help with video conferencing workloads. To enable these improvements, make sure you install the following:
 
 - Microsoft Teams version **1.4.00.22472** or later.
 - Intel graphics driver **27.20.100.9621** or later.
