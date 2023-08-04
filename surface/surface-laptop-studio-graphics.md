@@ -28,14 +28,14 @@ This section describes the integrated and discrete GPUs across Surface Laptop St
 
 ### Intel Iris™ Xe Graphics
 
-As the integrated GPU (iGPU) on Surface Laptop Studio, Intel Iris™ Xe Graphics is the singular GPU in the Core i5 model. It supports richer gaming experiences and greater speeds for designers and creators. With advanced graphics capabilities and an AI-enhanced experience, Intel Iris Xe enables consumers, hobbyists, and online creators to run the latest productivity software like Adobe® Creative Cloud or enjoy gaming titles in 1080p. It also increases the number of supported displays from three to four. Now you can use up to three external displays alongside the internal display or four external displays at once -- for both integrated GPU and discrete GPU models.[[1]](#references)
+As the integrated GPU (iGPU) on Surface Laptop Studio, Intel Iris™ Xe Graphics is the singular GPU in the Core i5 model. It supports richer gaming experiences and greater speeds for designers and creators. With advanced graphics capabilities and an AI-enhanced experience, Intel Iris Xe enables consumers, hobbyists, and online creators to run the latest productivity software like Adobe® Creative Cloud or enjoy gaming titles in 1080p. It also increases the number of supported displays from three to four. Now you can use up to three external displays alongside the internal display or four external displays at once--for both integrated GPU and discrete GPU models.[[1]](#references)
 
 ### Comparing discrete GPUs
 
 NVIDIA GeForce RTX 30 Series and RTX professional GPUs provide massive speedups for games, 3D rendering, video editing, graphic design, AI-accelerated workflows, and many other creative tasks. This is thanks to the latest NVIDIA Ampere architecture:
 
-- 2nd generation RT Cores and DLSS, providing up to 2x performance boosts in top renderers, including Blender Cycles, Chaos V-Ray, and Autodesk Arnold.
-- 3rd generation Tensor Cores that accelerate AI features. Tensor Cores also bring AI to graphics with capabilities like DLSS, AI denoising, and enhanced editing for select applications.
+- Second generation RT Cores and DLSS, providing up to 2x performance boosts in top renderers, including Blender Cycles, Chaos V-Ray, and Autodesk Arnold.
+- Third generation Tensor Cores that accelerate AI features. Tensor Cores also bring AI to graphics with capabilities like DLSS, AI denoising, and enhanced editing for select applications.
 - The best-in-class video encoder (NVENC) and hardware acceleration for ray-traced motion blur, a common technique used in production rendering, is now boosted by up to 5x.
 
 ### NVIDIA GeForce RTX 3050 Ti Laptop GPU
@@ -53,7 +53,7 @@ GeForce RTX 3050 Ti enables:
 
 The NVIDIA RTX A2000 offers professional graphics rendering and AI capabilities for demanding professional workflows, including manufacturing and product design, media and entertainment modeling, animating and rendering, architecture, engineering and construction design.
 
-NVIDIA RTX A2000 builds on the GeForce RTX 3050 Ti features with the following additional capabilities:
+NVIDIA RTX A2000 builds on the GeForce RTX 3050 Ti features with the following capabilities:
 
 - Enterprise-grade reliability, including ISV certification for professional apps and enterprise drivers tuned for software compatibility and stability.
 - Enterprise-level hardware, drivers and support.
@@ -64,8 +64,8 @@ NVIDIA RTX A2000 builds on the GeForce RTX 3050 Ti features with the following a
 
 | GPU                                         | NVIDIA GeForce RTX 3050 Ti Laptop GPU | NVIDIA RTX A2000 Laptop GPU |
 | ------------------------------------------- | ------------------------------------- | --------------------------- |
-| GPU memory                                  | 4GB GDDR6                             | 4GB GDDR6                   |
-| GPU boost clock                             | 1035Mhz                               | 1207.5Mhz                   |
+| GPU memory                                  | 4 GB GDDR6                             | 4 GB GDDR6                   |
+| GPU boost clock                             | 1035 Mhz                               | 1207.5 Mhz                   |
 | Streaming multiprocessors                   | 2x FP32                               | 2x FP32                     |
 | NVIDIA CUDA processing cores                | 2560                                  | 2560                        |
 | NVIDIA RT cores                             | 2nd Gen / 20                          | 2nd Gen / 20                |
@@ -91,4 +91,4 @@ NVIDIA RTX A2000 builds on the GeForce RTX 3050 Ti features with the following a
 
 ### References
 
-1. Subject to the limitations of the display connection. DisplayPort 1.4a over USB-C permits 4K displays up to the following configurations: 1x 4K at 120Hz; 2x 4K at 60Hz; 1x 4K at 60Hz + 2x 4K at 30Hz; 4x 4K at 30Hz. Display configurations of more than two displays require display support for daisy-chaining or display adapters with support for multiple displays.
+1. Subject to the limitations of the display connection. DisplayPort 1.4a over USB-C permits 4K displays up to the following configurations: 1x 4K at 120 Hz; 2x 4K at 60 Hz; 1x 4K at 60 Hz + 2x 4K at 30 Hz; 4x 4K at 30 Hz. Display configurations of more than two displays require display support for daisy-chaining or display adapters with support for multiple displays.
