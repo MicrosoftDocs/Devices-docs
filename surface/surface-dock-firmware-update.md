@@ -1,6 +1,6 @@
 ---
 title: Microsoft Surface Dock 1 Firmware Update
-description: This article explains how to use Microsoft Surface Dock Firmware Update to install and manage firmware on the original Surface Dock 1. When installed on your Surface device, it will update Surface Dock 1 devices attached to your Surface device.
+description: This article explains how to use Microsoft Surface Dock Firmware Update to install and manage firmware on the original Surface Dock 1. When installed on your Surface device, it updates Surface Dock 1 devices attached to your Surface device.
 ms.localizationpriority: medium
 ms.prod: surface
 author: coveminer
@@ -15,7 +15,7 @@ appliesto:
 ---
 # Surface Dock 1 Firmware Update
 
-This article explains how to use Microsoft Surface Dock 1 Firmware Update to install and manage firmware on the original Surface Dock 1. When installed on your Surface device, it will update Surface Dock 1 devices attached to your Surface device.
+This article explains how to use Microsoft Surface Dock 1 Firmware Update to install and manage firmware on the original Surface Dock 1. When installed on your Surface device, it updates Surface Dock 1 devices attached to your Surface device.
 
 > [!NOTE]
 > This article does not apply to [Surface Dock 2](surface-dock2-overview.md), which receives updates automatically via Windows Update or by using Microsoft Endpoint Configuration Manager or other MSI deployment tools. All current software, firmware, and drivers for the Surface Dock 2 can be found [here](https://www.microsoft.com/en-us/download/details.aspx?id=101317).
@@ -48,7 +48,7 @@ Surface Dock 1 Firmware Update is supported on the following devices:
 This section describes how to manually install the firmware update on Surface Dock 1.
 
 > [!TIP]
-> The MSI file Surface Dock 1 Firmware Update is not self-updating. If you have deployed the MSI to Surface devices and a new version of the firmware is released, you will need to deploy the new version.
+> The MSI file Surface Dock 1 Firmware Update is not self-updating. If you have deployed the MSI to Surface devices and a new version of the firmware is released, you need to deploy the new version.
 
 1. Go to [Surface Tools for IT](https://www.microsoft.com/download/details.aspx?id=46703) and download and install the .msi file named **Surface_Dock_FwUpdate..**, followed by the appropriate version. If you're running Surface Pro X, download the **.arm64** build. For all other devices, use the **.amd64** build.  
 
@@ -57,7 +57,7 @@ This section describes how to manually install the firmware update on Surface Do
 
 > [!NOTE]
 > 
-2. Disconnect your Surface device from the Surface Dock, wait ~5 seconds, and then reconnect. The Surface Dock 1 Firmware Update will update the dock silently in background. The process can take a few minutes to complete and will continue even if interrupted.
+2. Disconnect your Surface device from the Surface Dock, wait ~5 seconds, and then reconnect. The Surface Dock 1 Firmware Update updates the dock silently in background. The process can take a few minutes to complete and continues even if interrupted.
 
 ## Monitor the Surface Dock 1 Firmware Update
 
@@ -77,9 +77,9 @@ To monitor the update:
 
 4. Event 2007 with the following text indicates a successful update: **Firmware update finished. hr=0 DriverTelementry EventCode = 2007**.
 
-   If the update is not successful, then event ID 2007 will be displayed as an **Error** event rather than **Information**. Additionally, the version reported in the Windows Registry will not be current.
+   If the update is not successful, then event ID 2007 is displayed as an **Error** event rather than **Information**. Additionally, the version reported in the Windows Registry won't be current.
 
-5. When the update is complete, updated DWORD values will be displayed in the Windows Registry, corresponding to the current version of the tool. See the [Versions reference](#versions-reference) section in this article for details. For example:
+5. When the update is complete, updated DWORD values are displayed in the Windows Registry, corresponding to the current version of the tool. See the [Versions reference](#versions-reference) section in this article for details. For example:
 
     - Component10CurrentFwVersion 0x04ac3970 (78395760)
     - Component20CurrentFwVersion 0x04915a70 (76634736)
@@ -107,7 +107,7 @@ msiexec /i "\\share\folder\Surface_Dock_FwUpdate_1.42.139_Win10_17134_19.084.316
 ```
 
 > [!NOTE]
-> A log file is not created by default. In order to create a log file, you will need to append "/l*v [path]". For example: Msiexec.exe /i \<path to msi file\> /l*v %windir%\logs\ SurfaceDockFWI.log"
+> A log file is not created by default. In order to create a log file, you need to append "/l*v [path]". For example: Msiexec.exe /i \<path to msi file\> /l*v %windir%\logs\ SurfaceDockFWI.log"
 
 For more information, refer to [Command line options](/windows/win32/msi/command-line-options) documentation.
 
@@ -116,7 +116,7 @@ For more information, refer to [Command line options](/windows/win32/msi/command
 
 ## Intune deployment
 
-You can use Intune to distribute Surface Dock 1 Firmware Update to your devices. First you will need to convert the MSI file to the .intunewin format, as described in the following documentation: [Intune Standalone - Win32 app management](/intune/apps/apps-win32-app-management).
+You can use Intune to distribute Surface Dock 1 Firmware Update to your devices. First you need to convert the MSI file to the .intunewin format, as described in the following documentation: [Intune Standalone - Win32 app management](/intune/apps/apps-win32-app-management).
 
 Use the following command:
 
