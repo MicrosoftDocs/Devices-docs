@@ -36,7 +36,7 @@ Full servicing support for [Windows 10 Team Edition version 20H2](/lifecycle/pro
 
 ### 2S devices
 
-Customers can update their Surface Hub 2S devices to the 2022 Update through Windows Update, or Windows Update for Business. An updated bare metal recovery (BMR) image for use with [the Hub 2S USB recovery process](surface-hub-2s-recover-reset.md#recover-surface-hub-2s-by-using-a-usb-recovery-drive) is not available at this time.
+Customers can update their Surface Hub 2S devices to the 2022 Update through Windows Update, or Windows Update for Business. An updated bare metal recovery (BMR) image for use with [the Hub 2S USB recovery process](surface-hub-2s-recover-reset.md#recover-surface-hub-2s-with-a-usb-recovery-drive) is not available at this time.
 
 ### V1 devices
 

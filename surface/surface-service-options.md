@@ -18,7 +18,7 @@ appliesto:
 
 Most [newer Surface devices](surface-service-and-repair.md) are designed to facilitate the repair or replacement of primary components like the solid-state drive (SSD), keyboard, or display. With the purchase of a new commercial Surface for Business device, you can maximize your investment with services and repair<sup>1</sup> options.
 
-If your Surface stops working, you can take advantage of new options to service, repair, or replace components on your device.
+If your Surface stops working, there are several options to service, repair, or replace components on your device.
 
 Every commercial device comes with a minimum 1-year Microsoft Limited Hardware warranty. For added peace of mind, Microsoft Protection Plans<sup>2</sup> offer extended coverage and services that help you with every stage of support you might need for your Surface devices, from deployment to replacement.
 

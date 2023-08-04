@@ -22,7 +22,7 @@ Use [Microsoft Edge browser policies](/deployedge/microsoft-edge-policies) to co
 - [Provisioning packages using ADMX Ingestion in Windows Configuration Designer](/windows/configuration/wcd/wcd-admxingestion)
 
 > [!TIP]
-> The swipe down from top of screen gesture to exit full-screen mode requires two fingers with the new Microsoft Edge. The exit full-screen action is also available in the context menu displayed after a long-press touch.
+> The swipe down from top of screen gesture to exit full-screen mode requires two fingers with Microsoft Edge. The exit full-screen action is also available in the context menu displayed after a long-press touch.
 
 ## Default Microsoft Edge policies for Surface Hub
 

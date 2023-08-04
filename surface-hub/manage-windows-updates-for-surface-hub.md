@@ -11,16 +11,16 @@ ms.date: 12/19/2022
 ms.localizationpriority: medium
 ---
 
-# Manage Windows Update on Surface Hub
+# Manage Windows updates on Surface Hub
 
-New releases of the Surface Hub operating system are published through Windows Update, just like releases of Windows 10 or Windows 11. This page explains best practices for managing updates for Surface Hub devices. 
+This page explains best practices for managing updates for Surface Hub devices. 
 
 ## Windows Update for Business
 
-Windows Update for Business is a set of features designed to provide enterprises additional control over how and when Windows Update installs releases, while reducing device management costs. Using this method, Surface Hubs are directly connected to Microsoft’s Windows Update service.
+Windows Update for Business provides enterprises with more control over how and when Windows Update installs releases, while reducing device management costs. Using this method, Surface Hubs are directly connected to Microsoft’s Windows Update service.
 
-- Receive updates directly from Microsoft's Windows Update service, with no additional infrastructure required. 
-- Defer updates to provide additional time for testing and evaluation. 
+- Receive updates directly from Microsoft's Windows Update service, with no extra infrastructure required. 
+- Defer updates to provide more time for testing and evaluation. 
 - Deploy updates to select groups of devices. 
 - Define maintenance windows for installing updates. 
 
@@ -42,7 +42,7 @@ Microsoft publishes two types of Surface Hub releases broadly on an ongoing basi
 
 In order to improve release quality and simplify deployments, all new releases that Microsoft publishes for Windows 10 or Windows 11, including Surface Hub, will be cumulative. This means new feature updates and quality updates will contain the payloads of all previous releases (in an optimized form to reduce storage and networking requirements), and installing the release on a device will bring it completely up to date. Also, unlike earlier versions of Windows, you cannot install a subset of the contents of a Windows 10 quality update. For example, if a quality update contains fixes for three security vulnerabilities and one reliability issue, deploying the update will result in the installation of all four fixes.
 
-The Surface Hub operating system receives updates on the [Semi-Annual Channel](/windows/deployment/update/waas-overview#naming-changes). Like other editions of Windows 10 or Windows 11, the servicing lifetime is finite. You must install new feature updates on machines running these branches in order to continue receiving quality updates.
+Surface Hub receives updates on the [Semi-Annual Channel](/windows/deployment/update/waas-overview#naming-changes). Like other editions of Windows 10 or Windows 11, the servicing lifetime is finite. You must install new feature updates on machines running these branches in order to continue receiving quality updates.
 
 For more information on Windows as a Service, see [Overview of Windows as a service](/windows/deployment/update/waas-overview).
 
