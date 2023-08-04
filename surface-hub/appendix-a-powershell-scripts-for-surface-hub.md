@@ -163,12 +163,12 @@ These are the attributes that are set by the scripts:
 <td align="left"><p>True</p></td>
 </tr>
 <tr class="odd">
-<td align="left"><p>Set-AdUser (On-prem only)</p></td>
+<td align="left"><p>Set-AdUser (On-premises only)</p></td>
 <td align="left"><p>Enabled</p></td>
 <td align="left"><p>True</p></td>
 </tr>
 <tr class="even">
-<td align="left"><p>Set-AdUser (On-prem only)</p></td>
+<td align="left"><p>Set-AdUser (On-premises only)</p></td>
 <td align="left"><p>PasswordNeverExpires</p></td>
 <td align="left"><p>True</p></td>
 </tr>
@@ -1403,7 +1403,7 @@ if ($fHasOnline)
     }
 }
 
-#If there is an on-prem component, we can get the authoritative AD user from mailbox
+#If there is an on-premises component, we can get the authoritative AD user from mailbox
 if ($fHasOnPrem)
 {
     $accountOnPrem = $null
