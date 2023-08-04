@@ -18,16 +18,16 @@ appliesto:
 > [!NOTE]
  >This page includes PowerShell scripts intended for the original Surface Hub (v1). For Surface Hub 2S, see [Create and test a device account](create-and-test-a-device-account-surface-hub.md).
 
-    -   [PowerShell scripts for Surface Hub admins](#scripts-for-admins)
-    -   [Create an on-premises account](#create-on-premises-ps-scripts)
-    -   [Create a device account using Office 365](#create-os356-ps-scripts)
-    -   [Account verification script](#acct-verification-ps-scripts)
-    -   [Enable Skype for Business (EnableSfb.ps1)](#enable-sfb-ps-scripts)
--   [Useful cmdlets](#useful-cmdlets)
-    -   [Creating a Surface Hub-compatible Exchange ActiveSync policy](#create-compatible-as-policy)
-    -   [Allowing device IDs for ActiveSync](#allowing-device-ids-for-activesync)
-    -   [Auto-accepting and declining meeting requests](#auto-accept-meetings-cmdlet)
-    -   [Accepting external meeting requests](#accept-ext-meetings-cmdlet)
+- [PowerShell scripts for Surface Hub admins](#scripts-for-admins)
+  - [Create an on-premises account](#create-on-premises-ps-scripts)
+  - [Create a device account using Office 365](#create-os356-ps-scripts)
+  - [Account verification script](#acct-verification-ps-scripts)
+  - [Enable Skype for Business (EnableSfb.ps1)](#enable-sfb-ps-scripts)
+- [Useful cmdlets](#useful-cmdlets)
+  - [Creating a Surface Hub-compatible Exchange ActiveSync policy](#create-compatible-as-policy)
+  - [Allowing device IDs for ActiveSync](#allowing-device-ids-for-activesync)
+  - [Auto-accepting and declining meeting requests](#auto-accept-meetings-cmdlet)
+  - [Accepting external meeting requests](#accept-ext-meetings-cmdlet)
     
  > [!NOTE]
  > See also [Modern Auth and Unattended Scripts in Exchange Online PowerShell V2](https://techcommunity.microsoft.com/t5/exchange-team-blog/modern-auth-and-unattended-scripts-in-exchange-online-powershell/ba-p/1497387)
@@ -319,7 +319,7 @@ PrintSuccess "The following mailbox has been created for this room: $strEmail"
 
 ## Create or retrieve a policy to be applied to surface hub devices ##
 # The policy disables requiring a device password so that the SurfaceHub does not need to be lockable to use Active Sync
-$strPolicy = Read-Host 'Please enter the name for a new Surface Hub ActiveSync policy that will be created and applied to this account.
+$strPolicy = Read-Host 'Please enter the name for a new Surface Hub ActiveSync policy to be created and applied to this account.
 We will configure that policy to be compatible with Surface Hub devices.
 If this script has been used before, please enter the name of the existing policy.'
 
@@ -685,9 +685,9 @@ $strEmail = $mailbox.WindowsEmailAddress
 PrintSuccess "The following mailbox has been created for this room: $strEmail"
 
 
-## Create or retrieve a policy that will be applied to surface hub devices ##
+## Create or retrieve a policy to be be applied to surface hub devices ##
 # The policy disables requiring a device password so that the SurfaceHub does not need to be lockable to use Active Sync
-$strPolicy = Read-Host 'Please enter the name for a new Surface Hub ActiveSync policy that will be created and applied to this account.
+$strPolicy = Read-Host 'Please enter the name for a new Surface Hub ActiveSync policy to be be created and applied to this account.
 We will configure that policy to be compatible with Surface Hub devices.
 If this script has been used before, please enter the name of the existing policy.'
 
@@ -1384,7 +1384,7 @@ if ($fHasOnline)
     Validate -Test "There is an online user account for $strUpn" -Condition ($accountOnline -ne $null) -FailureMsg "Could not find a Microsoft Online account for this user even though some services are online"
     if ($accountOnline)
     {
-        Validate -Test "The password for $strUpn won't expire" -Condition ($accountOnline.PasswordNeverExpires -eq $True) -FailureMsg "PasswordNeverExpires - the admin will need to update the device account's password on the Surface Hub when it expires."
+        Validate -Test "The password for $strUpn won't expire" -Condition ($accountOnline.PasswordNeverExpires -eq $True) -FailureMsg "PasswordNeverExpires - the admin needs to update the device account's password on the Surface Hub when it expires."
         if ($fIsSfbOnline -and !$fIsExOnline)
         {
             $strLicenseFailureMsg = "Has O365 license - The devices won't be able to use Skype for Business services."
@@ -1420,7 +1420,7 @@ if ($fHasOnPrem)
     Validate -Test "There is a user account for $strOnPremUpn" -Condition ($accountOnprem -ne $null) -FailureMsg "Could not find an Active Directory account for this user"
     if ($accountOnPrem)
     {
-        Validate -WarningOnly -Test "The password for $strOnPremUpn won't expire" -Condition ($accountOnprem.PasswordNeverExpires -eq $True) -FailureMsg "PasswordNeverExpires - the admin will need to update the device account's password on the Surface Hub when it expires."
+        Validate -WarningOnly -Test "The password for $strOnPremUpn won't expire" -Condition ($accountOnprem.PasswordNeverExpires -eq $True) -FailureMsg "PasswordNeverExpires - the admin needs to update the device account's password on the Surface Hub when it expires."
         Validate -Test "$strOnPremUpn is enabled" -Condition $accountOnPrem.Enabled -FailureMsg "AccountEnabled - this device account won't sign in"
     }
 }
@@ -1665,7 +1665,7 @@ Set-CalendarProcessing $strRoomUpn -AutomateProcessing AutoAccept
 For a device account to accept external meeting requests (a meeting request from an account not in the same tenant/domain), the device account must be set to allow processing of external meeting requests. Once set, the device account automatically accepts or declines meeting requests from external accounts and local accounts.
 
 > [!Note]
-> If the **AutomateProcessing** attribute isn't set to **AutoAccept**, then setting this will have no effect.
+> If the **AutomateProcessing** attribute isn't set to **AutoAccept**, then setting this has no effect.
 
 ```PowerShell
 Set-CalendarProcessing $strRoomUpn -ProcessExternalMeetingMessages $true
