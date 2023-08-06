@@ -5,6 +5,17 @@
 
 
 
+## Week of July 31, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 7/31/2023 | [Surface Hub update history](/surface-hub/surface-hub-update-history) | modified |
+| 8/4/2023 | [Manage EU privacy settings on Surface Hub](/surface-hub/general-data-privacy-regulation-and-surface-hub) | modified |
+| 8/4/2023 | [PowerShell for Surface Hub (v1)](/surface-hub/appendix-a-powershell-scripts-for-surface-hub) | modified |
+| 8/4/2023 | [Manage Windows updates on Surface Hub](/surface-hub/manage-windows-updates-for-surface-hub) | modified |
+
+
 ## Week of July 24, 2023
 
 
@@ -136,14 +147,27 @@
 | 4/19/2022 | [Surface Hub update history](/surface-hub/surface-hub-update-history) | modified |
 
 
-## Week of June 26, 2023
+## Week of July 31, 2023
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 6/27/2023 | [Surface Hub update history](/surface-hub/surface-hub-update-history) | modified |
-| 6/28/2023 | [Troubleshoot Surface Hub not Updating](/surface-hub/troubleshoot-surface-hub-not-updating) | added |
-| 6/28/2023 | [Surface Hub update history](/surface-hub/surface-hub-update-history) | modified |
+| 8/4/2023 | [Surface Book 3 GPU technical overview](/surface/surface-book-gpu-overview) | modified |
+| 8/4/2023 | [Surface Book 3 Quadro RTX 3000 tech overview](/surface/surface-book-quadro) | modified |
+| 8/4/2023 | [Microsoft Surface Dock 1 Firmware Update](/surface/surface-dock-firmware-update) | modified |
+| 8/4/2023 | [Surface Laptop Studio graphics overview](/surface/surface-laptop-studio-graphics) | modified |
+| 8/4/2023 | [Surface Studio 2+ for Business overview](/surface/surface-studio-2-plus-overview) | modified |
+
+
+## Week of July 31, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 7/31/2023 | [Surface Hub update history](/surface-hub/surface-hub-update-history) | modified |
+| 8/4/2023 | [Manage EU privacy settings on Surface Hub](/surface-hub/general-data-privacy-regulation-and-surface-hub) | modified |
+| 8/4/2023 | [PowerShell for Surface Hub (v1)](/surface-hub/appendix-a-powershell-scripts-for-surface-hub) | modified |
+| 8/4/2023 | [Manage Windows updates on Surface Hub](/surface-hub/manage-windows-updates-for-surface-hub) | modified |
 
 
 ## Week of July 24, 2023
@@ -406,13 +430,3 @@
 | 7/14/2023 | [Microsoft Surface for IT professionals # < 60 chars](/surface/index) | modified |
 | 7/14/2023 | [Surface Laptop SE overview](/surface/surface-laptop-se-overview) | added |
 | 4/19/2022 | [Next Business Day Replacement information & coverage areas](/surface/surface-next-business-day-replacement) | modified |
-
-
-## Week of June 26, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 6/27/2023 | [Surface Hub update history](/surface-hub/surface-hub-update-history) | modified |
-| 6/28/2023 | [Troubleshoot Surface Hub not Updating](/surface-hub/troubleshoot-surface-hub-not-updating) | added |
-| 6/28/2023 | [Surface Hub update history](/surface-hub/surface-hub-update-history) | modified |
