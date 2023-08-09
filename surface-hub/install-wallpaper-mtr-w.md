@@ -12,4 +12,6 @@ ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams Rooms on Surface Hub 2S
 
+---
+
 # Install wallpaper for Microsoft Teams Rooms-Windows on Surface Hub 
