@@ -6,198 +6,210 @@
     - name: Operating system
       expanded: true
       items: 
-        - name: Set up
+        - name: MTR-W
           expanded: true
           items:
-           - name: Install Windows 10 Team 2022 Update
-             href: surface-hub-2022-update.md
-           - name: Surface Hub & Teams Rooms automated setup (requires authentication)
-             href: https://go.microsoft.com/fwlink/?linkid=2221605
-           - name: First-time setup
-             expanded: true
-             items:
-              - name: First time setup for Surface Hub
-                href: first-run-program-surface-hub.md   
-              - name: Admin group management
-                href: admin-group-management-for-surface-hub.md
-              - name: Setup worksheet
-                href: setup-worksheet-surface-hub.md   
-              - name: Prepare environment
-                href: prepare-your-environment-for-surface-hub.md           
-              - name: Save BitLocker key
-                href: save-bitlocker-key-surface-hub.md
-           - name: Device account
-             expanded: true
-             items:
-              - name: Create & test device account
-                href: create-and-test-a-device-account-surface-hub.md
-              - name: Change device account
-                href: change-surface-hub-device-account.md
-              - name: Test device account
-                href: use-surface-hub-diagnostic-test-device-account.md
-              - name: Find Teams Rooms devices with unsupported licenses 
-                href: /MicrosoftTeams/rooms/license-check
-              - name: Hybrid deployment
-                href: hybrid-deployment-surface-hub-device-accounts.md    
-              - name: Modern authentication
-                href: surface-hub-modern-auth.md
-           - name: Configuration management
-             expanded: true
-             items:
-              - name: Enroll Surface Hub into MDM management
-                href: enroll-surface-hub-mdm.md
-              - name: Configure non-Global Admin accounts
-                href: surface-hub-2s-nonglobal-admin.md
-              - name: Create provisioning packages
-                href: provisioning-packages-for-surface-hub.md
-           - name: Install apps
-             items:
-              - name: Install apps on Surface Hub
-                href: install-apps-on-surface-hub.md
-              - name: Install Progressive Web Apps
-                href: install-pwa-surface-hub.md  
-           - name: Connect devices
-             items:
-              - name: Connect devices to Surface Hub 2S
-                href: surface-hub-2s-connect.md        
-              - name: Connect other devices & display with Surface Hub
-                href: connect-and-display-with-surface-hub.md
-              - name: Miracast on existing wireless network or LAN
-                href: miracast-over-infrastructure.md
-              - name: Troubleshoot display projection
-                href: miracast-troubleshooting.md        
-           - name: Configure Microsoft Teams 
-             items: 
-             - name: Surface Hub & Microsoft Teams Rooms setup best practices  
-               href: https://go.microsoft.com/fwlink/?linkid=2222648  
-             - name: Microsoft Teams Rooms on Surface Hub
-               href: surface-hub-teams-rooms.md
-             - name: Configure networking & Quality of Service for Microsoft Teams Rooms on Surface Hub
-               href: surface-hub-teams-rooms-networking.md
-             - name: Surface Hub Teams app
-               href: hub-teams-app.md
-             - name: Troubleshoot Teams sign-in issues on Surface Hub
-               href: troubleshoot-teams-sign-in-surface-hub.md               
-             - name: Create & configure resource accounts for rooms & shared Teams devices
-               href: /microsoftteams/rooms/with-exchange-online
-           - name: Migrate to Windows 10/11 Pro or Enterprise
-             items: 
-              - name: Migrate to Windows 10/11 Pro or Enterprise on Surface Hub 2
-                href: surface-hub-2s-migrate-os.md
-              - name: Configure Windows 10/11 Pro or Enterprise on Surface Hub 2
-                href: surface-hub-2-post-install.md
-              - name: Essential add-ons for Windows 10/11 Pro & Enterprise on Surface Hub 2
-                href: surface-hub-2-essential-add-ons.md        
-        - name: Get started
-          items:    
-           - name: What's new in Windows 10 Team 2020 updates
-             href: surface-hub-2020-update-whats-new.md
-           - name: Operating system essentials
-             href: differences-between-surface-hub-and-windows-10-enterprise.md
-           - name: Surface Hub 2S camera lens orientation
-             href: surface-hub-2s-camera-lens-orientation.md
-           - name: Start and finish a meeting  
-             href: meet-on-surface-hub.md
-           - name: Set up & use Microsoft Whiteboard
-             href: whiteboard-collaboration.md
-           - name: Adjust accessibility settings
-             href: accessibility-surface-hub.md   
-           - name: Change display language
-             href: change-language-on-surface-hub.md    
-           - name: Adjust Surface Hub 2S brightness, volume, & input
-             href: surface-hub-2s-onscreen-display.md
-           - name: Using the Surface app 
-             href: using-surface-app-on-surface-hub-2s.md
-        - name: Manage
-          items:
-          - name: Manage Microsoft Surface Hub
-            href: manage-surface-hub.md
-          - name: Manage Surface Hub with an MDM provider
-            href: manage-settings-with-mdm-for-surface-hub.md
-          - name: Admin group management
-            href: admin-group-management-for-surface-hub.md
-          - name: Manage Microsoft Edge on Surface Hub
-            href: surface-hub-install-chromium-edge.md
-          - name: Monitor Surface Hub
-            href: monitor-surface-hub.md
-          - name: Manage Windows Update
-            href: manage-windows-updates-for-surface-hub.md
-          - name: Manage EU privacy settings on Surface Hub
-            href: general-data-privacy-regulation-and-surface-hub.md
-          - name: Check Surface Hub warranty
-            href: check-surface-hub-warranty.md    
-          - name: Enroll Surface Hub in Windows Insider program
-            href: enroll-surface-hub-in-windows-insider-program.md  
-          - name: Configure Surface Hub Start menu
-            href: surface-hub-start-menu.md
-          - name: Manage Surface Hub settings
-            items:
-             - name: Manage Surface Hub settings
-               href: manage-surface-hub-settings.md
-             - name: Local management for Surface Hub settings
-               href: local-management-surface-hub-settings.md        
-             - name: Configure domain name for Skype for Business
-               href: use-fully-qualified-domain-name-surface-hub.md
-             - name: Wireless network management
-               href: wireless-network-management-for-surface-hub.md
-             - name: Enable 802.1x wired authentication
-               href: enable-8021x-wired-authentication.md
-        - name: Secure
+           - name: First time setup for MTR-W
+             href: first-run-program-surface-hub-mtr-w.md
+           - name: Migrate to MTR-W  
+             href: migrate-to-mtr-w.md
+           - name: Install wallpaper for MTR-W 
+             href: install-wallpaper-mtr-w.md
+        - name: Windows 10 Team 2022
+          expanded: true
           items: 
-          - name: Surface Hub security overview
-            href: surface-hub-security.md 
-          - name: Password management
-            href: password-management-for-surface-hub-device-accounts.md     
-          - name: Configure password-less sign-in
-            href: surface-hub-2s-phone-authenticate.md
-          - name: Secure with Surface Enterprise Management
-            href: surface-hub-2s-secure-with-uefi-semm.md
-        - name: Troubleshoot
-          items:
-          - name: Surface Hub Update History
-            href: surface-hub-update-history.md      
-          - name: Known issues - 22H2 
-            href: windows-10-team-known-issues.md
-          - name: Troubleshoot Surface Hub
-            href: troubleshoot-surface-hub.md  
-          - name: Troubleshoot Azure AD Join 
-            href: troubleshoot-azure-ad-join-on-surface-hub.md
-          - name: Troubleshoot Azure sign-in logs
-            href: troubleshoot-azure-sign-in-logs-for-surface-hub.md          
-          - name: Troubleshoot Conditional Access
-            href: conditional-access-for-surface-hub.md      
-          - name: Troubleshoot Intune auto enrollment
-            href: troubleshoot-intune-auto-enrollment-on-surface-hub.md
-          - name: Troubleshoot One-click Join
-            href: troubleshoot-one-click-join-from-welcome-screen-calendar.md
-          - name: Collect Surface Hub log files  
-            href: collect-surface-hub-log-files.md
-          - name: Troubleshoot Surface Hub not Updating
-            href: troubleshoot-surface-hub-not-updating.md 	  		  
-          - name: Troubleshoot Teams sign-in issues
-            href: troubleshoot-teams-sign-in-surface-hub.md  
-          - name: Troubleshoot access to Settings app
-            href: troubleshoot-access-to-settings-app-surface-hub.md
-          - name: Troubleshoot CSP policy settings
-            href: troubleshoot-mdm-csp-surface-hub.md
-          - name: Troubleshoot display projection 
-            href: miracast-troubleshooting.md
-          - name: Surface Hub can't download updates from Windows Update
-            href: surface-hub-cannot-download-updates-from-windows-update.md
-          - name: Surface Hub may install updates & restart outside maintenance hours
-            href: surface-hub-installs-updates-and-restarts-outside-maintenance-hours.md
-          - name: Top support solutions for Surface Hub
-            href: support-solutions-surface-hub.md
-        - name: Training
-          items:
-            - name: Surface Hub 2S adoption & training
-              href: surface-hub-2s-adoption-kit.md
-            - name: Surface Hub 2S adoption videos
-              href: surface-hub-2s-adoption-videos.md
-            - name: Surface Hub 2S adoption welcome screens
-              href: surface-hub-2s-adoption-welcome-screens.md
-            - name: Surface Hub return to the office video series 
-              href: surface-hub-return-to-office-videos.md     
+           - name: Set up
+             expanded: true
+             items:
+              - name: Install Windows 10 Team 2022 Update
+                href: surface-hub-2022-update.md
+              - name: Surface Hub & Teams Rooms automated setup (requires authentication)
+                href: https://go.microsoft.com/fwlink/?linkid=2221605
+              - name: First-time setup
+                expanded: true
+                items:
+                 - name: First time setup for Surface Hub
+                   href: first-run-program-surface-hub.md   
+                 - name: Admin group management
+                   href: admin-group-management-for-surface-hub.md
+                 - name: Setup worksheet
+                   href: setup-worksheet-surface-hub.md   
+                 - name: Prepare environment
+                   href: prepare-your-environment-for-surface-hub.md           
+                 - name: Save BitLocker key
+                   href: save-bitlocker-key-surface-hub.md
+              - name: Device account
+                expanded: true
+                items:
+                 - name: Create & test device account
+                   href: create-and-test-a-device-account-surface-hub.md
+                 - name: Change device account
+                   href: change-surface-hub-device-account.md
+                 - name: Test device account
+                   href: use-surface-hub-diagnostic-test-device-account.md
+                 - name: Find Teams Rooms devices with unsupported licenses 
+                   href: /MicrosoftTeams/rooms/license-check
+                 - name: Hybrid deployment
+                   href: hybrid-deployment-surface-hub-device-accounts.md    
+                 - name: Modern authentication
+                   href: surface-hub-modern-auth.md
+              - name: Configuration management
+                expanded: true
+                items:
+                 - name: Enroll Surface Hub into MDM management
+                   href: enroll-surface-hub-mdm.md
+                 - name: Configure non-Global Admin accounts
+                   href: surface-hub-2s-nonglobal-admin.md
+                 - name: Create provisioning packages
+                   href: provisioning-packages-for-surface-hub.md
+              - name: Install apps
+                items:
+                 - name: Install apps on Surface Hub
+                   href: install-apps-on-surface-hub.md
+                 - name: Install Progressive Web Apps
+                   href: install-pwa-surface-hub.md  
+              - name: Connect devices
+                items:
+                 - name: Connect devices to Surface Hub 2S
+                   href: surface-hub-2s-connect.md        
+                 - name: Connect other devices & display with Surface Hub
+                   href: connect-and-display-with-surface-hub.md
+                 - name: Miracast on existing wireless network or LAN
+                   href: miracast-over-infrastructure.md
+                 - name: Troubleshoot display projection
+                   href: miracast-troubleshooting.md        
+              - name: Configure Microsoft Teams 
+                items: 
+                 - name: Surface Hub & Microsoft Teams Rooms setup best practices  
+                   href: https://go.microsoft.com/fwlink/?linkid=2222648  
+                 - name: Microsoft Teams Rooms on Surface Hub
+                   href: surface-hub-teams-rooms.md
+                 - name: Configure networking & Quality of Service for Microsoft Teams Rooms on Surface Hub
+                   href: surface-hub-teams-rooms-networking.md
+                 - name: Surface Hub Teams app
+                   href: hub-teams-app.md
+                 - name: Troubleshoot Teams sign-in issues on Surface Hub
+                   href: troubleshoot-teams-sign-in-surface-hub.md               
+                 - name: Create & configure resource accounts for rooms & shared Teams devices
+                   href: /microsoftteams/rooms/with-exchange-online
+              - name: Migrate to Windows 10/11 Pro or Enterprise
+                items: 
+                 - name: Migrate to Windows 10/11 Pro or Enterprise on Surface Hub 2
+                   href: surface-hub-2s-migrate-os.md
+                 - name: Configure Windows 10/11 Pro or Enterprise on Surface Hub 2
+                   href: surface-hub-2-post-install.md
+                 - name: Essential add-ons for Windows 10/11 Pro & Enterprise on Surface Hub 2
+                   href: surface-hub-2-essential-add-ons.md        
+              - name: Get started
+                items:    
+                 - name: What's new in Windows 10 Team 2020 updates
+                   href: surface-hub-2020-update-whats-new.md
+                 - name: Operating system essentials
+                   href: differences-between-surface-hub-and-windows-10-enterprise.md
+                 - name: Surface Hub 2S camera lens orientation
+                   href: surface-hub-2s-camera-lens-orientation.md
+                 - name: Start and finish a meeting  
+                   href: meet-on-surface-hub.md
+                 - name: Set up & use Microsoft Whiteboard
+                   href: whiteboard-collaboration.md
+                 - name: Adjust accessibility settings
+                   href: accessibility-surface-hub.md   
+                 - name: Change display language
+                   href: change-language-on-surface-hub.md    
+                 - name: Adjust Surface Hub 2S brightness, volume, & input
+                   href: surface-hub-2s-onscreen-display.md
+                 - name: Using the Surface app 
+                   href: using-surface-app-on-surface-hub-2s.md
+              - name: Manage
+                items:
+                 - name: Manage Microsoft Surface Hub
+                   href: manage-surface-hub.md
+                 - name: Manage Surface Hub with an MDM provider
+                   href: manage-settings-with-mdm-for-surface-hub.md
+                 - name: Admin group management
+                   href: admin-group-management-for-surface-hub.md
+                 - name: Manage Microsoft Edge on Surface Hub
+                   href: surface-hub-install-chromium-edge.md
+                 - name: Monitor Surface Hub
+                   href: monitor-surface-hub.md
+                 - name: Manage Windows Update
+                   href: manage-windows-updates-for-surface-hub.md
+                 - name: Manage EU privacy settings on Surface Hub
+                   href: general-data-privacy-regulation-and-surface-hub.md
+                 - name: Check Surface Hub warranty
+                   href: check-surface-hub-warranty.md    
+                 - name: Enroll Surface Hub in Windows Insider program
+                   href: enroll-surface-hub-in-windows-insider-program.md  
+                 - name: Configure Surface Hub Start menu
+                   href: surface-hub-start-menu.md
+                 - name: Manage Surface Hub settings
+                   items:
+                    - name: Manage Surface Hub settings
+                      href: manage-surface-hub-settings.md
+                    - name: Local management for Surface Hub settings
+                      href: local-management-surface-hub-settings.md        
+                    - name: Configure domain name for Skype for Business
+                      href: use-fully-qualified-domain-name-surface-hub.md
+                    - name: Wireless network management
+                      href: wireless-network-management-for-surface-hub.md
+                    - name: Enable 802.1x wired authentication
+                      href: enable-8021x-wired-authentication.md
+              - name: Secure
+                items: 
+                - name: Surface Hub security overview
+                  href: surface-hub-security.md 
+                - name: Password management
+                  href: password-management-for-surface-hub-device-accounts.md     
+                - name: Configure password-less sign-in
+                  href: surface-hub-2s-phone-authenticate.md
+                - name: Secure with Surface Enterprise Management
+                  href: surface-hub-2s-secure-with-uefi-semm.md
+              - name: Troubleshoot
+                items:
+                - name: Surface Hub Update History
+                  href: surface-hub-update-history.md      
+                - name: Known issues - 22H2 
+                  href: windows-10-team-known-issues.md
+                - name: Troubleshoot Surface Hub
+                  href: troubleshoot-surface-hub.md  
+                - name: Troubleshoot Azure AD Join 
+                  href: troubleshoot-azure-ad-join-on-surface-hub.md
+                - name: Troubleshoot Azure sign-in logs
+                  href: troubleshoot-azure-sign-in-logs-for-surface-hub.md          
+                - name: Troubleshoot Conditional Access
+                  href: conditional-access-for-surface-hub.md      
+                - name: Troubleshoot Intune auto enrollment
+                  href: troubleshoot-intune-auto-enrollment-on-surface-hub.md
+                - name: Troubleshoot One-click Join
+                  href: troubleshoot-one-click-join-from-welcome-screen-calendar.md
+                - name: Collect Surface Hub log files  
+                  href: collect-surface-hub-log-files.md
+                - name: Troubleshoot Surface Hub not Updating
+                  href: troubleshoot-surface-hub-not-updating.md 	  		  
+                - name: Troubleshoot Teams sign-in issues
+                  href: troubleshoot-teams-sign-in-surface-hub.md  
+                - name: Troubleshoot access to Settings app
+                  href: troubleshoot-access-to-settings-app-surface-hub.md
+                - name: Troubleshoot CSP policy settings
+                  href: troubleshoot-mdm-csp-surface-hub.md
+                - name: Troubleshoot display projection 
+                  href: miracast-troubleshooting.md
+                - name: Surface Hub can't download updates from Windows Update
+                  href: surface-hub-cannot-download-updates-from-windows-update.md
+                - name: Surface Hub may install updates & restart outside maintenance hours
+                  href: surface-hub-installs-updates-and-restarts-outside-maintenance-hours.md
+                - name: Top support solutions for Surface Hub
+                  href: support-solutions-surface-hub.md
+              - name: Training
+                items:
+                - name: Surface Hub 2S adoption & training
+                  href: surface-hub-2s-adoption-kit.md
+                - name: Surface Hub 2S adoption videos
+                  href: surface-hub-2s-adoption-videos.md
+                - name: Surface Hub 2S adoption welcome screens
+                  href: surface-hub-2s-adoption-welcome-screens.md
+                - name: Surface Hub return to the office video series 
+                  href: surface-hub-return-to-office-videos.md     
     - name: Hardware
       expanded: true
       items: 
