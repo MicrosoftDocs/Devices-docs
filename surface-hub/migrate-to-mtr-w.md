@@ -1,15 +1,15 @@
 ---
-title: Migrate to Microsoft Teams Rooms-Windows on Surface Hub 2S
-description: Provides instructions for migrating to Microsoft Teams Rooms Windows on Surface Hub 2S. 
+title: Install Progressive Web Apps placeholder on Surface Hub
+description: Explains how to install Progressive Web Apps (PWAs) on Surface Hub via Intune or a provisioning package. 
 ms.reviewer: dpandre
 manager: frankbu
 ms.prod: surface-hub
 author: coveminer
 ms.author: hachidan
 ms.topic: how-to
-ms.date: 09/21/2023
+ms.date: 04/27/2022
 ms.localizationpriority: medium
-appliesto:
-- Microsoft Teams Rooms on Surface Hub 2S
 
-# Migrate to Microsoft Teams Rooms-Windows on Surface Hub
+---
+
+# Install Progressive Web Apps on Surface Hub
