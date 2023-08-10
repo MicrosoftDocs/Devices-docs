@@ -6,10 +6,14 @@
     - name: Operating system
       expanded: true
       items: 
-        - name: MTR-W
+        - name: Microsoft Teams Rooms on Windows 11 IOT
           expanded: true
           items:
-           - name: First time setup for MTR-W
+           - name: Get started with Microsoft Teams Rooms
+             href: get-started-mtrw-surface-hub-2s.md
+           - name: Prepare your environment for Microsoft Teams Rooms
+             href: prepare-your-environment-for-mtrw-on-surface-hub-2s.md
+           - name: First time setup for Microsoft Teams Rooms-Windows
              href: first-run-program-surface-hub-mtr-w.md
            - name: Migrate to MTR-W  
              href: migrate-to-mtr-w.md
@@ -213,6 +217,13 @@
     - name: Hardware
       expanded: true
       items: 
+        - name: Microsoft Teams Rooms on Windows 11 IOT
+          expanded: true
+          items:
+          - name: Tech specs
+            items: 
+          - name: Teams Rooms on Windows 11 IOT tech specs
+            href: surface-hub-2s-mtrw-techspecs.md
         - name: Surface Hub 2S
           expanded: true
           items:
