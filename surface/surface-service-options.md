@@ -27,7 +27,7 @@ Every commercial device comes with a minimum 1-year Microsoft Limited Hardware w
 If you need to service a device covered by Microsoft's Limited Hardware Warranty<sup>3</sup> or a Microsoft Protection Plan, we recommend commercial customers open service requests via a self-serve portal. Or if you want to service devices yourself with [self-serve replacement components](surface-service-and-repair.md), see [Customer self-serve repair](surface-customer-self-repair-surface.md).
 
 > [!NOTE]
-> Self-serve replacement components are currently **only available for purchase separately**, independent of the warranty status of your device.
+> Self-serve replacement components are currently **only available for purchase separately**, independent of the warranty status of your device. Replacement components may be refurbished
 
 ### Surface Management Portal
 
