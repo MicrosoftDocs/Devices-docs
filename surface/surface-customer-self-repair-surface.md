@@ -18,7 +18,7 @@ appliesto:
 
 Technically inclined individuals with the knowledge, skills, and required tools can perform self-serve repairs<sup>1</sup> on eligible Surface devices by following the applicable [Surface Service Guide](https://www.microsoft.com/download/100440) or [article](https://support.microsoft.com/surface/replace-the-feet-on-surface-devices-791bcf1d-db4a-4807-816e-06d30072383d).
 
-Self-repair replaceable components are available for purchase through [device resellers](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface#DEVICESRESELLERS). There are no certifications required to repair or service a Surface device. Replaceable components have a 1-year Limited Hardware Warranty.<sup>2</sup>
+Self-repair replacement components are available for purchase through [device resellers](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface#DEVICESRESELLERS). There are no certifications required to repair or service a Surface device. Replacement components, which may be refurbished, have a 90-day Limited Hardware Warranty.<sup>2</sup>
 
 Microsoft is partnering with [ifixit.com](https://www.ifixit.com/Tools/Toolkits) to offer complete tool kits to repair electronics. Use iFixit's everyday precision tool kit or essential electronics tool kit to repair your computers, tablets, game consoles, and or other electronic gadgets.
 
@@ -30,13 +30,13 @@ Microsoft is partnering with [ifixit.com](https://www.ifixit.com/Tools/Toolkits)
 This section explains how self-repair works for commercial customers.
 
 > [!NOTE]
-> Self-serve replaceable components are currently **only available for purchase separately**, independent of the warranty status of your device.
+> Self-serve replacement components are currently **only available for purchase separately**, independent of the warranty status of your device. Replacement components may be refurbished.
 
 ### Example: Surface Laptop 5: Replace cracked display
 
 In this scenario, a customer must replace a broken display on their Surface Laptop 5. (Follow the same process for all other part requests for repairable Surface devices.)
 
-1. First, you need to obtain the appropriate part number for the replaceable part and order it from an [authorized device reseller](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface#DEVICESRESELLERS). In this example, you would need the part number that corresponds to the display size and color of the device.
+1. First, you need to obtain the appropriate part number for the replacement component and order it from an [authorized device reseller](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface#DEVICESRESELLERS). In this example, you would need the part number that corresponds to the display size and color of the device.
 2. Go to [Surface Service Guides](https://www.microsoft.com/download/100440) and download the **Surface Laptop 5 Service Guide** (available in English, French, Japanese, or Simplified Chinese). The [Surface Service Guides](https://www.microsoft.com/download/100440) page contains links to all available Service Guides for Surface devices.
 3. Go to the Illustrated Parts List and look for the display (7).
 :::image type="content" source="images/surface-service-repair/surface-service-guide-surface-laptop-5-illustrated-parts-list.png" alt-text="Screenshot of Illustrated Parts List for Surface Laptop 5.":::
@@ -44,7 +44,7 @@ In this scenario, a customer must replace a broken display on their Surface Lapt
 :::image type="content" source="images/surface-service-repair/surface-service-guide-order-display-example-surface-laptop-5.png" alt-text="Screenshot that shows the CRU Part No for a replacement display on Surface Laptop 5.":::
 
 > [!TIP]
-> Order self-service parts using the CRU number. Ignore ASP/FRU part numbers. Each Surface Service Guide contains an Illustrated Parts List followed by a table that contains CRU numbers for replaceable parts.  
+> Order self-service parts using the CRU number. Ignore ASP/FRU part numbers. Each Surface Service Guide contains an Illustrated Parts List followed by a table that contains CRU numbers for replacement parts.  
 
 5. Contact an [Authorized Device Reseller](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface#DEVICESRESELLERS) and let them know you need a new display for your Surface Laptop 5. Provide the reseller with the CRU part number; in this example, U71-00001.
 6. The reseller confirms the part availability and places an order with their Authorized Device Distributor. Parts are shipped to the reseller or directly to you.
@@ -53,7 +53,8 @@ In this scenario, a customer must replace a broken display on their Surface Lapt
 > Part availability may vary by country/region and is subject to change due to supply chain constraints, customer demand, and related issues.
 
 > [!CAUTION]
-> Repairing your device with a replaceable component doesn't affect Microsoft's Limited Warranty; however, any damage to the device resulting from a repair performed by someone other than Microsoft or an Authorized Service Provider won't be covered under Microsoft's warranty or protection plans.
+> Repairing your device with a replacement component doesn't affect Microsoft's Limited Warranty; however, any damage to the device resulting from a repair performed by someone other than Microsoft or an Authorized Service Provider won't be covered under Microsoft's warranty or protection plans.
+
 
 ## Learn more
 
