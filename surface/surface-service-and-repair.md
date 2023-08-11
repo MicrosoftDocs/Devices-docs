@@ -22,16 +22,16 @@ There are several ways commercial customers can obtain service for Surface for B
 
 To learn more, see [Surface service options](surface-service-options.md).
 
-## Surface devices and replaceable components
+## Surface devices and replacement components
 
 Microsoft recommends that only technically inclined individuals with the knowledge, experience, and requisite tools perform repairs in accordance with the relevant [Surface Services Guide instructions](https://www.microsoft.com/download/100440) available on the Microsoft Download Center. 
 
 > [!NOTE]
-> Replaceable components have a 1-year Microsoft Limited Hardware Warranty<sup>3</sup> and can be purchased from a [Microsoft Authorized Device Reseller](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface). Replaceable compononents are currently **only available for purchase separately**, independent of the warranty status of your device. To order, see [Customer self-serve repair](surface-customer-self-repair-surface.md).
+> Replacement components have a 90-day Microsoft Limited Hardware Warranty<sup>3</sup> and can be purchased from a [Microsoft Authorized Device Reseller](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface). Replacement components are currently **only available for purchase separately**, independent of the warranty status of your device. To order, see [Customer self-serve repair](surface-customer-self-repair-surface.md). Replacement components may be refurbished.
 
 
 
-|Device              |Replaceable components                                                                                                                                                                                                                                                                                                                                                                           |
+|Device              |Replacement components                                                                                                                                                                                                                                                                                                                                                                           |
 | ------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Surface Pro 7+** <br>  :::image type="content" source="images/surface-service-repair/pro-7-plus.png" alt-text="Screenshot of Surface Pro 7+." :::     | - Kickstand<br>- SSD door<br>- Removable solid-state drive (rSSD)                                                                                                                                                                                                                                                                                                                                    |
 | **Surface Pro 8**  <br> :::image type="content" source="images/surface-service-repair/pro-8.png" alt-text="Screenshot of Surface Pro 8." :::       | - Kickstand<br>- SSD Door<br>- Removable solid-state drive (rSSD)<br>- Touch Display Module (Screen)                                                                                                                                                                                                                                                                                                 |
@@ -57,7 +57,7 @@ Downloadable service guides provide step-by-step instructions for servicing spec
 
 ### Repair videos 
 
-Demos from Surface engineering show how to disassemble replaceable components, as documented in Surface service guides. 
+Demos from Surface engineering show how to disassemble replacement components, as documented in Surface service guides. 
 
 - [Surface Pro 9](https://youtu.be/S_i5OQNUbh8)
 - [Surface Laptop 5](https://youtu.be/6aCpzyfDUnk)
@@ -70,7 +70,7 @@ Demos from Surface engineering show how to disassemble replaceable components, a
 
 - [Surface Support for Business and Education customers](contact-surface-business-education-support.md)
 - [In-store Support](https://support.microsoft.com/surface/find-a-participating-best-buy-service-center-for-in-person-support-in-the-us-9c30c2ba-a8d3-4657-b9df-9c00239751a2)
-- [Purchase replaceable Components at our Authorized Resellers](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface#DEVICESRESELLERS)
+- [Purchase replacement components at our Authorized Resellers](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface#DEVICESRESELLERS)
 
 
 ## Self help tips & tools

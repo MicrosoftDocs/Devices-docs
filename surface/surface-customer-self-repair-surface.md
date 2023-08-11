@@ -18,7 +18,7 @@ appliesto:
 
 Technically inclined individuals with the knowledge, skills, and required tools can perform self-serve repairs<sup>1</sup> on eligible Surface devices by following the applicable [Surface Service Guide](https://www.microsoft.com/download/100440) or [article](https://support.microsoft.com/surface/replace-the-feet-on-surface-devices-791bcf1d-db4a-4807-816e-06d30072383d).
 
-Self-repair replaceable components are available for purchase through [device resellers](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface#DEVICESRESELLERS). There are no certifications required to repair or service a Surface device. Replaceable components have a 1-year Limited Hardware Warranty.<sup>2</sup>
+Self-repair replacement components are available for purchase through [device resellers](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface#DEVICESRESELLERS). There are no certifications required to repair or service a Surface device. Replacement components have a 90-day Limited Hardware Warranty.<sup>2</sup>
 
 Microsoft is partnering with [ifixit.com](https://www.ifixit.com/Tools/Toolkits) to offer complete tool kits to repair electronics. Use iFixit's everyday precision tool kit or essential electronics tool kit to repair your computers, tablets, game consoles, and or other electronic gadgets.
 
@@ -30,7 +30,7 @@ Microsoft is partnering with [ifixit.com](https://www.ifixit.com/Tools/Toolkits)
 This section explains how self-repair works for commercial customers.
 
 > [!NOTE]
-> Self-serve replaceable components are currently **only available for purchase separately**, independent of the warranty status of your device.
+> Self-serve replacement components are currently **only available for purchase separately**, independent of the warranty status of your device.
 
 ### Example: Surface Laptop 5: Replace cracked display
 
