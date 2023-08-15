@@ -18,16 +18,16 @@ appliesto:
 
 Built with integrity by design, many Microsoft Surface devices are now easier to repair<sup>1</sup> and maintain, providing commercial customers with greater flexibility while extending the use of devices. 
 
-There are several ways commercial customers can obtain service for Surface for Business devices. You can get service directly from Microsoft or use a third party Authorized Service Provider. Or with skilled technicians, you can repair<sup>2</sup> devices yourself following the applicable [Surface Service Guide](https://www.microsoft.com/download/100440) or [article](https://support.microsoft.com/surface/replace-the-feet-on-surface-devices-791bcf1d-db4a-4807-816e-06d30072383d).
+There are several ways commercial customers can obtain service for Surface for Business devices. You can get service [directly from Microsoft](microsoft-in-region-same-unit-repair.md) or use a third party [Authorized Service Provider](authorized-service-providers.md). Or with skilled technicians, you can repair<sup>2</sup> devices yourself following the applicable [Surface Service Guide](https://www.microsoft.com/download/100440) or [article](https://support.microsoft.com/surface/replace-the-feet-on-surface-devices-791bcf1d-db4a-4807-816e-06d30072383d).
 
 To learn more, see [Surface service options](surface-service-options.md).
 
 ## Surface devices and replacement components
 
-Microsoft recommends that only technically inclined individuals with the knowledge, experience, and requisite tools perform repairs in accordance with the relevant [Surface Services Guide instructions](https://www.microsoft.com/download/100440) available on the Microsoft Download Center. 
+Microsoft recommends that only technically inclined individuals with the knowledge, experience, and requisite tools perform repairs in accordance with the relevant [Surface Service Guide instructions](https://www.microsoft.com/download/100440). 
 
 > [!NOTE]
-> Replacement components have a 90-day Microsoft Limited Hardware Warranty<sup>3</sup> and can be purchased from a [Microsoft Authorized Device Reseller](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface). Replacement components are currently **only available for purchase separately**, independent of the warranty status of your device. To order, see [Customer self-serve repair](surface-customer-self-repair-surface.md). Replacement components may be refurbished.
+> Replacement components may be refurbished.
 
 
 
