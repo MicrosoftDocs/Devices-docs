@@ -20,9 +20,6 @@ Technically inclined individuals with the knowledge, skills, and required tools 
 
 Self-repair replacement components are available for purchase through [device resellers](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface#DEVICESRESELLERS). There are no certifications required to repair or service a Surface device. 
 
-> [!NOTE]
-> Replacement components may be refurbished.
-
 Microsoft is partnering with [ifixit.com](https://www.ifixit.com/Tools/Toolkits) to offer complete tool kits to repair electronics. Use iFixit's everyday precision tool kit or essential electronics tool kit to repair your computers, tablets, game consoles, and or other electronic gadgets.
 
 > [!TIP]
