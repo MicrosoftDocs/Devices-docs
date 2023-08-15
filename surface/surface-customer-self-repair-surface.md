@@ -18,7 +18,10 @@ appliesto:
 
 Technically inclined individuals with the knowledge, skills, and required tools can perform self-serve repairs<sup>1</sup> on eligible Surface devices by following the applicable [Surface Service Guide](https://www.microsoft.com/download/100440) or [article](https://support.microsoft.com/surface/replace-the-feet-on-surface-devices-791bcf1d-db4a-4807-816e-06d30072383d).
 
-Self-repair replacement components are available for purchase through [device resellers](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface#DEVICESRESELLERS). There are no certifications required to repair or service a Surface device. Replacement components, which may be refurbished, have a 90-day Limited Hardware Warranty.<sup>2</sup>
+Self-repair replacement components are available for purchase through [device resellers](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface#DEVICESRESELLERS). There are no certifications required to repair or service a Surface device. 
+
+> [!NOTE]
+> Replacement components may be refurbished.
 
 Microsoft is partnering with [ifixit.com](https://www.ifixit.com/Tools/Toolkits) to offer complete tool kits to repair electronics. Use iFixit's everyday precision tool kit or essential electronics tool kit to repair your computers, tablets, game consoles, and or other electronic gadgets.
 
@@ -65,5 +68,5 @@ In this scenario, a customer must replace a broken display on their Surface Lapt
 ## References
 
 1. Customer self-repair is only available on Microsoft devices with a removable component per the product’s technical specifications. Microsoft recommends that self-repair is performed by technically inclined individuals with the knowledge, experience and required tools while following the applicable [Surface Service Guide](https://www.microsoft.com/download/100440)  or [article](https://support.microsoft.com/surface/replace-the-feet-on-surface-devices-791bcf1d-db4a-4807-816e-06d30072383d) .
-2. Microsoft’s Limited Hardware Warranty is in addition to any right you may have under consumer or other laws applicable to you.
+
 
