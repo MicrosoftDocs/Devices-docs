@@ -27,7 +27,7 @@ To learn more, see [Surface service options](surface-service-options.md).
 Microsoft recommends that only technically inclined individuals with the knowledge, experience, and requisite tools perform repairs in accordance with the relevant [Surface Service Guide instructions](https://www.microsoft.com/download/100440). 
 
 > [!NOTE]
-> Replacement components may be new or refurbished.
+> Self-serve replacement components are currently only available for purchase separately, independent of the warranty status of your device. Replacement components may be new or refurbished.
 
 
 
