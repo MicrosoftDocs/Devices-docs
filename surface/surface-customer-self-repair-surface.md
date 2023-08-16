@@ -30,7 +30,7 @@ Microsoft is partnering with [ifixit.com](https://www.ifixit.com/Tools/Toolkits)
 This section explains how self-repair works for commercial customers.
 
 > [!NOTE]
-> Self-serve replacement components are currently **only available for purchase separately**, independent of the warranty status of your device. Replacement components may be refurbished.
+> Self-serve replacement components are currently **only available for purchase separately**, independent of the warranty status of your device. Replacement components may be new or refurbished.
 
 ### Example: Surface Laptop 5: Replace cracked display
 
