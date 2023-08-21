@@ -18,20 +18,20 @@ appliesto:
 
 Built with integrity by design, many Microsoft Surface devices are now easier to repair<sup>1</sup> and maintain, providing commercial customers with greater flexibility while extending the use of devices. 
 
-There are several ways commercial customers can obtain service for Surface for Business devices. You can get service directly from Microsoft or use a third party Authorized Service Provider. Or with skilled technicians, you can repair<sup>2</sup> devices yourself following the applicable [Surface Service Guide](https://www.microsoft.com/download/100440) or [article](https://support.microsoft.com/surface/replace-the-feet-on-surface-devices-791bcf1d-db4a-4807-816e-06d30072383d).
+There are several ways commercial customers can obtain service for Surface for Business devices. You can get service [directly from Microsoft](microsoft-in-region-same-unit-repair.md) or use a third party [Authorized Service Provider](authorized-service-providers.md). Or with skilled technicians, you can repair<sup>2</sup> devices yourself following the applicable [Surface Service Guide](https://www.microsoft.com/download/100440) or [article](https://support.microsoft.com/surface/replace-the-feet-on-surface-devices-791bcf1d-db4a-4807-816e-06d30072383d).
 
 To learn more, see [Surface service options](surface-service-options.md).
 
-## Surface devices and replaceable components
+## Surface devices and replacement components
 
-Microsoft recommends that only technically inclined individuals with the knowledge, experience, and requisite tools perform repairs in accordance with the relevant [Surface Services Guide instructions](https://www.microsoft.com/download/100440) available on the Microsoft Download Center. 
+Microsoft recommends that only technically inclined individuals with the knowledge, experience, and requisite tools perform repairs in accordance with the relevant [Surface Service Guide instructions](https://www.microsoft.com/download/100440). 
 
 > [!NOTE]
-> Replaceable components have a 1-year Microsoft Limited Hardware Warranty<sup>3</sup> and can be purchased from a [Microsoft Authorized Device Reseller](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface). Replaceable compononents are currently **only available for purchase separately**, independent of the warranty status of your device. To order, see [Customer self-serve repair](surface-customer-self-repair-surface.md).
+> Replacement components may be new or refurbished.
 
 
 
-|Device              |Replaceable components                                                                                                                                                                                                                                                                                                                                                                           |
+|Device              |Replacement components                                                                                                                                                                                                                                                                                                                                                                           |
 | ------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Surface Pro 7+** <br>  :::image type="content" source="images/surface-service-repair/pro-7-plus.png" alt-text="Screenshot of Surface Pro 7+." :::     | - Kickstand<br>- SSD door<br>- Removable solid-state drive (rSSD)                                                                                                                                                                                                                                                                                                                                    |
 | **Surface Pro 8**  <br> :::image type="content" source="images/surface-service-repair/pro-8.png" alt-text="Screenshot of Surface Pro 8." :::       | - Kickstand<br>- SSD Door<br>- Removable solid-state drive (rSSD)<br>- Touch Display Module (Screen)                                                                                                                                                                                                                                                                                                 |
@@ -57,7 +57,7 @@ Downloadable service guides provide step-by-step instructions for servicing spec
 
 ### Repair videos 
 
-Demos from Surface engineering show how to disassemble replaceable components, as documented in Surface service guides. 
+Demos from Surface engineering show how to disassemble replacement components, as documented in Surface service guides. 
 
 - [Surface Pro 9](https://youtu.be/S_i5OQNUbh8)
 - [Surface Laptop 5](https://youtu.be/6aCpzyfDUnk)
@@ -70,7 +70,7 @@ Demos from Surface engineering show how to disassemble replaceable components, a
 
 - [Surface Support for Business and Education customers](contact-surface-business-education-support.md)
 - [In-store Support](https://support.microsoft.com/surface/find-a-participating-best-buy-service-center-for-in-person-support-in-the-us-9c30c2ba-a8d3-4657-b9df-9c00239751a2)
-- [Purchase replaceable Components at our Authorized Resellers](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface#DEVICESRESELLERS)
+- [Purchase replacement components at our Authorized Resellers](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface#DEVICESRESELLERS)
 
 
 ## Self help tips & tools
@@ -84,7 +84,7 @@ Demos from Surface engineering show how to disassemble replaceable components, a
 
 ### References
 
-1. Repairing your device with a replaceable component does not impact Microsoft’s Limited Warranty, however any damage to the device resulting from a repair performed by someone other than Microsoft or an Authorized Service Provider will not be covered under Microsoft’s warranty or protection plan.
+1. Repairing your device with a replacement component does not impact Microsoft’s Limited Warranty, however any damage to the device resulting from a repair performed by someone other than Microsoft or an Authorized Service Provider will not be covered under Microsoft’s warranty or protection plan.
 2. Customer self-repair is only available on Microsoft devices with a removable component per the product’s technical specifications. Microsoft recommends that self-repair be performed by technically inclined individuals with the knowledge, experience and required tools while following the applicable [Surface Service Guide](https://www.microsoft.com/download/100440) or [article](https://support.microsoft.com/surface/replace-the-feet-on-surface-devices-791bcf1d-db4a-4807-816e-06d30072383d). Opening or repairing your device can present various risks, such as electric shock, device damage, fire and personal injury risks, and other hazards. Use caution if undertaking do-it-yourself repairs. Further, any resulting damage caused will not be covered under Microsoft’s Limited Hardware Warranty or purchased protection plan.
 3. Microsoft’s Limited Hardware Warranty is in addition to any right you may have under consumer or other laws applicable to you.
 4. Back cover (aka bucket) for Surface Pro 9 with 5G is only available in select markets and is currently unavailable in US. 
