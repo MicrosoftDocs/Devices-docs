@@ -9,6 +9,7 @@ ms.author: hachidan
 ms.topic: how-to
 ms.date: 02/01/2021
 ms.localizationpriority: medium
+ms.custom: has-azure-ad-ps-ref
 appliesto:
 - Surface Hub
 ---
