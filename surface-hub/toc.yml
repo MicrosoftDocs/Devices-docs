@@ -95,15 +95,7 @@
                  - name: Troubleshoot Teams sign-in issues on Surface Hub
                    href: troubleshoot-teams-sign-in-surface-hub.md               
                  - name: Create & configure resource accounts for rooms & shared Teams devices
-                   href: /microsoftteams/rooms/with-exchange-online
-              - name: Migrate to Windows 10/11 Pro or Enterprise
-                items: 
-                 - name: Migrate to Windows 10/11 Pro or Enterprise on Surface Hub 2
-                   href: surface-hub-2s-migrate-os.md
-                 - name: Configure Windows 10/11 Pro or Enterprise on Surface Hub 2
-                   href: surface-hub-2-post-install.md
-                 - name: Essential add-ons for Windows 10/11 Pro & Enterprise on Surface Hub 2
-                   href: surface-hub-2-essential-add-ons.md        
+                   href: /microsoftteams/rooms/with-exchange-online    
               - name: Get started
                 items:    
                  - name: What's new in Windows 10 Team 2020 updates
@@ -213,7 +205,16 @@
                 - name: Surface Hub 2S adoption welcome screens
                   href: surface-hub-2s-adoption-welcome-screens.md
                 - name: Surface Hub return to the office video series 
-                  href: surface-hub-return-to-office-videos.md     
+                  href: surface-hub-return-to-office-videos.md  
+        - name: Windows 10/11 Pro or Enterprise
+          expanded: true
+          items: 
+           - name: Migrate to Windows 10/11 Pro or Enterprise on Surface Hub 2
+             href: surface-hub-2s-migrate-os.md
+           - name: Configure Windows 10/11 Pro or Enterprise on Surface Hub 2
+             href: surface-hub-2-post-install.md
+           - name: Essential add-ons for Windows 10/11 Pro & Enterprise on Surface Hub 2
+             href: surface-hub-2-essential-add-ons.md             
     - name: Hardware
       expanded: true
       items: 
