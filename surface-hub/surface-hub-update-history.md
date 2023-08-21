@@ -21,6 +21,14 @@ Most Windows updates focus on performance and security improvements. In the list
 
 ## Windows 10 Team 2022 Update (22H2)
 
+### August 18, 2023 - update for Surface Hub 2S
+
+* Surface Integration driver - 94.19.3.0
+  * Improves thermal logging and detection of thermal shutdown scenarios.
+* Surface SMC Firmware update - 4.6.4.0
+  * Improves thermal logging and detection of thermal shutdown scenarios.
+
+
 ### June 27, 2023 - update for Team OS based on KB5027293* (19045.3155)
 
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/5018682/windows-10-update-history), include:
