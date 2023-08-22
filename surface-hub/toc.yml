@@ -6,7 +6,7 @@
     - name: Operating system
       expanded: true
       items: 
-        - name: Microsoft Teams Rooms on Windows 11 IOT
+        - name: Windows 11 IOT Enterprise
           expanded: true
           items:
            - name: Get started with Microsoft Teams Rooms
@@ -218,13 +218,13 @@
     - name: Hardware
       expanded: true
       items: 
-        - name: Microsoft Teams Rooms on Windows 11 IOT
+        - name: Surface Hub Artemis
           expanded: true
           items:
           - name: Tech specs
             items: 
-          - name: Teams Rooms on Windows 11 IOT tech specs
-            href: surface-hub-2s-mtrw-techspecs.md
+          - name: Surface Hub on Windows 11 IoT Enterprise tech specs
+            href: surface-hub-iot-techspecs.md
         - name: Surface Hub 2S
           expanded: true
           items:

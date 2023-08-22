@@ -1,5 +1,5 @@
 ---
-title: Install wallpaper for Microsoft Teams Rooms-Windows on Surface Hub 2S
+title: Install wallpaper for Surface Hub on Windows 11 IoT Enterprise
 description: Provides instructions for installing background wallpaper for Microsoft Teams Rooms Windows on Surface Hub 2S. 
 ms.reviewer: dpandre
 manager: frankbu
@@ -14,4 +14,4 @@ appliesto:
 
 ---
 
-# Install wallpaper for Microsoft Teams Rooms-Windows on Surface Hub 
+# Install wallpaper for Surface Hub on Windows 11 IoT Enterprise

@@ -1,6 +1,6 @@
 ---
-title: Surface Hub 2S with Windows 11 IOT tech specs
-description: This page provides technical specifications for Surface Hub 2S running in kiosk mode with Windows 11 IOT. 
+title: Surface Hub on Windows 11 IoT Enterprise tech specs
+description: This page provides technical specifications for Surface Hub on Windows 11 IoT Enterprise. 
 ms.reviewer: dpandre
 manager: frankbu
 ms.prod: surface-hub
@@ -9,9 +9,9 @@ ms.author: hachidan
 ms.topic: overview
 ms.localizationpriority: medium
 appliesto:
-- Surface Hub 2S with Windows 11 IoT
+- Surface Hub on Windows 11 IoT
 ---
-# Surface Hub 2S with Windows 11 IoT tech specs
+# Surface Hub on Windows 11 IoT Enterprise tech specs
 
 
 | Component                                    | Description                                                                                                                                                                                                                                                                                                                                                                                 |
