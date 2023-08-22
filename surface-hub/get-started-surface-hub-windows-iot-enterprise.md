@@ -1,5 +1,5 @@
 ---
-title: Get started with Surface Hub on Windows IoT Enterprise
+title: Get started with Surface Hub on Windows 11 IoT Enterprise
 description: Provides an overview of how to get started with Surface Hub on Windows IoT Enterprise. 
 ms.reviewer: dpandre
 manager: frankbu
@@ -14,5 +14,5 @@ appliesto:
 
 ---
 
-# Get started with Surface Hub on Windows IoT Enterprise
+# Get started with Surface Hub on Windows 11 IoT Enterprise
 

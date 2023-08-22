@@ -1,5 +1,5 @@
 ---
-title: First time setup for MTR-W on Surface Hub 2S
+title: First time setup for Surface Hub on Windows 11 IoT Enterprise
 description: Provides instructions for initial setup of Microsoft Teams Rooms Windows on Surface Hub 2S.
 ms.reviewer: dpandre
 manager: frankbu
@@ -12,5 +12,5 @@ ms.localizationpriority: medium
 
 ---
 
-# First time setup for Microsoft Teams Rooms-Windows on Surface Hub 2S
+# First time setup for Surface Hub on Windows 11 IoT Enterprise
 
