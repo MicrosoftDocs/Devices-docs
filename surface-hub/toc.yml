@@ -224,7 +224,7 @@
           - name: Tech specs
             items: 
           - name: Surface Hub on Windows 11 IoT Enterprise tech specs
-            href: surface-hub-iot-techspecs.md
+            href: surface-hub-windows-iot-techspecs.md
         - name: Surface Hub 2S
           expanded: true
           items:
