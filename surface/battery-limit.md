@@ -14,13 +14,12 @@ ms.date: 01/13/2023
 
 The Battery Limit option is a Surface UEFI setting that changes how the Surface device battery is charged and may prolong its longevity. This firmware setting (similar to BIOS) is recommended for devices intended to be always connected to power. Examples include devices configured for point of sale, RFID, and related kiosk scenarios. The Battery Limit UEFI setting is built into Surface devices by default including:
 
-- Surface Go and later
+- Surface Go (all generations)
 - Surface Pro 7 and later
 - Surface Laptop 3 and later
 - Surface Book 3
-- Surface Laptop Studio
-- Surface Laptop Go
-- Surface Laptop Go 2
+- Surface Laptop Studio (all generations)
+- Surface Laptop Go (all generations)
 - Surface Laptop SE
 
 ## How it works

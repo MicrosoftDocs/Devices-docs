@@ -30,11 +30,11 @@ Surface Dock 2 is designed to simplify IT management, enabling admins to automat
 - Windows 10 version 1809 and later. There's no support for Windows 7, Windows 8, or non-Surface host devices. Surface Dock 2 works with the following Surface devices:
 
   - Surface Pro (5th Gen) and later
-  - Surface Laptop (1st Gen) and later
+  - Surface Laptop (all generations)
   - Surface Book 2 and later
-  - Surface Go and later
-  - Surface Laptop Go and later
-  - Surface Laptop Studio
+  - Surface Go (all generations)
+  - Surface Laptop Go (all generations)
+  - Surface Laptop Studio (all generations)
 
 ## Surface Dock 2 Components
 

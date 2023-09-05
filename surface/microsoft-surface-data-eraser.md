@@ -26,7 +26,7 @@ Find out how the Microsoft Surface Data Eraser tool can help you securely wipe d
 
 Compatible Surface devices include:
 
-- Surface Laptop Studio
+- Surface Laptop Studio (all generations)
 - Surface Book (all generations)
 - Surface Go (all generations)
 - Surface Pro X (all generations)

@@ -19,12 +19,11 @@ Applies to:
 
 - Surface Laptop (all generations)
 - Surface Pro 3 and later
-- Surface Laptop Go
-- Surface Laptop Go 2
-- Surface Go (all generations)
+- Surface Laptop Go (all generations)
+- Surface Go (all generations).0
 - Surface Book (all generations)
 - Surface Studio (all generations)
-- Surface Laptop Studio
+- Surface Laptop Studio (all generations)
 - Surface Pro with LTE Advanced (Model 1807)
 - Surface Pro (Model 1796)
 - Surface 3 LTE

@@ -10,12 +10,8 @@ ms.localizationpriority: medium
 manager: frankbu
 ms.date: 02/17/2023
 appliesto:
-- Surface Laptop (1st Gen)
-- Surface Laptop 2
-- Surface Laptop 3
-- Surface Laptop 4
-- Surface Laptop 5
-- Surface Laptop Studio
+- Surface Laptop (all generations)
+- Surface Laptop Studio (all generations)
 - Surface Pro 8
 - Surface Pro 9
 - Windows 10

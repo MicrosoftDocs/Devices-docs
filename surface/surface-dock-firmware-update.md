@@ -33,7 +33,7 @@ Surface Dock 1 Firmware Update is supported on the following devices:
 - Surface Pro X (all generations)
 - Surface 3
 - Surface Book (all generations)
-- Surface Laptop Studio
+- Surface Laptop Studio (all generations)
 - Surface Studio (all generations)
 - Surface Laptop (all generations)
 - Surface Laptop Go (all generations)

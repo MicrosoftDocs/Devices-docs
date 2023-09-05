@@ -43,7 +43,7 @@ Command line | Directly troubleshoot Surface devices remotely without user inter
 SDT for Business is supported on Surface 3 and later devices (except for devices configured in S mode):
 
 - Surface Book - all generations
-- Surface Laptop Studio
+- Surface Laptop Studio - all generations
 - Surface Go - all generations
 - Surface Laptop - all generations
 - Surface Laptop Go - all generations

@@ -44,7 +44,7 @@ Designed to be used with software-level mobile device management (MDM), DFCI ena
 - Surface Pro 7+ (commercial SKUs only)
 - Surface Pro 7 (all SKUs)
 - Surface Pro X (all SKUs)
-- Surface Laptop Studio (commercial SKUs only)
+- Surface Laptop Studio (all generations,commercial SKUs only)
 - Surface Laptop 5 (commercial SKUs only)
 - Surface Laptop 4 (commercial SKUs only)
 - Surface Laptop 3 (Intel processors only)
@@ -53,6 +53,7 @@ Designed to be used with software-level mobile device management (MDM), DFCI ena
 - Surface Laptop SE
 - Surface Book 3
 - Surface Go 3 (commercial SKUs only)
+- Surface Go 4 (commercial SKUs only)
 - Surface Studio 2+
 
 > [!NOTE]

@@ -41,7 +41,7 @@ Surface Thunderbolt 4 Dock helps improve IT efficiency and reduce overhead and s
 Surface Thunderbolt 4 Dock is optimized for devices with a USB4/ Thunderbolt 4 port, including the following Surface devices:
 
 - Surface Laptop 5
-- Surface Laptop Studio
+- Surface Laptop Studio (all generations)
 - Surface Pro 8
 - Surface Pro 9 (Intel/Wi-Fi)
 

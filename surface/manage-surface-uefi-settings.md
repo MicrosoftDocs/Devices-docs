@@ -23,11 +23,11 @@ appliesto:
 UEFI management is supported on the following:
 
 - Surface Pro 4, Surface Pro (5th Gen), Surface Pro 6, Surface Pro 7, Surface Pro 7+ (commercial SKUs only), Surface Pro 8 (commercial SKUs only), Surface Pro 9 & Surface Pro 9 with 5G (commercial SKUs only), Surface Pro X
-- Surface Laptop (1st Gen), Surface Laptop 2, Surface Laptop 3 (Intel processors only), Surface Laptop Go, Surface Laptop 4 (commercial SKUs only), Surface Laptop 5 (commercial SKUs only), Surface Laptop SE, Surface Laptop Go 2 (commercial SKUs only)
+- Surface Laptop (1st Gen), Surface Laptop 2, Surface Laptop 3 (Intel processors only), Surface Laptop Go, Surface Laptop 4 (commercial SKUs only), Surface Laptop 5 (commercial SKUs only), Surface Laptop SE, Surface Laptop Go 2 (commercial SKUs only), Surface Laptop Go 3 (commercial SKUs only)
 - Surface Studio (1st Gen), Surface Studio 2, Surface Studio 2+
 - Surface Book (all generations)
-- Surface Laptop Studio (commercial SKUs only)
-- Surface Go, Surface Go 2[<sup>1</sup>](#references), Surface Go 3 (commercial SKUs only)
+- Surface Laptop Studio (all generations, commercial SKUs only)
+- Surface Go, Surface Go 2[<sup>1</sup>](#references), Surface Go 3 (commercial SKUs only), Surface Go 4 (commercial SKUs only)
 
 >[!TIP]
 > Commercial SKUs (aka Surface for Business) run Windows 10 Pro/Enterprise or Windows 11 Pro/Enterprise; consumer SKUs run Windows 10/Windows 11 Home. In UEFI, commercial SKUs are the only models to feature the [Devices page](#uefi-devices-page) and [Management page](#uefi-management-page). To learn more, see [View your system info](https://support.microsoft.com/windows/view-your-system-info-a965a8f2-0773-1d65-472a-1e747c9ebe00). 
