@@ -8,6 +8,7 @@ manager: frankbu
 ms.topic: how-to
 ms.date: 11/15/2022
 ms.localizationpriority: Medium
+ms.custom: has-azure-ad-ps-ref
 appliesto:
 - Surface Hub
 - Surface Hub 2S
