@@ -7,10 +7,12 @@ ms.prod: surface-hub
 author: coveminer
 ms.author: hachidan
 ms.topic: overview
+ms.date: 09/21/2023
 ms.localizationpriority: medium
 appliesto:
 - Surface Hub 3
 ---
+
 # Surface Hub 3 tech specs
 
 

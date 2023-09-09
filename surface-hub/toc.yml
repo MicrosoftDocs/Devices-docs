@@ -3,22 +3,14 @@
 - name: Admin Guide
   expanded: true
   items: 
-    - name: Operating system
+    - name: Experience
       expanded: true
       items: 
-        - name: Windows 11 IoT Enterprise
+        - name: Windows 11 with Microsoft Teams Rooms
           expanded: true
           items:
-           - name: Get started with Windows 11 IoT Enterprise
-             href: get-started-surface-hub-windows-iot-enterprise.md
-           - name: Prepare your environment for Windows 11 IoT Enterprise
-             href: prepare-your-environment-surface-hub-windows-iot-enterprise.md
-           - name: First time setup for Surface Hub on Windows 11 IoT Enterprise
-             href: first-run-program-surface-hub-windows-iot-enterprise.md
-           - name: Migrate Surface Hub 2S to Windows 11 IoT Enterprise  
-             href: surface-hub-migrate-windows-iot-enterprise.md
-           - name: Install wallpaper for Surface Hub on Windows 11 IoT Enterprise 
-             href: install-wallpaper-surface-hub.md
+           - name: Get started with Surface Hub 3
+             href: surface-hub-3-get-started.md
         - name: Windows 10 Team 2022
           expanded: true
           items: 
@@ -205,7 +197,7 @@
                 - name: Surface Hub 2S adoption welcome screens
                   href: surface-hub-2s-adoption-welcome-screens.md
                 - name: Surface Hub return to the office video series 
-                  href: surface-hub-return-to-office-videos.md  
+                  href: surface-hub-return-to-office-videos.md    
         - name: Windows 10/11 Pro or Enterprise
           expanded: true
           items: 
@@ -218,13 +210,15 @@
     - name: Hardware
       expanded: true
       items: 
-        - name: Surface Hub Artemis
+        - name: Surface Hub 3
           expanded: true
           items:
           - name: Tech specs
             items: 
-          - name: Surface Hub on Windows 11 IoT Enterprise tech specs
-            href: surface-hub-windows-iot-techspecs.md
+          - name: Surface Hub 3 tech specs
+            href: surface-hub-3-techspecs.md
+          - name: Surface Hub 3 Pack tech specs
+            href: surface-hub-3-pack-techspecs.md
         - name: Surface Hub 2S
           expanded: true
           items:
