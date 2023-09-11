@@ -16,21 +16,20 @@ appliesto:
 
 # Get started with Surface Hub 3 on the Microsoft Teams Rooms on Windows experience
 
-Bring hybrid teams together with a more inclusive way to meet and co-create. Empower teamwork anywhere with Surface Hub 3 (50/85”), a collaborative canvas and meetings device certified for Microsoft Teams. Whether remote or in the same space, teams can whiteboard ideas, contribute to projects, and connect dynamically with video conference experiences that engage people wherever they work.
+Surface Hub 3 (50/85”) comes with Windows 11 running Microsoft Teams Rooms, enabling hybrid teams to collaborate in a more inclusive way to meet and co-create. 
  
 There are several ways to get the new Surface Hub experience:
 
-- Beginning December 2023, you can purchase a new Surface Hub 3 or purchase the Surface Hub 3 Pack (aka replacement cartridge) for your existing Surface Hub 2S device.
-- Or migrate your existing Surface Hub 2S to the new experience following public release of migration software and instructions early next year (Q1 CY2024).
+- Purchase a new Surface Hub 3 (available December 2023). 
+- Upgrade from Surface Hub 2S to Surface Hub 3 via the [Surface Hub 3 Pack](surface-hub-3-pack-techspecs.md) (aka replacement cartridge), (available December 2023).
+- Migrate your Surface Hub 2S to the new experience following public release of migration software and instructions early next year (available February 2024).
 
 ## Hybrid meetings that include everyone
 
-Dissolve boundaries for hybrid teams with meetings and collaboration device built for Microsoft Teams. Inclusively engage everyone with a vibrant, dynamic view of in-room interactions when you use the Surface Hub Smart Camera. Whether hopping on a quick call with your colleagues or joining a more formal conversation with a client or partner – the experience on Surface Hub is seamless.
-
-- A powerful meetings platform that’s certified for Microsoft Teams. Collaboration and co-creation in a Microsoft Teams meeting is seamless on Surface Hub. Anyone can walk up and join a Microsoft Teams meeting with one touch, instantly interacting in a familiar experience optimized for (50/85”). 
-- Remote participants have the best possible view of the room with Surface Hub Smart Camera. With sharp focus on the foreground and background, remote participants can see people interact with content on Surface Hub, even as they can see everyone else in the room. AI-powered Surface Hub Smart Camera dynamically adjusts the video feed, re-framing the view when someone leaves, more people come in, or a person interacts with content on the display. Surface Hub Smart Camera has an ultra-wide field of view of 136 degrees, automatic framing, high-quality glass optics, and a great low light sensor. 
+- Surface Hub 3 provides a premium meetings platform certified for Microsoft Teams. Anyone can walk up and join a Microsoft Teams meeting with one touch, instantly interacting in a familiar experience optimized for (50/85”). 
+- Remote participants have the best possible view of the room with Surface Hub Smart Camera. With sharp focus on the foreground and background, remote participants can see people interact with content on Surface Hub, while also viewing everyone else in the room. The AI-powered Surface Hub Smart Camera dynamically adjusts the video feed, re-framing the view when someone leaves, more people come in, or a person interacts with content on the display. Surface Hub Smart Camera has an ultra-wide field of view of 136 degrees, automatic framing, high-quality glass optics, and low light sensor. 
 - One-touch-join a Microsoft Teams, Zoom or Webex meeting from the home screen. Join meeting requests from partners or customers without hassle – (50/85”) can also connect to meetings across platforms.
-- Make better human connections – facial expressions and body language are brought to life on the big screen. Images and video appear crisp and clear on a brilliant, 4K screen with incredibly high resolution and amazing graphics performance.  
+- Make better human connections – facial expressions and body language are brought to life on the big screen. Images and video appear crisp and clear on a brilliant, 4K screen with high resolution and graphics performance.  
 
 ## Manage remotely and stay secure anywhere
 
@@ -94,6 +93,18 @@ a [Teams Rooms](/microsoftteams/rooms/rooms-licensing) license.  A Teams Rooms P
 
 - Surface Hub 3 will begin shipping December 2023.
 
+**How long will Surface Hubs be supported on the current OS?**
+
+- The current OS for Surface Hub based on [Windows 10 version 22H2](/windows/release-health/release-information) will continue to be supported for another 2 years with mainstream support ending on [October 14, 2025, as previously published.](/lifecycle/products/windows-10-team-surface-hub)
+
+**What type of updates to Windows 10 Team OS will continue until mainstream support ends?**
+
+- At a minimum, consistent with previously announced support for Windows 10, Surface Hubs will continue to receive security updates. We will only drive bug fixes and security updates. We will no longer add new features to the Windows 10 Team OS.
+
+**What happens after mainstream support ends on October 14, 2025?**
+
+- Surface Hub devices running Windows 10 Team will no longer receive security updates from Microsoft after October 14, 2025.
+
 **How does the performance on Surface Hub 3 compare with Surface Hub 2S?**
 
 - Customers will benefit from a 20% CPU performance increase and a 100% GPU performance increase over Surface Hub 2S.
@@ -106,30 +117,17 @@ a [Teams Rooms](/microsoftteams/rooms/rooms-licensing) license.  A Teams Rooms P
 
 - No. Due to form factor constraints and expected use cases, rotation to portrait mode is supported on 50” devices only.
 
-**Can I prevent users from rotating Surface Hub 3 50”?**
-
-- This is not supported.
-## How long will Surface Hubs be supported on the current OS?
-- The current OS for Surface Hub based on [Windows 10 version 22H2](/windows/release-health/release-information) will continue to be supported for another 2 years with mainstream support ending on [October 14, 2025, as previously published.](/lifecycle/products/windows-10-team-surface-hub)
-
-**What type of updates to Windows 10 Team OS will continue until mainstream support ends?**
-
-- At a minimum, consistent with previously announced support for Windows 10, Surface Hubs will continue to receive security updates. We will only drive bug fixes and security updates. We will no longer add new features to the Windows 10 Team OS.
-
-**What happens after mainstream support ends on October 14, 2025?**
-
-- Surface Hub devices running Windows 10 Team will no longer receive security updates from Microsoft after October 14, 2025.
 ## Surface Hub 3 Pack (cartridge)
 
-**What is the Surface Hub 3 pack?**
+**What is the Surface Hub 3 Pack?**
 
-- As detailed in Table 2 above, the Surface Hub 3 pack is a replacement cartridge for existing Surface Hub 2S devices. It’s the same shape and size as the Surface Hub 2S cartridge and includes tactile bumps to differentiate it from the current cartridge.
+- The [Surface Hub 3 Pack](surface-hub-3-pack-techspecs.md) is a replacement cartridge for existing Surface Hub 2S devices. It’s the same shape and size as the Surface Hub 2S cartridge and includes tactile bumps to differentiate it from the current cartridge.
 - The new cartridge enables you to rotate 50” Hub devices: Unlock unique collaboration scenarios with Portrait Mode on Surface Hub 3 50” devices. With snap rotation, seamlessly adjust the device to the orientation that’s best for your meeting or collaboration needs in the moment.
 - Customers will benefit from a 20% CPU performance increase and a 100% GPU performance increase over Surface Hub 2S.
 
 **How do I install Surface Hub 3 Pack?**
 
-- The replacement cartridge is designed to facilitate easy removal and replacement of your existing Surface Hub 2S cartridge.
+- The replacement cartridge is designed to facilitate easy removal and replacement of your existing Surface Hub 2S cartridge. Check back for detailed installation instructions pending public availability. 
 
 **Will the new cartridge extend the warranty on my Surface Hub 2S?**
 
@@ -140,5 +138,5 @@ a [Teams Rooms](/microsoftteams/rooms/rooms-licensing) license.  A Teams Rooms P
 - Yes, purchasing the Surface Hub 3 Pack helps extend the life of your current Surface Hub 2S.
 
 **Can I recycle the old cartridge after installing the Surface Hub 3 Pack?**
-Yes. You can use the packaging in the Hub 3 Pack to return your old cartridge to Microsoft for recycling.
- 
+
+- Yes. You can use the packaging in the Hub 3 Pack to return your old cartridge to Microsoft for recycling.
