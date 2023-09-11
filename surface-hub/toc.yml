@@ -213,12 +213,12 @@
         - name: Surface Hub 3
           expanded: true
           items:
-          - name: Tech specs
-            items: 
-          - name: Surface Hub 3 tech specs
-            href: surface-hub-3-techspecs.md
-          - name: Surface Hub 3 Pack tech specs
-            href: surface-hub-3-pack-techspecs.md
+            - name: Tech specs
+              items: 
+                - name: Surface Hub 3 tech specs
+                  href: surface-hub-3-techspecs.md
+                - name: Surface Hub 3 Pack tech specs
+                  href: surface-hub-3-pack-techspecs.md
         - name: Surface Hub 2S
           expanded: true
           items:
