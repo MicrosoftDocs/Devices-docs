@@ -16,7 +16,7 @@ appliesto:
 
 # Get started with Surface Hub 3 on the Microsoft Teams Rooms on Windows experience
 
-Surface Hub 3 (50/85”) comes with Windows 11 running Microsoft Teams Rooms, enabling hybrid teams to collaborate in a more inclusive way to meet and co-create. 
+Surface Hub 3 (50/85”) comes with the Microsoft Teams Rooms on Windows experience, enabling hybrid teams to collaborate in a more inclusive way to meet and co-create. 
  
 There are several ways to get the new Surface Hub experience:
 
@@ -27,7 +27,7 @@ There are several ways to get the new Surface Hub experience:
 ## Hybrid meetings that include everyone
 
 - Surface Hub 3 provides a premium meetings platform certified for Microsoft Teams. Anyone can walk up and join a Microsoft Teams meeting with one touch, instantly interacting in a familiar experience optimized for (50/85”). 
-- Remote participants have the best possible view of the room with Surface Hub Smart Camera. With sharp focus on the foreground and background, remote participants can see people interact with content on Surface Hub, while also viewing everyone else in the room. The AI-powered Surface Hub Smart Camera dynamically adjusts the video feed, re-framing the view when someone leaves, more people come in, or a person interacts with content on the display. Surface Hub Smart Camera has an ultra-wide field of view of 136 degrees, automatic framing, high-quality glass optics, and low light sensor. 
+- Remote participants have the best possible view of the room with Surface Hub Smart Camera. With sharp focus on the foreground and background, remote participants can see people interact with content on Surface Hub, while also viewing everyone else in the room. Surface Hub Smart Camera has an ultra-wide field of view of 136 degrees, automatic framing, high-quality glass optics, and low light sensor. 
 - One-touch-join a Microsoft Teams, Zoom or Webex meeting from the home screen. Join meeting requests from partners or customers without hassle – (50/85”) can also connect to meetings across platforms.
 - Make better human connections – facial expressions and body language are brought to life on the big screen. Images and video appear crisp and clear on a brilliant, 4K screen with high resolution and graphics performance.  
 
