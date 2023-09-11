@@ -1,6 +1,6 @@
 ---
-title: Get started with Surface Hub 3 on the Microsoft Teams Rooms on Windows experience
-description: Provides an overview of how to get started with Surface Hub 3 on the Microsoft Teams Rooms on Windows experience 
+title: What's new for Surface Hub 3
+description: Highlights what's new for Surface Hub 3 including details about the Microsoft Teams Rooms on Windows experience
 ms.reviewer: dpandre
 manager: frankbu
 ms.prod: surface-hub
@@ -14,7 +14,7 @@ appliesto:
 
 ---
 
-# Get started with Surface Hub 3 on the Microsoft Teams Rooms on Windows experience
+# What's new for Surface Hub 3
 
 Surface Hub 3 (50/85”) comes with the Microsoft Teams Rooms on Windows experience, enabling hybrid teams to collaborate in a more inclusive way to meet and co-create. 
  
@@ -87,56 +87,3 @@ To learn more, see:
 New Surface Hub 3 devices come with a license for Windows IoT Enterprise and you’ll also need  
 a [Teams Rooms](/microsoftteams/rooms/rooms-licensing) license.  A Teams Rooms Pro license is recommended for advanced management features like remote device management, conditional access policies, and detailed device analytics. To learn more, see [Microsoft Teams Rooms licenses - Microsoft Teams | Microsoft Learn](/microsoftteams/rooms/rooms-licensing#teams-rooms-license-service-plan-comparison).
  
-## FAQ
-
-**When will Surface Hub start shipping with Microsoft Teams Rooms on Windows experience?**
-
-- Surface Hub 3 will begin shipping December 2023.
-
-**How long will Surface Hubs be supported on the current OS?**
-
-- The current OS for Surface Hub based on [Windows 10 version 22H2](/windows/release-health/release-information) will continue to be supported for another 2 years with mainstream support ending on [October 14, 2025, as previously published.](/lifecycle/products/windows-10-team-surface-hub)
-
-**What type of updates to Windows 10 Team OS will continue until mainstream support ends?**
-
-- At a minimum, consistent with previously announced support for Windows 10, Surface Hubs will continue to receive security updates. We will only drive bug fixes and security updates. We will no longer add new features to the Windows 10 Team OS.
-
-**What happens after mainstream support ends on October 14, 2025?**
-
-- Surface Hub devices running Windows 10 Team will no longer receive security updates from Microsoft after October 14, 2025.
-
-**How does the performance on Surface Hub 3 compare with Surface Hub 2S?**
-
-- Customers will benefit from a 20% CPU performance increase and a 100% GPU performance increase over Surface Hub 2S.
-
-**Will I be able to rotate Surface Hub on the new experience?**
-
-- Yes. Surface Hub 3 50” is the only device in its class with snap rotation and portrait mode.
-
-**Will I be able to rotate Surface Hub 3 85”?**
-
-- No. Due to form factor constraints and expected use cases, rotation to portrait mode is supported on 50” devices only.
-
-## Surface Hub 3 Pack (cartridge)
-
-**What is the Surface Hub 3 Pack?**
-
-- The [Surface Hub 3 Pack](surface-hub-3-pack-techspecs.md) is a replacement cartridge for existing Surface Hub 2S devices. It’s the same shape and size as the Surface Hub 2S cartridge and includes tactile bumps to differentiate it from the current cartridge.
-- The new cartridge enables you to rotate 50” Hub devices: Unlock unique collaboration scenarios with Portrait Mode on Surface Hub 3 50” devices. With snap rotation, seamlessly adjust the device to the orientation that’s best for your meeting or collaboration needs in the moment.
-- Customers will benefit from a 20% CPU performance increase and a 100% GPU performance increase over Surface Hub 2S.
-
-**How do I install Surface Hub 3 Pack?**
-
-- The replacement cartridge is designed to facilitate easy removal and replacement of your existing Surface Hub 2S cartridge. Check back for detailed installation instructions pending public availability. 
-
-**Will the new cartridge extend the warranty on my Surface Hub 2S?**
-
-- No. Surface Hub 3 Pack comes with a 1-year limited hardware warranty and has no effect on your Surface Hub 2S warranty.
-
-**If I install the new cartridge on my Surface Hub 2S, will it get all the same firmware, driver and feature updates as Surface Hub 3?**
-
-- Yes, purchasing the Surface Hub 3 Pack helps extend the life of your current Surface Hub 2S.
-
-**Can I recycle the old cartridge after installing the Surface Hub 3 Pack?**
-
-- Yes. You can use the packaging in the Hub 3 Pack to return your old cartridge to Microsoft for recycling.

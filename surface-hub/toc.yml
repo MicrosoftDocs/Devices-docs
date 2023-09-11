@@ -9,8 +9,12 @@
         - name: Windows 11 with Microsoft Teams Rooms
           expanded: true
           items:
-           - name: Get started with Surface Hub 3
-             href: surface-hub-3-get-started.md
+           - name: What's new for Surface Hub 3
+             href: surface-hub-3-whats-new.md
+           - name: Surface Hub 3 FAQ
+             href: surface-hub-3-faq.md  
+           - name: Surface Hub 3 Pack FAQ
+             href: surface-hub-3-pack-faq.md             
         - name: Windows 10 Team 2022
           expanded: true
           items: 
