@@ -1,6 +1,6 @@
 ---
 title: Surface Laptop 5 for Business overview
-description: This article provides an overview of the new Surface Laptop 5.
+description: This article provides an overview of Surface Laptop 5.
 ms.prod: w11
 ms.localizationpriority: medium
 author: coveminer
@@ -62,28 +62,27 @@ With ultra-fast performance, sleek portability, an enhanced camera for more enga
 | Battery Capacities                         | - Battery Capacity Nominal (WH) 47.4<br>- Battery Capacity Min (WH) 45.8        |
 | Software                                   | - Windows 11 Pro or Windows 10 Pro <br>- Preloaded Microsoft 365 Apps<sup>6</sup><br>- Microsoft 365 Business Standard, Microsoft 365 Business Premium, or Microsoft 365 Apps 30-day trial <sup>7</sup>   |
 | Accessibility                              | - Compatible with Surface Adaptive Kit<br>- Compatible with Microsoft Adaptive Mouse<br>-  [Accessibility Features](https://www.microsoft.com/accessibility/features) <br> - [Accessible Devices & Products for PC & Gaming](https://www.microsoft.com/store/b/accessible-adaptive-devices-accessories)      |
-| Serviceability<sup>9</sup>                 | **Replaceable components include:** <br>- SSD<br>- AB Cover module (display)<br>- C Cover<br>- Battery + bucket<br>- Motherboard<br>- Charging Port (Surface Connect connector)<br>- Thermal Module<br>- Thermal pad and Desense tape<br>- Feet  |
+| Serviceability<sup>2</sup>                 | **Replacement components include:** <br>- SSD<br>- AB Cover module (display)<br>- C Cover<br>- Battery + bucket<br>- Motherboard<br>- Charging Port (Surface Connect connector)<br>- Thermal Module<br>- Thermal pad and Desense tape<br>- Feet  |
 | Exterior                                   | - Casing: Aluminum<br>- Power and Volume buttons on keyboard           |
-| Colors<sup>10</sup>                         | **Surface Laptop 5 13.5"**<br>- Platinum with Alcantara material palm rest<br>- Sage with metal palm rest<br>- Matte Black with metal palm rest<br>- Sandstone with metal palm rest<br><br>**Surface Laptop 5 15"** <br>- Platinum with metal palm rest<br>- Matte Black with metal palm rest      |
+| Colors<sup>9</sup>                         | **Surface Laptop 5 13.5"**<br>- Platinum with Alcantara material palm rest<br>- Sage with metal palm rest<br>- Matte Black with metal palm rest<br>- Sandstone with metal palm rest<br><br>**Surface Laptop 5 15"** <br>- Platinum with metal palm rest<br>- Matte Black with metal palm rest      |
 | Sensors                                    | - Ambient light sensor            |
 | What's in the box                          | - Surface Laptop 5 13.5" or Surface Laptop 5 15"<br>- Power Supply 65 W<br>- Quick Start Guide<br>- Safety and warranty documents                        |
 | Keyboard layout                            | - Activation: Moving keys<br>- Backlight<br>- Layout: QWERTY, full row of function keys (F1 – F12)<br>- Windows key and dedicated buttons for media controls, screen brightness, & Keyboard backlight    |
-| Warranty<sup>11</sup>                         | - One-year limited hardware warranty    |
+| Warranty<sup>10</sup>                         | - One-year limited hardware warranty    |
 | Best-in-class support from Microsoft Store | - 60-day return policy. 90 days of free technical phone support.<br>- Free virtual workshops and training. |
 
 ### References
 
 1. System software and updates use significant storage space. Available storage is subject to change based on system software and updates and apps usage. 1 GB = 1 billion bytes. 1 TB = 1,000 GB. See Surface.com/Storage for more details.
-2. Customer Replaceable Units (CRUs) are components available for purchase through your Surface Commercial Authorize Device Reseller. Components can be replaced on-site by a skilled technician following Microsoft’s Service Guide. Opening and/or repairing your device can present electric shock, fire and personal injury risks and other hazards. Use caution if undertaking do-it-yourself repairs. Device damage caused during repair won't be covered under Microsoft’s Hardware Warranty or protection plans. Components will be available shortly after initial launch; timing of availability varies by component and market.
+2. Customers can purchase replacement components through your [Surface Commercial Authorized Device Reseller](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface). Components can be replaced on-site by a skilled technician following Microsoft’s [Service Guide](https://www.microsoft.com/download/details.aspx?id=100440). Timing of availability varies by component and market. Opening and/or repairing your device can present electric shock, fire and personal injury risks and other hazards. Use caution if undertaking do-it-yourself repairs. Device damage caused during repair will not be covered under Microsoft’s Hardware Warranty or protection plans.
 3. Requires Dolby Vision encoded content and video.
 4. Battery life varies significantly based on device configuration, usage, network and feature configuration, signal strength, settings and other factors.
 5. Requires Dolby Atmos encoded content/audio.
 6. Requires license or subscription (sold separately) to activate and use.
 7. Activation required. If your device is managed by your organization’s IT department, contact your IT administrator for activation. After 30 days, you'll be charged the applicable monthly or annual subscription fee. Credit card required. Cancel anytime to stop future charges.
 8. Sold separately.
-9. Customer Replaceable Units (CRUs) are components available for purchase through your Surface Commercial Authorize Device Reseller. Components can be replaced on-site by a skilled technician following Microsoft’s Service Guide. Opening and/or repairing your device can present electric shock, fire and personal injury risks and other hazards. Use caution if undertaking do-it-yourself repairs. Device damage caused during repair won't be covered under Microsoft’s Hardware Warranty or protection plans. Components will be available shortly after initial launch; timing of availability varies by component and market.
-10. Colors available on selected models only. Available colors, sizes, finishes, and processors may vary by store, market, and configuration.
-11. Microsoft’s Limited Warranty is in addition to your consumer law rights. See also: [Surface Warranty, Service Offerings & Support Plans – Microsoft Surface for Business](https://www.microsoft.com/surface/business/warranty-service-offerings-and-support) [Warranties.](https://support.microsoft.com/topic/warranties-extended-service-plans-and-terms-conditions-for-your-device-eedf7a23-84a7-1a47-480b-0e10503eedf5)
+9. Colors available on selected models only. Available colors, sizes, finishes, and processors may vary by store, market, and configuration.
+10. Microsoft’s Limited Warranty is in addition to your consumer law rights. See also: [Surface Warranty, Service Offerings & Support Plans – Microsoft Surface for Business](https://www.microsoft.com/surface/business/warranty-service-offerings-and-support) [Warranties.](https://support.microsoft.com/topic/warranties-extended-service-plans-and-terms-conditions-for-your-device-eedf7a23-84a7-1a47-480b-0e10503eedf5)
 
 ### Learn more
 

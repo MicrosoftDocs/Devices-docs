@@ -18,16 +18,16 @@ appliesto:
 
 Most [newer Surface devices](surface-service-and-repair.md) are designed to facilitate the repair or replacement of primary components like the solid-state drive (SSD), keyboard, or display. With the purchase of a new commercial Surface for Business device, you can maximize your investment with services and repair<sup>1</sup> options.
 
-If your Surface stops working, you can take advantage of new options to service, repair, or replace components on your device.
+If your Surface stops working, there are several options to service, repair, or replace components on your device.
 
 Every commercial device comes with a minimum 1-year Microsoft Limited Hardware warranty. For added peace of mind, Microsoft Protection Plans<sup>2</sup> offer extended coverage and services that help you with every stage of support you might need for your Surface devices, from deployment to replacement.
 
 ## Recommended service options for in-warranty devices
 
-If you need to service a device covered by Microsoft's Limited Hardware Warranty<sup>3</sup> or a Microsoft Protection Plan, we recommend commercial customers open service requests via a self-serve portal. Or if you want to service devices yourself with [self-serve replaceable components](surface-service-and-repair.md), see [Customer self-serve repair](surface-customer-self-repair-surface.md).
+If you need to service a device covered by Microsoft's Limited Hardware Warranty<sup>3</sup> or a Microsoft Protection Plan, we recommend commercial customers open service requests via a self-serve portal. Or if you want to service devices yourself with [self-serve replacement components](surface-service-and-repair.md), see [Customer self-serve repair](surface-customer-self-repair-surface.md).
 
 > [!NOTE]
-> Self-serve replaceable components are currently **only available for purchase separately**, independent of the warranty status of your device.
+> Self-serve replacement components are currently **only available for purchase separately**, independent of the warranty status of your device. Replacement components may be refurbished
 
 ### Surface Management Portal
 
@@ -50,7 +50,7 @@ If you need to service a device covered by Microsoft's Limited Hardware Warranty
 
 For devices that are no longer covered by Microsoft’s Limited Warranty<sup>3</sup>  or Protection Plan, Microsoft offers several options for service or repair.
 
-- **Customer Self Repair.** Self-repair<sup>1</sup> devices using replaceable components available for purchase from [Authorized Device Resellers](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface#DEVICESRESELLERS). For instructions on how to submit a parts request, see [Customer self-serve repair](surface-customer-self-repair-surface.md). Your product may also be eligible for out-of-warranty service for a fee.<sup>4</sup>
+- **Customer Self Repair.** Self-repair<sup>1</sup> devices using replacement components available for purchase from [Authorized Device Resellers](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface#DEVICESRESELLERS). For instructions on how to submit a parts request, see [Customer self-serve repair](surface-customer-self-repair-surface.md). Your product may also be eligible for out-of-warranty service for a fee.<sup>4</sup>
 - **Microsoft in-region repair.** Submit a repair request via the [Surface Management Portal](#surface-management-portal) or [Hardware Support Portal](#hardware-support-portal), as described on this page. For eligible devices and regional availability, see [Microsoft in-region repair](microsoft-in-region-same-unit-repair.md).
 - **Authorized Service Providers.** Send devices to an Authorized Service Provider (ASP) who performs repairs on Microsoft's behalf. To learn more, see [Surface repair by Microsoft Authorized Service Providers](authorized-service-providers.md).
 - **Battery replacement service.** Paid battery replacement service offers are available for: Surface Duo, Surface Laptop 3 (15” & 13.5”), Surface Laptop 4 (15” & 13.5”), Surface Pro 7, Surface Pro 7+, Surface Pro X, Surface Pro 8, Surface Go 2, Surface Go 3, Surface Laptop Go, Surface Book 3, Surface Laptop Studio, Surface Duo 2, and Surface Laptop Go 2. The battery replacement service offers are available worldwide, except China, India, and MEA. **To find battery replacement service costs for your Surface device or accessory, see** [How much does out-of-warranty service cost for your Surface device or accessory?](https://support.microsoft.com/topic/how-much-does-out-of-warranty-service-cost-for-your-surface-device-or-accessory-4c77ac8a-e8c3-d0e4-7e8a-a29f768d43ff). 

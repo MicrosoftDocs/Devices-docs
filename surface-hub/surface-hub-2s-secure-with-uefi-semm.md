@@ -12,8 +12,7 @@ ms.localizationpriority: Medium
 
 # Secure and manage Surface Hub 2S with SEMM and UEFI
 
-New in Surface Hub 2S, you can use SEMM to manage the UEFI setting of the device.
-Use the Microsoft Surface UEFI Configurator to control the following components:
+You can use Surface Enterprise Management Mode (SEMM) to manage UEFI settings on one or more Surface Hub 2S devices. Use the Microsoft Surface UEFI Configurator to control the following components:
 
 - Wired LAN
 - Cameras

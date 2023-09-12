@@ -2,6 +2,25 @@
 
 
 
+## Week of July 31, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 7/31/2023 | [Surface Hub update history](/surface-hub/surface-hub-update-history) | modified |
+| 8/4/2023 | [Manage EU privacy settings on Surface Hub](/surface-hub/general-data-privacy-regulation-and-surface-hub) | modified |
+| 8/4/2023 | [PowerShell for Surface Hub (v1)](/surface-hub/appendix-a-powershell-scripts-for-surface-hub) | modified |
+| 8/4/2023 | [Manage Windows updates on Surface Hub](/surface-hub/manage-windows-updates-for-surface-hub) | modified |
+
+
+## Week of July 24, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 7/28/2023 | [Connect other devices and display with Surface Hub](/surface-hub/connect-and-display-with-surface-hub) | modified |
+
+
 ## Week of July 17, 2023
 
 
@@ -123,13 +142,3 @@
 | 7/14/2023 | [Operating system essentials for Surface Hub](/surface-hub/differences-between-surface-hub-and-windows-10-enterprise) | modified |
 | 4/19/2022 | [Install Progressive Web Apps on Surface Hub](/surface-hub/install-pwa-surface-hub) | modified |
 | 4/19/2022 | [Surface Hub update history](/surface-hub/surface-hub-update-history) | modified |
-
-
-## Week of June 26, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 6/27/2023 | [Surface Hub update history](/surface-hub/surface-hub-update-history) | modified |
-| 6/28/2023 | [Troubleshoot Surface Hub not Updating](/surface-hub/troubleshoot-surface-hub-not-updating) | added |
-| 6/28/2023 | [Surface Hub update history](/surface-hub/surface-hub-update-history) | modified |
