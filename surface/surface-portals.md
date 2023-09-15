@@ -4,10 +4,10 @@ description: This article provides an overview of Surface IT portals including t
 ms.prod: w11
 ms.localizationpriority: medium
 author: coveminer
-ms.author: hachidan
+ms.author: rbrooker
 ms.topic: how-to
 ms.date: 09/15/2023
-ms.reviewer: hachidan
+ms.reviewer: rbrooker
 manager: frankbu
 appliesto:
 - Windows 11
