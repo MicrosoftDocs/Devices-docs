@@ -1,12 +1,12 @@
 ---
-title: Surface self-serve portals
-description: This article provides an overview of Surface self-serve portals including the Surface Management Portal and the Hardware Support Portal.
+title: Surface portals
+description: This article provides an overview of Surface IT portals including the Surface Management Portal and the Hardware Support Portal.
 ms.prod: w11
 ms.localizationpriority: medium
 author: coveminer
 ms.author: hachidan
 ms.topic: how-to
-ms.date: 06/21/2023
+ms.date: 09/15/2023
 ms.reviewer: hachidan
 manager: frankbu
 appliesto:
@@ -14,9 +14,9 @@ appliesto:
 - Windows 10
 ---
 
-# Surface self-serve portals
+# Surface IT portals
 
-Surface self-serve portals provide a centralized solution for IT admins to self-serve, manage, and monitor Surface devices at scale. Self-serve portals allow you to:
+Surface IT portals provide a centralized solution for IT admins to manage and monitor Surface devices at scale. Surface IT portals allow you to:
 
 - Gain insights into the status of your requests -- in a single view -- with an easy-to-use self-serve platform.
 - Centralize management of device warranties and support requests – without using the phone to contact customer service.
