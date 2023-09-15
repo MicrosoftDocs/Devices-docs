@@ -16,7 +16,7 @@ appliesto:
 
 # Surface IT portals
 
-Surface IT portals provide a centralized solution for IT admins to manage and monitor Surface devices at scale. Surface IT portals allow you to:
+Surface IT portals provide a centralized solution for IT admins to manage and monitor Surface devices at scale. Surface IT portals allow you to:
 
 - Centralize management of device warranties and support requests -- initiate single or bulk warranty claims.
 - Gain insights into your warranty status and claims -- in a single view.
