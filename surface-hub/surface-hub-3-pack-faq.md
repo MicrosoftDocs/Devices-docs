@@ -21,9 +21,6 @@ appliesto:
 - The new cartridge enables you to rotate 50” Hub devices: Unlock unique collaboration scenarios with Portrait Mode on Surface Hub 3 50” devices. With snap rotation, seamlessly adjust the device to the orientation that’s best for your meeting or collaboration needs in the moment.
 - Customers will benefit from a 20% CPU performance increase and a 100% GPU performance increase over Surface Hub 2S.
 
-:::image type="content" source="images/surface-hub3-pack.png" alt-text="Diagram of Surface Hub 3 Pack with tactile bumps to differentiate it from the cartridge for Surface Hub 2S.":::
-
-
 **How can I place an order for Surface Hub 3 Pack?**
 
 - Contact your [Surface device reseller](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface#DEVICESRESELLERS)
