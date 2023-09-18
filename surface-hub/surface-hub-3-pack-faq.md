@@ -17,9 +17,13 @@ appliesto:
 
 **What is the Surface Hub 3 Pack?**
 
-- The [Surface Hub 3 Pack](surface-hub-3-pack-techspecs.md) is a replacement cartridge for existing Surface Hub 2S devices. It’s the same shape and size as the Surface Hub 2S cartridge and includes tactile bumps to differentiate it from the cartridge for Surface Hub 2S.
+- The [Surface Hub 3 Pack](surface-hub-3-pack-techspecs.md) is an upgrade that replaces the Surface Hub 2S cartridge. It’s the same shape and size as the Surface Hub 2S cartridge and includes tactile bumps to differentiate it from the cartridge for Surface Hub 2S.
 - The new cartridge enables you to rotate 50” Hub devices: Unlock unique collaboration scenarios with Portrait Mode on Surface Hub 3 50” devices. With snap rotation, seamlessly adjust the device to the orientation that’s best for your meeting or collaboration needs in the moment.
 - Customers will benefit from a 20% CPU performance increase and a 100% GPU performance increase over Surface Hub 2S.
+
+**Does this pack turn my Surface Hub 2S into Surface Hub 3?**
+
+- Yes, the Surface Hub 3 Pack is a hardware upgrade that transforms your Surface Hub 2S devices into a Surface Hub 3.
 
 **How can I place an order for Surface Hub 3 Pack?**
 
@@ -27,7 +31,7 @@ appliesto:
 
 **How do I install Surface Hub 3 Pack?**
 
-- The replacement cartridge is designed to facilitate easy removal and replacement of your existing Surface Hub 2S cartridge. Check back for detailed installation instructions pending public availability. 
+- The Surface Hub 3 Pack is designed for easy removal and replacement of the existing Surface Hub 2S cartridge. Using a philips screwdriver to unscrew the retaining bolt, you can then remove the Hub 2S cartridge and insert the new Surface Hub 3 Pack. Press power and the installation is complete.
 
 **Will the new cartridge extend the warranty on my Surface Hub 2S?**
 
@@ -39,5 +43,8 @@ appliesto:
 
 **Can I recycle the old cartridge after installing the Surface Hub 3 Pack?**
 
-- Yes. You can use a "return kit" included in the packaging for Surface Hub 3 Pack to send your old cartridge to Microsoft for recycling, if desired.
+- Yes. You can use the return label included in the packaging for Surface Hub 3 Pack to send your old cartridge to Microsoft for recycling, if desired.
 
+## Learn more
+
+- [Surface Hub 3 Pack FAQ](surface-hub-3-faq.md)
