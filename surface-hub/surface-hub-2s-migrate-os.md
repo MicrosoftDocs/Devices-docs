@@ -6,7 +6,7 @@ author: coveminer
 ms.author: dpandre
 manager: frankbu
 ms.topic: how-to
-ms.date: 09/21/2022
+ms.date: 09/21/2023
 ms.localizationpriority: Medium
 appliesto:
 - Surface Hub 2S
@@ -32,6 +32,9 @@ Start the migration by using a separate PC and the downloadable *Surface UEFI Co
 Surface UEFI Configurator works as an interface into Surface Enterprise Management Mode (SEMM). It enables centralized management of firmware settings on Surface devices in a corporate environment. For more information, see [Microsoft Surface Enterprise Management Mode](/surface/surface-enterprise-management-mode).
 
 ## Solution components
+
+> [!NOTE]
+> This section applies to Surface Hub 2S. Streamlined instructions will be provided for Surface Hub 3 pending public release in December 2023.
 
 - Surface Hub 2S device running Windows 10 Team or Surface Hub 3 running Windows 11 IoT Enterprise with the Microsoft Teams Rooms on Windows experience
 - Separate device running Windows 10/11
