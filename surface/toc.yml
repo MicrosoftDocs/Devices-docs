@@ -87,11 +87,11 @@
         href: https://support.microsoft.com/surface/surface-supported-operating-systems-9559cc3c-7a38-31b6-d9fb-571435e84cd1
       - name: Self-serve portals
         items:
-        - name: Surface self-serve portals overview
+        - name: Surface IT portals
           href: surface-portals.md
         - name: Surface Management Portal overview
           href: surface-management-portal.md
-        - name: Self-serve your Surface warranty & service requests
+        - name: Manage your Surface warranty & service requests
           href: self-serve-warranty-service.md 
       - name: Windows Autopilot
         items:      
@@ -234,7 +234,7 @@
           href: https://www.microsoft.com/surface/business/warranty-service-offerings-and-support
         - name: Warranty & protection plan terms & conditions
           href: https://support.microsoft.com/help/4493926/warranties-extended-service-plans-and-terms-conditions-for-your-device
-        - name: Self-serve your Surface warranty & service requests
+        - name: Manage your Surface warranty & service requests
           href: self-serve-warranty-service.md 
         - name: Check device warranty status
           href: https://mybusinessservice.surface.com         
