@@ -38,13 +38,13 @@ Deploy with ease, manage from anywhere, and maintain secure control of every (50
 - Windows keeps your organization’s data safe and secured. (50/85”) delivers enterprise-grade modern security enabling IT admins to enforce data protection with BitLocker and Trusted Platform Module 2.0 (TPM) plus cloud-powered security with Microsoft Defender.
 - Manage settings and policies remotely to enhance productivity and ensure device compliance wherever your teams work. Centrally manage settings and policies in Microsoft Endpoint Manager, and track room health status with active monitoring through Microsoft Teams Admin Center and the Pro Management Portal.
 
-## Make any place teamwork space
+## Make any place a teamwork space
 
-Future-proof your meeting spaces. Flexible, modular accessories enable (50/85”) to adapt as your space and technology needs change. Whether your space is big enough to need a robust, large-display experience and third-party audio devices, or your teams meet in smaller, intimate groups, you can configure the perfect collaboration space. For teams on the move, relocate from one room to another when you use (50/85”) with Designed for Surface mobile stands.1
+Future-proof your meeting spaces. Flexible, modular accessories enable (50/85”) to adapt as your space and technology needs change. Whether your space is big enough to need a robust, large-display experience and third-party audio devices, or your teams meet in smaller, intimate groups, you can configure the perfect collaboration space. For teams on the move, relocate from one room to another when you use (50/85”) with Designed for Surface mobile stands.<sup>1</sup>
 
 - Find the right fit whatever your meeting space. (85 inch) is a large-room solution, while (50 inch) is perfect for smaller spaces. Complete your experience with peripherals certified for Microsoft Teams Rooms. With Microsoft Teams Coordinated Meetings, Surface Hub can be used as an interactive companion or side-of-room device. 
 - Unlock unique collaboration scenarios with Portrait Mode on (50 inch). With snap rotation, seamlessly adjust the device to the orientation that’s best for your meeting or collaboration needs in the moment.
-- Mobile stands make it easy to move, raise and lower (50/85”). Salamander Designs Electric Lift Mobile Stands1 are height adjustable and can move with you. Unplug and power brainstorms to go further with the APC™ Charge Mobile Battery1 for (50 inch). 
+- Mobile stands make it easy to move, raise and lower (50/85”). Salamander Designs Electric Lift Mobile Stands<sup>1</sup> are height adjustable and can move with you. Unplug and power brainstorms to go further with the APC™ Charge Mobile Battery1 for (50 inch). 
 - For a personal desktop experience, re-configure with Windows 11 Pro and Enterprise.
 - Built for easy installation in modern spaces. Simplify installations with wall mounts and packaging designed to move through elevators and around tight corners.
 - Adapts to grow with you. Modular, interchangeable components mean (50/85”) is built to last through technology advancements and the evolution of your space requirements.
@@ -60,13 +60,15 @@ Give everyone, no matter where they work, equal opportunity to co-create and col
 
 ## Deployment & installation
 
-New deliveries of Surface Hub 3 come preinstalled with Windows 11 IoT Enterprise with the Microsoft Teams Rooms on Windows experience. Simply turn it on and follow the prompts for the first run startup experience (aka OOBE). Check back for detailed instructions.
+New deliveries of Surface Hub 3 come preinstalled with the Microsoft Teams Rooms on Windows experience. Simply turn it on and follow the prompts for the first run startup experience (aka OOBE). Check back for detailed instructions.
 
 ## IT management of Surface Hub 3
 
 In addition to Microsoft Intune and third-party MDM providers, IT admins can manage Surface Hub 3 via [Microsoft Teams admin center](https://admin.teams.microsoft.com/) and use tools like [Microsoft Configuration Manager](/mem/configmgr/core/understand/introduction),  third-party OMA-DM based management tools, and [Windows Group Policy](/azure/active-directory-domain-services/manage-group-policy).
 
-### Teams admin center
+### Teams management portals
+
+#### Teams Admin Portal
 
 Microsoft Teams admin center is a web-based portal that provides management capabilities for Microsoft Teams. It is designed to provide a simple and intuitive way to manage your Teams environment at scale.
 With Teams admin center, you can:
@@ -82,8 +84,15 @@ To learn more, see:
 
 - [Manage Microsoft Teams Rooms](/microsoftteams/rooms/rooms-manage) – Teams Admin Center
 
+#### Teams Rooms Pro Portal
+
+The Microsoft Teams Rooms Pro Management service is a cloud-based management solution that proactively monitors and updates Microsoft Teams Rooms devices and their peripherals. The Pro management solution is for organizations looking to optimize meeting room experience for end users and rapidly scale their footprint enabled by real-time monitoring and management for Microsoft Teams Rooms devices. To learn more, see [Microsoft Teams Rooms Pro Management](/microsoftteams/rooms/rooms-pro-management.md)
+
 ## Licensing
 
 New Surface Hub 3 devices come with a license for Windows IoT Enterprise and you’ll also need  
 a [Teams Rooms](/microsoftteams/rooms/rooms-licensing) license.  A Teams Rooms Pro license is recommended for advanced management features like remote device management, conditional access policies, and detailed device analytics. To learn more, see [Microsoft Teams Rooms licenses - Microsoft Teams | Microsoft Learn](/microsoftteams/rooms/rooms-licensing#teams-rooms-license-service-plan-comparison).
  
+## References
+
+1.
