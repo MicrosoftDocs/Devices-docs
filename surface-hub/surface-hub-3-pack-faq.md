@@ -47,4 +47,4 @@ appliesto:
 
 ## Learn more
 
-- [Surface Hub 3 Pack FAQ](surface-hub-3-faq.md)
+- [Surface Hub 3 FAQ](surface-hub-3-faq.md)

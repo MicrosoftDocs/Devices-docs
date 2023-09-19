@@ -52,3 +52,7 @@ appliesto:
 **Will I be able to rotate Surface Hub 3 85”?**
 
 - No. Due to form factor constraints and expected use cases, rotation to portrait mode is supported on 50” devices only.
+
+## Learn more
+
+- [Surface Hub 3 Pack FAQ](surface-hub-3-pack-faq.md)
