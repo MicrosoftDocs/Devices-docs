@@ -15,7 +15,7 @@ appliesto:
 - Windows 11
 ---
 
-# Migrate to Windows 10/11 Pro or Enterprise on Surface Hub 
+# Migrate to Windows 10/11 Pro or Enterprise on Surface Hub
 
 - [Article version history](#version-history)
 
@@ -36,7 +36,7 @@ Surface UEFI Configurator works as an interface into Surface Enterprise Manageme
 > [!NOTE]
 > This section applies to Surface Hub 2S. Streamlined instructions will be provided for Surface Hub 3 pending public release in December 2023.
 
-- Surface Hub 2S device running Windows 10 Team or Surface Hub 3 running Windows 11 IoT Enterprise with the Microsoft Teams Rooms on Windows experience
+- Surface Hub 2S device running Windows 10 Team or Surface Hub 3 running Microsoft Teams Rooms on Windows experience
 - Separate device running Windows 10/11
 - Surface UEFI Configurator tool to create the SEMM package
 - Windows 10/11 Pro or Enterprise OS image, version 20H2 or later

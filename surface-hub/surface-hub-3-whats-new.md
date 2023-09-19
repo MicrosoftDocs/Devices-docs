@@ -1,6 +1,6 @@
 ---
 title: What's new for Surface Hub 3
-description: Highlights what's new for Surface Hub 3 including details about the Microsoft Teams Rooms on Windows experience
+description: Highlights what's new for Surface Hub 3 including details about the Microsoft Teams Rooms on Windows experience.
 ms.reviewer: dpandre
 manager: frankbu
 ms.prod: surface-hub
@@ -16,11 +16,11 @@ appliesto:
 
 # What's new for Surface Hub 3
 
-Surface Hub 3 (50/85”) comes with the Microsoft Teams Rooms on Windows experience, enabling hybrid teams to collaborate in a more inclusive way to meet and co-create. 
- 
+Surface Hub 3 (50/85”) comes with the Microsoft Teams Rooms on Windows experience, enabling hybrid teams to collaborate in a more inclusive way to meet and co-create.
+
 There are several ways to get the new Surface Hub experience:
 
-- Purchase a new Surface Hub 3 (available December 2023). 
+- Purchase a new Surface Hub 3 (available December 2023).
 - Upgrade from Surface Hub 2S to Surface Hub 3 via the [Surface Hub 3 Pack](surface-hub-3-pack-faq.md) (aka upgrade cartridge), (available December 2023).
 - Migrate your Surface Hub 2S to the new experience following public release of migration software and instructions early next year (available February 2024).
 
@@ -86,13 +86,14 @@ To learn more, see:
 
 #### Teams Rooms Pro Portal
 
-The Microsoft Teams Rooms Pro Management service is a cloud-based management solution that proactively monitors and updates Microsoft Teams Rooms devices and their peripherals. The Pro management solution is for organizations looking to optimize meeting room experience for end users and rapidly scale their footprint enabled by real-time monitoring and management for Microsoft Teams Rooms devices. To learn more, see [Microsoft Teams Rooms Pro Management](/microsoftteams/rooms/rooms-pro-management.md)
+The Microsoft Teams Rooms Pro Management service is a cloud-based management solution that proactively monitors and updates Microsoft Teams Rooms devices and their peripherals. The Pro management solution is for organizations looking to optimize the meeting room experience and perform 
+real-time monitoring and management for Teams Rooms devices. To learn more, see [Microsoft Teams Rooms Pro Management](/microsoftteams/rooms/rooms-pro-management.md).
 
 ## Licensing
 
-New Surface Hub 3 devices come with a license for Windows IoT Enterprise and you’ll also need  
-a [Teams Rooms](/microsoftteams/rooms/rooms-licensing) license.  A Teams Rooms Pro license is recommended for advanced management features like remote device management, conditional access policies, and detailed device analytics. To learn more, see [Microsoft Teams Rooms licenses - Microsoft Teams | Microsoft Learn](/microsoftteams/rooms/rooms-licensing#teams-rooms-license-service-plan-comparison).
+New Surface Hub 3 devices come with a license for Windows 11 IoT Enterprise and you’ll also need  
+a [Teams Rooms](/microsoftteams/rooms/rooms-licensing) license.  A Teams Rooms Pro license is recommended for advanced management features like remote device management, conditional access policies, and detailed device analytics. To learn more, see [Microsoft Teams Rooms licenses](/microsoftteams/rooms/rooms-licensing#teams-rooms-license-service-plan-comparison).
  
 ## References
 
-1.
+1.Sold separately.

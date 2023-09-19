@@ -25,7 +25,7 @@ appliesto:
 
 **How can I upgrade my Surface Hub 2S to the new experience?**
 
-- Purchase a new Surface Hub 3 (available December 2023). 
+- Purchase a new Surface Hub 3 (available December 2023).
 - Upgrade from Surface Hub 2S to Surface Hub 3 via the [Surface Hub 3 Pack](surface-hub-3-pack-techspecs.md) (aka replacement cartridge), (available December 2023).
 - Migrate your Surface Hub 2S to the new experience following public release of migration software and instructions early next year (available February 2024).
 
