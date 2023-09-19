@@ -17,13 +17,13 @@ appliesto:
 
 **What is the Surface Hub 3 Pack?**
 
-- The [Surface Hub 3 Pack](surface-hub-3-pack-techspecs.md) is an upgrade that replaces the Surface Hub 2S cartridge. It’s the same shape and size as the Surface Hub 2S cartridge and includes tactile bumps to differentiate it from the cartridge for Surface Hub 2S.
-- The new cartridge enables you to rotate 50” Hub devices: Unlock unique collaboration scenarios with Portrait Mode on Surface Hub 3 50” devices. With snap rotation, seamlessly adjust the device to the orientation that’s best for your meeting or collaboration needs in the moment.
+- The Surface Hub 3 Pack is an upgrade that replaces the Surface Hub 2S cartridge. It’s the same shape and size as the Surface Hub 2S cartridge and includes tactile bumps to differentiate it from the cartridge for Surface Hub 2S.
+- The Hub 3 Pack enables you to rotate 50” Hub devices: Unlock unique collaboration scenarios with Portrait Mode on Surface Hub 3 50” devices. With snap rotation, seamlessly adjust the device to the orientation that’s best for your meeting or collaboration needs in the moment.
 - Customers will benefit from a 20% CPU performance increase and a 100% GPU performance increase over Surface Hub 2S.
 
 **Does this pack turn my Surface Hub 2S into Surface Hub 3?**
 
-- Yes, the Surface Hub 3 Pack is a hardware upgrade that transforms your Surface Hub 2S devices into a Surface Hub 3.
+- Yes, the Surface Hub 3 Pack is a hardware upgrade that transforms your Surface Hub 2S device into a Surface Hub 3.
 
 **How can I place an order for Surface Hub 3 Pack?**
 
@@ -35,7 +35,7 @@ appliesto:
 
 **Will the new cartridge extend the warranty on my Surface Hub 2S?**
 
-- No. Surface Hub 3 Pack comes with a 1-year limited hardware warranty and has no effect on your Surface Hub 2S warranty.
+- No. Surface Hub 3 Pack comes with a 1-year limited hardware warranty<sup>1</sup> and has no effect on your Surface Hub 2S warranty.
 
 **If I install the new cartridge on my Surface Hub 2S, will it get all the same firmware, driver and feature updates as Surface Hub 3?**
 
@@ -45,6 +45,11 @@ appliesto:
 
 - Yes. You can use the return label included in the packaging for Surface Hub 3 Pack to send your old cartridge to Microsoft for recycling, if desired.
 
+## References
+
+1. Microsoft’s Limited Warranty is in addition to your consumer law rights. 
+
 ## Learn more
 
+- [Surface Hub 3 Pack tech specs](surface-hub-3-pack-techspecs.md)
 - [Surface Hub 3 FAQ](surface-hub-3-faq.md)
