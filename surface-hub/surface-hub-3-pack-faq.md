@@ -25,17 +25,17 @@ appliesto:
 
 - Yes, the Surface Hub 3 Pack is a hardware upgrade that transforms your Surface Hub 2S device into a Surface Hub 3.
 
-**How can I place an order for Surface Hub 3 Pack?**
+**How can I place an order for the Surface Hub 3 Pack?**
 
-- Contact your [Surface device reseller](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface#DEVICESRESELLERS)
+- Contact your [Surface device reseller](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface#DEVICESRESELLERS).
 
 **How do I install Surface Hub 3 Pack?**
 
-- The Surface Hub 3 Pack is designed for easy removal and replacement of the existing Surface Hub 2S cartridge. Using a philips screwdriver to unscrew the retaining bolt, you can then remove the Hub 2S cartridge and insert the new Surface Hub 3 Pack. Press power and the installation is complete.
+- The Surface Hub 3 Pack is designed for easy removal and replacement of the existing Surface Hub 2S cartridge. Using a Phillips-head screwdriver to unscrew the retaining bolt, you can remove the Hub 2S cartridge and insert the new Surface Hub 3 Pack. Press power, and the installation is complete.
 
 **Will the new cartridge extend the warranty on my Surface Hub 2S?**
 
-- No. Surface Hub 3 Pack comes with a 1-year limited hardware warranty<sup>1</sup> and has no effect on your Surface Hub 2S warranty.
+- No. Surface Hub 3 Pack comes with a 1-year limited hardware warranty<sup>1</sup> and does not affect your Surface Hub 2S warranty.
 
 **If I install the new cartridge on my Surface Hub 2S, will it get all the same firmware, driver and feature updates as Surface Hub 3?**
 
@@ -43,7 +43,7 @@ appliesto:
 
 **Can I recycle the old cartridge after installing the Surface Hub 3 Pack?**
 
-- Yes. You can use the return label included in the packaging for Surface Hub 3 Pack to send your old cartridge to Microsoft for recycling, if desired.
+- Yes. You can use the return label included in the packaging for the Surface Hub 3 Pack to send your old cartridge to Microsoft for recycling, if desired.
 
 ## References
 
