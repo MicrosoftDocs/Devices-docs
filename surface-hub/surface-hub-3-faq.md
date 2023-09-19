@@ -17,7 +17,7 @@ appliesto:
 
 **When will Surface Hub 3 start shipping with the Microsoft Teams Rooms on Windows experience?**
 
-- Surface Hub 3 will begin shipping in December 2023.
+- Surface Hub 3 will begin shipping inlater this year.
 
 **How can I place an order for the Surface Hub 3 Pack?**
 
@@ -25,9 +25,9 @@ appliesto:
 
 **How can I upgrade my Surface Hub 2S to the new experience?**
 
-- Purchase a new Surface Hub 3 (available December 2023).
-- Upgrade from Surface Hub 2S to Surface Hub 3 via the [Surface Hub 3 Pack](surface-hub-3-pack-techspecs.md) (aka replacement cartridge) (available December 2023).
-- Migrate your Surface Hub 2S to the new experience following public release of migration software and instructions early next year (available February 2024).
+- Purchase a new Surface Hub 3 (available later this year).
+- Upgrade from Surface Hub 2S to Surface Hub 3 via the [Surface Hub 3 Pack](surface-hub-3-pack-techspecs.md) (aka replacement cartridge) (available later this year).
+- Migrate your Surface Hub 2S to the new experience following public release of migration software and instructions early next year (available early next year).
 
 **How long will Surface Hubs be supported on the current OS?**
 

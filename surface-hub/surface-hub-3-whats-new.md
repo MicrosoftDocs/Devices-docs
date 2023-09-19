@@ -20,9 +20,9 @@ appliesto:
 
 There are several ways to get the new Surface Hub experience:
 
-- Purchase a new Surface Hub 3 (available December 2023).
-- Upgrade from Surface Hub 2S to Surface Hub 3 via the [Surface Hub 3 Pack](surface-hub-3-pack-faq.md) (aka upgrade cartridge) (available December 2023).
-- Migrate your Surface Hub 2S to the new experience following the public release of migration software and instructions early next year (available February 2024).
+- Purchase a new Surface Hub 3 (available later this year).
+- Upgrade from Surface Hub 2S to Surface Hub 3 via the [Surface Hub 3 Pack](surface-hub-3-pack-faq.md) (aka upgrade cartridge) (available later this year).
+- Migrate your Surface Hub 2S to the new experience following the public release of migration software and instructions early next year (available early next year).
 
 ## Hybrid meetings that include everyone
 
