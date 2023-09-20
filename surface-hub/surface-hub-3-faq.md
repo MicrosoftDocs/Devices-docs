@@ -17,7 +17,7 @@ appliesto:
 
 **When will Surface Hub 3 start shipping with the Microsoft Teams Rooms on Windows experience?**
 
-- Surface Hub 3 will begin shipping inlater this year.
+- Surface Hub 3 will begin shipping later this year.
 
 **How can I place an order for the Surface Hub 3 Pack?**
 
