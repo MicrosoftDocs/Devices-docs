@@ -19,4 +19,4 @@ Direct Memory Access (DMA) protection is designed to mitigate potential security
 
 ![System information showing DMA Protection enabled.](images/systeminfodma.png)
 
-If a Surface removable SSD is tampered with, the device will shutoff power. The resulting reboot causes UEFI to wipe memory, to erase any residual data.
+If a Surface removable SSD is tampered with, the device will shut off power. The resulting reboot causes UEFI to wipe memory, to erase any residual data.

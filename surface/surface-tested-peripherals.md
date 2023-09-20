@@ -59,7 +59,7 @@ Surface engineering has tested various external monitors, docks, cables, and ada
 
 | USB-C to USB-C         |USB4-USB4 |Thunderbolt to Thunderbolt                                                                        | USB-C to Display Port                                                      | USB-C to HDMI            |
 | ---------------------- |---------- |-------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- | ----------------------- |
-| - j5Create USB-C Cable (JUCX04) | **Designed for Surface:**Cable Matters USB4 40Gbps Cable 3.3ft (201504-BLK-1m)     |StarTech.com 0.8m/2.7ft Thunderbolt 3 to Thunderbolt 3 Cable (TBLT34MM80CM)<br>- Plugable Thunderbolt 3 Cable 40Gbps Supports 100W (TBT3-40G80CM)               | - **Designed for Surface:** Cable Matters USB-C to DisplayPort 1.4 Cable - 6 Feet (201536-BLK-6)<br> - **Designed for Surface:** Moshi USB-C to Display Port Cable (99MO084102)| - **Designed for Surface:**Cable Matters USB-C to 8K HDMI Cable - 6 ft / 1.8 m (201562-BLK-6) |
+| - j5Create USB-C Cable (JUCX04) | **Designed for Surface:** Cable Matters USB4 40Gbps Cable 3.3ft (201504-BLK-1m)     |StarTech.com 0.8m/2.7ft Thunderbolt 3 to Thunderbolt 3 Cable (TBLT34MM80CM)<br>- Plugable Thunderbolt 3 Cable 40Gbps Supports 100W (TBT3-40G80CM)               | - **Designed for Surface:** Cable Matters USB-C to DisplayPort 1.4 Cable - 6 Feet (201536-BLK-6)<br> - **Designed for Surface:** Moshi USB-C to Display Port Cable (99MO084102)| - **Designed for Surface:** Cable Matters USB-C to 8K HDMI Cable - 6 ft / 1.8 m (201562-BLK-6) |
 
 
 ### Tested adapters for Surface Laptop Studio 2
