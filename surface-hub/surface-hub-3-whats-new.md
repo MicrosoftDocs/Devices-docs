@@ -86,7 +86,7 @@ To learn more, see:
 #### Teams Rooms Pro Portal
 
 The Microsoft Teams Rooms Pro Management service is a cloud-based management solution that proactively monitors and updates Microsoft Teams Rooms devices and their peripherals. The Pro management solution is for organizations looking to optimize the meeting room experience and perform 
-real-time monitoring and management for Teams Rooms devices. To learn more, see [Microsoft Teams Rooms Pro Management](/microsoftteams/rooms/rooms-pro-management.md).
+real-time monitoring and management for Teams Rooms devices. To learn more, see [Microsoft Teams Rooms Pro Management](/microsoftteams/rooms/rooms-pro-management).
 
 ## Licensing
 
