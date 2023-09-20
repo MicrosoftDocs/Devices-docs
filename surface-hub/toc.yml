@@ -6,7 +6,7 @@
     - name: Experience
       expanded: true
       items: 
-        - name: Windows 11 with Microsoft Teams Rooms
+        - name: Microsoft Teams Rooms on Windows
           expanded: true
           items:
            - name: What's new for Surface Hub 3
