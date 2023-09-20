@@ -26,6 +26,20 @@ Surface engineering has tested various external monitors, docks, cables, and ada
 
 ## Surface Laptop Studio 2
 
+### Tested monitors for Surface Laptop Studio 2
+
+| USB-C                                                                                                                                      | Display Port                                                                                       | Thunderbolt                    | HDMI                  |
+| ------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------- | ------------------------------ | --------------------- |
+|  - Acer Predator X27<br>- Dell P2720DC<br>- Dell P2721Q<br> | - ASUS VG279QM<br>- Dell U3421WE<br>- HP X24iH<br> - LG 27UL850-W | - placeholder |- placeholder |
+
+### Tested docks for Surface Laptop Studio 2
+
+
+| Surface Connect                      | USB-C                                | Thunderbolt                                                                                                                                                     |
+| ------------------------------------ | ------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| - Surface Dock 1<br>- Surface Dock 2 | - Dell U22<br>- Dell WD19S<br>- Plugable ULT-CDL | - Surface Thunderbolt 4 Dock<br> - (DFS) Kensington SD4845P Thunderbolt 4 Dock<br>- (DFS) Kensington SD5750T Thunderbolt 4 Dock<br>- Plugable TBT4-UDZ<br>- Dell WD22TB4<br>- Dell WD19TB|
+
+
 ### Tested cables for Surface Laptop Studio 2
 
 | USB-C to USB-C         |USB4-USB4 |Thunderbolt to Thunderbolt                                                                        | USB-C to Display Port                                                      | USB-C to HDMI            |
@@ -60,13 +74,13 @@ Surface engineering has tested various external monitors, docks, cables, and ada
 
 | Surface Connect                      | USB-C                                | Thunderbolt                                                                                                                                                     |
 | ------------------------------------ | ------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| - Surface Dock 1<br>- Surface Dock 2 | - Dell WD19DC<br>- Pluggable ULT-CDL | - Surface Thunderbolt 4 Dock<br>- Cal Digit TS3 Thunderbolt Station 3<br>- Dell WD19TB<br>- Kensington SD5700T Thunderbolt 4 Dock<br>- Lenovo ThinkPad Thunderbolt 3 Dock Gen 2 - Model# DK1841 |
+| - Surface Dock 1<br>- Surface Dock 2 | - Dell WD19DC<br>- Plugable ULT-CDL | - Surface Thunderbolt 4 Dock<br>- Cal Digit TS3 Thunderbolt Station 3<br>- Dell WD19TB<br>- Kensington SD5700T Thunderbolt 4 Dock<br>- Lenovo ThinkPad Thunderbolt 3 Dock Gen 2 - Model# DK1841 |
 
 ### Tested docks for Surface Pro 9 with 5G
 
 | Surface Connect                      | USB-C                                |  
 | ------------------------------------ | ------------------------------------ |
-| - Surface Dock 1<br>- Surface Dock 2 | - Surface Thunderbolt 4 Dock<br>- Dell WD19DC<br>- Pluggable ULT-CDL |
+| - Surface Dock 1<br>- Surface Dock 2 | - Surface Thunderbolt 4 Dock<br>- Dell WD19DC<br>- Plugable ULT-CDL |
 
 ### Tested cables for Surface Pro 9
 
