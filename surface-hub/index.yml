@@ -102,7 +102,7 @@ landingContent:
             url: surface-hub-2s-adoption-welcome-screens.md 
 
     # Card (optional)
-  - title: Setup & deploy
+  - title: Set up & deploy
     linkLists:
       - linkListType: deploy
         links:
