@@ -14,7 +14,7 @@ appliesto:
 - Windows 11
 ---
 
-# Tested peripherals for new Surface devices
+# Tested peripherals for Surface devices
 
 Surface engineering has tested various external monitors, docks, cables, and adapters to bring you the best experience on select new Surface devices, starting with Surface Pro 9. See the tables below for tested peripherals across port connections including Surface Connect, USB-C, Display Port, HDMI, and Thunderbolt.
 
@@ -23,6 +23,23 @@ Surface engineering has tested various external monitors, docks, cables, and ada
 
 > [!TIP]
 > For the best experience, be sure to get the latest updates. To manage your options and see available updates, select  **Start > Settings > Windows Update**.
+
+## Surface Laptop Studio 2
+
+### Tested cables for Surface Laptop Studio 2
+
+| USB-C to USB-C         |USB4-USB4 |Thunderbolt to Thunderbolt                                                                        | USB-C to Display Port                                                      | USB-C to HDMI            |
+| ---------------------- |---------- |-------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- | ----------------------- |
+| - j5Create USB-C Cable (JUCX04) | (DFS)Cable Matters USB4 40Gbps Cable 3.3ft (201504-BLK-1m)     |StarTech.com 0.8m/2.7ft Thunderbolt 3 to Thunderbolt 3 Cable (TBLT34MM80CM)<br>- Plugable Thunderbolt 3 Cable 40Gbps Supports 100W (TBT3-40G80CM)               | - **Designed for Surface:** Cable Matters USB-C to DisplayPort 1.4 Cable - 6 Feet (201536-BLK-6)<br> - **Designed for Surface:** Moshi USB-C to Display Port Cable (99MO084102)| - (DFS)Cable Matters USB-C to 8K HDMI Cable - 6 ft / 1.8 m (201562-BLK-6) |
+
+
+### Tested adapters for Surface Laptop Studio 2
+
+| USB-C to Display Port                                                                                                                                    | USB-C to HDMI                            |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------- |
+| - Microsoft USB-C to Display Port Adapter<br>- CableMatters USB-C to Display Port Adapter (201086)<br>- Club-3D USB-C to Display Port Adapter (CAC-1507) | - Microsoft USB-C to HDMI Adapter (1857) |
+
+
 
 ## Surface Pro 9 & Surface Pro 9 with 5G
 
