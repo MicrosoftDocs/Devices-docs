@@ -28,23 +28,38 @@ Surface engineering has tested various external monitors, docks, cables, and ada
 
 ### Tested monitors for Surface Laptop Studio 2
 
-| USB-C                                                                                                                                      | Display Port                                                                                       | Thunderbolt                    | HDMI                  |
-| ------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------- | ------------------------------ | --------------------- |
-|  - Acer Predator X27<br>- Dell P2720DC<br>- Dell P2721Q<br> | - ASUS VG279QM<br>- Dell U3421WE<br>- HP X24iH<br> - LG 27UL850-W | - placeholder |- placeholder |
+- Acer Predator X27
+- Asus VG279QM
+- Dell C2422HE
+- Dell P2419Hc
+- Dell P2720DC
+- Dell P2721Q
+- Dell U2717D
+- Dell U2720Q
+- Dell U3219Q
+- Dell U3421WE
+- Dell U3818DW
+- Dell UP2716D
+- HP X24iH
+- LG 27UL850-W
+- Samsung LF32TU87
+- ViewSonic VG245
+- ViewSonic VG275 
+- ViewSonic VP275-4K
 
 ### Tested docks for Surface Laptop Studio 2
 
 
 | Surface Connect                      | USB-C                                | Thunderbolt                                                                                                                                                     |
 | ------------------------------------ | ------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| - Surface Dock 1<br>- Surface Dock 2 | - Dell U22<br>- Dell WD19S<br>- Plugable ULT-CDL | - Surface Thunderbolt 4 Dock<br> - (DFS) Kensington SD4845P Thunderbolt 4 Dock<br>- (DFS) Kensington SD5750T Thunderbolt 4 Dock<br>- Plugable TBT4-UDZ<br>- Dell WD22TB4<br>- Dell WD19TB|
+| - Surface Dock 1<br>- Surface Dock 2 | - Dell U22<br>- Dell WD19S<br>- Plugable ULT-CDL | - Surface Thunderbolt 4 Dock<br> - **Designed for Surface:** Kensington SD4845P Thunderbolt 4 Dock<br>- **Designed for Surface:** Kensington SD5750T Thunderbolt 4 Dock<br>- Plugable TBT4-UDZ<br>- Dell WD22TB4<br>- Dell WD19TB|
 
 
 ### Tested cables for Surface Laptop Studio 2
 
 | USB-C to USB-C         |USB4-USB4 |Thunderbolt to Thunderbolt                                                                        | USB-C to Display Port                                                      | USB-C to HDMI            |
 | ---------------------- |---------- |-------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- | ----------------------- |
-| - j5Create USB-C Cable (JUCX04) | (DFS)Cable Matters USB4 40Gbps Cable 3.3ft (201504-BLK-1m)     |StarTech.com 0.8m/2.7ft Thunderbolt 3 to Thunderbolt 3 Cable (TBLT34MM80CM)<br>- Plugable Thunderbolt 3 Cable 40Gbps Supports 100W (TBT3-40G80CM)               | - **Designed for Surface:** Cable Matters USB-C to DisplayPort 1.4 Cable - 6 Feet (201536-BLK-6)<br> - **Designed for Surface:** Moshi USB-C to Display Port Cable (99MO084102)| - (DFS)Cable Matters USB-C to 8K HDMI Cable - 6 ft / 1.8 m (201562-BLK-6) |
+| - j5Create USB-C Cable (JUCX04) | **Designed for Surface:**Cable Matters USB4 40Gbps Cable 3.3ft (201504-BLK-1m)     |StarTech.com 0.8m/2.7ft Thunderbolt 3 to Thunderbolt 3 Cable (TBLT34MM80CM)<br>- Plugable Thunderbolt 3 Cable 40Gbps Supports 100W (TBT3-40G80CM)               | - **Designed for Surface:** Cable Matters USB-C to DisplayPort 1.4 Cable - 6 Feet (201536-BLK-6)<br> - **Designed for Surface:** Moshi USB-C to Display Port Cable (99MO084102)| - **Designed for Surface:**Cable Matters USB-C to 8K HDMI Cable - 6 ft / 1.8 m (201562-BLK-6) |
 
 
 ### Tested adapters for Surface Laptop Studio 2
@@ -53,6 +68,47 @@ Surface engineering has tested various external monitors, docks, cables, and ada
 | -------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------- |
 | - Microsoft USB-C to Display Port Adapter<br>- CableMatters USB-C to Display Port Adapter (201086)<br>- Club-3D USB-C to Display Port Adapter (CAC-1507) | - Microsoft USB-C to HDMI Adapter (1857) |
 
+## Surface Go 4
+
+### Tested monitors for Surface Go 4
+
+- Dell U2719D
+- Dell P2419H
+- Dell U2720Q
+- HP X24iH
+- LG 27GN950-B
+
+### Tested docks for Surface Go 4
+
+- Surface Dock 1
+- Surface Dock 2
+- Surface Thunderbolt 4 Dock (supports one external monitor for Surface Go 4)
+- **Designed for Surface:** Kensington SD4845P
+- Dell WD19S 180W Dock
+- Plugable Docking Station (UD-ULTCDL)
+- Targus DOCK430USZ
+
+## Surface Laptop Go 3
+
+### Tested monitors for Surface Laptop Go 3
+
+- Dell U2719D
+- Dell P2419H
+- Dell U2720Q
+- HP X24iH
+- LG 27GN950-B
+- Lenovo C32q-20
+- Lenovo L27i-30
+
+### Tested docks for Surface Laptop Go 3
+
+- Surface Dock 1
+- Surface Dock 2
+- Surface Thunderbolt 4 Dock (supports one external monitor for Surface Laptop Go 3)
+- **Designed for Surface:** Kensington SD4845P
+- Dell WD19S 180W Dock
+- Plugable Docking Station (UD-ULTCDL)
+- Targus DOCK430USZ
 
 
 ## Surface Pro 9 & Surface Pro 9 with 5G
