@@ -74,7 +74,7 @@ Important considerations for mounting systems
 |**Strength**| Only choose mounts that can safely support devices of at least 28 kg (62 lbs.). | Required |
 |**Stiffness**| Avoid flexible display mounts that can diminish the interactive pen and touch use experience. Most TV mounts are not designed to support touch displays. | Recommended |
 |**Depth**| Keep the device mounted tightly to the wall especially in corridors and along circulation paths within rooms.| Recommended |
-|**Versatility**| Ensure your mounting solution remains hidden from view in both the existing landscape mode and any  potential portrait mode (subject to future availability). | Recommended |
+|**Versatility**| Ensure your mounting solution remains hidden from view in both the existing landscape mode and any  potential Portrait (subject to future availability). | Recommended |
 
 ![Figure 5. Surface Hub 2S 50" mounting configuration.](images/sh2-mount-config.png) <br>
 ***Figure 5. Surface Hub 2S 50" mounting configuration***
