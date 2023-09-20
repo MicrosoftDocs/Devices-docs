@@ -4,9 +4,9 @@ description: This article highlights new features and functionality for the next
 ms.prod: surface
 ms.localizationpriority: medium
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: overview
-ms.date: 04/04/2023
+ms.date: 09/21/2023
 ms.reviewer: dashap
 manager: frankbu
 appliesto:
@@ -56,8 +56,8 @@ Surface Thunderbolt 4 Dock is compatible with the following Surface devices with
 - Surface Pro X
 - Surface Laptop 4
 - Surface Laptop 3 <sup>7</sup>
-- Surface Laptop Go 2
-- Surface Laptop Go
+- Surface Laptop Go (all generations)
+- Surface Go 4
 - Surface Go 3
 - Surface Go 2
 - Surface Book 3
