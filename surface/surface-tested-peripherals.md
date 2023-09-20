@@ -4,9 +4,9 @@ description: This page lists the results of extensive testing for external monit
 ms.prod: surface
 ms.localizationpriority: medium
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: how-to
-ms.date: 04/04/2023
+ms.date: 09/21/2023
 ms.reviewer: dpushkareva
 manager: frankbu
 appliesto:
