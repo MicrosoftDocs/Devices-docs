@@ -4,7 +4,7 @@ description: This page shows how to configure DFCI policy settings on Autopilot-
 ms.localizationpriority: medium
 ms.prod: surface
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: how-to
 ms.date: 10/25/2022
 ms.reviewer: karand

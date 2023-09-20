@@ -3,7 +3,7 @@ title: Deploy Surface app with Microsoft Store for Business or Microsoft Store f
 description: Find out how to add and download Surface app with Microsoft Store for Business or Microsoft Store for Education, as well as install Surface app with PowerShell and MDT.
 ms.prod: surface
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: how-to 
 ms.localizationpriority: medium
 manager: frankbu

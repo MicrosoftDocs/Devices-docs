@@ -4,7 +4,7 @@ description: This article, intended for qualified IT technicians, describes the 
 ms.prod: surface
 ms.localizationpriority: medium
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: how-to
 ms.date: 10/14/2022
 manager: frankbu

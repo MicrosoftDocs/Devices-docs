@@ -4,9 +4,9 @@ description: This article explains how to use Microsoft Surface Dock Firmware Up
 ms.localizationpriority: medium
 ms.prod: surface
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: how-to
-ms.reviewer: scottmca
+ms.reviewer: chauncel
 manager: frankbu
 ms.date: 10/25/2021
 appliesto:

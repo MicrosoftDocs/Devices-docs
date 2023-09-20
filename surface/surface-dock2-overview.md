@@ -4,7 +4,7 @@ description: This article highlights features and functionality for Surface Dock
 ms.prod: surface
 ms.localizationpriority: medium
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: overview
 ms.date: 11/07/2022
 ms.reviewer: dashap

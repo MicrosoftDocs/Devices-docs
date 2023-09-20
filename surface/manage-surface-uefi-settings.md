@@ -4,9 +4,9 @@ description: Use Surface UEFI settings to enable or disable devices or component
 ms.localizationpriority: medium
 ms.prod: surface
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: how-to
-ms.reviewer: hachidan
+ms.reviewer: chauncel
 manager: frankbu
 ms.date: 10/25/2022
 appliesto:

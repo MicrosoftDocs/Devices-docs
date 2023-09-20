@@ -3,9 +3,9 @@ title: Surface Enterprise Management Mode (SEMM)
 description: See how this feature of Surface devices with Surface UEFI helps you secure and manage firmware settings within your organization.
 ms.prod: surface
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: how-to
-ms.reviewer: hachidan
+ms.reviewer: chauncel
 manager: frankbu
 ms.localizationpriority: medium
 ms.date: 11/03/2022

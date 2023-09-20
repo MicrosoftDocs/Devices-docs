@@ -4,9 +4,9 @@ description: This topic describes recommended Wi-Fi settings to ensure Surface d
 ms.prod: surface
 author: coveminer
 ms.localizationpriority: medium
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: how-to
-ms.reviewer: tokatz
+ms.reviewer: chauncel
 manager: frankbu
 ms.date: 11/30/2021
 appliesto:

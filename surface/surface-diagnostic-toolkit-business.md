@@ -4,10 +4,10 @@ description: This topic explains how to deploy and use the Surface Diagnostic To
 ms.prod: surface
 ms.localizationpriority: medium
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: how-to
 ms.date: 10/25/2021
-ms.reviewer: hachidan
+ms.reviewer: chauncel
 manager: frankbu
 appliesto:
 - Windows 10

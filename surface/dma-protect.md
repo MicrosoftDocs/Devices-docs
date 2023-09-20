@@ -4,7 +4,7 @@ description: This article describes DMA protection on compatible Surface devices
 ms.prod: surface
 ms.localizationpriority: medium
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: overview
 ms.date: 10/14/2022                        
 ms.reviewer: carlol

@@ -4,7 +4,7 @@ description: This article lists professional applications that have been tested/
 ms.prod: surface
 ms.localizationpriority: medium
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: how-to
 ms.date: 09/21/2023
 ms.reviewer: admott
