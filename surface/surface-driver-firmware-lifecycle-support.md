@@ -4,9 +4,9 @@ description: This article provides detailed lifecycle information to help plan a
 ms.prod: surface
 ms.localizationpriority: high
 author: coveminer
-ms.author: hachidan
+ms.author: chuancel
 ms.topic: overview
-ms.date: 11/03/2022
+ms.date: 09/21/2023
 ms.reviewer: phorton
 manager: frankbu
 appliesto:
@@ -66,16 +66,16 @@ The following table lists the release date and End of Servicing date for each Su
 | Surface Book 3                     | May 26, 2020    | April 1, 2025             |
 | Surface Laptop Go                  | October 13, 2020   | October 13, 2024            |
 | Surface Laptop Go 2                | June 7, 2022     | June 7, 2026   |
-| Surface Pro 7+                  | January 15, 2021 | January 15, 2025 |
-| Surface Laptop 4                  | April 15, 2021 | April 15, 2025 |
-| Surface Pro 8                      | October 5, 2021   |October 5, 2025|
-| Surface Laptop Studio              | October 5, 2021   |October 5, 2025|
-| Surface Go 3                       | October 5, 2021   |October 5, 2025|
-| Surface Pro X Wi-Fi                | October 5, 2021   | October 5, 2025             |
-| Surface Laptop SE                  | January 11, 2022  |January 11, 2026|
-| Surface Pro 9                      | October 25, 2022 | October 25, 2026|
-| Surface Laptop 5                   | October 25, 2022 | October 25, 2026|
-| Surface Studio 2+                  | October 25, 2022 | October 25, 2026|
+| Surface Pro 7+                  | January 15, 2021 | January 15, 2027 |
+| Surface Laptop 4                  | April 15, 2021 | April 15, 2027 |
+| Surface Pro 8                      | October 5, 2021   |October 5, 2027|
+| Surface Laptop Studio              | October 5, 2021   |October 5, 2027|
+| Surface Go 3                       | October 5, 2021   |October 5, 2027|
+| Surface Pro X Wi-Fi                | October 5, 2021   | October 5, 2027             |
+| Surface Laptop SE                  | January 11, 2022  |January 11, 2028|
+| Surface Pro 9                      | October 25, 2022 | October 25, 2028|
+| Surface Laptop 5                   | October 25, 2022 | October 25, 2028|
+| Surface Studio 2+                  | October 25, 2022 | October 25, 2028|
 
  **1.** *Indicates devices with a previously declared end of firmware/driver servicing support date.*
 
