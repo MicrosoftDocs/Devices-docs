@@ -4,7 +4,7 @@ description: This article provides detailed lifecycle information to help plan a
 ms.prod: surface
 ms.localizationpriority: high
 author: coveminer
-ms.author: chuancel
+ms.author: chauncel
 ms.topic: overview
 ms.date: 09/21/2023
 ms.reviewer: phorton
