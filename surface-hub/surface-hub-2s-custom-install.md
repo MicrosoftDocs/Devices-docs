@@ -3,7 +3,7 @@ title: "Customize wall mount of Surface Hub 2S 50-inch"
 description: "Learn how to perform a custom install of Surface Hub 2S 50-inch."
 ms.prod: surface-hub
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 manager: frankbu
 ms.topic: how-to
 ms.date: 04/16/2021
