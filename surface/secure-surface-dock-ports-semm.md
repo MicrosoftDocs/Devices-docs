@@ -31,12 +31,12 @@ Managing Surface Dock 2 or Surface Thunderbolt 4 Dock with SEMM is available for
 
 Restricting Surface Dock 2 or Surface Thunderbolt 4 Dock to authorized persons signed into a corporate host device provides another layer of data protection. This ability to lock down Surface Docks is critical for specific customers in highly secure environments who want the functionality and productivity benefits of the dock while maintaining compliance with strict security protocols. SEMM used with Surface Dock 2 or Surface Thunderbolt 4 Dock is especially useful in open offices and shared spaces especially for customers who want to lock USB ports for security reasons. For a video demo, check out [SEMM for Surface Dock 2](https://youtu.be/VLV19ISvq_s).
 
-### USB-C disablement: Surface Laptop Studio 2
+### Dynamic USB-C disablement: Surface Laptop Studio 2
 
-USB-C disablement is a new feature that enables customers operating in highly secure work environments to prevent USB theft of confidential data and provide more control to organizations. When paired with the Surface Thunderbolt 4 Dock,  IT admins can use certificate-based security to lock down USB-C or USB-A ports whenever Surface Laptop Studio 2 is undocked or connected to an unauthorized dock. This means that when your users are connected to an authorized dock in the office, they'll have full functionality over their devices. However, when they go off-site, they can still connect to a dock to use accessories or a monitor but cannot use the USB ports to transfer data. 
+USB-C disablement is a new feature that enables customers operating in highly secure work environments to prevent USB theft of confidential data and provide more control to organizations. When paired with the Surface Thunderbolt 4 Dock,  IT admins can use certificate-based security to lock down USB-C ports whenever Surface Laptop Studio 2 is undocked or connected to an unauthorized dock. This means that when your users are connected to an authorized dock in the office, the USB-C ports will have full functionality over their devices. However, when they go off-site, they can still connect to a dock to use accessories or a monitor but cannot use the USB ports to transfer data. 
 
 >[!NOTE]
->USB-C disablement is currently supported on Surface Laptop Studio 2 when connected to Surface Thunderbolt 4 Dock. Check back for detailed instructions pending public availability of Surface Laptop Studio 2. 
+>Dynamic USB-C disablement is currently supported on Surface Laptop Studio 2 when connected to Surface Thunderbolt 4 Dock. Check back for detailed instructions pending public availability of Surface Laptop Studio 2. 
 
 ## Configuring and deploying UEFI settings for Surface Docks
 
