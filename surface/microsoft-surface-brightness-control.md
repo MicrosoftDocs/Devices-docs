@@ -3,9 +3,9 @@ title: Surface Brightness Control
 description: This article describes how you can use the Surface Brightness Control app to manage display brightness in point-of-sale and kiosk scenarios.
 ms.prod: surface
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: how-to
-ms.reviewer: hachidan
+ms.reviewer: chauncel
 manager: frankbu
 ms.localizationpriority: medium
 appliesto:
@@ -31,7 +31,7 @@ Download Surface Brightness Control from [Surface Tools for IT](https://www.micr
 - Surface Pro X (all generations)
 - Surface 3
 - Surface Book (all generations)
-- Surface Laptop Studio
+- Surface Laptop Studio (all generations)
 - Surface Studio (all generations)
 - Surface Laptop (all generations)
 - Surface Laptop Go (all generations)

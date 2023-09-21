@@ -2,12 +2,12 @@
 title: Microsoft Surface Data Eraser (Surface)
 description: The Microsoft Surface Data Eraser tool allows you to securely wipe data from your Surface devices.
 ms.assetid: 8DD3F9FE-5458-4467-BE26-E9200341CF10
-ms.reviewer: hachidan
+ms.reviewer: chauncel
 manager: frankbu
 ms.localizationpriority: medium
 ms.prod: surface
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: how-to
 ms.date: 06/02/2022
 appliesto:
@@ -26,7 +26,7 @@ Find out how the Microsoft Surface Data Eraser tool can help you securely wipe d
 
 Compatible Surface devices include:
 
-- Surface Laptop Studio
+- Surface Laptop Studio (all generations)
 - Surface Book (all generations)
 - Surface Go (all generations)
 - Surface Pro X (all generations)

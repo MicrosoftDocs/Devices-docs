@@ -3,19 +3,15 @@ title: How to enable the Surface Laptop keyboard during MDT deployment
 description: When you use MDT to deploy Windows 10 to Surface laptops, you need to import keyboard drivers to use in the Windows PE environment.
 ms.prod: surface
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: how-to
 ms.reviewer: carlol
 ms.localizationpriority: medium
 manager: frankbu
 ms.date: 02/17/2023
 appliesto:
-- Surface Laptop (1st Gen)
-- Surface Laptop 2
-- Surface Laptop 3
-- Surface Laptop 4
-- Surface Laptop 5
-- Surface Laptop Studio
+- Surface Laptop (all generations)
+- Surface Laptop Studio (all generations)
 - Surface Pro 8
 - Surface Pro 9
 - Windows 10

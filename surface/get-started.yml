@@ -26,10 +26,10 @@ landingContent:
     linkLists:
       - linkListType: whats-new
         links:
+          - text: See the newest Surface devices
+            url: https://blogs.windows.com/devices/?p=263388      
           - text: What's new in Surface Thunderbolt 4 Dock
             url: surface-dock-whats-new.md
-          - text: Check out the latest Surface devices
-            url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/new-surface-devices/ba-p/1721766
           - text: Surface Autopilot Cookbook for CSPs
             url: surface-autopilot-cookbook.md
           - text: Surface for Business service and repair

@@ -4,9 +4,9 @@ description: This article highlights new features and functionality for the next
 ms.prod: surface
 ms.localizationpriority: medium
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: overview
-ms.date: 04/04/2023
+ms.date: 09/21/2023
 ms.reviewer: dashap
 manager: frankbu
 appliesto:
@@ -41,7 +41,7 @@ Surface Thunderbolt 4 Dock helps improve IT efficiency and reduce overhead and s
 Surface Thunderbolt 4 Dock is optimized for devices with a USB4/ Thunderbolt 4 port, including the following Surface devices:
 
 - Surface Laptop 5
-- Surface Laptop Studio
+- Surface Laptop Studio (all generations)
 - Surface Pro 8
 - Surface Pro 9 (Intel/Wi-Fi)
 
@@ -56,8 +56,8 @@ Surface Thunderbolt 4 Dock is compatible with the following Surface devices with
 - Surface Pro X
 - Surface Laptop 4
 - Surface Laptop 3 <sup>7</sup>
-- Surface Laptop Go 2
-- Surface Laptop Go
+- Surface Laptop Go (all generations)
+- Surface Go 4
 - Surface Go 3
 - Surface Go 2
 - Surface Book 3
@@ -122,7 +122,7 @@ Optimize port access, save desk space and use enhanced security capabilities wit
 | USB bit rate                       | Up to 32 Gbps[<sup>6</sup>](#references)                                                                                                                               | Up to 10 Gbps                                                                                       | Up to 5 Gbps                                                   |
 | Monitor support                    | 2 x 4K @ 60 Hz or 1 x 4K @ 60 Hz                                                                                                                    | 2 x 4K @ 60 Hz<br>or 1 x 4K @120 Hz                                                                 | 2 x 4K @ 30 Hz, or<br>1 x 4K @ 60 Hz                           |
 | Wake-on-LAN from Modern Standby    | Yes                                                                                                                                                 | Yes                                                                                                 | Yes                                                            |
-| Wake-on-LAN from S4/S5 sleep modes | No                                                                                                                                                  | Yes                                                                                                 | No                                                             |
+| Wake-on-LAN from S4/S5 sleep modes | Yes                                                                                                                                                  | Yes                                                                                                 | No                                                             |
 | Network PXE boot                   | No                                                                                                                                                 | Yes                                                                                                 | Yes                                                            |
 | SEMM host access control           | Yes                                                                                                                                                 | Yes                                                                                                 | No                                                             |
 | SEMM port access control[<sup>8</sup>](#references)   | Yes                                                                                                                                                 | Yes                                                                                                 | No                                                             |
