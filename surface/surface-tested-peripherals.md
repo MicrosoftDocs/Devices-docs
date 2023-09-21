@@ -1,6 +1,6 @@
 ---
 title: Tested peripherals for new Surface devices
-description: This page lists the results of extensive testing for external monitors, docks, cables, and adapters for Surface Pro 9 and Surface Pro 9 with 5G.
+description: This page lists the results of extensive testing for external monitors, docks, cables, and adapters for Surface Laptop Studio 2, Surface Laptop Go 3, Surface Go 4, Surface Pro 9, Surface Pro 9 with 5G, and Surface Thunderbolt 4 Dock.
 ms.prod: surface
 ms.localizationpriority: medium
 author: coveminer
