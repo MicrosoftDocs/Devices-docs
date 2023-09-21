@@ -1,39 +1,43 @@
 ---
-title: "Migrate to Windows 10/11 Pro or Enterprise on Surface Hub 2"
-description: "How to migrate from Windows 10 Team on Surface Hub 2 to Windows 10/11 Pro or Windows 10/11 Enterprise."
+title: "Migrate to Windows 10/11 Pro or Enterprise on Surface Hub"
+description: "How to migrate from Windows 10 Team on Surface Hub to Windows 10/11 Pro or Windows 10/11 Enterprise."
 ms.prod: surface-hub
 author: coveminer
-ms.author: hachidan
+ms.author: dpandre
 manager: frankbu
 ms.topic: how-to
-ms.date: 11/08/2022
+ms.date: 09/21/2023
 ms.localizationpriority: Medium
 appliesto:
 - Surface Hub 2S
+- Surface Hub 3
 - Windows 10
 - Windows 11
 ---
 
-# Migrate to Windows 10/11 Pro or Enterprise on Surface Hub 2
+# Migrate to Windows 10/11 Pro or Enterprise on Surface Hub
 
 - [Article version history](#version-history)
 
-Surface Hub 2S comes with Windows 10 Team installed. This customized edition of Windows 10 facilitates collaboration in meeting-room environments. You can now instead run Windows 10/11 Pro or Enterprise to use your Surface Hub 2S much like any other PC.
+Surface Hub 2S and Surface Hub 3 are designed to facilitate collaboration in meeting-room environments. You can now instead run Windows 10/11 Pro or Enterprise to use your Surface Hub 2S or Surface Hub 3 much like any other PC.
 
 > [!IMPORTANT]
 > This migration process requires you to follow the specific procedure that's described in this article. Before you continue, read [Solution components](#solution-components) and [Migration and installation workflow](#migration-and-installation-workflow-summary).
 
 > [!NOTE]
-> When you install Windows 10/11 Pro or Enterprise on your Surface Hub 2S, you need a new license that's distinct from the existing Windows 10 Team license provided with the device.
+> When you install Windows 10/11 Pro or Enterprise, you need a new license that's distinct from the existing license provided with the device.
 
-Start the migration from Windows 10 Team by using a separate PC and the downloadable *Surface UEFI Configurator* tool. The tool creates a package that contains a new UEFI setting that you apply to the Surface Hub 2S.  
+Start the migration by using a separate PC and the downloadable *Surface UEFI Configurator* tool. The tool creates a package that contains a new UEFI setting that you apply to Surface Hub.  
 
 Surface UEFI Configurator works as an interface into Surface Enterprise Management Mode (SEMM). It enables centralized management of firmware settings on Surface devices in a corporate environment. For more information, see [Microsoft Surface Enterprise Management Mode](/surface/surface-enterprise-management-mode).
 
 ## Solution components
 
-- Surface Hub 2S device running Windows 10 Team
-- Separate device running Windows 10
+> [!NOTE]
+> This section applies to Surface Hub 2S. Streamlined instructions will be provided for Surface Hub 3 pending public release inlater this year.
+
+- Surface Hub 2S device running Windows 10 Team or Surface Hub 3 running Microsoft Teams Rooms on Windows experience
+- Separate device running Windows 10/11
 - Surface UEFI Configurator tool to create the SEMM package
 - Windows 10/11 Pro or Enterprise OS image, version 20H2 or later
 - Two USB drives that have 16 GB of storage, FAT32 format
@@ -346,6 +350,7 @@ The following table summarizes changes to this article.
 
 | Version | Date               | Description                                                                                           |
 | ------- | ------------------ | ----------------------------------------------------------------------------------------------------- |
+| v. 1.6  | September 21, 2023  | Added preliminary info indicating support for migrating to Windows 11 Enterprise on Surface Hub 3. |
 | v. 1.6  | January 16, 2023  | Added new section for troubleshooting and common problems |
 | v. 1.5  | December 1, 2021  | Updated to show support for Windows 11 |
 | v. 1.4  | December 14, 2020 | Provides [further info](#install-surface-hub-2-drivers-and-firmware) about installing the MSI file for "Drivers and firmware for Windows 10 Pro and Enterprise OS on Surface Hub 2," advising that a second reboot may be necessary depending on the state of your system.                                                          |

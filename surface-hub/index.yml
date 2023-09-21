@@ -1,7 +1,7 @@
 ### YamlMime:Landing
 
 title: Surface Hub documentation # < 60 chars
-summary: Surface Hub 2S is an all-in-one digital interactive whiteboard, meetings platform, and collaborative computing device. # < 160 chars
+summary: Surface Hub is an all-in-one digital interactive whiteboard, meetings platform, and collaborative computing device. # < 160 chars
 
 metadata:
   ms.date: 06/09/2020
@@ -29,8 +29,8 @@ landingContent:
     linkLists:
       - linkListType: how-to-guide
         links:
-          - text: Microsoft Teams Rooms on Windows comes to Surface Hub 2S   
-            url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/surface-hub-2s-now-a-microsoft-teams-rooms-on-windows-device/ba-p/3779970
+          - text: What's new for Surface Hub 3   
+            url: surface-hub-3-whats-new.md
           - text: New Teams Rooms licensing requirements
             url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/new-microsoft-teams-rooms-licensing-requirements-for-surface-hub/ba-p/1669712
           - text: Change display language on Surface Hub
@@ -102,7 +102,7 @@ landingContent:
             url: surface-hub-2s-adoption-welcome-screens.md 
 
     # Card (optional)
-  - title: Setup & deploy
+  - title: Set up & deploy
     linkLists:
       - linkListType: deploy
         links:
