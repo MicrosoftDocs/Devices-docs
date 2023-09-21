@@ -1,6 +1,6 @@
 ---
 title: Tested peripherals for new Surface devices
-description: This page lists the results of extensive testing for external monitors, docks, cables, and adapters for Surface Pro 9 and Surface Pro 9 with 5G.
+description: This page lists the results of extensive testing for external monitors, docks, cables, and adapters for Surface Laptop Studio 2, Surface Laptop Go 3, Surface Go 4, Surface Pro 9, Surface Pro 9 with 5G, and Surface Thunderbolt 4 Dock.
 ms.prod: surface
 ms.localizationpriority: medium
 author: coveminer
@@ -28,7 +28,9 @@ Surface engineering has tested various external monitors, docks, cables, and ada
 
 ### Tested monitors for Surface Laptop Studio 2
 
-- Acer Predator X27
+- **Designed for Surface:** ViewSonic VG245
+- **Designed for Surface:** ViewSonic VG275 
+- **Designed for Surface:** ViewSonic VP275-4K- Acer Predator X27
 - Asus VG279QM
 - Dell C2422HE
 - Dell P2419Hc
@@ -43,9 +45,7 @@ Surface engineering has tested various external monitors, docks, cables, and ada
 - HP X24iH
 - LG 27UL850-W
 - Samsung LF32TU87
-- ViewSonic VG245
-- ViewSonic VG275 
-- ViewSonic VP275-4K
+
 
 ### Tested docks for Surface Laptop Studio 2
 
@@ -82,7 +82,7 @@ Surface engineering has tested various external monitors, docks, cables, and ada
 
 - Surface Dock 1
 - Surface Dock 2
-- Surface Thunderbolt 4 Dock (supports one external monitor for Surface Go 4)
+- Surface Thunderbolt 4 Dock (supports [one external monitor](surface-dock-whats-new.md) for Surface Go 4)
 - **Designed for Surface:** Kensington SD4845P
 - Dell WD19S 180W Dock
 - Plugable Docking Station (UD-ULTCDL)
@@ -104,7 +104,7 @@ Surface engineering has tested various external monitors, docks, cables, and ada
 
 - Surface Dock 1
 - Surface Dock 2
-- Surface Thunderbolt 4 Dock (supports one external monitor for Surface Laptop Go 3)
+- Surface Thunderbolt 4 Dock (supports [one external monitor](surface-dock-whats-new.md) for Surface Laptop Go 3)
 - **Designed for Surface:** Kensington SD4845P
 - Dell WD19S 180W Dock
 - Plugable Docking Station (UD-ULTCDL)
