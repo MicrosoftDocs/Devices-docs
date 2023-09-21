@@ -4,10 +4,10 @@ description: This topic explains how to deploy and use the Surface Diagnostic To
 ms.prod: surface
 ms.localizationpriority: medium
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: how-to
 ms.date: 10/25/2021
-ms.reviewer: hachidan
+ms.reviewer: chauncel
 manager: frankbu
 appliesto:
 - Windows 10
@@ -43,7 +43,7 @@ Command line | Directly troubleshoot Surface devices remotely without user inter
 SDT for Business is supported on Surface 3 and later devices (except for devices configured in S mode):
 
 - Surface Book - all generations
-- Surface Laptop Studio
+- Surface Laptop Studio - all generations
 - Surface Go - all generations
 - Surface Laptop - all generations
 - Surface Laptop Go - all generations

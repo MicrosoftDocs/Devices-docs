@@ -3,7 +3,7 @@ title: Deploy Surface app with Microsoft Store for Business or Microsoft Store f
 description: Find out how to add and download Surface app with Microsoft Store for Business or Microsoft Store for Education, as well as install Surface app with PowerShell and MDT.
 ms.prod: surface
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: how-to 
 ms.localizationpriority: medium
 manager: frankbu
@@ -19,12 +19,11 @@ Applies to:
 
 - Surface Laptop (all generations)
 - Surface Pro 3 and later
-- Surface Laptop Go
-- Surface Laptop Go 2
-- Surface Go (all generations)
+- Surface Laptop Go (all generations)
+- Surface Go (all generations).0
 - Surface Book (all generations)
 - Surface Studio (all generations)
-- Surface Laptop Studio
+- Surface Laptop Studio (all generations)
 - Surface Pro with LTE Advanced (Model 1807)
 - Surface Pro (Model 1796)
 - Surface 3 LTE

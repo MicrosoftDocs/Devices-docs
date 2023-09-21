@@ -4,19 +4,18 @@ description: This article, intended for qualified IT technicians, describes the 
 ms.prod: surface
 ms.localizationpriority: medium
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: how-to
 ms.date: 10/14/2022
 manager: frankbu
 appliesto:
-- Surface Laptop Studio
+- Surface Laptop Studio (all generations)
 - Surface Pro 9
 - Surface Pro 9 with 5G
 - Surface Pro 8
 - Surface Pro 7+
 - Surface Pro X
-- Surface Laptop Go
-- Surface Laptop Go 2
+- Surface Laptop Go (all generations)
 - Surface Laptop 3
 - Surface Laptop 4
 - Surface Laptop 5

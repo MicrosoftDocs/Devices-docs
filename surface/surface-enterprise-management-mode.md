@@ -3,9 +3,9 @@ title: Surface Enterprise Management Mode (SEMM)
 description: See how this feature of Surface devices with Surface UEFI helps you secure and manage firmware settings within your organization.
 ms.prod: surface
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: how-to
-ms.reviewer: hachidan
+ms.reviewer: chauncel
 manager: frankbu
 ms.localizationpriority: medium
 ms.date: 11/03/2022
@@ -34,16 +34,18 @@ SEMM is only available on devices with Surface UEFI firmware including:
 - Surface Pro 4 and later (all SKUs)
 - Surface Pro X (all SKUs)
 - Surface Laptop SE (all SKUs)
-- Surface Laptop Studio (commercial SKUs only) 
+- Surface Laptop Studio (all generations, commercial SKUs only) 
 - Surface Hub 2S
 - Surface Laptop 5 (commercial SKUs only)
 - Surface Laptop 4 (commercial SKUs only)
 - Surface Laptop 3 (Intel processors only)
 - Surface Laptop Go 
 - Surface Laptop Go 2 (commercial SKUs only)
+- Surface Laptop Go 3 (commercial SKUs only)
 - Surface Book (all generations)
 - Surface Go, Surface Go 2
 - Surface Go 3 (commercial SKUs only)
+- Surface Go 4 (commercial SKUs only)
 - Surface Studio (all SKUs)
 
 >[!TIP]

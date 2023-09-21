@@ -4,9 +4,9 @@ description: This page lists the results of extensive testing for external monit
 ms.prod: surface
 ms.localizationpriority: medium
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: how-to
-ms.date: 04/04/2023
+ms.date: 09/21/2023
 ms.reviewer: dpushkareva
 manager: frankbu
 appliesto:
@@ -14,7 +14,7 @@ appliesto:
 - Windows 11
 ---
 
-# Tested peripherals for new Surface devices
+# Tested peripherals for Surface devices
 
 Surface engineering has tested various external monitors, docks, cables, and adapters to bring you the best experience on select new Surface devices, starting with Surface Pro 9. See the tables below for tested peripherals across port connections including Surface Connect, USB-C, Display Port, HDMI, and Thunderbolt.
 
@@ -23,6 +23,93 @@ Surface engineering has tested various external monitors, docks, cables, and ada
 
 > [!TIP]
 > For the best experience, be sure to get the latest updates. To manage your options and see available updates, select  **Start > Settings > Windows Update**.
+
+## Surface Laptop Studio 2
+
+### Tested monitors for Surface Laptop Studio 2
+
+- Acer Predator X27
+- Asus VG279QM
+- Dell C2422HE
+- Dell P2419Hc
+- Dell P2720DC
+- Dell P2721Q
+- Dell U2717D
+- Dell U2720Q
+- Dell U3219Q
+- Dell U3421WE
+- Dell U3818DW
+- Dell UP2716D
+- HP X24iH
+- LG 27UL850-W
+- Samsung LF32TU87
+- ViewSonic VG245
+- ViewSonic VG275 
+- ViewSonic VP275-4K
+
+### Tested docks for Surface Laptop Studio 2
+
+
+| Surface Connect                      | USB-C                                | Thunderbolt                                                                                                                                                     |
+| ------------------------------------ | ------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| - Surface Dock 1<br>- Surface Dock 2 | - Dell U22<br>- Dell WD19S<br>- Plugable ULT-CDL | - Surface Thunderbolt 4 Dock<br> - **Designed for Surface:** Kensington SD4845P Thunderbolt 4 Dock<br>- **Designed for Surface:** Kensington SD5750T Thunderbolt 4 Dock<br>- Plugable TBT4-UDZ<br>- Dell WD22TB4<br>- Dell WD19TB|
+
+
+### Tested cables for Surface Laptop Studio 2
+
+| USB-C to USB-C         |USB4-USB4 |Thunderbolt to Thunderbolt                                                                        | USB-C to Display Port                                                      | USB-C to HDMI            |
+| ---------------------- |---------- |-------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- | ----------------------- |
+| - j5Create USB-C Cable (JUCX04) | **Designed for Surface:** Cable Matters USB4 40Gbps Cable 3.3ft (201504-BLK-1m)     |StarTech.com 0.8m/2.7ft Thunderbolt 3 to Thunderbolt 3 Cable (TBLT34MM80CM)<br>- Plugable Thunderbolt 3 Cable 40Gbps Supports 100W (TBT3-40G80CM)               | - **Designed for Surface:** Cable Matters USB-C to DisplayPort 1.4 Cable - 6 Feet (201536-BLK-6)<br> - **Designed for Surface:** Moshi USB-C to Display Port Cable (99MO084102)| - **Designed for Surface:** Cable Matters USB-C to 8K HDMI Cable - 6 ft / 1.8 m (201562-BLK-6) |
+
+
+### Tested adapters for Surface Laptop Studio 2
+
+| USB-C to Display Port                                                                                                                                    | USB-C to HDMI                            |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------- |
+| - Microsoft USB-C to Display Port Adapter<br>- CableMatters USB-C to Display Port Adapter (201086)<br>- Club-3D USB-C to Display Port Adapter (CAC-1507) | - Microsoft USB-C to HDMI Adapter (1857) |
+
+## Surface Go 4
+
+### Tested monitors for Surface Go 4
+
+- Dell U2719D
+- Dell P2419H
+- Dell U2720Q
+- HP X24iH
+- LG 27GN950-B
+
+### Tested docks for Surface Go 4
+
+- Surface Dock 1
+- Surface Dock 2
+- Surface Thunderbolt 4 Dock (supports one external monitor for Surface Go 4)
+- **Designed for Surface:** Kensington SD4845P
+- Dell WD19S 180W Dock
+- Plugable Docking Station (UD-ULTCDL)
+- Targus DOCK430USZ
+
+## Surface Laptop Go 3
+
+### Tested monitors for Surface Laptop Go 3
+
+- Dell U2719D
+- Dell P2419H
+- Dell U2720Q
+- HP X24iH
+- LG 27GN950-B
+- Lenovo C32q-20
+- Lenovo L27i-30
+
+### Tested docks for Surface Laptop Go 3
+
+- Surface Dock 1
+- Surface Dock 2
+- Surface Thunderbolt 4 Dock (supports one external monitor for Surface Laptop Go 3)
+- **Designed for Surface:** Kensington SD4845P
+- Dell WD19S 180W Dock
+- Plugable Docking Station (UD-ULTCDL)
+- Targus DOCK430USZ
+
 
 ## Surface Pro 9 & Surface Pro 9 with 5G
 
@@ -43,13 +130,13 @@ Surface engineering has tested various external monitors, docks, cables, and ada
 
 | Surface Connect                      | USB-C                                | Thunderbolt                                                                                                                                                     |
 | ------------------------------------ | ------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| - Surface Dock 1<br>- Surface Dock 2 | - Dell WD19DC<br>- Pluggable ULT-CDL | - Surface Thunderbolt 4 Dock<br>- Cal Digit TS3 Thunderbolt Station 3<br>- Dell WD19TB<br>- Kensington SD5700T Thunderbolt 4 Dock<br>- Lenovo ThinkPad Thunderbolt 3 Dock Gen 2 - Model# DK1841 |
+| - Surface Dock 1<br>- Surface Dock 2 | - Dell WD19DC<br>- Plugable ULT-CDL | - Surface Thunderbolt 4 Dock<br>- Cal Digit TS3 Thunderbolt Station 3<br>- Dell WD19TB<br>- Kensington SD5700T Thunderbolt 4 Dock<br>- Lenovo ThinkPad Thunderbolt 3 Dock Gen 2 - Model# DK1841 |
 
 ### Tested docks for Surface Pro 9 with 5G
 
 | Surface Connect                      | USB-C                                |  
 | ------------------------------------ | ------------------------------------ |
-| - Surface Dock 1<br>- Surface Dock 2 | - Surface Thunderbolt 4 Dock<br>- Dell WD19DC<br>- Pluggable ULT-CDL |
+| - Surface Dock 1<br>- Surface Dock 2 | - Surface Thunderbolt 4 Dock<br>- Dell WD19DC<br>- Plugable ULT-CDL |
 
 ### Tested cables for Surface Pro 9
 
