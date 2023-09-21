@@ -30,7 +30,8 @@ Surface engineering has tested various external monitors, docks, cables, and ada
 
 - **Designed for Surface:** ViewSonic VG245
 - **Designed for Surface:** ViewSonic VG275 
-- **Designed for Surface:** ViewSonic VP275-4K- Acer Predator X27
+- **Designed for Surface:** ViewSonic VP275-4K
+- Acer Predator X27
 - Asus VG279QM
 - Dell C2422HE
 - Dell P2419Hc
