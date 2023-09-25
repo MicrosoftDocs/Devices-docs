@@ -64,7 +64,10 @@ The following table lists the release date and End of Servicing date for each Su
 | Windows Dev Kit 2023                   | October 24, 2022 | October 24, 2028                             |
 | Surface Laptop 5                       | October 25, 2022 | October 25, 2028                             |
 | Surface Pro 9                          | October 25, 2022 | October 25, 2028                             |
-| Surface Studio 2+                      | October 25, 2022 | October 25, 2028                             |
+| Surface Go 4                           | September 21, 2023 | September 21, 2029                         |
+| Surface Laptop Go 3                    | October 3, 2023  | October 3, 2029                              |
+| Surface Laptop Studio 2                | October 3, 2023| | October 3, 2029                              |
+
 
 
 ## Surface Hub driver and firmware support lifecycle
@@ -75,6 +78,7 @@ The following table lists the release date and End of Servicing date for Surface
 | ---------------------- | ---------------- | ------------------------------------------ |
 | Surface Hub 2S 50"     | April 17, 2019        | January 11, 2027                                  |
 | Surface Hub 2S 85"     | January 11,2021        | January 11, 2027                                  |
+
 
 ## Legacy products
 
