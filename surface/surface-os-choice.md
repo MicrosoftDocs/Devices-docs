@@ -4,7 +4,7 @@ description: This article describes how commercial customers can purchase new Su
 ms.prod: surface
 ms.localizationpriority: medium
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: overview
 ms.date: 10/31/2022
 ms.reviewer: chauncel
