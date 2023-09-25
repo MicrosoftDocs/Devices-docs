@@ -4,10 +4,10 @@ description: This article describes the advanced capabilities enabled by Nvidia 
 ms.prod: surface
 ms.localizationpriority: medium
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: overview
 ms.date: 10/05/2020
-ms.reviewer: brrecord
+ms.reviewer: chauncel
 manager: frankbu
 
 ---
@@ -129,6 +129,5 @@ The Surface Book 3 with Quadro RTX 3000 delivers the best graphics performance o
 
 ## Learn more
 
-- [Surface Book 3 GPU technical overview](surface-book-GPU-overview.md)
 - [Surface for Business](https://www.microsoft.com/surface/business)
 - [Microsoft Cognitive Toolkit (CNTK)](/cognitive-toolkit)

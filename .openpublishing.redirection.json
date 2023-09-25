@@ -229,6 +229,36 @@
             "source_path":  "surface-hub/finishing-your-surface-hub-meeting.md",
             "redirect_url":  "/surface-hub/meet-on-surface-hub",
             "redirect_document_id":  false
-        }
+        },
+		{
+            "source_path":  "surface/surface-laptop-5-overview.md",
+            "redirect_url":  "https://www.microsoft.com/d/surface-laptop-5",
+            "redirect_document_id":  false
+        },
+		{
+            "source_path":  "surface/surface-studio-2-plus-overview.md",
+            "redirect_url":  "https://www.microsoft.com/surface/business/surface-studio-2-plus ",
+            "redirect_document_id":  false
+        },
+		{
+            "source_path":  "surface/surface-laptop-se-overview.md",
+            "redirect_url":  "https://www.microsoft.com/surface/business/surface-laptop-se",
+            "redirect_document_id":  false
+        },		
+		{
+            "source_path":  "surface/surface-pro-9-overview.md",
+            "redirect_url":  "https://www.microsoft.com/surface/business/surface-pro-9",
+            "redirect_document_id":  false
+        },	
+		{
+            "source_path":  "surface/surface-laptop-go-2.md",
+            "redirect_url":  "https://www.microsoft.com/surface/business/surface-laptop-go-3",
+            "redirect_document_id":  false
+        },	
+		{
+            "source_path":  "surface/surface-laptop-processors.md",
+            "redirect_url":  "https://www.microsoft.com/d/surface-laptop-4/946627fb12t1",
+            "redirect_document_id":  false
+        }			
     ]
 }

@@ -11,24 +11,12 @@
         items:
          - name: What's new in Surface Thunderbolt 4 Dock
            href: surface-dock-whats-new.md
-         - name: Surface Pro 9 overview
-           href: surface-pro-9-overview.md
-         - name: Surface Laptop 5 overview
-           href: surface-laptop-5-overview.md
-         - name: Surface Studio 2+ overview
-           href: surface-studio-2-plus-overview.md
-         - name: Surface Laptop Go 2 overview
-           href: surface-laptop-go-2.md 
-         - name: Surface Laptop SE overview
-           href: surface-laptop-se-overview.md
          - name: Surface OS choice
            href: surface-os-choice.md
          - name: Surface security overview
            href: surface-security.md
          - name: Azure Virtual Desktop on Surface
            href: windows-virtual-desktop-surface.md			   
-         - name: Surface Laptop 4 processors tech overview
-           href: surface-laptop-processors.md
          - name: Surface Headphones 2+ tech overview
            href: surface-headphones.md           
          - name: Surface Dock 2 Overview
@@ -40,9 +28,7 @@
          - name: Surface Laptop Studio 2 ISV-tested/certified apps
            href: surface-laptop-studio2-isv-certification.md                  
          - name: Surface Laptop Studio ISV-tested/certified apps
-           href: surface-laptop-studio-isv-certification.md   
-         - name: Surface Studio 2+ overview
-           href: surface-studio-2-plus-overview.md      
+           href: surface-laptop-studio-isv-certification.md      
          - name: Surface Book 3 tech overview
            href: surface-book-GPU-overview.md
          - name: Surface Book 3 Quadro RTX 3000 tech overview

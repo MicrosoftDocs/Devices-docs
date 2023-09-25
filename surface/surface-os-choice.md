@@ -7,7 +7,7 @@ author: coveminer
 ms.author: hachidan
 ms.topic: overview
 ms.date: 10/31/2022
-ms.reviewer: oayakta
+ms.reviewer: chauncel
 manager: frankbu
 appliesto:
 - Windows 10
