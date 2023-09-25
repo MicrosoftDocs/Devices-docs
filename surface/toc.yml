@@ -37,6 +37,8 @@
         items: 
          - name: Surface Laptop Studio graphics overview
            href: surface-laptop-studio-graphics.md
+         - name: Surface Laptop Studio 2 ISV-tested/certified apps
+           href: surface-laptop-studio2-isv-certification.md                  
          - name: Surface Laptop Studio ISV-tested/certified apps
            href: surface-laptop-studio-isv-certification.md   
          - name: Surface Studio 2+ overview
