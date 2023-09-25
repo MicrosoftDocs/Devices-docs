@@ -25,7 +25,6 @@ Commercial customers can choose to have Windows 10 or Windows 11 installed on ne
 - [Surface Laptop 4](https://www.microsoft.com/surface/business/surface-laptop-4)
 - [Surface Pro 8](https://www.microsoft.com/surface/business/surface-pro-8)
 - [Surface Laptop Studio](https://www.microsoft.com/surface/business/surface-laptop-studio)
-- [Surface Laptop Studio 2](https://www.microsoft.com/surface/business/surface-laptop-studio)
 - [Surface Go 3](https://www.microsoft.com/surface/business/surface-go-3)
 - [Surface Go 4](https://www.microsoft.com/surface/business/surface-go-4)
 
