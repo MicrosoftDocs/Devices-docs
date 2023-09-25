@@ -74,8 +74,10 @@ The following table lists the release date and End of Servicing date for Surface
 
 | Surface Hub device | Release date | End of servicing date for firmware & drivers |
 | ---------------------- | ---------------- | ------------------------------------------ |
-| Surface Hub 2S 50"     | April 17, 2019        | January 11, 2027                                  |
-| Surface Hub 2S 85"     | January 11,2021        | January 11, 2027                                  |
+| Surface Hub 2S 50"     | April 17, 2019        | January 11, 2027                      |
+| Surface Hub 2S 85"     | January 11,2021       | January 11, 2027                      |
+| Surface Hub 3 30"      | December 5, 2023      | December 5, 2029                      |
+| Surface Hub 3 85"      | December 5, 2023      | December 5, 2029                      |
 
 ## Legacy products
 
