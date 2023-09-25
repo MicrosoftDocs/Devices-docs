@@ -37,6 +37,8 @@
         items: 
          - name: Surface Laptop Studio graphics overview
            href: surface-laptop-studio-graphics.md
+         - name: Surface Laptop Studio 2 ISV-tested/certified apps
+           href: surface-laptop-studio2-isv-certification.md                  
          - name: Surface Laptop Studio ISV-tested/certified apps
            href: surface-laptop-studio-isv-certification.md   
          - name: Surface Studio 2+ overview
@@ -51,7 +53,7 @@
           href: https://www.microsoft.com/surface/business/surface-laptop-studio-2   
         - name: Surface Laptop Go 3 for Business
           href: https://www.microsoft.com/surface/business/surface-laptop-go-3     
-        - name: Surface Go 3 for Business
+        - name: Surface Go 4 for Business
           href: https://www.microsoft.com/surface/business/surface-go-4      
         - name: Surface Pro 9 for Business
           href: https://www.microsoft.com/surface/business/surface-pro-9    
