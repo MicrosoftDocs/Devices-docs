@@ -66,7 +66,7 @@ The following table lists the release date and End of Servicing date for each Su
 | Surface Pro 9                          | October 25, 2022 | October 25, 2028                             |
 | Surface Go 4                           | September 21, 2023 | September 21, 2029                         |
 | Surface Laptop Go 3                    | October 3, 2023  | October 3, 2029                              |
-| Surface Laptop Studio 2                | October 3, 2023| | October 3, 2029                              |
+| Surface Laptop Studio 2                | October 3, 2023  | October 3, 2029                              |
 
 ## Surface Hub driver and firmware support lifecycle
 
