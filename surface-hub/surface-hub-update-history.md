@@ -21,6 +21,16 @@ Most Windows updates focus on performance and security improvements. In the list
 
 ## Windows 10 Team 2022 Update (22H2)
 
+### September 26, 2023 - update for Team OS based on KB5030300* (19045.3516)
+
+This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/5018682/windows-10-update-history), include:
+
+* Updates “My Meetings and Files" personal sign-in functionality to use TLS 1.2 in all cases.
+* Resolves an issue with sovereign cloud support in device account scenarios.
+ 
+Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabling device features and services. *[KB5030300](https://support.microsoft.com/help/5030300)
+
+
 ### August 18, 2023 - update for Surface Hub 2S
 
 * Surface Integration driver - 94.19.3.0
@@ -43,7 +53,6 @@ Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabl
 
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/5018682/windows-10-update-history), include:
 
-* Resolves an issue where the [Surface Hub password rotation feature](password-management-for-surface-hub-device-accounts.md) did not work as expected with Azure AD-based device accounts.
 * Updates the built-in Azure Log Analytics agent to version 10.20.18067.
  
 Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabling device features and services. *[KB5025297](https://support.microsoft.com/help/5025297)
@@ -478,7 +487,7 @@ Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabl
 
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4018124/windows-10-update-history), include:
 
-* Addresses an issue that prevents some users from Signing-In to “My Meetings and Files.”
+* Addresses an issue that prevents some users from signing in to “My Meetings and Files.”
 
 Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabling device features and services.
 *[KB4467699](https://support.microsoft.com/help/4467699)

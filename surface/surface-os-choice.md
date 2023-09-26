@@ -4,10 +4,10 @@ description: This article describes how commercial customers can purchase new Su
 ms.prod: surface
 ms.localizationpriority: medium
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: overview
 ms.date: 10/31/2022
-ms.reviewer: oayakta
+ms.reviewer: chauncel
 manager: frankbu
 appliesto:
 - Windows 10
@@ -18,16 +18,18 @@ appliesto:
 
 Commercial customers can choose to have Windows 10 or Windows 11 installed on new Surface devices:
 
-- [Surface Pro 9](surface-pro-9-overview.md)
-- [Surface Laptop 5](surface-laptop-5-overview.md)
-- [Surface Laptop Go 2](https://www.microsoft.com/surface/business/surface-laptop-go-2)
-- [Surface Laptop 4](https://www.microsoft.com/surface/business/surface-laptop-4)
 - [Surface Pro 8](https://www.microsoft.com/surface/business/surface-pro-8)
+- [Surface Pro 9](https://www.microsoft.com/surface/business/surface-pro-9)
+- [Surface Laptop 4](https://www.microsoft.com/surface/business/surface-laptop-4)
+- [Surface Laptop 5](https://www.microsoft.com/d/surface-laptop-5)
+- [Surface Laptop Go 2](https://www.microsoft.com/surface/business/surface-laptop-go-2)
+- [Surface Laptop Go 3](https://www.microsoft.com/surface/business/surface-laptop-go-3)
 - [Surface Laptop Studio](https://www.microsoft.com/surface/business/surface-laptop-studio)
 - [Surface Go 3](https://www.microsoft.com/surface/business/surface-go-3)
+- [Surface Go 4](https://www.microsoft.com/surface/business/surface-go-4)
 
 > [!NOTE]
-> Surface Pro 9 is available for Windows 10. Surface Pro 9 with 5G is available for Windows 11 only. 
+> Surface Pro 9 is available for Windows 10. Surface Pro 9 with 5G is only available with Windows 11. 
 
 ## Considerations for choosing your OS
 
@@ -64,12 +66,15 @@ Devices ship from the factory with one of the following OS versions, depending o
 |      Device           | Windows 10 | Windows 11 |
 | --------------------- | ---------- | ---------- |
 | Surface Laptop Go 2   | 21H2       | 21H2       |
+| Surface Laptop Go 3   | 22H2       | 22H2       |
 | Surface Laptop 4      | 21H2       | 21H2       |
+| Surface Laptop 5      | 21H2       | 22H2       |
 | Surface Laptop Studio | 21H2       | 21H2       |
 | Surface Go 3          | 21H2       | 21H2       |
+| Surface Go 4          | 22H2       | 22H2       |
 | Surface Pro 8         | 21H2       | 21H2       |
 | Surface Pro 9         | 21H2       | 22H2       |
-| Surface Laptop 5      | 21H2       | 22H2       |
+
 
 ## How to order
 
@@ -78,7 +83,7 @@ Commercial customers can place orders for new devices via [authorized Microsoft 
 ### References
 
 1. Windows 10 Downgrade Facilitation SKU offered for Windows 11-capable devices.  
-2. Effective July 1, 2023, additional fee increased from $30 to $50 for the following devices: Surface Pro 9, Surface Laptop 5, Surface Go 3 LTE, and Surface Pro 8 LTE. The fee remains set at $30 for Surface Laptop Go 2, Surface Laptop 4, and Surface Laptop Studio.
+2. Effective July 1, 2023, additional fee increased from $30 to $50 for all new eligible devices as well as the following devices: Surface Pro 9, Surface Laptop 5, Surface Go 3 LTE, and Surface Pro 8 LTE. The fee remains set at $30 for Surface Laptop Go 2, Surface Laptop 4, and Surface Laptop Studio.
 
 ### Learn more
 
