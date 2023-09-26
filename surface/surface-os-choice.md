@@ -18,12 +18,12 @@ appliesto:
 
 Commercial customers can choose to have Windows 10 or Windows 11 installed on new Surface devices:
 
+- [Surface Pro 8](https://www.microsoft.com/surface/business/surface-pro-8)
 - [Surface Pro 9](https://www.microsoft.com/surface/business/surface-pro-9)
+- [Surface Laptop 4](https://www.microsoft.com/surface/business/surface-laptop-4)
 - [Surface Laptop 5](https://www.microsoft.com/d/surface-laptop-5)
 - [Surface Laptop Go 2](https://www.microsoft.com/surface/business/surface-laptop-go-2)
 - [Surface Laptop Go 3](https://www.microsoft.com/surface/business/surface-laptop-go-3)
-- [Surface Laptop 4](https://www.microsoft.com/surface/business/surface-laptop-4)
-- [Surface Pro 8](https://www.microsoft.com/surface/business/surface-pro-8)
 - [Surface Laptop Studio](https://www.microsoft.com/surface/business/surface-laptop-studio)
 - [Surface Go 3](https://www.microsoft.com/surface/business/surface-go-3)
 - [Surface Go 4](https://www.microsoft.com/surface/business/surface-go-4)
