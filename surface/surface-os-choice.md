@@ -29,7 +29,7 @@ Commercial customers can choose to have Windows 10 or Windows 11 installed on ne
 - [Surface Go 4](https://www.microsoft.com/surface/business/surface-go-4)
 
 > [!NOTE]
-> Surface Pro 9 is available for Windows 10. Surface Pro 9 with 5G is available for Windows 11 only. 
+> Surface Pro 9 is available for Windows 10. Surface Pro 9 with 5G is only available with Windows 11. 
 
 ## Considerations for choosing your OS
 
