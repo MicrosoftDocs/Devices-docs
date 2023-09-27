@@ -65,15 +65,15 @@ Devices ship from the factory with one of the following OS versions, depending o
 
 |      Device           | Windows 10 | Windows 11 |
 | --------------------- | ---------- | ---------- |
-| Surface Laptop Go 2   | 21H2       | 21H2       |
+| Surface Laptop Go 2   | 22H2       | 22H2       |
 | Surface Laptop Go 3   | 22H2       | 22H2       |
-| Surface Laptop 4      | 21H2       | 21H2       |
-| Surface Laptop 5      | 21H2       | 22H2       |
-| Surface Laptop Studio | 21H2       | 21H2       |
-| Surface Go 3          | 21H2       | 21H2       |
+| Surface Laptop 4      | 22H2       | 22H2       |
+| Surface Laptop 5      | 22H2       | 22H2       |
+| Surface Laptop Studio | 22H2       | 22H2       |
+| Surface Go 3          | 22H2       | 22H2       |
 | Surface Go 4          | 22H2       | 22H2       |
-| Surface Pro 8         | 21H2       | 21H2       |
-| Surface Pro 9         | 21H2       | 22H2       |
+| Surface Pro 8         | 22H2       | 22H2       |
+| Surface Pro 9         | 22H2       | 22H2       |
 
 
 ## How to order
