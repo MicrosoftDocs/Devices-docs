@@ -27,7 +27,7 @@ There are several ways to get the new Surface Hub experience:
 ## Hybrid meetings that include everyone
 
 - Surface Hub 3 provides a premium meetings platform certified for Microsoft Teams. Anyone can walk up and join a Microsoft Teams meeting with one touch on Surface Hub 3, whether it's the 50-inch or the 85-inch model, enjoying an interaction optimized for their respective screen sizes.
-- Remote participants have the best possible view of the room with the Surface Hub Smart Camera. With a sharp focus on the foreground and background, remote participants can see people interact with content on Surface Hub while viewing everyone else in the room. Surface Hub Smart Camera has an ultra-wide field of view of 136 degrees, automatic framing, high-quality glass optics, and low light sensor. 
+- Remote participants have the best possible view of the room with the Surface Hub Smart Camera. With a sharp focus on the foreground and background, remote participants can see people interact with content on Surface Hub while viewing everyone else in the room. Surface Hub Smart Camera has an ultra-wide field of view of 136 degrees, high-quality glass optics, and low light sensor. 
 - One-touch-join a Microsoft Teams, Zoom or Webex meeting from the home screen. Join meeting requests from partners or customers without hassle. 
 - Make better human connections – facial expressions and body language are brought to life on the big screen. Images and video appear crisp and clear on a brilliant 4K screen with high resolution and graphics performance.  
 
