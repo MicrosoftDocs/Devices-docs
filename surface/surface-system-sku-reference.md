@@ -88,7 +88,7 @@ System Model and System SKU are variables stored in System Management BIOS (SMBI
 **Retrieving the SKU by using PowerShell**  
 Use the following PowerShell command to pull the System SKU information:
 
- ``` powershell  
+ ```powershell  
 (Get-CimInstance -Namespace root\wmi -ClassName MS_SystemInformation).SystemSKU
 ```
 
@@ -101,7 +101,7 @@ You can also find the System SKU and System Model for a device in **System Infor
 **Using the SKU in a task sequence WMI condition**  
 You can use the System SKU information in the Microsoft Deployment Toolkit (MDT) or Microsoft Endpoint Configuration Manager as part of a task sequence WMI condition.
 
- ``` powershell  
+ ```console 
     - WMI Namespace – Root\WMI
     - WQL Query – SELECT * FROM MS_SystemInformation WHERE SystemSKU = "Surface_Pro_1796"
  ```
