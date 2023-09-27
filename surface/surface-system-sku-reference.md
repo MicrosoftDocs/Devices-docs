@@ -3,9 +3,9 @@ title: Surface System SKU reference
 description: See a reference of System Model and System SKU names for all Surface devices. 
 ms.prod: surface
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: how-to
-ms.date: 10/27/2022
+ms.date: 9/28/2023
 ms.reviewer: carlol
 manager: frankbu
 ms.localizationpriority: medium
@@ -39,6 +39,7 @@ System Model and System SKU are variables stored in System Management BIOS (SMBI
 | Surface Go 3 Commercial                                      | Surface Go 3     | Surface_Go_3_1926                |
 | Surface Go 3 Consumer                                        | Surface Go 3     | Surface_Go_3_1901                |
 | Surface Go 3 LTE                                             | Surface Go 3     | Surface_Go_3_2022                |
+| Surface Go 4                                                 | Surface Go 4     | Surface_Go_4_2067                |
 | Surface Hub 2S 50"                                           | Surface Hub 2S   | Surface Hub 2S                   |
 | Surface Hub 2S 85"                                           | Surface Hub 2S   | Surface Hub 2S 85                |
 | Surface Laptop                                               | Surface Laptop   | Surface_Laptop                   |
@@ -57,8 +58,10 @@ System Model and System SKU are variables stored in System Management BIOS (SMBI
 | Surface Laptop 5 15" Commercial                                  | Surface Laptop 5 | Surface_Laptop_5_for_Business_1979|
 | Surface Laptop Go                                            | Surface Laptop Go | Surface_Laptop_Go_1943      |
 | Surface Laptop Go 2                                          | Surface Laptop Go 2 | Surface_Laptop_Go_2_2013      |
+| Surface Laptop Go 3                                         | Surface Laptop Go 3 | Surface_Laptop_Go_3_2013      |
 | Surface Laptop SE                                            | Surface Laptop SE | Surface Laptop SE            |
 | Surface Laptop Studio                                        | Surface Laptop Studio | Surface_Laptop_Studio_1964 |
+| Surface Laptop Studio 2                                       | Surface Laptop Studio 2 | Surface_Laptop_Studio_2_2029 |
 | Surface Pro (5th Gen)                                        | Surface Pro      | Surface_Pro_1796                 |
 | Surface Pro with LTE Advanced (5th Gen)                      | Surface Pro      | Surface_Pro_1807                 |
 | Surface Pro 6 Commercial                                     | Surface Pro 6    | Surface_Pro_6_1796_Commercial    |
