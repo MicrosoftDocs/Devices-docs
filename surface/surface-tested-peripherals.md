@@ -53,7 +53,7 @@ Surface engineering has tested various external monitors, docks, cables, and ada
 
 | Surface Connect                      | USB-C                                | Thunderbolt                                                                                                                                                     |
 | ------------------------------------ | ------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| - Surface Dock 1<br>- Surface Dock 2 | - Dell U22<br>- Dell WD19S<br>- Plugable ULT-CDL | - Surface Thunderbolt 4 Dock<br> - **Designed for Surface:** Kensington SD4845P Thunderbolt 4 Dock<br>- **Designed for Surface:** Kensington SD5750T Thunderbolt 4 Dock<br>- Plugable TBT4-UDZ<br>- Dell WD22TB4<br>- Dell WD19TB|
+| - Surface Dock 2<br> - Surface Dock 1 (slow charging is possible)<br>-  | - Dell U22<br>- Dell WD19S<br>- Plugable ULT-CDL | - Surface Thunderbolt 4 Dock<br> - **Designed for Surface:** Kensington SD4845P Thunderbolt 4 Dock<br>- **Designed for Surface:** Kensington SD5750T Thunderbolt 4 Dock<br>- Plugable TBT4-UDZ<br>- Dell WD22TB4<br>- Dell WD19TB|
 
 
 ### Tested cables for Surface Laptop Studio 2

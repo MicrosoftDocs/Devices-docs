@@ -4,7 +4,7 @@ description: This article describes devices eligible for in-region same unit rep
 ms.prod: w11
 ms.localizationpriority: medium
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: overview
 ms.date: 10/28/2022
 ms.reviewer: hachidan
