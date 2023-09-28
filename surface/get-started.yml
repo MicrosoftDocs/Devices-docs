@@ -27,7 +27,11 @@ landingContent:
       - linkListType: whats-new
         links:
           - text: See the newest Surface devices
-            url: https://blogs.windows.com/devices/?p=263388      
+            url: https://blogs.windows.com/devices/?p=263388   
+          - text: Tested peripherals for new Surface devices
+            url: surface-tested-peripherals.md   
+          - text: Surface IT portals
+            url: surface-portals.md    
           - text: What's new in Surface Thunderbolt 4 Dock
             url: surface-dock-whats-new.md
           - text: Surface Autopilot Cookbook for CSPs
