@@ -6,7 +6,7 @@ ms.prod: surface
 author: coveminer
 ms.author: chauncel
 ms.topic: how-to
-ms.date: 10/25/2022
+ms.date: 09/28/2023
 ms.reviewer: karand
 manager: frankbu
 appliesto:
@@ -49,7 +49,8 @@ Designed to be used with software-level mobile device management (MDM), DFCI ena
 - Surface Laptop 4 (commercial SKUs only)
 - Surface Laptop 3 (Intel processors only)
 - Surface Laptop Go
-- Surface Laptop Go 2
+- Surface Laptop Go 2 (commercial SKUs only)
+- Surface Laptop Go 3 (commercial SKUs only)
 - Surface Laptop SE
 - Surface Book 3
 - Surface Go 3 (commercial SKUs only)

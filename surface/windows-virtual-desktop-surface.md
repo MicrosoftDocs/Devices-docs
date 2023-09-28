@@ -4,7 +4,7 @@ description: This article explains how Surface devices deliver an ideal end node
 ms.prod: surface
 ms.localizationpriority: medium
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: how-to
 ms.date: 10/19/2021
 ms.reviewer: rohenr
@@ -40,7 +40,7 @@ The Microsoft Surface for Business family comprises a diverse portfolio of form 
 
 ### The modern virtual desktop endpoint
 
-Surface 2-in-1 devices, including [Surface Go 3](https://www.microsoft.com/surface/business/surface-go-3) (10.5"), [Surface Pro 8](https://www.microsoft.com/surface/business/surface-pro-8) (12") and [Surface Pro X](https://www.microsoft.com/surface-pro-x/) (13"), provide users with the ideal cloud desktop endpoint bringing together the optimal balance of portability, versatility, power, and an all-day battery. From site engineers relying on Surface Go 3 in tablet mode to financial advisers attaching Surface Pro 8 to a dock and multiple monitors, 2-in-1 devices deliver the versatility that has come to define the modern workplace.
+Surface 2-in-1 devices, including [Surface Go 4](https://www.microsoft.com/surface/business/surface-go-4) (10.5"), [Surface Pro 9](https://www.microsoft.com/surface/business/surface-pro-9) (12") and [Surface Pro 5G](https://www.microsoft.com/surface-pro-9/) (13"), provide users with the ideal cloud desktop endpoint bringing together the optimal balance of portability, versatility, power, and an all-day battery. From site engineers relying on Surface Go 4 in tablet mode to financial advisers attaching Surface Pro 9 to a dock and multiple monitors, 2-in-1 devices deliver the versatility that has come to define the modern workplace.
 
  Unlike traditional, fixed VDI terminals, Surface devices allow users to work from anywhere and enable companies to remain viable and operational during unforeseen events -- from severe weather to public health emergencies. With support for persistent, on-demand and just-in-time scenarios, Surface devices effectively help companies sustain ongoing operations and mitigate risk from disruptive events. Features designed to enhance productivity on Surface 2-in-1 devices include:
 
@@ -116,7 +116,7 @@ Security and management features delivered with Azure Virtual Desktop on Surface
 - **Windows Update.** Keeping Windows up to date helps you stay ahead of security threats. Windows 10 and Windows 11 have been engineered from the ground up to be more secure and utilize the latest hardware capabilities to improve security. With a purpose-built UEFI <a href="#5"><sup>5</sup></a> and Windows Update for Business that responds to evolving threats, end-to-end protection is secure and simplified.
 - **Hardware encryption.** Device encryption lets you protect the data on your Surface so only authorized individuals can  access it. All Surface for Business devices feature a discrete Trusted Platform Module (dTPM) that is hardware-protected against intrusion while software uses protected keys and measurements to verify software validity.
 - **Microsoft Defender** [Microsoft Defender for Endpoint](/microsoft-365/security/defender-endpoint/microsoft-defender-endpoint?) brings together machine learning, big-data analysis, in-depth threat resistance research, and the Microsoft cloud infrastructure to protect devices. The tool is built-in and needs no extra agents to be deployed on devices or in the VDI environment, simplifying management and optimizing device startup.
-- **Removable drives.** Most newer Surface devices feature removable SSD drives<a href="#6"><sup>6</sup></a>, providing greater control over data retention.
+- **Removable drives.** Most newer Surface devices feature removable SSD drives, providing greater control over data retention.
 - **Modern authentication.** Microsoft 365 and Surface is a unified platform delivering every Windows security feature (subject to licensing and enablement). All Surface portfolio devices ship with a custom-built camera, designed for Windows Hello for Business, providing biometric security that persists seamlessly from on-device to VDI-based experiences.
 - **Modern firmware management** -Using Device Firmware Configuration Interface (DFCI), IT administrators can remotely disable hardware elements at a firmware level such as mics, USB ports, SD card slots, cameras, and Bluetooth, which removes power to the peripheral. Windows Defender Credential Guard uses virtualization-based security so that only privileged system software can access them.
 - **Backward and forward compatibility.** Windows 10 and Windows 11 devices provide backward and forward compatibility across hardware, software and services. Microsoft has a strong history of maintaining legacy support of hardware, peripherals, software and services while incorporating the latest technologies. Businesses can plan IT investments to have a long useful life.
@@ -147,5 +147,4 @@ For more information, see the following resources:
 <a id="2">2.</a> Battery life varies significantly with settings, usage and other factors.<br>
 <a id="3">3.</a> Service availability and performance subject to service provider's network. Contact your service provider for details, compatibility, pricing, SIM card, and activation. See all specs and frequencies at surface.com.<br>
 <a id="4">4.</a> Forrester Consulting, "A Forrester Total Economic Impact™ Study: Maximizing Your ROI from Microsoft 365 Enterprise with Microsoft Surface," commissioned by Microsoft, 2018.<br> 
-<a id="5">5.</a> Surface Go and Surface Go 2 use a third-party UEFI and do not support DFCI. DFCI is currently available for Surface Studio 2+, Surface Pro 9 & Surface Pro 9 with 5G, Surface Laptop 5, Surface Laptop 4, Surface Laptop 3, Surface Laptop Studio, Surface Book 3, Surface Laptop SE, Surface Laptop Go 2, Surface Laptop Go, Surface Pro 8, Surface Pro 7+, Surface Pro 7, Surface Pro X, and Surface Go 3.<br>
-<a id="6">6.</a> Removable SSD is available on Surface Laptop Studio, Surface Pro 8, Surface Pro 7+, Surface Laptop 4, Surface Laptop 3, and Surface Pro X. 
+<a id="5">5.</a> Surface Go and Surface Go 2 use a third-party UEFI and do not support DFCI. 
