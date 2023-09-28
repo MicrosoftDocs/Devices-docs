@@ -41,12 +41,14 @@ The following devices are eligible for same unit repair:
 - Surface Pro 7
 - Surface Pro 7+ <sup>1</sup>
 - Surface Pro 8
-- Surface Laptop Go (all generations)
+- Surface Laptop Go 
+- Surface Laptop Go 2
+- Surface Laptop Go 3
 - Surface Go 2
 - Surface Go 3
 - Surface Go 4
 - Surface Pro X
-- Surface Laptop Studio (all generations) <sup>1</sup>
+- Surface Laptop Studio 2 <sup>1</sup>
 - Surface Laptop SE
 
 ## Availability
