@@ -59,4 +59,4 @@ Austria, Belgium, Bulgaria, Croatia, Cyprus, Denmark, Finland, France, Germany, 
 
 ## References
 
-1. Same unit repair of Surface Pro 7+ and Surface Laptop Studio(v1) is currently unavailable in United States or Mexico.
+1. Same unit repair of Surface Pro 7+ and the original Surface Laptop Studio (v1) is currently unavailable in United States or Mexico.
