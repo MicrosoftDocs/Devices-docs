@@ -4,7 +4,7 @@ description: This article describes how Authorized service providers (ASPs) work
 ms.prod: w11
 ms.localizationpriority: medium
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: overview
 ms.date: 06/21/2023
 ms.reviewer: 
@@ -57,4 +57,3 @@ The growing ASP network consists of more than 160 locations.
 - [Double Rise](https://www.doublerise.com/)
 - [GSS](https://www.gssltd.co.jp/surface/)
 - [JB Hi-Fi](https://www.jbhifi.business/)
-- [Unisys](https://www.unisys.com/)
