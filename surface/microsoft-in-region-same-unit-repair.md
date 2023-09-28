@@ -48,7 +48,7 @@ The following devices are eligible for same unit repair:
 - Surface Go 3
 - Surface Go 4
 - Surface Pro X
-- Surface Laptop Studio 2 <sup>1</sup>
+- Surface Laptop Studio 2<sup>1</sup>
 - Surface Laptop SE
 
 ## Availability
@@ -59,4 +59,4 @@ Austria, Belgium, Bulgaria, Croatia, Cyprus, Denmark, Finland, France, Germany, 
 
 ## References
 
-1. Same unit repair of Surface Pro 7+ and Surface Laptop Studio is currently unavailable in United States or Mexico.
+1. Same unit repair of Surface Pro 7+ and Surface Laptop Studio(v1) is currently unavailable in United States or Mexico.
