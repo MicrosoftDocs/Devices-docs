@@ -4,7 +4,7 @@ description: Surface devices that use a Surface Ethernet adapter to connect to a
 ms.prod: surface
 ms.localizationpriority: medium
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: how-to
 ms.reviewer: jesko
 manager: frankbu
