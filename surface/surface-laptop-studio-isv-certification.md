@@ -48,6 +48,10 @@ Microsoft Surface engineering works closely with Adobe to test and verify that S
 > [!NOTE]
 > ISV-tested apps for Surface Book 3 also run on Surface Laptop Studio. To learn more, see [ISV testing & app acceleration](surface-book-quadro.md#isv-testing--app-acceleration).
 
+## Learn more
+
+- [Surface Laptop Studio 2 ISV-tested/certified apps](surface-laptop-studio2-isv-certification.md)
+
 ## References
 
 1. AutoCAD was tested on versions 2021 and 2022. 
