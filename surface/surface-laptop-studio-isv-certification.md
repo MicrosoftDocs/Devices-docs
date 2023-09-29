@@ -4,10 +4,10 @@ description: This article lists professional applications that have been tested/
 ms.prod: surface
 ms.localizationpriority: medium
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: how-to
 ms.date: 04/29/2022
-ms.reviewer: brrecord
+ms.reviewer: chauncel
 manager: frankbu
 appliesto:
 - Windows 10
