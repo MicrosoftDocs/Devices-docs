@@ -4,7 +4,7 @@ description: This article describes devices eligible for in-region same unit rep
 ms.prod: w11
 ms.localizationpriority: medium
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: overview
 ms.date: 10/28/2022
 ms.reviewer: hachidan
@@ -41,12 +41,14 @@ The following devices are eligible for same unit repair:
 - Surface Pro 7
 - Surface Pro 7+ <sup>1</sup>
 - Surface Pro 8
-- Surface Laptop Go
+- Surface Laptop Go 
 - Surface Laptop Go 2
+- Surface Laptop Go 3
 - Surface Go 2
 - Surface Go 3
+- Surface Go 4
 - Surface Pro X
-- Surface Laptop Studio <sup>1</sup>
+- Surface Laptop Studio 2<sup>1</sup>
 - Surface Laptop SE
 
 ## Availability
@@ -57,4 +59,4 @@ Austria, Belgium, Bulgaria, Croatia, Cyprus, Denmark, Finland, France, Germany, 
 
 ## References
 
-1. Same unit repair of Surface Pro 7+ and Surface Laptop Studio is currently unavailable in United States or Mexico.
+1. Same unit repair of Surface Pro 7+ and the original Surface Laptop Studio (v1) is currently unavailable in United States or Mexico.

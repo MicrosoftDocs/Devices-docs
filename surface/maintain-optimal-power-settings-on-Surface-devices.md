@@ -1,9 +1,9 @@
 ---
 title: Best practice power settings for Surface devices
-description: This topic provides best practice recommendations for maintaining optimal power settings and explains how Surface streamlines the power management experience. This article applies to all currently supported Surface devices including Surface Laptop Go 2, Surface Pro 9, Surface Pro 8, Surface Laptop SE, Surface Laptop 5, Surface Laptop 4, and Surface Pro X. 
+description: This topic provides best practice recommendations for maintaining optimal power settings and explains how Surface streamlines the power management experience. This article applies to all currently supported Surface devices. 
 ms.prod: w11
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: how-to
 ms.reviewer: 
 manager: frankbu
