@@ -47,6 +47,5 @@ Microsoft Surface engineering works closely with Adobe to test and verify that S
 
 ## References
 
-1. AutoCAD was tested on versions 2024. 
+1. AutoCAD was tested on versions 2024.
 2. Some accessories and software sold separately.
-

@@ -32,7 +32,7 @@ Surface Laptop Studio with Nvidia RTX A2000 is tested and verified for leading I
 
 ## Adobe applications
 
-Microsoft Surface engineering works closely with Adobe to test and verify that Surface Laptop Studio is optimized for the following Adobe® Creative Cloud™ applications. 
+Microsoft Surface engineering works closely with Adobe to test and verify that Surface Laptop Studio is optimized for the following Adobe® Creative Cloud™ applications.
 
 | App                         | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | --------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -54,6 +54,6 @@ Microsoft Surface engineering works closely with Adobe to test and verify that S
 
 ## References
 
-1. AutoCAD was tested on versions 2021 and 2022. 
+1. AutoCAD was tested on versions 2021 and 2022.
 2. Some accessories and software sold separately.
 3. Tactile signals in Adobe Premiere Pro are available in Beta only. Visit [Adobe.com](https://www.adobe.com/products/premiere.html) for more details.

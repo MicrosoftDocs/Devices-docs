@@ -33,7 +33,7 @@ Modern Standby starts when the user causes the system to enter sleep, or the dev
 
 - **S4 - Hibernate:** The system saves its state to the hard drive (or other non-volatile storage) and powers down. When the system is woken up, it reads the saved state from the disk and restores the system to that state. This mode offers significant power savings since the system is effectively off. Waking from this state is slower than waking from S3 because it requires reading the saved state from storage.
 
-- **S5 - Soft off:** This is effectively the same as turning your device off, but it's done using software commands instead of physically shutting down power. When a system is in the S5 state, it needs a full boot sequence to return to a working state (S0). 
+- **S5 - Soft off:** This is effectively the same as turning your device off, but it's done using software commands instead of physically shutting down power. When a system is in the S5 state, it needs a full boot sequence to return to a working state (S0).
 
 To learn more about sleep states, see [System Power States](/windows/win32/power/system-power-states).
 

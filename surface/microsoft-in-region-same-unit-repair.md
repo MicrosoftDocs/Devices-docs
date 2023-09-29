@@ -29,9 +29,9 @@ To initiate service, open a request via a self-serve portal:
 - **Microsoft Hardware Support Portal:** Sign into the [Microsoft 365 Admin Center](https://admin.microsoft.com/AdminPortal) and go to **Show all** > **Support** > **Microsoft hardware support**. Select **New repair request**.
 
 Upon successful repair, Microsoft returns the device to your shipping
-address. Average turnaround time is 6-12 calendar days depending on your location and supply chain availability. 
+address. Average turnaround time is 6-12 calendar days depending on your location and supply chain availability.
 
-## Devices eligible for repair 
+## Devices eligible for repair
 
 The following devices are eligible for same unit repair:
 
