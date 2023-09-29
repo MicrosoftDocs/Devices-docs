@@ -4,10 +4,10 @@ description: This article lists professional applications that have been tested/
 ms.prod: surface
 ms.localizationpriority: medium
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: how-to
 ms.date: 04/29/2022
-ms.reviewer: brrecord
+ms.reviewer: chauncel
 manager: frankbu
 appliesto:
 - Windows 10
@@ -32,7 +32,7 @@ Surface Laptop Studio with Nvidia RTX A2000 is tested and verified for leading I
 
 ## Adobe applications
 
-Microsoft Surface engineering works closely with Adobe to test and verify that Surface Laptop Studio is optimized for the following Adobe® Creative Cloud™ applications. 
+Microsoft Surface engineering works closely with Adobe to test and verify that Surface Laptop Studio is optimized for the following Adobe® Creative Cloud™ applications.
 
 | App                         | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | --------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -48,8 +48,12 @@ Microsoft Surface engineering works closely with Adobe to test and verify that S
 > [!NOTE]
 > ISV-tested apps for Surface Book 3 also run on Surface Laptop Studio. To learn more, see [ISV testing & app acceleration](surface-book-quadro.md#isv-testing--app-acceleration).
 
+## Learn more
+
+- [Surface Laptop Studio 2 ISV-tested/certified apps](surface-laptop-studio2-isv-certification.md)
+
 ## References
 
-1. AutoCAD was tested on versions 2021 and 2022. 
+1. AutoCAD was tested on versions 2021 and 2022.
 2. Some accessories and software sold separately.
 3. Tactile signals in Adobe Premiere Pro are available in Beta only. Visit [Adobe.com](https://www.adobe.com/products/premiere.html) for more details.
