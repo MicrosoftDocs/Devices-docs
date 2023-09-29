@@ -36,7 +36,6 @@ Ethernet adapters with support for WOL:
 - Docking Station for Surface 3
 - Docking Station for Surface Pro 3
 
-
 Surface devices with support for WOL:
 
 - Surface 3
@@ -59,7 +58,6 @@ Surface devices with support for WOL:
 - Surface Laptop Studio (all generations)
 - Surface Studio 2 (see Surface Studio 2 instructions below)
 - Surface Studio 2+
-
 
 ## Using WOL
 
@@ -90,7 +88,6 @@ To enable WOL on Surface Studio 2, you must use the following procedure:
 
 > [!NOTE]
 > If you upgrade the version of Windows 10 on your Surface Studio 2 (for example, you upgrade from Windows 10 20H2 to 21H1), you will need to follow these instructions again to enable WOL.
-
 
 ### To wake from hibernation (S4) or shutdown (S5)
 

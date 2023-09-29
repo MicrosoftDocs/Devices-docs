@@ -4,11 +4,11 @@ description: Surface Dock 2 provides the best support for Wake on LAN (WOL) enab
 ms.prod: surface
 ms.localizationpriority: medium
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: how-to
-ms.reviewer: hachidan
+ms.reviewer: chauncel
 manager: frankbu
-ms.date: 11/30/2021
+ms.date: 09/29/2023
 appliesto:
 - Windows 10
 - Windows 11
@@ -27,7 +27,7 @@ Devices must have a wired connection with Surface Dock 2 and stay connected to A
 
 > [!NOTE]
 > Waking devices connected to Surface Dock 2 does not require using Surface Enterprise Management Mode (SEMM) or enabling any UEFI policy settings.
- 
+
 ## Supported Surface devices
 
 - Surface Laptop 5
@@ -41,10 +41,9 @@ Devices must have a wired connection with Surface Dock 2 and stay connected to A
 - Surface Pro 7
 - Surface Pro X
 - Surface Go (all generations)
-- Surface Laptop Go
-- Surface Laptop Go 2
+- Surface Laptop Go (all generations)
 - Surface Book 3
-- Surface Laptop Studio
+- Surface Laptop Studio (all generations)
 - Surface Studio 2+
 
 Surface Dock 2 provides WOL support for devices in the following power states:
@@ -68,4 +67,3 @@ To enable WOL on devices without Surface Dock 2, see:
 - [Surface Dock 2](https://www.microsoft.com/p/surface-dock-2-for-business/8q4hgc6kbmdq?)
 - [Wake On LAN for Surface devices](wake-on-lan-for-surface-devices.md)
 - [System Power States](/windows/win32/power/system-power-states)
-
