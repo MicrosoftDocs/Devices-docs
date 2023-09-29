@@ -54,10 +54,9 @@ Surface devices with support for WOL:
 - Surface Book (all generations)
 - Surface Go (all generations)
 - Surface Laptop (all generations)
-- Surface Laptop Go
-- Surface Laptop Go 2
+- Surface Laptop Go (all generations)
 - Surface Laptop SE
-- Surface Laptop Studio
+- Surface Laptop Studio (all generations)
 - Surface Studio 2 (see Surface Studio 2 instructions below)
 - Surface Studio 2+
 
@@ -95,7 +94,8 @@ To enable WOL on Surface Studio 2, you must use the following procedure:
 
 ### To wake from hibernation (S4) or shutdown (S5)
 
-For devices connected to Surface Dock 2, see [Wake on LAN for Surface Dock 2](wake-on-lan-surface-dock2.md)
+- For devices connected to Surface Dock 2, see [Wake on LAN with Surface Dock 2](wake-on-lan-surface-dock2.md)
+- For devices connected to Surface Thunderbolt 4 Dock, see [Wake On LAN with Surface Thunderbolt 4 Dock](wake-on-lan-surface-dock2.md)
 
 ## Learn more
 
