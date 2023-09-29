@@ -14,6 +14,7 @@ appliesto:
 - Windows 11
 ---
 
+
 # Manage Surface UEFI settings
 
  Surface PC devices are designed to utilize a unique Unified Extensible Firmware Interface (UEFI) engineered by Microsoft specifically for these devices. Surface UEFI settings provide the ability to enable or disable built-in devices and components, protect UEFI settings from being changed, and adjust the Surface device boot settings.
@@ -30,12 +31,11 @@ UEFI management is supported on the following:
 - Surface Go, Surface Go 2[<sup>1</sup>](#references), Surface Go 3 (commercial SKUs only), Surface Go 4 (commercial SKUs only)
 
 >[!TIP]
-> Commercial SKUs (aka Surface for Business) run Windows 10 Pro/Enterprise or Windows 11 Pro/Enterprise; consumer SKUs run Windows 10/Windows 11 Home. In UEFI, commercial SKUs are the only models to feature the [Devices page](#uefi-devices-page) and [Management page](#uefi-management-page). To learn more, see [View your system info](https://support.microsoft.com/windows/view-your-system-info-a965a8f2-0773-1d65-472a-1e747c9ebe00). 
-
+> Commercial SKUs (aka Surface for Business) run Windows 10 Pro/Enterprise or Windows 11 Pro/Enterprise; consumer SKUs run Windows 10/Windows 11 Home. In UEFI, commercial SKUs are the only models to feature the [Devices page](#uefi-devices-page) and [Management page](#uefi-management-page). To learn more, see [View your system info](https://support.microsoft.com/windows/view-your-system-info-a965a8f2-0773-1d65-472a-1e747c9ebe00).
 
 ## Support for cloud-based management
 
-With Device Firmware Configuration Interface (DFCI) profiles built into Microsoft Intune (now available in public preview), Surface UEFI management extends the modern management stack down to the UEFI hardware level. DFCI supports zero-touch provisioning, eliminates BIOS passwords, provides control of security settings -- including boot options and built-in peripherals -- and lays the groundwork for advanced security scenarios in the future. 
+With Device Firmware Configuration Interface (DFCI) profiles built into Microsoft Intune (now available in public preview), Surface UEFI management extends the modern management stack down to the UEFI hardware level. DFCI supports zero-touch provisioning, eliminates BIOS passwords, provides control of security settings -- including boot options and built-in peripherals -- and lays the groundwork for advanced security scenarios in the future.
 
 DFCI is currently available for Surface Studio 2+, Surface Pro 9, Surface Pro 9 with 5G, Surface Laptop 5, Surface Laptop 4, Surface Laptop 3, Surface Laptop Studio, Surface Book 3, Surface Laptop SE, Surface Laptop Go 2, Surface Laptop Go, Surface Pro 8, Surface Pro 7+, Surface Pro 7, Surface Pro X, and Surface Go 3. For more information, refer to [Manage DFCI on Surface devices](surface-manage-dfci-guide.md).
 
@@ -43,30 +43,29 @@ DFCI is currently available for Surface Studio 2+, Surface Pro 9, Surface Pro 9 
 
 To adjust UEFI settings during system startup:
 
-1. Shut down your Surface and wait about 10 seconds to make sure it's off.
-2. Press and hold the **Volume-up** button  and - at the same time - press and release the **Power button.**
+1. Shut down your Surface and wait about 10 seconds to ensure it's off.
+2. Press and hold the **Volume-up** button and - at the same time - press and release the **Power button.**
 3. As the Microsoft or Surface logo appears on your screen, continue to hold the **Volume-up** button until the UEFI screen appears.
 
 ## UEFI PC information page
 
 The PC information page includes detailed information about your Surface device:
 
-- **Model** – Your Surface device's model will be displayed here, such as Surface Book 2 or Surface Pro 7. The exact configuration of your device is not shown (such as processor, disk size, or memory size).
-- **UUID** – This Universally Unique Identification number is specific to your device and is used to identify the device during deployment or management.
+- **Model** – Your Surface device's model, such as Surface Laptop Studio 2 or Surface Pro 9, will be displayed here. The exact configuration of your device is not shown (such as processor, disk size, or memory size).
+- **System UUID** – This Universally Unique Identification number is specific to your device and is used to identify the device during deployment or management.
 
-- **Serial Number** – This number identifies this specific Surface device for asset tagging and support scenarios.
-- **Asset Tag** – The asset tag is assigned to the Surface device with the [Asset Tag Tool](assettag.md).
+- **Serial number** – This number identifies this specific Surface device for asset tagging and support scenarios.
+- **Asset tag** – The asset tag is assigned to the Surface device with the [Asset Tag Tool](assettag.md).
 
-You will also find detailed information about the firmware of your Surface device. Surface devices have several internal components that each run different versions of firmware. The firmware version of each of the following devices is displayed on the **PC information** page (as shown in Figure 1):
+You will also find detailed information about the firmware of your Surface device. Surface devices have several internal components that each run different versions of firmware. The firmware versions for these components are displayed on the **PC information** page. Components include the following and may vary depending on your device:
 
 - System UEFI
-
+- SMF Controller
 - SAM Controller
-
 - Intel Management Engine
-
-- System Embedded Controller
-
+- PD Controller
+- Keyboard Controller
+- Trackpad Controller
 - Touch Firmware
 
 :::image type="content" alt-text="System information and firmware version information." source="images/manage-surface-uefi-figure-1.png":::
@@ -103,7 +102,7 @@ On the Security page, you can also change the configuration of Secure Boot on yo
 
 *Figure 4. Configure Secure Boot*
 
-Depending on your device, you may also be able to see if your TPM is enabled or disabled. If you do not see the **Enable TPM**  setting, open tpm.msc in Windows to check the status, as shown in Figure 5. The TPM is used to authenticate encryption for your device's data with BitLocker. To learn more, see [BitLocker overview](/windows/security/information-protection/bitlocker/bitlocker-overview).
+Depending on your device, you may also see if your TPM is enabled or disabled. If you do not see the **Enable TPM**  setting, open tpm.msc in Windows to check the status, as shown in Figure 5. The TPM is used to authenticate your device's data encryption with BitLocker. To learn more, see [BitLocker overview](/windows/security/information-protection/bitlocker/bitlocker-overview).
 
 ![TPM console.](images/manage-surface-uefi-fig5-a.png "TPM console")
 
@@ -111,7 +110,7 @@ Depending on your device, you may also be able to see if your TPM is enabled or 
 
 ## UEFI Devices page
 
-The Devices page allows you to  enable or disable specific components on eligible devices. Components consist of the following:
+The Devices page allows you to turn specific components on eligible devices on or off. Components consist of the following:
 
 - Docking USB port
 
@@ -127,7 +126,7 @@ The Devices page allows you to  enable or disable specific components on eligibl
 
 - Onboard Audio (Speakers and Microphone)
 
-Each device is listed with a slider button that you can move to **On** (enabled) or **Off** (disabled) position, as shown in Figure 6.
+Each device has a slider button to move to **On** (enabled) or **Off** (disabled) position, as shown in Figure 6.
 
 :::image type="content" alt-text="Enable and disable specific devices." source="images/manage-surface-uefi-fig5a.png":::
 
@@ -145,11 +144,11 @@ The Boot Configuration page allows you to change the order of your boot devices 
 
 - Internal Storage
 
-You can boot from a specific device immediately, or swipe left on that device's entry in the list using the touchscreen. You can also boot immediately to a USB device or USB Ethernet adapter when the Surface device is powered off by pressing the **Volume Down** button and the **Power** button simultaneously.
+You can boot from a specific device immediately or swipe left on that device's entry in the list using the touchscreen. You can also boot immediately to a USB device or USB Ethernet adapter when the Surface device is powered off by pressing the **Volume Down** button and the **Power** button simultaneously.
 
 For the specified boot order to take effect, you must set the **Enable Alternate Boot Sequence** option to **On**, as shown in Figure 7.
 
-:::image type="content" alt-text="Configure the boot order for your Surface device." source="images/manage-surface-uefi-fig6.png":::
+:::image type= "content" alt-text= "Configure the boot order for your Surface device." source=" images/manage-surface-uefi-fig6.png" :::
 
 *Figure 7. Configure the boot order for your Surface device*
 
@@ -157,9 +156,9 @@ You can also turn on and off IPv6 support for PXE with the **Enable IPv6 for PXE
 
 ## UEFI Management page
 
-The Management page allows you to manage the use of Zero Touch UEFI Management and other features on eligible devices. 
+The Management page allows you to manage the use of Zero Touch UEFI Management and other features on eligible devices.
 
-:::image type="content" alt-text="Manage access to Zero Touch UEFI Management and other features." source="images/manage-surface-uefi-fig7a.png":::
+:::image type= "content" alt-text= "Manage access to Zero Touch UEFI Management and other features." source=" images/manage-surface-uefi-fig7a.png" :::
 
 *Figure 8. Manage access to Zero Touch UEFI Management and other features*
 
@@ -175,7 +174,7 @@ Use the **Restart Now** button on the **Exit** page to exit UEFI settings, as sh
 
 ## Surface UEFI boot screens
 
-When you update Surface device firmware using either Windows Update or manual installation, the updates are not applied immediately to the device but during the next reboot cycle. You can learn more about the Surface firmware update process in [Manage and deploy Surface driver and firmware updates](manage-surface-driver-and-firmware-updates.md). The firmware update progress is displayed on a screen with progress bars of different colors to indicate the firmware for each component. Each component’s progress bar is shown in Figures 9 through 18.
+When you update the Surface device firmware using either Windows Update or manual installation, the updates are not applied immediately to the device but during the next reboot cycle. You can learn more about the Surface firmware update process in [Manage and deploy Surface driver and firmware updates](manage-surface-driver-and-firmware-updates.md). The firmware update progress is displayed on a screen with progress bars of different colors to indicate the firmware for each component. Each component's progress bar is shown in Figures 9 through 18.
 
 ![Surface UEFI firmware update with blue progress bar.](images/manage-surface-uefi-fig8.png "Surface UEFI firmware update with blue progress bar")
 
@@ -231,5 +230,4 @@ When you update Surface device firmware using either Windows Update or manual in
 ## Related topics
 
 - [Intune management of Surface UEFI settings](surface-manage-dfci-guide.md)
-
 - [Surface Enterprise Management Mode](surface-enterprise-management-mode.md)
