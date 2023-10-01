@@ -5,6 +5,15 @@
 
 
 
+## Week of September 25, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 9/25/2023 | [Surface Hub 2S Adoption and training guides](/surface-hub/surface-hub-2s-adoption-kit) | modified |
+| 9/26/2023 | [Surface Hub update history](/surface-hub/surface-hub-update-history) | modified |
+
+
 ## Week of September 18, 2023
 
 
@@ -15,6 +24,43 @@
 | 9/21/2023 | [Surface Hub 3 Pack tech specs](/surface-hub/surface-hub-3-pack-techspecs) | added |
 | 9/21/2023 | [Surface Hub 3 tech specs](/surface-hub/surface-hub-3-techspecs) | added |
 | 9/21/2023 | [What's new for Surface Hub 3](/surface-hub/surface-hub-3-whats-new) | added |
+
+
+## Week of September 25, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 9/25/2023 | [Surface driver and firmware lifecycle for Windows-based devices](/surface/surface-driver-firmware-lifecycle-support) | modified |
+| 9/26/2023 | [Surface Book 3 Quadro RTX 3000 tech overview](/surface/surface-book-quadro) | modified |
+| 9/26/2023 | Surface Laptop 5 for Business overview | removed |
+| 9/26/2023 | Surface Laptop Go 2 overview | removed |
+| 9/26/2023 | Surface Laptop 4 processors technical overview | removed |
+| 9/26/2023 | Surface Laptop SE overview | removed |
+| 9/26/2023 | [OS choice for new Surface devices](/surface/surface-os-choice) | modified |
+| 9/26/2023 | Surface Pro 9 for Business overview | removed |
+| 9/26/2023 | Surface Studio 2+ for Business overview | removed |
+| 9/27/2023 | [OS choice for new Surface devices](/surface/surface-os-choice) | modified |
+| 9/28/2023 | [Microsoft Surface for IT professionals # < 60 chars](/surface/index) | modified |
+| 9/28/2023 | [Surface System SKU reference](/surface/surface-system-sku-reference) | modified |
+| 9/29/2023 | [Microsoft in-region same unit repair](/surface/microsoft-in-region-same-unit-repair) | modified |
+| 9/29/2023 | [Ethernet adapters and Surface deployment (Surface)](/surface/ethernet-adapters-and-surface-device-deployment) | modified |
+| 9/29/2023 | [Manage Surface UEFI settings](/surface/manage-surface-uefi-settings) | modified |
+| 9/29/2023 | [Surface Laptop Studio ISV-tested/certified apps](/surface/surface-laptop-studio-isv-certification) | modified |
+| 9/29/2023 | [Surface Laptop Studio 2 ISV-tested/certified apps](/surface/surface-laptop-studio2-isv-certification) | modified |
+| 9/29/2023 | [Wake On LAN for Surface devices](/surface/wake-on-lan-for-surface-devices) | modified |
+| 9/29/2023 | [Wake On LAN with Surface Dock 2](/surface/wake-on-lan-surface-dock2) | modified |
+| 9/29/2023 | [Wake On LAN with Surface Thunderbolt 4 Dock](/surface/wake-on-lan-surface-thunderbolt4-dock) | modified |
+| 9/29/2023 | [Wake on Power for Surface devices](/surface/wake-on-power-for-surface) | modified |
+
+
+## Week of September 25, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 9/25/2023 | [Surface Hub 2S Adoption and training guides](/surface-hub/surface-hub-2s-adoption-kit) | modified |
+| 9/26/2023 | [Surface Hub update history](/surface-hub/surface-hub-update-history) | modified |
 
 
 ## Week of September 18, 2023
