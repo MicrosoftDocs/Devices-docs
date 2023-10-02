@@ -2,6 +2,15 @@
 
 
 
+## Week of September 25, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 9/25/2023 | [Surface Hub 2S Adoption and training guides](/surface-hub/surface-hub-2s-adoption-kit) | modified |
+| 9/26/2023 | [Surface Hub update history](/surface-hub/surface-hub-update-history) | modified |
+
+
 ## Week of September 18, 2023
 
 
