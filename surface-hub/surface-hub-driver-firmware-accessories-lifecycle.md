@@ -34,9 +34,9 @@ The device support period defines the period during which Surface will support d
 
 ### OS version support
 
-OS version support defines the operating system versions Surface supports during the Device Support Period. To see your Surface Hub device's minimum supported OS version, visit the [Surface supported operating systems support page](https://support.microsoft.com/en-us/help/2858199/surface-supported-operating-systems). Surface Hub devices will receive driver and firmware updates for the most recent release of Windows 10, Windows 11, Windows 11 IoT Enterprise and Windows 10 Team (Surface Hub).
+OS version support defines the operating system versions Surface supports during the Device Support Period. To see your Surface Hub device's minimum supported OS version, visit the [Surface supported operating systems support page](https://support.microsoft.com/help/2858199/surface-supported-operating-systems). Surface Hub devices will receive driver and firmware updates for the most recent release of Windows 10, Windows 11, Windows 11 IoT Enterprise and Windows 10 Team (Surface Hub).
  
-Once the Hub device support period is concluded at the End of the Driver and Firmware Servicing Date, Hub devices will continue to receive Windows OS feature and security updates per the Windows Lifecycle Policy as described on the [Microsoft Lifecycle Policy support page](https://support.microsoft.com/en-us/hub/4095338/microsoft-lifecycle-policy).
+Once the Surface Hub device support period is concluded at the End of the Driver and Firmware Servicing Date, Hub devices will continue to receive Windows OS feature and security updates per the Windows Lifecycle Policy as described on the [Microsoft Lifecycle Policy support page](https://support.microsoft.com/hub/4095338/microsoft-lifecycle-policy).
  
 ## Surface Hub device and accessory driver and firmware support lifecycle
 
@@ -64,3 +64,8 @@ Surface Hub device |Release Date | End of servicing date for firmware & drivers
 ---|---  |---|
 Surface Hub 55 | June 1, 2015 | November 30, 2022  |
 Surface Hub 84 | June 1, 2015 | November 30, 2022  |
+
+## Learn more
+
+- [Surface driver and firmware lifecycle for Windows-based devices](surface/surface-driver-firmware-lifecycle-support.md)
+- [Surface Warranty and Support Plans](https://www.microsoft.com/surface/business/warranty-service-offerings-and-support)

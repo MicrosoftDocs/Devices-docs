@@ -18,6 +18,8 @@ appliesto:
 
  Surface Hub 3, available in both 50-inch and 85-inch models, comes equipped with the Microsoft Teams Rooms on Windows experience, enabling hybrid teams to collaborate in a more inclusive manner for meetings and co-creation.
 
+ 
+
 There are several ways to get the new Surface Hub experience:
 
 - Purchase a new Surface Hub 3 from a [Surface device reseller](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface#DEVICESRESELLERS) (available later this year).
