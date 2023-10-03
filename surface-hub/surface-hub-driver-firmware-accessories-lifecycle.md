@@ -43,29 +43,31 @@ Once the Surface Hub device support period is concluded at the End of the Driver
 The following table lists the release date and End of Servicing date for each Surface Hub device and accessory with a defined Driver and Firmware Lifecycle policy. Surface Hub devices will be supported for as long as each device's current compute cartridge support period.
 
 
-Surface Hub device |Release Date | End of servicing date for firmware & drivers | 
----|---  |-----|
-Surface Hub 2S | April 17, 2019 | January 11, 2027  |
-Surface Hub 3 | December 5, 2023 | December 5, 2029  |
+Surface Hub device | Release Date      | End of servicing date for firmware & drivers |
+-------------------|-------------------|----------------------------------------------|
+Surface Hub 2S     | April 17, 2019    | January 11, 2027                             |
+Surface Hub 3      | December 5, 2023  | December 5, 2029                             |
 
-  
-Surface Hub accessory| Release Date | End of servicing date for firmware & drivers  |
----|---  |----|
-Surface Hub Camera | July 1, 2019 | January 11, 2027  
-Surface Hub 2 Smart Camera | March 15, 2022 | March 15, 2028  
-Surface Hub 2 Pen | July 1, 2019 | January 11, 2027  
-Surface Hub 2 Fingerprint Reader | September 16, 2020 | January 11, 2027  
+Surface Hub accessory                 | Release Date       | End of servicing date for firmware & drivers |
+-------------------------------------|--------------------|----------------------------------------------|
+Surface Hub Camera                   | July 1, 2019       | January 11, 2027                             |
+Surface Hub 2 Smart Camera           | March 15, 2022     | March 15, 2028                               |
+Surface Hub 2 Pen                    | July 1, 2019       | January 11, 2027                             |
+Surface Hub 2 Fingerprint Reader     | September 16, 2020 | January 11, 2027                             |
 
 ### Legacy products  
 
 The following table lists products that have passed their end-of-support date based on the Driver and Firmware Lifecycle policy.
 
-Surface Hub device |Release Date | End of servicing date for firmware & drivers  
----|---  |---|
-Surface Hub 55 | June 1, 2015 | November 30, 2022  |
-Surface Hub 84 | June 1, 2015 | November 30, 2022  |
+Surface Hub device | Release Date  | End of servicing date for firmware & drivers |
+-------------------|---------------|----------------------------------------------|
+Surface Hub 55     | June 1, 2015  | November 30, 2022                            |
+Surface Hub 84     | June 1, 2015  | November 30, 2022                            |
+
 
 ## Learn more
 
-- [Surface driver and firmware lifecycle for Windows-based devices](/surface/surface-driver-firmware-lifecycle-support.md)
+- [Surface driver and firmware lifecycle for Windows-based devices](/surface/surface-driver-firmware-lifecycle-support)
+- [Manage and deploy Surface driver and firmware updates](/surface/manage-surface-driver-and-firmware-updates)
+- [Surface device compatibility with Windows 10 Long-Term Servicing Channel (LTSC)](/surface/surface-device-compatibility-with-windows-10-ltsc)
 - [Surface Warranty and Support Plans](https://www.microsoft.com/surface/business/warranty-service-offerings-and-support)
