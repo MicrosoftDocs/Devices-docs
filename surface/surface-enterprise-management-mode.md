@@ -295,6 +295,12 @@ The PowerShell samples that create a config package for a specific device type c
 
 ## Version history
 
+### Version 2.102.139.0 
+
+This version of SEMM includes:
+
+- Support for Surface Laptop Studio 2, Surface Laptop Go 3, and Surface Go 4
+
 ### Version 2.100.139.0 
 
 This version of SEMM includes:
@@ -306,7 +312,6 @@ This version of SEMM includes:
 This version of SEMM includes:
 
 - Support for Surface Laptop Go 2
-
 
 ### Version 2.94.139.0
 
