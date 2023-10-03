@@ -67,5 +67,5 @@ Surface Hub 84 | June 1, 2015 | November 30, 2022  |
 
 ## Learn more
 
-- [Surface driver and firmware lifecycle for Windows-based devices](surface/surface-driver-firmware-lifecycle-support.md)
+- [Surface driver and firmware lifecycle for Windows-based devices](/surface/surface-driver-firmware-lifecycle-support.md)
 - [Surface Warranty and Support Plans](https://www.microsoft.com/surface/business/warranty-service-offerings-and-support)
