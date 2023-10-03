@@ -34,7 +34,7 @@ Surface UEFI Configurator works as an interface into Surface Enterprise Manageme
 ## Solution components
 
 > [!NOTE]
-> This section applies to Surface Hub 2S. Streamlined instructions will be provided for Surface Hub 3 pending public release inlater this year.
+> This section applies to Surface Hub 2S. Streamlined instructions will be provided for Surface Hub 3 pending public release later this year.
 
 - Surface Hub 2S device running Windows 10 Team or Surface Hub 3 running Microsoft Teams Rooms on Windows experience
 - Separate device running Windows 10/11

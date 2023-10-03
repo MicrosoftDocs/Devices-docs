@@ -31,6 +31,8 @@ landingContent:
         links:
           - text: What's new for Surface Hub 3   
             url: surface-hub-3-whats-new.md
+          - text: Introducing Surface Hub 3
+            url: https://www.youtube.com/watch?v=VHxasUd908k&t=1s  
           - text: New Teams Rooms licensing requirements
             url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/new-microsoft-teams-rooms-licensing-requirements-for-surface-hub/ba-p/1669712
           - text: Change display language on Surface Hub
@@ -120,6 +122,8 @@ landingContent:
     linkLists:
       - linkListType: video  
         links:
+          - text: Introducing Surface Hub 3
+            url: https://www.youtube.com/watch?v=VHxasUd908k&t=1s 
           - text: Microsoft Mechanics Surface Hub playlist
             url: https://www.youtube.com/watch?v=mE3UfFmePiI&list=PLXtHYVsvn_b8Vkr9tmPvlWMJX-Rd5rTw8
           - text: The new Surface Hub 2 Smart Camera
