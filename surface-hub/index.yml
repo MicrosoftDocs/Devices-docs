@@ -32,7 +32,9 @@ landingContent:
           - text: What's new for Surface Hub 3   
             url: surface-hub-3-whats-new.md
           - text: Introducing Surface Hub 3
-            url: https://www.youtube.com/watch?v=VHxasUd908k&t=1s  
+            url: https://www.youtube.com/watch?v=VHxasUd908k&t=1s 
+          - text: Driver and firmware lifecycle for Surface Hub devices and accessories
+            url: surface-hub-driver-firmware-accessories-lifecycle.md   
           - text: New Teams Rooms licensing requirements
             url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/new-microsoft-teams-rooms-licensing-requirements-for-surface-hub/ba-p/1669712
           - text: Change display language on Surface Hub
