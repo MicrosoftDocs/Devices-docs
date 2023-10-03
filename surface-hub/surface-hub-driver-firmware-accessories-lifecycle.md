@@ -68,5 +68,6 @@ Surface Hub 84     | June 1, 2015  | November 30, 2022                          
 ## Learn more
 
 - [Surface driver and firmware lifecycle for Windows-based devices](/surface/surface-driver-firmware-lifecycle-support)
+- [Manage and deploy Surface driver and firmware updates](/surface/manage-surface-driver-and-firmware-updates)
 - [Surface device compatibility with Windows 10 Long-Term Servicing Channel (LTSC)](/surface/surface-device-compatibility-with-windows-10-ltsc)
 - [Surface Warranty and Support Plans](https://www.microsoft.com/surface/business/warranty-service-offerings-and-support)
