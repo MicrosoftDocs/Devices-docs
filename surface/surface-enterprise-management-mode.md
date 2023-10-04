@@ -8,7 +8,7 @@ ms.topic: how-to
 ms.reviewer: chauncel
 manager: frankbu
 ms.localizationpriority: medium
-ms.date: 09/21/2023
+ms.date: 10/04/2023
 appliesto:
 - Windows 10
 - Windows 11
