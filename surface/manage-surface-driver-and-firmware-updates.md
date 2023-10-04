@@ -6,9 +6,9 @@ manager: frankbu
 ms.localizationpriority: medium
 ms.prod: surface
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: how-to
-ms.date: 11/03/2022
+ms.date: 10/03/2023
 appliesto:
 - Windows 10
 - Windows 11

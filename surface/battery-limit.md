@@ -7,7 +7,7 @@ ms.author: chauncel
 ms.topic: how-to
 ms.localizationpriority: medium
 manager: frankbu
-ms.date: 01/13/2023
+ms.date: 09/21/2023
 ---
 
 # Surface Battery Limit setting

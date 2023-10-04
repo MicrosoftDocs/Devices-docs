@@ -6,7 +6,7 @@ ms.localizationpriority: medium
 author: coveminer
 ms.author: chauncel
 ms.topic: how-to
-ms.date: 10/14/2022
+ms.date: 09/21/2023
 manager: frankbu
 appliesto:
 - Surface Laptop Studio (all generations)
@@ -31,14 +31,13 @@ ms.custom:
 > [!NOTE]
 > This article is intended for use by qualified IT technicians in an enterprise organization. It describes the recommended best practices for use by skilled IT technicians in the removal and replacement of SSDs in the following compatible Surface devices:
 
-- Surface Laptop Studio
+- Surface Laptop Studio (all generations)
 - Surface Pro 9
 - Surface Pro 9 with 5G
 - Surface Pro 8
 - Surface Pro 7+
 - Surface Pro X
-- Surface Laptop Go
-- Surface Laptop Go 2
+- Surface Laptop Go (all generations)
 - Surface Laptop 3
 - Surface Laptop 4
 - Surface Laptop 5
