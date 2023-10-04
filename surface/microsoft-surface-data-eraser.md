@@ -131,16 +131,23 @@ After you create a Microsoft Surface Data Eraser USB stick, you can boot a suppo
 
 Microsoft Surface Data Eraser is periodically updated by Microsoft. For information about the changes provided in each new version, see the following notes:
 
+### 3.54.139.0
+
+*Release Date: October 4, 2023*
+
+This version of Surface Data Eraser includes:
+
+- Support for Surface Laptop Studio 2, Surface Laptop Go 3, and Surface Go 4.
+
 ### 3.48.139.0
 
-*Release Date: 21 November 2022*
+*Release Date: November 21, 2022*
 
 This version of Surface Data Eraser includes bug fixes.
 
-
 ### 3.46.139.0.
 
-*Release Date: 28 October 2022*
+*Release Date: October 28, 2022*
 
 This version of Surface Data Eraser includes:
 
@@ -148,7 +155,7 @@ This version of Surface Data Eraser includes:
 
 ### 3.45.139.0
 
-*Release Date: 7 June 2022*
+*Release Date: June 7, 2022*
 
 This version of Surface Data Eraser includes:
 
@@ -156,7 +163,7 @@ This version of Surface Data Eraser includes:
 
 ### 3.42.139.0
 
-*Release Date: 5 October 2021*
+*Release Date: October 5, 2021*
 
 This version of Surface Data Eraser includes:
 
@@ -164,7 +171,7 @@ This version of Surface Data Eraser includes:
 
 ### 3.39.139.0
 
-*Release Date: 13 April 2021*
+*Release Date: April 13, 2021*
 
 This version of Surface Data Eraser includes:
 
@@ -172,7 +179,7 @@ This version of Surface Data Eraser includes:
 
 ### 2.34.139.0
 
-*Release Date: 15 January 2021*
+*Release Date: January 15, 2021*
 
 This version of Surface Data Eraser:
 
@@ -180,7 +187,7 @@ This version of Surface Data Eraser:
 
 ### 3.33.139
 
-*Release Date: 9 September 2020*
+*Release Date: September 9, 2020*
 
 This version of Surface Data Eraser includes bug fixes and adds support for:
 
@@ -191,7 +198,7 @@ This version of Surface Data Eraser includes bug fixes and adds support for:
 
 ### 3.30.139
 
-*Release Date: 11 May 2020*
+*Release Date: May 11, 2020*
 
 This version of Surface Data Eraser adds support for:
 
@@ -201,7 +208,7 @@ This version of Surface Data Eraser adds support for:
 
 ### 3.28.137
 
-*Release Date: 11 November 2019*
+*Release Date: November 11, 2019*
 
 This version of Surface Data Eraser:
 
@@ -209,7 +216,7 @@ This version of Surface Data Eraser:
 
 ### Version 3.21.137
 
-*Release Date: 21 October 2019*
+*Release Date: October 21, 2019*
 
 This version of Surface Data Eraser is compiled for x86 and adds support for the following devices:
 
@@ -217,13 +224,13 @@ This version of Surface Data Eraser is compiled for x86 and adds support for the
 
 ### Version 3.2.78.0
 
-*Release Date: 4 December 2018*
+*Release Date: December 4, 2018*
 
 This version of Surface Data Eraser includes bug fixes
 
 ### Version 3.2.75.0
 
-*Release Date: 12 November 2018*
+*Release Date: November 12, 2018*
 
 This version of Surface Data Eraser:
 
@@ -232,7 +239,7 @@ This version of Surface Data Eraser:
 
 ### Version 3.2.69.0
 
-*Release Date: 12 October 2018*
+*Release Date: October 12, 2018*
 
 This version of Surface Data Eraser adds support for the following devices:
 

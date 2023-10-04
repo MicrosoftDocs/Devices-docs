@@ -8,7 +8,7 @@ ms.topic: how-to
 ms.reviewer: chauncel
 manager: frankbu
 ms.localizationpriority: medium
-ms.date: 09/21/2023
+ms.date: 10/04/2023
 appliesto:
 - Windows 10
 - Windows 11
@@ -27,25 +27,34 @@ SEMM also uses a certificate to protect the configuration from unauthorized tamp
 
 SEMM is only available on devices with Surface UEFI firmware including: 
 
+- Surface Book (all generations)
+- Surface Go 4 (commercial SKUs only)
+- Surface Go 3 (commercial SKUs only)
+- Surface Go 2 (all SKUs)
+- Surface Go (all SKUs)
+- Surface Hub 2S 
+- Surface Laptop 5 (commercial SKUs only)
+- Surface Laptop 4 (commercial SKUs only)
+- Surface Laptop 3 (Intel processors only)
+- Surface Laptop 2 (all SKUs)
+- Surface Laptop (all SKUs)
+- Surface Laptop Go 3 (commercial SKUs only)
+- Surface Laptop Go 2 (commercial SKUs only)
+- Surface Laptop Go (all SKUs)
+- Surface Laptop SE (all SKUs)
+- Surface Laptop Studio 2 (commercial SKUs only) 
+- Surface Laptop Studio (commercial SKUs only) 
 - Surface Pro 9 (commercial SKUs only)
 - Surface Pro 9 with 5G (commercial SKUs only)
 - Surface Pro 8 (commercial SKUs only)
 - Surface Pro 7+ (commercial SKUs only)
-- Surface Pro 4 and later (all SKUs)
+- Surface Pro 7 (all SKUs)
+- Surface Pro 6 (all SKUs)
+- Surface Pro 5th Gen (all SKUs)
+- Surface Pro 4 (all SKUs)
 - Surface Pro X (all SKUs)
-- Surface Laptop SE (all SKUs)
-- Surface Laptop Studio (all generations, commercial SKUs only) 
-- Surface Hub 2S
-- Surface Laptop 5 (commercial SKUs only)
-- Surface Laptop 4 (commercial SKUs only)
-- Surface Laptop 3 (Intel processors only)
-- Surface Laptop Go 
-- Surface Laptop Go 2 (commercial SKUs only)
-- Surface Laptop Go 3 (commercial SKUs only)
-- Surface Book (all generations)
-- Surface Go, Surface Go 2
-- Surface Go 3 (commercial SKUs only)
-- Surface Go 4 (commercial SKUs only)
+- Surface Studio 2+ (commercial SKUs only)
+- Surface Studio 2 (all SKUs)
 - Surface Studio (all SKUs)
 
 >[!TIP]
@@ -294,6 +303,12 @@ valid and not expired.
 The PowerShell samples that create a config package for a specific device type can also be used to create a reset package that's serial-number independent. If the certificate is still valid, you can create a reset package using PowerShell to reset SEMM.
 
 ## Version history
+
+### Version 2.105.139.0 
+
+This version of SEMM includes:
+
+- Support for Surface Laptop Studio 2, Surface Laptop Go 3, and Surface Go 4
 
 ### Version 2.100.139.0 
 
