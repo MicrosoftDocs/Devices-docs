@@ -32,7 +32,7 @@ The following Ethernet devices are supported for network boot with Surface devic
 
 - Surface Dock 2
 - Surface Dock
-- Surface USB-C® to Ethernet and USB 3.0 Adapter
+- Surface USB-C to Ethernet and USB 3.0 Adapter
 - Surface USB 3.0 to Gigabit Ethernet Adapter
 - Microsoft USB-C Travel Hub
 - Docking Station for Surface 3
