@@ -3,7 +3,7 @@ title: Surface device compatibility with Windows 10 Long-Term Servicing Channel 
 description: Find out about compatibility and limitations of Surface devices running Windows 10 Enterprise LTSB edition.
 ms.prod: surface
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: conceptual
 ms.localizationpriority: medium
 ms.date: 07/21/2021
@@ -60,4 +60,4 @@ Before you choose to use Windows 10 Enterprise LTSC edition on Surface devices, 
 
 Surface devices running Windows 10 Enterprise LTSC edition will not receive new features. In many cases, customers request these features to improve the usability and capabilities of Surface hardware. For example, further improvements for High DPI applications in Windows 10, version 1703. Customers that use Surface devices in the LTSC configuration will not see the improvements until they either update to a new Windows 10 Enterprise LTSC release or upgrade to a version of Windows 10 or Windows 11 with support for the SAC servicing option.
 
-Devices can be changed from Windows 10 Enterprise LTSC to a more recent version of Windows 10 Enterprise, with support for the SAC servicing option, without losing user data by performing an upgrade installation. You can also perform an upgrade installation on multiple devices by leveraging the Upgrade Task Sequence Templates available in the Microsoft Deployment Toolkit (MDT) and Microsoft Endpoint Configuration Manager. For more information, see [Upgrade Surface devices to Windows 10 with Microsoft Deployment Toolkit](upgrade-surface-devices-to-windows-10-with-mdt.md).
+Devices can be changed from Windows 10 Enterprise LTSC to a more recent version of Windows 10 Enterprise, with support for the SAC servicing option, without losing user data by performing an upgrade installation. You can also perform an upgrade installation on multiple devices by leveraging the Upgrade Task Sequence Templates available in the Microsoft Deployment Toolkit (MDT) and Microsoft Endpoint Configuration Manager. For more information, see [Perform an in-place upgrade to Windows 10 with MDT](/windows/deployment/deploy-windows-mdt/upgrade-to-windows-10-with-the-microsoft-deployment-toolkit).

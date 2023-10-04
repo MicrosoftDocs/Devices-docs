@@ -11,7 +11,7 @@ ms.localizationpriority: medium
 appliesto:
 - Windows 10
 - Windows 11
-ms.date: 05/08/2023
+ms.date: 09/21/2023
 ---
 
 # Surface Brightness Control

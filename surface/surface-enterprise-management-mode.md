@@ -8,7 +8,7 @@ ms.topic: how-to
 ms.reviewer: chauncel
 manager: frankbu
 ms.localizationpriority: medium
-ms.date: 11/03/2022
+ms.date: 09/21/2023
 appliesto:
 - Windows 10
 - Windows 11
@@ -306,7 +306,6 @@ This version of SEMM includes:
 This version of SEMM includes:
 
 - Support for Surface Laptop Go 2
-
 
 ### Version 2.94.139.0
 

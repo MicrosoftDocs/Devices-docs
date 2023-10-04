@@ -4,10 +4,10 @@ description: This article provides an overview and FAQ about NFC support in Surf
 ms.prod: surface
 ms.localizationpriority: medium
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: overview
-ms.date: 06/07/2022
-ms.reviewer: oayakta
+ms.date: 09/21/2023
+ms.reviewer: chauncel
 manager: frankbu
 appliesto:
 - Windows 10
@@ -30,7 +30,7 @@ Surface Go for Business devices are equipped with support for near field communi
 
 **Is NFC available on all Surface Go devices?**
 
-- NFC is only available on commercial versions of Surface Go: Surface Go for Business, Surface Go 2 for Business, and Surface Go 3 for Business devices.
+- NFC is only available on commercial versions of Surface Go: Surface Go for Business, Surface Go 2 for Business, Surface Go 3 for Business devices, and Surface Go 4 for Business.
 
 **Does NFC support digital wallet or point of sale payments?**
 
