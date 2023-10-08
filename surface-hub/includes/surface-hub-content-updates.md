@@ -2,6 +2,16 @@
 
 
 
+## Week of October 02, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 10/3/2023 | [Driver and firmware lifecycle for Surface Hub devices and accessories](/surface-hub/surface-hub-driver-firmware-accessories-lifecycle) | added |
+| 10/3/2023 | [What's new for Surface Hub 3](/surface-hub/surface-hub-3-whats-new) | modified |
+| 10/3/2023 | [Driver and firmware lifecycle for Surface Hub devices and accessories](/surface-hub/surface-hub-driver-firmware-accessories-lifecycle) | modified |
+
+
 ## Week of September 25, 2023
 
 
