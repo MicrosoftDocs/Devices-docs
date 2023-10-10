@@ -5,6 +5,16 @@
 
 
 
+## Week of October 02, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 10/3/2023 | [Driver and firmware lifecycle for Surface Hub devices and accessories](/surface-hub/surface-hub-driver-firmware-accessories-lifecycle) | added |
+| 10/3/2023 | [What's new for Surface Hub 3](/surface-hub/surface-hub-3-whats-new) | modified |
+| 10/3/2023 | [Driver and firmware lifecycle for Surface Hub devices and accessories](/surface-hub/surface-hub-driver-firmware-accessories-lifecycle) | modified |
+
+
 ## Week of September 25, 2023
 
 
@@ -24,6 +34,28 @@
 | 9/21/2023 | [Surface Hub 3 Pack tech specs](/surface-hub/surface-hub-3-pack-techspecs) | added |
 | 9/21/2023 | [Surface Hub 3 tech specs](/surface-hub/surface-hub-3-techspecs) | added |
 | 9/21/2023 | [What's new for Surface Hub 3](/surface-hub/surface-hub-3-whats-new) | added |
+
+
+## Week of October 02, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 10/3/2023 | [Surface driver and firmware lifecycle for Windows-based devices](/surface/surface-driver-firmware-lifecycle-support) | modified |
+| 10/4/2023 | [Manage and deploy Surface driver and firmware updates](/surface/manage-surface-driver-and-firmware-updates) | modified |
+| 10/4/2023 | Upgrade Surface devices to Windows 10 with Microsoft Deployment Toolkit (Surface) | removed |
+| 10/4/2023 | [Microsoft Surface Data Eraser (Surface)](/surface/microsoft-surface-data-eraser) | modified |
+| 10/4/2023 | [Surface Enterprise Management Mode (SEMM)](/surface/surface-enterprise-management-mode) | modified |
+
+
+## Week of October 02, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 10/3/2023 | [Driver and firmware lifecycle for Surface Hub devices and accessories](/surface-hub/surface-hub-driver-firmware-accessories-lifecycle) | added |
+| 10/3/2023 | [What's new for Surface Hub 3](/surface-hub/surface-hub-3-whats-new) | modified |
+| 10/3/2023 | [Driver and firmware lifecycle for Surface Hub devices and accessories](/surface-hub/surface-hub-driver-firmware-accessories-lifecycle) | modified |
 
 
 ## Week of September 25, 2023

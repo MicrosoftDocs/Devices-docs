@@ -26,7 +26,7 @@ Most Windows updates focus on performance and security improvements. In the list
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/5018682/windows-10-update-history), include:
 
 * Updates “My Meetings and Files" personal sign-in functionality to use TLS 1.2 in all cases.
-* Resolves an issue with sovereign cloud support in device account scenarios.
+* Resolves an issue with sovereign cloud support in device account and personal sign-in scenarios.
  
 Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabling device features and services. *[KB5030300](https://support.microsoft.com/help/5030300)
 
