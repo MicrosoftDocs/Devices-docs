@@ -1,5 +1,5 @@
 ---
-title: Surface driver and firmware lifecycle for Surface accessories
+title: Surface accessories driver and firmware lifecycle
 description: This article provides detailed lifecycle information to help plan and manage deployment of Surface accessories. 
 ms.prod: surface
 ms.localizationpriority: high
@@ -14,7 +14,7 @@ appliesto:
 - Windows 11
 ---
 
-# Surface driver and firmware lifecycle for Surface accessories
+# Surface accessories driver and firmware lifecycle
 
 In response to requests from customers for more detailed lifecycle information to help plan and manage hardware and software deployments, Surface is offering additional guidance on our driver and firmware updates.
 

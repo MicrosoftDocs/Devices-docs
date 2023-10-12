@@ -54,7 +54,7 @@
     - name: Plan
       expanded: true
       items: 
-        - name: Surface driver & firmware lifecycle for Windows-based devices
+        - name: Surface devices driver and firmware lifecycle
           href: surface-driver-firmware-lifecycle-support.md
         - name: Surface accessories driver & firmware lifecycle
           href: surface-accessories-driver-firmware-lifecycle-support.md         

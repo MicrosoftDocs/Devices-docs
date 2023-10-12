@@ -78,6 +78,7 @@ Demos from Surface engineering show how to disassemble replacement components, a
 
 ## Self help tips & tools
 
+- [Hands-on videos for Surface device repair](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/service-amp-repair-for-surface-devices/ba-p/3667517)
 - [Surface Diagnostic Toolkit for Business](surface-diagnostic-toolkit-business.md)
 - [Top support solutions for Surface devices](support-solutions-surface.md)
 - [Microsoft 365 admin center](https://admin.microsoft.com/adminportal/home?ref=homepage) (Microsoft Manager Centralized solution)
