@@ -1,6 +1,6 @@
 ---
 title: Wake On LAN with Surface Dock 2
-description: Surface Dock 2 provides the best support for Wake on LAN (WOL) enabling admins to remotely wake up devices and automatically perform management tasks.
+description: Surface Dock 2 provides the best support for Wake-on-LAN (WOL) enabling admins to remotely wake up devices and automatically perform management tasks.
 ms.prod: surface
 ms.localizationpriority: medium
 author: coveminer
@@ -16,7 +16,7 @@ appliesto:
 
 # Wake On LAN with Surface Dock 2
 
-To keep devices fully up to date, IT admins need to be able to manage devices when they’re not in use, typically during nightly maintenance windows. Surface Dock 2 provides the best support for Wake on LAN (WOL) enabling admins to remotely wake up Surface devices and automatically perform management tasks with Microsoft Intune admin center or other third party solutions.
+To keep devices fully up to date, IT admins need to be able to manage devices when they’re not in use, typically during nightly maintenance windows. Surface Dock 2 provides the best support for Wake-on-LAN (WOL) enabling admins to remotely wake up Surface devices and automatically perform management tasks with Microsoft Intune admin center or other third party solutions.
 
 ## Requirements
 
@@ -60,7 +60,7 @@ When not in use, Surface devices enter an idle, low powered state known as Moder
 
 To enable WOL on devices without Surface Dock 2, see:
 
-- [Wake on LAN for Surface devices](wake-on-lan-for-surface-devices.md)
+- [Wake-on-LAN for Surface devices](wake-on-lan-for-surface-devices.md)
 
 ## Learn more
 

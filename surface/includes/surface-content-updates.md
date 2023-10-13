@@ -1,5 +1,6 @@
 <!-- This file is generated automatically each week. Changes made to this file will be overwritten.-->
-
+
+
 <!-- This file is generated automatically each week. Changes made to this file will be overwritten.-->
 
 
@@ -64,7 +65,7 @@
 | Published On |Topic title | Change |
 |------|------------|--------|
 | 9/25/2023 | [Surface driver and firmware lifecycle for Windows-based devices](/surface/surface-driver-firmware-lifecycle-support) | modified |
-| 9/26/2023 | [Surface Book 3 Quadro RTX 3000 tech overview](/surface/surface-book-quadro) | modified |
+| 9/26/2023 | [Surface Book 3 Quadro RTX 3000 overview](/surface/surface-book-quadro) | modified |
 | 9/26/2023 | Surface Laptop 5 for Business overview | removed |
 | 9/26/2023 | Surface Laptop Go 2 overview | removed |
 | 9/26/2023 | Surface Laptop 4 processors technical overview | removed |
@@ -82,7 +83,7 @@
 | 9/29/2023 | [Surface Laptop Studio 2 ISV-tested/certified apps](/surface/surface-laptop-studio2-isv-certification) | modified |
 | 9/29/2023 | [Wake On LAN for Surface devices](/surface/wake-on-lan-for-surface-devices) | modified |
 | 9/29/2023 | [Wake On LAN with Surface Dock 2](/surface/wake-on-lan-surface-dock2) | modified |
-| 9/29/2023 | [Wake On LAN with Surface Thunderbolt 4 Dock](/surface/wake-on-lan-surface-thunderbolt4-dock) | modified |
+| 9/29/2023 | [Wake-on-Powerith Surface Thunderbolt 4 Dock](/surface/wake-on-lan-surface-thunderbolt4-dock) | modified |
 | 9/29/2023 | [Wake on Power for Surface devices](/surface/wake-on-power-for-surface) | modified |
 
 

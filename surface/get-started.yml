@@ -29,7 +29,11 @@ landingContent:
           - text: See the newest Surface devices
             url: https://blogs.windows.com/devices/?p=263388   
           - text: Tested peripherals for new Surface devices
-            url: surface-tested-peripherals.md   
+            url: surface-tested-peripherals.md 
+          - text: Surface devices driver and firmware lifecycle 
+            url: surface-driver-firmware-lifecycle-support.md
+          - text: Surface accessories driver and firmware lifecycle
+            url: surface-accessories-driver-firmware-lifecycle-support.md
           - text: Surface IT portals
             url: surface-portals.md    
           - text: What's new in Surface Thunderbolt 4 Dock
@@ -101,7 +105,7 @@ landingContent:
             url: surface-service-and-repair.md 
           - text: Downloadable Surface service guides 
             url: https://www.microsoft.com/download/100440
-          - text: Surface repair videos
+          - text: Hands-on videos for Surface device repair
             url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/service-amp-repair-for-surface-devices/ba-p/3667517
  
  # Card
