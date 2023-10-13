@@ -6,7 +6,7 @@ manager: frankbu
 ms.localizationpriority: medium
 ms.prod: surface
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: how-to
 ms.date: 06/09/2020
 ---

@@ -4,7 +4,7 @@ description: This article provides an overview of Surface Headphones 2+ for Busi
 ms.prod: surface
 ms.localizationpriority: medium
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: overview
 ms.date: 09/02/2022
 ms.reviewer: achuon

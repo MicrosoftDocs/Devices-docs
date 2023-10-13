@@ -4,7 +4,7 @@ description: This article provides an overview of key considerations for deployi
 ms.prod: w11
 ms.localizationpriority: high
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: how-to
 ms.date: 11/28/2022
 ms.reviewer: Karand 

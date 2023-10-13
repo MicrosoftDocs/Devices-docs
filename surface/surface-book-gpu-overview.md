@@ -4,10 +4,10 @@ description: This article provides a technical evaluation of GPU capabilities ac
 ms.prod: surface
 ms.localizationpriority: medium
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: overview
 ms.date: 5/06/2020
-ms.reviewer: brrecord
+ms.reviewer: chauncel
 manager: frankbu
 appliesto:
 - Windows 10

@@ -4,10 +4,10 @@ description: This article describes onsite service and repair options for Surfac
 ms.prod: w11
 ms.localizationpriority: medium
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: overview
 ms.date: 12/01/2022
-ms.reviewer: hachidan
+ms.reviewer: chauncel
 manager: frankbu
 appliesto:
 - Windows 10
