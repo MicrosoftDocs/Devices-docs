@@ -3,9 +3,9 @@ title: Use Microsoft Endpoint Configuration Manager to manage devices with SEMM
 description: Learn how to manage Microsoft Surface Enterprise Management Mode (SEMM) with Endpoint Configuration Manager.
 ms.prod: surface
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: how-to
-ms.reviewer: hachidan
+ms.reviewer: dashap
 manager: frankbu
 ms.localizationpriority: medium
 ms.date: 03/02/2023
