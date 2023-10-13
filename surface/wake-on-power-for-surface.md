@@ -100,6 +100,6 @@ Wake-on-Power is now configured. To test the settings, turn off your device, dis
 For more information, see the following articles.
 
 - [Surface Enterprise Management Mode](surface-enterprise-management-mode.md)
-- [Wake on LAN for Surface devices](wake-on-lan-for-surface-devices.md)
+- [Wake-on-LAN for Surface devices](wake-on-lan-for-surface-devices.md)
 
 Still need help? Go to [Microsoft Community](https://answers.microsoft.com/).
