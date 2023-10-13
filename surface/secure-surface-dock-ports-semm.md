@@ -44,7 +44,7 @@ This section provides step-by-step guidance for the following tasks:
 
 1. Install **Surface UEFI Configurator** from [Surface Tools for IT](https://www.microsoft.com/download/details.aspx?id=46703).
 1. Create or obtain public key certificates.
-1. Create a .msi configuration package.
+1. Create an .msi configuration package.
    1. Add your certificates.
    1. Enter the 16-digit RN number for your Surface Dock 2 or Surface Thunderbolt 4 Dock devices.
    1. Configure UEFI settings.
