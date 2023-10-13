@@ -29,7 +29,7 @@ Managing Surface Dock 2 or Surface Thunderbolt 4 Dock with SEMM is available for
 
 ## Scenarios
 
-Restricting Surface Dock 2 or Surface Thunderbolt 4 Dock to authorized persons signed into a corporate host device provides another layer of data protection. This ability to lock down Surface Docks is critical for specific customers in highly secure environments who want the functionality and productivity benefits of the dock while maintaining compliance with strict security protocols. SEMM used with Surface Dock 2 or Surface Thunderbolt 4 Dock is especially useful in open offices and shared spaces especially for customers who want to lock USB ports for security reasons. For a video demo, check out [SEMM for Surface Dock 2](https://youtu.be/VLV19ISvq_s).
+Restricting Surface Dock 2 or Surface Thunderbolt 4 Dock to authorized persons signed into a corporate host device provides another layer of data protection. This ability to lock down Surface Docks is critical for specific customers in highly secure environments who want the functionality and productivity benefits of the dock while maintaining compliance with strict security protocols. SEMM used with Surface Dock 2 or Surface Thunderbolt 4 Dock is useful in open offices and shared spaces especially for customers who want to lock USB ports for security reasons. For a video demo, check out [SEMM for Surface Dock 2](https://youtu.be/VLV19ISvq_s).
 
 ### Dynamic USB-C disablement: Surface Laptop Studio 2
 
