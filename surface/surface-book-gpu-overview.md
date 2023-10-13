@@ -13,7 +13,7 @@ appliesto:
 - Windows 10
 - Windows 11
 ---
-# Surface Book 3 GPU tech overview
+# Surface Book 3 GPU overview
 
 ## Introduction
 

@@ -65,7 +65,7 @@
 | Published On |Topic title | Change |
 |------|------------|--------|
 | 9/25/2023 | [Surface driver and firmware lifecycle for Windows-based devices](/surface/surface-driver-firmware-lifecycle-support) | modified |
-| 9/26/2023 | [Surface Book 3 Quadro RTX 3000 tech overview](/surface/surface-book-quadro) | modified |
+| 9/26/2023 | [Surface Book 3 Quadro RTX 3000 overview](/surface/surface-book-quadro) | modified |
 | 9/26/2023 | Surface Laptop 5 for Business overview | removed |
 | 9/26/2023 | Surface Laptop Go 2 overview | removed |
 | 9/26/2023 | Surface Laptop 4 processors technical overview | removed |

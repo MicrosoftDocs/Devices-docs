@@ -17,7 +17,7 @@
            href: surface-security.md
          - name: Azure Virtual Desktop on Surface
            href: windows-virtual-desktop-surface.md			   
-         - name: Surface Headphones 2+ tech overview
+         - name: Surface Headphones 2+ overview
            href: surface-headphones.md           
          - name: Surface Dock 2 overview
            href: surface-dock2-overview.md
@@ -29,9 +29,9 @@
            href: surface-laptop-studio2-isv-certification.md                  
          - name: Surface Laptop Studio ISV-tested/certified apps
            href: surface-laptop-studio-isv-certification.md      
-         - name: Surface Book 3 tech overview
+         - name: Surface Book 3 overview
            href: surface-book-GPU-overview.md
-         - name: Surface Book 3 Quadro RTX 3000 tech overview
+         - name: Surface Book 3 Quadro RTX 3000 overview
            href: surface-book-quadro.md      
       - name: Order Surface devices
         items:  
