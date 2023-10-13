@@ -25,6 +25,8 @@ With USB port functionality enabled by default on Surface devices, many devices 
 
 ## Manage ports via UEFI Configurator
 
+(TBD: Pull from sections in Secure Surface Dock Ports)
+
 ## Manage ports via Powershell
 
 You can use PowerShell to granularly manage the functionality of USB-C ports and disable USB-A. See [Table 1](#table-1-usb-port-management-options-for-surface-devices) below for a reference of available settings across Surface devices.
@@ -57,9 +59,16 @@ Beginning with Surface Pro 8, Surface Laptop Studio, and Surface Go 3, both of t
 | **Surface Book 2** and later <br>                                                                                                                        | Base USB ports are always enabled | Base USB ports are always enabled                                                                                                                              | n/a                                                                        |          |
 | **Surface Book** with Performance Base<br>**Surface Book**                                                                                                               | Base USB ports are always enabled | N/A: No USB-C port on device                                                                                                                                   | n/a                                                                        |          |
 
-## SEMM Modes
 
- In SEMM, Mode 0 and Mode 1 refer to the two operational modes:
+ 
+## Dynamic USB-C disablement: Surface Laptop Studio 2
+
+USB-C disablement is a new feature that enables customers operating in highly secure work environments to prevent USB theft of confidential data and provide more control to organizations. When paired with the Surface Thunderbolt 4 Dock,  IT admins can use certificate-based security to lock down USB-C ports whenever Surface Laptop Studio 2 is undocked or connected to an unauthorized dock. This means that when your users are connected to an authorized dock in the office, the USB-C ports will have full functionality over their devices. However, when they go off-site, they can still connect to a dock to use accessories or a monitor but cannot use the USB ports to transfer data. 
+
+
+### What's new with dynamic USB-C disablement
+
+Dynamic USB-C disablement provides IT admins with the flexibility to manage devices outside the constraints of traditional SEMM modes. In SEMM, Mode 0 and Mode 1 refer to the two operational modes:
  
 1. **Mode 0 (Deployment Mode):**
    - This is the default mode when SEMM is not configured.
@@ -71,17 +80,14 @@ Beginning with Surface Pro 8, Surface Laptop Studio, and Surface Go 3, both of t
    - In Enterprise Mode, the firmware settings defined by the SEMM configuration package are applied, and users cannot modify these settings.
    - To make changes to the firmware settings or to unenroll a device from SEMM, the device must be reverted to Mode 0, which requires the SEMM certificate and the appropriate tools.
  
-The ability to switch between these modes provides flexibility for IT administrators. You can set up devices with the necessary restrictions for enterprise use (Mode 1) and revert to a more open configuration (Mode 0) when needed, such as during device setup, maintenance, or decommissioning.
- 
-## Dynamic USB-C disablement for Surface Thunderbolt 4 Dock
+The ability to switch between these modes provides flexibility for IT administrators. You can set up devices with the necessary restrictions for enterprise use (Mode 1) and revert to a more open configuration (Mode 0) when needed, such as during device setup, maintenance, or decommissioning. 
 
 Dynamic USB-C disablement allows IT admins to configure Surface Laptop Studio 2 devices to switch from Mode 1 to Mode 0 without deploying a new package or restarting the device.  
- 
-In this scenario, when Surface Laptop Studio 2 is connected to an authorized Surface Thunderbolt 4 Dock, the device is subject to the firmware settings defined by the SEMM configuration package. For example, IT admins can configure firmware settings as follows:
+
+In this scenario, when Surface Laptop Studio 2 is connected to an authorized Surface Thunderbolt 4 Dock, the device is subject to the firmware settings defined in SEMM. For example, IT admins can configure firmware settings as follows:
  
 - Prevent users from transferring data via USB C but retain USB-C functionality to connect to an external display or power the device. This is configured by enabling **UsbPortDataDisabled** in PowerShell scripts targeted to Surface Laptop Studio 2 devices via Microsoft Configuration Manager.
 - Prevent all USB-C functiontality. This is configured by enabling **UsbPortHwDisabled** in PowerShell scripts targeted to Surface Laptop Studio 2 devices via Microsoft Configuration Manager.
 
-Dynamic USB-C disablement lets users resume normal use of USB-C functionality if they take the device home or outside the managed corporate environment.  Currently exclusive to Surface Laptop Studio 2 devices, the functionality will available for eligible Surface devices in the future.  
-
+(JK edit note: confirm) Dynamic USB-C disablement lets users resume normal use of USB-C functionality if they take the device home or outside the managed corporate environment. Currently exclusive to Surface Laptop Studio 2 devices, the functionality will available for eligible Surface devices in the future.  
 

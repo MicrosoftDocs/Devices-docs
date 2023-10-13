@@ -107,6 +107,8 @@
         - name: Surface Enterprise Management Mode (SEMM)
           href: surface-enterprise-management-mode.md
           items:
+          - name: Manage USB ports on Surface devices
+            href: manage-usb-ports-on-surface.md  
           - name: Enroll & configure Surface devices with SEMM
             href: enroll-and-configure-surface-devices-with-semm.md
           - name: Unenroll Surface devices from SEMM
