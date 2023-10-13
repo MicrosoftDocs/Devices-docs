@@ -46,7 +46,7 @@ With [Surface Enterprise Management Mode (SEMM)](surface-enterprise-management-m
 #### Advanced settings
 
 - **Kiosk Overrides.** Battery limit.
-- **Boot.** Wake on LAN, Wake on Power, IPv6 for PXE boot, Alternate Boot, Boot Order Lock, USB Boot, Network Stack.
+- **Boot.** Wake on LAN, Wake-on-Power, IPv6 for PXE boot, Alternate Boot, Boot Order Lock, USB Boot, Network Stack.
 - **UEFI Front Page.** Security, Devices, Boot, DateTime
 
 :::image type="content" source="images/uefi-config-advanced-surface-arm.png" alt-text="Manage firmware settings on Surface Pro 9 with 5G" :::
@@ -55,7 +55,7 @@ With [Surface Enterprise Management Mode (SEMM)](surface-enterprise-management-m
 
 With [Surface Enterprise Management Mode (SEMM)](surface-enterprise-management-mode.md), you can manage the following hardware components at the firmware level for Surface Pro X devices:
 
-- Wake On Power
+- Wake-on-Power
 - IPv6 for PXE boot
 - Alternate Boot
 - Boot Order Lock
