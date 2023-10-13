@@ -127,10 +127,9 @@ In a test environment, you can verify settings in the Surface UEFI interface.
 
    :::image type="content" alt-text="Surface UEFI." source="images/df3.png":::
 
-   Note:
-
-     - The settings are grayed out (inactive) because **Allow local user to change UEFI setting** is set to **None**.
-     - On-board Audio is set to off because the **Microphones and speakers** policy is set to **Disabled**.
+   > [!NOTE]
+   > - The settings are grayed out (inactive) because **Allow local user to change UEFI setting** is set to **None**.
+   > - On-board Audio is set to off because the **Microphones and speakers** policy is set to **Disabled**.
 
 ## Remove DFCI policy settings
 
