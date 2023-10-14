@@ -52,8 +52,8 @@ This section provides step-by-step guidance for the following tasks:
 
 Install SEMM by running Surface UEFI Configurator:
 
-- For Intel/AMD devices, download: **SurfaceUEFI_Configurator_v2.97.139.0_x64.msi**
-- For ARM devices, download: **SurfaceUEFI_Configurator_v2.97.139.0_x86.msi**
+- For Intel/AMD devices, download: **SurfaceUEFI_Configurator_v2.105.139.0_x64.msi** 
+- For ARM devices, download: **SurfaceUEFI_Configurator_v2.105.139.0_x86.msi**
 
 UEFI Configurator is available via a standalone installer and contains everything you need to create and distribute configuration packages for Surface Dock 2 or Surface Thunderbolt 4 Dock.
 
