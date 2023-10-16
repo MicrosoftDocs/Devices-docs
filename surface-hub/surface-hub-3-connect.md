@@ -8,6 +8,8 @@ manager: frankbu
 ms.topic: how-to
 ms.date: 12/05/2023
 ms.localizationpriority: Medium
+appliesto:
+- Surface Hub 3
 ---
 
 # Connect devices to Surface Hub 3
