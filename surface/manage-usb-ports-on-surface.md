@@ -101,7 +101,23 @@ In this scenario, when Surface Laptop Studio 2 is connected to an authorized Sur
 - Prevent users from transferring data via USB C but retain USB-C functionality to connect to an external display or power the device. This is configured by enabling **UsbPortDataDisabled** in PowerShell scripts targeted to Surface Laptop Studio 2 devices via Microsoft Configuration Manager.
 - Prevent all USB-C functiontality. This is configured by enabling **UsbPortHwDisabled** in PowerShell scripts targeted to Surface Laptop Studio 2 devices via Microsoft Configuration Manager.
 
-(JK edit note: confirm) Dynamic USB-C disablement lets users resume normal use of USB-C functionality if they take the device home or outside the managed corporate environment. Currently exclusive to Surface Laptop Studio 2 devices, the functionality will available for eligible Surface devices in the future.  
+## Department vs organizational provisioning
+
+Dynamic USB-C disablement allows for a many-to-many relationship between host and dock. This allows customers to have hosts and docks configured to work with all hosts/docks or make it department specific to help with asset management.   
+
+
+|     Host            | Not provisioned         | Global                                                 | Department A                                        | **Department B**                                        |
+| ------------------- | ----------------------- | -------------------------------------------------------  | ------------------------------------------------------- | ------------------------------------------------------- |
+| **Not provisioned** | Host USB-C: Enabled     | Host USB -C: Enabled                                     | Host USB-C: Enabled                                     | Host USB-C: Enabled                                     |
+| **Not provisioned** | Dock USB: Enabled       | Dock USB: Limited, based on unauthenticated dock policy  | Dock USB: Limited, based on unauthenticated dock policy | Dock USB: Limited, based on unauthenticated dock policy |
+| **Global**          | Host USB-C: Disabled    | Host USB -C: Enabled                                     | Host USB-C: Enabled                                     | Host USB -C: Enabled                                    |
+| **Global**          | Dock USB: Data disabled | Dock USB: Enabled                                        | Dock USB: Enabled                                       | Dock: Authenticated                                     |
+| **Global**          | Host USB-C: Disabled    | Host USB-C: Enabled                                      | Host USB-C: Enabled                                     | Host USB-C: Disabled                                    |
+| **Department A**    | Dock USB: Data disabled | Dock USB: Enabled                                        | Dock USB: Enabled                                       | Dock USB: Limited, based on unauthenticated dock policy |
+| **Department A**    | Host USB-C: Disabled    | Host USB -C: Enabled                                     | Host USB-C: Disabled                                    | Host USB -C: Enabled                                    |
+| **Department B**    | Dock USB: Data disabled | Dock USB: Enabled                                        | Dock USB: Limited, based on unauthenticated dock policy | Dock: Authenticated                                     |
+
+
 
 ## Appendix: SEMM Powershell Scripts tech reference
 
