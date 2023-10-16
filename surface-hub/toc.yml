@@ -16,7 +16,20 @@
            - name: Surface Hub 3 Pack FAQ
              href: surface-hub-3-pack-faq.md 
            - name: Driver & firmware lifecycle
-             href: surface-hub-driver-firmware-accessories-lifecycle.md            
+             href: surface-hub-driver-firmware-accessories-lifecycle.md
+           - name: Set up
+             expanded: true
+             items:
+              - name: Get started with Surface Hub 3
+                href: surface-hub-3-get-started.md
+              - name: First-time setup for Surface Hub 3 
+                href: first-run-program-surface-hub-3.md
+              - name: Install wallpaper on Surface Hub 3
+                href: install-wallpaper-surface-hub.md
+              - name: Connect devices to Surface Hub 3
+                href: surface-hub-3-connect.md
+              - name: Secure Surface Hub 3
+                href: surface-hub-3-security.md                 
         - name: Windows 10 Team 2022
           expanded: true
           items: 
