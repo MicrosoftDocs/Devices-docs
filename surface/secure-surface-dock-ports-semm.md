@@ -151,13 +151,18 @@ Objective: Configure policy settings to allow port access by authenticated users
 
 1. Open **Surface App** and select **Surface Dock** to view the resultant policy state of your Surface Dock. If the policy settings are applied, Surface App will indicate that ports are available.
 
-   ![Surface app shows all ports are available for authenticated users.](images/secure-surface-dock-ports-semm-5.png)
+   ![Surface app shows all ports are available for authenticated users on Surface Dock 2.](images/surface-thunderbolt-4-dock-unmanaged.png)
+
+      ![Surface app shows all ports are available for authenticated users on Surface Thunderbolt 4 Dock.](images/secure-surface-dock-ports-semm-5.png)
 
 1. Now you need to verify that the policy settings have successfully turned off all ports for unauthenticated users. Connect Surface Dock 2 or Surface Thunderbolt 4 Dock to an unmanaged device; for example, any Surface device outside the scope of management for the configuration package you created.
 
 1. Open **Surface App** and select **Surface Dock**. The resultant policy state will indicate ports are turned off.
 
-   ![Surface app showing ports turned off for unauthenticated users .](images/secure-surface-dock-ports-semm-6.png)
+   ![Surface app showing ports turned off for unauthenticated users on Surface Thunderbolt 4 Dock .](images/surface-thunderbolt-4-dock-unmanaged.png)
+
+   ![Surface app showing ports turned off for unauthenticated users on Surface Dock 2.](images/secure-surface-dock-ports-semm-6.png)
+
 
 >[!TIP]
 >If you want to keep ownership of the device, but allow all users full access, you can make a new package with everything turned on. If you wish to completely remove the restrictions and ownership of the device (make it unmanaged), select **Reset** in Surface UEFI Configurator to create a package to apply to target devices.
