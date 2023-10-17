@@ -80,7 +80,7 @@ USB-C disablement is a new feature that enables customers operating in highly se
 
 ### What's new with dynamic USB-C disablement
 
-Dynamic USB-C disablement provides IT admins with the flexibility to manage devices outside the constraints of traditional SEMM modes. In SEMM, Mode 0 and Mode 1 refer to the two operational modes:
+Dynamic USB-C disablement provides IT admins with greater flexibility to manage devices with a new "Mode 3" in addition to existing operational modes:
  
 1. **Mode 0 (Deployment Mode):**
    - This is the default mode when SEMM is not configured.
@@ -88,9 +88,14 @@ Dynamic USB-C disablement provides IT admins with the flexibility to manage devi
    - Devices can be freely enrolled into or unenrolled from SEMM when they are in Mode 0.
  
 2. **Mode 1 (Enterprise Mode):**
-   - This mode is activated when a device is enrolled into SEMM using a configuration package.
+   - This mode is activated when a device is enrolled into SEMM.
    - In Enterprise Mode, the firmware settings defined by the SEMM configuration package are applied, and users cannot modify these settings.
-   - To make changes to the firmware settings or to unenroll a device from SEMM, the device must be reverted to Mode 0, which requires the SEMM certificate and the appropriate tools.
+   - To make changes to the firmware settings or to unenroll a device from SEMM, the device must be reverted to Mode 0, which requires the SEMM certificate and the appropriate tools. 
+
+3. **Mode 3 (Port authentication Mode)**
+   - This mode is activated when a device is enrolled into SEMM.
+   - In this mode, the firmware settings defined by the SEMM configuration package are applied, and users cannot modify these settings.
+
  
 The ability to switch between these modes provides flexibility for IT administrators. You can set up devices with the necessary restrictions for enterprise use (Mode 1) and revert to a more open configuration (Mode 0) when needed, such as during device setup, maintenance, or decommissioning. 
 
