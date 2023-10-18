@@ -159,7 +159,7 @@ Objective: Configure policy settings to allow port access by authenticated users
 
 1. Open **Surface App** and select **Surface Dock**. The resultant policy state will indicate ports are turned off.
 
-   ![Surface app showing ports turned off for unauthenticated users on Surface Thunderbolt 4 Dock .](images/surface-thunderbolt-4-dock-unmanaged.png)
+   ![Surface app showing ports turned off for unauthenticated users on Surface Thunderbolt 4 Dock.](images/surface-thunderbolt-4-dock-managed.png)
 
    ![Surface app showing ports turned off for unauthenticated users on Surface Dock 2.](images/secure-surface-dock-ports-semm-6.png)
 

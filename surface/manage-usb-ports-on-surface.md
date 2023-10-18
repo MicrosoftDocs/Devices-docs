@@ -18,49 +18,53 @@ appliesto:
 
 With USB port functionality enabled by default on Surface devices, many devices with Surface UEFI allow admins to disable connectivity to USB ports. For example, you may wish to prevent users from copying data from USB thumb drives or external hard disks.
 
+## Prerequisites
+
+Before you begin the process outlined in this article, familiarize yourself with the following technologies and tools:
+
+* [Surface UEFI](manage-surface-uefi-settings.md)
+* [Surface Enterprise Management Mode (SEMM)](surface-enterprise-management-mode.md)
+* [PowerShell scripting](/powershell)
+* [Deploy applications with Configuration Manager](/mem/configmgr/apps/deploy-use/deploy-applications)
+
 ## Get started
 
-- IT admins can perform many USB and related port management tasks using the Surface UEFI Configurator tool to prepare .msi packages for deployment to Surface devices. Go to Manage ports via UEFI Configurator on this page. 
-- Alternatively, for the most advanced scenarios, you can modify downloadable Powershell scripts for deployment to target devices via Microsoft Configuration Manager. To to Manage ports via Powershell on this page. 
+The process consists of the following parts: 
 
-## Manage ports via UEFI Configurator
+1. **Enrollment:** Use Surface UEFI Configurator to enroll host devices and Surface docks into SEMM, following the instructions in [Secure Surface Dock ports with SEMM](secure-surface-dock-ports-semm.md). Surface Dock 2 or Surface Thunderbolt 4 Dock are supported for this scenario. Key to this workflow is the ability to turn off USB-C data, Ethernet data, and USB-C audio whenever devices are disconnected from an authorized Surface Dock located, for example, in a  workplace environment handling highly sensitive information. 
 
-See [Secure Surface Dock Ports](secure-surface-dock-ports-semm.md).
+2. **Client configuration:** Install **UEFI Manager**, available from [Surface Tools for IT](https://www.microsoft.com/download/details.aspx?id=46703), on all Surface devices targeted for management.  
 
-## Manage ports via Powershell
+2. **Powershell scripts:** Go to [Surface Tools for IT](https://www.microsoft.com/download/details.aspx?id=46703) to download and modify the Powershell scripts, as appropriate for your environment. Use Microsoft Configuration Manager to deploy the scripts (as applications) to target devices, following the insstructions in [Use Microsoft Endpoint Configuration Manager to manage devices with SEMM](use-system-center-configuration-manager-to-manage-devices-with-semm.md). 
 
-You can use PowerShell to granularly manage the functionality of USB-C ports and disable USB-A. See [Table 1](#table-1-usb-port-management-options-for-surface-devices) below for a reference of available settings across Surface devices.
+Refer to the embedded comments for usage guidance. See [Appendix: SEMM Powershell Scripts tech reference](#appendix-semm-powershell-scripts-tech-reference) for definitions and prerequisites. 
 
-For USB-A ports supporting USB2 and USB3, you can disable the USB data protocol from the USB controller to prevent all functionality.
+## Manage USB-A ports 
+
+For USB-A ports supporting USB-2 and USB-3, you can disable the USB data protocol from the USB controller to prevent all functionality.
+
+## Granular USB-C Disablement
 
 Managing USB-C ports with their support for DisplayPort and USB Power Delivery provides more options beyond disabling all functionality. For example, you can prevent data connectivity to stop users from copying data from USB storage but retain the ability to extend displays and charge the device via a USB-C dock.
 
 Beginning with Surface Pro 8, Surface Laptop Studio, and Surface Go 3, both of these options are now available via the SEMM PowerShell scripts.
 
 
-
 1. Go to [Surface Tools for IT](https://www.microsoft.com/download/details.aspx?id=46703) and download **SEMM_PowerShell.zip**.
 
-2. If you don't already have your own certificates, you can obtain certificates via the appropriate sample script: 
+2. If you don't already have your own certificates, you can obtain certificates via the appropriate sample script, as documented in the [Appendix](#appendix-semm-powershell-scripts-tech-reference) on this page. 
 
 - **CreateSurfaceDock2Certificates.ps1**
 - **CreateSurfaceThunderbolt(TM)4DockCertificates.ps1**
 
 ### Provisioning Surface docks
 
-1. Use the appropriate provisioning script: 
+1. Use the appropriate provisioning script, as documented in the [Appendix](#appendix-semm-powershell-scripts-tech-reference) on this page. 
 
+- **ConfigureSEMM - Dock2.ps1** 
 - **ConfigureSEMM - Thunderbolt(TM)4Dock-Provisioning**
 
-2. Open **ConfigureSEMM.ps1** and modify as appropriate.
-3. (JK edit note: What other guidance to provide here, regarding the other scripts)
-3. To disable both USB-A and USB-C ports: For UsbPortSettingType, enable the following setting: **UsbPortHwDisabled.**
-
-**Additional options for USB-C ports:**
-
-1. Run **ConfigureSEMM.ps1** and modify as appropriate.
-2. To turn off data only and continue to use USB-C ports for power and display functionality, enable the following mode:  **Mode 1 – Data Disabled.**
-3. To turn off data, power, and display functionality, enable the following mode:  **Mode 2 – Fully Disabled.**
+2. Open **ConfigureSEMM.ps1** and modify as appropriate. For example, to disable  USB-C ports, enable the following setting: **UsbPortHwDisabled.** See the following table for all available options.
 
 ### Table 1. USB port management options for Surface devices
 
@@ -76,53 +80,20 @@ Beginning with Surface Pro 8, Surface Laptop Studio, and Surface Go 3, both of t
  
 ## Dynamic USB-C disablement: Surface Laptop Studio 2
 
-USB-C disablement is a new feature that enables customers operating in highly secure work environments to prevent USB theft of confidential data and provide more control to organizations. When paired with the Surface Thunderbolt 4 Dock,  IT admins can use certificate-based security to lock down USB-C ports whenever Surface Laptop Studio 2 is undocked or connected to an unauthorized dock. This means that when your users are connected to an authorized dock in the office, the USB-C ports will have full functionality over their devices. However, when they go off-site, they can still connect to a dock to use accessories or a monitor but cannot use the USB ports to transfer data. 
-
-### What's new with dynamic USB-C disablement
+USB-C disablement is a new feature that enables customers operating in highly secure work environments to prevent USB theft of confidential data and provide more control to organizations. When paired with the Surface Thunderbolt 4 Dock,  IT admins can lock down USB-C ports whenever Surface Laptop Studio 2 is undocked or connected to an unauthorized dock. This means that when your users are connected to an authorized dock in the office, the USB-C ports will have full functionality over their devices. However, when they go off-site, they can still connect to a dock to use accessories or a monitor but cannot use the USB ports to transfer data. 
 
 Dynamic USB-C disablement provides IT admins with greater flexibility to manage devices with a new "Mode 3" in addition to existing operational modes:
  
-1. **Mode 0 (Deployment Mode):**
-   - This is the default mode when SEMM is not configured.
-   - In this mode, all firmware settings are available to the user, and there are no restrictions.
-   - Devices can be freely enrolled into or unenrolled from SEMM when they are in Mode 0.
- 
-2. **Mode 1 (Enterprise Mode):**
-   - This mode is activated when a device is enrolled into SEMM.
-   - In Enterprise Mode, the firmware settings defined by the SEMM configuration package are applied, and users cannot modify these settings.
-   - To make changes to the firmware settings or to unenroll a device from SEMM, the device must be reverted to Mode 0, which requires the SEMM certificate and the appropriate tools. 
+- **Mode 0 (Default Mode):** The default mode when SEMM is not configured.
+- **Mode 1 (Data Disabled):** USB-C and Ethernet data are disabled. Audio via USB-C is also disabled. Display out and Power functionality is enabled.
+- **Mode 2 (Fully Disabled):** USB-C and Ethernet data ar disabled. Audio via USB-C is also disabled. Display out and Power functionality is disabled.
+- **Mode 3 (USB Port Authenticated)** Aka Dynamic USB-C disablement. USB-C data, Ethernet data, USB-C audio, display out and power functions only when the device is connected to an authorized Surface Thunderbolt 4 Dock. 
 
-3. **Mode 3 (Port authentication Mode)**
-   - This mode is activated when a device is enrolled into SEMM.
-   - In this mode, the firmware settings defined by the SEMM configuration package are applied, and users cannot modify these settings.
-
- 
-The ability to switch between these modes provides flexibility for IT administrators. You can set up devices with the necessary restrictions for enterprise use (Mode 1) and revert to a more open configuration (Mode 0) when needed, such as during device setup, maintenance, or decommissioning. 
-
-Dynamic USB-C disablement allows IT admins to configure Surface Laptop Studio 2 devices to switch from Mode 1 to Mode 0 without deploying a new package or restarting the device.  
-
-In this scenario, when Surface Laptop Studio 2 is connected to an authorized Surface Thunderbolt 4 Dock, the device is subject to the firmware settings defined in SEMM. For example, IT admins can configure firmware settings as follows:
- 
-- Prevent users from transferring data via USB C but retain USB-C functionality to connect to an external display or power the device. This is configured by enabling **UsbPortDataDisabled** in PowerShell scripts targeted to Surface Laptop Studio 2 devices via Microsoft Configuration Manager.
-- Prevent all USB-C functiontality. This is configured by enabling **UsbPortHwDisabled** in PowerShell scripts targeted to Surface Laptop Studio 2 devices via Microsoft Configuration Manager.
-
-## Department vs organizational provisioning
+### Department vs organizational provisioning
 
 Dynamic USB-C disablement allows for a many-to-many relationship between host and dock. This allows customers to have hosts and docks configured to work with all hosts/docks or make it department specific to help with asset management.   
 
-
-|     Host            | Not provisioned         | Global                                                 | Department A                                        | **Department B**                                        |
-| ------------------- | ----------------------- | -------------------------------------------------------  | ------------------------------------------------------- | ------------------------------------------------------- |
-| **Not provisioned** | Host USB-C: Enabled     | Host USB -C: Enabled                                     | Host USB-C: Enabled                                     | Host USB-C: Enabled                                     |
-| **Not provisioned** | Dock USB: Enabled       | Dock USB: Limited, based on unauthenticated dock policy  | Dock USB: Limited, based on unauthenticated dock policy | Dock USB: Limited, based on unauthenticated dock policy |
-| **Global**          | Host USB-C: Disabled    | Host USB -C: Enabled                                     | Host USB-C: Enabled                                     | Host USB -C: Enabled                                    |
-| **Global**          | Dock USB: Data disabled | Dock USB: Enabled                                        | Dock USB: Enabled                                       | Dock: Authenticated                                     |
-| **Global**          | Host USB-C: Disabled    | Host USB-C: Enabled                                      | Host USB-C: Enabled                                     | Host USB-C: Disabled                                    |
-| **Department A**    | Dock USB: Data disabled | Dock USB: Enabled                                        | Dock USB: Enabled                                       | Dock USB: Limited, based on unauthenticated dock policy |
-| **Department A**    | Host USB-C: Disabled    | Host USB -C: Enabled                                     | Host USB-C: Disabled                                    | Host USB -C: Enabled                                    |
-| **Department B**    | Dock USB: Data disabled | Dock USB: Enabled                                        | Dock USB: Limited, based on unauthenticated dock policy | Dock: Authenticated                                     |
-
-
+ ![Matrix that shows example many-to-many relationships between host device (Surface Laptop Studio 2) and Surface Thunderbolt 4 Dock.](images/surface-thunderbolt-4-dock-usb-disablement-matrix.png)
 
 ## Appendix: SEMM Powershell Scripts tech reference
 
