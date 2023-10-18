@@ -50,6 +50,21 @@ Managing USB-C ports with their support for DisplayPort and USB Power Delivery p
 Beginning with Surface Pro 8, Surface Laptop Studio, and Surface Go 3, both of these options are now available via the SEMM PowerShell scripts.
 
 
+## Target behaviors
+
+**Mode** | **Mode 0** | **Mode 1** | **Mode 2** | **Mode 3**
+--- | --- | --- | --- | ---
+String | USBPortEnabled | USBPortDataDisabled | USBPortHWDisabled | USBPortAuthenticated
+USB 2.0 | Enabled | Data Disabled | Fully Disabled | Dynamically Disabled
+USB 3.x | Enabled | Disabled | Disabled | Disabled until Authentication
+USB 4.x | Enabled | Disabled | Disabled | Disabled until Authentication
+USB Type C Power | Enabled | Enabled | Disabled | Enabled
+PD Power >0W & Communication | Enabled | Enabled | Disabled | Enabled
+DisplayPort Alt Mode | Enabled | Enabled | Disabled | Enabled
+Audio Accessory Mode (where applicable) | Enabled | Enabled | Disabled | Enabled
+
+
+
 1. Go to [Surface Tools for IT](https://www.microsoft.com/download/details.aspx?id=46703) and download **SEMM_PowerShell.zip**.
 
 2. If you don't already have your own certificates, you can obtain certificates via the appropriate sample script, as documented in the [Appendix](#appendix-semm-powershell-scripts-tech-reference) on this page. 
