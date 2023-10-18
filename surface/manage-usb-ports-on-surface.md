@@ -69,9 +69,6 @@ Audio Accessory Mode (where applicable) | Enabled | Enabled | Disabled | Enabled
 
 2. If you don't already have your own certificates, you can obtain certificates via the appropriate sample script, as documented in the [Appendix](#appendix-semm-powershell-scripts-tech-reference) on this page. 
 
-- **CreateSurfaceDock2Certificates.ps1**
-- **CreateSurfaceThunderbolt(TM)4DockCertificates.ps1**
-
 ### Provisioning Surface docks
 
 1. Use the appropriate provisioning script, as documented in the [Appendix](#appendix-semm-powershell-scripts-tech-reference) on this page. 
