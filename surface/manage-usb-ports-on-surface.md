@@ -103,7 +103,7 @@ Dynamic USB-C disablement provides IT admins with greater flexibility to manage 
 
 Dynamic USB-C disablement allows for a many-to-many relationship between the host and dock. This lets customers have hosts and docks configured to work with all hosts/docks or make it department-specific to help with asset management.   
 
-### Table 2. Matrix showing example relationships between host device and Surface Thunderbolt 4 Dock 
+### Table 2. Example relationships: Host device with Surface Thunderbolt 4 Dock 
 
 
 
