@@ -119,7 +119,7 @@ When you've obtained or created the certificates, you can build the .msi provisi
    ![Select your Surface Dock.](images/secure-surface-dock-ports-semm-2a.png)
 
 1. Choose **Provisioning** and select **Next**.
-   ![Select your Surface Dock.](images/secure-surface-dock-ports-semm-2b.png)
+   ![Choose Provisioning and select Next.](images/secure-surface-dock-ports-semm-2b.png)
 
 1. Choose how you want to provision Surface Dock and select **Next:**
   - **Organizational Unit**, designed for corporate-wide use.
@@ -139,7 +139,7 @@ When you've obtained or created the certificates, you can build the .msi provisi
 
 1. After the import, select **Build** and save the resulting .msi provisioning package.
 
-    ![After the import, select **Build**](images/secure-surface-dock-ports-semm-config-success.png). 
+    ![After the import, select Build](images/secure-surface-dock-ports-semm-config-success.png). 
 
 ### Apply the provisioning package to a Surface Dock 
 
@@ -152,7 +152,7 @@ Now, you can specify policy settings for USB data, Ethernet, and Audio ports. UE
 
 1. To begin, open **UEFI Configurator** and select **Start > Surface Dock > Surface Dock 2** or **Surface Thunderbolt 4 Dock**.  
 1. Select **Configuration Policy > Next**.
-    ![After the import, select **Build**](images/secure-surface-dock-ports-semm-3a3.png)
+    ![Select Configuration Policy > Next](images/secure-surface-dock-ports-semm-3a3.png)
 
 1. Choose the intended use -- **Organizational Unit** or **Departmental Unit** -- and  select **Next.**
 1. Import your certificate files and select **Next.** 
