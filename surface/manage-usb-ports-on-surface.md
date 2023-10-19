@@ -66,17 +66,6 @@ Dynamic USB-C disablement provides IT admins with greater flexibility to manage 
 
 ### Target behaviors
 
-**Host USB Port State** | **Enabled**  | **Data Disabled** | **Mode 2** | **Mode 3**
---- | --- | --- | --- | ---
-String | USBPortEnabled | USBPortDataDisabled | USBPortHWDisabled | USBPortAuthenticated
-USB 2.0 | Enabled | Data Disabled | Fully Disabled | Dynamically Disabled
-USB 3.x | Enabled | Disabled | Disabled | Disabled until Authentication
-USB 4.x | Enabled | Disabled | Disabled | Disabled until Authentication
-USB Type C Power | Enabled | Enabled | Disabled | Enabled
-PD Power >0W & Communication | Enabled | Enabled | Disabled | Enabled
-DisplayPort Alt Mode | Enabled | Enabled | Disabled | Enabled
-Audio Accessory Mode (where applicable) | Enabled | Enabled | Disabled | Enabled
-
 | Host USB Port State        | Enabled    | Data Disabled | Hardware Disabled | Port Authenticated<br> *Unauthorized or no dock* | Port Authenticated<br> *Authorized Dock* |
 |---------------------------|------------|---------------|-------------------|-----------------------------------|----  |
 | USB 2.0, 3.x, 4.x         | Enabled    | Disabled      | Disabled          | Disabled     |     Enabled         |
