@@ -114,37 +114,37 @@ When you've obtained or created the certificates, you can build the .msi provisi
 
    ![Screenshot that shows run Surface UEFI Configurator.](images/secure-surface-dock-ports-semm-1.png)
 
-1. Select **Surface Dock**.
+2. Select **Surface Dock**.
 
    ![Screenshot that shows select Surface Dock.](images/secure-surface-dock-ports-semm-2.png)
 
-1. Select your Surface Dock device. 
+3. Select your Surface Dock device. 
 
    ![Screenshot that shows select your Surface Dock.](images/secure-surface-dock-ports-semm-2a.png)
 
-1. Choose **Provisioning** and select **Next**.
+4. Choose **Provisioning** and select **Next**.
 
    ![Screenshot that shows choose Provisioning and select Next.](images/secure-surface-dock-ports-semm-2b.png)
 
-1. Choose how you want to provision Surface Dock and select **Next:**
+5. Choose how you want to provision Surface Dock and select **Next:**
   - **Organizational Unit**, designed for corporate-wide use.
   - **Departmental Unit**, designed for more granular settings configuration; for example, a department handling highly sensitive information.
 
     ![Screenshot that shows select Organizational Unit or Departmental Unit](images/secure-surface-dock-ports-semm-2c.png)   
 
-1. Import your certificate authority and certificate files and enter the password for each file. This example shows organizational provisioning.
+6. Import your certificate authority and certificate files and enter the password for each file. This example shows organizational provisioning.
 
     ![Screenshot that shows import your certificate authority and cerfificate files](images/secure-surface-dock-ports-semm-3a1.png) 
 
-1. When you finish adding the certificates, select **Next**.
+7. When you finish adding the certificates, select **Next**.
 
     ![Screenshot that shows when you finish adding the certificates, select Next](images/secure-surface-dock-ports-semm-3a1b.png) 
 
-1. Add the Surface Dock ID numbers associated with the docks you intend to manage. For multiple docks, enter the numbers in a .csv file without a header, meaning the first line of the file should not contain column names or descriptions.
+8. Add the Surface Dock ID numbers associated with the docks you intend to manage. For multiple docks, enter the numbers in a .csv file without a header, meaning the first line of the file should not contain column names or descriptions.
 
     ![Screenshot that shows import a .csv file that contains a list of the docks you're intending to provision](images/secure-surface-dock-ports-semm-3b1.png). 
 
-1. After the import, select **Build** and save the resulting .msi provisioning package.
+9. After the import, select **Build** and save the resulting .msi provisioning package.
 
     ![Screenshot that shows after the import, select Build](images/secure-surface-dock-ports-semm-config-success.png). 
 
