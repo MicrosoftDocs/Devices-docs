@@ -120,33 +120,33 @@ When you've obtained or created the certificates, you can build the .msi provisi
 
 1. Select your Surface Dock device. 
 
-   ![Select your Surface Dock.](images/secure-surface-dock-ports-semm-2a.png)
+   ![Screenshot that shows select your Surface Dock.](images/secure-surface-dock-ports-semm-2a.png)
 
 1. Choose **Provisioning** and select **Next**.
 
-   ![Choose Provisioning and select Next.](images/secure-surface-dock-ports-semm-2b.png)
+   ![Screenshot that shows choose Provisioning and select Next.](images/secure-surface-dock-ports-semm-2b.png)
 
 1. Choose how you want to provision Surface Dock and select **Next:**
   - **Organizational Unit**, designed for corporate-wide use.
   - **Departmental Unit**, designed for more granular settings configuration; for example, a department handling highly sensitive information.
 
-    ![Select Organizational Unit or Departmental Unit](images/secure-surface-dock-ports-semm-2c.png)   
+    ![Screenshot that shows select Organizational Unit or Departmental Unit](images/secure-surface-dock-ports-semm-2c.png)   
 
 1. Import your certificate authority and certificate files and enter the password for each file. This example shows organizational provisioning.
 
-    ![Import your certificate authority and cerfificate files](images/secure-surface-dock-ports-semm-3a1.png) 
+    ![Screenshot that shows import your certificate authority and cerfificate files](images/secure-surface-dock-ports-semm-3a1.png) 
 
 1. When you finish adding the certificates, select **Next**.
 
-    ![When you finish adding the certificates, select Next](images/secure-surface-dock-ports-semm-3a1b.png) 
+    ![Screenshot that shows when you finish adding the certificates, select Next](images/secure-surface-dock-ports-semm-3a1b.png) 
 
 1. Add the Surface Dock ID numbers associated with the docks you intend to manage. For multiple docks, enter the numbers in a .csv file without a header, meaning the first line of the file should not contain column names or descriptions.
 
-    ![Import a .csv file that contains a list of the docks you're intending to provision](images/secure-surface-dock-ports-semm-3b1.png). 
+    ![Screenshot that shows import a .csv file that contains a list of the docks you're intending to provision](images/secure-surface-dock-ports-semm-3b1.png). 
 
 1. After the import, select **Build** and save the resulting .msi provisioning package.
 
-    ![After the import, select Build](images/secure-surface-dock-ports-semm-config-success.png). 
+    ![Screenshot that shows after the import, select Build](images/secure-surface-dock-ports-semm-config-success.png). 
 
 ### Apply the provisioning package to a Surface Dock 
 
@@ -160,14 +160,14 @@ Now, you can specify policy settings for USB data, Ethernet, and Audio ports. UE
 1. Open **UEFI Configurator** and select **Start > Surface Dock > Surface Dock 2** or **Surface Thunderbolt 4 Dock**.  
 1. Select **Configuration Policy > Next**.
 
-    ![Select Configuration Policy > Next](images/secure-surface-dock-ports-semm-3a3.png)
+    ![Screenshot that shows select Configuration Policy > Next](images/secure-surface-dock-ports-semm-3a3.png)
 
 1. Choose the intended use -- **Organizational Unit** or **Departmental Unit** -- and select **Next.**
 1. Import your certificate files and select **Next.** 
 1. Import your .csv file containing the Surface Dock ID numbers associated with the docks you intend to manage and select **Next**.
 1. Choose which components you want to activate or deactivate. The following figure shows port access turned on for authenticated users and turned off for unauthenticated users.
 
-   ![Choose which components you want to activate or deactivate.](images/secure-surface-dock-ports-semm-4.png)
+   ![Screenshot that shows choose which components you want to activate or deactivate.](images/secure-surface-dock-ports-semm-4.png)
 
    - **Authenticated Policy** refers to a Surface Device with the appropriate certificates installed, as configured in the .msi configuration package you applied to target devices. 
    - **Unauthenticated Policy** refers to any other device.
@@ -190,23 +190,23 @@ Objective: Configure policy settings to allow port access by authenticated users
 
 1. Turn on all ports for authenticated users and turn them off for unauthenticated users.
 
-   ![Enabling ports for authenticated users.](images/secure-surface-dock-ports-semm-4.png)
+   ![Screenshot that shows enabling ports for authenticated users.](images/secure-surface-dock-ports-semm-4.png)
 
 1. Apply the configuration package to your target device and connect the dock.
 
 1. Open **Surface App** and select **Surface Dock** to view the resultant policy state of your Surface Dock. If the policy settings are applied, Surface App (shown here for Surface Thunderbolt 4 Dock and Surface Dock 2) indicates that ports are available.
 
-   ![Surface app shows all ports are available for authenticated users on Surface Dock 2.](images/surface-thunderbolt-4-dock-unmanaged.png)
+   ![Screenshot that shows surface app shows all ports are available for authenticated users on Surface Dock 2.](images/surface-thunderbolt-4-dock-unmanaged.png)
 
-   ![Surface app shows all ports are available for authenticated users on Surface Thunderbolt 4 Dock.](images/secure-surface-dock-ports-semm-5.png)
+   ![Screenshot that shows surface app shows all ports are available for authenticated users on Surface Thunderbolt 4 Dock.](images/secure-surface-dock-ports-semm-5.png)
 
 1. Now, you need to verify that the policy settings have successfully turned off all ports for unauthenticated users. Connect Surface Dock 2 or Surface Thunderbolt 4 Dock to an unmanaged device, for example, any Surface device outside the scope of management for the configuration package you created.
 
 1. Open **Surface App** and select **Surface Dock**. The resultant policy state (shown here for Surface Thunderbolt 4 Dock and Surface Dock 2) indicates that ports are turned off. 
 
-   ![Surface app showing ports turned off for unauthenticated users on Surface Thunderbolt 4 Dock.](images/surface-thunderbolt-4-dock-managed.png)
+   ![Screenshot that shows surface app showing ports turned off for unauthenticated users on Surface Thunderbolt 4 Dock.](images/surface-thunderbolt-4-dock-managed.png)
 
-   ![Surface app showing ports turned off for unauthenticated users on Surface Dock 2.](images/secure-surface-dock-ports-semm-6.png)
+   ![Screenshot that shows surface app showing ports turned off for unauthenticated users on Surface Dock 2.](images/secure-surface-dock-ports-semm-6.png)
 
 
 >[!TIP]
