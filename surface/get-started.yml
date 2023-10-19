@@ -27,7 +27,9 @@ landingContent:
       - linkListType: whats-new
         links:
           - text: See the newest Surface devices
-            url: https://blogs.windows.com/devices/?p=263388   
+            url: https://blogs.windows.com/devices/?p=263388 
+          - text: Manage USB ports on Surface devices
+            url: manage-usb-ports-on-surface.md     
           - text: Tested peripherals for new Surface devices
             url: surface-tested-peripherals.md 
           - text: Surface devices driver and firmware lifecycle 
@@ -42,8 +44,6 @@ landingContent:
             url: surface-autopilot-cookbook.md
           - text: Surface for Business service and repair
             url: surface-service-and-repair.md  
-          - text: How rugged are Surface devices?
-            url: surface-hardware-environmental-test-results.md
           - text: Explore all Surface family products
             url: https://www.microsoft.com/surface/business
   
