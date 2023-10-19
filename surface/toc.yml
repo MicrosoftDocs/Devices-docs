@@ -107,6 +107,8 @@
         - name: Surface Enterprise Management Mode (SEMM)
           href: surface-enterprise-management-mode.md
           items:
+          - name: Manage USB ports on Surface devices
+            href: manage-usb-ports-on-surface.md  
           - name: Enroll & configure Surface devices with SEMM
             href: enroll-and-configure-surface-devices-with-semm.md
           - name: Unenroll Surface devices from SEMM
@@ -152,6 +154,8 @@
         items:
          - name: What's new in Surface Thunderbolt 4 Dock
            href: surface-dock-whats-new.md
+         - name: Manage USB ports on Surface devices
+           href: manage-usb-ports-on-surface.md    
          - name: Manage Surface Docks with WMI
            href: surface-dock2-wmi.md  
          - name: Secure Surface Dock ports with SEMM
