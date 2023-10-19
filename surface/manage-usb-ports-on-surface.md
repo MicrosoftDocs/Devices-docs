@@ -6,7 +6,7 @@ ms.localizationpriority: medium
 author: coveminer
 ms.author: chauncel
 ms.topic: how-to
-ms.date: 10/18/2023
+ms.date: 10/19/2023
 ms.reviewer: dashap
 manager: frankbu
 appliesto:
@@ -49,8 +49,24 @@ Managing USB-C ports with their support for DisplayPort and USB Power Delivery p
 
 Beginning with Surface Pro 8, Surface Laptop Studio, and Surface Go 3, these options are now available via the SEMM PowerShell scripts.
 
+1. Go to [Surface Tools for IT](https://www.microsoft.com/download/details.aspx?id=46703) and download **SEMM_PowerShell.zip**.
 
-## Target behaviors
+2. If you don't already have your own certificates, you can obtain certificates via the appropriate sample script, as documented in the [Appendix](#appendix-semm-powershell-scripts-tech-reference) on this page. 
+
+
+ 
+## Dynamic USB-C disablement: Surface Laptop Studio 2
+
+Dynamic USB-C disablement is a new feature that enables customers operating in highly secure work environments to prevent USB theft of confidential data and provide more control to organizations. When paired with the Surface Thunderbolt 4 Dock, IT admins can lock down USB-C ports whenever Surface Laptop Studio 2 is undocked or connected to an unauthorized dock. This means that when your users are connected to an authorized dock in the office, the USB-C ports will have full functionality over their devices. However, when they go off-site, they can still connect to a dock to use accessories or a monitor but cannot use the USB ports to transfer data. 
+
+Dynamic USB-C disablement provides IT admins with greater flexibility to manage devices with a new "Mode 3" in addition to existing operational modes:
+ 
+- **Mode 0 (Default Mode):** The default mode when SEMM is not configured.
+- **Mode 1 (Data Disabled):** USB-C and Ethernet data are disabled. Audio via USB-C is also disabled. Display out and Power functionality is enabled.
+- **Mode 2 (Fully Disabled):** USB-C and Ethernet data ar disabled. Audio via USB-C is also disabled. Display out and Power functionality is disabled.
+- **Mode 3 (USB Port Authenticated)** Aka Dynamic USB-C disablement. USB-C data, Ethernet data, USB-C audio, display out and power functions only when the device is connected to an authorized Surface Thunderbolt 4 Dock. If connected to an unauthorized dock, only display out and Power functions will work. 
+
+### Target behaviors
 
 **Mode** | **Mode 0** | **Mode 1** | **Mode 2** | **Mode 3**
 --- | --- | --- | --- | ---
@@ -62,12 +78,6 @@ USB Type C Power | Enabled | Enabled | Disabled | Enabled
 PD Power >0W & Communication | Enabled | Enabled | Disabled | Enabled
 DisplayPort Alt Mode | Enabled | Enabled | Disabled | Enabled
 Audio Accessory Mode (where applicable) | Enabled | Enabled | Disabled | Enabled
-
-
-
-1. Go to [Surface Tools for IT](https://www.microsoft.com/download/details.aspx?id=46703) and download **SEMM_PowerShell.zip**.
-
-2. If you don't already have your own certificates, you can obtain certificates via the appropriate sample script, as documented in the [Appendix](#appendix-semm-powershell-scripts-tech-reference) on this page. 
 
 ### Provisioning Surface docks
 
@@ -88,18 +98,6 @@ Audio Accessory Mode (where applicable) | Enabled | Enabled | Disabled | Enabled
 | **Surface Laptop Studio 2**                                                                                                       | Enable or disable data      | Enabled data, display-out, and  power delivery<br><br>Disabled data but enabled display-out and power delivery<br><br>Disabled data, display-out, and power delivery<br><br>Data dynamically enabled or disabled | UsbPortEnabled (default)<br>UsbPortDataDisabled<br>UsbPortHwDisabled<br> UsbPortAuthenticated | 380-389  |
 | **Surface Book 2** and later <br>                                                                                                                        | Base USB ports are always enabled | Base USB ports are always enabled                                                                                                                              | n/a                                                                        |          |
 | **Surface Book** with Perforwmance Base<br>**Surface Book**                                                                                                               | Base USB ports are always enabled | N/A: No USB-C port on device                                                                                                                                   | n/a                                                                        |          |
-
- 
-## Dynamic USB-C disablement: Surface Laptop Studio 2
-
-Dynamic USB-C disablement is a new feature that enables customers operating in highly secure work environments to prevent USB theft of confidential data and provide more control to organizations. When paired with the Surface Thunderbolt 4 Dock, IT admins can lock down USB-C ports whenever Surface Laptop Studio 2 is undocked or connected to an unauthorized dock. This means that when your users are connected to an authorized dock in the office, the USB-C ports will have full functionality over their devices. However, when they go off-site, they can still connect to a dock to use accessories or a monitor but cannot use the USB ports to transfer data. 
-
-Dynamic USB-C disablement provides IT admins with greater flexibility to manage devices with a new "Mode 3" in addition to existing operational modes:
- 
-- **Mode 0 (Default Mode):** The default mode when SEMM is not configured.
-- **Mode 1 (Data Disabled):** USB-C and Ethernet data are disabled. Audio via USB-C is also disabled. Display out and Power functionality is enabled.
-- **Mode 2 (Fully Disabled):** USB-C and Ethernet data ar disabled. Audio via USB-C is also disabled. Display out and Power functionality is disabled.
-- **Mode 3 (USB Port Authenticated)** Aka Dynamic USB-C disablement. USB-C data, Ethernet data, USB-C audio, display out and power functions only when the device is connected to an authorized Surface Thunderbolt 4 Dock. 
 
 ### Department vs organizational provisioning
 
