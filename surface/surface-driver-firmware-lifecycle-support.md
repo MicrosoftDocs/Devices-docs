@@ -80,7 +80,7 @@ The following table lists products that have passed their end-of-support date ba
 | Surface device                     | Release date | End of servicing date for firmware & drivers |
 | ---------------------------------- | ----------------- | ----------------- |
 | Surface RT                         | October 26, 2012  | April 11, 2017    |
-| Surface Pro2                       | February 9, 2013  | April 11, 2017    |
+| Surface Pro                        | February 9, 2013  | April 11, 2017    |
 | Surface 2                          | October 22, 2013  | April 10, 2018    |
 | Surface Pro 2                      | October 22, 2013  | April 10, 2018    |
 | Surface Pro 3                      | June 20, 2014     | November 13, 2021 |
