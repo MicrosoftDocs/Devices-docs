@@ -1,6 +1,6 @@
 ---
 title: Manage USB ports on Surface devices
-description: This article explains how to secure and manage USB-C and USB-A ports on Surface devices 
+description: This article explains how to secure and manage USB-C and USB-A ports on Surface devices using SEMM for Dock and Powershell. 
 ms.prod: surface
 ms.localizationpriority: medium
 author: coveminer
@@ -53,8 +53,6 @@ Beginning with Surface Pro 8, Surface Laptop Studio, and Surface Go 3, these opt
 
 2. If you don't already have your own certificates, you can obtain certificates via the appropriate sample script, as documented in the [Appendix](#appendix-semm-powershell-scripts-tech-reference) on this page. 
 
-
- 
 ## Dynamic USB-C disablement: Surface Laptop Studio 2
 
 Dynamic USB-C disablement is a new feature that enables customers operating in highly secure work environments to prevent USB theft of confidential data and provide more control to organizations. When paired with the Surface Thunderbolt 4 Dock, IT admins can lock down USB-C ports whenever Surface Laptop Studio 2 is undocked or connected to an unauthorized dock. This means that when your users are connected to an authorized dock in the office, the USB-C ports will have full functionality over their devices. However, when they go off-site, they can still connect to a dock to use accessories or a monitor but cannot use the USB ports to transfer data. 

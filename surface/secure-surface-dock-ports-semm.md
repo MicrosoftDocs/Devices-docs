@@ -13,29 +13,29 @@ appliesto:
 - Windows 10
 - Windows 11
 ---
-
 # Secure Surface Dock ports with Surface Enterprise Management Mode (SEMM)
 
 ## Introduction
 
-Surface Enterprise Management Mode (SEMM) enables IT admins to secure and manage ports on Surface Dock 2 or Surface Thunderbolt 4 Dock by configuring UEFI settings in a Windows Installer configuration package (.msi file) deployed to compatible Surface devices across a corporate environment.
+SEMM for Dock enables IT admins to secure and manage ports on Surface Dock 2 or Surface Thunderbolt 4 Dock by configuring UEFI settings in a Windows Installer configuration package (.msi file) deployed to compatible Surface devices across a corporate environment.
 
 ### Supported devices
 
-Managing Surface Dock 2 or Surface Thunderbolt 4 Dock with SEMM is available for docks connected to Surface Book 3, Surface Laptop Studio (all generations), Surface Laptop 5, Surface Laptop 4, Surface Laptop 3, Surface Laptop Go (all generations), Surface Pro 9 & Surface Pro 9 with 5G, Surface Pro 8, Surface Pro 7+, Surface Pro 7, Surface Pro X. These compatible Surface devices are commonly referred to as **host devices**. A package is applied to host devices based on if a host device is **authenticated** or **unauthenticated**. Configured settings reside in the UEFI layer on host devices enabling you—the IT admin—to manage compatible Surface Docks just like any other built-in peripheral such as the camera.
+Managing Surface Dock 2 or Surface Thunderbolt 4 Dock with SEMM is available for docks connected to Surface Book 3, Surface Laptop Studio (all generations), Surface Laptop 5, Surface Laptop 4, Surface Laptop 3, Surface Laptop Go (all generations), Surface Pro 9 & Surface Pro 9 with 5G, Surface Pro 8, Surface Pro 7+, Surface Pro 7, Surface Pro X. These compatible Surface devices are commonly referred to as **host devices**. A package is applied to host devices based on whether a host device is **authenticated** or **unauthenticated**. Configured settings reside in the UEFI layer on host devices, enabling you—the IT admin—to manage compatible Surface Docks like any other built-in peripheral, such as the camera.
 
->[!TIP]
->You can manage Dock ports only when the dock is connected to one of the following compatible devices: Surface Pro 9, Surface Pro 9 with 5G, Surface Studio 2+, Surface Pro 8, Surface Laptop Studio, Surface Book 3, Surface Laptop 5, Surface Laptop 4, Surface Laptop 3, Surface Pro 7+, and Surface Pro 7. Any device that doesn't receive the UEFI Authenticated policy settings is inherently an unauthenticated device.
 
 ## Scenarios
 
-Restricting Surface Dock 2 or Surface Thunderbolt 4 Dock to authorized persons signed into a corporate host device provides another layer of data protection. This ability to lock down Surface Docks is critical for specific customers in highly secure environments who want the functionality and productivity benefits of the dock while maintaining compliance with strict security protocols. SEMM used with Surface Dock 2 or Surface Thunderbolt 4 Dock is useful in open offices and shared spaces especially for customers who want to lock USB ports for security reasons. 
+Restricting Surface Dock 2 or Surface Thunderbolt 4 Dock to authorized persons signed into a corporate host device provides another layer of data protection. This ability to lock down Surface Docks is critical for specific customers in highly secure environments who want the functionality and productivity benefits of the dock while maintaining compliance with strict security protocols. SEMM used with Surface Dock 2 or Surface Thunderbolt 4 Dock is helpful in open offices and shared spaces, especially for customers who want to lock USB ports for security reasons. 
 
-- **Granular USB-C Disablement.** Managing USB-C ports with their support for DisplayPort and USB Power Delivery provides more options beyond disabling all functionality. For example, you can prevent data connectivity to stop users from copying data from USB storage but retain the ability to extend displays and charge the device via a USB-C dock. Beginning with Surface Pro 8, Surface Laptop Studio, and Surface Go 3, these options are now available via the SEMM PowerShell scripts.
+- **Granular USB-C Disablement.** Managing USB-C ports with their support for DisplayPort and USB Power Delivery provides more options beyond turning off all functionality. For example, you can prevent data connectivity to stop users from copying data from USB storage but retain the ability to extend displays and charge the device via a USB-C dock. Beginning with Surface Pro 8, Surface Laptop Studio, and Surface Go 3, these options are now available via the SEMM PowerShell scripts.
 
 -**Dynamic USB-C Disablement.** USB-C disablement is a new feature that enables customers operating in highly secure work environments to prevent USB theft of confidential data and provide more control to organizations. When paired with the Surface Thunderbolt 4 Dock, IT admins can lock down USB-C ports whenever Surface Laptop Studio 2 is undocked or connected to an unauthorized dock. This means that when your users are connected to an authorized dock in the office, the USB-C ports will have full functionality over their devices. However, when they go off-site, they can still connect to a dock to use accessories or a monitor but cannot use the USB ports to transfer data. 
 
-As described in the following sections, Managing USB-C ports in these scenarios first requires enrolling your host devices and Surface dock into SEMM. Once enrolled, configure USBB-C disablement following the instructions in [Manage USB ports on Surface devices](manage-usb-ports-on-surface.md) 
+As described in the following sections, Managing USB-C ports for these scenarios involves the following tasks:  
+- Provision (aka enroll) your host devices and Surface dock into SEMM via an .msi package generated by UEFI Configurator. 
+- Create a separate .msi package containing the UEFI policy settings for "Authenticated" and "Unauthenticated" devices. 
+- Configure Granular USB-C Disablement or Dynamic USB-C Disablement via Powershell scripts following the instructions in [Manage USB ports on Surface devices](manage-usb-ports-on-surface.md). 
 
 ## Configuring and deploying UEFI settings for Surface Docks
 
@@ -50,7 +50,7 @@ This section provides step-by-step guidance for the following tasks:
 1. Build and apply the configuration package to targeted Surface devices.
 
 >[!IMPORTANT]
->The **Random Number (RN)** is a unique 16-digit hex code identifier which is provisioned at the factory, and printed in small type on the underside of the dock. The RN differs from most serial numbers in that it can't be read electronically. This ensures proof of ownership is primarily established only by reading the RN when physically accessing the device. The RN may also be obtained during the purchase transaction and is recorded in Microsoft inventory systems.
+>The **Random Number (RN)** is a unique 16-digit hex code identifier provisioned at the factory and printed in small type on the dock's underside. The RN differs from most serial numbers because it can't be read electronically. This ensures proof of ownership is established only by reading the RN when physically accessing the device. The RN may also be obtained during the purchase transaction and is recorded in Microsoft inventory systems.
 
 ### Install SEMM and Surface UEFI Configurator
 
@@ -69,13 +69,13 @@ This section provides specifications for creating the certificates needed to man
 
 ### Prerequisites
 
-This article assumes that you either obtain certificates from a third-party provider or you already have expertise in PKI certificate services and know how to create your own.  You should be familiar with and follow the general recommendations for creating certificates as described in [Surface Enterprise Management Mode (SEMM)](surface-enterprise-management-mode.md) documentation, with one exception. The certificates documented on this page require expiration terms of 30 years for the **Dock Certificate Authority**, and 20 years for the **Host Authentication Certificate**.
+This article assumes that you either obtain certificates from a third-party provider or already have expertise in PKI certificate services and know how to create your own. You should be familiar with and follow the general recommendations for creating certificates as described in [Surface Enterprise Management Mode (SEMM)](surface-enterprise-management-mode.md) documentation, with one exception. The certificates documented on this page require expiration terms of 30 years for the **Dock Certificate Authority** and 20 years for the **Host Authentication Certificate**.
 
 For more information, see [Certificate Services Architecture](/windows/win32/seccrypto/certificate-services-architecture) documentation and review the appropriate chapters in [Windows Server 2019 Inside Out](https://www.microsoftpressstore.com/store/windows-server-2019-inside-out-9780135492277), or [Windows Server 2008 PKI and Certificate Security](https://www.microsoftpressstore.com/store/windows-server-2008-pki-and-certificate-security-9780735640788) available from Microsoft Press.
 
 ### Root and host certificate requirements
 
-Prior to creating the configuration package, you need to prepare public key certificates that authenticate ownership of Surface Dock 2 or Surface Thunderbolt 4 Dock and facilitate any subsequent changes in ownership during the device lifecycle. The host and provisioning certificates require entering EKU IDs otherwise known as **Client Authentication Enhanced Key Usage (EKU) object identifiers (OIDs)**.
+Before creating the configuration package, you need to prepare public key certificates that authenticate ownership of Surface Dock 2 or Surface Thunderbolt 4 Dock and facilitate any subsequent changes in ownership during the device lifecycle. The host and provisioning certificates require entering EKU IDs, otherwise known as **Client Authentication Enhanced Key Usage (EKU) object identifiers (OIDs)**.
 
 The required EKU values are listed in Table 1 and Table 2.
 
@@ -91,21 +91,21 @@ The required EKU values are listed in Table 1 and Table 2.
 
 ### Provisioning Administration Certificate requirements
 
-Each host device must have the doc CA and two certificates as shown in Table 2.
+Each host device must have the doc CA and two certificates, as shown in Table 2.
 
 #### Table 2. Provisioning administration certificate requirements
 
 |Certificate|Algorithm|Description|EKU OID|
 |---|---|---|---|
 |Host authentication certificate|ECC P256<br>SHA 256|Proves the identity of the host device.|1.3.6.1.4.1.311.76.9.21.2|
-|Provisioning administration certificate|ECC P256<br>SHA256|Enables you to change dock ownership and/or policy settings by allowing you to replace the CA that's currently installed on the dock.|1.3.6.1.4.1.311.76.9.21.3<br>1.3.6.1.4.1.311.76.9.21.4|
+|Provisioning administration certificate|ECC P256<br>SHA256|Enables you to change dock ownership or policy settings by allowing you to replace the current CA installed on the dock.|1.3.6.1.4.1.311.76.9.21.3<br>1.3.6.1.4.1.311.76.9.21.4|
 
    >[!NOTE]
    >The host authentication and provisioning certificates must be exported as .pfx files.
 
-### Create dock provisioning package
+### Create a dock provisioning package
 
-When you've obtained or created the certificates, you’re ready to build the .msi provisioning package that will be applied to target devices.
+When you've obtained or created the certificates, you can build the .msi provisioning package that will be applied to target devices.
 
 1. Run Surface **UEFI Configurator**.
 
@@ -127,14 +127,14 @@ When you've obtained or created the certificates, you’re ready to build the .m
 
     ![Select Organizational Unit or Departmental Unit](images/secure-surface-dock-ports-semm-2c.png)   
 
-1. Import your certificate authority and cerfificate files and enter the password for each file. This example shows organizational provisioning.
+1. Import your certificate authority and certificate files and enter the password for each file. This example shows organizational provisioning.
 
     ![Import your certificate authority and cerfificate files](images/secure-surface-dock-ports-semm-3a1.png) 
 
 1. When you finish adding the certificates, select **Next**.
     ![When you finish adding the certificates, select Next](images/secure-surface-dock-ports-semm-3a1b.png) 
 
-1. Add the Surface Dock ID numbers associated with the docks you're intending to manage. For multiple docks, enter the numbers in a .csv file without a header, meaning the first line of the file should not contain column names or descriptions.
+1. Add the Surface Dock ID numbers associated with the docks you intend to manage. For multiple docks, enter the numbers in a .csv file without a header, meaning the first line of the file should not contain column names or descriptions.
     ![Import a .csv file that contains a list of the docks you're intending to provision](images/secure-surface-dock-ports-semm-3b1.png). 
 
 1. After the import, select **Build** and save the resulting .msi provisioning package.
@@ -148,7 +148,7 @@ When you've obtained or created the certificates, you’re ready to build the .m
 
 ## Configure UEFI policy settings for target devices
 
-Now you're ready to specify policy settings for USB data, Ethernet, and Audio ports. UEFI Configurator lets you configure policy settings for authenticated users (Authenticated Policy) and unauthenticated users (Unauthenticated Policy). 
+Now, you can specify policy settings for USB data, Ethernet, and Audio ports. UEFI Configurator lets you configure policy settings for authenticated users (Authenticated Policy) and unauthenticated users (Unauthenticated Policy). 
 
 1. To begin, open **UEFI Configurator** and select **Start > Surface Dock > Surface Dock 2** or **Surface Thunderbolt 4 Dock**.  
 1. Select **Configuration Policy > Next**.
@@ -156,14 +156,14 @@ Now you're ready to specify policy settings for USB data, Ethernet, and Audio po
 
 1. Choose the intended use -- **Organizational Unit** or **Departmental Unit** -- and  select **Next.**
 1. Import your certificate files and select **Next.** 
-1. Import your .csv file containing the Surface Dock ID numbers associated with the docks you're intending to manage and select **Next**.
+1. Import your .csv file containing the Surface Dock ID numbers associated with the docks you intend to manage and select **Next**.
 1. Choose which components you want to activate or deactivate. The following figure shows port access turned on for authenticated users and turned off for unauthenticated users.
 
    ![Choose which components you want to activate or deactivate.](images/secure-surface-dock-ports-semm-4.png)
 
-   - Authenticated user refers to a Surface Device that has the appropriate certificates installed, as configured in the .msi configuration package that you applied to target devices. It applies to any user authenticated user who signs into the device.
+   - Authenticated user refers to a Surface Device with the appropriate certificates installed, as configured in the .msi configuration package you applied to target devices. It applies to any user authenticated user who signs into the device.
    - Unauthenticated user refers to any other device.
-   - Select **Reset** to create a special “Reset” package that will remove any previous configuration package that the dock had accepted.
+   - Select **Reset** to create a special "Reset" package to remove any previous configuration package the dock had accepted.
 
 1. Select **Build** to create the package.
 
@@ -174,7 +174,7 @@ Now you're ready to specify policy settings for USB data, Ethernet, and Audio po
 
 ## Verify managed state using the Surface App
 
-Once you've applied the configuration package, you can quickly verify the resultant policy state of the dock directly from the Surface App, installed by default on all Surface devices. If Surface App isn't present on the device, you can download and install it from the Microsoft Store.
+Once you've applied the configuration package, you can quickly verify the resultant policy state of the dock directly from the Surface App, installed by default on all Surface devices. If the Surface App isn't on the device, you can download and install it from the Microsoft Store.
 
 ### Test scenario
 
@@ -184,7 +184,7 @@ Objective: Configure policy settings to allow port access by authenticated users
 
    ![Enabling ports for authenticated users.](images/secure-surface-dock-ports-semm-4.png)
 
-1. Apply the configuration package to your target device and then connect the dock.
+1. Apply the configuration package to your target device and connect the dock.
 
 1. Open **Surface App** and select **Surface Dock** to view the resultant policy state of your Surface Dock. If the policy settings are applied, Surface App (shown here for Surface Thunderbolt 4 Dock and Surface Dock 2) indicates that ports are available.
 
@@ -192,9 +192,9 @@ Objective: Configure policy settings to allow port access by authenticated users
 
       ![Surface app shows all ports are available for authenticated users on Surface Thunderbolt 4 Dock.](images/secure-surface-dock-ports-semm-5.png)
 
-1. Now you need to verify that the policy settings have successfully turned off all ports for unauthenticated users. Connect Surface Dock 2 or Surface Thunderbolt 4 Dock to an unmanaged device; for example, any Surface device outside the scope of management for the configuration package you created.
+1. Now, you need to verify that the policy settings have successfully turned off all ports for unauthenticated users. Connect Surface Dock 2 or Surface Thunderbolt 4 Dock to an unmanaged device, for example, any Surface device outside the scope of management for the configuration package you created.
 
-1. Open **Surface App** and select **Surface Dock**. The resultant policy state (shown here for Surface Thunderbolt 4 Dock and Surface Dock 2) indicates ports are turned off. 
+1. Open **Surface App** and select **Surface Dock**. The resultant policy state (shown here for Surface Thunderbolt 4 Dock and Surface Dock 2) indicates that ports are turned off. 
 
    ![Surface app showing ports turned off for unauthenticated users on Surface Thunderbolt 4 Dock.](images/surface-thunderbolt-4-dock-managed.png)
 
@@ -202,7 +202,7 @@ Objective: Configure policy settings to allow port access by authenticated users
 
 
 >[!TIP]
->If you want to keep ownership of the device, but allow all users full access, you can make a new package with everything turned on. If you wish to completely remove the restrictions and ownership of the device (make it unmanaged), select **Reset** in Surface UEFI Configurator to create a package to apply to target devices.
+>If you want to keep ownership of the device but allow all users full access, you can make a new package with everything turned on. If you wish to completely remove the restrictions and ownership of the device (make it unmanaged), select **Reset** in Surface UEFI Configurator to create a package to apply to target devices.
 
 Congratulations. You have successfully managed Surface Dock ports on targeted host devices.
 
@@ -214,3 +214,4 @@ Congratulations. You have successfully managed Surface Dock ports on targeted ho
 - [Windows Server 2019 Inside Out](https://www.microsoftpressstore.com/store/windows-server-2019-inside-out-9780135492277)
 - [Windows Server 2008 PKI and Certificate Security](https://www.microsoftpressstore.com/store/windows-server-2008-pki-and-certificate-security-9780735640788)
 - For a video demo, check out [SEMM for Surface Dock 2](https://youtu.be/VLV19ISvq_s)
+
