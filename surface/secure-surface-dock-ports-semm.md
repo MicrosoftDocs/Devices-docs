@@ -112,11 +112,11 @@ When you've obtained or created the certificates, you can build the .msi provisi
 
 1. Run Surface **UEFI Configurator**.
 
-   ![Run Surface UEFI Configurator.](images/secure-surface-dock-ports-semm-1.png)
+   ![Screenshot that shows run Surface UEFI Configurator.](images/secure-surface-dock-ports-semm-1.png)
 
 1. Select **Surface Dock**.
 
-   ![Select Surface Dock.](images/secure-surface-dock-ports-semm-2.png)
+   ![Screenshot that shows select Surface Dock.](images/secure-surface-dock-ports-semm-2.png)
 
 1. Select your Surface Dock device. 
 
