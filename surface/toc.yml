@@ -154,6 +154,8 @@
         items:
          - name: What's new in Surface Thunderbolt 4 Dock
            href: surface-dock-whats-new.md
+         - name: Manage USB ports on Surface devices
+           href: manage-usb-ports-on-surface.md    
          - name: Manage Surface Docks with WMI
            href: surface-dock2-wmi.md  
          - name: Secure Surface Dock ports with SEMM

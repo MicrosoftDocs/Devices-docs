@@ -79,6 +79,9 @@ Before creating the configuration package, you need to prepare public key certif
 
 The required EKU values are listed in Table 1 and Table 2.
 
+> [!CAUTION]
+> Keep certificates in a safe location and ensure they're properly backed up. Without them it's impossible to reset Surface UEFI, change managed Surface UEFI settings, or remove SEMM from an enrolled Surface device.
+
 #### Table 1. Root and Dock Certificate requirements
 
 |Certificate|Algorithm|Description|Expiration|EKU OID|
