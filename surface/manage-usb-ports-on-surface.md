@@ -103,7 +103,17 @@ Dynamic USB-C disablement provides IT admins with greater flexibility to manage 
 
 Dynamic USB-C disablement allows for a many-to-many relationship between the host and dock. This lets customers have hosts and docks configured to work with all hosts/docks or make it department-specific to help with asset management.   
 
- ![Matrix that shows example many-to-many relationships between host device (Surface Laptop Studio 2) and Surface Thunderbolt 4 Dock.](images/surface-thunderbolt-4-dock-usb-disablement-matrix.png)
+### Table 2. Matrix showing example relationships between host device and Surface Thunderbolt 4 Dock 
+
+
+
+|    Host Device <br>(Surface Laptop Studio 2)     | Unprovisioned Dock                                          | Global Dock                                         | Department-X Dock                                                              | Department-Y Dock                                                          |
+|-----------------    |----------------------------------------                 |------------------------------------------------|----------------------------------------------------------------------------|-----------------------------------------------------------------------|
+| **Not Provisioned** | - **Host USB-C:** Enabled<br> - **Dock USB:** Enabled | - **Host USB-C:** Enabled<br>- **Dock USB:** Limited, based on Unauthenticated dock policy | - **Host USB-C:** Enabled<br>- **Dock USB:** Limited, based on Unauthenticated dock policy | - **Host USB-C:** Enabled<br>- **Dock USB:** Limited, based on Unauthenticated dock policy |
+| **Global**          | - **Host USB-C:** Data disabled<br>- **Dock USB:** Data disabled | - **Host USB-C:** Enabled<br>- **Dock USB:** Authenticated policy  | - **Host USB-C:** Enabled<br>- **Dock USB:** Authenticated policy                  | - **Host USB-C:** Enabled<br>- Dock: Authenticated policy                 |
+| **Department-X**    | - **Host USB-C:** Data disabled<br>- **Dock USB:** Data disabled | - **Host USB-C:** Enabled<br>- **Dock USB:** Authenticated policy  | - **Host USB-C:** Enabled<br>- **Dock USB:** Authenticated policy                  | - **Host USB-C:** Data disabled<br>- **Dock USB:** Data disabled & limited, based on Unauthenticated dock policy |
+| **Department-Y**    | - **Host USB-C:** Data disabled<br>- **Dock USB:** Data disabled | - **Host USB-C:** Enabled<br>- **Dock USB:** Authenticated policy  | - **Host USB-C:** Data disabled<br>- **Dock USB:** Data disabled & limited, based on Unauthenticated dock policy  | - **Host USB-C:** Enabled<br>- **Dock:** Authenticated policy                 |
+
 
 ## Appendix: SEMM Powershell Scripts tech reference
 
