@@ -47,7 +47,7 @@ For USB-A ports supporting USB-2 and USB-3, you can disable the USB data protoco
 
 Managing USB-C ports with their support for DisplayPort and USB Power Delivery provides more options beyond disabling all functionality. For example, you can prevent data connectivity to stop users from copying data from USB storage but retain the ability to extend displays and charge the device via a USB-C dock.
 
-Beginning with Surface Pro 8, Surface Laptop Studio, and Surface Go 3, both of these options are now available via the SEMM PowerShell scripts.
+Beginning with Surface Pro 8, Surface Laptop Studio, and Surface Go 3, these options are now available via the SEMM PowerShell scripts.
 
 
 ## Target behaviors
@@ -92,7 +92,7 @@ Audio Accessory Mode (where applicable) | Enabled | Enabled | Disabled | Enabled
  
 ## Dynamic USB-C disablement: Surface Laptop Studio 2
 
-USB-C disablement is a new feature that enables customers operating in highly secure work environments to prevent USB theft of confidential data and provide more control to organizations. When paired with the Surface Thunderbolt 4 Dock,  IT admins can lock down USB-C ports whenever Surface Laptop Studio 2 is undocked or connected to an unauthorized dock. This means that when your users are connected to an authorized dock in the office, the USB-C ports will have full functionality over their devices. However, when they go off-site, they can still connect to a dock to use accessories or a monitor but cannot use the USB ports to transfer data. 
+Dynamic USB-C disablement is a new feature that enables customers operating in highly secure work environments to prevent USB theft of confidential data and provide more control to organizations. When paired with the Surface Thunderbolt 4 Dock, IT admins can lock down USB-C ports whenever Surface Laptop Studio 2 is undocked or connected to an unauthorized dock. This means that when your users are connected to an authorized dock in the office, the USB-C ports will have full functionality over their devices. However, when they go off-site, they can still connect to a dock to use accessories or a monitor but cannot use the USB ports to transfer data. 
 
 Dynamic USB-C disablement provides IT admins with greater flexibility to manage devices with a new "Mode 3" in addition to existing operational modes:
  
