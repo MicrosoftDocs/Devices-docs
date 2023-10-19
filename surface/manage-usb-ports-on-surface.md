@@ -66,7 +66,7 @@ Dynamic USB-C disablement provides IT admins with greater flexibility to manage 
 
 ### Target behaviors
 
-**Mode** | **Mode 0** | **Mode 1** | **Mode 2** | **Mode 3**
+**Host USB Port State** | **Enabled**  | **Data Disabled** | **Mode 2** | **Mode 3**
 --- | --- | --- | --- | ---
 String | USBPortEnabled | USBPortDataDisabled | USBPortHWDisabled | USBPortAuthenticated
 USB 2.0 | Enabled | Data Disabled | Fully Disabled | Dynamically Disabled
@@ -76,6 +76,16 @@ USB Type C Power | Enabled | Enabled | Disabled | Enabled
 PD Power >0W & Communication | Enabled | Enabled | Disabled | Enabled
 DisplayPort Alt Mode | Enabled | Enabled | Disabled | Enabled
 Audio Accessory Mode (where applicable) | Enabled | Enabled | Disabled | Enabled
+
+| Host USB Port State        | Enabled    | Data Disabled | Hardware Disabled | Port Authenticated<br> *Unauthorized or no dock* | Port Authenticated<br> *Authorized Dock* |
+|---------------------------|------------|---------------|-------------------|-----------------------------------|----  |
+| USB 2.0, 3.x, 4.x         | Enabled    | Disabled      | Disabled          | Disabled     |     Enabled         |
+| Thunderbolt 3 or 4        | Enabled    | Disabled      | Disabled          | Disabled   |    Enabled          |
+| Audio Accessories         | Enabled    | Disabled      | Disabled          | Disabled    |    Enabled          |
+| Network                   | Enabled    | Disabled      | Disabled          | Disabled    |      Enabled            |
+| USB Type C Power          | Enabled    | Enabled       | Disabled          | Enabled  |    Enabled            |
+| PD Power >0W              | Enabled    | Enabled       | Disabled          | Enabled   |   Enabled             |
+| DisplayPort Alt Mode      | Enabled    | Enabled       | Disabled          | Enabled   |    Enabled           |
 
 ### Provisioning Surface docks
 
