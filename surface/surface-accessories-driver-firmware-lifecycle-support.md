@@ -55,7 +55,7 @@ Surface Slim Pen 2                                   | October 5, 2021     | Oct
 Surface Pro Type Cover                               | November 5, 2021    | November 5, 2027
 Surface Pro Signature Keyboard with Fingerprint Reader| January 25, 2022   | January 25, 2028
 Surface Pro Liberty Keyboard                         | January 25, 2022    | January 25, 2028
-Surface Pro X Type Cover                             | April 5, 2022       | April 5, 2028
+Surface Pro Keyboard                             | April 5, 2022       | April 5, 2028
 Surface Mouse                                        | October 25, 2022    | October 25, 2028
 Surface Keyboard                                     | October 25, 2022    | October 25, 2028
 Surface Pro Signature Keyboard                       | February 21, 2023   | February 21, 2029
