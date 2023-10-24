@@ -1,12 +1,12 @@
 ---
 title: OS choice for new Surface devices
-description: This article describes how commercial customers can purchase new Surface devices with Windows 10 or Windows 11. 
+description: This article describes how commercial customers can purchase new Surface for Business devices with Windows 10 or Windows 11. 
 ms.prod: surface
 ms.localizationpriority: medium
 author: coveminer
 ms.author: chauncel
 ms.topic: overview
-ms.date: 10/31/2022
+ms.date: 10/24/2023
 ms.reviewer: chauncel
 manager: frankbu
 appliesto:
@@ -16,7 +16,7 @@ appliesto:
 
 # OS choice for new Surface devices
 
-Commercial customers can choose to have Windows 10 or Windows 11 installed on new Surface devices:
+Commercial customers can choose to have Windows 10 or Windows 11 installed on new Surface for Business devices:
 
 - [Surface Pro 8](https://www.microsoft.com/surface/business/surface-pro-8)
 - [Surface Pro 9](https://www.microsoft.com/surface/business/surface-pro-9)
@@ -25,6 +25,7 @@ Commercial customers can choose to have Windows 10 or Windows 11 installed on ne
 - [Surface Laptop Go 2](https://www.microsoft.com/surface/business/surface-laptop-go-2)
 - [Surface Laptop Go 3](https://www.microsoft.com/surface/business/surface-laptop-go-3)
 - [Surface Laptop Studio](https://www.microsoft.com/surface/business/surface-laptop-studio)
+- [Surface Laptop Studio 2](https://www.microsoft.com/surface/business/surface-laptop-studio-2)
 - [Surface Go 3](https://www.microsoft.com/surface/business/surface-go-3)
 - [Surface Go 4](https://www.microsoft.com/surface/business/surface-go-4)
 
@@ -70,6 +71,7 @@ Devices ship from the factory with one of the following OS versions, depending o
 | Surface Laptop 4      | 22H2       | 22H2       |
 | Surface Laptop 5      | 22H2       | 22H2       |
 | Surface Laptop Studio | 22H2       | 22H2       |
+| Surface Laptop Studio 2 | 22H2       | 22H2       |
 | Surface Go 3          | 22H2       | 22H2       |
 | Surface Go 4          | 22H2       | 22H2       |
 | Surface Pro 8         | 22H2       | 22H2       |
