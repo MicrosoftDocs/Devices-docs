@@ -38,11 +38,13 @@ This [downloadable step-by-step walkthrough](/surface/media/surface-autopilot-co
 - Create demo tenant from CDX
 - Select demo user
 
-### AAD and Intune setup
+<a name='aad-and-intune-setup'></a>
+
+### Microsoft Entra ID and Intune setup
 
 - Configure automatic MDM enrollment
 - Configure company branding
-- Create Azure AD Group for all new Autopilot devices
+- Create Microsoft Entra group for all new Autopilot devices
 - Configure Autopilot deployment profile
 
 ### Intune device configuration
