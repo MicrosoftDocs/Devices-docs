@@ -17,7 +17,7 @@ Troubleshoot common problems, including setup issues, Exchange ActiveSync errors
 
 The [Surface Hub Hardware Diagnostic tool](https://www.microsoft.com/store/p/surface-hub-hardware-diagnostic/9nblggh51f2g?rtc=1&activetab=pivot%3aoverviewtab) contains interactive tests which allow you to confirm essential functionality of your Hub is working as expected. In addition to testing hardware, the diagnostic can test the resource account to verify that it is configured properly for your environment. If problems are encountered, results can be saved and shared with the Surface Hub Support Team. For usage information, see [Using the Surface Hub Hardware Diagnostic Tool to test a device account](https://support.microsoft.com/help/4077574/using-the-surface-hub-hardware-diagnostic-tool-to-test-a-device-accoun).
 
-Common issues are listed in the following table, along with causes and possible fixes. The [Setup troubleshooting](#setup-troubleshooting) section contains a listing of on-device problems, along with several types of issues that may be encountered during the first-run experience. The [Exchange ActiveSync errors](#exchange-activesync-errors) section lists common errors the device may encounter when trying to synchronize with an Microsoft Exchange ActiveSync server.
+Common issues are listed in the following table, along with causes and possible fixes. The [Setup troubleshooting](#setup-troubleshooting) section contains a listing of on-device problems, along with several types of issues that may be encountered during the first-run experience. The [Exchange ActiveSync errors](#exchange-activesync-errors) section lists common errors the device may encounter when trying to synchronize with a Microsoft Exchange ActiveSync server.
 
 ## Setup troubleshooting
 
@@ -173,8 +173,8 @@ Possible fixes for issues with Surface Hub first-run program.
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><p>Unable to find the provided account in Azure AD.</p></td>
-<td align="left"><p>The provided account's User Principal Name (UPN) has a tenant that can't be reached in Azure AD.</p></td>
+<td align="left"><p>Unable to find the provided account in Microsoft Entra ID.</p></td>
+<td align="left"><p>The provided account's User Principal Name (UPN) has a tenant that can't be reached in Microsoft Entra ID.</p></td>
 <td align="left"><p>Make sure that you have a working Internet connection, and that the device can reach Microsoft Online Services. Make sure the account credentials are entered correctly.</p></td>
 </tr>
 <tr class="even">
@@ -189,7 +189,7 @@ Possible fixes for issues with Surface Hub first-run program.
 </tr>
 <tr class="even">
 <td align="left"><p>Could not discover the SIP address after entering the account credentials.</p></td>
-<td align="left"><p>There was no SIP address entry in Active Directory or Azure AD.</p></td>
+<td align="left"><p>There was no SIP address entry in Active Directory or Microsoft Entra ID.</p></td>
 <td align="left"><p>Make sure the account is enabled with Skype for Business and has a SIP address. If not, you can enter the SIP address manually into the text box.</p></td>
 </tr>
 </tbody>

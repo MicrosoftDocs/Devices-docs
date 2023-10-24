@@ -166,7 +166,7 @@
                   href: windows-10-team-known-issues.md
                 - name: Troubleshoot Surface Hub
                   href: troubleshoot-surface-hub.md  
-                - name: Troubleshoot Azure AD Join 
+                - name: Troubleshoot Microsoft Entra join 
                   href: troubleshoot-azure-ad-join-on-surface-hub.md
                 - name: Troubleshoot Azure sign-in logs
                   href: troubleshoot-azure-sign-in-logs-for-surface-hub.md          
