@@ -25,7 +25,7 @@ Commercial customers can choose to have Windows 10 or Windows 11 installed on ne
 - [Surface Laptop Go 2](https://www.microsoft.com/surface/business/surface-laptop-go-2)
 - [Surface Laptop Go 3](https://www.microsoft.com/surface/business/surface-laptop-go-3)
 - [Surface Laptop Studio](https://www.microsoft.com/surface/business/surface-laptop-studio)
-- [Surface Laptop Studio 2](https://www.microsoft.com/surface/business/surface-laptop-studio-2)
+- [Surface Laptop Studio 2](https://www.microsoft.com/surface/business/surface-laptop-studio-2) (Installed with Windows 11 only. Windows 10 is available via .msi download only)
 - [Surface Go 3](https://www.microsoft.com/surface/business/surface-go-3)
 - [Surface Go 4](https://www.microsoft.com/surface/business/surface-go-4)
 
