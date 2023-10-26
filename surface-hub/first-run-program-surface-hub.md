@@ -75,7 +75,7 @@ When you first start Surface Hub, the device automatically enters first-time Set
     :::image type="content" source="images/hub-setup-name.png" alt-text="Name this device.":::
 
    - The **Friendly name** is visible on the bottom left corner of Surface Hub 2S and is shown when projecting to the device.
-   - The **Device name** identifies the device when affiliated with Active Directory or Azure Active Directory and when enrolling the device with Intune.
+   - The **Device name** identifies the device when affiliated with Active Directory or Microsoft Entra ID and when enrolling the device with Intune.
 
    > [!IMPORTANT]
    > If you plan to affiliate the Surface Hub with Active Directory, the device name must meet the [standard requirements for computer names in AD](/troubleshoot/windows-server/identity/naming-conventions-for-computer-domain-site-ou#computer-names).Otherwise the setup will fail.
@@ -90,7 +90,7 @@ You can only set up device admins during first-time Setup. For more information,
 - [Surface Hub 2S device affiliation](/surface-hub/prepare-your-environment-for-surface-hub#device-affiliation)
 - [Admin Group Management](admin-group-management-for-surface-hub.md)
 
-1. **Choose the type of admin account.** Select one of the following options: Active Directory Domain Services, Azure Active Directory, or Local admin.
+1. **Choose the type of admin account.** Select one of the following options: Active Directory Domain Services, Microsoft Entra ID, or Local admin.
 
     :::image type="content" source="images/hub-setup-join.png" alt-text="Choose type of admin account.":::
 
@@ -100,15 +100,17 @@ You can only set up device admins during first-time Setup. For more information,
 2. Select the Active Directory Security Group containing members allowed to sign in to the Settings app on Surface Hub 2S.
 3. Select **Finish**. The device will restart.
 
-### Microsoft Azure Active Directory
+<a name='microsoft-azure-active-directory'></a>
 
-1. If you intend to manage Surface Hub from the cloud using Microsoft Intune or an MDM provider, select **Microsoft Azure Active Directory**.
+### Microsoft Entra ID
+
+1. If you intend to manage Surface Hub from the cloud using Microsoft Intune or an MDM provider, select **Microsoft Entra ID**.
 2. Select Next and sign in with a work or school account. If redirected, authenticate using your organization’s sign-in page and provide additional credentials if requested. Otherwise, enter your password and select **Next.**
 
     :::image type="content" source="images/hub-setup-signin.png" alt-text="The screenshot shows the dialog to sign in with a work or school account.":::
 
 > [!TIP]
-> To configure who can use the Settings app to manage Surface Hubs, ensure that automatic Intune enrollment is enabled in your tenant before joining the device to Azure AD. Intune policies can then be used to [configure non-Global admins](surface-hub-2s-nonglobal-admin.md) on Surface Hubs.
+> To configure who can use the Settings app to manage Surface Hubs, ensure that automatic Intune enrollment is enabled in your tenant before joining the device to Microsoft Entra ID. Intune policies can then be used to [configure non-Global admins](surface-hub-2s-nonglobal-admin.md) on Surface Hubs.
 
 ### Local Administrator account
 
