@@ -25,7 +25,7 @@ Commercial customers can choose to have Windows 10 or Windows 11 installed on ne
 - [Surface Laptop Go 2](https://www.microsoft.com/surface/business/surface-laptop-go-2)
 - [Surface Laptop Go 3](https://www.microsoft.com/surface/business/surface-laptop-go-3)
 - [Surface Laptop Studio](https://www.microsoft.com/surface/business/surface-laptop-studio)
-- [Surface Laptop Studio 2](https://www.microsoft.com/surface/business/surface-laptop-studio-2)
+- [Surface Laptop Studio 2](https://www.microsoft.com/surface/business/surface-laptop-studio-2) (Installed with Windows 11 only. Windows 10 will be available via .msi download only)
 - [Surface Go 3](https://www.microsoft.com/surface/business/surface-go-3)
 - [Surface Go 4](https://www.microsoft.com/surface/business/surface-go-4)
 
@@ -59,7 +59,7 @@ The ability to get the OS version you need directly from Surface includes delive
 
 ## Windows OS versions
 
-Devices ship from the factory with one of the following OS versions, depending on your choice.
+Most devices ship from the factory with one of the following OS versions, depending on your choice. Surface Laptop Studio 2 ships from the factory with Windows 11 with the flexibility for customers to download an .msi file to install Windows 10.
 
 > [!TIP]
 > If you order devices from a reseller, please check with the reseller on the exact OS version that meets your requirements.
@@ -71,7 +71,7 @@ Devices ship from the factory with one of the following OS versions, depending o
 | Surface Laptop 4      | 22H2       | 22H2       |
 | Surface Laptop 5      | 22H2       | 22H2       |
 | Surface Laptop Studio | 22H2       | 22H2       |
-| Surface Laptop Studio 2 | 22H2       | 22H2       |
+| Surface Laptop Studio 2 | 22H2 (.msi download)       | 22H2       |
 | Surface Go 3          | 22H2       | 22H2       |
 | Surface Go 4          | 22H2       | 22H2       |
 | Surface Pro 8         | 22H2       | 22H2       |
