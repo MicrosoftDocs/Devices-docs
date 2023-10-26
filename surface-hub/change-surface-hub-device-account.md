@@ -38,7 +38,7 @@ You can change the device account in Settings to accomplish the following tasks:
 
 ## What happens?
 
-The UPN and password are used to validate the account in AD or Azure AD. If the validation fails, you may need to provide the domain and user name.
+The UPN and password are used to validate the account in Active Directory or Microsoft Entra ID. If the validation fails, you may need to provide the domain and user name.
 
 Mail, calendar, Microsoft Teams, and related resources depend on a compatible device account. For Teams or Skype for Business to work, the device account must have a valid SIP address. The device will try to find the SIP automatically. If an SIP address can't be found, the UPN will be used as the SIP address. If this isn't the SIP address for the account, you'll need to provide the SIP address.
 
