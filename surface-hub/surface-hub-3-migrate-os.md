@@ -6,7 +6,7 @@ author: coveminer
 ms.author: dpandre
 manager: frankbu
 ms.topic: how-to
-ms.date: 12/05/2023
+ms.date: 11/05/2023
 ms.localizationpriority: Medium
 appliesto:
 - Surface Hub 3

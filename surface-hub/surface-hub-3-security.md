@@ -6,8 +6,10 @@ author: coveminer
 ms.author: chauncel
 manager: frankbu
 ms.topic: overview
-ms.date: 11/15/2023
+ms.date: 11/05/2023
 ms.localizationpriority: Medium
+appliesto:
+- Surface Hub 3
 ---
 # Surface Hub 3 security best practices
 
