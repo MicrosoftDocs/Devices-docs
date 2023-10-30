@@ -1,40 +1,39 @@
 ---
-title: "Surface Hub 3 security overview"
+title: "Surface Hub 3 security best practices"
 description: "This page explains best practices for Surface Hub 3 security."
 ms.prod: surface-hub
 author: coveminer
 ms.author: chauncel
 manager: frankbu
 ms.topic: overview
-ms.date: 12/25/2023
+ms.date: 11/15/2023
 ms.localizationpriority: Medium
 ---
 # Surface Hub 3 security best practices
 
 In today's rapidly evolving digital landscape, ensuring the security of Windows devices is paramount. As IT admins, you are the frontline defense against a myriad of threats that seek to compromise your organization's data, infrastructure, and reputation. This article describes best practices for securing Surface Hub 3 running Microsoft Teams Rooms on Windows:
 
-- [Change or remove the default local admin password](#change-or-remove-the-default-local-admin-password)
+- [Change or remove the default local admin account](#change-or-remove-the-default-local-admin-account)
 - [Set a UEFI password](#set-a-uefi-password)
 - [Physically secure Surface Hub 3](#physically-secure-surface-hub-3)
 
-## Change or remove the default local admin password
+## Change or remove the default local admin account
 
-The default local admin password is a well-known entry point for malicious actors. Keeping the default password is akin to leaving your front door unlocked. If the default "Admin" password is not changed immediately after setup, there are several potential risks:
+The default local admin account is a well-known entry point for malicious actors. If the default Admin password is not changed immediately after setup, there are several potential risks:
 
-- **Unauthorized Access**: The most immediate risk is that unauthorized individuals can easily access the system. Since the default password is likely known or can be easily found, it becomes a weak point for security.
-- **Data Breach**: Once inside the system, malicious actors can potentially access sensitive data, including meeting information, logs, or any other stored data.
-- **System Manipulation**: Unauthorized users can change settings, install malicious software, or alter the system in ways that can compromise its functionality or security.
+- **Unauthorized access**: The most immediate risk is that unauthorized individuals can easily access the system. Since the default password is likely known or can be easily found, it becomes a weak point for security.
+- **Data breach**: Once inside the system, malicious actors can potentially access sensitive data, including meeting information, logs, or any other stored data.
+- **System manipulation**: Unauthorized users can change settings, install malicious software, or alter the system in ways that can compromise its functionality or security.
 
-### To change admin password on Surface Hub 3 
+### To change local admin password on Surface Hub 3 
 
 1. Go to **Settings > Accounts > Sign-in options > Password > Change**
-2. Enter your current password.
+2. Enter the current password.
 3. Create a new password, confirm the password, and add a hint.
 
 ### Remove the admin password 
 
-Consider joining the device to Azure AD. By doing so, you can enable a policy that removes the local admin password. (Expand this)
-
+Consider joining the device to Azure AD. By doing so, you can enable a policy that removes the local admin password. (WIP - expand this)
 
 ## Set a UEFI password
 
@@ -55,12 +54,20 @@ Physical security is as crucia tol as digital security. Devices like the Surface
 
 ## Microsoft Teams Rooms Pro Management 
 
-It’s strongly recommended to enroll your Surface Hub 3 into the Microsoft Teams Rooms Pro Management portal, a cloud-based management solution designed to proactively monitor and update Microsoft Teams Rooms devices and their peripherals. This service is tailored for organizations aiming to enhance the meeting room experience for end users, facilitated by real-time monitoring and management for Microsoft Teams Rooms devices. 
+It’s strongly recommended to use a licence for the Microsoft Teams Rooms Pro Management portal, a cloud-based management solution designed to proactively monitor and update Microsoft Teams Rooms devices and their peripherals. This service is tailored for organizations aiming to enhance the meeting room experience for end users, facilitated by real-time monitoring and management for Microsoft Teams Rooms devices like Surface Hub 3. 
 
 - **Intelligent Operations**: Utilizes software and machine learning to automate updates, detect problems, and resolve issues for Microsoft Teams Rooms.
 - **Timely Security Patches**: Automated update management ensures that security patches are applied promptly as they become available, minimizing the window of vulnerability and protecting devices from known security threats.
 - **Update Management**: Automates the orchestration of meeting application and Windows updates based on customer-configurable deployment rings.
 
+To learn more, see [Microsoft Teams Rooms Pro Management](/microsoftteams/rooms/rooms-pro-management)
+
+## Differences with Windows 10 Team Edition
+
+The following security features are not enabled by default on Surface Hub 3: 
+
+- BitLocker 
+- Code integrity policy
 
 ## Learn more
 
@@ -68,7 +75,6 @@ It’s strongly recommended to enroll your Surface Hub 3 into the Microsoft Team
 - [BitLocker overview](/windows/security/information-protection/bitlocker/bitlocker-overview)
 - [Application Control overview](/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-control)
 - [Secure and manage Surface Hub 2S with SEMM and UEFI](/surface-hub/surface-hub-2s-secure-with-uefi-semm)
-- [How Surface Hub addresses Wi-Fi Direct security issues](/surface-hub/surface-hub-wifi-direct)
 - [Windows Defender Application Control and virtualization-based protection of code integrity](/windows/security/threat-protection/device-guard/introduction-to-device-guard-virtualization-based-security-and-windows-defender-application-control)
 - [Surface Tools for IT](https://www.microsoft.com/download/details.aspx?id=46703)
 - [FIPS 140-2 Level 2](/windows/security/threat-protection/fips-140-validation)
