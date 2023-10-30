@@ -16,7 +16,7 @@ ms.localizationpriority: medium
 # Troubleshoot Azure Sign-in Logs for Surface Hub
 
 ## What are Azure sign-in logs? ##
-Azure [sign-in logs](/azure/active-directory/reports-monitoring/concept-sign-ins) provide information on successful and failed sign-in attempts that occur within an Azure AD tenant. The Azure sign-in logs provide a detailed view of all sign-in activities for an account. When sign-in issues are encountered on the Surface Hub, an IT administrator can review these logs for any interrupts or failures. Here are some common reasons these logs are helpful to troubleshoot Surface Hub issues:
+Azure [sign-in logs](/azure/active-directory/reports-monitoring/concept-sign-ins) provide information on successful and failed sign-in attempts that occur within a Microsoft Entra tenant. The Azure sign-in logs provide a detailed view of all sign-in activities for an account. When sign-in issues are encountered on the Surface Hub, an IT administrator can review these logs for any interrupts or failures. Here are some common reasons these logs are helpful to troubleshoot Surface Hub issues:
 
 - Unable to add the device account to the Surface Hub
 - Device account no longer syncs with Exchange Online
@@ -29,7 +29,7 @@ If you experience sign-in issues with the Surface Hub device account or personal
 To access the Azure sign-in logs for a tenant, a user must have the necessary [role](/azure/active-directory/reports-monitoring/concept-all-sign-ins#how-do-you-access-the-sign-in-logs) assigned.
 
 1. Sign in to the [Azure portal](https://portal.azure.com/)
-2. Go to **Azure Active Directory** > **Users**
+2. Go to **Microsoft Entra ID** > **Users**
 3. Locate or search for the account you're troubleshooting and select it.
 4. Select **Sign-in logs**
 5. If you see a banner to **Try out our new sign-in preview**, select it.
@@ -59,7 +59,4 @@ To reveal the policy that is enforcing MFA on the device account, select the Con
 
 Follow the guidance on [Conditional Access for Surface Hub](conditional-access-for-surface-hub.md) to better understand the requirements for the device, and how to [exclude](conditional-access-for-surface-hub.md#exclude-device-account-from-unsupported-conditional-access-policies) the device account from unsupported policies.
  
-Additional details on how to view and analyze the Azure sign-in logs can be found on the [Sign-in logs in Azure Active Directory](/azure/active-directory/reports-monitoring/concept-all-sign-ins) page.
-
-
-
+Additional details on how to view and analyze the Azure sign-in logs can be found on the [Sign-in logs in Microsoft Entra ID](/azure/active-directory/reports-monitoring/concept-all-sign-ins) page.
