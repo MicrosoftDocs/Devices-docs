@@ -35,16 +35,19 @@ The default local admin account is a well-known entry point for malicious actors
 
 ### Remove the admin password 
 
-Consider joining the device to Azure AD. By doing so, you can enable a policy that removes the local admin password. (WIP - expand this)
+Consider joining the device to Microsoft Entra ID (formerly named Azure AD). By doing so, you can enable a policy that removes the local admin password. (WIP - expand this)
 
 ## Set a UEFI password
 
-The Unified Extensible Firmware Interface (UEFI) is a specification that defines a software interface between an operating system and platform firmware. By setting a UEFI password, you add an additional layer of security, preventing unauthorized users from making changes to the device's firmware settings.
-Set a strong UEFI password and ensure it's stored in a secure location. This password should be complex, combining letters, numbers, and special characters.
+The Unified Extensible Firmware Interface (UEFI) is a specification that defines a software interface between an operating system and platform firmware. By setting a UEFI password, you add an additional layer of security, preventing unauthorized users from making changes to the device's firmware settings. Set a strong UEFI password and ensure it's stored in a secure location. This password should be complex, combining letters, numbers, and special characters. 
+
+It's recommended to set a UEFI password using Surface Enterprise Management Mode (SEMM). 
 
 ### Enroll Surface Hub 3 into SEMM
 
-1. WIP: add steps to set password
+1. Download Surface UEFI Configurator from [Surface Tools for IT](https://www.microsoft.com/download/details.aspx?id=46703).
+
+2. WIP: add steps to set password
 
 ## Physically secure Surface Hub 3
 
