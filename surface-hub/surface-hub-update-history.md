@@ -162,7 +162,7 @@ Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabl
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4581839/windows-10-update-history), include:
 
 * Adds ability for administrators to [install Progressive Web Apps](install-pwa-surface-hub.md) (PWAs).
-* Resolves an issue where some Surface Hubs joined to Azure AD or configured with a local administrator account could fail to synchronize their computer clock.
+* Resolves an issue where some Surface Hubs joined to Microsoft Entra ID or configured with a local administrator account could fail to synchronize their computer clock.
 * Resolves an issue where using Meetings and Files sign-in suggestions with the Authenticator app could force the user to repeat the login process.
  
 Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabling device features and services. *[KB5011543](https://support.microsoft.com/help/5011543)
@@ -186,7 +186,7 @@ This update to the Surface Hub includes quality improvements and security fixes.
 
 * Resolves an issue where Surface Hubs could not report data to their configured Azure Log Analytics workspaces.
 * Resolves an issue where starting a Skype for Business meeting from a Surface Hub's Welcome screen could result in a fully maximized SfB client that was not minimizable.
-* Resolves an issue where Azure AD-joined Surface Hubs did not pre-populate Meetings and Files sign-in with a list of meeting invitees.
+* Resolves an issue where Microsoft Entra joined Surface Hubs did not pre-populate Meetings and Files sign-in with a list of meeting invitees.
 * Resolves an issue where device account password rotation could not be enabled in some on-premises scenarios.
 
 Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabling device features and services. *[KB5009596](https://support.microsoft.com/help/5009596)
@@ -244,7 +244,7 @@ This update to the Surface Hub includes quality improvements and security fixes.
 
 * Update to the "Collect logs" feature to include Windows diagnostic data in csv format.
 * Fix that ensures that End Session cleanup fully removes all data related to Edge Chromium.
-* Improves some personal sign-in scenarios with Azure AD-joined Surface Hubs when using the Authenticator app.
+* Improves some personal sign-in scenarios with Microsoft Entra joined Surface Hubs when using the Authenticator app.
 
 Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabling device features and services. *[KB5004296](https://support.microsoft.com/help/5004296)
 
@@ -451,7 +451,7 @@ Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabl
 
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4018124/windows-10-update-history), include:
 
-* Addresses an issue preventing a user from signing in to a Microsoft Surface Hub device with an Azure Active Directory account. This issue occurs because a previous session did not end successfully.
+* Addresses an issue preventing a user from signing in to a Microsoft Surface Hub device with a Microsoft Entra account. This issue occurs because a previous session did not end successfully.
 * Adds support for TLS 1.2 connections to identity providers and Exchange in device account setup scenarios.
 * Fixes to improve reliability of Hardware Diagnostic App on Hub 2S. 
 * Fix to improve consistency of first-run setup experience on Hub 2S. 
@@ -808,7 +808,7 @@ This update brings the Windows 10 Team Anniversary Update to Surface Hub and inc
   * Enabled Audio Device Selection (for Surface Hubs attached using external audio devices)
   * Enabled support for HDCP on DisplayPort output connector
   * System UI changes to settings for usability optimization (refer to [User and Admin Guides](https://www.microsoft.com/surface/support/surface-hub) for additional details)
-  * Bug fixes and performance optimizations to speed up the Azure Active Directory sign-in flow
+  * Bug fixes and performance optimizations to speed up the Microsoft Entra sign-in flow
   * Reduced time needed to reset and restore a Surface Hub
   * Windows Defender UI has been added within settings
   * Improved UX touch to start

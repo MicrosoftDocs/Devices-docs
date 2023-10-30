@@ -25,7 +25,7 @@ There are several ways to manage your BitLocker key on the Surface Hub.
 
     If you can’t find the BitLocker key after joining the device to a domain, it’s likely that your Active Directory schema doesn’t support BitLocker key backup. If you don’t want to change the schema, you can save the BitLocker key by going to Settings and following the procedure for using a local admin account, which is detailed later in this list.
 
-2. If you’ve joined the Surface Hub to Azure Active Directory (Azure AD), the BitLocker key will be stored under the account that was used to join the device.
+2. If you’ve joined the Surface Hub to Microsoft Entra ID, the BitLocker key will be stored under the account that was used to join the device.
 
 3. If you’re using a local admin account to manage the device, you can save the BitLocker key by going to the **Settings** app and navigating to **Update & security** &gt; **Recovery**. Insert a USB drive and select the option to save the BitLocker key. The key will be saved to a text file on the USB drive.
 
