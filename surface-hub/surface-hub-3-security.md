@@ -45,9 +45,21 @@ It's recommended to set a UEFI password using Surface Enterprise Management Mode
 
 ### Enroll Surface Hub 3 into SEMM
 
+You will need a dedicated USB drive with at least 50 MB of storage space.  
+
 1. Download Surface UEFI Configurator from [Surface Tools for IT](https://www.microsoft.com/download/details.aspx?id=46703).
 
-2. WIP: add steps to set password
+2. Install UEFI Configurator and select **Start**.
+3. Select Configuration Package > DFI
+4. Add your organizational Personal Information Exchange (PFE) certificate. 
+5. Now you're ready to set a UEFI password. Select **Password Protection**. Enter and confirm your password. Select **Next.**
+
+:::image type="content" source="images/uefi-set-pw.png" alt-text="Screenshot showing screen to set UEFI password.":::
+
+6. Select **Hub** as the Surface type you want to target. 
+7. Optionally, you can configure components and advanced settings. Otherwise, continue to select Next. 
+8. Select your USB drive and click **Build**.
+9. Upon successful creation of the package, the Configurator will display the last two characters of your certificate’s thumbprint. You need these characters when you import to the configuration to Surface Hub 3.
 
 ## Physically secure Surface Hub 3
 
