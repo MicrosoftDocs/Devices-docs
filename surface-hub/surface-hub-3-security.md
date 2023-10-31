@@ -61,17 +61,40 @@ You will need a dedicated USB drive with at least 50 MB of storage space.
 8. Select your USB drive and click **Build**.
 9. Upon successful creation of the package, the Configurator will display the last two characters of your certificate’s thumbprint. You need these characters when you import to the configuration to Surface Hub 3.
 
+### Manage UEFI settings with SEMM
+
+SEMM provides additional security options that you may wish to implement depending on your environment or organization. 
+
+#### Simultaneous Multi-Threading (SMT)
+
+Commonly known as hyperthreading in Intel processors, SMT allows a single physical CPU core to execute multiple threads concurrently. This can improve performance in multi-threaded applications. However, there are specific scenarios where you might want to control the SMT setting. 
+
+Some vulnerabilities, like certain speculative execution side-channel attacks (e.g., L1 Terminal Fault, MDS vulnerabilities), can potentially exploit SMT to access sensitive data. Disabling SMT can mitigate the risk associated with these vulnerabilities, although at the cost of some performance. SMT is enabled by default. 
+
+#### Alternate Boot
+
+The ability to boot from another source, such as a USB or Ethernet device, provides flexibility but can also introduce vulnerabilies: 
+
+- **Unauthorized Operating Systems**: If alternate boot is enabled, an attacker with physical access to the device could boot the system using an unauthorized operating system from a USB drive. This could bypass the security controls of the primary OS.
+- **Data Extraction**: An attacker could boot from an external device to a system that allows direct access to the internal storage, potentially extracting sensitive data.
+- **Malware Installation**: Booting from an untrusted source could introduce malware, rootkits, or other malicious software at the system level.
+- **Bypassing Disk Encryption**: While strong disk encryption like BitLocker should prevent unauthorized access to data, booting from an alternate device might provide an attacker with tools or methods to attempt to circumvent this encryption.
+
+Given these implications, many organizations with a strong focus on security disable alternate boot options on devices to reduce the risk of unauthorized access or tampering. While the alternate boot option provides flexibility and can be beneficial in certain scenarios, it also introduces potential security risks. Organizations should weigh these risks against the benefits and decide on the appropriate configuration based on their security posture and operational needs.
+
+#### WIP - other settings
+
 ## Physically secure Surface Hub 3
 
-Physical security is as crucia tol as digital security. Devices like the Surface Hub, placed in public conference rooms, can be susceptible physical damage or tampering.
+Physical security is as crucial a tool as digital security. Devices like the Surface Hub, placed in public conference rooms, can be susceptible to physical damage or tampering. Consider the following steps to protect Surface Hub. 
 
 - **Tamper-evident seals:** Use tamper-evident seals on the device. If someone attempts to open the device, the seal will show signs of tampering.
 - **Security cables and locks:** Use security cables and locks to secure the device to a heavy or immovable object, making it difficult for someone to walk away with it.
-- **Surveillance:** If possible, install surveillance cameras in the conference room. The mere presence of cameras can deter potential wrongdoers.
+- **Surveillance:** Depending on the workplace environment, you can opt to install surveillance cameras in the conference room. The mere presence of cameras can deter potential wrongdoers.
 
 ## Microsoft Teams Rooms Pro Management 
 
-It’s strongly recommended to use a licence for the Microsoft Teams Rooms Pro Management portal, a cloud-based management solution designed to proactively monitor and update Microsoft Teams Rooms devices and their peripherals. This service is tailored for organizations aiming to enhance the meeting room experience for end users, facilitated by real-time monitoring and management for Microsoft Teams Rooms devices like Surface Hub 3. 
+It’s strongly recommended to use a licence for the Microsoft Teams Rooms Pro Management portal, a cloud-based management solution designed to proactively monitor and update Microsoft Teams Rooms devices and their peripherals. This service is intended for organizations aiming to enhance the meeting room experience for end users, facilitated by real-time monitoring and management for Microsoft Teams Rooms devices like Surface Hub 3. 
 
 - **Intelligent Operations**: Utilizes software and machine learning to automate updates, detect problems, and resolve issues for Microsoft Teams Rooms.
 - **Timely Security Patches**: Automated update management ensures that security patches are applied promptly as they become available, minimizing the window of vulnerability and protecting devices from known security threats.
