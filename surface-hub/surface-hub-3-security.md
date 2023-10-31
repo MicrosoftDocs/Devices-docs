@@ -65,6 +65,8 @@ You will need a dedicated USB drive with at least 50 MB of storage space.
 
 SEMM provides additional security options that you may wish to implement depending on your environment or organization. 
 
+   ![Screenshot showing advanced UEFI settings for Surface Hub](images/uefi-hub-advanced-settings.png)
+   
 #### Simultaneous Multi-Threading (SMT)
 
 Commonly known as hyperthreading in Intel processors, SMT allows a single physical CPU core to execute multiple threads concurrently. This can improve performance in multi-threaded applications. However, there are specific scenarios where you might want to control the SMT setting. 
