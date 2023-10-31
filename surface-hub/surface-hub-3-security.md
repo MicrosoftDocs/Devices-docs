@@ -54,7 +54,7 @@ You will need a dedicated USB drive with at least 50 MB of storage space.
 4. Add your organizational Personal Information Exchange (PFE) certificate. 
 5. Now you're ready to set a UEFI password. Select **Password Protection**. Enter and confirm your password. Select **Next.**
 
-:::image type="content" source="images/uefi-set-pw.png" alt-text="Screenshot showing screen to set UEFI password.":::
+    ![Screenshot showing screen to set UEFI password](images/uefi-set-pw.png)
 
 6. Select **Hub** as the Surface type you want to target. 
 7. Optionally, you can configure components and advanced settings. Otherwise, continue to select Next. 
