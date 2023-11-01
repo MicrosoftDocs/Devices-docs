@@ -63,28 +63,47 @@ You will need a dedicated USB drive with at least 50 MB of storage space.
 
 ### Manage UEFI settings with SEMM
 
-SEMM provides additional security options that you may wish to implement depending on your environment or organization. 
+SEMM provides additional security options that you may wish to implement depending on your environment or organization. As shown in the following figure, advanced UEFI settings provide additional options for hardening Surface Hub that you may wish to configure depending on the security posture of your organization.
 
    ![Screenshot showing advanced UEFI settings for Surface Hub](images/uefi-hub-advanced-settings.png)
    
+
+#### Security
+
+This setting displays the Security page when you boot into Surface UEFI, as described in [Manage Surface UEFI settings](/surface/manage-surface-uefi-settings). 
+
 #### Simultaneous Multi-Threading (SMT)
 
 Commonly known as hyperthreading in Intel processors, SMT allows a single physical CPU core to execute multiple threads concurrently. This can improve performance in multi-threaded applications. However, there are specific scenarios where you might want to control the SMT setting. 
 
-Some vulnerabilities, like certain speculative execution side-channel attacks (e.g., L1 Terminal Fault, MDS vulnerabilities), can potentially exploit SMT to access sensitive data. Disabling SMT can mitigate the risk associated with these vulnerabilities, although at the cost of some performance. SMT is enabled by default. 
+Some vulnerabilities, like certain speculative execution side-channel attacks (for example, L1 Terminal Fault, MDS vulnerabilities), can potentially exploit SMT to access sensitive data. Disabling SMT can mitigate the risk associated with these vulnerabilities, although at the cost of some performance. SMT is enabled by default. 
 
-#### Alternate Boot
+#### IPv6 for PXE Boot
 
-The ability to boot from another source, such as a USB or Ethernet device, provides flexibility but can also introduce vulnerabilies: 
+If your network infrastructure and security controls are primarily designed around IPv4 and are not yet fully equipped to handle IPv6 traffic securely, enabling IPv6 for PXE boot could introduce vulnerabilities. This is because IPv6 might bypass some of the existing security controls that are set up for IPv4.
+
+While enabling IPv6 for PXE boot aligns with the broader industry move towards IPv6 adoption, it's essential to ensure that the network infrastructure, security controls, and operational practices are all equipped to handle IPv6 securely. If not, it might be safer to keep IPv6 for PXE boot disabled until those measures are in place.
+
+#### Alternate Boot & USB Boot
+
+The ability to boot from another source, such as a USB or Ethernet device, provides flexibility for system recovery but can also introduce vulnerabilies: 
 
 - **Unauthorized Operating Systems**: If alternate boot is enabled, an attacker with physical access to the device could boot the system using an unauthorized operating system from a USB drive. This could bypass the security controls of the primary OS.
 - **Data Extraction**: An attacker could boot from an external device to a system that allows direct access to the internal storage, potentially extracting sensitive data.
 - **Malware Installation**: Booting from an untrusted source could introduce malware, rootkits, or other malicious software at the system level.
-- **Bypassing Disk Encryption**: While strong disk encryption like BitLocker should prevent unauthorized access to data, booting from an alternate device might provide an attacker with tools or methods to attempt to circumvent this encryption.
 
-Given these implications, many organizations with a strong focus on security disable alternate boot options on devices to reduce the risk of unauthorized access or tampering. While the alternate boot option provides flexibility and can be beneficial in certain scenarios, it also introduces potential security risks. Organizations should weigh these risks against the benefits and decide on the appropriate configuration based on their security posture and operational needs.
+Given these implications, organizations in highly secure workplace environments may choose to disable Alternate Boot and USB Boot to reduce the risk of unauthorized access or tampering. 
 
-#### WIP - other settings
+#### Boot Order Lock
+
+Enabling the "Boot Order Lock" enhances the security posture by ensuring it only boots from authorized sources. Boot Order Lock is disabled by default. 
+
+## Differences with Windows 10 Team Edition
+
+If you have already managed Surface Hub, it's important to note that the following security features are not enabled by default on Surface Hub 3: 
+
+- BitLocker. To enable Bitlocker, see ??? WIP is there a page for this? 
+- Code integrity policy
 
 ## Physically secure Surface Hub 3
 
@@ -104,12 +123,7 @@ It’s strongly recommended to use a licence for the Microsoft Teams Rooms Pro M
 
 To learn more, see [Microsoft Teams Rooms Pro Management](/microsoftteams/rooms/rooms-pro-management)
 
-## Differences with Windows 10 Team Edition
 
-The following security features are not enabled by default on Surface Hub 3: 
-
-- BitLocker 
-- Code integrity policy
 
 ## Learn more
 
