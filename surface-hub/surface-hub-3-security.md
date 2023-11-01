@@ -23,7 +23,7 @@ In today's rapidly evolving digital landscape, ensuring the security of Windows 
 
 The default local admin account is a well-known entry point for malicious actors. If the default Admin password is not changed immediately after setup, there are several potential risks:
 
-- **Unauthorized access**: The most immediate risk is that unauthorized individuals can easily access the system. Since the default password is likely known or can be easily found, it becomes a weak point for security.
+- **Unauthorized access**: The most immediate risk is that unauthorized individuals can easily access the system. 
 - **Data breach**: Once inside the system, malicious actors can potentially access sensitive data, including meeting information, logs, or any other stored data.
 - **System manipulation**: Unauthorized users can change settings, install malicious software, or alter the system in ways that can compromise its functionality or security.
 
@@ -32,6 +32,8 @@ The default local admin account is a well-known entry point for malicious actors
 1. Go to **Settings > Accounts > Sign-in options > Password > Change**
 2. Enter the current password.
 3. Create a new password, confirm the password, and add a hint.
+
+    ![Screenshot showing Change your password](images/hub3-change-admin-password.png)
 
 ### Remove the admin password 
 
