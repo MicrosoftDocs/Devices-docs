@@ -103,7 +103,7 @@ Designed to be used with software-level mobile device management (MDM), DFCI ena
 
 5. See [Use DFCI profiles on Windows devices in Microsoft Intune](/mem/intune/configuration/device-firmware-configuration-interface-windows) for complete instructions, including:
 
-   - Create your Azure AD security groups
+   - Create your Microsoft Entra security groups
    - Create the profiles
    - Assign the profiles and reboot
    - Update existing DFCI settings

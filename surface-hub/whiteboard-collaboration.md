@@ -25,7 +25,7 @@ To use whiteboard collaboration, complete the following actions:
 
 ## Microsoft 365 requirements
 
-- Whiteboard collaboration is only supported in the Microsoft 365 commercial environment and requires Microsoft 365 with cloud-based Azure Active Directory (Azure AD).
+- Whiteboard collaboration is only supported in the Microsoft 365 commercial environment and requires Microsoft 365 with cloud-based Microsoft Entra ID.
 - You can only run collaborative sessions among users belonging to the same Microsoft 365 tenant.
 - Microsoft 365 Germany or Microsoft 365 operated by 21Vianet don't support whiteboard collaboration.
 

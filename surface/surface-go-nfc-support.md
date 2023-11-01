@@ -18,7 +18,7 @@ appliesto:
 
 Surface Go for Business devices are equipped with support for near field communication (NFC), allowing users to take advantage of several common scenarios with the exception of NFC card payments. Applicable scenarios include:
 
-- **Passwordless authentication.** Azure AD supports FIDO2 security keys as an authentication method for signing into operating systems, applications, and services. To learn more, see the following blog post: [More NFC card reading accessories released for Surface Go](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/more-nfc-card-reading-accessories-released-for-surface-go/ba-p/2203298).
+- **Passwordless authentication.** Microsoft Entra ID supports FIDO2 security keys as an authentication method for signing into operating systems, applications, and services. To learn more, see the following blog post: [More NFC card reading accessories released for Surface Go](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/more-nfc-card-reading-accessories-released-for-surface-go/ba-p/2203298).
 - **Proximity-based apps.** Applications that take advantage of proximity and location by using the RFID capability in Surface Go and a proximity sensor in Windows 10 and Windows 11.
 - **Consumer apps.**  RFID-enabled apps capable of directing consumers to target websites. For example,  users can swipe an RFID-enabled prescription container that opens relevant product information.
 
@@ -42,7 +42,7 @@ Surface Go for Business devices are equipped with support for near field communi
 
 **Is multifactor authentication on Surface Go for Business compliant with FIDO 2.0 standards?**
 
-- Yes, when combined with compliant authentication solutions and servers, such as using AuthenTrend Key Card, Windows Hello and Azure AD.
+- Yes, when combined with compliant authentication solutions and servers, such as using AuthenTrend Key Card, Windows Hello and Microsoft Entra ID.
 
 **Can I access and use NFC from the front of the device?**
 
