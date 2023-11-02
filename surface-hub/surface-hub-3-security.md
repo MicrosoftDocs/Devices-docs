@@ -15,29 +15,37 @@ appliesto:
 
 In today's rapidly evolving digital landscape, ensuring the security of Windows devices is paramount. As IT admins, you are the frontline defense against a myriad of threats that seek to compromise your organization's data, infrastructure, and reputation. This article describes best practices for securing Surface Hub 3 running Microsoft Teams Rooms on Windows:
 
-- [Change or remove the default local admin account](#change-or-remove-the-default-local-admin-account)
+- [Change default local admin password](#change-default-local-admin-password)
 - [Set a UEFI password](#set-a-uefi-password)
 - [Physically secure Surface Hub 3](#physically-secure-surface-hub-3)
 
-## Change or remove the default local admin account
+> [!TIP]
+> Before you begin, review the guidance for [Microsoft Teams Rooms security](/microsoftteams/rooms/security?tabs=Windows), which primarily focuses on security for tabletop conference devices: [Teams Rooms certified systems](/microsoftteams/rooms/certified-hardware?tabs=Windows). For Surface Hub 3, start by treating it like any other Windows devices under your scope of management. (JK note: maybe there's a better way to state this but the point here is to stress the importance of ensuring that customers are familiar with the security options explained below so they approach secuirity depending on the needs of their organization)
 
-The default local admin account is a well-known entry point for malicious actors. If the default Admin password is not changed immediately after setup, there are several potential risks:
+## Change default local admin password
 
-- **Unauthorized access**: The most immediate risk is that unauthorized individuals can easily access the system. 
-- **Data breach**: Once inside the system, malicious actors can potentially access sensitive data, including meeting information, logs, or any other stored data.
-- **System manipulation**: Unauthorized users can change settings, install malicious software, or alter the system in ways that can compromise its functionality or security.
+The default local admin account is a well-known entry point for malicious actors. At a minimum, it's important to change the local admin password on Surface Hub 3. If the default Admin password is not changed immediately after setup, the device may be vulnerable to data breaches, system manipulation, or other unauthorized access. 
 
 ### To change local admin password on Surface Hub 3 
 
-1. Go to **Settings > Accounts > Sign-in options > Password > Change**
+1. Sign in with admin credentials and go to **Settings > Accounts > Sign-in options > Password > Change**
 2. Enter the current password.
-3. Create a new password, confirm the password, and add a hint.
+3. Create a new password, confirm the password, and add a hint. To learn more, see [Change or reset your Windows password](https://support.microsoft.com/windows/change-or-reset-your-windows-password-8271d17c-9f9e-443f-835a-8318c8f68b9c).
 
     ![Screenshot showing Change your password](images/hub3-change-admin-password.png)
 
-### Remove the admin password 
+### Enterprise Management
 
-Consider joining the device to Microsoft Entra ID (formerly named Azure AD). By doing so, you can enable a policy that removes the local admin password. (WIP - expand this)
+It's recommended to join Surface Hub 3 to Microsoft Entra ID (formerly named Azure AD) and manage the device using Microsoft Intune or equivalent mobile device management (MDM) solution. 
+
+
+
+utilize the Windows Local Administrator Password Solution (Windows LAPS). LAPS automatically manages local admin passwords, ensuring they're randomized and securely stored in Microsoft Entra ID. This reduces the risk associated with stale or widely-known admin passwords.
+
+#### Assign policies in Microsoft Intune
+
+
+
 
 ## Set a UEFI password
 
