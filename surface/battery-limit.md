@@ -77,7 +77,10 @@ The following devices require a firmware update to support this feature:
 - Surface 3 - [December 6th, 2018 update](https://support.microsoft.com/surface/surface-3-update-history-5d86a7bc-03f7-2d27-d858-e90ce637fb52). Surface UEFI firmware version 1.51116.218.0 and later versions.
 - Surface Pro 4 - [September 10, 2018 update](https://support.microsoft.com/surface/surface-pro-4-update-history-bc6b3a9b-a2a7-5d29-7590-46290d69218b). Surface Embedded Controller firmware version 103.2241.256.0 and later versions.
 - Surface Book - [October 10, 2018 update](https://support.microsoft.com/surface/surface-book-update-history-3c36b18d-1261-2cfa-4ae8-67e1a84bb175). Surface Embedded controller firmware version 90.2226.256.0 and later versions.
-- **Note** This feature currently only applies  to the battery in the detachable clipboard.
+
+> [!NOTE]
+> This feature only applies to the battery in the detachable clipboard.
+
 - Surface Laptop (1st gen) - [January 24, 2019 update](https://support.microsoft.com/surface/surface-laptop-1st-gen-update-history-0f7552c1-3476-a9e3-7cdb-e176102d1b6d). Surface System Aggregator firmware version 145.106.139.09 and later versions.
 - Surface Pro (5th gen) and Surface Pro with Advanced LTE Model 1807 - [August 1, 2019 update](https://support.microsoft.com/surface/surface-pro-5th-gen-update-history-5203144a-90c1-63df-ce0b-7ec7ff32ff10). Surface System Aggregator firmware version 239.2660.257.0 and later versions.
 - Surface Book 2 - [July 9, 2020 update](https://support.microsoft.com/help/4055398). Surface System Aggregator firmware version 182.2107.139.0 and later versions will apply Battery Limit Mode on the battery in the keyboard base, in addition to the detachable clipboard.
