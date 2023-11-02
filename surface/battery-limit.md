@@ -36,11 +36,12 @@ Enable Battery Limit via one of the following methods:
 ## Modify Surface UEFI on an individual device
 
 1. Boot into Surface UEFI: Press **Power + Vol Up** when turning on the device.
-2. Choose **Boot configuration** > **Advanced Options**, and toggle **Enable Battery Limit** to **On**.  
-:::image type="content" source="images/enable-bl.png" alt-text="Screenshot of Battery Limit Advanced options." :::
+2. Choose **Boot configuration** > **Advanced Options**, and toggle **Enable Battery Limit** to **On**.
 
-> [!TIP]
-> On Surface Go (all generations): Choose **Boot configuration** > **Kiosk Mode**, and move the slider to the right to set Battery Limit to **Enabled**.  
+   :::image type="content" source="images/enable-bl.png" lightbox="images/enable-bl.png" alt-text="Screenshot of Battery Limit Advanced options." :::
+
+   > [!TIP]
+   > On Surface Go (all generations): Choose **Boot configuration** > **Kiosk Mode**, and move the slider to the right to set Battery Limit to **Enabled**.  
 
 ## Create a Surface UEFI configuration package for remote deployment to multiple devices
 
@@ -55,7 +56,7 @@ If you're an advanced IT admin, you can use [Surface UEFI Configurator](enroll-a
 2. On the **Advanced Settings** configuration page, toggle the **Kiosk Overrides** setting to **On**.
 3. Toggle **Battery Limit** to **On**.
 
-:::image type="content" source="images/semm-bl.png" alt-text="Screenshot of advanced settings showing option to enable Battery Limit." :::
+   :::image type="content" source="images/semm-bl.png" alt-text="Screenshot of advanced settings showing option to enable Battery Limit." :::
 
 ### Use Surface UEFI Manager PowerShell scripts
 
@@ -78,8 +79,8 @@ The following devices require a firmware update to support this feature:
 - Surface Pro 4 - [September 10, 2018 update](https://support.microsoft.com/surface/surface-pro-4-update-history-bc6b3a9b-a2a7-5d29-7590-46290d69218b). Surface Embedded Controller firmware version 103.2241.256.0 and later versions.
 - Surface Book - [October 10, 2018 update](https://support.microsoft.com/surface/surface-book-update-history-3c36b18d-1261-2cfa-4ae8-67e1a84bb175). Surface Embedded controller firmware version 90.2226.256.0 and later versions.
 
-> [!NOTE]
-> This feature only applies to the battery in the detachable clipboard.
+  > [!NOTE]
+  > This feature only applies to the battery in the detachable clipboard.
 
 - Surface Laptop (1st gen) - [January 24, 2019 update](https://support.microsoft.com/surface/surface-laptop-1st-gen-update-history-0f7552c1-3476-a9e3-7cdb-e176102d1b6d). Surface System Aggregator firmware version 145.106.139.09 and later versions.
 - Surface Pro (5th gen) and Surface Pro with Advanced LTE Model 1807 - [August 1, 2019 update](https://support.microsoft.com/surface/surface-pro-5th-gen-update-history-5203144a-90c1-63df-ce0b-7ec7ff32ff10). Surface System Aggregator firmware version 239.2660.257.0 and later versions.
