@@ -7,7 +7,7 @@ ms.author: chauncel
 ms.topic: how-to
 ms.localizationpriority: medium
 manager: frankbu
-ms.date: 09/21/2023
+ms.date: 11/02/2023
 ---
 
 # Surface Battery Limit setting
@@ -22,7 +22,7 @@ The Battery Limit option is a Surface UEFI setting that changes how the Surface 
 - Surface Laptop Go (all generations)
 - Surface Laptop SE
 
-Many earlier devices also support Battery Limit with a firmware update, as described in the following section: [Battery Limit support on earlier Surface devices](#battery-limit-support-on-earlier-surface-devices).
+Many other devices also support Battery Limit with a firmware update, as described in the following section: [Battery Limit support on other Surface devices](#battery-limit-support-on-other-surface-devices).
 
 ## How it works
 
@@ -69,7 +69,7 @@ The battery limit feature is controlled via the following setting:
 
 Configure setting to `1` to enable Battery Limit.
 
-### Battery Limit support on earlier Surface devices
+### Battery Limit support on other Surface devices
 
 The following devices require a firmware update to support this feature:
 
