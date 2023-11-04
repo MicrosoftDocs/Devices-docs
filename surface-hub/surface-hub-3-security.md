@@ -69,6 +69,29 @@ Physical security is as crucial a tool as digital security. Devices like the Sur
 - **Security cables and locks:** Use security cables and locks to secure the device to a heavy or immovable object, making it difficult for someone to walk away with it.
 - **Surveillance:** Depending on the workplace environment, you may opt to install surveillance cameras in the conference room. The mere presence of cameras can deter potential wrongdoers.
 
+## Differences with Windows 10 Team on Surface Hub & Surface Hub 2S
+
+The following security features are no longer enabled by default on Surface Hub 3:
+
+- [BitLocker](/windows/security/information-protection/bitlocker/bitlocker-overview)
+- [User Mode Code Integrity (UMCI)](/surface-hub/surface-hub-security#operating-system-defenses)
+
+### BitLocker
+
+It's recommended to enable to BitLocker by via Intune when joined to Entra ID. To learn more, see [Encrypt Windows devices with BitLocker in Intune - Microsoft Intune](/mem/intune/protect/encrypt-devices).
+
+#### To enable BitLocker on a stand-alone Surface Hub 3:
+
+1. Sign in to Surface Hub 3 with admin credentials.
+2. Select Start, enter **Control** and open **Control Panel**. 
+3. Select **System & Security** > **BitLocker Drive Encryption** > **Turn on BitLocker.**
+
+![Screenshot showing how to turn on BitLocker via Control Panel](images/hub-3-turn-on-bitlocker.png). 
+
+### User Mode Code Integrity (UMCI)
+
+UMCI enforces code integrity policies and ensures that only trusted code runs in user mode, helping to prevent the execution of malicious or untrusted code. UMCI can be configured with Group Policy when joined to Entra ID or by using PowerShell cmdlets. It is part of a set of features that can be configured with the Windows Defender Application Control (WDAC), which also includes configurable code integrity policies. To learn more, see [Understand Windows Defender Application Control (WDAC) policy rules and file rules](/windows/security/application-security/application-control/windows-defender-application-control/design/select-types-of-rules-to-create)
+
 ## Microsoft Teams Rooms Pro Management 
 
 It’s strongly recommended to use a licence for the Microsoft Teams Rooms Pro Management portal, a cloud-based management solution designed to proactively monitor and update Microsoft Teams Rooms devices and their peripherals. This service is intended for organizations aiming to enhance the meeting room experience for end users, facilitated by real-time monitoring and management for Microsoft Teams Rooms devices like Surface Hub 3. 
