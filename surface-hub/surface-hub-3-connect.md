@@ -3,7 +3,7 @@ title: "Connect devices to Surface Hub 3"
 description: "This page explains how to connect external devices to Surface Hub 3."
 ms.prod: surface-hub
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 manager: frankbu
 ms.topic: how-to
 ms.date: 11/05/2023
