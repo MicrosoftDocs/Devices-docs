@@ -13,20 +13,20 @@ appliesto:
 ---
 # Surface Hub 3 security best practices
 
-In today's rapidly evolving digital landscape, ensuring the security of Windows devices is paramount. As IT admins, you are the frontline defense against a myriad of threats that seek to compromise your organization's data, infrastructure, and reputation. This article describes best practices for securing Surface Hub 3 running Microsoft Teams Rooms on Windows:
+Surface Hub 3 runs Microsoft Teams Rooms on Windows in a locked-down state. Depending on the security posture of your organization, you may wish to take additional security measures, as described in this article. At a minium it's recommended to perform the following tasks: 
 
 - [Change default local admin password](#change-default-local-admin-password)
 - [Set a UEFI password](#set-a-uefi-password)
 - [Physically secure Surface Hub 3](#physically-secure-surface-hub-3)
 
 > [!TIP]
-> Before you begin, review the guidance for [Microsoft Teams Rooms security](/microsoftteams/rooms/security?tabs=Windows), which primarily focuses on security for tabletop conference devices: [Teams Rooms certified systems](/microsoftteams/rooms/certified-hardware?tabs=Windows). For Surface Hub 3, start by treating it like any other Windows devices under your scope of management. (JK note: maybe there's a better way to state this but the point here is to stress the importance of ensuring that customers are familiar with the security options explained below so they approach secuirity depending on the needs of their organization)
+> Before you begin, review the guidance for [Microsoft Teams Rooms security](/microsoftteams/rooms/security?tabs=Windows), which primarily focuses on security for tabletop conference devices: [Teams Rooms certified systems](/microsoftteams/rooms/certified-hardware?tabs=Windows). Surface Hub 3 runs Windows 11 IoT Enterprise in Kiosk Mode, providing IT admins with a range of centralized configuration and management options.  
 
 ## Change default local admin password
 
-The default local admin account is a well-known entry point for malicious actors. At a minimum, it's important to change the local admin password on Surface Hub 3. If the default Admin password is not changed immediately after setup, the device may be vulnerable to data breaches, system manipulation, or other unauthorized access. 
+The default local admin account is a well-known entry point for malicious actors. At a minimum, it's important to change the local admin password on Surface Hub 3. If the default Admin password is not changed immediately after setup, the device may be vulnerable to data breaches, system manipulation, or other unauthorized access.
 
-### To change local admin password on Surface Hub 3 
+### To change local admin password on Surface Hub 3
 
 1. Sign in with admin credentials and go to **Settings > Accounts > Sign-in options > Password > Change**
 2. Enter the current password.
@@ -39,7 +39,7 @@ The default local admin account is a well-known entry point for malicious actors
 
 ## Set a UEFI password
 
-The Unified Extensible Firmware Interface (UEFI) is a specification that defines a software interface between an operating system and platform firmware. By setting a UEFI password, you add an additional layer of security, preventing unauthorized users from making changes to the device's firmware settings. Set a strong UEFI password and ensure it's stored in a secure location. 
+The Unified Extensible Firmware Interface (UEFI) is a specification that defines a software interface between an operating system and platform firmware. By setting a UEFI password, you add an additional layer of security, preventing unauthorized users from making changes to the device's firmware settings. Set a strong UEFI password and ensure it's stored in a secure location.
 
 Set a UEFI password via the downloable  UEFI Configurator and Surface Enterprise Management Mode (SEMM).
 
@@ -51,19 +51,19 @@ You will need a dedicated USB drive with at least 50 MB of storage space.
 
 2. Install UEFI Configurator and select **Start**.
 3. Select Configuration Package > DFI
-4. Add your organizational Personal Information Exchange (PFE) certificate. 
+4. Add your organizational Personal Information Exchange (PFE) certificate.
 5. Now you're ready to set a UEFI password. Select **Password Protection**. Enter and confirm your password. Select **Next.**
 
     ![Screenshot showing screen to set UEFI password](images/uefi-set-pw.png)
 
-6. Select **Hub** as the Surface type you want to target. 
-7. Optionally, you can configure components and advanced settings. Otherwise, continue to select Next. 
+6. Select **Hub** as the Surface type you want to target.
+7. Optionally, you can configure components and advanced settings. Otherwise, continue to select Next.
 8. Select your USB drive and click **Build**.
 9. Upon successful creation of the package, the Configurator will display the last two characters of your certificate’s thumbprint. You need these characters when you import the configuration to Surface Hub 3.
 
 ## Physically secure Surface Hub 3
 
-Physical security is as crucial a tool as digital security. Devices like the Surface Hub, placed in public conference rooms, can be susceptible to physical damage or tampering. Consider the following steps to protect Surface Hub. 
+Physical security is as crucial a tool as digital security. Devices like the Surface Hub, placed in public conference rooms, can be susceptible to physical damage or tampering. Consider the following steps to protect Surface Hub.
 
 - **Tamper-evident seals:** Use tamper-evident seals on the device. If someone attempts to open the device, the seal will show signs of tampering.
 - **Security cables and locks:** Use security cables and locks to secure the device to a heavy or immovable object, making it difficult for someone to walk away with it.
@@ -80,27 +80,27 @@ The following security features are no longer enabled by default on Surface Hub 
 
 It's recommended to enable to BitLocker by via Intune when joined to Entra ID. To learn more, see [Encrypt Windows devices with BitLocker in Intune - Microsoft Intune](/mem/intune/protect/encrypt-devices).
 
-#### To enable BitLocker on a stand-alone Surface Hub 3:
+#### To enable BitLocker on a stand-alone Surface Hub 3
 
 1. Sign in to Surface Hub 3 with admin credentials.
-2. Select Start, enter **Control** and open **Control Panel**. 
+2. Select Start, enter **Control** and open **Control Panel**.
 3. Select **System & Security** > **BitLocker Drive Encryption** > **Turn on BitLocker.**
 
-![Screenshot showing how to turn on BitLocker via Control Panel](images/hub-3-turn-on-bitlocker.png). 
+![Screenshot showing how to turn on BitLocker via Control Panel](images/hub-3-turn-on-bitlocker.png).
 
 ### User Mode Code Integrity (UMCI)
 
 UMCI enforces code integrity policies and ensures that only trusted code runs in user mode, helping to prevent the execution of malicious or untrusted code. UMCI can be configured with Group Policy when joined to Entra ID or by using PowerShell cmdlets. It is part of a set of features that can be configured with the Windows Defender Application Control (WDAC), which also includes configurable code integrity policies. To learn more, see [Understand Windows Defender Application Control (WDAC) policy rules and file rules](/windows/security/application-security/application-control/windows-defender-application-control/design/select-types-of-rules-to-create)
 
-## Microsoft Teams Rooms Pro Management 
+## Microsoft Teams Rooms Pro Management
 
-It’s strongly recommended to use a licence for the Microsoft Teams Rooms Pro Management portal, a cloud-based management solution designed to proactively monitor and update Microsoft Teams Rooms devices and their peripherals. This service is intended for organizations aiming to enhance the meeting room experience for end users, facilitated by real-time monitoring and management for Microsoft Teams Rooms devices like Surface Hub 3. 
+It’s strongly recommended to use a licence for the Microsoft Teams Rooms Pro Management portal, a cloud-based management solution designed to proactively monitor and update Microsoft Teams Rooms devices and their peripherals. This service is intended for organizations aiming to enhance the meeting room experience for end users, facilitated by real-time monitoring and management for Microsoft Teams Rooms devices like Surface Hub 3.
 
 - **Intelligent Operations**: Utilizes software and machine learning to automate updates, detect problems, and resolve issues for Microsoft Teams Rooms.
 - **Timely Security Patches**: Automated update management ensures that security patches are applied promptly as they become available, minimizing the window of vulnerability and protecting devices from known security threats.
 - **Update Management**: Automates the orchestration of meeting application and Windows updates based on customer-configurable deployment rings.
 
-To learn more, see [Microsoft Teams Rooms Pro Management](/microsoftteams/rooms/rooms-pro-management)   
+To learn more, see [Microsoft Teams Rooms Pro Management](/microsoftteams/rooms/rooms-pro-management)
 
 ### Enterprise Management of Surface Hub 3
 
@@ -125,12 +125,11 @@ It's recommended to join Surface Hub 3 to Microsoft Entra ID (Azure AD) and mana
 SEMM provides additional security options that you may wish to implement depending on your environment or organization. As shown in the following figure, advanced UEFI settings provide additional options for hardening Surface Hub that you may wish to configure depending on the security posture of your organization.
 
    ![Screenshot showing advanced UEFI settings for Surface Hub](images/uefi-hub-advanced-settings.png)
-   
 
 #### Simultaneous Multi-Threading (SMT)
 
-Commonly known as hyperthreading in Intel processors, SMT allows a single physical CPU core to execute multiple threads concurrently. This can improve performance in multi-threaded applications. However, there are specific scenarios where you might want to control the SMT setting. 
-Some vulnerabilities, like certain speculative execution side-channel attacks (for example, L1 Terminal Fault, MDS vulnerabilities), can potentially exploit SMT to access sensitive data. Disabling SMT can mitigate the risk associated with these vulnerabilities, although at the cost of some performance. SMT is enabled by default. 
+Commonly known as hyperthreading in Intel processors, SMT allows a single physical CPU core to execute multiple threads concurrently. This can improve performance in multi-threaded applications. However, there are specific scenarios where you might want to control the SMT setting.
+Some vulnerabilities, like certain speculative execution side-channel attacks (for example, L1 Terminal Fault, MDS vulnerabilities), can potentially exploit SMT to access sensitive data. Disabling SMT can mitigate the risk associated with these vulnerabilities, although at the cost of some performance. SMT is enabled by default.
 
 #### IPv6 for PXE Boot
 
@@ -140,25 +139,22 @@ While enabling IPv6 for PXE boot aligns with the broader industry move towards I
 
 #### Alternate Boot & USB Boot
 
-The ability to boot from another source, such as a USB or Ethernet device, provides flexibility for system recovery but can also introduce vulnerabilies: 
+The ability to boot from another source, such as a USB or Ethernet device, provides flexibility for system recovery but can also introduce vulnerabilies:
 
 - **Unauthorized Operating Systems**: If alternate boot is enabled, an attacker with physical access to the device could boot the system using an unauthorized operating system from a USB drive. This could bypass the security controls of the primary OS.
 - **Data Extraction**: An attacker could boot from an external device to a system that allows direct access to the internal storage, potentially extracting sensitive data.
 - **Malware Installation**: Booting from an untrusted source could introduce malware, rootkits, or other malicious software at the system level.
 
-Given these implications, organizations in highly secure workplace environments may choose to disable Alternate Boot and USB Boot to reduce the risk of unauthorized access or tampering. 
+Given these implications, organizations in highly secure workplace environments may choose to disable Alternate Boot and USB Boot to reduce the risk of unauthorized access or tampering.
 
 #### Boot Order Lock
 
-Enabling the "Boot Order Lock" enhances the security posture by ensuring it only boots from authorized sources. Boot Order Lock is disabled by default. 
+Enabling the "Boot Order Lock" enhances the security posture by ensuring it only boots from authorized sources. Boot Order Lock is disabled by default.
 
 ## Learn more
 
 - [Secure Boot overview](/windows-hardware/design/device-experiences/oem-secure-boot)
 - [BitLocker overview](/windows/security/information-protection/bitlocker/bitlocker-overview)
 - [Application Control overview](/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-control)
-- [Secure and manage Surface Hub 2S with SEMM and UEFI](/surface-hub/surface-hub-2s-secure-with-uefi-semm)
 - [Windows Defender Application Control and virtualization-based protection of code integrity](/windows/security/threat-protection/device-guard/introduction-to-device-guard-virtualization-based-security-and-windows-defender-application-control)
 - [Surface Tools for IT](https://www.microsoft.com/download/details.aspx?id=46703)
-- [FIPS 140-2 Level 2](/windows/security/threat-protection/fips-140-validation)
-- [Common Criteria certification](/windows/security/threat-protection/windows-platform-common-criteria)
