@@ -15,12 +15,27 @@ appliesto:
 
 # First-time setup for Surface Hub 3
 
-When you first start Surface Hub, the device automatically enters first-time Setup mode to guide you through account configuration and related settings.
+## Prerequisites
+
+Before you begin, ensure that you have the following: 
+
+- An account with admin privileges
+- A resource account with a [supported Microsoft Teams Rooms license](s/microsoftteams/rooms/rooms-licensing)
+ 
+> [!TIP]
+> Review the [Microsoft Teams Rooms Deployment overview](/microsoftteams/rooms/rooms-deploy)
+
+When you first start Surface Hub 3, the device automatically enters first-time Setup mode to guide you through account configuration and related settings.
 
 > [!NOTE]
 > You can automate the setup process with a [Provisioning package](#use-provisioning-packages) to ensure a consistent experience across multiple Surface Hubs.
 
-## Get started
+## Unboxing and hardware setup
+
+Carefully unbox the Surface Hub 2S and set it up on its stand or mount it as per the instructions. Connect any peripherals that you will be using with the device, such as a keyboard or mouse, although these are not required for setup.
+Power On:
+
+Once the Surface Hub 2S is in place and connected to power, press the power button to start the device.
 
 1. **Select your region.** Confirm the auto-detected region and select **Yes**.
 
