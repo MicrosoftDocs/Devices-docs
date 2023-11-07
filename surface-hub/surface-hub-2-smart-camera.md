@@ -1,6 +1,6 @@
 ---
-title: "Install and manage Surface Hub 2 Smart Camera"
-description: "Explains how to install and manage settings for the Surface Hub 2 Smart Camera."
+title: "Install and manage Surface Hub Smart Camera"
+description: "Explains how to install and manage settings for the Surface Hub Smart Camera."
 ms.prod: surface-hub
 author: coveminer
 ms.author: hachidan
@@ -10,16 +10,16 @@ ms.date: 03/16/2022
 ms.localizationpriority: Medium
 ---
 
-# Install and Manage Surface Hub 2 Smart Camera
+# Install and Manage Surface Hub Smart Camera
 
-Surface Hub 2 Smart Camera<sup>1</sup> is designed for hybrid teams and optimized for remote participants. With a sharp focus on the foreground and background, remote participants can see people interact with content on the Surface Hub while also viewing everyone else in the room. Surface Hub 2 Smart Camera has a wide field of view greater than 136 degrees, automatic framing, high-quality glass optics, and a low light sensor.
+Surface Hub Smart Camera<sup>1</sup> is designed for hybrid teams and optimized for remote participants. With a sharp focus on the foreground and background, remote participants can see people interact with content on the Surface Hub while also viewing everyone else in the room. Surface Hub Smart Camera has a wide field of view greater than 136 degrees, automatic framing, high-quality glass optics, and a low light sensor.
 ![Ultra-wide camera view includes people whiteboarding on extreme edges of 85" Hub](images/surface-hub-2-smart-camera-fov.png)
 
 *Ultra-wide camera view includes people whiteboarding on extreme edges of 85" Hub*
 
 ## System requirements
 
-For Surface Hubs running Team OS, Surface Hub 2 Smart Camera requires the following updates for the [Windows 10 Team 2020 update](surface-hub-2020-update-whats-new.md) (20H2) on Surface Hub 2:
+For Surface Hubs running Team OS, Surface Hub Smart Camera requires the following updates for the [Windows 10 Team 2020 update](surface-hub-2020-update-whats-new.md) (20H2) on Surface Hub 2:
 
 - Windows 10 Team 2020 Update 2 (KB5010415 or a subsequent Windows update)
 - System Hardware Update-January 21, 2022 (or a subsequent System Hardware Update)
@@ -91,20 +91,20 @@ To learn more, refer to the following pages:
 
 If you've [migrated your Surface Hub](surface-hub-2s-migrate-os.md) to run Windows 11 Pro or Windows 11 Enterprise, you'll need to turn on automatic framing for the Surface Hub Smart Camera. By default, automatic framing is turned off.
 
-To turn on automatic framing, go to **Settings > Bluetooth & devices > Manage Cameras>  Surface Hub 2 Smart Camera.**
+To turn on automatic framing, go to **Settings > Bluetooth & devices > Manage Cameras>  Surface Hub Smart Camera.**
 
 ### Windows 10 Desktop on Surface Hub
 
 Automatic framing is always enabled and can't be disabled or otherwise configured.
 
-### Order Surface Hub 2 Smart Camera
+### Order Surface Hub Smart Camera
 
-Purchase Surface Hub 2 Smart Camera from your [authorized Microsoft Surface reseller](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface?).
+Purchase Surface Hub Smart Camera from your [authorized Microsoft Surface reseller](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface?).
 
 ### Learn more
 
--[Video:Surface Hub 2 Smart Camera](https://youtu.be/sgv_TeT8RB8)
+-[Video:Surface Hub Smart Camera](https://youtu.be/sgv_TeT8RB8)
 
 ### References
 
-<sup>1</sup> Surface Hub 2 Smart Camera, sold separately starting March 16, 2022, dynamically adjusts the video feed for remote participants. Surface Hub 2 Smart Camera included in the box with Surface Hub 2S 85” starting in May 2022.
+<sup>1</sup> Surface Hub Smart Camera, sold separately starting March 16, 2022, dynamically adjusts the video feed for remote participants. Surface Hub Smart Camera included in the box with Surface Hub 2S 85” starting in May 2022.
