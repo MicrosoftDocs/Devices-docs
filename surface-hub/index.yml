@@ -46,7 +46,7 @@ landingContent:
           - text: Install Progressive Web Apps on Surface Hub
             url:  install-pwa-surface-hub.md 
           - text: Install & manage Surface Hub Smart Camera
-            url: surface-hub-2-smart-camera.md       
+            url: surface-hub-smart-camera.md       
           - text: Teams Rooms on Surface Hub                               
             url: surface-hub-teams-rooms.md
 

@@ -264,6 +264,11 @@
             "source_path":  "surface/upgrade-surface-devices-to-windows-10-with-mdt.md",
             "redirect_url":  "/windows/deployment/deploy-windows-mdt/upgrade-to-windows-10-with-the-microsoft-deployment-toolkit",
             "redirect_document_id":  false
-        }				
+        },
+        {
+            "source_path":  "surface-hub/surface-hub-2-smart-camera.md",
+            "redirect_url": "/surface-hub/surface-hub-smart-camera",
+            "redirect_document_id":  false
+        }					
     ]
 }

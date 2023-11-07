@@ -3,17 +3,17 @@ title: "Install and manage Surface Hub Smart Camera"
 description: "Explains how to install and manage settings for the Surface Hub Smart Camera."
 ms.prod: surface-hub
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 manager: frankbu
 ms.topic: how-to
-ms.date: 03/16/2022
+ms.date: 11/07/2023
 ms.localizationpriority: Medium
 ---
 
 # Install and Manage Surface Hub Smart Camera
 
 Surface Hub Smart Camera<sup>1</sup> is designed for hybrid teams and optimized for remote participants. With a sharp focus on the foreground and background, remote participants can see people interact with content on the Surface Hub while also viewing everyone else in the room. Surface Hub Smart Camera has a wide field of view greater than 136 degrees, automatic framing, high-quality glass optics, and a low light sensor.
-![Ultra-wide camera view includes people whiteboarding on extreme edges of 85" Hub](images/surface-hub-2-smart-camera-fov.png)
+![Ultra-wide camera view includes people whiteboarding on extreme edges of 85" Hub](images/surface-hub-smart-camera-fov.png)
 
 *Ultra-wide camera view includes people whiteboarding on extreme edges of 85" Hub*
 

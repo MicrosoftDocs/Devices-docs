@@ -13,7 +13,7 @@ appliesto:
 ---
 # Replace & install camera on Surface Hub 2S
 
-This article explains how to remove the Surface Hub 2S camera and install a replacement camera or the [Surface Hub Smart Camera](surface-hub-2-smart-camera.md).
+This article explains how to remove the Surface Hub 2S camera and install a replacement camera or the [Surface Hub Smart Camera](surface-hub-smart-camera.md).
 
 | Step  |    Task                                                                                                                                             |    Illustration   |
 | - | ----------------------------------------------------------------------------------------------------------------------------------------------- | ----- |
@@ -22,6 +22,6 @@ This article explains how to remove the Surface Hub 2S camera and install a repl
 
 ## Learn more
 
-- [Install and Manage Surface Hub Smart Camera](surface-hub-2-smart-camera.md)
+- [Install and Manage Surface Hub Smart Camera](surface-hub-smart-camera.md)
 - [How to pack and ship your Surface Hub 2S for service](surface-hub-2s-pack-components.md)
 - [Remove, replace & install Surface Hub 2S compute cartridge](surface-hub-2s-replace-cartridge.md)

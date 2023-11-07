@@ -26,7 +26,7 @@ After installation of this update ([KB5010415](https://support.microsoft.com/hel
 
 ### Support for Surface Hub Smart Camera
 
-The AI-powered Surface Hub Smart Camera is optimized for hybrid teams allowing remote participants to see people interact with content on the Surface Hub while also viewing everyone else in the room.  To learn more, see [Install and manage Surface Hub Smart Camera](surface-hub-2-smart-camera.md). 
+The AI-powered Surface Hub Smart Camera is optimized for hybrid teams allowing remote participants to see people interact with content on the Surface Hub while also viewing everyone else in the room.  To learn more, see [Install and manage Surface Hub Smart Camera](surface-hub-smart-camera.md). 
 
 ### Support for Progressive Web Apps (PWAs)
 
