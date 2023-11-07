@@ -4,7 +4,7 @@ description: Configuration service providers (CSPs) provide a rich set of option
 manager: frankbu
 ms.prod: surface-hub
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: troubleshooting
 ms.date: 02/03/2023
 ms.localizationpriority: medium

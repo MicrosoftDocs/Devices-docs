@@ -3,7 +3,7 @@ title: "Unpack Surface Hub 2S"
 description: "This page includes information about safely unpacking Surface Hub 2S."
 ms.prod: surface-hub
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 manager: frankbu
 ms.topic: how-to
 ms.date: 06/20/2019

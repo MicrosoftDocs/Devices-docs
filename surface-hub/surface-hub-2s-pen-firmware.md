@@ -3,7 +3,7 @@ title: "Update pen firmware on Surface Hub 2S"
 description: "This page describes how to update firmware for the Surface Hub 2 pen."
 ms.prod: surface-hub
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 manager: frankbu
 ms.topic: how-to
 ms.date: 04/15/2021

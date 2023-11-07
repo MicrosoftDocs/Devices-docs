@@ -4,7 +4,7 @@ description: Describes how to check the warranty status of Surface Hub devices d
 manager: frankbu
 ms.prod: surface-hub
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: how-to
 ms.date: 01/18/2023
 ms.localizationpriority: medium
