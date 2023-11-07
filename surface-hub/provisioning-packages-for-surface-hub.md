@@ -6,18 +6,19 @@ ms.reviewer: dpandre
 manager: frankbu
 ms.prod: surface-hub
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: how-to
 ms.date: 07/20/2021
 ms.localizationpriority: medium
 appliesto:
 - Surface Hub
 - Surface Hub 2S
+- Surface Hub 3
 ---
 
 # Create provisioning packages for Surface Hub
 
-Provisioning packages allow you to automate deployment of key features, helping deliver a consistent experience across all Surface Hubs in your organization.  Using  Windows Configuration Designer (WCD) on a separate PC, you can complete the following tasks:
+Provisioning packages allow you to automate deployment of key features, helping deliver a consistent experience across all Surface Hubs in your organization. Using  Windows Configuration Designer (WCD) on a separate PC, you can complete the following tasks:
 
 - Enroll in Active Directory or Microsoft Entra ID
 - Create a device administrator account
@@ -27,10 +28,12 @@ Provisioning packages allow you to automate deployment of key features, helping 
 
 ## Overview
 
+Provisioning packages enable a streamlined setup process that can be performed without extensive IT intervention, saving time and resources in organizational and enterprise environments.
+
 1. On a separate PC running Windows 10 or Windows 11, install [Windows Configuration Designer](https://www.microsoft.com/store/apps/9nblggh4tx22) from the Microsoft Store.
-1. Select [**Provision Surface Hub devices**](#use-surface-hub-provisioning-wizard) to configure common settings using a wizard. Or select [Advanced provisioning](#use-advanced-provisioning) to view and configure all possible settings.
-1. Create the provisioning package and save it to a USB drive.
-1. Deploy the package to your Surface Hub during first-run setup, or through the Settings app. To learn more, see [Create a provisioning package](/windows/configuration/provisioning-packages/provisioning-create-package).
+2. Select [**Provision Surface Hub devices**](#use-surface-hub-provisioning-wizard) to configure common settings using a wizard. Or select [Advanced provisioning](#use-advanced-provisioning) to view and configure all possible settings.
+3. Create the provisioning package and save it to a USB drive.
+4. Deploy the package to your Surface Hub during first-run setup, or through the Settings app. To learn more, see [Create a provisioning package](/windows/configuration/provisioning-packages/provisioning-create-package).
 
 ## Use Surface Hub provisioning wizard
 
