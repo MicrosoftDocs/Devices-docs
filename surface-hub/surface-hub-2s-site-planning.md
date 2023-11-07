@@ -8,15 +8,18 @@ manager: frankbu
 ms.topic: how-to
 ms.date: 06/20/2019
 ms.localizationpriority: Medium
+appliesto:
+- Surface Hub 2S
+- Surface Hub 3
 ---
 
-# Surface Hub 2S site planning
+# Surface Hub site planning
 
-Designed for team collaboration, Surface Hub 2S can transform the way you work  —  not only in the conference rooms but any place you want to work. One of the biggest advantages of Surface Hub 2S is the ability to move it from one space to another when used with the Steelcase Roam mobile stand and mobile battery. Providing unplugged, uninterrupted teamwork capabilities, Surface Hub 2S can be integrated into almost any workspace.
+Designed for team collaboration, Surface Hub can transform the way you work  —  not only in the conference rooms but any place you want to work. One of the biggest advantages of Surface Hub 2S and Surface Hub 3 is the ability to move it from one space to another when used with the Steelcase Roam mobile stand and mobile battery. Providing unplugged, uninterrupted teamwork capabilities, Surface Hub 3 can be integrated into almost any workspace.
 
 ## Room considerations
 
-Designed for interactive use in smaller conference rooms and huddle spaces, Surface Hub 2S provides a 4K camera, microphone array, crystal clear speakers, and a brilliant 4K+ resolution display. Optimizing the user experience in larger spaces with more people further away from the display may require peripherals such as an extra camera, microphone, or room systems solution such as Microsoft Teams Rooms.
+Designed for interactive use in smaller conference rooms and huddle spaces, Surface Hub 3 provides a 4K camera, microphone array, crystal clear speakers, and a brilliant 4K+ resolution display. Optimizing the user experience in larger spaces with more people further away from the display may require peripherals such as an extra camera, microphone, or room systems solution such as Microsoft Teams Rooms.
 
 As a general guideline, install Surface Hub 2S in a space that meets the following criteria:
 

@@ -32,10 +32,10 @@ When you first start Surface Hub 3, the device automatically enters first-time S
 
 ## Unboxing and hardware setup
 
-Carefully unbox the Surface Hub 2S and set it up on its stand or mount it as per the instructions. Connect any peripherals that you will be using with the device, such as a keyboard or mouse, although these are not required for setup.
+Carefully unbox the Surface Hub 3 and set it up on its stand or mount it as per the instructions. Connect any peripherals that you will be using with the device, such as a keyboard or mouse, although these are not required for setup.
 Power On:
 
-Once the Surface Hub 2S is in place and connected to power, press the power button to start the device.
+Once the Surface Hub 3 is in place and connected to power, press the power button to start the device.
 
 1. **Select your region.** Confirm the auto-detected region and select **Yes**.
 
