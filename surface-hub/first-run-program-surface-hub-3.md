@@ -7,7 +7,7 @@ ms.prod: surface-hub
 author: coveminer
 ms.author: chauncel
 ms.topic: how-to
-ms.date: 11/05/2023
+ms.date: 12/05/2023
 ms.localizationpriority: medium
 appliesto:
 - Surface Hub 3
@@ -27,8 +27,14 @@ Before you begin, ensure that you have the following:
 
 When you first start Surface Hub 3, the device automatically enters first-time Setup mode to guide you through account configuration and related settings.
 
-> [!NOTE]
-> You can automate the setup process with a [Provisioning package](#use-provisioning-packages) to ensure a consistent experience across multiple Surface Hubs.
+## Use provisioning packages
+
+Although not required, you can automate the setup process with a Provisioning package to ensure a consistent experience across multiple Surface Hubs. This optional technology allows for a streamlined setup process that can be performed without extensive IT intervention, saving time and resources in organizational and enterprise environments.
+
+1. To begin, review the documentation in [Create provisioning packages](provisioning-packages-for-surface-hub.md) and save the provisioning package to a USB thumb drive.
+2. Insert the USB thumb drive into one of the USB ports when you see the License Agreement page.
+3. When prompted, choose the provisioning package you'd like to use.
+4. Follow the rest of the steps, and remove the USB drive at the first reboot that occurs in the setup process.
 
 ## Unboxing and hardware setup
 
