@@ -15,9 +15,18 @@ appliesto:
 
 # First-time setup for Surface Hub 3
 
+## Unboxing and hardware setup
+
+Carefully unbox the Surface Hub 3 and set it up on its stand or mount it as per the instructions: 
+
+- [Install and mount Surface Hub 50 inch](surface-hub-2s-install-mount.md)
+- [Install and mount Surface Hub 85 inch](surface-hub-2s-85-install-mount.md)
+
+Connect any peripherals that you will be using with the device, such as a keyboard or mouse, although these are not required for setup.
+
 ## Prerequisites
 
-Before you begin, ensure that you have the following: 
+Before you start Surface Hub 3 for the first time, ensure that you have the following: 
 
 - An account with admin privileges
 - A resource account with a [supported Microsoft Teams Rooms license](s/microsoftteams/rooms/rooms-licensing)
@@ -27,19 +36,16 @@ Before you begin, ensure that you have the following:
 
 When you first start Surface Hub 3, the device automatically enters first-time Setup mode to guide you through account configuration and related settings.
 
-## Use provisioning packages
+## Use provisioning packages in enteprise environments
 
-Although not required, you can automate the setup process with a Provisioning package to ensure a consistent experience across multiple Surface Hubs. This optional technology allows for a streamlined setup process that can be performed without extensive IT intervention, saving time and resources in organizational and enterprise environments.
+Although not required, you can automate the setup process with a provisioning package to ensure a consistent experience across multiple Surface Hubs. This optional technology allows for a streamlined setup process that can be performed without extensive IT intervention, saving time and resources in organizational and enterprise environments.
 
 1. To begin, review the documentation in [Create provisioning packages](provisioning-packages-for-surface-hub.md) and save the provisioning package to a USB thumb drive.
 2. Insert the USB thumb drive into one of the USB ports when you see the License Agreement page.
 3. When prompted, choose the provisioning package you'd like to use.
 4. Follow the rest of the steps, and remove the USB drive at the first reboot that occurs in the setup process.
 
-## Unboxing and hardware setup
-
-Carefully unbox the Surface Hub 3 and set it up on its stand or mount it as per the instructions. Connect any peripherals that you will be using with the device, such as a keyboard or mouse, although these are not required for setup.
-Power On:
+## Surface Hub 3 OOB setup
 
 Once the Surface Hub 3 is in place and connected to power, press the power button to start the device.
 
