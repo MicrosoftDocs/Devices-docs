@@ -3,7 +3,7 @@ title: How to pack and ship Surface Hub 2S
 description: Instructions for packing Surface Hub 2S for shipment or service.
 ms.prod: surface-hub
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 manager: frankbu
 ms.topic: how-to
 ms.date: 02/06/2019
