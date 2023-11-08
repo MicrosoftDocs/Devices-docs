@@ -4,7 +4,7 @@ description: If unable to access Settings on Surface Hub, try these troubleshoot
 manager: frankbu
 ms.prod: surface-hub
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: troubleshooting
 ms.date: 01/09/2023
 ms.localizationpriority: medium

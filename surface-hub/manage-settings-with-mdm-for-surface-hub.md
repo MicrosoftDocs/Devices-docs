@@ -5,7 +5,7 @@ ms.assetid: 18EB8464-6E22-479D-B0C3-21C4ADD168FE
 manager: frankbu
 ms.prod: surface-hub
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: how-to
 ms.date: 02/08/2023
 ms.localizationpriority: medium

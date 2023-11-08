@@ -5,7 +5,7 @@ ms.assetid: CF58F74D-8077-48C3-981E-FCFDCA34B34A
 manager: frankbu
 ms.prod: surface-hub
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: troubleshooting
 ms.date: 03/16/2018
 ms.localizationpriority: medium

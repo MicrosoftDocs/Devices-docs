@@ -3,7 +3,7 @@ title: Miracast on existing wireless network or LAN
 description: Windows 10 enables you to send a Miracast stream over a local network.
 ms.prod: surface-hub
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: how-to
 ms.date: 04/24/2020
 ms.reviewer: 

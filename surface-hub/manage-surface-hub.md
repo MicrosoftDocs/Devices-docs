@@ -5,7 +5,7 @@ ms.assetid: FDB6182C-1211-4A92-A930-6C106BCD5DC1
 manager: frankbu
 ms.prod: surface-hub
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: how-to
 ms.date: 01/17/2018
 ms.localizationpriority: medium
