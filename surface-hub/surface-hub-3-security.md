@@ -10,10 +10,11 @@ ms.date: 11/05/2023
 ms.localizationpriority: Medium
 appliesto:
 - Surface Hub 3
+- Surface Hub 3 Pack
 ---
 # Surface Hub 3 security best practices
 
-Surface Hub 3 runs Microsoft Teams Rooms on Windows in a locked-down state. Depending on the security posture of your organization, you may wish to take other security measures, as described in this article. At a minimum, we recommended the following:
+Surface Hub 3<sup>1</sup> runs Microsoft Teams Rooms on Windows in a locked-down state. Depending on the security posture of your organization, you may wish to take other security measures, as described in this article. At a minimum, we recommended the following:
 
 - [Change default local admin password](#change-default-local-admin-password)
 - [Set a UEFI password](#set-a-uefi-password)
@@ -156,6 +157,10 @@ Given these implications, organizations in highly secure workplace environments 
 #### Boot Order Lock
 
 Enabling the "Boot Order Lock" enhances the security posture by ensuring it only boots from authorized sources. Boot Order Lock is turned off by default.
+
+### References
+
+1. Applies to Surface Hub 3 and Surface Hub 2S upgraded with Surface Hub 3 Pack.
 
 ## Learn more
 
