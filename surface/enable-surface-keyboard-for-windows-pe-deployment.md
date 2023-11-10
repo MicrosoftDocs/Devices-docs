@@ -8,7 +8,7 @@ ms.topic: how-to
 ms.reviewer: carlol
 ms.localizationpriority: medium
 manager: frankbu
-ms.date: 02/17/2023
+ms.date: 11/10/2023
 appliesto:
 - Surface Laptop (all generations)
 - Surface Laptop Studio (all generations)
@@ -64,6 +64,7 @@ Import the following folders as appropriate for your Surface Laptop device.
 | Device                           | Import folders        | More information  |
 | ------------------------------- | ------------------------ | -----------------------|
 | **Surface Pro 9 with Intel processor** | adlserial<br>alderlakepchpsystem<br>alderlakesystem<br>gna<br>intelprecisetouch<br>managementengine<br>msump64x64sta<br>surfaceacpiplatformextension<br>surfacebattery<br>surfacedockintegration<br>surfacehidmini<br>surfacehotplug<br>surfaceintegrationdriver<br>surfacesarmanager<br>surfaceserialhubdriver<br>surfaceservicenulldriver<br>surfacetimealarmacpifilter<br>surfaceucmucsihidclient<br>tbtslimhostcontroller |n/a |
+| **Surface Laptop Studio 2**     | Adl-rplserialLPSS<br>cardreader<br>heci<br>intelquickspi<br>msu53cx22x64sta<br>realtekEthernet<br>surfaceacpiplatformextension<br>surfacebattery<br>surfacedockintegration<br>surfacehidminidriver<br>surfacehotplug<br>surfaceintegrationdriver<br>surfacepenwirelesschargerhotkey<br>surfacesarmanager<br>surfaceserialhub<br>surfacesptclient<br>surfacetimealarmacpifilter<br>surfaceucmucsihidclient<br>surfacewakeontouchcontrol<br>wotquickspiextensionport1 | n/a     |
 | **Surface Laptop Studio**     | intelthcbase <br>managementengine <br>surfaceacpiplatformextension <br>surfacebattery <br>SurfaceEthernetAdapter <br>surfacehidmini  <br>surfacehotplug <br>surfaceintegration <br>surfacesar <br>surfaceserialhub <br>surfacesmfclient <br>surfacesmfdisplayclient <br>surfacesptclient <br>surfacetimealarmacpifilter <br>surfacevirtualfunctionenum <br>tbtslimhostcontroller <br>tglchipset <br>tglserial <br>   | n/a     |
 | **Surface Pro 8**       | intelthcbase <br> ManagementEngine <br> surfaceacpiplatformextension <br> SurfaceBattery <br> SurfaceCoverClick <br> SurfaceEthernetAdapter <br> SurfaceHidMini <br> SurfaceHotPlug <br> surfaceintegrationdriver <br> SurfaceSar <br> SurfaceSerialHub <br> surfacetimealarmacpifilter <br> surfacetypecoverv7fprude <br> SurfaceUcmUcsiHidClient <br> surfacevirtualfunctionenum <br> tbtslimhostcontroller <br> TglChipset <br> TglSerial| n/a  |
 | **Surface Laptop 5 with Intel processor**| adlserial <br> alderlakepchpsystem <br> gna <br> heci <br> intelprecisetouch <br> msump64x64sta <br> surfaceacpiplatformextensiondriver <br> surfacebattery <br> surfacebutton <br> surfacedockintegration <br> surfacehidminidriver <br> surfacehotplug <br> surfaceintegration <br> surfaceserialhubdriver <br> surfacetimealarmacpifilter <br> tbtslimhostcontroller      |  n/a |
