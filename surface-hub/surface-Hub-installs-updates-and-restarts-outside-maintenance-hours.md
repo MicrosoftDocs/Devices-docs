@@ -4,7 +4,7 @@ description: troubleshooting information for Surface Hub regarding automatic upd
 ms.assetid: 6C09A9F8-F9CF-4491-BBFB-67A1A1DED0AA
 ms.prod: surface-hub
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: troubleshooting
 ms.localizationpriority: medium
 ms.date: 04/15/2021

@@ -4,7 +4,7 @@ description: This page explains recommended troubleshooting steps if you're unab
 manager: frankbu
 ms.prod: surface-hub
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: troubleshooting
 ms.date: 08/10/2022
 ms.localizationpriority: medium

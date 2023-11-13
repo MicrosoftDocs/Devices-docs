@@ -4,7 +4,7 @@ description: Downloads related to the Microsoft Surface Hub.
 ms.prod: surface-hub
 
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: how-to
 ms.date: 08/22/2017
 ms.reviewer: 

@@ -6,7 +6,7 @@ ms.reviewer:
 manager: frankbu
 ms.prod: surface-hub
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: conceptual
 ms.date: 03/03/2021
 ms.localizationpriority: medium

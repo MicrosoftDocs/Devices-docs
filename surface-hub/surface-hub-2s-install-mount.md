@@ -3,7 +3,7 @@ title: "Install and mount Surface Hub 50 inch"
 description: "Learn how to install and mount Surface Hub 2S 50 inch or Surface Hub 3 50 inch."
 ms.prod: surface-hub
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 manager: frankbu
 ms.topic: how-to
 ms.date: 04/16/2021
