@@ -17,7 +17,7 @@ appliesto:
 
 ## Unboxing and hardware setup
 
-Carefully unbox the Surface Hub 3 and set it up on its stand or mount it as per the instructions: 
+Carefully unbox the Surface Hub 3 and set it up on its stand or mount it as per the instructions:
 
 - [Install and mount Surface Hub 50 inch](surface-hub-2s-install-mount.md)
 - [Install and mount Surface Hub 85 inch](surface-hub-2s-85-install-mount.md)
@@ -26,11 +26,11 @@ Connect any peripherals that you will be using with the device, such as a keyboa
 
 ## Prerequisites
 
-Before you start Surface Hub 3 for the first time, ensure that you have the following: 
+Before you start Surface Hub 3 for the first time, ensure that you have the following:
 
 - An account with admin privileges
-- A resource account with a [supported Microsoft Teams Rooms license](s/microsoftteams/rooms/rooms-licensing)
- 
+- A resource account with a [supported Microsoft Teams Rooms license](/microsoftteams/rooms/rooms-licensing)
+
 > [!TIP]
 > Review the [Microsoft Teams Rooms Deployment overview](/microsoftteams/rooms/rooms-deploy)
 
@@ -47,29 +47,54 @@ Although not required, you can automate the setup process with a provisioning pa
 
 ## Surface Hub 3 OOB setup
 
-Once the Surface Hub 3 is in place and connected to power, press the power button to start the device.
+### Manual OOB setup
 
-1. **Select your region.** Confirm the auto-detected region and select **Yes**.
+1. Press the power button to start the device 
 
-    :::image type="content" source="images/hub-setup-region.png" alt-text="Select your region.":::
+ ![Surface Hub 3 startup](images/surface-hub-3-oobe-fig1.png)
 
-2. **Confirm keyboard layout.** Select **Yes**.
+2.Connect to a network. 
 
-    :::image type="content" source="images/hub-setup-keyboard.png" alt-text="Confirm keyboard layout.":::
+ ![Connect to a network](images/surface-hub-3-oobe-fig1-0.png)
 
-3. To add a second keyboard, select **Add layout**. Otherwise, select **Skip**.
+> [!TIP]
+> If you have already attached an Ethernet cable, Surface Hub 3 automatically connects to your network. Alternatively, you can connect to a wireless network. **Note:** You cannot connect to a wireless network in hotspots (captive portals) that redirect sign-in requests to a provider's website. 
 
-    :::image type="content" source="images/hub-setup-2keyboard.png" alt-text="Add a second keyboard.":::
 
-4. **Connect to a network.** If you have already attached an Ethernet cable, Surface Hub 3 automatically connects to your network. Alternatively, you can connect to a wireless network. **Note:** You cannot connect to a wireless network in hotspots (captive portals) that redirect sign-in requests to a provider's website. Select **Next**.
+2. **Select your region.** Confirm the auto-detected region and select **Yes**.
 
-    :::image type="content" source="images/hub-setup-network.png" alt-text="Connect to a network.":::
+ ![Select your region](images/surface-hub-3-oobe-fig1a.png)
 
-6. **Accept License Agreement.** Select **Accept**.
+
+3. **Confirm keyboard layout.** Select **Yes**.
+
+ ![Confirm keyboard layout](images/surface-hub-3-oobe-fig1b.png)
+
+
+4. To add a second keyboard, select **Add layout**. Otherwise, select **Skip**.
+
+ ![Add a second keyboard](images/surface-hub-3-oobe-fig1c.png)
+
+## Autopilot setup
+
+If you have enrolled Surface Hub 3 in Windows Autopilot, the OOBE setup continues as follows:
+
+ ![Welcome! Let's get you set up for Work](images/surface-hub-3-oobe-fig3.png)
+
+ ![Setting up for Work or School](images/surface-hub-3-oobe-fig4.png)
+
+ ![Setting up for Work or School details](images/surface-hub-3-oobe-fig5.png)
+
+## Editor note: Legacy steps
+
+WIP for inclusion of some of these legacy steps. 
+
+
+5. **Accept License Agreement.** Select **Accept**.
 
     :::image type="content" source="images/hub-setup-license.png" alt-text="Accept  License Agreement.":::
 
-7. **Enter Device account info** using a UPN address (user@contoso.com) or a down-level domain address (CONTOSO\user). Use the format that matches your environment and enter the password.
+6. **Enter Device account info** using a UPN address (user@contoso.com) or a down-level domain address (CONTOSO\user). Use the format that matches your environment and enter the password.
 
     :::image type="content" source="images/hub-setup-device-account.png" alt-text="Enter Device account info.":::
 
@@ -92,8 +117,8 @@ Once the Surface Hub 3 is in place and connected to power, press the power butto
 
     :::image type="content" source="images/hub-setup-name.png" alt-text="Name this device.":::
 
-   - The **Friendly name** is visible on the bottom left corner of Surface Hub 3.
-   - The **Device name** identifies the device when affiliated with Active Directory or Microsoft Entra ID and when enrolling the device with Intune.
+- The **Friendly name** is visible on the bottom left corner of Surface Hub 3.
+  - The **Device name** identifies the device when affiliated with Active Directory or Microsoft Entra ID and when enrolling the device with Intune.
 
    > [!IMPORTANT]
    > If you plan to affiliate the Surface Hub with Active Directory, the device name must meet the [standard requirements for computer names in AD](/troubleshoot/windows-server/identity/naming-conventions-for-computer-domain-site-ou#computer-names).Otherwise the setup will fail.
@@ -139,20 +164,7 @@ You can set up device admins during first-time Setup or later if needed. For mor
 
     :::image type="content" source="images/hub-setup-privacy.png" alt-text="This screenshot shows the dialog to choose privacy settings.":::
 
-### Use provisioning packages
-
-You can customize first-time setup options to ensure a consistent experience across multiple Surface Hubs.
-
-1. To begin, review the documentation in [Create provisioning packages](provisioning-packages-for-surface-hub.md) and save the provisioning package to a USB thumb drive.
-2. Insert the USB thumb drive into one of the USB ports when you see the License Agreement page (step 6 in the ["Get started"](#get-started) steps above).
-3. When prompted, choose the provisioning package you'd like to use.
-4. Follow the rest of the steps, and remove the USB drive at the first reboot that occurs in the setup process.
-
 ## Learn more
 
 - [Prepare your environment for Surface Hub](prepare-your-environment-for-surface-hub.md)
 - [Surface Hub and Microsoft Teams Rooms automated setup guide](https://go.microsoft.com/fwlink/?linkid=2221605)
-
-
-## Learn more
-
