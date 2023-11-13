@@ -5,7 +5,7 @@ manager: frankbu
 keywords: troubleshoot Surface Hub power
 ms.prod: surface-hub
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: troubleshooting
 ms.date: 11/17/2022
 ms.localizationpriority: medium

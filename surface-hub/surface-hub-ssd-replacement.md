@@ -5,7 +5,7 @@ manager: frankbu
 description: Learn how to replace the hard drive on Surface Hub v1.
 ms.prod: surface-hub
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: how-to
 ms.localizationpriority: medium
 ms.date: 06/09/2020

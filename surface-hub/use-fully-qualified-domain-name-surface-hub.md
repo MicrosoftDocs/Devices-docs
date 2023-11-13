@@ -2,7 +2,7 @@
 title: Configure domain name for Skype for Business
 description: Describes scenarios where you need to specify the domain name of your Skype for Business server on Surface Hub
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: how-to
 ms.date: 01/18/2023
 ms.reviewer: 

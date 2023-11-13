@@ -3,7 +3,7 @@ title: "Surface Hub 2S site planning"
 description: "Learn more about rooms for Surface Hub 2S."
 ms.prod: surface-hub
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 manager: frankbu
 ms.topic: how-to
 ms.date: 06/20/2019
