@@ -75,9 +75,6 @@ Although not required, you can automate the setup process with a provisioning pa
 
  ![Add a second keyboard](images/surface-hub-3-oobe-fig1c.png)
 
-## Autopilot setup
-
-If you have enrolled Surface Hub 3 in Windows Autopilot, the OOBE setup continues as follows:
 
  ![Welcome! Let's get you set up for Work](images/surface-hub-3-oobe-fig3.png)
 
