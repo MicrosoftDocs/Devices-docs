@@ -42,7 +42,7 @@ appliesto:
 
 1. System software uses significant storage space. Available storage is subject to change based on system software updates and apps usage. 1 GB = 1 billion bytes. 1 TB = 1,000 GB. See Surface.com/Storage for more details.
 2. Size and weight vary by configuration and manufacturing process.
-3. Formerly known as the Surface Hub 2 Smart Camera.
+3. Formerly known as the Surface Hub Smart Camera.
 4. Formerly known as the Surface Hub 2 Pen.
 5. Customer Replaceable Units (CRUs) are components available for purchase through your Surface Commercial Authorized Device Reseller. Components can be replaced on-site by a skilled technician following Microsoft’s [Service Guide](https://www.microsoft.com/download/100440). Opening and/or repairing your device can present electric shock, fire and personal injury risks and other hazards. Use caution if undertaking do-it-yourself repairs. Device damage caused during repair will not be covered under Microsoft’s Hardware Warranty or protection plans. Availability of replaceable components and service options may vary by market and/or at initial product launch.
 6. Microsoft’s Limited Warranty is in addition to your consumer law rights.
