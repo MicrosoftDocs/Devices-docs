@@ -5,7 +5,7 @@ ms.prod: surface-hub
 ms.localizationpriority: low
 manager: frankbu
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.date: 09/18/2020
 ms.collection: M365-modern-desktop
 ms.topic: conceptual

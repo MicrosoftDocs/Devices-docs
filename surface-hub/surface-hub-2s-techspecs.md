@@ -4,7 +4,7 @@ description: "View tech specs for Surface Hub 2S including pen, camera, and opti
 ms.prod: surface-hub
 author: coveminer
 manager: frankbu
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: how-to
 ms.date: 12/21/2020
 ms.localizationpriority: Medium

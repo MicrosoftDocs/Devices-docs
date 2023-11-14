@@ -4,7 +4,7 @@ description: Using the Surface Hub Hardware Diagnostic Tool to test a device acc
 ms.assetid: a87b7d41-d0a7-4acc-bfa6-b9070f99bc9c
 ms.prod: surface-hub
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: how-to
 ms.localizationpriority: medium
 ms.date: 06/09/2020

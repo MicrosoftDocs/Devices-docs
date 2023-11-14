@@ -3,7 +3,7 @@ title: "What's new in Windows 10 Team 2020 updates"
 description: "Check out what's new in the latest update of the Surface Hub operating system, Windows 10 Team 2020 Update."
 ms.prod: surface-hub
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 manager: frankbu
 ms.topic: overview
 ms.date: 02/15/2022

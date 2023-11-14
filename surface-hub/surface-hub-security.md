@@ -3,7 +3,7 @@ title: "Surface Hub security overview"
 description: "This page explains the Defense in Depth design of Surface Hub and describes security enhancements in Surface Hub 2S, wireless security protections, and related features."
 ms.prod: surface-hub
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 manager: frankbu
 ms.topic: overview
 ms.date: 01/26/2021
