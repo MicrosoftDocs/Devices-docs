@@ -142,7 +142,7 @@ This update is specific to the Surface Hub 2S and provides the driver and firmwa
 * Intel(R) Ethernet driver - 12.19.1.37
   * Improves system stability.
 * Surface SMC Firmware update - 4.3.139.0
-  * Improves Surface Hub 2 Smart Camera performance in different lighting conditions.
+  * Improves Surface Hub Smart Camera performance in different lighting conditions.
 * Surface UEFI update - 697.148.768.0
   * Improves thermal logging and detection of thermal shutdown scenarios.
 
