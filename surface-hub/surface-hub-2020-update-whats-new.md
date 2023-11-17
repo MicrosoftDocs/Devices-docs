@@ -24,9 +24,9 @@ After a Surface Hub admin installs additional languages, end users [can change t
 
 After installation of this update ([KB5010415](https://support.microsoft.com/help/5010415) or a subsequent Windows CU), Surface Hubs are supported in GCC High environments. At this time, [additional steps ](surface-hub-teams-rooms.md#support-for-teams-rooms-in-government-community-cloud-high-gcc-h) are needed for the Teams Rooms client to successfully connect to GCC High tenants.
 
-### Support for Surface Hub 2 Smart Camera
+### Support for Surface Hub Smart Camera
 
-The AI-powered Surface Hub 2 Smart Camera is optimized for hybrid teams allowing remote participants to see people interact with content on the Surface Hub while also viewing everyone else in the room.  To learn more, see [Install and manage Surface Hub 2 Smart Camera](surface-hub-2-smart-camera.md). 
+The AI-powered Surface Hub Smart Camera is optimized for hybrid teams allowing remote participants to see people interact with content on the Surface Hub while also viewing everyone else in the room.  To learn more, see [Install and manage Surface Hub Smart Camera](surface-hub-smart-camera.md). 
 
 ### Support for Progressive Web Apps (PWAs)
 
