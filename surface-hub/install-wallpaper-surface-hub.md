@@ -16,7 +16,7 @@ appliesto:
 
 # Install wallpaper on Surface Hub 3
 
-This article explains how to change the default wallpaper (background) on Surface Hub 3.
+This article explains how to replace the default wallpaper on Surface Hub 3 with the Windows Bloom wallpaper.
 
 1. On a separate device, download the [Windows Bloom wallpaper](images/oembackgroundimage.png) and save it to a USB drive.
 2. Copy the following XML into a text editor, name it **SkypeSettings.xml**, and save it to your USB drive.  
