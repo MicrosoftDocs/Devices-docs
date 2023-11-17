@@ -34,7 +34,7 @@ ms.localizationpriority: Medium
 |**What’s in the box**| One Surface Hub 2S <br> One Surface Hub 2 Pen  <br> One Surface Hub 2 Camera <br> 2.5 m AC Power Cable <br> Quick Start Guide |
 |**Warranty**| 1-year limited hardware warranty<sup>4</sup> |
 |**BTU**| 1518 BTU/hr |
-|**Input Voltage**| 50/60Hz 110/230v nominal, 90-265v max |
+|**Input Voltage**| 50/60Hz 110/220v nominal, 90-265v max |
 |**Input power, operating**| 445 W (495 W Surge Load) |
 |**Input Current**| 5.46 A |
 |**Input Power, standby**| 5 W max  |
