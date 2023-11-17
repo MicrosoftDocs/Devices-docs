@@ -35,9 +35,9 @@ ms.localizationpriority: Medium
 |**Warranty**| 1-year limited hardware warranty<sup>4</sup> |
 |**BTU**| 1518 BTU/hr |
 |**Input Voltage**| 50/60Hz 110/220v nominal, 90-265v max |
-|**Input Power, operating**| 445 W (495 W Surge Load) |
-|**Input Current**| 5.46 A |
-|**Input Power, standby**| 5 W max  |
+|**Input Power, operating**| 445W (495W Surge Load) |
+|**Input Current**| 5.46A |
+|**Input Power, standby**| 5W max  |
 
 > [!NOTE]
 > <sup>1</sup> System software uses significant storage space. Available storage is subject to change based on system software updates and apps usage. 1 GB= 1 billion bytes. See Surface.com/Storage for more details. <br> <sup>2</sup> Doppler sensor not available in Hong Kong Special Administrative Region, India, Kuwait, and Oman  due to local regulations.
