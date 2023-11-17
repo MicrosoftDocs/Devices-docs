@@ -42,7 +42,10 @@ This article explains how to change the default wallpaper (background) on Surfac
 3. Insert the USB drive into Surface Hub.
 4. Connect an external keyboard and press the Windows key five times.
 5. When the login Window appears, sign in with your admin credentials.
-6. Save the wallpaper image file, oembackgroundimage.png, and **SkypeSettings.xml** in the following folder: **C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState**
+6. Save the wallpaper image file, oembackgroundimage.png, and **SkypeSettings.xml** in the following folder: 
+
+- **C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState**
+
 7. Restart Surface Hub to display the new wallpaper:
 
   ![Windows Bloom wallpaper installed on Surface Hub 3](images/windows-bloom-wallpaper-installed.png).
