@@ -42,7 +42,7 @@ This article explains how to replace the default wallpaper on Surface Hub 3 with
 
 - **C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState**
 
-7. Restart Surface Hub to display the new wallpaper:
+7. Restart Surface Hub. The new wallpaper is displayed:
 
   ![Windows Bloom wallpaper installed on Surface Hub 3](images/windows-bloom-wallpaper-installed.png)
 
