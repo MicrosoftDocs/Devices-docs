@@ -46,7 +46,7 @@ The 85" version of the Surface Hub family brings the Surface Hub 2S experience t
 |**Warranty**| 1-year limited hardware warranty<sup>4</sup>                                                                                                                                                                                                                          |
 |**BTU**| 2047 BTU/hr |
 |**Input Voltage**| 50/60Hz 110/220v nominal, 90-265v max |
-|**Input power, operating**| 665 W (745 W Surge Load) |
+|**Input Power, operating**| 665 W (745 W Surge Load) |
 |**Input Current**| 7.8 A |
 |**Input Power, standby**| 5 W max  |
 
