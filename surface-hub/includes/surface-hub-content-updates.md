@@ -2,6 +2,14 @@
 
 
 
+## Week of November 13, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 11/14/2023 | [Install and manage Surface Hub Smart Camera](/surface-hub/surface-hub-smart-camera) | renamed |
+
+
 ## Week of November 06, 2023
 
 
