@@ -45,7 +45,7 @@ Although not required, you can automate the setup process with a provisioning pa
 3. When prompted, choose the provisioning package you'd like to use.
 4. Follow the rest of the steps, and remove the USB drive at the first reboot that occurs in the setup process.
 
-## Surface Hub 3 OOB setup
+## Surface Hub 3 OOBE setup
 
 1. Press the power button to start the device.
 
@@ -99,9 +99,5 @@ Now you're ready to begin the Microsoft Teams Rooms setup experience.
     ![Enter advanced settings including Exchange sign in and domain information](images/teams-start-fig4.png)
 5. Select **Finish** to complete Microsoft Teams Rooms setup.
 
-    ![Finish Microsoft Teams Rooms setup](images/teams-start-fig5.png)
-
 ## Learn more
 
-- [Prepare your environment for Surface Hub](prepare-your-environment-for-surface-hub.md)
-- [Surface Hub and Microsoft Teams Rooms automated setup guide](https://go.microsoft.com/fwlink/?linkid=2221605)
