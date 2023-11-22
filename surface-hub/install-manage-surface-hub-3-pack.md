@@ -41,7 +41,7 @@ The Surface Hub 3 Pack is a hardware upgrade that transforms your Surface Hub 2S
 
 4. If you wish to rotate Surface Hub from landscape to portrait mode, remove the plastic tip on the new cartridge before inserting it (50" models only).
 
-  ![Image that shows how to slide the compute cartridge out of the unit](images/remove-cartridge-fig4.png)
+  ![Image that shows location of plastic tip that can be removed to enable rotation](images/remove-cartridge-fig4.png)
 
 5. Take your Surface Hub 3 Pack and slide it into your Surface Hub.
 6. Fasten the locking screw and slide the cover into place. Power on your new Surface Hub 3.  
