@@ -29,6 +29,9 @@ The Surface Hub 3 Pack is a hardware upgrade that transforms your Surface Hub 2S
 - An account with admin privileges. If you don't know your user name or admin password, you'll need to reset the device. For more information, see [Reset and recovery for Surface Hub 2S](/surface-hub/surface-hub-2s-recover-reset).
 - A resource account with a [supported Microsoft Teams Rooms license](/microsoftteams/rooms/rooms-licensing).
 
+> [!NOTE]
+> Surface Hub 3 Pack runs Windows 11 IoT Enterprise and does not support downgrading to Windows 10 Team or Windows 10 Pro/Enteprise. 
+
 ## Hub devices connected to Microsoft Entra ID (Azure AD)
 
 If you manage Surface Hub 2S via Microsoft Intune or other mobile device management (MDM) provider, remove the device prior to installing Surface Pack 3. 
@@ -58,5 +61,5 @@ If you manage Surface Hub 2S via Microsoft Intune or other mobile device managem
 
 5. Take the Surface Hub 3 Pack and slide it into your Surface Hub.
 6. Fasten the locking screw and slide the cover into place. Power on your new Surface Hub 3.  
-7. Follow the instructions in [First-time setup for Surface Hub 3](first-run-program-surface-hub-3.md)
+7. Follow the instructions in [First-time setup for Surface Hub 3](first-run-program-surface-hub-3.md). 
 
