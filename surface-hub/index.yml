@@ -63,7 +63,7 @@ landingContent:
           - url: troubleshoot-access-to-settings-app-surface-hub.md
             text: Troubleshoot access to Settings app on Surface Hub 
           - url: troubleshoot-surface-hub-2-pen.md
-            text: Troubleshoot Surface Hub 2 pen   
+            text: Troubleshoot Surface Hub Pen   
           - url: miracast-troubleshooting.md
             text: Troubleshoot display projection on Surface Hub
           - url: surface-hub-2s-recover-reset.md

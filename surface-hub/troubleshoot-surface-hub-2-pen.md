@@ -13,9 +13,9 @@ appliesto:
 - Surface Hub 2S
 ---
 
-# Troubleshoot Surface Hub 2 pen
+# Troubleshoot Surface Hub Pen
 
-If you encounter issues with your Surface Hub 2 pen, follow the troubleshooting steps on this page.
+If you encounter issues with your Surface Hub Pen, follow the troubleshooting steps on this page.
 
 1. First, make sure your pen has a working battery. If the indicator light on the pen shows **solid white**, the pen is ready for use. If the indicator light shows **solid red** or no light, replace the battery on the pen. The Surface Hub 2S pen requires a single **AAA battery.**<br>
 :::image type="content" source="images/hub-2-pen-start.png" alt-text="Surface Hub 2 Pen" :::
