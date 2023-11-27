@@ -57,7 +57,7 @@ You can update the firmware on Surface Hub Pen from a separate PC running Window
 
 ## Command line options
 
-You can run Surface Hub 2 Pen Firmware Update Tool (PenCfu.exe) from the command line.
+You can run Surface Hub Pen Firmware Update Tool (PenCfu.exe) from the command line.
 
 1. Pair the pen to your PC and click the **top** button on the pen.
 2. Double click **PenCfu.exe** to initiate the firmware update. Note that the configuration file and the firmware image files must be stored in the same folder as the tool.
