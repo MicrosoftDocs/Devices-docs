@@ -39,7 +39,7 @@ If you manage Surface Hub 2S via Microsoft Intune or other mobile device managem
 1. Sign into Microsoft Intune admin center and go to **Devices > All devices**,  and select your Surface Hub 2S.
 2. Select **Delete**.
 
-  ![Image indicates how to slide the cover sideways](images/remove-hub2s-from-intune.png).
+  ![Image shows removal of Surface Hub 2S from Intune](images/remove-hub2s-from-intune.png).
 
 ## Remove old cartridge from Surface Hub 2S
 
