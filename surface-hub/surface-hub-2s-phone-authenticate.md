@@ -3,7 +3,7 @@ title: "Configure password-less sign-in on Surface Hub"
 description: "Learn how to simplify signing in to Surface Hub."
 ms.prod: surface-hub
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 manager: frankbu
 ms.topic: how-to
 ms.date: 04/13/2023
@@ -20,11 +20,11 @@ Passwordless sign-in simplifies access to your apps, meetings, and files. Surfac
 
 To let people in your organization sign in to Surface Hub with their phones and other devices instead of a password, you’ll need to make sure that your organization meets these prerequisites:
 
-- Your organization must be a hybrid or cloud-only organization, backed by Azure Active Directory (Azure AD). For more information, see [What is Azure Active Directory?](/azure/active-directory/active-directory-whatis)
+- Your organization must be a hybrid or cloud-only organization, backed by Microsoft Entra ID. For more information, see [What is Microsoft Entra ID?](/azure/active-directory/active-directory-whatis)
 - Make sure you have at minimum a Microsoft 365 E3 subscription.
 - [Configure Multi-Factor Authentication](/azure/active-directory/authentication/howto-mfa-mfasettings). Make sure **Notification through mobile app** is selected.
 
-- Enable content hosting on Azure AD services such as Office, SharePoint, etc.
+- Enable content hosting on Microsoft Entra services such as Office, SharePoint, etc.
 - Surface Hub must be running Windows 10, version 1703 or later.
 - Surface Hub is set up with either a local or domain-joined account.
 
@@ -35,7 +35,7 @@ To learn more see:
 
 ## Configure sign-in using Microsoft Authenticator app
 
-Starting with the [Windows 10 Team 2020 Update](surface-hub-2022-update.md), you can sign in with your preferred email alias in Azure AD or your User Principal Name (UPN) to sign in with Microsoft Authenticator. For example:
+Starting with the [Windows 10 Team 2020 Update](surface-hub-2022-update.md), you can sign in with your preferred email alias in Microsoft Entra ID or your User Principal Name (UPN) to sign in with Microsoft Authenticator. For example:
 
 - Preferred alias format: sofia.gomes@contoso.com
 - UPN format: sgomes@contoso.com
@@ -85,6 +85,6 @@ You'll see a code on the Surface Hub.
 
 ## Learn more
 
-- [Passwordless authentication options for Azure Active Directory](/azure/active-directory/authentication/concept-authentication-passwordless)
+- [Passwordless authentication options for Microsoft Entra ID](/azure/active-directory/authentication/concept-authentication-passwordless)
 - [Passwordless sign-in with the Microsoft Authenticator app](/azure/active-directory/authentication/howto-authentication-passwordless-phone)
 - [Passwordless sign-in using FIDO2 security keys](/azure/active-directory/authentication/howto-authentication-passwordless-security-key#user-registration-and-management-of-fido2-security-keys)

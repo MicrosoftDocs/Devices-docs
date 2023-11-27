@@ -1,6 +1,6 @@
 ---
-title: Surface driver and firmware lifecycle for Windows-based devices
-description: This article provides detailed lifecycle information to help plan and manage hardware and software deployments. 
+title: Surface devices driver and firmware lifecycle
+description: This article provides detailed lifecycle information to help plan and manage hardware and software deployments for Windows-based Surface devices.
 ms.prod: surface
 ms.localizationpriority: high
 author: coveminer
@@ -14,7 +14,7 @@ appliesto:
 - Windows 11
 ---
 
-# Surface driver and firmware lifecycle for Windows-based devices
+# Surface devices driver and firmware lifecycle
 
 In response to requests from customers for more detailed lifecycle information to help plan and manage hardware and software deployments, Surface is offering additional guidance on our driver and firmware updates.
 
@@ -80,7 +80,7 @@ The following table lists products that have passed their end-of-support date ba
 | Surface device                     | Release date | End of servicing date for firmware & drivers |
 | ---------------------------------- | ----------------- | ----------------- |
 | Surface RT                         | October 26, 2012  | April 11, 2017    |
-| Surface Pro2                       | February 9, 2013  | April 11, 2017    |
+| Surface Pro                        | February 9, 2013  | April 11, 2017    |
 | Surface 2                          | October 22, 2013  | April 10, 2018    |
 | Surface Pro 2                      | October 22, 2013  | April 10, 2018    |
 | Surface Pro 3                      | June 20, 2014     | November 13, 2021 |

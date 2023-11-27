@@ -31,7 +31,7 @@ landingContent:
             url: https://www.microsoft.com/surface/business/surface-duo-2
           - text: Fluent UI framework for Surface Duo
             url: https://devblogs.microsoft.com/surface-duo/fluent-ui-android-dual-screen
-          - text: Enroll Android Enterprise dedicated devices into Azure AD Shared device mode
+          - text: Enroll Android Enterprise dedicated devices into Microsoft Entra shared device mode
             url: https://techcommunity.microsoft.com/t5/intune-customer-success/intune-public-preview-enroll-android-enterprise-dedicated/ba-p/1820093
           - text: Behind the scenes on Surface Duo with Microsoft Mechanics
             url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/behind-the-scenes-on-surface-duo-with-microsoft-mechanics/ba-p/1665998
@@ -150,4 +150,3 @@ landingContent:
             url:  /surface/contact-surface-business-education-support
           - text: Surface for Business warranty and protection plans
             url: https://www.microsoft.com/surface/business/warranty-service-offerings-and-support
-

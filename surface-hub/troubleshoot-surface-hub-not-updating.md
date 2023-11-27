@@ -22,7 +22,7 @@ First, determine the OS build number the Surface Hub is currently running. You c
 
 :::image type="content" source="images/surface-hub-os-build.png" alt-text="Image showing where to find current Surface Hub OS build number.":::
  
-If the Surface Hub is Azure AD joined, you can verify the OS build number by navigating to the [Azure portal](https://portal.azure.com/), Select **Devices > All Devices** and locate the Surface Hub.
+If the Surface Hub is Microsoft Entra joined, you can verify the OS build number by navigating to the [Azure portal](https://portal.azure.com/), Select **Devices > All Devices** and locate the Surface Hub.
  
 :::image type="content" source="images/intune-os-version.png" alt-text="Image showing how to find OS build number of a device in Azure.":::
 

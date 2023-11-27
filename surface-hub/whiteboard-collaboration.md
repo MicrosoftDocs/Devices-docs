@@ -3,7 +3,7 @@ title: Set up and use Microsoft Whiteboard
 description: Microsoft Whiteboard's latest update includes the capability for two Surface Hubs to collaborate in real time on the same board.
 ms.prod: surface-hub
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: how-to
 ms.date: 09/27/2022
 ms.reviewer: 
@@ -25,7 +25,7 @@ To use whiteboard collaboration, complete the following actions:
 
 ## Microsoft 365 requirements
 
-- Whiteboard collaboration is only supported in the Microsoft 365 commercial environment and requires Microsoft 365 with cloud-based Azure Active Directory (Azure AD).
+- Whiteboard collaboration is only supported in the Microsoft 365 commercial environment and requires Microsoft 365 with cloud-based Microsoft Entra ID.
 - You can only run collaborative sessions among users belonging to the same Microsoft 365 tenant.
 - Microsoft 365 Germany or Microsoft 365 operated by 21Vianet don't support whiteboard collaboration.
 

@@ -4,7 +4,7 @@ description: Provides overlay files to create a customized welcome screen for Su
 manager: frankbu
 ms.prod: surface-hub
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: how-to
 ms.date: 01/09/2023
 ms.localizationpriority: medium

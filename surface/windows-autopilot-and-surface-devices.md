@@ -22,8 +22,8 @@ Traditionally, IT pros spend a lot of time building and customizing images that 
 
 Windows Autopilot allows you to:
 
-- Automatically join devices to Azure Active Directory (Azure AD).
-- Auto-enroll devices into MDM services, such as Microsoft Intune (requires an Azure AD Premium subscription).
+- Automatically join devices to Microsoft Entra ID.
+- Auto-enroll devices into MDM services, such as Microsoft Intune (requires a Microsoft Entra ID P1 or P2 subscription).
 - Restrict the Administrator account creation. Autopilot is the only way to have the first person who logs into Windows enter as a standard user.
 - Create and auto-assign devices to configuration groups based on device profiles.
 - Customize OOBE (Out of Box Experience) content and branding to meet organizational requirements.
@@ -32,7 +32,7 @@ Windows Autopilot allows you to:
 
 ## How it works
 
-Windows Autopilot-registered devices are identified over the Internet at first startup through a unique device signature that's called a *hardware hash*. They're automatically enrolled and configured by using modern management solutions such as Azure Active Directory (Azure AD) and mobile device management.
+Windows Autopilot-registered devices are identified over the Internet at first startup through a unique device signature that's called a *hardware hash*. They're automatically enrolled and configured by using modern management solutions such as Microsoft Entra ID and mobile device management.
 
 You can register Surface devices at the time of purchase from a Surface partner that's enabled for Windows Autopilot. These partners can ship new devices directly to your users. The devices will be automatically enrolled and configured when they are first turned on. This process eliminates reimaging during deployment, which lets you implement new, agile methods of device management and distribution.
 
@@ -61,7 +61,7 @@ Customers and Microsoft Cloud Solution Providers (CSPs) have the option of regis
 
 ## Surface partners enabled for Windows Autopilot
 
-Select Surface partners can enroll Surface devices in Windows Autopilot for you at the time of purchase. They can also ship enrolled devices directly to your users. The devices can be configured entirely through a zero-touch process by using Windows Autopilot, Azure AD, and mobile device management.
+Select Surface partners can enroll Surface devices in Windows Autopilot for you at the time of purchase. They can also ship enrolled devices directly to your users. The devices can be configured entirely through a zero-touch process by using Windows Autopilot, Microsoft Entra ID, and mobile device management.
 
 Surface partners that are enabled for Windows Autopilot include:
 

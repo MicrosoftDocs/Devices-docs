@@ -3,7 +3,7 @@ title: Local management Surface Hub settings
 description: How to manage Surface Hub settings with Settings.
 ms.prod: surface-hub
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: how-to
 ms.date: 07/08/2019
 manager: frankbu

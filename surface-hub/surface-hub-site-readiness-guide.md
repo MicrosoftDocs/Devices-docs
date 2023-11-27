@@ -4,7 +4,7 @@ manager: frankbu
 description: Use this Site Readiness Guide to help plan your Surface Hub installation.
 ms.prod: surface-hub
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: how-to
 ms.localizationpriority: medium
 ms.date: 06/09/2020
