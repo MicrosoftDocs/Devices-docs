@@ -1,5 +1,5 @@
 ---
-title: Surface Book 3 Quadro RTX 3000 tech overview
+title: Surface Book 3 Quadro RTX 3000 overview
 description: This article describes the advanced capabilities enabled by Nvidia Quadro RTX 3000 in select Surface Book 3 for Business 15-inch models and includes information about ISV-tested applications.
 ms.prod: surface
 ms.localizationpriority: medium
@@ -12,7 +12,7 @@ manager: frankbu
 
 ---
 
-# Surface Book 3 Quadro RTX 3000 tech overview
+# Surface Book 3 Quadro RTX 3000 overview
 
 Surface Book 3 for Business, powered by the NVIDIA® Quadro RTX™ 3000 GPU, is built for professionals who need real-time rendering, AI acceleration, advanced graphics, and compute performance in a portable form factor. Quadro RTX 3000 fundamentally changes what you can do with Surface Book 3:
 

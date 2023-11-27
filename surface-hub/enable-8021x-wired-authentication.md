@@ -3,7 +3,7 @@ title: Enable 802.1x wired authentication
 description: 802.1x Wired Authentication MDM policies have been enabled on Surface Hub devices. 
 ms.prod: surface-hub
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: how-to
 ms.date: 11/15/2017
 ms.reviewer: 
@@ -38,7 +38,7 @@ In most instances, an administrator or user can export the LanProfile XML from a
 netsh lan export profile folder=.
 ```
 
-Running this command will give the following output and place a file titled **Ethernet.xml** in the current directory. 
+Running this command gives the following output and place a file titled **Ethernet.xml** in the current directory. 
 
 ```
 Interface: Ethernet
@@ -68,11 +68,11 @@ If your selected authentication method requires a username and password as oppos
 ./Vendor/MSFT/SurfaceHub/Dot3/EapUserData 
 ```
 
-This OMA-URI node takes a text string of XML as a parameter. The XML provided as a parameter should conform to the [PEAP MS-CHAPv2 User Properties example](/windows/win32/eaphost/peap-ms-chapv2-user-properties). In the example, you will need to replace all instances of *test* and *ias-domain* with your information.
+This OMA-URI node takes a text string of XML as a parameter. The XML provided as a parameter should conform to the [PEAP MS-CHAPv2 User Properties example](/windows/win32/eaphost/peap-ms-chapv2-user-properties). In the example, you need to replace all instances of *test* and *ias-domain* with your information.
 
 
 
 ## Adding certificates
 
-If your selected authentication method is certificate-based, you will need to [create a provisioning package](provisioning-packages-for-surface-hub.md), [utilize MDM](/windows/client-management/mdm/clientcertificateinstall-csp), or import a certificate from settings (**Settings** > **Update and Security** > **Certificates**) to deploy those certificates to your Surface Hub device in the appropriate Certificate Store. When adding certificates, each PFX must contain only one certificate (a PFX cannot have multiple certificates).
+If your selected authentication method is certificate-based, you need to [create a provisioning package](provisioning-packages-for-surface-hub.md), [utilize MDM](/windows/client-management/mdm/clientcertificateinstall-csp), or import a certificate from settings (**Settings** > **Update and Security** > **Certificates**) to deploy those certificates to your Surface Hub device in the appropriate Certificate Store. When adding certificates, each PFX must contain only one certificate (a PFX can't have multiple certificates).
 

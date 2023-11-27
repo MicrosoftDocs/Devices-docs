@@ -5,7 +5,7 @@ manager: frankbu
 description: Specifications for the 84" Surface Hub (v1)
 ms.prod: surface-hub
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: how-to
 ms.localizationpriority: medium
 ms.date: 12/21/2020

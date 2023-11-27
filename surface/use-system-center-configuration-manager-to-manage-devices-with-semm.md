@@ -1,27 +1,27 @@
 ---
-title: Use Microsoft Endpoint Configuration Manager to manage devices with SEMM 
-description: Learn how to manage Microsoft Surface Enterprise Management Mode (SEMM) with Endpoint Configuration Manager.
+title: Use Microsoft Configuration Manager to manage devices with SEMM 
+description: Learn how to manage Surface Enterprise Management Mode (SEMM) with Microsoft Configuration Manager.
 ms.prod: surface
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: how-to
-ms.reviewer: hachidan
+ms.reviewer: dashap
 manager: frankbu
 ms.localizationpriority: medium
-ms.date: 03/02/2023
+ms.date: 10/19/2023
 appliesto:
 - Windows 10
 - Windows 11
 ---
 
-# Use Microsoft Endpoint Configuration Manager to manage devices with SEMM
+# Use Microsoft Configuration Manager to manage devices with SEMM
 
 The Microsoft Surface Enterprise Management Mode (SEMM) feature of Surface UEFI devices lets administrators manage and help secure the configuration of Surface UEFI settings. For most organizations, this process is accomplished by creating Windows Installer (.msi) packages with the Microsoft Surface UEFI Configurator tool. These packages are then run or deployed to the client Surface devices to enroll the devices in SEMM and to update the Surface UEFI settings configuration.
 
-For organizations with Microsoft Endpoint Configuration Manager, there's an alternative to using the Microsoft Surface UEFI Configurator .msi process to deploy and administer SEMM. Microsoft Surface UEFI Manager is a lightweight installer that makes required assemblies for SEMM management available on a device. When you install these assemblies with Microsoft Surface UEFI Manager on a managed client, you can manage SEMM via Configuration Manager with PowerShell scripts, deployed as applications. Doing so eliminates the need for the external Microsoft Surface UEFI Configurator tool.
+For organizations with Microsoft Configuration Manager, there's an alternative to using the Microsoft Surface UEFI Configurator .msi process to deploy and administer SEMM. Microsoft Surface UEFI Manager is a lightweight installer that makes required assemblies for SEMM management available on a device. When you install these assemblies with Microsoft Surface UEFI Manager on a managed client, you can manage SEMM via Configuration Manager with PowerShell scripts, deployed as applications. Doing so eliminates the need for the external Microsoft Surface UEFI Configurator tool.
 
 > [!NOTE]
-> Although the process described in this article may work with earlier versions of Endpoint Configuration Manager or with other third-party management solutions, management of SEMM with Microsoft Surface UEFI Manager and PowerShell is supported only with the Current Branch of Endpoint Configuration Manager.
+> Although the process described in this article may work with earlier versions of Configuration Manager or with other third-party management solutions, management of SEMM with Microsoft Surface UEFI Manager and PowerShell is supported only with the Current Branch of Configuration Manager.
 
 ## Prerequisites
 
@@ -101,39 +101,9 @@ The sample scripts include examples of how to set Surface UEFI settings and how 
 
 ### Manage USB ports on supported devices
 
-With USB port functionality enabled by default on Surface devices, many devices with Surface UEFI allow admins to disable connectivity to USB ports. For example, you may wish to prevent users from copying data from USB thumb drives or external hard disks.
+See [Manage USB ports on Surface devices](manage-usb-ports-on-surface.md)
 
-How you manage USB port functionality varies across Surface devices. Recently released devices—Surface Pro 8, Surface Go 3, and Surface Laptop Studio—allow you to use PowerShell to granularly manage the functionality of USB-C ports and disable USB-A. See [Table 1](#table-1-usb-port-management-options-for-surface-devices) below for a reference of available settings across Surface devices.
-
-For USB-A ports supporting USB2 and USB3, you can disable the USB data protocol from the USB controller to prevent all functionality.
-
-Managing USB-C ports with their support for DisplayPort and USB Power Delivery provides more options beyond disabling all functionality. For example, you can prevent data connectivity to stop users from copying data from USB storage but retain the ability to extend displays and charge the device via a USB-C dock.
-
-Beginning with Surface Pro 8, Surface Laptop Studio, and Surface Go 3, both of these options are now available via the SEMM PowerShell scripts.
-
-**To manage USB ports:**
-
-1. Go to [Surface Tools for IT](https://www.microsoft.com/download/details.aspx?id=46703) and download **SEMM_PowerShell.zip**.
-2. Open **ConfigureSEMM.ps1** and modify as appropriate.
-3. To disable both USB-A and USB-C ports: For UsbPortSettingType, enable the following setting: **UsbPortHwDisabled.**
-
-**Additional options for USB-C ports:**
-
-1. Run **ConfigureSEMM.ps1** and modify as appropriate.
-2. To turn off data only and continue to use USB-C ports for power and display functionality, enable the following mode:  **Mode 1 – Data Disabled.**
-3. To turn off data, power, and display functionality, enable the following mode:  **Mode 2 – Fully Disabled.**
-
-### Table 1. USB port management options for Surface devices
-
-| Device                                                                                                                                                                   | USB-A options                     | USB-C options                                                                                                                                                  | Settings                                                                   | SEMM IDs |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- | -------- |
-| **Surface Laptop**<br> **Surface Laptop 2**<br>**Surface Pro**<br>**Surface Pro 4**<br>**Surface Pro 6**<br>**Surface Studio**<br> **Surface Studio 2**<br>  | Enable or disable data            | N/A: No USB-C port on device                                                                                                                                   | USBPortEnabled (default)<br><br> USBPortHWDisabled                          | 370-379  |
-| **Surface Laptop SE**<br>**Surface Pro 7**<br>**Surface Pro 7+**<br>**Surface Pro 9 5G**<br>**Surface Go**<br>**Surface Go 2**<br>**Surface Laptop Go**<br>**Surface Laptop Go 2**<br>**Surface Laptop 3** (Intel only)<br>>**Surface Laptop 4** (Intel only)<br>**Surface Laptop 5** (Intel only)<br> **Surface Studio 2+**| Enable or disable data            |  Enabled data, display out, and power delivery<br><br>Disabled data, display out, and power delivery                                                            |  USBPortEnabled (default)<br><br>USBPortHWDisabled                          | 370-379  |
-| **Surface Pro 8**<br> **Surface Pro 9**<br>**Surface Laptop Studio**<br>**Surface Laptop 5**<br>**Surface Studio 2+**<br>**Surface Go 3**<br>                                                                                                       | N/A: No USB-A port on device      | Enabled data, display-out, and  power delivery<br><br>Disabled data but enabled display-out and power delivery<br><br>Disabled data, display-out, and power delivery | UsbPortEnabled (default)<br>UsbPortDataDisabled<br>UsbPortHwDisabled | 380-389  |
-| **Surface Book 2** and later <br>                                                                                                                        | Base USB ports are always enabled | Base USB ports are always enabled                                                                                                                              | n/a                                                                        |          |
-| **Surface Book** with Performance Base<br>**Surface Book**                                                                                                               | Base USB ports are always enabled | N/A: No USB-C port on device                                                                                                                                   | n/a                                                                        |          |
-
- The following sections of this article explain the ConfigureSEMM.ps1 script and explore the modifications you need to make to the script to fit your requirements.
+The following sections of this article explain the ConfigureSEMM.ps1 script and explore the modifications you need to make to the script to fit your requirements.
 
 ### Specify certificate and package names
 
@@ -310,7 +280,7 @@ To identify enrolled systems for Configuration Manager, the ConfigureSEMM.ps1 sc
 The following code fragment, found on lines 380-477, is used to write these registry keys.
 
 ```powershell
-380	# For Endpoint Configuration Manager or other management solutions that wish to know what version is applied, tattoo the LSV and current DateTime (in UTC) to the registry:
+380	# For Configuration Manager or other management solutions that wish to know what version is applied, tattoo the LSV and current DateTime (in UTC) to the registry:
 381	$UTCDate = (Get-Date).ToUniversalTime().ToString()
 382	$certIssuer = $certPrint.Issuer
 383	$certSubject = $certPrint.Subject

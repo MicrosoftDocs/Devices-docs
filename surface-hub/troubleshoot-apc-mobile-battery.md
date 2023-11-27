@@ -4,7 +4,7 @@ description: If you encounter an issue powering on your Surface Hub 2S when conn
 manager: frankbu
 ms.prod: surface-hub
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: troubleshooting
 ms.date: 01/30/2023
 ms.localizationpriority: medium

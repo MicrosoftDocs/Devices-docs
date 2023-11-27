@@ -4,7 +4,7 @@ description: Explains how to delete or restrict diagnostic data produced by Surf
 ms.assetid: 087713CF-631D-477B-9CC6-EFF939DE0186
 ms.prod: surface-hub
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: how-to
 ms.localizationpriority: medium
 ms.date: 02/09/2023

@@ -5,7 +5,7 @@ ms.reviewer: dpandre
 manager: frankbu
 ms.prod: surface-hub
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: how-to
 ms.date: 04/14/2023
 ms.localizationpriority: medium

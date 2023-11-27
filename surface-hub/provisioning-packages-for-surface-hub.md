@@ -6,7 +6,7 @@ ms.reviewer: dpandre
 manager: frankbu
 ms.prod: surface-hub
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: how-to
 ms.date: 07/20/2021
 ms.localizationpriority: medium
@@ -19,7 +19,7 @@ appliesto:
 
 Provisioning packages allow you to automate deployment of key features, helping deliver a consistent experience across all Surface Hubs in your organization.  Using  Windows Configuration Designer (WCD) on a separate PC, you can complete the following tasks:
 
-- Enroll in Active Directory or Azure Active Directory
+- Enroll in Active Directory or Microsoft Entra ID
 - Create a device administrator account
 - Add applications and certificates
 - Configure proxy settings
@@ -63,13 +63,13 @@ To provision the device with a certificate, select **Add a certificate**. Enter 
 ### Set up device admins
 
  > [!div class="mx-imgBorder"]
- > ![Join Active Directory, Azure AD, or create a local admin account.](images/sh2-wcd.png)
+ > ![Join Active Directory, Microsoft Entra ID, or create a local admin account.](images/sh2-wcd.png)
 
-You can enroll the device in Active Directory and specify a security group to use the Settings app, enroll in Azure Active Directory to allow global admins to use the Settings app, or create a local administrator account on the device.
+You can enroll the device in Active Directory and specify a security group to use the Settings app, enroll in Microsoft Entra ID to allow global admins to use the Settings app, or create a local administrator account on the device.
 
 1. To enroll the device in Active Directory, enter the credentials for a least-privileged user account to join the device to the domain, and specify the security group to have admin credentials on Surface Hub. If applying the package to a Surface Hub that was reset, you can use the same domain account as long as it's the same account that set up the Surface Hub initially. Otherwise, a different domain account must be used in the provisioning package.
-2. Before you use Windows Configuration Designer to configure bulk Azure AD enrollment, [Plan your Azure AD join implementation](/azure/active-directory/devices/azureadjoin-plan). The **maximum number of devices per user** setting in your Azure AD tenant determines how many times the bulk token that you get in the wizard can be used.
-3. To enroll the device in Azure AD, select that option and enter a friendly name for the bulk token you will obtain using the wizard. Set an expiration date for the token (maximum is 30 days from the date you get the token). Select **Get bulk token**. In the **Let's get you signed in** window, enter an account that has permissions to join a device to Azure AD, and then the password. Select **Accept** to give Windows Configuration Designer the necessary permissions.
+2. Before you use Windows Configuration Designer to configure bulk Microsoft Entra enrollment, [Plan your Microsoft Entra join implementation](/azure/active-directory/devices/azureadjoin-plan). The **maximum number of devices per user** setting in your Microsoft Entra tenant determines how many times the bulk token that you get in the wizard can be used.
+3. To enroll the device in Microsoft Entra ID, select that option and enter a friendly name for the bulk token you will obtain using the wizard. Set an expiration date for the token (maximum is 30 days from the date you get the token). Select **Get bulk token**. In the **Let's get you signed in** window, enter an account that has permissions to join a device to Microsoft Entra ID, and then the password. Select **Accept** to give Windows Configuration Designer the necessary permissions.
 4. To create a local administrator account, select that option and enter a user name and password.
 
 > [!IMPORTANT]
@@ -80,7 +80,7 @@ You can enroll the device in Active Directory and specify a security group to us
 > [!div class="mx-imgBorder"]
 > ![Enroll in third party mobile device management.](images/sh-prov-mdm.png)
 
-If you use a third party mobile device management (MDM) provider, you can use this section to enroll Surface Hub. To enroll in Intune, first setup Azure AD join, as described in the previous section, and follow the instructions in the following Intune documentation: [Quickstart: Set up automatic enrollment for Windows 10/11 devices](/mem/intune/enrollment/quickstart-setup-auto-enrollment).
+If you use a third party mobile device management (MDM) provider, you can use this section to enroll Surface Hub. To enroll in Intune, first setup Microsoft Entra join, as described in the previous section, and follow the instructions in the following Intune documentation: [Quickstart: Set up automatic enrollment for Windows 10/11 devices](/mem/intune/enrollment/quickstart-setup-auto-enrollment).
 
 1. Toggle **Yes** or **No** for enrollment in third party MDM.
 2. If you toggle **Yes**, provide a service account and password or certificate thumbprint that is authorized to enroll the device and specify the authentication type.
@@ -228,7 +228,7 @@ When you build a provisioning package, you may include sensitive information in 
 
 There are two ways of deploying provisioning packages to a Surface Hub:
 
-- [First run setup.](#apply-a-provisioning-package-during-first-run) You can apply a provisioning package to customize multiple options including Wi-Fi settings, proxy settings, device account details, Azure AD join, and related settings.  
+- [First run setup.](#apply-a-provisioning-package-during-first-run) You can apply a provisioning package to customize multiple options including Wi-Fi settings, proxy settings, device account details, Microsoft Entra join, and related settings.  
 - [Settings app.](#apply-a-provisioning-package-using-settings-app) After first run setup, you can apply a provisioning package via the Settings app. 
 
 ### Apply a provisioning package during first run

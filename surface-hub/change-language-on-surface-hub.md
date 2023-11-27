@@ -4,7 +4,7 @@ description: Once a Surface Hub admin installs other language packs, users can c
 manager: frankbu
 ms.prod: surface-hub
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: troubleshooting
 ms.date: 03/21/2023
 ms.localizationpriority: medium

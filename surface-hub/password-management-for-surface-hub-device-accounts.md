@@ -5,7 +5,7 @@ ms.assetid: 0FBFB546-05F0-430E-905E-87111046E4B8
 manager: frankbu
 ms.prod: surface-hub
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: how-to
 ms.date: 07/27/2017
 ms.localizationpriority: medium
@@ -34,4 +34,4 @@ The Surface Hub can automatically change a device account's password without req
 The automatically generated passwords contain 15-32 characters including a combination of uppercase and lowercase letters, numbers, and special characters. Note that when the device account's password is changed, you will not be shown the new password. If you need to sign in to the account, or to provide the password again (for example, if you want to change the device account settings on the Surface Hub), then you'll need use Active Directory or the Microsoft 365 admin portal to reset the password.
 
 > [!IMPORTANT]
-> The [device affiliation](prepare-your-environment-for-surface-hub.md) option selected during initial setup of the Surface Hub has an impact on which device account format can be used with password rotation. Hubs affiliated with an on-premise Active Directory can only rotate passwords of device accounts entered in **domain\username** format. Hubs affiliated with an Azure Active Directory can only rotate passwords of device accounts entered in `username@domain.com` format, but only if the account is cloud-only or if the AAD domain is configured for [cloud authentication](/azure/active-directory/hybrid/choose-ad-authn#cloud-authentication) and [password writeback](/azure/active-directory/authentication/concept-sspr-writeback).
+> The [device affiliation](prepare-your-environment-for-surface-hub.md) option selected during initial setup of the Surface Hub has an impact on which device account format can be used with password rotation. Hubs affiliated with an on-premise Active Directory can only rotate passwords of device accounts entered in **domain\username** format. Hubs affiliated with a Microsoft Entra ID can only rotate passwords of device accounts entered in `username@domain.com` format, but only if the account is cloud-only or if the Microsoft Entra domain is configured for [cloud authentication](/azure/active-directory/hybrid/choose-ad-authn#cloud-authentication) and [password writeback](/azure/active-directory/authentication/concept-sspr-writeback).
