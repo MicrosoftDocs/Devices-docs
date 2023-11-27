@@ -1,10 +1,10 @@
 ---
-title: Surface Headphones 2+ tech overview
+title: Surface Headphones 2+ overview
 description: This article provides an overview of Surface Headphones 2+ for Business
 ms.prod: surface
 ms.localizationpriority: medium
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: overview
 ms.date: 09/02/2022
 ms.reviewer: achuon
@@ -14,7 +14,7 @@ appliesto:
 - Windows 11
 ---
 
-# Surface Headphones 2+ tech overview
+# Surface Headphones 2+ overview
 
 Built for the hybrid workplace, [Surface Headphones 2+](https://www.microsoft.com/surface/business/surface-headphones-2-plus) reduces unwanted ambient noise, enables clear remote meeting participation, and provides high-fidelity sound. Surface Headphones 2+ includes 13 levels of active noise cancellation, ear cup dials, and an advanced 8-microphone system for voice clarity, 18.5 hours of music <sup>1</sup> listening time or up to 15 hours of voice<sup>2</sup> calling time. 
  

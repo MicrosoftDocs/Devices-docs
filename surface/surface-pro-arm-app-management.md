@@ -4,7 +4,7 @@ description: This article provides an overview of key considerations for deployi
 ms.prod: w11
 ms.localizationpriority: high
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: how-to
 ms.date: 11/28/2022
 ms.reviewer: Karand 
@@ -46,7 +46,7 @@ With [Surface Enterprise Management Mode (SEMM)](surface-enterprise-management-m
 #### Advanced settings
 
 - **Kiosk Overrides.** Battery limit.
-- **Boot.** Wake on LAN, Wake on Power, IPv6 for PXE boot, Alternate Boot, Boot Order Lock, USB Boot, Network Stack.
+- **Boot.** Wake-on-LAN, Wake-on-Power, IPv6 for PXE boot, Alternate Boot, Boot Order Lock, USB Boot, Network Stack.
 - **UEFI Front Page.** Security, Devices, Boot, DateTime
 
 :::image type="content" source="images/uefi-config-advanced-surface-arm.png" alt-text="Manage firmware settings on Surface Pro 9 with 5G" :::
@@ -55,7 +55,7 @@ With [Surface Enterprise Management Mode (SEMM)](surface-enterprise-management-m
 
 With [Surface Enterprise Management Mode (SEMM)](surface-enterprise-management-mode.md), you can manage the following hardware components at the firmware level for Surface Pro X devices:
 
-- Wake On Power
+- Wake-on-Power
 - IPv6 for PXE boot
 - Alternate Boot
 - Boot Order Lock
@@ -74,13 +74,15 @@ To learn more about managing firmware with SEMM, see:
 
 With Microsoft Intune and [Device Firmware Configuration Interface (DFCI) profiles](surface-manage-dfci-guide.md), you can manage hardware components at the firmware level just like any other Surface device. To learn more, see [Manage DFCI on Surface devices](surface-manage-dfci-guide.md).
 
-### Manage with Azure AD
+<a name='manage-with-azure-ad'></a>
 
-Microsoft Intune admin center and Intune integrate with Azure Active Directory for identity and access control and provide granular management of enrolled devices. Highlights include faster device login times and a more streamlined catalog of policy settings enabling full device management from the cloud. For example, you can [manage LTE using eSIM profiles](/windows/client-management/mdm/esim-enterprise-management) to configure data plans and deploy activation codes to multiple devices.
+### Manage with Microsoft Entra ID
+
+Microsoft Intune admin center and Intune integrate with Microsoft Entra ID for identity and access control and provide granular management of enrolled devices. Highlights include faster device login times and a more streamlined catalog of policy settings enabling full device management from the cloud. For example, you can [manage LTE using eSIM profiles](/windows/client-management/mdm/esim-enterprise-management) to configure data plans and deploy activation codes to multiple devices.
 
 ### Co-management
 
-Once deployed in Autopilot, you can join devices to Azure AD or Active Directory ([Hybrid Azure AD Join](/azure/active-directory/devices/concept-azure-ad-join-hybrid)), where you can [manage the devices with Intune](/mem/intune/remote-actions/device-management) or [co-manage them with Endpoint Configuration Manager](/mem/configmgr/comanage/overview), which will install the 32-bit x86 ConfigMgr client.
+Once deployed in Autopilot, you can join devices to Microsoft Entra ID or Active Directory ([Microsoft Entra hybrid join](/azure/active-directory/devices/concept-azure-ad-join-hybrid)), where you can [manage the devices with Intune](/mem/intune/remote-actions/device-management) or [co-manage them with Endpoint Configuration Manager](/mem/configmgr/comanage/overview), which will install the 32-bit x86 ConfigMgr client.
 
 ### Third-party MDM solutions
 
@@ -166,7 +168,7 @@ The following tables show the availability of selected key features on Surface P
 | --------------------------------------------- | ----------------- | ----------------------------- | -------------------------------------------------------------------------------------------------------------- |
 | Intune                                        | Yes               | Yes                           |                                                                                                                |
 | Windows Autopilot                             | Yes               | Yes                           |                                                                                                                |
-| Azure AD (co-management)                      | Yes               | Yes                           | Ability to join Surface Pro 9 with 5G or Surface Pro X to Azure AD or Active Directory (Hybrid Azure AD Join). |
+| Microsoft Entra ID (co-management)                      | Yes               | Yes                           | Ability to join Surface Pro 9 with 5G or Surface Pro X to Microsoft Entra ID or Active Directory (Microsoft Entra hybrid join). |
 | Endpoint Configuration Manager                | Yes               | Yes                           |                                                                                                                |
 | Power on When AC Restore                      | Yes               | Yes                           |                                                                                                                |
 | Surface Diagnostic Toolkit (SDT) for Business | Yes               | Yes                           |                                                                                                                |
@@ -202,6 +204,6 @@ The following tables show the availability of selected key features on Surface P
 
 **Is Intune required to manage Surface Pro 9 with 5G or Surface Pro X?**
 
-- Intune is recommended but not required. Once deployed in Autopilot, you can join Surface Pro 9 with 5G and Surface Pro X devices to Azure AD or Active Directory (Hybrid Azure AD Join), where you will be able to manage the devices with Intune or co-manage them with Endpoint Configuration Manager, which will install the 32-bit x86 ConfigMgr client.
+- Intune is recommended but not required. Once deployed in Autopilot, you can join Surface Pro 9 with 5G and Surface Pro X devices to Microsoft Entra ID or Active Directory (Microsoft Entra hybrid join), where you will be able to manage the devices with Intune or co-manage them with Endpoint Configuration Manager, which will install the 32-bit x86 ConfigMgr client.
 
 To learn more, see [ARM-based Surface devices FAQ](surface-arm-faq.md).

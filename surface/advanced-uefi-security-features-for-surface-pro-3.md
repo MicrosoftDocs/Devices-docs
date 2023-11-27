@@ -6,20 +6,18 @@ manager: frankbu
 ms.localizationpriority: medium
 ms.prod: surface
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: how-to
 ms.date: 06/09/2020
 ---
 
 # Advanced UEFI security features for Surface Pro 3
 
-
 This article describes how to install and configure the v3.11.760.0 UEFI update to enable additional security options for Surface Pro 3 devices.
 
 To address more granular control over the security of Surface devices, the v3.11.760.0 UEFI update provides additional security options that allow you to disable specific hardware devices or to prevent starting from those devices. After the UEFI update is installed on a device, you can configure it manually or automatically by running a script.
 
 ## Manually install the UEFI update
-
 
 Before you can configure the advanced security features of your Surface device, you must first install the v3.11.760.0 UEFI update. This update is installed automatically if you receive your updates from Windows Update. For more information about how to configure Windows to update automatically by using Windows Update, see [How to configure and use Automatic Updates in Windows](https://support.microsoft.com/kb/306525).
 
@@ -49,7 +47,6 @@ After the v3.11.760.0 UEFI update is installed on a Surface device, an additiona
 
 ## Automate additional security settings
 
-
 As an IT professional with administrative privileges, you can automate the configuration of UEFI settings by leveraging [Surface Pro 3 Firmware Tools (476 KB)](https://www.microsoft.com/download/details.aspx?id=38826) available from the Microsoft Download Center. These tools install a .NET assembly that can be called from any custom application or script.
 
 **Prerequisites**
@@ -62,7 +59,6 @@ As an IT professional with administrative privileges, you can automate the confi
 
 > [!NOTE]
 > The UEFI password used in the sample scripts below is presented in clear text. We strongly recommend saving the scripts in a protected location and running them in a controlled environment.
-
 
 Show all configurable options:
 

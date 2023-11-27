@@ -5,7 +5,7 @@ ms.prod: surface-hub
 ms.localizationpriority: low
 manager: frankbu
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.collection: M365-modern-desktop
 ms.topic: how-to
 ms.date: 12/08/2020
@@ -25,7 +25,7 @@ When performing these steps, you might find it helpful to use a wired or wireles
 
 1. Sign in with an account that has local administrator privileges on the device.  
 
-    - The user who performs the Azure AD join on Azure AD joined devices is automatically added to the local administrator group.  Azure AD global administrators and Azure AD devices administrators are <a href="/azure/active-directory/devices/assign-local-admin" target="_blank">also local administrators</a>. 
+    - The user who performs the Microsoft Entra join on Microsoft Entra joined devices is automatically added to the local administrator group.  Microsoft Entra global administrators and Microsoft Entra devices administrators are <a href="/azure/active-directory/devices/assign-local-admin" target="_blank">also local administrators</a>. 
 
     - You can type **net localgroup administrators** at a command prompt to list the accounts that have local administrator rights.
     

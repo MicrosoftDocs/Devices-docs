@@ -6,7 +6,7 @@ ms.reviewer:
 manager: frankbu
 ms.prod: surface-hub
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: troubleshooting
 ms.date: 01/23/2023
 ms.localizationpriority: medium
@@ -21,7 +21,7 @@ You can reset Surface Hub to restore the operating system to the last cumulative
 - All local user files and configuration data. 
 - The device account.
 - Account data for local administrators.
-- Domain-join or Azure AD-join data.
+- Domain-join or Microsoft Entra join data.
 - Mobile Device Management (MDM) enrollment data.
 - Configuration data that was set by using MDM or the Settings app.
 

@@ -19,7 +19,7 @@ appliesto:
 
 - The Surface Hub 3 Pack is an upgrade that replaces the Surface Hub 2S cartridge. It’s the same shape and size as the Surface Hub 2S cartridge and includes tactile bumps to differentiate it from the cartridge for Surface Hub 2S.
 - The Surface Hub 3 Pack enables you to rotate 50” Hub devices: Unlock unique collaboration scenarios with Portrait on Surface Hub 3 50” devices. With Smart Rotation, seamlessly adjust the device to the orientation that’s best for your meeting or collaboration needs in the moment.
-- Customers will benefit from a 20% CPU performance increase and a 100% GPU performance increase over Surface Hub 2S.
+- Customers will benefit from a 60% CPU performance increase and a 160% GPU performance increase over Surface Hub 2S.
 
 **Does this pack turn my Surface Hub 2S into Surface Hub 3?**
 

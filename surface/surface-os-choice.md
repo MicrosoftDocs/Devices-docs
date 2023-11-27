@@ -1,12 +1,12 @@
 ---
 title: OS choice for new Surface devices
-description: This article describes how commercial customers can purchase new Surface devices with Windows 10 or Windows 11. 
+description: This article describes how commercial customers can purchase new Surface for Business devices with Windows 10 or Windows 11. 
 ms.prod: surface
 ms.localizationpriority: medium
 author: coveminer
 ms.author: chauncel
 ms.topic: overview
-ms.date: 10/31/2022
+ms.date: 11/14/2023
 ms.reviewer: chauncel
 manager: frankbu
 appliesto:
@@ -16,7 +16,7 @@ appliesto:
 
 # OS choice for new Surface devices
 
-Commercial customers can choose to have Windows 10 or Windows 11 installed on new Surface devices:
+Commercial customers can choose to have Windows 10 or Windows 11 installed on new Surface for Business devices:
 
 - [Surface Pro 8](https://www.microsoft.com/surface/business/surface-pro-8)
 - [Surface Pro 9](https://www.microsoft.com/surface/business/surface-pro-9)
@@ -35,7 +35,7 @@ Commercial customers can choose to have Windows 10 or Windows 11 installed on ne
 
 Whether you choose to purchase new Surface devices running Windows 11 or opt for Surface devices with Windows 10<sup>1</sup> may depend on your current corporate environment:
 
-- **Windows 10 only.** Designed for customers who require Windows 10 out of the box and deploy devices using Windows Autopilot or Azure Active Directory domain join (AADJ). With **Windows 10 SKUs**, you avoid the need to compile driver packs and reimage devices before distributing them to users. It includes an additional per-device fee of $30 or $50 depending on the device, as noted below. <sup>2</sup> (Prices are based on MSRP, actual pricing may vary.)
+- **Windows 10 only.** Designed for customers who require Windows 10 out of the box and deploy devices using Windows Autopilot or Microsoft Entra domain join (AADJ). With **Windows 10 SKUs**, you avoid the need to compile driver packs and reimage devices before distributing them to users. It includes an additional per-device fee of $30 or $50 depending on the device, as noted below.<sup>2</sup> (Prices are based on MSRP, actual pricing may vary.)
 - **Windows 10 & Windows 11.** Designed for customers who use Windows 11 and also deploy Windows 10 via traditional deployment methods that rely on reimaging devices. With **Windows 11 SKUs**, you can take advantage of built-in downgrade rights to Windows 10 and load custom Windows 10 images on devices as needed.
 
 > [!TIP]
@@ -58,7 +58,7 @@ The ability to get the OS version you need directly from Surface includes delive
 
 ## Windows OS versions
 
-Devices ship from the factory with one of the following OS versions, depending on your choice.
+Most devices ship from the factory with one of the following OS versions, depending on your choice. 
 
 > [!TIP]
 > If you order devices from a reseller, please check with the reseller on the exact OS version that meets your requirements.

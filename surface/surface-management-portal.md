@@ -31,7 +31,9 @@ Sign in to [Microsoft Intune admin center](https://endpoint.microsoft.com), sele
 
    :::image type="content" source="images/surface-management-portal/surface-management-portal-start.png" lightbox="/surface/images/surface-management-portal/surface-management-portal-start.png" alt-text="Start Surface Management Portal":::
 
-## Azure AD roles for Surface Management Portal
+<a name='azure-ad-roles-for-surface-management-portal'></a>
+
+## Microsoft Entra roles for Surface Management Portal
 
 
 | Role                                      | Permissions                                                                                                                                                                                 |
@@ -48,7 +50,7 @@ Sign in to [Microsoft Intune admin center](https://endpoint.microsoft.com), sele
 
 Select **Monitor** to display insights for all your Surface devices, including:
 
-- Devices out of compliance, which could mean users can’t access information requiring Azure AD login.
+- Devices out of compliance, which could mean users can’t access information requiring Microsoft Entra login.
 - Devices that aren’t registered.
 - Devices with critically low storage available on disk, a leading indicator of potential user experience issues.
 - Devices requiring updates.

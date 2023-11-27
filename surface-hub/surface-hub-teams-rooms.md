@@ -3,7 +3,7 @@ title: Microsoft Teams Rooms on Surface Hub
 description: This article provides an overview of Microsoft Teams Rooms on Surface Hub and includes guidance on Direct Guest Join and related features. 
 ms.prod: surface-hub
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: overview
 ms.date: 09/26/2022
 ms.reviewer: dpandre

@@ -16,7 +16,7 @@ ms.localizationpriority: medium
 # Conditional Access for Surface Hub
 
 ## What is Conditional Access? ##
-[Conditional Access](/azure/active-directory/conditional-access/overview) is an Azure Active Directory (Azure AD) feature that allows organizations to configure policies to grant or block access to corporate resources. These policies are if-then statements, of [Assignments](/azure/active-directory/conditional-access/concept-conditional-access-policies#assignments) and [Access controls](/azure/active-directory/conditional-access/concept-conditional-access-policies#access-controls). If incompatible Conditional Access policies are enforced on the Surface Hub device account, you may experience one or more of the following issues:
+[Conditional Access](/azure/active-directory/conditional-access/overview) is a Microsoft Entra feature that allows organizations to configure policies to grant or block access to corporate resources. These policies are if-then statements, of [Assignments](/azure/active-directory/conditional-access/concept-conditional-access-policies#assignments) and [Access controls](/azure/active-directory/conditional-access/concept-conditional-access-policies#access-controls). If incompatible Conditional Access policies are enforced on the Surface Hub device account, you may experience one or more of the following issues:
 
 - Unable to add the device account to the Surface Hub
 - Welcome Screen calendar fails to sync with Exchange
@@ -51,7 +51,7 @@ The Surface Hub device account isn't compatible with Conditional Access policies
 - Require multifactor authentication
 - Require authentication strength (Preview)
 - Require device to be marked as compliant
-- Require Hybrid Azure AD joined device
+- Require Microsoft Entra hybrid joined device
 - Require approved client app
 - Require app protection policy
 - Require password change
@@ -103,4 +103,3 @@ Here's a [video](https://www.youtube.com/watch?v=5DsW1hB3Jqs&ab_channel=Microsof
 
 >[!IMPORTANT]
 >Select the Surface Hub device account **user** object, not the Surface Hub **device** object.
-

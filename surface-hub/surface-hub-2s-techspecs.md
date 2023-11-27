@@ -4,7 +4,7 @@ description: "View tech specs for Surface Hub 2S including pen, camera, and opti
 ms.prod: surface-hub
 author: coveminer
 manager: frankbu
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: how-to
 ms.date: 12/21/2020
 ms.localizationpriority: Medium
@@ -34,10 +34,10 @@ ms.localizationpriority: Medium
 |**What’s in the box**| One Surface Hub 2S <br> One Surface Hub 2 Pen  <br> One Surface Hub 2 Camera <br> 2.5 m AC Power Cable <br> Quick Start Guide |
 |**Warranty**| 1-year limited hardware warranty<sup>4</sup> |
 |**BTU**| 1518 BTU/hr |
-|**Input Voltage**| 50/60Hz 110/230v nominal, 90-265v max |
-|**Input power, operating**| 445 W (495 W Surge Load) |
-|**Input Current**| 5.46 A |
-|**Input Power, standby**| 5 W max  |
+|**Input Voltage**| 50/60Hz 110/220v nominal, 90-265v max |
+|**Input Power, operating**| 445W (495W Surge Load) |
+|**Input Current**| 5.46A |
+|**Input Power, standby**| 5W max  |
 
 > [!NOTE]
 > <sup>1</sup> System software uses significant storage space. Available storage is subject to change based on system software updates and apps usage. 1 GB= 1 billion bytes. See Surface.com/Storage for more details. <br> <sup>2</sup> Doppler sensor not available in Hong Kong Special Administrative Region, India, Kuwait, and Oman  due to local regulations.

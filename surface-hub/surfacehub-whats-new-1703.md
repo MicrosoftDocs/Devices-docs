@@ -4,7 +4,7 @@ description: Windows 10, version 1703 (Creators Update) brings new features to M
 ms.prod: surface-hub
 
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: how-to
 ms.date: 01/18/2018
 ms.reviewer: 

@@ -3,7 +3,7 @@ title: "What's new in Windows 10 Team 2020 updates"
 description: "Check out what's new in the latest update of the Surface Hub operating system, Windows 10 Team 2020 Update."
 ms.prod: surface-hub
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 manager: frankbu
 ms.topic: overview
 ms.date: 02/15/2022
@@ -24,9 +24,9 @@ After a Surface Hub admin installs additional languages, end users [can change t
 
 After installation of this update ([KB5010415](https://support.microsoft.com/help/5010415) or a subsequent Windows CU), Surface Hubs are supported in GCC High environments. At this time, [additional steps ](surface-hub-teams-rooms.md#support-for-teams-rooms-in-government-community-cloud-high-gcc-h) are needed for the Teams Rooms client to successfully connect to GCC High tenants.
 
-### Support for Surface Hub 2 Smart Camera
+### Support for Surface Hub Smart Camera
 
-The AI-powered Surface Hub 2 Smart Camera is optimized for hybrid teams allowing remote participants to see people interact with content on the Surface Hub while also viewing everyone else in the room.  To learn more, see [Install and manage Surface Hub 2 Smart Camera](surface-hub-2-smart-camera.md). 
+The AI-powered Surface Hub Smart Camera is optimized for hybrid teams allowing remote participants to see people interact with content on the Surface Hub while also viewing everyone else in the room.  To learn more, see [Install and manage Surface Hub Smart Camera](surface-hub-smart-camera.md). 
 
 ### Support for Progressive Web Apps (PWAs)
 
@@ -83,11 +83,13 @@ To learn more, see:
 - [CSPs supported in Microsoft Surface Hub](/windows/client-management/mdm/configuration-service-provider-reference#surfacehubcspsupport)
 - [Manage Surface Hub with an MDM provider](manage-settings-with-mdm-for-surface-hub.md)
 
-### Azure Active Directory Joined devices
+<a name='azure-active-directory-joined-devices'></a>
 
-- **Single sign-on (SSO) for Azure AD joined devices**. When users sign in with their Microsoft 365 credentials to **My meetings and files**, their credentials flow seamlessly from app to app – including Microsoft 365 experiences in the browser.
-- **Conditional access (CA) for Azure AD joined devices**. IT admins can control user access to organizational resources from Azure AD joined Surface Hubs by assigning device policies per their corporate security and compliance requirements.
-- **Support for non-Global admins for Azure AD joined devices**. Customers can choose a more granular set of admins within their admin hierarchy to manage Surface Hub. To learn more, see [Configure non-Global Admin accounts on Surface Hub](surface-hub-2s-nonglobal-admin.md).
+### Microsoft Entra joined devices
+
+- **Single sign-on (SSO) for Microsoft Entra joined devices**. When users sign in with their Microsoft 365 credentials to **My meetings and files**, their credentials flow seamlessly from app to app – including Microsoft 365 experiences in the browser.
+- **Conditional access (CA) for Microsoft Entra joined devices**. IT admins can control user access to organizational resources from Microsoft Entra joined Surface Hubs by assigning device policies per their corporate security and compliance requirements.
+- **Support for non-Global admins for Microsoft Entra joined devices**. Customers can choose a more granular set of admins within their admin hierarchy to manage Surface Hub. To learn more, see [Configure non-Global Admin accounts on Surface Hub](surface-hub-2s-nonglobal-admin.md).
 
 ### Inking improvements
 
@@ -106,7 +108,7 @@ To learn more, see:
 ### Security
 
 - **Passwordless sign-in using FIDO2 security keys** With FIDO2 security keys, users can quickly sign in to Surface Hub without typing usernames and passwords. Combined with Single Sign-On (SSO), this feature provides fast and seamless authentication to files, apps, and websites during a meeting. To learn more, see [Configure passwordless sign-in on Surface Hub](surface-hub-2s-phone-authenticate.md).
-- **Improvements to passwordless sign-in using Microsoft Authenticator**.  For organizations that use Azure AD, users can sign in with the Microsoft Authenticator app. Additionally, users can sign in with their preferred email aliases in Azure AD or their User Principal Name (UPN). To learn more, see [Sign in to Surface Hub with Microsoft Authenticator](surface-hub-authenticator-app.md).
+- **Improvements to passwordless sign-in using Microsoft Authenticator**.  For organizations that use Microsoft Entra ID, users can sign in with the Microsoft Authenticator app. Additionally, users can sign in with their preferred email aliases in Microsoft Entra ID or their User Principal Name (UPN). To learn more, see [Sign in to Surface Hub with Microsoft Authenticator](surface-hub-authenticator-app.md).
 
 ## Learn more
 

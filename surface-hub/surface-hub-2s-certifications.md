@@ -3,7 +3,7 @@ title: "Microsoft Teams certified accessories for Surface Hub 2S"
 description: "See Teams certified audio and video accessories for Surface Hub 2S 50-inch and 85-inch models."
 ms.prod: surface-hub
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 manager: frankbu
 ms.topic: conceptual
 ms.date: 01/27/2020
@@ -26,7 +26,7 @@ Surface Hub 2S 50” and 85” models are [certified for Microsoft Teams](https:
 
 | Model                                       | Description                                                                    |
 | ------------------------------------------- | ------------------------------------------------------------------------------ |
-| **[Surface Hub 2 Smart Camera](surface-hub-2-smart-camera.md)**<br>          | 4K, 136 degrees, digital PTZ (pan-tilt-zoom)<br>Up to 8 meters for video subjects |
+| **[Surface Hub Smart Camera](surface-hub-smart-camera.md)**<br>          | 4K, 136 degrees, digital PTZ (pan-tilt-zoom)<br>Up to 8 meters for video subjects |
 | **Jabra PanaCast**<br>                  | 4K, 180 degrees.<br>Up to 3 meters for video subjects                          |
 | **Poly Studio - Huddle Room USB Video Bar** | 4K, 120 degrees<br>Up to 3.7 meters for audio + video subjects                 |
 | **Polycom EagleEye Director II**<br>    | 1080p, 65 degrees<br>10+ participants medium rooms                             |

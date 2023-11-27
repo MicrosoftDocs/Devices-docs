@@ -3,7 +3,7 @@ title: Operating system essentials for Surface Hub
 description: This article explains unique aspects of the Windows Team operating system on Surface Hub and how it differs from Windows 10 or Windows 11 Enterprise.
 ms.prod: surface-hub
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: how-to
 ms.date: 02/15/2022
 manager: frankbu
@@ -184,9 +184,11 @@ Surface Hub doesn't support remote assistance.
 
 ## Network
 
-### Domain join and Azure Active Directory (Azure AD) join
+<a name='domain-join-and-azure-active-directory-azure-ad-join'></a>
 
-Surface Hub uses domain join and Azure AD join primarily to provide a directory-backed admin group. Hybrid join isn't supported. Users can't sign in with a domain account. For more information, see [Admin group management](admin-group-management-for-surface-hub.md).
+### Domain join and Microsoft Entra join
+
+Surface Hub uses domain join and Microsoft Entra join primarily to provide a directory-backed admin group. Hybrid join isn't supported. Users can't sign in with a domain account. For more information, see [Admin group management](admin-group-management-for-surface-hub.md).
 
 *Potential impact on organization policies:*
 
