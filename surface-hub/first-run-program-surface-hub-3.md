@@ -76,7 +76,6 @@ Although not required, you can automate the setup process with a provisioning pa
 
  ![Setting up for Work or School](images/surface-hub-3-oobe-fig4.png)
 
- ![Setting up for Work or School details](images/surface-hub-3-oobe-fig5.png)
 
 ## Microsoft Teams Rooms setup
 
