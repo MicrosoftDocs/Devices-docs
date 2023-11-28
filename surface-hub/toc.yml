@@ -237,7 +237,24 @@
                 - name: Surface Hub 3 tech specs
                   href: surface-hub-3-techspecs.md
                 - name: Surface Hub 3 Pack tech specs
-                  href: surface-hub-3-pack-techspecs.md
+                  href: surface-hub-3-pack-techspecs.md     
+            - name: Site readiness guide
+              href: surface-hub-3-site-readiness-guide.md
+              items: 
+                  - name: Site planning for Surface Hub 3
+                    href: surface-hub-site-planning.md   
+                  - name: Surface Hub 3 quick start
+                    href: surface-hub-3-quick-start.md
+                  - name: Unpack Surface Hub 
+                    href: surface-hub-unpack.md
+                  - name: Install & mount Surface Hub 50"
+                    href: surface-hub-install-mount.md
+                  - name: Install & mount Surface Hub 85"
+                    href: surface-hub-85-install-mount.md
+                  - name: Customize wall mount of Surface Hub 50"
+                    href: surface-hub-custom-install.md
+                  - name: Adjust brightness, volume, & input
+                    href: surface-hub-onscreen-display.md                      
         - name: Surface Hub 2S
           expanded: true
           items:
@@ -257,7 +274,7 @@
                   - name: Unpack Surface Hub 2S 
                     href: surface-hub-2s-unpack.md
                   - name: Install & mount Surface Hub 2S 50"
-                    href: surface-hub-2s-install-mount.md
+                    href: surface-hub-install-mount.md
                   - name: Install & mount Surface Hub 2S 85"
                     href: surface-hub-2s-85-install-mount.md
                   - name: Customize wall mount of Surface Hub 2S 50"
