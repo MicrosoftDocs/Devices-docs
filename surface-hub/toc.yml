@@ -267,12 +267,12 @@
             - name: Site readiness guide
               href: surface-hub-2s-site-readiness-guide.md
               items: 
-                  - name: Site planning for Surface Hub 2S
-                    href: surface-hub-2s-site-planning.md
+                  - name: Site planning for Surface Hub
+                    href: surface-hub-site-planning.md
                   - name: Surface Hub 2S quick start
                     href: surface-hub-2s-quick-start.md
                   - name: Unpack Surface Hub 2S 
-                    href: surface-hub-2s-unpack.md
+                    href: surface-hub-unpack.md
                   - name: Install & mount Surface Hub 2S 50"
                     href: surface-hub-install-mount.md
                   - name: Install & mount Surface Hub 2S 85"
@@ -282,7 +282,7 @@
                   - name: Surface Hub 2S ports & keypad overview
                     href: surface-hub-2s-port-keypad-overview.md
                   - name: Adjust Surface Hub 2S brightness, volume, & input
-                    href: surface-hub-2s-onscreen-display.md
+                    href: surface-hub-onscreen-display.md
             - name: Accessories
               items: 
                  - name: Update pen firmware on Surface Hub 2S
