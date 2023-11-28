@@ -1,33 +1,35 @@
 ---
-title: "Unpack Surface Hub 2S"
-description: "This page includes information about safely unpacking Surface Hub 2S."
+title: "Unpack Surface Hub 50-inch models"
+description: "This page includes information about safely unpacking Surface Hub 2S or Surface Hub 3."
 ms.prod: surface-hub
 author: coveminer
 ms.author: chauncel
 manager: frankbu
 ms.topic: how-to
-ms.date: 06/20/2019
+ms.date: 12/05/2023
 ms.localizationpriority: Medium
+appliesto:
+- Surface Hub 2S
+- Surface Hub 3
 ---
 
-# Unpack Surface Hub 2S
+# Unpack Surface Hub 50-inch models
 
-## Unpacking Surface Hub 2S
 
-Before you remove Surface Hub 2S from the box, make sure that you have your mounting solution assembled and someone available to help you.
+Before you remove Surface Hub 2S or Surface Hub 3 from the box, make sure that you have your mounting solution assembled and someone available to help you.
 
 1. Use the handles on each side of the box to move it to the space where you'll set it up.
 2. Before opening, remove the clips (4) on the front and back, and then lift the top off the box using the handles.
-3. In the base of the Surface Hub 2S, open the accessories box containing the setup guide, Surface Hub Pen, Surface Hub 2 camera, and the power cable.
+3. In the base of the Surface Hub, open the accessories box containing the setup guide, Surface Hub Pen, Surface Hub 2 camera, and the power cable.
 4. On the back of the surface hub, there's an instructional label that shows you where to attach the mounting hardware. Install them in place and remove the label.
 5. If you're using a mobile stand remember to lock the wheels to keep the stand in place
-6. Be sure to lift the Surface Hub 2S with both hands and support the bottom of the device.
+6. Be sure to lift the Surface Hub with both hands and support the bottom of the device.
 7. Align the installed hardware with the slots on the mount so it rests firmly in place.
 8. Follow any further instructions that came with your mounting solution.
 
 ## Install pen and camera
 
 1. Unwrap your Surface Hub Pen and attach it magnetically to your preferred side of the device.
-2. Remove the lens cling from the camera and attach it to the USB-C port on the top of the Surface Hub 2S.
+2. Remove the lens cling from the camera and attach it to the USB-C port on the top of the Surface Hub.
 3. Insert the power cable into the back of the device and plug it into a power outlet. Run the cable through any cable guides on your mounting solution and remove the screen clang.
 4. To begin, press the power button on the bottom right.
