@@ -23,7 +23,7 @@ For more information, see [Officially licensed third-party accessories](https://
 
  ![Surface Hub 2S 50" on Roam Mobile Stand.](images/sh2-mobile-stand.png)<br>
 
-If you’re not using licensed accessories, see [Customize wall mount of Surface Hub 50"](surface-hub-2s-custom-install.md).
+If you’re not using licensed accessories, see [Customize wall mount of Surface Hub 50"](surface-hub-custom-install.md).
 
 | Task | Illustration|
 |------|-------------|
