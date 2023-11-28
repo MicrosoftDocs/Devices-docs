@@ -6,7 +6,7 @@ author: coveminer
 ms.author: chauncel
 manager: frankbu
 ms.topic: overview
-ms.date: 11/05/2023
+ms.date: 12/05/2023
 ms.localizationpriority: Medium
 appliesto:
 - Surface Hub 3
@@ -36,7 +36,7 @@ The default local admin account is a well-known entry point for malicious actors
     ![Screenshot showing Change your password](images/hub3-change-admin-password.png)
 
 > [!TIP]
-> When joined to Microsoft Entra ID (Azure AD), you can utilize Windows LAPS (Local Administrator Password Solution). Although LAPS doesn't remove local admin accounts, it automatically manages local admin passwords, ensuring they're randomized and securely stored in AD. This reduces the risk associated with stale or widely-known admin passwords. To learn more, see [Microsoft Intune support for Windows LAPS](/mem/intune/protect/windows-laps-overview). 
+> When joined to Microsoft Entra ID (Azure AD), you can utilize Windows LAPS (Local Administrator Password Solution). Although LAPS doesn't remove local admin accounts, it automatically manages local admin passwords, ensuring they're randomized and securely stored in AD. This reduces the risk associated with stale or widely-known admin passwords. To learn more, see [Microsoft Intune support for Windows LAPS](/mem/intune/protect/windows-laps-overview).
 
 ## Set a UEFI password
 

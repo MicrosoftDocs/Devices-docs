@@ -61,41 +61,6 @@ No matter where they work, give everyone an equal opportunity to co-create and c
 - Showcase the content and people critical for your meeting with the full suite of Microsoft Teams Rooms layouts and features. See the meeting chat clearly in the room or bring Front Row for everything you need for the meeting at your fingertips – including content, chat, hands raised, and a large gallery view.
 - Everyone can contribute. With Surface Slim Pen<sup>1</sup> compatibility, in addition to the Surface Hub Pen, everyone can join in the brainstorming--even with their own personal pen.
 
-## Deployment & installation
-
-New deliveries of Surface Hub 3 come preinstalled with the Microsoft Teams Rooms on Windows experience. Turn it on and follow the prompts for the first run startup experience (aka OOBE). Check back for detailed instructions.
-
-## IT management of Surface Hub 3
-
-In addition to Microsoft Intune and third-party MDM providers, IT admins can manage Surface Hub 3 via [Microsoft Teams admin center](https://admin.teams.microsoft.com/) and use tools like [Microsoft Configuration Manager](/mem/configmgr/core/understand/introduction),  third-party OMA-DM-based management tools, and [Windows Group Policy](/azure/active-directory-domain-services/manage-group-policy).
-
-### Teams management portals
-
-#### Teams admin center
-
-Microsoft Teams admin center is a web-based portal that provides management capabilities for Microsoft Teams. It is designed to provide a simple and intuitive way to manage your Teams environment at scale.
-With Teams admin center, you can:
-
-- Perform device management, like restarting devices and downloading device logs.
-- Apply Teams-specific settings.
-- Check the health status of Microsoft Teams Rooms and their peripherals, including cameras, displays, and microphones.
-- Review current and past meeting activity (such as details about call quality, network health and connectivity, and number of participants).
-- See peripherals (such as cameras and projectors) connected to Microsoft Teams Rooms (only for Teams Rooms on Windows).
-
-To manage Teams Rooms devices, open the [Microsoft Teams admin center](https://admin.teams.microsoft.com/) and go to **Teams Devices** > **Teams Rooms on Windows** or **Surface Hubs**.
-To learn more, see:
-
-- [Manage Microsoft Teams Rooms](/microsoftteams/rooms/rooms-manage) – Teams Admin Center
-
-#### Teams Rooms Pro Management Portal
-
-The Teams Rooms Pro Management service is a cloud-based management solution that proactively monitors and updates Microsoft Teams Rooms devices and their peripherals. The Pro management solution is for organizations looking to optimize the meeting room experience and perform 
-real-time monitoring and management for Teams Rooms devices. To learn more, see [Microsoft Teams Rooms Pro Management](/microsoftteams/rooms/rooms-pro-management).
-
-## Licensing
-
-New Surface Hub 3 devices come with a license for Windows 11 IoT Enterprise,  and you’ll also need  
-a [Teams Rooms](/microsoftteams/rooms/rooms-licensing) license.  A Teams Rooms Pro license is recommended for advanced features like remote device management, conditional access policies, and detailed device analytics. To learn more, see [Microsoft Teams Rooms licenses](/microsoftteams/rooms/rooms-licensing#teams-rooms-license-service-plan-comparison).
  
 ## References
 
