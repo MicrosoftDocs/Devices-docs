@@ -1,5 +1,5 @@
 ---
-title: Surface Hub Site Readiness Guide
+title: Surface Hub v1 Site Readiness Guide
 manager: frankbu
 description: Use this Site Readiness Guide to help plan your Surface Hub installation.
 ms.prod: surface-hub
@@ -10,7 +10,7 @@ ms.localizationpriority: medium
 ms.date: 06/09/2020
 ---
 
-# Surface Hub Site Readiness Guide
+# Surface Hub v1 Site Readiness Guide
 
 Use this Site Readiness Guide to help plan your Surface Hub installation.
 
