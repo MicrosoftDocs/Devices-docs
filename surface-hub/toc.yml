@@ -20,6 +20,8 @@
            - name: Set up
              expanded: true
              items:
+              - name: Get started with Surface Hub 3 
+                href: surface-hub-3-get-started.md            
               - name: First-time setup for Surface Hub 3 
                 href: first-run-program-surface-hub-3.md
               - name: Install wallpaper on Surface Hub 3

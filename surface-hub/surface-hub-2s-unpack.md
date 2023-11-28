@@ -1,6 +1,6 @@
 ---
 title: "Unpack Surface Hub 50-inch models"
-description: "This page includes information about safely unpacking Surface Hub 2S or Surface Hub 3."
+description: "This page includes information about safely unpacking 50" models of Surface Hub 2S and Surface Hub 3."
 ms.prod: surface-hub
 author: coveminer
 ms.author: chauncel
@@ -14,7 +14,6 @@ appliesto:
 ---
 
 # Unpack Surface Hub 50-inch models
-
 
 Before you remove Surface Hub 2S or Surface Hub 3 from the box, make sure that you have your mounting solution assembled and someone available to help you.
 
