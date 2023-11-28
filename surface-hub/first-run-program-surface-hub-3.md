@@ -82,20 +82,9 @@ Although not required, you can automate the setup process with a provisioning pa
 Now you're ready to begin the Microsoft Teams Rooms setup experience.
 
 1. Agree to Microsoft Software License Terms and acknowledge that you have read the privacy statement at [https://aka.ms/privacy](https://aka.ms/privacy). Select **Next**.
-
-    ![Agree to Microsoft Software License Terms](images/teams-start-fig1.png)
-
 2. Enter your account and password. Select **Next**.
-
-    ![Enter your account and password](images/teams-start-fig2.png)
-
-3. Enable Cortana Voice Activation if desired. Select **Next**.
-
-    ![Enable Cortana Voice Activation if desired](images/teams-start-fig3.png)
-
+3. Turn off Cortana Voice Activation, if desired. Select **Next**.
 4. Enter advanced settings including Exchange sign in and domain information. Select **Next**.
-
-    ![Enter advanced settings including Exchange sign in and domain information](images/teams-start-fig4.png)
 5. Select **Finish** to complete Microsoft Teams Rooms setup.
 
 ## Learn more
