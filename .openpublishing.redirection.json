@@ -294,6 +294,11 @@
             "source_path":  "surface-hub/surface-hub-2s-onscreen-display.md",
             "redirect_url": "/surface-hub/surface-hub-onscreen-display",
             "redirect_document_id":  false
-        }      						
+        },
+        {
+            "source_path":  "surface-hub/surface-hub-2s-install-mount.md",
+            "redirect_url": "/surface-hub/surface-hub-install-mount",
+            "redirect_document_id":  false
+        }           						
     ]
 }
