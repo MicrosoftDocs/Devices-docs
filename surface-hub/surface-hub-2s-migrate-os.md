@@ -10,7 +10,6 @@ ms.date: 09/21/2023
 ms.localizationpriority: Medium
 appliesto:
 - Surface Hub 2S
-- Surface Hub 3
 - Windows 10
 - Windows 11
 ---
@@ -19,7 +18,7 @@ appliesto:
 
 - [Article version history](#version-history)
 
-Surface Hub 2S and Surface Hub 3 are designed to facilitate collaboration in meeting-room environments. You can now instead run Windows 10/11 Pro or Enterprise to use your Surface Hub 2S or Surface Hub 3 much like any other PC.
+Surface Hub 2S is designed to facilitate collaboration in meeting-room environments. You can now instead run Windows 10/11 Pro or Enterprise to use your Surface Hub 2S much like any other PC. For Surface Hub 3, see [Migrate to Windows 11 Pro or Enterprise on Surface Hub 3](surface-hub-3-migrate-os.md). 
 
 > [!IMPORTANT]
 > This migration process requires you to follow the specific procedure that's described in this article. Before you continue, read [Solution components](#solution-components) and [Migration and installation workflow](#migration-and-installation-workflow-summary).
@@ -32,9 +31,6 @@ Start the migration by using a separate PC and the downloadable *Surface UEFI Co
 Surface UEFI Configurator works as an interface into Surface Enterprise Management Mode (SEMM). It enables centralized management of firmware settings on Surface devices in a corporate environment. For more information, see [Microsoft Surface Enterprise Management Mode](/surface/surface-enterprise-management-mode).
 
 ## Solution components
-
-> [!NOTE]
-> This section applies to Surface Hub 2S. Streamlined instructions will be provided for Surface Hub 3 pending public release later this year.
 
 - Surface Hub 2S device running Windows 10 Team or Surface Hub 3 running Microsoft Teams Rooms on Windows experience
 - Separate device running Windows 10/11
@@ -350,11 +346,11 @@ The following table summarizes changes to this article.
 
 | Version | Date               | Description                                                                                           |
 | ------- | ------------------ | ----------------------------------------------------------------------------------------------------- |
-| v. 1.6  | September 21, 2023  | Added preliminary info indicating support for migrating to Windows 11 Enterprise on Surface Hub 3. |
-| v. 1.6  | January 16, 2023  | Added new section for troubleshooting and common problems |
-| v. 1.5  | December 1, 2021  | Updated to show support for Windows 11 |
+| v. 1.7  | September 21, 2023 | Added preliminary info indicating support for migrating to Surface Hub 3. |
+| v. 1.6  | January 16, 2023  | Added new section for troubleshooting and common problems. |
+| v. 1.5  | December 1, 2021  | Updated to show support for Windows 11. |
 | v. 1.4  | December 14, 2020 | Provides [further info](#install-surface-hub-2-drivers-and-firmware) about installing the MSI file for "Drivers and firmware for Windows 10 Pro and Enterprise OS on Surface Hub 2," advising that a second reboot may be necessary depending on the state of your system.                                                          |
-| v. 1.3  | December 3, 2020 | Updated with guidance about [managing SEMM enrollment](#manage-semm-enrollment).                                                       |
-| v. 1.2  | September 29, 2020 | Miscellaneous updates that address usability feedback.                                                        |
+| v. 1.3  | December 3, 2020 | Updated with guidance about [managing SEMM enrollment.](#manage-semm-enrollment).                                                       |
+| v. 1.2  | September 29, 2020 | Miscellaneous updates that address usability. feedback.                                                        |
 | v. 1.1  | September 15, 2020 | Placed an additional note in the introduction that clarifies licensing requirements for installing a new OS. |
 | v. 1.0  | September 1, 2020  | New article.                                                                                           |
