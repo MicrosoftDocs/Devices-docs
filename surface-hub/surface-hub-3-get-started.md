@@ -18,7 +18,7 @@ appliesto:
 
 ## New installs
 
-New deliveries of Surface Hub 3 come preinstalled with the Microsoft Teams Rooms on Windows experience. Turn it on and follow the prompts for the first run startup experience (aka OOBE). To learn more, see [First-time setup for Surface Hub 3](first-run-program-surface-hub-3).
+New deliveries of Surface Hub 3 come preinstalled with the Microsoft Teams Rooms on Windows experience. Turn it on and follow the prompts for the first run startup experience (aka OOBE). To learn more, see [First-time setup for Surface Hub 3](first-run-program-surface-hub-3.md).
 
 ## Upgrade 
 
