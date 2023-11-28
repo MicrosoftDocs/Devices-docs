@@ -269,6 +269,31 @@
             "source_path":  "surface-hub/surface-hub-2-smart-camera.md",
             "redirect_url": "/surface-hub/surface-hub-smart-camera",
             "redirect_document_id":  false
-        }					
+        },
+        {
+            "source_path":  "surface-hub/surface-hub-2s-site-planning.md",
+            "redirect_url": "/surface-hub/surface-hub-site-planning",
+            "redirect_document_id":  false
+        },	
+        {
+            "source_path":  "surface-hub/surface-hub-2s-85-install-mount.md",
+            "redirect_url": "/surface-hub/surface-hub-85-install-mount",
+            "redirect_document_id":  false
+        },
+        {
+            "source_path":  "surface-hub/surface-hub-2s-custom-install.md",
+            "redirect_url": "/surface-hub/surface-hub-custom-install",
+            "redirect_document_id":  false
+        },
+        {
+            "source_path":  "surface-hub/surface-hub-2s-unpack.md",
+            "redirect_url": "/surface-hub/surface-hub-unpack",
+            "redirect_document_id":  false
+        },
+        {
+            "source_path":  "surface-hub/surface-hub-2s-onscreen-display.md",
+            "redirect_url": "/surface-hub/ssurface-hub-onscreen-display",
+            "redirect_document_id":  false
+        }      						
     ]
 }
