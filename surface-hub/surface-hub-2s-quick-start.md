@@ -17,17 +17,17 @@ appliesto:
 ## Unpack Surface Hub 2S 
 
 1. Use the handles on each side of the box to move it to the space where you'll set it up.
-2. Before opening, remove the clips (4) on the front and back, and then lift the top off the box using the handles.
+2. Before opening, remove the clips (4) on the front and back, then lift the top off the box using the handles.
 3. In the base of the Surface Hub 2S, open the accessories box containing the setup guide, Surface Hub Pen, Surface Hub Smart Camera, and the power cable.
-4. On the back of the Surface Hub 2S, there's an instructional label showing you where to attach the mounting hardware. Install them in place and remove the label.
+4. On the back of the Surface Hub 2S, an instructional label shows you where to attach the mounting hardware. Install them in place and remove the label.
 
-See this video for more information about [unboxing and set up](https://youtu.be/fCrxdNXvru4).
+See this video for more information about [unboxing and setup](https://youtu.be/fCrxdNXvru4).
 
-## Install and adjust pen
+## Install and adjust Pen
 
-1. Attach Surface Hub Pen magnetically to your preferred side of the device.
+1. Attach the Surface Hub Pen magnetically to your preferred side of the device.
 
-![*Surface Hub Pen comes ready to use. To replace AAA battery, pull off the top button and insert battery as shown. The indicator light will turn red when the battery is low.*.](images/sh2-pen.png) <br>
+![*Surface Hub Pen comes ready to use. To replace the AAA battery, pull off the top button and insert the battery as shown. The indicator light will turn red when the battery is low.*.](images/sh2-pen.png) <br>
 
 2. To adjust pen pressure, open the Surface app on Surface Hub 2S, select Pen, and adjust the slider.
 
