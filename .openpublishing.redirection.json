@@ -299,6 +299,11 @@
             "source_path":  "surface-hub/surface-hub-2s-pen-firmware.md",
             "redirect_url": "/surface-hub/surface-hub-pen-firmware",
             "redirect_document_id":  false
+        },
+        {
+            "source_path":  "surface-hub/surface-hub-2s-port-keypad-overview.md",
+            "redirect_url": "/surface-hub/surface-hub-port-keypad-overview",
+            "redirect_document_id":  false
         }             						
     ]
 }
