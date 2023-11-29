@@ -14,7 +14,7 @@ appliesto:
 
 # Customize wall mount of Surface Hub 50"
 
-This article provides guidance for physically installing the Microsoft Surface Hub 50." For information about installing the 85" see [Install and mount Surface Hub 3 85"](surface-hub-3-85-install-and-mount.md).
+This article provides guidance for physically installing the Microsoft Surface Hub 50". For information about installing the 85" model, see [Install and mount Surface Hub 3 85"](surface-hub-3-85-install-mount.md).
 
 If not using certified mounting solutions, you can mount Surface Hub 50" using readily available retail hardware.
 

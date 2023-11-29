@@ -19,7 +19,7 @@ appliesto:
 Carefully unbox the Surface Hub 3 and set it up on its stand or mount it as per the instructions:
 
 - [Install and mount Surface Hub 50 inch](surface-hub-install-mount.md)
-- [Install and mount Surface Hub 85 inch](surface-hub-3-85-install-and-mount.md)
+- [Install and mount Surface Hub 85 inch](surface-hub-3-85-install-mount.md)
 
 Connect any peripherals you will use with the device, such as a keyboard or mouse, although these are not required for setup.
 
