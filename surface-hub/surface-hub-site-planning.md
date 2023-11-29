@@ -15,7 +15,7 @@ appliesto:
 
 # Surface Hub site planning
 
-Designed for team collaboration, Surface Hub can transform the way you work  —  not only in the conference rooms but any place you want to work. One of the biggest advantages of Surface Hub 3 or Surface Hub 2S is the ability to move it from one space to another when used with the Steelcase Roam mobile stand and mobile battery. Providing unplugged, uninterrupted teamwork capabilities, Surface Hub can be integrated into almost any workspace.
+Designed for team collaboration, Surface Hub can transform how you work  —  not only in the conference rooms but any place you want to work. One of the most significant advantages of Surface Hub 3 or Surface Hub 2S is the ability to move it from one space to another when used with the Steelcase Roam mobile stand and mobile battery. Surface Hub can be integrated into almost any workspace by providing unplugged, uninterrupted teamwork capabilities.
 
 ## Room considerations
 
@@ -27,14 +27,14 @@ As a general guideline, install Surface Hub 3 or Surface Hub 2S in a space that 
 - The screen is not in direct sunlight, which could affect viewing or damage the screen.
 - Ventilation openings are not blocked.
 - Microphones are not affected by noise sources, such as fans or vents.
-- Space is well lit with no reflective sources.
+- Space is well-lit with no reflective sources.
 
 Whether mounted to a wall or installed on the mobile stand, the areas where you use the device should maintain:
 
 - Room temperatures no cooler than 10°C (50° F) and no hotter than 35°C  (95° F).
 - Relative humidity no lower than 20 percent and no higher than 80 percent.
 
-For detailed room planning guidance and more information about Microsoft Teams Rooms see [Plan Microsoft Teams Rooms.](/MicrosoftTeams/room-systems/skype-room-systems-v2-0)
+For detailed room planning guidance and more information about Microsoft Teams Rooms, see [Plan Microsoft Teams Rooms.](/MicrosoftTeams/room-systems/skype-room-systems-v2-0)
 
 ## Managing Surface Hub location
 

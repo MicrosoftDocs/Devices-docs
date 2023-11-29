@@ -11,7 +11,7 @@ ms.localizationpriority: Medium
 ---
 # Adjust Surface Hub 2S brightness, volume, and input
 
-Surface Hub 2S provides an on-screen display for volume, brightness, and input control. The Source button functions as a toggle key to switch between the volume, brightness, and input control menus.
+Surface Hub 2S provides an on-screen display for volume, brightness, and input control. The Source button is a toggle key to switch between the volume, brightness, and input control menus.
 
 ## To show the on-screen display
 
