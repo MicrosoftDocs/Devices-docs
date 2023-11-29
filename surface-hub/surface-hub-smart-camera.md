@@ -6,13 +6,15 @@ author: coveminer
 ms.author: chauncel
 manager: frankbu
 ms.topic: how-to
-ms.date: 11/07/2023
+ms.date: 12/05/2023
 ms.localizationpriority: Medium
+appliesto:
+- Surface Hub 2S
+- Surface Hub 3
 ---
-
 # Install and Manage Surface Hub Smart Camera
 
-Surface Hub Smart Camera<sup>1</sup> is designed for hybrid teams and optimized for remote participants. With a sharp focus on the foreground and background, remote participants can see people interact with content on the Surface Hub while also viewing everyone else in the room. Surface Hub Smart Camera has a wide field of view greater than 136 degrees, automatic framing, high-quality glass optics, and a low light sensor.
+Surface Hub Smart Camera<sup>1</sup> is designed for hybrid teams and optimized for remote participants. With a sharp focus on the foreground and background, remote participants can see people interact with content on the Surface Hub while viewing everyone else in the room. Surface Hub Smart Camera has a wide field of view greater than 136 degrees, automatic framing, high-quality glass optics, and a low light sensor.
 ![Ultra-wide camera view includes people whiteboarding on extreme edges of 85" Hub](images/surface-hub-smart-camera-fov.png)
 
 *Ultra-wide camera view includes people whiteboarding on extreme edges of 85" Hub*
@@ -27,7 +29,7 @@ For Surface Hubs running Team OS, Surface Hub Smart Camera requires the followin
 To learn more, refer to [Surface Hub update history](surface-hub-update-history.md).
 
 > [!NOTE]
-> No additional updates are required for Surface Hubs  migrated to run Windows 10/11 Pro or Enterprise.
+> No additional updates are required for Surface Hubs migrated to run Windows 10/11 Pro or Enterprise.
 
 ## Install smart camera
 
@@ -35,7 +37,7 @@ To learn more, refer to [Surface Hub update history](surface-hub-update-history.
 
      ![Attach the camera to the USB-C port in the middle of the top of Surface Hub 2.](images/hub2smartcamera1.png)
 
-2. To remove the camera, pull up and forward. A magnetic tether prevents the camera from being knocked off or pulled  backward.
+2. To remove the camera, pull up and forward. A magnetic tether prevents the camera from being knocked off or pulled backward.
 
     ![To remove the camera, pull up and forward.](images/hub2smartcamera2.png)
 
@@ -43,7 +45,7 @@ To learn more, refer to [Surface Hub update history](surface-hub-update-history.
 
 The camera cover magnetically snaps to the front for privacy and the back for storage when not in use.
 
-:::image type="content" source="images/smart-camera-cover.png" alt-text="Remove the cover and place it on rear of the camera " :::
+:::image type= "content" source= "images/smart-camera-cover.png" alt-text= "Remove the cover and place it on rear of the camera" :::
 
 > [!NOTE]
 > Do not place the cover in the vented slot at the top of the camera.
@@ -66,7 +68,7 @@ When you install the Surface Hub Smart Camera, automatic framing is enabled by d
 1. On your Surface Hub 2S, sign in as **Admin**.
 
 > [!NOTE]
-> If you don't know your user name or admin password, you'll need to reset the device. For more information, see [Reset and recovery for Surface Hub 2S](/surface-hub/surface-hub-2s-recover-reset).
+> You'll need to reset the device if you don't know your username or admin password. For more information, see [Reset and recovery for Surface Hub 2S](/surface-hub/surface-hub-2s-recover-reset).
 
 2. Open **Settings** and go to  **Surface Hub > Calling & Audio.**
 3. Under **Automatic framing**, adjust the toggle as appropriate. 
@@ -89,7 +91,7 @@ To learn more, refer to the following pages:
 
 ### Windows 11 Desktop on Surface Hub
 
-If you've [migrated your Surface Hub](surface-hub-2s-migrate-os.md) to run Windows 11 Pro or Windows 11 Enterprise, you'll need to turn on automatic framing for the Surface Hub Smart Camera. By default, automatic framing is turned off.
+If you've [migrated your Surface Hub](surface-hub-2s-migrate-os.md) to run Windows 11 Pro or Windows 11 Enterprise, you'll need to turn on automatic framing for the Surface Hub Smart Camera. Automatic framing is turned off by default.
 
 To turn on automatic framing, go to **Settings > Bluetooth & devices > Manage Cameras>  Surface Hub Smart Camera.**
 
@@ -107,4 +109,4 @@ Purchase Surface Hub Smart Camera from your [authorized Microsoft Surface resell
 
 ### References
 
-<sup>1</sup> Surface Hub Smart Camera, sold separately starting March 16, 2022, dynamically adjusts the video feed for remote participants. Surface Hub Smart Camera included in the box with Surface Hub 2S 85” starting in May 2022.
+<sup>1</sup> Surface Hub Smart Camera, sold separately starting March 16, 2022, dynamically adjusts the video feed for remote participants. Surface Hub Smart Camera is included in the box with Surface Hub 2S 85" and all models of Surface Hub 3. 
