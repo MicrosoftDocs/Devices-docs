@@ -26,11 +26,10 @@ Before you remove Surface Hub 2S or Surface Hub 3 from the box, make sure that y
 7. Align the installed hardware with the slots on the mount so it rests firmly in place.
 8. Follow any further instructions that came with your mounting solution.
 
-TIP: You can use familiar mounting solutions that are compatible across Hub 2S and Hub 3 devices. Awareness of Rotation in Hub 3 
+> [!TIP]
+> Mounting solutions built for Surface Hub 2S are compatatible with Surface Hub 3 while also supporting the new rotation feature to Portrait mode. 
 
-For a video demo, see [](https://www.youtube.com/watch?v=fCrxdNXvru4)
-
-Add Matts video. 
+For a video demo of physically installing the 50-inch Surface Hub, see [Unboxing and Set up](https://www.youtube.com/watch?v=fCrxdNXvru4).
 
 ## Install pen and camera
 
