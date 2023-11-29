@@ -26,6 +26,12 @@ Before you remove Surface Hub 2S or Surface Hub 3 from the box, make sure that y
 7. Align the installed hardware with the slots on the mount so it rests firmly in place.
 8. Follow any further instructions that came with your mounting solution.
 
+TIP: You can use familiar mounting solutions that are compatible across Hub 2S and Hub 3 devices. Awareness of Rotation in Hub 3 
+
+For a video demo, see [](https://www.youtube.com/watch?v=fCrxdNXvru4)
+
+Add Matts video. 
+
 ## Install pen and camera
 
 1. Unwrap your Surface Hub Pen and attach it magnetically to your preferred side of the device.

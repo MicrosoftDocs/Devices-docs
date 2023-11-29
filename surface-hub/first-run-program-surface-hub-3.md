@@ -87,5 +87,11 @@ Now you're ready to begin the Microsoft Teams Rooms setup experience.
 4. Enter advanced settings including Exchange sign in and domain information. Select **Next**.
 5. Select **Finish** to complete Microsoft Teams Rooms setup.
 
+## Next steps
+
+- Although the OOBE process automatically downloads required updates, it's recommended to run Windows Update to ensure you have the latest. Sign into Surface Hub 3 with an admin account, open **Settings > Windows Update > Check for Updates**. 
+- Review [Surface Hub 3 security best practices](surface-hub-3-security.md). At a mimimum, recommendations include changing the Administrator password, adding a UEFI password, and implementing appropriate physical security measures.
+- [Update Surface Hub Pen firmware](surface-hub-pen-firmware.md)
+
 ## Learn more
 
