@@ -1,6 +1,6 @@
 ---
-title: "Install and mount Surface Hub 3 85"
-description: "Learn how to install and mount Surface Hub 3 85."
+title: "Install and mount Surface Hub 2S 85"
+description: "Learn how to install and mount Surface Hub 2S 85."
 ms.prod: surface-hub
 author: coveminer
 ms.author: chauncel
@@ -9,13 +9,13 @@ ms.topic: how-to
 ms.date: 03/22/2021
 ms.localizationpriority: Medium
 ---
-# Install and mount Surface Hub 3 85"
+# Install and mount Surface Hub 2S 85"
 
-This article explains how to physically install Microsoft Surface Hub 3 85" in commercial environments.
+This article explains how to physically install Microsoft Surface Hub 2S 85" in commercial environments.
 
 ## Unboxing video
 
-Before you begin, please review the Unboxing and Set Up video:
+Before you begin, please review the Microsoft Surface Hub 2S 85" Unboxing and Set Up video:
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWwwgL]
 
@@ -121,9 +121,9 @@ Additional strapping materials are provided in the small box located under the h
 17. Remove cling labels (x4).
 18. Press the power button on the lower right. Installation is now complete.
 
-## Mounting Surface Hub 3 85"
+## Mounting Surface Hub 2S 85"
 
-The Surface Hub 3 85" uses a 600 x 600 VESA mount pattern. As shown in the following image, Microsoft has partnered with [Steelcase](https://www.steelcase.com/products/collaboration/steelcase-roam/) to create mounting options compatible with the Surface Hub 3 85" unique design.
+The Surface Hub 2S 85" uses a 600 x 600 VESA mount pattern. As shown in the following image, Microsoft has partnered with [Steelcase](https://www.steelcase.com/products/collaboration/steelcase-roam/) to create mounting options compatible with the Surface Hub 2S 85" unique design.
 
 ![Steelcase Wall Mount.](images/sh2-steelcasemount.png) <br>
 

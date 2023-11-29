@@ -276,11 +276,6 @@
             "redirect_document_id":  false
         },	
         {
-            "source_path":  "surface-hub/surface-hub-2s-85-install-mount.md",
-            "redirect_url": "/surface-hub/surface-hub-85-install-mount",
-            "redirect_document_id":  false
-        },
-        {
             "source_path":  "surface-hub/surface-hub-2s-custom-install.md",
             "redirect_url": "/surface-hub/surface-hub-custom-install",
             "redirect_document_id":  false
