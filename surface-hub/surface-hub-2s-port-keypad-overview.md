@@ -1,6 +1,6 @@
 ---
-title: "Surface Hub 2S ports and keypad overview"
-description: "This page describes the ports, physical buttons, and configuration information essential for connecting to Surface Hub 2S."
+title: "Surface Hub ports and keypad overview"
+description: "This page describes the ports, physical buttonSurface Hub Pens, and configuration information essential for connecting to Surface Hub 2S or Surface Hub 3."
 ms.prod: surface-hub
 author: coveminer
 ms.author: chauncel
@@ -13,9 +13,9 @@ appliesto:
 - Surface Hub 3
 
 ---
-# Surface Hub 2S ports and keypad overview
+# Surface Hub ports and keypad overview
 
-This page describes the ports, physical buttons, and configuration information essential for connecting to Surface Hub 2S, whether wired, Wi-Fi, or Bluetooth. It also includes best practice recommendations for key connectivity scenarios.
+This page describes the ports, physical buttons, and configuration information essential for connecting to Surface Hub 2S or Surface Hub 3, whether wired, Wi-Fi, or Bluetooth. It also includes best practice recommendations for key connectivity scenarios.
 
 > [!NOTE]
 > You can find the serial number on the outside of the packaging, on the display by the power cord, or by using the Surface app. 
@@ -29,7 +29,7 @@ The figure below shows the location of ports and physical buttons on a keypad at
 |**Key**|**Component**|**Description**|**Key parameters**|
 |:--- |:--------- |:----------- |:-------------- |
 | 1 | **USB C** | **USB 3.1 Gen 1** <br> Use as a walk-up port for plugging peripherals such as thumb drives. Guest ports are on each side of the device (4).<br> <br> *NOTE: This is the recommended port for connecting an external camera. Additional camera mount features are incorporated into the design to help support the retention of attached cameras.*<br> <br> NOTE: TouchBack and video ingest are not supported on these ports. | Type C <br> <br> 15 W Port (5V/3A)       |
-| 2 | **AC power** | **100-240 V input** <br> Connect to standard AC power, and Surface Hub 2S will auto switch to the local power standard, such as 110 volts in the US and Canada or 220 volts in the UK. | IEC 60320 C14 |
+| 2 | **AC power** | **100-240 V input** <br> Connect to standard AC power, and Surface Hub auto switches to the local power standard, such as 110 volts in the US and Canada or 220 volts in the UK. | IEC 60320 C14 |
 | 3 | **DC power** | **24V DC input port** <br> Use for connecting to mobile battery. | Xbox1 Dual barrel to Anderson connector |
 | 4 | **Ethernet** | **1000/100/10 Base-T** <br> Use for providing a continuous connection in a corporate environment and related scenarios requiring maximum stability or capacity. | RJ45 |
 | 5 | **USB-A** | **USB 3.1 Gen 1** <br> Use as a walk-up port for plugging peripherals such as thumb drives. | Type A<br>7.5 W Port (5V/1.5A) |
