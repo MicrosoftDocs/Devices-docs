@@ -37,7 +37,7 @@ This article explains how to replace the default wallpaper on Surface Hub 3 with
   ```
 
 3. Insert the USB drive into the Surface Hub.
-4. Connect an external keyboard and press the **Windows** key five times to open Windows login screen and sign in with your admin credentials.
+4. Connect an external keyboard and press the **Windows** key five times to open the Windows login screen and sign in with your admin credentials.
 6. Save the wallpaper image file, **oembackgroundimage.png**, and **SkypeSettings.xml** in the following folder: 
 
 - **C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState**
