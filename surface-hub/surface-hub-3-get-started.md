@@ -18,20 +18,19 @@ appliesto:
 
 ## New installs
 
-New deliveries of Surface Hub 3 come preinstalled with the Microsoft Teams Rooms on Windows experience. Turn it on and follow the prompts for the first run startup experience (aka OOBE). To learn more, see [First-time setup for Surface Hub 3](first-run-program-surface-hub-3.md).
+New deliveries of Surface Hub 3 come preinstalled with the Microsoft Teams Rooms on Windows experience. Turn it on and follow the prompts for the first run startup experience (aka OOBE). See [First-time setup for Surface Hub 3](first-run-program-surface-hub-3.md) to learn more.
 
-## Upgrade 
+## Upgrade
 
-If you have a Surface Hub 2S, you can upgrade to the new experience via the Surface Hub 3 Pack.  To learn more, see [Install and manage Surface Hub 3 Pack](install-manage-surface-hub-3-pack.md).
+If you have a Surface Hub 2S, you can upgrade to the new experience via the Surface Hub 3 Pack. See [Install and manage Surface Hub 3 Pack](install-manage-surface-hub-3-pack.md) to learn more.
 
 ## IT management of Surface Hub 3
 
-In addition to Microsoft Intune and third-party MDM providers, IT admins can manage Surface Hub 3 via the [Microsoft Teams admin center](https://admin.teams.microsoft.com/) and use tools like [Microsoft Configuration Manager](/mem/configmgr/core/understand/introduction),third-party OMA-DM-based management tools, and [Windows Group Policy](/azure/active-directory-domain-services/manage-group-policy).
+In addition to Microsoft Intune and third-party MDM providers, IT admins can manage Surface Hub 3 via the [Microsoft Teams admin center](https://admin.teams.microsoft.com/) and use tools like [Microsoft Configuration Manager](/mem/configmgr/core/understand/introduction), third-party OMA-DM-based management tools, and [Windows Group Policy](/azure/active-directory-domain-services/manage-group-policy).
 
 ## Security considerations
 
-Depending on the security posture of your organization, you may wish to implement additional security measures beyond the default experience of running Microsoft Teams Rooms on Windows in a locked-down state. At a minimum, this includes changing the Administrator password, adding a UEFI password, and implementing appropriate physical security measures. To learn more, see [Surface Hub 3 security best practices](surface-hub-3-security.md)
-
+Depending on your organization's security posture, you may wish to implement additional security measures beyond the default experience of running Microsoft Teams Rooms on Windows in a locked-down state. This includes changing the Administrator password, adding a UEFI password, and implementing appropriate physical security measures. To learn more, see [Surface Hub 3 security best practices](surface-hub-3-security.md)
 
 ### Teams management portals
 
@@ -53,14 +52,13 @@ To learn more, see:
 
 #### Teams Rooms Pro Management Portal
 
-The Teams Rooms Pro Management service is a cloud-based management solution that proactively monitors and updates Microsoft Teams Rooms devices and their peripherals. The Pro management solution is for organizations looking to optimize the meeting room experience and perform 
+The Teams Rooms Pro Management service is a cloud-based management solution that proactively monitors and updates Microsoft Teams Rooms devices and their peripherals. The Pro management solution is for organizations looking to optimize the meeting room experience and perform
 real-time monitoring and management for Teams Rooms devices. To learn more, see [Microsoft Teams Rooms Pro Management](/microsoftteams/rooms/rooms-pro-management).
 
 ## Licensing
 
-New Surface Hub 3 devices come with a license for Windows 11 IoT Enterprise,  and you’ll also need  
-a [Teams Rooms](/microsoftteams/rooms/rooms-licensing) license.  A Teams Rooms Pro license is recommended for advanced features like remote device management, conditional access policies, and detailed device analytics. To learn more, see [Microsoft Teams Rooms licenses](/microsoftteams/rooms/rooms-licensing#teams-rooms-license-service-plan-comparison).
-
+New Surface Hub 3 devices come with a Windows 11 IoT Enterprise license,  and you'll also need  
+a [Teams Rooms](/microsoftteams/rooms/rooms-licensing) license. A Teams Rooms Pro license is recommended for advanced features like remote device management, conditional access policies, and detailed device analytics. To learn more, see [Microsoft Teams Rooms licenses](/microsoftteams/rooms/rooms-licensing#teams-rooms-license-service-plan-comparison).
 
 ### References
 

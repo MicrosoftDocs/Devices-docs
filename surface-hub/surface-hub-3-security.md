@@ -12,9 +12,10 @@ appliesto:
 - Surface Hub 3
 - Surface Hub 3 Pack
 ---
+
 # Surface Hub 3 security best practices
 
-Surface Hub 3<sup>1</sup> runs Microsoft Teams Rooms on Windows in a locked-down state. Depending on the security posture of your organization, you may wish to take other security measures, as described in this article. At a minimum, we recommended the following:
+Surface Hub 3<sup>1</sup> runs Microsoft Teams Rooms on Windows in a locked-down state. Depending on your organization's security posture, you may wish to take other security measures, as described in this article. At a minimum, we recommended the following:
 
 - [Change default local admin password](#change-default-local-admin-password)
 - [Set a UEFI password](#set-a-uefi-password)
@@ -25,7 +26,7 @@ Surface Hub 3<sup>1</sup> runs Microsoft Teams Rooms on Windows in a locked-down
 
 ## Change default local admin password
 
-The default local admin account is a well-known entry point for malicious actors. At a minimum, it's essential to change the local admin password on Surface Hub 3. If the default Admin password is not changed immediately after setup, the device may be vulnerable to data breaches, system manipulation, or other unauthorized access.
+The default local admin account is a well-known entry point for malicious actors. At a minimum, changing the local admin password on Surface Hub 3 is essential. If the default Admin password is not changed immediately after setup, the device may be vulnerable to data breaches, system manipulation, or other unauthorized access.
 
 ### To change the local admin password on Surface Hub 3
 
@@ -40,7 +41,7 @@ The default local admin account is a well-known entry point for malicious actors
 
 ## Set a UEFI password
 
-The Unified Extensible Firmware Interface (UEFI) is a specification that defines a software interface between an operating system and platform firmware. By setting a UEFI password, you add an extra layer of security, preventing unauthorized users from changing the device's firmware settings. Set a strong UEFI password and ensure it's stored in a secure location.
+The Unified Extensible Firmware Interface (UEFI) is an advanced firmware interface designed to replace the traditional BIOS (Basic Input/Output System), providing enhanced features like improved security, faster boot times, and support for larger hard drives in modern Windows operating systems.  By setting a UEFI password, you add an extra layer of security, preventing unauthorized users from changing the device's firmware settings. Set a strong UEFI password and ensure it's stored in a secure location.
 
 Set a UEFI password via the downloadable [Surface UEFI Configurator](https://www.microsoft.com/download/details.aspx?id=46703) and [Surface Enterprise Management Mode (SEMM)](/surface/surface-enterprise-management-mode).
 
@@ -55,7 +56,7 @@ You need a dedicated USB drive with at least 50 MB of storage space.
 4. Add your organizational Personal Information Exchange (PFE) certificate.
 
 > [!NOTE]
-> This article assumes that you either obtain certificates from a third-party provider or already have expertise in PKI certificate services and know how to create your own. To learn more, see [Certificate Services Architecture](/windows/win32/seccrypto/certificate-services-architecture) documentation.
+> This article assumes that you either obtain certificates from a third-party provider or already have expertise in PKI certificate services and know how to create your own. See [Certificate Services Architecture](/windows/win32/seccrypto/certificate-services-architecture) documentation to learn more.
 
 5. Now you're ready to set a UEFI password. Select **Password Protection**. Enter and confirm your password. Select **Next.**
 
@@ -70,7 +71,7 @@ To learn more, refer to the [Surface Enterprise Management Mode (SEMM) documenta
 
 ## Physically secure Surface Hub 3
 
-Physical security is as crucial a tool as digital security. Devices like the Surface Hub, placed in public conference rooms, can be susceptible to physical damage or tampering. Consider the following steps to protect Surface Hub.
+Physical security is as crucial a tool as digital security. Devices like the Surface Hub in public conference rooms can be susceptible to physical damage or tampering. Consider the following steps to protect Surface Hub.
 
 - **Tamper-evident seals:** Use tamper-evident seals on the device. If someone attempts to open the device, the seal will show signs of tampering.
 - **Security cables and locks:** Use security cables and locks to secure the device to a heavy or immovable object, making it difficult for someone to walk away with it.
@@ -85,7 +86,7 @@ The following security features are no longer enabled by default on Surface Hub 
 
 ### BitLocker
 
-You can enable BitLocker via Intune when joined to Entra ID (Azure AD). To learn more, see [Encrypt Windows devices with BitLocker in Intune](/mem/intune/protect/encrypt-devices).
+You can enable BitLocker via Intune when joined to Entra ID (Azure AD). See [Encrypt Windows devices with BitLocker in Intune](/mem/intune/protect/encrypt-devices) to learn more.
 
 #### To enable BitLocker on a stand-alone Surface Hub 3
 
@@ -103,9 +104,9 @@ UMCI enforces code integrity policies and ensures that only trusted code runs in
 
 It's strongly recommended to use a license for the Microsoft Teams Rooms Pro Management portal, a cloud-based management solution designed to proactively monitor and update Microsoft Teams Rooms devices and their peripherals. This service is intended for organizations aiming to enhance the meeting room experience for end users, facilitated by real-time monitoring and management for Microsoft Teams Rooms devices like Surface Hub 3.
 
-- **Intelligent Operations**: Utilizes software and machine learning to automate updates, detect problems, and resolve issues for Microsoft Teams Rooms.
-- **Timely Security Patches**: Automated update management ensures that security patches are applied promptly as they become available, minimizing the window of vulnerability and protecting devices from known security threats.
-- **Update Management**: Automates the orchestration of meeting application and Windows updates based on customer-configurable deployment rings.
+- **Intelligent operations**: Utilizes software and machine learning to automate updates, detect problems, and resolve issues for Microsoft Teams Rooms.
+- **Timely security updates**: Automated update management ensures that security patches are applied promptly as they become available, minimizing the window of vulnerability and protecting devices from known security threats.
+- **Update management**: Automates the orchestration of meeting application and Windows updates based on customer-configurable deployment rings.
 
 To learn more, see [Microsoft Teams Rooms Pro Management](/microsoftteams/rooms/rooms-pro-management)
 
@@ -122,7 +123,7 @@ We recommend you join Surface Hub 3 to Microsoft Entra ID (Azure AD) and manage 
 | **BitLocker encryption**          | Ensure that the device's storage is encrypted using BitLocker. This protects data in case of unauthorized access or device theft. Note that, unlike Surface Hub 2S, Bitlocker is not installed by default.                                                                                     | [Encrypt Windows devices with BitLocker in Intune](/mem/intune/protect/encrypt-devices)                                                                                                                                |
 |**WindowsLocal Administrator Password Solution**|Windows LAPS automatically manages local admin passwords, ensuring they're randomized and securely stored in Microsoft Entra ID (Azure AD). This reduces the risk associated with stale or widely-known admin passwords.|[Microsoft Intune support for Windows LAPS](/mem/intune/protect/windows-laps-overview)
 | **Conditional access**            | Set up conditional access policies to ensure the device can access corporate resources only when it meets specific conditions, such as compliance with security policies.                                                                                                                | [Use Conditional Access with Microsoft Intune compliance policies](/mem/intune/protect/conditional-access)                                                                                                             |
-| **Network security**              | Ensure the device is connected to a secure network segment. Use Intune to configure Wi-Fi settings, VPNs, or other network configurations to ensure data in transit is protected.                                                                                                        | [Create a Wi-Fi profile for devices in Microsoft Intune](/mem/intune/configuration/wi-fi-settings-configure)<br> <br>[Network endpoints for Microsoft Intune](/mem/intune/fundamentals/intune-endpoints) |
+| **Network security**              | Ensure the device is connected to a secure network segment. Use Intune to configure Wi-Fi settings, VPNs, or other network configurations to protect data in transit.                                                                                                        | [Create a Wi-Fi profile for devices in Microsoft Intune](/mem/intune/configuration/wi-fi-settings-configure)<br> <br>[Network endpoints for Microsoft Intune](/mem/intune/fundamentals/intune-endpoints) |
 | **Remote Wipe and Lock**          | In case of any security incidents, ensure you can remotely lock or wipe the device using Intune.                                                                                                                                                                                         | [Retire or wipe devices using Microsoft Intune](/mem/intune/remote-actions/devices-wipe)                                                                                                                                                  |
 | **Audit and monitoring**          | Regularly review audit logs and set up alerts for suspicious activities. Intune integrates with Microsoft Endpoint Manager and other Microsoft security solutions, providing a holistic view of device security.                                                                     | [Audit changes and events in Microsoft Intune](/mem/intune/fundamentals/monitor-audit-logs)                                                                                                                                               |
 | **User training**                 | Educate users about not leaving sensitive information visible on the screen.<br> <br>If your organization has Microsoft Purview Data Loss Prevention (DLP), you can define policies that prevent people from sharing sensitive information in a Microsoft Teams channel or chat session. | [Data loss prevention and Microsoft Teams](/purview/dlp-microsoft-teams)                                                                                                                                                                  |
