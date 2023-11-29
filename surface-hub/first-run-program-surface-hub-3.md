@@ -12,7 +12,6 @@ ms.localizationpriority: medium
 appliesto:
 - Surface Hub 3
 ---
-
 # First-time setup for Surface Hub 3
 
 ## Unboxing and hardware setup
@@ -20,9 +19,9 @@ appliesto:
 Carefully unbox the Surface Hub 3 and set it up on its stand or mount it as per the instructions:
 
 - [Install and mount Surface Hub 50 inch](surface-hub-install-mount.md)
-- [Install and mount Surface Hub 85 inch](surface-hub-85-install-mount.md)
+- [Install and mount Surface Hub 85 inch](surface-hub-3-85-install-mount.md)
 
-Connect any peripherals that you will be using with the device, such as a keyboard or mouse, although these are not required for setup.
+Connect any peripherals you will use with the device, such as a keyboard or mouse, although these are not required for setup.
 
 ## Prerequisites
 
@@ -36,13 +35,13 @@ Before you start Surface Hub 3 for the first time, ensure that you have the foll
 
 When you first start Surface Hub 3, the device automatically enters first-time Setup mode to guide you through account configuration and related settings.
 
-## Use provisioning packages in enteprise environments
+## Use provisioning packages in Enterprise environments
 
 Although not required, you can automate the setup process with a provisioning package to ensure a consistent experience across multiple Surface Hubs. This optional technology allows for a streamlined setup process that can be performed without extensive IT intervention, saving time and resources in organizational and enterprise environments.
 
-1. To begin, review the documentation in [Create provisioning packages](provisioning-packages-for-surface-hub.md) and save the provisioning package to a USB thumb drive.
+1. review the documentation in [Create provisioning packages](provisioning-packages-for-surface-hub.md) and save the package to a USB thumb drive.
 2. Insert the USB thumb drive into one of the USB ports when you see the License Agreement page.
-3. When prompted, choose the provisioning package you'd like to use.
+3. When prompted, choose the provisioning package you want.
 4. Follow the rest of the steps, and remove the USB drive at the first reboot that occurs in the setup process.
 
 ## Surface Hub 3 OOBE setup
@@ -76,22 +75,20 @@ Although not required, you can automate the setup process with a provisioning pa
 
  ![Setting up for Work or School](images/surface-hub-3-oobe-fig4.png)
 
-
 ## Microsoft Teams Rooms setup
 
-Now you're ready to begin the Microsoft Teams Rooms setup experience.
+Now, you're ready to begin the Microsoft Teams Rooms setup experience.
 
 1. Agree to Microsoft Software License Terms and acknowledge that you have read the privacy statement at [https://aka.ms/privacy](https://aka.ms/privacy). Select **Next**.
 2. Enter your account and password. Select **Next**.
 3. Turn off Cortana Voice Activation, if desired. Select **Next**.
-4. Enter advanced settings including Exchange sign in and domain information. Select **Next**.
-5. Select **Finish** to complete Microsoft Teams Rooms setup.
+4. Enter advanced settings, including Exchange sign-in and domain information. Select **Next**.
+5. Select **Finish** to complete the Microsoft Teams Rooms setup.
 
 ## Next steps
 
-- Although the OOBE process automatically downloads required updates, it's recommended to run Windows Update to ensure you have the latest. Sign into Surface Hub 3 with an admin account, open **Settings > Windows Update > Check for Updates**. 
-- Review [Surface Hub 3 security best practices](surface-hub-3-security.md). At a mimimum, recommendations include changing the Administrator password, adding a UEFI password, and implementing appropriate physical security measures.
+- Although the OOBE process automatically downloads required updates, running Windows Update is recommended to ensure you have the latest. Sign in to Surface Hub 3 with an admin account, and open **Settings > Windows Update > Check for Updates**.
+- Review [Surface Hub 3 security best practices](surface-hub-3-security.md). At a minimum, recommendations include changing the Administrator password, adding a UEFI password, and implementing appropriate physical security measures.
 - [Update Surface Hub Pen firmware](surface-hub-pen-firmware.md)
 
 ## Learn more
-
