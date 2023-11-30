@@ -69,18 +69,13 @@ Although not required, you can automate the setup process with a provisioning pa
 
  ![Add a second keyboard](images/surface-hub-3-oobe-fig1c.png)
 
-6. The setup experience automatically configures your work or school account.
-
- ![Welcome! Let's get you set up for Work](images/surface-hub-3-oobe-fig3.png)
-
- ![Setting up for Work or School](images/surface-hub-3-oobe-fig4.png)
 
 ## Microsoft Teams Rooms setup
 
 Now, you're ready to begin the Microsoft Teams Rooms setup experience.
 
 1. Agree to Microsoft Software License Terms and acknowledge that you have read the privacy statement at [https://aka.ms/privacy](https://aka.ms/privacy). Select **Next**.
-2. Enter your account and password. Select **Next**.
+2. If you received an activation code, enter it and select **Next.** Otherwise, select **Manual setup** and enter your account and password. Select **Next**.
 3. Turn off Cortana Voice Activation, if desired. Select **Next**.
 4. Enter advanced settings, including Exchange sign-in and domain information. Select **Next**.
 5. Select **Finish** to complete the Microsoft Teams Rooms setup.
