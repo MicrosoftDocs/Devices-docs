@@ -21,6 +21,19 @@ Most Windows updates focus on performance and security improvements. In the list
 
 ## Windows 10 Team 2022 Update (22H2)
 
+### November 21, 2023 - update for Surface Hub 2S
+
+This update is specific to the Surface Hub 2S and provides the driver and firmware updates outlined below:
+
+* Surface UEFI update - 699.845.768.0
+  * Addresses critical security vulnerability and improves system stability.
+  * Adds support for optional migration to the [Teams Rooms on Windows](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/surface-hub-2s-now-a-microsoft-teams-rooms-on-windows-device/ba-p/3779970) experience.
+* Surface ME Firmware update - 11.8.94.4494
+  * Addresses critical security vulnerability and improves system stability.
+* Intel(R) Management Engine Interface driver - 2251.4.2.0
+  * Addresses critical security vulnerability and improves system stability.
+
+
 ### September 26, 2023 - update for Team OS based on KB5030300* (19045.3516)
 
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/5018682/windows-10-update-history), include:
