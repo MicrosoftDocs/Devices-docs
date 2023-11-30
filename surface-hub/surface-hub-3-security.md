@@ -15,7 +15,7 @@ appliesto:
 
 # Surface Hub 3 security best practices
 
-Surface Hub 3<sup>1</sup> runs Microsoft Teams Rooms on Windows in a locked-down state. Depending on your organization's security posture, you may wish to take other security measures, as described in this article. At a minimum, we recommended the following:
+Surface Hub 3<sup>1</sup> runs Microsoft Teams Rooms on Windows in Kiosk mode on Windows 11 IoT Enterprise. Depending on your organization's security posture, you may wish to take other security measures, as described in this article. At a minimum, we recommended the following:
 
 - [Change default local admin password](#change-default-local-admin-password)
 - [Set a UEFI password](#set-a-uefi-password)
