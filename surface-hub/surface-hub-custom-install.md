@@ -1,6 +1,6 @@
 ---
-title: "Customize wall mount of Surface Hub 50-inch"
-description: "This article provides details for customizing your own mounting solution for 50" models of Surface Hub."
+title: Customize wall mount of Surface Hub 50-inch
+description: This article provides details for customizing your own mounting solution for 50" models of Surface Hub.
 ms.prod: surface-hub
 author: coveminer
 ms.author: chauncel
