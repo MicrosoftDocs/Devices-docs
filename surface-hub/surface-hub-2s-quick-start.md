@@ -43,3 +43,8 @@ Remove the lens cling from the camera and attach it to the USB-C port on the top
 2. To begin, press the power button on the bottom right.
 
 ![* Keypad showing source, volume and power buttons*.](images/sh2-keypad.png) <br>
+
+### Learn more
+
+- [Install and mount Surface Hub 50"](surface-hub-install-mount.md)
+- [Install and mount Surface Hub 85"](surface-hub-2s-85-install-mount.md)
