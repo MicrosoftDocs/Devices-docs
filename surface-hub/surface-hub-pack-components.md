@@ -1,21 +1,24 @@
 ---
-title: How to pack and ship Surface Hub 2S
-description: Instructions for packing Surface Hub 2S for shipment or service.
+title: How to pack and ship Surface Hub 50" models
+description: Instructions for packing Surface Hub 2S or Surface Hub 3 for shipment or service.
 ms.prod: surface-hub
 author: coveminer
 ms.author: chauncel
 manager: frankbu
 ms.topic: how-to
-ms.date: 02/06/2019
+ms.date: 12/05/2023
 ms.localizationpriority: Medium
+appliesto:
+- Surface Hub 2S
+- Surface Hub 3
 ---
 
-# How to pack and ship Surface Hub 2S
+# How to pack and ship Surface Hub 50" models
 
-This article explains how to pack Surface Hub 2S for shipment or service.
+This article explains how to pack Surface Hub 2S or Surface Hub 3 for shipment or service.
 
 >[!IMPORTANT]  
->When packing your device for shipment, make sure that you use the original packaging that came with Surface Hub 2S.  
+>When packing your device for shipment, make sure that you use the original packaging that came with your Surface Hub.  
 
 | Step  |    Task                                                                                                                                             |    Illustration   |
 | - | ----------------------------------------------------------------------------------------------------------------------------------------------- | ----- |
