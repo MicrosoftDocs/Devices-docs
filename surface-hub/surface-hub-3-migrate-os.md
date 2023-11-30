@@ -15,7 +15,7 @@ appliesto:
 
 # Migrate to Windows 11 Pro or Enterprise on Surface Hub 3
 
-This article describes how to convert the operating system to windows 11 pro or enterprise and use Surface Hub 3 much like any other PC.
+This article describes how to convert the operating system to Windows 11 Pro or Enterprise and use Surface Hub 3 much like any other PC.
 
 ## Before you begin
 

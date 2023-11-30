@@ -309,6 +309,11 @@
             "source_path":  "surface-hub/surface-hub-2s-pack-components.md",
             "redirect_url": "/surface-hub/surface-hub-pack-components",
             "redirect_document_id":  false
-        }              						
+        },
+        {
+            "source_path":  "surface-hub/surface-hub-2s-secure-with-uefi-semm.md",
+            "redirect_url": "/surface-hub/surface-hub-secure-with-uefi-semm",
+            "redirect_document_id":  false
+        }                						
     ]
 }
