@@ -31,7 +31,7 @@ Before you start Surface Hub 3 for the first time, ensure that you have the foll
 - A resource account with a [supported Microsoft Teams Rooms license](/microsoftteams/rooms/rooms-licensing)
 
 > [!TIP]
-> Review the [Microsoft Teams Rooms Deployment overview](/microsoftteams/rooms/rooms-deploy)
+> For general guidance about Microsoft Teams Rooms on Windows, review the [Microsoft Teams Rooms Deployment overview](/microsoftteams/rooms/rooms-deploy)
 
 When you first start Surface Hub 3, the device automatically enters first-time Setup mode to guide you through account configuration and related settings.
 
@@ -39,7 +39,7 @@ When you first start Surface Hub 3, the device automatically enters first-time S
 
 Although not required, you can automate the setup process with a provisioning package to ensure a consistent experience across multiple Surface Hubs. This optional technology allows for a streamlined setup process that can be performed without extensive IT intervention, saving time and resources in organizational and enterprise environments.
 
-1. review the documentation in [Create provisioning packages](provisioning-packages-for-surface-hub.md) and save the package to a USB thumb drive.
+1. Review the documentation in [Create provisioning packages](provisioning-packages-for-surface-hub.md) and save the package to a USB thumb drive.
 2. Insert the USB thumb drive into one of the USB ports when you see the License Agreement page.
 3. When prompted, choose the provisioning package you want.
 4. Follow the rest of the steps, and remove the USB drive at the first reboot that occurs in the setup process.
@@ -91,4 +91,3 @@ Now, you're ready to begin the Microsoft Teams Rooms setup experience.
 - Review [Surface Hub 3 security best practices](surface-hub-3-security.md). At a minimum, recommendations include changing the Administrator password, adding a UEFI password, and implementing appropriate physical security measures.
 - [Update Surface Hub Pen firmware](surface-hub-pen-firmware.md)
 
-## Learn more

@@ -51,7 +51,7 @@ immediately, so the mounting system should be in place before unpacking. If you'
  ![Remove black outer packaging foam.](images/hub85mount2a.png) <br>
 
 > [!Caution]
-> Do not remove any white foam, strapping or packaging materials until the Hub 2S is adjacent to the cart or wall mount on which it will be placed.
+> Do not remove any white foam, strapping or packaging materials until the Hub 3 is adjacent to the cart or wall mount on which it will be placed.
 Additional strapping materials are provided in the small box located under the hand screw knobs on the back side of the package. Original or replacement strapping materials must be in place before moving, especially before rotating the device and its protective package.
 
 ## 3. Remove inner packaging frame from pallet
@@ -89,7 +89,7 @@ Additional strapping materials are provided in the small box located under the h
 
 ## 7. Place Surface Hub 85" on Wall Mount or Cart
 
-1. Place Hub 2S in front of the wall mount or cart.
+1. Place Hub 3 in front of the wall mount or cart.
 2. Lock wheel brakes (x4).
 3. Slide the inner packaging off the pallet.
 4. Cut the three plastic straps.
@@ -102,17 +102,17 @@ Additional strapping materials are provided in the small box located under the h
    ![Place Surface Hub 85” on Wall Mount or Cart.](images/hub85mount7a.png) <br>
 
    > [!CAUTION]
-   >  Do not leave Hub 2S 85" unattended. An additional person is needed to hold the device upright. Once end pieces are removed, at least one person must maintain contact with the Hub 2S until placement on the wall mount or cart is completed.
+   >  Do not leave Hub 3 85" unattended. An additional person is needed to hold the device upright. Once end pieces are removed, at least one person must maintain contact with the Hub 3 until placement on the wall mount or cart is completed.
 
 10. Lift the plywood end piece up and back.
 11. Remove the bump label from the back.
-12. Lift the Hub 2S from the lower tray and place it on a cart or wall mount.
+12. Lift the Hub 3 from the lower tray and place it on a cart or wall mount.
 
     > [!NOTE]
-    > Following the cart or wall mount manufacturer's instructions, prepare the mounting system before removing the Hub 2S from its inner packaging tray.
+    > Following the cart or wall mount manufacturer's instructions, prepare the mounting system before removing the Hub 3 from its inner packaging tray.
 
     > [!TIP]
-    > When grasping the Hub 2S, note the lower foam's handhold cutouts. Care must be taken with the top hand not to grasp the device where the speakers are located. Graphics on the ends of the device cover provide a general speaker location.
+    > When grasping the Hub 3, note the lower foam's handhold cutouts. Care must be taken with the top hand not to grasp the device where the speakers are located. Graphics on the ends of the device cover provide a general speaker location.
 
 13. Loosen elastic tension clips (x2).
 14. Remove cloth cover.
