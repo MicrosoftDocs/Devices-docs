@@ -42,4 +42,4 @@ If you plan to use Surface Hub 3 or Surface Hub 2S on a mobile stand, you may wi
 
 ### Learn more
 
-- [Install and Manage Surface Hub Smart Camera](surface-hub-2-smart-camera.md)
+- [Install and Manage Surface Hub Smart Camera](surface-hub-smart-camera.md)
