@@ -169,8 +169,8 @@
                   href: password-management-for-surface-hub-device-accounts.md     
                 - name: Configure password-less sign-in
                   href: surface-hub-2s-phone-authenticate.md
-                - name: Secure with Surface Enterprise Management
-                  href: surface-hub-2s-secure-with-uefi-semm.md
+                - name: Secure with SEMM
+                  href: surface-hub-secure-with-uefi-semm.md
               - name: Troubleshoot
                 items:
                 - name: Surface Hub Update History
@@ -258,7 +258,29 @@
                   - name: Surface Hub ports & keypad overview
                     href: surface-hub-port-keypad-overview.md  
                   - name: Adjust brightness, volume, & input
-                    href: surface-hub-onscreen-display.md                      
+                    href: surface-hub-onscreen-display.md 
+            - name: Accessories
+              items: 
+                 - name: Update pen firmware on Surface Hub
+                   href: surface-hub-pen-firmware.md
+                 - name: Install & manage Surface Hub Smart Camera
+                   href: surface-hub-smart-camera.md
+                 - name: Essential add-ons for Windows 11 Pro & Enterprise on Surface Hub 3
+                   href: surface-hub-essential-add-ons.md  
+                 - name: Teams certified accessories for Surface Hub 
+                   href: surface-hub-certifications.md 
+            - name: Troubleshoot hardware
+              items:             
+                - name: Troubleshoot Surface Hub 2S Power Issues
+                  href: troubleshoot-power-surface-hub-2s.md
+                - name: Troubleshoot APC Charge Mobile Battery
+                  href: troubleshoot-apc-mobile-battery.md
+                - name: Troubleshoot Surface Hub Pen
+                  href: troubleshoot-surface-hub-pen.md            
+                - name: Pack & ship Surface Hub for service
+                  href: surface-hub-pack-components.md         
+                - name: Third-party stand policy and waiver  
+                  href: surface-hub-third-party-stand-policy-waiver.md          
         - name: Surface Hub 2S
           expanded: true
           items:
@@ -289,14 +311,14 @@
                     href: surface-hub-onscreen-display.md
             - name: Accessories
               items: 
-                 - name: Update pen firmware on Surface Hub 2S
-                   href: surface-hub-2s-pen-firmware.md
+                 - name: Update pen firmware on Surface Hub
+                   href: surface-hub-pen-firmware.md
                  - name: Install & manage Surface Hub Smart Camera
                    href: surface-hub-smart-camera.md
-                 - name: Essential add-ons for Windows 10/11 Pro & Enterprise on Surface Hub 2
-                   href: surface-hub-2-essential-add-ons.md  
-                 - name: Teams certified accessories for Surface Hub 2S
-                   href: surface-hub-2s-certifications.md
+                 - name: Essential add-ons for Windows 10/11 Pro & Enterprise on Surface Hub 2S
+                   href: surface-hub-essential-add-ons.md  
+                 - name: Teams certified accessories for Surface Hub
+                   href: surface-hub-certifications.md
             - name: Troubleshoot hardware
               items:        
                - name: Reset & recovery for Surface Hub 2S
@@ -306,9 +328,9 @@
                - name: Troubleshoot APC Charge Mobile Battery
                  href: troubleshoot-apc-mobile-battery.md
                - name: Troubleshoot Surface Hub Pen
-                 href: troubleshoot-surface-hub-2-pen.md            
-               - name: Pack & ship Surface Hub 2S for service
-                 href: surface-hub-2s-pack-components.md 
+                 href: troubleshoot-surface-hub-pen.md            
+               - name: Pack & ship Surface Hub for service
+                 href: surface-hub-pack-components.md 
                - name: Replace & install compute cartridge 
                  href: surface-hub-2s-replace-cartridge.md         
                - name: Replace & install camera

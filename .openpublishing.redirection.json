@@ -319,6 +319,21 @@
             "source_path":  "surface-hub/troubleshoot-surface-hub-2-pen.md",
             "redirect_url": "/surface-hub/troubleshoot-surface-hub-pen",
             "redirect_document_id":  false
-        }                     						
+        },
+        {
+            "source_path":  "surface-hub/surface-hub-2-essential-add-ons.md",
+            "redirect_url": "/surface-hub/surface-hub-essential-add-ons",
+            "redirect_document_id":  false
+        },
+        {
+            "source_path":  "surface-hub/surface-hub-2s-certifications.md",
+            "redirect_url": "/surface-hub/surface-hub-2s-certifications",
+            "redirect_document_id":  false
+        },
+        {
+            "source_path":  "surface-hub/troubleshoot-power-surface-hub-2s.md",
+            "redirect_url": "/surface-hub/troubleshoot-power-surface-hub",
+            "redirect_document_id":  false
+        }                                  						
     ]
 }
