@@ -1,6 +1,6 @@
 ---
 title: "Customize wall mount of Surface Hub 50-inch"
-description: "Learn how to perform a custom install of Surface Hub 50-inch."
+description: "This article provides details for customizing your own mounting solution for 50" models of Surface Hub."
 ms.prod: surface-hub
 author: coveminer
 ms.author: chauncel
@@ -14,7 +14,10 @@ appliesto:
 
 # Customize wall mount of Surface Hub 50"
 
-This article provides guidance for physically installing the Microsoft Surface Hub 50". For information about installing the 85" model, see [Install and mount Surface Hub 3 85"](surface-hub-3-85-install-mount.md).
+This article provides details for customizing your own mounting solution for 50" models of  Surface Hub. For information about physically installing 85" models, see:
+
+- [Install and mount Surface Hub 2S 85"](surface-hub-2s-85-install-mount.md)
+- [Install and mount Surface Hub 3 85"](surface-hub-3-85-install-mount.md)
 
 If not using certified mounting solutions, you can mount Surface Hub 50" using readily available retail hardware.
 
