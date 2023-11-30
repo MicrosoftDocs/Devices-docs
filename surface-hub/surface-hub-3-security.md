@@ -26,7 +26,7 @@ Surface Hub 3<sup>1</sup> runs Microsoft Teams Rooms on Windows in a locked-down
 
 ## Change default local admin password
 
-The default local admin account is a well-known entry point for malicious actors. At a minimum, changing the local admin password on Surface Hub 3 is essential. If the default Admin password is not changed immediately after setup, the device may be vulnerable to data breaches, system manipulation, or other unauthorized access.
+The default local admin account is a well-known entry point for malicious actors. If the default admin password remains unchanged after first-time setup, the device may be vulnerable to data breaches, system manipulation, or other unauthorized access.
 
 ### To change the local admin password on Surface Hub 3
 
