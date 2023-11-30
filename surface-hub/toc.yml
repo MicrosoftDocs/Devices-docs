@@ -24,10 +24,12 @@
                 href: surface-hub-3-get-started.md            
               - name: First-time setup for Surface Hub 3 
                 href: first-run-program-surface-hub-3.md
+              - name: Install & manage Surface Hub 3 Pack
+                href: install-manage-surface-hub-3-pack.md
+              - name: Surface Hub 3 security best practices
+                href: surface-hub-3-security.md    
               - name: Install wallpaper on Surface Hub 3
-                href: install-wallpaper-surface-hub.md
-              - name: Secure Surface Hub 3
-                href: surface-hub-3-security.md                 
+                href: install-wallpaper-surface-hub.md                
         - name: Windows 10 Team 2022
           expanded: true
           items: 
@@ -215,9 +217,11 @@
                   href: surface-hub-2s-adoption-welcome-screens.md
                 - name: Surface Hub return to the office video series 
                   href: surface-hub-return-to-office-videos.md    
-        - name: Windows 10/11 Pro or Enterprise
+        - name: Windows Pro or Enterprise
           expanded: true
           items: 
+           - name: Migrate to Windows 11 Pro or Enterprise on Surface Hub 3
+             href: surface-hub-3-migrate-os.md 
            - name: Migrate to Windows 10/11 Pro or Enterprise on Surface Hub 2
              href: surface-hub-2s-migrate-os.md
            - name: Configure Windows 10/11 Pro or Enterprise on Surface Hub 2
