@@ -65,8 +65,12 @@ No matter where they work, give everyone an equal opportunity to co-create and c
 
 - [Get started with Surface Hub 3](surface-hub-3-get-started.md)
 - [First-time setup for Surface Hub 3](first-run-program-surface-hub-3.md)
-- [Install & manage Surface Hub 3 Pack](install-manage-surface-hub-3-pack.md)
 - [Surface Hub 3 security best practices](surface-hub-3-security.md)
+
+### Learn more
+
+- [Install & manage Surface Hub 3 Pack](install-manage-surface-hub-3-pack.md)
+- [Site readiness guide for Surface Hub 3](surface-hub-3-site-readiness-guide.md)
 
 ## References
 

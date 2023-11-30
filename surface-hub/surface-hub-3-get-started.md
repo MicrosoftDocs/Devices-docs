@@ -60,6 +60,12 @@ real-time monitoring and management for Teams Rooms devices. To learn more, see 
 New Surface Hub 3 devices come with a Windows 11 IoT Enterprise license,  and you'll also need  
 a [Teams Rooms](/microsoftteams/rooms/rooms-licensing) license. A Teams Rooms Pro license is recommended for advanced features like remote device management, conditional access policies, and detailed device analytics. To learn more, see [Microsoft Teams Rooms licenses](/microsoftteams/rooms/rooms-licensing#teams-rooms-license-service-plan-comparison).
 
-### References
+## Next steps
 
-1. Applies to Surface Hub 3 and Surface Hub 2S upgraded with Surface Hub 3 Pack.
+- [Site readiness guide for Surface Hub 3](surface-hub-3-site-readiness-guide.md)
+- [First-time setup for Surface Hub 3](first-run-program-surface-hub-3.md)
+- [Surface Hub 3 security best practices](surface-hub-3-security.md)
+
+### Learn more
+
+- [Install & manage Surface Hub 3 Pack](install-manage-surface-hub-3-pack.md)

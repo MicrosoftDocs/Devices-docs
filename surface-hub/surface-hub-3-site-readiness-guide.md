@@ -10,7 +10,7 @@ ms.date: 12/05/2023
 ms.localizationpriority: Medium
 ---
 
-# Surface Hub 3 Site readiness guide
+# Surface Hub 3 site readiness guide
 
 | Topic | Description |
 |:-------|:-------|
@@ -20,3 +20,8 @@ ms.localizationpriority: Medium
 | [Install and mount Surface Hub 50"](surface-hub-install-mount.md) | Learn about licensed accessories to install and mount Surface Hub 3 50". |
 | [Install and mount Surface Hub 85"](surface-hub-2s-85-install-mount.md) | Review recommended guidance for installing Surface Hub 3 85". |
 | [Customize wall mount of Surface Hub](surface-hub-custom-install.md) | Learn how to custom install without licensed mounting accessories.|
+
+## Learn more 
+
+- [Get started with Surface Hub 3](surface-hub-3-get-started.md)
+- [First-time setup for Surface Hub 3](first-run-program-surface-hub-3.md)
