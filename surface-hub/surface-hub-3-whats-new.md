@@ -61,6 +61,13 @@ No matter where they work, give everyone an equal opportunity to co-create and c
 - Showcase the content and people critical for your meeting with the full suite of Microsoft Teams Rooms layouts and features. See the meeting chat clearly in the room or bring Front Row for everything you need for the meeting at your fingertips – including content, chat, hands raised, and a large gallery view.
 - Everyone can contribute. With Surface Slim Pen<sup>1</sup> compatibility, in addition to the Surface Hub Pen, everyone can join in the brainstorming--even with their own personal pen.
 
+## Next steps
+
+- [Get started with Surface Hub 3](surface-hub-3-get-started.md)
+- [First-time setup for Surface Hub 3](first-run-program-surface-hub-3.md)
+- [Install & manage Surface Hub 3 Pack](install-manage-surface-hub-3-pack.md)
+- [Surface Hub 3 security best practices](surface-hub-3-security.md)
+
 ## References
 
 1. Sold separately.
