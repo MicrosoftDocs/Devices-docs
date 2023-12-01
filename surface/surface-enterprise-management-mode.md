@@ -160,7 +160,7 @@ The following list shows all the available devices that you can manage in SEMM:
 | Devices                            | Displays the Surface UEFI **Devices** page. If you don't configure this setting,  the Devices page is displayed.                                                                                                                     |
 | Boot                               | Displays the Surface UEFI **Boot** page. If you don't configure this setting, the Boot page is displayed.                                                                                                                                                            |
 | DateTime                           | Displays the Surface UEFI **DateTime** page. If you don't configure this setting, the DateTime page is displayed.                                                                                                                |
-| EnableOSMigration                  | Allows you to migrate Surface Hub 2 from Windows 10 Team to Windows 10/11 Pro or Enterprise. If you don't configure this setting, Surface Hub 2 devices can run only the Windows 10 Team OS. Note: Dual booting between Windows 10 Team and Windows 10/11 Pro/Enterprise isn't available on Surface Hub 2.                                                                                                           |
+| EnableOSMigration                  | Allows you to migrate Surface Hub 2S from Windows 10 Team to Windows 10/11 Pro or Enterprise. If you don't configure this setting, Surface Hub 2S devices can run only the Windows 10 Team OS. Note: Dual booting between Windows 10 Team and Windows 10/11 Pro/Enterprise isn't available on Surface Hub 2S.                                                                                                           |
 | Secured Core                       | Allows you to manage Secured Core functionality. If you don't configure this setting, Secured Core functionality is enabled on supported devices.                                                                                                         |
 | Wake-on-LAN                        | Allows you to manage Wake-on-LAN functionality. If you don't configure this setting, Wake-on-LAN is enabled on supported devices.                                                                                                            |
 | Wake-on-Power                      | Allows you to manage Wake-on-Power functionality. If you don't configure this setting, Wake-on-Power is disabled on supported devices.                                                                                                          |
@@ -361,7 +361,7 @@ This version of SEMM includes:
 - Support for Surface Pro X for Dock 2.
 - Support for UEFI Manager for Dock 2-related operations.
 - A Surface Go reset package bug fix.
-- Support for migrating Surface Hub 2 devices from Windows 10 Team OS to Windows 10 Pro or Enterprise.
+- Support for migrating Surface Hub 2S devices from Windows 10 Team OS to Windows 10 Pro or Enterprise.
 
 ### Version 2.71.139.0
 

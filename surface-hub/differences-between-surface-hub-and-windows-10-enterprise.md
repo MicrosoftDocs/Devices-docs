@@ -21,9 +21,9 @@ The Surface Hub operating system, Windows 10 Team, originated with Windows 10 En
 
 You can change the OS on Surface Hub 2S by migrating to Windows 10 or Windows 11 Pro/Enterprise. To learn more, see the following resources:
 
-- [Announcing the availability of Windows 10 Pro and Enterprise on Surface Hub 2](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/announcing-the-availability-of-windows-10-pro-and-enterprise-on/ba-p/1624107).
+- [Announcing the availability of Windows 10 Pro and Enterprise on Surface Hub 2S](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/announcing-the-availability-of-windows-10-pro-and-enterprise-on/ba-p/1624107).
 
-- [Migrate to Windows 10 or Windows 11 Pro or Enterprise on Surface Hub 2](surface-hub-2s-migrate-os.md)
+- [Migrate to Windows 10 or Windows 11 Pro or Enterprise on Surface Hub 2S](surface-hub-2s-migrate-os.md)
 
 ## User interface
 

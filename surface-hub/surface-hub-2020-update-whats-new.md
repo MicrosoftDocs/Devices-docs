@@ -93,7 +93,7 @@ To learn more, see:
 
 ### Inking improvements
 
-- **Support for dual-pen inking on Surface Hub 2S**.  Use the whiteboard and collaborate side-by-side on Surface Hub 2S with two Surface Hub 2 Pens. Any system hardware update installed after upgrading to Windows 10 Team 2020 will add firmware support for this scenario.
+- **Support for dual-pen inking on Surface Hub 2S**.  Use the whiteboard and collaborate side-by-side on Surface Hub 2S with two Surface Hub 2S Pens. Any system hardware update installed after upgrading to Windows 10 Team 2020 will add firmware support for this scenario.
 
 ### Microsoft Teams  
 

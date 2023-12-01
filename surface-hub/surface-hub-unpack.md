@@ -19,7 +19,7 @@ Before you remove Surface Hub 2S or Surface Hub 3 from the box, ensure you have 
 
 1. Use the handles on each side of the box to move it to the space where you'll set it up.
 2. Before opening, remove the clips (4) on the front and back, then lift the top off the box using the handles.
-3. In the base of the Surface Hub, open the accessories box containing the setup guide, Surface Hub Pen, Surface Hub 2 camera, and the power cable.
+3. In the base of the Surface Hub, open the accessories box containing the setup guide, Surface Hub Pen, Surface Hub 2S camera, and the power cable.
 4. On the back of the Surface Hub, an instructional label shows you where to attach the mounting hardware. Install it in place and remove the label.
 5. If you're using a mobile stand, remember to lock the wheels to keep the stand in place
 6. Be sure to lift the Surface Hub with both hands and support the bottom of the device.

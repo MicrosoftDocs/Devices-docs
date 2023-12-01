@@ -33,8 +33,8 @@ Use the Warranty and Service Claim form when you have to submit a hardware warra
          - From the Surface Hub Operating System, go to: **Start Icon** > **Settings** > **System** > **About**. 
          - The serial number label is located on the underside directly below the device control keypad. 
 
-       - **Surface Hub 2**
-         - From the Surface Hub 2 Operating System, go to: **Start Icon** > **Settings** > **System** > **About**. Select the **Surface** app, and then select **Your Surface**.
+       - **Surface Hub 2S**
+         - From the Surface Hub 2S Operating System, go to: **Start Icon** > **Settings** > **System** > **About**. Select the **Surface** app, and then select **Your Surface**.
          - The serial number label is on the bracket where the power cord connects to the device.
        - **HoloLens 2**
          - From the HoloLens 2 Operating System, go to **Start Menu** > **Settings** > **System** > **About**.

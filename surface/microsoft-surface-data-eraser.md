@@ -36,7 +36,7 @@ Compatible Surface devices include:
 - Surface Studio (all generations)
 - Surface Pro 2 and later
 - Surface 3
-- Windows 10 Pro and Enterprise on Surface Hub 2
+- Windows 10 Pro and Enterprise on Surface Hub 2S
 
 Some scenarios where Microsoft Surface Data Eraser can be helpful include:
 
@@ -194,7 +194,7 @@ This version of Surface Data Eraser includes bug fixes and adds support for:
 - Architecture re-design to reduce the need to update with new product releases
 - Notification available for new tool updates
 - Customer content additions
-- Windows 10 Pro and Enterprise on Surface Hub 2
+- Windows 10 Pro and Enterprise on Surface Hub 2S
 
 ### 3.30.139
 

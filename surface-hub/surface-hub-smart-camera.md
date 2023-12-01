@@ -21,7 +21,7 @@ Surface Hub Smart Camera<sup>1</sup> is designed for hybrid teams and optimized 
 
 ## System requirements
 
-For Surface Hubs running Team OS, Surface Hub Smart Camera requires the following updates for the [Windows 10 Team 2020 update](surface-hub-2020-update-whats-new.md) (20H2) on Surface Hub 2:
+For Surface Hubs running Team OS, Surface Hub Smart Camera requires the following updates for the [Windows 10 Team 2020 update](surface-hub-2020-update-whats-new.md) (20H2) on Surface Hub 2S:
 
 - Windows 10 Team 2020 Update 2 (KB5010415 or a subsequent Windows update)
 - System Hardware Update-January 21, 2022 (or a subsequent System Hardware Update)
@@ -33,9 +33,9 @@ To learn more, refer to [Surface Hub update history](surface-hub-update-history.
 
 ## Install smart camera
 
-1. Attach the camera to the USB-C port in the middle of the top of Surface Hub 2. The indicator LED will light briefly when the camera is connected and continuously when the camera is in use.
+1. Attach the camera to the USB-C port in the middle of the top of Surface Hub 2S. The indicator LED will light briefly when the camera is connected and continuously when the camera is in use.
 
-     ![Attach the camera to the USB-C port in the middle of the top of Surface Hub 2.](images/hub2smartcamera1.png)
+     ![Attach the camera to the USB-C port in the middle of the top of Surface Hub 2S.](images/hub2smartcamera1.png)
 
 2. To remove the camera, pull up and forward. A magnetic tether prevents the camera from being knocked off or pulled backward.
 

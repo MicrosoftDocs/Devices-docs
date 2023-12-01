@@ -51,7 +51,7 @@ See the [Prerequisites](https://github.com/microsoft/SurfaceDeploymentAccelerato
     ```
 8. Run the SDA script specifying parameters for your environment. The script can be used to create images to install Windows 10 or Windows 11 on a variety of Surface devices. For a full list of supported devices, see the [Device parameter description](https://github.com/microsoft/SurfaceDeploymentAccelerator/blob/master/README.md#full-parameter-documentation) in the SDA README article. 
 
-    For example, the following command will create a bootable USB drive that can be used to [install Windows 10 on Surface Hub 2](/surface-hub/surface-hub-2s-migrate-os):
+    For example, the following command will create a bootable USB drive that can be used to [install Windows 10 on Surface Hub 2S](/surface-hub/surface-hub-2s-migrate-os):
 
     ```powershell
     .\CreateSurfaceWindowsImage.ps1 -ISO C:\SDA\enterprise_client.iso -OSSKU Enterprise -DestinationFolder C:\Output -Device SurfaceHub2 -CreateUSB $True

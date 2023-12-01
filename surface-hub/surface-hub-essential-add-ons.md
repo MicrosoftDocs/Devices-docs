@@ -79,4 +79,4 @@ For more information, see [Surface Hub ports and keypad overview](surface-hub-po
 
 ## Learn more
 
-- [Configure Windows 10/11 Pro or Enterprise on Surface Hub 2](surface-hub-2-post-install.md).
+- [Configure Windows 10/11 Pro or Enterprise on Surface Hub 2S](surface-hub-2-post-install.md).

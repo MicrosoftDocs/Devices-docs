@@ -222,11 +222,11 @@
           items: 
            - name: Migrate to Windows 11 Pro or Enterprise on Surface Hub 3
              href: surface-hub-3-migrate-os.md 
-           - name: Migrate to Windows 10/11 Pro or Enterprise on Surface Hub 2
+           - name: Migrate to Windows 10/11 Pro or Enterprise on Surface Hub 2S
              href: surface-hub-2s-migrate-os.md
-           - name: Configure Windows 10/11 Pro or Enterprise on Surface Hub 2
+           - name: Configure Windows 10/11 Pro or Enterprise on Surface Hub 2S
              href: surface-hub-2-post-install.md
-           - name: Essential add-ons for Windows 10/11 Pro & Enterprise on Surface Hub 2
+           - name: Essential add-ons for Windows 10/11 Pro & Enterprise on Surface Hub 2S
              href: surface-hub-2-essential-add-ons.md             
     - name: Hardware
       expanded: true
