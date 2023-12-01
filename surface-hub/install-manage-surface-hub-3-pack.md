@@ -56,13 +56,9 @@ If you manage Surface Hub 2S via Microsoft Intune or another mobile device manag
 
   ![Image that shows how to slide the compute cartridge out of the unit](images/remove-cartridge-fig3.png)
 
-4. If you wish to rotate Surface Hub from landscape to portrait mode, remove the plastic tip on the new cartridge before inserting it (50" models only).
-
-  ![Image that shows location of plastic tip that can be removed to enable rotation](images/remove-cartridge-fig4.png)
-
-5. Slide the Surface Hub 3 Pack into your Surface Hub.
-6. Fasten the locking screw and slide the cover into place. Power on your new Surface Hub 3.  
-7. Follow the instructions in:
+4. Slide the Surface Hub 3 Pack into your Surface Hub.
+5. Fasten the locking screw and slide the cover into place. Power on your new Surface Hub 3.  
+6. Follow the instructions in:
 
 - [First-time setup for Surface Hub 3](first-run-program-surface-hub-3.md).
 - [Surface Hub 3 security best practices](surface-hub-3-security.md)
