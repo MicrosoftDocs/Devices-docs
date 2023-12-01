@@ -47,7 +47,7 @@ For more information about configuring the fingerprint reader to sign in using W
 
 
 > [!NOTE]
-> Windows 10 Team, which runs on Surface Hub 2S does not support the Surface Hub 2 Fingerprint Reader. This is because Windows 10 Team is designed to allow multiple users to interact with the device in a conference room environment. 
+> Windows 10 Team, which runs on Surface Hub 2S does not support the Surface Hub Fingerprint Reader. This is because Windows 10 Team is designed to allow multiple users to interact with the device in a conference room environment. 
  
 ## Windows Hello face recognition
 

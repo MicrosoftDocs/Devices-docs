@@ -186,9 +186,9 @@ For more information on how to side-mount the camera and rotate the camera manua
 
 ## Windows Hello configuration
 
-Surface Hub 2S running Windows 10/11 Pro or Enterprise allows the full suite of Win32 desktop applications as well as biometric Windows Hello options. The Surface Hub 2 Fingerprint Reader accessory can be plugged into any USB-C port on the device. 
+Surface Hub 2S running Windows 10/11 Pro or Enterprise allows the full suite of Win32 desktop applications as well as biometric Windows Hello options. The Surface Hub Fingerprint Reader accessory can be plugged into any USB-C port on the device. 
 
-To order a Surface Hub 2 Fingerprint Reader or view technical specs, see (surface-hub-2-essential-add-ons.md" target="_blank">Essential add-ons for Windows 10 Pro and Enterprise on Surface Hub 2 </a>. 
+To order a Surface Hub Fingerprint Reader or view technical specs, see (surface-hub-2-essential-add-ons.md" target="_blank">Essential add-ons for Windows 10 Pro and Enterprise on Surface Hub 2 </a>. 
 
 After inserting the fingerprint reader, select **Start** > **Settings** > **Accounts** > **Sign-in options** > **Windows Hello Fingerprint** to enroll your fingerprint.
 
