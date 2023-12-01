@@ -52,7 +52,7 @@ Surface Hub accessory                 | Release Date       | End of servicing da
 -------------------------------------|--------------------|----------------------------------------------|
 Surface Hub Camera                   | July 1, 2019       | January 11, 2027                             |
 Surface Hub Smart Camera           | March 15, 2022     | March 15, 2028                               |
-Surface Hub 2 Pen                    | July 1, 2019       | January 11, 2027                             |
+Surface Hub Pen                    | July 1, 2019       | January 11, 2027                             |
 Surface Hub 2 Fingerprint Reader     | September 16, 2020 | January 11, 2027                             |
 
 ### Legacy products  

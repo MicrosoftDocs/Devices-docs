@@ -43,7 +43,7 @@ You can update the firmware on the Surface Hub Pen from a separate PC running Wi
 2. On the PC, scan for new Bluetooth devices.
 3. Select the pen to complete the pairing process.
 4. Disconnect all other Surface Hub Pens before starting a new update.
-5. Download the [Surface Hub 2 Pen Firmware Update Tool](https://download.microsoft.com/download/8/3/F/83FD5089-D14E-42E3-AF7C-6FC36F80D347/Pen_Firmware_Tool.zip) to your PC.
+5. Download the [Surface Hub Pen Firmware Update Tool](https://download.microsoft.com/download/8/3/F/83FD5089-D14E-42E3-AF7C-6FC36F80D347/Pen_Firmware_Tool.zip) to your PC.
 6. Run **PenCfu.exe.** The install progress is displayed in the tool. It may take several minutes to finish updating. 
 
 

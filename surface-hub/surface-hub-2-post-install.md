@@ -163,7 +163,7 @@ Pair the pen to keep the pen firmware up to date, set the pen shortcuts, and get
 
 5. Put the cap back on and press and hold the cap until the pairing LED flashes.
 
-6. On the Surface Hub Bluetooth settings, choose **Surface Hub 2 Pen**.
+6. On the Surface Hub Bluetooth settings, choose **Surface Hub Pen**.
 
 7. Complete the pairing operation. 
 
