@@ -15,7 +15,6 @@ appliesto:
 
 ---
 
-
 # Install and manage Surface Hub 3 Pack
 
 The Surface Hub 3 Pack is a hardware upgrade that transforms your Surface Hub 2S device into a Surface Hub 3. To place an order, contact your [Surface device reseller](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface#DEVICESRESELLERS).
@@ -42,7 +41,11 @@ If you manage Surface Hub 2S via Microsoft Intune or another mobile device manag
 
   ![Image shows removal of Surface Hub 2S from Intune](images/remove-hub2s-from-intune.png).
 
-## Remove the old cartridge from Surface Hub 2S
+### To install Surface Hub 3 Pack
+
+Review the following demo and follow the instructions on this page.
+
+> [!video https://www.microsoft.com/en-us/videoplayer/embed/RW1eQiI] 
 
 1. Shut down Surface Hub 2S, unplug all cables and slide the cover sideways.
 
