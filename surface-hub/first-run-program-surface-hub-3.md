@@ -46,6 +46,9 @@ Although not required, you can automate the setup process with a provisioning pa
 
 ## Surface Hub 3 OOBE setup
 
+> [!TIP]
+> When you run first-time setup, ensure you stay connected to automatically download required updates to enable the current user experience. 
+
 1. Press the power button to start the device.
 
  ![Surface Hub 3 startup](images/surface-hub-3-oobe-fig1.png)
@@ -69,7 +72,6 @@ Although not required, you can automate the setup process with a provisioning pa
 
  ![Add a second keyboard](images/surface-hub-3-oobe-fig1c.png)
 
-
 ## Microsoft Teams Rooms setup
 
 Now, you're ready to begin the Microsoft Teams Rooms setup experience.
@@ -77,12 +79,10 @@ Now, you're ready to begin the Microsoft Teams Rooms setup experience.
 1. Agree to Microsoft Software License Terms and acknowledge that you have read the privacy statement at [https://aka.ms/privacy](https://aka.ms/privacy). Select **Next**.
 2. If you received an activation code, enter it and select **Next.** Otherwise, select **Manual setup** and enter your account and password. Select **Next**.
 3. Turn off Cortana Voice Activation, if desired. Select **Next**.
-4. Enter advanced settings, including Exchange sign-in and domain information. Select **Next**.
-5. Select **Finish** to complete the Microsoft Teams Rooms setup.
+4. Select **Finish** to complete the Microsoft Teams Rooms setup.
 
 ## Next steps
 
 - Although the OOBE process automatically downloads required updates, running Windows Update is recommended to ensure you have the latest. Sign in to Surface Hub 3 with an admin account, and open **Settings > Windows Update > Check for Updates**.
 - Review [Surface Hub 3 security best practices](surface-hub-3-security.md). At a minimum, recommendations include changing the Administrator password, adding a UEFI password, and implementing appropriate physical security measures.
-- [Update Surface Hub Pen firmware](surface-hub-pen-firmware.md)
-
+- Optionally, you may need to [update Surface Hub Pen firmware](surface-hub-pen-firmware.md)
