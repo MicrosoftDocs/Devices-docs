@@ -19,7 +19,7 @@ ms.localizationpriority: Medium
 | [Surface Hub ports and keypad overview](surface-hub-port-keypad-overview.md) | Get details for all physical buttons, I/O ports, keypad power, and selection controls. |
 | [Adjust Surface Hub brightness, volume, and input](surface-hub-onscreen-display.md) | See how to use the onscreen display to adjust brightness and other settings. |
 | [Install & mount Surface 50" models of Surface Hub 2S or Surface Hub 3](surface-hub-install-mount.md) | Learn about licensed accessories to install and mount Surface Hub 3 50". |
-| [Install and mount Surface Hub 85"](surface-hub-2s-85-install-mount.md) | Review recommended guidance for installing Surface Hub 3 85". |
+| [Install and mount Surface Hub 3 85"](surface-hub-2s-85-install-mount.md) | Review recommended guidance for installing Surface Hub 3 85". |
 | [Customize wall mount of Surface Hub](surface-hub-custom-install.md) | Learn how to custom install without licensed mounting accessories.|
 
 ## Learn more 

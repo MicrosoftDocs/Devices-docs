@@ -79,7 +79,7 @@ Additional strapping materials are provided in the small box located under the h
 
  ![Remove from elevator.](images/hub85mount5a.png) <br>
 
-## 6. Place Surface Hub 85" back on pallet
+## 6. Place Surface Hub 2S 85" back on pallet
 
 1. Using the beveled end, rotate back onto the pallet.
 2. Unlock wheel brakes (x4).
@@ -87,7 +87,7 @@ Additional strapping materials are provided in the small box located under the h
 
  ![Place Surface Hub 85” back on pallet.](images/hub85mount6a.png) <br>
 
-## 7. Place Surface Hub 85" on Wall Mount or Cart
+## 7. Place Surface Hub 2S 85" on Wall Mount or Cart
 
 1. Place Hub 2S in front of the wall mount or cart.
 2. Lock wheel brakes (x4).
