@@ -20,7 +20,7 @@ Surface Hub adoption welcome screens are designed to help Surface Hub users get 
 
 ## Surface Hub 2S 50” welcome screen
 
-[Download optimized welcome screen file for Surface Hub 50"](downloads/surface-hub-50-adoption-welcome-screen.png)
+[Download optimized welcome screen file for Surface Hub 2S 50"](downloads/surface-hub-50-adoption-welcome-screen.png)
 
 :::image type="content" source="images/surface-hub-50-adoption-welcome-screen-sample.png" alt-text="Screenshot of Surface Hub 2S 50” sample welcome screen." :::
 

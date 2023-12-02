@@ -18,7 +18,7 @@ ms.localizationpriority: Medium
 | [Surface Hub quick start](surface-hub-2s-quick-start.md) | Get an overview of required steps to unpack and start Surface Hub 2S. |
 | [Surface Hub ports and keypad overview](surface-hub-port-keypad-overview.md) | Get details for all physical buttons, I/O ports, keypad power, and selection controls. |
 | [Adjust Surface Hub brightness, volume, and input](surface-hub-onscreen-display.md) | See how to use the onscreen display to adjust brightness and other settings. |
-| [Install and mount Surface Hub 50"](surface-hub-install-mount.md) | Learn about licensed accessories to install and mount Surface Hub 2S. |
+| [Install & mount Surface 50" models of Surface Hub 2S or Surface Hub 3](surface-hub-install-mount.md) | Learn about licensed accessories to install and mount Surface Hub 2S. |
 | [Install and mount Surface Hub 85"](surface-hub-2s-85-install-mount.md) | Review recommended guidance for installing Surface Hub 2S 85". |
 | [Customize wall mount of Surface Hub](surface-hub-custom-install.md) | Learn how to custom install without licensed mounting accessories.|
 | [Connect to Surface Hub 2S](surface-hub-2s-connect.md) | Learn about wired and wireless methods to connect to Surface Hub.|
