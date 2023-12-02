@@ -5,7 +5,7 @@ manager: frankbu
 description: Claim for for warranty and service on Surface, Surface Hub, HoloLens 2,and Azure Kinect. 
 ms.prod: surface
 author: mccoybot
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: how-to
 ms.localizationpriority: medium
 ms.date: 10/7/2020
@@ -21,17 +21,17 @@ Use the Warranty and Service Claim form when you have to submit a hardware warra
 
 ## How to use the form
 
-1.	[Download the form](https://download.microsoft.com/download/2/e/0/2e00e1c2-3f49-4b6a-b605-74a0244cb88b/Warranty_and_Service_Claim_Submission_Form.xlsx) and select **Enable**.
-2.	Enter the product information:
+1. [Download the form](https://download.microsoft.com/download/2/e/0/2e00e1c2-3f49-4b6a-b605-74a0244cb88b/Warranty_and_Service_Claim_Submission_Form.xlsx) and select **Enable**.
+2. Enter the product information:
     - Product
     - Product Version
-    - Serial Number 
+    - Serial Number
         - **Surface**<br/>
            To locate the serial for your product, see [Find the serial number on Surface devices](https://support.microsoft.com/help/4036293/surface-find-the-serial-number-on-surface).
 
        - **Surface Hub 1**
-         - From the Surface Hub Operating System, go to: **Start Icon** > **Settings** > **System** > **About**. 
-         - The serial number label is located on the underside directly below the device control keypad. 
+         - From the Surface Hub Operating System, go to: **Start Icon** > **Settings** > **System** > **About**.
+         - The serial number label is located on the underside directly below the device control keypad.
 
        - **Surface Hub 2S**
          - From the Surface Hub 2S Operating System, go to: **Start Icon** > **Settings** > **System** > **About**. Select the **Surface** app, and then select **Your Surface**.
@@ -40,17 +40,17 @@ Use the Warranty and Service Claim form when you have to submit a hardware warra
          - From the HoloLens 2 Operating System, go to **Start Menu** > **Settings** > **System** > **About**.
          - The serial number is located by flipping up the visor directly under the hinge.
        - **Azure Kinect**
-         - In the Azure Kinect Viewer, open **C:\Program Files\Azure Kinect SDK\tools**, type **k4aviewer.exe**, and then select **Enter**. Select the device to see the serial number. 
+         - In the Azure Kinect Viewer, open **C:\Program Files\Azure Kinect SDK\tools**, type **k4aviewer.exe**, and then select **Enter**. Select the device to see the serial number.
          - The serial number is located on the lower-rear side of the device under the removable sleeve.
 
     - Accessories<br/>
         For accessory warranty claims:
         - Include the serial number from the device that the accessory is used with.
-        - In-warranty accessory replacements require proof of purchase. To expedite the process, upload a copy of your proof of purchase with your form when you create the service request. 
+        - In-warranty accessory replacements require proof of purchase. To expedite the process, upload a copy of your proof of purchase with your form when you create the service request.
     - Reason for Replacement
-    
+
         1. Select the reason for your replacement request. (If you are not requesting a replacement, leave the field blank.)
-        1. If the issue for the warranty claim is not listed, leave the field blank. 
+        1. If the issue for the warranty claim is not listed, leave the field blank.
         1. Troubleshooting may be requested before a Warranty Claim is processed.
         1. Provide the shipping information for each serial number, including the contact phone number and email address.
     - Warranty Adjustment
@@ -66,6 +66,5 @@ For more information about out-of-warranty service fees, see [How much does out-
 ## More information
 
 For more information about service for Surface, see [How to get service for Surface](https://support.microsoft.com/help/4023527/surface-how-to-get-service-for-surface).
-
 
 Still need help? Go to [Microsoft Community](https://answers.microsoft.com/).

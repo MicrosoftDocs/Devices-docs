@@ -39,9 +39,9 @@ Windows Installer .msi files contain all the required cumulative driver and firm
 
 ## Download .msi files
 
-This section provides direct links to downloadable packages containing driver and firmware updates for Surface devices. 
+This section provides direct links to downloadable packages containing driver and firmware updates for Surface devices.
 
-1. Select Windows 10 or Windows 11 as appropriate. 
+1. Select Windows 10 or Windows 11 as appropriate.
 2. For devices with multiple .msi files, select the .msi file name that matches the Surface model and version of Windows deployed in your organization.  
 
 
@@ -59,14 +59,12 @@ This section provides direct links to downloadable packages containing driver an
 | **Surface Hub running Windows 10 Teams 2020 Update**                                                                                                  | - See [Manage Windows updates on Surface Hub](/surface-hub/manage-windows-updates-for-surface-hub)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | **Surface Dock**                                                                                                                                     | - [Surface Thunderbolt 4 Dock](https://www.microsoft.com/en-us/download/details.aspx?id=105115)<br>- [Surface Dock 2](https://www.microsoft.com/download/details.aspx?id=101317)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 
- 
-
 > [!TIP]
 > For earlier devices that include separate files for different Windows versions, select the .msi file name that matches the Surface model and version of Windows. The .msi file name includes the minimum supported Windows build number that's required to install the drivers and firmware. For example, to update a Surface Book 2 that has build 18362 of Windows 10, choose **SurfaceBook2_Win10_18362_19.101.13994.msi.** For a Surface Book 2 that has build 16299 of Windows 10, choose **SurfaceBook2_Win10_16299_1803509_3.msi**.
 
 ## Central update management in commercial environments
 
-Tools for managing devices, including driver and firmware updates, are included in [Microsoft Configuration Manager](/mem/). 
+Tools for managing devices, including driver and firmware updates, are included in [Microsoft Configuration Manager](/mem/).
 
 ### Manage updates with Configuration Manager and Intune
 

@@ -27,7 +27,7 @@ Before you remove Surface Hub 2S or Surface Hub 3 from the box, ensure you have 
 8. Follow any further instructions that came with your mounting solution.
 
 > [!TIP]
-> Mounting solutions built for Surface Hub 2S are compatible with Surface Hub 3 while supporting the new rotation feature to Portrait mode. 
+> Mounting solutions built for Surface Hub 2S are compatible with Surface Hub 3 while supporting the new rotation feature to Portrait mode.
 
 For a video demo of physically installing the 50-inch Surface Hub, see [Unboxing and Set up](https://www.youtube.com/watch?v=fCrxdNXvru4).
 

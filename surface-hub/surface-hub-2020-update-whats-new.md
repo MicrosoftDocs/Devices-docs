@@ -14,7 +14,7 @@ ms.localizationpriority: Medium
 
 Surface Hub benefits from periodic updates that deliver new features and functionality. The 2020 Update (20H2) to Windows 10 Team, and subsequently Update 1 & Update 2, deliver significant improvements to device deployment and manageability along with the latest Windows features.
 
-## Windows 10 Team 2020 Update 2 
+## Windows 10 Team 2020 Update 2
 
 ### Display and preferred language support
 
@@ -22,32 +22,32 @@ After a Surface Hub admin installs additional languages, end users [can change t
 
 ### GCC High support
 
-After installation of this update ([KB5010415](https://support.microsoft.com/help/5010415) or a subsequent Windows CU), Surface Hubs are supported in GCC High environments. At this time, [additional steps ](surface-hub-teams-rooms.md#support-for-teams-rooms-in-government-community-cloud-high-gcc-h) are needed for the Teams Rooms client to successfully connect to GCC High tenants.
+After installation of this update ([KB5010415](https://support.microsoft.com/help/5010415) or a subsequent Windows CU), Surface Hubs are supported in GCC High environments. At this time, [additional steps](surface-hub-teams-rooms.md#support-for-teams-rooms-in-government-community-cloud-high-gcc-h) are needed for the Teams Rooms client to successfully connect to GCC High tenants.
 
 ### Support for Surface Hub Smart Camera
 
-The AI-powered Surface Hub Smart Camera is optimized for hybrid teams allowing remote participants to see people interact with content on the Surface Hub while also viewing everyone else in the room.  To learn more, see [Install and manage Surface Hub Smart Camera](surface-hub-smart-camera.md). 
+The AI-powered Surface Hub Smart Camera is optimized for hybrid teams allowing remote participants to see people interact with content on the Surface Hub while also viewing everyone else in the room.  To learn more, see [Install and manage Surface Hub Smart Camera](surface-hub-smart-camera.md).
 
 ### Support for Progressive Web Apps (PWAs)
 
-Admins can remotely install PWAs on Surface Hubs using a mobile device management provider (MDM) applying a provisioning pack. To learn more, see [Install Progressive Web Apps on Surface Hub](install-pwa-surface-hub.md). 
+Admins can remotely install PWAs on Surface Hubs using a mobile device management provider (MDM) applying a provisioning pack. To learn more, see [Install Progressive Web Apps on Surface Hub](install-pwa-surface-hub.md).
 
 ### Ease of Access updates
 
-Users can adjust Ease of Access settings during a Surface Hub session and close apps just like they do in other versions of Windows 10 or Windows 11. 
+Users can adjust Ease of Access settings during a Surface Hub session and close apps just like they do in other versions of Windows 10 or Windows 11.
 
-- **Ease of Access**. Users can adjust the following settings without signing in:   Display, Text cursor, Magnifier, High contrast, Narrator, Closed captions, and Keyboard. 
-- **Familiar UI for apps**. Users can close apps on Surface Hub by selecting the Close button in the top right corner of the app. This removes the need to close apps by dragging them to the bottom of the Surface Hub display. (Note: This functionality will be available on the Edge browser as part of the next Edge update, scheduled for March 2022.) 
+- **Ease of Access**. Users can adjust the following settings without signing in:   Display, Text cursor, Magnifier, High contrast, Narrator, Closed captions, and Keyboard.
+- **Familiar UI for apps**. Users can close apps on Surface Hub by selecting the Close button in the top right corner of the app. This removes the need to close apps by dragging them to the bottom of the Surface Hub display. (Note: This functionality will be available on the Edge browser as part of the next Edge update, scheduled for March 2022.)
 
 To learn more, see [Adjust Ease of Access settings on Surface Hub](accessibility-surface-hub.md).
 
 ### Administrator updates
 
-- **Event Viewer**. Admins can access the Windows Event Viewer directly from the Settings app. 
+- **Event Viewer**. Admins can access the Windows Event Viewer directly from the Settings app.
 - **New mobile device management (MDM) policy settings**. New Configuration service providers (CSPs) include:
 
   - [TimeLanguageSettings-CSP](/windows/client-management/mdm/policy-csp-timelanguagesettings)
-  - [LocalUsersAndGroups-CSP](/windows/client-management/mdm/policy-csp-localusersandgroups) 
+  - [LocalUsersAndGroups-CSP](/windows/client-management/mdm/policy-csp-localusersandgroups)
 
 To learn more, see [Configure non-Global Admin accounts on Surface Hub](surface-hub-2s-nonglobal-admin.md).
 

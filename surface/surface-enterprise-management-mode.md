@@ -25,14 +25,14 @@ SEMM also uses a certificate to protect the configuration from unauthorized tamp
 
 ## Supported devices
 
-SEMM is only available on devices with Surface UEFI firmware including: 
+SEMM is only available on devices with Surface UEFI firmware including:
 
 - Surface Book (all generations)
 - Surface Go 4 (commercial SKUs only)
 - Surface Go 3 (commercial SKUs only)
 - Surface Go 2 (all SKUs)
 - Surface Go (all SKUs)
-- Surface Hub 2S 
+- Surface Hub 2S
 - Surface Laptop 5 (commercial SKUs only)
 - Surface Laptop 4 (commercial SKUs only)
 - Surface Laptop 3 (Intel processors only)
@@ -42,8 +42,8 @@ SEMM is only available on devices with Surface UEFI firmware including:
 - Surface Laptop Go 2 (commercial SKUs only)
 - Surface Laptop Go (all SKUs)
 - Surface Laptop SE (all SKUs)
-- Surface Laptop Studio 2 (commercial SKUs only) 
-- Surface Laptop Studio (commercial SKUs only) 
+- Surface Laptop Studio 2 (commercial SKUs only)
+- Surface Laptop Studio (commercial SKUs only)
 - Surface Pro 9 (commercial SKUs only)
 - Surface Pro 9 with 5G (commercial SKUs only)
 - Surface Pro 8 (commercial SKUs only)
@@ -58,10 +58,9 @@ SEMM is only available on devices with Surface UEFI firmware including:
 - Surface Studio (all SKUs)
 
 >[!TIP]
-> Commercial SKUs (aka Surface for Business) run Windows 10 Pro/Enterprise or Windows 11 Pro/Enterprise; consumer SKUs run Windows 10/Windows 11 Home. To learn more, see [View your system info](https://support.microsoft.com/windows/view-your-system-info-a965a8f2-0773-1d65-472a-1e747c9ebe00). 
+> Commercial SKUs (aka Surface for Business) run Windows 10 Pro/Enterprise or Windows 11 Pro/Enterprise; consumer SKUs run Windows 10/Windows 11 Home. To learn more, see [View your system info](https://support.microsoft.com/windows/view-your-system-info-a965a8f2-0773-1d65-472a-1e747c9ebe00).
 
-
-## Getting started 
+## Getting started
 
 When Surface devices are configured by SEMM and secured with the SEMM certificate, they're considered *enrolled* in SEMM. When the SEMM certificate is removed and control of UEFI settings is returned to the user of the device, the Surface device is considered *unenrolled* in SEMM.
 
@@ -164,7 +163,6 @@ The following list shows all the available devices that you can manage in SEMM:
 | Secured Core                       | Allows you to manage Secured Core functionality. If you don't configure this setting, Secured Core functionality is enabled on supported devices.                                                                                                         |
 | Wake-on-LAN                        | Allows you to manage Wake-on-LAN functionality. If you don't configure this setting, Wake-on-LAN is enabled on supported devices.                                                                                                            |
 | Wake-on-Power                      | Allows you to manage Wake-on-Power functionality. If you don't configure this setting, Wake-on-Power is disabled on supported devices.                                                                                                          |
-
 
 >[!TIP]
 >When you create a SEMM configuration package, two characters are shown on the **Successful** page, as shown in Figure 3.
@@ -304,13 +302,13 @@ The PowerShell samples that create a config package for a specific device type c
 
 ## Version history
 
-### Version 2.105.139.0 
+### Version 2.105.139.0
 
 This version of SEMM includes:
 
 - Support for Surface Laptop Studio 2, Surface Laptop Go 3, and Surface Go 4
 
-### Version 2.100.139.0 
+### Version 2.100.139.0
 
 This version of SEMM includes:
 

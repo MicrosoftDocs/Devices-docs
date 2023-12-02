@@ -50,7 +50,6 @@ The camera cover magnetically snaps to the front for privacy and the back for st
 > [!NOTE]
 > Do not place the cover in the vented slot at the top of the camera.
 
-
 ## Manage automatic framing settings
 
 Automatic framing dynamically zooms and keeps you centered in the video when you move around. How you manage the settings depends on the OS installed on Surface Hub:
@@ -71,8 +70,8 @@ When you install the Surface Hub Smart Camera, automatic framing is enabled by d
 > You'll need to reset the device if you don't know your username or admin password. For more information, see [Reset and recovery for Surface Hub 2S](/surface-hub/surface-hub-2s-recover-reset).
 
 2. Open **Settings** and go to  **Surface Hub > Calling & Audio.**
-3. Under **Automatic framing**, adjust the toggle as appropriate. 
-4. Select **End session**; modified settings are applied when you start a new session. 
+3. Under **Automatic framing**, adjust the toggle as appropriate.
+4. Select **End session**; modified settings are applied when you start a new session.
 
 If the toggle is set to **On**, automatic framing will always be on by default when users begin a session on Surface Hub. If the toggle is set to **Off**, automatic framing will always be off by default when starting a session on Surface Hub.
 
@@ -109,4 +108,4 @@ Purchase Surface Hub Smart Camera from your [authorized Microsoft Surface resell
 
 ### References
 
-<sup>1</sup> Surface Hub Smart Camera, sold separately starting March 16, 2022, dynamically adjusts the video feed for remote participants. Surface Hub Smart Camera is included in the box with Surface Hub 2S 85" and all models of Surface Hub 3. 
+<sup>1</sup> Surface Hub Smart Camera, sold separately starting March 16, 2022, dynamically adjusts the video feed for remote participants. Surface Hub Smart Camera is included in the box with Surface Hub 2S 85" and all models of Surface Hub 3.
