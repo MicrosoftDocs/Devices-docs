@@ -1,6 +1,6 @@
 ---
-title: "Install and mount Surface Hub 50 inch"
-description: "Learn how to install and mount Surface Hub 2S 50 inch or Surface Hub 3 50 inch."
+title: "Install & mount 50" models of Surface Hub 2S or Surface Hub 3"
+description: "Learn how to install & mount 50" models of Surface Hub 2S or Surface Hub 3."
 ms.prod: surface-hub
 author: coveminer
 ms.author: chauncel
@@ -13,9 +13,9 @@ appliesto:
 - Surface Hub 3
 ---
 
-# Install and mount Surface Hub 50"
+# Install & mount 50" models of Surface Hub 2S or Surface Hub 3
 
-The 50-inch models of Surface Hub 2S and Surface Hub 3 are designed for ease of mobility with a form factor that enables you to quickly install and begin using the device. Microsoft has partnered with Steelcase on the following certified mounting solutions: Roam Mobile Stand and Roam Wall Mount. Both fully integrate with the design of 50-inch Surface Hubs, enabling unimpeded access to the compute cartridge, power, USB-A, USB-C, and other ports.
+The 50-inch models of Surface Hub 2S and Surface Hub 3 are designed for ease of mobility with a form factor that enables you to quickly install and begin using the device. Microsoft has partnered with Steelcase on the following certified mounting solutions: Roam Mobile Stand and Roam Wall Mount. Both fully integrate with the design of 50-inch models of Surface Hub 2S and Surface Hub 3, enabling unimpeded access to the compute cartridge, power, USB-A, USB-C, and other ports.
 
 You can mount Surface Hubs with the certified wall mount or the certified mobile stand, both developed in partnership with Steelcase. These accessories fully integrate with the 50-inch design, enabling unimpeded access to the compute cartridge along with all I/O ports and power.
 
