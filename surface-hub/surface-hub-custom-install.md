@@ -6,7 +6,7 @@ author: coveminer
 ms.author: chauncel
 manager: frankbu
 ms.topic: how-to
-ms.date: 12/05/2023
+ms.date: 12/04/2023
 appliesto:
 - Surface Hub 2S
 - Windows Hub 3

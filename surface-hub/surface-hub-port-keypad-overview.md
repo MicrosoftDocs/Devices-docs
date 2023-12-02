@@ -6,7 +6,7 @@ author: coveminer
 ms.author: chauncel
 manager: frankbu
 ms.topic: overview
-ms.date: 12/05/2023
+ms.date: 12/04/2023
 ms.localizationpriority: Medium
 appliesto:
 - Surface Hub 2S
