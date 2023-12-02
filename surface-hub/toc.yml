@@ -129,13 +129,13 @@
                    href: using-surface-app-on-surface-hub-2s.md
               - name: Manage
                 items:
-                 - name: Manage Microsoft Surface Hub
+                 - name: Manage Surface Hub
                    href: manage-surface-hub.md
                  - name: Manage Surface Hub with an MDM provider
                    href: manage-settings-with-mdm-for-surface-hub.md
                  - name: Admin group management
                    href: admin-group-management-for-surface-hub.md
-                 - name: Manage Microsoft Edge on Surface Hub
+                 - name: Manage Edge on Surface Hub
                    href: surface-hub-install-chromium-edge.md
                  - name: Monitor Surface Hub
                    href: monitor-surface-hub.md
@@ -179,7 +179,7 @@
                   href: windows-10-team-known-issues.md
                 - name: Troubleshoot Surface Hub
                   href: troubleshoot-surface-hub.md  
-                - name: Troubleshoot Microsoft Entra join 
+                - name: Troubleshoot Microsoft Entra ID join 
                   href: troubleshoot-azure-ad-join-on-surface-hub.md
                 - name: Troubleshoot Azure sign-in logs
                   href: troubleshoot-azure-sign-in-logs-for-surface-hub.md          
