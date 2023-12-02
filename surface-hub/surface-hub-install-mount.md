@@ -21,7 +21,7 @@ You can mount Surface Hubs with the certified wall mount or the certified mobile
 
 For more information, see [Officially licensed third-party accessories](https://licensedhardware.azurewebsites.net/surface) and view installation demos from the Surface product team at [Steelcase mobile stand and APC battery set up](https://youtu.be/VTzdu4Skpkg).
 
-If you’re not using licensed accessories, see [Customize wall mount of Surface Hub 50"](surface-hub-custom-install.md).
+If you’re not using licensed accessories, see [Customize wall mount of 50" models of Surface Hub 2S or Surface Hub 3](surface-hub-custom-install.md).
 
 | Task | Illustration|
 |------|-------------|

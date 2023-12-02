@@ -1,5 +1,5 @@
 ---
-title: How to pack and ship Surface Hub 50" models
+title: How to pack and ship 50" models of Surface Hub 2S or Surface Hub 3 models
 description: Instructions for packing Surface Hub 2S or Surface Hub 3 for shipment or service.
 ms.prod: surface-hub
 author: coveminer
@@ -13,7 +13,7 @@ appliesto:
 - Surface Hub 3
 ---
 
-# How to pack and ship Surface Hub 50" models
+# How to pack and ship 50" models of Surface Hub 2S or Surface Hub 3 models
 
 This article explains how to pack Surface Hub 2S or Surface Hub 3 for shipment or service.
 
