@@ -42,9 +42,7 @@ This article explains how to replace the default Microsoft Teams Rooms wallpaper
 
 - **C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState**
 
-7. Restart Surface Hub. The new wallpaper is displayed:
-
-  ![Windows Bloom wallpaper installed on Surface Hub 3](images/windows-bloom-wallpaper-installed.png)
+7. Restart Surface Hub. The new wallpaper is displayed.
 
 ## Learn more
 
