@@ -36,13 +36,17 @@ landingContent:
           - text: Get started with Surface Hub 3
             url: surface-hub-3-get-started.md
           - text: Install Windows Bloom wallpaper on Surface Hub 3
-            url: install-wallpaper-surface-hub.md          
-          - text: Introducing Surface Hub 3
-            url: https://www.youtube.com/watch?v=VHxasUd908k&t=1s 
+            url: install-wallpaper-surface-hub.md
+          - text: Install and manage Surface Hub 3 Pack
+            url: install-manage-surface-hub-3-pack.md            
           - text: Surface Hub 3 security best practices
             url: surface-hub-3-security.md
+          - text: Surface Hub 3 site readiness guide
+            url: surface-hub-3-site-readiness-guide.md  
           - text: Install & manage Surface Hub Smart Camera
-            url: surface-hub-smart-camera.md       
+            url: surface-hub-smart-camera.md 
+          - text: Migrate to Windows 11 Pro or Enterprise on Surface Hub 3
+            url: surface-hub-3-migrate-os.md        
 
 # Card (optional)
   - title: Troubleshoot

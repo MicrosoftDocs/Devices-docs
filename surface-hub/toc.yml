@@ -95,8 +95,6 @@
                    href: miracast-troubleshooting.md        
               - name: Configure Microsoft Teams 
                 items: 
-                 - name: Surface Hub & Microsoft Teams Rooms setup best practices  
-                   href: https://go.microsoft.com/fwlink/?linkid=2222648  
                  - name: Microsoft Teams Rooms on Surface Hub
                    href: surface-hub-teams-rooms.md
                  - name: Configure networking & Quality of Service for Microsoft Teams Rooms on Surface Hub
