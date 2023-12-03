@@ -2,6 +2,14 @@
 
 
 
+## Week of November 27, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 12/1/2023 | [Surface Hub update history](/surface-hub/surface-hub-update-history) | modified |
+
+
 ## Week of November 13, 2023
 
 
