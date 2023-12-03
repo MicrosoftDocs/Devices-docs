@@ -23,7 +23,7 @@ Surface Hub provides an on-screen display for volume, brightness, and input cont
   ![Surface Hub on-screen display.](images/sh2-onscreen-display.png)<br>
 
  When the on-screen display is visible, use one or more buttons to reach desired settings.
- 
+
 ## To adjust volume
 
 - Use the **Volume up/down** button to increase or decrease volume.

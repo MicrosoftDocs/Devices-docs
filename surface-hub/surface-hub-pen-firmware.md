@@ -14,9 +14,9 @@ appliesto:
 ---
 
 
-# Update pen firmware on Surface Hub 
+# Update pen firmware on Surface Hub
 
-You can update the firmware on the Surface Hub Pen from Windows Update for Business or by downloading the firmware update to a separate PC. 
+You can update the firmware on the Surface Hub Pen from Windows Update for Business or by downloading the firmware update to a separate PC.
 
 ## Update pen firmware using Windows Update for Business
 
@@ -44,13 +44,12 @@ You can update the firmware on the Surface Hub Pen from a separate PC running Wi
 3. Select the pen to complete the pairing process.
 4. Disconnect all other Surface Hub Pens before starting a new update.
 5. Download the [Surface Hub Pen Firmware Update Tool](https://download.microsoft.com/download/8/3/F/83FD5089-D14E-42E3-AF7C-6FC36F80D347/Pen_Firmware_Tool.zip) to your PC.
-6. Run **PenCfu.exe.** The install progress is displayed in the tool. It may take several minutes to finish updating. 
-
+6. Run **PenCfu.exe.** The install progress is displayed in the tool. It may take several minutes to finish updating.
 
 ## Check firmware version of the Surface Hub Pen
 
 1. Run **get_version.bat** and press the **top** button on the pen.
-2. The tool will report the firmware version of the pen. 
+2. The tool will report the firmware version of the pen.
 
    Example:
     - Old firmware is 468.2727.368
@@ -64,7 +63,6 @@ You can run the Surface Hub Pen Firmware Update Tool (PenCfu.exe) from the comma
 2. Double click **PenCfu.exe** to initiate the firmware update. Note that the configuration and firmware image files must be stored in the same folder as the tool.
 3. For additional options, run **PenCfu.exe -h** to display the available parameters listed in the following table. Example: `PenCfu.exe -h`
 4. Enter **Ctrl+C** to safely shut down the tool.
-
 
 | Command | Description |
 | -------------- |---------------------------- |

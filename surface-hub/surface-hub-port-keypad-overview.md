@@ -18,7 +18,7 @@ appliesto:
 This page describes the ports, physical buttons, and configuration information essential for connecting to Surface Hub 2S or Surface Hub 3, whether wired, Wi-Fi, or Bluetooth. It also includes best practice recommendations for key connectivity scenarios.
 
 > [!NOTE]
-> You can find the serial number on the outside of the packaging, on the display by the power cord, or by using the Surface app. 
+> You can find the serial number on the outside of the packaging, on the display by the power cord, or by using the Surface app.
 
 The figure below shows the location of ports and physical buttons on a keypad attached to the underside of the device. The table includes detailed descriptions of each element.
 

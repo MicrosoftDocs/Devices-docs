@@ -7,7 +7,7 @@ ms.prod: surface-hub
 author: coveminer
 ms.author: dpandre
 ms.topic: overview
-ms.date: 09/21/2023
+ms.date: 12/04/2023
 ms.localizationpriority: medium
 appliesto:
 - Surface Hub 3
@@ -31,7 +31,7 @@ appliesto:
 
 **How do I install Surface Hub 3 Pack?**
 
-- The Surface Hub 3 Pack is designed for easy removal and replacement of the existing Surface Hub 2S cartridge. Using a Phillips-head screwdriver to unscrew the retaining bolt, you can remove the Hub 2S cartridge and insert the new Surface Hub 3 Pack. Press power, and the installation is complete.
+- The Surface Hub 3 Pack is designed for easy removal and replacement of the existing Surface Hub 2S cartridge. Using a Phillips-head screwdriver to unscrew the retaining bolt, you can remove the Hub 2S cartridge and insert the new Surface Hub 3 Pack. Press power, and the installation is complete. For detailed instructions, see [Install and manage Surface Hub 3 Pack](install-manage-surface-hub-3-pack.md).
 
 **Will the new cartridge extend the warranty on my Surface Hub 2S?**
 
@@ -53,3 +53,7 @@ appliesto:
 
 - [Surface Hub 3 Pack tech specs](surface-hub-3-pack-techspecs.md)
 - [Surface Hub 3 FAQ](surface-hub-3-faq.md)
+- [Get started with Surface Hub 3](surface-hub-3-get-started.md)
+- [First-time setup for Surface Hub 3](first-run-program-surface-hub-3.md)
+- [Surface Hub 3 security best practices](surface-hub-3-security.md)
+- [Install Windows Bloom wallpaper on Surface Hub 3](install-wallpaper-surface-hub.md)
