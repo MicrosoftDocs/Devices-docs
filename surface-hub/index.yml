@@ -28,9 +28,7 @@ landingContent:
   - title: What's new
     linkLists:
       - linkListType: get-started
-        links:
-          - text: Order Surface Hub 3
-            url: https://www.microsoft.com/surface/business/surface-hub-3  
+        links: 
           - text: What's new for Surface Hub 3   
             url: surface-hub-3-whats-new.md
           - text: Get started with Surface Hub 3

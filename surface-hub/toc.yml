@@ -268,7 +268,7 @@
             - name: Troubleshoot hardware
               items:             
                 - name: Troubleshoot Surface Hub 2S Power Issues
-                  href: troubleshoot-power-surface-hub-2s.md
+                  href: troubleshoot-power-surface-hub.md
                 - name: Troubleshoot APC Charge Mobile Battery
                   href: troubleshoot-apc-mobile-battery.md
                 - name: Troubleshoot Surface Hub Pen
