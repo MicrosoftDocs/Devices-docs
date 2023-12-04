@@ -70,7 +70,7 @@ After the creation tool is installed, follow these steps to create a Microsoft S
    :::image type="content" source="images/microsoft-surface-data-eraser/fig4-start.png" alt-text="Figure 4. USB thumb drive selection>":::<br>
    *Figure 4. USB thumb drive selection*
 
-  >[!TIP]
+   >[!TIP]
    >If the Start button is disabled, check that your removable drive has a total capacity of at least 4 GB.
 
 6. After the creation process is finished, the USB drive has been formatted and all binaries are copied to the USB drive. Select **Success**.
@@ -103,7 +103,7 @@ After you create a Microsoft Surface Data Eraser USB stick, you can boot a suppo
 
 3. When the Surface device boots, a **SoftwareLicenseTerms** text file is displayed, as shown in Figure 5.
 
-   ![Booting the Microsoft Surface Data Eraser USB stick.](images/data-eraser-3.png "Booting the Microsoft Surface Data Eraser USB stick")
+   ![Booting the Microsoft Surface Data Eraser USB stick.](images/data-eraser-3.png)
 
    *Figure 5. Booting the Microsoft Surface Data Eraser USB stick*
 
@@ -116,7 +116,7 @@ After you create a Microsoft Surface Data Eraser USB stick, you can boot a suppo
    >[!CAUTION]
    >The Microsoft Surface Data Eraser tool will delete all data, including Windows operating system files required to boot the device, in a secure and unrecoverable way. To boot a Surface device that has been wiped with Microsoft Surface Data Eraser, you will first need to reinstall the Windows operating system. To remove data from a Surface device without removing the Windows operating system, you can use the **Reset your PC** function. However, this does not prevent your data from being recovered with forensic or data recovery capabilities. See [Recovery options in Windows 10](https://support.microsoft.com/help/12415/windows-10-recovery-options) for more information.
 
-   ![Partition to be erased is displayed.](images/sda-fig5-erase.png "Partition to be erased is displayed")
+   ![Partition to be erased is displayed.](images/sda-fig5-erase.png)
   
    *Figure 6. Partition to be erased is displayed in Microsoft Surface Data Eraser*
 
