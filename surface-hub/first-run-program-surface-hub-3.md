@@ -51,26 +51,26 @@ Although not required, you can automate the setup process with a provisioning pa
 
 1. Press the power button to start the device.
 
- ![Screenshot of Surface Hub 3 startup.](images/surface-hub-3-oobe-fig1.png)
+   ![Screenshot of Surface Hub 3 startup.](images/surface-hub-3-oobe-fig1.png)
 
 2. Connect to a network.
 
- ![Screenshot of Connect to a network.](images/surface-hub-3-oobe-fig1-0.png)
+   ![Screenshot of Connect to a network.](images/surface-hub-3-oobe-fig1-0.png)
 
 > [!TIP]
 > If you have already attached an Ethernet cable, Surface Hub 3 automatically connects to your network. Alternatively, you can connect to a wireless network. **Note:** You cannot connect to a wireless network in hotspots (captive portals) that redirect sign-in requests to a provider's website.
 
 3. **Select your region.** Confirm the auto-detected region and select **Yes**.
 
- ![Screenshot of Select your region.](images/surface-hub-3-oobe-fig1a.png)
+   ![Screenshot of Select your region.](images/surface-hub-3-oobe-fig1a.png)
 
 4. **Confirm keyboard layout.** Select **Yes**.
 
- ![Screenshot of Confirm keyboard layout.](images/surface-hub-3-oobe-fig1b.png)
+   ![Screenshot of Confirm keyboard layout.](images/surface-hub-3-oobe-fig1b.png)
 
 5. To add a second keyboard, select **Add layout**. Otherwise, select **Skip**.
 
- ![Screenshot of Add a second keyboard.](images/surface-hub-3-oobe-fig1c.png)
+   ![Screenshot of Add a second keyboard.](images/surface-hub-3-oobe-fig1c.png)
 
 ## Microsoft Teams Rooms setup
 
