@@ -15,7 +15,7 @@ appliesto:
 # Install and Manage Surface Hub Smart Camera
 
 Surface Hub Smart Camera<sup>1</sup> is designed for hybrid teams and optimized for remote participants. With a sharp focus on the foreground and background, remote participants can see people interact with content on the Surface Hub while viewing everyone else in the room. Surface Hub Smart Camera has a wide field of view greater than 136 degrees, automatic framing, high-quality glass optics, and a low light sensor.
-![Ultra-wide camera view includes people whiteboarding on extreme edges of 85" Hub](images/surface-hub-smart-camera-fov.png)
+![Screenshot that shows ultra-wide camera view including people whiteboarding on extreme edges of 85" Hub.](images/surface-hub-smart-camera-fov.png)
 
 *Ultra-wide camera view includes people whiteboarding on extreme edges of 85" Hub*
 
@@ -35,17 +35,17 @@ To learn more, refer to [Surface Hub update history](surface-hub-update-history.
 
 1. Attach the camera to the USB-C port in the middle of the top of Surface Hub 2S. The indicator LED will light briefly when the camera is connected and continuously when the camera is in use.
 
-     ![Attach the camera to the USB-C port in the middle of the top of Surface Hub 2S.](images/hub2smartcamera1.png)
+     ![Screenshot that shows how to attach the camera to the USB-C port in the middle of the top of Surface Hub 2S.](images/hub2smartcamera1.png)
 
 2. To remove the camera, pull up and forward. A magnetic tether prevents the camera from being knocked off or pulled backward.
 
-    ![To remove the camera, pull up and forward.](images/hub2smartcamera2.png)
+    ![Screenshot that shows how to remove the camera, pull up and forward.](images/hub2smartcamera2.png)
 
 ### Camera cover
 
 The camera cover magnetically snaps to the front for privacy and the back for storage when not in use.
 
-:::image type= "content" source= "images/smart-camera-cover.png" alt-text= "Remove the cover and place it on rear of the camera" :::
+:::image type= "content" source= "images/smart-camera-cover.png" alt-text= "Screenshot that shows how to remove the cover and place it on rear of the camera." :::
 
 > [!NOTE]
 > Do not place the cover in the vented slot at the top of the camera.
