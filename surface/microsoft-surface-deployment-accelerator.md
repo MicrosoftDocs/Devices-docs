@@ -68,8 +68,8 @@ See the [Prerequisites](https://github.com/microsoft/SurfaceDeploymentAccelerato
 
 9. Insert the USB drive into the device where you want to install Windows 10 or Windows 11 and reboot to begin the installation. USB boot must be enabled in BIOS, which can require that you temporarily disable Secure Boot.
 
-> [!IMPORTANT]
-> Booting from the USB drive will immediately begin installing the OS. Ensure that your device is ready before inserting the USB and restarting.
+   > [!IMPORTANT]
+   > Booting from the USB drive will immediately begin installing the OS. Ensure that your device is ready before inserting the USB and restarting.
 
 ## Related links
 
