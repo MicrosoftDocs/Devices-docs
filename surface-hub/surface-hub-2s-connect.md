@@ -27,7 +27,7 @@ You can project in with USB-C or HDMI—the DisplayPort is only for mirroring yo
 
 :::image type="content" source="images/computer-cartridge-ports.png" alt-text="Screenshot of the compute cartridge that has an HDMI port, a USB-C port, USB-A, as well as the Ethernet port and DisplayPort.":::
 
-### Recommended wired configurations 
+### Recommended wired configurations
 
 In general, it’s recommended to use native cable connections whenever possible such as USB-C to USB-C or HDMI to HDMI. Other combinations such as MiniDP to HDMI or MiniDP to USB-C will also work. Some additional configuration may be required to optimize the video-out experience, as described on this page.
 
@@ -40,9 +40,8 @@ In general, it’s recommended to use native cable connections whenever possible
 
 When you connect a guest computer to Surface Hub 2S via the USB-C port, several USB devices are discovered and configured. These peripheral devices are created for TouchBack and InkBack. As shown in the following table, the peripheral devices can be viewed in Device Manager, which will show duplicate names for some devices, as shown in the following table.
 
- 
 |Peripheral| Listing in Device Manager |
-| ---------------------------- |------------- | 
+| ---------------------------- |------------- |
 | Human interface devices | HID-compliant consumer control device<br>HID-compliant pen<br>HID-compliant pen (duplicate item)<br>HID-compliant pen (duplicate item)<br>HID-compliant touch screen<br>USB Input Device<br>USB Input Device (duplicate item) |
 | Keyboards | Standard PS/2 keyboard |
 | Mice and other pointing devices | HID-compliant mouse |
@@ -88,15 +87,13 @@ You can output video to another display using MiniDP, as indicated in the follow
 | HDTV            | 1080p          | 60             | X          |
 | 4K UHD          | 3840 x 2560    | 60             | X          |
 
-
- 
 Surface Hub 2S includes a MiniDP video-out port for projecting visual content from Surface Hub 2S to another display. If you plan to use Surface Hub 2S to project to another display, note the following recommendations:
 
 - **Keyboard required.** Before you begin, you’ll need to connect either a wired or Bluetooth-enabled external keyboard  to Surface Hub 2S. Note that unlike the original Surface Hub, a keyboard for Surface Hub 2S is sold separately and is not included in the shipping package.<br><br>
 - **Set duplicate mode.** Surface Hub 2S supports video-out in duplicate mode only. However, you will still need to manually configure the display mode when you connect for the first time:
     1. Enter the **Windows logo key** + **P**, which opens the Project pane on the right side of Surface Hub 2S, and then select **Duplicate** mode.
     2. When you’re finished with your Surface Hub 2S session, select **End Session**. This ensures that the duplicate setting is saved for the next session.<br><br>
-- **Plan for different aspect ratios.** Like other Surface devices, Surface Hub 2S uses a 3:2 display aspect ratio (the relationship between the width and the height of the display). Projecting Surface Hub 2S onto displays with different aspect ratios is supported. Note however that because Surface Hub 2S duplicates the display, the MiniDP output will also only display in a 3:2 aspect ratio, which may result in letterboxing or curtaining depending on the aspect ratio of the receiving display. 
+- **Plan for different aspect ratios.** Like other Surface devices, Surface Hub 2S uses a 3:2 display aspect ratio (the relationship between the width and the height of the display). Projecting Surface Hub 2S onto displays with different aspect ratios is supported. Note however that because Surface Hub 2S duplicates the display, the MiniDP output will also only display in a 3:2 aspect ratio, which may result in letterboxing or curtaining depending on the aspect ratio of the receiving display.
 
 > [!NOTE]
 > if your second monitor uses a 16:9 aspect ratio (the predominant ratio for most TV monitors), black bars may appear on the left and right sides of the mirrored display. If this occurs, you may wish to inform your users that there is no need to adjust the second display.
@@ -116,9 +113,9 @@ Note the following recommendations:
 
 Windows 10/11 natively supports Miracast, which lets you wireless connect to Surface Hub 2S.<br><br>
 
-### To connect using Miracast:
+### To connect using Miracast
 
-1. On your Windows 10/11 device, enter **Windows logo key** + **K**. 
+1. On your Windows 10/11 device, enter **Windows logo key** + **K**.
 2. In the Connect window, look for the name of your Surface Hub 2S in the list of nearby devices. You can find the name of your Surface Hub 2S in the bottom left corner of the display or when you press **Connect** on the welcome screen.
 
 :::image type="content" source="images/surface-hub-ready-connect-wirelessly.png" alt-text="Screenshot of a welcome screen shows that Surface Hub is ready for you to connect wirelessly.":::
@@ -148,7 +145,7 @@ You can connect the following accessories to Surface Hub-2S using Bluetooth:
 - Keyboards
 - Headsets
 - Speakers
-- Surface Hub 2 pens
+- Surface Hub 2S pens
 
 > [!TIP]
 > After you connect a Bluetooth headset or speaker, you might need to change the default microphone and speaker settings. For more information, see [Local management for Surface Hub settings](local-management-surface-hub-settings.md).

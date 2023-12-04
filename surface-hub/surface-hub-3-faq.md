@@ -17,17 +17,18 @@ appliesto:
 
 **When will Surface Hub 3 start shipping with the Microsoft Teams Rooms on Windows experience?**
 
-- Surface Hub 3 will begin shipping later this year.
+- Surface Hub 3 will begin shipping December 5, 2023.
 
 **How can I place an order for the Surface Hub 3 Pack?**
 
+- See [Surface Hub 3 product site](https://www.microsoft.com/surface/business/surface-hub-3)
 - Contact your [Surface device reseller](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface#DEVICESRESELLERS).
 
 **How can I upgrade my Surface Hub 2S to the new experience?**
 
-- Purchase a new Surface Hub 3 (available later this year).
-- Upgrade from Surface Hub 2S to Surface Hub 3 via the [Surface Hub 3 Pack](surface-hub-3-pack-techspecs.md) (aka replacement cartridge) (available later this year).
-- Migrate your Surface Hub 2S to the new experience following public release of migration software and instructions early next year (available early next year).
+- Purchase a new Surface Hub 3.
+- Upgrade from Surface Hub 2S to Surface Hub 3 via the [Surface Hub 3 Pack](install-manage-surface-hub-3-pack.md) (aka replacement cartridge) (available December 5).
+- Migrate your Surface Hub 2S to the new experience following public release of migration software and instructions, available early next year.
 
 **How long will Surface Hub 2S be supported on the current OS?**
 
@@ -51,8 +52,12 @@ appliesto:
 
 **Will I be able to rotate Surface Hub 3 85"?**
 
-- No. Due to form factor constraints and expected use cases, rotation to Portrait is only supported on 50" devices only.
+- No. Due to form factor constraints and expected use cases, rotation to Portrait is only supported on 50" devices.
 
 ## Learn more
 
 - [Surface Hub 3 Pack FAQ](surface-hub-3-pack-faq.md)
+- [Get started with Surface Hub 3](surface-hub-3-get-started.md)
+- [First-time setup for Surface Hub 3](first-run-program-surface-hub-3.md)
+- [Surface Hub 3 security best practices](surface-hub-3-security.md)
+- [Install Windows Bloom wallpaper on Surface Hub 3](install-wallpaper-surface-hub.md)

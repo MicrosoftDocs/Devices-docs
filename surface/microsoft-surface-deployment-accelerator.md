@@ -7,7 +7,7 @@ manager: frankbu
 ms.localizationpriority: medium
 ms.prod: surface
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: how-to
 ms.date: 5/08/2020
 appliesto:
@@ -19,7 +19,7 @@ appliesto:
 
 Microsoft Surface Deployment Accelerator (SDA) automates the creation and configuration of a Microsoft recommended deployment experience by using free Microsoft deployment tools.
 
-Redesigned in April 2020 to simplify and automate deployment of Surface images in a corporate environment, the 
+Redesigned in April 2020 to simplify and automate deployment of Surface images in a corporate environment, the
 SDA tool allows you to build a “factory-like” Windows image that you can customize to your organizational requirements.
 
 The open source, script-driven SDA tool leverages the Windows Assessment and Deployment Kit (ADK) for Windows 10, facilitating the creation of Windows images (WIM) in test or production environments. If the latest ADK is not already installed, it will be downloaded and installed when running the SDA tool.
@@ -38,7 +38,7 @@ See the [Prerequisites](https://github.com/microsoft/SurfaceDeploymentAccelerato
 
 **To run SDA:**
 
-1. Go to [SurfaceDeploymentAccelerator](https://github.com/microsoft/SurfaceDeploymentAccelerator) on GitHub. 
+1. Go to [SurfaceDeploymentAccelerator](https://github.com/microsoft/SurfaceDeploymentAccelerator) on GitHub.
 2. Review the [README](https://github.com/microsoft/SurfaceDeploymentAccelerator/blob/master/README.md) documentation.
 3. On the [SurfaceDeploymentAccelerator](https://github.com/microsoft/SurfaceDeploymentAccelerator) page, click the **Code** button and then select **Download ZIP** to save the files locally on your computer.
 4. Right-click the .zip file and then click **Properties**.
@@ -49,13 +49,15 @@ See the [Prerequisites](https://github.com/microsoft/SurfaceDeploymentAccelerato
     ```powershell
     Set-ExecutionPolicy -Scope Process -ExecutionPolicy Unrestricted -Force
     ```
-8. Run the SDA script specifying parameters for your environment. The script can be used to create images to install Windows 10 or Windows 11 on a variety of Surface devices. For a full list of supported devices, see the [Device parameter description](https://github.com/microsoft/SurfaceDeploymentAccelerator/blob/master/README.md#full-parameter-documentation) in the SDA README article. 
 
-    For example, the following command will create a bootable USB drive that can be used to [install Windows 10 on Surface Hub 2](/surface-hub/surface-hub-2s-migrate-os):
+8. Run the SDA script specifying parameters for your environment. The script can be used to create images to install Windows 10 or Windows 11 on a variety of Surface devices. For a full list of supported devices, see the [Device parameter description](https://github.com/microsoft/SurfaceDeploymentAccelerator/blob/master/README.md#full-parameter-documentation) in the SDA README article.
+
+    For example, the following command will create a bootable USB drive that can be used to [install Windows 10 on Surface Hub 2S](/surface-hub/surface-hub-2s-migrate-os):
 
     ```powershell
     .\CreateSurfaceWindowsImage.ps1 -ISO C:\SDA\enterprise_client.iso -OSSKU Enterprise -DestinationFolder C:\Output -Device SurfaceHub2 -CreateUSB $True
     ```
+
     Sample script output is below.
 
    ![Running Surface Deployment Accelerator tool.](images/sda1.png)
@@ -66,8 +68,8 @@ See the [Prerequisites](https://github.com/microsoft/SurfaceDeploymentAccelerato
 
 9. Insert the USB drive into the device where you want to install Windows 10 or Windows 11 and reboot to begin the installation. USB boot must be enabled in BIOS, which can require that you temporarily disable Secure Boot.
 
-> [!IMPORTANT]
-> Booting from the USB drive will immediately begin installing the OS. Ensure that your device is ready before inserting the USB and restarting. 
+   > [!IMPORTANT]
+   > Booting from the USB drive will immediately begin installing the OS. Ensure that your device is ready before inserting the USB and restarting.
 
 ## Related links
 

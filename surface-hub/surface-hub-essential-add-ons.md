@@ -1,6 +1,6 @@
 ---
-title: Essential add-ons for Windows 10/11 Pro and Enterprise on Surface Hub 2
-description: This article provides information about optional accessories you can use with Windows 10/11 Pro or Enterprise on Surface Hub 2. 
+title: Essential add-ons for Windows Pro and Enterprise on Surface Hub
+description: This article provides information about optional accessories you can use with Windows Pro or Enterprise on Surface Hub. 
 ms.prod: surface-hub
 ms.localizationpriority: low
 manager: frankbu
@@ -11,19 +11,19 @@ ms.collection: M365-modern-desktop
 ms.topic: conceptual
 ---
 
-# Essential add-ons for Windows 10/11 Pro and Enterprise on Surface Hub 2
+# Essential add-ons for Windows Pro and Enterprise on Surface Hub
 
-If you have migrated from Windows 10 Team to Windows 10 or Windows 11 Pro or Enterprise on Surface Hub 2, you can choose from a wide variety of accessories that connect via USB-C, USB-A, HDMI, or Bluetooth. 
+If you have migrated to Windows Pro or Enterprise, you can choose from a wide variety of accessories that connect via USB-C, USB-A, HDMI, or Bluetooth. 
 
-## Surface Hub 2 Fingerprint Reader
+## Surface Hub Fingerprint Reader
 
-If you’re running Windows 10/11 Pro or Windows 10/11 Enterprise on Surface Hub 2, you can sign in using the optional Surface Hub 2 Fingerprint Reader, a biometric authentication option that uses [Windows Hello](/windows-hardware/design/device-experiences/windows-hello).
+If you’re running Windows Pro or Enterprise on Surface Hub, you can sign in using the optional Surface Hub Fingerprint Reader, a biometric authentication option that uses [Windows Hello](/windows-hardware/design/device-experiences/windows-hello).
 
 ### Ordering
 
 Commercial customers can place orders through their Surface Authorized Device Resellers.
 
-**To use Surface Hub 2 Fingerprint Reader:**
+**To use Surface Hub Fingerprint Reader:**
 
 1. Insert the fingerprint reader into any of the USB C bezel ports, located on each side of the device.
 2. **Go to Start** > **Settings** > **Accounts** > **Sign-in options** > **Windows Hello Fingerprint** to enroll your fingerprint.
@@ -34,7 +34,7 @@ For more information about configuring the fingerprint reader to sign in using W
 - [Windows Hello biometrics in the enterprise](/windows/security/identity-protection/hello-for-business/hello-biometrics-in-enterprise).
 
   
-### Table 1. Surface Hub 2 Fingerprint Reader tech specs
+### Table 1. Surface Hub Fingerprint Reader tech specs
 
 
 | Component                       | Description                                                                                                                          |
@@ -47,37 +47,36 @@ For more information about configuring the fingerprint reader to sign in using W
 
 
 > [!NOTE]
-> Windows 10 Team, which runs on Surface Hub 2S does not support the Surface Hub 2 Fingerprint Reader. This is because Windows 10 Team is designed to allow multiple users to interact with the device in a conference room environment. 
+> Windows 10 Team, which runs on Surface Hub 2S does not support the Surface Hub Fingerprint Reader. This is because Windows 10 Team is designed to allow multiple users to interact with the device in a conference room environment. 
  
 ## Windows Hello face recognition
 
-Windows 10/11 Pro and Enterprise on Surface Hub 2 supports Windows Hello for authentication and requires a Windows Hello certified camera accessory. Note that the built-in camera for Surface Hub 2S is not designed for authentication and does not support Windows Hello. For more information, see [Windows Hello.](/windows-hardware/design/device-experiences/windows-hello)
+Windows Pro and Enterprise on Surface Hub supports Windows Hello for authentication and requires a Windows Hello certified camera accessory. Note that the built-in camera for Surface Hub 2S is not designed for authentication and does not support Windows Hello. For more information, see [Windows Hello.](/windows-hardware/design/device-experiences/windows-hello)
 
 
 ## Audio and video accessories
 
-You can extend the audio and video capabilities of Surface Hub 2 with audio and camera peripherals using the USB-C or USB-A ports.
+You can extend the audio and video capabilities of Surface Hub with audio and camera peripherals using the USB-C or USB-A ports.
 
 For information about recommended accessories, see:
 
 - [USB audio and video devices certified for Microsoft Teams](/microsoftteams/devices/usb-devices)
 - [IP Phones certified for Microsoft Teams](/microsoftteams/devices/teams-ip-phones)
 
-
-
 ## Other accessories
-Surface Hub 2 includes the following ports for connecting a wide variety of devices. 
+
+Surface Hub 2S and Surface Hub 3 include the following ports for connecting a wide variety of devices. 
 
 - 1 x USB A port on compute module (behind display)
 - 4 x USB C ports on bezels
-- Bluetooth 4.1 support
+- Bluetooth support
 - HDMI 2.0
 
  ![Front facing and underside view of I/O connections and physical buttons.](images/hub2s-schematic.png)
 
-For more information, see [Surface Hub 2S ports and keypad overview](surface-hub-2s-port-keypad-overview.md)
+For more information, see [Surface Hub ports and keypad overview](surface-hub-port-keypad-overview.md)
 
 
 ## Learn more
 
-- [Configure Windows 10/11 Pro or Enterprise on Surface Hub 2](surface-hub-2-post-install.md).
+- [Configure Windows 10/11 Pro or Enterprise on Surface Hub 2S](surface-hub-2-post-install.md).

@@ -4,8 +4,8 @@ title: Surface Hub documentation # < 60 chars
 summary: Surface Hub is an all-in-one digital interactive whiteboard, meetings platform, and collaborative computing device. # < 160 chars
 
 metadata:
-  ms.date: 06/09/2020
-  title: Surface Hub documentation # Required; page title displayed in search results. Include the brand. < 60 chars.
+  ms.date: 12/04/2023
+  title: Surface Hub admin guide # Required; page title displayed in search results. Include the brand. < 60 chars.
   description: Get started with Microsoft Surface Hub. # Required; article description that is displayed in search results. < 160 chars.
   services: product-insights
   ms.service: product-insights #Required; service per approved list. service slug assigned to your service by ACOM.
@@ -27,29 +27,24 @@ landingContent:
   # Card
   - title: What's new
     linkLists:
-      - linkListType: how-to-guide
-        links:
+      - linkListType: get-started
+        links: 
           - text: What's new for Surface Hub 3   
             url: surface-hub-3-whats-new.md
-          - text: Introducing Surface Hub 3
-            url: https://www.youtube.com/watch?v=VHxasUd908k&t=1s 
-          - text: Driver and firmware lifecycle for Surface Hub devices and accessories
-            url: surface-hub-driver-firmware-accessories-lifecycle.md   
-          - text: New Teams Rooms licensing requirements
-            url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/new-microsoft-teams-rooms-licensing-requirements-for-surface-hub/ba-p/1669712
-          - text: Change display language on Surface Hub
-            url: change-language-on-surface-hub.md
-          - text: Surface Hub & Teams Rooms automated setup guide (requires M365 authentication)
-            url: https://go.microsoft.com/fwlink/?linkid=2221605
-          - text: Install Windows 10 Team 2022 Update 
-            url: surface-hub-2022-update.md 
-          - text: Install Progressive Web Apps on Surface Hub
-            url:  install-pwa-surface-hub.md 
+          - text: Get started with Surface Hub 3
+            url: surface-hub-3-get-started.md
+          - text: Install Windows Bloom wallpaper on Surface Hub 3
+            url: install-wallpaper-surface-hub.md
+          - text: Install and manage Surface Hub 3 Pack
+            url: install-manage-surface-hub-3-pack.md            
+          - text: Surface Hub 3 security best practices
+            url: surface-hub-3-security.md
+          - text: Surface Hub 3 site readiness guide
+            url: surface-hub-3-site-readiness-guide.md  
           - text: Install & manage Surface Hub Smart Camera
-            url: surface-hub-smart-camera.md       
-          - text: Teams Rooms on Surface Hub                               
-            url: surface-hub-teams-rooms.md
-
+            url: surface-hub-smart-camera.md 
+          - text: Migrate to Windows 11 Pro or Enterprise on Surface Hub 3
+            url: surface-hub-3-migrate-os.md        
 
 # Card (optional)
   - title: Troubleshoot
@@ -63,7 +58,7 @@ landingContent:
           - url: troubleshoot-access-to-settings-app-surface-hub.md
             text: Troubleshoot access to Settings app on Surface Hub 
           - url: troubleshoot-surface-hub-2-pen.md
-            text: Troubleshoot Surface Hub 2 pen   
+            text: Troubleshoot Surface Hub Pen   
           - url: miracast-troubleshooting.md
             text: Troubleshoot display projection on Surface Hub
           - url: surface-hub-2s-recover-reset.md
@@ -88,8 +83,8 @@ landingContent:
             text: Service & warranty
           - url: https://www.microsoft.com/surface/business/warranty-service-offerings-and-support
             text: Surface Hub warranty & protection plans           
-          - url: /surface/surface-driver-firmware-lifecycle-support#surface-hub-driver-and-firmware-support-lifecycle
-            text: Surface Hub driver & firmware support lifecycle 
+          - text: Driver & firmware lifecycle for Surface Hub devices & accessories
+            url: surface-hub-driver-firmware-accessories-lifecycle.md   
 
   # Card (optional)
   - title: Get started
@@ -98,7 +93,7 @@ landingContent:
         links:
           - text: Prepare your environment for Surface Hub
             url: prepare-your-environment-for-surface-hub.md  
-          - text: Surface Hub 2S adoption and training guides
+          - text: Surface Hub 2S adoption & training guides
             url:  surface-hub-2s-adoption-kit.md
           - text: Surface Hub 2S adoption videos  
             url: surface-hub-2s-adoption-videos.md
@@ -158,12 +153,14 @@ landingContent:
     linkLists:
       - linkListType: get-started
         links:
+          - url: surface-hub-3-security.md
+            text: Surface Hub 3 security best practices    
           - url: surface-hub-security.md
             text: Surface Hub security overview 
           - url: surface-hub-2s-phone-authenticate.md
             text: Configure passwordless sign-in on Surface Hub
-          - url: surface-hub-2s-secure-with-uefi-semm.md
-            text: Secure & manage Surface Hub 2S with SEMM & UEFI
+          - url: surface-hub-secure-with-uefi-semm.md
+            text: Secure & manage with SEMM & UEFI
 
     # Card (optional)
   - title: Design, develop, & distribute
