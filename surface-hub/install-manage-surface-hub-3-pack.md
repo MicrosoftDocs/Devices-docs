@@ -39,7 +39,7 @@ If you manage Surface Hub 2S via Microsoft Intune or another mobile device manag
 1. Sign into Microsoft Intune admin center, go to **Devices > All devices**,  and select your Surface Hub 2S.
 2. Select **Delete**.
 
-  ![Image shows removal of Surface Hub 2S from Intune](images/remove-hub2s-from-intune.png).
+  ![Screenshot that shows removal of Surface Hub 2S from Intune.](images/remove-hub2s-from-intune.png).
 
 ### To install Surface Hub 3 Pack
 
@@ -47,17 +47,17 @@ Review the following demo and follow the instructions on this page.
 
 > [!video https://www.microsoft.com/en-us/videoplayer/embed/RW1eQiI] 
 
-1. Shut down Surface Hub 2S, unplug all cables and slide the cover sideways.
+1. Shut down Surface Hub 2S, unplug all cables, and slide the cover sideways.
 
-  ![Image indicates how to slide the cover sideways](images/remove-cartridge-fig1.png).
+  ![Screenshot that indicates how to slide the cover sideways.](images/remove-cartridge-fig1.png).
 
 2. Use a Phillips-head screwdriver to remove the retaining screw to detach the cartridge from Surface Hub 2S.
 
-  ![Image shows retaining screw to remove and allow you to pull out the old cartridge](images/remove-cartridge-fig2.png).
+  ![Screenshot that shows retaining screw to remove and allow you to pull out the old cartridge.](images/remove-cartridge-fig2.png).
 
 3. Slide the compute cartridge out. You can use the return label in the Surface Hub 3 Pack packaging to send your old cartridge to Microsoft for recycling if desired.
 
-  ![Image that shows how to slide the compute cartridge out of the unit](images/remove-cartridge-fig3.png)
+  ![Screenshot that shows how to slide the compute cartridge out of the unit](images/remove-cartridge-fig3.png)
 
 4. Slide the Surface Hub 3 Pack into your Surface Hub.
 5. Fasten the locking screw and slide the cover into place. Power on your new Surface Hub 3.  
