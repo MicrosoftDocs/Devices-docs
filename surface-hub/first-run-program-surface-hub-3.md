@@ -47,30 +47,30 @@ Although not required, you can automate the setup process with a provisioning pa
 ## Surface Hub 3 OOBE setup
 
 > [!TIP]
-> When you run first-time setup, ensure you stay connected to automatically download required updates to enable the current user experience. 
+> When you run first-time setup, ensure you stay connected to automatically download required updates to enable the current user experience.
 
 1. Press the power button to start the device.
 
- ![Surface Hub 3 startup](images/surface-hub-3-oobe-fig1.png)
+ ![Screenshot of Surface Hub 3 startup.](images/surface-hub-3-oobe-fig1.png)
 
 2. Connect to a network.
 
- ![Connect to a network](images/surface-hub-3-oobe-fig1-0.png)
+ ![Screenshot of Connect to a network.](images/surface-hub-3-oobe-fig1-0.png)
 
 > [!TIP]
 > If you have already attached an Ethernet cable, Surface Hub 3 automatically connects to your network. Alternatively, you can connect to a wireless network. **Note:** You cannot connect to a wireless network in hotspots (captive portals) that redirect sign-in requests to a provider's website.
 
 3. **Select your region.** Confirm the auto-detected region and select **Yes**.
 
- ![Select your region](images/surface-hub-3-oobe-fig1a.png)
+ ![Screenshot of Select your region.](images/surface-hub-3-oobe-fig1a.png)
 
 4. **Confirm keyboard layout.** Select **Yes**.
 
- ![Confirm keyboard layout](images/surface-hub-3-oobe-fig1b.png)
+ ![Screenshot of Confirm keyboard layout.](images/surface-hub-3-oobe-fig1b.png)
 
 5. To add a second keyboard, select **Add layout**. Otherwise, select **Skip**.
 
- ![Add a second keyboard](images/surface-hub-3-oobe-fig1c.png)
+ ![Screenshot of Add a second keyboard.](images/surface-hub-3-oobe-fig1c.png)
 
 ## Microsoft Teams Rooms setup
 
@@ -78,7 +78,7 @@ Now, you're ready to begin the Microsoft Teams Rooms setup experience.
 
 1. Agree to Microsoft Software License Terms and acknowledge that you have read the privacy statement at [https://aka.ms/privacy](https://aka.ms/privacy). Select **Accept**.
 3. Turn off Cortana Voice Activation, if desired. Select **Continue**.
-2. If you received a verification code, enter it and select **Continue.** Otherwise, select **Manual setup** and enter your account and password. 
+2. If you received a verification code, enter it and select **Continue.** Otherwise, select **Manual setup** and enter your account and password.
 4. Select **Finish** to complete the Microsoft Teams Rooms setup.
 
 ## Next steps
