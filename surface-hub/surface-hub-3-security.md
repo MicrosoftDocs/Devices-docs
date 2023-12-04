@@ -34,10 +34,10 @@ The default local admin account is a well-known entry point for malicious actors
 2. Enter the current password.
 3. Create a new password, confirm the password, and add a hint. To learn more, see [Change or reset your Windows password](https://support.microsoft.com/windows/change-or-reset-your-windows-password-8271d17c-9f9e-443f-835a-8318c8f68b9c).
 
-    ![Screenshot showing Change your password](images/hub3-change-admin-password.png)
+    ![Screenshot showing Change your password.](images/hub3-change-admin-password.png)
 
 > [!TIP]
-> When joined to Microsoft Entra ID (Azure AD), you can utilize Windows LAPS (Local Administrator Password Solution). Although LAPS doesn't remove local admin accounts, it automatically manages local admin passwords, ensuring they're randomized and securely stored in AD. This reduces the risk associated with stale or widely-known admin passwords. To learn more, see [Microsoft Intune support for Windows LAPS](/mem/intune/protect/windows-laps-overview).
+> When joined to Microsoft Entra ID (Azure AD), you can utilize Windows LAPS (Local Administrator Password Solution). Although LAPS doesn't remove local admin accounts, it automatically manages local admin passwords, ensuring they're randomized and securely stored in AD. This reduces the risk associated with stale or widely known admin passwords. To learn more, see [Microsoft Intune support for Windows LAPS](/mem/intune/protect/windows-laps-overview).
 
 ## Set a UEFI password
 
@@ -94,7 +94,7 @@ You can enable BitLocker via Intune when joined to Entra ID (Azure AD). See [Enc
 2. Select Start, enter **Control** and open **Control Panel**.
 3. Select **System & Security** > **BitLocker Drive Encryption** > **Turn on BitLocker.**
 
-![Screenshot showing how to turn on BitLocker via Control Panel](images/hub-3-turn-on-bitlocker.png).
+![Screenshot showing how to turn on BitLocker via Control Panel.](images/hub-3-turn-on-bitlocker.png).
 
 ### User Mode Code Integrity (UMCI)
 
@@ -132,7 +132,7 @@ We recommend you join Surface Hub 3 to Microsoft Entra ID (Azure AD) and manage 
 
 SEMM enables IT admins to lock down features at the firmware level that you may wish to implement depending on the security posture of your environment.
 
-   ![Screenshot showing advanced UEFI settings for Surface Hub](images/uefi-hub-advanced-settings.png)
+   ![Screenshot showing advanced UEFI settings for Surface Hub.](images/uefi-hub-advanced-settings.png)
 
 #### Simultaneous Multi-Threading (SMT)
 
@@ -165,7 +165,8 @@ Enabling the "Boot Order Lock" enhances the security posture by ensuring it only
 
 ## Learn more
 
-- [Secure and manage Surface Hub with SEMM](surface-hub-secure-with-uefi-semm.md)[Secure Boot overview](/windows-hardware/design/device-experiences/oem-secure-boot)
+- [Secure and manage Surface Hub with SEMM](surface-hub-secure-with-uefi-semm.md)
+- [Secure Boot overview](/windows-hardware/design/device-experiences/oem-secure-boot)
 - [BitLocker overview](/windows/security/information-protection/bitlocker/bitlocker-overview)
 - [Application Control overview](/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-control)
 - [Windows Defender Application Control and virtualization-based protection of code integrity](/windows/security/threat-protection/device-guard/introduction-to-device-guard-virtualization-based-security-and-windows-defender-application-control)
