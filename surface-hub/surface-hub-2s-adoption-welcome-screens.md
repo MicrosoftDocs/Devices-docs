@@ -20,13 +20,13 @@ Surface Hub adoption welcome screens are designed to help Surface Hub users get 
 
 ## Surface Hub 2S 50” welcome screen
 
-[Download optimized welcome screen file for Surface Hub 2S 50"](downloads/surface-hub-50-adoption-welcome-screen.png)
+[Screenshot of download optimized welcome screen file for Surface Hub 2S 50".](downloads/surface-hub-50-adoption-welcome-screen.png)
 
 :::image type="content" source="images/surface-hub-50-adoption-welcome-screen-sample.png" alt-text="Screenshot of Surface Hub 2S 50” sample welcome screen." :::
 
 ## Surface Hub 2S 85” welcome screen
 
-[Download optimized welcome screen file for Surface Hub 2S 85"](downloads/surface-hub-85-adoption-welcome-screen.png)
+[Screenshot of download optimized welcome screen file for Surface Hub 2S 85".](downloads/surface-hub-85-adoption-welcome-screen.png)
 
 :::image type="content" source="images/surface-hub-85-adoption-welcome-screen-sample.png" alt-text="Screenshot of Surface Hub 2S 85” sample welcome screen." :::
 
@@ -37,8 +37,8 @@ To customize your own adoption welcome screen:
 1. [Browse for the Surface Hub background of your choice](https://wallpaperhub.app/wallpapers/7820). Download the desired background and save it to your local PC.
 2. Download the appropriate overlay file:
 
-- [Surface Hub 2S 50” overlay](downloads/surface-hub-overlay-50-resized.png)
-- [Surface Hub 2S 85” overlay](downloads/surface-hub-overlay-85-resized.png)
+- [Screenshot of Surface Hub 2S 50” overlay.](downloads/surface-hub-overlay-50-resized.png)
+- [Screenshot of Surface Hub 2S 85” overlay.](downloads/surface-hub-overlay-85-resized.png)
 
 3. Open your background image using Adobe Photoshop or a freely available app such as the [image editor](/windows/powertoys/image-resizer) included in Microsoft PowerToys, downloadable from the [Microsoft Store](https://apps.microsoft.com/store). 
 4. Open your overlay image. Select and copy the overlay image and paste it onto your background image. Select **Save**.
