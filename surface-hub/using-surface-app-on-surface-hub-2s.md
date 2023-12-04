@@ -23,7 +23,7 @@ _Original KB number:_ &nbsp; 4510098
 > [!NOTE]
 > Some products might not be available in your country or region.
 
-You can use the Surface App on Surface Hub 2S to adjust your Surface Hub 2 Pen pressure, see the battery health of connected bluetooth accessories, and see info about your device like its name and serial number. 
+You can use the Surface App on Surface Hub 2S to adjust your Surface Hub Pen pressure, see the battery health of connected bluetooth accessories, and see info about your device like its name and serial number. 
 
 To open the Surface App on your Surface Hub 2S, select **Start** > **All apps** > **Surface**.
 

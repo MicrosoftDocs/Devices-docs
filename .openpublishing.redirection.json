@@ -269,6 +269,71 @@
             "source_path":  "surface-hub/surface-hub-2-smart-camera.md",
             "redirect_url": "/surface-hub/surface-hub-smart-camera",
             "redirect_document_id":  false
-        }					
+        },
+        {
+            "source_path":  "surface-hub/surface-hub-2s-site-planning.md",
+            "redirect_url": "/surface-hub/surface-hub-site-planning",
+            "redirect_document_id":  false
+        },	
+        {
+            "source_path":  "surface-hub/surface-hub-2s-custom-install.md",
+            "redirect_url": "/surface-hub/surface-hub-custom-install",
+            "redirect_document_id":  false
+        },
+        {
+            "source_path":  "surface-hub/surface-hub-2s-unpack.md",
+            "redirect_url": "/surface-hub/surface-hub-unpack",
+            "redirect_document_id":  false
+        },
+        {
+            "source_path":  "surface-hub/surface-hub-2s-onscreen-display.md",
+            "redirect_url": "/surface-hub/surface-hub-onscreen-display",
+            "redirect_document_id":  false
+        },
+        {
+            "source_path":  "surface-hub/surface-hub-2s-install-mount.md",
+            "redirect_url": "/surface-hub/surface-hub-install-mount",
+            "redirect_document_id":  false
+        },
+        {
+            "source_path":  "surface-hub/surface-hub-2s-pen-firmware.md",
+            "redirect_url": "/surface-hub/surface-hub-pen-firmware",
+            "redirect_document_id":  false
+        },
+        {
+            "source_path":  "surface-hub/surface-hub-2s-port-keypad-overview.md",
+            "redirect_url": "/surface-hub/surface-hub-port-keypad-overview",
+            "redirect_document_id":  false
+        },
+        {
+            "source_path":  "surface-hub/surface-hub-2s-pack-components.md",
+            "redirect_url": "/surface-hub/surface-hub-pack-components",
+            "redirect_document_id":  false
+        },
+        {
+            "source_path":  "surface-hub/surface-hub-2s-secure-with-uefi-semm.md",
+            "redirect_url": "/surface-hub/surface-hub-secure-with-uefi-semm",
+            "redirect_document_id":  false
+        },
+        {
+            "source_path":  "surface-hub/troubleshoot-surface-hub-2-pen.md",
+            "redirect_url": "/surface-hub/troubleshoot-surface-hub-pen",
+            "redirect_document_id":  false
+        },
+        {
+            "source_path":  "surface-hub/surface-hub-2-essential-add-ons.md",
+            "redirect_url": "/surface-hub/surface-hub-essential-add-ons",
+            "redirect_document_id":  false
+        },
+        {
+            "source_path":  "surface-hub/surface-hub-2s-certifications.md",
+            "redirect_url": "/surface-hub/surface-hub-certifications",
+            "redirect_document_id":  false
+        },
+        {
+            "source_path":  "surface-hub/troubleshoot-power-surface-hub-2s.md",
+            "redirect_url": "/surface-hub/troubleshoot-power-surface-hub",
+            "redirect_document_id":  false
+        }                                  						
     ]
 }
