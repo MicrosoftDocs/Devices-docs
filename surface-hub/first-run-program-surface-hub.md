@@ -114,7 +114,7 @@ You can only set up device admins during first-time Setup. For more information,
 
 ### Local Administrator account
 
-- Enter a username and a memorable password for your local admin. (If you forget the local admin password, you will need to [recover your device](surface-hub-2s-recover-reset.md) and repeat the setup process.)  
+- Enter a username and a memorable password for your local admin. (If you forget the local admin password, you will need to [recover your device](surface-hub-recover-reset.md) and repeat the setup process.)  
 
     :::image type="content" source="images/hub-setup-local-admin.png" alt-text="This screenshot shows the field to enter a memorable password for local admin account.":::
 
