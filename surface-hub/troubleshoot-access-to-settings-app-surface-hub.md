@@ -75,5 +75,5 @@ If you choose to set up Surface Hub with a local admin (no device affiliation to
 
 ## Learn more
 
-- [Reset and recovery for Surface Hub 2S](surface-hub-2s-recover-reset.md)
+- [Reset and recovery for Surface Hub 2S](surface-hub-recover-reset.md)
 - [Reset and recovery for Surface Hub v1](device-reset-surface-hub.md)

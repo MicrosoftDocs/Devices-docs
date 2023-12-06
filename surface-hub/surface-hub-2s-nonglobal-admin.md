@@ -21,7 +21,7 @@ The Windows 10 Team 2020 Update adds support for configuring non-Global Admin ac
 Windows 10 Team 2020 Update 2 adds support for [LocalUsersAndGroups CSP](/windows/client-management/mdm/policy-csp-localusersandgroups). That is now the recommended CSP to use; [RestrictedGroups CSP](/windows/client-management/mdm/policy-csp-restrictedgroups) is still supported, but has been deprecated.
 
 > [!NOTE]
-> Before you begin, make sure your Surface Hub is Microsoft Entra joined and Intune auto-enrolled. If not, you will need to [reset the Surface Hub](surface-hub-2s-recover-reset.md) and complete the [first-time, out-of-the-box (OOBE) setup](first-run-program-surface-hub.md) again, choosing the option to join Microsoft Entra ID. Only accounts that [authenticate via Microsoft Entra ID](/azure/active-directory/hybrid/choose-ad-authn#cloud-authentication) are supported with the non-Global Admin policy configuration.
+> Before you begin, make sure your Surface Hub is Microsoft Entra joined and Intune auto-enrolled. If not, you will need to [reset the Surface Hub](surface-hub-recover-reset.md) and complete the [first-time, out-of-the-box (OOBE) setup](first-run-program-surface-hub.md) again, choosing the option to join Microsoft Entra ID. Only accounts that [authenticate via Microsoft Entra ID](/azure/active-directory/hybrid/choose-ad-authn#cloud-authentication) are supported with the non-Global Admin policy configuration.
 
 ## Summary
 
