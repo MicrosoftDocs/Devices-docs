@@ -40,14 +40,14 @@ First, sign in to your Surface Hub with admin credentials, open the **Settings**
 
 ## Recover Surface Hub 2S with a USB recovery drive
 
-Use the **Surface Hub 2S - Windows 10 Team 2020 Update 2** recovery image.
+Use the **Windows 10 Team 2020 Update 2** recovery image.
 
 >[!NOTE]
 >The **Surface Hub 2S - Windows 10 Team 2020 Update 2** recovery image should only be installed on Surface Hub 2S devices. The image is not supported on Surface Hub 3 devices or Surface Hub 2S devices that have installed the [Surface Hub 3 Pack](surface-hub-3-pack-faq.md). 
 
 ## Recover Surface Hub 3 or Hub 2S devices with Surface Hub 3 Pack
 
-Use the **Surface Hub 3 - Windows 11 IoT Enterprise with the Microsoft Teams Rooms on Windows experience** recovery image.  
+Use the **Windows 11 IoT Enterprise with the Microsoft Teams Rooms on Windows experience** recovery image.  
  
 ### Recovery from a USB drive
 
