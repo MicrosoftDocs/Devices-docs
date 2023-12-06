@@ -334,6 +334,11 @@
             "source_path":  "surface-hub/troubleshoot-power-surface-hub-2s.md",
             "redirect_url": "/surface-hub/troubleshoot-power-surface-hub",
             "redirect_document_id":  false
-        }                                  						
+        },
+        {
+            "source_path":  "surface-hub/surface-hub-2s-recover-reset.md",
+            "redirect_url": "/surface-hub/surface-hub-recover-reset",
+            "redirect_document_id":  false
+        }                                     						
     ]
 }
