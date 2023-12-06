@@ -267,7 +267,9 @@
                    href: surface-hub-essential-add-ons.md  
             - name: Troubleshoot hardware
               items:             
-                - name: Troubleshoot Surface Hub 2S Power Issues
+                - name: Reset & recovery for Surface Hub 3
+                  href: surface-hub-recover-reset.md
+                - name: Troubleshoot Surface Hub power issues
                   href: troubleshoot-power-surface-hub.md
                 - name: Troubleshoot APC Charge Mobile Battery
                   href: troubleshoot-apc-mobile-battery.md
@@ -318,7 +320,7 @@
             - name: Troubleshoot hardware
               items:        
                - name: Reset & recovery for Surface Hub 2S
-                 href: surface-hub-2s-recover-reset.md      
+                 href: surface-hub-recover-reset.md      
                - name: Troubleshoot Surface Hub 2S Power Issues
                  href: troubleshoot-power-surface-hub-2s.md
                - name: Troubleshoot APC Charge Mobile Battery

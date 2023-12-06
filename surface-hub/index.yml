@@ -61,7 +61,7 @@ landingContent:
             text: Troubleshoot Surface Hub Pen   
           - url: miracast-troubleshooting.md
             text: Troubleshoot display projection on Surface Hub
-          - url: surface-hub-2s-recover-reset.md
+          - url: surface-hub-recover-reset.md
             text: Recover & reset Surface Hub 2S
           - url:  device-reset-surface-hub.md
             text: Recover Surface Hub v1 from the cloud
