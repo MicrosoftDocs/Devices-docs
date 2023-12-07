@@ -41,10 +41,10 @@ Microsoft recommends that only technically inclined individuals with the knowled
 | **Surface Laptop 4** ![Screenshot of Surface Laptop 4](images/surface-service-repair/laptop-4.png) | - Display<br>- Keyboard<br>- Feet & Screws<br>- Removable solid-state drive (rSSD) | n/a |
 | **Surface Laptop 5** ![Screenshot of Surface Laptop 5](images/surface-service-repair/laptop-5.png) | - Display<br>- Keyboard<br>- Surface connect charging port<br>- Feet<br>- Battery and Enclosure<br>- Thermal Module<br>- Motherboard<br>- Removable solid-state drive (rSSD) | [Repair Video for Surface Laptop 5](https://www.youtube.com/watch?v=6aCpzyfDUnk) |
 | **Surface Laptop Go 2** ![Screenshot of Surface Laptop Go 2](images/surface-service-repair/surface-laptop-go-2.png) | - Display<br>- Removable solid-state drive (rSSD)<br>- Keyboard<br>- Feet<br>- Battery<br>- Keyboard with Fingerprint Reader<br>- Surface connect charging port | [Repair Video for Surface Laptop Go 2](https://www.youtube.com/watch?v=ZNzZbvkbmyo&t=5s) |
-| **Surface Laptop Go 3** ![Screenshot of Surface Laptop Go 3](images/surface-service-repair/surface-laptop-go-3.png) | - Display<br>- Removable solid-state drive (rSSD)<br>- Keyboard<br>- Feet<br>- Battery<br>- Motherboard<br>- Keyboard with Fingerprint Reader<br>- Surface connect charging port | [Repair Video for Surface Laptop Go 2](https://www.youtube.com/watch?v=ZNzZbvkbmyo&t=5s)|
+| **Surface Laptop Go 3** ![Screenshot of Surface Laptop Go 3](images/surface-service-repair/surface-laptop-go-3.png) | - Display<br>- Removable solid-state drive (rSSD)<br>- Keyboard<br>- Feet<br>- Battery<br>- Motherboard<br>- Keyboard with Fingerprint Reader<br>- Surface connect charging port | [Repair Video for Surface Laptop Go 3](https://www.youtube.com/watch?v=ZNzZbvkbmyo&t=5s)|
 | **Surface Laptop Studio** ![Screenshot of Surface Laptop Studio](images/surface-service-repair/laptop-studio.png) | - Display<br>- Keyboard<br>- Battery and Enclosure<br>- Charging Port<br>- USB-C & Audio Jacks<br>- Removable solid-state drive (rSSD)<br>- Cosmetic Plate<br>- Keyboard/Trackpad<br>- Feet | [Repair Video for Surface Laptop Studio](https://www.youtube.com/watch?v=cnBAeUD0Li4) |
 | **Surface Laptop Studio 2** ![Screenshot of Surface Laptop Studio 2](images/surface-service-repair/laptop-studio-2.png) | - Display<br>- Keyboard<br>- Motherboard<br>- Surface connect charging port<br>- USB-C & and USB-A port connectors<br>- Removable solid-state drive (rSSD)<br>- Cosmetic Plate<br>- Battery and Enclosure<br>- Feet<br>- MicroSD card reader<br>- Audio Jack | [Repair Video for Surface Laptop Studio 2](https://www.youtube.com/watch?v=-TOjHqVYfAw) |
-| **Surface Studio 2+** ![Screenshot of Surface Studio 2+](images/surface-service-repair/studio-2-plus.png) | - Removable solid-state drive (rSSD)<br>- Motherboard<br>- Display<br>- Thermal Module<br>- Feet<br>- Power Supply Unit | n/a |
+| **Surface Studio 2+** ![Screenshot of Surface Studio 2+](images/surface-service-repair/studio-2-plus.png) | - Removable solid-state drive (rSSD)<br>- Motherboard<br>- Display<br>- Thermal Module<br>- Feet<br>- Power Supply Unit | [Repair Video for Surface Studio 2+](https://youtu.be/KFPJ2s26JUw?si=ZStxfO4bT3tDyTAS) |
 | **Surface Laptop SE** ![Screenshot of Surface Laptop SE](images/surface-service-repair/laptop-se.png) | - Display<br>- Keyboard<br>- Enclosure<br>- Feet<br>- Speaker & Wi-Fi Modules<br>- Motherboard<br>- Battery<br>- Power Port | [Repair Video for Surface Laptop SE](https://www.youtube.com/watch?v=fVjjSqfp75g&t=7s) |
 
 ## Surface service guides & related documentation
@@ -56,17 +56,6 @@ Downloadable service guides provide step-by-step instructions for servicing spec
 
 > [!CAUTION]
 > Opening or repairing your device can present electric shock, device damage, fire and personal injury risks, and other hazards. Use caution if undertaking do-it-yourself repairs. Further, any resulting damage caused will not be covered under Microsoft's Limited Hardware Warranty or purchased protection plan.
-
-### Repair videos 
-
-Demos from Surface engineering show how to disassemble replacement components, as documented in Surface service guides. 
-
-- [Surface Pro 9](https://youtu.be/S_i5OQNUbh8)
-- [Surface Laptop 5](https://youtu.be/6aCpzyfDUnk)
-- [Surface Studio 2+](https://youtu.be/KFPJ2s26JUw)
-- [Surface Laptop Go 2](https://youtu.be/ZNzZbvkbmyo)
-- [Surface Laptop Studio](https://youtu.be/cnBAeUD0Li4)
-- [Surface Laptop SE](https://youtu.be/fVjjSqfp75g)
 
 ## Support
 
