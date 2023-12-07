@@ -6,7 +6,7 @@ ms.localizationpriority: medium
 author: coveminer
 ms.author: chauncel
 ms.topic: how-to
-ms.date: 11/10/2023
+ms.date: 12/07/2023
 ms.reviewer: 
 manager: frankbu
 appliesto:
@@ -41,7 +41,7 @@ Microsoft recommends that only technically inclined individuals with the knowled
 | **Surface Laptop 4** ![Screenshot of Surface Laptop 4](images/surface-service-repair/laptop-4.png) | - Display<br>- Keyboard<br>- Feet & Screws<br>- Removable solid-state drive (rSSD) | n/a |
 | **Surface Laptop 5** ![Screenshot of Surface Laptop 5](images/surface-service-repair/laptop-5.png) | - Display<br>- Keyboard<br>- Surface connect charging port<br>- Feet<br>- Battery and Enclosure<br>- Thermal Module<br>- Motherboard<br>- Removable solid-state drive (rSSD) | [Repair Video for Surface Laptop 5](https://www.youtube.com/watch?v=6aCpzyfDUnk) |
 | **Surface Laptop Go 2** ![Screenshot of Surface Laptop Go 2](images/surface-service-repair/surface-laptop-go-2.png) | - Display<br>- Removable solid-state drive (rSSD)<br>- Keyboard<br>- Feet<br>- Battery<br>- Keyboard with Fingerprint Reader<br>- Surface connect charging port | [Repair Video for Surface Laptop Go 2](https://www.youtube.com/watch?v=ZNzZbvkbmyo&t=5s) |
-| **Surface Laptop Go 3** ![Screenshot of Surface Laptop Go 3](images/surface-service-repair/surface-laptop-go-3.png) | - Display<br>- Removable solid-state drive (rSSD)<br>- Keyboard<br>- Feet<br>- Battery<br>- Motherboard<br>- Keyboard with Fingerprint Reader<br>- Surface connect charging port | n/a |
+| **Surface Laptop Go 3** ![Screenshot of Surface Laptop Go 3](images/surface-service-repair/surface-laptop-go-3.png) | - Display<br>- Removable solid-state drive (rSSD)<br>- Keyboard<br>- Feet<br>- Battery<br>- Motherboard<br>- Keyboard with Fingerprint Reader<br>- Surface connect charging port | [Repair Video for Surface Laptop Go 2](https://www.youtube.com/watch?v=ZNzZbvkbmyo&t=5s)|
 | **Surface Laptop Studio** ![Screenshot of Surface Laptop Studio](images/surface-service-repair/laptop-studio.png) | - Display<br>- Keyboard<br>- Battery and Enclosure<br>- Charging Port<br>- USB-C & Audio Jacks<br>- Removable solid-state drive (rSSD)<br>- Cosmetic Plate<br>- Keyboard/Trackpad<br>- Feet | [Repair Video for Surface Laptop Studio](https://www.youtube.com/watch?v=cnBAeUD0Li4) |
 | **Surface Laptop Studio 2** ![Screenshot of Surface Laptop Studio 2](images/surface-service-repair/laptop-studio-2.png) | - Display<br>- Keyboard<br>- Motherboard<br>- Surface connect charging port<br>- USB-C & and USB-A port connectors<br>- Removable solid-state drive (rSSD)<br>- Cosmetic Plate<br>- Battery and Enclosure<br>- Feet<br>- MicroSD card reader<br>- Audio Jack | [Repair Video for Surface Laptop Studio 2](https://www.youtube.com/watch?v=-TOjHqVYfAw) |
 | **Surface Studio 2+** ![Screenshot of Surface Studio 2+](images/surface-service-repair/studio-2-plus.png) | - Removable solid-state drive (rSSD)<br>- Motherboard<br>- Display<br>- Thermal Module<br>- Feet<br>- Power Supply Unit | n/a |
