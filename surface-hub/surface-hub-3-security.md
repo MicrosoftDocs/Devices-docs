@@ -147,7 +147,6 @@ SEMM enables IT admins to lock down features at the firmware level that you may 
 
    ![Screenshot showing components to activate or deactivate.](images/uefi-hub-components.png)
 
-   ![Screenshot showing advanced UEFI settings for Surface Hub.](images/uefi-hub-advanced-settings.png)
 
 #### Simultaneous Multi-Threading (SMT)
 
