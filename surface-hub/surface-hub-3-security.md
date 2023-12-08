@@ -52,7 +52,9 @@ You need a dedicated USB drive with at least 50 MB of storage space.
 1. Download Surface UEFI Configurator from [Surface Tools for IT](https://www.microsoft.com/download/details.aspx?id=46703).
 
 2. Install UEFI Configurator and select **Start**.
+    ![Screenshot showing UEFI Configurator Start](images/uefi-hub-start.png)
 3. Select Configuration Package > DFI
+    ![Screenshot showing screen to select DFI File](images/uefi-hub-dfi.png)
 4. Add your organizational Personal Information Exchange (PFE) certificate.
 
 > [!NOTE]
@@ -62,12 +64,17 @@ You need a dedicated USB drive with at least 50 MB of storage space.
 
     ![Screenshot showing screen to set UEFI password](images/uefi-set-pw.png)
 
-6. Select **Hub** as the Surface type you want to target.
-7. Optionally, you can configure components and advanced settings. Otherwise, continue to select Next.
+6. Select **Surface Hub 3** as the Surface type you want to target.
+    ![Screenshot showing screen to select Surface Hub 3](images/uefi-hub-choose.png)
+7. Optionally, you can configure components and advanced settings. Otherwise, continue to select **Next**.
 8. Select your USB drive and click **Build**.
+    ![Screenshot showing screen to build UEFI DFI Package](images/uefi-hub-build.png)
 9. Upon successful creation of the package, the Configurator displays the last two characters of your certificate's thumbprint. You need these characters when you import the configuration to Surface Hub 3.
+    ![Screenshot showing UEFI Configurator completion](images/uefi-hub-end.png)
 
 SEMM also includes various UEFI settings that you can configure, as described in the section [Manage UEFI settings with SEMM](#manage-uefi-settings-with-semm), on this page.
+
+    ![Screenshot showing screen to set UEFI password](images/uefi-hub-end.png)
 
 ## Physically secure Surface Hub 3
 
@@ -131,6 +138,8 @@ We recommend you join Surface Hub 3 to Microsoft Entra ID (Azure AD) and manage 
 ### Manage UEFI settings with SEMM
 
 SEMM enables IT admins to lock down features at the firmware level that you may wish to implement depending on the security posture of your environment.
+
+   ![Screenshot showing components to activate or deactivate.](images/uefi-hub-components.png)
 
    ![Screenshot showing advanced UEFI settings for Surface Hub.](images/uefi-hub-advanced-settings.png)
 
