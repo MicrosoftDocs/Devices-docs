@@ -74,8 +74,6 @@ You need a dedicated USB drive with at least 50 MB of storage space.
 
 SEMM also includes various UEFI settings that you can configure, as described in the section [Manage UEFI settings with SEMM](#manage-uefi-settings-with-semm), on this page.
 
-    ![Screenshot showing screen to set UEFI password](images/uefi-hub-end.png)
-
 ## Physically secure Surface Hub 3
 
 Physical security is as crucial a tool as digital security. Devices like the Surface Hub in public conference rooms can be susceptible to physical damage or tampering. Consider the following steps to protect Surface Hub.
