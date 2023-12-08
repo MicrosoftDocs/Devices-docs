@@ -46,6 +46,10 @@ Microsoft recommends that only technically inclined individuals with the knowled
 | **Surface Laptop Studio 2** ![Screenshot of Surface Laptop Studio 2](images/surface-service-repair/laptop-studio-2.png) | - Display<br>- Keyboard<br>- Motherboard<br>- Surface connect charging port<br>- USB-C & and USB-A port connectors<br>- Removable solid-state drive (rSSD)<br>- Cosmetic Plate<br>- Battery and Enclosure<br>- Feet<br>- MicroSD card reader<br>- Audio Jack | [Repair Video for Surface Laptop Studio 2](https://www.youtube.com/watch?v=-TOjHqVYfAw) |
 | **Surface Studio 2+** ![Screenshot of Surface Studio 2+](images/surface-service-repair/studio-2-plus.png) | - Removable solid-state drive (rSSD)<br>- Motherboard<br>- Display<br>- Thermal Module<br>- Feet<br>- Power Supply Unit | [Repair Video for Surface Studio 2+](https://youtu.be/KFPJ2s26JUw?si=ZStxfO4bT3tDyTAS) |
 | **Surface Laptop SE** ![Screenshot of Surface Laptop SE](images/surface-service-repair/laptop-se.png) | - Display<br>- Keyboard<br>- Enclosure<br>- Feet<br>- Speaker & Wi-Fi Modules<br>- Motherboard<br>- Battery<br>- Power Port | [Repair Video for Surface Laptop SE](https://www.youtube.com/watch?v=fVjjSqfp75g&t=7s) |
+| **Surface Hub 2S** ![Screenshot of Surface Hub 2S](images/surface-service-repair/surface-hub-2s.png) |- Compute Module SSD<br> -Bump Cover<br> -Compute Module Fan<br> -PSU<br>-PSU Fan<br> -Bump Speaker<br>-Nano-Pitch Cable Holder<br>-Video Board<br>-PSU | [Repair Video for Surface Hub 2S](https://www.youtube.com/watch?v=fVjjSqfp75g&t=7s) |
+| **Surface Hub 3** ![Screenshot of Surface Hub 3](images/surface-service-repair/surface-hub-3.png) | - Compute Module SSD<br> -Bump Cover<br> -Compute Module Fan<br> -PSU<br>-PSU Fan<br> -Bump Speaker<br>-Nano-Pitch Cable Holder<br>-Video Board<br>-PSU| [Repair Video for Surface Hub 3](https://www.youtube.com/watch?v=fVjjSqfp75g&t=7s) |
+
+| 
 
 ## Surface service guides & related documentation
 
