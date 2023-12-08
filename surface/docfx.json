@@ -52,10 +52,9 @@
       "searchScope": ["Surface"],
       "uhfHeaderId": "MSDocsHeader-Surface",
       "manager": "laurawi",
-      "feedback_system": "GitHub",
+      "feedback_system": "Standard",
       "recommendations": true,
-      "feedback_github_repo": "MicrosoftDocs/Devices-docs",
-      "feedback_product_url": "https://support.microsoft.com/help/4021566/windows-10-send-feedback-to-microsoft-with-feedback-hub-app",
+            "feedback_product_url": "https://support.microsoft.com/help/4021566/windows-10-send-feedback-to-microsoft-with-feedback-hub-app",
       "_op_documentIdPathDepotMapping": {
         "./": {
           "depot_name": "Win.surface",
