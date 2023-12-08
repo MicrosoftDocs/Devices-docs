@@ -31,7 +31,7 @@ Before you start Surface Hub 3 for the first time, ensure that you have the foll
 - A resource account with a [supported Microsoft Teams Rooms license](/microsoftteams/rooms/rooms-licensing)
 
 > [!TIP]
-> For general guidance about Microsoft Teams Rooms on Windows, review the [Microsoft Teams Rooms Deployment overview](/microsoftteams/rooms/rooms-deploy)
+> For guidance about deploying Microsoft Teams Rooms on Windows, see: [Deployment overview](/microsoftteams/rooms/rooms-deploy). For an overview of requirements to get the most out of Microsoft Teams Rooms, see: [Prepare your environment](/microsoftteams/rooms/rooms-prep) 
 
 When you first start Surface Hub 3, the device automatically enters first-time Setup mode to guide you through account configuration and related settings.
 
@@ -80,9 +80,8 @@ Although not required, you can automate the setup process with a provisioning pa
 Now, you're ready to begin the Microsoft Teams Rooms setup experience.
 
 1. Agree to Microsoft Software License Terms and acknowledge that you have read the privacy statement at [https://aka.ms/privacy](https://aka.ms/privacy). Select **Accept**.
-3. Turn off Cortana Voice Activation, if desired. Select **Continue**.
 2. If you received a verification code, enter it and select **Continue.** Otherwise, select **Manual setup** and enter your account and password.
-4. Select **Finish** to complete the Microsoft Teams Rooms setup.
+3. Select **Finish** to complete the Microsoft Teams Rooms setup.
 
 ## Next steps
 
