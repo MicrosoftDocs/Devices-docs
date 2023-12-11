@@ -144,10 +144,11 @@ We recommend you join Surface Hub 3 to Microsoft Entra ID (Azure AD) and manage 
 
 ### Manage UEFI settings with SEMM
 
-SEMM enables IT admins to lock down features at the firmware level that you may wish to implement depending on the security posture of your environment.
+SEMM enables IT admins to lock down features at the firmware level that you may wish to implement depending on the security posture of your environment. Open Surface UEFI Configurator, as explained earlier, and go to the following screens:
 
    ![Screenshot showing components to activate or deactivate.](images/uefi-hub-components.png)
 
+   ![Screenshot showing components to activate or deactivate.](images/uefi-hub-advanced.png)
 
 #### Simultaneous Multi-Threading (SMT)
 
