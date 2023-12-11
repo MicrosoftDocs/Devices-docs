@@ -78,6 +78,7 @@ You need a dedicated USB drive with at least 50 MB of storage space.
     ![Screenshot showing screen to build UEFI DFI Package](images/uefi-hub-build.png)
 
 9. Upon successful creation of the package, the Configurator displays the last two characters of your certificate's thumbprint. You need these characters when you import the configuration to Surface Hub 3.
+
     ![Screenshot showing UEFI Configurator completion](images/uefi-hub-end.png)
 
 SEMM also includes various UEFI settings that you can configure, as described in the section [Manage UEFI settings with SEMM](#manage-uefi-settings-with-semm), on this page.
@@ -143,10 +144,11 @@ We recommend you join Surface Hub 3 to Microsoft Entra ID (Azure AD) and manage 
 
 ### Manage UEFI settings with SEMM
 
-SEMM enables IT admins to lock down features at the firmware level that you may wish to implement depending on the security posture of your environment.
+SEMM enables IT admins to lock down features at the firmware level that you may wish to implement depending on the security posture of your environment. Open Surface UEFI Configurator, as explained earlier, and go to the following screens:
 
    ![Screenshot showing components to activate or deactivate.](images/uefi-hub-components.png)
 
+   ![Screenshot showing advanced settings to turn on or off.](images/uefi-hub-advanced.png)
 
 #### Simultaneous Multi-Threading (SMT)
 
