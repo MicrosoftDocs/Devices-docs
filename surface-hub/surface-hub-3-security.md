@@ -148,7 +148,7 @@ SEMM enables IT admins to lock down features at the firmware level that you may 
 
    ![Screenshot showing components to activate or deactivate.](images/uefi-hub-components.png)
 
-   ![Screenshot showing components to activate or deactivate.](images/uefi-hub-advanced.png)
+   ![Screenshot showing advanced settings to turn on or off.](images/uefi-hub-advanced.png)
 
 #### Simultaneous Multi-Threading (SMT)
 
