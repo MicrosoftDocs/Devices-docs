@@ -78,6 +78,7 @@ You need a dedicated USB drive with at least 50 MB of storage space.
     ![Screenshot showing screen to build UEFI DFI Package](images/uefi-hub-build.png)
 
 9. Upon successful creation of the package, the Configurator displays the last two characters of your certificate's thumbprint. You need these characters when you import the configuration to Surface Hub 3.
+
     ![Screenshot showing UEFI Configurator completion](images/uefi-hub-end.png)
 
 SEMM also includes various UEFI settings that you can configure, as described in the section [Manage UEFI settings with SEMM](#manage-uefi-settings-with-semm), on this page.
