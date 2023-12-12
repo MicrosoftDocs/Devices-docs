@@ -47,31 +47,45 @@ Unlike other Surface devices, you cannot use an MSI file or a Win PE image to ap
 
     ![Screenshot showing UEFI Configurator Start](images/uefi-hub-start.png)
 
-3. Select **Configuration Package** > **DFI**.
+2. Select **Configuration Package** > **DFI**.
 
     ![Screenshot showing screen to select DFI File](images/uefi-hub-dfi.png)
 
-4. Add your organizational Personal Information Exchange (PFE) certificate.
+3. Add your organizational Personal Information Exchange (PFE) certificate.
 
 > [!NOTE]
 > This article assumes that you either obtain certificates from a third-party provider or already have expertise in PKI certificate services and know how to create your own. See [Certificate Services Architecture](/windows/win32/seccrypto/certificate-services-architecture) documentation to learn more.
 
+4. Enter the certificate’s private key’s password.
 
-1. Enter the certificate’s private key’s password.<br>
-![* Enter the certificate’s private key’s password *.](images/uefi-hub-cert-pw.png) <br><br>
-1. After importing the private key, you have the option of setting a UEFI password, a recommended security best practice.<br>
-![* Set UEFI password*.](images/sh2-uefi4.png) <br><br>
-1. Choose **Surface Hub 2S** or **Surface Hub 3** as the target for the UEFI configuration package.<br>
-![* Choose Surface Hub 2S or Surface Hub 3 as the target for the UEFI configuration package *.](images/sh2-uefi5.png) <br><br>
-1. Choose the components and settings you want to activate or deactivate on Surface Hub.<br>
-![* Choose the components and settings you want to activate or deactivate *.](images/sh2-uefi6.png) <br><br>
-1. Use the USB option to export the file.<br>
-![* Use the USB option to export the file *.](images/sh2-uefi8.png) <br><br>
-1. Insert and choose the USB drive you’d like to use for this package. The USB drive will be formatted and you lose any information you have on it.<br>
-![* Insert and choose the USB drive for your package  *.](images/sh2-uefi9.png) <br><br>
-1. Upon successful creation of the package, the Configurator will display the last two characters of your certificate’s thumbprint. You need these characters when you import to the configuration to Surface Hub.<br>
-![* Successful configuration of package *.](images/sh2-uefi10.png) <br>
+    ![Screenshot that shows screen to enter the certificate’s private key’s password.](images/uefi-hub-cert-pw.png)
 
-## To boot into UEFI
+5. After importing the private key, you have the option of setting a UEFI password, a recommended security best practice.
 
-Turn off Surface Hub. Press and hold the **Volume Up** button and press the **Power** Button. Keep holding the Volume Up button until the UEFI menu appears.
+    ![Screenshot showing screen to set UEFI password](images/uefi-set-pw.png)
+
+6. Choose **Surface Hub 2S** or **Surface Hub 3** as the target for the UEFI configuration package.
+
+    ![* Choose Surface Hub 2S or Surface Hub 3 as the target for the UEFI configuration package *.](images/uefi-hub-choose.png)
+
+7. Choose the components that you want to activate or deactivate and select **Next**.
+
+   ![Screenshot showing components to activate or deactivate.](images/uefi-hub-components.png)
+
+8. Choose the advanced settings that you wish to configure and select **Next**.
+
+   ![Screenshot showing advanced settings to turn on or off.](images/uefi-hub-advanced.png).
+
+9. Connect a USB drive and select **Build** to export the file.
+
+    ![Screenshot showing screen to build UEFI DFI Package](images/uefi-hub-build.png)
+
+10. Upon successful creation of the package, the Configurator displays the last two characters of your certificate's thumbprint. You need these characters when you import the configuration to Surface Hub 3.
+
+    ![Screenshot showing UEFI Configurator completion](images/uefi-hub-end.png)
+
+## Apply SEMM package to Surface Hub 2S or Surface Hub 3
+
+You can apply the package to an individual Surface Hub device, by booting directly into the UEFI menu.
+
+1. Turn off Surface Hub . Press and hold the **Volume up** button and press the **Power** Button. Keep holding the **Volume up** button until the UEFI menu appears.
