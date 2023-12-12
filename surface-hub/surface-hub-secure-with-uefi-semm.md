@@ -17,25 +17,30 @@ appliesto:
 
 You can use Surface Enterprise Management Mode (SEMM) to manage UEFI settings on one or more Surface Hub devices. Use the Microsoft Surface UEFI Configurator to control the following components:
 
+- On-board Audio
 - Wired LAN
-- Cameras
 - Bluetooth
 - Wi-Fi
 - Occupancy sensor
 
 Use the Microsoft Surface UEFI Configurator to turn on or off the following UEFI settings:
 
+**Security**
+
+- SMT (Simultaneous Multi-Threading)
+
+**Boot**
+
+- IPv6 for PXE Boot
+- Alternate Boot
+- Boot Order Lock
+- USB Boot
+
+**UEFI Front Page**
+
+- Devices
 - Boot
-
-  - IPv6 for PXE Boot
-  - Alternate Boot
-  - Boot Order Lock
-  - USB Boot
-  - UEFI Front Page
-
-  - Devices
-  - Boot
-  - Date/Time
+- Date/Time
 
 ## Create UEFI configuration image
 
