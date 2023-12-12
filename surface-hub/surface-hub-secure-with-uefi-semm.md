@@ -15,7 +15,7 @@ appliesto:
 
 # Secure and manage Surface Hub with SEMM
 
-You can use Surface Enterprise Management Mode (SEMM) to manage UEFI settings on one or more Surface Hub devices. Use the Microsoft Surface UEFI Configurator to control the following components:
+You can use [Microsoft Surface Enterprise Management Mode](/surface/surface-enterprise-management-mode) (SEMM) to manage UEFI settings on one or more Surface Hub devices. Use the Microsoft Surface UEFI Configurator to control the following components:
 
 - On-board Audio
 - Wired LAN
@@ -42,9 +42,12 @@ Use the Microsoft Surface UEFI Configurator to turn on or off the following UEFI
 - Boot
 - Date/Time
 
+> [!TIP]
+> To learn more about the security implications of configuring SEMM settings, see [Manage UEFI settings with SEMM](/surface-hub/surface-hub-3-security#manage-uefi-settings-with-semm)
+
 ## Create UEFI configuration image
 
-Unlike other Surface devices, you cannot use an MSI file or a Win PE image to apply these settings on Surface Hub. Instead, you need to create a USB image to load into the device. To create a Surface Hub UEFI configuration image, download and install the latest version of the Microsoft Surface UEFI Configurator from [Surface Tools for IT](https://www.microsoft.com/download/details.aspx?id=46703).For more information about using UEFI and SEMM, see [Microsoft Surface Enterprise Management Mode](/surface/surface-enterprise-management-mode).
+Unlike other Surface devices, you cannot use an MSI file or a Win PE image to apply these settings on Surface Hub. Instead, you need to create a USB image to load into the device. To create a Surface Hub UEFI configuration image, download and install the latest version of the Microsoft Surface UEFI Configurator from [Surface Tools for IT](https://www.microsoft.com/download/details.aspx?id=46703).
 
 ## To configure UEFI on Surface Hub
 
