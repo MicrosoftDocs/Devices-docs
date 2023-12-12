@@ -1,6 +1,6 @@
 ---
-title: "Secure and manage Surface Hub with SEMM"
-description: "Learn more about securing Surface Hub with SEMM."
+title: Secure and manage Surface Hub with SEMM
+description: Learn more about securing Surface Hub with SEMM.
 ms.prod: surface-hub
 author: coveminer
 ms.author: chauncel
@@ -94,3 +94,7 @@ Unlike other Surface devices, you cannot use an MSI file or a Win PE image to ap
 To apply the package and enroll a Surface Hub into SEMM, insert the USB drive into the USB-A port and boot directly into the UEFI menu.
 
 1. Turn off Surface Hub. Press and hold the **Volume up** button and press the **Power** Button. Keep holding the **Volume up** button until the UEFI menu appears.
+
+## Learn more
+
+- [Surface Hub 3 security best practices](surface-hub-3-security.md)
