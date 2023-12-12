@@ -57,7 +57,7 @@ appliesto:
 **What are the VESA mount specifications?**
 
 - Surface Hub 3 and Surface Hub 2S 50": **350 mm x 350 mm**.
-- Surface Hub 3 and Surface Hub 2S 85": **600 mm x 600 mm**. Requires [Surface Hub 2S 85" Mounting Adapter Kit](https://www.salamandercommercial.com/product/surface-hub-2s-85-mounting-adapter-kit/) (sold separately) 
+- Surface Hub 3 and Surface Hub 2S 85": **600 mm x 600 mm**. Requires [Surface Hub 2S 85" Mounting Adapter Kit](https://www.salamandercommercial.com/product/surface-hub-2s-85-mounting-adapter-kit/) (sold separately). 
 
 ## Learn more.
 
