@@ -31,7 +31,7 @@ The default local admin account is a well-known entry point for malicious actors
 ### To change the local admin password on Surface Hub 3
 
 1. Sign in with admin credentials and go to **Settings > Accounts > Sign-in options > Password > Change**
-2. Enter the current password.
+2. Enter the current default password:**sfb**
 3. Create a new password, confirm the password, and add a hint. To learn more, see [Change or reset your Windows password](https://support.microsoft.com/windows/change-or-reset-your-windows-password-8271d17c-9f9e-443f-835a-8318c8f68b9c).
 
     ![Screenshot showing Change your password.](images/hub3-change-admin-password.png)
