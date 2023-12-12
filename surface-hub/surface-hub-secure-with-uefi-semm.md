@@ -88,4 +88,4 @@ Unlike other Surface devices, you cannot use an MSI file or a Win PE image to ap
 
 You can apply the package to an individual Surface Hub device, by booting directly into the UEFI menu.
 
-1. Turn off Surface Hub . Press and hold the **Volume up** button and press the **Power** Button. Keep holding the **Volume up** button until the UEFI menu appears.
+1. Turn off Surface Hub. Press and hold the **Volume up** button and press the **Power** Button. Keep holding the **Volume up** button until the UEFI menu appears.
