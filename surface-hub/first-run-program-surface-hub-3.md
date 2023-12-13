@@ -86,5 +86,5 @@ Now, you're ready to begin the Microsoft Teams Rooms setup experience.
 ## Next steps
 
 - Although the OOBE process automatically downloads required updates, running Windows Update is recommended to ensure you have the latest. Sign in to Surface Hub 3 with an admin account, and open **Settings > Windows Update > Check for Updates**.
-- Review [Surface Hub 3 security best practices](surface-hub-3-security.md). At a minimum, recommendations include changing the Administrator password, adding a UEFI password, and implementing appropriate physical security measures.
+- Review [Surface Hub 3 security best practices](surface-hub-3-security.md). At a minimum, recommendations include changing the default Administrator password (factory set to **sfb**), adding a UEFI password, and implementing appropriate physical security measures.
 - Optionally, you may need to [update Surface Hub Pen firmware](surface-hub-pen-firmware.md)
