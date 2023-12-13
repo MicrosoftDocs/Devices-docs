@@ -30,6 +30,10 @@ appliesto:
 - Upgrade from Surface Hub 2S to Surface Hub 3 via the [Surface Hub 3 Pack](install-manage-surface-hub-3-pack.md) (aka replacement cartridge) (available December 5).
 - Migrate your Surface Hub 2S to the new experience following public release of migration software and instructions, available early next year.
 
+**What is the default admin password on Surface Hub 3?**
+
+- The default admin password is factory set to **sfb**. It's strongly recommended to change the password, as described in [Surface Hub 3 security best practices](surface-hub-3-security.md).
+
 **How long will Surface Hub 2S be supported on the current OS?**
 
 - The current OS for Surface Hub based on [Windows 10 version 22H2](/windows/release-health/release-information) will continue to be supported for another two years, with mainstream support ending on [**October 14, 2025**, as previously published.](/lifecycle/products/windows-10-team-surface-hub)
