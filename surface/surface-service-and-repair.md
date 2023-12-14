@@ -6,7 +6,7 @@ ms.localizationpriority: medium
 author: coveminer
 ms.author: chauncel
 ms.topic: how-to
-ms.date: 12/07/2023
+ms.date: 12/14/2023
 ms.reviewer: 
 manager: frankbu
 appliesto:
@@ -36,7 +36,7 @@ Microsoft recommends that only technically inclined individuals with the knowled
 | **Surface Pro 7+** ![Screenshot of Surface Pro 7+](images/surface-service-repair/pro-7-plus.png) | - Kickstand<br>- SSD door<br>- Removable solid-state drive (rSSD) |  [Repair video for Surface Pro 7+](https://youtu.be/iDiN8VwLJTM?si=ocTsac2RNIF7WA26) |
 | **Surface Pro 8** ![Screenshot of Surface Pro 8](images/surface-service-repair/pro-8.png) | - Kickstand<br>- SSD Door<br>- Removable solid-state drive (rSSD)<br>- Display (Screen) | [Repair video for Surface Pro 8](https://youtu.be/ajDU3SW0XUo?si=EjReG4jE-Oh8CaAk)|
 | **Surface Pro 9** ![Screenshot of Surface Pro 9](images/surface-service-repair/pro-9.png) | - Kickstand<br>- Display (Screen)<br>- Enclosure<br>- Speaker<br>- Battery<br>- Surface connect charging port<br>- Thermal Module<br>- Camera Front & Rear<br>- Camera & Wi-Fi Deck<br>- Power & Volume Button<br>- Motherboard<br>- SSD Door<br>- Removable solid-state drive (rSSD) | [Repair video for Surface Pro 9](https://www.youtube.com/watch?v=S_i5OQNUbh8&t=7s) |
-| **Surface Pro 9 5G** ![Screenshot of Surface Pro 9 with 5G](images/surface-service-repair/pro9-5g.png) | - Kickstand<br>- Enclosure<sup>4</sup><br>- Speaker<br>- Battery<br>- Surface connect charging port<br>- Thermal Module<br>- Camera Front & Rear<br>- Camera Deck<br>- Screen (Display)<br>- Power & Volume Button<br>- Motherboard<br>- SSD Door<br>- Removable solid-state drive (rSSD) | [Repair video for Surface Pro 9](https://youtu.be/73fpevAn54o?si=339i0-9p3kGWW2bM) |
+| **Surface Pro 9 with 5G** ![Screenshot of Surface Pro 9 with 5G](images/surface-service-repair/pro9-5g.png) | - Kickstand<br>- Enclosure<sup>4</sup><br>- Speaker<br>- Battery<br>- Surface connect charging port<br>- Thermal Module<br>- Camera Front & Rear<br>- Camera Deck<br>- Screen (Display)<br>- Power & Volume Button<br>- Motherboard<br>- SSD Door<br>- Removable solid-state drive (rSSD) | [Repair video for Surface Pro 9 with 5G](https://youtu.be/73fpevAn54o?si=339i0-9p3kGWW2bM) |
 | **Surface Laptop 3** ![Screenshot of Surface Laptop 3](images/surface-service-repair/laptop-3.png) | - Display<br>- Keyboard<br>- Feet & Screws<br>- Removable solid-state drive (rSSD) |[Repair video for Surface Laptop 3](https://youtu.be/g54Ay92gR5E?si=Jv0mO53QNDNlbv0m)   |
 | **Surface Laptop 4** ![Screenshot of Surface Laptop 4](images/surface-service-repair/laptop-4.png) | - Display<br>- Keyboard<br>- Feet & Screws<br>- Removable solid-state drive (rSSD) | [Repair video for Surface Laptop 4](https://youtu.be/g54Ay92gR5E?si=Jv0mO53QNDNlbv0m) |
 | **Surface Laptop 5** ![Screenshot of Surface Laptop 5](images/surface-service-repair/laptop-5.png) | - Display<br>- Keyboard<br>- Surface connect charging port<br>- Feet<br>- Battery and Enclosure<br>- Thermal Module<br>- Motherboard<br>- Removable solid-state drive (rSSD) | [Repair video for Surface Laptop 5](https://www.youtube.com/watch?v=6aCpzyfDUnk) |
