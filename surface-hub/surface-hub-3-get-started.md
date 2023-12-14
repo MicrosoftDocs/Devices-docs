@@ -30,14 +30,13 @@ In addition to Microsoft Intune and third-party MDM providers, IT admins can man
 
 ## Security considerations
 
-Depending on your organization's security posture, you may wish to implement additional security measures beyond the default experience of running Microsoft Teams Rooms on Windows in a locked-down state. This includes changing the Administrator password, adding a UEFI password, and implementing appropriate physical security measures. To learn more, see [Surface Hub 3 security best practices](surface-hub-3-security.md)
+Depending on your organization's security posture, you may wish to implement additional security measures beyond the default experience of running Microsoft Teams Rooms on Windows in a locked-down state. This includes changing the default Administrator password (factory set to **sfb**), adding a UEFI password, and implementing appropriate physical security measures. To learn more, see [Surface Hub 3 security best practices](surface-hub-3-security.md).
 
 ### Teams management portals
 
 #### Teams admin center
 
-Microsoft Teams admin center is a web-based portal that provides management capabilities for Microsoft Teams. It is designed to provide a simple and intuitive way to manage your Teams environment at scale.
-With Teams admin center, you can:
+Microsoft Teams admin center is a web-based portal that provides management capabilities for Microsoft Teams. It is designed to provide a simple and intuitive way to manage your Teams environment at scale. With Teams admin center, you can:
 
 - Perform device management, like restarting devices and downloading device logs.
 - Apply Teams-specific settings.
