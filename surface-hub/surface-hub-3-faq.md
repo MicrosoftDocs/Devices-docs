@@ -7,7 +7,7 @@ ms.prod: surface-hub
 author: coveminer
 ms.author: dpandre
 ms.topic: overview
-ms.date: 09/21/2023
+ms.date: 12/12/2023
 ms.localizationpriority: medium
 appliesto:
 - Surface Hub 3
@@ -17,7 +17,7 @@ appliesto:
 
 **When will Surface Hub 3 start shipping with the Microsoft Teams Rooms on Windows experience?**
 
-- Surface Hub 3 will begin shipping December 5, 2023.
+- Surface Hub 3 started shipping December 5, 2023.
 
 **How can I place an order for the Surface Hub 3 Pack?**
 
@@ -29,6 +29,10 @@ appliesto:
 - Purchase a new Surface Hub 3.
 - Upgrade from Surface Hub 2S to Surface Hub 3 via the [Surface Hub 3 Pack](install-manage-surface-hub-3-pack.md) (aka replacement cartridge) (available December 5).
 - Migrate your Surface Hub 2S to the new experience following public release of migration software and instructions, available early next year.
+
+**What is the default admin password on Surface Hub 3?**
+
+- The default admin password is factory set to **sfb**. It's strongly recommended to change the password, as described in [Surface Hub 3 security best practices](surface-hub-3-security.md).
 
 **How long will Surface Hub 2S be supported on the current OS?**
 
@@ -54,7 +58,12 @@ appliesto:
 
 - No. Due to form factor constraints and expected use cases, rotation to Portrait is only supported on 50" devices.
 
-## Learn more
+**What are the VESA mount specifications?**
+
+- Surface Hub 3 and Surface Hub 2S 50": **350 mm x 350 mm**.
+- Surface Hub 3 and Surface Hub 2S 85": **600 mm x 600 mm**. Requires [Surface Hub 2S 85" Mounting Adapter Kit](https://www.salamandercommercial.com/product/surface-hub-2s-85-mounting-adapter-kit/) (sold separately). 
+
+## Learn more.
 
 - [Surface Hub 3 Pack FAQ](surface-hub-3-pack-faq.md)
 - [Get started with Surface Hub 3](surface-hub-3-get-started.md)
