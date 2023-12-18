@@ -5,6 +5,17 @@
 
 
 
+## Week of December 11, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 12/11/2023 | [Surface Hub 3 security best practices](/surface-hub/surface-hub-3-security) | modified |
+| 12/12/2023 | [Surface Hub 3 FAQ](/surface-hub/surface-hub-3-faq) | modified |
+| 12/12/2023 | [Secure and manage Surface Hub with SEMM](/surface-hub/surface-hub-secure-with-uefi-semm) | modified |
+| 12/13/2023 | [Surface Hub documentation # < 60 chars](/surface-hub/index) | modified |
+
+
 ## Week of December 04, 2023
 
 
@@ -70,12 +81,23 @@
 | 11/14/2023 | [Install and manage Surface Hub Smart Camera](/surface-hub/surface-hub-smart-camera) | renamed |
 
 
-## Week of November 06, 2023
+## Week of December 11, 2023
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 11/8/2023 | [Admin group management](/surface-hub/admin-group-management-for-surface-hub) | modified |
+| 12/14/2023 | [Surface for Business service and repair](/surface/surface-service-and-repair) | modified |
+
+
+## Week of December 11, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 12/11/2023 | [Surface Hub 3 security best practices](/surface-hub/surface-hub-3-security) | modified |
+| 12/12/2023 | [Surface Hub 3 FAQ](/surface-hub/surface-hub-3-faq) | modified |
+| 12/12/2023 | [Secure and manage Surface Hub with SEMM](/surface-hub/surface-hub-secure-with-uefi-semm) | modified |
+| 12/13/2023 | [Surface Hub documentation # < 60 chars](/surface-hub/index) | modified |
 
 
 ## Week of December 04, 2023
@@ -153,20 +175,3 @@
 | Published On |Topic title | Change |
 |------|------------|--------|
 | 11/14/2023 | [Install and manage Surface Hub Smart Camera](/surface-hub/surface-hub-smart-camera) | renamed |
-
-
-## Week of November 06, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 11/8/2023 | [Surface for Business service and repair](/surface/surface-service-and-repair) | modified |
-| 11/10/2023 | [Surface for Business service and repair](/surface/surface-service-and-repair) | modified |
-
-
-## Week of November 06, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 11/8/2023 | [Admin group management](/surface-hub/admin-group-management-for-surface-hub) | modified |
