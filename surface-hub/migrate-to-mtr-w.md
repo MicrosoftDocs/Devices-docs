@@ -125,7 +125,9 @@ Download the migration launcher app package from Microsoft Store for Business.
 
 3. After you select **Manage**, the page listing for the Migration Launcher app is displayed. Wait a few moments for the spinner to complete and the Download portion of the resulting page to appear.
 4. Under Download package for offline use, select the desired architecture (X64, X86, ARM). We recommend using x86.
-5. Select **Package details** and choose **Download** to initiate the download of the MsixBundle for the package identity name: **Microsoft.SurfaceHUBMTROSTriggerApp** (file size: 3067451 bytes).
+5. Select **Package details** and choose **Download** to initiate the download of the MsixBundle for the package identity name: **Microsoft.SurfaceHUBMTROSTriggerApp**.
+
+![Screenshot of Download app](images/hub2s-migration-app-download.png)
 
 - If you receive an error indicating the downloadable file is unsafe, select **Keep**.
 - If further prompted in the Edge browser that **This file can't be downloaded securely**, select **Keep anyway**.
@@ -139,11 +141,19 @@ Download the migration launcher app package from Microsoft Store for Business.
 7. If you receive an error indicating the downloadable files are unsafe, click **Keep** and **Keep anyway**.
 8. You should now have four files (one MSIXBUNDLE File and three APPX Files) downloaded to your local computer and ready for the next step.
 
+![Screenshot of downloaded files](images/hub2s-migration-app-download-files.png)
+
 ## Deploy Migration Launcher app via Intune
 
 1. Sign in to [Microsoft Intune Admin Center](https://endpoint.microsoft.com/) and go to**Apps** >**All apps** >**Add**. Under App type, select **Line-of-business app**.
+
+![Screenshot of Select line of business app](images/hub2s-migration-select-lob-app.png)
+
 2. Configure app information on the Add App page. Under the App information section, click **Select app package file**. In the flyout pane, click the blue folder icon under App package file and navigate to select and upload your LOB app package, in this case, the Surface Hub 2S OS Migration Launcher – Microsoft Teams Rooms MSIXBUNDLE file downloaded in the earlier section.  
 3. Select **Dependency app files** and click the blue folder icon to select and upload all three dependencies. The inventory of required files displays a green check box to indicate that you have all the required files uploaded.
+
+![Screenshot that shows selection of dependency files](images/hub2s-migration-select-dependencies.png)
+
 
 > [!TIP]
 > You only need to ensure the three check box icons appear for your specified architecture
@@ -155,13 +165,18 @@ Download the migration launcher app package from Microsoft Store for Business.
 Under the Assignments tab, specify how the app is deployed to your Surface Hub 2S devices.
 You can make the app available for enrolled devices or assign it as required.
 
-1. Under **Required** >**Group mode, select Add group and add your intended Device group.
-2. Under Required**>**Group mode** >**Install Context, select User context link, and in the flyout pane, change the App settings toggle to ensure Device context is selected and then select OK.
-3. Select >**Next>** at the bottom of the page.
+1. Under **Required** >**Group mode**, select **Add group** and add your intended Device group.
+2. Under **Required Group mode**>**Install Context**, select **User context** link, and in the flyout pane, change the App settings toggle to ensure **Device context** is selected and then select **OK**.
+
+![Screenshot that shows selection of device context](images/hub2s-migration-select-device-context.png)
+
+3. Select **Next**.
 
 **Review and create**
 
 - Under **Review + create**, review all settings and configurations. Click **Create** to deploy the app.
+
+![Screenshot that shows creation of app](images/hub2s-migration-intune-app.png)
 
 This may take a few minutes, depending on network connectivity or other factors. You can check the upload status under the Notifications tray.
 
