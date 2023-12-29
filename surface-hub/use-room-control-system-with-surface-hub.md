@@ -32,7 +32,7 @@ To connect to a room control system control panel, you don't need to configure a
 
 ## Wiring diagram
 
-You can use a standard RJ-11 (6P6C) connector to connect the Surface Hub serial port to a room control system. This is the recommended method. You can also use an RJ-11 4-conductor cable, but we do not recommend this method.
+You can use a standard RJ-11 (6P6C) connector to connect the Surface Hub serial port to a room control system. This method is the recommended method. You can also use an RJ-11 4-conductor cable, but we don't recommend this method.
 
 This diagram shows the correct pinout used for an RJ-11 (6P6C) to DB9 cable.
 
@@ -40,7 +40,7 @@ This diagram shows the correct pinout used for an RJ-11 (6P6C) to DB9 cable.
 
 ## Command sets
 
-Room control systems use common meeting-room scenarios for commands. Commands originate from the room control system, and are communicated over a serial connection to a Surface Hub. Commands are ASCII based, and the Surface Hub will acknowledge when state changes occur.
+Room control systems use common meeting-room scenarios for commands. Commands originate from the room control system, and are communicated over a serial connection to a Surface Hub. Commands are ASCII based, and the Surface Hub acknowledges when state changes occur.
 
 The following command modifiers are available. Commands terminate with a new line character (\n). Responses can come at any time in response to state changes not triggered directly by a management port command.
 
@@ -83,26 +83,26 @@ For a control device, anything other than 5 / Ready should be considered off. Ea
 
 The current brightness level is a range from 0 to 100.
 
-Changes to brightness levels can be sent by a room control system, or other system.
+A room control system, or other system, sends changes to brightness levels.
 
 | Command | State change |Response |
 | --- | --- | --- |
 | Brightness+ | System management controller (SMC) sends the brightness up command.</br></br>PC service on the room control system notifies SMC of new brightness level. |  Brightness = 51 |
-| Brightness- |  SMC sends the brightness down command.</br></br>PC service notifies SMC of new brightness level. | Brightness = 50 |
+| Brightness- |  SMC sends the brightness down command.</br></br> PC service notifies SMC of new brightness level. | Brightness = 50 |
 
 ## Volume
 
 The current volume level is a range from 0 to 100.
 
-Changes to volume levels can be sent by a room control system, or other system.
+A room control system, or other system, sends changes to volume levels.
 
 >[!NOTE]
 >The Volume command will only control the volume for embedded or Replacement PC mode, not from [Guest sources](connect-and-display-with-surface-hub.md).
 
 | Command | State change | Response</br>(On in [Replacement PC mode](connect-and-display-with-surface-hub.md#replacement-pc-mode)) |
 | --- | --- | --- |
-| Volume+ |  SMC sends the volume up command.</br></br>PC service notifies SMC of new volume level. |  Volume = 51 |
-| Volume- |  SMC sends the volume down command.</br></br>PC service notifies SMC of new volume level. |  Volume = 50 |
+| Volume+ |  SMC sends the volume up command.</br></br> PC service notifies SMC of new volume level. |  Volume = 51 |
+| Volume- |  SMC sends the volume down command.</br></br> PC service notifies SMC of new volume level. |  Volume = 50 |
 
 ## Mute for audio
 
@@ -110,7 +110,7 @@ Audio can be muted.
 
 | Command | State change | Response |
 | --- | --- | --- |
-| AudioMute+ |  SMC sends the audio mute command.</br></br>PC service notifies SMC that audio is muted. |  none |
+| AudioMute+ |  SMC sends the audio mute command.</br></br> PC service notifies SMC that audio is muted. |  none |
 
 ## Video source
 
@@ -127,10 +127,10 @@ Changes to display source can be sent by a room control system, or other system.
 
 | Command | State change | Response |
 | --- | --- | --- |
-| Source=# |  SMC changes to the desired source.</br></br>PC service notifies SMC that the display source has switched. |  Source=&lt;#&gt; |
-| Source+ |  SMC cycles to the next active input source.</br></br>PC service notifies SMC of the current input source. |  Source=&lt;#&gt; |
+| Source=# |  SMC changes to the desired source.</br></br> PC service notifies SMC that the display source has switched. |  Source=&lt;#&gt; |
+| Source+ |  SMC cycles to the next active input source.</br></br> PC service notifies SMC of the current input source. |  Source=&lt;#&gt; |
 | Source- | SMC cycles to the previous active input source.</br></br>PC service notifies SMC of the current input source. |  Source=&lt;#&gt; |
-| Source? |  SMC queries PC service for the active input source.</br></br>PC service notifies SMC of the current in;put source. | Source=&lt;#&gt; |
+| Source? |  SMC queries PC service for the active input source.</br></br>PC service notifies SMC of the current in; put source. | Source=&lt;#&gt; |
 
 ## Errors
 
@@ -143,7 +143,7 @@ Errors are returned following the format in this table.
 | Error: Unknown parameter '&lt;input&gt;'. |  The instruction contains an unknown parameter. For example, &quot;Volume=abc&quot; would be invalid and return &quot; Error: Unknown parameter 'abc'&quot;. |
 | Error: Command not available when off '&lt;input&gt;'. |  When the Surface Hub is off, commands other than Power return this error. For example, &quot;Volume+&quot; would be invalid and return &quot; Error: Command not available when off 'Volume'&quot;. |
 
-## Related topics
+## Related articles
 
 - [Manage Microsoft Surface Hub](manage-surface-hub.md)
 - [Microsoft Surface Hub administrator's guide](surface-hub-administrators-guide.md)

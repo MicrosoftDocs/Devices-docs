@@ -24,14 +24,14 @@ Attention may be impacted by conditions like sensory processing, Attention Defic
 
 * Notifications, sounds, alerts, content on screen, or other visual stimuli that can be annoying or distracting (such as pop-ups, noisy video advertisements, animations, etc.)
 * Devices that have loud colors, textures, or features that can be distracting (for example keyboards in bright colors, noisy keyboard keys, trackpad click, etc.)
-* Noisy environments which can cause interruptions and lack of focus
+* Noisy environments that can cause interruptions and lack of focus
 
 ## Facilitators
 
 * The ability to mute or hide content that may draw attention away from tasks
 * Options to purchase different designs and colors for a device (such as Design Labs, compatible third-party accessories)
 * The ability to limit animations and moving objects through software
-* Device features which help eliminate environmental distractions (such as noise-canceling features)
+* Device features that help eliminate environmental distractions (such as noise-canceling features)
 
 
 ## Examples
