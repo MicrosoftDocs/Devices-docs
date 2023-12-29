@@ -24,9 +24,9 @@ Designed for interactive use in smaller conference rooms and huddle spaces, Surf
 As a general guideline, install Surface Hub 3 or Surface Hub 2S in a space that meets the following criteria:
 
 - People can reach all four edges of the touchscreen.
-- The screen is not in direct sunlight, which could affect viewing or damage the screen.
-- Ventilation openings are not blocked.
-- Microphones are not affected by noise sources, such as fans or vents.
+- The screen isn't in direct sunlight, which could affect viewing or damage the screen.
+- Ventilation openings aren't blocked.
+- Microphones aren't affected by noise sources, such as fans or vents.
 - Space is well-lit with no reflective sources.
 
 Whether mounted to a wall or installed on the mobile stand, the areas where you use the device should maintain:

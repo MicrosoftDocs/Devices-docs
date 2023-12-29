@@ -12,7 +12,7 @@ ms.date: 04/15/2021
 
 # Surface Hub may install updates and restart outside maintenance hours
 
-Under specific circumstances, Surface Hub installs updates during business hours instead of during the regular maintenance window. The device then restarts if it is necessary. You cannot use the device until the process is completed.
+Under specific circumstances, Surface Hub installs updates during business hours instead of during the regular maintenance window. The device then restarts if it's necessary. You can't use the device until the process is completed.
 
 > [!NOTE]  
 > This isn't expected behavior for missing a maintenance window. It occurs only if the device is out-of-date for a long time.
