@@ -24,7 +24,7 @@ Diminished speech quality can be caused by temporary situations like nervousness
 
 ## Barriers
 * Speech recognition that is sensitive to error (for example, when speech recognition can't pick up repeated words or handle unclear pronunciations, accents, stuttering, long pauses, etc.)​
-* Speech recognition that is not able to pick up low volume or force of voice​
+* Speech recognition that isn't able to pick up low volume or force of voice​
 
 ## Facilitators
 * Support for microphones that enhance voice input​
@@ -34,13 +34,13 @@ Diminished speech quality can be caused by temporary situations like nervousness
 
 ## Examples
 
-:::image type="content" source="images/communication-speechquality-barrier.jpg" alt-text="A man sits at a desk. He’s looking at a monitor and saying &quot;Hey Cortana, send a quick message message to Contoso.&quot;":::
+:::image type="content" source="images/communication-speechquality-barrier.jpg" alt-text="A person sits at a desk. They're looking at a monitor and saying &quot;Hey Cortana, send a quick message to Contoso.&quot;":::
 
-BARRIER — When a speech recognition program can’t understand speech that isn’t perfectly concise or accurate, such as stutters or repeated words, it may exclude people. 
+BARRIER—When a speech recognition program can’t understand speech that isn’t perfectly concise or accurate, such as stutters or repeated words, it may exclude people. 
 
-:::image type="content" source="images/communication-speechquality-facilitator.jpg" alt-text="The monitor shows the man’s request for Cortana and identifies the duplicate word.":::
+:::image type="content" source="images/communication-speechquality-facilitator.jpg" alt-text="The monitor shows the person’s request for Cortana and identifies the duplicate word.":::
 
-FACILITATOR — Speech recognition programs that can detect and correct errors in speech allow the user to complete tasks without having to manually correct errors.
+FACILITATOR—Speech recognition programs that can detect and correct errors in speech allow the user to complete tasks without having to manually correct errors.
 
 &nbsp;
 

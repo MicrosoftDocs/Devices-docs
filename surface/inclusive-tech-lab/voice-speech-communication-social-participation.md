@@ -31,13 +31,13 @@ Aspects of communication such as pace, flow, social skills/norms and variances i
 
 ## Examples
 
-:::image type="content" source="images/communication-socialparticipation-barrier.jpg" alt-text="A boy is speaking to Cortana on his Surface Go. As he is asking her, &quot;What is twenty three minus-&quot; Cortana interrupts him, asking him to repeat his question. He has a confused look on his face.":::
+:::image type="content" source="images/communication-socialparticipation-barrier.jpg" alt-text="A person is speaking to Cortana on their Surface Go. As they're asking Cortana, &quot;What is twenty three minus-&quot; Cortana interrupts that person, asking them to repeat their question. That person has a confused look on their face.":::
 
-BARRIER — We’re used to a conversational pace when interacting with people. If a voice assistant like Cortana interrupts too quickly or takes too long to respond, it can cause confusion.
+BARRIER—We’re used to a conversational pace when interacting with people. If a voice assistant like Cortana interrupts too quickly or takes too long to respond, it can cause confusion.
 
-:::image type="content" source="images/communication-socialparticipation-facilitator.jpg" alt-text="The boy has the settings window up on his Surface Go. He is adjusting a slide meter the prolongs the amount of time Cortana will take to before responding.":::
+:::image type="content" source="images/communication-socialparticipation-facilitator.jpg" alt-text="The person has the settings window up on their Surface Go. They're adjusting a slide meter that prolongs the amount of time Cortana will take to before responding.":::
 
-FACILITATOR — Allowing the user to adjust the time allowed for a response from their voice assistant can makes conversational UI more accessible. 
+FACILITATOR—Allowing the user to adjust the time allowed for a response from their voice assistant can makes conversational UI more accessible. 
 
 &nbsp;
 

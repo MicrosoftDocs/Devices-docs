@@ -16,7 +16,7 @@ appliesto:
 
 # Surface devices driver and firmware lifecycle
 
-In response to requests from customers for more detailed lifecycle information to help plan and manage hardware and software deployments, Surface is offering additional guidance on our driver and firmware updates.
+In response to requests from customers for more detailed lifecycle information to help plan and manage hardware and software deployments, Surface is offering more guidance on our driver and firmware updates.
 
 This lifecycle policy covers driver and firmware releases for Windows-based Surface devices. The lifecycle begins when a device is first released and concludes when Surface ceases publication of driver and firmware updates on the End of Servicing date. The following sections define the lifecycle policy and End of Servicing dates.
 
@@ -28,14 +28,14 @@ The Surface driver and firmware lifecycle is composed of two parts: (1) the driv
 
 The device support period defines the period during which Surface will support driver and firmware updates for a device. The Device Support Period starts when a device is released.
 
-- **For devices released before January 1, 2021:** Surface devices will receive driver and firmware updates for at least four years from when the device was first released. In cases where the support duration is longer than four years, an updated end-of-servicing date will be published before the date of the last servicing.
-- **For devices released on and after January 1, 2021:** Surface devices will receive driver and firmware updates for at least six years from when the device was first released. In cases where the support duration is longer than six years, an updated end-of-servicing date will be published before the date of the last servicing.
+- **For devices released before January 1, 2021:** Surface devices receive driver and firmware updates for at least four years from when the device was first released. In cases where the support duration is longer than four years, an updated end-of-servicing date is published before the date of the last servicing.
+- **For devices released on and after January 1, 2021:** Surface devices receive driver and firmware updates for at least six years from when the device was first released. In cases where the support duration is longer than six years, an updated end-of-servicing date is published before the date of the last servicing.
 
 ### OS version support
 
-OS version support defines the operating system versions Surface supports during the Device Support Period. Surface devices will receive driver and firmware updates for Windows OS versions released in the prior 30 months. Surface will not support Windows OS versions earlier than those supported at device release. To see the minimum supported OS version for your Surface device, visit the [Surface supported operating systems support page](https://support.microsoft.com/help/2858199/surface-supported-operating-systems).
+OS version support defines the operating system versions Surface supports during the Device Support Period. Surface devices receive driver and firmware updates for Windows OS versions released in the prior 30 months. Surface won't support Windows OS versions earlier than those supported at device release. To see the minimum supported OS version for your Surface device, visit the [Surface supported operating systems support page](https://support.microsoft.com/help/2858199/surface-supported-operating-systems).
 
-Once the device support period is concluded at the End of Servicing date, devices will continue to receive Windows OS feature and security updates per the Windows Lifecycle Policy as described on the [Microsoft Lifecycle Policy support page](https://support.microsoft.com/hub/4095338/microsoft-lifecycle-policy).
+Once the device support period is concluded at the End of Servicing date, devices continue to receive Windows OS feature and security updates per the Windows Lifecycle Policy as described on the [Microsoft Lifecycle Policy support page](https://support.microsoft.com/hub/4095338/microsoft-lifecycle-policy).
 
 ## Surface driver and firmware support lifecycle
 

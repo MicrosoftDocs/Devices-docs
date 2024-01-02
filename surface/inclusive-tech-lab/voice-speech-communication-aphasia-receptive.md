@@ -18,7 +18,7 @@ ms.technology: windows
 
 Aphasia impacts the ability to understand both written and spoken language. People with receptive aphasia can still communicate, but they may have difficulty understanding what is being said to them. The effects of receptive aphasia are even more prominent when people speak in long, complicated sentences, or if there are multiple people speaking at once. Someone with receptive aphasia may understand a news headline, but not the content of the article. By creating simple and easy-to-understand instructions, content, UI feedback, etc., people with aphasia can easily navigate technology. Having options to give Cortana commands to send emails, set reminders, etc., can provide independence for those with receptive aphasia.
 
-Aphasia can be caused by a stroke, a traumatic brain injury, or having disabilities which affect cognition.
+Aphasia can be caused by a stroke, a traumatic brain injury, or having disabilities that affect cognition.
 
 ## Barriers
 
@@ -28,19 +28,19 @@ Aphasia can be caused by a stroke, a traumatic brain injury, or having disabilit
 
 ## Facilitators
 
-* Alternate means of conveying information, including symbols or drawings (such as user manuals and instructions which show drawings of how to set up a device instead of using written text alone)​
+* Alternate means of conveying information, including symbols or drawings (such as user manuals and instructions that show drawings of how to set up a device instead of using written text alone)​
 * Simple language​
 * Information is clearly organized (for example, headings and important information are formatted as larger, bold text)
 
 ## Examples
 
-:::image type="content" source="images/communication-receptive-barrier.jpg" alt-text="A man reads a long notification on his computer with a confused look.":::
+:::image type="content" source="images/communication-receptive-barrier.jpg" alt-text="A person reads a long notification on their computer with a confused look.":::
 
-BARRIER — Long, complex sentences can make it difficult to identify key information or actionable steps for a user who has difficulty interpreting language. 
+BARRIER—Long, complex sentences can make it difficult to identify key information or actionable steps for a user who has difficulty interpreting language. 
 
-:::image type="content" source="images/communication-receptive-facilitator.jpg" alt-text="The man is looking at his computer screen. The window shows only a short sentence that says &quot;Turn on reminders?&quot;. He looks at ease.":::
+:::image type="content" source="images/communication-receptive-facilitator.jpg" alt-text="The person is looking at their computer screen. The window shows only a short sentence that says &quot;Turn on reminders?&quot;. They look at ease.":::
 
-FACILITATOR —Simple, concise sentences that leverage familiar key words make content and UI more accessible.
+FACILITATOR—Simple, concise sentences that use familiar keywords make content and UI more accessible.
 
 &nbsp;
 

@@ -29,12 +29,12 @@ Microsoft regularly releases updates for Surface devices and has released severa
 
 ### Get updates to all devices
 
-Ensure your organization has a process for your devices to receive these updates. If you are using Windows Update or [Windows Update for Business](/windows/deployment/update/waas-manage-updates-wufb), you are already receiving the latest Surface updates when they are released. Check for updates using Windows Update and verify the newest Surface updates have been installed. To learn more, see:
+Ensure your organization has a process for your devices to receive these updates. If you're using Windows Update or [Windows Update for Business](/windows/deployment/update/waas-manage-updates-wufb), you're already receiving the latest Surface updates when they're released. Check for updates using Windows Update and verify the newest Surface updates have been installed. To learn more, see:
 
 - [Surface update history](https://www.microsoft.com/surface/support/install-update-activate/surface-update-history)
 - [Install Surface and Windows updates](https://www.microsoft.com/surface/support/performance-and-maintenance/install-software-updates-for-surface?)
 
-If you are using other options to install Surface drivers and firmware updates, you will need to install the latest Surface updates manually using the published MSI files or install the updates using Configuration Manager. To learn more, see:
+If you're using other options to install Surface drivers and firmware updates, you'll need to install the latest Surface updates manually using the published MSI files or install the updates using Configuration Manager. To learn more, see:
 
 - [Download drivers and firmware for Surface](https://support.microsoft.com/help/4023482)
 - [Manage and deploy Surface driver and firmware updates](manage-surface-driver-and-firmware-updates.md)
@@ -51,7 +51,7 @@ Surface device models with 10th and 11th generation Intel processors have receiv
 
 Surface devices can adjust performance-related power settings by changing the Windows performance power slider position in Windows 10, also known as power mode in Windows 11.
 
-Some Surface devices have received updates that include power setting optimizations for video conferencing workloads based on the power slider position or power mode. However, because Windows 10 and Windows 11 use the **Recommended** power slider position and power mode position for video conferencing workloads, you will need to adjust the power slider to enable these optimizations:
+Some Surface devices have received updates that include power setting optimizations for video conferencing workloads based on the power slider position or power mode. However, because Windows 10 and Windows 11 use the **Recommended** power slider position and power mode position for video conferencing workloads, you'll need to adjust the power slider to enable these optimizations:
 
 1. Connect to AC power (optimizations won’t run when using battery power).  
 2. Adjust the power slider or power mode position to use **Better Performance** or **Best Performance.**

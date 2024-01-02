@@ -22,7 +22,7 @@ Sightlessness can be present at birth or it can occur at any point in life.
 
 ## Barriers
 * Experiences that require sight to navigate​
-* Experiences that don’t provide sound or tactile indications (or other non-visual output information)​
+* Experiences that don’t provide sound or tactile indications (or other nonvisual output information)​
 
 ## Facilitators
 * Buttons, ports, and access points that are easily discernible by touch​
@@ -31,7 +31,7 @@ Sightlessness can be present at birth or it can occur at any point in life.
 
 ## Examples
 
-:::image type="content" source="images/vision-blindness-barrier.jpg" alt-text="A man with dark glasses slides his hand over smooth plastic wrap on a tablet. His guide dog sleeps in the background.":::
+:::image type="content" source="images/vision-blindness-barrier.jpg" alt-text="A person with dark glasses slides their handover smooth plastic wrap on a tablet. His guide dog sleeps in the background.":::
 
 BARRIER — The plastic wrap on this new device only provides visual cues, such as arrows inked onto the wrap, to guide the user on removing it.
 
