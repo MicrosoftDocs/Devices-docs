@@ -14,9 +14,9 @@ ms.technology: windows
 
 # What is cognition?
 
-Cognition involves our ability to receive, interpret, and process information. This includes attention, awareness, focus, memory, judgment, comprehension, problem solving, and reasoning. A person’s cognition can affect the way they learn—whether this is learning how to use a new device or learning new information in a classroom.
+Cognition involves our ability to receive, interpret, and process information. This concept includes attention, awareness, focus, memory, judgment, comprehension, problem solving, and reasoning. A person’s cognition can affect the way they learn—whether this learning refers to learning how to use a new device or learning new information in a classroom.
 
-Many aspects of cognition affect one another. If a person has difficulty with attention, or problems focusing after an interruption, this may lead to issues with comprehension. Similarly, if a person has trouble understanding information, it might be difficult to commit the information to memory. This can influence a person’s confidence and motivation in learning something new. Cognition is essential to every task we perform.
+Many aspects of cognition affect one another. If a person has difficulty with attention, or problems focusing after an interruption, these difficulties may lead to issues with comprehension. Similarly, if a person has trouble understanding information, it might be difficult to commit the information to memory. This difficulty can influence a person’s confidence and motivation in learning something new. Cognition is essential to every task we perform.
 
 **[Attention](cognition-attention.md)** &mdash; Are notifications, animations, or distractions present during the experience?
 

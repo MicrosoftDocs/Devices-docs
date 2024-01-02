@@ -22,7 +22,7 @@ The speed in which someone processes information can be influenced by fatigue, l
 
 ## Barriers
 
-* Timed responses that result in undesired consequences if people don’t act in the allotted time (for example, the computer will restart in 60 seconds unless you click “cancel”)
+* Timed responses that result in undesired consequences if people don’t act in the allotted time (for example, the computer restarts in 60 seconds unless you click “cancel”)
 * Voice-activated experiences that “stop listening” after a designated amount of time (for example, Cortana, dictation, etc.)
 
 ## Facilitators
@@ -33,11 +33,11 @@ The speed in which someone processes information can be influenced by fatigue, l
 
 ## Examples
 
-:::image type="content" source="images/cognition-processingspeed-barrier.jpg" alt-text="A woman looks at her tablet’s screen as she sits in a wheelchair. She is trying to quickly press a digital pen against the tablet as she watches TV.":::
+:::image type="content" source="images/cognition-processingspeed-barrier.jpg" alt-text="A person looks at their tablet’s screen as they sit in a wheelchair. They're trying to quickly press a digital pen against the tablet as they watch TV.":::
 
-BARRIER — Prompts requiring a person to read, interpret, and act within a time limit can result in lost work if a person cannot meet those expectations.
+BARRIER — Prompts requiring a person to read, interpret, and act within a time limit can result in lost work if a person can't meet those expectations.
 
-:::image type="content" source="images/cognition-speed-facilitator.jpg" alt-text="The woman looks at her screen, selecting yes to a question about whether she wants to eliminate timed responses.":::
+:::image type="content" source="images/cognition-speed-facilitator.jpg" alt-text="The person looks at their screen, selecting yes to a question about whether they want to eliminate timed responses.":::
 
 FACILITATOR — The ability to eliminate timed responses allows the user to react to prompts at their own pace, without having to worry about negative consequences.
 

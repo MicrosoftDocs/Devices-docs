@@ -16,7 +16,7 @@ ms.technology: windows
 
 **The ability to hear and understand speech is reduced, especially in noisy environments, but hearing aids aren’t typically used.**
 
-Hearing loss does not always mean the complete inability to hear sound. Someone with mild hearing loss may experience subtle difficulties in hearing noises in their environment. This may include difficulty understanding what's said in a conference room meeting, or difficulty hearing a sound from a device, especially in a noisy environment. When hearing loss is mild, hearing aids are not typically used. The ability to adjust audio settings on a device can improve the experience for users with hearing difficulties.
+Hearing loss doesn't always mean the complete inability to hear sound. Someone with mild hearing loss may experience subtle difficulties in hearing noises in their environment. This may include difficulty understanding what's said in a conference room meeting, or difficulty hearing a sound from a device, especially in a noisy environment. When hearing loss is mild, hearing aids aren't typically used. The ability to adjust audio settings on a device can improve the experience for users with hearing difficulties.
 
 As we age, we naturally lose some of our ability to hear—often resulting in mild hearing loss. Mild hearing loss can also be due to temporary situations like a cold, or more permanent situations like injuries to the inner ear or congenital conditions.
 
@@ -36,7 +36,7 @@ As we age, we naturally lose some of our ability to hear—often resulting in mi
 
 ## Examples
 
-:::image type="content" source="images/hearing-loss-mild-barrier.jpg" alt-text="A woman is sitting in a living room setting playing a game on Xbox. There is a person outside of her window using a jackhammer making loud noise.":::
+:::image type="content" source="images/hearing-loss-mild-barrier.jpg" alt-text="A person is sitting in a living room setting playing a game on Xbox. There's a person outside of this person window using a jackhammer making loud noise.":::
 
 BARRIER — When crucial elements of game play are hearing-based, such as live party chat, even situational circumstances like outside construction can result in exclusion from play.
 

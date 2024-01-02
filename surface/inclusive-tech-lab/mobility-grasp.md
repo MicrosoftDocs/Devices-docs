@@ -26,7 +26,7 @@ Difficulty grasping objects can be caused by many conditions like arthritis, han
 * Activities that require a firm grasp on an object (such as plugging in and pulling out a cord)​
 * Devices that are heavy​
 * Devices that are sleek or slippery​
-* Environments that do not support traditional device use (such as a couch, a bed, or public transit)​
+* Environments that don't support traditional device use (such as a couch, a bed, or public transit)​
 
 ## Facilitators
 
@@ -36,9 +36,9 @@ Difficulty grasping objects can be caused by many conditions like arthritis, han
 
 ## Examples
 
-:::image type="content" source="images/mobility-grasp-barrier.jpg" alt-text="A man thinks about whether he can push a button on an Xbox controller with his prosthetic hand. He looks frustrated.":::
+:::image type="content" source="images/mobility-grasp-barrier.jpg" alt-text="A person thinks about whether they can push a button on an Xbox controller with their prosthetic hand. They look frustrated.":::
 
-BARRIER — If someone cannot fully grasp a standard Xbox controller, they may be unable to access required buttons and thumbsticks, resulting in exclusion from gameplay.
+BARRIER — If someone can't fully grasp a standard Xbox controller, they may be unable to access required buttons and thumbsticks, resulting in exclusion from gameplay.
 
 :::image type="content" source="images/mobility-grasp-facilitator.jpg" alt-text="The man taps an adaptive controller with his prosthetic hand. He looks fully engaged with the game on his computer screen.":::
 

@@ -1,6 +1,6 @@
 ---
 title: Hearing loss (profound)
-description: Nearly complete to complete inability to hear. Hearing aids are not helpful. 
+description: Nearly complete to complete inability to hear. Hearing aids aren't helpful. 
 ms.localizationpriority: medium
 
 author: InclusiveTechLab
@@ -16,7 +16,7 @@ ms.technology: windows
 
 **Nearly complete to complete inability to hear. Hearing aids are not helpful.**
 
-People with profound hearing loss are often unable to perceive sound at all. They must use other senses, such as vision or touch, in order to gain information. Users who are deaf are excluded from access to technology when information is relayed only with sound. This can include videos with sound, but no closed captioning and no visual display for status indicators (they only make noise). For example, a video game that only uses sound to indicate where fired shots are coming from. Other examples include public forums like speeches or presentations where alternative options are not readily available. Technology can enhance the experience of people who are deaf by providing alternate methods of portraying information. These methods can include visual, touch, or even haptic vibrations and feedback.
+People with profound hearing loss are often unable to perceive sound at all. They must use other senses, such as vision or touch, in order to gain information. Users who are deaf are excluded from access to technology when information is relayed only with sound. This can include videos with sound, but no closed captioning and no visual display for status indicators (they only make noise). For example, a video game that only uses sound to indicate where fired shots are coming from. Other examples include public forums like speeches or presentations where alternative options aren't readily available. Technology can enhance the experience of people who are deaf by providing alternate methods of portraying information. These methods can include visual, touch, or even haptic vibrations and feedback.
 
 Hearing loss can be present from birth, or it can happen due to injury, illness, or with age.
 
@@ -40,7 +40,7 @@ Hearing loss can be present from birth, or it can happen due to injury, illness,
 
 BARRIER — Experiences such as live video calls can exclude a person who can’t hear. 
 
-:::image type="content" source="images/hearing-loss-profound-facilitator.jpg" alt-text="The man is looking at his computer screen with the video call. There is a transcription at the bottom of this screen that reads &quot;Michael: I Think we should choose world war two as our topic&quot;":::
+:::image type="content" source="images/hearing-loss-profound-facilitator.jpg" alt-text="The man is looking at his computer screen with the video call. There's a transcription at the bottom of this screen that reads &quot;Michael: I Think we should choose world war two as our topic&quot;":::
 
 FACILITATOR — Live transcriptions that indicate who said what make video calls more accessible. 
 
