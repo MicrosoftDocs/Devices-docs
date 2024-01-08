@@ -32,20 +32,11 @@ The Surface Hub 3 Pack is a hardware upgrade that transforms your Surface Hub 2S
 > [!NOTE]
 > Surface Hub 3 Pack runs Windows 11 IoT Enterprise and does not support downgrading to Windows 10 Team or Windows 10 Pro/Enterprise.
 
-## Hub devices connected to Microsoft Entra ID (Azure AD)
-
-If you manage Surface Hub 2S via Microsoft Intune or another mobile device management (MDM) provider, remove the device before installing Surface Pack 3.
-
-1. Sign into Microsoft Intune admin center, go to **Devices > All devices**,  and select your Surface Hub 2S.
-2. Select **Delete**.
-
-  ![Screenshot that shows removal of Surface Hub 2S from Intune.](images/remove-hub2s-from-intune.png).
-
 ### To install Surface Hub 3 Pack
 
 Review the following demo and follow the instructions on this page.
 
-> [!video https://www.microsoft.com/en-us/videoplayer/embed/RW1eQiI] 
+  [!video https://www.microsoft.com/en-us/videoplayer/embed/RW1eQiI] 
 
 1. Shut down Surface Hub 2S, unplug all cables, and slide the cover sideways.
 
@@ -65,6 +56,24 @@ Review the following demo and follow the instructions on this page.
 
 - [First-time setup for Surface Hub 3](first-run-program-surface-hub-3.md).
 - [Surface Hub 3 security best practices](surface-hub-3-security.md)
+
+## Manage Surface Hub 3 devices connected to Microsoft Entra ID (Azure AD)
+
+If you manage Surface Hub 2S via Microsoft Intune or another mobile device management (MDM) provider, remove the device before installing Surface Pack 3.
+
+1. Sign into Microsoft Intune admin center, go to **Devices > All devices**,  and select your Surface Hub 2S.
+2. Select **Delete**.
+
+  ![Screenshot that shows removal of Surface Hub 2S from Intune.](images/remove-hub2s-from-intune.png).
+
+## Recycle Surface Hub 2S cartridge
+
+You will be able recycle the Surface Hub 2S cartridge as part of recommended sustainability best practices. Check this page for updates upon availability. 
+
+## Install custom wallpaper
+
+The latest Windows Bloom wallpaper is available for your Surface Hub 3 device or Pack. To learn more, see [Install Windows Bloom wallpaper on Surface Hub 3](install-wallpaper-surface-hub.md).
+
 
 ### Learn more
 

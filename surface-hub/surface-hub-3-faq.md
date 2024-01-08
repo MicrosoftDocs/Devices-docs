@@ -40,7 +40,7 @@ appliesto:
 
 **What type of updates to Windows 10 Team OS will continue until mainstream support ends?**
 
-- At a minimum, consistent with previously announced support for Windows 10, Surface Hubs will continue to receive security updates. We will only drive bug fixes and security updates. We will no longer add new features to the Windows 10 Team OS.
+- At a minimum, consistent with previously announced support for Windows 10, Surface Hubs will continue to receive security updates. We'll no longer add new features to the Windows 10 Team OS.
 
 **What happens after mainstream support ends on October 14, 2025?**
 
