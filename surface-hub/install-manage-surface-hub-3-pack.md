@@ -52,7 +52,7 @@ Review the following demo and follow the instructions on this page.
 
 4. Slide the Surface Hub 3 Pack into your Surface Hub.
 5. Fasten the locking screw and slide the cover into place. Power on your new Surface Hub 3.  
-6. Follow the instructions in:
+6. To complete setup, refer to the following articles:
 
 - [First-time setup for Surface Hub 3](first-run-program-surface-hub-3.md).
 - [Surface Hub 3 security best practices](surface-hub-3-security.md)
