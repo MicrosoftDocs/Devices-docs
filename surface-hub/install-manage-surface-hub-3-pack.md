@@ -74,8 +74,10 @@ You will be able recycle the Surface Hub 2S cartridge as part of recommended sus
 
 Before recycling your Surface Hub 2S cartridge, first remove the hard drive and delete any corporate data.
 
-| **1.**  | You'll need the compute cartridge and a screwdriver.                                                           | ![You will need the compute cartridge & a screwdriver.](images/surface-hub-2s-repack-7.png)|
-| **2.**  | Remove the cover screw and the cover from the compute cartridge, and then remove the solid state drive (SSD).    | ![Remove the cover screw and the cover from the compute cartridge, and then remove the solid state drive (SSD).](images/surface-hub-2s-repack-8.png)|
+1. You'll need the compute cartridge and a screwdriver.
+![Screenshot that shows compute cartridge and screwdriver.](images/surface-hub-2s-repack-7.png)
+2. Remove the cover screw and the cover from the compute cartridge, and then remove the solid state drive (SSD).   
+![Screenshot that shows removal of cover screw and cover from the compute cartridge and removal of solid state drive (SSD).](images/surface-hub-2s-repack-8.png)
 
 ## Install custom wallpaper
 
