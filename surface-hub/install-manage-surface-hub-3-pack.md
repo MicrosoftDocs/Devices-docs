@@ -36,7 +36,7 @@ The Surface Hub 3 Pack is a hardware upgrade that transforms your Surface Hub 2S
 
 Review the following demo and follow the instructions on this page.
 
-> [!video https://www.microsoft.com/en-us/videoplayer/embed/RW1eQiI]
+[!video https://www.microsoft.com/en-us/videoplayer/embed/RW1eQiI]
 
 1. Shut down Surface Hub 2S, unplug all cables, and slide the cover sideways.
 
@@ -75,8 +75,11 @@ You will be able recycle the Surface Hub 2S cartridge as part of recommended sus
 Before recycling your Surface Hub 2S cartridge, first remove the hard drive and delete any corporate data.
 
 1. You'll need the compute cartridge and a screwdriver.
+
 ![Screenshot that shows compute cartridge and screwdriver.](images/surface-hub-2s-repack-7.png)
-2. Remove the cover screw and the cover from the compute cartridge, and then remove the solid state drive (SSD).   
+
+1. Remove the cover screw and the cover from the compute cartridge, and then remove the solid state drive (SSD).
+
 ![Screenshot that shows removal of cover screw and cover from the compute cartridge and removal of solid state drive (SSD).](images/surface-hub-2s-repack-8.png)
 
 ## Install custom wallpaper
