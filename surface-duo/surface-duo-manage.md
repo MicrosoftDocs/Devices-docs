@@ -4,7 +4,7 @@ description: This article highlights options for managing Surface Duo in a comme
 ms.technology: windows
 ms.service: surface
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: how-to
 ms.date: 9/23/2020
 ms.reviewer: karand

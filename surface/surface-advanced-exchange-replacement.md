@@ -4,7 +4,7 @@ description: This article explains how to use Advanced Exchange to service or re
 ms.prod: w11
 ms.localizationpriority: medium
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: how-to
 ms.date: 10/28/2022
 ms.reviewer: 

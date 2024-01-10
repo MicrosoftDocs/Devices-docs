@@ -5,7 +5,7 @@ ms.technology: windows
 ms.service: surface
 
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: how-to
 ms.date: 9/25/2020
 ms.reviewer: karand

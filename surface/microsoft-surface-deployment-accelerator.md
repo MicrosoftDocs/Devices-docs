@@ -2,7 +2,7 @@
 title: Microsoft Surface Deployment Accelerator (Surface)
 description: Microsoft Surface Deployment Accelerator provides a quick and simple deployment mechanism for organizations to re-image Surface devices.
 ms.assetid: E7991E90-4AAE-44B6-8822-58BFDE3EADE4
-ms.reviewer: hachidan
+ms.reviewer: chauncel
 manager: frankbu
 ms.localizationpriority: medium
 ms.service: surface

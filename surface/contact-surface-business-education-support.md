@@ -1,6 +1,6 @@
 ---
 title: Contact Surface Support for Business and Education customers
-ms.author: hachidan
+ms.author: chauncel
 author: coveminer
 manager: frankbu
 ms.date: 6/14/2022

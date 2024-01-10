@@ -4,7 +4,7 @@ description: This article highlights options for servicing, repairing, or replac
 ms.service: surface
 ms.localizationpriority: medium
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: overview
 ms.date: 04/27/2023
 ms.reviewer: 

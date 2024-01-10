@@ -4,7 +4,7 @@ description: This topic explains how to use the Surface Asset Tag Tool.
 ms.service: surface
 ms.localizationpriority: medium
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: how-to
 ms.reviewer: carlol
 ms.date: 06/29/2021

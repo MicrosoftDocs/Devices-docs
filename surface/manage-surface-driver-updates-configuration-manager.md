@@ -7,7 +7,7 @@ author: coveminer
 manager: frankbu
 ms.localizationpriority: medium
 ms.service: surface
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: how-to
 
 appliesto:

@@ -4,7 +4,7 @@ description: This page provides a downloadable PDF of a Forrester Consulting stu
 ms.service: surface
 ms.localizationpriority: medium
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: overview
 ms.date: 10/05/2020
 ms.reviewer: rarroyo

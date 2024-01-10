@@ -4,7 +4,7 @@ description: This article provides an overview of Surface device security
 ms.service: surface
 ms.localizationpriority: medium
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: how-to
 ms.date: 10/14/2022
 ms.reviewer: brrecord

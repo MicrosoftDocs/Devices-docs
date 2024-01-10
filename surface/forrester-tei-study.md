@@ -4,7 +4,7 @@ description: This page provides a downloadable PDF of a Forrester Total Economic
 ms.service: surface
 ms.localizationpriority: medium
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: how-to
 ms.date: 9/29/2020
 ms.reviewer: rarroyo

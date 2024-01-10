@@ -6,7 +6,7 @@ manager: frankbu
 ms.localizationpriority: medium
 ms.service: surface
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: how-to
 appliesto:
 - Windows 10

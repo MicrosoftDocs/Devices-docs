@@ -4,7 +4,7 @@ description: This article describes how the new Surface Management Portal provid
 ms.service: surface
 ms.localizationpriority: medium
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: how-to
 ms.date: 05/05/2023
 ms.reviewer: hachinda

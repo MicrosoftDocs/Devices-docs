@@ -3,7 +3,7 @@ title: Long-Term Servicing Channel for Surface devices (Surface)
 description: LTSB is not supported for general-purpose Surface devices and should be used for specialized devices only.
 ms.service: surface
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: overview
 ms.reviewer: 
 manager: frankbu

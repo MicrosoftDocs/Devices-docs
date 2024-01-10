@@ -6,7 +6,7 @@ ms.reviewer: alionita;cchauvet;ramakoni
 manager: frankbu
 ms.service: surface
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: troubleshooting 
 ms.date: 11/15/2022
 ms.localizationpriority: medium

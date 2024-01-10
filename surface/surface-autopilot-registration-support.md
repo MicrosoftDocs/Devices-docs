@@ -4,7 +4,7 @@ description: This article describes the requirements for submitting Autopilot re
 ms.service: surface
 ms.localizationpriority: medium
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: overview
 ms.date: 8/15/2022
 ms.reviewer: brrecord

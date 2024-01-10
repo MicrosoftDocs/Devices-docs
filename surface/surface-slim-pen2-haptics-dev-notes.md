@@ -4,7 +4,7 @@ description: This page provides implementation notes for app developers who want
 ms.prod: w11
 ms.localizationpriority: medium
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: how-to
 ms.date: 12/07/2021
 ms.reviewer: gusing

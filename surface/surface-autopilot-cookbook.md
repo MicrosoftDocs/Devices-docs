@@ -4,7 +4,7 @@ description: Step-by-step walkthrough for cloud solution providers to setup Wind
 manager: frankbu
 ms.service: surface-hub
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: how-to
 ms.date: 03/01/2023
 ms.localizationpriority: medium

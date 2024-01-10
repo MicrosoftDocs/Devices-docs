@@ -3,7 +3,7 @@ title: Prepare Surface deployment with Microsoft Deployment Toolkit
 description: Walk through the recommended process of how to deploy Windows 10 to your Surface devices with the Microsoft Deployment Toolkit.
 ms.service: surface
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: how-to
 ms.localizationpriority: medium
 manager: frankbu

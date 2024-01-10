@@ -4,7 +4,7 @@ description: This article highlights how Surface Duo delivers enterprise-grade s
 ms.technology: windows
 ms.service: surface
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: how-to
 ms.date: 8/12/2020
 ms.reviewer: karand

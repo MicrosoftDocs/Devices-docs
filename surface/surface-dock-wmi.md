@@ -4,7 +4,7 @@ description: This article explains how to use WMI to remotely monitor and manage
 ms.service: surface
 ms.localizationpriority: medium
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: how-to
 ms.date: 04/04/2023
 ms.reviewer: dashap

@@ -4,7 +4,7 @@ description: This article explains how Surface Duo will receive Android version 
 ms.technology: windows
 ms.service: surface
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: how-to
 ms.date: 01/03/2022
 ms.reviewer: jerbos

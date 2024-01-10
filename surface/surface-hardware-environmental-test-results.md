@@ -4,7 +4,7 @@ description: This article lists results of Surface hardware rugged testing. The 
 manager: frankbu
 ms.service: surface-hub
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: overview
 ms.date: 01/03/2023
 ms.localizationpriority: medium
