@@ -1,7 +1,7 @@
 ---
 title: Surface Australia On-Site service and repair
 description: This article describes onsite service and repair options for Surface devices in Australia
-ms.prod: w11
+ms.service: windows-11
 ms.localizationpriority: medium
 author: coveminer
 ms.author: chauncel
