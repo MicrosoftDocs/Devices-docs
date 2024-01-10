@@ -2,7 +2,6 @@
 title: Fine motor skills
 description: Coordination, strength, and range of motion for the muscles and joints in the hand that manipulate small objects or perform isolated finger movements
 ms.localizationpriority: medium
-
 author: InclusiveTechLab
 ms.author: brycejo 
 ms.topic: how-to

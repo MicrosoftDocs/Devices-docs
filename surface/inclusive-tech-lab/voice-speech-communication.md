@@ -2,7 +2,6 @@
 title: What is voice, speech, and communication?
 description: Our ability to communicate (verbally or non-verbally) is essential in expressing wants and needs, forming relationships, conveying information to others, and interacting with our environment.
 ms.localizationpriority: medium
-
 author: InclusiveTechLab
 ms.author: brycejo 
 ms.topic: how-to

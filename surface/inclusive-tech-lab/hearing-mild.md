@@ -2,7 +2,6 @@
 title: Hearing Loss (mild)
 description: The ability to hear and understand speech is reduced, especially in noisy environments, but hearing aids aren’t typically used
 ms.localizationpriority: medium
-
 author: InclusiveTechLab
 ms.author: brycejo 
 ms.topic: how-to

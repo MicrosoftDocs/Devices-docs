@@ -2,7 +2,6 @@
 title: Hearing loss (moderate/severe)
 description: Hearing normal conversation is noticeably difficult. Hearing aids are helpful and recommended
 ms.localizationpriority: medium
-
 author: InclusiveTechLab
 ms.author: brycejo 
 ms.topic: how-to

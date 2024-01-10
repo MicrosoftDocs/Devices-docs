@@ -2,7 +2,6 @@
 title: What is mobility?
 description: There are many aspects of mobility that affect the way someone uses a device.
 ms.localizationpriority: medium
-
 author: InclusiveTechLab
 ms.author: brycejo 
 ms.topic: how-to

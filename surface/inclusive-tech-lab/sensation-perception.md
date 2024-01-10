@@ -2,7 +2,6 @@
 title: What is sensation and perception?
 description: Sensation is our ability to detect senses like touch, pain, vision, or the movement and positioning of our body.
 ms.localizationpriority: medium
-
 author: InclusiveTechLab
 ms.author: brycejo 
 ms.topic: how-to

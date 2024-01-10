@@ -2,7 +2,6 @@
 title: Aphasia (receptive)
 description: Difficulty understanding written or spoken language
 ms.localizationpriority: medium
-
 author: InclusiveTechLab
 ms.author: brycejo 
 ms.topic: how-to

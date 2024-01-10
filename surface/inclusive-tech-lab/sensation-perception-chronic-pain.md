@@ -2,7 +2,6 @@
 title: Chronic pain
 description: Pain that persists or progresses over a long period of time
 ms.localizationpriority: medium
-
 author: InclusiveTechLab
 ms.author: brycejo 
 ms.topic: how-to

@@ -2,7 +2,6 @@
 title: Low vision (partially sighted)
 description: Permanently reduced vision that can't be corrected with glasses, contact lenses, medicine, or surgery.
 ms.localizationpriority: medium
-
 author: InclusiveTechLab
 ms.author: brycejo 
 ms.topic: how-to

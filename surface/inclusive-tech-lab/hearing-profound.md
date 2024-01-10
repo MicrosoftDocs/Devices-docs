@@ -2,7 +2,6 @@
 title: Hearing loss (profound)
 description: Nearly complete to complete inability to hear. Hearing aids are not helpful. 
 ms.localizationpriority: medium
-
 author: InclusiveTechLab
 ms.author: brycejo 
 ms.topic: how-to

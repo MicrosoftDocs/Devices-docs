@@ -2,7 +2,6 @@
 title: Processing (speed)
 description: The amount of time it takes someone to perceive information (visibly, audibly, or physically), process it, and produce a response
 ms.localizationpriority: medium
-
 author: InclusiveTechLab
 ms.author: brycejo 
 ms.topic: how-to

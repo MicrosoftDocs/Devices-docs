@@ -2,7 +2,6 @@
 title: Posture
 description: The position in which someone can hold their body
 ms.localizationpriority: medium
-
 author: InclusiveTechLab
 ms.author: brycejo 
 ms.topic: how-to

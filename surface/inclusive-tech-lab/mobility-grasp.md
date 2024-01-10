@@ -2,7 +2,6 @@
 title: Grasp
 description: The ability to firmly grip or hold an object to use it
 ms.localizationpriority: medium
-
 author: InclusiveTechLab
 ms.author: brycejo 
 ms.topic: how-to

@@ -2,7 +2,6 @@
 title: Aphasia (expressive) 
 description: Difficulty producing language (spoken or written)
 ms.localizationpriority: medium
-
 author: InclusiveTechLab
 ms.author: brycejo 
 ms.topic: how-to

@@ -2,7 +2,6 @@
 title: Barriers to accessibility can co-occur
 description: Disabilities seldom happen in isolation. A person’s disability may impact their technology use in many ways
 ms.localizationpriority: medium
-
 author: InclusiveTechLab
 ms.author: brycejo 
 ms.topic: how-to

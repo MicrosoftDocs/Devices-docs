@@ -2,7 +2,6 @@
 title: Inclusive Tech Lab
 description: The Inclusive Tech Lab is a Microsoft program dedicated to inclusive design.
 ms.localizationpriority: medium
-
 author: InclusiveTechLab
 ms.author: brycejo 
 ms.topic: how-to

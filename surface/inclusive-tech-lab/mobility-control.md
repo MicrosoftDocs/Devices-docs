@@ -2,7 +2,6 @@
 title: Control (voluntary vs. involuntary movement)
 description: The ability to perform tasks smoothly with precision and without involuntary movements, tremors, or shakiness
 ms.localizationpriority: medium
-
 author: InclusiveTechLab
 ms.author: brycejo 
 ms.topic: how-to

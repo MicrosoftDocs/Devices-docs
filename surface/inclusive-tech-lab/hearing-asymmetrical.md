@@ -2,7 +2,6 @@
 title: Hearing loss (asymmetrical)
 description: Hearing loss that is greater in one ear than the other
 ms.localizationpriority: medium
-
 author: InclusiveTechLab
 ms.author: brycejo 
 ms.topic: how-to

@@ -2,7 +2,6 @@
 title: Blindness (sightlessness)
 description: A lack of, or loss of, ability to see
 ms.localizationpriority: medium
-
 author: InclusiveTechLab
 ms.author: brycejo 
 ms.topic: how-to

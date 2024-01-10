@@ -2,7 +2,6 @@
 title: Processing (comprehension)
 description: The degree to which someone can understand and learn information
 ms.localizationpriority: medium
-
 author: InclusiveTechLab
 ms.author: brycejo 
 ms.topic: how-to

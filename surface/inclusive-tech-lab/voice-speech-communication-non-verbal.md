@@ -2,7 +2,6 @@
 title: Non-verbal
 description: Not using spoken language or words.
 ms.localizationpriority: medium
-
 author: InclusiveTechLab
 ms.author: brycejo 
 ms.topic: how-to

@@ -2,7 +2,6 @@
 title: Color blindness
 description: A decreased ability to identify or distinguish colors
 ms.localizationpriority: medium
-
 author: InclusiveTechLab
 ms.author: brycejo 
 ms.topic: how-to

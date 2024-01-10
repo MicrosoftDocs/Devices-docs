@@ -2,7 +2,6 @@
 title: Proprioception
 description: A person’s awareness of their body’s movement and position in relation to their environment
 ms.localizationpriority: medium
-
 author: InclusiveTechLab
 ms.author: brycejo 
 ms.topic: how-to

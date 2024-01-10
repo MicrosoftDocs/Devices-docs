@@ -2,7 +2,6 @@
 title: Speech quality
 description: The clarity, fluency, and volume of speech
 ms.localizationpriority: medium
-
 author: InclusiveTechLab
 ms.author: brycejo 
 ms.topic: how-to

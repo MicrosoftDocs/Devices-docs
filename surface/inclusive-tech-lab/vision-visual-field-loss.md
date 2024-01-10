@@ -2,7 +2,6 @@
 title: Visual field loss
 description: A loss of part of one’s visual field
 ms.localizationpriority: medium
-
 author: InclusiveTechLab
 ms.author: brycejo 
 ms.topic: how-to
