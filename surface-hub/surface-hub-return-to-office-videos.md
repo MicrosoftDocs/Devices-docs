@@ -1,7 +1,7 @@
 ---
 title: Surface Hub return to the office video series
 description: This page features instructional videos to help keep your Surface Hub devices up to date and functioning as expected
-ms.prod: surface-hub
+ms.service: surface-hub
 author: coveminer
 ms.author: chauncel
 ms.topic: how-to

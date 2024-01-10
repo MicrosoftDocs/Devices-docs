@@ -3,7 +3,7 @@ title: Install Progressive Web Apps on Surface Hub
 description: Explains how admins can install Progressive Web Apps (PWAs) on Surface Hub via Intune or a provisioning package. 
 ms.reviewer: dpandre
 manager: frankbu
-ms.prod: surface-hub
+ms.service: surface-hub
 author: coveminer
 ms.author: chauncel
 ms.topic: how-to

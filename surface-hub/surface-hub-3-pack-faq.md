@@ -3,7 +3,7 @@ title: Surface Hub 3 Pack FAQ
 description: This page addresses questions about the Surface Hub 3 Pack that customers can use to upgrade Surface Hub 2S devices or replace a cartridge on Surface Hub 3. 
 ms.reviewer: dpandre
 manager: frankbu
-ms.prod: surface-hub
+ms.service: surface-hub
 author: coveminer
 ms.author: dpandre
 ms.topic: overview

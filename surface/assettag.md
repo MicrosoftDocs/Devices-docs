@@ -1,7 +1,7 @@
 ---
 title: Surface Asset Tag Tool
 description: This topic explains how to use the Surface Asset Tag Tool.
-ms.prod: surface
+ms.service: surface
 ms.localizationpriority: medium
 author: coveminer
 ms.author: hachidan

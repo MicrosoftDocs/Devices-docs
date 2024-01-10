@@ -1,7 +1,7 @@
 ---
 title: Surface Registration Support for Windows Autopilot
 description: This article describes the requirements for submitting Autopilot registration requests to Microsoft Support. 
-ms.prod: surface
+ms.service: surface
 ms.localizationpriority: medium
 author: coveminer
 ms.author: hachidan

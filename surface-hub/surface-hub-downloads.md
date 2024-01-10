@@ -1,7 +1,7 @@
 ---
 title: Downloadable resources for Surface Hub readiness
 description: Downloads related to the Microsoft Surface Hub.
-ms.prod: surface-hub
+ms.service: surface-hub
 
 author: coveminer
 ms.author: chauncel

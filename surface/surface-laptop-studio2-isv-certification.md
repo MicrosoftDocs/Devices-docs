@@ -1,7 +1,7 @@
 ---
 title: Surface Laptop Studio 2 ISV-tested/certified apps
 description: This article lists professional applications that have been tested/certified by ISVs and Microsoft for Surface Laptop Studio 2. 
-ms.prod: surface
+ms.service: surface
 ms.localizationpriority: medium
 author: coveminer
 ms.author: chauncel

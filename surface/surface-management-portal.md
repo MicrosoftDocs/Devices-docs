@@ -1,7 +1,7 @@
 ---
 title: Surface Management Portal 
 description: This article describes how the new Surface Management Portal provides a centralized solution to self-serve, manage and monitor Surface devices at scale. 
-ms.prod: surface
+ms.service: surface
 ms.localizationpriority: medium
 author: coveminer
 ms.author: hachidan

@@ -2,7 +2,7 @@
 title: Surface Hub v1 Site Readiness Guide
 manager: frankbu
 description: Use this Site Readiness Guide to help plan your Surface Hub installation.
-ms.prod: surface-hub
+ms.service: surface-hub
 author: coveminer
 ms.author: chauncel
 ms.topic: how-to

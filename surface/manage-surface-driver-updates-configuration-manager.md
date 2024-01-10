@@ -6,7 +6,7 @@ ms.reviewer:
 author: coveminer 
 manager: frankbu
 ms.localizationpriority: medium
-ms.prod: surface
+ms.service: surface
 ms.author: hachidan
 ms.topic: how-to
 

@@ -10,7 +10,7 @@ metadata:
   services: product-insights
   ms.service: product-insights #Required; service per approved list. service slug assigned to your service by ACOM.
   ms.topic: landing-page # Required
-  ms.prod: surface-hub
+  ms.service: surface-hub
   ms.technology: windows
   ms.custom: intro-hub-or-landing
   ms.localizationpriority: medium

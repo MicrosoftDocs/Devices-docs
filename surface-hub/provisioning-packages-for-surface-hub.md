@@ -4,7 +4,7 @@ description: For Windows 10 or Windows 11, settings that use the registry or a c
 ms.assetid: 8AA25BD4-8A8F-4B95-9268-504A49BA5345
 ms.reviewer: dpandre
 manager: frankbu
-ms.prod: surface-hub
+ms.service: surface-hub
 author: coveminer
 ms.author: chauncel
 ms.topic: how-to

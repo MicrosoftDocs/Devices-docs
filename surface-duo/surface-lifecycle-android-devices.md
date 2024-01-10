@@ -2,7 +2,7 @@
 title: Surface Lifecycle for Android-based devices
 description: This article explains how Surface Duo will receive Android version and security updates for at least 3 years from its release date.
 ms.technology: windows
-ms.prod: surface
+ms.service: surface
 author: coveminer
 ms.author: hachidan
 ms.topic: how-to

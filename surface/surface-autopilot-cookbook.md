@@ -2,7 +2,7 @@
 title: Surface Autopilot Cookbook for Cloud Solution Providers
 description: Step-by-step walkthrough for cloud solution providers to setup Windows Autopilot for customers with Surface devices
 manager: frankbu
-ms.prod: surface-hub
+ms.service: surface-hub
 author: coveminer
 ms.author: hachidan
 ms.topic: how-to

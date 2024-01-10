@@ -1,7 +1,7 @@
 ---
 title: Azure Virtual Desktop on Surface
 description: This article explains how Surface devices deliver an ideal end node for Azure Virtual Desktop solutions, providing customers with flexible form factors, Windows 11 modern device security and manageability, and support for persistent, on-demand & just-in-time work scenarios. 
-ms.prod: surface
+ms.service: surface
 ms.localizationpriority: medium
 author: coveminer
 ms.author: chauncel

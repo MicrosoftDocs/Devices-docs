@@ -1,7 +1,7 @@
 ---
 title: Surface service options
 description: This article highlights options for servicing, repairing, or replacing Surface devices
-ms.prod: surface
+ms.service: surface
 ms.localizationpriority: medium
 author: coveminer
 ms.author: hachidan

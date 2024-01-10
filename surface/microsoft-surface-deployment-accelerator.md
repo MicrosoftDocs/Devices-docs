@@ -5,7 +5,7 @@ ms.assetid: E7991E90-4AAE-44B6-8822-58BFDE3EADE4
 ms.reviewer: hachidan
 manager: frankbu
 ms.localizationpriority: medium
-ms.prod: surface
+ms.service: surface
 author: coveminer
 ms.author: chauncel
 ms.topic: how-to

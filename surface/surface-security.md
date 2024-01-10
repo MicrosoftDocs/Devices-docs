@@ -1,7 +1,7 @@
 ---
 title: Surface security overview
 description: This article provides an overview of Surface device security
-ms.prod: surface
+ms.service: surface
 ms.localizationpriority: medium
 author: coveminer
 ms.author: hachidan

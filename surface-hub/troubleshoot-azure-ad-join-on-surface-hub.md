@@ -4,7 +4,7 @@ description: This page explains recommended troubleshooting steps if you're unab
 ms.reviewer: 
 manager: frankbu
 keywords: Troubleshoot common problems, setup issues, azure ad join
-ms.prod: surface-hub
+ms.service: surface-hub
 ms.sitesec: library
 author: ryanbwold 
 ms.author: rwold

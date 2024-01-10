@@ -1,7 +1,7 @@
 ---
 title: Run command-line app console with Surface Diagnostic Toolkit for Business
 description: How to run Surface Diagnostic Toolkit in a command console
-ms.prod: surface
+ms.service: surface
 author: coveminer
 ms.author: hachidan
 ms.topic: how-to

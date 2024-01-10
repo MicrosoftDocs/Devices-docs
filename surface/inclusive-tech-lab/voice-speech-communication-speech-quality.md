@@ -8,7 +8,7 @@ ms.author: brycejo
 ms.topic: how-to
 ms.date: 05/20/2021
 manager: krhunter
-ms.prod: surface
+ms.service: surface
 ms.technology: windows
 ---
 

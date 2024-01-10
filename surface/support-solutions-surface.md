@@ -4,7 +4,7 @@ description: Find top solutions for common issues using Surface devices in the e
 ms.assetid: CF58F74D-8077-48C3-981E-FCFDCA34B34A
 ms.reviewer: alionita;cchauvet;ramakoni
 manager: frankbu
-ms.prod: surface
+ms.service: surface
 author: coveminer
 ms.author: hachidan
 ms.topic: troubleshooting 

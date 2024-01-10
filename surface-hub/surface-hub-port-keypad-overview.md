@@ -1,7 +1,7 @@
 ---
 title: "Surface Hub ports and keypad overview"
 description: "This page describes the ports, physical buttonSurface Hub Pens, and configuration information essential for connecting to Surface Hub 2S or Surface Hub 3."
-ms.prod: surface-hub
+ms.service: surface-hub
 author: coveminer
 ms.author: chauncel
 manager: frankbu
