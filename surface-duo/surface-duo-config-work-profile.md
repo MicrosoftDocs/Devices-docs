@@ -1,7 +1,7 @@
 ---
 title: Configure Android Enterprise Work Profile for Surface Duo
 description: This article explains how to set up work profile on Surface Duo.
-ms.technology: windows
+
 ms.service: surface
 
 author: coveminer

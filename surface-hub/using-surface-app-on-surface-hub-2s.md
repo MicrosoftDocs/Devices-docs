@@ -11,7 +11,7 @@ ms.service: surface-hub
 localization_priority: medium
 ms.reviewer: jarrettr
 ms.custom: csstroubleshoot
-ms.technology: windows
+
 ---
 # Using the Surface app on Surface Hub 2S
 

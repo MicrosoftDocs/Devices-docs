@@ -11,7 +11,7 @@ ms.service: surface-hub
 localization_priority: medium
 ms.reviewer: jarrettr
 ms.custom: csstroubleshoot
-ms.technology: windows
+
 ---
 # Surface Hub 2S camera lens orientation
 

@@ -1,7 +1,7 @@
 ---
 title: Manage OEMConfig on Surface Duo 2
 description: This article explains how to manage hardware components on Surface Duo 2 using Android OEMConfig via an MDM provider such as Microsoft Intune.  
-ms.technology: windows
+
 ms.service: surface
 author: coveminer
 ms.author: karand

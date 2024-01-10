@@ -9,7 +9,7 @@ ms.topic: how-to
 ms.date: 05/20/2021
 manager: krhunter
 ms.service: surface
-ms.technology: windows
+
 ---
 
 # What is mobility?

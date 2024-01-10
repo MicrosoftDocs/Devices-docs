@@ -11,7 +11,7 @@ ms.service: surface-hub
 localization_priority: medium
 ms.reviewer: ktsuji
 ms.custom: csstroubleshoot
-ms.technology: windows
+
 ---
 # Surface Hub Third-Party Stand Policy and Waiver
 
