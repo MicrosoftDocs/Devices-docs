@@ -10,8 +10,6 @@ metadata:
   services: product-insights
   ms.service: product-insights #Required; service per approved list. service slug assigned to your service by ACOM.
   ms.topic: landing-page # Required
-  ms.service: surface-hub
-  
   ms.custom: intro-hub-or-landing
   ms.localizationpriority: medium
   author: coveminer #Required; your GitHub user alias, with correct capitalization.
