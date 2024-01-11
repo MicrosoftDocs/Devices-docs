@@ -79,6 +79,7 @@ The growing ASP network consists of more than 160 locations.
 - [Computacenter](https://www.computacenter.com/)
 - [DXC Technology (UK)](https://dxc.com/uk/)
 - [XMA](https://www.xma.co.uk/)
+- [Zones](https://uk.zones.com/)
 
 ### Asia Pacific
 
