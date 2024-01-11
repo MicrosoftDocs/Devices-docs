@@ -1,7 +1,7 @@
 ---
 title: Essential add-ons for Windows Pro and Enterprise on Surface Hub
 description: This article provides information about optional accessories you can use with Windows Pro or Enterprise on Surface Hub. 
-ms.prod: surface-hub
+ms.service: surface-hub
 ms.localizationpriority: low
 manager: frankbu
 author: coveminer

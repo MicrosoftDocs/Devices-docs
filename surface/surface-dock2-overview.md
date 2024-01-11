@@ -1,7 +1,7 @@
 ---
 title: Surface Dock 2 overview
 description: This article highlights features and functionality for Surface Dock 2.
-ms.prod: surface
+ms.service: surface
 ms.localizationpriority: medium
 author: coveminer
 ms.author: chauncel

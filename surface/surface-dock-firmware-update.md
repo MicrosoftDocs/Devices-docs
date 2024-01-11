@@ -2,7 +2,7 @@
 title: Microsoft Surface Dock 1 Firmware Update
 description: This article explains how to use Microsoft Surface Dock Firmware Update to install and manage firmware on the original Surface Dock 1. When installed on your Surface device, it updates Surface Dock 1 devices attached to your Surface device.
 ms.localizationpriority: medium
-ms.prod: surface
+ms.service: surface
 author: coveminer
 ms.author: chauncel
 ms.topic: how-to

@@ -1,7 +1,7 @@
 ---
 title: "Connect devices to Surface Hub 2S"
 description: "This page explains how to connect external devices to Surface Hub 2S."
-ms.prod: surface-hub
+ms.service: surface-hub
 author: coveminer
 ms.author: chauncel
 manager: frankbu

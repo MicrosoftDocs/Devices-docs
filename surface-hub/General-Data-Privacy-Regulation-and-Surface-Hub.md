@@ -2,7 +2,7 @@
 title: Manage EU privacy settings on Surface Hub
 description: Explains how to delete or restrict diagnostic data produced by Surface Hub in accordance with European Union privacy regulations.
 ms.assetid: 087713CF-631D-477B-9CC6-EFF939DE0186
-ms.prod: surface-hub
+ms.service: surface-hub
 author: coveminer
 ms.author: chauncel
 ms.topic: how-to

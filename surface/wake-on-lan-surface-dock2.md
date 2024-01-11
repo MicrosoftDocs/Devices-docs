@@ -1,7 +1,7 @@
 ---
 title: Wake On LAN with Surface Dock 2
 description: Surface Dock 2 provides the best support for Wake-on-LAN (WOL) enabling admins to remotely wake up devices and automatically perform management tasks.
-ms.prod: surface
+ms.service: surface
 ms.localizationpriority: medium
 author: coveminer
 ms.author: chauncel

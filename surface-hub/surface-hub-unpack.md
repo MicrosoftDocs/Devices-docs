@@ -1,7 +1,7 @@
 ---
 title: Unpack Surface Hub 50-inch models
 description: This page includes information about safely unpacking 50" models of Surface Hub 2S and Surface Hub 3.
-ms.prod: surface-hub
+ms.service: surface-hub
 author: coveminer
 ms.author: chauncel
 manager: frankbu

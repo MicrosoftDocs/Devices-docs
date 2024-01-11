@@ -5,7 +5,7 @@ ms.assetid: 8DD3F9FE-5458-4467-BE26-E9200341CF10
 ms.reviewer: chauncel
 manager: frankbu
 ms.localizationpriority: medium
-ms.prod: surface
+ms.service: surface
 author: coveminer
 ms.author: chauncel
 ms.topic: how-to

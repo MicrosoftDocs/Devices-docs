@@ -4,9 +4,9 @@ description: Find out how to enable support for PEAP, EAP-FAST, or Cisco LEAP pr
 ms.assetid: A281EFA3-1552-467D-8A21-EB151E58856D
 manager: frankbu
 ms.localizationpriority: medium
-ms.prod: surface
+ms.service: surface
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: how-to
 appliesto:
 - Windows 10

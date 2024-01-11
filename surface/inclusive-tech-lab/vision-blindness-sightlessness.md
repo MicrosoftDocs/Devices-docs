@@ -2,14 +2,13 @@
 title: Blindness (sightlessness)
 description: A lack of, or loss of, ability to see
 ms.localizationpriority: medium
-
 author: InclusiveTechLab
 ms.author: brycejo 
 ms.topic: how-to
 ms.date: 05/20/2021
 manager: krhunter
-ms.prod: surface
-ms.technology: windows
+ms.service: surface
+
 ---
 
 # Blindness (sightlessness)

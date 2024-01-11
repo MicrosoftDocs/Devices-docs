@@ -6,8 +6,8 @@ ms.reviewer:
 author: coveminer 
 manager: frankbu
 ms.localizationpriority: medium
-ms.prod: surface
-ms.author: hachidan
+ms.service: surface
+ms.author: chauncel
 ms.topic: how-to
 
 appliesto:
