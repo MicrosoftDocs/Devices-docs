@@ -1,7 +1,7 @@
 ---
 title: "Surface Hub 3 quick start"
 description: "View the quick start steps to begin using Surface Hub 3."
-ms.prod: surface-hub
+ms.service: surface-hub
 author: coveminer
 ms.author: chauncel
 manager: frankbu

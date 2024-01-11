@@ -3,7 +3,7 @@ title: Warranty and Service claim form for Surface, Surface Hub, HoloLens 2, and
 ms.reviewer: phorton
 manager: frankbu
 description: Claim for for warranty and service on Surface, Surface Hub, HoloLens 2,and Azure Kinect. 
-ms.prod: surface
+ms.service: surface
 author: mccoybot
 ms.author: chauncel
 ms.topic: how-to

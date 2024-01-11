@@ -4,7 +4,7 @@ description: Every Microsoft Surface Hub can be configured individually by openi
 ms.assetid: FA67209E-B355-4333-B903-482C4A3BDCCE
 ms.reviewer: 
 manager: frankbu
-ms.prod: surface-hub
+ms.service: surface-hub
 author: coveminer
 ms.author: chauncel
 ms.topic: how-to

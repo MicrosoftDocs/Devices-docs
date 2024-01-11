@@ -2,7 +2,7 @@
 title: Surface Hub update history
 description: Surface Hub update history
 ms.assetid: d66a9392-2b14-4cb2-95c3-92db0ae2de34
-ms.prod: surface-hub
+ms.service: surface-hub
 author: coveminer
 ms.author: dpandre
 ms.topic: how-to

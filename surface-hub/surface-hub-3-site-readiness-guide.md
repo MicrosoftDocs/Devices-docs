@@ -1,7 +1,7 @@
 ---
 title: "Surface Hub 3 Site readiness guide"
 description: "Get familiar with site readiness requirements and recommendations for Surface Hub 3."
-ms.prod: surface-hub
+ms.service: surface-hub
 author: coveminer
 ms.author: chauncel
 manager: frankbu

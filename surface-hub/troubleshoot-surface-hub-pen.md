@@ -3,7 +3,7 @@ title: Troubleshoot Surface Hub Pen
 description: This page explains how to troubleshoot issues with Surface Hub Pen 
 manager: frankbu
 keywords: troubleshoot Surface Hub Pen
-ms.prod: surface-hub
+ms.service: surface-hub
 author: coveminer
 ms.author: chauncel
 ms.topic: troubleshooting

@@ -1,7 +1,7 @@
 ---
 title: Use Microsoft Configuration Manager to manage devices with SEMM 
 description: Learn how to manage Surface Enterprise Management Mode (SEMM) with Microsoft Configuration Manager.
-ms.prod: surface
+ms.service: surface
 author: coveminer
 ms.author: chauncel
 ms.topic: how-to

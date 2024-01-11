@@ -9,7 +9,7 @@ ms.custom:
 - CI 121602
 ms.reviewer: chauncel  
 description: Describes how to enable and disable Wake-on-Power for Surface devices.
-ms.prod: surface
+ms.service: surface
 ms.localizationpriority: medium
 ms.topic: how-to
 manager: frankbu

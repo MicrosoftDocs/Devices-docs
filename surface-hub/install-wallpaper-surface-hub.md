@@ -3,7 +3,7 @@ title: Install Windows Bloom wallpaper on Surface Hub 3
 description: Explains how admins can install the Windows Bloom background wallpaper on Surface Hub 3. 
 ms.reviewer: dpandre
 manager: frankbu
-ms.prod: surface-hub
+ms.service: surface-hub
 author: coveminer
 ms.author: chauncel
 ms.topic: how-to

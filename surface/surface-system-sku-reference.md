@@ -1,7 +1,7 @@
 ---
 title: Surface System SKU reference
 description: See a reference of System Model and System SKU names for all Surface devices. 
-ms.prod: surface
+ms.service: surface
 author: coveminer
 ms.author: chauncel
 ms.topic: how-to

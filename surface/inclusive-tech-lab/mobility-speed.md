@@ -2,14 +2,13 @@
 title: Speed
 description: The ability to perform an action at the necessary rate before the time limit has expired
 ms.localizationpriority: medium
-
 author: InclusiveTechLab
 ms.author: brycejo 
 ms.topic: how-to
 ms.date: 05/20/2021
 manager: krhunter
-ms.prod: surface
-ms.technology: windows
+ms.service: surface
+
 ---
 
 # Speed

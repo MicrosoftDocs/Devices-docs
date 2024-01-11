@@ -2,7 +2,7 @@
 title: Wake On LAN with Surface Thunderbolt 4 Dock
 description: Surface Thunderbolt 4 Dock supports Wake-on-LAN (WOL) enabling admins to remotely wake up Surface devices.
 manager: frankbu
-ms.prod: surface-hub
+ms.service: surface-hub
 author: coveminer
 ms.author: chauncel
 ms.topic: how-to

@@ -1,7 +1,7 @@
 ---
 title: "Surface Hub 2S Adoption and training guides"
 description: "Microsoft has developed downloadable materials that you can make available for your users to aid in adoption of Surface Hub 2S."
-ms.prod: surface-hub
+ms.service: surface-hub
 author: coveminer
 ms.author: chauncel
 manager: frankbu
