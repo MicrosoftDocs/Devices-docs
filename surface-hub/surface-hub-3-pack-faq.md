@@ -7,7 +7,7 @@ ms.prod: surface-hub
 author: coveminer
 ms.author: dpandre
 ms.topic: overview
-ms.date: 12/04/2023
+ms.date: 01/08/2024
 ms.localizationpriority: medium
 appliesto:
 - Surface Hub 3
@@ -43,7 +43,7 @@ appliesto:
 
 **Can I recycle the old cartridge after installing the Surface Hub 3 Pack?**
 
-- Yes. You can use the return label included in the packaging for the Surface Hub 3 Pack to send your old cartridge to Microsoft for recycling, if desired.
+- Yes. You can use the return label included in the packaging for the Surface Hub 3 Pack to send your old cartridge to Microsoft for recycling, if desired. Before recycling your Surface Hub 2S cartridge, first remove the hard drive and delete any corporate data. To learn more, see [Install and manage Surface Hub 3 Pack](install-manage-surface-hub-3-pack.md)
 
 ## References
 
