@@ -6,14 +6,21 @@ author: coveminer
 ms.author: chauncel
 manager: frankbu
 ms.topic: overview
-ms.date: 01/26/2021
-ms.localizationpriority: High
+ms.date: 01/11/2024
+ms.localizationpriority: Medium
+appliesto:
+- Surface Hub
+- Surface Hub 2S 
 ---
+
 # Surface Hub security overview
 
-Surface Hub provides a locked-down appliance-like experience with custom platform firmware running the Windows 10 Team operating system. The resulting device takes the traditional, "single-use" secure kiosk, "only run what you need" philosophy and delivers a modern take on it. Built to support a rich collaborative user experience, Surface Hub is protected against continually evolving security threats.
+Surface Hub and Surface Hub 2S provide a locked-down appliance-like experience with custom platform firmware running the Windows 10 Team operating system. The resulting device takes the traditional, "single-use" secure kiosk, "only run what you need" philosophy and delivers a modern take on it. Built to support a rich collaborative user experience, Surface Hub is protected against continually evolving security threats.
 
 Built on Windows 10, Surface Hub delivers enterprise-grade modern security enabling IT admins to enforce data protection with BitLocker, Trusted Platform Module 2.0 (TPM), plus cloud-powered security with Windows Defender (also known as Microsoft Defender).
+
+> [!TIP]
+> For Surface Hub 3, see [Surface Hub 3 security best practices](surface-hub-3-security.md)
 
 ## Defense-in-depth security
 
@@ -90,23 +97,7 @@ When managed via Microsoft Surface Enterprise Management Mode (SEMM), IT admins 
 
 ![Surface Hub UEFI settings.](images/hub-sec-2.png)
 
-Admins can implement SEMM and enrolled Surface Hub 2S devices using the downloadable [Microsoft Surface UEFI Configurator](https://www.microsoft.com/download/details.aspx?id=46703). For more information, see [Secure and manage Surface Hub 2S with SEMM and UEFI](/surface-hub/surface-hub-2s-secure-with-uefi-semm).
-Secured using a certificate to protect the configuration from unauthorized tampering or removal, SEMM enables management of the following components:
-
-- Wired LAN
-- Camera
-- Bluetooth
-- Wi-Fi
-- Occupancy sensor
-- IPv6 for PXE Boot
-- Alternate Boot
-- Boot Order Lock
-- USB Boot
-- UEFI front page interface
-    - Devices
-    - Boot
-    - Date/Time
-
+Admins can implement SEMM and enrolled Surface Hub 2S devices using the downloadable [Microsoft Surface UEFI Configurator](https://www.microsoft.com/download/details.aspx?id=46703). For more information, see [Secure and manage Surface Hub with SEMM](surface-hub-secure-with-uefi-semm.md).
     
 ### Recover Hub with bootable USB
 
