@@ -1,7 +1,7 @@
 ---
 title: "Surface Hub site planning"
 description: "See how Surface Hub can be integrated into almost any workspace, providing unplugged, uninterrupted teamwork capabilities."
-ms.prod: surface-hub
+ms.service: surface-hub
 author: coveminer
 ms.author: chauncel
 manager: frankbu

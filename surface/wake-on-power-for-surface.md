@@ -9,7 +9,7 @@ ms.custom:
 - CI 121602
 ms.reviewer: chauncel  
 description: Describes how to enable and disable Wake-on-Power for Surface devices.
-ms.prod: surface
+ms.service: surface
 ms.localizationpriority: medium
 ms.topic: how-to
 manager: frankbu
@@ -33,6 +33,7 @@ The Wake-on-Power feature is available on the following devices:
 - Surface Pro X (all SKUs)
 - Surface Pro 7 (all SKUs)
 - Surface Go 3 (commercial SKUs only)
+- Surface Go 4 (commercial SKUs only)
 - Surface Laptop Studio (commercial SKUs only)
 - Surface Laptop Studio 2 (commercial SKUs only)
 - Surface Book 3 (all SKUs)

@@ -3,7 +3,7 @@ title: Surface Hub (v1) 84" tech specs
 ms.reviewer: 
 manager: frankbu
 description: Specifications for the 84" Surface Hub (v1)
-ms.prod: surface-hub
+ms.service: surface-hub
 author: coveminer
 ms.author: chauncel
 ms.topic: how-to

@@ -1,7 +1,7 @@
 ---
 title: Best practice power settings for Surface devices
 description: This topic provides best practice recommendations for maintaining optimal power settings and explains how Surface streamlines the power management experience. This article applies to all currently supported Surface devices. 
-ms.prod: w11
+ms.service: windows-11
 author: coveminer
 ms.author: chauncel
 ms.topic: how-to

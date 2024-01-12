@@ -1,7 +1,7 @@
 ---
 title: Surface DMA Protection
 description: This article describes DMA protection on compatible Surface devices
-ms.prod: surface
+ms.service: surface
 ms.localizationpriority: medium
 author: coveminer
 ms.author: chauncel

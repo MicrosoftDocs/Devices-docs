@@ -2,7 +2,7 @@
 title: Troubleshoot access to Settings app on Surface Hub
 description: If unable to access Settings on Surface Hub, try these troubleshooting steps.
 manager: frankbu
-ms.prod: surface-hub
+ms.service: surface-hub
 author: coveminer
 ms.author: chauncel
 ms.topic: troubleshooting

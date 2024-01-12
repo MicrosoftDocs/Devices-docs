@@ -2,14 +2,13 @@
 title: Photophobia (light sensitivity)
 description: Intolerance of light, or increased sensitivity to it
 ms.localizationpriority: medium
-
 author: InclusiveTechLab
 ms.author: brycejo 
 ms.topic: how-to
 ms.date: 05/20/2021
 manager: krhunter
-ms.prod: surface
-ms.technology: windows
+ms.service: surface
+
 ---
 
 # Photophobia (light sensitivity)

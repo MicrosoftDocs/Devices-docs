@@ -1,7 +1,7 @@
 ---
 title: Troubleshoot display projection to Surface Hub
 description: Learn how to resolve issues connecting external devices to Surface Hub.
-ms.prod: surface-hub
+ms.service: surface-hub
 author: coveminer
 ms.author: chauncel
 ms.topic: how-to

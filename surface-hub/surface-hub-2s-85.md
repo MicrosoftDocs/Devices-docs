@@ -1,7 +1,7 @@
 ---
 title: "Surface Hub 2S 85-inch"
 description: "This article introduces Surface Hub 2S 85-inch."
-ms.prod: surface-hub
+ms.service: surface-hub
 author: coveminer
 ms.author: chauncel
 manager: frankbu

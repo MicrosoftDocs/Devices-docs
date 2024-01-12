@@ -2,14 +2,13 @@
 title: What is hearing?
 description: Receiving and interpreting sound is another way in which we inform our decisions and actions.
 ms.localizationpriority: medium
-
 author: InclusiveTechLab
 ms.author: brycejo 
 ms.topic: how-to
 ms.date: 05/20/2021
 manager: krhunter
-ms.prod: surface
-ms.technology: windows
+ms.service: surface
+
 ---
 
 # What is hearing?

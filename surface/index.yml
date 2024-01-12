@@ -8,7 +8,7 @@ brand: windows
 metadata:
   title: Microsoft Surface # Required; page title displayed in search results. Include the brand. < 60 chars.
   description: Learn how to plan, deploy, and manage Microsoft Surface and Surface Hub devices. # Required; article description that is displayed in search results. < 160 chars.
-  ms.prod: surface #Required; service per approved list. service slug assigned to your service by ACOM.
+  ms.service: surface #Required; service per approved list. service slug assigned to your service by ACOM.
   ms.topic: hub-page # Required
   
   author: samanro #Required; your GitHub user alias, with correct capitalization.

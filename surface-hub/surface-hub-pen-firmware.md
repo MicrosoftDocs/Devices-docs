@@ -1,7 +1,7 @@
 ---
 title: "Update pen firmware on Surface Hub"
 description: "This page describes how to update firmware for the Surface Hub Pen"
-ms.prod: surface-hub
+ms.service: surface-hub
 author: coveminer
 ms.author: chauncel
 manager: frankbu

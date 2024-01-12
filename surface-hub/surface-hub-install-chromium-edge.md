@@ -1,7 +1,7 @@
 ---
 title: "Manage Microsoft Edge on Surface Hub"
 description: "This article describes default Microsoft Edge policy settings and tools to configure browser settings."
-ms.prod: surface-hub
+ms.service: surface-hub
 author: coveminer
 ms.author: chauncel
 manager: frankbu

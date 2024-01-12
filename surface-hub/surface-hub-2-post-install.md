@@ -1,7 +1,7 @@
 ---
 title: Configure Windows 10/11 Pro or Enterprise on Surface Hub 2S
 description: This article includes recommendations to ensure the best experience when using a personalized large screen touch and pen computer.
-ms.prod: surface-hub
+ms.service: surface-hub
 ms.localizationpriority: low
 manager: frankbu
 author: coveminer
