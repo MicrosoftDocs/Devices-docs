@@ -71,7 +71,7 @@ Choose one of the following options:
 
 #### Summary
 
-1. [Ensure your Surface Hub 2S devices are **enrolled in Intune**](#ensure-your-surface-hub-2s-devices-are-enrolled-in-intune).
+1. [Ensure your Surface Hub 2S devices are **enrolled in Intune**](#ensure-your-surface-hub-2s-devices-are-sufficiently-updated--enrolled-in-intune).
 2. [Add Surface Hub 2S devices to a **Device group**](#add-surface-hub-2s-devices-to-a-device-group).
 3. [Associate Store for Business account with Intune](#associate-store-account-with-intune).
 3. [Download **Migration Launcher app**](#download-migration-launcher-app) from the **Microsoft Store for Business**.
@@ -130,7 +130,7 @@ Download the migration launcher app package from Microsoft Store for Business.
 1. Shop for the app and add it to your group inventory. Select **Shop for my group** and search for **Surface Hub 2S OS Migration Launcher – Microsoft Teams Rooms**. (Alternatively, search via the app ID: **9P81T95QGN1P**).
 2. On the app page, for License type, select **Offline** > **Get the app**. This adds the app to your Microsoft Store for Business group inventory. After you see a "toast message" indicating you successfully added the app to your library, select **Manage**, as shown in the following figure. (Note that the Manage button has replaced the Get the app button).
 
-![Screenshot that shows how to enable offline apps in Microsoft Store for Business](images/store-for-business-migration-app.png)
+![Screenshot that shows home page for Surface Hub 2S OS Migration Launcher – Microsoft Teams Rooms](images/store-for-business-migration-app.png)
 
 3. After you select **Manage**, the page listing for the Migration Launcher app is displayed. Wait a few moments for the spinner to complete and the Download portion of the resulting page to appear.
 4. Under **Download package for offline use**, select your desired architecture (X64, X86, ARM). We recommend using x86.
