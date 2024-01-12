@@ -1,7 +1,7 @@
 ---
 title: Surface portals
 description: This article provides an overview of Surface IT portals including the Surface Management Portal and the Hardware Support Portal.
-ms.prod: w11
+ms.service: windows-11
 ms.localizationpriority: medium
 author: coveminer
 ms.author: rbrooker

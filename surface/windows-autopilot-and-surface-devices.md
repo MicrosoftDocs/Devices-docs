@@ -3,7 +3,7 @@ title: Windows Autopilot and Surface devices
 ms.reviewer: 
 manager: frankbu
 description: Find out about Windows Autopilot deployment options for Surface devices.
-ms.prod: surface
+ms.service: surface
 author: coveminer
 ms.author: chauncel
 ms.topic: conceptual

@@ -1,7 +1,7 @@
 ---
 title: Wake On LAN for Surface devices
 description: Surface devices that use a Surface Ethernet adapter to connect to a wired network are capable of Wake On LAN (WOL) from Modern Standby.
-ms.prod: surface
+ms.service: surface
 ms.localizationpriority: medium
 author: coveminer
 ms.author: chauncel

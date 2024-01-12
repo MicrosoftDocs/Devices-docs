@@ -1,7 +1,7 @@
 ---
 title: Surface Diagnostic Toolkit for Business
 description: This topic explains how to deploy and use the Surface Diagnostic Toolkit for Business, which enables IT administrators to quickly investigate, troubleshoot, and resolve hardware, software, and firmware issues with Surface devices.
-ms.prod: surface
+ms.service: surface
 ms.localizationpriority: medium
 author: coveminer
 ms.author: chauncel

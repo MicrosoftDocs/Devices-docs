@@ -1,7 +1,7 @@
 ---
 title: Unenroll Surface devices from SEMM (Surface)
 description: Learn how to unenroll a device from SEMM by using a Surface UEFI reset package or the Recovery Request option.
-ms.prod: surface
+ms.service: surface
 author: coveminer
 ms.author: chauncel
 ms.topic: how-to

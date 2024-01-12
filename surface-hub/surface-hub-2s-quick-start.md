@@ -1,7 +1,7 @@
 ---
 title: "Surface Hub 2S quick start"
 description: "View the quick start steps to begin using Surface Hub 2S."
-ms.prod: surface-hub
+ms.service: surface-hub
 author: coveminer
 ms.author: chauncel
 manager: frankbu

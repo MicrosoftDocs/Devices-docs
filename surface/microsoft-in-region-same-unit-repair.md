@@ -1,7 +1,7 @@
 ---
 title:  Microsoft in-region same unit repair
 description: This article describes devices eligible for in-region same unit repair.
-ms.prod: w11
+ms.service: windows-11
 ms.localizationpriority: medium
 author: coveminer
 ms.author: chauncel

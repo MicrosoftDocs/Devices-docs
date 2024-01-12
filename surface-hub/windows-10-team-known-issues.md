@@ -1,7 +1,7 @@
 ---
 title: "Known issues: Windows 10 Team"
 description: "This page provides a list of known issues for Surface Hubs"
-ms.prod: surface-hub
+ms.service: surface-hub
 author: coveminer
 ms.author: dpandre
 manager: frankbu

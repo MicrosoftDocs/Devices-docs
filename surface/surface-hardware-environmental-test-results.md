@@ -2,9 +2,9 @@
 title: Surface hardware environmental test results
 description: This article lists results of Surface hardware rugged testing. The latest Surface devices – Surface Pro 9, Surface Pro 9 with 5G, Surface Studio 2, Surface Laptop 5, and Surface Laptop Go 2 – meet the current standard, MIL-STD-810H.  Earlier devices were tested under the previous standard, MIL-STD-810G.
 manager: frankbu
-ms.prod: surface-hub
+ms.service: surface-hub
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: overview
 ms.date: 01/03/2023
 ms.localizationpriority: medium

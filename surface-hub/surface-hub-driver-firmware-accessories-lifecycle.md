@@ -1,7 +1,7 @@
 ---
 title: Driver and firmware lifecycle for Surface Hub devices and accessories
 description: This article provides detailed lifecycle information about Surface Hub and related accessories to help plan and manage hardware and software deployments. 
-ms.prod: surface
+ms.service: surface
 ms.localizationpriority: high
 author: coveminer
 ms.author: chauncel

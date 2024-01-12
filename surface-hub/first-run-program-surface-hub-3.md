@@ -3,7 +3,7 @@ title: First-time setup for Surface Hub 3
 description: Describes first run OOBE setup
 ms.reviewer: 
 manager: frankbu
-ms.prod: surface-hub
+ms.service: surface-hub
 author: coveminer
 ms.author: chauncel
 ms.topic: how-to

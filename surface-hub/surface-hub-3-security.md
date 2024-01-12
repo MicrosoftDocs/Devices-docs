@@ -1,7 +1,7 @@
 ---
 title: "Surface Hub 3 security best practices"
 description: "This page explains best practices for Surface Hub 3 security."
-ms.prod: surface-hub
+ms.service: surface-hub
 author: coveminer
 ms.author: chauncel
 manager: frankbu

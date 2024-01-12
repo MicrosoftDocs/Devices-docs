@@ -4,9 +4,9 @@ description: This article will walk you through the process of customizing the S
 ms.assetid: F6910315-9FA9-4297-8FA8-2C284A4B1D87
 manager: frankbu
 ms.localizationpriority: medium
-ms.prod: surface
+ms.service: surface
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: how-to
 appliesto:
 - Windows 10

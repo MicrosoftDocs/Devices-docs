@@ -1,7 +1,7 @@
 ---
 title: Surface Brightness Control
 description: This article describes how you can use the Surface Brightness Control app to manage display brightness in point-of-sale and kiosk scenarios.
-ms.prod: surface
+ms.service: surface
 author: coveminer
 ms.author: chauncel
 ms.topic: how-to

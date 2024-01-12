@@ -4,7 +4,7 @@ description: Admins can install apps can from either the Microsoft Store or the 
 ms.assetid: 3885CB45-D496-4424-8533-C9E3D0EDFD94
 ms.reviewer: dpandre
 manager: frankbu
-ms.prod: surface-hub
+ms.service: surface-hub
 author: coveminer
 ms.author: chauncel
 ms.topic: how-to

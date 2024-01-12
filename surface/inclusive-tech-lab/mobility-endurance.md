@@ -2,14 +2,13 @@
 title: Endurance
 description: The amount of time someone can perform a task or sustain their body in a certain posture
 ms.localizationpriority: medium
-
 author: InclusiveTechLab
 ms.author: brycejo 
 ms.topic: how-to
 ms.date: 05/20/2021
 manager: krhunter
-ms.prod: surface
-ms.technology: windows
+ms.service: surface
+
 ---
 
 # Endurance
