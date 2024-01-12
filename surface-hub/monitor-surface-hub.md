@@ -4,7 +4,7 @@ description: Monitoring for Microsoft Surface Hub devices is enabled through Azu
 ms.assetid: 1D2ED317-DFD9-423D-B525-B16C2B9D6942
 ms.reviewer: 
 manager: frankbu
-ms.prod: surface-hub
+ms.service: surface-hub
 author: coveminer
 ms.author: chauncel
 ms.topic: conceptual

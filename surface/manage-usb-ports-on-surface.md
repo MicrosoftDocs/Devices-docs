@@ -1,7 +1,7 @@
 ---
 title: Manage USB ports on Surface devices
-description: This article explains how to secure and manage USB-C and USB-A ports on Surface devices using SEMM for Dock and PowerShell. 
-ms.prod: surface
+description: This article explains how to secure and manage USB-C and USB-A ports on Surface devices using SEMM for Dock and Powershell. 
+ms.service: surface
 ms.localizationpriority: medium
 author: coveminer
 ms.author: chauncel

@@ -4,7 +4,7 @@ description: Every Microsoft Surface Hub is automatically set up with BitLocker 
 ms.assetid: E11E4AB6-B13E-4ACA-BCE1-4EDC9987E4F2
 ms.reviewer: 
 manager: frankbu
-ms.prod: surface-hub
+ms.service: surface-hub
 author: coveminer
 ms.author: chauncel
 ms.topic: how-to

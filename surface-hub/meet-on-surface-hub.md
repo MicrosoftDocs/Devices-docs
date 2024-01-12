@@ -3,7 +3,7 @@ title: Start and finish a meeting on Surface Hub
 description: Provides instructions to start, schedule, and finish a Surface Hub meeting, including details on data that is automatically removed at the end of each session. 
 ms.reviewer: dpandre
 manager: frankbu
-ms.prod: surface-hub
+ms.service: surface-hub
 author: coveminer
 ms.author: chauncel
 ms.topic: how-to

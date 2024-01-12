@@ -2,7 +2,7 @@
 title: Use cloud recovery for BitLocker on a Surface Hub
 description: How to use cloud recovery for BitLocker on a Surface Hub
 ms.assetid: c0bde23a-49de-40f3-a675-701e3576d44d
-ms.prod: surface-hub
+ms.service: surface-hub
 author: coveminer
 ms.author: chauncel
 ms.topic: how-to

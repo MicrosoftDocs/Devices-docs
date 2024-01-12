@@ -3,7 +3,7 @@ title: Manage Windows updates on Surface Hub
 description: Describes best practices for managing updates on Microsoft Surface Hub or Surface Hub 2S.
 ms.assetid: A737BD50-2D36-4DE5-A604-55053D549045
 manager: frankbu
-ms.prod: surface-hub
+ms.service: surface-hub
 author: coveminer
 ms.author: chauncel
 ms.topic: how-to

@@ -3,7 +3,7 @@ title: Surface Hub v1 SSD replacement
 ms.reviewer: 
 manager: frankbu
 description: Learn how to replace the hard drive on Surface Hub v1.
-ms.prod: surface-hub
+ms.service: surface-hub
 author: coveminer
 ms.author: chauncel
 ms.topic: how-to

@@ -1,7 +1,7 @@
 ---
 title: "Reset & recovery for Surface Hub 2S & Surface Hub 3"
 description: "Learn how to recover and reset Surface Hub 2S or Surface Hub 3."
-ms.prod: surface-hub
+ms.service: surface-hub
 author: coveminer
 ms.author: chauncel
 manager: frankbu

@@ -2,7 +2,7 @@
 title: Use the Surface Hub Hardware Diagnostic Tool to test a device account
 description: Using the Surface Hub Hardware Diagnostic Tool to test a device account
 ms.assetid: a87b7d41-d0a7-4acc-bfa6-b9070f99bc9c
-ms.prod: surface-hub
+ms.service: surface-hub
 author: coveminer
 ms.author: chauncel
 ms.topic: how-to

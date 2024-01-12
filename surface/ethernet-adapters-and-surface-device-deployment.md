@@ -4,7 +4,7 @@ description: This article provides guidance and answers to help you perform a ne
 ms.assetid: 5273C59E-6039-4E50-96B3-426BB38A64C0
 manager: frankbu
 ms.localizationpriority: medium
-ms.prod: surface
+ms.service: surface
 author: coveminer
 ms.author: chauncel
 ms.topic: how-to

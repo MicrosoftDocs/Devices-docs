@@ -1,7 +1,7 @@
 ---
 title: Surface Laptop Studio ISV-tested/certified apps
-description: This article lists professional applications that are tested/certified by ISVs and Microsoft for Surface Laptop Studio. 
-ms.prod: surface
+description: This article lists professional applications that have been tested/certified by ISVs and Microsoft for Surface Laptop Studio. 
+ms.service: surface
 ms.localizationpriority: medium
 author: coveminer
 ms.author: chauncel

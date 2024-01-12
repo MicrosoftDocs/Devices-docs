@@ -1,7 +1,7 @@
 ---
 title: "Migrate to Windows 11 Pro or Enterprise on Surface Hub 3"
 description: "How to migrate from Surface Hub 3 to Windows 11 Pro or Enterprise."
-ms.prod: surface-hub
+ms.service: surface-hub
 author: coveminer
 ms.author: dpandre
 manager: frankbu

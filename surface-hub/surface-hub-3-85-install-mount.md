@@ -1,7 +1,7 @@
 ---
 title: "Install and mount Surface Hub 3 85"
 description: "Learn how to install and mount Surface Hub 3 85."
-ms.prod: surface-hub
+ms.service: surface-hub
 author: coveminer
 ms.author: chauncel
 manager: frankbu

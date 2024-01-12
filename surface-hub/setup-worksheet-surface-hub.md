@@ -4,7 +4,7 @@ description: When you've finished pre-setup and are ready to start first-time se
 ms.assetid: AC6F925B-BADE-48F5-8D53-8B6FFF6EE3EB
 ms.reviewer: 
 manager: frankbu
-ms.prod: surface-hub
+ms.service: surface-hub
 author: coveminer
 ms.author: chauncel
 ms.topic: how-to

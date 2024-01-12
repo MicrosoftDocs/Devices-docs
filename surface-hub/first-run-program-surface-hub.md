@@ -4,7 +4,7 @@ description: The term \ 0034;first run \ 0034; refers to the series of steps you
 ms.assetid: 07C9E84C-1245-4511-B3B3-75939AD57C49
 ms.reviewer: 
 manager: frankbu
-ms.prod: surface-hub
+ms.service: surface-hub
 author: coveminer
 ms.author: chauncel
 ms.topic: how-to

@@ -1,7 +1,7 @@
 ---
 title: Manage your Surface warranty & service requests
 description: Microsoft 365 Business customers may be eligible to use the beta Surface Self Serve Warranty and Service node in the Microsoft Admin Center to create and manage service orders. 
-ms.prod: surface
+ms.service: surface
 ms.localizationpriority: medium
 author: coveminer
 ms.author: chauncel

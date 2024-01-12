@@ -3,7 +3,7 @@ title: Get started with Surface Hub 3
 description: Begin your journey with the Surface Hub 3 - find comprehensive guides on setup, features, and tips to maximize productivity with Microsoft's latest interactive whiteboard.
 ms.reviewer: dpandre
 manager: frankbu
-ms.prod: surface-hub
+ms.service: surface-hub
 author: coveminer
 ms.author: dpandre
 ms.topic: how-to

@@ -1,9 +1,9 @@
 ---
 title: Considerations for Surface and Microsoft Endpoint Configuration Manager
 description: The management and deployment of Surface devices with Configuration Manager is fundamentally the same as any other PC; this article describes scenarios that may require other considerations.
-ms.prod: surface
+ms.service: surface
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: how-to
 ms.localizationpriority: medium
 manager: frankbu

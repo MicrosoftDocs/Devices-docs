@@ -1,10 +1,10 @@
 ---
 title: Advanced Exchange replacement for Surface devices
 description: This article explains how to use Advanced Exchange to service or repair eligible Surface devices.
-ms.prod: w11
+ms.service: windows-11
 ms.localizationpriority: medium
 author: coveminer
-ms.author: hachidan
+ms.author: chauncel
 ms.topic: how-to
 ms.date: 10/28/2022
 ms.reviewer: 

@@ -2,7 +2,7 @@
 title: Replace & install camera on Surface Hub 2S
 description: Explains how to remove the Surface Hub 2S camera and install a replacement camera such as the Surface Hub Smart Camera.
 manager: frankbu
-ms.prod: surface-hub
+ms.service: surface-hub
 author: coveminer
 ms.author: chauncel
 ms.topic: troubleshooting

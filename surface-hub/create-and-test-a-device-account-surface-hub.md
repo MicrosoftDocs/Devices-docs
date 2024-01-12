@@ -4,7 +4,7 @@ description: This article introduces how to create and test the device account t
 ms.assetid: C8605B5F-2178-4C3A-B4E0-CE32C70ECF67
 ms.reviewer: rikot
 manager: frankbu
-ms.prod: surface-hub
+ms.service: surface-hub
 author: coveminer
 ms.author: chauncel
 ms.topic: how-to

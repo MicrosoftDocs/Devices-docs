@@ -3,7 +3,7 @@ title: PowerShell for Surface Hub (v1)
 description: This page includes PowerShell scripts intended for the original Surface Hub (v1)
 ms.assetid: 3EF48F63-8E4C-4D74-ACD5-461F1C653784
 manager: frankbu
-ms.prod: surface-hub
+ms.service: surface-hub
 author: coveminer
 ms.author: chauncel
 ms.topic: how-to

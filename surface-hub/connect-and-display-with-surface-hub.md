@@ -4,7 +4,7 @@ description: You can connect other device to your Surface Hub to display content
 ms.assetid: 8BB80FA3-D364-4A90-B72B-65F0F0FC1F0D
 ms.reviewer: dpandre
 manager: frankbu
-ms.prod: surface-hub
+ms.service: surface-hub
 author: coveminer
 ms.author: chauncel
 ms.topic: how-to
