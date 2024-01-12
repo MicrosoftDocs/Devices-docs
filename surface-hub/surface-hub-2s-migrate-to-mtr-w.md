@@ -20,34 +20,33 @@ This article explains how to migrate Surface Hub 2S to the Microsoft Teams Rooms
 
 ## Background
 
-- Surface Hub 2S devices can be migrated provided they meet specific prerequisites.
-- The migration process is initiated via the Surface Hub 2S OS Migration Launcher - Microsoft Teams Rooms app, which can be installed directly on a Surface Hub 2S or remotely via Intune or other cloud management tools.
+- Begin the migration process via the downloadable **Surface Hub 2S OS Migration Launcher - Microsoft Teams Rooms** app, which you can install directly on a Surface Hub 2S or remotely via Intune or other cloud management tools.
 
 > [!NOTE]
 > The Migration Launcher app is specifically for Surface Hub 2S devices transitioning from the Windows 10 Team edition OS to Microsoft Teams Rooms on Windows experience (comprised of the Windows 11 IoT Enterprise 22H2 OS running the Microsoft Teams Rooms application).
 Installing the Migration Launcher app on a Surface Hub 2S triggers the migration if the device meets the prerequisite conditions. The app provides no other functionality and no user interface.
 
+### Migration Launcher app deletes OS and data
+
 > [!CAUTION]
-> Do not install the Migration Launcher app on Surface Hub 2S unless you are prepared for immediate migration.
+> Do not install the Migration Launcher app on Surface Hub 2S unless you are prepared for immediate migration to Microsoft Teams Rooms on Windows experience.
 
-### Additional considerations
-
-- Migration completely removes the Windows 10 Team edition OS.
-- By electing to install the Migration Launcher application on a Surface Hub 2S and thereby initiate a software migration, customers acknowledge they will completely remove the Windows 10 Team edition OS, including uninstalling and removing any accounts, data, and other current configurations.
-- The Microsoft Teams Rooms on Windows experience on a Surface Hub 2S  put the device into an increased energy consumption state due to the new software platform's different sleep state and power management characteristics.
-- This app does not affect first-generation Surface Hub models (as neither software migration nor the Microsoft Teams Rooms on Windows experience are supported on first-generation Surface Hubs).
+- Migration completely removes the Windows 10 Team edition operating system that comes with Surface Hub 2S.
+- By selecting to install the Migration Launcher app on a Surface Hub 2S and thereby initiate a software migration, you consent to the removal of the Windows 10 Team edition OS, including the uninstall and removal of accounts, data, and other current configurations.
+- The Microsoft Teams Rooms on Windows experience puts on Surface Hub 2S into an increased energy consumption state due to changes in default sleep state and power management settings.
+- This app does not affect first-generation Surface Hub models. The Microsoft Teams Rooms on Windows experience is not supported on first-generation Surface Hubs (Surface Hub v1).
 - The migration process involves downloading approximately 30 GB and requires a minimum amount of available storage on-system to create a temporary partition.
 
 ## Prerequisites
 
-- Ensure Surface Hub 2S is connected to the Internet and has the latest Windows Updates, including  Microsoft Corporation - System Hardware Update - 11/21/2023.
-- To get all the required updates, sign in with Admin credentials, go to **All apps > Settings** >**Update and Security** >**Windows Update**, and install all updates. Repeat this process to ensure you have all the available updates.
+- Ensure Surface Hub 2S is connected to the Internet and has the latest Windows Updates, including **Microsoft Corporation - System Hardware Update - 11/21/2023**.
+- To get all the required updates, sign in with Admin credentials, go to **All apps > Settings** >**Update and Security** >**Windows Update**, and install all updates. - Repeat the update retrieval process until you have installed all the available updates.
 - Once updated, confirm that the UEFI version is **699.845.768.0** or later.
 - Migration requires Windows 11 [OS Build19045.3758](https://support.microsoft.com/en-us/topic/november-30-2023-kb5032278-os-build-19045-3758-preview-0ae14f06-577e-4eb3-8fcb-c722f3f9dc29).
 - Confirm network access to required sites: **.devices.microsoft.com and download.microsoft.com**.
 - Validate that your network can handle a **30 GB download**.
 
-## Install the Migration Launcher app to trigger a migration
+## Install Migration Launcher app to trigger a migration
 
 Choose one of the following options:
 
@@ -60,17 +59,17 @@ Choose one of the following options:
 2. Search for **Surface Hub 2S OS Migration Launcher – Microsoft Teams Rooms** and select **Get**.
 ![Screenshot of Surface Hub 2S OS Migration Launcher](images/surface-hub2s-migration-app-download.png)
 3. To validate successful installation, select **All apps** and look for **Surface Hub 2S OS Migration Launcher**.
-4. Once you see the Migration Launcher in the app list, the migration proceeds automatically upon restart into the Windows 10 Team OS. You can either manually restart Surface Hub 2S or wait until the system automatically restarts during the default nightly maintenance window.
+4. Once you see the Migration Launcher in the app list, the migration proceeds automatically upon restarting the Windows 10 Team OS. You can either manually restart Surface Hub 2S or wait until the system automatically restarts during the default nightly maintenance window.
 
 > [!TIP]
 > After this initial restart, do not interfere with the system; even though it may appear nothing is happening and you still see the old OS, the migration proceeds independently after completing all necessary backend processes (including downloading and unzipping the new OS image).
 
 5. Typical migration time is around **90** minutes from restart after installing the Migration Launcher app, but the length can vary depending on many characteristics, including customer network bandwidth and related factors.
-6. When migration is complete, the device displays the Windows first-time setup program, aka Out of the Box Experience (OOBE). To learn more, see [First time setup for Surface Hub 3](first-run-program-surface-hub-3.md).
+6. When migration is complete, the device displays the Windows first-time setup program, aka Out of the Box Experience (OOBE). To learn more, see [First-time setup for Surface Hub 3](first-run-program-surface-hub-3.md).
 
 ### Remotely install Migration Launcher app via Intune
 
-**Summary**
+#### Summary
 
 1. [Ensure your Surface Hub 2S devices are **enrolled in Intune**](#ensure-your-surface-hub-2s-devices-are-enrolled-in-intune).
 2. [Add Surface Hub 2S devices to a **Device group**](#add-surface-hub-2s-devices-to-a-device-group).
@@ -129,12 +128,12 @@ Download the migration launcher app package from Microsoft Store for Business.
 #### Get offline-licensed app package for Migration Launcher
 
 1. Shop for the app and add it to your group inventory. Select **Shop for my group** and search for **Surface Hub 2S OS Migration Launcher – Microsoft Teams Rooms**. (Alternatively, search via the app ID: **9P81T95QGN1P**).
-2. On the app page, for License type, select **Offline** > **Get the app**. This adds the app to your Microsoft Store for Business group inventory. After you see a "toast message" indicating you successfully added the app to your library, select **Manage**, as shown in the following figure. (Note that the Manage button has replaced Get the app button).
+2. On the app page, for License type, select **Offline** > **Get the app**. This adds the app to your Microsoft Store for Business group inventory. After you see a "toast message" indicating you successfully added the app to your library, select **Manage**, as shown in the following figure. (Note that the Manage button has replaced the Get the app button).
 
 ![Screenshot that shows how to enable offline apps in Microsoft Store for Business](images/store-for-business-migration-app.png)
 
 3. After you select **Manage**, the page listing for the Migration Launcher app is displayed. Wait a few moments for the spinner to complete and the Download portion of the resulting page to appear.
-4. Under Download package for offline use, select the desired architecture (X64, X86, ARM). We recommend using x86.
+4. Under **Download package for offline use**, select your desired architecture (X64, X86, ARM). We recommend using x86.
 5. Select **Package details** and choose **Download** to initiate the download of the MsixBundle for the package identity name: **Microsoft.SurfaceHUBMTROSTriggerApp**.
 
 ![Screenshot of Download app](images/hub2s-migration-app-download.png)
@@ -142,7 +141,7 @@ Download the migration launcher app package from Microsoft Store for Business.
 - If you receive an error indicating the downloadable file is unsafe, select **Keep**.
 - If further prompted in the Edge browser that **This file can't be downloaded securely**, select **Keep anyway**.
 
-6. Under Required frameworks, download all three of the required frameworks on the page:
+6. Under Required *frameworks, download all three of the required frameworks on the page:
 
 - **Microsoft.VCLibs.140.00_14.0.32530.0_x86__8wekyb3d8bbwe**
 - **Microsoft.NET.Native.Framework.2.2_2.2.29512.0_x86__8wekyb3d8bbwe**
@@ -159,7 +158,7 @@ Download the migration launcher app package from Microsoft Store for Business.
 
 ![Screenshot of Select line of business app](images/hub2s-migration-select-lob-app.png)
 
-2. Configure app information on the Add App page. Under the App information section, click **Select app package file**. In the flyout pane, click the blue folder icon under App package file and navigate to select and upload your LOB app package, in this case, the Surface Hub 2S OS Migration Launcher – Microsoft Teams Rooms MSIXBUNDLE file downloaded in the earlier section.  
+2. Configure app information on the Add App page. Under the App information section, click **Select app package file**. In the flyout pane, click the blue folder icon under the App package file and navigate to select and upload your LOB app package, in this case, the Surface Hub 2S OS Migration Launcher – Microsoft Teams Rooms MSIXBUNDLE file downloaded in the earlier section.  
 3. Select **Dependency app files** and click the blue folder icon to select and upload all three dependencies. The inventory of required files displays a green check box to indicate that you have all the required files uploaded.
 
 ![Screenshot that shows selection of dependency files](images/hub2s-migration-select-dependencies.png)
@@ -171,7 +170,8 @@ Download the migration launcher app package from Microsoft Store for Business.
 4. Click **OK** after you've added all the necessary files.
 5. Under **App information**, select **Next**.
 
-**Assign app**
+### Assign app
+
 Under the Assignments tab, specify how the app is deployed to your Surface Hub 2S devices.
 You can make the app available for enrolled devices or assign it as required.
 
@@ -182,7 +182,7 @@ You can make the app available for enrolled devices or assign it as required.
 
 3. Select **Next**.
 
-**Review and create**
+### Review and create
 
 - Under **Review + create**, review all settings and configurations. Click **Create** to deploy the app.
 
@@ -190,7 +190,7 @@ You can make the app available for enrolled devices or assign it as required.
 
 This may take a few minutes, depending on network connectivity or other factors. You can check the upload status under the Notifications tray.
 
-**Monitor deployment**
+### Monitor deployment
 
 - After deploying, monitor the deployment status in Intune.
 - Navigate to the app in Intune and check the Overview and Assignments tabs to see the status and details of the deployment. Ensure you're checking the Device context status, not the User.
@@ -199,7 +199,7 @@ This may take a few minutes, depending on network connectivity or other factors.
 > Several factors contribute to how long it takes for the app to finish deployment and installation on the target devices, including device power/sleep state, sync cadence/status with Intune, and related factors. Continue to monitor Intune status for indications of successful app deployment.
 
 - Once the app is deployed, the next restart initiates migration, which - in this remote deployment scenario - is likely to be the automatic restart as part of the nightly maintenance window. Similar to the manual app deployment scenario, the migration process typically takes about 90 minutes after this restart (but many factors can impact migration time, as explained earlier, with a test example exceeding 5 hours on a slower network). Customers must test and validate sequences relative to their unique infrastructure and management approaches.
-- When migration is complete, the device displays the Windows first-time setup program, aka Out of the Box Experience (OOBE). To learn more, see [First time setup for Surface Hub 3](first-run-program-surface-hub-3.md).
+- When migration is complete, the device displays the Windows first-time setup program, aka Out of the Box Experience (OOBE). To learn more, see [First-time setup for Surface Hub 3](first-run-program-surface-hub-3.md).
 
 ## Troubleshooting
 
