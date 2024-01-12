@@ -3,11 +3,11 @@ title: Migrate Surface Hub 2S to Microsoft Teams Rooms on Windows
 description: This guide provides IT admins with detailed instructions on how to software-migrate a Surface Hub 2S to the Microsoft Teams Rooms on Windows experience.
 ms.reviewer: dpandre
 manager: frankbu
-ms.prod: surface-hub
+ms.service: surface-hub
 author: coveminer
 ms.author: dpandre
 ms.topic: how-to
-ms.date: 01/04/2024
+ms.date: 01/17/2024
 ms.localizationpriority: medium
 appliesto:
 - Surface Hub 2S
@@ -16,7 +16,7 @@ appliesto:
 
 # Migrate Surface Hub 2S to Microsoft Teams Rooms on Windows
 
- This article provides IT admins with detailed instructions on how to software-migrate a Surface Hub 2S to the Microsoft Teams Rooms on Windows experience (the same software platform shipping on new Surface Hub 3 devices).
+This article explains how to migrate Surface Hub 2S to the Microsoft Teams Rooms on Windows experience via a UWP app. This enables Surface Hub 2S devices to run the same software platform shipping on new Surface Hub 3 devices.
 
 ## Background
 
@@ -189,7 +189,7 @@ This may take a few minutes, depending on network connectivity or other factors.
 > Several factors contribute to how long it takes for the app to finish deployment and installation on the target devices, including device power/sleep state, sync cadence/status with Intune, and related factors. Continue to monitor Intune status for indications of successful app deployment.
 
 - Once the app is deployed, the next restart initiates migration, which - in this remote deployment scenario - is likely to be the automatic restart as part of the nightly maintenance window. Similar to the manual app deployment scenario, the migration process typically takes about 90 minutes after this restart (but many factors can impact migration time, as explained earlier, with a test example exceeding 5 hours on a slower network). Customers must test and validate sequences relative to their unique infrastructure and management approaches.
-- When migration is complete, the device displays the Windows first-time setup program, aka Out of the Box Experience (OOBE). To learn more, see [First time setup for Surface Hub 3](https://learn.microsoft.com/surface-hub/first-run-program-surface-hub-3).
+- When migration is complete, the device displays the Windows first-time setup program, aka Out of the Box Experience (OOBE). To learn more, see [First time setup for Surface Hub 3](first-run-program-surface-hub-3.md).
 
 ## Troubleshooting
 
@@ -214,6 +214,6 @@ This may take a few minutes, depending on network connectivity or other factors.
 Review the following articles for recommended next steps:
 
 - [Get started with Surface Hub 3](surface-hub-3-get-started.md)
-- [First -time setup for Surface Hub 3](https://learn.microsoft.com/surface-hub/first-run-program-surface-hub-3)
+- [First-time setup for Surface Hub 3](first-run-program-surface-hub-3.md)
 - [Surface Hub 3 security best practices](surface-hub-3-security.md)
 - [Install Windows Bloom wallpaper on Surface Hub 3](install-wallpaper-surface-hub.md)
