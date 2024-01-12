@@ -58,6 +58,7 @@ Choose one of the following options:
 
 1. Sign back in as admin. Go to **Surface Hub** >Apps & features** >**Open Store**.
 2. Search for **Surface Hub 2S OS Migration Launcher – Microsoft Teams Rooms** and select **Get**.
+![Screenshot of Surface Hub 2S OS Migration Launcher](images/surface-hub2s-migration-app-download.png)
 3. To validate successful installation, select **All apps** and look for **Surface Hub 2S OS Migration Launcher**.
 4. Once you see the Migration Launcher in the app list, the migration proceeds automatically upon restart into the Windows 10 Team OS. You can either manually restart Surface Hub 2S or wait until the system automatically restarts during the default nightly maintenance window.
 
@@ -78,12 +79,15 @@ Choose one of the following options:
 4. [Configure Microsoft Store for Business to display offline apps](#configure-microsoft-store-for-business-to-display-offline-apps)
 4. [Deploy Migration Launcher app via **Intune**](#deploy-migration-launcher-app-via-intune).
 
-#### Ensure your Surface Hub 2S devices are enrolled in Intune
+#### Ensure your Surface Hub 2S devices are sufficiently updated & enrolled in Intune
 
 - To verify enrollment, sign into **Entra ID**, go to **Devices** > **All devices** and look for the names of your target devices.
 
-> [!TIP]
-> This is a good opportunity to check that the OS version for the target devices meets the prerequisites listed above, specifically **OS version 19045.3758**.
+- Check that the OS version for the target devices meets the prerequisites listed above, specifically **OS version 19045.3758**.
+
+For example, note that the enrolled Surface Hub 2S devices, shown in the following figure, need to be updated to run OS version 19045.3758 or later. 
+
+![Screenshot of Surface Hub 2S devices enrolled in Microsoft Entra ID](images/check-os-version-surface-hubs.png)
 
 #### Add Surface Hub 2S devices to a Device group
 
@@ -96,7 +100,9 @@ Choose one of the following options:
 4. Enter a **Group name** and **Group description** for the new group.
 5. In the Membership type field, choose **Assigned**.
 6. Select **Create** to create the new group.
-7. Click into the Group, select  **Members** >**Add members** and add the Surface Hub 2S devices you're targeting for migration.
+7. Open the Group, select  **Members** >**Add members** and add the Surface Hub 2S devices you're targeting for migration.
+
+![Screenshot that shows how to add members to a security group in Microsoft Intune admin center](images/add-members-security-group.png)
 
 ### Associate store account with Intune
 
