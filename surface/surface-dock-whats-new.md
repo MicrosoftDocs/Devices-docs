@@ -1,7 +1,7 @@
 ---
 title: What’s new in Surface Thunderbolt 4 Dock
 description: This article highlights new features and functionality for the next generation Surface Dock.
-ms.prod: surface
+ms.service: surface
 ms.localizationpriority: medium
 author: coveminer
 ms.author: chauncel

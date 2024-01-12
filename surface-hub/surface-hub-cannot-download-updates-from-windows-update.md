@@ -7,11 +7,11 @@ ms.author: delhan
 manager: dcscontentpm
 audience: itpro
 ms.topic: troubleshooting
-ms.prod: surface-hub
+ms.service: surface-hub
 localization_priority: medium
 ms.reviewer: jarrettr
 ms.custom: csstroubleshoot
-ms.technology: windows
+
 ---
 # Surface Hub can't download updates from Windows Update
 

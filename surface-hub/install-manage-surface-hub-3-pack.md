@@ -3,7 +3,7 @@ title: Install and manage Surface Hub 3 Pack
 description: Explains how to upgrade Surface Hub 2S to Surface Hub 3 by installing the Surface Hub 3 Pack. 
 ms.reviewer: dpandre
 manager: frankbu
-ms.prod: surface-hub
+ms.service: surface-hub
 author: coveminer
 ms.author: chauncel
 ms.topic: how-to

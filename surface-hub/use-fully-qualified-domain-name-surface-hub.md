@@ -8,7 +8,7 @@ ms.date: 01/18/2023
 ms.reviewer: 
 manager: frankbu
 ms.localizationpriority: medium
-ms.prod: surface-hub
+ms.service: surface-hub
 
 ---
 

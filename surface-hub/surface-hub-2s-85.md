@@ -1,7 +1,7 @@
 ---
 title: "Surface Hub 2S 85-inch"
 description: "This article introduces Surface Hub 2S 85-inch."
-ms.prod: surface-hub
+ms.service: surface-hub
 author: coveminer
 ms.author: chauncel
 manager: frankbu
@@ -29,7 +29,7 @@ The 85" version of the Surface Hub family brings the Surface Hub 2S experience t
 |**Shipping dimensions**| 89.5” x 62” x 22.8”<br>(2275 mm x 1573 mm x 580 mm)                                                                                                                                                                                                        |
 |**Weight**| 185 lbs (84 kg)                                                                                                                                                                                                                                            |
 |**Shipping weight**| 399 lbs (181 kg)                                                                                                                                                                                                                                            |
-|**Display**| PixelSense™ Display, 16:9 aspect ratio, 10-bit color, 30.5mm border width, anti-glare, IPS LCD, in-cell touch with 20 simultaneous touch points                                                                                                           |
+|**Display**| PixelSense™ Display, 16:9 aspect ratio, 8-bit color, 30.5mm border width, anti-glare, IPS LCD, in-cell touch with 20 simultaneous touch points                                                                                                           |
 |**Resolution**| 3840 x 2160 (4K UHD)                                                                                                                                                                                                                                              |
 |**Contrast ratio**| 1000:1 (typical), 800:1 (minimum) |
 |**Brightness**| 280 nits (typical)|

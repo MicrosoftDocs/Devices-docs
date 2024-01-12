@@ -1,7 +1,7 @@
 ---
 title: Surface device compatibility with Windows 10 Long-Term Servicing Channel (Surface)
 description: Find out about compatibility and limitations of Surface devices running Windows 10 Enterprise LTSB edition.
-ms.prod: surface
+ms.service: surface
 author: coveminer
 ms.author: chauncel
 ms.topic: conceptual

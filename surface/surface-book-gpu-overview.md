@@ -1,7 +1,7 @@
 ---
 title: Surface Book 3 GPU technical overview
 description: This article provides a technical evaluation of GPU capabilities across Surface Book 3 models. 
-ms.prod: surface
+ms.service: surface
 ms.localizationpriority: medium
 author: coveminer
 ms.author: chauncel

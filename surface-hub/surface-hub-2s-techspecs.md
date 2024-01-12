@@ -1,7 +1,7 @@
 ---
 title: "Surface Hub 2S tech specs"
 description: "View tech specs for Surface Hub 2S including pen, camera, and optional mobile battery specifications."
-ms.prod: surface-hub
+ms.service: surface-hub
 author: coveminer
 manager: frankbu
 ms.author: chauncel
@@ -18,7 +18,7 @@ ms.localizationpriority: Medium
 |**Shipping dimensions**| 47.64" x 36.89" x 9.92" (1,210 mm x 937 mm x 252 mm)|
 |**Weight**| 61.6 lbs. (28 kg) |
 |**Shipping Weight**| 81.08 lbs. (36.77 kg) |
-|**Display**| PixelSense Display, 3:2 aspect ratio, 10-bit color, 15.5 mm border, anti-glare, IPS LCD |
+|**Display**| PixelSense Display, 3:2 aspect ratio, 8-bit color, 15.5 mm border, anti-glare, IPS LCD |
 |**Resolution**| 3840 x 2560 (4K UHD) |
 |**Contrast**| 1200:1 (typical), 1000:1 minimum |
 |**Brightness**| 350 nits (typical)  |

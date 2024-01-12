@@ -4,7 +4,7 @@ description: Shows how to reset and recover the original Surface Hub v1.
 ms.assetid: 44E82EEE-1905-464B-A758-C2A1463909FF
 ms.reviewer: 
 manager: frankbu
-ms.prod: surface-hub
+ms.service: surface-hub
 author: coveminer
 ms.author: chauncel
 ms.topic: troubleshooting

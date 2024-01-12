@@ -4,7 +4,7 @@ description: This article provides links to downloadable packages containing dri
 ms.assetid: CD1219BA-8EDE-4BC8-BEEF-99B50C211D73
 manager: frankbu
 ms.localizationpriority: medium
-ms.prod: surface
+ms.service: surface
 author: coveminer
 ms.author: chauncel
 ms.topic: how-to

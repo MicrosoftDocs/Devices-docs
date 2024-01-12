@@ -47,7 +47,8 @@
     "globalMetadata": {
       "breadcrumb_path": "/surface-hub/breadcrumb/toc.json",
       "ROBOTS": "INDEX, FOLLOW",
-      "ms.technology": "windows",
+      "ms.service": "surface", 
+      "ms.subservice": "windows",
       "audience": "ITPro",
       "ms.topic": "article",
       "manager": "laurawi",

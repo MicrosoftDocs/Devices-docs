@@ -2,7 +2,7 @@
 title: Change display language on Surface Hub
 description: Once a Surface Hub admin installs other language packs, users can change the display language by selecting a new one from the available installed languages.
 manager: frankbu
-ms.prod: surface-hub
+ms.service: surface-hub
 author: coveminer
 ms.author: chauncel
 ms.topic: troubleshooting

@@ -4,7 +4,7 @@ description: Information on Conditional Access and the requirements of the Surfa
 ms.assetid: 8BB80FA3-D364-4A90-B72B-65F0F0FC1F0D
 ms.reviewer: 
 manager: peterdem
-ms.prod: surface-hub
+ms.service: surface-hub
 ms.sitesec: library
 author: ryanbwold
 ms.author: rwold
