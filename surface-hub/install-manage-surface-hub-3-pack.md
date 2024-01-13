@@ -36,7 +36,7 @@ The Surface Hub 3 Pack is a hardware upgrade that transforms your Surface Hub 2S
 
 Review the following demo and follow the instructions on this page.
 
-[!video https://www.microsoft.com/en-us/videoplayer/embed/RW1eQiI]
+> [!video https://www.microsoft.com/en-us/videoplayer/embed/RW1eQiI]
 
 1. Shut down Surface Hub 2S, unplug all cables, and slide the cover sideways.
 
