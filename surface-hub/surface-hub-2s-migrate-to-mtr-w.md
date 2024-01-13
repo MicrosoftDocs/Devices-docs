@@ -39,7 +39,8 @@ If you have a Surface Hub 2S, you can migrate it to run the Microsoft Teams Room
 ## Prerequisites
 
 - Ensure Surface Hub 2S is connected to the Internet and has the latest Windows Updates, including **Microsoft Corporation - System Hardware Update - 11/21/2023**.
-- To get all the required updates, sign in with Admin credentials, go to **All apps > Settings** >**Update and Security** >**Windows Update**, and install all updates. - Repeat the update retrieval process until you have installed all the available updates.
+- To get all the required updates, sign in with Admin credentials, go to **All apps > Settings** >**Update and Security** >**Windows Update**, and install all updates. 
+- Repeat the update retrieval process until you have installed all the available updates.
 - Once updated, confirm that the UEFI version is **699.845.768.0** or later.
 - Migration requires Windows 11 [OS Build19045.3758](https://support.microsoft.com/en-us/topic/november-30-2023-kb5032278-os-build-19045-3758-preview-0ae14f06-577e-4eb3-8fcb-c722f3f9dc29).
 - Confirm network access to required sites: **.devices.microsoft.com and download.microsoft.com**.
@@ -48,7 +49,7 @@ If you have a Surface Hub 2S, you can migrate it to run the Microsoft Teams Room
 ## Surface Hub 3 Pack option
 
 > [!TIP]
-> Alternatively, if you don't wish to migrate your Surface Hub 2S, you can purchase the [Surface Hub 3 Pack](surface-hub-3-pack-faq.md), which lets you swap out the old cartridge and instantly convert your Surface Hub 2S to a Surface Hub 3. To learn more, see [Install and manage Surface Hub 3 Pack](install-manage-surface-hub-3-pack.md). 
+> Alternatively, if you don't wish to migrate your Surface Hub 2S, you can purchase the [Surface Hub 3 Pack](surface-hub-3-pack-faq.md), which lets you swap out your existing cartridge and instantly convert your Surface Hub 2S to a Surface Hub 3. To learn more, see [Install and manage Surface Hub 3 Pack](install-manage-surface-hub-3-pack.md). 
 
 > [!NOTE]
 > Support for the current OS on Surface Hub, based on Windows 10 version 22H2, is scheduled to end on October 14, 2025.
