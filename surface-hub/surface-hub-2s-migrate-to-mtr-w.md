@@ -16,15 +16,14 @@ appliesto:
 
 # Migrate Surface Hub 2S to Microsoft Teams Rooms on Windows
 
-This article explains how to migrate Surface Hub 2S to the Microsoft Teams Rooms on Windows experience via a UWP app. This enables Surface Hub 2S devices to run the same software platform shipping on new Surface Hub 3 devices.
+If you have a Surface Hub 2S, you can migrate it to run the Microsoft Teams Rooms on Windows experience and bring HD video, audio, and content sharing to meetings of all sizes, from small huddle areas to large conference rooms. This enables Surface Hub 2S devices to run the same Windows 11 software platform shipping on new Surface Hub 3 devices.
 
 ## Background
 
 - Begin the migration process via the downloadable **Surface Hub 2S OS Migration Launcher - Microsoft Teams Rooms** app, which you can install directly on a Surface Hub 2S or remotely via Intune or other cloud management tools.
 
 > [!NOTE]
-> The Migration Launcher app is specifically for Surface Hub 2S devices transitioning from the Windows 10 Team edition OS to Microsoft Teams Rooms on Windows experience (comprised of the Windows 11 IoT Enterprise 22H2 OS running the Microsoft Teams Rooms application).
-Installing the Migration Launcher app on a Surface Hub 2S triggers the migration if the device meets the prerequisite conditions. The app provides no other functionality and no user interface.
+> The Migration Launcher app is designed exclusively for Surface Hub 2S devices transitioning from the Windows 10 Team edition OS to the Microsoft Teams Rooms on Windows experience. It triggers the migration process under specific [prerequisite conditions](#prerequisites) and has no other functionality or user interface.
 
 ### Migration Launcher app deletes OS and data
 
@@ -33,7 +32,7 @@ Installing the Migration Launcher app on a Surface Hub 2S triggers the migration
 
 - Migration completely removes the Windows 10 Team edition operating system that comes with Surface Hub 2S.
 - By selecting to install the Migration Launcher app on a Surface Hub 2S and thereby initiate a software migration, you consent to the removal of the Windows 10 Team edition OS, including the uninstall and removal of accounts, data, and other current configurations.
-- The Microsoft Teams Rooms on Windows experience puts on Surface Hub 2S into an increased energy consumption state due to changes in default sleep state and power management settings.
+- The Microsoft Teams Rooms on Windows experience results in increased energy consumption on Surface Hub due to changes in sleep state and power management settings.
 - This app does not affect first-generation Surface Hub models. The Microsoft Teams Rooms on Windows experience is not supported on first-generation Surface Hubs (Surface Hub v1).
 - The migration process involves downloading approximately 30 GB and requires a minimum amount of available storage on-system to create a temporary partition.
 
@@ -45,6 +44,14 @@ Installing the Migration Launcher app on a Surface Hub 2S triggers the migration
 - Migration requires Windows 11 [OS Build19045.3758](https://support.microsoft.com/en-us/topic/november-30-2023-kb5032278-os-build-19045-3758-preview-0ae14f06-577e-4eb3-8fcb-c722f3f9dc29).
 - Confirm network access to required sites: **.devices.microsoft.com and download.microsoft.com**.
 - Validate that your network can handle a **30 GB download**.
+
+## Surface Hub 3 Pack option
+
+> [!TIP]
+> Alternatively, if you don't wish to migrate your Surface Hub 2S, you can purchase the [Surface Hub 3 Pack](surface-hub-3-pack-faq.md), which lets you swap out the old cartidge and instantly convert your Surface Hub 2S to a Surface Hub 3. To learn more, see [Install and manage Surface Hub 3 Pack](install-manage-surface-hub-3-pack.md). 
+
+> [!NOTE]
+> Support for the current OS on Surface Hub, based on Windows 10 version 22H2, is scheduled to end on October 14, 2025.
 
 ## Install Migration Launcher app to trigger a migration
 
