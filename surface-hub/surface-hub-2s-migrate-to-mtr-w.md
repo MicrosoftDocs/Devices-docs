@@ -62,7 +62,7 @@ Choose one of the following options:
 
 ### Manually install Migration Launcher app on Surface Hub 2S
 
-1. Sign back in as admin. Go to **Surface Hub** >Apps & features** >**Open Store**.
+1. Sign back in as admin. Go to **Surface Hub** > **Apps & features** > **Open Store**.
 2. Search for **Surface Hub 2S OS Migration Launcher – Microsoft Teams Rooms** and select **Get**.
 ![Screenshot of Surface Hub 2S OS Migration Launcher](images/surface-hub2s-migration-app-download.png)
 3. To validate successful installation, select **All apps** and look for **Surface Hub 2S OS Migration Launcher**.
