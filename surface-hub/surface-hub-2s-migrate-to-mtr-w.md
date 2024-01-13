@@ -48,7 +48,7 @@ If you have a Surface Hub 2S, you can migrate it to run the Microsoft Teams Room
 ## Surface Hub 3 Pack option
 
 > [!TIP]
-> Alternatively, if you don't wish to migrate your Surface Hub 2S, you can purchase the [Surface Hub 3 Pack](surface-hub-3-pack-faq.md), which lets you swap out the old cartidge and instantly convert your Surface Hub 2S to a Surface Hub 3. To learn more, see [Install and manage Surface Hub 3 Pack](install-manage-surface-hub-3-pack.md). 
+> Alternatively, if you don't wish to migrate your Surface Hub 2S, you can purchase the [Surface Hub 3 Pack](surface-hub-3-pack-faq.md), which lets you swap out the old cartridge and instantly convert your Surface Hub 2S to a Surface Hub 3. To learn more, see [Install and manage Surface Hub 3 Pack](install-manage-surface-hub-3-pack.md). 
 
 > [!NOTE]
 > Support for the current OS on Surface Hub, based on Windows 10 version 22H2, is scheduled to end on October 14, 2025.
