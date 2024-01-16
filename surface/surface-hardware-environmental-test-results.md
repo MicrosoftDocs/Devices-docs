@@ -6,7 +6,7 @@ ms.service: surface-hub
 author: coveminer
 ms.author: chauncel
 ms.topic: overview
-ms.date: 01/03/2023
+ms.date: 01/16/2024
 ms.localizationpriority: medium
 appliesto:
 - Windows 10
@@ -15,7 +15,7 @@ appliesto:
 
 # Surface hardware environmental test results
 
-Surface devices are built to withstand rigorous conditions that help ensure optimal reliability and lower cost of ownership.
+Surface devices are built to withstand rigorous conditions that help ensure optimal reliability and lower cost of ownership. Recent Surface devices meet United States Military standards for ruggedness and durability of equipment under various environmental conditions including temperature, humidity, shock, vibration, and other stressors.
 
 :::image type="content" source="images/surface-family.png" alt-text="Surface device family" :::
 
@@ -23,36 +23,36 @@ The MIL-STD-810 test standards, maintained by the US Department of Defense, help
 
 ## MIL-STD-810 test results
 
-Operational tests pass if the unit remained operational during the entire test, and non-operational tests pass if a functional verification was performed immediately after the test exposure. Tests were conducted in accordance with the MIL-STD-810 standards effective at the time of product release. The latest Surface devices – Surface Pro 9, Surface Pro 9 with 5G, Surface Laptop 5, and Surface Laptop Go 2 – meet the current standard, MIL-STD-810H.  Earlier devices were tested under the previous standard, MIL-STD-810G.
+Operational tests pass if the unit remained operational during the entire test, and non-operational tests pass if a functional verification was performed immediately after the test exposure. Tests were conducted in accordance with the MIL-STD-810 standards effective at the time of product release. Surface devices including Surface Go 4, Surface Pro 9, Surface Pro 9 with 5G, Surface Laptop 5, and Surface Laptop Go 2 meet the current standard, MIL-STD-810H. Tests for Surface Laptop Studio 2 and Surface Laptop Go 3 remain pending. Earlier devices were tested under the previous standard, MIL-STD-810G.
 
-## Latest devices 
+## Current standard: MIL-STD-810H
 
 :::image type="content" source="images/surface-pro-9-and-surface-laptop-5.png" alt-text="Surface Pro 9 and Surface Laptop 5" :::
 
 
-| Test                       | Surface Pro 9 | Surface Pro 9 with 5G | Surface Laptop 5 |
-| -------------------------- | ------------- | --------------------- | ---------------- |
-| Altitude Operating         | Pass          | Pass                  | Pass             |
-| Altitude Storage           | Pass          | Pass                  | Pass             |
-| Bench Handling Shock       | Pass          | Pass                  | Pass             |
-| Blowing Dust               | Pass          | Pass                  | Pass             |
-| Blowing Sand               | Pass          | Pass                  | Pass             |
-| Crash Safety Shock         | Pass          | Pass                  | Pass             |
-| Explosive Atmosphere       | Pass          | Pass                  | Pass             |
-| Freeze/Thaw                | Pass          | Pass                  | Pass             |
-| Functional Shock           | Pass          | Pass                  | Pass             |
-| High Temperature Operating | Pass          | Pass                  | Pass             |
-| High Temperature Storage   | Pass          | Pass                  | Pass             |
-| Humidity                   | Pass          | Pass                  | Pass             |
-| Low Temperature Operating  | Pass          | Pass                  | Pass             |
-| Low Temperature Storage    | Pass          | Pass                  | Pass             |
-| Temperature Shock          | Pass          | Pass                  | Pass             |
-| Transit Drop               | Pass          | Pass                  | Pass             |
-| Vibration (Category 24)    | Pass          | Pass                  | Pass             |
-| Vibration (Category 4)     | Pass          | Pass                  | Pass             |
+| Test                       |  Surface Go 4 |Surface Pro 9 | Surface Pro 9 with 5G | Surface Laptop 5 |
+| -------------------------- | ------------- | ------------- | --------------------- | ---------------- |
+| Altitude Operating         | Pass          | Pass                  | Pass             | Pass          |
+| Altitude Storage           | Pass          | Pass                  | Pass             | Pass          |
+| Bench Handling Shock       | Pass          | Pass                  | Pass             | Pass          |
+| Blowing Dust               | Pass          | Pass                  | Pass             | Pass          |
+| Blowing Sand               | Pass          | Pass                  | Pass             | Pass          |
+| Crash Safety Shock         | Pass          | Pass                  | Pass             | Pass          |
+| Explosive Atmosphere       | Pass          | Pass                  | Pass             | Pass          |
+| Freeze/Thaw                | Pass          | Pass                  | Pass             | Pass          |
+| Functional Shock           | Pass          | Pass                  | Pass             | Pass          |
+| High Temperature Operating | Pass          | Pass                  | Pass             | Pass          |
+| High Temperature Storage   | Pass          | Pass                  | Pass             | Pass          |
+| Humidity                   | Pass          | Pass                  | Pass             | Pass          |
+| Low Temperature Operating  | Pass          | Pass                  | Pass             | Pass          |
+| Low Temperature Storage    | Pass          | Pass                  | Pass             | Pass          |
+| Temperature Shock          | Pass          | Pass                  | Pass             | Pass          |
+| Transit Drop               | Pass          | Pass                  | Pass             | Pass          |
+| Vibration (Category 24)    | Pass          | Pass                  | Pass             | Pass          |
+| Vibration (Category 4)     | Pass          | Pass                  | Pass             | Pass          |
 
 
-## Earlier devices
+## Earlier standard: MIL-STD-810G
 
 
 ### Surface Laptop family
