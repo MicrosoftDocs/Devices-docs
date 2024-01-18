@@ -81,14 +81,14 @@ Choose one of the following options:
 
 #### Summary
 
-1. [Ensure your Surface Hub 2S devices are **enrolled in Intune**](#ensure-your-surface-hub-2s-devices-are-sufficiently-updated--enrolled-in-intune).
+1. [Ensure your Surface Hub 2S devices are fully updated and **enrolled in Intune**](#ensure-your-surface-hub-2s-devices-are-fully-updated-and-enrolled-in-intune).
 2. [Add Surface Hub 2S devices to a **Device group**](#add-surface-hub-2s-devices-to-a-device-group).
 3. [Associate Store for Business account with Intune](#associate-store-account-with-intune).
-3. [Download **Migration Launcher app**](#download-migration-launcher-app) from the **Microsoft Store for Business**.
-4. [Configure Microsoft Store for Business to display offline apps](#configure-microsoft-store-for-business-to-display-offline-apps)
-4. [Deploy Migration Launcher app via **Intune**](#deploy-migration-launcher-app-via-intune).
+4. [Download **Migration Launcher app**](#download-migration-launcher-app) from the **Microsoft Store for Business**.
+5. [Configure Microsoft Store for Business to display offline apps](#configure-microsoft-store-for-business-to-display-offline-apps)
+6. [Deploy Migration Launcher app via **Intune**](#deploy-migration-launcher-app-via-intune).
 
-#### Ensure your Surface Hub 2S devices are sufficiently updated & enrolled in Intune
+#### Ensure your Surface Hub 2S devices are fully updated and enrolled in Intune
 
 - To verify enrollment, sign into Intune admin center <!--use Intune view --> go to **Devices** > **All devices** and look for the names of your target devices.
 
