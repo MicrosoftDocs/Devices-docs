@@ -45,8 +45,12 @@ If you have a Surface Hub 2S, you can migrate it to run the Microsoft Teams Room
 - Once updated, confirm that the UEFI version is **699.845.768.0** or later. <!--To be replaced with Feb 3 UEFI version -->
 - If you're unable to check for Windows updates locally (for example, in remote admin scenarios), you can verify the OS version via Microsoft Intune admin center or other mobile device management (MDM) solutions.
 - You can also check by validating that Windows 10 [OS Build19045.3758](https://support.microsoft.com/en-us/topic/november-30-2023-kb5032278-os-build-19045-3758-preview-0ae14f06-577e-4eb3-8fcb-c722f3f9dc29) is present on the system. <!--To be replaced with later Win OS version (Feb 3) -->
-- Confirm network access to required sites: ***.devices.microsoft.com and download.microsoft.com**.
 - Validate that your network can handle a **30 GB download**.
+- Confirm network access to required sites: ***.devices.microsoft.com and download.microsoft.com**. There are several ways to verify access such as a ping test. Open a command line or console and enter the following:
+
+    ```console
+    ping devices.microsoft.com
+    ```
 
 ## Surface Hub 3 Pack option
 
