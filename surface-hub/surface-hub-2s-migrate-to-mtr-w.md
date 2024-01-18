@@ -42,8 +42,8 @@ If you have a Surface Hub 2S, you can migrate it to run the Microsoft Teams Room
 - To get all the required updates, sign in with Admin credentials, go to **All apps > Settings** >**Update and Security** >**Windows Update**, and install all updates. 
 - Repeat the update retrieval process until you have installed all the available updates.
 - Once updated, confirm that the UEFI version is **699.845.768.0** or later.
-- Migration requires Windows 11 [OS Build19045.3758](https://support.microsoft.com/en-us/topic/november-30-2023-kb5032278-os-build-19045-3758-preview-0ae14f06-577e-4eb3-8fcb-c722f3f9dc29).
-- Confirm network access to required sites: **.devices.microsoft.com and download.microsoft.com**.
+- You can also check by validating that Windows 10 [OS Build19045.3758](https://support.microsoft.com/en-us/topic/november-30-2023-kb5032278-os-build-19045-3758-preview-0ae14f06-577e-4eb3-8fcb-c722f3f9dc29) is present on the system.
+- Confirm network access to required sites: ***.devices.microsoft.com and download.microsoft.com**.
 - Validate that your network can handle a **30 GB download**.
 
 ## Surface Hub 3 Pack option
@@ -52,7 +52,7 @@ If you have a Surface Hub 2S, you can migrate it to run the Microsoft Teams Room
 > Alternatively, if you don't wish to migrate your Surface Hub 2S, you can purchase the [Surface Hub 3 Pack](surface-hub-3-pack-faq.md), which lets you swap out your existing cartridge and instantly convert your Surface Hub 2S to a Surface Hub 3. To learn more, see [Install and manage Surface Hub 3 Pack](install-manage-surface-hub-3-pack.md). 
 
 > [!NOTE]
-> Support for the current OS on Surface Hub, based on Windows 10 version 22H2, is scheduled to end on October 14, 2025.
+> Support for Windows 10 Team Edition OS on Surface Hub, based on Windows 10 version 22H2, is scheduled to end on October 14, 2025.
 
 ## Install Migration Launcher app to trigger a migration
 
@@ -67,10 +67,10 @@ Choose one of the following options:
 2. Search for **Surface Hub 2S OS Migration Launcher – Microsoft Teams Rooms** and select **Get**.
 ![Screenshot of Surface Hub 2S OS Migration Launcher](images/surface-hub2s-migration-app-download.png)
 3. To validate successful installation, select **All apps** and look for **Surface Hub 2S OS Migration Launcher**.
-4. Once you see the Migration Launcher in the app list, the migration proceeds automatically upon restarting the Windows 10 Team OS. You can either manually restart Surface Hub 2S or wait until the system automatically restarts during the default nightly maintenance window.
+4. Once you see the Migration Launcher in the app list, the migration proceeds automatically upon restarting the Windows 10 Team edition OS. You can either manually restart Surface Hub 2S or wait until the system automatically restarts during the default nightly maintenance window.
 
 > [!TIP]
-> After this initial restart, do not interfere with the system; even though it may appear nothing is happening and you still see the old OS, the migration proceeds independently after completing all necessary backend processes (including downloading and unzipping the new OS image).
+> After this initial restart, do not interfere with the system; even though it may appear nothing is happening and you still see the same experienc old OS, the migration proceeds independently after completing all necessary backend processes (including downloading and unzipping the new Teams Rooms on Windows image).
 
 5. Typical migration time is around **90** minutes from restart after installing the Migration Launcher app, but the length can vary depending on many characteristics, including customer network bandwidth and related factors.
 6. When migration is complete, the device displays the Windows first-time setup program, aka Out of the Box Experience (OOBE). To learn more, see [First-time setup for Surface Hub 3](first-run-program-surface-hub-3.md).
@@ -88,7 +88,7 @@ Choose one of the following options:
 
 #### Ensure your Surface Hub 2S devices are sufficiently updated & enrolled in Intune
 
-- To verify enrollment, sign into **Entra ID**, go to **Devices** > **All devices** and look for the names of your target devices.
+- To verify enrollment, sign into Intune admin center <!-use Intune view !> go to **Devices** > **All devices** and look for the names of your target devices.
 
 - Check that the OS version for the target devices meets the prerequisites listed above, specifically **OS version 19045.3758**.
 
@@ -149,11 +149,11 @@ Download the migration launcher app package from Microsoft Store for Business.
 - If you receive an error indicating the downloadable file is unsafe, select **Keep**.
 - If further prompted in the Edge browser that **This file can't be downloaded securely**, select **Keep anyway**.
 
-6. Under Required *frameworks, download all three of the required frameworks on the page:
+6. Under **Required frameworks**, download all three of the required frameworks on the page:
 
-- **Microsoft.VCLibs.140.00_14.0.32530.0_x86__8wekyb3d8bbwe**
-- **Microsoft.NET.Native.Framework.2.2_2.2.29512.0_x86__8wekyb3d8bbwe**
-- **Microsoft.NET.Native.Runtime.2.2_2.2.28604.0_x86__8wekyb3d8bbwe**
+    - **Microsoft.VCLibs.140.00_14.0.32530.0_x86__8wekyb3d8bbwe**
+    - **Microsoft.NET.Native.Framework.2.2_2.2.29512.0_x86__8wekyb3d8bbwe**
+    - **Microsoft.NET.Native.Runtime.2.2_2.2.28604.0_x86__8wekyb3d8bbwe**
 
 7. If you receive an error indicating the downloadable files are unsafe, click **Keep** and **Keep anyway**.
 8. You should now have four files (one MSIXBUNDLE File and three APPX Files) downloaded to your local computer and ready for the next step.
@@ -162,7 +162,7 @@ Download the migration launcher app package from Microsoft Store for Business.
 
 ## Deploy Migration Launcher app via Intune
 
-1. Sign in to [Microsoft Intune Admin Center](https://endpoint.microsoft.com/) and go to**Apps** >**All apps** >**Add**. Under App type, select **Line-of-business app**.
+1. Sign in to [Microsoft Intune Admin Center](https://endpoint.microsoft.com/) and go to **Apps** > **All apps** >**Add**. Under App type, select **Line-of-business app**.
 
 ![Screenshot of Select line of business app](images/hub2s-migration-select-lob-app.png)
 
@@ -216,10 +216,13 @@ This may take a few minutes, depending on network connectivity or other factors.
 - Verify that Surface Hub 2S is fully updated and otherwise meets the prerequisites described earlier. To learn more, see [Troubleshoot Surface Hub not Updating](troubleshoot-surface-hub-not-updating.md)
 - Ensure the Migration Launcher app has been installed on target Surface Hub 2S devices.
 - Ensure the system has restarted after installing the Migration Launcher app.
+- <!- possible step to advise ensuring sleep is turned off -!>
+
 
 ### Event logs
 
 - If migration does not proceed after 24 hours, check system event logs for possible errors, including a potential issue related to available storage space.
+- <!- add event log steps ->
 
 ### Remote deployment via Intune
 
