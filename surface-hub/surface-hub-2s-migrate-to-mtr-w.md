@@ -38,13 +38,13 @@ If you have a Surface Hub 2S, you can migrate it to run the Microsoft Teams Room
 
 ## Prerequisites
 
-- <!--Ensure Surface Hub 2S is connected to the Internet and has the latest Windows Updates, including **Microsoft Corporation - System Hardware Update - 02/03/2024 or later.>
+- <!--Ensure Surface Hub 2S is connected to the Internet and has the latest Windows Updates, including **Microsoft Corporation - System Hardware Update - 02/03/2024 or later.-->
 - Ensure Surface Hub 2S is connected to the Internet and has the latest Windows Updates, including **Microsoft Corporation - System Hardware Update - 11/21/2023** 
 - To get all the required updates, sign in with Admin credentials, go to **All apps > Settings** >**Update and Security** >**Windows Update**, and install all updates. 
 - Repeat the update retrieval process until you have installed all the available updates.
-- Once updated, confirm that the UEFI version is **699.845.768.0** or later. <!--To be replaced with Feb 3 UEFI version ->
+- Once updated, confirm that the UEFI version is **699.845.768.0** or later. <!--To be replaced with Feb 3 UEFI version -->
 - If you're unable to check for Windows updates locally (for example, in remote admin scenarios), you can verify the OS version via Microsoft Intune admin center or other mobile device management (MDM) solutions.
-- You can also check by validating that Windows 10 [OS Build19045.3758](https://support.microsoft.com/en-us/topic/november-30-2023-kb5032278-os-build-19045-3758-preview-0ae14f06-577e-4eb3-8fcb-c722f3f9dc29) is present on the system. <!--To be replaced with later Win OS version (Feb 3) ->
+- You can also check by validating that Windows 10 [OS Build19045.3758](https://support.microsoft.com/en-us/topic/november-30-2023-kb5032278-os-build-19045-3758-preview-0ae14f06-577e-4eb3-8fcb-c722f3f9dc29) is present on the system. <!--To be replaced with later Win OS version (Feb 3) -->
 - Confirm network access to required sites: ***.devices.microsoft.com and download.microsoft.com**.
 - Validate that your network can handle a **30 GB download**.
 
@@ -90,7 +90,7 @@ Choose one of the following options:
 
 #### Ensure your Surface Hub 2S devices are sufficiently updated & enrolled in Intune
 
-- To verify enrollment, sign into Intune admin center <!-use Intune view !> go to **Devices** > **All devices** and look for the names of your target devices.
+- To verify enrollment, sign into Intune admin center <!--use Intune view --> go to **Devices** > **All devices** and look for the names of your target devices.
 
 - Check that the OS version for the target devices meets the prerequisites listed above, specifically **OS version 19045.3758**.
 
@@ -223,7 +223,7 @@ This may take a few minutes, depending on network connectivity or other factors.
 ### Event logs
 
 - If migration does not proceed after 24 hours, check system event logs for possible errors, including a potential issue related to available storage space.
-- <!- add event log steps ->
+- <!-- add event log steps -->
 
 ### Remote deployment via Intune
 
