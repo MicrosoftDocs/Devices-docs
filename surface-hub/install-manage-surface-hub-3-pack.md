@@ -139,7 +139,7 @@ Select your country/region and follow the instructions to obtain a shipping labe
 > [!TIP]
 > Since both cartridges appear almost identical, we added two bumps to the edge of the Surface Hub 3 Pack cartridge. These bumps are located on the opposite side of the power socket, helping you differentiate between the two models.
 
-## Install custom wallpaper
+## Wallpaper
 
 The latest Windows Bloom wallpaper is available for your Surface Hub 3 device or Pack. To learn more, see [Install Windows Bloom wallpaper on Surface Hub 3](install-wallpaper-surface-hub.md).
 
