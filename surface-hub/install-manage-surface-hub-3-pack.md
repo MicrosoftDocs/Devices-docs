@@ -19,7 +19,9 @@ appliesto:
 
 The Surface Hub 3 Pack is a hardware upgrade that transforms your Surface Hub 2S device into a Surface Hub 3. To place an order, contact your [Surface device reseller](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface#DEVICESRESELLERS).
 
-## Prerequisites
+## Install Surface Hub 3 Pack
+
+### Prerequisites
 
 - A Surface Hub 2S, fully updated with the latest Windows Updates. By default, updates are installed automatically during nightly maintenance. To verify, go to **All apps** > **Settings** > **Update and Security** > **Windows Update**, and install all updates.
 
@@ -32,11 +34,13 @@ The Surface Hub 3 Pack is a hardware upgrade that transforms your Surface Hub 2S
 > [!NOTE]
 > Surface Hub 3 Pack runs Windows 11 IoT Enterprise and does not support downgrading to Windows 10 Team or Windows 10 Pro/Enterprise. (If needed, you can reinstall the old cartridge to resume using Surface Hub 2S). 
 
-### To install Surface Hub 3 Pack
+### Demo video
 
 Review the following demo and follow the instructions on this page.
 
 > [!video https://www.microsoft.com/en-us/videoplayer/embed/RW1eQiI]
+
+### Detailed instructions
 
 1. Shut down Surface Hub 2S, unplug all cables, and slide the cover sideways.
 
