@@ -7,7 +7,7 @@ ms.service: surface-hub
 author: coveminer
 ms.author: chauncel
 ms.topic: how-to
-ms.date: 01/08/2024
+ms.date: 01/18/2024
 ms.localizationpriority: medium
 appliesto:
 - Surface Hub 2S
@@ -68,7 +68,7 @@ If you manage Surface Hub 2S via Microsoft Intune or another mobile device manag
 
 ## Recycle Surface Hub 2S cartridge
 
-You will be able recycle the Surface Hub 2S cartridge as part of recommended sustainability best practices. Check this page for updates upon availability.
+You can now recycle your Surface Hub 2S cartridge if it no longer has use as a backup device for your IT department, or if you have upgraded to the Surface Hub 3 Pack. You’ll need to remove the hard drive from the cartridge to protect your sensitive data and meet global data retention requirements.
 
 ### Required removal of hard drive & corporate data
 
@@ -81,6 +81,59 @@ Before recycling your Surface Hub 2S cartridge, first remove the hard drive and 
 2. Remove the cover screw and the cover from the compute cartridge and then remove the solid state drive (SSD).
 
 ![Screenshot that shows removal of cover screw and cover from the compute cartridge and removal of solid state drive (SSD).](images/surface-hub-2s-repack-8.png)
+
+### Request a pre-paid shipping label
+
+Select your country/region and follow the instructions to obtain a shipping label. If you upgraded to the Surface Hub 3 Pack, you can use its original packaging to ship the Surface Hub 2S cartridge for recycling. 
+
+- [Australia](https://microsoft-hub.tes-amm.com/_Content/en-AU/)
+- [Austria](https://microsoft-hub.tes-amm.com/_Content/de-AT/)
+- [Bahrain](https://microsoft-hub.tes-amm.com/_Content/ar-BH/)
+- [Belgium](https://microsoft-hub.tes-amm.com/_Content/nl-BE/)
+- [Bulgaria](https://microsoft-hub.tes-amm.com/_Content/bg-BG)
+- [Canada](https://microsoft-hub.tes-amm.com/_Content/en-CA/)
+- [China](https://microsoft-hub.tes-amm.com/_Content/zh-CN/)
+- [Croatia](https://microsoft-hub.tes-amm.com/_Content/hr-HR/)
+- [Czech Republic](https://microsoft-hub.tes-amm.com/_Content/cs-CZ/)
+- [Denmark](https://microsoft-hub.tes-amm.com/_Content/da-DK/)
+- [Estonia](https://microsoft-hub.tes-amm.com/_Content/et-EE/)
+- [Finland](https://microsoft-hub.tes-amm.com/_Content/fi-FI/)
+- [France](https://microsoft-hub.tes-amm.com/_Content/fr-FR/)
+- [Germany](https://microsoft-hub.tes-amm.com/_Content/de-DE/)
+- [Greece](https://microsoft-hub.tes-amm.com/_Content/el-GR/)
+- [Hong Kong](https://microsoft-hub.tes-amm.com/_Content/en-HK/)
+- [Hungary](https://microsoft-hub.tes-amm.com/_Content/hu-HU/)
+- [India](https://microsoft-hub.tes-amm.com/_Content/en-IN/)
+- [Japan](https://microsoft-hub.tes-amm.com/_Content/ja-JP/)
+- [Kuwait](https://microsoft-hub.tes-amm.com/_Content/ar-KW/)
+- [Latvia](https://microsoft-hub.tes-amm.com/_Content/lv-LV/)
+- [Lichtenstein](https://microsoft-hub.tes-amm.com/_Content/de-LI/)
+- [Luxembourg](https://microsoft-hub.tes-amm.com/_Content/fr-LU/)
+- [Malaysia](https://microsoft-hub.tes-amm.com/_Content/ms-MY/)
+- [Mexico](https://microsoft-hub.tes-amm.com/_Content/es-MX/)
+- [Netherlands](https://microsoft-hub.tes-amm.com/_Content/nl-NL/)
+- [New Zealand](https://microsoft-hub.tes-amm.com/_Content/en-NZ/)
+- [Norway](https://microsoft-hub.tes-amm.com/_Content/no/)
+- [Poland](https://microsoft-hub.tes-amm.com/_Content/pl-PL/)
+- [Portugal](https://microsoft-hub.tes-amm.com/_Content/pt-PT/)
+- [Qatar](https://microsoft-hub.tes-amm.com/_Content/ar-QA/)
+- [Romania](https://microsoft-hub.tes-amm.com/_Content/ro-RO/)
+- [Saudi Arabia](https://microsoft-hub.tes-amm.com/_Content/ar-SA/)
+- [Singapore](https://microsoft-hub.tes-amm.com/_Content/en-SG/)
+- [Slovakia](https://microsoft-hub.tes-amm.com/_Content/sk-SK/)
+- [Slovenia](https://microsoft-hub.tes-amm.com/_Content/sl-SI/)
+- [South Africa](https://microsoft-hub.tes-amm.com/_Content/af-ZA/)
+- [South Korea](https://microsoft-hub.tes-amm.com/_Content/ko-KR/)
+- [Spain](https://microsoft-hub.tes-amm.com/_Content/es-ES/)
+- [Sweden](https://microsoft-hub.tes-amm.com/_Content/sv-SE/)
+- [Switzerland](https://microsoft-hub.tes-amm.com/_Content/fr-CH/)
+- [Taiwan](https://microsoft-hub.tes-amm.com/_Content/zh-TW/)
+- [Thailand](https://microsoft-hub.tes-amm.com/_Content/th-TH/)
+- [United Kingdom](https://microsoft-hub.tes-amm.com/_Content/en-GB/)
+- [United States](https://microsoft-hub.tes-amm.com/_Content/en-US/)
+
+> [!TIP]
+> Since both cartridges appear almost identical, we added two bumps to the edge of the Surface Hub 3 Pack cartridge. These bumps are located on the opposite side of the power socket, helping you differentiate between the two models.
 
 ## Install custom wallpaper
 
