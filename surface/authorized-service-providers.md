@@ -87,7 +87,6 @@ The growing ASP network consists of more than 160 locations.
 
 - [ASI solutions](https://www.asi.com.au/)
 - [Comp Now](https://www.compnow.com.au/)
-- [Double Rise](https://www.doublerise.com/)
 - [JB Hi-Fi](https://www.jbhifi.business/)
 - [Stott & Hoare](https://www.stotthoare.com.au/)
 - [Winthrop](https://www.winaust.com.au/)
