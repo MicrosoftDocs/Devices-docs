@@ -130,7 +130,7 @@ Select your country/region and follow the instructions to obtain a shipping labe
 - [Taiwan](https://microsoft-hub.tes-amm.com/_Content/zh-TW/)
 - [Thailand](https://microsoft-hub.tes-amm.com/_Content/th-TH/)
 - [United Kingdom](https://microsoft-hub.tes-amm.com/_Content/en-GB/)
-- [USA](https://microsoft-hub.tes-amm.com/_Content/en-US/)
+- [United States](https://microsoft-hub.tes-amm.com/_Content/en-US/)
 
 > [!TIP]
 > Since both cartridges appear almost identical, we added two bumps to the edge of the Surface Hub 3 Pack cartridge. These bumps are located on the opposite side of the power socket, helping you differentiate between the two models.
