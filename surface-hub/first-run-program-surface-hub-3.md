@@ -31,7 +31,7 @@ Before you start Surface Hub 3 for the first time, ensure that you have the foll
 - A resource account with a [supported Microsoft Teams Rooms license](/microsoftteams/rooms/rooms-licensing)
 
 > [!TIP]
-> For guidance about deploying Microsoft Teams Rooms on Windows, see: [Deployment overview](/microsoftteams/rooms/rooms-deploy). For an overview of requirements to get the most out of Microsoft Teams Rooms, see: [Prepare your environment](/microsoftteams/rooms/rooms-prep) 
+> For guidance about deploying Microsoft Teams Rooms on Windows, see: [Deployment overview](/microsoftteams/rooms/rooms-deploy). For an overview of requirements to get the most out of Microsoft Teams Rooms, see: [Prepare your environment](/microsoftteams/rooms/rooms-prep). 
 
 When you first start Surface Hub 3, the device automatically enters first-time Setup mode to guide you through account configuration and related settings.
 
@@ -82,6 +82,26 @@ Now, you're ready to begin the Microsoft Teams Rooms setup experience.
 1. Agree to Microsoft Software License Terms and acknowledge that you have read the privacy statement at [https://aka.ms/privacy](https://aka.ms/privacy). Select **Accept**.
 2. If you received a verification code, enter it and select **Continue.** Otherwise, select **Manual setup** and enter your Teams resource account and password.
 3. Select **Finish** to complete the Microsoft Teams Rooms setup.
+
+## Understanding the platform configuration on Surface Hub 3
+
+Your Surface Hub 3 is configured with two distinct Windows profiles, each serving a specific purpose:
+
+1. **Skype profile (Kiosk mode)**
+    - **Function:** This profile automatically logs in at boot. It operates in a custom kiosk mode, where the Microsoft Teams Rooms (MTR) application is the only user-accessible feature for non-administrators. Although commonly mistaken as the "platform" or "OS," it is essentially an app running in kiosk mode.
+    - **Password:** There is no password for this account. If prompted for a password when switching between Windows accounts, simply press **Enter.**
+2. **Administrator profile**
+There are several ways to access the Admin account:
+
+- **Method 1:** While in the MTR app/home screen, connect a keyboard and press the Windows key five times to reach the Windows login screen. The Admin account is usually located in the bottom left. Select it and enter the password **sfb** when prompted. This method keeps the Skype user/MTR app session active, which is necessary for certain administrative tasks.
+
+- **Method 2:** In the MTR app, select **...** on the home screen, then **Settings.** Use your admin credentials (username: admin, password: sfb), and navigate to **Windows Settings** in the left panel. This action takes you to the Windows login screen, logging you out of the Skype user/MTR app session.
+ 
+- **Method 3:** If the Admin account isn't visible and you see an **other user** login prompt, use the login credential **.\admin** to direct the login to the Administrator account and enter the password.
+
+### Using Administrator Windows account
+
+Once logged into the Administrator Windows account, you have access to standard Windows functionalities. This includes joining Wi-Fi networks, configuring Bluetooth audio devices, and running Hub-specific applications like the Surface App or Surface Hub Hardware Diagnostic tool.
 
 ## Next steps
 
