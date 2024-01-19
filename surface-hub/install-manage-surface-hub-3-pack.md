@@ -61,7 +61,7 @@ Review the following demo and follow the instructions on this page.
 - [First-time setup for Surface Hub 3](first-run-program-surface-hub-3.md).
 - [Surface Hub 3 security best practices](surface-hub-3-security.md)
 
-## Manage Surface Hub 3 devices connected to Microsoft Entra ID (Azure AD)
+## Manage Surface Hub 3 
 
 If you manage Surface Hub 2S via Microsoft Intune or another mobile device management (MDM) provider, remove the device before installing Surface Pack 3.
 
@@ -70,9 +70,9 @@ If you manage Surface Hub 2S via Microsoft Intune or another mobile device manag
 
   ![Screenshot that shows removal of Surface Hub 2S from Intune.](images/remove-hub2s-from-intune.png).
 
-## Recycle Surface Hub 2S cartridge
+## Surface Hub 2S Recycle Program
 
-You can now recycle your Surface Hub 2S cartridge if it no longer has use as a backup device for your IT department, or if you have upgraded to the Surface Hub 3 Pack. You’ll need to remove the hard drive from the cartridge to protect your sensitive data and meet global data retention requirements.
+The Surface Hub 3 Pack packaging allows you to return your old Surface Hub 2S cartridge to Microsoft for recycling. To participate, [remove the hard drive](#required-removal-of-hard-drive--corporate-data) from the cartridge to protect your sensitive data and [request a pre-paid shipping label](#request-a-pre-paid-shipping-label). 
 
 ### Required removal of hard drive & corporate data
 
@@ -139,7 +139,7 @@ Select your country/region and follow the instructions to obtain a shipping labe
 > [!TIP]
 > Since both cartridges appear almost identical, we added two bumps to the edge of the Surface Hub 3 Pack cartridge. These bumps are located on the opposite side of the power socket, helping you differentiate between the two models.
 
-## Wallpaper
+## Wallpaper installation
 
 The latest Windows Bloom wallpaper is available for your Surface Hub 3 device or Pack. To learn more, see [Install Windows Bloom wallpaper on Surface Hub 3](install-wallpaper-surface-hub.md).
 
