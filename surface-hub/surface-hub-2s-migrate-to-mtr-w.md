@@ -20,10 +20,10 @@ If you have a Surface Hub 2S, you can migrate it to run the Microsoft Teams Room
 
 ## Background
 
-- Begin the migration process via the downloadable **Surface Hub 2S OS Migration Launcher - Microsoft Teams Rooms** app, which you can install directly on a Surface Hub 2S or remotely via Intune or other cloud management tools.
+- Begin the migration process via the downloadable **Surface Hub 2S OS Migration Launcher - Microsoft Teams Rooms** app, which you can install directly on a Surface Hub 2S or remotely via Microsoft Intune or other cloud management tools.
 
 > [!NOTE]
-> The Migration Launcher app is designed exclusively for Surface Hub 2S devices transitioning from the Windows 10 Team edition OS to the Microsoft Teams Rooms on Windows experience. It triggers the migration process under specific [prerequisite conditions](#prerequisites) and has no other functionality or user interface.
+> The Migration Launcher app is designed exclusively for Surface Hub 2S devices transitioning from the Windows 10 Team edition operating system to the Microsoft Teams Rooms on Windows experience. It triggers the migration process under specific [prerequisite conditions](#prerequisites) and has no other functionality or user interface.
 
 ### Migration Launcher app deletes OS and data
 
@@ -58,7 +58,7 @@ If you have a Surface Hub 2S, you can migrate it to run the Microsoft Teams Room
 > Alternatively, if you don't wish to migrate your Surface Hub 2S, you can purchase the [Surface Hub 3 Pack](surface-hub-3-pack-faq.md), which lets you swap out your existing cartridge and instantly convert your Surface Hub 2S to a Surface Hub 3. To learn more, see [Install and manage Surface Hub 3 Pack](install-manage-surface-hub-3-pack.md). 
 
 > [!NOTE]
-> Support for Windows 10 Team Edition OS on Surface Hub, based on Windows 10 version 22H2, is scheduled to end on October 14, 2025.
+> Support for Windows 10 Team edition on Surface Hub, based on Windows 10 version 22H2, is scheduled to end on October 14, 2025.
 
 ## Install Migration Launcher app to trigger a migration
 
@@ -76,7 +76,7 @@ Choose one of the following options:
 4. Once you see the Migration Launcher in the app list, the migration proceeds automatically upon restarting the Windows 10 Team edition OS. You can either manually restart Surface Hub 2S or wait until the system automatically restarts during the default nightly maintenance window.
 
 > [!TIP]
-> After this initial restart, do not interfere with the system; even though it may appear nothing is happening and you still see the same experienc old OS, the migration proceeds independently after completing all necessary backend processes (including downloading and unzipping the new Teams Rooms on Windows image).
+> After this initial restart, do not interfere with the system; even though it may appear nothing is happening and you still see the same experience, the migration proceeds independently after completing all necessary backend processes (including downloading and unzipping the new Teams Rooms on Windows image).
 
 5. Typical migration time is around **90** minutes from restart after installing the Migration Launcher app, but the length can vary depending on many characteristics, including customer network bandwidth and related factors.
 6. When migration is complete, the device displays the Windows first-time setup program, aka Out of the Box Experience (OOBE). To learn more, see [First-time setup for Surface Hub 3](first-run-program-surface-hub-3.md).
@@ -115,15 +115,15 @@ For example, note that the enrolled Surface Hub 2S devices, shown in the followi
 6. Select **Create** to create the new group.
 7. Open the Group, select  **Members** >**Add members** and add the Surface Hub 2S devices you're targeting for migration.
 
-![Screenshot that shows how to add members to a security group in Microsoft Intune admin center](images/add-members-security-group.png)
+![Screenshot that shows how to add members to a security group in Intune admin center](images/add-members-security-group.png)
 
 ### Associate store account with Intune
 
-Before you enable synchronization in the Microsoft Intune admin center, you must configure your store account to use Intune as a management tool:
+Before you enable synchronization in Intune admin center, you must configure your store account to use Intune as a management tool:
 
 1. Ensure that you sign into the [Microsoft Store for Business](https://www.microsoft.com/business-store) using the same tenant account you use to sign into Intune.
 2. In the Business Store, choose **Manage**, select **Settings**, and choose **Distribute**.
-3. If you don't already have Microsoft Intune available as a mobile device management tool, choose **Add management tool** to add Microsoft Intune. If you don't have Microsoft Intune activated as your mobile device management tool, select **Microsoft Intune** > **Activate**.
+3. If you don't already have Intune available as a mobile device management tool, choose **Add management tool** to add Microsoft Intune. If you don't have Microsoft Intune activated as your mobile device management tool, select **Microsoft Intune** > **Activate**.
 
 > [!TIP]
 > Activate Microsoft Intune, not Microsoft Intune Enrollment.
@@ -168,7 +168,7 @@ Download the migration launcher app package from Microsoft Store for Business.
 
 ## Deploy Migration Launcher app via Intune
 
-1. Sign in to [Microsoft Intune Admin Center](https://endpoint.microsoft.com/) and go to **Apps** > **All apps** >**Add**. Under App type, select **Line-of-business app**.
+1. Sign in to [Intune Admin Center](https://endpoint.microsoft.com/) and go to **Apps** > **All apps** >**Add**. Under App type, select **Line-of-business app**.
 
 ![Screenshot of Select line of business app](images/hub2s-migration-select-lob-app.png)
 
