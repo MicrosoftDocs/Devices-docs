@@ -72,7 +72,7 @@ If you manage Surface Hub 2S via Microsoft Intune or another mobile device manag
 
 ## Surface Hub 2S Recycle Program
 
-The Surface Hub 3 Pack packaging allows you to return your old Surface Hub 2S cartridge to Microsoft for recycling. To participate, [remove the hard drive](#required-removal-of-hard-drive--corporate-data) from the cartridge to protect your sensitive data and [request a pre-paid shipping lable](#request-a-pre-paid-shipping-label). 
+The Surface Hub 3 Pack packaging allows you to return your old Surface Hub 2S cartridge to Microsoft for recycling. To participate, [remove the hard drive](#required-removal-of-hard-drive--corporate-data) from the cartridge to protect your sensitive data and [request a pre-paid shipping label](#request-a-pre-paid-shipping-label). 
 
 ### Required removal of hard drive & corporate data
 
