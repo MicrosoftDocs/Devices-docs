@@ -94,13 +94,11 @@ Choose one of the following options:
 
 #### Ensure your Surface Hub 2S devices are fully updated and enrolled in Intune
 
-- To verify enrollment, sign into Intune admin center <!--use Intune view --> go to **Devices** > **All devices** and look for the names of your target devices.
+- To verify enrollment, sign into [Intune admin center](https://intune.microsoft.com/), go to **Devices** > **All devices**, and look for the names of your target devices.
 
-- Check that the OS version for the target devices meets the prerequisites listed above, specifically **OS version 19045.3758**.
+- Check that the OS version for the target devices meets the prerequisites listed above, specifically **OS version 19045.3758** or later.
 
-For example, note that the enrolled Surface Hub 2S devices, shown in the following figure, need to be updated to run OS version 19045.3758 or later. 
-
-![Screenshot of Surface Hub 2S devices enrolled in Microsoft Entra ID](images/check-os-version-surface-hubs.png)
+![Screenshot of Surface Hub 2S devices enrolled in Microsoft Intune admin center](images/check-os-version-surface-hubs.png)
 
 #### Add Surface Hub 2S devices to a Device group
 
