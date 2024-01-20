@@ -175,7 +175,6 @@ Download the migration launcher app package from Microsoft Store for Business.
 
 ![Screenshot that shows selection of dependency files](images/hub2s-migration-select-dependencies.png)
 
-
 > [!TIP]
 > You only need to ensure the three check box icons appear for your specified architecture
 
@@ -225,8 +224,25 @@ This may take a few minutes, depending on network connectivity or other factors.
 ### Event logs
 
 - If migration does not proceed after 24 hours, check system event logs for possible errors, including a potential issue related to available storage space.
-- <!-- add event log steps -->
 
+#### Monitoring Surface Hub migration events
+ 
+When overseeing the migration process on Surface Hub 2S, pay attention to specific events logged by the **SurfaceHubMonitor** source. Events IDs 6-11 indicate different stages and potential failures in the migration process.
+ 
+#### Key Event IDs
+
+ 
+
+| Event                                             | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| ------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Event ID 6: OS migration process started**      | This event is logged as the first step after the Monitor Service verifies the app's presence and the UEFI version. It signifies the start of the migration process.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| **Event ID 10: OS image download failed**         | If this event occurs, the system will attempt the download again. This can lead to a sequence of Event ID 6 followed by Event ID 10 if the issue persists.<br> <br>**Common causes:**<br>     - Inability to access the download site.<br>- Connection drops during download, exhausting all retry attempts.<br>- Insufficient disk space or inaccessible file location for the download.<br>**Additional notes:**<br>- The system checks for sufficient disk space and the creation of the migration partition at every boot. It will not attempt to download if conditions are not met.<br>     - Be aware of timing issues. If the download doesn't complete before a scheduled or manual reboot, the download will restart, potentially leading to prolonged migration. |
+| **Event ID 11: MTR license key retrieval failed** | This event occurs after repartitioning and downloading the OS image. If the OS image download is not successful, the system will not proceed to the key retrieval stage.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+
+#### Best practices for a smooth migration
+
+**Avoid Frequent Reboots:** It's important not to reboot the system unnecessarily during the migration process. Frequent reboots can restart the download process, extending the duration of the migration and potentially leading to repeated "nothing seems to be happening" scenarios. By monitoring these specific events, you can effectively track and troubleshoot the migration process of your Surface Hub 2S.
+ 
 ### Remote deployment via Intune
 
 - If the Migration Launcher app fails to deploy, check any error messages in the Intune console.
