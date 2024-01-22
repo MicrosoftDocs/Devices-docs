@@ -46,7 +46,8 @@ If you have a Surface Hub 2S, you can migrate it to run the Microsoft Teams Room
 - If you're unable to check for Windows updates locally (for example, in remote admin scenarios), you can verify the OS version via Microsoft Intune admin center or other mobile device management (MDM) solutions.
 - You can also check by validating that Windows 10 [OS Build19045.3758](https://support.microsoft.com/en-us/topic/november-30-2023-kb5032278-os-build-19045-3758-preview-0ae14f06-577e-4eb3-8fcb-c722f3f9dc29) is present on the system. <!--To be replaced with later Win OS version (Feb 3) -->
 - Validate that your network can handle a **30 GB download**.
-- Confirm IT allows network access to required sites: ***.devices.microsoft.com** and **download.microsoft.com**. A typical way to check, contact your network admin if fails is a simple ping test: On a separate PC, Open a command line or console and enter the following:
+- Ensure the network you are using does not have any other firewalls or blockages or limitations that would otherwise prevent the download and installation of software onto the Surface Hub 2S device(s) you intend to migrate.
+- Confirm IT allows network access to required sites: ***.devices.microsoft.com** and **download.microsoft.com**. <!--A typical way to check, contact your network admin if fails is a simple ping test: On a separate PC, Open a command line or console and enter the following:-->
 
     ```console
     ping devices.microsoft.com
