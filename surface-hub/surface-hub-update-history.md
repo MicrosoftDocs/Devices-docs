@@ -21,6 +21,15 @@ Most Windows updates focus on performance and security improvements. In the list
 
 ## Windows 10 Team 2022 Update (22H2)
 
+### January 23, 2024 - update for Team based on KB5034203* (OS Build 19045.3996)
+This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/5018682/windows-10-update-history), include:
+
+* Resolves an issue where the [Surface Hub password rotation feature](password-management-for-surface-hub-device-accounts.md) did not work as expected with Azure AD-based device accounts.
+* Resolves an issue where some Surface Hubs joined to Microsoft Entra ID or configured with a local administrator account could fail to synchronize their computer clock.
+
+Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabling device features and services. *[KB5034203](https://support.microsoft.com/help/5034203)
+
+
 ### November 21, 2023 - update for Surface Hub 2S
 
 This update is specific to the Surface Hub 2S and provides the driver and firmware updates outlined below:
@@ -38,7 +47,7 @@ This update is specific to the Surface Hub 2S and provides the driver and firmwa
 
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/5018682/windows-10-update-history), include:
 
-* Updates “My Meetings and Files" personal sign-in functionality to use TLS 1.2 in all cases.
+* Updates "My Meetings and Files" personal sign-in functionality to use TLS 1.2 in all cases.
 * Resolves an issue with sovereign cloud support in device account and personal sign-in scenarios.
  
 Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabling device features and services. *[KB5030300](https://support.microsoft.com/help/5030300)
@@ -175,7 +184,6 @@ Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabl
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/4581839/windows-10-update-history), include:
 
 * Adds ability for administrators to [install Progressive Web Apps](install-pwa-surface-hub.md) (PWAs).
-* Resolves an issue where some Surface Hubs joined to Microsoft Entra ID or configured with a local administrator account could fail to synchronize their computer clock.
 * Resolves an issue where using Meetings and Files sign-in suggestions with the Authenticator app could force the user to repeat the login process.
  
 Please refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabling device features and services. *[KB5011543](https://support.microsoft.com/help/5011543)
