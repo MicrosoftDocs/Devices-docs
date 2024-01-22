@@ -32,9 +32,9 @@ appliesto:
 
 ## References
 
-1. Microsoft’s Limited Warranty is in addition to your consumer law rights.
-2. Software license required. Sold separately. 
-3. Available when running Windows 10 Team Edition or Windows 10/11 Pro/Enterprise.
+1. Software license required. Sold separately. 
+2. Available when running Windows 10 Team edition or Windows 10/11 Pro/Enterprise.
+3. Microsoft’s Limited Warranty is in addition to your consumer law rights.
 
 ## Learn more
 
