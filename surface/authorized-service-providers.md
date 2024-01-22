@@ -94,7 +94,7 @@ The growing ASP network consists of more than 160 locations.
 #### China
 
 - [Digital China](https://www.digitalchina.com/)
-- [Double Rise](https://www.doublerise.com/)
+- [Double Rise](https://www.doublerise.com/Microsoft.html)
 
 #### Japan
 
