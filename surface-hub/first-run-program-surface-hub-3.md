@@ -28,7 +28,7 @@ Connect any peripherals you will use with the device, such as a keyboard or mous
 Before you start Surface Hub 3 for the first time, ensure that you have the following:
 
 - A resource account with a [supported Microsoft Teams Rooms license](/microsoftteams/rooms/rooms-licensing). We recommend use of the Teams Rooms Pro license. 
-- A one-time passcode provided by your Teams Rooms Pro portal admin. 
+- The ability to log in with a resource account using your credentials or an IT-provided one-time passcode as set up in Teams Rooms Pro portal. 
 
 > [!TIP]
 > For guidance about deploying Microsoft Teams Rooms on Windows, see: [Deployment overview](/microsoftteams/rooms/rooms-deploy). For an overview of requirements to get the most out of Microsoft Teams Rooms, see: [Prepare your environment](/microsoftteams/rooms/rooms-prep). 
