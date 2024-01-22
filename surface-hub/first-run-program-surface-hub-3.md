@@ -53,12 +53,12 @@ Although not required, you can automate the setup process with a provisioning pa
 
    ![Screenshot of Surface Hub 3 startup.](images/surface-hub-3-oobe-fig1.png)
 
-2. Connect to a network.
+2. Connect to a network, if prompted. 
 
    ![Screenshot of Connect to a network.](images/surface-hub-3-oobe-fig1-0.png)
 
    > [!TIP]
-   > If you have already attached an Ethernet cable, Surface Hub 3 automatically connects to your network. Alternatively, you can connect to a wireless network.
+   > If you have already attached an Ethernet cable with Internet access, Surface Hub 3 automatically skips this screen. Alternatively, you can connect to a wireless network.
 
    > [!NOTE]
    > You cannot connect to a wireless network in hotspots (captive portals) that redirect sign-in requests to a provider's website.
