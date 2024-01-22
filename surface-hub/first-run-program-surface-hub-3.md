@@ -27,13 +27,13 @@ Connect any peripherals you will use with the device, such as a keyboard or mous
 
 Before you start Surface Hub 3 for the first time, ensure that you have the following:
 
-- An account with admin privileges
-- A resource account with a [supported Microsoft Teams Rooms license](/microsoftteams/rooms/rooms-licensing)
+- A resource account with a [supported Microsoft Teams Rooms license](/microsoftteams/rooms/rooms-licensing). We recommend use of the Teams Rooms Pro license. 
+- A one-time passcode provided by your Teams Rooms Pro portal admin. 
 
 > [!TIP]
 > For guidance about deploying Microsoft Teams Rooms on Windows, see: [Deployment overview](/microsoftteams/rooms/rooms-deploy). For an overview of requirements to get the most out of Microsoft Teams Rooms, see: [Prepare your environment](/microsoftteams/rooms/rooms-prep). 
 
-When you first start Surface Hub 3, the device automatically enters first-time Setup mode to guide you through account configuration and related settings.
+When you first start Surface Hub 3, the device automatically enters first-time Windows Setup mode as well as first time setup of the Microsoft Teams Rooms application, which guides you through logging in with a pre-configured device account. 
 
 ## Use provisioning packages in Enterprise environments
 
@@ -47,7 +47,7 @@ Although not required, you can automate the setup process with a provisioning pa
 ## Surface Hub 3 OOBE setup
 
 > [!TIP]
-> When you run first-time setup, ensure you stay connected to automatically download required updates to enable the current user experience.
+> When you run first-time setup, ensure you stay connected to the Internet to automatically download required updates to enable the current user experience. We recommend connecting via a wired Ethernet cable. 
 
 1. Press the power button to start the device.
 
