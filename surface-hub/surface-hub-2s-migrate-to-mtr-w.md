@@ -141,14 +141,9 @@ Download the migration launcher app package from Microsoft Store for Business.
 
 1. Shop for the app and add it to your group inventory. Select **Shop for my group** and search for **Surface Hub 2S OS Migration Launcher – Microsoft Teams Rooms**. (Alternatively, search via the app ID: **9P81T95QGN1P**).
 2. On the app page, for License type, select **Offline** > **Get the app**. This adds the app to your Microsoft Store for Business group inventory. After you see a "toast message" indicating you successfully added the app to your library, select **Manage**, as shown in the following figure. (Note that the Manage button has replaced the Get the app button).
-
-![Screenshot that shows home page for Surface Hub 2S OS Migration Launcher – Microsoft Teams Rooms](images/store-for-business-migration-app.png)
-
 3. After you select **Manage**, the page listing for the Migration Launcher app is displayed. Wait a few moments for the spinner to complete and the Download portion of the resulting page to appear.
 4. Under **Download package for offline use**, select your desired architecture (X64, X86, ARM). We recommend using x86.
 5. Select **Package details** and choose **Download** to initiate the download of the MsixBundle for the package identity name: **Microsoft.SurfaceHUBMTROSTriggerApp**.
-
-![Screenshot of Download app](images/hub2s-migration-app-download.png)
 
 - If you receive an error indicating the downloadable file is unsafe, select **Keep**.
 - If further prompted in the Edge browser that **This file can't be downloaded securely**, select **Keep anyway**.
