@@ -52,7 +52,7 @@ If you have a Surface Hub 2S, you can migrate it to run the Microsoft Teams Room
     ping devices.microsoft.com
     ```
 
-        ```console
+    ```console
     ping download.microsoft.com
     ```
 
