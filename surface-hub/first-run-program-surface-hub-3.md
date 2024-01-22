@@ -80,7 +80,7 @@ Although not required, you can automate the setup process with a provisioning pa
 Now, you're ready to begin the Microsoft Teams Rooms setup experience.
 
 1. Agree to Microsoft Software License Terms and acknowledge that you have read the privacy statement at [https://aka.ms/privacy](https://aka.ms/privacy). Select **Accept**.
-2. If you received a verification code, enter it and select **Continue.** Otherwise, select **Manual setup** and enter your Teams resource account and password.
+2. If you received a one-time passcode, enter it and select **Continue.** Otherwise, select **Manual setup** and enter your Teams resource account and password.
 3. Select **Finish** to complete the Microsoft Teams Rooms setup.
 
 ## Understanding the platform configuration on Surface Hub 3
