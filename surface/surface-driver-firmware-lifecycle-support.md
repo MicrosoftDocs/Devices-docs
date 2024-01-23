@@ -41,7 +41,7 @@ Once the device support period is concluded at the end-of-servicing date, device
 
 The following table lists the release date and end-of-servicing date for each Surface device with a defined Driver and Firmware Lifecycle policy:
 
-| Surface device                         | Release Date        | End-of-servicing date for firmware & drivers |
+| Surface device                         | Release date        | End-of-servicing date for firmware & drivers |
 | -------------------------------------- | ------------------- | -------------------------------------------- |
 | Surface Studio 2                       | October 2, 2018     | October 2, 2024                              |
 | Surface Laptop 3                       | October 22, 2019    | July 30, 2024                                |
@@ -75,7 +75,7 @@ The following table lists the release date and end-of-servicing date for each Su
 
 The following table lists products that have passed their end-of-servicing date based on the Driver and Firmware Lifecycle policy. These devices no longer receive newer driver and firmware updates than those listed on Surface update history:
 
-| Surface device                             | Release Date       | End-of-servicing Date for Firmware & Drivers |
+| Surface device                             | Release date       | End-of-servicing date for firmware & drivers |
 | ------------------------------------------ | ------------------ | -------------------------------------------- |
 | Surface RT                                 | October 26, 2012   | April 11, 2017                               |
 | Surface Pro                                | February 9, 2013   | April 11, 2017                               |
