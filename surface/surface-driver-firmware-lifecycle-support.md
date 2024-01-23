@@ -22,7 +22,7 @@ This lifecycle policy covers driver and firmware releases for Windows-based Surf
 
 ## Overview of Surface driver and firmware lifecycle policy
 
-The Surface driver and firmware lifecycle is composed of two parts: (1) the driver and firmware servicing period for a device and (2) the servicing provided for OS versions during that period.
+The Surface driver and firmware lifecycle is composed of two parts: (1) the [driver and firmware servicing period](#device-servicing-period) for a device and (2) the [servicing provided for OS versions](#os-version-support) during that period.
 
 ### Device servicing period
 
