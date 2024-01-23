@@ -29,25 +29,17 @@ Before you start Surface Hub 3 for the first time, ensure that you have the foll
 
 - A resource account with a [supported Microsoft Teams Rooms license](/microsoftteams/rooms/rooms-licensing). We recommend use of the Teams Rooms Pro license. 
 - The ability to log in with a resource account using your credentials or an IT-provided one-time passcode as set up in Teams Rooms Pro portal. 
+- Internet connectivity via a wired Ethernet cable (recommended). 
 
 > [!TIP]
 > For guidance about deploying Microsoft Teams Rooms on Windows, see: [Deployment overview](/microsoftteams/rooms/rooms-deploy). For an overview of requirements to get the most out of Microsoft Teams Rooms, see: [Prepare your environment](/microsoftteams/rooms/rooms-prep). 
 
 When you first start Surface Hub 3, the device automatically enters first-time Windows Setup mode as well as first time setup of the Microsoft Teams Rooms application, which guides you through logging in with a pre-configured device account. 
 
-## Use provisioning packages in Enterprise environments
-
-Although not required, you can automate the setup process with a provisioning package to ensure a consistent experience across multiple Surface Hubs. This optional technology allows for a streamlined setup process that can be performed without extensive IT intervention, saving time and resources in organizational and enterprise environments.
-
-1. Review the documentation in [Create provisioning packages](provisioning-packages-for-surface-hub.md) and save the package to a USB thumb drive.
-2. Insert the USB thumb drive into one of the USB ports when you see the License Agreement page.
-3. When prompted, choose the provisioning package you want.
-4. Follow the rest of the steps, and remove the USB drive at the first reboot that occurs in the setup process.
-
 ## Surface Hub 3 OOBE setup
 
 > [!TIP]
-> When you run first-time setup, ensure you stay connected to the Internet to automatically download required updates to enable the current user experience. We recommend connecting via a wired Ethernet cable. 
+> When you run first-time setup, ensure you stay connected to the Internet to automatically download required updates to enable the current user experience. 
 
 1. Press the power button to start the device.
 
@@ -75,6 +67,21 @@ Although not required, you can automate the setup process with a provisioning pa
 
    ![Screenshot of Add a second keyboard.](images/surface-hub-3-oobe-fig1c.png)
 
+## Use provisioning packages in Enterprise environments
+
+Alternatively, you can automate the setup process with a provisioning package to ensure a consistent experience across multiple Surface Hubs. This optional technology allows for a streamlined setup process that can be performed without extensive IT intervention, saving time and resources in organizational and enterprise environments. Specifically, provisioning packs allow you to automatically configure the following: 
+
+- Network profile
+- Certificates
+- Proxy settings
+- Azure AD join
+
+1. Review the documentation in [Create provisioning packages](provisioning-packages-for-surface-hub.md) and save the package to a USB thumb drive.
+2. Insert the USB thumb drive into one of the USB ports when you see the License Agreement page.
+3. When prompted, choose the provisioning package you want.
+4. Follow the rest of the steps, and remove the USB drive at the first reboot that occurs in the setup process.
+<!-- edit this to indicate supported features -->
+
 ## Microsoft Teams Rooms setup
 
 Now, you're ready to begin the Microsoft Teams Rooms setup experience.
@@ -91,6 +98,7 @@ Your Surface Hub 3 is configured with two distinct Windows profiles, each servin
     - **Function:** This profile automatically logs in at boot. It operates in a custom kiosk mode, where the Microsoft Teams Rooms (MTR) application is the only user-accessible feature for non-administrators. Although commonly mistaken as the "platform" or "OS," it is essentially an app running in kiosk mode.
     - **Password:** There is no password for this account. If prompted for a password when switching between Windows accounts, simply press **Enter.**
 2. **Administrator profile**
+
 There are several ways to access the Admin account:
 
 - **Method 1:** While in the MTR app/home screen, connect a keyboard and press the Windows key five times to reach the Windows login screen. The Admin account is usually located in the bottom left. Select it and enter the password **sfb** when prompted. This method keeps the Skype user/MTR app session active, which is necessary for certain administrative tasks.
@@ -107,4 +115,4 @@ Once logged into the Administrator Windows account, you have access to standard 
 
 - Although the OOBE process automatically downloads required updates, running Windows Update is recommended to ensure you have the latest. Sign in to Surface Hub 3 with an admin account, and open **Settings > Windows Update > Check for Updates**.
 - Review [Surface Hub 3 security best practices](surface-hub-3-security.md). At a minimum, recommendations include changing the default Administrator password (factory set to **sfb**), adding a UEFI password, and implementing appropriate physical security measures.
-- Optionally, you may need to [update Surface Hub Pen firmware](surface-hub-pen-firmware.md)
+- Optionally, you may need to [update Surface Hub Pen firmware](surface-hub-pen-firmware.md).
