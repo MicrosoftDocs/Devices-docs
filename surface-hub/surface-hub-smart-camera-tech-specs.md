@@ -35,7 +35,7 @@ appliesto:
 1. Software license required. Sold separately. 
 2. Available when running Windows 10 Team edition or Windows 10/11 Pro/Enterprise.
 3. Microsoft’s Limited Warranty is in addition to your consumer law rights.
-4. Surface Hub Smart Camera, sold separately starting March 2022, dynamically adjusts the video feed for remote participants. Surface Hub Smart Camera is included in the box with the following models: Surface Hub 3 50", Surface Hub 3" 85", and Surface Hub 2S 85". 
+4. Surface Hub Smart Camera dynamically adjusts the video feed for remote participants.<sup>2</sup> Surface Hub Smart Camera is included in the box with the following models: Surface Hub 3 50", Surface Hub 3" 85", and Surface Hub 2S 85". 
 
 
 ## Learn more
