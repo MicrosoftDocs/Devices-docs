@@ -40,4 +40,5 @@ appliesto:
 
 ## Learn more
 
+- [Order Surface Hub Smart Camera](https://www.microsoft.com/d/surface-hub-smart-camera/8n983ctks176?activetab=pivot:techspecstab)
 - [Install and manage Surface Hub Smart Camera](surface-hub-smart-camera.md)
