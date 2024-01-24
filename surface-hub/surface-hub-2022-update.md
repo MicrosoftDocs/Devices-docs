@@ -34,11 +34,11 @@ You can obtain the 2022 Update for Windows 10 Team using one of the following me
 
 Full servicing support for [Windows 10 Team Edition version 20H2](/lifecycle/products/windows-10-enterprise-and-education) is scheduled to continue until May 9, 2023. Be sure to update your devices to the 22H2-based version before this date to continue receiving Windows Updates.
 
-### 2S devices
+### Surface Hub 2S devices
 
-Customers can update their Surface Hub 2S devices to the 2022 Update through Windows Update, or Windows Update for Business. An updated bare metal recovery (BMR) image for use with [the Hub 2S USB recovery process](surface-hub-recover-reset.md#recover-surface-hub-2s-with-a-usb-recovery-drive) is not available at this time.
+Customers can update their Surface Hub 2S devices to the 2022 Update through Windows Update, or Windows Update for Business. Or you can recover Surface Hub 2S via a bare metal recovery (BMR) image. See [Recovery from a USB drive](surface-hub-recover-reset.md#recovery-from-a-usb-drive).
 
-### V1 devices
+### Surface Hub V1 devices
 
 Customers can update their Surface Hub v1 devices to the 2022 Update through Windows Update, or Windows Update for Business. [The Surface Hub Recovery Tool](surface-hub-recovery-tool.md) can also be used to re-image a device with the 2022 Update.
 
