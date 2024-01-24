@@ -67,7 +67,7 @@ With a USB drive, you can reinstall the device to factory settings--even if you 
 
 5. Select **Recover from a drive** and **Fully clean the drive**, and then select **Recover**. If you're prompted for a BitLocker key, select **Skip this drive**. Surface Hub reboots several times and can take an hour or more to complete the recovery process.
 
-6. When the first-time setup screen appears, remove the USB drive and complete first-time setting to finish recovering your device.
+6. When the first-time setup screen appears, remove the USB drive and complete first-time setup. 
 
 ## Reset Surface Hub 2S
 
@@ -81,7 +81,7 @@ For Surface Hub 2S only, you can recover the device via the Settings app. Sign i
 2. When the **Ready to reset this device** window appears, select **Reset**.
   
    > [!TIP]
-   > When the Hub reboots to the recovery partition, it will prompt you to enter the BitLocker key. Skipping that prompt will cause the reset to fail. Once you enter the BitLocker key, the Hub reinstalls the operating system from the recovery partition. This may take up to one hour to complete.
+   > When the Hub reboots to the recovery partition, it will prompt you to enter the BitLocker key. Skipping the prompt will cause the reset to fail. Once you enter the BitLocker key, the Hub reinstalls the operating system from the recovery partition. This may take up to one hour to complete.
   
 3. To reconfigure the device, run the first-time Setup program.
 
