@@ -16,13 +16,13 @@ appliesto:
 
 # Surface devices driver and firmware lifecycle
 
-In response to requests from customers for more detailed lifecycle information to help plan and manage hardware and software deployments, Surface is offering more guidance on our driver and firmware updates.
+This page explains the driver and firmware lifecycle to help IT admins plan and manage Surface device hardware and software deployments. 
 
 This lifecycle policy covers driver and firmware releases for Windows-based Surface devices. The lifecycle begins when a device is first released and concludes when Surface ceases publication of driver and firmware updates on the end-of-servicing date. The following sections define the lifecycle policy and end-of-servicing dates.
 
 ## Overview of Surface driver and firmware lifecycle policy
 
-The Surface driver and firmware lifecycle is composed of two parts: (1) the [driver and firmware servicing period](#device-servicing-period) for a device and (2) the [servicing provided for OS versions](#os-version-support) during that period.
+The Surface driver and firmware lifecycle consists of two parts: (1) the [driver and firmware servicing period](#device-servicing-period) for a device and (2) the [servicing provided for OS versions](#os-version-support) during that period.
 
 ### Device servicing period
 
@@ -40,7 +40,7 @@ Once the device servicing period is concluded, devices continue to receive Windo
 
 ## Surface driver and firmware lifecycle period
 
-The following table lists the release date and end-of-servicing date for each Surface device with a defined Driver and Firmware Lifecycle policy:
+The following table shows the release and end-of-servicing dates for each Surface device with a defined driver and firmware lifecycle policy:
 
 | Surface device                         | Release date        | End-of-servicing date for firmware & drivers |
 | -------------------------------------- | ------------------- | -------------------------------------------- |
@@ -74,7 +74,7 @@ The following table lists the release date and end-of-servicing date for each Su
 
 ## Legacy products
 
-The following table lists products that have passed their end-of-servicing date based on the Driver and Firmware Lifecycle policy. These devices no longer receive newer driver and firmware updates than those listed on [Surface update history](https://support.microsoft.com/surface/surface-update-history-6036fff5-edec-c8ec-9796-a5633aac9488).
+The following table lists products that have passed their end-of-servicing date based on the driver and firmware lifecycle policy. These devices no longer receive newer driver and firmware updates than those listed on [Surface update history](https://support.microsoft.com/surface/surface-update-history-6036fff5-edec-c8ec-9796-a5633aac9488).
 
 | Surface device                             | Release date       | End-of-servicing date for firmware & drivers |
 | ------------------------------------------ | ------------------ | -------------------------------------------- |

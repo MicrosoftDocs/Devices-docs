@@ -16,22 +16,22 @@ appliesto:
 
 # Surface accessories driver and firmware lifecycle
 
-In response to requests from customers for more detailed lifecycle information to help plan and manage hardware and software deployments, Surface is offering additional guidance on our driver and firmware updates.
+This page explains the driver and firmware lifecycle for Surface accessories to help IT admins plan and manage hardware and software deployments. 
 
-This lifecycle policy covers drivers and firmware releases for Surface accessories. The lifecycle begins when an accessory is first released and concludes when Surface ceases publication of drivers and firmware updates on the End of Servicing date. The following sections define the lifecycle policy and End of Servicing dates.
+This lifecycle policy covers drivers and firmware releases for Surface accessories. The lifecycle begins when an accessory is first released and concludes when Surface ceases publication of drivers and firmware updates on the End-of-servicing date. The following sections define the lifecycle policy and End-of-servicing dates.
 
 ## Surface driver and firmware support lifecycle policy
 
-The Surface Driver and Firmware support period defines the period during which Surface will support driver and firmware updates for an accessory. The Accessory Support Period starts when an accessory is released.
+The Surface driver and firmware support period defines the period during which Surface will support driver and firmware updates for an accessory. The Accessory Support Period starts when an accessory is released.
 
-- **For accessories released before January 1, 2021:** Surface accessories will receive driver and firmware updates for at least 4 years from when the accessory was first released. In cases where the support duration is longer than 4 years, an updated end of servicing date will be published in advance of the date of last servicing.
-- **For accessories released on and after January 1, 2021:** Surface accessories will receive driver and firmware updates for at least 6 years from when the accessory was first released. In cases where the support duration is longer than 6 years, an updated end of servicing date will be published in advance of the date of last servicing.
+- **For accessories released before January 1, 2021:** Surface accessories will receive driver and firmware updates for at least 4 years from when the accessory was first released. In cases where the support duration is longer than 4 years, an updated end-of-servicing date will be published in advance of the date of last servicing.
+- **For accessories released on and after January 1, 2021:** Surface accessories will receive driver and firmware updates for at least 6 years from when the accessory was first released. In cases where the support duration is longer than 6 years, an updated end-of-servicing date will be published in advance of the date of last servicing.
 
-## Surface accessory and firmware support lifecycle
+## Release and end-of-servicing dates for Surface accessories 
 
-The following table lists the release date and End of Servicing date for each Surface accessory:
+The following table lists the release date and end-of-servicing date for each Surface accessory:
 
-Accessory                                            | Release date        | End of Servicing date
+Accessory                                            | Release date        | End-of-servicing date
 -----------------------------------------------------|---------------------|---------------------
 Surface Dock                                         | October 26, 2015    | June 1, 2025
 Surface Dial                                         | November 1, 2016    | June 1, 2025
