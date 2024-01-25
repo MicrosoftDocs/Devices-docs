@@ -25,7 +25,7 @@ This policy outlines the lifecycle of driver and firmware updates for Surface de
 The Surface driver and firmware lifecycle consists of two parts: 
 
 - The [driver and firmware servicing period](#device-servicing-period) for a device. 
-- The [servicing provided for OS versions](#os-version-support) during that period.
+- The [support provided for OS versions](#os-version-support) during that period.
 
 ### Device servicing period
 

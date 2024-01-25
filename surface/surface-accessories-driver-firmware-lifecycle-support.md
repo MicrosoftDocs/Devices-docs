@@ -6,7 +6,7 @@ ms.localizationpriority: high
 author: coveminer
 ms.author: chauncel
 ms.topic: overview
-ms.date: 10/10/2023
+ms.date: 01/26/2024
 ms.reviewer: phorton
 manager: frankbu
 appliesto:
@@ -24,10 +24,10 @@ This policy outlines the lifecycle of driver and firmware updates for Surface ac
 
 The Surface driver and firmware servicing period defines the period that updates are available for an accessory. The Accessory Support Period starts when an accessory is released.
 
-- **For accessories released before January 1, 2021:** Surface accessories will receive driver and firmware updates for at least 4 years from when the accessory was first released. In cases where the support duration is longer than 4 years, an updated end-of-servicing date will be published in advance of the date of last servicing.
-- **For accessories released on and after January 1, 2021:** Surface accessories will receive driver and firmware updates for at least 6 years from when the accessory was first released. In cases where the support duration is longer than 6 years, an updated end-of-servicing date will be published in advance of the date of last servicing.
+- **For accessories released before January 1, 2021:** Surface accessories will receive driver and firmware updates for at least 4 years from when the accessory was first released. In cases where the servicing duration is longer than 4 years, an updated end-of-servicing date will be published in advance of the date of last servicing.
+- **For accessories released on and after January 1, 2021:** Surface accessories will receive driver and firmware updates for at least 6 years from when the accessory was first released. In cases where the servicing duration is longer than 6 years, an updated end-of-servicing date will be published in advance of the date of last servicing.
 
-## Release and end-of-servicing dates for Surface accessories 
+## Surface accessories driver and firmware lifecycle period
 
 The following table lists the release date and end-of-servicing date for each Surface accessory:
 
