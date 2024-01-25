@@ -6,7 +6,7 @@ ms.localizationpriority: high
 author: coveminer
 ms.author: chauncel
 ms.topic: overview
-ms.date: 01/23/2024
+ms.date: 01/25/2024
 ms.reviewer: phorton
 manager: frankbu
 appliesto:
@@ -29,13 +29,14 @@ The Surface driver and firmware lifecycle is composed of two parts: (1) the [dri
 The device servicing period defines the period that Surface receives driver and firmware updates for a device. The Device servicing period starts when a device is released.
 
 - **For devices released before January 1, 2021:** Surface devices will receive driver and firmware updates for at least four years from when the device was first released. In cases where the servicing duration is longer than four years, an updated end-of-servicing date will be published before the date of the last servicing.
+
 - **For devices released on and after January 1, 2021:** Surface devices will receive driver and firmware updates for at least six years from when the device was first released. In cases where the servicing duration is longer than six years, an updated end-of-servicing date will be published before the date of the last servicing.
 
 ### OS version support
 
 OS version support defines the operating system versions Surface supports during the Device servicing period. Surface devices receive driver and firmware updates for Windows OS versions released in the prior 30 months. Surface won't support Windows OS versions earlier than those supported at device release. To see the minimum supported OS version for your Surface device, visit the [Surface supported operating systems support page](https://support.microsoft.com/help/2858199/surface-supported-operating-systems).
 
-Once the device support period is concluded at the end-of-servicing date, devices continue to receive Windows OS feature and security updates per the Windows Lifecycle Policy as described on the [Microsoft Lifecycle Policy support page](https://support.microsoft.com/hub/4095338/microsoft-lifecycle-policy).
+Once the device servicing period is concluded at the end-of-servicing date, devices continue to receive Windows OS feature and security updates per the Windows Lifecycle Policy as described on the [Microsoft Lifecycle Policy support page](https://support.microsoft.com/hub/4095338/microsoft-lifecycle-policy).
 
 ## Surface driver and firmware lifecycle period
 
@@ -67,7 +68,7 @@ The following table lists the release date and end-of-servicing date for each Su
 | Surface Laptop Go 3                    | October 3, 2023     | October 3, 2029                              |
 | Surface Laptop Studio 2                | October 3, 2023     | October 3, 2029                              |
 
-### Surface Hub driver and firmware support lifecycle
+### Surface Hub driver and firmware servicing lifecycle
 
 - See [Driver and firmware lifecycle for Surface Hub devices and accessories](/surface-hub/surface-hub-driver-firmware-accessories-lifecycle)
 
