@@ -16,17 +16,20 @@ appliesto:
 
 # Surface devices driver and firmware lifecycle
 
-This page explains the driver and firmware lifecycle to help IT admins plan and manage Surface device hardware and software deployments. 
+This page provides essential information on the driver and firmware lifecycle for Windows-based Surface devices, designed to assist IT admins in effectively planning and managing their hardware and software deployment strategies.
 
-This lifecycle policy covers driver and firmware releases for Windows-based Surface devices. The lifecycle begins when a device is first released and concludes when Surface ceases publication of driver and firmware updates on the end-of-servicing date. The following sections define the lifecycle policy and end-of-servicing dates.
+This policy outlines the lifecycle of driver and firmware updates for Surface devices. It begins on the initial release of a device and extends until the designated end-of-servicing date when Surface ceases to publish updates. The following sections detail the policy and specify end-of-servicing dates.
 
 ## Overview of Surface driver and firmware lifecycle policy
 
-The Surface driver and firmware lifecycle consists of two parts: (1) the [driver and firmware servicing period](#device-servicing-period) for a device and (2) the [servicing provided for OS versions](#os-version-support) during that period.
+The Surface driver and firmware lifecycle consists of two parts: 
+
+- The [driver and firmware servicing period](#device-servicing-period) for a device. 
+- The [servicing provided for OS versions](#os-version-support) during that period.
 
 ### Device servicing period
 
-The device servicing period defines the period that Surface receives driver and firmware updates for a device. The Device servicing period starts when a device is released.
+The Surface Driver and Firmware Servicing Period defines the period that updates are available for an accessory. The Accessory Servicing Period starts when an accessory is released.
 
 - **For devices released before January 1, 2021:** Surface devices will receive driver and firmware updates for at least four years from when the device was first released. In cases where the servicing duration is longer than four years, an updated end-of-servicing date will be published before the date of the last servicing.
 
