@@ -17,7 +17,7 @@ appliesto:
 
 # Driver and firmware lifecycle for Surface Hub devices and accessories
 
-This page provides essential information on the driver and firmware lifecycle for Surface Hub devices and accessories, designed to assist IT admins in effectively planning and managing their hardware and software deployment strategies.
+This page provides essential information on the driver and firmware lifecycle for Surface Hub devices and accessories, designed to assist IT admins in effectively planing and managing their hardware and software deployment strategies.
 
 The lifecycle policy covers driver and firmware releases for Surface Hub devices and accessories. The lifecycle begins when a device is first released and concludes when Surface ceases publication of driver and firmware updates on the epnd-of-servicing date. The following sections define the lifecycle policy and end-of-servicing dates.
 
@@ -38,8 +38,7 @@ The Device/accessory Servicing Period defines the period that updates are availa
 
 - **For Hub devices/accessories released on and after January 1, 2021:** Surface Hub devices and accessories will receive driver and firmware updates for at least six years from when the device/accessory was first released. In cases where the servicing duration is longer than six years, an updated end-of-servicing date will be published before the date of last servicing.
 
-##
- OS version support
+## OS version support
 
 OS version support defines the operating system versions Surface supports during the device/accessory servicing period. To see your Surface Hub device's minimum supported OS version, visit the [Surface supported operating systems support page](https://support.microsoft.com/help/2858199/surface-supported-operating-systems). Depending on the model, Surface Hub devices will receive driver and firmware updates for the most recent release of Windows 10, Windows 11, Windows 11 IoT Enterprise or Windows 10 Team edition (Surface Hub).
 
