@@ -1,5 +1,5 @@
 ---
-title: Driver and firmware lifecycle for Surface Hub devices and accessories
+title: Surface Hub and accessories driver and firmware lifecycle 
 description: This article provides detailed lifecycle information about Surface Hub and related accessories to help plan and manage hardware and software deployments. 
 ms.service: surface
 ms.localizationpriority: high
@@ -15,9 +15,9 @@ appliesto:
 - Surface Hub 3
 ---
 
-# Driver and firmware lifecycle for Surface Hub devices and accessories
+# Surface Hub and accessories driver and firmware lifecycle
 
-This page provides essential information on the driver and firmware lifecycle for Surface Hub devices and accessories, designed to assist IT admins in effectively planing and managing their hardware and software deployment strategies.
+This page provides essential information on the driver and firmware lifecycle for Surface Hub devices and accessories, designed to assist IT admins in effectively planning and managing their hardware and software deployment strategies.
 
 The lifecycle policy covers driver and firmware releases for Surface Hub devices and accessories. The lifecycle begins when a device is first released and concludes when Surface ceases publication of driver and firmware updates on the epnd-of-servicing date. The following sections define the lifecycle policy and end-of-servicing dates.
 
