@@ -71,10 +71,6 @@ The following table shows the release and end-of-servicing dates for each Surfac
 | Surface Laptop Go 3                    | October 3, 2023     | October 3, 2029                              |
 | Surface Laptop Studio 2                | October 3, 2023     | October 3, 2029                              |
 
-### Surface Hub driver and firmware servicing lifecycle
-
-- See [Driver and firmware lifecycle for Surface Hub devices and accessories](/surface-hub/surface-hub-driver-firmware-accessories-lifecycle)
-
 ## Legacy products
 
 The following table lists products that have passed their end-of-servicing date based on the driver and firmware lifecycle policy. These devices no longer receive newer driver and firmware updates than those listed on [Surface update history](https://support.microsoft.com/surface/surface-update-history-6036fff5-edec-c8ec-9796-a5633aac9488).
