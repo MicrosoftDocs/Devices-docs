@@ -64,6 +64,6 @@ Surface Thunderbolt 4 dock                           | April 4, 2023       | Apr
 ## Learn more
 
 - [Surface driver and firmware lifecycle for Windows-based devices](surface-driver-firmware-lifecycle-support.md)
-- [Driver and firmware lifecycle for Surface Hub devices and accessories](/surface-hub/surface-hub-driver-firmware-accessories-lifecycle)
+- [Surface Hub devices and accessories Driver and firmware lifecycle  ](/surface-hub/surface-hub-driver-firmware-accessories-lifecycle)
 - [Surface device compatibility with Windows 10 Long-Term Servicing Channel (LTSC)](surface-device-compatibility-with-windows-10-ltsc.md)
 - [Surface Warranty and Support Plans](https://www.microsoft.com/surface/business/warranty-service-offerings-and-support)

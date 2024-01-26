@@ -30,15 +30,15 @@ The Surface Hub devices and accessories driver and firmware lifecycle consists o
 - The [driver and firmware servicing period](#hub-deviceaccessory-servicing-period) for a device/accessory.
 - The [support provided for OS versions](#os-version-support) during that period.
 
-## Hub Device/accessory Servicing Period
+### Hub device/accessory servicing period
 
-The Device/accessory Servicing Period defines the period that updates are available for Surface Hub and accessories. The Device/accessory servicing period starts when a device/accessory is released.
+The device/accessory servicing period defines the period that updates are available for Surface Hub and accessories. The device/accessory servicing period starts when a device/accessory is released.
 
 - **For Hub devices/accessories released before January 1, 2021:** Surface Hub devices and accessories will receive driver and firmware updates for at least four years from when the device/accessory was first released. In cases where the servicing duration is longer than four years, an updated end-of-servicing date will be published before the date of last servicing.
 
 - **For Hub devices/accessories released on and after January 1, 2021:** Surface Hub devices and accessories will receive driver and firmware updates for at least six years from when the device/accessory was first released. In cases where the servicing duration is longer than six years, an updated end-of-servicing date will be published before the date of last servicing.
 
-## OS version support
+### OS version support
 
 OS version support defines the operating system versions Surface supports during the device/accessory servicing period. To see your Surface Hub device's minimum supported OS version, visit the [Surface supported operating systems support page](https://support.microsoft.com/help/2858199/surface-supported-operating-systems). Depending on the model, Surface Hub devices will receive driver and firmware updates for the most recent release of Windows 10, Windows 11, Windows 11 IoT Enterprise or Windows 10 Team edition (Surface Hub).
 
