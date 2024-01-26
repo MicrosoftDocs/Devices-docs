@@ -67,21 +67,6 @@ When you first start Surface Hub 3, the device automatically enters first-time W
 
    ![Screenshot of Add a second keyboard.](images/surface-hub-3-oobe-fig1c.png)
 
-## Use provisioning packages in Enterprise environments
-
-Alternatively, you can automate the setup process with a provisioning package to ensure a consistent experience across multiple Surface Hubs. This optional technology allows for a streamlined setup process that can be performed without extensive IT intervention, saving time and resources in organizational and enterprise environments. Specifically, provisioning packs allow you to automatically configure the following: 
-
-- Network profile
-- Certificates
-- Proxy settings
-- Azure AD join
-
-1. Review the documentation in [Create provisioning packages](provisioning-packages-for-surface-hub.md) and save the package to a USB thumb drive.
-2. Insert the USB thumb drive into one of the USB ports when you see the License Agreement page.
-3. When prompted, choose the provisioning package you want.
-4. Follow the rest of the steps, and remove the USB drive at the first reboot that occurs in the setup process.
-<!-- edit this to indicate supported features -->
-
 ## Microsoft Teams Rooms setup
 
 Now, you're ready to begin the Microsoft Teams Rooms setup experience.
@@ -89,6 +74,22 @@ Now, you're ready to begin the Microsoft Teams Rooms setup experience.
 1. Agree to Microsoft Software License Terms and acknowledge that you have read the privacy statement at [https://aka.ms/privacy](https://aka.ms/privacy). Select **Accept**.
 2. If you received a one-time passcode, enter it and select **Continue.** Otherwise, select **Manual setup** and enter your Teams resource account and password.
 3. Select **Finish** to complete the Microsoft Teams Rooms setup.
+
+## Use provisioning packages in Enterprise environments
+
+Alternatively, you can automate the setup process with a provisioning package to ensure a consistent experience across multiple Surface Hubs. This optional technology allows for a streamlined setup process that can be performed without extensive IT intervention, saving time and resources in organizational and enterprise environments. 
+
+Surface Hub 3 supports a subset of provisioning pack features available in Windows 10 Team edition (for example, you can't use a provisioning pack to install apps on Surface Hub 3). Specifically, provisioning packs allow you to automatically configure the following for Surface Hub 3: 
+
+- Network profile
+- Certificates
+- Proxy settings
+- Entra ID join (Azure AD join)
+
+1. Review the Windows 10 Team edition documentation in [Create provisioning packages](provisioning-packages-for-surface-hub.md) and save the package to a USB thumb drive.
+2. Insert the USB thumb drive into one of the USB ports when you see the License Agreement page.
+3. When prompted, choose the provisioning package you want.
+4. Follow the rest of the steps, and remove the USB drive at the first reboot that occurs in the setup process.
 
 ## Understanding the platform configuration on Surface Hub 3
 
