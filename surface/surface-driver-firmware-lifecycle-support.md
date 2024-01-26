@@ -20,7 +20,7 @@ This page provides essential information on the driver and firmware lifecycle fo
 
 This policy outlines the lifecycle of driver and firmware updates for Surface devices. It begins on the initial release of a device and extends until the designated end-of-servicing date when Surface ceases to publish updates. The following sections detail the policy and specify end-of-servicing dates.
 
-## Overview of Surface driver and firmware lifecycle policy
+## Overview
 
 The Surface driver and firmware lifecycle consists of two parts: 
 

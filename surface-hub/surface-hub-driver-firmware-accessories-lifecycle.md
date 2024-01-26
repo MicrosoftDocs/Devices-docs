@@ -23,14 +23,14 @@ The lifecycle policy covers driver and firmware releases for Surface Hub devices
 
 This policy outlines the lifecycle of driver and firmware updates for Surface Hub devices and accessories. It begins on the initial release of a device and extends until the designated end-of-servicing date when Surface ceases to publish updates. The following sections detail the policy and specify end-of-servicing dates.
 
-## Surface Hub devices and accessories driver and firmware lifecycle policy
+## Overview
 
 The Surface Hub devices and accessories driver and firmware lifecycle consists of two parts: 
 
 - The [driver and firmware servicing period](#hub-deviceaccessory-servicing-period) for a device/accessory.
 - The [support provided for OS versions](#os-version-support) during that period.
 
-### Hub Device/accessory Servicing Period
+## Hub Device/accessory Servicing Period
 
 The Device/accessory Servicing Period defines the period that updates are available for Surface Hub and accessories. The Device/accessory servicing period starts when a device/accessory is released.
 
@@ -38,7 +38,8 @@ The Device/accessory Servicing Period defines the period that updates are availa
 
 - **For Hub devices/accessories released on and after January 1, 2021:** Surface Hub devices and accessories will receive driver and firmware updates for at least six years from when the device/accessory was first released. In cases where the servicing duration is longer than six years, an updated end-of-servicing date will be published before the date of last servicing.
 
-### OS version support
+##
+ OS version support
 
 OS version support defines the operating system versions Surface supports during the device/accessory servicing period. To see your Surface Hub device's minimum supported OS version, visit the [Surface supported operating systems support page](https://support.microsoft.com/help/2858199/surface-supported-operating-systems). Depending on the model, Surface Hub devices will receive driver and firmware updates for the most recent release of Windows 10, Windows 11, Windows 11 IoT Enterprise or Windows 10 Team edition (Surface Hub).
 
@@ -60,7 +61,7 @@ Surface Hub Smart Camera           | March 15, 2022     | March 15, 2028        
 Surface Hub Pen                    | July 1, 2019       | January 11, 2027                             |
 Surface Hub Fingerprint Reader     | September 16, 2020 | January 11, 2027                             |
 
-### Legacy products  
+## Legacy products  
 
 The following table lists products that have passed their end-of-support date based on the driver and firmware lifecycle policy.
 
