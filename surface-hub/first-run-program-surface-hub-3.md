@@ -91,13 +91,13 @@ Surface Hub 3 supports a subset of provisioning pack features available in Windo
 3. When prompted, choose the provisioning package you want.
 4. Follow the rest of the steps, and remove the USB drive at the first reboot that occurs in the setup process.
 
-## Understanding the platform configuration on Surface Hub 3
+## Platform configuration on Surface Hub 3
 
-Your Surface Hub 3 is configured with two distinct Windows profiles, each serving a specific purpose:
+Your Surface Hub 3 is configured with a Skype profile and an Administrator profile. 
 
 ### Skype profile
 
-This profile automatically logs in when you start Surface Hub 3. It operates in a custom kiosk mode, where the Microsoft Teams Rooms application is the only user-accessible feature for non-admins. There is no password for this account. If prompted for a password when switching between Windows accounts, press **Enter.**
+The Skype profile automatically logs in when you start Surface Hub 3. It operates in a custom kiosk mode, where the Microsoft Teams Rooms application is the only user-accessible feature for non-admins. There is no password for this account. If prompted for a password when switching between Windows accounts, press **Enter.**
 
 ### Administrator profile
 
