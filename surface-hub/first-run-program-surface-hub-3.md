@@ -39,7 +39,7 @@ When you first start Surface Hub 3, the device automatically enters first-time W
 ## Surface Hub 3 OOBE setup
 
 > [!TIP]
-> When you run first-time setup, ensure you stay connected to the Internet to automatically download required updates to enable the current user experience. 
+> When you run first-time setup, ensure an internet connection is maintained throughout the setup to automatically download required updates for an optimal user experience.
 
 1. Press the power button to start the device.
 
@@ -86,7 +86,7 @@ Surface Hub 3 supports a subset of provisioning pack features available in Windo
 - Proxy settings
 - Entra ID join (Azure AD join)
 
-1. Review the Windows 10 Team edition documentation in [Create provisioning packages](provisioning-packages-for-surface-hub.md) and save the package to a USB thumb drive.
+1. To begin, review the Windows 10 Team edition documentation in [Create provisioning packages](provisioning-packages-for-surface-hub.md) and save the package to a USB thumb drive.
 2. Insert the USB thumb drive into one of the USB ports when you see the License Agreement page.
 3. When prompted, choose the provisioning package you want.
 4. Follow the rest of the steps, and remove the USB drive at the first reboot that occurs in the setup process.
@@ -95,20 +95,21 @@ Surface Hub 3 supports a subset of provisioning pack features available in Windo
 
 Your Surface Hub 3 is configured with two distinct Windows profiles, each serving a specific purpose:
 
-1. **Skype profile (Kiosk mode)**
-    - **Function:** This profile automatically logs in at boot. It operates in a custom kiosk mode, where the Microsoft Teams Rooms (MTR) application is the only user-accessible feature for non-administrators. Although commonly mistaken as the "platform" or "OS," it is essentially an app running in kiosk mode.
-    - **Password:** There is no password for this account. If prompted for a password when switching between Windows accounts, simply press **Enter.**
-2. **Administrator profile**
+### Skype profile
 
-There are several ways to access the Admin account:
+This profile automatically logs in when you start Surface Hub 3. It operates in a custom kiosk mode, where the Microsoft Teams Rooms application is the only user-accessible feature for non-admins. There is no password for this account. If prompted for a password when switching between Windows accounts, press **Enter.**
 
-- **Method 1:** While in the MTR app/home screen, connect a keyboard and press the Windows key five times to reach the Windows login screen. The Admin account is usually located in the bottom left. Select it and enter the password **sfb** when prompted. This method keeps the Skype user/MTR app session active, which is necessary for certain administrative tasks.
+### Administrator profile
 
-- **Method 2:** In the MTR app, select **...** on the home screen, then **Settings.** Use your admin credentials (username: admin, password: sfb), and navigate to **Windows Settings** in the left panel. This action takes you to the Windows login screen, logging you out of the Skype user/MTR app session.
- 
-- **Method 3:** If the Admin account isn't visible and you see an **other user** login prompt, use the login credential **.\admin** to direct the login to the Administrator account and enter the password.
+To access the Admin account, login with the default password. 
 
-### Using Administrator Windows account
+1. Start Surface Hub 3, connect a keyboard and press the **Windows** key five times to reach the Windows login screen. 
+2. Select **Administrator** and enter the password **sfb**. This method keeps the Skype user/Microsoft Teams Rooms app session active, which is needed for some admin tasks.
+
+   > [!TIP]
+   > It's highly recommended to change the default admin password from sfb to a secure password with letters, numbers, and symbols. To learn more, see [Surface Hub 3 security best practices](surface-hub-3-security.md)
+
+### Windows admin account functionality
 
 Once logged into the Administrator Windows account, you have access to standard Windows functionalities. This includes joining Wi-Fi networks, configuring Bluetooth audio devices, and running Hub-specific applications like the Surface App or Surface Hub Hardware Diagnostic tool.
 
