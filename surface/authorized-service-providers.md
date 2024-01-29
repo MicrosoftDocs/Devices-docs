@@ -55,6 +55,10 @@ The growing ASP network consists of more than 160 locations.
 
 ### Europe
 
+#### Belgium
+
+- [The Rent Company](https://rentcompany.be/)
+
 #### France
 
 - [D4B](https://digital4business.fr/)
@@ -70,6 +74,7 @@ The growing ASP network consists of more than 160 locations.
 #### Netherlands
 
 - [ARP Nederland B.V](https://www.arpsolutions.nl/)
+- [The Rent Company](https://rentcompany.nl/)
 
 #### United Kingdom
 
