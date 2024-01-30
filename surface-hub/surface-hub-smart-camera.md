@@ -6,7 +6,7 @@ author: coveminer
 ms.author: chauncel
 manager: frankbu
 ms.topic: how-to
-ms.date: 12/04/2023
+ms.date: 01/30/2024
 ms.localizationpriority: Medium
 appliesto:
 - Surface Hub 2S
@@ -37,7 +37,7 @@ To learn more, refer to [Surface Hub update history](surface-hub-update-history.
 
 ## Install smart camera
 
-1. Attach the camera to the USB-C port in the middle of the top of Surface Hub 2S. The indicator LED will light briefly when the camera is connected and continuously when the camera is in use.
+1. Attach the camera to the USB-C port in the middle of the top of Surface Hub 2S. The indicator LED lights briefly when the camera is connected and continuously when the camera is in use.
 
      ![Screenshot that shows how to attach the camera to the USB-C port in the middle of the top of Surface Hub 2S.](images/hub2smartcamera1.png)
 
@@ -79,11 +79,11 @@ When you install the Surface Hub Smart Camera, automatic framing is enabled by d
 3. Under **Automatic framing**, adjust the toggle as appropriate.
 4. Select **End session**; modified settings are applied when you start a new session.
 
-If the toggle is set to **On**, automatic framing will always be on by default when users begin a session on Surface Hub. If the toggle is set to **Off**, automatic framing will always be off by default when starting a session on Surface Hub.
+If the toggle is set to **On**, automatic framing is always on by default when users begin a session on Surface Hub. If the toggle is set to **Off**, automatic framing is always off by default when starting a session on Surface Hub.
 
 #### Manage camera settings via an MDM provider
 
-Admins can manage automatic framing via the [Surface Hub configuration service provider](/windows/client-management/mdm/surfacehub-csp) (CSP) from Intune or a third-party mobile device management (MDM) provider.
+Admins can manage automatic framing via the [Surface Hub configuration service provider](/windows/client-management/mdm/surfacehub-csp) (CSP) from Intune or other mobile device management (MDM) provider.
 
 |CSP policy setting| Description|
 |------------------|------------|
@@ -96,13 +96,13 @@ To learn more, refer to the following pages:
 
 ### Windows 11 Desktop on Surface Hub
 
-If you've [migrated your Surface Hub](surface-hub-2s-migrate-os.md) to run Windows 11 Pro or Windows 11 Enterprise, you'll need to turn on automatic framing for the Surface Hub Smart Camera. Automatic framing is turned off by default.
+If you [migrated your Surface Hub](surface-hub-2s-migrate-os.md) to run Windows 11 Pro or Windows 11 Enterprise, you need to turn on automatic framing for the Surface Hub Smart Camera. Automatic framing is turned off by default.
 
 To turn on automatic framing, go to **Settings > Bluetooth & devices > Manage Cameras>  Surface Hub Smart Camera.**
 
 ### Windows 10 Desktop on Surface Hub
 
-If you've [migrated your Surface Hub](surface-hub-2s-migrate-os.md) to run Windows 10 Pro or Windows 10 Enterprise, automatic framing is always enabled and can't be disabled or otherwise configured.
+If you [migrated your Surface Hub](surface-hub-2s-migrate-os.md) to run Windows 10 Pro or Windows 10 Enterprise, automatic framing is always enabled and can't be disabled or otherwise configured.
 
 ### Get Surface Hub Smart Camera
 
