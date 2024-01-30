@@ -7,7 +7,7 @@ ms.service: surface-hub
 author: coveminer
 ms.author: chauncel
 ms.topic: how-to
-ms.date: 01/08/2024
+ms.date: 01/18/2024
 ms.localizationpriority: medium
 appliesto:
 - Surface Hub 2S
@@ -19,7 +19,9 @@ appliesto:
 
 The Surface Hub 3 Pack is a hardware upgrade that transforms your Surface Hub 2S device into a Surface Hub 3. To place an order, contact your [Surface device reseller](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface#DEVICESRESELLERS).
 
-## Prerequisites
+## Install Surface Hub 3 Pack
+
+### Prerequisites
 
 - A Surface Hub 2S, fully updated with the latest Windows Updates. By default, updates are installed automatically during nightly maintenance. To verify, go to **All apps** > **Settings** > **Update and Security** > **Windows Update**, and install all updates.
 
@@ -32,11 +34,13 @@ The Surface Hub 3 Pack is a hardware upgrade that transforms your Surface Hub 2S
 > [!NOTE]
 > Surface Hub 3 Pack runs Windows 11 IoT Enterprise and does not support downgrading to Windows 10 Team or Windows 10 Pro/Enterprise. (If needed, you can reinstall the old cartridge to resume using Surface Hub 2S). 
 
-### To install Surface Hub 3 Pack
+### Demo video
 
 Review the following demo and follow the instructions on this page.
 
 > [!video https://www.microsoft.com/en-us/videoplayer/embed/RW1eQiI]
+
+### Detailed instructions
 
 1. Shut down Surface Hub 2S, unplug all cables, and slide the cover sideways.
 
@@ -57,7 +61,7 @@ Review the following demo and follow the instructions on this page.
 - [First-time setup for Surface Hub 3](first-run-program-surface-hub-3.md).
 - [Surface Hub 3 security best practices](surface-hub-3-security.md)
 
-## Manage Surface Hub 3 devices connected to Microsoft Entra ID (Azure AD)
+## Manage Surface Hub 3 
 
 If you manage Surface Hub 2S via Microsoft Intune or another mobile device management (MDM) provider, remove the device before installing Surface Pack 3.
 
@@ -66,9 +70,9 @@ If you manage Surface Hub 2S via Microsoft Intune or another mobile device manag
 
   ![Screenshot that shows removal of Surface Hub 2S from Intune.](images/remove-hub2s-from-intune.png).
 
-## Recycle Surface Hub 2S cartridge
+## Surface Hub 2S Recycle Program
 
-You will be able recycle the Surface Hub 2S cartridge as part of recommended sustainability best practices. Check this page for updates upon availability.
+The Surface Hub 3 Pack packaging allows you to return your old Surface Hub 2S cartridge to Microsoft for recycling. To participate, [remove the hard drive](#required-removal-of-hard-drive--corporate-data) from the cartridge to protect your sensitive data and [request a pre-paid shipping label](#request-a-pre-paid-shipping-label). 
 
 ### Required removal of hard drive & corporate data
 
@@ -82,7 +86,60 @@ Before recycling your Surface Hub 2S cartridge, first remove the hard drive and 
 
 ![Screenshot that shows removal of cover screw and cover from the compute cartridge and removal of solid state drive (SSD).](images/surface-hub-2s-repack-8.png)
 
-## Install custom wallpaper
+### Request a pre-paid shipping label
+
+Select your country/region and follow the instructions to obtain a shipping label. If you upgraded to the Surface Hub 3 Pack, you can use its original packaging to ship the Surface Hub 2S cartridge for recycling. 
+
+- [Australia](https://microsoft-hub.tes-amm.com/_Content/en-AU/)
+- [Austria](https://microsoft-hub.tes-amm.com/_Content/de-AT/)
+- [Bahrain](https://microsoft-hub.tes-amm.com/_Content/ar-BH/)
+- [Belgium](https://microsoft-hub.tes-amm.com/_Content/nl-BE/)
+- [Bulgaria](https://microsoft-hub.tes-amm.com/_Content/bg-BG)
+- [Canada](https://microsoft-hub.tes-amm.com/_Content/en-CA/)
+- [China](https://microsoft-hub.tes-amm.com/_Content/zh-CN/)
+- [Croatia](https://microsoft-hub.tes-amm.com/_Content/hr-HR/)
+- [Czech Republic](https://microsoft-hub.tes-amm.com/_Content/cs-CZ/)
+- [Denmark](https://microsoft-hub.tes-amm.com/_Content/da-DK/)
+- [Estonia](https://microsoft-hub.tes-amm.com/_Content/et-EE/)
+- [Finland](https://microsoft-hub.tes-amm.com/_Content/fi-FI/)
+- [France](https://microsoft-hub.tes-amm.com/_Content/fr-FR/)
+- [Germany](https://microsoft-hub.tes-amm.com/_Content/de-DE/)
+- [Greece](https://microsoft-hub.tes-amm.com/_Content/el-GR/)
+- [Hong Kong](https://microsoft-hub.tes-amm.com/_Content/en-HK/)
+- [Hungary](https://microsoft-hub.tes-amm.com/_Content/hu-HU/)
+- [India](https://microsoft-hub.tes-amm.com/_Content/en-IN/)
+- [Japan](https://microsoft-hub.tes-amm.com/_Content/ja-JP/)
+- [Kuwait](https://microsoft-hub.tes-amm.com/_Content/ar-KW/)
+- [Latvia](https://microsoft-hub.tes-amm.com/_Content/lv-LV/)
+- [Lichtenstein](https://microsoft-hub.tes-amm.com/_Content/de-LI/)
+- [Luxembourg](https://microsoft-hub.tes-amm.com/_Content/fr-LU/)
+- [Malaysia](https://microsoft-hub.tes-amm.com/_Content/ms-MY/)
+- [Mexico](https://microsoft-hub.tes-amm.com/_Content/es-MX/)
+- [Netherlands](https://microsoft-hub.tes-amm.com/_Content/nl-NL/)
+- [New Zealand](https://microsoft-hub.tes-amm.com/_Content/en-NZ/)
+- [Norway](https://microsoft-hub.tes-amm.com/_Content/no/)
+- [Poland](https://microsoft-hub.tes-amm.com/_Content/pl-PL/)
+- [Portugal](https://microsoft-hub.tes-amm.com/_Content/pt-PT/)
+- [Qatar](https://microsoft-hub.tes-amm.com/_Content/ar-QA/)
+- [Romania](https://microsoft-hub.tes-amm.com/_Content/ro-RO/)
+- [Saudi Arabia](https://microsoft-hub.tes-amm.com/_Content/ar-SA/)
+- [Singapore](https://microsoft-hub.tes-amm.com/_Content/en-SG/)
+- [Slovakia](https://microsoft-hub.tes-amm.com/_Content/sk-SK/)
+- [Slovenia](https://microsoft-hub.tes-amm.com/_Content/sl-SI/)
+- [South Africa](https://microsoft-hub.tes-amm.com/_Content/af-ZA/)
+- [South Korea](https://microsoft-hub.tes-amm.com/_Content/ko-KR/)
+- [Spain](https://microsoft-hub.tes-amm.com/_Content/es-ES/)
+- [Sweden](https://microsoft-hub.tes-amm.com/_Content/sv-SE/)
+- [Switzerland](https://microsoft-hub.tes-amm.com/_Content/fr-CH/)
+- [Taiwan](https://microsoft-hub.tes-amm.com/_Content/zh-TW/)
+- [Thailand](https://microsoft-hub.tes-amm.com/_Content/th-TH/)
+- [United Kingdom](https://microsoft-hub.tes-amm.com/_Content/en-GB/)
+- [United States](https://microsoft-hub.tes-amm.com/_Content/en-US/)
+
+> [!TIP]
+> Since both cartridges appear almost identical, we added two bumps to the edge of the Surface Hub 3 Pack cartridge. These bumps are located on the opposite side of the power socket, helping you differentiate between the two models.
+
+## Wallpaper installation
 
 The latest Windows Bloom wallpaper is available for your Surface Hub 3 device or Pack. To learn more, see [Install Windows Bloom wallpaper on Surface Hub 3](install-wallpaper-surface-hub.md).
 

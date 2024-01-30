@@ -55,6 +55,10 @@ The growing ASP network consists of more than 160 locations.
 
 ### Europe
 
+#### Belgium
+
+- [The Rent Company](https://rentcompany.be/)
+
 #### France
 
 - [D4B](https://digital4business.fr/)
@@ -70,6 +74,7 @@ The growing ASP network consists of more than 160 locations.
 #### Netherlands
 
 - [ARP Nederland B.V](https://www.arpsolutions.nl/)
+- [The Rent Company](https://rentcompany.nl/)
 
 #### United Kingdom
 
@@ -87,7 +92,6 @@ The growing ASP network consists of more than 160 locations.
 
 - [ASI solutions](https://www.asi.com.au/)
 - [Comp Now](https://www.compnow.com.au/)
-- [Double Rise](https://www.doublerise.com/)
 - [JB Hi-Fi](https://www.jbhifi.business/)
 - [Stott & Hoare](https://www.stotthoare.com.au/)
 - [Winthrop](https://www.winaust.com.au/)
@@ -95,7 +99,7 @@ The growing ASP network consists of more than 160 locations.
 #### China
 
 - [Digital China](https://www.digitalchina.com/)
-- [Double Rise](https://www.doublerise.com/)
+- [Double Rise](https://www.doublerise.com/Microsoft.html)
 
 #### Japan
 
