@@ -16,7 +16,7 @@ appliesto:
 
 Surface Hub Smart Camera<sup>1</sup> is designed for hybrid teams and optimized for remote participants. With a sharp focus on the foreground and background, remote participants can see people interact with content on the Surface Hub while viewing everyone else in the room. Surface Hub Smart Camera has a wide field of view greater than 136 degrees, automatic framing<sup>2</sup>, high-quality glass optics, and a low light sensor. To learn more, see the following resources: 
 
-- [Surface Hub Smart Camera tech specs](surface-hub-smart-camera-tech-specs.md).
+- [Surface Hub Smart Camera tech specs](surface-hub-smart-camera-tech-specs.md)
 - [Video demo](https://youtu.be/sgv_TeT8RB8)
 
 ![Screenshot that shows ultra-wide camera view including people whiteboarding on extreme edges of 85" Hub.](images/surface-hub-smart-camera-fov.png)
@@ -118,5 +118,5 @@ you can [purchase Surface Hub Smart Camera separately](https://www.microsoft.com
 
 1.  Surface Hub Smart Camera dynamically adjusts the video feed for remote participants.<sup>2</sup> Surface Hub Smart Camera is available for purchase separately and included in the box with the following models: Surface Hub 3 50", Surface Hub 3" 85", and Surface Hub 2S 85". 
 
-2. Automatic framing is available when running Windows 10 Team edi�on or Windows 10/11 Pro/Enterprise.
+2. Automatic framing is available when running Windows 10 Team edition or Windows 10/11 Pro/Enterprise.
 
