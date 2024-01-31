@@ -66,7 +66,7 @@ How you manage the settings depends on the OS installed on Surface Hub:
 
 ### Windows 10 Team 2022 update (22H2)
 
-When you install the Surface Hub Smart Camera, automatic framing is enabled by default. Admins can manage automatic framing from Settings via an On/Off toggle that sets the automatic framing state at the start of each Surface Hub session.
+When you install the Surface Hub Smart Camera, automatic framing is enabled by default. Admins can manage automatic framing from Settings via an on/off toggle that sets the automatic framing state at the start of each Surface Hub session.
 
 **To adjust automatic framing:**
 
