@@ -28,8 +28,8 @@ Commercial customers can choose to have Windows 10 or Windows 11 installed on ne
 - [Surface Go 3](https://www.microsoft.com/surface/business/surface-go-3)
 - [Surface Go 4](https://www.microsoft.com/surface/business/surface-go-4)
 
-> [!NOTE]
-> Surface Pro 9 is available for Windows 10. Surface Pro 9 with 5G is only available with Windows 11. 
+> [!IMPORTANT]
+> When Windows 10 reaches end of support on October 14, 2025, Microsoft will no longer release security updates, bug fixes, time zone updates, or technical support from Microsoft. To learn more, including transition options for organizations needing more time, see [Plan for Windows 10 EOS with Windows 11, Windows 365, and ESU](https://techcommunity.microsoft.com/t5/windows-it-pro-blog/plan-for-windows-10-eos-with-windows-11-windows-365-and-esu/ba-p/4000414). 
 
 ## Considerations for choosing your OS
 
@@ -56,12 +56,10 @@ The ability to get the OS version you need directly from Surface includes delive
 - Reduce your exposure to potential supply chain vulnerabilities by eliminating the need to reimage to Windows 10.
 - Save time with Windows Autopilot zero-touch deployment, including faster app and policy updates and fewer help desk calls.
 
-## Windows OS versions
+## Windows 10 final version 
 
-Most devices ship from the factory with one of the following OS versions, depending on your choice. 
+Windows 10 version 22H2 is the [final version of Windows 10](/windows/release-health/release-information) with monthly security updates continuing through October 14, 2025. Note that the Windows 10 IoT Enterprise Long-Term Servicing Channel (LTSC) and Windows 10 IoT Enterprise will continue to receive updates based on their specific lifecycles.
 
-> [!TIP]
-> If you order devices from a reseller, please check with the reseller on the exact OS version that meets your requirements.
 
 |      Device           | Windows 10 | Windows 11 |
 | --------------------- | ---------- | ---------- |
@@ -75,7 +73,8 @@ Most devices ship from the factory with one of the following OS versions, depend
 | Surface Pro 8         | 22H2       | 22H2       |
 | Surface Pro 9         | 22H2       | 22H2       |
 
-
+> [!NOTE]
+> Surface Pro 9 is available for Windows 10. Surface Pro 9 with 5G is only available with Windows 11. 
 ## How to order
 
 Commercial customers can place orders for new devices via [authorized Microsoft Surface resellers](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface).
