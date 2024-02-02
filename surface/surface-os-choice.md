@@ -48,7 +48,7 @@ If you're selecting an OS for new devices in your organization, it's strongly re
 | Windows 10 only         | Modern: Autopilot/AADJ          | Windows 10       | $30-$50 <sup>2</sup>        |
 | Windows 10 & Windows 11 | Legacy: Custom image deployment | Windows 11       | None            |
 
-### Windows 10 only
+## Windows 10 only
 
 The ability to get the OS version you need directly from Surface includes delivery of factory shrink-wrapped devices fully configured with the requisite firmware, drivers, and security policies. The extra fee covers the cost of this service along with the following benefits that allow you to:
 
@@ -56,7 +56,7 @@ The ability to get the OS version you need directly from Surface includes delive
 - Reduce your exposure to potential supply chain vulnerabilities by eliminating the need to reimage to Windows 10.
 - Save time with Windows Autopilot zero-touch deployment, including faster app and policy updates and fewer help desk calls.
 
-## Windows 10 final version 
+### Windows 10 final version 
 
 Windows 10 version 22H2 is the [final version of Windows 10](/windows/release-health/release-information) with monthly security updates continuing through October 14, 2025. Note that the Windows 10 IoT Enterprise Long-Term Servicing Channel (LTSC) and Windows 10 IoT Enterprise will continue to receive updates based on their specific lifecycles.
 
