@@ -49,7 +49,8 @@ The following devices are eligible for same unit repair:
 - Surface Go 3
 - Surface Go 4
 - Surface Pro X
-- Surface Laptop Studio 2<sup>1</sup>
+- Surface Laptop Studio<sup>1</sup>
+- Surface Laptop Studio 2
 - Surface Laptop SE
 
 ## Availability
