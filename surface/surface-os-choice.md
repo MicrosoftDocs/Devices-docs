@@ -75,9 +75,45 @@ Windows 10 version 22H2 is the [final version of Windows 10](/windows/release-he
 
 > [!NOTE]
 > Surface Pro 9 is available for Windows 10. Surface Pro 9 with 5G is only available with Windows 11. 
+
 ## How to order
 
 Commercial customers can place orders for new devices via [authorized Microsoft Surface resellers](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface).
+
+
+## Downgrade from Windows 11 to Windows 10 via MSI file
+
+As an alternative to purchasing Windows 10 devices as part of Surface OS Choice, you can manually downgrade Windows Pro or Enterprise editions using a Microsoft Installer (MSI) file specifically designed for this purpose. 
+
+1. **Prepare your Surface device**:
+   - Ensure that all important data on the device is backed up. To learn more, see [Back up your Windows PC](https://support.microsoft.com/en-us/windows/back-up-your-windows-pc-87a81f8a-78fa-456e-b521-ac0560e32338#ID0EBF=Windows_11)
+ 
+
+2. **Download the Windows 10 MSI file**:
+   - Go to [Manage & deploy Surface driver & firmware updates](/surface/manage-surface-driver-and-firmware-updates#download-msi-files) and download the appropriate MSI for your device. 
+   - Select **Download** to display the available MSI files for your device. 
+   - Select the MSI download for Windows 10 and click **Download**:
+   
+   :::image type="content" source="images/download-win10-msi-example.png" alt-text="Screenshot that shows selection of Windows 10 MSI file.":::
+   
+3. **Run the MSI file**:
+   - Close all running applications on your Surface device.
+   - Run the downloaded MSI file. This process automatically initiates the downgrade from Windows 11 to Windows 10. Follow the on-screen instructions carefully.
+
+4. **Installation and setup**:
+   - The MSI installer will handle the downgrade process. Your device may restart several times during the installation.
+   - Once the downgrade process is complete, go through the initial Windows 10 setup process. This may involve configuring settings, signing in with a Microsoft account, and installing updates.
+   - IT admins can configure the first-time setup experience per the instructions in [Customize the Windows 10 Out of Box Experience (OOBE)](/windows-hardware/customize/desktop/customize-oobe)
+
+5. **Post-installation checks**:
+   - After the setup is complete, verify that all device drivers are correctly installed and updated for Windows 10. To learn more, see [Update drivers manually in Windows] (https://support.microsoft.com/windows/update-drivers-manually-in-windows-ec62f46c-ff14-c91d-eead-d7126dc1f7b6).
+   - Restore any previously backed-up data to the device. Follow the [Restore a backup](https://support.microsoft.com/windows/back-up-your-windows-pc-87a81f8a-78fa-456e-b521-ac0560e32338#ID0EBF=Windows_10) instructions or view the following video. 
+
+   > [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1ga0E?]
+
+6. **Additional recommendations**:
+   - Check for any available updates in Windows Update to ensure your Windows 10 installation is up to date.
+   - Reinstall any applications that were removed during the downgrade process.
 
 ### References
 
