@@ -109,13 +109,13 @@ As an alternative to purchasing Windows 10 devices as part of Surface OS Choice,
 
 5. **Post-installation checks**:
    - After the setup is complete, verify that all device drivers are correctly installed and updated for Windows 10. To learn more, see [Update drivers manually in Windows] (https://support.microsoft.com/windows/update-drivers-manually-in-windows-ec62f46c-ff14-c91d-eead-d7126dc1f7b6).
-   - Restore any previously backed-up data to the device. Follow the [Restore a backup](https://support.microsoft.com/windows/back-up-your-windows-pc-87a81f8a-78fa-456e-b521-ac0560e32338#ID0EBF=Windows_10) instructions or view the following video. 
+   - Restore any previously backed-up data to the device. Follow the [Restore a backup](https://support.microsoft.com/windows/back-up-your-windows-pc-87a81f8a-78fa-456e-b521-ac0560e32338#ID0EBF=Windows_10) instructions and view the following video. 
 
    > [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1ga0E?]
 
 6. **Additional recommendations**:
-   - Check for any available updates in Windows Update to ensure your Windows 10 installation is up to date.
-   - Reinstall any applications that were removed during the downgrade process.
+   - Check for any available updates in Windows Update to ensure your Windows 10 installation is up to date. Go to **Start** > **Settings** > **Update & Security** > **Windows Update**. 
+   - Reinstall any applications that were removed during the downgrade process.If you backed up your device with OneDrive, sign in to OneDrive with the same Microsoft account you used to make the original backup.You can also check your Download folder for any previously downloaded apps: Select the app and follow the prompts to reinstall. 
 
 ### References
 
