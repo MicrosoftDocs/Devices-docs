@@ -29,7 +29,7 @@ Commercial customers can choose to have Windows 10 or Windows 11 installed on ne
 - [Surface Go 4](https://www.microsoft.com/surface/business/surface-go-4)
 
 > [!IMPORTANT]
-> When Windows 10 reaches end of support on October 14, 2025, Microsoft will no longer release security updates, bug fixes, time zone updates, or technical support from Microsoft. To learn more, including transition options for organizations needing more time, see [Plan for Windows 10 EOS with Windows 11, Windows 365, and ESU](https://techcommunity.microsoft.com/t5/windows-it-pro-blog/plan-for-windows-10-eos-with-windows-11-windows-365-and-esu/ba-p/4000414). 
+> When Windows 10 reaches end of support (EOS) on October 14, 2025, Microsoft will no longer release security updates, bug fixes, time zone updates, or technical support from Microsoft. To learn more, including transition options for organizations needing more time, see [Plan for Windows 10 EOS with Windows 11, Windows 365, and ESU](https://techcommunity.microsoft.com/t5/windows-it-pro-blog/plan-for-windows-10-eos-with-windows-11-windows-365-and-esu/ba-p/4000414). 
 
 ## OS choice options
 
@@ -116,6 +116,9 @@ As an alternative to purchasing Windows 10 devices as part of Surface OS Choice,
 6. **Additional recommendations**:
    - Check for any available updates in Windows Update to ensure your Windows 10 installation is up to date. Go to **Start** > **Settings** > **Update & Security** > **Windows Update**. 
    - Reinstall any applications that were removed during the downgrade process. If you backed up your device with OneDrive, sign in to OneDrive with the same Microsoft account you used to make the original backup.You can also check your Download folder for any previously downloaded apps: Select the app and follow the prompts to reinstall. 
+
+> [!IMPORTANT]
+> After Windows 10 EOS, on October 14, 2025, Windows 10 MSI files for Surface devices will no longer be updated with newer drivers and firmware.
 
 ### References
 
