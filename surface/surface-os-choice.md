@@ -86,7 +86,9 @@ Commercial customers can place orders for new devices via [authorized Microsoft 
 As an alternative to purchasing Windows 10 devices as part of Surface OS Choice, you can manually downgrade Windows Pro or Enterprise editions using a Microsoft Installer (MSI) file specifically designed for this purpose. 
 
 1. **Prepare your Surface device**:
-   - Ensure that all important data on the device is backed up. To learn more, see [Back up your Windows PC](https://support.microsoft.com/en-us/windows/back-up-your-windows-pc-87a81f8a-78fa-456e-b521-ac0560e32338#ID0EBF=Windows_11)
+   - Ensure that all important data on the device is backed up. To learn more, see [Back up your Windows PC](https://support.microsoft.com/en-us/windows/back-up-your-windows-pc-87a81f8a-78fa-456e-b521-ac0560e32338#ID0EBF=Windows_11) and view the following video:
+
+      > [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1g7Ie?]
  
 
 2. **Download the Windows 10 MSI file**:
