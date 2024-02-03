@@ -92,7 +92,7 @@ As an alternative to purchasing Windows 10 devices as part of Surface OS Choice,
  
 
 2. **Download the Windows 10 MSI file**:
-   - Go to [Manage & deploy Surface driver & firmware updates](/surface/manage-surface-driver-and-firmware-updates#download-msi-files) and download the appropriate MSI for your device. 
+   - Go to [Manage & deploy Surface driver & firmware updates](/surface/manage-surface-driver-and-firmware-updates#download-msi-files) and select the appropriate MSI for your device. 
    - Select **Download** to display the available MSI files for your device. 
    - As an example, for Surface Laptop 5, select the MSI download for Windows 10 (look for **win10** in the file name) and click **Download**:
    
@@ -105,10 +105,10 @@ As an alternative to purchasing Windows 10 devices as part of Surface OS Choice,
 4. **Installation and setup**:
    - The MSI installer will handle the downgrade process. Your device may restart several times during the installation.
    - Once the downgrade process is complete, go through the initial Windows 10 setup process. This may involve configuring settings, signing in with a Microsoft account, and installing updates.
-   - IT admins can configure the first-time setup experience per the instructions in [Customize the Windows 10 Out of Box Experience (OOBE)](/windows-hardware/customize/desktop/customize-oobe)
+   - IT admins can configure the first-time setup experience per the instructions in [Customize the Windows 10 Out of Box Experience (OOBE)](/windows-hardware/customize/desktop/customize-oobe).
 
 5. **Post-installation checks**:
-   - After the setup is complete, verify that all device drivers are correctly installed and updated for Windows 10. To learn more, see [Update drivers manually in Windows] (https://support.microsoft.com/windows/update-drivers-manually-in-windows-ec62f46c-ff14-c91d-eead-d7126dc1f7b6).
+   - After the setup is complete, verify that all device drivers are correctly installed and updated for Windows 10. To learn more, see [Update drivers manually in Windows](https://support.microsoft.com/windows/update-drivers-manually-in-windows-ec62f46c-ff14-c91d-eead-d7126dc1f7b6).
    - Restore any previously backed-up data to the device. Follow the [Restore a backup](https://support.microsoft.com/windows/back-up-your-windows-pc-87a81f8a-78fa-456e-b521-ac0560e32338#ID0EBF=Windows_10) instructions and view the following video. 
 
    > [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1ga0E?]
