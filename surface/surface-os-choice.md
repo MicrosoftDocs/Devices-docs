@@ -94,7 +94,7 @@ As an alternative to purchasing Windows 10 devices as part of Surface OS Choice,
 2. **Download the Windows 10 MSI file**:
    - Go to [Manage & deploy Surface driver & firmware updates](/surface/manage-surface-driver-and-firmware-updates#download-msi-files) and download the appropriate MSI for your device. 
    - Select **Download** to display the available MSI files for your device. 
-   - Select the MSI download for Windows 10 and click **Download**:
+   - As an example, for Surface Laptop 5, select the MSI download for Windows 10 (look for **win10** in the file name) and click **Download**:
    
    :::image type="content" source="images/download-win10-msi-example.png" alt-text="Screenshot that shows selection of Windows 10 MSI file.":::
    
