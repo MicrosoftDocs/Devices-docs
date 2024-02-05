@@ -2,6 +2,16 @@
 
 
 
+## Week of January 29, 2024
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 1/29/2024 | [First-time setup for Surface Hub 3](/surface-hub/first-run-program-surface-hub-3) | modified |
+| 1/30/2024 | [Surface Hub Smart Camera tech specs](/surface-hub/surface-hub-smart-camera-tech-specs) | added |
+| 1/30/2024 | [Install and manage Surface Hub Smart Camera](/surface-hub/surface-hub-smart-camera) | modified |
+
+
 ## Week of January 22, 2024
 
 
