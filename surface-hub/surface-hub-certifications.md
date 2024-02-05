@@ -15,9 +15,13 @@ appliesto:
 
 # Microsoft Teams certified audio and video accessories for Surface Hub 
 
-Surface Hub 50” and 85” models are [certified for Microsoft Teams](https://www.microsoft.com/microsoft-teams/across-devices/devices/category/teams-rooms/20) as all-in-one devices in huddle and collaboration spaces, at 2.3 meters and 3.5 meters respectively. The Surface Hub  family can be extended to larger rooms with the following tested and approved Microsoft Teams certified peripherals that bring the most out of any space when combined with Surface Hub 50” and 85”.
+The 50" and 85" models of Surface Hub 2S and Surface Hub 3 are [certified for Microsoft Teams](https://www.microsoft.com/microsoft-teams/across-devices/devices/category/teams-rooms/20) as all-in-one devices in huddle and collaboration spaces, at 2.3 meters and 3.5 meters respectively. 
+
+Surface Hub 3 runs Microsoft Teams Rooms on Windows, which means it's compatible with Teams certified audio and video accessories. 
 
 ## Microsoft Teams certified audio accessories 
+
+Surface Hub 2S can be extended to larger rooms with the following tested and approved Microsoft Teams certified peripherals that bring the most out of any space when combined with Surface Hub 50” and 85”.
 
 | Model                                | Description                                                                                                                                                                                                                                                                                              |
 | ------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
