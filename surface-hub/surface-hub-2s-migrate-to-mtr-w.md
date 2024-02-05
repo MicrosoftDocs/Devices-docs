@@ -26,7 +26,7 @@ If you have a Surface Hub 2S, you can migrate it to run the Microsoft Teams Room
 > The Migration Launcher app is designed exclusively for Surface Hub 2S devices transitioning from the Windows 10 Team edition operating system to the Microsoft Teams Rooms on Windows experience. It triggers the migration process under specific [prerequisite conditions](#prerequisites) and has no other functionality or user interface.
 
 > [!TIP]
-> Once Autopilot and Teams Rooms autologin is broadly available hardware, instructions will be provided in this section for caputring the hardware hash and enrolling Hub into Autopilot prior to initiating a migration.
+> Customers can take advantage of touchless deployment after migrating their Surface Hub 2S devices to the Microsoft Teams platform. As announced at [Ignite 2023](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/surface-hub-support-coming-for-windows-autopilot/ba-p/3977848), support for Windows Autopilot and Auto-login of Teams Rooms on Windows is currently in Private Preview. We will add more information here once that has become broadly available for use along with this migration process.
 
 ### Migration Launcher app deletes OS and data
 
