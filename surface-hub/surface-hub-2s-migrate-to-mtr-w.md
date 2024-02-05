@@ -225,6 +225,9 @@ This may take a few minutes, depending on network connectivity or other factors.
 
 - If migration does not proceed after 24 hours, check system event logs for possible errors, including a potential issue related to available storage space. 
 - To open Event logs, on Surface Hub go to **Settings** > **Update & security** > **Logs** > **Event Viewer**. Event logs are located under **Windows Logs** > **System**.
+- You can filter for the following Event IDs, as listed below:6,7,8,9,10,11. Select the **System log** > **Filter Current Log**:
+
+![Screenshot that shows how to filter Event IDs](images/filter-event-viewer-hub2s-migration.png)
 
 #### Monitoring Surface Hub migration events
  
