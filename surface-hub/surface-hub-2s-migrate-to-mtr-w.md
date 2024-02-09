@@ -107,7 +107,7 @@ Choose one of the following options:
 
 - Check that the OS version for the target devices meets the prerequisites listed above, specifically **OS version 19045.3758** or later.
 
-![Screenshot of Surface Hub 2S devices enrolled in Microsoft Intune admin center](images/check-os-version-surface-hubs.png)
+    ![Screenshot of Surface Hub 2S devices enrolled in Microsoft Intune admin center](images/check-os-version-surface-hubs.png)
 
 #### Add Surface Hub 2S devices to a Device group
 
@@ -122,7 +122,7 @@ Choose one of the following options:
 6. Select **Create** to create the new group.
 7. Open the Group, select  **Members** >**Add members** and add the Surface Hub 2S devices you're targeting for migration.
 
-![Screenshot that shows how to add members to a security group in Intune admin center](images/add-members-security-group.png)
+    ![Screenshot that shows how to add members to a security group in Intune admin center](images/add-members-security-group.png)
 
 ### Associate store account with Intune
 
@@ -144,7 +144,7 @@ Download the migration launcher app package from Microsoft Store for Business.
 1. Sign in to the [Microsoft Store for Business](https://businessstore.microsoft.com/).
 2. Select **Manage** >**Shop settings** and under Shopping experience, ensure that **Show offline apps** is enabled.
 
-![Screenshot that shows how to enable offline apps in Microsoft Store for Business](images/store-for-business-offline-apps.png)
+    ![Screenshot that shows how to enable offline apps in Microsoft Store for Business](images/store-for-business-offline-apps.png)
 
 #### Get offline-licensed app package for Migration Launcher
 
@@ -166,18 +166,18 @@ Download the migration launcher app package from Microsoft Store for Business.
 7. If you receive an error indicating the downloadable files are unsafe, click **Keep** and **Keep anyway**.
 8. You should now have four files (one MSIXBUNDLE File and three APPX Files) downloaded to your local computer and ready for the next step.
 
-![Screenshot of downloaded files](images/hub2s-migration-app-download-files.png)
+    ![Screenshot of downloaded files](images/hub2s-migration-app-download-files.png)
 
 ## Deploy Migration Launcher app via Intune
 
 1. Sign in to [Intune Admin Center](https://endpoint.microsoft.com/) and go to **Apps** > **All apps** >**Add**. Under App type, select **Line-of-business app**.
 
-![Screenshot of Select line of business app](images/hub2s-migration-select-lob-app.png)
+    ![Screenshot of Select line of business app](images/hub2s-migration-select-lob-app.png)
 
 2. Configure app information on the Add App page. Under the App information section, click **Select app package file**. In the flyout pane, click the blue folder icon under the App package file and navigate to select and upload your LOB app package, in this case, the Surface Hub 2S OS Migration Launcher – Microsoft Teams Rooms MSIXBUNDLE file downloaded in the earlier section.  
 3. Select **Dependency app files** and click the blue folder icon to select and upload all three dependencies. The inventory of required files displays a green check box to indicate that you have all the required files uploaded.
 
-![Screenshot that shows selection of dependency files](images/hub2s-migration-select-dependencies.png)
+    ![Screenshot that shows selection of dependency files](images/hub2s-migration-select-dependencies.png)
 
 > [!TIP]
 > You only need to ensure the three check box icons appear for your specified architecture
@@ -193,7 +193,7 @@ You can make the app available for enrolled devices or assign it as required.
 1. Under **Required** >**Group mode**, select **Add group** and add your intended Device group.
 2. Under **Required Group mode**>**Install Context**, select **User context** link, and in the flyout pane, change the App settings toggle to ensure **Device context** is selected and then select **OK**.
 
-![Screenshot that shows selection of device context](images/hub2s-migration-select-device-context.png)
+    ![Screenshot that shows selection of device context](images/hub2s-migration-select-device-context.png)
 
 3. Select **Next**.
 
@@ -201,7 +201,7 @@ You can make the app available for enrolled devices or assign it as required.
 
 - Under **Review + create**, review all settings and configurations. Click **Create** to deploy the app.
 
-![Screenshot that shows creation of app](images/hub2s-migration-intune-app.png)
+    ![Screenshot that shows creation of app](images/hub2s-migration-intune-app.png)
 
 This may take a few minutes, depending on network connectivity or other factors. You can check the upload status under the Notifications tray.
 
