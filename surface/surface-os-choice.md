@@ -50,6 +50,9 @@ If you're selecting an OS for new devices in your organization and still using W
 
 ## Windows 10 only
 
+> [!NOTE]
+> Effective March 31, 2024, Microsoft will no longer offer Windows 10 Pro as a downgrade choice in operating systems on devices delivered from the factory. To run Windows 10 on a Surface device, see [Downgrade from Windows 11 to Windows 10 via MSI file](#downgrade-from-windows-11-to-windows-10-via-msi-file). 
+
 The ability to get the OS version you need directly from Surface includes delivery of factory shrink-wrapped devices fully configured with the requisite firmware, drivers, and security policies. The extra fee covers the cost of this service along with the following benefits that allow you to:
 
 - Provide your users with the latest Surface hardware today while upgrading to Windows 11 at your own pace.
@@ -83,7 +86,22 @@ Commercial customers can place orders for new devices via [authorized Microsoft 
 
 ## Downgrade from Windows 11 to Windows 10 via MSI file
 
-As an alternative to purchasing Windows 10 devices as part of Surface OS Choice, you can manually downgrade Windows Pro or Enterprise editions with a Microsoft Installer (MSI) file designed for this purpose. 
+After March 31, 2024 -- when new devices will no longer ship with Windows 10 preinstalled -- you can manually downgrade Windows Pro or Enterprise editions with a Microsoft Installer (MSI) file designed for this purpose. 
+
+- [Downgrade individual devices to Windows 10](#downgrade-individual-devices-to-windows-10)
+- [Automate downgrade of multiple devices](#automate-downgrade-of-multiple-devices-to-windows-10)
+
+### Licensing considerations
+
+Use one of the following options:
+
+- Use the downgrade rights allowed by the OEM End User License Agreement (EULA). This means you can install Windows 10 Pro on a Surface Device that has a Windows 11 Pro license, as long as you comply with the terms and conditions of the OEM EULA. 
+- Use the Software Assurance rights with volume license agreements. This means that you can run Windows 10 Pro on a Surface device that has a Windows 11 Pro license, as long as you have a valid volume license agreement that covers the device and the operating system. 
+- To learn more, see [Manage & deploy Surface driver & firmware updates](manage-surface-driver-and-firmware-updates.md)
+
+## Downgrade individual devices to Windows 10
+
+This section explains how to manually downgrade an individual Surface device to Windows 10. 
 
 1. **Prepare your Surface device**:
    - Ensure that all important data on the device is backed up. To learn more, see [Back up your Windows PC](https://support.microsoft.com/en-us/windows/back-up-your-windows-pc-87a81f8a-78fa-456e-b521-ac0560e32338#ID0EBF=Windows_11) and view the following video:
@@ -116,6 +134,10 @@ As an alternative to purchasing Windows 10 devices as part of Surface OS Choice,
 6. **Additional recommendations**:
    - Check for any available updates in Windows Update to ensure your Windows 10 installation is up to date. Go to **Start** > **Settings** > **Update & Security** > **Windows Update**. 
    - Reinstall any applications that were removed during the downgrade process. If you backed up your device with OneDrive, sign in to OneDrive with the same Microsoft account you used to make the original backup.You can also check your Download folder for any previously downloaded apps: Select the app and follow the prompts to reinstall. 
+
+## Automate downgrade of multiple devices to Windows 10
+
+When downgrading multiple devices from Windows 11 to Windows 10 in an IT environment, the basic steps outlined for individual downgrades still apply, but with additional considerations for scale, automation, and management. Review the insructions and guidance in [Configure a test lab to deploy Windows 10](/windows/deployment/windows-10-poc).
 
 > [!IMPORTANT]
 > After Windows 10 EOS, on October 14, 2025, Windows 10 MSI files for Surface devices will no longer be updated with newer drivers and firmware.
