@@ -86,7 +86,7 @@ Commercial customers can place orders for new devices via [authorized Microsoft 
 
 ## Downgrade from Windows 11 to Windows 10 via MSI file
 
-After March 31, 2024 -- when new devices will no longer ship with Windows 10 preinstalled -- you can manually downgrade Windows Pro or Enterprise editions with a Microsoft Installer (MSI) file designed for this purpose. 
+After March 31, 2024--when new devices will no longer ship with Windows 10 preinstalled--you can manually downgrade Windows Pro or Enterprise editions with a Microsoft Installer (MSI) file designed for this purpose. 
 
 - [Downgrade individual devices to Windows 10](#downgrade-individual-devices-to-windows-10)
 - [Automate downgrade of multiple devices](#automate-downgrade-of-multiple-devices-to-windows-10)
@@ -97,7 +97,7 @@ Use one of the following options:
 
 - Use the downgrade rights allowed by the OEM End User License Agreement (EULA). This means you can install Windows 10 Pro on a Surface Device that has a Windows 11 Pro license, as long as you comply with the terms and conditions of the OEM EULA. 
 - Use the Software Assurance rights with volume license agreements. This means that you can run Windows 10 Pro on a Surface device that has a Windows 11 Pro license, as long as you have a valid volume license agreement that covers the device and the operating system. 
-- To learn more, see [Manage & deploy Surface driver & firmware updates](manage-surface-driver-and-firmware-updates.md)
+- To learn more, see [Manage & deploy Surface driver & firmware updates](manage-surface-driver-and-firmware-updates.md).
 
 ## Downgrade individual devices to Windows 10
 
@@ -112,7 +112,7 @@ This section explains how to manually downgrade an individual Surface device to 
 2. **Download the Windows 10 MSI file**:
    - Go to [Manage & deploy Surface driver & firmware updates](/surface/manage-surface-driver-and-firmware-updates#download-msi-files) and select the appropriate MSI for your device. 
    - Select **Download** to display the available MSI files for your device. 
-   - As an example, for Surface Laptop 5, select the MSI download for Windows 10 (look for **win10** in the file name) and click **Download**:
+   - As an example, for Surface Laptop 5, select the MSI download for Windows 10 (look for **win10** in the file name) and select **Download**:
    
    :::image type="content" source="images/download-win10-msi-example.png" alt-text="Screenshot that shows selection of Windows 10 MSI file.":::
    
@@ -121,8 +121,8 @@ This section explains how to manually downgrade an individual Surface device to 
    - Run the downloaded MSI file. This process automatically initiates the downgrade from Windows 11 to Windows 10. Follow the on-screen instructions carefully.
 
 4. **Installation and setup**:
-   - The MSI installer handles the downgrade process. Your device may restart several times during the installation.
-   - Once the downgrade process is complete, go through the initial Windows 10 setup process. This may involve configuring settings, signing in with a Microsoft account, and installing updates.
+   - The MSI installer handles the downgrade process. Your device might restart several times during the installation.
+   - Once the downgrade process is complete, go through the initial Windows 10 setup process. This might involve configuring settings, signing in with a Microsoft account, and installing updates.
    - IT admins can configure the first-time setup experience per the instructions in [Customize the Windows 10 Out of Box Experience (OOBE)](/windows-hardware/customize/desktop/customize-oobe).
 
 5. **Post-installation checks**:
@@ -133,11 +133,11 @@ This section explains how to manually downgrade an individual Surface device to 
 
 6. **Additional recommendations**:
    - Check for any available updates in Windows Update to ensure your Windows 10 installation is up to date. Go to **Start** > **Settings** > **Update & Security** > **Windows Update**. 
-   - Reinstall any applications that were removed during the downgrade process. If you backed up your device with OneDrive, sign in to OneDrive with the same Microsoft account you used to make the original backup.You can also check your Download folder for any previously downloaded apps: Select the app and follow the prompts to reinstall. 
+   - Reinstall any applications that were removed during the downgrade process. If you backed up your device with OneDrive, sign in to OneDrive with the same Microsoft account you used to make the original backup. You can also check your Download folder for any previously downloaded apps: Select the app and follow the prompts to reinstall. 
 
 ## Automate downgrade of multiple devices to Windows 10
 
-When downgrading multiple devices from Windows 11 to Windows 10 in an IT environment, the basic steps outlined for individual downgrades still apply, but with additional considerations for scale, automation, and management. Review the insructions and guidance in [Configure a test lab to deploy Windows 10](/windows/deployment/windows-10-poc).
+When downgrading multiple devices from Windows 11 to Windows 10 in an IT environment, the basic steps outlined for individual downgrades still apply, but with additional considerations for scale, automation, and management. Review the instructions and guidance in [Configure a test lab to deploy Windows 10](/windows/deployment/windows-10-poc).
 
 > [!IMPORTANT]
 > After Windows 10 EOS, on October 14, 2025, Windows 10 MSI files for Surface devices will no longer be updated with newer drivers and firmware.
@@ -145,7 +145,7 @@ When downgrading multiple devices from Windows 11 to Windows 10 in an IT environ
 ### References
 
 1. Windows 10 Downgrade Facilitation SKU offered for Windows 11-capable devices.  
-2. Effective July 1, 2023, additional fee increased from $30 to $50 for all new eligible devices as well as the following devices: Surface Pro 9, Surface Laptop 5, Surface Go 3 LTE, and Surface Pro 8 LTE. The fee remains set at $30 for Surface Laptop Go 2, Surface Laptop 4, and Surface Laptop Studio.
+2. Effective July 1, 2023, additional fee increased from $30 to $50 for all new eligible devices and the following devices: Surface Pro 9, Surface Laptop 5, Surface Go 3 LTE, and Surface Pro 8 LTE. The fee remains set at $30 for Surface Laptop Go 2, Surface Laptop 4, and Surface Laptop Studio.
 
 ### Learn more
 
