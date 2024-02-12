@@ -12,6 +12,7 @@ manager: frankbu
 appliesto:
 - Windows 10
 - Windows 11
+ms.collection: essentials-security
 ---
 # Surface security overview
 
