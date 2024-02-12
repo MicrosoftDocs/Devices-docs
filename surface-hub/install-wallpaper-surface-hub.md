@@ -1,5 +1,5 @@
 ---
-title: Install Windows Bloom wallpaper on Surface Hub 3
+title: Install wallpaper on Surface Hub 3
 description: Explains how admins can install the Windows Bloom background wallpaper on Surface Hub 3. 
 ms.reviewer: dpandre
 manager: frankbu
@@ -48,15 +48,7 @@ This article explains how to replace the default Microsoft Teams Rooms wallpaper
 
 ## Custom wallpaper
 
-You can use these instructions to install your own custom image. Note the following requirements: 
-
-- Use the following dimensions: 3840 x 1080 pixels.
-- Save your custom image with the same file name, listed above:**oembackgroundimage.png**
-- Optionally, modify the SkypeSettings.xml sample, shown above, as needed. Depending on your image, you may need to adjust the **CustomThemeColor** values to match the primary color scheme of your custom wallpaper. The "RedComponent", "GreenComponent", and "BlueComponent" values specify the RGB color components of the theme color you wish to apply. You can customize these values to better complement or contrast with your wallpaper image for a cohesive look on your Surface Hub 3. For specific guidelines on choosing these values, consider using an RGB color picker based on your wallpaper's dominant color.
-
-
-
-
+To create a custom wallpaper, see [IT Admins- Manage and create custom meeting backgrounds for Teams meetings](/MicrosoftTeams/custom-meeting-backgrounds). 
 
 
 
