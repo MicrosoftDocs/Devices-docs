@@ -1,6 +1,6 @@
 ---
 title: "Microsoft Teams certified accessories for Surface Hub"
-description: "See Teams certified audio and video accessories for Surface Hub"
+description: "See Teams certified audio and video accessories for Surface Hub."
 ms.service: surface-hub
 author: coveminer
 ms.author: chauncel
@@ -35,7 +35,7 @@ Surface Hub 2S can be extended to larger rooms with the following tested and app
 
 | Model                                       | Description                                                                    |
 | ------------------------------------------- | ------------------------------------------------------------------------------ |
-| **[Surface Hub Smart Camera](surface-hub-smart-camera.md)**<br>          | 4K, 136 degrees, digital PTZ (pan-tilt-zoom)<br>Up to 8 meters for video subjects |
+| **[Surface Hub Smart Camera](surface-hub-smart-camera.md)**<br>          | 4K, 136 degrees Horizontal Field of View (HFOV), digital pan-tilt-zoom (PTZ)<br>Up to 7.4 meters for video subjects |
 | **Jabra PanaCast**<br>                  | 4K, 180 degrees.<br>Up to 3 meters for video subjects                          |
 | **Poly Studio - Huddle Room USB Video Bar** | 4K, 120 degrees<br>Up to 3.7 meters for audio + video subjects                 |
 | **Polycom EagleEye Director II**<br>    | 1080p, 65 degrees<br>10+ participants medium rooms                             |
