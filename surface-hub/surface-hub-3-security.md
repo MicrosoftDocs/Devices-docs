@@ -142,6 +142,25 @@ We recommend you join Surface Hub 3 to Microsoft Entra ID (Azure AD) and manage 
 | **Audit and monitoring**          | Regularly review audit logs and set up alerts for suspicious activities. Intune integrates with Microsoft Endpoint Manager and other Microsoft security solutions, providing a holistic view of device security.                                                                     | [Audit changes and events in Microsoft Intune](/mem/intune/fundamentals/monitor-audit-logs)                                                                                                                                               |
 | **User training**                 | Educate users about not leaving sensitive information visible on the screen.<br> <br>If your organization has Microsoft Purview Data Loss Prevention (DLP), you can define policies that prevent people from sharing sensitive information in a Microsoft Teams channel or chat session. | [Data loss prevention and Microsoft Teams](/purview/dlp-microsoft-teams)                                                                                                                                                                  |
 
+### Group Policy settings
+
+When integrating Teams Rooms with a domain, it's imperative to establish a separate, dedicated Organizational Unit (OU) specifically for Teams Rooms. This approach enables the application of Group Policy Object (GPO) exclusions directly to this OU, ensuring that only relevant policies affect Teams Rooms objects. 
+
+#### Disable GPO inheritance
+
+It's crucial to disable all GPO inheritance within this OU to prevent the application of unsupported or irrelevant Group Policy settings to Teams Rooms.  
+
+#### Apply GPOs to OU before joining domain
+
+Ensure that machine objects for Teams Rooms are created within this specific OU prior to domain joining. This step is essential to avoid the inadvertent application of default computer OU policies to Teams Rooms, thereby maintaining the intended configuration and security posture.
+
+To learn more about configuring Group Policy for this scenario, see the following resources: 
+
+- [Configuring Group Policy for Microsoft Teams Rooms](/microsoftteams/rooms/rooms-operations#configuring-group-policy-for-microsoft-teams-rooms). 
+
+- [Group Policy Settings Reference](https://www.microsoft.com/download/details.aspx?id=105668)
+
+
 ### Manage UEFI settings with SEMM
 
 SEMM enables IT admins to lock down features at the firmware level that you may wish to implement depending on the security posture of your environment. Open Surface UEFI Configurator, as explained earlier, and go to the following screens:
