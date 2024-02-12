@@ -124,7 +124,7 @@ Ensure that machine objects for Teams Rooms are created within this specific OU 
 
 To learn more about configuring Group Policy in domain-joined scenarios, see the following resources: 
 
-- [Configuring Group Policy for Microsoft Teams Rooms](/microsoftteams/rooms/rooms-operations#configuring-group-policy-for-microsoft-teams-rooms). 
+- [Configuring Group Policy for Microsoft Teams Rooms](/microsoftteams/rooms/rooms-operations#configuring-group-policy-for-microsoft-teams-rooms)
 
 - [Group Policy Settings Reference](https://www.microsoft.com/download/details.aspx?id=105668)
 
