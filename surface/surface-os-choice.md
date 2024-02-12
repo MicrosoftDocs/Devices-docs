@@ -31,6 +31,9 @@ Commercial customers can choose to have Windows 10 or Windows 11 installed on ne
 > [!IMPORTANT]
 > When Windows 10 reaches end of support (EOS) on October 14, 2025, Microsoft will no longer release security updates, bug fixes, time zone updates, or technical support from Microsoft. To learn more, including transition options for organizations needing more time, see [Plan for Windows 10 EOS with Windows 11, Windows 365, and ESU](https://techcommunity.microsoft.com/t5/windows-it-pro-blog/plan-for-windows-10-eos-with-windows-11-windows-365-and-esu/ba-p/4000414). 
 
+> [!NOTE]
+> Effective March 31, 2024, Microsoft will no longer offer Windows 10 Pro as a downgrade choice in operating systems on devices delivered from the factory. To run Windows 10 on a Surface device, see [Downgrade from Windows 11 to Windows 10 via MSI file](#downgrade-from-windows-11-to-windows-10-via-msi-file).
+
 ## OS choice options
 
 If you're selecting an OS for new devices in your organization and still using Windows 10, we strongly recommend migrating to Windows 11. Organizations running legacy software are vulnerable to significant security risk and potential compliance violations. The Surface OS choice program continues to offer Windows 10<sup>1</sup> as follows:
@@ -50,10 +53,7 @@ If you're selecting an OS for new devices in your organization and still using W
 
 ## Windows 10 only
 
-> [!NOTE]
-> Effective March 31, 2024, Microsoft will no longer offer Windows 10 Pro as a downgrade choice in operating systems on devices delivered from the factory. To run Windows 10 on a Surface device, see [Downgrade from Windows 11 to Windows 10 via MSI file](#downgrade-from-windows-11-to-windows-10-via-msi-file). 
-
-The ability to get the OS version you need directly from Surface includes delivery of factory shrink-wrapped devices fully configured with the requisite firmware, drivers, and security policies. The extra fee covers the cost of this service along with the following benefits that allow you to:
+The ability to get the OS version you need directly from Surface includes delivery of factory shrink-wrapped devices fully configured with the requisite firmware, drivers, and security policies. (As stated earlier, the option to purchase devices preinstalled with Windows 10 ends March 31, 2024.) The extra fee covers the cost of this service along with the following benefits that allow you to:
 
 - Provide your users with the latest Surface hardware today while upgrading to Windows 11 at your own pace.
 - Reduce your exposure to potential supply chain vulnerabilities by eliminating the need to reimage to Windows 10.
