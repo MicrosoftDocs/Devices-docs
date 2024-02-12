@@ -1,6 +1,6 @@
 ---
-title: "Microsoft Teams certified accessories for Surface Hub 2S"
-description: "See Teams certified audio and video accessories for Surface Hub 2S 50-inch and 85-inch models."
+title: "Microsoft Teams certified accessories for Surface Hub"
+description: "See Teams certified audio and video accessories for Surface Hub"
 ms.service: surface-hub
 author: coveminer
 ms.author: chauncel
