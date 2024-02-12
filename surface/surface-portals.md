@@ -12,6 +12,7 @@ manager: frankbu
 appliesto:
 - Windows 11
 - Windows 10
+ms.collection: essentials-manage
 ---
 
 # Surface IT portals
