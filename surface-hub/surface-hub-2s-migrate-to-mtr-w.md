@@ -42,13 +42,13 @@ If you have a Surface Hub 2S, you can migrate it to run the Microsoft Teams Room
 
 ## Prerequisites
 
-<!--Ensure Surface Hub 2S is connected to the Internet and has the latest Windows Updates, including **Microsoft Corporation - System Hardware Update - 02/03/2024 or later.-->
-- Ensure Surface Hub 2S is connected to the Internet and has the latest Windows Updates, including **Microsoft Corporation - System Hardware Update - 11/21/2023** 
+<!--Ensure name is correct.-->
+- Ensure Surface Hub 2S is connected to the Internet and has the latest Windows Updates, including **Microsoft Corporation - System Hardware Update - 02/08/2024** 
 - To get all the required updates, sign in with Admin credentials, go to **All apps > Settings** >**Update and Security** >**Windows Update**, and install all updates. 
 - Repeat the update retrieval process until you have installed all the available updates.
 - Once updated, confirm that the UEFI version is **699.845.768.0** or later. <!--To be replaced withewaFeb 3 UEFI version -->
 - If you're unable to check for Windows updates locally (for example, in remote admin scenarios), you can verify the OS version via Microsoft Intune admin center or other mobile device management (MDM) solutions.
-- You can also check by validating that Windows 10 <!-- update version --> [OS Build19045.3758](https://support.microsoft.com/en-us/topic/november-30-2023-kb5032278-os-build-19045-3758-preview-0ae14f06-577e-4eb3-8fcb-c722f3f9dc29) is present on the system. <!--To be replaced with later Win OS version (Feb 3) -->
+- You can also check by validating that Windows 10 <!-- confirm updated version --> [OS Build19045.4116](https://support.microsoft.com/help/5034843) is present on the system. 
 - Validate that your network can handle a **30 GB download**.
 - Ensure the network you are using does not have any other firewalls, blockages, or limitations that would otherwise prevent the download and installation of software onto the Surface Hub 2S device(s) you intend to migrate.
 - Confirm IT allows network access to required sites: ***.devices.microsoft.com** and **download.microsoft.com**. <!--A typical way to check, contact your network admin if fails is a simple ping test: On a separate PC, Open a command line or console and enter the following:-->
@@ -106,7 +106,7 @@ Choose one of the following options:
 
 - To verify enrollment, sign into [Intune admin center](https://intune.microsoft.com/), go to **Devices** > **All devices**, and look for the names of your target devices.
 
-- Check that the OS version for the target devices meets the prerequisites listed above, specifically **OS version 19045.3758** or later.
+- Check that the OS version for the target devices meets the prerequisites listed above, specifically **OS version 19045.4116** or later. <!--update screenshot for Intune ->
 
     ![Screenshot of Surface Hub 2S devices enrolled in Microsoft Intune admin center](images/check-os-version-surface-hubs.png)
 
@@ -149,7 +149,7 @@ Download the migration launcher app package from Microsoft Store for Business.
 
 #### Get offline-licensed app package for Migration Launcher
 
-1. Shop for the app and add it to your group inventory. Select **Shop for my group** and search for **Surface Hub 2S OS Migration Launcher – Microsoft Teams Rooms**. (Alternatively, search via the app ID: **9P81T95QGN1P**).
+1. Shop for the app and add it to your group inventory. Select **Shop for my group** and search for **Surface Hub 2S OS Migration Launcher – Microsoft Teams Rooms**. Alternatively, search via the app ID: **9P81T95QGN1P** or select this <!--add at 3.30 pm on day[link]()).-->
 2. On the app page, for License type, select **Offline** > **Get the app**. This adds the app to your Microsoft Store for Business group inventory. After you see a "toast message" indicating you successfully added the app to your library, select **Manage**, as shown in the following figure. (Note that the Manage button has replaced the Get the app button).
 3. After you select **Manage**, the page listing for the Migration Launcher app is displayed. Wait a few moments for the spinner to complete and the Download portion of the resulting page to appear.
 4. Under **Download package for offline use**, select your desired architecture (X64, X86, ARM). We recommend using x86.
