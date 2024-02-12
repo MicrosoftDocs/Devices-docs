@@ -17,7 +17,7 @@ Surface devices are designed to provide best-in-class experiences in productivit
 In contrast to the SAC servicing option, formerly known as the Current Branch (CB) or Current Branch for Business (CBB) servicing options, you cannot select the Long-Term Servicing Channel (LTSC) option in Windows 10 settings. To use the LTSC servicing option, you must install a separate edition of Windows 10 Enterprise, known as Windows 10 Enterprise LTSC, formerly known as Windows 10 Enterprise LTSB (Long-Term Servicing Branch.
 
 >[!TIP]
->For the latest information about LTSC, refer to the following FAQ: [The next Windows 10 Long Term Servicing Channel (LTSC) release](https://techcommunity.microsoft.com/t5/windows-it-pro-blog/the-next-windows-10-long-term-servicing-channel-ltsc-release/ba-p/2147232).
+>For the latest information about LTSC, refer to the following resources:[Windows 10 release information](/windows/release-health/release-information) and [The next Windows 10 Long Term Servicing Channel (LTSC) release](https://techcommunity.microsoft.com/t5/windows-it-pro-blog/the-next-windows-10-long-term-servicing-channel-ltsc-release/ba-p/2147232).
 
  In addition to providing an extended servicing model, the Windows 10 Enterprise LTSC edition also provides an environment with several Windows components removed. The core Surface experiences that LTSC impacts include:
 
