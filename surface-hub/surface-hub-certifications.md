@@ -26,20 +26,20 @@ Surface Hub 2S can be extended to larger rooms with the following tested and app
 
 | Model                                | Description                                                                                                                                                                                                                                                                                              |
 | ------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Yamaha YVC-1000MS**<br>        | For up to six participants.<br><br>- Use one to five expansion mics for Microsoft Teams certification in rooms with up to 40 participants.                                                                                                                                                               |
-| **Sennheiser EXPAND SP 20**<br> | For up to six participants. Microsoft Teams certified.                                                                                                                                                                                                                                                   |
-| **Yealink CP900**<br>           | For up to six participants. Microsoft Teams certified.                                                                                                                                                                                                                                                   |
+| **Yamaha YVC-1000MS**<br>        | For up to six participants<br><br>- Use one to five expansion mics for Microsoft Teams certification in rooms with up to 40 participants                                                                                                                                                               |
+| **Sennheiser EXPAND SP 20**<br> | For up to six participants                                                                                                                                                                                                                                                    |
+| **Yealink CP900**<br>           | For up to six participants                                                                                                                                                                                                                                                    |
 
  
 ## Microsoft Teams certified video accessories
 
 | Model                                       | Description                                                                    |
 | ------------------------------------------- | ------------------------------------------------------------------------------ |
-| **[Surface Hub Smart Camera](surface-hub-smart-camera.md)**<br>          | 4K, 136 degrees Horizontal Field of View (HFOV), digital pan-tilt-zoom (PTZ)<br>Up to 7.4 meters for video subjects |
-| **Jabra PanaCast**<br>                  | 4K, 180 degrees.<br>Up to 3 meters for video subjects                          |
-| **Poly Studio - Huddle Room USB Video Bar** | 4K, 120 degrees<br>Up to 3.7 meters for audio + video subjects                 |
-| **Polycom EagleEye Director II**<br>    | 1080p, 65 degrees<br>10+ participants medium rooms                             |
-| **Logitech Rally Bar**                      | 4K, 90 degrees, PTZ, manual/digital control, USB 3.0 Type-C, privacy assurance |
+| **[Surface Hub Smart Camera](surface-hub-smart-camera.md)**<br>          | 4K, 136 degrees Horizontal Field of View (HFOV), digital pan-tilt-zoom (PTZ)<br>- Up to 7.4 meters for video subjects |
+| **Jabra PanaCast**<br>                  | 4K, 180 degrees HFOV<br>Up to 3 meters for video subjects                          |
+| **Poly Studio - Huddle Room USB Video Bar** | 4K, 120 degrees HFOV<br>- Up to 3.7 meters for audio + video subjects                 |
+| **Polycom EagleEye Director II**<br>    | 1080p, 65 degrees HFOV<br>- 10+ participants medium rooms                             |
+| **Logitech Rally Bar**                      | 4K, 90 degrees HFOV, PTZ, manual/digital control, USB 3.0 Type-C, privacy assurance |
 
 ## Learn more
 
