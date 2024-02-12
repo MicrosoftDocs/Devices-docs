@@ -15,7 +15,7 @@ appliesto:
 
 # Surface Hub 3 security best practices
 
-Surface Hub 3<sup>1</sup> runs the Microsoft Teams Rooms experience on Windows. Depending on your organization's security posture, you may wish to take other security measures, as described in this article. At a minimum, we recommended the following:
+Surface Hub 3<sup>1</sup> runs the Microsoft Teams Rooms experience on Windows. Depending on your organization's security posture, you might wish to take other security measures, as described in this article. At a minimum, we recommended the following measures:
 
 - [Change default local admin password](#change-default-local-admin-password)
 - [Set a UEFI password](#set-a-uefi-password)
@@ -26,12 +26,12 @@ Surface Hub 3<sup>1</sup> runs the Microsoft Teams Rooms experience on Windows. 
 
 ## Change default local admin password
 
-The default local admin account is a well-known entry point for malicious actors. If the default admin password remains unchanged after first-time setup, the device may be vulnerable to data breaches, system manipulation, or other unauthorized access.
+The default local admin account is a well-known entry point for malicious actors. If the default admin password remains unchanged after first-time setup, the device might be vulnerable to data breaches, system manipulation, or other unauthorized access.
 
 ### To change the local admin password on Surface Hub 3
 
-1. Sign in with admin credentials and go to **Settings > Accounts > Sign-in options > Password > Change**
-2. Enter the current default password:**sfb**
+1. Sign in with admin credentials and go to **Settings > Accounts > Sign-in options > Password > Change**.
+2. Enter the current default password:**sfb**.
 3. Create a new password, confirm the password, and add a hint. To learn more, see [Change or reset your Windows password](https://support.microsoft.com/windows/change-or-reset-your-windows-password-8271d17c-9f9e-443f-835a-8318c8f68b9c).
 
     ![Screenshot showing Change your password.](images/hub3-change-admin-password.png)
@@ -41,7 +41,7 @@ The default local admin account is a well-known entry point for malicious actors
 
 ## Set a UEFI password
 
-The Unified Extensible Firmware Interface (UEFI) is an advanced firmware interface designed to replace the traditional BIOS (Basic Input/Output System), providing enhanced features like improved security, faster boot times, and support for larger hard drives in modern Windows operating systems.  By setting a UEFI password, you add an extra layer of security, preventing unauthorized users from changing the device's firmware settings. Set a strong UEFI password and ensure it's stored in a secure location.
+The Unified Extensible Firmware Interface (UEFI) is an advanced firmware interface designed to replace the traditional BIOS (Basic Input/Output System), providing enhanced features like improved security, faster boot times, and support for larger hard drives in modern Windows operating systems. By setting a UEFI password, you add an extra layer of security, preventing unauthorized users from changing the device's firmware settings. Set a strong UEFI password and store it in a secure location.
 
 Set a UEFI password via the downloadable [Surface UEFI Configurator](https://www.microsoft.com/download/details.aspx?id=46703) and [Surface Enterprise Management Mode (SEMM)](/surface/surface-enterprise-management-mode).
 
@@ -85,11 +85,11 @@ SEMM also includes various UEFI settings that you can configure, as described in
 
 ## Physically secure Surface Hub 3
 
-Physical security is as crucial a tool as digital security. Devices like the Surface Hub in public conference rooms can be susceptible to physical damage or tampering. Consider the following steps to protect Surface Hub.
+Physical security is as crucial a tool as digital security. Devices like the Surface Hub in public conference rooms can be susceptible to physical damage or tampering. To protect Surface Hub, consider the following steps:
 
-- **Tamper-evident seals:** Use tamper-evident seals on the device. If someone attempts to open the device, the seal will show signs of tampering.
+- **Tamper-evident seals:** Use tamper-evident seals on the device. If someone attempts to open the device, the seal shows signs of tampering.
 - **Security cables and locks:** Use security cables and locks to secure the device to a heavy or immovable object, making it difficult for someone to walk away with it.
-- **Surveillance:** Depending on the workplace environment, you may opt to install surveillance cameras in the conference room. The mere presence of cameras can deter potential wrongdoers.
+- **Surveillance:** Depending on the workplace environment, you might opt to install surveillance cameras in the conference room. The mere presence of cameras can deter potential wrongdoers.
 
 ## Differences with Windows 10 Team on Surface Hub & Surface Hub 2S
 
@@ -100,29 +100,29 @@ The following security features are no longer enabled by default on Surface Hub 
 
 ### BitLocker
 
-You can enable BitLocker via Intune when joined to Entra ID (Azure AD). See [Encrypt Windows devices with BitLocker in Intune](/mem/intune/protect/encrypt-devices) to learn more.
+You can enable BitLocker via Intune when joined to Microsoft Entra ID (Azure AD). See [Encrypt Windows devices with BitLocker in Intune](/mem/intune/protect/encrypt-devices) to learn more.
 
 #### To enable BitLocker on a stand-alone Surface Hub 3
 
 1. Sign in to Surface Hub 3 with admin credentials.
-2. Select Start, enter **Control** and open **Control Panel**.
+2. Select Start, enter **Control, and open **Control Panel**.
 3. Select **System & Security** > **BitLocker Drive Encryption** > **Turn on BitLocker.**
 
 ![Screenshot showing how to turn on BitLocker via Control Panel.](images/hub-3-turn-on-bitlocker.png).
 
 ### User Mode Code Integrity (UMCI)
 
-UMCI enforces code integrity policies and ensures that only trusted code runs in user mode, helping to prevent the execution of malicious or untrusted code. You can configure UMCI via Group Policy when Hub 3 is joined to Entra ID (Azure AD) or by using PowerShell cmdlets. UMCI is part of a set of features that you can manage with the Windows Defender Application Control (WDAC), which also includes configurable code integrity policies. To learn more, see [Understand Windows Defender Application Control (WDAC) policy rules and file rules](/windows/security/application-security/application-control/windows-defender-application-control/design/select-types-of-rules-to-create)
+UMCI enforces code integrity policies and ensures that only trusted code runs in user mode, helping to prevent the execution of malicious or untrusted code. You can configure UMCI via Group Policy when Hub 3 is joined to a Microsoft Entra domain or by using PowerShell cmdlets. UMCI is part of a set of features that you can manage with the Windows Defender Application Control (WDAC), which also includes configurable code integrity policies. To learn more, see [Understand Windows Defender Application Control (WDAC) policy rules and file rules](/windows/security/application-security/application-control/windows-defender-application-control/design/select-types-of-rules-to-create).
 
 ## Microsoft Teams Rooms Pro Management
 
-It's strongly recommended to use a license for the Microsoft Teams Rooms Pro Management portal, a cloud-based management solution designed to proactively monitor and update Microsoft Teams Rooms devices and their peripherals. This service is intended for organizations aiming to enhance the meeting room experience for end users, facilitated by real-time monitoring and management for Microsoft Teams Rooms devices like Surface Hub 3.
+We highly recommend utilizing the Microsoft Teams Rooms Pro Management portal license. This cloud-based management platform is designed to elevate the meeting room experience by offering proactive monitoring and updates for Microsoft Teams Rooms devices and their peripherals. Intended for organizations looking to optimize their meeting environments, this service ensures real-time oversight and management of Microsoft Teams Rooms devices, including Surface Hub 3. By adopting this solution, organizations can significantly enhance usability and reliability for end users, ensuring seamless meeting experiences.
 
 - **Intelligent operations**: Utilizes software and machine learning to automate updates, detect problems, and resolve issues for Microsoft Teams Rooms.
 - **Timely security updates**: Automated update management ensures that security patches are applied promptly as they become available, minimizing the window of vulnerability and protecting devices from known security threats.
 - **Update management**: Automates the orchestration of meeting application and Windows updates based on customer-configurable deployment rings.
 
-To learn more, see [Microsoft Teams Rooms Pro Management](/microsoftteams/rooms/rooms-pro-management)
+To learn more, see [Microsoft Teams Rooms Pro Management.](/microsoftteams/rooms/rooms-pro-management)
 
 ### Enterprise Management of Surface Hub 3
 
@@ -146,15 +146,12 @@ We recommend you join Surface Hub 3 to Microsoft Entra ID (Azure AD) and manage 
 
 When integrating Teams Rooms with a domain, it's imperative to establish a separate, dedicated Organizational Unit (OU) specifically for Teams Rooms. This approach enables the application of Group Policy Object (GPO) exclusions directly to this OU, ensuring that only relevant policies affect Teams Rooms objects. 
 
-#### Disable GPO inheritance
+- **Disable GPO inheritance**. It's crucial to disable all GPO inheritance within this OU to prevent the application of unsupported or irrelevant Group Policy settings to Teams Rooms.  
 
-It's crucial to disable all GPO inheritance within this OU to prevent the application of unsupported or irrelevant Group Policy settings to Teams Rooms.  
-
-#### Apply GPOs to OU before joining domain
-
+- **Apply GPOs to OU before joining domain**.
 Ensure that machine objects for Teams Rooms are created within this specific OU prior to domain joining. This step is essential to avoid the inadvertent application of default computer OU policies to Teams Rooms, thereby maintaining the intended configuration and security posture.
 
-To learn more about configuring Group Policy for this scenario, see the following resources: 
+To learn more about configuring Group Policy in domain-joined scenarios, see the following resources: 
 
 - [Configuring Group Policy for Microsoft Teams Rooms](/microsoftteams/rooms/rooms-operations#configuring-group-policy-for-microsoft-teams-rooms). 
 
@@ -163,7 +160,7 @@ To learn more about configuring Group Policy for this scenario, see the followin
 
 ### Manage UEFI settings with SEMM
 
-SEMM enables IT admins to lock down features at the firmware level that you may wish to implement depending on the security posture of your environment. Open Surface UEFI Configurator, as explained earlier, and go to the following screens:
+SEMM enables IT admins to lock down features at the firmware level that you might wish to implement depending on the security posture of your environment. Open Surface UEFI Configurator, as explained earlier, and go to the following screens:
 
    ![Screenshot showing components to activate or deactivate.](images/uefi-hub-components.png)
 
@@ -188,7 +185,7 @@ The ability to boot from another source, such as a USB or Ethernet device, provi
 - **Data Extraction**: An attacker could boot from an external device to a system that allows direct access to the internal storage, potentially extracting sensitive data.
 - **Malware Installation**: Booting from an untrusted source could introduce malware, rootkits, or other malicious software at the system level.
 
-Given these implications, organizations in highly secure workplace environments may choose to disable Alternate Boot and USB Boot to reduce the risk of unauthorized access or tampering.
+Given these implications, organizations in highly secure workplace environments might choose to disable Alternate Boot and USB Boot to reduce the risk of unauthorized access or tampering.
 
 #### Boot Order Lock
 
