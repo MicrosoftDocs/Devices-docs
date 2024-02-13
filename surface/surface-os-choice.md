@@ -106,9 +106,8 @@ This section explains how to manually downgrade an individual Surface device to 
 1. **Prepare your Surface device**:
    - Ensure that all important data on the device is backed up. To learn more, see [Back up your Windows PC](https://support.microsoft.com/en-us/windows/back-up-your-windows-pc-87a81f8a-78fa-456e-b521-ac0560e32338#ID0EBF=Windows_11) and view the following video:
 
-      > [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1g7Ie?]
+   > [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1g7Ie?]
  
-
 2. **Download the Windows 10 MSI file**:
    - Go to [Manage & deploy Surface driver & firmware updates](/surface/manage-surface-driver-and-firmware-updates#download-msi-files) and select the appropriate MSI for your device. 
    - Select **Download** to display the available MSI files for your device. 
