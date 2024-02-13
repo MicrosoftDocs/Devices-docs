@@ -23,7 +23,7 @@ The MIL-STD-810 test standards, maintained by the US Department of Defense, help
 
 ## MIL-STD-810 test results
 
-Operational tests pass if the unit remained operational during the entire test, and non-operational tests pass if a functional verification was performed immediately after the test exposure. Tests were conducted in accordance with the MIL-STD-810 standards effective at the time of product release. Surface devices including Surface Go 4, Surface Pro 9, Surface Pro 9 with 5G, Surface Laptop 5, and Surface Laptop Go 2 meet the current standard, MIL-STD-810H. Tests for Surface Laptop Studio 2 and Surface Laptop Go 3 remain pending. Earlier devices were tested under the previous standard, MIL-STD-810G.
+Operational tests pass if the unit remained operational during the entire test, and non-operational tests pass if a functional verification was performed immediately after the test exposure. Tests were conducted in accordance with the MIL-STD-810 standards effective at the time of product release. Surface devices, including Surface Laptop Go 3, Surface Laptop Studio 2, Surface Go 4, Surface Pro 9, Surface Pro 9 with 5G, Surface Laptop 5, and Surface Laptop Go 2 meet the current standard, MIL-STD-810H. Earlier devices were tested under the previous standard, MIL-STD-810G.
 
 ## Current standard: MIL-STD-810H
 
