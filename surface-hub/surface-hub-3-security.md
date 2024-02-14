@@ -98,11 +98,11 @@ The following security features are no longer enabled by default on Surface Hub 
 - [BitLocker](/windows/security/information-protection/bitlocker/bitlocker-overview)
 - [User Mode Code Integrity (UMCI)](/surface-hub/surface-hub-security#operating-system-defenses)
 
-### BitLocker
+## BitLocker
 
 You can enable BitLocker via Intune when joined to Microsoft Entra ID (Azure AD). See [Encrypt Windows devices with BitLocker in Intune](/mem/intune/protect/encrypt-devices) to learn more.
 
-#### To enable BitLocker on a stand-alone Surface Hub 3
+### To enable BitLocker on a stand-alone Surface Hub 3
 
 1. Sign in to Surface Hub 3 with admin credentials.
 2. Select Start, enter **Control, and open **Control Panel**.
@@ -124,7 +124,7 @@ We highly recommend utilizing the Microsoft Teams Rooms Pro Management portal li
 
 To learn more, see [Microsoft Teams Rooms Pro Management.](/microsoftteams/rooms/rooms-pro-management)
 
-### Enterprise Management of Surface Hub 3
+## Enterprise Management of Surface Hub 3
 
 We recommend you join Surface Hub 3 to Microsoft Entra ID (Azure AD) and manage the device using Microsoft Intune or equivalent mobile device management (MDM) solution. The following table describes configuration management options for Intune.
 
@@ -142,7 +142,7 @@ We recommend you join Surface Hub 3 to Microsoft Entra ID (Azure AD) and manage 
 | **Audit and monitoring**          | Regularly review audit logs and set up alerts for suspicious activities. Intune integrates with Microsoft Endpoint Manager and other Microsoft security solutions, providing a holistic view of device security.                                                                     | [Audit changes and events in Microsoft Intune](/mem/intune/fundamentals/monitor-audit-logs)                                                                                                                                               |
 | **User training**                 | Educate users about not leaving sensitive information visible on the screen.<br> <br>If your organization has Microsoft Purview Data Loss Prevention (DLP), you can define policies that prevent people from sharing sensitive information in a Microsoft Teams channel or chat session. | [Data loss prevention and Microsoft Teams](/purview/dlp-microsoft-teams)                                                                                                                                                                  |
 
-### Group Policy settings
+## Group Policy settings for domain-joined scenarios
 
 When integrating Teams Rooms with a domain, it's imperative to establish a separate, dedicated Organizational Unit (OU) specifically for Teams Rooms. This approach enables the application of Group Policy Object (GPO) exclusions directly to this OU, ensuring that only relevant policies affect Teams Rooms objects. 
 
@@ -158,7 +158,7 @@ To learn more about configuring Group Policy in domain-joined scenarios, see the
 - [Group Policy Settings Reference](https://www.microsoft.com/download/details.aspx?id=105668)
 
 
-### Manage UEFI settings with SEMM
+## Manage UEFI settings with SEMM
 
 SEMM enables IT admins to lock down features at the firmware level that you might wish to implement depending on the security posture of your environment. Open Surface UEFI Configurator, as explained earlier, and go to the following screens:
 
@@ -166,18 +166,18 @@ SEMM enables IT admins to lock down features at the firmware level that you migh
 
    ![Screenshot showing advanced settings to turn on or off.](images/uefi-hub-advanced.png)
 
-#### Simultaneous Multi-Threading (SMT)
+### Simultaneous Multi-Threading (SMT)
 
 Commonly known as hyperthreading in Intel processors, SMT allows a single physical CPU core to execute multiple threads concurrently. This can improve performance in multi-threaded applications. However, there are specific scenarios where you might want to control the SMT setting.
 Some vulnerabilities, like speculative execution side-channel attacks (for example, L1 Terminal Fault, MDS vulnerabilities), can potentially exploit SMT to access sensitive data. Disabling SMT can mitigate the risk associated with these vulnerabilities, although at the cost of some performance. SMT is enabled by default.
 
-#### IPv6 for PXE Boot
+### IPv6 for PXE Boot
 
 If your network infrastructure and security controls are primarily designed around IPv4 and still need to be fully equipped to handle IPv6 traffic securely, enabling IPv6 for PXE boot could introduce vulnerabilities. This is because IPv6 might bypass some of the existing security controls for IPv4.
 
 While enabling IPv6 for PXE boot aligns with the broader industry move towards IPv6 adoption, it's essential to ensure that the network infrastructure, security controls, and operational practices are all equipped to handle IPv6 securely. If not, it might be safer to keep IPv6 for PXE boot disabled until those measures are in place.
 
-#### Alternate Boot & USB Boot
+### Alternate Boot & USB Boot
 
 The ability to boot from another source, such as a USB or Ethernet device, provides flexibility for system recovery but can also introduce vulnerabilities:
 
@@ -187,7 +187,7 @@ The ability to boot from another source, such as a USB or Ethernet device, provi
 
 Given these implications, organizations in highly secure workplace environments might choose to disable Alternate Boot and USB Boot to reduce the risk of unauthorized access or tampering.
 
-#### Boot Order Lock
+### Boot Order Lock
 
 Enabling the "Boot Order Lock" enhances the security posture by ensuring it only boots from authorized sources. Boot Order Lock is turned off by default.
 
@@ -195,7 +195,7 @@ Enabling the "Boot Order Lock" enhances the security posture by ensuring it only
 
 1. Applies to Surface Hub 3 and Surface Hub 2S upgraded with Surface Hub 3 Pack.
 
-## Learn more
+### Learn more
 
 - [Secure and manage Surface Hub with SEMM](surface-hub-secure-with-uefi-semm.md)
 - [Secure Boot overview](/windows-hardware/design/device-experiences/oem-secure-boot)
