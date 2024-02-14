@@ -113,6 +113,23 @@ To access the Admin account, sign in with the default password.
 
 Once signed into the Administrator Windows account, you have access to standard Windows functionality. For example, you can join Wi-Fi networks, configure Bluetooth devices, or install and run applications. 
 
+## Manage Group Policy settings in domain-joined scenarios
+
+When integrating Teams Rooms with a domain, it's imperative to establish a separate, dedicated Organizational Unit (OU) specifically for Teams Rooms. This approach enables the application of Group Policy Object (GPO) exclusions directly to this OU, ensuring that only relevant policies affect Teams Rooms objects. 
+
+- **Disable GPO inheritance**. It's crucial to disable all GPO inheritance within this OU to prevent the application of unsupported or irrelevant Group Policy settings to Teams Rooms.  
+
+- **Apply GPOs to OU before joining domain**.
+Ensure that machine objects for Teams Rooms are created within this specific OU prior to domain joining. This step is essential to avoid the inadvertent application of default computer OU policies to Teams Rooms, thereby maintaining the intended configuration and security posture.
+
+To learn more about configuring Group Policy in domain-joined scenarios, see the following resources: 
+
+- [Configuring Group Policy for Microsoft Teams Rooms](/microsoftteams/rooms/rooms-operations#configuring-group-policy-for-microsoft-teams-rooms)
+
+- [Group Policy Settings Reference](https://www.microsoft.com/download/details.aspx?id=105668)
+
+
+
 ## Next steps
 
 - Although first-time setup automatically downloads required updates, run Windows Update to ensure you have the latest updates. Sign in to Surface Hub 3 with an admin account, and open **Settings > Windows Update > Check for Updates**.
