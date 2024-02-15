@@ -28,24 +28,25 @@ Surface engineering has tested various external monitors, docks, cables, and ada
 
 ### Tested monitors for Surface Laptop Studio 2
 
-- **Designed for Surface:** ViewSonic VG245
-- **Designed for Surface:** ViewSonic VG275 
-- **Designed for Surface:** ViewSonic VP275-4K
-- Acer Predator X27
-- Asus VG279QM
-- Dell C2422HE
-- Dell P2419Hc
-- Dell P2720DC
-- Dell P2721Q
-- Dell U2717D
-- Dell U2720Q
-- Dell U3219Q
-- Dell U3421WE
-- Dell U3818DW
-- Dell UP2716D
-- HP X24iH
-- LG 27UL850-W
-- Samsung LF32TU87
+| Monitor                                 | USB-C | Display Port | Thunderbolt | HDMI |
+|-----------------------------------------|-------|--------------|-------------|------|
+| **Designed for Surface: ViewSonic VG245** | ✓     | ✓            |             | ✓    |
+| **Designed for Surface: ViewSonic VG275** | ✓     | ✓            |             | ✓    |
+| **Designed for Surface: ViewSonic VP275-4K** | ✓     | ✓            |             | ✓    |
+| Dell C2422HE                            | ✓     |              |             |      |
+| Dell P2419Hc                            | ✓     | ✓            |             | ✓    |
+| Dell P2720DC                            | ✓     |              |             |      |
+| Dell P2721Q                             | ✓     |              |             |      |
+| Dell U2720Q                             | ✓     |              |             |      |
+| Dell U3219Q                             | ✓     | ✓            |             | ✓    |
+| Dell U3421WE                            | ✓     | ✓            |             | ✓    |
+| Dell U3818DW                            | ✓     | ✓            |             | ✓    |
+| Dell UP2716D                            |       | ✓            |             | ✓    |
+| Samsung LF32TU87                        | ✓     | ✓            | ✓           | ✓    |
+| Acer Predator X27                       |       | ✓            |             | ✓    |
+| Asus VG279QM                            |       | ✓            |             |      |
+| Dell U2717D                             |       | ✓            |             | ✓    |
+| HP X24iH                                |       | ✓            |             |      |
 
 
 ### Tested docks for Surface Laptop Studio 2
