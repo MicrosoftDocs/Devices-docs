@@ -1,6 +1,6 @@
 ---
 title: Surface Asset Tag Tool
-description: This topic explains how to use the Surface Asset Tag Tool.
+description: This article explains how to use the Surface Asset Tag Tool.
 ms.service: surface
 ms.localizationpriority: medium
 author: coveminer
@@ -21,8 +21,7 @@ that allows you to view, assign, and modify an assigned asset tag value for Surf
 
 ## System requirements
 
-- Surface Pro 3 or later and all newer Surface devices.
-
+- Surface Pro 3 or later and all newer Surface devices
 - UEFI firmware version 3.9.150.0 or later
 
 ## Using Surface Asset Tag
@@ -74,7 +73,7 @@ C:\assets\AssetTag.exe -s testassettag12
 You can view the existing asset tag in the UEFI settings under Device
 Information (**Control Panel > Recovery > Advanced Startup > Restart now**.)
 
-The figure below shows the results of running the Asset Tag Tool on
+The following figure shows the results of running the Asset Tag Tool on
 Surface Go.
 
 ![Results of running Surface Asset Tag tool on Surface Go.](images/assettag-fig1.png)
@@ -93,7 +92,7 @@ C:\Windows\System32> (Get-WmiObject -query "Select * from Win32_SystemEnclosure"
   
 ### Using PowerShell
 
-You can use the script below as a way of getting the proposed value and
+You can use the following script as a way of getting the proposed value and
 interpreting any errors.
 
 ```powershell
