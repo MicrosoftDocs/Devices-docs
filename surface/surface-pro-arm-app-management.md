@@ -200,7 +200,7 @@ The following tables show the availability of selected key features on Surface P
 
 **Is a BMR available?**
 
-- A BMR is available for Surface Pro X. Refer to [Download a recovery image for your Surface](https://support.microsoft.com/surfacerecoveryimage). A BMR will be available for Surface Pro 9 5G.
+- Yes a BMR is available for Surface Pro X and Surface Pro 9  with5G. Refer to [Download a recovery image for your Surface](https://support.microsoft.com/surfacerecoveryimage). 
 
 **Is Intune required to manage Surface Pro 9 with 5G or Surface Pro X?**
 
