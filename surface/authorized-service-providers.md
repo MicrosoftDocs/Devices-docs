@@ -1,12 +1,12 @@
 ---
-title: Surface repair by Microsoft Authorized Service Providers
-description: This article describes how Authorized service providers (ASPs) work closely with Microsoft to help resolve issues that may occur with your Microsoft devices. 
+title: Surface repair by Microsoft authorized service providers
+description: This article describes how authorized service providers (ASPs) work closely with Microsoft to help resolve issues that might occur with your Microsoft devices. 
 ms.service: surface
 ms.localizationpriority: medium
 author: coveminer
 ms.author: chauncel
 ms.topic: overview
-ms.date: 01/10/2024
+ms.date: 02/15/2024
 ms.reviewer: 
 manager: frankbu
 appliesto:
@@ -14,9 +14,9 @@ appliesto:
 - Windows 11
 ---
 
-# Surface repair by Microsoft Authorized Service Providers
+# Surface repair by Microsoft authorized service providers
 
-As part of our commitment to provide great service and support to all our customers, we're building a great network of authorized service providers (ASPs) to help repair and service your Surface devices. ASPs work closely with Microsoft to help resolve issues that may occur with your Microsoft devices. ASPs perform repairs on behalf of Microsoft, have direct access to Microsoft support, and use genuine Microsoft parts.
+As part of our commitment to superior service and support, we're continuing to expand our network of authorized service providers (ASPs). ASPs work closely with Microsoft to help resolve issues that might occur with your Microsoft devices. ASPs perform repairs on behalf of Microsoft, have direct access to Microsoft support, and use genuine Microsoft parts.
 
 ## Global ASP network
 
@@ -27,7 +27,10 @@ The growing ASP network consists of more than 160 locations.
 #### Canada
 
 - [CompuCom](https://www4.compucom.com/compucom-canada)
+- [Compugen](https://www.compugen.com/)
+- [Coreio](https://www.coreio.com/)
 - [Insight](https://ca.insight.com/en_CA/home.html)
+- [IT Mission](https://itmission.com/)
 - [Microserve](https://www.microserve.ca/)
 - [TD SYNNEX](https://www.synnexcorp.com/ca/)
 - [WBM Technologies](https://www.wbm.ca/)
@@ -36,7 +39,6 @@ The growing ASP network consists of more than 160 locations.
 
 - [Applied Data Technologies](https://applieddatatech.com/)
 - [CompuCom](https://www.compucom.com/)
-- [Compugen](https://www.compugen.com/)
 - [Connection](https://www.connection.com/)
 - [Coreio](https://www.coreio.com/)
 - [DHE](https://www.dhecs.com/)
@@ -48,7 +50,6 @@ The growing ASP network consists of more than 160 locations.
 - [IT savvy](https://www.itsavvy.com/)
 - [MCPC](https://www.mcpc.com/)
 - [MicroK12](https://microk12.com/)
-- [PC Connections](https://www.connection.com/)
 - [TD SYNNEX](https://www.synnexcorp.com/us/)
 - [UDT](https://udtonline.com/)
 - [Zones](https://www.zones.com/site/home/index.html)
@@ -83,6 +84,7 @@ The growing ASP network consists of more than 160 locations.
 - [Class Technology Solutions](https://www.easy4u.school/)
 - [Computacenter](https://www.computacenter.com/)
 - [DXC Technology (UK)](https://dxc.com/uk/)
+- [Specialist Computer Centre](https://www.scc.com/)
 - [XMA](https://www.xma.co.uk/)
 - [Zones](https://uk.zones.com/)
 
@@ -93,6 +95,7 @@ The growing ASP network consists of more than 160 locations.
 - [ASI solutions](https://www.asi.com.au/)
 - [Comp Now](https://www.compnow.com.au/)
 - [JB Hi-Fi](https://www.jbhifi.business/)
+- [KEH Partnership](https://technology.theschoollocker.com.au/)
 - [Stott & Hoare](https://www.stotthoare.com.au/)
 - [Winthrop](https://www.winaust.com.au/)
 

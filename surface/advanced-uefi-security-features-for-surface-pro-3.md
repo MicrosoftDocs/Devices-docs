@@ -1,6 +1,6 @@
 ---
 title: Advanced UEFI security features for Surface Pro 3 (Surface)
-description: This article describes how to install and configure the v3.11.760.0 UEFI update to enable additional security options for Surface Pro 3 devices.
+description: This article describes how to install and configure the v3.11.760.0 UEFI update to enable more security options for Surface Pro 3 devices.
 ms.assetid: 90F790C0-E5FC-4482-AD71-60589E3C9C93
 manager: frankbu
 ms.localizationpriority: medium
@@ -13,9 +13,9 @@ ms.date: 06/09/2020
 
 # Advanced UEFI security features for Surface Pro 3
 
-This article describes how to install and configure the v3.11.760.0 UEFI update to enable additional security options for Surface Pro 3 devices.
+This article describes how to install and configure the v3.11.760.0 UEFI update to enable more security options for Surface Pro 3 devices.
 
-To address more granular control over the security of Surface devices, the v3.11.760.0 UEFI update provides additional security options that allow you to disable specific hardware devices or to prevent starting from those devices. After the UEFI update is installed on a device, you can configure it manually or automatically by running a script.
+To address more granular control over the security of Surface devices, the v3.11.760.0 UEFI update provides more security options that allow you to disable specific hardware devices or to prevent starting from those devices. After the UEFI update is installed on a device, you can configure it manually or automatically by running a script.
 
 ## Manually install the UEFI update
 
@@ -25,11 +25,10 @@ To update the UEFI on Surface Pro 3, you can download and install the Surface UE
 
 ## Manually configure additional security settings
 
-
 >[!NOTE]
 >To enter firmware setup on a Surface device, begin with the device powered off, press and hold the **Volume Up** button, then press and release the **Power** button, then release the **Volume Up** button after the device has begun to boot.
 
-After the v3.11.760.0 UEFI update is installed on a Surface device, an additional UEFI menu named **Advanced Device Security** becomes available. If you click this menu, the following options are displayed:
+After the v3.11.760.0 UEFI update is installed on a Surface device, an additional UEFI menu named **Advanced Device Security** becomes available. If you select this menu, the following options are displayed:
 
 | Option         | Description                                                                                                                                                                          | Available settings (default listed in bold) |
 |----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------|
@@ -43,22 +42,20 @@ After the v3.11.760.0 UEFI update is installed on a Surface device, an additiona
 | WiFi           | Enables or disables the built-in Wi-Fi transceiver in the Surface device. This also disables Bluetooth.                                                                              | **Enabled**, Disabled                       |
 | Bluetooth      | Enables or disables the built-in Bluetooth transceiver in the Surface device.                                                                                                        | **Enabled**, Disabled                       |
 
- 
+## Automate more security settings
 
-## Automate additional security settings
-
-As an IT professional with administrative privileges, you can automate the configuration of UEFI settings by leveraging [Surface Pro 3 Firmware Tools (476 KB)](https://www.microsoft.com/download/details.aspx?id=38826) available from the Microsoft Download Center. These tools install a .NET assembly that can be called from any custom application or script.
+As an IT professional with administrative privileges, you can automate the configuration of UEFI settings by using [Surface Pro 3 Firmware Tools (476 KB)](https://www.microsoft.com/download/details.aspx?id=38826) available from the Microsoft Download Center. These tools install a .NET assembly that can be called from any custom application or script.
 
 **Prerequisites**
 
--   The sample scripts below leverage the previously mentioned extension and therefore assume that the tool has been installed on the device being managed.
--   The scripts must be run with administrative privilege.
--   The Windows PowerShell command [**Set-ExecutionPolicy Unrestricted**](https://technet.microsoft.com/library/ee176961.aspx) must be called prior to running sample scripts if they are not digitally signed.
+- The sample scripts on this page apply the previously mentioned extension and therefore assume that the tool is installed on the device being managed.
+- The scripts must be run with administrative privilege.
+- The Windows PowerShell command [**Set-ExecutionPolicy Unrestricted**](https://technet.microsoft.com/library/ee176961.aspx) must be called before running sample scripts if they aren't digitally signed.
 
 **Sample scripts**
 
 > [!NOTE]
-> The UEFI password used in the sample scripts below is presented in clear text. We strongly recommend saving the scripts in a protected location and running them in a controlled environment.
+> The UEFI password used in the sample scripts is presented in clear text. We strongly recommend saving the scripts in a protected location and running them in a controlled environment.
 
 Show all configurable options:
 
@@ -149,9 +146,7 @@ foreach ($uefiOption in $uefiOptions)
 
 Status code interpretation
 
--   00 - The proposed update was a success
--   02 - One of the proposed values had an invalid value
--   03 - There was a proposed value set that was not recognized
--   0F - The unlock password did not match currently set password
-
- 
+- 00 - The proposed update was a success
+- 02 - One of the proposed values had an invalid value
+- 03 - There was a proposed value set that wasn't recognized
+- 0F - The unlock password didn't match currently set password
