@@ -51,13 +51,13 @@ To adjust UEFI settings during system startup:
 
 The PC information page includes detailed information about your Surface device:
 
-- **Model** – Your Surface device's model, such as Surface Laptop Studio 2 or Surface Pro 9, will be displayed here. The exact configuration of your device is not shown (such as processor, disk size, or memory size).
+- **Model** – Your Surface device's model, such as Surface Laptop Studio 2 or Surface Pro 9, is displayed here. The exact configuration of your device is not shown (such as processor, disk size, or memory size).
 - **System UUID** – This Universally Unique Identification number is specific to your device and is used to identify the device during deployment or management.
 
 - **Serial number** – This number identifies this specific Surface device for asset tagging and support scenarios.
 - **Asset tag** – The asset tag is assigned to the Surface device with the [Asset Tag Tool](assettag.md).
 
-You will also find detailed information about the firmware of your Surface device. Surface devices have several internal components that each run different versions of firmware. The firmware versions for these components are displayed on the **PC information** page. Components include the following and may vary depending on your device:
+You can also find detailed information about the firmware of your Surface device. Surface devices have several internal components that each run different versions of firmware. The firmware versions for these components are displayed on the **PC information** page. Components include the following and may vary depending on your device:
 
 - System UEFI
 - SMF Controller
