@@ -42,13 +42,13 @@ If you have a Surface Hub 2S, you can migrate it to run the Microsoft Teams Room
 
 ## Prerequisites
 
-<!--Ensure name is correct.-->
-- Ensure Surface Hub 2S is connected to the Internet and has the latest Windows Updates, including **Microsoft Corporation - System Hardware Update - 02/08/2024** 
+<!--Ensure name is correct. Updated per Dan on 2-20-->
+- Ensure Surface Hub 2S is connected to the Internet and has the latest Windows Updates, including **Microsoft Corporation - System Hardware Update - 2/8/2024** 
 - To get all the required updates, sign in with Admin credentials, go to **All apps > Settings** >**Update and Security** >**Windows Update**, and install all updates. 
 - Repeat the update retrieval process until you have installed all the available updates.
 - Once updated, confirm that the UEFI version is **699.845.768.0** or later. <!--To be replaced withewaFeb 3 UEFI version -->
 - If you're unable to check for Windows updates locally (for example, in remote admin scenarios), you can verify the OS version via Microsoft Intune admin center or other mobile device management (MDM) solutions.
-- You can also check by validating that Windows 10 <!-- confirm updated version --> [OS Build19045.4116](https://support.microsoft.com/help/5034843) is present on the system. 
+- You can also check by validating that Windows 10 <!-- confirm updated version Updated per Dan on 2-20--> [OS Build 19045.4120](https://support.microsoft.com/help/5034843) is present on the system. 
 - Validate that your network can handle a **30 GB download**.
 - Ensure the network you are using does not have any other firewalls, blockages, or limitations that would otherwise prevent the download and installation of software onto the Surface Hub 2S device(s) you intend to migrate.
 - Confirm IT allows network access to required sites: ***.devices.microsoft.com** and **download.microsoft.com**. <!--A typical way to check, contact your network admin if fails is a simple ping test: On a separate PC, Open a command line or console and enter the following:-->
