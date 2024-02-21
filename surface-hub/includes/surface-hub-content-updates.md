@@ -2,6 +2,18 @@
 
 
 
+## Week of February 12, 2024
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 2/12/2024 | [Install wallpaper on Surface Hub 3](/surface-hub/install-wallpaper-surface-hub) | modified |
+| 2/12/2024 | [Microsoft Teams certified accessories for Surface Hub](/surface-hub/surface-hub-certifications) | modified |
+| 2/14/2024 | [First-time setup for Surface Hub 3](/surface-hub/first-run-program-surface-hub-3) | modified |
+| 2/14/2024 | [Surface Hub 3 security best practices](/surface-hub/surface-hub-3-security) | modified |
+| 2/16/2024 | [What's new for Surface Hub 3](/surface-hub/surface-hub-3-whats-new) | modified |
+
+
 ## Week of January 29, 2024
 
 
