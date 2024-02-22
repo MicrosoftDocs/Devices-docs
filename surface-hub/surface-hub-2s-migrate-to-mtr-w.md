@@ -101,6 +101,8 @@ Choose one of the following options:
 5. [Configure Microsoft Store for Business to display offline apps](#configure-microsoft-store-for-business-to-display-offline-apps)
 6. [Deploy Migration Launcher app via **Intune**](#deploy-migration-launcher-app-via-intune).
 
+> [!TIP]
+> These app deployment operations use the [EnterpriseModernAppManagement CSP](/windows/client-management/mdm/enterprisemodernappmanagement-csp) and could be also be executed with SyncML commands from another MDM solution.
 
 #### Ensure your Surface Hub 2S devices are fully updated and enrolled in Intune
 
