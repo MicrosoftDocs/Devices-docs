@@ -185,7 +185,7 @@ Download the migration launcher app package from Microsoft Store for Business.
 > [!TIP]
 > You only need to ensure the three check box icons appear for your specified architecture
 
-4. Click **OK** after you've added all the necessary files.
+4. Select **OK** after you've added all the necessary files.
 5. Under **App information**, select **Next**.
 
 ### Assign app
