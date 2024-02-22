@@ -1,4 +1,4 @@
----Enterprise
+---
 title: Surface Hub 3 tech specs
 description: This page provides technical specifications for Surface Hub running the Microsoft Teams Rooms on Windows experience. 
 ms.reviewer: dpandre
