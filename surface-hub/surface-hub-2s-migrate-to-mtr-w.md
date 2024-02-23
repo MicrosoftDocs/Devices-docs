@@ -36,7 +36,7 @@ If you have a Surface Hub 2S, you can migrate it to run the Microsoft Teams Room
 
 Use of the Migration Launcher app on Surface Hub 2S involves significant changes to the operating system and stored data. Here are key points to understand before proceeding with the migration process:
 
-- **Removes the Windows 10 Team Edition OS:** Migration completely eliminates the Windows 10 Team edition operating system preinstalled on the Surface Hub 2S.
+- **Removes the Windows 10 Team edition OS:** Migration completely eliminates the Windows 10 Team edition operating system preinstalled on the Surface Hub 2S.
 - **Requires consent for data and configuration removal:** By installing and initiating the Migration Launcher app on a Surface Hub 2S, you agree to the complete removal of the Windows 10 Team edition OS. This includes uninstalling and erasing all accounts, data, and existing configurations.
 - **Excludes first-generation Surface Hubs:** The Microsoft Teams Rooms on Windows experience and the Migration Launcher app don't support or affect first-generation Surface Hubs (Surface Hub v1).
 - **Requires significant download and storage space:** The migration process necessitates downloading approximately 30 GB of data and needs sufficient on-system storage to establish a temporary partition.
