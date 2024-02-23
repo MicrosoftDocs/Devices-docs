@@ -80,13 +80,17 @@ Choose one of the following options:
 ### Manually install Migration Launcher app on Surface Hub 2S
 
 1. Sign back in as admin. Go to **Surface Hub** > **Apps & features** > **Open Store**.
+
 2. Search for **Surface Hub 2S OS Migration Launcher – Microsoft Teams Rooms** and select **Get**.
-![Screenshot of Surface Hub 2S OS Migration Launcher](images/surface-hub2s-migration-app-download.png)
+
+   ![Screenshot of Surface Hub 2S OS Migration Launcher](images/surface-hub2s-migration-app-download.png)
+
 3. To validate successful installation, select **All apps** and look for **Surface Hub 2S OS Migration Launcher**.
+
 4. Once you see the Migration Launcher in the app list, the migration proceeds automatically upon restarting the Windows 10 Team edition OS. You can either manually restart Surface Hub 2S or wait until the system automatically restarts during the default nightly maintenance window.
 
-> [!TIP]
-> After this initial restart, do not interfere with the system; even though it may appear nothing is happening and you still see the same experience, the migration proceeds independently after completing all necessary backend processes (including downloading and unzipping the new Teams Rooms on Windows image).
+   > [!TIP]
+   > After this initial restart, do not interfere with the system; even though it may appear nothing is happening and you still see the same experience, the migration proceeds independently after completing all necessary backend processes (including downloading and unzipping the new Teams Rooms on Windows image).
 
 5. Typical migration time is around **90** minutes from restart after installing the Migration Launcher app, but the length can vary depending on many characteristics, including customer network bandwidth and related factors.
 6. When migration is complete, the device displays the Windows first-time setup program, also known as Out of the Box Experience (OOBE). To learn more, see [First-time setup for Surface Hub 3](first-run-program-surface-hub-3.md).
@@ -126,7 +130,7 @@ Choose one of the following options:
 6. Select **Create** to create the new group.
 7. Open the Group, select  **Members** >**Add members** and add the Surface Hub 2S devices you're targeting for migration.
 
-    ![Screenshot that shows how to add members to a security group in Intune admin center](images/add-members-security-group.png)
+    ![Screenshot that shows how to add members to a security group in Intune admin center.](images/add-members-security-group.png)
 
 ### Associate store account with Intune
 
@@ -148,7 +152,7 @@ Download the migration launcher app package from Microsoft Store for Business.
 1. Sign in to the [Microsoft Store for Business](https://businessstore.microsoft.com/).
 2. Select **Manage** >**Shop settings** and under Shopping experience, ensure that **Show offline apps** is enabled.
 
-    ![Screenshot that shows how to enable offline apps in Microsoft Store for Business](images/store-for-business-offline-apps.png)
+   :::image type="content" alt-text="Screenshot that shows how to enable offline apps in Microsoft Store for Business." source="images/store-for-business-offline-apps.png":::
 
 #### Get offline-licensed app package for Migration Launcher
 
@@ -158,8 +162,8 @@ Download the migration launcher app package from Microsoft Store for Business.
 4. Under **Download package for offline use**, select your desired architecture (X64, X86, or ARM processor). We recommend using x86.
 5. Select **Package details** and choose **Download** to initiate the download of the MsixBundle for the package identity name: **Microsoft.SurfaceHUBMTROSTriggerApp**.
 
-- If you receive an error indicating the downloadable file is unsafe, select **Keep**.
-- If further prompted in the Microsoft Edge browser that **This file can't be downloaded securely**, select **Keep anyway**.
+   - If you receive an error indicating the downloadable file is unsafe, select **Keep**.
+   - If further prompted in the Microsoft Edge browser that **This file can't be downloaded securely**, select **Keep anyway**.
 
 6. Under **Required frameworks**, download all three of the required frameworks on the page:
 
@@ -176,15 +180,15 @@ Download the migration launcher app package from Microsoft Store for Business.
 
 1. Sign in to [Intune Admin Center](https://endpoint.microsoft.com/) and go to **Apps** > **All apps** >**Add**. Under App type, select **Line-of-business app**.
 
-    ![Screenshot of Select line of business app](images/hub2s-migration-select-lob-app.png)
+   :::image type="content" alt-text="Screenshot of Select line of business app." source="images/hub2s-migration-select-lob-app.png":::
 
 2. Configure app information on the **Add App** page. Under the App information section, choose **Select app package file**. In the flyout pane, select the blue folder icon under the App package file and navigate to select and upload your LOB app package, in this case, the Surface Hub 2S OS Migration Launcher – Microsoft Teams Rooms MSIXBUNDLE file downloaded in the earlier section.  
 3. Select **Dependency app files** and choose the blue folder icon to select and upload all three dependencies. The inventory of required files displays a green check box to indicate that you have all the required files uploaded.
 
-    ![Screenshot that shows selection of dependency files](images/hub2s-migration-select-dependencies.png)
+   :::image type="content" alt-text="Screenshot that shows selection of dependency files." source="images/hub2s-migration-select-dependencies.png":::
 
-> [!TIP]
-> You only need to ensure the three check box icons appear for your specified architecture
+   > [!TIP]
+   > You only need to ensure the three check box icons appear for your specified architecture
 
 4. Select **OK** after you add all the necessary files.
 5. Under **App information**, select **Next**.
@@ -197,7 +201,7 @@ You can make the app available for enrolled devices or assign it as required.
 1. Under **Required** >**Group mode**, select **Add group** and add your intended Device group.
 2. Under **Required Group mode**>**Install Context**, select **User context** link, and in the flyout pane, change the App settings toggle to ensure **Device context** is selected and then select **OK**.
 
-    ![Screenshot that shows selection of device context](images/hub2s-migration-select-device-context.png)
+   :::image type="content" alt-text="Screenshot that shows selection of device context." source="images/hub2s-migration-select-device-context.png":::
 
 3. Select **Next**.
 
@@ -205,7 +209,7 @@ You can make the app available for enrolled devices or assign it as required.
 
 - Under **Review + create**, review all settings and configurations. Select **Create** to deploy the app.
 
-    ![Screenshot that shows creation of app](images/hub2s-migration-intune-app.png)
+  :::image type="content" alt-text="Screenshot that shows creation of app." source="images/hub2s-migration-intune-app.png":::
 
 This might take a few minutes, depending on network connectivity or other factors. You can check the upload status under the Notifications tray.
 
@@ -214,8 +218,8 @@ This might take a few minutes, depending on network connectivity or other factor
 - After deploying, monitor the deployment status in Intune.
 - To see the status of the deployment, navigate to the app in Intune and check the Overview and Assignments tabs. Check the Device context status, not the User.
 
-> [!NOTE]
-> Several factors contribute to how long it takes for the app to finish deployment and installation on the target devices, including device power/sleep state, sync cadence/status with Intune, and related factors. Continue to monitor Intune status for indications of successful app deployment.
+  > [!NOTE]
+  > Several factors contribute to how long it takes for the app to finish deployment and installation on the target devices, including device power/sleep state, sync cadence/status with Intune, and related factors. Continue to monitor Intune status for indications of successful app deployment.
 
 - Once the app is deployed, the next restart initiates migration, which - in this remote deployment scenario - is likely to be the automatic restart as part of the nightly maintenance window. Similar to the manual app deployment scenario, the migration process typically takes about 90 minutes after this restart (but many factors can impact migration time, as explained earlier, with a test example exceeding 5 hours on a slower network). Customers must test and validate sequences relative to their unique infrastructure and management approaches.
 - When migration is complete, the device displays the Windows first-time setup program, also known as Out of the Box Experience (OOBE). To learn more, see [First-time setup for Surface Hub 3](first-run-program-surface-hub-3.md).
@@ -234,7 +238,7 @@ This might take a few minutes, depending on network connectivity or other factor
 - To open Event logs, on Surface Hub go to **Settings** > **Update & security** > **Logs** > **Event Viewer**. Event logs are located under **Windows Logs** > **System**.
 - You can filter for the following Event IDs, as shown in the following figure: **6,7,8,9,10,11**. Select the **System log** > **Filter Current Log**:
 
-    ![Screenshot that shows how to filter Event IDs](images/filter-event-viewer-hub2s-migration.png)
+  :::image type="content" alt-text="Screenshot that shows how to filter Event IDs." source="images/filter-event-viewer-hub2s-migration.png":::
 
 #### Monitoring Surface Hub migration events
 
