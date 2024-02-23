@@ -34,11 +34,13 @@ If you have a Surface Hub 2S, you can migrate it to run the Microsoft Teams Room
 > [!CAUTION]
 > Do not install the Migration Launcher app on Surface Hub 2S unless you are prepared for an immediate migration to Microsoft Teams Rooms on Windows experience.
 
-- Migration completely removes the Windows 10 Team edition operating system that comes with Surface Hub 2S.
-- By selecting to install the Migration Launcher app on a Surface Hub 2S and initiate a software migration, you consent to the removal of the Windows 10 Team edition OS, including the uninstall and removal of accounts, data, and other current configurations.
-- The Microsoft Teams Rooms on Windows experience results in increased energy consumption on Surface Hub due to changes in sleep state and power management settings.
-- This app doesn't affect first-generation Surface Hub models. The Microsoft Teams Rooms on Windows experience isn't supported on first-generation Surface Hubs (Surface Hub v1).
-- The migration process involves downloading approximately 30 GB and requires a minimum amount of available storage on-system to create a temporary partition.
+Use of the Migration Launcher app on Surface Hub 2S involves significant changes to the operating system and stored data. Here are key points to understand before proceeding with the migration process:
+
+- **Removes the Windows 10 Team Edition OS:** Migration completely eliminates the Windows 10 Team edition operating system preinstalled on the Surface Hub 2S.
+- **Requires consent for data and configuration removal:** By installing and initiating the Migration Launcher app on a Surface Hub 2S, you agree to the complete removal of the Windows 10 Team edition OS. This includes uninstalling and erasing all accounts, data, and existing configurations.
+- **Not applicable to first-generation Surface Hubs:** The Microsoft Teams Rooms on Windows experience and the Migration Launcher app don't support or affect first-generation Surface Hubs (Surface Hub v1).
+- **Requires significant download and storage space:** The migration process necessitates downloading approximately 30 GB of data and needs sufficient on-system storage to establish a temporary partition.
+- **Increases energy consumption:** Switching to the Microsoft Teams Rooms on Windows experience leads to higher energy usage due to adjustments in sleep state and power management settings.
 
 ## Prerequisites
 
@@ -151,7 +153,7 @@ Download the migration launcher app package from Microsoft Store for Business.
 #### Get offline-licensed app package for Migration Launcher
 
 1. Shop for the app and add it to your group inventory. Select **Shop for my group** and search for **Surface Hub 2S OS Migration Launcher – Microsoft Teams Rooms**. Alternatively, search via the app ID: **9P81T95QGN1P**.
-2. On the app page, for License type, select **Offline** > **Get the app**. This adds the app to your Microsoft Store for Business group inventory. After you see a "toast message" indicating you successfully added the app to your library, select **Manage**, as shown in the following figure. (Note that the Manage button has replaced the Get the app button).
+2. On the app page, for License type, select **Offline** > **Get the app**. This adds the app to your Microsoft Store for Business group inventory. After you see a "toast message" indicating you successfully added the app to your library, select **Manage**, as shown in the following figure. (The **Manage** button replaces the **Get the app** button).
 3. After you select **Manage**, the page listing for the Migration Launcher app is displayed. Wait a few moments for the spinner to complete and the Download portion of the resulting page to appear.
 4. Under **Download package for offline use**, select your desired architecture (X64, X86, or ARM processor). We recommend using x86.
 5. Select **Package details** and choose **Download** to initiate the download of the MsixBundle for the package identity name: **Microsoft.SurfaceHUBMTROSTriggerApp**.
@@ -184,7 +186,7 @@ Download the migration launcher app package from Microsoft Store for Business.
 > [!TIP]
 > You only need to ensure the three check box icons appear for your specified architecture
 
-4. Select **OK** after you've added all the necessary files.
+4. Select **OK** after you add all the necessary files.
 5. Under **App information**, select **Next**.
 
 ### Assign app
@@ -205,12 +207,12 @@ You can make the app available for enrolled devices or assign it as required.
 
     ![Screenshot that shows creation of app](images/hub2s-migration-intune-app.png)
 
-This may take a few minutes, depending on network connectivity or other factors. You can check the upload status under the Notifications tray.
+This might take a few minutes, depending on network connectivity or other factors. You can check the upload status under the Notifications tray.
 
 ### Monitor deployment
 
 - After deploying, monitor the deployment status in Intune.
-- Navigate to the app in Intune and check the Overview and Assignments tabs to see the status and details of the deployment. Ensure you're checking the Device context status, not the User.
+- To see the status of the deployment, navigate to the app in Intune and check the Overview and Assignments tabs. Check the Device context status, not the User.
 
 > [!NOTE]
 > Several factors contribute to how long it takes for the app to finish deployment and installation on the target devices, including device power/sleep state, sync cadence/status with Intune, and related factors. Continue to monitor Intune status for indications of successful app deployment.
@@ -223,14 +225,14 @@ This may take a few minutes, depending on network connectivity or other factors.
 ### Quick checks
 
 - Verify that Surface Hub 2S is fully updated and otherwise meets the prerequisites described earlier. To learn more, see [Troubleshoot Surface Hub not Updating](troubleshoot-surface-hub-not-updating.md)
-- Ensure the Migration Launcher app has been installed on target Surface Hub 2S devices.
-- Ensure the system has restarted after installing the Migration Launcher app.
+- Ensure the Migration Launcher app is installed on target Surface Hub 2S devices.
+- Ensure the system restarts after installing the Migration Launcher app.
 
 ### Event logs
 
 - If migration doesn't proceed after 24 hours, check system event logs for possible errors, including a potential issue related to available storage space.
 - To open Event logs, on Surface Hub go to **Settings** > **Update & security** > **Logs** > **Event Viewer**. Event logs are located under **Windows Logs** > **System**.
-- You can filter for the following Event IDs, as listed below:6,7,8,9,10,11. Select the **System log** > **Filter Current Log**:
+- You can filter for the following Event IDs, as shown in the following figure: **6,7,8,9,10,11**. Select the **System log** > **Filter Current Log**:
 
     ![Screenshot that shows how to filter Event IDs](images/filter-event-viewer-hub2s-migration.png)
 
@@ -243,11 +245,11 @@ When overseeing the migration process on Surface Hub 2S, pay attention to specif
 | Event                                                    | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 |----------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Event ID 6: OS migration process started**             | This event is logged as the first step after the Monitor Service verifies the app's presence and the UEFI version. It signifies the start of the migration process.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| **Event ID 7: Failed to verify migration app signature for OS migration** | In a migration, Windows checks the digital signature of the **Surface Hub 2S OS Migration Launcher - Microsoft Teams Rooms** app. This error could be caused by various factors, including corrupted system files, an outdated or corrupted certificate store, or network issues (if the verification process involves checking with an online certificate authority). To address this problem:<br>- Ensure your current version of Windows is up to date with all the latest patches and updates, as described in the [Prerequisites section](#prerequisites) of this page.<br>- Ensure your internet connection is stable, as the verification process may require contacting external servers. |
+| **Event ID 7: Failed to verify migration app signature for OS migration** | In a migration, Windows checks the digital signature of the **Surface Hub 2S OS Migration Launcher - Microsoft Teams Rooms** app. Causes of this error include corrupted system files, an outdated or corrupted certificate store, or network issues (if the verification process involves checking with an online certificate authority). To address this problem:<br>- Ensure your current version of Windows is up to date with all the latest patches and updates, as described in the [Prerequisites section](#prerequisites) of this page.<br>- Ensure your internet connection is stable, as the verification process might require contacting external servers. |
 | **Event ID 8: UEFI firmware not updated to support OS migration**| - Confirm that the UEFI version is **699.845.768.0** or later, as described in the [Prerequisites section](#prerequisites) of this page. <br> You can verify the UEFI version via the **Surface app**.|
 | **Event ID 9: Disk space is insufficient for OS migration** | Migration requires a minimum of 30 GB of free space. If this event occurs, delete unnecessary files, uninstall unused applications, or move data to an external storage device.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| **Event ID 10: OS image download failed**                | If this event occurs, the system will attempt the download again. This can lead to a sequence of Event ID 6 followed by Event ID 10 if the issue persists.<br><br>**Common causes:**<br>     - Inability to access the download site.<br>- Connection drops during download, exhausting all retry attempts.<br>- Insufficient disk space or inaccessible file location for the download.<br><br>**Additional notes:**<br>- The system checks for sufficient disk space and the creation of the migration partition at every boot. It will not attempt to download if conditions aren't met.<br>     - Be aware of timing issues. If the download isn't complete before a scheduled or manual reboot, the download will restart, potentially leading to prolonged migration. |
-| **Event ID 11: MTR license key retrieval failed**        | This event occurs after repartitioning and downloading the OS image. If the OS image download isn't successful, the system won't proceed to the key retrieval stage.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| **Event ID 10: OS image download failed**                | If this event occurs, the system attempts the download again. This can lead to a sequence of Event ID 6 followed by Event ID 10 if the issue persists.<br><br>**Common causes:**<br>     - Inability to access the download site.<br>- Connection drops during download, exhausting all retry attempts.<br>- Insufficient disk space or inaccessible file location for the download.<br><br>**Additional notes:**<br>- The system checks for sufficient disk space and the creation of the migration partition at every boot. It fails to download if conditions aren't met.<br>     - Be aware of timing issues. If the download isn't complete before a scheduled or manual reboot, the download restarts, potentially leading to prolonged migration. |
+| **Event ID 11: MTR license key retrieval failed**        | This event occurs after repartitioning and downloading the OS image. If the OS image download isn't successful, the system fails to proceed to the key retrieval stage.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 
 #### Best practices for a smooth migration
 
