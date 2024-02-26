@@ -30,7 +30,7 @@ Support for alternative methods of input outside of spoken language should be co
 
 ## Examples
 
-:::image type="content" source="images/communication-non-verbal-barrier.jpg" alt-text="A 7person is sitting at their computer. The window that's open on their screen shows that they're on a video call with four other people. They're typing on the keyboard.":::
+:::image type="content" source="images/communication-non-verbal-barrier.jpg" alt-text="A screenshot of a person sitting at their computer. The window that's open on their screen shows that they're on a video call with four other people. They're typing on the keyboard.":::
 
 BARRIER — During video calls, chat functions may get hidden. If a person communicates during video calls through text only, their input may not be received by others in a timely manner. 
 
