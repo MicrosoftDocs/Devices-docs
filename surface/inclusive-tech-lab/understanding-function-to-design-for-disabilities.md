@@ -16,21 +16,21 @@ ms.service: surface
 
 In our Inclusive Design practice at Microsoft, we believe in &ldquo;Nothing About Us, Without Us.&rdquo; We design with the disability community to create products and services that empower people with disabilities to achieve more. 
 
-In our practice we have observed that engineers and designers sometimes struggle to communicate the aspects of function for the people they are working with. Trying to understand diagnosis or conditions can be counter productive. Most of us aren’t medical professionals so we lack the vocabulary; also medical terminology isn’t always appropriate.
+In our practice, we have observed that engineers and designers sometimes struggle to communicate the aspects of function for the people they're working with. Trying to understand diagnosis or conditions can be counter productive. Most of us aren’t medical professionals so we lack the vocabulary; also medical terminology isn’t always appropriate.
 
 We created this reference to provide engineers and designers a way to understand and discuss the aspects of function that can lead to barriers in interaction, and the facilitators needed to overcome these barriers. The goal of our inclusive design practice is to recognize the barriers before we implement them. To create forms that facilitate the function of human diversity.
 
-This work was inspired by the World Health Organization’s – [International Classification of Functioning, Disability and Health](https://www.who.int/standards/classifications/international-classification-of-functioning-disability-and-health) (ICF). We strive in our guide to make this material concise, approachable, and contextual to our field of technology. This is a living document that we expect will change and grow.
+This work was inspired by the World Health Organization’s – [International Classification of Functioning, Disability and Health](https://www.who.int/standards/classifications/international-classification-of-functioning-disability-and-health) (ICF). We strive in our guide to make this material concise, approachable, and contextual to our field of technology. This guide is a living document that we expect will change and grow.
 
-To reiterate, we design WITH the disability community – we see this reference being part of activities like documenting interactions, creating recruitment screeners and surveys, and writing usability reviews and bugs. There are many potential ways that this material can be leveraged effectively as part of our product creation process.
+To reiterate, we design WITH the disability community – we see this reference being part of activities like documenting interactions, creating recruitment screeners and surveys, and writing usability reviews and bugs. There are many potential ways that this material can be applied effectively as part of our product creation process.
 
-## What this is
+## What this work is
 
-The goal of this work is to provide a reference of human diversity factors to consider when practicing inclusive design. This framework outlines the cognitive, mobility, vision, hearing, speech, and sensory demands of the technology we all use daily. Through approachable examples, we try to illustrate barriers a person may face when they experience a mismatched interaction between their level of abilities and the design of a product.
+The goal of this work is to provide a reference of human diversity factors to consider when practicing inclusive design. This framework outlines the cognitive, mobility, vision, hearing, speech, and sensory demands of the technology we all use daily. Through approachable examples, we try to illustrate barriers a person faces when they experience a mismatched interaction between their level of abilities and the design of a product.
 
-## What this is not
+## What this reference isn't 
 
-This reference is not a prescriptive guideline for creating accessibility solutions. Rather, it’s a resource you can use to identify potential barriers a person may encounter. It is important to remember that this document isn’t static and will grow. While we strive to be comprehensive, many instances described can occur in conjunction with one another (depending on the individual) and may present differently from one person to another.
+This reference isn't a prescriptive guideline for creating accessibility solutions. Rather, it’s a resource you can use to identify potential barriers a person encounters. It's important to remember that this document isn’t static and grows. While we strive to be comprehensive, many instances described can occur in conjunction with one another (depending on the individual) and present differently from one person to another.
 
 ## Contents of this reference
 
@@ -42,7 +42,7 @@ This reference is not a prescriptive guideline for creating accessibility soluti
 
 **[What is hearing?](hearing.md)** — [Hearing Loss (mild)](hearing-mild.md); [Hearing loss (moderate/severe)](hearing-moderate-severe.md); [Hearing loss (profound)](hearing-profound.md); [Hearing loss (asymmetrical)](hearing-asymmetrical.md); 
 
-**[What is voice, speech, and communication?](voice-speech-communication.md)** — [Aphasia (receptive)](voice-speech-communication-aphasia-receptive.md); [Aphasia (expressive)](voice-speech-communication-aphasia-expressive.md); [Speech quality](voice-speech-communication-speech-quality.md); [Social participation](voice-speech-communication-social-participation.md); [Non-verbal](voice-speech-communication-non-verbal.md); 
+**[What is voice, speech, and communication?](voice-speech-communication.md)** — [Aphasia (receptive)](voice-speech-communication-aphasia-receptive.md); [Aphasia (expressive)](voice-speech-communication-aphasia-expressive.md); [Speech quality](voice-speech-communication-speech-quality.md); [Social participation](voice-speech-communication-social-participation.md); [Nonverbal](voice-speech-communication-non-verbal.md); 
 
 **[What is sensation and perception?](sensation-perception.md)** — [Vestibular](sensation-perception-vestibular.md); [Chronic pain](sensation-perception-chronic-pain.md); [Skin integrity](sensation-perception-skin-integrity.md); [Sensation (hypersensitive and hyposensitive)](sensation-perception-sensation.md); [Proprioception](sensation-perception-proprioception.md); 
 
