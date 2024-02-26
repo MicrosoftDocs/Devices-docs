@@ -35,9 +35,10 @@ The process consists of the following parts:
 
 2. **Client configuration:** Install **UEFI Manager**, available from [Surface Tools for IT](https://www.microsoft.com/download/details.aspx?id=46703), on all Surface devices targeted for management.  
 
-3. **PowerShell scripts:** Go to [Surface Tools for IT](https://www.microsoft.com/download/details.aspx?id=46703) to download and modify the PowerShell scripts as appropriate for your environment. Use Microsoft Configuration Manager to deploy the scripts (as applications) to target devices, following the instructions in [Use Microsoft Configuration Manager to manage devices with SEMM](use-system-center-configuration-manager-to-manage-devices-with-semm.md).
+3. **Powershell scripts:** Go to [Surface Tools for IT](https://www.microsoft.com/download/details.aspx?id=46703) to download and modify the PowerShell scripts as appropriate for your environment. Use Microsoft Configuration Manager to deploy the scripts (as applications) to target devices, following the instructions in [Use Microsoft Configuration Manager to manage devices with SEMM](use-system-center-configuration-manager-to-manage-devices-with-semm.md). 
 
-Refer to the embedded comments for usage guidance. See [Appendix: SEMM PowerShell Scripts tech reference](#appendix-semm-powershell-scripts-tech-reference) for definitions and prerequisites.
+Refer to the embedded comments for usage guidance. See [Appendix: SEMM PowerShell Scripts tech reference](#appendix-semm-powershell-scripts-tech-reference) for definitions and prerequisites. 
+
 
 ## Manage USB-A ports
 
@@ -114,6 +115,14 @@ Dynamic USB-C disablement allows for a many-to-many relationship between the hos
 | **Global**                            | - **Host USB-C:** Data disabled<br>- **Dock USB:** Data disabled                  | - **Host USB-C:** Enabled<br>- **Dock USB:** Authenticated policy      | - **Host USB-C:** Enabled<br>- **Dock USB:** Authenticated policy                                                | - **Host USB-C:** Enabled<br>- Dock: Authenticated policy                                                     |
 | **Department-X**                      | - **Host USB-C:** Data disabled<br>- **Dock USB:** Data disabled                  | - **Host USB-C:** Enabled<br>- **Dock USB:** Authenticated policy      | - **Host USB-C:** Enabled<br>- **Dock USB:** Authenticated policy                                                | - **Host USB-C:** Data disabled<br>- **Dock USB:** Data disabled & limited, based on Unauthenticated dock policy |
 | **Department-Y**                      | - **Host USB-C:** Data disabled<br>- **Dock USB:** Data disabled                  | - **Host USB-C:** Enabled<br>- **Dock USB:** Authenticated policy      | - **Host USB-C:** Data disabled<br>- **Dock USB:** Data disabled & limited, based on Unauthenticated dock policy | - **Host USB-C:** Enabled<br>- **Dock:** Authenticated policy                                                  |
+
+|    Host Device <br>(Surface Laptop Studio 2)     | Unprovisioned Dock                                          | Global Dock                                         | Department-X Dock                                                              | Department-Y Dock                                                          |
+|-----------------    |----------------------------------------                 |------------------------------------------------|----------------------------------------------------------------------------|-----------------------------------------------------------------------|
+| **Not Provisioned** | - **Host USB-C:** Enabled<br> - **Dock USB:** Enabled | - **Host USB-C:** Enabled<br>- **Dock USB:** Limited, based on Unauthenticated dock policy | - **Host USB-C:** Enabled<br>- **Dock USB:** Limited, based on Unauthenticated dock policy | - **Host USB-C:** Enabled<br>- **Dock USB:** Limited, based on Unauthenticated dock policy |
+| **Global**          | - **Host USB-C:** Data disabled<br>- **Dock USB:** Data disabled | - **Host USB-C:** Enabled<br>- **Dock USB:** Authenticated policy  | - **Host USB-C:** Enabled<br>- **Dock USB:** Authenticated policy                  | - **Host USB-C:** Enabled<br>- Dock: Authenticated policy                 |
+| **Department-X**    | - **Host USB-C:** Data disabled<br>- **Dock USB:** Data disabled | - **Host USB-C:** Enabled<br>- **Dock USB:** Authenticated policy  | - **Host USB-C:** Enabled<br>- **Dock USB:** Authenticated policy                  | - **Host USB-C:** Data disabled<br>- **Dock USB:** Data disabled & limited, based on Unauthenticated dock policy |
+| **Department-Y**    | - **Host USB-C:** Data disabled<br>- **Dock USB:** Data disabled | - **Host USB-C:** Enabled<br>- **Dock USB:** Authenticated policy  | - **Host USB-C:** Data disabled<br>- **Dock USB:** Data disabled & limited, based on Unauthenticated dock policy  | - **Host USB-C:** Enabled<br>- **Dock:** Authenticated policy                 |
+
 
 ## Appendix: SEMM PowerShell Scripts tech reference
 
