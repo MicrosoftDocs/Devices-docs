@@ -39,7 +39,7 @@ Low vision can be caused by eye diseases such as cataracts, glaucoma, diabetes, 
 
 BARRIER — Text of a certain size or contrast level may be unreadable for someone.
 
-:::image type="content" source="images/vision-lowvision-facilitator.jpg" alt-text="The person smiles as they looks at a settings screen on the tablet. They're increasing the display size so the content looks bigger.":::
+:::image type="content" source="images/vision-lowvision-facilitator.jpg" alt-text="Screenshot of a person smiling as they look at a settings screen on the tablet. They're increasing the display size so the content looks bigger.":::
 
 FACILITATOR — Using settings, the user can adjust the size and contrast of screen content to meet their needs. 
 
