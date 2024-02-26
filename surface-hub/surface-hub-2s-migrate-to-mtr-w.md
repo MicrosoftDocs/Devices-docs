@@ -27,7 +27,7 @@ Begin the migration process via the downloadable **Surface Hub 2S OS Migration L
 > The Migration Launcher app is designed exclusively for Surface Hub 2S devices transitioning from the Windows 10 Team edition operating system to the Microsoft Teams Rooms on Windows experience. It triggers the migration process under specific [prerequisite conditions](#prerequisites) and has no other functionality or user interface.
 
 > [!TIP]
-> Customers can take advantage of touchless deployment after migrating their Surface Hub 2S devices to the Microsoft Teams on Windows platform. As announced at [Ignite 2023](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/surface-hub-support-coming-for-windows-autopilot/ba-p/3977848), support for Windows Autopilot and Auto-login of Teams Rooms on Windows is currently in Private Preview. Check this page for more information upon public availability.
+> Customers can take advantage of streamlined, remotely driven deployment after migrating their Surface Hub 2S devices to the Microsoft Teams on Windows platform. As announced at [Ignite 2023](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/surface-hub-support-coming-for-windows-autopilot/ba-p/3977848), support for Windows Autopilot and Auto-login of Teams Rooms on Windows is currently in Private Preview. Check this page for more information upon public availability.
 
 ### Migration Launcher app deletes OS and data
 
@@ -49,7 +49,7 @@ Use of the Migration Launcher app on Surface Hub 2S involves significant changes
 - Repeat the update retrieval process until you install all the available updates.
 - Once updated, confirm that the UEFI version is **699.845.768.0** or later.
 - If you're unable to check for Windows updates locally (for example, in remote admin scenarios), you can verify the OS version via Microsoft Intune admin center or other mobile device management (MDM) solutions.
-- You can also check by validating that Windows 10 [OS Build 19045.4123](https://support.microsoft.com/help/5034843) is present on the system.
+- You can also check by validating that Windows 10 [OS Build 19045.4123](https://support.microsoft.com/help/5034843) or later is present on the system.
 - Validate that your network can handle a **30 GB download**.
 - Ensure the network you're using doesn't have any other firewalls, blockages, or limitations that would otherwise prevent the download and installation of software onto the Surface Hub 2S devices you intend to migrate.
 - Confirm IT allows network access to required sites: ***.devices.microsoft.com** and **download.microsoft.com**. On a separate PC, open a command line or console and enter the following commands:
