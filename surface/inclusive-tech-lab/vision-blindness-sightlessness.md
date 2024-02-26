@@ -30,7 +30,7 @@ Sightlessness can be present at birth or it can occur at any point in life.
 
 ## Examples
 
-:::image type="content" source="images/vision-blindness-barrier.jpg" alt-text="A person with dark glasses slides their handover smooth plastic wrap on a tablet. His guide dog sleeps in the background.":::
+:::image type="content" source="images/vision-blindness-barrier.jpg" alt-text="A screenshot showin a person with dark glasses sliding their hand over smooth plastic wrap on a tablet. His guide dog sleeps in the background.":::
 
 BARRIER — The plastic wrap on this new device only provides visual cues, such as arrows inked onto the wrap, to guide the user on removing it.
 
