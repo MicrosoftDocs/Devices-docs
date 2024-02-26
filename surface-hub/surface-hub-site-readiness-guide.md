@@ -20,9 +20,9 @@ The room needs to be large enough to provide good viewing angles, but small enou
 
 - Everyone in the room can see it.
 - People can reach all four edges of the touchscreen.
-- The screen is not in direct sunlight, which could affect viewing or damage the screen.
-- Ventilation openings are not blocked.
-- Microphones are not affected by noise sources, such as fans or vents.
+- The screen isn't in direct sunlight, which could affect viewing or damage the screen.
+- Ventilation openings aren't blocked.
+- Microphones aren't affected by noise sources, such as fans or vents.
 You can find more details in the [Surface Hub (v1) 55" tech specs](surface-hub-technical-55.md) or [Surface Hub (v1) 84" tech specs](surface-hub-technical-84.md) sections.
 
 ### Hardware considerations
@@ -42,7 +42,7 @@ You’ll need to provide:
 
 For details about cable ports, see the [Surface Hub (v1) 55" tech specs](surface-hub-technical-55.md) or [Surface Hub (v1) 84" tech specs](surface-hub-technical-84.md) sections. For details about cables, see [Wired Connect](#wired).
 
-Microsoft Surface Hub has an internal PC and does not require an external computer system.
+Microsoft Surface Hub has an internal PC and doesn't require an external computer system.
 
 For power recommendations, see [Surface Hub (v1) 55" tech specs](surface-hub-technical-55.md) or [Surface Hub (v1) 84" tech specs](surface-hub-technical-84.md).
 
@@ -66,11 +66,11 @@ Consider the following:
 - Wait to unpack Surface Hub from the shipping container until you’ve moved it to the conference area where you plan to install it.
 - Make sure your loading dock can accept a shipment on a pallet and hold it securely until it can be installed.
 - Check for local labor union rules that would require you to use union labor to unload or move Surface Hub.
-- Do not leave Surface Hub in a hot or humid environment. As with any computer-based or display equipment, heat and humidity can damage Surface Hub. The recommended storage temperatures are 32°F to 95°F with a relative humidity of less than 70 percent.
+- Don't leave Surface Hub in a hot or humid environment. As with any computer-based or display equipment, heat and humidity can damage Surface Hub. The recommended storage temperatures are 32°F to 95°F with a relative humidity of less than 70 percent.
 
 ### Moving Surface Hub
 
-Before you move Surface Hub, make sure that all the doorways, thresholds, hallways, and elevators are big enough to accommodate it. For information on the dimensions and weight of your Surface Hub in its shipping container, see [Surface Hub (v1) 55" tech specs](surface-hub-technical-55.md) or [Surface Hub (v1) 84" tech specs](surface-hub-technical-84.md).
+Before you move Surface Hub, make sure that all the doorways, thresholds, hallways, and elevators are large enough to accommodate it. For information on the dimensions and weight of your Surface Hub in its shipping container, see [Surface Hub (v1) 55" tech specs](surface-hub-technical-55.md) or [Surface Hub (v1) 84" tech specs](surface-hub-technical-84.md).
 
 ### Unpacking Surface Hub
 
@@ -89,7 +89,7 @@ The 55” Surface Hub requires two people to safely lift and mount. The 84” Su
 There are three ways to mount your Surface Hub:
 
 - **Wall mount**: Lets you permanently hang Surface Hub on a conference space wall.
-- **Floor support mount**: Supports Surface Hub on the floor while it is permanently anchored to a conference space wall.
+- **Floor support mount**: Supports Surface Hub on the floor while it's permanently anchored to a conference space wall.
 - **Rolling stand**: Supports Surface Hub and lets you move it to other conference locations.
 
 For specifications on available mounts for the original Surface Hub, see the following:
@@ -114,7 +114,7 @@ With wired connect, a cable transmits information from computers, tablets, or ph
 
 - DisplayPort (DisplayPort cable + USB 2.0 cable)
 - HDMI (HDMI cable + USB 2.0 cable)
-- VGA (VGA cable + 3.5mm audio cable + USB 2.0 cable)
+- VGA (VGA cable + 3.5 mm audio cable + USB 2.0 cable)
 
 For example, to provide audio, video, and touchback capability to all three video options, your Wired Connect cable bundle must include:
 
@@ -122,6 +122,6 @@ For example, to provide audio, video, and touchback capability to all three vide
 - An HDMI cable
 - A VGA cable
 - A USB 2.0 cable
-- A 3.5mm cable
+- A 3.5-mm cable
 
 When you create your wired connect cable bundles, check the [Surface Hub (v1) 55" tech specs](surface-hub-technical-55.md) or [Surface Hub (v1) 84" tech specs](surface-hub-technical-84.md) sections for specific technical and physical details and port locations for each type of Surface Hub. Make the cables long enough to reach from Surface Hub to where the presenter will sit or stand.
