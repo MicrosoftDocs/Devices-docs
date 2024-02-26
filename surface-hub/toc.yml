@@ -29,7 +29,9 @@
               - name: Surface Hub 3 security best practices
                 href: surface-hub-3-security.md    
               - name: Install wallpaper on Surface Hub 3
-                href: install-wallpaper-surface-hub.md                
+                href: install-wallpaper-surface-hub.md 
+           - name: Migrate Surface Hub 2S to Microsoft Teams Rooms on Windows
+             href: surface-hub-2s-migrate-to-mtr-w.md
         - name: Windows 10 Team 2022
           expanded: true
           items: 
