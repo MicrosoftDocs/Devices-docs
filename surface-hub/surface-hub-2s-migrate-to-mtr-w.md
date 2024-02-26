@@ -49,7 +49,7 @@ Use of the Migration Launcher app on Surface Hub 2S involves significant changes
 - Repeat the update retrieval process until you install all the available updates.
 - Once updated, confirm that the UEFI version is **699.845.768.0** or later.
 - If you're unable to check for Windows updates locally (for example, in remote admin scenarios), you can verify the OS version via Microsoft Intune admin center or other mobile device management (MDM) solutions.
-- You can also check by validating that Windows 10 [OS Build 19045.4120](https://support.microsoft.com/help/5034843) is present on the system.
+- You can also check by validating that Windows 10 [OS Build 19045.4123](https://support.microsoft.com/help/5034843) is present on the system.
 - Validate that your network can handle a **30 GB download**.
 - Ensure the network you're using doesn't have any other firewalls, blockages, or limitations that would otherwise prevent the download and installation of software onto the Surface Hub 2S devices you intend to migrate.
 - Confirm IT allows network access to required sites: ***.devices.microsoft.com** and **download.microsoft.com**. On a separate PC, open a command line or console and enter the following commands:
@@ -113,7 +113,7 @@ Choose one of the following options:
 
 - To verify enrollment, sign into [Intune admin center](https://intune.microsoft.com/), go to **Devices** > **All devices**, and look for the names of your target devices.
 
-- Check that the OS version for the target devices meets the [prerequisites listed earlier](#prerequisites), specifically **OS version 19045.4120** or later.
+- Check that the OS version for the target devices meets the [prerequisites listed earlier](#prerequisites), specifically **OS version 19045.4123** or later.
 
   :::image type="content" alt-text="Screenshot of Surface Hub 2S devices enrolled in Microsoft Intune admin center." source="images/check-os-version-surface-hubs.png":::
 
