@@ -20,7 +20,7 @@ ms.date: 06/09/2020
 
 ## Summary
 
-Starting in [Microsoft System Center Configuration Manager version 1710](/sccm/core/plan-design/changes/whats-new-in-version-1710#software-updates), you can synchronize and deploy Microsoft Surface firmware and driver updates directly through the Configuration Manager client. The process resembles deploying regular updates. However, some additional configurations are required to get the Surface driver updates into your catalog.
+Starting in [Microsoft System Center Configuration Manager version 1710](/sccm/core/plan-design/changes/whats-new-in-version-1710#software-updates), you can synchronize and deploy Microsoft Surface firmware and driver updates directly through the Configuration Manager client. The process resembles deploying regular updates. However, some more configurations are required to get the Surface driver updates into your catalog.
 
 ## Prerequisites
 
@@ -143,15 +143,15 @@ For more information about deployment, see [System Center 2012 Configuration Man
 
 If you synchronize from an upstream Windows Server Update Services (WSUS) server, instead of Microsoft Update, make sure that the upstream WSUS server is configured to support and synchronize Surface driver updates. All downstream servers are limited to updates that are present in the upstream WSUS server database.
 
-There are more than 68,000 updates that are classified as drivers in WSUS. To prevent non-Surface related drivers from synchronizing to Configuration Manager, Microsoft filters driver synchronization against an allow list. After the new allow list is published and incorporated into Configuration Manager, the new drivers are added to the console following the next synchronization. Microsoft aims to get the Surface drivers added to the allow list each month in alignment with monthly update releases to make them available for synchronization to Configuration Manager.
+There are more than 68,000 updates that are classified as drivers in WSUS. To prevent non-Surface related drivers from synchronizing to Configuration Manager, Microsoft filters driver synchronization against an allowlist. After the new allowlist is published and incorporated into Configuration Manager, the new drivers are added to the console following the next synchronization. Microsoft aims to get the Surface drivers added to the allowlist each month in alignment with monthly update releases to make them available for synchronization to Configuration Manager.
 
-If your Configuration Manager environment is offline, a new allow list is imported every time that you import [servicing updates](/mem/configmgr/core/servers/manage/use-the-service-connection-tool) to Configuration Manager. You will also have to import a [new WSUS catalog](/mem/configmgr/sum/get-started/synchronize-software-updates-disconnected) that contains the drivers before the updates are displayed in the Configuration Manager console. Because a standalone WSUS environment contains more drivers than a Configuration Manager SUP, we recommend that you establish a Configuration Manager environment that has online capabilities, and that you configure it to synchronize Surface drivers. This provides a smaller WSUS export that closely resembles the offline environment.
+If your Configuration Manager environment is offline, a new allowlist is imported every time that you import [servicing updates](/mem/configmgr/core/servers/manage/use-the-service-connection-tool) to Configuration Manager. You'll also have to import a [new WSUS catalog](/mem/configmgr/sum/get-started/synchronize-software-updates-disconnected) that contains the drivers before the updates are displayed in the Configuration Manager console. Because a standalone WSUS environment contains more drivers than a Configuration Manager SUP, we recommend that you establish a Configuration Manager environment that has online capabilities, and that you configure it to synchronize Surface drivers. This provides a smaller WSUS export that closely resembles the offline environment.
 
-If your Configuration Manager environment is online and able to detect new updates, you will receive updates to the list automatically. If you don’t see the expected drivers, please review the WCM.log and WsyncMgr.log files for any synchronization failures.
+If your Configuration Manager environment is online and able to detect new updates, you'll receive updates to the list automatically. If you don’t see the expected drivers, review the WCM.log and WsyncMgr.log files for any synchronization failures.
 
 **My Configuration Manager environment is offline. Can I manually import Surface drivers into WSUS?**
 
-No. Even if the update is imported into WSUS, the update won't be imported into the Configuration Manager console for deployment if it isn't listed in the allow list. You must use the [Service Connection Tool](/mem/configmgr/core/servers/manage/use-the-service-connection-tool) to import servicing updates to Configuration Manager to update the allow list.
+No. Even if the update is imported into WSUS, the update won't be imported into the Configuration Manager console for deployment if it isn't listed in the allowlist. You must use the [Service Connection Tool](/mem/configmgr/core/servers/manage/use-the-service-connection-tool) to import servicing updates to Configuration Manager to update the allowlist.
 
 **What alternative methods do I have to deploy Surface driver and firmware updates?**
 

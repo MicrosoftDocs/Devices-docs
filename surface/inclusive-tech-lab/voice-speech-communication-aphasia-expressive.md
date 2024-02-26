@@ -15,7 +15,7 @@ ms.service: surface
 
 **Difficulty producing language (spoken or written).**
 
-A person with expressive aphasia may have difficulty producing speech fluidly, or at all. Finding the right words to say and pronouncing them correctly can be difficult for someone with expressive aphasia. It's important to note that often expressive aphasia does not impact a person’s cognition or intelligence—it only affects their ability to express what they want to say. A person with aphasia may use important content words but might leave out words that provide grammatical context such as prepositions or articles. While the intent of what a person with aphasia says can be understood by another person, the use of incorrect grammar may cause difficulty when using voice recognition or voice command programs.
+A person with expressive aphasia may have difficulty producing speech fluidly, or at all. Finding the right words to say and pronouncing them correctly can be difficult for someone with expressive aphasia. It's important to note that often expressive aphasia doesn't impact a person’s cognition or intelligence—it only affects their ability to express what they want to say. A person with aphasia may use important content words but might leave out words that provide grammatical context such as prepositions or articles. While the intent of what a person with aphasia says can be understood by another person, the use of incorrect grammar may cause difficulty when using voice recognition or voice command programs.
 
 Often, injuries that cause aphasia co-occur with symptoms such as paralysis and other mobility limitations, making the ability to communicate through voice even more important. Aphasia is often a result of a stroke or a brain injury.
 
@@ -25,7 +25,7 @@ Often, injuries that cause aphasia co-occur with symptoms such as paralysis and 
 
 ## Facilitators
 * Word prediction​
-* Options for completing tasks without producing language or writing (for example, multiple choice check boxes with options already pre-written)​
+* Options for completing tasks without producing language or writing (for example, multiple choice check boxes with options already prewritten)​
 * Ability to prolong listening time while giving voice commands (for example, interaction with Cortana)​
 * Voice command-based experiences that are forgiving when someone uses unintended words​
 
@@ -33,7 +33,7 @@ Often, injuries that cause aphasia co-occur with symptoms such as paralysis and 
 
 :::image type="content" source="images/communication-expressive-barrier.jpg" alt-text="A man sits at a desk in an office. He’s looking at a laptop screen and saying &quot;Hey Cortana, open my cat.&quot;":::
 
-BARRIER — Unintentional word choices can be common following a stroke or brain injury. Experiences that aren’t forgiving of errors can exclude a people from using speech recognition.
+BARRIER — Unintentional word choices can be common following a stroke or brain injury. Experiences that aren’t forgiving of errors can exclude a person from using speech recognition.
 
 :::image type="content" source="images/communication-expressive-facilitator.jpg" alt-text="The man’s laptop screen shows his question and asks &quot;Did you mean to say &quot;Open up PowerPoint?&quot;&quot;.":::
 
