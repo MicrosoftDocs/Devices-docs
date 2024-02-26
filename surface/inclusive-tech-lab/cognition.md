@@ -33,4 +33,4 @@ Many aspects of cognition affect one another. If a person has difficulty with at
 
 [comment]: # (Footer statement)
 ___
-The purpose of this reference is to provide concepts people can use to document and discuss aspects of function. Design should happen with people with disabilities, this reference is meant to support that activity, not replace it. 
+The purpose of this reference is to provide concepts people can use to document and discuss aspects of function. Design should happen with people with disabilities. This reference is meant to support that activity, not replace it. 

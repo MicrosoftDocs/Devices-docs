@@ -1,6 +1,6 @@
 ---
 title: Grasp
-description: The ability to firmly grip or hold an object to use it
+description: The ability to firmly grip or hold an object to use it.
 ms.localizationpriority: medium
 author: InclusiveTechLab
 ms.author: brycejo 
@@ -37,15 +37,15 @@ Difficulty grasping objects can be caused by many conditions like arthritis, han
 
 :::image type="content" source="images/mobility-grasp-barrier.jpg" alt-text="A person thinks about whether they can push a button on an Xbox controller with their prosthetic hand. They look frustrated.":::
 
-BARRIER — If someone can't fully grasp a standard Xbox controller, they may be unable to access required buttons and thumbsticks, resulting in exclusion from gameplay.
+BARRIER—If someone can't fully grasp a standard Xbox controller, they may be unable to access required buttons and thumbsticks, resulting in exclusion from gameplay.
 
 :::image type="content" source="images/mobility-grasp-facilitator.jpg" alt-text="The man taps an adaptive controller with his prosthetic hand. He looks fully engaged with the game on his computer screen.":::
 
-FACILITATOR — The Xbox Adaptive Controller or other compatible hardware eliminates the need for a specific grasp on the device and allows users to choose inputs that work for them.​
+FACILITATOR—The Xbox Adaptive Controller or other compatible hardware eliminates the need for a specific grasp on the device and allows users to choose inputs that work for them.​
 
 
 &nbsp;
 
 [comment]: # (Footer statement)
 ___
-The purpose of this reference is to provide concepts people can use to document and discuss aspects of function. Design should happen with people with disabilities, this reference is meant to support that activity, not replace it. 
+The purpose of this reference is to provide concepts people can use to document and discuss aspects of function. Design should happen with people with disabilities. This reference is meant to support that activity, not replace it. 

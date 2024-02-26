@@ -37,14 +37,14 @@ Hearing loss can be present from birth, or it can happen due to injury, illness,
 
 :::image type="content" source="images/hearing-loss-profound-barrier.jpg" alt-text="A man stares at his computer screen. The screen shows a  window with a video call between the man and four other people.":::
 
-BARRIER — Experiences such as live video calls can exclude a person who can’t hear. 
+BARRIER—Experiences such as live video calls can exclude a person who can’t hear. 
 
-:::image type="content" source="images/hearing-loss-profound-facilitator.jpg" alt-text="The man is looking at his computer screen with the video call. There's a transcription at the bottom of this screen that reads &quot;Michael: I Think we should choose world war two as our topic&quot;":::
+:::image type="content" source="images/hearing-loss-profound-facilitator.jpg" alt-text="The man is looking at his computer screen with the video call. There's a transcription at the bottom of this screen that reads &quot;Michael: I Think we should choose world war two as our topic&quot;.":::
 
-FACILITATOR — Live transcriptions that indicate who said what make video calls more accessible. 
+FACILITATOR—Live transcriptions that indicate who said what make video calls more accessible. 
 
 &nbsp;
 
 [comment]: # (Footer statement)
 ___
-The purpose of this reference is to provide concepts people can use to document and discuss aspects of function. Design should happen with people with disabilities, this reference is meant to support that activity, not replace it. 
+The purpose of this reference is to provide concepts people can use to document and discuss aspects of function. Design should happen with people with disabilities. This reference is meant to support that activity, not replace it. 

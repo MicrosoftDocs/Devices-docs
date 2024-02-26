@@ -22,18 +22,18 @@ Vestibular sensitivity can be affected by things like ear infection, congestion 
 ## Barriers
 * Experiences that elicit responses of the vestibular system (such as Virtual Reality headsets, noise cancellation technology, or moving screen content such as videos and video game play)​
 * Flashing lights or onscreen flickers​
-* Displays with slow pixel repopulation rates that may be detected as “flickers” for someone with a hypersensitive vestibular system
+* Displays with slow pixel repopulation rates that might be detected as "flickers" for someone with a hypersensitive vestibular system
 
 ## Facilitators
-* Ability to turn off functions that may elicit negative responses (for example, turning off noise cancellation features of a headset, but still using it for audio)​
+* Ability to turn off functions that might elicit negative responses (for example, turning off noise cancellation features of a headset, but still using it for audio)​
 * Ability to eliminate flashes or flickering on screen​
 * Ability to turn off animations and moving objects (such as when it’s possible to hide scroll bars, or eliminate screen transitions)
 
 ## Examples
 
-:::image type="content" source="images/sensory-vestibular-barrier.jpg" alt-text="A woman is holding a smartphone with an image moving across the screen. The woman looks frustrated.":::
+:::image type="content" source="images/sensory-vestibular-barrier.jpg" alt-text="A person is holding a smartphone with an image moving across the screen. The person looks frustrated.":::
 
-BARRIER—Motion of objects across a screen may be undetectable to some, while causing extreme dizziness or sickness to others. 
+BARRIER—Motion of objects across a screen might be undetectable to some, while causing extreme dizziness or sickness to others. 
 
 :::image type="content" source="images/sensory-vestibular-facilitator.jpg" alt-text="The person is holding their phone. On their screen is the &quot;Accessibility Reduce Motion&quot; settings window. They're toggling on the &quot;Reduce Motion&quot; option.":::
 
@@ -43,4 +43,4 @@ FACILITATOR—The ability to reduce the motion of objects across a screen can en
 
 [comment]: # (Footer statement)
 ___
-The purpose of this reference is to provide concepts people can use to document and discuss aspects of function. Design should happen with people with disabilities, this reference is meant to support that activity, not replace it. 
+The purpose of this reference is to provide concepts people can use to document and discuss aspects of function. Design should happen with people with disabilities. This reference is meant to support that activity, not replace it. 

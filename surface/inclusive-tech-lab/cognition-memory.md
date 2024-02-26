@@ -39,16 +39,16 @@ A person’s memory may be impacted by things like head injuries, age-related me
 
 :::image type="content" source="images/cognition-memory-barrier.jpg" alt-text="A person throws up their hand in frustration as they look at the sign-in screen on his laptop, which shows a warning symbol.":::
 
-BARRIER — When access to a device requires memorized information, such as a typed password, a person may be excluded from using their device. 
+BARRIER—When access to a device requires memorized information, such as a typed password, a person may be excluded from using their device. 
 
 
 :::image type="content" source="images/cognition-memory-facilitator.jpg" alt-text="The man holds his laptop in front of his face as it scans his facial characteristics to sign him into his account.":::
 
-FACILITATOR — Alternative sign-in options, such as facial recognition, eliminate the need to memorize information and allow people to easily sign in to their devices. 
+FACILITATOR—Alternative sign-in options, such as facial recognition, eliminate the need to memorize information and allow people to easily sign in to their devices. 
 
 
 &nbsp;
 
 [comment]: # (Footer statement)
 ___
-The purpose of this reference is to provide concepts people can use to document and discuss aspects of function. Design should happen with people with disabilities, this reference is meant to support that activity, not replace it. 
+The purpose of this reference is to provide concepts people can use to document and discuss aspects of function. Design should happen with people with disabilities. This reference is meant to support that activity, not replace it. 
