@@ -26,8 +26,7 @@ Most Windows updates focus on performance and security improvements. In the list
 This update is specific to the Surface Hub 2S and provides the driver and firmware updates outlined below:
 
 * Surface System driver - 2.25.12.0
-  * Completes support for the optional migration offering which, when released, will allow Surface Hub 2S devices to transition from Windows 10 Team edition to the [Microsoft Teams Rooms on Windows](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/surface-hub-2s-now-a-microsoft-teams-rooms-on-windows-device/ba-p/3779970) experience. Availability of the full migration offering will be announced and released with documentation to customers at a later date.
-
+  * Completes support for the optional migration offering that enables Surface Hub 2S devices to transition from Windows 10 Team edition to the [Microsoft Teams Rooms on Windows](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/surface-hub-2s-now-a-microsoft-teams-rooms-on-windows-device/ba-p/3779970) experience. To learn more, see [Migrate Surface Hub 2S to Microsoft Teams Rooms on Windows](surface-hub-2s-migrate-to-mtr-w.md)
 
 ### January 23, 2024 - update for Team based on KB5034203* (OS Build 19045.3996)
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/5018682/windows-10-update-history), include:
