@@ -342,7 +342,9 @@
                - name: Replace & install camera
                  href: surface-hub-2s-replace-camera.md    
                - name: Third-party stand policy and waiver  
-                 href: surface-hub-third-party-stand-policy-waiver.md             
+                 href: surface-hub-third-party-stand-policy-waiver.md
+            - name: Migrate Surface Hub 2S to Microsoft Teams Rooms on Windows
+              href: surface-hub-2s-migrate-to-mtr-w.md     
         - name: Surface Hub v1
           expanded: true
           items:
