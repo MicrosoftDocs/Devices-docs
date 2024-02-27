@@ -43,7 +43,7 @@ This update is specific to the Surface Hub 2S and provides the driver and firmwa
 
 * Surface UEFI update - 699.845.768.0
   * Addresses critical security vulnerability and improves system stability.
-  * Adds partial support for an optional migration enables Surface Hub 2S devices to migrate from Windows 10 Team edition to the [Microsoft Teams Rooms on Windows](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/surface-hub-2s-now-a-microsoft-teams-rooms-on-windows-device/ba-p/3779970) experience. To learn more, see [Migrate Surface Hub 2S to Microsoft Teams Rooms on Windows](surface-hub-2s-migrate-to-mtr-w.md).
+  * Adds partial support for an optional migration that enables Surface Hub 2S devices to transition from Windows 10 Team edition to the [Microsoft Teams Rooms on Windows](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/surface-hub-2s-now-a-microsoft-teams-rooms-on-windows-device/ba-p/3779970) experience. To learn more, see [Migrate Surface Hub 2S to Microsoft Teams Rooms on Windows](surface-hub-2s-migrate-to-mtr-w.md).
 * Surface ME Firmware update - 11.8.94.4494
   * Addresses critical security vulnerability and improves system stability.
 * Intel Management Engine Interface driver - 2251.4.2.0
