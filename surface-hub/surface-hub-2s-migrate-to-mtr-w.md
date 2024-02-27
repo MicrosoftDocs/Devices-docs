@@ -45,7 +45,7 @@ Use of the Migration Launcher app on Surface Hub 2S involves significant changes
 ## Prerequisites
 
 - Ensure Surface Hub 2S is connected to the Internet and has the latest Windows Updates, including **Microsoft Corporation - System Hardware Update - 2/8/2024**.
-- To get all the required updates, sign in with Admin credentials, go to **All apps > Settings** >**Update and Security** >**Windows Update**, and install all updates.
+- To get all the required updates, sign in with Admin credentials, go to **All apps > Settings** > **Update and Security** > **Windows Update**, and install all updates.
 - Repeat the update retrieval process until you install all the available updates.
 - Once updated, confirm that the UEFI version is **699.845.768.0** or later.
 - Validate that your network can handle a **30 GB download**.
@@ -122,7 +122,7 @@ Choose one of the following options:
 4. Enter a **Group name** and **Group description** for the new group.
 5. In the Membership type field, choose **Assigned**.
 6. Select **Create** to create the new group.
-7. Open the Group, select  **Members** >**Add members** and add the Surface Hub 2S devices you're targeting for migration.
+7. Open the Group, select  **Members** > **Add members** and add the Surface Hub 2S devices you're targeting for migration.
 
    :::image type="content" alt-text="Screenshot that shows how to add members to a security group in Intune admin center." source="images/add-members-security-group.png":::
 
@@ -144,7 +144,7 @@ Download the migration launcher app package from Microsoft Store for Business.
 #### Configure Microsoft Store for Business to display offline apps
 
 1. Sign in to the [Microsoft Store for Business](https://businessstore.microsoft.com/).
-2. Select **Manage** >**Shop settings** and under Shopping experience, ensure that **Show offline apps** is enabled.
+2. Select **Manage** > **Shop settings** and under Shopping experience, ensure that **Show offline apps** is enabled.
 
    :::image type="content" alt-text="Screenshot that shows how to enable offline apps in Microsoft Store for Business." source="images/store-for-business-offline-apps.png":::
 
@@ -172,7 +172,7 @@ Download the migration launcher app package from Microsoft Store for Business.
 
 ## Deploy Migration Launcher app via Intune
 
-1. Sign in to [Intune Admin Center](https://endpoint.microsoft.com/) and go to **Apps** > **All apps** >**Add**. Under App type, select **Line-of-business app**.
+1. Sign in to [Intune Admin Center](https://endpoint.microsoft.com/) and go to **Apps** > **All apps** > **Add**. Under App type, select **Line-of-business app**.
 
    :::image type="content" alt-text="Screenshot of Select line of business app." source="images/hub2s-migration-select-lob-app.png":::
 
@@ -192,8 +192,8 @@ Download the migration launcher app package from Microsoft Store for Business.
 Under the Assignments tab, specify how the app is deployed to your Surface Hub 2S devices.
 You can make the app available for enrolled devices or assign it as required.
 
-1. Under **Required** >**Group mode**, select **Add group** and add your intended Device group.
-2. Under **Required Group mode**>**Install Context**, select **User context** link, and in the flyout pane, change the App settings toggle to ensure **Device context** is selected and then select **OK**.
+1. Under **Required** > **Group mode**, select **Add group** and add your intended Device group.
+2. Under **Required Group mode**> **Install Context**, select **User context** link, and in the flyout pane, change the App settings toggle to ensure **Device context** is selected and then select **OK**.
 
    :::image type="content" alt-text="Screenshot that shows selection of device context." source="images/hub2s-migration-select-device-context.png":::
 
