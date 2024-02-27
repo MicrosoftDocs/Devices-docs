@@ -27,8 +27,8 @@ appliesto:
 **How can I upgrade my Surface Hub 2S to the new experience?**
 
 - Purchase a new Surface Hub 3.
-- Upgrade from Surface Hub 2S to Surface Hub 3 via the [Surface Hub 3 Pack](install-manage-surface-hub-3-pack.md) (aka replacement cartridge) (available December 5).
-- Migrate your Surface Hub 2S to the new experience following public release of migration software and instructions, available early next year.
+- Upgrade from Surface Hub 2S to Surface Hub 3 via the [Surface Hub 3 Pack](install-manage-surface-hub-3-pack.md) compute cartridge.
+- Migrate your Surface Hub 2S to the new experience. To learn more, see [Migrate Surface Hub 2S to Microsoft Teams Rooms on Windows](surface-hub-2s-migrate-to-mtr-w.md).
 
 **What is the default admin password on Surface Hub 3?**
 
