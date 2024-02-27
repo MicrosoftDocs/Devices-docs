@@ -17,6 +17,8 @@
              href: surface-hub-3-pack-faq.md 
            - name: Driver & firmware lifecycle
              href: surface-hub-driver-firmware-accessories-lifecycle.md
+           - name: Migrate Surface Hub 2S to Microsoft Teams Rooms on Windows
+             href: surface-hub-2s-migrate-to-mtr-w.md
            - name: Set up
              expanded: true
              items:
@@ -29,7 +31,7 @@
               - name: Surface Hub 3 security best practices
                 href: surface-hub-3-security.md    
               - name: Install wallpaper on Surface Hub 3
-                href: install-wallpaper-surface-hub.md                
+                href: install-wallpaper-surface-hub.md 
         - name: Windows 10 Team 2022
           expanded: true
           items: 
@@ -340,7 +342,9 @@
                - name: Replace & install camera
                  href: surface-hub-2s-replace-camera.md    
                - name: Third-party stand policy and waiver  
-                 href: surface-hub-third-party-stand-policy-waiver.md             
+                 href: surface-hub-third-party-stand-policy-waiver.md
+            - name: Migrate Surface Hub 2S to Microsoft Teams Rooms on Windows
+              href: surface-hub-2s-migrate-to-mtr-w.md     
         - name: Surface Hub v1
           expanded: true
           items:

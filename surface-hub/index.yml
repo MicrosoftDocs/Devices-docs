@@ -27,6 +27,8 @@ landingContent:
     linkLists:
       - linkListType: get-started
         links: 
+          - text: Migrate Surface Hub 2S to Microsoft Teams Rooms on Windows  
+            url: surface-hub-2s-migrate-to-mtr-w.md
           - text: What's new for Surface Hub 3   
             url: surface-hub-3-whats-new.md
           - text: Get started with Surface Hub 3
