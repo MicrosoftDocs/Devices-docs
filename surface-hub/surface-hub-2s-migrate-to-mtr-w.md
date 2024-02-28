@@ -193,7 +193,7 @@ Under the Assignments tab, specify how the app is deployed to your Surface Hub 2
 You can make the app available for enrolled devices or assign it as required.
 
 1. Under **Required** > **Group mode**, select **Add group** and add your intended Device group.
-2. Under **Required Group mode**> **Install Context**, select **User context** link, and in the flyout pane, change the App settings toggle to ensure **Device context** is selected and then select **OK**.
+2. Under **Required Group mode** > **Install Context**, select **User context** link, and in the flyout pane, change the App settings toggle to ensure **Device context** is selected and then select **OK**.
 
    :::image type="content" alt-text="Screenshot that shows selection of device context." source="images/hub2s-migration-select-device-context.png":::
 
