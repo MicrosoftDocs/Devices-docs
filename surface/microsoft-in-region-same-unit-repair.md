@@ -57,8 +57,9 @@ The following devices are eligible for same unit repair:
 
 Except where noted, same unit repair is available in the following locations:
 
-Austria, Belgium, Bulgaria, Croatia, Cyprus, Denmark, Finland, France, Germany, Hungary, Iceland, Ireland, Italy, Latvia, Luxemburg, Malta, Mexico, Netherlands, Norway, Poland, Portugal, Romania, Slovakia, Spain, Sweden, Switzerland, United Kingdom, United States
+Australia,<sup>2</sup> Austria, Belgium, Bulgaria, Canada,<sup>2</sup>  Croatia, Cyprus, Denmark, Finland, France, Germany, Hungary, Iceland, Ireland, Italy, Japan, <sup>2</sup> Latvia, Luxemburg, Malta, Mexico, Netherlands, Norway, Poland, Portugal, Romania, Slovakia, Spain, Sweden, Switzerland, United Kingdom, United States
 
 ## References
 
 1. Same unit repair of Surface Pro 7+ and the original Surface Laptop Studio (v1) is currently unavailable in United States or Mexico.
+2. Same unit repair only available for Surface Pro 9, Surface Go 4, Surface Laptop 5, Surface Laptop Go 3, and Surface Laptop Studio 2.
