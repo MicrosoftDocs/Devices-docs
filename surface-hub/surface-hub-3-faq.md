@@ -27,8 +27,8 @@ appliesto:
 **How can I upgrade my Surface Hub 2S to the new experience?**
 
 - Purchase a new Surface Hub 3.
-- Upgrade from Surface Hub 2S to Surface Hub 3 via the [Surface Hub 3 Pack](install-manage-surface-hub-3-pack.md) (aka replacement cartridge) (available December 5).
-- Migrate your Surface Hub 2S to the new experience following public release of migration software and instructions, available early next year.
+- Upgrade from Surface Hub 2S to Surface Hub 3 via the [Surface Hub 3 Pack](install-manage-surface-hub-3-pack.md) compute cartridge.
+- Migrate your Surface Hub 2S to the new experience. To learn more, see [Migrate Surface Hub 2S to Microsoft Teams Rooms on Windows](surface-hub-2s-migrate-to-mtr-w.md).
 
 **What is the default admin password on Surface Hub 3?**
 
@@ -40,7 +40,7 @@ appliesto:
 
 **What type of updates to Windows 10 Team OS will continue until mainstream support ends?**
 
-- At a minimum, consistent with previously announced support for Windows 10, Surface Hubs will continue to receive security updates. We will only drive bug fixes and security updates. We will no longer add new features to the Windows 10 Team OS.
+- At a minimum, consistent with previously announced support for Windows 10, Surface Hubs will continue to receive security updates. We'll no longer add new features to the Windows 10 Team OS.
 
 **What happens after mainstream support ends on October 14, 2025?**
 

@@ -15,7 +15,7 @@ ms.service: surface
 
 **The ability to perform tasks smoothly with precision and without involuntary movements, tremors, or shakiness.**
 
-Unsteadiness can be small repetitive muscle movements that look like “shakiness”, or it can be larger unintentional movements of the entire arm or head. While unintended movements don’t always happen continuously, when they do occur, they can make daily tasks like bringing a spoon to your mouth or writing with a pencil very difficult. Many activities that require accuracy, such as hovering a mouse pointer over a desired location, inserting cords into small ports, or using a finger with a touch screen are more difficult if the person can't make controlled and stable movements.
+Unsteadiness can be small repetitive muscle movements that look like “shakiness”, or it can be larger unintentional movements of the entire arm or head. While unintended movements don’t always happen continuously, when they do occur, they can make daily tasks like bringing a spoon to your mouth or writing with a pencil difficult. Many activities that require accuracy, such as hovering a mouse pointer over a desired location, inserting cords into small ports, or using a finger with a touch screen are more difficult if the person can't make controlled and stable movements.
 
 Tremors and involuntary motion can be caused by situational factors such as too much caffeine, medication side effects, or nervousness and anxiety. More commonly, tremors and involuntary movements are caused by neurological factors such as a brain injury or stroke, seizure disorders, Parkinson’s, multiple sclerosis, or one of many other factors.
 
@@ -25,7 +25,7 @@ Tremors and involuntary motion can be caused by situational factors such as too 
 * Movement-based navigation through an experience (such as moving a cursor on screen, tapping a pen on screen, or virtual reality experiences)​
 
 ## Facilitators
-* Support for inputs that do not require use of the hands (such as voice command, eye gaze)​
+* Support for inputs that don't require use of the hands (such as voice command, eye gaze)​
 * Ability to alter settings related to sensitivity of inputs (such as altering cursor speed sensitivity, having a prominent undo function, sticky keys, filter keys)​
 * Support for alternative device inputs that facilitate ease of access for a specific user (such as enlarged keyboards or weighted mice)​
 * Hardware connections like USB-C that provide a more forgiving experience
@@ -33,7 +33,7 @@ Tremors and involuntary motion can be caused by situational factors such as too 
 
 ## Examples
 
-:::image type="content" source="images/mobility-control-barrier.jpg" alt-text="A man sits at a desk in front of a computer screen. He’s using a mouse, but his hand is shaky, and the cursor on the screen is moving unsteadily.":::
+:::image type="content" source="images/mobility-control-barrier.jpg" alt-text="A person sits at a desk in front of a computer screen. They're using a mouse, but their hand is shaky, and the cursor on the screen is moving unsteadily.":::
 
 BARRIER — A mouse and cursor are often sensitive to movements like tremors or unsteadiness of the hand. This can cause difficulty navigating menus and selecting desired content.
 
