@@ -32,7 +32,10 @@ Commercial customers can choose to have Windows 10 or Windows 11 installed on ne
 > When Windows 10 reaches end of support (EOS) on October 14, 2025, Microsoft will no longer release security updates, bug fixes, time zone updates, or technical support from Microsoft. To learn more, including transition options for organizations needing more time, see [Plan for Windows 10 EOS with Windows 11, Windows 365, and ESU](https://techcommunity.microsoft.com/t5/windows-it-pro-blog/plan-for-windows-10-eos-with-windows-11-windows-365-and-esu/ba-p/4000414). 
 
 > [!NOTE]
-> Effective March 31, 2024, Microsoft will no longer offer Windows 10 Pro as a downgrade choice in operating systems on devices delivered from the factory. To run Windows 10 on a Surface device, see [Downgrade from Windows 11 to Windows 10 via MSI file](#downgrade-from-windows-11-to-windows-10-via-msi-file).
+> Effective March 31, 2024, Microsoft will no longer offer Windows 10 Pro as a downgrade choice in operating systems on devices delivered from the factory. PC manufacturers can no longer install Windows 10 Pro on Windows 11 Pro PCs during manufacturing. Any current stock of devices with Windows 10 preinstalled is only available while supplies last. The right for customers to install Windows 10 Pro on OEM-licensed versions of Windows 11 Pro continues while Windows 10 Pro is still supported. 
+
+> [!TIP]
+> To run Windows 10 on a Surface device, see [Downgrade from Windows 11 to Windows 10 via MSI file](#downgrade-from-windows-11-to-windows-10-via-msi-file).
 
 ## OS choice options
 
