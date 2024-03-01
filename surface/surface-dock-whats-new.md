@@ -168,6 +168,21 @@ To daisy chain monitors, you need two or more monitors that support at least **D
 |---------------------|------------------------|
 | Surface Thunderbolt 4 Dock does not fully enumerate with Surface Laptop 3 with AMD processor (System SKU: Surface_Laptop_3_1873), causing audio to fail. This issue only affects Surface Laptop 3 devices with an AMD processor. | Microsoft is actively looking to find a resolution to this issue. | 
 
+### Appendix
+
+| Feature                          | Surface Thunderbolt 4                           | Surface Dock 2                                  | USB-C Travel Adapter Hub                                |
+|----------------------------------|-------------------------------------------------|-------------------------------------------------|---------------------------------------------------------|
+| **Connection Type/Protocol**     | Thunderbolt 4                                   | Surflink USB Gen 2 + DP 1.4 HBR3               | USB 3.2 Gen 2 Type-C MFDP                               |
+| **Display Support**              | 2x 4K UltraHD @ 60Hz on any 2 of 3 USB-C ports  | 2x 4K UltraHD @ 60Hz on two rear side USB-C ports | 1x HDMI UltraHD @ 60Hz or 1x VGA QuadHD @ 60Hz          |
+| **USB Ports**                    | 3x USB-A with USB 3.2 Gen 2 (10Gbps)            | 2x USB-A with USB 3.2 Gen 2 (10Gbps)           | 1x USB-A and 1x USB-C with USB 3.2 Gen 2 (10Gbps)        |
+| **Ethernet Support**             | 2.5 Giga Ethernet                               | Giga Ethernet                                   | Giga Ethernet                                            |
+| **Audio Jack**                   | 3.5mm with stereo output and mic input          | 3.5mm with stereo output and mic input         | N/A                                                      |
+| **Charging Power**               | USB PD 3.0 with 60W charging rate               | 120W Surflink charging                          | N/A                                                      |
+| **Device Trust**                 | Only trusted devices can access USB data transfer | Only trusted devices can access USB data transfer | N/A                                                      |
+
+
+
+
 ### Learn more
 
 - [Simple management & security with our latest Surface Dock](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/simple-management-amp-security-with-our-latest-surface-dock/ba-p/3784764)
