@@ -15,7 +15,7 @@ ms.localizationpriority: medium
 
 Troubleshoot common problems, including setup issues, Exchange ActiveSync errors.
 
-The [Surface Hub Hardware Diagnostic tool](https://www.microsoft.com/store/p/surface-hub-hardware-diagnostic/9nblggh51f2g?rtc=1&activetab=pivot%3aoverviewtab) contains interactive tests which allow you to confirm essential functionality of your Hub is working as expected. In addition to testing hardware, the diagnostic can test the resource account to verify that it is configured properly for your environment. If problems are encountered, results can be saved and shared with the Surface Hub Support Team. For usage information, see [Using the Surface Hub Hardware Diagnostic Tool to test a device account](https://support.microsoft.com/help/4077574/using-the-surface-hub-hardware-diagnostic-tool-to-test-a-device-accoun).
+The [Surface Hub Hardware Diagnostic tool](https://www.microsoft.com/store/p/surface-hub-hardware-diagnostic/9nblggh51f2g?rtc=1&activetab=pivot%3aoverviewtab) contains interactive tests which allow you to confirm essential functionality of your Hub is working as expected. In addition to testing hardware, the diagnostic can test the resource account to verify that it's configured properly for your environment. If problems are encountered, results can be saved and shared with the Surface Hub Support Team. For usage information, see [Using the Surface Hub Hardware Diagnostic Tool to test a device account](https://support.microsoft.com/help/4077574/using-the-surface-hub-hardware-diagnostic-tool-to-test-a-device-accoun).
 
 Common issues are listed in the following table, along with causes and possible fixes. The [Setup troubleshooting](#setup-troubleshooting) section contains a listing of on-device problems, along with several types of issues that may be encountered during the first-run experience. The [Exchange ActiveSync errors](#exchange-activesync-errors) section lists common errors the device may encounter when trying to synchronize with a Microsoft Exchange ActiveSync server.
 
@@ -54,7 +54,7 @@ Possible fixes for issues on the Surface Hub after you've completed the first-ru
 </tr>
 <tr>
 <td>
-<p>Calendar is not showing on the Welcome screen, or message "Appointments of date (no account provisioned)" is being displayed.</p>
+<p>Calendar isn't showing on the Welcome screen, or message "Appointments of date (no account provisioned)" is being displayed.</p>
 </td>
 <td>
 <p>No device account is set up on this Surface Hub.</p>
@@ -65,7 +65,7 @@ Possible fixes for issues on the Surface Hub after you've completed the first-ru
 </tr>
 <tr>
 <td>
-<p>Calendar is not showing on the Welcome screen or message "Appointments of date (overprovisioned)" is being displayed.</p>
+<p>Calendar isn't showing on the Welcome screen or message "Appointments of date (overprovisioned)" is being displayed.</p>
 </td>
 <td>
 <p>The device account is provisioned on too many devices.</p>
@@ -76,7 +76,7 @@ Possible fixes for issues on the Surface Hub after you've completed the first-ru
 </tr>
 <tr>
 <td>
-<p>Calendar is not showing on the Welcome screen or message "Appointments of date (invalid credentials)" is being displayed.</p>
+<p>Calendar isn't showing on the Welcome screen or message "Appointments of date (invalid credentials)" is being displayed.</p>
 </td>
 <td>
 <p>The device account's password has expired and is no longer valid.</p>
@@ -87,7 +87,7 @@ Possible fixes for issues on the Surface Hub after you've completed the first-ru
 </tr>
 <tr>
 <td>
-<p>Calendar is not showing on the Welcome screen or message "Appointments of date (account policy)" is being displayed.</p>
+<p>Calendar isn't showing on the Welcome screen or message "Appointments of date (account policy)" is being displayed.</p>
 </td>
 <td>
 <p>The device account is using an invalid ActiveSync policy.</p>
@@ -98,22 +98,22 @@ Possible fixes for issues on the Surface Hub after you've completed the first-ru
 </tr>
 <tr>
 <td>
-<p>Calendar is not showing on the Welcome screen or message "Appointments may be out of date" is being displayed.</p>
+<p>Calendar isn't showing on the Welcome screen or message "Appointments may be out of date" is being displayed.</p>
 </td>
 <td>
-<p>Exchange is not enabled.</p>
+<p>Exchange isn't enabled.</p>
 </td>
 <td>Enable the device account for Exchange services through Settings. You need to make sure you have the right set of ActiveSync policies and have also installed any necessary certificates for Exchange services to work.</td>
 </tr>
 <tr>
 <td>
-<p>Can't log in to Skype for Business.</p>
+<p>Can't sign in to Skype for Business.</p>
 </td>
 <td>
-<p>The device account does not have a Session Initiation Protocol (SIP) address property.</p>
+<p>The device account doesn't have a Session Initiation Protocol (SIP) address property.</p>
 </td>
 <td>
-<p>The account does not have a SIP address property and its User Principal Name (UPN) does not match the actual SIP address. The account must have its SIP address set, or the SIP address should be added using the Settings app.</p>
+<p>The account doesn't have a SIP address property and its User Principal Name (UPN) doesn't match the actual SIP address. The account must have its SIP address set, or the SIP address should be added using the Settings app.</p>
 </td>
 </tr>
 <tr>
@@ -183,9 +183,9 @@ Possible fixes for issues with Surface Hub first-run program.
 <td align="left"><p>Make sure that you have a working network connection, and that the device can reach the domain controller. Make sure the account credentials are entered correctly. You can also try using the FQDN instead.</p></td>
 </tr>
 <tr class="odd">
-<td align="left"><p>Can't auto-discover Exchange server.</p></td>
-<td align="left"><p>The Exchange server isn't configured for auto-discovery.</p></td>
-<td align="left"><p>Enable auto-discovery of the Exchange server for the device account, or enter the account's Exchange server address manually.</p></td>
+<td align="left"><p>Can't autodiscover Exchange server.</p></td>
+<td align="left"><p>The Exchange server isn't configured for autodiscovery.</p></td>
+<td align="left"><p>Enable autodiscovery of the Exchange server for the device account, or enter the account's Exchange server address manually.</p></td>
 </tr>
 <tr class="even">
 <td align="left"><p>Could not discover the SIP address after entering the account credentials.</p></td>
@@ -206,10 +206,10 @@ Possible fixes for issues with Surface Hub first-run program.
 </tr>
 <tr>
 <td>
-<p>Account could not authenticate with the specified credentials.</p>
+<p>Account couldn't authenticate with the specified credentials.</p>
 </td>
 <td>
-<p>The account is not enabled as a user in Active Directory (AD), needs a password to authenticate, or the password is incorrect.</p>
+<p>The account isn't enabled as a user in Active Directory (AD), needs a password to authenticate, or the password is incorrect.</p>
 </td>
 <td>
 <p>None</p>
@@ -233,21 +233,21 @@ Possible fixes for issues with Surface Hub first-run program.
 </tr>
 <tr>
 <td>
-<p>Device account credentials are not valid for the provided Exchange server.</p>
+<p>Device account credentials aren't valid for the provided Exchange server.</p>
 </td>
 <td>
-<p>The provided Exchange server is not where the device account's mailbox is hosted.</p>
+<p>The provided Exchange server isn't where the device account's mailbox is hosted.</p>
 </td>
 <td>
 <p>None</p>
 </td>
 <td>
-<p>Make sure you are providing the correct Exchange mail server for the device account.</p>
+<p>Make sure you're providing the correct Exchange mail server for the device account.</p>
 </td>
 </tr>
 <tr>
 <td>
-<p>HTTP timeout while trying to reach Exchange server.</p>
+<p>HTTP time-out while trying to reach Exchange server.</p>
 </td>
 <td></td>
 <td>
@@ -260,7 +260,7 @@ Possible fixes for issues with Surface Hub first-run program.
 <p>Couldn't find the provided Exchange server.</p>
 </td>
 <td>
-<p>The Exchange server provided could not be found.</p>
+<p>The Exchange server provided couldn't be found.</p>
 </td>
 <td>
 <p>None</p>
@@ -342,7 +342,7 @@ Possible fixes for issues with Surface Hub first-run program.
 <tbody>
 <tr class="odd">
 <td align="left"><p>When trying to join a domain, an error shows that the account couldn't authenticate using the specified credentials.</p></td>
-<td align="left"><p>The credentials provided are not capable of joining the specified domain.</p></td>
+<td align="left"><p>The credentials provided aren't capable of joining the specified domain.</p></td>
 <td align="left"><p>Enter correct credentials for an account that exists in the specified domain.</p></td>
 </tr>
 <tr class="even">
@@ -371,8 +371,8 @@ Possible fixes for issues with Surface Hub first-run program.
 <tbody>
 <tr class="odd">
 <td align="left"><p>People land on this page and are asked for the Exchange server address.</p></td>
-<td align="left"><p>The Exchange server isn't configured for auto-discovery.</p></td>
-<td align="left"><p>Enable auto-discovery of the Exchange server for the device account, or enter the account's Exchange server address manually.</p></td>
+<td align="left"><p>The Exchange server isn't configured for autodiscovery.</p></td>
+<td align="left"><p>Enable autodiscovery of the Exchange server for the device account, or enter the account's Exchange server address manually.</p></td>
 </tr>
 </tbody>
 </table>
@@ -397,7 +397,7 @@ Possible fixes for issues with Surface Hub first-run program.
 <tbody>
 <tr class="odd">
 <td align="left"><p>Can't sync mail/calendar.</p></td>
-<td align="left"><p>The account has not allowed the Surface Hub as an allowed device.</p></td>
+<td align="left"><p>The account hasn't allowed the Surface Hub as an allowed device.</p></td>
 <td align="left"><p>0x86000C1C</p></td>
 <td align="left"><p>Add the Surface Hub device ID to the allowed list by setting the <strong>ActiveSyncAllowedDeviceIds</strong> property for the mailbox.</p></td>
 </tr>
@@ -441,7 +441,7 @@ This section lists status codes, mapping, user messages, and actions an admin ca
 <td align="left"><p>E_NEXUS_STATUS_DEVICE_NOTPROVISIONED (policies don't match)</p></td>
 <td align="left"><p>The account is configured with policies not compatible with Surface Hub.</p></td>
 <td align="left"><p>Disable the <strong>PasswordEnabled</strong> policy for this account.</p>
-<p>We have a bug were we may surface policy errors if the account doesn't receive any server notifications within the policy refresh interval.</p></td>
+<p>We have a bug where we may surface policy errors if the account doesn't receive any server notifications within the policy refresh interval.</p></td>
 </tr>
 <tr class="even">
 <td align="left"><p>0x86000C4C</p></td>
@@ -453,7 +453,7 @@ This section lists status codes, mapping, user messages, and actions an admin ca
 <td align="left"><p>0x86000C0A</p></td>
 <td align="left"><p>E_NEXUS_STATUS_SERVERERROR_RETRYLATER</p></td>
 <td align="left"><p>Can't connect to the server right now.</p></td>
-<td align="left"><p>Wait until the server comes back online. If the issue persists, re-provision the account.</p></td>
+<td align="left"><p>Wait until the server comes back online. If the issue persists, reprovision the account.</p></td>
 </tr>
 <tr class="even">
 <td align="left"><p>0x85050003</p></td>
@@ -471,13 +471,13 @@ This section lists status codes, mapping, user messages, and actions an admin ca
 <td align="left"><p>0x86000C16</p></td>
 <td align="left"><p>E_NEXUS_STATUS_USER_HASNOMAILBOX</p></td>
 <td align="left"><p>The mailbox was migrated to a different server.</p></td>
-<td align="left"><p>You should never see this error. If the issue persists, re-provision the account.</p></td>
+<td align="left"><p>You should never see this error. If the issue persists, reprovision the account.</p></td>
 </tr>
 <tr class="odd">
 <td align="left"><p>0x85010004</p></td>
 <td align="left"><p>E_HTTP_FORBIDDEN</p></td>
 <td align="left"><p>Can't connect to the server right now. Wait a while and try again, or check the account's settings.</p></td>
-<td align="left"><p>Verify the server name to make sure it is correct. If the account is using cert based authentication make sure the certificate is still valid and update it if not.</p></td>
+<td align="left"><p>Verify the server name to make sure it's correct. If the account is using cert based authentication make sure the certificate is still valid and update it if not.</p></td>
 </tr>
 <tr class="even">
 <td align="left"><p>0x85030028</p></td>
@@ -506,20 +506,20 @@ This section lists status codes, mapping, user messages, and actions an admin ca
 <tr class="even">
 <td align="left"><p>0x85002004</p></td>
 <td align="left"><p>E_FAIL_ABORT</p></td>
-<td align="left"><p>This error is used to interrupt the hanging sync, and will not be exposed to users. It will be shown in the diagnostic data if you force an interactive sync, delete the account, or update its settings.</p></td>
+<td align="left"><p>This error is used to interrupt the hanging sync, and won't be exposed to users. It will be shown in the diagnostic data if you force an interactive sync, delete the account, or update its settings.</p></td>
 <td align="left"><p>Nothing.</p></td>
 </tr>
 <tr class="odd">
 <td align="left"><p>0x85010017</p></td>
 <td align="left"><p>E_HTTP_SERVICE_UNAVAIL</p></td>
 <td align="left"><p>Can't connect to the server right now. Wait a while or check the account's settings.</p></td>
-<td align="left"><p>Verify the server name to make sure it is correct. Wait until the server comes back online. If the issue persists, re-provision the account.</p></td>
+<td align="left"><p>Verify the server name to make sure it's correct. Wait until the server comes back online. If the issue persists, reprovision the account.</p></td>
 </tr>
 <tr class="even">
 <td align="left"><p>0x86000C0D</p></td>
 <td align="left"><p>E_NEXUS_STATUS_MAILBOX_SERVEROFFLINE</p></td>
 <td align="left"><p>Can't connect to the server right now. Wait a while or check the account's settings.</p></td>
-<td align="left"><p>Verify the server name to make sure it is correct. Wait until the server comes back online. If the issue persists, re-provision the account.</p></td>
+<td align="left"><p>Verify the server name to make sure it's correct. Wait until the server comes back online. If the issue persists, reprovision the account.</p></td>
 </tr>
 <tr class="odd">
 <td align="left"><p>0x85030027</p></td>
@@ -532,31 +532,31 @@ This section lists status codes, mapping, user messages, and actions an admin ca
 <td align="left"><p>E_NEXUS_STATUS_INVALID_POLICYKEY</p></td>
 <td align="left"><p>The account is configured with policies not compatible with Surface Hub.</p></td>
 <td align="left"><p>Disable the PasswordEnabled policy for this account.</p>
-<p>We have a bug were we may surface policy errors if the account doesn't receive any server notifications within the policy refresh interval.</p></td>
+<p>We have a bug where we may surface policy errors if the account doesn't receive any server notifications within the policy refresh interval.</p></td>
 </tr>
 <tr class="odd">
 <td align="left"><p>0x85010005</p></td>
 <td align="left"><p>E_HTTP_NOT_FOUND</p></td>
 <td align="left"><p>The server name is invalid.</p></td>
-<td align="left"><p>Verify the server name to make sure it is correct. If the issue persists, re-provision the account.</p></td>
+<td align="left"><p>Verify the server name to make sure it's correct. If the issue persists, reprovision the account.</p></td>
 </tr>
 <tr class="even">
 <td align="left"><p>0x85010014</p></td>
 <td align="left"><p>E_HTTP_SERVER_ERROR</p></td>
 <td align="left"><p>Can't connect to the server.</p></td>
-<td align="left"><p>Verify the server name to make sure it is correct. Trigger a sync and, if the issue persists, re-provision the account.</p></td>
+<td align="left"><p>Verify the server name to make sure it's correct. Trigger a sync and, if the issue persists, reprovision the account.</p></td>
 </tr>
 <tr class="odd">
 <td align="left"><p>0x80072EE7</p></td>
 <td align="left"><p>WININET_E_NAME_NOT_RESOLVED</p></td>
-<td align="left"><p>The server name or address could not be resolved.</p></td>
+<td align="left"><p>The server name or address couldn't be resolved.</p></td>
 <td align="left"><p>Make sure the server name is entered correctly.</p></td>
 </tr>
 <tr class="even">
 <td align="left"><p>0x8007052F</p></td>
 <td align="left"><p>ERROR_ACCOUNT_RESTRICTION</p></td>
-<td align="left"><p>While auto-discovering the Exchange server, a policy is applied that prevents the logged-in user from logging in to the server.</p></td>
-<td align="left"><p>This is a timing issue. Re-verify the account's credentials. Try to re-provision when they're correct.</p></td>
+<td align="left"><p>While autodiscovering the Exchange server, a policy is applied that prevents the logged-in user from logging in to the server.</p></td>
+<td align="left"><p>This is a timing issue. Re-verify the account's credentials. Try to reprovision when they're correct.</p></td>
 </tr>
 <tr class="odd">
 <td align="left"><p>0x800C0019</p></td>
@@ -567,14 +567,14 @@ This section lists status codes, mapping, user messages, and actions an admin ca
 <tr class="even">
 <td align="left"><p>0x80072F0D</p></td>
 <td align="left"><p>WININET_E_INVALID_CA</p></td>
-<td align="left"><p>The certificate authority is invalid or is incorrect. Could not auto-discover the Exchange server because a certificate is missing.</p></td>
+<td align="left"><p>The certificate authority is invalid or is incorrect. Could not autodiscover the Exchange server because a certificate is missing.</p></td>
 <td align="left"><p>Install the correct ActiveSync certificate needed for the provided device account.</p></td>
 </tr>
 <tr class="odd">
 <td align="left"><p>0x80004005</p></td>
 <td align="left"><p>E_FAIL</p></td>
-<td align="left"><p>The domain provided couldn't be found. The Exchange server could not be auto-discovered and was not provided in the settings.</p></td>
-<td align="left"><p>Make sure that the domain entered is the FQDN, and that there is an Exchange server entered in the Exchange server text box.</p></td>
+<td align="left"><p>The domain provided couldn't be found. The Exchange server couldn't be autodiscovered and wasn't provided in the settings.</p></td>
+<td align="left"><p>Make sure that the domain entered is the FQDN, and that there's an Exchange server entered in the Exchange server text box.</p></td>
 </tr>
 </tbody>
 </table>

@@ -65,7 +65,7 @@ After the creation tool is installed, follow these steps to create a Microsoft S
 
    :::image type="content" source="images/microsoft-surface-data-eraser/fig3-select.png" alt-text="Figure 3. Select device architecture":::
 
-5. Select the USB drive of your choice from the **USB Thumb Drive Selection** page as shown in Figure 4, and then select **Start** to begin the USB creation process. The drive you select will be formatted and any existing data on this drive will be lost.
+5. Select the USB drive of your choice from the **USB Thumb Drive Selection** page as shown in Figure 4, and then select **Start** to begin the USB creation process.
 
    :::image type="content" source="images/microsoft-surface-data-eraser/fig4-start.png" alt-text="Figure 4. USB thumb drive selection>":::<br>
    *Figure 4. USB thumb drive selection*
@@ -73,7 +73,7 @@ After the creation tool is installed, follow these steps to create a Microsoft S
    >[!TIP]
    >If the Start button is disabled, check that your removable drive has a total capacity of at least 4 GB.
 
-6. After the creation process is finished, the USB drive has been formatted and all binaries are copied to the USB drive. Select **Success**.
+6. After the creation process is finished, all binaries are copied to the USB drive. Select **Success**.
 
 7. When the **Congratulations** screen is displayed, you can eject and remove the thumb drive. This thumb drive is now ready to be inserted into a Surface device, booted from, and wipe any data on the device. Select **Complete** to finish the USB creation process, as shown in Figure 5.
 
@@ -91,7 +91,7 @@ After you create a Microsoft Surface Data Eraser USB stick, you can boot a suppo
 
 1. Insert the bootable Microsoft Surface Data Eraser USB stick into the supported Surface device.
 
-2. Boot your Surface device from the Microsoft Surface Data Eraser USB stick. To boot your device from the USB stick follow these steps:
+2. Boot your Surface device from the Microsoft Surface Data Eraser USB stick. To boot your device from the USB stick, follow these steps:
 
    a. Turn off your Surface device.
    b. Press and hold the **Volume Down** button.
@@ -114,7 +114,7 @@ After you create a Microsoft Surface Data Eraser USB stick, you can boot a suppo
 6. The Microsoft Surface Data Eraser script detects the storage devices that are present in your Surface device and displays the details of the native storage device. To continue, press **Y** (this action runs Microsoft Surface Data Eraser and removes all data from the storage device) or press **N** (this action shuts down the device without removing data).
 
    >[!CAUTION]
-   >The Microsoft Surface Data Eraser tool will delete all data, including Windows operating system files required to boot the device, in a secure and unrecoverable way. To boot a Surface device that has been wiped with Microsoft Surface Data Eraser, you will first need to reinstall the Windows operating system. To remove data from a Surface device without removing the Windows operating system, you can use the **Reset your PC** function. However, this does not prevent your data from being recovered with forensic or data recovery capabilities. See [Recovery options in Windows 10](https://support.microsoft.com/help/12415/windows-10-recovery-options) for more information.
+   >The Microsoft Surface Data Eraser tool deletes all data, including Windows operating system files required to boot the device, in a secure and unrecoverable way. To boot a Surface device that has been wiped with Microsoft Surface Data Eraser, you first need to reinstall the Windows operating system. To remove data from a Surface device without removing the Windows operating system, you can use the **Reset your PC** function. However, this does not prevent your data from being recovered with forensic or data recovery capabilities. See [Recovery options in Windows 10](https://support.microsoft.com/help/12415/windows-10-recovery-options) for more information.
 
    ![Partition to be erased is displayed.](images/sda-fig5-erase.png)
   
@@ -191,7 +191,7 @@ This version of Surface Data Eraser:
 
 This version of Surface Data Eraser includes bug fixes and adds support for:
 
-- Architecture re-design to reduce the need to update with new product releases
+- Architecture redesign to reduce the need to update with new product releases
 - Notification available for new tool updates
 - Customer content additions
 - Windows 10 Pro and Enterprise on Surface Hub 2S

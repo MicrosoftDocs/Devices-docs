@@ -15,7 +15,7 @@ ms.service: surface
 
 **Permanently reduced vision that can't be corrected with glasses, contact lenses, medicine, or surgery.**
 
-The term “low vision” covers a broad spectrum of visual abilities. It's best to think of low vision in terms of function rather than numbers. Low vision is uncorrectable vision that interferes with daily activities. It can include blurriness, missing portions of visual field such as loss of central vision, peripheral vision, blind spots, or a combination of factors that affect quality of vision. While low vision may not completely prevent someone from seeing, they may have difficulty perceiving and interpreting information. Avoiding a reliance on vision alone can help reduce eyestrain and improve ease of access for simple tasks.
+The term “low vision” covers a broad spectrum of visual abilities. It's best to think of low vision in terms of function rather than numbers. Low vision is uncorrectable vision that interferes with daily activities. It can include blurriness, missing portions of visual field such as loss of central vision, peripheral vision, blind spots, or a combination of factors that affect quality of vision. While low vision can't completely prevent someone from seeing, they may have difficulty perceiving and interpreting information. Avoiding a reliance on vision alone can help reduce eyestrain and improve ease of access for simple tasks.
 
 Low vision can be caused by eye diseases such as cataracts, glaucoma, diabetes, macular degeneration, and other diseases.
 
@@ -39,7 +39,7 @@ Low vision can be caused by eye diseases such as cataracts, glaucoma, diabetes, 
 
 BARRIER — Text of a certain size or contrast level may be unreadable for someone.
 
-:::image type="content" source="images/vision-lowvision-facilitator.jpg" alt-text="The woman smiles as she looks at a settings screen on the tablet. She is increasing the display size so the content will look bigger.":::
+:::image type="content" source="images/vision-lowvision-facilitator.jpg" alt-text="Screenshot of a person smiling as they look at a settings screen on the tablet. They're increasing the display size so the content looks bigger.":::
 
 FACILITATOR — Using settings, the user can adjust the size and contrast of screen content to meet their needs. 
 
