@@ -16,7 +16,7 @@ appliesto:
 
 # Tested peripherals for Surface devices
 
-Surface engineering tests various external monitors, docks, cables, and adapters to bring you the best experience on select new Surface devices, starting with Surface Pro 9. See the tables on this page for tested peripherals across port connections including Surface Connect, USB-C, Display Port, HDMI, and Thunderbolt.
+Surface engineering tests various external monitors, docks, cables, and adapters to bring you the best experience on select new Surface devices, starting with Surface Pro 9. See the tables on this page for tested peripherals across port connections including Surface Connect, USB-C, DisplayPort, HDMI, and Thunderbolt.
 
 > [!NOTE]
 > The testing results shown here cover popular in-market peripherals but are not intended to be comprehensive. Based on our research, we estimate that customers will have a generally positive experience with these peripherals. Still, many peripherals not shown here may function as expected.
@@ -40,7 +40,7 @@ Surface engineering tests various external monitors, docks, cables, and adapters
 
 ### Tested monitors for Surface Laptop Studio 2
 
-| Monitor                                 | USB-C | Display Port | Thunderbolt | HDMI |
+| Monitor                                 | USB-C | DisplayPort | Thunderbolt | HDMI |
 |-----------------------------------------|-------|--------------|-------------|------|
 | **Designed for Surface: ViewSonic VG245** | ✓     | ✓            |             | ✓    |
 | **Designed for Surface: ViewSonic VG275** | ✓     | ✓            |             | ✓    |
@@ -78,23 +78,23 @@ Surface engineering tests various external monitors, docks, cables, and adapters
 
 ### Tested cables for Surface Laptop Studio 2
 
-| Cable                                                                                          | USB-C to USB-C | USB4 to USB4                                                     | Thunderbolt to Thunderbolt                                                                                                 | USB-C to Display Port                                                                       | USB-C to HDMI                                                           |
+| Cable                                                                                          | USB-C to USB-C | USB4 to USB4                                                     | Thunderbolt to Thunderbolt                                                                                                 | USB-C to DisplayPort                                                                       | USB-C to HDMI                                                           |
 |------------------------------------------------------------------------------------------------|----------------|-------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|-----------------------------------------------------------------------|
 | j5Create USB-C Cable (JUCX04)                                                                  | ✓              |                                                                   |                                                                                                                            |                                                                                             |                                                                       |
 | **Designed for Surface:** Cable Matters USB4 40 Gbps Cable 3.3 ft (201504-BLK-1m)              |                | ✓                                                                 |                                                                                                                            |                                                                                             |                                                                       |
 | StarTech.com 0.8m/2.7ft Thunderbolt 3 to Thunderbolt 3 Cable (TBLT34MM80CM)                    |                |                                                                   | ✓                                                                                                                          |                                                                                             |                                                                       |
 | Plugable Thunderbolt 3 Cable 40 Gbps Supports 100 W (TBT3-40G80CM)                             |                |                                                                   | ✓                                                                                                                          |                                                                                             |                                                                       |
 | **Designed for Surface:** Cable Matters USB-C to DisplayPort 1.4 Cable - six Feet (201536-BLK-6) |                |                                                                   |                                                                                                                            | ✓                                                                                           |                                                                       |
-| **Designed for Surface:** Moshi USB-C to Display Port Cable (99MO084102)                       |                |                                                                   |                                                                                                                            | ✓                                                                                           |                                                                       |
+| **Designed for Surface:** Moshi USB-C to DisplayPort Cable (99MO084102)                       |                |                                                                   |                                                                                                                            | ✓                                                                                           |                                                                       |
 | **Designed for Surface:** Cable Matters USB-C to 8K HDMI Cable - 6 ft / 1.8 m (201562-BLK-6)   |                |                                                                   |                                                                                                                            |                                                                                             | ✓                                                                     |
 
 ### Tested adapters for Surface Laptop Studio 2
 
-| Adapter                                                             | USB-C to Display Port | USB-C to HDMI |
+| Adapter                                                             | USB-C to DisplayPort | USB-C to HDMI |
 |---------------------------------------------------------------------|-----------------------|---------------|
-| Microsoft USB-C to Display Port Adapter                             | ✓                     |               |
-| Cable Matters USB-C to Display Port Adapter (201086)                | ✓                     |               |
-| Club-3D USB-C to Display Port Adapter (CAC-1507)                    | ✓                     |               |
+| Microsoft USB-C to DisplayPort Adapter                             | ✓                     |               |
+| Cable Matters USB-C to DisplayPort Adapter (201086)                | ✓                     |               |
+| Club-3D USB-C to DisplayPort Adapter (CAC-1507)                    | ✓                     |               |
 | Microsoft USB-C to HDMI Adapter (1857)                              |                       | ✓             |
 
 ## Surface Go 4
@@ -163,7 +163,7 @@ Surface engineering tests various external monitors, docks, cables, and adapters
 
 ### Tested monitors for Surface Pro 9
 
-| Monitor                | USB-C | Display Port | Thunderbolt | HDMI |
+| Monitor                | USB-C | DisplayPort | Thunderbolt | HDMI |
 |------------------------|-------|--------------|-------------|------|
 | ASUS PA247CV           | ✓     |              |             |      |
 | ASUS PA278CV           | ✓     |              |             |      |
@@ -182,7 +182,7 @@ Surface engineering tests various external monitors, docks, cables, and adapters
 
 ### Tested monitors for Surface Pro 9 with 5G
 
-| Monitor                | USB-C | Display Port | HDMI |
+| Monitor                | USB-C | DisplayPort | HDMI |
 |------------------------|-------|--------------|------|
 | ASUS PA247CV           | ✓     | ✓            |      |
 | Dell C2422HE           | ✓     | ✓            |      |
@@ -223,35 +223,35 @@ Surface engineering tests various external monitors, docks, cables, and adapters
 
 ### Tested cables for Surface Pro 9
 
-| Cable                               | USB-C to USB-C | Thunderbolt to Thunderbolt                   | Display Port                                       | USB-C to Display Port                         | HDMI to HDMI          |
+| Cable                               | USB-C to USB-C | Thunderbolt to Thunderbolt                   | DisplayPort                                       | USB-C to DisplayPort                         | HDMI to HDMI          |
 |-------------------------------------|----------------|----------------------------------------------|----------------------------------------------------|-----------------------------------------------|-----------------------|
 | j5Create USB-C Cable                | ✓              |                                              |                                                    |                                               |                       |
 | Cable Matters 107032-BLK-0.8m       |                | ✓                                            |                                                    |                                               |                       |
 | SIIG CB-TB0011-S1                   |                | ✓                                            |                                                    |                                               |                       |
-| CableMatters Display Port Cable     |                |                                              | ✓                                                  |                                               |                       |
-| Club 3D Display Port Cable          |                |                                              | ✓                                                  |                                               |                       |
-| Monoprice Display Port Cable        |                |                                              | ✓                                                  |                                               |                       |
-| **Designed for Surface:** Moshi USB-C to Display Port Cable (99MO084102) |                |                                              |                                                    | ✓                                             |                       |
+| CableMatters DisplayPort Cable     |                |                                              | ✓                                                  |                                               |                       |
+| Club 3D DisplayPort Cable          |                |                                              | ✓                                                  |                                               |                       |
+| Monoprice DisplayPort Cable        |                |                                              | ✓                                                  |                                               |                       |
+| **Designed for Surface:** Moshi USB-C to DisplayPort Cable (99MO084102) |                |                                              |                                                    | ✓                                             |                       |
 | BlueRigger HDMI Cable               |                |                                              |                                                    |                                               | ✓                     |
 
 ### Tested cables for Surface Pro 9 with 5G
 
-| Cable                               | USB-C to USB-C | Display Port to Display Port                 | USB-C to Display Port                         | HDMI to HDMI          |
+| Cable                               | USB-C to USB-C | DisplayPort to DisplayPort                 | USB-C to DisplayPort                         | HDMI to HDMI          |
 |-------------------------------------|----------------|----------------------------------------------|-----------------------------------------------|-----------------------|
 | j5Create USB-C Cable                | ✓              |                                              |                                               |                       |
-| CableMatters Display Port Cable     |                | ✓                                            |                                               |                       |
-| Club 3D Display Port Cable          |                | ✓                                            |                                               |                       |
-| Monoprice Display Port Cable        |                | ✓                                            |                                               |                       |
-| **Designed for Surface:** Moshi USB-C to Display Port Cable (99MO084102) |                |                                              | ✓                                             |                       |
+| CableMatters DisplayPort Cable     |                | ✓                                            |                                               |                       |
+| Club 3D DisplayPort Cable          |                | ✓                                            |                                               |                       |
+| Monoprice DisplayPort Cable        |                | ✓                                            |                                               |                       |
+| **Designed for Surface:** Moshi USB-C to DisplayPort Cable (99MO084102) |                |                                              | ✓                                             |                       |
 | BlueRigger HDMI Cable               |                |                                              |                                               | ✓                     |
 
 ### Tested adapters for Surface Pro 9 & Surface Pro 9 with 5G
 
-|| Adapter                                                     | USB-C to Display Port | USB-C to HDMI |
+|| Adapter                                                     | USB-C to DisplayPort | USB-C to HDMI |
 |-------------------------------------------------------------|-----------------------|---------------|
-| Microsoft USB-C to Display Port Adapter                     | ✓                     |               |
-| CableMatters USB-C to Display Port Adapter (201086)          | ✓                     |               |
-| Club-3D USB-C to Display Port Adapter (CAC-1507)            | ✓                     |               |
+| Microsoft USB-C to DisplayPort Adapter                     | ✓                     |               |
+| CableMatters USB-C to DisplayPort Adapter (201086)          | ✓                     |               |
+| Club-3D USB-C to DisplayPort Adapter (CAC-1507)            | ✓                     |               |
 | Microsoft USB-C to HDMI Adapter (1857)                      |                       | ✓             |
 
 ## Surface Thunderbolt 4 Dock
@@ -261,11 +261,11 @@ Surface Thunderbolt 4 Dock has been tested extensively with popular in-market pe
 ### Tested monitors for Surface Thunderbolt 4 Dock
 
 > [!NOTE]
-> We designed Surface Thunderbolt 4 Dock as the optimal dock for Surface devices with USB4®/Thunderbolt™ 4 support. The Thunderbolt 4 connection on a host device supports two 4K external displays at up to 60 Hz (when supported by display).
+> We designed Surface Thunderbolt 4 Dock as the optimal dock for Surface devices with USB4/Thunderbolt 4 support. The Thunderbolt 4 connection on a host device supports two 4K external displays at up to 60 Hz (when supported by display).
 
 For devices without USB4/Thunderbolt 4 support, the USB-C connection supports one 4-K external display at up to 60 Hz (when supported by display). For more information on which Surface devices have USB4/Thunderbolt 4 support, see [What's new in Surface Thunderbolt 4 Dock](surface-dock-whats-new.md).
 
-| Monitor                                 | Thunderbolt | USB-C | Display Port | HDMI |
+| Monitor                                 | Thunderbolt | USB-C | DisplayPort | HDMI |
 |-----------------------------------------|-------------|-------|--------------|------|
 | AOC-U27N3C                              | ✓           |       |              |      |
 | Apple-Pro Display XDR 32'               | ✓           |       |              |      |
@@ -305,7 +305,7 @@ For devices without USB4/Thunderbolt 4 support, the USB-C connection supports on
 
 ### Tested adapters for Surface Thunderbolt 4 Dock
 
-| Adapter                                                | USB-C to Display Port | USB-C to HDMI | USB-C to USB-A | USB-C to Micro-B USB |
+| Adapter                                                | USB-C to DisplayPort | USB-C to HDMI | USB-C to USB-A | USB-C to Micro-USB |
 |--------------------------------------------------------|-----------------------|---------------|----------------|----------------------|
 | MSFT USB-C to DP Adapter                               | ✓                     |               |                |                      |
 | MSFT USB-C Travel Hub                                  | ✓                     | ✓             |                |                      |
