@@ -89,21 +89,29 @@ Surface engineering tests various external monitors, docks, cables, and adapters
 
 ### Tested monitors for Surface Go 4
 
-- Dell U2719D
-- Dell P2419H
-- Dell U2720Q
-- HP X24iH
-- LG 27GN950-B
+| Monitor       | HDMI | DisplayPort | USB-C | VGA | USB 3.0 |
+|---------------|------|-------------|-------|-----|---------|
+| Dell U2719D   | ✓    | ✓           |       |     | ✓       |
+| Dell P2419H   | ✓    | ✓           |       | ✓   |         |
+| Dell U2720Q   | ✓    | ✓           | ✓     |     |         |
+| HP X24iH      | ✓    | ✓           |       |     |         |
+| LG 27GN950-B  | ✓    | ✓           |       |     |         |
+
 
 ### Tested docks for Surface Go 4
 
-- Surface Dock 1
-- Surface Dock 2
-- Surface Thunderbolt 4 Dock (supports [one external monitor](surface-dock-whats-new.md) for Surface Go 4)
-- **Designed for Surface:** Kensington SD4845P
-- Dell WD19S 180W Dock
-- Plugable Docking Station (UD-ULTCDL)
-- Targus DOCK430USZ
+| Dock                                                        | Thunderbolt | USB-C | HDMI | DisplayPort | Surface Connect |
+| ----------------------------------------------------------- | ----------- | ----- | ---- | ----------- | --------------- |
+| Surface Thunderbolt 4 Dock (supports [one external monitor](surface-dock-whats-new.md) for Surface Go 4)                                 | ✓           |       |      |             |                 |
+| Designed for Surface: Kensington SD4845P Thunderbolt 4 Dock | ✓           |       |      |             |                 |
+| Targus DOCK430USZ:                                          | ✓           | ✓     | ✓    | ✓           |                 |
+| Dell WD19S 180W Dock                                        |             | ✓     | ✓    | ✓           |                 |
+| Plugable Docking Station (UD-ULTCDL)                        |             | ✓     | ✓    |             |                 |
+| Surface Dock 2                                              |             |       |      |             | ✓               |
+| Surface Dock 1                                              |             |       |      |             | ✓               |
+
+
+ 
 
 ## Surface Laptop Go 3
 
@@ -117,15 +125,27 @@ Surface engineering tests various external monitors, docks, cables, and adapters
 - Lenovo C32q-20
 - Lenovo L27i-30
 
+| Monitor       | HDMI | DisplayPort | USB-C | VGA | USB 3.0 |
+|---------------|------|-------------|-------|-----|---------|
+| Dell U2719D   | ✓    | ✓           |       |     | ✓       |
+| Dell P2419H   | ✓    | ✓           |       | ✓   |         |
+| Dell U2720Q   | ✓    | ✓           | ✓     |     |         |
+| HP X24iH      | ✓    | ✓           |       |     |         |
+| LG 27GN950-B  | ✓    | ✓           |       |     |         |
+
+
 ### Tested docks for Surface Laptop Go 3
 
-- Surface Dock 1
-- Surface Dock 2
-- Surface Thunderbolt 4 Dock (supports [one external monitor](surface-dock-whats-new.md) for Surface Laptop Go 3)
-- **Designed for Surface:** Kensington SD4845P
-- Dell WD19S 180W Dock
-- Plugable Docking Station (UD-ULTCDL)
-- Targus DOCK430USZ
+| Dock                                                        | Thunderbolt | USB-C | HDMI | DisplayPort | Surface Connect |
+| ----------------------------------------------------------- | ----------- | ----- | ---- | ----------- | --------------- |
+| Surface Thunderbolt 4 Dock (supports [one external monitor](surface-dock-whats-new.md) for Surface Laptop Go 3)                                 | ✓           |       |      |             |                 |
+| Designed for Surface: Kensington SD4845P Thunderbolt 4 Dock | ✓           |       |      |             |                 |
+| Targus DOCK430USZ:                                          | ✓           | ✓     | ✓    | ✓           |                 |
+| Dell WD19S 180W Dock                                        |             | ✓     | ✓    | ✓           |                 |
+| Plugable Docking Station (UD-ULTCDL)                        |             | ✓     | ✓    |             |                 |
+| Surface Dock 2                                              |             |       |      |             | ✓               |
+| Surface Dock 1                                              |             |       |      |             | ✓               |
+
 
 ## Surface Pro 9 & Surface Pro 9 with 5G
 
