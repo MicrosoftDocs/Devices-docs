@@ -1,6 +1,6 @@
 ---
 title: Tested peripherals for new Surface devices
-description: This page lists the results of extensive testing for external monitors, docks, cables, and adapters for Surface Laptop Studio 2, Surface Laptop Go 3, Surface Go 4, Surface Pro 9, Surface Pro 9 with 5G, and Surface Thunderbolt 4 Dock.
+description: This Positive Experience List for Surface devices shows the results of extensive testing for external monitors, docks, cables, and adapters for Surface Laptop Studio 2, Surface Laptop Go 3, Surface Go 4, Surface Pro 9, Surface Pro 9 with 5G, and Surface Thunderbolt 4 Dock.
 ms.service: surface
 ms.localizationpriority: medium
 author: coveminer
@@ -16,7 +16,7 @@ appliesto:
 
 # Tested peripherals for Surface devices
 
-Surface engineering tests various external monitors, docks, cables, and adapters to bring you the best experience on select new Surface devices, starting with Surface Pro 9. See the tables on this page for tested peripherals across port connections including Surface Connect, USB-C, DisplayPort, HDMI, and Thunderbolt.
+As part of the Positive Experience List (PEL) initiative, Surface engineering tests various external monitors, docks, cables, and adapters to bring you the best experience on select new Surface devices, starting with Surface Pro 9. See the tables on this page for tested peripherals across port connections including Surface Connect, USB-C, DisplayPort, HDMI, and Thunderbolt.
 
 > [!NOTE]
 > The testing results shown here cover popular in-market peripherals but are not intended to be comprehensive. Based on our research, we estimate that customers will have a generally positive experience with these peripherals. Still, many peripherals not shown here may function as expected.
