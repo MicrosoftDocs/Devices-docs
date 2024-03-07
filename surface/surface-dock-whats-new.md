@@ -29,11 +29,11 @@ As the latest generation Surface dock, [Surface Thunderbolt™ 4 Dock](https://w
 
 Surface Thunderbolt 4 Dock helps improve IT efficiency and reduce overhead and support costs through optimization for Microsoft software.
 
-- **Surface Enterprise Management Mode (SEMM) for Dock**. Designed to quickly lock down the ports of your dock in mission-critical environments and restrict functionality to specific devices, enabling organizations to simplify and secure IT management. For more information, see [Secure Surface Dock ports with Surface Enterprise Management Mode](/surface/secure-surface-dock-ports-semm).
+- **Surface Enterprise Management Mode (SEMM) for Dock**. Designed to quickly lock down the ports of your dock in mission-critical environments and restrict functionality to specific devices, enabling organizations to simplify and secure IT management. For more information, see [Secure Surface Dock ports with Surface Enterprise Management Mode](secure-surface-dock-ports-semm.md).
 - **Firmware updates through Windows Update**. Seamlessly keep your dock up to date with automatic updates or downloadable update driver and firmware packs.
 - **MAC Address Passthrough.** [<sup>6</sup>](#references)Maintain device network identity from one dock to another for ease of management in shared workspaces or dock environments.
 - **Wake-on-LAN from Modern Standby.** IT admins can remotely wake up devices connected to Surface Thunderbolt 4 Dock and automatically perform management tasks.
-- **Windows Management Instrumentation (WMI) support**. IT admins can remotely monitor and manage the latest firmware, policy settings, and related data across Surface Thunderbolt 4 Dock devices. For more information, see [Manage Surface Dock with WMI](/surface/surface-dock-wmi).
+- **Windows Management Instrumentation (WMI) support**. IT admins can remotely monitor and manage the latest firmware, policy settings, and related data across Surface Thunderbolt 4 Dock devices. For more information, see [Manage Surface Dock with WMI](surface-dock-wmi.md).
 - **Centralized support & warranty service**. IT admins can get direct support via the [Surface Management Portal](surface-management-portal.md) or [Microsoft Hardware Support Portal](https://admin.microsoft.com/adminportal/home).
 
 ## General system requirements
@@ -94,7 +94,7 @@ Surface Thunderbolt 4 Dock is compatible with the following Surface devices with
 
 ## Cable Matters Desk Mount for Microsoft Surface Thunderbolt 4 Dock
 
-Optimize port access, save desk space and use enhanced security capabilities with the [Cable Matters Mount,](https://licensedhardware.azurewebsites.net/surface/product/c33868fb-00d3-ed11-9ac4-281878fc277c/cable-matters-desk-mount-for-microsoft-surface-thunderbolt-4-dock) purpose-built for Surface Thunderbolt 4 Dock and Designed for Surface certified.
+Optimize port access, save desk space and use enhanced security capabilities with the [Cable Matters Mount,](https://www.cablematters.com/pc-1544-189-designed-for-surface-cable-matters-desk-mount-for-microsoft-surface-thunderbolt-4-dock.aspx) purpose-built for Surface Thunderbolt 4 Dock and Designed for Surface certified.
 
 - Facilitates single-handed interaction with Microsoft Surface Thunderbolt 4 Dock
 - Improves port access through stabilization
@@ -146,7 +146,7 @@ To daisy chain monitors, you need two or more monitors that support at least **D
 ## Place an order
 
 - [Surface Thunderbolt 4 Dock](https://www.microsoft.com/d/surface-thunderbolt-4-dock-for-business/8svnb0c8j1qw)
-- [Cable Matters Desk Mount for Microsoft Surface Thunderbolt 4 Dock](https://licensedhardware.azurewebsites.net/surface/product/c33868fb-00d3-ed11-9ac4-281878fc277c/cable-matters-desk-mount-for-microsoft-surface-thunderbolt-4-dock)
+- [Cable Matters Desk Mount for Microsoft Surface Thunderbolt 4 Dock](https://www.cablematters.com/pc-1544-189-designed-for-surface-cable-matters-desk-mount-for-microsoft-surface-thunderbolt-4-dock.aspx)
 
 ## Appendix: Surface Dock Thunderbolt 4 tech specs
 
@@ -166,7 +166,19 @@ To daisy chain monitors, you need two or more monitors that support at least **D
 
 | Issue               |  Remedy                 |
 |---------------------|------------------------|
-| Surface Thunderbolt 4 Dock does not fully enumerate with Surface Laptop 3 with AMD processor (System SKU: Surface_Laptop_3_1873), causing audio to fail. This issue only affects Surface Laptop 3 devices with an AMD processor. | Microsoft is actively looking to find a resolution to this issue. | 
+| Surface Thunderbolt 4 Dock does not fully enumerate with Surface Laptop 3 with AMD processor (System SKU: Surface_Laptop_3_1873), causing audio to fail. This issue only affects Surface Laptop 3 devices with an AMD processor. | Microsoft is actively looking to find a resolution to this issue. |
+
+### Appendix
+
+| Feature                          | Surface Thunderbolt 4                           | Surface Dock 2                                  | USB-C Travel Adapter Hub                                |
+|----------------------------------|-------------------------------------------------|-------------------------------------------------|---------------------------------------------------------|
+| **Connection Type/Protocol**     | Thunderbolt 4                                   | Surflink USB Gen 2 + DP 1.4 HBR3               | USB 3.2 Gen 2 Type-C MFDP                               |
+| **Display Support**              | 2x 4K UltraHD @ 60Hz on any 2 of 3 USB-C ports  | 2x 4K UltraHD @ 60Hz on two rear side USB-C ports | 1x HDMI UltraHD @ 60Hz or 1x VGA QuadHD @ 60Hz          |
+| **USB Ports**                    | 3x USB-A with USB 3.2 Gen 2 (10Gbps)            | 2x USB-A with USB 3.2 Gen 2 (10Gbps)           | 1x USB-A and 1x USB-C with USB 3.2 Gen 2 (10Gbps)        |
+| **Ethernet Support**             | 2.5 Giga Ethernet                               | Giga Ethernet                                   | Giga Ethernet                                            |
+| **Audio Jack**                   | 3.5mm with stereo output and mic input          | 3.5mm with stereo output and mic input         | N/A                                                      |
+| **Charging Power**               | USB PD 3.0 with 60W charging rate               | 120W Surflink charging                          | N/A                                                      |
+| **Device Trust**                 | Only trusted devices can access USB data transfer | Only trusted devices can access USB data transfer | N/A                                                      |
 
 ### Learn more
 
@@ -187,7 +199,7 @@ To daisy chain monitors, you need two or more monitors that support at least **D
 7. Surface Thunderbolt 4 Dock is supported on Surface Laptop 3 with Intel processor (System SKU: Surface_Laptop_3_1867:1868). For Surface Laptop 3 with AMD processor (System SKU: Surface_Laptop_3_1873), refer to [Known issues](#known-issues) on this page.
 8. Software license required for some features. Sold separately.
 9. 4K @ 60 Hz via USB-C requires High Bit Rate 3 (HBR3) support on both display and host computer.
-10. Learn more at [Cable Matters Desk Mount for Microsoft Surface Thunderbolt 4 Dock](https://licensedhardware.azurewebsites.net/surface/product/c33868fb-00d3-ed11-9ac4-281878fc277c/cable-matters-desk-mount-for-microsoft-surface-thunderbolt-4-dock).
+10. Learn more at [Cable Matters Desk Mount for Microsoft Surface Thunderbolt 4 Dock](https://www.cablematters.com/pc-1544-189-designed-for-surface-cable-matters-desk-mount-for-microsoft-surface-thunderbolt-4-dock.aspx).
 11. Surface Enterprise Management Mode for Dock and MAC address passthrough are available on select host devices and supported operating systems.
 12. Ocean-bound plastic is plastic waste recovered from oceans and waterways, cleaned, and processed into recycled plastic resin pellets. These recycled pellets are blended in with virgin plastic during the manufacturing process.
 13. Microsoft’s Limited Warranty is in addition to your consumer law rights.
