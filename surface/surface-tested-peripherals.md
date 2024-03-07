@@ -28,12 +28,12 @@ Surface engineering tests various external monitors, docks, cables, and adapters
 
 | Device                     | Tested Monitors            | Tested Docks              | Tested Cables             | Tested Adapters           |
 |----------------------------|----------------------------|---------------------------|---------------------------|---------------------------|
-| Surface Laptop Studio 2    | [Monitors](#surface-laptop-studio-2-monitors) | [Docks](#surface-laptop-studio-2-docks) | [Cables](#surface-laptop-studio-2-cables) | [Adapters](#surface-laptop-studio-2-adapters) |
-| Surface Go 4               | [Monitors](#surface-go-4-monitors)           | [Docks](#surface-go-4-docks)           |  n/a                         |  n/a                         |
-| Surface Laptop Go 3        | [Monitors](#surface-laptop-go-3-monitors)    | [Docks](#surface-laptop-go-3-docks)    |  n/a                         |  n/a                         |
-| Surface Pro 9              | [Monitors](#surface-pro-9-monitors)          | [Docks](#surface-pro-9-docks)          | [Cables](#surface-pro-9-cables) | [Adapters](#surface-pro-9-adapters) |
-| Surface Pro 9 with 5G      | [Monitors](#surface-pro-9-with-5g-monitors)  | [Docks](#surface-pro-9-with-5g-docks)  | [Cables](#surface-pro-9-with-5g-cables) | [Adapters](#surface-pro-9-with-5g-adapters) |
-| Surface Thunderbolt 4 Dock | [Monitors](#surface-thunderbolt-4-dock-monitors) |   n/a                        | [Cables](#surface-thunderbolt-4-dock-cables) | [Adapters](#surface-thunderbolt-4-dock-adapters) |
+| Surface Laptop Studio 2    | [Monitors](#tested-monitors-for-surface-laptop-studio-2) | [Docks](#tested-docks-for-surface-laptop-studio-2) | [Cables](#tested-cables-for-surface-laptop-studio-2) | [Adapters](#tested-adapters-for-surface-laptop-studio-2) |
+| Surface Go 4               | [Monitors](#tested-monitors-for-surface-go-4)           | [Docks](#tested-docks-for-surface-go-4)           |  n/a                         |  n/a                         |
+| Surface Laptop Go 3        | [Monitors](#tested-monitors-for-surface-laptop-go-3)    | [Docks](#tested-docks-for-surface-laptop-go-3)    |  n/a                         |  n/a                         |
+| Surface Pro 9              | [Monitors](#tested-monitors-for-surface-pro-9)          | [Docks](#tested-docks-for-surface-pro-9)          | [Cables](#tested-cables-for-surface-pro-9 | [Adapters](#tested-adapters-for-surface-pro-9) |
+| Surface Pro 9 with 5G      | [Monitors](#tested-monitors-for-surface-pro-9-with-5g)  | [Docks](#tested-docks-for-surface-pro-9-with-5g)  | [Cables](#tested-cables-for-surface-pro-9-with-5g) | [Adapters](#tested-adapters-for-surface-pro-9-with-5g) |
+| Surface Thunderbolt 4 Dock | [Monitors](#tested-monitors-for-surface-thunderbolt-4-dock) |   n/a                        | [Cables](#tested-cables-for-surface-thunderbolt-4-dock) | [Adapters](#tested-adapters-for-surface-thunderbolt-4-dock) |
 
 
 ## Surface Laptop Studio 2
