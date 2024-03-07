@@ -24,6 +24,18 @@ Surface engineering tests various external monitors, docks, cables, and adapters
 > [!TIP]
 > For the best experience, be sure to get the latest updates. To manage your options and see available updates, select  **Start > Settings > Windows Update**.
 
+## Testing matrix
+
+| Device                     | Tested Monitors            | Tested Docks              | Tested Cables             | Tested Adapters           |
+|----------------------------|----------------------------|---------------------------|---------------------------|---------------------------|
+| Surface Laptop Studio 2    | [Monitors](#surface-laptop-studio-2-monitors) | [Docks](#surface-laptop-studio-2-docks) | [Cables](#surface-laptop-studio-2-cables) | [Adapters](#surface-laptop-studio-2-adapters) |
+| Surface Go 4               | [Monitors](#surface-go-4-monitors)           | [Docks](#surface-go-4-docks)           |  n/a                         |  n/a                         |
+| Surface Laptop Go 3        | [Monitors](#surface-laptop-go-3-monitors)    | [Docks](#surface-laptop-go-3-docks)    |  n/a                         |  n/a                         |
+| Surface Pro 9              | [Monitors](#surface-pro-9-monitors)          | [Docks](#surface-pro-9-docks)          | [Cables](#surface-pro-9-cables) | [Adapters](#surface-pro-9-adapters) |
+| Surface Pro 9 with 5G      | [Monitors](#surface-pro-9-with-5g-monitors)  | [Docks](#surface-pro-9-with-5g-docks)  | [Cables](#surface-pro-9-with-5g-cables) | [Adapters](#surface-pro-9-with-5g-adapters) |
+| Surface Thunderbolt 4 Dock | [Monitors](#surface-thunderbolt-4-dock-monitors) |   n/a                        | [Cables](#surface-thunderbolt-4-dock-cables) | [Adapters](#surface-thunderbolt-4-dock-adapters) |
+
+
 ## Surface Laptop Studio 2
 
 ### Tested monitors for Surface Laptop Studio 2
