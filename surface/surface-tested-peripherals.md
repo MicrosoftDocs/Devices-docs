@@ -63,8 +63,8 @@ As part of the Positive Experience List (PEL) initiative, Surface engineering te
 
 | Dock                                                      | Thunderbolt | USB-C | Surface Connect |
 |-----------------------------------------------------------|-------------|-------|-----------------|
-| Surface Thunderbolt 4 Dock                                | ✓           |       |                 |
-| Designed for Surface: Kensington SD4845P Thunderbolt 4 Dock | ✓           |       |                 |
+| Surface Thunderbolt 4 Dock                                | ✓           |      |                 |
+| Designed for Surface: Kensington SD4845P Thunderbolt 4 Dock | ✓           |      |                 |
 | Designed for Surface: Kensington SD5750T Thunderbolt 4 Dock | ✓           |       |                 |
 | Plugable TBT4 UDZ                                         | ✓           |       |                 |
 | Dell WD22TB4                                              | ✓           |       |                 |
@@ -186,27 +186,31 @@ As part of the Positive Experience List (PEL) initiative, Surface engineering te
 
 ### Tested docks for Surface Pro 9
 
-| Dock                                                    | Surface Connect | USB-C | Thunderbolt |
-|---------------------------------------------------------|-----------------|-------|-------------|
-| Surface Dock 1                                          | ✓               |       |             |
-| Surface Dock 2                                          | ✓               |       |             |
-| Dell WD19DC                                             |                 | ✓     |             |
-| Plugable ULT-CDL                                        |                 | ✓     |             |
-| Surface Thunderbolt 4 Dock                              |                 |       | ✓           |
-| Cal Digit TS3 Thunderbolt Station 3                     |                 |       | ✓           |
-| Dell WD19TB                                             |                 |       | ✓           |
-| Kensington SD5700T Thunderbolt 4 Dock                   |                 |       | ✓           |
-| Lenovo ThinkPad Thunderbolt 3 Dock Gen 2 - Model# DK1841 |                 |       | ✓           |
+| Dock                                                      | Thunderbolt | USB-C | Surface Connect |
+|-----------------------------------------------------------|-------------|-------|-----------------|
+| Surface Thunderbolt 4 Dock                                | ✓           |       |                 |
+| Designed for Surface: Kensington SD4845P Thunderbolt 4 Dock | ✓           |       |                 |
+| Designed for Surface: Kensington SD5750T Thunderbolt 4 Dock | ✓           |       |                 |
+| Plugable TBT4 UDZ                                         | ✓           |       |                 |
+| Dell WD22TB4                                              | ✓           |       |                 |
+| Dell WD19TB                                               | ✓           |       |                 |
+| Dell U22                                                  |             | ✓     |                 |
+| Dell WD19S                                                |             | ✓     |                 |
+| Plugable ULT CDL                                          |             | ✓     |                 |
+| Surface Dock 2                                            |             |       | ✓               |
+| Surface Dock 1 (slow charging is possible)                |             |       | ✓               |
+
 
 ### Tested docks for Surface Pro 9 with 5G
 
-| Dock                     | Surface Connect | USB-C |
-|--------------------------|-----------------|-------|
-| Surface Dock 1           | ✓               |       |
-| Surface Dock 2           | ✓               |       |
-| Surface Thunderbolt 4 Dock |                 | ✓     |
-| Dell WD19DC              |                 | ✓     |
-| Plugable ULT-CDL         |                 | ✓     |
+| Dock                     | USB-C | Surface Connect |
+|--------------------------|-------|-----------------|
+| Surface Thunderbolt 4 Dock | ✓     |                 |
+| Dell WD19DC              | ✓     |                 |
+| Plugable ULT-CDL         | ✓     |                 |
+| Surface Dock 1           |       | ✓               |
+| Surface Dock 2           |       | ✓               |
+
 
 ### Tested cables for Surface Pro 9
 
