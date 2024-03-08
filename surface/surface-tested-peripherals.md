@@ -35,7 +35,6 @@ As part of the Positive Experience List (PEL) initiative, Surface engineering te
 | Surface Pro 9 with 5G      | [Monitors](#tested-monitors-for-surface-pro-9-with-5g)  | [Docks](#tested-docks-for-surface-pro-9-with-5g)  | [Cables](#tested-cables-for-surface-pro-9-with-5g) | [Adapters](#tested-adapters-for-surface-pro-9--surface-pro-9-with-5g) |
 | Surface Thunderbolt 4 Dock | [Monitors](#tested-monitors-for-surface-thunderbolt-4-dock) |   n/a                        | [Cables](#tested-cables-for-surface-thunderbolt-4-dock) | [Adapters](#tested-adapters-for-surface-thunderbolt-4-dock) |
 
-
 ## Surface Laptop Studio 2
 
 ### Tested monitors for Surface Laptop Studio 2
@@ -109,7 +108,6 @@ As part of the Positive Experience List (PEL) initiative, Surface engineering te
 | HP X24iH      | ✓    | ✓           |       |     |         |
 | LG 27GN950-B  | ✓    | ✓           |       |     |         |
 
-
 ### Tested docks for Surface Go 4
 
 | Dock                                                        | Thunderbolt | USB-C | HDMI | DisplayPort | Surface Connect |
@@ -122,20 +120,9 @@ As part of the Positive Experience List (PEL) initiative, Surface engineering te
 | Surface Dock 2                                              |             |       |      |             | ✓               |
 | Surface Dock 1                                              |             |       |      |             | ✓               |
 
-
- 
-
 ## Surface Laptop Go 3
 
 ### Tested monitors for Surface Laptop Go 3
-
-- Dell U2719D
-- Dell P2419H
-- Dell U2720Q
-- HP X24iH
-- LG 27GN950-B
-- Lenovo C32q-20
-- Lenovo L27i-30
 
 | Monitor       | HDMI | DisplayPort | USB-C | VGA | USB 3.0 |
 |---------------|------|-------------|-------|-----|---------|
@@ -144,7 +131,8 @@ As part of the Positive Experience List (PEL) initiative, Surface engineering te
 | Dell U2720Q   | ✓    | ✓           | ✓     |     |         |
 | HP X24iH      | ✓    | ✓           |       |     |         |
 | LG 27GN950-B  | ✓    | ✓           |       |     |         |
-
+| Lenovo C32q-20| ✓    | ✓           |       |     |         |
+| Lenovo L27i-30 | ✓    |            |       |  ✓   |         |
 
 ### Tested docks for Surface Laptop Go 3
 
@@ -157,7 +145,6 @@ As part of the Positive Experience List (PEL) initiative, Surface engineering te
 | Plugable Docking Station (UD-ULTCDL)                        |             | ✓     | ✓    |             |                 |
 | Surface Dock 2                                              |             |       |      |             | ✓               |
 | Surface Dock 1                                              |             |       |      |             | ✓               |
-
 
 ## Surface Pro 9 & Surface Pro 9 with 5G
 
@@ -247,12 +234,12 @@ As part of the Positive Experience List (PEL) initiative, Surface engineering te
 
 ### Tested adapters for Surface Pro 9 & Surface Pro 9 with 5G
 
-|| Adapter                                                     | USB-C to DisplayPort | USB-C to HDMI |
-|-------------------------------------------------------------|-----------------------|---------------|
-| Microsoft USB-C to DisplayPort Adapter                     | ✓                     |               |
-| CableMatters USB-C to DisplayPort Adapter (201086)          | ✓                     |               |
-| Club-3D USB-C to DisplayPort Adapter (CAC-1507)            | ✓                     |               |
-| Microsoft USB-C to HDMI Adapter (1857)                      |                       | ✓             |
+| Adapter                                             | USB-C to DisplayPort | USB-C to HDMI |
+|-----------------------------------------------------|----------------------|---------------|
+| Microsoft USB-C to DisplayPort Adapter              | ✓                    |               |
+| Cable Matters USB-C to DisplayPort Adapter (201086) | ✓                    |               |
+| Club-3D USB-C to DisplayPort Adapter (CAC-1507)    | ✓                    |               |
+| Microsoft USB-C to HDMI Adapter (1857)             |                      | ✓             |
 
 ## Surface Thunderbolt 4 Dock
 
