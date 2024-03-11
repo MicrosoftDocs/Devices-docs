@@ -12,7 +12,7 @@ appliesto:
 - Surface Hub 3
 ---
 
-# Deploy Surface Hub 3 with Windows Autopilot & Teams Rooms Autologin
+# Deploy Surface Hub 3 with Windows Autopilot & Auto-login of Teams Rooms 
 
 ## Introduction
 
@@ -120,3 +120,4 @@ Setting up Teams Rooms Autologin on Surface Hub 3 devices significantly enhances
 ## Learn more
 
 - [Surface Hub support coming for Windows Autopilot](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/surface-hub-support-coming-for-windows-autopilot/ba-p/3977848)
+- [Microsoft Teams Rooms and Devices: Microsoft Ignite 2023](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-teams-rooms-and-devices-microsoft-ignite-2023/ba-p/3975581)
