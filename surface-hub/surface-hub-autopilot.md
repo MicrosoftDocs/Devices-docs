@@ -1,6 +1,6 @@
 ---
-title: "Deploy Surface Hub 3 with Windows Autopilot & Teams Rooms Autologin"
-description: "This page provides a roadmap for deploying Surface Hub 3 using Windows Autopilot and Teams Rooms Autologin."
+title: "Deploy Surface Hub 3 with Windows Autopilot & Teams Rooms Auto-login"
+description: "This page provides a roadmap for deploying Surface Hub 3 using Windows Autopilot and Teams Rooms Auto-login."
 ms.service: surface-hub
 author: coveminer
 ms.author: chauncel
@@ -20,7 +20,7 @@ In the evolving landscape of digital workplaces, the efficiency of setting up an
 
 For the Surface Hub 3, Windows Autopilot brings a set of unique advantages. As a state-of-the-art collaborative device, the Surface Hub 3 requires a seamless integration into corporate environments to fully leverage its capabilities for enhancing teamwork. Windows Autopilot streamlines this integration, allowing IT professionals to pre-configure devices without ever needing to physically handle them. This not only saves valuable time but also ensures that each Surface Hub 3 is configured consistently and securely, adhering to organizational policies right out of the box.
 
-The benefits of using Windows Autopilot for Surface Hub 3 extend beyond just simplification. It introduces a level of agility and flexibility in device management that is crucial for today's dynamic work environments. From automatically joining devices to Microsoft Entra ID (formerly Azure AD) or Active Directory (via Hybrid Azure AD Join), to enrolling them in Microsoft Endpoint Manager (Intune), Autopilot sets the stage for a modern management approach. This ensures that Surface Hub 3 devices are always up to date, secure, and ready to facilitate seamless collaboration through features like Teams Rooms Autologin.
+The benefits of using Windows Autopilot for Surface Hub 3 extend beyond just simplification. It introduces a level of agility and flexibility in device management that is crucial for today's dynamic work environments. From automatically joining devices to Microsoft Entra ID (formerly Azure AD) or Active Directory (via Hybrid Azure AD Join), to enrolling them in Microsoft Endpoint Manager (Intune), Autopilot sets the stage for a modern management approach. This ensures that Surface Hub 3 devices are always up to date, secure, and ready to facilitate seamless collaboration through features like Teams Rooms Auto-login.
  
 ## Overview of Windows Autopilot for Surface Hub 3
 
@@ -74,40 +74,40 @@ Ensure that your network is configured to allow devices to access the necessary 
 - **Deployment profiles**: Determine the settings and configurations that will be applied to your Surface Hub 3 devices. Create deployment profiles in Microsoft Endpoint Manager, specifying aspects like language, region, and whether users should be allowed to personalize their devices.
 - **User roles and permissions**: Decide which users will have administrative rights on the devices and configure these settings accordingly.
 
-## Setting up Teams Rooms Autologin
+## Setting up Teams Rooms Auto-login
 
-Integrating Surface Hub 3 devices into the collaborative ecosystem of an organization involves ensuring they are ready to facilitate seamless meetings. A key component of this readiness is configuring Teams Rooms to support Autologin, allowing for an effortless start to meetings without manual sign-ins. This setup is crucial for organizations looking to maximize the efficiency and usability of their collaborative spaces.
+Integrating Surface Hub 3 devices into the collaborative ecosystem of an organization involves ensuring they are ready to facilitate seamless meetings. A key component of this readiness is configuring Teams Rooms to support Auto-login, allowing for an effortless start to meetings without manual sign-ins. This setup is crucial for organizations looking to maximize the efficiency and usability of their collaborative spaces.
 
-### Understanding Teams Rooms Autologin
+### Understanding Teams Rooms Auto-login
 
-Teams Rooms Autologin enables the Surface Hub 3 to automatically sign into a Microsoft Teams Rooms account upon startup. This functionality ensures that the device is immediately ready for use in a Teams meeting, minimizing setup time and improving the user experience. To achieve this, specific configuration steps must be followed during the deployment process.
+Teams Rooms Auto-login enables the Surface Hub 3 to automatically sign into a Microsoft Teams Rooms account upon startup. This functionality ensures that the device is immediately ready for use in a Teams meeting, minimizing setup time and improving the user experience. To achieve this, specific configuration steps must be followed during the deployment process.
 
-### Configuring Autologin for Teams Rooms
+### Configuring Auto-login for Teams Rooms
 
 The setup process involves several key steps, executed through the Microsoft Endpoint Manager (Intune), ensuring that each Surface Hub 3 is configured to meet the organization's requirements for Teams meetings.
 
 > [!TIP]
-> This section provides an overview of Autologin for Teams Rooms. For detailed guidance, see **Add link here to Teams Rooms documentation**. 
+> This section provides an overview of Auto-login for Teams Rooms. For detailed guidance, see **Add link here to Teams Rooms documentation**. 
 
 1. **Create a Configuration profile**:
     - In the Microsoft Endpoint Manager Admin Center, navigate to **Devices** > **Configuration profiles** > **Create profile**.
     - Select **Windows 10 and later** as the platform and **Custom** as the profile type.
-    - Enter a meaningful name for the profile, such as "Teams Rooms Autologin Configuration".
+    - Enter a meaningful name for the profile, such as "Teams Rooms Auto-login Configuration".
 2. **Configure profile settings**:
-    - Add the necessary configuration settings that enable Autologin. This typically involves specifying the Teams Rooms account credentials and configuring the device to use these credentials for automatic sign-in.
+    - Add the necessary configuration settings that enable Auto-login. This typically involves specifying the Teams Rooms account credentials and configuring the device to use these credentials for automatic sign-in.
     - Ensure that the settings adhere to your organization's security policies, especially regarding credential storage and management.
 3. **Assign the profile**:
     - Assign the newly created configuration profile to your Surface Hub 3 devices. This can be done based on groups, ensuring that only devices designated as Teams Rooms receive this configuration.
     - Monitor the profile deployment to ensure it is successfully applied to the devices.
-4. **Test the Autologin functionality**:
-    - After the profile is applied, test the Autologin functionality on a Surface Hub 3 device. Verify that the device automatically signs into the Teams Rooms account without requiring manual input.
+4. **Test the Auto-login functionality**:
+    - After the profile is applied, test the Auto-login functionality on a Surface Hub 3 device. Verify that the device automatically signs into the Teams Rooms account without requiring manual input.
     - Ensure that the device can successfully initiate and join Teams meetings.
 
 ### Security considerations
 
-When configuring Teams Rooms Autologin, it's essential to balance convenience with security. Consider the following:
+When configuring Teams Rooms Auto-login, it's essential to balance convenience with security. Consider the following:
 
-- **Credential management**: Securely manage the credentials used for Autologin, ensuring they are protected against unauthorized access.
+- **Credential management**: Securely manage the credentials used for Auto-login, ensuring they are protected against unauthorized access.
 - **Device access**: Implement measures to prevent unauthorized use of the Surface Hub 3, such as physical security controls and device lockdown policies.
 
 ### Best practices
@@ -115,7 +115,7 @@ When configuring Teams Rooms Autologin, it's essential to balance convenience wi
 - **Regularly update credentials**: Change the Teams Rooms account credentials periodically to enhance security.
 - **Monitor device activity**: Keep an eye on the usage of Teams Rooms-enabled devices to detect any unusual activity or unauthorized access attempts.
 
-Setting up Teams Rooms Autologin on Surface Hub 3 devices significantly enhances the meeting room experience by reducing setup times and streamlining the start of meetings. 
+Setting up Teams Rooms Auto-login on Surface Hub 3 devices significantly enhances the meeting room experience by reducing setup times and streamlining the start of meetings. 
 
 ## Learn more
 
