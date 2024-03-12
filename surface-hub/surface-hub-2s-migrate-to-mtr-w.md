@@ -259,6 +259,34 @@ When overseeing the migration process on Surface Hub 2S, pay attention to specif
 - Verify that the Surface Hub 2S devices are correctly enrolled and online.
 - Consider verifying whether another Store for Business offline-licensed application can be remotely deployed to Surface Hub 2S devices.
 
+### Manual removal of migrated Surface Hub devices from Teams Admin Center (Legacy Tab)
+
+After migrating your Surface Hub 2S, you need to manually remove the device listing from the Teams Admin Center to avoid potential conflicts and ensure accurate device management. This step is necessary because the migration process does not automatically update the device management listings in the Teams Admin Center.
+
+### Symptoms
+
+- Migrated Surface Hub devices still appear in the Teams Admin Center under the Surface Hubs (Legacy) tab, despite having completed the migration process.
+- Potential confusion or administrative difficulties due to the presence of legacy device listings in the Teams Admin Center.
+
+### Resolution steps
+
+To resolve this issue and ensure that your device management reflects the current state of your Surface Hub devices, follow the steps below:
+
+1. **Navigate to Teams Admin Center**:
+   - Open your web browser and go to the [Teams Admin Center](https://admin.teams.microsoft.com).
+   - Sign in with your admin credentials.
+2. **Access the Surface Hubs (Legacy) Tab**:
+   - In the Teams Admin Center, find and select the **Devices** section from the sidebar.
+   - Select **Surface Hubs** category to expand it.
+   - Navigate to the **Surface Hubs (Legacy)** tab.
+3. **Manually remove the migrated device**:
+   - Locate the row corresponding to the migrated Surface Hub device.
+   - Use the provided options or selection boxes to select the device listing you wish to remove.
+   - Select **Delete** to manually remove the device's row from the list.
+4. **Verification**:
+   - Refresh the page or navigate away and then back to the **Surface Hubs (Legacy)** tab to ensure that the device has been successfully removed.
+   - Verify that the migrated device is now correctly managed under the appropriate tab for Teams Rooms devices, if applicable.
+
 ## Post-migration configuration
 
 Review the following articles for recommended next steps:
