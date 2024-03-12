@@ -225,16 +225,7 @@ This might take a few minutes, depending on network connectivity or other factor
 
 ### Manual removal of migrated Surface Hub devices from Teams Admin Center (Legacy Tab)
 
-After migrating your Surface Hub 2S, you need to manually remove the device listing from the Teams Admin Center to avoid potential conflicts and ensure accurate device management. This step is necessary because the migration process does not automatically update the device management listings in the Teams Admin Center.
-
-### Symptoms
-
-- Migrated Surface Hub devices still appear in the Teams Admin Center under the Surface Hubs (Legacy) tab, despite having completed the migration process.
-- Potential confusion or administrative difficulties due to the presence of legacy device listings in the Teams Admin Center.
-
-### Resolution steps
-
-To resolve this issue and ensure that your device management reflects the current state of your Surface Hub devices, follow the steps below:
+After migrating your Surface Hub 2S, you need to manually remove the device listing from the Teams Admin Center to avoid potential conflicts and ensure accurate device management. 
 
 1. **Navigate to Teams Admin Center**:
    - Open your web browser and go to the [Teams Admin Center](https://admin.teams.microsoft.com).
