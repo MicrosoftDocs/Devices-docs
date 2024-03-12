@@ -240,12 +240,10 @@ To resolve this issue and ensure that your device management reflects the curren
    - Open your web browser and go to the [Teams Admin Center](https://admin.teams.microsoft.com).
    - Sign in with your admin credentials.
 2. **Access the Surface Hubs (Legacy) Tab**:
-   - In the Teams Admin Center, find and select the **Devices** section from the sidebar.
-   - Select **Surface Hubs** category to expand it.
-   - Navigate to the **Surface Hubs (Legacy)** tab.
+   - In the Teams Admin Center, select  **Teams devices** > **Surface Hubs (Legacy)**.
 3. **Manually remove the migrated device**:
-   - Locate the row corresponding to the migrated Surface Hub device.
-   - Select **Delete** to manually remove the device's row from the list.
+   - Locate the row corresponding to the migrated Surface Hub device and select the device.
+   - Select **Remove** to manually remove the device's row from the list.
 4. **Verification**:
    - Refresh the page or navigate away and then back to the **Surface Hubs (Legacy)** tab to ensure that the device has been successfully removed.
    - Verify that the migrated device is now correctly managed under the appropriate tab for Teams Rooms devices, if applicable.
