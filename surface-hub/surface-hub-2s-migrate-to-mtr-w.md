@@ -245,7 +245,6 @@ To resolve this issue and ensure that your device management reflects the curren
    - Navigate to the **Surface Hubs (Legacy)** tab.
 3. **Manually remove the migrated device**:
    - Locate the row corresponding to the migrated Surface Hub device.
-   - Use the provided options or selection boxes to select the device listing you wish to remove.
    - Select **Delete** to manually remove the device's row from the list.
 4. **Verification**:
    - Refresh the page or navigate away and then back to the **Surface Hubs (Legacy)** tab to ensure that the device has been successfully removed.
