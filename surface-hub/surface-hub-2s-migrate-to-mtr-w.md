@@ -225,7 +225,7 @@ This might take a few minutes, depending on network connectivity or other factor
 
 ### Manual removal of migrated Surface Hub devices from Teams Admin Center (Legacy Tab)
 
-After migrating your Surface Hub 2S, you need to manually remove the device listing from the Teams Admin Center to avoid potential conflicts and ensure accurate device management. 
+After migrating your Surface Hub 2S to the Microsoft Teams Rooms on Windows platform, you need to manually remove the device listing from the "Surface Hubs (Legacy)" section of Teams Admin Center. This will thereafter enable the device to show up properly under the "Teams Rooms on Windows" section and enable accurate device management.
 
 1. **Navigate to Teams Admin Center**:
    - Open your web browser and go to the [Teams Admin Center](https://admin.teams.microsoft.com).
@@ -237,8 +237,17 @@ After migrating your Surface Hub 2S, you need to manually remove the device list
    - Select **Remove** to manually remove the device's row from the list.
 4. **Verification**:
    - Refresh the page or navigate away and then back to the **Surface Hubs (Legacy)** tab to ensure that the device has been successfully removed.
-   - Verify that the migrated device is now correctly managed under the appropriate tab for Teams Rooms devices, if applicable.
+   - Verify that the migrated device is now correctly managed under the appropriate tab for Teams Rooms devices, if applicable. This may take up to 12 hours to happen, but will happen automatically.
    
+## Post-migration configuration
+
+Review the following articles for recommended next steps:
+
+- [Get started with Surface Hub 3](surface-hub-3-get-started.md)
+- [First-time setup for Surface Hub 3](first-run-program-surface-hub-3.md)
+- [Surface Hub 3 security best practices](surface-hub-3-security.md)
+- [Install Windows Bloom wallpaper on Surface Hub 3](install-wallpaper-surface-hub.md)
+
 ## Troubleshooting
 
 ### Quick checks
@@ -279,12 +288,3 @@ When overseeing the migration process on Surface Hub 2S, pay attention to specif
 - If the Migration Launcher app fails to deploy, check any error messages in the Intune console.
 - Verify that the Surface Hub 2S devices are correctly enrolled and online.
 - Consider verifying whether another Store for Business offline-licensed application can be remotely deployed to Surface Hub 2S devices.
-
-## Post-migration configuration
-
-Review the following articles for recommended next steps:
-
-- [Get started with Surface Hub 3](surface-hub-3-get-started.md)
-- [First-time setup for Surface Hub 3](first-run-program-surface-hub-3.md)
-- [Surface Hub 3 security best practices](surface-hub-3-security.md)
-- [Install Windows Bloom wallpaper on Surface Hub 3](install-wallpaper-surface-hub.md)
