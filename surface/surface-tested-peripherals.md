@@ -28,12 +28,70 @@ As part of the Positive Experience List (PEL) initiative, Surface engineering te
 
 | Device                     | Tested Monitors            | Tested Docks              | Tested Cables             | Tested Adapters           |
 |----------------------------|----------------------------|---------------------------|---------------------------|---------------------------|
+| Surface Laptop 6   | [Monitors](#tested-monitors-for-surface-laptop-6) | [Docks](#tested-docks-for-surface-laptop-6) | [Cables](#tested-cables-for-surface-laptop-6) | n/a|
+| Surface Pro 10              | [Monitors](#tested-monitors-for-surface-pro-10)          | [Docks](#tested-docks-for-surface-pro-10)          | [Cables](#tested-cables-for-surface-pro-10) | [Adapters](#tested-adapters-for-surface-pro-9--surface-pro-9-with-5g) |
 | Surface Laptop Studio 2    | [Monitors](#tested-monitors-for-surface-laptop-studio-2) | [Docks](#tested-docks-for-surface-laptop-studio-2) | [Cables](#tested-cables-for-surface-laptop-studio-2) | [Adapters](#tested-adapters-for-surface-laptop-studio-2) |
 | Surface Go 4               | [Monitors](#tested-monitors-for-surface-go-4)           | [Docks](#tested-docks-for-surface-go-4)           |  n/a                         |  n/a                         |
 | Surface Laptop Go 3        | [Monitors](#tested-monitors-for-surface-laptop-go-3)    | [Docks](#tested-docks-for-surface-laptop-go-3)    |  n/a                         |  n/a                         |
 | Surface Pro 9              | [Monitors](#tested-monitors-for-surface-pro-9)          | [Docks](#tested-docks-for-surface-pro-9)          | [Cables](#tested-cables-for-surface-pro-9) | [Adapters](#tested-adapters-for-surface-pro-9--surface-pro-9-with-5g) |
 | Surface Pro 9 with 5G      | [Monitors](#tested-monitors-for-surface-pro-9-with-5g)  | [Docks](#tested-docks-for-surface-pro-9-with-5g)  | [Cables](#tested-cables-for-surface-pro-9-with-5g) | [Adapters](#tested-adapters-for-surface-pro-9--surface-pro-9-with-5g) |
 | Surface Thunderbolt 4 Dock | [Monitors](#tested-monitors-for-surface-thunderbolt-4-dock) |   n/a                        | [Cables](#tested-cables-for-surface-thunderbolt-4-dock) | [Adapters](#tested-adapters-for-surface-thunderbolt-4-dock) |
+
+
+## Surface Laptop 6
+
+### Tested monitors for Surface Laptop 6
+
+| Monitor                                 | USB-C | DisplayPort | Thunderbolt | HDMI |
+|-----------------------------------------|-------|--------------|-------------|------|
+| **Designed for Surface: ViewSonic VG245** | ✓     | ✓            |             | ✓    |
+| **Designed for Surface: ViewSonic VG275** | ✓     | ✓            |             | ✓    |
+| **Designed for Surface: ViewSonic VP275-4K** | ✓     | ✓            |             | ✓    |
+| Acer ##SB220Q                      |       | ✓            |             | ✓    |
+| Asus VG279QM                            |       | ✓            |             |      |
+| Asus ##VG279QM                            |       | ✓            |             |      |
+| Asus ##VG279QM                            |       | ✓            |             |      |
+| Asus ##VG279QM                            |       | ✓            |             |      |
+| Dell C2422HE                            | ✓     |              |             |      |
+| Dell P2419Hc                            | ✓     | ✓            |             | ✓    |
+| Dell P2720DC                            | ✓     |              |             |      |
+| Dell P2721Q                             | ✓     |              |             |      |
+| Dell U2720Q                             | ✓     |              |             |      |
+| Dell U3219Q                             | ✓     | ✓            |             | ✓    |
+| Dell U3421WE                            | ✓     | ✓            |             | ✓    |
+| HP ##OMEN 27i                                |       | ✓            |             |      |
+| HP X24iH                                |       | ✓            |             |      |
+| Lenovo ##C32q-20                                |       | ✓            |             |      |
+| Lenovo ##L27i-30                                |       | ✓            |             |      |
+| LG ##27GN950-B                                |       | ✓            |             |      |
+| LG ##34GN850-B                               |       | ✓            |             |      |
+| Samsung LF32TU87                        | ✓     | ✓            | ✓           | ✓    |
+| Samsung **LS34C654VANXGO**                       | ✓     | ✓            | ✓           | ✓    |
+| Viewsonic **VA2447-MH**                     | ✓     | ✓            |             | ✓    |
+
+### Tested docks for Surface Laptop 6
+
+| Dock                                                      | Thunderbolt | USB-C | Surface Connect |
+|-----------------------------------------------------------|-------------|-------|-----------------|
+| Surface Thunderbolt 4 Dock                                | ✓           |      |                 |
+| Designed for Surface: ##Brydge Stone Pro TB4 Dock (DFS) Dock | ✓           |       |                 |
+| Designed for Surface: Kensington SD4845P Thunderbolt 4 Dock | ✓           |      |                 |
+| Designed for Surface: Kensington SD5750T Thunderbolt 4 Dock | ✓           |       |                 |
+| Dell ##Dock WD19DC USB-C                                             | ✓           |       |                 |
+| Dell ##WD19S 180W Dock                                           | ✓           |       |                 |
+| Dell ##UD22 USB-C Dock                                                |             | ✓     |                 |
+| Dell ##WD22TB4 Dock                                               |             | ✓     |                 |
+| Surface Dock 2                                            |             |       | ✓               |
+| Surface Dock 1 (##slow charging is possible)                |             |       | ✓               |
+| Plugable TBT4 UDZ                                         | ✓           |       |                 |
+
+### Tested cables for Surface Laptop 6
+
+| Cable                                                                                          | USB-C to USB-C | USB4 to USB4                                                     | Thunderbolt to Thunderbolt                                                                                                 | USB-C to DisplayPort                                                                       | USB-C to HDMI                                                           |
+|------------------------------------------------------------------------------------------------|----------------|-------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|-----------------------------------------------------------------------|
+| **Designed for Surface:** Cable Matters USB4 40 Gbps Cable 3.3 ft ##(201504-BLK-1m)              |                | ✓                                                                 |                                                                                                                            |                                                                                             |                                                                       |
+| **Designed for Surface:** Cable Matters USB-C to DisplayPort 1.4 Cable - six Feet ##(201536-BLK-6) |                |                                                                   |                                                                                                                            | ✓                                                                                           |                                                                       |
+| **Designed for Surface:** Cable Matters USB-C to 8K HDMI Cable - 6 ft / 1.8 m ##(201562-BLK-6)   |                |                                                                   |                                                                                                                            |                                                                                             | ✓                                                                     |
 
 ## Surface Laptop Studio 2
 
