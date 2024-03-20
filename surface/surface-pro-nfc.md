@@ -77,7 +77,7 @@ NFC on Surface Pro 10 supports the use of FIDO2.0 keys, for secure authenticatio
 
 The following FIDO2.0 keys are supported and recommended for use:
 
-- **YubiKey**: A versatile security key for high-assurance multifactor authentication.
+- **YubiKey**: Offers a portfolio of NFC security keys that support a broad set of security protocols. 
 - **Identiv**: Offers a range of security solutions, including FIDO2 security keys.
 - **Thetis**: Provides FIDO2 certified security keys designed for secure access.
 - **Token2 Card:** A compact and portable security key option.
@@ -112,7 +112,7 @@ The following table includes supported non-FIDO NFC keys, listing various types 
 
 End users can directly disable NFC via device settings.
 
-1. Go to **Settings** > **Network & Internet** and select **NFC**.
+1. Go to **Settings** > **Network & Internet** > **Airplane modoe** and select **NFC**.
 2. Adjust the Toggle switch to turn it off.
 
 ### Disable NFC via firmware
@@ -139,7 +139,7 @@ For a managed approach, IT admins can disable NFC using SEMM (Surface Enterprise
 
 **Is the NFC functionality different on Surface Pro 10 than Surface Go?**
 
-- NFC functionality on Surface Pro 10 includes support for more card readers. To learn more, see [NFC support in Surface Go for Business](surface-go-nfc-support.md).
+- NFC functionality on Surface Pro 10 includes support for more cards and tag types. To learn more, see [NFC support in Surface Go for Business](surface-go-nfc-support.md).
 
 ### References
 
