@@ -10,17 +10,16 @@ ms.date: 03/21/2024
 ms.reviewer: chauncel
 manager: frankbu
 appliesto:
-- Windows 10
 - Windows 11
 ---
 
 # NFC support in Surface Pro 10 for Business
 
-Near Field Communication (NFC) in Surface Pro 10<sup>1</sup> is designed to enhance security and convenience for users. It facilitates Azure Active Directory (AAD) and Microsoft Account (MSA) authentication via FIDO2.0 standards, enabling secure access and sign-in.
+Near Field Communication (NFC) in Surface Pro 10<sup>1</sup> is designed to enhance security and convenience for users. It facilitates Microsoft Entra ID (formerly Azure AD) and Microsoft Account (MSA) authentication via FIDO 2.0 standards, enabling secure access and sign-in. Additionally, Surface Pro 10 is capable of reading and writing NFC tags.
 
-Additionally, Surface Pro 10 is capable of reading and writing NFC tags. It can also read personal and financial information stored on the magnetic stripe of a bank card, such as a credit or debit card, (known as Track 1 and Track 2 data).
+Although it can read information stored on the magnetic stripe of a bank card, NFC on Surface Pro 10 doesn't support payment transactions. 
 
-NFC on Surface Pro 10 does not support payment transactions. We engineered NFC in Surface Pro 10 for enterprise customers where the primary applications of NFC technology extend to authentication, access control, and the exchange of information. These use cases are fundamental in environments that demand heightened security and streamlined operations, such as workplaces and educational institutions.
+We engineered NFC in Surface Pro 10 for enterprise customers where the primary applications of NFC technology extend to authentication, access control, and the exchange of information. These use cases are fundamental in environments that demand heightened security and streamlined operations, such as workplaces and educational institutions.
 
 ## Authenticate with NFC
 
@@ -34,24 +33,24 @@ The NFC reader is located in the upper left bezel of the device, under the displ
 
 ### Basic authentication
 
-- **Device authentication:** You can log into a device by simply tapping an NFC-enabled badge or key against its NFC reader. This method is compatible with devices that support NFC for authentication, including Windows Security Key login and various applications that offer Single Sign-On (SSO) capabilities.
-- **App authentication:** You can also log into both native and web applications in the same way, by tapping an NFC-enabled badge or key against the NFC reader. This is available for applications that use NFC for authentication, such as those integrating with Azure Active Directory (AAD) and Microsoft Account (MSA).
-- **Multi-factor authentication (MFA):** For additional security, you can use your NFC-enabled badge or key as a multi-factor authentication token. Just tap it against the NFC reader to securely access services and applications that support NFC keys, including AAD, MSA, and NFC-compatible applications.
+- **Device authentication:** You can log into a device by tapping an NFC-enabled badge or key against its NFC reader. This method is compatible with devices that support NFC for authentication, including Windows Security Key sign-in and various apps that offer single sign-on (SSO) capabilities.
+- **App authentication:** You can also log into both native and web apps in the same way, by tapping an NFC-enabled badge or key against the NFC reader. This functionality is available for apps that use NFC for authentication, such as apps integrating with Microsoft Entra ID and MSA.
+- **Multi-factor authentication (MFA):** For extra security, you can use your NFC-enabled badge or key as a multifactor authentication token. Just tap it against the NFC reader to securely access services and apps that support NFC keys, including Microsoft Entra ID, MSA, and NFC-compatible apps.
 
 ### Asset tracking
 
-- **Tag writing:** You have the ability to write to an NFC tag by tapping it on the NFC reader of the device, using software applications that support this feature.
-- **Tag reading:** You can read from an NFC tag by tapping it on the NFC reader of the device. While no additional applications are necessary to read the data from an NFC tag, there are applications available that might enhance this experience.
+- **Tag writing:** You have the ability to write to an NFC tag by tapping it on the NFC reader of the device, using software apps that support this feature.
+- **Tag reading:** You can read from an NFC tag by tapping it on the NFC reader of the device. While no other applications are necessary to read the data from an NFC tag, there are third-party solutions that might enhance this experience.
 
 ### ID Verification
 
-- **Bank card reading:** You can tap your NFC-enabled bank card against the device to read information from it. This functionality requires specific software applications capable of reading from bank cards and is supported by both the hardware and software in Surface Pro 10. However, a line of business application from your side is necessary to utilize this feature.
+- **Bank card reading:** You can tap your NFC-enabled bank card against the device to read information from it. This functionality requires specific software capable of reading from bank cards; specifically, a line of business application. (As indicated earlier, NFC on Surface Pro 10 can't process financial transactions.)
 
 ### NFC wayfinding support
 
-NFC wayfinding leverages the simplicity and convenience of NFC technology to improve how individuals interact with and navigate through physical spaces, making it a valuable tool for enhancing user experience, engagement, and accessibility. Common benefits of wayfinding include the following scenarios:
+NFC wayfinding takes advantage of the simplicity and convenience of NFC technology to improve how individuals  navigate through physical spaces. This functionality makes it a valuable tool to enhance user experience, engagement, and accessibility. Common benefits of wayfinding include the following scenarios:
 
-- **Navigation assistance:** NFC tags can be placed at key points within a building or outdoor area. For example, tapping your device against an NFC tag, can display a map, directions, or information relevant to your location, helping you navigate complex spaces like hospitals, museums, universities, or shopping centers.
+- **Navigation assistance:** NFC tags can be placed at key points within a building or outdoor area. For example, tapping your device against an NFC tag, can display a map, directions, or information about your location. This functionality can help you navigate complex spaces like hospitals, museums, universities, or shopping centers.
 - **Accessibility:** NFC wayfinding can improve accessibility for individuals with disabilities by providing audio directions, descriptive content, or tailored assistance based on the user's needs when they interact with NFC tags.
 - **Information access:** Beyond just directions, NFC wayfinding can offer detailed information about products in a store enhancing the visitor experience without the need for guided tours or physical brochures.
 - **Interactivity and engagement:** In entertainment or retail settings, NFC wayfinding can be used to create interactive experiences, encouraging visitors to explore different areas by tapping NFC tags to unlock content, rewards, or special offers.
@@ -75,16 +74,16 @@ Our NFC solution is compatible with a broad range of standards, ensuring it can 
 
 - **ISO/IEC 14443 A/B compliance:** Enables reading and writing to NFC Type 1, 2, and 4 tags, covering a wide array of use cases from access control to payment systems.
 - **JIS X 6319-4 compliance:** Supports Type 3 Tags, facilitating integration with devices and systems utilizing this standard.
-- **ISO/IEC 15693 compliance:** Extends capabilities to include Type 5 Tags, allowing for interactions with a broader range of tags including those that store iClass UID information, commonly used in identification badges.
-- **MIFARE compatibility:** Our solution also works seamlessly with the MIFARE encryption method, ensuring secure reading and coding for systems employing this widely-used standard.
+- **ISO/IEC 15693 compliance:** Extends capabilities to include Type 5 Tags, allowing for interactions with a broader range of tags including tags that store iClass UID information, commonly used in identification badges.
+- **MIFARE compatibility:** Our solution also works seamlessly with the MIFARE encryption method, ensuring secure reading and coding for systems using MIFARE.
 
 ### Supported tag types for secure authentication
 
-NFC on Surface Pro 10 supports the use of FIDO2.0 keys, for secure authentication across various platforms, including Windows, Azure Active Directory (AAD), and Microsoft Account (MSA). For passwordless sign-in options, we leverage Microsoft Entra's passwordless sign-in capabilities. To learn more about FIDO key integration with Microsoft Entra, see [Microsoft Entra passwordless sign-in](/entra/identity/authentication/concept-authentication-passwordless#fido2-security-keys)
+NFC on Surface Pro 10 supports the use of FIDO2.0 keys, for secure authentication across various platforms, including Windows, Microsoft Entra ID, and MSA. For passwordless sign-in options, we use Microsoft Entra's passwordless sign-in capabilities. To learn more about FIDO key integration with Microsoft Entra, see [Microsoft Entra passwordless sign-in.](/entra/identity/authentication/concept-authentication-passwordless#fido2-security-keys)
 
 The following FIDO2.0 keys are supported and recommended for use:
 
-- **YubiKey**: A versatile security key for high-assurance multi-factor authentication.
+- **YubiKey**: A versatile security key for high-assurance multifactor authentication.
 - **Identiv**: Offers a range of security solutions, including FIDO2 security keys.
 - **Thetis**: Provides FIDO2 certified security keys designed for secure access.
 - **Token2 Card:** A compact and portable security key option.
@@ -95,9 +94,9 @@ The following FIDO2.0 keys are supported and recommended for use:
 
 ## Non-FIDO NFC Keys
 
-The following table includes supported non-FIDO NFC keys, listing various types of NFC tags along with supported technology standards. These keys are not aligned with the FIDO (Fast Identity Online) Alliance standards but offer a range of functionality including reading and writing tags.
+The following table includes supported non-FIDO NFC keys, listing various types of NFC tags along with supported technology standards. These keys aren't aligned with the FIDO (Fast Identity Online) Alliance standards but offer a range of functionality including reading and writing tags.
 
-| **Name**                 | **Tag type** | **Compatible standards**                           |
+| Name                 | Tag type | Compatible standards                           |
 | ------------------------ | ------------ | -------------------------------------------------- |
 | Sony Felica Lite RC-S966 | F/3          | JIS X 6319-4                                       |
 | NXP ICODE SLI            | v/5          | ISO15693                                           |
@@ -105,10 +104,10 @@ The following table includes supported non-FIDO NFC keys, listing various types 
 | NXP NTAG210              | A/2          | ISO 14443                                          |
 | NXP NTAG 203             | A/2          | ISO 14443                                          |
 | NXP NTAG213              | A/2          | ISO 14443                                          |
-| MIFARE Ultralight        | A/2          | Iso 14443-2/ISO 14443-3                            |
+| MIFARE Ultralight        | A/2          | ISO 14443-2/ISO 14443-3                            |
 | MiFare DESFire           | A/4          | ISO 14443-4/ISO 14443-3/ISO 14443-2/ISO-IEC 7816-4 |
 | MIFARE DESFire EV1       | A/4          | ISO 14443-4/ISO 14443-3/ISO 14443-2/ISO-IEC 7816-4 |
-| MiFare Classic           | A            | Iso 14443-2/ISO 14443-3/ Mifare Classic            |
+| MiFare Classic           | A            | ISO 14443-2/ISO 14443-3/ Mifare Classic            |
 | Broadcomm Topaz 512      | A/1          | ISO 14443                                          |
 | Infineon Tech AG         | A/4          | ISO 7816, ISO 14443                                |
 | Samsung Java card        | A/4          | ISO 7816, ISO 14443                                |
@@ -138,7 +137,7 @@ For a managed approach, IT admins can disable NFC using SEMM (Surface Enterprise
 
 **Does the NFC feature support waking up the device from sleep mode?**
 
-- No, the current NFC technology does not support waking up the device from sleep mode. This means that the device must be awake and active for NFC interactions to occur.
+- No, the current NFC technology doesn't support waking up the device from sleep mode. Surface Pro 10 must be awake and active for NFC interactions to occur.
 
 **Do all Surface Pro devices support reading NFC?**
 
