@@ -28,7 +28,9 @@ landingContent:
           - text: Check out the new Surface devices
             url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/introducing-microsoft-surface-pro-10-and-surface-laptop-6-ai-pcs/ba-p/4090653
           - text: Tested peripherals for Surface Pro 10 & Laptop 6
-            url: surface-tested-peripherals.md 
+            url: surface-tested-peripherals.md
+          - text: NFC support in Surface Pro 10 for Business
+            url: surface-pro-nfc.md
           - text: Manage USB ports on Surface devices
             url: manage-usb-ports-on-surface.md     
           - text: Surface devices driver and firmware lifecycle 
