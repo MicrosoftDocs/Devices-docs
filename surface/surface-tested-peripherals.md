@@ -29,7 +29,7 @@ As part of the Positive Experience List (PEL) initiative, Surface engineering te
 | Device                     | Tested Monitors            | Tested Docks              | Tested Cables             | Tested Adapters           |
 |----------------------------|----------------------------|---------------------------|---------------------------|---------------------------|
 | Surface Laptop 6   | [Monitors](#tested-monitors-for-surface-laptop-6) | [Docks](#tested-docks-for-surface-laptop-6) | [Cables](#tested-cables-for-surface-laptop-6) |  |
-| Surface Pro 10              | [Monitors](#tested-monitors-for-surface-pro-10)          | [Docks](#tested-docks-for-surface-pro-10)          | [Cables](#tested-cables-for-surface-pro-10) | n/a |
+| Surface Pro 10              | [Monitors](#tested-monitors-for-surface-pro-10)          | [Docks](#tested-docks-for-surface-pro-10)          | [Cables](#tested-cables-for-surface-pro-10) | |
 | Surface Laptop Studio 2    | [Monitors](#tested-monitors-for-surface-laptop-studio-2) | [Docks](#tested-docks-for-surface-laptop-studio-2) | [Cables](#tested-cables-for-surface-laptop-studio-2) | [Adapters](#tested-adapters-for-surface-laptop-studio-2) |
 | Surface Go 4               | [Monitors](#tested-monitors-for-surface-go-4)           | [Docks](#tested-docks-for-surface-go-4)           |                          |                          |
 | Surface Laptop Go 3        | [Monitors](#tested-monitors-for-surface-laptop-go-3)    | [Docks](#tested-docks-for-surface-laptop-go-3)    |                          |                          |
