@@ -25,7 +25,7 @@ We engineered NFC in Surface Pro 10 for enterprise customers where the primary a
 
 The NFC reader is located in the upper left bezel of the device, under the display.
 
-- To authenticate, align your NFC card with the center of the Power button where the antenna is located.
+- To authenticate, align your NFC security key with the center of the Power button where the antenna is located.
 
 :::image type="content" source="images/surface-pro-nfc-tap.png" alt-text="Screenshot of NFC reader location on Surface Pro 10 for Business.":::
 
@@ -53,7 +53,6 @@ NFC wayfinding takes advantage of the simplicity and convenience of NFC technolo
 - **Navigation assistance:** NFC tags can be placed at key points within a building or outdoor area. For example, tapping your device against an NFC tag, can display a map, directions, or information about your location. This functionality can help you navigate complex spaces like hospitals, museums, universities, or shopping centers.
 - **Accessibility:** NFC wayfinding can improve accessibility for individuals with disabilities by providing audio directions, descriptive content, or tailored assistance based on the user's needs when they interact with NFC tags.
 - **Information access:** Beyond just directions, NFC wayfinding can offer detailed information about products in a store enhancing the visitor experience without the need for guided tours or physical brochures.
-- **Interactivity and engagement:** In entertainment or retail settings, NFC wayfinding can be used to create interactive experiences, encouraging visitors to explore different areas by tapping NFC tags to unlock content, rewards, or special offers.
 
 #### Custom lock-screen image
 
@@ -64,11 +63,6 @@ To help end users find the NFC reader on the device, a custom lock screen image 
 ## Supported NFC tag types & standards
 
 ### Supported standards
-
-- **ISO/IEC 14443 A/B compliance:** The NFC solution can read from and write to Type 1, 2 and 4 tags.
-- **JIS X 6319-4:** The NFC solution can read from and write to Type 3 Tags.
-- **ISO/IEC 15693 compliance:** The NFC solution can read and write to Type 5 Tags including iClass UID information.
-- **MIFARE compatibility:** The NFC solution is capable of reading and coding in conformity with the MIFARE encryption method.
 
 Our NFC solution is compatible with a broad range of standards, ensuring it can meet various operational needs:
 
