@@ -35,16 +35,10 @@ landingContent:
             url: manage-usb-ports-on-surface.md     
           - text: Surface devices driver and firmware lifecycle 
             url: surface-driver-firmware-lifecycle-support.md
-          - text: Surface accessories driver and firmware lifecycle
-            url: surface-accessories-driver-firmware-lifecycle-support.md
           - text: Surface IT portals
             url: surface-portals.md    
           - text: What's new in Surface Thunderbolt 4 Dock
             url: surface-dock-whats-new.md
-          - text: Surface Autopilot Cookbook for CSPs
-            url: surface-autopilot-cookbook.md
-          - text: Surface for Business service and repair
-            url: surface-service-and-repair.md  
           - text: Explore all Surface family products
             url: https://www.microsoft.com/surface/business
   
