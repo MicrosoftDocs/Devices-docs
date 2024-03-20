@@ -27,7 +27,7 @@ The NFC reader is located in the upper left bezel of the device, under the displ
 
 - To authenticate, align your NFC security key with the center of the Power button where the antenna is located.
 
-:::image type="content" source="images/surface-pro-nfc-tap.png" alt-text="Screenshot of NFC reader location on Surface Pro 10 for Business.":::
+:::image type="content" source="images/surface-pro-nfc-tap-example.png" alt-text="Screenshot of NFC reader location on Surface Pro 10 for Business.":::
 
 ## Supported end-user experiences
 
