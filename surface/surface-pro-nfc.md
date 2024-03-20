@@ -1,6 +1,6 @@
 ---
 title: NFC support in Surface Pro 10 for Business
-description: This article provides an overview and FAQ about NFC support in Pro 10 for Business devices.
+description: This article provides an overview and FAQ about NFC support in Surface Pro 10 for Business devices.
 ms.service: surface
 ms.localizationpriority: medium
 author: coveminer
@@ -27,6 +27,8 @@ NFC on Surface Pro 10 does not support payment transactions. We engineered NFC i
 The NFC reader is located in the upper left bezel of the device, under the display.
 
 - To authenticate, align your NFC card with the center of the Power button where the antenna is located.
+
+:::image type="content" source="images/surface-pro-nfc-tap.png" alt-text="Screenshot of NFC reader location on Surface Pro 10 for Business.":::
 
 ## Supported end-user experiences
 
@@ -57,6 +59,8 @@ NFC wayfinding leverages the simplicity and convenience of NFC technology to imp
 #### Custom lock-screen image
 
 To help end users find the NFC reader on the device, a custom lock screen image will be available to download and deploy to devices in your organization. See the following figure for an example.
+
+:::image type="content" source="images/nfc-lockscreen-example.png" alt-text="Screenshot showing an example of a custom lock screen image for Surface Pro 10 for Business.":::
 
 ## Supported NFC tag types & standards
 
@@ -120,13 +124,13 @@ End users can directly disable NFC via device settings.
 
 For a managed approach, IT admins can disable NFC using SEMM (Surface Enterprise Management Mode). SEMM allows IT admins to manage hardware features at the firmware level. With SEMM, you can enforce policies that disable NFC functionality, making it inaccessible regardless of software settings. To learn more, see [Surface Enterprise Management Mode (SEMM)](surface-enterprise-management-mode.md).
 
-## FAQ
+### FAQ
 
-### What is the operational range of the NFC reader?
+**What is the operational range of the NFC reader?**
 
 - The NFC reader is designed to function within a range of up to 15 millimeters along the z-axis. This close proximity ensures secure communication between the reader and NFC-enabled devices or tags.
 
-### Can the NFC reader operate independently of a keyboard?
+**Can the NFC reader operate independently of a keyboard?**
 
 - Yes, the NFC reader is designed to work seamlessly both with and without a keyboard across all supported operating systems and modes. This flexibility allows for a wide range of use cases and device configurations.
 
@@ -134,11 +138,11 @@ For a managed approach, IT admins can disable NFC using SEMM (Surface Enterprise
 
 - No, the current NFC technology does not support waking up the device from sleep mode. This means that the device must be awake and active for NFC interactions to occur.
 
-## Do all Surface Pro devices support reading NFC
+**Do all Surface Pro devices support reading NFC?**
 
 - No, currently NFC reader is only in Surface Pro 10 for Business and on Surface Go for Business devices.
 
-## Is the NFC functionality different on Surface Pro 10 than Surface Go?
+**Is the NFC functionality different on Surface Pro 10 than Surface Go?**
 
 - NFC functionality on Surface Pro 10 includes support for more card readers. To learn more, see  [NFC support in Surface Go for Business](surface-go-nfc-support.md).
 
