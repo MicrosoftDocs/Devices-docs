@@ -25,12 +25,12 @@ landingContent:
     linkLists:
       - linkListType: whats-new
         links:
-          - text: See the newest Surface devices
-            url: https://blogs.windows.com/devices/?p=263388 
+          - text: Check out the new Surface devices
+            url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/introducing-microsoft-surface-pro-10-and-surface-laptop-6-ai-pcs/ba-p/4090653
+          - text: Tested peripherals for Surface Pro 10 & Laptop 6
+            url: surface-tested-peripherals.md 
           - text: Manage USB ports on Surface devices
             url: manage-usb-ports-on-surface.md     
-          - text: Tested peripherals for new Surface devices
-            url: surface-tested-peripherals.md 
           - text: Surface devices driver and firmware lifecycle 
             url: surface-driver-firmware-lifecycle-support.md
           - text: Surface accessories driver and firmware lifecycle
