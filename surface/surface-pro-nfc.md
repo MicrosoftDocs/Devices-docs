@@ -113,6 +113,8 @@ The following table includes supported non-FIDO NFC keys, listing various types 
 | Infineon Tech AG         | A/4          | ISO 7816, ISO 14443                                |
 | Samsung Java card        | A/4          | ISO 7816, ISO 14443                                |
 
+## Manage NFC 
+
 ### Disable NFC via device settings
 
 End users can directly disable NFC via device settings.
@@ -144,7 +146,7 @@ For a managed approach, IT admins can disable NFC using SEMM (Surface Enterprise
 
 **Is the NFC functionality different on Surface Pro 10 than Surface Go?**
 
-- NFC functionality on Surface Pro 10 includes support for more card readers. To learn more, see  [NFC support in Surface Go for Business](surface-go-nfc-support.md).
+- NFC functionality on Surface Pro 10 includes support for more card readers. To learn more, see [NFC support in Surface Go for Business](surface-go-nfc-support.md).
 
 ### References
 
