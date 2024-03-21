@@ -44,15 +44,15 @@ conceptualContent:
     # Card 1
     - title: Surface overview
       links:
-        - url: https://www.microsoft.com/surface/business/surface-laptop-studio-2 
+        - url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/introducing-microsoft-surface-pro-10-and-surface-laptop-6-ai-pcs/ba-p/4090653
           itemType: concept
-          text: Surface Laptop Studio 2 for Business    
-        - url: https://www.microsoft.com/surface/business/surface-laptop-go-3 
+          text: Introducing Surface Pro 10 & Surface Laptop 6  
+        - url: /surface/surface-tested-peripherals.md  
           itemType: concept
-          text: Surface Laptop Go 3 for Business      
-        - url: https://www.microsoft.com/surface/business/surface-go-4        
+          text: Tested peripherals for new Surface devices     
+        - url: /surface/surface-pro-nfc   
           itemType: concept
-          text: Surface Go 4 for Business
+          text: NFC support in Surface Pro 10 for Business
 
         # Card 2
     - title: Surface Hub overview
