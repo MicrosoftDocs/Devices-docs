@@ -9,7 +9,7 @@ ms.author: chauncel
 ms.topic: how-to
 ms.date: 02/01/2021
 ms.localizationpriority: medium
-ms.custom: has-azure-ad-ps-ref
+ms.custom: has-azure-ad-ps-ref, azure-ad-ref-level-one-done
 appliesto:
 - Surface Hub
 ---
@@ -175,6 +175,8 @@ These are the attributes that are set by the scripts:
 </tr>
 </tbody>
 </table>
+
+[!INCLUDE [Azure AD PowerShell deprecation note](includes/aad-powershell-deprecation-note.md)]
 
 ## Account creation scripts
 
