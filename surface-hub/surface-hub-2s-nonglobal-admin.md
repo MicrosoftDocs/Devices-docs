@@ -8,7 +8,7 @@ manager: frankbu
 ms.topic: how-to
 ms.date: 11/15/2022
 ms.localizationpriority: Medium
-ms.custom: has-azure-ad-ps-ref
+ms.custom: has-azure-ad-ps-ref, azure-ad-ref-level-one-done
 appliesto:
 - Surface Hub
 - Surface Hub 2S
@@ -65,6 +65,8 @@ First, create a security group containing the admin accounts. Then create anothe
     ```powershell
     Connect-AzureAD
     ```
+
+    [!INCLUDE [Azure AD PowerShell deprecation note](includes/aad-powershell-deprecation-note.md)]
 
 4. When you're signed in to your tenant, run the following commandlet. It will prompt you to "Please type the Object ID of your Microsoft Entra group."
 
