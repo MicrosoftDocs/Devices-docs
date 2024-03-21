@@ -127,18 +127,14 @@ This section explains how to manually downgrade an individual Surface device to 
 
 In a commercial organization, IT admins can create a Windows 10 custom image with the appropriate BMR and drivers.
 
-1. **Download the Windows 10 BMR file**:
-   - Go to [Surface Recovery Image Download](https://support.microsoft.com/surface-recovery-image), sign in, and select your device from the dropdown list.
-   - Follow the instructions.
-
-2. **Download the Windows 10 MSI file**:
+1. **Download the Windows 10 MSI file**:
    - Go to [Manage & deploy Surface driver & firmware updates](/surface/manage-surface-driver-and-firmware-updates#download-msi-files) and select the appropriate MSI for your device.
    - Select **Download** to display the available MSI files for your device.
    - As an example, for Surface Laptop 5, select the MSI download for Windows 10 (look for **win10** in the file name) and select **Download**:
 
    :::image type="content" source="images/download-win10-msi-example.png" alt-text="Screenshot that shows selection of Windows 10 MSI file.":::
 
-3. Integrate drivers with the appropriate tool for your environment.
+3.  Integrate the MSI or the drivers/firmware from the MSI with the appropriate deployment tool for your environment.
 
    - Examples include: [Microsoft Endpoint Configuration Manager](/mem/configmgr) including [Microsoft Deployment Toolkit (MDT)](/mem/configmgr/mdt/), [PowerShell](/powershell/), [DISM - Deployment Image Servicing and Management](/windows-hardware/manufacture/desktop/dism---deployment-image-servicing-and-management-technical-reference-for-windows), or third-party solutions.
 
