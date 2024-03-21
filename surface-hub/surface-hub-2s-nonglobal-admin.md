@@ -66,7 +66,7 @@ First, create a security group containing the admin accounts. Then create anothe
     Connect-AzureAD
     ```
 
-    [!INCLUDE [Azure AD PowerShell deprecation note](~/../surface-hub/reusable-content/msgraph-powershell/includes/aad-powershell-deprecation-note.md)]
+    [!INCLUDE [Azure AD PowerShell deprecation note](includes/aad-powershell-deprecation-note.md)]
 
 4. When you're signed in to your tenant, run the following commandlet. It will prompt you to "Please type the Object ID of your Microsoft Entra group."
 

@@ -176,7 +176,7 @@ These are the attributes that are set by the scripts:
 </tbody>
 </table>
 
-[!INCLUDE [Azure AD PowerShell deprecation note](~/../surface-hub/reusable-content/msgraph-powershell/includes/aad-powershell-deprecation-note.md)]
+[!INCLUDE [Azure AD PowerShell deprecation note](includes/aad-powershell-deprecation-note.md)]
 
 ## Account creation scripts
 
