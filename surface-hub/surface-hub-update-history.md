@@ -21,6 +21,15 @@ Most Windows updates focus on performance and security improvements. In the foll
 
 ## Windows 10 Team 2022 Update (22H2)
 
+### March 1, 2024 - update for Surface Hub 2S
+
+This update is specific to the Surface Hub 2S and provides the driver and firmware updates outlined below:
+
+* Surface UEFI update - 699.866.768.0
+  * Addresses critical security vulnerability and improves system stability.
+* Surface Integration driver - 94.19.11.0
+  * Addresses data collection regulatory requirements.
+
 ### February 8, 2024 - update for Surface Hub 2S
 
 This update is specific to the Surface Hub 2S and provides the driver and firmware updates outlined below:
