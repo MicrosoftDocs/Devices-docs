@@ -1,12 +1,12 @@
 ---
 title: OS choice for new Surface devices
-description: This article describes how commercial customers can purchase new Surface for Business devices with Windows 10 or Windows 11. 
+description: This article describes options for commercial customers not ready to deploy Windows 11. 
 ms.service: surface
 ms.localizationpriority: medium
 author: coveminer
 ms.author: chauncel
 ms.topic: overview
-ms.date: 11/14/2023
+ms.date: 03/21/2024
 ms.reviewer: chauncel
 manager: frankbu
 appliesto:
@@ -90,7 +90,7 @@ Commercial customers can place orders for new devices via [authorized Microsoft 
 After March 31, 2024--when new devices will no longer ship with Windows 10 preinstalled--you can manually downgrade Windows Pro or Enterprise editions with a Surface Bare Metal Recovery (BMR) file designed for this purpose.
 
 - [Downgrade individual devices to Windows 10](#downgrade-individual-devices-to-windows-10)
-- [Automate downgrade of multiple devices](#automate-downgrade-of-multiple-devices-to-windows-10)
+- [Manage downgrade of multiple devices](#manage-downgrade-of-multiple-devices-to-windows-10)
 
 ### Licensing considerations
 
