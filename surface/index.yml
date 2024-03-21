@@ -47,7 +47,7 @@ conceptualContent:
         - url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/introducing-microsoft-surface-pro-10-and-surface-laptop-6-ai-pcs/ba-p/4090653
           itemType: concept
           text: Introducing Surface Pro 10 & Surface Laptop 6  
-        - url: /surface/surface-tested-peripherals.md  
+        - url: /surface/surface-tested-peripherals  
           itemType: concept
           text: Tested peripherals for new Surface devices     
         - url: /surface/surface-pro-nfc   
