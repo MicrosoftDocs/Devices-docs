@@ -31,30 +31,37 @@ If you're new to Autopilot, it's recommended to review the following articles:
 
 In addition, review the new guidance from Teams Rooms.  
 
-## Preparing for Autopilot deployment
+## How it works
+
+Windows Autopilot leverages Azure cloud services, including Microsoft Entra-ID (formerly known as Azure AD) and Microsoft Endpoint Manager (formerly known as Intune). This cloud-based approach to device management and deployment allows for the automation and remote management capabilities that Autopilot delivers.
+
+IT admins create deployment profiles in Microsoft Endpoint Manager (or another MDM service). These profiles contain the configuration settings for the devices, such as language, region, network configuration, and the steps required in the Out-of-Box Experience (OOBE). Once profiles are created, they are assigned to the registered devices based on certain criteria, like device model or purchase order. To learn more, see [Configure Autopilot profiles](/autopilot/profiles).
+
+When a new device is turned on and connected to the internet for the first time, it contacts the Windows Autopilot service. The service recognizes the device based on its hardware ID and retrieves the deployment profile assigned to it. The OOBE then customizes itself according to the settings defined in the profile, automating steps that would traditionally require manual input, such as setting up a Wi-Fi connection, accepting license agreements, and configuring user accounts.
+
+## Prepare for Autopilot deployment
 
 For Surface Hub 3, Hub 2S devices [software-migrated to the Teams Rooms on Windows platform](surface-hub-2s-migrate-to-mtr-w.md), and Hub 2S devices [upgraded with the Surface Hub 3 Pack compute cartridge](install-manage-surface-hub-3-pack.md), support for Windows Autopilot and Auto-login of Teams Rooms brings a set of unique advantages. These latest Hub devices deliver the most value via a seamless integration into corporate environments. 
 
-The process of enabling Autopilot varies across the latest Hub devices. 
+As shown in the following table, the process of enabling Autopilot and Teams Rooms Auto-Login varies across the latest Hub devices. But once devices are registered with the Autopilot service, regardless of the method used, they each benefit equally from the same automated configuration and deployment capabilities in Autopilot and Teams Rooms Auto-login. This includes automatic enrollment in management tools, application of settings and policies, and provisioning of user accounts and applications, which can all occur without direct IT intervention after the device is in the user's hands.
 
 
 | Device                 | Description                                                                                                           | Supported Autopilot enrollment methods           | Required steps |
 | ---------------------- | --------------------------------------------------------------------------------------------------------------------- | -------------------------------------------      | -------------- |
 | Surface Hub 3          | Surface Hub 3 devices shipped from the factory                                                                      | Partner-driven on by behalf of customer (recommended)| [Enroll into Autopilot](#enroll-surface-hub-3)   |
-| Surface Hub 3          | Hub 2S devices [upgraded with the Surface Hub 3 Pack compute cartridge](install-manage-surface-hub-3-pack.md)         | Customer-driven directly in Intune       | [Enroll into Autopilot](#enroll-surface-hub-3-devices-upgraded-via-surface-hub-3-pack)    |
-| Surface Hub 2S         | Surface Hub 2S devices [software-migrated to the Teams Rooms on Windows platform](surface-hub-2s-migrate-to-mtr-w.md) | Customer-driven directly in Intune      | [Enroll into Autopilot](#enroll-surface-hub-2s-devices-migrated-to-teams-rooms-on-windows)   |
-
+| Surface Hub 3          | Hub 2S devices [upgraded with the Surface Hub 3 Pack compute cartridge](install-manage-surface-hub-3-pack.md)         | Customer-driven directly in Intune       | [Manually register devices & enroll](#manually-register--enroll-surface-hub-3-devices-upgraded-via-surface-hub-3-pack)    |
+| Surface Hub 2S         | Surface Hub 2S devices [software-migrated to the Teams Rooms on Windows platform](surface-hub-2s-migrate-to-mtr-w.md) | Customer-driven directly in Intune      | [Manually register devices & enroll](#manually-register--enroll-surface-hub-2s-devices-migrated-to-teams-rooms-on-windows)   |
 
 
 ### Enroll Surface Hub 3  
 
-placeholder
+New Surface Hub 3 devices that ship from the factory are already registered by Surface for Autopilot use. It's recommended to use take advantage of the expertise of certified partners who can create the requisite Autopilot profiles and  Surface Hub 3.  
 
-### Enroll Surface Hub 3 devices upgraded via Surface Hub 3 Pack
+### Manually register & enroll Surface Hub 3 devices upgraded via Surface Hub 3 Pack
 
 Manual extraction of hardware hash required
 
-### Enroll Surface Hub 2S devices migrated to Teams Rooms on Windows
+### Manually register & enroll Surface Hub 2S devices migrated to Teams Rooms on Windows
 
 Manual extraction of hardware hash required
 
