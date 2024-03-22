@@ -25,9 +25,9 @@ Microsoft Teams Rooms on Windows now supports streamlined deployment via Windows
 If you're new to Autopilot, it's recommended to review the following articles: 
 
 - [Overview of Windows Autopilot](/mem/autopilot/windows-autopilot)
-- [Windows Autopilot and Surface devices](/surface/windows-autopilot-and-surface-devices.md)
+- [Windows Autopilot and Surface devices](/surface/windows-autopilot-and-surface-devices)
 - [Enroll Windows devices in Intune by using Windows Autopilot](/mem/autopilot/enrollment-autopilot)
-- [Surface Registration Support for Windows Autopilot](/surface/surface-autopilot-registration-support.md)
+- [Surface Registration Support for Windows Autopilot](/surface/surface-autopilot-registration-support)
 
 In addition, review the new guidance from Teams Rooms.  
 
