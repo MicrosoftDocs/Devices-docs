@@ -25,11 +25,11 @@ Microsoft Teams Rooms on Windows now supports streamlined deployment via Windows
 If you're new to Autopilot, it's recommended to review the following articles: 
 
 - [Overview of Windows Autopilot](/mem/autopilot/windows-autopilot)
-- [Windows Autopilot and Surface devices](windows-autopilot-and-surface-devices.md)
+- [Windows Autopilot and Surface devices](/surface/windows-autopilot-and-surface-devices.md)
 - [Enroll Windows devices in Intune by using Windows Autopilot](/mem/autopilot/enrollment-autopilot)
-- [Surface Registration Support for Windows Autopilot](surface-autopilot-registration-support.md)
+- [Surface Registration Support for Windows Autopilot](/surface/surface-autopilot-registration-support.md)
 
-In addition, review the new guidance from Teams Rooms 
+In addition, review the new guidance from Teams Rooms.  
 
 ## Preparing for Autopilot deployment
 
@@ -40,9 +40,9 @@ The process of enabling Autopilot varies across the latest Hub devices.
 
 | Device                 | Description                                                                                                           | Supported Autopilot enrollment methods           | Required steps |
 | ---------------------- | --------------------------------------------------------------------------------------------------------------------- | -------------------------------------------      | -------------- |
-| Surface Hub 3          | Surface Hub 3 devices shipped from the factory.                                                                       | Partner-driven on by behalf of customer (recommended)| [Enroll into Autopilot](#enroll-surface-hub-3)   |
+| Surface Hub 3          | Surface Hub 3 devices shipped from the factory                                                                      | Partner-driven on by behalf of customer (recommended)| [Enroll into Autopilot](#enroll-surface-hub-3)   |
 | Surface Hub 3          | Hub 2S devices [upgraded with the Surface Hub 3 Pack compute cartridge](install-manage-surface-hub-3-pack.md)         | Customer-driven directly in Intune       | [Enroll into Autopilot](#enroll-surface-hub-3-devices-upgraded-via-surface-hub-3-pack)    |
-| Surface Hub 2S         | Surface Hub 2S devices [software-migrated to the Teams Rooms on Windows platform](surface-hub-2s-migrate-to-mtr-w.md) | Manual extraction of hardware hash required      | [Enroll into Autopilot](#enroll-surface-hub-2s-devices-migrated-to-teams-rooms-on-windows)   |
+| Surface Hub 2S         | Surface Hub 2S devices [software-migrated to the Teams Rooms on Windows platform](surface-hub-2s-migrate-to-mtr-w.md) | Customer-driven directly in Intune      | [Enroll into Autopilot](#enroll-surface-hub-2s-devices-migrated-to-teams-rooms-on-windows)   |
 
 
 
