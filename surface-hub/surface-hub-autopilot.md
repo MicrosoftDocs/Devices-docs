@@ -55,7 +55,7 @@ As shown in the following table, the process of enabling Autopilot and Teams Roo
 
 ### Enroll Surface Hub 3  
 
-New Surface Hub 3 devices that ship from the factory are already registered by Surface for Autopilot use. It's recommended to use take advantage of the expertise of certified partners who can create the requisite Autopilot profiles and  Surface Hub 3.  
+New Surface Hub 3 devices that ship from the factory are fully ready for Autopilot use. It's recommended to use take advantage of the expertise of certified partners who can create the requisite Autopilot profiles and enroll Surface Hub 3 in Autopilot.   
 
 ### Manually register & enroll Surface Hub 3 devices upgraded via Surface Hub 3 Pack
 
