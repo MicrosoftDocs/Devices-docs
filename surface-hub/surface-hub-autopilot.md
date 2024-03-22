@@ -18,11 +18,18 @@ appliesto:
 
 In the evolving landscape of digital workplaces, the efficiency of setting up and managing devices is paramount. Windows Autopilot represents a pivotal shift in how IT admins deploy Windows devices, offering a cloud-based solution that simplifies the entire process. This service eliminates the traditional complexities associated with device setup, enabling organizations to get their devices ready for productive use with minimal effort.
 
-For the Surface Hub 3, Windows Autopilot brings a set of unique advantages. As a state-of-the-art collaborative device, the Surface Hub 3 requires a seamless integration into corporate environments to fully leverage its capabilities for enhancing teamwork. Windows Autopilot streamlines this integration, allowing IT professionals to pre-configure devices without ever needing to physically handle them. This not only saves valuable time but also ensures that each Surface Hub 3 is configured consistently and securely, adhering to organizational policies right out of the box.
+While Windows Autopilot has been available for years to enable streamlined deployment of individual users’ Windows PCs, a similarly streamlined deployment option for shared appliance-like devices like Surface Hub and Microsoft Teams Rooms on Windows systems has not been available – until now.
 
-The benefits of using Windows Autopilot for Surface Hub 3 extend beyond just simplification. It introduces a level of agility and flexibility in device management that is crucial for today's dynamic work environments. From automatically joining devices to Microsoft Entra ID (formerly Azure AD) or Active Directory (via Hybrid Azure AD Join), to enrolling them in Microsoft Endpoint Manager (Intune), Autopilot sets the stage for a modern management approach. This ensures that Surface Hub 3 devices are always up to date, secure, and ready to facilitate seamless collaboration through features like Teams Rooms Auto-login.
+Microsoft Teams Rooms on Windows now supports streamlined deployment via Windows Autopilot and a new Auto-login capability for Teams Rooms. Together, these two components offer a customers a seamless end-to-end deployment experience of Teams Rooms on Windows devices using consistent IT management interfaces – Microsoft Intune and the Teams Rooms Pro Management Portal. 
+
+
+For the Surface Hub 3 and Surface Hub 2S devices software-migrated to the Teams Rooms on Windows platform, support for Windows Autopilot and Auto-login of Teams Rooms brings a set of unique advantages. As a state-of-the-art collaborative device, the Surface Hub 3 requires a seamless integration into corporate environments to fully leverage its capabilities for enhancing teamwork. 
+
+Windows Autopilot and Auto-login of Teams Rooms streamlines this integration, allowing IT pros to pre-configure devices without ever needing to physically handle them. This not only saves valuable time but also ensures that each Surface Hub 3 is configured consistently and securely, adhering to organizational policies right out of the box.
+
+The benefits of using Windows Autopilot and Auto-login of Teams Rooms for Surface Hub 3 extend beyond just simplification. It introduces a level of agility and flexibility in device management that is crucial for today's dynamic work environments. From automatically joining devices to Microsoft Entra ID (formerly Azure AD) or Active Directory (via Hybrid Azure AD Join), to enrolling them in Microsoft Endpoint Manager (Intune), Autopilot sets the stage for a modern management approach. This ensures that Surface Hub 3 devices are always up to date, secure, and ready to facilitate seamless collaboration through features like Teams Rooms Auto-login.
  
-## Overview of Windows Autopilot for Surface Hub 3
+## Overview of Surface Hub support for Windows Autopilot and Auto-login of Teams Rooms
 
 Windows Autopilot represents a transformative approach to deploying and managing new devices in a corporate environment. It leverages cloud-based services to automate the setup and pre-configuration of Windows devices, streamlining their integration into the workplace. For organizations deploying the Surface Hub 3, Windows Autopilot introduces a seamless, efficient method to prepare these devices for immediate use, enhancing the collaborative capabilities of modern workspaces.
 
