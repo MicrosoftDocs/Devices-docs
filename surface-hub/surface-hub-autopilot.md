@@ -59,7 +59,7 @@ New Surface Hub 3 devices that ship from the factory are already registered by S
 
 ### Manually register & enroll Surface Hub 3 devices upgraded via Surface Hub 3 Pack
 
-Manual extraction of hardware hash required
+When you updgrade Surface Hub 2S to Surface Hub 3, a new hardware hash is created. To proceed, you first need to manually extract the hardware hash. 
 
 ### Manually register & enroll Surface Hub 2S devices migrated to Teams Rooms on Windows
 
