@@ -70,6 +70,17 @@ Use of the Migration Launcher app on Surface Hub 2S involves significant changes
 > [!NOTE]
 > Support for Windows 10 Team edition on Surface Hub, based on Windows 10 version 22H2, is scheduled to end on October 14, 2025.
 
+## Optional: Streamline post-migration deployment with Windows Autopilot and Teams Rooms Auto-Login
+
+Whether you initiate the migration process manually on a Surface Hub 2S or remotely via Intune, it's advantageous to set the stage for the device to autonomously complete its deployment post-migration, utilizing Windows Autopilot in conjunction with Teams Rooms Auto-Login. This approach is particularly beneficial for customers triggering migration remotely, as it facilitates a fully remote, end-to-end process spanning migration to the Teams Rooms on Windows experience to the subsequent deployment within your organization. 
+ 
+For detailed guidance on enrolling your Surface Hub in Autopilot, see [Deploy Surface Hub 3 with Windows Autopilot & Auto-login of Teams Rooms](surface-hub-autopilot.md).
+
+> [!TIP]
+> For an optimal experience, it's recommended to configure Autopilot before starting the migration process. This preparation ensures Autopilot is primed and ready to facilitate deployment when migration is complete. 
+
+For detailed guidance on enrolling your Surface Hub in Autopilot, refer to the documentation: [Deploy Surface Hub 3 with Windows Autopilot & Auto-login of Teams Rooms](surface-hub-autopilot.md).
+
 ## Install Migration Launcher app to trigger a migration
 
 Choose one of the following options:
@@ -96,6 +107,9 @@ Choose one of the following options:
 6. When migration is complete, the device displays the Windows first-time setup program, also known as Out of the Box Experience (OOBE). To learn more, see [First-time setup for Surface Hub 3](first-run-program-surface-hub-3.md).
 
 ### Remotely install Migration Launcher app via Intune
+
+> [!TIP]
+> If you are remotely triggering migration wtih the following steps, you may wish to consider setting up seamless post-migration deployment as well. See this section above for more.
 
 #### Summary
 
@@ -212,9 +226,9 @@ You can make the app available for enrolled devices or assign it as required.
 
 This might take a few minutes, depending on network connectivity or other factors. You can check the upload status under the Notifications tray.
 
-### Monitor deployment
+### Monitor deployment of Migration Launcher app
 
-- After deploying, monitor the deployment status in Intune.
+- After deploying the Migration Launcher app, monitor its deployment status in Intune.
 - To see the status of the deployment, navigate to the app in Intune and check the Overview and Assignments tabs. Check the Device context status, not the User.
 
   > [!NOTE]
@@ -222,6 +236,9 @@ This might take a few minutes, depending on network connectivity or other factor
 
 - Once the app is deployed, the next restart initiates migration, which - in this remote deployment scenario - is likely to be the automatic restart as part of the nightly maintenance window. Similar to the manual app deployment scenario, the migration process typically takes about 90 minutes after this restart (but many factors can impact migration time, as explained earlier, with a test example exceeding 5 hours on a slower network). Customers must test and validate sequences relative to their unique infrastructure and management approaches.
 - When migration is complete, the device displays the Windows first-time setup program, also known as Out of the Box Experience (OOBE). To learn more, see [First-time setup for Surface Hub 3](first-run-program-surface-hub-3.md).
+
+> [!TIP]
+> If you configured seamless deployment with Autopilot, the Windows first-time setup program automatically proceeds according to the Autopilot configuration you've established. Once complete, you can see the device registered in Intune and appearing online in the Teams Rooms Management Portal. To ensure the device is properly online and visible in the Teams Admin Center, refer to the following section.
 
 ### Manual removal of migrated Surface Hub devices from Teams Admin Center (Legacy Tab)
 

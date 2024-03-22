@@ -29,6 +29,8 @@ If you're new to Autopilot, it's recommended to review the following articles:
 - [Enroll Windows devices in Intune by using Windows Autopilot](/mem/autopilot/enrollment-autopilot)
 - [Surface Registration Support for Windows Autopilot](surface-autopilot-registration-support.md)
 
+In addition, review the new guidance from Teams Rooms 
+
 ## Preparing for Autopilot deployment
 
 For Surface Hub 3, Hub 2S devices [software-migrated to the Teams Rooms on Windows platform](surface-hub-2s-migrate-to-mtr-w.md), and Hub 2S devices [upgraded with the Surface Hub 3 Pack compute cartridge](install-manage-surface-hub-3-pack.md), support for Windows Autopilot and Auto-login of Teams Rooms brings a set of unique advantages. These latest Hub devices deliver the most value via a seamless integration into corporate environments. 
@@ -36,39 +38,26 @@ For Surface Hub 3, Hub 2S devices [software-migrated to the Teams Rooms on Windo
 The process of enabling Autopilot varies across the latest Hub devices. 
 
 
-| Device                 | Description                                                                                                           | Registration method                         | Required steps |
-| ---------------------- | --------------------------------------------------------------------------------------------------------------------- | ------------------------------------------- | -------------- |
-| Surface Hub 3          | Surface Hub 3 devices shipped from the factory.                                                                       | Preregistred by Surface at factory          | Link to below  |
-| Surface Hub 3 (upgraded) | Hub 2S devices [upgraded with the Surface Hub 3 Pack compute cartridge](install-manage-surface-hub-3-pack.md)         | Manual extraction of hardware hash required | Link to below  |
-| Surface Hub 3 (migrated)         | Surface Hub 2S devices [software-migrated to the Teams Rooms on Windows platform](surface-hub-2s-migrate-to-mtr-w.md) | Manual extraction of hardware hash required | Link to below  |
+| Device                 | Description                                                                                                           | Supported Autopilot enrollment methods           | Required steps |
+| ---------------------- | --------------------------------------------------------------------------------------------------------------------- | -------------------------------------------      | -------------- |
+| Surface Hub 3          | Surface Hub 3 devices shipped from the factory.                                                                       | Partner-driven on by behalf of customer (recommended)| [Enroll into Autopilot](#enroll-surface-hub-3)   |
+| Surface Hub 3          | Hub 2S devices [upgraded with the Surface Hub 3 Pack compute cartridge](install-manage-surface-hub-3-pack.md)         | Customer-driven directly in Intune       | [Enroll into Autopilot](#enroll-surface-hub-3-devices-upgraded-via-surface-hub-3-pack)    |
+| Surface Hub 2S         | Surface Hub 2S devices [software-migrated to the Teams Rooms on Windows platform](surface-hub-2s-migrate-to-mtr-w.md) | Manual extraction of hardware hash required      | [Enroll into Autopilot](#enroll-surface-hub-2s-devices-migrated-to-teams-rooms-on-windows)   |
 
 
 
-### Surface Hub 3  
-
-placeholder
-
-### Surface Hub 3 (upgraded)
+### Enroll Surface Hub 3  
 
 placeholder
 
-### Surface Hub 3 (migrated)
+### Enroll Surface Hub 3 devices upgraded via Surface Hub 3 Pack
 
-placeholder
+Manual extraction of hardware hash required
 
-## Security considerations
+### Enroll Surface Hub 2S devices migrated to Teams Rooms on Windows
 
-When configuring Teams Rooms Auto-login, it's essential to balance convenience with security. Consider the following:
+Manual extraction of hardware hash required
 
-- **Credential management**: Securely manage the credentials used for Auto-login, ensuring they are protected against unauthorized access.
-- **Device access**: Implement measures to prevent unauthorized use of the Surface Hub 3, such as physical security controls and device lockdown policies.
-
-### Best practices
-
-- **Regularly update credentials**: Change the Teams Rooms account credentials periodically to enhance security.
-- **Monitor device activity**: Keep an eye on the usage of Teams Rooms-enabled devices to detect any unusual activity or unauthorized access attempts.
-
-Setting up Teams Rooms Auto-login on Surface Hub 3 devices significantly enhances the meeting room experience by reducing setup times and streamlining the start of meetings. 
 
 ## Learn more
 
