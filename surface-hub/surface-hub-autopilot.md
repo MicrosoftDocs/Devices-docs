@@ -22,7 +22,7 @@ While Windows Autopilot has been available for years to enable streamlined deplo
 
 Microsoft Teams Rooms on Windows now supports streamlined deployment via Windows Autopilot and a new Auto-login capability for Teams Rooms. Together, these two components offer a customers a seamless end-to-end deployment experience of Teams Rooms on Windows devices using consistent IT management interfaces – Microsoft Intune and the Teams Rooms Pro Management Portal. 
 
-For Surface Hub 3 and Surface Hub 2S devices [software-migrated to the Teams Rooms on Windows platform](surface-hub-2s-migrate-to-mtr-w.md), support for Windows Autopilot and Auto-login of Teams Rooms brings a set of unique advantages. These latest Hub devices deliver the most value via a seamless integration into corporate environments. 
+For Surface Hub 3, Hub 2S devices [software-migrated to the Teams Rooms on Windows platform](surface-hub-2s-migrate-to-mtr-w.md), and Hub 2S devices [upgraded with the Surface Hub 3 Pack compute cartridge](install-manage-surface-hub-3-pack.md), support for Windows Autopilot and Auto-login of Teams Rooms brings a set of unique advantages. These latest Hub devices deliver the most value via a seamless integration into corporate environments. 
 
 Windows Autopilot and Auto-login of Teams Rooms streamlines this integration, allowing IT pros to pre-configure devices without ever needing to physically handle them. This not only saves valuable time but also ensures that each Surface Hub 3 is configured consistently and securely, adhering to organizational policies right out of the box.
 
@@ -53,7 +53,7 @@ Before you begin, confirm that all prerequisites are met:
 
 - **Azure Active Directory (Azure AD)**: Ensure that your organization uses Azure AD for identity management. Windows Autopilot relies on Azure AD for device management and authentication.
 - **Microsoft Endpoint Manager (Intune)**: Integration with Intune or another Mobile Device Management (MDM) service is crucial for configuring and managing devices post-deployment.
-- **Device compatibility**: Verify that your Surface Hub 3 devices are compatible with Windows Autopilot. They should run a supported version of Windows that meets Autopilot's requirements.
+- **Device compatibility**: Verify that your Surface Hub 3 devices are compatible with Windows Autopilot. They should run a supported version of Windows that meets Autopilot's requirements. By default, Surface Hub 3, migrated Hub 2S devices, and Hub 2S devices [upgraded with the Surface Hub 3 Pack compute cartridge](install-manage-surface-hub-3-pack.md)are eligible for Autopilot. 
 
 ## Step 2: Gather device information
 
