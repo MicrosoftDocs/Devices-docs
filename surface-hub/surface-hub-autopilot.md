@@ -46,35 +46,47 @@ For Surface Hub 3, Hub 2S devices [software-migrated to the Teams Rooms on Windo
 As shown in the following table, the process of enabling Autopilot and Teams Rooms Auto-Login varies across the latest Hub devices. But once devices are registered with the Autopilot service, regardless of the method used, they each benefit equally from the same automated configuration and deployment capabilities in Autopilot and Teams Rooms Auto-login. This includes automatic enrollment in management tools, application of settings and policies, and provisioning of user accounts and applications, which can all occur without direct IT intervention after the device is in the user's hands.
 
 
-| Device                 | Description                                                                                                           | Supported Autopilot enrollment methods           | Required steps |
-| ---------------------- | --------------------------------------------------------------------------------------------------------------------- | -------------------------------------------      | -------------- |
-| Surface Hub 3          | Surface Hub 3 devices shipped from the factory                                                                      | Partner-driven on by behalf of customer (recommended)| [Enroll in Autopilot](#enroll-surface-hub-3)   |
-| Surface Hub 3          | Hub 2S devices [upgraded with the Surface Hub 3 Pack compute cartridge](install-manage-surface-hub-3-pack.md)         | Customer-driven directly in Intune       | [Manually register devices & enroll](#manually-register--enroll-surface-hub-3-devices-upgraded-via-surface-hub-3-pack)    |
-| Surface Hub 2S         | Surface Hub 2S devices [software-migrated to the Teams Rooms on Windows platform](surface-hub-2s-migrate-to-mtr-w.md) | Customer-driven directly in Intune      | [Manually register devices & enroll](#manually-register--enroll-surface-hub-2s-devices-migrated-to-teams-rooms-on-windows)   |
-
+| Device                 | Description                                                                                                           | Supported Autopilot enrollment methods           | Required steps | Learn more   |
+| ---------------------- | --------------------------------------------------------------------------------------------------------------------- | -------------------------------------------      | -------------- |--------------
+| Surface Hub 3          | Surface Hub 3 devices shipped from the factory                                                                      | Partner-driven on by behalf of customer (recommended)| [Enroll in Autopilot](#enroll-surface-hub-3)   |  [Reseller, distributor, or partner registration](/autopilot/partner-registration)           |
+| Surface Hub 3          | Hub 2S devices [upgraded with the Surface Hub 3 Pack compute cartridge](install-manage-surface-hub-3-pack.md)         | Customer-driven directly in Intune       | [Manually register devices & enroll](#manually-register--enroll-surface-hub-3-devices-upgraded-via-surface-hub-3-pack) | [Manually register devices with Windows Autopilot](/autopilot/add-devices)           |
+| Surface Hub 2S         | Surface Hub 2S devices [software-migrated to the Teams Rooms on Windows platform](surface-hub-2s-migrate-to-mtr-w.md) | Customer-driven directly in Intune      | [Manually register devices & enroll](#manually-register--enroll-surface-hub-2s-devices-migrated-to-teams-rooms-on-windows)  | [Manually register devices with Windows Autopilot](/autopilot/add-devices)         |
 
 ### Enroll Surface Hub 3  
 
-New Surface Hub 3 devices that ship from the factory are fully ready for Autopilot use. It's recommended to use take advantage of the expertise of certified partners who can create the requisite Autopilot profiles and enroll Surface Hub 3 in Autopilot.   
+New Surface Hub 3 devices that ship from the factory are fully ready for Autopilot use. It's recommended to use take advantage of the expertise of certified partners who can create the requisite Autopilot profiles and enroll Surface Hub 3 in Autopilot.
 
 ### Manually register & enroll Surface Hub 3 devices upgraded via Surface Hub 3 Pack
 
-When you updgrade Surface Hub 2S to Surface Hub 3, a new hardware hash is created. To proceed, you first need to manually extract the hardware hash:
+When you upgrade Surface Hub 2S to Surface Hub 3, a new hardware hash is created. To proceed, you first need to manually extract the hardware hash. To extract hardware the hardware hash: 
 
-1. Extract hardware hash during first time setup:
+- **In first time setup (OOBE):** At the first Windows OOBE screen, press **Ctrl-Shift-D** to bring up the Diagnostics Page. From this page, you can export logs to a thumb drive. The logs include a CSV file with the hardware hash.
+- **From Windows Administrator account:** If you need to extract the hardware hash after already completing first-time setup, press the **Windows** key five times. In the login screen, sign in with your admin credentials, and go to **Settings** **Accounts** **Access work or school** **Export your management log files** > **Export**. By default, the file is saved in the following location: **Users\Public\Documents\MDMDiagnostics**. Open MDMDiagReport, select DeviceHash CSV file, and extract the file to your desired location or USB drive. 
 
-- During OOBE, press **Ctrl-Shift-D** to bring up the Diagnostics Page. From this page, you can export logs to a thumb drive. The logs include a CSV file with the hardware hash.
+2. Open the CSV file with a plain text editor such as Notepad. Ensure your CSV file meets requirements:
 
-2. Ensure CSV file meets requirements:
+- Device information in the CSV file where you capture hardware hashes should include: Serial number, Windows product ID, and Hardware hash. You can also include an optional group. 
 
-- Device information in the CSV file where you capture hardware hashes should include: Serial number, Windows product ID, and Hardware hash
+> [!IMPORTANT]
+> Do not add Assigned user column in CSV file. 
 
 ### Manually register & enroll Surface Hub 2S devices migrated to Teams Rooms on Windows
 
-Manual extraction of hardware hash required
+1. It's recommended to extract the hardware hash and enroll the device in Autopilot **before you migrate** to the Teams Rooms on Windows experience. To extract the hardware hash: 
 
+- **Manually on Surface Hub 2S:** Select **Start** > **All apps** > **Settings** > **View as Admin** > enter admin credentials > **Update & Security** > **Logs** > **Collect logs**. 
+
+- **Remotely via Teams Rooms Admin Center:** Select Teams devices > Surface Hubs (legacy) > select the device > Download device logs. 
+
+2. Open the CSV file with a plain text editor such as Notepad. Ensure your CSV file meets requirements:
+
+- Device information in the CSV file where you capture hardware hashes should include: Serial number, Windows product ID, and Hardware hash. You can also include an optional group. 
+
+> [!IMPORTANT]
+> Do not add Assigned user column in CSV file. 
 
 ## Learn more
 
+- [Migrate Surface Hub 2S to Microsoft Teams Rooms on Windows](surface-hub-2s-migrate-to-mtr-w.md)
 - [Surface Hub support coming for Windows Autopilot](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/surface-hub-support-coming-for-windows-autopilot/ba-p/3977848)
 - [Microsoft Teams Rooms and Devices: Microsoft Ignite 2023](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-teams-rooms-and-devices-microsoft-ignite-2023/ba-p/3975581)
