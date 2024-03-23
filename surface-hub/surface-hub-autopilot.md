@@ -48,7 +48,7 @@ As shown in the following table, the process of enabling Autopilot and Teams Roo
 
 | Device                 | Description                                                                                                           | Supported Autopilot enrollment methods           | Required steps |
 | ---------------------- | --------------------------------------------------------------------------------------------------------------------- | -------------------------------------------      | -------------- |
-| Surface Hub 3          | Surface Hub 3 devices shipped from the factory                                                                      | Partner-driven on by behalf of customer (recommended)| [Enroll into Autopilot](#enroll-surface-hub-3)   |
+| Surface Hub 3          | Surface Hub 3 devices shipped from the factory                                                                      | Partner-driven on by behalf of customer (recommended)| [Enroll in Autopilot](#enroll-surface-hub-3)   |
 | Surface Hub 3          | Hub 2S devices [upgraded with the Surface Hub 3 Pack compute cartridge](install-manage-surface-hub-3-pack.md)         | Customer-driven directly in Intune       | [Manually register devices & enroll](#manually-register--enroll-surface-hub-3-devices-upgraded-via-surface-hub-3-pack)    |
 | Surface Hub 2S         | Surface Hub 2S devices [software-migrated to the Teams Rooms on Windows platform](surface-hub-2s-migrate-to-mtr-w.md) | Customer-driven directly in Intune      | [Manually register devices & enroll](#manually-register--enroll-surface-hub-2s-devices-migrated-to-teams-rooms-on-windows)   |
 
@@ -59,7 +59,15 @@ New Surface Hub 3 devices that ship from the factory are fully ready for Autopil
 
 ### Manually register & enroll Surface Hub 3 devices upgraded via Surface Hub 3 Pack
 
-When you updgrade Surface Hub 2S to Surface Hub 3, a new hardware hash is created. To proceed, you first need to manually extract the hardware hash. 
+When you updgrade Surface Hub 2S to Surface Hub 3, a new hardware hash is created. To proceed, you first need to manually extract the hardware hash:
+
+1. Extract hardware hash during first time setup:
+
+- During OOBE, press **Ctrl-Shift-D** to bring up the Diagnostics Page. From this page, you can export logs to a thumb drive. The logs include a CSV file with the hardware hash.
+
+2. Ensure CSV file meets requirements:
+
+- Device information in the CSV file where you capture hardware hashes should include: Serial number, Windows product ID, and Hardware hash
 
 ### Manually register & enroll Surface Hub 2S devices migrated to Teams Rooms on Windows
 
