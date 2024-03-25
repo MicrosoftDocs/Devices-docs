@@ -71,18 +71,18 @@ When you upgrade a Surface Hub 2S with a Surface Hub 3 Pack compute cartridge (t
 
 1. **If you have never deployed the device before**, you can capture the hardware hash from the first screen of the first time setup (Windows OOBE) process:
 
-- **In first time setup (OOBE):** At the first Windows OOBE screen, press **Ctrl-Shift-D** to bring up the Diagnostics Page. From this page, you can export logs to a thumb drive. The logs include a CSV file with the hardware hash.
+   - **In first time setup (OOBE):** At the first Windows OOBE screen, press **Ctrl-Shift-D** to bring up the Diagnostics Page. From this page, you can export logs to a thumb drive. The logs include a CSV file with the hardware hash.
 
 2. **If you have already deployed the device** and it's up and running with the Microsoft Teams Rooms on Windows platform, you can capture the hash from the From Windows Administrator account:
 
-    - **From Windows Administrator account:** Press the **Windows** key five times. In the sign-in screen, sign in with your admin credentials, and go to **Settings** **Accounts** **Access work or school** **Export your management log files** > **Export**. By default, the file is saved in the following location: **Users\Public\Documents\MDMDiagnostics**. Open MDMDiagReport, select DeviceHash CSV file, and extract the file to your desired location or USB drive.
+   - **From Windows Administrator account:** Press the **Windows** key five times. In the sign-in screen, sign in with your admin credentials, and go to **Settings** **Accounts** **Access work or school** **Export your management log files** > **Export**. By default, the file is saved in the following location: **Users\Public\Documents\MDMDiagnostics**. Open MDMDiagReport, select DeviceHash CSV file, and extract the file to your desired location or USB drive.
 
 3. Open the CSV file with a plain text editor such as Notepad. Ensure your CSV file meets the following requirements so it can be successfully imported into Intune:
 
-- Device information in the CSV file should include Serial number, Windows product ID, and Hardware hash. You should also include an optional group tag, as specified per guidance in the detailed documentation on [Windows Autopilot and Auto-login of Teams Rooms](https://aka.ms/MTRAutopilotDoc).
+   - Device information in the CSV file should include Serial number, Windows product ID, and Hardware hash. You should also include an optional group tag, as specified per guidance in the detailed documentation on [Windows Autopilot and Auto-login of Teams Rooms](https://aka.ms/MTRAutopilotDoc).
 
-> [!TIP]
-> Do not add an Assigned user column in CSV file as it is unnecessary for deploying a Teams Rooms on Windows device like Surface Hub and adding it with a blank entry will cause failure during import to Intune.
+   > [!TIP]
+   > Do not add an Assigned user column in CSV file as it is unnecessary for deploying a Teams Rooms on Windows device like Surface Hub and adding it with a blank entry will cause failure during import to Intune.
 
 ### Manually register & enroll Surface Hub 2S devices being migrated to Teams Rooms on Windows platform
 
@@ -93,16 +93,16 @@ When planning the migration process for a Surface Hub 2S to transition from Wind
 
 1. While the Surface Hub 2S device is still running Windows 10 Team edition (that is, before you migrate to the Teams Rooms on Windows experience), extract the system’s hardware hash and manually enroll the device in Autopilot. To extract the hardware hash:
 
-- **Manually on Surface Hub 2S:** Select **Start** > **All apps** > **Settings** > **View as Admin** > enter admin credentials > **Update & Security** > **Logs** > **Collect logs**.
+   - **Manually on Surface Hub 2S:** Select **Start** > **All apps** > **Settings** > **View as Admin** > enter admin credentials > **Update & Security** > **Logs** > **Collect logs**.
 
-- **Remotely via Teams Rooms Admin Center:** Select Teams devices > Surface Hubs (legacy) > select the device > Download device logs.
+   - **Remotely via Teams Rooms Admin Center:** Select Teams devices > Surface Hubs (legacy) > select the device > Download device logs.
 
 2. Open the CSV file with a plain text editor such as Notepad. Ensure your CSV file meets the following requirements so it can be successfully imported into Intune:
 
-- Device information in the CSV file should include Serial number, Windows product ID, and Hardware hash. You should also include an optional group tag, as specified per guidance in the detailed documentation on [Windows Autopilot and Auto-login of Teams Rooms](https://aka.ms/MTRAutopilotDoc).
+   - Device information in the CSV file should include Serial number, Windows product ID, and Hardware hash. You should also include an optional group tag, as specified per guidance in the detailed documentation on [Windows Autopilot and Auto-login of Teams Rooms](https://aka.ms/MTRAutopilotDoc).
 
-> [!TIP]
-> Do not add an Assigned user column in CSV file as it is unnecessary for deploying a Teams Rooms on Windows device like Surface Hub and adding it with a blank entry will cause failure during import to Intune.
+   > [!TIP]
+   > Do not add an Assigned user column in CSV file as it is unnecessary for deploying a Teams Rooms on Windows device like Surface Hub and adding it with a blank entry will cause failure during import to Intune.
 
 ## Configure Auto-login of Teams Rooms for Autopilot-enrolled Surface Hub devices
 
