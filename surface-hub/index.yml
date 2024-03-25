@@ -27,8 +27,6 @@ landingContent:
     linkLists:
       - linkListType: get-started
         links: 
-          - text: Deploy Surface Hub with Windows Autopilot & Auto-login of Teams Rooms
-            urL: surface-hub-autopilot.md
           - text: Migrate Surface Hub 2S to Microsoft Teams Rooms on Windows  
             url: surface-hub-2s-migrate-to-mtr-w.md
           - text: What's new for Surface Hub 3   
