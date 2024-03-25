@@ -35,7 +35,7 @@ If you're new to Autopilot, we recommend review of the following articles:
 - [Enroll Windows devices in Intune by using Windows Autopilot](/mem/autopilot/enrollment-autopilot)
 - [Surface Registration Support for Windows Autopilot](/surface/surface-autopilot-registration-support)
 
-Even if you're familiar with Autopilot in general, to understand nuances for Teams Rooms devices, and to learn about configuring the new Auto-login of Teams Rooms capability, we recommend reviewing new documentation from Teams Rooms on Windows Autopilot and Auto-login of Teams Rooms.  
+Even if you're familiar with Autopilot in general, to understand nuances for Teams Rooms devices, and to learn about configuring the new Auto-login of Teams Rooms capability, we recommend reviewing new documentation from Teams Rooms on [Windows Autopilot and Auto-login of Teams Rooms](https://aka.ms/MTRAutopilotDoc).  
 
 ## How Autopilot works
 
@@ -47,7 +47,7 @@ When a new device with a supported platform is internet-connected and turned on 
 
 ## Prepare your environment with configuration for Windows Autopilot and Auto-login of Teams Rooms
 
-The new guidance from Teams Rooms, including full documentation on the new Auto-login of Teams Rooms capability, covers the specific steps you need to prepare your environment with the necessary configuration before Autopilot-enrolling your supported Surface Hub devices and configuring Auto-login of Teams rooms. For example, the documentation covers Microsoft Teams Rooms (and therefore Surface Hub) specific guidance for Profile creation and Enrollment Status Page configuration, relative to the unique characteristics of these devices. Ensure you have reviewed the documentation and prepared your environment, before proceeding with the following enrollment steps.
+The new guidance from Teams Rooms, including full documentation on the new [Auto-login of Teams Rooms capability](https://aka.ms/MTRAutopilotDoc), covers the specific steps you need to prepare your environment with the necessary configuration before Autopilot-enrolling your supported Surface Hub devices and configuring Auto-login of Teams rooms. For example, the documentation covers Microsoft Teams Rooms (and therefore Surface Hub) specific guidance for Profile creation and Enrollment Status Page configuration, relative to the unique characteristics of these devices. Ensure you have reviewed the documentation and prepared your environment, before proceeding with the following enrollment steps.
 
 ## Enroll your Surface Hub for Windows Autopilot deployment
 
@@ -64,7 +64,7 @@ As shown in the following table, the process of enrolling a supported version of
 
 ### Enroll a new Surface Hub 3 shipped from factory  
 
-New Surface Hub 3 devices that ship from the factory are fully ready for Autopilot use. We recommend consulting with certified partners who can Autopilot enroll Surface Hub 3 (or other Autopilot-supporting) devices on behalf of customers, including creating the requisite Autopilot profiles. Learn more, including about how to set up the trust relationship with your partner, in this documentation.
+New Surface Hub 3 devices that ship from the factory are fully ready for Autopilot use. We recommend consulting with certified partners who can Autopilot enroll Surface Hub 3 (or other Autopilot-supporting) devices on behalf of customers, including creating the requisite Autopilot profiles. Learn more, including about how to set up the trust relationship with your partner, in this [documentation](/autopilot/partner-registration). Or see the list of [Surface partners enabled for Autopilot](/surface/windows-autopilot-and-surface-devices#surface-partners-enabled-for-windows-autopilot) 
 
 ### Manually register & enroll Surface Hub 2S devices upgraded with a Surface Hub 3 Pack compute cartridge
 
@@ -82,7 +82,7 @@ Capture the hash depending on whether the device has been previously deployed:
 
 2. Open the CSV file with a plain text editor such as Notepad. Ensure your CSV file meets the following requirements so it can be successfully imported into Intune:
 
-- Device information in the CSV file should include Serial number, Windows product ID, and Hardware hash. You should also include an optional group tag, as specified per guidance in the detailed documentation on Windows Autopilot and Auto-login of Teams Rooms. 
+- Device information in the CSV file should include Serial number, Windows product ID, and Hardware hash. You should also include an optional group tag, as specified per guidance in the detailed documentation on [Windows Autopilot and Auto-login of Teams Rooms](https://aka.ms/MTRAutopilotDoc). 
 
 > [!TIP]
 > Do not add an Assigned user column in CSV file as it is unnecessary for deploying a Teams Rooms on Windows device like Surface Hub and adding it with a blank entry will cause failure during import to Intune.
@@ -102,14 +102,14 @@ When planning the migration process for a Surface Hub 2S to transition from Wind
 
 2. Open the CSV file with a plain text editor such as Notepad. Ensure your CSV file meets the following requirements so it can be successfully imported into Intune:
 
-- Device information in the CSV file should include Serial number, Windows product ID, and Hardware hash. You should also include an optional group tag, as specified per guidance in the detailed documentation on Windows Autopilot and Auto-login of Teams Rooms.
+- Device information in the CSV file should include Serial number, Windows product ID, and Hardware hash. You should also include an optional group tag, as specified per guidance in the detailed documentation on [Windows Autopilot and Auto-login of Teams Rooms](https://aka.ms/MTRAutopilotDoc).
 
 > [!TIP]
 > Do not add an Assigned user column in CSV file as it is unnecessary for deploying a Teams Rooms on Windows device like Surface Hub and adding it with a blank entry will cause failure during import to Intune.
 
 ## Configure Auto-login of Teams Rooms for Autopilot-enrolled Surface Hub devices
 
-As outlined in the new documentation on Auto-login of Teams Rooms capability, once a Surface Hub device is enrolled in Windows Autopilot, it syncs to the **Planning** > **Autopilot Devices** tab in the [Teams Rooms Pro Management Portal](/microsoftteams/rooms/managed-meeting-rooms-portal). At that point, you can assign the Resource Account credentials that you intend to be used to automatically log into the Teams Rooms experience on the Hub when it completes the automated end-to-end deployment process. 
+As outlined in the documentation on [Auto-login of Teams Rooms capability](documentation on [Windows Autopilot and Auto-login of Teams Rooms](https://aka.ms/MTRAutopilotDoc), once a Surface Hub device is enrolled in Windows Autopilot, it syncs to the **Planning** > **Autopilot Devices** tab in the [Teams Rooms Pro Management Portal](/microsoftteams/rooms/managed-meeting-rooms-portal). At that point, you can assign the Resource Account credentials that you intend to be used to automatically log into the Teams Rooms experience on the Hub when it completes the automated end-to-end deployment process. 
 
 After that final phase of configuration is complete, you're ready to power on the Surface Hub device for the first time
 or initiate the migration process for a Surface Hub 2S being software-migrated to the Teams Rooms on Windows platform. 
@@ -118,6 +118,7 @@ If everything is set up and configured correctly, and the device is internet-con
 
 ## Learn more
 
+- [Windows Autopilot and Auto-login of Teams Rooms](https://aka.ms/MTRAutopilotDoc)
 - [Migrate Surface Hub 2S to Microsoft Teams Rooms on Windows](surface-hub-2s-migrate-to-mtr-w.md)
 - [Surface Hub support coming for Windows Autopilot](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/surface-hub-support-coming-for-windows-autopilot/ba-p/3977848)
 - [Microsoft Teams Rooms and Devices: Microsoft Ignite 2023](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-teams-rooms-and-devices-microsoft-ignite-2023/ba-p/3975581)
