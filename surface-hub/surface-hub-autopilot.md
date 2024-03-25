@@ -67,19 +67,17 @@ New Surface Hub 3 devices that ship from the factory are fully ready for Autopil
 
 ### Manually register & enroll Surface Hub 2S devices upgraded with a Surface Hub 3 Pack compute cartridge
 
-When you upgrade a Surface Hub 2S with a Surface Hub 3 Pack compute cartridge (turning it into a Surface Hub 3), a new hardware hash is generated for that exact unique hardware combination of Surface Hub display chassis and Surface Hub 3 Pack compute cartridge inside. Therefore, in order to proceed with Autopilot enrollment for this new system hardware combination, you first need to manually extract the new hardware hash. To extract hardware the hardware hash:
+When you upgrade a Surface Hub 2S with a Surface Hub 3 Pack compute cartridge (turning it into a Surface Hub 3), a new hardware hash is generated for that exact unique hardware combination of Surface Hub display chassis and Surface Hub 3 Pack compute cartridge inside. Therefore, in order to proceed with Autopilot enrollment for this new system hardware combination, you first need to manually extract the new hardware hash. Methods to extract the hardware hash vary depending on whether the device has been previously deployed:
 
-1. Capture the hash depending on whether the device has been previously deployed:
-
-**If you have never deployed the device before**, you can capture the hardware hash from the first screen of the first time setup (Windows OOBE) process:
+1. **If you have never deployed the device before**, you can capture the hardware hash from the first screen of the first time setup (Windows OOBE) process:
 
 - **In first time setup (OOBE):** At the first Windows OOBE screen, press **Ctrl-Shift-D** to bring up the Diagnostics Page. From this page, you can export logs to a thumb drive. The logs include a CSV file with the hardware hash.
 
-**If you have already deployed the device**, and it's up and running with the Microsoft Teams Rooms on Windows platform, you can capture the hash from the From Windows Administrator account:
+2. **If you have already deployed the device** and it's up and running with the Microsoft Teams Rooms on Windows platform, you can capture the hash from the From Windows Administrator account:
 
-- **From Windows Administrator account:** Press the **Windows** key five times. In the sign-in screen, sign in with your admin credentials, and go to **Settings** **Accounts** **Access work or school** **Export your management log files** > **Export**. By default, the file is saved in the following location: **Users\Public\Documents\MDMDiagnostics**. Open MDMDiagReport, select DeviceHash CSV file, and extract the file to your desired location or USB drive.
+    - **From Windows Administrator account:** Press the **Windows** key five times. In the sign-in screen, sign in with your admin credentials, and go to **Settings** **Accounts** **Access work or school** **Export your management log files** > **Export**. By default, the file is saved in the following location: **Users\Public\Documents\MDMDiagnostics**. Open MDMDiagReport, select DeviceHash CSV file, and extract the file to your desired location or USB drive.
 
-2. Open the CSV file with a plain text editor such as Notepad. Ensure your CSV file meets the following requirements so it can be successfully imported into Intune:
+3. Open the CSV file with a plain text editor such as Notepad. Ensure your CSV file meets the following requirements so it can be successfully imported into Intune:
 
 - Device information in the CSV file should include Serial number, Windows product ID, and Hardware hash. You should also include an optional group tag, as specified per guidance in the detailed documentation on [Windows Autopilot and Auto-login of Teams Rooms](https://aka.ms/MTRAutopilotDoc).
 
