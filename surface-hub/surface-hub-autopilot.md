@@ -18,7 +18,6 @@ appliesto:
 
 Surface Hub support for seamless end-to-end deployment with Windows Autopilot and Auto-login of Teams Rooms is scoped only to Surface Hub devices running the Microsoft Teams Rooms on Windows platform—specifically new Surface Hub 3 devices, Surface Hub 2S devices upgraded with the Surface Hub 3 Pack compute cartridge, and Surface Hub 2S devices software-migrated to the Teams Rooms on Windows platform. 
 
-
 ## Background
 
 In the evolving landscape of digital workplaces, the efficiency of setting up and managing devices is paramount. Since it was introduced, Windows Autopilot has enabled a pivotal shift in how IT admins deploy Windows devices, offering a cloud-based solution that simplifies the entire process. This service dramatically reduces the traditional complexities associated with device setup, enabling organizations to get their devices ready for productive use with minimal effort.
@@ -99,11 +98,11 @@ When planning the migration process for a Surface Hub 2S to transition from Wind
 
 - **Manually on Surface Hub 2S:** Select **Start** > **All apps** > **Settings** > **View as Admin** > enter admin credentials > **Update & Security** > **Logs** > **Collect logs**. 
 
-- **Remotely via Teams Rooms Admin Center:** Select Teams devices > Surface Hubs (legacy) > select the device > Download device logs. 
+- **Remotely via Teams Rooms Admin Center:** Select Teams devices > Surface Hubs (legacy) > select the device > Download device logs.
 
-2. Open the CSV file with a plain text editor such as Notepad. Ensure your CSV file meets requirements:
+2. Open the CSV file with a plain text editor such as Notepad. Ensure your CSV file meets the following requirements so it can be successfully imported into Intune:
 
-- Device information in the CSV file where you capture hardware hashes should include: Serial number, Windows product ID, and Hardware hash. You can also include an optional group. 
+- Device information in the CSV file should include: Serial number, Windows product ID, and Hardware hash. You should also include an optional group tag, as specified per guidance in the detailed documentation on Windows Autopilot and Auto-login of Teams Rooms.
 
 > [!TIP]
 > Do not add an Assigned user column in CSV file as it is unnecessary for deploying a Teams Rooms on Windows device like Surface Hub, and adding it with a blank entry will cause failure during import to Intune.
