@@ -43,7 +43,7 @@ Windows Autopilot uses Azure cloud services, including Microsoft Entra-ID (forme
 
 IT admins create deployment profiles in Microsoft Endpoint Manager or other mobile device management (MDM) service. These profiles contain the configuration settings for the devices, such as language, region, network configuration, and the steps required in the Windows Out-of-Box Experience (OOBE). Once profiles are created, they're assigned to the registered devices based on certain criteria, like device model or purchase order. To learn more, see [Configure Autopilot profiles](/autopilot/profiles).
 
-When a new device with a supported platform is internet-connected and turned on for the first time, it contacts the Windows Autopilot service. The service recognizes the device based on its hardware ID and retrieves the deployment profile assigned to it. The Windows OOBE then customizes itself according to the settings defined in the profile, automating steps that would traditionally require manual input, such as setting up a Wi-Fi connection, accepting license agreements, and more.
+When a new device with a supported platform is Internet-connected and turned on for the first time, it contacts the Windows Autopilot service. The service recognizes the device based on its hardware ID and retrieves the deployment profile assigned to it. The Windows OOBE then customizes itself according to the settings defined in the profile, automating steps that would traditionally require manual input, such as setting up a Wi-Fi connection, accepting license agreements, and more.
 
 ## Prepare your environment with configuration for Windows Autopilot and Auto-login of Teams Rooms
 
@@ -114,7 +114,7 @@ As outlined in the documentation on [Auto-login of Teams Rooms capability](https
 After that final phase of configuration is complete, you're ready to power on the Surface Hub device for the first time
 or initiate the migration process for a Surface Hub 2S being software-migrated to the Teams Rooms on Windows platform. 
 
-If everything is set up and configured correctly, and the device is internet-connected, it should begin seamlessly deploying itself starting from the beginning of Windows OOBE. It ends its automated deployment with the Welcome screen of the Teams Rooms application loaded and ready to join meetings.
+If everything is set up and configured correctly, and the device is Internet-connected, it should begin seamlessly deploying itself starting from the beginning of Windows OOBE. It ends its automated deployment with the Welcome screen of the Teams Rooms application loaded and ready to join meetings.
 
 ## Learn more
 
