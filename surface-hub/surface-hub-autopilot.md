@@ -70,7 +70,7 @@ New Surface Hub 3 devices that ship from the factory are fully ready for Autopil
 
 When you upgrade a Surface Hub 2S with a Surface Hub 3 Pack compute cartridge (turning it into a Surface Hub 3), a new hardware hash is generated for that exact unique hardware combination of Surface Hub display chassis and Surface Hub 3 Pack compute cartridge inside. Therefore, in order to proceed with Autopilot enrollment for this new system hardware combination, you first need to manually extract the new hardware hash. To extract hardware the hardware hash:
 
-Capture the hash depending on whether the device has been previously deployed:
+1. Capture the hash depending on whether the device has been previously deployed:
 
 **If you have never deployed the device before**, you can capture the hardware hash from the first screen of the first time setup (Windows OOBE) process:
 
@@ -109,7 +109,7 @@ When planning the migration process for a Surface Hub 2S to transition from Wind
 
 ## Configure Auto-login of Teams Rooms for Autopilot-enrolled Surface Hub devices
 
-As outlined in the documentation on [Auto-login of Teams Rooms capability](documentation on [Windows Autopilot and Auto-login of Teams Rooms](https://aka.ms/MTRAutopilotDoc), once a Surface Hub device is enrolled in Windows Autopilot, it syncs to the **Planning** > **Autopilot Devices** tab in the [Teams Rooms Pro Management Portal](/microsoftteams/rooms/managed-meeting-rooms-portal). At that point, you can assign the Resource Account credentials that you intend to be used to automatically log into the Teams Rooms experience on the Hub when it completes the automated end-to-end deployment process. 
+As outlined in the documentation on [Auto-login of Teams Rooms capability](https://aka.ms/MTRAutopilotDoc), once a Surface Hub device is enrolled in Windows Autopilot, it syncs to the **Planning** > **Autopilot Devices** tab in the [Teams Rooms Pro Management Portal](/microsoftteams/rooms/managed-meeting-rooms-portal). At that point, you can assign the Resource Account credentials that you intend to be used to automatically log into the Teams Rooms experience on the Hub when it completes the automated end-to-end deployment process. 
 
 After that final phase of configuration is complete, you're ready to power on the Surface Hub device for the first time
 or initiate the migration process for a Surface Hub 2S being software-migrated to the Teams Rooms on Windows platform. 
