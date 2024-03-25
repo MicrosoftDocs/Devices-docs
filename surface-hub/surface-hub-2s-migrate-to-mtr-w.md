@@ -78,8 +78,6 @@ For detailed guidance on enrolling your Surface Hub in Autopilot and Auto-login 
 > [!TIP]
 > For an optimal experience, it's recommended to configure Autopilot and Auto-login of Teams Rooms before starting the migration process. This preparation ensures that seamless deployment is primed and ready to begin when migration is complete. 
 
-For detailed guidance on enrolling your Surface Hub in Autopilot, refer to the documentation: [Deploy Surface Hub 3 with Windows Autopilot & Auto-login of Teams Rooms](surface-hub-autopilot.md).
-
 ## Install Migration Launcher app to trigger a migration
 
 Choose one of the following options:
