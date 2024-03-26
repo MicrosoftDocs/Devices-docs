@@ -257,7 +257,7 @@ After migrating your Surface Hub 2S to the Microsoft Teams Rooms on Windows plat
 
 If you've previously registered a Surface Hub 2S in Intune before transitioning it to the Microsoft Teams Rooms on Windows platform, you'll likely encounter what's referred to as a "stale" device record. This occurs when the original device object in Intune remains unchanged, even as a new device record is generated post-migration to the Teams Rooms platform. Although this stale record does not interfere with the Intune-based management of the now-migrated device, it's advisable to remove these outdated entries to maintain optimal directory cleanliness.
    
-1. **Access the [Microsoft Intune Admin Center**](https://intune.microsoft.com/): Sign in with your admin credentials.
+1. **Access** [Microsoft Intune Admin Center](https://intune.microsoft.com/): Sign in with your admin credentials.
 2. **Navigate to Devices**: Use the left-hand navigation pane and select the **Devices** tab.
 3. **Locate All Devices**: Within the **Overview** section, select **All devices** to view the entire list of managed devices.
 4. **Identify and select the stale device object**: Look for the device object that needs removal. You can identify the stale entry based on your established device naming conventions. Typically, the stale record displays an OS build number of 19045, indicative of the Windows 10 Team edition, as opposed to the updated OS build number 22621, which signifies the Windows 11 IoT Enterprise version 22H2, post-migration.
