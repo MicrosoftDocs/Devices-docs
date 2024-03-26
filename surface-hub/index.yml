@@ -27,6 +27,8 @@ landingContent:
     linkLists:
       - linkListType: get-started
         links: 
+          - text: Deploy Surface Hub with Windows Autopilot & Teams Rooms Auto-login
+            url: surface-hub-autopilot.md
           - text: Migrate Surface Hub 2S to Microsoft Teams Rooms on Windows  
             url: surface-hub-2s-migrate-to-mtr-w.md
           - text: What's new for Surface Hub 3   
@@ -37,8 +39,6 @@ landingContent:
             url: first-run-program-surface-hub-3.md
           - text: Surface Hub 3 FAQ
             url: surface-hub-3-faq.md 
-          - text: Install Windows Bloom wallpaper on Surface Hub 3
-            url: install-wallpaper-surface-hub.md
           - text: Install and manage Surface Hub 3 Pack
             url: install-manage-surface-hub-3-pack.md            
           - text: Surface Hub 3 security best practices
