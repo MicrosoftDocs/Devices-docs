@@ -17,6 +17,8 @@
              href: surface-hub-3-pack-faq.md 
            - name: Driver & firmware lifecycle
              href: surface-hub-driver-firmware-accessories-lifecycle.md
+           - name: Deploy Surface Hub with Windows Autopilot & Teams Rooms Auto-login
+             href: surface-hub-autopilot.md 
            - name: Migrate Surface Hub 2S to Microsoft Teams Rooms on Windows
              href: surface-hub-2s-migrate-to-mtr-w.md
            - name: Set up
