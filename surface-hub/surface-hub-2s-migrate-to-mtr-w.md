@@ -252,7 +252,20 @@ After migrating your Surface Hub 2S to the Microsoft Teams Rooms on Windows plat
 4. **Verification**:
    - Refresh the page or navigate away and then back to the **Surface Hubs (Legacy)** tab to ensure that the device has been successfully removed.
    - Verify that the migrated device is now correctly managed under the appropriate tab for Teams Rooms devices, if applicable. This may take up to 12 hours to happen, but will happen automatically.
-   
+
+## Manual cleanup of stale Intune device objects for migrated Surface Hub devices   
+
+If you've previously registered a Surface Hub 2S in Intune before transitioning it to the Microsoft Teams Rooms on Windows platform, you'll likely encounter what's referred to as a "stale" device record. This occurs when the original device object in Intune remains unchanged, even as a new device record is generated post-migration to the Teams Rooms platform. Although this stale record does not interfere with the Intune-based management of the now-migrated device, it's advisable to remove these outdated entries to maintain optimal directory cleanliness.
+
+### Steps to Remove Stale Device Records:
+
+1. **Access the [Microsoft Intune Admin Center**](https://intune.microsoft.com/): Sign in with your admin credentials.
+2. **Navigate to Devices**: Use the left-hand navigation pane and select the **Devices** tab.
+3. **Locate All Devices**: Within the **Overview** section, select **All devices** to view the entire list of managed devices.
+4. **Identify and select the stale device object**: Look for the device object that needs removal. You can identify the stale entry based on your established device naming conventions. Typically, the stale record displays an OS build number of 19045, indicative of the Windows 10 Team edition, as opposed to the updated OS build number 22621, which signifies the Windows 11 IoT Enterprise version 22H2, post-migration.
+    - **Note**: Pay close attention to the OS build numbers to accurately distinguish between pre-migration and post-migration device records.
+5. **Delete the stale record**: On the selected device object’s page, navigate to the top menu and select **Delet** to remove the stale device record from Intune.
+
 ## Post-migration configuration
 
 Review the following articles for recommended next steps:
