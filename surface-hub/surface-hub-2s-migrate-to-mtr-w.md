@@ -237,7 +237,7 @@ This might take a few minutes, depending on network connectivity or other factor
 > [!TIP]
 > If you configured seamless deployment with Autopilot, the Windows first-time setup program automatically proceeds according to the Autopilot configuration you've established. Once complete, you can see the device registered in Intune and appearing online in the Teams Rooms Management Portal. To ensure the device is properly online and visible in the Teams Admin Center, refer to the following section.
 
-### Manual removal of migrated Surface Hub devices from Teams Admin Center (Surface Hubs Legacy tab)
+## Manual removal of migrated Surface Hub devices from Teams Admin Center (Surface Hubs Legacy tab)
 
 After migrating your Surface Hub 2S to the Microsoft Teams Rooms on Windows platform, you need to manually remove the device listing from the "Surface Hubs (Legacy)" section of Teams Admin Center. This will thereafter enable the device to show up properly under the "Teams Rooms on Windows" section and enable accurate device management.
 
