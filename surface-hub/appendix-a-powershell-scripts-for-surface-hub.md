@@ -9,7 +9,7 @@ ms.author: chauncel
 ms.topic: how-to
 ms.date: 02/01/2021
 ms.localizationpriority: medium
-ms.custom: has-azure-ad-ps-ref, azure-ad-ref-level-one-done
+ms.custom: has-azure-ad-ps-ref
 appliesto:
 - Surface Hub
 ---
