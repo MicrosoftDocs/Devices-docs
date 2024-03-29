@@ -1,6 +1,6 @@
 ---
 title: PowerShell for Surface Hub (v1)
-description: This page includes PowerShell scripts intended for the original Surface Hub (v1)
+description: This page includes PowerShell scripts intended for the original Surface Hub (v1).
 ms.assetid: 3EF48F63-8E4C-4D74-ACD5-461F1C653784
 manager: frankbu
 ms.service: surface-hub
@@ -67,7 +67,7 @@ The account creation scripts perform the following tasks:
 -   Set various attributes for the created account(s) in Exchange and Skype for Business.
 -   Assign licenses and permissions to the created account(s).
 
-These are the attributes that are set by the scripts:
+These attributes are the attributes that are set by the scripts:
 
 <table>
 <colgroup>
@@ -182,7 +182,7 @@ These are the attributes that are set by the scripts:
 
 These scripts create a device account for you. You can use the [Account verification script](#acct-verification-ps-scripts) to make sure they ran correctly.
 
-The account creation scripts cannot modify an already existing account, but can be used to help you understand which cmdlets need to be run to configure the existing account correctly.
+The account creation scripts can't modify an already existing account, but can be used to help you understand which cmdlets need to be run to configure the existing account correctly.
 
 ### <a href="" id="create-on-premises-ps-scripts"></a>Create an on-premises account
 
