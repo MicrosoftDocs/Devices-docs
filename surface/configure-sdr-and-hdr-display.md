@@ -23,9 +23,9 @@ For broader context on how Windows handles HDR and SDR, including processing fea
 
 We recommend beginning with baseline measurements while keeping most processing features turned off. This method makes it easier to assess the impact of different features by turning them on one at a time or in various combinations. It's also important to note that Windows frequently relies on applications for managing content color, so choosing the right application to display content is crucial.
 
-## SDR and HDR mode settings in Windows 11 Version 23H2
+## SDR and HDR mode settings in Windows 11 23H2
 
-To accurately measure SDR and HDR output on the Surface Laptop Studio 2, utilize the following settings. These instructions are applicable if you're running Windows 11 version 22631.3085 or later, which enables correct reporting of Peak Brightness and HDR Certification in the **System** > **Display** > **Advanced Display Settings System** > **Display settings** page.
+To accurately measure SDR and HDR output on the Surface Laptop Studio 2, use the following settings. These instructions are applicable if you're running Windows 11 version 22631.3085 or later, which enables correct reporting of Peak Brightness and HDR Certification in the **System** > **Display** > **Advanced Display** > **Display information** page.
 
 ## Technical reference for display settings
 
