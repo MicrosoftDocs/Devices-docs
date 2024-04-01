@@ -27,7 +27,6 @@ We recommend beginning with baseline measurements while keeping most processing 
 
 To accurately measure SDR and HDR output on the Surface Laptop Studio 2, utilize the following settings. These instructions are applicable if you're running Windows 11 version 22631.3085 or later, which enables correct reporting of Peak Brightness and HDR Certification in the **System** > **Display** > **Advanced Display Settings System** > **Display settings** page.
 
-
 ## Technical reference for Display settings
 
 ### Display setting adjustments
@@ -73,8 +72,6 @@ See the following gamut and luminance accuracy data measurements taken after fol
 
 :::image type="content" source="images/gamut-luminance-measurement-examples.png" alt-text="Screenshot of measurements for gamut and luminance accuracy data.":::
 
-
 ## Helpful Links
 
 - [Display Requirements for HDR Video](https://support.microsoft.com/en-us/windows/display-requirements-for-hdr-video-in-windows-192f362e-1245-e14d-3d3f-4b3fc606b80f)
-
