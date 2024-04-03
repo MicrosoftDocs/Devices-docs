@@ -6,7 +6,7 @@ ms.localizationpriority: medium
 author: coveminer
 ms.author: chauncel
 ms.topic: overview
-ms.date: 03/21/2024
+ms.date: 04/09/2024
 ms.reviewer: chauncel
 manager: frankbu
 appliesto:
@@ -151,7 +151,7 @@ For a managed approach, IT admins can disable NFC using SEMM (Surface Enterprise
 
 As shown in the following figure, available downloads include: 
 
-- A default lock screen with a user-friendly interface: NFC Lock Screen - with background 
+- A default lock screen with a user-friendly interface: NFC Lock Screen - with background.
 - Separate black and white icons for customization. 
 
 :::image type="content" source="images/nfc-lockscreen-example-assets.png" alt-text="Screenshot that shows available downloads of NFC Lock Screen for Surface Pro 10.":::
