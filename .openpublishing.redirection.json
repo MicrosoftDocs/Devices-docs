@@ -339,6 +339,11 @@
             "source_path":  "surface-hub/surface-hub-2s-recover-reset.md",
             "redirect_url": "/surface-hub/surface-hub-recover-reset",
             "redirect_document_id":  false
-        }                                     						
+        }, 
+        {
+            "source_path":  "surface/wake-on-lan-surface-thunderbolt4-dock.md",
+            "redirect_url": "/surface/wake-on-lan-for-surface-devices",
+            "redirect_document_id":  false
+        }                                    						
     ]
 }
