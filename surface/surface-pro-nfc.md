@@ -169,7 +169,7 @@ Each NFC Lock Screen package includes a default lock screen with a user-friendly
 - [French](https://download.microsoft.com/download/e/d/a/edaecd0a-bd14-431f-b166-8acf79cea894/NFC%20Lock%20Screen%20-%20with%20background.png)
 - [Hindi](https://download.microsoft.com/download/3/3/a/33a45003-d84f-48fb-933d-4f45d035cc28/NFC%20Lock%20Screen%20-%20with%20background.png)
 - [Croatian](https://download.microsoft.com/download/5/d/1/5d1681b2-2879-4aeb-bacd-ea6a85257dff/NFC%20Lock%20Screen%20-%20with%20background.png)
-- [Hungarian](dhttps://download.microsoft.com/download/b/1/2/b1228e77-5d54-4ce6-a6db-52440ae20b9a/NFC%20Lock%20Screen%20-%20with%20background.png)
+- [Hungarian](https://download.microsoft.com/download/b/1/2/b1228e77-5d54-4ce6-a6db-52440ae20b9a/NFC%20Lock%20Screen%20-%20with%20background.png)
 - [Italian](https://download.microsoft.com/download/7/3/0/73050d91-9152-4672-9701-7ccb506ac013/NFC%20Lock%20Screen%20-%20with%20background.png)
 - [Japanese](https://download.microsoft.com/download/4/5/d/45d0d036-0f27-4c76-bcaf-0e4a09ed1d91/NFC%20Lock%20Screen%20-%20with%20background.png)
 - [Korean](https://download.microsoft.com/download/e/2/2/e221c55b-b5a7-49f2-a630-44830571ff81/NFC%20Lock%20Screen%20-%20with%20background.png)
