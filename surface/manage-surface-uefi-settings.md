@@ -8,7 +8,7 @@ ms.author: chauncel
 ms.topic: how-to
 ms.reviewer: chauncel
 manager: frankbu
-ms.date: 09/21/2023
+ms.date: 04/09/2024
 appliesto:
 - Windows 10
 - Windows 11
@@ -17,14 +17,14 @@ appliesto:
 
 # Manage Surface UEFI settings
 
- Surface PC devices are designed to utilize a unique Unified Extensible Firmware Interface (UEFI) engineered by Microsoft specifically for these devices. Surface UEFI settings provide the ability to enable or disable built-in devices and components, protect UEFI settings from being changed, and adjust the Surface device boot settings.
+Surface PC devices are designed to utilize a unique Unified Extensible Firmware Interface (UEFI) engineered by Microsoft specifically for these devices. Surface UEFI settings provide the ability to enable or disable built-in devices and components, protect UEFI settings from being changed, and adjust the Surface device boot settings.
 
 ## Supported products
 
 UEFI management is supported on the following:
 
-- Surface Pro 4, Surface Pro (5th Gen), Surface Pro 6, Surface Pro 7, Surface Pro 7+ (commercial SKUs only), Surface Pro 8 (commercial SKUs only), Surface Pro 9 & Surface Pro 9 with 5G (commercial SKUs only), Surface Pro X
-- Surface Laptop (1st Gen), Surface Laptop 2, Surface Laptop 3 (Intel processors only), Surface Laptop Go, Surface Laptop 4 (commercial SKUs only), Surface Laptop 5 (commercial SKUs only), Surface Laptop SE, Surface Laptop Go 2 (commercial SKUs only), Surface Laptop Go 3 (commercial SKUs only)
+- Surface Pro 4, Surface Pro (5th Gen), Surface Pro 6, Surface Pro 7, Surface Pro 7+ (commercial SKUs only), Surface Pro 8 (commercial SKUs only), Surface Pro 9 & Surface Pro 9 with 5G (commercial SKUs only), Surface Pro 10, Surface Pro X
+- Surface Laptop (1st Gen), Surface Laptop 2, Surface Laptop 3 (Intel processors only), Surface Laptop Go, Surface Laptop 4 (commercial SKUs only), Surface Laptop 5 (commercial SKUs only), Surface Laptop 6 (commercial SKUs only), Surface Laptop SE, Surface Laptop Go 2 (commercial SKUs only), Surface Laptop Go 3 (commercial SKUs only)
 - Surface Studio (1st Gen), Surface Studio 2, Surface Studio 2+
 - Surface Book (all generations)
 - Surface Laptop Studio (all generations, commercial SKUs only)

@@ -25,9 +25,12 @@ EHS Plus with On-Site is a commercial Protection Plan available for purchase by 
 
 ### Eligible devices (commercial versions only)
 
-- Microsoft Surface Laptop 5 for Business
-- Microsoft Surface Pro 9 for Business
-- Microsoft Surface Pro 9 with 5G for Business
+<!-- confirm new devices -->
+- Surface Laptop 6 for Business
+- Surface Laptop 5 for Business
+- Surface Pro 10 for Business 
+- Surface Pro 9 for Business
+- Surface Pro 9 with 5G for Business
 
 ### What is covered
 
