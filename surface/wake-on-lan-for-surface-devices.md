@@ -8,7 +8,7 @@ ms.author: chauncel
 ms.topic: how-to
 ms.reviewer: jesko
 manager: frankbu
-ms.date: 04/04/2023
+ms.date: 04/09/2024
 appliesto:
 - Windows 10
 - Windows 11
@@ -50,6 +50,7 @@ Surface devices with support for WOL:
 - Surface Pro 8
 - Surface Pro 9
 - Surface Pro 9 with 5G
+- Surface Pro 10
 - Surface Book (all generations)
 - Surface Go (all generations)
 - Surface Laptop (all generations)

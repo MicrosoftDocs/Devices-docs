@@ -22,7 +22,7 @@ Today, managing device firmware is an inconsistent experience and often involves
 
 Microsoft Surface has been using a unified approach to firmware protection and device security since 2015 through complete end-to-end ownership of the hardware design, in-house firmware development, and a holistic approach to device updates and management.
 
-For Surface, our Unified Extensible Firmware Interface (UEFI)<sup>[1](#references)</sup> is maintained in-house, regularly updated through Windows Update, and seamlessly deployed for management through Windows Autopilot, minimizing risk and maximizing control at the firmware level before the device boots. Microsoft provides full transparency of the codebase in our UEFI through the Open Source [Project Mu](https://microsoft.github.io/mu/) on GitHub, managed by Microsoft Intune admin center.
+For Surface, our Unified Extensible Firmware Interface (UEFI) is maintained in-house, regularly updated through Windows Update, and seamlessly deployed for management through Windows Autopilot, minimizing risk and maximizing control at the firmware level before the device boots. Microsoft provides full transparency of the codebase in our UEFI through the Open Source [Project Mu](https://microsoft.github.io/mu/) on GitHub, managed by Microsoft Intune admin center.
 
 ## Microsoft designed and built components
 
@@ -74,10 +74,14 @@ Both VBS and HVCI are enabled out of the box in the following Surface devices:
 - Surface Pro 8
 - Surface Pro 9
 - Surface Pro 9 with 5G
+- Surface Pro 10
 - Surface Laptop Studio
+- Surface Laptop Studio 2
 - Surface Go 3
+- Surface Go 4
 - Surface Laptop 4
 - Surface Laptop 5
+- Surface Laptop 6
 - Surface Pro 7+
 - Surface Book 3
 - Surface Laptop Go
@@ -137,10 +141,6 @@ IT admins can remotely manage Surface devices without physically touching every 
 | DCFI (Device Firmware Configuration Interface) | Delivers cloud-scale remote firmware management with zero-touch device provisioning. Microsoft's UEFI allows stronger DCFI implementation, enabling organizations to disable hardware elements and remotely lock UEFI using Intune. ¹                                                                                                                                                                          | [Intune management of Surface UEFI settings](surface-manage-dfci-guide.md)<br> <br>[Manage Surface UEFI settings](manage-surface-uefi-settings.md)                                          |
 | SEMM (Surface Enterprise Management Mode)      | Enables centralized enterprise engagement of UEFI firmware settings across on-premises, hybrid, and cloud environments.¹                                                                                                                                                                                                                                                                                           | [Surface Enterprise Management Mode](surface-enterprise-management-mode.md)                                                                                                                                                       |
 | Windows Update for Business                    | Enables IT admins to keep the Windows 10 devices in their organization continually updated with the latest security defenses, Windows features, and Surface firmware by directly connecting these systems to the Windows Update service. You can use Group Policy or MDM solutions such as Microsoft Intune to configure the Windows Update for Business settings that control how and when Surface devices are updated. | [Windows Update for Business](/windows/deployment/update/waas-manage-updates-wufb)<br> <br>[Manage and deploy Surface driver and firmware updates](manage-surface-driver-and-firmware-updates.md) |
-
-## References
-
-1. Surface Go and Surface Go 2 use a third-party UEFI and do not support DFCI. DFCI is currently available for Surface Studio 2+, Surface Pro 9 & Surface Pro 9 with 5G, Surface Laptop 5, Surface Laptop 4, Surface Laptop 3, Surface Laptop Studio, Surface Book 3, Surface Laptop SE, Surface Laptop Go 2, Surface Laptop Go, Surface Pro 8, Surface Pro 7+, Surface Pro 7, Surface Pro X, and Surface Go 3.
 
 ## Learn more
 
