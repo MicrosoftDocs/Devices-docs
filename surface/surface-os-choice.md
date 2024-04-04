@@ -22,7 +22,7 @@ appliesto:
 > [!NOTE]
 > Effective March 31, 2024, Microsoft no longer offers Windows 10 Pro as a downgrade choice in operating systems on devices delivered from the factory. PC manufacturers can no longer install Windows 10 Pro on Windows 11 Pro PCs during manufacturing. Any current stock of devices with Windows 10 preinstalled is only available while supplies last. The right for customers to install Windows 10 Pro on OEM-licensed versions of Windows 11 Pro continues while Windows 10 Pro is still supported.
 
-### Windows 10 final version
+## Windows 10 final version
 
 Windows 10 version 22H2 is the [final version of Windows 10](/windows/release-health/release-information) with monthly security updates continuing through October 14, 2025. (The Windows 10 IoT Enterprise Long-Term Servicing Channel (LTSC) and Windows 10 IoT Enterprise will continue to receive updates based on their specific lifecycles.)
 
@@ -93,11 +93,6 @@ In a commercial organization, IT admins can create a Windows 10 custom image wit
 
 > [!IMPORTANT]
 > After Windows 10 EOS, on October 14, 2025, Windows 10 MSI files for Surface devices will no longer be updated with newer drivers and firmware.
-
-### References
-
-1. Windows 10 Downgrade Facilitation SKU offered for Windows 11-capable devices.  
-2. Effective July 1, 2023, additional fee increased from $30 to $50 for all new eligible devices and the following devices: Surface Pro 9, Surface Laptop 5, Surface Go 3 LTE, and Surface Pro 8 LTE. The fee remains set at $30 for Surface Laptop Go 2, Surface Laptop 4, and Surface Laptop Studio.
 
 ### Learn more
 
