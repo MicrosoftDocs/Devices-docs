@@ -174,8 +174,6 @@
         items: 
         - name: Wake-on-LAN for Surface devices
           href: wake-on-lan-for-surface-devices.md
-        - name: Wake-on-LAN with Surface Thunderbolt 4 Dock
-          href: wake-on-lan-surface-thunderbolt4-dock.md
         - name: Wake-on-LAN with Surface Dock 2
           href: wake-on-lan-surface-dock2.md
         - name: Wake-on-Power for Surface devices
