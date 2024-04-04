@@ -96,6 +96,5 @@ To enable WOL on Surface Studio 2, you must use the following procedure:
 
 ## Learn more
 
-- [Wake-on-LAN for Surface Thunderbolt 4 Dock](wake-on-lan-surface-thunderbolt4-dock.md)
 - [Wake On LAN for Surface Dock 2](wake-on-lan-surface-dock2.md)
 - [System Power States](/windows/win32/power/system-power-states)
