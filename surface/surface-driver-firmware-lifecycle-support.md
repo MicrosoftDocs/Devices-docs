@@ -6,7 +6,7 @@ ms.localizationpriority: high
 author: coveminer
 ms.author: chauncel
 ms.topic: overview
-ms.date: 01/25/2024
+ms.date: 04/09/2024
 ms.reviewer: phorton
 manager: frankbu
 appliesto:
@@ -70,6 +70,8 @@ The following table shows the release and end-of-servicing dates for each Surfac
 | Surface Go 4                           | September 21, 2023  | September 21, 2029                           |
 | Surface Laptop Go 3                    | October 3, 2023     | October 3, 2029                              |
 | Surface Laptop Studio 2                | October 3, 2023     | October 3, 2029                              |
+| Surface Laptop 6                       | April 9, 2024       | April 9, 2030                                |
+| Surface Pro 10                         | April 9, 2024       | April 9, 2030                                |
 
 ## Legacy products
 
