@@ -6,7 +6,7 @@ ms.localizationpriority: medium
 author: coveminer
 ms.author: chauncel
 ms.topic: overview
-ms.date: 11/07/2022
+ms.date: 04/09/2024
 ms.reviewer: dashap
 manager: frankbu
 appliesto:
@@ -51,6 +51,7 @@ Surface Dock 2 is designed to simplify IT management, enabling admins to automat
 - Dual 4K@60Hz. Supports up to two displays on the following devices:
 
   - Surface Laptop Studio
+  - Surface Laptop Studio 2
   - Surface Book 3
   - Surface Pro 8
   - Surface Pro 7
@@ -59,8 +60,10 @@ Surface Dock 2 is designed to simplify IT management, enabling admins to automat
   - Surface Laptop 3
   - Surface Laptop 4
   - Surface Laptop 5
+  - Surface Laptop 6
   - Surface Pro 9 
   - Surface Pro 9 with 5G
+  - Surface Pro 10
 
 - Dual 4K@30Hz. Supports up to two displays on the following devices:
 
