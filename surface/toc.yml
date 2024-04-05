@@ -17,7 +17,7 @@
            href: surface-dock2-overview.md
          - name: Azure Virtual Desktop on Surface
            href: windows-virtual-desktop-surface.md	
-         - name: Surface OS choice
+         - name: Downgrade to Windows 10
            href: surface-os-choice.md
          - name: Surface security overview
            href: surface-security.md    		   
