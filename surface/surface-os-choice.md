@@ -51,7 +51,6 @@ Use one of the following options:
 
 - Use the downgrade rights allowed by the OEM End User License Agreement (EULA). This means you can install Windows 10 Pro on a Surface Device that has a Windows 11 Pro license, as long as you comply with the terms and conditions of the OEM EULA.
 - Use the Software Assurance rights with volume license agreements. This means that you can run Windows 10 Pro on a Surface device that has a Windows 11 Pro license, as long as you have a valid volume license agreement that covers the device and the operating system.
-- To learn more, see [Manage & deploy Surface driver & firmware updates](manage-surface-driver-and-firmware-updates.md).
 
 ## Downgrade individual devices to Windows 10
 
@@ -87,7 +86,7 @@ In a commercial organization, IT admins can create a Windows 10 custom image wit
 
    :::image type="content" source="images/download-win10-msi-example.png" alt-text="Screenshot that shows selection of Windows 10 MSI file.":::
 
-3.  Integrate the MSI or the drivers/firmware from the MSI with the appropriate deployment tool for your environment.
+2.  Integrate the MSI or the drivers/firmware from the MSI with the appropriate deployment tool for your environment.
 
    - Examples include: [Microsoft Endpoint Configuration Manager](/mem/configmgr) including [Microsoft Deployment Toolkit (MDT)](/mem/configmgr/mdt/), [PowerShell](/powershell/), [DISM - Deployment Image Servicing and Management](/windows-hardware/manufacture/desktop/dism---deployment-image-servicing-and-management-technical-reference-for-windows), or third-party solutions.
 
