@@ -31,18 +31,20 @@ Applies to:
 
 The Surface app is a lightweight Microsoft Store app that provides control of many Surface-specific settings and options with quick access to device information including serial number, Surface model name, UEFI version, and related drivers.  
 
-Customers using Windows Update will ordinarily receive Surface app as part of automatic updates. But if your organization is preparing images for deployment to your Surface devices, you may want to include the Surface app (formerly called the Surface Hub) in your imaging and deployment process instead of requiring users of each individual device to download and install the app from the Microsoft Store or your Microsoft Store for Business.
+Surface app comes preinstalled on Surface devices. But if your organization is preparing images for deployment to your Surface devices, you may want to include the Surface app in your imaging and deployment process. 
 
 > [!NOTE]
-> This article does not apply to Surface Pro X or Surface Pro 9 with 5G. For more information, refer to [Deploying, managing, and servicing Surface Pro X](surface-pro-arm-app-management.md)
+> This article does not apply to Surface Pro X or Surface Pro 9 with 5G. For more information, see [Deploy, manage, and service ARM-based Surface devices](surface-pro-arm-app-management.md).
 
 ## Surface app overview
 
-The Surface app is available as a free download from the [Microsoft Store](https://www.microsoft.com/store/apps/Surface/9WZDNCRFJB8P). Users can download and install it from the Microsoft Store, but if your organization uses Microsoft Store for Business instead, you will need to add it to your store’s inventory and possibly include the app as part of your Windows deployment process. These processes are discussed throughout this article. For more information about Microsoft Store for Business, see [Microsoft Store for Business](/microsoft-store/).
+The Surface app is available as a free download from the [Microsoft Store](https://www.microsoft.com/store/apps/Surface/9WZDNCRFJB8P). Users can download and install it from the Microsoft Store, but if your organization uses Microsoft Store for Business instead, you may need to add it to your store’s inventory and possibly include the app as part of your Windows deployment process. These processes are discussed throughout this article. For more information about Microsoft Store for Business, see: 
+
+- [Microsoft Store for Business and Microsoft Store for Education overview](/microsoft-store/microsoft-store-for-business-overview)
 
 ## Add Surface app to a Microsoft Store for Business account
 
-Before users can install or deploy an app from a company’s Microsoft Store for Business account, the desired app(s) must first be made available and licensed to the users of a business.
+Before users can install or deploy an app from a company’s Microsoft Store for Business account, the desired app(s) must first be made available and licensed to the users of a business. 
 
 1. If you have not already done so, create a [Microsoft Store for Business account](https://www.microsoft.com/business-store).
 
@@ -203,3 +205,7 @@ After import, the Surface app will be available for selection in the **Applicati
 3. Select **Install a single application** and specify the **Surface App** as the **Application to be installed**.
 
 For more information about including apps into your Windows deployments, see [Prepare for deployment with MDT](/windows/deployment/deploy-windows-mdt/prepare-for-windows-deployment-with-mdt).
+
+### Learn more
+
+- [Microsoft Store for Business and Microsoft Store for Education overview](/microsoft-store/microsoft-store-for-business-overview)
