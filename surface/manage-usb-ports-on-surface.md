@@ -31,14 +31,13 @@ Before you begin the process outlined in this article, familiarize yourself with
 
 The process consists of the following parts:
 
-1. **Enrollment:** Use Surface UEFI Configurator to enroll host devices and Surface docks into SEMM, following the instructions in [Secure Surface Dock ports with SEMM](secure-surface-dock-ports-semm.md). Surface Dock 2 or Surface Thunderbolt 4 Dock are supported for this scenario. Key to this workflow is the ability to turn off USB-C data, Ethernet data, and USB-C audio whenever devices are disconnected from an authorized Surface Dock located, for example, in a  workplace environment handling highly sensitive information.
+1. **Enrollment:** Enroll Surface devices and docks into SEMM using the Surface UEFI Configurator, as outlined in [Secure Surface Dock ports with SEMM](secure-surface-dock-ports-semm.md). Supported docks include Surface Dock 2 and Surface Thunderbolt 4 Dock. Key to this workflow is the ability to turn off USB-C data, Ethernet data, and USB-C audio whenever devices are disconnected from an authorized Surface Dock located, for example, in a  workplace environment handling highly sensitive information.
 
 2. **Client configuration:** Install **UEFI Manager**, available from [Surface Tools for IT](https://www.microsoft.com/download/details.aspx?id=46703), on all Surface devices targeted for management.  
 
 3. **Powershell scripts:** Go to [Surface Tools for IT](https://www.microsoft.com/download/details.aspx?id=46703) to download and modify the PowerShell scripts as appropriate for your environment. Use Microsoft Configuration Manager to deploy the scripts (as applications) to target devices, following the instructions in [Use Microsoft Configuration Manager to manage devices with SEMM](use-system-center-configuration-manager-to-manage-devices-with-semm.md). 
 
 Refer to the embedded comments for usage guidance. See [Appendix: SEMM PowerShell Scripts tech reference](#appendix-semm-powershell-scripts-tech-reference) for definitions and prerequisites. 
-
 
 ## Manage USB-A ports
 
@@ -48,7 +47,7 @@ For USB-A ports supporting USB-2 and USB-3, you can turn off the USB data protoc
 
 Managing USB-C ports with their support for DisplayPort and USB Power Delivery provides more options beyond turning off all functionality. For example, you can prevent data connectivity to stop users from copying data from USB storage but retain the ability to extend displays and charge the device via a USB-C dock.
 
-Beginning with Surface Pro 8, Surface Laptop Studio, and Surface Go 3, these options are now available via the SEMM PowerShell scripts.
+Beginning with Surface Pro 8, Surface Laptop Studio, and Surface Go 3, granular USB-C management options are available via the SEMM PowerShell scripts.
 
 1. Go to [Surface Tools for IT](https://www.microsoft.com/download/details.aspx?id=46703) and download **SEMM_PowerShell.zip**.
 
@@ -57,16 +56,16 @@ Beginning with Surface Pro 8, Surface Laptop Studio, and Surface Go 3, these opt
 > [!CAUTION]
 > Keep certificates in a safe location and ensure they're properly backed up. Without them it's impossible to reset Surface UEFI, change managed Surface UEFI settings, or remove SEMM from an enrolled Surface device.
 
-## Dynamic USB-C disablement
+## Dynamic USB-C Disablement
 
-Dynamic USB-C disablement is a new feature that enables customers operating in highly secure work environments to prevent USB theft of confidential data and provide more control to organizations. When paired with the Surface Thunderbolt 4 Dock, IT admins can lock down USB-C ports whenever eligible Surface devices are undocked or connected to an unauthorized dock.
+Dynamic USB-C Disablement enables customers operating in highly secure work environments to prevent USB theft of confidential data and provide more control to organizations. When paired with the Surface Thunderbolt 4 Dock, IT admins can lock down USB-C ports whenever eligible Surface devices are undocked or connected to an unauthorized dock.
 
 > [!TIP]
-> Eligible Surface devices include Surface Pro 10, Surface Laptop 6, and Surface Laptop Studio 2.
+> This feature is available on Surface Pro 10, Surface Laptop 6, and Surface Laptop Studio 2.
 
 In this scenario, when users are connected to an authorized dock in the office, the USB-C ports will have full functionality over their devices. However, when they go off-site, they can still connect to a dock to use accessories or a monitor but can't use the USB ports to transfer data.
 
-Dynamic USB-C disablement provides IT admins with greater flexibility to manage devices with a new "Mode 3" in addition to existing operational modes:
+Dynamic USB-C Disablement provides IT admins with greater flexibility to manage devices with a new "Mode 3" in addition to existing operational modes:
 
 * **Mode 0 (Default Mode):** The default mode when SEMM isn't configured.
 
@@ -74,7 +73,7 @@ Dynamic USB-C disablement provides IT admins with greater flexibility to manage 
 
 * **Mode 2 (Fully Disabled):** USB-C and Ethernet data are disabled. Audio via USB-C is also disabled. Display out and Power functionality is disabled.
 
-* **Mode 3 (USB Port Authenticated)** also known as Dynamic USB-C disablement. USB-C data, Ethernet data, USB-C audio, display out and power functions only when the device is connected to an authorized Surface Thunderbolt 4 Dock. If connected to an unauthorized dock, only display out and Power functions will work.
+* **Mode 3 (USB Port Authenticated)** also known as Dynamic USB-C Disablement. USB-C data, Ethernet data, USB-C audio, display out and power functions only when the device is connected to an authorized Surface Thunderbolt 4 Dock. If connected to an unauthorized dock, only display out and Power functions will work.
 
 ### Target behaviors
 
@@ -110,7 +109,7 @@ Dynamic USB-C disablement provides IT admins with greater flexibility to manage 
 
 ### Department vs. organizational provisioning
 
-Dynamic USB-C disablement allows for a many-to-many relationship between the host and dock. This lets customers have hosts and docks configured to work with all hosts/docks or make it department-specific to help with asset management.
+Dynamic USB-C Disablement allows for a many-to-many relationship between the host and dock. This lets customers have hosts and docks configured to work with all hosts/docks or make it department-specific to help with asset management.
 
 ### Table 2. Example relationships: Host device with Surface Thunderbolt 4 Dock
 
