@@ -21,14 +21,14 @@ To address more granular control over the security of Surface devices, the v3.11
 
 Before you can configure the advanced security features of your Surface device, you must first install the v3.11.760.0 UEFI update. This update is installed automatically if you receive your updates from Windows Update. For more information about how to configure Windows to update automatically by using Windows Update, see [How to configure and use Automatic Updates in Windows](https://support.microsoft.com/kb/306525).
 
-To update the UEFI on Surface Pro 3, you can download and install the Surface UEFI updates as part of the Surface Pro 3 Firmware and Driver Pack. These firmware and driver packs are available from the [Surface Pro 3 page](https://www.microsoft.com/download/details.aspx?id=38826) on the Microsoft Download Center. You can find out more about the firmware and driver packs at [Download drivers and firmware for Surface](https://support.microsoft.com/help/4023482). The firmware and driver packs are available as both self-contained Windows Installer (.msi) and archive (.zip) formats. You can find out more about these two formats and how you can use them to update your drivers at [Manage and deploy Surface driver and firmware updates](manage-surface-driver-and-firmware-updates.md).
+To update the UEFI on Surface Pro 3, you can download and install the Surface UEFI updates as part of the Surface Pro 3 Firmware and Driver Pack. These firmware and driver packs are available from the [Surface Pro 3 page](https://www.microsoft.com/download/details.aspx?id=38826) on the Microsoft Download Center. You can find out more about the firmware and driver packs at [Download drivers and firmware for Surface](https://support.microsoft.com/help/4023482). The firmware and driver packs are available in two formats: self-contained Windows Installer (.msi) and archive (.zip). You can find out more about these two formats and how you can use them to update your drivers at [Manage and deploy Surface driver and firmware updates](manage-surface-driver-and-firmware-updates.md).
 
-## Manually configure additional security settings
+## Manually configure other security settings
 
 >[!NOTE]
 >To enter firmware setup on a Surface device, begin with the device powered off, press and hold the **Volume Up** button, then press and release the **Power** button, then release the **Volume Up** button after the device has begun to boot.
 
-After the v3.11.760.0 UEFI update is installed on a Surface device, an additional UEFI menu named **Advanced Device Security** becomes available. If you select this menu, the following options are displayed:
+After the v3.11.760.0 UEFI update is installed on a Surface device, another UEFI menu named **Advanced Device Security** becomes available. If you select this menu, the following options are displayed:
 
 | Option         | Description                                                                                                                                                                          | Available settings (default listed in bold) |
 |----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------|
@@ -49,7 +49,7 @@ As an IT professional with administrative privileges, you can automate the confi
 **Prerequisites**
 
 - The sample scripts on this page apply the previously mentioned extension and therefore assume that the tool is installed on the device being managed.
-- The scripts must be run with administrative privilege.
+- The scripts must be run with administrative privileges.
 - The Windows PowerShell command [**Set-ExecutionPolicy Unrestricted**](https://technet.microsoft.com/library/ee176961.aspx) must be called before running sample scripts if they aren't digitally signed.
 
 **Sample scripts**
@@ -144,7 +144,9 @@ foreach ($uefiOption in $uefiOptions)
 }
 ```
 
-Status code interpretation
+### Status code interpretation
+
+The following status codes help interpret the results of UEFI configuration changes:
 
 - 00 - The proposed update was a success
 - 02 - One of the proposed values had an invalid value
