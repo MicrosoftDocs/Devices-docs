@@ -51,7 +51,7 @@ To adjust UEFI settings during system startup:
 
 The PC information page includes detailed information about your Surface device:
 
-- **Model** – Your Surface device's model, such as Surface Laptop Studio 2 or Surface Pro 9, is displayed here. The exact configuration of your device is not shown (such as processor, disk size, or memory size).
+- **Model** – Your Surface device's model, such as Surface Laptop Studio 2 or Surface Pro 9, is displayed here. The exact configuration of your device isn't shown (such as processor, disk size, or memory size).
 - **System UUID** – This Universally Unique Identification number is specific to your device and is used to identify the device during deployment or management.
 
 - **Serial number** – This number identifies this specific Surface device for asset tagging and support scenarios.
@@ -102,7 +102,7 @@ On the Security page, you can also change the configuration of Secure Boot on yo
 
 *Figure 4. Configure Secure Boot*
 
-Depending on your device, you may also see if your TPM is enabled or disabled. If you do not see the **Enable TPM**  setting, open tpm.msc in Windows to check the status, as shown in Figure 5. The TPM is used to authenticate your device's data encryption with BitLocker. To learn more, see [BitLocker overview](/windows/security/information-protection/bitlocker/bitlocker-overview).
+Depending on your device, you may also see if your TPM is enabled or disabled. If you don't see the **Enable TPM**  setting, open tpm.msc in Windows to check the status, as shown in Figure 5. The TPM is used to authenticate your device's data encryption with BitLocker. To learn more, see [BitLocker overview](/windows/security/information-protection/bitlocker/bitlocker-overview).
 
 ![TPM console.](images/manage-surface-uefi-fig5-a.png "TPM console")
 
@@ -162,7 +162,7 @@ The Management page allows you to manage the use of Zero Touch UEFI Management a
 
 *Figure 8. Manage access to Zero Touch UEFI Management and other features*
 
-Zero Touch UEFI Management lets you remotely manage UEFI settings using a device profile within Intune called Device Firmware Configuration Interface (DFCI). If you do not configure this setting, the ability to manage eligible devices with DFCI is set to **Ready**. To prevent DFCI, select **Opt-Out**.
+Zero Touch UEFI Management lets you remotely manage UEFI settings using a device profile within Intune called Device Firmware Configuration Interface (DFCI). If you don't configure this setting, the ability to manage eligible devices with DFCI is set to **Ready**. To prevent DFCI, select **Opt-Out**.
 
 ## UEFI Exit page
 
@@ -174,7 +174,7 @@ Use the **Restart Now** button on the **Exit** page to exit UEFI settings, as sh
 
 ## Surface UEFI boot screens
 
-When you update the Surface device firmware using either Windows Update or manual installation, the updates are not applied immediately to the device but during the next reboot cycle. You can learn more about the Surface firmware update process in [Manage and deploy Surface driver and firmware updates](manage-surface-driver-and-firmware-updates.md). The firmware update progress is displayed on a screen with progress bars of different colors to indicate the firmware for each component. Each component's progress bar is shown in Figures 9 through 18.
+When you update the Surface device firmware using either Windows Update or manual installation, the updates aren't applied immediately to the device but during the next reboot cycle. You can learn more about the Surface firmware update process in [Manage and deploy Surface driver and firmware updates](manage-surface-driver-and-firmware-updates.md). The firmware update progress is displayed on a screen with progress bars of different colors to indicate the firmware for each component. Each component's progress bar is shown in Figures 9 through 18.
 
 ![Surface UEFI firmware update with blue progress bar.](images/manage-surface-uefi-fig8.png "Surface UEFI firmware update with blue progress bar")
 
@@ -225,7 +225,7 @@ When you update the Surface device firmware using either Windows Update or manua
 
 ## References
 
-1. Surface Go and Surface Go 2 use a third-party UEFI and do not support DFCI. DFCI is currently available for Surface Studio 2+, Surface Pro 9 & Surface Pro 9 with 5G, Surface Laptop 5, Surface Laptop 4, Surface Laptop 3, Surface Laptop Studio, Surface Book 3, Surface Laptop SE, Surface Laptop Go 2, Surface Laptop Go, Surface Pro 8, Surface Pro 7+, Surface Pro 7, Surface Pro X, and Surface Go 3.
+1. Surface Go and Surface Go 2 use a third-party UEFI and don't support DFCI. DFCI is currently available for Surface Studio 2+, Surface Pro 9 & Surface Pro 9 with 5G, Surface Laptop 5, Surface Laptop 4, Surface Laptop 3, Surface Laptop Studio, Surface Book 3, Surface Laptop SE, Surface Laptop Go 2, Surface Laptop Go, Surface Pro 8, Surface Pro 7+, Surface Pro 7, Surface Pro X, and Surface Go 3.
 
 ## Related topics
 
