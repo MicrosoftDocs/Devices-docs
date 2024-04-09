@@ -38,7 +38,7 @@ Surface Thunderbolt 4 Dock helps improve IT efficiency and reduce overhead and s
 
 ## General system requirements
 
-Surface Thunderbolt 4 Dock is optimized for devices with a USB4/ Thunderbolt 4 port, including the following Surface devices:
+Surface Thunderbolt 4 Dock is optimized for devices with a USB4/ Thunderbolt 4 port, including the following Surface for Business devices:
 
 - Surface Laptop 6
 - Surface Laptop 5
@@ -50,7 +50,7 @@ Surface Thunderbolt 4 Dock is optimized for devices with a USB4/ Thunderbolt 4 p
 > [!NOTE]
 > Thunderbolt 4 connection supports **up to two 4K external displays at 60Hz** (when supported by device and display).
 
-Surface Thunderbolt 4 Dock is compatible with the following Surface devices with USB-C ports:
+Surface Thunderbolt 4 Dock is compatible with the following Surface for Business devices with USB-C ports:
 
 - Surface Pro 9 with 5G
 - Surface Pro 7+
