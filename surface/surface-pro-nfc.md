@@ -17,7 +17,7 @@ appliesto:
 
 Near Field Communication (NFC) in Surface Pro 10<sup>1</sup> is designed to enhance security and convenience for users. It facilitates Microsoft Entra ID (formerly Azure AD) and Microsoft Account (MSA) authentication via FIDO 2.0 standards, enabling secure access and sign-in. Additionally, Surface Pro 10 is capable of reading and writing NFC tags.
 
-Although it can read information stored on the magnetic stripe of a bank card, NFC on Surface Pro 10 doesn't support payment transactions. 
+Although it can read information stored on the magnetic stripe of a bank card, NFC on Surface Pro 10 doesn't support payment transactions.
 
 We engineered NFC in Surface Pro 10 for enterprise customers where the primary applications of NFC technology extend to authentication, access control, and the exchange of information. These use cases are fundamental in environments that demand heightened security and streamlined operations, such as workplaces and educational institutions.
 
@@ -56,7 +56,7 @@ NFC wayfinding takes advantage of the simplicity and convenience of NFC technolo
 
 #### Custom lock-screen image
 
-To help end users find the NFC reader on the device, a custom lock screen image is available to download and deploy to devices in your organization. See the [Appendix for available downloads in multiple languages](#appendix-nfc-lock-screens-for-surface-pro-10). 
+To help end users find the NFC reader on the device, a custom lock screen image is available to download and deploy to devices in your organization. See [Download NFC Lock Screens for Surface Pro 10](#download-nfc-lock-screens-for-surface-pro-10) on this page.
 
 :::image type="content" source="images/nfc-lockscreen-example.png" alt-text="Screenshot showing an example of a custom lock screen image for Surface Pro 10 for Business.":::
 
@@ -77,7 +77,7 @@ NFC on Surface Pro 10 supports the use of FIDO2.0 keys, for secure authenticatio
 
 The following FIDO2.0 keys are supported and recommended for use:
 
-- **YubiKey**: Offers a portfolio of NFC security keys that support a broad set of security protocols. 
+- **YubiKey**: Offers a portfolio of NFC security keys that support a broad set of security protocols.
 - **Identiv**: Offers a range of security solutions, including FIDO2 security keys.
 - **Thetis**: Provides FIDO2 certified security keys designed for secure access.
 - **Token2 Card:** A compact and portable security key option.
@@ -106,7 +106,7 @@ The following table includes supported non-FIDO NFC keys, listing various types 
 | Infineon Tech AG         | A/4          | ISO 7816, ISO 14443                                |
 | Samsung Java card        | A/4          | ISO 7816, ISO 14443                                |
 
-## Manage NFC 
+## Manage NFC
 
 ### Disable NFC via device settings
 
@@ -145,26 +145,28 @@ For a managed approach, IT admins can disable NFC using SEMM (Surface Enterprise
 
 1. NFC is only available on Wi-Fi configurations of Surface Pro 10.
 
-## Appendix: NFC Lock Screens for Surface Pro 10
+## Download NFC Lock Screens for Surface Pro 10
+
+To help end users find the NFC reader on the device, a custom lock screen image is available to download and deploy to devices in your organization.
 
 For the best user experience, we recommend modifying the following settings on Surface Pro 10:
 
 1. Navigate to **Settings** > **Personalization** > **Colors**.
 
-- Toggle **Transparency effects** to **Off**.
+    - Toggle **Transparency effects** to **Off**.
   
 2. Navigage to **Settings** > **Personalization** > **Lock screen**.
 
-- Toggle **Make the lock screen image react when I move my PC** to **Off**.
+    - Toggle **Make the lock screen image react when I move my PC** to **Off**.
   
-These settings can be managed when deploying the lock screen via Microsoft Intune or with Administrative Templates in Windows Group Policy. To learn more, see [Group Policy Settings Reference](https://www.microsoft.com/download/details.aspx?id=105668)
+These settings can be managed when deploying the lock screen via Microsoft Intune or with Administrative Templates in Windows Group Policy. To learn more, see [Group Policy Settings Reference](https://www.microsoft.com/download/details.aspx?id=105668).
 
 ### NFC Lock Screen downloads
 
-As shown in the following figure, available downloads include: 
+As shown in the following figure, available downloads include:
 
 - A default lock screen with a user-friendly interface: NFC Lock Screen - with background.
-- Separate black and white icons for customization. 
+- Separate black and white icons for customization.
 
 :::image type="content" source="images/nfc-lockscreen-example-assets.png" alt-text="Screenshot that shows available downloads of NFC Lock Screen for Surface Pro 10.":::
 
