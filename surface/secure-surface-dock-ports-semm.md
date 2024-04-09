@@ -15,13 +15,14 @@ appliesto:
 ---
 # Secure Surface Dock ports with Surface Enterprise Management Mode (SEMM)
 
-## Introduction
-
 SEMM for Dock enables IT admins to secure and manage ports on Surface Dock 2 or Surface Thunderbolt 4 Dock by configuring UEFI settings in a Windows Installer configuration package (.msi file) deployed to compatible Surface devices across a corporate environment.
 
-### Supported devices
+## Supported devices
 
-Managing Surface Dock 2 or Surface Thunderbolt 4 Dock with SEMM is available for docks connected to Surface Book 3, Surface Laptop Studio (all generations), Surface Laptop 5, Surface Laptop 4, Surface Laptop 3, Surface Laptop Go (all generations), Surface Pro 9 & Surface Pro 9 with 5G, Surface Pro 8, Surface Pro 7+, Surface Pro 7, Surface Pro X. These compatible Surface devices are commonly referred to as **host devices**. A package is applied to host devices based on whether a host device is **Authenticated** or **Unauthenticated**. Configured settings reside in the UEFI layer on host devices, enabling IT admins to manage compatible Surface Docks like any other built-in peripheral, such as the camera.
+Managing Surface Dock 2 or Surface Thunderbolt 4 Dock with SEMM is available for docks connected to Surface Laptop Studio (all generations), Surface Laptop 6, Surface Laptop 5, Surface Laptop 4, Surface Laptop 3, Surface Laptop Go (all generations), Surface Pro 10, Surface Pro 9, Surface Pro 9 with 5G, Surface Pro 8, Surface Pro 7+, Surface Pro 7, Surface Pro X, and Surface Book 3. 
+
+> [!TIP]
+> These compatible Surface devices are commonly referred to as **host devices**. A package is applied to host devices based on whether a host device is **Authenticated** or **Unauthenticated**. Configured settings reside in the UEFI layer on host devices, enabling IT admins to manage compatible Surface Docks like any other built-in peripheral, such as the camera.
 
 ## Scenarios
 
@@ -29,7 +30,12 @@ Restricting Surface Dock 2 or Surface Thunderbolt 4 Dock to authorized persons s
 
 - **Granular USB-C Disablement.** Managing USB-C ports with their support for DisplayPort and USB Power Delivery provides more options beyond turning off all functionality. For example, you can prevent data connectivity to stop users from copying data from USB storage but retain the ability to extend displays and charge the device via a USB-C dock. Beginning with Surface Pro 8, Surface Laptop Studio, and Surface Go 3, these options are now available via the SEMM PowerShell scripts.
 
-- **Dynamic USB-C Disablement.** USB-C disablement is a new feature that enables customers operating in highly secure work environments to prevent USB theft of confidential data and provide more control to organizations. When paired with the Surface Thunderbolt 4 Dock, IT admins can lock down USB-C ports whenever Surface Laptop Studio 2 is undocked or connected to an unauthorized dock. This means that when your users are connected to an authorized dock in the office, the USB-C ports will have full functionality over their devices. However, when they go off-site, they can still connect to a dock to use accessories or a monitor but cannot use the USB ports to transfer data. 
+- **Dynamic USB-C Disablement.** Dynamic USB-C Disablement enables customers operating in highly secure work environments to prevent USB theft of confidential data and provide more control to organizations. When paired with the Surface Thunderbolt 4 Dock, IT admins can lock down USB-C ports whenever an eligible Surface device is undocked or connected to an unauthorized dock. 
+
+> [!TIP]
+> This feature is available on Surface Pro 10, Surface Laptop 6, and Surface Laptop Studio 2. 
+
+With Dynamic USB-C Disablement when users are connected to an authorized dock in the office, the USB-C ports will have full functionality over their devices. However, when they go off-site, they can still connect to a dock to use accessories or a monitor but cannot use the USB ports to transfer data. 
 
 As described in the following sections, Managing USB-C ports for these scenarios involves the following tasks:  
 
@@ -86,8 +92,8 @@ The required EKU values are listed in Table 1 and Table 2.
 
 |Certificate|Algorithm|Description|Expiration|EKU OID|
 |---|---|---|---|---|
-|Root Certificate Authority|ECDSA_P384|- Root certificate with 384-bit prime elliptic curve digital signature algorithm (ECDSA)<br>- SHA 256 Key Usage:<br>CERT_DIGITAL_SIGNATURE_KEY_USAGE<br>- CERT_KEY_CERT_SIGN_KEY_USAGE<br>CERT_CRL_SIGN_KEY_USAGE|30 years|N/A
-|Dock Certificate Authority|ECC P256 curve|- Host certificate with 256-bit elliptic-curve cryptography (ECC)<br>- SHA 256 Key Usage:<br>CERT_KEY_CERT_SIGN_KEY_USAGE<br>- Path Length Constraint = 0|20 years|1.3.6.1.4.1.311.76.9.21.2<br>1.3.6.1.4.1.311.76.9.21.3|
+|Root Certificate Authority|ECDSA_P384|- Root certificate with 384-bit prime Elliptic Curve Digital Signature Algorithm (ECDSA)<br>- Secure Hash Algorithm (SHA) 256 Key Usage:<br>CERT_DIGITAL_SIGNATURE_KEY_USAGE<br>- CERT_KEY_CERT_SIGN_KEY_USAGE<br>CERT_CRL_SIGN_KEY_USAGE|30 years|N/A
+|Dock Certificate Authority|ECC P256 curve|- Host certificate with 256-bit Elliptic Curve Cryptography (ECC)<br>- SHA 256 Key Usage:<br>CERT_KEY_CERT_SIGN_KEY_USAGE<br>- Path Length Constraint = 0|20 years|1.3.6.1.4.1.311.76.9.21.2<br>1.3.6.1.4.1.311.76.9.21.3|
 
    >[!NOTE]
    >The dock CA must be exported as a .p7b file.

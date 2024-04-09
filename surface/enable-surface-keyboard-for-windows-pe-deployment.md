@@ -14,6 +14,7 @@ appliesto:
 - Surface Laptop Studio (all generations)
 - Surface Pro 8
 - Surface Pro 9
+- Surface Pro 10
 - Windows 10
 - Windows 11
 ---
