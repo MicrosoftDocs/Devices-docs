@@ -157,7 +157,7 @@ For the best user experience, we recommend modifying the following settings on S
 
 - Toggle **Make the lock screen image react when I move my PC** to **Off**.
   
-These settings can be managed with Registry keys when deploying the lock screen via Microsoft Intune or Windows Group Policy.
+These settings can be managed when deploying the lock screen via Microsoft Intune or with Administrative Templates in Windows Group Policy. To learn more, see [Group Policy Settings Reference](https://www.microsoft.com/download/details.aspx?id=105668)
 
 ### NFC Lock Screen downloads
 
