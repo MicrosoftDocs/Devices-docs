@@ -25,10 +25,13 @@ In an era where digital security is paramount, Surface Laptop 6 for Business int
 
 The smart card reader, included on select versions of 15" models<sup>1</sup>, delivers enhanced security via its implementation of two-factor authentication (2FA). By requiring both a physical card and a PIN, the smart card reader minimizes the risk of unauthorized access, protecting against sophisticated cyber threats, including phishing and social engineering attacks.
 
-## Common Access Card (CAC) support
+## Support for Common Access Card (CAC) and Personal Identity Verification (PIV) Card
 
-The smart card reader is specifically designed to read the [Common Access Card](https://www.cac.mil/common-access-card/) (CAC), which is a specialized form of smart card used by the United States Department of Defense (DoD). The CAC provides secure two-factor authentication for active-duty military personnel, reserve personnel, civilian employees, and eligible contractor personnel.
-The smart card reader in Surface Laptop 6 facilitates authorized users with access to DoD computers, networks, and certain DoD facilities, and it can also encrypt and sign emails.
+The smart card reader is engineered to accommodate both the [Common Access Card (CAC)](https://www.cac.mil/common-access-card/) and the [Personal Identity Verification (PIV) Card](https://www.idmanagement.gov/university/piv/), used by the United States Department of Defense (DoD) and other federal agencies.
+
+- **CAC support**: The CAC provides secure two-factor authentication for active-duty military personnel, reserve personnel, civilian employees, and eligible contractor personnel. It facilitates authorized access to DoD computers, networks, and specific facilities, besides enabling the encryption and signing of emails.
+
+- **PIV card support**: Similarly, the PIV Card is used across various federal agencies for secure access to federal facilities and information systems, ensuring a standardized level of identity verification. PIV credentials have certificates, key pairs, pin numbers, biometrics, and other unique identifiers that enable two-factor authentication.
 
 ## Compliance and regulatory adherence
 
