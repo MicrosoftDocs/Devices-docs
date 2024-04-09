@@ -148,4 +148,4 @@ For more information, see the following resources:
 <a id="2">2.</a> Battery life varies significantly with settings, usage and other factors.<br>
 <a id="3">3.</a> Service availability and performance subject to service provider's network. Contact your service provider for details, compatibility, pricing, SIM card, and activation. See all specs and frequencies at surface.com.<br>
 <a id="4">4.</a> Forrester Consulting, "A Forrester Total Economic Impact™ Study: Maximizing Your ROI from Microsoft 365 Enterprise with Microsoft Surface," commissioned by Microsoft, 2018.<br> 
-<a id="5">5.</a> Surface Go and Surface Go 2 use a third-party UEFI and do not support DFCI. 
+<a id="5">5.</a> Surface Go and Surface Go 2 use a third-party UEFI and don't support DFCI. 
