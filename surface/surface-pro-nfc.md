@@ -147,6 +147,18 @@ For a managed approach, IT admins can disable NFC using SEMM (Surface Enterprise
 
 ## Appendix: NFC Lock Screens for Surface Pro 10
 
+For the best user experience, we recommend modifying the following settings on Surface Pro 10:
+
+1. Navigate to **Settings** > **Personalization** > **Colors**.
+
+- Toggle **Transparency effects** to **Off**.
+  
+2. Navigage to **Settings** > **Personalization** > **Lock screen**.
+
+- Toggle **Make the lock screen image react when I move my PC** to **Off**.
+  
+These settings can be managed with Registry keys when deploying the lock screen via Microsoft Intune or Windows Group Policy.
+
 ### NFC Lock Screen downloads
 
 As shown in the following figure, available downloads include: 
