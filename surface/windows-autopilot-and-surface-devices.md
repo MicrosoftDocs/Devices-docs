@@ -34,7 +34,7 @@ Windows Autopilot allows you to:
 
 Windows Autopilot-registered devices are identified over the Internet at first startup through a unique device signature that's called a *hardware hash*. They're automatically enrolled and configured by using modern management solutions such as Microsoft Entra ID and mobile device management.
 
-You can register Surface devices at the time of purchase from a Surface partner that's enabled for Windows Autopilot. These partners can ship new devices directly to your users. The devices will be automatically enrolled and configured when they are first turned on. This process eliminates reimaging during deployment, which lets you implement new, agile methods of device management and distribution.
+You can register Surface devices at the time of purchase from a Surface partner that's enabled for Windows Autopilot. These partners can ship new devices directly to your users. The devices will be automatically enrolled and configured when they're first turned on. This process eliminates reimaging during deployment, which lets you implement new, agile methods of device management and distribution.
 
 ## Modern management
 
