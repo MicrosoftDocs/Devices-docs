@@ -9,18 +9,20 @@
       items: 
       - name: Technical overviews
         items:
+         - name: NFC support in Surface Pro 10 for Business
+           href: surface-pro-nfc.md
          - name: What's new in Surface Thunderbolt 4 Dock
-           href: surface-dock-whats-new.md
-         - name: Surface OS choice
-           href: surface-os-choice.md
-         - name: Surface security overview
-           href: surface-security.md
-         - name: Azure Virtual Desktop on Surface
-           href: windows-virtual-desktop-surface.md			   
-         - name: Surface Headphones 2+ overview
-           href: surface-headphones.md           
+           href: surface-dock-whats-new.md         
          - name: Surface Dock 2 overview
            href: surface-dock2-overview.md
+         - name: Azure Virtual Desktop on Surface
+           href: windows-virtual-desktop-surface.md	
+         - name: Downgrade to Windows 10
+           href: surface-os-choice.md
+         - name: Surface security overview
+           href: surface-security.md    		   
+         - name: Surface Headphones 2+ overview
+           href: surface-headphones.md 
       - name: Surface professional graphics
         items: 
          - name: Surface Laptop Studio graphics overview
@@ -172,8 +174,6 @@
         items: 
         - name: Wake-on-LAN for Surface devices
           href: wake-on-lan-for-surface-devices.md
-        - name: Wake-on-LAN with Surface Thunderbolt 4 Dock
-          href: wake-on-lan-surface-thunderbolt4-dock.md
         - name: Wake-on-LAN with Surface Dock 2
           href: wake-on-lan-surface-dock2.md
         - name: Wake-on-Power for Surface devices

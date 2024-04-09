@@ -55,7 +55,7 @@ function. This article applies to all currently supported Surface devices.
 
 ## Utilizing the custom power profile in Surface
 
-If you go into the power options on a surface device, you'll see that there's a single power plan available. This is the custom power profile. And if you go to the advanced power settings, you’ll see a much smaller subset of power options compared to a generic PC running Windows 10 or Windows 11. Unlike generic devices, Surface has firmware and custom components to manage these power options.
+If you go into the power options on a Surface device, you'll see that there's a single power plan available. This is the custom power profile. And if you go to the advanced power settings, you’ll see a much smaller subset of power options compared to a generic PC running Windows 10 or Windows 11. Unlike generic devices, Surface has firmware and custom components to manage these power options.
 
 ## Modern Standby
 

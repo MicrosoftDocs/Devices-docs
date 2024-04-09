@@ -14,7 +14,6 @@ appliesto:
 
 ---
 
-
 # Migrate Surface Hub 2S to Microsoft Teams Rooms on Windows
 
 If you have a Surface Hub 2S, you can migrate it to run the Microsoft Teams Rooms on Windows experience. This enables Surface Hub 2S devices to run the same Windows 11 software platform shipping on new Surface Hub 3 devices.
@@ -27,7 +26,7 @@ Begin the migration process via the downloadable **Surface Hub 2S OS Migration L
 > The Migration Launcher app is designed exclusively for Surface Hub 2S devices transitioning from the Windows 10 Team edition operating system to the Microsoft Teams Rooms on Windows experience. It triggers the migration process under specific [prerequisite conditions](#prerequisites) and has no other functionality or user interface.
 
 > [!TIP]
-> Customers can take advantage of streamlined, remotely driven deployment after migrating their Surface Hub 2S devices to the Microsoft Teams on Windows platform. As announced at [Ignite 2023](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/surface-hub-support-coming-for-windows-autopilot/ba-p/3977848), support for Windows Autopilot and Auto-login of Teams Rooms on Windows is currently in Private Preview. Check this page for more information upon public availability.
+> Customers can take advantage of streamlined remotely driven deployment after migrating their Surface Hub 2S devices to the Microsoft Teams on Windows platform. As announced at [Enterprise Connect 2024](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/surface-hub-support-coming-for-windows-autopilot/ba-p/3977848), support for Windows Autopilot and Auto-login of Teams Rooms on Windows is now broadly available in Public Preview. Learn more in [Deploy Surface Hub with Windows Autopilot & Auto-login of Teams Rooms](surface-hub-autopilot.md).
 
 ### Migration Launcher app deletes OS and data
 
@@ -65,10 +64,19 @@ Use of the Migration Launcher app on Surface Hub 2S involves significant changes
 ## Surface Hub 3 Pack option
 
 > [!TIP]
-> Alternatively, if you don't wish to migrate your Surface Hub 2S, you can purchase the [Surface Hub 3 Pack](surface-hub-3-pack-faq.md), which lets you swap out your existing cartridge and instantly convert your Surface Hub 2S to a Surface Hub 3. To learn more, see [Install and manage Surface Hub 3 Pack](install-manage-surface-hub-3-pack.md).
+> Alternatively, if you don't wish to migrate your Surface Hub 2S, you can purchase the [Surface Hub 3 Pack compute cartridge](surface-hub-3-pack-faq.md), which lets you swap out your existing Surface Hub 2S cartridge and instantly convert your Surface Hub 2S to a Surface Hub 3. To learn more, see [Install and manage Surface Hub 3 Pack](install-manage-surface-hub-3-pack.md).
 
 > [!NOTE]
 > Support for Windows 10 Team edition on Surface Hub, based on Windows 10 version 22H2, is scheduled to end on October 14, 2025.
+
+## Optional: Streamline post-migration deployment with Windows Autopilot and Teams Rooms Auto-Login
+
+Whether you initiate the migration process manually on a Surface Hub 2S or remotely via Intune, it's advantageous to set the stage for the device to autonomously complete its deployment post-migration, utilizing Windows Autopilot in conjunction with Auto-Login of Teams Rooms. This approach is particularly beneficial for customers triggering migration remotely, as it facilitates a fully remote, end-to-end process spanning migration to the Teams Rooms on Windows experience to the subsequent deployment within your organization. 
+ 
+For detailed guidance on enrolling your Surface Hub in Autopilot and Auto-login of Teams Rooms, see [Deploy Surface Hub with Windows Autopilot & Auto-login of Teams Rooms](surface-hub-autopilot.md).
+
+> [!TIP]
+> For an optimal experience, it's recommended to configure Autopilot and Auto-login of Teams Rooms before starting the migration process. This preparation ensures that seamless deployment is primed and ready to begin when migration is complete. 
 
 ## Install Migration Launcher app to trigger a migration
 
@@ -96,6 +104,9 @@ Choose one of the following options:
 6. When migration is complete, the device displays the Windows first-time setup program, also known as Out of the Box Experience (OOBE). To learn more, see [First-time setup for Surface Hub 3](first-run-program-surface-hub-3.md).
 
 ### Remotely install Migration Launcher app via Intune
+
+> [!TIP]
+> If you are remotely triggering migration with the following steps, you may wish to consider setting up seamless post-migration deployment as well. To learn more, see the earlier section on this page: [Streamline post-migration deployment with Windows Autopilot and Teams Rooms Auto-Login](#optional-streamline-post-migration-deployment-with-windows-autopilot-and-teams-rooms-auto-login). 
 
 #### Summary
 
@@ -212,9 +223,9 @@ You can make the app available for enrolled devices or assign it as required.
 
 This might take a few minutes, depending on network connectivity or other factors. You can check the upload status under the Notifications tray.
 
-### Monitor deployment
+### Monitor deployment of Migration Launcher app
 
-- After deploying, monitor the deployment status in Intune.
+- After deploying the Migration Launcher app, monitor its deployment status in Intune.
 - To see the status of the deployment, navigate to the app in Intune and check the Overview and Assignments tabs. Check the Device context status, not the User.
 
   > [!NOTE]
@@ -222,6 +233,45 @@ This might take a few minutes, depending on network connectivity or other factor
 
 - Once the app is deployed, the next restart initiates migration, which - in this remote deployment scenario - is likely to be the automatic restart as part of the nightly maintenance window. Similar to the manual app deployment scenario, the migration process typically takes about 90 minutes after this restart (but many factors can impact migration time, as explained earlier, with a test example exceeding 5 hours on a slower network). Customers must test and validate sequences relative to their unique infrastructure and management approaches.
 - When migration is complete, the device displays the Windows first-time setup program, also known as Out of the Box Experience (OOBE). To learn more, see [First-time setup for Surface Hub 3](first-run-program-surface-hub-3.md).
+
+> [!TIP]
+> If you configured seamless deployment with Autopilot, the Windows first-time setup program automatically proceeds according to the Autopilot configuration you've established. Once complete, you can see the device registered in Intune and appearing online in the Teams Rooms Management Portal. To ensure the device is properly online and visible in the Teams Admin Center, refer to the following section.
+
+## Manual removal of migrated Surface Hub devices from Teams Admin Center (Surface Hubs Legacy tab)
+
+After migrating your Surface Hub 2S to the Microsoft Teams Rooms on Windows platform, you need to manually remove the device listing from the "Surface Hubs (Legacy)" section of Teams Admin Center. This will thereafter enable the device to show up properly under the "Teams Rooms on Windows" section and enable accurate device management.
+
+1. **Navigate to Teams Admin Center**:
+   - Open your web browser and go to the [Teams Admin Center](https://admin.teams.microsoft.com).
+   - Sign in with your admin credentials.
+2. **Access the Surface Hubs (Legacy) Tab**:
+   - In the Teams Admin Center, select  **Teams devices** > **Surface Hubs (Legacy)**.
+3. **Manually remove the migrated device**:
+   - Locate the row corresponding to the migrated Surface Hub device and select the device.
+   - Select **Remove** to manually remove the device's row from the list.
+4. **Verification**:
+   - Refresh the page or navigate away and then back to the **Surface Hubs (Legacy)** tab to ensure that the device has been successfully removed.
+   - Verify that the migrated device is now correctly managed under the appropriate tab for Teams Rooms devices, if applicable. This may take up to 12 hours to happen, but will happen automatically.
+
+## Manual cleanup of stale Intune device objects for migrated Surface Hub devices   
+
+If you've previously registered a Surface Hub 2S in Intune before transitioning it to the Microsoft Teams Rooms on Windows platform, you'll likely encounter what's referred to as a "stale" device record. This occurs when the original device object in Intune remains unchanged, even as a new device record is generated post-migration to the Teams Rooms platform. Although this stale record does not interfere with the Intune-based management of the now-migrated device, it's advisable to remove these outdated entries to maintain optimal directory cleanliness.
+   
+1. **Access** [Microsoft Intune Admin Center](https://intune.microsoft.com/): Sign in with your admin credentials.
+2. **Navigate to Devices**: Use the left-hand navigation pane and select the **Devices** tab.
+3. **Locate All Devices**: Within the **Overview** section, select **All devices** to view the entire list of managed devices.
+4. **Identify and select the stale device object**: Look for the device object that needs removal. You can identify the stale entry based on your established device naming conventions. Typically, the stale record displays an OS build number of 19045, indicative of the Windows 10 Team edition, as opposed to the updated OS build number 22621, which signifies the Windows 11 IoT Enterprise version 22H2, post-migration.
+    - **Note**: Pay close attention to the OS build numbers to accurately distinguish between pre-migration and post-migration device records.
+5. **Delete the stale record**: On the selected device object’s page, navigate to the top menu and select **Delete** to remove the stale device record from Intune.
+
+## Post-migration configuration
+
+Review the following articles for recommended next steps:
+
+- [Get started with Surface Hub 3](surface-hub-3-get-started.md)
+- [First-time setup for Surface Hub 3](first-run-program-surface-hub-3.md)
+- [Surface Hub 3 security best practices](surface-hub-3-security.md)
+- [Install Windows Bloom wallpaper on Surface Hub 3](install-wallpaper-surface-hub.md)
 
 ## Troubleshooting
 
@@ -254,7 +304,7 @@ When overseeing the migration process on Surface Hub 2S, pay attention to specif
 | **Event ID 10: OS image download failed**                | If this event occurs, the system attempts the download again. This can lead to a sequence of Event ID 6 followed by Event ID 10 if the issue persists.<br><br>**Common causes:**<br>     - Inability to access the download site.<br>- Connection drops during download, exhausting all retry attempts.<br>- Insufficient disk space or inaccessible file location for the download.<br><br>**Additional notes:**<br>- The system checks for sufficient disk space and the creation of the migration partition at every boot. It fails to download if conditions aren't met.<br>     - Be aware of timing issues. If the download isn't complete before a scheduled or manual reboot, the download restarts, potentially leading to prolonged migration. |
 | **Event ID 11: MTR license key retrieval failed**        | This event occurs after repartitioning and downloading the OS image. If the OS image download isn't successful, the system fails to proceed to the key retrieval stage.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 
-#### Best practices for a smooth migration
+## Best practices for a smooth migration
 
 **Avoid Frequent Reboots:** It's important not to reboot the system unnecessarily during the migration process. Frequent reboots can restart the download process, extending the duration of the migration and potentially leading to repeated "nothing seems to be happening" scenarios. By monitoring these specific events, you can effectively track and troubleshoot the migration process of your Surface Hub 2S.
 
@@ -263,12 +313,3 @@ When overseeing the migration process on Surface Hub 2S, pay attention to specif
 - If the Migration Launcher app fails to deploy, check any error messages in the Intune console.
 - Verify that the Surface Hub 2S devices are correctly enrolled and online.
 - Consider verifying whether another Store for Business offline-licensed application can be remotely deployed to Surface Hub 2S devices.
-
-## Post-migration configuration
-
-Review the following articles for recommended next steps:
-
-- [Get started with Surface Hub 3](surface-hub-3-get-started.md)
-- [First-time setup for Surface Hub 3](first-run-program-surface-hub-3.md)
-- [Surface Hub 3 security best practices](surface-hub-3-security.md)
-- [Install Windows Bloom wallpaper on Surface Hub 3](install-wallpaper-surface-hub.md)
