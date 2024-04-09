@@ -22,7 +22,7 @@ Today, managing device firmware is an inconsistent experience and often involves
 
 Microsoft Surface has been using a unified approach to firmware protection and device security since 2015 through complete end-to-end ownership of the hardware design, in-house firmware development, and a holistic approach to device updates and management.
 
-For Surface, our Unified Extensible Firmware Interface (UEFI)<sup>[1](#references)</sup> is maintained in-house, regularly updated through Windows Update, and seamlessly deployed for management through Windows Autopilot, minimizing risk and maximizing control at the firmware level before the device boots. Microsoft provides full transparency of the codebase in our UEFI through the Open Source [Project Mu](https://microsoft.github.io/mu/) on GitHub, managed by Microsoft Intune admin center.
+For Surface, our Unified Extensible Firmware Interface (UEFI) is maintained in-house, regularly updated through Windows Update, and seamlessly deployed for management through Windows Autopilot, minimizing risk and maximizing control at the firmware level before the device boots. Microsoft provides full transparency of the codebase in our UEFI through the Open Source [Project Mu](https://microsoft.github.io/mu/) on GitHub, managed by Microsoft Intune admin center.
 
 ## Microsoft designed and built components
 
@@ -34,7 +34,7 @@ Surface drives security through a defense-in-depth approach by utilizing a layer
 
 | Feature | Description | Learn more |
 | ------- | ----------- | ---------- |
-| Microsoft Built UEFI            | Software that configures the device and boots Windows 10<br>Controls initial boot of device and Windows 10, then provides firmware runtime services to the  OS. ensures significantly more control over the hardware of a device through SEMM on-prem management and DFCI cloud-based management through Microsoft Intune admin center | [Manage Surface UEFI settings](manage-surface-uefi-settings.md)                                                                        |
+| Microsoft Built UEFI            | Software that configures the device and boots Windows 10<br>Controls initial boot of device and Windows 10, then provides firmware runtime services to the  OS. ensures significantly more control over the hardware of a device through SEMM on-premises management and DFCI cloud-based management through Microsoft Intune admin center | [Manage Surface UEFI settings](manage-surface-uefi-settings.md)                                                                        |
 | Physical TPM 2.0                | Trusted Platform Module - Dedicated microcontroller designed to secure hardware through integrated cryptographic keys.<br>Encrypts and stores keys (BitLocker, Windows Hello, AD Credentials)<br>PCR - Platform Configuration Registers that secure measurements and relevant metrics to detect changes to previous configuration  | [Trusted Platform Module Technology Overview](/windows/security/information-protection/tpm/trusted-platform-module-overview)                 |
 | Windows Hello for Business      | Replaces passwords with strong two-factor authentication on PCs and mobile devices. This biometric authentication consists of a new type of user credential that is tied to a device.                                                                                                                   | [How Windows Hello for Business works - Microsoft 365 Security](/windows/security/identity-protection/hello-for-business/hello-how-it-works) |
 | Integrated encryption           | Integrated encryption is enabled by BitLocker to secure and encrypt your data, and Windows Hello to enable passwordless login, combined with physical TPM and UEFI.                                                                                                                                                                 | [BitLocker (Windows 10) - Microsoft 365 Security](/windows/security/information-protection/bitlocker/bitlocker-overview)                     |
@@ -44,7 +44,7 @@ Surface drives security through a defense-in-depth approach by utilizing a layer
 
 From firmware to the operating system and every hardware component before final assembly, Surface devices are safe from supply chain attacks in our physically secured development and manufacturing facilities.
 
-By definition, a secure supply chain delivers finished products that meet quality, performance, and operational goals. Simply put, a secure supply chain ensures that all components are genuine and free of unauthorized or malicious manipulation or sabotage. We manufacture devices in highly secured factories where everything from the UEFI firmware to the operating system comes directly from Microsoft. No third-party BIOS vendors are involved. This is a strong part of how we protect against supply chain attacks for Surface products. We have reduced the attack Surface in our UEFI by removing any unused code, including system management mode SMM functions that our devices do not need.
+By definition, a secure supply chain delivers finished products that meet quality, performance, and operational goals. Simply put, a secure supply chain ensures that all components are genuine and free of unauthorized or malicious manipulation or sabotage. We manufacture devices in highly secured factories where everything from the UEFI firmware to the operating system comes directly from Microsoft. No third-party BIOS vendors are involved. This is a strong part of how we protect against supply chain attacks for Surface products. We have reduced the attack Surface in our UEFI by removing any unused code, including system management mode SMM functions that our devices don't need.
 
 Protecting facilities from external Internet-based attacks, intrusion, and other threats requires an ongoing investment across critical areas including:
 
@@ -74,10 +74,14 @@ Both VBS and HVCI are enabled out of the box in the following Surface devices:
 - Surface Pro 8
 - Surface Pro 9
 - Surface Pro 9 with 5G
+- Surface Pro 10
 - Surface Laptop Studio
+- Surface Laptop Studio 2
 - Surface Go 3
+- Surface Go 4
 - Surface Laptop 4
 - Surface Laptop 5
+- Surface Laptop 6
 - Surface Pro 7+
 - Surface Book 3
 - Surface Laptop Go
@@ -98,11 +102,11 @@ As shown in the following figure, the integrity of the firmware is checked at ea
 
 | Step  | Secure Boot Phase |
 | ----- | ----------------- |
-| **1** | Security is instantiated every time the power button is pressed from a root of trust provided by the TPM. When a device is first powered on, the system runs a series of security checks to ensure device firmware has not been tampered with or corrupted. |
+| **1** | Security is instantiated every time the power button is pressed from a root of trust provided by the TPM. When a device is first powered on, the system runs a series of security checks to ensure device firmware hasn't been tampered with or corrupted. |
 | **2** | When powered on, the SoC uses a chipset vendor key to validate and initiates the loading of microcode using the Authenticated Code Module (ACM) (on Intel-based devices).                                                                              |
-| **3** | The ACM measures the UEFI code before loading and compares it to the known measurement in the TPM's Platform Configuration Register [PCR] to ensure the UEFI code has not been altered.                                                                |
+| **3** | The ACM measures the UEFI code before loading and compares it to the known measurement in the TPM's Platform Configuration Register [PCR] to ensure the UEFI code hasn't been altered.                                                                |
 | **4** | Before allowing UEFI to run, Boot Guard checks that the UEFI is signed with a Surface OEM key. The initially checked UEFI module is the SEC security and the PEI Pre-EFI sections shown in the diagram.                                                |
-| **5** | The PEI section checks for a Surface signature on the driver execution environment, the DXE module, as it is loaded. The DXE module includes the boot device selection phase.                                                                          |
+| **5** | The PEI section checks for a Surface signature on the driver execution environment, the DXE module, as it's loaded. The DXE module includes the boot device selection phase.                                                                          |
 | **6** | Once the boot device is selected, UEFI reads the boot device and checks the signature of the OS boot loader before allowing it to execute.                                                                                                             |
 | **7** | The OS then checks its signatures on its main component as it brings up the OS.
 
@@ -112,13 +116,13 @@ To help protect your device from malicious software attacks, Surface enables Sec
 
 The SoC on Surface devices has a security processor separate from every other core. When you first start a Surface device, only the security processor starts before anything else can be loaded. Secure Boot is used to verify that the boot process components, including drivers and the operating system, are validated against a database of valid and known signatures. This helps prevent attacks from a cloned or modified system running malicious code hidden in what appears to be an otherwise everyday user experience. For more information, see [Secure Boot overview](/windows-hardware/design/device-experiences/oem-secure-boot).
 
-Once the operating system is verified as originating from Microsoft and your Surface device completes the boot process, the device scrutinizes the executable code. Our approach to securing the operating system involves identifying the code signature of all executables, allowing only those that pass our restrictions to be loaded into the runtime. This code signing method enables the operating system to verify the author and confirm that code was not altered before running on the device.
+Once the operating system is verified as originating from Microsoft and your Surface device completes the boot process, the device scrutinizes the executable code. Our approach to securing the operating system involves identifying the code signature of all executables, allowing only those that pass our restrictions to be loaded into the runtime. This code signing method enables the operating system to verify the author and confirm that code wasn't altered before running on the device.
 
 ## DRTM protection in AMD devices
 
 Surface devices containing AMD processors equivalently implement Secure Boot. Surface Laptop 4 with AMD Ryzen Microsoft Surface Edition processor protects firmware from the initial power-on using Dynamic Root of Trust Measurements (DRTM).DRTM controls all the CPUs, forcing execution along a measured path, and reestablishes trust at various stages to verify the integrity of the system firmware/software. Transitioning into this trusted state early provides added protection against potential attacks in the boot stages.
 
-DRTM protects measurements by encrypting them using Total System Memory Encryption (TSME). Once TSME is set, it cannot be cleared except by a system reset. A new encryption key for each reset ensures single-use encryption for security.
+DRTM protects measurements by encrypting them using Total System Memory Encryption (TSME). Once TSME is set, it can't be cleared except by a system reset. A new encryption key for each reset ensures single-use encryption for security.
 
 Runtime calls to System Management Mode (SMM) execute at the highest level, which can be risky if the SMM code has any issues. Surface Laptop 4 with AMD Ryzen guards the system by intercepting the System Management Interrupts (SMI) and dispatches the execution of the SMM code to a lesser level (user) to protect the system from invalid access to code and data. SMM protection uses hardware protections to restrict the code, data, and system resources that can be accessed, further enforcing protection against inadvertent or malicious incidents.
 
@@ -137,10 +141,6 @@ IT admins can remotely manage Surface devices without physically touching every 
 | DCFI (Device Firmware Configuration Interface) | Delivers cloud-scale remote firmware management with zero-touch device provisioning. Microsoft's UEFI allows stronger DCFI implementation, enabling organizations to disable hardware elements and remotely lock UEFI using Intune. ¹                                                                                                                                                                          | [Intune management of Surface UEFI settings](surface-manage-dfci-guide.md)<br> <br>[Manage Surface UEFI settings](manage-surface-uefi-settings.md)                                          |
 | SEMM (Surface Enterprise Management Mode)      | Enables centralized enterprise engagement of UEFI firmware settings across on-premises, hybrid, and cloud environments.¹                                                                                                                                                                                                                                                                                           | [Surface Enterprise Management Mode](surface-enterprise-management-mode.md)                                                                                                                                                       |
 | Windows Update for Business                    | Enables IT admins to keep the Windows 10 devices in their organization continually updated with the latest security defenses, Windows features, and Surface firmware by directly connecting these systems to the Windows Update service. You can use Group Policy or MDM solutions such as Microsoft Intune to configure the Windows Update for Business settings that control how and when Surface devices are updated. | [Windows Update for Business](/windows/deployment/update/waas-manage-updates-wufb)<br> <br>[Manage and deploy Surface driver and firmware updates](manage-surface-driver-and-firmware-updates.md) |
-
-## References
-
-1. Surface Go and Surface Go 2 use a third-party UEFI and do not support DFCI. DFCI is currently available for Surface Studio 2+, Surface Pro 9 & Surface Pro 9 with 5G, Surface Laptop 5, Surface Laptop 4, Surface Laptop 3, Surface Laptop Studio, Surface Book 3, Surface Laptop SE, Surface Laptop Go 2, Surface Laptop Go, Surface Pro 8, Surface Pro 7+, Surface Pro 7, Surface Pro X, and Surface Go 3.
 
 ## Learn more
 

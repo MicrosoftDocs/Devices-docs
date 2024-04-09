@@ -6,7 +6,7 @@ ms.localizationpriority: medium
 author: coveminer
 ms.author: chauncel
 ms.topic: overview
-ms.date: 09/21/2023
+ms.date: 04/09/2024
 ms.reviewer: chauncel
 manager: frankbu
 appliesto:
@@ -33,7 +33,7 @@ address. Average turnaround time is 6-12 calendar days depending on your locatio
 
 ## Devices eligible for repair
 
-The following devices are eligible for same unit repair:
+The following commercial devices are eligible for same unit repair:
 
 - Surface Laptop 3 – 13" & 15"
 - Surface Laptop 4 – 13" & 15"

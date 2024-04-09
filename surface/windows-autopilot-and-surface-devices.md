@@ -34,11 +34,11 @@ Windows Autopilot allows you to:
 
 Windows Autopilot-registered devices are identified over the Internet at first startup through a unique device signature that's called a *hardware hash*. They're automatically enrolled and configured by using modern management solutions such as Microsoft Entra ID and mobile device management.
 
-You can register Surface devices at the time of purchase from a Surface partner that's enabled for Windows Autopilot. These partners can ship new devices directly to your users. The devices will be automatically enrolled and configured when they are first turned on. This process eliminates reimaging during deployment, which lets you implement new, agile methods of device management and distribution.
+You can register Surface devices at the time of purchase from a Surface partner that's enabled for Windows Autopilot. These partners can ship new devices directly to your users. The devices will be automatically enrolled and configured when they're first turned on. This process eliminates reimaging during deployment, which lets you implement new, agile methods of device management and distribution.
 
 ## Modern management
 
-Autopilot is the recommended deployment option for Surface devices, including Surface Pro 9, Surface Pro 9 with 5G, Surface Studio 2+, Surface Pro 8, Surface Laptop Studio (all generations), Surface Laptop Go (all generations), Surface Go 4, Surface Go 3, Surface Pro 7+, Surface Laptop 5, Surface Laptop 4, and Surface Pro X.
+Autopilot is the recommended deployment option for Surface devices, including Surface Pro 10, Surface Pro 9, Surface Pro 9 with 5G, Surface Studio 2+, Surface Pro 8, Surface Laptop Studio (all generations), Surface Laptop Go (all generations), Surface Go 4, Surface Go 3, Surface Pro 7+, Surface Laptop 6, Surface Laptop 5, Surface Laptop 4, and Surface Pro X.
 
  It's best to enroll your Surface devices with the help of a Microsoft Cloud Solution Provider. This step allows you to manage UEFI firmware settings on Surface directly from Intune. It eliminates the need to physically touch devices for certificate management. See [Intune management of Surface UEFI settings](surface-manage-dfci-guide.md) for details.
 
