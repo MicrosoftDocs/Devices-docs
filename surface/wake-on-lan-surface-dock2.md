@@ -8,7 +8,7 @@ ms.author: chauncel
 ms.topic: how-to
 ms.reviewer: chauncel
 manager: frankbu
-ms.date: 09/29/2023
+ms.date: 04/09/2024
 appliesto:
 - Windows 10
 - Windows 11
@@ -30,15 +30,12 @@ Devices must have a wired connection with Surface Dock 2 and stay connected to A
 
 ## Supported Surface devices
 
+- Surface Laptop 6
 - Surface Laptop 5
 - Surface Laptop 4 (Intel processors)
 - Surface Laptop 4 (AMD processors)
 - Surface Laptop 3 (Intel processors)
-- Surface Pro 9
-- Surface Pro 9 with 5G
-- Surface Pro 8
-- Surface Pro 7+
-- Surface Pro 7
+- Surface Pro 7 and later
 - Surface Pro X
 - Surface Go (all generations)
 - Surface Laptop Go (all generations)

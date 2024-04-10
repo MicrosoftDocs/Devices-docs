@@ -5,7 +5,7 @@ ms.service: surface
 author: coveminer
 ms.author: chauncel
 ms.topic: how-to
-ms.date: 9/28/2023
+ms.date: 04/09/2024
 ms.reviewer: carlol
 manager: frankbu
 ms.localizationpriority: medium
@@ -45,17 +45,19 @@ System Model and System SKU are variables stored in System Management BIOS (SMBI
 | Surface Laptop                                               | Surface Laptop   | Surface_Laptop                   |
 | Surface Laptop 2 Commercial                                  | Surface Laptop 2 | Surface_Laptop_2_1769_Commercial |
 | Surface Laptop 2 Consumer                                    | Surface Laptop 2 | Surface_Laptop_2_1769_Consumer   |
-| Surface Laptop 3 13" Intel                                   | Surface Laptop 3 | Surface_Laptop_3_1867:1868 |
+| Surface Laptop 3 13.5" Intel                                   | Surface Laptop 3 | Surface_Laptop_3_1867:1868 |
 | Surface Laptop 3 15" AMD                                     | Surface Laptop 3 | Surface_Laptop_3_1873      |
 | Surface Laptop 3 15" Intel                                   | Surface Laptop 3 | Surface_Laptop_3_1872      |
-| Surface Laptop 4 13" AMD                                     | Surface Laptop 4 | Surface_Laptop_4_1958:1959    |
-| Surface Laptop 4 13" Intel                                   | Surface Laptop 4 | Surface_Laptop_4_1950:1951 |
+| Surface Laptop 4 13.5" AMD                                     | Surface Laptop 4 | Surface_Laptop_4_1958:1959    |
+| Surface Laptop 4 13.5" Intel                                   | Surface Laptop 4 | Surface_Laptop_4_1950:1951 |
 | Surface Laptop 4 15" AMD                                     | Surface Laptop 4 | Surface_Laptop_4_1952:1953     |
 | Surface Laptop 4 15" Intel                                   | Surface Laptop 4 | Surface_Laptop_4_1978:1979     |
-| Surface Laptop 5 13" Consumer                                  | Surface Laptop 5 | Surface_Laptop_5_1950:1951|
-| Surface Laptop 5 13" Commercial                                  | Surface Laptop 5 | Surface_Laptop_5_for_Business_1950:1951|
+| Surface Laptop 5 13.5" Consumer                                  | Surface Laptop 5 | Surface_Laptop_5_1950:1951|
+| Surface Laptop 5 13.5" Commercial                                  | Surface Laptop 5 | Surface_Laptop_5_for_Business_1950:1951|
 | Surface Laptop 5 15" Consumer                                  | Surface Laptop 5 | Surface_Laptop_5_1979|
 | Surface Laptop 5 15" Commercial                                  | Surface Laptop 5 | Surface_Laptop_5_for_Business_1979|
+| Surface Laptop 6 for Business 13.5"                                   | Surface Laptop 6 for Business | Surface_Laptop_6_for_Business_2033|
+| Surface Laptop 6 for Business 15"                                  | Surface Laptop 6 for Business | Surface_Laptop_6_for_Business_2035|
 | Surface Laptop Go                                            | Surface Laptop Go | Surface_Laptop_Go_1943      |
 | Surface Laptop Go 2                                          | Surface Laptop Go 2 | Surface_Laptop_Go_2_2013      |
 | Surface Laptop Go 3                                         | Surface Laptop Go 3 | Surface_Laptop_Go_3_2013      |
@@ -79,6 +81,7 @@ System Model and System SKU are variables stored in System Management BIOS (SMBI
 | Surface Pro X with SQ1 processor                             | Surface Pro X    | Surface_Pro_X_1876         |
 | Surface Pro X with SQ2 processor                             | Surface Pro X    | Surface_Pro_X_H_1876        |
 | Surface Pro X (Wi-Fi)                                        | Surface Pro X    | Surface_Pro_X_2010        |
+| Surface Pro 10 for Business                                              | Surface Pro 10 for Business   | Surface_Pro_10_for_Business_2079        |
 | Surface Studio                                               | Surface Studio   | Surface_Studio   |
 | Surface Studio 2                                             | Surface Studio 2 | Surface_Studio_2_1707_Commercial   |
 | Surface Studio 2+                                            | Surface Studio 2+ | Surface_Studio_2+_2028  |

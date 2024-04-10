@@ -1,25 +1,14 @@
 ---
 title: SSD removal in compatible Surface devices
-description: This article, intended for qualified IT technicians, describes the recommended best practices for the removal and replacement of SSDs in Surface Laptop 4, Surface Laptop 3, Surface Pro 7+, Surface Pro X, and Surface Laptop Go. 
+description: This article, intended for qualified IT technicians, describes the recommended best practices for the removal and replacement of SSDs in eligible Surface devices.
 ms.service: surface
 ms.localizationpriority: medium
 author: coveminer
 ms.author: chauncel
 ms.topic: how-to
-ms.date: 09/21/2023
+ms.date: 04/09/2024
 manager: frankbu
 appliesto:
-- Surface Laptop Studio (all generations)
-- Surface Pro 9
-- Surface Pro 9 with 5G
-- Surface Pro 8
-- Surface Pro 7+
-- Surface Pro X
-- Surface Laptop Go (all generations)
-- Surface Laptop 3
-- Surface Laptop 4
-- Surface Laptop 5
-- Surface Studio 2+
 - Windows 10
 - Windows 11
 ms.custom: 
@@ -32,19 +21,21 @@ ms.custom:
 > This article is intended for use by qualified IT technicians in an enterprise organization. It describes the recommended best practices for use by skilled IT technicians in the removal and replacement of SSDs in the following compatible Surface devices:
 
 - Surface Laptop Studio (all generations)
+- Surface Pro 10
 - Surface Pro 9
 - Surface Pro 9 with 5G
 - Surface Pro 8
 - Surface Pro 7+
 - Surface Pro X
 - Surface Laptop Go (all generations)
-- Surface Laptop 3
-- Surface Laptop 4
+- Surface Laptop 6
 - Surface Laptop 5
+- Surface Laptop 4
+- Surface Laptop 3
 - Surface Studio 2+
 
 > [!CAUTION]
-> Opening devices and replacing components can present electric shock, device damage, fire, personal injury risks, and other hazards. Always use caution when you undertake such activities. Follow the safety precautions and procedures identified in in the [Surface Service Guide](https://www.microsoft.com/download/100440) We recommend that you get professional assistance if you cannot follow the the documented safety precautions and procedures.
+> Opening devices and replacing components can present electric shock, device damage, fire, personal injury risks, and other hazards. Always use caution when you undertake such activities. Follow the safety precautions and procedures identified in the [Surface Service Guide](https://www.microsoft.com/download/100440) We recommend that you get professional assistance if you cannot follow the documented safety precautions and procedures.
 
 ## Prepare for SSD removal
 
@@ -75,7 +66,7 @@ If the device is encrypted before SSD removal and replacement, follow these step
 
 1. In **Settings**, type **BitLocker**.
 2. Select **Manage BitLocker** >**Generate BitLocker Recovery Key**.
-2. Insert a USB drive.
+3. Insert a USB drive.
 4. Save the recovery key to USB storage.  
 5. Remove the USB drive.  
 6. Power down the device.
@@ -97,9 +88,9 @@ If the SSD is unencrypted during the transfer, follow these steps:
 3. After you are fully signed in, go to **Start** > **Account** > **Sign out**.  
 4. Sign back in by using the password and set up Windows Hello and a PIN when you are prompted.
     - If the device was BitLocker-disabled to facilitate SSD removal and replacement, and you want to enable BitLocker after the replacement, go to **BitLocker** > **Manage BitLocker** > **Resume BitLocker**.  
-6. Run the [Microsoft Surface Diagnostic Toolkit for Business](surface-diagnostic-toolkit-for-business-intro.md) (SDT) to verify full device functionality.  
-7. Check for Windows activation by navigating to **Settings** > **Activation**.  If you see any error messages, select **Troubleshoot**.
-8. Check the Office account by opening the **Office App**, navigate to **File** > **Account** and then check for any error messages.  
+5. Run the [Microsoft Surface Diagnostic Toolkit for Business](surface-diagnostic-toolkit-for-business-intro.md) (SDT) to verify full device functionality.  
+6. Check for Windows activation by navigating to **Settings** > **Activation**.  If you see any error messages, select **Troubleshoot**.
+7. Check the Office account by opening the **Office App**, navigate to **File** > **Account** and then check for any error messages.  
 
 ### Managing encrypted SSDs
 

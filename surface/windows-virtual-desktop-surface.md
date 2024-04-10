@@ -93,7 +93,7 @@ An alternative to locally installing traditional applications is to take advanta
 
 GPUs are ideal for AI compute and graphics-intensive workloads, helping customers to fuel innovation through scenarios like high-end remote visualization, deep learning, and predictive analytics. However, this isn't ideal for professionals who need to work remotely or on the go because varying degrees of internal GPU horsepower are tied to the physical devices, limiting mobility and flexibility.
 
-To solve this, Azure offers the N-series family of Virtual Machines with NVIDIA GPU capabilities (vGPU). With vGPUs, IT can either share GPU performance across multiple virtual machines or power-demanding workloads by assigning multiple GPUs to a single virtual machine. For Surface, this means that no matter what device you're using, from Surface Go 3 to Surface Laptop 4, your device has access to powerful server-class graphics performance. Surface and vGPUs allow you to combine all the things you love about Surface, including pen, touch, keyboard, trackpad and PixelSense displays, with graphics capability only available in high-performance computing environments.
+To solve this, Azure offers the N-series family of Virtual Machines with NVIDIA GPU capabilities (vGPU). With vGPUs, IT can either share GPU performance across multiple virtual machines or power-demanding workloads by assigning multiple GPUs to a single virtual machine. For Surface, this means that no matter what device you're using, from Surface Go 4 to Surface Laptop 6, your device has access to powerful server-class graphics performance. Surface and vGPUs allow you to combine all the things you love about Surface, including pen, touch, keyboard, trackpad and PixelSense displays, with graphics capability only available in high-performance computing environments.
 
 Azure N-series brings these capabilities to life on your Surface device, allowing you to work in any way you want, wherever you go. [Learn more about Azure N-Series and GPU-optimized virtual machine sizes.](/azure/virtual-machines/sizes-gpu)
 
@@ -129,13 +129,14 @@ Surface performs life cycle assessments to calculate the environmental impact of
 
 ## Summary
 
-Azure Virtual Desktop on Surface provides organizations with greater flexibility and resilience in meeting the diverse needs of users, stakeholders, and customers. Running Azure Virtual Desktop solutions on Surface devices offers unique advantages over continued reliance on legacy devices. Flexible form factors like Surface Go 3 and Surface Pro 8 connected to the cloud (or offline) enable users to be productive from anywhere, at any time. Whether employees work in persistent, on-demand, or just-in-time scenarios, Azure Virtual Desktop on Surface affords businesses the versatility to sustain productivity throughout disruptions from unforeseen events. Using the built-in, multi-layered security and modern manageability of Windows 10 and Windows 11, companies can take advantage of an expanding ecosystem of cloud-based services to rapidly deploy and scale Windows desktops and apps. Simply put, Azure Virtual Desktop on Surface delivers critically needed technology to organizations and businesses of all sizes.
+Azure Virtual Desktop on Surface provides organizations with greater flexibility and resilience in meeting the diverse needs of users, stakeholders, and customers. Running Azure Virtual Desktop solutions on Surface devices offers unique advantages over continued reliance on legacy devices. Flexible form factors like Surface Go 4 and Surface Pro 10 connected to the cloud (or offline) enable users to be productive from anywhere, at any time. Whether employees work in persistent, on-demand, or just-in-time scenarios, Azure Virtual Desktop on Surface affords businesses the versatility to sustain productivity throughout disruptions from unforeseen events. Using the built-in, multi-layered security and modern manageability of Windows 10 and Windows 11, companies can take advantage of an expanding ecosystem of cloud-based services to rapidly deploy and scale Windows desktops and apps. Simply put, Azure Virtual Desktop on Surface delivers critically needed technology to organizations and businesses of all sizes.
 
 ## Learn more
 
 For more information, see the following resources:
 
 - [Azure Virtual Desktop](https://azure.microsoft.com/services/virtual-desktop/)
+- [Connect to Azure Virtual Desktop with the Remote Desktop client for Windows](/azure/virtual-desktop/users/connect-windows?pivots=remote-desktop-msi)
 - [Surface for Business](https://www.microsoft.com/surface/business)
 - [Modernize your workforce with Microsoft Surface](https://boards.microsoft.com/public/prism/103849?token=754435c36d)
 - [A guide to Surface Technical Content and Solutions](https://boards.microsoft.com/public/prism/104362/category/90968?token=09e688ec4a)
@@ -147,4 +148,4 @@ For more information, see the following resources:
 <a id="2">2.</a> Battery life varies significantly with settings, usage and other factors.<br>
 <a id="3">3.</a> Service availability and performance subject to service provider's network. Contact your service provider for details, compatibility, pricing, SIM card, and activation. See all specs and frequencies at surface.com.<br>
 <a id="4">4.</a> Forrester Consulting, "A Forrester Total Economic Impact™ Study: Maximizing Your ROI from Microsoft 365 Enterprise with Microsoft Surface," commissioned by Microsoft, 2018.<br> 
-<a id="5">5.</a> Surface Go and Surface Go 2 use a third-party UEFI and do not support DFCI. 
+<a id="5">5.</a> Surface Go and Surface Go 2 use a third-party UEFI and don't support DFCI. 
