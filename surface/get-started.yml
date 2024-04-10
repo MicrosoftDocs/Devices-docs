@@ -33,12 +33,12 @@ landingContent:
             url: surface-pro-nfc.md
           - text: Surface Laptop 6 smart card reader
             url: surface-laptop-smart-card-reader.md     
+          - text: Configure SDR & HDR display measurements
+            url: configure-sdr-and-hdr-display.md    
+          - text: Surface ruggedness testing
+            url: surface-hardware-environmental-test-results.md
           - text: Surface devices driver and firmware lifecycle 
             url: surface-driver-firmware-lifecycle-support.md
-          - text: Surface IT portals
-            url: surface-portals.md    
-          - text: What's new in Surface Thunderbolt 4 Dock
-            url: surface-dock-whats-new.md
           - text: Explore all Surface family products
             url: https://www.microsoft.com/surface/business
   
