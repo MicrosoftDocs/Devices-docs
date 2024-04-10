@@ -31,8 +31,8 @@ landingContent:
             url: surface-tested-peripherals.md
           - text: NFC support in Surface Pro 10 for Business
             url: surface-pro-nfc.md
-          - text: Manage USB ports on Surface devices
-            url: manage-usb-ports-on-surface.md     
+          - text: Surface Laptop 6 smart card reader
+            url: surface-laptop-smart-card-reader.md     
           - text: Surface devices driver and firmware lifecycle 
             url: surface-driver-firmware-lifecycle-support.md
           - text: Surface IT portals

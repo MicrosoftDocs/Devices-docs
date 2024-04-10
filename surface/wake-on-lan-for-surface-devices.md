@@ -8,7 +8,7 @@ ms.author: chauncel
 ms.topic: how-to
 ms.reviewer: jesko
 manager: frankbu
-ms.date: 04/04/2023
+ms.date: 04/09/2024
 appliesto:
 - Windows 10
 - Windows 11
@@ -50,6 +50,7 @@ Surface devices with support for WOL:
 - Surface Pro 8
 - Surface Pro 9
 - Surface Pro 9 with 5G
+- Surface Pro 10
 - Surface Book (all generations)
 - Surface Go (all generations)
 - Surface Laptop (all generations)
@@ -96,6 +97,5 @@ To enable WOL on Surface Studio 2, you must use the following procedure:
 
 ## Learn more
 
-- [Wake-on-LAN for Surface Thunderbolt 4 Dock](wake-on-lan-surface-thunderbolt4-dock.md)
 - [Wake On LAN for Surface Dock 2](wake-on-lan-surface-dock2.md)
 - [System Power States](/windows/win32/power/system-power-states)
