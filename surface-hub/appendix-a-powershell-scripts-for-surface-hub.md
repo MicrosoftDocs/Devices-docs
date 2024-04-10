@@ -9,7 +9,7 @@ ms.author: chauncel
 ms.topic: how-to
 ms.date: 02/01/2021
 ms.localizationpriority: medium
-ms.custom: has-azure-ad-ps-ref, azure-ad-ref-level-one-done
+ms.custom: has-azure-ad-ps-ref
 appliesto:
 - Surface Hub
 ---
@@ -63,11 +63,11 @@ The account creation scripts perform the following tasks:
 
 -   Ask for administrator credentials.
 -   Create device accounts in your domain/tenant.
--   Create or assign a Surface Hub-compatible ActiveSync policy to the device account(s).
--   Set various attributes for the created account(s) in Exchange and Skype for Business.
--   Assign licenses and permissions to the created account(s).
+-   Create or assign a Surface Hub-compatible ActiveSync policy to the device accounts.
+-   Set various attributes for the created accounts in Exchange and Skype for Business.
+-   Assign licenses and permissions to the created accounts.
 
-These are the attributes that are set by the scripts:
+These attributes are the attributes that are set by the scripts:
 
 <table>
 <colgroup>
@@ -1611,10 +1611,10 @@ PasswordEnabled == 0
 
 In the following cmdlets, `$strPolicy` is the name of the ActiveSync policy, and `$strRoomUpn` is the UPN of the device account you want to apply the policy to.
 
-Note that in order to run the cmdlets, you need to set up a remote PowerShell session and:
+In order to run the cmdlets, you need to set up a remote PowerShell session and:
 
--   Your admin account must be remote-PowerShell-enabled. This allows the admin to use the PowerShell cmdlets that are needed by the script. (This permission can be set using `set-user $admin -RemotePowerShellEnabled $true`)
--   Your admin account must have the "Reset Password" role if you plan to run the creation scripts. This allows the admin to change the password of the account, which is needed for the script. The Reset Password Role can be enabled using the Exchange Admin Center.
+-   Your admin account must be remote-PowerShell-enabled. This setting allows the admin to use the PowerShell cmdlets that are needed by the script. (This permission can be set using `set-user $admin -RemotePowerShellEnabled $true`)
+-   Your admin account must have the "Reset Password" role if you plan to run the creation scripts. This role allows the admin to change the password of the account, which is needed for the script. The Reset Password Role can be enabled using the Exchange Admin Center.
 
 Create the policy.
 
@@ -1653,11 +1653,11 @@ To find a device's ID, run:
 Get-ActiveSyncDevice -Mailbox $strRoomUpn
 ```
 
-This retrieves device information for every device that the account has been provisioned on, Including the `DeviceId` property.
+This command retrieves device information for every device that the account has been provisioned on, Including the `DeviceId` property.
 
 ### <a href="" id="auto-accept-meetings-cmdlet"></a>Auto-accepting and declining meeting requests
 
-For a device account to automatically accept or decline meeting requests based on its availability, the **AutomateProcessing** attribute must be set to **AutoAccept**. This is recommended as to prevent overlapping meetings.
+For a device account to automatically accept or decline meeting requests based on its availability, the **AutomateProcessing** attribute must be set to **AutoAccept**. This attribute is recommended as to prevent overlapping meetings.
 
 ```PowerShell
 Set-CalendarProcessing $strRoomUpn -AutomateProcessing AutoAccept
