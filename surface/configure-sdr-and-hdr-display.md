@@ -1,5 +1,5 @@
 ---
-title: Configure SDR & HDR display measurements on Surface devices
+title: Set up Surface devices for SDR & HDR display measurements
 description: This article provides a technical reference for SDR and HDR settings on Surface devices.
 ms.service: surface
 ms.localizationpriority: medium
@@ -16,8 +16,6 @@ appliesto:
 # Set up Surface devices for SDR & HDR display measurements
 
 This guide provides a technical reference for configuring eligible Surface devices for accurate display measurements in both Standard Dynamic Range (SDR) and High Dynamic Range (HDR) modes. With the introduction of new display modes and features in the Windows 11 operating system, understanding and implementing the correct settings is necessary to ensure that the display output matches expectations.
-
-For broader context on how Windows handles HDR and SDR, including processing features, see the following blog post: [High Dynamic Range in Surface displays](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/high-dynamic-range-in-surface-displays/ba-p/4100353).  
 
 We recommend beginning with baseline measurements while keeping most processing features turned off. This method makes it easier to assess the impact of different features by turning them on one at a time or in various combinations. It's also important to note that Windows frequently relies on applications for managing content color, so choosing the right application to display content is crucial.
 
@@ -72,5 +70,4 @@ See the following gamut and luminance accuracy data measurements taken after fol
 
 ## Learn more
 
-- [High Dynamic Range in Surface displays](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/high-dynamic-range-in-surface-displays/ba-p/4100353)
 - [Display Requirements for HDR Video](https://support.microsoft.com/windows/display-requirements-for-hdr-video-in-windows-192f362e-1245-e14d-3d3f-4b3fc606b80f)
