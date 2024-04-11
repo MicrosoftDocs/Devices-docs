@@ -6,16 +6,14 @@ ms.localizationpriority: medium
 author: coveminer
 ms.author: chauncel
 ms.topic: overview
-ms.date: 3/28/2024
+ms.date: 4/11/2024
 ms.reviewer: chauncel
 manager: frankbu
 appliesto:
 - Windows 11
 ---
 
-# Configure SDR & HDR display measurements on Surface devices
-
-## Introduction
+# Set up Surface devices for SDR & HDR display measurements
 
 This guide provides a technical reference for configuring eligible Surface devices for accurate display measurements in both Standard Dynamic Range (SDR) and High Dynamic Range (HDR) modes. With the introduction of new display modes and features in the Windows 11 operating system, understanding and implementing the correct settings is necessary to ensure that the display output matches expectations.
 
