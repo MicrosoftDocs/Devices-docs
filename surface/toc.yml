@@ -40,23 +40,21 @@
          - name: Surface Book 3 Quadro RTX 3000 overview
            href: surface-book-quadro.md      
       - name: Order Surface devices
-        items:  
+        items:      
+        - name: Surface Pro 10 for Business
+          href: https://www.microsoft.com/d/surface-pro-10-for-business/8v73d6qwrss1 
+        - name: Surface Laptop 6 for Business
+          href: https://www.microsoft.com/d/surface-laptop-6-for-business/8pz3fvs57qcv 
+        - name: Surface Pro 9 for Business
+          href: https://www.microsoft.com/surface/business/surface-pro-9           
         - name: Surface Laptop Studio 2 for Business
           href: https://www.microsoft.com/surface/business/surface-laptop-studio-2   
         - name: Surface Laptop Go 3 for Business
           href: https://www.microsoft.com/surface/business/surface-laptop-go-3     
-        - name: Surface Go 4 for Business
-          href: https://www.microsoft.com/surface/business/surface-go-4      
-        - name: Surface Pro 9 for Business
-          href: https://www.microsoft.com/surface/business/surface-pro-9    
-        - name: Surface Laptop 5 for Business
-          href: https://www.microsoft.com/surface/business/surface-laptop-5    
+        - name: Surface Go 4 for Business   
+          href: https://www.microsoft.com/surface/business/surface-go-4         
         - name: Surface Studio 2+ for Business
-          href: https://www.microsoft.com/surface/business/surface-studio-2-plus        
-        - name: Surface Pro 8 for Business
-          href: https://www.microsoft.com/surface/business/surface-pro-8                
-        - name: OS choice for new Surface devices
-          href: surface-os-choice.md 
+          href: https://www.microsoft.com/surface/business/surface-studio-2-plus                     
     - name: Plan
       expanded: true
       items: 
