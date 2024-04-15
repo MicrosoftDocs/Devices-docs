@@ -13,28 +13,26 @@ appliesto:
 - Surface Hub 3
 ---
 
-# Microsoft Teams certified audio and video accessories for Surface Hub 
+# Microsoft Teams certified audio and video accessories for Surface Hub
 
-The 50" and 85" models of Surface Hub 2S and Surface Hub 3 are [certified for Microsoft Teams](https://www.microsoft.com/microsoft-teams/across-devices/devices/category/teams-rooms/20) as all-in-one devices in huddle and collaboration spaces, at 2.3 meters and 3.5 meters respectively. 
+The 50" and 85" models of Surface Hub 2S and Surface Hub 3 are [certified for Microsoft Teams](https://www.microsoft.com/microsoft-teams/across-devices/devices/category/teams-rooms/20) as all-in-one devices in huddle and collaboration spaces, at 2.3 meters and 3.5 meters respectively.
 
 ## Surface Hub 3
 
-Surface Hub 3 runs Microsoft Teams Rooms on Windows, which means it's compatible with all [Teams certified audio and video accessories](https://www.microsoft.com/store/b/microsoft-teams-certified-devices). This includes Surface Hub 2S devices [migrated](surface-hub-2s-migrate-to-mtr-w.md) to run Teams Rooms on Windows and Surface Hub 2S devices [upgraded](install-manage-surface-hub-3-pack.md) with the Surface Hub 3 Pack compute cartridge. 
+Surface Hub 3 runs Microsoft Teams Rooms on Windows, which means it's compatible with all [Teams certified audio and video accessories](https://www.microsoft.com/store/b/microsoft-teams-certified-devices). This includes Surface Hub 2S devices [migrated](surface-hub-2s-migrate-to-mtr-w.md) to run Teams Rooms on Windows and Surface Hub 2S devices [upgraded](install-manage-surface-hub-3-pack.md) with the Surface Hub 3 Pack compute cartridge.
 
-
-## Surface Hub 2S 
+## Surface Hub 2S
 
 Surface Hub 2S can be extended to larger rooms with the following tested and approved Microsoft Teams certified peripherals that bring the most out of any space when combined with Surface Hub 50” and 85”.
 
 ### Microsoft Teams certified audio accessories for Surface Hub 2S
- 
+
 | Model                                | Description                                                                                                                                                                                                                                                                                              |
 | ------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Yamaha YVC-1000MS**<br>        | For up to six participants<br><br>- Use one to five expansion mics for Microsoft Teams certification in rooms with up to 40 participants                                                                                                                                                               |
 | **Sennheiser EXPAND SP 20**<br> | For up to six participants                                                                                                                                                                                                                                                    |
 | **Yealink CP900**<br>           | For up to six participants                                                                                                                                                                                                                                                    |
 
- 
 ### Microsoft Teams certified video accessories for Surface Hub 2S
 
 | Model                                       | Description                                                                    |
@@ -42,7 +40,7 @@ Surface Hub 2S can be extended to larger rooms with the following tested and app
 | **[Surface Hub Smart Camera](surface-hub-smart-camera.md)**<br>          | 4K, 136 degrees Horizontal Field of View (HFOV), digital pan-tilt-zoom (PTZ)<br>- Up to 7.4 meters for video subjects |
 | **Jabra PanaCast**<br>                  | 4K, 180 degrees HFOV<br>Up to 3 meters for video subjects                          |
 | **Poly Studio - Huddle Room USB Video Bar** | 4K, 120 degrees HFOV<br>- Up to 3.7 meters for audio + video subjects                 |
-| **Polycom EagleEye Director II**<br>    | 1080p, 65 degrees HFOV<br>- 10+ participants medium rooms                             |
+| **Polycom EagleEye Director II**<br>    | 1080p, 65 degrees HFOV<br>- For 10+ participants in medium rooms                             |
 | **Logitech Rally Bar**                      | 4K, 90 degrees HFOV, PTZ, manual/digital control, USB 3.0 Type-C, privacy assurance |
 
 ## Learn more
