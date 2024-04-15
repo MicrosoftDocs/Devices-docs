@@ -27,7 +27,7 @@ Surface Hub 2S can be extended to larger rooms with the following tested and app
 
 ### Microsoft Teams certified audio accessories for Surface Hub 2S
 
-| Model                                | Description                                                                                                                                                                                                                                                                                              |
+| Model | Description |
 | ------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Yamaha YVC-1000MS**<br>        | For up to six participants<br><br>- Use one to five expansion mics for Microsoft Teams certification in rooms with up to 40 participants                                                                                                                                                               |
 | **Sennheiser EXPAND SP 20**<br> | For up to six participants                                                                                                                                                                                                                                                    |
@@ -35,7 +35,7 @@ Surface Hub 2S can be extended to larger rooms with the following tested and app
 
 ### Microsoft Teams certified video accessories for Surface Hub 2S
 
-| Model                                       | Description                                                                    |
+| Model | Description |
 | ------------------------------------------- | ------------------------------------------------------------------------------ |
 | **[Surface Hub Smart Camera](surface-hub-smart-camera.md)**<br>          | 4K, 136 degrees Horizontal Field of View (HFOV), digital pan-tilt-zoom (PTZ)<br>- Up to 7.4 meters for video subjects |
 | **Jabra PanaCast**<br>                  | 4K, 180 degrees HFOV<br>Up to 3 meters for video subjects                          |
@@ -45,4 +45,4 @@ Surface Hub 2S can be extended to larger rooms with the following tested and app
 
 ## Learn more
 
-- [Meeting Room Systems, VoIP Phones, Headsets | Microsoft Teams](https://www.microsoft.com/microsoft-teams/across-devices/)
+- [Meeting Room Systems, VoIP Phones, Headsets](https://www.microsoft.com/microsoft-teams/across-devices/)
