@@ -1,12 +1,12 @@
 ---
-title: "Microsoft Teams certified accessories for Surface Hub"
-description: "See Teams certified audio and video accessories for Surface Hub."
+title: Microsoft Teams certified audio and video accessories for Surface Hub
+description: See Teams certified audio and video accessories for Surface Hub.
 ms.service: surface-hub
 author: coveminer
 ms.author: chauncel
 manager: frankbu
 ms.topic: conceptual
-ms.date: 12/04/2023
+ms.date: 04/02/2024
 ms.localizationpriority: Medium
 appliesto:
 - Surface Hub 2S
@@ -17,13 +17,17 @@ appliesto:
 
 The 50" and 85" models of Surface Hub 2S and Surface Hub 3 are [certified for Microsoft Teams](https://www.microsoft.com/microsoft-teams/across-devices/devices/category/teams-rooms/20) as all-in-one devices in huddle and collaboration spaces, at 2.3 meters and 3.5 meters respectively. 
 
-> [!NOTE]
-> Surface Hub 3 runs Microsoft Teams Rooms on Windows, which means it's compatible with all Teams certified audio and video accessories. 
+## Surface Hub 3
 
-## Microsoft Teams certified audio accessories 
+Surface Hub 3 runs Microsoft Teams Rooms on Windows, which means it's compatible with all [Teams certified audio and video accessories](https://www.microsoft.com/store/b/microsoft-teams-certified-devices). This includes Surface Hub 2S devices [migrated](surface-hub-2s-migrate-to-mtr-w.md) to run Teams Rooms on Windows and Surface Hub 2S devices [upgraded](install-manage-surface-hub-3-pack.md) with the Surface Hub 3 Pack compute cartridge. 
+
+
+## Surface Hub 2S 
 
 Surface Hub 2S can be extended to larger rooms with the following tested and approved Microsoft Teams certified peripherals that bring the most out of any space when combined with Surface Hub 50” and 85”.
 
+### Microsoft Teams certified audio accessories for Surface Hub 2S
+ 
 | Model                                | Description                                                                                                                                                                                                                                                                                              |
 | ------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Yamaha YVC-1000MS**<br>        | For up to six participants<br><br>- Use one to five expansion mics for Microsoft Teams certification in rooms with up to 40 participants                                                                                                                                                               |
@@ -31,7 +35,7 @@ Surface Hub 2S can be extended to larger rooms with the following tested and app
 | **Yealink CP900**<br>           | For up to six participants                                                                                                                                                                                                                                                    |
 
  
-## Microsoft Teams certified video accessories
+### Microsoft Teams certified video accessories for Surface Hub 2S
 
 | Model                                       | Description                                                                    |
 | ------------------------------------------- | ------------------------------------------------------------------------------ |
