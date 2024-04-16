@@ -28,7 +28,7 @@ Suppose you’re managing a wireless network that’s typically accessed by many
 - **802.11r.** “**Fast BSS Transition”** accelerates connecting to new wireless access points by reducing the frames required before your device can access another AP as you move around with your device. For Surface devices released since 2019, end-users can gain access to roaming aggressiveness settings on their device. Although modifying default settings is not recommended, users should be aware of this capability and understand how specific settings can impact their ability to remain connected.
 - **802.11k.** **“Neighbor Reports”** provides devices with information on current conditions at neighboring access points. It can help your Surface device choose the best AP using criteria other than signal strength, such as AP utilization.
 
-Specific Surface devices can also use 802.11v “BSS Transition Management Frames,” which functions much like 802.11k in providing information on nearby candidate APs. These include Surface Pro 9, Surface Pro 9 with 5G, Surface Pro 8, Surface Pro 7+, Surface Laptop Studio (all generations), Surface Laptop Go (all generations), Surface Go (all generations), Surface Pro 7, Surface Pro X, and Surface Laptop 3.
+Specific Surface devices can also use 802.11v “BSS Transition Management Frames,” which functions much like 802.11k in providing information on nearby candidate APs. These include Surface Pro 7 and later, Surface Laptop Studio (all generations), Surface Laptop Go (all generations), Surface Go (all generations), Surface Pro X, and Surface Laptop 3.
 
 ## Managing user settings
 
