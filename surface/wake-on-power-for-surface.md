@@ -59,7 +59,9 @@ Surface UEFI Configurator lets you save individual UEFI settings in a Windows In
 
 ## To enable Wake-on-Power
 
-1. Download the latest version of [Surface UEFI Configurator](https://www.microsoft.com/download/confirmation.aspx?id=46703).
+1. Download Microsoft Surface UEFI Configurator from the [Surface Tools for IT](https://www.microsoft.com/download/details.aspx?id=46703) page in the Microsoft Download Center.
+    - For Intel/AMD devices, download: **SurfaceUEFI_Configurator_v2.112.139.0_x64.msi**
+    - For ARM devices, download: **SurfaceUEFI_Configurator_v2.112.139.0_x86.msi**
 2. Sign in to your Surface device as an administrator, open **Surface UEFI Configurator**, select **Surface Devices**, and then select **Next**.
 
     :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-1.png" alt-text="Select Surface Devices and select Next.":::
