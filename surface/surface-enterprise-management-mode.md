@@ -16,59 +16,6 @@ appliesto:
 
 # Microsoft Surface Enterprise Management Mode (SEMM)
 
-Microsoft Surface Enterprise Management Mode (SEMM) is a feature of Surface devices with Surface Unified Extensible Firmware Interface (UEFI). You can use SEMM to:
-
-- Secure and manage firmware settings in your organization.
-- Prepare UEFI settings configurations and install them on a Surface device.
-
-SEMM also uses a certificate to protect the configuration from unauthorized tampering or removal. To migrate a Surface Hub 2S to Windows 10 Pro or Windows Enterprise, SEMM is required.
-
-## Supported devices
-
-SEMM is only available on devices with Surface UEFI firmware including:
-
-- Surface Book (all generations)
-- Surface Go 4 (commercial SKUs only)
-- Surface Go 3 (commercial SKUs only)
-- Surface Go 2 (all SKUs)
-- Surface Go (all SKUs)
-- Surface Hub 2S
-- Surface Laptop 5 (commercial SKUs only)
-- Surface Laptop 4 (commercial SKUs only)
-- Surface Laptop 3 (Intel processors only)
-- Surface Laptop 2 (all SKUs)
-- Surface Laptop (all SKUs)
-- Surface Laptop Go 3 (commercial SKUs only)
-- Surface Laptop Go 2 (commercial SKUs only)
-- Surface Laptop Go (all SKUs)
-- Surface Laptop SE (all SKUs)
-- Surface Laptop Studio 2 (commercial SKUs only)
-- Surface Laptop Studio (commercial SKUs only)
-- Surface Pro 9 (commercial SKUs only)
-- Surface Pro 9 with 5G (commercial SKUs only)
-- Surface Pro 8 (commercial SKUs only)
-- Surface Pro 7+ (commercial SKUs only)
-- Surface Pro 7 (all SKUs)
-- Surface Pro 6 (all SKUs)
-- Surface Pro 5th Gen (all SKUs)
-- Surface Pro 4 (all SKUs)
-- Surface Pro X (all SKUs)
-- Surface Studio 2+ (commercial SKUs only)
-- Surface Studio 2 (all SKUs)
-- Surface Studio (all SKUs)
-
->[!TIP]
-> Commercial SKUs (aka Surface for Business) run Windows 10 Pro/Enterprise or Windows 11 Pro/Enterprise; consumer SKUs run Windows 10/Windows 11 Home. To learn more, see [View your system info](https://support.microsoft.com/windows/view-your-system-info-a965a8f2-0773-1d65-472a-1e747c9ebe00).
-
-## Getting started
-
-When Surface devices are configured by SEMM and secured with the SEMM certificate, they're considered *enrolled* in SEMM. When the SEMM certificate is removed and control of UEFI settings is returned to the user of the device, the Surface device is considered *unenrolled* in SEMM.
-
-There are two administrative options that you can use to manage SEMM and enroll Surface devices:
-
-- SEMM standalone tool, Microsoft Surface UEFI Configurator, is described in this article.
-
-- Integration with Microsoft Endpoint Configuration Manager. For information, see [Use Microsoft Endpoint Configuration Manager to manage devices with SEMM](use-system-center-configuration-manager-to-manage-devices-with-semm.md).
 
 ## Microsoft Surface UEFI Configurator
 
@@ -115,54 +62,6 @@ For more information about the requirements for the SEMM certificate, see the [S
 >You have the option to require a UEFI password with SEMM. If you do, the password is required to view the **Security**, **Devices**, **Boot Configuration**, and **Enterprise Management** pages of Surface UEFI.
 
 After a device is enrolled in SEMM, the configuration file is read, and the settings specified in the file are applied to UEFI. When you run a configuration package on a device that's already enrolled in SEMM, the signature of the configuration file is checked against the certificate that's stored in the device firmware. If the signature doesn't match, no changes are applied to the device.
-
-### Enable or disable devices in Surface UEFI with SEMM
-
-The following list shows all the available devices that you can manage in SEMM:
-
-- Docking USB port
-- On-board audio
-- Digital graphics processing unit
-- Type cover
-- Micro SD card
-- Front camera
-- Rear camera
-- Infrared camera (for Windows Hello)
-- Bluetooth only
-- Wireless network and Bluetooth
-- Long-term evolution (LTE)
-- Discrete GPU (dGPU)
-- On-board microphone
-- MAC address emulation
-- Wired LAN
-- Near-field communication (NFC)
-
-
-> [!NOTE]
-> On the UEFI Devices page, the built-in devices might vary, depending on your device or corporate environment. For example, the UEFI Devices page isn't supported on Surface Pro X; LTE appears only on LTE-equipped devices.
-
-### Configure advanced settings with SEMM
-
-**Table 1. Advanced settings**
-
-| Setting                            | Description                                                                                                                                                                                        |
-| ---------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| IPv6 for PXE Boot                  | Allows you to manage IPv6 support for PXE boot. If you don't configure this setting, IPv6 support for PXE boot is enabled.                                                                               |
-| Alternate Boot                     | Allows you to manage the use of an Alternate boot order to boot directly to a USB or Ethernet device by pressing both the Volume Down button and Power button during boot. If you don't configure this setting, Alternate boot is enabled. |
-| Boot Order Lock                    | Allows you to lock the boot order to prevent changes. If you don't configure this setting, Boot Order Lock is disabled.                                                                                                        |
-| USB Boot                           | Allows you to manage booting to USB devices. If you don't configure this setting, USB Boot is enabled.                                                                                                                 |
-| Network Stack                      | Allows you to manage Network Stack boot settings. If you don't configure this setting,  the ability to manage Network Stack boot settings is enabled.                                                                                                           |
-| Auto Power On                      | Allows you to manage Auto Power-on boot settings. If you don't configure this setting, Auto Power-on is enabled.                                                                                                        |
-| Simultaneous Multi-Threading (SMT) | Allows you to manage Simultaneous Multi-Threading (SMT) to enable or disable hyperthreading. If you don't configure this setting, SMT is enabled.                                                  |
-| Enable Battery limit               | Allows you to manage Battery limit functionality. If you don't configure this setting, Battery limit is enabled |
-| Security                           | Displays the Surface UEFI **Security** page. If you don't configure this setting, the Security page is displayed.                                                                                                                 |
-| Devices                            | Displays the Surface UEFI **Devices** page. If you don't configure this setting,  the Devices page is displayed.                                                                                                                     |
-| Boot                               | Displays the Surface UEFI **Boot** page. If you don't configure this setting, the Boot page is displayed.                                                                                                                                                            |
-| DateTime                           | Displays the Surface UEFI **DateTime** page. If you don't configure this setting, the DateTime page is displayed.                                                                                                                |
-| EnableOSMigration                  | Allows you to migrate Surface Hub 2S from Windows 10 Team to Windows 10/11 Pro or Enterprise. If you don't configure this setting, Surface Hub 2S devices can run only the Windows 10 Team OS. Note: Dual booting between Windows 10 Team and Windows 10/11 Pro/Enterprise isn't available on Surface Hub 2S.                                                                                                           |
-| Secured Core                       | Allows you to manage Secured Core functionality. If you don't configure this setting, Secured Core functionality is enabled on supported devices.                                                                                                         |
-| Wake-on-LAN                        | Allows you to manage Wake-on-LAN functionality. If you don't configure this setting, Wake-on-LAN is enabled on supported devices.                                                                                                            |
-| Wake-on-Power                      | Allows you to manage Wake-on-Power functionality. If you don't configure this setting, Wake-on-Power is disabled on supported devices.                                                                                                          |
 
 >[!TIP]
 >When you create a SEMM configuration package, two characters are shown on the **Successful** page, as shown in Figure 3.
