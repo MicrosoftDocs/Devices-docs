@@ -22,6 +22,12 @@ Microsoft Surface Enterprise Management Mode (SEMM) is a feature of Surface devi
 
 SEMM also uses a certificate to protect the configuration from unauthorized tampering or removal. 
 
+## Enroll and configure Surface devices with SEMM
+
+When a Surface device is managed by SEMM, that device is considered *enrolled* (sometimes referred to as activated). This article shows you how to create a Surface UEFI configuration package to enable or disable hardware components at the firmware level and enroll a Surface device in SEMM.
+
+As an alternative to SEMM, newer Surface devices support remote management of a subset of firmware settings via Microsoft Intune. For more information,see [Manage DFCI on Surface devices](surface-manage-dfci-guide.md).
+
 ## Supported devices
 
 SEMM is only available on devices with Surface UEFI firmware including:
@@ -71,13 +77,8 @@ There are two administrative options that you can use to manage SEMM and enroll 
 
 - Integration with Microsoft Endpoint Configuration Manager. For information, see [Use Microsoft Endpoint Configuration Manager to manage devices with SEMM](use-system-center-configuration-manager-to-manage-devices-with-semm.md).
 
-## Enroll and configure Surface devices with SEMM
 
-With Microsoft Surface Enterprise Management Mode (SEMM), you can securely configure the settings of Surface UEFI on a Surface device and manage those settings on Surface devices in your organization. When a Surface device is managed by SEMM, that device is considered *enrolled* (sometimes referred to as activated). This article shows you how to create a Surface UEFI configuration package to control the settings of Surface UEFI and enroll a Surface device in SEMM.
-
-As an alternative to SEMM, newer Surface devices support remote management of a subset of firmware settings via Microsoft Intune. For more information,see [Manage DFCI on Surface devices](surface-manage-dfci-guide.md).
-
-<!--> [!NOTE]
+<!--[!NOTE]
 > SEMM is supported on Surface Pro X via the UEFI Manager only. For more information, see [Deploying, managing, and servicing Surface Pro X](surface-pro-arm-app-management.md).-->
 
 ## Create a Surface UEFI configuration package
