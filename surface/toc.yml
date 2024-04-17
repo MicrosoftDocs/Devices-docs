@@ -114,7 +114,6 @@
           - name: Use Surface Diagnostic Toolkit for Business in desktop mode
             href: surface-diagnostic-toolkit-desktop-mode.md
         - name: Archived tools
-          expanded: true
           items: 
           - name: Surface Data Eraser (legacy)
             href: microsoft-surface-data-eraser.md
