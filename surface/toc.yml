@@ -110,8 +110,9 @@
               href: microsoft-surface-brightness-control.md 
         - name: Surface Diagnostic Toolkit for Business
           href: surface-diagnostic-toolkit-business.md
-        - name: Use Surface Diagnostic Toolkit for Business in desktop mode
-          href: surface-diagnostic-toolkit-desktop-mode.md
+          items:
+          - name: Use Surface Diagnostic Toolkit for Business in desktop mode
+            href: surface-diagnostic-toolkit-desktop-mode.md
         - name: Archived tools
           expanded: true
           items: 
