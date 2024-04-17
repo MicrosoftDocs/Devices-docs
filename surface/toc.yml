@@ -108,34 +108,45 @@
       - name: Surface tools
         expanded: true
         items:   
-        - name: Surface Enterprise Management Mode (SEMM)
-          href: surface-enterprise-management-mode.md
+        - name: Surface IT Toolkit
+          href: surface-it-toolkit.md
+          expanded: true
           items:
-          - name: Manage USB ports on Surface devices
-            href: manage-usb-ports-on-surface.md  
-          - name: Enroll & configure Surface devices with SEMM
-            href: enroll-and-configure-surface-devices-with-semm.md
-          - name: Unenroll Surface devices from SEMM
-            href: unenroll-surface-devices-from-semm.md
-          - name: Use Microsoft Configuration Manager to manage devices with SEMM
-            href: use-system-center-configuration-manager-to-manage-devices-with-semm.md
+          - name: USB Recovery image
+            href: surface-it-toolkit-usb-recover.md  
+          - name: Data Eraser
+            href: surface-it-toolkit-data-eraser.md  
+          - name: UEFI Configurator
+            expanded: true
+            items:
+            - name: Configure UEFI settings for Surface devices
+              href: surface-it-toolkit-uefi-config.md
+            - name: Configure Surface Docks
+              href: surface-it-toolkit-configure-surface-docks.md
+            - name: Configure Surface devices with PowerShell 
+              href: surface-it-toolkit-powershell-surface.md
+            - name: Unenroll devices from SEMM  
+              href: surface-it-toolkit-unenroll-devices-from-semm.md    
+          - name: Tool Library
+            expanded: true
+            items:
+            - name: Surface Asset Tag
+              href: assettag.md
+            - name: UEFI Assemblies
+              href: surface-uefi-manager.md
+            - name: Diagnostics App console
+              href: surface-diagnostic-toolkit-command-line.md
+            - name: Surface Brightness Control
+              href: microsoft-surface-brightness-control.md 
         - name: Surface Diagnostic Toolkit for Business
           href: surface-diagnostic-toolkit-business.md
+        - name: Use Surface Diagnostic Toolkit for Business in desktop mode
+          href: surface-diagnostic-toolkit-desktop-mode.md
+        - name: Archived tools
+          expanded: true
           items: 
-          - name: Use Surface Diagnostic Toolkit for Business in desktop mode
-            href: surface-diagnostic-toolkit-desktop-mode.md
-          - name: Run command-line app console with Surface Diagnostic Toolkit for Business
-            href: surface-diagnostic-toolkit-command-line.md
-        - name: Surface Data Eraser
-          href: microsoft-surface-data-eraser.md
-        - name: Surface Battery Limit setting
-          href: battery-limit.md
-        - name: Surface Brightness Control
-          href: microsoft-surface-brightness-control.md
-        - name: Surface Asset Tag
-          href: assettag.md
-        - name: Enable PEAP, EAP-FAST, & Cisco LEAP on Surface devices
-          href: enable-peap-eap-fast-and-cisco-leap-on-surface-devices.md
+          - name: Surface Data Eraser (legacy)
+            href: microsoft-surface-data-eraser.md
         - name: Surface Dock 1 Firmware Update
           href: surface-dock-firmware-update.md 
       - name : Manage updates
