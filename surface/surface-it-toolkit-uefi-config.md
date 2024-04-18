@@ -15,62 +15,6 @@ appliesto:
 
 # Configure UEFI settings for Surface devices
 
-Microsoft Surface Enterprise Management Mode (SEMM) is a feature of Surface devices with Surface Unified Extensible Firmware Interface (UEFI). You can use SEMM to:
-
-- Secure and manage firmware settings in your organization.
-- Prepare UEFI settings configurations and install them on a Surface device.
-
-SEMM also uses a certificate to protect the configuration from unauthorized tampering or removal. 
-
-## Enroll Surface devices into SEMM
-
-This article shows you how to create a Surface UEFI configuration package to enable or disable hardware components at the firmware level and enroll a Surface device in SEMM. When Surface devices are configured by SEMM and secured with the SEMM certificate, they're considered *enrolled* in SEMM. When the SEMM certificate is removed and control of UEFI settings is returned to the user of the device, the Surface device is considered *unenrolled* in SEMM.
-
-You can also [Use Microsoft Endpoint Configuration Manager to manage devices with SEMM](use-system-center-configuration-manager-to-manage-devices-with-semm.md).
-
-As an alternative to SEMM, newer Surface devices support remote management of a subset of firmware settings via Microsoft Intune. For more information,see [Manage DFCI on Surface devices](surface-manage-dfci-guide.md).
-
-## Supported devices
-
-SEMM is only available on devices with Surface UEFI firmware including:
-
-- Surface Book (all generations)
-- Surface Go 4 (commercial SKUs only)
-- Surface Go 3 (commercial SKUs only)
-- Surface Go 2 (all SKUs)
-- Surface Go (all SKUs)
-- Surface Hub 2S
-- Surface Laptop 6 (commercial SKUs only)
-- Surface Laptop 5 (commercial SKUs only)
-- Surface Laptop 4 (commercial SKUs only)
-- Surface Laptop 3 (Intel processors only)
-- Surface Laptop 2 (all SKUs)
-- Surface Laptop (all SKUs)
-- Surface Laptop Go 3 (commercial SKUs only)
-- Surface Laptop Go 2 (commercial SKUs only)
-- Surface Laptop Go (all SKUs)
-- Surface Laptop SE (all SKUs)
-- Surface Laptop Studio 2 (commercial SKUs only)
-- Surface Laptop Studio (commercial SKUs only)
-- Surface Pro 10 (commercial SKUs only)
-- Surface Pro 9 (commercial SKUs only)
-- Surface Pro 9 with 5G (commercial SKUs only)
-- Surface Pro 8 (commercial SKUs only)
-- Surface Pro 7+ (commercial SKUs only)
-- Surface Pro 7 (all SKUs)
-- Surface Pro 6 (all SKUs)
-- Surface Pro 5th Gen (all SKUs)
-- Surface Pro 4 (all SKUs)
-- Surface Pro X (all SKUs)
-- Surface Studio 2+ (commercial SKUs only)
-- Surface Studio 2 (all SKUs)
-- Surface Studio (all SKUs)
-
->[!TIP]
-> Commercial SKUs (aka Surface for Business) run Windows 10 Pro/Enterprise or Windows 11 Pro/Enterprise; consumer SKUs run Windows 10/Windows 11 Home. To learn more, see [View your system info](https://support.microsoft.com/windows/view-your-system-info-a965a8f2-0773-1d65-472a-1e747c9ebe00).
-
-<!--[!NOTE]
-> SEMM is supported on Surface Pro X via the UEFI Manager only. For more information, see [Deploying, managing, and servicing Surface Pro X](surface-pro-arm-app-management.md).-->
 
 ## Create a Surface UEFI configuration package
 
@@ -86,49 +30,6 @@ To create a Surface UEFI configuration package, follow these steps:
 4. In the Device Configuration Settings page, select the components you wish to configure.
 :::image type="content" source="images/ueficonfig-device-config-settings.png" alt-text="Screenshot ofDevice Configuration Settings page.":::
 
-### Enable or disable components in Surface UEFI 
-
-The following components can be turned or off:
-
-- Docking USB port
-- On-board audio
-- Digital graphics processing unit
-- Type cover
-- Micro SD card
-- Front camera
-- Rear camera
-- Infrared camera (for Windows Hello)
-- Bluetooth only
-- Wireless network and Bluetooth
-- Long-term evolution (LTE)
-- Discrete GPU (dGPU)
-- On-board microphone
-- MAC address emulation
-- Wired LAN
-- Near-field communication (NFC)
-
-### Configure advanced settings with SEMM
-
-**Table 1. Advanced settings**
-
-| Setting                            | Description                                                                                                                                                                                        |
-| ---------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| IPv6 for PXE Boot                  | Allows you to manage IPv6 support for PXE boot. If you don't configure this setting, IPv6 support for PXE boot is **disabled**.                                                                               |
-| Alternate Boot                     | Allows you to manage the use of an Alternate boot order to boot directly to a USB or Ethernet device by pressing both the Volume Down button and Power button during boot. If you don't configure this setting, Alternate boot is enabled. |
-| Boot Order Lock                    | Allows you to lock the boot order to prevent changes. If you don't configure this setting, Boot Order Lock is disabled.                                                                                                        |
-| USB Boot                           | Allows you to manage booting to USB devices. If you don't configure this setting, USB Boot is enabled.                                                                                                                 |
-| Network Stack                      | Allows you to manage Network Stack boot settings. If you don't configure this setting,  the ability to manage Network Stack boot settings is **disabled**.                                                                                                           |
-| Auto Power On                      | Allows you to manage Auto Power-on boot settings. If you don't configure this setting, Auto Power-on is enabled.                                                                                                        |
-| Simultaneous Multi-Threading (SMT) | Allows you to manage Simultaneous Multi-Threading (SMT) to enable or disable hyperthreading. If you don't configure this setting, SMT is enabled.                                                  |
-| Enable Battery limit               | Allows you to manage Battery limit functionality. If you don't configure this setting, Battery limit is **disabled** |
-| Security                           | Displays the Surface UEFI **Security** page. If you don't configure this setting, the Security page is displayed.                                                                                                                 |
-| Devices                            | Displays the Surface UEFI **Devices** page. If you don't configure this setting,  the Devices page is displayed.                                                                                                                     |
-| Boot                               | Displays the Surface UEFI **Boot** page. If you don't configure this setting, the Boot page is displayed.                                                                                                                                                            |
-| DateTime                           | Displays the Surface UEFI **DateTime** page. If you don't configure this setting, the DateTime page is displayed.                                                                                                                |
-| EnableOSMigration                  | Allows you to migrate Surface Hub 2S from Windows 10 Team to Windows 10/11 Pro or Enterprise. If you don't configure this setting, Surface Hub 2S devices can run only the Windows 10 Team OS. Note: Dual booting between Windows 10 Team and Windows 10/11 Pro/Enterprise isn't available on Surface Hub 2S.                                                                                                           |
-| Secured Core                       | Allows you to manage Secured Core functionality. If you don't configure this setting, Secured Core functionality is enabled on supported devices.                                                                                                         |
-| Wake-on-LAN                        | Allows you to manage Wake-on-LAN functionality. If you don't configure this setting, Wake-on-LAN is **disabled** on supported devices.                                                                                                            |
-| Wake-on-Power                      | Allows you to manage Wake-on-Power functionality. If you don't configure this setting, Wake-on-Power is disabled on supported devices.                                                                                                          |
 
 ## Protect UEFI settings with password
 

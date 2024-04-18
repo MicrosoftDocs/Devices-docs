@@ -89,6 +89,10 @@
           - name: UEFI Configurator
             expanded: true
             items:
+            - name: Get started with SEMM
+              href: surface-enterprise-management-mode.md
+            - name:  Surface UEFI settings reference
+              href: surface-it-toolkit-semm-uefi-settings.md
             - name: Configure UEFI settings for Surface devices
               href: surface-it-toolkit-uefi-config.md
             - name: Configure Surface Docks

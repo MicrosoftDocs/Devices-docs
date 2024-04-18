@@ -1,5 +1,5 @@
 ---
-title: Surface Enterprise Management Mode (SEMM)
+title: Get started with Surface Enterprise Management Mode (SEMM)
 description: See how this feature of Surface devices with Surface UEFI helps you secure and manage firmware settings within your organization.
 ms.service: surface
 author: coveminer
@@ -14,47 +14,90 @@ appliesto:
 - Windows 11
 ---
 
-# Microsoft Surface Enterprise Management Mode (SEMM)
+# Get started with Surface Enterprise Management Mode (SEMM)
 
+Microsoft Surface Enterprise Management Mode (SEMM) is a feature of Surface devices with Surface Unified Extensible Firmware Interface (UEFI). You can use SEMM to:
 
-## Microsoft Surface UEFI Configurator
+- Secure and manage firmware settings in your organization.
+- Prepare UEFI settings configurations and install them on a Surface device.
 
-The primary workspace of SEMM is Microsoft Surface UEFI Configurator, as shown in Figure 1.
+SEMM also uses a certificate to protect the configuration from unauthorized tampering or removal. 
 
-You can use Microsoft Surface UEFI Configurator to:
+## Enroll Surface devices into SEMM
 
-- Create Windows Installer (.msi) packages.
+This article shows you how to create a Surface UEFI configuration package to enable or disable hardware components at the firmware level and enroll a Surface device in SEMM. When Surface devices are configured by SEMM and secured with the SEMM certificate, they're considered *enrolled* in SEMM. When the SEMM certificate is removed and control of UEFI settings is returned to the user of the device, the Surface device is considered *unenrolled* in SEMM.
+
+You can also [Use Microsoft Endpoint Configuration Manager to manage devices with SEMM](use-system-center-configuration-manager-to-manage-devices-with-semm.md).
+
+As an alternative to SEMM, newer Surface devices support remote management of a subset of firmware settings via Microsoft Intune. For more information,see [Manage DFCI on Surface devices](surface-manage-dfci-guide.md).
+
+## Supported devices
+
+SEMM is only available on devices with Surface UEFI firmware including:
+
+- Surface Book (all generations)
+- Surface Go 4 (commercial SKUs only)
+- Surface Go 3 (commercial SKUs only)
+- Surface Go 2 (all SKUs)
+- Surface Go (all SKUs)
+- Surface Hub 2S
+- Surface Laptop 6 (commercial SKUs only)
+- Surface Laptop 5 (commercial SKUs only)
+- Surface Laptop 4 (commercial SKUs only)
+- Surface Laptop 3 (Intel processors only)
+- Surface Laptop 2 (all SKUs)
+- Surface Laptop (all SKUs)
+- Surface Laptop Go 3 (commercial SKUs only)
+- Surface Laptop Go 2 (commercial SKUs only)
+- Surface Laptop Go (all SKUs)
+- Surface Laptop SE (all SKUs)
+- Surface Laptop Studio 2 (commercial SKUs only)
+- Surface Laptop Studio (commercial SKUs only)
+- Surface Pro 10 (commercial SKUs only)
+- Surface Pro 9 (commercial SKUs only)
+- Surface Pro 9 with 5G (commercial SKUs only)
+- Surface Pro 8 (commercial SKUs only)
+- Surface Pro 7+ (commercial SKUs only)
+- Surface Pro 7 (all SKUs)
+- Surface Pro 6 (all SKUs)
+- Surface Pro 5th Gen (all SKUs)
+- Surface Pro 4 (all SKUs)
+- Surface Pro X (all SKUs)
+- Surface Studio 2+ (commercial SKUs only)
+- Surface Studio 2 (all SKUs)
+- Surface Studio (all SKUs)
+
+>[!TIP]
+> Commercial SKUs (aka Surface for Business) run Windows 10 Pro/Enterprise or Windows 11 Pro/Enterprise; consumer SKUs run Windows 10/Windows 11 Home. To learn more, see [View your system info](https://support.microsoft.com/windows/view-your-system-info-a965a8f2-0773-1d65-472a-1e747c9ebe00).
+
+<!--[!NOTE]
+> SEMM is supported on Surface Pro X via the UEFI Manager only. For more information, see [Deploying, managing, and servicing Surface Pro X](surface-pro-arm-app-management.md).-->
+
+## Surface UEFI Configurator
+
+The primary workspace of SEMM is the [Surface IT Toolkit](surface-it-toolkit.md), which contains the new [Surface UEFI Configurator](surface-it-toolkit-uefi-config.md). 
+
+You can use Surface UEFI Configurator to:
+
+- Create Windows Installer (.msi) packages to enroll Surface devices into SEMM and manage UEFI firmware settings for enrolled devices. 
 - Use WinPE images to enroll, configure, and unenroll SEMM on a Surface device.
+- Create DFI packages to enroll Surface Hub devices into SEMM and manage UEFI firmware settings for enrolled Surface Hub devices. 
+- Create Windows Installer (.msi) packages to enroll Surface docks into SEMM and manage UEFI firmware settings for enrolled docks. 
 
 These packages contain a configuration file that specifies the UEFI settings. SEMM packages also contain a certificate that's installed and stored in firmware and is used to verify the signature of configuration files before UEFI settings are applied.
 
+<!--
 >[!TIP]
->You can now use Surface UEFI Configurator and SEMM to manage ports on Surface Dock 2 or Surface Thunderbolt 4 Dock. To learn more, see [Secure Surface Dock ports with SEMM](secure-surface-dock-ports-semm.md).
+>You can now use Surface UEFI Configurator and SEMM to manage ports on Surface Dock 2 or Surface Thunderbolt 4 Dock. To learn more, see [Secure Surface Dock ports with SEMM](secure-surface-dock-ports-semm.md).-->
 
-![Microsoft Surface UEFI Configurator.](images/surface-ent-mgmt-fig1-uefi-configurator.png "Microsoft Surface UEFI Configurator")
-
-*Figure 1. Microsoft Surface UEFI Configurator*
-
-You can use the Microsoft Surface UEFI Configurator tool in three modes:
+You can use the Microsoft Surface UEFI Configurator tool in two modes:
 
 - [Surface UEFI Configuration Package](#configuration-package). Use this mode to create a Surface UEFI configuration package to enroll a Surface device in SEMM and to configure UEFI settings on enrolled devices.
-- [Surface UEFI Reset Package](#reset-package). Use this mode to unenroll a Surface device from SEMM.
-- [Surface UEFI Recovery Request](#recovery-request). Use this mode to respond to a recovery request to unenroll a Surface device from SEMM where a Reset Package operation isn't successful.
-
-### Download Microsoft Surface UEFI Configurator
-
-You can download Microsoft Surface UEFI Configurator from the [Surface Tools for IT](https://www.microsoft.com/download/details.aspx?id=46703) page in the Microsoft Download Center.
-
-- For Intel/AMD devices, download: **SurfaceUEFI_Configurator_v2.97.139.0_x64.msi**
-- For ARM devices, download: **SurfaceUEFI_Configurator_v2.97.139.0_x86.msi**
+- [Surface UEFI Recovery Request](#recovery-request). Use this mode to unenroll a Surface device from SEMM.
 
 ### Configuration package
 
 Surface UEFI configuration packages are the primary mechanism to implement and manage SEMM on Surface devices. These packages contain a configuration file and a certificate file, as shown in Figure 2. The configuration file contains UEFI settings that are specified when the package is created in Microsoft Surface UEFI Configurator. When a configuration package runs for the first time on a Surface device that's not already enrolled in SEMM, it provisions the certificate file in the device’s firmware and enrolls the device in SEMM. When enrolling a device in SEMM, and before the certificate is stored and the enrollment finishes, you're prompted to confirm the operation by providing the last two digits of the SEMM certificate thumbprint. This confirmation requires a user to be physically present at the device during enrollment to perform the confirmation.
-
-![Secure a SEMM configuration package with a certificate.](images/surface-ent-mgmt-fig2-securepackage.png "Secure a SEMM configuration package with a certificate")
-
-*Figure 2. Secure a SEMM configuration package with a certificate*
 
 For more information about the requirements for the SEMM certificate, see the [Surface Enterprise Management Mode certificate requirements](#surface-enterprise-management-mode-certificate-requirements) section later in this article.
 
@@ -63,6 +106,7 @@ For more information about the requirements for the SEMM certificate, see the [S
 
 After a device is enrolled in SEMM, the configuration file is read, and the settings specified in the file are applied to UEFI. When you run a configuration package on a device that's already enrolled in SEMM, the signature of the configuration file is checked against the certificate that's stored in the device firmware. If the signature doesn't match, no changes are applied to the device.
 
+<!-->
 >[!TIP]
 >When you create a SEMM configuration package, two characters are shown on the **Successful** page, as shown in Figure 3.
 
@@ -74,7 +118,7 @@ These characters are the last two characters of the certificate thumbprint and s
 
 ![Enrollment confirmation in SEMM.](images/surface-ent-mgmt-fig6-enrollconfirm.png "Enrollment confirmation in SEMM")
 
-*Figure 4. Enrollment confirmation in SEMM with the SEMM certificate thumbprint*
+*Figure 4. Enrollment confirmation in SEMM with the SEMM certificate thumbprint*-->
 
 >[!TIP]
 >Administrators with access to the certificate file (.pfx) can read the thumbprint at any time by opening the .pfx file in CertMgr. To view the thumbprint with CertMgr:
@@ -89,27 +133,11 @@ These characters are the last two characters of the certificate thumbprint and s
 
 To enroll a Surface device in SEMM or apply the UEFI configuration from a configuration package, run the .msi file with administrative privileges on the intended Surface device. You can use application deployment or operating system deployment technologies, like [Microsoft Endpoint Configuration Manager](/mem/configmgr) or the [Microsoft Deployment Toolkit](/mem/configmgr/mdt). When you enroll a device in SEMM, you must be physically present to confirm the enrollment on the device. When you apply a configuration to devices that are already enrolled in SEMM, user interaction isn’t required.
 
-For a step-by-step walkthrough of how to enroll a Surface device in SEMM or apply a Surface UEFI configuration with SEMM, see [Enroll and configure Surface devices with SEMM](enroll-and-configure-surface-devices-with-semm.md).
-
-### Reset package
-
-A Surface UEFI reset package is used to perform only one task—to unenroll a Surface device from SEMM. The reset package contains signed instructions to remove the SEMM certificate from the device’s firmware and to reset UEFI settings to the factory default settings. Like a Surface UEFI configuration package, a reset package must be signed with the same SEMM certificate that’s provisioned on the Surface device. When you create a SEMM reset package, you’re required to supply the serial number of the Surface device that you intend to reset. SEMM reset packages aren’t universal—they’re specific to one device.
-
 ### Recovery request
 
-In some scenarios, it might be impossible to use a Surface UEFI reset package. (For example, if Windows becomes unusable on the Surface device.) In these scenarios, you can unenroll the Surface device from SEMM through the **Enterprise Management** page of Surface UEFI (shown in Figure 5) with a Recovery Request operation.
+ You can unenroll Surface devices from SEMM via the [Recovery Request](surface-it-toolkit-unenroll-devices-from-semm.md) feature in the Surface IT Toolkit.
 
-> [!div class="mx-imgBorder"]
-> ![Initiate a SEMM recovery request.](images/surface-ent-mgmt-fig7-semmrecovery.png "Initiate a SEMM recovery request")
-
-*Figure 5. Initiate a SEMM recovery request on the Enterprise Management page*
-
-When you use the process on the **Enterprise Management** page to reset SEMM on a Surface device, you’re given a Reset Request. This Reset Request can be saved as a file to a USB drive, copied as text, or read as a QR Code with a mobile device to be easily emailed or messaged. Use the Microsoft Surface UEFI Configurator Reset Request option to load a Reset Request file or to enter the Reset Request text or QR Code. Microsoft Surface UEFI Configurator generates a verification code that can be entered on the Surface device. If you enter the code on the Surface device and select **Restart**, the device is unenrolled from SEMM.
-
->[!NOTE]
->A Reset Request expires two hours after it's created.
-
-For a step-by-step walkthrough of how to unenroll Surface devices from SEMM, see [Unenroll Surface devices from SEMM](unenroll-surface-devices-from-semm.md).
+<!--When you use the process on the **Enterprise Management** page to reset SEMM on a Surface device, you’re given a Reset Request. This Reset Request can be saved as a file to a USB drive, copied as text, or read as a QR Code with a mobile device to be easily emailed or messaged. Use the Microsoft Surface UEFI Configurator Reset Request option to load a Reset Request file or to enter the Reset Request text or QR Code. Microsoft Surface UEFI Configurator generates a verification code that can be entered on the Surface device. If you enter the code on the Surface device and select **Restart**, the device is unenrolled from SEMM.-->
 
 ## Surface Enterprise Management Mode certificate requirements
 
@@ -199,144 +227,3 @@ valid and not expired.
 **Can bulk reset packages be created for each surface that we order? Can one be built that resets all machines in our environment?**<br><br>
 The PowerShell samples that create a config package for a specific device type can also be used to create a reset package that's serial-number independent. If the certificate is still valid, you can create a reset package using PowerShell to reset SEMM.
 
-## Version history
-
-### Version 2.105.139.0
-
-This version of SEMM includes:
-
-- Support for Surface Laptop Studio 2, Surface Laptop Go 3, and Surface Go 4
-
-### Version 2.100.139.0
-
-This version of SEMM includes:
-
-- Support for Surface Laptop 5, Surface Pro 9, Surface Pro 9 with 5G, and Surface Studio 2+
-
-### Version 2.97.139.0
-
-This version of SEMM includes:
-
-- Support for Surface Laptop Go 2
-
-### Version 2.94.139.0
-
-This version of SEMM includes:
-
-- Support for Surface Laptop Studio, Surface Pro 8, and Surface Go 3
-
-### Version 2.83.139.0
-
-This version of SEMM includes:
-
-- Support for Surface Laptop 4
-- Support for simultaneous multithreading option for Surface Pro 7
-- Removal of obsolete SEMM settings  
-- Improved MSI signing
-
-### Version 2.79.139.0
-
-This version of SEMM includes:
-
-- Support for Surface Pro 7+.
-- User experience improvements.
-
-### Version 2.78.139.0
-
-This version of SEMM includes:
-
-- Support for Surface Laptop Go and Surface Pro X.
-- Notifications for new version releases.
-- The ability to create custom packages to change ownership.
-- Bug fixes.
-
-### Version 2.73.136.0
-
-This version of SEMM includes:
-
-- The ability for audio to be disabled on Surface Hub2S using SEMM.
-- Support for Surface Pro X for Dock 2.
-- Support for UEFI Manager for Dock 2-related operations.
-- A Surface Go reset package bug fix.
-- Support for migrating Surface Hub 2S devices from Windows 10 Team OS to Windows 10 Pro or Enterprise.
-
-### Version 2.71.139.0
-
-This version of SEMM adds support for Surface Dock 2 management features for Surface Book 3, Surface Laptop 3, and Surface Pro 7. It includes:
-
-- The ability to enable audio (lock/unlock), and Ethernet and USB ports.
-- The ability to create dock packages for both authenticated and unauthenticated hosts.
-
-### Version 2.70.130.0
-
-This version of SEMM includes:
-
-- Support for Surface Go 2.
-- Support for Surface Book 3.
-- Bug fixes.
-
-### Version 2.59.139.0
-
-This version of SEMM includes:
-
-- Support for Surface Pro 7, Surface Pro X, and Surface Laptop 3 13.5" and 15" models with Intel processor.
-    >[!NOTE]
-    >Surface Laptop 3 15" AMD processor isn't supported.
-- Support for the Wake-on-Power feature.
-
-### Version 2.54.139.0
-
-This version of SEMM includes:
-
-- Support for Surface Hub 2S.
-- Bug fixes.
-
-### Version 2.43.136.0
-
-This version of SEMM includes:
-
-- Support to enable/disable simultaneous multithreading.
-- Separate options for wireless networking and Bluetooth for some devices.
-- Battery Limit removed for Surface Studio.
-
-### Version 2.26.136.0
-
-This version of SEMM includes:
-
-- Support for Surface Studio 2.
-- Battery Limit feature.
-
-### Version 2.21.136.0
-
-This version of SEMM includes:
-
-- Support for Surface Pro 6.
-- Support for Surface Laptop 2.
-
-### Version 2.14.136.0
-
-This version of SEMM includes:
-
-- Support for Surface Go.
-
-### Version 2.9.136.0
-
-This version of SEMM includes:
-
-- Support for Surface Book 2.
-- Support for Surface Pro LTE.
-- Accessibility improvements.
-
-### Version 1.0.74.0
-
-This version of SEMM includes:
-
-- Support for Surface Laptop.
-- Support for Surface Pro.
-- Bug fixes and general improvements.
-
-## Related articles
-
-- [Enroll and configure Surface devices with SEMM](enroll-and-configure-surface-devices-with-semm.md)
-- [Unenroll Surface devices from SEMM](unenroll-surface-devices-from-semm.md)
-- [Secure Surface Dock ports with SEMM](secure-surface-dock-ports-semm.md)
