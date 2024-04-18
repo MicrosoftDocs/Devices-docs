@@ -8,7 +8,7 @@ ms.topic: how-to
 ms.reviewer: chauncel
 manager: frankbu
 ms.localizationpriority: medium
-ms.date: 10/04/2023
+ms.date: 04/25/2023
 appliesto:
 - Windows 10
 - Windows 11
@@ -105,20 +105,6 @@ For more information about the requirements for the SEMM certificate, see the [S
 >You have the option to require a UEFI password with SEMM. If you do, the password is required to view the **Security**, **Devices**, **Boot Configuration**, and **Enterprise Management** pages of Surface UEFI.
 
 After a device is enrolled in SEMM, the configuration file is read, and the settings specified in the file are applied to UEFI. When you run a configuration package on a device that's already enrolled in SEMM, the signature of the configuration file is checked against the certificate that's stored in the device firmware. If the signature doesn't match, no changes are applied to the device.
-
-<!-->
->[!TIP]
->When you create a SEMM configuration package, two characters are shown on the **Successful** page, as shown in Figure 3.
-
-![Certificate thumbprint display.](images/surface-ent-mgmt-fig5-success.png "Certificate thumbprint display")
-
-*Figure 3. Display of the last two characters of the certificate thumbprint on the Successful page*
-
-These characters are the last two characters of the certificate thumbprint and should be written down or recorded. The characters are required to confirm enrollment in SEMM on a Surface device, as shown in Figure 4.
-
-![Enrollment confirmation in SEMM.](images/surface-ent-mgmt-fig6-enrollconfirm.png "Enrollment confirmation in SEMM")
-
-*Figure 4. Enrollment confirmation in SEMM with the SEMM certificate thumbprint*-->
 
 >[!TIP]
 >Administrators with access to the certificate file (.pfx) can read the thumbprint at any time by opening the .pfx file in CertMgr. To view the thumbprint with CertMgr:
