@@ -9,20 +9,23 @@ ms.service: surface
 author: coveminer
 ms.author: chauncel
 ms.topic: how-to
-ms.date: 09/21/2023
+ms.date: 04/25/2024
 appliesto:
 - Windows 10
 - Windows 11
 ---
 
-# Microsoft Surface Data Eraser
+# Microsoft Surface Data Eraser (legacy)
 
-Find out how the Microsoft Surface Data Eraser tool can help you securely wipe data from your Surface devices.
+>[!NOTE]
+>This page describes how to use the legacy version of Surface Data Eraser. For the current version, see [Surface Data Eraser (IT Toolkit)](surface-it-toolkit-data-eraser.md).
 
 [Microsoft Surface Data Eraser](https://www.microsoft.com/download/details.aspx?id=46703) is a tool that boots from a USB stick and allows you to perform a secure wipe of all data from a compatible Surface device. A Microsoft Surface Data Eraser USB stick requires only the ability to boot from USB. To learn more about the data wiping capabilities and practices Microsoft uses during the service process for Surface, see [Protecting your data if you send your Surface in for service](https://www.microsoft.com/surface/support/security-sign-in-and-accounts/data-wiping-policy).
 
 >[!IMPORTANT]
 >Microsoft Surface Data Eraser uses the NVM Express (NVMe) format command to erase data as authorized in [NIST Special Publication 800-88 Revision 1](http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-88r1.pdf).
+
+This version of Surface Data Eraser is not compatible with the latest Surface devices including Surface Pro 10 and Surface Laptop 6. For these and all subsequent devices, see [Surface Data Eraser (IT Toolkit)](surface-it-toolkit-data-eraser.md).
 
 Compatible Surface devices include:
 
@@ -30,11 +33,11 @@ Compatible Surface devices include:
 - Surface Book (all generations)
 - Surface Go (all generations)
 - Surface Pro X (all generations)
-- Surface Laptop (all generations)
+- Surface Laptop (all generations except Surface Laptop 6)
 - Surface Laptop Go (all generations)
 - Surface Laptop SE
 - Surface Studio (all generations)
-- Surface Pro 2 and later
+- Surface Pro 2 and later except Surface Pro 10
 - Surface 3
 - Windows 10 Pro and Enterprise on Surface Hub 2S
 
