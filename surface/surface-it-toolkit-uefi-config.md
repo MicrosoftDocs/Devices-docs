@@ -22,9 +22,11 @@ Microsoft Surface Enterprise Management Mode (SEMM) is a feature of Surface devi
 
 SEMM also uses a certificate to protect the configuration from unauthorized tampering or removal. 
 
-## Enroll and configure Surface devices with SEMM
+## Enroll Surface devices into SEMM
 
-When a Surface device is managed by SEMM, that device is considered *enrolled* (sometimes referred to as activated). This article shows you how to create a Surface UEFI configuration package to enable or disable hardware components at the firmware level and enroll a Surface device in SEMM.
+This article shows you how to create a Surface UEFI configuration package to enable or disable hardware components at the firmware level and enroll a Surface device in SEMM. When Surface devices are configured by SEMM and secured with the SEMM certificate, they're considered *enrolled* in SEMM. When the SEMM certificate is removed and control of UEFI settings is returned to the user of the device, the Surface device is considered *unenrolled* in SEMM.
+
+You can also [Use Microsoft Endpoint Configuration Manager to manage devices with SEMM](use-system-center-configuration-manager-to-manage-devices-with-semm.md).
 
 As an alternative to SEMM, newer Surface devices support remote management of a subset of firmware settings via Microsoft Intune. For more information,see [Manage DFCI on Surface devices](surface-manage-dfci-guide.md).
 
@@ -67,17 +69,6 @@ SEMM is only available on devices with Surface UEFI firmware including:
 >[!TIP]
 > Commercial SKUs (aka Surface for Business) run Windows 10 Pro/Enterprise or Windows 11 Pro/Enterprise; consumer SKUs run Windows 10/Windows 11 Home. To learn more, see [View your system info](https://support.microsoft.com/windows/view-your-system-info-a965a8f2-0773-1d65-472a-1e747c9ebe00).
 
-## Getting started
-
-When Surface devices are configured by SEMM and secured with the SEMM certificate, they're considered *enrolled* in SEMM. When the SEMM certificate is removed and control of UEFI settings is returned to the user of the device, the Surface device is considered *unenrolled* in SEMM.
-
-There are two administrative options that you can use to manage SEMM and enroll Surface devices:
-
-- Surface UEFI Configurator in Surface IT Toolkit, as described in this article.
-
-- Integration with Microsoft Endpoint Configuration Manager. For information, see [Use Microsoft Endpoint Configuration Manager to manage devices with SEMM](use-system-center-configuration-manager-to-manage-devices-with-semm.md).
-
-
 <!--[!NOTE]
 > SEMM is supported on Surface Pro X via the UEFI Manager only. For more information, see [Deploying, managing, and servicing Surface Pro X](surface-pro-arm-app-management.md).-->
 
@@ -116,7 +107,6 @@ The following components can be turned or off:
 - Wired LAN
 - Near-field communication (NFC)
 
-
 ### Configure advanced settings with SEMM
 
 **Table 1. Advanced settings**
@@ -146,22 +136,6 @@ It's strongly recommended to set a password when creating UEFI configuration pac
 
 :::image type="content" source="images/ueficonfig-set-password.png" alt-text="Screenshot showing the addition of a password to protect UEFI settings from being modified by uanauthorized persons."::: 
 
-<!--6. Select **Password Protection** to add a password to Surface UEFI. This password is required whenever you boot to UEFI. If this password isn't entered, only the **PC information**, **About**, **Enterprise management**, and **Exit** pages are displayed. This step is optional.
-
-7. When prompted, enter and confirm your chosen password for Surface UEFI, and then select **OK**. Leave the password field blank if you want to clear an existing Surface UEFI password.
-
-8. If you don't want the Surface UEFI package to apply to a particular device, on the **Choose which Surface type you want to target** page, select the slider beneath the corresponding device so that it is in the **Off** position, as shown in Figure 3.
-   > [!TIP] 
-   > You must select a device as none are selected by default. 
-
-   ![Choose devices for package compatibility and scroll to the right to view all available devices](images/surface-semm-enroll-fig3.png "Choose devices for package compatibility")
-
-   ![Choose devices for package compatibility.](images/surface-semm-enroll-fig3a.png "Choose devices for package compatibility")
-
-
-   *Figure 3. Choose the devices for package compatibility*
-
-9. Select **Next**.
 
 10. If you want to deactivate a component on managed Surface devices, on the **Choose which components you want to activate or deactivate** page, select the slider next to any device or group of devices you wish to deactivate so that the slider is in the **Off** position. (Shown in Figure 4.) The default configuration for each device is **On**. Select the **Reset** button to return all sliders to the default position.
 
