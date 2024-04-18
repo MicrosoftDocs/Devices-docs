@@ -137,20 +137,15 @@ It's strongly recommended to set a password when creating UEFI configuration pac
 :::image type="content" source="images/ueficonfig-set-password.png" alt-text="Screenshot showing the addition of a password to protect UEFI settings from being modified by uanauthorized persons."::: 
 
 
-10. If you want to deactivate a component on managed Surface devices, on the **Choose which components you want to activate or deactivate** page, select the slider next to any device or group of devices you wish to deactivate so that the slider is in the **Off** position. (Shown in Figure 4.) The default configuration for each device is **On**. Select the **Reset** button to return all sliders to the default position.
+## UEFI Front Page
 
-    ![Disable or enable Surface components.](images/surface-ent-mgmt-fig3-enabledisable.png "Disable or enable Surface components")
+In the **UEFI Front Page** section, you can toggle the following categories **Security**, **Devices**, **Boot**, **Date/Time** to control which pages are available to end users who boot into Surface UEFI. (For more information about Surface UEFI settings, see [Manage Surface UEFI settings](https://technet.microsoft.com/itpro/surface/manage-surface-uefi-settings).) 
 
-    *Figure 4. Disable or enable individual Surface components*
+:::image type="content" source="images/ueficonfig-front-page.png" alt-text="Screenshot showing UEFI Front Page components."::: 
 
-11. Select **Next**.
 
-12. To enable or disable advanced options in Surface UEFI or the display of Surface UEFI pages, on the **Choose the advanced settings for your devices** page, select the slider beside the desired setting to configure that option to **On** or **Off** (shown in Figure 5). In the **UEFI Front Page** section, you can use the sliders for **Security**, **Devices**, and **Boot** to control what pages are available to users who boot into Surface UEFI. (For more information about Surface UEFI settings, see [Manage Surface UEFI settings](https://technet.microsoft.com/itpro/surface/manage-surface-uefi-settings).) When finished, select **Build**. 
 
-    ![Control advanced Surface UEFI settings and Surface UEFI pages.](images/surface-ent-mgmt-fig4-advancedsettings.png "Control advanced Surface UEFI settings and Surface UEFI pages")
-
-    *Figure 5. Control advanced Surface UEFI settings and Surface UEFI pages with SEMM*
-
+<!-- 
 13. In the **Save As** dialog box, specify the Surface UEFI configuration package name, browse to the location where you would like to save the file, and select **Save**.
 
 14. When the package is created and saved, the **Successful** page is displayed.
