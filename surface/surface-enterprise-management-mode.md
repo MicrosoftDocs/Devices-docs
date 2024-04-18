@@ -77,23 +77,29 @@ SEMM is only available on devices with Surface UEFI firmware including:
 
 The primary workspace of SEMM is the [Surface IT Toolkit](surface-it-toolkit.md), which contains the new [Surface UEFI Configurator](surface-it-toolkit-uefi-config.md). 
 
-You can use Surface UEFI Configurator to:
+Use Surface UEFI Configurator to create 
 
-- Create Windows Installer (.msi) packages to enroll Surface devices into SEMM and manage UEFI firmware settings for enrolled devices. 
+
+Windows Installer (.msi) packages for the following tasks:
+
+enroll Surface devices into SEMM and manage UEFI firmware settings for enrolled devices. 
+enroll Surface docks into SEMM and manage UEFI firmware settings for enrolled docks. 
+
+
 - Use WinPE images to enroll, configure, and unenroll SEMM on a Surface device.
 - Create DFI packages to enroll Surface Hub devices into SEMM and manage UEFI firmware settings for enrolled Surface Hub devices. 
-- Create Windows Installer (.msi) packages to enroll Surface docks into SEMM and manage UEFI firmware settings for enrolled docks. 
+
 
 These packages contain a configuration file that specifies the UEFI settings. SEMM packages also contain a certificate that's installed and stored in firmware and is used to verify the signature of configuration files before UEFI settings are applied.
 
 <!--
 >[!TIP]
->You can now use Surface UEFI Configurator and SEMM to manage ports on Surface Dock 2 or Surface Thunderbolt 4 Dock. To learn more, see [Secure Surface Dock ports with SEMM](secure-surface-dock-ports-semm.md).-->
+>You can now use Surface UEFI Configurator and SEMM to manage ports on Surface Dock 2 or Surface Thunderbolt 4 Dock. To learn more, see [Secure Surface Dock ports with SEMM](secure-surface-dock-ports-semm.md).
 
 You can use the Microsoft Surface UEFI Configurator tool in two modes:
 
 - [Surface UEFI Configuration Package](#configuration-package). Use this mode to create a Surface UEFI configuration package to enroll a Surface device in SEMM and to configure UEFI settings on enrolled devices.
-- [Surface UEFI Recovery Request](#recovery-request). Use this mode to unenroll a Surface device from SEMM.
+- [Surface UEFI Recovery Request](#recovery-request). Use this mode to unenroll a Surface device from SEMM.-->
 
 ### Configuration package
 
@@ -125,7 +131,7 @@ To enroll a Surface device in SEMM or apply the UEFI configuration from a config
 
 <!--When you use the process on the **Enterprise Management** page to reset SEMM on a Surface device, you’re given a Reset Request. This Reset Request can be saved as a file to a USB drive, copied as text, or read as a QR Code with a mobile device to be easily emailed or messaged. Use the Microsoft Surface UEFI Configurator Reset Request option to load a Reset Request file or to enter the Reset Request text or QR Code. Microsoft Surface UEFI Configurator generates a verification code that can be entered on the Surface device. If you enter the code on the Surface device and select **Restart**, the device is unenrolled from SEMM.-->
 
-## Surface Enterprise Management Mode certificate requirements
+## SEMM certificate requirements
 
 When you use SEMM with Microsoft Surface UEFI Configurator and want to apply UEFI settings, a certificate is required to verify the signature of configuration files. This certificate ensures that after a device enrolls in SEMM, only packages created with the approved certificate can be used to modify the UEFI settings.
 
