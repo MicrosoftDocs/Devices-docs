@@ -49,12 +49,13 @@ As described in the following sections, Managing USB-C ports for these scenarios
 This section provides step-by-step guidance for the following tasks:
 
 1. Install [Surface IT Toolkit](https://www.microsoft.com/download/details.aspx?id=46703).
-1. Create or obtain public key certificates.
-1. Create an .msi configuration package.
-   1. Add your certificates.
-   1. Enter the 16-digit RN number for your Surface Dock 2 or Surface Thunderbolt 4 Dock devices.
-   1. Configure UEFI settings.
-1. Build and apply the configuration package to targeted Surface devices.
+2. Create or obtain public key certificates.
+3. Create an .msi configuration package.
+   a. Add your certificates.
+   b. Enter the 16-digit RN number for your Surface Dock 2 or Surface Thunderbolt 4 Dock devices.
+   c. Configure UEFI settings for component policies: USB Data, Ethernet, or Audio.
+4. Create and apply the configuration package to targeted Surface devices.
+5. Use Surface App to confirm the resultant policy state of the managed Surface Dock.
 
 >[!IMPORTANT]
 >The **Random Number (RN)** is a unique 16-digit hex code identifier provisioned at the factory and printed in small type on the dock's underside. The RN differs from most serial numbers because it can't be read electronically. This ensures proof of ownership is established only by reading the RN when physically accessing the device. The RN may also be obtained during the purchase transaction and is recorded in Microsoft inventory systems.
@@ -65,42 +66,9 @@ This section provides specifications for creating the certificates needed to man
 
 ### Prerequisites
 
-This article assumes that you either obtain certificates from a third-party provider or already have expertise in PKI certificate services and know how to create your own. You should be familiar with and follow the general recommendations for creating certificates as described in [Surface Enterprise Management Mode (SEMM)](surface-enterprise-management-mode.md) documentation, with one exception. The certificates documented on this page require expiration terms of 30 years for the **Dock Certificate Authority** and 20 years for the **Host Authentication Certificate**.
+This article assumes that you either obtain certificates from a third-party provider or already have expertise in PKI certificate services and know how to create your own. You should be familiar with and follow the general recommendations for creating certificates as described in [Get started with Surface Enterprise Management Mode (SEMM)](surface-enterprise-management-mode.md) documentation, with one exception. The certificates required to configure Surface Docks with SEMM require expiration terms of 30 years for the **Dock Certificate Authority** and 20 years for the **Host Authentication Certificate**.
 
-For more information, see [Certificate Services Architecture](/windows/win32/seccrypto/certificate-services-architecture) documentation and review the appropriate chapters in [Windows Server 2019 Inside Out](https://www.microsoftpressstore.com/store/windows-server-2019-inside-out-9780135492277), or [Windows Server 2008 PKI and Certificate Security](https://www.microsoftpressstore.com/store/windows-server-2008-pki-and-certificate-security-9780735640788) available from Microsoft Press.
-
-### Root and host certificate requirements
-
-Before creating the configuration package, you need to prepare public key certificates that authenticate ownership of Surface Dock 2 or Surface Thunderbolt 4 Dock and facilitate any subsequent changes in ownership during the device lifecycle. The host and provisioning certificates require entering EKU IDs, otherwise known as **Client Authentication Enhanced Key Usage (EKU) object identifiers (OIDs)**.
-
-The required EKU values are listed in Table 1 and Table 2.
-
-> [!CAUTION]
-> Keep certificates in a safe location and ensure they're properly backed up. Without them it's impossible to reset Surface UEFI, change managed Surface UEFI settings, or remove SEMM from an enrolled Surface device.
-
-#### Table 1. Root and Dock Certificate requirements
-
-|Certificate|Algorithm|Description|Expiration|EKU OID|
-|---|---|---|---|---|
-|Root Certificate Authority|ECDSA_P384|- Root certificate with 384-bit prime Elliptic Curve Digital Signature Algorithm (ECDSA)<br>- Secure Hash Algorithm (SHA) 256 Key Usage:<br>CERT_DIGITAL_SIGNATURE_KEY_USAGE<br>- CERT_KEY_CERT_SIGN_KEY_USAGE<br>CERT_CRL_SIGN_KEY_USAGE|30 years|N/A
-|Dock Certificate Authority|ECC P256 curve|- Host certificate with 256-bit Elliptic Curve Cryptography (ECC)<br>- SHA 256 Key Usage:<br>CERT_KEY_CERT_SIGN_KEY_USAGE<br>- Path Length Constraint = 0|20 years|1.3.6.1.4.1.311.76.9.21.2<br>1.3.6.1.4.1.311.76.9.21.3|
-
-   >[!NOTE]
-   >The dock CA must be exported as a .p7b file.
-
-### Provisioning Administration Certificate requirements
-
-Each host device must have the doc CA and two certificates, as shown in Table 2.
-
-#### Table 2. Provisioning administration certificate requirements
-
-|Certificate|Algorithm|Description|EKU OID|
-|---|---|---|---|
-|Host authentication certificate|ECC P256<br>SHA 256|Proves the identity of the host device.|1.3.6.1.4.1.311.76.9.21.2|
-|Provisioning administration certificate|ECC P256<br>SHA256|Enables you to change dock ownership or policy settings by allowing you to replace the current CA installed on the dock.|1.3.6.1.4.1.311.76.9.21.3<br>1.3.6.1.4.1.311.76.9.21.4|
-
-   >[!NOTE]
-   >The host authentication and provisioning certificates must be exported as .pfx files.
+If you already have the appropriate certificates, proceed to the next section. Otherwise, carfeully review the guidance in [Appendix: Root and host certificate requirements](#appendix-root-and-host-certificate-requirements).
 
 ### Create a dock provisioning package
 
@@ -173,6 +141,41 @@ Objective: Configure policy settings to allow port access by authenticated users
 >If you want to keep ownership of the device but allow all users full access, you can make a new package with everything turned on. If you wish to completely remove the restrictions and ownership of the device (make it unmanaged), select **Reset** in Surface UEFI Configurator to create a package to apply to target devices.
 
 Congratulations. You have successfully managed Surface Dock ports on targeted host devices.
+
+## Appendix: Root and host certificate requirements
+
+Before creating the configuration package, you need to prepare public key certificates that authenticate ownership of Surface Dock 2 or Surface Thunderbolt 4 Dock and facilitate any subsequent changes in ownership during the device lifecycle. The host and provisioning certificates require entering EKU IDs, otherwise known as **Client Authentication Enhanced Key Usage (EKU) object identifiers (OIDs)**.
+
+The required EKU values are listed in Table 1 and Table 2.
+
+> [!CAUTION]
+> Keep certificates in a safe location and ensure they're properly backed up. Without them it's impossible to reset Surface UEFI, change managed Surface UEFI settings, or remove SEMM from an enrolled Surface device.
+
+#### Table 1. Root and Dock Certificate requirements
+
+|Certificate|Algorithm|Description|Expiration|EKU OID|
+|---|---|---|---|---|
+|Root Certificate Authority|ECDSA_P384|- Root certificate with 384-bit prime Elliptic Curve Digital Signature Algorithm (ECDSA)<br>- Secure Hash Algorithm (SHA) 256 Key Usage:<br>CERT_DIGITAL_SIGNATURE_KEY_USAGE<br>- CERT_KEY_CERT_SIGN_KEY_USAGE<br>CERT_CRL_SIGN_KEY_USAGE|30 years|N/A
+|Dock Certificate Authority|ECC P256 curve|- Host certificate with 256-bit Elliptic Curve Cryptography (ECC)<br>- SHA 256 Key Usage:<br>CERT_KEY_CERT_SIGN_KEY_USAGE<br>- Path Length Constraint = 0|20 years|1.3.6.1.4.1.311.76.9.21.2<br>1.3.6.1.4.1.311.76.9.21.3|
+
+   >[!NOTE]
+   >The dock CA must be exported as a .p7b file.
+
+### Provisioning Administration Certificate requirements
+
+Each host device must have the doc CA and two certificates, as shown in Table 2.
+
+#### Table 2. Provisioning administration certificate requirements
+
+|Certificate|Algorithm|Description|EKU OID|
+|---|---|---|---|
+|Host authentication certificate|ECC P256<br>SHA 256|Proves the identity of the host device.|1.3.6.1.4.1.311.76.9.21.2|
+|Provisioning administration certificate|ECC P256<br>SHA256|Enables you to change dock ownership or policy settings by allowing you to replace the current CA installed on the dock.|1.3.6.1.4.1.311.76.9.21.3<br>1.3.6.1.4.1.311.76.9.21.4|
+
+   >[!NOTE]
+   >The host authentication and provisioning certificates must be exported as .pfx files.
+
+For more information, see [Certificate Services Architecture](/windows/win32/seccrypto/certificate-services-architecture) documentation and review the appropriate chapters in [Windows Server 2019 Inside Out](https://www.microsoftpressstore.com/store/windows-server-2019-inside-out-9780135492277), or [Windows Server 2008 PKI and Certificate Security](https://www.microsoftpressstore.com/store/windows-server-2008-pki-and-certificate-security-9780735640788) available from Microsoft Press.
 
 ## Learn more
 
