@@ -96,7 +96,7 @@
             - name: Configure UEFI settings for Surface devices
               href: surface-it-toolkit-uefi-config.md
             - name: Configure Surface Docks
-              href: surface-it-toolkit-configure-surface-docks.md
+              href: secure-surface-dock-ports-semm.md
             - name: Configure Surface devices with PowerShell 
               href: surface-it-toolkit-powershell-surface.md
             - name: Unenroll devices from SEMM  
@@ -177,8 +177,6 @@
            href: manage-usb-ports-on-surface.md    
          - name: Manage Surface Docks with WMI
            href: surface-dock2-wmi.md  
-         - name: Secure Surface Dock ports with SEMM
-           href: secure-surface-dock-ports-semm.md
          - name: Wake-on-LAN with Surface Thunderbolt 4 Dock
            href: wake-on-lan-surface-thunderbolt4-dock.md
          - name: Wake-on-LAN with Surface Dock 2
