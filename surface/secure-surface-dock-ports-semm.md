@@ -108,7 +108,7 @@ When you've obtained or created the certificates, you can build the .msi provisi
 
 1. Open Surface IT Toolkit and select **Configure Surface Dock**.
 
-   ![Screenshot that shows run Surface UEFI Configurator.](images/secure-surface-dock-ports-semm-1.png)
+:::image type="content" source="images/ueficonfig-dock-start.png" alt-text="Screenshot that shows Surface Dock component in the Surface IT Toolkit.":::
 
 2. Choose Dock Type and select a provisioning method. 
 
@@ -117,19 +117,25 @@ When you've obtained or created the certificates, you can build the .msi provisi
 
 3. Import your certificate authority and certificate files and enter the password for each file. This example shows organizational provisioning.
 
-    ![Screenshot that shows import of required certificates](images/ueficonfig-dock-provisioning.png) 
+:::image type="content" source="images/ueficonfig-dock-provisioning.png" alt-text="Screenshot that shows import of required certificates.":::
 
 7. When you finish adding the certificates, select **Next**.
 
-8. Add the Surface Dock ID numbers associated with the docks you intend to manage. For multiple docks, enter the numbers in a .csv file without a header, meaning the first line of the file should not contain column names or descriptions. Select **Next**.
+8. Add the Surface Dock ID numbers associated with the docks you intend to manage. For multiple docks, enter the numbers in a .csv file without a header, meaning the first line of the file should not contain column names or descriptions. 
 
-9. Complete a final review of your configured settings, choose a folder to save the Package and select **Create.** 
+9. Choose which components you want to activate or deactivate and select **Next**. The following figure shows port access turned on for authenticated users and turned off for unauthenticated users.
 
-<!-- 
+:::image type="content" source="images/ueficonfig-dock-configure2.png" alt-text="Screenshot that shows import of required certificates.":::
+
+   - **Authenticated Policy** refers to a Surface Device with the appropriate certificates installed, as configured in the .msi configuration package you applied to target devices. 
+   - **Unauthenticated Policy** refers to any other device.
+
+9. Complete a final review of your configured settings, choose a folder to save the Package and select **Create**. 
+
 ### Apply the provisioning package to a Surface Dock 
 
 1. Take the .msi file that the Surface UEFI Configurator generated and install it on a Surface host device.
-1. Connect the host device to Surface Dock 2 or Surface Thunderbolt 4 Dock. When you connect the dock, UEFI policy settings are applied.
+2. Connect the host device to Surface Dock 2 or Surface Thunderbolt 4 Dock. When you connect the dock, UEFI policy settings are applied.
 
 ## Configure UEFI policy settings for target devices
 
@@ -140,16 +146,9 @@ Now, you can specify policy settings for USB data, Ethernet, and Audio ports. UE
 
     ![Screenshot that shows select Configuration Policy > Next](images/secure-surface-dock-ports-semm-3a3.png)
 
-1. Choose the intended use -- **Organizational Unit** or **Departmental Unit** -- and select **Next.**
-1. Import your certificate files and select **Next.** 
-1. Import your .csv file containing the Surface Dock ID numbers associated with the docks you intend to manage and select **Next**.
-1. Choose which components you want to activate or deactivate. The following figure shows port access turned on for authenticated users and turned off for unauthenticated users.
 
-   ![Screenshot that shows choose which components you want to activate or deactivate.](images/secure-surface-dock-ports-semm-4.png)
 
-   - **Authenticated Policy** refers to a Surface Device with the appropriate certificates installed, as configured in the .msi configuration package you applied to target devices. 
-   - **Unauthenticated Policy** refers to any other device.
-   - Select **Reset** to create a special "Reset" package to remove any previous configuration package applied to the managed dock.
+ 
 
 1. Select **Build** to create the package.
 
