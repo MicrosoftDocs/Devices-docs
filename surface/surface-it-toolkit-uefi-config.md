@@ -15,10 +15,11 @@ appliesto:
 
 # Configure UEFI settings for Surface devices
 
+This article describes how to secure and manage UEFI settings for Surface devices deployed across your organization using  Surface UEFI Configurator and Surface Enterprise Management Mode (SEMM). The Surface UEFI Configurator, no longer available as a separate download, is now included in the new Surface IT Toolkit. 
 
 ## Create a Surface UEFI configuration package
 
-The Surface UEFI configuration package performs both the role of applying a new configuration of Surface UEFI settings to a Surface device managed with SEMM and the role of enrolling Surface devices in SEMM. The creation of a configuration package requires you to have a signing certificate to be used with SEMM to secure the configuration of UEFI settings on each Surface device. For more information about the requirements for the SEMM certificate or create a test certficate, see [Appendix A] on this page.
+The Surface UEFI configuration package serves the dual purpose of applying newly configured UEFI settings to SEMM-managed Surface devices and enrolling them in SEMM. Creating this package necessitates a SEMM signing certificate to secure the UEFI settings on each device. For more information, see [SEMM certificate requirements](/surface/surface-enterprise-management-mode#semm-certificate-requirements).
 
 To create a Surface UEFI configuration package, follow these steps:
 
@@ -28,8 +29,7 @@ To create a Surface UEFI configuration package, follow these steps:
 3. Select the devices to be configured. Choose from your Managed Devices or go to All Devices to select your device and model. Select **Next**.
 :::image type="content" source="images/ueficonfig-select-devices.png" alt-text="Screenshot of device selection for UEFI Configuration.":::
 4. In the Device Configuration Settings page, select the components you wish to configure.
-:::image type="content" source="images/ueficonfig-device-config-settings.png" alt-text="Screenshot ofDevice Configuration Settings page.":::
-
+:::image type="content" source="images/ueficonfig-device-config-settings.png" alt-text="Screenshot of Device Configuration Settings page.":::
 
 ## Protect UEFI settings with password
 
@@ -37,14 +37,11 @@ It's strongly recommended to set a password when creating UEFI configuration pac
 
 :::image type="content" source="images/ueficonfig-set-password.png" alt-text="Screenshot showing the addition of a password to protect UEFI settings from being modified by uanauthorized persons."::: 
 
-
 ## UEFI Front Page
 
 In the **UEFI Front Page** section, you can toggle the following categories **Security**, **Devices**, **Boot**, **Date/Time** to control which pages are available to end users who boot into Surface UEFI. (For more information about Surface UEFI settings, see [Manage Surface UEFI settings](https://technet.microsoft.com/itpro/surface/manage-surface-uefi-settings).) 
 
 :::image type="content" source="images/ueficonfig-front-page.png" alt-text="Screenshot showing UEFI Front Page components."::: 
-
-
 
 <!-- 
 13. In the **Save As** dialog box, specify the Surface UEFI configuration package name, browse to the location where you would like to save the file, and select **Save**.

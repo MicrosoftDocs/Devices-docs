@@ -1,5 +1,5 @@
 ---
-title: Secure Surface Dock ports with Surface Enterprise Management Mode (SEMM)
+title: Configure Surface Docks with Surface IT Toolkit & SEMM 
 description: This document provides guidance for configuring UEFI port settings for Surface Dock 2 and Surface Thunderbolt 4 Dock when connected to compatible Surface devices.
 ms.assetid: 2808a8be-e2d4-4cb6-bd53-9d10c0d3e1d6
 manager: frankbu
@@ -13,9 +13,10 @@ appliesto:
 - Windows 10
 - Windows 11
 ---
-# Secure Surface Dock ports with Surface Enterprise Management Mode (SEMM)
 
-SEMM for Dock enables IT admins to secure and manage ports on Surface Dock 2 or Surface Thunderbolt 4 Dock by configuring UEFI settings in a Windows Installer configuration package (.msi file) deployed to compatible Surface devices across a corporate environment.
+# Configure Surface Docks with Surface IT Toolkit & SEMM
+
+IT admins can secure and manage ports on Surface Dock 2 or Surface Thunderbolt 4 Dock by configuring UEFI settings in a Windows Installer configuration package (.msi file) deployed to compatible Surface devices across a corporate environment.
 
 ## Supported devices
 
@@ -133,6 +134,7 @@ When you've obtained or created the certificates, you can build the .msi provisi
    ![Screenshot that shows choose Provisioning and select Next.](images/secure-surface-dock-ports-semm-2b.png)
 
 5. Choose how you want to provision Surface Dock and select **Next:**
+  
   - **Organizational Unit**, designed for corporate-wide use.
   - **Departmental Unit**, designed for more granular settings configuration; for example, a department handling highly sensitive information.
 
