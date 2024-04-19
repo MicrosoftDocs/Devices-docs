@@ -68,7 +68,7 @@ This section provides specifications for creating the certificates needed to man
 
 This article assumes that you either obtain certificates from a third-party provider or already have expertise in PKI certificate services and know how to create your own. You should be familiar with and follow the general recommendations for creating certificates as described in [Get started with Surface Enterprise Management Mode (SEMM)](surface-enterprise-management-mode.md) documentation, with one exception. The certificates required to configure Surface Docks with SEMM require expiration terms of 30 years for the **Dock Certificate Authority** and 20 years for the **Host Authentication Certificate**.
 
-If you already have the appropriate certificates, proceed to the next section. Otherwise, carfeully review the guidance in [Appendix: Root and host certificate requirements](#appendix-root-and-host-certificate-requirements).
+If you already have the appropriate certificates, proceed to the next section. Otherwise, carefully review the guidance in [Appendix: Root and host certificate requirements](#appendix-root-and-host-certificate-requirements).
 
 ### Create a dock provisioning package
 
@@ -119,19 +119,19 @@ Objective: Configure policy settings to allow port access by authenticated users
 
 1. As described earlier, turn on all ports for authenticated users and turn them off for unauthenticated users.
 
-:::image type="content" source="images/ueficonfig-dock-configure3.png" alt-text="Screenshot that shows ports turned off for unauthenticated devices.":::
+    :::image type="content" source="images/ueficonfig-dock-configure3.png" alt-text="Screenshot that shows ports turned off for unauthenticated devices.":::
 
-1. Apply the configuration package to your target device and connect the dock.
+2. Apply the configuration package to your target device and connect the dock.
 
-1. Open **Surface App** and select **Surface Dock** to view the resultant policy state of your Surface Dock. If the policy settings are applied, Surface App (shown here for Surface Thunderbolt 4 Dock and Surface Dock 2) indicates that ports are available.
+3. Open **Surface App** and select **Surface Dock** to view the resultant policy state of your Surface Dock. If the policy settings are applied, Surface App (shown here for Surface Thunderbolt 4 Dock and Surface Dock 2) indicates that ports are available.
 
    ![Screenshot that shows surface app shows all ports are available for authenticated users on Surface Dock 2.](images/surface-thunderbolt-4-dock-unmanaged.png)
 
    ![Screenshot that shows surface app shows all ports are available for authenticated users on Surface Thunderbolt 4 Dock.](images/secure-surface-dock-ports-semm-5.png)
 
-1. Now, you need to verify that the policy settings have successfully turned off all ports for unauthenticated users. Connect Surface Dock 2 or Surface Thunderbolt 4 Dock to an unmanaged device, for example, any Surface device outside the scope of management for the configuration package you created.
+4. Now, you need to verify that the policy settings have successfully turned off all ports for unauthenticated users. Connect Surface Dock 2 or Surface Thunderbolt 4 Dock to an unmanaged device, for example, any Surface device outside the scope of management for the configuration package you created.
 
-1. Open **Surface App** and select **Surface Dock**. The resultant policy state (shown here for Surface Thunderbolt 4 Dock and Surface Dock 2) indicates that ports are turned off.
+5. Open **Surface App** and select **Surface Dock**. The resultant policy state (shown here for Surface Thunderbolt 4 Dock and Surface Dock 2) indicates that ports are turned off.
 
    ![Screenshot that shows surface app showing ports turned off for unauthenticated users on Surface Thunderbolt 4 Dock.](images/surface-thunderbolt-4-dock-managed.png)
 
