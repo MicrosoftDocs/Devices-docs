@@ -136,7 +136,7 @@ When you've obtained or created the certificates, you can build the .msi provisi
 
 9. Complete a final review of your configured settings, choose a folder to save the Package and select **Create.** 
 
-<!--> 
+<!-- 
 ### Apply the provisioning package to a Surface Dock 
 
 1. Take the .msi file that the Surface UEFI Configurator generated and install it on a Surface host device.
