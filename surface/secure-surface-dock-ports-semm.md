@@ -117,45 +117,26 @@ Each host device must have the doc CA and two certificates, as shown in Table 2.
 
 When you've obtained or created the certificates, you can build the .msi provisioning package that will be applied to target devices.
 
-1. Run Surface **UEFI Configurator**.
+1. Open Surface IT Toolkit and select **Configure Surface Dock**.
 
    ![Screenshot that shows run Surface UEFI Configurator.](images/secure-surface-dock-ports-semm-1.png)
 
-2. Select **Surface Dock**.
+2. Choose Dock Type and select a provisioning method. 
 
-   ![Screenshot that shows select Surface Dock.](images/secure-surface-dock-ports-semm-2.png)
+- **Organizational Unit**, designed for corporate-wide use.
+- **Departmental Unit**, designed for more granular settings configuration; for example, a department handling highly sensitive information.
 
-3. Select your Surface Dock device. 
+3. Import your certificate authority and certificate files and enter the password for each file. This example shows organizational provisioning.
 
-   ![Screenshot that shows select your Surface Dock.](images/secure-surface-dock-ports-semm-2a.png)
-
-4. Choose **Provisioning** and select **Next**.
-
-   ![Screenshot that shows choose Provisioning and select Next.](images/secure-surface-dock-ports-semm-2b.png)
-
-5. Choose how you want to provision Surface Dock and select **Next:**
-  
-  - **Organizational Unit**, designed for corporate-wide use.
-  - **Departmental Unit**, designed for more granular settings configuration; for example, a department handling highly sensitive information.
-
-    ![Screenshot that shows select Organizational Unit or Departmental Unit](images/secure-surface-dock-ports-semm-2c.png)   
-
-6. Import your certificate authority and certificate files and enter the password for each file. This example shows organizational provisioning.
-
-    ![Screenshot that shows import your certificate authority and cerfificate files](images/secure-surface-dock-ports-semm-3a1.png) 
+    ![Screenshot that shows import of required certificates](images/ueficonfig-dock-provisioning.png) 
 
 7. When you finish adding the certificates, select **Next**.
 
-    ![Screenshot that shows when you finish adding the certificates, select Next](images/secure-surface-dock-ports-semm-3a1b.png) 
+8. Add the Surface Dock ID numbers associated with the docks you intend to manage. For multiple docks, enter the numbers in a .csv file without a header, meaning the first line of the file should not contain column names or descriptions. Select **Next**.
 
-8. Add the Surface Dock ID numbers associated with the docks you intend to manage. For multiple docks, enter the numbers in a .csv file without a header, meaning the first line of the file should not contain column names or descriptions.
+9. Complete a final review of your configured settings, choose a folder to save the Package and select **Create.** 
 
-    ![Screenshot that shows import a .csv file that contains a list of the docks you're intending to provision](images/secure-surface-dock-ports-semm-3b1.png). 
-
-9. After the import, select **Build** and save the resulting .msi provisioning package.
-
-    ![Screenshot that shows after the import, select Build](images/secure-surface-dock-ports-semm-config-success.png). 
-
+<!--> 
 ### Apply the provisioning package to a Surface Dock 
 
 1. Take the .msi file that the Surface UEFI Configurator generated and install it on a Surface host device.
@@ -187,6 +168,7 @@ Now, you can specify policy settings for USB data, Ethernet, and Audio ports. UE
 
 1. Take the .msi file that the Surface UEFI Configurator generated and install it on a Surface host device. 
 1. Connect the host device to Surface Dock 2 or Surface Thunderbolt 4 Dock. When you connect the dock, UEFI policy settings are applied.
+-->
 
 ## Verify managed state using the Surface App
 
