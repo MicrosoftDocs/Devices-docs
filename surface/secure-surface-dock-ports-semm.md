@@ -48,7 +48,7 @@ As described in the following sections, Managing USB-C ports for these scenarios
 
 This section provides step-by-step guidance for the following tasks:
 
-1. Install **Surface UEFI Configurator** from [Surface Tools for IT](https://www.microsoft.com/download/details.aspx?id=46703).
+1. Install [Surface IT Toolkit](https://www.microsoft.com/download/details.aspx?id=46703).
 1. Create or obtain public key certificates.
 1. Create an .msi configuration package.
    1. Add your certificates.
@@ -123,40 +123,26 @@ When you've obtained or created the certificates, you can build the .msi provisi
 
 8. Add the Surface Dock ID numbers associated with the docks you intend to manage. For multiple docks, enter the numbers in a .csv file without a header, meaning the first line of the file should not contain column names or descriptions. 
 
-9. Choose which components you want to activate or deactivate and select **Next**. The following figure shows port access turned on for authenticated users and turned off for unauthenticated users.
+:::image type="content" source="images/ueficonfig-dock-add-rn-numbers.png" alt-text="Screenshot that shows import of required certificates.":::
 
-:::image type="content" source="images/ueficonfig-dock-configure2.png" alt-text="Screenshot that shows import of required certificates.":::
+9. You can specify policy settings for USB data, Ethernet, and Audio ports. UEFI Configurator lets you configure policy settings for authenticated users (Authenticated Policy) and unauthenticated users (Unauthenticated Policy). 
+
 
    - **Authenticated Policy** refers to a Surface Device with the appropriate certificates installed, as configured in the .msi configuration package you applied to target devices. 
    - **Unauthenticated Policy** refers to any other device.
 
-9. Complete a final review of your configured settings, choose a folder to save the Package and select **Create**. 
+10. Choose which components you want to activate or deactivate and select **Next**. The following figure shows port access turned on for authenticated devices and turned off for unauthenticated devices. 
+
+:::image type="content" source="images/ueficonfig-dock-configure3.png" alt-text="Screenshot that shows ports turned off for unauthenticated devices.":::
+
+11. Complete a final review of your configured settings, choose a folder to save the Package and select **Create**. 
+
+:::image type="content" source="images/ueficonfig-dock-create-package.png" alt-text="Screenshot that shows import of required certificates.":::
 
 ### Apply the provisioning package to a Surface Dock 
 
 1. Take the .msi file that the Surface UEFI Configurator generated and install it on a Surface host device.
 2. Connect the host device to Surface Dock 2 or Surface Thunderbolt 4 Dock. When you connect the dock, UEFI policy settings are applied.
-
-## Configure UEFI policy settings for target devices
-
-Now, you can specify policy settings for USB data, Ethernet, and Audio ports. UEFI Configurator lets you configure policy settings for authenticated users (Authenticated Policy) and unauthenticated users (Unauthenticated Policy). 
-
-1. Open **UEFI Configurator** and select **Start > Surface Dock > Surface Dock 2** or **Surface Thunderbolt 4 Dock**.  
-1. Select **Configuration Policy > Next**.
-
-    ![Screenshot that shows select Configuration Policy > Next](images/secure-surface-dock-ports-semm-3a3.png)
-
-
-
- 
-
-1. Select **Build** to create the package.
-
-### Apply the configuration package to a Surface Dock 
-
-1. Take the .msi file that the Surface UEFI Configurator generated and install it on a Surface host device. 
-1. Connect the host device to Surface Dock 2 or Surface Thunderbolt 4 Dock. When you connect the dock, UEFI policy settings are applied.
--->
 
 ## Verify managed state using the Surface App
 
@@ -166,9 +152,9 @@ Once you've applied the configuration package, you can quickly verify the result
 
 Objective: Configure policy settings to allow port access by authenticated users only.
 
-1. Turn on all ports for authenticated users and turn them off for unauthenticated users.
+1. As described earlier, turn on all ports for authenticated users and turn them off for unauthenticated users.
 
-   ![Screenshot that shows enabling ports for authenticated users.](images/secure-surface-dock-ports-semm-4.png)
+:::image type="content" source="images/ueficonfig-dock-configure3.png" alt-text="Screenshot that shows ports turned off for unauthenticated devices.":::
 
 1. Apply the configuration package to your target device and connect the dock.
 
