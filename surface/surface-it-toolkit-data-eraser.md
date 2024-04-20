@@ -47,3 +47,12 @@ This article explains how to create a secure data wipe USB key with the Surface 
 8. To continue, type **CONFIRM** If you're unsure or do not wish to proceed, type **EXIT**.
 9. Keep your device plugged into AC Power during the data wipe process.
 
+## Generate Data Sanitization Certificate
+
+1. On the Data Eraser tool interface, select **Generate Certificate**. This creates a certificate of sanitization using the log files written to the Data Eraser USB.
+2. On the Sanitization Certificate page, enter the requested details. 
+3. Under Additional Details, input the Media Source. Use the Asset tag if available. Or you can use the Serial number or System UUID, as listed in the Surface UEFI menu on the wiped device. Optionally, you can add custom fields by clicking **+ Add custom field** if more information is necessary.
+4. When all the relevant details are entered, select **Next** to proceed to the certificate creation process.
+5. Review the certificate details and select **Generate**. 
+6. When complete, select **Show files** to access Sanitization Certificate. Select **Finish**.
+
