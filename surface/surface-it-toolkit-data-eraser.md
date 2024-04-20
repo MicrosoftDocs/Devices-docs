@@ -1,6 +1,6 @@
 ---
 title: Surface Data Eraser (IT Toolkit)
-description: This article describes how to use Data Eraser USB Builder included in the Surface IT Toolkit.
+description: This article describes how to use Data Eraser USB Builder, included in the Surface IT Toolkit, and generate a certificate of sanitization
 ms.service: surface
 ms.localizationpriority: medium
 author: coveminer
@@ -11,6 +11,7 @@ ms.reviewer: chauncel
 manager: frankbu
 appliesto:
 - Windows 11
+- Windows 10
 ---
 
 # Surface Data Eraser (IT Toolkit)
@@ -50,9 +51,23 @@ This article explains how to create a secure data wipe USB key with the Surface 
 ## Generate Data Sanitization Certificate
 
 1. On the Data Eraser tool interface, select **Generate Certificate**. This creates a certificate of sanitization using the log files written to the Data Eraser USB.
-2. On the Sanitization Certificate page, enter the requested details. 
-3. Under Additional Details, input the Media Source. Use the Asset tag if available. Or you can use the Serial number or System UUID, as listed in the Surface UEFI menu on the wiped device. Optionally, you can add custom fields by clicking **+ Add custom field** if more information is necessary.
-4. When all the relevant details are entered, select **Next** to proceed to the certificate creation process.
-5. Review the certificate details and select **Generate**. 
-6. When complete, select **Show files** to access Sanitization Certificate. Select **Finish**.
 
+   :::image type="content" source="images/it-toolkit-certificate-sanitization.png" alt-text="Screenshot of Generate Certificate.":::
+
+2. On the Sanitization Certificate page, enter the requested details.
+3.
+   :::image type="content" source="images/it-toolkit-certificate-details.png" alt-text="Screenshot of Certificate details.":::
+
+4. Under Additional Details, input the Media Source. Use the Asset tag if available. Or you can use the Serial number or System UUID, as listed in the Surface UEFI menu on the wiped device. Optionally, you can add custom fields by clicking **+ Add custom field** if more information is necessary.
+5. When all the relevant details are entered, select **Next** to proceed to the certificate creation process.
+6. Review the certificate details and select **Generate**.
+
+   :::image type="content" source="images/it-toolkit-generate-certificate.png" alt-text="Screenshot of Generate Certificate.":::
+
+7. When complete, select **Show files** to access the Sanitization Certificate. Select **Finish**.
+
+  :::image type="content" source="images/it-toolkit-certificate-complete.png" alt-text="Screenshot that shows Certficate Generation is complete.":::
+
+8. Open the newly created certificate and add signatures as appropriate, as shown in the following redacted example.
+
+    :::image type="content" source="images/it-toolkit-certificate-example.png" alt-text="Screenshot that shows an example Certficate.":::
