@@ -18,6 +18,8 @@ appliesto:
 
 This article explains how to create a secure data wipe USB key with the Surface Data Eraser and generate a certificate of sanitization. You can use the data wipe USB key on your target device and other supported devices with matched architecture.
 
+<!-- add note about legacy devices support -->
+
 ## Create the Data Eraser USB
 
 1. Open Surface IT Toolkit, select **Data Eraser USB-Builder** > **Create USB**.
@@ -66,7 +68,7 @@ This article explains how to create a secure data wipe USB key with the Surface 
 
 7. When complete, select **Show files** to access the Sanitization Certificate. Select **Finish**.
 
-  :::image type="content" source="images/it-toolkit-certificate-complete.png" alt-text="Screenshot that shows Certficate Generation is complete.":::
+    :::image type="content" source="images/it-toolkit-certificate-complete.png" alt-text="Screenshot that shows Certficate Generation is complete.":::
 
 8. Open the newly created certificate and add signatures as appropriate, as shown in the following redacted example.
 
