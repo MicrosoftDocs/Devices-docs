@@ -18,7 +18,15 @@ appliesto:
 
 This article explains how to create a secure data wipe USB key with the Surface Data Eraser and generate a certificate of sanitization. You can use the data wipe USB key on your target device and other supported devices with matched architecture.
 
-<!-- add note about legacy devices support -->
+## Supported on current devices
+
+- All current Surface devices, including Surface Pro 7 and later, Surface Laptop 3 and later, Surface Go 2 and later, Surface Laptop Studio and later, Surface Laptop SE, Surface Laptop Go and later. 
+
+## Not supported on legacy devices
+
+- This version of Surface Data Eraser is not supported on legacy devices such as Surface Laptop (1st gen), Surface Studio (1st gen), Surface Go, Surface Go 2, Surface Pro 5th Gen, and others. 
+- To securely erase data on legacy devices, see [Microsoft Surface Data Eraser (legacy)](microsoft-surface-data-eraser.md)
+
 
 ## Create the Data Eraser USB
 
