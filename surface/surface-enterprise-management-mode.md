@@ -77,20 +77,6 @@ SEMM is only available on devices with Surface UEFI firmware including:
 
 The primary workspace of SEMM is the [Surface IT Toolkit](surface-it-toolkit.md), which contains the new [Surface UEFI Configurator](surface-it-toolkit-uefi-config.md). 
 
-Use Surface UEFI Configurator to create 
-
-
-Windows Installer (.msi) packages for the following tasks:
-
-enroll Surface devices into SEMM and manage UEFI firmware settings for enrolled devices. 
-enroll Surface docks into SEMM and manage UEFI firmware settings for enrolled docks. 
-
-
-- Use WinPE images to enroll, configure, and unenroll SEMM on a Surface device.
-- Create DFI packages to enroll Surface Hub devices into SEMM and manage UEFI firmware settings for enrolled Surface Hub devices. 
-
-
-These packages contain a configuration file that specifies the UEFI settings. SEMM packages also contain a certificate that's installed and stored in firmware and is used to verify the signature of configuration files before UEFI settings are applied.
 
 <!--
 >[!TIP]
@@ -105,15 +91,23 @@ You can use the Microsoft Surface UEFI Configurator tool in two modes:
 
 Surface UEFI configuration packages are the primary mechanism to implement and manage SEMM on Surface devices. These packages contain a configuration file and a certificate file, as shown in Figure 2. The configuration file contains UEFI settings that are specified when the package is created in Microsoft Surface UEFI Configurator. When a configuration package runs for the first time on a Surface device that's not already enrolled in SEMM, it provisions the certificate file in the device’s firmware and enrolls the device in SEMM. When enrolling a device in SEMM, and before the certificate is stored and the enrollment finishes, you're prompted to confirm the operation by providing the last two digits of the SEMM certificate thumbprint. This confirmation requires a user to be physically present at the device during enrollment to perform the confirmation.
 
-For more information about the requirements for the SEMM certificate, see the [Surface Enterprise Management Mode certificate requirements](#surface-enterprise-management-mode-certificate-requirements) section later in this article.
+For more information about the requirements for the SEMM certificate, see the [Surface Enterprise Management Mode certificate requirements](#semm-certificate-requirements) section later in this article.
 
->[!TIP]
->You have the option to require a UEFI password with SEMM. If you do, the password is required to view the **Security**, **Devices**, **Boot Configuration**, and **Enterprise Management** pages of Surface UEFI.
+Use Surface UEFI Configurator to create
+
+| Category     | Description                                                                                                 | Learn more   |
+| ------------ | ----------------------------------------------------------------------------------------------------------- |----|
+| **MSI Packages** | **Enroll Surface devices** into SEMM and manage UEFI firmware settings for enrolled devices. <br> **Enroll Surface docks** into SEMM and manage UEFI firmware settings for enrolled docks.  |[Configure UEFI settings for Surface devices](surface-it-toolkit-uefi-config.md)<br> [Configure UEFI settings for Surface Docks](secure-surface-dock-ports-semm.md)      |
+| **WinPE Image**s | Use WinPE images to enroll, configure, and unenroll SEMM on a Surface device.                              |
+| **DFI Packages** | Create DFI packages to enroll Surface Hub devices into SEMM and manage UEFI firmware settings for enrolled Surface Hub devices. |
+
+> [!TIP]
+> You have the option to require a UEFI password with SEMM. If you do, the password is required to view the **Security**, **Devices**, **Boot Configuration**, and **Enterprise Management** pages of Surface UEFI.
 
 After a device is enrolled in SEMM, the configuration file is read, and the settings specified in the file are applied to UEFI. When you run a configuration package on a device that's already enrolled in SEMM, the signature of the configuration file is checked against the certificate that's stored in the device firmware. If the signature doesn't match, no changes are applied to the device.
 
->[!TIP]
->Administrators with access to the certificate file (.pfx) can read the thumbprint at any time by opening the .pfx file in CertMgr. To view the thumbprint with CertMgr:
+> [!TIP]
+> Administrators with access to the certificate file (.pfx) can read the thumbprint at any time by opening the .pfx file in CertMgr. To view the thumbprint with CertMgr:
 >
 >1. Select and hold (or right-click) the .pfx file, and then select **Open**.
 >2. In the navigation pane, expand the folder.

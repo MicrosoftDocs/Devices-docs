@@ -1,5 +1,5 @@
 ---
-title: Configure Surface Docks with Surface IT Toolkit & SEMM 
+title:  Configure UEFI settings for Surface Docks
 description: This document provides guidance for configuring UEFI port settings for Surface Dock 2 and Surface Thunderbolt 4 Dock when connected to compatible Surface devices.
 ms.assetid: 2808a8be-e2d4-4cb6-bd53-9d10c0d3e1d6
 manager: frankbu
@@ -14,7 +14,7 @@ appliesto:
 - Windows 11
 ---
 
-# Configure Surface Docks with Surface IT Toolkit & SEMM
+# Configure UEFI settings for Surface Docks
 
 IT admins can secure and manage ports on Surface Dock 2 or Surface Thunderbolt 4 Dock by configuring UEFI settings in a Windows Installer configuration package (.msi file) deployed to compatible Surface devices across a corporate environment.
 
