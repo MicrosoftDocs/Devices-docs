@@ -75,7 +75,7 @@ When you upgrade a Surface Hub 2S with a Surface Hub 3 Pack compute cartridge (t
 
 2. **If you have already deployed the device** and it's up and running with the Microsoft Teams Rooms on Windows platform, you can capture the hash from the From Windows Administrator account:
 
-   - **From Windows Administrator account:** Press the **Windows** key five times. In the sign-in screen, sign in with your admin credentials, and go to **Settings** **Accounts** **Access work or school** **Export your management log files** > **Export**. By default, the file is saved in the following location: **Users\Public\Documents\MDMDiagnostics**. Open MDMDiagReport, select DeviceHash CSV file, and extract the file to your desired location or USB drive.
+   - **From Windows Administrator account:** Press the **Windows** key five times. In the sign-in screen, sign in with your admin credentials, and go to **Settings** **Accounts** **Access work or school** **Export your management log files** > **Export**. By default, the file is saved in the following location: **Users\Public\Documents\MDMDiagnostics**. Open MDMDiagReport.cab, select the DeviceHash CSV file, and extract the file to your desired location or USB drive.
 
 3. Open the CSV file with a plain text editor such as Notepad. Ensure your CSV file meets the following requirements so it can be successfully imported into Intune:
 
@@ -96,6 +96,8 @@ When planning the migration process for a Surface Hub 2S to transition from Wind
    - **Manually on Surface Hub 2S:** Select **Start** > **All apps** > **Settings** > **View as Admin** > enter admin credentials > **Update & Security** > **Logs** > **Collect logs**.
 
    - **Remotely via Teams Rooms Admin Center:** Select Teams devices > Surface Hubs (legacy) > select the device > Download device logs.
+  
+   - From the zip file, extract the autopilot.cab file from the **Environment** subdirectory. Open autopilot.cab, select the DeviceHash CSV file, and extract the file to your desired location or USB drive.
 
 2. Open the CSV file with a plain text editor such as Notepad. Ensure your CSV file meets the following requirements so it can be successfully imported into Intune:
 
