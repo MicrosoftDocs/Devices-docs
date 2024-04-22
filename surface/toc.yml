@@ -102,6 +102,7 @@
             - name: Unenroll devices from SEMM  
               href: surface-it-toolkit-unenroll-devices-from-semm.md    
           - name: Tool Library
+            href: surface-it-toolkit-library.md
             expanded: true
             items:
             - name: Surface Asset Tag
