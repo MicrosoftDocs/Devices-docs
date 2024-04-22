@@ -19,11 +19,7 @@ The Surface IT Toolkit is a modern desktop application that compiles essential c
 
 The Surface IT Toolkit ensures you're using the latest version thanks to MSIX, which automatically checks for updates and downloads them for you.
 
-The IT Toolkit includes the following tools:
-
-- UEFI Configurator
-- Data Eraser
-- USB Recovery Builder
+:::image type="content" source="images/it-toolkit-home.png" alt-text="Screenshot that shows IT Toolkit home page.":::
 
 ## Get started with Surface IT Tookit
 
@@ -37,27 +33,29 @@ The IT Toolkit includes the following tools:
 
     :::image type="content" source="images/it-toolkit-managed-devices.png" alt-text="Screenshot that shows list of managed devices.":::
 
-3. Help improve the app by agreeing to send anonymous usage data.  All information is collected anonymously for the purpose of software development and is not shared or accessible by any third party. If you wish to opt out, uncheck the checkbox **Share anonymous diagnostic data with Microsoft to help improve the app**.
+4. Help improve the app by agreeing to send anonymous usage data.  All information is collected anonymously for the purpose of software development and is not shared or accessible by any third party. If you wish to opt out, uncheck the checkbox **Share anonymous diagnostic data with Microsoft to help improve the app**.
 
     :::image type="content" source="images/it-toolkit-diagnostics.png" alt-text="Screenshot of anonymous data sharing info.":::
 
-4. Review & complete the configuration. Once you have confirmed that all the information is correct, select **Finish**.
+5. Review & complete the configuration. Once you have confirmed that all the information is correct, select **Finish**.
 
-    :::image type="content" source="images/it-toolkit-configure-finish.png" alt-text="Screenshot that shows review and completion of app configuration.":::
+    :::image type="content" source="images/it-toolkit-setup.png" alt-text="Screenshot that shows review and completion of app configuration.":::
+
 
 ## What's in the Surface IT Toolkit?
 
-The Surface IT Toolkit provides a user-friendly interface designed to assist IT adminis in managing and configuring Surface devices within their organization. Quickly access toolkit functions, such as "Data Eraser," "UEFI Configurator," "Recovery Tool," and "Tool Library."
-
-    :::image type="content" source="images/it-toolkit-home.png" alt-text="Screenshot of Surface IT Toolkit home page.":::
+The Surface IT Toolkit provides a user-friendly interface designed to assist IT admins in managing and configuring Surface devices within their organization. Quickly access toolkit functions: 
+ 
+- Data Eraser
+- UEFI Configurator
+- Recovery Tool  
+- Tool Library
 
 ### Supported devices
 
-The Managed Devices area displays the different models of Surface devices that can be managed with the toolkit, including the following: Surface Book 3, Surface Go 2, Surface Go 3, Surface Go 4, Surface Laptop 3, Surface Laptop 4, Surface Laptop 5, Surface Laptop 6, Surface Laptop Go, Surface Laptop Go 2, Surface Laptop Go 3, Surface Laptop SE, Surface Laptop Studio, Surface Laptop Studio 2, Surface Pro 10, Surface Pro 7, Surface Pro 7+, Surface Pro 8, Surface Pro 9, Surface Pro X SQ1, Surface Pro X SQ2, Surface Pro X Wi-Fi, Surface Studio 2, and Surface Studio 2+,
+The Managed Devices area displays the different models of Surface devices that can be managed with the toolkit, including the following: Surface Book 3, Surface Go 2, Surface Go 3, Surface Go 4, Surface Laptop 3, Surface Laptop 4, Surface Laptop 5, Surface Laptop 6, Surface Laptop Go, Surface Laptop Go 2, Surface Laptop Go 3, Surface Laptop SE, Surface Laptop Studio, Surface Laptop Studio 2, Surface Pro 10, Surface Pro 7, Surface Pro 7+, Surface Pro 8, Surface Pro 9, Surface Pro X SQ1, Surface Pro X SQ2, Surface Pro X Wi-Fi, Surface Studio 2, and Surface Studio 2+.
 
-<!-- Confirm list -->
-
-## Quick Tasks
+### Quick Tasks
 
 - **Build USB for Data Eraser**: Create a USB to securely erase data from Surface SSDs.
 - **Create Certificate** Generate a certificate of sanitization for a previously erased Surface SSD.
@@ -66,20 +64,18 @@ The Managed Devices area displays the different models of Surface devices that c
 
 ### Tool Library in the Surface IT Toolkit
 
-The Tool Library provides IT adminis with a collection of additional tools and installers. These resources are essential for deploying to end users, enabling them to unlock more capabilities for configuration and support of Surface devices. 
+The Tool Library provides IT admins with a collection of additional tools and installers. These resources are essential for deploying to end users, enabling them to unlock more capabilities for configuration and support of Surface devices. 
 
 <!--The tools included in the library are kept up to date, ensuring that IT professionals have access to the latest versions for efficient and secure management of devices. Each tool comes with a "Save Copy" option, allowing IT admins to download and save a copy of the installer for the respective tool. This ensures that admins have the installers available for immediate or future deployment, even if offline access is required.
 
-The Tool Library in the Surface IT Toolkit is a centralized repository that provides IT administrators with a suite of tools essential for the configuration and support of Surface devices. This library ensures that the most up-to-date versions of each tool are readily available for deployment.-->
+The Tool Library in the Surface IT Toolkit is a centralized repository that provides IT admins with a suite of tools essential for the configuration and support of Surface devices. This library ensures that the most up-to-date versions of each tool are readily available for deployment.-->
 
 The library includes the following tools:
 
-- **Surface Asset Tag**: Version: 193.139.0. Allows IT admins to assign and manage asset tags that are stored in the Surface device's firmware. These tags can be used for inventory and tracking purposes.
+| Name                          | Version   | Description                                                                                                           | Publish Date       |
+| ----------------------------- | --------- | --------------------------------------------------------------------------------------------------------------------- | ------------------ |
+| Surface Asset Tag             | 193.139.0 | A CLI utility for viewing, assigning, and modifying asset tag values in UEFI. Compatible with Surface Pro 3 and later. | October 4th, 2023  |
+| UEFI Assemblies<br>*also known as UEFI Manager*              | 2.140.141.0 | Provides assemblies for managing UEFI settings via PowerShell. Suitable for Surface Pro 4 and newer.                  | April 18, 2024    |
+| Diagnostics App Console       | 2.218.139.0 | Allows for remote diagnostics and log capturing. Compatible with Surface 3 and newer models.                          | October 24th, 2023 |
+| Surface Brightness Control Tool | 1.20.139.0 | Optimizes power management by controlling device brightness. For point-of-sale systems and kiosks. Supports Surface 3 and later. | October 24th, 2023 |
 
-- **UEFI Assemblies**: Version: 2.140.141. Provides the necessary assemblies for managing UEFI settings on Surface devices. Functionality was previously available as **UEFI Manager**.
-
-3. **Diagnostics App Console**: Provides diagnostic tests on Surface devices. It can help diagnose and resolve hardware and software issues.
-
-4. **Surface Brightness Control Tool**: Version: 1.20.139.0. Adjusts the display brightness of Surface devices
-
-By providing these tools in one central location, the Surface IT Toolkit makes it easier for IT teams to maintain Surface devices efficiently, with the assurance that they are employing the most current versions of the tools they rely on.
