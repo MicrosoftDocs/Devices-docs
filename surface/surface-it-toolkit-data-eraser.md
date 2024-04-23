@@ -72,7 +72,7 @@ This article explains how to create a secure data wipe USB key with the Surface 
 5. When all the relevant details are entered, select **Next** to proceed to the certificate creation process.
 6. Review the certificate details and select **Generate**.
 
-   :::image type="content" source="images/it-toolkit-generate-certificate.png" alt-text="Screenshot of Generate Certificate.":::
+   :::image type="content" source="images/it-toolkit-generate-certificate.png" alt-text="Screenshot of  Certificate.":::
 
 7. When complete, select **Show files** to access the Sanitization Certificate. Select **Finish**.
 

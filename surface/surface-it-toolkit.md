@@ -27,7 +27,7 @@ The Surface IT Toolkit ensures you're using the latest version thanks to MSIX, w
 
 2. Open Surface IT Toolkit and select **Configure App**.
 
-    :::image type="content" source="images/it-toolkit-configure-app.png" alt-text="Screenshot that shows IT Toolkit home page.":::
+    :::image type="content" source="images/it-toolkit-configure-app.png" alt-text="Screenshot of Start App Configuration page.":::
 
 2. Scroll to review and accept the License Agreement.
 

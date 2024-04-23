@@ -11,6 +11,7 @@ ms.reviewer: chauncel
 manager: frankbu
 appliesto:
 - Windows 11
+- Windows 10
 ---
 
 # Create USB recovery image for Surface devices
@@ -29,7 +30,7 @@ This article describes how to create a USB Recovery image via the Surface IT Too
 
 4. If creating a new recovery key, select the language and version of Windows for the recovery image. Options for Windows 10 and Windows 11, along with different feature updates like 21H2 and 22H2, are available. Select **Next**.
 
-    :::image type="content" source="images/it-toolkit-recovery-create-new.png" alt-text="Screenshot of Recovery Tool page.":::
+    :::image type="content" source="images/it-toolkit-recovery-create-new.png" alt-text="Screenshot of page to select language, operating sytem, and Windows version.":::
 
 5. Choose a specific language pack from global regions, including Americas, Asia Pacific, China, Japan, Western Europe and Arabic, or Eastern Europe. Select Next.
 
