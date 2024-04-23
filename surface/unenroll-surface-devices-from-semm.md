@@ -17,11 +17,12 @@ ms.date: 06/09/2020
 
 When a Surface device is enrolled in Surface Enterprise Management Mode (SEMM), a certificate is stored in the firmware of that device. The presence of that certificate and the enrollment in SEMM prevent any unauthorized changes to Surface UEFI settings or options while the device is enrolled in SEMM. To restore control of Surface UEFI settings to the user, the Surface device must be unenrolled from SEMM, a process sometimes described as reset or recovery. There are two methods you can use to unenroll a device from SEMM—a Surface UEFI reset package and a Recovery Request.
 
->[!WARNING]
->To unenroll a device from SEMM and restore user control of Surface UEFI settings, you must have the SEMM certificate that was used to enroll the device in SEMM. If this certificate becomes lost or corrupted, it is not possible to unenroll from SEMM. Back up and protect your SEMM certificate accordingly.
+> [!WARNING]
+> To unenroll a device from SEMM and restore user control of Surface UEFI settings, you must have the SEMM certificate that was used to enroll the device in SEMM. If this certificate becomes lost or corrupted, it is not possible to unenroll from SEMM. Back up and protect your SEMM certificate accordingly.
 
 For more information about SEMM, see [Microsoft Surface Enterprise Management Mode](surface-enterprise-management-mode.md).
 
+<!--
 ## Unenroll a Surface device from SEMM with a Surface UEFI reset package
 
 The Surface UEFI reset package is the primary method you use to unenroll a Surface device from SEMM. Like a Surface UEFI configuration package, the reset package is a Windows Installer (.msi) file that configures SEMM on the device. Unlike the configuration package, the reset package will reset the Surface UEFI configuration on a Surface device to its default settings, remove the SEMM certificate, and unenroll the device from SEMM.
@@ -32,8 +33,8 @@ Reset packages are created specifically for an individual Surface device. To beg
 
 *Figure 1. The serial number of the Surface device is displayed on the Surface UEFI PC information page*
 
->[!NOTE]
->To boot to Surface UEFI, press **Volume Up** and **Power** simultaneously while the device is off. Hold **Volume Up** until the Surface logo is displayed and the device begins to boot.
+> [!NOTE]
+> To boot to Surface UEFI, press **Volume Up** and **Power** simultaneously while the device is off. Hold **Volume Up** until the Surface logo is displayed and the device begins to boot.
 
 To create a Surface UEFI reset package, follow these steps:
 
@@ -65,7 +66,7 @@ Run the Surface UEFI reset package Windows Installer (.msi) file on the Surface 
 
 ![Screen that shows device is enrolled in SEMM.](images/surface-semm-unenroll-fig5.png "Screen that shows device is enrolled in SEMM")
 
-*Figure 5. The presence of the Microsoft Surface Configuration Package item in Programs and Features indicates that the device is enrolled in SEMM*
+*Figure 5. The presence of the Microsoft Surface Configuration Package item in Programs and Features indicates that the device is enrolled in SEMM* -->
 
 ## Unenroll a Surface device from SEMM with a Recovery Request
 
@@ -85,8 +86,8 @@ To initiate a Recovery Request, follow these steps:
 
 4. Click or press **Get Started**.
 5. Click or press **Next** to begin the Recovery Request process.
-   >[!NOTE]
-   >A Recovery Request expires two hours after it is created. If a Recovery Request is not completed in this time, you will have to restart the Recovery Request process.
+   > [!NOTE]
+   > A Recovery Request expires two hours after it is created. If a Recovery Request is not completed in this time, you will have to restart the Recovery Request process.
 6. Select **SEMM Certificate** from the list of certificates displayed on the **Choose a SEMM reset key** page (shown in Figure 7), and then click or press **Next**.
 
    ![Select SEMM certificate for your Recovery Request.](images/surface-semm-unenroll-fig7.png "Select SEMM certificate for your Recovery Request")

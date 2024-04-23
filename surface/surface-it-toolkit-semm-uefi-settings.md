@@ -11,13 +11,14 @@ ms.reviewer: chauncel
 manager: frankbu
 appliesto:
 - Windows 11
+- Windows 10
 ---
 
-# Surface UEFI settings reference for SEMM 
+# SEMM UEFI settings reference 
 
-This article provides a technical reference of UEFI settings for Surface devices enrolled into Surface Enterprise Management Mode. Configure UEFI settings using the the [Surface UEFI Configurator](surface-it-toolkit-uefi-config.md) included in the [Surface IT Toolkit](surface-it-toolkit.md).  
+This article provides a technical reference of Unified Extensible Firmware Interface (UEFI) settings for Surface devices enrolled into Surface Enterprise Management Mode (SEMM). Configure UEFI settings using the [Surface UEFI Configurator](surface-it-toolkit-uefi-config.md) included in the [Surface IT Toolkit](surface-it-toolkit.md).  
 
-## Enable or disable components in Surface UEFI 
+## Enable or disable components in Surface UEFI
 
 The following components can be turned or off:
 
