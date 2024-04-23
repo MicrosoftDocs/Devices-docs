@@ -27,9 +27,9 @@ For the best experience, deploy Surface Pro 9 with 5G or Surface Pro X using Win
 Autopilot deployment has several advantages: It allows you to use the factory-provisioned operating system, streamlined for zero-touch deployment, to include pre-installation of [Microsoft 365 Apps for enterprise](https://www.microsoft.com/microsoft-365/enterprise/microsoft-365-apps-for-enterprise).
 Organizations already using modern management, security, and productivity solutions are well-positioned to take advantage of the unique performance features in Surface Pro 9 with 5G and Surface Pro X. Customers using modernized [line of business apps](/microsoft-store/working-with-line-of-business-apps), [Microsoft Store (UWP) apps](/windows/uwp/get-started/universal-application-platform-guide), or remote desktop solutions also stand to benefit.
 
-### Image-based deployment considerations
+### Image-based deployment now supported
 
-Microsoft Deployment Toolkit (MDT) and Microsoft Endpoint Configuration Manager do not support image-based Operating System Deployment (OSD) for Surface Pro 9 with 5G or Surface Pro X. Customers relying on image-based deployment should consider Surface Pro 9 while evaluating the right time to transition to modern deployment solutions.
+ Image-based Operating System Deployment (OSD) is now [supported via Endpoint Configuration Manager]([supports Operating System Deployment](/mem/configmgr/core/plan-design/changes/whats-new-in-version-2403#support-for-arm-64-operating-system-deployment)) for Windows 11 on Surface Pro 9 with 5G. 
 
 ### Manage firmware with UEFI Configurator and SEMM
 
@@ -159,7 +159,7 @@ The following tables show the availability of selected key features on Surface P
 | Support for Network Boot (PXE)                                    | No                | No                         |                                                                                                                                                                                      |
 | Windows Configuration Designer                                    | No                | No                         | Not recommended for Surface Pro 9 with 5G or Surface Pro X.                                                                                                                          |
 | WinPE                                                             | No                | No                         | Not recommended for Surface Pro 9 with 5G or Surface Pro X. Microsoft does not provide the necessary .ISO and drivers to support WinPE with Surface Pro 9 with 5G and Surface Pro X. |
-| Operating System Deployment (OSD)                                 | No                | No                         | Not supported on Surface Pro 9 with 5G or Surface Pro X.                                                                                                                             |
+| Operating System Deployment (OSD)                                 | No               | Yes                        |  Now supported with Windows 11 on Surface Pro 9 with 5G.                                                                                                                             |
 | MDT                                                               | No                | No                         | Not supported on Surface Pro 9 with 5G or Surface Pro X.                                                                                                                             |
 
 ### Management
@@ -190,13 +190,13 @@ The following tables show the availability of selected key features on Surface P
 
 ## FAQ
 
-**Can I deploy Surface Pro 9 with 5G and Surface Pro X with MDT or Endpoint Configuration Manager?**
+**Can I deploy Surface Pro 9 with 5G and Surface Pro X with Endpoint Configuration Manager?**
 
-- The Microsoft Deployment Toolkit (MDT) and Microsoft Endpoint Configuration Manager currently do not support Surface Pro 9 with 5G and Surface Pro X or Surface Pro 9 with 5G for operating system deployment. Customers relying on image-based deployment should consider Surface Pro 8 while evaluating the right time to transition to the cloud.
+- Microsoft Endpoint Configuration Manager now [supports Operating System Deployment](/mem/configmgr/core/plan-design/changes/whats-new-in-version-2403#support-for-arm-64-operating-system-deployment) for Windows 11 on Surface Pro 9 with 5G with 5G. 
 
-**How can I deploy Surface Pro 9 with 5G or Surface Pro X?**
+**How can I deploy Surface Pro 9 with 5G or Surface Pro X?** 
 
-- Deploy Surface Pro 9 with 5G and Surface Pro X or Surface Pro 9 with 5G using Windows Autopilot.
+- Deploy Surface Pro 9 with 5G via OSD or Windows Autopilot. Deploy Surface Pro X via Windows Autopilot.
 
 **Is a BMR available?**
 
