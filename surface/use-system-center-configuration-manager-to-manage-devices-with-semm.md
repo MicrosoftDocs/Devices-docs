@@ -16,7 +16,7 @@ appliesto:
 
 # Use Microsoft Configuration Manager to manage devices with SEMM
 
-The Microsoft Surface Enterprise Management Mode (SEMM) feature of Surface UEFI devices lets administrators manage and help secure the configuration of Surface UEFI settings. For most organizations, this process is accomplished by creating Windows Installer (.msi) packages with the Microsoft Surface UEFI Configurator tool. These packages are then run or deployed to the client Surface devices to enroll the devices in SEMM and to update the Surface UEFI settings configuration.
+The Microsoft Surface Enterprise Management Mode (SEMM) feature of Surface UEFI devices lets administrators manage and help secure the configuration of Surface UEFI settings. For most organizations, this process is accomplished by creating Windows Installer (.msi) packages with the [UEFI Configurator](surface-it-toolkit-uefi-config.md) tool in the [Surface IT Toolkit](surface-it-toolkit.md). These packages are then run or deployed to the client Surface devices to enroll the devices in SEMM and to update the Surface UEFI settings configuration.
 
 For organizations with Microsoft Configuration Manager, there's an alternative to using the Microsoft Surface UEFI Configurator .msi process to deploy and administer SEMM. Microsoft Surface UEFI Manager is a lightweight installer that makes required assemblies for SEMM management available on a device. When you install these assemblies with Microsoft Surface UEFI Manager on a managed client, you can manage SEMM via Configuration Manager with PowerShell scripts, deployed as applications. Doing so eliminates the need for the external Microsoft Surface UEFI Configurator tool.
 
@@ -39,11 +39,11 @@ Before you begin the process outlined in this article, familiarize yourself with
 
 ### Download Microsoft Surface UEFI Manager
 
-Management of SEMM with Configuration Manager requires the installation of Microsoft Surface UEFI Manager on each client Surface device. You can download Microsoft Surface UEFI Manager (SurfaceUEFIManager.msi) from the [Surface Tools for IT](https://www.microsoft.com/download/details.aspx?id=46703) page on the Microsoft Download Center.
+Management of SEMM with Configuration Manager requires the installation of Microsoft Surface UEFI Manager on each client Surface device. You can download Microsoft Surface UEFI Manager  from the [Surface IT Toolkit Tool Library](surface-it-toolkit-library.md)page on the Microsoft Download Center.
 
 #### Download SEMM scripts for Configuration Manager
 
-After Microsoft Surface UEFI Manager is installed on the client Surface device, SEMM can be deployed and managed with PowerShell scripts. Get  samples of [SEMM management scripts](https://www.microsoft.com/download/details.aspx?id=46703) by downloading SEMM_PowerShell.zip from Surface Tools for IT.
+After UEFI Manager is installed on the client Surface device, SEMM can be deployed and managed with PowerShell scripts. Get samples of from the [Surface IT Toolkit](surface-it-toolkit-powershell-surface.md).
 
 ## Deploy Microsoft Surface UEFI Manager
 
@@ -87,12 +87,12 @@ If you don't want to install the Microsoft Surface UEFI Manager assemblies on de
 
 ## Create or modify the SEMM Configuration Manager scripts
 
-After the required assemblies have been installed on the devices, the process of enrolling the devices in SEMM and configuring Surface UEFI is done with PowerShell scripts and deployed as a script application with Configuration Manager. These scripts can be modified to fit the needs of your organization and environment. For example, you can create multiple configurations for managed Surface devices in different departments or roles. You can download samples of the scripts for SEMM and Configuration Manager from the link in the [Prerequisites](#prerequisites) section at the beginning of this article.
+After the required assemblies have been installed on the devices, the process of enrolling the devices in SEMM and configuring Surface UEFI is done with PowerShell scripts and deployed as a script application with Configuration Manager. These scripts can be modified to fit the needs of your organization and environment. For example, you can create multiple configurations for managed Surface devices in different departments or roles. Download samples of the scripts for SEMM and Configuration Manager from the [Surface IT Toolkit](surface-it-toolkit-powershell-surface.md)
 
 There are two primary scripts you'll need in order to perform a SEMM deployment with Configuration Manager:
 
-* **ConfigureSEMM.ps1** – Use this script to create configuration packages for your Surface devices with your desired Surface UEFI settings to apply the specified settings to a Surface device, to enroll the device in SEMM, and to set a registry key used to identify the enrollment of the device in SEMM.
-* **ResetSEMM.ps1** – Use this script to reset SEMM on a Surface device, which unenrolls it from SEMM and removes the control over Surface UEFI settings.
+* **ConfigureSEMM.ps1** – Available under **Surface Device Scripts** in the [Surface IT Toolkit](surface-it-toolkit-powershell-surface.md). Use this script to create configuration packages for your Surface devices with your desired Surface UEFI settings to apply the specified settings to a Surface device, to enroll the device in SEMM, and to set a registry key used to identify the enrollment of the device in SEMM.
+* **ResetSEMM.ps1** – Available under **Additional Surface Device Scripts** in the [Surface IT Toolkit](surface-it-toolkit-powershell-surface.md). Use this script to reset SEMM on a Surface device, which unenrolls it from SEMM and removes the control over Surface UEFI settings.
 
 The sample scripts include examples of how to set Surface UEFI settings and how to control permissions to those settings. These settings can be modified to secure Surface UEFI and set Surface UEFI settings according to the needs of your environment. The following sections of this article explain the ConfigureSEMM.ps1 script and explore the modifications you need to make to the script to fit your requirements.
 
@@ -101,7 +101,10 @@ The sample scripts include examples of how to set Surface UEFI settings and how 
 
 ### Manage USB ports on supported devices
 
-See [Manage USB ports on Surface devices](manage-usb-ports-on-surface.md)
+You can implement Dynamic USB-C disablement via one of the following methods: 
+
+- Via the UI using UEFI Configurator in the Surface IT Toolkit.
+- Via PowerShell scripts, as described in  [Manage USB ports on Surface devices](manage-usb-ports-on-surface.md)
 
 The following sections of this article explain the ConfigureSEMM.ps1 script and explore the modifications you need to make to the script to fit your requirements.
 

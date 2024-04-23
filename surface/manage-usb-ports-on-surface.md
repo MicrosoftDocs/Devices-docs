@@ -33,7 +33,7 @@ The process consists of the following parts:
 
 1. **Enrollment:** Enroll Surface devices and docks into SEMM using the Surface UEFI Configurator, as outlined in [Secure Surface Dock ports with SEMM](secure-surface-dock-ports-semm.md). Supported docks include Surface Dock 2 and Surface Thunderbolt 4 Dock. Key to this workflow is the ability to turn off USB-C data, Ethernet data, and USB-C audio whenever devices are disconnected from an authorized Surface Dock located, for example, in a  workplace environment handling highly sensitive information.
 
-2. **Client configuration:** Install **UEFI Manager**, available from [Surface Tools for IT](https://www.microsoft.com/download/details.aspx?id=46703), on all Surface devices targeted for management.  
+2. **Client configuration:** Install **UEFI Manager**, available from the [Surface IT Toolkit](https://www.microsoft.com/download/details.aspx?id=46703), on all Surface devices targeted for management.  
 
 3. **Powershell scripts:** Go to [Surface Tools for IT](https://www.microsoft.com/download/details.aspx?id=46703) to download and modify the PowerShell scripts as appropriate for your environment. Use Microsoft Configuration Manager to deploy the scripts (as applications) to target devices, following the instructions in [Use Microsoft Configuration Manager to manage devices with SEMM](use-system-center-configuration-manager-to-manage-devices-with-semm.md). 
 
