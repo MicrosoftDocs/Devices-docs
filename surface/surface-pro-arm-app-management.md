@@ -29,7 +29,7 @@ Organizations already using modern management, security, and productivity soluti
 
 ### Image-based deployment now supported
 
- Image-based Operating System Deployment (OSD) is now [supported via Endpoint Configuration Manager]([supports Operating System Deployment](/mem/configmgr/core/plan-design/changes/whats-new-in-version-2403#support-for-arm-64-operating-system-deployment)) for Windows 11 on Surface Pro 9 with 5G. 
+ Image-based Operating System Deployment (OSD) is now [supported via Endpoint Configuration Manager](/mem/configmgr/core/plan-design/changes/whats-new-in-version-2403#support-for-arm-64-operating-system-deployment)) for Windows 11 on Surface Pro 9 with 5G. 
 
 ### Manage firmware with UEFI Configurator and SEMM
 
