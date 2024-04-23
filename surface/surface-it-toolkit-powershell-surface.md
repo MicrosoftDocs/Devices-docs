@@ -11,11 +11,12 @@ ms.reviewer: chauncel
 manager: frankbu
 appliesto:
 - Windows 11
+- Windows 10
 ---
 
 # Configure Surface devices with PowerShell 
 
-The Surface IT Toolkit includes a centralized library of scripts is designed to enhance the management capabilities of IT admins, providing precision control over Surface devices, Docks, and Hubs. Whether you’re enrolling new devices into the Surface Enterprise Management Mode (SEMM), managing UEFI firmware settings, or ensuring devices are compliant with your organization's policies, these scripts offer an alternative to using the UI-based UEFI Configurator tool. 
+The Surface IT Toolkit includes a centralized library of scripts is designed to enhance the management capabilities of IT admins, providing precision control over Surface devices, Docks, and Hubs. Whether you’re enrolling new devices into the Surface Enterprise Management Mode (SEMM), managing Unified Extensible Firmware Interface (UEFI) firmware settings, or ensuring devices are compliant with your organization's policies, these scripts offer an alternative to using the UI-based UEFI Configurator tool. 
 
 To access the scripts, open **Surface IT Toolkit**, select **UEFI Configurator** > **PowerShell Scripts** and copy the scripts into your dev environment. 
 
@@ -36,17 +37,17 @@ This collection enables IT admins to configure SEMM on individual Surface device
 | CreateOwnerUpgradePackage | Creates a package to replace an expiring certificate on an already-enrolled device. |
 | CreatePermissionPackages  | Produces a package that sets permissions for UEFI setting changes. |
 | CreateSettingsPackage     | Generates a package containing desired UEFI settings.           |
-| CreateTestCertificates    | Creates self-signed certificates for SEMM testing in non-production environments. |
+| CreateTestCertificates    | Creates self-signed certificates for SEMM testing in nonproduction environments. |
 | CurrentSettings           | Displays the UEFI settings currently configured on the host device. |
 | ResetSEMM                 | Constructs a reset package to remove SEMM from a device.       |
 | ShowSettingsOptions       | Shows available UEFI settings that can be configured.          |
-| VerifySettings            | Verifies UEFI settings against those configured on the host device and in applied packages. |
+| VerifySettings            | Verifies UEFI settings against settings configured on the host device and in applied packages. |
 
 
 
 ## Surface Dock Scripts
 
-Facilitate the integration of Surface Docks into your device management framework. These scripts offer an alternative to the UI-based UEFI Configurator tool, for precison control of Surface Docks connected to your Surface devices.
+Facilitate the integration of Surface Docks into your device management framework. These scripts offer an alternative to the UI-based UEFI Configurator tool, for precise control of Surface Docks connected to your Surface devices.
 
 
 ### Surface Thunderbolt 4 Dock Scripts
@@ -55,7 +56,7 @@ Built for Thunderbolt 4 Docks, these PowerShell scripts offer policy creation, p
 
 | Script                                  | Summary                                                                                           |
 |-----------------------------------------|---------------------------------------------------------------------------------------------------|
-| CreateSurfaceThunderbolt(TM)4DockCertificates | Generates self-signed certificates for testing SEMM with Surface Thunderbolt™ 4 Dock in non-production environments. |
+| CreateSurfaceThunderbolt(TM)4DockCertificates | Generates self-signed certificates for testing SEMM with Surface Thunderbolt™ 4 Dock in nonproduction environments. |
 | ResetSEMM - Thunderbolt(TM)4Dock        | Creates a package to remove SEMM from a Surface Thunderbolt™ 4 Dock.                               |
 | VerifyDockSettings                      | Displays the settings currently applied to the connected Surface Thunderbolt™ 4 Dock.              |
 
@@ -67,7 +68,7 @@ Built for Surface Dock 2, these PowerShell scripts offer management for port and
 
 | Script                      | Summary                                                                                   |
 |-----------------------------|-------------------------------------------------------------------------------------------|
-| CreateSurfaceDock2Certificates | Generates self-signed certificates to test SEMM for Surface Dock 2 in non-production environments. |
+| CreateSurfaceDock2Certificates | Generates self-signed certificates to test SEMM for Surface Dock 2 in nonproduction environments. |
 | Reset SEMM                  | Creates a reset package that can be used to remove SEMM from a Surface Dock 2.            |
 | VerifyDockSettings          | Displays the applied settings of the connected Surface Dock 2.                            |
 

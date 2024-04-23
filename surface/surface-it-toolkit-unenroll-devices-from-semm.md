@@ -11,6 +11,7 @@ ms.reviewer: chauncel
 manager: frankbu
 appliesto:
 - Windows 11
+- Windows 10
 ---
 
 # Unenroll Surface devices from SEMM management
