@@ -100,7 +100,7 @@
             - name: Configure Surface devices with PowerShell 
               href: surface-it-toolkit-powershell-surface.md
             - name: Unenroll devices from SEMM  
-              href: surface-it-toolkit-unenroll-devices-from-semm.md    
+              href: unenroll-surface-devices-from-semm.md    
           - name: Tool Library
             href: surface-it-toolkit-library.md
             expanded: true
