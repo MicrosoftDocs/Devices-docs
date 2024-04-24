@@ -15,7 +15,7 @@ ms.date: 04/25/2024
 
 # Unenroll Surface devices from SEMM
 
-When a Surface device is enrolled in Surface Enterprise Management Mode (SEMM), a certificate is stored in the firmware of that device. The presence of that certificate and the enrollment in SEMM prevent any unauthorized changes to Surface UEFI settings or options while the device is enrolled in SEMM. To restore control of Surface UEFI settings to the user, the Surface device must be unenrolled from SEMM, a process sometimes described as reset or recovery. 
+When a Surface device is enrolled in Surface Enterprise Management Mode (SEMM), a certificate is stored in the firmware of that device. The presence of that certificate and the enrollment in SEMM prevent any unauthorized changes to Surface UEFI settings or options while the device is enrolled in SEMM. To restore control of Surface UEFI settings to the user, the Surface device must be unenrolled from SEMM, a process sometimes described as reset or recovery.
 
 > [!WARNING]
 > To unenroll a device from SEMM and restore user control of Surface UEFI settings, you must have the SEMM certificate that was used to enroll the device in SEMM. If this certificate becomes lost or corrupted, it is not possible to unenroll from SEMM. Back up and protect your SEMM certificate accordingly.
@@ -61,9 +61,9 @@ To initiate a Recovery Request, follow these steps:
 
    ![Save a recovery request to a USB drive.](images/surface-semm-unenroll-fig9.png "Save a recovery request to a USB drive")
 
-   * To use a QR Code Recovery Request (Reset Request), use a QR reader app on a mobile device to read the code. The QR reader app will translate the QR code into an alphanumeric string. You can then email or message that string to the administrator that will produce the reset verification code with Microsoft Surface UEFI Configurator.
-   * To use a Recovery Request (Reset Request) saved to a USB drive as a file, use the USB drive to transfer the file to the computer where Microsoft Surface UEFI Configurator will be used to produce the Reset Verification Code. The file can also be copied from the USB drive on another device to be emailed or transferred over the network.
-   * To use the Recovery Request (Reset Request) as text, simply type the text directly into Microsoft Surface UEFI Configurator.
+   - To use a QR Code Recovery Request (Reset Request), use a QR reader app on a mobile device to read the code. The QR reader app will translate the QR code into an alphanumeric string. You can then email or message that string to the administrator that will produce the reset verification code with Microsoft Surface UEFI Configurator.
+   - To use a Recovery Request (Reset Request) saved to a USB drive as a file, use the USB drive to transfer the file to the computer where Microsoft Surface UEFI Configurator will be used to produce the Reset Verification Code. The file can also be copied from the USB drive on another device to be emailed or transferred over the network.
+   - To use the Recovery Request (Reset Request) as text, simply type the text directly into Microsoft Surface UEFI Configurator.
 
 To create a Surface UEFI reset package:
 
