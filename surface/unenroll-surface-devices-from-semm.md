@@ -10,7 +10,7 @@ ms.localizationpriority: medium
 appliesto:
 - Windows 10
 - Windows 11
-ms.date: 06/09/2020
+ms.date: 04/25/2024
 ---
 
 # Unenroll Surface devices from SEMM
@@ -22,7 +22,7 @@ When a Surface device is enrolled in Surface Enterprise Management Mode (SEMM), 
 
 For more information about SEMM, see [Microsoft Surface Enterprise Management Mode](surface-enterprise-management-mode.md).
 
-<!--
+
 ## Unenroll a Surface device from SEMM with a Surface UEFI reset package
 
 The Surface UEFI reset package is the primary method you use to unenroll a Surface device from SEMM. Like a Surface UEFI configuration package, the reset package is a Windows Installer (.msi) file that configures SEMM on the device. Unlike the configuration package, the reset package will reset the Surface UEFI configuration on a Surface device to its default settings, remove the SEMM certificate, and unenroll the device from SEMM.
@@ -36,9 +36,9 @@ Reset packages are created specifically for an individual Surface device. To beg
 > [!NOTE]
 > To boot to Surface UEFI, press **Volume Up** and **Power** simultaneously while the device is off. Hold **Volume Up** until the Surface logo is displayed and the device begins to boot.
 
-To create a Surface UEFI reset package, follow these steps:
+To create a Surface UEFI reset package: 
 
-1. Open Microsoft Surface UEFI Configurator from the Start menu.
+1. Download and install the [Surface IT Toolkit](surface-it-toolkit.md) and open [UEFI Configurator](surface-it-toolkit-uefi-config.md).
 2. Click **Start**.
 3. Click **Reset Package**, as shown in Figure 2.
 
@@ -66,7 +66,7 @@ Run the Surface UEFI reset package Windows Installer (.msi) file on the Surface 
 
 ![Screen that shows device is enrolled in SEMM.](images/surface-semm-unenroll-fig5.png "Screen that shows device is enrolled in SEMM")
 
-*Figure 5. The presence of the Microsoft Surface Configuration Package item in Programs and Features indicates that the device is enrolled in SEMM* -->
+*Figure 5. The presence of the Microsoft Surface Configuration Package item in Programs and Features indicates that the device is enrolled in SEMM* 
 
 ## Unenroll a Surface device from SEMM with a Recovery Request
 

@@ -22,7 +22,7 @@ that allows you to view, assign, and modify an assigned asset tag value for Surf
 ## System requirements
 
 - Surface Pro 3 or later and all newer Surface devices
-- UEFI firmware version 3.9.150.0 or later
+- Unified Extensible Firmware Interface (UEFI) firmware version 3.9.150.0 or later.
 
 ## Using Surface Asset Tag
 
@@ -113,4 +113,8 @@ Write-Output (
 
 ### Version history
 
-- v193.139, released October 4, 2023
+- v193.139, released October 4, 2023. Included in [Surface IT Toolkit Library](surface-it-toolkit-library.md), April 25, 2024. 
+
+## Learn more
+
+- [Surface IT Toolkit Library](surface-it-toolkit-library.md)
