@@ -7,7 +7,7 @@ author: coveminer
 ms.author: chauncel
 ms.topic: how-to
 ms.reviewer: carlol
-ms.date: 06/29/2021
+ms.date: 04/25/2024
 manager: frankbu
 appliesto:
 - Windows 10
@@ -110,3 +110,7 @@ Write-Output (
 
 }
 ```
+
+### Version history
+
+- v193.139, released October 4, 2023
