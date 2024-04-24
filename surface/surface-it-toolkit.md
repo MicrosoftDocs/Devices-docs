@@ -22,7 +22,7 @@ The Surface IT Toolkit ensures you're using the latest version thanks to [MSIX](
 
 ## Get started with Surface IT Toolkit
 
-1. Download the [Surface IT Toolkit]((https://www.microsoft.com/download/details.aspx?id=46703)) and install it on the PC you use to manage devices in your organization.
+1. Download the [Surface IT Toolkit](https://www.microsoft.com/download/details.aspx?id=46703) and install it on the PC you use to manage devices in your organization.
 
 2. Open Surface IT Toolkit and select **Configure App**.
 
