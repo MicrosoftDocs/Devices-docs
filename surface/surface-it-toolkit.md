@@ -22,7 +22,7 @@ The Surface IT Toolkit ensures you're using the latest version thanks to [MSIX](
 
 ## Get started with Surface IT Toolkit
 
-1. Download the Surface IT Toolkit and install it on the PC you use to manage devices in your organization.
+1. Download the [Surface IT Toolkit]((https://www.microsoft.com/download/details.aspx?id=46703)) and install it on the PC you use to manage devices in your organization.
 
 2. Open Surface IT Toolkit and select **Configure App**.
 
@@ -44,11 +44,10 @@ The Surface IT Toolkit ensures you're using the latest version thanks to [MSIX](
 
     :::image type="content" source="images/it-toolkit-setup.png" alt-text="Screenshot that shows review and completion of app configuration.":::
 
-
 ## What's in the Surface IT Toolkit?
 
-The Surface IT Toolkit provides a user-friendly interface designed to assist IT admins in managing and configuring Surface devices within their organization. Quickly access toolkit functions: 
- 
+The Surface IT Toolkit provides a user-friendly interface designed to assist IT admins in managing and configuring Surface devices within their organization. Quickly access toolkit functions:
+
 - Data Eraser
 - UEFI Configurator
 - Recovery Tool  
@@ -56,7 +55,7 @@ The Surface IT Toolkit provides a user-friendly interface designed to assist IT 
 
 ### Supported devices
 
-The Managed Devices area displays multiple models that can be managed with the toolkit, including the following devices: Surface Book 3, Surface Go 2, Surface Go 3, Surface Go 4, Surface Laptop 3, Surface Laptop 4, Surface Laptop 5, Surface Laptop 6, Surface Laptop Go, Surface Laptop Go 2, Surface Laptop Go 3, Surface Laptop SE, Surface Laptop Studio, Surface Laptop Studio 2, Surface Pro 10, Surface Pro 7, Surface Pro 7+, Surface Pro 8, Surface Pro 9, Surface Pro X SQ1, Surface Pro X SQ2, Surface Pro X Wi-Fi, Surface Studio 2, and Surface Studio 2+.
+The Managed Devices area displays multiple models that can be managed with the toolkit, including the following devices: Surface Book 3, Surface Go 2, Surface Go 3, Surface Go 4, Surface Laptop 3, Surface Laptop 4, Surface Laptop 5, Surface Laptop 6, Surface Laptop Go, Surface Laptop Go 2, Surface Laptop Go 3, Surface Laptop SE, Surface Laptop Studio, Surface Laptop Studio 2, Surface Pro 10, Surface Pro 7, Surface Pro 7+, Surface Pro 8, Surface Pro 9, Surface Studio 2, and Surface Studio 2+. Surface Pro X SQ1, Surface Pro X SQ2, and Surface Pro X Wi-Fi are supported with Windows 11 only.
 
 ### Quick Tasks
 
@@ -67,4 +66,4 @@ The Managed Devices area displays multiple models that can be managed with the t
 
 ### Tool Library in the Surface IT Toolkit
 
-The Tool Library in the Surface IT Toolkit is a centralized repository that provides IT admins with a suite of tools essential for the configuration and support of Surface devices. This library ensures that the most up-to-date versions of each tool are readily available for deployment. Each tool comes with a "Save Copy" option, allowing IT admins to download and save a copy of the installer for the respective tool. To learn more, see [Surface IT Toolkit tool library](surface-it-toolkit-library.md). 
+The Tool Library in the Surface IT Toolkit is a centralized repository that provides IT admins with a suite of tools essential for the configuration and support of Surface devices. This library ensures that the most up-to-date versions of each tool are readily available for deployment. Each tool comes with a "Save Copy" option, allowing IT admins to download and save a copy of the installer for the respective tool. To learn more, see [Surface IT Toolkit tool library](surface-it-toolkit-library.md).
