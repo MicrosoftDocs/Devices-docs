@@ -16,7 +16,7 @@ ms.date: 04/25/2024
 
 # Run command-line app console with Surface Diagnostic Toolkit for Business
 
-Running the Surface Diagnostic Toolkit (SDT) at a command prompt requires downloading the SDT app console. After it's installed, you can run SDT at a command prompt via the Windows command console (cmd.exe) or using Windows PowerShell, including PowerShell Integrated Scripting Environment (ISE), which provides support for autocompletion of commands, copy/paste, and other features.  For a list of supported Surface devices in SDT, refer to [Deploy Surface Diagnostic Toolkit for Business](surface-diagnostic-toolkit-business.md).
+Running the Surface Diagnostic Toolkit (SDT) at a command prompt requires downloading the SDT app console. After installation, you can run SDT at a command prompt via the Windows command console (cmd.exe) or Windows PowerShell. For a list of supported Surface devices in SDT, refer to [Deploy Surface Diagnostic Toolkit for Business](surface-diagnostic-toolkit-business.md).
 
 >[!NOTE]
 >To run SDT using commands, you must be signed in to the Administrator account or signed in to an account that is a member of the Administrator group on your Surface device.
@@ -26,7 +26,7 @@ Running the Surface Diagnostic Toolkit (SDT) at a command prompt requires downlo
 1. Download and install SDT app console from the [Surface Tools for IT download page](https://www.microsoft.com/download/details.aspx?id=46703).
 
 - For Intel/AMD devices, download: **Microsoft.Surface.Diagnostics.App.Console.v2.168.139.0.exe**
-- For ARM devices, download: **Microsoft.Surface.Diagnostics.App.Console.v2.168.139.0_x86.exe**
+- For ARM-based devices, download: **Microsoft.Surface.Diagnostics.App.Console.v2.168.139.0_x86.exe**
 
 2. Use the Windows command prompt (cmd.exe) or Windows PowerShell to:
 
@@ -54,7 +54,7 @@ Command | Notes
 You can run BPA tests across key components such as BitLocker, Secure Boot, and Trusted Platform Module (TPM) and then output the results to a shareable file. The tool generates a series of tables with color-coded headings and condition descriptors along with guidance about how to approach resolving the issue.
 
 - Green indicates the component is running in an optimal condition (optimal).
-- Orange indicates the component is not running in an optimal condition (not optimal).
+- Orange indicates the component isn't running in an optimal condition (not optimal).
 - Red indicates the component is in an abnormal state.
 
 ## Sample BPA results output
@@ -64,21 +64,21 @@ You can run BPA tests across key components such as BitLocker, Secure Boot, and 
 - **Description**: Checks if BitLocker is enabled on the system drive.
 - **Value**: Protection On
 - **Condition**: Optimal
-- **Guidance**: It is highly recommended to enable BitLocker to protect your data.
+- **Guidance**: It's highly recommended to enable BitLocker to protect your data.
 
 ### Secure Boot
 
 - **Description**: Checks if Secure Boot is enabled.
 - **Value**: True
 - **Condition**: Optimal
-- **Guidance**: It is highly recommended to enable Secure Boot to protect your PC.
+- **Guidance**: It's highly recommended to enable Secure Boot to protect your PC.
 
 ### Trusted Platform Module
 
 - **Description**: Ensures that the TPM is functional.
 - **Value**: True
 - **Condition**: Optimal
-- **Guidance**: Without a functional TPM, security-based functions such as BitLocker may not work properly.
+- **Guidance**: Without a functional TPM, security-based functions such as BitLocker might not work properly.
 
 ### Connected Standby
 
@@ -106,21 +106,21 @@ You can run BPA tests across key components such as BitLocker, Secure Boot, and 
 - **Description**: Checks if Test Signing is enabled.
 - **Value**: Normal
 - **Condition**: Optimal
-- **Guidance**: Test Signing is a Windows startup setting that should only be used to test pre-release drivers.
+- **Guidance**: Test Signing is a Windows startup setting that should only be used to test prerelease drivers.
 
 ### Active Power Plan
 
 - **Description**: Checks that the correct power plan is active.
 - **Value**: Balanced
 - **Condition**: Optimal
-- **Guidance**: It is highly recommended to use the "Balanced" power plan to maximize productivity and battery life.
+- **Guidance**: It's highly recommended to use the "Balanced" power plan to maximize productivity and battery life.
 
 ### Windows Update
 
 - **Description**: Checks if the device is up to date with Windows updates.
 - **Value**: Microsoft Silverlight (KB4023307), Definition Update for Windows Defender Antivirus - KB2267602 (Definition 1.279.1433.0)
 - **Condition**: Not Optimal
-- **Guidance**: Updating to the latest windows makes sure you are on the latest firmware and drivers. It is recommended to always keep your device up to date.
+- **Guidance**: Updating to the latest windows makes sure you are on the latest firmware and drivers. It's recommended to always keep your device up to date.
 
 ### Free Hard Drive Space
 
@@ -131,14 +131,14 @@ You can run BPA tests across key components such as BitLocker, Secure Boot, and 
 
 ### Non-Functioning Devices
 
-- **Description**: List of non-functioning devices in Device Manager.
+- **Description**: List of nonfunctioning devices in Device Manager.
 - **Value**: [Not provided in the screenshot]
 - **Condition**: Optimal
-- **Guidance**: Non-functioning devices in Device Manager may cause unpredictable problems with Surface devices such as, but not limited to, no power savings for the respective hardware component.
+- **Guidance**: Nonfunctioning devices in Device Manager might cause unpredictable problems with Surface devices such as, but not limited to, no power savings for the respective hardware component.
 
 ### External Monitor
 
-- **Description**: Checks for an external monitor that may have compatibility issues.
+- **Description**: Checks for an external monitor that might have compatibility issues.
 - **Value**: N/A
 - **Condition**: Optimal
 - **Guidance**: Check with the original equipment manufacturer for compatibility with your Surface device.
