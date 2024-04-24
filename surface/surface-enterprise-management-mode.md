@@ -121,7 +121,7 @@ To enroll a Surface device in SEMM or apply the UEFI configuration from a config
 
 ### Recovery request
 
- You can unenroll Surface devices from SEMM via the [Recovery Request](surface-it-toolkit-unenroll-devices-from-semm.md) feature in the Surface IT Toolkit.
+ You can unenroll Surface devices from SEMM via the [Recovery Request](unenroll-surface-devices-from-semm.md) feature in the Surface IT Toolkit.
 
 <!--When you use the process on the **Enterprise Management** page to reset SEMM on a Surface device, you’re given a Reset Request. This Reset Request can be saved as a file to a USB drive, copied as text, or read as a QR Code with a mobile device to be easily emailed or messaged. Use the Microsoft Surface UEFI Configurator Reset Request option to load a Reset Request file or to enter the Reset Request text or QR Code. Microsoft Surface UEFI Configurator generates a verification code that can be entered on the Surface device. If you enter the code on the Surface device and select **Restart**, the device is unenrolled from SEMM.-->
 

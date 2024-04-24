@@ -33,7 +33,7 @@ Before you begin the process outlined in this article, familiarize yourself with
 * [Deploy applications with Configuration Manager](/mem/configmgr/apps/deploy-use/deploy-applications)
 
 > [!IMPORTANT]
-> You will also need access to the certificate that you intend to use to secure SEMM. For details about the requirements for this certificate, see [Surface Enterprise Management Mode certificate requirements](surface-enterprise-management-mode.md#surface-enterprise-management-mode-certificate-requirements).
+> You will also need access to the certificate that you intend to use to secure SEMM. For details about the requirements for this certificate, see [SEMM certificate requirements](surface-enterprise-management-mode.md#semm-certificate-requirements).
 >
 > It is very important that this certificate be kept in a safe location and properly backed up. If this certificate becomes lost or unusable, it is not possible to reset Surface UEFI, change managed Surface UEFI settings, or remove SEMM from an enrolled Surface device.
 

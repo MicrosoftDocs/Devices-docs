@@ -48,12 +48,13 @@ To create a Surface UEFI configuration package:
 4. In the Device Configuration Settings page, select the components you wish to configure. When finished, select **Next**.
 :::image type="content" source="images/ueficonfig-device-config-settings.png" alt-text="Screenshot of Device Configuration Settings page.":::
 5. When complete, select **Finish**
-:::image type="content" source="images/ueficonfig-complete-package.png"alt-text="Screenshot of Device Configuration Settings page.":::
+:::image type="content" source="images/ueficonfig-complete-package.png"alt-text="Screenshot of completed configuration for the Device package.":::
+
 > [!TIP]
 > Record the certificate thumbprint characters displayed on this page, as shown in Figure 6. You will need these characters to confirm enrollment of new Surface devices in SEMM. Click **End** to complete package creation and close Microsoft Surface UEFI Configurator.
 
 6. Review your changes, select **Choose Folder** to save the UEFI configuration package, and select **Create**.
-:::image type="content" source="images/ueficonfig-create-package.png"alt-text="Screenshot of Device Configuration Settings page.":::
+:::image type="content" source="images/ueficonfig-create-package.png"alt-text="Screenshot of Device Package creation page.":::
 
 7. When finished, go to your selected folder to retrieve the package. This example package modifies a single UEFI setting, resulting in two files:
 
