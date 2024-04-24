@@ -26,7 +26,7 @@ For more information about SEMM, see [Microsoft Surface Enterprise Management Mo
 
 The Surface UEFI reset package is the primary method you use to unenroll a Surface device from SEMM. Like a Surface UEFI configuration package, the reset package is a Windows Installer (.msi) file that configures SEMM on the device. Unlike the configuration package, the reset package will reset the Surface UEFI configuration on a Surface device to its default settings, remove the SEMM certificate, and unenroll the device from SEMM.
 
-Reset packages are created specifically for an individual Surface device. To begin the process of creating a reset package, you will need the serial number of the device you want to unenroll, as well as the SEMM certificate used to enroll the device. You can find the serial number of your Surface device on the **PC information** page of Surface UEFI, as shown in the following figure. This page is displayed even if Surface UEFI is password protected and the incorrect password is entered.
+ The Surface IT Toolkit generates a universal reset package that applies to all supported devices except Surface Go 2. To begin the process of creating a reset package, you will need the serial number of the device you want to unenroll, as well as the SEMM certificate used to enroll the device. You can find the serial number of your Surface device on the **PC information** page of Surface UEFI, as shown in the following figure. This page is displayed even if Surface UEFI is password protected and the incorrect password is entered.
 
 ![Serial number of Surface device is displayed.](images/surface-semm-unenroll-fig1.png "Serial number of Surface device is displayed")
 
@@ -65,7 +65,7 @@ To initiate a Recovery Request, follow these steps:
    - To use a Recovery Request (Reset Request) saved to a USB drive as a file, use the USB drive to transfer the file to the computer where Microsoft Surface UEFI Configurator will be used to produce the Reset Verification Code. The file can also be copied from the USB drive on another device to be emailed or transferred over the network.
    - To use the Recovery Request (Reset Request) as text, simply type the text directly into Microsoft Surface UEFI Configurator.
 
-To create a Surface UEFI reset package:
+To create a Surface UEFI reset request:
 
 1. Open the [Surface IT Toolkit](surface-it-toolkit.md) and go to the **UEFI Configurator** section.
 2. Select the **Recovery Request** to initiate the unenrollment process for Surface devices from SEMM (Surface Enterprise Management Mode).
@@ -86,46 +86,11 @@ To create a Surface UEFI reset package:
 
     :::image type="content" source="images/ueficonfig-recovery-request.png" alt-text="Screenshot that shows completion of Recovery Request.":::
 
-Run the Surface UEFI reset package Windows Installer (.msi) file on the Surface device to unenroll the device from SEMM. The reset package will require a reboot to perform the unenroll operation. After the device has been unenrolled, you can verify the successful removal by ensuring that the **Microsoft Surface Configuration Package** item in **Programs and Features**
-<!--
-8. Open Microsoft Surface UEFI Configurator from the Start menu on another computer.
-    >[!NOTE]
-    >Microsoft Surface UEFI Configurator must run in an environment that is able to authenticate the certificate chain for the SEMM certificate.
-9. Click **Start**.
-10. Click **Recovery Request**, as shown in Figure 10.
-
-    ![Start process to approve a Recovery Request.](images/surface-semm-unenroll-fig10.png "Start process to approve a Recovery Request")
-
-    *Figure 10. Click Recovery Request to begin the process to approve a Recovery Request*
-
-11. Click **Certificate Protection** to authenticate the Recovery Request with the SEMM certificate.
-12. Browse to and select your SEMM certificate file, and then click **OK**.
-13. When you are prompted to enter the certificate password as shown in Figure 11, type and confirm the password for the certificate file, and then click **OK**.
-
-    ![Type password for SEMM certificate.](images/surface-semm-unenroll-fig11.png "Type password for SEMM certificate")
-
-    *Figure 11. Type the password for the SEMM certificate*
-
-14. Click **Next**.
-15. Enter the Recovery Request (Reset Request), and then click **Generate** to create a reset verification code (as shown in Figure 12).
-
-    ![Enter the recovery request.](images/surface-semm-unenroll-fig12.png "Enter the recovery request")
-
-    *Figure 12. Enter the Recovery Request (Reset Request)-->
-
 - If you displayed the Recovery Request (Reset Request) as text on the Surface device being reset, use the keyboard to type the Recovery Request (Reset Request)  in the provided field.
 - If you displayed the Recovery Request (Reset Request) as a QR Code and then used a messaging or email application to send the code to the computer with Microsoft Surface UEFI Configurator, copy and paste the code into the provided field.
 - If you saved the Recovery Request (Reset Request) as a file to a USB drive, click the **Import** button, browse to and select the Recovery Request (Reset Request) file, and then click **OK**.
-<!--
-16. The reset verification code is displayed in Microsoft Surface UEFI Configurator, as shown in Figure 13.
-
-    ![Display of the reset verification code.](images/surface-semm-unenroll-fig13.png "Display of the reset verification code")
-
-    *Figure 13. The reset verification code displayed in Microsoft Surface UEFI Configurator*
-
-    * Click the **Share** button to send the reset verification code by email.-->
 
 17. Enter the reset verification code in the provided field on the Surface device and then Select **Verify** to reset the device and unenroll the device from SEMM.
-18. Select **Restart now** on the **SEMM reset successful** page to complete the unenrollment from SEMM, as shown in Figure 14.
+18. Select **Restart now** on the **SEMM reset successful** page to complete the unenrollment from SEMM, as shown in the following figure.
 
     ![Example display of successful unenrollment from SEMM.](images/surface-semm-unenroll-fig14.png "Example display of successful unenrollment from SEMM")
