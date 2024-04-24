@@ -1,6 +1,6 @@
 ---
 title: Surface Data Eraser (IT Toolkit)
-description: This article describes how to use Data Eraser USB Builder, included in the Surface IT Toolkit, and generate a certificate of sanitization
+description: This article describes how to use the Surface IT Toolkit to securely erase data and generate a certificate of sanitization.
 ms.service: surface
 ms.localizationpriority: medium
 author: coveminer
@@ -24,7 +24,7 @@ This article explains how to create a secure data wipe USB key with the Surface 
 
 ## Not supported on legacy devices
 
-- This version of Surface Data Eraser is not supported on legacy devices such as Surface Laptop (1st gen), Surface Studio (1st gen), Surface Go, Surface Go 2, Surface Pro 5th Gen, and others. 
+- This version of Surface Data Eraser isn't supported on legacy devices such as Surface Laptop (1st gen), Surface Studio (1st gen), Surface Go, Surface Go 2, Surface Pro 5th Gen, and others. 
 - To securely erase data on legacy devices, see [Microsoft Surface Data Eraser (legacy)](microsoft-surface-data-eraser.md)
 
 
@@ -55,7 +55,7 @@ This article explains how to create a secure data wipe USB key with the Surface 
 > [!WARNING]
 > The Data Eraser process deletes all data on the device, including the operating system, installed apps, files, and settings.
 
-8. To continue, type **CONFIRM** If you're unsure or do not wish to proceed, type **EXIT**.
+8. To continue, type **CONFIRM** If you're unsure or don't wish to proceed, type **EXIT**.
 9. Keep your device plugged into AC Power during the data wipe process.
 
 ## Generate Data Sanitization Certificate
@@ -68,7 +68,7 @@ This article explains how to create a secure data wipe USB key with the Surface 
 3.
    :::image type="content" source="images/it-toolkit-certificate-details.png" alt-text="Screenshot of Certificate details.":::
 
-4. Under Additional Details, input the Media Source. Use the Asset tag if available. Or you can use the Serial number or System UUID, as listed in the Surface UEFI menu on the wiped device. Optionally, you can add custom fields by clicking **+ Add custom field** if more information is necessary.
+4. Under **Additional Details**, input the Media Source. Use the Asset tag if available. Or you can use the Serial number or System UUID, as listed in the Surface UEFI menu on the wiped device. Optionally, you can add custom fields by clicking **+ Add custom field** if more information is necessary.
 5. When all the relevant details are entered, select **Next** to proceed to the certificate creation process.
 6. Review the certificate details and select **Generate**.
 
@@ -76,8 +76,8 @@ This article explains how to create a secure data wipe USB key with the Surface 
 
 7. When complete, select **Show files** to access the Sanitization Certificate. Select **Finish**.
 
-    :::image type="content" source="images/it-toolkit-certificate-complete.png" alt-text="Screenshot that shows Certficate Generation is complete.":::
+    :::image type="content" source="images/it-toolkit-certificate-complete.png" alt-text="Screenshot that shows Certificate Generation is complete.":::
 
 8. Open the newly created certificate and add signatures as appropriate, as shown in the following redacted example.
 
-    :::image type="content" source="images/it-toolkit-certificate-example.png" alt-text="Screenshot that shows an example Certficate.":::
+    :::image type="content" source="images/it-toolkit-certificate-example.png" alt-text="Screenshot that shows an example Certificate.":::
