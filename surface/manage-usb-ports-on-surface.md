@@ -36,7 +36,7 @@ The process consists of the following parts:
 
 2. **Client configuration:** Install **UEFI Manager**, available from the [Surface IT Toolkit Library](surface-it-toolkit-library.md), on all Surface devices targeted for management.  
 
-3. **Powershell scripts:** Go to the [Surface IT Toolkit](surface-it-toolkit-powershell-surface.md) to download and modify the PowerShell scripts as appropriate for your environment. Use Microsoft Configuration Manager to deploy the scripts (as applications) to target devices, following the instructions in [Use Microsoft Configuration Manager to manage devices with SEMM](use-system-center-configuration-manager-to-manage-devices-with-semm.md). 
+3. **PowerShell scripts:** Go to the [Surface IT Toolkit](surface-it-toolkit-powershell-surface.md) to download and modify the PowerShell scripts as appropriate for your environment. Use Microsoft Configuration Manager to deploy the scripts (as applications) to target devices, following the instructions in [Use Microsoft Configuration Manager to manage devices with SEMM](use-system-center-configuration-manager-to-manage-devices-with-semm.md). 
 
 Refer to the embedded comments for usage guidance. See [Appendix: SEMM PowerShell Scripts tech reference](#appendix-semm-powershell-scripts-tech-reference) for definitions and prerequisites. 
 
@@ -59,7 +59,7 @@ Beginning with Surface Pro 8, Surface Laptop Studio, and Surface Go 3, granular 
 
 ## Dynamic USB-C Disablement
 
-Dynamic USB-C Disablement enables customers operating in highly secure work environments to prevent USB theft of confidential data and provide more control to organizations. When paired with the Surface Thunderbolt 4 Dock, IT admins can lock down USB-C ports whenever eligible Surface devices are undocked or connected to an unauthorized dock.
+Dynamic USB-C Disablement enables customers operating in highly secure environments to prevent unauthorized data transfer via USB, thereby offering organizations more control. When paired with the Surface Thunderbolt 4 Dock, IT admins can lock down USB-C ports whenever eligible Surface devices are undocked or connected to an unauthorized dock.
 
 > [!TIP]
 > This feature is available on Surface Pro 10, Surface Laptop 6, and Surface Laptop Studio 2.
