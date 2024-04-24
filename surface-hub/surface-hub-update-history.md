@@ -25,7 +25,7 @@ Most Windows updates focus on performance and security improvements. In the foll
 
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/5018682/windows-10-update-history), include:
 
-* Improves sovereign cloud support by adding tenant region awareness to the configuration options for the built-in Azure Log Analytics agent.
+* Improves sovereign cloud support by adding tenant region awareness to the [configuration options](/windows/client-management/mdm/surfacehub-csp#momagentgovtcloud) for the built-in Azure Log Analytics agent.
 
 Refer to the [Surface Hub Admin guide](/surface-hub/) for enabling/disabling device features and services. *[KB5036979](https://support.microsoft.com/help/5036979)
 
