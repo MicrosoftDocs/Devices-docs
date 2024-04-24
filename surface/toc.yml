@@ -108,7 +108,7 @@
             - name: Surface Asset Tag
               href: assettag.md
             - name: UEFI Assemblies
-              href: surface-uefi-manager.md
+              href: use-system-center-configuration-manager-to-manage-devices-with-semm.md
             - name: Diagnostics App console
               href: surface-diagnostic-toolkit-command-line.md
             - name: Surface Brightness Control
