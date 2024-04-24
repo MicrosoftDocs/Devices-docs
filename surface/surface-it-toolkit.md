@@ -20,8 +20,6 @@ The Surface IT Toolkit is a modern desktop application that compiles essential c
 
 The Surface IT Toolkit ensures you're using the latest version thanks to [MSIX](/windows/msix/overview) the Windows app package format that automatically checks for updates and downloads them for you.
 
-:::image type="content" source="images/it-toolkit-home.png" alt-text="Screenshot that shows IT Toolkit home page.":::
-
 ## Get started with Surface IT Toolkit
 
 1. Download the Surface IT Toolkit and install it on the PC you use to manage devices in your organization.
