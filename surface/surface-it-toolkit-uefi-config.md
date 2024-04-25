@@ -36,7 +36,7 @@ We strongly recommend setting a password when creating UEFI configuration packag
 
 In the **Configure Device** tool, you can create UEFI settings configuration and reset packages for Surface devices in your organization (For more information about Surface UEFI settings, see [Manage Surface UEFI settings](manage-surface-uefi-settings.md).)
 
-To create a Surface UEFI configuration package:
+### Create a Surface UEFI configuration package
 
 1. Open **Surface IT Toolkit**, select **UEFI Configurator** > **Configure Surface Device**.
 2. Under **Import Certificate Protection**, select  **Add** to add your exported certificate file with private key (.pfx). Select **Next**.
