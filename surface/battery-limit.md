@@ -92,5 +92,5 @@ The following devices require a firmware update to support this feature:
 
 ## Learn more
 
-- [Enroll and configure Surface devices with SEMM](enroll-and-configure-surface-devices-with-semm.md)
+- [Configure UEFI settings for Surface devices](surface-it-toolkit-uefi-config.md)
 - [Best practice power settings for Surface devices](maintain-optimal-power-settings-on-Surface-devices.md)
