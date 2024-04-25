@@ -75,6 +75,55 @@
       items: 
       - name: Surface supported operating systems
         href: https://support.microsoft.com/surface/surface-supported-operating-systems-9559cc3c-7a38-31b6-d9fb-571435e84cd1
+      - name: Surface tools
+        expanded: true
+        items:   
+        - name: Surface IT Toolkit
+          href: surface-it-toolkit.md
+          expanded: true
+          items:
+          - name: Recovery Tool
+            href: surface-it-toolkit-usb-recover.md  
+          - name: Data Eraser
+            href: surface-it-toolkit-data-eraser.md  
+          - name: UEFI Configurator
+            expanded: true
+            items:
+            - name: Get started with SEMM
+              href: surface-enterprise-management-mode.md
+            - name:  Surface UEFI settings reference
+              href: surface-it-toolkit-semm-uefi-settings.md
+            - name: Configure UEFI settings for Surface devices
+              href: surface-it-toolkit-uefi-config.md
+            - name: Configure Surface Docks
+              href: secure-surface-dock-ports-semm.md
+            - name: Configure Surface devices with PowerShell 
+              href: surface-it-toolkit-powershell-surface.md
+            - name: Unenroll devices from SEMM  
+              href: unenroll-surface-devices-from-semm.md    
+          - name: Tool Library
+            href: surface-it-toolkit-library.md
+            expanded: true
+            items:
+            - name: Surface Asset Tag
+              href: assettag.md
+            - name: UEFI Assemblies
+              href: use-system-center-configuration-manager-to-manage-devices-with-semm.md
+            - name: Diagnostics App console
+              href: surface-diagnostic-toolkit-command-line.md
+            - name: Surface Brightness Control
+              href: microsoft-surface-brightness-control.md 
+        - name: Surface Diagnostic Toolkit for Business
+          href: surface-diagnostic-toolkit-business.md
+          items:
+          - name: Use Surface Diagnostic Toolkit for Business in desktop mode
+            href: surface-diagnostic-toolkit-desktop-mode.md
+        - name: Archived tools
+          items: 
+          - name: Surface Data Eraser (legacy)
+            href: microsoft-surface-data-eraser.md
+        - name: Surface Dock 1 Firmware Update
+          href: surface-dock-firmware-update.md 
       - name: Self-serve portals
         items:
         - name: Surface IT portals
@@ -105,37 +154,6 @@
           href: customize-the-oobe-for-surface-deployments.md          
         - name: Deploy Surface app with Microsoft Store for Business
           href: deploy-surface-app-with-windows-store-for-business.md
-      - name: Surface tools
-        expanded: true
-        items:   
-        - name: Surface Enterprise Management Mode (SEMM)
-          href: surface-enterprise-management-mode.md
-          items:
-          - name: Manage USB ports on Surface devices
-            href: manage-usb-ports-on-surface.md  
-          - name: Enroll & configure Surface devices with SEMM
-            href: enroll-and-configure-surface-devices-with-semm.md
-          - name: Unenroll Surface devices from SEMM
-            href: unenroll-surface-devices-from-semm.md
-          - name: Use Microsoft Configuration Manager to manage devices with SEMM
-            href: use-system-center-configuration-manager-to-manage-devices-with-semm.md
-        - name: Surface Diagnostic Toolkit for Business
-          href: surface-diagnostic-toolkit-business.md
-          items: 
-          - name: Use Surface Diagnostic Toolkit for Business in desktop mode
-            href: surface-diagnostic-toolkit-desktop-mode.md
-          - name: Run command-line app console with Surface Diagnostic Toolkit for Business
-            href: surface-diagnostic-toolkit-command-line.md
-        - name: Surface Data Eraser
-          href: microsoft-surface-data-eraser.md
-        - name: Surface Battery Limit setting
-          href: battery-limit.md
-        - name: Surface Brightness Control
-          href: microsoft-surface-brightness-control.md
-        - name: Surface Asset Tag
-          href: assettag.md
-        - name: Surface Dock 1 Firmware Update
-          href: surface-dock-firmware-update.md 
       - name : Manage updates
         items:
         - name: Manage & deploy Surface driver & firmware updates
@@ -160,8 +178,6 @@
            href: manage-usb-ports-on-surface.md    
          - name: Manage Surface Docks with WMI
            href: surface-dock2-wmi.md  
-         - name: Secure Surface Dock ports with SEMM
-           href: secure-surface-dock-ports-semm.md
          - name: Wake-on-LAN with Surface Thunderbolt 4 Dock
            href: wake-on-lan-surface-thunderbolt4-dock.md
          - name: Wake-on-LAN with Surface Dock 2
