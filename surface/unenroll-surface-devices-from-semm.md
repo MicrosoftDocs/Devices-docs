@@ -88,12 +88,8 @@ To create a Surface UEFI reset request:
 
     :::image type="content" source="images/ueficonfig-recovery-request.png" alt-text="Screenshot that shows completion of Recovery Request.":::
 
-- If you displayed the Recovery Request (Reset Request) as text on the Surface device being reset, use the keyboard to type the Recovery Request (Reset Request)  in the provided field.
-- If you displayed the Recovery Request (Reset Request) as a QR Code and then used a messaging or email application to send the code to the computer with UEFI Configurator, copy and paste the code into the provided field.
-- If you saved the Recovery Request (Reset Request) as a file to a USB drive, select the **Import** button, browse to and select the Recovery Request (Reset Request) file, and then select **OK**.
-
-8. Direct the user to enter the reset verification code in the provided field on the Surface device and then Select **Verify** to reset the device and unenroll the device from SEMM.
-9. Select **Restart now** on the **SEMM reset successful** page to complete the unenrollment from SEMM, as shown in the following figure.
+9. Direct the user to enter the reset verification code in the provided field on the Surface device and then Select **Verify** to reset the device and unenroll the device from SEMM.
+10. Select **Restart now** on the **SEMM reset successful** page to complete the unenrollment from SEMM, as shown in the following figure.
 
     ![Example display of successful unenrollment from SEMM.](images/surface-semm-unenroll-fig14.png "Example display of successful unenrollment from SEMM")
 
