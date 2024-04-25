@@ -50,18 +50,18 @@ Surface Book 3, Surface Go 2, Surface Go 3, Surface Go 4, Surface Laptop 3, Surf
 
 ## What's in the Surface IT Toolkit?
 
-The Surface IT Toolkit provides a user-friendly interface designed to assist IT admins in managing and configuring Surface devices within their organization. Quickly access toolkit functions:
+The Surface IT Toolkit provides a user-friendly interface designed to assist IT admins in managing and configuring Surface devices within their organization. Quickly access toolkit functions including:
 
 - Data Eraser
 - UEFI Configurator
 - Recovery Tool  
 - Tool Library
 
-### Managed Devices 
+### Managed devices 
 
 The Managed Devices area displays your selected device models that can be managed with the toolkit, allowing quick and efficient administration of your organization’s deployed devices.
 
-### Quick Tasks
+### Quick tasks
 
 - **Build USB for Data Eraser:** Create a USB to securely erase data from Surface SSDs.
 - **Create Certificate:** Generate a certificate of sanitization for a previously erased Surface SSD.

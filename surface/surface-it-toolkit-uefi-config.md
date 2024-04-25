@@ -32,11 +32,9 @@ We strongly recommend setting a password when creating UEFI configuration packag
 
 :::image type="content" source="images/ueficonfig-set-password.png" alt-text="Screenshot showing the addition of a password to protect UEFI settings from unauthorized persons."::: 
 
-## UEFI Front Page
+## Configure device
 
-In the **UEFI Front Page** section, you can toggle the following categories **Security**, **Devices**, **Boot**, **Date/Time** to control which pages are available to end users who boot into Surface UEFI. (For more information about Surface UEFI settings, see [Manage Surface UEFI settings](https://technet.microsoft.com/itpro/surface/manage-surface-uefi-settings).) 
-
-:::image type="content" source="images/ueficonfig-front-page.png" alt-text="Screenshot showing UEFI Front Page components."::: 
+In the **Configure Device** tool, you can create UEFI settings configuration and reset packages for Surface devices in your organization (For more information about Surface UEFI settings, see [Manage Surface UEFI settings](manage-surface-uefi-settings.md).) 
 
 To create a Surface UEFI configuration package:
 
@@ -45,9 +43,9 @@ To create a Surface UEFI configuration package:
 :::image type="content" source="images/ueficonfig-start.png" alt-text="Screenshot of UEFI Configuration.":::
 3. Select the devices to be configured. Choose from your Managed Devices or go to All Devices to select your device and model. Select **Next**.
 :::image type="content" source="images/ueficonfig-select-devices.png" alt-text="Screenshot of device selection for UEFI Configuration.":::
-4. In the Device Configuration Settings page, select the components you wish to configure. When finished, select **Next**.
+4. In the Device Configuration Settings page, select the components you wish to configure and choose a UEFI password setting. When finished, select **Next**.
 :::image type="content" source="images/ueficonfig-device-config-settings.png" alt-text="Screenshot of Device Configuration Settings page.":::
-5. When complete, select **Finish**
+5. The Final Review page shows selected configuration details. Review your changes, select **Choose Folder** to save the UEFI configuration package, and select **Create**. 
 :::image type="content" source="images/ueficonfig-complete-package.png"alt-text="Screenshot of completed configuration for the Device package.":::
 
 > [!TIP]
