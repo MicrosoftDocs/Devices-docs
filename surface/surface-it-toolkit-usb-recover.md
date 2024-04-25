@@ -1,5 +1,5 @@
 ---
-title: Create USB recovery image for Surface devices
+title: Recovery tool (IT Toolkit)
 description: This article describes how to create a USB Recovery image via the Surface IT toolkit.
 ms.service: surface
 ms.localizationpriority: medium
