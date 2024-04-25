@@ -60,21 +60,22 @@ This article explains how to create a secure data wipe USB key with the Surface 
 
 ## Generate Data Sanitization Certificate
 
-1. On the Data Eraser tool interface, select **Generate Certificate**. This creates a certificate of sanitization using the log files written to the Data Eraser USB.
+1. On the Data Eraser tool interface, select **Generate Certificate**. This creates a certificate of sanitization using the log files written to the Data Eraser USB after each successful data wipe.
 
    :::image type="content" source="images/it-toolkit-certificate-sanitization.png" alt-text="Screenshot of Generate Certificate.":::
 
-2. On the Sanitization Certificate page, enter the requested details.
-3.
+2. On the Import Log File(s) page, upload the log files previously saved to the USB key. Unverified Log files or from a data wipe with Validation set to ‘None’ cannot be used to create certificates.
+3. On the Sanitization Certificate page, enter the requested details.
+
    :::image type="content" source="images/it-toolkit-certificate-details.png" alt-text="Screenshot of Certificate details.":::
 
-4. Under **Additional Details**, input the Media Source. Use the Asset tag if available. Or you can use the Serial number or System UUID, as listed in the Surface UEFI menu on the wiped device. Optionally, you can add custom fields by clicking **+ Add custom field** if more information is necessary.
+4. Under **Additional Details**, input the Media Source. Use the Asset tag if available. Or you can use the Serial Number or System UUID, as listed in the Surface UEFI menu on the wiped device. Optionally, you can add custom fields by clicking **+ Add custom field** if more information is necessary.
 5. When all the relevant details are entered, select **Next** to proceed to the certificate creation process.
 6. Review the certificate details and select **Generate**.
 
    :::image type="content" source="images/it-toolkit-generate-certificate.png" alt-text="Screenshot of  Certificate.":::
 
-7. When complete, select **Show files** to access the Sanitization Certificate. Select **Finish**.
+7. When complete, select **Show Files** to access the Sanitization Certificate. Select **Finish**.
 
     :::image type="content" source="images/it-toolkit-certificate-complete.png" alt-text="Screenshot that shows Certificate Generation is complete.":::
 

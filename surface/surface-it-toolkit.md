@@ -28,15 +28,15 @@ The Surface IT Toolkit ensures you're using the latest version thanks to [MSIX](
 
     :::image type="content" source="images/it-toolkit-configure-app.png" alt-text="Screenshot of Start App Configuration page.":::
 
-2. Scroll to review and accept the License Agreement.
+3. Scroll to review and accept the License Agreement.
 
     :::image type="content" source="images/it-toolkite-eula.png" alt-text="Screenshot of License Agreement for Surface IT Toolkit.":::
 
-3. Select the devices you intend to manage with the toolkit. Use the provided list or drop-down menus to select the appropriate Surface devices such as Surface Laptop 6 for Business, Surface Pro 10, or others. Select **Next**.
+4. Select the devices you intend to manage with the toolkit. Use the provided device family and model selection to choose the appropriate Surface devices such as Surface Laptop 6 for Business, Surface Pro 10, or others. Select **Next**.
 
     :::image type="content" source="images/it-toolkit-managed-devices.png" alt-text="Screenshot that shows list of managed devices.":::
 
-4. Help improve the app by agreeing to send anonymous usage data. All information is collected anonymously for the purpose of software development and isn't shared or accessible by any third party. If you wish to opt out, uncheck the checkbox **Share anonymous diagnostic data with Microsoft to help improve the app**.
+5. Help improve the app by agreeing to send anonymous usage data. All information is collected anonymously for the purpose of software development and isn't shared or accessible by any third party. If you wish to opt out, uncheck the checkbox **Send required and optional diagnostic data**.
 
     :::image type="content" source="images/it-toolkit-diagnostics.png" alt-text="Screenshot of anonymous data sharing info.":::
 
