@@ -23,7 +23,7 @@ kiosk scenarios, you can optimize power management using the Surface Brightness 
 - Brightness level when dimmed.
 - Maximum brightness level when in use.
 
-Download Surface Brightness Control from [Surface Tools for IT](https://www.microsoft.com/download/details.aspx?id=46703). Select the file **Surface_Brightness_Control_v1.20.139.0.msi** in the available list.
+Download Surface Brightness Control from the [Surface IT Toolkit](surface-it-toolkit-library.md) 
 
 ## Supported devices
 
@@ -64,29 +64,11 @@ FullBrightness   | Default: 100  <br>Options Range of 0-100 percent of screen br
 | InactivityTimeout| Default: 30 seconds <br>Options Any numeric value  <br>Data Type: Integer  <br> Type: REG_DWORD | This setting allows you to manage the period of inactivity before dimming the device. If you don't configure this setting, the inactivity timeout is 30 seconds.|
 | TelemetryEnabled | Default: 01 <br>Options 01, 00 <br> Type: REG_BINARY  | This setting allows you to manage the sharing of app usage information to improve software and provide a better user experience. To disable, set the value to 00. If you don't configure this setting, telemetry information is shared with Microsoft per the [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement). |
 
-## Changes and updates
+### Version history
 
-### Version 1.20.139.0
+- v1.20.139.0, released October 4, 2023. Included in [Surface IT Toolkit Library](surface-it-toolkit-library.md), April 25, 2024. 
 
-*Release Date: 3 May 2023*<br>
-This version of Surface Brightness Control adds support for the following:
-
-- New Registry setting: AlwaysAllowBrightenEnabled
-
-### Version 1.16.137<br>
-
-*Release Date: 22 October 2019*<br>
-This version of Surface Brightness Control adds support for the following:
-
--Recompiled for x86, adding support for Surface Pro 7, Surface Pro X,  Surface Laptop 3. It includes support for products released after 2019.
-
-### Version 1.12.239.0
-
-*Release Date: 26 April 2019*<br>
-This version of Surface Brightness Control adds support for the following:
-
-- Touch delay fixes.
-
-## Related topics
+## Learn more
 
 - [Battery limit setting](battery-limit.md)
+- [Surface IT Toolkit Library](surface-it-toolkit-library.md)
