@@ -70,22 +70,9 @@ SEMM is only available on devices with Surface UEFI firmware including:
 >[!TIP]
 > Commercial SKUs (aka Surface for Business) run Windows 10 Pro/Enterprise or Windows 11 Pro/Enterprise; consumer SKUs run Windows 10/Windows 11 Home. To learn more, see [View your system info](https://support.microsoft.com/windows/view-your-system-info-a965a8f2-0773-1d65-472a-1e747c9ebe00).
 
-<!--[!NOTE]
-> SEMM is supported on Surface Pro X via the UEFI Manager only. For more information, see [Deploying, managing, and servicing Surface Pro X](surface-pro-arm-app-management.md).-->
-
 ## Surface UEFI Configurator
 
 The primary workspace of SEMM is the [Surface IT Toolkit](surface-it-toolkit.md), which contains the new [Surface UEFI Configurator](surface-it-toolkit-uefi-config.md). 
-
-
-<!--
->[!TIP]
->You can now use Surface UEFI Configurator and SEMM to manage ports on Surface Dock 2 or Surface Thunderbolt 4 Dock. To learn more, see [Secure Surface Dock ports with SEMM](secure-surface-dock-ports-semm.md).
-
-You can use the Microsoft Surface UEFI Configurator tool in two modes:
-
-- [Surface UEFI Configuration Package](#configuration-package). Use this mode to create a Surface UEFI configuration package to enroll a Surface device in SEMM and to configure UEFI settings on enrolled devices.
-- [Surface UEFI Recovery Request](#recovery-request). Use this mode to unenroll a Surface device from SEMM.-->
 
 ### Configuration package
 
@@ -122,8 +109,6 @@ To enroll a Surface device in SEMM or apply the UEFI configuration from a config
 ### Recovery request
 
  You can unenroll Surface devices from SEMM via the [Recovery Request](unenroll-surface-devices-from-semm.md) feature in the Surface IT Toolkit.
-
-<!--When you use the process on the **Enterprise Management** page to reset SEMM on a Surface device, you’re given a Reset Request. This Reset Request can be saved as a file to a USB drive, copied as text, or read as a QR Code with a mobile device to be easily emailed or messaged. Use the Microsoft Surface UEFI Configurator Reset Request option to load a Reset Request file or to enter the Reset Request text or QR Code. Microsoft Surface UEFI Configurator generates a verification code that can be entered on the Surface device. If you enter the code on the Surface device and select **Restart**, the device is unenrolled from SEMM.-->
 
 ## SEMM certificate requirements
 
