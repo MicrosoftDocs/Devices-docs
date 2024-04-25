@@ -82,7 +82,7 @@
           href: surface-it-toolkit.md
           expanded: true
           items:
-          - name: USB Recovery image
+          - name: Recovery Tool
             href: surface-it-toolkit-usb-recover.md  
           - name: Data Eraser
             href: surface-it-toolkit-data-eraser.md  
