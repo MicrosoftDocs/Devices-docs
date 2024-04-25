@@ -1,6 +1,6 @@
 ---
 title: Recovery tool (IT Toolkit)
-description: This article describes how to create a USB Recovery image via the Surface IT toolkit.
+description: This article describes how to use the Recovery Tool to restore a Surface device to its factory state. 
 ms.service: surface
 ms.localizationpriority: medium
 author: coveminer
@@ -16,9 +16,9 @@ appliesto:
 
 # Recovery tool (IT Toolkit)
 
-This article describes how to create a USB Recovery image via the Surface IT Toolkit.
+This article describes how to use the Recovery Tool to restore a Surface device to its factory state. 
 
-1. Open Surface IT Toolkit and go to the **Recovery Tool** section  to begin the process of creating a USB key to recover a Surface device to its factory state.
+1. Open [Surface IT Toolkit](surface-it-toolkit.md) and go to the **Recovery Tool** section  to begin the process of creating a USB key.
 
 2. Select **Create** to download and create a USB key with the latest recovery image for a Surface device. Alternatively, if you have a previously downloaded recovery image, select **Manage Existing**.
 
@@ -42,3 +42,7 @@ This article describes how to create a USB Recovery image via the Surface IT Too
 9. Once the USB creation process reaches 100%, a confirmation message indicates that the recovery USB is ready to use.
 
 Throughout the process, ensure you have a stable internet connection for the download and that no data you wish to keep is on the USB drive when formatted during the process. After the USB key is created, you can use it to restore the chosen Surface device back to its original state.
+
+## Version history
+
+- v1.143.141. Initial release.
