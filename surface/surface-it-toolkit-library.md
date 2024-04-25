@@ -26,4 +26,3 @@ The library includes the following tools:
 | [UEFI Assemblies](use-system-center-configuration-manager-to-manage-devices-with-semm.md)<br>*also known as UEFI Manager*              | 2.140.141.0 | Provides assemblies for managing UEFI settings via PowerShell. Suitable for Surface Pro 4 and newer.                  | April 18, 2024    |
 | [Diagnostics App Console](surface-diagnostic-toolkit-command-line.md)       | 2.218.139.0 | Allows for remote diagnostics and log capturing. Compatible with Surface 3 and newer models.                          | October 24, 2023 |
 | [Surface Brightness Control Tool](microsoft-surface-brightness-control.md) | 1.20.139.0 | Optimizes power management by controlling device brightness. For point-of-sale systems and kiosks. Supports Surface 3 and later. | October 24, 2023 |
-
