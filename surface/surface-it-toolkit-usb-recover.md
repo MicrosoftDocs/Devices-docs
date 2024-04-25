@@ -14,13 +14,13 @@ appliesto:
 - Windows 10
 ---
 
-# Create USB recovery image for Surface devices
+# Recovery tool (IT Toolkit)
 
 This article describes how to create a USB Recovery image via the Surface IT Toolkit.
 
 1. Open Surface IT Toolkit and go to the **Recovery Tool** section  to begin the process of creating a USB key to recover a Surface device to its factory state.
 
-2. Select **Create** to download and create a USB key with the latest recovery image. Alternatively, if you have a previously downloaded recovery image, select **Manage Existing**.
+2. Select **Create** to download and create a USB key with the latest recovery image for a Surface device. Alternatively, if you have a previously downloaded recovery image, select **Manage Existing**.
 
     :::image type="content" source="images/it-toolkit-recover-start.png" alt-text="Screenshot of Recovery Tool page.":::
 
@@ -28,7 +28,7 @@ This article describes how to create a USB Recovery image via the Surface IT Too
 
     :::image type="content" source="images/it-toolkit-recovery-select.png" alt-text="Screenshot of Select Device page.":::
 
-4. If creating a new recovery key, select the language and version of Windows for the recovery image. Options for Windows 10 and Windows 11, along with different feature updates like 21H2 and 22H2, are available. Select **Next**.
+4. If creating a new recovery USB, select the base language and version of Windows for the recovery image. Options for Windows 10 and Windows 11, along with different feature updates like 21H2 and 22H2, are available. Select **Next**.
 
     :::image type="content" source="images/it-toolkit-recovery-create-new.png" alt-text="Screenshot of page to select language, operating system, and Windows version.":::
 
@@ -36,10 +36,9 @@ This article describes how to create a USB Recovery image via the Surface IT Too
 
     :::image type="content" source="images/it-toolkit-recover-lang.png" alt-text="Screenshot of Language Pack options.":::
 
-6.  Confirm your selections including the device model, Windows build, Office build (if applicable), and language pack. Make sure the USB drive you intend to use is correctly identified and ready to be formatted.
+6. Confirm your selections including the device model, Windows build, Office build (if applicable), and language pack. 
+7. Under **USB Key Selection**, choose the USB to use for the recovery image. Make sure the USB drive you intend to use is correctly identified and ready to be formatted.
+8. Select **Create** to start the process. A progress bar indicates that the recovery USB is ready to use.
+9. Once the USB creation process reaches 100%, a confirmation message indicates that the recovery USB is ready to use.
 
-7. Under **USB Key Creation**, select **Create** to start the process. A progress bar indicates the status of the recovery USB creation.
-
-8.Once the USB creation process reaches 100%, a confirmation message indicates that the recovery USB is ready to use.
-
-Throughout the process, ensure you have a stable internet connection for the download and that no data you wish to keep is on the USB drive when formatted during the process. After the USB drive is created, you can use it to restore the chosen Surface device back to its original state.
+Throughout the process, ensure you have a stable internet connection for the download and that no data you wish to keep is on the USB drive when formatted during the process. After the USB key is created, you can use it to restore the chosen Surface device back to its original state.
