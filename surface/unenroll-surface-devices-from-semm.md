@@ -26,7 +26,9 @@ For more information about SEMM, see [Microsoft Surface Enterprise Management Mo
 
 The Surface UEFI reset package is the primary method you use to unenroll a Surface device from SEMM. Like a Surface UEFI configuration package, the reset package is a Windows Installer (.msi) file that configures SEMM on the device. Unlike the configuration package, the reset package resets the Surface UEFI configuration on a Surface device to its default settings, remove the SEMM certificate, and unenroll the device from SEMM.
 
- The Surface IT Toolkit generates a universal reset package that applies to all supported devices except Surface Go 2. To begin the process of creating a reset package, you need the serial number of the device you want to unenroll, and the SEMM certificate used to enroll the device. You can find the serial number of your Surface device on the **PC information** page of Surface UEFI, as shown in the following figure. This page is displayed even if Surface UEFI is password protected and the incorrect password is entered.
+The Surface IT Toolkit generates a universal reset package that applies to all supported devices except Surface Go 2. 
+
+For Surface Go 2: To begin the process of creating a reset package, you need the serial number of the device you want to unenroll, and the SEMM certificate used to enroll the device. You can find the serial number of your Surface device on the **PC information** page of Surface UEFI, as shown in the following figure. This page is displayed even if Surface UEFI is password protected and the incorrect password is entered.
 
 ![Serial number of Surface device is displayed.](images/surface-semm-unenroll-fig1.png "Serial number of Surface device is displayed")
 
