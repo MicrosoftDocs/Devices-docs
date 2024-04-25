@@ -16,7 +16,7 @@ appliesto:
 
 # Configure UEFI settings for Surface devices
 
-This article describes how to secure and manage Unified Extensible Firmware Interface (UEFI) settings for Surface devices deployed across your organization using  Surface UEFI Configurator and Surface Enterprise Management Mode (SEMM). The Surface UEFI Configurator, no longer available as a separate download, is now included in the new Surface IT Toolkit. 
+This article describes how to secure and manage Unified Extensible Firmware Interface (UEFI) settings for Surface devices deployed across your organization using  Surface UEFI Configurator and Surface Enterprise Management Mode (SEMM). The Surface UEFI Configurator, no longer available as a separate download, is now included in the new Surface IT Toolkit.
 
 ## UEFI settings for SEMM-managed Surface devices
 
@@ -30,36 +30,37 @@ The Surface UEFI configuration package serves the dual purpose of applying newly
 
 We strongly recommend setting a password when creating UEFI configuration packages. Firmware controls the initial operations of the hardware before the operating system loads. If unauthorized users access UEFI settings, they could potentially disable security features or make changes detrimental to the security and functionality of the device.
 
-:::image type="content" source="images/ueficonfig-set-password.png" alt-text="Screenshot showing the addition of a password to protect UEFI settings from unauthorized persons."::: 
+:::image type="content" source="images/ueficonfig-set-password.png" alt-text="Screenshot showing the addition of a password to protect UEFI settings from unauthorized persons.":::
 
 ## Configure device
 
-In the **Configure Device** tool, you can create UEFI settings configuration and reset packages for Surface devices in your organization (For more information about Surface UEFI settings, see [Manage Surface UEFI settings](manage-surface-uefi-settings.md).) 
+In the **Configure Device** tool, you can create UEFI settings configuration and reset packages for Surface devices in your organization (For more information about Surface UEFI settings, see [Manage Surface UEFI settings](manage-surface-uefi-settings.md).)
 
 To create a Surface UEFI configuration package:
 
 1. Open **Surface IT Toolkit**, select **UEFI Configurator** > **Configure Surface Device**.
 2. Under **Import Certificate Protection**, select  **Add** to add your exported certificate file with private key (.pfx). Select **Next**.
-:::image type="content" source="images/ueficonfig-start.png" alt-text="Screenshot of UEFI Configuration.":::
+    :::image type="content" source="images/ueficonfig-start.png" alt-text="Screenshot of UEFI Configuration.":::
 3. Select the devices to be configured. Choose from your Managed Devices or go to All Devices to select your device and model. Select **Next**.
-:::image type="content" source="images/ueficonfig-select-devices.png" alt-text="Screenshot of device selection for UEFI Configuration.":::
+    :::image type="content" source="images/ueficonfig-select-devices.png" alt-text="Screenshot of device selection for UEFI Configuration.":::
 4. In the Device Configuration Settings page, select the components you wish to configure and choose a UEFI password setting. When finished, select **Next**.
-:::image type="content" source="images/ueficonfig-device-config-settings.png" alt-text="Screenshot of Device Configuration Settings page.":::
-5. The Final Review page shows selected configuration details. Review your changes, select **Choose Folder** to save the UEFI configuration package, and select **Create**. 
-:::image type="content" source="images/ueficonfig-complete-package.png"alt-text="Screenshot of completed configuration for the Device package.":::
+    :::image type="content" source="images/ueficonfig-device-config-settings.png" alt-text="Screenshot of Device Configuration Settings page.":::
+5. The Final Review page shows selected configuration details. Review your changes, select **Choose Folder** to save the UEFI configuration package, and select **Create**.
+    :::image type="content" source="images/ueficonfig-complete-package.png"alt-text="Screenshot of completed configuration for the Device package.":::
 
 > [!TIP]
 > Record the certificate thumbprint characters displayed on this page, as shown in Figure 6. You will need these characters to confirm enrollment of new Surface devices in SEMM. Click **End** to complete package creation and close Microsoft Surface UEFI Configurator.
 
-6. Review your changes, select **Choose Folder** to save the UEFI configuration package, and select **Create**.
-:::image type="content" source="images/ueficonfig-create-package.png"alt-text="Screenshot of Device Package creation page.":::
+6. When complete, select **Finish**.
+
+    :::image type="content" source="images/ueficonfig-package-contents.png"alt-text="Screenshot of UEFI configuration package files.":::
 
 7. When finished, go to your selected folder to retrieve the package. This example package modifies a single UEFI setting, resulting in two files:
 
     - A SEMM enrollment package you can deploy to one or more devices.
     - A Reset package used to unenroll a SEMM-managed device.
 
-:::image type="content" source="images/ueficonfig-package-contents.png"alt-text="Screenshot of UEFI configuration package files.":::
+    :::image type="content" source="images/ueficonfig-create-package.png"alt-text="Screenshot of Device Package creation page.":::
 
 ## Enroll a Surface device in SEMM
 
@@ -67,7 +68,7 @@ When the Surface UEFI configuration package is executed, the SEMM certificate an
 
 Before you enroll a Surface device in SEMM, ensure that you have the last two characters of the certificate thumbprint on hand. You need these characters to confirm the device’s enrollment.
 
-To enroll a Surface device in SEMM with a Surface UEFI configuration package: 
+To enroll a Surface device in SEMM with a Surface UEFI configuration package:
 
 1. Run the Surface UEFI configuration package .msi file on the Surface device you want to enroll in SEMM. This provisions the Surface UEFI configuration file in the device’s firmware.
 2. Select the **I accept the terms in the License Agreement** check box to accept the End User License Agreement (EULA), and select **Install** to begin the installation process.
