@@ -1,5 +1,5 @@
 ---
-title: Recovery tool (IT Toolkit)
+title: Recovery Tool (IT Toolkit)
 description: This article describes how to use the Recovery Tool to restore a Surface device to its factory state. 
 ms.service: surface
 ms.localizationpriority: medium

@@ -71,3 +71,9 @@ The Managed Devices area displays your selected device models that can be manage
 ### Tool Library in the Surface IT Toolkit
 
 The Tool Library in the Surface IT Toolkit is a centralized repository that provides IT admins with a suite of tools essential for the configuration and support of Surface devices. This library ensures that the most up-to-date versions of each tool are readily available for deployment. Each tool comes with a "Save Copy" option, allowing IT admins to download and save a copy of the installer for the respective tool. To learn more, see [Surface IT Toolkit Tool Library](surface-it-toolkit-library.md).
+
+## Release notes
+
+### Version 1.143.141
+
+- Initial release.
