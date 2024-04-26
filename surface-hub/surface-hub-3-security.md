@@ -50,7 +50,7 @@ Set a UEFI password via the downloadable [Surface UEFI Configurator](https://www
 You need a dedicated USB drive with at least 50 MB of storage space.  
 
 1. Download and install the [Surface IT Toolkit](https://www.microsoft.com/download/confirmation.aspx?id=46703).
-2. Open the IT Toolkit, select [UEFI Configurator](/surface/surface-it-toolkit-uefi-config.md) > **Configure devices**.
+2. Open the IT Toolkit, select [UEFI Configurator](/surface/surface-it-toolkit-uefi-config) > **Configure devices**.
 3. Under **Choose Deployment Build**, select **DFI**.
 4. Add your organizational **Personal Information Exchange (PFE) certificate**.
 
