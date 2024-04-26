@@ -49,39 +49,29 @@ Set a UEFI password via the downloadable [Surface UEFI Configurator](https://www
 
 You need a dedicated USB drive with at least 50 MB of storage space.  
 
-1. Download Surface UEFI Configurator from [Surface Tools for IT](https://www.microsoft.com/download/details.aspx?id=46703).
-
-2. Install UEFI Configurator and select **Start**.
-
-    ![Screenshot showing UEFI Configurator Start](images/uefi-hub-start.png)
-
-3. Select **Configuration Package** > **DFI**.
-
-    ![Screenshot showing screen to select DFI File](images/uefi-hub-dfi.png)
-
-4. Add your organizational Personal Information Exchange (PFE) certificate.
+1. Download and install the [Surface IT Toolkit](https://www.microsoft.com/download/confirmation.aspx?id=46703).
+2. Open the IT Toolkit, select [UEFI Configurator](surface-it-toolkit-uefi-config.md) > **Configure devices**.
+3. Under **Choose Deployment Build**, select **DFI**.
+4. Add your organizational **Personal Information Exchange (PFE) certificate**.
 
 > [!NOTE]
-> This article assumes that you either obtain certificates from a third-party provider or already have expertise in PKI certificate services and know how to create your own. See [Certificate Services Architecture](/windows/win32/seccrypto/certificate-services-architecture) documentation to learn more.
+> This article assumes that you either obtain certificates from a third-party provider or already have expertise in PKI certificate services and know how to create your own. To learn more, see [SEMM certificate requirements](/surface/surface-enterprise-management-mode#semm-certificate-requirements) and [Certificate Services Architecture](/windows/win32/seccrypto/certificate-services-architecture) documentation to learn more. 
 
-5. Now you're ready to set a UEFI password. Select **Password Protection**. Enter and confirm your password. Select **Next.**
+5. For **DFI Package Type**, select **Configuration Package**
+6. For **Device**, select **Surface Hub** > **Surface Hub 3** and select **Next**. 
 
-    ![Screenshot showing screen to set UEFI password](images/uefi-set-pw.png)
+    ![Screenshot showing screen to set UEFI password](images/uefi-hub-dfi.png)
 
-6. Select **Surface Hub 3** as the Surface type you want to target.
+7. Under **UEFI Password** select **Set or Modify Password** and then enter and confirm your password. Select **Next.**
+8. Optionally, you can configure components and advanced settings, as described in the section [Manage UEFI settings with SEMM](#manage-uefi-settings-with-semm), on this page. Otherwise,  select **Next**.
+9. Select your USB drive and choose **Create**.
 
-    ![Screenshot showing screen to select Surface Hub 3](images/uefi-hub-choose.png)
+    ![Screenshot showing screen to build UEFI DFI Package](images/uefi-config-uefi-pw.png)
 
-7. Optionally, you can configure components and advanced settings. Otherwise, continue to select **Next**.
-8. Select your USB drive and choose **Build**.
+10. Upon successful creation of the package, the Configurator displays the last two characters of your certificate's thumbprint. You need these characters when you import the configuration to Surface Hub 3.
 
-    ![Screenshot showing screen to build UEFI DFI Package](images/uefi-hub-build.png)
 
-9. Upon successful creation of the package, the Configurator displays the last two characters of your certificate's thumbprint. You need these characters when you import the configuration to Surface Hub 3.
-
-    ![Screenshot showing UEFI Configurator completion](images/uefi-hub-end.png)
-
-SEMM also includes various UEFI settings that you can configure, as described in the section [Manage UEFI settings with SEMM](#manage-uefi-settings-with-semm), on this page.
+SEMM also includes various UEFI settings that you can configure, 
 
 ## Physically secure Surface Hub 3
 
@@ -162,9 +152,9 @@ To learn more about configuring Group Policy in domain-joined scenarios, see the
 
 SEMM enables IT admins to lock down features at the firmware level that you might wish to implement depending on the security posture of your environment. Open Surface UEFI Configurator, as explained earlier, and go to the following screens:
 
-   ![Screenshot showing components to activate or deactivate.](images/uefi-hub-components.png)
+   ![Screenshot showing Components and Advanced settings to turn on or turn off.](images/hub-uefi-config-settings.png)
 
-   ![Screenshot showing advanced settings to turn on or off.](images/uefi-hub-advanced.png)
+
 
 ### Simultaneous Multi-Threading (SMT)
 
