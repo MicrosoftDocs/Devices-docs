@@ -50,7 +50,7 @@ No affiliation is like having Surface Hub in a workgroup with a different local 
 ### Active Directory Domain Services
 
 If you affiliate Surface Hub with on-premises Active Directory Domain Services, you need to manage access to the Settings app using a security group on your domain. This helps ensure that all security group members have permissions to change settings on Surface Hub. Also note the following:
-When Surface Hub affiliates with your on-premises Active Directory Domain Services, the BitLocker key can be saved in the Active Directory Schema. For more information, see [Prepare your organization for BitLocker: Planning and policies](/windows/security/information-protection/bitlocker/prepare-your-organization-for-bitlocker-planning-and-policies).
+When Surface Hub affiliates with your on-premises Active Directory Domain Services, the BitLocker key can be saved in the Active Directory Schema. For more information, see [BitLocker planning guide](/windows/security/operating-system-security/data-protection/bitlocker/planning-guide).
 
 Your organization’s Trusted Root CAs are pushed to the same container in Surface Hub, which means you don’t need to import them using a provisioning package.
 

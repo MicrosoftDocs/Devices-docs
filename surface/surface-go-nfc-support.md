@@ -59,9 +59,9 @@ Surface Go for Business devices are equipped with support for near field communi
 
 - Our Designed for Surface partners have created protective cases with a built-in NFC range extender designed for a variety of industries. These solutions include:
 
-  - [aXtion Pro MPA/NFC](https://licensedhardware.azurewebsites.net/surface/product/dc426547-655b-eb11-8fed-00155dd3d394/axtion-pro-mpanfc-for-surface-go--go-2--go-3)
-  - [aXtion Extreme MP NFC](https://licensedhardware.azurewebsites.net/surface/product/d1548288-82a1-ec11-b820-00155dd3dff8/axtion-extreme-mp-nfc-for-ms-surface-go-3-c1d2)
-  - [aXtion Extreme MP NFC (ATEX Zone 2)](https://licensedhardware.azurewebsites.net/surface/product/6c85a536-debc-ec11-bea1-00155dd3d776/axtion-extreme-mp-nfc-for-ms-surface-go-3-atex-zone-2)
+  - [aXtion Pro MPA/NFC](https://thejoyfactory.com/axtion-pro-mpa-nfc-for-surface-go-go-2/)
+  - [aXtion Extreme MP NFC](https://thejoyfactory.com/axtion-extreme-mp-nfc-for-surface-go-3)
+
 
 ## Learn more
 
