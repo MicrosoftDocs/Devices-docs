@@ -6,7 +6,7 @@ ms.localizationpriority: medium
 author: coveminer
 ms.author: chauncel
 ms.topic: how-to
-ms.date: 04/09/2024
+ms.date: 04/25/2024
 ms.reviewer: dashap
 manager: frankbu
 appliesto:
@@ -22,6 +22,7 @@ With USB port functionality enabled by default on Surface devices, many devices 
 
 Before you begin the process outlined in this article, familiarize yourself with the following technologies and tools:
 
+* [Surface IT Toolkit](surface-it-toolkit.md) is available to download from [Surface Tools for IT](https://www.microsoft.com/download/details.aspx?id=46703).
 * [Surface UEFI](manage-surface-uefi-settings.md)
 * [Surface Enterprise Management Mode (SEMM)](surface-enterprise-management-mode.md)
 * [PowerShell scripting](/powershell)
@@ -31,11 +32,11 @@ Before you begin the process outlined in this article, familiarize yourself with
 
 The process consists of the following parts:
 
-1. **Enrollment:** Enroll Surface devices and docks into SEMM using the Surface UEFI Configurator, as outlined in [Secure Surface Dock ports with SEMM](secure-surface-dock-ports-semm.md). Supported docks include Surface Dock 2 and Surface Thunderbolt 4 Dock. Key to this workflow is the ability to turn off USB-C data, Ethernet data, and USB-C audio whenever devices are disconnected from an authorized Surface Dock located, for example, in a  workplace environment handling highly sensitive information.
+1. **Enrollment:** Enroll Surface devices and docks into SEMM using the Surface UEFI Configurator, as outlined in [Secure Surface Dock ports with SEMM](secure-surface-dock-ports-semm.md). Supported docks include Surface Dock 2 and Surface Thunderbolt 4 Dock. Key to this workflow is the ability to turn off USB-C data, Ethernet data, and USB-C audio whenever devices are disconnected from an authorized Surface Dock located, for example, in a workplace environment handling highly sensitive information.
 
-2. **Client configuration:** Install **UEFI Manager**, available from [Surface Tools for IT](https://www.microsoft.com/download/details.aspx?id=46703), on all Surface devices targeted for management.  
+2. **Client configuration:** Install **UEFI Manager**, available from the [Surface IT Toolkit Library](surface-it-toolkit-library.md), on all Surface devices targeted for management.  
 
-3. **Powershell scripts:** Go to [Surface Tools for IT](https://www.microsoft.com/download/details.aspx?id=46703) to download and modify the PowerShell scripts as appropriate for your environment. Use Microsoft Configuration Manager to deploy the scripts (as applications) to target devices, following the instructions in [Use Microsoft Configuration Manager to manage devices with SEMM](use-system-center-configuration-manager-to-manage-devices-with-semm.md). 
+3. **PowerShell scripts:** Go to the [Surface IT Toolkit](surface-it-toolkit-powershell-surface.md) to download and modify the PowerShell scripts as appropriate for your environment. Use Microsoft Configuration Manager to deploy the scripts (as applications) to target devices, following the instructions in [Use Microsoft Configuration Manager to manage devices with SEMM](use-system-center-configuration-manager-to-manage-devices-with-semm.md). 
 
 Refer to the embedded comments for usage guidance. See [Appendix: SEMM PowerShell Scripts tech reference](#appendix-semm-powershell-scripts-tech-reference) for definitions and prerequisites. 
 
@@ -58,7 +59,7 @@ Beginning with Surface Pro 8, Surface Laptop Studio, and Surface Go 3, granular 
 
 ## Dynamic USB-C Disablement
 
-Dynamic USB-C Disablement enables customers operating in highly secure work environments to prevent USB theft of confidential data and provide more control to organizations. When paired with the Surface Thunderbolt 4 Dock, IT admins can lock down USB-C ports whenever eligible Surface devices are undocked or connected to an unauthorized dock.
+Dynamic USB-C Disablement enables customers operating in highly secure environments to prevent unauthorized data transfer via USB, thereby offering organizations more control. When paired with the Surface Thunderbolt 4 Dock, IT admins can lock down USB-C ports whenever eligible Surface devices are undocked or connected to an unauthorized dock.
 
 > [!TIP]
 > This feature is available on Surface Pro 10, Surface Laptop 6, and Surface Laptop Studio 2.
@@ -74,6 +75,13 @@ Dynamic USB-C Disablement provides IT admins with greater flexibility to manage 
 * **Mode 2 (Fully Disabled):** USB-C and Ethernet data are disabled. Audio via USB-C is also disabled. Display out and Power functionality is disabled.
 
 * **Mode 3 (USB Port Authenticated)** also known as Dynamic USB-C Disablement. USB-C data, Ethernet data, USB-C audio, display out and power functions only when the device is connected to an authorized Surface Thunderbolt 4 Dock. If connected to an unauthorized dock, only display out and Power functions will work.
+
+### Manage USB-C ports with Surface IT Toolkit
+
+You can now manage USB-C ports across all modes via either of the following methods: 
+
+- The new [UEFI Configurator](surface-it-toolkit-uefi-config.md) included in the [Surface IT Toolkit](surface-it-toolkit.md) provides UI-support to configure ports without use of PowerShell scripts.
+- PowerShell scripts, as described in this article.  
 
 ### Target behaviors
 
@@ -155,3 +163,8 @@ Dynamic USB-C Disablement allows for a many-to-many relationship between the hos
 | **ShowSettingsOptions.ps1**                               | - Prints the UEFI settings that can be applied to Surface devices.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | - IT admin workstation has installed the SurfaceUEFI_Manager_(version).msi                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | **VerifyDockSettings.ps1**                                | - To capture and display the current configuration of the connected Surface Dock                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | - Surface Dock 2 or Surface Thunderbolt 4 Dock<br><br>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | **VerifySettings.ps1**                                    | - Demonstrates how to see the current settings and state of recent updates.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | - Run with administrator privileges<br><br>- Surface Device has installed the SurfaceUEFI_Manager_(version).msi<br><br>- Packages were applied and the session ID files saved.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+
+### Learn more
+
+* [Configure Surface devices with PowerShell](surface-it-toolkit-powershell-surface.md)
+* [Configure Surface Docks](secure-surface-dock-ports-semm.md) 
