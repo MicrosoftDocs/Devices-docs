@@ -33,7 +33,7 @@ This article addresses a deployment approach that uses Microsoft Deployment Tool
 
 ## Add keyboard drivers to the selection profile
 
-1. Download the latest Surface Laptop .msi file from the following page: [Manage & deploy Surface driver & firmware updates](manage-surface-driver-and-firmware-updates#download-msi-files).
+1. Download the latest Surface Laptop .msi file from the following page: [Manage & deploy Surface driver & firmware updates](manage-surface-driver-and-firmware-updates.md).
 
 2. Extract the contents of the Surface Laptop .msi file to a folder that you can easily locate (for example, c:\surface_laptop_drivers). To extract the contents, open an elevated Command Prompt window and run the command from the following example:
 
