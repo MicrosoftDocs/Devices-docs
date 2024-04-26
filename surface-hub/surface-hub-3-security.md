@@ -52,12 +52,12 @@ You need a dedicated USB drive with at least 50 MB of storage space.
 1. Download and install the [Surface IT Toolkit](https://www.microsoft.com/download/confirmation.aspx?id=46703).
 2. Open the IT Toolkit, select [UEFI Configurator](/surface/surface-it-toolkit-uefi-config) > **Configure devices**.
 3. Under **Choose Deployment Build**, select **DFI**.
-4. Add your organizational **Personal Information Exchange (PFE) certificate**.
+4. Under **Import Certficate Protection**, add your organizational **Personal Information Exchange (PFE) certificate**.
 
 > [!NOTE]
 > This article assumes that you either obtain certificates from a third-party provider or already have expertise in PKI certificate services and know how to create your own. To learn more, see [SEMM certificate requirements](/surface/surface-enterprise-management-mode#semm-certificate-requirements) and [Certificate Services Architecture](/windows/win32/seccrypto/certificate-services-architecture) documentation to learn more. 
 
-5. For **DFI Package Type**, select **Configuration Package**
+5. Under **DFI Package Type**, select **Configuration Package**.
 6. For **Device**, select **Surface Hub** > **Surface Hub 3** and select **Next**. 
 
     ![Screenshot showing screen to set UEFI password](images/uefi-hub-dfi.png)
@@ -69,9 +69,6 @@ You need a dedicated USB drive with at least 50 MB of storage space.
     ![Screenshot showing screen to build UEFI DFI Package](images/uefi-config-uefi-pw.png)
 
 10. Upon successful creation of the package, the Configurator displays the last two characters of your certificate's thumbprint. You need these characters when you import the configuration to Surface Hub 3.
-
-
-SEMM also includes various UEFI settings that you can configure, 
 
 ## Physically secure Surface Hub 3
 
