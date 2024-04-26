@@ -55,13 +55,13 @@ You need a dedicated USB drive with at least 50 MB of storage space.
 4. Under **Import Certficate Protection**, add your organizational **Personal Information Exchange (PFE) certificate**.
 
 > [!NOTE]
-> This article assumes that you either obtain certificates from a third-party provider or already have expertise in PKI certificate services and know how to create your own. To learn more, see [SEMM certificate requirements](/surface/surface-enterprise-management-mode#semm-certificate-requirements) and [Certificate Services Architecture](/windows/win32/seccrypto/certificate-services-architecture) documentation to learn more. 
+> This article assumes that you either obtain certificates from a third-party provider or already have expertise in PKI certificate services and know how to create your own. To learn more, see [SEMM certificate requirements](/surface/surface-enterprise-management-mode#semm-certificate-requirements) and [Certificate Services Architecture](/windows/win32/seccrypto/certificate-services-architecture) documentation. 
 
-5. Under **DFI Package Type**, select **Configuration Package**.
-6. For **Device**, select **Surface Hub** > **Surface Hub 3** and select **Next**. 
+5. Under **DFI Package Type**, select **Configuration Package** and select **Next**.
 
     ![Screenshot showing screen to set UEFI password](images/uefi-hub-dfi.png)
 
+6. For **Device**, select **Surface Hub** > **Surface Hub 3** and select **Next**. 
 7. Under **UEFI Password** select **Set or Modify Password** and then enter and confirm your password. Select **Next.**
 8. Optionally, you can configure components and advanced settings, as described in the section [Manage UEFI settings with SEMM](#manage-uefi-settings-with-semm), on this page. Otherwise,  select **Next**.
 9. Select your USB drive and choose **Create**.
