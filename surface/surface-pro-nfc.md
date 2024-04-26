@@ -155,7 +155,7 @@ For the best user experience, we recommend modifying the following settings on S
 
     - Toggle **Transparency effects** to **Off**.
   
-2. Navigage to **Settings** > **Personalization** > **Lock screen**.
+2. Navigate to **Settings** > **Personalization** > **Lock screen**.
 
     - Toggle **Make the lock screen image react when I move my PC** to **Off**.
   
