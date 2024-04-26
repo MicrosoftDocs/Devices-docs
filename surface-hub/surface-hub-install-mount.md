@@ -19,7 +19,7 @@ The 50-inch models of Surface Hub 2S and Surface Hub 3 are designed for ease of 
 
 You can mount Surface Hubs with the certified wall mount or the certified mobile stand, both developed in partnership with Steelcase. These accessories fully integrate with the 50-inch design, enabling unimpeded access to the compute cartridge along with all I/O ports and power.
 
-For more information, see [Officially licensed third-party accessories](https://licensedhardware.azurewebsites.net/surface) and view installation demos from the Surface product team at [Steelcase mobile stand and APC battery set up](https://youtu.be/VTzdu4Skpkg).
+For more information, view installation demos from the Surface product team at [Steelcase mobile stand and APC battery set up](https://youtu.be/VTzdu4Skpkg).
 
 If you’re not using licensed accessories, see [Customize wall mount of 50" models of Surface Hub 2S or Surface Hub 3](surface-hub-custom-install.md).
 

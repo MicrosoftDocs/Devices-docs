@@ -112,7 +112,7 @@ The following table includes supported non-FIDO NFC keys, listing various types 
 
 End users can directly disable NFC via device settings.
 
-1. Go to **Settings** > **Network & Internet** > **Airplane modoe** and select **NFC**.
+1. Go to **Settings** > **Network & Internet** > **Airplane mode** and select **NFC**.
 2. Adjust the Toggle switch to turn it off.
 
 ### Disable NFC via firmware
@@ -155,7 +155,7 @@ For the best user experience, we recommend modifying the following settings on S
 
     - Toggle **Transparency effects** to **Off**.
   
-2. Navigage to **Settings** > **Personalization** > **Lock screen**.
+2. Navigate to **Settings** > **Personalization** > **Lock screen**.
 
     - Toggle **Make the lock screen image react when I move my PC** to **Off**.
   
