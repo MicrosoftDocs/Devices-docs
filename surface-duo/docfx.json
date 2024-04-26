@@ -50,6 +50,7 @@
       "recommendations": true,
       "searchScope": ["Surface Duo"],
       "uhfHeaderId": "MSDocsHeader-Surface",
+      "ms.technology": "windows"
       "contributors_to_exclude": [ 
         "rjagiewich",
         "traya1",
