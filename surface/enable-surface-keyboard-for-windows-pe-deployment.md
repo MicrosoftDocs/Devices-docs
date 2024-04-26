@@ -33,17 +33,7 @@ This article addresses a deployment approach that uses Microsoft Deployment Tool
 
 ## Add keyboard drivers to the selection profile
 
-1. Download the latest Surface Laptop .msi file from the appropriate locations:
-
-- [Surface Pro 9 with Intel Processor Drivers and Firmware](https://www.microsoft.com/download/details.aspx?id=104680)
-- [Surface Pro 8 Drivers and Firmware](https://www.microsoft.com/download/details.aspx?id=103503)
-- [Surface Laptop Studio Drivers and Firmware](https://www.microsoft.com/download/details.aspx?id=103505)
-- [Surface Laptop 5 with Intel Processor Drivers and Firmware](https://www.microsoft.com/download/104679)
-- [Surface Laptop 4 with Intel Processor Drivers and Firmware](https://www.microsoft.com/download/102924)
-- [Surface Laptop 4 with AMD Processor Drivers and Firmware](https://www.microsoft.com/download/102923)
-- [Surface Laptop 3 with Intel Processor Drivers and Firmware](https://www.microsoft.com/download/details.aspx?id=100429)
-- [Surface Laptop 2 Drivers and Firmware](https://www.microsoft.com/download/details.aspx?id=57515)
-- [Surface Laptop (1st Gen) Drivers and Firmware](https://www.microsoft.com/download/details.aspx?id=55489)
+1. Download the latest Surface Laptop .msi file from the following page: [Manage & deploy Surface driver & firmware updates](manage-surface-driver-and-firmware-updates.md).
 
 2. Extract the contents of the Surface Laptop .msi file to a folder that you can easily locate (for example, c:\surface_laptop_drivers). To extract the contents, open an elevated Command Prompt window and run the command from the following example:
 
@@ -64,6 +54,8 @@ Import the following folders as appropriate for your Surface Laptop device.
 
 | Device                           | Import folders        | More information  |
 | ------------------------------- | ------------------------ | -----------------------|
+| **Surface Laptop 6** | ialpss2gpio2mtl<br>ialpss2i2cmtl<br>ialpss2spimtl<br>ialpss2uart2mtl<br>intcpmt<br>intelquickspi<br>msu53cx22x64sta<br>msu56cx22x64sta<br>surfaceacpiplatformextension<br>surfacebattery<br>surfacebutton<br>surfacedockintegration<br>surfacehidminidriverwinre<br>surfacehotplug<br>surfaceintegrationdriver<br>surfacepanel<br>surfacepen217integration<br>surfacepenblelcaddradaptationdriver<br>surfaceserialhub<br>surfaceservicenulldriver<br>surfacesptclient<br>surfacetimealarmacpifilter<br>surfacetouchpenprocessor0c88update<br>surfacetouchpenprocessor0c89update<br>surfaceucmucsihidclient<br>tbtslimhostcontroller |If you're using a Windows 10 version of Windows PE and you need Surface Ethernet connectivity, you also need to import the folder “msump64x64sta” from the Windows 10 MSI.|
+| **Surface Pro 10** | acpiplatformextension<br>Battery<br>DockIntegration<br>HidMini<br>HotPlug<br>ialpss2gpio2mtl<br>ialpss2i2cmtl<br>ialpss2spimtl<br>ialpss2uart2mtl<br>Integration<br>IntelQuickSPI<br>msu53cx22x64sta<br>msu56cx22x64sta<br>penwirelesschargerhotkey<br>SarManager<br>SerialHub<br>Service<br>SMFClient<br>smfdisplayclient<br>timealarmacpifilter<br>UcmUcsiHidClient|If you're using a Windows 10 version of Windows PE and you need Surface Ethernet connectivity, you also need to import the folder “msump64x64sta” from the Windows 10 MSI.|
 | **Surface Pro 9 with Intel processor** | adlserial<br>alderlakepchpsystem<br>alderlakesystem<br>gna<br>intelprecisetouch<br>managementengine<br>msump64x64sta<br>surfaceacpiplatformextension<br>surfacebattery<br>surfacedockintegration<br>surfacehidmini<br>surfacehotplug<br>surfaceintegrationdriver<br>surfacesarmanager<br>surfaceserialhubdriver<br>surfaceservicenulldriver<br>surfacetimealarmacpifilter<br>surfaceucmucsihidclient<br>tbtslimhostcontroller |n/a |
 | **Surface Laptop Studio 2**     | Adl-rplserialLPSS<br>cardreader<br>heci<br>intelquickspi<br>msu53cx22x64sta<br>realtekEthernet<br>surfaceacpiplatformextension<br>surfacebattery<br>surfacedockintegration<br>surfacehidminidriver<br>surfacehotplug<br>surfaceintegrationdriver<br>surfacepenwirelesschargerhotkey<br>surfacesarmanager<br>surfaceserialhub<br>surfacesptclient<br>surfacetimealarmacpifilter<br>surfaceucmucsihidclient<br>surfacewakeontouchcontrol<br>wotquickspiextensionport1 | n/a     |
 | **Surface Laptop Studio**     | intelthcbase <br>managementengine <br>surfaceacpiplatformextension <br>surfacebattery <br>SurfaceEthernetAdapter <br>surfacehidmini  <br>surfacehotplug <br>surfaceintegration <br>surfacesar <br>surfaceserialhub <br>surfacesmfclient <br>surfacesmfdisplayclient <br>surfacesptclient <br>surfacetimealarmacpifilter <br>surfacevirtualfunctionenum <br>tbtslimhostcontroller <br>tglchipset <br>tglserial <br>   | n/a     |
