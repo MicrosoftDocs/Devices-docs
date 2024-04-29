@@ -34,7 +34,7 @@ The default local admin account is a well-known entry point for malicious actors
 2. Enter the current default password:**sfb**.
 3. Create a new password, confirm the password, and add a hint. To learn more, see [Change or reset your Windows password](https://support.microsoft.com/windows/change-or-reset-your-windows-password-8271d17c-9f9e-443f-835a-8318c8f68b9c).
 
-    ![Screenshot showing Change your password.](images/hub3-change-admin-password.png)
+:::image type="content" source="images/hub3-change-admin-password.png" alt-text="Screenshot showing Change your password.":::
 
 > [!TIP]
 > When joined to Microsoft Entra ID (Azure AD), you can utilize Windows LAPS (Local Administrator Password Solution). Although LAPS doesn't remove local admin accounts, it automatically manages local admin passwords, ensuring they're randomized and securely stored in AD. This reduces the risk associated with stale or widely known admin passwords. To learn more, see [Microsoft Intune support for Windows LAPS](/mem/intune/protect/windows-laps-overview).
@@ -43,32 +43,44 @@ The default local admin account is a well-known entry point for malicious actors
 
 The Unified Extensible Firmware Interface (UEFI) is an advanced firmware interface designed to replace the traditional BIOS (Basic Input/Output System), providing enhanced features like improved security, faster boot times, and support for larger hard drives in modern Windows operating systems. By setting a UEFI password, you add an extra layer of security, preventing unauthorized users from changing the device's firmware settings. Set a strong UEFI password and store it in a secure location.
 
-Set a UEFI password via the downloadable [Surface UEFI Configurator](https://www.microsoft.com/download/details.aspx?id=46703) and [Surface Enterprise Management Mode (SEMM)](/surface/surface-enterprise-management-mode).
+Use the [Surface IT Toolkit](https://www.microsoft.com/download/confirmation.aspx?id=46703) to set a UEFI password with 
+[Surface Enterprise Management Mode (SEMM)](/surface/surface-enterprise-management-mode).
+
 
 ### Enroll Surface Hub 3 in SEMM
 
 You need a dedicated USB drive with at least 50 MB of storage space.  
 
-1. Download and install the [Surface IT Toolkit](https://www.microsoft.com/download/confirmation.aspx?id=46703).
-2. Open the IT Toolkit, select [UEFI Configurator](/surface/surface-it-toolkit-uefi-config) > **Configure devices**.
-3. Under **Choose Deployment Build**, select **DFI**.
-4. Under **Import Certficate Protection**, add your organizational **Personal Information Exchange (PFE) certificate**.
+1. Open the IT Toolkit, select [UEFI Configurator](/surface/surface-it-toolkit-uefi-config) > **Configure devices**.
+
+    :::image type="content" source="images/uefi-config-hub.png" alt-text="Screenshot of UEFI Configurator for Surface Hub.":::
+
+2. Under **Choose Deployment Build**, select **DFI**.
+
+    :::image type="content" source="images/uefi-hub-dfi.png" alt-text="Screenshot of choose Deployment Build for Surface Hub.":::
+
+3. Under **Import Certficate Protection**, add your organizational **Personal Information Exchange (PFE) certificate**.
+
+    :::image type="content" source="images/uefi-import-cert.png" alt-text="Screenshot of import certificate protection.":::
 
 > [!NOTE]
-> This article assumes that you either obtain certificates from a third-party provider or already have expertise in PKI certificate services and know how to create your own. To learn more, see [SEMM certificate requirements](/surface/surface-enterprise-management-mode#semm-certificate-requirements) and [Certificate Services Architecture](/windows/win32/seccrypto/certificate-services-architecture) documentation. 
+> This article assumes that you either obtain certificates from a third-party provider or already have expertise in PKI certificate services and know how to create your own. To learn more, see [SEMM certificate requirements](/surface/surface-enterprise-management-mode#semm-certificate-requirements) and [Certificate Services Architecture](/windows/win32/seccrypto/certificate-services-architecture) documentation.
 
-5. Under **DFI Package Type**, select **Configuration Package** and select **Next**.
+4. Under **DFI Package Type**, select **Configuration Package**. For **Device**, select **Surface Hub** > **Surface Hub 3** and select **Next**.
 
-    ![Screenshot showing screen to set UEFI password](images/uefi-hub-dfi.png)
+    :::image type="content" source="images/uefi-hub-devices.png" alt-text="Screenshot showing Configuration Package selection.":::
 
-6. For **Device**, select **Surface Hub** > **Surface Hub 3** and select **Next**. 
-7. Under **UEFI Password** select **Set or Modify Password** and then enter and confirm your password. Select **Next.**
-8. Optionally, you can configure components and advanced settings, as described in the section [Manage UEFI settings with SEMM](#manage-uefi-settings-with-semm), on this page. Otherwise,  select **Next**.
-9. Select your USB drive and choose **Create**.
+5. Under **UEFI Password** select **Set or Modify Password** and then enter and confirm your password. Select **Next.**
 
-    ![Screenshot showing screen to build UEFI DFI Package](images/uefi-config-uefi-pw.png)
+    :::image type="content" source="images/uefi-hub-pw.png" alt-text="Screenshot of UEFI Configurator for Surface Hub.":::
 
-10. Upon successful creation of the package, the Configurator displays the last two characters of your certificate's thumbprint. You need these characters when you import the configuration to Surface Hub 3.
+6. Optionally, you can configure components and advanced settings, as described in the section [Manage UEFI settings with SEMM](#manage-uefi-settings-with-semm), on this page. Otherwise,  select **Next**.
+
+7. Select your USB drive and choose **Create**.
+
+    :::image type="content" source="images/uefi-config-uefi-pw.png" alt-text="Screenshot showing screen to build UEFI DFI Package.":::
+
+8. Upon successful creation of the package, the Configurator displays the last two characters of your certificate's thumbprint. You need these characters when you import the configuration to Surface Hub 3.
 
 ## Physically secure Surface Hub 3
 
@@ -95,7 +107,7 @@ You can enable BitLocker via Intune when joined to Microsoft Entra ID (Azure AD)
 2. Select Start, enter **Control, and open **Control Panel**.
 3. Select **System & Security** > **BitLocker Drive Encryption** > **Turn on BitLocker.**
 
-![Screenshot showing how to turn on BitLocker via Control Panel.](images/hub-3-turn-on-bitlocker.png).
+:::image type="content" source="images/hub-3-turn-on-bitlocker.png" alt-text="[Screenshot showing how to turn on BitLocker via Control Panel.":::
 
 ### User Mode Code Integrity (UMCI)
 
@@ -131,27 +143,24 @@ We recommend you join Surface Hub 3 to Microsoft Entra ID (Azure AD) and manage 
 
 ## Manage Group Policy settings in domain-joined scenarios
 
-When integrating Teams Rooms with a domain, it's imperative to establish a separate, dedicated Organizational Unit (OU) specifically for Teams Rooms. This approach enables the application of Group Policy Object (GPO) exclusions directly to this OU, ensuring that only relevant policies affect Teams Rooms objects. 
+When integrating Teams Rooms with a domain, it's imperative to establish a separate, dedicated Organizational Unit (OU) specifically for Teams Rooms. This approach enables the application of Group Policy Object (GPO) exclusions directly to this OU, ensuring that only relevant policies affect Teams Rooms objects.
 
 - **Disable GPO inheritance**. It's crucial to disable all GPO inheritance within this OU to prevent the application of unsupported or irrelevant Group Policy settings to Teams Rooms.  
 
 - **Apply GPOs to OU before joining domain**.
 Ensure that machine objects for Teams Rooms are created within this specific OU before the domain join. This step is essential to avoid the inadvertent application of default computer OU policies to Teams Rooms and maintain the intended configuration and security posture.
 
-To learn more about configuring Group Policy in domain-joined scenarios, see the following resources: 
+To learn more about configuring Group Policy in domain-joined scenarios, see the following resources:
 
-- [Configuring Group Policy for Microsoft Teams Rooms](/microsoftteams/rooms/rooms-operations#configuring-group-policy-for-microsoft-teams-rooms) 
+- [Configuring Group Policy for Microsoft Teams Rooms](/microsoftteams/rooms/rooms-operations#configuring-group-policy-for-microsoft-teams-rooms)
 
 - [Group Policy Settings Reference](https://www.microsoft.com/download/details.aspx?id=105668)
-
 
 ## Manage UEFI settings with SEMM
 
 SEMM enables IT admins to lock down features at the firmware level that you might wish to implement depending on the security posture of your environment. Open Surface UEFI Configurator, as explained earlier, and go to the following screens:
 
-   ![Screenshot showing Components and Advanced settings to turn on or turn off.](images/hub-uefi-config-settings.png)
-
-
+:::image type="content" source="images/hub-uefi-config-settings.png" alt-text="Screenshot showing Components and Advanced settings to turn on or turn off.":::
 
 ### Simultaneous Multi-Threading (SMT)
 
