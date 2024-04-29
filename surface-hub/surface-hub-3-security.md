@@ -162,6 +162,8 @@ SEMM enables IT admins to lock down features at the firmware level that you migh
 
 :::image type="content" source="images/hub-uefi-config-settings.png" alt-text="Screenshot showing Components and Advanced settings to turn on or turn off.":::
 
+For settings descriptions, see [SEMM UEFI settings reference](surface-it-toolkit-semm-uefi-settings.md).
+
 ### Simultaneous Multi-Threading (SMT)
 
 Commonly known as hyperthreading in Intel processors, SMT allows a single physical CPU core to execute multiple threads concurrently. This can improve performance in multi-threaded applications. However, there are specific scenarios where you might want to control the SMT setting.
