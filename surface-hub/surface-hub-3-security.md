@@ -63,8 +63,8 @@ You need a dedicated USB drive with at least 50 MB of storage space.
 
     :::image type="content" source="images/uefi-import-cert.png" alt-text="Screenshot of import certificate protection.":::
 
-> [!NOTE]
-> This article assumes that you either obtain certificates from a third-party provider or already have expertise in PKI certificate services and know how to create your own. To learn more, see [SEMM certificate requirements](/surface/surface-enterprise-management-mode#semm-certificate-requirements) and [Certificate Services Architecture](/windows/win32/seccrypto/certificate-services-architecture) documentation.
+    > [!NOTE]
+    > This article assumes that you either obtain certificates from a third-party provider or already have expertise in PKI certificate services and know how to create your own. To learn more, see [SEMM certificate requirements](/surface/surface-enterprise-management-mode#semm-certificate-requirements) and [Certificate Services Architecture](/windows/win32/seccrypto/certificate-services-architecture) documentation.
 
 4. Under **DFI Package Type**, select **Configuration Package**. For **Device**, select **Surface Hub** > **Surface Hub 3** and select **Next**.
 
@@ -107,7 +107,7 @@ You can enable BitLocker via Intune when joined to Microsoft Entra ID (Azure AD)
 2. Select Start, enter **Control, and open **Control Panel**.
 3. Select **System & Security** > **BitLocker Drive Encryption** > **Turn on BitLocker.**
 
-:::image type="content" source="images/hub-3-turn-on-bitlocker.png" alt-text="[Screenshot showing how to turn on BitLocker via Control Panel.":::
+   :::image type="content" source="images/hub-3-turn-on-bitlocker.png" alt-text="[Screenshot showing how to turn on BitLocker via Control Panel.":::
 
 ### User Mode Code Integrity (UMCI)
 
