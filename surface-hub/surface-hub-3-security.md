@@ -6,7 +6,7 @@ author: coveminer
 ms.author: chauncel
 manager: frankbu
 ms.topic: overview
-ms.date: 12/08/2023
+ms.date: 04/29/2024
 ms.localizationpriority: Medium
 appliesto:
 - Surface Hub 3
@@ -72,7 +72,7 @@ You need a dedicated USB drive with at least 50 MB of storage space.
 
 5. Under **UEFI Password** select **Set or Modify Password** and then enter and confirm your password. Select **Next.**
 
-    :::image type="content" source="images/uefi-hub-pw.png" alt-text="Screenshot of UEFI Configurator for Surface Hub.":::
+    :::image type="content" source="images/uefi-hub-pw.png" alt-text="Screenshot of Set UEFI password for Surface Hub.":::
 
 6. Optionally, you can configure components and advanced settings, as described in the section [Manage UEFI settings with SEMM](#manage-uefi-settings-with-semm), on this page. Otherwise,  select **Next**.
 
