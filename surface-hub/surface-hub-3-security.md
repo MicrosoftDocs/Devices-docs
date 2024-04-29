@@ -162,7 +162,7 @@ SEMM enables IT admins to lock down features at the firmware level that you migh
 
 :::image type="content" source="images/hub-uefi-config-settings.png" alt-text="Screenshot showing Components and Advanced settings to turn on or turn off.":::
 
-For settings descriptions, see [SEMM UEFI settings reference](surface-it-toolkit-semm-uefi-settings.md).
+For settings descriptions, see [SEMM UEFI settings reference](/surface/surface-it-toolkit-semm-uefi-settings).
 
 ### Simultaneous Multi-Threading (SMT)
 
