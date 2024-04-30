@@ -18,12 +18,12 @@ appliesto:
 
 Commercial customers can submit service requests via a self-serve portal:
 
-- [Hardware Support Portal](#hardware-support-portal)
+- [Surface  Support Portal](#hardware-support-portal)
 - [Surface Management Portal](#surface-management-portal)
 
-## Hardware Support Portal
+## Surface  Support Portal
 
-Microsoft 365 Business customers are eligible to use the Hardware Support Portal to self-serve their Surface devices’ service requests within the Microsoft 365 Admin Center.
+Microsoft 365 Business customers are eligible to use the Surface  Support Portal to self-serve their Surface devices’ service requests within the Microsoft 365 Admin Center.
 
 1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/AdminPortal) and go to **Show all** > **Support** > **Microsoft hardware support**.
 2. Select **New repair request**. For eligible devices and regional availability, see [Microsoft in-region repair](microsoft-in-region-same-unit-repair.md).
@@ -31,7 +31,7 @@ Microsoft 365 Business customers are eligible to use the Hardware Support Portal
     :::image type="content" source="images/surface-service-repair/m365-admincenter-repair-request.png" alt-text="Screenshot of Microsoft 365 admin center showing New repair request feature.":::
 
 
-The Hardware Support Portal allows you to:
+The Surface  Support Portal allows you to:
 
 - Add one or multiple devices simultaneously to view current warranty and protection plans.
 - Select one or multiple devices to create service requests.
@@ -42,13 +42,13 @@ When you add a Microsoft 365 tenant to the tool, the following Admin roles are g
 
 | Role                                      | Permissions                                                                                                                                                                                 |
 | ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Microsoft Hardware Warranty Administrator | View all service requests<br>Create/manage device replacement requests<br>Add/edit/delete ship-to address(es)<br>Read-only access to the M365 tenant outside of the Hardware Support Portal |
-| Microsoft Hardware Warranty Specialist    | View own service requests<br>Create/manage device replacement requests<br>Read-only access to the M365 tenant outside of the Hardware Support Portal                                        |
+| Microsoft Hardware Warranty Administrator | View all service requests<br>Create/manage device replacement requests<br>Add/edit/delete ship-to address(es)<br>Read-only access to the M365 tenant outside of the Surface  Support Portal |
+| Microsoft Hardware Warranty Specialist    | View own service requests<br>Create/manage device replacement requests<br>Read-only access to the M365 tenant outside of the Surface  Support Portal                                        |
 | Global Admin                              | View service requests<br>Create/manage device replacement requests<br>Add/edit/delete ship-to address(es)<br>Create/manage users and their roles                                            |
 | Service Support Admin                     | View service requests<br>Create/manage device replacement requests                                                                                                                          |
 | Billing Admin                             | View service requests<br>Create/manage device replacement requests<br>Add/edit/delete ship-to address(es)                                                                                   |
 
-### Gain access to the Hardware Support Portal
+### Gain access to the Surface  Support Portal
 
 To access the portal, customers should first sign in to their M365 Admin Center and then register to use the platform using the following link:
 [https://admin.microsoft.com/adminportal/home#/support/microsofthardwaresupport](https://admin.microsoft.com/adminportal/home#/support/microsofthardwaresupport)

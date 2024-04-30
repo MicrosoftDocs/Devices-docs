@@ -40,7 +40,7 @@ Built into Intune, the Surface Management Portal provides a centralized solution
 
 ### You have a Microsoft 365 Subscription
 
-The Microsoft 365 Hardware Support Portal provides a self-serve, centralized solution to look up current warranty and protection plans, create service requests, and track the status of device repairs. [Get support](/surface/self-serve-warranty-service).
+The Microsoft 365 Surface  Support Portal provides a self-serve, centralized solution to look up current warranty and protection plans, create service requests, and track the status of device repairs. [Get support](/surface/self-serve-warranty-service).
 
 ### You have a Premier or Unified Support contract
 
