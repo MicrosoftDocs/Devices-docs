@@ -34,7 +34,7 @@ The default local admin account is a well-known entry point for malicious actors
 2. Enter the current default password:**sfb**.
 3. Create a new password, confirm the password, and add a hint. To learn more, see [Change or reset your Windows password](https://support.microsoft.com/windows/change-or-reset-your-windows-password-8271d17c-9f9e-443f-835a-8318c8f68b9c).
 
-    ![Screenshot showing Change your password.](images/hub3-change-admin-password.png)
+:::image type="content" source="images/hub3-change-admin-password.png" alt-text="Screenshot showing Change your password.":::
 
 > [!TIP]
 > When joined to Microsoft Entra ID (Azure AD), you can utilize Windows LAPS (Local Administrator Password Solution). Although LAPS doesn't remove local admin accounts, it automatically manages local admin passwords, ensuring they're randomized and securely stored in AD. This reduces the risk associated with stale or widely known admin passwords. To learn more, see [Microsoft Intune support for Windows LAPS](/mem/intune/protect/windows-laps-overview).
@@ -43,45 +43,44 @@ The default local admin account is a well-known entry point for malicious actors
 
 The Unified Extensible Firmware Interface (UEFI) is an advanced firmware interface designed to replace the traditional BIOS (Basic Input/Output System), providing enhanced features like improved security, faster boot times, and support for larger hard drives in modern Windows operating systems. By setting a UEFI password, you add an extra layer of security, preventing unauthorized users from changing the device's firmware settings. Set a strong UEFI password and store it in a secure location.
 
-Set a UEFI password via the downloadable [Surface UEFI Configurator](https://www.microsoft.com/download/details.aspx?id=46703) and [Surface Enterprise Management Mode (SEMM)](/surface/surface-enterprise-management-mode).
+Use the [Surface IT Toolkit](https://www.microsoft.com/download/confirmation.aspx?id=46703) to set a UEFI password with 
+[Surface Enterprise Management Mode (SEMM)](/surface/surface-enterprise-management-mode).
+
 
 ### Enroll Surface Hub 3 in SEMM
 
 You need a dedicated USB drive with at least 50 MB of storage space.  
 
-1. Download Surface UEFI Configurator from [Surface Tools for IT](https://www.microsoft.com/download/details.aspx?id=46703).
+1. Open the IT Toolkit, select [UEFI Configurator](/surface/surface-it-toolkit-uefi-config) > **Configure devices**.
 
-2. Install UEFI Configurator and select **Start**.
+    :::image type="content" source="images/uefi-config-hub.png" alt-text="Screenshot of UEFI Configurator for Surface Hub.":::
 
-    ![Screenshot showing UEFI Configurator Start](images/uefi-hub-start.png)
+2. Under **Choose Deployment Build**, select **DFI**.
 
-3. Select **Configuration Package** > **DFI**.
+    :::image type="content" source="images/uefi-hub-dfi.png" alt-text="Screenshot of choose Deployment Build for Surface Hub.":::
 
-    ![Screenshot showing screen to select DFI File](images/uefi-hub-dfi.png)
+3. Under **Import Certficate Protection**, add your organizational **Personal Information Exchange (PFE) certificate**.
 
-4. Add your organizational Personal Information Exchange (PFE) certificate.
+    :::image type="content" source="images/uefi-import-cert.png" alt-text="Screenshot of import certificate protection.":::
 
-> [!NOTE]
-> This article assumes that you either obtain certificates from a third-party provider or already have expertise in PKI certificate services and know how to create your own. See [Certificate Services Architecture](/windows/win32/seccrypto/certificate-services-architecture) documentation to learn more.
+    > [!NOTE]
+    > This article assumes that you either obtain certificates from a third-party provider or already have expertise in PKI certificate services and know how to create your own. To learn more, see [SEMM certificate requirements](/surface/surface-enterprise-management-mode#semm-certificate-requirements) and [Certificate Services Architecture](/windows/win32/seccrypto/certificate-services-architecture) documentation.
 
-5. Now you're ready to set a UEFI password. Select **Password Protection**. Enter and confirm your password. Select **Next.**
+4. Under **DFI Package Type**, select **Configuration Package**. For **Device**, select **Surface Hub** > **Surface Hub 3** and select **Next**.
 
-    ![Screenshot showing screen to set UEFI password](images/uefi-set-pw.png)
+    :::image type="content" source="images/uefi-hub-devices.png" alt-text="Screenshot showing Configuration Package selection.":::
 
-6. Select **Surface Hub 3** as the Surface type you want to target.
+5. Under **UEFI Password** select **Set or Modify Password** and then enter and confirm your password. Select **Next.**
 
-    ![Screenshot showing screen to select Surface Hub 3](images/uefi-hub-choose.png)
+    :::image type="content" source="images/uefi-hub-pw.png" alt-text="Screenshot of Set UEFI password for Surface Hub.":::
 
-7. Optionally, you can configure components and advanced settings. Otherwise, continue to select **Next**.
-8. Select your USB drive and choose **Build**.
+6. Optionally, you can configure components and advanced settings, as described in the section [Manage UEFI settings with SEMM](#manage-uefi-settings-with-semm), on this page. Otherwise,  select **Next**.
 
-    ![Screenshot showing screen to build UEFI DFI Package](images/uefi-hub-build.png)
+7. Select your USB drive and choose **Create**.
 
-9. Upon successful creation of the package, the Configurator displays the last two characters of your certificate's thumbprint. You need these characters when you import the configuration to Surface Hub 3.
+    :::image type="content" source="images/uefi-config-uefi-pw.png" alt-text="Screenshot showing screen to build UEFI DFI Package.":::
 
-    ![Screenshot showing UEFI Configurator completion](images/uefi-hub-end.png)
-
-SEMM also includes various UEFI settings that you can configure, as described in the section [Manage UEFI settings with SEMM](#manage-uefi-settings-with-semm), on this page.
+8. Upon successful creation of the package, the Configurator displays the last two characters of your certificate's thumbprint. You need these characters when you import the configuration to Surface Hub 3.
 
 ## Physically secure Surface Hub 3
 
@@ -108,7 +107,7 @@ You can enable BitLocker via Intune when joined to Microsoft Entra ID (Azure AD)
 2. Select Start, enter **Control, and open **Control Panel**.
 3. Select **System & Security** > **BitLocker Drive Encryption** > **Turn on BitLocker.**
 
-![Screenshot showing how to turn on BitLocker via Control Panel.](images/hub-3-turn-on-bitlocker.png).
+   :::image type="content" source="images/hub-3-turn-on-bitlocker.png" alt-text="[Screenshot showing how to turn on BitLocker via Control Panel.":::
 
 ### User Mode Code Integrity (UMCI)
 
@@ -131,40 +130,39 @@ We recommend you join Surface Hub 3 to Microsoft Entra ID (Azure AD) and manage 
 | Feature                           | Description                                                                                                                                                                                                                                                                              | Learn More                                                                                                                                                                                                                                                                 |
 | --------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Device configuration profiles** | Use Intune's endpoint protection settings to configure Windows Defender, firewall settings, and other security features to protect the device from potential threats.                                                                                                                    | [Create device profiles in Microsoft Intune](/mem/intune/configuration/device-profile-create)                                                                                                                                             |
-| **Device compliance policies**    | Ensure the device complies with your organization's security standards. If a device falls out of compliance (e.g., if a required update isn't installed), you can configure automated remediation actions or notifications.                                                     | [Create device compliance policies in Microsoft Intune](/mem/intune/protect/create-compliance-policy)                                                                                                                                     |
+| **Device compliance policies**    | Ensure the device complies with your organization's security standards. If a device falls out of compliance (for example, if a required update isn't installed), you can configure automated remediation actions or notifications.                                                     | [Create device compliance policies in Microsoft Intune](/mem/intune/protect/create-compliance-policy)                                                                                                                                     |
 | **Update management**             | Use default update management settings to automatically install updates during a nightly maintenance window. Intune provides more options to customize if needed.                                                                                                                  | [Windows Update settings you can manage with Intune Update Ring policies for Windows 10/11 devices.](/mem/intune/protect/windows-update-settings)                                                                                         |
 | **App management**                | Use Intune to manage the apps installed on Surface Hub 3. Ensure only necessary apps related to Teams Rooms functionality are installed and regularly updated.                                                                                                                           | [Manage and secure apps in Intune](/mem/intune/fundamentals/manage-apps)                                                                                                                                               |
-| **BitLocker encryption**          | Ensure that the device's storage is encrypted using BitLocker. This protects data in case of unauthorized access or device theft. Note that, unlike Surface Hub 2S, Bitlocker is not installed by default.                                                                                     | [Encrypt Windows devices with BitLocker in Intune](/mem/intune/protect/encrypt-devices)                                                                                                                                |
-|**WindowsLocal Administrator Password Solution**|Windows LAPS automatically manages local admin passwords, ensuring they're randomized and securely stored in Microsoft Entra ID (Azure AD). This reduces the risk associated with stale or widely-known admin passwords.|[Microsoft Intune support for Windows LAPS](/mem/intune/protect/windows-laps-overview)
+| **BitLocker encryption**          | Ensure that the device's storage is encrypted using BitLocker. This protects data against unauthorized access or device theft. Unlike Surface Hub 2S, BitLocker isn't installed by default.                                                                                     | [Encrypt Windows devices with BitLocker in Intune](/mem/intune/protect/encrypt-devices)                                                                                                                                |
+|**WindowsLocal Administrator Password Solution**|Windows LAPS automatically manages local admin passwords, ensuring they're randomized and securely stored in Microsoft Entra ID (Azure AD). This reduces the risk associated with stale or widely known admin passwords.|[Microsoft Intune support for Windows LAPS](/mem/intune/protect/windows-laps-overview)
 | **Conditional access**            | Set up conditional access policies to ensure the device can access corporate resources only when it meets specific conditions, such as compliance with security policies.                                                                                                                | [Use Conditional Access with Microsoft Intune compliance policies](/mem/intune/protect/conditional-access)                                                                                                             |
 | **Network security**              | Ensure the device is connected to a secure network segment. Use Intune to configure Wi-Fi settings, VPNs, or other network configurations to protect data in transit.                                                                                                        | [Create a Wi-Fi profile for devices in Microsoft Intune](/mem/intune/configuration/wi-fi-settings-configure)<br> <br>[Network endpoints for Microsoft Intune](/mem/intune/fundamentals/intune-endpoints) |
-| **Remote Wipe and Lock**          | In case of any security incidents, ensure you can remotely lock or wipe the device using Intune.                                                                                                                                                                                         | [Retire or wipe devices using Microsoft Intune](/mem/intune/remote-actions/devices-wipe)                                                                                                                                                  |
+| **Remote Wipe and Lock**          | In the event of a security incident, ensure you can remotely lock or wipe the device using Intune.                                                                                                                                                                                         | [Retire or wipe devices using Microsoft Intune](/mem/intune/remote-actions/devices-wipe)                                                                                                                                                  |
 | **Audit and monitoring**          | Regularly review audit logs and set up alerts for suspicious activities. Intune integrates with Microsoft Endpoint Manager and other Microsoft security solutions, providing a holistic view of device security.                                                                     | [Audit changes and events in Microsoft Intune](/mem/intune/fundamentals/monitor-audit-logs)                                                                                                                                               |
 | **User training**                 | Educate users about not leaving sensitive information visible on the screen.<br> <br>If your organization has Microsoft Purview Data Loss Prevention (DLP), you can define policies that prevent people from sharing sensitive information in a Microsoft Teams channel or chat session. | [Data loss prevention and Microsoft Teams](/purview/dlp-microsoft-teams)                                                                                                                                                                  |
 
 ## Manage Group Policy settings in domain-joined scenarios
 
-When integrating Teams Rooms with a domain, it's imperative to establish a separate, dedicated Organizational Unit (OU) specifically for Teams Rooms. This approach enables the application of Group Policy Object (GPO) exclusions directly to this OU, ensuring that only relevant policies affect Teams Rooms objects. 
+When integrating Teams Rooms with a domain, it's imperative to establish a separate, dedicated Organizational Unit (OU) specifically for Teams Rooms. This approach enables the application of Group Policy Object (GPO) exclusions directly to this OU, ensuring that only relevant policies affect Teams Rooms objects.
 
 - **Disable GPO inheritance**. It's crucial to disable all GPO inheritance within this OU to prevent the application of unsupported or irrelevant Group Policy settings to Teams Rooms.  
 
 - **Apply GPOs to OU before joining domain**.
-Ensure that machine objects for Teams Rooms are created within this specific OU prior to domain joining. This step is essential to avoid the inadvertent application of default computer OU policies to Teams Rooms, thereby maintaining the intended configuration and security posture.
+Ensure that machine objects for Teams Rooms are created within this specific OU before the domain join. This step is essential to avoid the inadvertent application of default computer OU policies to Teams Rooms and maintain the intended configuration and security posture.
 
-To learn more about configuring Group Policy in domain-joined scenarios, see the following resources: 
+To learn more about configuring Group Policy in domain-joined scenarios, see the following resources:
 
-- [Configuring Group Policy for Microsoft Teams Rooms](/microsoftteams/rooms/rooms-operations#configuring-group-policy-for-microsoft-teams-rooms) 
+- [Configuring Group Policy for Microsoft Teams Rooms](/microsoftteams/rooms/rooms-operations#configuring-group-policy-for-microsoft-teams-rooms)
 
 - [Group Policy Settings Reference](https://www.microsoft.com/download/details.aspx?id=105668)
-
 
 ## Manage UEFI settings with SEMM
 
 SEMM enables IT admins to lock down features at the firmware level that you might wish to implement depending on the security posture of your environment. Open Surface UEFI Configurator, as explained earlier, and go to the following screens:
 
-   ![Screenshot showing components to activate or deactivate.](images/uefi-hub-components.png)
+:::image type="content" source="images/hub-uefi-config-settings.png" alt-text="Screenshot showing Components and Advanced settings to turn on or turn off.":::
 
-   ![Screenshot showing advanced settings to turn on or off.](images/uefi-hub-advanced.png)
+For settings descriptions, see [SEMM UEFI settings reference](/surface/surface-it-toolkit-semm-uefi-settings).
 
 ### Simultaneous Multi-Threading (SMT)
 
