@@ -63,7 +63,11 @@ Upon startup, Surface Hub 3 automatically enters first-time Windows setup mode, 
 
    ![Screenshot of Confirm keyboard layout.](images/surface-hub-3-oobe-fig1b.png)
 
-3. Connect to a network, if prompted.
+4. To add a second keyboard, select **Add layout**. Otherwise, select **Skip**.
+
+   ![Screenshot of Add a second keyboard.](images/surface-hub-3-oobe-fig1c.png)
+
+5. Connect to a network, if prompted.
 
    ![Screenshot of Connect to a network.](images/surface-hub-3-oobe-fig1-0.png)
 
@@ -72,10 +76,6 @@ Upon startup, Surface Hub 3 automatically enters first-time Windows setup mode, 
 
    > [!NOTE]
    > You cannot connect to a wireless network in hotspots (captive portals) that redirect sign-in requests to a provider's website.
-
-4. To add a second keyboard, select **Add layout**. Otherwise, select **Skip**.
-
-   ![Screenshot of Add a second keyboard.](images/surface-hub-3-oobe-fig1c.png)
 
 ## Microsoft Teams Rooms setup
 
