@@ -24,15 +24,15 @@ These are the Microsoft Support solutions for common issues you may experience u
 
 ## Warranty and service
 
-### Self-Serve your Surface Service Orders on the Microsoft 365 Surface  Support Portal
+### Self-Serve your Surface Service Orders on the Microsoft 365 Surface Support Portal
 
-The Microsoft 365 Surface  Support Portal provides a centralized solution for commercial customers to look up current warranty and protection plans, create service requests, and track the status of device repairs. Learn more about this service by reading the [walkthrough tutorial](https://opdhsblobprod04-secondary.blob.core.windows.net/contents/c431470c962e48af91a266cb2568e19a/9fbcdaa53e1a41dbcac90477966078a6?skoid=2d004ef0-5468-4cd8-a5b7-14c04c6415bc&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2022-11-14T03%3A35%3A21Z&ske=2022-11-21T03%3A40%3A21Z&sks=b&skv=2020-10-02&sv=2020-08-04&se=2022-11-16T18%3A45%3A36Z&sr=b&sp=r&sig=h3igiCEwFuB1R8qswMH8P4QdCEH7MF4dh38nXvSeIzk%3D).
+The Microsoft 365 Surface Support Portal provides a centralized solution for commercial customers to look up current warranty and protection plans, create service requests, and track the status of device repairs. Learn more about this service by reading the [walkthrough tutorial](https://opdhsblobprod04-secondary.blob.core.windows.net/contents/c431470c962e48af91a266cb2568e19a/9fbcdaa53e1a41dbcac90477966078a6?skoid=2d004ef0-5468-4cd8-a5b7-14c04c6415bc&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2022-11-14T03%3A35%3A21Z&ske=2022-11-21T03%3A40%3A21Z&sks=b&skv=2020-10-02&sv=2020-08-04&se=2022-11-16T18%3A45%3A36Z&sr=b&sp=r&sig=h3igiCEwFuB1R8qswMH8P4QdCEH7MF4dh38nXvSeIzk%3D).
 
 To access the portal, sign in to your M365 Admin Center (active access is required) and then register to use the platform by using this [link](https://admin.microsoft.com/adminportal/home#/support/microsofthardwaresupport).
 
 > [!NOTE]
 > This service does not address Surface accessories, Surface Hub, or product safety concerns.
-> The Surface  Support Portal is accessible in the following countries/regions only: Australia, Austria, Belgium, Canada, Croatia, Cyprus, Czech Republic, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Iceland, Ireland, Italy, Japan, Latvia, Liechtenstein, Lithuania, Luxembourg, Netherlands, New Zealand, Norway, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, Switzerland, United Kingdom, and USA.
+> The Surface Support Portal is accessible in the following countries/regions only: Australia, Austria, Belgium, Canada, Croatia, Cyprus, Czech Republic, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Iceland, Ireland, Italy, Japan, Latvia, Liechtenstein, Lithuania, Luxembourg, Netherlands, New Zealand, Norway, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, Switzerland, United Kingdom, and USA.
 
 ## Technical support scenarios
 

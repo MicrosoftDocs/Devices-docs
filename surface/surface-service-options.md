@@ -36,7 +36,7 @@ If you need to service a device covered by Microsoft's Limited Hardware Warranty
 
     :::image type="content" source="images/surface-service-repair/smp-repair-request.png" alt-text="Screenshot of Surface Management Portal showing New repair request feature.":::
 
-### Surface  Support Portal
+### Surface Support Portal
 
 1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/AdminPortal) and go to **Show all** > **Support** > **Microsoft hardware support**.
 2. Select **New repair request**. For eligible devices and regional availability, see [Microsoft in-region repair](microsoft-in-region-same-unit-repair.md).
@@ -51,7 +51,7 @@ If you need to service a device covered by Microsoft's Limited Hardware Warranty
 For devices that are no longer covered by Microsoft’s Limited Warranty<sup>3</sup>  or Protection Plan, Microsoft offers several options for service or repair.
 
 - **Customer Self Repair.** Self-repair<sup>1</sup> devices using replacement components available for purchase from [Authorized Device Resellers](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface#DEVICESRESELLERS). For instructions on how to submit a parts request, see [Customer self-serve repair](surface-customer-self-repair-surface.md). Your product may also be eligible for out-of-warranty service for a fee.<sup>4</sup>
-- **Microsoft in-region repair.** Submit a repair request via the [Surface Management Portal](#surface-management-portal) or [Surface  Support Portal](#hardware-support-portal), as described on this page. For eligible devices and regional availability, see [Microsoft in-region repair](microsoft-in-region-same-unit-repair.md).
+- **Microsoft in-region repair.** Submit a repair request via the [Surface Management Portal](#surface-management-portal) or [Surface Support Portal](#surface-support-portal), as described on this page. For eligible devices and regional availability, see [Microsoft in-region repair](microsoft-in-region-same-unit-repair.md).
 - **Authorized Service Providers.** Send devices to an Authorized Service Provider (ASP) who performs repairs on Microsoft's behalf. To learn more, see [Surface repair by Microsoft Authorized Service Providers](authorized-service-providers.md).
 - **Battery replacement service.** Paid battery replacement service offers are available for: Surface Duo, Surface Laptop 3 (15” & 13.5”), Surface Laptop 4 (15” & 13.5”), Surface Pro 7, Surface Pro 7+, Surface Pro X, Surface Pro 8, Surface Go 2, Surface Go 3, Surface Laptop Go, Surface Book 3, Surface Laptop Studio, Surface Duo 2, and Surface Laptop Go 2. The battery replacement service offers are available worldwide, except China, India, and MEA. **To find battery replacement service costs for your Surface device or accessory, see** [How much does out-of-warranty service cost for your Surface device or accessory?](https://support.microsoft.com/topic/how-much-does-out-of-warranty-service-cost-for-your-surface-device-or-accessory-4c77ac8a-e8c3-d0e4-7e8a-a29f768d43ff). 
 

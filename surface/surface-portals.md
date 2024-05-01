@@ -1,6 +1,6 @@
 ---
 title: Surface portals
-description: This article provides an overview of Surface IT portals including the Surface Management Portal and the Surface  Support Portal.
+description: This article provides an overview of Surface IT portals including the Surface Management Portal and the Surface Support Portal.
 ms.service: windows-11
 ms.localizationpriority: medium
 author: coveminer
@@ -26,18 +26,18 @@ Surface IT portals provide a centralized solution for IT admins to manage and mo
 Choose the portal that’s right for you.
 
 - **Surface Management Portal:** If your Surface devices are enrolled through Intune, they're automatically enrolled into the [Surface Management Portal](https://endpoint.microsoft.com/#view/Microsoft_Azure_Surface/SurfaceManagement.ReactView). In Intune Admin Center, go to **All Services** > **Surface Management Portal.** This includes the comprehensive feature set of the Intune admin center.
-- **Surface  Support Portal:** If you have a Microsoft 365 subscription, your support service needs can be fulfilled via the [Microsoft 365 admin center.](https://admin.microsoft.com/Adminportal/Home#/support/microsofthardwaresupport) In Admin center, go to **Support** > **Microsoft hardware support**. This does not require your devices to be enrolled through Intune.
+- **Surface Support Portal:** If you have a Microsoft 365 subscription, your support service needs can be fulfilled via the [Microsoft 365 admin center.](https://admin.microsoft.com/Adminportal/Home#/support/microsofthardwaresupport) In Admin center, go to **Support** > **Microsoft hardware support**. This does not require your devices to be enrolled through Intune.
 
 **Table 1. Surface IT portals**
 
 | Portal                                                                                                                              | Best for                                                                          | Requirements                                                                                             | Notes                                             |
 | ----------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | ------------------------------------------------- |
 | [Microsoft Surface Management Portal](surface-management-portal.md)                          | Customers  that already use Microsoft Intune to manage multiple devices at scale | - [Microsoft Intune Admin Center](https://endpoint.microsoft.com/)<br>- Intune subscription     | -  Manage warranty and claims. Manage support requests. Get Device insights and Device Health. <br><br> - Surface devices are automatically enrolled       |
-| [Microsoft Surface  Support Portal](/surface/media/microsoft-hardware-support-portal-tutorial.pdf) | Customers  looking to streamline support for their employees and users            | - [Microsoft 365 Admin Center](https://admin.microsoft.com/AdminPortal/)<br>- Microsoft 365 subscription | - Manage warranty and claims. Manage support requests. <br><br> - Customers need to manually add Surface devices. 
+| [Microsoft Surface Support Portal](/surface/media/microsoft-hardware-support-portal-tutorial.pdf) | Customers  looking to streamline support for their employees and users            | - [Microsoft 365 Admin Center](https://admin.microsoft.com/AdminPortal/)<br>- Microsoft 365 subscription | - Manage warranty and claims. Manage support requests. <br><br> - Customers need to manually add Surface devices. 
 |
 
 ## Learn more
 
 - [Surface self-serve portals: Created to elevate IT experience - Microsoft Community Hub](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/surface-self-serve-portals-created-to-elevate-it-experience/ba-p/1419002)
 - [Surface Management Portal](surface-management-portal.md)
-- [Microsoft Surface  Support Portal tutorial](/surface/media/microsoft-hardware-support-portal-tutorial.pdf)
+- [Microsoft Surface Support Portal tutorial](/surface/media/microsoft-hardware-support-portal-tutorial.pdf)
