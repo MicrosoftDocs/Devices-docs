@@ -344,6 +344,16 @@
             "source_path":  "surface/wake-on-lan-surface-thunderbolt4-dock.md",
             "redirect_url": "/surface/wake-on-lan-for-surface-devices",
             "redirect_document_id":  false
-        }                                    						
+        },         
+        {
+            "source_path":  "surface/enable-peap-eap-fast-and-cisco-leap-on-surface-devices.md",
+            "redirect_url": "/surface/get-started",
+            "redirect_document_id":  false
+        },
+        {
+            "source_path":  "surface/enroll-and-configure-surface-devices-with-semm.md",
+            "redirect_url": "/surface/surface-it-toolkit-uefi-config",
+            "redirect_document_id":  false
+        }                                            						
     ]
 }

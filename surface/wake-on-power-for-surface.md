@@ -59,24 +59,10 @@ Surface UEFI Configurator lets you save individual UEFI settings in a Windows In
 
 ## To enable Wake-on-Power
 
-1. Download the latest version of [Surface UEFI Configurator](https://www.microsoft.com/download/confirmation.aspx?id=46703).
-2. Sign in to your Surface device as an administrator, open **Surface UEFI Configurator**, select **Surface Devices**, and then select **Next**.
+1. Download and install the [Surface IT Toolkit](https://www.microsoft.com/download/confirmation.aspx?id=46703).
+2. Open [UEFI Configurator](surface-it-toolkit-uefi-config.md) and follow the instructions to create a [UEFI Configuration package](/surface/surface-it-toolkit-uefi-config#create-a-surface-uefi-configuration-package) that turns on Wake on Power for targeted devices. 
 
-    :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-1.png" alt-text="Select Surface Devices and select Next.":::
-3. Select **Start**, and then select **Create** under **Configuration Package**.
-
-    :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-2.png" alt-text="Select Create Configuration Package.":::
-4. Select **Certificate Protection**, and add your certificate .pfx file.
-5. Enter your password, select **Next**, add **Password Protection**, as appropriate, and then select **Next**.
-6. On the **Choose which Surface type you want to target** page, select your target devices as appropriate. For example, select **Surface Pro 7**.
-7. On the **Advanced Features** page, select **Wake-on-Power**, set the feature to **On**, and then select **Next**.
-
-    :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-3.png" alt-text="Select Wake-on-Power and set to On.":::
-8. On the **Successful** page, select **End**.
-
-    > [!NOTE]
-    > If this is the first time that you are providing settings to your device, you will be prompted to also provide the last two characters of the certificate thumbprint.
-9. Save the .msi package.
+3. Under **Advanced Settings**, toggle **Wake-on-Power** to **On**.
 
 ## Apply the MSI package
 
