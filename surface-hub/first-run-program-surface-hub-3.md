@@ -30,6 +30,9 @@ Optionally, connect any peripherals such as a keyboard or mouse.
 
 <!--Autopilot note to add -->
 
+> [!NOTE]
+> 
+
 ## Prerequisites
 
 Before you start Surface Hub 3 for the first time, ensure that you have the following items:

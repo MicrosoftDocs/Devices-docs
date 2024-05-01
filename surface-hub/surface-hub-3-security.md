@@ -6,7 +6,7 @@ author: coveminer
 ms.author: chauncel
 manager: frankbu
 ms.topic: overview
-ms.date: 12/08/2023
+ms.date: 04/29/2024
 ms.localizationpriority: Medium
 appliesto:
 - Surface Hub 3

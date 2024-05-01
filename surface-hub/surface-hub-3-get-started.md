@@ -16,6 +16,10 @@ appliesto:
 
 # Get started with Surface Hub running Microsoft Teams Rooms on Windows
 
+## Scope
+
+This article applies to [New Surface Hub 3 devices](surface-hub-3-whats-new.md), Surface Hub 2S devices [upgraded with the Surface Hub 3 Pack compute cartridge](install-manage-surface-hub-3-pack.md) and Surface Hub 2S devices [software-migrated to the Teams Rooms on Windows platform](surface-hub-2s-migrate-to-mtr-w.md).
+
 ## New installs
 
 New deliveries of Surface Hub 3 come preinstalled with the Microsoft Teams Rooms on Windows experience. Turn it on and follow the prompts for the first run startup experience (aka OOBE). See [First-time setup for Surface Hub 3](first-run-program-surface-hub-3.md) to learn more.
