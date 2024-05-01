@@ -1,5 +1,5 @@
 ---
-title: Get started with Surface Hub 3
+title: Get started with Surface Hub running Microsoft Teams Rooms on Windows
 description: Begin your journey with the Surface Hub 3 - find comprehensive guides on setup, features, and tips to maximize productivity with Microsoft's latest interactive whiteboard.
 ms.reviewer: dpandre
 manager: frankbu
@@ -14,7 +14,7 @@ appliesto:
 
 ---
 
-# Get started with Surface Hub 3
+# Get started with Surface Hub running Microsoft Teams Rooms on Windows
 
 ## New installs
 

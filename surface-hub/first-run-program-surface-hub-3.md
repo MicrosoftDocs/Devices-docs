@@ -1,5 +1,5 @@
 ---
-title: First-time setup for Surface Hub 3
+title: First-time setup for Surface Hub running Microsoft Teams Rooms on Windows
 description: Describes the first-time, out-of-the-box experience (OOBE) setup for Surface Hub 3.
 ms.reviewer: 
 manager: frankbu
@@ -12,7 +12,12 @@ ms.localizationpriority: medium
 appliesto:
 - Surface Hub 3
 ---
-# First-time setup for Surface Hub 3
+
+# First-time setup for Surface Hub running Microsoft Teams Rooms on Windows
+
+## Scope
+
+This article applies to [New Surface Hub 3 devices](surface-hub-3-whats-new.md), Surface Hub 2S devices [upgraded with the Surface Hub 3 Pack compute cartridge](install-manage-surface-hub-3-pack.md) and Surface Hub 2S devices [software-migrated to the Teams Rooms on Windows platform](surface-hub-2s-migrate-to-mtr-w.md).
 
 ## Unboxing and hardware setup
 
@@ -22,6 +27,8 @@ Carefully unbox Surface Hub 3 and attach to a stand or mount, per the instructio
 - [Install and mount Surface Hub 85 inch](surface-hub-3-85-install-mount.md)
 
 Optionally, connect any peripherals such as a keyboard or mouse.
+
+<!--Autopilot note to add -->
 
 ## Prerequisites
 
@@ -45,7 +52,12 @@ Upon startup, Surface Hub 3 automatically enters first-time Windows setup mode, 
 
    ![Screenshot of Surface Hub 3 startup.](images/surface-hub-3-oobe-fig1.png)
 
-2. Connect to a network, if prompted. 
+2. **Select your region.** Confirm the autodetected region and select **Yes**. If you wish to [use a provisioning pack](#use-provisioning-packages-in-enterprise-environments), insert the USB thumb drive into one of the USB ports.
+
+   ![Screenshot of Select your region.](images/surface-hub-3-oobe-fig1a.png)
+3. **Confirm keyboard layout.** Select **Yes**.
+
+   ![Screenshot of Confirm keyboard layout.](images/surface-hub-3-oobe-fig1b.png)2. Connect to a network, if prompted. 
 
    ![Screenshot of Connect to a network.](images/surface-hub-3-oobe-fig1-0.png)
 
@@ -55,15 +67,7 @@ Upon startup, Surface Hub 3 automatically enters first-time Windows setup mode, 
    > [!NOTE]
    > You cannot connect to a wireless network in hotspots (captive portals) that redirect sign-in requests to a provider's website.
 
-3. **Select your region.** Confirm the autodetected region and select **Yes**.
-
-   ![Screenshot of Select your region.](images/surface-hub-3-oobe-fig1a.png)
-
-4. **Confirm keyboard layout.** Select **Yes**.
-
-   ![Screenshot of Confirm keyboard layout.](images/surface-hub-3-oobe-fig1b.png)
-
-5. To add a second keyboard, select **Add layout**. Otherwise, select **Skip**.
+4. To add a second keyboard, select **Add layout**. Otherwise, select **Skip**.
 
    ![Screenshot of Add a second keyboard.](images/surface-hub-3-oobe-fig1c.png)
 
@@ -87,7 +91,7 @@ Surface Hub 3 supports a subset of provisioning pack features available in Windo
 - Microsoft Entra ID join (Azure AD join)
 
 1. To begin, review the Windows 10 Team edition documentation in [Create provisioning packages](provisioning-packages-for-surface-hub.md) and save the package to a USB thumb drive.
-2. Insert the USB thumb drive into one of the USB ports when you see the License Agreement page.
+2. Insert the USB thumb drive into one of the USB ports when you see the Region selection page.
 3. When prompted, choose the provisioning package you want.
 4. Follow the rest of the steps, and remove the USB drive at the first reboot that occurs in the setup process.
 
