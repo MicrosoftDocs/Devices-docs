@@ -25,7 +25,7 @@ Surface Hub 3 runs the Microsoft Teams Rooms experience on Windows. Depending on
 
 - [Change default local admin password](#change-default-local-admin-password)
 - [Set a UEFI password](#set-a-uefi-password)
-- [Physically secure Surface Hub 3](#physically-secure-surface-hub-3)
+- [Physically secure Surface Hub 3](#physically-secure-surface-hub)
 
 > [!TIP]
 > Before you begin, review the guidance for [Microsoft Teams Rooms security](/microsoftteams/rooms/security?tabs=Windows), which primarily focuses on security for tabletop conference devices: [Teams Rooms certified systems](/microsoftteams/rooms/certified-hardware?tabs=Windows). The Windows 11 IoT Enterprise operating system provides IT admins with a range of centralized configuration and management options.  
