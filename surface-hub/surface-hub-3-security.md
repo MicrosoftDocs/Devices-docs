@@ -1,6 +1,6 @@
 ---
-title: "Surface Hub 3 security best practices"
-description: "This page explains best practices for Surface Hub 3 security."
+title: "Security best practices for Surface Hubs running Microsoft Teams Rooms on Windows"
+description: "This page explains best practices for Surface Hubs running Microsoft Teams Rooms on Windows."
 ms.service: surface-hub
 author: coveminer
 ms.author: chauncel
@@ -21,7 +21,7 @@ This article applies to [New Surface Hub 3 devices](surface-hub-3-whats-new.md),
 
 ## Introduction
 
-Surface Hub 3<sup>1</sup> runs the Microsoft Teams Rooms experience on Windows. Depending on your organization's security posture, you might wish to take other security measures, as described in this article. At a minimum, we recommended the following measures:
+Surface Hub 3 runs the Microsoft Teams Rooms experience on Windows. Depending on your organization's security posture, you might wish to take other security measures, as described in this article. At a minimum, we recommended the following measures:
 
 - [Change default local admin password](#change-default-local-admin-password)
 - [Set a UEFI password](#set-a-uefi-password)
@@ -34,7 +34,7 @@ Surface Hub 3<sup>1</sup> runs the Microsoft Teams Rooms experience on Windows. 
 
 The default local admin account is a well-known entry point for malicious actors. If the default admin password remains unchanged after first-time setup, the device might be vulnerable to data breaches, system manipulation, or other unauthorized access.
 
-### To change the local admin password on Surface Hub 3
+### To change the local admin password on Surface Hub 
 
 1. Sign in with admin credentials and go to **Settings > Accounts > Sign-in options > Password > Change**.
 2. Enter the current default password:**sfb**.
@@ -53,7 +53,7 @@ Use the [Surface IT Toolkit](https://www.microsoft.com/download/confirmation.asp
 [Surface Enterprise Management Mode (SEMM)](/surface/surface-enterprise-management-mode).
 
 
-### Enroll Surface Hub 3 in SEMM
+### Enroll Surface Hub in SEMM
 
 You need a dedicated USB drive with at least 50 MB of storage space.  
 
@@ -86,9 +86,9 @@ You need a dedicated USB drive with at least 50 MB of storage space.
 
     :::image type="content" source="images/uefi-config-uefi-pw.png" alt-text="Screenshot showing screen to build UEFI DFI Package.":::
 
-8. Upon successful creation of the package, the Configurator displays the last two characters of your certificate's thumbprint. You need these characters when you import the configuration to Surface Hub 3.
+8. Upon successful creation of the package, the Configurator displays the last two characters of your certificate's thumbprint. You need these characters when you import the configuration to Surface Hub.
 
-## Physically secure Surface Hub 3
+## Physically secure Surface Hub 
 
 Physical security is as crucial a tool as digital security. Devices like the Surface Hub in public conference rooms can be susceptible to physical damage or tampering. To protect Surface Hub, consider the following steps:
 
@@ -98,7 +98,7 @@ Physical security is as crucial a tool as digital security. Devices like the Sur
 
 ## Differences with Windows 10 Team on Surface Hub & Surface Hub 2S
 
-The following security features are no longer enabled by default on Surface Hub 3:
+The following security features are no longer enabled by default on Surface Hub on MTR-W:
 
 - [BitLocker](/windows/security/information-protection/bitlocker/bitlocker-overview)
 - [User Mode Code Integrity (UMCI)](/surface-hub/surface-hub-security#operating-system-defenses)
@@ -107,9 +107,9 @@ The following security features are no longer enabled by default on Surface Hub 
 
 You can enable BitLocker via Intune when joined to Microsoft Entra ID (Azure AD). See [Encrypt Windows devices with BitLocker in Intune](/mem/intune/protect/encrypt-devices) to learn more.
 
-### To enable BitLocker on a stand-alone Surface Hub 3
+### To enable BitLocker on a stand-alone Surface Hub running MTR-W
 
-1. Sign in to Surface Hub 3 with admin credentials.
+1. Sign in to Surface Hub with admin credentials.
 2. Select Start, enter **Control, and open **Control Panel**.
 3. Select **System & Security** > **BitLocker Drive Encryption** > **Turn on BitLocker.**
 
@@ -121,7 +121,7 @@ UMCI enforces code integrity policies and ensures that only trusted code runs in
 
 ## Microsoft Teams Rooms Pro Management
 
-We highly recommend utilizing the Microsoft Teams Rooms Pro Management portal license. This cloud-based management platform is designed to elevate the meeting room experience by offering proactive monitoring and updates for Microsoft Teams Rooms devices and their peripherals. Intended for organizations looking to optimize their meeting environments, this service ensures real-time oversight and management of Microsoft Teams Rooms devices, including Surface Hub 3. By adopting this solution, organizations can significantly enhance usability and reliability for end users, ensuring seamless meeting experiences.
+We highly recommend utilizing the Microsoft Teams Rooms Pro Management portal license. This cloud-based management platform is designed to elevate the meeting room experience by offering proactive monitoring and updates for Microsoft Teams Rooms devices and their peripherals. Intended for organizations looking to optimize their meeting environments, this service ensures real-time oversight and management of Microsoft Teams Rooms devices, including Surface Hub. By adopting this solution, organizations can significantly enhance usability and reliability for end users, ensuring seamless meeting experiences.
 
 - **Intelligent operations**: Utilizes software and machine learning to automate updates, detect problems, and resolve issues for Microsoft Teams Rooms.
 - **Timely security updates**: Automated update management ensures that security patches are applied promptly as they become available, minimizing the window of vulnerability and protecting devices from known security threats.
@@ -129,16 +129,16 @@ We highly recommend utilizing the Microsoft Teams Rooms Pro Management portal li
 
 To learn more, see [Microsoft Teams Rooms Pro Management.](/microsoftteams/rooms/rooms-pro-management)
 
-## Enterprise Management of Surface Hub 3
+## Enterprise Management of Surface Hub on MTR-W
 
-We recommend you join Surface Hub 3 to Microsoft Entra ID (Azure AD) and manage the device using Microsoft Intune or equivalent mobile device management (MDM) solution. The following table describes configuration management options for Intune.
+We recommend you join Surface Hub to Microsoft Entra ID (Azure AD) and manage the device using Microsoft Intune or equivalent mobile device management (MDM) solution. The following table describes configuration management options for Intune.
 
 | Feature                           | Description                                                                                                                                                                                                                                                                              | Learn More                                                                                                                                                                                                                                                                 |
 | --------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Device configuration profiles** | Use Intune's endpoint protection settings to configure Windows Defender, firewall settings, and other security features to protect the device from potential threats.                                                                                                                    | [Create device profiles in Microsoft Intune](/mem/intune/configuration/device-profile-create)                                                                                                                                             |
 | **Device compliance policies**    | Ensure the device complies with your organization's security standards. If a device falls out of compliance (for example, if a required update isn't installed), you can configure automated remediation actions or notifications.                                                     | [Create device compliance policies in Microsoft Intune](/mem/intune/protect/create-compliance-policy)                                                                                                                                     |
 | **Update management**             | Use default update management settings to automatically install updates during a nightly maintenance window. Intune provides more options to customize if needed.                                                                                                                  | [Windows Update settings you can manage with Intune Update Ring policies for Windows 10/11 devices.](/mem/intune/protect/windows-update-settings)                                                                                         |
-| **App management**                | Use Intune to manage the apps installed on Surface Hub 3. Ensure only necessary apps related to Teams Rooms functionality are installed and regularly updated.                                                                                                                           | [Manage and secure apps in Intune](/mem/intune/fundamentals/manage-apps)                                                                                                                                               |
+| **App management**                | Use Intune to manage the apps installed on Surface Hub on MTR-W. Ensure only necessary apps related to Teams Rooms functionality are installed and regularly updated.                                                                                                                           | [Manage and secure apps in Intune](/mem/intune/fundamentals/manage-apps)                                                                                                                                               |
 | **BitLocker encryption**          | Ensure that the device's storage is encrypted using BitLocker. This protects data against unauthorized access or device theft. Unlike Surface Hub 2S, BitLocker isn't installed by default.                                                                                     | [Encrypt Windows devices with BitLocker in Intune](/mem/intune/protect/encrypt-devices)                                                                                                                                |
 |**WindowsLocal Administrator Password Solution**|Windows LAPS automatically manages local admin passwords, ensuring they're randomized and securely stored in Microsoft Entra ID (Azure AD). This reduces the risk associated with stale or widely known admin passwords.|[Microsoft Intune support for Windows LAPS](/mem/intune/protect/windows-laps-overview)
 | **Conditional access**            | Set up conditional access policies to ensure the device can access corporate resources only when it meets specific conditions, such as compliance with security policies.                                                                                                                | [Use Conditional Access with Microsoft Intune compliance policies](/mem/intune/protect/conditional-access)                                                                                                             |
@@ -194,10 +194,6 @@ Given these implications, organizations in highly secure workplace environments 
 ### Boot Order Lock
 
 Enabling the "Boot Order Lock" enhances the security posture by ensuring it only boots from authorized sources. Boot Order Lock is turned off by default.
-
-### References
-
-1. Applies to Surface Hub 3 and Surface Hub 2S upgraded with Surface Hub 3 Pack.
 
 ### Learn more
 
