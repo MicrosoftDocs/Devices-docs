@@ -33,7 +33,7 @@ appliesto:
 
 **What is the default admin password on Surface Hub running MTR-W?**
 
-- The default admin password is factory set to **sfb**. It's strongly recommended to change the password, as described in [Surface Hub 3 security best practices](surface-hub-3-security.md).
+- The default admin password is factory set to **sfb**. It's strongly recommended to change the password, as described in [Security best practices for Surface Hubs running Microsoft Teams Rooms on Windows](surface-hub-3-security.md).
 
 **How long will Surface Hub 2S be supported on the current OS?**
 
@@ -74,5 +74,5 @@ appliesto:
 - [Surface Hub 3 Pack FAQ](surface-hub-3-pack-faq.md)
 - [Get started with Surface Hub running Microsoft Teams Rooms on Windows](surface-hub-3-get-started.md)
 - [for Surface Hub running Microsoft Teams Rooms on Windows](first-run-program-surface-hub-3.md)
-- [Surface Hub 3 security best practices](surface-hub-3-security.md)
+- [Security best practices for Surface Hubs running Microsoft Teams Rooms on Windows](surface-hub-3-security.md)
 - [Install Windows Bloom wallpaper on Surface Hub 3](install-wallpaper-surface-hub.md)

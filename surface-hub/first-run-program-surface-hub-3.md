@@ -34,7 +34,7 @@ Optionally, connect any peripherals such as a keyboard or mouse.
 
 ## Prerequisites
 
-Before you start Surface Hub  running Microsoft Teams Rooms on Windows for the first time, ensure that you have the following items:
+Before you start Surface Hub running Microsoft Teams Rooms on Windows (MTR-W)for the first time, ensure that you have the following items:
 
 - A resource account with a [supported Microsoft Teams Rooms license](/microsoftteams/rooms/rooms-licensing). We recommend use of the Teams Rooms Pro license.
 - The ability to sign in with a resource account using your credentials or a one-time passcode, as configured in the [Microsoft Teams Rooms Pro Management portal](/microsoftteams/rooms/managed-meeting-rooms-portal).
@@ -116,7 +116,7 @@ To access the Admin account, sign in with the default password.
 2. Select **Administrator** and enter the password **sfb**. This method keeps the Skype user/Microsoft Teams Rooms app session active, which is needed for some admin tasks.
 
    > [!TIP]
-   > It's highly recommended to change the default admin password from sfb to a secure password with letters, numbers, and symbols. To learn more, see [Surface Hub 3 security best practices](surface-hub-3-security.md)
+   > It's highly recommended to change the default admin password from sfb to a secure password with letters, numbers, and symbols. To learn more, see [Security best practices for Surface Hubs running Microsoft Teams Rooms on Windows](surface-hub-3-security.md)
 
 ### Windows admin account functionality
 
@@ -140,5 +140,5 @@ To learn more about configuring Group Policy in domain-joined scenarios, see the
 ## Next steps
 
 - Although first-time setup automatically downloads required updates, run Windows Update to ensure you have the latest updates. Sign in to Surface Hub with an admin account, and open **Settings > Windows Update > Check for Updates**.
-- Review [Surface Hub 3 security best practices](surface-hub-3-security.md). At a minimum, along with changing the default admin password, follow the instructions to add a UEFI password and implement appropriate physical security measures.
+- Review [Security best practices for Surface Hubs running Microsoft Teams Rooms on Windows](surface-hub-3-security.md). At a minimum, along with changing the default admin password, follow the instructions to add a UEFI password and implement appropriate physical security measures.
 - Check you have the latest [Surface Hub Pen firmware](surface-hub-pen-firmware.md).

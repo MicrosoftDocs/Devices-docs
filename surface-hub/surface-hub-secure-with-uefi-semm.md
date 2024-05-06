@@ -100,4 +100,4 @@ To apply the package and enroll a Surface Hub into SEMM, insert the USB drive in
 
 ## Learn more
 
-- [Surface Hub 3 security best practices](surface-hub-3-security.md)
+- [Security best practices for Surface Hubs running Microsoft Teams Rooms on Windows](surface-hub-3-security.md)

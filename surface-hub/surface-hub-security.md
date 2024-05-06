@@ -20,7 +20,7 @@ Surface Hub and Surface Hub 2S provide a locked-down appliance-like experience w
 Built on Windows 10, Surface Hub delivers enterprise-grade modern security enabling IT admins to enforce data protection with BitLocker, Trusted Platform Module 2.0 (TPM), plus cloud-powered security with Windows Defender (also known as Microsoft Defender).
 
 > [!TIP]
-> For Surface Hub 3, see [Surface Hub 3 security best practices](surface-hub-3-security.md)
+> For Surface Hub 3, see [Security best practices for Surface Hubs running Microsoft Teams Rooms on Windows](surface-hub-3-security.md)
 
 ## Defense-in-depth security
 

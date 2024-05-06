@@ -1,6 +1,6 @@
 ---
 title: Get started with Surface Hub running Microsoft Teams Rooms on Windows
-description: Begin your journey with the Surface Hub 3 - find comprehensive guides on setup, features, and tips to maximize productivity with Microsoft's latest interactive whiteboard.
+description: Begin your journey with Surface Hub running Microsoft Teams Rooms on Windows - find comprehensive guides on setup, features, and tips to maximize productivity with Microsoft's latest interactive whiteboard.
 ms.reviewer: dpandre
 manager: frankbu
 ms.service: surface-hub
@@ -35,7 +35,7 @@ In addition to Microsoft Intune and third-party MDM providers, IT admins can man
 
 ## Security considerations
 
-Depending on your organization's security posture, you may wish to implement additional security measures beyond the default experience of running Microsoft Teams Rooms on Windows in a locked-down state. This includes changing the default Administrator password (factory set to **sfb**), adding a UEFI password, and implementing appropriate physical security measures. To learn more, see [Surface Hub 3 security best practices](surface-hub-3-security.md).
+Depending on your organization's security posture, you may wish to implement additional security measures beyond the default experience of running Microsoft Teams Rooms on Windows in a locked-down state. This includes changing the default Administrator password (factory set to **sfb**), adding a UEFI password, and implementing appropriate physical security measures. To learn more, see [Security best practices for Surface Hubs running Microsoft Teams Rooms on Windows](surface-hub-3-security.md).
 
 ### Teams management portals
 
@@ -68,7 +68,7 @@ a [Teams Rooms](/microsoftteams/rooms/rooms-licensing) license. A Teams Rooms Pr
 
 - [Site readiness guide for Surface Hub 3](surface-hub-3-site-readiness-guide.md)
 - [First-time setup for Surface Hub running Microsoft Teams Rooms on Windows](first-run-program-surface-hub-3.md)
-- [Surface Hub 3 security best practices](surface-hub-3-security.md)
+- [Security best practices for Surface Hubs running Microsoft Teams Rooms on Windows](surface-hub-3-security.md)
 - [Install Windows Bloom wallpaper on Surface Hub 3](install-wallpaper-surface-hub.md)
 
 ### Learn more
