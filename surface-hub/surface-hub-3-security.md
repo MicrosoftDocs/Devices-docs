@@ -13,7 +13,7 @@ appliesto:
 - Surface Hub 3 Pack
 ---
 
-# Surface Hub 3 security best practices
+# Security best practices for Surface Hub running Microsoft Teams Rooms on Windows
 
 ## Scope
 
