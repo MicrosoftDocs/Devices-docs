@@ -15,7 +15,7 @@ metadata:
   ms.author: samanro #Required; microsoft alias of author; optional team alias.
   ms.date: 07/03/2019 #Required; mm/dd/yyyy format.
   ms.collection: essentials-navigation
-  localization_priority: Priority
+  ms.localizationpriority: Medium
 
 # highlightedContent section (optional)
 # Maximum of 8 items
