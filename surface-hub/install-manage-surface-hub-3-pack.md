@@ -141,7 +141,7 @@ Select your country/region and follow the instructions to obtain a shipping labe
 
 ## Wallpaper installation
 
-The latest Windows Bloom wallpaper is available for your Surface Hub 3 device or Pack. To learn more, see [Install Windows Bloom wallpaper on Surface Hub 3](install-wallpaper-surface-hub.md).
+The latest Windows Bloom wallpaper is available for your Surface Hub 3 device or Pack. To learn more, see [Install wallpaper on Surface Hub running Microsoft Teams Rooms on Windows](install-wallpaper-surface-hub.md).
 
 ### Learn more
 

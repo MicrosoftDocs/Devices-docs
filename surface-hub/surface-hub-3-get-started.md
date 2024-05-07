@@ -69,7 +69,7 @@ a [Teams Rooms](/microsoftteams/rooms/rooms-licensing) license. A Teams Rooms Pr
 - [Site readiness guide for Surface Hub 3](surface-hub-3-site-readiness-guide.md)
 - [First-time setup for Surface Hub running Microsoft Teams Rooms on Windows](first-run-program-surface-hub-3.md)
 - [Security best practices for Surface Hubs running Microsoft Teams Rooms on Windows](surface-hub-3-security.md)
-- [Install Windows Bloom wallpaper on Surface Hub 3](install-wallpaper-surface-hub.md)
+- [Install wallpaper on Surface Hub running Microsoft Teams Rooms on Windows](install-wallpaper-surface-hub.md)
 
 ### Learn more
 

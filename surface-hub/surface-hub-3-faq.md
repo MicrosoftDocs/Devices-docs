@@ -62,7 +62,7 @@ appliesto:
 **What other features are only available on Surface Hub 3 hardware?**
 
 - **Intelligent Audio:** The Surface Hub 3 50” features two microphone arrays and speaker pairings. Smart AV optimizes audio based on device orientation, delivering the best stereo experience whether in Portrait or Landscape.
-- **Faster Performance:** With a 60% CPU performance increase and a 160% GPU graphics performance increase gen-on-gen, Surface Hub 3 customers will enjoy a more powerful system that is also primed to capitalize on future software innovation. 
+- **Faster Performance:** As stated earlier, with a 60% CPU performance increase and a 160% GPU graphics performance increase gen-on-gen, Surface Hub 3 customers benefit from a more powerful system that is also primed to capitalize on future software innovation. 
 
 **What are the VESA mount specifications?**
 
@@ -75,4 +75,4 @@ appliesto:
 - [Get started with Surface Hub running Microsoft Teams Rooms on Windows](surface-hub-3-get-started.md)
 - [for Surface Hub running Microsoft Teams Rooms on Windows](first-run-program-surface-hub-3.md)
 - [Security best practices for Surface Hubs running Microsoft Teams Rooms on Windows](surface-hub-3-security.md)
-- [Install Windows Bloom wallpaper on Surface Hub 3](install-wallpaper-surface-hub.md)
+- [Install wallpaper on Surface Hub running Microsoft Teams Rooms on Windows](install-wallpaper-surface-hub.md)
