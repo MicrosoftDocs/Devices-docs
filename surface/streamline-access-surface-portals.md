@@ -64,4 +64,4 @@ Save your email and password before moving to the next step. Select **Next** to 
 
     :::image type="content" source="images/m365-admin-center.png" alt-text="Screenshot of Microsoft 365 Admin Center.":::
 
-To expedite your support request, include your devices serial number and your shipping address in the **Issue Description** field.
+8. To expedite your support request, include your devices serial number and your shipping address in the **Issue Description** field.
