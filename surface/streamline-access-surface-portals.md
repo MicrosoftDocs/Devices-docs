@@ -37,7 +37,7 @@ This onboarding page helps validate the existing Microsoft tenant of the organiz
 
 - If your organization doesn't have a tenant with Microsoft, proceed to **Step 2**.
 
-:::image type="content" source="images/portal-signin.png" alt-text="Screenshot of sign in page.":::
+    :::image type="content" source="images/portal-signin.png" alt-text="Screenshot of sign in page.":::
 
 2. **Setup Account** – Initiate the process of creating a new account with Microsoft.
 
@@ -62,6 +62,6 @@ Save your email and password before moving to the next step. Select **Next** to 
 
 - If your Surface Support Portal access request is rejected or if there's a delay in gaining access, you can still create support orders for your Surface devices by selecting  the Help and Support node.
 
-:::image type="content" source="images/m365-admin-center.png" alt-text="Screenshot of Microsoft 365 Admin Center.":::
+    :::image type="content" source="images/m365-admin-center.png" alt-text="Screenshot of Microsoft 365 Admin Center.":::
 
 To expedite your support request, include your devices serial number and your shipping address in the **Issue Description** field.
