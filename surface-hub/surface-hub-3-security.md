@@ -15,6 +15,12 @@ appliesto:
 
 # Surface Hub 3 security best practices
 
+## Scope
+
+This article applies to [New Surface Hub 3 devices](surface-hub-3-whats-new.md), Surface Hub 2S devices [upgraded with the Surface Hub 3 Pack compute cartridge](install-manage-surface-hub-3-pack.md) and Surface Hub 2S devices [software-migrated to the Teams Rooms on Windows platform](surface-hub-2s-migrate-to-mtr-w.md).
+
+## Introduction
+
 Surface Hub 3<sup>1</sup> runs the Microsoft Teams Rooms experience on Windows. Depending on your organization's security posture, you might wish to take other security measures, as described in this article. At a minimum, we recommended the following measures:
 
 - [Change default local admin password](#change-default-local-admin-password)
