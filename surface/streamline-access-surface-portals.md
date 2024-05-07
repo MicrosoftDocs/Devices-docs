@@ -33,13 +33,11 @@ This onboarding page helps validate the existing Microsoft tenant of the organiz
 > [!NOTE]
 > This is only applicable to US and Canada customers who do not currently have an Intune or Microsoft 365 subscription.
 
-1. **Select this [link](https://signup.microsoft.com/createaccount?culture=en-us&country=us&ru=https%3A%2F%2Fadmin.microsoft.com%2FAdminportal%2FHome%3Fmcapiorgid%3D%7Bmcapiorgid%7D%26accountid%3D%7Baccountid%7D%26&origin=servicesHub&scenario=skiplba)** to validate the email and domain of your organization.
+1. **Select this [link](https://signup.microsoft.com/createaccount?culture=en-us&country=us&ru=https%3A%2F%2Fadmin.microsoft.com%2FAdminportal%2FHome%3Fmcapiorgid%3D%7Bmcapiorgid%7D%26accountid%3D%7Baccountid%7D%26&origin=servicesHub&scenario=skiplba)** to validate the email and domain of your organization. Enter the organization's email address. If your organization and domain are already registered with Microsoft, you must sign in with your organizational credentials. In this case, you should contact your IT admin to gain access to these credentials.
+
+- If your organization doesn't have a tenant with Microsoft, proceed to **Step 2**.
 
 :::image type="content" source="images/portal-signin.png" alt-text="Screenshot of sign in page.":::
-
-Enter the organization's email address. If your organization and domain are already registered with Microsoft, you must sign in with your organizational credentials. In this case, you should contact your IT admin to gain access to these credentials.
-
-If your organization doesn't have a tenant with Microsoft, proceed to **Step 2**.
 
 2. **Setup Account** – Initiate the process of creating a new account with Microsoft.
 
@@ -60,10 +58,10 @@ Save your email and password before moving to the next step. Select **Next** to 
 
 6. After completing the payment information, you're redirected to the Microsoft 365 admin center homepage. Select **Finish**.
 
-:::image type="content" source="images/m365-admin-center.png" alt-text="Screenshot of Microsoft 365 Admin Center.":::
-
 7. Once on the Microsoft 365 admin center, you can request access to the Surface Support Portal.
 
 - If your Surface Support Portal access request is rejected or if there's a delay in gaining access, you can still create support orders for your Surface devices by selecting  the Help and Support node.
+
+:::image type="content" source="images/m365-admin-center.png" alt-text="Screenshot of Microsoft 365 Admin Center.":::
 
 To expedite your support request, include your devices serial number and your shipping address in the **Issue Description** field.
