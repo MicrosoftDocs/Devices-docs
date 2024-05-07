@@ -101,7 +101,7 @@ Choose one of the following options:
    > After this initial restart, do not interfere with the system; even though it may appear nothing is happening and you still see the same experience, the migration proceeds independently after completing all necessary backend processes (including downloading and unzipping the new Teams Rooms on Windows image).
 
 5. Typical migration time is around **90** minutes from restart after installing the Migration Launcher app, but the length can vary depending on many characteristics, including customer network bandwidth and related factors.
-6. When migration is complete, the device displays the Windows first-time setup program, also known as Out of the Box Experience (OOBE). To learn more, see [First-time setup for Surface Hub 3](first-run-program-surface-hub-3.md).
+6. When migration is complete, the device displays the Windows first-time setup program, also known as Out of the Box Experience (OOBE). To learn more, see [First-time setup for Surface Hub running Microsoft Teams Rooms on Windows](first-run-program-surface-hub-3.md).
 
 ### Remotely install Migration Launcher app via Intune
 
@@ -232,7 +232,7 @@ This might take a few minutes, depending on network connectivity or other factor
   > Several factors contribute to how long it takes for the app to finish deployment and installation on the target devices, including device power/sleep state, sync cadence/status with Intune, and related factors. Continue to monitor Intune status for indications of successful app deployment.
 
 - Once the app is deployed, the next restart initiates migration, which - in this remote deployment scenario - is likely to be the automatic restart as part of the nightly maintenance window. Similar to the manual app deployment scenario, the migration process typically takes about 90 minutes after this restart (but many factors can impact migration time, as explained earlier, with a test example exceeding 5 hours on a slower network). Customers must test and validate sequences relative to their unique infrastructure and management approaches.
-- When migration is complete, the device displays the Windows first-time setup program, also known as Out of the Box Experience (OOBE). To learn more, see [First-time setup for Surface Hub 3](first-run-program-surface-hub-3.md).
+- When migration is complete, the device displays the Windows first-time setup program, also known as Out of the Box Experience (OOBE). To learn more, see [First-time setup for Surface Hub running Microsoft Teams Rooms on Windows](first-run-program-surface-hub-3.md).
 
 > [!TIP]
 > If you configured seamless deployment with Autopilot, the Windows first-time setup program automatically proceeds according to the Autopilot configuration you've established. Once complete, you can see the device registered in Intune and appearing online in the Teams Rooms Management Portal. To ensure the device is properly online and visible in the Teams Admin Center, refer to the following section.
@@ -269,7 +269,7 @@ If you've previously registered a Surface Hub 2S in Intune before transitioning 
 Review the following articles for recommended next steps:
 
 - [Get started with Surface Hub running Microsoft Teams Rooms on Windows](surface-hub-3-get-started.md)
-- [First-time setup for Surface Hub 3](first-run-program-surface-hub-3.md)
+- [First-time setup for Surface Hub running Microsoft Teams Rooms on Windows](first-run-program-surface-hub-3.md)
 - [Security best practices for Surface Hubs running Microsoft Teams Rooms on Windows](surface-hub-3-security.md)
 - [Install Windows Bloom wallpaper on Surface Hub 3](install-wallpaper-surface-hub.md)
 

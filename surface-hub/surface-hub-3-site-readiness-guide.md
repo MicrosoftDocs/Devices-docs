@@ -25,4 +25,4 @@ ms.localizationpriority: Medium
 ## Learn more 
 
 - [Get started with Surface Hub running Microsoft Teams Rooms on Windows](surface-hub-3-get-started.md)
-- [First-time setup for Surface Hub 3](first-run-program-surface-hub-3.md)
+- [First-time setup for Surface Hub running Microsoft Teams Rooms on Windows](first-run-program-surface-hub-3.md)

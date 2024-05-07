@@ -58,7 +58,7 @@ Review the following demo and follow the instructions on this page.
 5. Fasten the locking screw and slide the cover into place. Power on your new Surface Hub 3.  
 6. To complete setup, refer to the following articles:
 
-- [First-time setup for Surface Hub 3](first-run-program-surface-hub-3.md).
+- [First-time setup for Surface Hub running Microsoft Teams Rooms on Windows](first-run-program-surface-hub-3.md).
 - [Security best practices for Surface Hubs running Microsoft Teams Rooms on Windows](surface-hub-3-security.md)
 
 ## Manage Surface Hub 3 
