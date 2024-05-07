@@ -20,7 +20,7 @@ appliesto:
 > [!NOTE]
 > **Home users**: This article is only intended for use by IT professionals and technical support agents, and applies only to Surface devices. If you're looking for help with a problem with your home device, please see [Surface Devices Help](https://support.microsoft.com/products/surface-devices).
 
-These are the Microsoft Support solutions for common issues you may experience using Surface devices in an enterprise. If your issue is not listed here, contact [Surface Support for Business and Education customers](https://surface.com/help).
+These are the Microsoft Support solutions for common issues you might experience using Surface devices in an enterprise. If your issue isn't listed here, contact [Surface Support for Business and Education customers](https://surface.com/help).
 
 ## Warranty and service
 
@@ -28,7 +28,7 @@ These are the Microsoft Support solutions for common issues you may experience u
 
 The Microsoft 365 Surface Support Portal provides a centralized solution for commercial customers to look up current warranty and protection plans, create service requests, and track the status of device repairs. Learn more about this service by reading the [walkthrough tutorial](https://opdhsblobprod04-secondary.blob.core.windows.net/contents/c431470c962e48af91a266cb2568e19a/9fbcdaa53e1a41dbcac90477966078a6?skoid=2d004ef0-5468-4cd8-a5b7-14c04c6415bc&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2022-11-14T03%3A35%3A21Z&ske=2022-11-21T03%3A40%3A21Z&sks=b&skv=2020-10-02&sv=2020-08-04&se=2022-11-16T18%3A45%3A36Z&sr=b&sp=r&sig=h3igiCEwFuB1R8qswMH8P4QdCEH7MF4dh38nXvSeIzk%3D).
 
-To access the portal, sign in to your M365 Admin Center (active access is required) and then register to use the platform by using this [link](https://admin.microsoft.com/adminportal/home#/support/microsofthardwaresupport).
+To access the portal, sign in to your Microsoft 365 Admin Center (active access is required) and then register to use the platform by using this [link](https://admin.microsoft.com/adminportal/home#/support/microsofthardwaresupport).
 
 > [!NOTE]
 > This service does not address Surface accessories, Surface Hub, or product safety concerns.
@@ -45,7 +45,7 @@ To access the portal, sign in to your M365 Admin Center (active access is requir
 
 ### Next troubleshooting steps
 
-Click on the relevant support article from the table below and follow the recommended next steps to resolve the issue.
+Select on the relevant support article from the following table and implement the recommended next steps to resolve the issue.
 
 |Issue category|Support article|
 |---|---|
@@ -57,7 +57,7 @@ Click on the relevant support article from the table below and follow the recomm
 |Keyboard, Touchpad and Input|[Troubleshoot your Surface Pen](https://support.microsoft.com/surface/troubleshoot-your-surface-pen-f1fc2b8a-ac5c-f728-0f99-3dc2e8943593)<br/>[Troubleshoot Surface Type Cover or Keyboard](https://support.microsoft.com/surface/troubleshoot-surface-type-cover-or-keyboard-c106b37d-f55a-4640-8cb2-8f1b2b0207ea)<br/>[Fix touchpad problems in Windows](https://support.microsoft.com/windows/fix-touchpad-problems-in-windows-30b498e5-0caa-9740-2b21-336ea75ee756)
 |Surface Dock issues|[Troubleshoot Surface Dock and docking stations](https://support.microsoft.com/surface/troubleshoot-surface-dock-or-surface-docking-station-2cbef2fb-b2d4-3bdd-4846-36dbbeb80abc)<br/>[Troubleshoot connecting Surface to a second screen](https://support.microsoft.com/surface/troubleshoot-connecting-surface-to-a-second-screen-bc8f5121-a4cb-cf0b-5770-2df7a66a3b28)<br/>[Microsoft Surface Dock 1 Firmware Update](surface-dock-firmware-update.md)|
 |Reset device|[Creating and using a USB recovery drive for Surface](https://support.microsoft.com/surface/creating-and-using-a-usb-recovery-drive-for-surface-677852e2-ed34-45cb-40ef-398fc7d62c07)<br/>[FAQ: Protecting your data if you send your Surface in for service](https://support.microsoft.com/surface/faq-protecting-your-data-if-you-send-your-surface-in-for-service-ec014576-841e-f865-7b2a-b363a75272f3)<br/>[Microsoft Surface Data Eraser](microsoft-surface-data-eraser.md)|
-|Deployment issues|[DISK0 not found when you deploy Windows on a Surface device that has 1TB drive configuration](https://support.microsoft.com/topic/disk0-not-found-when-you-deploy-windows-on-a-surface-device-that-has-1tb-drive-configuration-a3a809a9-c181-ee24-93a8-0d9a0e6d5b89)<br/>[Surface Device that has a 1TB drive configuration shows two drives](https://support.microsoft.com/topic/surface-device-that-has-a-1tb-drive-configuration-shows-two-drives-ae6d68fa-5b07-d786-c05b-616e6c42c26e)<br/>[System SKU reference](surface-system-sku-reference.md)|
+|Deployment issues|[DISK0 not found when you deploy Windows on a Surface device that has 1 TB drive configuration](https://support.microsoft.com/topic/disk0-not-found-when-you-deploy-windows-on-a-surface-device-that-has-1tb-drive-configuration-a3a809a9-c181-ee24-93a8-0d9a0e6d5b89)<br/>[Surface Device that has a 1-TB drive configuration shows two drives](https://support.microsoft.com/topic/surface-device-that-has-a-1tb-drive-configuration-shows-two-drives-ae6d68fa-5b07-d786-c05b-616e6c42c26e)<br/>[System SKU reference](surface-system-sku-reference.md)|
 
 ## Enterprise (Deploy, Manage, IT Tools)
 
@@ -65,7 +65,7 @@ Click on the relevant support article from the table below and follow the recomm
 
 [Surface Registration Support for Windows Autopilot](surface-autopilot-registration-support.md)
 
-[How do I use the BIOS/UEFI on Surface devices](https://support.microsoft.com/surface/how-do-i-use-the-bios-uefi-on-surface-devices-0f5953d2-befa-3617-a0e5-9735945af774)
+[How do I use the BIOS/UEFI on Surface devices?](https://support.microsoft.com/surface/how-do-i-use-the-bios-uefi-on-surface-devices-0f5953d2-befa-3617-a0e5-9735945af774)
 
 [How to use Surface UEFI](https://support.microsoft.com/surface/how-to-use-surface-uefi-df2c8942-dfa0-859d-4394-95f45eb1c3f9)
 
@@ -79,4 +79,4 @@ Click on the relevant support article from the table below and follow the recomm
 
 ## Need more help?
 
-To expedite your support request, make sure to include your device(s) serial number and your shipping address in the Issue Description field. If your issue was not listed or you need more help, contact [Surface Support for Business and Education customers](contact-surface-business-education-support.md?tabs=online).
+To expedite your support request, make sure to include your devices serial number and your shipping address in the Issue Description field. If your issue wasn't listed or you need more help, contact [Surface Support for Business and Education customers](contact-surface-business-education-support.md?tabs=online).
