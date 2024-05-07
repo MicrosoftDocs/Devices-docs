@@ -15,7 +15,7 @@ appliesto:
 ---
 
 
-# Streamlining access to Surface Portals for commercial customers
+# Streamline access to Surface Portals for commercial customers
 
 If your organization doesn't have a tenant with Microsoft:
 
