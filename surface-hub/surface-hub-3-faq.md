@@ -1,5 +1,5 @@
 ---
-title: Surface Hub 3 FAQ 
+title: Surface Hub running Microsoft Teams Rooms on Windows FAQ
 description: This page addresses questions about  Surface Hub 3 running the Microsoft Teams Rooms on Windows experience.
 ms.reviewer: dpandre
 manager: frankbu
@@ -7,15 +7,15 @@ ms.service: surface-hub
 author: coveminer
 ms.author: dpandre
 ms.topic: overview
-ms.date: 12/12/2023
+ms.date: 04/29/2023
 ms.localizationpriority: medium
 appliesto:
 - Surface Hub 3
 ---
 
-# Surface Hub 3 FAQ
+# FAQ: Surface Hub running Microsoft Teams Rooms on Windows
 
-**When will Surface Hub 3 start shipping with the Microsoft Teams Rooms on Windows experience?**
+**When did Surface Hub 3 start shipping with the Microsoft Teams Rooms on Windows experience?**
 
 - Surface Hub 3 started shipping December 5, 2023.
 
@@ -52,7 +52,7 @@ appliesto:
 
 **Will I be able to rotate Surface Hub on the new experience?**
 
-- Yes. Surface Hub 3 50" is the only device in its class with Smart Rotation.
+- Yes. Surface Hub 3 50" is the only device in its class with Smart Rotation. Surface Hub 2S does not support Smart Rotation. 
 
 **Will I be able to rotate Surface Hub 3 85"?**
 
@@ -63,7 +63,7 @@ appliesto:
 - Surface Hub 3 and Surface Hub 2S 50": **350 mm x 350 mm**.
 - Surface Hub 3 and Surface Hub 2S 85": **600 mm x 600 mm**. Requires [Surface Hub 2S 85" Mounting Adapter Kit](https://www.salamandercommercial.com/product/surface-hub-2s-85-mounting-adapter-kit/) (sold separately). 
 
-## Learn more.
+## Learn more
 
 - [Surface Hub 3 Pack FAQ](surface-hub-3-pack-faq.md)
 - [Get started with Surface Hub 3](surface-hub-3-get-started.md)
