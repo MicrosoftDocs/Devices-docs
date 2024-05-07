@@ -33,7 +33,7 @@ This onboarding page helps validate the existing Microsoft tenant of the organiz
 > [!NOTE]
 > This is only applicable to US and Canada customers who do not currently have an Intune or Microsoft 365 subscription.
 
-1. **Select this [link]()** to validate the email and domain of your organization.
+1. **Select this [link](https://signup.microsoft.com/createaccount?culture=en-us&country=us&ru=https%3A%2F%2Fadmin.microsoft.com%2FAdminportal%2FHome%3Fmcapiorgid%3D%7Bmcapiorgid%7D%26accountid%3D%7Baccountid%7D%26&origin=servicesHub&scenario=skiplba)** to validate the email and domain of your organization.
 
 :::image type="content" source="images/portal-signin.png" alt-text="Screenshot of sign in page.":::
 
