@@ -26,9 +26,10 @@ These are the Microsoft Support solutions for common issues you might experience
 
 ### Self-Serve your Surface Service Orders on the Microsoft 365 Surface Support Portal
 
-The Microsoft 365 Surface Support Portal provides a centralized solution for commercial customers to look up current warranty and protection plans, create service requests, and track the status of device repairs. Learn more about this service by reading the [walkthrough tutorial](https://opdhsblobprod04-secondary.blob.core.windows.net/contents/c431470c962e48af91a266cb2568e19a/9fbcdaa53e1a41dbcac90477966078a6?skoid=2d004ef0-5468-4cd8-a5b7-14c04c6415bc&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2022-11-14T03%3A35%3A21Z&ske=2022-11-21T03%3A40%3A21Z&sks=b&skv=2020-10-02&sv=2020-08-04&se=2022-11-16T18%3A45%3A36Z&sr=b&sp=r&sig=h3igiCEwFuB1R8qswMH8P4QdCEH7MF4dh38nXvSeIzk%3D).
 
-To access the portal, sign in to your Microsoft 365 Admin Center (active access is required) and then register to use the platform by using this [link](https://admin.microsoft.com/adminportal/home#/support/microsofthardwaresupport).
+The Microsoft 365 Surface Support Portal provides a centralized solution for commercial and education customers to look up current warranty and protection plans, create service requests, and track the status of device repairs. The portal may be accessed [here] (https://admin.microsoft.com/adminportal#/homepage) and is subject to an initial access authorization.
+ 
+US and Canada Customers who do not currently have an Intune or Microsoft 365 subscription: an enhanced Support experience offering self-serve functionalities is now available for your region.  Start using the new platform today: Get Support.  For detailed instructions on the initial sign-up process, please refer to our [step-by-step guide](streamline-access-surface-portals.md) here.
 
 
 ## Technical support scenarios
