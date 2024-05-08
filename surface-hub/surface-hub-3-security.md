@@ -8,9 +8,6 @@ manager: frankbu
 ms.topic: overview
 ms.date: 04/29/2024
 ms.localizationpriority: Medium
-appliesto:
-- Surface Hub 3
-- Surface Hub 3 Pack
 ---
 
 # Security best practices for Surface Hubs running Microsoft Teams Rooms on Windows
@@ -21,7 +18,7 @@ This article applies to [New Surface Hub 3 devices](surface-hub-3-whats-new.md),
 
 ## Introduction
 
-Surface Hub 3 runs the Microsoft Teams Rooms experience on Windows. Depending on your organization's security posture, you might wish to take other security measures, as described in this article. At a minimum, we recommended the following measures:
+Depending on your organization's security posture, you might wish to take other security measures, as described in this article. At a minimum, we recommended the following measures:
 
 - [Change default local admin password](#change-default-local-admin-password)
 - [Set a UEFI password](#set-a-uefi-password)

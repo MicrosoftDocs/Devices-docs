@@ -9,9 +9,6 @@ ms.author: chauncel
 ms.topic: how-to
 ms.date: 02/05/2024
 ms.localizationpriority: medium
-appliesto:
-- Surface Hub 3
-
 ---
 
 # Install wallpaper on Surface Hub running Microsoft Teams Rooms on Windows

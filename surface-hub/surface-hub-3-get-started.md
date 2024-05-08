@@ -9,10 +9,6 @@ ms.author: dpandre
 ms.topic: how-to
 ms.date: 12/04/2023
 ms.localizationpriority: medium
-appliesto:
-- Surface Hub 3
-- Surface Hub 2S
-
 ---
 
 # Get started with Surface Hub running Microsoft Teams Rooms on Windows
