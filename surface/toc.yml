@@ -132,6 +132,8 @@
           href: surface-management-portal.md
         - name: Manage your Surface warranty & service requests
           href: self-serve-warranty-service.md 
+        - name: Streamline access to Surface portals
+          href: streamline-access-surface-portals.md  
       - name: Windows Autopilot
         items:      
         - name: Windows Autopilot & Surface devices
