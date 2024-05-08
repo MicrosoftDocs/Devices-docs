@@ -8,7 +8,7 @@ manager: dcscontentpm
 audience: itpro
 ms.topic: how-to
 ms.service: surface-hub
-localization_priority: medium
+ms.localizationpriority: Medium
 ms.reviewer: jarrettr
 ms.custom: csstroubleshoot
 
