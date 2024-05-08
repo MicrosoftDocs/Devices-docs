@@ -30,9 +30,6 @@ The Microsoft 365 Surface Support Portal provides a centralized solution for
 
 To access the portal, sign in to your Microsoft 365 Admin Center (active access is required) and then register to use the platform by using this [link](https://admin.microsoft.com/adminportal/home#/support/microsofthardwaresupport).
 
-> [!NOTE]
-> This service does not address Surface accessories, Surface Hub, or product safety concerns.
-> The Surface Support Portal is accessible in the following countries/regions only: Australia, Austria, Belgium, Canada, Croatia, Cyprus, Czech Republic, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Iceland, Ireland, Italy, Japan, Latvia, Liechtenstein, Lithuania, Luxembourg, Netherlands, New Zealand, Norway, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, Switzerland, United Kingdom, and USA.
 
 ## Technical support scenarios
 
