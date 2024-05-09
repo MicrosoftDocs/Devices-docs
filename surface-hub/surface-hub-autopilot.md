@@ -10,6 +10,7 @@ ms.date: 03/26/2024
 ms.localizationpriority: Medium
 appliesto:
 - Surface Hub 3
+- Surface Hub 2S
 ---
 
 # Deploy Surface Hub with Windows Autopilot & Auto-login of Teams Rooms

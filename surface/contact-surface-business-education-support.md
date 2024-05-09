@@ -6,7 +6,7 @@ manager: frankbu
 ms.date: 6/14/2022
 ms.topic: how-to
 ms.service: surface
-localization_priority: medium
+ms.localizationpriority: Medium
 search.appverid:
 - SPO160
 - MET150

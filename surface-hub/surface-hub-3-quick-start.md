@@ -46,6 +46,6 @@ Remove the lens cling from the camera and attach it to the USB-C port on the top
 
 ### Learn more
 
-- [Install Windows Bloom wallpaper on Surface Hub 3](install-wallpaper-surface-hub.md)
+- [Install wallpaper on Surface Hub running Microsoft Teams Rooms on Windows](install-wallpaper-surface-hub.md)
 - [Install & mount Surface 50" models of Surface Hub 2S or Surface Hub 3](surface-hub-install-mount.md)
 - [Install and mount Surface Hub 3 85"](surface-hub-2s-85-install-mount.md)

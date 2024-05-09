@@ -11,7 +11,7 @@
           items:
            - name: What's new for Surface Hub 3
              href: surface-hub-3-whats-new.md
-           - name: Surface Hub 3 FAQ
+           - name: Surface Hub with Teams Rooms on Windows FAQ
              href: surface-hub-3-faq.md  
            - name: Surface Hub 3 Pack FAQ
              href: surface-hub-3-pack-faq.md 
@@ -30,9 +30,9 @@
                 href: first-run-program-surface-hub-3.md
               - name: Install & manage Surface Hub 3 Pack
                 href: install-manage-surface-hub-3-pack.md
-              - name: Surface Hub 3 security best practices
+              - name: Security best practices
                 href: surface-hub-3-security.md    
-              - name: Install wallpaper on Surface Hub 3
+              - name: Install wallpaper
                 href: install-wallpaper-surface-hub.md 
         - name: Windows 10 Team 2022
           expanded: true
