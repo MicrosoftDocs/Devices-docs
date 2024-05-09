@@ -33,15 +33,15 @@ landingContent:
             url: surface-hub-2s-migrate-to-mtr-w.md
           - text: What's new for Surface Hub 3   
             url: surface-hub-3-whats-new.md
-          - text: Get started with Surface Hub 3
+          - text: Get started with Surface Hub running Teams Rooms on Windows
             url: surface-hub-3-get-started.md
-          - text: First-time setup for Surface Hub 3
+          - text: First-time setup for Surface Hub running Teams Rooms on Windows
             url: first-run-program-surface-hub-3.md
-          - text: Surface Hub 3 FAQ
+          - text: FAQ - Surface Hub running Teams Rooms on Windows
             url: surface-hub-3-faq.md 
           - text: Install and manage Surface Hub 3 Pack
             url: install-manage-surface-hub-3-pack.md            
-          - text: Surface Hub 3 security best practices
+          - text: Security best practices for Surface Hubs running Teams Rooms on Windows
             url: surface-hub-3-security.md
           - text: Surface Hub 3 site readiness guide
             url: surface-hub-3-site-readiness-guide.md        
@@ -154,7 +154,7 @@ landingContent:
       - linkListType: get-started
         links:
           - url: surface-hub-3-security.md
-            text: Surface Hub 3 security best practices    
+            text: Security best practices for Surface Hubs running Teams Rooms on Windows  
           - url: surface-hub-security.md
             text: Surface Hub security overview 
           - url: surface-hub-2s-phone-authenticate.md

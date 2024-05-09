@@ -25,6 +25,8 @@ landingContent:
     linkLists:
       - linkListType: whats-new
         links:
+          - text: Surface IT Toolkit
+            url: surface-it-toolkit.md  
           - text: Introducing Surface Pro 10 & Surface Laptop 6
             url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/introducing-microsoft-surface-pro-10-and-surface-laptop-6-ai-pcs/ba-p/4090653
           - text: Tested peripherals for Surface Pro 10 & Laptop 6
@@ -34,9 +36,7 @@ landingContent:
           - text: Surface Laptop 6 smart card reader
             url: surface-laptop-smart-card-reader.md 
           - text: Surface ruggedness testing
-            url: surface-hardware-environmental-test-results.md            
-          - text: Set up Surface devices for SDR & HDR display measurements
-            url: configure-sdr-and-hdr-display.md    
+            url: surface-hardware-environmental-test-results.md              
           - text: Surface devices driver and firmware lifecycle 
             url: surface-driver-firmware-lifecycle-support.md
           - text: Explore all Surface family products
@@ -84,12 +84,14 @@ landingContent:
     linkLists:
       - linkListType: how-to-guide
         links:
-          - text: Surface Enterprise Management Mode (SEMM)
+          - text: Get started with Surface Enterprise Management Mode (SEMM)
             url: surface-enterprise-management-mode.md 
-          - text: Manage and deploy Surface driver and firmware updates
-            url: manage-surface-driver-and-firmware-updates.md
+          - text: Configure UEFI settings for Surface devices
+            url:  surface-it-toolkit-uefi-config.md
           - text: Manage DFCI on Surface devices
             url: surface-manage-dfci-guide.md
+          - text: Manage and deploy Surface driver and firmware updates
+            url: manage-surface-driver-and-firmware-updates.md
 
     # Card
   - title: Surface service & repair 
