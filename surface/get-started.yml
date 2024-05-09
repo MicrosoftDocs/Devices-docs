@@ -84,12 +84,14 @@ landingContent:
     linkLists:
       - linkListType: how-to-guide
         links:
-          - text: Surface Enterprise Management Mode (SEMM)
+          - text: Get started with Surface Enterprise Management Mode (SEMM)
             url: surface-enterprise-management-mode.md 
-          - text: Manage and deploy Surface driver and firmware updates
-            url: manage-surface-driver-and-firmware-updates.md
+          - text: Configure UEFI settings for Surface devices
+            url:  surface-it-toolkit-uefi-config.md
           - text: Manage DFCI on Surface devices
             url: surface-manage-dfci-guide.md
+          - text: Manage and deploy Surface driver and firmware updates
+            url: manage-surface-driver-and-firmware-updates.md
 
     # Card
   - title: Surface service & repair 
