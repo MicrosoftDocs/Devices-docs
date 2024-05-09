@@ -26,18 +26,6 @@ appliesto:
 
 Windows 10 version 22H2 is the [final version of Windows 10](/windows/release-health/release-information) with monthly security updates continuing through October 14, 2025. (The Windows 10 IoT Enterprise Long-Term Servicing Channel (LTSC) and Windows 10 IoT Enterprise will continue to receive updates based on their specific lifecycles.)
 
-|      Device           | Windows 10 | Windows 11 |
-| --------------------- | ---------- | ---------- |
-| Surface Laptop Go 2   | 22H2       | 22H2       |
-| Surface Laptop Go 3   | 22H2       | 22H2       |
-| Surface Laptop 4      | 22H2       | 22H2       |
-| Surface Laptop 5      | 22H2       | 22H2       |
-| Surface Laptop Studio | 22H2       | 22H2       |
-| Surface Go 3          | 22H2       | 22H2       |
-| Surface Go 4          | 22H2       | 22H2       |
-| Surface Pro 8         | 22H2       | 22H2       |
-| Surface Pro 9         | 22H2       | 22H2       |
-
 ## Downgrade from Windows 11 to Windows 10 via BMR 
 
 You can manually downgrade Windows Pro or Enterprise editions with a Surface Bare Metal Recovery (BMR) file designed for this purpose.
