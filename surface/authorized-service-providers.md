@@ -39,6 +39,7 @@ The growing ASP network consists of more than 160 locations.
 
 - [Applied Data Technologies](https://applieddatatech.com/)
 - [CompuCom](https://www.compucom.com/)
+- [Compugen](https://www.compugen.us/)
 - [Connection](https://www.connection.com/)
 - [Coreio](https://www.coreio.com/)
 - [DHE](https://www.dhecs.com/)
@@ -50,7 +51,10 @@ The growing ASP network consists of more than 160 locations.
 - [IT savvy](https://www.itsavvy.com/)
 - [MCPC](https://www.mcpc.com/)
 - [MicroK12](https://microk12.com/)
+- [Mobile ME IT](https://mobilemeit.com/)
+- [Sterling](https://sterling.com/)
 - [TD SYNNEX](https://www.synnexcorp.com/us/)
+- [Trafera](https://www.trafera.com/)
 - [UDT](https://udtonline.com/)
 - [Zones](https://www.zones.com/site/home/index.html)
 
@@ -68,6 +72,7 @@ The growing ASP network consists of more than 160 locations.
 #### Germany
 
 - [Bechtle](https://www.bechtle.com/)
+- [Hemmersbach](https://www.hemmersbach.com/)
 - [MetaComp](https://www.metacomp.de/)
 - [Ratiodata](https://www.ratiodata.de/)
 - [Think About It](https://think-about.it/)
