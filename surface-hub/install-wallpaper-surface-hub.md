@@ -49,7 +49,7 @@ This article applies to [New Surface Hub 3 devices](surface-hub-3-whats-new.md),
 
 ## Custom wallpaper
 
-To create a custom wallpaper, see [IT Admins- Manage and create custom meeting backgrounds for Teams meetings](/MicrosoftTeams/custom-meeting-backgrounds). 
+To create a custom wallpaper, see [Set up and manage Teams Rooms on Windows custom backgrounds](/microsoftteams/rooms/custom-backgrounds?tabs=Enhanced). 
 
 
 ## Learn more
