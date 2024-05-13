@@ -100,9 +100,12 @@ Using a third-party mobile device management (MDM) provider, you can use this se
 > [!div class="mx-imgBorder"]
 > ![add an application.](images/sh-prov-apps.png)
 
-You can install multiple Universal Windows Platform (UWP) apps in a provisioning package. To learn more, see [Provision PCs with apps](/windows/configuration/provisioning-packages/provision-pcs-with-apps).
+For Surface Hub 2S running Windows 10 Team edition, you can install multiple Universal Windows Platform (UWP) apps in a provisioning package. To learn more, see [Provision PCs with apps](/windows/configuration/provisioning-packages/provision-pcs-with-apps).
 
 > [!NOTE]
+> At this time, the ability to add apps to a provisioning pack is not supported on Surface Hubs running Microsoft Teams Rooms on Windows.
+
+> [!TIP]
 > Although Windows Configuration Designer lets you add a Classic Win32 app to a provisioning package, Surface Hub only accepts UWP apps. If you include a Classic Win32 app, provisioning will fail.
 
 ### Password protect provisioning package

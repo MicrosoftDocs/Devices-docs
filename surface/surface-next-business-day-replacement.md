@@ -6,7 +6,7 @@ manager: frankbu
 ms.date: 04/19/2022
 ms.topic: how-to
 ms.service: surface
-localization_priority: high
+ms.localizationpriority: High
 ms.custom: references_regions
 appliesto:
 - Surface
