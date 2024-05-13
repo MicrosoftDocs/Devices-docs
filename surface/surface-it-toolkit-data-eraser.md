@@ -6,7 +6,7 @@ ms.localizationpriority: medium
 author: coveminer
 ms.author: chauncel
 ms.topic: overview
-ms.date: 04/25/2024
+ms.date: 05/10/2024
 ms.reviewer: chauncel
 manager: frankbu
 appliesto:
@@ -24,8 +24,8 @@ This article explains how to create a secure data wipe USB key with the Surface 
 
 ## Not supported on legacy devices
 
-- This version of Surface Data Eraser isn't supported on legacy devices such as Surface Laptop (1st gen), Surface Studio (1st gen), Surface Go, Surface Go 2, Surface Pro 5th Gen, and others. 
-- To securely erase data on legacy devices, see [Microsoft Surface Data Eraser (legacy)](microsoft-surface-data-eraser.md)
+- This version of Surface Data Eraser isn't supported on legacy devices such as Surface Laptop 2 and earlier, Surface Pro 6 and earlier, Surface Book 2 and earlier, Surface Go, and Surface Studio (1st gen). 
+- To securely erase data on legacy devices, see [Microsoft Surface Data Eraser (legacy)](microsoft-surface-data-eraser.md).
 
 ## Create the Data Eraser USB
 
