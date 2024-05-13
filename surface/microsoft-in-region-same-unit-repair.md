@@ -59,7 +59,7 @@ The following commercial devices are eligible for same unit repair:
 
 Except where noted, same unit repair is available in the following locations:
 
-Australia,<sup>2</sup> Austria, Belgium, Bulgaria, Canada,<sup>2</sup> China, Croatia, Cyprus, Denmark, Estonia, Finland, France, Germany, Hungary, Iceland, Ireland, Italy, Japan, <sup>2</sup> Latvia, Lithuania, Luxemburg, Malta, Mexico, Netherlands, Norway, Poland, Portugal, Romania, Slovakia, Slovenia,Spain, Sweden, Switzerland, United Kingdom, United States
+Australia,<sup>2</sup> Austria, Belgium, Bulgaria, Canada,<sup>2</sup> China, Croatia, Cyprus, Denmark, Estonia, Finland, France, Germany, Hungary, Iceland, Ireland, Italy, Japan, <sup>2</sup> Latvia, Lithuania, Luxemburg, Malta, Mexico, Netherlands, Norway, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, Switzerland, United Kingdom, United States
 
 ## References
 
