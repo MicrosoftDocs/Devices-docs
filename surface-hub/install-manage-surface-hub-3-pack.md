@@ -58,8 +58,8 @@ Review the following demo and follow the instructions on this page.
 5. Fasten the locking screw and slide the cover into place. Power on your new Surface Hub 3.  
 6. To complete setup, refer to the following articles:
 
-- [First-time setup for Surface Hub 3](first-run-program-surface-hub-3.md).
-- [Surface Hub 3 security best practices](surface-hub-3-security.md)
+- [First-time setup for Surface Hub running Microsoft Teams Rooms on Windows](first-run-program-surface-hub-3.md).
+- [Security best practices for Surface Hubs running Microsoft Teams Rooms on Windows](surface-hub-3-security.md)
 
 ## Manage Surface Hub 3 
 
@@ -141,7 +141,7 @@ Select your country/region and follow the instructions to obtain a shipping labe
 
 ## Wallpaper installation
 
-The latest Windows Bloom wallpaper is available for your Surface Hub 3 device or Pack. To learn more, see [Install Windows Bloom wallpaper on Surface Hub 3](install-wallpaper-surface-hub.md).
+The latest Windows Bloom wallpaper is available for your Surface Hub 3 device or Pack. To learn more, see [Install wallpaper on Surface Hub running Microsoft Teams Rooms on Windows](install-wallpaper-surface-hub.md).
 
 ### Learn more
 

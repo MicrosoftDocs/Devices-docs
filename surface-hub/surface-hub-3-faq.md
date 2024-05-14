@@ -11,11 +11,12 @@ ms.date: 04/29/2023
 ms.localizationpriority: medium
 appliesto:
 - Surface Hub 3
+- Surface Hub 2S
 ---
 
 # FAQ: Surface Hub running Microsoft Teams Rooms on Windows
 
-**When did Surface Hub 3 start shipping with the Microsoft Teams Rooms on Windows experience?**
+**When did Surface Hub 3 start shipping with the Microsoft Teams Rooms on Windows (MTR-W) experience?**
 
 - Surface Hub 3 started shipping December 5, 2023.
 
@@ -30,9 +31,9 @@ appliesto:
 - Upgrade from Surface Hub 2S to Surface Hub 3 via the [Surface Hub 3 Pack](install-manage-surface-hub-3-pack.md) compute cartridge.
 - Migrate your Surface Hub 2S to the new experience. To learn more, see [Migrate Surface Hub 2S to Microsoft Teams Rooms on Windows](surface-hub-2s-migrate-to-mtr-w.md).
 
-**What is the default admin password on Surface Hub 3?**
+**What is the default admin password on Surface Hub running MTR-W?**
 
-- The default admin password is factory set to **sfb**. It's strongly recommended to change the password, as described in [Surface Hub 3 security best practices](surface-hub-3-security.md).
+- The default admin password is factory set to **sfb**. It's strongly recommended to change the password, as described in [Security best practices for Surface Hubs running Microsoft Teams Rooms on Windows](surface-hub-3-security.md).
 
 **How long will Surface Hub 2S be supported on the current OS?**
 
@@ -52,11 +53,16 @@ appliesto:
 
 **Will I be able to rotate Surface Hub on the new experience?**
 
-- Yes. Surface Hub 3 50" is the only device in its class with Smart Rotation. Surface Hub 2S does not support Smart Rotation. 
+- Smart Rotation is only possible on 50-inch Surface Hub 3 hardware (new Surface Hub 3 devices, or Surface Hub 2S devices upgraded with a Surface Hub 3 Pack compute cartridge).
 
 **Will I be able to rotate Surface Hub 3 85"?**
 
 - No. Due to form factor constraints and expected use cases, rotation to Portrait is only supported on 50" devices.
+
+**What other features are only available on Surface Hub 3 hardware?**
+
+- **Intelligent Audio:** The Surface Hub 3 50” features two microphone arrays and speaker pairings. Smart AV optimizes audio based on device orientation, delivering the best stereo experience whether in Portrait or Landscape.
+- **Faster Performance:** As stated earlier, with a 60% CPU performance increase and a 160% GPU graphics performance increase gen-on-gen, Surface Hub 3 customers benefit from a more powerful system that is also primed to capitalize on future software innovation. 
 
 **What are the VESA mount specifications?**
 
@@ -66,7 +72,7 @@ appliesto:
 ## Learn more
 
 - [Surface Hub 3 Pack FAQ](surface-hub-3-pack-faq.md)
-- [Get started with Surface Hub 3](surface-hub-3-get-started.md)
-- [First-time setup for Surface Hub 3](first-run-program-surface-hub-3.md)
-- [Surface Hub 3 security best practices](surface-hub-3-security.md)
-- [Install Windows Bloom wallpaper on Surface Hub 3](install-wallpaper-surface-hub.md)
+- [Get started with Surface Hub running Microsoft Teams Rooms on Windows](surface-hub-3-get-started.md)
+- [for Surface Hub running Microsoft Teams Rooms on Windows](first-run-program-surface-hub-3.md)
+- [Security best practices for Surface Hubs running Microsoft Teams Rooms on Windows](surface-hub-3-security.md)
+- [Install wallpaper on Surface Hub running Microsoft Teams Rooms on Windows](install-wallpaper-surface-hub.md)

@@ -1,6 +1,6 @@
 ---
-title: Install wallpaper on Surface Hub 3
-description: Explains how admins can install the Windows Bloom background wallpaper on Surface Hub 3. 
+title: Install wallpaper on Surface Hub running Microsoft Teams Rooms on Windows
+description: Explains how admins can install the Windows Bloom background wallpaper on Surface Hub running Microsoft Teams Rooms on Windows. 
 ms.reviewer: dpandre
 manager: frankbu
 ms.service: surface-hub
@@ -9,12 +9,9 @@ ms.author: chauncel
 ms.topic: how-to
 ms.date: 02/05/2024
 ms.localizationpriority: medium
-appliesto:
-- Surface Hub 3
-
 ---
 
-# Install wallpaper on Surface Hub 3
+# Install wallpaper on Surface Hub running Microsoft Teams Rooms on Windows
 
 This article explains how to replace the default Microsoft Teams Rooms wallpaper with the Windows Bloom wallpaper or a custom image. 
 
@@ -52,15 +49,11 @@ This article applies to [New Surface Hub 3 devices](surface-hub-3-whats-new.md),
 
 ## Custom wallpaper
 
-To create a custom wallpaper, see [IT Admins- Manage and create custom meeting backgrounds for Teams meetings](/MicrosoftTeams/custom-meeting-backgrounds). 
-
-
-
-
+To create a custom wallpaper, see [Set up and manage Teams Rooms on Windows custom backgrounds](/microsoftteams/rooms/custom-backgrounds?tabs=Enhanced). 
 
 
 ## Learn more
 
-- [Get started with Surface Hub 3](surface-hub-3-get-started.md)
-- [First-time setup for Surface Hub 3](first-run-program-surface-hub-3.md)
+- [Get started with Surface Hub running Microsoft Teams Rooms on Windows](surface-hub-3-get-started.md)
+- [First-time setup for Surface Hub running Microsoft Teams Rooms on Windows](first-run-program-surface-hub-3.md)
 - [Manage settings with an XML configuration file](/microsoftteams/rooms/xml-config-file#manage-console-settings-with-an-xml-configuration-file)
