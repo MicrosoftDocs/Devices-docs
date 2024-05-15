@@ -6,7 +6,7 @@ ms.localizationpriority: medium
 author: coveminer
 ms.author: chauncel
 ms.topic: overview
-ms.date: 02/15/2024
+ms.date: 05/14/2024
 ms.reviewer: 
 manager: frankbu
 appliesto:
@@ -88,6 +88,7 @@ The growing ASP network consists of more than 160 locations.
 - [CDW](https://www.uk.cdw.com/)
 - [Class Technology Solutions](https://www.easy4u.school/)
 - [Computacenter](https://www.computacenter.com/)
+- [Currys](https://www.currys.co.uk/store-finder)
 - [DXC Technology (UK)](https://dxc.com/uk/)
 - [Specialist Computer Centre](https://www.scc.com/)
 - [Westcoast](https://www.westcoast.co.uk/)
