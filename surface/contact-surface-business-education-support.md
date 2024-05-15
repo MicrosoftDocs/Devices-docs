@@ -74,6 +74,13 @@ Make an appointment at a participating Surface Authorized Service Provider [BIC 
 2. Select your location to find the Authorized Service Provider nearest you.
 3. Choose your Authorized Service Provider and contact them to schedule an appointment.
 
+## United Kingdom
+
+Make an appointment at a participating [Surface Authorized Service Provider in the UK](https://support.microsoft.com/en-us/surface/find-authorized-service-provider-contact-information-for-the-united-kingdom-dc17aa1a-9e77-46b6-aa10-f5a2557406bd) to help resolve your issue:
+
+1. Go to [Currys Store Finder](https://www.currys.co.uk/store-finder) to find your nearest location.
+2. Contact them to schedule an appointment.
+
 ---
 
 Still need help? Go to [Microsoft Community](https://answers.microsoft.com/).
