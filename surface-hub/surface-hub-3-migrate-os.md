@@ -27,7 +27,7 @@ This article describes how to convert the operating system to Windows 11 Pro or 
 
 1. Go to the [Windows 11 software download page](https://www.microsoft.com/software-download/windows11). Under **Create Windows 11 Installation Media**, select **Download Now**.
  ![Screenshot of Windows 11 download page.](images/windows11download.png)
-2. Install the media creation tool, accept the license agreement and select **Next.**
+2. Install the media creation tool, accept the license agreement, and select **Next.**
 3. Follow the instructions to create a bootable USB drive with the Windows 11 installation files.
 4. Remove the USB drive and insert it into Surface Hub 3.
 5. While pressing the **Volume down** button, press the **Power** button. Keep pressing both buttons until you see the Windows logo. Release the **Power** button, but hold the **Volume down** button until the Install UI begins.
