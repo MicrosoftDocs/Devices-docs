@@ -21,7 +21,7 @@ This article describes how to convert the operating system to Windows 11 Pro or 
 
 1. Obtain a Windows 11 Pro or Enterprise license as explained in [Windows commercial licensing overview](/windows/whats-new/windows-licensing).
 2. On your Surface Hub 3, back up your data using an external hard drive, cloud storage, or other preferred backup method.
-3. On a separate PC, insert a USB drive with at least 8 MB of storage.
+3. On a separate PC, insert a USB drive with at least 8 GB of storage.
 
 ## Download Windows 11 and create a bootable USB drive
 
