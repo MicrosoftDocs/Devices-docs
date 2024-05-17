@@ -26,7 +26,7 @@ The Surface Hub 3 Pack is a hardware upgrade that transforms your Surface Hub 2S
 - A Surface Hub 2S, fully updated with the latest Windows Updates. By default, updates are installed automatically during nightly maintenance. To verify, go to **All apps** > **Settings** > **Update and Security** > **Windows Update**, and install all updates.
 
 > [!TIP]
-> You may need to restart the device and continue to check for available updates. Ensure Surface Hub 2S has received one of the following updates: **Microsoft Corporation - System Hardware Update - 5/24/2023** or **Microsoft Corporation - System Hardware Update - 8/18/2023**.
+> You may need to restart the device and continue to check for available updates. Ensure the Surface Hub 2S's update history shows **Microsoft Corporation - System Hardware Update - 5/24/2023** or a **System Hardware Update** with any newer date (for example, 3/1/2024).
 
 - An account with admin privileges. You'll need to reset the device if you don't know your username or admin password. For more information, see [Reset and recovery for Surface Hub 2S](/surface-hub/surface-hub-2s-recover-reset).
 - A resource account with a [supported Microsoft Teams Rooms license](/microsoftteams/rooms/rooms-licensing).
