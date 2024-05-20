@@ -27,7 +27,7 @@ To learn more, see [Surface service options](surface-service-options.md).
 Microsoft recommends that only technically inclined individuals with the knowledge, experience, and requisite tools perform repairs following the relevant [Surface Service Guide instructions](https://www.microsoft.com/download/100440). 
 
 > [!NOTE]
-> Replacement components may be new or refurbished.
+> Replacement components may be new or refurbished. To  learn more about Microsoft's commitment to replacement components, see our [Self-repair information FAQ](https://support.microsoft.com/surface/self-repair-information-for-your-surface-device-56655149-c27a-432a-9936-bacd609a4b03).
 
 | Device | Replacement Components | Instructional Video |
 | ------ | ---------------------- | ------------------- |

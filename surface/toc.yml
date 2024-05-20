@@ -126,7 +126,7 @@
           href: surface-dock-firmware-update.md 
       - name: Self-serve portals
         items:
-        - name: Surface IT portals
+        - name: Surface Management & Support Suite
           href: surface-portals.md
         - name: Surface Management Portal overview
           href: surface-management-portal.md
