@@ -52,7 +52,7 @@ Create, Manage, and track support requests while staying current on Microsoft te
 
 To expedite your service requests, make sure to include your device serial numbers. [Get support](https://support.serviceshub.microsoft.com/supportforbusiness). 
 
-US and Canada Customers who don't currently have an Intune or Microsoft 365 subscription: an enhanced Support experience offering self-serve functionality is now available for your region. Start using the new platform today:[Get Support](https://signup.microsoft.com/createaccount?=https%3A%2F%2Fadmin.microsoft.com%2FAdminportal%2FHome%3Fmcapiorgid%3D%7Bmcapiorgid%7D%26accountid%3D%7Baccountid%7D%26&origin=servicesHub&scenario=skiplba).  
+US and Canada Customers who don't currently have an Intune or Microsoft 365 subscription: an enhanced Support experience offering self-serve functionality is now available for your region. Start using the new platform today: [Get Support](https://signup.microsoft.com/createaccount?=https%3A%2F%2Fadmin.microsoft.com%2FAdminportal%2FHome%3Fmcapiorgid%3D%7Bmcapiorgid%7D%26accountid%3D%7Baccountid%7D%26&origin=servicesHub&scenario=skiplba).  
 
 For detailed instructions on the initial sign-up process, see [Streamline access to Surface Portals for commercial customers.](streamline-access-surface-portals.md)
 
