@@ -82,6 +82,10 @@ The growing ASP network consists of more than 160 locations.
 - [ARP Nederland B.V](https://www.arpsolutions.nl/)
 - [The Rent Company](https://rentcompany.nl/)
 
+#### Spain
+
+- [Valorista](https://valorista.com/)
+
 #### United Kingdom
 
 - [Carillion](https://www.carillion.com/)
