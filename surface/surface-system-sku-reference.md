@@ -42,6 +42,8 @@ System Model and System SKU are variables stored in System Management BIOS (SMBI
 | Surface Go 4                                                 | Surface Go 4     | Surface_Go_4_2067                |
 | Surface Hub 2S 50"                                           | Surface Hub 2S   | Surface Hub 2S                   |
 | Surface Hub 2S 85"                                           | Surface Hub 2S   | Surface Hub 2S 85                |
+| Surface Hub 3 50"                                            | Surface Hub 3    | Surface Hub 3                 |
+| Surface Hub 3 85"                                            | Surface Hub 3    | Surface Hub 3 85                |
 | Surface Laptop                                               | Surface Laptop   | Surface_Laptop                   |
 | Surface Laptop 2 Commercial                                  | Surface Laptop 2 | Surface_Laptop_2_1769_Commercial |
 | Surface Laptop 2 Consumer                                    | Surface Laptop 2 | Surface_Laptop_2_1769_Consumer   |
