@@ -11,7 +11,7 @@ ms.localizationpriority: medium
 appliesto:
 - Windows 10
 - Windows 11
-ms.date: 04/25/2024
+ms.date: 05/21/2024
 ---
 
 # Run command-line app console with Surface Diagnostic Toolkit for Business
@@ -24,7 +24,7 @@ Running the Surface Diagnostic Toolkit (SDT) at a command prompt requires downlo
 ## Running SDT app console
 
 1. Download the [Surface IT Toolkit](https://www.microsoft.com/download/details.aspx?id=46703) and install it on the PC you use to manage devices in your organization. 
-2. Select **Tool Library** > **Diagnostics App Console** > **Save a copy** and choose ARM64 or X64.
+2. Select **Tool Library** > **Diagnostics App Console** > **Save a copy** and choose **ARM64** or **X64**.
 
     :::image type="content" source="images/diagnostics-app-console.png" alt-text="Screenshot of Diagnostics App Console download.":::
 
