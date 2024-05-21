@@ -16,7 +16,7 @@ ms.date: 05/21/2024
 
 # Run command-line app console with Surface Diagnostic Toolkit for Business
 
-Running the Surface Diagnostic Toolkit (SDT) at a command prompt requires downloading the **Surface IT Toolkit** and installing the **Diagnostics App Console**.  After installation, you can run SDT at a command prompt via the Windows command console (cmd.exe) or Windows PowerShell. For a list of supported Surface devices in SDT, refer to [Deploy Surface Diagnostic Toolkit for Business](surface-diagnostic-toolkit-business.md).
+Running the Surface Diagnostic Toolkit (SDT) at a command prompt requires downloading the **Surface IT Toolkit**  and saving a copy of the **Diagnostics App Console**. You can run SDT at a command prompt, on the target Surface device, via the Windows command console (cmd.exe) or Windows PowerShell. For a list of supported Surface devices in SDT, refer to [Deploy Surface Diagnostic Toolkit for Business](surface-diagnostic-toolkit-business.md).
 
 >[!NOTE]
 >To run SDT using commands, you must be signed in to the Administrator account or signed in to an account that is a member of the Administrator group on your Surface device.
