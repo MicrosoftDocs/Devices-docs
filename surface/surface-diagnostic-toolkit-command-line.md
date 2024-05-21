@@ -23,12 +23,12 @@ Running the Surface Diagnostic Toolkit (SDT) at a command prompt requires downlo
 
 ## Running SDT app console
 
-1. Download and install SDT app console from the [Surface Tools for IT download page](https://www.microsoft.com/download/details.aspx?id=46703).
+1. Download the [Surface IT Toolkit](https://www.microsoft.com/download/details.aspx?id=46703) and install it on the PC you use to manage devices in your organization. 
+2. Select **Tool Library** > **Diagnostics App Console** > **Save a copy** and choose ARM64 or X64.
 
-- For Intel/AMD devices, download: **Microsoft.Surface.Diagnostics.App.Console.v2.168.139.0.exe**
-- For ARM-based devices, download: **Microsoft.Surface.Diagnostics.App.Console.v2.168.139.0_x86.exe**
+    :::image type="content" source="images/diagnostics-app-console.png" alt-text="Screenshot of Diagnostics App Console download.":::
 
-2. Use the Windows command prompt (cmd.exe) or Windows PowerShell to:
+3. Use the Windows command prompt (cmd.exe) or Windows PowerShell to:
 
 - Collect all log files
 - Run health diagnostics using Best Practice Analyzer
