@@ -11,24 +11,24 @@ ms.localizationpriority: medium
 appliesto:
 - Windows 10
 - Windows 11
-ms.date: 04/25/2024
+ms.date: 05/21/2024
 ---
 
 # Run command-line app console with Surface Diagnostic Toolkit for Business
 
-Running the Surface Diagnostic Toolkit (SDT) at a command prompt requires downloading the SDT app console. After installation, you can run SDT at a command prompt via the Windows command console (cmd.exe) or Windows PowerShell. For a list of supported Surface devices in SDT, refer to [Deploy Surface Diagnostic Toolkit for Business](surface-diagnostic-toolkit-business.md).
+Running the Surface Diagnostic Toolkit (SDT) at a command prompt requires downloading the **Surface IT Toolkit** and installing the **Diagnostics App Console**.  After installation, you can run SDT at a command prompt via the Windows command console (cmd.exe) or Windows PowerShell. For a list of supported Surface devices in SDT, refer to [Deploy Surface Diagnostic Toolkit for Business](surface-diagnostic-toolkit-business.md).
 
 >[!NOTE]
 >To run SDT using commands, you must be signed in to the Administrator account or signed in to an account that is a member of the Administrator group on your Surface device.
 
 ## Running SDT app console
 
-1. Download and install SDT app console from the [Surface Tools for IT download page](https://www.microsoft.com/download/details.aspx?id=46703).
+1. Download the [Surface IT Toolkit](https://www.microsoft.com/download/details.aspx?id=46703) and install it on the PC you use to manage devices in your organization.
+2. Open [Surface IT Toolkit](surface-it-toolkit.md). Select **Tool Library** > **Diagnostics App Console** > **Save a copy** and choose **ARM64** or **X64**.
 
-- For Intel/AMD devices, download: **Microsoft.Surface.Diagnostics.App.Console.v2.168.139.0.exe**
-- For ARM-based devices, download: **Microsoft.Surface.Diagnostics.App.Console.v2.168.139.0_x86.exe**
+    :::image type="content" source="images/diagnostics-app-console.png" alt-text="Screenshot of Diagnostics App Console download.":::
 
-2. Use the Windows command prompt (cmd.exe) or Windows PowerShell to:
+3. Use the Windows command prompt (cmd.exe) or Windows PowerShell to:
 
 - Collect all log files
 - Run health diagnostics using Best Practice Analyzer
@@ -145,4 +145,4 @@ You can run BPA tests across key components such as BitLocker, Secure Boot, and 
 
 ### Version history
 
-v2.218.139.0, released October 24, 2023. Included in [Surface IT Toolkit Library](surface-it-toolkit-library.md), April 25, 2024. 
+v2.218.139.0, released October 24, 2023. Included in [Surface IT Toolkit Library](surface-it-toolkit-library.md), April 25, 2024.
