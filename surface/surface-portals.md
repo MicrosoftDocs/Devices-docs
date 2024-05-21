@@ -26,7 +26,7 @@ Surface Management and Support Suite provides a centralized solution for IT admi
 Choose the option that’s right for you.
 
 - **Surface Management Portal:** If your Surface devices are enrolled through Intune, they're automatically enrolled into the [Surface Management Portal](https://endpoint.microsoft.com/#view/Microsoft_Azure_Surface/SurfaceManagement.ReactView). In Intune Admin Center, go to **All Services** > **Surface Management Portal.** This includes the comprehensive feature set of the Intune admin center.
-- **Surface Support Portal:** If you have a Microsoft 365 subscription, your support service needs can be fulfilled via the [Microsoft 365 admin center.](https://admin.microsoft.com/Adminportal/Home#/support/microsofthardwaresupport) In Admin center, and go to **Show all** > **Support** > **Microsoft Surface support**. This doesn't require your devices to be enrolled through Intune.
+- **Surface Support Portal:** If you have a Microsoft 365 subscription, your support service needs can be fulfilled via the [Microsoft 365 admin center.](https://admin.microsoft.com/Adminportal/Home#/support/microsofthardwaresupport) In Admin center, sign in and go to **Show all** > **Support** > **Microsoft Surface support**. This doesn't require your devices to be enrolled through Intune.
 
 **Table 1. Surface Management and Support Suite**
 
