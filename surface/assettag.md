@@ -28,8 +28,8 @@ that allows you to view, assign, and modify an assigned asset tag value for Surf
 
 To run Surface Asset Tag:
 
-1. Download the [Surface IT Toolkit](https://www.microsoft.com/download/details.aspx?id=46703) and install it on the PC you use to manage devices in your organization. 
-2. Select **Tool Library** > **Surface Asset Tag** > **Save a copy** and choose **ARM64** or **X64**.
+1. Download the [Surface IT Toolkit](https://www.microsoft.com/download/details.aspx?id=46703) and install it on the PC you use to manage devices in your organization.
+2. Open [Surface IT Toolkit](surface-it-toolkit.md). Select **Tool Library** > **Surface Asset Tag** > **Save a copy** and choose **ARM64** or **X64**.
 
     :::image type="content" source="images/surface-asset-tag-download.png" alt-text="Screenshot of Surface Asset Tag download.":::
 
@@ -110,7 +110,7 @@ Write-Output (
 
 ### Version history
 
-- v193.139, released October 4, 2023. Included in [Surface IT Toolkit Library](surface-it-toolkit-library.md), April 25, 2024. 
+- v193.139, released October 4, 2023. Included in [Surface IT Toolkit Library](surface-it-toolkit-library.md), April 25, 2024.
 
 ## Learn more
 

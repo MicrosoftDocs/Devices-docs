@@ -16,15 +16,15 @@ ms.date: 05/21/2024
 
 # Run command-line app console with Surface Diagnostic Toolkit for Business
 
-Running the Surface Diagnostic Toolkit (SDT) at a command prompt requires downloading the SDT app console. After installation, you can run SDT at a command prompt via the Windows command console (cmd.exe) or Windows PowerShell. For a list of supported Surface devices in SDT, refer to [Deploy Surface Diagnostic Toolkit for Business](surface-diagnostic-toolkit-business.md).
+Running the Surface Diagnostic Toolkit (SDT) at a command prompt requires downloading the **Surface IT Toolkit** and installing the **Diagnostics App Console**.  After installation, you can run SDT at a command prompt via the Windows command console (cmd.exe) or Windows PowerShell. For a list of supported Surface devices in SDT, refer to [Deploy Surface Diagnostic Toolkit for Business](surface-diagnostic-toolkit-business.md).
 
 >[!NOTE]
 >To run SDT using commands, you must be signed in to the Administrator account or signed in to an account that is a member of the Administrator group on your Surface device.
 
 ## Running SDT app console
 
-1. Download the [Surface IT Toolkit](https://www.microsoft.com/download/details.aspx?id=46703) and install it on the PC you use to manage devices in your organization. 
-2. Select **Tool Library** > **Diagnostics App Console** > **Save a copy** and choose **ARM64** or **X64**.
+1. Download the [Surface IT Toolkit](https://www.microsoft.com/download/details.aspx?id=46703) and install it on the PC you use to manage devices in your organization.
+2. Open [Surface IT Toolkit](surface-it-toolkit.md). Select **Tool Library** > **Diagnostics App Console** > **Save a copy** and choose **ARM64** or **X64**.
 
     :::image type="content" source="images/diagnostics-app-console.png" alt-text="Screenshot of Diagnostics App Console download.":::
 
@@ -145,4 +145,4 @@ You can run BPA tests across key components such as BitLocker, Secure Boot, and 
 
 ### Version history
 
-v2.218.139.0, released October 24, 2023. Included in [Surface IT Toolkit Library](surface-it-toolkit-library.md), April 25, 2024. 
+v2.218.139.0, released October 24, 2023. Included in [Surface IT Toolkit Library](surface-it-toolkit-library.md), April 25, 2024.
