@@ -31,7 +31,7 @@ Running the Surface Diagnostic Toolkit (SDT) at a command prompt requires downlo
 3. Use the Windows command prompt (cmd.exe) or Windows PowerShell to:
 
 - Collect all log files
-- Run health diagnostics using Best Practice Analyzer
+- Run health diagnostics using Best Practice Analyzer (BPA)
 - Check for missing firmware or driver updates
 
 >[!NOTE]
@@ -51,7 +51,7 @@ Command | Notes
 
 ## Run Best Practice Analyzer
 
-You can run Best Practice Analyzer (BPA) tests across key components such as BitLocker, Secure Boot, and Trusted Platform Module (TPM) and then output the results to a shareable file. The tool generates a series of tables with color-coded headings and condition descriptors along with guidance about how to resolve the issue.
+You can run BPA tests across key components such as BitLocker, Secure Boot, and Trusted Platform Module (TPM) and then output the results to a shareable file. The tool generates a series of tables with color-coded headings and condition descriptors along with guidance about how to resolve the issue.
 
 - Green indicates the component is running in an optimal condition (optimal).
 - Orange indicates the component isn't running in an optimal condition (not optimal).
