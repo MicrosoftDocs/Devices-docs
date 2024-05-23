@@ -41,16 +41,18 @@ This article describes how to use the Recovery Tool to restore a Surface device 
 8. Select **Create** to start the process. A progress bar indicates that the recovery USB is ready to use.
 9. Once the USB creation process reaches 100%, a confirmation message indicates that the recovery USB is ready to use.
 
-Throughout the process, ensure you have a stable internet connection for the download and that no data you wish to keep is on the USB drive when formatted during the process. After the USB key is created, you can use it to restore the chosen Surface device back to its original state.
+Throughout the process, ensure you have a stable internet connection for the download and that no data you wish to keep is on the USB drive when formatted during the process.
 
-## Recover Surface device
+## Restore Surface device
+
+After the USB key is created, use it to restore the chosen Surface device back to its original state:
 
 1. Shut down your Surface device.
-2. Insert the bootable USB drive into the USB port on your Surface.
-3. Press and hold the Volume-down button on the Surface.
-4. While holding the Volume-down button, press and release the power button. The Microsoft or Surface logo appears on your screen.
-5. Continue to hold the volume-down button until you see spinning dots beneath the logo.
-6. Follow the on-screen instructions to boot from your USB drive. 
+2. Insert the bootable USB drive into the USB port on your Surface device.
+3. Press and hold the **Volume-down** button on the device.
+4. While holding the **Volume-down** button, press and release the **Power button**. The Microsoft or Surface logo appears on your screen.
+5. Continue to hold the **Volume-down** button until you see spinning dots beneath the logo.
+6. Follow the on-screen instructions to boot from your USB drive.
 
 ## Version history
 
