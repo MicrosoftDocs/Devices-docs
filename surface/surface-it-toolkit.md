@@ -46,7 +46,7 @@ The Surface IT Toolkit ensures you're using the latest version thanks to [MSIX](
 
 ### Supported devices
 
-Surface Book 3, Surface Go 2, Surface Go 3, Surface Go 4, Surface Laptop 3, Surface Laptop 4, Surface Laptop 5, Surface Laptop 6, Surface Laptop Go, Surface Laptop Go 2, Surface Laptop Go 3, Surface Laptop SE, Surface Laptop Studio, Surface Laptop Studio 2, Surface Pro 10, Surface Pro 7, Surface Pro 7+, Surface Pro 8, Surface Pro 9, Surface Pro X SQ1, Surface Pro X SQ2, Surface Pro X Wi-Fi, Surface Studio 2, and Surface Studio 2+.
+Surface Book 3, Surface Go 2, Surface Go 3, Surface Go 4, Surface Laptop 3, Surface Laptop 4, Surface Laptop 5, Surface Laptop 6, Surface Laptop (7th Edition), Surface Laptop Go, Surface Laptop Go 2, Surface Laptop Go 3, Surface Laptop SE, Surface Laptop Studio, Surface Laptop Studio 2, Surface Pro (11th Edition) Surface Pro 10, Surface Pro 7, Surface Pro 7+, Surface Pro 8, Surface Pro 9, Surface Pro X SQ1, Surface Pro X SQ2, Surface Pro X Wi-Fi, Surface Studio 2, and Surface Studio 2+.
 
 ## What's in the Surface IT Toolkit?
 

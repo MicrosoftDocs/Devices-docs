@@ -56,11 +56,11 @@ After the USB key is created, use it to restore the chosen Surface device back t
 
 ## Recover earlier Surface devices
 
-1. If you don't see your Surface device listed in the Recovery tool, under **All Devices**, you can download a recovery image from Microsoft Support. 
+1. If you don't see your Surface device listed as a [supported device](/surface/surface-it-toolkit#supported-devices) in the Recovery tool, under **All Devices**, you can download a recovery image from Microsoft Support. 
 
     :::image type="content" source="images/it-toolkit-recovery-devices.png" alt-text="Screenshot that shows an example of available recovery images for Surface Laptop.":::
 
-2. Go to [Surface Recovery Image Download](https://support.microsoft.com/surface-recovery-image) page, select your product, enter the serial number, and download the appropriate image. 
+2. Go to the [Surface Recovery Image Download](https://support.microsoft.com/surface-recovery-image) page, select your product, enter the serial number, and download the appropriate image. 
 
 ## Version history
 
