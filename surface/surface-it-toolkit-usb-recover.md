@@ -54,6 +54,14 @@ After the USB key is created, use it to restore the chosen Surface device back t
 5. Continue to hold the **Volume-down** button until you see spinning dots beneath the logo.
 6. Follow the on-screen instructions to boot from your USB drive.
 
+## Recover earlier Surface devices
+
+1. If you don't see your Surface device listed in the Recovery tool, under **All Devices**, you can download a recovery image from Microsoft Support. 
+
+    :::image type="content" source="images/it-toolkit-recovery-devices.png" alt-text="Screenshot of Recovery Tool page.":::
+
+2. Go to [Surface Recovery Image Download](https://support.microsoft.com/surface-recovery-image) page, select your product, enter the serial number, and download the appropriate image. 
+
 ## Version history
 
 - v1.143.141. Initial release.
