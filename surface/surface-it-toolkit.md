@@ -30,7 +30,7 @@ The Surface IT Toolkit ensures you're using the latest version thanks to [MSIX](
 
 3. Scroll to review and accept the License Agreement.
 
-    :::image type="content" source="images/it-toolkite-eula.png" alt-text="Screenshot of License Agreement for Surface IT Toolkit.":::
+    :::image type="content" source="images/it-toolkit-eula.png" alt-text="Screenshot of License Agreement for Surface IT Toolkit.":::
 
 4. Select the devices you intend to manage with the toolkit. Use the provided device family and model selection to choose the appropriate Surface devices such as Surface Laptop 6 for Business, Surface Pro 10, or others. Select **Next**.
 
@@ -46,7 +46,7 @@ The Surface IT Toolkit ensures you're using the latest version thanks to [MSIX](
 
 ### Supported devices
 
-Surface Book 3, Surface Go 2, Surface Go 3, Surface Go 4, Surface Laptop 3, Surface Laptop 4, Surface Laptop 5, Surface Laptop 6, Surface Laptop Go, Surface Laptop Go 2, Surface Laptop Go 3, Surface Laptop SE, Surface Laptop Studio, Surface Laptop Studio 2, Surface Pro 10, Surface Pro 7, Surface Pro 7+, Surface Pro 8, Surface Pro 9, Surface Pro X SQ1, Surface Pro X SQ2, Surface Pro X Wi-Fi, Surface Studio 2, and Surface Studio 2+.
+ Surface Pro 10, Surface Pro 9, Surface Pro 8, Surface Pro 7+, Surface Pro 7, Surface Pro X Wi-Fi, Surface Pro X SQ2,  Surface Pro X SQ1; Surface Laptop 6, Surface Laptop 5, Surface Laptop 4, Surface Laptop 3; Surface Laptop Studio 2, Surface Laptop Studio; Surface Laptop SE; Surface Laptop Go 3, Surface Laptop Go 2, and Surface Laptop Go;  Surface Go 4, Surface Go 3, and Surface Go 2; Surface Book 3; Surface Studio 2+ and Surface Studio 2.
 
 ## What's in the Surface IT Toolkit?
 
