@@ -30,7 +30,7 @@ The Surface IT Toolkit ensures you're using the latest version thanks to [MSIX](
 
 3. Scroll to review and accept the License Agreement.
 
-    :::image type="content" source="images/it-toolkite-eula.png" alt-text="Screenshot of License Agreement for Surface IT Toolkit.":::
+    :::image type="content" source="images/it-toolkit-eula.png" alt-text="Screenshot of License Agreement for Surface IT Toolkit.":::
 
 4. Select the devices you intend to manage with the toolkit. Use the provided device family and model selection to choose the appropriate Surface devices such as Surface Laptop 6 for Business, Surface Pro 10, or others. Select **Next**.
 
