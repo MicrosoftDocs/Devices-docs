@@ -27,7 +27,7 @@ With a USB drive, you can reinstall the device to factory settings--even if you 
 
 >[!IMPORTANT]
 > For **Surface Hub 2S:** Use the **Windows 10 Team 2022 Update** recovery image.<br>
-> For **Surface Hub 3:** Use the **Windows 11 IoT Enterprise with the Microsoft Teams Rooms on Windows experience** recovery image.  
+> For **Surface Hub 3 and [migrated Hub 2S](surface-hub-2s-migrate-to-mtr-w.md):** Use the **Windows 11 IoT Enterprise with the Microsoft Teams Rooms on Windows experience** recovery image.  
 
 3. In the search box on the taskbar, enter **recovery drive**, and select **Create a recovery drive** or **Recovery Drive** from the results. You may need to enter an admin password or confirm your choice.
 
