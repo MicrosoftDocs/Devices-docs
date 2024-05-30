@@ -280,6 +280,8 @@ Review the following articles for recommended next steps:
 - Verify that Surface Hub 2S is fully updated and otherwise meets the prerequisites described earlier. To learn more, see [Troubleshoot Surface Hub not Updating](troubleshoot-surface-hub-not-updating.md)
 - Ensure the Migration Launcher app is installed on target Surface Hub 2S devices.
 - Ensure the system restarts after installing the Migration Launcher app.
+>[!IMPORTANT]
+> If you encounter a WinPE drive error during the migration process, you will need to follow the [instructions for manual recovery](surface-hub-recover-reset.md) to complete the migration to the Microsoft Teams Rooms on Windows platform. At that point in the process your Hub 2S is ready to be re-imaged with the **Windows 11 IoT Enterprise with the Microsoft Teams Rooms on Windows experience** recovery image as described in the [Recovery from a USB drive steps](surface-hub-recover-reset.md#recovery-from-a-usb-drive).
 
 ### Event logs
 
