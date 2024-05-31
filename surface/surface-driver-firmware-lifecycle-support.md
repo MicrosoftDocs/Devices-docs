@@ -6,7 +6,7 @@ ms.localizationpriority: high
 author: coveminer
 ms.author: chauncel
 ms.topic: overview
-ms.date: 04/09/2024
+ms.date: 05/31/2024
 ms.reviewer: phorton
 manager: frankbu
 appliesto:
@@ -74,6 +74,8 @@ The following table shows the release and end-of-servicing dates for commercial 
 | Surface Laptop Studio 2                | October 3, 2023     | October 3, 2029                              |
 | Surface Laptop 6                       | April 9, 2024       | April 9, 2030                                |
 | Surface Pro 10                         | April 9, 2024       | April 9, 2030                                |
+| Surface Laptop (7th Edition)           | June 18, 2024       | June 18, 2030                                |
+| Surface Pro (11th Edition)             | June 18, 2024       | June 18, 2024                                |
 
 ## Legacy products
 
