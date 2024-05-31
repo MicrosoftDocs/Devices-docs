@@ -24,7 +24,10 @@ This article describes how to use the Recovery Tool to restore a Surface device 
 
     :::image type="content" source="images/it-toolkit-recover-start.png" alt-text="Screenshot of Recovery Tool page.":::
 
-3. On the **Select Device** screen, choose the specific Surface device that you wish to recover. The toolkit displays a list of managed devices and a dropdown menu for all supported devices. Select Next.
+3. On the **Select Device** screen, choose the specific Surface device that you wish to recover. The toolkit displays a list of managed devices and a dropdown menu for all supported devices. Select **Next**.
+
+> [!NOTE]
+> Recovery images for Surface Pro (11th Edition) and Surface Laptop (7th Edition) will be available when commercial devices ship in September 2024.
 
     :::image type="content" source="images/it-toolkit-recovery-select.png" alt-text="Screenshot of Select Device page.":::
 
@@ -32,7 +35,7 @@ This article describes how to use the Recovery Tool to restore a Surface device 
 
     :::image type="content" source="images/it-toolkit-recovery-create-new.png" alt-text="Screenshot of page to select language, operating system, and Windows version.":::
 
-5. Choose a specific language pack from global regions, including Americas, Asia Pacific, China, Japan, Western Europe and Arabic, or Eastern Europe. Select Next.
+5. Choose a specific language pack from global regions, including Americas, Asia Pacific, China, Japan, Western Europe and Arabic, or Eastern Europe. Select **Next**.
 
     :::image type="content" source="images/it-toolkit-recover-lang.png" alt-text="Screenshot of Language Pack options.":::
 
@@ -59,7 +62,3 @@ After the USB key is created, use it to restore the chosen Surface device back t
 1. If you don't see your Surface device listed as a [supported device](/surface/surface-it-toolkit#supported-devices) in the Recovery tool, under **All Devices**, you can download a recovery image from Microsoft Support. 
 
 2. Go to the [Surface Recovery Image Download](https://support.microsoft.com/surface-recovery-image) page, select your product, enter the serial number, and download the appropriate image. 
-
-## Version history
-
-- v1.143.141. Initial release.
