@@ -6,7 +6,7 @@ ms.localizationpriority: medium
 author: coveminer
 ms.author: chauncel
 ms.topic: overview
-ms.date: 04/25/2024
+ms.date: 05/31/2024
 ms.reviewer: chauncel
 manager: frankbu
 appliesto:
@@ -40,13 +40,13 @@ The Surface IT Toolkit ensures you're using the latest version thanks to [MSIX](
 
     :::image type="content" source="images/it-toolkit-diagnostics.png" alt-text="Screenshot of anonymous data sharing info.":::
 
-5. Review & complete the configuration. Confirm the information is correct and select **Finish**.
+6. Review & complete the configuration. Confirm the information is correct and select **Finish**.
 
     :::image type="content" source="images/it-toolkit-setup.png" alt-text="Screenshot that shows review and completion of app configuration.":::
 
 ### Supported devices
 
- Surface Pro 10, Surface Pro 9, Surface Pro 8, Surface Pro 7+, Surface Pro 7, Surface Pro X Wi-Fi, Surface Pro X SQ2,  Surface Pro X SQ1; Surface Laptop 6, Surface Laptop 5, Surface Laptop 4, Surface Laptop 3; Surface Laptop Studio 2, Surface Laptop Studio; Surface Laptop SE; Surface Laptop Go 3, Surface Laptop Go 2, and Surface Laptop Go;  Surface Go 4, Surface Go 3, and Surface Go 2; Surface Book 3; Surface Studio 2+ and Surface Studio 2.
+Commercial SKUs for the following devices are supported: Surface Pro (11th Edition), Surface Pro 10, Surface Pro 9, Surface Pro 8, Surface Pro 7+, Surface Pro 7, Surface Pro X Wi-Fi, Surface Pro X SQ2,  Surface Pro X SQ1; Surface Laptop (7th Edition), Surface Laptop 6, Surface Laptop 5, Surface Laptop 4, Surface Laptop 3; Surface Laptop Studio 2, Surface Laptop Studio; Surface Laptop SE; Surface Laptop Go 3, Surface Laptop Go 2, and Surface Laptop Go;  Surface Go 4, Surface Go 3, and Surface Go 2; Surface Book 3; Surface Studio 2+ and Surface Studio 2.
 
 ## What's in the Surface IT Toolkit?
 
@@ -74,6 +74,15 @@ The Tool Library in the Surface IT Toolkit is a centralized repository that prov
 
 ## Release notes
 
-### Version 1.143.141
+### Version 1.186.141
+
+This version of Surface IT Toolkit, released May 30, 2024, includes the following updates:
+
+- Added support for Surface Pro 11th Edition, Surface Laptop 7th Edition, and Surface Pro X running Windows 10
+- Improved accessibility options
+- Resolved a font issue for non-English languages
+- The [Recovery Tool](surface-it-toolkit-usb-recover.md) now prevents the device from going to sleep while the process is active
+
+### Version 1.143.139
 
 - Initial release.
