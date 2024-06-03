@@ -26,7 +26,7 @@ Microsoft can repair many commercial Surface devices via in-region repair facili
 To initiate service, open a request via a self-serve portal:
 
 - **Surface Management Portal:** Sign into the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431) and go to **All services** > **Surface Management Portal**. Select **New repair request**.
-- **Microsoft Surface Support Portal:** Sign into the [Microsoft 365 Admin Center](https://admin.microsoft.com/AdminPortal) and go to **Show all** > **Support** > **Microsoft hardware support**. Select **New repair request**.
+- **Microsoft Surface Support Portal:** Sign into the [Microsoft 365 Admin Center](https://admin.microsoft.com/AdminPortal) and go to **Show all** > **Support** > **Microsoft Surface support**. Select **Warranty service & repair** > **Create service request**.
 
 Upon successful repair, Microsoft returns the device to your shipping
 address. Average turnaround time is 6-12 calendar days depending on your location and supply chain availability.

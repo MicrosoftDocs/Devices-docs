@@ -25,6 +25,8 @@ landingContent:
     linkLists:
       - linkListType: whats-new
         links:
+          - text: Check out the all-new Surface Laptop and Surface Pro
+            url: https://blogs.windows.com/devices/2024/05/20/accelerating-ai-in-the-workplace-with-the-all-new-surface-laptop-and-surface-pro/
           - text: Surface IT Toolkit
             url: surface-it-toolkit.md  
           - text: Introducing Surface Pro 10 & Surface Laptop 6

@@ -7,7 +7,7 @@ author: coveminer
 ms.author: chauncel
 ms.topic: how-to
 ms.reviewer: carlol
-ms.date: 04/25/2024
+ms.date: 05/21/2024
 manager: frankbu
 appliesto:
 - Windows 10
@@ -28,13 +28,10 @@ that allows you to view, assign, and modify an assigned asset tag value for Surf
 
 To run Surface Asset Tag:
 
-1. On the Surface device, download **Surface Asset Tag.zip** from the [Microsoft Download
-    Center](https://www.microsoft.com/download/details.aspx?id=46703),
-    extract the zip file, and save AssetTag.exe in desired folder (in
-    this example, C:\\assets).
+1. Download the [Surface IT Toolkit](https://www.microsoft.com/download/details.aspx?id=46703) and install it on the PC you use to manage devices in your organization.
+2. Open [Surface IT Toolkit](surface-it-toolkit.md). Select **Tool Library** > **Surface Asset Tag** > **Save a copy** and choose **ARM64** or **X64**.
 
-    > [!NOTE]
-    > For Surface Pro X, use the application named **AssetTag_x86**  in the ZIP file.
+    :::image type="content" source="images/surface-asset-tag-download.png" alt-text="Screenshot of Surface Asset Tag download.":::
 
 2. Open a command console as an Administrator and run AssetTag.exe, entering the full path to the tool.
 
@@ -113,7 +110,7 @@ Write-Output (
 
 ### Version history
 
-- v193.139, released October 4, 2023. Included in [Surface IT Toolkit Library](surface-it-toolkit-library.md), April 25, 2024. 
+- v193.139, released October 4, 2023. Included in [Surface IT Toolkit Library](surface-it-toolkit-library.md), April 25, 2024.
 
 ## Learn more
 
