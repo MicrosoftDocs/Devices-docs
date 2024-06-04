@@ -44,9 +44,9 @@ Your support request is listed under "Support requests" where you can track the 
 
 2. Select **Submit** to send your service request.
 
-## Register devices for Windows Autopilot enrollment
+## Register devices 
 
-The Surface Support Portal enables IT admins to register devices for Windows Autopilot enrollment. This functionality allows for seamless device management and integration into your organization's IT infrastructure. Follow these steps to register your devices:
+The Surface Support Portal enables IT admins to register devices, allowing you to associate devices with your tenant. This facilitates  Windows Autopilot enrollment, allowing for seamless device management and integration into your organization's IT infrastructure. Follow these steps to register your devices:
 
 :::image type="content" source="images/autopilot-registration.png" alt-text="Screenshot of registering devices for Windows Autopilot enrollment. ":::
 
