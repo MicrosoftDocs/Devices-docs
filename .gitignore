@@ -6,7 +6,7 @@ _themes*/
 .vs/
 common/
 .vscode/
-*.ini
+*.initest
 
 .openpublishing.buildcore.ps1
 
