@@ -6,7 +6,7 @@ ms.localizationpriority: medium
 author: coveminer
 ms.author: chauncel
 ms.topic: how-to
-ms.date: 06/05/2024
+ms.date: 06/07/2024
 ms.reviewer: cchauvet
 manager: frankbu
 appliesto:
@@ -24,6 +24,7 @@ The Microsoft 365 Surface Support Portal provides a self-serve, centralized solu
 - [Create a support request](#create-a-support-request)
 - [Create a service request for device replacement or repair](#create-a-service-request-for-device-replacement-or-repair)
 - [Register devices](#register-devices)
+- [View coverage and manage warranty requests]
 
 ## Create a support request
 
@@ -63,19 +64,20 @@ The Surface Support Portal enables IT admins to register devices, allowing you t
 
 3. **Submit a registration request:**
    - Provide the required information, including contact email, tenant ID, and domain name.
-   - These details should be prepopulated from your logged-in account.
+   - These details are prepopulated from your signed-in account.
 
 4. **Proof of ownership:**
    - Attach purchase receipts or invoices that include your company name and all device serial numbers listed.
-   - Supported file types include jpg, png, and pdf. The maximum file size is 5 MB.
-   - Drag and drop your files into the designated area or browse to select the files.
 
 5. **Finalize registration:**
    - Verify all details are correct, then submit your registration request.
    - Your registered devices are listed under **Date & Time,** **Request number,** and **State** for tracking and management.
 
-## Learn more
+## View coverage and manage warranty
 
-- [What is Microsoft Surface Management Portal?](/mem/intune/fundamentals/surface-management-portal?)
-- [Microsoft Mechanics](https://youtu.be/_MmutkqNudk)
-- [Surface IT Pro Blog post: Surface Management Portal](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/surface-management-portal/ba-p/1419017)
+- Select **Coverage** to view devices covered under warranty, the time remaining for each device under warranty, and related details.
+- Select **Warranty & service** to view the status of service orders and related details. 
+
+## View information about IT tools
+
+- Select **Surface IT Tools** to access details about the latest tools, including the [Surface IT Toolkit](surface-it-toolkit.md), [Surface Diagnostice Toolkit for Business](surface-diagnostic-toolkit-business.md), and [Surface API Management Service](https://github.com/microsoft/SurfaceApiManagementService). 
