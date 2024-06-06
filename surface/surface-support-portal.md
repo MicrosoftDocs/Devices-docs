@@ -77,7 +77,14 @@ The Surface Support Portal enables IT admins to register devices, allowing you t
 
 - Select **Coverage** to view devices covered under warranty, the time remaining for each device under warranty, and related details.
 - Select **Warranty & service** to view the status of service orders and related details. 
+- To learn more, see [Manage your Surface warranty & service requests](self-serve-warranty-service.md)
 
 ## View information about IT tools
 
 - Select **Surface IT Tools** to access details about the latest tools, including the [Surface IT Toolkit](surface-it-toolkit.md), [Surface Diagnostice Toolkit for Business](surface-diagnostic-toolkit-business.md), and [Surface API Management Service](https://github.com/microsoft/SurfaceApiManagementService). 
+
+## Learn more
+
+- [Surface Management Portal](surface-management-portal.md)
+- [Manage your Surface warranty & service requests](self-serve-warranty-service.md)
+- [Surface IT Toolkit](surface-it-toolkit.md)
