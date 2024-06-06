@@ -21,9 +21,9 @@ The Microsoft 365 Surface Support Portal provides a self-serve, centralized solu
 
 :::image type="content" source="images/surface-support-portal.png" alt-text="Screenshot of Surface Support Portal.":::
 
-- Create a [support request](#create-a-support-request)
-- Create a [service request for device replacement or repair](#create-a-service-request-for-device-replacement-or-repair)
-- Register devices for [Windows Autopilot enrollment](#register-devices-for-windows-autopilot-enrollment)
+- [Create a support request](#create-a-support-request)
+- [Create a service request for device replacement or repair](#create-a-service-request-for-device-replacement-or-repair)
+- [Register devices](#register-devices)
 
 ## Create a support request
 
