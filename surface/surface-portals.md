@@ -41,4 +41,4 @@ Choose the option that’s right for you.
 - [Surface self-serve portals: Created to elevate IT experience - Microsoft Community Hub](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/surface-self-serve-portals-created-to-elevate-it-experience/ba-p/1419002)
 - [Surface Management Portal](surface-management-portal.md)
 - [Microsoft Surface Support Portal](surface-support-portal.md)
-- [Streamline access to Surface Portals for commercial customers.](streamline-access-surface-portals.md)
+- [Streamline access to Surface Portals for commercial customers](streamline-access-surface-portals.md)

@@ -19,6 +19,9 @@ ms.collection: essentials-manage
 
 The Microsoft 365 Surface Support Portal provides a self-serve, centralized solution to get help if you're experiencing an issue with your Surface device. You can also submit requests to replace or repair your device, look up current warranty and protection plans, and register devices for Windows Autopilot enrollment. 
 
+>[!TIP]
+>To learn more about accessing the Surface Support Portal or the Microsoft Intune-based [Surface Management Portal](surface-management-portal.md), see [Streamline access to Surface Portals for commercial customers](streamline-access-surface-portals.md). 
+
 :::image type="content" source="images/surface-support-portal.png" alt-text="Screenshot of Surface Support Portal.":::
 
 - [Create a service request for device replacement or repair](#create-a-service-request-for-device-replacement-or-repair)
