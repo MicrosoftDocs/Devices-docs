@@ -88,4 +88,5 @@ The Surface Support Portal enables IT admins to register devices, allowing you t
 
 - [Surface Management Portal](surface-management-portal.md)
 - [Manage your Surface warranty & service requests](self-serve-warranty-service.md)
+- [Streamline access to Surface Portals for commercial customers](streamline-access-surface-portals.md)
 - [Surface IT Toolkit](surface-it-toolkit.md)
