@@ -61,16 +61,18 @@ The Surface Support Portal enables IT admins to register devices, allowing you t
      - Prepare a CSV file with two columns, **Device Serial Number** and **PO Number.** Ensure all serial numbers include leading zeros.
      - Select **Import CSV** to upload your file, or download a sample CSV template for reference.
 
-4. **Submit a registration request:**
+4. **Confirm tenant details:**
    - Provide the required information, including contact email, tenant ID, and domain name.
    - These details are prepopulated from your signed-in account.
 
-5. **Proof of ownership:**
+5. **Provide proof of ownership:**
    - Attach purchase receipts or invoices that include your company name and all device serial numbers listed.
 
 6. **Finalize registration:**
-   - Verify all details are correct, then submit your registration request.
+   - Verify all details are correct and select **Request regisration**.
    - Your registered devices are listed under **Date & Time,** **Request number,** and **State** for tracking and management.
+
+   :::image type="content" source="images/finalize-registration.png" alt-text="Screenshot of submitting registration request.":::
 
 ## View coverage and manage warranty
 
