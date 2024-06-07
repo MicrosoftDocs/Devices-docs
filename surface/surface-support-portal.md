@@ -21,21 +21,10 @@ The Microsoft 365 Surface Support Portal provides a self-serve, centralized solu
 
 :::image type="content" source="images/surface-support-portal.png" alt-text="Screenshot of Surface Support Portal.":::
 
-- [Create a support request](#create-a-support-request)
 - [Create a service request for device replacement or repair](#create-a-service-request-for-device-replacement-or-repair)
+- [Create a support request](#create-a-support-request)
 - [Register devices](#register-devices)
-- [View coverage and manage warranty requests]
-
-## Create a support request
-
-1. Select **Create support request** and choose a Support provider. Your Microsoft 365 account is purchased through a partner. You can choose to get support from Microsoft or contact your purchase partner. If you don't see your partner listed, go to the [Microsoft Partner Center](https://partner.microsoft.com/dashboard/v2/home). 
-
-    :::image type="content" source="images/surface-support-request.png" alt-text="Screenshot of entering a support request.":::
-
-2. For Microsoft support, enter details of the issue you're experiencing. More detailed descriptions can lead to quicker resolutions.
-3. Select **Contact me**  to submit your support request.
-
-Your support request is listed under "Support requests" where you can track the status and manage any open or closed requests.
+- [View coverage and manage warranty requests](#view-coverage-and-manage-warranty)
 
 ## Create a service request for device replacement or repair
 
@@ -45,33 +34,45 @@ Your support request is listed under "Support requests" where you can track the 
 
 2. Select **Submit** to send your service request.
 
+## Create a support request
+
+1. Select **Create support request**  and enter details of the issue you're experiencing. More detailed descriptions can lead to quicker resolutions.
+
+    :::image type="content" source="images/surface-support-request.png" alt-text="Screenshot of entering a support request.":::
+
+2. Select **Contact me**  to submit your support request.
+
+Your support request is listed under "Support requests" where you can track the status and manage any open or closed requests.
+
 ## Register devices 
 
 The Surface Support Portal enables IT admins to register devices, allowing you to associate devices with your tenant. This facilitates  Windows Autopilot enrollment, allowing for seamless device management and integration into your organization's IT infrastructure. Follow these steps to register your devices:
 
-:::image type="content" source="images/autopilot-registration.png" alt-text="Screenshot of registering devices for Windows Autopilot enrollment. ":::
-
 1. **Begin new device registration:**
    - Select **Register devices**. You'll see options to either begin a new device registration or request support.
 
-2. **Add devices:**
-   - **Add a single device:**
-     - Enter the device serial number and PO (Purchase Order) number in the provided fields.
-     - Select **Add** to register the device.
-   - **Add devices in bulk:**
+2. **Add a single device:**
+   - Enter the device serial number and PO (Purchase Order) number in the provided fields.
+   - Select **Add** to register the device.
+
+    :::image type="content" source="images/autopilot-registration.png" alt-text="Screenshot of registering devices for Windows Autopilot enrollment. ":::
+
+3. **Add devices in bulk:**
      - Prepare a CSV file with two columns, **Device Serial Number** and **PO Number.** Ensure all serial numbers include leading zeros.
      - Select **Import CSV** to upload your file, or download a sample CSV template for reference.
 
-3. **Submit a registration request:**
+4. **Confirm tenant details:**
    - Provide the required information, including contact email, tenant ID, and domain name.
    - These details are prepopulated from your signed-in account.
 
-4. **Proof of ownership:**
+5. **Provide proof of ownership:**
    - Attach purchase receipts or invoices that include your company name and all device serial numbers listed.
 
-5. **Finalize registration:**
-   - Verify all details are correct, then submit your registration request.
+6. **Finalize registration:**
+   - Verify all details are correct and select **Request regisration**.
    - Your registered devices are listed under **Date & Time,** **Request number,** and **State** for tracking and management.
+
+   :::image type="content" source="images/finalize-registration.png" alt-text="Screenshot of submitting registration request.":::
 
 ## View coverage and manage warranty
 
