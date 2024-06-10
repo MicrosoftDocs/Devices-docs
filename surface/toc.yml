@@ -130,6 +130,8 @@
         items:
         - name: Surface Management Portal overview
           href: surface-management-portal.md
+        - name: Surface Support Portal overview
+          href: surface-support-portal.md
         - name: Manage your Surface warranty & service requests
           href: self-serve-warranty-service.md 
         - name: Streamline access to Surface portals

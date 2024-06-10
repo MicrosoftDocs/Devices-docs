@@ -26,6 +26,9 @@ Get insights into device compliance, support activity, and warranty coverage. Qu
 
 When your Surface devices are enrolled for cloud management and users log in for the first time, information from these Surface devices automatically flows into the Surface Management Portal, giving you a single pane of glass for Surface-specific device admin activities.
 
+>[!TIP]
+>To learn more about accessing the Surface Management Portal or the Microsoft 365-based [Surface Support Portal](surface-support-portal.md),see [Streamline access to Surface Portals for commercial customers](streamline-access-surface-portals.md). 
+
 ## Get started
 
 Sign in to [Microsoft Intune admin center](https://endpoint.microsoft.com), select **All services** > **Surface Management Portal**.
