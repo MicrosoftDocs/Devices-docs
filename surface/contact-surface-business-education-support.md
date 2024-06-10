@@ -3,7 +3,7 @@ title: Contact Surface Support for Business and Education customers
 ms.author: chauncel
 author: coveminer
 manager: frankbu
-ms.date: 6/14/2022
+ms.date: 6/10/2024
 ms.topic: how-to
 ms.service: surface
 ms.localizationpriority: Medium
