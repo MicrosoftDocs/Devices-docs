@@ -40,7 +40,7 @@ The [Surface Support Portal](surface-support-portal.md) provides a self-serve, c
 
 If you're unsure if you have access to the Microsoft 365 Admin Center, follow [this link](https://signup.microsoft.com/createaccount?=https%3A%2F%2Fadmin.microsoft.com%2FAdminportal%2FHome%3Fmcapiorgid%3D%7Bmcapiorgid%7D%26accountid%3D%7Baccountid%7D%26&origin=servicesHub&scenario=skiplba). You are prompted to either sign in or create your account. For detailed instructions on the initial sign-up process, see [Streamline access to Surface Portals for commercial customers](streamline-access-surface-portals.md).
 
-Note: If you experience an issue creating an account and have a timely support need,  refer to our legacy support tool, [Support for business](https://support.serviceshub.microsoft.com/supportforbusiness). For improved and faster online support, we encourage you to transition to the [Surface Support Portal](surface-support-portal.md) on the Microsoft 365 Admin Center as soon as possible.
+If you experience an issue creating an account and have a timely support need,  refer to our legacy support tool, [Support for business](https://support.serviceshub.microsoft.com/supportforbusiness). For improved and faster online support, we encourage you to transition to the [Surface Support Portal](surface-support-portal.md) on the Microsoft 365 Admin Center as soon as possible.
 
 ## Premier or Unified Support contract customers
 
