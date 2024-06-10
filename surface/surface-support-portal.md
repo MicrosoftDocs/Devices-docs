@@ -72,7 +72,7 @@ The Surface Support Portal enables IT admins to register devices, allowing you t
    - Attach purchase receipts or invoices that include your company name and all device serial numbers listed.
 
 6. **Finalize registration:**
-   - Verify all details are correct and select **Request regisration**.
+   - Verify all details are correct and select **Request registration**.
    - Your registered devices are listed under **Date & Time,** **Request number,** and **State** for tracking and management.
 
    :::image type="content" source="images/finalize-registration.png" alt-text="Screenshot of submitting registration request.":::
@@ -85,7 +85,7 @@ The Surface Support Portal enables IT admins to register devices, allowing you t
 
 ## View information about IT tools
 
-- Select **Surface IT Tools** to access details about the latest tools, including the [Surface IT Toolkit](surface-it-toolkit.md), [Surface Diagnostice Toolkit for Business](surface-diagnostic-toolkit-business.md), and [Surface API Management Service](https://github.com/microsoft/SurfaceApiManagementService). 
+- Select **Surface IT Tools** to access details about the latest tools, including the [Surface IT Toolkit](surface-it-toolkit.md), [Surface Diagnostics Toolkit for Business](surface-diagnostic-toolkit-business.md), and [Surface API Management Service](https://github.com/microsoft/SurfaceApiManagementService). 
 
 ## Learn more
 
