@@ -19,6 +19,9 @@ ms.collection: essentials-manage
 
 The Microsoft 365 Surface Support Portal provides a self-serve, centralized solution to get help if you're experiencing an issue with your Surface device. You can also submit requests to replace or repair your device, look up current warranty and protection plans, and register devices for Windows Autopilot enrollment. 
 
+>[!TIP]
+>To learn more about accessing the Surface Support Portal or the Microsoft Intune-based [Surface Management Portal](surface-management-portal.md), see [Streamline access to Surface Portals for commercial customers](streamline-access-surface-portals.md). 
+
 :::image type="content" source="images/surface-support-portal.png" alt-text="Screenshot of Surface Support Portal.":::
 
 - [Create a service request for device replacement or repair](#create-a-service-request-for-device-replacement-or-repair)
@@ -69,7 +72,7 @@ The Surface Support Portal enables IT admins to register devices, allowing you t
    - Attach purchase receipts or invoices that include your company name and all device serial numbers listed.
 
 6. **Finalize registration:**
-   - Verify all details are correct and select **Request regisration**.
+   - Verify all details are correct and select **Request registration**.
    - Your registered devices are listed under **Date & Time,** **Request number,** and **State** for tracking and management.
 
    :::image type="content" source="images/finalize-registration.png" alt-text="Screenshot of submitting registration request.":::
@@ -82,10 +85,11 @@ The Surface Support Portal enables IT admins to register devices, allowing you t
 
 ## View information about IT tools
 
-- Select **Surface IT Tools** to access details about the latest tools, including the [Surface IT Toolkit](surface-it-toolkit.md), [Surface Diagnostice Toolkit for Business](surface-diagnostic-toolkit-business.md), and [Surface API Management Service](https://github.com/microsoft/SurfaceApiManagementService). 
+- Select **Surface IT Tools** to access details about the latest tools, including the [Surface IT Toolkit](surface-it-toolkit.md), [Surface Diagnostics Toolkit for Business](surface-diagnostic-toolkit-business.md), and [Surface API Management Service](https://github.com/microsoft/SurfaceApiManagementService). 
 
 ## Learn more
 
 - [Surface Management Portal](surface-management-portal.md)
 - [Manage your Surface warranty & service requests](self-serve-warranty-service.md)
+- [Streamline access to Surface Portals for commercial customers](streamline-access-surface-portals.md)
 - [Surface IT Toolkit](surface-it-toolkit.md)

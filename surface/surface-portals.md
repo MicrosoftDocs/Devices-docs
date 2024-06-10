@@ -33,11 +33,12 @@ Choose the option that’s right for you.
 | Solution                                                                                                                              | Best for                                                                          | Requirements                                                                                             | Notes                                             |
 | ----------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | ------------------------------------------------- |
 | [Microsoft Surface Management Portal](surface-management-portal.md)                          | Customers  that already use Microsoft Intune to manage multiple devices at scale | - [Microsoft Intune Admin Center](https://endpoint.microsoft.com/)<br>- Intune subscription     | -  Manage warranty and claims. Manage support requests. Get Device insights and Device Health. <br><br> - Surface devices are automatically enrolled       |
-| [Microsoft Surface Support Portal](/surface/media/microsoft-hardware-support-portal-tutorial.pdf) | Customers  looking to streamline support for their employees and users            | - [Microsoft 365 Admin Center](https://admin.microsoft.com/AdminPortal/)<br>- Microsoft 365 subscription | - Manage warranty and claims. Manage support requests. <br><br> - Customers need to manually add Surface devices. 
+| [Microsoft Surface Support Portal](surface-support-portal.md) | Customers  looking to streamline support for their employees and users            | - [Microsoft 365 Admin Center](https://admin.microsoft.com/AdminPortal/)<br>- Microsoft 365 subscription | - Manage warranty and claims. Manage support requests. <br><br> - Customers need to manually add Surface devices. 
 |
 
 ## Learn more
 
 - [Surface self-serve portals: Created to elevate IT experience - Microsoft Community Hub](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/surface-self-serve-portals-created-to-elevate-it-experience/ba-p/1419002)
 - [Surface Management Portal](surface-management-portal.md)
-- [Microsoft Surface Support Portal tutorial](/surface/media/microsoft-hardware-support-portal-tutorial.pdf)
+- [Microsoft Surface Support Portal](surface-support-portal.md)
+- [Streamline access to Surface Portals for commercial customers](streamline-access-surface-portals.md)
