@@ -42,15 +42,15 @@ If you're unsure if you have access to the Microsoft 365 Admin Center, follow [t
 
 If you experience an issue creating an account and have a timely support need,  refer to our legacy support tool: [Support for business](https://support.serviceshub.microsoft.com/supportforbusiness). For improved and faster online support, we encourage you to transition to the [Surface Support Portal](surface-support-portal.md) on the Microsoft 365 Admin Center as soon as possible.
 
-## Premier or Unified Support contract customers
+### Premier or Unified Support contract customers
 
 Create, manage, and track support requests while staying current on Microsoft technologies with access to select self-paced learning paths.[Learn more](/services-hub/unified/support/) or [Get Support](https://serviceshub.microsoft.com/support/create).
 
-## Intune Users
+### Intune users
 
 Built into Intune, the Surface Management Portal provides a centralized solution to self-serve, manage, and monitor Surface devices at scale. [Learn more](surface-management-portal.md) or [Get support](https://endpoint.microsoft.com/).
 
-## Still need help?
+### Still need help?
 
 Go to [Microsoft Community](https://answers.microsoft.com/) or use our legacy support tool [Services Hub](https://support.serviceshub.microsoft.com/supportforbusiness).
 
