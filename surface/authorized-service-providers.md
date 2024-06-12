@@ -47,6 +47,7 @@ The growing ASP network consists of more than 160 locations.
 - [DI Technology Group Inc](https://store.dataimpressions.com/)
 - [DXC Technology](https://dxc.com/us)
 - [FedEx](https://www.fedex.com/global/choose-location.html)
+- [GlobalAsset](https://globalassetonline.com/)
 - [Insight](https://www.insight.com/)
 - [Integration Technologies Group (U.S. Federal Government IT Services)](https://www.itgonline.com/)
 - [IT savvy](https://www.itsavvy.com/)
