@@ -6,7 +6,7 @@ metadata:
   ms.date: 08/09/2020
   title: Surface Duo documentation # Required; page title displayed in search results. Include the brand. < 60 chars.
   description: Get started with Microsoft Surface Duo # Required; article description that is displayed in search results. < 160 chars.
-  ms.service: product-insights #Required; service per approved list. service slug assigned to your service by ACOM.
+  ms.service: surface-duo
   ms.topic: landing-page # Required
   manager: frankbu
   author: coveminer #Required; your GitHub user alias, with correct capitalization.

@@ -6,7 +6,7 @@ ms.localizationpriority: medium
 author: coveminer
 ms.author: chauncel
 ms.topic: overview
-ms.date: 04/04/2024
+ms.date: 06/11/2024
 ms.reviewer: chauncel
 manager: frankbu
 appliesto:
@@ -26,7 +26,7 @@ appliesto:
 
 Windows 10 version 22H2 is the [final version of Windows 10](/windows/release-health/release-information) with monthly security updates continuing through October 14, 2025. (The Windows 10 IoT Enterprise Long-Term Servicing Channel (LTSC) and Windows 10 IoT Enterprise will continue to receive updates based on their specific lifecycles.)
 
-## Downgrade from Windows 11 to Windows 10 via BMR 
+## Downgrade from Windows 11 to Windows 10 via BMR
 
 You can manually downgrade Windows Pro or Enterprise editions with a Surface Bare Metal Recovery (BMR) file designed for this purpose.
 
@@ -44,8 +44,11 @@ Use one of the following options:
 
 This section explains how to manually downgrade an individual Surface device to Windows 10.
 
+> [!NOTE]
+> Some newer Surface devices are not compatible with Windows 10, including Surface Pro (11th Edition), Surface Pro 10 with 5G, Surface Laptop (7th Edition), and Surface Laptop Studio 2.
+
 1. **Prepare your Surface device**:
-   - Ensure that all important data on the device is backed up. To learn more, see [Back up your Windows PC](https://support.microsoft.com/en-us/windows/back-up-your-windows-pc-87a81f8a-78fa-456e-b521-ac0560e32338#ID0EBF=Windows_11) and view the following video:
+   - Ensure that all important data on the device is backed up. To learn more, see [Back up your Windows PC](https://support.microsoft.com/windows/back-up-your-windows-pc-87a81f8a-78fa-456e-b521-ac0560e32338#ID0EBF=Windows_11) and view the following video:
 
    > [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1g7Ie?]
 
@@ -74,9 +77,9 @@ In a commercial organization, IT admins can create a Windows 10 custom image wit
 
    :::image type="content" source="images/download-win10-msi-example.png" alt-text="Screenshot that shows selection of Windows 10 MSI file.":::
 
-2.  Integrate the MSI or the drivers/firmware from the MSI with the appropriate deployment tool for your environment.
+2. Integrate the MSI or the drivers/firmware from the MSI with the appropriate deployment tool for your environment.
 
-   - Examples include: [Microsoft Endpoint Configuration Manager](/mem/configmgr) including [Microsoft Deployment Toolkit (MDT)](/mem/configmgr/mdt/), [PowerShell](/powershell/), [DISM - Deployment Image Servicing and Management](/windows-hardware/manufacture/desktop/dism---deployment-image-servicing-and-management-technical-reference-for-windows), or third-party solutions.
+- Examples include: [Microsoft Endpoint Configuration Manager](/mem/configmgr) including [Microsoft Deployment Toolkit (MDT)](/mem/configmgr/mdt/), [PowerShell](/powershell/), [DISM - Deployment Image Servicing and Management](/windows-hardware/manufacture/desktop/dism---deployment-image-servicing-and-management-technical-reference-for-windows), or third-party solutions.
 
 > [!IMPORTANT]
 > After Windows 10 EOS, on October 14, 2025, Windows 10 MSI files for Surface devices will no longer be updated with newer drivers and firmware.
