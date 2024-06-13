@@ -74,6 +74,9 @@ For advanced provisioning options, refer to the section below [Add a certificate
 
 You can enroll the device in Active Directory and specify a security group to use the Settings app, enroll in Microsoft Entra ID to allow global admins to use the Settings app, or create a local administrator account on the device.
 
+> [!IMPORTANT]
+> Microsoft recommends that you use roles with the fewest permissions. This helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
+
 1. To enroll the device in Active Directory, enter the credentials for a least-privileged user account to join the device to the domain. Then, specify the security group to have admin credentials on Surface Hub. If applying the package to a Surface Hub that was reset, you can use the same domain account as long as it's the same account that set up the Surface Hub initially. Otherwise, a different domain account must be used in the provisioning package.
 2. Before you use Windows Configuration Designer to configure bulk Microsoft Entra enrollment, [Plan your Microsoft Entra join implementation](/azure/active-directory/devices/azureadjoin-plan). The **maximum number of devices per user** setting in your Microsoft Entra tenant determines how often the bulk token you get in the wizard can be used.
 3. To enroll the device in Microsoft Entra ID, select that option and enter a friendly name for the bulk token you will obtain using the wizard. Set an expiration date for the token (maximum is 30 days from the date you get the token). Select **Get bulk token**. In the **Let's get you signed in** window, enter an account with permission to join a device to Microsoft Entra ID, and then the password. Select **Accept** to give Windows Configuration Designer the necessary permissions.

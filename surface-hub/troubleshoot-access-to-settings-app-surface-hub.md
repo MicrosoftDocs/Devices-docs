@@ -33,6 +33,9 @@ By default, when Surface Hub is joined to Microsoft Entra ID, only an account de
 - Is Surface Hub behind a proxy or firewall that blocks access to Microsoft Entra ID?
 - Did you or another admin configure [non-Global Admin policy](surface-hub-2s-nonglobal-admin.md) for Surface Hub? If yes, see the following section.
 
+> [!IMPORTANT]
+> Microsoft recommends that you use roles with the fewest permissions. This helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
+
 ### Troubleshoot non-Global Admin policy
 
 When joined to Microsoft Entra ID and auto-enrolled in Intune, you can configure non-Global Admin policy to allow other accounts to access Setting on Surface Hub. If non-Global Admin policy is enabled and users can't access Settings, check the following issues:

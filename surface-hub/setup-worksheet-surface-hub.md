@@ -55,6 +55,9 @@ Use Device affiliation to manage user access to the Settings app on Surface Hub.
 | Microsoft Entra tenant user credentials (username and password) | If you decide to have people in your Microsoft Entra organization become admins on the device, then you'll need to join the Surface Hub to Microsoft Entra ID. To join it to Microsoft Entra ID, you'll need valid credentials for an account in the tenant.                                                               | admin1@contoso.com, #MyPassw0rd | [Admin group management](admin-group-management-for-surface-hub.md)                     |
 | Non Global Admin accounts                                | For Surface Hub devices joined to Microsoft Entra ID,  you can limit admin permissions to management of the Settings app on Surface Hub. This permission confinement enables you to scope admin permissions for Surface Hub only and prevent potentially unwanted admin access an entire Microsoft Entra domain. |                                 | [Configure non-Global Admin accounts on Surface Hub](surface-hub-2s-nonglobal-admin.md) |
 
+> [!IMPORTANT]
+> Microsoft recommends that you use roles with the fewest permissions. This helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
+
 ### If you’re joining a domain
 
 | Property                                           | What this property is used for                                                                                                                                                                                                                        | Example                                         |
