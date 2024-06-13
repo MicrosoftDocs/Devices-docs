@@ -38,6 +38,7 @@ The growing ASP network consists of more than 160 locations.
 #### United States
 
 - [Applied Data Technologies](https://applieddatatech.com/)
+- [Checkpoint Services](https://www.checkpoint.com/)
 - [CompuCom](https://www.compucom.com/)
 - [Compugen](https://www.compugen.us/)
 - [Connection](https://www.connection.com/)
@@ -46,6 +47,7 @@ The growing ASP network consists of more than 160 locations.
 - [DI Technology Group Inc](https://store.dataimpressions.com/)
 - [DXC Technology](https://dxc.com/us)
 - [FedEx](https://www.fedex.com/global/choose-location.html)
+- [GlobalAsset](https://globalassetonline.com/)
 - [Insight](https://www.insight.com/)
 - [Integration Technologies Group (U.S. Federal Government IT Services)](https://www.itgonline.com/)
 - [IT savvy](https://www.itsavvy.com/)
@@ -72,6 +74,7 @@ The growing ASP network consists of more than 160 locations.
 #### Germany
 
 - [Bechtle](https://www.bechtle.com/)
+- [Computacenter](https://www.computacenter.com/)
 - [Hemmersbach](https://www.hemmersbach.com/)
 - [MetaComp](https://www.metacomp.de/)
 - [Ratiodata](https://www.ratiodata.de/)
@@ -82,9 +85,15 @@ The growing ASP network consists of more than 160 locations.
 - [ARP Nederland B.V](https://www.arpsolutions.nl/)
 - [The Rent Company](https://rentcompany.nl/)
 
+#### Spain
+
+- [Valorista](https://valorista.com/)
+
 #### United Kingdom
 
+- [Academia Ltd](https://academia.co.uk/)
 - [Carillion](https://www.carillion.com/)
+- [Centerprise](https://www.centerprise.co.uk/)
 - [CDW](https://www.uk.cdw.com/)
 - [Class Technology Solutions](https://www.easy4u.school/)
 - [Computacenter](https://www.computacenter.com/)
