@@ -37,6 +37,9 @@ When performing these steps, you might find it helpful to use a wired or wireles
 
 4. Restart the device.
 
+> [!IMPORTANT]
+> Microsoft recommends that you use roles with the fewest permissions. This helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
+
 ## Enable the touch keyboard and touchpad
 
 1. Select **Start** > **Settings** > **Devices** > **Typing** and turn on **Show the touch keyboard when not in tablet mode and there's no keyboard attached**.
