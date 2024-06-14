@@ -25,7 +25,7 @@ When performing these steps, you might find it helpful to use a wired or wireles
 
 1. Sign in with an account that has local administrator privileges on the device.  
 
-    - The user who performs the Microsoft Entra join on Microsoft Entra joined devices is automatically added to the local administrator group.  Microsoft Entra global administrators and Microsoft Entra devices administrators are <a href="/azure/active-directory/devices/assign-local-admin" target="_blank">also local administrators</a>.
+    - The user who performs the Microsoft Entra join on Microsoft Entra joined devices is automatically added to the local administrator group.  Microsoft Entra Global administrators and Microsoft Entra devices administrators are <a href="/azure/active-directory/devices/assign-local-admin" target="_blank">also local administrators</a>.
 
     - You can type **net localgroup administrators** at a command prompt to list the accounts that have local administrator rights.
 

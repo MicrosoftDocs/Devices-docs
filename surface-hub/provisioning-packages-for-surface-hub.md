@@ -72,7 +72,7 @@ For advanced provisioning options, refer to the section below [Add a certificate
  > [!div class="mx-imgBorder"]
  > ![Join Active Directory, Microsoft Entra ID, or create a local admin account.](images/sh2-wcd.png)
 
-You can enroll the device in Active Directory and specify a security group to use the Settings app, enroll in Microsoft Entra ID to allow global admins to use the Settings app, or create a local administrator account on the device.
+You can enroll the device in Active Directory and specify a security group to use the Settings app, enroll in Microsoft Entra ID to allow Global admins to use the Settings app, or create a local administrator account on the device.
 
 > [!IMPORTANT]
 > Microsoft recommends that you use roles with the fewest permissions. This helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.

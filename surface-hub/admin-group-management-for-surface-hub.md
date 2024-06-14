@@ -57,7 +57,12 @@ Surface Hub doesn't support applying Group Policy or certificates from the domai
 
 You can use Microsoft Entra ID to join the Surface Hub to allow IT pros from your Microsoft Entra tenant to configure settings. During first run, choose to use [Microsoft Entra ID](first-run-program-surface-hub.md#microsoft-azure-active-directory). You need to provide credentials that are capable of joining the Microsoft Entra tenant of your choice. After you successfully Microsoft Entra join, the appropriate people will be granted admin rights on the device.
 
-By default, all **global administrators** are given admin rights on a Microsoft Entra joined Surface Hub. With **Microsoft Entra ID P1 or P2** or **Enterprise Mobility Suite (EMS)**, you can add additional administrators:
+By default, all **Global administrators** are given admin rights on a Microsoft Entra joined Surface Hub.
+
+> [!IMPORTANT]
+> Microsoft recommends that you use roles with the fewest permissions. This helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
+
+With **Microsoft Entra ID P1 or P2** or **Enterprise Mobility Suite (EMS)**, you can add additional administrators:
 
 1. In the [Azure classic portal](https://portal.azure.com/), select **Active Directory**, and then select the name of your organization's directory.
 2. On the **Configure** page, under **Devices** > **Additional administrators on Microsoft Entra joined devices**, select **Selected**.
@@ -92,8 +97,6 @@ If your organization is using Active Directory or Microsoft Entra ID, we recomme
 | Microsoft Entra join the device | Your organization uses Microsoft Entra Basic   | Global administrators only |
 | &nbsp;                                            | Your organization uses Microsoft Entra ID P1 or P2 or Enterprise Mobility Suite (EMS) | Global administrators and additional administrators |
 
-> [!IMPORTANT]
-> Microsoft recommends that you use roles with the fewest permissions. This helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
 
 <a name='configure-non-global-admin-accounts-on-azure-ad-joined-devices'></a>
 
