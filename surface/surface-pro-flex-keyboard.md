@@ -56,5 +56,5 @@ Get the Surface Pro Flex Keyboard from your [Microsoft Authorized Reseller](http
 2. Testing was conducted at Microsoft in February 2024, using preproduction devices and Windows 11 software, under controlled conditions. Testing consisted of full battery discharge with continuous typing while keyboard is detached from the device. The test was conducted with the default settings (and didn't include use of touchpad or peripherals) Battery life varies significantly with settings, usage, and other factors.
 3. Sold separately.
 4. Surface Pro Flex Keyboard with bold keyset available only in US English.
-5. Use Copilot key with supported Windows 11 devices; feature availability varies by device and market, see [aka.ms/KeySupport] (https://aka.ms/KeySupport)
+5. Use Copilot key with supported Windows 11 devices; feature availability varies by device and market, see [aka.ms/KeySupport](https://aka.ms/KeySupport).
 6. Microsoft’s Limited Warranty is in addition to your consumer law rights.
