@@ -16,6 +16,8 @@ appliesto:
 
 # Surface Pro Flex Keyboard overview
 
+Introducing the all-new Surface Pro Flex Keyboard, designed to enhance the versatility and functionality of your Surface Pro device. This keyboard provides a seamless transition between attached and detached<sup>1</sup> modes with features like 128-bit encryption for secure data transmission and compatibility with multiple Surface Pro models.
+
 :::image type="content" source="images/surface-pro-flex-keyboard.png" alt-text="Screenshot of Surface Pro Flex Keyboard":::
 
 ## Highlights
