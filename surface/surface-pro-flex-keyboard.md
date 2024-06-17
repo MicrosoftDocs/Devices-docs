@@ -18,6 +18,18 @@ appliesto:
 
 :::image type="content" source="images/surface-pro-flex-keyboard.png" alt-text="Screenshot of Surface Pro Flex Keyboard":::
 
+## Highlights
+
+The new Surface Pro Flex Keyboard enhances flexibility:
+
+- **Versatile design:** The Surface Pro Flex Keyboard2 is designed for new experiences, functioning both attached and detached.
+- **Seamless transition:** Effortlessly pair and switch throughout your day. Use it attached to your Pro for the ultimate laptop setup or detach[[1]](#) it to serve as a standalone keyboard for greater flexibility.
+- **Ergonomic workspaces:** Dock Surface Pro to a monitor to create an optimal productivity setup.
+- **Creative workflows:** Enhance your creativity by using your pen with Surface Pro in one hand and accessing essential Adobe shortcuts with Surface Pro Flex Keyboard in the other.
+- **Adaptable to any space:** Surface Pro Flex Keyboard excels even in cramped spaces, like an airplane seat. Detach and continue working comfortably, maintaining your workflow wherever you are.
+- **Encrypted**: 128-bit encryption technology encrypts your data and only allows your Surface Pro to decrypt it, making it difficult for a cyber-thief to intercept your keystrokes.
+
+
 ## Tech specs
 
 |Component| Description|
@@ -34,6 +46,10 @@ appliesto:
 | **Warranty**<sup>6</sup>      | 1-year limited hardware warranty                                                                                                                                                                                                                                                                                           |
 | **Battery capacities**    | Minimum: 495mAh (Min. Energy: 1.862Wh)<br>Typical: 513mAh (Typ. Energy: 1.929Wh)                                                                                                                                                                                                                                           |
 | **Connectivity**          | Bluetooth<sup>®</sup> Low Energy                                                                                                                                                                                                                                                                                                      |
+
+## Order
+
+Get the Surface Pro Flex Keyboard from your [Microsoft Authorized Reseller.](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface) or via the [Microsoft Store](https://www.microsoft.com/d/surface-pro-flex-keyboard/91xw9xj8bm7l)
 
 ### References
 
