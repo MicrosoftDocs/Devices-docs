@@ -16,6 +16,8 @@ appliesto:
 
 # Surface Pro Flex Keyboard overview
 
+:::image type="content" source="images/surface-pro-flex-keyboard.png" alt-text="Screenshot of Surface Pro Flex Keyboard":::
+
 ## Tech specs
 
 |Component| Description|
