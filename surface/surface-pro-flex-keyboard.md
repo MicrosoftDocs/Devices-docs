@@ -33,7 +33,7 @@ The new Surface Pro Flex Keyboard enhances flexibility:
 
 ### Connectivity
 
-The Surface Pro Flex Keyboard features Bluetooth® Low Energy (LE) technology. For earlier Surface Pro devices without Bluetooth LE support, the Surface Pro Flex Keyboard can still maintain connectivity through standard Bluetooth protocols, helping ensure seamless integration.
+The Surface Pro Flex Keyboard features Bluetooth<sup>®</sup> Low Energy (LE) technology. For earlier Surface Pro devices without Bluetooth LE support, the Surface Pro Flex Keyboard can still maintain connectivity through standard Bluetooth protocols, helping ensure seamless integration.
 
 ## Tech specs
 
@@ -50,7 +50,7 @@ The Surface Pro Flex Keyboard features Bluetooth® Low Energy (LE) technology. F
 | **Exterior**              | Material: Alcantara<sup>®</sup><br>Colors: Black                                                                                                                                                                                                                                                                              |
 | **Warranty**<sup>7</sup>       | One-year limited hardware warranty                                                                                                                                                                                                                                                                                            |
 | **Battery capacities**    | Minimum: 495 mAh (Min. Energy: 1.862 Wh)<br>Typical: 513 mAh (Typ. Energy: 1.929 Wh)                                                                                                                                                                                                                                               |
-| **Connectivity**          | Bluetooth<sup>®</sup> Low Energy                                                                                                                                                                                                                                                                                              |
+| **Connectivity**          | Bluetooth Low Energy                                                                                                                                                                                                                                                                                              |
 
 ## Order
 
