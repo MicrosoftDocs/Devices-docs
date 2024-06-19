@@ -76,6 +76,9 @@ conceptualContent:
         - url:  /surface-duo/surface-duo-secure
           itemType: concept
           text: Surface Duo security overview
+        - url:  /surface-duo/surface-duo-2-manage-oemconfig
+          itemType: concept
+          text: Manage OEMConfig on Surface Duo 2
 
     # Card 4
     - title: Surface community
