@@ -76,9 +76,7 @@ conceptualContent:
         - url:  /surface-duo/surface-duo-secure
           itemType: concept
           text: Surface Duo security overview
-        - url: https://www.microsoft.com/surface/business/surface-duo
-          itemType: concept
-          text: Surface Duo tech specs
+
     # Card 4
     - title: Surface community
       links:
