@@ -6,7 +6,7 @@ ms.localizationpriority: high
 author: coveminer
 ms.author: chauncel
 ms.topic: how-to
-ms.date: 11/28/2022
+ms.date: 6/21/2024
 ms.reviewer: Karand 
 manager: frankbu
 appliesto:
@@ -35,33 +35,66 @@ Organizations already using modern management, security, and productivity soluti
 
 #### Surface Pro 9 with 5G
 
-With [Surface Enterprise Management Mode (SEMM)](surface-enterprise-management-mode.md), you can manage the following hardware components at the firmware level for Surface Pro 9 with 5G devices:
+With [Surface Enterprise Management Mode (SEMM)](surface-enterprise-management-mode.md), you can manage the following hardware components at the firmware level for Surface Pro 9 with 5G devices. The default behavior of each component is indicated as either "On" or "Off."
 
-- **Accessories.** Docking USB Port, Type Cover, Onboard Audio, Onboard Microphone, MAC Address Emulation.
-- **Cameras.** Front Camera, Rear Camera, IR Camera.
-- **Wireless (aka Radio).** Bluetooth, Wi-Fi, LTE (5G) and GNSS.
+##### Manage Components
 
-:::image type="content" source="images/uefi-config-surface-arm.png" alt-text="Manage firmware settings on Surface Pro 9 with 5G " :::
+- **Docking USB Port:** On
+- **On-board Audio:** On
+- **On-board Microphone:** On
+- **MAC Address Emulation:** Off
+- **Type Cover:** On
 
-#### Advanced settings
+##### Cameras
 
-- **Kiosk Overrides.** Battery limit.
-- **Boot.** Wake-on-LAN, Wake-on-Power, IPv6 for PXE boot, Alternate Boot, Boot Order Lock, USB Boot, Network Stack.
-- **UEFI Front Page.** Security, Devices, Boot, DateTime
+- **Front Camera:** On
+- **Rear Camera:** On
+- **IR Camera:** On
 
-:::image type="content" source="images/uefi-config-advanced-surface-arm.png" alt-text="Manage firmware settings on Surface Pro 9 with 5G" :::
+##### Radio
+
+- **Bluetooth:** On
+- **Wi-Fi:** On
+- **Wi-Fi and Bluetooth:** On
+- **LTE:** On
+
+##### Boot
+
+- **Wake on LAN:** Off
+- **Wake on Power:** Off
+- **IPv6 for PXE Boot:** Off
+- **Alternate Boot:** On
+- **Boot Order Lock:** Off
+- **USB Boot:** On
+- **Network Stack:** Off
+
+##### USB-C Mode
+
+- **USB-C Port 1:** Mode 0
 
 #### Surface Pro X
 
-With [Surface Enterprise Management Mode (SEMM)](surface-enterprise-management-mode.md), you can manage the following hardware components at the firmware level for Surface Pro X devices:
+With [Surface Enterprise Management Mode (SEMM)](surface-enterprise-management-mode.md), you can manage the following hardware components at the firmware level for Surface Pro X devices. The default behavior of each component is indicated as either "On" or "Off."
 
-- Wake-on-Power
-- IPv6 for PXE boot
-- Alternate Boot
-- Boot Order Lock
-- USB Boot
-- PXE Boot
-- Battery Limit
+##### Boot settings: Surface Pro X
+
+- **Wake on LAN:** Off
+- **Wake on Power:** Off
+- **IPv6 for PXE Boot:** Off
+- **Alternate Boot:** On
+- **Boot Order Lock:** Off
+- **USB Boot:** On
+- **Network Stack:** Off
+- **Auto Power On:** Off
+
+##### UEFI Front Page
+
+- **Security:** On
+- **Boot:** On
+
+##### Kiosk Overrides
+
+- **Battery Limit:** Off
 
 To learn more about managing firmware with SEMM, see:
 
