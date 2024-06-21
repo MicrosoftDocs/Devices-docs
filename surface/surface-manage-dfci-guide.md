@@ -38,6 +38,7 @@ Designed to be used with software-level mobile device management (MDM), DFCI ena
 
 ### Eligible devices
 
+- Surface Hub 3
 - Surface Pro 10 
 - Surface Pro 9 (commercial SKUs only)
 - Surface Pro 9 with 5G (commercial SKUs only)
