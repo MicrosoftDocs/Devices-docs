@@ -1,6 +1,6 @@
 ---
 title: Deploy, manage, and service ARM-based Surface devices
-description: This article provides an overview of key considerations for deploying, managing, and servicing Surface Pro 9 with 5G and Surface Pro X.
+description: This article provides an overview of key considerations for deploying, managing, and servicing Surface Pro (11th Edition), Surface Pro 9 with 5G, and Surface Pro X.
 ms.service: windows-11
 ms.localizationpriority: high
 author: coveminer
@@ -15,25 +15,24 @@ appliesto:
 ---
 # Deploy, manage, and service ARM-based Surface devices
 
-Built to handle high-performance commercial requirements, Surface Pro 9 with 5G incorporates the most powerful processors in its class, the Microsoft SQ3 ARM chipset.
+ARM-based Surface devices including Surface Pro (11th Edition), Surface Pro 9 with 5G, and Surface Pro X are built to handle high-performance commercial requirements.
 
-## Deploy
+### Image-based deployment now supported
 
-For the best experience, deploy Surface Pro 9 with 5G or Surface Pro X using Windows Autopilot either with the assistance of a Microsoft Cloud Solution Provider or self-provisioned using Autopilot deployment profiles and related features. For more information, refer to the following:
+ Image-based Operating System Deployment (OSD) is now [supported via Endpoint Configuration Manager](/mem/configmgr/core/plan-design/changes/whats-new-in-version-2403#support-for-arm-64-operating-system-deployment) for Windows 11 on Surface Pro (11th Edition) and Surface Pro 9 with 5G.
+
+### Autopilot deployment 
+
+You can deploy ARM-based Surface devices using Windows Autopilot either with the assistance of a Microsoft Cloud Solution Provider or self-provisioned using Autopilot deployment profiles and related features. For more information, refer to the following:
 
 - [Windows Autopilot and Surface devices](/surface/windows-autopilot-and-surface-devices)
 - [Overview of Windows Autopilot](/windows/deployment/windows-autopilot/windows-autopilot)
 
-Autopilot deployment has several advantages: It allows you to use the factory-provisioned operating system, streamlined for zero-touch deployment, to include pre-installation of [Microsoft 365 Apps for enterprise](https://www.microsoft.com/microsoft-365/enterprise/microsoft-365-apps-for-enterprise).
-Organizations already using modern management, security, and productivity solutions are well-positioned to take advantage of the unique performance features in Surface Pro 9 with 5G and Surface Pro X. Customers using modernized [line of business apps](/microsoft-store/working-with-line-of-business-apps), [Microsoft Store (UWP) apps](/windows/uwp/get-started/universal-application-platform-guide), or remote desktop solutions also stand to benefit.
-
-### Image-based deployment now supported
-
- Image-based Operating System Deployment (OSD) is now [supported via Endpoint Configuration Manager](/mem/configmgr/core/plan-design/changes/whats-new-in-version-2403#support-for-arm-64-operating-system-deployment) for Windows 11 on Surface Pro 9 with 5G. 
+Autopilot deployment has several advantages: It allows you to use the factory-provisioned operating system, streamlined for zero-touch deployment, to include pre-installation of [Microsoft 365 Apps for enterprise](https://www.microsoft.com/microsoft-365/enterprise/microsoft-365-apps-for-enterprise). Organizations already using modern management, security, and productivity solutions are well-positioned to take advantage of the unique performance features in ARM-based Surface devices. Customers using modernized [line of business apps](/microsoft-store/working-with-line-of-business-apps), [Microsoft Store (UWP) apps](/windows/uwp/get-started/universal-application-platform-guide), or remote desktop solutions also stand to benefit.
 
 ### Manage firmware with UEFI Configurator and SEMM
 
-With the [Surface IT Toolkit](surface-it-toolkit.md) and [Surface Enterprise Management Mode (SEMM)](surface-enterprise-management-mode.md), you can [manage hardware components](surface-it-toolkit-uefi-config.md) at the firmware level for Surface Pro (11th Edition), Surface Pro 9 with 5G, and Surface Pro X devices (including Surface Pro X SQ1, Surface Pro X SQ1 LTE, Surface Pro X SQ2, and Surface Pro X SQ2 LTE). The default behavior of each component is indicated as either "On" or "Off."
+With the [Surface IT Toolkit](surface-it-toolkit.md) and [Surface Enterprise Management Mode (SEMM)](surface-enterprise-management-mode.md), you can [manage hardware components](surface-it-toolkit-uefi-config.md) at the firmware level for Surface Pro (11th Edition), Surface Pro 9 with 5G, and Surface Pro X devices (including Surface Pro X SQ1, Surface Pro X SQ1 LTE, Surface Pro X SQ2, and Surface Pro X SQ2 LTE). The default behavior of each component is indicated as either "On" or "Off." For descriptions of settings functionality, see [SEMM UEFI settings reference](surface-it-toolkit-semm-uefi-settings.md).
 
 | Component              | Surface Pro (11th Edition)     | Surface Pro 9 with 5G     | Surface Pro X     |
 |------------------------|--------------------------------|---------------------------|-------------------|
@@ -72,12 +71,11 @@ With the [Surface IT Toolkit](surface-it-toolkit.md) and [Surface Enterprise Man
 | **Kiosk Overrides**    |                                |                           |                   |
 | Battery Limit          | Off                            | Off                       | Off               |
 
-**1.** Auto Power On is available only for Surface Pro X SQ1 LTE and Surface Pro X SQ2 LTE.
-
+**1.** *Auto Power On is available only for Surface Pro X SQ1 LTE and Surface Pro X SQ2 LTE.*
 
 To learn more about managing firmware with SEMM, see:
 
-- [Surface Enterprise Management Mode](surface-enterprise-management-mode.md)
+- [Get started with Surface Enterprise Management Mode](surface-enterprise-management-mode.md)
 - [Manage Surface UEFI settings](manage-surface-uefi-settings.md)
 
 ## Microsoft Intune admin center
@@ -204,15 +202,15 @@ The following tables show the availability of selected key features on Surface P
 
 **Can I deploy Surface Pro 9 with 5G and Surface Pro X with Endpoint Configuration Manager?**
 
-- Microsoft Endpoint Configuration Manager now [supports Operating System Deployment](/mem/configmgr/core/plan-design/changes/whats-new-in-version-2403#support-for-arm-64-operating-system-deployment) for Windows 11 on Surface Pro 9 with 5G with 5G. 
+- Microsoft Endpoint Configuration Manager now [supports Operating System Deployment](/mem/configmgr/core/plan-design/changes/whats-new-in-version-2403#support-for-arm-64-operating-system-deployment) for Windows 11 on Surface Pro 9 with 5G with 5G.
 
-**How can I deploy Surface Pro 9 with 5G or Surface Pro X?** 
+**How can I deploy Surface Pro 9 with 5G or Surface Pro X?**
 
 - Deploy Surface Pro 9 with 5G via OSD or Windows Autopilot. Deploy Surface Pro X via Windows Autopilot.
 
 **Is a BMR available?**
 
-- Yes a BMR is available for Surface Pro X and Surface Pro 9  with5G. Refer to [Download a recovery image for your Surface](https://support.microsoft.com/surfacerecoveryimage). 
+- Yes a BMR is available for Surface Pro X and Surface Pro 9  with5G. Refer to [Download a recovery image for your Surface](https://support.microsoft.com/surfacerecoveryimage).
 
 **Is Intune required to manage Surface Pro 9 with 5G or Surface Pro X?**
 

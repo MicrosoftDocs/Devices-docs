@@ -22,22 +22,21 @@ This article provides a technical reference of Unified Extensible Firmware Inter
 
 The following components can be turned or off:
 
-- Docking USB port
-- On-board audio
-- Digital graphics processing unit
-- Type cover
-- Micro SD card
-- Front camera
-- Rear camera
-- Infrared camera (for Windows Hello)
 - Bluetooth only
-- Wireless network and Bluetooth
+- DGPU (Discrete Graphics Processing Unit)
+- Docking USB Port
+- Front Camera
+- Infrared Camera (for Windows Hello)
 - Long-term evolution (LTE)
-- Discrete GPU (dGPU)
-- On-board microphone
-- MAC address emulation
-- Wired LAN
+- MAC Address Emulation
+- Micro SD Card
 - Near-field communication (NFC)
+- On-board Audio
+- On-board Microphone
+- Rear Camera
+- Type Cover
+- Wi-Fi and Bluetooth
+- Wired LAN
 
 ## Table 1. Advanced settings
 
@@ -48,7 +47,7 @@ The following components can be turned or off:
 | Boot Order Lock                    | Allows you to lock the boot order to prevent changes. If you don't configure this setting, Boot Order Lock is disabled.                                                                                                        |
 | USB Boot                           | Allows you to manage booting to USB devices. If you don't configure this setting, USB Boot is enabled.                                                                                                                 |
 | Network Stack                      | Allows you to manage Network Stack boot settings. If you don't configure this setting,  the ability to manage Network Stack boot settings is disabled.                                                                                                           |
-| Auto Power On                      | Allows you to manage Auto Power-on boot settings. If you don't configure this setting, Auto Power-on is disabled.                                                                                                        |
+| Auto Power On<SUP>1</SUP>                      | Allows you to manage Auto Power-on boot settings. If you don't configure this setting, Auto Power-on is disabled.                                                                                                        |
 | Simultaneous Multi-Threading (SMT) | Allows you to manage Simultaneous Multi-Threading (SMT) to enable or disable hyperthreading. If you don't configure this setting, SMT is enabled.                                                  |
 | Enable Battery limit               | Allows you to manage Battery limit functionality. If you don't configure this setting, Battery limit is **disabled** |
 | Security                           | Displays the Surface UEFI **Security** page. If you don't configure this setting, the Security page is displayed.                                                                                                                 |
@@ -59,3 +58,5 @@ The following components can be turned or off:
 | Secured Core                       | Allows you to manage Secured Core functionality. If you don't configure this setting, Secured Core functionality is enabled on supported devices.                                                                                                         |
 | Wake-on-LAN                        | Allows you to manage Wake-on-LAN functionality. If you don't configure this setting, Wake-on-LAN is disabled on supported devices.                                                                                                            |
 | Wake-on-Power                      | Allows you to manage Wake-on-Power functionality. If you don't configure this setting, Wake-on-Power is disabled on supported devices.                                                                                                          |
+
+**1.** *Auto Power On is available only for Surface Pro X SQ1 LTE and Surface Pro X SQ2 LTE.*
