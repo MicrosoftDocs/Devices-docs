@@ -33,7 +33,7 @@ Organizations already using modern management, security, and productivity soluti
 
 ### Manage firmware with UEFI Configurator and SEMM
 
-With the [Surface IT Toolkit](surface-it-toolkit.md) and [Surface Enterprise Management Mode (SEMM)](surface-enterprise-management-mode.md), you can [manage hardware components](surface-it-toolkit-uefi-config.md) at the firmware level for Surface Pro (11th Edition), Surface Pro 9 with 5G, and Surface Pro X devices. The default behavior of each component is indicated as either "On" or "Off."
+With the [Surface IT Toolkit](surface-it-toolkit.md) and [Surface Enterprise Management Mode (SEMM)](surface-enterprise-management-mode.md), you can [manage hardware components](surface-it-toolkit-uefi-config.md) at the firmware level for Surface Pro (11th Edition), Surface Pro 9 with 5G, and Surface Pro X devices (including Surface Pro X SQ1, Surface Pro X SQ1 LTE, Surface Pro X SQ2, and Surface Pro X SQ2 LTE). The default behavior of each component is indicated as either "On" or "Off."
 
 | Component              | Surface Pro (11th Edition)     | Surface Pro 9 with 5G     | Surface Pro X     |
 |------------------------|--------------------------------|---------------------------|-------------------|
@@ -61,7 +61,7 @@ With the [Surface IT Toolkit](surface-it-toolkit.md) and [Surface Enterprise Man
 | Boot Order Lock        | Off                            | Off                       | Off               |
 | USB Boot               | On                             | On                        | On                |
 | Network Stack          | Off                            | Off                       | Off               |
-| Auto Power On          |                                |                           | Off               |
+| Auto Power On<sup>1</sup>         |                                |                           | Off               |
 | **USB-C Mode**         |                                |                           |                   |
 | USB-C Port 1           | Mode 0, Mode 1, Mode 2         | Mode 0, Mode 1, Mode 2    |                   |
 | **UEFI Front Page**    |                                |                           |                   |
@@ -71,6 +71,9 @@ With the [Surface IT Toolkit](surface-it-toolkit.md) and [Surface Enterprise Man
 | DateTime               | On                             | On                        |                   |
 | **Kiosk Overrides**    |                                |                           |                   |
 | Battery Limit          | Off                            | Off                       | Off               |
+
+**1.** Auto Power On is available only for Surface Pro X SQ1 LTE and Surface Pro X SQ2 LTE.
+
 
 To learn more about managing firmware with SEMM, see:
 
