@@ -33,7 +33,7 @@ Organizations already using modern management, security, and productivity soluti
 
 ### Manage firmware with UEFI Configurator and SEMM
 
-With the [Surface IT Toolkit](surface-it-toolkit.md) and [Surface Enterprise Management Mode (SEMM)](surface-enterprise-management-mode.md), you can [manage the following hardware components](surface-it-toolkit-uefi-config.md) at the firmware level for Surface Pro (11th Edition), Surface Pro 9 with 5G, and Surface Pro X devices. The default behavior of each component is indicated as either "On" or "Off."
+With the [Surface IT Toolkit](surface-it-toolkit.md) and [Surface Enterprise Management Mode (SEMM)](surface-enterprise-management-mode.md), you can [manage hardware components](surface-it-toolkit-uefi-config.md) at the firmware level for Surface Pro (11th Edition), Surface Pro 9 with 5G, and Surface Pro X devices. The default behavior of each component is indicated as either "On" or "Off."
 
 | Component              | Surface Pro (11th Edition)     | Surface Pro 9 with 5G     | Surface Pro X     |
 |------------------------|--------------------------------|---------------------------|-------------------|
