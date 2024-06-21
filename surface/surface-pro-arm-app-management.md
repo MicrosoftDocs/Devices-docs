@@ -33,68 +33,44 @@ Organizations already using modern management, security, and productivity soluti
 
 ### Manage firmware with UEFI Configurator and SEMM
 
-#### Surface Pro 9 with 5G
+With the [Surface IT Toolkit](surface-it-toolkit.md) and [Surface Enterprise Management Mode (SEMM)](surface-enterprise-management-mode.md), you can [manage the following hardware components](surface-it-toolkit-uefi-config.md) at the firmware level for Surface Pro (11th Edition), Surface Pro 9 with 5G, and Surface Pro X devices. The default behavior of each component is indicated as either "On" or "Off."
 
-With [Surface Enterprise Management Mode (SEMM)](surface-enterprise-management-mode.md), you can manage the following hardware components at the firmware level for Surface Pro 9 with 5G devices. The default behavior of each component is indicated as either "On" or "Off."
-
-##### Manage Components
-
-- **Docking USB Port:** On
-- **On-board Audio:** On
-- **On-board Microphone:** On
-- **MAC Address Emulation:** Off
-- **Type Cover:** On
-
-##### Cameras
-
-- **Front Camera:** On
-- **Rear Camera:** On
-- **IR Camera:** On
-
-##### Radio
-
-- **Bluetooth:** On
-- **Wi-Fi:** On
-- **Wi-Fi and Bluetooth:** On
-- **LTE:** On
-
-##### Boot
-
-- **Wake on LAN:** Off
-- **Wake on Power:** Off
-- **IPv6 for PXE Boot:** Off
-- **Alternate Boot:** On
-- **Boot Order Lock:** Off
-- **USB Boot:** On
-- **Network Stack:** Off
-
-##### USB-C Mode
-
-- **USB-C Port 1:** Mode 0
-
-#### Surface Pro X
-
-With [Surface Enterprise Management Mode (SEMM)](surface-enterprise-management-mode.md), you can manage the following hardware components at the firmware level for Surface Pro X devices. The default behavior of each component is indicated as either "On" or "Off."
-
-##### Boot settings: Surface Pro X
-
-- **Wake on LAN:** Off
-- **Wake on Power:** Off
-- **IPv6 for PXE Boot:** Off
-- **Alternate Boot:** On
-- **Boot Order Lock:** Off
-- **USB Boot:** On
-- **Network Stack:** Off
-- **Auto Power On:** Off
-
-##### UEFI Front Page
-
-- **Security:** On
-- **Boot:** On
-
-##### Kiosk Overrides
-
-- **Battery Limit:** Off
+| Component              | Surface Pro (11th Edition)     | Surface Pro 9 with 5G     | Surface Pro X     |
+|------------------------|--------------------------------|---------------------------|-------------------|
+| **Accessories**        |                                |                           |                   |
+| Docking USB Port       | On                             | On                        |                   |
+| On-board Audio         | On                             | On                        |                   |
+| On-board Microphone    | On                             | On                        |                   |
+| MAC Address Emulation  | Off                            | Off                       |                   |
+| Type Cover             | On                             | On                        |                   |
+| **Cameras**            |                                |                           |                   |
+| Front Camera           | On                             | On                        |                   |
+| Rear Camera            | On                             | On                        |                   |
+| IR Camera              |                                | On                        |                   |
+| **Radio**              |                                |                           |                   |
+| Bluetooth              | On                             | On                        |                   |
+| Wi-Fi                  | On                             | On                        |                   |
+| Wi-Fi and Bluetooth    | On                             | On                        |                   |
+| LTE                    | On                             | On                        |                   |
+| NFC                    | On                             |                           |                   |
+| **Boot**               |                                |                           |                   |
+| Wake on LAN            | Off                            | Off                       | Off               |
+| Wake on Power          | Off                            | Off                       | Off               |
+| IPv6 for PXE Boot      | Off                            | Off                       | Off               |
+| Alternate Boot         | On                             | On                        | On                |
+| Boot Order Lock        | Off                            | Off                       | Off               |
+| USB Boot               | On                             | On                        | On                |
+| Network Stack          | Off                            | Off                       | Off               |
+| Auto Power On          |                                |                           | Off               |
+| **USB-C Mode**         |                                |                           |                   |
+| USB-C Port 1           | Mode 0, Mode 1, Mode 2         | Mode 0, Mode 1, Mode 2    |                   |
+| **UEFI Front Page**    |                                |                           |                   |
+| Security               | On                             | On                        | On                |
+| Devices                | On                             | On                        |                   |
+| Boot                   | On                             | On                        | On                |
+| DateTime               | On                             | On                        |                   |
+| **Kiosk Overrides**    |                                |                           |                   |
+| Battery Limit          | Off                            | Off                       | Off               |
 
 To learn more about managing firmware with SEMM, see:
 
