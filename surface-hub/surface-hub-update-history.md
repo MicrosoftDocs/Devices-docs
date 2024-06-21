@@ -33,7 +33,7 @@ This update is specific to the Surface Hub 2S and provides the driver and firmwa
   * Addresses critical security vulnerability and improves system stability.
 * Intel Bluetooth driver - 23.30.0.3
   * Improves system security and stability.
-* Intel Wi-Fi driver - 23.30.0.3
+* Intel Wi-Fi driver - 23.30.0.6
   * Improves system security and stability.
 
 ### April 23, 2024 - update for Team based on KB5036979* (OS Build 19045.4355)
