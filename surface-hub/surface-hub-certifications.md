@@ -25,7 +25,9 @@ Surface Hub running Teams Rooms on Windows is compatible with all [Teams certifi
 
 Surface Hub 2S running Windows 10 Team edition can be extended to larger rooms with the following tested and approved Teams-certified peripherals that bring the most out of any space when combined with Surface Hub 50” and 85”.
 
-### Microsoft Teams certified audio accessories for Surface Hub 2S
+### Teams certified audio accessories for Windows 10 Team edition
+
+The following peripherals are certified for Surface Hub 2S running Windows 10 Team edition.
 
 | Model | Description |
 | ------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -33,7 +35,9 @@ Surface Hub 2S running Windows 10 Team edition can be extended to larger rooms w
 | **Sennheiser EXPAND SP 20**<br> | For up to six participants                                                                                                                                                                                                                                                    |
 | **Yealink CP900**<br>           | For up to six participants                                                                                                                                                                                                                                                    |
 
-### Microsoft Teams certified video accessories for Surface Hub 2S
+### Teams certified video accessories for Windows 10 Team edition
+
+The following peripherals are certified for Surface Hub 2S running Windows 10 Team edition.
 
 | Model | Description |
 | ------------------------------------------- | ------------------------------------------------------------------------------ |
