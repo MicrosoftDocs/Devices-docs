@@ -21,9 +21,9 @@ The 50" and 85" models of Surface Hub 2S and Surface Hub 3 are [certified for Mi
 
 Surface Hub running Teams Rooms on Windows is compatible with all [Teams certified audio and video accessories](https://www.microsoft.com/store/b/microsoft-teams-certified-devices). This includes Surface Hub 3, Surface Hub 2S devices [migrated](surface-hub-2s-migrate-to-mtr-w.md) to run Teams Rooms on Windows and Surface Hub 2S devices [upgraded](install-manage-surface-hub-3-pack.md) with the Surface Hub 3 Pack compute cartridge.
 
-## Surface Hub 2S
+## Surface Hub running Windows 10 Team edition
 
-Surface Hub 2S can be extended to larger rooms with the following tested and approved Microsoft Teams certified peripherals that bring the most out of any space when combined with Surface Hub 50” and 85”.
+Surface Hub 2S running Windows 10 Team edition can be extended to larger rooms with the following tested and approved Teams-certified peripherals that bring the most out of any space when combined with Surface Hub 50” and 85”.
 
 ### Microsoft Teams certified audio accessories for Surface Hub 2S
 
