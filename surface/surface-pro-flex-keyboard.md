@@ -33,7 +33,14 @@ The new Surface Pro Flex Keyboard enhances flexibility:
 
 ### Connectivity
 
-The Surface Pro Flex Keyboard features Bluetooth<sup>®</sup> Low Energy (LE) technology. For earlier Surface Pro devices without Bluetooth LE support, the Surface Pro Flex Keyboard can still maintain connectivity through standard Bluetooth protocols, helping ensure seamless integration.
+The Surface Pro Flex Keyboard features Bluetooth<sup>®</sup> Low Energy (LE) technology. For earlier Surface Pro devices without Bluetooth LE support, the Surface Pro Flex Keyboard can still maintain connectivity through standard Bluetooth protocols, helping ensure seamless integration. 
+
+Surface Pro Flex Keyboard supports wireless connectivity to one Surface Pro device. To switch to another device:
+
+1. Go to **Settings** > **Bluetooth & devices** and remove **Surface Pro Flex Keyboard** as an input device. 
+2. Physically disconnect the keyboard.
+3. Press and hold the **Esc** key for about 5 seconds until the **Fn** key LED light turns on.
+4. Physically connect the keyboard to your other Surface Pro device. 
 
 ## Tech specs
 
