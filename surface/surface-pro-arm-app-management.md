@@ -35,7 +35,7 @@ Autopilot deployment has several advantages: It allows you to use the factory-pr
 With the [Surface IT Toolkit](surface-it-toolkit.md) and [Surface Enterprise Management Mode (SEMM)](surface-enterprise-management-mode.md), you can [manage hardware components](surface-it-toolkit-uefi-config.md) at the firmware level for commercial SKUs of Surface Pro (11th Edition), Surface Pro 9 with 5G, and Surface Pro X devices (including Surface Pro X SQ1, Surface Pro X SQ1 LTE, Surface Pro X SQ2, and Surface Pro X SQ2 LTE). The default behavior of each component is indicated as either "On" or "Off." For descriptions of settings functionality, see [SEMM UEFI settings reference](surface-it-toolkit-semm-uefi-settings.md).
 
 > [!NOTE]
-> Commercial SKUs of Surface Pro (11th edition) will be  available starting September 10 from your [Microsoft Surface Authorized Reseller](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface).
+> Commercial SKUs of Surface Pro (11th edition) will be  available in September 2024 from your [Microsoft Surface Authorized Reseller](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface).
 
 
 | Component              | Surface Pro (11th Edition)     | Surface Pro 9 with 5G     | Surface Pro X     |
