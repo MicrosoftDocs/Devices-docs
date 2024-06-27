@@ -23,12 +23,12 @@ ARM-based Surface devices including Surface Pro (11th Edition), Surface Laptop (
 
 ### Autopilot deployment 
 
-You can deploy ARM-based Surface devices using Windows Autopilot either with the assistance of a Microsoft Cloud Solution Provider or self-provisioned using Autopilot deployment profiles and related features. For more information, see the following:
+You can deploy ARM-based Surface devices using Windows Autopilot either with the assistance of a Microsoft Cloud Solution Provider or self-provisioned using Autopilot deployment profiles and related features. For more information, see the following resources:
 
 - [Windows Autopilot and Surface devices](/surface/windows-autopilot-and-surface-devices)
 - [Overview of Windows Autopilot](/windows/deployment/windows-autopilot/windows-autopilot)
 
-Autopilot deployment has several advantages: It allows you to use the factory-provisioned operating system, streamlined for zero-touch deployment, to include pre-installation of [Microsoft 365 Apps for enterprise](https://www.microsoft.com/microsoft-365/enterprise/microsoft-365-apps-for-enterprise). Organizations already using modern management, security, and productivity solutions are well-positioned to take advantage of the unique performance features in ARM-based Surface devices. Customers using modernized [line of business apps](/microsoft-store/working-with-line-of-business-apps), [Microsoft Store (UWP) apps](/windows/uwp/get-started/universal-application-platform-guide), or remote desktop solutions also stand to benefit.
+Autopilot deployment has several advantages: It allows you to use the factory-provisioned operating system, streamlined for zero-touch deployment, to include preinstallation of [Microsoft 365 Apps for enterprise](https://www.microsoft.com/microsoft-365/enterprise/microsoft-365-apps-for-enterprise). Organizations already using modern management, security, and productivity solutions are well-positioned to take advantage of the unique performance features in ARM-based Surface devices. Customers using modernized [line of business apps](/microsoft-store/working-with-line-of-business-apps), [Microsoft Store (UWP) apps](/windows/uwp/get-started/universal-application-platform-guide), or remote desktop solutions also stand to benefit.
 
 ### Manage firmware with UEFI Configurator and SEMM
 
@@ -219,4 +219,4 @@ The following tables show the availability of selected key features on Surface P
 
 **Is Intune required to manage ARM-based Surface devices?**
 
-- Intune is recommended but not required. Once deployed in Autopilot, you can join ARM-based Surface devices to Microsoft Entra ID or Active Directory (Microsoft Entra hybrid join), where you will be able to manage the devices with Intune or co-manage them with Endpoint Configuration Manager, which installs the 32-bit x86 ConfigMgr client.
+- Intune is recommended but not required. Once deployed in Autopilot, you can join ARM-based Surface devices to Microsoft Entra ID or Active Directory (Microsoft Entra hybrid join), where you'll be able to manage the devices with Intune or co-manage them with Endpoint Configuration Manager, which installs the 32-bit x86 ConfigMgr client.
