@@ -6,7 +6,7 @@ ms.localizationpriority: medium
 author: coveminer
 ms.author: chauncel
 ms.topic: overview
-ms.date: 05/14/2024
+ms.date: 07/01/2024
 ms.reviewer: 
 manager: frankbu
 appliesto:
@@ -62,6 +62,10 @@ The growing ASP network consists of more than 160 locations.
 
 ### Europe
 
+### Austria
+
+- [CLS](https://www.cls.at/)
+
 #### Belgium
 
 - [The Rent Company](https://rentcompany.be/)
@@ -73,6 +77,7 @@ The growing ASP network consists of more than 160 locations.
 
 #### Germany
 
+- [API](https://www.api.de)
 - [Bechtle](https://www.bechtle.com/)
 - [Computacenter](https://www.computacenter.com/)
 - [Hemmersbach](https://www.hemmersbach.com/)
@@ -98,6 +103,7 @@ The growing ASP network consists of more than 160 locations.
 - [Class Technology Solutions](https://www.easy4u.school/)
 - [Computacenter](https://www.computacenter.com/)
 - [Currys](https://www.currys.co.uk/store-finder)
+- [HybrIT](https://www.hybrit.co.uk/)
 - [DXC Technology (UK)](https://dxc.com/uk/)
 - [Specialist Computer Centre](https://www.scc.com/)
 - [Westcoast](https://www.westcoast.co.uk/)
