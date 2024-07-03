@@ -1,6 +1,6 @@
 ---
-title: "Migrate to Windows 10/11 Pro or Enterprise on Surface Hub"
-description: "How to migrate from Windows 10 Team on Surface Hub to Windows 10/11 Pro or Windows 10/11 Enterprise."
+title: "Migrate to Windows 10/11 Pro or Enterprise on Surface Hub 2S"
+description: "How to migrate from Windows 10 Team on Surface Hub 2S to Windows 10/11 Pro or Windows 10/11 Enterprise."
 ms.service: surface-hub
 author: coveminer
 ms.author: dpandre
@@ -15,7 +15,7 @@ appliesto:
 ---
 
 
-# Migrate to Windows 10/11 Pro or Enterprise on Surface Hub
+# Migrate to Windows 10/11 Pro or Enterprise on Surface Hub 2S
 
 - [Article version history](#version-history)
 
