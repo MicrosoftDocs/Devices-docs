@@ -33,7 +33,7 @@ Surface UEFI Configurator works as an interface into Surface Enterprise Manageme
 
 ## Solution components
 
-- Surface Hub 2S device running Windows 10 Team or Surface Hub 3 running Microsoft Teams Rooms on Windows experience
+- Surface Hub 2S device running Windows 10 Team
 - Separate device running Windows 10/11
 - Surface UEFI Configurator tool to create the SEMM package
 - Windows 10/11 Pro or Enterprise OS image, version 20H2 or later
@@ -347,7 +347,6 @@ The following table summarizes changes to this article.
 
 | Version | Date               | Description                                                                                           |
 | ------- | ------------------ | ----------------------------------------------------------------------------------------------------- |
-| v. 1.7  | September 21, 2023 | Added preliminary info indicating support for migrating to Surface Hub 3. |
 | v. 1.6  | January 16, 2023  | Added a new section for troubleshooting and common problems. |
 | v. 1.5  | December 1, 2021  | Updated to show support for Windows 11. |
 | v. 1.4  | December 14, 2020 | Provides [further info](#install-surface-hub-2s-drivers-and-firmware) about installing the MSI file for "Drivers and firmware for Windows 10 Pro and Enterprise OS on Surface Hub 2S," advising that a second reboot may be necessary depending on the state of your system.                                                          |
