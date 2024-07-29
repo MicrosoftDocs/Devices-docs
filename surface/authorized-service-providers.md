@@ -6,7 +6,7 @@ ms.localizationpriority: medium
 author: coveminer
 ms.author: chauncel
 ms.topic: overview
-ms.date: 07/01/2024
+ms.date: 07/29/2024
 ms.reviewer: 
 manager: frankbu
 appliesto:
@@ -28,6 +28,7 @@ The growing ASP network consists of more than 160 locations.
 
 - [CompuCom](https://www4.compucom.com/compucom-canada)
 - [Compugen](https://www.compugen.com/)
+- [Converge Technology Solutions](https://convergetp.com/)
 - [Coreio](https://www.coreio.com/)
 - [Insight](https://ca.insight.com/en_CA/home.html)
 - [IT Mission](https://itmission.com/)
@@ -64,7 +65,9 @@ The growing ASP network consists of more than 160 locations.
 
 ### Austria
 
+- [Bechtle GmbH IT Systemhaus](https://www.bechtle.com/at-en/about-bechtle/company/bechtle-systemhouse-austria)
 - [CLS](https://www.cls.at/)
+- [Mobiletouch Austria GmbH](https://mobiletouch.at/)
 
 #### Belgium
 
@@ -106,6 +109,7 @@ The growing ASP network consists of more than 160 locations.
 - [HybrIT](https://www.hybrit.co.uk/)
 - [DXC Technology (UK)](https://dxc.com/uk/)
 - [Specialist Computer Centre](https://www.scc.com/)
+- [TMT First Limited](https://www.tmtfirst.co.uk/who-we-are/)
 - [Westcoast](https://www.westcoast.co.uk/)
 - [XMA](https://www.xma.co.uk/)
 - [Zones](https://uk.zones.com/)
@@ -134,3 +138,7 @@ The growing ASP network consists of more than 160 locations.
 #### New Zealand
 
 - [The Laptop Company](https://www.laptop.co.nz/)
+
+#### South Korea
+
+- [Gownet Co., Ltd](https://gownet.com)
