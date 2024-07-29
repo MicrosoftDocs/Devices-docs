@@ -66,7 +66,7 @@ The growing ASP network consists of more than 160 locations.
 
 - [Bechtle GmbH IT Systemhaus](https://www.bechtle.com/at-en/about-bechtle/company/bechtle-systemhouse-austria)
 - [CLS](https://www.cls.at/)
-- [mobiletouch austria gmbH](https://mobiletouch.at/)
+- [Mobiletouch Austria GmbH](https://mobiletouch.at/)
 
 #### Belgium
 
@@ -140,4 +140,4 @@ The growing ASP network consists of more than 160 locations.
 
 #### South Korea
 
--[Gownet Co., Ltd](https://gownet.com/en/?ckattempt=1)
+-[Gownet Co., Ltd](https://gownet.com)
