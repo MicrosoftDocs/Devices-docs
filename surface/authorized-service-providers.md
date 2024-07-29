@@ -28,6 +28,7 @@ The growing ASP network consists of more than 160 locations.
 
 - [CompuCom](https://www4.compucom.com/compucom-canada)
 - [Compugen](https://www.compugen.com/)
+- [Converge Technology Solutions](https://convergetp.com/)
 - [Coreio](https://www.coreio.com/)
 - [Insight](https://ca.insight.com/en_CA/home.html)
 - [IT Mission](https://itmission.com/)
