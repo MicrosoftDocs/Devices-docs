@@ -140,4 +140,4 @@ The growing ASP network consists of more than 160 locations.
 
 #### South Korea
 
--[Gownet Co., Ltd](https://gownet.com)
+- [Gownet Co., Ltd](https://gownet.com)
