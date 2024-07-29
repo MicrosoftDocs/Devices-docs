@@ -27,7 +27,7 @@ The [Microsoft 365 Surface Support Portal](https://admin.microsoft.com/AdminPort
 - [Create a service request for device replacement or repair](#create-a-service-request-for-device-replacement-or-repair)
 - [Create a support request](#create-a-support-request)
 - [Register devices](#register-devices)
-- [View coverage and manage warranty requests](#view-coverage-and-manage-warranty)
+- [View coverage and manage warranty requests](#manage-warranty)
 
 ## Create a service request for device replacement or repair
 
