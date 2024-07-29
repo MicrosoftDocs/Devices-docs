@@ -17,12 +17,12 @@ ms.collection: essentials-manage
 
 # Surface Support Portal overview
 
-The Microsoft 365 Surface Support Portal provides a self-serve, centralized solution to get help if you're experiencing an issue with your Surface device. You can also submit requests to replace or repair your device, look up current warranty and protection plans, and register devices for Windows Autopilot enrollment. 
+The [Microsoft 365 Surface Support Portal](https://admin.microsoft.com/AdminPortal#/support/microsoftsurfacesupport) provides a self-serve, centralized solution to get help if you're experiencing an issue with your Surface device. You can also submit requests to replace or repair your device, look up current warranty and protection plans, and register devices for Windows Autopilot enrollment.
+
+:::image type="content" source="images/surface-service-repair/m365-admincenter-repair-request.png" alt-text="Screenshot of Surface Support Portal.":::
 
 >[!TIP]
->To learn more about accessing the Surface Support Portal or the Microsoft Intune-based [Surface Management Portal](surface-management-portal.md), see [Streamline access to Surface Portals for commercial customers](streamline-access-surface-portals.md). 
-
-:::image type="content" source="images/surface-support-portal.png" alt-text="Screenshot of Surface Support Portal.":::
+>To learn more about accessing the Surface Support Portal or the Microsoft Intune-based [Surface Management Portal](surface-management-portal.md), see [Streamline access to Surface Portals for commercial customers](streamline-access-surface-portals.md).
 
 - [Create a service request for device replacement or repair](#create-a-service-request-for-device-replacement-or-repair)
 - [Create a support request](#create-a-support-request)
@@ -47,12 +47,12 @@ The Microsoft 365 Surface Support Portal provides a self-serve, centralized solu
 
 Your support request is listed under "Support requests" where you can track the status and manage any open or closed requests.
 
-## Register devices 
+## Register devices
 
-The Surface Support Portal enables IT admins to register devices, allowing you to associate devices with your tenant. This facilitates  Windows Autopilot enrollment, allowing for seamless device management and integration into your organization's IT infrastructure. Follow these steps to register your devices:
+The Surface Support Portal enables IT admins to register devices, allowing you to associate devices with your tenant. This facilitates  Windows Autopilot enrollment, allowing for seamless device management and integration into your organization's IT infrastructure. To register your devices, follow these steps
 
 1. **Begin new device registration:**
-   - Select **Register devices**. You'll see options to either begin a new device registration or request support.
+   - Select **Register devices**. There are options to either begin a new device registration or request support.
 
 2. **Add a single device:**
    - Enter the device serial number and PO (Purchase Order) number in the provided fields.
@@ -77,15 +77,15 @@ The Surface Support Portal enables IT admins to register devices, allowing you t
 
    :::image type="content" source="images/finalize-registration.png" alt-text="Screenshot of submitting registration request.":::
 
-## View coverage and manage warranty
+## Manage warranty
 
 - Select **Coverage** to view devices covered under warranty, the time remaining for each device under warranty, and related details.
-- Select **Warranty & service** to view the status of service orders and related details. 
+- Select **Warranty & service** to view the status of service orders and related details.
 - To learn more, see [Manage your Surface warranty & service requests](self-serve-warranty-service.md)
 
 ## View information about IT tools
 
-- Select **Surface IT Tools** to access details about the latest tools, including the [Surface IT Toolkit](surface-it-toolkit.md), [Surface Diagnostics Toolkit for Business](surface-diagnostic-toolkit-business.md), and [Surface API Management Service](https://github.com/microsoft/SurfaceApiManagementService). 
+- Select **Surface IT Tools** to access details about the latest tools, including the [Surface IT Toolkit](surface-it-toolkit.md), [Surface Diagnostics Toolkit for Business](surface-diagnostic-toolkit-business.md), and [Surface API Management Service](https://github.com/microsoft/SurfaceApiManagementService).
 
 ## Learn more
 
