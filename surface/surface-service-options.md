@@ -29,22 +29,22 @@ If you need to service a device covered by Microsoft's Limited Hardware Warranty
 > [!NOTE]
 > Self-serve replacement components are currently **only available for purchase separately**, independent of the warranty status of your device. Replacement components may be refurbished
 
+### Surface Support Portal
+
+1. Sign in to the [Microsoft Surface support - Microsoft 365 admin center](https://admin.microsoft.com/AdminPortal#/support/microsoftsurfacesupport).
+2. Select **Create service request**. For eligible devices and regional availability, see [Microsoft in-region repair](microsoft-in-region-same-unit-repair.md).
+
+    :::image type="content" source="images/surface-service-repair/m365-admincenter-repair-request.png" alt-text="Screenshot of Microsoft 365 admin center showing New repair request feature.":::
+
+> [!TIP]
+> If you need to repair a personal (non-commercial) device, sign into your account at [account.microsoft.com/devices](https://account.microsoft.com/devices), choose the device that needs service, and then select **Start order.**
+
 ### Surface Management Portal
 
 1. Sign in to the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431) and go to **All services** > **Surface Management Portal**.
 2. Select **Repair** > **New repair request**. For eligible devices and regional availability, see [Microsoft in-region repair](microsoft-in-region-same-unit-repair.md).
 
     :::image type="content" source="images/surface-service-repair/smp-repair-request.png" alt-text="Screenshot of Surface Management Portal showing New repair request feature.":::
-
-### Surface Support Portal
-
-1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/AdminPortal) and go to **Show all** > **Support** > **Microsoft Surface support**.
-2. Select **New repair request**. For eligible devices and regional availability, see [Microsoft in-region repair](microsoft-in-region-same-unit-repair.md).
-
-    :::image type="content" source="images/surface-service-repair/m365-admincenter-repair-request.png" alt-text="Screenshot of Microsoft 365 admin center showing New repair request feature.":::
-
-> [!TIP]
-> If you need to repair a personal (non-commercial) device, sign into your account at [account.microsoft.com/devices](https://account.microsoft.com/devices), choose the device that needs service, and then select **Start order.**
 
 ## Recommended service options for out-of-warranty devices
 
