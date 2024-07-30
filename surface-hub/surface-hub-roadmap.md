@@ -1,21 +1,21 @@
 ---
-title: Navigate the Microsoft 365 Roadmap-Surface Hub & Microsoft Teams Rooms
+title: Explore new features roadmap for Surface Hub & Microsoft Teams Rooms on Windows 
 description: Discover how the Microsoft 365 Roadmap helps you stay updated with the latest features for Surface Hub and Microsoft Teams Rooms. Learn how to provide feedback and utilize search tips to maximize your Microsoft 365 experience.
 ms.service: surface-hub
 author: coveminer
 ms.author: chauncel
 manager: frankbu
 ms.topic: how-to
-ms.date: 07/30/2024
+ms.date: 07/31/2024
 ms.localizationpriority: Medium
-appliesto:
-- Surface Hub 2S
-- Surface Hub 3
 ---
 
-# Navigate the Microsoft 365 Roadmap: Surface Hub and Microsoft Teams Rooms on Windows 
+# Explore new features roadmap for Surface Hub & Microsoft Teams Rooms on Windows 
 
-Surface Hub, combined with Teams Rooms, offers a powerful collaboration solution for businesses. And with ongoing updates and new features being rolled out regularly, staying current can be daunting. The Microsoft 365 Roadmap serves as a comprehensive guide to navigate these changes. Whether you’re an IT professional planning future deployment, a business leader strategizing for upcoming changes, or simply curious about new features, the roadmap provides the insights you need.
+Surface Hub, combined with Teams Rooms, offers a powerful collaboration solution for businesses. And with ongoing updates and new features being rolled out regularly, staying current can be daunting. The Microsoft 365 Roadmap serves as a comprehensive guide to navigate these changes. Whether you’re an IT admin planning future deployment, a business leader strategizing for upcoming changes, or simply curious about new features, the roadmap provides the insights you need.
+
+> [!TIP]
+> This article applies to [New Surface Hub 3 devices](surface-hub-3-whats-new.md), Surface Hub 2S devices [upgraded with the Surface Hub 3 Pack compute cartridge](install-manage-surface-hub-3-pack.md) and Surface Hub 2S devices [software-migrated to the Teams Rooms on Windows platform](surface-hub-2s-migrate-to-mtr-w.md).
 
 ## Go directly to the Roadmap for Microsoft Teams Rooms on Windows
 
