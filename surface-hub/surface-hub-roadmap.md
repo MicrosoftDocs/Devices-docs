@@ -13,9 +13,9 @@ appliesto:
 - Surface Hub 3
 ---
 
-# Navigate the Microsoft 365 Roadmap: Surface Hub and Microsoft Teams Rooms
+# Navigate the Microsoft 365 Roadmap: Surface Hub and Microsoft Teams Rooms on Windows 
 
-Surface Hub, combined with Microsoft Teams Rooms, offers a powerful collaboration solution for businesses. However, with numerous updates and new features being rolled out regularly, staying current can be daunting. The Microsoft 365 Roadmap serves as a comprehensive guide to navigate these changes. Whether you’re an IT professional planning future deployment, a business leader strategizing for upcoming changes, or simply curious about new features, the roadmap provides the insights you need.
+Surface Hub, combined with Teams Rooms, offers a powerful collaboration solution for businesses. And with ongoing updates and new features being rolled out regularly, staying current can be daunting. The Microsoft 365 Roadmap serves as a comprehensive guide to navigate these changes. Whether you’re an IT professional planning future deployment, a business leader strategizing for upcoming changes, or simply curious about new features, the roadmap provides the insights you need.
 
 ## Go directly to the Roadmap for Microsoft Teams Rooms on Windows
 
