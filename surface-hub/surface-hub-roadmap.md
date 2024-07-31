@@ -17,7 +17,7 @@ Surface Hub, combined with Teams Rooms, offers a powerful collaboration solution
 > [!TIP]
 > This article applies to [New Surface Hub 3 devices](surface-hub-3-whats-new.md), Surface Hub 2S devices [upgraded with the Surface Hub 3 Pack compute cartridge](install-manage-surface-hub-3-pack.md) and Surface Hub 2S devices [software-migrated to the Teams Rooms on Windows platform](surface-hub-2s-migrate-to-mtr-w.md).
 
-## Go directly to the roadmap for Microsoft Teams Rooms on Windows
+## Go directly to the roadmap 
 
 Use this prepopulated query to start exploring the future of Surface Hub and Microsoft Teams Rooms: 
 
