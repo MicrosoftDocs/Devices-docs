@@ -62,6 +62,9 @@ You can still enroll the device with Intune to centrally manage settings on your
 
 When you choose to affiliate your Surface Hub with Microsoft Entra ID, any user with the Global Administrator role can sign in to the Settings app on Surface Hub. You can also configure non-Global Admin accounts that limit permissions to management of the Settings app on Surface Hub. This enables you to scope admin permissions for Surface Hubs only and prevent potentially unwanted admin access across an entire Microsoft Entra domain.
 
+> [!IMPORTANT]
+> Microsoft recommends that you use roles with the fewest permissions. This helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role. To learn more, see the recommended guidance in [Configure non-Global Admin accounts on Surface Hub](surface-hub-2s-nonglobal-admin.md).
+
 > [!NOTE]
 > Surface Hub administrator accounts can only sign in to the Settings app when [authenticating via Microsoft Entra ID](/azure/active-directory/hybrid/choose-ad-authn#cloud-authentication). Third-party federated Identity Providers (IdPs) are not supported.
 
