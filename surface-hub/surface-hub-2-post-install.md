@@ -25,10 +25,6 @@ When performing these steps, you might find it helpful to use a wired or wireles
 
 1. Sign in with an account that has local administrator privileges on the device.  
 
-    - The user who performs the Microsoft Entra join on Microsoft Entra joined devices is automatically added to the local administrator group.  Microsoft Entra Global administrators and Microsoft Entra devices administrators are <a href="/azure/active-directory/devices/assign-local-admin" target="_blank">also local administrators</a>.
-
-    - You can type **net localgroup administrators** at a command prompt to list the accounts that have local administrator rights.
-
 2. Rename the device using a friendly name, for example, **username-SHub-Desktop**.
 
 3. Select **Start** > **Settings** > **Accounts** > **Sync your settings** and turn **Sync settings** off.
@@ -36,9 +32,6 @@ When performing these steps, you might find it helpful to use a wired or wireles
     - The settings used here are intended to enable the best large-screen touch experience, and therefore you may not want to sync other devices.
 
 4. Restart the device.
-
-> [!IMPORTANT]
-> Microsoft recommends that you use roles with the fewest permissions. This helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
 
 ## Enable the touch keyboard and touchpad
 

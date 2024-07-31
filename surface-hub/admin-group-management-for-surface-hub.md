@@ -60,16 +60,9 @@ You can use Microsoft Entra ID to join the Surface Hub to allow IT pros from you
 By default, all **Global administrators** are given admin rights on a Microsoft Entra joined Surface Hub.
 
 > [!IMPORTANT]
-> Microsoft recommends that you use roles with the fewest permissions. This helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
+> Microsoft recommends that you use roles with the fewest permissions. This helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role. To learn more, see the recommended guidance in [Configure non-Global Admin accounts on Surface Hub](surface-hub-2s-nonglobal-admin.md).
 
-With **Microsoft Entra ID P1 or P2** or **Enterprise Mobility Suite (EMS)**, you can add additional administrators:
-
-1. In the [Azure classic portal](https://portal.azure.com/), select **Active Directory**, and then select the name of your organization's directory.
-2. On the **Configure** page, under **Devices** > **Additional administrators on Microsoft Entra joined devices**, select **Selected**.
-3. Select **Add**, and select the users you want to add as administrators on your Surface Hub and other Microsoft Entra joined devices.
-4. When you finish, select the checkmark button to save your change.
-
-<a name='what-happens-when-you-azure-ad-join-your-surface-hub'></a>
+You can add additional administrators as [detailed on this page](#configure-non-global-admin-accounts-on-microsoft-entra-joined-devices). 
 
 #### What happens when you Microsoft Entra join your Surface Hub?
 

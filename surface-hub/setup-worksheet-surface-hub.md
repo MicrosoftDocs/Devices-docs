@@ -56,7 +56,7 @@ Use Device affiliation to manage user access to the Settings app on Surface Hub.
 | Non Global Admin accounts                                | For Surface Hub devices joined to Microsoft Entra ID,  you can limit admin permissions to management of the Settings app on Surface Hub. This permission confinement enables you to scope admin permissions for Surface Hub only and prevent potentially unwanted admin access an entire Microsoft Entra domain. |                                 | [Configure non-Global Admin accounts on Surface Hub](surface-hub-2s-nonglobal-admin.md) |
 
 > [!IMPORTANT]
-> Microsoft recommends that you use roles with the fewest permissions. This helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
+> Microsoft recommends that you use roles with the fewest permissions. This helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role. To learn more, see the recommended guidance in [Configure non-Global Admin accounts on Surface Hub](surface-hub-2s-nonglobal-admin.md).
 
 ### If you’re joining a domain
 

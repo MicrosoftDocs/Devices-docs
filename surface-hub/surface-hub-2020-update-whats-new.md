@@ -92,7 +92,7 @@ To learn more, see:
 - **Support for non-Global admins for Microsoft Entra joined devices**. Customers can choose a more granular set of admins within their admin hierarchy to manage Surface Hub. To learn more, see [Configure non-Global Admin accounts on Surface Hub](surface-hub-2s-nonglobal-admin.md).
 
 > [!IMPORTANT]
-> Microsoft recommends that you use roles with the fewest permissions. This helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
+> Microsoft recommends that you use roles with the fewest permissions. This helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role. To learn more, see the recommended guidance in [Configure non-Global Admin accounts on Surface Hub](surface-hub-2s-nonglobal-admin.md).
 
 ### Inking improvements
 
