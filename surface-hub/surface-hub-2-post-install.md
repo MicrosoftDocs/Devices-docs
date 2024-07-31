@@ -348,9 +348,7 @@ Windows 10/11 Pro or Enterprise on Surface Hub 2S keeps the screen from going to
 
 **Power Management: Screen and PC sleep settings**
 
-1
-
-. Select **Start** > **Settings** > **System** > **Power & sleep**.
+1. Select **Start** > **Settings** > **System** > **Power & sleep**.
 
 2. Set the power mode slider to **Best performance**.
 
