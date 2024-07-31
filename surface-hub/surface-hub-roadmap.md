@@ -6,16 +6,13 @@ author: coveminer
 ms.author: chauncel
 manager: frankbu
 ms.topic: how-to
-ms.date: 07/31/2024
+ms.date: 08/01/2024
 ms.localizationpriority: Medium
 ---
 
 # Explore new features roadmap for Surface Hub & Microsoft Teams Rooms on Windows 
 
-Surface Hub, combined with Teams Rooms, offers a powerful collaboration solution for businesses. And with ongoing updates and new features being rolled out regularly, staying current can be daunting. The Microsoft 365 Roadmap serves as a comprehensive guide to navigate these changes. Whether you’re an IT admin planning future deployment, a business leader strategizing for upcoming changes, or simply curious about new features, the roadmap provides the insights you need.
-
-> [!TIP]
-> This article applies to [New Surface Hub 3 devices](surface-hub-3-whats-new.md), Surface Hub 2S devices [upgraded with the Surface Hub 3 Pack compute cartridge](install-manage-surface-hub-3-pack.md) and Surface Hub 2S devices [software-migrated to the Teams Rooms on Windows platform](surface-hub-2s-migrate-to-mtr-w.md).
+Surface Hub, combined with Teams Rooms, offers a powerful collaboration solution for businesses. And with ongoing updates and new features being rolled out regularly, staying current can be a challenge. The Microsoft 365 Roadmap serves as a comprehensive guide to navigate these changes. Whether you’re an IT admin planning future deployment, a business leader strategizing for upcoming changes, or curious about new features, the roadmap provides the insights you need.
 
 ## Go directly to the roadmap 
 
@@ -23,18 +20,17 @@ Use this prepopulated query to start exploring the future of Surface Hub and Mic
 
 - [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=teams%2Crooms).
 
+> [!TIP]
+> This article applies to [New Surface Hub 3 devices](surface-hub-3-whats-new.md), Surface Hub 2S devices [upgraded with the Surface Hub 3 Pack compute cartridge](install-manage-surface-hub-3-pack.md) and Surface Hub 2S devices [software-migrated to the Teams Rooms on Windows platform](surface-hub-2s-migrate-to-mtr-w.md).
+
 ### Explore the roadmap
 
-Finding information on the Microsoft 365 Roadmap is straightforward. By typing in a product name, keyword, or feature ID into the search bar, you can quickly locate relevant features and updates. Here are a few search tips to get you started:
-
-- **Feature ID search:** The best way to find a specific feature is by searching its ID.
-- **Use tags:** Tags can be used in searches and as filter options to narrow down results.
-- **Keyword search:** Keywords, such as “Surface Hub” or “Teams Rooms,” found in feature descriptions can also be used for searching.
+Finding information on the Microsoft 365 Roadmap is straightforward. Use the prepopulated query, as shown on this page. Or you can enter a product name, keyword, or feature ID into the search bar to explore other areas
 
 ### Stay updated
 
-Keeping up with future product updates is made easy through various channels that Microsoft provides for customer communication. The [Feedback portal](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=teams%2Crooms) is one such channel where users can share their thoughts and suggestions.
+Keeping up with future product updates is made easy through various channels that Microsoft provides for customer communication. The [Feedback portal](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=teams%2Crooms) is one such channel where you can share  thoughts and suggestions.
 
 ### Provide feedback
 
-The Microsoft 365 Roadmap functions as a dynamic platform that evolves based on your feedback. If you have suggestions or comments about the site or specific roadmap items related to Surface Hub and Microsoft Teams Rooms, you can quickly provide feedback using the feedback button available on the roadmap site. For feedback on a specific feature, be sure to include the feature ID in your comment to ensure your input is accurately addressed.
+The Microsoft 365 Roadmap functions as a dynamic platform that evolves based on your feedback. If you have suggestions about specific roadmap items related to Surface Hub and Microsoft Teams Rooms, we invite you to share your comments via the feedback button available on the roadmap site.
