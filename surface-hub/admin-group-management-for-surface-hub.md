@@ -57,14 +57,12 @@ Surface Hub doesn't support applying Group Policy or certificates from the domai
 
 You can use Microsoft Entra ID to join the Surface Hub to allow IT pros from your Microsoft Entra tenant to configure settings. During first run, choose to use [Microsoft Entra ID](first-run-program-surface-hub.md#microsoft-azure-active-directory). You need to provide credentials that are capable of joining the Microsoft Entra tenant of your choice. After you successfully Microsoft Entra join, the appropriate people will be granted admin rights on the device.
 
-By default, all **global administrators** are given admin rights on a Microsoft Entra joined Surface Hub. With **Microsoft Entra ID P1 or P2** or **Enterprise Mobility Suite (EMS)**, you can add additional administrators:
+By default, all **Global administrators** are given admin rights on a Microsoft Entra joined Surface Hub.
 
-1. In the [Azure classic portal](https://portal.azure.com/), select **Active Directory**, and then select the name of your organization's directory.
-2. On the **Configure** page, under **Devices** > **Additional administrators on Microsoft Entra joined devices**, select **Selected**.
-3. Select **Add**, and select the users you want to add as administrators on your Surface Hub and other Microsoft Entra joined devices.
-4. When you finish, select the checkmark button to save your change.
+> [!IMPORTANT]
+> Microsoft recommends that you use roles with the fewest permissions. This helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role. To learn more, see the recommended guidance in [Configure non-Global Admin accounts on Surface Hub](surface-hub-2s-nonglobal-admin.md).
 
-<a name='what-happens-when-you-azure-ad-join-your-surface-hub'></a>
+You can add additional administrators as [detailed on this page](#configure-non-global-admin-accounts-on-microsoft-entra-joined-devices). 
 
 #### What happens when you Microsoft Entra join your Surface Hub?
 
@@ -91,6 +89,7 @@ If your organization is using Active Directory or Microsoft Entra ID, we recomme
 | Domain join to Active Directory (AD)              | Your organization uses AD               | Any AD user from a specific security group in your domain |
 | Microsoft Entra join the device | Your organization uses Microsoft Entra Basic   | Global administrators only |
 | &nbsp;                                            | Your organization uses Microsoft Entra ID P1 or P2 or Enterprise Mobility Suite (EMS) | Global administrators and additional administrators |
+
 
 <a name='configure-non-global-admin-accounts-on-azure-ad-joined-devices'></a>
 
