@@ -50,6 +50,9 @@ Sign in to [Microsoft Intune admin center](https://endpoint.microsoft.com), sele
 
 1. *Requires **Read Only Operator** role for access*.
 
+> [!IMPORTANT]
+> Microsoft recommends that you use roles with the fewest permissions. This helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
+
 ## Monitor Surface devices
 
 Select **Monitor** to display insights for all your Surface devices, including:

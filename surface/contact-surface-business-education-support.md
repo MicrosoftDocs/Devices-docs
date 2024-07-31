@@ -36,7 +36,7 @@ Depending on your company's active product subscriptions or paid support offers,
 
 ### General Surface Support
 
-The [Surface Support Portal](surface-support-portal.md) provides a self-serve, centralized solution to look up current warranty and protection plans, create individual or bulk service requests, and track the status of support cases. 
+The [Surface Support Portal](surface-support-portal.md) provides a self-serve, centralized solution to look up current warranty and protection plans, create individual or bulk service requests, and track the status of support cases.
 
 - [Get support](https://admin.microsoft.com/adminportal/home#/support/microsoftsurfacesupport)
 

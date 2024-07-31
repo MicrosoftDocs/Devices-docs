@@ -11,7 +11,7 @@ ms.localizationpriority: medium
 ---
 # Troubleshoot access to Settings app on Surface Hub
 
-To open the Settings app on Surface Hub, select **All apps** > **Settings**. Ease of Access settings are available to anyone using Surface Hub. For all other settings, select **View as Admin** and sign in with an Admin account. If you're unable to access settings after attempting to sign in with your Admin account, review the troubleshooting guidance on this page, beginning with Device affiliation. 
+To open the Settings app on Surface Hub, select **All apps** > **Settings**. Ease of Access settings are available to anyone using Surface Hub. For all other settings, select **View as Admin** and sign in with an Admin account. If you're unable to access settings after attempting to sign in with your Admin account, review the troubleshooting guidance on this page, beginning with Device affiliation.
 
 ## Device affiliation
 
@@ -32,6 +32,9 @@ By default, when Surface Hub is joined to Microsoft Entra ID, only an account de
 - Is Surface Hub connected to the internet?
 - Is Surface Hub behind a proxy or firewall that blocks access to Microsoft Entra ID?
 - Did you or another admin configure [non-Global Admin policy](surface-hub-2s-nonglobal-admin.md) for Surface Hub? If yes, see the following section.
+
+> [!IMPORTANT]
+> Microsoft recommends that you use roles with the fewest permissions. This helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role. To learn more, see the recommended guidance in [Configure non-Global Admin accounts on Surface Hub](surface-hub-2s-nonglobal-admin.md).
 
 ### Troubleshoot non-Global Admin policy
 

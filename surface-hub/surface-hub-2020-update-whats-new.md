@@ -91,6 +91,9 @@ To learn more, see:
 - **Conditional access (CA) for Microsoft Entra joined devices**. IT admins can control user access to organizational resources from Microsoft Entra joined Surface Hubs by assigning device policies per their corporate security and compliance requirements.
 - **Support for non-Global admins for Microsoft Entra joined devices**. Customers can choose a more granular set of admins within their admin hierarchy to manage Surface Hub. To learn more, see [Configure non-Global Admin accounts on Surface Hub](surface-hub-2s-nonglobal-admin.md).
 
+> [!IMPORTANT]
+> Microsoft recommends that you use roles with the fewest permissions. This helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role. To learn more, see the recommended guidance in [Configure non-Global Admin accounts on Surface Hub](surface-hub-2s-nonglobal-admin.md).
+
 ### Inking improvements
 
 - **Support for dual-pen inking on Surface Hub 2S**.  Use the whiteboard and collaborate side-by-side on Surface Hub 2S with two Surface Hub 2S Pens. Any system hardware update installed after upgrading to Windows 10 Team 2020 will add firmware support for this scenario.
