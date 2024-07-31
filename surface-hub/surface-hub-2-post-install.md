@@ -342,7 +342,7 @@ The [Surface Hub Hardware Diagnostic tool](https://www.microsoft.com/p/surface-h
 
 ### Power management
 
-There are several power settings available to get the best experience using Windows 10/11 Pro or Enterprise on Surface Hub 2S. This includes screen and pc timeouts and how they interact with the built-in human presence detection (Doppler), the screen saver and password protection, and then if appropriate how to by-pass group policy power settings intended for laptop / desktop users.
+There are several power settings available to get the best experience using Windows 10/11 Pro or Enterprise on Surface Hub 2S. This includes screen and pc timeouts and how they interact with the built-in human presence detection (Doppler), the screen saver and password protection, and then if appropriate how to bypass group policy power settings intended for laptop / desktop users.
 
 Windows 10/11 Pro or Enterprise on Surface Hub 2S keeps the screen from going to sleep by touch, mouse, and keyboard actions, as well as the built-in human occupancy detection (Doppler). Human occupancy detection is enabled by default, but if desired it can be disabled in UEFI by toggling the device option in the Surface UEFI Configurator tool either as part of the initial migration, or by building and applying a later UEFI configuration package.
 
