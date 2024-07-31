@@ -17,19 +17,21 @@ Surface Hub, combined with Teams Rooms, offers a powerful collaboration solution
 > [!TIP]
 > This article applies to [New Surface Hub 3 devices](surface-hub-3-whats-new.md), Surface Hub 2S devices [upgraded with the Surface Hub 3 Pack compute cartridge](install-manage-surface-hub-3-pack.md) and Surface Hub 2S devices [software-migrated to the Teams Rooms on Windows platform](surface-hub-2s-migrate-to-mtr-w.md).
 
-## Go directly to the Roadmap for Microsoft Teams Rooms on Windows
+## Go directly to the roadmap for Microsoft Teams Rooms on Windows
 
-Use this prepopulated query to start exploring the future of Surface Hub and Microsoft Teams Rooms: [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=teams%2Crooms).
+Use this prepopulated query to start exploring the future of Surface Hub and Microsoft Teams Rooms: 
 
-### Explore the Roadmap
+- [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=teams%2Crooms).
+
+### Explore the roadmap
 
 Finding information on the Microsoft 365 Roadmap is straightforward. By typing in a product name, keyword, or feature ID into the search bar, you can quickly locate relevant features and updates. Here are a few search tips to get you started:
 
-- **Feature ID Search:** The best way to find a specific feature is by searching its ID.
-- **Use Tags:** Tags can be used in searches and as filter options to narrow down results.
-- **Keyword Search:** Keywords, such as “Surface Hub” or “Teams Rooms,” found in feature descriptions can also be used for searching.
+- **Feature ID search:** The best way to find a specific feature is by searching its ID.
+- **Use tags:** Tags can be used in searches and as filter options to narrow down results.
+- **Keyword search:** Keywords, such as “Surface Hub” or “Teams Rooms,” found in feature descriptions can also be used for searching.
 
-### Stay opdated
+### Stay updated
 
 Keeping up with future product updates is made easy through various channels that Microsoft provides for customer communication. The [Feedback portal](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=teams%2Crooms) is one such channel where users can share their thoughts and suggestions.
 
