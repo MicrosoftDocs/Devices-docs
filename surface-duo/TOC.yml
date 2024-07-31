@@ -7,9 +7,7 @@
           href: surface-duo-manage.md
         - name: Surface Duo security overview
           href: surface-duo-secure.md
-        - name: Surface Duo tech specs
-          href: https://www.microsoft.com/surface/business/surface-duo
-
+          
     - name: Secure
       items:
         - name: Android Enterprise security configuration framework

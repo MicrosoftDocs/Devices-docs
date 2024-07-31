@@ -25,6 +25,8 @@ landingContent:
     linkLists:
       - linkListType: whats-new
         links:
+          - text: Detachable Surface Pro Flex Keyboard
+            url: surface-pro-flex-keyboard.md
           - text: Check out the all-new Surface Laptop and Surface Pro
             url: https://blogs.windows.com/devices/2024/05/20/accelerating-ai-in-the-workplace-with-the-all-new-surface-laptop-and-surface-pro/
           - text: Surface IT Toolkit
@@ -39,8 +41,6 @@ landingContent:
             url: surface-laptop-smart-card-reader.md 
           - text: Surface ruggedness testing
             url: surface-hardware-environmental-test-results.md              
-          - text: Surface devices driver and firmware lifecycle 
-            url: surface-driver-firmware-lifecycle-support.md
           - text: Explore all Surface family products
             url: https://www.microsoft.com/surface/business
   
