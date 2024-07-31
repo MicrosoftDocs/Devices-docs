@@ -1,6 +1,6 @@
 ---
 title: Surface IT Toolkit
-description: This article introduces the new Surface IT Toolkit.
+description: The new Surface IT Toolkit compiles essential commercial tools in a single application, helping streamline Surface device management for IT admins.
 ms.service: surface
 ms.localizationpriority: medium
 author: coveminer
@@ -16,7 +16,7 @@ appliesto:
 
 # Surface IT Toolkit
 
-The Surface IT Toolkit is a modern desktop application that compiles essential commercial tools and streamlines Surface device management for IT admins in a single application.
+The Surface IT Toolkit is a modern desktop application that compiles essential commercial tools in a single application, helping streamline Surface device management for IT admins.
 
 The Surface IT Toolkit ensures you're using the latest version thanks to [MSIX](/windows/msix/overview) the Windows app package format that automatically checks for updates and downloads them for you.
 
@@ -74,7 +74,7 @@ The Tool Library in the Surface IT Toolkit is a centralized repository that prov
 
 ## Release notes
 
-### Version 1.186.141
+### Version 1.186.139
 
 This version of Surface IT Toolkit, released May 30, 2024, includes the following updates:
 

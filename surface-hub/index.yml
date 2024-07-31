@@ -8,7 +8,7 @@ metadata:
   title: Surface Hub admin guide # Required; page title displayed in search results. Include the brand. < 60 chars.
   description: Get started with Microsoft Surface Hub. # Required; article description that is displayed in search results. < 160 chars.
   services: product-insights
-  ms.service: product-insights #Required; service per approved list. service slug assigned to your service by ACOM.
+  ms.service: surface-hub
   ms.topic: landing-page # Required
   ms.custom: intro-hub-or-landing
   ms.localizationpriority: medium

@@ -9,6 +9,8 @@
       items: 
       - name: Technical overviews
         items:
+         - name: Surface Pro Flex Keyboard overview
+           href: surface-pro-flex-keyboard.md
          - name: NFC support in Surface Pro 10 for Business
            href: surface-pro-nfc.md
          - name: Surface Laptop 6 smart card reader overview
@@ -130,6 +132,8 @@
         items:
         - name: Surface Management Portal overview
           href: surface-management-portal.md
+        - name: Surface Support Portal overview
+          href: surface-support-portal.md
         - name: Manage your Surface warranty & service requests
           href: self-serve-warranty-service.md 
         - name: Streamline access to Surface portals

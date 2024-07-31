@@ -3,7 +3,7 @@ title: Contact Surface Support for Business and Education customers
 ms.author: chauncel
 author: coveminer
 manager: frankbu
-ms.date: 6/14/2022
+ms.date: 6/10/2024
 ms.topic: how-to
 ms.service: surface
 ms.localizationpriority: Medium
@@ -32,29 +32,29 @@ If you're still having a problem after reviewing the top solutions and running t
 
 ## [Online support](#tab/online)
 
-Depending on your company's active product subscriptions and/or paid Support offers, convenient solutions are available to manage your Surface device support requests individually and in bulk. Follow the link that best fits your company's profile.
+Depending on your company's active product subscriptions or paid support offers, convenient solutions are available to manage your Surface device support requests individually and in bulk. Follow the link that best fits your company's profile.
 
-### You manage your devices with Intune
+### General Surface Support
 
-Built into Intune, the Surface Management Portal provides a centralized solution to self-serve, manage, and monitor Surface devices at scale. [Get support](/surface/surface-management-portal).
+The [Surface Support Portal](surface-support-portal.md) provides a self-serve, centralized solution to look up current warranty and protection plans, create individual or bulk service requests, and track the status of support cases. 
 
-### You have a Microsoft 365 Subscription
+- [Get support](https://admin.microsoft.com/adminportal/home#/support/microsoftsurfacesupport)
 
-The Microsoft 365 Surface Support Portal provides a self-serve, centralized solution to look up current warranty and protection plans, create service requests, and track the status of device repairs. [Get support](/surface/self-serve-warranty-service).
+If this is your first time accessing the Microsoft 365 Admin Center, please follow these onboarding steps: [Streamline access to Surface Portals for commercial customers](streamline-access-surface-portals.md).
 
-### You have a Premier or Unified Support contract
+If you experience an issue creating an account and have a timely support need,  refer to our legacy support tool: [Support for business](https://support.serviceshub.microsoft.com/supportforbusiness). For improved and faster online support, we encourage you to transition to the [Surface Support Portal](surface-support-portal.md) on the Microsoft 365 Admin Center as soon as possible.
 
-Create, Manage, and track support requests while staying current on Microsoft technologies with access to select self-paced learning paths.
+### Premier or Unified Support contract customers
 
-[Learn more](/services-hub/unified/support/) or [Get Support](https://serviceshub.microsoft.com/support/create).
+Create, manage, and track support requests while staying current on Microsoft technologies with access to select self-paced learning paths.[Learn more](/services-hub/unified/support/) or [Get Support](https://serviceshub.microsoft.com/support/create).
 
-### All other business customers
+### Intune users
 
-To expedite your service requests, make sure to include your device serial numbers. [Get support](https://support.serviceshub.microsoft.com/supportforbusiness). 
+Built into Intune, the Surface Management Portal provides a centralized solution to self-serve, manage, and monitor Surface devices at scale. [Learn more](surface-management-portal.md) or [Get support](https://endpoint.microsoft.com/).
 
-US and Canada Customers who don't currently have an Intune or Microsoft 365 subscription: an enhanced Support experience offering self-serve functionality is now available for your region. Start using the new platform today: [Get Support](https://signup.microsoft.com/createaccount?=https%3A%2F%2Fadmin.microsoft.com%2FAdminportal%2FHome%3Fmcapiorgid%3D%7Bmcapiorgid%7D%26accountid%3D%7Baccountid%7D%26&origin=servicesHub&scenario=skiplba).  
+### Still need help?
 
-For detailed instructions on the initial sign-up process, see [Streamline access to Surface Portals for commercial customers.](streamline-access-surface-portals.md)
+Go to [Microsoft Community](https://answers.microsoft.com/) or use our legacy support tool [Services Hub](https://support.serviceshub.microsoft.com/supportforbusiness).
 
 ## [In-store support](#tab/instore)
 
