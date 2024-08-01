@@ -27,6 +27,10 @@ Use this prepopulated query to start exploring the future of Surface Hub and Mic
 
 Finding information on the Microsoft 365 Roadmap is straightforward. Use the prepopulated query, as shown on this page. Or you can enter a product name, keyword, or feature ID into the search bar to explore other areas
 
+### Browse the archive
+
+View summaries of earlier verions at [Release notes for Microsoft Teams Rooms](/MicrosoftTeams/rooms/rooms-release-note?tabs=Windows).
+
 ### Stay updated
 
 Keeping up with future product updates is made easy through various channels that Microsoft provides for customer communication. The [Feedback portal](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=teams%2Crooms) is one such channel where you can share  thoughts and suggestions.
@@ -34,3 +38,5 @@ Keeping up with future product updates is made easy through various channels tha
 ### Provide feedback
 
 The Microsoft 365 Roadmap functions as a dynamic platform that evolves based on your feedback. If you have suggestions about specific roadmap items related to Surface Hub and Microsoft Teams Rooms, we invite you to share your comments via the feedback button available on the roadmap site.
+
+
