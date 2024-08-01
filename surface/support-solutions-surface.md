@@ -1,6 +1,6 @@
 ---
 title: Top support solutions for Surface devices in the enterprise
-description: Find top solutions for common issues using Surface devices in the enterprise.
+description: Discover top support solutions for common issues with Surface devices in the enterprise. Access troubleshooting steps, technical support resources, and guidance for managing and deploying Surface devices effectively.
 ms.assetid: CF58F74D-8077-48C3-981E-FCFDCA34B34A
 ms.reviewer: alionita;cchauvet;ramakoni
 manager: frankbu
@@ -24,10 +24,10 @@ These are the Microsoft Support solutions for common issues you might experience
 
 ## Warranty and service
 
-### Self-Serve your Surface Service Orders on the Microsoft 365 Surface Support Portal
+### Self-Serve your Surface Service Orders on the Surface Support Portal
 
 
-The Microsoft 365 Surface Support Portal provides a centralized solution for commercial and education customers to look up current warranty and protection plans, create service requests, and track the status of device repairs. The portal may be accessed [here] (https://admin.microsoft.com/adminportal#/homepage) and is subject to an initial access authorization.
+The Surface Support Portal provides a centralized solution for commercial and education customers to look up current warranty and protection plans, create service requests, and track the status of device repairs. The portal may be accessed [here](https://admin.microsoft.com/adminportal#/homepage) and is subject to an initial access authorization.
  
 US and Canada Customers who do not currently have an Intune or Microsoft 365 subscription: an enhanced Support experience offering self-serve functionalities is now available for your region.  Start using the new platform today: Get Support.  For detailed instructions on the initial sign-up process, please refer to our [step-by-step guide](streamline-access-surface-portals.md) here.
 
