@@ -1,6 +1,6 @@
 ---
 title:  Streamline access to Surface portals
-description: This article describes recommended ways of accessing the Surface Support Portal and the Surface Management Portal.
+description: Explore the most efficient ways to access Surface Support and Management Portals for commercial customers. This guide provides step-by-step instructions for validating Microsoft tenant credentials and setting up new accounts, ensuring seamless integration with Microsoft 365 Admin Center for Surface device servicing and support.
 ms.service: surface
 ms.localizationpriority: medium
 author: coveminer
