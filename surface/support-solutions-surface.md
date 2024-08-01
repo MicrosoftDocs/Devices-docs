@@ -24,7 +24,7 @@ These are the Microsoft Support solutions for common issues you might experience
 
 ## Warranty and service
 
-### Self-Serve your Surface Service Orders on the Microsoft 365 Surface Support Portal
+### Self-Serve your Surface Service Orders on the Surface Support Portal
 
 
 The Microsoft 365 Surface Support Portal provides a centralized solution for commercial and education customers to look up current warranty and protection plans, create service requests, and track the status of device repairs. The portal may be accessed [here] (https://admin.microsoft.com/adminportal#/homepage) and is subject to an initial access authorization.
