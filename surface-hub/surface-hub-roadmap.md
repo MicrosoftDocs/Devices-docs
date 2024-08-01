@@ -29,7 +29,7 @@ Finding information on the Microsoft 365 Roadmap is straightforward. Use the pre
 
 ### Browse the archive
 
-View summaries of earlier verions at [Release notes for Microsoft Teams Rooms](/MicrosoftTeams/rooms/rooms-release-note?tabs=Windows).
+View summaries of earlier versions at [Release notes for Microsoft Teams Rooms](/MicrosoftTeams/rooms/rooms-release-note?tabs=Windows).
 
 ### Stay updated
 
