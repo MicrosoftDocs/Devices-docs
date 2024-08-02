@@ -31,7 +31,17 @@ When your Surface devices are enrolled for cloud management and users log in for
 
 ## Get started
 
-Sign in to [Microsoft Intune admin center](https://endpoint.microsoft.com), select **All services** > **Surface Management Portal**.
+### If you don't have an Intune subscription
+
+1. To sign up for Intune, go to the [Intune product page](https://www.microsoft.com/security/business/endpoint-management/microsoft-intune) to learn more about the service.
+2. Select **Start a free trial** to initiate the sign-up process.
+3. Follow the prompts to create an account and choose a [subscription plan](https://www.microsoft.com/security/business/microsoft-intune-pricing) that fits your organization's needs.
+4. Follow the setup wizard to configure your Intune environment.Add users, set up device policies, and configure security settings as needed.
+5. Once you've subscribed, proceed to the next section.
+
+### If you have an Intune subscription: 
+
+1. Sign in to [Microsoft Intune admin center](https://endpoint.microsoft.com), select **All services** > **Surface Management Portal**.
 
    :::image type="content" source="images/surface-management-portal/surface-management-portal-start.png" lightbox="/surface/images/surface-management-portal/surface-management-portal-start.png" alt-text="Start Surface Management Portal":::
 
