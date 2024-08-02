@@ -37,9 +37,12 @@ When your Surface devices are enrolled for cloud management and users log in for
 2. Select **Start a free trial** to initiate the sign-up process.
 3. Follow the prompts to create an account and choose a [subscription plan](https://www.microsoft.com/security/business/microsoft-intune-pricing) that fits your organization's needs.
 4. Follow the setup wizard to configure your Intune environment.Add users, set up device policies, and configure security settings as needed.
-5. Once you've subscribed, proceed to the next section.
+5. Once you've subscribed to Intune and enrolled at least one Surface device, proceed to the next section.
 
-### If you have an Intune subscription: 
+> [!TIP]
+> You can manage a wide range of OEM (Original Equipment Manufacturer) devices with Intune. You need to enroll at least one Surface device in order to access the Surface Management Portal. 
+
+### If you have an Intune subscription 
 
 1. Sign in to [Microsoft Intune admin center](https://endpoint.microsoft.com), select **All services** > **Surface Management Portal**.
 
