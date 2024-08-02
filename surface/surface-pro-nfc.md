@@ -1,12 +1,12 @@
 ---
 title: NFC support in Surface Pro 10 for Business
-description: This article provides an overview and FAQ about NFC support in Surface Pro 10 for Business devices.
+description: Explore how NFC support in Surface Pro 10 for Business enhances security and convenience with FIDO2 authentication, tag reading/writing, and more, making it ideal for enterprise environments.
 ms.service: surface
 ms.localizationpriority: medium
 author: coveminer
 ms.author: chauncel
 ms.topic: overview
-ms.date: 04/09/2024
+ms.date: 08/02/2024
 ms.reviewer: chauncel
 manager: frankbu
 appliesto:
