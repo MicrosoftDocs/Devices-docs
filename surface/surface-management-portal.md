@@ -1,13 +1,13 @@
 ---
 title: Surface Management Portal 
-description: This article describes how the new Surface Management Portal provides a centralized solution to self-serve, manage, and monitor Surface devices at scale. 
+description: Discover how the Surface Management Portal, integrated within the Microsoft Intune admin center, offers a centralized platform to efficiently manage, monitor, and maintain Surface devices at scale, ensuring compliance and streamlined support.
 ms.service: surface
 ms.localizationpriority: medium
 author: coveminer
 ms.author: chauncel
 ms.topic: how-to
-ms.date: 05/05/2023
-ms.reviewer: hachinda
+ms.date: 08/02/2024
+ms.reviewer: rohitmannan
 manager: frankbu
 appliesto:
 - Windows 10
@@ -24,7 +24,7 @@ As a single environment for the end-to-end visibility of corporate or user-owned
 
 Get insights into device compliance, support activity, and warranty coverage. Quickly see the status of each device, which ones are still in warranty or expiring soon, and the status of active support requests with your hardware providers.
 
-When your Surface devices are enrolled for cloud management and users sign in for the first time, information from these Surface devices automatically flows into the Surface Management Portal, giving you a single pane of glass for Surface-specific device admin activities.
+When you [enroll Surface devices](/mem/intune/user-help/enroll-windows-10-device) into Microsoft Intune and users sign in for the first time, information from these Surface devices automatically flows into the Surface Management Portal, giving you a single pane of glass for Surface-specific device admin activities.
 
 >[!TIP]
 >To learn more about accessing the Surface Management Portal or the Microsoft 365-based [Surface Support Portal](surface-support-portal.md),see [Streamline access to Surface Portals for commercial customers](streamline-access-surface-portals.md). 
@@ -34,7 +34,7 @@ When your Surface devices are enrolled for cloud management and users sign in fo
 ### If you don't have an Intune subscription:
 
 1. To sign up for Intune, go to the [Intune product page](https://www.microsoft.com/security/business/endpoint-management/microsoft-intune) to learn more about the service.
-2. Select **Start a free trial** to initiate the sign-up process.
+2. Select **Start a free trial** to initiate the sign-up process, as described in [Try Microsoft Intune for free](/mem/intune/fundamentals/free-trial-sign-up).
 3. Follow the prompts to create an account and choose a [subscription plan](https://www.microsoft.com/security/business/microsoft-intune-pricing) that fits your organization's needs.
 4. Follow the setup wizard to configure your Intune environment. Add users, set up device policies, and configure security settings as needed.
 5. You can manage a wide range of OEM (Original Equipment Manufacturer) devices with Intune but need to [enroll at least one Surface device](/mem/intune/user-help/enroll-windows-10-device) in order to access the Surface Management Portal.
@@ -53,7 +53,7 @@ When your Surface devices are enrolled for cloud management and users sign in fo
 
 | Role                                      | Permissions                                                                                                                                                                                 |
 | ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Microsoft Hardware Warranty Administrator<sup>1</sup> | View all service requests<br>Create/manage device replacement requests<br>Add/edit/delete ship-to address(es)<br>Read-only access to the Microsoft 365 tenant outside of the Surface Support Portal |
+| Microsoft Hardware Warranty Administrator<sup>1</sup> | View all service requests<br>Create/manage device replacement requests<br>Add/edit/delete ship-to addresses<br>Read-only access to the Microsoft 365 tenant outside of the Surface Support Portal |
 | Microsoft Hardware Warranty Specialist<sup>1</sup>     | View own service requests<br>Create/manage device replacement requests<br>Read-only access to the Microsoft 365 tenant outside of the Surface Support Portal                                        |
 | Global Admin                              | View service requests<br>Create/manage device replacement requests<br>Add/edit/delete ship-to addresses<br>Create/manage users and their roles                                            |
 | Service Support Admin                     | View service requests<br>Create/manage device replacement requests                                                                                                                          |
@@ -116,7 +116,7 @@ Newly added to the portal is the ability to create and submit new requests for o
 
 ## Try for free
 
-Surface Management Portal is available to customers who use Microsoft Intune admin center and enroll at least one Surface device through Intune. If you’re new to Intune, set up your Intune tenant today by visiting [Quickstart: Try Microsoft Intune for free](/mem/intune/fundamentals/free-trial-sign-up).
+Surface Management Portal is available to customers who use Microsoft Intune admin center and enroll at least one Surface device through Intune. If you’re new to Intune, set up your Intune tenant today by visiting [Try Microsoft Intune for free](/mem/intune/fundamentals/free-trial-sign-up).
 
 ## Learn more
 
