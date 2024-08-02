@@ -12,6 +12,9 @@ ms.localizationpriority: Medium
 
 # Explore new features roadmap for Surface Hub & Microsoft Teams Rooms on Windows 
 
+> [!TIP]
+> This article applies to [New Surface Hub 3 devices](surface-hub-3-whats-new.md), Surface Hub 2S devices [upgraded with the Surface Hub 3 Pack compute cartridge](install-manage-surface-hub-3-pack.md) and Surface Hub 2S devices [software-migrated to the Teams Rooms on Windows platform](surface-hub-2s-migrate-to-mtr-w.md).
+
 Surface Hub, combined with Teams Rooms, offers a powerful collaboration solution for businesses. And with ongoing updates and new features being rolled out regularly, staying current can be a challenge. The Microsoft 365 Roadmap serves as a comprehensive guide to navigate these changes. Whether you’re an IT admin planning future deployment, a business leader strategizing for upcoming changes, or curious about new features, the roadmap provides the insights you need.
 
 ## Go directly to the roadmap 
@@ -20,12 +23,9 @@ Use this prepopulated query to start exploring the future of Surface Hub and Mic
 
 - [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=teams%2Crooms).
 
-> [!TIP]
-> This article applies to [New Surface Hub 3 devices](surface-hub-3-whats-new.md), Surface Hub 2S devices [upgraded with the Surface Hub 3 Pack compute cartridge](install-manage-surface-hub-3-pack.md) and Surface Hub 2S devices [software-migrated to the Teams Rooms on Windows platform](surface-hub-2s-migrate-to-mtr-w.md).
-
 ### Explore the roadmap
 
-Finding information on the Microsoft 365 Roadmap is straightforward. Use the prepopulated query, as shown on this page. Or you can enter a product name, keyword, or feature ID into the search bar to explore other areas
+Finding information on the Microsoft 365 Roadmap is straightforward. Use the prepopulated query, as shown earlier. Or you can enter a product name, keyword, or feature ID into the search bar to explore other areas.
 
 ### Browse the archive
 
