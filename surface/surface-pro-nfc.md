@@ -82,6 +82,7 @@ The following FIDO2.0 keys are supported and recommended for use:
 - **Thetis**: Provides FIDO2 certified security keys designed for secure access.
 - **Token2 Card:** A compact and portable security key option.
 - **AuthenTrend Card:** Known for their biometric and card-style FIDO2 security keys.
+- **FEITIAN ePass:** Provides a range of NFC-enabled FIDO2 security keys, including options with USB-A and USB-C interfaces for multi-factor authentication (MFA) and PIV credential support.
 
 > [!TIP]
 > These keys provide a robust layer of security for authentication processes, ensuring a secure and user-friendly experience for IT admins and decision-makers.
