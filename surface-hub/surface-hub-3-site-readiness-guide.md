@@ -12,6 +12,8 @@ ms.localizationpriority: Medium
 
 # Surface Hub 3 site readiness guide
 
+[!INCLUDE [Hub MTR Scope](includes/hub-mtr-scope.md)]
+
 | Topic | Description |
 |:-------|:-------|
 | [Surface Hub Site planning](surface-hub-site-planning.md) | Review room considerations and planning for peripherals. |
