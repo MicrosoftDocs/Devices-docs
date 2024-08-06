@@ -1,6 +1,6 @@
 ---
 title: Surface Hub running Microsoft Teams Rooms on Windows FAQ
-description: Find answers to frequently asked questions about Surface Hub devices running Microsoft Teams Rooms on Windows, including details on upgrades, support timelines, performance improvements, and exclusive features of the Surface Hub 3.
+description: Find answers to frequently asked questions about Surface Hub devices running Microsoft Teams Rooms on Windows, including details on upgrades, support timelines, performance improvements, and exclusive features of Surface Hub 3.
 ms.reviewer: dpandre
 manager: frankbu
 ms.service: surface-hub
@@ -75,6 +75,6 @@ appliesto:
 
 - [Surface Hub 3 Pack FAQ](surface-hub-3-pack-faq.md)
 - [Get started with Surface Hub running Microsoft Teams Rooms on Windows](surface-hub-3-get-started.md)
-- [for Surface Hub running Microsoft Teams Rooms on Windows](first-run-program-surface-hub-3.md)
+- [First-time setup for Surface Hub running Microsoft Teams Rooms on Windows](first-run-program-surface-hub-3.md)
 - [Security best practices for Surface Hubs running Microsoft Teams Rooms on Windows](surface-hub-3-security.md)
 - [Install wallpaper on Surface Hub running Microsoft Teams Rooms on Windows](install-wallpaper-surface-hub.md)
