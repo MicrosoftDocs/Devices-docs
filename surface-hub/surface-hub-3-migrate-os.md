@@ -1,6 +1,6 @@
 ---
 title: "Migrate to Windows 11 Pro or Enterprise on Surface Hub 3"
-description: Learn how to migrate Surface Hub 3 to Windows 11 Pro or Enterprise, including steps for downloading the OS, creating a bootable USB, and installing necessary drivers and firmware.
+description: Learn how to migrate Surface Hub 3 to Windows 11 Pro or Enterprise, including downloading the OS, creating a bootable USB, and installing necessary drivers and firmware.
 ms.service: surface-hub
 author: coveminer
 ms.author: dpandre
@@ -31,8 +31,8 @@ This article describes how to convert the operating system to Windows 11 Pro or 
 3. Follow the instructions to create a bootable USB drive with the Windows 11 installation files.
 4. Remove the USB drive and insert it into Surface Hub 3.
 5. While pressing the **Volume down** button, press the **Power** button. Keep pressing both buttons until you see the Windows logo. Release the **Power** button, but hold the **Volume down** button until the Install UI begins.
-6. Follow the on-screen instructions to install Windows 11. This will include selecting the language, time, keyboard input, and edition (Pro or Enterprise).
+6. Follow the on-screen instructions to install Windows 11. This includes selecting the language, time, keyboard input, and edition (Pro or Enterprise).
 
 ## Install Surface Hub 3 drivers and firmware
 
-To ensure that your Surface Hub 3's hardware is fully usable and up-to-date, download and install [drivers and firmware for Windows 11 Pro and Enterprise](https://www.microsoft.com/download/details.aspx?id=101974). Then, reboot the device. Keep the Surface turned on for an hour, then reboot it again. You won't be prompted for the second reboot. This pause and extra reboot ensures that the firmware has been fully updated.
+To ensure that your Surface Hub 3's hardware is fully usable and up-to-date, download and install [drivers and firmware for Windows 11 Pro and Enterprise](https://www.microsoft.com/download/details.aspx?id=101974). Then, reboot the device. Keep the Surface turned on for an hour, then reboot it again. You aren't prompted for the second reboot. This pause and extra reboot ensures that the firmware is fully updated.
