@@ -1,6 +1,6 @@
 ---
-title: "Install and mount Surface Hub 3 85"
-description: "Learn how to install and mount Surface Hub 3 85."
+title: Install and mount Surface Hub 3 85
+description: Step-by-step guide to safely install and mount the Microsoft Surface Hub 3 85" in commercial environments, including safety precautions, unboxing instructions, and mounting tips.
 ms.service: surface-hub
 author: coveminer
 ms.author: chauncel
@@ -102,7 +102,7 @@ Additional strapping materials are provided in the small box located under the h
    ![Place Surface Hub 85” on Wall Mount or Cart.](images/hub85mount7a.png) <br>
 
    > [!CAUTION]
-   >  Do not leave Hub 3 85" unattended. An additional person is needed to hold the device upright. Once end pieces are removed, at least one person must maintain contact with the Hub 3 until placement on the wall mount or cart is completed.
+   > Do not leave Hub 3 85" unattended. An additional person is needed to hold the device upright. Once end pieces are removed, at least one person must maintain contact with the Hub 3 until placement on the wall mount or cart is completed.
 
 10. Lift the plywood end piece up and back.
 11. Remove the bump label from the back.

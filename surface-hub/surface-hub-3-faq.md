@@ -1,6 +1,6 @@
 ---
 title: Surface Hub running Microsoft Teams Rooms on Windows FAQ
-description: This page addresses questions about  Surface Hub 3 running the Microsoft Teams Rooms on Windows experience.
+description: Find answers to frequently asked questions about Surface Hub devices running Microsoft Teams Rooms on Windows, including details on upgrades, support timelines, performance improvements, and exclusive features of Surface Hub 3.
 ms.reviewer: dpandre
 manager: frankbu
 ms.service: surface-hub
@@ -15,6 +15,8 @@ appliesto:
 ---
 
 # FAQ: Surface Hub running Microsoft Teams Rooms on Windows
+
+[!INCLUDE [Hub MTR Scope](includes/hub-mtr-scope.md)]
 
 **When did Surface Hub 3 start shipping with the Microsoft Teams Rooms on Windows (MTR-W) experience?**
 
@@ -31,7 +33,7 @@ appliesto:
 - Upgrade from Surface Hub 2S to Surface Hub 3 via the [Surface Hub 3 Pack](install-manage-surface-hub-3-pack.md) compute cartridge.
 - Migrate your Surface Hub 2S to the new experience. To learn more, see [Migrate Surface Hub 2S to Microsoft Teams Rooms on Windows](surface-hub-2s-migrate-to-mtr-w.md).
 
-**What is the default admin password on Surface Hub running MTR-W?**
+**What is the default admin password on Surface Hub running Microsoft Teams Rooms on Windows?**
 
 - The default admin password is factory set to **sfb**. It's strongly recommended to change the password, as described in [Security best practices for Surface Hubs running Microsoft Teams Rooms on Windows](surface-hub-3-security.md).
 
@@ -62,17 +64,17 @@ appliesto:
 **What other features are only available on Surface Hub 3 hardware?**
 
 - **Intelligent Audio:** The Surface Hub 3 50” features two microphone arrays and speaker pairings. Smart AV optimizes audio based on device orientation, delivering the best stereo experience whether in Portrait or Landscape.
-- **Faster Performance:** As stated earlier, with a 60% CPU performance increase and a 160% GPU graphics performance increase gen-on-gen, Surface Hub 3 customers benefit from a more powerful system that is also primed to capitalize on future software innovation. 
+- **Faster Performance:** As stated earlier, with a 60% CPU performance increase and a 160% GPU graphics performance increase gen-on-gen, Surface Hub 3 customers benefit from a more powerful system that is also primed to capitalize on future software innovation.
 
 **What are the VESA mount specifications?**
 
 - Surface Hub 3 and Surface Hub 2S 50": **350 mm x 350 mm**.
-- Surface Hub 3 and Surface Hub 2S 85": **600 mm x 600 mm**. Requires [Surface Hub 2S 85" Mounting Adapter Kit](https://www.salamandercommercial.com/product/surface-hub-2s-85-mounting-adapter-kit/) (sold separately). 
+- Surface Hub 3 and Surface Hub 2S 85": **600 mm x 600 mm**. Requires [Surface Hub 2S 85" Mounting Adapter Kit](https://www.salamandercommercial.com/product/surface-hub-2s-85-mounting-adapter-kit/) (sold separately).
 
 ## Learn more
 
 - [Surface Hub 3 Pack FAQ](surface-hub-3-pack-faq.md)
 - [Get started with Surface Hub running Microsoft Teams Rooms on Windows](surface-hub-3-get-started.md)
-- [for Surface Hub running Microsoft Teams Rooms on Windows](first-run-program-surface-hub-3.md)
+- [First-time setup for Surface Hub running Microsoft Teams Rooms on Windows](first-run-program-surface-hub-3.md)
 - [Security best practices for Surface Hubs running Microsoft Teams Rooms on Windows](surface-hub-3-security.md)
 - [Install wallpaper on Surface Hub running Microsoft Teams Rooms on Windows](install-wallpaper-surface-hub.md)
