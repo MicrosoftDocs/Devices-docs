@@ -1,6 +1,6 @@
 ---
 title: Get started with Surface Hub running Microsoft Teams Rooms on Windows
-description: Begin your journey with Surface Hub running Microsoft Teams Rooms on Windows - find comprehensive guides on setup, features, and tips to maximize productivity with Microsoft's latest interactive whiteboard.
+description: Get started with Surface Hub running Microsoft Teams Rooms on Windows. Explore comprehensive setup guides, upgrade paths, IT management tips, and security best practices for Microsoft's interactive whiteboard.
 ms.reviewer: dpandre
 manager: frankbu
 ms.service: surface-hub

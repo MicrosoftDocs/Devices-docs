@@ -16,8 +16,7 @@ appliesto:
 
 # FAQ: Surface Hub running Microsoft Teams Rooms on Windows
 
->[!TIP]
->This article applies to [New Surface Hub 3 devices](surface-hub-3-whats-new.md), Surface Hub 2S devices [upgraded with the Surface Hub 3 Pack compute cartridge](install-manage-surface-hub-3-pack.md) and Surface Hub 2S devices [software-migrated to the Teams Rooms on Windows platform](surface-hub-2s-migrate-to-mtr-w.md).
+[!INCLUDE [hub-mtr-scope.md](/surface-hub/includes/hub-mtr-scope.md)]
 
 **When did Surface Hub 3 start shipping with the Microsoft Teams Rooms on Windows (MTR-W) experience?**
 
