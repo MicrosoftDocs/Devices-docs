@@ -15,9 +15,7 @@ appliesto:
 
 # Deploy Surface Hub with Windows Autopilot & Auto-login of Teams Rooms
 
-## Scope
-
-Surface Hub support for seamless end-to-end deployment with Windows Autopilot and Auto-login of Teams Rooms is scoped only to Surface Hub devices running the Microsoft Teams Rooms on Windows platform: [New Surface Hub 3 devices](surface-hub-3-whats-new.md), Surface Hub 2S devices [upgraded with the Surface Hub 3 Pack compute cartridge](install-manage-surface-hub-3-pack.md) and Surface Hub 2S devices [software-migrated to the Teams Rooms on Windows platform](surface-hub-2s-migrate-to-mtr-w.md).
+[!INCLUDE [Hub MTR Scope](includes/hub-mtr-scope.md)]
 
 ## Background
 
