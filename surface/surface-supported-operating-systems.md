@@ -1,6 +1,6 @@
 ---
 title: Surface supported operating systems
-description: This article lists the versions of Windows that are supported on various Microsoft Surface devices, when they were released and available for purchase. 
+description: Discover which versions of Windows are supported on Microsoft Surface devices to ensure compatibility and optimize your Surface experience. 
 ms.service: surface
 ms.localizationpriority: medium
 author: coveminer
@@ -108,5 +108,5 @@ Supported Surface systems
 ## More information
 
 Surface Pro devices are optimized for 64-bit versions of the operating system. On these devices, 32-bit versions of Windows are unsupported. If a 32-bit version of the operating system is installed, it may not start correctly. This may occur if you try to start from external media, such as an attached USB or DVD drive. This may also occur if you try to start to an image that was applied to the local disk.
-For additional information about LTSC support see [Surface device compatibility with Windows 10 Long-Term Servicing Channel (LTSC)](https://docs.microsoft.com/en-us/surface/surface-device-compatibility-with-windows-10-ltsc)
+For additional information about LTSC support see [Surface device compatibility with Windows 10 Long-Term Servicing Channel (LTSC)](surface-device-compatibility-with-windows-10-ltsc.md).
  
