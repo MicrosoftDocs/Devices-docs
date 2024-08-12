@@ -95,7 +95,7 @@ The growing ASP network consists of more than 160 locations.
 
 #### Spain
 
-- [Valorista](https://valorista.com/)
+- [Valorista](https://valorista.com/servicio-tecnico-oficial-microsoft-surface)
 
 #### United Kingdom
 
