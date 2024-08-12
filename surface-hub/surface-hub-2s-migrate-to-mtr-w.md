@@ -76,7 +76,28 @@ Whether you initiate the migration process manually on a Surface Hub 2S or remot
 For detailed guidance on enrolling your Surface Hub in Autopilot and Auto-login of Teams Rooms, see [Deploy Surface Hub with Windows Autopilot & Auto-login of Teams Rooms](surface-hub-autopilot.md).
 
 > [!TIP]
-> For an optimal experience, it's recommended to configure Autopilot and Auto-login of Teams Rooms before starting the migration process. This preparation ensures that seamless deployment is primed and ready to begin when migration is complete. 
+> For an optimal experience, it's recommended to configure Autopilot and Auto-login of Teams Rooms before starting the migration process. This preparation ensures that seamless deployment is primed and ready to begin when migration is complete.
+
+### Download Migration Launcher app
+
+Download the migration launcher app package via the WinGet command line tool. WinGet lets you discover, install, upgrade, remove and configure applications on Windows 10 and Windows 11 computers. This tool is the client interface to the Windows Package Manager service.
+
+#### Install Winget
+
+1. WinGet is installed on Windows 10 (version 1809 and later) and Windows 11 by default. To confirm you have WinGet installed, open a command prompt and enter **winget**. 
+2. If WinGet is not present, follow these instructions to install it: [Use the WinGet tool to install and manage applications](/windows/package-manager/winget/#install-winget).
+
+#### Download app
+
+1. Enter the following command:
+
+    ```shell
+    winget download 9P81T95QGN1P --platform windows.universal -a x64 --skip-license
+    ```
+
+- The command downloads the Migration Launcher app, identified by 9P81T95QGN1P for the Universal Windows Platform, targeting 64-bit architecture, and skips any license prompts during the download process. The downloaded files are saved to your Downloads folder:
+
+    :::image type="content" alt-text="Screenshot of downloaded files." source="images/hub-migration-app-files.png":::
 
 ## Install Migration Launcher app to trigger a migration
 
@@ -85,14 +106,11 @@ Choose one of the following options:
 - [Manually install Migration Launcher app on Surface Hub 2S](#manually-install-migration-launcher-app-on-surface-hub-2s). Designed for migrating individual Surface Hub 2S devices.
 - [Remotely install Migration Launcher app via Intune.](#remotely-install-migration-launcher-app-via-intune) Designed for migrating multiple select Surface Hub 2S devices remotely.
 
+
 ### Manually install Migration Launcher app on Surface Hub 2S
 
-1. Sign back in as admin. Go to **Surface Hub** > **Apps & features** > **Open Store**.
-
-2. Search for **Surface Hub 2S OS Migration Launcher – Microsoft Teams Rooms** and select **Get**.
-
-   ![Screenshot of Surface Hub 2S OS Migration Launcher.](images/surface-hub2s-migration-app-download.png)
-
+1. Sign back in as admin. Save the downloaded files to a USB drive and insert it into a USB port on Surface Hub 2S. 
+<!--2. Confirm steps.-->
 3. To validate successful installation, select **All apps** and look for **Surface Hub 2S OS Migration Launcher**.
 
 4. Once you see the Migration Launcher in the app list, the migration proceeds automatically upon restarting the Windows 10 Team edition OS. You can either manually restart Surface Hub 2S or wait until the system automatically restarts during the default nightly maintenance window.
@@ -112,10 +130,8 @@ Choose one of the following options:
 
 1. [Ensure your Surface Hub 2S devices are fully updated and **enrolled in Intune**](#ensure-your-surface-hub-2s-devices-are-fully-updated-and-enrolled-in-intune).
 2. [Add Surface Hub 2S devices to a **Device group**](#add-surface-hub-2s-devices-to-a-device-group).
-3. [Associate Store for Business account with Intune](#associate-store-account-with-intune).
-4. [Download **Migration Launcher app**](#download-migration-launcher-app) from the **Microsoft Store for Business**.
-5. [Configure Microsoft Store for Business to display offline apps](#configure-microsoft-store-for-business-to-display-offline-apps)
-6. [Deploy Migration Launcher app via **Intune**](#deploy-migration-launcher-app-via-intune).
+3. [Download **Migration Launcher app**](#download-migration-launcher-app) via the WinGet command line tool.
+4. [Deploy Migration Launcher app via **Intune**](#deploy-migration-launcher-app-via-intune).
 
 > [!NOTE]
 > These app deployment operations use the [EnterpriseModernAppManagement CSP](/windows/client-management/mdm/enterprisemodernappmanagement-csp) and can also be executed with SyncML commands from another MDM solution.
@@ -141,50 +157,6 @@ Choose one of the following options:
 7. Open the Group, select  **Members** > **Add members** and add the Surface Hub 2S devices you're targeting for migration.
 
    :::image type="content" alt-text="Screenshot that shows how to add members to a security group in Intune admin center." source="images/add-members-security-group.png":::
-
-### Associate store account with Intune
-
-Before you enable synchronization in the Intune admin center, you must configure your store account to use Intune as a management tool:
-
-1. Ensure that you sign into the [Microsoft Store for Business](https://www.microsoft.com/business-store) using the same tenant account you use to sign into Intune.
-2. In the Business Store, choose **Manage**, select **Settings**, and choose **Distribute**.
-3. If you don't already have Intune available as a mobile device management tool, choose **Add management tool** to add Microsoft Intune. If you don't have Microsoft Intune activated as your mobile device management tool, select **Microsoft Intune** > **Activate**.
-
-> [!TIP]
-> Activate Microsoft Intune, not Microsoft Intune Enrollment.
-
-### Download Migration Launcher app
-
-Download the migration launcher app package from Microsoft Store for Business.
-
-#### Configure Microsoft Store for Business to display offline apps
-
-1. Sign in to the [Microsoft Store for Business](https://businessstore.microsoft.com/).
-2. Select **Manage** > **Shop settings** and under Shopping experience, ensure that **Show offline apps** is enabled.
-
-   :::image type="content" alt-text="Screenshot that shows how to enable offline apps in Microsoft Store for Business." source="images/store-for-business-offline-apps.png":::
-
-#### Get offline-licensed app package for Migration Launcher
-
-1. Shop for the app and add it to your group inventory. Select **Shop for my group** and search for **Surface Hub 2S OS Migration Launcher – Microsoft Teams Rooms**. Or go directly to the [Migration app page](https://businessstore.microsoft.com/store/details/surface-hub-2s-os-migration-launcher--microsoft-teams-rooms/9P81T95QGN1P) in the Microsoft Store for Business.
-2. On the app page, for License type, select **Offline** > **Get the app**. This adds the app to your Microsoft Store for Business group inventory. After you see a "toast message" indicating you successfully added the app to your library, select **Manage**, as shown in the following figure. (The **Manage** button replaces the **Get the app** button).
-3. After you select **Manage**, the page listing for the Migration Launcher app is displayed. Wait a few moments for the spinner to complete and the Download portion of the resulting page to appear.
-4. Under **Download package for offline use**, select your desired architecture (X64, X86, or ARM processor). We recommend using x86.
-5. Under **Package details**, choose **Download** to initiate the download of the MsixBundle for the package identity name: **Microsoft.SurfaceHUBMTROSTriggerApp**.
-
-   - If you receive an error indicating the downloadable file is unsafe, select **Keep**.
-   - If further prompted in the Microsoft Edge browser that **This file can't be downloaded securely**, select **Keep anyway**.
-
-6. Under **Required frameworks**, download all three of the required frameworks on the page:
-
-    - **Microsoft.VCLibs.140.00_14.0.32530.0_x86__8wekyb3d8bbwe**
-    - **Microsoft.NET.Native.Framework.2.2_2.2.29512.0_x86__8wekyb3d8bbwe**
-    - **Microsoft.NET.Native.Runtime.2.2_2.2.28604.0_x86__8wekyb3d8bbwe**
-
-7. If you receive an error indicating the downloadable files are unsafe, select **Keep** and **Keep anyway**.
-8. You should now have four files (one MSIXBUNDLE File and three APPX Files) downloaded to your local computer and ready for the next step.
-
-    ![Screenshot of downloaded files.](images/hub2s-migration-app-download-files.png)
 
 ## Deploy Migration Launcher app via Intune
 
@@ -315,4 +287,4 @@ If you encountered a WinPE invalid path error (directing you to this page) durin
 
 - If the Migration Launcher app fails to deploy, check any error messages in the Intune console.
 - Verify that the Surface Hub 2S devices are correctly enrolled and online.
-- Consider verifying whether another Store for Business offline-licensed application can be remotely deployed to Surface Hub 2S devices.
+
