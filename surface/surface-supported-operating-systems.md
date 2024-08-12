@@ -38,6 +38,7 @@ Supported Surface systems
 | Surface Pro 2                            | - Windows 8.1 and later<br>- Windows 10, Version 1511 build 10586 and later                           |
 | Surface Pro                              | - Windows 8 and later<br>- Windows 10, Version 1511 build 10586 and later                             |
 
+
 ## Surface Laptop
 
 | Device                                    | Windows OS                                                                                                          |
@@ -58,6 +59,7 @@ Supported Surface systems
 | Surface Laptop 2                              | - Windows 10, Version 1709 build 16299 and later<br>- Windows 11, Version 21H2 build 22000 and later  |
 | Surface Laptop (1st Gen)                      | - Windows 10, Version 1703 build 15063 and later                                                               |
 
+
 ## Surface Go
 
 | Device                   | Windows OS                                                                                                          |
@@ -68,6 +70,7 @@ Supported Surface systems
 | Surface Go                   | - Windows 10, Version 1709 Build 16299 and later                                                               |
 | Surface Go with LTE Advanced | - Windows 10, Version 1709 build 16299 and later                                                               |
 
+
 ## Surface Hub
 
 | Device                                    | Windows OS                                                                                                         |
@@ -77,6 +80,7 @@ Supported Surface systems
 | Surface Hub 2S with Windows Pro or Enterprise | - Windows 10, Version 20H2 build 19042 and later<br>- Windows 11, Version 21H2 build 22000 and later |
 | Surface Hub 3                                 | - Windows 11, Version 22H2 build 22621 and later                                                              |
 
+
 ## Surface Studio
 
 | Device               | Windows OS                                                                                                         |
@@ -84,6 +88,7 @@ Supported Surface systems
 | Surface Studio 2+        | - Windows 11, Version 22H2 build 22621 and later                                                              |
 | Surface Studio 2         | - Windows 10, Version 1803 build 17134 and later<br>- Windows 11, Version 21H2 build 22000 and later |
 | Surface Studio (1st Gen) | - Windows 10, Version 1607 build 14393 and later                                                              |
+
 
 ## Surface Book
 
@@ -95,6 +100,7 @@ Supported Surface systems
 | Surface Book 2 with 7th Gen CPU<br>Surface Book 2 with 8th Gen CPU | - Windows 10, Version 1703 build 15063 and later<br>- Windows 10, Version 1703 build 15063 and later <br>- Windows 11, Version 21H2 build 22000 and later |
 | Surface Book with Performance Base                                 | - Windows 10, Version 1607 build 14393 and later                                                                                                                            |
 | Surface Book                                                       | - Windows 10, Version 1507 build 10240 and later                                                                                                                            |
+
 
 ## Surface 3
 
