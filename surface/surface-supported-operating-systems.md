@@ -14,7 +14,6 @@ manager: frankbu
 # Surface supported operating systems
 
 This article lists the versions of Windows that are supported on various Microsoft Surface devices, when they were released and available for purchase.
-Supported Surface systems
 
 ## Surface Pro
 
