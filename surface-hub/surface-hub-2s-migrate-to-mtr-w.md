@@ -78,7 +78,7 @@ For detailed guidance on enrolling your Surface Hub in Autopilot and Auto-login 
 > [!TIP]
 > For an optimal experience, it's recommended to configure Autopilot and Auto-login of Teams Rooms before starting the migration process. This preparation ensures that seamless deployment is primed and ready to begin when migration is complete.
 
-### Download Migration Launcher app
+### Download and install Migration Launcher app
 
 Download the migration launcher app package via the WinGet command line tool. WinGet lets you discover, install, upgrade, remove and configure applications on Windows 10 and Windows 11 computers. This tool is the client interface to the Windows Package Manager service.
 
@@ -87,7 +87,7 @@ Download the migration launcher app package via the WinGet command line tool. Wi
 1. WinGet is installed on Windows 10 (version 1809 and later) and Windows 11 by default. To confirm you have WinGet installed, open a command prompt and enter **winget**. 
 2. If WinGet is not present, follow these instructions to install it: [Use the WinGet tool to install and manage applications](/windows/package-manager/winget/#install-winget).
 
-#### Download app
+#### Download Migration Launcher app
 
 1. Enter the following command:
 
