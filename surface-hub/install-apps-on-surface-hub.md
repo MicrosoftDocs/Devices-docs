@@ -18,25 +18,29 @@ appliesto:
 
 # Install apps on Surface Hub
 
-You can install additional apps on your Surface Hub to fit your team or organization's needs. There are different methods for installing apps depending on whether you are developing and testing an app, or deploying a released app. This topic describes methods for installing apps for either scenario.
+You can install additional apps on your Surface Hub to fit your team or organization's needs. There are different methods for installing apps depending on whether you are developing and testing an app, or deploying a released app.
+
+## Use WinGet
+
+WinGet, also known as the Windows Package Manager, is a powerful command-line tool developed by Microsoft that simplifies the process of discovering, installing, updating, and managing software on Windows devices, including Surface Hub. With the retirement of the Microsoft Store for Business, WinGet offers organizations a more flexible and efficient way to manage applications on Surface Hub and other devices. With WinGet, IT admins can browse the repository of available applications, install necessary software, and automate app management tasks—all through a simple and consistent command-line interface. This transition ensures continuity in software deployment while providing enhanced control and customization for enterprise environments.
 
 ## Supported app guidelines
 
 - Surface Hub only runs [Universal Windows Platform (UWP) apps](/windows/uwp/get-started/universal-application-platform-guide). Apps created using the [MSIX Packaging Tool](/windows/msix/packaging-tool/tool-overview) will not run on Surface Hub.
 - Apps must be targeted for the [Universal device family](/windows/apps/publish/publish-your-app/device-families) or Windows Team device family.
-- Surface Hub only supports [offline-licensed apps](/microsoft-store/distribute-offline-apps). <!-- from [Microsoft Store for Business](/microsoft-store/microsoft-store-for-business-overview).
-- By default, apps must be <!--Store- -->signed to be installed. During testing and development, you can also choose to run developer-signed UWP apps by placing the device in developer mode.
+- Surface Hub only supports offline-licensed apps.
+- By default, apps must be signed to be installed. During testing and development, you can also choose to run developer-signed UWP apps by placing the device in developer mode.
 <!--- When submitting an app to the Microsoft Store, developers need to set Device family availability and Organizational licensing options to make sure an app is available to run on Surface Hub.--> 
 - You need admin credentials to install apps on your Surface Hub. <!--Since the device is designed to be used in communal spaces like meeting rooms, people can't access the Microsoft Store to download and install apps.-->
 
 ## Deploy released apps
 
-There are several options for installing apps that have been released to the Microsoft Store, depending on whether you want to evaluate them on a few devices, or deploy them broadly to your organization.
+<!--There are several options for installing apps that have been released to the Microsoft Store, depending on whether you want to evaluate them on a few devices, or deploy them broadly to your organization.
 
 To install released apps:
 
 - Download the app using the Microsoft Store app, or
-- Download the app package from the Microsoft Store for Business, and distribute it using a provisioning package or a supported MDM provider.
+- Download the app package from the Microsoft Store for Business, and distribute it using a provisioning package or a supported MDM provider.-->
 
 <!--### Microsoft Store app
 
@@ -73,7 +77,7 @@ For more information, see [Download an offline-licensed app](/microsoft-store/di
 
 ### Install offline-licensed apps via provisioning package
 
-You can manually install offline-licensed apps on Surface Hubs using provisioning packages. Use Windows Imaging and Configuration Designer (ICD) to create a provisioning package containing the app package and *unencoded* license file that you downloaded from the Store for Business. For more information, see [Create provisioning packages for Surface Hub](provisioning-packages-for-certificates-surface-hub.md).
+You can manually install offline-licensed apps on Surface Hubs using provisioning packages. Use Windows Imaging and Configuration Designer (ICD) to create a provisioning package containing the app package and *unencoded* license file that you downloaded via WinGet. For more information, see [Create provisioning packages for Surface Hub](provisioning-packages-for-certificates-surface-hub.md).
 
 ### Supported MDM provider
 
