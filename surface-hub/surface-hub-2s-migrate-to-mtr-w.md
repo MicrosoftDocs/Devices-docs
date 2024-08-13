@@ -110,7 +110,7 @@ Choose one of the following options:
 ### Manually install Migration Launcher app on Surface Hub 2S
 
 1. Sign back in as admin. Save the downloaded files to a USB drive and insert it into a USB port on Surface Hub 2S. 
-<!--2. Confirm steps.-->
+2. Select the .msixbundle file: **Microsoft.SurfaceHUBMTROSTriggerApp_1.48.137.0_neutral_~_8wekyb3d8bbwe** and follow the on-screen instructions to complete the installation.
 3. To validate successful installation, select **All apps** and look for **Surface Hub 2S OS Migration Launcher**.
 
 4. Once you see the Migration Launcher in the app list, the migration proceeds automatically upon restarting the Windows 10 Team edition OS. You can either manually restart Surface Hub 2S or wait until the system automatically restarts during the default nightly maintenance window.
