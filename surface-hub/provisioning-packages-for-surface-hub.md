@@ -176,9 +176,9 @@ With the retirement of the Microsoft Store for Business, you can now use WinGet 
 
    Replace `<app-name>` and `<app-id>` with the name and ID of the app you want to install.
 
-2. **Save the app package and dependencies:**
+2. **Save app package and dependencies:**
 
-   Once downloaded, the app files and dependencies are saved to your local drive. Make sure to copy these files to the build location of your provisioning package.
+   Once downloaded, app files and dependencies are saved to your local drive. Make sure to copy these files to the build location of your provisioning package.
 
 3. **Add the UWP app to the provisioning package:**
 
@@ -196,7 +196,7 @@ With the retirement of the Microsoft Store for Business, you can now use WinGet 
 
    - For **DependencyAppxFiles**, select **Browse** to find and add any dependency files required by the app. Ensure you are using the x64 versions of these dependencies.
 
-4. **Add the app license (if required):**
+4. **Add app license (if required):**
 
    If your app requires a license (typically for apps previously distributed via the Microsoft Store for Business), follow these steps:
 
