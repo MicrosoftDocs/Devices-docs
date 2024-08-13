@@ -39,15 +39,6 @@ WinGet, also known as the Windows Package Manager, is a powerful command-line to
 2. Ensure you're running WinGet 1.8 or later.
 3. If WinGet isn't present or you need the latest version, follow these instructions: [Install WinGet](/windows/package-manager/winget/#install-winget).
 
-### Download app packages from Microsoft Store via WinGet
-
-Find and acquire the app you want, then download:
-
-- The offline-licensed app package (either an .appx or an .appxbundle file)
-- The *unencoded* license file (if you're using provisioning packages to install the app)
-- The *encoded* license file (if you're using MDM to distribute the app)
-- Any necessary dependency files
-
 #### Browse apps for Surface Hub
 
 Find compatible apps with keywords related to Surface Hub or by filtering for Universal Windows Platform (UWP) apps.
@@ -100,13 +91,42 @@ winget show Microsoft.Whiteboard
 
 This command provides detailed information about the app, including its description, version, and whether it’s compatible with devices like Surface Hub.
 
-### 5. Install the app
+### Example scenario: Download app files for Enterprise distribution
 
-If you find a compatible app, you can proceed to install it using:
+In this scenario, use WinGet to download an app package for Surface Hub.
 
-```shell
-winget install <app-id>
-```
+1. **Enter the following command:**
+
+    Replace `<app-id>` with the specific ID of the app you want to download. The following command below an example for downloading a generic Surface Hub application.
+
+    ```bash
+    winget download <app-id> --platform windows.universal -a x64 --skip-license
+    ```
+
+    Example command:
+
+    ```bash
+    winget download 9WZDNCRFHVJL --platform windows.universal -a x64 --skip-license
+    ```
+
+2. **Agree to the terms:**
+
+    If prompted, agree to the terms as part of the download process. 
+
+3. **View the downloaded files:**
+
+    After the download completes, the files are saved in a new subdirectory within your Downloads folder. This folder contains the app package and any necessary dependency files.
+
+    :::image type="content" alt-text="Screenshot of downloaded files in the Downloads folder." source="images/hub-migration-app-files.png":::
+
+4. Deploy the app via a [provisioning package](#create-provisioning-package) or your [MDM provider](#supported-mdm-provider). 
+
+#### WinGet command parameters
+
+- **9WZDNCRFHVJL**: The Microsoft Store app ID for Microsoft OneNote.
+- **platform windows.universal**: Refers to the Universal Windows Platform (UWP), which means the package is designed to run on multiple Windows devices, including Surface Hub, PCs, tablets, and other devices that support UWP.
+- **-a x64**: Specifies the architecture of the package, compatible with 64-bit Windows systems.
+- **--skip-license**: Bypasses the requirement to accept the license agreement before downloading the package. By using this flag, you are automatically accepting the license terms without being prompted during the download process.
 
 ## Microsoft Store app
 
@@ -139,7 +159,7 @@ To deploy apps to a large number of Surface Hubs in your organization, use a sup
 | Third-party MDM provider    | Check to make sure your MDM provider supports deploying offline-licensed app packages. |
 
 [!NOTE]
-> Intune only supports offline apps that are assigned to a Device group and use the Device license type.
+> To deploy offline apps remotely using Intune, refer to [Add a Windows line-of-business app to Microsoft Intune](/mem/intune/apps/lob-apps-windows). Surface Hub app deployment only supports offline apps that are assigned to a Device group and use the Device license type.
 
 ## Develop and test apps
 

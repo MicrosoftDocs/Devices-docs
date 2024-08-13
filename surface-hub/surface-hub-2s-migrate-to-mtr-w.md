@@ -100,7 +100,7 @@ Download the migration launcher app package via the WinGet command line tool. Wi
 
     :::image type="content" alt-text="Screenshot that shows description of Migration Launcher app." source="images/download-surface-hub-migration-launcher.png":::
 
-3. View the downloaded files in your Downloads folder:
+3. View the downloaded files in a newly created subdirectory your Downloads folder:
 
     :::image type="content" alt-text="Screenshot of downloaded files." source="images/hub-migration-app-files.png":::
 
