@@ -80,14 +80,13 @@ For detailed guidance on enrolling your Surface Hub in Autopilot and Auto-login 
 
 ### Download and install Migration Launcher app
 
-Download the migration launcher app package via the WinGet command line tool. WinGet lets you discover, install, upgrade, remove and configure applications on Windows 10 and Windows 11 computers. This tool is the client interface to the Windows Package Manager service.
+Download the migration launcher app package via the WinGet command line tool. WinGet lets you discover, install, upgrade, remove and configure applications on Surface Hub and  Windows 10 and Windows 11 computers. 
 
 #### Install WinGet
 
 1. By default, WinGet is preinstalled on Windows 10 (version 1809 and later) and Windows 11. To confirm you have WinGet installed, open a command prompt and enter **winget**. 
 2. Ensure you're running WinGet 1.8 or later. 
 3. If WinGet is not present or you need the latest version, follow these instructions: [Install WinGet](/windows/package-manager/winget/#install-winget).
-
 
 #### Download Migration Launcher app
 
@@ -97,9 +96,20 @@ Download the migration launcher app package via the WinGet command line tool. Wi
     winget download 9P81T95QGN1P --platform windows.universal -a x64 --skip-license
     ```
 
-- The command downloads the Migration Launcher app, identified by 9P81T95QGN1P for the Universal Windows Platform, targeting 64-bit architecture, and skips any license prompts during the download process. The downloaded files are saved to your Downloads folder:
+2. Agree to the terms, as shown in the following figure. 
+
+    :::image type="content" alt-text="Screenshot that shows description of Migration Launcher app." source="images/download-surface-hub-migration-launcher.png":::
+
+3. View the downloaded files in your Downloads folder:
 
     :::image type="content" alt-text="Screenshot of downloaded files." source="images/hub-migration-app-files.png":::
+
+##### WinGet command parameters
+
+- **9P81T95QGN1P**: The Microsoft Store app ID for the Migration Launcher app package.
+- **platform windows.universal**: Refers to the Universal Windows Platform (UWP), which means the package is designed to run on multiple Windows devices, including Surface Hub, PCs, tablets, and other devices that support UWP.
+- **-a x64**: Specifies the architecture of the package, compatible with 64-bit Windows systems.
+- **--skip-license**: Bypasses the requirement to accept the license agreement before downloading the package. By using this flag, you are automatically accepting the license terms without being prompted during the download process.
 
 ## Install Migration Launcher app to trigger a migration
 
