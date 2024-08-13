@@ -90,7 +90,7 @@ Download the migration launcher app package via the WinGet command line tool. Wi
 
 #### Download Migration Launcher app
 
-1. Enter the following command:
+1. Enter the following command:.
 
     ```bash
     winget download 9P81T95QGN1P --platform windows.universal -a x64 --skip-license

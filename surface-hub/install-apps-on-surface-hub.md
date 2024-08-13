@@ -23,7 +23,7 @@ You can install more apps on your Surface Hub to fit your team or organization's
 
 ## Supported app guidelines
 
-- Surface Hub only runs [UWP apps](/windows/uwp/get-started/universal-application-platform-guide). Apps created using the [MSIX Packaging Tool](/windows/msix/packaging-tool/tool-overview) won't run on Surface Hub.
+- Surface Hub only runs [UWP apps](/windows/uwp/get-started/universal-application-platform-guide). Apps created using the [MSIX Packaging Tool](/windows/msix/packaging-tool/tool-overview) do not run on Surface Hub.
 - Surface Hub only supports offline-licensed apps.
 - Apps must be targeted for the [Universal device family](/windows/apps/publish/publish-your-app/device-families) or Windows Team device family.
 - By default, apps must be signed to be installed. During testing and development, you can also choose to run developer-signed UWP apps by placing the device in developer mode.
@@ -97,7 +97,7 @@ In this scenario, use WinGet to download an app package for Surface Hub.
 
 1. **Enter the following command:**
 
-    Replace `<app-id>` with the specific ID of the app you want to download. The following command below an example for downloading a generic Surface Hub application.
+    Replace `<app-id>` with the specific ID of the app you want to download. 
 
     ```bash
     winget download <app-id> --platform windows.universal -a x64 --skip-license
@@ -117,16 +117,14 @@ In this scenario, use WinGet to download an app package for Surface Hub.
 
     After the download completes, the files are saved in a new subdirectory within your Downloads folder. This folder contains the app package and any necessary dependency files.
 
-    :::image type="content" alt-text="Screenshot of downloaded files in the Downloads folder." source="images/hub-migration-app-files.png":::
-
 4. Deploy the app via a [provisioning package](#create-provisioning-package) or your [MDM provider](#supported-mdm-provider). 
 
 #### WinGet command parameters
 
-- **9WZDNCRFHVJL**: The Microsoft Store app ID for Microsoft OneNote.
+- **9WZDNCRFHVJL**: The Microsoft Store app ID; in this example, Microsoft OneNote.
 - **platform windows.universal**: Refers to the Universal Windows Platform (UWP), which means the package is designed to run on multiple Windows devices, including Surface Hub, PCs, tablets, and other devices that support UWP.
 - **-a x64**: Specifies the architecture of the package, compatible with 64-bit Windows systems.
-- **--skip-license**: Bypasses the requirement to accept the license agreement before downloading the package. By using this flag, you are automatically accepting the license terms without being prompted during the download process.
+- **--skip-license**: Bypasses the requirement to accept the license agreement before downloading the package. By using this flag, you're automatically accepting the license terms without being prompted during the download process.
 
 ## Microsoft Store app
 
@@ -167,7 +165,7 @@ This section provides information for app developers for testing apps on Surface
 
 ### Developer Mode
 
-By default, Surface Hub only runs UWP apps that have been published to and signed by the Microsoft Store. Apps submitted to the Microsoft Store go through security and compliance tests as part of the [app certification process](/windows/uwp/publish/the-app-certification-process), so this helps safeguard your Surface Hub against malicious apps. By enabling developer mode, you can also install developer-signed UWP apps.
+By default, Surface Hub only runs UWP apps published to and signed by the Microsoft Store. Apps submitted to the Microsoft Store go through security and compliance tests as part of the [app certification process](/windows/uwp/publish/the-app-certification-process), so this helps safeguard your Surface Hub against malicious apps. By enabling developer mode, you can also install developer-signed UWP apps.
 
 > [!IMPORTANT]
 > After developer mode has been enabled, you will need to reset the Surface Hub to disable it. Resetting the device removes all local user files and configurations and then reinstalls Windows.
@@ -226,7 +224,7 @@ During app submission, developers need to set **Device family availability** and
 
 ## Summary
 
-There are a few different ways to install apps on your Surface Hub depending on whether you are developing apps, evaluating apps on a small number of devices, or deploying apps broadly to your organization. This table summarizes the supported methods:
+There are a few different ways to install apps on your Surface Hub depending on whether you're developing apps, evaluating apps on a few devices, or deploying apps broadly to your organization. This table summarizes the supported methods:
 
 | Install method             | Developing apps | Evaluating apps on a few devices | Deploying apps broadly to your organization |
 | -------------------------- | --------------- | -------------------------------- | ------------------------------------------ |
