@@ -19,11 +19,11 @@ appliesto:
 
 # Install apps on Surface Hub
 
-You can install additional apps on your Surface Hub to fit your team or organization's needs. There are different methods for installing apps depending on whether you are developing and testing an app, or deploying a released app.
+You can install more apps on your Surface Hub to fit your team or organization's needs. There are different methods for installing apps depending on whether you're developing and testing an app, or deploying a released app.
 
 ## Supported app guidelines
 
-- Surface Hub only runs [UWP apps](/windows/uwp/get-started/universal-application-platform-guide). Apps created using the [MSIX Packaging Tool](/windows/msix/packaging-tool/tool-overview) will not run on Surface Hub.
+- Surface Hub only runs [UWP apps](/windows/uwp/get-started/universal-application-platform-guide). Apps created using the [MSIX Packaging Tool](/windows/msix/packaging-tool/tool-overview) won't run on Surface Hub.
 - Surface Hub only supports offline-licensed apps.
 - Apps must be targeted for the [Universal device family](/windows/apps/publish/publish-your-app/device-families) or Windows Team device family.
 - By default, apps must be signed to be installed. During testing and development, you can also choose to run developer-signed UWP apps by placing the device in developer mode.
@@ -37,13 +37,13 @@ WinGet, also known as the Windows Package Manager, is a powerful command-line to
 
 1. By default, WinGet is preinstalled on Windows 10 (version 1809 and later) and Windows 11. To confirm you have WinGet installed, open a command prompt and enter **winget**.
 2. Ensure you're running WinGet 1.8 or later.
-3. If WinGet is not present or you need the latest version, follow these instructions: [Install WinGet](/windows/package-manager/winget/#install-winget).
+3. If WinGet isn't present or you need the latest version, follow these instructions: [Install WinGet](/windows/package-manager/winget/#install-winget).
 
 ### Download app packages from Microsoft Store via WinGet
 
 Find and acquire the app you want, then download:
 
-- The offline-licensed app package (either an .appx or an .appxbundle)
+- The offline-licensed app package (either an .appx or an .appxbundle file)
 - The *unencoded* license file (if you're using provisioning packages to install the app)
 - The *encoded* license file (if you're using MDM to distribute the app)
 - Any necessary dependency files
@@ -62,7 +62,7 @@ This command searches for apps tagged with "Surface Hub," indicating they're opt
 
 ### Filter for UWP apps
 
-If you are looking for UWP apps that are compatible with Surface Hub, you can filter your search with a command like this:
+If you're looking for UWP apps that are compatible with Surface Hub, you can filter your search with a command like this:
 
 ```shell
 winget search --source msstore --query uwp
@@ -72,13 +72,13 @@ This shows UWP apps from the Microsoft Store, many of which can run on Surface H
 
 ### Browse by specific app name or category
 
-If you have an idea of the type of app you are looking for, such as collaboration tools or specific software by name, you can search more directly:
+If you have an idea of the type of app you're looking for, such as collaboration tools or specific software by name, you can search more directly:
 
 ```shell
 winget search "collaboration"
 ```
 
-or
+Or
 
 ```shell
 winget search "Microsoft Whiteboard"
@@ -108,21 +108,12 @@ If you find a compatible app, you can proceed to install it using:
 winget install <app-id>
 ```
 
-## Deploy released apps
+## Microsoft Store app
 
-There are several options for installing apps that have been released to the Microsoft Store, depending on whether you want to evaluate them on a few devices or deploy them broadly to your organization.
-
-To install released apps:
-
-- Download the app using the Microsoft Store app, or
-- Download the app package from the Microsoft Store via WinGet and distribute it using a provisioning package or a supported MDM provider
-
-### Microsoft Store app
-
-To evaluate apps released on the Microsoft Store, use the Microsoft Store app on the Surface Hub to browse and download apps.
+To evaluate apps on an individual Surface Hub, you can use the Microsoft Store app on Surface Hub to browse and download apps.
 
 > [!NOTE]
-> Using the Microsoft Store app is not the recommended method of deploying apps at scale to your organization:
+> Using the Microsoft Store app is not the recommended method of deploying apps at scale to your organization. In an enterprise enviroment with multiple Surface Hubs, deploy apps with a [provisioning package](#install-offline-licensed-apps-via-provisioning-package) or via an [MDM provider](#supported-mdm-provider), such as Microsoft Intune.
 >
 > - To download apps, you must sign in to the Microsoft Store app with a Microsoft account or organizational account. However, you can only connect an account to a maximum of 10 devices at once. If you have more than 10 Surface Hubs, you will need to create multiple accounts or remove devices from your account between app installations.
 > - To install apps, you will need to manually sign in to the Microsoft Store app on each Surface Hub you own.
@@ -130,7 +121,7 @@ To evaluate apps released on the Microsoft Store, use the Microsoft Store app on
 #### To browse the Microsoft Store on Surface Hub
 
 1. From your Surface Hub, start **Settings**.
-2. Type the device admin credentials when prompted.
+2. Enter device admin credentials when prompted.
 3. Navigate to **Surface Hub** > **Apps & features**.
 4. Select **Open Store** and search for the app you're looking for.
 
@@ -148,7 +139,7 @@ To deploy apps to a large number of Surface Hubs in your organization, use a sup
 | Third-party MDM provider    | Check to make sure your MDM provider supports deploying offline-licensed app packages. |
 
 [!NOTE]
-> Microsoft Intune only supports offline apps that are assigned to a Device group and use the Device license type.
+> Intune only supports offline apps that are assigned to a Device group and use the Device license type.
 
 ## Develop and test apps
 
