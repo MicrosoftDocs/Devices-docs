@@ -175,8 +175,6 @@ landingContent:
             text: Test Surface Hub apps using Visual Studio
           - url: /windows/uwp/publish/distribute-lob-apps-to-enterprises
             text: Distribute LOB apps to enterprises
-          - url: https://businessstore.microsoft.com/store/private-store
-            text: Microsoft Store for Business
           - url: /microsoft-store/distribute-apps-with-management-tool
             text: Distribute apps with a management tool
 
