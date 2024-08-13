@@ -7,7 +7,7 @@ ms.service: surface-hub
 author: coveminer
 ms.author: chauncel
 ms.topic: how-to
-ms.date: 01/17/2018
+ms.date: 08/14/2024
 ms.localizationpriority: medium
 ---
 
