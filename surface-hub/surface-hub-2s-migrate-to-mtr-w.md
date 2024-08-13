@@ -82,10 +82,12 @@ For detailed guidance on enrolling your Surface Hub in Autopilot and Auto-login 
 
 Download the migration launcher app package via the WinGet command line tool. WinGet lets you discover, install, upgrade, remove and configure applications on Windows 10 and Windows 11 computers. This tool is the client interface to the Windows Package Manager service.
 
-#### Install Winget
+#### Install WinGet
 
-1. WinGet is installed on Windows 10 (version 1809 and later) and Windows 11 by default. To confirm you have WinGet installed, open a command prompt and enter **winget**. 
-2. If WinGet is not present, follow these instructions to install it: [Use the WinGet tool to install and manage applications](/windows/package-manager/winget/#install-winget).
+1. By default, WinGet is preinstalled on Windows 10 (version 1809 and later) and Windows 11. To confirm you have WinGet installed, open a command prompt and enter **winget**. 
+2. Ensure you're running WinGet 1.8 or later. 
+3. If WinGet is not present or you need the latest version, follow these instructions: [Install WinGet](/windows/package-manager/winget/#install-winget).
+
 
 #### Download Migration Launcher app
 
