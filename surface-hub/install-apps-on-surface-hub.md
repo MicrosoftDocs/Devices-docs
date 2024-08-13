@@ -113,6 +113,9 @@ In this scenario, use WinGet to download an app package for Surface Hub.
 
     If prompted, agree to the terms as part of the download process. 
 
+     :::image type="content" alt-text="Screenshot of app download via WinGet." source="images/download-app-winget-example.png":::
+
+
 3. **View the downloaded files:**
 
     After the download completes, the files are saved in a new subdirectory within your Downloads folder. This folder contains the app package and any necessary dependency files.
