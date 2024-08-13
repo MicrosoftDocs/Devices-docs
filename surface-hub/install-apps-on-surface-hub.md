@@ -8,7 +8,7 @@ ms.service: surface-hub
 author: coveminer
 ms.author: chauncel
 ms.topic: how-to
-ms.date: 08/15/2024
+ms.date: 08/14/2024
 ms.localizationpriority: medium
 appliesto:
 - Surface Hub
@@ -27,8 +27,8 @@ WinGet, also known as the Windows Package Manager, is a powerful command-line to
 
 ### Install WinGet
 
-1. By default, WinGet is preinstalled on Windows 10 (version 1809 and later) and Windows 11. To confirm you have WinGet installed, open a command prompt and enter **winget**. 
-2. Ensure you're running WinGet 1.8 or later. 
+1. By default, WinGet is preinstalled on Windows 10 (version 1809 and later) and Windows 11. To confirm you have WinGet installed, open a command prompt and enter **winget**.
+2. Ensure you're running WinGet 1.8 or later.
 3. If WinGet is not present or you need the latest version, follow these instructions: [Install WinGet](/windows/package-manager/winget/#install-winget).
 
 ### Browse apps for Surface Hub
@@ -97,7 +97,7 @@ winget install <app-id>
 - Apps must be targeted for the [Universal device family](/windows/apps/publish/publish-your-app/device-families) or Windows Team device family.
 - Surface Hub only supports offline-licensed apps.
 - By default, apps must be signed to be installed. During testing and development, you can also choose to run developer-signed UWP apps by placing the device in developer mode.
-<!--- When submitting an app to the Microsoft Store, developers need to set Device family availability and Organizational licensing options to make sure an app is available to run on Surface Hub.--> 
+<!--- When submitting an app to the Microsoft Store, developers need to set Device family availability and Organizational licensing options to make sure an app is available to run on Surface Hub.-->
 - You need admin credentials to install apps on your Surface Hub. <!--Since the device is designed to be used in communal spaces like meeting rooms, people can't access the Microsoft Store to download and install apps.-->
 
 ## Deploy released apps
@@ -232,4 +232,3 @@ There are a few different ways to install apps on your Surface Hub depending on 
 | Provisioning package       | X | X |   |
 | Microsoft Store app        |  | X |  |
 | Supported MDM provider     |   |   | X |
-

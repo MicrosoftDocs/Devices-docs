@@ -7,7 +7,7 @@ ms.service: surface-hub
 author: coveminer
 ms.author: dpandre
 ms.topic: how-to
-ms.date: 01/17/2024
+ms.date: 08/14/2024
 ms.localizationpriority: medium
 appliesto:
 - Surface Hub 2S
@@ -92,7 +92,7 @@ Download the migration launcher app package via the WinGet command line tool. Wi
 
 1. Enter the following command:
 
-    ```shell
+    ```bash
     winget download 9P81T95QGN1P --platform windows.universal -a x64 --skip-license
     ```
 

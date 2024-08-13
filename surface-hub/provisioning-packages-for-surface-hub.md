@@ -1,6 +1,6 @@
 ---
 title: Create provisioning packages 
-description: For Windows 10 or Windows 11, settings that use the registry or a configuration service provider (CSP) can be configured using provisioning packages.
+description: Learn how to create and deploy provisioning packages for Surface Hub devices using Windows Configuration Designer, enabling streamlined setup, app installation, and configuration management. Ideal for IT admins managing Surface Hub 2S or Surface Hub 3.
 ms.assetid: 8AA25BD4-8A8F-4B95-9268-504A49BA5345
 ms.reviewer: dpandre
 manager: frankbu
@@ -8,7 +8,7 @@ ms.service: surface-hub
 author: coveminer
 ms.author: chauncel
 ms.topic: how-to
-ms.date: 12/04/2023
+ms.date: 08/14/2024
 ms.localizationpriority: medium
 appliesto:
 - Surface Hub
@@ -39,7 +39,7 @@ Provisioning packages enable a streamlined setup process that can be performed w
 ## Use Surface Hub provisioning wizard
 
 1. Open Windows Configuration Designer and select **Provision Surface Hub devices**.<br>
-    ![Use the Surface Hub provisioning wizard.](images/sh-prov-start.png) 
+    ![Use the Surface Hub provisioning wizard.](images/sh-prov-start.png)
 2. Name your project and select **Next**.
 
 ### Add certificates
@@ -159,29 +159,54 @@ Alternatively, you can use  [**MDM policies**](manage-settings-with-mdm-for-surf
 
 ### Add a UWP app to your package
 
-To add a UWP app to a provisioning package, you will need the app package (.appx or .appxbundle files) and any dependency files. If you acquired the app from the Microsoft Store for Business, you will need the *unencoded* app license. See [Distribute offline apps](/microsoft-store/distribute-offline-apps) to learn how to download these items from the Microsoft Store for Business.
+With the retirement of the Microsoft Store for Business, you can now use WinGet to handle the downloading and packaging of UWP apps.
 
-**To add a UWP app:**
+- By default, WinGet is preinstalled on Windows 10 (version 1809 and later) and Windows 11. To confirm you have WinGet installed, open a command prompt and enter **winget**.
+- Ensure you're running WinGet 1.8 or later.
+- If WinGet is not present or you need the latest version, follow these instructions: [Install WinGet](/windows/package-manager/winget/#install-winget).
 
-1. In the **Available customizations** pane, go to **Runtime settings** > **UniversalAppInstall** > **DeviceContextApp**.
+1. **Download UWP apps via WinGet:**
 
-2. Enter a **PackageFamilyName** for the app and then select **Add**. For consistency, use the app's package family name. If you acquired the app from the Microsoft Store for Business, you can find the package family name in the app license. Open the license file using a text editor, and use the value between the PFM tags.
+   First, download the app package (.appx or .appxbundle files) and any dependency files:
 
-3. For **ApplicationFile**, select **Browse** to find and select the target app ( .appx or .appxbundle).
+   ```bash
+   winget search <app-name>
+   winget install --id <app-id> --source msstore --accept-source-agreements
+   ```
 
-4. For **DependencyAppxFiles**, select **Browse** to find and add any dependencies for the app. For Surface Hub, you will only need the x64 versions of these dependencies.
+   Replace `<app-name>` and `<app-id>` with the name and ID of the app you want to install.
 
-If you acquired the app from the Microsoft Store for Business, you must add the app license to your provisioning package.
+2. **Save the app package and dependencies:**
 
-**To add app license:**
+   Once downloaded, the app files and dependencies are saved to your local drive. Make sure to copy these files to the build location of your provisioning package.
 
-1. Make a copy of the app license and rename it to use a **.ms-windows-store-license** extension. For example, rename "example.xml" to "example.ms-windows-store-license".
+3. **Add the UWP app to the provisioning package:**
 
-2. In Windows Configuration Designer, go to **Available customizations** > **Runtime settings** > **UniversalAppInstall** > **DeviceContextAppLicense**.
+   In the **Available customizations** pane, go to **Runtime settings** > **UniversalAppInstall** > **DeviceContextApp**.
 
-3. Enter a **LicenseProductId** and then select **Add**. For consistency, use the app's license ID from the app license. Open the license file using a text editor. Then, in the **License** tag, use the value in the **LicenseID** attribute.
+   - Enter a **PackageFamilyName** for the app and select **Add**. For consistency, use the app's package family name. You can find this information using WinGet:
 
-4. Select the new **LicenseProductId** node. For **LicenseInstall**, select **Browse** to find and choose your renamed license file (example.ms-windows-store-license).
+     ```bash
+     winget show <app-id>
+     ```
+
+     The Package Family Name (PFM) is listed in the details.
+
+   - For **ApplicationFile**, select **Browse** to find and select the target app file (.appx or .appxbundle) that you downloaded using WinGet.
+
+   - For **DependencyAppxFiles**, select **Browse** to find and add any dependency files required by the app. Ensure you are using the x64 versions of these dependencies.
+
+4. **Add the app license (if required):**
+
+   If your app requires a license (typically for apps previously distributed via the Microsoft Store for Business), follow these steps:
+
+   - Make a copy of the app license and rename it to use a **.ms-windows-store-license** extension. For example, rename "example.xml" to "example.ms-windows-store-license".
+
+   - In Windows Configuration Designer, go to **Available customizations** > **Runtime settings** > **UniversalAppInstall** > **DeviceContextAppLicense**.
+
+   - Enter a **LicenseProductId** and select **Add**. Use the app's license ID, which can be found within the license file by opening it with a text editor. Look for the value in the **LicenseID** attribute.
+
+   - Select the new **LicenseProductId** node. For **LicenseInstall**, select **Browse** to find and choose your renamed license file (example.ms-windows-store-license).
 
 ### Add a policy to your package
 
@@ -199,9 +224,9 @@ Surface Hub supports a subset of the policies in the [Policy configuration servi
 You can add settings from the [SurfaceHub configuration service provider](/windows/client-management/mdm/surfacehub-csp) to your provisioning package.
 
 1. Go to **Available customizations** > **Common Team Edition Settings**.
-1. Select the component you want to manage and configure the policy setting as appropriate.
-1. When you are done configuring the provisioning package, select  **File** > **Save**.
-1. Read the warning that project files may contain sensitive information, and select **OK**
+2. Select the component you want to manage and configure the policy setting as appropriate.
+3. When you are done configuring the provisioning package, select  **File** > **Save**.
+4. Read the warning that project files may contain sensitive information, and select **OK**
 
 ### Build your package
 
@@ -242,7 +267,7 @@ When you build a provisioning package, you may include sensitive information in 
 There are two ways of deploying provisioning packages to a Surface Hub:
 
 - [First run setup.](#apply-a-provisioning-package-during-first-run) You can apply a provisioning package to customize multiple options, including Wi-Fi settings, proxy settings, device account details, Microsoft Entra join, and related settings.  
-- [Settings app.](#apply-a-provisioning-package-using-the-settings-app) After the first run setup, you can apply a provisioning package via the Settings app. 
+- [Settings app.](#apply-a-provisioning-package-using-the-settings-app) After the first run setup, you can apply a provisioning package via the Settings app.
 
 ### Apply a provisioning package during first run
 
