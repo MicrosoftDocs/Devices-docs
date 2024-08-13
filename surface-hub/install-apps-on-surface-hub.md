@@ -24,6 +24,12 @@ You can install additional apps on your Surface Hub to fit your team or organiza
 
 WinGet, also known as the Windows Package Manager, is a powerful command-line tool developed by Microsoft that simplifies the process of discovering, installing, updating, and managing software on Windows devices, including Surface Hub. With the retirement of the Microsoft Store for Business, WinGet offers organizations a more flexible and efficient way to manage applications on Surface Hub and other devices. With WinGet, IT admins can browse the repository of available applications, install necessary software, and automate app management tasks—all through a simple and consistent command-line interface. This transition ensures continuity in software deployment while providing enhanced control and customization for enterprise environments.
 
+### Install WinGet
+
+1. By default, WinGet is preinstalled on Windows 10 (version 1809 and later) and Windows 11. To confirm you have WinGet installed, open a command prompt and enter **winget**. 
+2. Ensure you're running WinGet 1.8 or later. 
+3. If WinGet is not present or you need the latest version, follow these instructions: [Install WinGet](/windows/package-manager/winget/#install-winget).
+
 ## Supported app guidelines
 
 - Surface Hub only runs [Universal Windows Platform (UWP) apps](/windows/uwp/get-started/universal-application-platform-guide). Apps created using the [MSIX Packaging Tool](/windows/msix/packaging-tool/tool-overview) will not run on Surface Hub.
