@@ -8,11 +8,12 @@ ms.service: surface-hub
 author: coveminer
 ms.author: chauncel
 ms.topic: how-to
-ms.date: 07/16/2021
+ms.date: 08/15/2024
 ms.localizationpriority: medium
 appliesto:
 - Surface Hub
 - Surface Hub 2S
+- Surface Hub 3
 
 ---
 
@@ -22,13 +23,73 @@ You can install additional apps on your Surface Hub to fit your team or organiza
 
 ## Use WinGet
 
-WinGet, also known as the Windows Package Manager, is a powerful command-line tool developed by Microsoft that simplifies the process of discovering, installing, updating, and managing software on Windows devices, including Surface Hub. With the retirement of the Microsoft Store for Business, WinGet offers organizations a more flexible and efficient way to manage applications on Surface Hub and other devices. With WinGet, IT admins can browse the repository of available applications, install necessary software, and automate app management tasks—all through a simple and consistent command-line interface. This transition ensures continuity in software deployment while providing enhanced control and customization for enterprise environments.
+WinGet, also known as the Windows Package Manager, is a powerful command-line tool developed by Microsoft that simplifies the process of discovering, installing, updating, and managing software on Windows devices, including Surface Hub. With the retirement of the Microsoft Store for Business, WinGet offers organizations a more flexible and efficient way to manage applications on Surface Hub and other devices. With WinGet, IT admins can browse the repository of available applications, install necessary software, and automate some app management tasks. This transition ensures continuity in software deployment while providing enhanced control and customization for enterprise environments.
 
 ### Install WinGet
 
 1. By default, WinGet is preinstalled on Windows 10 (version 1809 and later) and Windows 11. To confirm you have WinGet installed, open a command prompt and enter **winget**. 
 2. Ensure you're running WinGet 1.8 or later. 
 3. If WinGet is not present or you need the latest version, follow these instructions: [Install WinGet](/windows/package-manager/winget/#install-winget).
+
+### Browse apps for Surface Hub
+
+Find compatible apps with keywords related to Surface Hub or by filtering for Universal Windows Platform (UWP) apps.
+
+Use the following command in the command prompt:
+
+```shell
+winget search --tag "Surface Hub"
+```
+
+This command searches for apps tagged with "Surface Hub," indicating they're optimized for Surface Hub devices.
+
+### Filter for UWP apps
+
+If you are looking for UWP apps that are compatible with Surface Hub, you can filter your search with a command like this:
+
+```shell
+winget search --source msstore --query uwp
+```
+
+This shows UWP apps from the Microsoft Store, many of which can run on Surface Hub.
+
+### Browse by specific app name or category
+
+If you have an idea of the type of app you are looking for, such as collaboration tools or specific software by name, you can search more directly:
+
+```shell
+winget search "collaboration"
+```
+
+or
+
+```shell
+winget search "Microsoft Whiteboard"
+```
+
+### View app details
+
+Once you find an app that interests you, you can view more details to confirm compatibility or learn more about the app:
+
+```shell
+winget show <app-id>
+```
+
+For example:
+
+```shell
+winget show Microsoft.Whiteboard
+```
+
+This command provides detailed information about the app, including its description, version, and whether it’s compatible with devices like Surface Hub.
+
+### 5. Install the app
+
+If you find a compatible app, you can proceed to install it using:
+
+```shell
+winget install <app-id>
+```
 
 ## Supported app guidelines
 
@@ -169,6 +230,6 @@ There are a few different ways to install apps on your Surface Hub depending on 
 | -------------------------- | --------------- | ------------------------------------- | ---------------------- |
 | Visual Studio              | X |   |   |
 | Provisioning package       | X | X |   |
+| Microsoft Store app        |  | X |  |
 | Supported MDM provider     |   |   | X |
-| WinGet                     | X |  X | X |
-| Microsoft Store app        | n/a | n/a | n/a |
+
