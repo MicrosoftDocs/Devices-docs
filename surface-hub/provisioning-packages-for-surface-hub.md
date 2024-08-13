@@ -34,7 +34,7 @@ Provisioning packages enable a streamlined setup process that can be performed w
 1. On a separate PC running Windows 10 or Windows 11, install [Windows Configuration Designer](https://www.microsoft.com/store/apps/9nblggh4tx22) from the Microsoft Store.
 2. Select [**Provision Surface Hub devices**](#use-surface-hub-provisioning-wizard) to configure common settings using a wizard. Or select [Advanced provisioning](#use-advanced-provisioning) to view and configure all possible settings.
 3. Create the provisioning package and save it to a USB drive.
-4. Deploy the package to your Surface Hub during the first run setup or through the Settings app. To learn more, see [Create a provisioning package](/windows/configuration/provisioning-packages/provisioning-create-package).
+4. Deploy the package to your Surface Hub during the first-run setup or via the Settings app. To learn more, see [Create a provisioning package](/windows/configuration/provisioning-packages/provisioning-create-package).
 
 ## Use Surface Hub provisioning wizard
 
@@ -103,17 +103,17 @@ Using a third-party mobile device management (MDM) provider, you can use this se
 > [!div class="mx-imgBorder"]
 > ![add an application.](images/sh-prov-apps.png)
 
-For Surface Hub 2S running Windows 10 Team edition, you can install multiple Universal Windows Platform (UWP) apps in a provisioning package. To learn more, see [Provision PCs with apps](/windows/configuration/provisioning-packages/provision-pcs-with-apps).
-
 > [!NOTE]
 > At this time, the ability to add apps to a provisioning pack is not supported on Surface Hubs running Microsoft Teams Rooms on Windows.
+
+For Surface Hub 2S running Windows 10 Team edition, you can install multiple Universal Windows Platform (UWP) apps in a provisioning package. To learn more, see [Provision PCs with apps](/windows/configuration/provisioning-packages/provision-pcs-with-apps).
 
 > [!TIP]
 > Although Windows Configuration Designer lets you add a Classic Win32 app to a provisioning package, Surface Hub only accepts UWP apps. If you include a Classic Win32 app, provisioning will fail.
 
 ### Password protect provisioning package
 
-If you use a password,  you must enter it each time you apply the provisioning package to a device.
+If you use a password, you must enter it each time you apply the provisioning package to a device.
 
 ### Complete provisioning wizard
 
@@ -146,7 +146,6 @@ You can use provisioning packages to install certificates allowing the device to
 > [!NOTE]
 > Provisioning packages can only install certificates to the device (local machine) store, not the user store. If your organization requires that certificates be installed in the user store, use the Hub **Settings** app: **Update & Security** > **Certificates** > **Import Certificate**.
 Alternatively, you can use  [**MDM policies**](manage-settings-with-mdm-for-surface-hub.md) to deploy certificates to either the device store or the user store.
-
 > [!TIP]
 > The **ClientCertificates** section is for .pfx files with a private key; .cer files for root CAs should be placed in the **RootCertificates** section and for Intermediate CAs in the **CACertificates** section.
 
