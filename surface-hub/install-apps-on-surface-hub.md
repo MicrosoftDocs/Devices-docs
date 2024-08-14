@@ -39,7 +39,7 @@ WinGet, also known as the Windows Package Manager, is a powerful command-line to
 2. Ensure you're running WinGet 1.8 or later.
 3. If WinGet isn't present or you need the latest version, follow these instructions: [Install WinGet](/windows/package-manager/winget/#install-winget).
 
-#### Browse apps for Surface Hub
+### Browse apps for Surface Hub
 
 Find compatible apps with keywords related to Surface Hub or by filtering for Universal Windows Platform (UWP) apps.
 
@@ -51,7 +51,7 @@ winget search --tag "Surface Hub"
 
 This command searches for apps tagged with "Surface Hub," indicating they're optimized for Surface Hub devices.
 
-### Filter for UWP apps
+#### Filter for UWP apps
 
 If you're looking for UWP apps that are compatible with Surface Hub, you can filter your search with a command like this:
 
@@ -61,7 +61,7 @@ winget search --source msstore --query uwp
 
 This shows UWP apps from the Microsoft Store, many of which can run on Surface Hub.
 
-### Browse by specific app name or category
+#### Browse by specific app name or category
 
 If you have an idea of the type of app you're looking for, such as collaboration tools or specific software by name, you can search more directly:
 
@@ -75,7 +75,7 @@ Or
 winget search "Microsoft Whiteboard"
 ```
 
-### View app details
+#### View app details
 
 Once you find an app that interests you, you can view more details to confirm compatibility or learn more about the app:
 
