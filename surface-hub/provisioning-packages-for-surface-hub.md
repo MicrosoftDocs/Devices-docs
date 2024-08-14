@@ -169,8 +169,7 @@ With the retirement of the Microsoft Store for Business, you can now use WinGet 
    First, download the app package (.appx or .appxbundle files) and any dependency files:
 
    ```bash
-   winget search <app-name>
-   winget install --id <app-id> --source msstore --accept-source-agreements
+   winget download --id <app-id> --source msstore --accept-source-agreements
    ```
 
    Replace `<app-name>` and `<app-id>` with the name and ID of the app you want to install.

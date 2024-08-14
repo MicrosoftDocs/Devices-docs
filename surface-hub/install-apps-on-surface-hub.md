@@ -159,7 +159,7 @@ To deploy apps to a large number of Surface Hubs in your organization, use a sup
 | On-premises MDM with Configuration Manager (beginning in version 1602) | Yes |
 | Third-party MDM provider    | Check to make sure your MDM provider supports deploying offline-licensed app packages. |
 
-[!NOTE]
+> [!NOTE]
 > To deploy offline apps remotely using Intune, refer to [Add a Windows line-of-business app to Microsoft Intune](/mem/intune/apps/lob-apps-windows). Surface Hub app deployment only supports offline apps that are assigned to a Device group and use the Device license type.
 
 ## Develop and test apps
