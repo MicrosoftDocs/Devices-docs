@@ -36,7 +36,7 @@ There are several options for installing apps that have been released to the Mic
 To install released apps:
 
 - [Download apps using the Microsoft Store app](#microsoft-store-app), or
-- [Download app packages from the Microsoft Store via the WinGet command-line package manager](#download-app-packages-via-winget) and distribute them via a provisioning package or supported MDM provider. 
+- [Download app packages from the Microsoft Store via the WinGet command-line package manager](#download-app-packages-via-winget) and distribute them using a provisioning package or supported MDM provider. 
 
 ## Microsoft Store app
 
