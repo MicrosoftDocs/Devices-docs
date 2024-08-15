@@ -35,8 +35,8 @@ There are several options for installing apps that have been released to the Mic
 
 To install released apps:
 
-- Download the app using the Microsoft Store app, or
-- Download the app package from the Microsoft Store for Business, and distribute it using a provisioning package or a supported MDM provider.
+- [Download apps using the Microsoft Store app](#microsoft-store-app), or
+- [Download app packages from the Microsoft Store via the WinGet command-line package manager](#download-app-packages-via-winget) and distribute them via a provisioning package or supported MDM provider. 
 
 ## Microsoft Store app
 
@@ -55,9 +55,9 @@ To evaluate apps on an individual Surface Hub, you can use the Microsoft Store a
 3. Navigate to **Surface Hub** > **Apps & features**.
 4. Select **Open Store** and search for the app you're looking for.
 
-## Use WinGet for efficient app management
+## Download app packages via WinGet
 
-With the retirement of the Microsoft Store for Business, organizations need a robust alternative for managing and deploying applications across multiple Surface Hub devices. WinGet, Microsoft's command-line package manager, fills this gap by offering IT professionals a powerful and flexible tool for discovering, downloading, and installing applications. This transition to WinGet ensures that organizations can maintain control over their app deployment processes while benefiting from improved automation and consistency across devices. By adopting WinGet, you can streamline application management and ensure a smooth transition away from the now-deprecated Store for Business.
+With the retirement of the Microsoft Store for Business, organizations need a robust alternative for managing and deploying applications across multiple Surface Hub devices. WinGet, Microsoft's command-line package manager, fills this gap by offering IT pros a powerful and flexible tool for discovering, downloading, and installing applications. This transition to WinGet ensures that organizations can maintain control over their app deployment processes while benefiting from improved automation and consistency across devices. By adopting WinGet, you can streamline application management and ensure a smooth transition away from the now-deprecated Store for Business.
  
 ### Install WinGet
 
