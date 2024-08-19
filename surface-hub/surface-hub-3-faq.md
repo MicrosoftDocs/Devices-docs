@@ -55,7 +55,7 @@ appliesto:
 
 **Will I be able to rotate Surface Hub on the new experience?**
 
-- Smart Rotation is only possible on 50-inch Surface Hub 3 hardware (new Surface Hub 3 devices, or Surface Hub 2S devices upgraded with a Surface Hub 3 Compute Cartridge compute cartridge).
+- Smart Rotation is only possible on 50-inch Surface Hub 3 hardware (new Surface Hub 3 devices, or Surface Hub 2S devices upgraded with a Surface Hub 3 Compute Cartridge).
 
 **Will I be able to rotate Surface Hub 3 85"?**
 
