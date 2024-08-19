@@ -1,6 +1,6 @@
 ---
 title: What's new for Surface Hub 3
-description: Highlights what's new for Surface Hub 3 including details about the Microsoft Teams Rooms on Windows experience.
+description: Explore what's new with Surface Hub 3, including enhanced collaboration features, hybrid meeting capabilities, and seamless integration with Microsoft Teams Rooms on Windows.
 ms.reviewer: dpandre
 manager: frankbu
 ms.service: surface-hub

@@ -249,7 +249,7 @@
               items: 
                   - name: Site planning for Surface Hub 3
                     href: surface-hub-site-planning.md   
-                  - name: Surface Hub 3 quick start
+                  - name: Quick start
                     href: surface-hub-3-quick-start.md
                   - name: Unpack Surface Hub 
                     href: surface-hub-unpack.md
