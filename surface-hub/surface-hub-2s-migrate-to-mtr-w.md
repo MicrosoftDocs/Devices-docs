@@ -80,36 +80,7 @@ For detailed guidance on enrolling your Surface Hub in Autopilot and Auto-login 
 
 ### Download and install Migration Launcher app
 
-Download the migration launcher app package via the WinGet command line tool. WinGet lets you discover, install, upgrade, remove and configure applications on Surface Hub and  Windows 10 and Windows 11 computers. 
-
-#### Install WinGet
-
-1. By default, WinGet is preinstalled on Windows 10 (version 1809 and later) and Windows 11. To confirm you have WinGet installed, open a command prompt and enter **winget**. 
-2. Ensure you're running WinGet 1.8 or later. 
-3. If WinGet is not present or you need the latest version, follow these instructions: [Install WinGet](/windows/package-manager/winget/#install-winget).
-
-#### Download Migration Launcher app
-
-1. Enter the following command:.
-
-    ```bash
-    winget download 9P81T95QGN1P --platform windows.universal -a x64 --skip-license
-    ```
-
-2. Agree to the terms, as shown in the following figure. 
-
-    :::image type="content" alt-text="Screenshot that shows description of Migration Launcher app." source="images/download-surface-hub-migration-launcher.png":::
-
-3. View the downloaded files in a newly created subdirectory your Downloads folder:
-
-    :::image type="content" alt-text="Screenshot of downloaded files." source="images/hub-migration-app-files.png":::
-
-##### WinGet command parameters
-
-- **9P81T95QGN1P**: The Microsoft Store app ID for the Migration Launcher app package.
-- **platform windows.universal**: Refers to the Universal Windows Platform (UWP), which means the package is designed to run on multiple Windows devices, including Surface Hub, PCs, tablets, and other devices that support UWP.
-- **-a x64**: Specifies the architecture of the package, compatible with 64-bit Windows systems.
-- **--skip-license**: Bypasses the requirement to accept the license agreement before downloading the package. By using this flag, you are automatically accepting the license terms without being prompted during the download process.
+Download the migration launcher app package directly from Surface Hub 2S or via the WinGet command line tool for remote distribution via Intune or your MDM provider. 
 
 ## Install Migration Launcher app to trigger a migration
 
@@ -172,6 +143,35 @@ Choose one of the following options:
 7. Open the Group, select  **Members** > **Add members** and add the Surface Hub 2S devices you're targeting for migration.
 
    :::image type="content" alt-text="Screenshot that shows how to add members to a security group in Intune admin center." source="images/add-members-security-group.png":::
+
+#### Install WinGet
+
+1. By default, WinGet is preinstalled on Windows 10 (version 1809 and later) and Windows 11. To confirm you have WinGet installed, open a command prompt and enter **winget**. 
+2. Ensure you're running WinGet 1.8 or later. 
+3. If WinGet is not present or you need the latest version, follow these instructions: [Install WinGet](/windows/package-manager/winget/#install-winget).
+
+#### Download Migration Launcher app
+
+1. Enter the following command:.
+
+    ```bash
+    winget download 9P81T95QGN1P --platform windows.universal -a x64 --skip-license
+    ```
+
+2. Agree to the terms, as shown in the following figure. 
+
+    :::image type="content" alt-text="Screenshot that shows description of Migration Launcher app." source="images/download-surface-hub-migration-launcher.png":::
+
+3. View the downloaded files in a newly created subdirectory your Downloads folder:
+
+    :::image type="content" alt-text="Screenshot of downloaded files." source="images/hub-migration-app-files.png":::
+
+##### WinGet command parameters
+
+- **9P81T95QGN1P**: The Microsoft Store app ID for the Migration Launcher app package.
+- **platform windows.universal**: Refers to the Universal Windows Platform (UWP), which means the package is designed to run on multiple Windows devices, including Surface Hub, PCs, tablets, and other devices that support UWP.
+- **-a x64**: Specifies the architecture of the package, compatible with 64-bit Windows systems.
+- **--skip-license**: Bypasses the requirement to accept the license agreement before downloading the package. By using this flag, you are automatically accepting the license terms without being prompted during the download process.
 
 ## Deploy Migration Launcher app via Intune
 
