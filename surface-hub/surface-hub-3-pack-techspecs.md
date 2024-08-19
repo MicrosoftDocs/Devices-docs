@@ -1,6 +1,6 @@
 ---
-title: Surface Hub 3 Pack tech specs
-description: This page provides technical specifications for the Surface Hub 3 Pack that customers can use to upgrade Surface Hub 2S devices. 
+title: Surface Hub 3 Compute Cartridge tech specs
+description: This page provides technical specifications for the Surface Hub 3 Compute Cartridge that customers can use to upgrade Surface Hub 2S devices. 
 ms.reviewer: dpandre
 manager: frankbu
 ms.service: surface-hub
@@ -13,7 +13,7 @@ appliesto:
 - Surface Hub 3
 ---
 
-# Surface Hub 3 Pack tech specs
+# Surface Hub 3 Compute Cartridge tech specs
 
 | Component                 | Description                                                                                                                                                                                                                                                                                                                   |
 | ------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -24,10 +24,10 @@ appliesto:
 | **Security**                   | Trusted Platform Module 2.0                                                                                                                                                                                                                                                                                                       |
 | **Ports**                      | - USB-A<br>- RJ45 Gigabit Ethernet<br>- Mini-DisplayPort Video Output*<br>- HDMI Video Input**<br>- USB-C® with Alt-Mode DisplayPort Input**<br><br> <br>*Available in Windows desktop only.<br>**Available in bypass only.                                                                                                       |
 | **Software**<br>           | - Windows 11 IoT Enterprise with the Microsoft Teams Rooms on Windows experience<br>- Configurable to Windows 11 Pro/Enterprise*<br><br> <br>*Software license and image required. Sold separately. For additional information, visit [Migrate to Windows 10/11 Pro or Enterprise on Surface Hub](surface-hub-3-migrate-os.md). |
-| **Accessibility**<br>      | Physical tactile feature to identify Surface Hub 3 Pack                                                                                                                                                                                                                                                                           |
+| **Accessibility**<br>      | Physical tactile feature to identify Surface Hub 3 Compute Cartridge                                                                                                                                                                                                                                                                           |
 | **Serviceability**  <sup>3</sup><br>   | Replacement components include: <br><br>- Removable SSD                                                                                                                                                                                                                                                                           |
 | **Exterior**<br>           | Casing: Stainless steel with mineral-composite resin<br>Color: Platinum                                                                                                                                                                                                                                                           |
-| **What's in the box**<br>  | - Surface Hub 3 Pack<br>- Setup Guide                                                                                                                                                                                                                                                                                             |
+| **What's in the box**<br>  | - Surface Hub 3 Compute Cartridge<br>- Setup Guide                                                                                                                                                                                                                                                                                             |
 | **Warranty** <sup>4</sup>                 | 1-year limited hardware warranty                                                                                                                                                                                                                                                                                                  |
 
 ## References

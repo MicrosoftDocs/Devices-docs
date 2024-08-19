@@ -1,6 +1,6 @@
 ---
-title: Install and manage Surface Hub 3 Pack
-description: Explains how to upgrade Surface Hub 2S to Surface Hub 3 by installing the Surface Hub 3 Pack. 
+title: Install and manage Surface Hub 3 Compute Cartridge
+description: Explains how to upgrade Surface Hub 2S to Surface Hub 3 by installing the Surface Hub 3 Compute Cartridge. 
 ms.reviewer: dpandre
 manager: frankbu
 ms.service: surface-hub
@@ -15,11 +15,11 @@ appliesto:
 
 ---
 
-# Install and manage Surface Hub 3 Pack
+# Install and manage Surface Hub 3 Compute Cartridge
 
-The Surface Hub 3 Pack is a hardware upgrade that transforms your Surface Hub 2S device into a Surface Hub 3. To place an order, contact your [Surface device reseller](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface#DEVICESRESELLERS).
+The Surface Hub 3 Compute Cartridge is a hardware upgrade that transforms your Surface Hub 2S device into a Surface Hub 3. To place an order, contact your [Surface device reseller](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface#DEVICESRESELLERS).
 
-## Install Surface Hub 3 Pack
+## Install Surface Hub 3 Compute Cartridge
 
 ### Prerequisites
 
@@ -32,7 +32,7 @@ The Surface Hub 3 Pack is a hardware upgrade that transforms your Surface Hub 2S
 - A resource account with a [supported Microsoft Teams Rooms license](/microsoftteams/rooms/rooms-licensing).
 
 > [!NOTE]
-> Surface Hub 3 Pack runs Windows 11 IoT Enterprise and does not support downgrading to Windows 10 Team or Windows 10 Pro/Enterprise. (If needed, you can reinstall the old cartridge to resume using Surface Hub 2S). 
+> Surface Hub 3 Compute Cartridge runs Windows 11 IoT Enterprise and does not support downgrading to Windows 10 Team or Windows 10 Pro/Enterprise. (If needed, you can reinstall the old cartridge to resume using Surface Hub 2S). 
 
 ### Demo video
 
@@ -50,11 +50,11 @@ Review the following demo and follow the instructions on this page.
 
   ![Screenshot that shows retaining screw to remove and allow you to pull out the old cartridge.](images/remove-cartridge-fig2.png).
 
-3. Slide the compute cartridge out. You can use the return label in the Surface Hub 3 Pack packaging to send your old cartridge to Microsoft for recycling if desired.
+3. Slide the compute cartridge out. You can use the return label in the Surface Hub 3 Compute Cartridge packaging to send your old cartridge to Microsoft for recycling if desired.
 
   ![Screenshot that shows how to slide the compute cartridge out of the unit](images/remove-cartridge-fig3.png)
 
-4. Slide the Surface Hub 3 Pack into your Surface Hub.
+4. Slide the Surface Hub 3 Compute Cartridge into your Surface Hub.
 5. Fasten the locking screw and slide the cover into place. Power on your new Surface Hub 3.  
 6. To complete setup, refer to the following articles:
 
@@ -72,7 +72,7 @@ If you manage Surface Hub 2S via Microsoft Intune or another mobile device manag
 
 ## Surface Hub 2S Recycle Program
 
-The Surface Hub 3 Pack packaging allows you to return your old Surface Hub 2S cartridge to Microsoft for recycling. To participate, [remove the hard drive](#required-removal-of-hard-drive--corporate-data) from the cartridge to protect your sensitive data and [request a pre-paid shipping label](#request-a-pre-paid-shipping-label). 
+The Surface Hub 3 Compute Cartridge packaging allows you to return your old Surface Hub 2S cartridge to Microsoft for recycling. To participate, [remove the hard drive](#required-removal-of-hard-drive--corporate-data) from the cartridge to protect your sensitive data and [request a pre-paid shipping label](#request-a-pre-paid-shipping-label). 
 
 ### Required removal of hard drive & corporate data
 
@@ -88,7 +88,7 @@ Before recycling your Surface Hub 2S cartridge, first remove the hard drive and 
 
 ### Request a pre-paid shipping label
 
-Select your country/region and follow the instructions to obtain a shipping label. If you upgraded to the Surface Hub 3 Pack, you can use its original packaging to ship the Surface Hub 2S cartridge for recycling. 
+Select your country/region and follow the instructions to obtain a shipping label. If you upgraded to the Surface Hub 3 Compute Cartridge, you can use its original packaging to ship the Surface Hub 2S cartridge for recycling. 
 
 - [Australia](https://microsoft-hub.tes-amm.com/_Content/en-AU/)
 - [Austria](https://microsoft-hub.tes-amm.com/_Content/de-AT/)
@@ -137,7 +137,7 @@ Select your country/region and follow the instructions to obtain a shipping labe
 - [United States](https://microsoft-hub.tes-amm.com/_Content/en-US/)
 
 > [!TIP]
-> Since both cartridges appear almost identical, we added two bumps to the edge of the Surface Hub 3 Pack cartridge. These bumps are located on the opposite side of the power socket, helping you differentiate between the two models.
+> Since both cartridges appear almost identical, we added two bumps to the edge of the Surface Hub 3 Compute Cartridge cartridge. These bumps are located on the opposite side of the power socket, helping you differentiate between the two models.
 
 ## Wallpaper installation
 
@@ -145,4 +145,4 @@ The latest Windows Bloom wallpaper is available for your Surface Hub 3 device or
 
 ### Learn more
 
-- [Surface Hub 3 Pack FAQ](surface-hub-3-pack-faq.md)
+- [Surface Hub 3 Compute Cartridge FAQ](surface-hub-3-pack-faq.md)

@@ -13,7 +13,7 @@
              href: surface-hub-3-whats-new.md
            - name: Surface Hub with Teams Rooms on Windows FAQ
              href: surface-hub-3-faq.md  
-           - name: Surface Hub 3 Pack FAQ
+           - name: Surface Hub 3 Compute Cartridge FAQ
              href: surface-hub-3-pack-faq.md 
            - name: Driver & firmware lifecycle
              href: surface-hub-driver-firmware-accessories-lifecycle.md
@@ -30,7 +30,7 @@
                 href: surface-hub-3-get-started.md            
               - name: First-time setup 
                 href: first-run-program-surface-hub-3.md
-              - name: Install & manage Surface Hub 3 Pack
+              - name: Install & manage Surface Hub 3 Compute Cartridge
                 href: install-manage-surface-hub-3-pack.md
               - name: Security best practices
                 href: surface-hub-3-security.md    
@@ -242,7 +242,7 @@
               items: 
                 - name: Surface Hub 3 tech specs
                   href: surface-hub-3-techspecs.md
-                - name: Surface Hub 3 Pack tech specs
+                - name: Surface Hub 3 Compute Cartridge tech specs
                   href: surface-hub-3-pack-techspecs.md     
             - name: Site readiness guide
               href: surface-hub-3-site-readiness-guide.md
