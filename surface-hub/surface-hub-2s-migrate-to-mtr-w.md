@@ -76,10 +76,6 @@ For detailed guidance on enrolling your Surface Hub in Autopilot and Auto-login 
 > [!TIP]
 > For an optimal experience, it's recommended to configure Autopilot and Auto-login of Teams Rooms before starting the migration process. This preparation ensures that seamless deployment is primed and ready to begin when migration is complete.
 
-### Download and install Migration Launcher app
-
-Download the migration launcher app package directly from Surface Hub 2S or via the WinGet command line tool for remote distribution via Intune or your MDM provider.
-
 ## Install Migration Launcher app to trigger a migration
 
 Choose one of the following options:
