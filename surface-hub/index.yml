@@ -40,7 +40,7 @@ landingContent:
           - text: FAQ - Surface Hub running Teams Rooms on Windows
             url: surface-hub-3-faq.md 
           - text: Install and manage Surface Hub 3 Compute Cartridge
-            url: install-manage-surface-hub-3-pack.md            
+            url: install-manage-surface-hub-3-compute-cartridge.md            
           - text: Security best practices for Surface Hubs running Teams Rooms on Windows
             url: surface-hub-3-security.md
           - text: Surface Hub 3 site readiness guide

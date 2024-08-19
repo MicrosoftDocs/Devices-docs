@@ -31,7 +31,7 @@ appliesto:
 
 **How do I install Surface Hub 3 Compute Cartridge?**
 
-- The Surface Hub 3 Compute Cartridge is designed for easy removal and replacement of the existing Surface Hub 2S cartridge. Using a Phillips-head screwdriver to unscrew the retaining bolt, you can remove the Hub 2S cartridge and insert the new Surface Hub 3 Compute Cartridge. Press power, and the installation is complete. For detailed instructions, see [Install and manage Surface Hub 3 Compute Cartridge](install-manage-surface-hub-3-pack.md).
+- The Surface Hub 3 Compute Cartridge is designed for easy removal and replacement of the existing Surface Hub 2S cartridge. Using a Phillips-head screwdriver to unscrew the retaining bolt, you can remove the Hub 2S cartridge and insert the new Surface Hub 3 Compute Cartridge. Press power, and the installation is complete. For detailed instructions, see [Install and manage Surface Hub 3 Compute Cartridge](install-manage-surface-hub-3-compute-cartridge.md).
 
 **Will the new cartridge extend the warranty on my Surface Hub 2S?**
 
@@ -43,7 +43,7 @@ appliesto:
 
 **Can I recycle the old cartridge after installing the Surface Hub 3 Compute Cartridge?**
 
-- Yes. You can use the return label included in the packaging for the Surface Hub 3 Compute Cartridge to send your old cartridge to Microsoft for recycling, if desired. Before recycling your Surface Hub 2S cartridge, first remove the hard drive and delete any corporate data. To learn more, see [Install and manage Surface Hub 3 Compute Cartridge](install-manage-surface-hub-3-pack.md)
+- Yes. You can use the return label included in the packaging for the Surface Hub 3 Compute Cartridge to send your old cartridge to Microsoft for recycling, if desired. Before recycling your Surface Hub 2S cartridge, first remove the hard drive and delete any corporate data. To learn more, see [Install and manage Surface Hub 3 Compute Cartridge](install-manage-surface-hub-3-compute-cartridge.md)
 
 ## References
 

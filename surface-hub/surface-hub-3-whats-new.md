@@ -71,7 +71,7 @@ No matter where they work, give everyone an equal opportunity to co-create and c
 
 ### Learn more
 
-- [Install & manage Surface Hub 3 Compute Cartridge](install-manage-surface-hub-3-pack.md)
+- [Install & manage Surface Hub 3 Compute Cartridge](install-manage-surface-hub-3-compute-cartridge.md)
 - [Site readiness guide for Surface Hub 3](surface-hub-3-site-readiness-guide.md)
 
 ## References

@@ -64,7 +64,7 @@ Use of the Migration Launcher app on Surface Hub 2S involves significant changes
 ## Surface Hub 3 Compute Cartridge option
 
 > [!TIP]
-> Alternatively, if you don't wish to migrate your Surface Hub 2S, you can purchase the [Surface Hub 3 Compute Cartridge](surface-hub-3-pack-faq.md), which lets you swap out your existing Surface Hub 2S cartridge and instantly convert your Surface Hub 2S to a Surface Hub 3. To learn more, see [Install and manage Surface Hub 3 Compute Cartridge](install-manage-surface-hub-3-pack.md).
+> Alternatively, if you don't wish to migrate your Surface Hub 2S, you can purchase the [Surface Hub 3 Compute Cartridge](surface-hub-3-pack-faq.md), which lets you swap out your existing Surface Hub 2S cartridge and instantly convert your Surface Hub 2S to a Surface Hub 3. To learn more, see [Install and manage Surface Hub 3 Compute Cartridge](install-manage-surface-hub-3-compute-cartridge.md).
 
 > [!NOTE]
 > Support for Windows 10 Team edition on Surface Hub, based on Windows 10 version 22H2, is scheduled to end on October 14, 2025.
