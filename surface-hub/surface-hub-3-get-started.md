@@ -21,7 +21,7 @@ New deliveries of Surface Hub 3 and the Surface Hub 3 Compute Cartridge come pre
 
 ## Upgrade
 
-If you have a Surface Hub 2S, you can upgrade to the new experience via the Surface Hub 3 Compute Cartridge. See [Install and manage Surface Hub 3 Compute Cartridge](install-manage-surface-hub-3-compute-cartridge.md) to learn more.
+If you have a Surface Hub 2S, you can upgrade to the new experience via the Surface Hub 3 Compute Cartridge (formerly Surface Hub 3 Pack). See [Install and manage Surface Hub 3 Compute Cartridge](install-manage-surface-hub-3-compute-cartridge.md) to learn more.
 
 ## IT management of Surface Hub running MTR-W
 

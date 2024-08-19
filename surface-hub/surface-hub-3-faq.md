@@ -24,6 +24,8 @@ appliesto:
 
 **How can I place an order for the Surface Hub 3 Compute Cartridge?**
 
+To order the Surface Hub 3 Compute Cartridge (formerly Surface Hub 3 Pack), see the following resources:
+
 - See [Surface Hub 3 product site](https://www.microsoft.com/surface/business/surface-hub-3)
 - Contact your [Surface device reseller](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface#DEVICESRESELLERS).
 

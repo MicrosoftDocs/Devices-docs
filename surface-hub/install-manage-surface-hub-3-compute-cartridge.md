@@ -17,7 +17,7 @@ appliesto:
 
 # Install and manage Surface Hub 3 Compute Cartridge
 
-The Surface Hub 3 Compute Cartridge is a hardware upgrade that transforms your Surface Hub 2S device into a Surface Hub 3. To place an order, contact your [Surface device reseller](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface#DEVICESRESELLERS).
+The Surface Hub 3 Compute Cartridge (formerly Surface Hub 3 Pack) is a hardware upgrade that transforms your Surface Hub 2S device into a Surface Hub 3. To place an order, contact your [Surface device reseller](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface#DEVICESRESELLERS).
 
 ## Install Surface Hub 3 Compute Cartridge
 
