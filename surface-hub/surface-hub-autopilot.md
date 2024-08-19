@@ -50,7 +50,7 @@ The new guidance from Teams Rooms, including full documentation on the new [Auto
 
 ## Enroll your Surface Hub for Windows Autopilot deployment
 
-For Surface Hub 3, and Surface Hub 2S devices [upgraded with the Surface Hub 3 Compute Cartridge](install-manage-surface-hub-3-compute-cartridge.md) and Surface Hub 2S devices [software-migrated to the Teams Rooms on Windows platform](surface-hub-2s-migrate-to-mtr-w.md), support for Windows Autopilot and Auto-login of Teams Rooms brings huge value in enabling even more seamless integration into corporate environments.
+For Surface Hub 3 and Surface Hub 2S devices [upgraded with the Surface Hub 3 Compute Cartridge](install-manage-surface-hub-3-compute-cartridge.md) and Surface Hub 2S devices [software-migrated to the Teams Rooms on Windows platform](surface-hub-2s-migrate-to-mtr-w.md), support for Windows Autopilot and Auto-login of Teams Rooms brings huge value in enabling even more seamless integration into corporate environments.
 
 As shown in the following table, the process of enrolling a supported version of Surface Hub in Windows Autopilot varies by device type. But once devices are enrolled and registered with the Autopilot service, regardless of the method used, they each benefit equally from the same automated configuration and deployment capabilities of Autopilot. This includes automatic enrollment in management tools, application of settings and policies, and more, which can all occur without direct IT intervention after the device is in the user's hands.
 
@@ -66,7 +66,7 @@ New Surface Hub 3 devices that ship from the factory are fully ready for Autopil
 
 ### Manually register & enroll Surface Hub 2S devices upgraded with a Surface Hub 3 Compute Cartridge
 
-When you upgrade a Surface Hub 2S with a Surface Hub 3 Compute Cartridge (turning it into a Surface Hub 3), a new hardware hash is generated for that exact unique hardware combination of Surface Hub display chassis and Surface Hub 3 Compute Cartridge inside. Therefore, in order to proceed with Autopilot enrollment for this new system hardware combination, you first need to manually extract the new hardware hash. Methods to extract the hardware hash vary depending on whether the device has been previously deployed:
+When you upgrade a Surface Hub 2S with a Surface Hub 3 Compute Cartridge (formerly Surface Hub 3 Pack), a new hardware hash is generated for that exact unique hardware combination of Surface Hub display chassis and Surface Hub 3 Compute Cartridge inside. Therefore, in order to proceed with Autopilot enrollment for this new system hardware combination, you first need to manually extract the new hardware hash. Methods to extract the hardware hash vary depending on whether the device has been previously deployed:
 
 1. **If you have never deployed the device before**, you can capture the hardware hash from the first screen of the first time setup (Windows OOBE) process:
 

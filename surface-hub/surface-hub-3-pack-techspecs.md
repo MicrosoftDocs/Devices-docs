@@ -1,6 +1,6 @@
 ---
 title: Surface Hub 3 Compute Cartridge tech specs
-description: This page provides technical specifications for the Surface Hub 3 Compute Cartridge that customers can use to upgrade Surface Hub 2S devices. 
+description: View the technical specifications of the Surface Hub 3 Compute Cartridge (formerly Surface Hub 3 Pack) designed to upgrade Surface Hub 2S devices with enhanced performance and features 
 ms.reviewer: dpandre
 manager: frankbu
 ms.service: surface-hub
@@ -15,12 +15,14 @@ appliesto:
 
 # Surface Hub 3 Compute Cartridge tech specs
 
+This page provides tech specs for the Surface Hub 3 Compute Cartridge (formerly Surface Hub 3 Pack).
+
 | Component                 | Description                                                                                                                                                                                                                                                                                                                   |
 | ------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Processor**                  | Intel i5                                                                                                                                                                                                                                                                                                                          |
 | **Graphics**                   | iGPU                                                                                                                                                                                                                                                                                                                              |
 | **Memory and storage** <sup>1</sup>         | Memory: 32 GB<br>Storage: 512 GB                                                                                                                                                                                                                                                                                                  |
-| **Size and Weight**  <sup>2</sup>       | Dimensions: 10.8in x 8.7in x 1.3in (275mm x 220mm x 32mm)<br>**Weight**: 2.1 lbs (954gm)                                                                                                                                                                                                                                          |
+| **Size and Weight**  <sup>2</sup>       | Dimensions: 10.8in x 8.7in x 1.3in (275mm x 220mm x 32mm)<br>Weight: 2.1 lbs (954gm)                                                                                                                                                                                                                                          |
 | **Security**                   | Trusted Platform Module 2.0                                                                                                                                                                                                                                                                                                       |
 | **Ports**                      | - USB-A<br>- RJ45 Gigabit Ethernet<br>- Mini-DisplayPort Video Output*<br>- HDMI Video Input**<br>- USB-C® with Alt-Mode DisplayPort Input**<br><br> <br>*Available in Windows desktop only.<br>**Available in bypass only.                                                                                                       |
 | **Software**<br>           | - Windows 11 IoT Enterprise with the Microsoft Teams Rooms on Windows experience<br>- Configurable to Windows 11 Pro/Enterprise*<br><br> <br>*Software license and image required. Sold separately. For additional information, visit [Migrate to Windows 10/11 Pro or Enterprise on Surface Hub](surface-hub-3-migrate-os.md). |

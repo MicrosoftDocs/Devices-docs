@@ -17,7 +17,7 @@ appliesto:
 
 **What is the Surface Hub 3 Compute Cartridge?**
 
-- The Surface Hub 3 Compute Cartridge is an upgrade that replaces the Surface Hub 2S cartridge. It’s the same shape and size as the Surface Hub 2S cartridge and includes tactile bumps to differentiate it from the cartridge for Surface Hub 2S.
+- The Surface Hub 3 Compute Cartridge (formerly Surface Hub 3 Pack) is an upgrade that replaces the Surface Hub 2S cartridge. It’s the same shape and size as the Surface Hub 2S cartridge and includes tactile bumps to differentiate it from the cartridge for Surface Hub 2S.
 - The Surface Hub 3 Compute Cartridge enables you to rotate 50” Hub devices: Unlock unique collaboration scenarios with Portrait on Surface Hub 3 50” devices. With Smart Rotation, seamlessly adjust the device to the orientation that’s best for your meeting or collaboration needs in the moment.
 - Customers will benefit from a 60% CPU performance increase and a 160% GPU performance increase over Surface Hub 2S.
 

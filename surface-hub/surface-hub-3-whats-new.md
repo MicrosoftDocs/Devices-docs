@@ -23,7 +23,7 @@ Designed end-to-end by Microsoft, Surface Hub 3 is the [premier all-in-one hybri
 There are several ways to get the new Surface Hub experience:
 
 - Purchase a new Surface Hub 3 from a [Surface device reseller](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface#DEVICESRESELLERS) (available December 5, 2023).
-- Upgrade from Surface Hub 2S to Surface Hub 3 via the [Surface Hub 3 Compute Cartridge](surface-hub-3-pack-faq.md) (also known as upgrade cartridge) (available December 5, 2023).
+- Upgrade from Surface Hub 2S to Surface Hub 3 via the [Surface Hub 3 Compute Cartridge](surface-hub-3-pack-faq.md) (formerly Surface Hub 3 Pack).
 - Migrate your Surface Hub 2S to the new experience following the public release of migration software and instructions in early 2024.
 
 ## Hybrid meetings that include everyone
