@@ -23,7 +23,7 @@ The [Surface Support Portal](https://admin.microsoft.com/AdminPortal#/support/mi
 
 ## Access Surface Support Portal
 
-If you already have access, skip to the next section.
+If you already have access, skip ahead to [Create a service request for device replacement](#create-a-service-request-for-device-replacement-or-repair) .
 
 ### Validate tenant
 
