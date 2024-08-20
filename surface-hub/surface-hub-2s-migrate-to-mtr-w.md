@@ -101,12 +101,12 @@ Choose one of the following options:
 5. Typical migration time is around **90** minutes from restart after installing the Migration Launcher app, but the length can vary depending on many characteristics, including customer network bandwidth and related factors.
 6. When migration is complete, the device displays the Windows first-time setup program, also known as Out of the Box Experience (OOBE). To learn more, see [First-time setup for Surface Hub running Microsoft Teams Rooms on Windows](first-run-program-surface-hub-3.md).
 
-### Remotely install Migration Launcher app via Intune
+## Remotely install Migration Launcher app via Intune
 
 > [!TIP]
 > If you are remotely triggering migration with the following steps, you may wish to consider setting up seamless post-migration deployment as well. To learn more, see the earlier section on this page: [Streamline post-migration deployment with Windows Autopilot and Teams Rooms Auto-Login](#optional-streamline-post-migration-deployment-with-windows-autopilot-and-teams-rooms-auto-login).
 
-#### Summary
+### Summary
 
 1. [Ensure your Surface Hub 2S devices are fully updated and **enrolled in Intune**](#ensure-your-surface-hub-2s-devices-are-fully-updated-and-enrolled-in-intune).
 2. [Add Surface Hub 2S devices to a **Device group**](#add-surface-hub-2s-devices-to-a-device-group).
@@ -116,14 +116,14 @@ Choose one of the following options:
 > [!NOTE]
 > These app deployment operations use the [EnterpriseModernAppManagement CSP](/windows/client-management/mdm/enterprisemodernappmanagement-csp) and can also be executed with SyncML commands from another MDM solution.
 
-#### Ensure your Surface Hub 2S devices are fully updated and enrolled in Intune
+### Ensure your Surface Hub 2S devices are fully updated and enrolled in Intune
 
 - To verify enrollment, sign into [Intune admin center](https://intune.microsoft.com/), go to **Devices** > **All devices**, and look for the names of your target devices.
 - Check that the OS version for the target devices meets the [prerequisites listed earlier](#prerequisites), specifically **OS version 19045.4123** or later.
 
   :::image type="content" alt-text="Screenshot of Surface Hub 2S devices enrolled in Microsoft Intune admin center." source="images/check-os-version-surface-hubs.png":::
 
-#### Add Surface Hub 2S devices to a Device group
+### Add Surface Hub 2S devices to a Device group
 
 > [!WARNING]
 > Any devices in the group targeted for Migration Launcher app deployment are migrated as soon as the app has deployed. To avoid unintended behavior, we recommend against using Dynamic Groups, and we encourage you to validate that only your intended devices are included in the group you selected.
@@ -138,9 +138,9 @@ Choose one of the following options:
 
    :::image type="content" alt-text="Screenshot that shows how to add members to a security group in Intune admin center." source="images/add-members-security-group.png":::
 
-#### Download Migration Launcher app via WinGet
+### Download Migration Launcher app via WinGet
 
-##### Install WinGet
+#### Install WinGet
 
 1. By default, WinGet is preinstalled on Windows 10 (version 1809 and later) and Windows 11. To confirm you have WinGet installed, open a command prompt and enter **winget**.
 2. Ensure you're running WinGet 1.8 or later.
@@ -167,7 +167,7 @@ Choose one of the following options:
 - **-a x64**: Specifies the architecture of the package, compatible with 64-bit Windows systems.
 - **--skip-license**: Bypasses the requirement to accept the license agreement before downloading the package. By using this flag, you are automatically accepting the license terms without being prompted during the download process.
 
-## Deploy Migration Launcher app via Intune
+### Deploy Migration Launcher app via Intune
 
 1. Sign in to [Intune Admin Center](https://endpoint.microsoft.com/) and go to **Apps** > **All apps** > **Add**. Under App type, select **Line-of-business app**.
 
