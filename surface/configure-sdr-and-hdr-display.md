@@ -46,17 +46,17 @@ To accurately measure SDR and HDR output on the Surface Laptop Studio 2, use the
 
 | Setting               | SDR Mode | HDR Mode                                                                                                                                                                     |
 |-----------------------|----------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| HDR Content Brightness | Not Applicable | Adjust according to the brightness slider value. For Surface Laptop Studio 2: Set "Brightness Slider" to 46 and "HDR Content Brightness Slider" to 1 for accurate measurement. |
+| HDR Content Brightness | Not Applicable | Adjust according to the brightness slider value. For Surface Laptop Studio 2, Surface Laptop 6, and Surface Pro 10, set "Brightness Slider" to **46** and "HDR Content Brightness Slider" to **1** for accurate measurement. |
 
 ### Advanced configuration tips for SDR and HDR accuracy
 
 - **SDR Mode:**
   - For sRGB accuracy, use the settings listed earlier but switch the color profile to sRGB.
   - For measuring SDR luminance dynamic range, adjust the brightness slider from 0 to 100.
-  - For ACM (Advanced Color Management) mode accuracy, enable "Automatically manage color for apps" under System->Display->Advanced Display settings.
+  - For ACM (Advanced Color Management) mode accuracy, enable **Automatically manage color for apps** under **System** > **Display** > **Color Management**. To enter here, select the **Color Profile** menu in **Display** settings to enter **Color Management** settings page.
 
 - **HDR Mode:**
-  - Brightness slider values are device-specific. Use the [VESA DisplayHDR Test app](https://www.microsoft.com/store/productid/9NN1GPN70NF3?ocid=pdpshare) to observe the "Current Brightness Slider Factor," aiming for a value close to 1.0. This app also provides "Reported Panel Characteristics" for detailed analysis.
+  - Brightness slider values are device-specific. Use the [VESA DisplayHDR Test app](https://displayhdr.org/downloads/) to observe the "Current Brightness Slider Factor," aiming for a value close to 1.0. This app also provides "Reported Panel Characteristics" for detailed analysis.
 
 ## Presenting SDR and HDR content
 
