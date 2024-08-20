@@ -21,8 +21,49 @@ The [Surface Support Portal](https://admin.microsoft.com/AdminPortal#/support/mi
 
 :::image type="content" source="images/surface-service-repair/m365-admincenter-repair-request.png" alt-text="Screenshot of Surface Support Portal.":::
 
->[!TIP]
->To learn more about accessing the Surface Support Portal or the Microsoft Intune-based [Surface Management Portal](surface-management-portal.md), see [Streamline access to Surface Portals for commercial customers](streamline-access-surface-portals.md).
+
+## Access Surface Support Portal
+
+If you already have access, skip to the next section.
+
+
+### Validate tenant
+
+The following onboarding page helps validate the existing Microsoft tenant of the organization's domain. If no tenant exists, it enables IT admins to create a new one for their organization. Once established, this tenant directs them seamlessly to the Microsoft 365 Admin Center to access the Surface Support Portal.
+
+1. **Select this [onboarding page](https://signup.microsoft.com/createaccount?culture=en-us&country=us&ru=https%3A%2F%2Fadmin.microsoft.com%2FAdminportal%2FHome%3Fmcapiorgid%3D%7Bmcapiorgid%7D%26accountid%3D%7Baccountid%7D%26&origin=servicesHub&scenario=skiplba)** to validate the email and domain of your organization. If your organization and domain are already registered with Microsoft, you must sign in with your organizational credentials. 
+
+- If your organization doesn't have a tenant with Microsoft, proceed to **Step 2**.
+
+    :::image type="content" source="images/portal-signin.png" alt-text="Screenshot of sign in page.":::
+
+2. **Setup Account** – Initiate the process of creating a new account with Microsoft.
+
+- Provide the business name of your organization, complete address, phone number, and email address you want to associate with your account.
+
+3. **Verify your identity** – Verify your identity through text or a call.
+
+- A code is sent to you to verify your identity. Once your identity is verified, create your credentials with a password.
+
+4. **Add your credentials** for access to the Microsoft 365 admin center.
+
+Save your email and password before moving to the next step. Select **Next** to proceed to the final step.
+
+5. **Add payment details.** This is the final step before you're redirected to the Microsoft 365 admin center.
+
+> [!NOTE]
+> The payment information links with your account, but you are not charged until you purchase a product from Microsoft. The Surface Support Portal on Microsoft 365 admin center does not require any subscription to access the service for Surface support and service.
+
+6. After completing the payment information, you're redirected to the Microsoft 365 admin center homepage. Select **Finish**.
+
+7. Once on the Microsoft 365 admin center, you can request access to the Surface Support Portal.
+
+- If your Surface Support Portal access request is rejected or if there's a delay in gaining access, you can still create support orders for your Surface devices by selecting the Help and Support node.
+
+    :::image type="content" source="images/m365-admin-center.png" alt-text="Screenshot of Microsoft 365 Admin Center.":::
+
+8. To expedite your support request, include your device serial numbers and your shipping address in the **Issue Description** field.
+
 
 - [Create a service request for device replacement or repair](#create-a-service-request-for-device-replacement-or-repair)
 - [Create a support request](#create-a-support-request)
