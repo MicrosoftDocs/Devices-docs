@@ -50,7 +50,7 @@ Use of the Migration Launcher app on Surface Hub 2S involves significant changes
 - You can also check by validating that Windows 10 [OS Build 19045.4123](https://support.microsoft.com/help/5034843) or later is present on the system.
 - Validate that your network can handle a **30 GB download**.
 - Ensure the network you're using doesn't have any other firewalls, blockages, or limitations that would otherwise prevent the download and installation of software onto the Surface Hub 2S devices you intend to migrate.
-- Confirm IT allows network access to required sites: ***.devices.microsoft.com** and **download.microsoft.com**. On a separate PC, open a command line or console and enter the following commands:
+- Confirm IT allows network access to required sites: ***.devices.microsoft.com** and **download.microsoft.com**. On a separate PC, open a command prompt and enter the following commands:
 
     ```bash
     ping devices.microsoft.com
@@ -140,13 +140,13 @@ Choose one of the following options:
 
 ### Download Migration Launcher app via WinGet
 
-#### Install WinGet
+#### Install and use WinGet
 
-1. By default, WinGet is preinstalled on Windows 10 (version 1809 and later) and Windows 11. To confirm you have WinGet installed, open a command prompt and enter **winget**.
+1. By default, WinGet is preinstalled on Windows 10 (version 1809 and later) and Windows 11. To confirm you have WinGet installed, open a PowerShell command prompt and enter **winget**.
 2. Ensure you're running WinGet 1.8 or later.
 3. If WinGet is not present or you need the latest version, follow these instructions: [Install WinGet](/windows/package-manager/winget/#install-winget).
 
-1. Enter the following command:.
+1. Enter the following command to download the Migration Launcher app:
 
     ```bash
     winget download 9P81T95QGN1P --platform windows.universal -a x64 --skip-license
