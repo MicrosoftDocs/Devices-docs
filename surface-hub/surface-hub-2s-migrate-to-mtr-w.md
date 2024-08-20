@@ -110,7 +110,7 @@ Choose one of the following options:
 
 1. [Ensure your Surface Hub 2S devices are fully updated and **enrolled in Intune**](#ensure-your-surface-hub-2s-devices-are-fully-updated-and-enrolled-in-intune).
 2. [Add Surface Hub 2S devices to a **Device group**](#add-surface-hub-2s-devices-to-a-device-group).
-3. [Download **Migration Launcher app**](#download-migration-launcher-app-via-winget) via the WinGet command line tool.
+3. [Download Migration Launcher app](#download-migration-launcher-app-via-winget) via the WinGet command line tool.
 4. [Deploy Migration Launcher app via **Intune**](#deploy-migration-launcher-app-via-intune).
 
 > [!NOTE]
