@@ -6,7 +6,7 @@ ms.localizationpriority: medium
 author: coveminer
 ms.author: chauncel
 ms.topic: how-to
-ms.date: 06/07/2024
+ms.date: 08/20/2024
 ms.reviewer: cchauvet
 manager: frankbu
 appliesto:
@@ -17,53 +17,50 @@ ms.collection: essentials-manage
 
 # Surface Support Portal overview
 
-The [Surface Support Portal](https://admin.microsoft.com/AdminPortal#/support/microsoftsurfacesupport) provides a self-serve, centralized solution to get help if you're experiencing an issue with your Surface device. You can also submit requests to replace or repair your device, look up current warranty and protection plans, and register devices for Windows Autopilot enrollment.
+The [Surface Support Portal](https://admin.microsoft.com/AdminPortal#/support/microsoftsurfacesupport) provides IT admins with a self-serve, centralized platform to manage and support Surface devices. From submitting requests for device replacement or repair to managing warranties and registering devices for Windows Autopilot, this portal streamlines support and device management.
 
 :::image type="content" source="images/surface-service-repair/m365-admincenter-repair-request.png" alt-text="Screenshot of Surface Support Portal.":::
-
 
 ## Access Surface Support Portal
 
 If you already have access, skip to the next section.
 
-
 ### Validate tenant
 
-The following onboarding page helps validate the existing Microsoft tenant of the organization's domain. If no tenant exists, it enables IT admins to create a new one for their organization. Once established, this tenant directs them seamlessly to the Microsoft 365 Admin Center to access the Surface Support Portal.
+The onboarding process validates your organization’s Microsoft tenant. If your organization doesn't have a tenant, this process will guide you in creating one, providing seamless access to the Surface Support Portal via the Microsoft 365 Admin Center.
 
-1. **Select this [onboarding page](https://signup.microsoft.com/createaccount?culture=en-us&country=us&ru=https%3A%2F%2Fadmin.microsoft.com%2FAdminportal%2FHome%3Fmcapiorgid%3D%7Bmcapiorgid%7D%26accountid%3D%7Baccountid%7D%26&origin=servicesHub&scenario=skiplba)** to validate the email and domain of your organization. If your organization and domain are already registered with Microsoft, you must sign in with your organizational credentials. 
+1. **Select this [onboarding page](https://signup.microsoft.com/createaccount?culture=en-us&country=us&ru=https%3A%2F%2Fadmin.microsoft.com%2FAdminportal%2FHome%3Fmcapiorgid%3D%7Bmcapiorgid%7D%26accountid%3D%7Baccountid%7D%26&origin=servicesHub&scenario=skiplba)** to validate your organization’s email and domain. If your organization is already registered with Microsoft, sign in with your credentials.
 
-- If your organization doesn't have a tenant with Microsoft, proceed to **Step 2**.
+   - If your organization doesn't have a Microsoft tenant, proceed to **Step 2**.
 
     :::image type="content" source="images/portal-signin.png" alt-text="Screenshot of sign in page.":::
 
-2. **Setup Account** – Initiate the process of creating a new account with Microsoft.
+2. **Set up an account** – Begin the process of creating a new Microsoft account for your organization.
 
-- Provide the business name of your organization, complete address, phone number, and email address you want to associate with your account.
+   - Provide your organization’s name, address, phone number, and the email address you want to associate with the account.
 
-3. **Verify your identity** – Verify your identity through text or a call.
+3. **Verify your identity** – Confirm your identity via text or call.
 
-- A code is sent to you to verify your identity. Once your identity is verified, create your credentials with a password.
+   - A verification code will be sent to you. Once verified, create your account credentials.
 
-4. **Add your credentials** for access to the Microsoft 365 admin center.
+4. **Add your credentials** to access the Microsoft 365 Admin Center.
 
-Save your email and password before moving to the next step. Select **Next** to proceed to the final step.
+   - Save your email and password before proceeding to the next step. Select **Next** to continue.
 
-5. **Add payment details.** This is the final step before you're redirected to the Microsoft 365 admin center.
+5. **Add payment details**. This is the final step before you’re redirected to the Microsoft 365 Admin Center.
 
 > [!NOTE]
-> The payment information links with your account, but you are not charged until you purchase a product from Microsoft. The Surface Support Portal on Microsoft 365 admin center does not require any subscription to access the service for Surface support and service.
+> The payment information links with your account, but you are not charged until you purchase a product from Microsoft. The Surface Support Portal on Microsoft 365 Admin Center does not require any subscription to access Surface support and services.
 
-6. After completing the payment information, you're redirected to the Microsoft 365 admin center homepage. Select **Finish**.
+6. After completing the payment information, you’ll be redirected to the Microsoft 365 Admin Center homepage. Select **Finish**.
 
-7. Once on the Microsoft 365 admin center, you can request access to the Surface Support Portal.
+7. Once in the Microsoft 365 Admin Center, request access to the Surface Support Portal.
 
-- If your Surface Support Portal access request is rejected or if there's a delay in gaining access, you can still create support orders for your Surface devices by selecting the Help and Support node.
+   - If access is delayed or denied, you can still create support orders for your Surface devices by selecting the **Help and Support** node.
 
     :::image type="content" source="images/m365-admin-center.png" alt-text="Screenshot of Microsoft 365 Admin Center.":::
 
 8. To expedite your support request, include your device serial numbers and your shipping address in the **Issue Description** field.
-
 
 - [Create a service request for device replacement or repair](#create-a-service-request-for-device-replacement-or-repair)
 - [Create a support request](#create-a-support-request)
@@ -72,7 +69,7 @@ Save your email and password before moving to the next step. Select **Next** to 
 
 ## Create a service request for device replacement or repair
 
-1. Select **Create service request** and follow the instructions. Provide a detailed description of the problem or issue you're experiencing with the device or accessory.
+1. Select **Create service request** and follow the instructions. Provide a detailed description of the issue with your device or accessory.
 
     :::image type="content" source="images/service-request.png" alt-text="Screenshot of entering a service request for device replacement or repair.":::
 
@@ -80,20 +77,20 @@ Save your email and password before moving to the next step. Select **Next** to 
 
 ## Create a support request
 
-1. Select **Create support request**  and enter details of the issue you're experiencing. More detailed descriptions can lead to quicker resolutions.
+1. Select **Create support request** and describe the issue you’re experiencing. 
 
     :::image type="content" source="images/surface-support-request.png" alt-text="Screenshot of entering a support request.":::
 
-2. Select **Contact me**  to submit your support request.
+2. Select **Contact me** to submit your support request.
 
-Your support request is listed under "Support requests" where you can track the status and manage any open or closed requests.
+Your request will be listed under "Support requests," where you can track the status and manage any open or closed requests.
 
 ## Register devices
 
-The Surface Support Portal enables IT admins to register devices, allowing you to associate devices with your tenant. This facilitates  Windows Autopilot enrollment, allowing for seamless device management and integration into your organization's IT infrastructure. To register your devices, follow these steps
+The Surface Support Portal allows IT admins to register devices, facilitating Windows Autopilot enrollment and seamless integration into your organization’s IT infrastructure.
 
 1. **Begin new device registration:**
-   - Select **Register devices**. There are options to either begin a new device registration or request support.
+   - Select **Register devices** to start a new registration or request support.
 
 2. **Add a single device:**
    - Enter the device serial number and PO (Purchase Order) number in the provided fields.
@@ -102,8 +99,8 @@ The Surface Support Portal enables IT admins to register devices, allowing you t
     :::image type="content" source="images/autopilot-registration.png" alt-text="Screenshot of registering devices for Windows Autopilot enrollment. ":::
 
 3. **Add devices in bulk:**
-     - Prepare a CSV file with two columns, **Device Serial Number** and **PO Number.** Ensure all serial numbers include leading zeros.
-     - Select **Import CSV** to upload your file, or download a sample CSV template for reference.
+   - Prepare a CSV file with two columns: **Device Serial Number** and **PO Number.** Ensure all serial numbers include leading zeros.
+   - Select **Import CSV** to upload your file, or download a sample CSV template for reference.
 
 4. **Confirm tenant details:**
    - Provide the required information, including contact email, tenant ID, and domain name.
@@ -121,8 +118,8 @@ The Surface Support Portal enables IT admins to register devices, allowing you t
 ## Manage warranty
 
 - Select **Coverage** to view devices covered under warranty, the time remaining for each device under warranty, and related details.
-- Select **Warranty & service** to view the status of service orders and related details.
-- To learn more, see [Manage your Surface warranty & service requests](self-serve-warranty-service.md)
+- Select **Warranty & service** to view the status of service orders.
+- To learn more, see [Manage your Surface warranty & service requests](self-serve-warranty-service.md).
 
 ## View information about IT tools
 
