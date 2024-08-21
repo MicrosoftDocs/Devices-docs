@@ -146,17 +146,17 @@ Choose one of the following options:
 2. Ensure you're running WinGet 1.8 or later.
 3. If WinGet is not present or you need the latest version, follow these instructions: [Install WinGet](/windows/package-manager/winget/#install-winget).
 
-1. Enter the following command to download the Migration Launcher app:
+4. Enter the following command to download the Migration Launcher app:
 
     ```bash
     winget download 9P81T95QGN1P --platform windows.universal -a x64 --skip-license
     ```
 
-2. Agree to the terms, as shown in the following figure.
+5. Agree to the terms, as shown in the following figure.
 
     :::image type="content" alt-text="Screenshot that shows description of Migration Launcher app." source="images/download-surface-hub-migration-launcher.png":::
 
-3. View the downloaded files in a newly created subdirectory your Downloads folder:
+6. View the downloaded files in a newly created subdirectory your Downloads folder:
 
     :::image type="content" alt-text="Screenshot of downloaded files." source="images/hub-migration-app-files.png":::
 
@@ -174,7 +174,7 @@ Choose one of the following options:
    :::image type="content" alt-text="Screenshot of Select line of business app." source="images/hub2s-migration-select-lob-app.png":::
 
 2. Configure app information on the **Add App** page. Under the App information section, choose **Select app package file**. In the flyout pane, select the blue folder icon under the App package file and navigate to select and upload your LOB app package, in this case, the Surface Hub 2S OS Migration Launcher – Microsoft Teams Rooms MSIXBUNDLE file downloaded in the earlier section.  
-3. Select **Dependency app files** and choose the blue folder icon to select and upload all three dependencies. The inventory of required files displays a green check box to indicate that you have all the required files uploaded.
+3. Select **Dependency app files** and choose the blue folder icon to select and upload all three dependencies, located in the Dependencies folder that was downloaded via WinGet. The inventory of required files displays a green check box to indicate that you have all the required files uploaded.
 
    :::image type="content" alt-text="Screenshot that shows selection of dependency files." source="images/hub2s-migration-select-dependencies.png":::
 
