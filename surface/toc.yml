@@ -126,7 +126,7 @@
             href: microsoft-surface-data-eraser.md
         - name: Surface Dock 1 Firmware Update
           href: surface-dock-firmware-update.md 
-      - name: Surface portals overview
+      - name: Surface portals
         href: surface-portals.md
         expanded: true
         items:
