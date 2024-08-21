@@ -76,6 +76,9 @@ The onboarding process includes steps to validate your organization’s Microsof
 
 ## Create a service request for device replacement or repair
 
+> [!TIP]
+> [See the demo tutorial for Surface Support Portal](https://www.microsoft.com/videoplayer/embed/RE4Y55A)
+
 1. Select **Create service request** and follow the instructions. Provide a detailed description of the issue with your device or accessory.
 
     :::image type="content" source="images/service-request.png" alt-text="Screenshot of entering a service request for device replacement or repair.":::
