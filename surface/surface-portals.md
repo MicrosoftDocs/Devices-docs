@@ -72,4 +72,4 @@ The following admin roles apply to the Surface Management Portal and the Surface
 - [(Re)Introducing Surface portals - Microsoft Community Hub](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/re-introducing-the-surface-management-and-support-suite/ba-p/4109526)
 - [Surface Management Portal](surface-management-portal.md)
 - [Microsoft Surface Support Portal](surface-support-portal.md)
-
+- [Surface IT Toolkit](surface-it-toolkit.md)

@@ -6,7 +6,7 @@ ms.localizationpriority: medium
 author: coveminer
 ms.author: chauncel
 ms.topic: how-to
-ms.date: 08/02/2024
+ms.date: 08/22/2024
 ms.reviewer: rohitmannan
 manager: frankbu
 appliesto:
@@ -25,9 +25,6 @@ As a single environment for the end-to-end visibility of corporate or user-owned
 Get insights into device compliance, support activity, and warranty coverage. Quickly see the status of each device, which ones are still in warranty or expiring soon, and the status of active support requests with your hardware providers.
 
 When you [enroll Surface devices](/mem/intune/user-help/enroll-windows-10-device) into Microsoft Intune and users sign in for the first time, information from these Surface devices automatically flows into the Surface Management Portal, giving you a single pane of glass for Surface-specific device admin activities.
-
->[!TIP]
->To learn more about accessing the Surface Management Portal or the Microsoft 365-based [Surface Support Portal](surface-support-portal.md),see [Streamline access to Surface Portals for commercial customers](streamline-access-surface-portals.md). 
 
 ## Get started
 
@@ -113,12 +110,20 @@ Newly added to the portal is the ability to create and submit new requests for o
 > [!TIP]
 > Track request status using the current insights and detailed views.
 
-## Try for free
+## Extend functionality with the Surface API Management Service
+
+The Surface API Management Service is an extension of the Surface Management Portal, providing IT admins with direct access to Microsoft coverage and entitlement information for their Surface devices through API endpoints. This service simplifies device and asset management by offering seamless integration, allowing admins or users to quickly retrieve critical warranty and device details. Access requires an active Surface Management Portal account and a customer validation check.
+
+- To learn more, see [Introducing the Surface API Management Service](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/introducing-the-surface-api-management-service/ba-p/4107282)
+
+## Try Surface Management Portal for free
 
 Surface Management Portal is available to customers who use Microsoft Intune admin center and enroll at least one Surface device through Intune. If you’re new to Intune, set up your Intune tenant today by visiting [Try Microsoft Intune for free](/mem/intune/fundamentals/free-trial-sign-up).
 
 ## Learn more
 
-- [What is Microsoft Surface Management Portal?](/mem/intune/fundamentals/surface-management-portal?)
-- [Microsoft Mechanics](https://youtu.be/_MmutkqNudk)
-- [Surface IT Pro Blog post: Surface Management Portal](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/surface-management-portal/ba-p/1419017)
+- [(Re)Introducing Surface portals - Microsoft Community Hub](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/re-introducing-the-surface-management-and-support-suite/ba-p/4109526)
+- [Introducing the Surface API Management Service - Microsoft Community Hub](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/introducing-the-surface-api-management-service/ba-p/4107282)
+- [Surface portals overview](surface-portals.md)
+- [Surface Support Portal](surface-support-portal.md)
+- [Surface IT Toolkit](surface-it-toolkit.md)

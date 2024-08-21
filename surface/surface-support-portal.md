@@ -1,6 +1,6 @@
 ---
 title: Surface Support Portal overview
-description: This article describes how Surface Support Portal provides a centralized solution for Microsoft 365 Business customers to get help with a Surface device issue including requests to replace or repair your device, look up current warranty and protection plans, and register devices for Windows Autopilot enrollment.
+description: Discover how the Surface Support Portal offers Microsoft 365 Business customers a centralized solution for managing Surface devices, including warranty tracking, device repair requests, and Windows Autopilot registration
 ms.service: surface
 ms.localizationpriority: medium
 author: coveminer
@@ -32,7 +32,7 @@ With the Surface Support Portal, you benefit from:
 
 If you already have access, skip ahead to [Create a service request for device replacement](#create-a-service-request-for-device-replacement-or-repair).
 
-### Validate tenant
+### Streamline access to Surface Support Portal
 
 The onboarding process includes steps to validate your organization’s Microsoft tenant. If your organization doesn't already have a tenant, the instructions can help you create one, ensuring seamless access to the Surface Support Portal via the Microsoft 365 Admin Center.
 
@@ -136,6 +136,7 @@ The Surface Support Portal allows IT admins to register devices, facilitating Wi
 
 ## Learn more
 
+- [(Re)Introducing Surface portals - Microsoft Community Hub](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/re-introducing-the-surface-management-and-support-suite/ba-p/4109526)
 - [Surface portals overview](surface-portals.md)
 - [Surface Management Portal](surface-management-portal.md)
 - [Surface IT Toolkit](surface-it-toolkit.md)
