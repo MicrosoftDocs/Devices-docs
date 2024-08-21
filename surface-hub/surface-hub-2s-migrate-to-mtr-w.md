@@ -140,9 +140,9 @@ Choose one of the following options:
 
 ### Download Migration Launcher app via WinGet
 
-#### Install and use WinGet
+#### Install and use WinGet on a second device
 
-1. By default, WinGet is preinstalled on Windows 10 (version 1809 and later) and Windows 11. To confirm you have WinGet installed, open a PowerShell command prompt and enter **winget**.
+1. By default, WinGet is preinstalled on Windows 10 (version 1809 and later) and Windows 11. To confirm you have WinGet installed on your separate PC,  open a PowerShell command prompt and enter **winget**.
 2. Ensure you're running WinGet 1.8 or later.
 3. If WinGet is not present or you need the latest version, follow these instructions: [Install WinGet](/windows/package-manager/winget/#install-winget).
 
