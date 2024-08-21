@@ -17,7 +17,14 @@ ms.collection: essentials-manage
 
 # Surface Support Portal overview
 
-The [Surface Support Portal](https://admin.microsoft.com/AdminPortal#/support/microsoftsurfacesupport) provides IT admins with a self-serve, centralized platform to manage and support Surface devices. From submitting requests for device replacement or repair to managing warranties and registering devices for Windows Autopilot, this portal streamlines support and device management.
+Device support and service has never been easier than with the [Microsoft Surface Support Portal](https://admin.microsoft.com/AdminPortal#/support/microsoftsurfacesupport). The portal provides businesses with faster, more efficient support and device management when experiencing an issue with your Surface device. ​
+
+With the Surface Support Portal, you benefit from:
+
+- Enhanced security, including authentication processes to prevent unauthorized access.
+- Access to qualified Surface technicians via chat or phone.
+- The ability to track your complete audit history of exchanges, repairs, and technical support.
+- Detailed warranty status, entitlements, and eligibility for advanced warranty programs, enabling more efficient device management.
 
 :::image type="content" source="images/surface-service-repair/m365-admincenter-repair-request.png" alt-text="Screenshot of Surface Support Portal.":::
 

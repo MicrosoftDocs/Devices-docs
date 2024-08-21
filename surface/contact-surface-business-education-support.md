@@ -40,7 +40,7 @@ The [Surface Support Portal](surface-support-portal.md) provides a self-serve, c
 
 - [Get support](https://admin.microsoft.com/adminportal/home#/support/microsoftsurfacesupport)
 
-If this is your first time accessing the Microsoft 365 Admin Center, please follow these onboarding steps: [Streamline access to Surface Portals for commercial customers](streamline-access-surface-portals.md).
+If this is your first time accessing the Microsoft 365 Admin Center, please follow these onboarding steps: [Streamline access to Surface Portals for commercial customers](/surface/surface-support-portal?branch=pr-en-us-1986#validate-tenant).
 
 If you experience an issue creating an account and have a timely support need,  refer to our legacy support tool: [Support for business](https://support.serviceshub.microsoft.com/supportforbusiness). For improved and faster online support, we encourage you to transition to the [Surface Support Portal](surface-support-portal.md) on the Microsoft 365 Admin Center as soon as possible.
 
