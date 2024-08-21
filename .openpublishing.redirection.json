@@ -354,10 +354,16 @@
             "source_path":  "surface/enroll-and-configure-surface-devices-with-semm.md",
             "redirect_url": "/surface/surface-it-toolkit-uefi-config",
             "redirect_document_id":  false
-        },        {
+        },        
+        {
             "source_path":  "surface/streamline-access-surface-portals.md",
             "redirect_url": "/surface/surface-support-portal",
             "redirect_document_id":  false
-        }                                                						
+        }, 
+        {
+            "source_path":  "surface/self-serve-warranty-service.md",
+            "redirect_url": "/surface/surface-portals",
+            "redirect_document_id":  false
+        }                                                      						
     ]
 }
