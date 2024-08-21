@@ -101,13 +101,12 @@ The Surface Management Portal gives complete visibility into support activity al
 
 Newly added to the portal is the ability to create and submit new requests for one device or many.
 
-1. Select **Create support request**.
-2. Select the Product (Device) from the drop-down list.
-3. Based on the Product selected, pick the device model.
-4. Select the device or devices based on the serial number (SN).
-5. Provide details and supporting information about the issue.
-6. Provide your contact information and a contact preference.
-7. Review and submit the request.  
+1. Select **New support request**.
+2. Select the Product (Device) from the drop-down list and pick the device model.
+3. Choose + **Select devices**, select devices needing support, and select **Done**. 
+4. Provide details and supporting information about the issue.
+5. Provide your contact information and a contact preference.
+6. Review and submit the request.  
 
    :::image type="content" source="images/surface-management-portal/smp-submit-support-request.png"  alt-text="Submit support request.":::
 
