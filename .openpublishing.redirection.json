@@ -356,7 +356,7 @@
             "redirect_document_id":  false
         },        {
             "source_path":  "surface/streamline-access-surface-portals.md",
-            "redirect_url": "/surface/surface/surface-support-portal",
+            "redirect_url": "/surface/surface-support-portal",
             "redirect_document_id":  false
         }                                                						
     ]
