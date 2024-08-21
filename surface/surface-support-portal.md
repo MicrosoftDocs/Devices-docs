@@ -23,15 +23,15 @@ The [Surface Support Portal](https://admin.microsoft.com/AdminPortal#/support/mi
 
 ## Access Surface Support Portal
 
-If you already have access, skip ahead to [Create a service request for device replacement](#create-a-service-request-for-device-replacement-or-repair) .
+If you already have access, skip ahead to [Create a service request for device replacement](#create-a-service-request-for-device-replacement-or-repair).
 
 ### Validate tenant
 
-The onboarding process validates your organization’s Microsoft tenant. If your organization doesn't have a tenant, this process will guide you in creating one, providing seamless access to the Surface Support Portal via the Microsoft 365 Admin Center.
+The onboarding process includes steps to validate your organization’s Microsoft tenant. If your organization doesn't already have a tenant, the instructions can help you create one, ensuring seamless access to the Surface Support Portal via the Microsoft 365 Admin Center.
 
 1. **Select this [onboarding page](https://signup.microsoft.com/createaccount?culture=en-us&country=us&ru=https%3A%2F%2Fadmin.microsoft.com%2FAdminportal%2FHome%3Fmcapiorgid%3D%7Bmcapiorgid%7D%26accountid%3D%7Baccountid%7D%26&origin=servicesHub&scenario=skiplba)** to validate your organization’s email and domain. If your organization is already registered with Microsoft, sign in with your credentials.
 
-   - If your organization doesn't have a Microsoft tenant, proceed to **Step 2**.
+   - If your organization doesn't have a Microsoft tenant, skip to **Step 2**.
 
     :::image type="content" source="images/portal-signin.png" alt-text="Screenshot of sign in page.":::
 
