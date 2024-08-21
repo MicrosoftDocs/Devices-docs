@@ -1,6 +1,6 @@
 ---
 title: Advanced UEFI security features for Surface Pro 3 (Surface)
-description: This article describes how to install and configure the v3.11.760.0 UEFI update to enable more security options for Surface Pro 3 devices.
+description: Learn how to enhance security on Surface Pro 3 with the v3.11.760.0 UEFI update. This guide provides step-by-step instructions to install, configure, and automate advanced security features, offering greater control over device security settings.
 ms.assetid: 90F790C0-E5FC-4482-AD71-60589E3C9C93
 manager: frankbu
 ms.localizationpriority: medium

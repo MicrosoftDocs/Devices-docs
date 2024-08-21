@@ -1,6 +1,6 @@
 ---
 title: Surface Asset Tag Tool
-description: This article explains how to use the Surface Asset Tag Tool.
+description: Learn how to use the Surface Asset Tag Tool, a command-line utility for viewing, assigning, and modifying asset tags on Surface devices. This guide covers system requirements, usage instructions, and command examples for effective asset management
 ms.service: surface
 ms.localizationpriority: medium
 author: coveminer

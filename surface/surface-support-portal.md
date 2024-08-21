@@ -17,7 +17,7 @@ ms.collection: essentials-manage
 
 # Surface Support Portal overview
 
-The [Microsoft 365 Surface Support Portal](https://admin.microsoft.com/AdminPortal#/support/microsoftsurfacesupport) provides a self-serve, centralized solution to get help if you're experiencing an issue with your Surface device. You can also submit requests to replace or repair your device, look up current warranty and protection plans, and register devices for Windows Autopilot enrollment.
+The [Surface Support Portal](https://admin.microsoft.com/AdminPortal#/support/microsoftsurfacesupport) provides a self-serve, centralized solution to get help if you're experiencing an issue with your Surface device. You can also submit requests to replace or repair your device, look up current warranty and protection plans, and register devices for Windows Autopilot enrollment.
 
 :::image type="content" source="images/surface-service-repair/m365-admincenter-repair-request.png" alt-text="Screenshot of Surface Support Portal.":::
 
