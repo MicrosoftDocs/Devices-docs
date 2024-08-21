@@ -17,11 +17,14 @@ ms.collection: essentials-manage
 
 # Surface portals overview
 
-Surface portals provide a centralized solution for IT admins to manage and monitor Surface devices at scale:
+Surface portals offer IT admins a centralized solution for managing and monitoring Surface devices across an organization. These tools help streamline support and warranty processes, making device management more efficient.
 
-- Centralize management of device warranties and support requests. Initiate single or bulk warranty claims.
-- Gain insights into your warranty status and claims—in a single view.
-- Quickly view the health of all your Surface devices and get notified about any unusual device status, which can help reduce IT costs.
+With Surface portals, you can:
+
+- Centralize management of device warranties and support requests, including bulk claims.
+- Gain a comprehensive view of warranty status and claims.
+- Monitor the health of all Surface devices, receiving notifications about any unusual statuses to help reduce IT costs.
+- Access a unified interface for Surface device management tasks.
 
 ## Choose your portal
 

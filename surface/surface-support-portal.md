@@ -17,14 +17,14 @@ ms.collection: essentials-manage
 
 # Surface Support Portal overview
 
-Device support and service has never been easier than with the [Microsoft Surface Support Portal](https://admin.microsoft.com/AdminPortal#/support/microsoftsurfacesupport). The portal provides businesses with faster, more efficient support and device management when experiencing an issue with your Surface device. ​
+The [Microsoft Surface Support Portal](https://admin.microsoft.com/AdminPortal#/support/microsoftsurfacesupport) simplifies device support and service management for businesses. This portal offers faster, more efficient support for Surface devices, ensuring that any issues are promptly addressed.
 
 With the Surface Support Portal, you benefit from:
 
-- Enhanced security, including authentication processes to prevent unauthorized access.
+- Enhanced security with authentication processes to prevent unauthorized access.
 - Access to qualified Surface technicians via chat or phone.
 - The ability to track your complete audit history of exchanges, repairs, and technical support.
-- Detailed warranty status, entitlements, and eligibility for advanced warranty programs, enabling more efficient device management.
+- Detailed warranty status, entitlements, and eligibility for advanced warranty programs.
 
 :::image type="content" source="images/surface-service-repair/m365-admincenter-repair-request.png" alt-text="Screenshot of Surface Support Portal.":::
 
@@ -74,18 +74,21 @@ The onboarding process includes steps to validate your organization’s Microsof
 - [Register devices](#register-devices)
 - [View coverage and manage warranty requests](#manage-warranty)
 
-## Create a service request for device replacement or repair
+## Modernized Surface support
+
+The Surface Support Portal offers a streamlined and efficient way to manage your Surface devices. It provides direct access to the tools and resources you need for creating and tracking service requests, registering devices, and managing warranty coverage—all in one convenient location.
+
+- [Create a support request](#create-a-support-request)
+- [Create and track service requests for device replacement or repair](#create-and-track-service-requests-for-device-replacement-or-repair)
+- [Register Surface devices](#register-surface-devices)
+- [Manage warranty coverage​](#manage-warranty-coverage)
+
+## Create a support request
+
+Easily submit a support request through the Surface Support Portal by providing detailed information about the issue you’re facing. The more specific your description, the faster we can help resolve your problem.
 
 > [!TIP]
 > [See the demo tutorial for Surface Support Portal](https://www.microsoft.com/videoplayer/embed/RE4Y55A)
-
-1. Select **Create service request** and follow the instructions. Provide a detailed description of the issue with your device or accessory.
-
-    :::image type="content" source="images/service-request.png" alt-text="Screenshot of entering a service request for device replacement or repair.":::
-
-2. Select **Submit** to send your service request.
-
-## Create a support request
 
 1. Select **Create support request** and describe the issue you’re experiencing. 
 
@@ -95,9 +98,19 @@ The onboarding process includes steps to validate your organization’s Microsof
 
 Your request will be listed under "Support requests," where you can track the status and manage any open or closed requests.
 
-## Register devices
+## Create and track service requests for device replacement or repair
 
-The Surface Support Portal allows IT admins to register devices, facilitating Windows Autopilot enrollment and seamless integration into your organization’s IT infrastructure.
+Quickly address hardware issues by creating a service request for device replacement or repair. Additionally, you can access a complete history of your support and repair requests, giving you a comprehensive view of your device’s service history.
+
+1. Select **Create service request** and follow the instructions. Provide a detailed description of the issue with your device or accessory.
+
+    :::image type="content" source="images/service-request.png" alt-text="Screenshot of entering a service request for device replacement or repair.":::
+
+2. Select **Submit** to send your service request.
+
+## Register Surface devices
+
+Register your Surface devices through the Surface Support Portal to associate them with your organization’s tenant. This enables you to manage devices with Windows Autopilot, ensuring seamless integration into your IT infrastructure and simplifying device management.
 
 1. **Begin new device registration:**
    - Select **Register devices** to start a new registration or request support.
@@ -123,9 +136,11 @@ The Surface Support Portal allows IT admins to register devices, facilitating Wi
    - Verify all details are correct and select **Request registration**.
    - Your registered devices are listed under **Date & Time,** **Request number,** and **State** for tracking and management.
 
-   :::image type="content" source="images/finalize-registration.png" alt-text="Screenshot of submitting registration request.":::
+    :::image type="content" source="images/finalize-registration.png" alt-text="Screenshot of submitting registration request.":::
 
-## Manage warranty
+## Manage warranty coverage​
+
+Easily manage your Surface device warranties through the Surface Support Portal. You can view the coverage status of each device, track warranty timelines, and monitor the status of your service orders.
 
 - Select **Coverage** to view devices covered under warranty, the time remaining for each device under warranty, and related details.
 - Select **Warranty & service** to view the status of service orders.

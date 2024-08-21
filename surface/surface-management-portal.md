@@ -16,15 +16,14 @@ ms.collection: essentials-manage
 ---
 # Surface Management Portal overview
 
-Built into Microsoft Intune admin center, the Surface Management Portal provides a centralized solution to self-serve, manage, and monitor Surface devices at scale.
+The Surface Management Portal, integrated into the Microsoft Intune admin center, provides a centralized platform for managing and monitoring Surface devices at scale. It offers end-to-end visibility, allowing you to address issues before they escalate.
 
-## Introduction
+With the Surface Management Portal, you can:
 
-As a single environment for the end-to-end visibility of corporate or user-owned Surface devices, the Surface Management Portal lets you quickly see any issues that need prompt attention before they hit your help desk.
-
-Get insights into device compliance, support activity, and warranty coverage. Quickly see the status of each device, which ones are still in warranty or expiring soon, and the status of active support requests with your hardware providers.
-
-When you [enroll Surface devices](/mem/intune/user-help/enroll-windows-10-device) into Microsoft Intune and users sign in for the first time, information from these Surface devices automatically flows into the Surface Management Portal, giving you a single pane of glass for Surface-specific device admin activities.
+- Gain insights into device compliance, support activity, and warranty coverage.
+- Monitor the status of each device, including warranty expirations and active support requests.
+- Centralize Surface-specific device administration in a single environment.
+- Automatically access comprehensive info from your Intune-enrolled Surface devices. When users sign in for the first time, information from these Surface devices automatically flows into the Surface Management Portal, giving you a single pane of glass for Surface-specific device admin activities.
 
 ## Get started
 
