@@ -23,7 +23,7 @@ Surface portals provide a centralized solution for IT admins to manage and monit
 - Gain insights into your warranty status and claims—in a single view.
 - Quickly view the health of all your Surface devices and get notified about any unusual device status, which can help reduce IT costs.
 
-Choose the option that’s right for you.
+## Table 1. Choose a portal
 
 | Solution                                                                                                                              | Best for                                                                          | Requirements                                                                                             | Notes                                             |
 | ----------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | ------------------------------------------------- |
@@ -56,16 +56,18 @@ The Surface Support Portal allows you to:
 
 When you add a Microsoft 365 tenant to the tool, Admin roles are granted more permissions, as shown in Table 1.
 
-### Table 1. Microsoft Entra roles for Surface portals
+### Table 2. Microsoft Entra roles for Surface portals
 
 The following admin roles apply to the Surface Management Portal and the Surface Support Portal. 
 
 | Role                                      | Permissions                                                                                                                                                                                 |
 | ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Microsoft Hardware Warranty Administrator | View all service requests<br>Create/manage device replacement requests<br>Add/edit/delete ship-to addresses<br>Read-only access to the Microsoft 365 tenant outside of the Surface Support Portal |
-| Microsoft Hardware Warranty Specialist    | View own service requests<br>Create/manage device replacement requests<br>Read-only access to the Microsoft 365 tenant outside of the Surface Support Portal                                        |
+| Microsoft Hardware Warranty Administrator<sup>1</sup> | View all service requests<br>Create/manage device replacement requests<br>Add/edit/delete ship-to addresses<br>Read-only access to the Microsoft 365 tenant outside of the Surface Support Portal |
+| Microsoft Hardware Warranty Specialist<sup>1</sup>     | View own service requests<br>Create/manage device replacement requests<br>Read-only access to the Microsoft 365 tenant outside of the Surface Support Portal                                        |
 | Service Support Admin                     | View service requests<br>Create/manage device replacement requests                                                                                                                          |
 | Billing Admin                             | View service requests<br>Create/manage device replacement requests<br>Add/edit/delete ship-to addresses                                                                                   |
+
+1. *Requires **Read Only Operator** role for access*.
 
 ## Learn more
 

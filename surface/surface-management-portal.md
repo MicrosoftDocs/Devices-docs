@@ -45,22 +45,6 @@ When you [enroll Surface devices](/mem/intune/user-help/enroll-windows-10-device
 
 <a name='azure-ad-roles-for-surface-management-portal'></a>
 
-## Microsoft Entra roles for Surface Management Portal
-
-
-| Role                                      | Permissions                                                                                                                                                                                 |
-| ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Microsoft Hardware Warranty Administrator<sup>1</sup> | View all service requests<br>Create/manage device replacement requests<br>Add/edit/delete ship-to addresses<br>Read-only access to the Microsoft 365 tenant outside of the Surface Support Portal |
-| Microsoft Hardware Warranty Specialist<sup>1</sup>     | View own service requests<br>Create/manage device replacement requests<br>Read-only access to the Microsoft 365 tenant outside of the Surface Support Portal                                        |
-| Global Admin                              | View service requests<br>Create/manage device replacement requests<br>Add/edit/delete ship-to addresses<br>Create/manage users and their roles                                            |
-| Service Support Admin                     | View service requests<br>Create/manage device replacement requests                                                                                                                          |
-| Billing Admin                             | View service requests<br>Create/manage device replacement requests<br>Add/edit/delete ship-to addresses                                                                                   |
-
-1. *Requires **Read Only Operator** role for access*.
-
-> [!IMPORTANT]
-> Microsoft recommends that you use roles with the fewest permissions. This helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
-
 ## Monitor Surface devices
 
 Select **Monitor** to display insights for all your Surface devices, including:
