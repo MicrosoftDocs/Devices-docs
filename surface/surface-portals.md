@@ -23,7 +23,7 @@ Surface portals provide a centralized solution for IT admins to manage and monit
 - Gain insights into your warranty status and claims—in a single view.
 - Quickly view the health of all your Surface devices and get notified about any unusual device status, which can help reduce IT costs.
 
-## Table 1. Choose a portal
+## Choose your portal
 
 | Solution                                                                                                                              | Best for                                                                          | Requirements                                                                                             | Notes                                             |
 | ----------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | ------------------------------------------------- |
@@ -56,9 +56,9 @@ The Surface Support Portal allows you to:
 
 When you add a Microsoft 365 tenant to the tool, Admin roles are granted more permissions, as shown in Table 1.
 
-### Table 2. Microsoft Entra roles for Surface portals
+### Microsoft Entra roles for Surface portals
 
-The following admin roles apply to the Surface Management Portal and the Surface Support Portal. 
+The following admin roles apply to the Surface Management Portal and the Surface Support Portal.
 
 | Role                                      | Permissions                                                                                                                                                                                 |
 | ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
