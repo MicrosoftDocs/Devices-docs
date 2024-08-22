@@ -16,7 +16,7 @@ ms.collection: essentials-manage
 ---
 # Surface Management Portal overview
 
-The Surface Management Portal, integrated into the Microsoft Intune admin center, provides a centralized platform for managing and monitoring Surface devices at scale. It offers end-to-end visibility, allowing you to address issues before they escalate.
+The Surface Management Portal, integrated into the Microsoft Intune admin center, provides a centralized platform to manage and monitor Surface devices at scale. It offers end-to-end visibility, allowing you to address issues before they escalate.
 
 With the Surface Management Portal, you can:
 
@@ -38,7 +38,7 @@ With the Surface Management Portal, you can:
 
 ### If you have an Intune subscription:
 
-1. Sign in to [Microsoft Intune admin center](https://endpoint.microsoft.com), select **All services** > **Surface Management Portal**.
+- Sign in to [Microsoft Intune admin center](https://endpoint.microsoft.com), select **All services** > **Surface Management Portal**.
 
    :::image type="content" source="images/surface-management-portal/surface-management-portal-start.png" lightbox="/surface/images/surface-management-portal/surface-management-portal-start.png" alt-text="Start Surface Management Portal":::
 

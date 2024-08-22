@@ -21,9 +21,9 @@ Surface portals offer IT admins a centralized solution for managing and monitori
 
 With Surface portals, you can:
 
-- Centralize management of device warranties and support requests, including bulk claims.
-- Gain a comprehensive view of warranty status and claims.
-- Monitor the health of all Surface devices, receiving notifications about any unusual statuses to help reduce IT costs.
+- Centralize management of device warranties and support requests. Initiate single or bulk warranty claims.
+- Gain insights into your warranty status and claims—in a single view.
+- Monitor the health of all your Surface devices and get notifications about any unusual device status, which can help reduce IT costs.
 - Access a unified interface for Surface device management tasks.
 
 ## Choose your portal
@@ -57,7 +57,7 @@ The Surface Support Portal allows you to:
 - Select one or multiple devices to create service requests.
 - Track the real-time status of device repairs and transit times.
 
-When you add a Microsoft 365 tenant to the tool, Admin roles are granted more permissions, as shown in Table 1.
+When you add a Microsoft 365 tenant to the tool, Admin roles are granted more permissions, as shown in the following table.
 
 ### Microsoft Entra roles for Surface portals
 
