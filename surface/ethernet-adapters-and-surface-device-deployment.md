@@ -50,7 +50,6 @@ To PXE boot using Surface Thunderbolt 4 Dock with a supported Surface device, yo
 
 To PXE boot from the network or boot from connected USB storage, you must instruct the Surface device to boot from an alternate boot device. You can boot from an alternate boot device during the boot-up process or alter the boot order in the system firmware to prioritize a boot device.
 
-
 **To boot from an alternate boot device:**
 
 1. Ensure the Surface device is powered off.
@@ -69,7 +68,7 @@ For Windows 10, version 1511 and later, including the Windows Assessment and Dep
 
 Another consideration for administrators performing Windows deployment over the network is identifying computers when using the same Ethernet adapter to deploy to more than one computer. A common identifier deployment technologies use is the Media Access Control (MAC) address associated with each Ethernet adapter. However, when you use the same Ethernet adapter to deploy to multiple computers, you can only use a deployment technology that inspects MAC addresses if there's no way to differentiate the MAC address of the removable adapter when used on different computers.
 
-The simplest solution to avoid MAC address conflicts is to provide a dedicated removable Ethernet adapter for each Surface device. This solution can make sense in many scenarios where the Ethernet adapter or the extra functionality of the docking station will be used regularly. However, not all scenarios call for the extra connectivity of a docking station or support for wired networks.
+The simplest solution to avoid MAC address conflicts is to provide a dedicated removable Ethernet adapter for each Surface device. This solution can make sense in many scenarios where the Ethernet adapter or the extra functionality of the docking station is used regularly. However, not all scenarios call for the extra connectivity of a docking station or support for wired networks.
 
 Another potential solution to avoid conflict when adapters are shared is to use the [Microsoft Deployment Toolkit (MDT)](/mem/configmgr/mdt) to perform deployment to Surface devices. MDT doesn't use the MAC address to identify individual computers and thus isn't subject to this limitation. However, MDT does use Windows Deployment Services to provide PXE boot functionality and is subject to the limitations regarding prestaged clients, as described later in this section.
 
