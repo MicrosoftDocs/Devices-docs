@@ -1,6 +1,6 @@
 ---
-title: Ethernet adapters and Surface deployment (Surface)
-description: This article provides guidance and answers to help you perform a network deployment to Surface devices.
+title: Ethernet adapters and Surface deployment
+description: Learn how to perform network deployment for Surface devices, select compatible Ethernet adapters, and manage MAC address conflicts for efficient system administration.
 ms.assetid: 5273C59E-6039-4E50-96B3-426BB38A64C0
 manager: frankbu
 ms.localizationpriority: medium
@@ -8,7 +8,7 @@ ms.service: surface
 author: coveminer
 ms.author: chauncel
 ms.topic: how-to
-ms.date: 04/06/2023
+ms.date: 08/22/2024
 appliesto:
 - Windows 10
 - Windows 11
@@ -42,25 +42,28 @@ The following Ethernet devices are supported for network boot with Surface devic
 
 Third-party Ethernet adapters are also supported for network deployment, although they don't support PXE boot. To use a third-party Ethernet adapter, you must load the drivers into the deployment boot image, and you must launch that boot image from a separate storage device, such as USB storage.
 
-To PXE boot using Surface Thunderbolt 4 Dock with a supported Surface device, you may need to first install the latest driver and firmware on the Surface device:  
+To PXE boot using Surface Thunderbolt 4 Dock with a supported Surface device, you may need to first install the latest drivers and firmware on the Surface device:  
 
 - [Download drivers and firmware for Surface](https://support.microsoft.com/surface/download-drivers-and-firmware-for-surface-09bb2e09-2a4b-cb69-0951-078a7739e120).  
 
 ## Boot Surface devices from the network
 
-To boot from the network or a connected USB stick, you must instruct the Surface device to boot from an alternate boot device. You can alter the boot order in the system firmware to prioritize USB boot devices or boot from an alternate boot device during the boot-up process.
+To PXE boot from the network or boot from connected USB storage, you must instruct the Surface device to boot from an alternate boot device. You can boot from an alternate boot device during the boot-up process or alter the boot order in the system firmware to prioritize a boot device.
+
 
 **To boot from an alternate boot device:**
 
 1. Ensure the Surface device is powered off.
 2. Press and hold the **Volume Down** button.
 3. Press and release the **Power** button.
-4. After the system begins to boot from the USB stick or Ethernet adapter, release the **Volume Down** button.
+4. After the system begins to boot from the Ethernet adapter or USB storage, release the **Volume Down** button.
+
+Or you can PXE boot immediately by booting into Surface UEFI and swiping left on the **PXE Network** option in the UEFI Boot configuration page.  For more information about this method, see [UEFI Boot configuration page](/surface/manage-surface-uefi-settings#uefi-boot-configuration-page). 
 
 >[!NOTE]
 >In addition to an Ethernet adapter, a keyboard must be connected to the Surface device to enter the preinstallation environment and navigate the deployment wizard.
 
-For Windows 10, version 1511 and later – including the Windows Assessment and Deployment Kit (Windows ADK) for Windows 10, version 1511 – the drivers for Microsoft Surface Ethernet Adapters are present by default. If you're using a deployment solution that uses Windows Preinstallation Environment (WinPE), like the Microsoft Deployment Toolkit, and booting from the network with PXE, ensure that your deployment solution uses the latest version of the Windows ADK.
+For Windows 10, version 1511 and later, including the Windows Assessment and Deployment Kit (Windows ADK) for Windows 10 version 1511, the drivers for Microsoft Surface Ethernet Adapters are present by default. If you're using a deployment solution that uses Windows Preinstallation Environment (WinPE), like the Microsoft Deployment Toolkit, and booting from the network with PXE, ensure that your deployment solution uses the latest version of the Windows ADK.
 
 ## <a href="" id="manage-mac-addresses"></a>Manage MAC addresses with removable Ethernet adapters
 
@@ -83,4 +86,4 @@ When deploying with WDS, the MAC address only identifies a computer when the dep
 
 Alternatively, you can configure WDS to respond to unknown clients that don't require definition by either MAC address or System UUID. Select the **Respond to all client computers (known and unknown)** option on the [**PXE Response** tab](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc732360(v=ws.11)) in **Windows Deployment Server Properties**.
 
-The potential for conflicts with shared Ethernet adapters is higher with Configuration Manager. Where WDS only uses MAC addresses to define individual systems, Configuration Manager uses the MAC address to determine separate systems whenever deploying to new or unknown computers. This can result in improperly configured devices or even the inability to deploy multiple systems with a shared Ethernet adapter. Several potential solutions for this situation are described in detail in [How to Use The Same External Ethernet Adapter For Multiple SCCM OSD](https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/how-to-use-the-same-external-ethernet-adapter-for-multiple-sccm/ba-p/257374).
+The potential for conflicts with shared Ethernet adapters is higher with Configuration Manager. While WDS only uses MAC addresses to define individual systems, Configuration Manager uses the MAC address to determine separate systems whenever deploying to new or unknown computers. This can result in improperly configured devices or even the inability to deploy multiple systems with a shared Ethernet adapter. Several potential solutions for this situation are described in detail in [How to Use The Same External Ethernet Adapter For Multiple SCCM OSD](https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/how-to-use-the-same-external-ethernet-adapter-for-multiple-sccm/ba-p/257374).
