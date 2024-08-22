@@ -32,6 +32,7 @@ The following Ethernet devices are supported for network boot with Surface devic
 
 - Surface Dock 2
 - Surface Dock
+- Surface Thunderbolt 4 Dock
 - Surface USB-C to Ethernet and USB 3.0 Adapter
 - Surface USB 3.0 to Gigabit Ethernet Adapter
 - Microsoft USB-C Travel Hub
@@ -39,7 +40,11 @@ The following Ethernet devices are supported for network boot with Surface devic
 - Docking Station for Surface Pro 3 
 - Docking Station for Surface Pro and Surface Pro 2
 
-Third-party Ethernet adapters are also supported for network deployment, although they don't support PXE boot. To use a third-party Ethernet adapter, you must load the drivers into the deployment boot image, and you must launch that boot image from a separate storage device, such as a USB stick.
+Third-party Ethernet adapters are also supported for network deployment, although they don't support PXE boot. To use a third-party Ethernet adapter, you must load the drivers into the deployment boot image, and you must launch that boot image from a separate storage device, such as USB storage.
+
+To PXE boot using Surface Thunderbolt 4 Dock with a supported Surface device, you may need to first install the latest driver and firmware on the Surface device:  
+
+- [Download drivers and firmware for Surface](https://support.microsoft.com/surface/download-drivers-and-firmware-for-surface-09bb2e09-2a4b-cb69-0951-078a7739e120).  
 
 ## Boot Surface devices from the network
 
