@@ -33,15 +33,31 @@ With Surface portals, you can:
 | [Surface Management Portal](#surface-management-portal)                          | Customers who already use Microsoft Intune to manage multiple devices at scale | - [Microsoft Intune Admin Center](https://endpoint.microsoft.com/)<br>- [Intune subscription](https://www.microsoft.com/security/business/microsoft-intune-pricing)     | -  Manage warranty & claims <br>- Manage support requests<br>- Get Device insights & Device Health <br><br> - **Automatic enrollment:** Surface devices are automatically enrolled       |
 | [Surface Support Portal](#surface-support-portal) | Customers looking to streamline support for their employees & users            | - [Microsoft 365 Admin Center](https://admin.microsoft.com/AdminPortal/)<br>- [Microsoft 365 subscription](/microsoft-365/commerce/try-or-buy-microsoft-365) | - Manage warranty & claims <br>- Manage support requests <br><br>- **Manual enrollment:** Customers need to manually add Surface devices 
 
+### Compare portals
+
+| Portal                         | Surface Management Portal                          | Surface Support Portal                               |
+|-------------------------------------|----------------------------------------------------------|----------------------------------------------------------|
+| **Platform requirements**           | Microsoft Intune admin center                            | Microsoft 365 admin center                               |
+| **Subscription**                    | E3/E5 Subscription                                       | M365 Basic Business Subscription                         |
+| **Device Registration**             | Automatic device enrollment through Autopilot/Intune     | Submit request to register devices with your organization |
+| **Roles/Access**                    | Global Admin, Global Reader, Hardware Admin, Hardware Specialist | Global Admin, Billing Admin, Service Support Admin, Hardware Admin, Hardware Specialist |
+| **Device Tech and Administrative Support** | Yes                                                  | Yes                                                      |
+| **Device Repair and exchange**      | Yes                                                      | Yes                                                      |
+| **Device Warranty Status**          | Yes                                                      | Yes                                                      |
+| **Device Insights**                 | Health, Performance, Encryption, Compliance, and Hardware usage | None                                                     |
+| **Windows 11 eligibility status**   | Yes                                                      | No                                                       |
+| **Availability to all countries**   | Yes                                                      | Yes                                                      |
+| **Bulk Device Replacement**         | Yes                                                      | Yes                                                      |
+| **API Integration availability**    | Yes                                                      | No                                                       |
+
+
 ## Surface Management Portal
 
 Commercial customers can use the [Surface Management Portal](surface-management-portal.md) to self-serve their Surface devices’ service requests within the Microsoft Intune admin center.
 
-1. Sign in to the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431) and go to **All services** > **Surface Management Portal**.
-2. To submit a device repair or replacement request, select **Create service request**. For eligible devices and regional availability, see [Microsoft in-region repair](microsoft-in-region-same-unit-repair.md).
+- Sign in to the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431) and go to **All services** > **Surface Management Portal**.
+- For full details, see [Surface Management Portal](surface-management-portal.md)
 
-    :::image type="content" source="images/surface-service-repair/smp-repair-request.png" alt-text="Screenshot of Surface Management Portal showing New repair request feature.":::
-3. 
 
 ## Surface Support Portal
 
@@ -58,11 +74,9 @@ The Surface Support Portal allows you to:
 - Select one or multiple devices to create service requests.
 - Track the real-time status of device repairs and transit times.
 
+For full details, see [Microsoft Surface Support Portal overview](surface-support-portal.md)
+
 When you add a Microsoft 365 tenant to the tool, Admin roles are granted more permissions, as shown in the following table.
-
-### Compare portals
-
-
 
 
 ### Microsoft Entra roles for Surface portals
