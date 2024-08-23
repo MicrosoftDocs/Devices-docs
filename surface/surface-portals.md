@@ -39,21 +39,23 @@ With Surface portals, you can:
 |-------------------------------------|----------------------------------------------------------|----------------------------------------------------------|
 | **Platform requirements**           | Microsoft Intune admin center                            | Microsoft 365 admin center                               |
 | **Subscription**                    | E3/E5 Subscription                                       | M365 Basic Business Subscription                         |
-| **Device Registration**             | Automatic device enrollment through Autopilot/Intune     | Submit request to register devices with your organization |
+| **Device registration**             | Automatic device enrollment through Autopilot/Intune     | Submit request to register devices with your organization |
 | **Roles/Access**                    | Global Admin, Global Reader, Hardware Admin, Hardware Specialist | Global Admin, Billing Admin, Service Support Admin, Hardware Admin, Hardware Specialist |
-| **Device Tech and Administrative Support** | Yes                                                  | Yes                                                      |
-| **Device Repair and exchange**      | Yes                                                      | Yes                                                      |
-| **Device Warranty Status**          | Yes                                                      | Yes                                                      |
-| **Device Insights**                 | Health, Performance, Encryption, Compliance, and Hardware usage | None                                                     |
+| **Device tech and administrative Support** | Yes                                                  | Yes                                                      |
+| **Device repair and exchange**      | Yes                                                      | Yes                                                      |
+| **Device warranty status**          | Yes                                                      | Yes                                                      |
+| **Device insights**                 | Health, Performance, Encryption, Compliance, and Hardware usage | None                                                     |
 | **Windows 11 eligibility status**   | Yes                                                      | No                                                       |
-| **Availability to all countries**   | Yes                                                      | Yes                                                      |
-| **Bulk Device Replacement**         | Yes                                                      | Yes                                                      |
-| **API Integration availability**    | Yes                                                      | No                                                       |
+| **Availability to all regions where Surface is sold**   | Yes                                                      | Yes                                                      |
+| **Bulk device replacement**         | Yes                                                      | Yes                                                      |
+| **API integration availability**    | Yes                                                      | No                                                       |
 
 
 ## Surface Management Portal
 
 Commercial customers can use the [Surface Management Portal](surface-management-portal.md) to self-serve their Surface devices’ service requests within the Microsoft Intune admin center.
+
+:::image type="content" source="images/surface-management-portal.png" alt-text="Screenshot of Microsoft Surface Management Portal.":::
 
 - Sign in to the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431) and go to **All services** > **Surface Management Portal**.
 - For full details, see [Surface Management Portal](surface-management-portal.md)
