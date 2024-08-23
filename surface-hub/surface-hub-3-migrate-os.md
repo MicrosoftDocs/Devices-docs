@@ -34,4 +34,4 @@ This article describes how to convert the operating system to Windows 11 Pro or 
 
 ## Install Surface Hub 3 drivers and firmware
 
-To ensure that your Surface Hub 3's hardware is fully usable and up-to-date, download and install [drivers and firmware for Windows 11 Pro and Enterprise](https://www.microsoft.com/download/details.aspx?id=101974). Then, reboot the device. Keep the Surface turned on for an hour, then reboot it again. You aren't prompted for the second reboot. This pause and extra reboot ensures that the firmware is fully updated.
+To ensure that your Surface Hub 3's hardware is fully usable and up-to-date, download and install [drivers and firmware for Windows 11 Pro and Enterprise on Surface Hub 2S and Surface Hub 3](https://www.microsoft.com/download/details.aspx?id=101974). Then, reboot the device. Keep the Surface turned on for an hour, then reboot it again. You aren't prompted for the second reboot. This pause and extra reboot ensures that the firmware is fully updated.
