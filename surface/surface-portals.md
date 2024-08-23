@@ -26,17 +26,11 @@ With Surface portals, you can:
 - Monitor the health of all your Surface devices and get notifications about any unusual device status, which can help reduce IT costs.
 - Access a unified interface for Surface device management tasks.
 
-## Choose your portal
-
-| Solution                                                                                                                              | Best for                                                                          | Requirements                                                                                             | Notes                                             |
-| ----------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | ------------------------------------------------- |
-| [Surface Management Portal](#surface-management-portal)                          | Customers who already use Microsoft Intune to manage multiple devices at scale | - [Microsoft Intune Admin Center](https://endpoint.microsoft.com/)<br>- [Intune subscription](https://www.microsoft.com/security/business/microsoft-intune-pricing)     | -  Manage warranty & claims <br>- Manage support requests<br>- Get Device insights & Device Health <br><br> - **Automatic enrollment:** Surface devices are automatically enrolled       |
-| [Surface Support Portal](#surface-support-portal) | Customers looking to streamline support for their employees & users            | - [Microsoft 365 Admin Center](https://admin.microsoft.com/AdminPortal/)<br>- [Microsoft 365 subscription](/microsoft-365/commerce/try-or-buy-microsoft-365) | - Manage warranty & claims <br>- Manage support requests <br><br>- **Manual enrollment:** Customers need to manually add Surface devices 
-
-### Compare portals
+## Compare portals
 
 | Portal                         | Surface Management Portal                          | Surface Support Portal                               |
 |-------------------------------------|----------------------------------------------------------|----------------------------------------------------------|
+| **Designed for**                    | Customers who already use Microsoft Intune to manage multiple devices at scale                           | Microsoft 365 customers looking to streamline support for their employees & users                                 |
 | **Platform requirements**           | Microsoft Intune admin center                            | Microsoft 365 admin center                               |
 | **Subscription**                    | E3/E5 Subscription                                       | M365 Basic Business Subscription                         |
 | **Device registration**             | Automatic device enrollment through Autopilot/Intune     | Submit request to register devices with your organization |
@@ -59,7 +53,6 @@ Commercial customers can use the [Surface Management Portal](surface-management-
 
 - Sign in to the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431) and go to **All services** > **Surface Management Portal**.
 - For full details, see [Surface Management Portal](surface-management-portal.md)
-
 
 ## Surface Support Portal
 
