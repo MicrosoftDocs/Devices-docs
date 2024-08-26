@@ -359,6 +359,16 @@
             "source_path":  "surface-hub/install-manage-surface-hub-3-pack.md",
             "redirect_url": "/surface-hub/install-manage-surface-hub-3-compute-cartridge",
             "redirect_document_id":  false
-        }                                              						
+        },
+        {
+            "source_path":  "surface-hub/surface-hub-3-pack-faq.md",
+            "redirect_url": "/surface-hub/surface-hub-3-compute-cartridge-faq",
+            "redirect_document_id":  false
+        },
+        {
+            "source_path":  "surface-hub/surface-hub-3-pack-techspecs.md",
+            "redirect_url": "/surface-hub/surface-hub-3-compute-cartridge-techspecs",
+            "redirect_document_id":  false
+        }                                                    						
     ]
 }
