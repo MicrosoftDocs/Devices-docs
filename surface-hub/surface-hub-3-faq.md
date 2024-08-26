@@ -75,7 +75,7 @@ To order the Surface Hub 3 Compute Cartridge (formerly Surface Hub 3 Pack), see 
 
 ## Learn more
 
-- [Surface Hub 3 Compute Cartridge FAQ](surface-hub-3-pack-faq.md)
+- [Surface Hub 3 Compute Cartridge FAQ](surface-hub-3-compute-cartridge-faq.md)
 - [Get started with Surface Hub running Microsoft Teams Rooms on Windows](surface-hub-3-get-started.md)
 - [First-time setup for Surface Hub running Microsoft Teams Rooms on Windows](first-run-program-surface-hub-3.md)
 - [Security best practices for Surface Hubs running Microsoft Teams Rooms on Windows](surface-hub-3-security.md)

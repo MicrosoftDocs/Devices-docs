@@ -145,4 +145,4 @@ The latest Windows Bloom wallpaper is available for your Surface Hub 3 device or
 
 ### Learn more
 
-- [Surface Hub 3 Compute Cartridge FAQ](surface-hub-3-pack-faq.md)
+- [Surface Hub 3 Compute Cartridge FAQ](surface-hub-3-compute-cartridge-faq.md)

@@ -14,7 +14,7 @@
            - name: Surface Hub with Teams Rooms on Windows FAQ
              href: surface-hub-3-faq.md  
            - name: Surface Hub 3 Compute Cartridge FAQ
-             href: surface-hub-3-pack-faq.md 
+             href: surface-hub-3-compute-cartridge-faq.md 
            - name: Driver & firmware lifecycle
              href: surface-hub-driver-firmware-accessories-lifecycle.md
            - name: Deploy Surface Hub with Windows Autopilot & Teams Rooms Auto-login
@@ -243,7 +243,7 @@
                 - name: Surface Hub 3 tech specs
                   href: surface-hub-3-techspecs.md
                 - name: Surface Hub 3 Compute Cartridge tech specs
-                  href: surface-hub-3-pack-techspecs.md     
+                  href: surface-hub-3-compute-cartridge-techspecs.md     
             - name: Site readiness guide
               href: surface-hub-3-site-readiness-guide.md
               items: 
