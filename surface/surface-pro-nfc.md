@@ -1,12 +1,12 @@
 ---
 title: NFC support in Surface Pro 10 for Business
-description: This article provides an overview and FAQ about NFC support in Surface Pro 10 for Business devices.
+description: Explore how NFC support in Surface Pro 10 for Business enhances security and convenience with FIDO2 authentication, tag reading/writing, and more, making it ideal for enterprise environments.
 ms.service: surface
 ms.localizationpriority: medium
 author: coveminer
 ms.author: chauncel
 ms.topic: overview
-ms.date: 04/09/2024
+ms.date: 08/02/2024
 ms.reviewer: chauncel
 manager: frankbu
 appliesto:
@@ -82,6 +82,7 @@ The following FIDO2.0 keys are supported and recommended for use:
 - **Thetis**: Provides FIDO2 certified security keys designed for secure access.
 - **Token2 Card:** A compact and portable security key option.
 - **AuthenTrend Card:** Known for their biometric and card-style FIDO2 security keys.
+- **FEITIAN ePass:** Provides a range of NFC-enabled FIDO2 security keys, including options with USB-A and USB-C interfaces for MFA and PIV credential support.
 
 > [!TIP]
 > These keys provide a robust layer of security for authentication processes, ensuring a secure and user-friendly experience for IT admins and decision-makers.
