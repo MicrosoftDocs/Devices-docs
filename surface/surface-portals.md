@@ -63,29 +63,7 @@ Microsoft 365 Business customers are eligible to use the Surface Support Portal 
 
 :::image type="content" source="images/surface-service-repair/m365-admincenter-repair-request.png" alt-text="Screenshot of Microsoft 365 admin center showing New repair request feature.":::
 
-The Surface Support Portal allows you to:
-
-- Add one or multiple devices simultaneously to view current warranty and protection plans.
-- Select one or multiple devices to create service requests.
-- Track the real-time status of device repairs and transit times.
-
 For full details, see [Microsoft Surface Support Portal overview](surface-support-portal.md)
-
-When you add a Microsoft 365 tenant to the tool, Admin roles are granted more permissions, as shown in the following table.
-
-
-### Microsoft Entra roles for Surface portals
-
-The following admin roles apply to the Surface Management Portal and the Surface Support Portal.
-
-| Role                                      | Permissions                                                                                                                                                                                 |
-| ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Microsoft Hardware Warranty Administrator<sup>1</sup> | View all service requests<br>Create/manage device replacement requests<br>Add/edit/delete ship-to addresses<br>Read-only access to the Microsoft 365 tenant outside of the Surface Support Portal |
-| Microsoft Hardware Warranty Specialist<sup>1</sup>     | View own service requests<br>Create/manage device replacement requests<br>Read-only access to the Microsoft 365 tenant outside of the Surface Support Portal                                        |
-| Service Support Admin                     | View service requests<br>Create/manage device replacement requests                                                                                                                          |
-| Billing Admin                             | View service requests<br>Create/manage device replacement requests<br>Add/edit/delete ship-to addresses                                                                                   |
-
-1. *Requires **Read Only Operator** role for access*.
 
 ## Learn more
 
