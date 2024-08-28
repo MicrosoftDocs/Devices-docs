@@ -1,22 +1,23 @@
 ---
-title: Surface Management Portal 
-description: Discover how the Surface Management Portal, integrated within the Microsoft Intune admin center, offers a centralized platform to efficiently manage, monitor, and maintain Surface devices at scale, ensuring compliance and streamlined support.
-ms.service: surface
-ms.localizationpriority: medium
-author: coveminer
-ms.author: chauncel
-ms.topic: how-to
-ms.date: 08/22/2024
-ms.reviewer: rohitmannan
-manager: frankbu
-appliesto:
-- Windows 10
-- Windows 11
-ms.collection: essentials-manage
+title: Surface Management Portal  
+description: Discover how the Surface Management Portal, integrated within the Microsoft Intune Admin Center, offers a centralized platform to efficiently manage, monitor, and maintain Surface devices at scale, ensuring compliance and streamlined support.  
+ms.service: surface  
+ms.localizationpriority: medium  
+author: coveminer  
+ms.author: chauncel  
+ms.topic: how-to  
+ms.date: 08/28/2024  
+ms.reviewer: rohitmannan  
+manager: frankbu  
+appliesto:  
+- Windows 10  
+- Windows 11  
+ms.collection: essentials-manage  
 ---
+
 # Surface Management Portal overview
 
-The Surface Management Portal, integrated into the Microsoft Intune admin center, provides a centralized platform to manage and monitor Surface devices at scale. It offers end-to-end visibility, allowing you to address issues before they escalate.
+The Surface Management Portal, integrated into the Microsoft Intune Admin Center, provides a centralized platform to manage and monitor Surface devices at scale. It offers end-to-end visibility, allowing you to address issues before they escalate.
 
 With the Surface Management Portal, you can:
 
@@ -38,7 +39,7 @@ With the Surface Management Portal, you can:
 
 ### If you have an Intune subscription
 
-- Sign in to [Microsoft Intune admin center](https://endpoint.microsoft.com), select **All services** > **Surface Management Portal**.
+- Sign in to [Microsoft Intune Admin Center](https://endpoint.microsoft.com), select **All services** > **Surface Management Portal**.
 
    :::image type="content" source="images/surface-management-portal/surface-management-portal-start.png" lightbox="/surface/images/surface-management-portal/surface-management-portal-start.png" alt-text="Start Surface Management Portal":::
 
@@ -115,11 +116,11 @@ The following admin roles apply to the Surface Management Portal:
 1. *Requires **Global Reader** role for access*.
 
 > [!IMPORTANT]
-> Microsoft recommends that you use roles with the fewest permissions. This helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
+> Microsoft recommends that you use roles with the fewest permissions. This helps improve security for your organization. **Global Administrator** is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
 
 ## Try Surface Management Portal for free
 
-Surface Management Portal is available to customers who use Microsoft Intune admin center and enroll at least one Surface device through Intune. If you’re new to Intune, set up your Intune tenant today by visiting [Try Microsoft Intune for free](/mem/intune/fundamentals/free-trial-sign-up).
+Surface Management Portal is available to customers who use Microsoft Intune Admin Center and enroll at least one Surface device through Intune. If you’re new to Intune, set up your Intune tenant today by visiting [Try Microsoft Intune for free](/mem/intune/fundamentals/free-trial-sign-up).
 
 ## Learn more
 

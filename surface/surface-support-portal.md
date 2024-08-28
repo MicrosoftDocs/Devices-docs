@@ -1,18 +1,18 @@
 ---
-title: Surface Support Portal overview
-description: Discover how the Surface Support Portal offers Microsoft 365 Business customers a centralized solution for managing Surface devices, including warranty tracking, device repair requests, and Windows Autopilot registration
-ms.service: surface
-ms.localizationpriority: medium
-author: coveminer
-ms.author: chauncel
-ms.topic: how-to
-ms.date: 08/20/2024
-ms.reviewer: cchauvet
-manager: frankbu
-appliesto:
-- Windows 10
-- Windows 11
-ms.collection: essentials-manage
+title: Surface Support Portal overview  
+description: Discover how the Surface Support Portal offers Microsoft 365 Business customers a centralized solution for managing Surface devices, including warranty tracking, device repair requests, and Windows Autopilot registration.  
+ms.service: surface  
+ms.localizationpriority: medium  
+author: coveminer  
+ms.author: chauncel  
+ms.topic: how-to  
+ms.date: 08/28/2024  
+ms.reviewer: cchauvet  
+manager: frankbu  
+appliesto:  
+- Windows 10  
+- Windows 11  
+ms.collection: essentials-manage  
 ---
 
 # Surface Support Portal overview
@@ -76,7 +76,7 @@ The Surface Support Portal offers a streamlined and efficient way to manage your
 - [Create a support request](#create-a-support-request)
 - [Create and track service requests for device replacement or repair](#create-and-track-service-requests-for-device-replacement-or-repair)
 - [Register Surface devices](#register-surface-devices)
-- [Manage warranty coverage​](#manage-warranty-coverage)
+- [Manage warranty coverage](#manage-warranty-coverage)
 
 > [!TIP]
 > [See the demo tutorial for Surface Support Portal](https://www.microsoft.com/videoplayer/embed/RE4Y55A)
@@ -133,7 +133,7 @@ Register your Surface devices through the Surface Support Portal to associate th
 
     :::image type="content" source="images/finalize-registration.png" alt-text="Screenshot of submitting registration request.":::
 
-### Manage warranty coverage​
+### Manage warranty coverage
 
 Easily manage your Surface device warranties through the Surface Support Portal. You can view the coverage status of each device, track warranty timelines, and monitor the status of your service orders.
 
@@ -150,14 +150,16 @@ When you add a Microsoft 365 tenant to the tool, the following Admin roles are g
 
 | Role                                      | Permissions                                                                                                                                                                                 |
 | ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Microsoft Hardware Warranty Administrator | - View all service requests<br>- Create/manage device replacement requests<br>- Add/edit/delete ship-to addresses<br>- Read-only access to the Microsoft 365 tenant outside of the Surface Support Portal |
-| Microsoft Hardware Warranty Specialist    | - View own service requests<br>- Create/manage device replacement requests<br>- Read-only access to the Microsoft 365 tenant outside of the Surface Support Portal                                        |
+| Hardware Warranty Administrator           | - View all service requests<br>- Create/manage device replacement requests<br>- Add/edit/delete ship-to addresses<br>- Read-only access to the Microsoft 365 tenant outside of the Surface Support Portal |
+| Hardware Warranty Specialist              | - View own service requests<br>- Create/manage device replacement requests<br>- Read-only access to the Microsoft 365 tenant outside of the Surface Support Portal                                        |
 | Global Admin                              | - View service requests<br>- Create/manage device replacement requests<br>- Add/edit/delete ship-to addresses<br>- Create/manage users and their roles                                            |
 | Service Support Admin                     | - View service requests<br>- Create/manage device replacement requests                                                                                                                          |
 | Billing Admin                             | - View service requests<br>- Create/manage device replacement requests<br>- Add/edit/delete ship-to addresses                                                                                   |
-> [!IMPORTANT]
-> Microsoft recommends that you use roles with the fewest permissions. This helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
 
+>
+
+ [!IMPORTANT]
+> Microsoft recommends that you use roles with the fewest permissions. This helps improve security for your organization. Global Admin is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
 
 ## Learn more
 
