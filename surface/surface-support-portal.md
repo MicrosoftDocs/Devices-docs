@@ -147,6 +147,7 @@ Easily manage your Surface device warranties through the Surface Support Portal.
 ## Admin roles
 
 When you add a Microsoft 365 tenant to the tool, the following Admin roles are granted more permissions:
+
 | Role                                      | Permissions                                                                                                                                                                                 |
 | ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Microsoft Hardware Warranty Administrator | - View all service requests<br>- Create/manage device replacement requests<br>- Add/edit/delete ship-to addresses<br>- Read-only access to the Microsoft 365 tenant outside of the Surface Support Portal |
@@ -154,7 +155,6 @@ When you add a Microsoft 365 tenant to the tool, the following Admin roles are g
 | Global Admin                              | - View service requests<br>- Create/manage device replacement requests<br>- Add/edit/delete ship-to addresses<br>- Create/manage users and their roles                                            |
 | Service Support Admin                     | - View service requests<br>- Create/manage device replacement requests                                                                                                                          |
 | Billing Admin                             | - View service requests<br>- Create/manage device replacement requests<br>- Add/edit/delete ship-to addresses                                                                                   |
-
 > [!IMPORTANT]
 > Microsoft recommends that you use roles with the fewest permissions. This helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
 
