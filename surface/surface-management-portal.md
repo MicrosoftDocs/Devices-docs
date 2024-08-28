@@ -6,7 +6,7 @@ ms.localizationpriority: medium
 author: coveminer
 ms.author: chauncel
 ms.topic: how-to
-ms.date: 08/02/2024
+ms.date: 08/22/2024
 ms.reviewer: rohitmannan
 manager: frankbu
 appliesto:
@@ -16,18 +16,14 @@ ms.collection: essentials-manage
 ---
 # Surface Management Portal overview
 
-Built into Microsoft Intune admin center, the Surface Management Portal provides a centralized solution to self-serve, manage, and monitor Surface devices at scale.
+The Surface Management Portal, integrated into the Microsoft Intune admin center, provides a centralized platform to manage and monitor Surface devices at scale. It offers end-to-end visibility, allowing you to address issues before they escalate.
 
-## Introduction
+With the Surface Management Portal, you can:
 
-As a single environment for the end-to-end visibility of corporate or user-owned Surface devices, the Surface Management Portal lets you quickly see any issues that need prompt attention before they hit your help desk.
-
-Get insights into device compliance, support activity, and warranty coverage. Quickly see the status of each device, which ones are still in warranty or expiring soon, and the status of active support requests with your hardware providers.
-
-When you [enroll Surface devices](/mem/intune/user-help/enroll-windows-10-device) into Microsoft Intune and users sign in for the first time, information from these Surface devices automatically flows into the Surface Management Portal, giving you a single pane of glass for Surface-specific device admin activities.
-
->[!TIP]
->To learn more about accessing the Surface Management Portal or the Microsoft 365-based [Surface Support Portal](surface-support-portal.md),see [Streamline access to Surface Portals for commercial customers](streamline-access-surface-portals.md). 
+- Gain insights into device compliance, support activity, and warranty coverage.
+- Monitor the status of each device, including warranty expirations and active support requests.
+- Centralize Surface-specific device administration in a single environment.
+- Automatically access comprehensive info from your Intune-enrolled Surface devices. When users sign in for the first time, information from these Surface devices automatically flows into the Surface Management Portal, giving you a single pane of glass for Surface-specific device admin activities.
 
 ## Get started
 
@@ -42,27 +38,11 @@ When you [enroll Surface devices](/mem/intune/user-help/enroll-windows-10-device
 
 ### If you have an Intune subscription:
 
-1. Sign in to [Microsoft Intune admin center](https://endpoint.microsoft.com), select **All services** > **Surface Management Portal**.
+- Sign in to [Microsoft Intune admin center](https://endpoint.microsoft.com), select **All services** > **Surface Management Portal**.
 
    :::image type="content" source="images/surface-management-portal/surface-management-portal-start.png" lightbox="/surface/images/surface-management-portal/surface-management-portal-start.png" alt-text="Start Surface Management Portal":::
 
 <a name='azure-ad-roles-for-surface-management-portal'></a>
-
-## Microsoft Entra roles for Surface Management Portal
-
-
-| Role                                      | Permissions                                                                                                                                                                                 |
-| ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Microsoft Hardware Warranty Administrator<sup>1</sup> | View all service requests<br>Create/manage device replacement requests<br>Add/edit/delete ship-to addresses<br>Read-only access to the Microsoft 365 tenant outside of the Surface Support Portal |
-| Microsoft Hardware Warranty Specialist<sup>1</sup>     | View own service requests<br>Create/manage device replacement requests<br>Read-only access to the Microsoft 365 tenant outside of the Surface Support Portal                                        |
-| Global Admin                              | View service requests<br>Create/manage device replacement requests<br>Add/edit/delete ship-to addresses<br>Create/manage users and their roles                                            |
-| Service Support Admin                     | View service requests<br>Create/manage device replacement requests                                                                                                                          |
-| Billing Admin                             | View service requests<br>Create/manage device replacement requests<br>Add/edit/delete ship-to addresses                                                                                   |
-
-1. *Requires **Read Only Operator** role for access*.
-
-> [!IMPORTANT]
-> Microsoft recommends that you use roles with the fewest permissions. This helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
 
 ## Monitor Surface devices
 
@@ -101,25 +81,32 @@ The Surface Management Portal gives complete visibility into support activity al
 
 Newly added to the portal is the ability to create and submit new requests for one device or many.
 
-1. Select **Create support request**.
-2. Select the Product (Device) from the drop-down list.
-3. Based on the Product selected, pick the device model.
-4. Select the device or devices based on the serial number (SN).
-5. Provide details and supporting information about the issue.
-6. Provide your contact information and a contact preference.
-7. Review and submit the request.  
+1. Select **New support request**.
+2. Select the Product (Device) from the drop-down list and pick the device model.
+3. Choose + **Select devices**, select devices needing support, and select **Done**. 
+4. Provide details and supporting information about the issue.
+5. Provide your contact information and a contact preference.
+6. Review and submit the request.  
 
    :::image type="content" source="images/surface-management-portal/smp-submit-support-request.png"  alt-text="Submit support request.":::
 
 > [!TIP]
 > Track request status using the current insights and detailed views.
 
-## Try for free
+## Extend functionality with the Surface API Management Service
+
+The Surface API Management Service is an extension of the Surface Management Portal, providing IT admins with direct access to Microsoft coverage and entitlement information for their Surface devices through API endpoints. This service simplifies device and asset management by offering seamless integration, allowing admins or users to quickly retrieve critical warranty and device details. Access requires an active Surface Management Portal account and a customer validation check.
+
+- To learn more, see [Introducing the Surface API Management Service](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/introducing-the-surface-api-management-service/ba-p/4107282)
+
+## Try Surface Management Portal for free
 
 Surface Management Portal is available to customers who use Microsoft Intune admin center and enroll at least one Surface device through Intune. If you’re new to Intune, set up your Intune tenant today by visiting [Try Microsoft Intune for free](/mem/intune/fundamentals/free-trial-sign-up).
 
 ## Learn more
 
-- [What is Microsoft Surface Management Portal?](/mem/intune/fundamentals/surface-management-portal?)
-- [Microsoft Mechanics](https://youtu.be/_MmutkqNudk)
-- [Surface IT Pro Blog post: Surface Management Portal](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/surface-management-portal/ba-p/1419017)
+- [(Re)Introducing Surface portals - Microsoft Community Hub](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/re-introducing-the-surface-management-and-support-suite/ba-p/4109526)
+- [Introducing the Surface API Management Service - Microsoft Community Hub](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/introducing-the-surface-api-management-service/ba-p/4107282)
+- [Surface portals overview](surface-portals.md)
+- [Surface Support Portal](surface-support-portal.md)
+- [Surface IT Toolkit](surface-it-toolkit.md)
