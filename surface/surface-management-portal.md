@@ -27,7 +27,7 @@ With the Surface Management Portal, you can:
 
 ## Get started
 
-### If you don't have an Intune subscription:
+### If you don't have an Intune subscription
 
 1. To sign up for Intune, go to the [Intune product page](https://www.microsoft.com/security/business/endpoint-management/microsoft-intune) to learn more about the service.
 2. Select **Start a free trial** to initiate the sign-up process, as described in [Try Microsoft Intune for free](/mem/intune/fundamentals/free-trial-sign-up).
@@ -36,7 +36,7 @@ With the Surface Management Portal, you can:
 5. You can manage a wide range of OEM (Original Equipment Manufacturer) devices with Intune but need to [enroll at least one Surface device](/mem/intune/user-help/enroll-windows-10-device) in order to access the Surface Management Portal.
 6. Once you subscribe to Intune and [enroll](/mem/intune/user-help/enroll-windows-10-device) at least one Surface device, proceed to the next section.
 
-### If you have an Intune subscription:
+### If you have an Intune subscription
 
 - Sign in to [Microsoft Intune admin center](https://endpoint.microsoft.com), select **All services** > **Surface Management Portal**.
 
@@ -46,7 +46,7 @@ With the Surface Management Portal, you can:
 
 ## Monitor Surface devices
 
-Select **Monitor** to display insights for all your Surface devices, including:
+1. Select **Monitor** to display insights for all your Surface devices, including:
 
 - Devices out of compliance, which could mean users can’t access information requiring Microsoft Entra sign-in.
 - Devices that aren’t registered.
@@ -55,12 +55,12 @@ Select **Monitor** to display insights for all your Surface devices, including:
 - Devices without drive encryption enabled.
 - Devices that are currently inactive.
 
-Select **View report** to see details on each insights category, giving you diagnostic information that you can customize and export.
+2. Select **View report** to see details on each insights category, giving you diagnostic information that you can customize and export.
 
-:::image type="content" source="images/surface-management-portal/surface-management-portal-view-report.png" lightbox="/surface/images/surface-management-portal/surface-management-portal-view-report.png" alt-text="Get Surface device insights and view report":::
+    :::image type="content" source="images/surface-management-portal/surface-management-portal-view-report.png" lightbox="/surface/images/surface-management-portal/surface-management-portal-view-report.png" alt-text="Get Surface device insights and view report":::
 
 > [!TIP]
-> The portal shows device information for your top four registered devices with all others listed under **Other**. Select **View report** to see all your devices. 
+> The portal shows device information for your top four registered devices with all others listed under **Other**. Select **View report** to see all your devices.
 
 ## Device warranty and coverage
 
@@ -75,7 +75,7 @@ If you manage hundreds or thousands of devices, having direct access to the warr
 
 The Surface Management Portal gives complete visibility into support activity along with the status of each request.
 
-:::image type="content" source="images/surface-management-portal/surface-management-portal-support.png" lightbox="/surface/images/surface-management-portal/surface-management-portal-support.png" alt-text="Get information about support activity along with the status of each request.":::
+    :::image type="content" source="images/surface-management-portal/surface-management-portal-support.png" lightbox="/surface/images/surface-management-portal/surface-management-portal-support.png" alt-text="Get information about support activity along with the status of each request.":::
 
 ### Create Support Requests
 
@@ -83,7 +83,7 @@ Newly added to the portal is the ability to create and submit new requests for o
 
 1. Select **New support request**.
 2. Select the Product (Device) from the drop-down list and pick the device model.
-3. Choose + **Select devices**, select devices needing support, and select **Done**. 
+3. Choose + **Select devices**, select devices needing support, and select **Done**.
 4. Provide details and supporting information about the issue.
 5. Provide your contact information and a contact preference.
 6. Review and submit the request.  
@@ -99,7 +99,7 @@ The Surface API Management Service is an extension of the Surface Management Por
 
 - To learn more, see [Introducing the Surface API Management Service](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/introducing-the-surface-api-management-service/ba-p/4107282)
 
-### Microsoft Entra roles 
+### Microsoft Entra roles
 
 The following admin roles apply to the Surface Management Portal:
 
