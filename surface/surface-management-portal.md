@@ -75,7 +75,7 @@ If you manage hundreds or thousands of devices, having direct access to the warr
 
 The Surface Management Portal gives complete visibility into support activity along with the status of each request.
 
-    :::image type="content" source="images/surface-management-portal/surface-management-portal-support.png" lightbox="/surface/images/surface-management-portal/surface-management-portal-support.png" alt-text="Get information about support activity along with the status of each request.":::
+:::image type="content" source="images/surface-management-portal/surface-management-portal-support.png" lightbox="/surface/images/surface-management-portal/surface-management-portal-support.png" alt-text="Get information about support activity along with the status of each request.":::
 
 ### Create Support Requests
 
