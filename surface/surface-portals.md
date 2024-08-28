@@ -59,7 +59,6 @@ Commercial customers can use the [Surface Management Portal](surface-management-
 Microsoft 365 Business customers are eligible to use the Surface Support Portal to self-serve their Surface devices’ service requests within the Microsoft 365 Admin Center.
 
 1. Sign in to the [Microsoft Surface support - Microsoft 365 admin center](https://admin.microsoft.com/AdminPortal#/support/microsoftsurfacesupport).
-2. Select **Create service request**. For eligible devices and regional availability, see [Microsoft in-region repair](microsoft-in-region-same-unit-repair.md).
 
 :::image type="content" source="images/surface-service-repair/m365-admincenter-repair-request.png" alt-text="Screenshot of Microsoft 365 admin center showing New repair request feature.":::
 

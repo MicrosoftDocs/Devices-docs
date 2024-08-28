@@ -144,6 +144,21 @@ Easily manage your Surface device warranties through the Surface Support Portal.
 
 - Select **Surface IT Tools** to access details about the latest tools, including the [Surface IT Toolkit](surface-it-toolkit.md), [Surface Diagnostics Toolkit for Business](surface-diagnostic-toolkit-business.md), and [Surface API Management Service](https://github.com/microsoft/SurfaceApiManagementService).
 
+## Admin roles
+
+When you add a Microsoft 365 tenant to the tool, the following Admin roles are granted more permissions:
+| Role                                      | Permissions                                                                                                                                                                                 |
+| ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Microsoft Hardware Warranty Administrator | - View all service requests<br>- Create/manage device replacement requests<br>- Add/edit/delete ship-to addresses<br>- Read-only access to the Microsoft 365 tenant outside of the Surface Support Portal |
+| Microsoft Hardware Warranty Specialist    | - View own service requests<br>- Create/manage device replacement requests<br>- Read-only access to the Microsoft 365 tenant outside of the Surface Support Portal                                        |
+| Global Admin                              | - View service requests<br>- Create/manage device replacement requests<br>- Add/edit/delete ship-to addresses<br>- Create/manage users and their roles                                            |
+| Service Support Admin                     | - View service requests<br>- Create/manage device replacement requests                                                                                                                          |
+| Billing Admin                             | - View service requests<br>- Create/manage device replacement requests<br>- Add/edit/delete ship-to addresses                                                                                   |
+
+> [!IMPORTANT]
+> Microsoft recommends that you use roles with the fewest permissions. This helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
+
+
 ## Learn more
 
 - [(Re)Introducing Surface portals - Microsoft Community Hub](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/re-introducing-the-surface-management-and-support-suite/ba-p/4109526)
