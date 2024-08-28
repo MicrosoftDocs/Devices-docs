@@ -76,7 +76,7 @@
       expanded: true
       items: 
       - name: Surface supported operating systems
-        href: https://support.microsoft.com/surface/surface-supported-operating-systems-9559cc3c-7a38-31b6-d9fb-571435e84cd1
+        href: surface-supported-operating-systems.md
       - name: Surface tools
         expanded: true
         items:   

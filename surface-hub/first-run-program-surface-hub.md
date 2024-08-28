@@ -109,6 +109,9 @@ You can only set up device admins during first-time Setup. For more information,
 
     :::image type="content" source="images/hub-setup-signin.png" alt-text="The screenshot shows the dialog to sign in with a work or school account.":::
 
+> [!IMPORTANT]
+> Microsoft recommends that you use roles with the fewest permissions. This helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role. To learn more, see the recommended guidance in [Configure non-Global Admin accounts on Surface Hub](surface-hub-2s-nonglobal-admin.md).
+
 > [!TIP]
 > To configure who can use the Settings app to manage Surface Hubs, ensure that automatic Intune enrollment is enabled in your tenant before joining the device to Microsoft Entra ID. Intune policies can then be used to [configure non-Global admins](surface-hub-2s-nonglobal-admin.md) on Surface Hubs.
 

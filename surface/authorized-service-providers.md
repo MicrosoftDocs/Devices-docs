@@ -1,12 +1,12 @@
 ---
 title: Surface repair by Microsoft authorized service providers
-description: This article describes how authorized service providers (ASPs) work closely with Microsoft to help resolve issues that might occur with your Microsoft devices. 
+description: Learn how Microsoft authorized service providers (ASPs) collaborate with Microsoft to offer repairs for your Surface devices using genuine parts and direct support access.
 ms.service: surface
 ms.localizationpriority: medium
 author: coveminer
 ms.author: chauncel
 ms.topic: overview
-ms.date: 05/14/2024
+ms.date: 07/29/2024
 ms.reviewer: 
 manager: frankbu
 appliesto:
@@ -28,6 +28,7 @@ The growing ASP network consists of more than 160 locations.
 
 - [CompuCom](https://www4.compucom.com/compucom-canada)
 - [Compugen](https://www.compugen.com/)
+- [Converge Technology Solutions](https://convergetp.com/)
 - [Coreio](https://www.coreio.com/)
 - [Insight](https://ca.insight.com/en_CA/home.html)
 - [IT Mission](https://itmission.com/)
@@ -62,6 +63,12 @@ The growing ASP network consists of more than 160 locations.
 
 ### Europe
 
+### Austria
+
+- [Bechtle GmbH IT Systemhaus](https://www.bechtle.com/at-en/about-bechtle/company/bechtle-systemhouse-austria)
+- [CLS](https://www.cls.at/)
+- [Mobiletouch Austria GmbH](https://mobiletouch.at/)
+
 #### Belgium
 
 - [The Rent Company](https://rentcompany.be/)
@@ -73,6 +80,7 @@ The growing ASP network consists of more than 160 locations.
 
 #### Germany
 
+- [API](https://www.api.de)
 - [Bechtle](https://www.bechtle.com/)
 - [Computacenter](https://www.computacenter.com/)
 - [Hemmersbach](https://www.hemmersbach.com/)
@@ -87,7 +95,7 @@ The growing ASP network consists of more than 160 locations.
 
 #### Spain
 
-- [Valorista](https://valorista.com/)
+- [Valorista](https://valorista.com/servicio-tecnico-oficial-microsoft-surface)
 
 #### United Kingdom
 
@@ -98,8 +106,10 @@ The growing ASP network consists of more than 160 locations.
 - [Class Technology Solutions](https://www.easy4u.school/)
 - [Computacenter](https://www.computacenter.com/)
 - [Currys](https://www.currys.co.uk/store-finder)
+- [HybrIT](https://www.hybrit.co.uk/)
 - [DXC Technology (UK)](https://dxc.com/uk/)
 - [Specialist Computer Centre](https://www.scc.com/)
+- [TMT First Limited](https://www.tmtfirst.co.uk/who-we-are/)
 - [Westcoast](https://www.westcoast.co.uk/)
 - [XMA](https://www.xma.co.uk/)
 - [Zones](https://uk.zones.com/)
@@ -128,3 +138,7 @@ The growing ASP network consists of more than 160 locations.
 #### New Zealand
 
 - [The Laptop Company](https://www.laptop.co.nz/)
+
+#### South Korea
+
+- [Gownet Co., Ltd](https://gownet.com)

@@ -1,6 +1,6 @@
 ---
 title:  Streamline access to Surface portals
-description: This article describes recommended ways of accessing the Surface Support Portal and the Surface Management Portal.
+description: Explore the most efficient ways to access Surface Support and Management Portals for commercial customers. This guide provides step-by-step instructions for validating Microsoft tenant credentials and setting up new accounts, ensuring seamless integration with Microsoft 365 Admin Center for Surface device servicing and support.
 ms.service: surface
 ms.localizationpriority: medium
 author: coveminer
@@ -29,9 +29,6 @@ Both portals require a subscription and the organization's tenant credentials fo
 This onboarding page helps validate the existing Microsoft tenant of the organization's domain. If no tenant exists, it enables IT Administrators/Managers to create a new one for their organization. Once established, this tenant directs them seamlessly to the Microsoft 365 Admin Center to access the Surface Support Portal.
 
 ## Onboarding process
-
-> [!NOTE]
-> This is only applicable to US and Canada customers who do not currently have an Intune or Microsoft 365 subscription.
 
 1. **Select this [link](https://signup.microsoft.com/createaccount?culture=en-us&country=us&ru=https%3A%2F%2Fadmin.microsoft.com%2FAdminportal%2FHome%3Fmcapiorgid%3D%7Bmcapiorgid%7D%26accountid%3D%7Baccountid%7D%26&origin=servicesHub&scenario=skiplba)** to validate the email and domain of your organization. Enter the organization's email address. If your organization and domain are already registered with Microsoft, you must sign in with your organizational credentials. In this case, you should contact your IT admin to gain access to these credentials.
 

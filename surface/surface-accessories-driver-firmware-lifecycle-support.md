@@ -6,7 +6,7 @@ ms.localizationpriority: high
 author: coveminer
 ms.author: chauncel
 ms.topic: overview
-ms.date: 01/26/2024
+ms.date: 06/28/2024
 ms.reviewer: phorton
 manager: frankbu
 appliesto:
@@ -29,7 +29,7 @@ The Surface accessories driver and firmware lifecycle period defines the period 
 
 ## Surface accessories driver and firmware lifecycle period
 
-The following table lists the release date and end-of-servicing date for each Surface accessory:
+The following table lists the release date and end-of-servicing date for Surface-branded accessories:
 
 Accessory                                            | Release date        | end-of-servicing date
 -----------------------------------------------------|---------------------|---------------------
@@ -60,6 +60,7 @@ Surface Mouse                                        | October 25, 2022    | Oct
 Surface Keyboard                                     | October 25, 2022    | October 25, 2028
 Surface Pro Signature Keyboard                       | February 21, 2023   | February 21, 2029
 Surface Thunderbolt 4 dock                           | April 4, 2023       | April 4, 2029
+Surface Pro Flex Keyboard                            | June 18, 2024       | June 18, 2030
 
 ## Learn more
 

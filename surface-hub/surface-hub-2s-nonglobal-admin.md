@@ -18,6 +18,9 @@ appliesto:
 
 The Windows 10 Team 2020 Update adds support for configuring non-Global Admin accounts that limit permissions to management of the Settings app on Surface Hub devices joined to a Microsoft Entra domain. This enables you to scope admin permissions for Surface Hub only and prevent potentially unwanted admin access across an entire Microsoft Entra domain. 
 
+> [!IMPORTANT]
+> Microsoft recommends that you use roles with the fewest permissions. This helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
+
 Windows 10 Team 2020 Update 2 adds support for [LocalUsersAndGroups CSP](/windows/client-management/mdm/policy-csp-localusersandgroups). That is now the recommended CSP to use; [RestrictedGroups CSP](/windows/client-management/mdm/policy-csp-restrictedgroups) is still supported, but has been deprecated.
 
 > [!NOTE]
@@ -142,4 +145,4 @@ To learn more about custom configuration profiles using OMA-URI strings, see [Us
 Members of the newly configured **Surface Hub Local Admins** Security group can now sign in to the Settings app on Surface Hub and manage settings.
 
 > [!IMPORTANT]
-> Unless the Update ("U") action of the [LocalUsersAndGroups CSP](/windows/client-management/mdm/policy-csp-localusersandgroups) is the only configuration used, the pre-existing access of global admins to the Settings app is removed.
+> Unless the Update ("U") action of the [LocalUsersAndGroups CSP](/windows/client-management/mdm/policy-csp-localusersandgroups) is the only configuration used, the pre-existing access of Global admins to the Settings app is removed.
