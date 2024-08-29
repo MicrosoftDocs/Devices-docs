@@ -1,6 +1,6 @@
 ---
 title: Optimize video conferencing on Surface devices
-description: This page provides best practices for using Microsoft Teams and other video conferencing solutions on Surface devices
+description: Enhance video conferencing on Surface devices with best practices for Microsoft Teams, including driver updates, power settings, and performance tips.
 ms.service: windows-11
 ms.localizationpriority: medium
 author: coveminer
