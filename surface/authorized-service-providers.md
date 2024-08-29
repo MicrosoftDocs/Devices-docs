@@ -137,6 +137,7 @@ The growing ASP network consists of more than 160 locations.
 
 #### New Zealand
 
+- [Service Plus Group Limited](https://serviceplus.co.nz/brands/microsoft-surface-authorised-repairs/)
 - [The Laptop Company](https://www.laptop.co.nz/)
 
 #### South Korea
