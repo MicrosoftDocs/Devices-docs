@@ -1,6 +1,6 @@
 ---
 title: Surface DMA Protection
-description: This article describes DMA protection on compatible Surface devices
+description: Learn about DMA protection on Surface devices, a security feature that safeguards against vulnerabilities associated with removable SSDs and external storage.
 ms.service: surface
 ms.localizationpriority: medium
 author: coveminer

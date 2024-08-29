@@ -1,6 +1,6 @@
 ---
 title: Ethernet adapters and Surface deployment
-description: Learn how to perform network deployment for Surface devices, select compatible Ethernet adapters, and manage MAC address conflicts for efficient system administration.
+description: Learn how to deploy Surface devices over a network, choose Ethernet adapters, and manage MAC address conflicts for efficient administration.
 ms.assetid: 5273C59E-6039-4E50-96B3-426BB38A64C0
 manager: frankbu
 ms.localizationpriority: medium
