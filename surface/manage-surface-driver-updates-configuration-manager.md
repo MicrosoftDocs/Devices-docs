@@ -1,6 +1,6 @@
 ---
 title: Manage Surface driver updates in Configuration Manager
-description: This article describes the available options to manage and deploy firmware and driver updates for Surface devices.
+description: Learn how to manage and deploy Surface driver and firmware updates using Configuration Manager, including setup, synchronization, and troubleshooting tips.
 ms.assetid: b64879c4-37eb-4fcf-a000-e05cbb3d26ea
 ms.reviewer: 
 author: coveminer 

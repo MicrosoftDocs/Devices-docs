@@ -1,6 +1,6 @@
 ---
 title: Manage & deploy Surface driver & firmware updates 
-description: This article provides links to downloadable packages containing driver and firmware updates for Surface devices and explains available management and deployment solutions.
+description: Learn how to manage and deploy Surface driver and firmware updates, with links to downloadable .msi packages and guidance for enterprise environments.
 ms.assetid: CD1219BA-8EDE-4BC8-BEEF-99B50C211D73
 manager: frankbu
 ms.localizationpriority: medium

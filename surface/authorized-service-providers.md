@@ -1,6 +1,6 @@
 ---
 title: Surface repair by Microsoft authorized service providers
-description: Learn how Microsoft authorized service providers (ASPs) collaborate with Microsoft to offer repairs for your Surface devices using genuine parts and direct support access.
+description: Discover how Microsoft ASPs offer Surface repairs using genuine parts and direct support, collaborating closely with Microsoft for quality service.
 ms.service: surface
 ms.localizationpriority: medium
 author: coveminer
