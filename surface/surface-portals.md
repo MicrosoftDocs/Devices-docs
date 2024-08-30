@@ -61,11 +61,11 @@ Microsoft 365 Business customers are eligible to use the Surface Support Portal 
 
 :::image type="content" source="images/surface-service-repair/m365-admincenter-repair-request.png" alt-text="Screenshot of Microsoft 365 admin center showing New repair request feature.":::
 
-For full details, including instructions for streamlined access, see [Surface Support Portal Portal overview](surface-support-portal.md).
+For full details, including instructions for streamlined access, see [Surface Support Portal overview](surface-support-portal.md).
 
 ## Learn more
 
 - [(Re)Introducing Surface portals - Microsoft Community Hub](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/re-introducing-the-surface-management-and-support-suite/ba-p/4109526)
 - [Surface Management Portal](surface-management-portal.md)
-- [Surface Support Portal Portal](surface-support-portal.md)
+- [Surface Support Portal](surface-support-portal.md)
 - [Surface IT Toolkit](surface-it-toolkit.md)

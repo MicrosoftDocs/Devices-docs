@@ -17,7 +17,7 @@ ms.collection: essentials-manage
 
 # Surface Support Portal overview
 
-The [Microsoft Surface Support Portal](https://admin.microsoft.com/AdminPortal#/support/microsoftsurfacesupport) simplifies device support and service management for businesses. This portal offers faster, more efficient support for Surface devices, ensuring that any issues are promptly addressed.
+The Surface Support Portal simplifies device support and service management for businesses. This portal offers faster, more efficient support for Surface devices, ensuring that any issues are promptly addressed.
 
 With the Surface Support Portal, you benefit from:
 
@@ -30,9 +30,9 @@ With the Surface Support Portal, you benefit from:
 
 ## Access Surface Support Portal
 
-If you already have access, skip to the section [Modernized Surface support](#modernized-surface-support).
+If you already have access to the portal, skip to the section [Modernized Surface support](#modernized-surface-support).
 
-### Streamline access to Surface Support Portal
+### How to access to Surface Support Portal
 
 The onboarding process includes steps to validate your organization’s Microsoft tenant. If your organization doesn't already have a tenant, the instructions can help you create one, ensuring seamless access to the Surface Support Portal via the Microsoft 365 Admin Center.
 
@@ -146,7 +146,7 @@ Easily manage your Surface device warranties through the Surface Support Portal.
 
 ## Admin roles
 
-When you add a Microsoft 365 tenant to the tool, the following Admin roles are granted more permissions:
+When you add a Microsoft 365 tenant to the tool, the following Admin roles are granted more permissions. To learn more about configuring roles, see https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/assign-admin-roles?view=o365-worldwide#steps-add-an-admin
 
 | Role                                      | Permissions                                                                                                                                                                                 |
 | ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
