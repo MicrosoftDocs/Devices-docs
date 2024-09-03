@@ -28,7 +28,7 @@ Microsoft's commitment to advancing Arm and app compatibility is evident through
 
 ## What's new for Windows on Arm emulation? 
 
-The latest Qualcomm Snapdragon X series processors in the Surface Pro (11th Edition) and Surface Laptop (7th Edition) deliver more native Arm64 experiences, including faster implementations of Microsoft 365 apps and other apps like Chrome, Spotify, and Zoom. For apps not yet optimized for Windows on Arm, our enhanced emulation engine ensures a smooth user experience.
+The latest Qualcomm Snapdragon X series processors in the Surface Pro (11th Edition) and Surface Laptop (7th Edition) deliver more native Arm64 experiences, including faster implementations of Microsoft 365 apps and other apps like Chrome, Spotify, and Zoom. For apps not yet optimized for Windows on Arm, our enhanced emulation engine helps ensure a smooth user experience.
 
 ## What is Prism?
 
@@ -37,6 +37,7 @@ Prism is Microsoft's emulation technology that enables x86/x64 applications to r
 ## How do native and emulated apps differ on Windows on Arm?
 
 **Native apps** are built to fully utilize the Arm64 architecture, offering optimal performance and compatibility. We expanded tooling and support to facilitate Arm64 development, ensuring broad availability of Arm64-compatible software.
+
 **Emulated apps** run on Windows on Arm via the Prism emulation engine, which minimizes performance loss, allowing most x86/x64 applications to operate seamlessly on Arm64 systems.
 
 ## How do emulated and native apps perform on these new devices compared to previous generations?
