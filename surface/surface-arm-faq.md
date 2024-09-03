@@ -60,7 +60,7 @@ No. App Assure also assists with custom line-of-business apps, third-party softw
 - **Peripheral compatibility depends on Arm64 drivers.** Devices like printers and scanners work if their drivers are built into Windows 11 or provided by the hardware developer. Without compatible drivers, functionality might be limited.
 - **Certain games might face compatibility issues.** Games relying on OpenGL versions greater than 3.3 or "anti-cheat" drivers not updated for Arm might not work, though many are being optimized for Arm-based devices.
 - **Customization apps might have limited functionality.** Apps that modify the Windows experience, such as input method editors (IMEs) and cloud storage clients, might encounter issues unless optimized for Arm64.
-- **Antivirus software compatibility has improved but can vary.** While more non-Microsoft antivirus programs now support Arm-based PCs, confirming compatibility is advisable. Windows Security continues to offer comprehensive protection.
+- **Antivirus software compatibility has improved but can vary.** While more non-Microsoft antivirus programs now support Arm-based PCs, we recommend confirming compatibility. Windows Security continues to offer comprehensive protection.
 - **Windows Fax and Scan is still not available on Arm-based devices.** Alternative solutions are needed for faxing and scanning.
 
 ## Can I run Windows programs that aren't in the Microsoft Store on my Windows 11 Arm-based device?
