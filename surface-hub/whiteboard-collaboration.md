@@ -27,7 +27,8 @@ To use whiteboard collaboration, complete the following actions:
 
 - Whiteboard collaboration is only supported in the Microsoft 365 commercial environment and requires Microsoft 365 with cloud-based Microsoft Entra ID.
 - You can only run collaborative sessions among users belonging to the same Microsoft 365 tenant.
-- Microsoft 365 Germany or Microsoft 365 operated by 21Vianet don't support whiteboard collaboration.
+- Microsoft 365 operated by 21Vianet doesn't support whiteboard collaboration.
+- Microsoft Office 365 Germany; a specialised version of Office 365 designed to meet the data residency and compliance requirements of German customers doesn't support whiteboard collaboration.
 
 ## Collaborating with whiteboards
 
