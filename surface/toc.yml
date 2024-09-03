@@ -11,7 +11,7 @@
         items:
          - name: Surface Pro Flex Keyboard overview
            href: surface-pro-flex-keyboard.md
-         - name: NFC support in Surface Pro 10 for Business
+         - name: NFC support in Surface Pro
            href: surface-pro-nfc.md
          - name: Surface Laptop 6 smart card reader overview
            href: surface-laptop-smart-card-reader.md 
@@ -208,6 +208,8 @@
           href: surface-tested-peripherals.md
         - name: NFC support in Surface Go for Business
           href: surface-go-nfc-support.md
+        - name: NFC support in Surface Pro
+          href: surface-pro-nfc.md
         - name: Optimize video conferencing on Surface devices
           href: optimize-video-conferencing-on-surface.md   
         - name: Optimize Wi-Fi connectivity on Surface devices
