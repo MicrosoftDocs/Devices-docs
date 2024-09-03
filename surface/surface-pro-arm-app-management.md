@@ -19,7 +19,7 @@ ARM-based Surface devices including Surface Pro (11th Edition), Surface Laptop (
 
 ### Image-based deployment now supported
 
- Image-based Operating System Deployment (OSD) is now [supported via Endpoint Configuration Manager](/mem/configmgr/core/plan-design/changes/whats-new-in-version-2403#support-for-arm-64-operating-system-deployment) for Windows 11 on Surface Pro (11th Edition) and Surface Pro 9 with 5G.
+Image-based Operating System Deployment (OSD) is now [supported via Endpoint Configuration Manager](/mem/configmgr/core/plan-design/changes/whats-new-in-version-2403#support-for-arm-64-operating-system-deployment) for Windows 11 on Surface Pro (11th Edition), Surface Laptop (7th Edition), Surface Pro 9 with 5G, and Surface Pro X. 
 
 ### Autopilot deployment 
 
@@ -35,7 +35,7 @@ Autopilot deployment has several advantages: It allows you to use the factory-pr
 With the [Surface IT Toolkit](surface-it-toolkit.md) and [Surface Enterprise Management Mode (SEMM)](surface-enterprise-management-mode.md), you can [manage hardware components](surface-it-toolkit-uefi-config.md) at the firmware level for commercial SKUs of Surface Pro (11th Edition), Surface Laptop (7th edition), Surface Pro 9 with 5G, and Surface Pro X devices (including Surface Pro X SQ1, Surface Pro X SQ1 LTE, Surface Pro X SQ2, and Surface Pro X SQ2 LTE). The default behavior of each component is indicated as either "On" or "Off." For descriptions of settings functionality, see [SEMM UEFI settings reference](surface-it-toolkit-semm-uefi-settings.md).
 
 > [!NOTE]
-> Commercial SKUs of Surface Pro (11th edition) and Surface Laptop (7th edition) will be  available in September 2024 from your [Microsoft Surface Authorized Reseller](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface).
+> Commercial SKUs of Surface Pro (11th edition) and Surface Laptop (7th edition) begin shipping September 10, 2024 from your [Microsoft Surface Authorized Reseller](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface).
 
 
 | Component              | Surface Pro (11th Edition)     | Surface Laptop (7th edition) | Surface Pro 9 with 5G     | Surface Pro X     |
@@ -98,9 +98,9 @@ Microsoft Intune admin center and Intune integrate with Microsoft Entra ID for i
 
 Once deployed in Autopilot, you can join devices to Microsoft Entra ID or Active Directory ([Microsoft Entra hybrid join](/azure/active-directory/devices/concept-azure-ad-join-hybrid)), where you can [manage the devices with Intune](/mem/intune/remote-actions/device-management) or [co-manage them with Endpoint Configuration Manager](/mem/configmgr/comanage/overview), which installs the 32-bit x86 ConfigMgr client.
 
-### Third-party MDM solutions
+### Other MDM solutions
 
-You may be able to use third-party MDM tools to manage Surface Pro 9 with 5G and Surface Pro X. For details, contact your MDM provider.
+You may be able to use non-Microsoft MDM tools to manage ARM-based Surface devices. For details, contact your MDM provider.
 
 ### Antivirus software
 
@@ -121,14 +121,14 @@ ARM-based devices have specific requirements for maintaining the latest drivers 
 
 ## App compatibility
 
-Most apps run on ARM-based Windows 11 PCs with limited exclusions.
+Most apps run smoothly on ARM-based Windows 11 PCs, with only a few exceptions.
 
 ### Supported apps
 
-- Most x86 Win32 apps run on ARM-based Surface devices.
-- Native Arm64 and Microsoft Store UWP apps provide an excellent user experience utilizing the full native speed of the ARM-based processor while optimizing battery life. More Native Arm64 apps are now available including Adobe Photoshop and Adobe Lightroom.
-- Apps that use drivers designed for a Windows 10 or Windows 11 PC running on an ARM-based processor.
-- x64 emulation for Windows is now generally available in Windows 11.
+- **x86 Win32 apps**: Most run seamlessly on ARM-based Surface devices, benefiting from advanced emulation technology.
+- **Native Arm64 and Microsoft Store UWP apps**: These apps deliver an outstanding user experience, taking full advantage of the ARM-based processor's native speed while optimizing battery life. The availability of Native Arm64 apps continues to grow, including popular applications like Adobe Photoshop and Adobe Lightroom.
+- **Driver-supported apps**: Apps that rely on drivers specifically designed for ARM-based Windows 10 or Windows 11 PCs are fully supported.
+- **x64 emulation**: Now generally available in Windows 11, x64 emulation allows for broader app compatibility, enabling many x64 apps to run effectively on ARM-based devices.
 
 ### FastTrack App Assure
 
