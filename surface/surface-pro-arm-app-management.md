@@ -15,7 +15,7 @@ appliesto:
 ---
 # Deploy, manage, and service ARM-based Surface devices
 
-ARM-based Surface devices, including the Surface Pro (11th Edition), Surface Laptop (7th Edition), Surface Pro 9 with 5G, and Surface Pro X, are engineered to meet high-performance commercial requirements.
+ARM-based Surface devices, including Surface Pro (11th Edition), Surface Laptop (7th Edition), Surface Pro 9 with 5G, and Surface Pro X, are engineered to meet high-performance commercial requirements.
 
 ### Image-based deployment now supported
 
@@ -36,20 +36,20 @@ With the [Surface IT Toolkit](surface-it-toolkit.md) and [Surface Enterprise Man
 | Component              | Surface Pro (11th Edition)     | Surface Laptop (7th Edition) | Surface Pro 9 with 5G     | Surface Pro X     |
 |------------------------|--------------------------------|-----------------------------|---------------------------|-------------------|
 | **Accessories**        |                                |                             |                           |                   |
-| Docking USB Port       | On                             | On                          | On                        |                   |
-| On-board Audio         | On                             | On                          | On                        |                   |
-| On-board Microphone    | On                             | On                          | On                        |                   |
-| MAC Address Emulation  | Off                            | Off                         | Off                       |                   |
-| Type Cover             | On                             | On                          | On                        |                   |
+| Docking USB Port       | On                             | On                          | On                        | n/a               |
+| On-board Audio         | On                             | On                          | On                        | n/a               |
+| On-board Microphone    | On                             | On                          | On                        | n/a               |
+| MAC Address Emulation  | Off                            | Off                         | Off                       | n/a               |
+| Type Cover             | On                             | On                          | On                        | n/a               |
 | **Cameras**            |                                |                             |                           |                   |
-| Front Camera           | On                             | On                          | On                        |                   |
-| Rear Camera            | On                             | On                          | On                        |                   |
-| IR Camera              |                                |                             | On                        |                   |
+| Front Camera           | On                             | On                          | On                        | n/a               |
+| Rear Camera            | On                             | On                          | On                        | n/a               |
+| IR Camera              | n/a                            | n/a                         | On                        | n/a               |
 | **Radio**              |                                |                             |                           |                   |
-| Bluetooth              | On                             | On                          | On                        |                   |
-| Wi-Fi                  | On                             | On                          | On                        |                   |
-| LTE                    | On                             |                             | On                        |                   |
-| NFC                    | On                             |                             |                           |                   |
+| Bluetooth              | On                             | On                          | On                        | n/a               |
+| Wi-Fi                  | On                             | On                          | On                        | n/a               |
+| LTE                    | On                             | n/a                         | On                        | n/a               |
+| NFC                    | On                             | n/a                         | n/a                       | n/a               |
 | **Boot**               |                                |                             |                           |                   |
 | Wake on LAN            | Off                            | Off                         | Off                       | Off               |
 | Wake on Power          | Off                            | Off                         | Off                       | Off               |
@@ -58,16 +58,17 @@ With the [Surface IT Toolkit](surface-it-toolkit.md) and [Surface Enterprise Man
 | Boot Order Lock        | Off                            | Off                         | Off                       | Off               |
 | USB Boot               | On                             | On                          | On                        | On                |
 | Network Stack          | Off                            | Off                         | Off                       | Off               |
-| Auto Power On<sup>1</sup>         |                                |                             |                           | Off               |
+| Auto Power On<sup>1</sup>         | n/a                            | n/a                         | n/a                       | Off               |
 | **USB-C Mode**         |                                |                             |                           |                   |
-| USB-C Port 1           | Mode 0, Mode 1, Mode 2         | Mode 0, Mode 1, Mode 2      | Mode 0, Mode 1, Mode 2    |                   |
+| USB-C Port 1           | Mode 0, Mode 1, Mode 2         | Mode 0, Mode 1, Mode 2      | Mode 0, Mode 1, Mode 2    | n/a               |
 | **UEFI Front Page**    |                                |                             |                           |                   |
 | Security               | On                             | On                          | On                        | On                |
-| Devices                | On                             | On                          | On                        |                   |
+| Devices                | On                             | On                          | On                        | n/a               |
 | Boot                   | On                             | On                          | On                        | On                |
-| DateTime               | On                             | On                          | On                        |                   |
+| DateTime               | On                             | On                          | On                        | n/a               |
 | **Kiosk Overrides**    |                                |                             |                           |                   |
 | Battery Limit          | Off                            | Off                         | Off                       | Off               |
+
 
 **1.** *Auto Power On is available only for Surface Pro X SQ1 LTE and Surface Pro X SQ2 LTE.*
 
