@@ -56,7 +56,7 @@ NFC wayfinding takes advantage of the simplicity and convenience of NFC technolo
 
 #### Custom lock-screen image
 
-To help end users find the NFC reader on the device, a custom lock screen image is available to download and deploy to devices in your organization. See [Download NFC Lock Screens for Surface Pro 10 and Surface Pro (11th Edition)](#download-nfc-lock-screens-for-surface-pro-10-and-surface-pro-11th-edition) on this page.
+To help end users find the NFC reader on the device, a custom lock screen image is available to download and deploy to devices in your organization. See [Download NFC Lock Screens](#download-nfc-lock-screens) on this page.
 
 :::image type="content" source="images/nfc-lockscreen-example.png" alt-text="Screenshot showing an example of a custom lock screen image for Surface Pro 10 and Surface Pro (11th Edition) for Business.":::
 
