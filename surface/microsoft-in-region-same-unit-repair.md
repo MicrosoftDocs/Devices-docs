@@ -1,6 +1,6 @@
 ---
 title:  Microsoft in-region same unit repair
-description: This article describes devices eligible for in-region same unit repair.
+description: Discover which Surface devices are eligible for in-region same unit repair services, and learn how to initiate a repair request through Surface portals.
 ms.service: windows-11
 ms.localizationpriority: medium
 author: coveminer

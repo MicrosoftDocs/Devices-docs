@@ -17,7 +17,7 @@ ms.custom:
 - CI 118876
 - CSSTroubleshoot 
 ms.reviewer: mablaik
-description: Support information for Microsoft Surface and Surface Hub products.
+description: Get support for Surface and Surface Hub products for Business and Education customers. Explore online, in-store, and contract-based support options.
 ---
 
 # Contact Surface Support for Business and Education customers
