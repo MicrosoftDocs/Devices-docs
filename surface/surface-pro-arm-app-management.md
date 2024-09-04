@@ -82,6 +82,7 @@ Most apps run smoothly on Arm-based Windows 11 PCs, with a few exceptions.
 - **Native Arm64 and Microsoft Store UWP apps**: These apps deliver an outstanding experience, leveraging the full native speed of the Arm-based processor while optimizing battery life. Native Arm64 app availability continues to grow, including popular applications like Adobe Photoshop and Adobe Lightroom.
 - **Driver-supported apps**: Apps that rely on drivers specifically designed for Arm-based Windows 10 or Windows 11 PCs are fully supported.
 - **x64 emulation**: Now generally available in Windows 11, x64 emulation allows broader app compatibility, enabling many x64 apps to run effectively on Arm-based devices.
+- To learn more, see [Arm-based Surface devices FAQ](surface-arm-faq.md)
 
 ### FastTrack App Assure
 
