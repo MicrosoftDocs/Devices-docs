@@ -1,6 +1,6 @@
 ---
 title: The Total Economic Impact of Microsoft Surface for Education
-description: This page provides a downloadable PDF of a Forrester Consulting study on the potential return on investment (ROI) for K-12 schools deploying Surface.
+description: Download a Forrester Consulting study on the ROI for K-12 schools deploying Microsoft Surface devices, highlighting benefits in education and IT support.
 ms.service: surface
 ms.localizationpriority: medium
 author: coveminer
