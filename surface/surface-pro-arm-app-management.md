@@ -19,7 +19,7 @@ ARM-based Surface devices, including Surface Pro (11th Edition), Surface Laptop 
 
 ### Image-based deployment now supported
 
-Image-based Operating System Deployment (OSD) is now [supported via Endpoint Configuration Manager](/mem/configmgr/core/plan-design/changes/whats-new-in-version-2403#support-for-arm-64-operating-system-deployment) for Windows 11 on Surface Pro (11th Edition), Surface Laptop (7th Edition), Surface Pro 9 with 5G, and Surface Pro X. 
+Image-based Operating System Deployment (OSD) is now [supported via Endpoint Configuration Manager](/mem/configmgr/core/plan-design/changes/whats-new-in-version-2403#support-for-arm-64-operating-system-deployment) for Windows 11 on Surface Pro (11th Edition), Surface Laptop (7th Edition) and Surface Pro 9 with 5G. 
 
 ### Autopilot deployment 
 
@@ -175,7 +175,7 @@ The following tables show the availability of key features on Surface Pro 9 with
 | --------------------------------------------- | ----------------- | ----------------------------- | -------------------------- | ---------------------------- | -------------------------------------------------------------------------------------------------------------- |
 | Intune                                        | Yes               | Yes                           | Yes                        | Yes                          |                                                                                                                |
 | Windows Autopilot                             | Yes               | Yes                           | Yes                        | Yes                          |                                                                                                                |
-| Microsoft Entra ID (co-management)                      | Yes               | Yes                           | Yes                        | Yes                          | Ability to join ARM-based Surface devices to Microsoft Entra ID or Active Directory (Microsoft Entra hybrid join). |
+| Microsoft Entra ID (co-management)            | Yes               | Yes                           | Yes                        | Yes                          | Ability to join ARM-based Surface devices to Microsoft Entra ID or Active Directory (Microsoft Entra hybrid join). |
 | Endpoint Configuration Manager                | Yes               | Yes                           | Yes                        | Yes                          |                                                                                                                |
 | Power on When AC Restore                      | Yes               | Yes                           | Yes                        | Yes                          |                                                                                                                |
 | Surface Diagnostic Toolkit (SDT) for Business | Yes               | Yes                           | Yes                        | Yes                          |                                                                                                                |
