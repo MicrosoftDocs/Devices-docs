@@ -16,7 +16,7 @@ appliesto:
 
 
 
-## Why should I consider ARM processors for new Surface devices in my corporate environment?
+## Why should I consider Arm processors for new Surface devices in my corporate environment?
 
 Arm-based Surface devices offer exceptional performance, efficiency, and compatibility with both native and emulated applications. The Surface Pro (11th Edition) and Surface Laptop (7th Edition)), powered by the Snapdragon X series processors, provide outstanding battery life and seamless integration with productivity tools like Microsoft 365. Our advanced emulation engine, Prism, ensures smooth operation of x86/x64 applications, making it easier to transition without compromising on performance. The expanded support for native Arm64 apps allows your organization to use cutting-edge technology while maintaining compatibility with existing software.
 
@@ -32,7 +32,7 @@ The latest Qualcomm Snapdragon X series processors in the Surface Pro (11th Edit
 
 ## What is Prism?
 
-Prism is Microsoft's emulation technology that enables x86/x64 applications to run on Windows PCs with ARM processors. It seamlessly translates app code to run on Arm architecture, optimizing performance, and reducing CPU usage, ensuring a smooth user experience on devices powered by Snapdragon X series chips.
+Prism is Microsoft's emulation technology that enables x86/x64 applications to run on Windows PCs with Arm processors. It seamlessly translates app code to run on Arm architecture, optimizing performance, and reducing CPU usage, ensuring a smooth user experience on devices powered by Snapdragon X series chips.
 
 ## How do native and emulated apps differ on Windows on Arm?
 

@@ -1,6 +1,6 @@
 ---
-title: Deploy, manage, and service ARM processor-based Surface devices
-description: Learn how to deploy, manage, and service ARM-based Surface devices, including Surface Pro 11th Edition and Surface Laptop 7th Edition.
+title: Deploy, manage, and service Arm processor-based Surface devices
+description: Learn how to deploy, manage, and service Arm-based Surface devices, including Surface Pro 11th Edition and Surface Laptop 7th Edition.
 ms.service: windows-11
 ms.localizationpriority: high
 author: coveminer
@@ -13,9 +13,9 @@ appliesto:
 - Windows 10
 - Windows 11
 ---
-# Deploy, manage, and service ARM-based Surface devices
+# Deploy, manage, and service Arm-based Surface devices
 
-ARM-based Surface devices, including Surface Pro (11th Edition), Surface Laptop (7th Edition), Surface Pro 9 with 5G, and Surface Pro X, are engineered to meet high-performance commercial requirements.
+Arm-based Surface devices, including Surface Pro (11th Edition), Surface Laptop (7th Edition), Surface Pro 9 with 5G, and Surface Pro X, are engineered to meet high-performance commercial requirements.
 
 ### Image-based deployment now supported
 
@@ -23,7 +23,7 @@ Image-based Operating System Deployment (OSD) is now [supported via Endpoint Con
 
 ### Autopilot deployment 
 
-Deploy ARM-based Surface devices using Windows Autopilot with the help of a Microsoft Cloud Solution Provider. Or you can self-provision devices with Autopilot deployment profiles. Autopilot allows for zero-touch deployment using the factory-provisioned OS, enabling streamlined setup, including preinstallation of [Microsoft 365 Apps for enterprise](https://www.microsoft.com/microsoft-365/enterprise/microsoft-365-apps-for-enterprise). Organizations using modern management and security solutions can fully leverage the performance features of ARM-based Surface devices. Customers using modernized [line of business apps](/microsoft-store/working-with-line-of-business-apps), [Microsoft Store (UWP) apps](/windows/uwp/get-started/universal-application-platform-guide), or remote desktop solutions also stand to benefit.
+Deploy Arm-based Surface devices using Windows Autopilot with the help of a Microsoft Cloud Solution Provider. Or you can self-provision devices with Autopilot deployment profiles. Autopilot allows for zero-touch deployment using the factory-provisioned OS, enabling streamlined setup, including preinstallation of [Microsoft 365 Apps for enterprise](https://www.microsoft.com/microsoft-365/enterprise/microsoft-365-apps-for-enterprise). Organizations using modern management and security solutions can fully leverage the performance features of Arm-based Surface devices. Customers using modernized [line of business apps](/microsoft-store/working-with-line-of-business-apps), [Microsoft Store (UWP) apps](/windows/uwp/get-started/universal-application-platform-guide), or remote desktop solutions also stand to benefit.
 
 ### Manage firmware with UEFI Configurator and SEMM
 
@@ -31,46 +31,6 @@ With the [Surface IT Toolkit](surface-it-toolkit.md) and [Surface Enterprise Man
 
 > [!NOTE]
 > Commercial SKUs of Surface Pro (11th Edition) and Surface Laptop (7th Edition) begin shipping on September 10, 2024, from your [Microsoft Surface Authorized Reseller](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface).
-
-
-| Component              | Surface Pro (11th Edition)     | Surface Laptop (7th Edition) | Surface Pro 9 with 5G     | Surface Pro X     |
-|------------------------|--------------------------------|-----------------------------|---------------------------|-------------------|
-| **Accessories**        |                                |                             |                           |                   |
-| Docking USB Port       | On                             | On                          | On                        | n/a               |
-| On-board Audio         | On                             | On                          | On                        | n/a               |
-| On-board Microphone    | On                             | On                          | On                        | n/a               |
-| MAC Address Emulation  | Off                            | Off                         | Off                       | n/a               |
-| Type Cover             | On                             | On                          | On                        | n/a               |
-| **Cameras**            |                                |                             |                           |                   |
-| Front Camera           | On                             | On                          | On                        | n/a               |
-| Rear Camera            | On                             | On                          | On                        | n/a               |
-| IR Camera              | n/a                            | n/a                         | On                        | n/a               |
-| **Radio**              |                                |                             |                           |                   |
-| Bluetooth              | On                             | On                          | On                        | n/a               |
-| Wi-Fi                  | On                             | On                          | On                        | n/a               |
-| LTE                    | On                             | n/a                         | On                        | n/a               |
-| NFC                    | On                             | n/a                         | n/a                       | n/a               |
-| **Boot**               |                                |                             |                           |                   |
-| Wake on LAN            | Off                            | Off                         | Off                       | Off               |
-| Wake on Power          | Off                            | Off                         | Off                       | Off               |
-| IPv6 for PXE Boot      | Off                            | Off                         | Off                       | Off               |
-| Alternate Boot         | On                             | On                          | On                        | On                |
-| Boot Order Lock        | Off                            | Off                         | Off                       | Off               |
-| USB Boot               | On                             | On                          | On                        | On                |
-| Network Stack          | Off                            | Off                         | Off                       | Off               |
-| Auto Power On<sup>1</sup>         | n/a                            | n/a                         | n/a                       | Off               |
-| **USB-C Mode**         |                                |                             |                           |                   |
-| USB-C Port 1           | Mode 0, Mode 1, Mode 2         | Mode 0, Mode 1, Mode 2      | Mode 0, Mode 1, Mode 2    | n/a               |
-| **UEFI Front Page**    |                                |                             |                           |                   |
-| Security               | On                             | On                          | On                        | On                |
-| Devices                | On                             | On                          | On                        | n/a               |
-| Boot                   | On                             | On                          | On                        | On                |
-| DateTime               | On                             | On                          | On                        | n/a               |
-| **Kiosk Overrides**    |                                |                             |                           |                   |
-| Battery Limit          | Off                            | Off                         | Off                       | Off               |
-
-
-**1.** *Auto Power On is available only for Surface Pro X SQ1 LTE and Surface Pro X SQ2 LTE.*
 
 To learn more about managing firmware with SEMM, see:
 
@@ -81,7 +41,7 @@ To learn more about managing firmware with SEMM, see:
 
 ### Manage firmware with Intune and DFCI
 
-With Microsoft Intune and [Device Firmware Configuration Interface (DFCI) profiles](surface-manage-dfci-guide.md), you can manage hardware components at the firmware level for ARM-based Surface devices, similar to other Surface devices. To learn more, see [Manage DFCI on Surface devices](surface-manage-dfci-guide.md).
+With Microsoft Intune and [Device Firmware Configuration Interface (DFCI) profiles](surface-manage-dfci-guide.md), you can manage hardware components at the firmware level for Arm-based Surface devices, similar to other Surface devices. To learn more, see [Manage DFCI on Surface devices](surface-manage-dfci-guide.md).
 
 ### Manage with Microsoft Entra ID
 
@@ -93,15 +53,15 @@ After deployment via Autopilot, devices can be joined to Microsoft Entra ID or A
 
 ### Other MDM solutions
 
-Non-Microsoft MDM tools may be used to manage ARM-based Surface devices. For details, contact your MDM provider.
+Non-Microsoft MDM tools may be used to manage Arm-based Surface devices. For details, contact your MDM provider.
 
 ### Antivirus software
 
-Microsoft Defender protects Windows 10 and 11 on ARM-based PCs throughout the device's supported lifetime. While more non-Microsoft antivirus programs now support Arm-based PCs, confirm compatibility with your specific solution. Windows Security continues to offer comprehensive protection.
+Microsoft Defender protects Windows 10 and 11 on Arm-based PCs throughout the device's supported lifetime. While more non-Microsoft antivirus programs now support Arm-based PCs, confirm compatibility with your specific solution. Windows Security continues to offer comprehensive protection.
 
 ## Service and maintain
 
-ARM-based devices are designed to simplify the update process for drivers and firmware via Windows Update. Ensure the default settings are enabled to receive automatic updates:
+Arm-based devices are designed to simplify the update process for drivers and firmware via Windows Update. Ensure the default settings are enabled to receive automatic updates:
 
 1. Go to **Start** > **Settings > Update & Security > Windows Update** > **Advanced Options.**
 2. Under **Choose how updates are installed,** select **Automatic (recommended)**.
@@ -114,22 +74,22 @@ ARM-based devices are designed to simplify the update process for drivers and fi
 
 ## App compatibility
 
-Most apps run smoothly on ARM-based Windows 11 PCs, with a few exceptions.
+Most apps run smoothly on Arm-based Windows 11 PCs, with a few exceptions.
 
 ### Supported apps
 
-- **x86 Win32 apps**: Most run seamlessly on ARM-based Surface devices, benefiting from advanced emulation technology.
-- **Native Arm64 and Microsoft Store UWP apps**: These apps deliver an outstanding experience, leveraging the full native speed of the ARM-based processor while optimizing battery life. Native Arm64 app availability continues to grow, including popular applications like Adobe Photoshop and Adobe Lightroom.
-- **Driver-supported apps**: Apps that rely on drivers specifically designed for ARM-based Windows 10 or Windows 11 PCs are fully supported.
-- **x64 emulation**: Now generally available in Windows 11, x64 emulation allows broader app compatibility, enabling many x64 apps to run effectively on ARM-based devices.
+- **x86 Win32 apps**: Most run seamlessly on Arm-based Surface devices, benefiting from advanced emulation technology.
+- **Native Arm64 and Microsoft Store UWP apps**: These apps deliver an outstanding experience, leveraging the full native speed of the Arm-based processor while optimizing battery life. Native Arm64 app availability continues to grow, including popular applications like Adobe Photoshop and Adobe Lightroom.
+- **Driver-supported apps**: Apps that rely on drivers specifically designed for Arm-based Windows 10 or Windows 11 PCs are fully supported.
+- **x64 emulation**: Now generally available in Windows 11, x64 emulation allows broader app compatibility, enabling many x64 apps to run effectively on Arm-based devices.
 
 ### FastTrack App Assure
 
-The App Assure program is available to commercial customers for their LOB, ISV, and Microsoft first-party apps targeting Windows 10 or Windows 11 on ARM. If you encounter an app compatibility issue, Microsoft provides developer resources to troubleshoot and assist with app remediations at no extra cost. To learn more, visit [aka.ms/AppAssure](/fasttrack/products-and-capabilities#app-assure).
+The App Assure program is available to commercial customers for their LOB, ISV, and Microsoft first-party apps targeting Windows 10 or Windows 11 on Arm. If you encounter an app compatibility issue, Microsoft provides developer resources to troubleshoot and assist with app remediations at no extra cost. To learn more, visit [aka.ms/AppAssure](/fasttrack/products-and-capabilities#app-assure).
 
-For more information about running apps on ARM-based devices, see:
+For more information about running apps on Arm-based devices, see:
 
-- [Windows on ARM documentation](/windows/arm)
+- [Windows on Arm documentation](/windows/arm)
 
 ## Virtual Desktops (VDI)
 
@@ -137,25 +97,25 @@ Azure Virtual Desktop enables access to Windows desktops, applications, and data
 
 ### Browsing
 
-Popular browsers are supported on ARM-based Surface devices:
+Popular browsers are supported on Arm-based Surface devices:
 
 - Microsoft Edge, Firefox, Chrome, and Internet Explorer run on Surface Pro 9 with 5G and Surface Pro X.
-- Firefox and Microsoft Edge (Chromium) run natively with enhanced performance on ARM-based Windows 10 or Windows 11 PCs.
+- Firefox and Microsoft Edge (Chromium) run natively with enhanced performance on Arm-based Windows 10 or Windows 11 PCs.
 
 ### Installing and using Microsoft Office
 
-- Use Microsoft 365 for the best experience on ARM-based Windows 10 or Windows 11 PCs.
-- Microsoft 365 "click-to-run" installs Outlook, Word, Excel, and PowerPoint optimized for ARM-based processors.
+- Use Microsoft 365 for the best experience on Arm-based Windows 10 or Windows 11 PCs.
+- Microsoft 365 "click-to-run" installs Outlook, Word, Excel, and PowerPoint optimized for Arm-based processors.
 - Microsoft Teams runs natively on Surface Pro 9 with 5G and Surface Pro X.
 - For "[perpetual versions](/microsoft-365/troubleshoot/installation/office-perpetual-volume-license-products)" of Office, such as Office 2021, install the 32-bit version.
 
 ### VPN
 
-To confirm if a specific third-party VPN supports ARM-based Windows 10 or Windows 11 PCs, contact the VPN provider.
+To confirm if a specific third-party VPN supports Arm-based Windows 10 or Windows 11 PCs, contact the VPN provider.
 
 ## Feature summary
 
-The following tables show the availability of key features on Surface Pro 9 with 5G and Surface Pro X with Windows 10 or Windows 11 on ARM.
+The following tables show the availability of key features on Surface Pro 9 with 5G and Surface Pro X with Windows 10 or Windows 11 on Arm.
 
 ### Deployment
 
@@ -165,7 +125,7 @@ The following tables show the availability of key features on Surface Pro 9 with
 | Windows Autopilot                                                 | Yes               | Yes                        | Yes                        | Yes                          | Recommended deployment option                                                                                                                                                     |
 | Support for Network Boot (PXE)                                    | No                | No                         | No                         | No                           |                                                                                                                                                                                  |
 | Windows Configuration Designer                                    | No                | No                         | No                         | No                           |                                                                                                              |
-| WinPE                                                             | No                | No                         | No                         | No                           | Not recommended. Microsoft doesn't provide the necessary .ISO and drivers to support WinPE with ARM-based Surface devices. |
+| WinPE                                                             | No                | No                         | No                         | No                           | Not recommended. Microsoft doesn't provide the necessary .ISO and drivers to support WinPE with Arm-based Surface devices. |
 | Operating System Deployment (OSD)                                 | No                | Yes                        | Yes                        | Yes                          | Supported with Windows 11 on Surface Pro 9 with 5G, Surface Pro (11th Edition), and Surface Laptop (7th Edition).                                                                                                                               |
 | MDT                                                               | No                | No                         | No                         | No                           | Not supported on Windows 11, including x86 Windows 11.                                                                                                                         |
 
@@ -175,7 +135,7 @@ The following tables show the availability of key features on Surface Pro 9 with
 | --------------------------------------------- | ----------------- | ----------------------------- | -------------------------- | ---------------------------- | -------------------------------------------------------------------------------------------------------------- |
 | Intune                                        | Yes               | Yes                           | Yes                        | Yes                          |                                                                                                                |
 | Windows Autopilot                             | Yes               | Yes                           | Yes                        | Yes                          |                                                                                                                |
-| Microsoft Entra ID (co-management)            | Yes               | Yes                           | Yes                        | Yes                          | Ability to join ARM-based Surface devices to Microsoft Entra ID or Active Directory (Microsoft Entra hybrid join). |
+| Microsoft Entra ID (co-management)            | Yes               | Yes                           | Yes                        | Yes                          | Ability to join Arm-based Surface devices to Microsoft Entra ID or Active Directory (Microsoft Entra hybrid join). |
 | Endpoint Configuration Manager                | Yes               | Yes                           | Yes                        | Yes                          |                                                                                                                |
 | Power on When AC Restore                      | Yes               | Yes                           | Yes                        | Yes                          |                                                                                                                |
 | Surface Diagnostic Toolkit (SDT) for Business | Yes               | Yes                           | Yes                        | Yes                          |                                                                                                                |
@@ -190,17 +150,17 @@ The following tables show the availability of key features on Surface Pro 9 with
 | ----------------------------- | ------------- | --------------------- | -------------------------- | ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | BitLocker                     | Yes           | Yes                   | Yes                        | Yes                          |                                                                                                                                                                          |
 | Microsoft Defender            | Yes           | Yes                   | Yes                        | Yes                          |                                                                                                                                                                          |
-| Support for third-party antivirus | See note      | See note               | See note                   | See note                     | Some third-party antivirus software can't be installed on an ARM-based processor. Contact your antivirus software provider about app availability. |
+| Support for third-party antivirus | See note      | See note               | See note                   | See note                     | Some third-party antivirus software can't be installed on an Arm-based processor. Contact your antivirus software provider about app availability. |
 | Secure Boot                   | Yes           | Yes                   | Yes                        | Yes                          |                                                                                                                                                                          |
 | Windows Information Protection| Yes           | Yes                   | Yes                        | Yes                          |                                                                                                                                                                          |
 | Surface Data Eraser (SDE)     | Yes           | Yes                   | Yes                        | Yes                          |                                                                                                                                                                          |
 ## FAQ
 
-**Can I deploy ARM-based Surface devices with Endpoint Configuration Manager?**
+**Can I deploy Arm-based Surface devices with Endpoint Configuration Manager?**
 
 - Microsoft Endpoint Configuration Manager now [supports Operating System Deployment](/mem/configmgr/core/plan-design/changes/whats-new-in-version-2403#support-for-arm-64-operating-system-deployment) for Windows 11 on Surface Pro 9 with 5G, Surface Pro (11th Edition), and Surface Laptop (7th Edition).
 
-**How can I deploy ARM-based Surface devices?**
+**How can I deploy Arm-based Surface devices?**
 
 - Deploy Surface Pro (11th Edition), Surface Laptop (7th Edition), or Surface Pro 9 with 5G via OSD or Windows Autopilot. 
 - Deploy Surface Pro X via Windows Autopilot.
@@ -209,6 +169,6 @@ The following tables show the availability of key features on Surface Pro 9 with
 
 - Yes, BMR recovery images are available when devices begin shipping. Refer to [Download a recovery image for your Surface](https://support.microsoft.com/surfacerecoveryimage).
 
-**Is Intune required to manage ARM-based Surface devices?**
+**Is Intune required to manage Arm-based Surface devices?**
 
-- Intune is recommended but not required. Once deployed via Autopilot, you can join ARM-based Surface devices to Microsoft Entra ID or Active Directory (Microsoft Entra hybrid join), where you can manage the devices with Intune or co-manage them with Endpoint Configuration Manager, which installs the 32-bit x86 ConfigMgr client.
+- Intune is recommended but not required. Once deployed via Autopilot, you can join Arm-based Surface devices to Microsoft Entra ID or Active Directory (Microsoft Entra hybrid join), where you can manage the devices with Intune or co-manage them with Endpoint Configuration Manager, which installs the 32-bit x86 ConfigMgr client.
