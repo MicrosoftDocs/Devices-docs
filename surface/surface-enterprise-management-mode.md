@@ -41,6 +41,7 @@ SEMM is only available on devices with Surface UEFI firmware including:
 - Surface Go 2 (all SKUs)
 - Surface Go (all SKUs)
 - Surface Hub 2S
+- Surface Laptop (7th Edition) (commercial SKUs only)
 - Surface Laptop 6 (commercial SKUs only)
 - Surface Laptop 5 (commercial SKUs only)
 - Surface Laptop 4 (commercial SKUs only)
@@ -53,6 +54,7 @@ SEMM is only available on devices with Surface UEFI firmware including:
 - Surface Laptop SE (all SKUs)
 - Surface Laptop Studio 2 (commercial SKUs only)
 - Surface Laptop Studio (commercial SKUs only)
+- Surface Pro (11th Edition) (commercial SKUs only)
 - Surface Pro 10 (commercial SKUs only)
 - Surface Pro 9 (commercial SKUs only)
 - Surface Pro 9 with 5G (commercial SKUs only)
