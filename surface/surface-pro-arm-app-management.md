@@ -19,11 +19,11 @@ Arm-based Surface devices, including Surface Pro (11th Edition), Surface Laptop 
 
 ### Image-based deployment now supported
 
-Image-based Operating System Deployment (OSD) is now [supported via Endpoint Configuration Manager](/mem/configmgr/core/plan-design/changes/whats-new-in-version-2403#support-for-arm-64-operating-system-deployment) for Windows 11 on Surface Pro (11th Edition), Surface Laptop (7th Edition) and Surface Pro 9 with 5G. 
+Image-based Operating System Deployment (OSD) is now [supported via Endpoint Configuration Manager](/mem/configmgr/core/plan-design/changes/whats-new-in-version-2403#support-for-arm-64-operating-system-deployment) for Windows 11 on Surface Pro (11th Edition), Surface Laptop (7th Edition), and Surface Pro 9 with 5G. 
 
 ### Autopilot deployment 
 
-Deploy Arm-based Surface devices using Windows Autopilot with the help of a Microsoft Cloud Solution Provider. Or you can self-provision devices with Autopilot deployment profiles. Autopilot allows for zero-touch deployment using the factory-provisioned OS, enabling streamlined setup, including preinstallation of [Microsoft 365 Apps for enterprise](https://www.microsoft.com/microsoft-365/enterprise/microsoft-365-apps-for-enterprise). Organizations using modern management and security solutions can fully use the performance features of Arm-based Surface devices. Customers using modernized [line of business apps](/microsoft-store/working-with-line-of-business-apps), [Microsoft Store (UWP) apps](/windows/uwp/get-started/universal-application-platform-guide), or remote desktop solutions also stand to benefit.
+Deploy Arm-based Surface devices using Windows Autopilot with the help of a Microsoft Cloud Solution Provider. Or you can self-provision devices with Autopilot deployment profiles. Autopilot allows for zero-touch deployment using the factory-provisioned OS, enabling streamlined setup, including preinstallation of [Microsoft 365 Apps for enterprise](https://www.microsoft.com/microsoft-365/enterprise/microsoft-365-apps-for-enterprise). Organizations using modern management and security solutions can fully use the performance features of Arm-based Surface devices. Customers using modernized [line of business apps](/microsoft-store/working-with-line-of-business-apps), [Microsoft Store apps](/windows/uwp/get-started/universal-application-platform-guide), or remote desktop solutions also stand to benefit.
 
 ### Manage firmware with UEFI Configurator and SEMM
 
@@ -53,7 +53,7 @@ After deployment via Autopilot, devices can be joined to Microsoft Entra ID or A
 
 ### Other MDM solutions
 
-Non-Microsoft MDM tools may be used to manage Arm-based Surface devices. For details, contact your MDM provider.
+Contact your MDM provider for details about how you can manage Arm-based Surface devices.
 
 ### Antivirus software
 
