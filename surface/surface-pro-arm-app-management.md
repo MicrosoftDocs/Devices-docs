@@ -114,23 +114,23 @@ Popular browsers are supported on Arm-based Surface devices:
 
 To confirm if a specific third-party VPN supports Arm-based Windows 10 or Windows 11 PCs, contact the VPN provider.
 
-## Feature summary
+## Feature summary for Arm-based Surface devices
 
-The following tables show the availability of key features on Surface Pro 9 with 5G and Surface Pro X with Windows 10 or Windows 11 on Arm.
+The following tables show the availability of key features on Arm-based Surface devices and Windows 11 on Arm.
 
-### Deployment
+### Deployment features 
 
 
 | Feature                                                           | Surface Pro X     | Surface Pro 9 with 5G      | Surface Pro (11th Edition) | Surface Laptop (7th Edition) | Notes                                                                                                                                                                            |
 | ----------------------------------------------------------------- | ----------------- | -------------------------- | -------------------------- | ---------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Windows Autopilot                                                 | Yes               | Yes                        | Yes                        | Yes                          | Recommended deployment option                                                                                                                                                     |
-| Support for Network Boot (PXE)                                    | No                | No                         | No                         | No                           |                                                                                                                                                                                  |
+| Support for Network Boot (PXE)                                    | No                | Yes                        | Yes                        | Yes                           |                                                                                                                                                                                  |
 | Windows Configuration Designer                                    | No                | No                         | No                         | No                           |                                                                                                              |
 | WinPE                                                             | No                | No                         | No                         | No                           | Not recommended. Microsoft doesn't provide the necessary .ISO and drivers to support WinPE with Arm-based Surface devices. |
 | Operating System Deployment (OSD)                                 | No                | Yes                        | Yes                        | Yes                          | Supported with Windows 11 on Surface Pro 9 with 5G, Surface Pro (11th Edition), and Surface Laptop (7th Edition).                                                                                                                               |
 | MDT                                                               | No                | No                         | No                         | No                           | Not supported on Windows 11, including x86 Windows 11.                                                                                                                         |
 
-### Management
+### Management tools and options 
 
 | Feature                                       | Surface Pro X     | Surface Pro 9 with 5G         | Surface Pro (11th Edition) | Surface Laptop (7th Edition) | Notes                                                                                                      |
 | --------------------------------------------- | ----------------- | ----------------------------- | -------------------------- | ---------------------------- | -------------------------------------------------------------------------------------------------------------- |
@@ -145,7 +145,7 @@ The following tables show the availability of key features on Surface Pro 9 with
 | Surface UEFI Configurator                     | No                | Yes                           | Yes                        | Yes                          |                                                           |
 | Surface UEFI Manager                          | Partial           | Yes                           | Yes                        | Yes                          |                                                            |
 
-### Security
+### Security capabilities 
 
 | Feature                       | Surface Pro X | Surface Pro 9 with 5G | Surface Pro (11th Edition) | Surface Laptop (7th Edition) | Notes                                                                                                                                                                    |
 | ----------------------------- | ------------- | --------------------- | -------------------------- | ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -155,6 +155,7 @@ The following tables show the availability of key features on Surface Pro 9 with
 | Secure Boot                   | Yes           | Yes                   | Yes                        | Yes                          |                                                                                                                                                                          |
 | Windows Information Protection| Yes           | Yes                   | Yes                        | Yes                          |                                                                                                                                                                          |
 | Surface Data Eraser (SDE)     | Yes           | Yes                   | Yes                        | Yes                          |                                                                                                                                                                          |
+
 ## FAQ
 
 **Can I deploy Arm-based Surface devices with Endpoint Configuration Manager?**
