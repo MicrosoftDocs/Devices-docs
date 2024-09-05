@@ -6,8 +6,8 @@ ms.localizationpriority: high
 author: coveminer
 ms.author: chauncel
 ms.topic: how-to
-ms.date: 9/04/2024
-ms.reviewer: Karand 
+ms.date: 9/05/2024
+ms.reviewer: karand 
 manager: frankbu
 appliesto:
 - Windows 10
@@ -23,7 +23,7 @@ Image-based Operating System Deployment (OSD) is now [supported via Endpoint Con
 
 ### Autopilot deployment 
 
-Deploy Arm-based Surface devices using Windows Autopilot with the help of a Microsoft Cloud Solution Provider. Or you can self-provision devices with Autopilot deployment profiles. Autopilot allows for zero-touch deployment using the factory-provisioned OS, enabling streamlined setup, including preinstallation of [Microsoft 365 Apps for enterprise](https://www.microsoft.com/microsoft-365/enterprise/microsoft-365-apps-for-enterprise). Organizations using modern management and security solutions can fully leverage the performance features of Arm-based Surface devices. Customers using modernized [line of business apps](/microsoft-store/working-with-line-of-business-apps), [Microsoft Store (UWP) apps](/windows/uwp/get-started/universal-application-platform-guide), or remote desktop solutions also stand to benefit.
+Deploy Arm-based Surface devices using Windows Autopilot with the help of a Microsoft Cloud Solution Provider. Or you can self-provision devices with Autopilot deployment profiles. Autopilot allows for zero-touch deployment using the factory-provisioned OS, enabling streamlined setup, including preinstallation of [Microsoft 365 Apps for enterprise](https://www.microsoft.com/microsoft-365/enterprise/microsoft-365-apps-for-enterprise). Organizations using modern management and security solutions can fully use the performance features of Arm-based Surface devices. Customers using modernized [line of business apps](/microsoft-store/working-with-line-of-business-apps), [Microsoft Store (UWP) apps](/windows/uwp/get-started/universal-application-platform-guide), or remote desktop solutions also stand to benefit.
 
 ### Manage firmware with UEFI Configurator and SEMM
 
@@ -68,7 +68,7 @@ Arm-based devices are designed to simplify the update process for drivers and fi
 
 ### Recommendations for commercial customers
 
-- Use Windows Update or Windows Update for Business to maintain the latest drivers and firmware. For more information, see [Deploy Updates using Windows Update for Business](/windows/deployment/update/waas-manage-updates-wufb).
+- Use Windows Update or Windows Update for Business to maintain the latest drivers and firmware. For more information, see [What is Windows Update for Business?](/windows/deployment/update/waas-manage-updates-wufb).
 - For more information about deploying and managing updates on Surface devices, see [Manage and deploy Surface driver and firmware updates](/surface/manage-surface-driver-and-firmware-updates).
 - Windows Server Update Services (WSUS) doesn't support the delivery of drivers and firmware to Surface Pro 9 with 5G and Surface Pro X.
 
@@ -80,11 +80,11 @@ Most apps run smoothly on Arm-based Windows 11 PCs, with a few exceptions.
 
 - **x86 Win32 apps**: Most run seamlessly on Arm-based Surface devices, benefiting from advanced emulation technology.
 - **Native Arm64 and Microsoft Store UWP apps**: These apps deliver an outstanding experience, leveraging the full native speed of the Arm-based processor while optimizing battery life. Native Arm64 app availability continues to grow, including popular applications like Adobe Photoshop and Adobe Lightroom.
-- **Driver-supported apps**: Apps that rely on drivers specifically designed for Arm-based Windows 10 or Windows 11 PCs are fully supported.
+- **Driver-supported apps**: Apps that rely on drivers designed for Arm-based Windows 10 or Windows 11 PCs are fully supported.
 - **x64 emulation**: Now generally available in Windows 11, x64 emulation allows broader app compatibility, enabling many x64 apps to run effectively on Arm-based devices.
 - To learn more, see [Arm-based Surface devices FAQ](surface-arm-faq.md)
 
-### FastTrack App Assure
+### App Assure program
 
 The App Assure program is available to commercial customers for their LOB, ISV, and Microsoft first-party apps targeting Windows 10 or Windows 11 on Arm. If you encounter an app compatibility issue, Microsoft provides developer resources to troubleshoot and assist with app remediations at no extra cost. To learn more, visit [aka.ms/AppAssure](/fasttrack/products-and-capabilities#app-assure).
 
@@ -112,7 +112,7 @@ Popular browsers are supported on Arm-based Surface devices:
 
 ### VPN
 
-To confirm if a specific third-party VPN supports Arm-based Windows 10 or Windows 11 PCs, contact the VPN provider.
+To confirm if a specific VPN supports Arm-based Windows 10 or Windows 11 PCs, contact the VPN provider.
 
 ## Feature summary for Arm-based Surface devices
 
@@ -124,10 +124,10 @@ The following tables show the availability of key features on Arm-based Surface 
 | Feature                                                           | Surface Pro X     | Surface Pro 9 with 5G      | Surface Pro (11th Edition) | Surface Laptop (7th Edition) | Notes                                                                                                                                                                            |
 | ----------------------------------------------------------------- | ----------------- | -------------------------- | -------------------------- | ---------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Windows Autopilot                                                 | Yes               | Yes                        | Yes                        | Yes                          | Recommended deployment option                                                                                                                                                     |
-| Support for Network Boot (PXE)                                    | No                | Yes                        | Yes                        | Yes                           |                                                                                                                                                                                  |
+| Network Boot (PXE)                                    | No                | Yes                        | Yes                        | Yes                           |                                                                                                                                                                                  |
 | Windows Configuration Designer                                    | Yes               | Yes                        | Yes                        | Yes                           |                                                                                                              |
 | WinPE                                                             | Yes               | Yes                       | Yes                        | Yes                           | Not recommended. Microsoft doesn't provide the necessary .ISO and drivers to support WinPE with Arm-based Surface devices. |
-| Operating System Deployment (OSD)                                 | No                | Yes                        | Yes                        | Yes                          | Supported with Windows 11 on Surface Pro 9 with 5G, Surface Pro (11th Edition), and Surface Laptop (7th Edition).                                                                                                                               |
+| Operating System Deployment                                        | No                | Yes                        | Yes                        | Yes                          | Supported with Windows 11 on Surface Pro 9 with 5G, Surface Pro (11th Edition), and Surface Laptop (7th Edition).                                                                                                                               |
 | MDT                                                               | No                | No                         | No                         | No                           | Not supported on Windows 11, including x86 Windows 11.                                                                                                                         |
 
 ### Management tools and options 
@@ -151,10 +151,10 @@ The following tables show the availability of key features on Arm-based Surface 
 | ----------------------------- | ------------- | --------------------- | -------------------------- | ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | BitLocker                     | Yes           | Yes                   | Yes                        | Yes                          |                                                                                                                                                                          |
 | Microsoft Defender            | Yes           | Yes                   | Yes                        | Yes                          |                                                                                                                                                                          |
-| Support for third-party antivirus | See note      | See note               | See note                   | See note                     | Some third-party antivirus software can't be installed on an Arm-based processor. Contact your antivirus software provider about app availability. |
+| Support for non-Microsoft antivirus softeware | See note      | See note               | See note                   | See note                | Some non-Microsoft antivirus software can't be installed on an Arm-based processor. Contact your antivirus software provider about app availability. |
 | Secure Boot                   | Yes           | Yes                   | Yes                        | Yes                          |                                                                                                                                                                          |
 | Windows Information Protection| Yes           | Yes                   | Yes                        | Yes                          |                                                                                                                                                                          |
-| Surface Data Eraser (SDE)     | Yes           | Yes                   | Yes                        | Yes                          |                                                                                                                                                                          |
+| Surface Data Eraser     | Yes           | Yes                   | Yes                        | Yes                          |                                                                                                                                                                          |
 
 ## FAQ
 
@@ -169,8 +169,15 @@ The following tables show the availability of key features on Arm-based Surface 
 
 **Is a recovery image available?**
 
-- Yes, BMR recovery images are available when devices begin shipping. Refer to [Download a recovery image for your Surface](https://support.microsoft.com/surfacerecoveryimage).
+- Yes, when devices begin shipping, go to [Download a recovery image for your Surface](https://support.microsoft.com/surfacerecoveryimage) for all available BMRs.
 
 **Is Intune required to manage Arm-based Surface devices?**
 
-- Intune is recommended but not required. Once deployed via Autopilot, you can join Arm-based Surface devices to Microsoft Entra ID or Active Directory (Microsoft Entra hybrid join), where you can manage the devices with Intune or co-manage them with Endpoint Configuration Manager, which installs the 32-bit x86 ConfigMgr client.
+- Intune is recommended but not required. Once deployed via Autopilot, you can join Arm-based Surface devices to Microsoft Entra ID or Active Directory (Microsoft Entra hybrid join). This enables you to manage your devices with Intune or co-manage them with Endpoint Configuration Manager, which installs the 32-bit x86 ConfigMgr client.
+
+### Learn more
+
+- [Arm-based Surface devices FAQ](surface-arm-faq)
+- [Windows on Arm documentation](/windows/arm/overview)
+- [App Assure](https://www.microsoft.com/fasttrack/microsoft-365/app-assure)
+- [Qualcomm: Windows on Snapdragon](https://www.qualcomm.com/developer/windows-on-snapdragon/overview)
