@@ -30,7 +30,7 @@ The latest Qualcomm Snapdragon X series processors in the Surface Pro (11th Edit
 
 ## What is Prism?
 
-Prism is Microsoft's emulation technology that enables x86/x64 applications to run on Windows PCs with Arm processors. It seamlessly translates app code to run on Arm architecture, optimizing performance, and reducing CPU usage, ensuring a smooth user experience on devices powered by Snapdragon X series chips.
+Prism is Microsoft's emulation technology that enables x86/x64 applications to run on Windows PCs with Arm processors, including Surface Pro (11th Edition), Surface Pro 9 with 5G, Surface Pro X, and Surface Laptop (7th Edition). It seamlessly translates app code to run on Arm architecture, optimizing performance, and reducing CPU usage, ensuring a smooth user experience on devices powered by Snapdragon X series chips.
 
 ## How do native and emulated apps differ on Windows on Arm?
 
@@ -41,6 +41,11 @@ Prism is Microsoft's emulation technology that enables x86/x64 applications to r
 ## What's the performance for emulated apps?  
 
 Prism automatically handles x86/x64 apps, translating their code for the Arm architecture. Significant optimizations improve performance and reduced CPU usage compared to previous generations. While apps requiring non-Arm drivers might not function, we've worked extensively with partners to migrate apps to run natively on Arm64. Most x64 applications are expected to perform comparably to native apps under emulation.
+
+### How does emulation affect battery life? 
+
+Battery life is always dependent on the user’s workload. We have invested in emulation efficiency and native apps to bring great performance and battery life. Apps that have a heavy demand on system resources will drain the battery faster.
+
 
 ## Where can I get help with app compatibility?
 
