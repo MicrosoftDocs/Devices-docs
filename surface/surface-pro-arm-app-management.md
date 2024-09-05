@@ -79,7 +79,7 @@ Most apps run smoothly on Arm-based Windows 11 PCs, with a few exceptions.
 ### Supported apps
 
 - **x86 Win32 apps**: Most run seamlessly on Arm-based Surface devices, benefiting from advanced emulation technology.
-- **Native Arm64 and Microsoft Store UWP apps**: These apps deliver an outstanding experience, leveraging the full native speed of the Arm-based processor while optimizing battery life. Native Arm64 app availability continues to grow, including popular applications like Adobe Photoshop and Adobe Lightroom.
+- **Native Arm64 and Microsoft Store UWP apps**: These apps deliver an outstanding experience, using the full native speed of the Arm-based processor while optimizing battery life. Native Arm64 app availability continues to grow, including popular applications like Adobe Photoshop and Adobe Lightroom.
 - **Driver-supported apps**: Apps that rely on drivers designed for Arm-based Windows 10 or Windows 11 PCs are fully supported.
 - **x64 emulation**: Now generally available in Windows 11, x64 emulation allows broader app compatibility, enabling many x64 apps to run effectively on Arm-based devices.
 - To learn more, see [Arm-based Surface devices FAQ](surface-arm-faq.md)
@@ -106,7 +106,7 @@ Popular browsers are supported on Arm-based Surface devices:
 ### Installing and using Microsoft Office
 
 - Use Microsoft 365 for the best experience on Arm-based Windows 10 or Windows 11 PCs.
-- Microsoft 365 "click-to-run" installs Outlook, Word, Excel, and PowerPoint optimized for Arm-based processors.
+- Microsoft 365 "select-to-run" installs Outlook, Word, Excel, and PowerPoint optimized for Arm-based processors.
 - Microsoft Teams runs natively on Surface Pro 9 with 5G and Surface Pro X.
 - For "[perpetual versions](/microsoft-365/troubleshoot/installation/office-perpetual-volume-license-products)" of Office, such as Office 2021, install the 32-bit version.
 
@@ -151,7 +151,7 @@ The following tables show the availability of key features on Arm-based Surface 
 | ----------------------------- | ------------- | --------------------- | -------------------------- | ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | BitLocker                     | Yes           | Yes                   | Yes                        | Yes                          |                                                                                                                                                                          |
 | Microsoft Defender            | Yes           | Yes                   | Yes                        | Yes                          |                                                                                                                                                                          |
-| Support for non-Microsoft antivirus softeware | See note      | See note               | See note                   | See note                | Some non-Microsoft antivirus software can't be installed on an Arm-based processor. Contact your antivirus software provider about app availability. |
+| Support for non-Microsoft antivirus software | See note      | See note               | See note                   | See note                | Some non-Microsoft antivirus software can't be installed on an Arm-based processor. Contact your antivirus software provider about app availability. |
 | Secure Boot                   | Yes           | Yes                   | Yes                        | Yes                          |                                                                                                                                                                          |
 | Windows Information Protection| Yes           | Yes                   | Yes                        | Yes                          |                                                                                                                                                                          |
 | Surface Data Eraser     | Yes           | Yes                   | Yes                        | Yes                          |                                                                                                                                                                          |
