@@ -220,11 +220,11 @@
           href: dma-protect.md   
         - name: Considerations for Surface & Endpoint Configuration Manager
           href: considerations-for-surface-and-system-center-configuration-manager.md
-      - name: ARM devices
+      - name: Arm devices
         items:          
-        - name: Deploy, manage, & service ARM-based Surface devices
+        - name: Deploy, manage, & service Arm-based Surface devices
           href: surface-pro-arm-app-management.md
-        - name: ARM-based Surface devices FAQ
+        - name: Arm-based Surface devices FAQ
           href: surface-arm-faq.md
       - name: Accessories
         items:
