@@ -46,7 +46,7 @@ With Surface portals, you can:
 
 ## Surface Management Portal
 
-Commercial customers can use the [Surface Management Portal](surface-management-portal.md) to self-serve their Surface devices’ service requests within the Microsoft Intune admin center.
+Commercial customers managing tenants via Microsoft Intune can use the [Surface Management Portal](surface-management-portal.md) to handle service requests for Surface devices.
 
 :::image type="content" source="images/surface-management-portal.png" alt-text="Screenshot of Microsoft Surface Management Portal.":::
 
@@ -55,7 +55,7 @@ Commercial customers can use the [Surface Management Portal](surface-management-
 
 ## Surface Support Portal
 
-Microsoft 365 Business customers are eligible to use the Surface Support Portal to self-serve their Surface devices’ service requests within the Microsoft 365 Admin Center.
+Microsoft 365 Business customers can use the [Surface Support Portal](surface-support-portal.md) to handle service requests for Surface devices.
 
 1. Sign in to the [Surface Support Portal - Microsoft 365 admin center](https://admin.microsoft.com/AdminPortal#/support/microsoftsurfacesupport).
 
