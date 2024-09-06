@@ -51,6 +51,8 @@ Surface devices with support for WOL:
 - Surface Pro 9
 - Surface Pro 9 with 5G
 - Surface Pro 10
+- Surface Pro 10 with 5G
+- Surface Pro (11th Edition)
 - Surface Book (all generations)
 - Surface Go (all generations)
 - Surface Laptop (all generations)
