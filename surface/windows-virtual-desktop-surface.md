@@ -1,12 +1,12 @@
 ---
 title: Azure Virtual Desktop on Surface
-description: This article explains how Surface devices deliver an ideal end node for Azure Virtual Desktop solutions, providing customers with flexible form factors, Windows 11 modern device security and manageability, and support for persistent, on-demand & just-in-time work scenarios. 
+description: Explore Azure Virtual Desktop on Surface—blend local and virtual desktops with enhanced security, flexibility, and productivity for seamless user experiences. 
 ms.service: surface
 ms.localizationpriority: medium
 author: coveminer
 ms.author: chauncel
 ms.topic: how-to
-ms.date: 10/19/2021
+ms.date: 09/06/2024
 ms.reviewer: rohenr
 manager: frankbu
 appliesto:
@@ -16,11 +16,11 @@ appliesto:
 
 # Azure Virtual Desktop on Surface
 
-Azure Virtual Desktop on Surface lets you run Virtual Desktop Infrastructure (VDI) on a Surface device — blurring the lines between the local desktop experience and the virtual desktop where touch, pen, ink, and biometric authentication span both physical and virtual environments. Representing another milestone in the evolution of computing, Azure Virtual Desktop on Surface <a href="#1"><sup>1</sup></a> combines Microsoft 365 — virtualized in the Azure cloud — with the advanced security protections, enterprise-level manageability, and enhanced productivity tools of Windows 10 or Windows 11 on Surface. This fusion of premium form factors and Virtual Desktop Infrastructure in Azure equips organizations to deliver advanced user experiences, portability, security, business continuity, and modern management.
+Azure Virtual Desktop on Surface lets you run Virtual Desktop Infrastructure (VDI) on a Surface device — blurring the lines between the local desktop experience and the virtual desktop where touch, pen, ink, and biometric authentication span both physical and virtual environments. Representing another milestone in the evolution of computing, Azure Virtual Desktop on Surface <a href="#1"><sup>1</sup></a> combines Microsoft 365 — virtualized in the Azure cloud — with the advanced security protections, enterprise-level manageability, and enhanced productivity tools of Windows 11 on Surface. This fusion of premium form factors and Virtual Desktop Infrastructure in Azure equips organizations to deliver advanced user experiences, portability, security, business continuity, and modern management.
 
 ### Azure Virtual Desktop
 
-Azure Virtual Desktop (AVD) is a comprehensive desktop and app virtualization service running in the Azure cloud. It's the only virtual desktop infrastructure that delivers simplified management, multi-session Windows 10 or Windows 11, optimizations for [Microsoft 365 Apps](https://www.microsoft.com/microsoft-365) and support for Remote Desktop Services (RDS) environments. With AVD, you can quickly deploy and scale Windows desktops and apps on Azure and get built-in security and compliance features.
+Azure Virtual Desktop (AVD) is a comprehensive desktop and app virtualization service running in the Azure cloud. It's the only virtual desktop infrastructure that delivers simplified management, multi-session Windows 11, optimizations for [Microsoft 365 Apps](https://www.microsoft.com/microsoft-365) and support for Remote Desktop Services (RDS) environments. With AVD, you can quickly deploy and scale Windows desktops and apps on Azure and get built-in security and compliance features.
 
 ### Azure Virtual Desktop partner integrations
 
@@ -28,9 +28,9 @@ For a list of approved partner providers and independent software vendors, visit
 
 ## Microsoft Surface Devices
 
-Surface engineering has long set new standards for innovation by going beyond the keyboard and mouse to imagine more natural ways of interacting with devices, whether by touch, voice, ink, or Surface Dial. And with chip-to-cloud integration of Microsoft 365 and the security and manageability of Windows 10 and Windows 11 Pro, Surface delivers connected hardware, software, apps, and services the way they were intended. Although it's possible to run AVD from Windows devices dating back to Windows 7, Microsoft Surface devices provide unique advantages, including support for:
+Surface engineering has long set new standards for innovation by going beyond the keyboard and mouse to imagine more natural ways of interacting with devices, whether by touch, voice, ink, or Surface Dial. And with chip-to-cloud integration of Microsoft 365 and the security and manageability of Windows 11 Pro, Surface delivers connected hardware, software, apps, and services the way they were intended. Although it's possible to run AVD from Windows devices dating back to Windows 7, Microsoft Surface devices provide unique advantages, including support for:
 
-- **Flexible form factors** - like 2-in-1 devices such as Surface Pro 8, Surface Go 3, and Surface Pro X with pen, touch and detachable keyboard. You can even use [Surface Duo](/surface-duo/) to connect to AVD.
+- **Flexible form factors** - like 2-in-1 devices such as Surface Pro 10 with pen, touch and detachable keyboard.
 - **Persistent, on-demand, just-in-time work scenarios** - with offline and on-device access for more productive experiences.
 - **Modern device security and manageability** - providing the flexibility to be productive anywhere.
 
@@ -50,13 +50,13 @@ Surface 2-in-1 devices, including [Surface Go 4](https://www.microsoft.com/surfa
 - Far-field mics and high-performance speakers for improved virtual meetings.
 - Biometric security includes a built-in Windows Hello camera that comes standard on every Surface device.
 - Long battery life <a href="#2"><sup>2</sup></a> and fast charging.
-- LTE options <a href="#3"><sup>3</sup></a> on modern devices like Surface Pro X and Surface Go 3 for hassle-free and secure connectivity.
+- Mobile connectivity options <a href="#3"><sup>3</sup></a> on modern devices like Surface Pro 10 with 5G for hassle-free and secure connectivity.
 - Support for a wide range of peripherals such as standard printers, 3D printers, cameras, credit card readers, barcode scanners, and many others. A large ecosystem of Designed for Surface partners provides licensed and certified Surface accessories.
 - A broad range of Device Redirection support.
 
 ### Device Redirection Support
 
-The Surface-centric productivity experiences listed above become even more compelling in Azure Virtual Desktop environments by taking advantage of the device redirection capabilities in Windows 10 and Windows 11. Surface provides a broad range of device redirection support, especially when compared to OEM thin clients and fixed terminals, Android, iOS/macOS and web-based access. The Windows Inbox (MSTSC) and Windows Desktop (MSRDC) clients provide the most device redirection capabilities, including Input Redirection (keyboard, mouse, pen and touch), Port Redirection (serial and USB) and Other Redirections (cameras, clipboard, local drive/storage, location, microphones, printers, scanners, smart cards and speakers). For a detailed comparison of device redirection support, refer to the [device redirection documentation](/windows-server/remote/remote-desktop-services/clients/remote-desktop-app-compare#redirection-support).
+The Surface-centric productivity experiences listed above become even more compelling in Azure Virtual Desktop environments by taking advantage of the device redirection capabilities. Surface provides a broad range of device redirection support, especially when compared to OEM thin clients and fixed terminals, Android, iOS/macOS and web-based access. The Windows Inbox (MSTSC) and Windows Desktop (MSRDC) clients provide the most device redirection capabilities, including Input Redirection (keyboard, mouse, pen and touch), Port Redirection (serial and USB) and Other Redirections (cameras, clipboard, local drive/storage, location, microphones, printers, scanners, smart cards and speakers). For a detailed comparison of device redirection support, refer to the [device redirection documentation](/windows-server/remote/remote-desktop-services/clients/remote-desktop-app-compare#redirection-support).
 
 ### Familiar Desktop Experience
 
@@ -85,7 +85,7 @@ Traditionally, VDI solutions only work when the endpoint is connected to the int
 
 To support business continuity and help employees be productive, Microsoft designed Surface devices to augment the virtual desktop experience with offline access to files, Microsoft 365 and third-party applications. Traditional apps like Microsoft Office, available across multiple platforms (x86, x64, Universal Windows Platform, ARM), enable users to stay productive in offline mode. Files from the virtual desktop cloud environment can be synced locally on Surface using OneDrive for Business for offline access. You can be confident that all locally cached information is up-to-date and secure.
 
-In addition to adding support for offline access to apps and files, Surface devices are designed to optimize collaborative experiences like Microsoft Teams "On-Device." Although some VDI solutions support the use of Teams through a virtual session, users can benefit from the more optimized experience provided by a locally installed instance of Teams. Localizing communications and collaboration apps for multimedia channels like voice, video, live captioning allows organizations to take full advantage of Surface devices' ability to provide optimized Microsoft 365 experiences. The emergence of Surface AI or "AI-on-device" brings new capabilities to life, such as eye gaze technology (available on Surface Pro X) that adjusts the appearance of your eyes, so the audience sees you looking directly at the camera when communicating via video.
+In addition to adding support for offline access to apps and files, Surface devices are designed to optimize collaborative experiences like Microsoft Teams "On-Device." Although some VDI solutions support the use of Teams through a virtual session, users can benefit from the more optimized experience provided by a locally installed instance of Teams. Localizing communications and collaboration apps for multimedia channels like voice, video, live captioning allows organizations to take full advantage of Surface devices' ability to provide optimized Microsoft 365 experiences. The emergence of AI brings new capabilities to life on compatible devices, such as eye gaze technology that adjusts the appearance of your eyes, so the audience sees you looking directly at the camera when communicating via video.
 
 An alternative to locally installing traditional applications is to take advantage of the latest version of Microsoft Edge, which comes with support for Progressive Web Apps (PWA). PWAs are just websites that are progressively enhanced to function like native apps on supporting platforms. The qualities of a PWA combine the best of the web and native apps with additional features, such as push notifications, background data refresh, offline support, and more.
 
@@ -113,15 +113,15 @@ By maximizing efficiencies from cloud computing, modern management enables IT to
 
 Security and management features delivered with Azure Virtual Desktop on Surface include:
 
-- **Windows Update.** Keeping Windows up to date helps you stay ahead of security threats. Windows 10 and Windows 11 have been engineered from the ground up to be more secure and utilize the latest hardware capabilities to improve security. With a purpose-built UEFI <a href="#5"><sup>5</sup></a> and Windows Update for Business that responds to evolving threats, end-to-end protection is secure and simplified.
+- **Windows Update.** Keeping Windows up to date helps you stay ahead of security threats. Windows 11 has been engineered from the ground up to be more secure and utilize the latest hardware capabilities to improve security. With a purpose-built UEFI <a href="#5"><sup>5</sup></a> and Windows Update for Business that responds to evolving threats, end-to-end protection is secure and simplified.
 - **Hardware encryption.** Device encryption lets you protect the data on your Surface so only authorized individuals can  access it. All Surface for Business devices feature a discrete Trusted Platform Module (dTPM) that is hardware-protected against intrusion while software uses protected keys and measurements to verify software validity.
 - **Microsoft Defender** [Microsoft Defender for Endpoint](/microsoft-365/security/defender-endpoint/microsoft-defender-endpoint?) brings together machine learning, big-data analysis, in-depth threat resistance research, and the Microsoft cloud infrastructure to protect devices. The tool is built-in and needs no extra agents to be deployed on devices or in the VDI environment, simplifying management and optimizing device startup.
 - **Removable drives.** Most newer Surface devices feature removable SSD drives, providing greater control over data retention.
 - **Modern authentication.** Microsoft 365 and Surface is a unified platform delivering every Windows security feature (subject to licensing and enablement). All Surface portfolio devices ship with a custom-built camera, designed for Windows Hello for Business, providing biometric security that persists seamlessly from on-device to VDI-based experiences.
 - **Modern firmware management** -Using Device Firmware Configuration Interface (DFCI), IT administrators can remotely disable hardware elements at a firmware level such as mics, USB ports, SD card slots, cameras, and Bluetooth, which removes power to the peripheral. Windows Defender Credential Guard uses virtualization-based security so that only privileged system software can access them.
 - **Backward and forward compatibility.** Windows 10 and Windows 11 devices provide backward and forward compatibility across hardware, software and services. Microsoft has a strong history of maintaining legacy support of hardware, peripherals, software and services while incorporating the latest technologies. Businesses can plan IT investments to have a long useful life.
-- **Bridge for legacy Windows 7 workloads.** For solution scenarios dependent on legacy Windows OS environments, enterprises can use VDI instances of Windows 7 running in Azure. This enables support on modern devices like Surface without the risk of relying on older Windows 7 machines that no longer receive the latest security updates. In addition to these "future-proofing" benefits, migration of any legacy workloads becomes greatly simplified when modern Windows 10 or Windows 11 hardware is already deployed.
-- **Zero-Touch Deployment.** Autopilot is the recommended modern management deployment option for Surface devices. Windows Autopilot on Surface is a cloud-based deployment technology in Windows 10 and Windows 11. You can use Windows Autopilot on Surface to remotely deploy and configure devices in a zero-touch process right out of the box. Windows Autopilot-registered devices are identified over the internet at first startup through a unique device signature called a hardware hash. They're automatically enrolled and configured using modern management solutions such as Microsoft Entra ID and mobile device management.
+- **Bridge for legacy Windows 7 workloads.** For solution scenarios dependent on legacy Windows OS environments, enterprises can use VDI instances of Windows 7 running in Azure. This enables support on modern devices like Surface without the risk of relying on older Windows 7 machines that no longer receive the latest security updates. In addition to these "future-proofing" benefits, migration of any legacy workloads becomes greatly simplified when modern Windows 11 hardware is already deployed.
+- **Zero-Touch Deployment.** Autopilot is the recommended modern management deployment option for Surface devices. You can use Windows Autopilot on Surface to remotely deploy and configure devices in a zero-touch process right out of the box. Windows Autopilot-registered devices are identified over the internet at first startup through a unique device signature called a hardware hash. They're automatically enrolled and configured using modern management solutions such as Microsoft Entra ID and mobile device management.
 
 ### Surface devices: Minimizing environmental impacts
 

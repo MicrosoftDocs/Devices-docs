@@ -1,12 +1,12 @@
 ---
 title: Manage USB ports on Surface devices
-description: .Learn to manage and disable USB-C and USB-A ports on Surface devices using SEMM and PowerShell to enhance security and control data transfer.
+description: Learn to manage and disable USB-C and USB-A ports on Surface devices using SEMM and PowerShell to enhance security and control data transfer.
 ms.service: surface
 ms.localizationpriority: medium
 author: coveminer
 ms.author: chauncel
 ms.topic: how-to
-ms.date: 04/25/2024
+ms.date: 09/06/2024
 ms.reviewer: dashap
 manager: frankbu
 appliesto:
@@ -110,8 +110,8 @@ You can now manage USB-C ports across all modes via either of the following meth
 | ------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- | -------- |
 | **Surface Laptop**<br> **Surface Laptop 2**<br>**Surface Pro**<br>**Surface Pro 4**<br>**Surface Pro 6**<br>**Surface Studio**<br> **Surface Studio 2** | Enable or disable data           | N/A: No USB-C port on device                                                                                                    | USBPortEnabled (default)<br><br>USBPortHWDisabled                                      | 370-379  |
 | **Surface Laptop SE**<br>**Surface Pro 7**<br>**Surface Pro 7+**<br>**Surface Go**<br>**Surface Go 2**<br>**Surface Laptop Go**<br>**Surface Laptop Go 2**<br> **Surface Laptop Go 3**<br>**Surface Laptop 3** (Intel only)<br>**Surface Laptop 4** (Intel only)<br>**Surface Laptop 5** (Intel only)<br> **Surface Studio 2+** | Enable or disable data           | Enabled data, display out, and power delivery<br><br>Disabled data, display out, and power delivery                           | USBPortEnabled (default)<br><br>USBPortHWDisabled                                      | 370-379  |
-| **Surface Pro 8**<br> **Surface Pro 9**<br>**Surface Laptop Studio**<br>**Surface Laptop Studio 2**<br>**Surface Go 3**<br> **Surface Go 4**           | Enable or disable data           | Enabled data, display-out, and power delivery<br><br>Disabled data but enabled display-out and power delivery<br><br>Disabled data, display-out, and power delivery | USBPortEnabled (default)<br>USBPortDataDisabled<br>USBPortHwDisabled                  | 380-389  |
-| **Surface Laptop Studio 2**<br>**Surface Pro 10**<br>**Surface Laptop 6**                                                                                                                            | Enable or disable data           | Enabled data, display-out, and power delivery<br><br>Disabled data but enabled display-out and power delivery<br><br>Disabled data, display-out, and power delivery<br><br>Data dynamically enabled or disabled | USBPortEnabled (default)<br>USBPortDataDisabled<br>USBPortHwDisabled<br>USBPortAuthenticated | 380-389  |
+| **Surface Pro 8**<br> **Surface Pro 9**<br>**Surface Pro (11th Edition)**<br>**Surface Laptop (7th Edition)**<br>**Surface Laptop Studio**<br>**Surface Laptop Studio 2**<br>**Surface Go 3**<br> **Surface Go 4**           | Enable or disable data           | Enabled data, display-out, and power delivery<br><br>Disabled data but enabled display-out and power delivery<br><br>Disabled data, display-out, and power delivery | USBPortEnabled (default)<br>USBPortDataDisabled<br>USBPortHwDisabled                  | 380-389  |
+| **Surface Laptop Studio 2**<br>**Surface Pro 10**<br>**Surface Pro 10 with 5G**<br>**Surface Laptop 6**                                                                                                                            | Enable or disable data           | Enabled data, display-out, and power delivery<br><br>Disabled data but enabled display-out and power delivery<br><br>Disabled data, display-out, and power delivery<br><br>Data dynamically enabled or disabled | USBPortEnabled (default)<br>USBPortDataDisabled<br>USBPortHwDisabled<br>USBPortAuthenticated | 380-389  |
 | **Surface Book 2** and later                                                                                                                             | Base USB ports are always enabled | Base USB ports are always enabled                                                                                               | n/a                                                                                    |          |
 | **Surface Book** with Performance Base<br>**Surface Book**                                                                                               | Base USB ports are always enabled | N/A: No USB-C port on device                                                                                                    | n/a                                                                                    |          |
 

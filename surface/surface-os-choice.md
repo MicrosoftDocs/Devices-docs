@@ -1,6 +1,6 @@
 ---
 title: Downgrade to Windows 10
-description: This article describes options for commercial customers not ready to deploy Windows 11. 
+description: Explore options for downgrading to Windows 10 from Windows 11, including manual and bulk methods, and licensing considerations for commercial customers. 
 ms.service: surface
 ms.localizationpriority: medium
 author: coveminer

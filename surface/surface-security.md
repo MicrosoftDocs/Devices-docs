@@ -1,13 +1,13 @@
 ---
 title: Surface security overview
-description: This article provides an overview of Surface device security
+description: Discover how Surface devices ensure robust security with unified firmware protection, secure boot, and advanced Windows features to safeguard against threats
 ms.service: surface
 ms.localizationpriority: medium
 author: coveminer
 ms.author: chauncel
 ms.topic: how-to
-ms.date: 10/14/2022
-ms.reviewer: brrecord
+ms.date: 09/06/2024
+ms.reviewer: karand
 manager: frankbu
 appliesto:
 - Windows 10
@@ -71,23 +71,26 @@ HVCI uses VBS to significantly strengthen code integrity policy enforcement. Ker
 
 Both VBS and HVCI are enabled out of the box in the following Surface devices:
 
-- Surface Pro 8
-- Surface Pro 9
-- Surface Pro 9 with 5G
+- Surface Pro (11th Edition)
+- Surface Pro 10 with 5G
 - Surface Pro 10
-- Surface Laptop Studio
-- Surface Laptop Studio 2
-- Surface Go 3
-- Surface Go 4
-- Surface Laptop 4
-- Surface Laptop 5
-- Surface Laptop 6
+- Surface Pro 9 with 5G
+- Surface Pro 9
+- Surface Pro 8
 - Surface Pro 7+
-- Surface Book 3
-- Surface Laptop Go
-- Surface Laptop Go 2
 - Surface Pro X
+- Surface Laptop Studio 2
+- Surface Laptop Studio
+- Surface Go 4
+- Surface Go 3
+- Surface Laptop (7th Edition)
+- Surface Laptop 6
+- Surface Laptop 5
+- Surface Laptop 4
+- Surface Laptop Go 2
+- Surface Laptop Go
 - Surface Studio 2+
+- Surface Book 3
 
 ## Secure boot and boot guard
 

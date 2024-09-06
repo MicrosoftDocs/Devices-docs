@@ -39,11 +39,13 @@ The following commercial devices are eligible for same unit repair:
 - Surface Laptop 4 – 13" & 15"
 - Surface Laptop 5 – 13" & 15"
 - Surface Laptop 6 – 13" & 15"
+- Surface Laptop (7th Edition) – 13" & 15"
 - Surface Pro 7
 - Surface Pro 7+ <sup>1</sup>
 - Surface Pro 8
 - Surface Pro 9
 - Surface Pro 10
+- Surface Pro (11th Edition)
 - Surface Laptop Go
 - Surface Laptop Go 2
 - Surface Laptop Go 3
