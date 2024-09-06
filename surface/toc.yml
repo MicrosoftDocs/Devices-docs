@@ -11,7 +11,7 @@
         items:
          - name: Surface Pro Flex Keyboard overview
            href: surface-pro-flex-keyboard.md
-         - name: NFC support in Surface Pro 10 for Business
+         - name: NFC support in Surface Pro
            href: surface-pro-nfc.md
          - name: Surface Laptop 6 smart card reader overview
            href: surface-laptop-smart-card-reader.md 
@@ -43,6 +43,8 @@
            href: surface-book-quadro.md      
       - name: Order Surface devices
         items:      
+        - name: Pre-order Surface Pro or Surface Laptop
+          href: https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface
         - name: Surface Pro 10 for Business
           href: https://www.microsoft.com/d/surface-pro-10-for-business/8v73d6qwrss1 
         - name: Surface Laptop 6 for Business
@@ -93,7 +95,7 @@
             items:
             - name: Get started with SEMM
               href: surface-enterprise-management-mode.md
-            - name:  Surface UEFI settings reference
+            - name: SEMM UEFI settings reference
               href: surface-it-toolkit-semm-uefi-settings.md
             - name: Configure UEFI settings for Surface devices
               href: surface-it-toolkit-uefi-config.md
@@ -202,6 +204,8 @@
           href: surface-tested-peripherals.md
         - name: NFC support in Surface Go for Business
           href: surface-go-nfc-support.md
+        - name: NFC support in Surface Pro
+          href: surface-pro-nfc.md
         - name: Optimize video conferencing on Surface devices
           href: optimize-video-conferencing-on-surface.md   
         - name: Optimize Wi-Fi connectivity on Surface devices
@@ -212,11 +216,11 @@
           href: dma-protect.md   
         - name: Considerations for Surface & Endpoint Configuration Manager
           href: considerations-for-surface-and-system-center-configuration-manager.md
-      - name: ARM devices
+      - name: Arm devices
         items:          
-        - name: Deploy, manage, & service ARM-based Surface devices
+        - name: Deploy, manage, & service Arm-based Surface devices
           href: surface-pro-arm-app-management.md
-        - name: ARM-based Surface devices FAQ
+        - name: Arm-based Surface devices FAQ
           href: surface-arm-faq.md
       - name: Accessories
         items:

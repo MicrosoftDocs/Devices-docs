@@ -1,6 +1,6 @@
 ---
-title: Microsoft Surface Data Eraser (Surface)
-description: The Microsoft Surface Data Eraser tool allows you to securely wipe data from your Surface devices.
+title: Microsoft Surface Data Eraser (Legacy)
+description: Securely wipe data from older Surface devices using the Surface Data Eraser tool. Use Surface IT Toolkit for newer devices.
 ms.assetid: 8DD3F9FE-5458-4467-BE26-E9200341CF10
 ms.reviewer: chauncel
 manager: frankbu
@@ -15,7 +15,7 @@ appliesto:
 - Windows 11
 ---
 
-# Microsoft Surface Data Eraser (legacy)
+# Microsoft Surface Data Eraser (Legacy)
 
 >[!NOTE]
 >This page describes how to use the legacy version of Microsoft Surface Data Eraser. For the current version, see [Surface Data Eraser (IT Toolkit)](surface-it-toolkit-data-eraser.md).

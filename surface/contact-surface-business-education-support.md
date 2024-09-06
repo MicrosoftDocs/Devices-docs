@@ -18,7 +18,6 @@ ms.custom:
 - CSSTroubleshoot 
 ms.reviewer: mablaik
 description: Find support options for Microsoft Surface and Surface Hub products tailored for business and education customers. Access online tools, in-store services, and troubleshooting resources to manage and resolve device issues efficiently.
----
 
 # Contact Surface Support for Business and Education customers
 
