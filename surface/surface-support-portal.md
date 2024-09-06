@@ -146,7 +146,7 @@ Easily manage your Surface device warranties through the Surface Support Portal.
 
 ## Admin roles
 
-When you add a Microsoft 365 tenant to the tool, the following Admin roles are granted more permissions. To learn more about configuring roles, see https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/assign-admin-roles?view=o365-worldwide#steps-add-an-admin
+When you add a Microsoft 365 tenant to the tool, the following Admin roles are granted more permissions. To learn more about configuring roles, see [Add an admin](/microsoft-365/admin/add-users/assign-admin-roles#steps-add-an-admin).
 
 | Role                                      | Permissions                                                                                                                                                                                 |
 | ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
