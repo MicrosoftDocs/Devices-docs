@@ -52,10 +52,12 @@ Surface Thunderbolt 4 Dock is optimized for devices with a USB4/ Thunderbolt 4 p
 
 Surface Thunderbolt 4 Dock is compatible with the following Surface for Business devices with USB-C ports:
 
+- Surface Pro (11th Edition)
 - Surface Pro 9 with 5G
 - Surface Pro 7+
 - Surface Pro 7
 - Surface Pro X
+- Surface Laptop (7th Edition)
 - Surface Laptop 4
 - Surface Laptop 3 [<sup>7</sup>](#references)
 - Surface Laptop Go (all generations)

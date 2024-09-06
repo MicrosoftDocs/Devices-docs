@@ -1,6 +1,6 @@
 ---
 title: Wake On LAN with Surface Dock 2
-description: Surface Dock 2 provides the best support for Wake-on-LAN (WOL) enabling admins to remotely wake up devices and automatically perform management tasks.
+description: Manage Surface devices remotely with Wake On LAN using Surface Dock 2. Wake devices from Modern Standby, hibernation, or shutdown states.
 ms.service: surface
 ms.localizationpriority: medium
 author: coveminer
@@ -8,7 +8,7 @@ ms.author: chauncel
 ms.topic: how-to
 ms.reviewer: chauncel
 manager: frankbu
-ms.date: 04/09/2024
+ms.date: 9/06/2024
 appliesto:
 - Windows 10
 - Windows 11
@@ -30,6 +30,7 @@ Devices must have a wired connection with Surface Dock 2 and stay connected to A
 
 ## Supported Surface devices
 
+- Surface Laptop (7th Edition)
 - Surface Laptop 6
 - Surface Laptop 5
 - Surface Laptop 4 (Intel processors)
