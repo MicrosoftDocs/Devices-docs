@@ -1,12 +1,12 @@
 ---
 title: Manage USB ports on Surface devices
-description: .Learn to manage and disable USB-C and USB-A ports on Surface devices using SEMM and PowerShell to enhance security and control data transfer.
+description: Learn to manage and disable USB-C and USB-A ports on Surface devices using SEMM and PowerShell to enhance security and control data transfer.
 ms.service: surface
 ms.localizationpriority: medium
 author: coveminer
 ms.author: chauncel
 ms.topic: how-to
-ms.date: 04/25/2024
+ms.date: 09/06/2024
 ms.reviewer: dashap
 manager: frankbu
 appliesto:

@@ -1,12 +1,12 @@
 ---
 title: SSD removal in compatible Surface devices
-description: This article, intended for qualified IT technicians, describes the recommended best practices for the removal and replacement of SSDs in eligible Surface devices.
+description: Discover best practices for SSD removal and replacement in Surface devices, including steps for BitLocker management, safety tips, and post-replacement checks.
 ms.service: surface
 ms.localizationpriority: medium
 author: coveminer
 ms.author: chauncel
 ms.topic: how-to
-ms.date: 04/09/2024
+ms.date: 09/06/2024
 manager: frankbu
 appliesto:
 - Windows 10
@@ -21,6 +21,7 @@ ms.custom:
 > This article is intended for use by qualified IT technicians in an enterprise organization. It describes the recommended best practices for use by skilled IT technicians in the removal and replacement of SSDs in the following compatible Surface devices:
 
 - Surface Laptop Studio (all generations)
+- Surface Pro (11th Edition)
 - Surface Pro 10
 - Surface Pro 9
 - Surface Pro 9 with 5G
@@ -28,6 +29,7 @@ ms.custom:
 - Surface Pro 7+
 - Surface Pro X
 - Surface Laptop Go (all generations)
+- Surface Laptop (7th Edition)
 - Surface Laptop 6
 - Surface Laptop 5
 - Surface Laptop 4

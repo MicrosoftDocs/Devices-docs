@@ -19,8 +19,10 @@ This article lists the versions of Windows that are supported on various Microso
 
 | Device                               | Windows OS                                                                                                          |
 | ---------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| Surface Pro 11th Edition with 5G         | - Windows 11, Version 24H2 build 26100 and later                                                               |
 | Surface Pro (11th Edition)               | - Windows 11, Version 24H2 build 26100 and later                                                               |
-| Surface Pro 10 for Business              | - Windows 10, Version 22H2 build 19045 and later <br>- Windows 11, Version 23H2 build 22631 and later |
+| Surface Pro 10 with 5G                   | - Windows 11, Version 24H2 build 26100 and later                                                               |
+| Surface Pro 10 for Business              | - Windows 10, Version 22H2 build 19045 and later<br>- Windows 11, Version 23H2 build 22631 and later |
 | Surface Pro 9 with Intel Processor       | - Windows 10, Version 21H2 build 19044 and later<br>- Windows 11, Versions 22H2 build 22621 and later |
 | Surface Pro 9 with 5G (SQ3 Processor)    | - Windows 11, Version 22H2 build 22621 and later                                                               |
 | Surface Pro 8                            | - Windows 10, Version 20H2 build 19042 and later<br>- Windows 11, Version 21H2 build 22000 and later  |
@@ -42,11 +44,6 @@ This article lists the versions of Windows that are supported on various Microso
 
 | Device                                    | Windows OS                                                                                                          |
 | --------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
-| Surface Laptop Studio 2                       | - Windows 10, Version 22H2 build 19045 and later<br>- Windows 11, Version 22H2 build 22621 and later  |
-| Surface Laptop Studio                         | - Windows 10, Version 20H2 build 19042 and later <br>- Windows 11, Version 21H2 build 22000 and later |
-| Surface Laptop Go 3                           | - Windows 10, Version 22H2 build 19045 and later<br>- Windows 11, Version 22H2 build 22621 and later  |
-| Surface Laptop Go 2                           | - Windows 10, Version 21H2 build 19044 and later<br>- Windows 11, Version 21H2 build 22000 and later  |
-| Surface Laptop Go                             | - Windows 10, Version 1909 build 18363 and later<br>- Windows 11, Version 21H2 build 22000 and later  |
 | Surface Laptop (7th Edition)                  | - Windows 11, Version 24H2 build 26100 and later                                                               |
 | Surface Laptop 6 for Business                 | - Windows 10, Version 22H2 build 19045 and later <br>- Windows 11, Version 23H2 build 22631 and later |
 | Surface Laptop 5                              | - Windows 10, Version 21H2 build 19044 and later<br>- Windows 11, Version 22H2 build 22621 and later  |
@@ -57,6 +54,11 @@ This article lists the versions of Windows that are supported on various Microso
 | Surface Laptop 3 15" for Business (Intel CPU) | - Windows 10, Version 1809 build 17763 and later<br>- Windows 11, Version 21H2 build 22000 and later  |
 | Surface Laptop 2                              | - Windows 10, Version 1709 build 16299 and later<br>- Windows 11, Version 21H2 build 22000 and later  |
 | Surface Laptop (1st Gen)                      | - Windows 10, Version 1703 build 15063 and later                                                               |
+| Surface Laptop Studio 2                       | - Windows 10, Version 22H2 build 19045 and later<br>- Windows 11, Version 22H2 build 22621 and later  |
+| Surface Laptop Studio                         | - Windows 10, Version 20H2 build 19042 and later <br>- Windows 11, Version 21H2 build 22000 and later |
+| Surface Laptop Go 3                           | - Windows 10, Version 22H2 build 19045 and later<br>- Windows 11, Version 22H2 build 22621 and later  |
+| Surface Laptop Go 2                           | - Windows 10, Version 21H2 build 19044 and later<br>- Windows 11, Version 21H2 build 22000 and later  |
+| Surface Laptop Go                             | - Windows 10, Version 1909 build 18363 and later<br>- Windows 11, Version 21H2 build 22000 and later  |
 
 
 ## Surface Go
