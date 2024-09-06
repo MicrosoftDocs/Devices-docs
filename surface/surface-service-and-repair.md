@@ -1,12 +1,12 @@
 ---
 title: Surface for Business service and repair
-description: This article explains how Surface devices are designed to enable service and repair. It lists the serviceable components for all in-market Surface devices. 
+description: Explore repair options for commercial Surface devices with guides, videos, and service options from Microsoft and Authorized Providers. 
 ms.service: windows-11
 ms.localizationpriority: medium
 author: coveminer
 ms.author: chauncel
 ms.topic: how-to
-ms.date: 04/09/2024
+ms.date: 09/06/2024
 ms.reviewer: 
 manager: frankbu
 appliesto:
@@ -41,6 +41,7 @@ Microsoft recommends that only technically inclined individuals with the knowled
 | **Surface Laptop Go 3** ![Screenshot of Surface Laptop Go 3.](images/surface-service-repair/surface-laptop-go-3.png) | - Display<br>- Removable solid-state drive (rSSD)<br>- Keyboard<br>- Feet<br>- Battery<br>- Motherboard<br>- Keyboard with Fingerprint Reader<br>- Surface connect charging port | [Repair video for Surface Laptop Go 3](https://www.youtube.com/watch?v=ZNzZbvkbmyo&t=5s)|
 | **Surface Laptop Go 2** ![Screenshot of Surface Laptop Go 2.](images/surface-service-repair/surface-laptop-go-2.png) | - Display<br>- Removable solid-state drive (rSSD)<br>- Keyboard<br>- Feet<br>- Battery<br>- Keyboard with Fingerprint Reader<br>- Surface connect charging port | [Repair video for Surface Laptop Go 2](https://www.youtube.com/watch?v=ZNzZbvkbmyo&t=5s) |
 | **Surface Laptop SE** ![Screenshot of Surface Laptop SE.](images/surface-service-repair/laptop-se.png) | - Display<br>- Keyboard<br>- Enclosure<br>- Feet<br>- Speaker & Wi-Fi Modules<br>- Motherboard<br>- Battery<br>- Power Port | [Repair video for Surface Laptop SE](https://www.youtube.com/watch?v=fVjjSqfp75g&t=7s) |
+| **Surface Pro (11th Edition)** ![Screenshot of Surface Pro 11th Edition.](images/surface-service-repair/surface-pro-10.png) | Display module<br>- Removable solid-state drive<br>- Battery<br>- Motherboard (including main processor and main memory)<br>- Surface Connect<br>- Thermal module<br>- Microphone module<br>- Solid-state drive door<br>- Speakers<br>- Enclosure (bucket)<br>- Front camera<br>- Rear camera<br>- Power and volume buttons<br>- Kickstand<br>- Device entry kit | Repair video coming soon |
 | **Surface Pro 10** ![Screenshot of Surface Pro 10.](images/surface-service-repair/surface-pro-10.png) | - Display module<br>- Removable solid-state drive<br>- Battery<br>- Motherboard (including main processor and main memory)<br>- Surface Connect <br>- Thermal module<br>- Microphone module<br>- Solid-state drive door<br>- Speakers<br>- Enclosure (bucket)<br>- Front camera<br>- Rear camera<br>- Power and volume buttons<br>- Kickstand<br>- Device entry kit<br>- SIM card connector | Repair video coming soon |
 | **Surface Pro 9** ![Screenshot of Surface Pro 9.](images/surface-service-repair/pro-9.png) | - Kickstand<br>- Display (Screen)<br>- Enclosure<br>- Speaker<br>- Battery<br>- Surface connect charging port<br>- Thermal Module<br>- Camera Front & Rear<br>- Camera & Wi-Fi Deck<br>- Power & Volume Button<br>- Motherboard<br>- SSD Door<br>- Removable solid-state drive (rSSD) | [Repair video for Surface Pro 9](https://www.youtube.com/watch?v=S_i5OQNUbh8&t=7s) |
 | **Surface Pro 9 with 5G** ![Screenshot of Surface Pro 9 with 5G.](images/surface-service-repair/pro9-5g.png) | - Kickstand<br>- Enclosure<sup>4</sup><br>- Speaker<br>- Battery<br>- Surface connect charging port<br>- Thermal Module<br>- Camera Front & Rear<br>- Camera Deck<br>- Screen (Display)<br>- Power & Volume Button<br>- Motherboard<br>- SSD Door<br>- Removable solid-state drive (rSSD) | [Repair video for Surface Pro 9 with 5G](https://youtu.be/73fpevAn54o?si=339i0-9p3kGWW2bM) |
