@@ -53,6 +53,8 @@ Commercial customers managing tenants via Microsoft Intune can use the [Surface 
 
     :::image type="content" source="images/surface-service-repair/smp-repair-request.png" alt-text="Screenshot of Surface Management Portal showing New repair request feature.":::
 
+3. For full details, review [Surface Management Portal overview](surface-management-portal.md).
+
 ## Recommended service options for out-of-warranty devices
 
 For devices that are no longer covered by Microsoft’s Limited Warranty[<sup>3</sup>](#references)  or Protection Plan, Microsoft offers several options for service or repair.
