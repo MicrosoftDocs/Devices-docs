@@ -6,7 +6,7 @@ ms.localizationpriority: medium
 author: coveminer
 ms.author: chauncel
 ms.topic: how-to
-ms.date: 09/05/2024
+ms.date: 09/06/2024
 ms.reviewer: karand
 manager: frankbu
 appliesto:
@@ -18,7 +18,7 @@ appliesto:
 
 ## Why should I consider Arm processors for new Surface devices in my corporate environment?
 
-Arm-based Surface devices, such as the Surface Pro (11th Edition) and Surface Laptop (7th Edition), deliver exceptional performance, efficiency, and compatibility with both native and emulated applications. These devices, powered by the Snapdragon X series processors, provide outstanding battery life and integrate seamlessly with key productivity tools like Microsoft 365. The Prism emulation engine ensures smooth operation of x86/x64 applications, facilitating an easy transition to Arm architecture without sacrificing performance. Plus, the expanded support for native Arm64 apps ensures that your organization can use cutting-edge technology while maintaining compatibility with existing software.
+Arm-based Surface devices, such as Surface Pro (11th Edition) and Surface Laptop (7th Edition), deliver exceptional performance, efficiency, and compatibility with both native and emulated applications. These devices, powered by the Snapdragon X series processors, provide outstanding battery life and integrate seamlessly with key productivity tools like Microsoft 365. The Prism emulation engine ensures smooth operation of x86/x64 applications, facilitating an easy transition to Arm architecture without sacrificing performance. Plus, the expanded support for native Arm64 apps ensures that your organization can use cutting-edge technology while maintaining compatibility with existing software.
 
 ## How has Microsoft enhanced app performance?
 
@@ -64,7 +64,7 @@ No. The App Assure program supports custom line-of-business apps, non-Microsoft 
 ## What limitations should I be aware of when running a Windows 11 Arm-based device?
 
 - **Drivers for hardware, games, and apps must be designed for Arm-based devices.** Most common drivers are now available, but specialized hardware or older peripherals might require verification for Arm64 compatibility.
-- **Peripheral compatibility depends on Arm64 drivers.** Devices like printers and scanners work if their drivers are built into Windows 11 or provided by the hardware developer. Without compatible drivers, functionality might be limited.
+- **Peripheral compatibility depends on Arm64 drivers.** Devices like printers and scanners work if their drivers are built into Windows 11 or provided by the hardware developer. Without compatible drivers, functionality might be limited. If the hardware developer lacks Arm64 drivers, try installing the printer through Windows settings. To learn more, see [Install a printer in Windows](https://support.microsoft.com/windows/install-a-printer-in-windows-cc0724cf-793e-3542-d1ff-727e4978638b).
 - **Certain games might face compatibility issues.** Games that rely on OpenGL versions greater than 3.3 or on "anti-cheat" drivers not updated for Arm might not work, although many are being optimized for Arm-based devices.
 - **Customization apps might have limited functionality.** Apps that modify the Windows experience, such as input method editors (IMEs) and cloud storage clients, might encounter issues unless optimized for Arm64.
 - **Antivirus software compatibility has improved but can vary.** While many non-Microsoft antivirus programs now support Arm-based PCs, we recommend verifying compatibility. Windows Security continues to offer comprehensive protection.
