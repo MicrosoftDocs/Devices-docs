@@ -1,12 +1,12 @@
 ---
 title: Surface Management Portal  
-description: Discover how the Surface Management Portal, integrated within the Microsoft Intune Admin Center, offers a centralized platform to efficiently manage, monitor, and maintain Surface devices at scale, ensuring compliance and streamlined support.  
+description: Manage, monitor, and maintain Surface devices efficiently with the Surface Management Portal in Microsoft Intune Admin Center. 
 ms.service: surface  
 ms.localizationpriority: medium  
 author: coveminer  
 ms.author: chauncel  
 ms.topic: how-to  
-ms.date: 08/28/2024  
+ms.date: 09/06/2024  
 ms.reviewer: rohitmannan  
 manager: frankbu  
 appliesto:  
@@ -24,7 +24,7 @@ With the Surface Management Portal, you can:
 - Gain insights into device compliance, support activity, and warranty coverage.
 - Monitor the status of each device, including warranty expirations and active support requests.
 - Centralize Surface-specific device administration in a single environment.
-- Automatically access comprehensive info from your Intune-enrolled Surface devices. When users sign in for the first time, information from these Surface devices automatically flows into the Surface Management Portal, giving you a single pane of glass for Surface-specific device admin activities.
+- Automatically access comprehensive info from your Intune-enrolled Surface devices. When users sign in for the first time, information from these Surface devices automatically flows into the Surface Management Portal, providing a unified view for Surface-specific device admin activities.
 
 ## Access Surface Management Portal
 
@@ -80,7 +80,7 @@ The Surface Management Portal gives complete visibility into support activity al
 
 ### Create Support Requests
 
-Newly added to the portal is the ability to create and submit new requests for one device or many.
+You can create and submit new requests for one or more devices.
 
 1. Select **New support request**.
 2. Select the Product (Device) from the drop-down list and pick the device model.
