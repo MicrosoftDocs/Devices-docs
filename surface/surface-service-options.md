@@ -35,23 +35,17 @@ Microsoft 365 Business customers can use the [Surface Support Portal](surface-su
 
 1. Sign in to the [Microsoft Surface support - Microsoft 365 admin center](https://admin.microsoft.com/AdminPortal#/support/microsoftsurfacesupport).
 2. Select **Create service request**. For eligible devices and regional availability, see [Microsoft in-region repair](microsoft-in-region-same-unit-repair.md).
-
-    :::image type="content" source="images/surface-service-repair/m365-admincenter-repair-request.png" alt-text="Screenshot of Microsoft 365 admin center showing Create service request feature.":::
-
 3. For full details, review [Surface Support Portal overview](surface-support-portal.md). 
 
 > [!TIP]
 > If you need to repair a personal (non-commercial) device, sign into your account at [account.microsoft.com/devices](https://account.microsoft.com/devices), choose the device that needs service, and then select **Start order.**
-
 
 ### Surface Management Portal
 
 Commercial customers managing tenants via Microsoft Intune can use the [Surface Management Portal](surface-management-portal.md) to handle service requests for Surface devices.
 
 1. Sign in to the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431) and go to **All services** > **Surface Management Portal**.
-2. Select **Repair** > **New repair request**. For eligible devices and regional availability, see [Microsoft in-region repair](microsoft-in-region-same-unit-repair.md).
-
-    :::image type="content" source="images/surface-service-repair/smp-repair-request.png" alt-text="Screenshot of Surface Management Portal showing New repair request feature.":::
+2. Select **Create service request**. For eligible devices and regional availability, see [Microsoft in-region repair](microsoft-in-region-same-unit-repair.md).
 
 3. For full details, review [Surface Management Portal overview](surface-management-portal.md).
 
