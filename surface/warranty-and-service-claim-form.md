@@ -1,5 +1,5 @@
 ---
-title: Submit a Warranty and Service claim for Microsoft devices
+title: Submit a Warranty and Service claim
 ms.reviewer: phorton
 manager: frankbu
 description: Submit warranty and service claims for Microsoft Surface, Surface Hub, HoloLens 2, and Azure Kinect products using this step-by-step guide.
@@ -11,7 +11,7 @@ ms.localizationpriority: medium
 ms.date: 09/09/2024
 ---
 
-# Submit a Warranty and Service claim for Microsoft devices
+# Submit a Warranty and Service claim
 
 The warranty and service claim form allows you to submit multiple claims in one service request for Microsoft Surface, Microsoft Surface Hub, Microsoft HoloLens 2, and Microsoft Azure Kinect products.
 
