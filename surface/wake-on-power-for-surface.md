@@ -8,12 +8,12 @@ search.appverid:
 ms.custom: 
 - CI 121602
 ms.reviewer: chauncel  
-description: Describes how to enable and disable Wake-on-Power for Surface devices.
+description: Enable automatic startup on compatible Surface devices with Wake-on-Power. Configure it using Surface UEFI tools for improved manageability.
 ms.service: surface
 ms.localizationpriority: medium
 ms.topic: how-to
 manager: frankbu
-ms.date: 12/08/2021
+ms.date: 09/09/2024
 appliesto:
 - Windows 10
 - Windows 11
@@ -81,9 +81,9 @@ You can apply the MSI package to devices across your network by using software d
 2. In the **Warning** dialog box, select **OK** or disable BitLocker, as appropriate.
 
     :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-4.png" alt-text="Select OK or disable BitLocker as appropriate.":::
-3. On the Welcome page, select **Next** to run the package and apply the newly configured UEFI setting.
+3. On the Welcome page, select **Next** to run the package and apply the newly configured UEFI settings.
 
-    :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-5.png" alt-text="One the Welcome page, select Next.":::
+    :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-5.png" alt-text="On the Welcome page, select Next.":::
 4. Restart your device.
 
 Wake-on-Power is now configured. To test the settings, turn off your device, disconnect the power, and then reconnect the power. The device should start automatically.
