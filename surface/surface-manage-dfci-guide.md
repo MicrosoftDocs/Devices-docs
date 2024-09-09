@@ -40,7 +40,7 @@ Designed to be used with software-level mobile device management (MDM), DFCI ena
 
 - Surface Hub 3
 - Surface Hub 2S running Microsoft Teams Rooms on Windows
-- Surface Pro (11th Edition)
+- Surface Pro (11th Edition)(commercial SKUs only)
 - Surface Pro 10 
 - Surface Pro 9 (commercial SKUs only)
 - Surface Pro 9 with 5G (commercial SKUs only)
@@ -49,7 +49,7 @@ Designed to be used with software-level mobile device management (MDM), DFCI ena
 - Surface Pro 7 (all SKUs)
 - Surface Pro X (all SKUs)
 - Surface Laptop Studio (all generations, commercial SKUs only)
-- Surface Laptop (7th Edition)
+- Surface Laptop (7th Edition)(commercial SKUs only)
 - Surface Laptop 6
 - Surface Laptop 5 (commercial SKUs only)
 - Surface Laptop 4 (commercial SKUs only)
