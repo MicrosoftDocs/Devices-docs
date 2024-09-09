@@ -44,15 +44,15 @@ conceptualContent:
     # Card 1
     - title: Surface overview
       links:
-        - url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/introducing-microsoft-surface-pro-10-and-surface-laptop-6-ai-pcs/ba-p/4090653
+        - url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/accelerate-ai-transformation-with-surface-pro-and-surface-laptop/ba-p/4227521
           itemType: concept
-          text: Introducing Surface Pro 10 & Surface Laptop 6  
+          text: Accelerate AI transformation with Surface Pro and Surface Laptop 
         - url: /surface/surface-tested-peripherals  
           itemType: concept
           text: Tested peripherals for new Surface devices     
         - url: /surface/surface-pro-nfc   
           itemType: concept
-          text: NFC support in Surface Pro 10 for Business
+          text: NFC support in Surface Pro 
 
         # Card 2
     - title: Surface Hub overview
