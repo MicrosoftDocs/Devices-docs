@@ -49,7 +49,7 @@ Use the warranty and service claim form to submit a hardware warranty claim or r
 
 Assisted support advocates will communicate out-of-warranty fees for Surface Hub, HoloLens, and Azure Kinect products.
 
-For more information, see [How much does out-of-warranty service cost for your Surface device or accessory?](https://support.microsoft.com/help/4563717)
+For more information, see [How much does out-of-warranty service cost for your Surface device or accessory?](https://support.microsoft.com/help/4563717).
 
 ## More information
 
