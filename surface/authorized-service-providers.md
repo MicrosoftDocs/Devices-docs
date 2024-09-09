@@ -55,6 +55,7 @@ The growing ASP network consists of more than 160 locations.
 - [MCPC](https://www.mcpc.com/)
 - [MicroK12](https://microk12.com/)
 - [Mobile ME IT](https://mobilemeit.com/)
+- [Pro Tech Computer Systems, Inc](https://www.protsys.com/)
 - [Sterling](https://sterling.com/)
 - [TD SYNNEX](https://www.synnexcorp.com/us/)
 - [Trafera](https://www.trafera.com/)
@@ -142,4 +143,4 @@ The growing ASP network consists of more than 160 locations.
 
 #### South Korea
 
-- [Gownet Co., Ltd](https://gownet.com)
+- [Gownet Co., Ltd](https://surface.gownet.com/)
