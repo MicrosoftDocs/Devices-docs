@@ -1,13 +1,13 @@
 ---
 title:  Configure UEFI settings for Surface Docks
-description: This document provides guidance for configuring UEFI port settings for Surface Dock 2 and Surface Thunderbolt 4 Dock when connected to compatible Surface devices.
+description: Manage UEFI settings for Surface Docks with .msi packages using Surface IT Toolkit. Secure and manage ports on supported devices.
 ms.assetid: 2808a8be-e2d4-4cb6-bd53-9d10c0d3e1d6
 manager: frankbu
 ms.service: surface
 author: coveminer
 ms.author: chauncel
 ms.topic: how-to
-ms.date: 04/25/2024
+ms.date: 09/06/2024
 ms.localizationpriority: medium
 appliesto:
 - Windows 10
@@ -20,7 +20,7 @@ IT admins can secure and manage ports on Surface Dock 2 or Surface Thunderbolt 4
 
 ## Supported devices
 
-Managing Surface Dock 2 or Surface Thunderbolt 4 Dock with SEMM is available for docks connected to Surface Laptop Studio (all generations), Surface Laptop 6, Surface Laptop 5, Surface Laptop 4, Surface Laptop 3, Surface Laptop Go (all generations), Surface Pro 10, Surface Pro 9, Surface Pro 9 with 5G, Surface Pro 8, Surface Pro 7+, Surface Pro 7, Surface Pro X, and Surface Book 3.
+Managing Surface Dock 2 or Surface Thunderbolt 4 Dock with SEMM is available for docks connected to Surface Laptop Studio (all generations), Surface Laptop (7th Edition), Surface Laptop 6, Surface Laptop 5, Surface Laptop 4, Surface Laptop 3, Surface Laptop Go (all generations), Surface Pro (11th Edition), Surface Pro 10, Surface Pro 9, Surface Pro 9 with 5G, Surface Pro 8, Surface Pro 7+, Surface Pro 7, Surface Pro X, and Surface Book 3.
 
 > [!TIP]
 > These compatible Surface devices are commonly referred to as **host devices**. A package is applied to host devices based on whether a host device is **Authenticated** or **Unauthenticated**. Configured settings reside in the UEFI layer on host devices, enabling IT admins to manage compatible Surface Docks like any other built-in peripheral, such as the camera.
