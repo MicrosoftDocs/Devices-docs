@@ -1,12 +1,12 @@
 ---
 title: What’s new in Surface Thunderbolt 4 Dock
-description: This article highlights new features and functionality for the next generation Surface Dock.
+description: Explore the new features of Surface Thunderbolt 4 Dock, including high-speed data transfer, enterprise management, security enhancements, and versatile connectivity options for modern devices.
 ms.service: surface
 ms.localizationpriority: medium
 author: coveminer
 ms.author: chauncel
 ms.topic: overview
-ms.date: 09/21/2023
+ms.date: 08/23/2024
 ms.reviewer: dashap
 manager: frankbu
 appliesto:
@@ -41,7 +41,7 @@ Surface Thunderbolt 4 Dock helps improve IT efficiency and reduce overhead and s
 Surface Thunderbolt 4 Dock is optimized for devices with a USB4/ Thunderbolt 4 port, including the following Surface for Business devices:
 
 - Surface Laptop 6
-- Surface Laptop 5
+- Surface Laptop 5 
 - Surface Laptop Studio (all generations)
 - Surface Pro 10
 - Surface Pro 9 (Intel/Wi-Fi)
@@ -52,12 +52,14 @@ Surface Thunderbolt 4 Dock is optimized for devices with a USB4/ Thunderbolt 4 p
 
 Surface Thunderbolt 4 Dock is compatible with the following Surface for Business devices with USB-C ports:
 
+- Surface Pro (11th Edition)
 - Surface Pro 9 with 5G
 - Surface Pro 7+
 - Surface Pro 7
 - Surface Pro X
+- Surface Laptop (7th Edition)
 - Surface Laptop 4
-- Surface Laptop 3 <sup>7</sup>
+- Surface Laptop 3 [<sup>7</sup>](#references)
 - Surface Laptop Go (all generations)
 - Surface Go 4
 - Surface Go 3
@@ -110,7 +112,7 @@ Optimize port access, save desk space and use enhanced security capabilities wit
 | Feature                            | Surface Thunderbolt 4 Dock                                                                                                                                             | Surface Dock 2                                                                                      | Surface Dock                                                   |
 | ---------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- |
 | Surface Connect                    | No                                                                                                                                                  | Yes                                                                                                 | Yes                                                            |
-| Optimal host devices               | Surface Laptop 6, Surface Laptop 5, Surface Pro 10, Surface Pro 9, Surface Pro 8, Surface Laptop Studio 2, Surface Laptop Studio                                                                               | Surface Pro 9 with 5G, Surface Laptop 4, Surface Laptop Go 2, Surface Go 3                          | Surface Go, Surface Laptop 2, Surface Laptop 3 *, Surface Pro 7+ |
+| Optimal host devices               | Surface Laptop (7th Edition), Surface Laptop 6, Surface Laptop 5, Surface Pro (11th Edition), Surface Pro 10, Surface Pro 9, Surface Pro 8, Surface Laptop Studio 2, Surface Laptop Studio                                                                               | Surface Pro 9 with 5G, Surface Laptop 4, Surface Laptop Go 2, Surface Go 3                          | Surface Go, Surface Laptop 2, Surface Laptop 3 *, Surface Pro 7+ |
 | USB-A                              | One front-facing USB-A (USB 3.1 Gen 2, 7.5 W)<br> <br>Two rear-facing USB-A (USB 3.1 Gen 2, 7.5 W)                                                        | Two rear-facing USB 3.2 Gen 2 (7.5-W power)                                                            | Two front-facing USB 3.1 Gen 1<br>Two rear-facing USB 3.1 Gen 1    |
 | Mini Display port                  | None                                                                                                                                                | None                                                                                                | Two rear facing (DP1.2)                                          |
 | USB-C                              | One front-facing USB-C (USB 4 Thunderbolt 4, video display enabled, 15 W)<br> <br>Two rear-facing USB-C (USB4/Thunderbolt 4, video display enabled, 15 W) | Two front-facing USB 3.2 Gen 2<br>(15-W power)<br>Two rear-facing USB 3.2 Gen 2 (DP1.4a)<br>(7.5-W power) | None                                                           |
@@ -125,7 +127,7 @@ Optimize port access, save desk space and use enhanced security capabilities wit
 | Monitor support                    | 2 x 4K @ 60 Hz or 1 x 4K @ 60 Hz                                                                                                                    | 2 x 4K @ 60 Hz<br>or 1 x 4K @120 Hz                                                                 | 2 x 4K @ 30 Hz, or<br>1 x 4K @ 60 Hz                           |
 | Wake-on-LAN from Modern Standby    | Yes                                                                                                                                                 | Yes                                                                                                 | Yes                                                            |
 | Wake-on-LAN from S4/S5 sleep modes | Yes                                                                                                                                                  | Yes                                                                                                 | No                                                             |
-| Network PXE boot                   | No                                                                                                                                                 | Yes                                                                                                 | Yes                                                            |
+| Network PXE boot                   | Yes[<sup>14</sup>](#references)                                                                                                                                                 | Yes                                                                                                 | Yes                                                            |
 | SEMM host access control           | Yes                                                                                                                                                 | Yes                                                                                                 | No                                                             |
 | SEMM port access control[<sup>8</sup>](#references)   | Yes                                                                                                                                                 | Yes                                                                                                 | No                                                             |
 | Servicing support                  | Windows Update, Surface App, or MSI                                                                                                    | Windows Update or MSI                                                                               | MSI                                                            |
@@ -150,7 +152,7 @@ To daisy chain monitors, you need two or more monitors that support at least **D
 - [Surface Thunderbolt 4 Dock](https://www.microsoft.com/d/surface-thunderbolt-4-dock-for-business/8svnb0c8j1qw)
 - [Cable Matters Desk Mount for Microsoft Surface Thunderbolt 4 Dock](https://www.cablematters.com/pc-1544-189-designed-for-surface-cable-matters-desk-mount-for-microsoft-surface-thunderbolt-4-dock.aspx)
 
-## Appendix: Surface Dock Thunderbolt 4 tech specs
+## Appendix: Surface Thunderbolt 4 Dock tech specs
 
 | Feature           | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | ----------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -204,3 +206,4 @@ To daisy chain monitors, you need two or more monitors that support at least **D
 11. Surface Enterprise Management Mode for Dock and MAC address passthrough are available on select host devices and supported operating systems.
 12. Ocean-bound plastic is plastic waste recovered from oceans and waterways, cleaned, and processed into recycled plastic resin pellets. These recycled pellets are blended in with virgin plastic during the manufacturing process.
 13. Microsoft’s Limited Warranty is in addition to your consumer law rights.
+14. To PXE boot using Surface Thunderbolt 4 Dock with a supported Surface device, you may need to first install the latest drivers and firmware on the Surface device: [Download drivers and firmware for Surface](https://support.microsoft.com/surface/download-drivers-and-firmware-for-surface-09bb2e09-2a4b-cb69-0951-078a7739e120).  

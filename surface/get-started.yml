@@ -25,10 +25,12 @@ landingContent:
     linkLists:
       - linkListType: whats-new
         links:
+          - text: Pre-order Surface Pro or Surface Laptop
+            url: https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface
+          - text: Accelerate AI transformation with Surface Pro and Surface Laptop
+            url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/accelerate-ai-transformation-with-surface-pro-and-surface-laptop/ba-p/4227521
           - text: Detachable Surface Pro Flex Keyboard
             url: surface-pro-flex-keyboard.md
-          - text: Check out the all-new Surface Laptop and Surface Pro
-            url: https://blogs.windows.com/devices/2024/05/20/accelerating-ai-in-the-workplace-with-the-all-new-surface-laptop-and-surface-pro/
           - text: Surface IT Toolkit
             url: surface-it-toolkit.md  
           - text: Introducing Surface Pro 10 & Surface Laptop 6
@@ -37,8 +39,6 @@ landingContent:
             url: surface-tested-peripherals.md
           - text: NFC support in Surface Pro 10 for Business
             url: surface-pro-nfc.md
-          - text: Surface Laptop 6 smart card reader
-            url: surface-laptop-smart-card-reader.md 
           - text: Surface ruggedness testing
             url: surface-hardware-environmental-test-results.md              
           - text: Explore all Surface family products

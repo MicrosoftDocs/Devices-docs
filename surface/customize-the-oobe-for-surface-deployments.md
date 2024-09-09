@@ -1,6 +1,6 @@
 ---
 title: Customize the OOBE for Surface deployments 
-description: This article will walk you through the process of customizing the Surface out-of-box experience for end users in your organization.
+description: Learn how to customize the out-of-box experience (OOBE) for Surface deployments, ensuring a tailored setup process for your organization's needs.
 ms.assetid: F6910315-9FA9-4297-8FA8-2C284A4B1D87
 manager: frankbu
 ms.localizationpriority: medium
