@@ -6,7 +6,7 @@ ms.localizationpriority: medium
 author: coveminer
 ms.author: chauncel
 ms.topic: overview
-ms.date: 9/09/2024
+ms.date: 09/09/2024
 ms.reviewer: chauncel
 manager: frankbu
 appliesto:
