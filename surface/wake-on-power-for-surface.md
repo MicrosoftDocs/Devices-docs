@@ -74,16 +74,18 @@ You can apply the MSI package to devices across your network by using software d
 
 1. At an elevated command prompt, enter the full path of the .msi file to run the .msi package.
 
-    ```
+    ```cmd
     C:\SEMM\wake-on-power.msi 
     ```
 
 2. In the **Warning** dialog box, select **OK** or disable BitLocker, as appropriate.
 
     :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-4.png" alt-text="Select OK or disable BitLocker as appropriate.":::
+
 3. On the Welcome page, select **Next** to run the package and apply the newly configured UEFI settings.
 
     :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-5.png" alt-text="On the Welcome page, select Next.":::
+
 4. Restart your device.
 
 Wake-on-Power is now configured. To test the settings, turn off your device, disconnect the power, and then reconnect the power. The device should start automatically.
