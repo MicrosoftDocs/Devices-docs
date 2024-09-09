@@ -46,7 +46,7 @@ To accurately measure SDR and HDR output on the Surface Laptop Studio 2, use the
 
 | Setting               | SDR Mode | HDR Mode                                                                                                                                                                     |
 |-----------------------|----------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| HDR Content Brightness | Not Applicable | Adjust according to the brightness slider value: <br>- **Surface Laptop Studio 2**: Set "Brightness Slider" to **46** and "HDR Content Brightness Slider" to **1**.<br> - **Surface Laptop (7th Edition) & Surface Pro (11th Edition)**: Set "Brightness Slider" to **47** and "HDR Content Brightness Slider" to **6**.   |
+| HDR Content Brightness | Not Applicable | For accurate measurement, adjust according to the brightness slider values: <br>- **Surface Laptop Studio 2**: Set "Brightness Slider" to **46** and "HDR Content Brightness Slider" to **1**.<br> - **Surface Laptop (7th Edition) & Surface Pro (11th Edition)**: Set "Brightness Slider" to **47** and "HDR Content Brightness Slider" to **6**.   |
 
 ### Advanced configuration tips for SDR and HDR accuracy
 
