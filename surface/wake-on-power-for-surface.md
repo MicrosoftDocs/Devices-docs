@@ -8,12 +8,12 @@ search.appverid:
 ms.custom: 
 - CI 121602
 ms.reviewer: chauncel  
-description: Describes how to enable and disable Wake-on-Power for Surface devices.
+description: Enable automatic startup on compatible Surface devices with Wake-on-Power. Configure it using Surface UEFI tools for improved manageability.
 ms.service: surface
 ms.localizationpriority: medium
 ms.topic: how-to
 manager: frankbu
-ms.date: 12/08/2021
+ms.date: 09/09/2024
 appliesto:
 - Windows 10
 - Windows 11
@@ -26,6 +26,9 @@ Surface devices can be powered off while you're away from your desk, or set to h
 
 The Wake-on-Power feature is available on the following devices:
 
+- Surface Pro 10 with 5G
+- Surface Pro 11th Edition with 5G
+- Surface Pro (11th Edition)
 - Surface Pro 10 
 - Surface Pro 9 (commercial SKUs only)
 - Surface Pro 9 with 5G
@@ -38,6 +41,7 @@ The Wake-on-Power feature is available on the following devices:
 - Surface Laptop Studio 2 (commercial SKUs only)
 - Surface Laptop Studio (commercial SKUs only)
 - Surface Book 3 (all SKUs)
+- Surface Laptop (7th Edition)
 - Surface Laptop 6
 - Surface Laptop 5 (commercial SKUs only)
 - Surface Laptop 4 (commercial SKUs only)
@@ -70,16 +74,18 @@ You can apply the MSI package to devices across your network by using software d
 
 1. At an elevated command prompt, enter the full path of the .msi file to run the .msi package.
 
-    ```
+    ```cmd
     C:\SEMM\wake-on-power.msi 
     ```
 
 2. In the **Warning** dialog box, select **OK** or disable BitLocker, as appropriate.
 
     :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-4.png" alt-text="Select OK or disable BitLocker as appropriate.":::
-3. On the Welcome page, select **Next** to run the package and apply the newly configured UEFI setting.
 
-    :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-5.png" alt-text="One the Welcome page, select Next.":::
+3. On the Welcome page, select **Next** to run the package and apply the newly configured UEFI settings.
+
+    :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-5.png" alt-text="On the Welcome page, select Next.":::
+
 4. Restart your device.
 
 Wake-on-Power is now configured. To test the settings, turn off your device, disconnect the power, and then reconnect the power. The device should start automatically.

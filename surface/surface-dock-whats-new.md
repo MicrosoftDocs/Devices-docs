@@ -41,7 +41,7 @@ Surface Thunderbolt 4 Dock helps improve IT efficiency and reduce overhead and s
 Surface Thunderbolt 4 Dock is optimized for devices with a USB4/ Thunderbolt 4 port, including the following Surface for Business devices:
 
 - Surface Laptop 6
-- Surface Laptop 5
+- Surface Laptop 5 
 - Surface Laptop Studio (all generations)
 - Surface Pro 10
 - Surface Pro 9 (Intel/Wi-Fi)
@@ -52,10 +52,12 @@ Surface Thunderbolt 4 Dock is optimized for devices with a USB4/ Thunderbolt 4 p
 
 Surface Thunderbolt 4 Dock is compatible with the following Surface for Business devices with USB-C ports:
 
+- Surface Pro (11th Edition)
 - Surface Pro 9 with 5G
 - Surface Pro 7+
 - Surface Pro 7
 - Surface Pro X
+- Surface Laptop (7th Edition)
 - Surface Laptop 4
 - Surface Laptop 3 [<sup>7</sup>](#references)
 - Surface Laptop Go (all generations)
@@ -110,7 +112,7 @@ Optimize port access, save desk space and use enhanced security capabilities wit
 | Feature                            | Surface Thunderbolt 4 Dock                                                                                                                                             | Surface Dock 2                                                                                      | Surface Dock                                                   |
 | ---------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- |
 | Surface Connect                    | No                                                                                                                                                  | Yes                                                                                                 | Yes                                                            |
-| Optimal host devices               | Surface Laptop 6, Surface Laptop 5, Surface Pro 10, Surface Pro 9, Surface Pro 8, Surface Laptop Studio 2, Surface Laptop Studio                                                                               | Surface Pro 9 with 5G, Surface Laptop 4, Surface Laptop Go 2, Surface Go 3                          | Surface Go, Surface Laptop 2, Surface Laptop 3 *, Surface Pro 7+ |
+| Optimal host devices               | Surface Laptop (7th Edition), Surface Laptop 6, Surface Laptop 5, Surface Pro (11th Edition), Surface Pro 10, Surface Pro 9, Surface Pro 8, Surface Laptop Studio 2, Surface Laptop Studio                                                                               | Surface Pro 9 with 5G, Surface Laptop 4, Surface Laptop Go 2, Surface Go 3                          | Surface Go, Surface Laptop 2, Surface Laptop 3 *, Surface Pro 7+ |
 | USB-A                              | One front-facing USB-A (USB 3.1 Gen 2, 7.5 W)<br> <br>Two rear-facing USB-A (USB 3.1 Gen 2, 7.5 W)                                                        | Two rear-facing USB 3.2 Gen 2 (7.5-W power)                                                            | Two front-facing USB 3.1 Gen 1<br>Two rear-facing USB 3.1 Gen 1    |
 | Mini Display port                  | None                                                                                                                                                | None                                                                                                | Two rear facing (DP1.2)                                          |
 | USB-C                              | One front-facing USB-C (USB 4 Thunderbolt 4, video display enabled, 15 W)<br> <br>Two rear-facing USB-C (USB4/Thunderbolt 4, video display enabled, 15 W) | Two front-facing USB 3.2 Gen 2<br>(15-W power)<br>Two rear-facing USB 3.2 Gen 2 (DP1.4a)<br>(7.5-W power) | None                                                           |

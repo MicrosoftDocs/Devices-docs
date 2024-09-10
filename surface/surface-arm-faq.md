@@ -1,79 +1,77 @@
 ---
-title: ARM-based Surface devices FAQ
-description: This article provides answers to questions about app compatibility and related issues for Surface Pro X ARM-based PCs.
+title: Arm-based Surface devices FAQ
+description: Explore how Arm-based Surface devices offer top performance, efficiency, and app compatibility for corporate environments.
 ms.service: surface
 ms.localizationpriority: medium
 author: coveminer
 ms.author: chauncel
 ms.topic: how-to
-ms.date: 09/29/2022
-ms.reviewer: jessko
+ms.date: 09/06/2024
+ms.reviewer: karand
 manager: frankbu
 appliesto:
-- Windows 10
 - Windows 11
 ---
-# ARM-based Surface devices FAQ
 
-## Introduction
 
-### What are the benefits of an ARM-based Surface device?
+# Arm-based Surface devices FAQ
 
-Windows 10 and Windows 11 ARM-based PCs, such as Surface Pro X, help you keep working wherever you go. Here are some primary benefits:
+## Why should I consider Arm processors for new Surface devices in my corporate environment?
 
-- **Always be connected to the internet**. With a cellular data connection, you can be online wherever you get a cellular signal, just like your mobile phone. You can connect to Wi-Fi to save cellular data and keep working when you're at work, home, or by another Wi-Fi network you trust.
-- **Battery life that goes beyond all day**. You'll use less power than you would with other PCs, so you can go through a typical work or school day without running out of battery or worrying about finding a power outlet. If you want to use your device for something more fun, you can play videos stored on your device for many hours without charging your battery.
-- **Turn on instantly.** When you're not using your device, press the power button as you do on your mobile phone to turn off the screen. When you take out your device and turn it back on, it turns on instantly. Whenever you have a few minutes in between classes, meetings, or other activities, you can get things done without waiting for your device to start.
+Arm-based Surface devices, such as Surface Pro (11th Edition) and Surface Laptop (7th Edition), deliver exceptional performance, efficiency, and compatibility with both native and emulated applications. These devices, powered by the Snapdragon X series processors, provide outstanding battery life and integrate seamlessly with key productivity tools like Microsoft 365. The Prism emulation engine ensures smooth operation of x86/x64 applications, facilitating an easy transition to Arm architecture without sacrificing performance. Plus, the expanded support for native Arm64 apps ensures that your organization can use cutting-edge technology while maintaining compatibility with existing software.
 
-### What is App assure?
+## How has Microsoft enhanced app performance?
 
-Microsoft is committed to ensuring customers have a great compatibility experience with Windows 10 and Windows 11 on ARM64 devices such as the Surface Pro X. We've expanded the App Assure program to support customers who encounter app compatibility challenges by providing engineers to troubleshoot and provide app remediations – all at no extra cost. The service is available to commercial and EDU customers for your LOB, ISV, and Microsoft first-party apps targeting Windows 10 or Windows 11 on ARM64. To learn more, see [App Assure](https://www.microsoft.com/fasttrack/microsoft-365/app-assure).
+Microsoft continues to invest in the developer ecosystem to ensure optimal performance for both native and emulated apps on Windows on Arm. Nearly 90% of total app usage is projected to come from native apps, thanks to expanded development tools and support. Prism, the advanced emulation engine, optimizes performance and reduces CPU usage, allowing emulated apps to perform on par with, or even exceed, native apps on older models such as Surface Laptop 5 and Surface Pro 9.
 
-## Windows 11 ARM devices
+Additionally, Microsoft's [App Assure program](https://www.microsoft.com/fasttrack/microsoft-365/app-assure) offers developer resources at no extra cost to help customers resolve app compatibility issues, ensuring smooth deployment of Arm-based devices.
 
-### What limitations should I be aware of when running a Windows 11 ARM-based device?
+## What is Prism?
 
-There are some limitations when you run a Windows 11 ARM-based device:
+Prism is Microsoft's emulation technology that enables x86/x64 applications to run on Windows PCs with Arm processors, such as Surface Pro (11th Edition), Surface Pro 9 with 5G, Surface Pro X, and Surface Laptop (7th Edition). It seamlessly translates app code to run on Arm architecture, optimizing performance, and reducing CPU usage to ensure a smooth user experience on devices powered by Snapdragon X series chips.
 
-- **Drivers for hardware, games and apps will only work if designed for a Windows 11 ARM-based device**. For more info, check with the hardware manufacturer or the organization that developed the driver. Drivers are software programs that communicate with hardware devices—they're commonly used for antivirus and antimalware software, printing or PDF software, assistive technologies, CD and DVD utilities, and virtualization software.
-- If a driver doesn't work, the app or hardware that relies on it won't work either (at least not entirely). Peripherals and devices only work if the drivers they depend on are built into Windows 11 or if the hardware developer has released Arm64 drivers for the device.
-- **Certain games won't work**. Games and apps won't work if they use a version of OpenGL greater than 3.3 or rely on "anti-cheat" drivers that haven't been made for Windows 11 ARM-based PCs. Check with your game publisher to see if a game will work.
-- **Apps that customize the Windows experience might have problems**. This includes input method editors (IMEs), assistive technologies, and cloud storage apps. The organization that develops the app determines whether its app will work on a Windows 11 ARM-based device.
-- **Some third-party antivirus software can't be installed**. You won't be able to install some third-party antivirus software on a Windows 11 ARM-based PC—unless it's been made or updated for an ARM-based device. However, Windows Security will help keep you safe for the supported lifetime of your Windows 11 device.
-- **Windows Fax and Scan isn't available**. This feature isn't available on a Windows 11 ARM-based device.
+## What's new with Windows on Arm emulation?
 
-### I want to use Windows programs that aren't in the Microsoft Store. Can I run them on my Windows 11 ARM-based device?
+We now offer more native Arm64 experiences than ever before, including the fastest implementation of Microsoft 365 apps like Teams, PowerPoint, Outlook, Word, Excel, OneDrive, and OneNote. Popular apps such as Chrome, Spotify, Zoom, WhatsApp, Blender, Affinity Suite, and Davinci Resolve now run natively on Arm, delivering excellent performance.
 
-- Yes, you can install Windows apps that aren't available in the Microsoft Store in Windows. Peripherals and devices only work if the drivers they depend on are built into Windows 11 or if the hardware developer has released Arm64 drivers for the device. It's a good idea to check whether the hardware developer has published a version of the driver that runs on a Windows 11 ARM-based device.
+Through partnerships, we increased the number of apps that support Arm architecture. Native versions, optimized to take full advantage of the Snapdragon X Series, also run well on earlier devices, including Surface Pro 9 with 5G and Surface Pro X.
 
-### I use assistive technology—what should I know before buying a Windows 11 ARM-based device?
+## How do native and emulated apps differ on Windows on Arm?
 
-- Windows 11 provides [built-in accessibility features](https://www.microsoft.com/Accessibility/windows) that help you do more on your device. You can also find assistive technology apps in the Microsoft Store in Windows, such as the [KNFB Reader](https://www.microsoft.com/store/p/knfb-reader/9nblggh6hqkk) and the [Read&Write extension for Microsoft Edge](https://microsoftedge.microsoft.com/addons/detail/readwrite-for-microsoft-/bjglhpoliipklkfjcahfefdlfpifcinb?hl)—and we're working to offer more apps soon.
-- You can check the Microsoft Store or contact your assistive software vendor to see if your preferred assistive technology apps are available for a Windows 11 ARM-based device.
-- You may want to check with the vendor to determine if their app is compatible with a Windows 11 ARM-based device. Not all assistive technology apps work as expected.
-- If you use a screen reader, NVDA has updated its app to be compatible with a Windows 11 ARM-based device. For more info, visit the [NV Access website](https://go.microsoft.com/fwlink/?linkid=867679).
+- **Native apps** are designed to fully utilize the Arm64 architecture, providing optimal performance and compatibility. Microsoft has expanded its support for Arm64 development, ensuring broad availability of Arm64-compatible software.
+- **Emulated apps** run via the Prism emulation engine, which minimizes performance loss and ensures that most x86/x64 applications operate seamlessly on Arm64 systems. Users shouldn't notice any significant difference between native and emulated apps apart from potential performance variations.
 
-## Windows 10 ARM devices
+## What's the performance for emulated apps?
 
-### What limitations should I be aware of when running a Windows 10 ARM-based device?
+Prism automatically handles x86/x64 apps, translating their code to run efficiently on Arm architecture. Significant optimizations in Prism have improved performance and reduced CPU usage compared to previous emulation technologies. Although apps requiring non-Arm drivers might not function, Microsoft has worked extensively with partners to migrate many apps to run natively on Arm64. Most x64 applications are expected to perform comparably to native apps under emulation.
 
-There are some limitations when you run a Windows 10 ARM-based device:
+### How does emulation affect battery life?
 
-- **Drivers for hardware, games and apps will only work if designed for a Windows 10 ARM-based device**. For more info, check with the hardware manufacturer or the organization that developed the driver. Drivers are software programs that communicate with hardware devices—they're commonly used for antivirus and antimalware software, printing or PDF software, assistive technologies, CD and DVD utilities, and virtualization software.
-- If a driver doesn't work, the app or hardware that relies on it won't work either (at least not entirely). Peripherals and devices only work if the drivers they depend on are built into Windows 10 or if the hardware developer has released Arm64 drivers for the device.
-- **64-bit (x64) apps won't work**. You'll need 64-bit (Arm64) apps, 32-bit (Arm32) apps, or 32-bit (x86) apps. You can usually find 32-bit (x86) versions of apps, but some app developers only offer 64-bit (x64) apps.
-- **Certain games won't work**. Games and apps won't work if they use a version of OpenGL greater than 1.1 or rely on "anti-cheat" drivers that haven't been made for Windows 10 ARM-based PCs. Check with your game publisher to see if a game will work.
-- **Apps that customize the Windows experience might have problems**. This includes input method editors (IMEs), assistive technologies, and cloud storage apps. The organization that develops the app determines whether their app will work on a Windows 10 ARM-based device.
-- **Some third-party antivirus software can't be installed**. You won't be able to install some third-party antivirus software on a Windows 10 ARM-based device. However, Windows Security will help keep you safe for the supported lifetime of your Windows 10 device.
-- **Windows Fax and Scan isn't available**. This feature isn't available on a Windows 10 ARM-based device.
+Battery life depends on workload, but Microsoft has optimized emulation efficiency and native apps to ensure excellent battery life. Resource-heavy apps, however, might drain the battery faster than lightweight ones.
 
-### I want to use Windows programs that aren't in the Microsoft Store. Can I run them on my Windows 10 ARM-based device?
+## Can I run Windows programs that aren't in the Microsoft Store on my Windows 11 Arm-based device?
 
-- You can install 32-bit (x86) and 64-bit (Arm64) Windows apps that aren't available in the Microsoft Store in Windows. 64-bit (x64) apps won't run. Peripherals and devices only work if the drivers they depend on are built into Windows 10 or if the hardware developer has released Arm64 drivers for the device. It's a good idea to check whether the hardware developer has published a version of the driver that runs on a Windows 10 ARM-based device.
+Yes, non-Store Windows apps can be installed and run on Windows 11 Arm-based devices. Most applications run natively or through Prism emulation, providing smooth performance.
 
-### I use assistive technology—what should I know before buying a Windows 10 ARM-based device?
+## Where can I get help with app compatibility?
 
-- Windows 10 provides [built-in accessibility features](https://www.microsoft.com/Accessibility/windows) that help you do more on your device. You can also find assistive technology apps in the Microsoft Store in Windows, such as the [KNFB Reader](https://www.microsoft.com/store/p/knfb-reader/9nblggh6hqkk) and the [Read&Write extension for Microsoft Edge](https://microsoftedge.microsoft.com/addons/detail/readwrite-for-microsoft-/bjglhpoliipklkfjcahfefdlfpifcinb?hl=en-US)—and we're working to offer more apps soon.
-- You can check the Microsoft Store or contact your assistive software vendor to see if your preferred assistive technology apps are available for a Windows 10 ARM-based device.
-- You may want to check with the vendor to determine if their app is compatible with a Windows 10 ARM-based device. Not all assistive technology apps work as expected.
-- If you use a screen reader, NVDA has updated its app to be compatible with a Windows 10 ARM-based device. For more info, visit the [NV Access website](https://go.microsoft.com/fwlink/?linkid=867679).
+For assistance with app compatibility on Windows 10 and Windows 11 Arm64 devices, visit [App Assure with Microsoft FastTrack](https://www.microsoft.com/fasttrack/microsoft-365/app-assure). This service is available at no extra cost for eligible Microsoft 365 or Windows plans.
+
+## Is App Assure just for Microsoft software?
+
+No. The App Assure program supports custom line-of-business apps, non-Microsoft software, and resolves issues related to Microsoft 365 Apps macros and add-ins.
+
+## What limitations should I be aware of when running a Windows 11 Arm-based device?
+
+- **Drivers for hardware, games, and apps must be designed for Arm-based devices.** Most common drivers are now available, but specialized hardware or older peripherals might require verification for Arm64 compatibility.
+- **Peripheral compatibility depends on Arm64 drivers.** Devices like printers and scanners work if their drivers are built into Windows 11 or provided by the hardware developer. Without compatible drivers, functionality might be limited. If the hardware developer lacks Arm64 drivers, try installing the printer through Windows settings. To learn more, see [Install a printer in Windows](https://support.microsoft.com/windows/install-a-printer-in-windows-cc0724cf-793e-3542-d1ff-727e4978638b).
+- **Certain games might face compatibility issues.** Games that rely on OpenGL versions greater than 3.3 or on "anti-cheat" drivers not updated for Arm might not work, although many are being optimized for Arm-based devices.
+- **Customization apps might have limited functionality.** Apps that modify the Windows experience, such as input method editors (IMEs) and cloud storage clients, might encounter issues unless optimized for Arm64.
+- **Antivirus software compatibility has improved but can vary.** While many non-Microsoft antivirus programs now support Arm-based PCs, we recommend verifying compatibility. Windows Security continues to offer comprehensive protection.
+- **Windows Fax and Scan is not available on Arm-based devices.** Alternative solutions are required for faxing and scanning.
+
+## What should I know about using assistive technology on a Windows 11 Arm-based device?
+
+Windows 11 includes various [built-in accessibility features](https://www.microsoft.com/Accessibility/windows) and supports many assistive technology apps available in the Microsoft Store. To ensure compatibility, check with your assistive software vendor or the Microsoft Store to confirm if your preferred apps are optimized for Windows 11 Arm-based devices. While many assistive apps are now supported, some might still require updates for optimal performance.
+
+If you use a screen reader, NVDA has updated its app for compatibility with Windows 11 Arm-based devices. For more information, visit the [NV Access website](https://go.microsoft.com/fwlink/?linkid=867679). Other popular screen readers like JAWS are increasingly supporting Arm-based devices.

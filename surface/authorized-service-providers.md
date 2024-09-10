@@ -1,12 +1,12 @@
 ---
 title: Surface repair by Microsoft authorized service providers
-description: Learn how Microsoft authorized service providers (ASPs) collaborate with Microsoft to offer repairs for your Surface devices using genuine parts and direct support access.
+description: Discover how Microsoft ASPs offer Surface repairs using genuine parts and direct support, collaborating closely with Microsoft for quality service.
 ms.service: surface
 ms.localizationpriority: medium
 author: coveminer
 ms.author: chauncel
 ms.topic: overview
-ms.date: 07/29/2024
+ms.date: 09/09/2024
 ms.reviewer: 
 manager: frankbu
 appliesto:
@@ -55,6 +55,7 @@ The growing ASP network consists of more than 160 locations.
 - [MCPC](https://www.mcpc.com/)
 - [MicroK12](https://microk12.com/)
 - [Mobile ME IT](https://mobilemeit.com/)
+- [Pro Tech Computer Systems, Inc](https://www.protsys.com/)
 - [Sterling](https://sterling.com/)
 - [TD SYNNEX](https://www.synnexcorp.com/us/)
 - [Trafera](https://www.trafera.com/)
@@ -137,8 +138,9 @@ The growing ASP network consists of more than 160 locations.
 
 #### New Zealand
 
+- [Service Plus Group Limited](https://serviceplus.co.nz/brands/microsoft-surface-authorised-repairs/)
 - [The Laptop Company](https://www.laptop.co.nz/)
 
 #### South Korea
 
-- [Gownet Co., Ltd](https://gownet.com)
+- [Gownet Co., Ltd](https://surface.gownet.com/)
