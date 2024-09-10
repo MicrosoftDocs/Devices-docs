@@ -60,7 +60,7 @@ You need a dedicated USB drive with at least 50 MB of storage space.
 
     :::image type="content" source="images/uefi-hub-dfi.png" alt-text="Screenshot of choose Deployment Build for Surface Hub.":::
 
-3. Under **Import Certficate Protection**, add your organizational **Personal Information Exchange (PFE) certificate**.
+3. Under **Import Certificate Protection**, add your organizational **Personal Information Exchange (PFE) certificate**.
 
     :::image type="content" source="images/uefi-import-cert.png" alt-text="Screenshot of import certificate protection.":::
 
