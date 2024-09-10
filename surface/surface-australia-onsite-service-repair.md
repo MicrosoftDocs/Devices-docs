@@ -1,12 +1,12 @@
 ---
 title: Surface Australia On-Site service and repair
-description: Discover Surface Australia On-Site Service & Repair, available for eligible Surface devices, offering enterprise-level support with on-site repairs across Australia.
+description: Discover Surface Australia On-Site Service & Repair, available for eligible Surface devices, offering enterprise-level support with on-site repairs acr\oss Australia.
 ms.service: windows-11
 ms.localizationpriority: medium
 author: coveminer
 ms.author: chauncel
 ms.topic: overview
-ms.date: 12/01/2022
+ms.date: 09/10/2024
 ms.reviewer: chauncel
 manager: frankbu
 appliesto:
@@ -25,10 +25,12 @@ EHS Plus with On-Site is a commercial Protection Plan available for purchase by 
 
 ### Eligible devices (commercial versions only)
 
+- Surface Laptop (7th Edition)
 - Surface Laptop 6 
 - Surface Laptop 5 
 - Surface Laptop Studio 2
 - Surface Laptop Go 3
+- Surface Pro (11th Edition)
 - Surface Pro 10 
 - Surface Pro 9 
 - Surface Pro 9 with 5G 
@@ -56,5 +58,5 @@ On-site may not be available within the first 90 days after the original purchas
 ## References
 
 1. Some services may be provided by an authorized third-party supplier or service provider working on Microsoft’s behalf.
-2. In Australia, commercial protection plans must be purchased within forty-five (45) days from the original purchase date of an eligible commercial Microsoft Surface device.
-3. Service provider’s repair technician may repair the covered Microsoft device, but they do not image devices or re-install customer software or data. Repair technicians will also not ensure Microsoft Autopilot or Intune products are re-enabled on the covered Microsoft device.
+1. In Australia, commercial protection plans must be purchased within forty-five (45) days from the original purchase date of an eligible commercial Microsoft Surface device.
+1. Service provider’s repair technician may repair the covered Microsoft device, but they do not image devices or re-install customer software or data. Repair technicians will also not ensure Microsoft Autopilot or Intune products are re-enabled on the covered Microsoft device.
