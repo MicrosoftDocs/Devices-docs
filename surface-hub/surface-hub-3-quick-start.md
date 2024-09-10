@@ -1,6 +1,6 @@
 ---
-title: "Surface Hub 3 quick start"
-description: "View the quick start steps to begin using Surface Hub 3."
+title: Quick start—Surface Hub running Microsoft Teams Rooms on Windows
+description: Follow these easy steps to unpack, install, and begin using Surface Hub 3 running Microsoft Teams Rooms on Windows.
 ms.service: surface-hub
 author: coveminer
 ms.author: chauncel
@@ -12,7 +12,7 @@ appliesto:
 - Surface Hub 3
 ---
 
-# Surface Hub 3 quick start
+# Quick start—Surface Hub running Microsoft Teams Rooms on Windows
 
 ## Unpack Surface Hub 3
 
