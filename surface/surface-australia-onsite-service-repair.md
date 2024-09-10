@@ -1,12 +1,12 @@
 ---
 title: Surface Australia On-Site service and repair
-description: This article describes onsite service and repair options for Surface devices in Australia
+description: Discover Surface Australia On-Site Service & Repair, available for eligible Surface devices, offering enterprise-level support with on-site repairs acr\oss Australia.
 ms.service: windows-11
 ms.localizationpriority: medium
 author: coveminer
 ms.author: chauncel
 ms.topic: overview
-ms.date: 12/01/2022
+ms.date: 09/10/2024
 ms.reviewer: chauncel
 manager: frankbu
 appliesto:
@@ -25,10 +25,12 @@ EHS Plus with On-Site is a commercial Protection Plan available for purchase by 
 
 ### Eligible devices (commercial versions only)
 
+- Surface Laptop (7th Edition)
 - Surface Laptop 6 
 - Surface Laptop 5 
 - Surface Laptop Studio 2
 - Surface Laptop Go 3
+- Surface Pro (11th Edition)
 - Surface Pro 10 
 - Surface Pro 9 
 - Surface Pro 9 with 5G 
