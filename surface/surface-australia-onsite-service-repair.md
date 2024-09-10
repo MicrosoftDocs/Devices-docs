@@ -1,6 +1,6 @@
 ---
 title: Surface Australia On-Site service and repair
-description: This article describes onsite service and repair options for Surface devices in Australia
+description: Discover Surface Australia On-Site Service & Repair, available for eligible Surface devices, offering enterprise-level support with on-site repairs across Australia.
 ms.service: windows-11
 ms.localizationpriority: medium
 author: coveminer
@@ -56,5 +56,5 @@ On-site may not be available within the first 90 days after the original purchas
 ## References
 
 1. Some services may be provided by an authorized third-party supplier or service provider working on Microsoft’s behalf.
-1. In Australia, commercial protection plans must be purchased within forty-five (45) days from the original purchase date of an eligible commercial Microsoft Surface device.
-1. Service provider’s repair technician may repair the covered Microsoft device, but they do not image devices or re-install customer software or data. Repair technicians will also not ensure Microsoft Autopilot or Intune products are re-enabled on the covered Microsoft device.
+2. In Australia, commercial protection plans must be purchased within forty-five (45) days from the original purchase date of an eligible commercial Microsoft Surface device.
+3. Service provider’s repair technician may repair the covered Microsoft device, but they do not image devices or re-install customer software or data. Repair technicians will also not ensure Microsoft Autopilot or Intune products are re-enabled on the covered Microsoft device.
