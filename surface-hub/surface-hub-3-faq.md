@@ -22,7 +22,9 @@ appliesto:
 
 - Surface Hub 3 started shipping December 5, 2023.
 
-**How can I place an order for the Surface Hub 3 Pack?**
+**How can I place an order for the Surface Hub 3 Compute Cartridge?**
+
+To order the Surface Hub 3 Compute Cartridge (formerly Surface Hub 3 Pack), see the following resources:
 
 - See [Surface Hub 3 product site](https://www.microsoft.com/surface/business/surface-hub-3)
 - Contact your [Surface device reseller](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface#DEVICESRESELLERS).
@@ -30,7 +32,7 @@ appliesto:
 **How can I upgrade my Surface Hub 2S to the new experience?**
 
 - Purchase a new Surface Hub 3.
-- Upgrade from Surface Hub 2S to Surface Hub 3 via the [Surface Hub 3 Pack](install-manage-surface-hub-3-pack.md) compute cartridge.
+- Upgrade from Surface Hub 2S to Surface Hub 3 via the [Surface Hub 3 Compute Cartridge](install-manage-surface-hub-3-compute-cartridge.md) compute cartridge.
 - Migrate your Surface Hub 2S to the new experience. To learn more, see [Migrate Surface Hub 2S to Microsoft Teams Rooms on Windows](surface-hub-2s-migrate-to-mtr-w.md).
 
 **What is the default admin password on Surface Hub running Microsoft Teams Rooms on Windows?**
@@ -55,7 +57,7 @@ appliesto:
 
 **Will I be able to rotate Surface Hub on the new experience?**
 
-- Smart Rotation is only possible on 50-inch Surface Hub 3 hardware (new Surface Hub 3 devices, or Surface Hub 2S devices upgraded with a Surface Hub 3 Pack compute cartridge).
+- Smart Rotation is only possible on 50-inch Surface Hub 3 hardware (new Surface Hub 3 devices, or Surface Hub 2S devices upgraded with a Surface Hub 3 Compute Cartridge).
 
 **Will I be able to rotate Surface Hub 3 85"?**
 
@@ -73,7 +75,7 @@ appliesto:
 
 ## Learn more
 
-- [Surface Hub 3 Pack FAQ](surface-hub-3-pack-faq.md)
+- [Surface Hub 3 Compute Cartridge FAQ](surface-hub-3-compute-cartridge-faq.md)
 - [Get started with Surface Hub running Microsoft Teams Rooms on Windows](surface-hub-3-get-started.md)
 - [First-time setup for Surface Hub running Microsoft Teams Rooms on Windows](first-run-program-surface-hub-3.md)
 - [Security best practices for Surface Hubs running Microsoft Teams Rooms on Windows](surface-hub-3-security.md)

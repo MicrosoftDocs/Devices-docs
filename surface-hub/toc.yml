@@ -13,8 +13,8 @@
              href: surface-hub-3-whats-new.md
            - name: Surface Hub with Teams Rooms on Windows FAQ
              href: surface-hub-3-faq.md  
-           - name: Surface Hub 3 Pack FAQ
-             href: surface-hub-3-pack-faq.md 
+           - name: Surface Hub 3 Compute Cartridge FAQ
+             href: surface-hub-3-compute-cartridge-faq.md 
            - name: Driver & firmware lifecycle
              href: surface-hub-driver-firmware-accessories-lifecycle.md
            - name: Deploy Surface Hub with Windows Autopilot & Teams Rooms Auto-login
@@ -30,8 +30,8 @@
                 href: surface-hub-3-get-started.md            
               - name: First-time setup 
                 href: first-run-program-surface-hub-3.md
-              - name: Install & manage Surface Hub 3 Pack
-                href: install-manage-surface-hub-3-pack.md
+              - name: Install & manage Surface Hub 3 Compute Cartridge
+                href: install-manage-surface-hub-3-compute-cartridge.md
               - name: Security best practices
                 href: surface-hub-3-security.md    
               - name: Install wallpaper
@@ -242,14 +242,14 @@
               items: 
                 - name: Surface Hub 3 tech specs
                   href: surface-hub-3-techspecs.md
-                - name: Surface Hub 3 Pack tech specs
-                  href: surface-hub-3-pack-techspecs.md     
+                - name: Surface Hub 3 Compute Cartridge tech specs
+                  href: surface-hub-3-compute-cartridge-techspecs.md     
             - name: Site readiness guide
               href: surface-hub-3-site-readiness-guide.md
               items: 
                   - name: Site planning for Surface Hub 3
                     href: surface-hub-site-planning.md   
-                  - name: Surface Hub 3 quick start
+                  - name: Quick start
                     href: surface-hub-3-quick-start.md
                   - name: Unpack Surface Hub 
                     href: surface-hub-unpack.md

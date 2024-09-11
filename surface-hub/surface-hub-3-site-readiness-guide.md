@@ -1,6 +1,6 @@
 ---
 title: "Surface Hub 3 Site readiness guide"
-description: "Get familiar with site readiness requirements and recommendations for Surface Hub 3."
+description: Prepare your site for Surface Hub 3 with this comprehensive guide. Learn about site readiness requirements, room planning, installation steps, and essential setup recommendations.
 ms.service: surface-hub
 author: coveminer
 ms.author: chauncel

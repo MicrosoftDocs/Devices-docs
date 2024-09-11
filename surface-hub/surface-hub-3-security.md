@@ -1,6 +1,6 @@
 ---
 title: "Security best practices for Surface Hubs running Microsoft Teams Rooms on Windows"
-description: "This page explains best practices for Surface Hubs running Microsoft Teams Rooms on Windows."
+description: "Learn the best security practices for Surface Hubs running Microsoft Teams Rooms on Windows, including steps to enhance protection through admin password changes, UEFI settings, and physical security measures."
 ms.service: surface-hub
 author: coveminer
 ms.author: chauncel
@@ -60,7 +60,7 @@ You need a dedicated USB drive with at least 50 MB of storage space.
 
     :::image type="content" source="images/uefi-hub-dfi.png" alt-text="Screenshot of choose Deployment Build for Surface Hub.":::
 
-3. Under **Import Certficate Protection**, add your organizational **Personal Information Exchange (PFE) certificate**.
+3. Under **Import Certificate Protection**, add your organizational **Personal Information Exchange (PFE) certificate**.
 
     :::image type="content" source="images/uefi-import-cert.png" alt-text="Screenshot of import certificate protection.":::
 
