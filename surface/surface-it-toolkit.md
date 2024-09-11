@@ -76,9 +76,9 @@ The Tool Library in the Surface IT Toolkit is a centralized repository that prov
 
 ### Version 1.198.0
 
-This version of Surface IT Toolkit, released September 10, 2024 includes the following updates:
+This version of Surface IT Toolkit, released September 10, 2024, includes the following updates:
 
-- Added support for Wi-Fi+5G models of Surface Pro (11th Edition) and Surface Pro 10 for Business.
+- Added support for Wi-Fi+5G models of Surface Pro (11th Edition) and Wi-Fi+5G models of Surface Pro 10 for Business
 - Improved accessibility options
 
 ### Version 1.186.139
@@ -92,4 +92,4 @@ This version of Surface IT Toolkit, released May 30, 2024, includes the followin
 
 ### Version 1.143.139
 
-- Initial release.
+- Initial release
