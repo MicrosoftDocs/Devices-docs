@@ -1,5 +1,5 @@
 ---
-title: "Migrate to Windows 11 Pro or Enterprise on Surface Hub 3"
+title: "Migrate to Windows 11 Pro or Enterprise on Surface Hub running Microsoft Teams Rooms on Windows"
 description: Learn how to migrate Surface Hub 3 to Windows 11 Pro or Enterprise, including downloading the OS, creating a bootable USB, and installing necessary drivers and firmware.
 ms.service: surface-hub
 author: coveminer
@@ -8,12 +8,11 @@ manager: frankbu
 ms.topic: how-to
 ms.date: 12/04/2023
 ms.localizationpriority: Medium
-appliesto:
-- Surface Hub 3
-- Windows 11
 ---
 
-# Migrate to Windows 11 Pro or Enterprise on Surface Hub 3
+# Migrate to Windows 11 Pro or Enterprise on Surface Hub running Microsoft Teams Rooms on Windows
+
+[!INCLUDE [Hub MTR Scope](includes/hub-mtr-scope.md)]
 
 This article describes how to convert the operating system to Windows 11 Pro or Enterprise and use Surface Hub 3 much like any other PC.
 
@@ -35,4 +34,4 @@ This article describes how to convert the operating system to Windows 11 Pro or 
 
 ## Install Surface Hub 3 drivers and firmware
 
-To ensure that your Surface Hub 3's hardware is fully usable and up-to-date, download and install [drivers and firmware for Windows 11 Pro and Enterprise](https://www.microsoft.com/download/details.aspx?id=101974). Then, reboot the device. Keep the Surface turned on for an hour, then reboot it again. You aren't prompted for the second reboot. This pause and extra reboot ensures that the firmware is fully updated.
+To ensure that your Surface Hub 3's hardware is fully usable and up-to-date, download and install [drivers and firmware for Windows 11 Pro and Enterprise on Surface Hub 2S and Surface Hub 3](https://www.microsoft.com/download/details.aspx?id=101974). Then, reboot the device. Keep the Surface turned on for an hour, then reboot it again. You aren't prompted for the second reboot. This pause and extra reboot ensures that the firmware is fully updated.
