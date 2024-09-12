@@ -2,7 +2,7 @@
 title: Windows Autopilot and Surface devices
 ms.reviewer: 
 manager: frankbu
-description: Find out about Windows Autopilot deployment options for Surface devices.
+description: Simplify deployment of Surface devices with Windows Autopilot. Automate setup, management & configuration using zero-touch processes for IT.
 ms.service: surface
 author: coveminer
 ms.author: chauncel
@@ -40,7 +40,7 @@ You can register Surface devices at the time of purchase from a Surface partner 
 
 Autopilot is the recommended deployment option for Surface devices, including Surface Pro (11th Edition), Surface Pro 10, Surface Pro 9, Surface Pro 9 with 5G, Surface Studio 2+, Surface Pro 8, Surface Laptop Studio (all generations), Surface Laptop Go (all generations), Surface Go 4, Surface Go 3, Surface Pro 7+, Surface Laptop (7th Edition), Surface Laptop 6, Surface Laptop 5, Surface Laptop 4, and Surface Pro X.
 
- It's best to enroll your Surface devices with the help of a Microsoft Cloud Solution Provider. This step allows you to manage UEFI firmware settings on Surface directly from Intune. It eliminates the need to physically touch devices for certificate management. See [Intune management of Surface UEFI settings](surface-manage-dfci-guide.md) for details.
+It's best to enroll your Surface devices with the help of a Microsoft Cloud Solution Provider. This step allows you to manage UEFI firmware settings on Surface directly from Intune. It eliminates the need to physically touch devices for certificate management. See [Intune management of Surface UEFI settings](surface-manage-dfci-guide.md) for details.
 
 ## Windows version considerations
 
@@ -50,7 +50,7 @@ These Windows versions support a 4,000-byte (4k) hash value that uniquely identi
 
 ## Exchange experience on Surface devices in need of repair or replacement
 
-Microsoft automatically checks every Surface for Autopilot enrollment and will deregister the device from the customer's tenant.  Microsoft ensures the replacement device is enrolled into Windows Autopilot once a replacement is shipped back to the customer. This service is available on all device exchange service orders directly with Microsoft.
+Microsoft automatically checks every Surface for Autopilot enrollment and will deregister the device from the customer's tenant.  Microsoft ensures the replacement device is enrolled in Windows Autopilot once it is shipped back to the customer. This service is available on all device exchange service orders directly with Microsoft.
 
 > [!NOTE]
 > When customers use a Partner to return devices, the Partner is responsible for managing the exchange process including deregistering and enrolling devices into Windows Autopilot.

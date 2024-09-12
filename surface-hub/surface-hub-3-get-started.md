@@ -17,11 +17,11 @@ ms.localizationpriority: medium
 
 ## New installs
 
-New deliveries of Surface Hub 3 and the Surface Hub 3 Pack come preinstalled with the Microsoft Teams Rooms on Windows (MTR-W) experience. Turn it on and follow the prompts for the first run startup experience (aka OOBE). See [First-time setup for Surface Hub running Microsoft Teams Rooms on Windows](first-run-program-surface-hub-3.md) to learn more.
+New deliveries of Surface Hub 3 and the Surface Hub 3 Compute Cartridge come preinstalled with the Microsoft Teams Rooms on Windows (MTR-W) experience. Turn it on and follow the prompts for the first run startup experience (aka OOBE). See [First-time setup for Surface Hub running Microsoft Teams Rooms on Windows](first-run-program-surface-hub-3.md) to learn more.
 
 ## Upgrade
 
-If you have a Surface Hub 2S, you can upgrade to the new experience via the Surface Hub 3 Pack. See [Install and manage Surface Hub 3 Pack](install-manage-surface-hub-3-pack.md) to learn more.
+If you have a Surface Hub 2S, you can upgrade to the new experience via the Surface Hub 3 Compute Cartridge (formerly Surface Hub 3 Pack). See [Install and manage Surface Hub 3 Compute Cartridge](install-manage-surface-hub-3-compute-cartridge.md) to learn more.
 
 ## IT management of Surface Hub running MTR-W
 
@@ -55,7 +55,7 @@ real-time monitoring and management for Teams Rooms devices. To learn more, see 
 
 ## Licensing
 
-New Surface Hub 3 devices, Surface Hub 3 Packs, and Surface Hub 2S devices software-migrated to the MTR-W platform, all come with a Windows 11 IoT Enterprise license,  and you'll also need  
+New Surface Hub 3 devices, Surface Hub 3 Compute Cartridges, and Surface Hub 2S devices software-migrated to the MTR-W platform, all come with a Windows 11 IoT Enterprise license,  and you'll also need  
 a [Teams Rooms](/microsoftteams/rooms/rooms-licensing) license. A Teams Rooms Pro license is recommended for advanced features like remote device management, conditional access policies, and detailed device analytics. To learn more, see [Microsoft Teams Rooms licenses](/microsoftteams/rooms/rooms-licensing#teams-rooms-license-service-plan-comparison).
 
 ## Next steps
@@ -67,4 +67,4 @@ a [Teams Rooms](/microsoftteams/rooms/rooms-licensing) license. A Teams Rooms Pr
 
 ### Learn more
 
-- [Install & manage Surface Hub 3 Pack](install-manage-surface-hub-3-pack.md)
+- [Install & manage Surface Hub 3 Compute Cartridge](install-manage-surface-hub-3-compute-cartridge.md)
