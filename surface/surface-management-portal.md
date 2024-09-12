@@ -76,7 +76,7 @@ If you manage hundreds or thousands of devices, having direct access to the warr
 - Devices out of warranty
 - Devices eligible for optional coverage
 
-## Submit devices for repair
+### Submit devices for repair
 
 1. Select **Create service request** from the service orders screen.
 
@@ -99,8 +99,7 @@ If you manage hundreds or thousands of devices, having direct access to the warr
    - Carefully review all entered information, ensuring it is accurate and complete.
    - Once verified, click **Submit** to finalize the service request.
 
-
-### Tracking your repair request
+#### Tracking your repair request
 
 After submitting, you can track the status of your request under the **Service order** section. The status will update as the request progresses through different stages, such as device return, replacement in transit, and completed deliveries.
 
