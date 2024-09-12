@@ -45,7 +45,11 @@ With the Surface Management Portal, you can:
 
 <a name='azure-ad-roles-for-surface-management-portal'></a>
 
-## Monitor Surface devices
+## IT tasks in Surface Management Portal
+
+Managing a fleet of Surface devices efficiently is crucial for IT admins. The Surface Management Portal offers a range of tools to monitor device health, manage warranties, and handle support requests. This section includes key tasks you can perform using the portal to ensure your Surface devices remain compliant, up-to-date, and fully functional.
+
+### Monitor Surface devices
 
 1. Select **Monitor** to display insights for all your Surface devices, including:
 
@@ -63,7 +67,7 @@ With the Surface Management Portal, you can:
 > [!TIP]
 > The portal shows device information for your top four registered devices with all others listed under **Other**. Select **View report** to see all your devices.
 
-## Device warranty and coverage
+### Device warranty and coverage
 
 If you manage hundreds or thousands of devices, having direct access to the warranty status of each device is especially useful, letting you quickly see the following information:
 
@@ -72,13 +76,13 @@ If you manage hundreds or thousands of devices, having direct access to the warr
 - Devices out of warranty
 - Devices eligible for optional coverage
 
-## Support requests
+### Support requests
 
 The Surface Management Portal gives complete visibility into support activity along with the status of each request.
 
 :::image type="content" source="images/surface-management-portal/surface-management-portal-support.png" lightbox="/surface/images/surface-management-portal/surface-management-portal-support.png" alt-text="Get information about support activity along with the status of each request.":::
 
-### Create Support Requests
+#### Create Support Requests
 
 You can create and submit new requests for one or more devices.
 
@@ -94,7 +98,7 @@ You can create and submit new requests for one or more devices.
 > [!TIP]
 > Track request status using the current insights and detailed views.
 
-## Extend functionality with the Surface API Management Service
+### Extend functionality with the Surface API Management Service
 
 The Surface API Management Service is an extension of the Surface Management Portal, providing IT admins with direct access to Microsoft coverage and entitlement information for their Surface devices through API endpoints. This service simplifies device and asset management by offering seamless integration, allowing admins or users to quickly retrieve critical warranty and device details. Access requires an active Surface Management Portal account and a customer validation check.
 
