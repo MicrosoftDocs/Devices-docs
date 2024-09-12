@@ -76,6 +76,34 @@ If you manage hundreds or thousands of devices, having direct access to the warr
 - Devices out of warranty
 - Devices eligible for optional coverage
 
+## Submit devices for repair
+
+1. Select **Create service request** from the service orders screen.
+
+2. **Choose the device or accessory for repair**:
+   - In the "What do you want to replace or repair?" section, select whether the item is a **Serialized Device/Accessory** (e.g., Type covers, Dock) or a **Non-serialized Accessory** (e.g., Mouse, Power Supply).
+
+3. **Add Service request details**:
+   - Enter the required details about the device or accessory.
+   - Choose the appropriate product or model from the drop-down menu.
+   - If necessary, select multiple devices by choosing **+ Select devices**, then click **Done** after your selection.
+
+4. **Describe the issue**:
+   - Provide a detailed description of the issue you are experiencing with the device.
+   - Attach any relevant files that might help diagnose or explain the issue.
+
+5. **Provide contact information**:
+   - Enter your contact details and specify your preferred method of communication for updates regarding the request.
+
+6. **Review and submit the request**:
+   - Carefully review all entered information, ensuring it is accurate and complete.
+   - Once verified, click **Submit** to finalize the service request.
+
+
+### Tracking your repair request
+
+After submitting, you can track the status of your request under the **Service order** section. The status will update as the request progresses through different stages, such as device return, replacement in transit, and completed deliveries.
+
 ### Support requests
 
 The Surface Management Portal gives complete visibility into support activity along with the status of each request.
