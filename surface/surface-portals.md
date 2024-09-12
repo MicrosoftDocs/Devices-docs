@@ -32,7 +32,7 @@ With Surface portals, you can:
 |------------------------------------|------------------------------------------------------------------------|---------------------------------------------------------------------|
 | **Designed for**                   | Customers who already use Microsoft Intune to manage multiple devices at scale | Microsoft 365 customers looking to streamline support for their employees & users |
 | **Platform requirements**          | Microsoft Intune admin center                                          | Microsoft 365 admin center                                          |
-| **Subscription**                   | E3/E5 subscription                                                     | Microsoft 365 Basic Business subscription                           |
+| **Subscription**                   | E3/E5 subscription                                                     | Microsoft 365 business account                           |
 | **Device registration**            | Automatic device enrollment through Autopilot/Intune                   | Submit request to register devices with your organization            |
 | **Roles/Access**                   | Global Admin, Global Reader, Hardware Admin, Hardware Specialist       | Global Admin, Billing Admin, Service Support Admin, Hardware Admin, Hardware Specialist |
 | **Device tech & administrative support** | Yes                                                                 | Yes                                                                 |
