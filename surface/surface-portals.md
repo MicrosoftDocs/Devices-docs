@@ -33,14 +33,14 @@ With Surface portals, you can:
 | **Designed for**                   | Customers who already use Microsoft Intune to manage multiple devices at scale | Microsoft 365 customers looking to streamline support for their employees & users |
 | **Platform requirements**          | Microsoft Intune admin center                                          | Microsoft 365 admin center                                          |
 | **Subscription**                   | E3/E5 subscription                                                     | Microsoft 365 business account                           |
-| **Device registration**            | Automatic device enrollment through Autopilot/Intune                   | Submit request to register devices with your organization            |
+| **Device registration**            | Automatic device enrollment through Intune                              | Manual device upload required             |
 | **Roles/Access**                   | Global Admin, Global Reader, Hardware Admin, Hardware Specialist       | Global Admin, Billing Admin, Service Support Admin, Hardware Admin, Hardware Specialist |
 | **Device tech & administrative support** | Yes                                                                 | Yes                                                                 |
 | **Device repair & exchange**       | Yes                                                                    | Yes                                                                 |
 | **Device warranty status**         | Yes                                                                    | Yes                                                                 |
 | **Device insights**                | Health, Performance, Encryption, Compliance, Hardware usage            | None                                                                |
 | **Windows 11 eligibility status**  | Yes                                                                    | No                                                                  |
-| **Availability to all regions where Surface is sold** | Yes                                                               | Yes                                                                 |
+| **Availability to all regions where Surface is sold** | Yes                                                 | Yes                                                                 |
 | **Bulk device service orders**     | Yes                                                                    | Yes                                                                 |
 | **API integration availability**   | Yes                                                                    | No                                                                  |
 
