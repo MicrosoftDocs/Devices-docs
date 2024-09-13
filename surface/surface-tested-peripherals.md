@@ -28,6 +28,8 @@ As part of the Positive Experience List (PEL) initiative, Surface engineering te
 
 | Device                     | Tested Monitors            | Tested Docks              | Tested Cables             | Tested Adapters           |
 |----------------------------|----------------------------|---------------------------|---------------------------|---------------------------|
+| Surface Laptop (7th Edition)   | [Monitors](#tested-monitors-for-surface-laptop-7th-edition) | [Docks](#tested-docks-for-surface-laptop-7th-edition) | [Cables](#tested-cables-for-surface-laptop-7th-edition) |  |
+| Surface Pro (11th Edition)  | [Monitors](#tested-monitors-for-surface-pro-11th-edition) | [Docks](#tested-docks-for-surface-pro-11-edition) | [Cables](#tested-cables-for-surface-pro-11th-edition) |  |
 | Surface Laptop 6   | [Monitors](#tested-monitors-for-surface-laptop-6) | [Docks](#tested-docks-for-surface-laptop-6) | [Cables](#tested-cables-for-surface-laptop-6) |  |
 | Surface Pro 10              | [Monitors](#tested-monitors-for-surface-pro-10)          | [Docks](#tested-docks-for-surface-pro-10)          | [Cables](#tested-cables-for-surface-pro-10) | |
 | Surface Laptop Studio 2    | [Monitors](#tested-monitors-for-surface-laptop-studio-2) | [Docks](#tested-docks-for-surface-laptop-studio-2) | [Cables](#tested-cables-for-surface-laptop-studio-2) | [Adapters](#tested-adapters-for-surface-laptop-studio-2) |
@@ -67,7 +69,6 @@ As part of the Positive Experience List (PEL) initiative, Surface engineering te
 | ViewSonic(DFS) VG275                  | ✓     | ✓           | ✓    |
 | ViewSonic(DFS) VP275-4K               | ✓     | ✓           | ✓    |
 
-
 ### Tested docks for Surface Laptop (7th Edition)
 
 | Dock                                            | Thunderbolt | USB-C | Surface Connect |
@@ -106,7 +107,7 @@ As part of the Positive Experience List (PEL) initiative, Surface engineering te
 | Club-3D USB-C to DP Adapter (CAC-1507)            | ✓                    |               |
 | MSFT USB-C to DP Adapter                          | ✓                    |               |
 
-### Tested cables for surface laptop 7th edition
+### Tested cables for Surface Laptop 7th Edition
 
 | Cable                                               | USB-C to USB-C | USB4 to USB4 | Thunderbolt to Thunderbolt | USB-C to DisplayPort | USB-C to HDMI |
 |-----------------------------------------------------|----------------|--------------|----------------------------|----------------------|---------------|
@@ -121,8 +122,7 @@ As part of the Positive Experience List (PEL) initiative, Surface engineering te
 | **DFS** Cable Matters USB-C to DP Cable (201536)    |                |              |                            | ✓                    |               |
 | **DFS** Cable Matters USB-C to USB-C 40Gb Cable (201504) | ✓              | ✓            |                            |                      |               |
 
-
-### Tested monitors for Surface pro 11th edition
+### Tested monitors for Surface Pro 11th Edition
 
 | Monitor                               | USB-C | DisplayPort | HDMI |
 |---------------------------------------|-------|-------------|------|
@@ -155,7 +155,7 @@ As part of the Positive Experience List (PEL) initiative, Surface engineering te
 | ViewSonic(DFS) VG275                  | ✓     | ✓           | ✓    |
 | ViewSonic(DFS) VP275-4K               | ✓     | ✓           | ✓    |
 
-### Tested docks for surface pro 11 edition
+### Tested docks for Surface Pro 11 Edition
 
 | Dock                                             | Thunderbolt | USB-C | Surface Connect |
 |--------------------------------------------------|-------------|-------|-----------------|
@@ -170,7 +170,7 @@ As part of the Positive Experience List (PEL) initiative, Surface engineering te
 | Kensington SD5750T Thunderbolt 4 Dock            | ✓           |       |                 |
 | Plugable ULT-CDL                                 |             | ✓     |                 |
 
-### Tested adapters for surface pro 11 edition
+### Tested adapters for Surface Pro 11 Edition
 
 | Adapter                                           | USB-C to DisplayPort | USB-C to HDMI |
 |---------------------------------------------------|----------------------|---------------|
@@ -178,8 +178,7 @@ As part of the Positive Experience List (PEL) initiative, Surface engineering te
 | Club-3D USB-C to DP Adapter (CAC-1507)            | ✓                    |               |
 | MSFT USB-C to DP Adapter                          | ✓                    |               |
 
-### Tested cables for surface pro 11th edition
-
+### Tested cables for Surface Pro 11th Edition
 
 | Cable                                               | USB-C to USB-C | USB4 to USB4 | Thunderbolt to Thunderbolt | USB-C to DisplayPort | USB-C to HDMI |
 |-----------------------------------------------------|----------------|--------------|----------------------------|----------------------|---------------|
@@ -193,7 +192,6 @@ As part of the Positive Experience List (PEL) initiative, Surface engineering te
 | **DFS** Cable Matters USB-C to HDMI Cable (201562)  |                |              |                            |                      | ✓             |
 | **DFS** Cable Matters USB-C to DP Cable (201536)    |                |              |                            | ✓                    |               |
 | **DFS** Cable Matters USB-C to USB-C 40Gb Cable (201504) | ✓              | ✓            |                            |                      |               |
-
 
 ## Surface Laptop 6
 
@@ -466,7 +464,6 @@ As part of the Positive Experience List (PEL) initiative, Surface engineering te
 | Surface Dock 2                                            |             |       | ✓               |
 | Surface Dock 1 (slow charging is possible)                |             |       | ✓               |
 
-
 ### Tested docks for Surface Pro 9 with 5G
 
 | Dock                     | USB-C | Surface Connect |
@@ -476,7 +473,6 @@ As part of the Positive Experience List (PEL) initiative, Surface engineering te
 | Plugable ULT-CDL         | ✓     |                 |
 | Surface Dock 1           |       | ✓               |
 | Surface Dock 2           |       | ✓               |
-
 
 ### Tested cables for Surface Pro 9
 
