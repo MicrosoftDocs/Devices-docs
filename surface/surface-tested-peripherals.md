@@ -89,7 +89,7 @@ As part of the Positive Experience List (PEL) initiative, Surface engineering te
 
 | Cable                                                  | USB-C to USB-C | USB4 to USB4 | Thunderbolt to Thunderbolt | USB-C to DisplayPort | USB-C to HDMI |
 |--------------------------------------------------------|----------------|--------------|----------------------------|----------------------|---------------|
-| Belkin F2CD084bt0.5MBK                                 |                |              |                            |                      |               |
+| Belkin F2CD084bt0.5MBK                                 |     ✓           |              |                            |                      |               |
 | Cable Matters 107032-BLK-0.8m                          |                |              | ✓                          |                      |               |
 | CableMatters DP Cable                                  |                |              |                            | ✓                    |               |
 | Cal Digit TBTCable                                     |                | ✓            |                            |                      |               |
