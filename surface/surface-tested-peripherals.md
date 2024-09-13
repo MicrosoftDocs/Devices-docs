@@ -16,7 +16,7 @@ appliesto:
 
 # Tested peripherals for Surface devices
 
-As part of the Positive Experience List (PEL) initiative, Surface engineering tests various external monitors, docks, cables, and adapters to bring you the best experience on select new Surface devices, starting with Surface Pro 9. See the tables on this page for tested peripherals across port connections including Surface Connect, USB-C, DisplayPort, HDMI, and Thunderbolt.
+As part of the Positive Experience List (PEL) initiative, Surface engineering tests various external monitors, docks, cables, and adapters to bring you the best experience on Surface devices. See the tables on this page for tested peripherals across port connections including Surface Connect, USB-C, DisplayPort, HDMI, and Thunderbolt.
 
 > [!NOTE]
 > The testing results shown here cover popular in-market peripherals but are not intended to be comprehensive. Based on our research, we estimate that customers will have a generally positive experience with these peripherals. Still, many peripherals not shown here may function as expected.
@@ -30,6 +30,7 @@ As part of the Positive Experience List (PEL) initiative, Surface engineering te
 |----------------------------|----------------------------|---------------------------|---------------------------|---------------------------|
 | Surface Laptop (7th Edition)   | [Monitors](#tested-monitors-for-surface-laptop-7th-edition) | [Docks](#tested-docks-for-surface-laptop-7th-edition) | [Cables](#tested-cables-for-surface-laptop-7th-edition) | [Adapters](#tested-adapters-for-surface-laptop-7th-edition)|
 | Surface Pro (11th Edition)  | [Monitors](#tested-monitors-for-surface-pro-11th-edition) | [Docks](#tested-docks-for-surface-pro-11-edition) | [Cables](#tested-cables-for-surface-pro-11th-edition) |[Adapters](#tested-adapters-for-surface-pro-11-edition)  |
+| Surface Pro (11th Edition – Wi-Fi + 5G)  | [Monitors](#tested-monitors-for-surface-pro-11th-edition) | [Docks](#tested-docks-for-surface-pro-11-edition) | [Cables](#tested-cables-for-surface-pro-11th-edition) |[Adapters](#tested-adapters-for-surface-pro-11-edition)  |
 | Surface Laptop 6   | [Monitors](#tested-monitors-for-surface-laptop-6) | [Docks](#tested-docks-for-surface-laptop-6) | [Cables](#tested-cables-for-surface-laptop-6) |  |
 | Surface Pro 10              | [Monitors](#tested-monitors-for-surface-pro-10)          | [Docks](#tested-docks-for-surface-pro-10)          | [Cables](#tested-cables-for-surface-pro-10) | |
 | Surface Laptop Studio 2    | [Monitors](#tested-monitors-for-surface-laptop-studio-2) | [Docks](#tested-docks-for-surface-laptop-studio-2) | [Cables](#tested-cables-for-surface-laptop-studio-2) | [Adapters](#tested-adapters-for-surface-laptop-studio-2) |
@@ -109,7 +110,9 @@ As part of the Positive Experience List (PEL) initiative, Surface engineering te
 
 ## Surface Pro (11th Edition) & Surface Pro (11th Edition – Wi-Fi + 5G) 
 
-### Tested monitors for Surface Pro 11th Edition
+This section includes test results for both Surface Pro (11th Edition) and Surface Pro (11th Edition – Wi-Fi + 5G).
+
+### Tested monitors for Surface Pro (11th Edition)
 
 | Monitor                               | USB-C | DisplayPort | HDMI |
 |---------------------------------------|-------|-------------|------|
@@ -142,7 +145,7 @@ As part of the Positive Experience List (PEL) initiative, Surface engineering te
 | ViewSonic(DFS) VG275                  | ✓     | ✓           | ✓    |
 | ViewSonic(DFS) VP275-4K               | ✓     | ✓           | ✓    |
 
-### Tested docks for Surface Pro 11 Edition
+### Tested docks for Surface Pro (11th Edition)
 
 | Dock                                             | Thunderbolt | USB-C | Surface Connect |
 |--------------------------------------------------|-------------|-------|-----------------|
@@ -157,7 +160,7 @@ As part of the Positive Experience List (PEL) initiative, Surface engineering te
 | Kensington SD5750T Thunderbolt 4 Dock            | ✓           |       |                 |
 | Plugable ULT-CDL                                 |             | ✓     |                 |
 
-### Tested adapters for Surface Pro 11 Edition
+### Tested adapters for Surface Pro (11th Edition)
 
 | Adapter                                           | USB-C to DisplayPort | USB-C to HDMI |
 |---------------------------------------------------|----------------------|---------------|
@@ -165,7 +168,7 @@ As part of the Positive Experience List (PEL) initiative, Surface engineering te
 | Club-3D USB-C to DP Adapter (CAC-1507)            | ✓                    |               |
 | MSFT USB-C to DP Adapter                          | ✓                    |               |
 
-### Tested cables for Surface Pro 11th Edition
+### Tested cables for Surface Pro (11th Edition)
 
 | Cable                                               | USB-C to USB-C | USB4 to USB4 | Thunderbolt to Thunderbolt | USB-C to DisplayPort | USB-C to HDMI |
 |-----------------------------------------------------|----------------|--------------|----------------------------|----------------------|---------------|
@@ -231,6 +234,8 @@ As part of the Positive Experience List (PEL) initiative, Surface engineering te
 | **Designed for Surface:** Cable Matters USB-C to USB-C 40Gb Cable (201504)              |       ✓         | ✓                                                                 |                                                                                                                            |                                                                                             |                                                                       |
 | **Designed for Surface:** Cable Matters USB-C to DisplayPort Cable (201536) |                |                                                                   |                                                                                                                            | ✓                                                                                           |                                                                       |
 | **Designed for Surface:** Cable Matters USB-C to HDMI Cable  (201562)   |                |                                                                   |                                                                                                                            |                                                                                             | ✓                                                                     |
+
+## Surface Pro 10
 
 ### Tested monitors for Surface Pro 10
 
