@@ -6,7 +6,7 @@ ms.localizationpriority: medium
 author: coveminer  
 ms.author: chauncel  
 ms.topic: how-to  
-ms.date: 09/06/2024  
+ms.date: 09/16/2024  
 ms.reviewer: rohitmannan  
 manager: frankbu  
 appliesto:  
@@ -24,114 +24,138 @@ With the Surface Management Portal, you can:
 - Gain insights into device compliance, support activity, and warranty coverage.
 - Monitor the status of each device, including warranty expirations and active support requests.
 - Centralize Surface-specific device administration in a single environment.
-- Automatically access comprehensive info from your Intune-enrolled Surface devices. When users sign in for the first time, information from these Surface devices automatically flows into the Surface Management Portal, providing a unified view for Surface-specific device admin activities.
+- Automatically access comprehensive information from your Intune-enrolled Surface devices, which flows into the Surface Management Portal when users sign in for the first time.
 
 ## Access Surface Management Portal
 
 ### If you don't have an Intune subscription
 
-1. To sign up for Intune, go to the [Intune product page](https://www.microsoft.com/security/business/endpoint-management/microsoft-intune) to learn more about the service.
-2. Select **Start a free trial** to initiate the sign-up process, as described in [Try Microsoft Intune for free](/mem/intune/fundamentals/free-trial-sign-up).
+1. Visit the [Intune product page](https://www.microsoft.com/security/business/endpoint-management/microsoft-intune) to learn more about the service.
+2. Select **Start a free trial** to begin the sign-up process, as described in [Try Microsoft Intune for free](/mem/intune/fundamentals/free-trial-sign-up).
 3. Follow the prompts to create an account and choose a [subscription plan](https://www.microsoft.com/security/business/microsoft-intune-pricing) that fits your organization's needs.
-4. Follow the setup wizard to configure your Intune environment. Add users, set up device policies, and configure security settings as needed.
-5. You can manage a wide range of OEM (Original Equipment Manufacturer) devices with Intune but need to [enroll at least one Surface device](/mem/intune/user-help/enroll-windows-10-device) in order to access the Surface Management Portal.
-6. Once you subscribe to Intune and [enroll](/mem/intune/user-help/enroll-windows-10-device) at least one Surface device, proceed to the next section.
+4. Complete the setup wizard to configure your Intune environment, adding users and setting up device policies as needed.
+5. While Intune supports a wide range of devices, you must [enroll at least one Surface device](/mem/intune/user-help/enroll-windows-10-device) to access the Surface Management Portal.
+6. After subscribing to Intune and enrolling at least one Surface device, proceed to the next section.
 
 ### If you have an Intune subscription
 
-- Sign in to [Microsoft Intune Admin Center](https://endpoint.microsoft.com), select **All services** > **Surface Management Portal**.
+- Sign in to the [Microsoft Intune Admin Center](https://endpoint.microsoft.com), and select **All services** > **Surface Management Portal**.
 
    :::image type="content" source="images/surface-management-portal/surface-management-portal-start.png" lightbox="/surface/images/surface-management-portal/surface-management-portal-start.png" alt-text="Start Surface Management Portal":::
 
-<a name='azure-ad-roles-for-surface-management-portal'></a>
-
 ## IT tasks in Surface Management Portal
 
-Managing a fleet of Surface devices efficiently is crucial for IT admins. The Surface Management Portal offers a range of tools to monitor device health, manage warranties, and handle support requests. This section includes key tasks you can perform using the portal to ensure your Surface devices remain compliant, up-to-date, and fully functional.
+Managing a fleet of Surface devices efficiently is crucial for IT admins. The Surface Management Portal offers tools to monitor device health, manage warranties, and handle support requests. This section includes key tasks you can perform to ensure your Surface devices remain compliant, up-to-date, and fully functional.
 
-### Monitor Surface devices
+### Get insights to monitor Surface devices
 
-1. Select **Monitor** to display insights for all your Surface devices, including:
+The **Insights** tab allows you to monitor the health, compliance, and properties of all managed Surface devices. The dashboard displays various insights, each represented by a card. You can pin, rearrange, or expand these cards to view additional details.
 
-- Devices out of compliance, which could mean users can’t access information requiring Microsoft Entra sign-in.
-- Devices that aren’t registered.
-- Devices with critically low storage available on disk, a leading indicator of potential user experience issues.
-- Devices requiring updates.
-- Devices without drive encryption enabled.
-- Devices that are currently inactive.
+### Available Insights
 
-2. Select **View report** to see details on each insights category, giving you diagnostic information that you can customize and export.
+- **Devices not compliant**: Displays the number of devices that are not compliant with your organization’s policies, such as missing updates or failing security requirements.
+- **Devices inactive 30+ days**: Lists devices that have been inactive for over 30 days.
+- **Devices not registered**: Shows devices that have not been registered in the system.
+- **Devices covered**: Displays the number of devices currently covered by warranty or support programs.
+- **Devices expiring within 60 days**: Identifies devices whose warranty or support coverage will expire within 60 days.
+- **Devices eligible for optional coverage**: Displays devices that qualify for optional coverage plans but have not been enrolled.
+- **Devices expired**: Lists devices whose warranty or support coverage has expired.
+- **Devices not encrypted**: Shows devices without drive encryption enabled, which could pose a security risk.
+- **Devices with less than 10% storage**: Displays devices running low on disk space.
+- **Devices eligible for Windows 11 update**: Lists devices eligible for an upgrade to Windows 11 but not yet updated.
 
-    :::image type="content" source="images/surface-management-portal/surface-management-portal-view-report.png" lightbox="/surface/images/surface-management-portal/surface-management-portal-view-report.png" alt-text="Get Surface device insights and view report":::
+### Customize dashboard
 
-> [!TIP]
-> The portal shows device information for your top four registered devices with all others listed under **Other**. Select **View report** to see all your devices.
+- **Manage insights**: Select **Manage insights** to add or remove insights from your dashboard. You can drag and drop insight cards to reorder them based on your priorities.
+- **View details**: Select the title of any insight card to see more details, such as device names, dates, and available actions.
+
+### Recommendations
+
+- **Proactive monitoring**: Regularly review insights such as "Devices not compliant" and "Devices not encrypted" to maintain security and compliance.
+- **Warranty management**: Use insights like "Devices expiring within 60 days" and "Devices expired" to avoid lapses in service.
 
 ### Device warranty and coverage
 
-If you manage hundreds or thousands of devices, having direct access to the warranty status of each device is especially useful, letting you quickly see the following information:
+Managing the warranty status of each device helps you stay on top of expiring warranties and out-of-coverage devices. The portal lets you quickly view:
 
-- Devices within the warranty period
-- Devices expiring
-- Devices out of warranty
-- Devices eligible for optional coverage
+- Devices within the warranty period.
+- Devices expiring soon.
+- Devices out of warranty.
+- Devices eligible for optional coverage.
 
 ### Submit devices for repair
 
 1. Select **Create service request** from the service orders screen.
+2. **Choose the device or accessory for repair**: Select whether it is a **Serialized Device/Accessory** (e.g., Type covers, Dock) or a **Non-serialized Accessory** (e.g., Mouse, Power Supply).
+3. **Add Service request details**: Enter the necessary details and select the product from the drop-down menu. You can also select multiple devices by choosing **+ Select devices**.
+4. **Describe the issue**: Provide a detailed description of the issue and attach any relevant files.
+5. **Provide contact information**: Enter your contact details and specify your preferred communication method.
+6. **Review and submit the request**: Once verified, click **Submit**.
 
-2. **Choose the device or accessory for repair**:
-   - In the "What do you want to replace or repair?" section, select whether the item is a **Serialized Device/Accessory** (e.g., Type covers, Dock) or a **Non-serialized Accessory** (e.g., Mouse, Power Supply).
+#### Track your repair request
 
-3. **Add Service request details**:
-   - Enter the required details about the device or accessory.
-   - Choose the appropriate product or model from the drop-down menu.
-   - If necessary, select multiple devices by choosing **+ Select devices**, then click **Done** after your selection.
-
-4. **Describe the issue**:
-   - Provide a detailed description of the issue you are experiencing with the device.
-   - Attach any relevant files that might help diagnose or explain the issue.
-
-5. **Provide contact information**:
-   - Enter your contact details and specify your preferred method of communication for updates regarding the request.
-
-6. **Review and submit the request**:
-   - Carefully review all entered information, ensuring it is accurate and complete.
-   - Once verified, click **Submit** to finalize the service request.
-
-#### Tracking your repair request
-
-After submitting, you can track the status of your request under the **Service order** section. The status will update as the request progresses through different stages, such as device return, replacement in transit, and completed deliveries.
+Track your repair request's status under the **Service order** section. The status updates as the request progresses.
 
 ### Support requests
 
-The Surface Management Portal gives complete visibility into support activity along with the status of each request.
+The Surface Management Portal provides visibility into support activity and the status of each request.
 
 :::image type="content" source="images/surface-management-portal/surface-management-portal-support.png" lightbox="/surface/images/surface-management-portal/surface-management-portal-support.png" alt-text="Get information about support activity along with the status of each request.":::
 
-#### Create Support Requests
+### Create support requests
 
-You can create and submit new requests for one or more devices.
+Create and submit new requests for one or more devices.
 
-1. Select **New support request**.
-2. Select the Product (Device) from the drop-down list and pick the device model.
-3. Choose + **Select devices**, select devices needing support, and select **Done**.
-4. Provide details and supporting information about the issue.
-5. Provide your contact information and a contact preference.
-6. Review and submit the request.  
+1. Go to the **Support** tab and select **Create support request**.
+2. **Select the device**: Choose the product from the drop-down list.
+3. **Describe the issue**: Provide detailed information about the issue.
+4. **Enter contact details**: Provide your contact information and preferred communication method.
+5. **Review and submit**: Verify all information, then click **Submit**.
+
+#### Track Status
+
+Track the status of submitted support requests through the **Service orders** tab.
 
    :::image type="content" source="images/surface-management-portal/smp-submit-support-request.png"  alt-text="Submit support request.":::
 
-> [!TIP]
-> Track request status using the current insights and detailed views.
+## Surface IT Tools
 
-### Extend functionality with the Surface API Management Service
+The **Surface IT Tools** section provides information and links to various tools designed to help you manage and support Surface devices.
 
-The Surface API Management Service is an extension of the Surface Management Portal, providing IT admins with direct access to Microsoft coverage and entitlement information for their Surface devices through API endpoints. This service simplifies device and asset management by offering seamless integration, allowing admins or users to quickly retrieve critical warranty and device details. Access requires an active Surface Management Portal account and a customer validation check.
+### Surface IT Toolkit
 
-- To learn more, see [Introducing the Surface API Management Service](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/introducing-the-surface-api-management-service/ba-p/4107282)
+Provides device management tools in a downloadable application to centralize and improve device administration for IT teams.
 
-### Microsoft Entra roles
+#### Tool Library installers (available in Surface IT Toolkit)
+
+- **Asset Tag**: A command-line interface (CLI tool to view, assign, and modify an asset tag stored in the Surface device's UEFI.
+- **UEFI Assemblies**: A lightweight installer to apply UEFI management assemblies via PowerShell.
+- **Diagnostics App Console**: A tool for remote diagnostics and log capturing.
+- **Brightness Control**: A tool to optimize power management by adjusting brightness settings for kiosk or "always-on" scenarios.
+
+#### Extend functionality with the Surface API Management Service
+
+The Surface API Management Service provides direct access to Microsoft coverage and entitlement information for Surface devices through API endpoints. This service integrates with your systems to streamline device and asset management.
+
+To learn more, see [Introducing the Surface API Management Service](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/introducing-the-surface-api-management-service/ba-p/4107282).
+
+### Carbon emissions
+
+The **Carbon emissions** tab helps track and reduce the environmental impact of your Surface devices by providing insights into emissions across the product lifecycle.
+
+- **Product Age Selection**: Filter carbon emission data by the age of your Surface devices.
+- **Total Emissions Estimate**: View estimated emissions from production and usage.
+
+#### Emissions lifecycle
+
+- **Production (86.10%)**: Most emissions come from materials and production.
+- **Transportation (0.03%)**: Minimal emissions from transporting devices.
+- **Usage (13.88%)**: Energy consumption during device usage.
+- **End of Life (0.00%)**: Estimated emissions from device disposal.
+
+
+
+## Microsoft Entra roles
 
 The following admin roles apply to the Surface Management Portal:
 
