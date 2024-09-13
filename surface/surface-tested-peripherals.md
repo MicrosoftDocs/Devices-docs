@@ -108,9 +108,9 @@ As part of the Positive Experience List (PEL) initiative, Surface engineering te
 | Club-3D USB-C to DP Adapter (CAC-1507)            | ✓                    |               |
 | MSFT USB-C to DP Adapter                          | ✓                    |               |
 
-## Surface Pro (11th Edition) & Surface Pro (11th Edition – Wi-Fi + 5G) 
+## Surface Pro (11th Edition - Wi-Fi only) & Surface Pro (11th Edition – Wi-Fi + 5G) 
 
-This section includes test results for both Surface Pro (11th Edition) and Surface Pro (11th Edition – Wi-Fi + 5G).
+This section includes test results for both Surface Pro (11th Edition Wi-Fi only) and Surface Pro (11th Edition – Wi-Fi + 5G).
 
 ### Tested monitors for Surface Pro (11th Edition)
 
