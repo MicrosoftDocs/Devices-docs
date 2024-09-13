@@ -37,6 +37,163 @@ As part of the Positive Experience List (PEL) initiative, Surface engineering te
 | Surface Pro 9 with 5G      | [Monitors](#tested-monitors-for-surface-pro-9-with-5g)  | [Docks](#tested-docks-for-surface-pro-9-with-5g)  | [Cables](#tested-cables-for-surface-pro-9-with-5g) | [Adapters](#tested-adapters-for-surface-pro-9--surface-pro-9-with-5g) |
 | Surface Thunderbolt 4 Dock | [Monitors](#tested-monitors-for-surface-thunderbolt-4-dock) |                          | [Cables](#tested-cables-for-surface-thunderbolt-4-dock) | [Adapters](#tested-adapters-for-surface-thunderbolt-4-dock) |
 
+## Surface Laptop (7th Edition)
+
+### Tested monitors for Surface Laptop (7th Edition)
+
+| Monitor                               | USB-C | DisplayPort | HDMI |
+|---------------------------------------|-------|-------------|------|
+| Asus PA247CV                          | ✓     | ✓           | ✓    |
+| Asus PA278CV                          | ✓     | ✓           | ✓    |
+| Asus ROG Strix XG27UQ                 | ✓     | ✓           | ✓    |
+| Asus VG279QM                          |       | ✓           | ✓    |
+| BenQ PD3220U                          |       | ✓           | ✓    |
+| Dell E2424HS                          |       | ✓           | ✓    |
+| Dell P2721Q                           | ✓     | ✓           | ✓    |
+| Dell P2723QE                          | ✓     | ✓           | ✓    |
+| Dell U2720Q                           | ✓     | ✓           | ✓    |
+| Dell U2722DE                          | ✓     | ✓           | ✓    |
+| Dell U2724DE                          | ✓     | ✓           | ✓    |
+| Dell U3219Q                           | ✓     | ✓           | ✓    |
+| Dell U3423WE                          | ✓     | ✓           | ✓    |
+| HP X24iH                              |       | ✓           | ✓    |
+| LG 27BP85UN-W                         | ✓     | ✓           | ✓    |
+| LG 27UL850-W                          |       | ✓           | ✓    |
+| Samsung F24T454GYN                    | ✓     | ✓           | ✓    |
+| Samsung LF32TU87                      | ✓     | ✓           | ✓    |
+| Samsung S34C650VA                     | ✓     | ✓           | ✓    |
+| ViewSonic VA2447-MH                   |       |             | ✓    |
+| ViewSonic(DFS) VG245                  | ✓     | ✓           | ✓    |
+| ViewSonic(DFS) VG275                  | ✓     | ✓           | ✓    |
+| ViewSonic(DFS) VP275-4K               | ✓     | ✓           | ✓    |
+
+
+### Tested docks for Surface Laptop (7th Edition)
+
+| Dock                                            | Thunderbolt | USB-C | Surface Connect |
+|-------------------------------------------------|-------------|-------|-----------------|
+| Surface Dock 2                                  |             |       | ✓               |
+| Microsoft Surface Thunderbolt 4 Dock (USB 4/TB 4) | ✓           |       |                 |
+| Brydge Stone Pro TB4 Dock                       | ✓           |       |                 |
+| Caldigit Thunderbolt 4 Element Hub              | ✓           |       |                 |
+| Dell WD19DC                                     |             | ✓     |                 |
+| Dell WD19S 180W Dock                            |             | ✓     |                 |
+| HP Thunderbolt Dock 120W - G2 6HP48AA#ABL       | ✓           |       |                 |
+| Kensington SD4845P Dock                         |             | ✓     |                 |
+| Kensington SD5750T Thunderbolt 4 Dock           | ✓           |       |                 |
+| Plugable ULT-CDL                                |             | ✓     |                 |
+
+### Tested cables for Surface Laptop (7th Edition)
+
+| Cable                                                  | USB-C to USB-C | USB4 to USB4 | Thunderbolt to Thunderbolt | USB-C to DisplayPort | USB-C to HDMI |
+|--------------------------------------------------------|----------------|--------------|----------------------------|----------------------|---------------|
+| Belkin F2CD084bt0.5MBK                                 |                |              |                            |                      |               |
+| Cable Matters 107032-BLK-0.8m                          |                |              | ✓                          |                      |               |
+| CableMatters DP Cable                                  |                |              |                            | ✓                    |               |
+| Cal Digit TBTCable                                     |                | ✓            |                            |                      |               |
+| Club3D DP Cable                                        |                |              |                            | ✓                    |               |
+| Monoprice DP Cable                                     |                |              |                            | ✓                    |               |
+| Moshi USB-C to DP Cable (99MO084102)                   |                |              |                            | ✓                    |               |
+| **DFS** Cable Matters USB-C to HDMI Cable (201562)     |                |              |                            |                      | ✓             |
+| **DFS** Cable Matters USB-C to DP Cable (201536)       |                |              |                            | ✓                    |               |
+| **DFS** Cable Matters USB-C to USB-C 40Gb Cable (201504) | ✓              | ✓            |                            |                      |               |
+
+### Tested adapters for Surface Laptop (7th Edition)
+
+| Adapter                                           | USB-C to DisplayPort | USB-C to HDMI |
+|---------------------------------------------------|----------------------|---------------|
+| Cable Matters USB-C to DP Adapter (201086)        | ✓                    |               |
+| Club-3D USB-C to DP Adapter (CAC-1507)            | ✓                    |               |
+| MSFT USB-C to DP Adapter                          | ✓                    |               |
+
+### Tested cables for surface laptop 7th edition
+
+| Cable                                               | USB-C to USB-C | USB4 to USB4 | Thunderbolt to Thunderbolt | USB-C to DisplayPort | USB-C to HDMI |
+|-----------------------------------------------------|----------------|--------------|----------------------------|----------------------|---------------|
+| Belkin F2CD084bt0.5MBK                              |                |              |                            |                      |               |
+| Cable Matters 107032-BLK-0.8m                       |                |              | ✓                          |                      |               |
+| CableMatters DP Cable                               |                |              |                            | ✓                    |               |
+| Cal Digit TBTCable                                  |                | ✓            |                            |                      |               |
+| Club3D DP Cable                                     |                |              |                            | ✓                    |               |
+| Monoprice DP Cable                                  |                |              |                            | ✓                    |               |
+| Moshi USB-C to DP Cable (99MO084102)                |                |              |                            | ✓                    |               |
+| **DFS** Cable Matters USB-C to HDMI Cable (201562)  |                |              |                            |                      | ✓             |
+| **DFS** Cable Matters USB-C to DP Cable (201536)    |                |              |                            | ✓                    |               |
+| **DFS** Cable Matters USB-C to USB-C 40Gb Cable (201504) | ✓              | ✓            |                            |                      |               |
+
+
+### Tested monitors for Surface pro 11th edition
+
+| Monitor                               | USB-C | DisplayPort | HDMI |
+|---------------------------------------|-------|-------------|------|
+| Acer Predator X27                     | ✓     | ✓           | ✓    |
+| Asus PA278CV                          | ✓     | ✓           | ✓    |
+| Asus PA27AC                           | ✓     | ✓           | ✓    |
+| Asus ROG Strix XG27UQ                 | ✓     | ✓           | ✓    |
+| Asus VG279QM                          |       | ✓           | ✓    |
+| BenQ PD3220U                          |       | ✓           | ✓    |
+| Dell E2424HS                          |       | ✓           | ✓    |
+| Dell E2424HS                          | ✓     | ✓           | ✓    |
+| Dell P2720DC                          | ✓     | ✓           | ✓    |
+| Dell P2721Q                           | ✓     | ✓           | ✓    |
+| Dell P2723QE                          | ✓     | ✓           | ✓    |
+| Dell U2720Q                           | ✓     | ✓           | ✓    |
+| Dell U2722DE                          | ✓     | ✓           | ✓    |
+| Dell U2724DE                          | ✓     | ✓           | ✓    |
+| Dell U3219Q                           | ✓     | ✓           | ✓    |
+| Dell U3421WE                          |       | ✓           | ✓    |
+| Dell U3423WE                          | ✓     | ✓           | ✓    |
+| HP X24iH                              |       | ✓           | ✓    |
+| LG 27BP85UN-W                         | ✓     | ✓           | ✓    |
+| LG 27GN950-B                          | ✓     | ✓           | ✓    |
+| LG 27UL850-W                          |       | ✓           | ✓    |
+| Samsung F24T454GYN                    | ✓     | ✓           | ✓    |
+| Samsung LF32TU87                      | ✓     | ✓           | ✓    |
+| Samsung S34C650VA                     | ✓     | ✓           | ✓    |
+| ViewSonic VA2447-MH                   |       |             | ✓    |
+| ViewSonic(DFS) VG245                  | ✓     | ✓           | ✓    |
+| ViewSonic(DFS) VG275                  | ✓     | ✓           | ✓    |
+| ViewSonic(DFS) VP275-4K               | ✓     | ✓           | ✓    |
+
+### Tested docks for surface pro 11 edition
+
+| Dock                                             | Thunderbolt | USB-C | Surface Connect |
+|--------------------------------------------------|-------------|-------|-----------------|
+| Surface Dock 2                                   |             |       | ✓               |
+| Microsoft Surface Thunderbolt 4 Dock (USB 4/TB 4)| ✓           |       |                 |
+| Brydge Stone Pro TB4 Dock                        | ✓           |       |                 |
+| Caldigit Thunderbolt 4 Element Hub               | ✓           |       |                 |
+| Dell WD19DC                                      |             | ✓     |                 |
+| Dell WD19S 180W Dock                             |             | ✓     |                 |
+| HP Thunderbolt Dock 120W - G2 6HP48AA#ABL        | ✓           |       |                 |
+| Kensington SD4845P Dock                          |             | ✓     |                 |
+| Kensington SD5750T Thunderbolt 4 Dock            | ✓           |       |                 |
+| Plugable ULT-CDL                                 |             | ✓     |                 |
+
+### Tested adapters for surface pro 11 edition
+
+| Adapter                                           | USB-C to DisplayPort | USB-C to HDMI |
+|---------------------------------------------------|----------------------|---------------|
+| Cable Matters USB-C to DP Adapter (201086)        | ✓                    |               |
+| Club-3D USB-C to DP Adapter (CAC-1507)            | ✓                    |               |
+| MSFT USB-C to DP Adapter                          | ✓                    |               |
+
+### Tested cables for surface pro 11th edition
+
+
+| Cable                                               | USB-C to USB-C | USB4 to USB4 | Thunderbolt to Thunderbolt | USB-C to DisplayPort | USB-C to HDMI |
+|-----------------------------------------------------|----------------|--------------|----------------------------|----------------------|---------------|
+| Belkin F2CD084bt0.5MBK                              |                |              |                            |                      |               |
+| Cable Matters 107032-BLK-0.8m                       |                |              | ✓                          |                      |               |
+| CableMatters DP Cable                               |                |              |                            | ✓                    |               |
+| Cal Digit TBTCable                                  |                | ✓            |                            |                      |               |
+| Club3D DP Cable                                     |                |              |                            | ✓                    |               |
+| Monoprice DP Cable                                  |                |              |                            | ✓                    |               |
+| Moshi USB-C to DP Cable (99MO084102)                |                |              |                            | ✓                    |               |
+| **DFS** Cable Matters USB-C to HDMI Cable (201562)  |                |              |                            |                      | ✓             |
+| **DFS** Cable Matters USB-C to DP Cable (201536)    |                |              |                            | ✓                    |               |
+| **DFS** Cable Matters USB-C to USB-C 40Gb Cable (201504) | ✓              | ✓            |                            |                      |               |
+
 
 ## Surface Laptop 6
 
