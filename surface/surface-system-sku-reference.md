@@ -1,12 +1,12 @@
 ---
 title: Surface System SKU reference
-description: See a reference of System Model and System SKU names for all Surface devices. 
+description: View System Model and SKU names for Surface devices to facilitate IT admin tasks. 
 ms.service: surface
 author: coveminer
 ms.author: chauncel
 ms.topic: how-to
-ms.date: 04/09/2024
-ms.reviewer: carlol
+ms.date: 09/12/2024
+ms.reviewer: tode
 manager: frankbu
 ms.localizationpriority: medium
 appliesto:
@@ -60,6 +60,10 @@ System Model and System SKU are variables stored in System Management BIOS (SMBI
 | Surface Laptop 5 15" Commercial                                  | Surface Laptop 5 | Surface_Laptop_5_for_Business_1979|
 | Surface Laptop 6 for Business 13.5"                                   | Surface Laptop 6 for Business | Surface_Laptop_6_for_Business_2033|
 | Surface Laptop 6 for Business 15"                                  | Surface Laptop 6 for Business | Surface_Laptop_6_for_Business_2035|
+| Surface Laptop (7th Edition) Consumer 13.8"                        | Microsoft Surface Laptop, 7th Edition| Surface_Laptop_7th_Edition_2036|
+| Surface Laptop (7th Edition) Consumer 15"                       | Microsoft Surface Laptop, 7th Edition| Surface_Laptop_7th_Edition_2037|
+| Surface Laptop (7th Edition) Commercial 13.8"                        | Microsoft Surface Laptop, 7th Edition| Surface_Laptop_7th_Edition_For_Business_2036|
+| Surface Laptop (7th Edition) Commercial 15"                       | Microsoft Surface Laptop, 7th Edition| Surface_Laptop_7th_Edition_For_Business_2037|
 | Surface Laptop Go                                            | Surface Laptop Go | Surface_Laptop_Go_1943      |
 | Surface Laptop Go 2                                          | Surface Laptop Go 2 | Surface_Laptop_Go_2_2013      |
 | Surface Laptop Go 3                                         | Surface Laptop Go 3 | Surface_Laptop_Go_3_2013      |
@@ -84,6 +88,8 @@ System Model and System SKU are variables stored in System Management BIOS (SMBI
 | Surface Pro X with SQ2 processor                             | Surface Pro X    | Surface_Pro_X_H_1876        |
 | Surface Pro X (Wi-Fi)                                        | Surface Pro X    | Surface_Pro_X_2010        |
 | Surface Pro 10 for Business                                              | Surface Pro 10 for Business   | Surface_Pro_10_for_Business_2079        |
+| Surface Pro (11th Edition) Consumer                          | Microsoft Surface Pro, 11th Edition   | Surface_Pro_11th_Edition_2076        |
+| Surface Pro (11th Edition) Commercial                        | Microsoft Surface Pro, 11th Edition   | Surface_Pro_11th_Edition_For_Business_2085        |
 | Surface Studio                                               | Surface Studio   | Surface_Studio   |
 | Surface Studio 2                                             | Surface Studio 2 | Surface_Studio_2_1707_Commercial   |
 | Surface Studio 2+                                            | Surface Studio 2+ | Surface_Studio_2+_2028  |
