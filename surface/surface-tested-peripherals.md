@@ -1,6 +1,6 @@
 ---
 title: Tested peripherals for new Surface devices
-description: This Positive Experience List for Surface devices shows the results of extensive testing for external monitors, docks, cables, and adapters for Surface Laptop Studio 2, Surface Laptop Go 3, Surface Go 4, Surface Pro 9, Surface Pro 9 with 5G, and Surface Thunderbolt 4 Dock.
+description: Explore tested peripherals like monitors, docks, cables, and adapters for Surface devices to ensure optimal performance and compatibility.
 ms.service: surface
 ms.localizationpriority: medium
 author: coveminer
