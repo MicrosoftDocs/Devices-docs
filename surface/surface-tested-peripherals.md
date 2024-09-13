@@ -6,7 +6,7 @@ ms.localizationpriority: medium
 author: coveminer
 ms.author: chauncel
 ms.topic: how-to
-ms.date: 09/21/2023
+ms.date: 09/13/2024
 ms.reviewer: dpushkareva
 manager: frankbu
 appliesto:
@@ -107,20 +107,7 @@ As part of the Positive Experience List (PEL) initiative, Surface engineering te
 | Club-3D USB-C to DP Adapter (CAC-1507)            | ✓                    |               |
 | MSFT USB-C to DP Adapter                          | ✓                    |               |
 
-### Tested cables for Surface Laptop 7th Edition
-
-| Cable                                               | USB-C to USB-C | USB4 to USB4 | Thunderbolt to Thunderbolt | USB-C to DisplayPort | USB-C to HDMI |
-|-----------------------------------------------------|----------------|--------------|----------------------------|----------------------|---------------|
-| Belkin F2CD084bt0.5MBK                              |                |              |                            |                      |               |
-| Cable Matters 107032-BLK-0.8m                       |                |              | ✓                          |                      |               |
-| CableMatters DP Cable                               |                |              |                            | ✓                    |               |
-| Cal Digit TBTCable                                  |                | ✓            |                            |                      |               |
-| Club3D DP Cable                                     |                |              |                            | ✓                    |               |
-| Monoprice DP Cable                                  |                |              |                            | ✓                    |               |
-| Moshi USB-C to DP Cable (99MO084102)                |                |              |                            | ✓                    |               |
-| **DFS** Cable Matters USB-C to HDMI Cable (201562)  |                |              |                            |                      | ✓             |
-| **DFS** Cable Matters USB-C to DP Cable (201536)    |                |              |                            | ✓                    |               |
-| **DFS** Cable Matters USB-C to USB-C 40Gb Cable (201504) | ✓              | ✓            |                            |                      |               |
+## Surface Pro (11th Edition) & Surface Pro (11th Edition – Wi-Fi + 5G) 
 
 ### Tested monitors for Surface Pro 11th Edition
 
