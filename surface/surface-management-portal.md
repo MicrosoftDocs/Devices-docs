@@ -49,16 +49,16 @@ Managing a fleet of Surface devices efficiently is crucial for IT admins. The Su
 
 ### Get insights to monitor Surface devices
 
-The **Insights** tab allows you to monitor the health, compliance, and properties of all managed Surface devices. The dashboard displays various insights, each represented by a card. You can pin, rearrange, or expand these cards to view additional details.
+The **Insights** tab allows you to monitor the health, compliance, and properties of all managed Surface devices. The dashboard displays various insights, each represented by a card. You can pin, rearrange, or expand these cards to view more details.
 
 ### Available Insights
 
-- **Devices not compliant**: Displays the number of devices that are not compliant with your organization’s policies, such as missing updates or failing security requirements.
+- **Devices not compliant**: Displays the number of devices that aren't compliant with your organization’s policies, such as missing updates or failing security requirements.
 - **Devices inactive 30+ days**: Lists devices that have been inactive for over 30 days.
-- **Devices not registered**: Shows devices that have not been registered in the system.
+- **Devices not registered**: Shows devices that haven't been registered in the system.
 - **Devices covered**: Displays the number of devices currently covered by warranty or support programs.
-- **Devices expiring within 60 days**: Identifies devices whose warranty or support coverage will expire within 60 days.
-- **Devices eligible for optional coverage**: Displays devices that qualify for optional coverage plans but have not been enrolled.
+- **Devices expiring within 60 days**: Identifies devices whose warranty or support coverage expires within 60 days.
+- **Devices eligible for optional coverage**: Displays devices that qualify for optional coverage plans but haven't been enrolled.
 - **Devices expired**: Lists devices whose warranty or support coverage has expired.
 - **Devices not encrypted**: Shows devices without drive encryption enabled, which could pose a security risk.
 - **Devices with less than 10% storage**: Displays devices running low on disk space.
@@ -83,19 +83,6 @@ Managing the warranty status of each device helps you stay on top of expiring wa
 - Devices out of warranty.
 - Devices eligible for optional coverage.
 
-### Submit devices for repair
-
-1. Select **Create service request** from the service orders screen.
-2. **Choose the device or accessory for repair**: Select whether it is a **Serialized Device/Accessory** (e.g., Type covers, Dock) or a **Non-serialized Accessory** (e.g., Mouse, Power Supply).
-3. **Add Service request details**: Enter the necessary details and select the product from the drop-down menu. You can also select multiple devices by choosing **+ Select devices**.
-4. **Describe the issue**: Provide a detailed description of the issue and attach any relevant files.
-5. **Provide contact information**: Enter your contact details and specify your preferred communication method.
-6. **Review and submit the request**: Once verified, click **Submit**.
-
-#### Track your repair request
-
-Track your repair request's status under the **Service order** section. The status updates as the request progresses.
-
 ### Support requests
 
 The Surface Management Portal provides visibility into support activity and the status of each request.
@@ -110,13 +97,26 @@ Create and submit new requests for one or more devices.
 2. **Select the device**: Choose the product from the drop-down list.
 3. **Describe the issue**: Provide detailed information about the issue.
 4. **Enter contact details**: Provide your contact information and preferred communication method.
-5. **Review and submit**: Verify all information, then click **Submit**.
+5. **Review and submit**: Verify all information, then select **Submit**.
 
 #### Track Status
 
 Track the status of submitted support requests through the **Service orders** tab.
 
    :::image type="content" source="images/surface-management-portal/smp-submit-support-request.png"  alt-text="Submit support request.":::
+
+### Submit devices for repair
+
+1. Select **Create service request** from the service orders screen.
+2. **Choose the device or accessory for repair**: Select whether it's a **Serialized Device/Accessory** (for example, Type covers, Dock) or a **Non-serialized Accessory** (for example, Mouse, Power Supply).
+3. **Add Service request details**: Enter the necessary details and select the product from the drop-down menu. You can also select multiple devices by choosing **+ Select devices**.
+4. **Describe the issue**: Provide a detailed description of the issue and attach any relevant files.
+5. **Provide contact information**: Enter your contact details and specify your preferred communication method.
+6. **Review and submit the request**: Once verified, select **Submit**.
+
+#### Track your repair request
+
+Track your repair request's status under the **Service order** section. The status updates as the request progresses.
 
 ## Surface IT Tools
 
@@ -141,7 +141,7 @@ To learn more, see [Introducing the Surface API Management Service](https://tech
 
 ### Carbon emissions
 
-The **Carbon emissions** tab helps track and reduce the environmental impact of your Surface devices by providing insights into emissions across the product lifecycle.
+The **Carbon emissions** tab helps you track and potentially reduce the environmental impact of your Surface devices by providing insights into emissions across the product lifecycle.
 
 - **Product Age Selection**: Filter carbon emission data by the age of your Surface devices.
 - **Total Emissions Estimate**: View estimated emissions from production and usage.
