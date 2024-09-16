@@ -77,8 +77,16 @@
     - name: Deploy & manage
       expanded: true
       items: 
-      - name: Surface supported operating systems
-        href: surface-supported-operating-systems.md
+      - name: Surface portals
+        href: surface-portals.md
+        expanded: true
+        items:
+        - name: Prepare your environment to manage Surface Portals
+          href: surface-portal-admin-roles.md
+        - name: Surface Management Portal overview
+          href: surface-management-portal.md
+        - name: Surface Support Portal overview
+          href: surface-support-portal.md
       - name: Surface tools
         expanded: true
         items:   
@@ -128,14 +136,6 @@
             href: microsoft-surface-data-eraser.md
         - name: Surface Dock 1 Firmware Update
           href: surface-dock-firmware-update.md 
-      - name: Surface portals
-        href: surface-portals.md
-        expanded: true
-        items:
-        - name: Surface Management Portal overview
-          href: surface-management-portal.md
-        - name: Surface Support Portal overview
-          href: surface-support-portal.md
       - name: Windows Autopilot
         items:      
         - name: Windows Autopilot & Surface devices
@@ -160,6 +160,8 @@
           href: deploy-surface-app-with-windows-store-for-business.md
       - name : Manage updates
         items:
+        - name: Surface supported operating systems
+          href: surface-supported-operating-systems.md
         - name: Manage & deploy Surface driver & firmware updates
           href: manage-surface-driver-and-firmware-updates.md     
         - name: Surface driver & firmware lifecycle for Windows-based devices
