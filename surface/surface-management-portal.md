@@ -52,7 +52,57 @@ Before proceeding, you first need to configure at least one admin role. To learn
 
 ## IT tasks in Surface Management Portal
 
-Managing a fleet of Surface devices efficiently is crucial for IT admins. The Surface Management Portal offers tools to monitor device health, manage warranties, and handle support requests. This section includes key tasks you can perform to ensure your Surface devices remain compliant, up-to-date, and fully functional.
+Managing a fleet of Surface devices efficiently is crucial for IT admins. The Surface Management Portal offers tools to monitor device health, manage warranties, and handle support requests. This section includes key tasks you can perform to ensure your Surface devices remain compliant, up-to-date, and fully functional:
+
+- [Manage Surface device warranty and coverage](#manage-surface-device-warranty-and-coverage)
+- [Create support requests](#create-support-requests)
+- [Submit devices for repair](#submit-devices-for-repair)
+- [Get insights to monitor Surface devices](#get-insights-to-monitor-surface-devices)
+- [View related Surface IT Tools](#view-related-surface-it-tools)
+- [Extend functionality with the Surface API Management Service](#extend-functionality-with-the-surface-api-management-service)
+- [View carbon emissions for Surface devices](#view-carbon-emissions-for-surface-devices)
+
+### Manage Surface device warranty and coverage
+
+Managing the warranty status of each device helps you stay on top of expiring warranties and out-of-coverage devices. The portal lets you quickly view:
+
+- Devices within the warranty period.
+- Devices expiring soon.
+- Devices out of warranty.
+- Devices eligible for optional coverage.
+
+### Create support requests
+
+The Surface Management Portal provides visibility into support activity and the status of each request.
+
+:::image type="content" source="images/surface-management-portal/surface-management-portal-support.png" lightbox="/surface/images/surface-management-portal/surface-management-portal-support.png" alt-text="Get information about support activity along with the status of each request.":::
+
+To create and submit new requests for one or more devices:
+
+1. Go to the **Support** tab and select **Create support request**.
+2. **Select the device**: Choose the product from the drop-down list.
+3. **Describe the issue**: Provide detailed information about the issue.
+4. **Enter contact details**: Provide your contact information and preferred communication method.
+5. **Review and submit**: Verify all information, then select **Submit**.
+
+#### Track support status
+
+Track the status of submitted support requests through the **Service orders** tab.
+
+   :::image type="content" source="images/surface-management-portal/smp-submit-support-request.png"  alt-text="Submit support request.":::
+
+### Submit devices for repair
+
+1. Select **Create service request** from the service orders screen.
+2. **Choose the device or accessory for repair**: Select whether it's a **Serialized Device/Accessory** (for example, Type covers, Dock) or a **Non-serialized Accessory** (for example, Mouse, Power Supply).
+3. **Add Service request details**: Enter the necessary details and select the product from the drop-down menu. You can also select multiple devices by choosing **+ Select devices**.
+4. **Describe the issue**: Provide a detailed description of the issue and attach any relevant files.
+5. **Provide contact information**: Enter your contact details and specify your preferred communication method.
+6. **Review and submit the request**: Once verified, select **Submit**.
+
+#### Track repair requests
+
+Track your repair request's status under the **Service order** section. The status updates as the request progresses.
 
 ### Get insights to monitor Surface devices
 
@@ -81,51 +131,7 @@ The **Insights** tab allows you to monitor the health, compliance, and propertie
 - **Proactive monitoring**: Regularly review insights such as "Devices not compliant" and "Devices not encrypted" to maintain security and compliance.
 - **Warranty management**: Use insights like "Devices expiring within 60 days" and "Devices expired" to avoid lapses in service.
 
-### Manage Surface device warranty and coverage
-
-Managing the warranty status of each device helps you stay on top of expiring warranties and out-of-coverage devices. The portal lets you quickly view:
-
-- Devices within the warranty period.
-- Devices expiring soon.
-- Devices out of warranty.
-- Devices eligible for optional coverage.
-
-### Support requests
-
-The Surface Management Portal provides visibility into support activity and the status of each request.
-
-:::image type="content" source="images/surface-management-portal/surface-management-portal-support.png" lightbox="/surface/images/surface-management-portal/surface-management-portal-support.png" alt-text="Get information about support activity along with the status of each request.":::
-
-### Create support requests
-
-Create and submit new requests for one or more devices.
-
-1. Go to the **Support** tab and select **Create support request**.
-2. **Select the device**: Choose the product from the drop-down list.
-3. **Describe the issue**: Provide detailed information about the issue.
-4. **Enter contact details**: Provide your contact information and preferred communication method.
-5. **Review and submit**: Verify all information, then select **Submit**.
-
-#### Track support status
-
-Track the status of submitted support requests through the **Service orders** tab.
-
-   :::image type="content" source="images/surface-management-portal/smp-submit-support-request.png"  alt-text="Submit support request.":::
-
-### Submit devices for repair
-
-1. Select **Create service request** from the service orders screen.
-2. **Choose the device or accessory for repair**: Select whether it's a **Serialized Device/Accessory** (for example, Type covers, Dock) or a **Non-serialized Accessory** (for example, Mouse, Power Supply).
-3. **Add Service request details**: Enter the necessary details and select the product from the drop-down menu. You can also select multiple devices by choosing **+ Select devices**.
-4. **Describe the issue**: Provide a detailed description of the issue and attach any relevant files.
-5. **Provide contact information**: Enter your contact details and specify your preferred communication method.
-6. **Review and submit the request**: Once verified, select **Submit**.
-
-#### Track repair requests
-
-Track your repair request's status under the **Service order** section. The status updates as the request progresses.
-
-## Surface IT Tools
+## View related Surface IT Tools
 
 The **Surface IT Tools** section provides information and links to various tools designed to help you manage and support Surface devices.
 
@@ -146,7 +152,7 @@ The Surface API Management Service provides direct access to Microsoft coverage 
 
 To learn more, see [Introducing the Surface API Management Service](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/introducing-the-surface-api-management-service/ba-p/4107282).
 
-## Carbon emissions
+## View carbon emissions for Surface devices
 
 The **Carbon emissions** tab helps you track and potentially reduce the environmental impact of your Surface devices by providing insights into emissions across the product lifecycle.
 
