@@ -81,7 +81,7 @@
         href: surface-portals.md
         expanded: true
         items:
-        - name: Prepare your environment to manage Surface Portals
+        - name: Prepare your environment for Surface Portals
           href: surface-portal-admin-roles.md
         - name: Surface Management Portal overview
           href: surface-management-portal.md
