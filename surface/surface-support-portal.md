@@ -71,44 +71,24 @@ The onboarding process includes steps to validate your organization’s Microsof
 
 ## Prerequisites
 
-Before proceeding, you first need to configure at least one admin role. To learn more see:
+1. Before proceeding, you first need to configure at least one admin role. To learn more see:
 
 - [Prepare your environment to manage Surface portals](surface-portal-admin-roles.md)
 - [Add an admin](/microsoft-365/admin/add-users/assign-admin-roles#steps-add-an-admin)
 
-## Modernized Surface support
+2. To manage devices or take adavantage of the option to use Windows Autopilot, you first need to register them with the Surface Support Portal, as explained in the following section. 
 
-The Surface Support Portal offers a streamlined and efficient way to manage your Surface devices. It provides direct access to the tools and resources you need for creating and tracking service requests, registering devices, and managing warranty coverage—all in one convenient location.
+## IT admin tasks in Surface Support Portal
 
-- [Create a support request](#create-a-support-request)
-- [Create and track service requests for device replacement or repair](#create-and-track-service-requests-for-device-replacement-or-repair)
+This section includes key tasks to ensure your Surface devices remain compliant, up-to-date, and fully functional:
+
 - [Register Surface devices](#register-surface-devices)
-- [Manage warranty coverage](#manage-warranty-coverage)
+- [Manage Surface device warranty and coverage](#manage-surface-device-warranty-and-coverage)
+- [Create and track support requests](#create-support-requests)
+- [Create and track service requests for device replacement or repair](#create-and-track-service-requests-for-device-replacement-or-repair)
 
 > [!TIP]
 > [See the demo tutorial for Surface Support Portal](https://www.microsoft.com/videoplayer/embed/RE4Y55A)
-
-### Create a support request
-
-Easily submit support requests through the Surface Support Portal by providing detailed information about the issue you’re facing. The more specific your description, the faster we can help resolve your problem.
-
-1. Select **Create support request** and describe the issue you’re experiencing.
-
-    :::image type="content" source="images/surface-support-request.png" alt-text="Screenshot of entering a support request.":::
-
-2. Select **Contact me** to submit your support request.
-
-Your request will be listed under "Support requests," where you can track the status and manage any open or closed requests.
-
-### Create and track service requests for device replacement or repair
-
-Quickly address hardware issues by creating a service request for device replacement or repair. Additionally, you can access a complete history of your support and repair requests, giving you a comprehensive view of your device’s service history.
-
-1. Select **Create service request** and follow the instructions. Provide a detailed description of the issue with your device or accessory.
-
-    :::image type="content" source="images/service-request.png" alt-text="Screenshot of entering a service request for device replacement or repair.":::
-
-2. Select **Submit** to send your service request.
 
 ### Register Surface devices
 
@@ -140,12 +120,34 @@ Register your Surface devices through the Surface Support Portal to associate th
 
     :::image type="content" source="images/finalize-registration.png" alt-text="Screenshot of submitting registration request.":::
 
-### Manage warranty coverage
+### Manage Surface device warranty and coverage
 
 Easily manage your Surface device warranties through the Surface Support Portal. You can view the coverage status of each device, track warranty timelines, and monitor the status of your service orders.
 
 - Select **Coverage** to view devices covered under warranty, the time remaining for each device under warranty, and related details.
 - Select **Warranty & service** to view the status of service orders.
+
+### Create support requests
+
+Easily submit support requests through the Surface Support Portal by providing detailed information about the issue you’re facing. The more specific your description, the faster we can help resolve your problem.
+
+1. Select **Create support request** and describe the issue you’re experiencing.
+
+    :::image type="content" source="images/surface-support-request.png" alt-text="Screenshot of entering a support request.":::
+
+2. Select **Contact me** to submit your support request.
+
+Your request will be listed under "Support requests," where you can track the status and manage any open or closed requests.
+
+### Create and track service requests for device replacement or repair
+
+Quickly address hardware issues by creating a service request for device replacement or repair. Additionally, you can access a complete history of your support and repair requests, giving you a comprehensive view of your device’s service history.
+
+1. Select **Create service request** and follow the instructions. Provide a detailed description of the issue with your device or accessory.
+
+    :::image type="content" source="images/service-request.png" alt-text="Screenshot of entering a service request for device replacement or repair.":::
+
+2. Select **Submit** to send your service request.
 
 ## View information about IT tools
 
