@@ -71,7 +71,7 @@ The onboarding process includes steps to validate your organization’s Microsof
 
 ## Prerequisites
 
-Before proceeding, you first need to configure at least one admin role. To learn more see: 
+Before proceeding, you first need to configure at least one admin role. To learn more see:
 
 - [Prepare your environment to manage Surface Portals](surface-portal-admin-roles.md).
 - [Add an admin](/microsoft-365/admin/add-users/assign-admin-roles#steps-add-an-admin).
@@ -92,7 +92,7 @@ The Surface Support Portal offers a streamlined and efficient way to manage your
 
 Easily submit support requests through the Surface Support Portal by providing detailed information about the issue you’re facing. The more specific your description, the faster we can help resolve your problem.
 
-1. Select **Create support request** and describe the issue you’re experiencing. 
+1. Select **Create support request** and describe the issue you’re experiencing.
 
     :::image type="content" source="images/surface-support-request.png" alt-text="Screenshot of entering a support request.":::
 
