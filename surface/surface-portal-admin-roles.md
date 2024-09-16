@@ -14,15 +14,15 @@ appliesto:
 - Windows 10
 ---
 
-## Prepare your environment to manage Surface Portals
+# Prepare your environment to manage Surface Portals
 
-Microsoft provides a range of built-in administrator roles designed for managing Surface devices through the Surface Management Portal and the Surface Support Portal. These roles are tailored to facilitate efficient management and maintenance of Surface hardware within your organization.
+Microsoft provides a range of built-in administrator roles designed for managing Surface devices through the [Surface Management Portal]((surface-management-portal.md)) and the [Surface Support Portal](surface-support-portal.md). These roles are tailored to facilitate efficient management and maintenance of Surface hardware within your organization.
 
-### Before you begin
+## Before you begin
 
 Before starting the setup, you must assign at least one administrative role to manage the portals effectively.
 
-#### Recommended role: Microsoft Hardware Warranty Administrator
+### Recommended role: Microsoft Hardware Warranty Administrator
 
 The Microsoft Hardware Warranty Administrator role is ideally suited for those responsible for overseeing the comprehensive management of Surface devices, ensuring that all aspects of service requests, warranty claims, and operational efficiencies are handled effectively.
 
@@ -30,7 +30,7 @@ The Microsoft Hardware Warranty Administrator role is ideally suited for those r
 - **Specific Surface Support:** Tailored specifically for managing Microsoft-manufactured hardware like Surface and HoloLens, ensuring specialized support.
 - **Operational efficiency:** Enables administrators to efficiently handle warranty claims and support tickets, central to managing operational continuity.
 
-#### Roles and Permissions
+### Roles and permissions
 
 Here's a comprehensive table of the available roles with their permissions and descriptions:
 
@@ -58,6 +58,7 @@ Here's a comprehensive table of the available roles with their permissions and d
 
 Implementing these roles ensures your team is equipped with the necessary permissions to manage Surface devices efficiently and securely.To learn more, see: 
 
+- [Add an admin](/microsoft-365/admin/add-users/assign-admin-roles#steps-add-an-admin).
 - [Surface portals overview](surface-portals.md)
 - [Surface Management Portal](surface-management-portal.md)
 - [Surface Support Portal overview](surface-support-portal.md)
