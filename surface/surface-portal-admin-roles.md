@@ -7,15 +7,16 @@ author: coveminer
 ms.author: chauncel
 ms.topic: overview
 ms.date: 09/16/2024
-ms.reviewer: chauncel
+ms.reviewer: rohitmannan  
 manager: frankbu
 appliesto:
 - Windows 11
+- Windows 10
 ---
 
 ## Prepare your environment to manage Surface Portals
 
-Microsoft provides a range of built-in administrator roles specifically designed for managing Surface devices through the Surface Management Portal and the Surface Support Portal. These roles are tailored to facilitate efficient management and maintenance of Surface hardware within your organization.
+Microsoft provides a range of built-in administrator roles designed for managing Surface devices through the Surface Management Portal and the Surface Support Portal. These roles are tailored to facilitate efficient management and maintenance of Surface hardware within your organization.
 
 ### Before you begin
 
@@ -31,7 +32,7 @@ The Microsoft Hardware Warranty Administrator role is ideally suited for those r
 
 #### Roles and Permissions
 
-Here is a comprehensive table of the available roles with their permissions and descriptions:
+Here's a comprehensive table of the available roles with their permissions and descriptions:
 
 | Role                                  | Permissions                                                                                                                                                 | Description                                                   |
 | ------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------- |
@@ -51,9 +52,12 @@ Here is a comprehensive table of the available roles with their permissions and 
 1. Go to the [Microsoft 365 Admin Center](https://admin.microsoft.com) and sign in using your administrator credentials.
 2. Select **Roles** > **Role assignments** to view all the available roles.
 3. Use the search bar or scroll to find the appropriate role; for example, **Microsoft Hardware Warranty Administrator**.
-4. Select the role to open its details. In the Assigned tab, select **Add users**. Search for users by name or email address.
+4. Select the role to open its details. In the **Assigned** tab, select **Add users**. Search for users by name or email address.
 5. After selecting the users, review the list to ensure accuracy. To confirm the assignment, select **Save**.
 6. Document the changes for internal tracking and compliance purposes. Inform the assigned users about their new roles and any actions they might need to take or changes they should be aware of.
 
-Implementing these roles ensures your team is equipped with the necessary permissions to manage Surface devices efficiently and securely.
+Implementing these roles ensures your team is equipped with the necessary permissions to manage Surface devices efficiently and securely.To learn more, see: 
 
+- [Surface portals overview](surface-portals.md)
+- [Surface Management Portal](surface-management-portal.md)
+- [Surface Support Portal overview](surface-support-portal.md)

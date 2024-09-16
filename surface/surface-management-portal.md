@@ -43,6 +43,13 @@ With the Surface Management Portal, you can:
 
    :::image type="content" source="images/surface-management-portal/surface-management-portal-start.png" lightbox="/surface/images/surface-management-portal/surface-management-portal-start.png" alt-text="Start Surface Management Portal":::
 
+## Prerequisites
+
+Before proceeding, you first need to configure at least one admin role. To learn more see: 
+
+- [Prepare your environment to manage Surface Portals](surface-portal-admin-roles.md).
+- [Add an admin](/microsoft-365/admin/add-users/assign-admin-roles#steps-add-an-admin).
+
 ## IT tasks in Surface Management Portal
 
 Managing a fleet of Surface devices efficiently is crucial for IT admins. The Surface Management Portal offers tools to monitor device health, manage warranties, and handle support requests. This section includes key tasks you can perform to ensure your Surface devices remain compliant, up-to-date, and fully functional.
@@ -153,25 +160,11 @@ The **Carbon emissions** tab helps you track and potentially reduce the environm
 - **Usage (13.88%)**: Energy consumption during device usage.
 - **End of Life (0.00%)**: Estimated emissions from device disposal.
 
+## Administrator roles
 
+- For details about all available admin roles, see [Prepare your environment to manage Surface Portals](surface-portal-admin-roles.md).
 
-## Microsoft Entra roles
-
-The following admin roles apply to the Surface Management Portal:
-
-| Role                                             | Permissions                                                                                                                                                 |
-| ------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Microsoft Hardware Warranty Administrator<sup>1</sup> | - View all service requests<br>- Create/manage device replacement requests<br>- Add/edit/delete ship-to addresses<br>- Read-only access to the Microsoft 365 tenant outside of the Surface Support Portal |
-| Microsoft Hardware Warranty Specialist<sup>1</sup>     | - View own service requests<br>- Create/manage device replacement requests<br>- Read-only access to the Microsoft 365 tenant outside of the Surface Support Portal   |
-| Global Admin                                     | - View service requests<br>- Create/manage device replacement requests<br>- Add/edit/delete ship-to addresses<br>- Create/manage users and their roles             |
-| Service Support Admin                            | - View service requests<br>- Create/manage device replacement requests                                                                                              |
-| Billing Admin                                    | - View service requests<br>- Create/manage device replacement requests<br>- Add/edit/delete ship-to addresses                                                     |
-| Global Reader                                    | - View all administrative settings and configurations across Microsoft Entra<br>- Read-only access to Microsoft 365 tenant and associated services                                                            |
-
-1. *Requires **Global Reader** role for access*.
-
-> [!IMPORTANT]
-> Microsoft recommends that you use roles with the fewest permissions. This helps improve security for your organization. **Global Administrator** is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
+- To learn more about configuring roles, see [Add an admin](/microsoft-365/admin/add-users/assign-admin-roles#steps-add-an-admin).
 
 ## Try Surface Management Portal for free
 
@@ -181,6 +174,8 @@ Surface Management Portal is available to customers who use Microsoft Intune Adm
 
 - [(Re)Introducing Surface portals - Microsoft Community Hub](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/re-introducing-the-surface-management-and-support-suite/ba-p/4109526)
 - [Introducing the Surface API Management Service - Microsoft Community Hub](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/introducing-the-surface-api-management-service/ba-p/4107282)
+- [Prepare your environment to manage Surface Portals](surface-portal-admin-roles.md)
 - [Surface portals overview](surface-portals.md)
-- [Surface Support Portal](surface-support-portal.md)
+- [Surface Support Portal overview](surface-support-portal.md)
 - [Surface IT Toolkit](surface-it-toolkit.md)
+
