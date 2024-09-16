@@ -55,9 +55,9 @@ Here's a comprehensive table of the available roles with their permissions and d
 > [!IMPORTANT]
 > Microsoft recommends that you use roles with the fewest permissions. This helps improve security for your organization. Global Admin is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
 
-Implementing one or more of these roles ensures your team is equipped with the necessary permissions to manage Surface devices efficiently and securely.To learn more, see: 
+Implementing one or more of these roles ensures your team is equipped with the necessary permissions to manage Surface devices efficiently and securely. To learn more, see: 
 
-- [Add an admin](/microsoft-365/admin/add-users/assign-admin-roles#steps-add-an-admin).
+- [Add an admin](/microsoft-365/admin/add-users/assign-admin-roles#steps-add-an-admin)
 - [Surface portals overview](surface-portals.md)
 - [Surface Management Portal](surface-management-portal.md)
 - [Surface Support Portal overview](surface-support-portal.md)
