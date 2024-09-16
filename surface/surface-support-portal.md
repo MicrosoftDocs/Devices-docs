@@ -69,6 +69,13 @@ The onboarding process includes steps to validate your organization’s Microsof
 
 8. To expedite your support request, include your device serial numbers and your shipping address in the **Issue Description** field.
 
+## Prerequisites
+
+Before proceeding, you first need to configure at least one admin role. To learn more see: 
+
+- [Prepare your environment to manage Surface Portals](surface-portal-admin-roles.md).
+- [Add an admin](/microsoft-365/admin/add-users/assign-admin-roles#steps-add-an-admin).
+
 ## Modernized Surface support
 
 The Surface Support Portal offers a streamlined and efficient way to manage your Surface devices. It provides direct access to the tools and resources you need for creating and tracking service requests, registering devices, and managing warranty coverage—all in one convenient location.

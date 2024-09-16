@@ -58,7 +58,7 @@ Managing a fleet of Surface devices efficiently is crucial for IT admins. The Su
 
 The **Insights** tab allows you to monitor the health, compliance, and properties of all managed Surface devices. The dashboard displays various insights, each represented by a card. You can pin, rearrange, or expand these cards to view more details.
 
-### Available Insights
+#### Available insights
 
 - **Devices not compliant**: Displays the number of devices that aren't compliant with your organization’s policies, such as missing updates or failing security requirements.
 - **Devices inactive 30+ days**: Lists devices that have been inactive for over 30 days.
@@ -71,17 +71,17 @@ The **Insights** tab allows you to monitor the health, compliance, and propertie
 - **Devices with less than 10% storage**: Displays devices running low on disk space.
 - **Devices eligible for Windows 11 update**: Lists devices eligible for an upgrade to Windows 11 but not yet updated.
 
-### Customize dashboard
+#### Customize insights dashboard
 
 - **Manage insights**: Select **Manage insights** to add or remove insights from your dashboard. You can drag and drop insight cards to reorder them based on your priorities.
 - **View details**: Select the title of any insight card to see more details, such as device names, dates, and available actions.
 
-### Recommendations
+#### Recommended insights
 
 - **Proactive monitoring**: Regularly review insights such as "Devices not compliant" and "Devices not encrypted" to maintain security and compliance.
 - **Warranty management**: Use insights like "Devices expiring within 60 days" and "Devices expired" to avoid lapses in service.
 
-### Device warranty and coverage
+### Manage Surface device warranty and coverage
 
 Managing the warranty status of each device helps you stay on top of expiring warranties and out-of-coverage devices. The portal lets you quickly view:
 
@@ -106,7 +106,7 @@ Create and submit new requests for one or more devices.
 4. **Enter contact details**: Provide your contact information and preferred communication method.
 5. **Review and submit**: Verify all information, then select **Submit**.
 
-#### Track Status
+#### Track support status
 
 Track the status of submitted support requests through the **Service orders** tab.
 
@@ -121,7 +121,7 @@ Track the status of submitted support requests through the **Service orders** ta
 5. **Provide contact information**: Enter your contact details and specify your preferred communication method.
 6. **Review and submit the request**: Once verified, select **Submit**.
 
-#### Track your repair request
+#### Track repair requests
 
 Track your repair request's status under the **Service order** section. The status updates as the request progresses.
 
@@ -146,14 +146,14 @@ The Surface API Management Service provides direct access to Microsoft coverage 
 
 To learn more, see [Introducing the Surface API Management Service](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/introducing-the-surface-api-management-service/ba-p/4107282).
 
-### Carbon emissions
+## Carbon emissions
 
 The **Carbon emissions** tab helps you track and potentially reduce the environmental impact of your Surface devices by providing insights into emissions across the product lifecycle.
 
 - **Product Age Selection**: Filter carbon emission data by the age of your Surface devices.
 - **Total Emissions Estimate**: View estimated emissions from production and usage.
 
-#### Emissions lifecycle
+### Emissions lifecycle
 
 - **Production (86.10%)**: Most emissions come from materials and production.
 - **Transportation (0.03%)**: Minimal emissions from transporting devices.
@@ -178,4 +178,3 @@ Surface Management Portal is available to customers who use Microsoft Intune Adm
 - [Surface portals overview](surface-portals.md)
 - [Surface Support Portal overview](surface-support-portal.md)
 - [Surface IT Toolkit](surface-it-toolkit.md)
-
