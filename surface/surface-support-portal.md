@@ -30,7 +30,7 @@ With the Surface Support Portal, you benefit from:
 
 ## Access Surface Support Portal
 
-If you already have access to the portal, skip to the section [Modernized Surface support](#modernized-surface-support).
+If you already have access to the portal, skip to the [Prerequisites section](#prerequisites).
 
 ### How to access to Surface Support Portal
 
