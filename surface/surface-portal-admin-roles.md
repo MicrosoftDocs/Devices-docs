@@ -14,9 +14,9 @@ appliesto:
 - Windows 10
 ---
 
-# Prepare your environment to manage Surface Portals
+# Prepare your environment to manage Surface portals
 
-Microsoft provides a range of built-in administrator roles designed for managing Surface devices through the [Surface Management Portal]((surface-management-portal.md)) and the [Surface Support Portal](surface-support-portal.md). These roles are tailored to facilitate efficient management and maintenance of Surface hardware within your organization.
+Microsoft provides a range of built-in administrator roles designed for managing Surface devices through the [Surface Management Portal](surface-management-portal.md) and the [Surface Support Portal](surface-support-portal.md). These roles are tailored to facilitate efficient management and maintenance of Surface hardware within your organization.
 
 ## Before you begin
 

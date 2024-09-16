@@ -174,7 +174,7 @@ Surface Management Portal is available to customers who use Microsoft Intune Adm
 
 - [(Re)Introducing Surface portals - Microsoft Community Hub](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/re-introducing-the-surface-management-and-support-suite/ba-p/4109526)
 - [Introducing the Surface API Management Service - Microsoft Community Hub](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/introducing-the-surface-api-management-service/ba-p/4107282)
-- [Prepare your environment to manage Surface Portals](surface-portal-admin-roles.md)
+- [Prepare your environment to manage Surface portals](surface-portal-admin-roles.md)
 - [Surface portals overview](surface-portals.md)
 - [Surface Support Portal overview](surface-support-portal.md)
 - [Surface IT Toolkit](surface-it-toolkit.md)
