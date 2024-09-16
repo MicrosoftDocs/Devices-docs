@@ -67,8 +67,8 @@ For full details, including instructions for streamlined access, see [Surface Su
 
 Whether you're using the Surface Management Portal or the Surface Support Portal, you first need to configure at least one admin role. To learn more see: 
 
-- [Prepare your environment to manage Surface Portals](surface-portal-admin-roles.md).
-- [Add an admin](/microsoft-365/admin/add-users/assign-admin-roles#steps-add-an-admin).
+- [Prepare your environment to manage Surface Portals](surface-portal-admin-roles.md)
+- [Add an admin](/microsoft-365/admin/add-users/assign-admin-roles#steps-add-an-admin)
 
 ## Learn more
 

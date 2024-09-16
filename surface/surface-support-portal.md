@@ -73,8 +73,8 @@ The onboarding process includes steps to validate your organization’s Microsof
 
 Before proceeding, you first need to configure at least one admin role. To learn more see:
 
-- [Prepare your environment to manage Surface portals](surface-portal-admin-roles.md).
-- [Add an admin](/microsoft-365/admin/add-users/assign-admin-roles#steps-add-an-admin).
+- [Prepare your environment to manage Surface portals](surface-portal-admin-roles.md)
+- [Add an admin](/microsoft-365/admin/add-users/assign-admin-roles#steps-add-an-admin)
 
 ## Modernized Surface support
 
@@ -154,7 +154,6 @@ Easily manage your Surface device warranties through the Surface Support Portal.
 ## Administrator roles
 
 - For details about all available admin roles, see [Prepare your environment to manage Surface portals](surface-portal-admin-roles.md).
-
 - To learn more about configuring roles, see [Add an admin](/microsoft-365/admin/add-users/assign-admin-roles#steps-add-an-admin).
 
 ## Learn more

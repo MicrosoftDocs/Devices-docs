@@ -30,6 +30,15 @@ The Microsoft Hardware Warranty Administrator role is ideally suited for those r
 - **Specific Surface Support:** Tailored specifically for managing Microsoft-manufactured hardware like Surface and HoloLens, ensuring specialized support.
 - **Operational efficiency:** Enables administrators to efficiently handle warranty claims and support tickets, central to managing operational continuity.
 
+### Assign admin roles for Surface portals
+
+1. Go to the [Microsoft 365 Admin Center](https://admin.microsoft.com) and sign in using your administrator credentials.
+2. Select **Roles** > **Role assignments** to view all the available roles.
+3. Use the search bar or scroll to find the appropriate role; for example, **Microsoft Hardware Warranty Administrator**.
+4. Select the role to open its details. In the **Assigned** tab, select **Add users**. Search for users by name or email address.
+5. After selecting the users, review the list to ensure accuracy. To confirm the assignment, select **Save**.
+6. Document the changes for internal tracking and compliance purposes. Inform the assigned users about their new roles and any actions they might need to take or changes they should be aware of.
+
 ### Roles and permissions
 
 Here's a comprehensive table of the available roles with their permissions and descriptions:
@@ -43,20 +52,10 @@ Here's a comprehensive table of the available roles with their permissions and d
 | **Billing Admin**                        | - View service requests<br>- Create/manage device replacement requests<br>- Add/edit/delete ship-to addresses                                                     | Manages billing and shipping address aspects of device replacements and service requests. |
 | **Global Reader**                        | - View all administrative settings and configurations across Microsoft Entra<br>- Read-only access to Microsoft 365 tenant and associated services             | Perfect for audit, compliance, and oversight roles requiring view-only access to configurations and settings. |
 
-
 > [!IMPORTANT]
 > Microsoft recommends that you use roles with the fewest permissions. This helps improve security for your organization. Global Admin is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
 
-### Assign admin roles for Surface portals
-
-1. Go to the [Microsoft 365 Admin Center](https://admin.microsoft.com) and sign in using your administrator credentials.
-2. Select **Roles** > **Role assignments** to view all the available roles.
-3. Use the search bar or scroll to find the appropriate role; for example, **Microsoft Hardware Warranty Administrator**.
-4. Select the role to open its details. In the **Assigned** tab, select **Add users**. Search for users by name or email address.
-5. After selecting the users, review the list to ensure accuracy. To confirm the assignment, select **Save**.
-6. Document the changes for internal tracking and compliance purposes. Inform the assigned users about their new roles and any actions they might need to take or changes they should be aware of.
-
-Implementing these roles ensures your team is equipped with the necessary permissions to manage Surface devices efficiently and securely.To learn more, see: 
+Implementing one or more of these roles ensures your team is equipped with the necessary permissions to manage Surface devices efficiently and securely.To learn more, see: 
 
 - [Add an admin](/microsoft-365/admin/add-users/assign-admin-roles#steps-add-an-admin).
 - [Surface portals overview](surface-portals.md)
