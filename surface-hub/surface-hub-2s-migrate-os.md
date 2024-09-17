@@ -19,7 +19,7 @@ appliesto:
 
 - [Article version history](#version-history)
 
-Surface Hub 2S is designed to facilitate collaboration in meeting-room environments. Instead, You can run Windows 10/11 Pro or Enterprise to use your Surface Hub 2S like any other PC. For Surface Hub 3, see [Migrate to Windows 11 Pro or Enterprise on Surface Hub 3](surface-hub-3-migrate-os.md).
+Surface Hub 2S is designed to facilitate collaboration in meeting-room environments. Instead, you can run Windows 10/11 Pro or Enterprise to use your Surface Hub 2S like any other PC. For Surface Hub 3, see [Migrate to Windows 11 Pro or Enterprise on Surface Hub 3](surface-hub-3-migrate-os.md).
 
 > [!IMPORTANT]
 > This migration process requires you to follow the specific procedure described in this article. Before you continue, read [Solution components](#solution-components) and [Migration and installation workflow](#migration-and-installation-workflow-summary).
@@ -70,7 +70,7 @@ Before you migrate Surface Hub from Windows 10 Team to Windows 10 Desktop, you n
 
        ![Screenshot shows the "Your Surface" page in the Surface app.](images/shm-fig1.png)
 
-   - If the UEFI version is earlier than version *694.2938.768.0*, use one of the following methods to get a newer version
+   - If the UEFI version is earlier than version *694.2938.768.0*, use one of the following methods to get a newer version.
 
 #### Update UEFI via Windows Update
 
@@ -93,7 +93,7 @@ Before you migrate Surface Hub from Windows 10 Team to Windows 10 Desktop, you n
 
 1. Follow the directions to download the image onto a formatted USB drive by installing the Windows 10 Team 2020 Update.
 
-1. the device enters the out-of-box experience (OOBE) setup after the update. You don't need to complete the setup. The UEFI version is already updated. Instead, power down the device by holding the power button until the screen turns off.
+1. The device enters the out-of-box experience (OOBE) setup after the update. You don't need to complete the setup. The UEFI version is already updated. Instead, power down the device by holding the power button until the screen turns off.
 
 ### Download Surface IT Toolkit and Surface Hub 2S drivers and firmware
 
@@ -136,7 +136,7 @@ The SEMM package that Surface UEFI Configurator creates must be secured with a c
 
 :::image type="content" alt-text="Screenshot that shows how to enable the OS migration UEFI setting on Surface Hub 2S." source="images/enable-hub-os-migration.png":::
 
-4. Insert a USB drive into your PC. Note that the USB drive will be formatted and all files erased. Select **Create**.
+4. Insert a USB drive into your PC. Note that the USB drive will be formatted, and all files erased. Select **Create**.
 
     :::image type="content" alt-text="Screenshot that shows creation of SEMM packaage for Surface Hub 2S." source="images/create-hub-semm-package.png":::
 
@@ -285,6 +285,7 @@ The following table summarizes changes to this article.
 
 | Version | Date               | Description                                                                                           |
 | ------- | ------------------ | ----------------------------------------------------------------------------------------------------- |
+| v. 1.7  | September 18, 2023| Updated with info about the Surface IT Toolkit, which now includes the Surface UEFI Configurator tool. |
 | v. 1.6  | January 16, 2023  | Added a new section for troubleshooting and common problems. |
 | v. 1.5  | December 1, 2021  | Updated to show support for Windows 11. |
 | v. 1.4  | December 14, 2020 | Provides [further info](#install-surface-hub-2s-drivers-and-firmware) about installing the MSI file for "Drivers and firmware for Windows 10 Pro and Enterprise OS on Surface Hub 2S," advising that a second reboot may be necessary depending on the state of your system.                                                          |
