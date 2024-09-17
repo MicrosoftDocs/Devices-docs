@@ -73,8 +73,8 @@ The onboarding process includes steps to validate your organization’s Microsof
 
 1. Before proceeding, you first need to configure at least one admin role. To learn more see:
 
-   - [Prepare your environment to manage Surface portals](surface-portal-admin-roles.md)
-   - [Add an admin](/microsoft-365/admin/add-users/assign-admin-roles#steps-add-an-admin)
+- [Prepare your environment to manage Surface portals](surface-portal-admin-roles.md)
+- [Add an admin](/microsoft-365/admin/add-users/assign-admin-roles#steps-add-an-admin)
 
 2. To manage devices or take adavantage of the option to use Windows Autopilot, you first need to register them with the Surface Support Portal, as explained in the following section. 
 
