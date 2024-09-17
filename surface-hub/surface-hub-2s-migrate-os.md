@@ -130,11 +130,13 @@ The SEMM package that Surface UEFI Configurator creates must be secured with a c
 - Under Choose DFI Package Type, select **Configuration Package**.
 - Under Select Device, choose **Surface Hub** and **Surface Hub 2S**
 
-  :::image type="content" alt-text="Screenshot of Device Configuration and Certification." source="images/uefi-config-hub1.png":::
+    ![Screenshot of Device Configuration and Certification.](images/uefi-config-device.png)
 
 3. On the Device Configuration Settings page, go to **Advanced Settings**, select **UEFI Front Page**, and toggle **EnableOSMigration** to **On**. 
 
-  :::image type="content" alt-text="Screenshot that shows how to enable OS migration on Surface Hub 2S." source="images/enable-hub-os-migration.png":::
+
+
+    ![Screenshot that shows how to enable OS migration on Surface Hub 2S](images/enable-hub-os-migration.png)
 
 1. Insert a USB drive into your PC. Note that the USB drive will be formatted and all files erased. Select **Create**. 
 
