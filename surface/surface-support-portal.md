@@ -84,8 +84,10 @@ This section includes key tasks to ensure your Surface devices remain compliant,
 
 - [Register Surface devices](#register-surface-devices)
 - [Manage Surface device warranty and coverage](#manage-surface-device-warranty-and-coverage)
-- [Create and track support requests](#create-support-requests)
+- [Create and track support requests](#create-and-track-support-requests)
 - [Create and track service requests for device replacement or repair](#create-and-track-service-requests-for-device-replacement-or-repair)
+- [Review Administrator roles](#review-administrator-roles)
+- [View related Surface IT tools](#view-related-surface-it-tools)
 
 > [!TIP]
 > [See the demo tutorial for Surface Support Portal](https://www.microsoft.com/videoplayer/embed/RE4Y55A)
@@ -127,7 +129,7 @@ Easily manage your Surface device warranties through the Surface Support Portal.
 - Select **Coverage** to view devices covered under warranty, the time remaining for each device under warranty, and related details.
 - Select **Warranty & service** to view the status of service orders.
 
-### Create support requests
+### Create and track support requests
 
 Easily submit support requests through the Surface Support Portal by providing detailed information about the issue you’re facing. The more specific your description, the faster we can help resolve your problem.
 
@@ -149,14 +151,14 @@ Quickly address hardware issues by creating a service request for device replace
 
 2. Select **Submit** to send your service request.
 
-## View information about IT tools
-
-- Select **Surface IT Tools** to access details about the latest tools, including the [Surface IT Toolkit](surface-it-toolkit.md), [Surface Diagnostics Toolkit for Business](surface-diagnostic-toolkit-business.md), and [Surface API Management Service](https://github.com/microsoft/SurfaceApiManagementService).
-
-## Administrator roles
+## Review Administrator roles
 
 - For details about all available admin roles, see [Prepare your environment to manage Surface portals](surface-portal-admin-roles.md).
 - To learn more about configuring roles, see [Add an admin](/microsoft-365/admin/add-users/assign-admin-roles#steps-add-an-admin).
+
+## View related Surface IT tools
+
+- Select **Surface IT Tools** to access details about the latest tools, including the [Surface IT Toolkit](surface-it-toolkit.md), [Surface Diagnostics Toolkit for Business](surface-diagnostic-toolkit-business.md), and [Surface API Management Service](https://github.com/microsoft/SurfaceApiManagementService).
 
 ## Learn more
 
