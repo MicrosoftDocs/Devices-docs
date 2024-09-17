@@ -29,18 +29,16 @@ landingContent:
             url: https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface
           - text: Accelerate AI transformation with Surface Pro and Surface Laptop
             url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/accelerate-ai-transformation-with-surface-pro-and-surface-laptop/ba-p/4227521
-          - text: Detachable Surface Pro Flex Keyboard
-            url: surface-pro-flex-keyboard.md
-          - text: Surface IT Toolkit
-            url: surface-it-toolkit.md  
           - text: Introducing Surface Pro 10 & Surface Laptop 6
             url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/introducing-microsoft-surface-pro-10-and-surface-laptop-6-ai-pcs/ba-p/4090653
-          - text: Tested peripherals for Surface Pro 10 & Laptop 6
+          - text: Tested peripherals for Surface devices
             url: surface-tested-peripherals.md
-          - text: NFC support in Surface Pro 10 for Business
+          - text: NFC support in Surface Pro 
             url: surface-pro-nfc.md
           - text: Surface ruggedness testing
-            url: surface-hardware-environmental-test-results.md              
+            url: surface-hardware-environmental-test-results.md 
+          - text: Detachable Surface Pro Flex Keyboard
+            url: surface-pro-flex-keyboard.md              
           - text: Explore all Surface family products
             url: https://www.microsoft.com/surface/business
   
