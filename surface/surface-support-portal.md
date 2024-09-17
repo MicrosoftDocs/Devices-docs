@@ -89,9 +89,6 @@ This section includes key tasks to ensure your Surface devices remain compliant,
 - [Review Administrator roles](#review-administrator-roles)
 - [View related Surface IT tools](#view-related-surface-it-tools)
 
-> [!TIP]
-> [See the demo tutorial for Surface Support Portal](https://www.microsoft.com/videoplayer/embed/RE4Y55A)
-
 ### Register Surface devices
 
 Register your Surface devices through the Surface Support Portal to associate them with your organization’s tenant. This enables you to manage devices with Windows Autopilot, ensuring seamless integration into your IT infrastructure and simplifying device management.
@@ -151,12 +148,12 @@ Quickly address hardware issues by creating a service request for device replace
 
 2. Select **Submit** to send your service request.
 
-## Review Administrator roles
+### Review Administrator roles
 
 - For details about all available admin roles, see [Prepare your environment to manage Surface portals](surface-portal-admin-roles.md).
 - To learn more about configuring roles, see [Add an admin](/microsoft-365/admin/add-users/assign-admin-roles#steps-add-an-admin).
 
-## View related Surface IT tools
+### View related Surface IT tools
 
 - Select **Surface IT Tools** to access details about the latest tools, including the [Surface IT Toolkit](surface-it-toolkit.md), [Surface Diagnostics Toolkit for Business](surface-diagnostic-toolkit-business.md), and [Surface API Management Service](https://github.com/microsoft/SurfaceApiManagementService).
 
