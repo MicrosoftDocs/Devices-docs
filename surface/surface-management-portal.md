@@ -41,7 +41,7 @@ With the Surface Management Portal, you can:
 
 - Sign in to the [Microsoft Intune Admin Center](https://endpoint.microsoft.com), and select **All services** > **Surface Management Portal**.
 
-   :::image type="content" source="images/surface-management-portal/surface-management-portal-start.png" lightbox="/surface/images/surface-management-portal/surface-management-portal-start.png" alt-text="Start Surface Management Portal":::
+   :::image type="content" source="images/surface-management-portal/surface-management-portal-start.png" lightbox="/surface/images/surface-management-portal/surface-management-portal-start.png" alt-text="Screenshot that shows the Surface Management Portal on the Intune admin center home page.":::
 
 ## Prerequisites
 
@@ -76,7 +76,7 @@ Managing the warranty status of each device helps you stay on top of expiring wa
 
 The Surface Management Portal provides visibility into support activity and the status of each request.
 
-:::image type="content" source="images/surface-management-portal/surface-management-portal-support.png" lightbox="/surface/images/surface-management-portal/surface-management-portal-support.png" alt-text="Get information about support activity along with the status of each request.":::
+:::image type="content" source="images/surface-management-portal/surface-management-portal-support.png" lightbox="/surface/images/surface-management-portal/surface-management-portal-support.png" alt-text="Screenshot that shows where to submit a new support request on the Surface Management Portal.":::
 
 To create and submit new requests for one or more devices:
 
