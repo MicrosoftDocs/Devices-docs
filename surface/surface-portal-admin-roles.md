@@ -1,20 +1,21 @@
 ---
-title: Prepare your environment to manage Surface Portals
+title: Assign admin roles for Surface portals
 description: Guide to assigning roles for managing Surface devices in Microsoft 365 Admin Center, ensuring secure and efficient operations. 
 ms.service: surface
 ms.localizationpriority: medium
 author: coveminer
 ms.author: chauncel
 ms.topic: overview
-ms.date: 09/16/2024
+ms.date: 09/18/2024
 ms.reviewer: rohitmannan  
 manager: frankbu
 appliesto:
 - Windows 11
 - Windows 10
+ms.collection: essentials-manage  
 ---
 
-# Prepare your environment to manage Surface portals
+# Assign admin roles for Surface portals
 
 Microsoft provides a range of built-in administrator roles designed for managing Surface devices through the [Surface Management Portal](surface-management-portal.md) and the [Surface Support Portal](surface-support-portal.md). These roles are tailored to facilitate efficient management and maintenance of Surface hardware within your organization.
 

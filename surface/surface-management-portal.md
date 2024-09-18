@@ -80,17 +80,13 @@ The Surface Management Portal provides visibility into support activity and the 
 
 To create and submit new requests for one or more devices:
 
-1. Go to the **Support** tab and select **Create support request**.
+1. Go to the **Support** tab and select **New support request**.
 2. **Select the device**: Choose the product from the drop-down list.
 3. **Describe the issue**: Provide detailed information about the issue.
 4. **Enter contact details**: Provide your contact information and preferred communication method.
 5. **Review and submit**: Verify all information, then select **Submit**.
+6. **Track support requests**: Go to the Surface Management Portal home page and select **View all support requests**. 
 
-#### Track support status
-
-Track the status of submitted support requests through the **Service orders** tab.
-
-   :::image type="content" source="images/surface-management-portal/smp-submit-support-request.png"  alt-text="Submit support request.":::
 
 ### Create and track service requests for device replacement or repair
 
@@ -100,10 +96,7 @@ Track the status of submitted support requests through the **Service orders** ta
 4. **Describe the issue**: Provide a detailed description of the issue and attach any relevant files.
 5. **Provide contact information**: Enter your contact details and specify your preferred communication method.
 6. **Review and submit the request**: Once verified, select **Submit**.
-
-#### Track repair requests
-
-Track your repair request's status under the **Service order** section. The status updates as the request progresses.
+7. **Track repair requests**: Go to the Surface Management Portal home page and select **View all service orders.**
 
 ### Get insights to proactively monitor and manage Surface devices
 
