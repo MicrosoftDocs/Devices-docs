@@ -26,13 +26,15 @@ With the Surface Support Portal, you benefit from:
 - The ability to track your complete audit history of exchanges, repairs, and technical support.
 - Detailed warranty status, entitlements, and eligibility for advanced warranty programs.
 
+To learn more, see [Surface Support Portal delivers significant time savings for IT admins](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/surface-support-portal-delivers-significant-time-savings-for-it/ba-p/4242456)
+
 :::image type="content" source="images/surface-service-repair/m365-admincenter-repair-request.png" alt-text="Screenshot of Surface Support Portal.":::
 
 ## Access Surface Support Portal
 
 If you already have access to the portal, skip to the [Prerequisites section](#prerequisites).
 
-### How to access to Surface Support Portal
+### How to access Surface Support Portal
 
 The onboarding process includes steps to validate your organization’s Microsoft tenant. If your organization doesn't already have a tenant, the instructions can help you create one, ensuring seamless access to the Surface Support Portal via the Microsoft 365 Admin Center.
 
@@ -73,7 +75,7 @@ The onboarding process includes steps to validate your organization’s Microsof
 
 1. Before proceeding, you first need to configure at least one admin role. To learn more see:
 
-- [Prepare your environment to manage Surface portals](surface-portal-admin-roles.md)
+- [Assign admin roles for Surface portals](surface-portal-admin-roles.md)
 - [Add an admin](/microsoft-365/admin/add-users/assign-admin-roles#steps-add-an-admin)
 
 2. To manage devices or take adavantage of the option to use Windows Autopilot, you first need to register them with the Surface Support Portal, as explained in the following section. 
@@ -150,7 +152,7 @@ Quickly address hardware issues by creating a service request for device replace
 
 ### Review Administrator roles
 
-- For details about all available admin roles, see [Prepare your environment to manage Surface portals](surface-portal-admin-roles.md).
+- For details about all available admin roles, see [Assign admin roles for Surface portals](surface-portal-admin-roles.md).
 - To learn more about configuring roles, see [Add an admin](/microsoft-365/admin/add-users/assign-admin-roles#steps-add-an-admin).
 
 ### View related Surface IT tools
@@ -159,8 +161,8 @@ Quickly address hardware issues by creating a service request for device replace
 
 ## Learn more
 
-- [(Re)Introducing Surface portals - Microsoft Community Hub](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/re-introducing-the-surface-management-and-support-suite/ba-p/4109526)
-- [Prepare your environment to manage Surface Portals](surface-portal-admin-roles.md)
+- [Surface Support Portal delivers significant time savings for IT admins](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/surface-support-portal-delivers-significant-time-savings-for-it/ba-p/4242456)
+- [Assign admin roles for Surface portals](surface-portal-admin-roles.md)
 - [Surface portals overview](surface-portals.md)
 - [Surface Management Portal overview](surface-management-portal.md)
 - [Surface Support Portal overview](surface-support-portal.md)
