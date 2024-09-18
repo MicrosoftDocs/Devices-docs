@@ -47,7 +47,7 @@ With the Surface Management Portal, you can:
 
 Before proceeding, you first need to configure at least one admin role. To learn more see:
 
-- [Prepare your environment to manage Surface Portals](surface-portal-admin-roles.md)
+- [Assign admin roles for Surface portals](surface-portal-admin-roles.md)
 - [Add an admin](/microsoft-365/admin/add-users/assign-admin-roles#steps-add-an-admin)
 
 ## IT tasks in Surface Management Portal
@@ -162,7 +162,7 @@ The **Carbon emissions** tab helps you track and potentially reduce the environm
 
 ### Review administrator roles
 
-- For details about all available admin roles, see [Prepare your environment to manage Surface Portals](surface-portal-admin-roles.md).
+- For details about all available admin roles, see [Assign admin roles for Surface portals](surface-portal-admin-roles.md).
 
 - To learn more about configuring roles, see [Add an admin](/microsoft-365/admin/add-users/assign-admin-roles#steps-add-an-admin).
 
@@ -174,7 +174,7 @@ Surface Management Portal is available to customers who use Microsoft Intune Adm
 
 - [(Re)Introducing Surface portals - Microsoft Community Hub](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/re-introducing-the-surface-management-and-support-suite/ba-p/4109526)
 - [Introducing the Surface API Management Service - Microsoft Community Hub](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/introducing-the-surface-api-management-service/ba-p/4107282)
-- [Prepare your environment to manage Surface portals](surface-portal-admin-roles.md)
+- [Assign admin roles for Surface portals](surface-portal-admin-roles.md)
 - [Surface portals overview](surface-portals.md)
 - [Surface Support Portal overview](surface-support-portal.md)
 - [Surface IT Toolkit](surface-it-toolkit.md)
