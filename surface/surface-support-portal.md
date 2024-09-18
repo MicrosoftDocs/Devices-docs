@@ -25,7 +25,8 @@ With the Surface Support Portal, you benefit from:
 - Access to qualified Surface technicians via chat or phone.
 - The ability to track your complete audit history of exchanges, repairs, and technical support.
 - Detailed warranty status, entitlements, and eligibility for advanced warranty programs.
-- To learn more, see [Surface Support Portal delivers significant time savings for IT admins](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/surface-support-portal-delivers-significant-time-savings-for-it/ba-p/4242456)
+
+To learn more, see [Surface Support Portal delivers significant time savings for IT admins](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/surface-support-portal-delivers-significant-time-savings-for-it/ba-p/4242456)
 
 :::image type="content" source="images/surface-service-repair/m365-admincenter-repair-request.png" alt-text="Screenshot of Surface Support Portal.":::
 
