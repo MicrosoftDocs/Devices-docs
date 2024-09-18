@@ -17,9 +17,8 @@ ms.custom:
 - CI 118876
 - CSSTroubleshoot 
 ms.reviewer: mablaik
-description: Get support for Surface and Surface Hub products for Business and Education customers. Explore online, in-store, and contract-based support options.
+description: Find support options for Microsoft Surface and Surface Hub products tailored for business and education customers. Access online tools, in-store services, and troubleshooting resources to manage and resolve device issues efficiently.
 ---
-
 # Contact Surface Support for Business and Education customers
 
 ## Before you contact us  
@@ -40,7 +39,7 @@ The [Surface Support Portal](surface-support-portal.md) provides a self-serve, c
 
 - [Get support](https://admin.microsoft.com/adminportal/home#/support/microsoftsurfacesupport)
 
-If this is your first time accessing the Microsoft 365 Admin Center, please follow these onboarding steps: [Streamline access to Surface Portals for commercial customers](streamline-access-surface-portals.md).
+If this is your first time accessing the Microsoft 365 Admin Center, follow these onboarding steps: [Streamline access to Surface Support Portal](/surface/surface-support-portal#streamline-access-to-surface-support-portal)
 
 If you experience an issue creating an account and have a timely support need,  refer to our legacy support tool: [Support for business](https://support.serviceshub.microsoft.com/supportforbusiness). For improved and faster online support, we encourage you to transition to the [Surface Support Portal](surface-support-portal.md) on the Microsoft 365 Admin Center as soon as possible.
 
