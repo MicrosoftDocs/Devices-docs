@@ -1,44 +1,79 @@
 ---
-title: Surface portals
-description: This article provides an overview of Surface IT portals including the Surface Management Portal and the Surface Support Portal.
-ms.service: windows-11
-ms.localizationpriority: medium
-author: coveminer
-ms.author: rbrooker
-ms.topic: how-to
-ms.date: 09/15/2023
-ms.reviewer: rbrooker
-manager: frankbu
-appliesto:
-- Windows 11
-- Windows 10
-ms.collection: essentials-manage
+title: Surface portals overview  
+description: Explore centralized solutions for IT admins to manage Surface devices at scale. Learn about the Surface Management Portal and Surface Support Portal, designed for efficient device monitoring, warranty management, and support requests.  
+ms.service: windows-11  
+ms.localizationpriority: medium  
+author: coveminer  
+ms.author: rbrooker  
+ms.topic: how-to  
+ms.date: 09/18/2024  
+ms.reviewer: rbrooker  
+manager: frankbu  
+appliesto:  
+- Windows 11  
+- Windows 10  
+ms.collection: essentials-manage  
 ---
 
-# Surface Management and Support Suite overview
+# Surface portals overview
 
-Surface Management and Support Suite provides a centralized solution for IT admins to manage and monitor Surface devices at scale. The suite  allows you to:
+Surface portals provide IT admins with a centralized solution to manage and monitor Surface devices at scale, with insights and visibility into your environment.
+
+With Surface portals, you can:
 
 - Centralize management of device warranties and support requests. Initiate single or bulk warranty claims.
-- Gain insights into your warranty status and claims--in a single view.
-- Quickly view the health of all your Surface devices and get notified about any unusual device status, which can help reduce IT costs.
+- Gain insights into your warranty status and claims—in a single view.
+- Monitor the health of all your Surface devices and get notifications about any unusual device status, which can help reduce IT costs.
+- Access a unified interface for Surface device management tasks.
 
-Choose the option that’s right for you.
+## Compare portals
 
-- **Surface Management Portal:** If your Surface devices are enrolled through Intune, they're automatically enrolled into the [Surface Management Portal](https://endpoint.microsoft.com/#view/Microsoft_Azure_Surface/SurfaceManagement.ReactView). In Intune Admin Center, go to **All Services** > **Surface Management Portal.** This includes the comprehensive feature set of the Intune admin center.
-- **Surface Support Portal:** If you have a Microsoft 365 subscription, your support service needs can be fulfilled via the [Microsoft 365 admin center.](https://admin.microsoft.com/Adminportal/Home#/support/microsofthardwaresupport) In Admin center, sign in and go to **Show all** > **Support** > **Microsoft Surface support**. This doesn't require your devices to be enrolled through Intune.
+| Portal                             | Surface Management Portal                                              | Surface Support Portal                                              |
+|------------------------------------|------------------------------------------------------------------------|---------------------------------------------------------------------|
+| **Designed for**                   | Customers who already use Microsoft Intune to manage multiple devices at scale | Microsoft 365 customers looking to streamline support for their employees & users |
+| **Platform requirements**          | Microsoft Intune admin center                                          | Microsoft 365 admin center                                          |
+| **Subscription**                   | E3/E5 subscription                                                     | Microsoft 365 business account                           |
+| **Device registration**            | Automatic device enrollment through Intune                              | Manual device upload required             |
+| **Roles/Access**                   | Global Admin, Global Reader, Hardware Admin, Hardware Specialist       | Global Admin, Billing Admin, Service Support Admin, Hardware Admin, Hardware Specialist |
+| **Device tech & administrative support** | Yes                                                                 | Yes                                                                 |
+| **Device repair & exchange**       | Yes                                                                    | Yes                                                                 |
+| **Device warranty status**         | Yes                                                                    | Yes                                                                 |
+| **Device insights**                | Health, Performance, Encryption, Compliance, Hardware usage            | None                                                                |
+| **Windows 11 eligibility status**  | Yes                                                                    | No                                                                  |
+| **Availability to all regions where Surface is sold** | Yes                                                 | Yes                                                                 |
+| **Bulk device service orders**     | Yes                                                                    | Yes                                                                 |
+| **API integration availability**   | Yes                                                                    | No                                                                  |
 
-**Table 1. Surface Management and Support Suite**
+## Surface Management Portal
 
-| Solution                                                                                                                              | Best for                                                                          | Requirements                                                                                             | Notes                                             |
-| ----------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | ------------------------------------------------- |
-| [Microsoft Surface Management Portal](surface-management-portal.md)                          | Customers  that already use Microsoft Intune to manage multiple devices at scale | - [Microsoft Intune Admin Center](https://endpoint.microsoft.com/)<br>- Intune subscription     | -  Manage warranty and claims. Manage support requests. Get Device insights and Device Health. <br><br> - Surface devices are automatically enrolled       |
-| [Microsoft Surface Support Portal](surface-support-portal.md) | Customers  looking to streamline support for their employees and users            | - [Microsoft 365 Admin Center](https://admin.microsoft.com/AdminPortal/)<br>- Microsoft 365 subscription | - Manage warranty and claims. Manage support requests. <br><br> - Customers need to manually add Surface devices. 
-|
+Commercial customers managing tenants via Microsoft Intune can use the [Surface Management Portal](surface-management-portal.md) to handle service requests for Surface devices.
+
+:::image type="content" source="images/surface-management-portal.png" alt-text="Screenshot of Microsoft Surface Management Portal.":::
+
+- Sign in to the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431) and go to **All services** > **Surface Management Portal**.
+- For full details, see [Surface Management Portal](surface-management-portal.md).
+
+## Surface Support Portal
+
+Microsoft 365 Business customers can use the [Surface Support Portal](surface-support-portal.md) to handle service requests for Surface devices.
+
+1. Sign in to the [Surface Support Portal - Microsoft 365 admin center](https://admin.microsoft.com/AdminPortal#/support/microsoftsurfacesupport).
+
+:::image type="content" source="images/surface-service-repair/m365-admincenter-repair-request.png" alt-text="Screenshot of Microsoft 365 admin center showing New repair request feature.":::
+
+For full details, including instructions for streamlined access, see [Surface Support Portal overview](surface-support-portal.md).
+
+## Prerequisites
+
+Whether you're using the Surface Management Portal or the Surface Support Portal, you first need to configure at least one admin role. To learn more see: 
+
+- [Prepare your environment to manage Surface Portals](surface-portal-admin-roles.md)
+- [Add an admin](/microsoft-365/admin/add-users/assign-admin-roles#steps-add-an-admin)
 
 ## Learn more
 
-- [Surface self-serve portals: Created to elevate IT experience - Microsoft Community Hub](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/surface-self-serve-portals-created-to-elevate-it-experience/ba-p/1419002)
+- [(Re)Introducing Surface portals - Microsoft Community Hub](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/re-introducing-the-surface-management-and-support-suite/ba-p/4109526)
+- [Prepare your environment to manage Surface Portals](surface-portal-admin-roles.md)
 - [Surface Management Portal](surface-management-portal.md)
-- [Microsoft Surface Support Portal](surface-support-portal.md)
-- [Streamline access to Surface Portals for commercial customers](streamline-access-surface-portals.md)
+- [Surface Support Portal](surface-support-portal.md)
+- [Surface IT Toolkit](surface-it-toolkit.md)

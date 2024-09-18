@@ -60,7 +60,6 @@
         - name: Surface Studio 2+ for Business
           href: https://www.microsoft.com/surface/business/surface-studio-2-plus                     
     - name: Plan
-      expanded: true
       items: 
         - name: Surface devices driver & firmware lifecycle
           href: surface-driver-firmware-lifecycle-support.md
@@ -77,8 +76,16 @@
     - name: Deploy & manage
       expanded: true
       items: 
-      - name: Surface supported operating systems
-        href: surface-supported-operating-systems.md
+      - name: Surface portals overview
+        href: surface-portals.md
+        expanded: true
+        items:
+        - name: Surface Management Portal overview
+          href: surface-management-portal.md
+        - name: Surface Support Portal overview
+          href: surface-support-portal.md
+        - name: Assign admin roles for Surface portals
+          href: surface-portal-admin-roles.md  
       - name: Surface tools
         expanded: true
         items:   
@@ -128,18 +135,6 @@
             href: microsoft-surface-data-eraser.md
         - name: Surface Dock 1 Firmware Update
           href: surface-dock-firmware-update.md 
-      - name: Surface Management & Support Suite
-        href: surface-portals.md
-        expanded: true
-        items:
-        - name: Surface Management Portal overview
-          href: surface-management-portal.md
-        - name: Surface Support Portal overview
-          href: surface-support-portal.md
-        - name: Manage your Surface warranty & service requests
-          href: self-serve-warranty-service.md 
-        - name: Streamline access to Surface portals
-          href: streamline-access-surface-portals.md  
       - name: Windows Autopilot
         items:      
         - name: Windows Autopilot & Surface devices
@@ -164,6 +159,8 @@
           href: deploy-surface-app-with-windows-store-for-business.md
       - name : Manage updates
         items:
+        - name: Surface supported operating systems
+          href: surface-supported-operating-systems.md
         - name: Manage & deploy Surface driver & firmware updates
           href: manage-surface-driver-and-firmware-updates.md     
         - name: Surface driver & firmware lifecycle for Windows-based devices
@@ -249,7 +246,7 @@
         - name: Warranty & protection plan terms & conditions
           href: https://support.microsoft.com/help/4493926/warranties-extended-service-plans-and-terms-conditions-for-your-device
         - name: Manage your Surface warranty & service requests
-          href: self-serve-warranty-service.md 
+          href: surface-portals.md 
         - name: Check device warranty status
           href: https://mybusinessservice.surface.com         
         - name: Out of warranty repair & cost
