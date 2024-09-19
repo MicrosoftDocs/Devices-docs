@@ -173,7 +173,6 @@ To update the UEFI for OS migration on your Surface Hub 2S, follow these steps:
    - Turn off the Surface Hub 2S.
    - Press and hold the **Volume +** button, then press and release the power button. Continue holding **Volume +** until the UEFI menu appears on the screen.
 
-         ![Screenshot that shows the volume and power buttons.](images/shm-fig20.png)
 3. **Access UEFI settings**:
    - When prompted, enter the UEFI password you set earlier, if you have one (this is recommended for security).
 
