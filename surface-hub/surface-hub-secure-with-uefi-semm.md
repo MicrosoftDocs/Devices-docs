@@ -47,22 +47,59 @@ Use the Microsoft Surface UEFI Configurator to turn on or off the following UEFI
 
 ## Create UEFI configuration image
 
-Unlike other Surface devices, you cannot use an MSI file or a Win PE image to apply these settings on Surface Hub. Instead, you need to create a USB image to load into the device. To create a Surface Hub UEFI configuration image, download and install the latest version of the Microsoft Surface UEFI Configurator from [Surface Tools for IT](https://www.microsoft.com/download/details.aspx?id=46703).
-
-## To configure UEFI on Surface Hub
-
-1. Open **UEFI Configurator** and select **Start**.
-
-    ![Screenshot showing UEFI Configurator Start](images/uefi-hub-start.png)
-
-2. Select **Configuration Package** > **DFI**.
-
-    ![Screenshot showing screen to select DFI File](images/uefi-hub-dfi.png)
-
-3. Add your organizational Personal Information Exchange (PFE) certificate.
+Unlike other Surface devices, you cannot use an MSI file or a Win PE image to apply these settings on Surface Hub. Instead, you need to create a USB image to load into the device. 
 
 > [!NOTE]
 > This article assumes that you either obtain certificates from a third-party provider or already have expertise in PKI certificate services and know how to create your own. See [Certificate Services Architecture](/windows/win32/seccrypto/certificate-services-architecture) documentation to learn more.
+
+
+### Download Surface IT Toolkit and Surface Hub 2S Drivers and Firmware
+
+On a separate PC, perform the following tasks:
+
+1. Download the [Surface IT Toolkit](https://www.microsoft.com/download/details.aspx?id=46703), which includes the [Surface UEFI Configurator](/surface/surface-it-toolkit-uefi-config).
+2. Follow the installation instructions in [Get started with Surface IT Toolkit](/surface/surface-it-toolkit#get-started-with-surface-it-toolkit).
+3. Download the [Surface Hub 2S drivers and firmware Windows Installer MSI file](https://www.microsoft.com/download/details.aspx?id=101974), **SurfaceHub2S_Win10_19045_24.043.31687.0.MSI**, to use during the new OS installation.
+
+### Prepare the SEMM certificate
+
+Before using the UEFI Configurator for the first time, prepare a certificate to secure the SEMM package:
+
+- **Large enterprises** should generate certificates using their established security infrastructure.
+- **Medium-sized businesses** may opt for certificates from trusted partner providers, especially if they lack dedicated IT security resources.
+- **Self-signed certificates** can be created using PowerShell for smaller setups. For details, refer to [Self-signed certificate guide](/dotnet/core/additional-tools/self-signed-certificates-guide#create-a-self-signed-certificate) and [Surface Enterprise Management Mode certificate requirements](/surface/surface-enterprise-management-mode#surface-enterprise-management-mode-certificate-requirements).
+
+>[!WARNING]
+>To unenroll a device from SEMM and restore user control of Surface UEFI settings, you must have the SEMM certificate used to enroll the device in SEMM. If this certificate becomes lost or corrupted, it is not possible to unenroll from SEMM. Back up and protect your SEMM certificate accordingly.
+
+### Create a SEMM package
+
+To create a SEMM package for Surface Hub, follow these steps using the Surface IT Toolkit on a separate PC:
+
+1. Open the [Surface IT Toolkit](/surface/surface-it-toolkit), select **UEFI Configurator**, and then choose **Configure devices**.
+
+    :::image type="content" alt-text="Screenshot of Surface UEFI Configurator start screen." source="images/uefi-config-hub.png":::
+
+2. On the Device Configuration and Certification page, configure the items as follows, then select **Next**:
+   - **Choose Deployment Build**: Select **DFI**.
+   - **Import Certificate Protection**: Select **Add**, browse to select your certificate (.pfx file), and enter the associated password.
+   - **Choose DFI Package Type**: Select **Configuration Package**.
+   - **Select Device**: Choose **Surface Hub** and **Surface Hub 2S** or Surface Hub 3.
+
+    :::image type="content" alt-text="Screenshot of Device Configuration and Certification." source="images/uefi-config-device.png":::
+
+3. Navigate to the Device Configuration Settings page:
+   - Go to **Advanced Settings**, select **UEFI Front Page**.......
+
+4. Insert a USB drive into your PC. This drive will be formatted, and all files on it will be erased. Select **Create** to build the SEMM package.
+
+    :::image type="content" alt-text="Screenshot that shows creation of SEMM package for Surface Hub 2S." source="images/create-hub-semm-package.png":::
+
+5. Upon completion, note the last two characters of the certificate thumbprint displayed, then select **Finish**. Your SEMM package, named *DfciUpdate.dfi*, is now ready for use.
+
+    :::image type="content" alt-text="Screenshot that shows successful creation of SEMM package for Surface Hub 2S." source="images/finish-create-hub-semm-package.png":::
+
+
 
 4. Enter the certificate’s private key’s password.
 
