@@ -93,11 +93,11 @@ On a separate PC, perform the following tasks:
 
 ### Prepare the SEMM certificate
 
-Before using the UEFI Configurator for the first time, prepare a certificate to secure the SEMM package:
+Before using the UEFI Configurator for the first time, you need to prepare a certificate to secure the SEMM package:
 
-- **Large enterprises** should generate certificates using their established security infrastructure.
-- **Medium-sized businesses** may opt for certificates from trusted partner providers, especially if they lack dedicated IT security resources.
-- **Self-signed certificates** can be created using PowerShell for smaller setups. For details, refer to [Self-signed certificate guide](/dotnet/core/additional-tools/self-signed-certificates-guide#create-a-self-signed-certificate) and [Surface Enterprise Management Mode certificate requirements](/surface/surface-enterprise-management-mode#surface-enterprise-management-mode-certificate-requirements).
+- **Large enterprises**: Generate certificates using your organization's security infrastructure.
+- **Medium-sized businesses**: Consider obtaining certificates from trusted partner providers, especially if you lack dedicated IT security resources.
+- **Self-signed certificates**: For smaller setups, you can generate a self-signed certificate using PowerShell. For details, see the [Self-signed certificate guide](/dotnet/core/additional-tools/self-signed-certificates-guide#create-a-self-signed-certificate) and [Surface Enterprise Management Mode certificate requirements](/surface/surface-enterprise-management-mode#surface-enterprise-management-mode-certificate-requirements).
 
 >[!WARNING]
 >To unenroll a device from SEMM and restore user control of Surface UEFI settings, you must have the SEMM certificate used to enroll the device in SEMM. If this certificate becomes lost or corrupted, it is not possible to unenroll from SEMM. Back up and protect your SEMM certificate accordingly.
