@@ -121,7 +121,7 @@ To create a SEMM package for Surface Hub 2S, follow these steps using the Surfac
 3. Navigate to the Device Configuration Settings page:
    - Go to **Advanced Settings**, select **UEFI Front Page**, and toggle **EnableOSMigration** to **On**.
 
-:::image type="content" alt-text="Screenshot that shows how to enable the OS migration UEFI setting on Surface Hub 2S." source="images/enable-hub-os-migration.png":::
+    :::image type="content" alt-text="Screenshot that shows how to enable the OS migration UEFI setting on Surface Hub 2S." source="images/enable-hub-os-migration.png":::
 
 4. Insert a USB drive into your PC. This drive will be formatted, and all files on it will be erased. Select **Create** to build the SEMM package.
 
