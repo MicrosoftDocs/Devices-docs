@@ -133,75 +133,73 @@ To create a SEMM package for Surface Hub 2S, follow these steps using the Surfac
 
 ### Load a USB flash drive with a Windows 11 or Windows 10 image, SEMM package, and Surface Hub 2S drivers and firmware
 
-You can install a Windows 10/11 Pro or Enterprise image (version *20H2* or later) by using one of the following options:
+To install a Windows 10/11 Pro or Enterprise image (version *20H2* or later), consider one of these options:
 
-- Your current imaging solution.
+- **Existing Imaging Solutions**: Use your organization's current imaging solution.
+- **Surface Deployment Accelerator**: Utilize this tool to create a comprehensive bootable image that includes the latest updates for Windows 10/11, Microsoft Office, additional applications, and necessary drivers and firmware. Learn more and download from the [Surface Deployment Accelerator page](/surface/microsoft-surface-deployment-accelerator).
+- **USB Flash Drive**: Manually create a bootable USB drive with a Windows 10/11 Pro or Enterprise image. Note, Wi-Fi connectivity will be unavailable until post-OOBE setup. After setup, download and install the [Surface Hub 2S drivers and firmware for Windows 10/11 Pro and Enterprise](https://www.microsoft.com/download/details.aspx?id=101974).
 
-- [Surface Deployment Accelerator](/surface/microsoft-surface-deployment-accelerator). Use this tool to create a bootable Windows 10/11 image. The image can include all current Windows 10/11 updates, Microsoft Office, other apps, and the required drivers and firmware.
 
-- A USB flash drive that contains a Windows 10/11 Pro or Enterprise image. This option will not have Wi-Fi available until after the out-of-box experience (OOBE) setup. Once setup is complete, install the required [Surface Hub 2S drivers and firmware for Windows 10/11 Pro and Enterprise](https://www.microsoft.com/download/details.aspx?id=101974) on the device.
+#### Prepare your USB drive
 
-The following steps show how to create a USB flash drive from installation media and then add the SEMM package file, drivers, and firmware for Windows 10/11 Pro and Enterprise OS to the Surface Hub 2S MSI file. If you use another deployment method, go to the [Update UEFI on Surface Hub 2S to enable OS migration](#update-uefi-on-surface-hub-2s-to-enable-os-migration) section of this article.
+1. **Download the Media Creation Tool**:
+   - For Windows 10 Pro, visit [Microsoft's Windows 10 download page](https://www.microsoft.com/software-download/windows10).
+   - For Windows 11 Pro, visit [Microsoft's Windows 11 download page](https://www.microsoft.com/software-download/windows11).
+   - For enterprise versions, access the [Microsoft 365 Admin Center](https://admin.microsoft.com/adminportal/home#/).
 
-> [!NOTE]
-> After you finish the installation, you'll need a valid Windows 10/11 Pro or Windows 10/11 Enterprise license separate from your existing Windows 10 Team license.
-
-1. To create a Windows 10/11 Pro installation, follow the instructions to download the media creation tool as appropriate:
-
-    - [Windows 10 Pro](https://www.microsoft.com/software-download/windows10). 
-    - [Windows 11 Pro](https://www.microsoft.com/software-download/windows11?msockid=2aa1d89a2f396aed21eeccdd2e146b0d)
-    - For enterprise versions, go to the [Microsoft 365 Admin Center](https://admin.microsoft.com/adminportal/home#/).
-
-2. **Prepare the Installation Media:**
+2. **Prepare the Installation Media**:
    - Insert a blank USB storage drive into your computer.
 
-3. **Run the Media Creation Tool:**
-   - Launch the tool and select **Create installation media**.
-   - Follow the prompts to select your preferred language, edition, and architecture.
-   - Choose USB flash drive as the media to use and follow the instructions to complete the creation process.
+3. **Run the Media Creation Tool**:
+   - Open the tool and choose **Create installation media**.
+   - Follow the on-screen prompts to select your language, edition, and system architecture.
+   - Choose the USB flash drive as the destination and follow the steps to create the installation media.
 
-4. Copy the SEMM package file and the drivers and firmware for Windows 10 Pro and Enterprise OS on Surface Hub 2S (the MSI file) to the root of the USB flash drive (*BOOTME*) that contains your Windows 10 image. The BOOTME USB drive includes the following items:
+4. **Transfer Files to USB Drive**:
+   - Copy the SEMM package file (*DfciUpdate.dfi*) to the root of the USB drive.
+   - Add the drivers and firmware MSI file (SurfaceHub2S_Win10_19045_24.043.31687.0.MSI) to the root of the drive.
 
-   - Your Windows 10 bootable image.
-
-   - The SEMM package file, copied to the root of the USB drive: *DfciUpdate.dfi*.
-
-   - The drivers and firmware for Windows 10 Pro and Enterprise OS on Surface Hub 2S (SurfaceHub2S_Win10_19045_24.043.31687.0.MSI). Copy this file to the root of the USB drive.
+> [!NOTE]
+> Ensure you have a valid Windows 10/11 Pro or Enterprise license distinct from any pre-existing Windows 10 Team licenses.
 
 ### Update UEFI on Surface Hub 2S to enable OS migration
 
-1. Insert your BOOTME drive into the USB-A port on Surface Hub 2S.
+To update the UEFI for OS migration on your Surface Hub 2S, follow these steps:
 
-1. To boot into UEFI:
+1. **Prepare the device**:
+   - Insert the BOOTME USB drive into the USB-A port on the Surface Hub 2S.
 
-   1. Turn off (shut down) your Surface Hub 2S.
+2. **Boot into UEFI**:
+   - Turn off the Surface Hub 2S.
+   - Press and hold the **Volume +** button, then press and release the power button. Continue holding **Volume +** until the UEFI menu appears on the screen.
 
-   1. Press and hold **Volume +**, and then press and release the power button. Keep holding **Volume +** until the UEFI menu appears.
-
-         ![Drawing shows the volume and power buttons.](images/shm-fig20.png)
-
-1. When the device restarts, enter the UEFI password you created earlier, if applicable (recommended).
+         ![Screenshot that shows the volume and power buttons.](images/shm-fig20.png)
+3. **Access UEFI settings**:
+   - When prompted, enter the UEFI password you set earlier, if you have one (this is recommended for security).
 
       ![System password screen.](images/shm-fig22.png)
 
-1. From the UEFI menu, select **Management**. Then select  **Install from USB**.
+4. **Install from USB**:
+   - In the UEFI menu, navigate to **Management** and select **Install from USB** to initiate the update process from your USB drive.
 
       ![Screenshot shows where to select Management and then "Install from U S B".](images/shm-fig21.png)
 
-1. Select **Restart now**, as the following image shows. The device will restart. It will display a white Microsoft logo in the middle of the window and then shut down.
+5. **Restart the device**:
+   - Select **Restart now** from the menu. The device will display a white Microsoft logo and then shut down to complete the installation.
 
       ![Screenshot shows a message prompting you to restart.](images/shm-fig25.png)
 
-1. Press and release the power button. In the red dialog box, choose to activate Surface Enterprise Management Mode.
-
-1. Enter your two-character certificate thumbprint and your UEFI settings password. Then select **OK**.
+6. **Activate SEMM**:
+   - Turn on the Surface Hub 2S again. A red dialog box will appear prompting you to activate the Surface Enterprise Management Mode (SEMM).
+   - Enter the last two characters of your certificate thumbprint and your UEFI settings password, then select **OK** to proceed.
 
       ![Screenshot shows the confirm-activation dialog box where you enter your two-character certificate thumbprint and your UEFI settings password.](images/shm-fig23.png)
 
    > [!NOTE]
-   > After you activate SEMM on your device, the new UEFI setting **EnableOSMigration** is applied. You can no longer access Windows 10 Team. Instead, you must continue to the next step and install Windows 10/11 Pro or Windows 10/11 Enterprise.
+   > Activating SEMM with the **EnableOSMigration** setting will render Windows 10 Team inaccessible. You should now proceed to install Windows 10/11 Pro or Enterprise.
 
-   The device reboots. It displays the white logo in the middle of the screen and then shuts down again.
+7. **Final Reboot**:
+   - The device will reboot automatically, displaying the white logo again before shutting down, indicating that the UEFI update and SEMM activation are complete.
 
 ### Install Windows 10/11 Pro or Enterprise
 
