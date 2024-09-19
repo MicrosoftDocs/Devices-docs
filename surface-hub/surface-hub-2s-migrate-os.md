@@ -118,6 +118,9 @@ How you get a certificate might depend on the size or complexity of your organiz
 
 The SEMM package that Surface UEFI Configurator creates must be secured with a certificate. The certificate verifies the signature of configuration files before UEFI settings can be applied. For more information, see the [SEMM](/surface/surface-enterprise-management-mode) documentation.
 
+>[!WARNING]
+>To unenroll a device from SEMM and restore user control of Surface UEFI settings, you must have the SEMM certificate used to enroll the device in SEMM. If this certificate becomes lost or corrupted, it is not possible to unenroll from SEMM. Back up and protect your SEMM certificate accordingly.
+
 ### Create a SEMM package
 
 1. On a separate PC, open [Surface IT Toolkit](/surface/surface-it-toolkit), select **UEFI Configurator**, and then select **Configure devices**.
