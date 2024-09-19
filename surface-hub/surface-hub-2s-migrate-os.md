@@ -33,12 +33,13 @@ Surface UEFI Configurator works as an interface into Surface Enterprise Manageme
 
 ## Solution components
 
-- Surface Hub 2S device running Windows 10 Team
+- Surface Hub 2S running Windows 10 Team
 - Separate PC running Windows 11 (or Windows 10)
+- Surface IT Toolkit
 - Surface UEFI Configurator tool to create the SEMM package
 - Windows 10/11 Pro or Enterprise OS image, version 20H2 or later
-- Two USB drives that have 16 GB of storage, FAT32 format
-- The drivers and firmware for Windows 10 Pro and Enterprise in a Surface Hub 2S Microsoft Windows Installer (MSI) file
+- Two USB drives with 16 GB of storage, FAT32 format
+- Windows Installer (MSI) file containing drivers and firmware for Windows 10 Pro and Enterprise on Surface Hub 2S 
 - Internet connection
 - Imaging solution (optional)
 
@@ -101,13 +102,13 @@ On a separate PC, follow these steps:
 
 1. Download the [Surface IT Toolkit](https://www.microsoft.com/download/details.aspx?id=46703). The Surface IT Toolkit contains the [Surface UEFI Configurator](/surface/surface-it-toolkit-uefi-config) tool, formerly only available as a separate install.
 2. Go to [Get started with Surface IT Toolkit](/surface/surface-it-toolkit#get-started-with-surface-it-toolkit) and follow the installation instructions.
-2. Download the [Surface Hub 2S drivers and firmware Windows Installer MSI file](https://www.microsoft.com/download/details.aspx?id=101974): **SurfaceHub2S_Win10_19045_24.043.31687.0.MSI** You'll use this file when you install the new operating system.
+2. Download the [Surface Hub 2S drivers and firmware Windows Installer MSI file](https://www.microsoft.com/download/details.aspx?id=101974): **SurfaceHub2S_Win10_19045_24.043.31687.0.MSI**. You'll use this file when you install the new operating system.
 
 ### Prepare the SEMM certificate
 
-You must prepare a certificate if this is the first time you have used Surface UEFI Configurator. This certificate ensures that after a device is enrolled in SEMM, you can modify UEFI settings only by using packages created with the approved certificate.
+If this the first time using UEFI Configurator, you must prepare a certificate. This certificate ensures that after a device is enrolled in SEMM, UEFI settings can only be modified by using packages created with the approved certificate.
 
-How you get a certificate depends on the size or complexity of your organization:
+How you get a certificate might depend on the size or complexity of your organization:
 
 - Enterprise organizations typically maintain their own infrastructure to generate certificates according to standard security practices.
 
