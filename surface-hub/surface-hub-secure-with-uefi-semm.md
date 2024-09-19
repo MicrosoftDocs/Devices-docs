@@ -54,7 +54,7 @@ With the [Surface UEFI Configurator](https://www.microsoft.com/download/details.
 UEFI is an advanced firmware interface that replaces the traditional BIOS, offering improved security, faster boot times, and support for modern hardware. Setting a UEFI password adds an extra layer of protection by preventing unauthorized changes to the firmware settings. Be sure to set a strong password and store it securely.
 
 > [!TIP]
-> For more information on the security implications of configuring SEMM settings, see [Manage UEFI settings with SEMM](/surface-hub/surface-hub-3-security#manage-uefi-settings-with-semm) and [SEMM UEFI settings reference](/surface/surface-it-toolkit-semm-uefi-settings.md).
+> For more information on the security implications of configuring SEMM settings, see [Manage UEFI settings with SEMM](/surface-hub/surface-hub-3-security#manage-uefi-settings-with-semm) and [SEMM UEFI settings reference](/surface/surface-it-toolkit-semm-uefi-settings).
 
 ## Download Surface IT Toolkit and Surface Hub 2S drivers and firmware
 
@@ -91,7 +91,7 @@ To create a SEMM package for Surface Hub, follow these steps using the Surface I
    :::image type="content" alt-text="Screenshot of Device Configuration and Certification." source="images/uefi-config-device.png":::
 
 3. Navigate to the Device Configuration Settings page:
-   - Toggle the appropriate settings on or off. For detailed guidance on each setting, refer to the [SEMM UEFI settings reference](/surface/surface-it-toolkit-semm-uefi-settings.md).
+   - Toggle the appropriate settings on or off. For detailed guidance on each setting, refer to the [SEMM UEFI settings reference](/surface/surface-it-toolkit-semm-uefi-settings).
 
    :::image type="content" source="images/hub-uefi-config-settings.png" alt-text="Screenshot showing components and advanced settings to turn on or off.":::
 
@@ -114,7 +114,7 @@ To apply the SEMM package and enroll your Surface Hub into SEMM:
 
 ## Learn more
 
-- [Configure UEFI settings for Surface devices](/surface/surface-it-toolkit-uefi-config.md)
-- [SEMM UEFI settings reference](/surface/surface-it-toolkit-semm-uefi-settings.md)
+- [Configure UEFI settings for Surface devices](/surface/surface-it-toolkit-uefi-config)
+- [SEMM UEFI settings reference](/surface/surface-it-toolkit-semm-uefi-settings)
 - [Security best practices for Surface Hubs running Microsoft Teams Rooms on Windows](surface-hub-3-security.md)
 
