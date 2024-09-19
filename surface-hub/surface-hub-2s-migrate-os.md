@@ -39,7 +39,7 @@ Surface UEFI Configurator works as an interface into Surface Enterprise Manageme
 - Surface UEFI Configurator tool to create the SEMM package
 - Windows 10/11 Pro or Enterprise OS image, version 20H2 or later
 - Two USB drives with 16 GB of storage, FAT32 format
-- Windows Installer (MSI) file containing drivers and firmware for Windows 10 Pro and Enterprise on Surface Hub 2S 
+- Windows Installer (MSI) file containing drivers and firmware for Windows 10/11 Pro and Enterprise on Surface Hub 2S 
 - Internet connection
 - Imaging solution (optional)
 
@@ -51,15 +51,15 @@ Surface UEFI Configurator works as an interface into Surface Enterprise Manageme
 | 2 | [Install Surface IT Toolkit and Surface Hub 2S drivers and firmware](#download-surface-it-toolkit-and-surface-hub-2s-drivers-and-firmware)                             | On a separate PC, download and install [Surface IT Tookit](hhttps://www.microsoft.com/download/details.aspx?id=46703). Also, download the [Drivers and Firmware for Windows 10/11 Pro and Enterprise OS on Surface Hub 2S and Surface Hub 3 MSI file](https://www.microsoft.com/download/details.aspx?id=101974).</a> Save this package for use in step 5. |
 | 3 | [Prepare the SEMM certificate](#prepare-the-semm-certificate)                                                                          | Prepare the certificate required to run the UEFI Configurator, or use your current certificate.                                                                                                                                                                                                                                                                                                      |
 | 4 | [Create a SEMM package](#create-a-semm-package)                                                                               | Open Surface IT Toolkit and start Surface UEFI Configurator to create a SEMM package on a USB drive. This package will contain the configuration file you must apply on Surface Hub 2S.                                                                                                                                                                                         |
-| 5 | [Load a USB flash drive with Windows 10 image, the SEMM package, and drivers and firmware](#load-a-usb-flash-drive-with-a-windows-10-image-semm-package-and-surface-hub-2s-drivers-and-firmware) | Create a USB drive that contains a Windows 10 image. In this example, the drive is named *BOOTME*. Add the drivers and firmware for Windows 10 Pro and Enterprise OS on Surface Hub 2S (Step 2) and the SEMM package file (Step 4) to the *BOOTME* drive.                                                                                                                                                                                                  |
+| 5 | [Load a USB flash drive with Windows 11 or Windows 10 image, the SEMM package, and drivers and firmware](#load-a-usb-flash-drive-with-a-windows-11-or-windows-10-image-semm-package-and-surface-hub-2s-drivers-and-firmware) | Create a USB drive that contains a Windows 11 or Windows 10 image. In this example, the drive is named *BOOTME*. Add the drivers and firmware for Windows 10/10 Pro and Enterprise OS on Surface Hub 2S (Step 2) and the SEMM package file (Step 4) to the *BOOTME* drive.                                                                                                                                                                                                  |
 | 6 | [Update the UEFI on Surface Hub 2S to enable OS migration](#update-uefi-on-surface-hub-2s-to-enable-os-migration)                                              | Use the *BOOTME* drive to boot Surface Hub 2S to the UEFI menu and install the SEMM package.|
-| 7 | [Install Windows 10 Pro or Enterprise.](#install-windows-1011-pro-or-enterprise)                                        | Use the *BOOTME* drive to install Windows 10 Pro or Enterprise version *20H2* or later.                                                                                                                                                                                                                                                                                 |
-| 8 | [Install drivers and firmware for Windows 10 Pro and Enterprise.](#install-surface-hub-2s-drivers-and-firmware)                                        | To ensure that your device has all the latest updates and drivers, install the [Drivers and firmware for Windows 10 Pro and Enterprise OS on Surface Hub 2S MSI file](https://www.microsoft.com/download/details.aspx?id=101974).                                                                                                                                                                                                                                                                                 |
+| 7 | [Install Windows 10/11 Pro or Enterprise.](#install-windows-1011-pro-or-enterprise)                                        | Use the *BOOTME* drive to install Windows 10/11 Pro or Enterprise version *20H2* or later.                                                                                                                                                                                                                                                                                 |
+| 8 | [Install drivers and firmware for Windows 10/11 Pro and Enterprise.](#install-surface-hub-2s-drivers-and-firmware)                                        | To ensure that your device has all the latest updates and drivers, install the [Drivers and firmware for Windows 10/11 Pro and Enterprise OS on Surface Hub 2S MSI file](https://www.microsoft.com/download/details.aspx?id=101974).                                                                                                                                                                                                                                                                                 |
 | 9 | [Configure Surface Hub 2S as a personal productivity device.](#configure-recommended-settings)                                        |  Enable the recommended settings and applications to optimize Surface Hub 2S as a personal productivity device.                                                                                                                                                                                                                                                                    |
 
 ### Verify the UEFI version on Surface Hub 2S
 
-Before you migrate Surface Hub from Windows 10 Team to Windows 10 Desktop, you need UEFI version *694.2938.768.0* or later.
+Before you migrate Surface Hub from Windows 10 Team to Windows 10/11 Desktop, you need UEFI version *694.2938.768.0* or later.
 
 **To verify the UEFI version on your system:**
 
@@ -145,24 +145,29 @@ The SEMM package that Surface UEFI Configurator creates must be secured with a c
 
     :::image type="content" alt-text="Screenshot that shows successful creation of SEMM package for Surface Hub 2S." source="images/finish-create-hub-semm-package.png":::
 
-### Load a USB flash drive with a Windows 10 image, SEMM package, and Surface Hub 2S drivers and firmware
+### Load a USB flash drive with a Windows 11 or Windows 10 image, SEMM package, and Surface Hub 2S drivers and firmware
 
 You can install a Windows 10/11 Pro or Enterprise image (version *20H2* or later) by using one of the following options:
 
 - Your current imaging solution.
 
-- [Surface Deployment Accelerator](/surface/microsoft-surface-deployment-accelerator). Use this tool to create a bootable Windows 10 image. The image can include all current Windows 10 updates, Microsoft Office, other apps, and the required drivers and firmware.
+- [Surface Deployment Accelerator](/surface/microsoft-surface-deployment-accelerator). Use this tool to create a bootable Windows 10/11 image. The image can include all current Windows 10/11 updates, Microsoft Office, other apps, and the required drivers and firmware.
 
-- A USB flash drive that contains a Windows 10/11 Pro or Enterprise image. This option will not have Wi-Fi available until after the out-of-box experience (OOBE) setup. Once setup is complete, install the required [Surface Hub 2S drivers and firmware for Windows 10 Pro and Enterprise](https://www.microsoft.com/download/details.aspx?id=101974) on the device.
+- A USB flash drive that contains a Windows 10/11 Pro or Enterprise image. This option will not have Wi-Fi available until after the out-of-box experience (OOBE) setup. Once setup is complete, install the required [Surface Hub 2S drivers and firmware for Windows 10/11 Pro and Enterprise](https://www.microsoft.com/download/details.aspx?id=101974) on the device.
 
-The following steps show how to create a USB flash drive from installation media and then add the SEMM package file, drivers, and firmware for Windows 10 Pro and Enterprise OS to the Surface Hub 2S MSI file. If you use another deployment method, go to the [Update UEFI on Surface Hub 2S to enable OS migration](#update-uefi-on-surface-hub-2s-to-enable-os-migration) section of this article.
+The following steps show how to create a USB flash drive from installation media and then add the SEMM package file, drivers, and firmware for Windows 10/11 Pro and Enterprise OS to the Surface Hub 2S MSI file. If you use another deployment method, go to the [Update UEFI on Surface Hub 2S to enable OS migration](#update-uefi-on-surface-hub-2s-to-enable-os-migration) section of this article.
 
 > [!NOTE]
-> After you finish the installation, you'll need a valid Windows 10 Pro or Windows 10 Enterprise license separate from your existing Windows 10 Team license.
+> After you finish the installation, you'll need a valid Windows 10/11 Pro or Windows 10/11 Enterprise license separate from your existing Windows 10 Team license.
 
-1. To create a Windows 10 Pro installation, follow the instructions to download the media creation tool at [Download Windows 10](https://www.microsoft.com/software-download/windows10). To download Windows 10 Enterprise, go to the [Microsoft Volume Licensing Service Center](https://www.microsoft.com/licensing/servicecenter/default.aspx).
+1. To create a Windows 10/11 Pro installation, follow the instructions to download the media creation tool as appropriate:
 
-1. Insert a new USB storage drive.
+    - [Windows 10 Pro](https://www.microsoft.com/software-download/windows10). 
+    -  Windows 10 Enterprise: Go to the [Microsoft 365 Admin Center](https://admin.microsoft.com/adminportal/home#/).
+    - [Windows 11 Pro](https://www.microsoft.com/software-download/windows11?msockid=2aa1d89a2f396aed21eeccdd2e146b0d)
+    - Windows 11 Enterprise: Go to the [Microsoft 365 Admin Center](https://admin.microsoft.com/adminportal/home#/).
+
+1. Insert a new USB storage drive. 
 1. Open the media creation tool, select **Create installation media**, and then select **Next**.
 
       ![Screenshot shows the option to create installation media.](images/shm-fig16.png)
