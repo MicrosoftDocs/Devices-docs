@@ -55,7 +55,7 @@ real-time monitoring and management for Teams Rooms devices. To learn more, see 
 
 ## Licensing
 
-New Surface Hub 3 devices, Surface Hub 3 Compute Cartridges, and Surface Hub 2S devices software-migrated to the MTR-W platform, all come with a Windows 11 IoT Enterprise license,  and you'll also need  
+New Surface Hub 3 devices, Surface Hub 3 Compute Cartridges, and Surface Hub 2S devices software-migrated to the Teams Rooms on Windows platform, all come with a Windows 11 IoT Enterprise license,  and you'll also need  
 a [Teams Rooms](/microsoftteams/rooms/rooms-licensing) license. A Teams Rooms Pro license is recommended for advanced features like remote device management, conditional access policies, and detailed device analytics. To learn more, see [Microsoft Teams Rooms licenses](/microsoftteams/rooms/rooms-licensing#teams-rooms-license-service-plan-comparison).
 
 ## Next steps
