@@ -124,7 +124,7 @@ We highly recommend utilizing the Microsoft Teams Rooms Pro Management portal li
 
 To learn more, see [Microsoft Teams Rooms Pro Management.](/microsoftteams/rooms/rooms-pro-management)
 
-## Enterprise Management of Surface Hub on MTR-W
+## Enterprise Management of Surface Hub running Teams Rooms on Windows 
 
 We recommend you join Surface Hub to Microsoft Entra ID (Azure AD) and manage the device using Microsoft Intune or equivalent mobile device management (MDM) solution. The following table describes configuration management options for Intune.
 
