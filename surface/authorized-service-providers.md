@@ -1,12 +1,12 @@
 ---
 title: Surface repair by Microsoft authorized service providers
-description: Discover how Microsoft ASPs offer Surface repairs using genuine parts and direct support, collaborating closely with Microsoft for quality service.
+description: Discover how Microsoft ASPs offer Surface repairs using genuine parts & direct support, collaborating closely with Microsoft for quality service.
 ms.service: surface
 ms.localizationpriority: medium
 author: coveminer
 ms.author: chauncel
 ms.topic: overview
-ms.date: 09/09/2024
+ms.date: 09/20/2024
 ms.reviewer: 
 manager: frankbu
 appliesto:
@@ -43,6 +43,7 @@ The growing ASP network consists of more than 160 locations.
 - [CompuCom](https://www.compucom.com/)
 - [Compugen](https://www.compugen.us/)
 - [Connection](https://www.connection.com/)
+- [Converge Technology Solutions](https://convergetp.com/digital-workplace/)
 - [Coreio](https://www.coreio.com/)
 - [DHE](https://www.dhecs.com/)
 - [DI Technology Group Inc](https://store.dataimpressions.com/)
@@ -55,7 +56,9 @@ The growing ASP network consists of more than 160 locations.
 - [MCPC](https://www.mcpc.com/)
 - [MicroK12](https://microk12.com/)
 - [Mobile ME IT](https://mobilemeit.com/)
-- [Pro Tech Computer Systems, Inc](https://www.protsys.com/)
+- [Netsync Network Solutions ](https://www.netsync.com/)
+- [New York Computer Help](https://www.newyorkcomputerhelp.com/)
+- [ProTech Computer Systems, Inc](https://www.protsys.com/)
 - [Sterling](https://sterling.com/)
 - [TD SYNNEX](https://www.synnexcorp.com/us/)
 - [Trafera](https://www.trafera.com/)
@@ -73,6 +76,10 @@ The growing ASP network consists of more than 160 locations.
 #### Belgium
 
 - [The Rent Company](https://rentcompany.be/)
+
+#### Denmark
+
+- [Atea A/S ](https://www.atea.dk/)
 
 #### France
 
@@ -144,3 +151,8 @@ The growing ASP network consists of more than 160 locations.
 #### South Korea
 
 - [Gownet Co., Ltd](https://surface.gownet.com/)
+
+#### Taiwan
+
+- [BYTE International](https://www.bestyield.com/)
+- [Hope Computers](https://asp.hope.tw/)
