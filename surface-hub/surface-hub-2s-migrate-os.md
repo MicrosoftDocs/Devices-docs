@@ -1,6 +1,6 @@
 ---
 title: Migrate to Windows 10/11 Pro or Enterprise on Surface Hub 2S
-description: Learn how to migrate Surface Hub 2S from Windows 10 Team to Windows 10/11 Pro or Enterprise
+description: Guide on migrating Surface Hub 2S to Windows 10/11 Pro or Enterprise, including detailed steps and resources
 ms.service: surface-hub
 author: coveminer
 ms.author: dpandre
@@ -22,7 +22,7 @@ appliesto:
 Surface Hub 2S is primarily designed to enhance collaboration in meeting-room settings. However, it can also be configured to run Windows 10/11 Pro or Enterprise, transforming it into a versatile PC. For guidance on migrating Surface Hub 3, refer to [Migrate to Windows 11 Pro or Enterprise on Surface Hub 3](surface-hub-3-migrate-os.md).
 
 > [!IMPORTANT]
-> The migration to Windows 10/11 on your Surface Hub 2S follows a detailed procedure outlined in this article. Please familiarize yourself with the [Solution components](#solution-components) and the [Migration and installation workflow](#migration-and-installation-workflow-summary) sections before proceeding.
+> The migration to Windows 10/11 on your Surface Hub 2S follows a detailed procedure outlined in this article. Please familiarize yourself with the [Solution components](#solution-components) and the [Migration & installation workflow](#migration--installation-workflow-summary) sections before proceeding.
 
 > [!NOTE]
 > Installing Windows 10/11 Pro or Enterprise on your Surface Hub 2S requires a new, separate license from the one originally provided with the device.
@@ -33,30 +33,29 @@ The Surface UEFI Configurator serves as a gateway to the Surface Enterprise Mana
 
 ## Solution components
 
-- Surface Hub 2S running Windows 10 Team
-- Separate PC running Windows 11 (or Windows 10)
-- Surface IT Toolkit
-- Surface UEFI Configurator tool to create the SEMM package
-- Windows 10/11 Pro or Enterprise OS image, version 20H2 or later
-- Two USB drives, each with at least 16 GB of storage and formatted in FAT32. One drive will be used exclusively for the SEMM package, and the other will store the Windows OS image along with the necessary drivers and firmware.
-- Windows Installer (MSI) file containing drivers and firmware for Windows 10/11 Pro and Enterprise on Surface Hub 2S 
-- Internet connection
-- Imaging solution (optional)
+- Surface Hub 2S running Windows 10 Team.
+- Separate PC running Windows 11 (or Windows 10).
+- Surface IT Toolkit.
+- Surface UEFI Configurator tool to create the SEMM package.
+- Windows 10/11 Pro or Enterprise OS image, version 20H2 or later.
+- Two USB drives, each with at least 16 GB of storage and formatted in FAT32. One drive is used exclusively for the SEMM package; the other stores the Windows OS image along with the necessary drivers and firmware.
+- Windows Installer (MSI) file containing drivers and firmware for Windows 10/11 Pro and Enterprise on Surface Hub 2S.
+- Internet connection.
+- Imaging solution (optional).
 
-## Migration and installation workflow summary
+## Migration & installation workflow summary
 
 | Step | Action | Summary |
 |------|--------|---------|
 | 1    | [Verify the UEFI version on Surface Hub 2S](#verify-the-uefi-version-on-surface-hub-2s) | Ensure that the UEFI version is *694.2938.768.0* or later. |
-| 2    | [Download Surface IT Toolkit & Surface Hub 2S drivers and firmware](#download-surface-it-toolkit-and-surface-hub-2s-drivers-and-firmware) | On a separate PC, download and install the [Surface IT Toolkit](https://www.microsoft.com/download/details.aspx?id=46703) and download [Drivers and Firmware for Windows 10/11 Pro and Enterprise OS on Surface Hub 2S and Surface Hub 3 MSI file](https://www.microsoft.com/download/details.aspx?id=101974). Save these packages for use in later steps. |
+| 2    | [Download Surface IT Toolkit and Surface Hub 2S drivers & firmware](#download-surface-it-toolkit-and-surface-hub-2s-drivers--firmware) | On a separate PC, download and install the [Surface IT Toolkit](https://www.microsoft.com/download/details.aspx?id=46703) and download [Drivers and Firmware for Windows 10/11 Pro and Enterprise OS on Surface Hub 2S and Surface Hub 3 MSI file](https://www.microsoft.com/download/details.aspx?id=101974). Save these packages for use in later steps. |
 | 3    | [Prepare the SEMM certificate](#prepare-the-semm-certificate) | Acquire or prepare the certificate necessary for the UEFI Configurator. |
 | 4    | [Create a SEMM package](#create-a-semm-package) | Use the first USB drive to create the SEMM package. This drive should contain only the SEMM package to ensure configuration integrity. |
 | 5    | [Load a USB flash drive with Windows 11 or Windows 10 image, the SEMM package, & drivers & firmware](#load-a-usb-flash-drive-with-a-windows-11-or-windows-10-image-semm-package-and-surface-hub-2s-drivers-and-firmware) | Prepare the second USB drive, named *BOOTME*, with a Windows 10 or Windows 11 image. After creating the Windows image, add the downloaded drivers and firmware (from Step 2) to this drive. |
 | 6    | [Update the UEFI on Surface Hub 2S to enable OS migration](#update-uefi-on-surface-hub-2s-to-enable-os-migration) | Use the *BOOTME* drive to boot the Surface Hub 2S into the UEFI menu and install the SEMM package. |
 | 7    | [Install Windows 10/11 Pro or Enterprise](#install-windows-1011-pro-or-enterprise) | Install Windows 10/11 Pro or Enterprise version *20H2* or later using the *BOOTME* drive. |
-| 8    | [Install drivers and firmware for Windows 10/11 Pro and Enterprise](#install-surface-hub-2s-drivers-and-firmware) | Install the latest drivers and firmware updates using the [Drivers and Firmware for Windows 10/11 Pro and Enterprise OS on Surface Hub 2S MSI file](https://www.microsoft.com/download/details.aspx?id=101974). |
+| 8    | [Install drivers and firmware for Windows 10/11 Pro and Enterprise](#install-surface-hub-2s-drivers--firmware) | Install the latest drivers and firmware updates using the [Drivers and Firmware for Windows 10/11 Pro and Enterprise OS on Surface Hub 2S MSI file](https://www.microsoft.com/download/details.aspx?id=101974). |
 | 9    | [Configure Surface Hub 2S as a personal productivity device](#configure-recommended-settings) | Optimize Surface Hub 2S with recommended settings and applications for personal productivity use. |
-
 
 ### Verify the UEFI version on Surface Hub 2S
 
@@ -68,7 +67,7 @@ Before migrating from Windows 10 Team to Windows 10/11 Desktop on your Surface H
 2. Select **Your Surface** to view details about the device, including the current UEFI version.
 
    - If the UEFI version is *694.2938.768.0* or later, proceed to create the SEMM package for OS migration.
-   - If the version is older, update the UEFI using one of the methods below.
+   - If the version is older, update the UEFI using one of the following methods.
 
 #### Update UEFI via Windows Update
 
@@ -83,13 +82,13 @@ Before migrating from Windows 10 Team to Windows 10/11 Desktop on your Surface H
 2. Follow the instructions to download and apply the BMR image using a formatted USB drive.
 3. After the update, the device will enter the out-of-box experience (OOBE). Power down the device immediately as the UEFI version will have been updated.
 
-### Download Surface IT Toolkit and Surface Hub 2S Drivers and Firmware
+### Download Surface IT Toolkit and Surface Hub 2S Drivers & Firmware
 
 On a separate PC, perform the following tasks:
 
 1. Download the [Surface IT Toolkit](https://www.microsoft.com/download/details.aspx?id=46703), which includes the [Surface UEFI Configurator](/surface/surface-it-toolkit-uefi-config).
 2. Follow the installation instructions in [Get started with Surface IT Toolkit](/surface/surface-it-toolkit#get-started-with-surface-it-toolkit).
-3. Download the [Surface Hub 2S drivers and firmware Windows Installer MSI file](https://www.microsoft.com/download/details.aspx?id=101974), **SurfaceHub2S_Win10_19045_24.043.31687.0.MSI**, to use during the new OS installation.
+3. Download the [Surface Hub 2S drivers & firmware Windows Installer MSI file](https://www.microsoft.com/download/details.aspx?id=101974), **SurfaceHub2S_Win10_19045_24.043.31687.0.MSI**, to use during the new OS installation.
 
 ### Prepare the SEMM certificate
 
@@ -99,8 +98,8 @@ Before using the UEFI Configurator for the first time, you need to prepare a cer
 - **Medium-sized businesses**: Consider obtaining certificates from trusted partner providers, especially if you lack dedicated IT security resources.
 - **Self-signed certificates**: For smaller setups, you can generate a self-signed certificate using PowerShell. For details, see the [Self-signed certificate guide](/dotnet/core/additional-tools/self-signed-certificates-guide#create-a-self-signed-certificate) and [Surface Enterprise Management Mode certificate requirements](/surface/surface-enterprise-management-mode#surface-enterprise-management-mode-certificate-requirements).
 
->[!WARNING]
->To unenroll a device from SEMM and restore user control of Surface UEFI settings, you must have the SEMM certificate used to enroll the device in SEMM. If this certificate becomes lost or corrupted, it is not possible to unenroll from SEMM. Back up and protect your SEMM certificate accordingly.
+> [!WARNING]
+> To unenroll a device from SEMM and restore user control of Surface UEFI settings, you must have the SEMM certificate used to enroll the device in SEMM. If this certificate becomes lost or corrupted, it is not possible to unenroll from SEMM. Back up and protect your SEMM certificate accordingly.
 
 ### Create a SEMM package
 
@@ -138,7 +137,6 @@ To install a Windows 10/11 Pro or Enterprise image (version *20H2* or later), co
 - **Existing imaging solutions**: Use your organization's current imaging solution.
 - **Surface Deployment Accelerator**: Utilize this tool to create a comprehensive bootable image that includes the latest updates for Windows 10/11, Microsoft Office, other applications, and necessary drivers and firmware. Learn more and download from the [Surface Deployment Accelerator page](/surface/microsoft-surface-deployment-accelerator).
 - **USB flash drive**: Manually create a bootable USB drive with a Windows 10/11 Pro or Enterprise image. Note, Wi-Fi connectivity will be unavailable until post-OOBE setup. After setup, download and install the [Surface Hub 2S drivers and firmware for Windows 10/11 Pro and Enterprise](https://www.microsoft.com/download/details.aspx?id=101974).
-
 
 #### Prepare your USB drive
 
@@ -202,7 +200,6 @@ To update the UEFI for OS migration on your Surface Hub 2S, follow these steps:
 
 ### Install Windows 10/11 Pro or Enterprise
 
-
 1. **Prepare for installation**:
    - If not already done, insert the bootable Windows 10/11 Pro or Enterprise USB drive into the USB-A port of the Surface Hub 2S and press the power button to turn on the device.
    - You should see a white logo followed by a spinning circle indicating the boot process.
@@ -214,9 +211,9 @@ To update the UEFI for OS migration on your Surface Hub 2S, follow these steps:
 3. **Complete Windows setup**:
    - Follow the on-screen instructions during the out-of-box experience (OOBE) to install Windows 10/11 Pro or Enterprise (version *20H2* or later).
 
-### Install Surface Hub 2S drivers and firmware
+### Install Surface Hub 2S drivers & firmware
 
-- After installing Windows, ensure the device is up-to-date by installing the [drivers and firmware for Windows 10/11 Pro and Enterprise](https://www.microsoft.com/download/details.aspx?id=101974).
+- After installing Windows, ensure the device is up-to-date by installing the [drivers & firmware for Windows 10/11 Pro and Enterprise](https://www.microsoft.com/download/details.aspx?id=101974).
 - Reboot the device, keep it on for an hour, then reboot again without prompt. This ensures the firmware is fully updated.
 
 ### Configure recommended settings
@@ -225,18 +222,18 @@ To update the UEFI for OS migration on your Surface Hub 2S, follow these steps:
 
 ### Manage SEMM enrollment
 
-#### General guidance:
+#### General guidance
 
 - Enrolling in SEMM locks all UEFI settings. To modify UEFI settings post-migration, either apply another SEMM package using the original certificate, or unenroll from SEMM.
 
-#### Partner involvement:
+#### Partner involvement
 
 - If outsourcing migration, ensure the transfer of the SEMM certificate, SEMM package, and UEFI password for management continuity.
 - To enable local UEFI administration after migration, consider unenrolling the device from SEMM immediately.
 
-#### Rolling back to Windows 10 Team:
+#### Rolling back to Windows 10 Team
 
-- If you choose to restore your device to Windows 10 Team, see [Reset and recovery for Surface Hub 2S](surface-hub-recover-reset.md). 
+- If you choose to restore your device to Windows 10 Team, see [Reset and recovery for Surface Hub 2S](surface-hub-recover-reset.md).
 - Before you roll back to Windows 10 Team, we recommend that you first unenroll the Surface Hub from SEMM. To learn more, see [Unenroll Surface devices from SEMM](/surface/unenroll-surface-devices-from-semm).
 
 > [!WARNING]
@@ -266,7 +263,7 @@ The following table summarizes changes to this article.
 | v. 1.7  | September 19, 2023| Updated with info about the Surface IT Toolkit, which now includes the Surface UEFI Configurator tool. |
 | v. 1.6  | January 16, 2023  | Added a new section for troubleshooting and common problems. |
 | v. 1.5  | December 1, 2021  | Updated to show support for Windows 11. |
-| v. 1.4  | December 14, 2020 | Provides [further info](#install-surface-hub-2s-drivers-and-firmware) about installing the MSI file for "Drivers and firmware for Windows 10 Pro and Enterprise OS on Surface Hub 2S," advising that a second reboot may be necessary depending on the state of your system.                                                          |
+| v. 1.4  | December 14, 2020 | Provides [further info](#install-surface-hub-2s-drivers--firmware) about installing the MSI file for "Drivers and firmware for Windows 10 Pro and Enterprise OS on Surface Hub 2S," advising that a second reboot may be necessary depending on the state of your system.                                                          |
 | v. 1.3  | December 3, 2020 | Updated with guidance about [managing SEMM enrollment.](#manage-semm-enrollment).                                                       |
 | v. 1.2  | September 29, 2020 | Miscellaneous updates that address usability. feedback.                                                        |
 | v. 1.1  | September 15, 2020 | Placed a note in the introduction that clarifies licensing requirements for installing a new OS. |
