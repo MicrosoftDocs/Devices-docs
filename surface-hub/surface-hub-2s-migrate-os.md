@@ -38,7 +38,7 @@ The Surface UEFI Configurator serves as a gateway to the Surface Enterprise Mana
 - Surface IT Toolkit
 - Surface UEFI Configurator tool to create the SEMM package
 - Windows 10/11 Pro or Enterprise OS image, version 20H2 or later
-- Two USB drives with 16 GB of storage, FAT32 format
+- One USB drive with at least 16 GB of storage, FAT32 format
 - Windows Installer (MSI) file containing drivers and firmware for Windows 10/11 Pro and Enterprise on Surface Hub 2S 
 - Internet connection
 - Imaging solution (optional)
@@ -48,10 +48,10 @@ The Surface UEFI Configurator serves as a gateway to the Surface Enterprise Mana
 | Step | Action | Summary |
 |------|--------|---------|
 | 1    | [Verify the UEFI version on Surface Hub 2S](#verify-the-uefi-version-on-surface-hub-2s) | Ensure that the UEFI version is *694.2938.768.0* or later. |
-| 2    | [Install Surface IT Toolkit and Surface Hub 2S drivers and firmware](#download-surface-it-toolkit-and-surface-hub-2s-drivers-and-firmware) | On a separate PC, download and install the [Surface IT Toolkit](https://www.microsoft.com/download/details.aspx?id=46703) and [Drivers and Firmware for Windows 10/11 Pro and Enterprise OS on Surface Hub 2S and Surface Hub 3 MSI file](https://www.microsoft.com/download/details.aspx?id=101974). Save these packages for use in later steps. |
+| 2    | [Download Surface IT Toolkit & Surface Hub 2S drivers and firmware](#download-surface-it-toolkit-and-surface-hub-2s-drivers-and-firmware) | On a separate PC, download and install the [Surface IT Toolkit](https://www.microsoft.com/download/details.aspx?id=46703) and download [Drivers and Firmware for Windows 10/11 Pro and Enterprise OS on Surface Hub 2S and Surface Hub 3 MSI file](https://www.microsoft.com/download/details.aspx?id=101974). Save these packages for use in later steps. |
 | 3    | [Prepare the SEMM certificate](#prepare-the-semm-certificate) | Acquire or prepare the certificate necessary for the UEFI Configurator. |
 | 4    | [Create a SEMM package](#create-a-semm-package) | Use the Surface IT Toolkit and the Surface UEFI Configurator to create a SEMM package on a USB drive. This package contains the configuration file needed for the Surface Hub 2S. |
-| 5    | [Load a USB flash drive with Windows 11 or Windows 10 image, the SEMM package, and drivers and firmware](#load-a-usb-flash-drive-with-a-windows-11-or-windows-10-image-semm-package-and-surface-hub-2s-drivers-and-firmware) | Prepare a USB drive, named *BOOTME*, with a Windows 10 or Windows 11 image. Add the downloaded drivers and firmware (from Step 2) and the SEMM package (from Step 4) to this drive. |
+| 5    | [Load a USB flash drive with Windows 11 or Windows 10 image, the SEMM package, & drivers & firmware](#load-a-usb-flash-drive-with-a-windows-11-or-windows-10-image-semm-package-and-surface-hub-2s-drivers-and-firmware) | Prepare a single USB drive, named *BOOTME*, with a Windows 10 or Windows 11 image. Add the downloaded drivers and firmware (from Step 2) and the SEMM package (from Step 4) to this drive. Note: The SEMM package will wipe the drive during its creation, so it is crucial to add it to the USB drive after creating the Windows image. |
 | 6    | [Update the UEFI on Surface Hub 2S to enable OS migration](#update-uefi-on-surface-hub-2s-to-enable-os-migration) | Use the *BOOTME* drive to boot the Surface Hub 2S into the UEFI menu and install the SEMM package. |
 | 7    | [Install Windows 10/11 Pro or Enterprise](#install-windows-1011-pro-or-enterprise) | Install Windows 10/11 Pro or Enterprise version *20H2* or later using the *BOOTME* drive. |
 | 8    | [Install drivers and firmware for Windows 10/11 Pro and Enterprise](#install-surface-hub-2s-drivers-and-firmware) | Install the latest drivers and firmware updates using the [Drivers and Firmware for Windows 10/11 Pro and Enterprise OS on Surface Hub 2S MSI file](https://www.microsoft.com/download/details.aspx?id=101974). |
