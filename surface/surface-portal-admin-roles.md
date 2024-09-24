@@ -21,7 +21,9 @@ Microsoft provides a range of built-in administrator roles designed for managing
 
 ## Before you begin
 
-Before starting the setup, you must assign at least one administrative role to manage the portals effectively.
+Before starting the setup, you must assign at least one administrative role to manage the portals effectively. 
+
+For a complete reference of all available Microsoft Entra roles, including Template IDs, see [Microsoft Entra built-in roles](/entra/identity/role-based-access-control/permissions-reference). Template IDs enable precise role assignment by uniquely identifying each set of permissions and configurations associated with Microsoft Entra built-in roles, streamlining management across various systems and ensuring consistent access controls.
 
 ### Recommended role: Microsoft Hardware Warranty Administrator
 
