@@ -29,7 +29,7 @@ Optionally, connect any peripherals such as a keyboard or mouse.
 
 ## Prerequisites
 
-Before you start Surface Hub running Microsoft Teams Rooms on Windows (MTR-W)for the first time, ensure that you have the following items:
+Before you start Surface Hub running Microsoft Teams Rooms on Windows for the first time, ensure that you have the following items:
 
 - A resource account with a [supported Microsoft Teams Rooms license](/microsoftteams/rooms/rooms-licensing). We recommend use of the Teams Rooms Pro license.
 - The ability to sign in with a resource account using your credentials or a one-time passcode, as configured in the [Microsoft Teams Rooms Pro Management portal](/microsoftteams/rooms/managed-meeting-rooms-portal).

@@ -18,7 +18,7 @@ appliesto:
 
 [!INCLUDE [Hub MTR Scope](includes/hub-mtr-scope.md)]
 
-**When did Surface Hub 3 start shipping with the Microsoft Teams Rooms on Windows (MTR-W) experience?**
+**When did Surface Hub 3 start shipping with the Microsoft Teams Rooms on Windows experience?**
 
 - Surface Hub 3 started shipping December 5, 2023.
 
