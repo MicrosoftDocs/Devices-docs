@@ -1,18 +1,18 @@
 ---
-title: "Migrate to Windows 11 Pro or Enterprise on Surface Hub running Microsoft Teams Rooms on Windows"
+title: "Migrate to Windows 11 Pro or Enterprise on Surface Hub 3"
 description: Learn how to migrate Surface Hub 3 to Windows 11 Pro or Enterprise, including downloading the OS, creating a bootable USB, and installing necessary drivers and firmware.
 ms.service: surface-hub
 author: coveminer
 ms.author: dpandre
 manager: frankbu
 ms.topic: how-to
-ms.date: 12/04/2023
+ms.date: 09/25/2024
 ms.localizationpriority: Medium
+appliesto:
+- Surface Hub 3
 ---
 
-# Migrate to Windows 11 Pro or Enterprise on Surface Hub running Microsoft Teams Rooms on Windows
-
-[!INCLUDE [Hub MTR Scope](includes/hub-mtr-scope.md)]
+# Migrate to Windows 11 Pro or Enterprise on Surface Hub 3
 
 This article describes how to convert the operating system to Windows 11 Pro or Enterprise and use Surface Hub 3 much like any other PC.
 
@@ -20,7 +20,7 @@ This article describes how to convert the operating system to Windows 11 Pro or 
 
 1. Obtain a Windows 11 Pro or Enterprise license as explained in [Windows commercial licensing overview](/windows/whats-new/windows-licensing).
 2. On your Surface Hub 3, back up your data using an external hard drive, cloud storage, or other preferred backup method.
-3. On a separate PC, insert a USB drive with at least 8 GB of storage.
+3. On a separate PC, insert a USB drive with at least 8 GB of available storage.
 
 ## Download Windows 11 and create a bootable USB drive
 
@@ -34,4 +34,4 @@ This article describes how to convert the operating system to Windows 11 Pro or 
 
 ## Install Surface Hub 3 drivers and firmware
 
-To ensure that your Surface Hub 3's hardware is fully usable and up-to-date, download and install [drivers and firmware for Windows 11 Pro and Enterprise on Surface Hub 2S and Surface Hub 3](https://www.microsoft.com/download/details.aspx?id=101974). Then, reboot the device. Keep the Surface turned on for an hour, then reboot it again. You aren't prompted for the second reboot. This pause and extra reboot ensures that the firmware is fully updated.
+To ensure that your Surface Hub 3's hardware is fully usable and up-to-date, download and install [drivers and firmware for Windows 11 Pro and Enterprise on Surface Hub 2S and Surface Hub 3](https://www.microsoft.com/download/details.aspx?id=101974). Then, reboot the device. Keep Surface Hub 3 turned on for an hour, then reboot it again. You aren't prompted for the second reboot. This pause and extra reboot ensures that the firmware is fully updated.
