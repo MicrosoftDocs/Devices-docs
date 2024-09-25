@@ -8,6 +8,9 @@ manager: frankbu
 ms.topic: how-to
 ms.date: 12/04/2023
 ms.localizationpriority: Medium
+appliesto:
+- Surface Hub 3
+
 ---
 
 # Migrate to Windows 11 Pro or Enterprise on Surface Hub 3
