@@ -1,6 +1,6 @@
 ---
 title:  Customer self-serve repair for Surface devices
-description: This article explains how you can self-serve repair Surface devices.
+description: Perform self-serve repairs on eligible Surface devices with tools & guides from Microsoft & iFixit. No certification required. Learn more here.
 ms.service: surface
 ms.localizationpriority: medium
 author: coveminer
@@ -16,7 +16,7 @@ appliesto:
 
 # Customer self-serve repair for Surface devices
 
-Technically inclined individuals with the knowledge, skills, and required tools can perform self-serve repairs<sup>1</sup> on eligible Surface devices by following the applicable [Surface Service Guide](https://www.microsoft.com/download/100440) or [article](https://support.microsoft.com/surface/replace-the-feet-on-surface-devices-791bcf1d-db4a-4807-816e-06d30072383d).
+Technically inclined individuals with the knowledge, skills, and required tools can perform self-serve repairs<sup>1</sup> on eligible Surface devices by following the applicable [Surface Service Guide](https://www.microsoft.com/download/100440).
 
 Self-repair replacement components are available for purchase through [device resellers](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface#DEVICESRESELLERS). There are no certifications required to repair or service a Surface device. 
 

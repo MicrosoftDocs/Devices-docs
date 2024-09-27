@@ -57,7 +57,7 @@ The growing ASP network consists of more than 160 locations.
 - [MicroK12](https://microk12.com/)
 - [Mobile ME IT](https://mobilemeit.com/)
 - [Netsync Network Solutions ](https://www.netsync.com/)
-- [New York Computer Help](https://www.newyorkcomputerhelp.com/)
+- [New York Computer Help](https://www.newyorkcomputerhelp.com/microsoft-surface-repair-provider-in-new-york/)
 - [ProTech Computer Systems, Inc](https://www.protsys.com/)
 - [Sterling](https://sterling.com/)
 - [TD SYNNEX](https://www.synnexcorp.com/us/)
