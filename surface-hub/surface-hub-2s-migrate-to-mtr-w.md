@@ -11,7 +11,6 @@ ms.date: 08/14/2024
 ms.localizationpriority: medium
 appliesto:
 - Surface Hub 2S
-
 ---
 
 # Migrate Surface Hub 2S to Microsoft Teams Rooms on Windows
@@ -24,6 +23,7 @@ Begin the migration process via the downloadable **Surface Hub 2S OS Migration L
 
 > [!NOTE]
 > The Migration Launcher app is available exclusively to facilitate migration of Surface Hub 2S devices from the Windows 10 Team edition operating system to the Microsoft Teams Rooms on Windows experience. The presence of this app triggers the migration process under specific [prerequisite conditions](#prerequisites) and the app itself has no functionality or user interface.
+
 > [!TIP]
 > Customers can take advantage of streamlined remotely driven deployment after migrating their Surface Hub 2S devices to the Microsoft Teams on Windows platform. As announced at [Enterprise Connect 2024](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/surface-hub-support-coming-for-windows-autopilot/ba-p/3977848), support for Windows Autopilot and Auto-login of Teams Rooms on Windows is now broadly available in Public Preview. Learn more in [Deploy Surface Hub with Windows Autopilot & Auto-login of Teams Rooms](surface-hub-autopilot.md).
 
@@ -52,11 +52,11 @@ Use of the Migration Launcher app on Surface Hub 2S involves significant changes
 - Ensure the network you're using doesn't have any other firewalls, blockages, or limitations that would otherwise prevent the download and installation of software onto the Surface Hub 2S devices you intend to migrate.
 - Confirm IT allows network access to required sites: ***.devices.microsoft.com** and **download.microsoft.com**. On a separate PC, open a command prompt and enter the following commands:
 
-    ```bash
+    ```cmd
     ping devices.microsoft.com
     ```
 
-    ```bash
+    ```cmd
     ping download.microsoft.com
     ```
 
@@ -149,7 +149,7 @@ Choose one of the following options:
 
 4. Enter the following command to download the Migration Launcher app:
 
-    ```bash
+    ```powershell
     winget download 9P81T95QGN1P --platform windows.universal -a x64 --skip-license
     ```
 
