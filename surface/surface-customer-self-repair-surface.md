@@ -18,9 +18,9 @@ appliesto:
 
 Technically inclined individuals with the knowledge, skills, and required tools can perform self-serve repairs<sup>1</sup> on eligible Surface devices by following the applicable [Surface Service Guide](https://www.microsoft.com/download/100440).
 
-Self-repair replacement components are available for purchase through [device resellers](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface#DEVICESRESELLERS). There are no certifications required to repair or service a Surface device. 
+Self-repair replacement components are available for purchase through [device resellers](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface#DEVICESRESELLERS). There are no certifications required to repair or service a Surface device.
 
-Microsoft is partnering with [ifixit.com](https://www.ifixit.com/Tools/Toolkits) to offer complete tool kits to repair electronics. Use iFixit's everyday precision tool kit or essential electronics tool kit to repair your computers, tablets, game consoles, and or other electronic gadgets.
+Microsoft is partnering with [ifixit.com](https://www.ifixit.com/Tools/Toolkits) to offer complete tool kits to repair electronics. Use iFixit's everyday precision tool kit or essential electronics tool kit to repair your computers, tablets, game consoles, and other electronic gadgets.
 
 > [!TIP]
 > Before proceeding with a service request, download the [Surface Diagnostic Toolkit](https://support.microsoft.com/surface/fix-common-surface-problems-using-the-surface-app-and-surface-diagnostic-toolkit-f61d8d18-37a9-863d-f8d0-1982eb16f7b5) for automated hardware tests on components, including the power supply, battery, display, and sound.
@@ -52,18 +52,14 @@ In this scenario, a customer must replace a broken display on their Surface Lapt
 > [!NOTE]
 > Part availability may vary by country/region and is subject to change due to supply chain constraints, customer demand, and related issues.
 
-> [!CAUTION]
+> [!IMPORTANT]
 > Repairing your device with a replacement component doesn't affect Microsoft's Limited Warranty; however, any damage to the device resulting from a repair performed by someone other than Microsoft or an Authorized Service Provider won't be covered under Microsoft's warranty or protection plans.
-
 
 ## Learn more
 
 - [Surface Service Guides](https://www.microsoft.com/download/100440)
 - [Replace the feet on Surface devices](https://support.microsoft.com/surface/replace-the-feet-on-surface-devices-791bcf1d-db4a-4807-816e-06d30072383d)
 
-
 ## References
 
 1. Customer self-repair is only available on Microsoft devices with a removable component per the product’s technical specifications. Microsoft recommends that self-repair is performed by technically inclined individuals with the knowledge, experience and required tools while following the applicable [Surface Service Guide](https://www.microsoft.com/download/100440)  or [article](https://support.microsoft.com/surface/replace-the-feet-on-surface-devices-791bcf1d-db4a-4807-816e-06d30072383d) .
-
-
