@@ -174,11 +174,9 @@ Choose one of the following options:
 
    :::image type="content" alt-text="Screenshot of Select line of business app." source="images/hub2s-migration-select-lob-app.png":::
 
-2. Configure app information on the **Add App** page. Under the App information section, choose **Select app package file**. In the flyout pane, select the blue folder icon under the App package file and navigate to select and upload your LOB app package, in this case, the Surface Hub 2S OS Migration Launcher – Microsoft Teams Rooms MSIXBUNDLE file downloaded in the earlier section: 
+2. Configure app information on the **Add App** page. Under the App information section, choose **Select app package file**. In the flyout pane, select the blue folder icon under the App package file and navigate to select and upload your LOB app package, in this case, the Surface Hub 2S OS Migration Launcher – Microsoft Teams Rooms MSIXBUNDLE file downloaded in the earlier section: *Microsoft.SurfaceHUBMTROSTriggerApp_1.48.137.0_neutral_~_8wekyb3d8bbwe.msixbundle*. 
 
--*Microsoft.SurfaceHUBMTROSTriggerApp_1.48.137.0_neutral_~_8wekyb3d8bbwe.msixbundle* 
-
-1. Select **Dependency app files** and choose the blue folder icon to select and upload all three dependencies, located in the Dependencies folder that was downloaded via WinGet. The inventory of required files displays a green check box to indicate that you have all the required files uploaded.
+3. Select **Dependency app files** and choose the blue folder icon to select and upload all dependencies, located in the Dependencies folder that was downloaded via WinGet. The inventory of required files displays a green check box to indicate that you have all the required files uploaded.
 
    :::image type="content" alt-text="Screenshot that shows selection of dependency files." source="images/hub2s-migration-select-dependencies.png":::
 
