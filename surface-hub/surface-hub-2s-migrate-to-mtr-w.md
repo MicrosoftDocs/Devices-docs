@@ -244,7 +244,10 @@ If you've previously registered a Surface Hub 2S in Intune before transitioning 
 2. **Navigate to Devices**: Use the left-hand navigation pane and select the **Devices** tab.
 3. **Locate All Devices**: Within the **Overview** section, select **All devices** to view the entire list of managed devices.
 4. **Identify and select the stale device object**: Look for the device object that needs removal. You can identify the stale entry based on your established device naming conventions. Typically, the stale record displays an OS build number of 19045, indicative of the Windows 10 Team edition, as opposed to the updated OS build number 22621, which signifies the Windows 11 IoT Enterprise version 22H2, post-migration.
-    - **Note**: Pay close attention to the OS build numbers to accurately distinguish between pre-migration and post-migration device records.
+
+   > [!NOTE]
+   > Pay close attention to the OS build numbers to accurately distinguish between pre-migration and post-migration device records.
+
 5. **Delete the stale record**: On the selected device object’s page, navigate to the top menu and select **Delete** to remove the stale device record from Intune.
 
 ## Post-migration configuration
