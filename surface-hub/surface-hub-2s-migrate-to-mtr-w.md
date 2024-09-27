@@ -47,7 +47,7 @@ Use of the Migration Launcher app on Surface Hub 2S involves significant changes
 - Repeat the update retrieval process until you install all the available updates.
 - Once updated, confirm that the UEFI version is **699.845.768.0** or later.
 - If you're unable to check for Windows updates locally (for example, in remote admin scenarios), you can verify the OS version via Microsoft Intune admin center or other mobile device management (MDM) solutions.
-- You can also check by validating that Windows 10 [OS Build 19045.4123](https://support.microsoft.com/help/5034843) or later is present on the system.
+- You can also check by validating that Windows 10 [*OS Build 19045.4123*](https://support.microsoft.com/help/5034843) or later is present on the system.
 - Validate that your network can handle a **30 GB download**.
 - Ensure the network you're using doesn't have any other firewalls, blockages, or limitations that would otherwise prevent the download and installation of software onto the Surface Hub 2S devices you intend to migrate.
 - Confirm IT allows network access to required sites: ***.devices.microsoft.com** and **download.microsoft.com**. On a separate PC, open a command prompt and enter the following commands:
@@ -174,8 +174,11 @@ Choose one of the following options:
 
    :::image type="content" alt-text="Screenshot of Select line of business app." source="images/hub2s-migration-select-lob-app.png":::
 
-2. Configure app information on the **Add App** page. Under the App information section, choose **Select app package file**. In the flyout pane, select the blue folder icon under the App package file and navigate to select and upload your LOB app package, in this case, the Surface Hub 2S OS Migration Launcher – Microsoft Teams Rooms MSIXBUNDLE file downloaded in the earlier section.  
-3. Select **Dependency app files** and choose the blue folder icon to select and upload all three dependencies, located in the Dependencies folder that was downloaded via WinGet. The inventory of required files displays a green check box to indicate that you have all the required files uploaded.
+2. Configure app information on the **Add App** page. Under the App information section, choose **Select app package file**. In the flyout pane, select the blue folder icon under the App package file and navigate to select and upload your LOB app package, in this case, the Surface Hub 2S OS Migration Launcher – Microsoft Teams Rooms MSIXBUNDLE file downloaded in the earlier section: 
+
+-*Microsoft.SurfaceHUBMTROSTriggerApp_1.48.137.0_neutral_~_8wekyb3d8bbwe.msixbundle* 
+
+1. Select **Dependency app files** and choose the blue folder icon to select and upload all three dependencies, located in the Dependencies folder that was downloaded via WinGet. The inventory of required files displays a green check box to indicate that you have all the required files uploaded.
 
    :::image type="content" alt-text="Screenshot that shows selection of dependency files." source="images/hub2s-migration-select-dependencies.png":::
 
@@ -213,7 +216,7 @@ This might take a few minutes, depending on network connectivity or other factor
   > [!NOTE]
   > Several factors contribute to how long it takes for the app to finish deployment and installation on the target devices, including device power/sleep state, sync cadence/status with Intune, and related factors. Continue to monitor Intune status for indications of successful app deployment.
 
-- Once the app is deployed, the next restart initiates migration, which - in this remote deployment scenario - is likely to be the automatic restart as part of the nightly maintenance window. Similar to the manual app deployment scenario, the migration process typically takes about 90 minutes after this restart (but many factors can impact migration time, as explained earlier, with a test example exceeding 5 hours on a slower network). Customers must test and validate sequences relative to their unique infrastructure and management approaches.
+- Once the app is deployed, the next restart initiates migration, which - in this remote deployment scenario - is likely to be the automatic restart as part of the nightly maintenance window. Similar to the manual app deployment scenario, the migration process typically takes about 90 minutes after this restart (but many factors can impact migration time, as explained earlier, with a test example exceeding 5 hours on a slower network). Customers should test and validate sequences based on their unique infrastructure and management approaches.
 - When migration is complete, the device displays the Windows first-time setup program, also known as Out of the Box Experience (OOBE). To learn more, see [First-time setup for Surface Hub running Microsoft Teams Rooms on Windows](first-run-program-surface-hub-3.md).
 
 > [!TIP]
@@ -273,7 +276,7 @@ Review the following articles for recommended next steps:
 
 #### Monitoring Surface Hub migration events
 
-When overseeing the migration process on Surface Hub 2S, pay attention to specific events logged by the **SurfaceHubMonitor** source. Event IDs 6-11 indicate different stages and potential failures in the migration process.
+When overseeing the migration process on Surface Hub 2S, pay attention to specific events logged by the *SurfaceHubMonitor* source. Event IDs 6-11 indicate different stages and potential failures in the migration process.
 
 #### Key Event IDs
 
@@ -292,7 +295,7 @@ If you encountered a WinPE invalid path error (directing you to this page) durin
 
 ## Best practices for a smooth migration
 
-**Avoid Frequent Reboots:** It's important not to reboot the system unnecessarily during the migration process. Frequent reboots can restart the download process, extending the duration of the migration and potentially leading to repeated "nothing seems to be happening" scenarios. By monitoring these specific events, you can effectively track and troubleshoot the migration process of your Surface Hub 2S.
+**Avoid Frequent Reboots:** It's important not to reboot the system unnecessarily during the migration process. Frequent reboots can restart the download process, extending the migration duration and causing it to seem like "nothing is happening." By monitoring these specific events, you can effectively track and troubleshoot the migration process of your Surface Hub 2S.
 
 ### Remote deployment via Intune
 
