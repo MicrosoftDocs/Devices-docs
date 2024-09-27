@@ -90,7 +90,7 @@ Choose one of the following options:
 
 2. Search for **Surface Hub 2S OS Migration Launcher – Microsoft Teams Rooms** and select **Get**.
 
-   ![Screenshot of Surface Hub 2S OS Migration Launcher.](images/surface-hub2s-migration-app-download.png)
+   :::image type="content" alt-text="Screenshot of Surface Hub 2S OS Migration Launcher." source="images/surface-hub2s-migration-app-download.png" lightbox="images/surface-hub2s-migration-app-download.png":::
 
 3. To validate successful installation, select **All apps** and look for **Surface Hub 2S OS Migration Launcher**.
 
@@ -155,7 +155,7 @@ Choose one of the following options:
 
 5. Agree to the terms, as shown in the following figure.
 
-    :::image type="content" alt-text="Screenshot that shows description of Migration Launcher app." source="images/download-surface-hub-migration-launcher.png":::
+    :::image type="content" alt-text="Screenshot that shows description of Migration Launcher app." source="images/download-surface-hub-migration-launcher.png" lightbox="images/download-surface-hub-migration-launcher.png":::
 
 6. View the downloaded files in a newly created subdirectory your Downloads folder:
 
@@ -194,7 +194,7 @@ You can make the app available for enrolled devices or assign it as required.
 1. Under **Required** > **Group mode**, select **Add group** and add your intended Device group.
 2. Under **Required Group mode** > **Install Context**, select **User context** link, and in the flyout pane, change the App settings toggle to ensure **Device context** is selected and then select **OK**.
 
-   :::image type="content" alt-text="Screenshot that shows selection of device context." source="images/hub2s-migration-select-device-context.png":::
+   :::image type="content" alt-text="Screenshot that shows selection of device context." source="images/hub2s-migration-select-device-context.png" lightbox="images/hub2s-migration-select-device-context.png":::
 
 3. Select **Next**.
 
@@ -202,7 +202,7 @@ You can make the app available for enrolled devices or assign it as required.
 
 - Under **Review + create**, review all settings and configurations. Select **Create** to deploy the app.
 
-  :::image type="content" alt-text="Screenshot that shows creation of app." source="images/hub2s-migration-intune-app.png":::
+  :::image type="content" alt-text="Screenshot that shows creation of app." source="images/hub2s-migration-intune-app.png" lightbox="images/hub2s-migration-intune-app.png":::
 
 This might take a few minutes, depending on network connectivity or other factors. You can check the upload status under the Notifications tray.
 
