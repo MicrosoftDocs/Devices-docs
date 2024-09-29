@@ -93,7 +93,7 @@ System Model and System SKU are variables stored in System Management BIOS (SMBI
 | Surface Pro with 5G, 11th Edition, Consumer (outside of Japan) | Microsoft Surface Pro with 5G, 11th Edition  | Surface_Pro_with_5G_11th_Edition_2077|
 | Surface Pro with 5G, 11th Edition, Consumer (Japan) | Microsoft Surface Pro with 5G, 11th Edition  | Surface_Pro_with_5G_11th_Edition_2078|
 | Surface Pro with 5G, 11th Edition, Commercial (outside of Japan) | Microsoft Surface Pro with 5G, 11th Edition  | Surface_Pro_with_5G_11th_Edition_For_Business_2077|
-| Surface Pro with 5G, 11th Edition, Commercial (Japan) | Microsoft Surface Pro with 5G, 11th Edition  | Surface_Pro_with_5G_11th_Edition_2078|
+| Surface Pro with 5G, 11th Edition, Commercial (Japan) | Microsoft Surface Pro with 5G, 11th Edition  | Surface_Pro_with_5G_11th_Edition_For_Business_2078|
 | Surface Studio                                               | Surface Studio   | Surface_Studio   |
 | Surface Studio 2                                             | Surface Studio 2 | Surface_Studio_2_1707_Commercial   |
 | Surface Studio 2+                                            | Surface Studio 2+ | Surface_Studio_2+_2028  |
