@@ -11,7 +11,6 @@ ms.date: 08/14/2024
 ms.localizationpriority: medium
 appliesto:
 - Surface Hub 2S
-
 ---
 
 # Migrate Surface Hub 2S to Microsoft Teams Rooms on Windows
@@ -24,6 +23,7 @@ Begin the migration process via the downloadable **Surface Hub 2S OS Migration L
 
 > [!NOTE]
 > The Migration Launcher app is available exclusively to facilitate migration of Surface Hub 2S devices from the Windows 10 Team edition operating system to the Microsoft Teams Rooms on Windows experience. The presence of this app triggers the migration process under specific [prerequisite conditions](#prerequisites) and the app itself has no functionality or user interface.
+
 > [!TIP]
 > Customers can take advantage of streamlined remotely driven deployment after migrating their Surface Hub 2S devices to the Microsoft Teams on Windows platform. As announced at [Enterprise Connect 2024](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/surface-hub-support-coming-for-windows-autopilot/ba-p/3977848), support for Windows Autopilot and Auto-login of Teams Rooms on Windows is now broadly available in Public Preview. Learn more in [Deploy Surface Hub with Windows Autopilot & Auto-login of Teams Rooms](surface-hub-autopilot.md).
 
@@ -52,11 +52,11 @@ Use of the Migration Launcher app on Surface Hub 2S involves significant changes
 - Ensure the network you're using doesn't have any other firewalls, blockages, or limitations that would otherwise prevent the download and installation of software onto the Surface Hub 2S devices you intend to migrate.
 - Confirm IT allows network access to required sites: ***.devices.microsoft.com** and **download.microsoft.com**. On a separate PC, open a command prompt and enter the following commands:
 
-    ```bash
+    ```cmd
     ping devices.microsoft.com
     ```
 
-    ```bash
+    ```cmd
     ping download.microsoft.com
     ```
 
@@ -90,7 +90,7 @@ Choose one of the following options:
 
 2. Search for **Surface Hub 2S OS Migration Launcher – Microsoft Teams Rooms** and select **Get**.
 
-   ![Screenshot of Surface Hub 2S OS Migration Launcher.](images/surface-hub2s-migration-app-download.png)
+   :::image type="content" alt-text="Screenshot of Surface Hub 2S OS Migration Launcher." source="images/surface-hub2s-migration-app-download.png" lightbox="images/surface-hub2s-migration-app-download.png":::
 
 3. To validate successful installation, select **All apps** and look for **Surface Hub 2S OS Migration Launcher**.
 
@@ -149,13 +149,13 @@ Choose one of the following options:
 
 4. Enter the following command to download the Migration Launcher app:
 
-    ```bash
+    ```powershell
     winget download 9P81T95QGN1P --platform windows.universal -a x64 --skip-license
     ```
 
 5. Agree to the terms, as shown in the following figure.
 
-    :::image type="content" alt-text="Screenshot that shows description of Migration Launcher app." source="images/download-surface-hub-migration-launcher.png":::
+    :::image type="content" alt-text="Screenshot that shows description of Migration Launcher app." source="images/download-surface-hub-migration-launcher.png" lightbox="images/download-surface-hub-migration-launcher.png":::
 
 6. View the downloaded files in a newly created subdirectory your Downloads folder:
 
@@ -194,7 +194,7 @@ You can make the app available for enrolled devices or assign it as required.
 1. Under **Required** > **Group mode**, select **Add group** and add your intended Device group.
 2. Under **Required Group mode** > **Install Context**, select **User context** link, and in the flyout pane, change the App settings toggle to ensure **Device context** is selected and then select **OK**.
 
-   :::image type="content" alt-text="Screenshot that shows selection of device context." source="images/hub2s-migration-select-device-context.png":::
+   :::image type="content" alt-text="Screenshot that shows selection of device context." source="images/hub2s-migration-select-device-context.png" lightbox="images/hub2s-migration-select-device-context.png":::
 
 3. Select **Next**.
 
@@ -202,7 +202,7 @@ You can make the app available for enrolled devices or assign it as required.
 
 - Under **Review + create**, review all settings and configurations. Select **Create** to deploy the app.
 
-  :::image type="content" alt-text="Screenshot that shows creation of app." source="images/hub2s-migration-intune-app.png":::
+  :::image type="content" alt-text="Screenshot that shows creation of app." source="images/hub2s-migration-intune-app.png" lightbox="images/hub2s-migration-intune-app.png":::
 
 This might take a few minutes, depending on network connectivity or other factors. You can check the upload status under the Notifications tray.
 
@@ -244,7 +244,10 @@ If you've previously registered a Surface Hub 2S in Intune before transitioning 
 2. **Navigate to Devices**: Use the left-hand navigation pane and select the **Devices** tab.
 3. **Locate All Devices**: Within the **Overview** section, select **All devices** to view the entire list of managed devices.
 4. **Identify and select the stale device object**: Look for the device object that needs removal. You can identify the stale entry based on your established device naming conventions. Typically, the stale record displays an OS build number of 19045, indicative of the Windows 10 Team edition, as opposed to the updated OS build number 22621, which signifies the Windows 11 IoT Enterprise version 22H2, post-migration.
-    - **Note**: Pay close attention to the OS build numbers to accurately distinguish between pre-migration and post-migration device records.
+
+   > [!NOTE]
+   > Pay close attention to the OS build numbers to accurately distinguish between pre-migration and post-migration device records.
+
 5. **Delete the stale record**: On the selected device object’s page, navigate to the top menu and select **Delete** to remove the stale device record from Intune.
 
 ## Post-migration configuration
