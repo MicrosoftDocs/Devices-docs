@@ -5,7 +5,7 @@ ms.service: surface
 author: coveminer
 ms.author: chauncel
 ms.topic: how-to
-ms.date: 09/12/2024
+ms.date: 09/29/2024
 ms.reviewer: tode
 manager: frankbu
 ms.localizationpriority: medium
@@ -90,6 +90,10 @@ System Model and System SKU are variables stored in System Management BIOS (SMBI
 | Surface Pro 10 for Business                                              | Surface Pro 10 for Business   | Surface_Pro_10_for_Business_2079        |
 | Surface Pro (11th Edition) Consumer                          | Microsoft Surface Pro, 11th Edition   | Surface_Pro_11th_Edition_2076        |
 | Surface Pro (11th Edition) Commercial                        | Microsoft Surface Pro, 11th Edition   | Surface_Pro_11th_Edition_For_Business_2085        |
+| Surface Pro with 5G, 11th Edition, Consumer (outside of Japan) | Microsoft Surface Pro with 5G, 11th Edition  | Surface_Pro_with_5G_11th_Edition_2077|
+| Surface Pro with 5G, 11th Edition, Consumer (Japan) | Microsoft Surface Pro with 5G, 11th Edition  | Surface_Pro_with_5G_11th_Edition_2078|
+| Surface Pro with 5G, 11th Edition, Commercial (outside of Japan) | Microsoft Surface Pro with 5G, 11th Edition  | Surface_Pro_with_5G_11th_Edition_For_Business_2077|
+| Surface Pro with 5G, 11th Edition, Commercial (Japan) | Microsoft Surface Pro with 5G, 11th Edition  | Surface_Pro_with_5G_11th_Edition_2078|
 | Surface Studio                                               | Surface Studio   | Surface_Studio   |
 | Surface Studio 2                                             | Surface Studio 2 | Surface_Studio_2_1707_Commercial   |
 | Surface Studio 2+                                            | Surface Studio 2+ | Surface_Studio_2+_2028  |
