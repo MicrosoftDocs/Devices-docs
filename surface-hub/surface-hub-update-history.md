@@ -21,6 +21,17 @@ Most Windows updates focus on performance and security improvements. In the foll
 
 ## Windows 10 Team 2022 Update (22H2)
 
+### August 27, 2024 - update for Surface Hub 2S
+
+This update is specific to the Surface Hub 2S and provides the driver and firmware updates outlined below:
+
+* Surface UEFI update - 699.1205.768.0
+  * Addresses critical security vulnerability and improves system stability.
+* Surface ME Firmware update - 11.8.96.4657
+  * Addresses critical security vulnerability and improves system stability.
+* Intel Management Engine Interface driver - 2406.5.5.0
+  * Addresses critical security vulnerability and improves system stability.
+
 ### June 25, 2024 - update for Team based on KB5039299* (OS Build 19045.4598)
 
 This update to the Surface Hub includes quality improvements and security fixes. Key updates to Surface Hub, not already outlined in [Windows 10 Update History](https://support.microsoft.com/help/5018682/windows-10-update-history), include:
