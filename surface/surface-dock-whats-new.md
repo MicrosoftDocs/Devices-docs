@@ -38,11 +38,13 @@ Surface Thunderbolt 4 Dock helps improve IT efficiency and reduce overhead and s
 
 ## General system requirements
 
-Surface Thunderbolt 4 Dock is optimized for devices with a USB4/ Thunderbolt 4 port, including the following Surface for Business devices:
+Surface Thunderbolt 4 Dock is optimized for devices with a USB4/Thunderbolt 4 port, including the following Surface for Business devices:
 
+- Surface Laptop (7th Edition)
 - Surface Laptop 6
 - Surface Laptop 5 
 - Surface Laptop Studio (all generations)
+- Surface Pro (11th Edition)
 - Surface Pro 10
 - Surface Pro 9 (Intel/Wi-Fi)
 - Surface Pro 8
