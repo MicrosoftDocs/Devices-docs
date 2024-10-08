@@ -12,9 +12,9 @@ ms.date: 06/09/2020
 
 # Surface Hub update history
 
-Windows was designed to be a service, which means it automatically gets better through periodic software updates. Typically you don’t have to do anything to get the latest Windows 10 updates—they'll download and install whenever they’re available.
+Surface Hub (v1) and Hub 2S devices ship with Windows 10 Team edition. Windows was designed to be a service, which means it automatically gets better through periodic software updates. Typically you don't have to do anything to get the latest Windows 10 updates—they'll download and install whenever they're available.
 
-Most Windows updates focus on performance and security improvements. In the following list, the most recent Windows update with Surface Hub-specific improvements is listed first. Updates are cumulative, so installing the latest available Windows update (even if it isn't on the list below) ensures that you also benefit from improvements in any previous updates. Microsoft Store apps are updated through the Microsoft Store (managed by the Surface Hub's system administrator). Details about app updates are provided on a per-app basis.
+Most Windows updates focus on performance and security improvements. In the following list, the most recent Windows 10 update with Surface Hub-specific improvements is listed first. Updates are cumulative, so installing the latest available Windows update (even if it isn't on the list below) ensures that you also benefit from improvements in any previous updates. Microsoft Store apps are also updated automatically in the background. Details about app updates are provided on a per-app basis.
 
 > [!TIP]
 > This page is refreshed as new updates are released. Please refer to the [Surface Hub Important Information](https://support.microsoft.com/products/surface-devices/surface-hub) page for related topics on current and past releases that may require your attention.
