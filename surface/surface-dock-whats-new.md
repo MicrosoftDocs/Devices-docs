@@ -38,11 +38,13 @@ Surface Thunderbolt 4 Dock helps improve IT efficiency and reduce overhead and s
 
 ## General system requirements
 
-Surface Thunderbolt 4 Dock is optimized for devices with a USB4/ Thunderbolt 4 port, including the following Surface for Business devices:
+Surface Thunderbolt 4 Dock is optimized for devices with a USB4/Thunderbolt 4 port, including the following Surface for Business devices:
 
+- Surface Laptop (7th Edition)
 - Surface Laptop 6
 - Surface Laptop 5 
 - Surface Laptop Studio (all generations)
+- Surface Pro (11th Edition)
 - Surface Pro 10
 - Surface Pro 9 (Intel/Wi-Fi)
 - Surface Pro 8
@@ -52,12 +54,10 @@ Surface Thunderbolt 4 Dock is optimized for devices with a USB4/ Thunderbolt 4 p
 
 Surface Thunderbolt 4 Dock is compatible with the following Surface for Business devices with USB-C ports:
 
-- Surface Pro (11th Edition)
 - Surface Pro 9 with 5G
 - Surface Pro 7+
 - Surface Pro 7
 - Surface Pro X
-- Surface Laptop (7th Edition)
 - Surface Laptop 4
 - Surface Laptop 3 [<sup>7</sup>](#references)
 - Surface Laptop Go (all generations)
@@ -156,7 +156,7 @@ To daisy chain monitors, you need two or more monitors that support at least **D
 
 | Feature           | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | ----------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Compatibility     | Designed for devices with USB-C with USB 4®/Thunderbolt 4 port:<br>Surface Laptop 5 <br>Surface Laptop 6<br>Surface Laptop Studio <br>Surface Laptop Studio 2 <br>Surface Pro 8 <br>Surface Pro 9 (Intel/Wi-Fi)<br> Surface Pro 10 <br> <br>Thunderbolt 4 connection supports two 4-K external displays at up to 60 Hz (when supported by device and display)<br> <br>Compatible with devices with USB-C ports:<br>Surface Pro 9 with 5G<br>Surface Pro 7+<br>Surface Pro 7<br>Surface Pro X<br>Surface Laptop 4<br>Surface Laptop 3 *<br>Surface Laptop Go 2<br>Surface Laptop Go<br>Surface Go 3<br>Surface Go 2<br>Surface Book 3<br>Surface Studio 2+ (no charging)<br> <br>USB-C connection supports one 4-K external display at up to 60 Hz (when supported by device and display)[<sup>9</sup>](#references)|
+| Compatibility     | Designed for devices with USB-C with USB 4®/Thunderbolt 4 port:<br>Surface Laptop 5 <br>Surface Laptop 6<br>Surface Laptop (7th Edition)<br>Surface Laptop Studio <br>Surface Laptop Studio 2 <br>Surface Pro 8 <br>Surface Pro 9 (Intel/Wi-Fi)<br> Surface Pro 10 <br>Surface Pro (11th Edition) <br> Thunderbolt 4 connection supports two 4-K external displays at up to 60 Hz (when supported by device and display)<br><br>Compatible with devices with USB-C ports: <br>Surface Pro 9 with 5G<br>Surface Pro 7+<br>Surface Pro 7<br>Surface Pro X<br>Surface Laptop 4<br>Surface Laptop 3 *<br>Surface Laptop Go 2<br>Surface Laptop Go<br>Surface Go 3<br>Surface Go 2<br>Surface Book 3<br>Surface Studio 2+ (no charging)<br> <br>USB-C connection supports one 4-K external display at up to 60 Hz (when supported by device and display)[<sup>9</sup>](#references)|
 | Dimensions        | 5.91" x 2.95"x 0.84" (150 mm x 75 mm x 21.3 mm)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | Weight            | 0.9 lb. (410 g)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | Connections       | 165-W power supply (up to 96-W passthrough)<br>USB4/Thunderbolt 4 Cable with LED charging indicator (80 cm)<br>1 front-facing USB-A (USB 3.1 Gen 2, 7.5 W)<br>1 front-facing USB-C (USB4/Thunderbolt 4, video display enabled, 15 W)<br>2 rear-facing USB-A (USB 3.1 Gen 2, 7.5 W)<br>2 rear-facing USB-C (USB4/Thunderbolt 4, video display enabled, 15 W)<br>1 Ethernet (2.5 Gbit/s)<br>3.5-mm audio jack<br>Security lock support (Kensington compatible)<br>Screw nut for desk mounts<br>Compatible with Cable Matters Desk Mount for Microsoft Surface Thunderbolt 4 Dock[<sup>10</sup>](#references)                                                                                                                                           |
