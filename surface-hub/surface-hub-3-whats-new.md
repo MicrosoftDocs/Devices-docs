@@ -28,7 +28,7 @@ There are several ways to get the new Surface Hub experience:
 
 ## Hybrid meetings that include everyone
 
-Surface Hub 3 provides a premium meetings platform certified for Microsoft Teams. Anyone can walk up and join a Microsoft Teams meeting with one touch on Surface Hub 3, whether it's the 50-inch or the 85-inch model, enjoying an interaction optimized for their respective screen sizes.
+Surface Hub 3 provides a premium meetings platform certified for Microsoft Teams. Anyone can walk up and join a Microsoft Teams meeting with one touch on Surface Hub 3, whether it's the 50 inch or the 85-inch model, enjoying an interaction optimized for their respective screen sizes.
 
 - Remote participants have the best possible view of the room with the Surface Hub Smart Camera. With a sharp focus on the foreground and background, remote participants can see people interact with content on Surface Hub while viewing everyone else in the room. Surface Hub Smart Camera has an ultra-wide field of view of 136 degrees, high-quality glass optics, and a low light sensor.
 - One-touch-join a Microsoft Teams, Zoom, or Webex meeting from the home screen. Join meeting requests from partners or customers without hassle.
@@ -44,21 +44,21 @@ Deploy with ease, manage from anywhere, and maintain secure control of every Sur
 
 ## Make any place a teamwork space
 
-Future-proof your meeting spaces. Flexible, modular accessories enable Surface Hub 3 to adapt as your space and technology needs change. Whether your area is big enough to need a robust, large-display experience and partner audio devices or your teams meet in smaller, intimate groups, you can configure the perfect collaboration space. For teams constantly on the move, using the Surface Hub 3 50-inch with Designed for Surface mobile stands allows for easy relocation from one room to another.1.</sup>
+Future-proof your meeting spaces. Flexible, modular accessories enable Surface Hub 3 to adapt as your space and technology needs change. Whether your area is big enough to need a robust, large-display experience and partner audio devices or your teams meet in smaller, intimate groups, you can configure the perfect collaboration space. For teams constantly on the move, using the Surface Hub 3 50 inch with Designed for Surface mobile stands allows for easy relocation from one room to another.1.</sup>
 
-- Choose the perfect fit for any meeting space. The Surface Hub 3 85-inch is tailored for larger rooms, while the 50-inch model is ideal for more intimate spaces. Enhance your experience with peripherals that are [certified for Microsoft Teams Rooms](/microsoftteams/rooms/certified-hardware). Using  [Coordinated Meetings](/microsoftteams/rooms/coordinated-meetings), Surface Hub 3 can serve as an interactive companion or a device at the side of the room.
-- Experience innovative collaboration opportunities with Portrait on Surface Hub 3 50-inch. Using Smart Rotation, you can effortlessly set the device to the orientation that suits your immediate meeting or collaborative requirements.
-- Mobile stands make it easy to move, raise, and lower the Surface Hub 3 50-inch and 85-inch models. Salamander Designs Electric Lift Mobile Stands<sup>1</sup> are height adjustable and can move with you. Unplug and drive your brainstorming sessions even further with the APC™ Charge Mobile Battery<sup>1</sup> for the Surface Hub 3 50-inch.
-- For a personal desktop experience, [re-configure with Windows 11 Pro and Enterprise](surface-hub-2s-migrate-os.md).
+- Choose the perfect fit for any meeting space. The Surface Hub 3 85 inch is tailored for larger rooms, while the 50-inch model is ideal for more intimate spaces. Enhance your experience with peripherals that are [certified for Microsoft Teams Rooms](/microsoftteams/rooms/certified-hardware). Using  [Coordinated Meetings](/microsoftteams/rooms/coordinated-meetings), Surface Hub 3 can serve as an interactive companion or a device at the side of the room.
+- Experience innovative collaboration opportunities with Portrait on Surface Hub 3 50 inch. Using Smart Rotation, you can effortlessly set the device to the orientation that suits your immediate meeting or collaborative requirements.
+- Mobile stands make it easy to move, raise, and lower the Surface Hub 3 50-inch and 85-inch models. Salamander Designs Electric Lift Mobile Stands<sup>1</sup> are height adjustable and can move with you. Unplug and drive your brainstorming sessions even further with the APC™ Charge Mobile Battery<sup>1</sup> for the Surface Hub 3 50 inch.
+- For a personal desktop experience, [reconfigure with Windows 11 Pro and Enterprise](surface-hub-2s-migrate-os.md).
 - Built for easy installation in modern spaces. Simplify installations with wall mounts and packaging designed to move through elevators and around tight corners.
 - Adapts to grow with you. Modular, interchangeable components mean Surface Hub 3 is built to last through technology advancements and the evolution of your space requirements.
 
-## Seamlessly share and co-create together
+## Seamlessly share and cocreate together
 
-No matter where they work, give everyone an equal opportunity to co-create and collaborate in real time. Empower people to see their contributions come to life for the whole team, whether inking directly on Surface Hub 3 or working from their own PCs.
+No matter where they work, give everyone an equal opportunity to cocreate and collaborate in real time. Empower people to see their contributions come to life for the whole team, whether inking directly on Surface Hub 3 or working from their own PCs.
 
 - Engage everyone in collaborative sessions with Microsoft Whiteboard on Surface Hub 3. Active, dual-pen inking feels natural on a digital canvas for team brainstorms – it's like taking pen to paper with fast, fluid responsiveness and a working eraser. Everyone can contribute content and ink from their own screen, whether from a full at-home setup, on the go from their phone, or in the conference room in front of their laptop or tablet.
-- Seamlessly share and co-create together on the big screen. Wirelessly project and share content from a PC using Microsoft Teams Cast.
+- Seamlessly share and cocreate together on the big screen. Wirelessly project and share content from a PC using Microsoft Teams Cast.
 - Showcase the content and people critical for your meeting with the full suite of Microsoft Teams Rooms layouts and features. See the meeting chat clearly in the room or bring Front Row for everything you need for the meeting at your fingertips – including content, chat, hands raised, and a large gallery view.
 - Everyone can contribute. With Surface Slim Pen<sup>1</sup> compatibility, in addition to the Surface Hub Pen, everyone can join in the brainstorming--even with their own personal pen.
 
