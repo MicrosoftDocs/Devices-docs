@@ -17,7 +17,7 @@ appliesto:
 
 ## Introduction
 
-Surface Book 3, the most powerful Surface laptop yet released, integrates fully modernized compute and graphics capabilities into its famous detachable form factor.  Led by the quad-core 10th Gen Intel® Core™ i7 and NVIDIA® Quadro RTX™ 3000 graphical processing unit (GPU) on the 15-inch model, Surface Book 3 comes in a wide range of configurations for consumers, creative professionals, architects, engineers, and data scientists. This article explains the major differences between the GPU configurations across 13-inch and 15-inch models of Surface Book 3.
+Surface Book 3 integrates fully modernized compute and graphics capabilities into its famous detachable form factor.  Led by the quad-core 10th Gen Intel® Core™ i7 and NVIDIA® Quadro RTX™ 3000 graphical processing unit (GPU) on the 15-inch model, Surface Book 3 comes in a wide range of configurations for consumers, creative professionals, architects, engineers, and data scientists. This article explains the major differences between the GPU configurations across 13-inch and 15-inch models of Surface Book 3.
 
 A significant differentiator across Surface Book 3 models is the GPU configuration. In addition to the integrated Intel GPU built into all models, all but the entry-level 13.5-inch Core i5 device also feature a discrete NVIDIA GPU with Max-Q Design, which incorporates features that optimize energy efficiency for mobile form factors.
 
