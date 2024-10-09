@@ -1,6 +1,6 @@
 ---
 title: What's new for Surface Hub 3
-description: Explore what's new with Surface Hub 3, including enhanced collaboration features, hybrid meeting capabilities, and seamless integration with Microsoft Teams Rooms on Windows.
+description: Discover how Surface Hub 3 enhances hybrid collaboration with AI-powered experiences, speaker recognition, and Team Copilot.
 ms.reviewer: dpandre
 manager: frankbu
 ms.service: surface-hub
@@ -41,7 +41,7 @@ Surface Hub 3 takes collaboration to the next level with **AI-powered speaker re
 - **Speaker recognition**: Identifies each participant’s voice in the room, analyzing vocal characteristics like pitch and tone to create a unique voiceprint. This ensures individual contributions are recognized during the meeting, allowing for more accurate meeting recaps.
 
   - **Voice enrollment**: End users can easily create a voice profile via [aka.ms/voiceprofile](https://aka.ms/voiceprofile), allowing their voice to be recognized in meetings. 
-  - **IT administration:** Admins can turn on or off voice and face enrollment for specific users, groups of users, or the whole organization. To learn more about IT configuration with PowerShell, see [Overview of voice and face enrollment](/microsoftteams/rooms/voice-and-face-recognition).
+  - **IT administration:** Admins can manage voice and face enrollment for specific users, groups of users, or an entire organization. To learn more, see [Overview of voice and face enrollment](/microsoftteams/rooms/voice-and-face-recognition).
 
 - **Copilot in Teams**: With **Team Copilot**, meetings become smarter and more efficient. Copilot attributes notes to each speaker and generates real-time insights and follow-up tasks, eliminating the need for post-meeting transcription.
   - Copilot works in real time, ensuring participants in the room are correctly attributed in meeting notes.
@@ -59,7 +59,7 @@ Surface Hub 3 empowers IT administrators with enterprise-grade tools to manage d
 
 - **Remote management**: Use Microsoft Endpoint Manager to configure settings and policies. Monitor health and room status with Microsoft Teams Admin Center and the Teams Rooms Pro Management Portal.
 - **Low-touch deployment**: Quickly deploy devices using Windows Autopilot, and leverage auto-login capabilities for seamless integration with Azure Directory.
-- **Security and compliance**: Ensure data protection with BitLocker, Trusted Platform Module 2.0 (TPM), and Microsoft Defender for cloud-powered security. Enable Conditional Access policies to safeguard sign-ins on shared devices.
+- **Security and compliance**: Ensure data protection with BitLocker, Trusted Platform Module 2.0 (TPM), and Microsoft Defender for cloud-powered security. Enable [Conditional Access policies](/mem/intune/protect/conditional-access) to safeguard sign-ins on shared devices. To learn more, see [Security best practices for Surface Hubs running Microsoft Teams Rooms on Windows](surface-hub-3-security.md).
 
 ## Make any place a teamwork space
 
@@ -74,10 +74,10 @@ Surface Hub 3 offers unmatched versatility with modular and adaptable components
 Surface Hub 3 enables real-time collaboration and co-creation, no matter where participants are located.
 
 - **Microsoft Whiteboard**: Empower everyone to contribute during brainstorms with active dual-pen inking, which delivers a natural "pen-to-paper" experience. Fast, fluid responsiveness makes inking intuitive, and participants can collaborate from their PCs, phones, or tablets.
-- **Teams Cast**: Share content wirelessly from a PC to Surface Hub 3 with Microsoft Teams Cast, making it easier for everyone to stay engaged during meetings.
-- **AI-powered experiences**: Surface Hub 3 introduces **speaker recognition**, which works with **Team Copilot** to attribute meeting notes to individual speakers, capture insights, and generate follow-up tasks automatically. Copilot operates in real time without requiring a transcription service, allowing in-person meetings to benefit from AI-driven insights.
+- **Teams Cast**: Share content wirelessly from a PC to Surface Hub 3 with Microsoft Teams Cast, making it easier for everyone to stay engaged during meetings. To learn more, see [Cast content from your desktop to a Microsoft Teams Room](https://support.microsoft.com/office/cast-content-from-your-desktop-to-a-microsoft-teams-room-6d62cdbb-3da2-4bb9-80bd-9cf1098beb3d).
+- **AI-powered experiences**: Surface Hub 3 introduces powerful AI-driven features to enhance collaboration, ensuring that participants' contributions are recognized and actionable.
 
-## Next steps
+### Next steps
 
 Ready to unlock the full potential of Surface Hub 3? [Get started with Surface Hub running Microsoft Teams Rooms on Windows](surface-hub-3-get-started.md) to set up your devices today.
 
@@ -88,13 +88,13 @@ Ready to unlock the full potential of Surface Hub 3? [Get started with Surface H
 
 ## Surface Hub platform differences
 
-We understand that transitioning operating systems introduces change management considerations. Many customers ask about the differences between the legacy Windows 10 Team edition on Surface Hub 2S and the new Microsoft Teams Rooms on Windows platform. This new platform, which powers Surface Hub 3 and is available through the Surface Hub 3 Compute Cartridge, provides a modern, secure, and integrated Teams Rooms experience designed for hybrid collaboration.
+We understand that transitioning operating systems introduces change management considerations. Many customers ask about the differences between the legacy Windows 10 Team edition on Surface Hub 2S and the new [Microsoft Teams Rooms on Windows platform](/microsoftteams/rooms/). This new platform, which powers Surface Hub 3 and is available through the Surface Hub 3 Compute Cartridge, provides a modern, secure, and integrated Teams Rooms experience designed for hybrid collaboration.
 
 ### Overview of key differences
 
 | **Feature**                                  | **Surface Hub 2S running Windows 10 Team Edition** | **Surface Hub running Teams Rooms on Windows**   |
 |----------------------------------------------|---------------------------------------------------|---------------------------------------------------|
-| **Microsoft Store, Edge browser & native apps** | Supports a range of applications outside of Teams, including Microsoft Edge and apps from the Microsoft Store.                                      | The Teams Rooms on Windows platform focuses on streamlining the meeting experience. While it does not support external apps such as Microsoft Edge directly on the device, users can easily share content from their personal devices using Desktop Sharing or Teams Cast during meetings. For native app support, migrating to [Windows 11 Pro or Enterprise](surface-hub-2s-migrate-os.md) enables full access to apps. |
+| **Microsoft Store, Edge browser & native apps** | Supports a range of applications outside of Teams, including Microsoft Edge and apps from the Microsoft Store.                                      | The Teams Rooms on Windows platform focuses on streamlining the meeting experience. While it does not support external apps such as Microsoft Edge directly on the device, users can easily share content from their personal devices using Desktop Sharing or [Teams Cast](https://support.microsoft.com/office/cast-content-from-your-desktop-to-a-microsoft-teams-room-6d62cdbb-3da2-4bb9-80bd-9cf1098beb3d) during meetings. For native app support, migrating to [Windows 11 Pro or Enterprise](surface-hub-2s-migrate-os.md) enables full access to apps. |
 | **Access to personal files & login**         | Users can log in to access their personal files and create a personalized experience.                                        | The Teams Rooms on Windows platform prioritizes shared use in meeting spaces, and currently does not support direct personal file access or login. However, users can connect their personal devices and wirelessly share content during meetings through Desktop Sharing or [Teams Cast](https://support.microsoft.com/office/cast-content-from-your-desktop-to-a-microsoft-teams-room-6d62cdbb-3da2-4bb9-80bd-9cf1098beb3d). |
 | **Whiteboard sign-in**                       | Requires sign-in to access the Whiteboard, and all content is tied to the signed-in account.                             | The new platform simplifies Whiteboard access—no sign-in is required. Whiteboards are automatically saved to OneDrive when a Work or School account joins the meeting. This approach enhances collaboration while maintaining security, as Surface Hub does not retain access after the meeting ends. The Whiteboard can also be pre-attached or switched during meetings for added flexibility. |
 | **HDMI Ingest**                              | HDMI Ingest allows users to project their device screens via an HDMI cable.                                          | HDMI Ingest functionality is streamlined in the Teams Rooms experience. Although direct HDMI Ingest is currently unavailable, users can easily switch Surface Hub into HDMI or USB-C bypass mode using the onboard ports. This allows the device to be used as an external monitor when needed, ensuring flexibility. |
@@ -102,9 +102,9 @@ We understand that transitioning operating systems introduces change management 
 | **DisplayPort video-out**                    | Provides DisplayPort video out for connecting to external displays.                                         | DisplayPort video out is not supported natively in the Teams Rooms environment. However, users who require this functionality can migrate to [Windows 11 Pro or Enterprise](surface-hub-3-migrate-os.md), enabling access to DisplayPort for presentations and extended display needs. |
 | **Password rotation**                        | Supports automatic password rotation for the device account (resource account), enhancing security.                                         | Password rotation is not currently supported. To ensure security, we recommend setting the password for the resource account to never expire and implementing [Conditional Access and Intune compliance for Microsoft Teams Rooms](/microsoftteams/rooms/conditional-access-and-compliance-for-devices) to control sign-in processes in shared spaces, ensuring compliance and protection. |
 
-## Surface Hub 2S on Windows 10 Team edition
+### Surface Hub 2S on Windows 10 Team edition
 
-Windows 10 Team edition, the legacy OS that was the default on Surface Hub 2S, remains supported until October 14, 2025, allowing time for customers to transition their Surface Hub 2S devices to the Teams Rooms on Windows platform. Customers can choose to upgrade their Surface Hub 2S devices with the Surface Hub 3 Pack, which effectively turns their Hub devices into a Surface Hub 3. Or customers can use the software migration option to transition to Teams Rooms on Windows, although without access to capabilities like Smart Rotation, Portrait, Intelligent Audio<sup>1</sup>, and faster performance, which all require Surface Hub 3 hardware. To learn more, see [Migrate Surface Hub 2S to Microsoft Teams Rooms on Windows](surface-hub-2s-migrate-to-mtr-w.md).
+Windows 10 Team edition, the legacy OS that was the default on Surface Hub 2S, remains supported until October 14, 2025, allowing time for customers to transition their Surface Hub 2S devices to the Teams Rooms on Windows platform. Customers can choose to upgrade their Surface Hub 2S devices with the Surface Hub 3 Compute Cartridge, which effectively turns their Hub devices into a Surface Hub 3. Or customers can use the [software migration option](surface-hub-2s-migrate-to-mtr-w.md) to transition to Teams Rooms on Windows, although without access to capabilities like Smart Rotation, Portrait, Intelligent Audio<sup>1</sup>, and faster performance, which all require Surface Hub 3 hardware. To learn more, see [Migrate Surface Hub 2S to Microsoft Teams Rooms on Windows](surface-hub-2s-migrate-to-mtr-w.md).
 
 You can software-migrate your Surface Hub 2S device for free at any time before the end of support on October 14, 2025. Unlike the standard versions of Windows 10, there's no extended support option for Windows 10 Team edition when support ends.
 
