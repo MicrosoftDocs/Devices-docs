@@ -36,11 +36,13 @@ Dissolve boundaries for hybrid teams with a device designed to make meetings mor
 
 ### AI-powered speaker recognition and Copilot
 
-Surface Hub 3 takes collaboration to the next level with **AI-powered speaker recognition** and **Team Copilot**. These features enhance hybrid meetings, ensuring that everyone’s contributions are recognized and tracked.
+Surface Hub 3 takes collaboration to the next level with **AI-powered speaker recognition** and **Team Copilot**. These features enhance hybrid meetings, ensuring that everyone’s contributions are recognized and tracked. Background noise is suppressed, making meetings easier to follow and ensuring each speaker's contributions are clearly heard.
 
 - **Speaker recognition**: Identifies each participant’s voice in the room, analyzing vocal characteristics like pitch and tone to create a unique voiceprint. This ensures individual contributions are recognized during the meeting, allowing for more accurate meeting recaps.
-  - **Voice enrollment**: End users can easily create a voice profile via [aka.ms/voiceprofile](https://aka.ms/voiceprofile), allowing their voice to be recognized in meetings. To learn more, see [Overview of voice and face enrollment](/microsoftteams/rooms/voice-and-face-recognition).
-  - **Noise isolation**: Background noise is suppressed, making meetings easier to follow and ensuring each speaker's contributions are clearly heard.
+
+  - **Voice enrollment**: End users can easily create a voice profile via [aka.ms/voiceprofile](https://aka.ms/voiceprofile), allowing their voice to be recognized in meetings. 
+  - **IT administration:** Admins can turn on or off voice and face enrollment for specific users, groups of users, or the whole organization. To learn more about IT configuration with PowerShell, see [Overview of voice and face enrollment](/microsoftteams/rooms/voice-and-face-recognition).
+
 - **Copilot in Teams**: With **Team Copilot**, meetings become smarter and more efficient. Copilot attributes notes to each speaker and generates real-time insights and follow-up tasks, eliminating the need for post-meeting transcription.
   - Copilot works in real time, ensuring participants in the room are correctly attributed in meeting notes.
   - **Seamless integration**: Team Copilot can take live notes without needing a Teams call or transcription, making it useful even for in-person meetings.
