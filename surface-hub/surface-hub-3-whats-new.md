@@ -20,7 +20,7 @@ Surface Hub 3, available in 50-inch and 85-inch models, delivers an inclusive hy
 
 There are several ways to get the new Surface Hub experience:
 
-- Purchase a new Surface Hub 3 from a [Surface device reseller](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface#DEVICESRESELLERS) (available December 5, 2023).
+- Purchase a new Surface Hub 3 from a [Surface device reseller](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface#DEVICESRESELLERS).
 - Upgrade from Surface Hub 2S to Surface Hub 3 via the [Surface Hub 3 Compute Cartridge](surface-hub-3-compute-cartridge-faq.md), delivering faster performance and enhanced graphics.
 - Migrate your Surface Hub 2S to the new experience following the instructions in [Migrate Surface Hub 2S to Microsoft Teams Rooms on Windows](surface-hub-2s-migrate-to-mtr-w.md).
 
@@ -113,6 +113,6 @@ You can software-migrate your Surface Hub 2S device for free at any time before 
 - [Install & manage Surface Hub 3 Compute Cartridge](install-manage-surface-hub-3-compute-cartridge.md)
 - [Site readiness guide for Surface Hub 3](surface-hub-3-site-readiness-guide.md)
 
-## References
+### References
 
 1. Sold separately.
