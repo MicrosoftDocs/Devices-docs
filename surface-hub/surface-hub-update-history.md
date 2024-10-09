@@ -31,6 +31,10 @@ This update is specific to the Surface Hub 2S and provides the driver and firmwa
   * Addresses critical security vulnerability and improves system stability.
 * Intel Management Engine Interface driver - 2406.5.5.0
   * Addresses critical security vulnerability and improves system stability.
+* Surface System Telemetry driver - 10.105.10.0
+  * Addresses data collection regulatory requirements and updates the consent experience for data transmission.
+* Surface Integration service - 6.214.10.0
+  * Addresses data collection regulatory requirements and updates the consent experience for data transmission.
 
 ### June 25, 2024 - update for Team based on KB5039299* (OS Build 19045.4598)
 
@@ -78,7 +82,11 @@ This update is specific to the Surface Hub 2S and provides the driver and firmwa
 
 * Surface UEFI update - 699.866.768.0
   * Addresses critical security vulnerability and improves system stability.
+* Surface System Telemetry driver - 10.104.30.0
+  * Addresses data collection regulatory requirements.
 * Surface Integration driver - 94.19.11.0
+  * Addresses data collection regulatory requirements.
+* Surface Integration service - 6.213.30.0
   * Addresses data collection regulatory requirements.
 
 ### February 8, 2024 - update for Surface Hub 2S
@@ -271,6 +279,8 @@ This update is specific to the Surface Hub 2S and provides the driver and firmwa
   * Improves system security and stability.
 * Intel Management Engine Interface driver - 2120.100.0.1085
   * Improves system security and stability.
+* Surface Integration service - 6.135.139.0
+  * Adds support for [Surface Hub Smart Camera](surface-hub-smart-camera.md).
 
 ### November 22, 2021 - update for Team OS based on KB5007253* (19042.1387)
 
