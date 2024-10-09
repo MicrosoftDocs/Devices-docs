@@ -66,7 +66,7 @@ Surface Hub 3 empowers IT administrators with enterprise-grade tools to manage d
 Surface Hub 3 offers unmatched versatility with modular and adaptable components that evolve with your space needs. Whether your teams meet in large conference rooms or smaller breakout areas, Surface Hub 3 delivers the right fit.
 
 - **Two size options**: The 85-inch model is perfect for large rooms, while the 50-inch model suits smaller spaces. Both models support Smart Rotation for effortless collaboration in landscape or portrait mode.
-- **Mobile adaptability**: Easily move your Surface Hub 3 using electric lift mobile stands from Salamander Designs. Take it further with the **APC™ Charge Mobile Battery**, offering portability without needing a constant power supply.
+- **Mobile adaptability**: Easily move your Surface Hub 3 using Salamander Designs Electric Lift Mobile Stands.<sup>1</sup> Take it further with the **APC Charge Mobile Battery**,<sup>1</sup> offering portability without needing a constant power supply.
 - **Modular design**: Interchangeable components, such as the Surface Hub 3 Compute Cartridge, ensure your device is future-proof, adapting to both technology advancements and changing room configurations.
 
 ## Seamlessly share and co-create together
