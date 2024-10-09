@@ -114,7 +114,7 @@ To maintain a stable environment, we strongly recommend that you keep parity wit
 
 Since August 2019, .msi files are using the following naming convention:
 
-- *Product*_*Windows release*_*Windows build number*_*Version number*_*Revision of version number (typically zero)*.
+- *Product\_Windows release\_Windows build number\_Version number\_Revision of version number (typically zero)*.
 
 **Example**
 
