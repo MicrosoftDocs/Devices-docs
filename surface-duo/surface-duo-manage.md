@@ -1,6 +1,6 @@
 ---
 title: Surface Duo management overview
-description: This article highlights options for managing Surface Duo in a commercial environment.
+description: Manage Surface Duo with Intune or any EMM solution for secure, efficient management of personal & company-owned devices in enterprise settings
 ms.service: surface
 author: coveminer
 ms.author: chauncel
