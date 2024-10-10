@@ -33,15 +33,15 @@ The device servicing period refers to the timeframe in which Surface devices rec
 
 The Surface driver and firmware servicing period defines how long updates are provided for a device.
 
-- **For devices released before January 1, 2021:** Surface devices will receive driver and firmware updates for at least four years from when the device was first released. If the servicing period exceeds four years, an updated end-of-servicing date will be announced before the final update.
+- **For devices released before January 1, 2021:** Surface devices receive driver and firmware updates for at least four years from when the device was first released. If the servicing period exceeds four years, an updated end-of-servicing date will be announced before the final update.
 
-- **For devices released on and after January 1, 2021:** Surface devices will receive driver and firmware updates for at least six years from when the device was first released. If the servicing period exceeds six years, an updated end-of-servicing date will be announced before the final update.
+- **For devices released on and after January 1, 2021:** Surface devices receive driver and firmware updates for at least six years from when the device was first released. If the servicing period exceeds six years, an updated end-of-servicing date will be announced before the final update.
 
 For accessories, see [Surface accessories driver and firmware lifecycle](surface-accessories-driver-firmware-lifecycle-support.md).
 
 ### OS version support
 
-OS version support defines the operating system versions Surface supports during the device servicing period. Surface devices receive driver and firmware updates for Windows OS versions released in the prior 30 months. Surface devices won't support Windows OS versions older than the version supported at their release.  To see the minimum supported OS version for your Surface device, visit [Surface supported operating systems](surface-supported-operating-systems.md).
+OS version support defines the operating system versions Surface supports during the device servicing period. Surface devices receive driver and firmware updates for Windows OS versions released in the prior 30 months. Surface devices don't support Windows OS versions older than the version supported at their release. To see the minimum supported OS version for your Surface device, visit [Surface supported operating systems](surface-supported-operating-systems.md).
 
 If your device’s OS version is no longer supported, we recommend upgrading to the latest available OS to continue receiving driver and firmware updates.
 
