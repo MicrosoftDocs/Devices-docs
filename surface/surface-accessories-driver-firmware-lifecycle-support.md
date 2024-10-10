@@ -67,4 +67,4 @@ Surface Pro Flex Keyboard                            | June 18, 2024       | Jun
 - [Surface driver and firmware lifecycle for Windows-based devices](surface-driver-firmware-lifecycle-support.md)
 - [Surface Hub devices and accessories Driver and firmware lifecycle  ](/surface-hub/surface-hub-driver-firmware-accessories-lifecycle)
 - [Surface device compatibility with Windows 10 Long-Term Servicing Channel (LTSC)](surface-device-compatibility-with-windows-10-ltsc.md)
-- [Surface Warranty and Support Plans](https://www.microsoft.com/surface/business/warranty-service-offerings-and-support)
+- [Surface Warranty and Support Plans](https://www.microsoft.com/surface/business/warranty-protection-plans-and-support)
