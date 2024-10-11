@@ -16,7 +16,7 @@ appliesto:
 
 # What's new for Surface Hub 3
 
-Surface Hub 3, available in 50-inch and 85-inch models, delivers an inclusive hybrid collaboration experience through the Microsoft Teams Rooms on Windows platform. Designed end-to-end by Microsoft, Surface Hub 3 is the [premier all-in-one hybrid meeting and collaboration device](https://www.youtube.com/watch?v=VHxasUd908k&t=1s) built for modern work. It brings advanced features such as **AI-powered interactive experiences** and **speaker recognition**, creating an engaging and efficient environment for hybrid teams.
+Surface Hub 3, available in 50-inch and 85-inch models, delivers an inclusive hybrid collaboration experience through the Microsoft Teams Rooms on Windows platform. Designed end-to-end by Microsoft, Surface Hub 3 is the [premier all-in-one hybrid meeting and collaboration device](https://www.youtube.com/watch?v=VHxasUd908k&t=1s) built for modern work. It brings advanced features and **AI-powered interactive experiences** to elevate collaboration and create an engaging, efficient environment, empowering hybrid teams to be more productive together than ever.
 
 There are several ways to get the new Surface Hub experience:
 
@@ -29,15 +29,14 @@ There are several ways to get the new Surface Hub experience:
 Dissolve boundaries for hybrid teams with a device designed to make meetings more inclusive. Surface Hub 3 provides a premium, AI-powered experience certified for Microsoft Teams. Users can seamlessly join meetings across different platforms like Zoom, Cisco Webex, and Google Meet.
 
 - **Surface Hub Smart Camera** offers remote participants the best possible view of the room.  
-  - AI-powered automatic framing keeps participants in view even when they move or interact with content.
   - Ultra-wide 136-degree field of view with high-quality glass optics and a low-light sensor.
+  - Surface Hub Smart Camera integrates with **IntelliFrame** to keep participants in view as they move or interact with content, ensuring a dynamic and inclusive meeting experience.
 - **One-touch join**: Join Microsoft Teams, Zoom, or Webex meetings with a single tap on the home screen.
 - **Facial expressions and body language** are vividly rendered on the 4K touchscreen display, delivering a more natural and inclusive experience for remote and in-room participants.
 
 ### AI-powered speaker recognition
 
-Surface Hub 3 introduces **AI-powered speaker recognition**, enhancing the meeting experience by identifying individual voices in the room. This feature powers [**Copilot in Teams meetings**](https://support.microsoft.com/office/use-copilot-in-microsoft-teams-meetings-0bf9dd3c-96f7-44e2-8bb8-790bedf066b1
-), ensuring that meeting contributions are accurately attributed to each participant, even in hybrid environments. Background noise is suppressed, making meetings easier to follow and ensuring each speaker's contributions are clearly heard.
+Surface Hub 3 introduces **AI-powered speaker recognition**, enhancing the meeting experience by identifying individual voices in the room for participants who have opted in through voice enrollment. With clear consent and privacy in mind, this feature ensures that meeting contributions are accurately attributed to each speaker, supporting better follow-up and collaboration. Background noise is suppressed, creating a clearer, more focused environment for all participants.
 
 - **Speaker recognition**: Identifies participants' voices in the room by analyzing vocal characteristics, ensuring individual contributions are tracked. 
   - **Voice enrollment**: End users can easily create a voice profile via [aka.ms/voiceprofile](https://aka.ms/voiceprofile), allowing their voice to be recognized in meetings. 
@@ -60,7 +59,7 @@ Surface Hub 3 empowers IT administrators with enterprise-grade tools to manage d
 Surface Hub 3 offers unmatched versatility with modular and adaptable components that evolve with your space needs. Whether your teams meet in large conference rooms or smaller breakout areas, Surface Hub 3 delivers the right fit.
 
 - **Two size options**: The 85-inch model is perfect for large rooms, while the 50-inch model suits smaller spaces. Both models support Smart Rotation for effortless collaboration in landscape or portrait mode.
-- **Mobile adaptability**: Easily move your Surface Hub 3 using Salamander Designs Electric Lift Mobile Stands.<sup>1</sup> Take it further with the **APC Charge Mobile Battery**,<sup>1</sup> offering portability without needing a constant power supply.
+- **Mobile adaptability**: Easily move your Surface Hub using **mobile stands from Designed for Surface partners**,<sup>1</sup> including **Salamander Designs** and **Steelcase**. For added flexibility, take it further with the **APC Charge Mobile Battery**,<sup>1</sup> offering portability without needing a constant power supply.
 - **Modular design**: Interchangeable components, such as the Surface Hub 3 Compute Cartridge, ensure your device is future-proof, adapting to both technology advancements and changing room configurations.
 
 ## Seamlessly share and cocreate together
