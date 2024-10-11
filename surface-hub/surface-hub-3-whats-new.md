@@ -1,13 +1,13 @@
 ---
 title: What's new for Surface Hub 3
-description: Discover how Surface Hub 3 enhances hybrid collaboration with AI-powered experiences, speaker recognition, and Team Copilot.
+description:  Learn how Surface Hub 3 enhances hybrid collaboration with AI-powered experiences, speaker recognition, and Teams Rooms on Windows.
 ms.reviewer: dpandre
 manager: frankbu
 ms.service: surface-hub
 author: coveminer
 ms.author: dpandre
 ms.topic: how-to
-ms.date: 10/09/2024
+ms.date: 10/11/2024
 ms.localizationpriority: medium
 appliesto:
 - Surface Hub 3
@@ -34,22 +34,17 @@ Dissolve boundaries for hybrid teams with a device designed to make meetings mor
 - **One-touch join**: Join Microsoft Teams, Zoom, or Webex meetings with a single tap on the home screen.
 - **Facial expressions and body language** are vividly rendered on the 4K touchscreen display, delivering a more natural and inclusive experience for remote and in-room participants.
 
-### AI-powered speaker recognition and Copilot
+### AI-powered speaker recognition
 
-Surface Hub 3 takes collaboration to the next level with **AI-powered speaker recognition** and **Team Copilot**. These features enhance hybrid meetings, ensuring that everyone’s contributions are recognized and tracked. Background noise is suppressed, making meetings easier to follow and ensuring each speaker's contributions are clearly heard.
+Surface Hub 3 introduces **AI-powered speaker recognition**, enhancing the meeting experience by identifying individual voices in the room. This feature powers the **in-market Copilot for desktop**, ensuring that meeting contributions are accurately attributed to each participant, even in hybrid environments. Background noise is suppressed, making meetings easier to follow and ensuring each speaker's contributions are clearly heard.
 
-- **Speaker recognition**: Identifies each participant’s voice in the room, analyzing vocal characteristics like pitch and tone to create a unique voiceprint. This ensures individual contributions are recognized during the meeting, allowing for more accurate meeting recaps.
-
+- **Speaker recognition**: Identifies participants' voices in the room by analyzing vocal characteristics, ensuring individual contributions are tracked. 
   - **Voice enrollment**: End users can easily create a voice profile via [aka.ms/voiceprofile](https://aka.ms/voiceprofile), allowing their voice to be recognized in meetings. 
-  - **IT administration:** Admins can manage voice and face enrollment for specific users, groups of users, or an entire organization. To learn more, see [Overview of voice and face enrollment](/microsoftteams/rooms/voice-and-face-recognition).
+  - **IT administration**: Admins can manage voice and face enrollment for specific users, groups of users, or an entire organization, ensuring secure and accurate identification.To learn more, see [Overview of voice and face enrollment](/microsoftteams/rooms/voice-and-face-recognition).
 
-- **Copilot in Teams**: With **Team Copilot**, meetings become smarter and more efficient. Copilot attributes notes to each speaker and generates real-time insights and follow-up tasks, eliminating the need for post-meeting transcription.
-  - Copilot works in real time, ensuring participants in the room are correctly attributed in meeting notes.
-  - **Seamless integration**: Team Copilot can take live notes without needing a Teams call or transcription, making it useful even for in-person meetings.
+- **Biometric privacy and security** are a top priority. Microsoft encrypts voice and face data at rest and in transit, following strict privacy guidelines, including GDPR compliance. Users can unenroll their voice profiles at any time, and profiles are automatically deleted if unused for one year.
 
-    Without **speaker recognition**, audio in hybrid meetings is typically attributed to the room as a whole, making it difficult to identify individual contributions. With **speaker recognition**, contributions are accurately assigned to each speaker, ensuring meeting notes are more actionable.
-
-**Biometric privacy and security** are a top priority. Microsoft encrypts voice and face data at rest and in transit, following strict privacy guidelines, including GDPR compliance. Users can unenroll their voice profiles at any time, and profiles are automatically deleted if unused for one year.
+Currently, **Teams Copilot for Microsoft Teams Rooms** is under development by the Microsoft Teams engineering team and is not yet available for public use on Surface Hub 3. As the platform evolves, additional AI-powered features will be introduced to further enhance the hybrid collaboration experience.
 
 To learn more, see [Get the most out of any Teams Rooms meeting with speaker recognition and Copilot](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/get-the-most-out-of-any-teams-rooms-meeting-with-speaker/ba-p/4182595).
 
