@@ -121,6 +121,6 @@ Windows 10 Team edition, the legacy OS that was the default on Surface Hub 2S, r
 
 ### References
 
-1. Formerly Surface Hub 3 Pack
+1. Formerly Surface Hub 3 Pack.
 2. Software license required. Sold separately.
 3. Sold separately.
