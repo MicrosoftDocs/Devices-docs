@@ -72,10 +72,10 @@ Surface Hub running Teams Rooms on Windows enables real-time collaboration and c
 
 Ready to unlock the full potential of Surface Hub? [Get started with Surface Hub running Microsoft Teams Rooms on Windows](surface-hub-3-get-started.md) to set up your devices today.
 
-There are several ways to get the new Surface Hub experience:
+Explore the different ways to get the new Surface Hub experience:
 
 - Purchase a new Surface Hub 3 from a [Surface device reseller](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface#DEVICESRESELLERS).
-- Upgrade from Surface Hub 2S to Surface Hub 3 via the [Surface Hub 3 Compute Cartridge](surface-hub-3-compute-cartridge-faq.md), delivering faster performance and enhanced graphics.
+- Upgrade from Surface Hub 2S to Surface Hub 3 with the [Surface Hub 3 Compute Cartridge](surface-hub-3-compute-cartridge-faq.md), delivering faster performance and enhanced graphics.
 - Migrate your Surface Hub 2S to the new experience following the instructions in [Migrate Surface Hub 2S to Microsoft Teams Rooms on Windows](surface-hub-2s-migrate-to-mtr-w.md).
 
 
@@ -114,11 +114,11 @@ Windows 10 Team edition, the legacy OS that was the default on Surface Hub 2S, r
 
 ### Learn more
 
-- [Install & manage Surface Hub 3 Compute Cartridge](install-manage-surface-hub-3-compute-cartridge.md)
-- [Install & manage Surface Hub Smart Camera](surface-hub-smart-camera.md)
-- [Site readiness guide for Surface Hub 3](surface-hub-3-site-readiness-guide.md)
-- [First-time setup for Surface Hub running Microsoft Teams Rooms on Windows](first-run-program-surface-hub-3.md)
-- [Security best practices for Surface Hub running Microsoft Teams Rooms on Windows](surface-hub-3-security.md)
+- [Site readiness guide for Surface Hub 3](surface-hub-3-site-readiness-guide.md)  
+- [First-time setup for Surface Hub running Microsoft Teams Rooms on Windows](first-run-program-surface-hub-3.md)  
+- [Install & manage Surface Hub 3 Compute Cartridge](install-manage-surface-hub-3-compute-cartridge.md)  
+- [Install & manage Surface Hub Smart Camera](surface-hub-smart-camera.md)  
+- [Security best practices for Surface Hub running Microsoft Teams Rooms on Windows](surface-hub-3-security.md)  
 - [Install wallpaper on Surface Hub running Microsoft Teams Rooms on Windows](install-wallpaper-surface-hub.md)
 
 ### References
