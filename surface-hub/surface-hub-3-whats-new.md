@@ -18,6 +18,8 @@ appliesto:
 
 [!INCLUDE [Hub MTR Scope](includes/hub-mtr-scope.md)]
 
+## Introduction
+
 Surface Hub 3, available in 50-inch and 85-inch models, delivers an inclusive hybrid collaboration experience through the Microsoft Teams Rooms on Windows platform. Designed end-to-end by Microsoft, Surface Hub 3 is the [premier all-in-one hybrid meeting and collaboration device](https://www.youtube.com/watch?v=VHxasUd908k&t=1s) built for modern work. It brings advanced features and **AI-powered interactive experiences** to elevate collaboration and create an engaging, efficient environment, empowering hybrid teams to be more productive together than ever.
 
 ## Hybrid meetings that include everyone
