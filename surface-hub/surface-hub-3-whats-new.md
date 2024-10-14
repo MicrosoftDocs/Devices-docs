@@ -1,6 +1,6 @@
 ---
 title: What's new for Surface Hub 3
-description:  Learn how the new Surface Hub enhances hybrid collaboration with AI-powered experiences, speaker recognition, and Teams Rooms on Windows.
+description:  Discover how Surface Hub 3 with Teams Rooms on Windows boosts hybrid collaboration with AI-powered features and seamless integration.
 ms.reviewer: dpandre
 manager: frankbu
 ms.service: surface-hub
@@ -16,13 +16,9 @@ appliesto:
 
 # What's new for Surface Hub 3
 
+[!INCLUDE [Hub MTR Scope](includes/hub-mtr-scope.md)]
+
 Surface Hub 3, available in 50-inch and 85-inch models, delivers an inclusive hybrid collaboration experience through the Microsoft Teams Rooms on Windows platform. Designed end-to-end by Microsoft, Surface Hub 3 is the [premier all-in-one hybrid meeting and collaboration device](https://www.youtube.com/watch?v=VHxasUd908k&t=1s) built for modern work. It brings advanced features and **AI-powered interactive experiences** to elevate collaboration and create an engaging, efficient environment, empowering hybrid teams to be more productive together than ever.
-
-There are several ways to get the new Surface Hub experience:
-
-- Purchase a new Surface Hub 3 from a [Surface device reseller](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface#DEVICESRESELLERS).
-- Upgrade from Surface Hub 2S to Surface Hub 3 via the [Surface Hub 3 Compute Cartridge](surface-hub-3-compute-cartridge-faq.md),<sup>1</sup> delivering faster performance and enhanced graphics.
-- Migrate your Surface Hub 2S to the new experience following the instructions in [Migrate Surface Hub 2S to Microsoft Teams Rooms on Windows](surface-hub-2s-migrate-to-mtr-w.md).
 
 ## Hybrid meetings that include everyone
 
@@ -30,7 +26,7 @@ Dissolve boundaries for hybrid teams with a device designed to make meetings mor
 
 - [Surface Hub Smart Camera](surface-hub-smart-camera.md) offers remote participants the best possible view of the room.  
   - Ultra-wide 136-degree field of view with high-quality glass optics and a low-light sensor.
-  - Surface Hub Smart Camera integrates with **IntelliFrame** to keep participants in view as they move or interact with content, ensuring a dynamic and inclusive meeting experience.<sup>2</sup>
+  - Surface Hub Smart Camera integrates with **IntelliFrame** to keep participants in view as they move or interact with content, ensuring a dynamic and inclusive meeting experience.<sup>1</sup>
 - **One-touch join**: Join Microsoft Teams, Zoom, or Webex meetings with a single tap on the home screen.
 - **Facial expressions and body language** are vividly rendered on the 4K touchscreen display, delivering a more natural and inclusive experience for remote and in-room participants.
 
@@ -59,8 +55,8 @@ Surface Hub running Teams Rooms on Windows empowers IT admins with enterprise-gr
 Surface Hub running Teams Rooms on Windows offers unmatched versatility with modular and adaptable components that evolve with your space needs. Whether your teams meet in large conference rooms or smaller breakout areas, Surface Hub delivers the right fit.
 
 - **Two size options**: The 85-inch model is perfect for large rooms, while the 50-inch model suits smaller spaces. The 50-inch model supports Smart Rotation for effortless collaboration in landscape or portrait mode.
-- **Mobile adaptability**: Easily move your Surface Hub using **mobile stands from Designed for Surface partners**,<sup>3</sup> including **Salamander Designs** and **Steelcase**. For added flexibility, take it further with the **APC Charge Mobile Battery**,<sup>3</sup> offering portability without needing a constant power supply.
-- **Modular design**: Interchangeable components, such as the **Surface Hub 3 Compute Cartridge**, help ensure your device is future-proof, adapting to both technology advancements and changing room configurations.
+- **Mobile adaptability**: Easily move your Surface Hub using **mobile stands from Designed for Surface partners**,<sup>2</sup> including **Salamander Designs** and **Steelcase**. For added flexibility, take it further with the **APC Charge Mobile Battery**,<sup>2</sup> offering portability without needing a constant power supply.
+- **Modular design**: Interchangeable components, such as the **Surface Hub 3 Compute Cartridge**,<sup>3</sup> help ensure your device is future-proof, adapting to both technology advancements and changing room configurations.
 
 ## Seamlessly share and cocreate together
 
@@ -74,9 +70,11 @@ Surface Hub running Teams Rooms on Windows enables real-time collaboration and c
 
 Ready to unlock the full potential of Surface Hub? [Get started with Surface Hub running Microsoft Teams Rooms on Windows](surface-hub-3-get-started.md) to set up your devices today.
 
-- [First-time setup for Surface Hub running Microsoft Teams Rooms on Windows](first-run-program-surface-hub-3.md)
-- [Security best practices for Surface Hub running Microsoft Teams Rooms on Windows](surface-hub-3-security.md)
-- [Install wallpaper on Surface Hub running Microsoft Teams Rooms on Windows](install-wallpaper-surface-hub.md)
+There are several ways to get the new Surface Hub experience:
+
+- Purchase a new Surface Hub 3 from a [Surface device reseller](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface#DEVICESRESELLERS).
+- Upgrade from Surface Hub 2S to Surface Hub 3 via the [Surface Hub 3 Compute Cartridge](surface-hub-3-compute-cartridge-faq.md), delivering faster performance and enhanced graphics.
+- Migrate your Surface Hub 2S to the new experience following the instructions in [Migrate Surface Hub 2S to Microsoft Teams Rooms on Windows](surface-hub-2s-migrate-to-mtr-w.md).
 
 
 ## Surface Hub platform differences
@@ -118,9 +116,12 @@ Windows 10 Team edition, the legacy OS that was the default on Surface Hub 2S, r
 - [Install & manage Surface Hub 3 Compute Cartridge](install-manage-surface-hub-3-compute-cartridge.md)
 - [Install & manage Surface Hub Smart Camera](surface-hub-smart-camera.md)
 - [Site readiness guide for Surface Hub 3](surface-hub-3-site-readiness-guide.md)
+- [First-time setup for Surface Hub running Microsoft Teams Rooms on Windows](first-run-program-surface-hub-3.md)
+- [Security best practices for Surface Hub running Microsoft Teams Rooms on Windows](surface-hub-3-security.md)
+- [Install wallpaper on Surface Hub running Microsoft Teams Rooms on Windows](install-wallpaper-surface-hub.md)
 
 ### References
 
-1. Formerly Surface Hub 3 Pack.
-2. Software license required. Sold separately.
-3. Sold separately.
+1. Software license required. Sold separately.
+2. Sold separately.
+3. Formerly Surface Hub 3 Pack. 
