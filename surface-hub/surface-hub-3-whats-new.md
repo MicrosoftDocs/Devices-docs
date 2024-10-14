@@ -1,13 +1,13 @@
 ---
 title: What's new for Surface Hub 3
-description:  Learn how Surface Hub 3 enhances hybrid collaboration with AI-powered experiences, speaker recognition, and Teams Rooms on Windows.
+description:  Learn how the new Surface Hub enhances hybrid collaboration with AI-powered experiences, speaker recognition, and Teams Rooms on Windows.
 ms.reviewer: dpandre
 manager: frankbu
 ms.service: surface-hub
 author: coveminer
 ms.author: dpandre
 ms.topic: how-to
-ms.date: 10/11/2024
+ms.date: 10/14/2024
 ms.localizationpriority: medium
 appliesto:
 - Surface Hub 3
@@ -26,17 +26,17 @@ There are several ways to get the new Surface Hub experience:
 
 ## Hybrid meetings that include everyone
 
-Dissolve boundaries for hybrid teams with a device designed to make meetings more inclusive. Surface Hub 3 provides a premium, AI-powered experience certified for Microsoft Teams. Users can seamlessly join meetings across different platforms like Zoom, Cisco Webex, and Google Meet.
+Dissolve boundaries for hybrid teams with a device designed to make meetings more inclusive. Surface Hub running Teams Rooms on Windows provides a premium, AI-powered experience certified for Microsoft Teams. Users can seamlessly join meetings across different platforms like Zoom, Cisco Webex, and Google Meet.
 
 - **Surface Hub Smart Camera** offers remote participants the best possible view of the room.  
   - Ultra-wide 136-degree field of view with high-quality glass optics and a low-light sensor.
-  - Surface Hub Smart Camera integrates with **IntelliFrame** to keep participants in view as they move or interact with content, ensuring a dynamic and inclusive meeting experience.
+  - Surface Hub Smart Camera integrates with **IntelliFrame** to keep participants in view as they move or interact with content, ensuring a dynamic and inclusive meeting experience.<sup>1</sup>
 - **One-touch join**: Join Microsoft Teams, Zoom, or Webex meetings with a single tap on the home screen.
 - **Facial expressions and body language** are vividly rendered on the 4K touchscreen display, delivering a more natural and inclusive experience for remote and in-room participants.
 
 ### AI-powered speaker recognition
 
-Surface Hub 3 introduces **AI-powered speaker recognition**, enhancing the meeting experience by identifying individual voices in the room for participants who have opted in through voice enrollment. With clear consent and privacy in mind, this feature ensures that meeting contributions are accurately attributed to each speaker, supporting better follow-up and collaboration. Background noise is suppressed, creating a clearer, more focused environment for all participants.
+Surface Hub running Teams Rooms on Windows introduces **AI-powered speaker recognition**, enhancing the meeting experience by identifying individual voices in the room (for participants who have opted in through voice enrollment). With clear consent and privacy in mind, this feature ensures that meeting contributions are accurately attributed to each speaker, supporting better follow-up and collaboration. Background noise is suppressed, creating a clearer, more focused environment for all participants.
 
 - **Speaker recognition**: Identifies participants' voices in the room by analyzing vocal characteristics, ensuring individual contributions are tracked. 
   - **Voice enrollment**: End users can easily create a voice profile via [aka.ms/voiceprofile](https://aka.ms/voiceprofile), allowing their voice to be recognized in meetings. 
@@ -48,7 +48,7 @@ To learn more, see [Get the most out of any Teams Rooms meeting with speaker rec
 
 ## Manage remotely and stay secure anywhere
 
-Surface Hub 3 empowers IT administrators with enterprise-grade tools to manage devices and maintain security from anywhere.
+Surface Hub running Teams Rooms on Windows empowers IT admins with enterprise-grade tools to manage devices and maintain security from anywhere.
 
 - **Remote management**: Use Microsoft Endpoint Manager to configure settings and policies. Monitor health and room status with Microsoft Teams Admin Center and the Teams Rooms Pro Management Portal.
 - **Low-touch deployment**: Quickly deploy devices using Windows Autopilot, and use auto-sign-in capabilities for seamless integration with Azure Directory.
@@ -56,23 +56,23 @@ Surface Hub 3 empowers IT administrators with enterprise-grade tools to manage d
 
 ## Make any place a teamwork space
 
-Surface Hub 3 offers unmatched versatility with modular and adaptable components that evolve with your space needs. Whether your teams meet in large conference rooms or smaller breakout areas, Surface Hub 3 delivers the right fit.
+Surface Hub running Teams Rooms on Windows offers unmatched versatility with modular and adaptable components that evolve with your space needs. Whether your teams meet in large conference rooms or smaller breakout areas, Surface Hub delivers the right fit.
 
 - **Two size options**: The 85-inch model is perfect for large rooms, while the 50-inch model suits smaller spaces. Both models support Smart Rotation for effortless collaboration in landscape or portrait mode.
-- **Mobile adaptability**: Easily move your Surface Hub using **mobile stands from Designed for Surface partners**,<sup>1</sup> including **Salamander Designs** and **Steelcase**. For added flexibility, take it further with the **APC Charge Mobile Battery**,<sup>1</sup> offering portability without needing a constant power supply.
-- **Modular design**: Interchangeable components, such as the Surface Hub 3 Compute Cartridge, ensure your device is future-proof, adapting to both technology advancements and changing room configurations.
+- **Mobile adaptability**: Easily move your Surface Hub using **mobile stands from Designed for Surface partners**,<sup>2</sup> including **Salamander Designs** and **Steelcase**. For added flexibility, take it further with the **APC Charge Mobile Battery**,<sup>2</sup> offering portability without needing a constant power supply.
+- **Modular design**: Interchangeable components, such as the **Surface Hub 3 Compute Cartridge**, ensure your device is future-proof, adapting to both technology advancements and changing room configurations.
 
 ## Seamlessly share and cocreate together
 
-Surface Hub 3 enables real-time collaboration and cocreation, no matter where participants are located.
+Surface Hub running Teams Rooms on Windows enables real-time collaboration and cocreation, no matter where participants are located.
 
 - **Microsoft Whiteboard**: Empower everyone to contribute during brainstorms with active dual-pen inking, which delivers a natural "pen-to-paper" experience. Fast, fluid responsiveness makes inking intuitive, and participants can collaborate from their PCs, phones, or tablets.
-- **Teams Cast**: Share content wirelessly from a PC to Surface Hub 3 with Teams Cast, making it easier for everyone to stay engaged during meetings. To learn more, see [Cast content from your desktop to a Microsoft Teams Room](https://support.microsoft.com/office/cast-content-from-your-desktop-to-a-microsoft-teams-room-6d62cdbb-3da2-4bb9-80bd-9cf1098beb3d).
-- **AI-powered experiences**: Surface Hub 3 introduces powerful AI-driven features to enhance collaboration, ensuring that participants' contributions are recognized and actionable.
+- **Teams Cast**: Share content wirelessly from a PC to Surface Hub running Teams Rooms on Windows with Teams Cast, making it easier for everyone to stay engaged during meetings. To learn more, see [Cast content from your desktop to a Microsoft Teams Room](https://support.microsoft.com/office/cast-content-from-your-desktop-to-a-microsoft-teams-room-6d62cdbb-3da2-4bb9-80bd-9cf1098beb3d).
+- **AI-powered experiences**: Surface Hub running Teams Rooms on Windows introduces powerful AI-driven features to enhance collaboration, ensuring that participants' contributions are recognized and actionable.
 
 ### Next steps
 
-Ready to unlock the full potential of Surface Hub 3? [Get started with Surface Hub running Microsoft Teams Rooms on Windows](surface-hub-3-get-started.md) to set up your devices today.
+Ready to unlock the full potential of Surface Hub? [Get started with Surface Hub running Microsoft Teams Rooms on Windows](surface-hub-3-get-started.md) to set up your devices today.
 
 - [First-time setup for Surface Hub running Microsoft Teams Rooms on Windows](first-run-program-surface-hub-3.md)
 - [Security best practices for Surface Hub running Microsoft Teams Rooms on Windows](surface-hub-3-security.md)
@@ -81,7 +81,7 @@ Ready to unlock the full potential of Surface Hub 3? [Get started with Surface H
 
 ## Surface Hub platform differences
 
-For customers with Surface Hub v1 or Surface Hub 2S devices that have used the legacy Windows 10 Team edition experience previously in their organization, we understand that transitioning operating systems to the new Microsoft Teams Rooms on Windows platform introduces change management considerations. Many customers ask about the differences between the legacy Windows 10 Team edition on Surface Hub 2S and the new [Microsoft Teams Rooms on Windows platform](/microsoftteams/rooms/). This new platform provides a modern, secure, and integrated Teams Rooms experience designed for hybrid collaboration. It powers new Surface Hub 3 devices, Surface Hub 2S devices upgraded with the Surface Hub 3 Compute Cartridge, as well as Surface Hub 2S devices that have been software-migrated from the legacy OS, to the new platform.
+For customers with Surface Hub v1 or Surface Hub 2S devices that have used the legacy Windows 10 Team edition experience previously in their organization, we understand that transitioning operating systems to the new Microsoft Teams Rooms on Windows platform introduces change management considerations. Many customers ask about the differences between the legacy Windows 10 Team edition on Surface Hub 2S and the new [Microsoft Teams Rooms on Windows platform](/microsoftteams/rooms/). This new platform provides a modern, secure, and integrated Teams Rooms experience designed for hybrid collaboration. It powers new Surface Hub 3 devices, Surface Hub 2S devices upgraded with the **Surface Hub 3 Compute Cartridge**, as well as Surface Hub 2S devices that have been software-migrated from the legacy OS, to the new platform.
 
 ### Overview of key differences
 
@@ -108,7 +108,7 @@ For customers with Surface Hub v1 or Surface Hub 2S devices that have used the l
 
 ### Surface Hub 2S on Windows 10 Team edition
 
-Windows 10 Team edition, the legacy OS that was the default on Surface Hub 2S, remains supported until October 14, 2025, allowing time for customers to transition their Surface Hub 2S devices to the Teams Rooms on Windows platform. Customers can choose to upgrade their Surface Hub 2S devices with the Surface Hub 3 Compute Cartridge, which effectively turns their Hub devices into a Surface Hub 3. Or customers can use the [software migration option](surface-hub-2s-migrate-to-mtr-w.md) to transition to Teams Rooms on Windows, although without access to capabilities like Smart Rotation, Portrait, Intelligent Audio<sup>1</sup>, and faster performance (which all require Surface Hub 3 hardware). To learn more, see [Migrate Surface Hub 2S to Microsoft Teams Rooms on Windows](surface-hub-2s-migrate-to-mtr-w.md).
+Windows 10 Team edition, the legacy OS that was the default on Surface Hub 2S, remains supported until October 14, 2025, allowing time for customers to transition their Surface Hub 2S devices to the Teams Rooms on Windows platform. Customers can choose to upgrade their Surface Hub 2S devices with the **Surface Hub 3 Compute Cartridge**, which effectively turns their Hub devices into a Surface Hub 3. Or customers can use the [software migration option](surface-hub-2s-migrate-to-mtr-w.md) to transition to Teams Rooms on Windows, although without access to capabilities like Smart Rotation, Portrait, Intelligent Audio<sup>2</sup>, and faster performance (which all require Surface Hub 3 hardware). To learn more, see [Migrate Surface Hub 2S to Microsoft Teams Rooms on Windows](surface-hub-2s-migrate-to-mtr-w.md).
 
 > [!IMPORTANT]
 > You can software-migrate your Surface Hub 2S device for free at any time before the end of support on October 14, 2025. Unlike the standard versions of Windows 10, there's no extended support option for Windows 10 Team edition when support ends.
@@ -120,4 +120,5 @@ Windows 10 Team edition, the legacy OS that was the default on Surface Hub 2S, r
 
 ### References
 
-1. Sold separately.
+1. Software license required. Sold separately.
+2. Sold separately.
