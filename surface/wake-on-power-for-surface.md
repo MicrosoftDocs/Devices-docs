@@ -45,7 +45,7 @@ The Wake-on-Power feature is available on the following devices:
 - Surface Laptop 6
 - Surface Laptop 5 (commercial SKUs only)
 - Surface Laptop 4 (commercial SKUs only)
-- Surface Laptop 3 (all SKUs)
+- Surface Laptop 3 (Intel processors only)
 - Surface Laptop Go 3 (commercial SKUs only)
 - Surface Laptop Go 2 (commercial SKUs only)
 - Surface Laptop Go (all SKUs)
