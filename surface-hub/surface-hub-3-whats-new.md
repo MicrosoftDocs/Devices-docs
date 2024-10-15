@@ -24,7 +24,7 @@ Surface Hub 3, available in 50-inch and 85-inch models, delivers an inclusive hy
 
 ## Hybrid meetings that include everyone
 
-Dissolve boundaries for hybrid teams with a device designed to make meetings more inclusive. Surface Hub running Teams Rooms on Windows provides a premium, AI-powered experience certified for Microsoft Teams. Users can seamlessly join meetings across different platforms like Zoom, Cisco Webex, and Google Meet.
+Dissolve boundaries for hybrid teams with a device designed to make meetings more inclusive. Surface Hub running Teams Rooms on Windows provides a premium, AI-powered experience certified for Microsoft Teams. Users can seamlessly join meetings across different platforms like Zoom, Cisco Webex, (and Google Meet, anticipated October 2024).
 
 - [Surface Hub Smart Camera](surface-hub-smart-camera.md) offers remote participants the best possible view of the room.  
   - Ultra-wide 136-degree field of view with high-quality glass optics and a low-light sensor.
@@ -107,10 +107,10 @@ For customers with Surface Hub 2S (or Surface Hub v1) devices that have used the
 
 ### Surface Hub 2S on Windows 10 Team edition
 
-Windows 10 Team edition, the legacy OS that was the default on Surface Hub 2S, remains supported until October 14, 2025, allowing time for customers to transition their Surface Hub 2S devices to the Teams Rooms on Windows platform. Customers can choose to upgrade their Surface Hub 2S devices with the **Surface Hub 3 Compute Cartridge**, which effectively turns their Hub devices into a Surface Hub 3. Or customers can use the [software migration option](surface-hub-2s-migrate-to-mtr-w.md) to transition to Teams Rooms on Windows, although without access to capabilities like Smart Rotation, Portrait, Intelligent Audio<sup>3</sup>, and faster performance (which all require Surface Hub 3 hardware). To learn more, see [Migrate Surface Hub 2S to Microsoft Teams Rooms on Windows](surface-hub-2s-migrate-to-mtr-w.md).
+Windows 10 Team edition, the legacy OS that was the default on Surface Hub 2S, remains supported until October 14, 2025, allowing time for customers to transition their Surface Hub 2S devices to the Teams Rooms on Windows platform. Customers can choose to upgrade their Surface Hub 2S devices with the **Surface Hub 3 Compute Cartridge**, which effectively turns their Hub devices into a Surface Hub 3. Or customers can use the [software migration option](surface-hub-2s-migrate-to-mtr-w.md) to transition to Teams Rooms on Windows, although without access to capabilities like Smart Rotation, Portrait, Intelligent Audio<sup>1</sup>, and faster performance (which all require Surface Hub 3 hardware). To learn more, see [Migrate Surface Hub 2S to Microsoft Teams Rooms on Windows](surface-hub-2s-migrate-to-mtr-w.md).
 
 > [!IMPORTANT]
-> You can software-migrate your Surface Hub 2S device for free using the seamless software-migration option at any time before the end of support on October 14, 2025. Unlike the standard versions of Windows 10, there's no extended support option for Windows 10 Team edition when support ends.
+> You can [software-migrate](surface-hub-2s-migrate-to-mtr-w.md) your Surface Hub 2S device for free using the seamless software-migration option at any time before the end of support on October 14, 2025. Unlike the standard versions of Windows 10, there's no extended support option for Windows 10 Team edition when support ends.
 
 ### Learn more
 
