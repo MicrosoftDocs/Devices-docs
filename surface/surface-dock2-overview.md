@@ -6,7 +6,7 @@ ms.localizationpriority: medium
 author: coveminer
 ms.author: chauncel
 ms.topic: overview
-ms.date: 04/09/2024
+ms.date: 10/17/2024
 ms.reviewer: dashap
 manager: frankbu
 appliesto:
@@ -64,13 +64,14 @@ Surface Dock 2 is designed to simplify IT management, enabling admins to automat
   - Surface Pro 9 
   - Surface Pro 9 with 5G
   - Surface Pro 10
+  - Surface Pro 10 with 5G
 
 - Dual 4K@30Hz. Supports up to two displays on the following devices:
 
   - Surface Pro 6
-  - Surface Pro (5th Gen)
+  - Surface Pro (fifth Gen)
   - Surface Laptop 2
-  - Surface Laptop (1st Gen)
+  - Surface Laptop (first Gen)
   - Surface Go
   - Surface Go 2
   - Surface Go 3
@@ -92,9 +93,9 @@ Surface Dock 2 is designed to simplify IT management, enabling admins to automat
 | Component                           | Surface Dock                                                | Surface Dock 2                                                                                      | USB-C Travel Hub |
 | ----------------------------------- | ----------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | ---------------- |
 | Surface Connect                            | Yes                                                         | Yes                                                                                                 | No               |
-| USB-A                               | 2 front facing USB 3.1 Gen 1<br>2 rear facing USB 3.1 Gen 1 | 2 rear facing USB 3.2 Gen 2 (7.5W power)                                                            | 1 USB 3.1 Gen 2  |
-| Mini Display port                   | 2 rear facing (DP1.2)                                       | None                                                                                                | None             |
-| USB-C                               | None                                                        | 2 front facing USB 3.2 Gen 2<br>(15W power)<br>2 rear facing USB 3.2 Gen 2 (DP1.4a)<br>(7.5W power) | 1 USB 3.2 Gen 2  |
+| USB-A                               | Two front facing USB 3.1 Gen 1<br>Two rear facing USB 3.1 Gen 1 | Two rear facing USB 3.2 Gen 2 (7.5 W power)                                                            | One USB 3.1 Gen 2  |
+| Mini Display port                   | Two rear facing (DP1.2)                                       | None                                                                                                | None             |
+| USB-C                               | None                                                        | Two front facing USB 3.2 Gen 2<br>(15 W power)<br>Two rear facing USB 3.2 Gen 2 (DP1.4a)<br>(7.5 W power) | One USB 3.2 Gen 2  |
 | 3.5 mm Audio in/out                 | Yes                                                         | Yes                                                                                                 | Yes              |
 | Ethernet                            | Yes, 1 gigabit                                              | Yes 1 gigabit                                                                                       | Yes, 1 gigabit   |
 | DC power in                         | Yes                                                         | Yes                                                                                                 |                  |

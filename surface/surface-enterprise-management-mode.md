@@ -29,7 +29,7 @@ This article shows you how to create a Surface UEFI configuration package to ena
 
 You can also [Use Microsoft Endpoint Configuration Manager to manage devices with SEMM](use-system-center-configuration-manager-to-manage-devices-with-semm.md).
 
-As an alternative to SEMM, newer Surface devices support remote management of a subset of firmware settings via Microsoft Intune. For more information,see [Manage DFCI on Surface devices](surface-manage-dfci-guide.md).
+As an alternative to SEMM, newer Surface devices support remote management of a subset of firmware settings via Microsoft Intune. For more information, see [Manage DFCI on Surface devices](surface-manage-dfci-guide.md).
 
 ## Supported devices
 
@@ -56,6 +56,7 @@ SEMM is only available on devices with Surface UEFI firmware including:
 - Surface Laptop Studio (commercial SKUs only)
 - Surface Pro (11th Edition) (commercial SKUs only)
 - Surface Pro 10 (commercial SKUs only)
+- Surface Pro 10 with 5G (commercial SKUs only)
 - Surface Pro 9 (commercial SKUs only)
 - Surface Pro 9 with 5G (commercial SKUs only)
 - Surface Pro 8 (commercial SKUs only)
