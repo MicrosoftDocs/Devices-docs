@@ -81,7 +81,7 @@ When you've obtained or created the certificates, you can build the .msi provisi
 
     :::image type="content" source="images/ueficonfig-dock-configure3.png" alt-text="Screenshot that shows ports turned off for unauthenticated devices.":::
 
-7. If you have devices you want to configure for Dynamic USB-C Disablement, select the checkbox as shown in the following figure. Add the required certifciate and select **Next**. To learn more, see [Scenarios for securing Surface Dock ports](#scenarios-for-securing-surface-dock-ports) on this page.
+7. If you have devices you want to configure for Dynamic USB-C Disablement, select the checkbox as shown in the following figure. Add the required certificate and select **Next**. To learn more, see [Scenarios for securing Surface Dock ports](#scenarios-for-securing-surface-dock-ports) on this page.
 
     :::image type="content" source="images/ueficonfig-dock-configure-usb-c.png" alt-text="Screenshot that selection of devices to configure USB-C Dynamic Disablement.":::
 
