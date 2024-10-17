@@ -85,7 +85,7 @@ For Surface Hub 2S only, you can recover the device via the Settings app. Sign i
   
 3. To reconfigure the device, run the first-time Setup program.
 
-4. If you manage the device using Microsoft Intune or another mobile device management solution, retire and delete the previous record and re-enroll the new device. For more information, see [Remove devices by using wipe, retire, or manually unenrolling the device](/intune/devices-wipe).
+4. If you manage the device using Microsoft Intune or another mobile device management solution, retire and delete the previous record and re-enroll the new device. For more information, see [Remove devices by using wipe, retire, or manually unenrolling the device](/mem/intune/remote-actions/devices-wipe).
 
    ![Screenshot of Reset and recovery for Surface Hub.](images/sh2-reset.png)
 
