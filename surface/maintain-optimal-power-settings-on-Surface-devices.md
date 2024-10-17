@@ -78,7 +78,7 @@ With the latest ARM-based **Copilot+ PCs**, including the **Surface Pro (11th Ed
 | Monitor app usage | Surface app | Open the **Surface app** to view app energy consumption. |
 | Inspect power cords | Physical inspection | Check for worn or damaged power cables. |
 
-### Conclusion
+### Summary
 
 By following these best practices and leveraging built-in Surface features like Modern Standby, Battery Saver, and the Surface app, IT admins can ensure optimal performance and battery life for their devices. The latest Copilot+ PCs, powered by ARM processors, offer even more power efficiency, supporting flexible work scenarios and mobile productivity.
 
