@@ -29,7 +29,7 @@ This article shows you how to create a Surface UEFI configuration package to ena
 
 You can also [Use Microsoft Endpoint Configuration Manager to manage devices with SEMM](use-system-center-configuration-manager-to-manage-devices-with-semm.md).
 
-As an alternative to SEMM, newer Surface devices support remote management of a subset of firmware settings via Microsoft Intune. For more information,see [Manage DFCI on Surface devices](surface-manage-dfci-guide.md).
+As an alternative to SEMM, newer Surface devices support remote management of a subset of firmware settings via Microsoft Intune. For more information, see [Manage DFCI on Surface devices](surface-manage-dfci-guide.md).
 
 ## Supported devices
 
