@@ -75,6 +75,8 @@ The following table shows the release and end-of-servicing dates for Surface dev
 | Surface Pro 10                         | April 9, 2024       | April 9, 2030                                |
 | Surface Laptop (7th Edition)           | June 18, 2024       | June 18, 2030                                |
 | Surface Pro (11th Edition)             | June 18, 2024       | June 18, 2030                                |
+| Surface Pro 10 5G                      | October 11, 2024    | October 11, 2030                               |
+
 
 ## Legacy products
 
