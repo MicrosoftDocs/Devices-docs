@@ -64,7 +64,7 @@ Surface Dock 2 is designed to simplify IT management, enabling admins to automat
   - Surface Pro 9 
   - Surface Pro 9 with 5G
   - Surface Pro 10
-  - Surface Pro 10 5G
+  - Surface Pro 10 with 5G
 
 - Dual 4K@30Hz. Supports up to two displays on the following devices:
 
