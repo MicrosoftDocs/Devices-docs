@@ -16,9 +16,7 @@ appliesto:
 
 # Surface devices driver and firmware lifecycle for Windows-based devices
 
-This page provides essential information on the driver and firmware lifecycle for Windows-based Surface devices.
-
-This policy outlines the lifecycle of driver and firmware updates for all Surface devices, including Surface for Business and Consumer devices. It runs from the initial release of a device until the designated end-of-servicing date when Surface ceases to publish updates. 
+This page provides essential information on the driver and firmware lifecycle for Windows-based Surface devices. This policy outlines the lifecycle of driver and firmware updates for all Surface devices, including Surface for Business and Consumer devices. It runs from the initial release of a device until the designated end-of-servicing date when Surface ceases to publish updates. 
 
 ## Overview
 
