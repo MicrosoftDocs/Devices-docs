@@ -23,6 +23,7 @@ ms.custom:
 - Surface Laptop Studio (all generations)
 - Surface Pro (11th Edition)
 - Surface Pro 10
+- Surface Pro 10 with 5G
 - Surface Pro 9
 - Surface Pro 9 with 5G
 - Surface Pro 8
