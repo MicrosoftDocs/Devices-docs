@@ -25,9 +25,9 @@ With a USB drive, you can reinstall the device to factory settings--even if you 
 
 2. Ensure you download the appropriate image for your Surface Hub:
 
->[!IMPORTANT]
-> For **Surface Hub 2S:** Use the **Windows 10 Team 2022 Update** recovery image.<br>
-> For **Surface Hub 3 and [migrated Hub 2S](surface-hub-2s-migrate-to-mtr-w.md):** Use the **Windows 11 IoT Enterprise with the Microsoft Teams Rooms on Windows experience** recovery image.  
+   >[!IMPORTANT]
+   > For **Surface Hub 2S devices**: Use the **Windows 10 Team 2022 Update** recovery image.<br>
+   > For **Surface Hub 3 devices and [Hub 2S devices already migrated to Teams Rooms](surface-hub-2s-migrate-to-mtr-w.md)**: Use the **Windows 11 IoT Enterprise with the Microsoft Teams Rooms on Windows experience** recovery image.  
 
 3. In the search box on the taskbar, enter **recovery drive**, and select **Create a recovery drive** or **Recovery Drive** from the results. You may need to enter an admin password or confirm your choice.
 
@@ -37,8 +37,8 @@ With a USB drive, you can reinstall the device to factory settings--even if you 
 
 6. Select your USB drive, then select **Next > Create**.  Some utilities need to be copied to the recovery drive, so this might take a few minutes.
 
->[!TIP]
-> Use a USB 3.0 drive with 16 GB or 32 GB of storage, formatted as FAT32.
+   >[!TIP]
+   > Use a USB 3.0 drive with 16 GB or 32 GB of storage, formatted as FAT32.
 
 7. When the recovery drive is ready, select **Finish**.
 
@@ -85,7 +85,7 @@ For Surface Hub 2S only, you can recover the device via the Settings app. Sign i
   
 3. To reconfigure the device, run the first-time Setup program.
 
-4. If you manage the device using Microsoft Intune or another mobile device management solution, retire and delete the previous record and re-enroll the new device. For more information, see [Remove devices by using wipe, retire, or manually unenrolling the device](/intune/devices-wipe).
+4. If you manage the device using Microsoft Intune or another mobile device management solution, retire and delete the previous record and re-enroll the new device. For more information, see [Remove devices by using wipe, retire, or manually unenrolling the device](/mem/intune/remote-actions/devices-wipe).
 
    ![Screenshot of Reset and recovery for Surface Hub.](images/sh2-reset.png)
 
