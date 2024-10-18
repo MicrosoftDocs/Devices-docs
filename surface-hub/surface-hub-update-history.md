@@ -1,16 +1,16 @@
 ---
-title: Surface Hub update history
-description: Surface Hub update history
+title: Windows 10 Team edition OS update history
+description: Explore the update history for Surface Hub (v1) and Hub 2S devices running Windows 10 Team edition, focusing on security, performance, and compliance.
 ms.assetid: d66a9392-2b14-4cb2-95c3-92db0ae2de34
 ms.service: surface-hub
 author: coveminer
 ms.author: dpandre
 ms.topic: how-to
 ms.localizationpriority: high
-ms.date: 06/09/2020
+ms.date: 10/18/2024
 ---
 
-# Surface Hub update history
+# Windows 10 Team edition OS update history
 
 Surface Hub (v1) and Hub 2S devices ship with Windows 10 Team edition. Windows was designed to be a service, which means it automatically gets better through periodic software updates. Typically you don't have to do anything to get the latest Windows 10 updates—they'll download and install whenever they're available.
 
@@ -20,6 +20,28 @@ Most Windows updates focus on performance and security improvements. In the foll
 > This page is refreshed as new updates are released. Please refer to the [Surface Hub Important Information](https://support.microsoft.com/products/surface-devices/surface-hub) page for related topics on current and past releases that may require your attention.
 
 ## Windows 10 Team 2022 Update (22H2)
+
+### September 30, 2024 - update for Surface Hub 2S
+
+This update provides improvements for Surface Hub 2S, focusing on device security and regulatory compliance. It includes the following driver and firmware updates:
+
+* **Surface UEFI update** - 699.1205.768.0  
+  * Addresses a critical security vulnerability and enhances system performance.
+  
+* **Surface ME Firmware update** - 11.8.96.4657  
+  * Resolves known security vulnerabilities and improves device stability.
+
+* **Intel Management Engine Interface driver** - 2406.5.5.0  
+  * Mitigates vulnerabilities identified in Intel Security Advisories INTEL-SA-00999, INTEL-SA-01083, and INTEL-SA-01071.
+
+* **Surface System Telemetry driver** - 10.105.10.0  
+  * Addresses regulatory data collection requirements and updates the consent process for data transmission.
+
+* **Surface Integration Service** - 6.214.10.0  
+  * Enhances regulatory compliance with data collection and updates the user consent experience.
+
+* **Realtek Ethernet driver** - 10.59.20.0420  
+  * Improves Ethernet performance and network stability.
 
 ### August 27, 2024 - update for Surface Hub 2S
 

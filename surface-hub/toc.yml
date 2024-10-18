@@ -36,6 +36,11 @@
                 href: surface-hub-3-security.md    
               - name: Install wallpaper
                 href: install-wallpaper-surface-hub.md 
+           - name: Troubleshoot
+             expanded: true
+             items: 
+              - name: Surface Hub 3 OS update history  
+                href: surface-hub-3-update-history.md
         - name: Windows 10 Team 2022
           expanded: true
           items: 
@@ -177,7 +182,7 @@
                   href: surface-hub-secure-with-uefi-semm.md
               - name: Troubleshoot
                 items:
-                - name: Surface Hub Update History
+                - name: Windows 10 Team update history
                   href: surface-hub-update-history.md      
                 - name: Known issues - 22H2 
                   href: windows-10-team-known-issues.md
