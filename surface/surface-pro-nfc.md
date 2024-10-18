@@ -15,7 +15,7 @@ appliesto:
 
 # NFC support in Surface Pro
 
-Near Field Communication (NFC) in commercial versions of Surface Pro 10 and Surface Pro (11th Edition)<sup>1</sup> is designed to enhance security and convenience for users. It facilitates Microsoft Entra ID (formerly Azure AD) and Microsoft Account (MSA) authentication via FIDO 2.0 standards, enabling secure access and sign-in. Additionally, these devices are capable of reading and writing NFC tags.
+Near Field Communication (NFC) in commercial versions of Surface Pro 10 and Surface Pro (11th Edition)[<sup>1</sup>](#references) is designed to enhance security and convenience for users. It facilitates Microsoft Entra ID (formerly Azure AD) and Microsoft Account (MSA) authentication via FIDO 2.0 standards, enabling secure access and sign-in. Additionally, these devices are capable of reading and writing NFC tags.
 
 Although NFC can read information stored on the magnetic stripe of a bank card, it doesn't support payment transactions on Surface Pro 10 or Surface Pro (11th Edition).
 
