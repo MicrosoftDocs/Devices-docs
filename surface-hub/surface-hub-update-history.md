@@ -19,6 +19,8 @@ Most Windows updates focus on performance and security improvements. In the foll
 > [!TIP]
 > This page is refreshed as new updates are released. Please refer to the [Surface Hub Important Information](https://support.microsoft.com/products/surface-devices/surface-hub) page for related topics on current and past releases that may require your attention.
 
+## Windows 10 Team 2022 Update (22H2)
+
 ### August 27, 2024 - update for Surface Hub 2S
 
 This update is specific to the Surface Hub 2S and provides the driver and firmware updates outlined below:
