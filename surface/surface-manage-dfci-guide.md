@@ -41,7 +41,8 @@ Designed to be used with software-level mobile device management (MDM), DFCI ena
 - Surface Hub 3
 - Surface Hub 2S running Microsoft Teams Rooms on Windows
 - Surface Pro (11th Edition)(commercial SKUs only)
-- Surface Pro 10 
+- Surface Pro 10 (commercial SKUs only)
+- Surface Pro 10 with 5G (commercial SKUs only)
 - Surface Pro 9 (commercial SKUs only)
 - Surface Pro 9 with 5G (commercial SKUs only)
 - Surface Pro 8 (commercial SKUs only)
@@ -148,7 +149,7 @@ When you create a DFCI profile, all configured settings will remain in effect ac
 1. Retire the device from Intune:
    1. In Endpoint Manager at endpoint.microsoft.com, choose **Devices** > **All Devices**.
    1. Select the device you want to retire, then choose **Retire/Wipe.**
-   To learn more, see [Remove devices by using wipe, retire, or manually unenrolling the device](/intune/remote-actions/devices-wipe).
+   To learn more, see [Remove devices by using wipe, retire, or manually unenrolling the device](/mem/intune/remote-actions/devices-wipe).
 2. Delete the Autopilot registration from Intune:
    1. Choose **Device enrollment > Windows enrollment > Devices**.
    2. Under Windows Autopilot devices, choose the devices you want to delete, then choose **Delete**.

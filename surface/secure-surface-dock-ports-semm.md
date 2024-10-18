@@ -20,7 +20,7 @@ IT admins can secure and manage ports on Surface Dock 2 or Surface Thunderbolt 4
 
 ## Supported devices
 
-Managing Surface Dock 2 or Surface Thunderbolt 4 Dock with SEMM is available for docks connected to Surface Laptop Studio (all generations), Surface Laptop (7th Edition), Surface Laptop 6, Surface Laptop 5, Surface Laptop 4, Surface Laptop 3, Surface Laptop Go (all generations), Surface Pro (11th Edition), Surface Pro 10, Surface Pro 9, Surface Pro 9 with 5G, Surface Pro 8, Surface Pro 7+, Surface Pro 7, Surface Pro X, and Surface Book 3.
+Managing Surface Dock 2 or Surface Thunderbolt 4 Dock with SEMM is available for docks connected to Surface Laptop Studio (all generations), Surface Laptop (7th Edition), Surface Laptop 6, Surface Laptop 5, Surface Laptop 4, Surface Laptop 3, Surface Laptop Go (all generations), Surface Pro (11th Edition), Surface Pro 10, Surface Pro 10 with 5G, Surface Pro 9, Surface Pro 9 with 5G, Surface Pro 8, Surface Pro 7+, Surface Pro 7, Surface Pro X, and Surface Book 3.
 
 > [!TIP]
 > These compatible Surface devices are commonly referred to as **host devices**. A package is applied to host devices based on whether a host device is **Authenticated** or **Unauthenticated**. Configured settings reside in the UEFI layer on host devices, enabling IT admins to manage compatible Surface Docks like any other built-in peripheral, such as the camera.
@@ -81,7 +81,7 @@ When you've obtained or created the certificates, you can build the .msi provisi
 
     :::image type="content" source="images/ueficonfig-dock-configure3.png" alt-text="Screenshot that shows ports turned off for unauthenticated devices.":::
 
-7. If you have devices you want to configure for Dynamic USB-C Disablement, select the checkbox as shown in the following figure. Add the required certifciate and select **Next**. To learn more, see [Scenarios for securing Surface Dock ports](#scenarios-for-securing-surface-dock-ports) on this page.
+7. If you have devices you want to configure for Dynamic USB-C Disablement, select the checkbox as shown in the following figure. Add the required certificate and select **Next**. To learn more, see [Scenarios for securing Surface Dock ports](#scenarios-for-securing-surface-dock-ports) on this page.
 
     :::image type="content" source="images/ueficonfig-dock-configure-usb-c.png" alt-text="Screenshot that selection of devices to configure USB-C Dynamic Disablement.":::
 
