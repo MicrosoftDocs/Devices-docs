@@ -26,7 +26,7 @@ All updates are cumulative, meaning installing the latest update will include al
 
 ### September 30, 2024 - update for Surface Hub 3
 
-This update provides improvements for Surface Hub 3, focusing on security, performance, and regulatory compliance. The following driver and firmware updates are included:
+The following driver and firmware updates are included:
 
 * **Realtek Ethernet driver** - 1153.13.20.0420  
   * Improves Ethernet performance and network stability.
