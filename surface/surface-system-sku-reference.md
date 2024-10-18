@@ -5,7 +5,7 @@ ms.service: surface
 author: coveminer
 ms.author: chauncel
 ms.topic: how-to
-ms.date: 09/29/2024
+ms.date: 10/18/2024
 ms.reviewer: tode
 manager: frankbu
 ms.localizationpriority: medium
@@ -88,6 +88,9 @@ System Model and System SKU are variables stored in System Management BIOS (SMBI
 | Surface Pro X with SQ2 processor                             | Surface Pro X    | Surface_Pro_X_H_1876        |
 | Surface Pro X (Wi-Fi)                                        | Surface Pro X    | Surface_Pro_X_2010        |
 | Surface Pro 10 for Business                                              | Surface Pro 10 for Business   | Surface_Pro_10_for_Business_2079        |
+| Surface Pro 10 with 5G for Business (outside of Japan and Korea) | Surface Pro 10 with 5G for Business | Surface_Pro_10_with_5G_for_Business_2077|
+| Surface Pro 10 with 5G for Business (Japan) |Surface Pro 10 with 5G for Business  | Surface_Pro_10_with_5G_for_Business_2078  |
+| Surface Pro 10 with 5G for Business (Korea)| Surface Pro 10 with 5G for Business | Surface_Pro_10_with_5G_for_Business_2121  |
 | Surface Pro (11th Edition) Consumer                          | Microsoft Surface Pro, 11th Edition   | Surface_Pro_11th_Edition_2076        |
 | Surface Pro (11th Edition) Commercial                        | Microsoft Surface Pro, 11th Edition   | Surface_Pro_11th_Edition_For_Business_2085        |
 | Surface Pro with 5G, 11th Edition, Consumer (outside of Japan) | Microsoft Surface Pro with 5G, 11th Edition  | Surface_Pro_with_5G_11th_Edition_2077|
