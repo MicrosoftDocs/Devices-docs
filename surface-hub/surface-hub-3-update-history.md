@@ -15,12 +15,12 @@ ms.date: 10/18/2024
 
 ## Introduction
 
-This page includes technical details of updates released for Surface Hub 3 running Microsoft Teams Rooms on Windows. 
+This page provides a detailed history of firmware and driver updates released for Surface Hub 3 running Microsoft Teams Rooms on Windows. These updates are designed to enhance security, improve performance, and ensure compliance with regulatory requirements. 
 
-Most Windows updates focus on performance and security improvements. Updates are cumulative, so installing the latest available Windows update ensures that you also benefit from improvements in any previous updates. Microsoft Store apps are also updated automatically in the background. Details about app updates are provided on a per-app basis.
+All updates are cumulative, meaning installing the latest update will include all improvements from previous releases.
 
-> [!TIP]
-> This page is refreshed as new updates are released. Please refer to the [Surface Hub Important Information](https://support.microsoft.com/products/surface-devices/surface-hub) page for related topics on current and past releases that may require your attention.
+> [!TIP]  
+> This page is updated regularly as new firmware and driver updates become available. For related topics and additional device information, see the [Surface Hub Important Information](https://support.microsoft.com/products/surface-devices/surface-hub) page.
 
 ## Surface Hub 3 running Microsoft Teams Rooms
 
