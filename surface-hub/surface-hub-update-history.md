@@ -1,16 +1,16 @@
 ---
-title: Surface Hub update history
-description: Surface Hub update history
+title: Windows 10 Team edition OS update history
+description: Explore the update history for Surface Hub (v1) and Hub 2S devices running Windows 10 Team edition, focusing on security, performance, and compliance.
 ms.assetid: d66a9392-2b14-4cb2-95c3-92db0ae2de34
 ms.service: surface-hub
 author: coveminer
 ms.author: dpandre
 ms.topic: how-to
 ms.localizationpriority: high
-ms.date: 06/09/2020
+ms.date: 10/18/2024
 ---
 
-# Surface Hub update history
+# Windows 10 Team edition OS update history
 
 Surface Hub (v1) and Hub 2S devices ship with Windows 10 Team edition. Windows was designed to be a service, which means it automatically gets better through periodic software updates. Typically you don't have to do anything to get the latest Windows 10 updates—they'll download and install whenever they're available.
 
