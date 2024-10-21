@@ -39,7 +39,7 @@
            - name: Troubleshoot
              expanded: true
              items: 
-              - name: Surface Hub 3 OS update history  
+              - name: Surface Hub 3 update history  
                 href: surface-hub-3-update-history.md
         - name: Windows 10 Team 2022
           expanded: true
