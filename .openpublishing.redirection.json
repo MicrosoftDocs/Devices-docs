@@ -379,6 +379,16 @@
             "source_path":  "surface/self-serve-warranty-service.md",
             "redirect_url": "/surface/surface-portals",
             "redirect_document_id":  false
-        }                                                      						
+        },       
+        {
+            "source_path":  "surface/ltsb-for-surface.md",
+            "redirect_url": "/surface/long-term-servicing-channel-surface devices",
+            "redirect_document_id":  false
+        },         
+        {
+            "source_path":  "surface/surface-device-compatibility-with-windows-10-ltsc.md",
+            "redirect_url": "/surface/long-term-servicing-channel-surface devices",
+            "redirect_document_id":  false
+        }                                                                        						
     ]
 }

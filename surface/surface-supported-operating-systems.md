@@ -114,4 +114,4 @@ This article lists the versions of Windows that are supported on the Business an
 ## More information
 
 Surface Pro devices are optimized for 64-bit versions of the operating system. On these devices, 32-bit versions of Windows are unsupported. If a 32-bit version of the operating system is installed, it may not start correctly. This may occur if you try to start from external media, such as an attached USB or DVD drive. This may also occur if you try to start to an image that was applied to the local disk.
-For additional information about LTSC support see [Surface device compatibility with Windows 10 Long-Term Servicing Channel (LTSC)](surface-device-compatibility-with-windows-10-ltsc.md).
+For additional information about LTSC support see [Long-Term Servicing Channel (LTSC) for Surface devices](long-term-servicing-channel-surface-devices.md)
