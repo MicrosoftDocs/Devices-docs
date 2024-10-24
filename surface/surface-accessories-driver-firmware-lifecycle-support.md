@@ -74,5 +74,5 @@ Surface Slim Pen                                     | October 1, 2019     | Sep
 
 - [Surface driver and firmware lifecycle for Windows-based devices](surface-driver-firmware-lifecycle-support.md)
 - [Surface Hub devices and accessories Driver and firmware lifecycle](/surface-hub/surface-hub-driver-firmware-accessories-lifecycle)
-- [Long-Term Servicing Channel (LTSC) for Surface devices](long-term-servicing-channel-surface-devices.md)
+- [Surface device compatibility with Windows Long-Term Servicing Channel (LTSC)](surface-device-compatibility-with-windows-ltsc.md)
 - [Surface Warranty and Support Plans](https://www.microsoft.com/surface/business/warranty-protection-plans-and-support)
