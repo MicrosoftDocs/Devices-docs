@@ -73,7 +73,7 @@
           href: surface-system-sku-reference.md
     - name: Deploy & manage
       expanded: true
-      items: N
+      items: 
       - name: Surface portals overview
         href: surface-portals.md
         expanded: true
