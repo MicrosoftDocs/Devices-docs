@@ -112,6 +112,6 @@ The following table lists products that have passed their end-of-servicing date 
 - [Surface accessories driver and firmware lifecycle](surface-accessories-driver-firmware-lifecycle-support.md)
 - [Driver and firmware lifecycle for Surface Hub devices and accessories](/surface-hub/surface-hub-driver-firmware-accessories-lifecycle)
 - [Manage and deploy Surface driver and firmware updates](manage-surface-driver-and-firmware-updates.md)
-- [Surface device compatibility with Windows 10 Long-Term Servicing Channel (LTSC)](surface-device-compatibility-with-windows-10-ltsc.md)
+- [Surface device compatibility with Windows Long-Term Servicing Channel (LTSC)](surface-device-compatibility-with-windows-ltsc.md)
 - [Surface Warranty and Support Plans](https://www.microsoft.com/surface/business/warranty-protection-plans-and-support)
 - [Surface update history](https://support.microsoft.com/surface/surface-update-history-6036fff5-edec-c8ec-9796-a5633aac9488)

@@ -65,10 +65,8 @@
           href: surface-driver-firmware-lifecycle-support.md
         - name: Surface accessories driver & firmware lifecycle
           href: surface-accessories-driver-firmware-lifecycle-support.md         
-        - name: Surface device compatibility with Windows 10 Long-Term Servicing Branch
-          href: surface-device-compatibility-with-windows-10-ltsc.md
-        - name: Long-Term Servicing Branch for Surface devices
-          href: ltsb-for-surface.md
+        - name: Surface device compatibility with Windows LTSC
+          href: surface-device-compatibility-with-windows-ltsc.md
         - name: Ethernet adapters & Surface deployment
           href: ethernet-adapters-and-surface-device-deployment.md
         - name: Surface System SKU reference
