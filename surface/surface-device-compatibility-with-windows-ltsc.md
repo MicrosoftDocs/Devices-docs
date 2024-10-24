@@ -1,5 +1,5 @@
 ---
-title: Long-Term Servicing Channel (LTSC) for Surface devices
+title: Surface device compatibility with Windows Long-Term Servicing Channel (LTSC)
 description: Learn how Surface devices align with Windows LTSC editions, offering stability for specialized systems, with guidance on transitions to Windows 11
 ms.service: surface
 author: coveminer
@@ -10,7 +10,7 @@ ms.date: 10/23/2024
 manager: frankbu
 ---
 
-# Long-Term Servicing Channel (LTSC) for Surface devices
+# Surface device compatibility with Windows Long-Term Servicing Channel (LTSC)
 
 Surface devices are designed for productivity and general-purpose use, benefiting from continuous updates delivered via the Semi-Annual Channel (SAC). However, some organizations might require the **Long-Term Servicing Channel (LTSC)** for special-purpose systems, such as manufacturing equipment or healthcare environments.
 
